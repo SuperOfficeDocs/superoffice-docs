@@ -7,8 +7,10 @@ items:
   children:
   - SuperOffice.CRM.Rows.CategoryRecordData.#ctor
   - SuperOffice.CRM.Rows.CategoryRecordData.CategoryFamilyId
+  - SuperOffice.CRM.Rows.CategoryRecordData.CategoryGroup
   - SuperOffice.CRM.Rows.CategoryRecordData.CategoryId
   - SuperOffice.CRM.Rows.CategoryRecordData.Deleted
+  - SuperOffice.CRM.Rows.CategoryRecordData.EnableLeadStatus
   - SuperOffice.CRM.Rows.CategoryRecordData.Name
   - SuperOffice.CRM.Rows.CategoryRecordData.Rank
   - SuperOffice.CRM.Rows.CategoryRecordData.Registered
@@ -290,6 +292,48 @@ items:
     return:
       type: System.Int32
     content.vb: Public CategoryFamilyId As Integer
+- uid: SuperOffice.CRM.Rows.CategoryRecordData.CategoryGroup
+  commentId: F:SuperOffice.CRM.Rows.CategoryRecordData.CategoryGroup
+  id: CategoryGroup
+  parent: SuperOffice.CRM.Rows.CategoryRecordData
+  langs:
+  - csharp
+  - vb
+  name: CategoryGroup
+  nameWithType: CategoryRecordData.CategoryGroup
+  fullName: SuperOffice.CRM.Rows.CategoryRecordData.CategoryGroup
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Category group
+  example: []
+  syntax:
+    content: public CategoryGroup CategoryGroup
+    return:
+      type: SuperOffice.Data.CategoryGroup
+    content.vb: Public CategoryGroup As CategoryGroup
+- uid: SuperOffice.CRM.Rows.CategoryRecordData.EnableLeadStatus
+  commentId: F:SuperOffice.CRM.Rows.CategoryRecordData.EnableLeadStatus
+  id: EnableLeadStatus
+  parent: SuperOffice.CRM.Rows.CategoryRecordData
+  langs:
+  - csharp
+  - vb
+  name: EnableLeadStatus
+  nameWithType: CategoryRecordData.EnableLeadStatus
+  fullName: SuperOffice.CRM.Rows.CategoryRecordData.EnableLeadStatus
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Enable lead status qualification for categorygroup potential customers
+  example: []
+  syntax:
+    content: public short EnableLeadStatus
+    return:
+      type: System.Int16
+    content.vb: Public EnableLeadStatus As Short
 - uid: SuperOffice.CRM.Rows.CategoryRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.CategoryRecordData.#ctor
   id: '#ctor'
@@ -1227,6 +1271,41 @@ references:
   nameWithType.vb: Date
   fullName.vb: Date
   name.vb: Date
+- uid: SuperOffice.Data.CategoryGroup
+  commentId: T:SuperOffice.Data.CategoryGroup
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.CategoryGroup.html
+  name: CategoryGroup
+  nameWithType: CategoryGroup
+  fullName: SuperOffice.Data.CategoryGroup
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
 - uid: SuperOffice.CRM.Rows.CategoryRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.CategoryRecordData.#ctor
   isExternal: true

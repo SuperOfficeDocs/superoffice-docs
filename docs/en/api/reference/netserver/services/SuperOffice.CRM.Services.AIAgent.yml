@@ -5,8 +5,10 @@ items:
   id: AIAgent
   parent: SuperOffice.CRM.Services
   children:
-  - SuperOffice.CRM.Services.AIAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategoryGuessImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatbotTurnImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentimentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagAnswerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.AIAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategoryGuessImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatbotTurnImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentimentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagAnswerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.AIAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IBizCardImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategoryGuessImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatbotTurnImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentimentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagAnswerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  - SuperOffice.CRM.Services.AIAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IBizCardImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategoryGuessImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatbotTurnImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentimentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagAnswerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  - SuperOffice.CRM.Services.AIAgent.AnalyzeBizCardImageAsync(System.IO.Stream,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.AIAgent.AnalyzeBizCardTextAsync(System.String,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.AIAgent.AnswerAcceptedAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.AIAgent.AnswerAsync(System.String,System.String,SuperOffice.Data.RagType,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.AIAgent.AnswerFeedbackAsync(System.String,System.Boolean,System.Threading.CancellationToken)
@@ -66,25 +68,27 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
-- uid: SuperOffice.CRM.Services.AIAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategoryGuessImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatbotTurnImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentimentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagAnswerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  commentId: M:SuperOffice.CRM.Services.AIAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategoryGuessImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatbotTurnImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentimentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagAnswerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategoryGuessImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatbotTurnImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentimentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagAnswerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
+- uid: SuperOffice.CRM.Services.AIAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IBizCardImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategoryGuessImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatbotTurnImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentimentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagAnswerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  commentId: M:SuperOffice.CRM.Services.AIAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IBizCardImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategoryGuessImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatbotTurnImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentimentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagAnswerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IBizCardImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategoryGuessImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatbotTurnImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentimentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagAnswerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)'
   parent: SuperOffice.CRM.Services.AIAgent
   langs:
   - csharp
   - vb
-  name: AIAgent(ITextServicesImplementation, ICategorizationStatusResponseImplementation, ICategoryGuessImplementation, IChatbotTurnImplementation, ISentimentImplementation, IRagAnswerImplementation, IRagResultImplementation, ISummarizerImplementation, ISoRequestItemsAccessor)
-  nameWithType: AIAgent.AIAgent(ITextServicesImplementation, ICategorizationStatusResponseImplementation, ICategoryGuessImplementation, IChatbotTurnImplementation, ISentimentImplementation, IRagAnswerImplementation, IRagResultImplementation, ISummarizerImplementation, ISoRequestItemsAccessor)
-  fullName: SuperOffice.CRM.Services.AIAgent.AIAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategoryGuessImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatbotTurnImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentimentImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagAnswerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagResultImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name: AIAgent(ITextServicesImplementation, IBizCardImplementation, ICategorizationStatusResponseImplementation, ICategoryGuessImplementation, IChatbotTurnImplementation, ISentimentImplementation, IRagAnswerImplementation, IRagResultImplementation, ISummarizerImplementation, ISoRequestItemsAccessor)
+  nameWithType: AIAgent.AIAgent(ITextServicesImplementation, IBizCardImplementation, ICategorizationStatusResponseImplementation, ICategoryGuessImplementation, IChatbotTurnImplementation, ISentimentImplementation, IRagAnswerImplementation, IRagResultImplementation, ISummarizerImplementation, ISoRequestItemsAccessor)
+  fullName: SuperOffice.CRM.Services.AIAgent.AIAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IBizCardImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategoryGuessImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatbotTurnImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentimentImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagAnswerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagResultImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public AIAgent(ITextServicesImplementation textServicesImplementation, ICategorizationStatusResponseImplementation categorizationStatusResponseImplementation, ICategoryGuessImplementation categoryGuessImplementation, IChatbotTurnImplementation chatbotTurnImplementation, ISentimentImplementation sentimentImplementation, IRagAnswerImplementation ragAnswerImplementation, IRagResultImplementation ragResultImplementation, ISummarizerImplementation summarizerImplementation, ISoRequestItemsAccessor accessor)
+    content: public AIAgent(ITextServicesImplementation textServicesImplementation, IBizCardImplementation bizCardImplementation, ICategorizationStatusResponseImplementation categorizationStatusResponseImplementation, ICategoryGuessImplementation categoryGuessImplementation, IChatbotTurnImplementation chatbotTurnImplementation, ISentimentImplementation sentimentImplementation, IRagAnswerImplementation ragAnswerImplementation, IRagResultImplementation ragResultImplementation, ISummarizerImplementation summarizerImplementation, ISoRequestItemsAccessor accessor)
     parameters:
     - id: textServicesImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation
+    - id: bizCardImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IBizCardImplementation
     - id: categorizationStatusResponseImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation
     - id: categoryGuessImplementation
@@ -101,30 +105,32 @@ items:
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation
     - id: accessor
       type: SuperOffice.Factory.ISoRequestItemsAccessor
-    content.vb: Public Sub New(textServicesImplementation As ITextServicesImplementation, categorizationStatusResponseImplementation As ICategorizationStatusResponseImplementation, categoryGuessImplementation As ICategoryGuessImplementation, chatbotTurnImplementation As IChatbotTurnImplementation, sentimentImplementation As ISentimentImplementation, ragAnswerImplementation As IRagAnswerImplementation, ragResultImplementation As IRagResultImplementation, summarizerImplementation As ISummarizerImplementation, accessor As ISoRequestItemsAccessor)
+    content.vb: Public Sub New(textServicesImplementation As ITextServicesImplementation, bizCardImplementation As IBizCardImplementation, categorizationStatusResponseImplementation As ICategorizationStatusResponseImplementation, categoryGuessImplementation As ICategoryGuessImplementation, chatbotTurnImplementation As IChatbotTurnImplementation, sentimentImplementation As ISentimentImplementation, ragAnswerImplementation As IRagAnswerImplementation, ragResultImplementation As IRagResultImplementation, summarizerImplementation As ISummarizerImplementation, accessor As ISoRequestItemsAccessor)
   overload: SuperOffice.CRM.Services.AIAgent.#ctor*
-  nameWithType.vb: AIAgent.New(ITextServicesImplementation, ICategorizationStatusResponseImplementation, ICategoryGuessImplementation, IChatbotTurnImplementation, ISentimentImplementation, IRagAnswerImplementation, IRagResultImplementation, ISummarizerImplementation, ISoRequestItemsAccessor)
-  fullName.vb: SuperOffice.CRM.Services.AIAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategoryGuessImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatbotTurnImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentimentImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagAnswerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagResultImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
-  name.vb: New(ITextServicesImplementation, ICategorizationStatusResponseImplementation, ICategoryGuessImplementation, IChatbotTurnImplementation, ISentimentImplementation, IRagAnswerImplementation, IRagResultImplementation, ISummarizerImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.AIAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategoryGuessImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatbotTurnImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentimentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagAnswerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  commentId: M:SuperOffice.CRM.Services.AIAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategoryGuessImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatbotTurnImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentimentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagAnswerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategoryGuessImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatbotTurnImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentimentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagAnswerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+  nameWithType.vb: AIAgent.New(ITextServicesImplementation, IBizCardImplementation, ICategorizationStatusResponseImplementation, ICategoryGuessImplementation, IChatbotTurnImplementation, ISentimentImplementation, IRagAnswerImplementation, IRagResultImplementation, ISummarizerImplementation, ISoRequestItemsAccessor)
+  fullName.vb: SuperOffice.CRM.Services.AIAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IBizCardImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategoryGuessImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatbotTurnImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentimentImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagAnswerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagResultImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
+  name.vb: New(ITextServicesImplementation, IBizCardImplementation, ICategorizationStatusResponseImplementation, ICategoryGuessImplementation, IChatbotTurnImplementation, ISentimentImplementation, IRagAnswerImplementation, IRagResultImplementation, ISummarizerImplementation, ISoRequestItemsAccessor)
+- uid: SuperOffice.CRM.Services.AIAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IBizCardImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategoryGuessImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatbotTurnImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentimentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagAnswerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  commentId: M:SuperOffice.CRM.Services.AIAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IBizCardImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategoryGuessImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatbotTurnImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentimentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagAnswerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IBizCardImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategoryGuessImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatbotTurnImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentimentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagAnswerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
   parent: SuperOffice.CRM.Services.AIAgent
   langs:
   - csharp
   - vb
-  name: AIAgent(ITextServicesImplementation, ICategorizationStatusResponseImplementation, ICategoryGuessImplementation, IChatbotTurnImplementation, ISentimentImplementation, IRagAnswerImplementation, IRagResultImplementation, ISummarizerImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  nameWithType: AIAgent.AIAgent(ITextServicesImplementation, ICategorizationStatusResponseImplementation, ICategoryGuessImplementation, IChatbotTurnImplementation, ISentimentImplementation, IRagAnswerImplementation, IRagResultImplementation, ISummarizerImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName: SuperOffice.CRM.Services.AIAgent.AIAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategoryGuessImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatbotTurnImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentimentImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagAnswerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagResultImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name: AIAgent(ITextServicesImplementation, IBizCardImplementation, ICategorizationStatusResponseImplementation, ICategoryGuessImplementation, IChatbotTurnImplementation, ISentimentImplementation, IRagAnswerImplementation, IRagResultImplementation, ISummarizerImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType: AIAgent.AIAgent(ITextServicesImplementation, IBizCardImplementation, ICategorizationStatusResponseImplementation, ICategoryGuessImplementation, IChatbotTurnImplementation, ISentimentImplementation, IRagAnswerImplementation, IRagResultImplementation, ISummarizerImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName: SuperOffice.CRM.Services.AIAgent.AIAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IBizCardImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategoryGuessImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatbotTurnImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentimentImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagAnswerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagResultImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public AIAgent(ITextServicesImplementation textServicesImplementation, ICategorizationStatusResponseImplementation categorizationStatusResponseImplementation, ICategoryGuessImplementation categoryGuessImplementation, IChatbotTurnImplementation chatbotTurnImplementation, ISentimentImplementation sentimentImplementation, IRagAnswerImplementation ragAnswerImplementation, IRagResultImplementation ragResultImplementation, ISummarizerImplementation summarizerImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    content: public AIAgent(ITextServicesImplementation textServicesImplementation, IBizCardImplementation bizCardImplementation, ICategorizationStatusResponseImplementation categorizationStatusResponseImplementation, ICategoryGuessImplementation categoryGuessImplementation, IChatbotTurnImplementation chatbotTurnImplementation, ISentimentImplementation sentimentImplementation, IRagAnswerImplementation ragAnswerImplementation, IRagResultImplementation ragResultImplementation, ISummarizerImplementation summarizerImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
     parameters:
     - id: textServicesImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation
+    - id: bizCardImplementation
+      type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IBizCardImplementation
     - id: categorizationStatusResponseImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation
     - id: categoryGuessImplementation
@@ -145,11 +151,15 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    content.vb: Public Sub New(textServicesImplementation As ITextServicesImplementation, categorizationStatusResponseImplementation As ICategorizationStatusResponseImplementation, categoryGuessImplementation As ICategoryGuessImplementation, chatbotTurnImplementation As IChatbotTurnImplementation, sentimentImplementation As ISentimentImplementation, ragAnswerImplementation As IRagAnswerImplementation, ragResultImplementation As IRagResultImplementation, summarizerImplementation As ISummarizerImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+    - id: scriptingConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+    - id: onlineConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+    content.vb: Public Sub New(textServicesImplementation As ITextServicesImplementation, bizCardImplementation As IBizCardImplementation, categorizationStatusResponseImplementation As ICategorizationStatusResponseImplementation, categoryGuessImplementation As ICategoryGuessImplementation, chatbotTurnImplementation As IChatbotTurnImplementation, sentimentImplementation As ISentimentImplementation, ragAnswerImplementation As IRagAnswerImplementation, ragResultImplementation As IRagResultImplementation, summarizerImplementation As ISummarizerImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
   overload: SuperOffice.CRM.Services.AIAgent.#ctor*
-  nameWithType.vb: AIAgent.New(ITextServicesImplementation, ICategorizationStatusResponseImplementation, ICategoryGuessImplementation, IChatbotTurnImplementation, ISentimentImplementation, IRagAnswerImplementation, IRagResultImplementation, ISummarizerImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName.vb: SuperOffice.CRM.Services.AIAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategoryGuessImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatbotTurnImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentimentImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagAnswerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagResultImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
-  name.vb: New(ITextServicesImplementation, ICategorizationStatusResponseImplementation, ICategoryGuessImplementation, IChatbotTurnImplementation, ISentimentImplementation, IRagAnswerImplementation, IRagResultImplementation, ISummarizerImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType.vb: AIAgent.New(ITextServicesImplementation, IBizCardImplementation, ICategorizationStatusResponseImplementation, ICategoryGuessImplementation, IChatbotTurnImplementation, ISentimentImplementation, IRagAnswerImplementation, IRagResultImplementation, ISummarizerImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName.vb: SuperOffice.CRM.Services.AIAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IBizCardImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategoryGuessImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IChatbotTurnImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISentimentImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagAnswerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRagResultImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISummarizerImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name.vb: New(ITextServicesImplementation, IBizCardImplementation, ICategorizationStatusResponseImplementation, ICategoryGuessImplementation, IChatbotTurnImplementation, ISentimentImplementation, IRagAnswerImplementation, IRagResultImplementation, ISummarizerImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
 - uid: SuperOffice.CRM.Services.AIAgent.SummarizeTextAsync(System.String,System.Int32,System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.AIAgent.SummarizeTextAsync(System.String,System.Int32,System.String,System.Threading.CancellationToken)
   id: SummarizeTextAsync(System.String,System.Int32,System.String,System.Threading.CancellationToken)
@@ -311,6 +321,82 @@ items:
   nameWithType.vb: AIAgent.CreateTextForAppointmentAsync(AppointmentEntity, String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.AIAgent.CreateTextForAppointmentAsync(SuperOffice.CRM.Services.AppointmentEntity, String, System.Threading.CancellationToken)
   name.vb: CreateTextForAppointmentAsync(AppointmentEntity, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.AIAgent.AnalyzeBizCardImageAsync(System.IO.Stream,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.AIAgent.AnalyzeBizCardImageAsync(System.IO.Stream,System.Boolean,System.Threading.CancellationToken)
+  id: AnalyzeBizCardImageAsync(System.IO.Stream,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: AnalyzeBizCardImageAsync(Stream, bool, CancellationToken)
+  nameWithType: AIAgent.AnalyzeBizCardImageAsync(Stream, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.AIAgent.AnalyzeBizCardImageAsync(System.IO.Stream, bool, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Returns contact and person information from an image. Merges results with matching database records if merge = true
+  example: []
+  syntax:
+    content: public Task<BizCard> AnalyzeBizCardImageAsync(Stream image, bool mergeWithDatabase, CancellationToken cancellationToken = default)
+    parameters:
+    - id: image
+      type: System.IO.Stream
+      description: Image data containg a business card
+    - id: mergeWithDatabase
+      type: System.Boolean
+      description: 'Merge results from analysis with matching database records? True: match company/person names and set ids on returned entities.'
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation can be cancelled
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BizCard}
+      description: Returns a Contact and a Person entity.
+    content.vb: Public Function AnalyzeBizCardImageAsync(image As Stream, mergeWithDatabase As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of BizCard)
+  overload: SuperOffice.CRM.Services.AIAgent.AnalyzeBizCardImageAsync*
+  implements:
+  - SuperOffice.CRM.Services.IAIAgent.AnalyzeBizCardImageAsync(System.IO.Stream,System.Boolean,System.Threading.CancellationToken)
+  nameWithType.vb: AIAgent.AnalyzeBizCardImageAsync(Stream, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.AIAgent.AnalyzeBizCardImageAsync(System.IO.Stream, Boolean, System.Threading.CancellationToken)
+  name.vb: AnalyzeBizCardImageAsync(Stream, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.AIAgent.AnalyzeBizCardTextAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.AIAgent.AnalyzeBizCardTextAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  id: AnalyzeBizCardTextAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.AIAgent
+  langs:
+  - csharp
+  - vb
+  name: AnalyzeBizCardTextAsync(string, bool, CancellationToken)
+  nameWithType: AIAgent.AnalyzeBizCardTextAsync(string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.AIAgent.AnalyzeBizCardTextAsync(string, bool, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Extract contact and person information from text. Merge results with matching database records if merge = true
+  example: []
+  syntax:
+    content: public Task<BizCard> AnalyzeBizCardTextAsync(string text, bool mergeWithDatabase, CancellationToken cancellationToken = default)
+    parameters:
+    - id: text
+      type: System.String
+      description: Text that contains useful contact and person information.
+    - id: mergeWithDatabase
+      type: System.Boolean
+      description: 'Merge results from analysis with matching database records? True: match company/person names and set ids on returned entities.'
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation can be cancelled
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BizCard}
+      description: Returns a Contact and a Person entity.
+    content.vb: Public Function AnalyzeBizCardTextAsync(text As String, mergeWithDatabase As Boolean, cancellationToken As CancellationToken = Nothing) As Task(Of BizCard)
+  overload: SuperOffice.CRM.Services.AIAgent.AnalyzeBizCardTextAsync*
+  implements:
+  - SuperOffice.CRM.Services.IAIAgent.AnalyzeBizCardTextAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  nameWithType.vb: AIAgent.AnalyzeBizCardTextAsync(String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.AIAgent.AnalyzeBizCardTextAsync(String, Boolean, System.Threading.CancellationToken)
+  name.vb: AnalyzeBizCardTextAsync(String, Boolean, CancellationToken)
 - uid: SuperOffice.CRM.Services.AIAgent.GetTrainingStatusAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.AIAgent.GetTrainingStatusAsync(System.Threading.CancellationToken)
   id: GetTrainingStatusAsync(System.Threading.CancellationToken)
@@ -1474,7 +1560,7 @@ references:
 - uid: SuperOffice.CRM.Services.AIAgent.#ctor*
   commentId: Overload:SuperOffice.CRM.Services.AIAgent.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Services.AIAgent.html#SuperOffice_CRM_Services_AIAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_ITextServicesImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ICategorizationStatusResponseImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ICategoryGuessImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IChatbotTurnImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ISentimentImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IRagAnswerImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IRagResultImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ISummarizerImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
+  href: SuperOffice.CRM.Services.AIAgent.html#SuperOffice_CRM_Services_AIAgent__ctor_SuperOffice_CRM_Services_Implementation_BL_Contracts_ITextServicesImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IBizCardImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ICategorizationStatusResponseImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ICategoryGuessImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IChatbotTurnImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ISentimentImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IRagAnswerImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_IRagResultImplementation_SuperOffice_CRM_Services_Implementation_BL_Contracts_ISummarizerImplementation_SuperOffice_Factory_ISoRequestItemsAccessor_
   name: AIAgent
   nameWithType: AIAgent.AIAgent
   fullName: SuperOffice.CRM.Services.AIAgent.AIAgent
@@ -1489,6 +1575,14 @@ references:
   name: ITextServicesImplementation
   nameWithType: ITextServicesImplementation
   fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.ITextServicesImplementation
+- uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.IBizCardImplementation
+  commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.IBizCardImplementation
+  parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.BL.Contracts.IBizCardImplementation.html
+  name: IBizCardImplementation
+  nameWithType: IBizCardImplementation
+  fullName: SuperOffice.CRM.Services.Implementation.BL.Contracts.IBizCardImplementation
 - uid: SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation
   commentId: T:SuperOffice.CRM.Services.Implementation.BL.Contracts.ICategorizationStatusResponseImplementation
   parent: SuperOffice.CRM.Services.Implementation.BL.Contracts
@@ -1627,6 +1721,16 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+  isExternal: true
+  name: IScriptingConfiguration
+  nameWithType: ConfigFile.IScriptingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  isExternal: true
+  name: IOnlineConfiguration
+  nameWithType: ConfigFile.IOnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
 - uid: SuperOffice.CRM.Services.AIAgent.SummarizeTextAsync*
   commentId: Overload:SuperOffice.CRM.Services.AIAgent.SummarizeTextAsync
   isExternal: true
@@ -2077,6 +2181,211 @@ references:
   name: AppointmentEntity
   nameWithType: AppointmentEntity
   fullName: SuperOffice.CRM.Services.AppointmentEntity
+- uid: SuperOffice.CRM.Services.AIAgent.AnalyzeBizCardImageAsync*
+  commentId: Overload:SuperOffice.CRM.Services.AIAgent.AnalyzeBizCardImageAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.AIAgent.html#SuperOffice_CRM_Services_AIAgent_AnalyzeBizCardImageAsync_System_IO_Stream_System_Boolean_System_Threading_CancellationToken_
+  name: AnalyzeBizCardImageAsync
+  nameWithType: AIAgent.AnalyzeBizCardImageAsync
+  fullName: SuperOffice.CRM.Services.AIAgent.AnalyzeBizCardImageAsync
+- uid: SuperOffice.CRM.Services.IAIAgent.AnalyzeBizCardImageAsync(System.IO.Stream,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.AnalyzeBizCardImageAsync(System.IO.Stream,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  name: AnalyzeBizCardImageAsync(Stream, bool, CancellationToken)
+  nameWithType: IAIAgent.AnalyzeBizCardImageAsync(Stream, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.AnalyzeBizCardImageAsync(System.IO.Stream, bool, System.Threading.CancellationToken)
+  nameWithType.vb: IAIAgent.AnalyzeBizCardImageAsync(Stream, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAIAgent.AnalyzeBizCardImageAsync(System.IO.Stream, Boolean, System.Threading.CancellationToken)
+  name.vb: AnalyzeBizCardImageAsync(Stream, Boolean, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAIAgent.AnalyzeBizCardImageAsync(System.IO.Stream,System.Boolean,System.Threading.CancellationToken)
+    name: AnalyzeBizCardImageAsync
+    isExternal: true
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAIAgent.AnalyzeBizCardImageAsync(System.IO.Stream,System.Boolean,System.Threading.CancellationToken)
+    name: AnalyzeBizCardImageAsync
+    isExternal: true
+  - name: (
+  - uid: System.IO.Stream
+    name: Stream
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.IO.Stream
+  commentId: T:System.IO.Stream
+  parent: System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.io.stream
+  name: Stream
+  nameWithType: Stream
+  fullName: System.IO.Stream
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BizCard}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.BizCard}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<BizCard>
+  nameWithType: Task<BizCard>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.BizCard>
+  nameWithType.vb: Task(Of BizCard)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.BizCard)
+  name.vb: Task(Of BizCard)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.BizCard
+    name: BizCard
+    isExternal: true
+    href: SuperOffice.CRM.Services.BizCard.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.BizCard
+    name: BizCard
+    isExternal: true
+    href: SuperOffice.CRM.Services.BizCard.html
+  - name: )
+- uid: System.IO
+  commentId: N:System.IO
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.IO
+  nameWithType: System.IO
+  fullName: System.IO
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.IO
+    name: IO
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.io
+- uid: SuperOffice.CRM.Services.AIAgent.AnalyzeBizCardTextAsync*
+  commentId: Overload:SuperOffice.CRM.Services.AIAgent.AnalyzeBizCardTextAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.AIAgent.html#SuperOffice_CRM_Services_AIAgent_AnalyzeBizCardTextAsync_System_String_System_Boolean_System_Threading_CancellationToken_
+  name: AnalyzeBizCardTextAsync
+  nameWithType: AIAgent.AnalyzeBizCardTextAsync
+  fullName: SuperOffice.CRM.Services.AIAgent.AnalyzeBizCardTextAsync
+- uid: SuperOffice.CRM.Services.IAIAgent.AnalyzeBizCardTextAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAIAgent.AnalyzeBizCardTextAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAIAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: AnalyzeBizCardTextAsync(string, bool, CancellationToken)
+  nameWithType: IAIAgent.AnalyzeBizCardTextAsync(string, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAIAgent.AnalyzeBizCardTextAsync(string, bool, System.Threading.CancellationToken)
+  nameWithType.vb: IAIAgent.AnalyzeBizCardTextAsync(String, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAIAgent.AnalyzeBizCardTextAsync(String, Boolean, System.Threading.CancellationToken)
+  name.vb: AnalyzeBizCardTextAsync(String, Boolean, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IAIAgent.AnalyzeBizCardTextAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+    name: AnalyzeBizCardTextAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IAIAgent.AnalyzeBizCardTextAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+    name: AnalyzeBizCardTextAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: SuperOffice.CRM.Services.AIAgent.GetTrainingStatusAsync*
   commentId: Overload:SuperOffice.CRM.Services.AIAgent.GetTrainingStatusAsync
   isExternal: true
@@ -3154,17 +3463,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
 - uid: SuperOffice.CRM.Services.AIAgent.AnswerAcceptedAsync*
   commentId: Overload:SuperOffice.CRM.Services.AIAgent.AnswerAcceptedAsync
   isExternal: true

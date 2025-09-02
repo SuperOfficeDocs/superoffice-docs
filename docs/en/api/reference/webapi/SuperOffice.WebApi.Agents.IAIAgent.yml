@@ -5,6 +5,8 @@ items:
   id: IAIAgent
   parent: SuperOffice.WebApi.Agents
   children:
+  - SuperOffice.WebApi.Agents.IAIAgent.AnalyzeBizCardImageAsync(System.Byte[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAIAgent.AnalyzeBizCardTextAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAIAgent.AnswerAcceptedAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAIAgent.AnswerAsync(System.String,System.String,SuperOffice.WebApi.Data.RagType,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAIAgent.AnswerFeedbackAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -201,6 +203,78 @@ items:
   nameWithType.vb: IAIAgent.CreateTextForAppointmentAsync(AppointmentEntity, String, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.CreateTextForAppointmentAsync(SuperOffice.WebApi.Data.AppointmentEntity, String, SuperOffice.WebApi.RequestOptions)
   name.vb: CreateTextForAppointmentAsync(AppointmentEntity, String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IAIAgent.AnalyzeBizCardImageAsync(System.Byte[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAIAgent.AnalyzeBizCardImageAsync(System.Byte[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: AnalyzeBizCardImageAsync(System.Byte[],System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: AnalyzeBizCardImageAsync(byte[], bool, RequestOptions)
+  nameWithType: IAIAgent.AnalyzeBizCardImageAsync(byte[], bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.AnalyzeBizCardImageAsync(byte[], bool, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Returns contact and person information from an image. Merges results with matching database records if merge = true
+  example: []
+  syntax:
+    content: Task<BizCard> AnalyzeBizCardImageAsync(byte[] image, bool mergeWithDatabase, RequestOptions requestOptions = null)
+    parameters:
+    - id: image
+      type: System.Byte[]
+      description: Image data containg a business card
+    - id: mergeWithDatabase
+      type: System.Boolean
+      description: 'Merge results from analysis with matching database records? True: match company/person names and set ids on returned entities.'
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BizCard}
+      description: Returns a Contact and a Person entity.
+    content.vb: Function AnalyzeBizCardImageAsync(image As Byte(), mergeWithDatabase As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of BizCard)
+  overload: SuperOffice.WebApi.Agents.IAIAgent.AnalyzeBizCardImageAsync*
+  nameWithType.vb: IAIAgent.AnalyzeBizCardImageAsync(Byte(), Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.AnalyzeBizCardImageAsync(Byte(), Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: AnalyzeBizCardImageAsync(Byte(), Boolean, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IAIAgent.AnalyzeBizCardTextAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAIAgent.AnalyzeBizCardTextAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: AnalyzeBizCardTextAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAIAgent
+  langs:
+  - csharp
+  - vb
+  name: AnalyzeBizCardTextAsync(string, bool, RequestOptions)
+  nameWithType: IAIAgent.AnalyzeBizCardTextAsync(string, bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.AnalyzeBizCardTextAsync(string, bool, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Extract contact and person information from text. Merge results with matching database records if merge = true
+  example: []
+  syntax:
+    content: Task<BizCard> AnalyzeBizCardTextAsync(string text, bool mergeWithDatabase, RequestOptions requestOptions = null)
+    parameters:
+    - id: text
+      type: System.String
+      description: Text that contains useful contact and person information.
+    - id: mergeWithDatabase
+      type: System.Boolean
+      description: 'Merge results from analysis with matching database records? True: match company/person names and set ids on returned entities.'
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BizCard}
+      description: Returns a Contact and a Person entity.
+    content.vb: Function AnalyzeBizCardTextAsync(text As String, mergeWithDatabase As Boolean, requestOptions As RequestOptions = Nothing) As Task(Of BizCard)
+  overload: SuperOffice.WebApi.Agents.IAIAgent.AnalyzeBizCardTextAsync*
+  nameWithType.vb: IAIAgent.AnalyzeBizCardTextAsync(String, Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IAIAgent.AnalyzeBizCardTextAsync(String, Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: AnalyzeBizCardTextAsync(String, Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IAIAgent.GetTrainingStatusAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IAIAgent.GetTrainingStatusAsync(SuperOffice.WebApi.RequestOptions)
   id: GetTrainingStatusAsync(SuperOffice.WebApi.RequestOptions)
@@ -1339,6 +1413,89 @@ references:
   name: AppointmentEntity
   nameWithType: AppointmentEntity
   fullName: SuperOffice.WebApi.Data.AppointmentEntity
+- uid: SuperOffice.WebApi.Agents.IAIAgent.AnalyzeBizCardImageAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.AnalyzeBizCardImageAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_AnalyzeBizCardImageAsync_System_Byte___System_Boolean_SuperOffice_WebApi_RequestOptions_
+  name: AnalyzeBizCardImageAsync
+  nameWithType: IAIAgent.AnalyzeBizCardImageAsync
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.AnalyzeBizCardImageAsync
+- uid: System.Byte[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.byte
+  name: byte[]
+  nameWithType: byte[]
+  fullName: byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.byte
+  - name: (
+  - name: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.boolean
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BizCard}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BizCard}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<BizCard>
+  nameWithType: Task<BizCard>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.BizCard>
+  nameWithType.vb: Task(Of BizCard)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.BizCard)
+  name.vb: Task(Of BizCard)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.BizCard
+    name: BizCard
+    isExternal: true
+    href: SuperOffice.WebApi.Data.BizCard.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.BizCard
+    name: BizCard
+    isExternal: true
+    href: SuperOffice.WebApi.Data.BizCard.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.IAIAgent.AnalyzeBizCardTextAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.AnalyzeBizCardTextAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAIAgent.html#SuperOffice_WebApi_Agents_IAIAgent_AnalyzeBizCardTextAsync_System_String_System_Boolean_SuperOffice_WebApi_RequestOptions_
+  name: AnalyzeBizCardTextAsync
+  nameWithType: IAIAgent.AnalyzeBizCardTextAsync
+  fullName: SuperOffice.WebApi.Agents.IAIAgent.AnalyzeBizCardTextAsync
 - uid: SuperOffice.WebApi.Agents.IAIAgent.GetTrainingStatusAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.GetTrainingStatusAsync
   isExternal: true
@@ -1683,17 +1840,6 @@ references:
   name: AnswerFeedbackAsync
   nameWithType: IAIAgent.AnswerFeedbackAsync
   fullName: SuperOffice.WebApi.Agents.IAIAgent.AnswerFeedbackAsync
-- uid: System.Boolean
-  commentId: T:System.Boolean
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.boolean
-  name: bool
-  nameWithType: bool
-  fullName: bool
-  nameWithType.vb: Boolean
-  fullName.vb: Boolean
-  name.vb: Boolean
 - uid: SuperOffice.WebApi.Agents.IAIAgent.AnswerAcceptedAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IAIAgent.AnswerAcceptedAsync
   isExternal: true

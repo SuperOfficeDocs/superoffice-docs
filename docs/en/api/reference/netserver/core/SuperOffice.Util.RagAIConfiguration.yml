@@ -6,12 +6,9 @@ items:
   parent: SuperOffice.Util
   children:
   - SuperOffice.Util.RagAIConfiguration.#ctor
-  - SuperOffice.Util.RagAIConfiguration.AppClientSecret
   - SuperOffice.Util.RagAIConfiguration.EndpointUrl
-  - SuperOffice.Util.RagAIConfiguration.Fileset_Audience
-  - SuperOffice.Util.RagAIConfiguration.Fileset_PrincipalName
-  - SuperOffice.Util.RagAIConfiguration.Fileset_SigningKey
   - SuperOffice.Util.RagAIConfiguration.MarkdownizerUrl
+  - SuperOffice.Util.RagAIConfiguration.OverrideContextIdentifier
   - SuperOffice.Util.RagAIConfiguration.SectionName
   langs:
   - csharp
@@ -83,29 +80,6 @@ items:
   nameWithType.vb: RagAIConfiguration.New()
   fullName.vb: SuperOffice.Util.RagAIConfiguration.New()
   name.vb: New()
-- uid: SuperOffice.Util.RagAIConfiguration.AppClientSecret
-  commentId: P:SuperOffice.Util.RagAIConfiguration.AppClientSecret
-  id: AppClientSecret
-  parent: SuperOffice.Util.RagAIConfiguration
-  langs:
-  - csharp
-  - vb
-  name: AppClientSecret
-  nameWithType: RagAIConfiguration.AppClientSecret
-  fullName: SuperOffice.Util.RagAIConfiguration.AppClientSecret
-  type: Property
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.Util
-  summary: RAG AI Application Client Secret (AppToken) "1234ecc...4231"
-  example: []
-  syntax:
-    content: public string AppClientSecret { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property AppClientSecret As String
-  overload: SuperOffice.Util.RagAIConfiguration.AppClientSecret*
 - uid: SuperOffice.Util.RagAIConfiguration.EndpointUrl
   commentId: P:SuperOffice.Util.RagAIConfiguration.EndpointUrl
   id: EndpointUrl
@@ -152,75 +126,29 @@ items:
       type: System.String
     content.vb: Public Property MarkdownizerUrl As String
   overload: SuperOffice.Util.RagAIConfiguration.MarkdownizerUrl*
-- uid: SuperOffice.Util.RagAIConfiguration.Fileset_PrincipalName
-  commentId: P:SuperOffice.Util.RagAIConfiguration.Fileset_PrincipalName
-  id: Fileset_PrincipalName
+- uid: SuperOffice.Util.RagAIConfiguration.OverrideContextIdentifier
+  commentId: P:SuperOffice.Util.RagAIConfiguration.OverrideContextIdentifier
+  id: OverrideContextIdentifier
   parent: SuperOffice.Util.RagAIConfiguration
   langs:
   - csharp
   - vb
-  name: Fileset_PrincipalName
-  nameWithType: RagAIConfiguration.Fileset_PrincipalName
-  fullName: SuperOffice.Util.RagAIConfiguration.Fileset_PrincipalName
+  name: OverrideContextIdentifier
+  nameWithType: RagAIConfiguration.OverrideContextIdentifier
+  fullName: SuperOffice.Util.RagAIConfiguration.OverrideContextIdentifier
   type: Property
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.Util
-  summary: RAG AI Fileset issuer "spn:superoffice-ragapi-sod"
+  summary: Override context identifier for unit testing
   example: []
   syntax:
-    content: public string Fileset_PrincipalName { get; set; }
+    content: public string OverrideContextIdentifier { get; set; }
     parameters: []
     return:
       type: System.String
-    content.vb: Public Property Fileset_PrincipalName As String
-  overload: SuperOffice.Util.RagAIConfiguration.Fileset_PrincipalName*
-- uid: SuperOffice.Util.RagAIConfiguration.Fileset_Audience
-  commentId: P:SuperOffice.Util.RagAIConfiguration.Fileset_Audience
-  id: Fileset_Audience
-  parent: SuperOffice.Util.RagAIConfiguration
-  langs:
-  - csharp
-  - vb
-  name: Fileset_Audience
-  nameWithType: RagAIConfiguration.Fileset_Audience
-  fullName: SuperOffice.Util.RagAIConfiguration.Fileset_Audience
-  type: Property
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.Util
-  summary: RAG AI Fileset Audience "spn:superoffice-ragapi-sod"
-  example: []
-  syntax:
-    content: public string Fileset_Audience { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property Fileset_Audience As String
-  overload: SuperOffice.Util.RagAIConfiguration.Fileset_Audience*
-- uid: SuperOffice.Util.RagAIConfiguration.Fileset_SigningKey
-  commentId: P:SuperOffice.Util.RagAIConfiguration.Fileset_SigningKey
-  id: Fileset_SigningKey
-  parent: SuperOffice.Util.RagAIConfiguration
-  langs:
-  - csharp
-  - vb
-  name: Fileset_SigningKey
-  nameWithType: RagAIConfiguration.Fileset_SigningKey
-  fullName: SuperOffice.Util.RagAIConfiguration.Fileset_SigningKey
-  type: Property
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.Util
-  summary: RAG AI Fileset signing key "1tJs0Nnaux2IQ7XehBALHOfaqK/afoas"
-  example: []
-  syntax:
-    content: public string Fileset_SigningKey { get; set; }
-    parameters: []
-    return:
-      type: System.String
-    content.vb: Public Property Fileset_SigningKey As String
-  overload: SuperOffice.Util.RagAIConfiguration.Fileset_SigningKey*
+    content.vb: Public Property OverrideContextIdentifier As String
+  overload: SuperOffice.Util.RagAIConfiguration.OverrideContextIdentifier*
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
@@ -933,13 +861,6 @@ references:
   nameWithType.vb: RagAIConfiguration.New
   fullName.vb: SuperOffice.Util.RagAIConfiguration.New
   name.vb: New
-- uid: SuperOffice.Util.RagAIConfiguration.AppClientSecret*
-  commentId: Overload:SuperOffice.Util.RagAIConfiguration.AppClientSecret
-  isExternal: true
-  href: SuperOffice.Util.RagAIConfiguration.html#SuperOffice_Util_RagAIConfiguration_AppClientSecret
-  name: AppClientSecret
-  nameWithType: RagAIConfiguration.AppClientSecret
-  fullName: SuperOffice.Util.RagAIConfiguration.AppClientSecret
 - uid: SuperOffice.Util.RagAIConfiguration.EndpointUrl*
   commentId: Overload:SuperOffice.Util.RagAIConfiguration.EndpointUrl
   isExternal: true
@@ -954,24 +875,10 @@ references:
   name: MarkdownizerUrl
   nameWithType: RagAIConfiguration.MarkdownizerUrl
   fullName: SuperOffice.Util.RagAIConfiguration.MarkdownizerUrl
-- uid: SuperOffice.Util.RagAIConfiguration.Fileset_PrincipalName*
-  commentId: Overload:SuperOffice.Util.RagAIConfiguration.Fileset_PrincipalName
+- uid: SuperOffice.Util.RagAIConfiguration.OverrideContextIdentifier*
+  commentId: Overload:SuperOffice.Util.RagAIConfiguration.OverrideContextIdentifier
   isExternal: true
-  href: SuperOffice.Util.RagAIConfiguration.html#SuperOffice_Util_RagAIConfiguration_Fileset_PrincipalName
-  name: Fileset_PrincipalName
-  nameWithType: RagAIConfiguration.Fileset_PrincipalName
-  fullName: SuperOffice.Util.RagAIConfiguration.Fileset_PrincipalName
-- uid: SuperOffice.Util.RagAIConfiguration.Fileset_Audience*
-  commentId: Overload:SuperOffice.Util.RagAIConfiguration.Fileset_Audience
-  isExternal: true
-  href: SuperOffice.Util.RagAIConfiguration.html#SuperOffice_Util_RagAIConfiguration_Fileset_Audience
-  name: Fileset_Audience
-  nameWithType: RagAIConfiguration.Fileset_Audience
-  fullName: SuperOffice.Util.RagAIConfiguration.Fileset_Audience
-- uid: SuperOffice.Util.RagAIConfiguration.Fileset_SigningKey*
-  commentId: Overload:SuperOffice.Util.RagAIConfiguration.Fileset_SigningKey
-  isExternal: true
-  href: SuperOffice.Util.RagAIConfiguration.html#SuperOffice_Util_RagAIConfiguration_Fileset_SigningKey
-  name: Fileset_SigningKey
-  nameWithType: RagAIConfiguration.Fileset_SigningKey
-  fullName: SuperOffice.Util.RagAIConfiguration.Fileset_SigningKey
+  href: SuperOffice.Util.RagAIConfiguration.html#SuperOffice_Util_RagAIConfiguration_OverrideContextIdentifier
+  name: OverrideContextIdentifier
+  nameWithType: RagAIConfiguration.OverrideContextIdentifier
+  fullName: SuperOffice.Util.RagAIConfiguration.OverrideContextIdentifier

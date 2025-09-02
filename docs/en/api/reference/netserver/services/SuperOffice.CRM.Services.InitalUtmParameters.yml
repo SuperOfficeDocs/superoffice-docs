@@ -1,0 +1,509 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.InitalUtmParameters
+  commentId: T:SuperOffice.CRM.Services.InitalUtmParameters
+  id: InitalUtmParameters
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.InitalUtmParameters.#ctor
+  - SuperOffice.CRM.Services.InitalUtmParameters.Campaign
+  - SuperOffice.CRM.Services.InitalUtmParameters.Content
+  - SuperOffice.CRM.Services.InitalUtmParameters.FormName
+  - SuperOffice.CRM.Services.InitalUtmParameters.Medium
+  - SuperOffice.CRM.Services.InitalUtmParameters.ReferrerDomain
+  - SuperOffice.CRM.Services.InitalUtmParameters.Source
+  - SuperOffice.CRM.Services.InitalUtmParameters.Term
+  - SuperOffice.CRM.Services.InitalUtmParameters.ToString
+  - SuperOffice.CRM.Services.InitalUtmParameters.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: InitalUtmParameters
+  nameWithType: InitalUtmParameters
+  fullName: SuperOffice.CRM.Services.InitalUtmParameters
+  type: Class
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Inital Utm parameters for a given person or contact.
+
+    <p></p>
+
+    Carrier object for InitalUtmParameters.
+
+    Services for the InitalUtmParameters Carrier is available from the <xref href="SuperOffice.CRM.Services.IPersonAgent?text=Person+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")]
+
+      public class InitalUtmParameters : Carrier
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")>
+
+      Public Class InitalUtmParameters Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.IPersonAgent
+    commentId: T:SuperOffice.CRM.Services.IPersonAgent
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.3.0.0
+- uid: SuperOffice.CRM.Services.InitalUtmParameters.#ctor
+  commentId: M:SuperOffice.CRM.Services.InitalUtmParameters.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.InitalUtmParameters
+  langs:
+  - csharp
+  - vb
+  name: InitalUtmParameters()
+  nameWithType: InitalUtmParameters.InitalUtmParameters()
+  fullName: SuperOffice.CRM.Services.InitalUtmParameters.InitalUtmParameters()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Default constructor
+  example: []
+  syntax:
+    content: public InitalUtmParameters()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Services.InitalUtmParameters.#ctor*
+  nameWithType.vb: InitalUtmParameters.New()
+  fullName.vb: SuperOffice.CRM.Services.InitalUtmParameters.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Services.InitalUtmParameters.ToString
+  commentId: M:SuperOffice.CRM.Services.InitalUtmParameters.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.InitalUtmParameters
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: InitalUtmParameters.ToString()
+  fullName: SuperOffice.CRM.Services.InitalUtmParameters.ToString()
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the carrier contents as a formatted string.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString() As String
+  overload: SuperOffice.CRM.Services.InitalUtmParameters.ToString*
+- uid: SuperOffice.CRM.Services.InitalUtmParameters.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.InitalUtmParameters.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.InitalUtmParameters
+  langs:
+  - csharp
+  - vb
+  name: ToString(string)
+  nameWithType: InitalUtmParameters.ToString(string)
+  fullName: SuperOffice.CRM.Services.InitalUtmParameters.ToString(string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.InitalUtmParameters.ToString*
+  nameWithType.vb: InitalUtmParameters.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.InitalUtmParameters.ToString(String)
+  name.vb: ToString(String)
+- uid: SuperOffice.CRM.Services.InitalUtmParameters.FormName
+  commentId: P:SuperOffice.CRM.Services.InitalUtmParameters.FormName
+  id: FormName
+  parent: SuperOffice.CRM.Services.InitalUtmParameters
+  langs:
+  - csharp
+  - vb
+  name: FormName
+  nameWithType: InitalUtmParameters.FormName
+  fullName: SuperOffice.CRM.Services.InitalUtmParameters.FormName
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: The name of form for the first submission
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string FormName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FormName As String
+  overload: SuperOffice.CRM.Services.InitalUtmParameters.FormName*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.InitalUtmParameters.Source
+  commentId: P:SuperOffice.CRM.Services.InitalUtmParameters.Source
+  id: Source
+  parent: SuperOffice.CRM.Services.InitalUtmParameters
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: InitalUtmParameters.Source
+  fullName: SuperOffice.CRM.Services.InitalUtmParameters.Source
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: First touch UTM source
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Source { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Source As String
+  overload: SuperOffice.CRM.Services.InitalUtmParameters.Source*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.InitalUtmParameters.Medium
+  commentId: P:SuperOffice.CRM.Services.InitalUtmParameters.Medium
+  id: Medium
+  parent: SuperOffice.CRM.Services.InitalUtmParameters
+  langs:
+  - csharp
+  - vb
+  name: Medium
+  nameWithType: InitalUtmParameters.Medium
+  fullName: SuperOffice.CRM.Services.InitalUtmParameters.Medium
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: First touch UTM medium
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Medium { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Medium As String
+  overload: SuperOffice.CRM.Services.InitalUtmParameters.Medium*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.InitalUtmParameters.Campaign
+  commentId: P:SuperOffice.CRM.Services.InitalUtmParameters.Campaign
+  id: Campaign
+  parent: SuperOffice.CRM.Services.InitalUtmParameters
+  langs:
+  - csharp
+  - vb
+  name: Campaign
+  nameWithType: InitalUtmParameters.Campaign
+  fullName: SuperOffice.CRM.Services.InitalUtmParameters.Campaign
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: First touch UTM campaign
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Campaign { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Campaign As String
+  overload: SuperOffice.CRM.Services.InitalUtmParameters.Campaign*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.InitalUtmParameters.Term
+  commentId: P:SuperOffice.CRM.Services.InitalUtmParameters.Term
+  id: Term
+  parent: SuperOffice.CRM.Services.InitalUtmParameters
+  langs:
+  - csharp
+  - vb
+  name: Term
+  nameWithType: InitalUtmParameters.Term
+  fullName: SuperOffice.CRM.Services.InitalUtmParameters.Term
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: First touch UTM term
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Term { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Term As String
+  overload: SuperOffice.CRM.Services.InitalUtmParameters.Term*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.InitalUtmParameters.Content
+  commentId: P:SuperOffice.CRM.Services.InitalUtmParameters.Content
+  id: Content
+  parent: SuperOffice.CRM.Services.InitalUtmParameters
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: InitalUtmParameters.Content
+  fullName: SuperOffice.CRM.Services.InitalUtmParameters.Content
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: First touch UTM content
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Content { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Content As String
+  overload: SuperOffice.CRM.Services.InitalUtmParameters.Content*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.InitalUtmParameters.ReferrerDomain
+  commentId: P:SuperOffice.CRM.Services.InitalUtmParameters.ReferrerDomain
+  id: ReferrerDomain
+  parent: SuperOffice.CRM.Services.InitalUtmParameters
+  langs:
+  - csharp
+  - vb
+  name: ReferrerDomain
+  nameWithType: InitalUtmParameters.ReferrerDomain
+  fullName: SuperOffice.CRM.Services.InitalUtmParameters.ReferrerDomain
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: First touch UTM referrer domain
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string ReferrerDomain { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ReferrerDomain As String
+  overload: SuperOffice.CRM.Services.InitalUtmParameters.ReferrerDomain*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.CRM.Services.IPersonAgent
+  commentId: T:SuperOffice.CRM.Services.IPersonAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IPersonAgent.html
+  name: IPersonAgent
+  nameWithType: IPersonAgent
+  fullName: SuperOffice.CRM.Services.IPersonAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.InitalUtmParameters.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.InitalUtmParameters.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.InitalUtmParameters.html#SuperOffice_CRM_Services_InitalUtmParameters__ctor
+  name: InitalUtmParameters
+  nameWithType: InitalUtmParameters.InitalUtmParameters
+  fullName: SuperOffice.CRM.Services.InitalUtmParameters.InitalUtmParameters
+  nameWithType.vb: InitalUtmParameters.New
+  fullName.vb: SuperOffice.CRM.Services.InitalUtmParameters.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.InitalUtmParameters.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.InitalUtmParameters.ToString
+  isExternal: true
+  href: SuperOffice.CRM.Services.InitalUtmParameters.html#SuperOffice_CRM_Services_InitalUtmParameters_ToString
+  name: ToString
+  nameWithType: InitalUtmParameters.ToString
+  fullName: SuperOffice.CRM.Services.InitalUtmParameters.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Services.InitalUtmParameters.FormName*
+  commentId: Overload:SuperOffice.CRM.Services.InitalUtmParameters.FormName
+  isExternal: true
+  href: SuperOffice.CRM.Services.InitalUtmParameters.html#SuperOffice_CRM_Services_InitalUtmParameters_FormName
+  name: FormName
+  nameWithType: InitalUtmParameters.FormName
+  fullName: SuperOffice.CRM.Services.InitalUtmParameters.FormName
+- uid: SuperOffice.CRM.Services.InitalUtmParameters.Source*
+  commentId: Overload:SuperOffice.CRM.Services.InitalUtmParameters.Source
+  isExternal: true
+  href: SuperOffice.CRM.Services.InitalUtmParameters.html#SuperOffice_CRM_Services_InitalUtmParameters_Source
+  name: Source
+  nameWithType: InitalUtmParameters.Source
+  fullName: SuperOffice.CRM.Services.InitalUtmParameters.Source
+- uid: SuperOffice.CRM.Services.InitalUtmParameters.Medium*
+  commentId: Overload:SuperOffice.CRM.Services.InitalUtmParameters.Medium
+  isExternal: true
+  href: SuperOffice.CRM.Services.InitalUtmParameters.html#SuperOffice_CRM_Services_InitalUtmParameters_Medium
+  name: Medium
+  nameWithType: InitalUtmParameters.Medium
+  fullName: SuperOffice.CRM.Services.InitalUtmParameters.Medium
+- uid: SuperOffice.CRM.Services.InitalUtmParameters.Campaign*
+  commentId: Overload:SuperOffice.CRM.Services.InitalUtmParameters.Campaign
+  isExternal: true
+  href: SuperOffice.CRM.Services.InitalUtmParameters.html#SuperOffice_CRM_Services_InitalUtmParameters_Campaign
+  name: Campaign
+  nameWithType: InitalUtmParameters.Campaign
+  fullName: SuperOffice.CRM.Services.InitalUtmParameters.Campaign
+- uid: SuperOffice.CRM.Services.InitalUtmParameters.Term*
+  commentId: Overload:SuperOffice.CRM.Services.InitalUtmParameters.Term
+  isExternal: true
+  href: SuperOffice.CRM.Services.InitalUtmParameters.html#SuperOffice_CRM_Services_InitalUtmParameters_Term
+  name: Term
+  nameWithType: InitalUtmParameters.Term
+  fullName: SuperOffice.CRM.Services.InitalUtmParameters.Term
+- uid: SuperOffice.CRM.Services.InitalUtmParameters.Content*
+  commentId: Overload:SuperOffice.CRM.Services.InitalUtmParameters.Content
+  isExternal: true
+  href: SuperOffice.CRM.Services.InitalUtmParameters.html#SuperOffice_CRM_Services_InitalUtmParameters_Content
+  name: Content
+  nameWithType: InitalUtmParameters.Content
+  fullName: SuperOffice.CRM.Services.InitalUtmParameters.Content
+- uid: SuperOffice.CRM.Services.InitalUtmParameters.ReferrerDomain*
+  commentId: Overload:SuperOffice.CRM.Services.InitalUtmParameters.ReferrerDomain
+  isExternal: true
+  href: SuperOffice.CRM.Services.InitalUtmParameters.html#SuperOffice_CRM_Services_InitalUtmParameters_ReferrerDomain
+  name: ReferrerDomain
+  nameWithType: InitalUtmParameters.ReferrerDomain
+  fullName: SuperOffice.CRM.Services.InitalUtmParameters.ReferrerDomain

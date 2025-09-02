@@ -48,6 +48,7 @@ items:
   - SuperOffice.CRM.Entities.RecurrenceManager.RecurrenceInfo
   - SuperOffice.CRM.Entities.RecurrenceManager.UpdateAppointmentWithDate(SuperOffice.CRM.Entities.Appointment,SuperOffice.CRM.Services.RecurrenceDate)
   - SuperOffice.CRM.Entities.RecurrenceManager.UpdateConflictsAsync(System.Int32,System.Int32,System.TimeSpan,System.TimeSpan,System.Threading.CancellationToken,SuperOffice.CRM.Services.ParticipantInfo[])
+  - SuperOffice.CRM.Entities.RecurrenceManager.UpdateFromRecord(SuperOffice.CRM.Services.RecurrenceInfo,SuperOffice.CRM.Rows.RecurrenceRuleRecordData,System.DateTime)
   langs:
   - csharp
   - vb
@@ -1094,6 +1095,34 @@ items:
   nameWithType.vb: RecurrenceManager.OnSavedAsync(Boolean, Boolean)
   fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.OnSavedAsync(Boolean, Boolean)
   name.vb: OnSavedAsync(Boolean, Boolean)
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.UpdateFromRecord(SuperOffice.CRM.Services.RecurrenceInfo,SuperOffice.CRM.Rows.RecurrenceRuleRecordData,System.DateTime)
+  commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.UpdateFromRecord(SuperOffice.CRM.Services.RecurrenceInfo,SuperOffice.CRM.Rows.RecurrenceRuleRecordData,System.DateTime)
+  id: UpdateFromRecord(SuperOffice.CRM.Services.RecurrenceInfo,SuperOffice.CRM.Rows.RecurrenceRuleRecordData,System.DateTime)
+  parent: SuperOffice.CRM.Entities.RecurrenceManager
+  langs:
+  - csharp
+  - vb
+  name: UpdateFromRecord(RecurrenceInfo, RecurrenceRuleRecordData, DateTime)
+  nameWithType: RecurrenceManager.UpdateFromRecord(RecurrenceInfo, RecurrenceRuleRecordData, DateTime)
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.UpdateFromRecord(SuperOffice.CRM.Services.RecurrenceInfo, SuperOffice.CRM.Rows.RecurrenceRuleRecordData, System.DateTime)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public static void UpdateFromRecord(RecurrenceInfo recurrenceInfo, RecurrenceRuleRecordData ruleRow, DateTime doBy)
+    parameters:
+    - id: recurrenceInfo
+      type: SuperOffice.CRM.Services.RecurrenceInfo
+    - id: ruleRow
+      type: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+    - id: doBy
+      type: System.DateTime
+    content.vb: Public Shared Sub UpdateFromRecord(recurrenceInfo As RecurrenceInfo, ruleRow As RecurrenceRuleRecordData, doBy As Date)
+  overload: SuperOffice.CRM.Entities.RecurrenceManager.UpdateFromRecord*
+  nameWithType.vb: RecurrenceManager.UpdateFromRecord(RecurrenceInfo, RecurrenceRuleRecordData, Date)
+  fullName.vb: SuperOffice.CRM.Entities.RecurrenceManager.UpdateFromRecord(SuperOffice.CRM.Services.RecurrenceInfo, SuperOffice.CRM.Rows.RecurrenceRuleRecordData, Date)
+  name.vb: UpdateFromRecord(RecurrenceInfo, RecurrenceRuleRecordData, Date)
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceInfo(SuperOffice.CRM.Entities.Appointment)
   commentId: M:SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceInfo(SuperOffice.CRM.Entities.Appointment)
   id: GetRecurrenceInfo(SuperOffice.CRM.Entities.Appointment)
@@ -2879,6 +2908,21 @@ references:
   name: OnSavedAsync
   nameWithType: RecurrenceManager.OnSavedAsync
   fullName: SuperOffice.CRM.Entities.RecurrenceManager.OnSavedAsync
+- uid: SuperOffice.CRM.Entities.RecurrenceManager.UpdateFromRecord*
+  commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.UpdateFromRecord
+  isExternal: true
+  href: SuperOffice.CRM.Entities.RecurrenceManager.html#SuperOffice_CRM_Entities_RecurrenceManager_UpdateFromRecord_SuperOffice_CRM_Services_RecurrenceInfo_SuperOffice_CRM_Rows_RecurrenceRuleRecordData_System_DateTime_
+  name: UpdateFromRecord
+  nameWithType: RecurrenceManager.UpdateFromRecord
+  fullName: SuperOffice.CRM.Entities.RecurrenceManager.UpdateFromRecord
+- uid: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+  commentId: T:SuperOffice.CRM.Rows.RecurrenceRuleRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.RecurrenceRuleRecordData.html
+  name: RecurrenceRuleRecordData
+  nameWithType: RecurrenceRuleRecordData
+  fullName: SuperOffice.CRM.Rows.RecurrenceRuleRecordData
 - uid: SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceInfo*
   commentId: Overload:SuperOffice.CRM.Entities.RecurrenceManager.GetRecurrenceInfo
   isExternal: true

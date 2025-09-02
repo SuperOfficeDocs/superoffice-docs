@@ -29,11 +29,11 @@ items:
     content: >-
       [CacheV2(0)]
 
-      protected class Sentry.DataRightCache : CacheBaseV2
+      public class Sentry.DataRightCache : CacheBaseV2
     content.vb: >-
       <CacheV2(0)>
 
-      Protected Class Sentry.DataRightCache Inherits CacheBaseV2
+      Public Class Sentry.DataRightCache Inherits CacheBaseV2
   inheritance:
   - System.Object
   - SuperOffice.Data.Cache.CacheBaseV2

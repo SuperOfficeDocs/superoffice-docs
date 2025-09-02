@@ -82,213 +82,6 @@ items:
       value: Chat Agent
     - type: System.String
       value: Interface for the Chat Agent. Chat functions. Manage chat channels, sessions and messages.
-- uid: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatSessionEntityAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatSessionEntityAsync(System.Threading.CancellationToken)
-  id: CreateDefaultChatSessionEntityAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IChatAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultChatSessionEntityAsync(CancellationToken)
-  nameWithType: IChatAgent.CreateDefaultChatSessionEntityAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatSessionEntityAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new ChatSessionEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: Task<ChatSessionEntity> CreateDefaultChatSessionEntityAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatSessionEntity}
-      description: New ChatSessionEntity with default values
-    content.vb: Function CreateDefaultChatSessionEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ChatSessionEntity)
-  overload: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatSessionEntityAsync*
-- uid: SuperOffice.CRM.Services.IChatAgent.SaveChatSessionEntityAsync(SuperOffice.CRM.Services.ChatSessionEntity,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IChatAgent.SaveChatSessionEntityAsync(SuperOffice.CRM.Services.ChatSessionEntity,System.Threading.CancellationToken)
-  id: SaveChatSessionEntityAsync(SuperOffice.CRM.Services.ChatSessionEntity,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IChatAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveChatSessionEntityAsync(ChatSessionEntity, CancellationToken)
-  nameWithType: IChatAgent.SaveChatSessionEntityAsync(ChatSessionEntity, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IChatAgent.SaveChatSessionEntityAsync(SuperOffice.CRM.Services.ChatSessionEntity, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing ChatSessionEntity or creates a new ChatSessionEntity if the id parameter is empty
-  example: []
-  syntax:
-    content: Task<ChatSessionEntity> SaveChatSessionEntityAsync(ChatSessionEntity chatSessionEntity, CancellationToken cancellationToken = default)
-    parameters:
-    - id: chatSessionEntity
-      type: SuperOffice.CRM.Services.ChatSessionEntity
-      description: The ChatSessionEntity that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatSessionEntity}
-      description: New or updated ChatSessionEntity
-    content.vb: Function SaveChatSessionEntityAsync(chatSessionEntity As ChatSessionEntity, cancellationToken As CancellationToken = Nothing) As Task(Of ChatSessionEntity)
-  overload: SuperOffice.CRM.Services.IChatAgent.SaveChatSessionEntityAsync*
-- uid: SuperOffice.CRM.Services.IChatAgent.DeleteChatSessionEntityAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IChatAgent.DeleteChatSessionEntityAsync(System.Int32,System.Threading.CancellationToken)
-  id: DeleteChatSessionEntityAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IChatAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteChatSessionEntityAsync(int, CancellationToken)
-  nameWithType: IChatAgent.DeleteChatSessionEntityAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IChatAgent.DeleteChatSessionEntityAsync(int, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Deletes the ChatSessionEntity
-  example: []
-  syntax:
-    content: Task DeleteChatSessionEntityAsync(int chatSessionEntityId, CancellationToken cancellationToken = default)
-    parameters:
-    - id: chatSessionEntityId
-      type: System.Int32
-      description: The identity of the ChatSessionEntity
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Function DeleteChatSessionEntityAsync(chatSessionEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
-  overload: SuperOffice.CRM.Services.IChatAgent.DeleteChatSessionEntityAsync*
-  nameWithType.vb: IChatAgent.DeleteChatSessionEntityAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IChatAgent.DeleteChatSessionEntityAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeleteChatSessionEntityAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicAgentAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicAgentAsync(System.Threading.CancellationToken)
-  id: CreateDefaultChatTopicAgentAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IChatAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultChatTopicAgentAsync(CancellationToken)
-  nameWithType: IChatAgent.CreateDefaultChatTopicAgentAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicAgentAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new ChatTopicAgent.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: Task<ChatTopicAgent> CreateDefaultChatTopicAgentAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatTopicAgent}
-      description: New ChatTopicAgent with default values
-    content.vb: Function CreateDefaultChatTopicAgentAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ChatTopicAgent)
-  overload: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicAgentAsync*
-- uid: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicEntityAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicEntityAsync(System.Threading.CancellationToken)
-  id: CreateDefaultChatTopicEntityAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IChatAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultChatTopicEntityAsync(CancellationToken)
-  nameWithType: IChatAgent.CreateDefaultChatTopicEntityAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicEntityAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new ChatTopicEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: Task<ChatTopicEntity> CreateDefaultChatTopicEntityAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatTopicEntity}
-      description: New ChatTopicEntity with default values
-    content.vb: Function CreateDefaultChatTopicEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ChatTopicEntity)
-  overload: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicEntityAsync*
-- uid: SuperOffice.CRM.Services.IChatAgent.SaveChatTopicEntityAsync(SuperOffice.CRM.Services.ChatTopicEntity,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IChatAgent.SaveChatTopicEntityAsync(SuperOffice.CRM.Services.ChatTopicEntity,System.Threading.CancellationToken)
-  id: SaveChatTopicEntityAsync(SuperOffice.CRM.Services.ChatTopicEntity,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IChatAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveChatTopicEntityAsync(ChatTopicEntity, CancellationToken)
-  nameWithType: IChatAgent.SaveChatTopicEntityAsync(ChatTopicEntity, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IChatAgent.SaveChatTopicEntityAsync(SuperOffice.CRM.Services.ChatTopicEntity, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing ChatTopicEntity or creates a new ChatTopicEntity if the id parameter is empty
-  example: []
-  syntax:
-    content: Task<ChatTopicEntity> SaveChatTopicEntityAsync(ChatTopicEntity chatTopicEntity, CancellationToken cancellationToken = default)
-    parameters:
-    - id: chatTopicEntity
-      type: SuperOffice.CRM.Services.ChatTopicEntity
-      description: The ChatTopicEntity that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatTopicEntity}
-      description: New or updated ChatTopicEntity
-    content.vb: Function SaveChatTopicEntityAsync(chatTopicEntity As ChatTopicEntity, cancellationToken As CancellationToken = Nothing) As Task(Of ChatTopicEntity)
-  overload: SuperOffice.CRM.Services.IChatAgent.SaveChatTopicEntityAsync*
-- uid: SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicEntityAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicEntityAsync(System.Int32,System.Threading.CancellationToken)
-  id: DeleteChatTopicEntityAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IChatAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteChatTopicEntityAsync(int, CancellationToken)
-  nameWithType: IChatAgent.DeleteChatTopicEntityAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicEntityAsync(int, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Deletes the ChatTopicEntity
-  example: []
-  syntax:
-    content: Task DeleteChatTopicEntityAsync(int chatTopicEntityId, CancellationToken cancellationToken = default)
-    parameters:
-    - id: chatTopicEntityId
-      type: System.Int32
-      description: The identity of the ChatTopicEntity
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Function DeleteChatTopicEntityAsync(chatTopicEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
-  overload: SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicEntityAsync*
-  nameWithType.vb: IChatAgent.DeleteChatTopicEntityAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicEntityAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeleteChatTopicEntityAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IChatAgent.GetChatPresenceAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IChatAgent.GetChatPresenceAsync(System.Threading.CancellationToken)
   id: GetChatPresenceAsync(System.Threading.CancellationToken)
@@ -347,6 +140,93 @@ items:
   nameWithType.vb: IChatAgent.SaveChatPresenceAsync(ChatPresence(), CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IChatAgent.SaveChatPresenceAsync(SuperOffice.CRM.Services.ChatPresence(), System.Threading.CancellationToken)
   name.vb: SaveChatPresenceAsync(ChatPresence(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatSessionEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatSessionEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultChatSessionEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultChatSessionEntityAsync(CancellationToken)
+  nameWithType: IChatAgent.CreateDefaultChatSessionEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatSessionEntityAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new ChatSessionEntity.
+  example: []
+  syntax:
+    content: Task<ChatSessionEntity> CreateDefaultChatSessionEntityAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatSessionEntity}
+      description: New ChatSessionEntity with default values
+    content.vb: Function CreateDefaultChatSessionEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ChatSessionEntity)
+  overload: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatSessionEntityAsync*
+- uid: SuperOffice.CRM.Services.IChatAgent.SaveChatSessionEntityAsync(SuperOffice.CRM.Services.ChatSessionEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.SaveChatSessionEntityAsync(SuperOffice.CRM.Services.ChatSessionEntity,System.Threading.CancellationToken)
+  id: SaveChatSessionEntityAsync(SuperOffice.CRM.Services.ChatSessionEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveChatSessionEntityAsync(ChatSessionEntity, CancellationToken)
+  nameWithType: IChatAgent.SaveChatSessionEntityAsync(ChatSessionEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IChatAgent.SaveChatSessionEntityAsync(SuperOffice.CRM.Services.ChatSessionEntity, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing ChatSessionEntity or creates a new ChatSessionEntity if the id parameter is 0.
+  example: []
+  syntax:
+    content: Task<ChatSessionEntity> SaveChatSessionEntityAsync(ChatSessionEntity chatSessionEntity, CancellationToken cancellationToken = default)
+    parameters:
+    - id: chatSessionEntity
+      type: SuperOffice.CRM.Services.ChatSessionEntity
+      description: The ChatSessionEntity that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatSessionEntity}
+      description: New or updated ChatSessionEntity
+    content.vb: Function SaveChatSessionEntityAsync(chatSessionEntity As ChatSessionEntity, cancellationToken As CancellationToken = Nothing) As Task(Of ChatSessionEntity)
+  overload: SuperOffice.CRM.Services.IChatAgent.SaveChatSessionEntityAsync*
+- uid: SuperOffice.CRM.Services.IChatAgent.DeleteChatSessionEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.DeleteChatSessionEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteChatSessionEntityAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteChatSessionEntityAsync(int, CancellationToken)
+  nameWithType: IChatAgent.DeleteChatSessionEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IChatAgent.DeleteChatSessionEntityAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Deletes the ChatSessionEntity
+  example: []
+  syntax:
+    content: Task DeleteChatSessionEntityAsync(int chatSessionEntityId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: chatSessionEntityId
+      type: System.Int32
+      description: The identity of the ChatSessionEntity
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function DeleteChatSessionEntityAsync(chatSessionEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IChatAgent.DeleteChatSessionEntityAsync*
+  nameWithType.vb: IChatAgent.DeleteChatSessionEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IChatAgent.DeleteChatSessionEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteChatSessionEntityAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IChatAgent.GetChatSessionEntityAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IChatAgent.GetChatSessionEntityAsync(System.Int32,System.Threading.CancellationToken)
   id: GetChatSessionEntityAsync(System.Int32,System.Threading.CancellationToken)
@@ -373,7 +253,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatSessionEntity}
-      description: ChatSessionEntity
+      description: A single ChatSessionEntity
     content.vb: Function GetChatSessionEntityAsync(chatSessionEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ChatSessionEntity)
   overload: SuperOffice.CRM.Services.IChatAgent.GetChatSessionEntityAsync*
   nameWithType.vb: IChatAgent.GetChatSessionEntityAsync(Integer, CancellationToken)
@@ -699,6 +579,119 @@ items:
   nameWithType.vb: IChatAgent.AddChatMessageAsync(Integer, ChatMessage, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IChatAgent.AddChatMessageAsync(Integer, SuperOffice.CRM.Services.ChatMessage, System.Threading.CancellationToken)
   name.vb: AddChatMessageAsync(Integer, ChatMessage, CancellationToken)
+- uid: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicAgentAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicAgentAsync(System.Threading.CancellationToken)
+  id: CreateDefaultChatTopicAgentAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultChatTopicAgentAsync(CancellationToken)
+  nameWithType: IChatAgent.CreateDefaultChatTopicAgentAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicAgentAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new ChatTopicAgent.
+  example: []
+  syntax:
+    content: Task<ChatTopicAgent> CreateDefaultChatTopicAgentAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatTopicAgent}
+      description: New ChatTopicAgent with default values
+    content.vb: Function CreateDefaultChatTopicAgentAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ChatTopicAgent)
+  overload: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicAgentAsync*
+- uid: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultChatTopicEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultChatTopicEntityAsync(CancellationToken)
+  nameWithType: IChatAgent.CreateDefaultChatTopicEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicEntityAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new ChatTopicEntity.
+  example: []
+  syntax:
+    content: Task<ChatTopicEntity> CreateDefaultChatTopicEntityAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatTopicEntity}
+      description: New ChatTopicEntity with default values
+    content.vb: Function CreateDefaultChatTopicEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ChatTopicEntity)
+  overload: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicEntityAsync*
+- uid: SuperOffice.CRM.Services.IChatAgent.SaveChatTopicEntityAsync(SuperOffice.CRM.Services.ChatTopicEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.SaveChatTopicEntityAsync(SuperOffice.CRM.Services.ChatTopicEntity,System.Threading.CancellationToken)
+  id: SaveChatTopicEntityAsync(SuperOffice.CRM.Services.ChatTopicEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveChatTopicEntityAsync(ChatTopicEntity, CancellationToken)
+  nameWithType: IChatAgent.SaveChatTopicEntityAsync(ChatTopicEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IChatAgent.SaveChatTopicEntityAsync(SuperOffice.CRM.Services.ChatTopicEntity, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing ChatTopicEntity or creates a new ChatTopicEntity if the id parameter is 0.
+  example: []
+  syntax:
+    content: Task<ChatTopicEntity> SaveChatTopicEntityAsync(ChatTopicEntity chatTopicEntity, CancellationToken cancellationToken = default)
+    parameters:
+    - id: chatTopicEntity
+      type: SuperOffice.CRM.Services.ChatTopicEntity
+      description: The ChatTopicEntity that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatTopicEntity}
+      description: New or updated ChatTopicEntity
+    content.vb: Function SaveChatTopicEntityAsync(chatTopicEntity As ChatTopicEntity, cancellationToken As CancellationToken = Nothing) As Task(Of ChatTopicEntity)
+  overload: SuperOffice.CRM.Services.IChatAgent.SaveChatTopicEntityAsync*
+- uid: SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteChatTopicEntityAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IChatAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteChatTopicEntityAsync(int, CancellationToken)
+  nameWithType: IChatAgent.DeleteChatTopicEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicEntityAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Deletes the ChatTopicEntity
+  example: []
+  syntax:
+    content: Task DeleteChatTopicEntityAsync(int chatTopicEntityId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: chatTopicEntityId
+      type: System.Int32
+      description: The identity of the ChatTopicEntity
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function DeleteChatTopicEntityAsync(chatTopicEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicEntityAsync*
+  nameWithType.vb: IChatAgent.DeleteChatTopicEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteChatTopicEntityAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IChatAgent.GetChatTopicEntityAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IChatAgent.GetChatTopicEntityAsync(System.Int32,System.Threading.CancellationToken)
   id: GetChatTopicEntityAsync(System.Int32,System.Threading.CancellationToken)
@@ -725,7 +718,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatTopicEntity}
-      description: ChatTopicEntity
+      description: A single ChatTopicEntity
     content.vb: Function GetChatTopicEntityAsync(chatTopicEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ChatTopicEntity)
   overload: SuperOffice.CRM.Services.IChatAgent.GetChatTopicEntityAsync*
   nameWithType.vb: IChatAgent.GetChatTopicEntityAsync(Integer, CancellationToken)
@@ -1104,13 +1097,13 @@ references:
     name: Services
     isExternal: true
     href: SuperOffice.CRM.Services.html
-- uid: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatSessionEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatSessionEntityAsync
+- uid: SuperOffice.CRM.Services.IChatAgent.GetChatPresenceAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IChatAgent.GetChatPresenceAsync
   isExternal: true
-  href: SuperOffice.CRM.Services.IChatAgent.html#SuperOffice_CRM_Services_IChatAgent_CreateDefaultChatSessionEntityAsync_System_Threading_CancellationToken_
-  name: CreateDefaultChatSessionEntityAsync
-  nameWithType: IChatAgent.CreateDefaultChatSessionEntityAsync
-  fullName: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatSessionEntityAsync
+  href: SuperOffice.CRM.Services.IChatAgent.html#SuperOffice_CRM_Services_IChatAgent_GetChatPresenceAsync_System_Threading_CancellationToken_
+  name: GetChatPresenceAsync
+  nameWithType: IChatAgent.GetChatPresenceAsync
+  fullName: SuperOffice.CRM.Services.IChatAgent.GetChatPresenceAsync
 - uid: System.Threading.CancellationToken
   commentId: T:System.Threading.CancellationToken
   parent: System.Threading
@@ -1119,27 +1112,29 @@ references:
   name: CancellationToken
   nameWithType: CancellationToken
   fullName: System.Threading.CancellationToken
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatSessionEntity}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatSessionEntity}
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatPresence[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatPresence[]}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
   href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<ChatSessionEntity>
-  nameWithType: Task<ChatSessionEntity>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ChatSessionEntity>
-  nameWithType.vb: Task(Of ChatSessionEntity)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ChatSessionEntity)
-  name.vb: Task(Of ChatSessionEntity)
+  name: Task<ChatPresence[]>
+  nameWithType: Task<ChatPresence[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ChatPresence[]>
+  nameWithType.vb: Task(Of ChatPresence())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ChatPresence())
+  name.vb: Task(Of ChatPresence())
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - uid: SuperOffice.CRM.Services.ChatSessionEntity
-    name: ChatSessionEntity
+  - uid: SuperOffice.CRM.Services.ChatPresence
+    name: ChatPresence
     isExternal: true
-    href: SuperOffice.CRM.Services.ChatSessionEntity.html
+    href: SuperOffice.CRM.Services.ChatPresence.html
+  - name: '['
+  - name: ']'
   - name: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
@@ -1149,10 +1144,12 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: SuperOffice.CRM.Services.ChatSessionEntity
-    name: ChatSessionEntity
+  - uid: SuperOffice.CRM.Services.ChatPresence
+    name: ChatPresence
     isExternal: true
-    href: SuperOffice.CRM.Services.ChatSessionEntity.html
+    href: SuperOffice.CRM.Services.ChatPresence.html
+  - name: (
+  - name: )
   - name: )
 - uid: System.Threading
   commentId: N:System.Threading
@@ -1246,6 +1243,86 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.IChatAgent.SaveChatPresenceAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IChatAgent.SaveChatPresenceAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IChatAgent.html#SuperOffice_CRM_Services_IChatAgent_SaveChatPresenceAsync_SuperOffice_CRM_Services_ChatPresence___System_Threading_CancellationToken_
+  name: SaveChatPresenceAsync
+  nameWithType: IChatAgent.SaveChatPresenceAsync
+  fullName: SuperOffice.CRM.Services.IChatAgent.SaveChatPresenceAsync
+- uid: SuperOffice.CRM.Services.ChatPresence[]
+  isExternal: true
+  href: SuperOffice.CRM.Services.ChatPresence.html
+  name: ChatPresence[]
+  nameWithType: ChatPresence[]
+  fullName: SuperOffice.CRM.Services.ChatPresence[]
+  nameWithType.vb: ChatPresence()
+  fullName.vb: SuperOffice.CRM.Services.ChatPresence()
+  name.vb: ChatPresence()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ChatPresence
+    name: ChatPresence
+    isExternal: true
+    href: SuperOffice.CRM.Services.ChatPresence.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ChatPresence
+    name: ChatPresence
+    isExternal: true
+    href: SuperOffice.CRM.Services.ChatPresence.html
+  - name: (
+  - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatSessionEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatSessionEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IChatAgent.html#SuperOffice_CRM_Services_IChatAgent_CreateDefaultChatSessionEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultChatSessionEntityAsync
+  nameWithType: IChatAgent.CreateDefaultChatSessionEntityAsync
+  fullName: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatSessionEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatSessionEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatSessionEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ChatSessionEntity>
+  nameWithType: Task<ChatSessionEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ChatSessionEntity>
+  nameWithType.vb: Task(Of ChatSessionEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ChatSessionEntity)
+  name.vb: Task(Of ChatSessionEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.ChatSessionEntity
+    name: ChatSessionEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.ChatSessionEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.ChatSessionEntity
+    name: ChatSessionEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.ChatSessionEntity.html
+  - name: )
 - uid: SuperOffice.CRM.Services.IChatAgent.SaveChatSessionEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.IChatAgent.SaveChatSessionEntityAsync
   isExternal: true
@@ -1279,14 +1356,6 @@ references:
   nameWithType.vb: Integer
   fullName.vb: Integer
   name.vb: Integer
-- uid: System.Threading.Tasks.Task
-  commentId: T:System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
 - uid: System
   commentId: N:System
   isExternal: true
@@ -1294,188 +1363,6 @@ references:
   name: System
   nameWithType: System
   fullName: System
-- uid: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicAgentAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicAgentAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IChatAgent.html#SuperOffice_CRM_Services_IChatAgent_CreateDefaultChatTopicAgentAsync_System_Threading_CancellationToken_
-  name: CreateDefaultChatTopicAgentAsync
-  nameWithType: IChatAgent.CreateDefaultChatTopicAgentAsync
-  fullName: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicAgentAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatTopicAgent}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatTopicAgent}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<ChatTopicAgent>
-  nameWithType: Task<ChatTopicAgent>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ChatTopicAgent>
-  nameWithType.vb: Task(Of ChatTopicAgent)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ChatTopicAgent)
-  name.vb: Task(Of ChatTopicAgent)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.ChatTopicAgent
-    name: ChatTopicAgent
-    isExternal: true
-    href: SuperOffice.CRM.Services.ChatTopicAgent.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.ChatTopicAgent
-    name: ChatTopicAgent
-    isExternal: true
-    href: SuperOffice.CRM.Services.ChatTopicAgent.html
-  - name: )
-- uid: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IChatAgent.html#SuperOffice_CRM_Services_IChatAgent_CreateDefaultChatTopicEntityAsync_System_Threading_CancellationToken_
-  name: CreateDefaultChatTopicEntityAsync
-  nameWithType: IChatAgent.CreateDefaultChatTopicEntityAsync
-  fullName: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicEntityAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatTopicEntity}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatTopicEntity}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<ChatTopicEntity>
-  nameWithType: Task<ChatTopicEntity>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ChatTopicEntity>
-  nameWithType.vb: Task(Of ChatTopicEntity)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ChatTopicEntity)
-  name.vb: Task(Of ChatTopicEntity)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.ChatTopicEntity
-    name: ChatTopicEntity
-    isExternal: true
-    href: SuperOffice.CRM.Services.ChatTopicEntity.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.ChatTopicEntity
-    name: ChatTopicEntity
-    isExternal: true
-    href: SuperOffice.CRM.Services.ChatTopicEntity.html
-  - name: )
-- uid: SuperOffice.CRM.Services.IChatAgent.SaveChatTopicEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IChatAgent.SaveChatTopicEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IChatAgent.html#SuperOffice_CRM_Services_IChatAgent_SaveChatTopicEntityAsync_SuperOffice_CRM_Services_ChatTopicEntity_System_Threading_CancellationToken_
-  name: SaveChatTopicEntityAsync
-  nameWithType: IChatAgent.SaveChatTopicEntityAsync
-  fullName: SuperOffice.CRM.Services.IChatAgent.SaveChatTopicEntityAsync
-- uid: SuperOffice.CRM.Services.ChatTopicEntity
-  commentId: T:SuperOffice.CRM.Services.ChatTopicEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.ChatTopicEntity.html
-  name: ChatTopicEntity
-  nameWithType: ChatTopicEntity
-  fullName: SuperOffice.CRM.Services.ChatTopicEntity
-- uid: SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IChatAgent.html#SuperOffice_CRM_Services_IChatAgent_DeleteChatTopicEntityAsync_System_Int32_System_Threading_CancellationToken_
-  name: DeleteChatTopicEntityAsync
-  nameWithType: IChatAgent.DeleteChatTopicEntityAsync
-  fullName: SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicEntityAsync
-- uid: SuperOffice.CRM.Services.IChatAgent.GetChatPresenceAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IChatAgent.GetChatPresenceAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IChatAgent.html#SuperOffice_CRM_Services_IChatAgent_GetChatPresenceAsync_System_Threading_CancellationToken_
-  name: GetChatPresenceAsync
-  nameWithType: IChatAgent.GetChatPresenceAsync
-  fullName: SuperOffice.CRM.Services.IChatAgent.GetChatPresenceAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatPresence[]}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatPresence[]}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<ChatPresence[]>
-  nameWithType: Task<ChatPresence[]>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ChatPresence[]>
-  nameWithType.vb: Task(Of ChatPresence())
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ChatPresence())
-  name.vb: Task(Of ChatPresence())
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.ChatPresence
-    name: ChatPresence
-    isExternal: true
-    href: SuperOffice.CRM.Services.ChatPresence.html
-  - name: '['
-  - name: ']'
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.ChatPresence
-    name: ChatPresence
-    isExternal: true
-    href: SuperOffice.CRM.Services.ChatPresence.html
-  - name: (
-  - name: )
-  - name: )
-- uid: SuperOffice.CRM.Services.IChatAgent.SaveChatPresenceAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IChatAgent.SaveChatPresenceAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IChatAgent.html#SuperOffice_CRM_Services_IChatAgent_SaveChatPresenceAsync_SuperOffice_CRM_Services_ChatPresence___System_Threading_CancellationToken_
-  name: SaveChatPresenceAsync
-  nameWithType: IChatAgent.SaveChatPresenceAsync
-  fullName: SuperOffice.CRM.Services.IChatAgent.SaveChatPresenceAsync
-- uid: SuperOffice.CRM.Services.ChatPresence[]
-  isExternal: true
-  href: SuperOffice.CRM.Services.ChatPresence.html
-  name: ChatPresence[]
-  nameWithType: ChatPresence[]
-  fullName: SuperOffice.CRM.Services.ChatPresence[]
-  nameWithType.vb: ChatPresence()
-  fullName.vb: SuperOffice.CRM.Services.ChatPresence()
-  name.vb: ChatPresence()
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.ChatPresence
-    name: ChatPresence
-    isExternal: true
-    href: SuperOffice.CRM.Services.ChatPresence.html
-  - name: '['
-  - name: ']'
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.ChatPresence
-    name: ChatPresence
-    isExternal: true
-    href: SuperOffice.CRM.Services.ChatPresence.html
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Services.IChatAgent.GetChatSessionEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.IChatAgent.GetChatSessionEntityAsync
   isExternal: true
@@ -1731,6 +1618,112 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Services.ChatMessage.html
   - name: )
+- uid: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicAgentAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicAgentAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IChatAgent.html#SuperOffice_CRM_Services_IChatAgent_CreateDefaultChatTopicAgentAsync_System_Threading_CancellationToken_
+  name: CreateDefaultChatTopicAgentAsync
+  nameWithType: IChatAgent.CreateDefaultChatTopicAgentAsync
+  fullName: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicAgentAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatTopicAgent}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatTopicAgent}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ChatTopicAgent>
+  nameWithType: Task<ChatTopicAgent>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ChatTopicAgent>
+  nameWithType.vb: Task(Of ChatTopicAgent)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ChatTopicAgent)
+  name.vb: Task(Of ChatTopicAgent)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.ChatTopicAgent
+    name: ChatTopicAgent
+    isExternal: true
+    href: SuperOffice.CRM.Services.ChatTopicAgent.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.ChatTopicAgent
+    name: ChatTopicAgent
+    isExternal: true
+    href: SuperOffice.CRM.Services.ChatTopicAgent.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IChatAgent.html#SuperOffice_CRM_Services_IChatAgent_CreateDefaultChatTopicEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultChatTopicEntityAsync
+  nameWithType: IChatAgent.CreateDefaultChatTopicEntityAsync
+  fullName: SuperOffice.CRM.Services.IChatAgent.CreateDefaultChatTopicEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatTopicEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ChatTopicEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ChatTopicEntity>
+  nameWithType: Task<ChatTopicEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ChatTopicEntity>
+  nameWithType.vb: Task(Of ChatTopicEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ChatTopicEntity)
+  name.vb: Task(Of ChatTopicEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.ChatTopicEntity
+    name: ChatTopicEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.ChatTopicEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.ChatTopicEntity
+    name: ChatTopicEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.ChatTopicEntity.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IChatAgent.SaveChatTopicEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IChatAgent.SaveChatTopicEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IChatAgent.html#SuperOffice_CRM_Services_IChatAgent_SaveChatTopicEntityAsync_SuperOffice_CRM_Services_ChatTopicEntity_System_Threading_CancellationToken_
+  name: SaveChatTopicEntityAsync
+  nameWithType: IChatAgent.SaveChatTopicEntityAsync
+  fullName: SuperOffice.CRM.Services.IChatAgent.SaveChatTopicEntityAsync
+- uid: SuperOffice.CRM.Services.ChatTopicEntity
+  commentId: T:SuperOffice.CRM.Services.ChatTopicEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.ChatTopicEntity.html
+  name: ChatTopicEntity
+  nameWithType: ChatTopicEntity
+  fullName: SuperOffice.CRM.Services.ChatTopicEntity
+- uid: SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IChatAgent.html#SuperOffice_CRM_Services_IChatAgent_DeleteChatTopicEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteChatTopicEntityAsync
+  nameWithType: IChatAgent.DeleteChatTopicEntityAsync
+  fullName: SuperOffice.CRM.Services.IChatAgent.DeleteChatTopicEntityAsync
 - uid: SuperOffice.CRM.Services.IChatAgent.GetChatTopicEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.IChatAgent.GetChatTopicEntityAsync
   isExternal: true

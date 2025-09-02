@@ -38,6 +38,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._soTable
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._firstProviderInChain
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._recursionInfo
+  - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._analyzeOnlyBaseColumns
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.AnalyzeTable
@@ -422,6 +423,14 @@ references:
   name: _recursionInfo
   nameWithType: ExtraFieldExtenderBase._recursionInfo
   fullName: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._recursionInfo
+- uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._analyzeOnlyBaseColumns
+  commentId: F:SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._analyzeOnlyBaseColumns
+  parent: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.html#SuperOffice_CRM_ArchiveLists_ExtraFieldExtenderBase__analyzeOnlyBaseColumns
+  name: _analyzeOnlyBaseColumns
+  nameWithType: ExtraFieldExtenderBase._analyzeOnlyBaseColumns
+  fullName: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._analyzeOnlyBaseColumns
 - uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.InnerModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.InnerModifyQuery
   parent: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase

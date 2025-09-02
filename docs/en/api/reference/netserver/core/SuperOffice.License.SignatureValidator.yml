@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.License
   children:
   - SuperOffice.License.SignatureValidator.#ctor(SuperOffice.License.SignedPublicKey)
-  - SuperOffice.License.SignatureValidator.#ctor(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger)
+  - SuperOffice.License.SignatureValidator.#ctor(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger{SuperOffice.License.SignatureValidator})
   - SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.LicenseInfo)
   - SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SerialNumberChange)
   - SuperOffice.License.SignatureValidator.ComputeHash(SuperOffice.License.SignedPublicKey)
@@ -156,16 +156,16 @@ items:
   nameWithType.vb: SignatureValidator.New(SignedPublicKey)
   fullName.vb: SuperOffice.License.SignatureValidator.New(SuperOffice.License.SignedPublicKey)
   name.vb: New(SignedPublicKey)
-- uid: SuperOffice.License.SignatureValidator.#ctor(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger)
-  commentId: M:SuperOffice.License.SignatureValidator.#ctor(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger)
-  id: '#ctor(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger)'
+- uid: SuperOffice.License.SignatureValidator.#ctor(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger{SuperOffice.License.SignatureValidator})
+  commentId: M:SuperOffice.License.SignatureValidator.#ctor(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger{SuperOffice.License.SignatureValidator})
+  id: '#ctor(SuperOffice.License.SignedPublicKey,Microsoft.Extensions.Logging.ILogger{SuperOffice.License.SignatureValidator})'
   parent: SuperOffice.License.SignatureValidator
   langs:
   - csharp
   - vb
-  name: SignatureValidator(SignedPublicKey, ILogger)
-  nameWithType: SignatureValidator.SignatureValidator(SignedPublicKey, ILogger)
-  fullName: SuperOffice.License.SignatureValidator.SignatureValidator(SuperOffice.License.SignedPublicKey, Microsoft.Extensions.Logging.ILogger)
+  name: SignatureValidator(SignedPublicKey, ILogger<SignatureValidator>)
+  nameWithType: SignatureValidator.SignatureValidator(SignedPublicKey, ILogger<SignatureValidator>)
+  fullName: SuperOffice.License.SignatureValidator.SignatureValidator(SuperOffice.License.SignedPublicKey, Microsoft.Extensions.Logging.ILogger<SuperOffice.License.SignatureValidator>)
   type: Constructor
   assemblies:
   - SoLicense
@@ -173,18 +173,18 @@ items:
   summary: Create a validator using a signed public key
   example: []
   syntax:
-    content: public SignatureValidator(SignedPublicKey publicKey, ILogger logger)
+    content: public SignatureValidator(SignedPublicKey publicKey, ILogger<SignatureValidator> logger)
     parameters:
     - id: publicKey
       type: SuperOffice.License.SignedPublicKey
       description: The public key must have been signed by the SuperOffice root key
     - id: logger
-      type: Microsoft.Extensions.Logging.ILogger
-    content.vb: Public Sub New(publicKey As SignedPublicKey, logger As ILogger)
+      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.License.SignatureValidator}
+    content.vb: Public Sub New(publicKey As SignedPublicKey, logger As ILogger(Of SignatureValidator))
   overload: SuperOffice.License.SignatureValidator.#ctor*
-  nameWithType.vb: SignatureValidator.New(SignedPublicKey, ILogger)
-  fullName.vb: SuperOffice.License.SignatureValidator.New(SuperOffice.License.SignedPublicKey, Microsoft.Extensions.Logging.ILogger)
-  name.vb: New(SignedPublicKey, ILogger)
+  nameWithType.vb: SignatureValidator.New(SignedPublicKey, ILogger(Of SignatureValidator))
+  fullName.vb: SuperOffice.License.SignatureValidator.New(SuperOffice.License.SignedPublicKey, Microsoft.Extensions.Logging.ILogger(Of SuperOffice.License.SignatureValidator))
+  name.vb: New(SignedPublicKey, ILogger(Of SignatureValidator))
 - uid: SuperOffice.License.SignatureValidator.Validate(System.String,System.String,SuperOffice.License.ModuleLicense)
   commentId: M:SuperOffice.License.SignatureValidator.Validate(System.String,System.String,SuperOffice.License.ModuleLicense)
   id: Validate(System.String,System.String,SuperOffice.License.ModuleLicense)
@@ -1067,14 +1067,69 @@ references:
   nameWithType.vb: SignatureValidator.New
   fullName.vb: SuperOffice.License.SignatureValidator.New
   name.vb: New
-- uid: Microsoft.Extensions.Logging.ILogger
-  commentId: T:Microsoft.Extensions.Logging.ILogger
+- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.License.SignatureValidator}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.License.SignatureValidator}
   parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<SignatureValidator>
+  nameWithType: ILogger<SignatureValidator>
+  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.License.SignatureValidator>
+  nameWithType.vb: ILogger(Of SignatureValidator)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.License.SignatureValidator)
+  name.vb: ILogger(Of SignatureValidator)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: SuperOffice.License.SignatureValidator
+    name: SignatureValidator
+    isExternal: true
+    href: SuperOffice.License.SignatureValidator.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.License.SignatureValidator
+    name: SignatureValidator
+    isExternal: true
+    href: SuperOffice.License.SignatureValidator.html
+  - name: )
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger
-  name: ILogger
-  nameWithType: ILogger
-  fullName: Microsoft.Extensions.Logging.ILogger
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
 - uid: Microsoft.Extensions.Logging
   commentId: N:Microsoft.Extensions.Logging
   isExternal: true
@@ -1155,6 +1210,14 @@ references:
   name: LicenseInfo
   nameWithType: LicenseInfo
   fullName: SuperOffice.License.LicenseInfo
+- uid: Microsoft.Extensions.Logging.ILogger
+  commentId: T:Microsoft.Extensions.Logging.ILogger
+  parent: Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger
+  name: ILogger
+  nameWithType: ILogger
+  fullName: Microsoft.Extensions.Logging.ILogger
 - uid: SuperOffice.License.SerialNumberChange
   commentId: T:SuperOffice.License.SerialNumberChange
   parent: SuperOffice.License

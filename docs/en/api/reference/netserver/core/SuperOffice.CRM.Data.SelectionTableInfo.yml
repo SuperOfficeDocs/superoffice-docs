@@ -25,6 +25,7 @@ items:
   - SuperOffice.CRM.Data.SelectionTableInfo.LastMembershipChange
   - SuperOffice.CRM.Data.SelectionTableInfo.LastMembershipChangeBy
   - SuperOffice.CRM.Data.SelectionTableInfo.LastMembershipChangeBy_InnerJoin_Associate
+  - SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_BoardViewSettings_SelectionId
   - SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId
   - SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SelectionId
   - SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_SLink_AddContactSelection
@@ -1476,6 +1477,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.DashboardTileDefinitionTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId As TargetedLeftOuterJoin(Of DashboardTileDefinitionTableInfo)
   overload: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId*
+- uid: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_BoardViewSettings_SelectionId
+  commentId: P:SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_BoardViewSettings_SelectionId
+  id: LeftOuterJoin_BoardViewSettings_SelectionId
+  parent: SuperOffice.CRM.Data.SelectionTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_BoardViewSettings_SelectionId
+  nameWithType: SelectionTableInfo.LeftOuterJoin_BoardViewSettings_SelectionId
+  fullName: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_BoardViewSettings_SelectionId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key SelectionId on this table, to BoardViewSettings.<xref href="SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SelectionId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<BoardViewSettingsTableInfo> LeftOuterJoin_BoardViewSettings_SelectionId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.BoardViewSettingsTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_BoardViewSettings_SelectionId As TargetedLeftOuterJoin(Of BoardViewSettingsTableInfo)
+  overload: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_BoardViewSettings_SelectionId*
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
@@ -3398,3 +3422,52 @@ references:
   name: LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId
   nameWithType: SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId
   fullName: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_DashboardTileDefinition_SecondarySelectionId
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SelectionId
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SelectionId
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_SelectionId
+  name: SelectionId
+  nameWithType: BoardViewSettingsTableInfo.SelectionId
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SelectionId
+- uid: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_BoardViewSettings_SelectionId*
+  commentId: Overload:SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_BoardViewSettings_SelectionId
+  isExternal: true
+  href: SuperOffice.CRM.Data.SelectionTableInfo.html#SuperOffice_CRM_Data_SelectionTableInfo_LeftOuterJoin_BoardViewSettings_SelectionId
+  name: LeftOuterJoin_BoardViewSettings_SelectionId
+  nameWithType: SelectionTableInfo.LeftOuterJoin_BoardViewSettings_SelectionId
+  fullName: SuperOffice.CRM.Data.SelectionTableInfo.LeftOuterJoin_BoardViewSettings_SelectionId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.BoardViewSettingsTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.BoardViewSettingsTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<BoardViewSettingsTableInfo>
+  nameWithType: TargetedLeftOuterJoin<BoardViewSettingsTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.BoardViewSettingsTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of BoardViewSettingsTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.BoardViewSettingsTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of BoardViewSettingsTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+    name: BoardViewSettingsTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+    name: BoardViewSettingsTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html
+  - name: )

@@ -113,6 +113,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const StorageType As String = "Criteria"
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.#ctor
+  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage
+  langs:
+  - csharp
+  - vb
+  name: RestrictionCriteriaStorage()
+  nameWithType: RestrictionCriteriaStorage.RestrictionCriteriaStorage()
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.RestrictionCriteriaStorage()
+  type: Constructor
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public RestrictionCriteriaStorage()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.#ctor*
+  nameWithType.vb: RestrictionCriteriaStorage.New()
+  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.New()
+  name.vb: New()
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.GetStrippedProviderName(System.String)
   commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.GetStrippedProviderName(System.String)
   id: GetStrippedProviderName(System.String)
@@ -631,27 +652,6 @@ items:
     content: public static void Flush()
     content.vb: Public Shared Sub Flush()
   overload: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.Flush*
-- uid: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.#ctor
-  commentId: M:SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage
-  langs:
-  - csharp
-  - vb
-  name: RestrictionCriteriaStorage()
-  nameWithType: RestrictionCriteriaStorage.RestrictionCriteriaStorage()
-  fullName: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.RestrictionCriteriaStorage()
-  type: Constructor
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.CRM.ArchiveLists
-  syntax:
-    content: public RestrictionCriteriaStorage()
-    content.vb: Public Sub New()
-  overload: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.#ctor*
-  nameWithType.vb: RestrictionCriteriaStorage.New()
-  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.New()
-  name.vb: New()
 references:
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionStorageSentryAttribute
   commentId: T:SuperOffice.CRM.ArchiveLists.RestrictionStorageSentryAttribute
@@ -1399,6 +1399,16 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.#ctor*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.html#SuperOffice_CRM_ArchiveLists_RestrictionCriteriaStorage__ctor
+  name: RestrictionCriteriaStorage
+  nameWithType: RestrictionCriteriaStorage.RestrictionCriteriaStorage
+  fullName: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.RestrictionCriteriaStorage
+  nameWithType.vb: RestrictionCriteriaStorage.New
+  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.New
+  name.vb: New
 - uid: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.GetStrippedProviderName*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.GetStrippedProviderName
   isExternal: true
@@ -2228,13 +2238,3 @@ references:
   name: Flush
   nameWithType: RestrictionCriteriaStorage.Flush
   fullName: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.Flush
-- uid: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.#ctor*
-  commentId: Overload:SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.#ctor
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.html#SuperOffice_CRM_ArchiveLists_RestrictionCriteriaStorage__ctor
-  name: RestrictionCriteriaStorage
-  nameWithType: RestrictionCriteriaStorage.RestrictionCriteriaStorage
-  fullName: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.RestrictionCriteriaStorage
-  nameWithType.vb: RestrictionCriteriaStorage.New
-  fullName.vb: SuperOffice.CRM.ArchiveLists.RestrictionCriteriaStorage.New
-  name.vb: New

@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.Webhooks
   children:
   - SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.#ctor(SuperOffice.CRM.Webhooks.IWebhookManager,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin})
+  - SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.AddField(System.Collections.Generic.Dictionary{System.String,System.Object},System.String,SuperOffice.CRM.Rows.TableRowBase)
   - SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Initialize(SuperOffice.Data.SoftTrigger)
   - SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Name
   langs:
@@ -119,6 +120,34 @@ items:
   overload: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.Initialize*
   implements:
   - SuperOffice.Data.ISoftTriggerPlugin.Initialize(SuperOffice.Data.SoftTrigger)
+- uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.AddField(System.Collections.Generic.Dictionary{System.String,System.Object},System.String,SuperOffice.CRM.Rows.TableRowBase)
+  commentId: M:SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.AddField(System.Collections.Generic.Dictionary{System.String,System.Object},System.String,SuperOffice.CRM.Rows.TableRowBase)
+  id: AddField(System.Collections.Generic.Dictionary{System.String,System.Object},System.String,SuperOffice.CRM.Rows.TableRowBase)
+  parent: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin
+  langs:
+  - csharp
+  - vb
+  name: AddField(Dictionary<string, object>, string, TableRowBase)
+  nameWithType: WebhookSoftTriggerPlugin.AddField(Dictionary<string, object>, string, TableRowBase)
+  fullName: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.AddField(System.Collections.Generic.Dictionary<string, object>, string, SuperOffice.CRM.Rows.TableRowBase)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Webhooks
+  syntax:
+    content: public static void AddField(Dictionary<string, object> fields, string fieldName, TableRowBase trb)
+    parameters:
+    - id: fields
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+    - id: fieldName
+      type: System.String
+    - id: trb
+      type: SuperOffice.CRM.Rows.TableRowBase
+    content.vb: Public Shared Sub AddField(fields As Dictionary(Of String, Object), fieldName As String, trb As TableRowBase)
+  overload: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.AddField*
+  nameWithType.vb: WebhookSoftTriggerPlugin.AddField(Dictionary(Of String, Object), String, TableRowBase)
+  fullName.vb: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.AddField(System.Collections.Generic.Dictionary(Of String, Object), String, SuperOffice.CRM.Rows.TableRowBase)
+  name.vb: AddField(Dictionary(Of String, Object), String, TableRowBase)
 references:
 - uid: SuperOffice.CRM.Webhooks
   commentId: N:SuperOffice.CRM.Webhooks
@@ -841,3 +870,173 @@ references:
   name: SoftTrigger
   nameWithType: SoftTrigger
   fullName: SuperOffice.Data.SoftTrigger
+- uid: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.AddField*
+  commentId: Overload:SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.AddField
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.html#SuperOffice_CRM_Webhooks_WebhookSoftTriggerPlugin_AddField_System_Collections_Generic_Dictionary_System_String_System_Object__System_String_SuperOffice_CRM_Rows_TableRowBase_
+  name: AddField
+  nameWithType: WebhookSoftTriggerPlugin.AddField
+  fullName: SuperOffice.CRM.Webhooks.WebhookSoftTriggerPlugin.AddField
+- uid: System.Collections.Generic.Dictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, object>
+  nameWithType: Dictionary<string, object>
+  fullName: System.Collections.Generic.Dictionary<string, object>
+  nameWithType.vb: Dictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Object)
+  name.vb: Dictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: SuperOffice.CRM.Rows.TableRowBase
+  commentId: T:SuperOffice.CRM.Rows.TableRowBase
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TableRowBase.html
+  name: TableRowBase
+  nameWithType: TableRowBase
+  fullName: SuperOffice.CRM.Rows.TableRowBase
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html

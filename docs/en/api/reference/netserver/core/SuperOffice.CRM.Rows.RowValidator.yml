@@ -26,9 +26,11 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BatchTaskCancellationBehaviour@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BatchTaskState@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BlobLinkType@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BoardViewEntityType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BookingType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CalMethod@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CalReplyStatus@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CategoryGroup@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CcTemplateType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ChangePasswordType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ChatMessageSpecialType@,SuperOffice.Data.SQL.FieldInfo)
@@ -72,6 +74,7 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EMailMergeTargetType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EMailPriority@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ETableRight@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EjScriptVerb@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EjUserStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ElementStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EmailAccountStatus@,SuperOffice.Data.SQL.FieldInfo)
@@ -4309,6 +4312,34 @@ items:
   nameWithType.vb: RowValidator.ValidateField(WorkflowWaitForActionType, FieldInfo)
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowWaitForActionType, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(WorkflowWaitForActionType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BoardViewEntityType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BoardViewEntityType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.BoardViewEntityType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref BoardViewEntityType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref BoardViewEntityType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.BoardViewEntityType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref BoardViewEntityType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.BoardViewEntityType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As BoardViewEntityType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(BoardViewEntityType, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.BoardViewEntityType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(BoardViewEntityType, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowGoalType@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WorkflowGoalType@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.WorkflowGoalType@,SuperOffice.Data.SQL.FieldInfo)
@@ -6157,6 +6188,34 @@ items:
   nameWithType.vb: RowValidator.ValidateField(NotifyChannel, FieldInfo)
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NotifyChannel, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(NotifyChannel, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CategoryGroup@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CategoryGroup@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.CategoryGroup@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref CategoryGroup, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref CategoryGroup, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.CategoryGroup, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref CategoryGroup field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.CategoryGroup
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As CategoryGroup, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(CategoryGroup, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CategoryGroup, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(CategoryGroup, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
@@ -6885,6 +6944,34 @@ items:
   nameWithType.vb: RowValidator.ValidateField(CcTemplateType, FieldInfo)
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.CcTemplateType, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(CcTemplateType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EjScriptVerb@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EjScriptVerb@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.EjScriptVerb@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref EjScriptVerb, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref EjScriptVerb, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.EjScriptVerb, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref EjScriptVerb field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.EjScriptVerb
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(field As EjScriptVerb, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(EjScriptVerb, FieldInfo)
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EjScriptVerb, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(EjScriptVerb, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WidgetTheme@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.WidgetTheme@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.WidgetTheme@,SuperOffice.Data.SQL.FieldInfo)
@@ -9912,6 +9999,14 @@ references:
   name: WorkflowWaitForActionType
   nameWithType: WorkflowWaitForActionType
   fullName: SuperOffice.Data.WorkflowWaitForActionType
+- uid: SuperOffice.Data.BoardViewEntityType
+  commentId: T:SuperOffice.Data.BoardViewEntityType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.BoardViewEntityType.html
+  name: BoardViewEntityType
+  nameWithType: BoardViewEntityType
+  fullName: SuperOffice.Data.BoardViewEntityType
 - uid: SuperOffice.Data.WorkflowGoalType
   commentId: T:SuperOffice.Data.WorkflowGoalType
   parent: SuperOffice.Data
@@ -10447,6 +10542,14 @@ references:
   name: NotifyChannel
   nameWithType: NotifyChannel
   fullName: SuperOffice.Data.NotifyChannel
+- uid: SuperOffice.Data.CategoryGroup
+  commentId: T:SuperOffice.Data.CategoryGroup
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.CategoryGroup.html
+  name: CategoryGroup
+  nameWithType: CategoryGroup
+  fullName: SuperOffice.Data.CategoryGroup
 - uid: SuperOffice.Data.EventHandlerType
   commentId: T:SuperOffice.Data.EventHandlerType
   parent: SuperOffice.Data
@@ -10655,6 +10758,14 @@ references:
   name: CcTemplateType
   nameWithType: CcTemplateType
   fullName: SuperOffice.Data.CcTemplateType
+- uid: SuperOffice.Data.EjScriptVerb
+  commentId: T:SuperOffice.Data.EjScriptVerb
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.EjScriptVerb.html
+  name: EjScriptVerb
+  nameWithType: EjScriptVerb
+  fullName: SuperOffice.Data.EjScriptVerb
 - uid: SuperOffice.Data.WidgetTheme
   commentId: T:SuperOffice.Data.WidgetTheme
   parent: SuperOffice.Data

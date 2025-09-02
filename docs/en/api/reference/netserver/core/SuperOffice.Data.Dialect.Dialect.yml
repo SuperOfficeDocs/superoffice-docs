@@ -200,6 +200,7 @@ items:
   - System.Object
   derivedClasses:
   - SuperOffice.Data.Dialect.OracleCommon
+  - SuperOffice.Data.Dialect.PostgreSqlDialect
   - SuperOffice.Data.Dialect.SqlServerCommon
   inheritedMembers:
   - System.Object.ToString

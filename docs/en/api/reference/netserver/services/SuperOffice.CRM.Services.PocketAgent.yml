@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.PocketAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICallerIDImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPocketStartupDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.PocketAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICallerIDImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPocketStartupDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.PocketAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICallerIDImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPocketStartupDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   - SuperOffice.CRM.Services.PocketAgent.GetCallerIDsFromSelectionAsync(System.Int32,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.PocketAgent.GetMyCallerIDsAsync(System.String,System.DateTime,System.DateTime,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.PocketAgent.GetPocketStartupDataAsync(System.String[],System.DateTime,System.Threading.CancellationToken)
@@ -81,22 +81,22 @@ items:
   nameWithType.vb: PocketAgent.New(ICallerIDImplementation, IPocketStartupDataImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.PocketAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICallerIDImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPocketStartupDataImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(ICallerIDImplementation, IPocketStartupDataImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.PocketAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICallerIDImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPocketStartupDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  commentId: M:SuperOffice.CRM.Services.PocketAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICallerIDImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPocketStartupDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICallerIDImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPocketStartupDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+- uid: SuperOffice.CRM.Services.PocketAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICallerIDImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPocketStartupDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  commentId: M:SuperOffice.CRM.Services.PocketAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICallerIDImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPocketStartupDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICallerIDImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPocketStartupDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
   parent: SuperOffice.CRM.Services.PocketAgent
   langs:
   - csharp
   - vb
-  name: PocketAgent(ICallerIDImplementation, IPocketStartupDataImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  nameWithType: PocketAgent.PocketAgent(ICallerIDImplementation, IPocketStartupDataImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName: SuperOffice.CRM.Services.PocketAgent.PocketAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICallerIDImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPocketStartupDataImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name: PocketAgent(ICallerIDImplementation, IPocketStartupDataImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType: PocketAgent.PocketAgent(ICallerIDImplementation, IPocketStartupDataImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName: SuperOffice.CRM.Services.PocketAgent.PocketAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICallerIDImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPocketStartupDataImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public PocketAgent(ICallerIDImplementation callerIDImplementation, IPocketStartupDataImplementation pocketStartupDataImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    content: public PocketAgent(ICallerIDImplementation callerIDImplementation, IPocketStartupDataImplementation pocketStartupDataImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
     parameters:
     - id: callerIDImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ICallerIDImplementation
@@ -108,11 +108,15 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    content.vb: Public Sub New(callerIDImplementation As ICallerIDImplementation, pocketStartupDataImplementation As IPocketStartupDataImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+    - id: scriptingConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+    - id: onlineConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+    content.vb: Public Sub New(callerIDImplementation As ICallerIDImplementation, pocketStartupDataImplementation As IPocketStartupDataImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
   overload: SuperOffice.CRM.Services.PocketAgent.#ctor*
-  nameWithType.vb: PocketAgent.New(ICallerIDImplementation, IPocketStartupDataImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName.vb: SuperOffice.CRM.Services.PocketAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICallerIDImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPocketStartupDataImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
-  name.vb: New(ICallerIDImplementation, IPocketStartupDataImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType.vb: PocketAgent.New(ICallerIDImplementation, IPocketStartupDataImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName.vb: SuperOffice.CRM.Services.PocketAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.ICallerIDImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPocketStartupDataImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name.vb: New(ICallerIDImplementation, IPocketStartupDataImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
 - uid: SuperOffice.CRM.Services.PocketAgent.GetMyCallerIDsAsync(System.String,System.DateTime,System.DateTime,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.PocketAgent.GetMyCallerIDsAsync(System.String,System.DateTime,System.DateTime,System.Threading.CancellationToken)
   id: GetMyCallerIDsAsync(System.String,System.DateTime,System.DateTime,System.Threading.CancellationToken)
@@ -985,6 +989,16 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+  isExternal: true
+  name: IScriptingConfiguration
+  nameWithType: ConfigFile.IScriptingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  isExternal: true
+  name: IOnlineConfiguration
+  nameWithType: ConfigFile.IOnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
 - uid: SuperOffice.CRM.Services.PocketAgent.GetMyCallerIDsAsync*
   commentId: Overload:SuperOffice.CRM.Services.PocketAgent.GetMyCallerIDsAsync
   isExternal: true

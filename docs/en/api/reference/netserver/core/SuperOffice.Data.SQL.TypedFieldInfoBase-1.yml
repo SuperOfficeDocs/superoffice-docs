@@ -61,6 +61,8 @@ items:
   - SuperOffice.Data.SQL.AssociateTypeFieldInfo
   - SuperOffice.Data.SQL.BadgeTypeFieldInfo
   - SuperOffice.Data.SQL.BlobLinkTypeFieldInfo
+  - SuperOffice.Data.SQL.BoardViewEntityTypeFieldInfo
+  - SuperOffice.Data.SQL.CategoryGroupFieldInfo
   - SuperOffice.Data.SQL.CcTemplateTypeFieldInfo
   - SuperOffice.Data.SQL.ChatMessageSpecialTypeFieldInfo
   - SuperOffice.Data.SQL.ChatMessageTypeFieldInfo
@@ -89,6 +91,7 @@ items:
   - SuperOffice.Data.SQL.DurationUnitFieldInfo
   - SuperOffice.Data.SQL.EMailFlagsFieldInfo
   - SuperOffice.Data.SQL.EMailPriorityFieldInfo
+  - SuperOffice.Data.SQL.EjScriptVerbFieldInfo
   - SuperOffice.Data.SQL.ElementStatusFieldInfo
   - SuperOffice.Data.SQL.EmailAccountStatusFieldInfo
   - SuperOffice.Data.SQL.EmailFromTypeFieldInfo

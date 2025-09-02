@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.PhoneListAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.PhoneListAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.PhoneListAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   - SuperOffice.CRM.Services.PhoneListAgent.AddToFavoritesAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.PhoneListAgent.GetContactPhonesAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.PhoneListAgent.GetDepartmentPhonesAsync(System.Int32,System.Threading.CancellationToken)
@@ -76,22 +76,22 @@ items:
   nameWithType.vb: PhoneListAgent.New(IPhoneListImplementation, IPhoneListPreferencesImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.PhoneListAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IPhoneListImplementation, IPhoneListPreferencesImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.PhoneListAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  commentId: M:SuperOffice.CRM.Services.PhoneListAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+- uid: SuperOffice.CRM.Services.PhoneListAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  commentId: M:SuperOffice.CRM.Services.PhoneListAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
   parent: SuperOffice.CRM.Services.PhoneListAgent
   langs:
   - csharp
   - vb
-  name: PhoneListAgent(IPhoneListImplementation, IPhoneListPreferencesImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  nameWithType: PhoneListAgent.PhoneListAgent(IPhoneListImplementation, IPhoneListPreferencesImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName: SuperOffice.CRM.Services.PhoneListAgent.PhoneListAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name: PhoneListAgent(IPhoneListImplementation, IPhoneListPreferencesImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType: PhoneListAgent.PhoneListAgent(IPhoneListImplementation, IPhoneListPreferencesImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName: SuperOffice.CRM.Services.PhoneListAgent.PhoneListAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public PhoneListAgent(IPhoneListImplementation phoneListImplementation, IPhoneListPreferencesImplementation phoneListPreferencesImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    content: public PhoneListAgent(IPhoneListImplementation phoneListImplementation, IPhoneListPreferencesImplementation phoneListPreferencesImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
     parameters:
     - id: phoneListImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation
@@ -103,11 +103,15 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    content.vb: Public Sub New(phoneListImplementation As IPhoneListImplementation, phoneListPreferencesImplementation As IPhoneListPreferencesImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+    - id: scriptingConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+    - id: onlineConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+    content.vb: Public Sub New(phoneListImplementation As IPhoneListImplementation, phoneListPreferencesImplementation As IPhoneListPreferencesImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
   overload: SuperOffice.CRM.Services.PhoneListAgent.#ctor*
-  nameWithType.vb: PhoneListAgent.New(IPhoneListImplementation, IPhoneListPreferencesImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName.vb: SuperOffice.CRM.Services.PhoneListAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
-  name.vb: New(IPhoneListImplementation, IPhoneListPreferencesImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType.vb: PhoneListAgent.New(IPhoneListImplementation, IPhoneListPreferencesImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName.vb: SuperOffice.CRM.Services.PhoneListAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPhoneListPreferencesImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name.vb: New(IPhoneListImplementation, IPhoneListPreferencesImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
 - uid: SuperOffice.CRM.Services.PhoneListAgent.SearchAsync(System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.PhoneListAgent.SearchAsync(System.String,System.Threading.CancellationToken)
   id: SearchAsync(System.String,System.Threading.CancellationToken)
@@ -775,6 +779,16 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+  isExternal: true
+  name: IScriptingConfiguration
+  nameWithType: ConfigFile.IScriptingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  isExternal: true
+  name: IOnlineConfiguration
+  nameWithType: ConfigFile.IOnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
 - uid: SuperOffice.CRM.Services.PhoneListAgent.SearchAsync*
   commentId: Overload:SuperOffice.CRM.Services.PhoneListAgent.SearchAsync
   isExternal: true

@@ -32,6 +32,7 @@ items:
   - SuperOffice.CRM.Data.BatchTaskTableInfo
   - SuperOffice.CRM.Data.BinaryObjectLinkTableInfo
   - SuperOffice.CRM.Data.BinaryObjectTableInfo
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo
   - SuperOffice.CRM.Data.BusinessGroupLinkTableInfo
   - SuperOffice.CRM.Data.BusinessHeadingLinkTableInfo
   - SuperOffice.CRM.Data.BusinessTableInfo
@@ -107,6 +108,7 @@ items:
   - SuperOffice.CRM.Data.DBC.BatchTaskFields
   - SuperOffice.CRM.Data.DBC.BinaryObjectFields
   - SuperOffice.CRM.Data.DBC.BinaryObjectLinkFields
+  - SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
   - SuperOffice.CRM.Data.DBC.BusinessFields
   - SuperOffice.CRM.Data.DBC.BusinessGroupLinkFields
   - SuperOffice.CRM.Data.DBC.BusinessHeadingLinkFields
@@ -596,6 +598,7 @@ items:
   - SuperOffice.CRM.Data.DBC.UserGroupLinkFields
   - SuperOffice.CRM.Data.DBC.UserPreferenceFields
   - SuperOffice.CRM.Data.DBC.UserRoleLinkFields
+  - SuperOffice.CRM.Data.DBC.UtmParametersFields
   - SuperOffice.CRM.Data.DBC.VisibleForFields
   - SuperOffice.CRM.Data.DBC.WebAppUsageFields
   - SuperOffice.CRM.Data.DBC.WebhookFields
@@ -1057,6 +1060,7 @@ items:
   - SuperOffice.CRM.Data.UserGroupTableInfo
   - SuperOffice.CRM.Data.UserPreferenceTableInfo
   - SuperOffice.CRM.Data.UserRoleLinkTableInfo
+  - SuperOffice.CRM.Data.UtmParametersTableInfo
   - SuperOffice.CRM.Data.VisibleForTableInfo
   - SuperOffice.CRM.Data.WebAppUsageTableInfo
   - SuperOffice.CRM.Data.WebhookTableInfo
@@ -1308,6 +1312,14 @@ references:
   name: BinaryObjectLinkTableInfo
   nameWithType: BinaryObjectLinkTableInfo
   fullName: SuperOffice.CRM.Data.BinaryObjectLinkTableInfo
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  commentId: T:SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html
+  name: BoardViewSettingsTableInfo
+  nameWithType: BoardViewSettingsTableInfo
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
 - uid: SuperOffice.CRM.Data.BusinessTableInfo
   commentId: T:SuperOffice.CRM.Data.BusinessTableInfo
   parent: SuperOffice.CRM.Data
@@ -15101,6 +15113,33 @@ references:
     name: TypicalSearchFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.TypicalSearchFields.html
+- uid: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+  commentId: T:SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.BoardViewSettingsFields
+  nameWithType: DBC.BoardViewSettingsFields
+  fullName: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+    name: BoardViewSettingsFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+    name: BoardViewSettingsFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.html
 - uid: SuperOffice.CRM.Data.DBC.OnlineAppFields
   commentId: T:SuperOffice.CRM.Data.DBC.OnlineAppFields
   isExternal: true
@@ -16100,6 +16139,33 @@ references:
     name: EntityCountsFields
     isExternal: true
     href: SuperOffice.CRM.Data.DBC.EntityCountsFields.html
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  commentId: T:SuperOffice.CRM.Data.DBC.UtmParametersFields
+  isExternal: true
+  href: SuperOffice.CRM.Data.DBC.html
+  name: DBC.UtmParametersFields
+  nameWithType: DBC.UtmParametersFields
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  spec.csharp:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.UtmParametersFields
+    name: UtmParametersFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.UtmParametersFields.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Data.DBC
+    name: DBC
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.html
+  - name: .
+  - uid: SuperOffice.CRM.Data.DBC.UtmParametersFields
+    name: UtmParametersFields
+    isExternal: true
+    href: SuperOffice.CRM.Data.DBC.UtmParametersFields.html
 - uid: SuperOffice.CRM.Data.DBC.TicketTypeFields
   commentId: T:SuperOffice.CRM.Data.DBC.TicketTypeFields
   isExternal: true
@@ -19652,6 +19718,14 @@ references:
   name: UserRoleLinkTableInfo
   nameWithType: UserRoleLinkTableInfo
   fullName: SuperOffice.CRM.Data.UserRoleLinkTableInfo
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo
+  commentId: T:SuperOffice.CRM.Data.UtmParametersTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html
+  name: UtmParametersTableInfo
+  nameWithType: UtmParametersTableInfo
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo
 - uid: SuperOffice.CRM.Data.VisibleForTableInfo
   commentId: T:SuperOffice.CRM.Data.VisibleForTableInfo
   parent: SuperOffice.CRM.Data

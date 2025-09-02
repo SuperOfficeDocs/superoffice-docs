@@ -9,6 +9,7 @@ items:
   - SuperOffice.CRM.Rows.NotifyRow.CategoryId
   - SuperOffice.CRM.Rows.NotifyRow.ChatNickName
   - SuperOffice.CRM.Rows.NotifyRow.ChatTopicId
+  - SuperOffice.CRM.Rows.NotifyRow.ContactId
   - SuperOffice.CRM.Rows.NotifyRow.CreateNew
   - SuperOffice.CRM.Rows.NotifyRow.CustomMessage
   - SuperOffice.CRM.Rows.NotifyRow.CustomUrl
@@ -32,6 +33,7 @@ items:
   - SuperOffice.CRM.Rows.NotifyRow.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.CRM.Rows.NotifyRow.OnSavedAsync(System.Boolean)
   - SuperOffice.CRM.Rows.NotifyRow.OwnerId
+  - SuperOffice.CRM.Rows.NotifyRow.PersonId
   - SuperOffice.CRM.Rows.NotifyRow.Registered
   - SuperOffice.CRM.Rows.NotifyRow.RegisteredAssociateId
   - SuperOffice.CRM.Rows.NotifyRow.Reset
@@ -49,11 +51,13 @@ items:
   - SuperOffice.CRM.Rows.NotifyRow._currentCategoryId
   - SuperOffice.CRM.Rows.NotifyRow._currentChatNickName
   - SuperOffice.CRM.Rows.NotifyRow._currentChatTopicId
+  - SuperOffice.CRM.Rows.NotifyRow._currentContactId
   - SuperOffice.CRM.Rows.NotifyRow._currentCustomMessage
   - SuperOffice.CRM.Rows.NotifyRow._currentCustomUrl
   - SuperOffice.CRM.Rows.NotifyRow._currentExpires
   - SuperOffice.CRM.Rows.NotifyRow._currentNotifyId
   - SuperOffice.CRM.Rows.NotifyRow._currentOwnerId
+  - SuperOffice.CRM.Rows.NotifyRow._currentPersonId
   - SuperOffice.CRM.Rows.NotifyRow._currentRegistered
   - SuperOffice.CRM.Rows.NotifyRow._currentRegisteredAssociateId
   - SuperOffice.CRM.Rows.NotifyRow._currentTicketAlertId
@@ -64,11 +68,13 @@ items:
   - SuperOffice.CRM.Rows.NotifyRow._persistedCategoryId
   - SuperOffice.CRM.Rows.NotifyRow._persistedChatNickName
   - SuperOffice.CRM.Rows.NotifyRow._persistedChatTopicId
+  - SuperOffice.CRM.Rows.NotifyRow._persistedContactId
   - SuperOffice.CRM.Rows.NotifyRow._persistedCustomMessage
   - SuperOffice.CRM.Rows.NotifyRow._persistedCustomUrl
   - SuperOffice.CRM.Rows.NotifyRow._persistedExpires
   - SuperOffice.CRM.Rows.NotifyRow._persistedNotifyId
   - SuperOffice.CRM.Rows.NotifyRow._persistedOwnerId
+  - SuperOffice.CRM.Rows.NotifyRow._persistedPersonId
   - SuperOffice.CRM.Rows.NotifyRow._persistedRegistered
   - SuperOffice.CRM.Rows.NotifyRow._persistedRegisteredAssociateId
   - SuperOffice.CRM.Rows.NotifyRow._persistedTicketAlertId
@@ -476,6 +482,48 @@ items:
     return:
       type: System.String
     content.vb: Protected _persistedCustomMessage As String
+- uid: SuperOffice.CRM.Rows.NotifyRow._persistedContactId
+  commentId: F:SuperOffice.CRM.Rows.NotifyRow._persistedContactId
+  id: _persistedContactId
+  parent: SuperOffice.CRM.Rows.NotifyRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedContactId
+  nameWithType: NotifyRow._persistedContactId
+  fullName: SuperOffice.CRM.Rows.NotifyRow._persistedContactId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.NotifyRow.ContactId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _persistedContactId
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedContactId As Integer
+- uid: SuperOffice.CRM.Rows.NotifyRow._persistedPersonId
+  commentId: F:SuperOffice.CRM.Rows.NotifyRow._persistedPersonId
+  id: _persistedPersonId
+  parent: SuperOffice.CRM.Rows.NotifyRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedPersonId
+  nameWithType: NotifyRow._persistedPersonId
+  fullName: SuperOffice.CRM.Rows.NotifyRow._persistedPersonId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.NotifyRow.PersonId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _persistedPersonId
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedPersonId As Integer
 - uid: SuperOffice.CRM.Rows.NotifyRow._persistedCustomUrl
   commentId: F:SuperOffice.CRM.Rows.NotifyRow._persistedCustomUrl
   id: _persistedCustomUrl
@@ -791,6 +839,48 @@ items:
     return:
       type: System.String
     content.vb: Protected _currentCustomMessage As String
+- uid: SuperOffice.CRM.Rows.NotifyRow._currentContactId
+  commentId: F:SuperOffice.CRM.Rows.NotifyRow._currentContactId
+  id: _currentContactId
+  parent: SuperOffice.CRM.Rows.NotifyRow
+  langs:
+  - csharp
+  - vb
+  name: _currentContactId
+  nameWithType: NotifyRow._currentContactId
+  fullName: SuperOffice.CRM.Rows.NotifyRow._currentContactId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.NotifyRow.ContactId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _currentContactId
+    return:
+      type: System.Int32
+    content.vb: Protected _currentContactId As Integer
+- uid: SuperOffice.CRM.Rows.NotifyRow._currentPersonId
+  commentId: F:SuperOffice.CRM.Rows.NotifyRow._currentPersonId
+  id: _currentPersonId
+  parent: SuperOffice.CRM.Rows.NotifyRow
+  langs:
+  - csharp
+  - vb
+  name: _currentPersonId
+  nameWithType: NotifyRow._currentPersonId
+  fullName: SuperOffice.CRM.Rows.NotifyRow._currentPersonId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.NotifyRow.PersonId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _currentPersonId
+    return:
+      type: System.Int32
+    content.vb: Protected _currentPersonId As Integer
 - uid: SuperOffice.CRM.Rows.NotifyRow._currentCustomUrl
   commentId: F:SuperOffice.CRM.Rows.NotifyRow._currentCustomUrl
   id: _currentCustomUrl
@@ -1987,6 +2077,68 @@ items:
       type: System.String
     content.vb: Public Overridable Property CustomMessage As String
   overload: SuperOffice.CRM.Rows.NotifyRow.CustomMessage*
+- uid: SuperOffice.CRM.Rows.NotifyRow.ContactId
+  commentId: P:SuperOffice.CRM.Rows.NotifyRow.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Rows.NotifyRow
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: NotifyRow.ContactId
+  fullName: SuperOffice.CRM.Rows.NotifyRow.ContactId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: int. Id of the assigned contact'
+  remarks: >-
+    Original type in dictionary:  FK.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual int ContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property ContactId As Integer
+  overload: SuperOffice.CRM.Rows.NotifyRow.ContactId*
+- uid: SuperOffice.CRM.Rows.NotifyRow.PersonId
+  commentId: P:SuperOffice.CRM.Rows.NotifyRow.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Rows.NotifyRow
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: NotifyRow.PersonId
+  fullName: SuperOffice.CRM.Rows.NotifyRow.PersonId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: int. Id of the assigned person'
+  remarks: >-
+    Original type in dictionary:  FK.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual int PersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property PersonId As Integer
+  overload: SuperOffice.CRM.Rows.NotifyRow.PersonId*
 - uid: SuperOffice.CRM.Rows.NotifyRow.CustomUrl
   commentId: P:SuperOffice.CRM.Rows.NotifyRow.CustomUrl
   id: CustomUrl
@@ -5129,6 +5281,20 @@ references:
   name: CustomMessage
   nameWithType: NotifyRow.CustomMessage
   fullName: SuperOffice.CRM.Rows.NotifyRow.CustomMessage
+- uid: SuperOffice.CRM.Rows.NotifyRow.ContactId
+  commentId: P:SuperOffice.CRM.Rows.NotifyRow.ContactId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.NotifyRow.html#SuperOffice_CRM_Rows_NotifyRow_ContactId
+  name: ContactId
+  nameWithType: NotifyRow.ContactId
+  fullName: SuperOffice.CRM.Rows.NotifyRow.ContactId
+- uid: SuperOffice.CRM.Rows.NotifyRow.PersonId
+  commentId: P:SuperOffice.CRM.Rows.NotifyRow.PersonId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.NotifyRow.html#SuperOffice_CRM_Rows_NotifyRow_PersonId
+  name: PersonId
+  nameWithType: NotifyRow.PersonId
+  fullName: SuperOffice.CRM.Rows.NotifyRow.PersonId
 - uid: SuperOffice.CRM.Rows.NotifyRow.CustomUrl
   commentId: P:SuperOffice.CRM.Rows.NotifyRow.CustomUrl
   isExternal: true
@@ -6143,6 +6309,20 @@ references:
   name: CustomMessage
   nameWithType: NotifyRow.CustomMessage
   fullName: SuperOffice.CRM.Rows.NotifyRow.CustomMessage
+- uid: SuperOffice.CRM.Rows.NotifyRow.ContactId*
+  commentId: Overload:SuperOffice.CRM.Rows.NotifyRow.ContactId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.NotifyRow.html#SuperOffice_CRM_Rows_NotifyRow_ContactId
+  name: ContactId
+  nameWithType: NotifyRow.ContactId
+  fullName: SuperOffice.CRM.Rows.NotifyRow.ContactId
+- uid: SuperOffice.CRM.Rows.NotifyRow.PersonId*
+  commentId: Overload:SuperOffice.CRM.Rows.NotifyRow.PersonId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.NotifyRow.html#SuperOffice_CRM_Rows_NotifyRow_PersonId
+  name: PersonId
+  nameWithType: NotifyRow.PersonId
+  fullName: SuperOffice.CRM.Rows.NotifyRow.PersonId
 - uid: SuperOffice.CRM.Rows.NotifyRow.CustomUrl*
   commentId: Overload:SuperOffice.CRM.Rows.NotifyRow.CustomUrl
   isExternal: true

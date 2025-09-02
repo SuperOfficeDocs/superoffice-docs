@@ -8,11 +8,13 @@ items:
   - SuperOffice.CRM.Data.DBC.NotifyFields.CategoryId
   - SuperOffice.CRM.Data.DBC.NotifyFields.ChatNickName
   - SuperOffice.CRM.Data.DBC.NotifyFields.ChatTopicId
+  - SuperOffice.CRM.Data.DBC.NotifyFields.ContactId
   - SuperOffice.CRM.Data.DBC.NotifyFields.CustomMessage
   - SuperOffice.CRM.Data.DBC.NotifyFields.CustomUrl
   - SuperOffice.CRM.Data.DBC.NotifyFields.Expires
   - SuperOffice.CRM.Data.DBC.NotifyFields.NotifyId
   - SuperOffice.CRM.Data.DBC.NotifyFields.OwnerId
+  - SuperOffice.CRM.Data.DBC.NotifyFields.PersonId
   - SuperOffice.CRM.Data.DBC.NotifyFields.Registered
   - SuperOffice.CRM.Data.DBC.NotifyFields.RegisteredAssociateId
   - SuperOffice.CRM.Data.DBC.NotifyFields.TicketAlertId
@@ -297,6 +299,48 @@ items:
     return:
       type: System.String
     content.vb: Public Const CustomMessage As String = "custom_message"
+- uid: SuperOffice.CRM.Data.DBC.NotifyFields.ContactId
+  commentId: F:SuperOffice.CRM.Data.DBC.NotifyFields.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Data.DBC.NotifyFields
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: DBC.NotifyFields.ContactId
+  fullName: SuperOffice.CRM.Data.DBC.NotifyFields.ContactId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Notify.ContactId: Id of the assigned contact'
+  example: []
+  syntax:
+    content: public const string ContactId = "contact_id"
+    return:
+      type: System.String
+    content.vb: Public Const ContactId As String = "contact_id"
+- uid: SuperOffice.CRM.Data.DBC.NotifyFields.PersonId
+  commentId: F:SuperOffice.CRM.Data.DBC.NotifyFields.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Data.DBC.NotifyFields
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: DBC.NotifyFields.PersonId
+  fullName: SuperOffice.CRM.Data.DBC.NotifyFields.PersonId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Notify.PersonId: Id of the assigned person'
+  example: []
+  syntax:
+    content: public const string PersonId = "person_id"
+    return:
+      type: System.String
+    content.vb: Public Const PersonId As String = "person_id"
 - uid: SuperOffice.CRM.Data.DBC.NotifyFields.CustomUrl
   commentId: F:SuperOffice.CRM.Data.DBC.NotifyFields.CustomUrl
   id: CustomUrl

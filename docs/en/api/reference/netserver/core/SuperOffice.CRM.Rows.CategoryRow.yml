@@ -7,11 +7,13 @@ items:
   children:
   - SuperOffice.CRM.Rows.CategoryRow.#ctor(SuperOffice.CRM.Rows.CategoryRow.CategoryRowIdxBase)
   - SuperOffice.CRM.Rows.CategoryRow.CategoryFamilyId
+  - SuperOffice.CRM.Rows.CategoryRow.CategoryGroup
   - SuperOffice.CRM.Rows.CategoryRow.CategoryId
   - SuperOffice.CRM.Rows.CategoryRow.CategoryTableInfo
   - SuperOffice.CRM.Rows.CategoryRow.CreateNew
   - SuperOffice.CRM.Rows.CategoryRow.Deleted
   - SuperOffice.CRM.Rows.CategoryRow.ElementType
+  - SuperOffice.CRM.Rows.CategoryRow.EnableLeadStatus
   - SuperOffice.CRM.Rows.CategoryRow.GetFromCustomSearch(SuperOffice.CRM.Rows.CategoryRow.CustomSearch)
   - SuperOffice.CRM.Rows.CategoryRow.GetFromCustomSearchAsync(SuperOffice.CRM.Rows.CategoryRow.CustomSearch,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.CategoryRow.GetFromIdxCategoryIdAsync(System.Int32,System.Threading.CancellationToken)
@@ -47,8 +49,10 @@ items:
   - SuperOffice.CRM.Rows.CategoryRow.Validate(SuperOffice.CRM.Rows.RowValidator)
   - SuperOffice.CRM.Rows.CategoryRow.Value
   - SuperOffice.CRM.Rows.CategoryRow._currentCategoryFamilyId
+  - SuperOffice.CRM.Rows.CategoryRow._currentCategoryGroup
   - SuperOffice.CRM.Rows.CategoryRow._currentCategoryId
   - SuperOffice.CRM.Rows.CategoryRow._currentDeleted
+  - SuperOffice.CRM.Rows.CategoryRow._currentEnableLeadStatus
   - SuperOffice.CRM.Rows.CategoryRow._currentName
   - SuperOffice.CRM.Rows.CategoryRow._currentRank
   - SuperOffice.CRM.Rows.CategoryRow._currentRegistered
@@ -59,8 +63,10 @@ items:
   - SuperOffice.CRM.Rows.CategoryRow._currentUpdatedCount
   - SuperOffice.CRM.Rows.CategoryRow._nodeType
   - SuperOffice.CRM.Rows.CategoryRow._persistedCategoryFamilyId
+  - SuperOffice.CRM.Rows.CategoryRow._persistedCategoryGroup
   - SuperOffice.CRM.Rows.CategoryRow._persistedCategoryId
   - SuperOffice.CRM.Rows.CategoryRow._persistedDeleted
+  - SuperOffice.CRM.Rows.CategoryRow._persistedEnableLeadStatus
   - SuperOffice.CRM.Rows.CategoryRow._persistedName
   - SuperOffice.CRM.Rows.CategoryRow._persistedRank
   - SuperOffice.CRM.Rows.CategoryRow._persistedRegistered
@@ -451,6 +457,48 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _persistedCategoryFamilyId As Integer
+- uid: SuperOffice.CRM.Rows.CategoryRow._persistedCategoryGroup
+  commentId: F:SuperOffice.CRM.Rows.CategoryRow._persistedCategoryGroup
+  id: _persistedCategoryGroup
+  parent: SuperOffice.CRM.Rows.CategoryRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedCategoryGroup
+  nameWithType: CategoryRow._persistedCategoryGroup
+  fullName: SuperOffice.CRM.Rows.CategoryRow._persistedCategoryGroup
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.CategoryRow.CategoryGroup" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected CategoryGroup _persistedCategoryGroup
+    return:
+      type: SuperOffice.Data.CategoryGroup
+    content.vb: Protected _persistedCategoryGroup As CategoryGroup
+- uid: SuperOffice.CRM.Rows.CategoryRow._persistedEnableLeadStatus
+  commentId: F:SuperOffice.CRM.Rows.CategoryRow._persistedEnableLeadStatus
+  id: _persistedEnableLeadStatus
+  parent: SuperOffice.CRM.Rows.CategoryRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedEnableLeadStatus
+  nameWithType: CategoryRow._persistedEnableLeadStatus
+  fullName: SuperOffice.CRM.Rows.CategoryRow._persistedEnableLeadStatus
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.CategoryRow.EnableLeadStatus" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected short _persistedEnableLeadStatus
+    return:
+      type: System.Int16
+    content.vb: Protected _persistedEnableLeadStatus As Short
 - uid: SuperOffice.CRM.Rows.CategoryRow._currentCategoryId
   commentId: F:SuperOffice.CRM.Rows.CategoryRow._currentCategoryId
   id: _currentCategoryId
@@ -682,6 +730,48 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _currentCategoryFamilyId As Integer
+- uid: SuperOffice.CRM.Rows.CategoryRow._currentCategoryGroup
+  commentId: F:SuperOffice.CRM.Rows.CategoryRow._currentCategoryGroup
+  id: _currentCategoryGroup
+  parent: SuperOffice.CRM.Rows.CategoryRow
+  langs:
+  - csharp
+  - vb
+  name: _currentCategoryGroup
+  nameWithType: CategoryRow._currentCategoryGroup
+  fullName: SuperOffice.CRM.Rows.CategoryRow._currentCategoryGroup
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.CategoryRow.CategoryGroup" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected CategoryGroup _currentCategoryGroup
+    return:
+      type: SuperOffice.Data.CategoryGroup
+    content.vb: Protected _currentCategoryGroup As CategoryGroup
+- uid: SuperOffice.CRM.Rows.CategoryRow._currentEnableLeadStatus
+  commentId: F:SuperOffice.CRM.Rows.CategoryRow._currentEnableLeadStatus
+  id: _currentEnableLeadStatus
+  parent: SuperOffice.CRM.Rows.CategoryRow
+  langs:
+  - csharp
+  - vb
+  name: _currentEnableLeadStatus
+  nameWithType: CategoryRow._currentEnableLeadStatus
+  fullName: SuperOffice.CRM.Rows.CategoryRow._currentEnableLeadStatus
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.CategoryRow.EnableLeadStatus" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected short _currentEnableLeadStatus
+    return:
+      type: System.Int16
+    content.vb: Protected _currentEnableLeadStatus As Short
 - uid: SuperOffice.CRM.Rows.CategoryRow._nodeType
   commentId: F:SuperOffice.CRM.Rows.CategoryRow._nodeType
   id: _nodeType
@@ -1985,6 +2075,80 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property CategoryFamilyId As Integer
   overload: SuperOffice.CRM.Rows.CategoryRow.CategoryFamilyId*
+  exceptions:
+  - type: System.Security.SecurityException
+    commentId: T:System.Security.SecurityException
+    description: Thrown if the set method is accessed by code not signed by SuperOffice.
+- uid: SuperOffice.CRM.Rows.CategoryRow.CategoryGroup
+  commentId: P:SuperOffice.CRM.Rows.CategoryRow.CategoryGroup
+  id: CategoryGroup
+  parent: SuperOffice.CRM.Rows.CategoryRow
+  langs:
+  - csharp
+  - vb
+  name: CategoryGroup
+  nameWithType: CategoryRow.CategoryGroup
+  fullName: SuperOffice.CRM.Rows.CategoryRow.CategoryGroup
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: CategoryGroup. Category group'
+  remarks: >-
+    Original type in dictionary:  Enum.
+
+    <p>Writeable if you have list- or general admin functional rights, or a superoffice code signature</p>
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual CategoryGroup CategoryGroup { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.CategoryGroup
+    content.vb: Public Overridable Property CategoryGroup As CategoryGroup
+  overload: SuperOffice.CRM.Rows.CategoryRow.CategoryGroup*
+  exceptions:
+  - type: System.Security.SecurityException
+    commentId: T:System.Security.SecurityException
+    description: Thrown if the set method is accessed by code not signed by SuperOffice.
+- uid: SuperOffice.CRM.Rows.CategoryRow.EnableLeadStatus
+  commentId: P:SuperOffice.CRM.Rows.CategoryRow.EnableLeadStatus
+  id: EnableLeadStatus
+  parent: SuperOffice.CRM.Rows.CategoryRow
+  langs:
+  - csharp
+  - vb
+  name: EnableLeadStatus
+  nameWithType: CategoryRow.EnableLeadStatus
+  fullName: SuperOffice.CRM.Rows.CategoryRow.EnableLeadStatus
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: short. Enable lead status qualification for categorygroup potential customers'
+  remarks: >-
+    Original type in dictionary:  Bool.
+
+    <p>Writeable if you have list- or general admin functional rights, or a superoffice code signature</p>
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual short EnableLeadStatus { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property EnableLeadStatus As Short
+  overload: SuperOffice.CRM.Rows.CategoryRow.EnableLeadStatus*
   exceptions:
   - type: System.Security.SecurityException
     commentId: T:System.Security.SecurityException
@@ -5050,6 +5214,28 @@ references:
   name: CategoryFamilyId
   nameWithType: CategoryRow.CategoryFamilyId
   fullName: SuperOffice.CRM.Rows.CategoryRow.CategoryFamilyId
+- uid: SuperOffice.CRM.Rows.CategoryRow.CategoryGroup
+  commentId: P:SuperOffice.CRM.Rows.CategoryRow.CategoryGroup
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CategoryRow.html#SuperOffice_CRM_Rows_CategoryRow_CategoryGroup
+  name: CategoryGroup
+  nameWithType: CategoryRow.CategoryGroup
+  fullName: SuperOffice.CRM.Rows.CategoryRow.CategoryGroup
+- uid: SuperOffice.Data.CategoryGroup
+  commentId: T:SuperOffice.Data.CategoryGroup
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.CategoryGroup.html
+  name: CategoryGroup
+  nameWithType: CategoryGroup
+  fullName: SuperOffice.Data.CategoryGroup
+- uid: SuperOffice.CRM.Rows.CategoryRow.EnableLeadStatus
+  commentId: P:SuperOffice.CRM.Rows.CategoryRow.EnableLeadStatus
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CategoryRow.html#SuperOffice_CRM_Rows_CategoryRow_EnableLeadStatus
+  name: EnableLeadStatus
+  nameWithType: CategoryRow.EnableLeadStatus
+  fullName: SuperOffice.CRM.Rows.CategoryRow.EnableLeadStatus
 - uid: SuperOffice.CRM.Rows.MDOListElementType
   commentId: T:SuperOffice.CRM.Rows.MDOListElementType
   parent: SuperOffice.CRM.Rows
@@ -6100,3 +6286,17 @@ references:
   name: CategoryFamilyId
   nameWithType: CategoryRow.CategoryFamilyId
   fullName: SuperOffice.CRM.Rows.CategoryRow.CategoryFamilyId
+- uid: SuperOffice.CRM.Rows.CategoryRow.CategoryGroup*
+  commentId: Overload:SuperOffice.CRM.Rows.CategoryRow.CategoryGroup
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CategoryRow.html#SuperOffice_CRM_Rows_CategoryRow_CategoryGroup
+  name: CategoryGroup
+  nameWithType: CategoryRow.CategoryGroup
+  fullName: SuperOffice.CRM.Rows.CategoryRow.CategoryGroup
+- uid: SuperOffice.CRM.Rows.CategoryRow.EnableLeadStatus*
+  commentId: Overload:SuperOffice.CRM.Rows.CategoryRow.EnableLeadStatus
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CategoryRow.html#SuperOffice_CRM_Rows_CategoryRow_EnableLeadStatus
+  name: EnableLeadStatus
+  nameWithType: CategoryRow.EnableLeadStatus
+  fullName: SuperOffice.CRM.Rows.CategoryRow.EnableLeadStatus

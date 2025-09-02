@@ -9,6 +9,7 @@ items:
   - SuperOffice.WebApi.Data.NotifyType.ChatAlert
   - SuperOffice.WebApi.Data.NotifyType.ChatMessageAlert
   - SuperOffice.WebApi.Data.NotifyType.ChatSessionTransfered
+  - SuperOffice.WebApi.Data.NotifyType.ContactAssignment
   - SuperOffice.WebApi.Data.NotifyType.Custom
   - SuperOffice.WebApi.Data.NotifyType.Hotlist
   - SuperOffice.WebApi.Data.NotifyType.NewTicket
@@ -17,7 +18,7 @@ items:
   - SuperOffice.WebApi.Data.NotifyType.TicketActivated
   - SuperOffice.WebApi.Data.NotifyType.TicketEscalated
   - SuperOffice.WebApi.Data.NotifyType.TicketTakeOver
-  - SuperOffice.WebApi.Data.NotifyType.UndefinedValue2048
+  - SuperOffice.WebApi.Data.NotifyType.UndefinedValue4096
   langs:
   - csharp
   - vb
@@ -387,6 +388,37 @@ items:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
     arguments: []
+- uid: SuperOffice.WebApi.Data.NotifyType.ContactAssignment
+  commentId: F:SuperOffice.WebApi.Data.NotifyType.ContactAssignment
+  id: ContactAssignment
+  parent: SuperOffice.WebApi.Data.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: ContactAssignment
+  nameWithType: NotifyType.ContactAssignment
+  fullName: SuperOffice.WebApi.Data.NotifyType.ContactAssignment
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '2048: Contact assignment'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      ContactAssignment = 2048
+    return:
+      type: SuperOffice.WebApi.Data.NotifyType
+    content.vb: >-
+      <EnumMember>
+
+      ContactAssignment = 2048
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.NotifyType.NotifyAll
   commentId: F:SuperOffice.WebApi.Data.NotifyType.NotifyAll
   id: NotifyAll
@@ -401,40 +433,40 @@ items:
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2047: Notify all'
+  summary: '4095: Notify all'
   example: []
   syntax:
-    content: NotifyAll = NewTicket | NewTicketMessage | TicketEscalated | TicketActivated | ChatAlert | ActiveTickets | TicketTakeOver | ChatMessageAlert | ChatSessionTransfered | Hotlist | Custom
+    content: NotifyAll = NewTicket | NewTicketMessage | TicketEscalated | TicketActivated | ChatAlert | ActiveTickets | TicketTakeOver | ChatMessageAlert | ChatSessionTransfered | Hotlist | Custom | ContactAssignment
     return:
       type: SuperOffice.WebApi.Data.NotifyType
-    content.vb: NotifyAll = NewTicket Or NewTicketMessage Or TicketEscalated Or TicketActivated Or ChatAlert Or ActiveTickets Or TicketTakeOver Or ChatMessageAlert Or ChatSessionTransfered Or Hotlist Or Custom
-- uid: SuperOffice.WebApi.Data.NotifyType.UndefinedValue2048
-  commentId: F:SuperOffice.WebApi.Data.NotifyType.UndefinedValue2048
-  id: UndefinedValue2048
+    content.vb: NotifyAll = NewTicket Or NewTicketMessage Or TicketEscalated Or TicketActivated Or ChatAlert Or ActiveTickets Or TicketTakeOver Or ChatMessageAlert Or ChatSessionTransfered Or Hotlist Or Custom Or ContactAssignment
+- uid: SuperOffice.WebApi.Data.NotifyType.UndefinedValue4096
+  commentId: F:SuperOffice.WebApi.Data.NotifyType.UndefinedValue4096
+  id: UndefinedValue4096
   parent: SuperOffice.WebApi.Data.NotifyType
   langs:
   - csharp
   - vb
-  name: UndefinedValue2048
-  nameWithType: NotifyType.UndefinedValue2048
-  fullName: SuperOffice.WebApi.Data.NotifyType.UndefinedValue2048
+  name: UndefinedValue4096
+  nameWithType: NotifyType.UndefinedValue4096
+  fullName: SuperOffice.WebApi.Data.NotifyType.UndefinedValue4096
   type: Field
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: '2048: Undefined and generated value 2048'
+  summary: '4096: Undefined and generated value 4096'
   example: []
   syntax:
     content: >-
       [EnumMember]
 
-      UndefinedValue2048 = 2048
+      UndefinedValue4096 = 4096
     return:
       type: SuperOffice.WebApi.Data.NotifyType
     content.vb: >-
       <EnumMember>
 
-      UndefinedValue2048 = 2048
+      UndefinedValue4096 = 4096
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

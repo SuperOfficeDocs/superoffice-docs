@@ -5,7 +5,7 @@ items:
   id: MailItemTooltipPlugin
   parent: SuperOffice.CRM.Tooltips
   children:
-  - SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.#ctor
+  - SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Tooltips.MailItemTooltipPlugin})
   - SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.InnerGetTooltipAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.MailItemKey
   langs:
@@ -59,8 +59,6 @@ items:
   extensionMethods:
   - SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Tooltips.MailItemTooltipPlugin)
-  - SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
 - uid: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.MailItemKey
   commentId: F:SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.MailItemKey
   id: MailItemKey
@@ -80,6 +78,30 @@ items:
     return:
       type: System.String
     content.vb: Public Const MailItemKey As String = "mailitem_id"
+- uid: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Tooltips.MailItemTooltipPlugin})
+  commentId: M:SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Tooltips.MailItemTooltipPlugin})
+  id: '#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Tooltips.MailItemTooltipPlugin})'
+  parent: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin
+  langs:
+  - csharp
+  - vb
+  name: MailItemTooltipPlugin(ILogger<MailItemTooltipPlugin>)
+  nameWithType: MailItemTooltipPlugin.MailItemTooltipPlugin(ILogger<MailItemTooltipPlugin>)
+  fullName: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.MailItemTooltipPlugin(Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.Tooltips.MailItemTooltipPlugin>)
+  type: Constructor
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.Tooltips
+  syntax:
+    content: public MailItemTooltipPlugin(ILogger<MailItemTooltipPlugin> logger)
+    parameters:
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Tooltips.MailItemTooltipPlugin}
+    content.vb: Public Sub New(logger As ILogger(Of MailItemTooltipPlugin))
+  overload: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.#ctor*
+  nameWithType.vb: MailItemTooltipPlugin.New(ILogger(Of MailItemTooltipPlugin))
+  fullName.vb: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.New(Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Tooltips.MailItemTooltipPlugin))
+  name.vb: New(ILogger(Of MailItemTooltipPlugin))
 - uid: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.InnerGetTooltipAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.InnerGetTooltipAsync(System.Threading.CancellationToken)
   id: InnerGetTooltipAsync(System.Threading.CancellationToken)
@@ -107,27 +129,6 @@ items:
     content.vb: Protected Overrides Function InnerGetTooltipAsync(cancellationToken As CancellationToken) As Task(Of String)
   overridden: SuperOffice.CRM.Tooltips.TooltipPluginBase.InnerGetTooltipAsync(System.Threading.CancellationToken)
   overload: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.InnerGetTooltipAsync*
-- uid: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.#ctor
-  commentId: M:SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin
-  langs:
-  - csharp
-  - vb
-  name: MailItemTooltipPlugin()
-  nameWithType: MailItemTooltipPlugin.MailItemTooltipPlugin()
-  fullName: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.MailItemTooltipPlugin()
-  type: Constructor
-  assemblies:
-  - SoDataBase.BusinessLogic
-  namespace: SuperOffice.CRM.Tooltips
-  syntax:
-    content: public MailItemTooltipPlugin()
-    content.vb: Public Sub New()
-  overload: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.#ctor*
-  nameWithType.vb: MailItemTooltipPlugin.New()
-  fullName.vb: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.New()
-  name.vb: New()
 references:
 - uid: SuperOffice.CRM.Tooltips
   commentId: N:SuperOffice.CRM.Tooltips
@@ -983,112 +984,6 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.html
   - name: )
-- uid: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Tooltips.MailItemTooltipPlugin)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<MailItemTooltipPlugin>(MailItemTooltipPlugin, MailItemTooltipPlugin)
-  nameWithType: ObjectExtensions.AssignByReflection<MailItemTooltipPlugin>(MailItemTooltipPlugin, MailItemTooltipPlugin)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Tooltips.MailItemTooltipPlugin>(SuperOffice.CRM.Tooltips.MailItemTooltipPlugin, SuperOffice.CRM.Tooltips.MailItemTooltipPlugin)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of MailItemTooltipPlugin)(MailItemTooltipPlugin, MailItemTooltipPlugin)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Tooltips.MailItemTooltipPlugin)(SuperOffice.CRM.Tooltips.MailItemTooltipPlugin, SuperOffice.CRM.Tooltips.MailItemTooltipPlugin)
-  name.vb: AssignByReflection(Of MailItemTooltipPlugin)(MailItemTooltipPlugin, MailItemTooltipPlugin)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Tooltips.MailItemTooltipPlugin,SuperOffice.CRM.Tooltips.MailItemTooltipPlugin)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin
-    name: MailItemTooltipPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin
-    name: MailItemTooltipPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin
-    name: MailItemTooltipPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Tooltips.MailItemTooltipPlugin,SuperOffice.CRM.Tooltips.MailItemTooltipPlugin)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin
-    name: MailItemTooltipPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin
-    name: MailItemTooltipPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin
-    name: MailItemTooltipPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.html
-  - name: )
-- uid: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<MailItemTooltipPlugin>(MailItemTooltipPlugin)
-  nameWithType: ObjectExtensions.GraphCopy<MailItemTooltipPlugin>(MailItemTooltipPlugin)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Tooltips.MailItemTooltipPlugin>(SuperOffice.CRM.Tooltips.MailItemTooltipPlugin)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of MailItemTooltipPlugin)(MailItemTooltipPlugin)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Tooltips.MailItemTooltipPlugin)(SuperOffice.CRM.Tooltips.MailItemTooltipPlugin)
-  name.vb: GraphCopy(Of MailItemTooltipPlugin)(MailItemTooltipPlugin)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Tooltips.MailItemTooltipPlugin)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin
-    name: MailItemTooltipPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin
-    name: MailItemTooltipPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Tooltips.MailItemTooltipPlugin)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin
-    name: MailItemTooltipPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin
-    name: MailItemTooltipPlugin
-    isExternal: true
-    href: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.html
-  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -1191,88 +1086,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -1310,33 +1123,6 @@ references:
     name: ConnectorWS
     isExternal: true
     href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
-    isExternal: true
-    href: SuperOffice.Util.html
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -1348,6 +1134,116 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.#ctor*
+  commentId: Overload:SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.html#SuperOffice_CRM_Tooltips_MailItemTooltipPlugin__ctor_Microsoft_Extensions_Logging_ILogger_SuperOffice_CRM_Tooltips_MailItemTooltipPlugin__
+  name: MailItemTooltipPlugin
+  nameWithType: MailItemTooltipPlugin.MailItemTooltipPlugin
+  fullName: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.MailItemTooltipPlugin
+  nameWithType.vb: MailItemTooltipPlugin.New
+  fullName.vb: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.New
+  name.vb: New
+- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Tooltips.MailItemTooltipPlugin}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Tooltips.MailItemTooltipPlugin}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<MailItemTooltipPlugin>
+  nameWithType: ILogger<MailItemTooltipPlugin>
+  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.Tooltips.MailItemTooltipPlugin>
+  nameWithType.vb: ILogger(Of MailItemTooltipPlugin)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Tooltips.MailItemTooltipPlugin)
+  name.vb: ILogger(Of MailItemTooltipPlugin)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin
+    name: MailItemTooltipPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin
+    name: MailItemTooltipPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.html
+  - name: )
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
 - uid: SuperOffice.CRM.Tooltips.TooltipPluginBase.InnerGetTooltipAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Tooltips.TooltipPluginBase.InnerGetTooltipAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Tooltips.TooltipPluginBase
@@ -1520,13 +1416,3 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-- uid: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.#ctor*
-  commentId: Overload:SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.#ctor
-  isExternal: true
-  href: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.html#SuperOffice_CRM_Tooltips_MailItemTooltipPlugin__ctor
-  name: MailItemTooltipPlugin
-  nameWithType: MailItemTooltipPlugin.MailItemTooltipPlugin
-  fullName: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.MailItemTooltipPlugin
-  nameWithType.vb: MailItemTooltipPlugin.New
-  fullName.vb: SuperOffice.CRM.Tooltips.MailItemTooltipPlugin.New
-  name.vb: New

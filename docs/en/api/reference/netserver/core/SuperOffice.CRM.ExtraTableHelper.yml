@@ -1,0 +1,808 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.ExtraTableHelper
+  commentId: T:SuperOffice.CRM.ExtraTableHelper
+  id: ExtraTableHelper
+  parent: SuperOffice.CRM
+  children:
+  - SuperOffice.CRM.ExtraTableHelper.GetExtraTableFieldsFromDatabase(System.String,System.Int32)
+  - SuperOffice.CRM.ExtraTableHelper.GetExtraTableFieldsFromTableRowBase(SuperOffice.CRM.Rows.TableRowBase)
+  - SuperOffice.CRM.ExtraTableHelper.GetExtraTables
+  - SuperOffice.CRM.ExtraTableHelper._disallowedReturnTypes
+  langs:
+  - csharp
+  - vb
+  name: ExtraTableHelper
+  nameWithType: ExtraTableHelper
+  fullName: SuperOffice.CRM.ExtraTableHelper
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: Utility class for ExtraTable helper methods.
+  example: []
+  syntax:
+    content: public static class ExtraTableHelper
+    content.vb: Public Module ExtraTableHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.ExtraTableHelper._disallowedReturnTypes
+  commentId: F:SuperOffice.CRM.ExtraTableHelper._disallowedReturnTypes
+  id: _disallowedReturnTypes
+  parent: SuperOffice.CRM.ExtraTableHelper
+  langs:
+  - csharp
+  - vb
+  name: _disallowedReturnTypes
+  nameWithType: ExtraTableHelper._disallowedReturnTypes
+  fullName: SuperOffice.CRM.ExtraTableHelper._disallowedReturnTypes
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: >-
+    List of field data types that are excluded from being returned by webhooks or extra table field extraction methods.
+
+    Fields with these data types are considered unsupported or potentially sensitive for external exposure,
+
+    and will be filtered out when collecting extra table data for webhook payloads or API responses.
+  remarks: >-
+    The excluded types are:
+
+    <ul><li><code>dbString</code> - Standard string fields, possibly containing large or sensitive text.</li><li><code>dbShort</code> - Short string fields, often used for internal or system data.</li><li><code>dbStringBlob</code> - Large binary string fields, such as file contents or blobs.</li></ul>
+  example: []
+  syntax:
+    content: public static readonly IReadOnlyList<FieldDataType> _disallowedReturnTypes
+    return:
+      type: System.Collections.Generic.IReadOnlyList{SuperOffice.Data.FieldDataType}
+    content.vb: Public Shared ReadOnly _disallowedReturnTypes As IReadOnlyList(Of FieldDataType)
+- uid: SuperOffice.CRM.ExtraTableHelper.GetExtraTables
+  commentId: M:SuperOffice.CRM.ExtraTableHelper.GetExtraTables
+  id: GetExtraTables
+  parent: SuperOffice.CRM.ExtraTableHelper
+  langs:
+  - csharp
+  - vb
+  name: GetExtraTables()
+  nameWithType: ExtraTableHelper.GetExtraTables()
+  fullName: SuperOffice.CRM.ExtraTableHelper.GetExtraTables()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: Retrieves all extra tables defined in the current database dictionary that are classified as Customer Service ExtraTables.
+  example: []
+  syntax:
+    content: public static List<SoTable> GetExtraTables()
+    return:
+      type: System.Collections.Generic.List{SuperOffice.Data.Dictionary.SoTable}
+      description: A list of <xref href="SuperOffice.Data.Dictionary.SoTable" data-throw-if-not-resolved="false"></xref> objects representing all extra tables of kind <code>CSExtraTable</code> available in the database dictionary.
+    content.vb: Public Shared Function GetExtraTables() As List(Of SoTable)
+  overload: SuperOffice.CRM.ExtraTableHelper.GetExtraTables*
+- uid: SuperOffice.CRM.ExtraTableHelper.GetExtraTableFieldsFromTableRowBase(SuperOffice.CRM.Rows.TableRowBase)
+  commentId: M:SuperOffice.CRM.ExtraTableHelper.GetExtraTableFieldsFromTableRowBase(SuperOffice.CRM.Rows.TableRowBase)
+  id: GetExtraTableFieldsFromTableRowBase(SuperOffice.CRM.Rows.TableRowBase)
+  parent: SuperOffice.CRM.ExtraTableHelper
+  langs:
+  - csharp
+  - vb
+  name: GetExtraTableFieldsFromTableRowBase(TableRowBase)
+  nameWithType: ExtraTableHelper.GetExtraTableFieldsFromTableRowBase(TableRowBase)
+  fullName: SuperOffice.CRM.ExtraTableHelper.GetExtraTableFieldsFromTableRowBase(SuperOffice.CRM.Rows.TableRowBase)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: >-
+    Extracts all allowed field values from the given <xref href="SuperOffice.CRM.Rows.TableRowBase" data-throw-if-not-resolved="false"></xref> instance.
+
+    Only fields whose data types are not listed in <xref href="SuperOffice.CRM.ExtraTableHelper._disallowedReturnTypes" data-throw-if-not-resolved="false"></xref> are included.
+  example: []
+  syntax:
+    content: public static Dictionary<string, object> GetExtraTableFieldsFromTableRowBase(TableRowBase trb)
+    parameters:
+    - id: trb
+      type: SuperOffice.CRM.Rows.TableRowBase
+      description: The <xref href="SuperOffice.CRM.Rows.TableRowBase" data-throw-if-not-resolved="false"></xref> object representing a row from an extra table.
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+      description: >-
+        A dictionary mapping field names to their corresponding values (as objects) from the provided table row.
+
+        Fields with disallowed data types are excluded from the result.
+    content.vb: Public Shared Function GetExtraTableFieldsFromTableRowBase(trb As TableRowBase) As Dictionary(Of String, Object)
+  overload: SuperOffice.CRM.ExtraTableHelper.GetExtraTableFieldsFromTableRowBase*
+- uid: SuperOffice.CRM.ExtraTableHelper.GetExtraTableFieldsFromDatabase(System.String,System.Int32)
+  commentId: M:SuperOffice.CRM.ExtraTableHelper.GetExtraTableFieldsFromDatabase(System.String,System.Int32)
+  id: GetExtraTableFieldsFromDatabase(System.String,System.Int32)
+  parent: SuperOffice.CRM.ExtraTableHelper
+  langs:
+  - csharp
+  - vb
+  name: GetExtraTableFieldsFromDatabase(string, int)
+  nameWithType: ExtraTableHelper.GetExtraTableFieldsFromDatabase(string, int)
+  fullName: SuperOffice.CRM.ExtraTableHelper.GetExtraTableFieldsFromDatabase(string, int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  summary: >-
+    Retrieves all allowed field values from a specified extra table row in the database.
+
+    Only fields with data types not listed in <xref href="SuperOffice.CRM.ExtraTableHelper._disallowedReturnTypes" data-throw-if-not-resolved="false"></xref> are included.
+  example: []
+  syntax:
+    content: public static Dictionary<string, object> GetExtraTableFieldsFromDatabase(string tableName, int rowId)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: The name of the extra table to query.
+    - id: rowId
+      type: System.Int32
+      description: The primary key of the row to retrieve from the table.
+    return:
+      type: System.Collections.Generic.Dictionary{System.String,System.Object}
+      description: >-
+        A dictionary mapping field names to their corresponding values (as objects) for the specified row.
+
+        Disallowed field types are excluded from the result.
+    content.vb: Public Shared Function GetExtraTableFieldsFromDatabase(tableName As String, rowId As Integer) As Dictionary(Of String, Object)
+  overload: SuperOffice.CRM.ExtraTableHelper.GetExtraTableFieldsFromDatabase*
+  nameWithType.vb: ExtraTableHelper.GetExtraTableFieldsFromDatabase(String, Integer)
+  fullName.vb: SuperOffice.CRM.ExtraTableHelper.GetExtraTableFieldsFromDatabase(String, Integer)
+  name.vb: GetExtraTableFieldsFromDatabase(String, Integer)
+references:
+- uid: SuperOffice.CRM
+  commentId: N:SuperOffice.CRM
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM
+  nameWithType: SuperOffice.CRM
+  fullName: SuperOffice.CRM
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Collections.Generic.IReadOnlyList{SuperOffice.Data.FieldDataType}
+  commentId: T:System.Collections.Generic.IReadOnlyList{SuperOffice.Data.FieldDataType}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IReadOnlyList`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<FieldDataType>
+  nameWithType: IReadOnlyList<FieldDataType>
+  fullName: System.Collections.Generic.IReadOnlyList<SuperOffice.Data.FieldDataType>
+  nameWithType.vb: IReadOnlyList(Of FieldDataType)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of SuperOffice.Data.FieldDataType)
+  name.vb: IReadOnlyList(Of FieldDataType)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - uid: SuperOffice.Data.FieldDataType
+    name: FieldDataType
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.FieldDataType
+    name: FieldDataType
+    isExternal: true
+  - name: )
+- uid: System.Collections.Generic.IReadOnlyList`1
+  commentId: T:System.Collections.Generic.IReadOnlyList`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  name: IReadOnlyList<T>
+  nameWithType: IReadOnlyList<T>
+  fullName: System.Collections.Generic.IReadOnlyList<T>
+  nameWithType.vb: IReadOnlyList(Of T)
+  fullName.vb: System.Collections.Generic.IReadOnlyList(Of T)
+  name.vb: IReadOnlyList(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IReadOnlyList`1
+    name: IReadOnlyList
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ireadonlylist-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  href: SuperOffice.Data.Dictionary.SoTable.html
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.CRM.ExtraTableHelper.GetExtraTables*
+  commentId: Overload:SuperOffice.CRM.ExtraTableHelper.GetExtraTables
+  isExternal: true
+  href: SuperOffice.CRM.ExtraTableHelper.html#SuperOffice_CRM_ExtraTableHelper_GetExtraTables
+  name: GetExtraTables
+  nameWithType: ExtraTableHelper.GetExtraTables
+  fullName: SuperOffice.CRM.ExtraTableHelper.GetExtraTables
+- uid: System.Collections.Generic.List{SuperOffice.Data.Dictionary.SoTable}
+  commentId: T:System.Collections.Generic.List{SuperOffice.Data.Dictionary.SoTable}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<SoTable>
+  nameWithType: List<SoTable>
+  fullName: System.Collections.Generic.List<SuperOffice.Data.Dictionary.SoTable>
+  nameWithType.vb: List(Of SoTable)
+  fullName.vb: System.Collections.Generic.List(Of SuperOffice.Data.Dictionary.SoTable)
+  name.vb: List(Of SoTable)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoTable.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoTable.html
+  - name: )
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.CRM.Rows.TableRowBase
+  commentId: T:SuperOffice.CRM.Rows.TableRowBase
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.TableRowBase.html
+  name: TableRowBase
+  nameWithType: TableRowBase
+  fullName: SuperOffice.CRM.Rows.TableRowBase
+- uid: SuperOffice.CRM.ExtraTableHelper._disallowedReturnTypes
+  commentId: F:SuperOffice.CRM.ExtraTableHelper._disallowedReturnTypes
+  isExternal: true
+  href: SuperOffice.CRM.ExtraTableHelper.html#SuperOffice_CRM_ExtraTableHelper__disallowedReturnTypes
+  name: _disallowedReturnTypes
+  nameWithType: ExtraTableHelper._disallowedReturnTypes
+  fullName: SuperOffice.CRM.ExtraTableHelper._disallowedReturnTypes
+- uid: SuperOffice.CRM.ExtraTableHelper.GetExtraTableFieldsFromTableRowBase*
+  commentId: Overload:SuperOffice.CRM.ExtraTableHelper.GetExtraTableFieldsFromTableRowBase
+  isExternal: true
+  href: SuperOffice.CRM.ExtraTableHelper.html#SuperOffice_CRM_ExtraTableHelper_GetExtraTableFieldsFromTableRowBase_SuperOffice_CRM_Rows_TableRowBase_
+  name: GetExtraTableFieldsFromTableRowBase
+  nameWithType: ExtraTableHelper.GetExtraTableFieldsFromTableRowBase
+  fullName: SuperOffice.CRM.ExtraTableHelper.GetExtraTableFieldsFromTableRowBase
+- uid: System.Collections.Generic.Dictionary{System.String,System.Object}
+  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Object}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.Dictionary`2
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<string, object>
+  nameWithType: Dictionary<string, object>
+  fullName: System.Collections.Generic.Dictionary<string, object>
+  nameWithType.vb: Dictionary(Of String, Object)
+  fullName.vb: System.Collections.Generic.Dictionary(Of String, Object)
+  name.vb: Dictionary(Of String, Object)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+- uid: System.Collections.Generic.Dictionary`2
+  commentId: T:System.Collections.Generic.Dictionary`2
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  name: Dictionary<TKey, TValue>
+  nameWithType: Dictionary<TKey, TValue>
+  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
+  nameWithType.vb: Dictionary(Of TKey, TValue)
+  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
+  name.vb: Dictionary(Of TKey, TValue)
+  spec.csharp:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TKey
+  - name: ','
+  - name: " "
+  - name: TValue
+  - name: )
+- uid: SuperOffice.CRM.ExtraTableHelper.GetExtraTableFieldsFromDatabase*
+  commentId: Overload:SuperOffice.CRM.ExtraTableHelper.GetExtraTableFieldsFromDatabase
+  isExternal: true
+  href: SuperOffice.CRM.ExtraTableHelper.html#SuperOffice_CRM_ExtraTableHelper_GetExtraTableFieldsFromDatabase_System_String_System_Int32_
+  name: GetExtraTableFieldsFromDatabase
+  nameWithType: ExtraTableHelper.GetExtraTableFieldsFromDatabase
+  fullName: SuperOffice.CRM.ExtraTableHelper.GetExtraTableFieldsFromDatabase
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer

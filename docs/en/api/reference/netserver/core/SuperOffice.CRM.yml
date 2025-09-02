@@ -22,6 +22,7 @@ items:
   - SuperOffice.CRM.ErpConnectorAttribute
   - SuperOffice.CRM.EventHandlerHelper
   - SuperOffice.CRM.ExtraDataFieldTypeInfo
+  - SuperOffice.CRM.ExtraTableHelper
   - SuperOffice.CRM.FacadeHelper
   - SuperOffice.CRM.FieldAccessInfo
   - SuperOffice.CRM.FieldMetadataInfo
@@ -159,6 +160,7 @@ items:
   - SuperOffice.CRM.UserPreferenceStrings.InApp
   - SuperOffice.CRM.UserPreferenceStrings.MDOList
   - SuperOffice.CRM.UserPreferenceStrings.Mail
+  - SuperOffice.CRM.UserPreferenceStrings.Mailing
   - SuperOffice.CRM.UserPreferenceStrings.MiniPanel
   - SuperOffice.CRM.UserPreferenceStrings.NetServices
   - SuperOffice.CRM.UserPreferenceStrings.Notification
@@ -1959,6 +1961,33 @@ references:
     name: Copilot
     isExternal: true
     href: SuperOffice.CRM.UserPreferenceStrings.Copilot.html
+- uid: SuperOffice.CRM.UserPreferenceStrings.Mailing
+  commentId: T:SuperOffice.CRM.UserPreferenceStrings.Mailing
+  isExternal: true
+  href: SuperOffice.CRM.UserPreferenceStrings.html
+  name: UserPreferenceStrings.Mailing
+  nameWithType: UserPreferenceStrings.Mailing
+  fullName: SuperOffice.CRM.UserPreferenceStrings.Mailing
+  spec.csharp:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Mailing
+    name: Mailing
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Mailing.html
+  spec.vb:
+  - uid: SuperOffice.CRM.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.CRM.UserPreferenceStrings.Mailing
+    name: Mailing
+    isExternal: true
+    href: SuperOffice.CRM.UserPreferenceStrings.Mailing.html
 - uid: SuperOffice.CRM.ActivityStatusHelper
   commentId: T:SuperOffice.CRM.ActivityStatusHelper
   isExternal: true
@@ -2036,6 +2065,13 @@ references:
   name: EventHandlerHelper
   nameWithType: EventHandlerHelper
   fullName: SuperOffice.CRM.EventHandlerHelper
+- uid: SuperOffice.CRM.ExtraTableHelper
+  commentId: T:SuperOffice.CRM.ExtraTableHelper
+  isExternal: true
+  href: SuperOffice.CRM.ExtraTableHelper.html
+  name: ExtraTableHelper
+  nameWithType: ExtraTableHelper
+  fullName: SuperOffice.CRM.ExtraTableHelper
 - uid: SuperOffice.CRM.FacadeHelper
   commentId: T:SuperOffice.CRM.FacadeHelper
   isExternal: true

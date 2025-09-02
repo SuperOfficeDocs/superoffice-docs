@@ -19,6 +19,7 @@ items:
   - SuperOffice.CRM.Ticket.TicketHelper.GetTicketStatusRecordDataAsync(System.Int16,System.Threading.CancellationToken)
   - SuperOffice.CRM.Ticket.TicketHelper.HasUpdateRight(SuperOffice.CRM.Ticket.TicketData)
   - SuperOffice.CRM.Ticket.TicketHelper.NotifyNewTicketAsync(System.Int32)
+  - SuperOffice.CRM.Ticket.TicketHelper.NotifyNewTicketMessageAsync(System.Int32)
   - SuperOffice.CRM.Ticket.TicketHelper.ResolveTicketIdAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Ticket.TicketHelper.UpdateEjMessageSearchTitleAsync(System.Int32,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Ticket.TicketHelper.UpdateLastChangedAsync(SuperOffice.CRM.Rows.TicketRow,System.Boolean,System.Threading.CancellationToken)
@@ -590,6 +591,32 @@ items:
   nameWithType.vb: TicketHelper.NotifyNewTicketAsync(Integer)
   fullName.vb: SuperOffice.CRM.Ticket.TicketHelper.NotifyNewTicketAsync(Integer)
   name.vb: NotifyNewTicketAsync(Integer)
+- uid: SuperOffice.CRM.Ticket.TicketHelper.NotifyNewTicketMessageAsync(System.Int32)
+  commentId: M:SuperOffice.CRM.Ticket.TicketHelper.NotifyNewTicketMessageAsync(System.Int32)
+  id: NotifyNewTicketMessageAsync(System.Int32)
+  parent: SuperOffice.CRM.Ticket.TicketHelper
+  langs:
+  - csharp
+  - vb
+  name: NotifyNewTicketMessageAsync(int)
+  nameWithType: TicketHelper.NotifyNewTicketMessageAsync(int)
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.NotifyNewTicketMessageAsync(int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Ticket
+  syntax:
+    content: public static Task NotifyNewTicketMessageAsync(int ticketEntityId)
+    parameters:
+    - id: ticketEntityId
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function NotifyNewTicketMessageAsync(ticketEntityId As Integer) As Task
+  overload: SuperOffice.CRM.Ticket.TicketHelper.NotifyNewTicketMessageAsync*
+  nameWithType.vb: TicketHelper.NotifyNewTicketMessageAsync(Integer)
+  fullName.vb: SuperOffice.CRM.Ticket.TicketHelper.NotifyNewTicketMessageAsync(Integer)
+  name.vb: NotifyNewTicketMessageAsync(Integer)
 - uid: SuperOffice.CRM.Ticket.TicketHelper.AddRestrictionToOwnCategories(SuperOffice.Data.SQL.Select,SuperOffice.CRM.Data.TicketTableInfo,System.Int32)
   commentId: M:SuperOffice.CRM.Ticket.TicketHelper.AddRestrictionToOwnCategories(SuperOffice.Data.SQL.Select,SuperOffice.CRM.Data.TicketTableInfo,System.Int32)
   id: AddRestrictionToOwnCategories(SuperOffice.Data.SQL.Select,SuperOffice.CRM.Data.TicketTableInfo,System.Int32)
@@ -1554,6 +1581,13 @@ references:
   name: NotifyNewTicketAsync
   nameWithType: TicketHelper.NotifyNewTicketAsync
   fullName: SuperOffice.CRM.Ticket.TicketHelper.NotifyNewTicketAsync
+- uid: SuperOffice.CRM.Ticket.TicketHelper.NotifyNewTicketMessageAsync*
+  commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.NotifyNewTicketMessageAsync
+  isExternal: true
+  href: SuperOffice.CRM.Ticket.TicketHelper.html#SuperOffice_CRM_Ticket_TicketHelper_NotifyNewTicketMessageAsync_System_Int32_
+  name: NotifyNewTicketMessageAsync
+  nameWithType: TicketHelper.NotifyNewTicketMessageAsync
+  fullName: SuperOffice.CRM.Ticket.TicketHelper.NotifyNewTicketMessageAsync
 - uid: SuperOffice.CRM.Ticket.TicketHelper.AddRestrictionToOwnCategories*
   commentId: Overload:SuperOffice.CRM.Ticket.TicketHelper.AddRestrictionToOwnCategories
   isExternal: true

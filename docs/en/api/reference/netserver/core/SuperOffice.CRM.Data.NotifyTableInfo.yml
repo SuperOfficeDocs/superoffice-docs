@@ -10,6 +10,8 @@ items:
   - SuperOffice.CRM.Data.NotifyTableInfo.ChatNickName
   - SuperOffice.CRM.Data.NotifyTableInfo.ChatTopicId
   - SuperOffice.CRM.Data.NotifyTableInfo.ChatTopicId_InnerJoin_ChatTopic
+  - SuperOffice.CRM.Data.NotifyTableInfo.ContactId
+  - SuperOffice.CRM.Data.NotifyTableInfo.ContactId_InnerJoin_Contact
   - SuperOffice.CRM.Data.NotifyTableInfo.CustomMessage
   - SuperOffice.CRM.Data.NotifyTableInfo.CustomUrl
   - SuperOffice.CRM.Data.NotifyTableInfo.Definition
@@ -19,6 +21,8 @@ items:
   - SuperOffice.CRM.Data.NotifyTableInfo.NotifyId
   - SuperOffice.CRM.Data.NotifyTableInfo.OwnerId
   - SuperOffice.CRM.Data.NotifyTableInfo.OwnerId_InnerJoin_Ejuser
+  - SuperOffice.CRM.Data.NotifyTableInfo.PersonId
+  - SuperOffice.CRM.Data.NotifyTableInfo.PersonId_InnerJoin_Person
   - SuperOffice.CRM.Data.NotifyTableInfo.Registered
   - SuperOffice.CRM.Data.NotifyTableInfo.RegisteredAssociateId
   - SuperOffice.CRM.Data.NotifyTableInfo.RegisteredAssociateId_InnerJoin_Associate
@@ -518,6 +522,58 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property CustomMessage As StringFieldInfo
   overload: SuperOffice.CRM.Data.NotifyTableInfo.CustomMessage*
+- uid: SuperOffice.CRM.Data.NotifyTableInfo.ContactId
+  commentId: P:SuperOffice.CRM.Data.NotifyTableInfo.ContactId
+  id: ContactId
+  parent: SuperOffice.CRM.Data.NotifyTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ContactId
+  nameWithType: NotifyTableInfo.ContactId
+  fullName: SuperOffice.CRM.Data.NotifyTableInfo.ContactId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'contact_id' in table 'notify': Dictionary type FK, target: Contact, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Id of the assigned contact
+  example: []
+  syntax:
+    content: public Int32FieldInfo ContactId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property ContactId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.NotifyTableInfo.ContactId*
+- uid: SuperOffice.CRM.Data.NotifyTableInfo.PersonId
+  commentId: P:SuperOffice.CRM.Data.NotifyTableInfo.PersonId
+  id: PersonId
+  parent: SuperOffice.CRM.Data.NotifyTableInfo
+  langs:
+  - csharp
+  - vb
+  name: PersonId
+  nameWithType: NotifyTableInfo.PersonId
+  fullName: SuperOffice.CRM.Data.NotifyTableInfo.PersonId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'person_id' in table 'notify': Dictionary type FK, target: Person, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Id of the assigned person
+  example: []
+  syntax:
+    content: public Int32FieldInfo PersonId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property PersonId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.NotifyTableInfo.PersonId*
 - uid: SuperOffice.CRM.Data.NotifyTableInfo.CustomUrl
   commentId: P:SuperOffice.CRM.Data.NotifyTableInfo.CustomUrl
   id: CustomUrl
@@ -757,6 +813,52 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.TicketAlertTableInfo}
     content.vb: Public ReadOnly Property TicketAlertId_InnerJoin_TicketAlert As TargetedInnerJoin(Of TicketAlertTableInfo)
   overload: SuperOffice.CRM.Data.NotifyTableInfo.TicketAlertId_InnerJoin_TicketAlert*
+- uid: SuperOffice.CRM.Data.NotifyTableInfo.ContactId_InnerJoin_Contact
+  commentId: P:SuperOffice.CRM.Data.NotifyTableInfo.ContactId_InnerJoin_Contact
+  id: ContactId_InnerJoin_Contact
+  parent: SuperOffice.CRM.Data.NotifyTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ContactId_InnerJoin_Contact
+  nameWithType: NotifyTableInfo.ContactId_InnerJoin_Contact
+  fullName: SuperOffice.CRM.Data.NotifyTableInfo.ContactId_InnerJoin_Contact
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key ContactId in this table, to its target table <xref href="SuperOffice.CRM.Data.ContactTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<ContactTableInfo> ContactId_InnerJoin_Contact { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ContactTableInfo}
+    content.vb: Public ReadOnly Property ContactId_InnerJoin_Contact As TargetedInnerJoin(Of ContactTableInfo)
+  overload: SuperOffice.CRM.Data.NotifyTableInfo.ContactId_InnerJoin_Contact*
+- uid: SuperOffice.CRM.Data.NotifyTableInfo.PersonId_InnerJoin_Person
+  commentId: P:SuperOffice.CRM.Data.NotifyTableInfo.PersonId_InnerJoin_Person
+  id: PersonId_InnerJoin_Person
+  parent: SuperOffice.CRM.Data.NotifyTableInfo
+  langs:
+  - csharp
+  - vb
+  name: PersonId_InnerJoin_Person
+  nameWithType: NotifyTableInfo.PersonId_InnerJoin_Person
+  fullName: SuperOffice.CRM.Data.NotifyTableInfo.PersonId_InnerJoin_Person
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key PersonId in this table, to its target table <xref href="SuperOffice.CRM.Data.PersonTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<PersonTableInfo> PersonId_InnerJoin_Person { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.PersonTableInfo}
+    content.vb: Public ReadOnly Property PersonId_InnerJoin_Person As TargetedInnerJoin(Of PersonTableInfo)
+  overload: SuperOffice.CRM.Data.NotifyTableInfo.PersonId_InnerJoin_Person*
 - uid: SuperOffice.CRM.Data.NotifyTableInfo.RegisteredAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.NotifyTableInfo.RegisteredAssociateId_InnerJoin_Associate
   id: RegisteredAssociateId_InnerJoin_Associate
@@ -1801,6 +1903,20 @@ references:
   name: CustomMessage
   nameWithType: NotifyTableInfo.CustomMessage
   fullName: SuperOffice.CRM.Data.NotifyTableInfo.CustomMessage
+- uid: SuperOffice.CRM.Data.NotifyTableInfo.ContactId*
+  commentId: Overload:SuperOffice.CRM.Data.NotifyTableInfo.ContactId
+  isExternal: true
+  href: SuperOffice.CRM.Data.NotifyTableInfo.html#SuperOffice_CRM_Data_NotifyTableInfo_ContactId
+  name: ContactId
+  nameWithType: NotifyTableInfo.ContactId
+  fullName: SuperOffice.CRM.Data.NotifyTableInfo.ContactId
+- uid: SuperOffice.CRM.Data.NotifyTableInfo.PersonId*
+  commentId: Overload:SuperOffice.CRM.Data.NotifyTableInfo.PersonId
+  isExternal: true
+  href: SuperOffice.CRM.Data.NotifyTableInfo.html#SuperOffice_CRM_Data_NotifyTableInfo_PersonId
+  name: PersonId
+  nameWithType: NotifyTableInfo.PersonId
+  fullName: SuperOffice.CRM.Data.NotifyTableInfo.PersonId
 - uid: SuperOffice.CRM.Data.NotifyTableInfo.CustomUrl*
   commentId: Overload:SuperOffice.CRM.Data.NotifyTableInfo.CustomUrl
   isExternal: true
@@ -2113,6 +2229,106 @@ references:
     name: TicketAlertTableInfo
     isExternal: true
     href: SuperOffice.CRM.Data.TicketAlertTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.ContactTableInfo
+  commentId: T:SuperOffice.CRM.Data.ContactTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.ContactTableInfo.html
+  name: ContactTableInfo
+  nameWithType: ContactTableInfo
+  fullName: SuperOffice.CRM.Data.ContactTableInfo
+- uid: SuperOffice.CRM.Data.NotifyTableInfo.ContactId_InnerJoin_Contact*
+  commentId: Overload:SuperOffice.CRM.Data.NotifyTableInfo.ContactId_InnerJoin_Contact
+  isExternal: true
+  href: SuperOffice.CRM.Data.NotifyTableInfo.html#SuperOffice_CRM_Data_NotifyTableInfo_ContactId_InnerJoin_Contact
+  name: ContactId_InnerJoin_Contact
+  nameWithType: NotifyTableInfo.ContactId_InnerJoin_Contact
+  fullName: SuperOffice.CRM.Data.NotifyTableInfo.ContactId_InnerJoin_Contact
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ContactTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ContactTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<ContactTableInfo>
+  nameWithType: TargetedInnerJoin<ContactTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.ContactTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of ContactTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.ContactTableInfo)
+  name.vb: TargetedInnerJoin(Of ContactTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.ContactTableInfo
+    name: ContactTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ContactTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.ContactTableInfo
+    name: ContactTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ContactTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.PersonTableInfo
+  commentId: T:SuperOffice.CRM.Data.PersonTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.PersonTableInfo.html
+  name: PersonTableInfo
+  nameWithType: PersonTableInfo
+  fullName: SuperOffice.CRM.Data.PersonTableInfo
+- uid: SuperOffice.CRM.Data.NotifyTableInfo.PersonId_InnerJoin_Person*
+  commentId: Overload:SuperOffice.CRM.Data.NotifyTableInfo.PersonId_InnerJoin_Person
+  isExternal: true
+  href: SuperOffice.CRM.Data.NotifyTableInfo.html#SuperOffice_CRM_Data_NotifyTableInfo_PersonId_InnerJoin_Person
+  name: PersonId_InnerJoin_Person
+  nameWithType: NotifyTableInfo.PersonId_InnerJoin_Person
+  fullName: SuperOffice.CRM.Data.NotifyTableInfo.PersonId_InnerJoin_Person
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.PersonTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.PersonTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<PersonTableInfo>
+  nameWithType: TargetedInnerJoin<PersonTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.PersonTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of PersonTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.PersonTableInfo)
+  name.vb: TargetedInnerJoin(Of PersonTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.PersonTableInfo
+    name: PersonTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.PersonTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.PersonTableInfo
+    name: PersonTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.PersonTableInfo.html
   - name: )
 - uid: SuperOffice.CRM.Data.AssociateTableInfo
   commentId: T:SuperOffice.CRM.Data.AssociateTableInfo

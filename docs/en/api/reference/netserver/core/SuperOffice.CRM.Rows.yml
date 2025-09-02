@@ -304,6 +304,16 @@ items:
   - SuperOffice.CRM.Rows.BinaryObjectRows.IdxConceptualType
   - SuperOffice.CRM.Rows.BinaryObjectRows.IdxExtraInfo
   - SuperOffice.CRM.Rows.BinaryObjectRows.IdxMimeType
+  - SuperOffice.CRM.Rows.BoardViewSettingsRecordData
+  - SuperOffice.CRM.Rows.BoardViewSettingsRecordDataExtensions
+  - SuperOffice.CRM.Rows.BoardViewSettingsRow
+  - SuperOffice.CRM.Rows.BoardViewSettingsRow.CustomSearch
+  - SuperOffice.CRM.Rows.BoardViewSettingsRow.IdxBoardViewSettingsId
+  - SuperOffice.CRM.Rows.BoardViewSettingsRows
+  - SuperOffice.CRM.Rows.BoardViewSettingsRows.CustomSearch
+  - SuperOffice.CRM.Rows.BoardViewSettingsRows.IdxSelectionId
+  - SuperOffice.CRM.Rows.BoardViewSettingsRows.IdxSelectionIdAssociateId
+  - SuperOffice.CRM.Rows.BoardViewSettingsRows.IdxSelectionIdAssociateIdEntityType
   - SuperOffice.CRM.Rows.BusinessGroupLinkRecordData
   - SuperOffice.CRM.Rows.BusinessGroupLinkRecordDataExtensions
   - SuperOffice.CRM.Rows.BusinessGroupLinkRow
@@ -2231,7 +2241,9 @@ items:
   - SuperOffice.CRM.Rows.NotifyRows.CustomSearch
   - SuperOffice.CRM.Rows.NotifyRows.IdxCategoryId
   - SuperOffice.CRM.Rows.NotifyRows.IdxChatTopicId
+  - SuperOffice.CRM.Rows.NotifyRows.IdxContactId
   - SuperOffice.CRM.Rows.NotifyRows.IdxOwnerId
+  - SuperOffice.CRM.Rows.NotifyRows.IdxPersonId
   - SuperOffice.CRM.Rows.NotifyRows.IdxTicketAlertId
   - SuperOffice.CRM.Rows.NotifyRows.IdxTicketId
   - SuperOffice.CRM.Rows.NotifyRows.IdxUser2Id
@@ -4957,6 +4969,16 @@ items:
   - SuperOffice.CRM.Rows.UserRoleLinkRow.IdxUserRoleLinkId
   - SuperOffice.CRM.Rows.UserRoleLinkRows
   - SuperOffice.CRM.Rows.UserRoleLinkRows.CustomSearch
+  - SuperOffice.CRM.Rows.UtmParametersRecordData
+  - SuperOffice.CRM.Rows.UtmParametersRecordDataExtensions
+  - SuperOffice.CRM.Rows.UtmParametersRow
+  - SuperOffice.CRM.Rows.UtmParametersRow.CustomSearch
+  - SuperOffice.CRM.Rows.UtmParametersRow.IdxUtmParametersId
+  - SuperOffice.CRM.Rows.UtmParametersRows
+  - SuperOffice.CRM.Rows.UtmParametersRows.CustomSearch
+  - SuperOffice.CRM.Rows.UtmParametersRows.IdxCreatedContactId
+  - SuperOffice.CRM.Rows.UtmParametersRows.IdxCreatedPersonId
+  - SuperOffice.CRM.Rows.UtmParametersRows.IdxFormSubmissionId
   - SuperOffice.CRM.Rows.ValidationRule
   - SuperOffice.CRM.Rows.VisibleForRecordData
   - SuperOffice.CRM.Rows.VisibleForRecordDataExtensions
@@ -11294,6 +11316,202 @@ references:
   name: BinaryObjectLinkRecordDataExtensions
   nameWithType: BinaryObjectLinkRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.BinaryObjectLinkRecordDataExtensions
+- uid: SuperOffice.CRM.Rows.BoardViewSettingsRows
+  commentId: T:SuperOffice.CRM.Rows.BoardViewSettingsRows
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.BoardViewSettingsRows.html
+  name: BoardViewSettingsRows
+  nameWithType: BoardViewSettingsRows
+  fullName: SuperOffice.CRM.Rows.BoardViewSettingsRows
+- uid: SuperOffice.CRM.Rows.BoardViewSettingsRows.IdxSelectionId
+  commentId: T:SuperOffice.CRM.Rows.BoardViewSettingsRows.IdxSelectionId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.BoardViewSettingsRows.html
+  name: BoardViewSettingsRows.IdxSelectionId
+  nameWithType: BoardViewSettingsRows.IdxSelectionId
+  fullName: SuperOffice.CRM.Rows.BoardViewSettingsRows.IdxSelectionId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.BoardViewSettingsRows
+    name: BoardViewSettingsRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.BoardViewSettingsRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.BoardViewSettingsRows.IdxSelectionId
+    name: IdxSelectionId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.BoardViewSettingsRows.IdxSelectionId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.BoardViewSettingsRows
+    name: BoardViewSettingsRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.BoardViewSettingsRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.BoardViewSettingsRows.IdxSelectionId
+    name: IdxSelectionId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.BoardViewSettingsRows.IdxSelectionId.html
+- uid: SuperOffice.CRM.Rows.BoardViewSettingsRows.IdxSelectionIdAssociateId
+  commentId: T:SuperOffice.CRM.Rows.BoardViewSettingsRows.IdxSelectionIdAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.BoardViewSettingsRows.html
+  name: BoardViewSettingsRows.IdxSelectionIdAssociateId
+  nameWithType: BoardViewSettingsRows.IdxSelectionIdAssociateId
+  fullName: SuperOffice.CRM.Rows.BoardViewSettingsRows.IdxSelectionIdAssociateId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.BoardViewSettingsRows
+    name: BoardViewSettingsRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.BoardViewSettingsRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.BoardViewSettingsRows.IdxSelectionIdAssociateId
+    name: IdxSelectionIdAssociateId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.BoardViewSettingsRows.IdxSelectionIdAssociateId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.BoardViewSettingsRows
+    name: BoardViewSettingsRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.BoardViewSettingsRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.BoardViewSettingsRows.IdxSelectionIdAssociateId
+    name: IdxSelectionIdAssociateId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.BoardViewSettingsRows.IdxSelectionIdAssociateId.html
+- uid: SuperOffice.CRM.Rows.BoardViewSettingsRows.IdxSelectionIdAssociateIdEntityType
+  commentId: T:SuperOffice.CRM.Rows.BoardViewSettingsRows.IdxSelectionIdAssociateIdEntityType
+  isExternal: true
+  href: SuperOffice.CRM.Rows.BoardViewSettingsRows.html
+  name: BoardViewSettingsRows.IdxSelectionIdAssociateIdEntityType
+  nameWithType: BoardViewSettingsRows.IdxSelectionIdAssociateIdEntityType
+  fullName: SuperOffice.CRM.Rows.BoardViewSettingsRows.IdxSelectionIdAssociateIdEntityType
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.BoardViewSettingsRows
+    name: BoardViewSettingsRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.BoardViewSettingsRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.BoardViewSettingsRows.IdxSelectionIdAssociateIdEntityType
+    name: IdxSelectionIdAssociateIdEntityType
+    isExternal: true
+    href: SuperOffice.CRM.Rows.BoardViewSettingsRows.IdxSelectionIdAssociateIdEntityType.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.BoardViewSettingsRows
+    name: BoardViewSettingsRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.BoardViewSettingsRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.BoardViewSettingsRows.IdxSelectionIdAssociateIdEntityType
+    name: IdxSelectionIdAssociateIdEntityType
+    isExternal: true
+    href: SuperOffice.CRM.Rows.BoardViewSettingsRows.IdxSelectionIdAssociateIdEntityType.html
+- uid: SuperOffice.CRM.Rows.BoardViewSettingsRows.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.BoardViewSettingsRows.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.BoardViewSettingsRows.html
+  name: BoardViewSettingsRows.CustomSearch
+  nameWithType: BoardViewSettingsRows.CustomSearch
+  fullName: SuperOffice.CRM.Rows.BoardViewSettingsRows.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.BoardViewSettingsRows
+    name: BoardViewSettingsRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.BoardViewSettingsRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.BoardViewSettingsRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.BoardViewSettingsRows.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.BoardViewSettingsRows
+    name: BoardViewSettingsRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.BoardViewSettingsRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.BoardViewSettingsRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.BoardViewSettingsRows.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.BoardViewSettingsRow
+  commentId: T:SuperOffice.CRM.Rows.BoardViewSettingsRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.BoardViewSettingsRow.html
+  name: BoardViewSettingsRow
+  nameWithType: BoardViewSettingsRow
+  fullName: SuperOffice.CRM.Rows.BoardViewSettingsRow
+- uid: SuperOffice.CRM.Rows.BoardViewSettingsRow.IdxBoardViewSettingsId
+  commentId: T:SuperOffice.CRM.Rows.BoardViewSettingsRow.IdxBoardViewSettingsId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.BoardViewSettingsRow.html
+  name: BoardViewSettingsRow.IdxBoardViewSettingsId
+  nameWithType: BoardViewSettingsRow.IdxBoardViewSettingsId
+  fullName: SuperOffice.CRM.Rows.BoardViewSettingsRow.IdxBoardViewSettingsId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.BoardViewSettingsRow
+    name: BoardViewSettingsRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.BoardViewSettingsRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.BoardViewSettingsRow.IdxBoardViewSettingsId
+    name: IdxBoardViewSettingsId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.BoardViewSettingsRow.IdxBoardViewSettingsId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.BoardViewSettingsRow
+    name: BoardViewSettingsRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.BoardViewSettingsRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.BoardViewSettingsRow.IdxBoardViewSettingsId
+    name: IdxBoardViewSettingsId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.BoardViewSettingsRow.IdxBoardViewSettingsId.html
+- uid: SuperOffice.CRM.Rows.BoardViewSettingsRow.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.BoardViewSettingsRow.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.BoardViewSettingsRow.html
+  name: BoardViewSettingsRow.CustomSearch
+  nameWithType: BoardViewSettingsRow.CustomSearch
+  fullName: SuperOffice.CRM.Rows.BoardViewSettingsRow.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.BoardViewSettingsRow
+    name: BoardViewSettingsRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.BoardViewSettingsRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.BoardViewSettingsRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.BoardViewSettingsRow.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.BoardViewSettingsRow
+    name: BoardViewSettingsRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.BoardViewSettingsRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.BoardViewSettingsRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.BoardViewSettingsRow.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.BoardViewSettingsRecordData
+  commentId: T:SuperOffice.CRM.Rows.BoardViewSettingsRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.BoardViewSettingsRecordData.html
+  name: BoardViewSettingsRecordData
+  nameWithType: BoardViewSettingsRecordData
+  fullName: SuperOffice.CRM.Rows.BoardViewSettingsRecordData
+- uid: SuperOffice.CRM.Rows.BoardViewSettingsRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.BoardViewSettingsRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.BoardViewSettingsRecordDataExtensions.html
+  name: BoardViewSettingsRecordDataExtensions
+  nameWithType: BoardViewSettingsRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.BoardViewSettingsRecordDataExtensions
 - uid: SuperOffice.CRM.Rows.BusinessRows
   commentId: T:SuperOffice.CRM.Rows.BusinessRows
   parent: SuperOffice.CRM.Rows
@@ -47685,6 +47903,60 @@ references:
     name: IdxTicketAlertId
     isExternal: true
     href: SuperOffice.CRM.Rows.NotifyRows.IdxTicketAlertId.html
+- uid: SuperOffice.CRM.Rows.NotifyRows.IdxContactId
+  commentId: T:SuperOffice.CRM.Rows.NotifyRows.IdxContactId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.NotifyRows.html
+  name: NotifyRows.IdxContactId
+  nameWithType: NotifyRows.IdxContactId
+  fullName: SuperOffice.CRM.Rows.NotifyRows.IdxContactId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.NotifyRows
+    name: NotifyRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.NotifyRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.NotifyRows.IdxContactId
+    name: IdxContactId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.NotifyRows.IdxContactId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.NotifyRows
+    name: NotifyRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.NotifyRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.NotifyRows.IdxContactId
+    name: IdxContactId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.NotifyRows.IdxContactId.html
+- uid: SuperOffice.CRM.Rows.NotifyRows.IdxPersonId
+  commentId: T:SuperOffice.CRM.Rows.NotifyRows.IdxPersonId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.NotifyRows.html
+  name: NotifyRows.IdxPersonId
+  nameWithType: NotifyRows.IdxPersonId
+  fullName: SuperOffice.CRM.Rows.NotifyRows.IdxPersonId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.NotifyRows
+    name: NotifyRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.NotifyRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.NotifyRows.IdxPersonId
+    name: IdxPersonId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.NotifyRows.IdxPersonId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.NotifyRows
+    name: NotifyRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.NotifyRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.NotifyRows.IdxPersonId
+    name: IdxPersonId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.NotifyRows.IdxPersonId.html
 - uid: SuperOffice.CRM.Rows.NotifyRows.CustomSearch
   commentId: T:SuperOffice.CRM.Rows.NotifyRows.CustomSearch
   parent: SuperOffice.CRM.Rows
@@ -99764,6 +100036,202 @@ references:
   name: UserRoleLinkRecordDataExtensions
   nameWithType: UserRoleLinkRecordDataExtensions
   fullName: SuperOffice.CRM.Rows.UserRoleLinkRecordDataExtensions
+- uid: SuperOffice.CRM.Rows.UtmParametersRows
+  commentId: T:SuperOffice.CRM.Rows.UtmParametersRows
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.UtmParametersRows.html
+  name: UtmParametersRows
+  nameWithType: UtmParametersRows
+  fullName: SuperOffice.CRM.Rows.UtmParametersRows
+- uid: SuperOffice.CRM.Rows.UtmParametersRows.IdxCreatedPersonId
+  commentId: T:SuperOffice.CRM.Rows.UtmParametersRows.IdxCreatedPersonId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.UtmParametersRows.html
+  name: UtmParametersRows.IdxCreatedPersonId
+  nameWithType: UtmParametersRows.IdxCreatedPersonId
+  fullName: SuperOffice.CRM.Rows.UtmParametersRows.IdxCreatedPersonId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.UtmParametersRows
+    name: UtmParametersRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.UtmParametersRows.IdxCreatedPersonId
+    name: IdxCreatedPersonId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRows.IdxCreatedPersonId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.UtmParametersRows
+    name: UtmParametersRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.UtmParametersRows.IdxCreatedPersonId
+    name: IdxCreatedPersonId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRows.IdxCreatedPersonId.html
+- uid: SuperOffice.CRM.Rows.UtmParametersRows.IdxCreatedContactId
+  commentId: T:SuperOffice.CRM.Rows.UtmParametersRows.IdxCreatedContactId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.UtmParametersRows.html
+  name: UtmParametersRows.IdxCreatedContactId
+  nameWithType: UtmParametersRows.IdxCreatedContactId
+  fullName: SuperOffice.CRM.Rows.UtmParametersRows.IdxCreatedContactId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.UtmParametersRows
+    name: UtmParametersRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.UtmParametersRows.IdxCreatedContactId
+    name: IdxCreatedContactId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRows.IdxCreatedContactId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.UtmParametersRows
+    name: UtmParametersRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.UtmParametersRows.IdxCreatedContactId
+    name: IdxCreatedContactId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRows.IdxCreatedContactId.html
+- uid: SuperOffice.CRM.Rows.UtmParametersRows.IdxFormSubmissionId
+  commentId: T:SuperOffice.CRM.Rows.UtmParametersRows.IdxFormSubmissionId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.UtmParametersRows.html
+  name: UtmParametersRows.IdxFormSubmissionId
+  nameWithType: UtmParametersRows.IdxFormSubmissionId
+  fullName: SuperOffice.CRM.Rows.UtmParametersRows.IdxFormSubmissionId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.UtmParametersRows
+    name: UtmParametersRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.UtmParametersRows.IdxFormSubmissionId
+    name: IdxFormSubmissionId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRows.IdxFormSubmissionId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.UtmParametersRows
+    name: UtmParametersRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.UtmParametersRows.IdxFormSubmissionId
+    name: IdxFormSubmissionId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRows.IdxFormSubmissionId.html
+- uid: SuperOffice.CRM.Rows.UtmParametersRows.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.UtmParametersRows.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.UtmParametersRows.html
+  name: UtmParametersRows.CustomSearch
+  nameWithType: UtmParametersRows.CustomSearch
+  fullName: SuperOffice.CRM.Rows.UtmParametersRows.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.UtmParametersRows
+    name: UtmParametersRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.UtmParametersRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRows.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.UtmParametersRows
+    name: UtmParametersRows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRows.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.UtmParametersRows.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRows.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.UtmParametersRow
+  commentId: T:SuperOffice.CRM.Rows.UtmParametersRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.UtmParametersRow.html
+  name: UtmParametersRow
+  nameWithType: UtmParametersRow
+  fullName: SuperOffice.CRM.Rows.UtmParametersRow
+- uid: SuperOffice.CRM.Rows.UtmParametersRow.IdxUtmParametersId
+  commentId: T:SuperOffice.CRM.Rows.UtmParametersRow.IdxUtmParametersId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.UtmParametersRow.html
+  name: UtmParametersRow.IdxUtmParametersId
+  nameWithType: UtmParametersRow.IdxUtmParametersId
+  fullName: SuperOffice.CRM.Rows.UtmParametersRow.IdxUtmParametersId
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.UtmParametersRow
+    name: UtmParametersRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.UtmParametersRow.IdxUtmParametersId
+    name: IdxUtmParametersId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRow.IdxUtmParametersId.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.UtmParametersRow
+    name: UtmParametersRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.UtmParametersRow.IdxUtmParametersId
+    name: IdxUtmParametersId
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRow.IdxUtmParametersId.html
+- uid: SuperOffice.CRM.Rows.UtmParametersRow.CustomSearch
+  commentId: T:SuperOffice.CRM.Rows.UtmParametersRow.CustomSearch
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.UtmParametersRow.html
+  name: UtmParametersRow.CustomSearch
+  nameWithType: UtmParametersRow.CustomSearch
+  fullName: SuperOffice.CRM.Rows.UtmParametersRow.CustomSearch
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.UtmParametersRow
+    name: UtmParametersRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.UtmParametersRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRow.CustomSearch.html
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.UtmParametersRow
+    name: UtmParametersRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRow.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows.UtmParametersRow.CustomSearch
+    name: CustomSearch
+    isExternal: true
+    href: SuperOffice.CRM.Rows.UtmParametersRow.CustomSearch.html
+- uid: SuperOffice.CRM.Rows.UtmParametersRecordData
+  commentId: T:SuperOffice.CRM.Rows.UtmParametersRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.UtmParametersRecordData.html
+  name: UtmParametersRecordData
+  nameWithType: UtmParametersRecordData
+  fullName: SuperOffice.CRM.Rows.UtmParametersRecordData
+- uid: SuperOffice.CRM.Rows.UtmParametersRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.UtmParametersRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.UtmParametersRecordDataExtensions.html
+  name: UtmParametersRecordDataExtensions
+  nameWithType: UtmParametersRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.UtmParametersRecordDataExtensions
 - uid: SuperOffice.CRM.Rows.VisibleForRows
   commentId: T:SuperOffice.CRM.Rows.VisibleForRows
   parent: SuperOffice.CRM.Rows

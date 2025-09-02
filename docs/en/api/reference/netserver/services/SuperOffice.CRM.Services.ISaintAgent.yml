@@ -79,10 +79,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new SaintConfiguration.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  summary: Loading default values into a new SaintConfiguration.
   example: []
   syntax:
     content: Task<SaintConfiguration> CreateDefaultSaintConfigurationAsync(CancellationToken cancellationToken = default)
@@ -108,14 +105,14 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing SaintConfiguration or creates a new SaintConfiguration if the id parameter is empty
+  summary: Updates the existing SaintConfiguration or creates a new SaintConfiguration if the id parameter is 0.
   example: []
   syntax:
     content: Task<SaintConfiguration> SaveSaintConfigurationAsync(SaintConfiguration saintConfiguration, CancellationToken cancellationToken = default)
     parameters:
     - id: saintConfiguration
       type: SuperOffice.CRM.Services.SaintConfiguration
-      description: The SaintConfiguration that is saved.
+      description: The SaintConfiguration that is saved
     - id: cancellationToken
       type: System.Threading.CancellationToken
     return:
@@ -123,122 +120,6 @@ items:
       description: New or updated SaintConfiguration
     content.vb: Function SaveSaintConfigurationAsync(saintConfiguration As SaintConfiguration, cancellationToken As CancellationToken = Nothing) As Task(Of SaintConfiguration)
   overload: SuperOffice.CRM.Services.ISaintAgent.SaveSaintConfigurationAsync*
-- uid: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorAsync(System.Threading.CancellationToken)
-  id: CreateDefaultStatusMonitorAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.ISaintAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultStatusMonitorAsync(CancellationToken)
-  nameWithType: ISaintAgent.CreateDefaultStatusMonitorAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new StatusMonitor.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: Task<StatusMonitor> CreateDefaultStatusMonitorAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StatusMonitor}
-      description: New StatusMonitor with default values
-    content.vb: Function CreateDefaultStatusMonitorAsync(cancellationToken As CancellationToken = Nothing) As Task(Of StatusMonitor)
-  overload: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorAsync*
-- uid: SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorAsync(SuperOffice.CRM.Services.StatusMonitor,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorAsync(SuperOffice.CRM.Services.StatusMonitor,System.Threading.CancellationToken)
-  id: SaveStatusMonitorAsync(SuperOffice.CRM.Services.StatusMonitor,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.ISaintAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveStatusMonitorAsync(StatusMonitor, CancellationToken)
-  nameWithType: ISaintAgent.SaveStatusMonitorAsync(StatusMonitor, CancellationToken)
-  fullName: SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorAsync(SuperOffice.CRM.Services.StatusMonitor, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing StatusMonitor or creates a new StatusMonitor if the id parameter is empty
-  example: []
-  syntax:
-    content: Task<StatusMonitor> SaveStatusMonitorAsync(StatusMonitor statusMonitor, CancellationToken cancellationToken = default)
-    parameters:
-    - id: statusMonitor
-      type: SuperOffice.CRM.Services.StatusMonitor
-      description: The StatusMonitor that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StatusMonitor}
-      description: New or updated StatusMonitor
-    content.vb: Function SaveStatusMonitorAsync(statusMonitor As StatusMonitor, cancellationToken As CancellationToken = Nothing) As Task(Of StatusMonitor)
-  overload: SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorAsync*
-- uid: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorPeriodsAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorPeriodsAsync(System.Threading.CancellationToken)
-  id: CreateDefaultStatusMonitorPeriodsAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.ISaintAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultStatusMonitorPeriodsAsync(CancellationToken)
-  nameWithType: ISaintAgent.CreateDefaultStatusMonitorPeriodsAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorPeriodsAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new StatusMonitorPeriods.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: Task<StatusMonitorPeriods> CreateDefaultStatusMonitorPeriodsAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StatusMonitorPeriods}
-      description: New StatusMonitorPeriods with default values
-    content.vb: Function CreateDefaultStatusMonitorPeriodsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of StatusMonitorPeriods)
-  overload: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorPeriodsAsync*
-- uid: SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorPeriodsAsync(SuperOffice.CRM.Services.StatusMonitorPeriods,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorPeriodsAsync(SuperOffice.CRM.Services.StatusMonitorPeriods,System.Threading.CancellationToken)
-  id: SaveStatusMonitorPeriodsAsync(SuperOffice.CRM.Services.StatusMonitorPeriods,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.ISaintAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveStatusMonitorPeriodsAsync(StatusMonitorPeriods, CancellationToken)
-  nameWithType: ISaintAgent.SaveStatusMonitorPeriodsAsync(StatusMonitorPeriods, CancellationToken)
-  fullName: SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorPeriodsAsync(SuperOffice.CRM.Services.StatusMonitorPeriods, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing StatusMonitorPeriods or creates a new StatusMonitorPeriods if the id parameter is empty
-  example: []
-  syntax:
-    content: Task<StatusMonitorPeriods> SaveStatusMonitorPeriodsAsync(StatusMonitorPeriods statusMonitorPeriods, CancellationToken cancellationToken = default)
-    parameters:
-    - id: statusMonitorPeriods
-      type: SuperOffice.CRM.Services.StatusMonitorPeriods
-      description: The StatusMonitorPeriods that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StatusMonitorPeriods}
-      description: New or updated StatusMonitorPeriods
-    content.vb: Function SaveStatusMonitorPeriodsAsync(statusMonitorPeriods As StatusMonitorPeriods, cancellationToken As CancellationToken = Nothing) As Task(Of StatusMonitorPeriods)
-  overload: SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorPeriodsAsync*
 - uid: SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurationsAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurationsAsync(System.Threading.CancellationToken)
   id: GetSaintConfigurationsAsync(System.Threading.CancellationToken)
@@ -265,6 +146,61 @@ items:
       description: The SaintConfiguration for all entities
     content.vb: Function GetSaintConfigurationsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of SaintConfiguration())
   overload: SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurationsAsync*
+- uid: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorAsync(System.Threading.CancellationToken)
+  id: CreateDefaultStatusMonitorAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ISaintAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultStatusMonitorAsync(CancellationToken)
+  nameWithType: ISaintAgent.CreateDefaultStatusMonitorAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new StatusMonitor.
+  example: []
+  syntax:
+    content: Task<StatusMonitor> CreateDefaultStatusMonitorAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StatusMonitor}
+      description: New StatusMonitor with default values
+    content.vb: Function CreateDefaultStatusMonitorAsync(cancellationToken As CancellationToken = Nothing) As Task(Of StatusMonitor)
+  overload: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorAsync*
+- uid: SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorAsync(SuperOffice.CRM.Services.StatusMonitor,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorAsync(SuperOffice.CRM.Services.StatusMonitor,System.Threading.CancellationToken)
+  id: SaveStatusMonitorAsync(SuperOffice.CRM.Services.StatusMonitor,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ISaintAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveStatusMonitorAsync(StatusMonitor, CancellationToken)
+  nameWithType: ISaintAgent.SaveStatusMonitorAsync(StatusMonitor, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorAsync(SuperOffice.CRM.Services.StatusMonitor, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing StatusMonitor or creates a new StatusMonitor if the id parameter is 0.
+  example: []
+  syntax:
+    content: Task<StatusMonitor> SaveStatusMonitorAsync(StatusMonitor statusMonitor, CancellationToken cancellationToken = default)
+    parameters:
+    - id: statusMonitor
+      type: SuperOffice.CRM.Services.StatusMonitor
+      description: The StatusMonitor that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StatusMonitor}
+      description: New or updated StatusMonitor
+    content.vb: Function SaveStatusMonitorAsync(statusMonitor As StatusMonitor, cancellationToken As CancellationToken = Nothing) As Task(Of StatusMonitor)
+  overload: SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorAsync*
 - uid: SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitorsAsync(System.Int32,System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitorsAsync(System.Int32,System.String,System.Threading.CancellationToken)
   id: GetStatusMonitorsAsync(System.Int32,System.String,System.Threading.CancellationToken)
@@ -463,6 +399,61 @@ items:
   nameWithType.vb: ISaintAgent.RegenerateCountersAsync(Boolean, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.ISaintAgent.RegenerateCountersAsync(Boolean, System.Threading.CancellationToken)
   name.vb: RegenerateCountersAsync(Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorPeriodsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorPeriodsAsync(System.Threading.CancellationToken)
+  id: CreateDefaultStatusMonitorPeriodsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ISaintAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultStatusMonitorPeriodsAsync(CancellationToken)
+  nameWithType: ISaintAgent.CreateDefaultStatusMonitorPeriodsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorPeriodsAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new StatusMonitorPeriods.
+  example: []
+  syntax:
+    content: Task<StatusMonitorPeriods> CreateDefaultStatusMonitorPeriodsAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StatusMonitorPeriods}
+      description: New StatusMonitorPeriods with default values
+    content.vb: Function CreateDefaultStatusMonitorPeriodsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of StatusMonitorPeriods)
+  overload: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorPeriodsAsync*
+- uid: SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorPeriodsAsync(SuperOffice.CRM.Services.StatusMonitorPeriods,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorPeriodsAsync(SuperOffice.CRM.Services.StatusMonitorPeriods,System.Threading.CancellationToken)
+  id: SaveStatusMonitorPeriodsAsync(SuperOffice.CRM.Services.StatusMonitorPeriods,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ISaintAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveStatusMonitorPeriodsAsync(StatusMonitorPeriods, CancellationToken)
+  nameWithType: ISaintAgent.SaveStatusMonitorPeriodsAsync(StatusMonitorPeriods, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorPeriodsAsync(SuperOffice.CRM.Services.StatusMonitorPeriods, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing StatusMonitorPeriods or creates a new StatusMonitorPeriods if the id parameter is 0.
+  example: []
+  syntax:
+    content: Task<StatusMonitorPeriods> SaveStatusMonitorPeriodsAsync(StatusMonitorPeriods statusMonitorPeriods, CancellationToken cancellationToken = default)
+    parameters:
+    - id: statusMonitorPeriods
+      type: SuperOffice.CRM.Services.StatusMonitorPeriods
+      description: The StatusMonitorPeriods that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StatusMonitorPeriods}
+      description: New or updated StatusMonitorPeriods
+    content.vb: Function SaveStatusMonitorPeriodsAsync(statusMonitorPeriods As StatusMonitorPeriods, cancellationToken As CancellationToken = Nothing) As Task(Of StatusMonitorPeriods)
+  overload: SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorPeriodsAsync*
 - uid: SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitorPeriodsAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitorPeriodsAsync(System.Threading.CancellationToken)
   id: GetStatusMonitorPeriodsAsync(System.Threading.CancellationToken)
@@ -684,6 +675,52 @@ references:
   name: SaintConfiguration
   nameWithType: SaintConfiguration
   fullName: SuperOffice.CRM.Services.SaintConfiguration
+- uid: SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurationsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurationsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ISaintAgent.html#SuperOffice_CRM_Services_ISaintAgent_GetSaintConfigurationsAsync_System_Threading_CancellationToken_
+  name: GetSaintConfigurationsAsync
+  nameWithType: ISaintAgent.GetSaintConfigurationsAsync
+  fullName: SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurationsAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaintConfiguration[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaintConfiguration[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<SaintConfiguration[]>
+  nameWithType: Task<SaintConfiguration[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.SaintConfiguration[]>
+  nameWithType.vb: Task(Of SaintConfiguration())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.SaintConfiguration())
+  name.vb: Task(Of SaintConfiguration())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.SaintConfiguration
+    name: SaintConfiguration
+    isExternal: true
+    href: SuperOffice.CRM.Services.SaintConfiguration.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.SaintConfiguration
+    name: SaintConfiguration
+    isExternal: true
+    href: SuperOffice.CRM.Services.SaintConfiguration.html
+  - name: (
+  - name: )
+  - name: )
 - uid: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorAsync*
   commentId: Overload:SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorAsync
   isExternal: true
@@ -741,109 +778,6 @@ references:
   name: StatusMonitor
   nameWithType: StatusMonitor
   fullName: SuperOffice.CRM.Services.StatusMonitor
-- uid: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorPeriodsAsync*
-  commentId: Overload:SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorPeriodsAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.ISaintAgent.html#SuperOffice_CRM_Services_ISaintAgent_CreateDefaultStatusMonitorPeriodsAsync_System_Threading_CancellationToken_
-  name: CreateDefaultStatusMonitorPeriodsAsync
-  nameWithType: ISaintAgent.CreateDefaultStatusMonitorPeriodsAsync
-  fullName: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorPeriodsAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StatusMonitorPeriods}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.StatusMonitorPeriods}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<StatusMonitorPeriods>
-  nameWithType: Task<StatusMonitorPeriods>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.StatusMonitorPeriods>
-  nameWithType.vb: Task(Of StatusMonitorPeriods)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.StatusMonitorPeriods)
-  name.vb: Task(Of StatusMonitorPeriods)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.StatusMonitorPeriods
-    name: StatusMonitorPeriods
-    isExternal: true
-    href: SuperOffice.CRM.Services.StatusMonitorPeriods.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.StatusMonitorPeriods
-    name: StatusMonitorPeriods
-    isExternal: true
-    href: SuperOffice.CRM.Services.StatusMonitorPeriods.html
-  - name: )
-- uid: SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorPeriodsAsync*
-  commentId: Overload:SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorPeriodsAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.ISaintAgent.html#SuperOffice_CRM_Services_ISaintAgent_SaveStatusMonitorPeriodsAsync_SuperOffice_CRM_Services_StatusMonitorPeriods_System_Threading_CancellationToken_
-  name: SaveStatusMonitorPeriodsAsync
-  nameWithType: ISaintAgent.SaveStatusMonitorPeriodsAsync
-  fullName: SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorPeriodsAsync
-- uid: SuperOffice.CRM.Services.StatusMonitorPeriods
-  commentId: T:SuperOffice.CRM.Services.StatusMonitorPeriods
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.StatusMonitorPeriods.html
-  name: StatusMonitorPeriods
-  nameWithType: StatusMonitorPeriods
-  fullName: SuperOffice.CRM.Services.StatusMonitorPeriods
-- uid: SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurationsAsync*
-  commentId: Overload:SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurationsAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.ISaintAgent.html#SuperOffice_CRM_Services_ISaintAgent_GetSaintConfigurationsAsync_System_Threading_CancellationToken_
-  name: GetSaintConfigurationsAsync
-  nameWithType: ISaintAgent.GetSaintConfigurationsAsync
-  fullName: SuperOffice.CRM.Services.ISaintAgent.GetSaintConfigurationsAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaintConfiguration[]}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.SaintConfiguration[]}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<SaintConfiguration[]>
-  nameWithType: Task<SaintConfiguration[]>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.SaintConfiguration[]>
-  nameWithType.vb: Task(Of SaintConfiguration())
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.SaintConfiguration())
-  name.vb: Task(Of SaintConfiguration())
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.SaintConfiguration
-    name: SaintConfiguration
-    isExternal: true
-    href: SuperOffice.CRM.Services.SaintConfiguration.html
-  - name: '['
-  - name: ']'
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.SaintConfiguration
-    name: SaintConfiguration
-    isExternal: true
-    href: SuperOffice.CRM.Services.SaintConfiguration.html
-  - name: (
-  - name: )
-  - name: )
 - uid: SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitorsAsync*
   commentId: Overload:SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitorsAsync
   isExternal: true
@@ -1031,6 +965,63 @@ references:
   name: RegenerateCountersAsync
   nameWithType: ISaintAgent.RegenerateCountersAsync
   fullName: SuperOffice.CRM.Services.ISaintAgent.RegenerateCountersAsync
+- uid: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorPeriodsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorPeriodsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ISaintAgent.html#SuperOffice_CRM_Services_ISaintAgent_CreateDefaultStatusMonitorPeriodsAsync_System_Threading_CancellationToken_
+  name: CreateDefaultStatusMonitorPeriodsAsync
+  nameWithType: ISaintAgent.CreateDefaultStatusMonitorPeriodsAsync
+  fullName: SuperOffice.CRM.Services.ISaintAgent.CreateDefaultStatusMonitorPeriodsAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StatusMonitorPeriods}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.StatusMonitorPeriods}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<StatusMonitorPeriods>
+  nameWithType: Task<StatusMonitorPeriods>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.StatusMonitorPeriods>
+  nameWithType.vb: Task(Of StatusMonitorPeriods)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.StatusMonitorPeriods)
+  name.vb: Task(Of StatusMonitorPeriods)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.StatusMonitorPeriods
+    name: StatusMonitorPeriods
+    isExternal: true
+    href: SuperOffice.CRM.Services.StatusMonitorPeriods.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.StatusMonitorPeriods
+    name: StatusMonitorPeriods
+    isExternal: true
+    href: SuperOffice.CRM.Services.StatusMonitorPeriods.html
+  - name: )
+- uid: SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorPeriodsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorPeriodsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ISaintAgent.html#SuperOffice_CRM_Services_ISaintAgent_SaveStatusMonitorPeriodsAsync_SuperOffice_CRM_Services_StatusMonitorPeriods_System_Threading_CancellationToken_
+  name: SaveStatusMonitorPeriodsAsync
+  nameWithType: ISaintAgent.SaveStatusMonitorPeriodsAsync
+  fullName: SuperOffice.CRM.Services.ISaintAgent.SaveStatusMonitorPeriodsAsync
+- uid: SuperOffice.CRM.Services.StatusMonitorPeriods
+  commentId: T:SuperOffice.CRM.Services.StatusMonitorPeriods
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.StatusMonitorPeriods.html
+  name: StatusMonitorPeriods
+  nameWithType: StatusMonitorPeriods
+  fullName: SuperOffice.CRM.Services.StatusMonitorPeriods
 - uid: SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitorPeriodsAsync*
   commentId: Overload:SuperOffice.CRM.Services.ISaintAgent.GetStatusMonitorPeriodsAsync
   isExternal: true

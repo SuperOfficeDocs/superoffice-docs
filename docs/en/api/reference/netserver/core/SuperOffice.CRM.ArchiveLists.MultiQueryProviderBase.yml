@@ -77,6 +77,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.AppointmentProvider
   - SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase
   - SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBaseV2
+  - SuperOffice.CRM.ArchiveLists.AssignmentNotificationProvider
   - SuperOffice.CRM.ArchiveLists.BookingParticipantsProvider
   - SuperOffice.CRM.ArchiveLists.CategoryMembersProvider
   - SuperOffice.CRM.ArchiveLists.CrmScriptsProvider

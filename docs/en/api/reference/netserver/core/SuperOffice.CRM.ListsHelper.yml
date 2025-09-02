@@ -18,6 +18,7 @@ items:
   - SuperOffice.CRM.ListsHelper.GetTableName(System.Int32,System.Boolean)
   - SuperOffice.CRM.ListsHelper.GetUDListDefinitionAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.ListsHelper.GetUDListDefinitionFromNameAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.ListsHelper.GetUdListDefinitionIdForSoTable(SuperOffice.Data.Dictionary.SoTable)
   - SuperOffice.CRM.ListsHelper.LoadAllListItemsAsync(SuperOffice.Data.SQL.Select,SuperOffice.Data.SQL.TableInfo,System.Threading.CancellationToken)
   - SuperOffice.CRM.ListsHelper.OrphanRootItemType
   - SuperOffice.CRM.ListsHelper.RefreshListRankAsync(System.Int32,System.Threading.CancellationToken)
@@ -746,6 +747,29 @@ items:
   nameWithType.vb: ListsHelper.FilterDuplicateId(List(Of ISoListItem))
   fullName.vb: SuperOffice.CRM.ListsHelper.FilterDuplicateId(System.Collections.Generic.List(Of SuperOffice.CRM.Lists.ISoListItem))
   name.vb: FilterDuplicateId(List(Of ISoListItem))
+- uid: SuperOffice.CRM.ListsHelper.GetUdListDefinitionIdForSoTable(SuperOffice.Data.Dictionary.SoTable)
+  commentId: M:SuperOffice.CRM.ListsHelper.GetUdListDefinitionIdForSoTable(SuperOffice.Data.Dictionary.SoTable)
+  id: GetUdListDefinitionIdForSoTable(SuperOffice.Data.Dictionary.SoTable)
+  parent: SuperOffice.CRM.ListsHelper
+  langs:
+  - csharp
+  - vb
+  name: GetUdListDefinitionIdForSoTable(SoTable)
+  nameWithType: ListsHelper.GetUdListDefinitionIdForSoTable(SoTable)
+  fullName: SuperOffice.CRM.ListsHelper.GetUdListDefinitionIdForSoTable(SuperOffice.Data.Dictionary.SoTable)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM
+  syntax:
+    content: public static string GetUdListDefinitionIdForSoTable(SoTable table)
+    parameters:
+    - id: table
+      type: SuperOffice.Data.Dictionary.SoTable
+    return:
+      type: System.String
+    content.vb: Public Shared Function GetUdListDefinitionIdForSoTable(table As SoTable) As String
+  overload: SuperOffice.CRM.ListsHelper.GetUdListDefinitionIdForSoTable*
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
@@ -1887,3 +1911,55 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Lists.ISoListItem.html
   - name: )
+- uid: SuperOffice.CRM.ListsHelper.GetUdListDefinitionIdForSoTable*
+  commentId: Overload:SuperOffice.CRM.ListsHelper.GetUdListDefinitionIdForSoTable
+  isExternal: true
+  href: SuperOffice.CRM.ListsHelper.html#SuperOffice_CRM_ListsHelper_GetUdListDefinitionIdForSoTable_SuperOffice_Data_Dictionary_SoTable_
+  name: GetUdListDefinitionIdForSoTable
+  nameWithType: ListsHelper.GetUdListDefinitionIdForSoTable
+  fullName: SuperOffice.CRM.ListsHelper.GetUdListDefinitionIdForSoTable
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  href: SuperOffice.Data.Dictionary.SoTable.html
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html

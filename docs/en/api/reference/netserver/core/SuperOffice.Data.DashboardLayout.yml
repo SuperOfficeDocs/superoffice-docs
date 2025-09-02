@@ -26,11 +26,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")]
 
       public enum DashboardLayout
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")>
 
       Public Enum DashboardLayout
   extensionMethods:
@@ -46,7 +46,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.2.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.3.0.0
 - uid: SuperOffice.Data.DashboardLayout.None
   commentId: F:SuperOffice.Data.DashboardLayout.None
   id: None

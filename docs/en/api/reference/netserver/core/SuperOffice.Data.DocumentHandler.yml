@@ -21,11 +21,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")]
 
       public enum DocumentHandler
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")>
 
       Public Enum DocumentHandler
   extensionMethods:
@@ -41,7 +41,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.2.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.3.0.0
 - uid: SuperOffice.Data.DocumentHandler.WebOnly
   commentId: F:SuperOffice.Data.DocumentHandler.WebOnly
   id: WebOnly

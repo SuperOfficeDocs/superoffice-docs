@@ -10,6 +10,8 @@ items:
   - SuperOffice.Threading.TaskHelper.RunInUserContext(System.Func{System.Threading.Tasks.Task},System.Threading.CancellationToken)
   - SuperOffice.Threading.TaskHelper.WaitAsync(System.Threading.Tasks.Task,System.Threading.CancellationToken)
   - SuperOffice.Threading.TaskHelper.WaitForAllRunningTasksAsync(System.Threading.CancellationToken)
+  - SuperOffice.Threading.TaskHelper.WhenAllBatched(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task},System.Int32)
+  - SuperOffice.Threading.TaskHelper.WhenAllBatched``1(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}},System.Int32)
   langs:
   - csharp
   - vb
@@ -64,6 +66,66 @@ items:
       type: System.Threading.Tasks.Task
     content.vb: Public Shared Function WaitAsync(task As Task, cancellationToken As CancellationToken) As Task
   overload: SuperOffice.Threading.TaskHelper.WaitAsync*
+- uid: SuperOffice.Threading.TaskHelper.WhenAllBatched(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task},System.Int32)
+  commentId: M:SuperOffice.Threading.TaskHelper.WhenAllBatched(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task},System.Int32)
+  id: WhenAllBatched(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task},System.Int32)
+  isExtensionMethod: true
+  parent: SuperOffice.Threading.TaskHelper
+  langs:
+  - csharp
+  - vb
+  name: WhenAllBatched(IEnumerable<Task>, int)
+  nameWithType: TaskHelper.WhenAllBatched(IEnumerable<Task>, int)
+  fullName: SuperOffice.Threading.TaskHelper.WhenAllBatched(System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task>, int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public static Task WhenAllBatched(this IEnumerable<Task> tasks, int batchSize)
+    parameters:
+    - id: tasks
+      type: System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task}
+    - id: batchSize
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Shared Function WhenAllBatched(tasks As IEnumerable(Of Task), batchSize As Integer) As Task
+  overload: SuperOffice.Threading.TaskHelper.WhenAllBatched*
+  nameWithType.vb: TaskHelper.WhenAllBatched(IEnumerable(Of Task), Integer)
+  fullName.vb: SuperOffice.Threading.TaskHelper.WhenAllBatched(System.Collections.Generic.IEnumerable(Of System.Threading.Tasks.Task), Integer)
+  name.vb: WhenAllBatched(IEnumerable(Of Task), Integer)
+- uid: SuperOffice.Threading.TaskHelper.WhenAllBatched``1(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}},System.Int32)
+  commentId: M:SuperOffice.Threading.TaskHelper.WhenAllBatched``1(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}},System.Int32)
+  id: WhenAllBatched``1(System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}},System.Int32)
+  isExtensionMethod: true
+  parent: SuperOffice.Threading.TaskHelper
+  langs:
+  - csharp
+  - vb
+  name: WhenAllBatched<T>(IEnumerable<Task<T>>, int)
+  nameWithType: TaskHelper.WhenAllBatched<T>(IEnumerable<Task<T>>, int)
+  fullName: SuperOffice.Threading.TaskHelper.WhenAllBatched<T>(System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task<T>>, int)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Threading
+  syntax:
+    content: public static IAsyncEnumerable<T> WhenAllBatched<T>(this IEnumerable<Task<T>> tasks, int batchSize)
+    parameters:
+    - id: tasks
+      type: System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{{T}}}
+    - id: batchSize
+      type: System.Int32
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IAsyncEnumerable{{T}}
+    content.vb: Public Shared Function WhenAllBatched(Of T)(tasks As IEnumerable(Of Task(Of T)), batchSize As Integer) As IAsyncEnumerable(Of T)
+  overload: SuperOffice.Threading.TaskHelper.WhenAllBatched*
+  nameWithType.vb: TaskHelper.WhenAllBatched(Of T)(IEnumerable(Of Task(Of T)), Integer)
+  fullName.vb: SuperOffice.Threading.TaskHelper.WhenAllBatched(Of T)(System.Collections.Generic.IEnumerable(Of System.Threading.Tasks.Task(Of T)), Integer)
+  name.vb: WhenAllBatched(Of T)(IEnumerable(Of Task(Of T)), Integer)
 - uid: SuperOffice.Threading.TaskHelper.RunInUserContext(System.Action,System.Threading.CancellationToken)
   commentId: M:SuperOffice.Threading.TaskHelper.RunInUserContext(System.Action,System.Threading.CancellationToken)
   id: RunInUserContext(System.Action,System.Threading.CancellationToken)
@@ -550,6 +612,215 @@ references:
     name: Threading
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: SuperOffice.Threading.TaskHelper.WhenAllBatched*
+  commentId: Overload:SuperOffice.Threading.TaskHelper.WhenAllBatched
+  isExternal: true
+  href: SuperOffice.Threading.TaskHelper.html#SuperOffice_Threading_TaskHelper_WhenAllBatched_System_Collections_Generic_IEnumerable_System_Threading_Tasks_Task__System_Int32_
+  name: WhenAllBatched
+  nameWithType: TaskHelper.WhenAllBatched
+  fullName: SuperOffice.Threading.TaskHelper.WhenAllBatched
+- uid: System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Task>
+  nameWithType: IEnumerable<Task>
+  fullName: System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task>
+  nameWithType.vb: IEnumerable(Of Task)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Threading.Tasks.Task)
+  name.vb: IEnumerable(Of Task)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Threading.Tasks.Task
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{{T}}}
+  commentId: T:System.Collections.Generic.IEnumerable{System.Threading.Tasks.Task{``0}}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<Task<T>>
+  nameWithType: IEnumerable<Task<T>>
+  fullName: System.Collections.Generic.IEnumerable<System.Threading.Tasks.Task<T>>
+  nameWithType.vb: IEnumerable(Of Task(Of T))
+  fullName.vb: System.Collections.Generic.IEnumerable(Of System.Threading.Tasks.Task(Of T))
+  name.vb: IEnumerable(Of Task(Of T))
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: T
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: )
+- uid: System.Collections.Generic.IAsyncEnumerable{{T}}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{``0}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  name: IAsyncEnumerable<T>
+  nameWithType: IAsyncEnumerable<T>
+  fullName: System.Collections.Generic.IAsyncEnumerable<T>
+  nameWithType.vb: IAsyncEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of T)
+  name.vb: IAsyncEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IAsyncEnumerable`1
+  isExternal: true
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: <
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
 - uid: SuperOffice.Threading.TaskHelper.RunInUserContext*
   commentId: Overload:SuperOffice.Threading.TaskHelper.RunInUserContext
   isExternal: true

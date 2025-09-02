@@ -67,6 +67,7 @@ items:
   - SuperOffice.WebApi.Agents.ContactAgent
   - SuperOffice.WebApi.Agents.CustomerServiceAgent
   - SuperOffice.WebApi.Agents.DashAgent
+  - SuperOffice.WebApi.Agents.DashboardAgent
   - SuperOffice.WebApi.Agents.DatabaseAgent
   - SuperOffice.WebApi.Agents.DatabaseTableAgent
   - SuperOffice.WebApi.Agents.DiagnosticsAgent
@@ -76,7 +77,6 @@ items:
   - SuperOffice.WebApi.Agents.ErpSyncAgent
   - SuperOffice.WebApi.Agents.FavouriteAgent
   - SuperOffice.WebApi.Agents.FindAgent
-  - SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
   - SuperOffice.WebApi.Agents.ForeignSystemAgent
   - SuperOffice.WebApi.Agents.FreeTextAgent
   - SuperOffice.WebApi.Agents.ImportAgent

@@ -44,6 +44,7 @@ items:
   - SuperOffice.WebApi.Data.Appointment.IsRecurrence
   - SuperOffice.WebApi.Data.Appointment.JoinVideomeetUrl
   - SuperOffice.WebApi.Data.Appointment.Location
+  - SuperOffice.WebApi.Data.Appointment.MotherAssociateId
   - SuperOffice.WebApi.Data.Appointment.MotherId
   - SuperOffice.WebApi.Data.Appointment.OwnedExternally
   - SuperOffice.WebApi.Data.Appointment.OwnedExternally_String
@@ -1826,6 +1827,29 @@ items:
   - type: Newtonsoft.Json.JsonIgnoreAttribute
     ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
     arguments: []
+- uid: SuperOffice.WebApi.Data.Appointment.MotherAssociateId
+  commentId: P:SuperOffice.WebApi.Data.Appointment.MotherAssociateId
+  id: MotherAssociateId
+  parent: SuperOffice.WebApi.Data.Appointment
+  langs:
+  - csharp
+  - vb
+  name: MotherAssociateId
+  nameWithType: Appointment.MotherAssociateId
+  fullName: SuperOffice.WebApi.Data.Appointment.MotherAssociateId
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Associate/owner of the mother appointment
+  example: []
+  syntax:
+    content: public virtual int MotherAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property MotherAssociateId As Integer
+  overload: SuperOffice.WebApi.Data.Appointment.MotherAssociateId*
 - uid: SuperOffice.WebApi.Data.Appointment.JoinVideomeetUrl
   commentId: P:SuperOffice.WebApi.Data.Appointment.JoinVideomeetUrl
   id: JoinVideomeetUrl
@@ -3101,6 +3125,13 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.Data.AppointmentExternalOwner.html
   - name: '?'
+- uid: SuperOffice.WebApi.Data.Appointment.MotherAssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.Appointment.MotherAssociateId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Appointment.html#SuperOffice_WebApi_Data_Appointment_MotherAssociateId
+  name: MotherAssociateId
+  nameWithType: Appointment.MotherAssociateId
+  fullName: SuperOffice.WebApi.Data.Appointment.MotherAssociateId
 - uid: SuperOffice.WebApi.Data.Appointment.JoinVideomeetUrl*
   commentId: Overload:SuperOffice.WebApi.Data.Appointment.JoinVideomeetUrl
   isExternal: true

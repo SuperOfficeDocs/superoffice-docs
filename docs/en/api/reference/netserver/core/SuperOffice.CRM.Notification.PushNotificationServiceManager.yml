@@ -467,13 +467,13 @@ items:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Notification
   syntax:
-    content: public static string GetTagFromPushNotificationType(PushNotificationType type)
+    content: public string GetTagFromPushNotificationType(PushNotificationType type)
     parameters:
     - id: type
       type: CentralServices.Data.Pocket.PushNotificationType
     return:
       type: System.String
-    content.vb: Public Shared Function GetTagFromPushNotificationType(type As PushNotificationType) As String
+    content.vb: Public Function GetTagFromPushNotificationType(type As PushNotificationType) As String
   overload: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetTagFromPushNotificationType*
 - uid: SuperOffice.CRM.Notification.PushNotificationServiceManager.GetAvailableTags
   commentId: M:SuperOffice.CRM.Notification.PushNotificationServiceManager.GetAvailableTags

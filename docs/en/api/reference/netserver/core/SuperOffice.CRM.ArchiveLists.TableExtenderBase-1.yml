@@ -109,6 +109,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.UrlExtenderBase
   - SuperOffice.CRM.ArchiveLists.UsageStatsExterderBase
   - SuperOffice.CRM.ArchiveLists.UserPreferenceExtenderBase
+  - SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase
   - SuperOffice.CRM.ArchiveLists.VisibleForExtenderBase
   - SuperOffice.CRM.ArchiveLists.WebAppUsageExtenderBase
   - SuperOffice.CRM.ArchiveLists.WorkflowExtenderBase

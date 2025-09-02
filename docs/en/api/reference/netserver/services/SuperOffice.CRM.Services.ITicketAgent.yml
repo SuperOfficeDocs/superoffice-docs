@@ -132,10 +132,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new AttachmentEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  summary: Loading default values into a new AttachmentEntity.
   example: []
   syntax:
     content: Task<AttachmentEntity> CreateDefaultAttachmentEntityAsync(CancellationToken cancellationToken = default)
@@ -161,14 +158,14 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing AttachmentEntity or creates a new AttachmentEntity if the id parameter is empty
+  summary: Updates the existing AttachmentEntity or creates a new AttachmentEntity if the id parameter is 0.
   example: []
   syntax:
     content: Task<AttachmentEntity> SaveAttachmentEntityAsync(AttachmentEntity attachmentEntity, CancellationToken cancellationToken = default)
     parameters:
     - id: attachmentEntity
       type: SuperOffice.CRM.Services.AttachmentEntity
-      description: The AttachmentEntity that is saved.
+      description: The AttachmentEntity that is saved
     - id: cancellationToken
       type: System.Threading.CancellationToken
     return:
@@ -176,122 +173,6 @@ items:
       description: New or updated AttachmentEntity
     content.vb: Function SaveAttachmentEntityAsync(attachmentEntity As AttachmentEntity, cancellationToken As CancellationToken = Nothing) As Task(Of AttachmentEntity)
   overload: SuperOffice.CRM.Services.ITicketAgent.SaveAttachmentEntityAsync*
-- uid: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketEntityAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketEntityAsync(System.Threading.CancellationToken)
-  id: CreateDefaultTicketEntityAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.ITicketAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultTicketEntityAsync(CancellationToken)
-  nameWithType: ITicketAgent.CreateDefaultTicketEntityAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketEntityAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new TicketEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: Task<TicketEntity> CreateDefaultTicketEntityAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketEntity}
-      description: New TicketEntity with default values
-    content.vb: Function CreateDefaultTicketEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of TicketEntity)
-  overload: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketEntityAsync*
-- uid: SuperOffice.CRM.Services.ITicketAgent.SaveTicketEntityAsync(SuperOffice.CRM.Services.TicketEntity,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ITicketAgent.SaveTicketEntityAsync(SuperOffice.CRM.Services.TicketEntity,System.Threading.CancellationToken)
-  id: SaveTicketEntityAsync(SuperOffice.CRM.Services.TicketEntity,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.ITicketAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveTicketEntityAsync(TicketEntity, CancellationToken)
-  nameWithType: ITicketAgent.SaveTicketEntityAsync(TicketEntity, CancellationToken)
-  fullName: SuperOffice.CRM.Services.ITicketAgent.SaveTicketEntityAsync(SuperOffice.CRM.Services.TicketEntity, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing TicketEntity or creates a new TicketEntity if the id parameter is empty
-  example: []
-  syntax:
-    content: Task<TicketEntity> SaveTicketEntityAsync(TicketEntity ticketEntity, CancellationToken cancellationToken = default)
-    parameters:
-    - id: ticketEntity
-      type: SuperOffice.CRM.Services.TicketEntity
-      description: The TicketEntity that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketEntity}
-      description: New or updated TicketEntity
-    content.vb: Function SaveTicketEntityAsync(ticketEntity As TicketEntity, cancellationToken As CancellationToken = Nothing) As Task(Of TicketEntity)
-  overload: SuperOffice.CRM.Services.ITicketAgent.SaveTicketEntityAsync*
-- uid: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketMessageEntityAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketMessageEntityAsync(System.Threading.CancellationToken)
-  id: CreateDefaultTicketMessageEntityAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.ITicketAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultTicketMessageEntityAsync(CancellationToken)
-  nameWithType: ITicketAgent.CreateDefaultTicketMessageEntityAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketMessageEntityAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new TicketMessageEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: Task<TicketMessageEntity> CreateDefaultTicketMessageEntityAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketMessageEntity}
-      description: New TicketMessageEntity with default values
-    content.vb: Function CreateDefaultTicketMessageEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of TicketMessageEntity)
-  overload: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketMessageEntityAsync*
-- uid: SuperOffice.CRM.Services.ITicketAgent.SaveTicketMessageEntityAsync(SuperOffice.CRM.Services.TicketMessageEntity,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ITicketAgent.SaveTicketMessageEntityAsync(SuperOffice.CRM.Services.TicketMessageEntity,System.Threading.CancellationToken)
-  id: SaveTicketMessageEntityAsync(SuperOffice.CRM.Services.TicketMessageEntity,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.ITicketAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveTicketMessageEntityAsync(TicketMessageEntity, CancellationToken)
-  nameWithType: ITicketAgent.SaveTicketMessageEntityAsync(TicketMessageEntity, CancellationToken)
-  fullName: SuperOffice.CRM.Services.ITicketAgent.SaveTicketMessageEntityAsync(SuperOffice.CRM.Services.TicketMessageEntity, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing TicketMessageEntity or creates a new TicketMessageEntity if the id parameter is empty
-  example: []
-  syntax:
-    content: Task<TicketMessageEntity> SaveTicketMessageEntityAsync(TicketMessageEntity ticketMessageEntity, CancellationToken cancellationToken = default)
-    parameters:
-    - id: ticketMessageEntity
-      type: SuperOffice.CRM.Services.TicketMessageEntity
-      description: The TicketMessageEntity that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketMessageEntity}
-      description: New or updated TicketMessageEntity
-    content.vb: Function SaveTicketMessageEntityAsync(ticketMessageEntity As TicketMessageEntity, cancellationToken As CancellationToken = Nothing) As Task(Of TicketMessageEntity)
-  overload: SuperOffice.CRM.Services.ITicketAgent.SaveTicketMessageEntityAsync*
 - uid: SuperOffice.CRM.Services.ITicketAgent.GetAttachmentEntityAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ITicketAgent.GetAttachmentEntityAsync(System.Int32,System.Threading.CancellationToken)
   id: GetAttachmentEntityAsync(System.Int32,System.Threading.CancellationToken)
@@ -318,7 +199,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AttachmentEntity}
-      description: AttachmentEntity
+      description: A single AttachmentEntity
     content.vb: Function GetAttachmentEntityAsync(attachmentEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of AttachmentEntity)
   overload: SuperOffice.CRM.Services.ITicketAgent.GetAttachmentEntityAsync*
   nameWithType.vb: ITicketAgent.GetAttachmentEntityAsync(Integer, CancellationToken)
@@ -484,7 +365,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Ticket}
-      description: Ticket
+      description: A single Ticket
     content.vb: Function GetTicketAsync(ticketId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Ticket)
   overload: SuperOffice.CRM.Services.ITicketAgent.GetTicketAsync*
   nameWithType.vb: ITicketAgent.GetTicketAsync(Integer, CancellationToken)
@@ -522,6 +403,61 @@ items:
   nameWithType.vb: ITicketAgent.GetTicketsAsync(Integer(), CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.ITicketAgent.GetTicketsAsync(Integer(), System.Threading.CancellationToken)
   name.vb: GetTicketsAsync(Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultTicketEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTicketEntityAsync(CancellationToken)
+  nameWithType: ITicketAgent.CreateDefaultTicketEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketEntityAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new TicketEntity.
+  example: []
+  syntax:
+    content: Task<TicketEntity> CreateDefaultTicketEntityAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketEntity}
+      description: New TicketEntity with default values
+    content.vb: Function CreateDefaultTicketEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of TicketEntity)
+  overload: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketEntityAsync*
+- uid: SuperOffice.CRM.Services.ITicketAgent.SaveTicketEntityAsync(SuperOffice.CRM.Services.TicketEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.SaveTicketEntityAsync(SuperOffice.CRM.Services.TicketEntity,System.Threading.CancellationToken)
+  id: SaveTicketEntityAsync(SuperOffice.CRM.Services.TicketEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveTicketEntityAsync(TicketEntity, CancellationToken)
+  nameWithType: ITicketAgent.SaveTicketEntityAsync(TicketEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.SaveTicketEntityAsync(SuperOffice.CRM.Services.TicketEntity, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing TicketEntity or creates a new TicketEntity if the id parameter is 0. Does not notify users of save.
+  example: []
+  syntax:
+    content: Task<TicketEntity> SaveTicketEntityAsync(TicketEntity ticketEntity, CancellationToken cancellationToken = default)
+    parameters:
+    - id: ticketEntity
+      type: SuperOffice.CRM.Services.TicketEntity
+      description: The TicketEntity that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketEntity}
+      description: New or updated TicketEntity
+    content.vb: Function SaveTicketEntityAsync(ticketEntity As TicketEntity, cancellationToken As CancellationToken = Nothing) As Task(Of TicketEntity)
+  overload: SuperOffice.CRM.Services.ITicketAgent.SaveTicketEntityAsync*
 - uid: SuperOffice.CRM.Services.ITicketAgent.GetTicketEntityAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ITicketAgent.GetTicketEntityAsync(System.Int32,System.Threading.CancellationToken)
   id: GetTicketEntityAsync(System.Int32,System.Threading.CancellationToken)
@@ -548,7 +484,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketEntity}
-      description: TicketEntity
+      description: A single TicketEntity
     content.vb: Function GetTicketEntityAsync(ticketEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TicketEntity)
   overload: SuperOffice.CRM.Services.ITicketAgent.GetTicketEntityAsync*
   nameWithType.vb: ITicketAgent.GetTicketEntityAsync(Integer, CancellationToken)
@@ -1478,12 +1414,67 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketMessage}
-      description: TicketMessage
+      description: A single TicketMessage
     content.vb: Function GetTicketMessageAsync(ticketMessageId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TicketMessage)
   overload: SuperOffice.CRM.Services.ITicketAgent.GetTicketMessageAsync*
   nameWithType.vb: ITicketAgent.GetTicketMessageAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.ITicketAgent.GetTicketMessageAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetTicketMessageAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketMessageEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketMessageEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultTicketMessageEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTicketMessageEntityAsync(CancellationToken)
+  nameWithType: ITicketAgent.CreateDefaultTicketMessageEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketMessageEntityAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new TicketMessageEntity.
+  example: []
+  syntax:
+    content: Task<TicketMessageEntity> CreateDefaultTicketMessageEntityAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketMessageEntity}
+      description: New TicketMessageEntity with default values
+    content.vb: Function CreateDefaultTicketMessageEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of TicketMessageEntity)
+  overload: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketMessageEntityAsync*
+- uid: SuperOffice.CRM.Services.ITicketAgent.SaveTicketMessageEntityAsync(SuperOffice.CRM.Services.TicketMessageEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.SaveTicketMessageEntityAsync(SuperOffice.CRM.Services.TicketMessageEntity,System.Threading.CancellationToken)
+  id: SaveTicketMessageEntityAsync(SuperOffice.CRM.Services.TicketMessageEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveTicketMessageEntityAsync(TicketMessageEntity, CancellationToken)
+  nameWithType: ITicketAgent.SaveTicketMessageEntityAsync(TicketMessageEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.SaveTicketMessageEntityAsync(SuperOffice.CRM.Services.TicketMessageEntity, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing TicketMessageEntity or creates a new TicketMessageEntity if the id parameter is 0. Does not notify users of save.
+  example: []
+  syntax:
+    content: Task<TicketMessageEntity> SaveTicketMessageEntityAsync(TicketMessageEntity ticketMessageEntity, CancellationToken cancellationToken = default)
+    parameters:
+    - id: ticketMessageEntity
+      type: SuperOffice.CRM.Services.TicketMessageEntity
+      description: The TicketMessageEntity that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketMessageEntity}
+      description: New or updated TicketMessageEntity
+    content.vb: Function SaveTicketMessageEntityAsync(ticketMessageEntity As TicketMessageEntity, cancellationToken As CancellationToken = Nothing) As Task(Of TicketMessageEntity)
+  overload: SuperOffice.CRM.Services.ITicketAgent.SaveTicketMessageEntityAsync*
 - uid: SuperOffice.CRM.Services.ITicketAgent.GetTicketMessageEntityAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ITicketAgent.GetTicketMessageEntityAsync(System.Int32,System.Threading.CancellationToken)
   id: GetTicketMessageEntityAsync(System.Int32,System.Threading.CancellationToken)
@@ -1510,7 +1501,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketMessageEntity}
-      description: TicketMessageEntity
+      description: A single TicketMessageEntity
     content.vb: Function GetTicketMessageEntityAsync(ticketMessageEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TicketMessageEntity)
   overload: SuperOffice.CRM.Services.ITicketAgent.GetTicketMessageEntityAsync*
   nameWithType.vb: ITicketAgent.GetTicketMessageEntityAsync(Integer, CancellationToken)
@@ -2601,120 +2592,6 @@ references:
   name: AttachmentEntity
   nameWithType: AttachmentEntity
   fullName: SuperOffice.CRM.Services.AttachmentEntity
-- uid: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_CreateDefaultTicketEntityAsync_System_Threading_CancellationToken_
-  name: CreateDefaultTicketEntityAsync
-  nameWithType: ITicketAgent.CreateDefaultTicketEntityAsync
-  fullName: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketEntityAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketEntity}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketEntity}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<TicketEntity>
-  nameWithType: Task<TicketEntity>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TicketEntity>
-  nameWithType.vb: Task(Of TicketEntity)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TicketEntity)
-  name.vb: Task(Of TicketEntity)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.TicketEntity
-    name: TicketEntity
-    isExternal: true
-    href: SuperOffice.CRM.Services.TicketEntity.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.TicketEntity
-    name: TicketEntity
-    isExternal: true
-    href: SuperOffice.CRM.Services.TicketEntity.html
-  - name: )
-- uid: SuperOffice.CRM.Services.ITicketAgent.SaveTicketEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.SaveTicketEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_SaveTicketEntityAsync_SuperOffice_CRM_Services_TicketEntity_System_Threading_CancellationToken_
-  name: SaveTicketEntityAsync
-  nameWithType: ITicketAgent.SaveTicketEntityAsync
-  fullName: SuperOffice.CRM.Services.ITicketAgent.SaveTicketEntityAsync
-- uid: SuperOffice.CRM.Services.TicketEntity
-  commentId: T:SuperOffice.CRM.Services.TicketEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.TicketEntity.html
-  name: TicketEntity
-  nameWithType: TicketEntity
-  fullName: SuperOffice.CRM.Services.TicketEntity
-- uid: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketMessageEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketMessageEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_CreateDefaultTicketMessageEntityAsync_System_Threading_CancellationToken_
-  name: CreateDefaultTicketMessageEntityAsync
-  nameWithType: ITicketAgent.CreateDefaultTicketMessageEntityAsync
-  fullName: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketMessageEntityAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketMessageEntity}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketMessageEntity}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<TicketMessageEntity>
-  nameWithType: Task<TicketMessageEntity>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TicketMessageEntity>
-  nameWithType.vb: Task(Of TicketMessageEntity)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TicketMessageEntity)
-  name.vb: Task(Of TicketMessageEntity)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.TicketMessageEntity
-    name: TicketMessageEntity
-    isExternal: true
-    href: SuperOffice.CRM.Services.TicketMessageEntity.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.TicketMessageEntity
-    name: TicketMessageEntity
-    isExternal: true
-    href: SuperOffice.CRM.Services.TicketMessageEntity.html
-  - name: )
-- uid: SuperOffice.CRM.Services.ITicketAgent.SaveTicketMessageEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.SaveTicketMessageEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_SaveTicketMessageEntityAsync_SuperOffice_CRM_Services_TicketMessageEntity_System_Threading_CancellationToken_
-  name: SaveTicketMessageEntityAsync
-  nameWithType: ITicketAgent.SaveTicketMessageEntityAsync
-  fullName: SuperOffice.CRM.Services.ITicketAgent.SaveTicketMessageEntityAsync
-- uid: SuperOffice.CRM.Services.TicketMessageEntity
-  commentId: T:SuperOffice.CRM.Services.TicketMessageEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.TicketMessageEntity.html
-  name: TicketMessageEntity
-  nameWithType: TicketMessageEntity
-  fullName: SuperOffice.CRM.Services.TicketMessageEntity
 - uid: SuperOffice.CRM.Services.ITicketAgent.GetAttachmentEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.GetAttachmentEntityAsync
   isExternal: true
@@ -3003,6 +2880,63 @@ references:
   - name: (
   - name: )
   - name: )
+- uid: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_CreateDefaultTicketEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultTicketEntityAsync
+  nameWithType: ITicketAgent.CreateDefaultTicketEntityAsync
+  fullName: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TicketEntity>
+  nameWithType: Task<TicketEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TicketEntity>
+  nameWithType.vb: Task(Of TicketEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TicketEntity)
+  name.vb: Task(Of TicketEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.TicketEntity
+    name: TicketEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.TicketEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.TicketEntity
+    name: TicketEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.TicketEntity.html
+  - name: )
+- uid: SuperOffice.CRM.Services.ITicketAgent.SaveTicketEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.SaveTicketEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_SaveTicketEntityAsync_SuperOffice_CRM_Services_TicketEntity_System_Threading_CancellationToken_
+  name: SaveTicketEntityAsync
+  nameWithType: ITicketAgent.SaveTicketEntityAsync
+  fullName: SuperOffice.CRM.Services.ITicketAgent.SaveTicketEntityAsync
+- uid: SuperOffice.CRM.Services.TicketEntity
+  commentId: T:SuperOffice.CRM.Services.TicketEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketEntity.html
+  name: TicketEntity
+  nameWithType: TicketEntity
+  fullName: SuperOffice.CRM.Services.TicketEntity
 - uid: SuperOffice.CRM.Services.ITicketAgent.GetTicketEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.GetTicketEntityAsync
   isExternal: true
@@ -3199,6 +3133,14 @@ references:
   name: SplitTicketMessageAsync
   nameWithType: ITicketAgent.SplitTicketMessageAsync
   fullName: SuperOffice.CRM.Services.ITicketAgent.SplitTicketMessageAsync
+- uid: SuperOffice.CRM.Services.TicketMessageEntity
+  commentId: T:SuperOffice.CRM.Services.TicketMessageEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.TicketMessageEntity.html
+  name: TicketMessageEntity
+  nameWithType: TicketMessageEntity
+  fullName: SuperOffice.CRM.Services.TicketMessageEntity
 - uid: SuperOffice.CRM.Services.ITicketAgent.UpdateTicketsReadStatusAsync*
   commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.UpdateTicketsReadStatusAsync
   isExternal: true
@@ -3518,6 +3460,55 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Services.TicketMessage.html
   - name: )
+- uid: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketMessageEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketMessageEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_CreateDefaultTicketMessageEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultTicketMessageEntityAsync
+  nameWithType: ITicketAgent.CreateDefaultTicketMessageEntityAsync
+  fullName: SuperOffice.CRM.Services.ITicketAgent.CreateDefaultTicketMessageEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketMessageEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TicketMessageEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TicketMessageEntity>
+  nameWithType: Task<TicketMessageEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TicketMessageEntity>
+  nameWithType.vb: Task(Of TicketMessageEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TicketMessageEntity)
+  name.vb: Task(Of TicketMessageEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.TicketMessageEntity
+    name: TicketMessageEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.TicketMessageEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.TicketMessageEntity
+    name: TicketMessageEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.TicketMessageEntity.html
+  - name: )
+- uid: SuperOffice.CRM.Services.ITicketAgent.SaveTicketMessageEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.SaveTicketMessageEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_SaveTicketMessageEntityAsync_SuperOffice_CRM_Services_TicketMessageEntity_System_Threading_CancellationToken_
+  name: SaveTicketMessageEntityAsync
+  nameWithType: ITicketAgent.SaveTicketMessageEntityAsync
+  fullName: SuperOffice.CRM.Services.ITicketAgent.SaveTicketMessageEntityAsync
 - uid: SuperOffice.CRM.Services.ITicketAgent.GetTicketMessageEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.GetTicketMessageEntityAsync
   isExternal: true

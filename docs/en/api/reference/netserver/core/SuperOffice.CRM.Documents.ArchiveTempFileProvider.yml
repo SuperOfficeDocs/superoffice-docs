@@ -5,7 +5,7 @@ items:
   id: ArchiveTempFileProvider
   parent: SuperOffice.CRM.Documents
   children:
-  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor
+  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Documents.ArchiveTempFileProvider})
   - SuperOffice.CRM.Documents.ArchiveTempFileProvider.CheckIfFileExistsAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileForAppendingAsync(System.String,System.Threading.CancellationToken)
@@ -55,12 +55,34 @@ items:
   extensionMethods:
   - SuperOffice.CRM.Documents.ArchiveTempFileProvider.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Documents.ArchiveTempFileProvider.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
-  - SuperOffice.CRM.Documents.ArchiveTempFileProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
   attributes:
   - type: SuperOffice.Factory.SoInjectAttribute
     ctor: SuperOffice.Factory.SoInjectAttribute.#ctor
     arguments: []
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Documents.ArchiveTempFileProvider})
+  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Documents.ArchiveTempFileProvider})
+  id: '#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Documents.ArchiveTempFileProvider})'
+  parent: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+  langs:
+  - csharp
+  - vb
+  name: ArchiveTempFileProvider(ILogger<ArchiveTempFileProvider>)
+  nameWithType: ArchiveTempFileProvider.ArchiveTempFileProvider(ILogger<ArchiveTempFileProvider>)
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ArchiveTempFileProvider(Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.Documents.ArchiveTempFileProvider>)
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Documents
+  syntax:
+    content: public ArchiveTempFileProvider(ILogger<ArchiveTempFileProvider> logger)
+    parameters:
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Documents.ArchiveTempFileProvider}
+    content.vb: Public Sub New(logger As ILogger(Of ArchiveTempFileProvider))
+  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor*
+  nameWithType.vb: ArchiveTempFileProvider.New(ILogger(Of ArchiveTempFileProvider))
+  fullName.vb: SuperOffice.CRM.Documents.ArchiveTempFileProvider.New(Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Documents.ArchiveTempFileProvider))
+  name.vb: New(ILogger(Of ArchiveTempFileProvider))
 - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileAsync(System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileAsync(System.String,System.Threading.CancellationToken)
   id: CreateFileAsync(System.String,System.Threading.CancellationToken)
@@ -359,27 +381,6 @@ items:
   nameWithType.vb: ArchiveTempFileProvider.DeleteFileAsync(String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Documents.ArchiveTempFileProvider.DeleteFileAsync(String, System.Threading.CancellationToken)
   name.vb: DeleteFileAsync(String, CancellationToken)
-- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor
-  commentId: M:SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor
-  id: '#ctor'
-  parent: SuperOffice.CRM.Documents.ArchiveTempFileProvider
-  langs:
-  - csharp
-  - vb
-  name: ArchiveTempFileProvider()
-  nameWithType: ArchiveTempFileProvider.ArchiveTempFileProvider()
-  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ArchiveTempFileProvider()
-  type: Constructor
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.CRM.Documents
-  syntax:
-    content: public ArchiveTempFileProvider()
-    content.vb: Public Sub New()
-  overload: SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor*
-  nameWithType.vb: ArchiveTempFileProvider.New()
-  fullName.vb: SuperOffice.CRM.Documents.ArchiveTempFileProvider.New()
-  name.vb: New()
 references:
 - uid: SuperOffice.IO.ITempFileProvider
   commentId: T:SuperOffice.IO.ITempFileProvider
@@ -762,112 +763,6 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
   - name: )
-- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<ArchiveTempFileProvider>(ArchiveTempFileProvider, ArchiveTempFileProvider)
-  nameWithType: ObjectExtensions.AssignByReflection<ArchiveTempFileProvider>(ArchiveTempFileProvider, ArchiveTempFileProvider)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.CRM.Documents.ArchiveTempFileProvider>(SuperOffice.CRM.Documents.ArchiveTempFileProvider, SuperOffice.CRM.Documents.ArchiveTempFileProvider)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ArchiveTempFileProvider)(ArchiveTempFileProvider, ArchiveTempFileProvider)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.CRM.Documents.ArchiveTempFileProvider)(SuperOffice.CRM.Documents.ArchiveTempFileProvider, SuperOffice.CRM.Documents.ArchiveTempFileProvider)
-  name.vb: AssignByReflection(Of ArchiveTempFileProvider)(ArchiveTempFileProvider, ArchiveTempFileProvider)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Documents.ArchiveTempFileProvider,SuperOffice.CRM.Documents.ArchiveTempFileProvider)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
-    name: ArchiveTempFileProvider
-    isExternal: true
-    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
-    name: ArchiveTempFileProvider
-    isExternal: true
-    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
-    name: ArchiveTempFileProvider
-    isExternal: true
-    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.CRM.Documents.ArchiveTempFileProvider,SuperOffice.CRM.Documents.ArchiveTempFileProvider)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
-    name: ArchiveTempFileProvider
-    isExternal: true
-    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
-    name: ArchiveTempFileProvider
-    isExternal: true
-    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
-    name: ArchiveTempFileProvider
-    isExternal: true
-    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
-  - name: )
-- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.SuperOffice.Util.ObjectExtensions.GraphCopy``1
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  parent: SuperOffice.Util.ObjectExtensions
-  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<ArchiveTempFileProvider>(ArchiveTempFileProvider)
-  nameWithType: ObjectExtensions.GraphCopy<ArchiveTempFileProvider>(ArchiveTempFileProvider)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.CRM.Documents.ArchiveTempFileProvider>(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of ArchiveTempFileProvider)(ArchiveTempFileProvider)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.CRM.Documents.ArchiveTempFileProvider)(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
-  name.vb: GraphCopy(Of ArchiveTempFileProvider)(ArchiveTempFileProvider)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
-    name: ArchiveTempFileProvider
-    isExternal: true
-    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
-  - name: '>'
-  - name: (
-  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
-    name: ArchiveTempFileProvider
-    isExternal: true
-    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.CRM.Documents.ArchiveTempFileProvider)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
-    name: ArchiveTempFileProvider
-    isExternal: true
-    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
-  - name: )
-  - name: (
-  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
-    name: ArchiveTempFileProvider
-    isExternal: true
-    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
-  - name: )
 - uid: SuperOffice.IO
   commentId: N:SuperOffice.IO
   isExternal: true
@@ -997,88 +892,6 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
-- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  name: AssignByReflection<T>(T, T)
-  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
-  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
-  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
-  name.vb: AssignByReflection(Of T)(T, T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
-    name: AssignByReflection
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: ','
-  - name: " "
-  - name: T
-  - name: )
-- uid: SuperOffice.Util.ObjectExtensions
-  commentId: T:SuperOffice.Util.ObjectExtensions
-  parent: SuperOffice.Util
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html
-  name: ObjectExtensions
-  nameWithType: ObjectExtensions
-  fullName: SuperOffice.Util.ObjectExtensions
-- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-  isExternal: true
-  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  name: GraphCopy<T>(T)
-  nameWithType: ObjectExtensions.GraphCopy<T>(T)
-  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
-  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
-  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
-  name.vb: GraphCopy(Of T)(T)
-  spec.csharp:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: <
-  - name: T
-  - name: '>'
-  - name: (
-  - name: T
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
-    name: GraphCopy
-    isExternal: true
-    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
-  - name: (
-  - name: Of
-  - name: " "
-  - name: T
-  - name: )
-  - name: (
-  - name: T
-  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -1116,33 +929,116 @@ references:
     name: ConnectorWS
     isExternal: true
     href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Util
-  commentId: N:SuperOffice.Util
+- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor*
+  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor
   isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.Util
-  nameWithType: SuperOffice.Util
-  fullName: SuperOffice.Util
+  href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html#SuperOffice_CRM_Documents_ArchiveTempFileProvider__ctor_Microsoft_Extensions_Logging_ILogger_SuperOffice_CRM_Documents_ArchiveTempFileProvider__
+  name: ArchiveTempFileProvider
+  nameWithType: ArchiveTempFileProvider.ArchiveTempFileProvider
+  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ArchiveTempFileProvider
+  nameWithType.vb: ArchiveTempFileProvider.New
+  fullName.vb: SuperOffice.CRM.Documents.ArchiveTempFileProvider.New
+  name.vb: New
+- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Documents.ArchiveTempFileProvider}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Documents.ArchiveTempFileProvider}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<ArchiveTempFileProvider>
+  nameWithType: ILogger<ArchiveTempFileProvider>
+  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.Documents.ArchiveTempFileProvider>
+  nameWithType.vb: ILogger(Of ArchiveTempFileProvider)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Documents.ArchiveTempFileProvider)
+  name.vb: ILogger(Of ArchiveTempFileProvider)
   spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
     isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.Util
-    name: Util
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+    name: ArchiveTempFileProvider
     isExternal: true
-    href: SuperOffice.Util.html
+    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
+  - name: '>'
   spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
     isExternal: true
-    href: SuperOffice.html
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider
+    name: ArchiveTempFileProvider
+    isExternal: true
+    href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html
+  - name: )
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
   - name: .
-  - uid: SuperOffice.Util
-    name: Util
+  - uid: Microsoft.Extensions
+    name: Extensions
     isExternal: true
-    href: SuperOffice.Util.html
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
 - uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileAsync*
   commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.CreateFileAsync
   isExternal: true
@@ -1939,13 +1835,3 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-- uid: SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor*
-  commentId: Overload:SuperOffice.CRM.Documents.ArchiveTempFileProvider.#ctor
-  isExternal: true
-  href: SuperOffice.CRM.Documents.ArchiveTempFileProvider.html#SuperOffice_CRM_Documents_ArchiveTempFileProvider__ctor
-  name: ArchiveTempFileProvider
-  nameWithType: ArchiveTempFileProvider.ArchiveTempFileProvider
-  fullName: SuperOffice.CRM.Documents.ArchiveTempFileProvider.ArchiveTempFileProvider
-  nameWithType.vb: ArchiveTempFileProvider.New
-  fullName.vb: SuperOffice.CRM.Documents.ArchiveTempFileProvider.New
-  name.vb: New

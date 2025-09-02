@@ -42,6 +42,7 @@ items:
   - SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_FreeTextIndex_ContactId
   - SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_InvoiceSum_CompanyId
   - SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_Invoice_CompanyId
+  - SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_Notify_ContactId
   - SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_OwnerContactLink_ContactId
   - SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_Person_ContactId
   - SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_ProjectMember_ContactId
@@ -56,6 +57,7 @@ items:
   - SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_TargetRevisionHistory_ContactId
   - SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_Ticket_ContactId
   - SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_URL_ContactId
+  - SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_UtmParameters_CreatedContactId
   - SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_WorkflowInstance_ContactId
   - SuperOffice.CRM.Data.ContactTableInfo.MotherId
   - SuperOffice.CRM.Data.ContactTableInfo.MotherId_InnerJoin_Contact
@@ -2089,6 +2091,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.InvoiceSumTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_InvoiceSum_CompanyId As TargetedLeftOuterJoin(Of InvoiceSumTableInfo)
   overload: SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_InvoiceSum_CompanyId*
+- uid: SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_Notify_ContactId
+  commentId: P:SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_Notify_ContactId
+  id: LeftOuterJoin_Notify_ContactId
+  parent: SuperOffice.CRM.Data.ContactTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_Notify_ContactId
+  nameWithType: ContactTableInfo.LeftOuterJoin_Notify_ContactId
+  fullName: SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_Notify_ContactId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key ContactId on this table, to Notify.<xref href="SuperOffice.CRM.Data.NotifyTableInfo.ContactId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<NotifyTableInfo> LeftOuterJoin_Notify_ContactId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NotifyTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_Notify_ContactId As TargetedLeftOuterJoin(Of NotifyTableInfo)
+  overload: SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_Notify_ContactId*
 - uid: SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_CompanyDomain_CompanyId
   commentId: P:SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_CompanyDomain_CompanyId
   id: LeftOuterJoin_CompanyDomain_CompanyId
@@ -2273,6 +2298,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.WorkflowInstanceTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_WorkflowInstance_ContactId As TargetedLeftOuterJoin(Of WorkflowInstanceTableInfo)
   overload: SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_WorkflowInstance_ContactId*
+- uid: SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_UtmParameters_CreatedContactId
+  commentId: P:SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_UtmParameters_CreatedContactId
+  id: LeftOuterJoin_UtmParameters_CreatedContactId
+  parent: SuperOffice.CRM.Data.ContactTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_UtmParameters_CreatedContactId
+  nameWithType: ContactTableInfo.LeftOuterJoin_UtmParameters_CreatedContactId
+  fullName: SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_UtmParameters_CreatedContactId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key ContactId on this table, to UtmParameters.<xref href="SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedContactId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<UtmParametersTableInfo> LeftOuterJoin_UtmParameters_CreatedContactId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.UtmParametersTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_UtmParameters_CreatedContactId As TargetedLeftOuterJoin(Of UtmParametersTableInfo)
+  overload: SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_UtmParameters_CreatedContactId*
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data
@@ -5169,6 +5217,55 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Data.InvoiceSumTableInfo.html
   - name: )
+- uid: SuperOffice.CRM.Data.NotifyTableInfo.ContactId
+  commentId: P:SuperOffice.CRM.Data.NotifyTableInfo.ContactId
+  isExternal: true
+  href: SuperOffice.CRM.Data.NotifyTableInfo.html#SuperOffice_CRM_Data_NotifyTableInfo_ContactId
+  name: ContactId
+  nameWithType: NotifyTableInfo.ContactId
+  fullName: SuperOffice.CRM.Data.NotifyTableInfo.ContactId
+- uid: SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_Notify_ContactId*
+  commentId: Overload:SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_Notify_ContactId
+  isExternal: true
+  href: SuperOffice.CRM.Data.ContactTableInfo.html#SuperOffice_CRM_Data_ContactTableInfo_LeftOuterJoin_Notify_ContactId
+  name: LeftOuterJoin_Notify_ContactId
+  nameWithType: ContactTableInfo.LeftOuterJoin_Notify_ContactId
+  fullName: SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_Notify_ContactId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NotifyTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.NotifyTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<NotifyTableInfo>
+  nameWithType: TargetedLeftOuterJoin<NotifyTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.NotifyTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of NotifyTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.NotifyTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of NotifyTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.NotifyTableInfo
+    name: NotifyTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NotifyTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.NotifyTableInfo
+    name: NotifyTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.NotifyTableInfo.html
+  - name: )
 - uid: SuperOffice.CRM.Data.CompanyDomainTableInfo.CompanyId
   commentId: P:SuperOffice.CRM.Data.CompanyDomainTableInfo.CompanyId
   isExternal: true
@@ -5560,4 +5657,53 @@ references:
     name: WorkflowInstanceTableInfo
     isExternal: true
     href: SuperOffice.CRM.Data.WorkflowInstanceTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedContactId
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedContactId
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_CreatedContactId
+  name: CreatedContactId
+  nameWithType: UtmParametersTableInfo.CreatedContactId
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedContactId
+- uid: SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_UtmParameters_CreatedContactId*
+  commentId: Overload:SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_UtmParameters_CreatedContactId
+  isExternal: true
+  href: SuperOffice.CRM.Data.ContactTableInfo.html#SuperOffice_CRM_Data_ContactTableInfo_LeftOuterJoin_UtmParameters_CreatedContactId
+  name: LeftOuterJoin_UtmParameters_CreatedContactId
+  nameWithType: ContactTableInfo.LeftOuterJoin_UtmParameters_CreatedContactId
+  fullName: SuperOffice.CRM.Data.ContactTableInfo.LeftOuterJoin_UtmParameters_CreatedContactId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.UtmParametersTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.UtmParametersTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<UtmParametersTableInfo>
+  nameWithType: TargetedLeftOuterJoin<UtmParametersTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.UtmParametersTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of UtmParametersTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.UtmParametersTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of UtmParametersTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.UtmParametersTableInfo
+    name: UtmParametersTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.UtmParametersTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.UtmParametersTableInfo
+    name: UtmParametersTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.UtmParametersTableInfo.html
   - name: )

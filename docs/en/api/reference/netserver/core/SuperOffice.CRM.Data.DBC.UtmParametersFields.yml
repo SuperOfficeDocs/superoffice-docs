@@ -1,0 +1,824 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  commentId: T:SuperOffice.CRM.Data.DBC.UtmParametersFields
+  id: DBC.UtmParametersFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.UtmParametersFields.Campaign
+  - SuperOffice.CRM.Data.DBC.UtmParametersFields.Content
+  - SuperOffice.CRM.Data.DBC.UtmParametersFields.CreatedContactId
+  - SuperOffice.CRM.Data.DBC.UtmParametersFields.CreatedPersonId
+  - SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchCampaign
+  - SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchContent
+  - SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchMedium
+  - SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchReferrerdomain
+  - SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchSource
+  - SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchTerm
+  - SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchWhen
+  - SuperOffice.CRM.Data.DBC.UtmParametersFields.FormSubmissionId
+  - SuperOffice.CRM.Data.DBC.UtmParametersFields.Medium
+  - SuperOffice.CRM.Data.DBC.UtmParametersFields.Referrerdomain
+  - SuperOffice.CRM.Data.DBC.UtmParametersFields.Registered
+  - SuperOffice.CRM.Data.DBC.UtmParametersFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.UtmParametersFields.Source
+  - SuperOffice.CRM.Data.DBC.UtmParametersFields.Term
+  - SuperOffice.CRM.Data.DBC.UtmParametersFields.Updated
+  - SuperOffice.CRM.Data.DBC.UtmParametersFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.UtmParametersFields.UpdatedCount
+  - SuperOffice.CRM.Data.DBC.UtmParametersFields.UtmParametersId
+  - SuperOffice.CRM.Data.DBC.UtmParametersFields.When
+  langs:
+  - csharp
+  - vb
+  name: DBC.UtmParametersFields
+  nameWithType: DBC.UtmParametersFields
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Fields for UtmParameters, Table for utm parameters collected from visits and formsubmissions
+  example: []
+  syntax:
+    content: public static class DBC.UtmParametersFields
+    content.vb: Public Module DBC.UtmParametersFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields.UtmParametersId
+  commentId: F:SuperOffice.CRM.Data.DBC.UtmParametersFields.UtmParametersId
+  id: UtmParametersId
+  parent: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  langs:
+  - csharp
+  - vb
+  name: UtmParametersId
+  nameWithType: DBC.UtmParametersFields.UtmParametersId
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields.UtmParametersId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'UtmParameters.UtmParametersId: Primary key'
+  example: []
+  syntax:
+    content: public const string UtmParametersId = "utm_parameters_id"
+    return:
+      type: System.String
+    content.vb: Public Const UtmParametersId As String = "utm_parameters_id"
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields.CreatedPersonId
+  commentId: F:SuperOffice.CRM.Data.DBC.UtmParametersFields.CreatedPersonId
+  id: CreatedPersonId
+  parent: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  langs:
+  - csharp
+  - vb
+  name: CreatedPersonId
+  nameWithType: DBC.UtmParametersFields.CreatedPersonId
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields.CreatedPersonId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'UtmParameters.CreatedPersonId: Id of the created person'
+  example: []
+  syntax:
+    content: public const string CreatedPersonId = "created_person_id"
+    return:
+      type: System.String
+    content.vb: Public Const CreatedPersonId As String = "created_person_id"
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields.CreatedContactId
+  commentId: F:SuperOffice.CRM.Data.DBC.UtmParametersFields.CreatedContactId
+  id: CreatedContactId
+  parent: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  langs:
+  - csharp
+  - vb
+  name: CreatedContactId
+  nameWithType: DBC.UtmParametersFields.CreatedContactId
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields.CreatedContactId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'UtmParameters.CreatedContactId: Id of the created contact'
+  example: []
+  syntax:
+    content: public const string CreatedContactId = "created_contact_id"
+    return:
+      type: System.String
+    content.vb: Public Const CreatedContactId As String = "created_contact_id"
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields.FormSubmissionId
+  commentId: F:SuperOffice.CRM.Data.DBC.UtmParametersFields.FormSubmissionId
+  id: FormSubmissionId
+  parent: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  langs:
+  - csharp
+  - vb
+  name: FormSubmissionId
+  nameWithType: DBC.UtmParametersFields.FormSubmissionId
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields.FormSubmissionId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'UtmParameters.FormSubmissionId: Id of formsubmission'
+  example: []
+  syntax:
+    content: public const string FormSubmissionId = "form_submission_id"
+    return:
+      type: System.String
+    content.vb: Public Const FormSubmissionId As String = "form_submission_id"
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchSource
+  commentId: F:SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchSource
+  id: FirsttouchSource
+  parent: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  langs:
+  - csharp
+  - vb
+  name: FirsttouchSource
+  nameWithType: DBC.UtmParametersFields.FirsttouchSource
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchSource
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'UtmParameters.FirsttouchSource: First touch UTM Source'
+  example: []
+  syntax:
+    content: public const string FirsttouchSource = "firsttouch_source"
+    return:
+      type: System.String
+    content.vb: Public Const FirsttouchSource As String = "firsttouch_source"
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchMedium
+  commentId: F:SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchMedium
+  id: FirsttouchMedium
+  parent: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  langs:
+  - csharp
+  - vb
+  name: FirsttouchMedium
+  nameWithType: DBC.UtmParametersFields.FirsttouchMedium
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchMedium
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'UtmParameters.FirsttouchMedium: First touch UTM Medium'
+  example: []
+  syntax:
+    content: public const string FirsttouchMedium = "firsttouch_medium"
+    return:
+      type: System.String
+    content.vb: Public Const FirsttouchMedium As String = "firsttouch_medium"
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchCampaign
+  commentId: F:SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchCampaign
+  id: FirsttouchCampaign
+  parent: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  langs:
+  - csharp
+  - vb
+  name: FirsttouchCampaign
+  nameWithType: DBC.UtmParametersFields.FirsttouchCampaign
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchCampaign
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'UtmParameters.FirsttouchCampaign: First touch UTM Campaign'
+  example: []
+  syntax:
+    content: public const string FirsttouchCampaign = "firsttouch_campaign"
+    return:
+      type: System.String
+    content.vb: Public Const FirsttouchCampaign As String = "firsttouch_campaign"
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchTerm
+  commentId: F:SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchTerm
+  id: FirsttouchTerm
+  parent: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  langs:
+  - csharp
+  - vb
+  name: FirsttouchTerm
+  nameWithType: DBC.UtmParametersFields.FirsttouchTerm
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchTerm
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'UtmParameters.FirsttouchTerm: First touch UTM Term'
+  example: []
+  syntax:
+    content: public const string FirsttouchTerm = "firsttouch_term"
+    return:
+      type: System.String
+    content.vb: Public Const FirsttouchTerm As String = "firsttouch_term"
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchContent
+  commentId: F:SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchContent
+  id: FirsttouchContent
+  parent: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  langs:
+  - csharp
+  - vb
+  name: FirsttouchContent
+  nameWithType: DBC.UtmParametersFields.FirsttouchContent
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchContent
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'UtmParameters.FirsttouchContent: First touch UTM Content'
+  example: []
+  syntax:
+    content: public const string FirsttouchContent = "firsttouch_content"
+    return:
+      type: System.String
+    content.vb: Public Const FirsttouchContent As String = "firsttouch_content"
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchReferrerdomain
+  commentId: F:SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchReferrerdomain
+  id: FirsttouchReferrerdomain
+  parent: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  langs:
+  - csharp
+  - vb
+  name: FirsttouchReferrerdomain
+  nameWithType: DBC.UtmParametersFields.FirsttouchReferrerdomain
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchReferrerdomain
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'UtmParameters.FirsttouchReferrerdomain: First touch referrer domain'
+  example: []
+  syntax:
+    content: public const string FirsttouchReferrerdomain = "firsttouch_referrerdomain"
+    return:
+      type: System.String
+    content.vb: Public Const FirsttouchReferrerdomain As String = "firsttouch_referrerdomain"
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchWhen
+  commentId: F:SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchWhen
+  id: FirsttouchWhen
+  parent: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  langs:
+  - csharp
+  - vb
+  name: FirsttouchWhen
+  nameWithType: DBC.UtmParametersFields.FirsttouchWhen
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields.FirsttouchWhen
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'UtmParameters.FirsttouchWhen: First touch date'
+  example: []
+  syntax:
+    content: public const string FirsttouchWhen = "firsttouch_when"
+    return:
+      type: System.String
+    content.vb: Public Const FirsttouchWhen As String = "firsttouch_when"
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields.Source
+  commentId: F:SuperOffice.CRM.Data.DBC.UtmParametersFields.Source
+  id: Source
+  parent: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: DBC.UtmParametersFields.Source
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields.Source
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'UtmParameters.Source: UTM Source'
+  example: []
+  syntax:
+    content: public const string Source = "source"
+    return:
+      type: System.String
+    content.vb: Public Const Source As String = "source"
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields.Medium
+  commentId: F:SuperOffice.CRM.Data.DBC.UtmParametersFields.Medium
+  id: Medium
+  parent: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  langs:
+  - csharp
+  - vb
+  name: Medium
+  nameWithType: DBC.UtmParametersFields.Medium
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields.Medium
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'UtmParameters.Medium: UTM Medium'
+  example: []
+  syntax:
+    content: public const string Medium = "medium"
+    return:
+      type: System.String
+    content.vb: Public Const Medium As String = "medium"
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields.Campaign
+  commentId: F:SuperOffice.CRM.Data.DBC.UtmParametersFields.Campaign
+  id: Campaign
+  parent: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  langs:
+  - csharp
+  - vb
+  name: Campaign
+  nameWithType: DBC.UtmParametersFields.Campaign
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields.Campaign
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'UtmParameters.Campaign: UTM Campaign'
+  example: []
+  syntax:
+    content: public const string Campaign = "campaign"
+    return:
+      type: System.String
+    content.vb: Public Const Campaign As String = "campaign"
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields.Term
+  commentId: F:SuperOffice.CRM.Data.DBC.UtmParametersFields.Term
+  id: Term
+  parent: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  langs:
+  - csharp
+  - vb
+  name: Term
+  nameWithType: DBC.UtmParametersFields.Term
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields.Term
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'UtmParameters.Term: UTM Term'
+  example: []
+  syntax:
+    content: public const string Term = "term"
+    return:
+      type: System.String
+    content.vb: Public Const Term As String = "term"
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields.Content
+  commentId: F:SuperOffice.CRM.Data.DBC.UtmParametersFields.Content
+  id: Content
+  parent: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: DBC.UtmParametersFields.Content
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields.Content
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'UtmParameters.Content: UTM Content'
+  example: []
+  syntax:
+    content: public const string Content = "content"
+    return:
+      type: System.String
+    content.vb: Public Const Content As String = "content"
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields.Referrerdomain
+  commentId: F:SuperOffice.CRM.Data.DBC.UtmParametersFields.Referrerdomain
+  id: Referrerdomain
+  parent: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  langs:
+  - csharp
+  - vb
+  name: Referrerdomain
+  nameWithType: DBC.UtmParametersFields.Referrerdomain
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields.Referrerdomain
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'UtmParameters.Referrerdomain: Referrer domain'
+  example: []
+  syntax:
+    content: public const string Referrerdomain = "referrerdomain"
+    return:
+      type: System.String
+    content.vb: Public Const Referrerdomain As String = "referrerdomain"
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields.When
+  commentId: F:SuperOffice.CRM.Data.DBC.UtmParametersFields.When
+  id: When
+  parent: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  langs:
+  - csharp
+  - vb
+  name: When
+  nameWithType: DBC.UtmParametersFields.When
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields.When
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'UtmParameters.When: Date of the visit or form submission'
+  example: []
+  syntax:
+    content: public const string When = "when"
+    return:
+      type: System.String
+    content.vb: Public Const When As String = "when"
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.UtmParametersFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.UtmParametersFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields.Registered
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'UtmParameters.Registered: Registered when'
+  example: []
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.UtmParametersFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.UtmParametersFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields.RegisteredAssociateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'UtmParameters.RegisteredAssociateId: Registered by whom'
+  example: []
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.UtmParametersFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.UtmParametersFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields.Updated
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'UtmParameters.Updated: Last updated when'
+  example: []
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.UtmParametersFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.UtmParametersFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields.UpdatedAssociateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'UtmParameters.UpdatedAssociateId: Last updated by whom'
+  example: []
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+- uid: SuperOffice.CRM.Data.DBC.UtmParametersFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.UtmParametersFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.UtmParametersFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.UtmParametersFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.UtmParametersFields.UpdatedCount
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'UtmParameters.UpdatedCount: Number of updates made to this record'
+  example: []
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

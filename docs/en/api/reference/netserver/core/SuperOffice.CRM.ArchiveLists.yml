@@ -87,6 +87,12 @@ items:
   - SuperOffice.CRM.ArchiveLists.ArchiveSubProviderAttribute
   - SuperOffice.CRM.ArchiveLists.AssignResponseInvitationExtender
   - SuperOffice.CRM.ArchiveLists.AssignResponseInvitationProvider
+  - SuperOffice.CRM.ArchiveLists.AssignmentCompanyNotificationExtender
+  - SuperOffice.CRM.ArchiveLists.AssignmentCompanyNotificationSubProvider
+  - SuperOffice.CRM.ArchiveLists.AssignmentNotificationExtenderBase
+  - SuperOffice.CRM.ArchiveLists.AssignmentNotificationProvider
+  - SuperOffice.CRM.ArchiveLists.AssignmentPersonNotificationExtender
+  - SuperOffice.CRM.ArchiveLists.AssignmentPersonNotificationSubProvider
   - SuperOffice.CRM.ArchiveLists.AssociateAssociateExtender
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase
   - SuperOffice.CRM.ArchiveLists.AssociateExtenderBase.Features
@@ -194,11 +200,13 @@ items:
   - SuperOffice.CRM.ArchiveLists.ContactTargetPersonRelationExtender
   - SuperOffice.CRM.ArchiveLists.ContactUdefExtender
   - SuperOffice.CRM.ArchiveLists.ContactUrlExtender
+  - SuperOffice.CRM.ArchiveLists.ContactUtmParamatersExtender
   - SuperOffice.CRM.ArchiveLists.ContactWithPersonExtenderBase`1
   - SuperOffice.CRM.ArchiveLists.CredentialUserProvider
   - SuperOffice.CRM.ArchiveLists.CriteriaInfo
   - SuperOffice.CRM.ArchiveLists.CriteriaProvider
   - SuperOffice.CRM.ArchiveLists.CrmScriptsProvider
+  - SuperOffice.CRM.ArchiveLists.CustomObjectFavouritesProvider
   - SuperOffice.CRM.ArchiveLists.CustomObjectProvider
   - SuperOffice.CRM.ArchiveLists.CustomObjectProviderBase
   - SuperOffice.CRM.ArchiveLists.CustomObjectProviderBaseConstants
@@ -317,6 +325,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.FavouriteAppointmentExtender
   - SuperOffice.CRM.ArchiveLists.FavouriteContactExtender
   - SuperOffice.CRM.ArchiveLists.FavouriteContactExtenderConstants
+  - SuperOffice.CRM.ArchiveLists.FavouriteCustomObjectExtender
   - SuperOffice.CRM.ArchiveLists.FavouriteDocumentExtender
   - SuperOffice.CRM.ArchiveLists.FavouriteExtenderBase
   - SuperOffice.CRM.ArchiveLists.FavouriteFavouriteExtender
@@ -373,6 +382,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.FormSubmissionPersonExtender
   - SuperOffice.CRM.ArchiveLists.FormSubmissionProvider
   - SuperOffice.CRM.ArchiveLists.FormSubmissionSelectionMemberExtender
+  - SuperOffice.CRM.ArchiveLists.FormSubmissionUtmParamatersExtender
   - SuperOffice.CRM.ArchiveLists.FreetextAppointmentResultProvider
   - SuperOffice.CRM.ArchiveLists.FreetextContactResultProvider
   - SuperOffice.CRM.ArchiveLists.FreetextCountProvider
@@ -583,6 +593,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.PersonStaticSelectionMemberExtender
   - SuperOffice.CRM.ArchiveLists.PersonUdefExtender
   - SuperOffice.CRM.ArchiveLists.PersonUrlExtender
+  - SuperOffice.CRM.ArchiveLists.PersonUtmParamatersExtender
   - SuperOffice.CRM.ArchiveLists.PersonWorkflowInstanceExtender
   - SuperOffice.CRM.ArchiveLists.PhaseOneQueryCacher
   - SuperOffice.CRM.ArchiveLists.PhoneExtenderBase
@@ -934,6 +945,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.UserPreferenceUserPreferenceExtender
   - SuperOffice.CRM.ArchiveLists.UserPreferencesProvider
   - SuperOffice.CRM.ArchiveLists.UsersProviderBase
+  - SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase
   - SuperOffice.CRM.ArchiveLists.VisibleColumnsProvider
   - SuperOffice.CRM.ArchiveLists.VisibleForExtenderBase
   - SuperOffice.CRM.ArchiveLists.WebAppUsageAssociateExtender
@@ -1934,6 +1946,13 @@ references:
   name: TicketFavouritesProvider
   nameWithType: TicketFavouritesProvider
   fullName: SuperOffice.CRM.ArchiveLists.TicketFavouritesProvider
+- uid: SuperOffice.CRM.ArchiveLists.CustomObjectFavouritesProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.CustomObjectFavouritesProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.CustomObjectFavouritesProvider.html
+  name: CustomObjectFavouritesProvider
+  nameWithType: CustomObjectFavouritesProvider
+  fullName: SuperOffice.CRM.ArchiveLists.CustomObjectFavouritesProvider
 - uid: SuperOffice.CRM.ArchiveLists.FavouriteFavouriteExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.FavouriteFavouriteExtender
   isExternal: true
@@ -2012,6 +2031,13 @@ references:
   name: FavouriteTicketExtender
   nameWithType: FavouriteTicketExtender
   fullName: SuperOffice.CRM.ArchiveLists.FavouriteTicketExtender
+- uid: SuperOffice.CRM.ArchiveLists.FavouriteCustomObjectExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.FavouriteCustomObjectExtender
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.FavouriteCustomObjectExtender.html
+  name: FavouriteCustomObjectExtender
+  nameWithType: FavouriteCustomObjectExtender
+  fullName: SuperOffice.CRM.ArchiveLists.FavouriteCustomObjectExtender
 - uid: SuperOffice.CRM.ArchiveLists.FindAppointmentProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.FindAppointmentProvider
   isExternal: true
@@ -3336,6 +3362,49 @@ references:
   name: AppointmentRejectedNotificationExtender
   nameWithType: AppointmentRejectedNotificationExtender
   fullName: SuperOffice.CRM.ArchiveLists.AppointmentRejectedNotificationExtender
+- uid: SuperOffice.CRM.ArchiveLists.AssignmentNotificationProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.AssignmentNotificationProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.AssignmentNotificationProvider.html
+  name: AssignmentNotificationProvider
+  nameWithType: AssignmentNotificationProvider
+  fullName: SuperOffice.CRM.ArchiveLists.AssignmentNotificationProvider
+- uid: SuperOffice.CRM.ArchiveLists.AssignmentNotificationExtenderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.AssignmentNotificationExtenderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.AssignmentNotificationExtenderBase.html
+  name: AssignmentNotificationExtenderBase
+  nameWithType: AssignmentNotificationExtenderBase
+  fullName: SuperOffice.CRM.ArchiveLists.AssignmentNotificationExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.AssignmentCompanyNotificationSubProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.AssignmentCompanyNotificationSubProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.AssignmentCompanyNotificationSubProvider.html
+  name: AssignmentCompanyNotificationSubProvider
+  nameWithType: AssignmentCompanyNotificationSubProvider
+  fullName: SuperOffice.CRM.ArchiveLists.AssignmentCompanyNotificationSubProvider
+- uid: SuperOffice.CRM.ArchiveLists.AssignmentCompanyNotificationExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.AssignmentCompanyNotificationExtender
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.AssignmentCompanyNotificationExtender.html
+  name: AssignmentCompanyNotificationExtender
+  nameWithType: AssignmentCompanyNotificationExtender
+  fullName: SuperOffice.CRM.ArchiveLists.AssignmentCompanyNotificationExtender
+- uid: SuperOffice.CRM.ArchiveLists.AssignmentPersonNotificationSubProvider
+  commentId: T:SuperOffice.CRM.ArchiveLists.AssignmentPersonNotificationSubProvider
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.AssignmentPersonNotificationSubProvider.html
+  name: AssignmentPersonNotificationSubProvider
+  nameWithType: AssignmentPersonNotificationSubProvider
+  fullName: SuperOffice.CRM.ArchiveLists.AssignmentPersonNotificationSubProvider
+- uid: SuperOffice.CRM.ArchiveLists.AssignmentPersonNotificationExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.AssignmentPersonNotificationExtender
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.AssignmentPersonNotificationExtender.html
+  name: AssignmentPersonNotificationExtender
+  nameWithType: AssignmentPersonNotificationExtender
+  fullName: SuperOffice.CRM.ArchiveLists.AssignmentPersonNotificationExtender
 - uid: SuperOffice.CRM.ArchiveLists.NotificationProvider
   commentId: T:SuperOffice.CRM.ArchiveLists.NotificationProvider
   isExternal: true
@@ -6743,6 +6812,14 @@ references:
   name: UserPreferenceExtenderBase
   nameWithType: UserPreferenceExtenderBase
   fullName: SuperOffice.CRM.ArchiveLists.UserPreferenceExtenderBase
+- uid: SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase
+  commentId: T:SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase.html
+  name: UtmParametersExtenderBase
+  nameWithType: UtmParametersExtenderBase
+  fullName: SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase
 - uid: SuperOffice.CRM.ArchiveLists.VisibleForExtenderBase
   commentId: T:SuperOffice.CRM.ArchiveLists.VisibleForExtenderBase
   parent: SuperOffice.CRM.ArchiveLists
@@ -7532,6 +7609,13 @@ references:
   name: ContactUrlExtender
   nameWithType: ContactUrlExtender
   fullName: SuperOffice.CRM.ArchiveLists.ContactUrlExtender
+- uid: SuperOffice.CRM.ArchiveLists.ContactUtmParamatersExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.ContactUtmParamatersExtender
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ContactUtmParamatersExtender.html
+  name: ContactUtmParamatersExtender
+  nameWithType: ContactUtmParamatersExtender
+  fullName: SuperOffice.CRM.ArchiveLists.ContactUtmParamatersExtender
 - uid: SuperOffice.CRM.ArchiveLists.DocumentAssociateExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.DocumentAssociateExtender
   isExternal: true
@@ -7848,6 +7932,13 @@ references:
   name: FormSubmissionSelectionMemberExtender
   nameWithType: FormSubmissionSelectionMemberExtender
   fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionSelectionMemberExtender
+- uid: SuperOffice.CRM.ArchiveLists.FormSubmissionUtmParamatersExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.FormSubmissionUtmParamatersExtender
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.FormSubmissionUtmParamatersExtender.html
+  name: FormSubmissionUtmParamatersExtender
+  nameWithType: FormSubmissionUtmParamatersExtender
+  fullName: SuperOffice.CRM.ArchiveLists.FormSubmissionUtmParamatersExtender
 - uid: SuperOffice.CRM.ArchiveLists.GenericTargetSelectionMemberExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.GenericTargetSelectionMemberExtender
   isExternal: true
@@ -8109,6 +8200,13 @@ references:
   name: PersonUrlExtender
   nameWithType: PersonUrlExtender
   fullName: SuperOffice.CRM.ArchiveLists.PersonUrlExtender
+- uid: SuperOffice.CRM.ArchiveLists.PersonUtmParamatersExtender
+  commentId: T:SuperOffice.CRM.ArchiveLists.PersonUtmParamatersExtender
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.PersonUtmParamatersExtender.html
+  name: PersonUtmParamatersExtender
+  nameWithType: PersonUtmParamatersExtender
+  fullName: SuperOffice.CRM.ArchiveLists.PersonUtmParamatersExtender
 - uid: SuperOffice.CRM.ArchiveLists.PersonWorkflowInstanceExtender
   commentId: T:SuperOffice.CRM.ArchiveLists.PersonWorkflowInstanceExtender
   isExternal: true

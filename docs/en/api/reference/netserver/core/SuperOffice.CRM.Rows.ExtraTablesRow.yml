@@ -46,6 +46,7 @@ items:
   - SuperOffice.CRM.Rows.ExtraTablesRow.SetRowAsNew
   - SuperOffice.CRM.Rows.ExtraTablesRow.SortOrder
   - SuperOffice.CRM.Rows.ExtraTablesRow.TableInfo
+  - SuperOffice.CRM.Rows.ExtraTablesRow.TableNumber
   - SuperOffice.CRM.Rows.ExtraTablesRow.ToString
   - SuperOffice.CRM.Rows.ExtraTablesRow.Validate(SuperOffice.CRM.Rows.RowValidator)
   - SuperOffice.CRM.Rows.ExtraTablesRow.ViewEntryHeader
@@ -66,6 +67,7 @@ items:
   - SuperOffice.CRM.Rows.ExtraTablesRow._currentScreenChooserEntry
   - SuperOffice.CRM.Rows.ExtraTablesRow._currentSearchHeader
   - SuperOffice.CRM.Rows.ExtraTablesRow._currentSortOrder
+  - SuperOffice.CRM.Rows.ExtraTablesRow._currentTableNumber
   - SuperOffice.CRM.Rows.ExtraTablesRow._currentViewEntryHeader
   - SuperOffice.CRM.Rows.ExtraTablesRow._persistedDescription
   - SuperOffice.CRM.Rows.ExtraTablesRow._persistedDisplayField
@@ -84,6 +86,7 @@ items:
   - SuperOffice.CRM.Rows.ExtraTablesRow._persistedScreenChooserEntry
   - SuperOffice.CRM.Rows.ExtraTablesRow._persistedSearchHeader
   - SuperOffice.CRM.Rows.ExtraTablesRow._persistedSortOrder
+  - SuperOffice.CRM.Rows.ExtraTablesRow._persistedTableNumber
   - SuperOffice.CRM.Rows.ExtraTablesRow._persistedViewEntryHeader
   langs:
   - csharp
@@ -611,6 +614,27 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _persistedIconId As Integer
+- uid: SuperOffice.CRM.Rows.ExtraTablesRow._persistedTableNumber
+  commentId: F:SuperOffice.CRM.Rows.ExtraTablesRow._persistedTableNumber
+  id: _persistedTableNumber
+  parent: SuperOffice.CRM.Rows.ExtraTablesRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedTableNumber
+  nameWithType: ExtraTablesRow._persistedTableNumber
+  fullName: SuperOffice.CRM.Rows.ExtraTablesRow._persistedTableNumber
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.ExtraTablesRow.TableNumber" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected short _persistedTableNumber
+    return:
+      type: System.Int16
+    content.vb: Protected _persistedTableNumber As Short
 - uid: SuperOffice.CRM.Rows.ExtraTablesRow._currentExtraTablesId
   commentId: F:SuperOffice.CRM.Rows.ExtraTablesRow._currentExtraTablesId
   id: _currentExtraTablesId
@@ -989,6 +1013,27 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _currentIconId As Integer
+- uid: SuperOffice.CRM.Rows.ExtraTablesRow._currentTableNumber
+  commentId: F:SuperOffice.CRM.Rows.ExtraTablesRow._currentTableNumber
+  id: _currentTableNumber
+  parent: SuperOffice.CRM.Rows.ExtraTablesRow
+  langs:
+  - csharp
+  - vb
+  name: _currentTableNumber
+  nameWithType: ExtraTablesRow._currentTableNumber
+  fullName: SuperOffice.CRM.Rows.ExtraTablesRow._currentTableNumber
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.ExtraTablesRow.TableNumber" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected short _currentTableNumber
+    return:
+      type: System.Int16
+    content.vb: Protected _currentTableNumber As Short
 - uid: SuperOffice.CRM.Rows.ExtraTablesRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.ExtraTablesRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -2308,6 +2353,37 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property IconId As Integer
   overload: SuperOffice.CRM.Rows.ExtraTablesRow.IconId*
+- uid: SuperOffice.CRM.Rows.ExtraTablesRow.TableNumber
+  commentId: P:SuperOffice.CRM.Rows.ExtraTablesRow.TableNumber
+  id: TableNumber
+  parent: SuperOffice.CRM.Rows.ExtraTablesRow
+  langs:
+  - csharp
+  - vb
+  name: TableNumber
+  nameWithType: ExtraTablesRow.TableNumber
+  fullName: SuperOffice.CRM.Rows.ExtraTablesRow.TableNumber
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: short. Number of the table'
+  remarks: >-
+    Original type in dictionary:  UShort.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual short TableNumber { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: Public Overridable Property TableNumber As Short
+  overload: SuperOffice.CRM.Rows.ExtraTablesRow.TableNumber*
 references:
 - uid: SuperOffice.CRM.Rows.ExtraTablesRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.ExtraTablesRow.CreateNew
@@ -5399,6 +5475,24 @@ references:
   name: IconId
   nameWithType: ExtraTablesRow.IconId
   fullName: SuperOffice.CRM.Rows.ExtraTablesRow.IconId
+- uid: SuperOffice.CRM.Rows.ExtraTablesRow.TableNumber
+  commentId: P:SuperOffice.CRM.Rows.ExtraTablesRow.TableNumber
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ExtraTablesRow.html#SuperOffice_CRM_Rows_ExtraTablesRow_TableNumber
+  name: TableNumber
+  nameWithType: ExtraTablesRow.TableNumber
+  fullName: SuperOffice.CRM.Rows.ExtraTablesRow.TableNumber
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -6434,3 +6528,10 @@ references:
   name: IconId
   nameWithType: ExtraTablesRow.IconId
   fullName: SuperOffice.CRM.Rows.ExtraTablesRow.IconId
+- uid: SuperOffice.CRM.Rows.ExtraTablesRow.TableNumber*
+  commentId: Overload:SuperOffice.CRM.Rows.ExtraTablesRow.TableNumber
+  isExternal: true
+  href: SuperOffice.CRM.Rows.ExtraTablesRow.html#SuperOffice_CRM_Rows_ExtraTablesRow_TableNumber
+  name: TableNumber
+  nameWithType: ExtraTablesRow.TableNumber
+  fullName: SuperOffice.CRM.Rows.ExtraTablesRow.TableNumber

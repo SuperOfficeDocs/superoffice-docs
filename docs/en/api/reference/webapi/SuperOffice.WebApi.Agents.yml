@@ -19,6 +19,7 @@ items:
   - SuperOffice.WebApi.Agents.ContactAgent
   - SuperOffice.WebApi.Agents.CustomerServiceAgent
   - SuperOffice.WebApi.Agents.DashAgent
+  - SuperOffice.WebApi.Agents.DashboardAgent
   - SuperOffice.WebApi.Agents.DatabaseAgent
   - SuperOffice.WebApi.Agents.DatabaseTableAgent
   - SuperOffice.WebApi.Agents.DiagnosticsAgent
@@ -44,6 +45,7 @@ items:
   - SuperOffice.WebApi.Agents.IContactAgent
   - SuperOffice.WebApi.Agents.ICustomerServiceAgent
   - SuperOffice.WebApi.Agents.IDashAgent
+  - SuperOffice.WebApi.Agents.IDashboardAgent
   - SuperOffice.WebApi.Agents.IDatabaseAgent
   - SuperOffice.WebApi.Agents.IDatabaseTableAgent
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent
@@ -150,6 +152,21 @@ references:
   name: ApiAgent
   nameWithType: ApiAgent
   fullName: SuperOffice.WebApi.Agents.ApiAgent
+- uid: SuperOffice.WebApi.Agents.IDashboardAgent
+  commentId: T:SuperOffice.WebApi.Agents.IDashboardAgent
+  parent: SuperOffice.WebApi.Agents
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IDashboardAgent.html
+  name: IDashboardAgent
+  nameWithType: IDashboardAgent
+  fullName: SuperOffice.WebApi.Agents.IDashboardAgent
+- uid: SuperOffice.WebApi.Agents.DashboardAgent
+  commentId: T:SuperOffice.WebApi.Agents.DashboardAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.DashboardAgent.html
+  name: DashboardAgent
+  nameWithType: DashboardAgent
+  fullName: SuperOffice.WebApi.Agents.DashboardAgent
 - uid: SuperOffice.WebApi.Agents.DocumentAgent
   commentId: T:SuperOffice.WebApi.Agents.DocumentAgent
   isExternal: true

@@ -72,10 +72,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new RefCountEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  summary: Loading default values into a new RefCountEntity.
   example: []
   syntax:
     content: Task<RefCountEntity> CreateDefaultRefCountEntityAsync(CancellationToken cancellationToken = default)
@@ -101,14 +98,14 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing RefCountEntity or creates a new RefCountEntity if the id parameter is empty
+  summary: Updates the existing RefCountEntity or creates a new RefCountEntity if the id parameter is 0.
   example: []
   syntax:
     content: Task<RefCountEntity> SaveRefCountEntityAsync(RefCountEntity refCountEntity, CancellationToken cancellationToken = default)
     parameters:
     - id: refCountEntity
       type: SuperOffice.CRM.Services.RefCountEntity
-      description: The RefCountEntity that is saved.
+      description: The RefCountEntity that is saved
     - id: cancellationToken
       type: System.Threading.CancellationToken
     return:
@@ -142,6 +139,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task
+      description: This method has no return value
     content.vb: Function DeleteRefCountEntityAsync(refCountEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.INumberAllocationAgent.DeleteRefCountEntityAsync*
   nameWithType.vb: INumberAllocationAgent.DeleteRefCountEntityAsync(Integer, CancellationToken)
@@ -173,7 +171,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.RefCountEntity}
-      description: RefCountEntity
+      description: A single RefCountEntity
     content.vb: Function GetRefCountEntityAsync(refCountEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of RefCountEntity)
   overload: SuperOffice.CRM.Services.INumberAllocationAgent.GetRefCountEntityAsync*
   nameWithType.vb: INumberAllocationAgent.GetRefCountEntityAsync(Integer, CancellationToken)

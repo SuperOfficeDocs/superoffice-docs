@@ -10,6 +10,8 @@ items:
   - SuperOffice.CRM.Security.AssociateSentryQueryInfo
   - SuperOffice.CRM.Security.ContactSentry
   - SuperOffice.CRM.Security.ContactSentryQueryInfo
+  - SuperOffice.CRM.Security.CustomObjectSentry
+  - SuperOffice.CRM.Security.CustomObjectSentryQueryInfo
   - SuperOffice.CRM.Security.DashboardSentry
   - SuperOffice.CRM.Security.DashboardSentryQueryInfo
   - SuperOffice.CRM.Security.DashboardTileSentry
@@ -306,6 +308,20 @@ references:
   - name: " "
   - name: TMainTable
   - name: )
+- uid: SuperOffice.CRM.Security.CustomObjectSentry
+  commentId: T:SuperOffice.CRM.Security.CustomObjectSentry
+  isExternal: true
+  href: SuperOffice.CRM.Security.CustomObjectSentry.html
+  name: CustomObjectSentry
+  nameWithType: CustomObjectSentry
+  fullName: SuperOffice.CRM.Security.CustomObjectSentry
+- uid: SuperOffice.CRM.Security.CustomObjectSentryQueryInfo
+  commentId: T:SuperOffice.CRM.Security.CustomObjectSentryQueryInfo
+  isExternal: true
+  href: SuperOffice.CRM.Security.CustomObjectSentryQueryInfo.html
+  name: CustomObjectSentryQueryInfo
+  nameWithType: CustomObjectSentryQueryInfo
+  fullName: SuperOffice.CRM.Security.CustomObjectSentryQueryInfo
 - uid: SuperOffice.CRM.Security.DashboardSentry
   commentId: T:SuperOffice.CRM.Security.DashboardSentry
   isExternal: true

@@ -23,11 +23,11 @@ items:
   example: []
   syntax:
     content: >-
-      [CollectionDataContract(Name = "FieldMetadataDictionary", ItemName = "FieldMetadataDictionaryKeyValuePair", KeyName = "Key", ValueName = "Value", Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")]
+      [CollectionDataContract(Name = "FieldMetadataDictionary", ItemName = "FieldMetadataDictionaryKeyValuePair", KeyName = "Key", ValueName = "Value", Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")]
 
       public class FieldMetadataDictionary : Dictionary<string, FieldMetadata>, IDictionary<string, FieldMetadata>, ICollection<KeyValuePair<string, FieldMetadata>>, IDictionary, ICollection, IReadOnlyDictionary<string, FieldMetadata>, IReadOnlyCollection<KeyValuePair<string, FieldMetadata>>, IEnumerable<KeyValuePair<string, FieldMetadata>>, IEnumerable, ISerializable, IDeserializationCallback
     content.vb: >-
-      <CollectionDataContract(Name:="FieldMetadataDictionary", ItemName:="FieldMetadataDictionaryKeyValuePair", KeyName:="Key", ValueName:="Value", Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")>
+      <CollectionDataContract(Name:="FieldMetadataDictionary", ItemName:="FieldMetadataDictionaryKeyValuePair", KeyName:="Key", ValueName:="Value", Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")>
 
       Public Class FieldMetadataDictionary Inherits Dictionary(Of String, FieldMetadata) Implements IDictionary(Of String, FieldMetadata), ICollection(Of KeyValuePair(Of String, FieldMetadata)), IDictionary, ICollection, IReadOnlyDictionary(Of String, FieldMetadata), IReadOnlyCollection(Of KeyValuePair(Of String, FieldMetadata)), IEnumerable(Of KeyValuePair(Of String, FieldMetadata)), IEnumerable, ISerializable, IDeserializationCallback
   inheritance:
@@ -92,7 +92,7 @@ items:
       value: Value
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.2.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.3.0.0
 - uid: SuperOffice.CRM.Services.FieldMetadataDictionary.#ctor
   commentId: M:SuperOffice.CRM.Services.FieldMetadataDictionary.#ctor
   id: '#ctor'

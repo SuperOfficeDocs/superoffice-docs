@@ -5,7 +5,7 @@ items:
   id: ExportSelectionToFileBatchPlugin
   parent: SuperOffice.CRM.BatchProcessing.Plugins
   children:
-  - SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin})
+  - SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin},SuperOffice.CRM.Entities.ISelectionTypeManager)
   - SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.ExportSelectionMembersEnumeratorAsync(System.Int32,System.String,System.String,System.Int32,System.Boolean,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.PluginName
   - SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.RunAsync(System.String,System.String,System.Threading.CancellationToken)
@@ -90,22 +90,22 @@ items:
     return:
       type: System.String
     content.vb: Public Const PluginName As String = "ExportSelectionToFileBatchPlugin"
-- uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin})
-  commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin})
-  id: '#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin})'
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin},SuperOffice.CRM.Entities.ISelectionTypeManager)
+  commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin},SuperOffice.CRM.Entities.ISelectionTypeManager)
+  id: '#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin},SuperOffice.CRM.Entities.ISelectionTypeManager)'
   parent: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin
   langs:
   - csharp
   - vb
-  name: ExportSelectionToFileBatchPlugin(IBatchData, IBatchServiceConfiguration, ILogger<ExportSelectionToFileBatchPlugin>)
-  nameWithType: ExportSelectionToFileBatchPlugin.ExportSelectionToFileBatchPlugin(IBatchData, ConfigFile.IBatchServiceConfiguration, ILogger<ExportSelectionToFileBatchPlugin>)
-  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.ExportSelectionToFileBatchPlugin(SuperOffice.CRM.BatchProcessing.IBatchData, SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration, Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin>)
+  name: ExportSelectionToFileBatchPlugin(IBatchData, IBatchServiceConfiguration, ILogger<ExportSelectionToFileBatchPlugin>, ISelectionTypeManager)
+  nameWithType: ExportSelectionToFileBatchPlugin.ExportSelectionToFileBatchPlugin(IBatchData, ConfigFile.IBatchServiceConfiguration, ILogger<ExportSelectionToFileBatchPlugin>, ISelectionTypeManager)
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.ExportSelectionToFileBatchPlugin(SuperOffice.CRM.BatchProcessing.IBatchData, SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration, Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin>, SuperOffice.CRM.Entities.ISelectionTypeManager)
   type: Constructor
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing.Plugins
   syntax:
-    content: public ExportSelectionToFileBatchPlugin(IBatchData batchData, ConfigFile.IBatchServiceConfiguration batchServiceConfiguration, ILogger<ExportSelectionToFileBatchPlugin> logger)
+    content: public ExportSelectionToFileBatchPlugin(IBatchData batchData, ConfigFile.IBatchServiceConfiguration batchServiceConfiguration, ILogger<ExportSelectionToFileBatchPlugin> logger, ISelectionTypeManager selectionTypeManager)
     parameters:
     - id: batchData
       type: SuperOffice.CRM.BatchProcessing.IBatchData
@@ -113,11 +113,13 @@ items:
       type: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration
     - id: logger
       type: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin}
-    content.vb: Public Sub New(batchData As IBatchData, batchServiceConfiguration As ConfigFile.IBatchServiceConfiguration, logger As ILogger(Of ExportSelectionToFileBatchPlugin))
+    - id: selectionTypeManager
+      type: SuperOffice.CRM.Entities.ISelectionTypeManager
+    content.vb: Public Sub New(batchData As IBatchData, batchServiceConfiguration As ConfigFile.IBatchServiceConfiguration, logger As ILogger(Of ExportSelectionToFileBatchPlugin), selectionTypeManager As ISelectionTypeManager)
   overload: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.#ctor*
-  nameWithType.vb: ExportSelectionToFileBatchPlugin.New(IBatchData, ConfigFile.IBatchServiceConfiguration, ILogger(Of ExportSelectionToFileBatchPlugin))
-  fullName.vb: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.New(SuperOffice.CRM.BatchProcessing.IBatchData, SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration, Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin))
-  name.vb: New(IBatchData, IBatchServiceConfiguration, ILogger(Of ExportSelectionToFileBatchPlugin))
+  nameWithType.vb: ExportSelectionToFileBatchPlugin.New(IBatchData, ConfigFile.IBatchServiceConfiguration, ILogger(Of ExportSelectionToFileBatchPlugin), ISelectionTypeManager)
+  fullName.vb: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.New(SuperOffice.CRM.BatchProcessing.IBatchData, SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration, Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin), SuperOffice.CRM.Entities.ISelectionTypeManager)
+  name.vb: New(IBatchData, IBatchServiceConfiguration, ILogger(Of ExportSelectionToFileBatchPlugin), ISelectionTypeManager)
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.RunAsync(System.String,System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.RunAsync(System.String,System.String,System.Threading.CancellationToken)
   id: RunAsync(System.String,System.String,System.Threading.CancellationToken)
@@ -1237,7 +1239,7 @@ references:
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.#ctor*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.#ctor
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html#SuperOffice_CRM_BatchProcessing_Plugins_ExportSelectionToFileBatchPlugin__ctor_SuperOffice_CRM_BatchProcessing_IBatchData_SuperOffice_Configuration_ConfigFile_IBatchServiceConfiguration_Microsoft_Extensions_Logging_ILogger_SuperOffice_CRM_BatchProcessing_Plugins_ExportSelectionToFileBatchPlugin__
+  href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html#SuperOffice_CRM_BatchProcessing_Plugins_ExportSelectionToFileBatchPlugin__ctor_SuperOffice_CRM_BatchProcessing_IBatchData_SuperOffice_Configuration_ConfigFile_IBatchServiceConfiguration_Microsoft_Extensions_Logging_ILogger_SuperOffice_CRM_BatchProcessing_Plugins_ExportSelectionToFileBatchPlugin__SuperOffice_CRM_Entities_ISelectionTypeManager_
   name: ExportSelectionToFileBatchPlugin
   nameWithType: ExportSelectionToFileBatchPlugin.ExportSelectionToFileBatchPlugin
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.ExportSelectionToFileBatchPlugin
@@ -1314,6 +1316,14 @@ references:
     isExternal: true
     href: SuperOffice.CRM.BatchProcessing.Plugins.ExportSelectionToFileBatchPlugin.html
   - name: )
+- uid: SuperOffice.CRM.Entities.ISelectionTypeManager
+  commentId: T:SuperOffice.CRM.Entities.ISelectionTypeManager
+  parent: SuperOffice.CRM.Entities
+  isExternal: true
+  href: SuperOffice.CRM.Entities.ISelectionTypeManager.html
+  name: ISelectionTypeManager
+  nameWithType: ISelectionTypeManager
+  fullName: SuperOffice.CRM.Entities.ISelectionTypeManager
 - uid: Microsoft.Extensions.Logging.ILogger`1
   commentId: T:Microsoft.Extensions.Logging.ILogger`1
   isExternal: true
@@ -1379,6 +1389,43 @@ references:
     name: Logging
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+- uid: SuperOffice.CRM.Entities
+  commentId: N:SuperOffice.CRM.Entities
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Entities
+  nameWithType: SuperOffice.CRM.Entities
+  fullName: SuperOffice.CRM.Entities
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Entities
+    name: Entities
+    isExternal: true
+    href: SuperOffice.CRM.Entities.html
 - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.RunAsync(System.String,System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.RunAsync(System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase

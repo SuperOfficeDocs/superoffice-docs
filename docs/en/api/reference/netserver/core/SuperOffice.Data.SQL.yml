@@ -29,7 +29,9 @@ items:
   - SuperOffice.Data.SQL.BatchSave.TravelTransactionLogging
   - SuperOffice.Data.SQL.Between
   - SuperOffice.Data.SQL.BlobLinkTypeFieldInfo
+  - SuperOffice.Data.SQL.BoardViewEntityTypeFieldInfo
   - SuperOffice.Data.SQL.Bool
+  - SuperOffice.Data.SQL.CategoryGroupFieldInfo
   - SuperOffice.Data.SQL.CcTemplateTypeFieldInfo
   - SuperOffice.Data.SQL.ChatMessageSpecialTypeFieldInfo
   - SuperOffice.Data.SQL.ChatMessageTypeFieldInfo
@@ -69,6 +71,7 @@ items:
   - SuperOffice.Data.SQL.DurationUnitFieldInfo
   - SuperOffice.Data.SQL.EMailFlagsFieldInfo
   - SuperOffice.Data.SQL.EMailPriorityFieldInfo
+  - SuperOffice.Data.SQL.EjScriptVerbFieldInfo
   - SuperOffice.Data.SQL.ElementStatusFieldInfo
   - SuperOffice.Data.SQL.EmailAccountStatusFieldInfo
   - SuperOffice.Data.SQL.EmailFromTypeFieldInfo
@@ -872,6 +875,14 @@ references:
   name: WorkflowWaitForActionTypeFieldInfo
   nameWithType: WorkflowWaitForActionTypeFieldInfo
   fullName: SuperOffice.Data.SQL.WorkflowWaitForActionTypeFieldInfo
+- uid: SuperOffice.Data.SQL.BoardViewEntityTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.BoardViewEntityTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.BoardViewEntityTypeFieldInfo.html
+  name: BoardViewEntityTypeFieldInfo
+  nameWithType: BoardViewEntityTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.BoardViewEntityTypeFieldInfo
 - uid: SuperOffice.Data.SQL.WorkflowGoalTypeFieldInfo
   commentId: T:SuperOffice.Data.SQL.WorkflowGoalTypeFieldInfo
   parent: SuperOffice.Data.SQL
@@ -1024,6 +1035,14 @@ references:
   name: SystemMessageTypeFieldInfo
   nameWithType: SystemMessageTypeFieldInfo
   fullName: SuperOffice.Data.SQL.SystemMessageTypeFieldInfo
+- uid: SuperOffice.Data.SQL.CategoryGroupFieldInfo
+  commentId: T:SuperOffice.Data.SQL.CategoryGroupFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.CategoryGroupFieldInfo.html
+  name: CategoryGroupFieldInfo
+  nameWithType: CategoryGroupFieldInfo
+  fullName: SuperOffice.Data.SQL.CategoryGroupFieldInfo
 - uid: SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
   commentId: T:SuperOffice.Data.SQL.FormSubmissionStatusFieldInfo
   parent: SuperOffice.Data.SQL
@@ -1160,6 +1179,14 @@ references:
   name: CcTemplateTypeFieldInfo
   nameWithType: CcTemplateTypeFieldInfo
   fullName: SuperOffice.Data.SQL.CcTemplateTypeFieldInfo
+- uid: SuperOffice.Data.SQL.EjScriptVerbFieldInfo
+  commentId: T:SuperOffice.Data.SQL.EjScriptVerbFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.EjScriptVerbFieldInfo.html
+  name: EjScriptVerbFieldInfo
+  nameWithType: EjScriptVerbFieldInfo
+  fullName: SuperOffice.Data.SQL.EjScriptVerbFieldInfo
 - uid: SuperOffice.Data.SQL.WidgetThemeFieldInfo
   commentId: T:SuperOffice.Data.SQL.WidgetThemeFieldInfo
   parent: SuperOffice.Data.SQL
@@ -1654,14 +1681,6 @@ references:
   name: FieldTypeConvert
   nameWithType: FieldTypeConvert
   fullName: SuperOffice.Data.SQL.FieldTypeConvert
-- uid: SuperOffice.Data.SQL.GreaterThanOrEqual
-  commentId: T:SuperOffice.Data.SQL.GreaterThanOrEqual
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  href: SuperOffice.Data.SQL.GreaterThanOrEqual.html
-  name: GreaterThanOrEqual
-  nameWithType: GreaterThanOrEqual
-  fullName: SuperOffice.Data.SQL.GreaterThanOrEqual
 - uid: SuperOffice.Data.SQL.GreaterThan
   commentId: T:SuperOffice.Data.SQL.GreaterThan
   parent: SuperOffice.Data.SQL
@@ -1670,6 +1689,14 @@ references:
   name: GreaterThan
   nameWithType: GreaterThan
   fullName: SuperOffice.Data.SQL.GreaterThan
+- uid: SuperOffice.Data.SQL.GreaterThanOrEqual
+  commentId: T:SuperOffice.Data.SQL.GreaterThanOrEqual
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.GreaterThanOrEqual.html
+  name: GreaterThanOrEqual
+  nameWithType: GreaterThanOrEqual
+  fullName: SuperOffice.Data.SQL.GreaterThanOrEqual
 - uid: SuperOffice.Data.SQL.Greatest
   commentId: T:SuperOffice.Data.SQL.Greatest
   parent: SuperOffice.Data.SQL
@@ -1899,14 +1926,6 @@ references:
   name: LeftOuterJoin
   nameWithType: LeftOuterJoin
   fullName: SuperOffice.Data.SQL.LeftOuterJoin
-- uid: SuperOffice.Data.SQL.LessThanOrEqual
-  commentId: T:SuperOffice.Data.SQL.LessThanOrEqual
-  parent: SuperOffice.Data.SQL
-  isExternal: true
-  href: SuperOffice.Data.SQL.LessThanOrEqual.html
-  name: LessThanOrEqual
-  nameWithType: LessThanOrEqual
-  fullName: SuperOffice.Data.SQL.LessThanOrEqual
 - uid: SuperOffice.Data.SQL.LessThan
   commentId: T:SuperOffice.Data.SQL.LessThan
   parent: SuperOffice.Data.SQL
@@ -1915,6 +1934,14 @@ references:
   name: LessThan
   nameWithType: LessThan
   fullName: SuperOffice.Data.SQL.LessThan
+- uid: SuperOffice.Data.SQL.LessThanOrEqual
+  commentId: T:SuperOffice.Data.SQL.LessThanOrEqual
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.LessThanOrEqual.html
+  name: LessThanOrEqual
+  nameWithType: LessThanOrEqual
+  fullName: SuperOffice.Data.SQL.LessThanOrEqual
 - uid: SuperOffice.Data.SQL.Like
   commentId: T:SuperOffice.Data.SQL.Like
   parent: SuperOffice.Data.SQL

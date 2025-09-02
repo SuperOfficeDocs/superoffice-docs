@@ -9,7 +9,6 @@ items:
   - SuperOffice.WebApi.Data.DashboardTileType.Chart
   - SuperOffice.WebApi.Data.DashboardTileType.List
   - SuperOffice.WebApi.Data.DashboardTileType.None
-  - SuperOffice.WebApi.Data.DashboardTileType.value__
   - SuperOffice.WebApi.Data.DashboardTileType.Web
   langs:
   - csharp
@@ -17,57 +16,15 @@ items:
   name: DashboardTileType
   nameWithType: DashboardTileType
   fullName: SuperOffice.WebApi.Data.DashboardTileType
-  type: Class
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
+  type: Enum
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\nDashboard tile type\n"
+  summary: Dashboard tile type
+  example: []
   syntax:
-    content: 'public sealed class DashboardTileType : Enum'
-    content.vb: >-
-      Public NotInheritable Class DashboardTileType
-          Inherits
-
-           Enum
-  inheritance:
-  - System.Object
-  modifiers.csharp:
-  - public
-  - sealed
-  - class
-  modifiers.vb:
-  - Public
-  - NotInheritable
-  - Class
-- uid: SuperOffice.WebApi.Data.DashboardTileType.value__
-  commentId: F:SuperOffice.WebApi.Data.DashboardTileType.value__
-  id: value__
-  parent: SuperOffice.WebApi.Data.DashboardTileType
-  langs:
-  - csharp
-  - vb
-  name: value__
-  nameWithType: DashboardTileType.value__
-  fullName: SuperOffice.WebApi.Data.DashboardTileType.value__
-  type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
-  assemblies:
-  - SuperOffice.WebApi
-  namespace: SuperOffice.WebApi.Data
-  syntax:
-    content: public int value__
-    return:
-      type: System.Int32
-    content.vb: Public value__ As Integer
-  modifiers.csharp:
-  - public
-  modifiers.vb:
-  - Public
+    content: public enum DashboardTileType
+    content.vb: Public Enum DashboardTileType
 - uid: SuperOffice.WebApi.Data.DashboardTileType.None
   commentId: F:SuperOffice.WebApi.Data.DashboardTileType.None
   id: None
@@ -79,24 +36,26 @@ items:
   nameWithType: DashboardTileType.None
   fullName: SuperOffice.WebApi.Data.DashboardTileType.None
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n0: Unknown layout\n"
+  summary: '0: Unknown layout'
+  example: []
   syntax:
-    content: public const DashboardTileType None
+    content: >-
+      [EnumMember]
+
+      None = 0
     return:
       type: SuperOffice.WebApi.Data.DashboardTileType
-    content.vb: Public Const None As DashboardTileType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      None = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DashboardTileType.Chart
   commentId: F:SuperOffice.WebApi.Data.DashboardTileType.Chart
   id: Chart
@@ -108,24 +67,26 @@ items:
   nameWithType: DashboardTileType.Chart
   fullName: SuperOffice.WebApi.Data.DashboardTileType.Chart
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n1: Chart tile\n"
+  summary: '1: Chart tile'
+  example: []
   syntax:
-    content: public const DashboardTileType Chart
+    content: >-
+      [EnumMember]
+
+      Chart = 1
     return:
       type: SuperOffice.WebApi.Data.DashboardTileType
-    content.vb: Public Const Chart As DashboardTileType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Chart = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DashboardTileType.Web
   commentId: F:SuperOffice.WebApi.Data.DashboardTileType.Web
   id: Web
@@ -137,24 +98,26 @@ items:
   nameWithType: DashboardTileType.Web
   fullName: SuperOffice.WebApi.Data.DashboardTileType.Web
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n2: Web tile\n"
+  summary: '2: Web tile'
+  example: []
   syntax:
-    content: public const DashboardTileType Web
+    content: >-
+      [EnumMember]
+
+      Web = 2
     return:
       type: SuperOffice.WebApi.Data.DashboardTileType
-    content.vb: Public Const Web As DashboardTileType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Web = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DashboardTileType.List
   commentId: F:SuperOffice.WebApi.Data.DashboardTileType.List
   id: List
@@ -166,24 +129,26 @@ items:
   nameWithType: DashboardTileType.List
   fullName: SuperOffice.WebApi.Data.DashboardTileType.List
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n3: List tile\n"
+  summary: '3: List tile'
+  example: []
   syntax:
-    content: public const DashboardTileType List
+    content: >-
+      [EnumMember]
+
+      List = 3
     return:
       type: SuperOffice.WebApi.Data.DashboardTileType
-    content.vb: Public Const List As DashboardTileType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      List = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.WebApi.Data.DashboardTileType.Bignum
   commentId: F:SuperOffice.WebApi.Data.DashboardTileType.Bignum
   id: Bignum
@@ -195,55 +160,69 @@ items:
   nameWithType: DashboardTileType.Bignum
   fullName: SuperOffice.WebApi.Data.DashboardTileType.Bignum
   type: Field
-  source:
-    path: SuperOffice.WebApi
-    isExternal: true
   assemblies:
   - SuperOffice.WebApi
   namespace: SuperOffice.WebApi.Data
-  summary: "\n4: Number tile\n"
+  summary: '4: Number tile'
+  example: []
   syntax:
-    content: public const DashboardTileType Bignum
+    content: >-
+      [EnumMember]
+
+      Bignum = 4
     return:
       type: SuperOffice.WebApi.Data.DashboardTileType
-    content.vb: Public Const Bignum As DashboardTileType
-  modifiers.csharp:
-  - public
-  - const
-  modifiers.vb:
-  - Public
-  - Const
+    content.vb: >-
+      <EnumMember>
+
+      Bignum = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.html
   name: SuperOffice.WebApi.Data
   nameWithType: SuperOffice.WebApi.Data
   fullName: SuperOffice.WebApi.Data
-- uid: System.Object
-  commentId: T:System.Object
-  parent: System
-  isExternal: true
-  name: Object
-  nameWithType: Object
-  fullName: System.Object
-- uid: System
-  commentId: N:System
-  isExternal: true
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: Int32
-  nameWithType: Int32
-  fullName: System.Int32
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
 - uid: SuperOffice.WebApi.Data.DashboardTileType
   commentId: T:SuperOffice.WebApi.Data.DashboardTileType
   parent: SuperOffice.WebApi.Data
   isExternal: true
+  href: SuperOffice.WebApi.Data.DashboardTileType.html
   name: DashboardTileType
   nameWithType: DashboardTileType
   fullName: SuperOffice.WebApi.Data.DashboardTileType

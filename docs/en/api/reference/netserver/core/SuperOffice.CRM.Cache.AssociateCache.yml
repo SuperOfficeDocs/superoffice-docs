@@ -32,6 +32,7 @@ items:
   - SuperOffice.CRM.Cache.AssociateCache.GetAssociateTitle(System.Int32)
   - SuperOffice.CRM.Cache.AssociateCache.GetAssociateType(System.Int32)
   - SuperOffice.CRM.Cache.AssociateCache.GetEjUserAssociateId(System.Int32)
+  - SuperOffice.CRM.Cache.AssociateCache.GetEncodedAssociateImageAsync(System.Int32,System.Int32,System.Int32)
   - SuperOffice.CRM.Cache.AssociateCache.GetPersonAssociateId(System.Int32)
   - SuperOffice.CRM.Cache.AssociateCache.GetPersonImageAsync(System.Int32)
   - SuperOffice.CRM.Cache.AssociateCache.IsAssociateRetired(System.Int32)
@@ -1239,22 +1240,64 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Cache
+  summary: Get and cache (if scaled) an associate image, in raw form
+  example: []
   syntax:
     content: public Task<Image> GetAssociateImageAsync(int associateId, int width = 0, int height = 0)
     parameters:
     - id: associateId
       type: System.Int32
+      description: ''
     - id: width
       type: System.Int32
+      description: ''
     - id: height
       type: System.Int32
+      description: ''
     return:
       type: System.Threading.Tasks.Task{System.Drawing.Image}
+      description: ''
     content.vb: Public Function GetAssociateImageAsync(associateId As Integer, width As Integer = 0, height As Integer = 0) As Task(Of Image)
   overload: SuperOffice.CRM.Cache.AssociateCache.GetAssociateImageAsync*
   nameWithType.vb: AssociateCache.GetAssociateImageAsync(Integer, Integer, Integer)
   fullName.vb: SuperOffice.CRM.Cache.AssociateCache.GetAssociateImageAsync(Integer, Integer, Integer)
   name.vb: GetAssociateImageAsync(Integer, Integer, Integer)
+- uid: SuperOffice.CRM.Cache.AssociateCache.GetEncodedAssociateImageAsync(System.Int32,System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Cache.AssociateCache.GetEncodedAssociateImageAsync(System.Int32,System.Int32,System.Int32)
+  id: GetEncodedAssociateImageAsync(System.Int32,System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Cache.AssociateCache
+  langs:
+  - csharp
+  - vb
+  name: GetEncodedAssociateImageAsync(int, int, int)
+  nameWithType: AssociateCache.GetEncodedAssociateImageAsync(int, int, int)
+  fullName: SuperOffice.CRM.Cache.AssociateCache.GetEncodedAssociateImageAsync(int, int, int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Cache
+  summary: Get and cache (if scaled) an associate image, in encoded form (PNG =&gt; CultureDataFormatter)
+  example: []
+  syntax:
+    content: public Task<string> GetEncodedAssociateImageAsync(int associateId, int width = 0, int height = 0)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: ''
+    - id: width
+      type: System.Int32
+      description: ''
+    - id: height
+      type: System.Int32
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task{System.String}
+      description: ''
+    content.vb: Public Function GetEncodedAssociateImageAsync(associateId As Integer, width As Integer = 0, height As Integer = 0) As Task(Of String)
+  overload: SuperOffice.CRM.Cache.AssociateCache.GetEncodedAssociateImageAsync*
+  nameWithType.vb: AssociateCache.GetEncodedAssociateImageAsync(Integer, Integer, Integer)
+  fullName.vb: SuperOffice.CRM.Cache.AssociateCache.GetEncodedAssociateImageAsync(Integer, Integer, Integer)
+  name.vb: GetEncodedAssociateImageAsync(Integer, Integer, Integer)
 - uid: SuperOffice.CRM.Cache.AssociateCache.GetPersonImageAsync(System.Int32)
   commentId: M:SuperOffice.CRM.Cache.AssociateCache.GetPersonImageAsync(System.Int32)
   id: GetPersonImageAsync(System.Int32)
@@ -3262,6 +3305,48 @@ references:
     name: Image
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.drawing.image
+  - name: )
+- uid: SuperOffice.CRM.Cache.AssociateCache.GetEncodedAssociateImageAsync*
+  commentId: Overload:SuperOffice.CRM.Cache.AssociateCache.GetEncodedAssociateImageAsync
+  isExternal: true
+  href: SuperOffice.CRM.Cache.AssociateCache.html#SuperOffice_CRM_Cache_AssociateCache_GetEncodedAssociateImageAsync_System_Int32_System_Int32_System_Int32_
+  name: GetEncodedAssociateImageAsync
+  nameWithType: AssociateCache.GetEncodedAssociateImageAsync
+  fullName: SuperOffice.CRM.Cache.AssociateCache.GetEncodedAssociateImageAsync
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
   - name: )
 - uid: SuperOffice.CRM.Cache.AssociateCache.GetPersonImageAsync*
   commentId: Overload:SuperOffice.CRM.Cache.AssociateCache.GetPersonImageAsync

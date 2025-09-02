@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.DocumentAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentPreviewImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISuggestedDocumentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITemplateVariablesParametersImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.DocumentAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentPreviewImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISuggestedDocumentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITemplateVariablesParametersImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.DocumentAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentPreviewImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISuggestedDocumentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITemplateVariablesParametersImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   - SuperOffice.CRM.Services.DocumentAgent.CheckinDocumentAsync(System.Int32,System.String[],System.String,System.String[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DocumentAgent.CheckoutDocumentAsync(System.Int32,System.String[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DocumentAgent.CopyDocumentToCsAttachmentAsync(System.Int32,System.Threading.CancellationToken)
@@ -162,22 +162,22 @@ items:
   nameWithType.vb: DocumentAgent.New(IDocumentImplementation, IDocumentEntityImplementation, IDocumentListImplementation, IDocumentPreviewImplementation, ISuggestedDocumentEntityImplementation, ITemplateVariablesParametersImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.DocumentAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentPreviewImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISuggestedDocumentEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITemplateVariablesParametersImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IDocumentImplementation, IDocumentEntityImplementation, IDocumentListImplementation, IDocumentPreviewImplementation, ISuggestedDocumentEntityImplementation, ITemplateVariablesParametersImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.DocumentAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentPreviewImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISuggestedDocumentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITemplateVariablesParametersImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  commentId: M:SuperOffice.CRM.Services.DocumentAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentPreviewImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISuggestedDocumentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITemplateVariablesParametersImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentPreviewImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISuggestedDocumentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITemplateVariablesParametersImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+- uid: SuperOffice.CRM.Services.DocumentAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentPreviewImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISuggestedDocumentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITemplateVariablesParametersImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  commentId: M:SuperOffice.CRM.Services.DocumentAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentPreviewImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISuggestedDocumentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITemplateVariablesParametersImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentPreviewImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ISuggestedDocumentEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITemplateVariablesParametersImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
   parent: SuperOffice.CRM.Services.DocumentAgent
   langs:
   - csharp
   - vb
-  name: DocumentAgent(IDocumentImplementation, IDocumentEntityImplementation, IDocumentListImplementation, IDocumentPreviewImplementation, ISuggestedDocumentEntityImplementation, ITemplateVariablesParametersImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  nameWithType: DocumentAgent.DocumentAgent(IDocumentImplementation, IDocumentEntityImplementation, IDocumentListImplementation, IDocumentPreviewImplementation, ISuggestedDocumentEntityImplementation, ITemplateVariablesParametersImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName: SuperOffice.CRM.Services.DocumentAgent.DocumentAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentPreviewImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISuggestedDocumentEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITemplateVariablesParametersImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name: DocumentAgent(IDocumentImplementation, IDocumentEntityImplementation, IDocumentListImplementation, IDocumentPreviewImplementation, ISuggestedDocumentEntityImplementation, ITemplateVariablesParametersImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType: DocumentAgent.DocumentAgent(IDocumentImplementation, IDocumentEntityImplementation, IDocumentListImplementation, IDocumentPreviewImplementation, ISuggestedDocumentEntityImplementation, ITemplateVariablesParametersImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName: SuperOffice.CRM.Services.DocumentAgent.DocumentAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentPreviewImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISuggestedDocumentEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITemplateVariablesParametersImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public DocumentAgent(IDocumentImplementation documentImplementation, IDocumentEntityImplementation documentEntityImplementation, IDocumentListImplementation documentListImplementation, IDocumentPreviewImplementation documentPreviewImplementation, ISuggestedDocumentEntityImplementation suggestedDocumentEntityImplementation, ITemplateVariablesParametersImplementation templateVariablesParametersImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    content: public DocumentAgent(IDocumentImplementation documentImplementation, IDocumentEntityImplementation documentEntityImplementation, IDocumentListImplementation documentListImplementation, IDocumentPreviewImplementation documentPreviewImplementation, ISuggestedDocumentEntityImplementation suggestedDocumentEntityImplementation, ITemplateVariablesParametersImplementation templateVariablesParametersImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
     parameters:
     - id: documentImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentImplementation
@@ -197,11 +197,50 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    content.vb: Public Sub New(documentImplementation As IDocumentImplementation, documentEntityImplementation As IDocumentEntityImplementation, documentListImplementation As IDocumentListImplementation, documentPreviewImplementation As IDocumentPreviewImplementation, suggestedDocumentEntityImplementation As ISuggestedDocumentEntityImplementation, templateVariablesParametersImplementation As ITemplateVariablesParametersImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+    - id: scriptingConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+    - id: onlineConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+    content.vb: Public Sub New(documentImplementation As IDocumentImplementation, documentEntityImplementation As IDocumentEntityImplementation, documentListImplementation As IDocumentListImplementation, documentPreviewImplementation As IDocumentPreviewImplementation, suggestedDocumentEntityImplementation As ISuggestedDocumentEntityImplementation, templateVariablesParametersImplementation As ITemplateVariablesParametersImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
   overload: SuperOffice.CRM.Services.DocumentAgent.#ctor*
-  nameWithType.vb: DocumentAgent.New(IDocumentImplementation, IDocumentEntityImplementation, IDocumentListImplementation, IDocumentPreviewImplementation, ISuggestedDocumentEntityImplementation, ITemplateVariablesParametersImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName.vb: SuperOffice.CRM.Services.DocumentAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentPreviewImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISuggestedDocumentEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITemplateVariablesParametersImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
-  name.vb: New(IDocumentImplementation, IDocumentEntityImplementation, IDocumentListImplementation, IDocumentPreviewImplementation, ISuggestedDocumentEntityImplementation, ITemplateVariablesParametersImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType.vb: DocumentAgent.New(IDocumentImplementation, IDocumentEntityImplementation, IDocumentListImplementation, IDocumentPreviewImplementation, ISuggestedDocumentEntityImplementation, ITemplateVariablesParametersImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName.vb: SuperOffice.CRM.Services.DocumentAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IDocumentPreviewImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ISuggestedDocumentEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITemplateVariablesParametersImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name.vb: New(IDocumentImplementation, IDocumentEntityImplementation, IDocumentListImplementation, IDocumentPreviewImplementation, ISuggestedDocumentEntityImplementation, ITemplateVariablesParametersImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+- uid: SuperOffice.CRM.Services.DocumentAgent.GetDocumentAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.DocumentAgent.GetDocumentAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetDocumentAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.DocumentAgent
+  langs:
+  - csharp
+  - vb
+  name: GetDocumentAsync(int, CancellationToken)
+  nameWithType: DocumentAgent.GetDocumentAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.DocumentAgent.GetDocumentAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Gets a Document object.
+  example: []
+  syntax:
+    content: public Task<Document> GetDocumentAsync(int documentId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: documentId
+      type: System.Int32
+      description: The identifier of the Document object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Document}
+      description: A single Document
+    content.vb: Public Function GetDocumentAsync(documentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Document)
+  overload: SuperOffice.CRM.Services.DocumentAgent.GetDocumentAsync*
+  implements:
+  - SuperOffice.CRM.Services.IDocumentAgent.GetDocumentAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: DocumentAgent.GetDocumentAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.DocumentAgent.GetDocumentAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetDocumentAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultDocumentEntityAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.DocumentAgent.CreateDefaultDocumentEntityAsync(System.Threading.CancellationToken)
   id: CreateDefaultDocumentEntityAsync(System.Threading.CancellationToken)
@@ -216,16 +255,14 @@ items:
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new DocumentEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  summary: Loading default values into a new DocumentEntity.
   example: []
   syntax:
     content: public Task<DocumentEntity> CreateDefaultDocumentEntityAsync(CancellationToken cancellationToken = default)
     parameters:
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DocumentEntity}
       description: New DocumentEntity with default values
@@ -247,16 +284,17 @@ items:
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing DocumentEntity or creates a new DocumentEntity if the id parameter is empty
+  summary: Updates the existing DocumentEntity or creates a new DocumentEntity if the id parameter is 0. Save the document entity. If the entity already exists and the file name of the incoming entity is different from the existing one, a corresponding renaming of the physical document will be attempted. This may cause an amended file name to be substituted into the document entity, since a document plugin may have aribitrary rules on file names and collisions. Clients should always inspect the return value from this call and not assume that what they sent for saving is the final truth.
   example: []
   syntax:
     content: public Task<DocumentEntity> SaveDocumentEntityAsync(DocumentEntity documentEntity, CancellationToken cancellationToken = default)
     parameters:
     - id: documentEntity
       type: SuperOffice.CRM.Services.DocumentEntity
-      description: The DocumentEntity that is saved.
+      description: The DocumentEntity that is saved
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DocumentEntity}
       description: New or updated DocumentEntity
@@ -288,8 +326,10 @@ items:
       description: The identity of the DocumentEntity
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task
+      description: This method has no return value
     content.vb: Public Function DeleteDocumentEntityAsync(documentEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.DocumentAgent.DeleteDocumentEntityAsync*
   implements:
@@ -297,164 +337,6 @@ items:
   nameWithType.vb: DocumentAgent.DeleteDocumentEntityAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.DocumentAgent.DeleteDocumentEntityAsync(Integer, System.Threading.CancellationToken)
   name.vb: DeleteDocumentEntityAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultDocumentPreviewAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.DocumentAgent.CreateDefaultDocumentPreviewAsync(System.Threading.CancellationToken)
-  id: CreateDefaultDocumentPreviewAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.DocumentAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultDocumentPreviewAsync(CancellationToken)
-  nameWithType: DocumentAgent.CreateDefaultDocumentPreviewAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultDocumentPreviewAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new DocumentPreview.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: public Task<DocumentPreview> CreateDefaultDocumentPreviewAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DocumentPreview}
-      description: New DocumentPreview with default values
-    content.vb: Public Function CreateDefaultDocumentPreviewAsync(cancellationToken As CancellationToken = Nothing) As Task(Of DocumentPreview)
-  overload: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultDocumentPreviewAsync*
-  implements:
-  - SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentPreviewAsync(System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultSuggestedDocumentEntityAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.DocumentAgent.CreateDefaultSuggestedDocumentEntityAsync(System.Threading.CancellationToken)
-  id: CreateDefaultSuggestedDocumentEntityAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.DocumentAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultSuggestedDocumentEntityAsync(CancellationToken)
-  nameWithType: DocumentAgent.CreateDefaultSuggestedDocumentEntityAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultSuggestedDocumentEntityAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new SuggestedDocumentEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: public Task<SuggestedDocumentEntity> CreateDefaultSuggestedDocumentEntityAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SuggestedDocumentEntity}
-      description: New SuggestedDocumentEntity with default values
-    content.vb: Public Function CreateDefaultSuggestedDocumentEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of SuggestedDocumentEntity)
-  overload: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultSuggestedDocumentEntityAsync*
-  implements:
-  - SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultSuggestedDocumentEntityAsync(System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.DocumentAgent.SaveSuggestedDocumentEntityAsync(SuperOffice.CRM.Services.SuggestedDocumentEntity,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.DocumentAgent.SaveSuggestedDocumentEntityAsync(SuperOffice.CRM.Services.SuggestedDocumentEntity,System.Threading.CancellationToken)
-  id: SaveSuggestedDocumentEntityAsync(SuperOffice.CRM.Services.SuggestedDocumentEntity,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.DocumentAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveSuggestedDocumentEntityAsync(SuggestedDocumentEntity, CancellationToken)
-  nameWithType: DocumentAgent.SaveSuggestedDocumentEntityAsync(SuggestedDocumentEntity, CancellationToken)
-  fullName: SuperOffice.CRM.Services.DocumentAgent.SaveSuggestedDocumentEntityAsync(SuperOffice.CRM.Services.SuggestedDocumentEntity, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing SuggestedDocumentEntity or creates a new SuggestedDocumentEntity if the id parameter is empty
-  example: []
-  syntax:
-    content: public Task<SuggestedDocumentEntity> SaveSuggestedDocumentEntityAsync(SuggestedDocumentEntity suggestedDocumentEntity, CancellationToken cancellationToken = default)
-    parameters:
-    - id: suggestedDocumentEntity
-      type: SuperOffice.CRM.Services.SuggestedDocumentEntity
-      description: The SuggestedDocumentEntity that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SuggestedDocumentEntity}
-      description: New or updated SuggestedDocumentEntity
-    content.vb: Public Function SaveSuggestedDocumentEntityAsync(suggestedDocumentEntity As SuggestedDocumentEntity, cancellationToken As CancellationToken = Nothing) As Task(Of SuggestedDocumentEntity)
-  overload: SuperOffice.CRM.Services.DocumentAgent.SaveSuggestedDocumentEntityAsync*
-  implements:
-  - SuperOffice.CRM.Services.IDocumentAgent.SaveSuggestedDocumentEntityAsync(SuperOffice.CRM.Services.SuggestedDocumentEntity,System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultTemplateVariablesParametersAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.DocumentAgent.CreateDefaultTemplateVariablesParametersAsync(System.Threading.CancellationToken)
-  id: CreateDefaultTemplateVariablesParametersAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.DocumentAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultTemplateVariablesParametersAsync(CancellationToken)
-  nameWithType: DocumentAgent.CreateDefaultTemplateVariablesParametersAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultTemplateVariablesParametersAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new TemplateVariablesParameters.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: public Task<TemplateVariablesParameters> CreateDefaultTemplateVariablesParametersAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TemplateVariablesParameters}
-      description: New TemplateVariablesParameters with default values
-    content.vb: Public Function CreateDefaultTemplateVariablesParametersAsync(cancellationToken As CancellationToken = Nothing) As Task(Of TemplateVariablesParameters)
-  overload: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultTemplateVariablesParametersAsync*
-  implements:
-  - SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultTemplateVariablesParametersAsync(System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.DocumentAgent.GetDocumentAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.DocumentAgent.GetDocumentAsync(System.Int32,System.Threading.CancellationToken)
-  id: GetDocumentAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.DocumentAgent
-  langs:
-  - csharp
-  - vb
-  name: GetDocumentAsync(int, CancellationToken)
-  nameWithType: DocumentAgent.GetDocumentAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.DocumentAgent.GetDocumentAsync(int, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: Gets a Document object.
-  example: []
-  syntax:
-    content: public Task<Document> GetDocumentAsync(int documentId, CancellationToken cancellationToken = default)
-    parameters:
-    - id: documentId
-      type: System.Int32
-      description: The identifier of the Document object
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Document}
-      description: Document
-    content.vb: Public Function GetDocumentAsync(documentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Document)
-  overload: SuperOffice.CRM.Services.DocumentAgent.GetDocumentAsync*
-  implements:
-  - SuperOffice.CRM.Services.IDocumentAgent.GetDocumentAsync(System.Int32,System.Threading.CancellationToken)
-  nameWithType.vb: DocumentAgent.GetDocumentAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.DocumentAgent.GetDocumentAsync(Integer, System.Threading.CancellationToken)
-  name.vb: GetDocumentAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.DocumentAgent.GetDocumentEntityAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.DocumentAgent.GetDocumentEntityAsync(System.Int32,System.Threading.CancellationToken)
   id: GetDocumentEntityAsync(System.Int32,System.Threading.CancellationToken)
@@ -479,9 +361,10 @@ items:
       description: The identifier of the DocumentEntity object
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DocumentEntity}
-      description: DocumentEntity
+      description: A single DocumentEntity
     content.vb: Public Function GetDocumentEntityAsync(documentEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of DocumentEntity)
   overload: SuperOffice.CRM.Services.DocumentAgent.GetDocumentEntityAsync*
   implements:
@@ -2552,9 +2435,10 @@ items:
       description: The identifiers of the Document object
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Document[]}
-      description: Array of Document objects
+      description: Array of Document
     content.vb: Public Function GetDocumentListAsync(documentIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of Document())
   overload: SuperOffice.CRM.Services.DocumentAgent.GetDocumentListAsync*
   implements:
@@ -3682,6 +3566,96 @@ items:
   nameWithType.vb: DocumentAgent.GetDocumentsByTemplateHeadingAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.DocumentAgent.GetDocumentsByTemplateHeadingAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetDocumentsByTemplateHeadingAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultDocumentPreviewAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.DocumentAgent.CreateDefaultDocumentPreviewAsync(System.Threading.CancellationToken)
+  id: CreateDefaultDocumentPreviewAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.DocumentAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultDocumentPreviewAsync(CancellationToken)
+  nameWithType: DocumentAgent.CreateDefaultDocumentPreviewAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultDocumentPreviewAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new DocumentPreview.
+  example: []
+  syntax:
+    content: public Task<DocumentPreview> CreateDefaultDocumentPreviewAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DocumentPreview}
+      description: New DocumentPreview with default values
+    content.vb: Public Function CreateDefaultDocumentPreviewAsync(cancellationToken As CancellationToken = Nothing) As Task(Of DocumentPreview)
+  overload: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultDocumentPreviewAsync*
+  implements:
+  - SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentPreviewAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultSuggestedDocumentEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.DocumentAgent.CreateDefaultSuggestedDocumentEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultSuggestedDocumentEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.DocumentAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultSuggestedDocumentEntityAsync(CancellationToken)
+  nameWithType: DocumentAgent.CreateDefaultSuggestedDocumentEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultSuggestedDocumentEntityAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new SuggestedDocumentEntity.
+  example: []
+  syntax:
+    content: public Task<SuggestedDocumentEntity> CreateDefaultSuggestedDocumentEntityAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SuggestedDocumentEntity}
+      description: New SuggestedDocumentEntity with default values
+    content.vb: Public Function CreateDefaultSuggestedDocumentEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of SuggestedDocumentEntity)
+  overload: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultSuggestedDocumentEntityAsync*
+  implements:
+  - SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultSuggestedDocumentEntityAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.DocumentAgent.SaveSuggestedDocumentEntityAsync(SuperOffice.CRM.Services.SuggestedDocumentEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.DocumentAgent.SaveSuggestedDocumentEntityAsync(SuperOffice.CRM.Services.SuggestedDocumentEntity,System.Threading.CancellationToken)
+  id: SaveSuggestedDocumentEntityAsync(SuperOffice.CRM.Services.SuggestedDocumentEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.DocumentAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveSuggestedDocumentEntityAsync(SuggestedDocumentEntity, CancellationToken)
+  nameWithType: DocumentAgent.SaveSuggestedDocumentEntityAsync(SuggestedDocumentEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.DocumentAgent.SaveSuggestedDocumentEntityAsync(SuperOffice.CRM.Services.SuggestedDocumentEntity, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing SuggestedDocumentEntity or creates a new SuggestedDocumentEntity if the id parameter is 0.
+  example: []
+  syntax:
+    content: public Task<SuggestedDocumentEntity> SaveSuggestedDocumentEntityAsync(SuggestedDocumentEntity suggestedDocumentEntity, CancellationToken cancellationToken = default)
+    parameters:
+    - id: suggestedDocumentEntity
+      type: SuperOffice.CRM.Services.SuggestedDocumentEntity
+      description: The SuggestedDocumentEntity that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SuggestedDocumentEntity}
+      description: New or updated SuggestedDocumentEntity
+    content.vb: Public Function SaveSuggestedDocumentEntityAsync(suggestedDocumentEntity As SuggestedDocumentEntity, cancellationToken As CancellationToken = Nothing) As Task(Of SuggestedDocumentEntity)
+  overload: SuperOffice.CRM.Services.DocumentAgent.SaveSuggestedDocumentEntityAsync*
+  implements:
+  - SuperOffice.CRM.Services.IDocumentAgent.SaveSuggestedDocumentEntityAsync(SuperOffice.CRM.Services.SuggestedDocumentEntity,System.Threading.CancellationToken)
 - uid: SuperOffice.CRM.Services.DocumentAgent.GetSuggestedDocumentEntityAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.DocumentAgent.GetSuggestedDocumentEntityAsync(System.Int32,System.Threading.CancellationToken)
   id: GetSuggestedDocumentEntityAsync(System.Int32,System.Threading.CancellationToken)
@@ -3706,9 +3680,10 @@ items:
       description: The identifier of the SuggestedDocumentEntity object
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SuggestedDocumentEntity}
-      description: SuggestedDocumentEntity
+      description: A single SuggestedDocumentEntity
     content.vb: Public Function GetSuggestedDocumentEntityAsync(suggestedDocumentEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of SuggestedDocumentEntity)
   overload: SuperOffice.CRM.Services.DocumentAgent.GetSuggestedDocumentEntityAsync*
   implements:
@@ -3716,6 +3691,35 @@ items:
   nameWithType.vb: DocumentAgent.GetSuggestedDocumentEntityAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.DocumentAgent.GetSuggestedDocumentEntityAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetSuggestedDocumentEntityAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultTemplateVariablesParametersAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.DocumentAgent.CreateDefaultTemplateVariablesParametersAsync(System.Threading.CancellationToken)
+  id: CreateDefaultTemplateVariablesParametersAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.DocumentAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTemplateVariablesParametersAsync(CancellationToken)
+  nameWithType: DocumentAgent.CreateDefaultTemplateVariablesParametersAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultTemplateVariablesParametersAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new TemplateVariablesParameters.
+  example: []
+  syntax:
+    content: public Task<TemplateVariablesParameters> CreateDefaultTemplateVariablesParametersAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TemplateVariablesParameters}
+      description: New TemplateVariablesParameters with default values
+    content.vb: Public Function CreateDefaultTemplateVariablesParametersAsync(cancellationToken As CancellationToken = Nothing) As Task(Of TemplateVariablesParameters)
+  overload: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultTemplateVariablesParametersAsync*
+  implements:
+  - SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultTemplateVariablesParametersAsync(System.Threading.CancellationToken)
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -4147,41 +4151,77 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
-- uid: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultDocumentEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.DocumentAgent.CreateDefaultDocumentEntityAsync
+- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
   isExternal: true
-  href: SuperOffice.CRM.Services.DocumentAgent.html#SuperOffice_CRM_Services_DocumentAgent_CreateDefaultDocumentEntityAsync_System_Threading_CancellationToken_
-  name: CreateDefaultDocumentEntityAsync
-  nameWithType: DocumentAgent.CreateDefaultDocumentEntityAsync
-  fullName: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultDocumentEntityAsync
-- uid: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentEntityAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentEntityAsync(System.Threading.CancellationToken)
+  name: IScriptingConfiguration
+  nameWithType: ConfigFile.IScriptingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  isExternal: true
+  name: IOnlineConfiguration
+  nameWithType: ConfigFile.IOnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+- uid: SuperOffice.CRM.Services.DocumentAgent.GetDocumentAsync*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentAgent.GetDocumentAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.DocumentAgent.html#SuperOffice_CRM_Services_DocumentAgent_GetDocumentAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetDocumentAsync
+  nameWithType: DocumentAgent.GetDocumentAsync
+  fullName: SuperOffice.CRM.Services.DocumentAgent.GetDocumentAsync
+- uid: SuperOffice.CRM.Services.IDocumentAgent.GetDocumentAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDocumentAgent.GetDocumentAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IDocumentAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: CreateDefaultDocumentEntityAsync(CancellationToken)
-  nameWithType: IDocumentAgent.CreateDefaultDocumentEntityAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentEntityAsync(System.Threading.CancellationToken)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetDocumentAsync(int, CancellationToken)
+  nameWithType: IDocumentAgent.GetDocumentAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDocumentAgent.GetDocumentAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IDocumentAgent.GetDocumentAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IDocumentAgent.GetDocumentAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetDocumentAsync(Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentEntityAsync(System.Threading.CancellationToken)
-    name: CreateDefaultDocumentEntityAsync
+  - uid: SuperOffice.CRM.Services.IDocumentAgent.GetDocumentAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetDocumentAsync
     isExternal: true
   - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentEntityAsync(System.Threading.CancellationToken)
-    name: CreateDefaultDocumentEntityAsync
+  - uid: SuperOffice.CRM.Services.IDocumentAgent.GetDocumentAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetDocumentAsync
     isExternal: true
   - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.Threading.CancellationToken
   commentId: T:System.Threading.CancellationToken
   parent: System.Threading
@@ -4190,27 +4230,27 @@ references:
   name: CancellationToken
   nameWithType: CancellationToken
   fullName: System.Threading.CancellationToken
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DocumentEntity}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.DocumentEntity}
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Document}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Document}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
   href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<DocumentEntity>
-  nameWithType: Task<DocumentEntity>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.DocumentEntity>
-  nameWithType.vb: Task(Of DocumentEntity)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.DocumentEntity)
-  name.vb: Task(Of DocumentEntity)
+  name: Task<Document>
+  nameWithType: Task<Document>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Document>
+  nameWithType.vb: Task(Of Document)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Document)
+  name.vb: Task(Of Document)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - uid: SuperOffice.CRM.Services.DocumentEntity
-    name: DocumentEntity
+  - uid: SuperOffice.CRM.Services.Document
+    name: Document
     isExternal: true
-    href: SuperOffice.CRM.Services.DocumentEntity.html
+    href: SuperOffice.CRM.Services.Document.html
   - name: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
@@ -4220,10 +4260,10 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: SuperOffice.CRM.Services.DocumentEntity
-    name: DocumentEntity
+  - uid: SuperOffice.CRM.Services.Document
+    name: Document
     isExternal: true
-    href: SuperOffice.CRM.Services.DocumentEntity.html
+    href: SuperOffice.CRM.Services.Document.html
   - name: )
 - uid: System.Threading
   commentId: N:System.Threading
@@ -4317,6 +4357,76 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultDocumentEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentAgent.CreateDefaultDocumentEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.DocumentAgent.html#SuperOffice_CRM_Services_DocumentAgent_CreateDefaultDocumentEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultDocumentEntityAsync
+  nameWithType: DocumentAgent.CreateDefaultDocumentEntityAsync
+  fullName: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultDocumentEntityAsync
+- uid: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IDocumentAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultDocumentEntityAsync(CancellationToken)
+  nameWithType: IDocumentAgent.CreateDefaultDocumentEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentEntityAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentEntityAsync(System.Threading.CancellationToken)
+    name: CreateDefaultDocumentEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentEntityAsync(System.Threading.CancellationToken)
+    name: CreateDefaultDocumentEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DocumentEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.DocumentEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DocumentEntity>
+  nameWithType: Task<DocumentEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.DocumentEntity>
+  nameWithType.vb: Task(Of DocumentEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.DocumentEntity)
+  name.vb: Task(Of DocumentEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.DocumentEntity
+    name: DocumentEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.DocumentEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.DocumentEntity
+    name: DocumentEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.DocumentEntity.html
+  - name: )
 - uid: SuperOffice.CRM.Services.DocumentAgent.SaveDocumentEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.DocumentAgent.SaveDocumentEntityAsync
   isExternal: true
@@ -4420,17 +4530,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
 - uid: System.Threading.Tasks.Task
   commentId: T:System.Threading.Tasks.Task
   parent: System.Threading.Tasks
@@ -4439,354 +4538,6 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
-- uid: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultDocumentPreviewAsync*
-  commentId: Overload:SuperOffice.CRM.Services.DocumentAgent.CreateDefaultDocumentPreviewAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.DocumentAgent.html#SuperOffice_CRM_Services_DocumentAgent_CreateDefaultDocumentPreviewAsync_System_Threading_CancellationToken_
-  name: CreateDefaultDocumentPreviewAsync
-  nameWithType: DocumentAgent.CreateDefaultDocumentPreviewAsync
-  fullName: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultDocumentPreviewAsync
-- uid: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentPreviewAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentPreviewAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IDocumentAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: CreateDefaultDocumentPreviewAsync(CancellationToken)
-  nameWithType: IDocumentAgent.CreateDefaultDocumentPreviewAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentPreviewAsync(System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentPreviewAsync(System.Threading.CancellationToken)
-    name: CreateDefaultDocumentPreviewAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentPreviewAsync(System.Threading.CancellationToken)
-    name: CreateDefaultDocumentPreviewAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DocumentPreview}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.DocumentPreview}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<DocumentPreview>
-  nameWithType: Task<DocumentPreview>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.DocumentPreview>
-  nameWithType.vb: Task(Of DocumentPreview)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.DocumentPreview)
-  name.vb: Task(Of DocumentPreview)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.DocumentPreview
-    name: DocumentPreview
-    isExternal: true
-    href: SuperOffice.CRM.Services.DocumentPreview.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.DocumentPreview
-    name: DocumentPreview
-    isExternal: true
-    href: SuperOffice.CRM.Services.DocumentPreview.html
-  - name: )
-- uid: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultSuggestedDocumentEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.DocumentAgent.CreateDefaultSuggestedDocumentEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.DocumentAgent.html#SuperOffice_CRM_Services_DocumentAgent_CreateDefaultSuggestedDocumentEntityAsync_System_Threading_CancellationToken_
-  name: CreateDefaultSuggestedDocumentEntityAsync
-  nameWithType: DocumentAgent.CreateDefaultSuggestedDocumentEntityAsync
-  fullName: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultSuggestedDocumentEntityAsync
-- uid: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultSuggestedDocumentEntityAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultSuggestedDocumentEntityAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IDocumentAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: CreateDefaultSuggestedDocumentEntityAsync(CancellationToken)
-  nameWithType: IDocumentAgent.CreateDefaultSuggestedDocumentEntityAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultSuggestedDocumentEntityAsync(System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultSuggestedDocumentEntityAsync(System.Threading.CancellationToken)
-    name: CreateDefaultSuggestedDocumentEntityAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultSuggestedDocumentEntityAsync(System.Threading.CancellationToken)
-    name: CreateDefaultSuggestedDocumentEntityAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SuggestedDocumentEntity}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.SuggestedDocumentEntity}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<SuggestedDocumentEntity>
-  nameWithType: Task<SuggestedDocumentEntity>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.SuggestedDocumentEntity>
-  nameWithType.vb: Task(Of SuggestedDocumentEntity)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.SuggestedDocumentEntity)
-  name.vb: Task(Of SuggestedDocumentEntity)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity
-    name: SuggestedDocumentEntity
-    isExternal: true
-    href: SuperOffice.CRM.Services.SuggestedDocumentEntity.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity
-    name: SuggestedDocumentEntity
-    isExternal: true
-    href: SuperOffice.CRM.Services.SuggestedDocumentEntity.html
-  - name: )
-- uid: SuperOffice.CRM.Services.DocumentAgent.SaveSuggestedDocumentEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.DocumentAgent.SaveSuggestedDocumentEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.DocumentAgent.html#SuperOffice_CRM_Services_DocumentAgent_SaveSuggestedDocumentEntityAsync_SuperOffice_CRM_Services_SuggestedDocumentEntity_System_Threading_CancellationToken_
-  name: SaveSuggestedDocumentEntityAsync
-  nameWithType: DocumentAgent.SaveSuggestedDocumentEntityAsync
-  fullName: SuperOffice.CRM.Services.DocumentAgent.SaveSuggestedDocumentEntityAsync
-- uid: SuperOffice.CRM.Services.IDocumentAgent.SaveSuggestedDocumentEntityAsync(SuperOffice.CRM.Services.SuggestedDocumentEntity,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IDocumentAgent.SaveSuggestedDocumentEntityAsync(SuperOffice.CRM.Services.SuggestedDocumentEntity,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IDocumentAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: SaveSuggestedDocumentEntityAsync(SuggestedDocumentEntity, CancellationToken)
-  nameWithType: IDocumentAgent.SaveSuggestedDocumentEntityAsync(SuggestedDocumentEntity, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IDocumentAgent.SaveSuggestedDocumentEntityAsync(SuperOffice.CRM.Services.SuggestedDocumentEntity, System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IDocumentAgent.SaveSuggestedDocumentEntityAsync(SuperOffice.CRM.Services.SuggestedDocumentEntity,System.Threading.CancellationToken)
-    name: SaveSuggestedDocumentEntityAsync
-    isExternal: true
-  - name: (
-  - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity
-    name: SuggestedDocumentEntity
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IDocumentAgent.SaveSuggestedDocumentEntityAsync(SuperOffice.CRM.Services.SuggestedDocumentEntity,System.Threading.CancellationToken)
-    name: SaveSuggestedDocumentEntityAsync
-    isExternal: true
-  - name: (
-  - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity
-    name: SuggestedDocumentEntity
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: SuperOffice.CRM.Services.SuggestedDocumentEntity
-  commentId: T:SuperOffice.CRM.Services.SuggestedDocumentEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.SuggestedDocumentEntity.html
-  name: SuggestedDocumentEntity
-  nameWithType: SuggestedDocumentEntity
-  fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity
-- uid: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultTemplateVariablesParametersAsync*
-  commentId: Overload:SuperOffice.CRM.Services.DocumentAgent.CreateDefaultTemplateVariablesParametersAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.DocumentAgent.html#SuperOffice_CRM_Services_DocumentAgent_CreateDefaultTemplateVariablesParametersAsync_System_Threading_CancellationToken_
-  name: CreateDefaultTemplateVariablesParametersAsync
-  nameWithType: DocumentAgent.CreateDefaultTemplateVariablesParametersAsync
-  fullName: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultTemplateVariablesParametersAsync
-- uid: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultTemplateVariablesParametersAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultTemplateVariablesParametersAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IDocumentAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: CreateDefaultTemplateVariablesParametersAsync(CancellationToken)
-  nameWithType: IDocumentAgent.CreateDefaultTemplateVariablesParametersAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultTemplateVariablesParametersAsync(System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultTemplateVariablesParametersAsync(System.Threading.CancellationToken)
-    name: CreateDefaultTemplateVariablesParametersAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultTemplateVariablesParametersAsync(System.Threading.CancellationToken)
-    name: CreateDefaultTemplateVariablesParametersAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TemplateVariablesParameters}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TemplateVariablesParameters}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<TemplateVariablesParameters>
-  nameWithType: Task<TemplateVariablesParameters>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TemplateVariablesParameters>
-  nameWithType.vb: Task(Of TemplateVariablesParameters)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TemplateVariablesParameters)
-  name.vb: Task(Of TemplateVariablesParameters)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.TemplateVariablesParameters
-    name: TemplateVariablesParameters
-    isExternal: true
-    href: SuperOffice.CRM.Services.TemplateVariablesParameters.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.TemplateVariablesParameters
-    name: TemplateVariablesParameters
-    isExternal: true
-    href: SuperOffice.CRM.Services.TemplateVariablesParameters.html
-  - name: )
-- uid: SuperOffice.CRM.Services.DocumentAgent.GetDocumentAsync*
-  commentId: Overload:SuperOffice.CRM.Services.DocumentAgent.GetDocumentAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.DocumentAgent.html#SuperOffice_CRM_Services_DocumentAgent_GetDocumentAsync_System_Int32_System_Threading_CancellationToken_
-  name: GetDocumentAsync
-  nameWithType: DocumentAgent.GetDocumentAsync
-  fullName: SuperOffice.CRM.Services.DocumentAgent.GetDocumentAsync
-- uid: SuperOffice.CRM.Services.IDocumentAgent.GetDocumentAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IDocumentAgent.GetDocumentAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IDocumentAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: GetDocumentAsync(int, CancellationToken)
-  nameWithType: IDocumentAgent.GetDocumentAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IDocumentAgent.GetDocumentAsync(int, System.Threading.CancellationToken)
-  nameWithType.vb: IDocumentAgent.GetDocumentAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IDocumentAgent.GetDocumentAsync(Integer, System.Threading.CancellationToken)
-  name.vb: GetDocumentAsync(Integer, CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IDocumentAgent.GetDocumentAsync(System.Int32,System.Threading.CancellationToken)
-    name: GetDocumentAsync
-    isExternal: true
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IDocumentAgent.GetDocumentAsync(System.Int32,System.Threading.CancellationToken)
-    name: GetDocumentAsync
-    isExternal: true
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Document}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Document}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<Document>
-  nameWithType: Task<Document>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Document>
-  nameWithType.vb: Task(Of Document)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Document)
-  name.vb: Task(Of Document)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.Document
-    name: Document
-    isExternal: true
-    href: SuperOffice.CRM.Services.Document.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.Document
-    name: Document
-    isExternal: true
-    href: SuperOffice.CRM.Services.Document.html
-  - name: )
 - uid: SuperOffice.CRM.Services.DocumentAgent.GetDocumentEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.DocumentAgent.GetDocumentEntityAsync
   isExternal: true
@@ -5527,6 +5278,41 @@ references:
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DocumentPreview}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.DocumentPreview}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DocumentPreview>
+  nameWithType: Task<DocumentPreview>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.DocumentPreview>
+  nameWithType.vb: Task(Of DocumentPreview)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.DocumentPreview)
+  name.vb: Task(Of DocumentPreview)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.DocumentPreview
+    name: DocumentPreview
+    isExternal: true
+    href: SuperOffice.CRM.Services.DocumentPreview.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.DocumentPreview
+    name: DocumentPreview
+    isExternal: true
+    href: SuperOffice.CRM.Services.DocumentPreview.html
   - name: )
 - uid: SuperOffice.CRM.Services.DocumentAgent.GetUnsanitizedPreviewDocumentStreamAsync*
   commentId: Overload:SuperOffice.CRM.Services.DocumentAgent.GetUnsanitizedPreviewDocumentStreamAsync
@@ -11403,6 +11189,164 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
+- uid: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultDocumentPreviewAsync*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentAgent.CreateDefaultDocumentPreviewAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.DocumentAgent.html#SuperOffice_CRM_Services_DocumentAgent_CreateDefaultDocumentPreviewAsync_System_Threading_CancellationToken_
+  name: CreateDefaultDocumentPreviewAsync
+  nameWithType: DocumentAgent.CreateDefaultDocumentPreviewAsync
+  fullName: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultDocumentPreviewAsync
+- uid: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentPreviewAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentPreviewAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IDocumentAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultDocumentPreviewAsync(CancellationToken)
+  nameWithType: IDocumentAgent.CreateDefaultDocumentPreviewAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentPreviewAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentPreviewAsync(System.Threading.CancellationToken)
+    name: CreateDefaultDocumentPreviewAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultDocumentPreviewAsync(System.Threading.CancellationToken)
+    name: CreateDefaultDocumentPreviewAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultSuggestedDocumentEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentAgent.CreateDefaultSuggestedDocumentEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.DocumentAgent.html#SuperOffice_CRM_Services_DocumentAgent_CreateDefaultSuggestedDocumentEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultSuggestedDocumentEntityAsync
+  nameWithType: DocumentAgent.CreateDefaultSuggestedDocumentEntityAsync
+  fullName: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultSuggestedDocumentEntityAsync
+- uid: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultSuggestedDocumentEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultSuggestedDocumentEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IDocumentAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultSuggestedDocumentEntityAsync(CancellationToken)
+  nameWithType: IDocumentAgent.CreateDefaultSuggestedDocumentEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultSuggestedDocumentEntityAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultSuggestedDocumentEntityAsync(System.Threading.CancellationToken)
+    name: CreateDefaultSuggestedDocumentEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultSuggestedDocumentEntityAsync(System.Threading.CancellationToken)
+    name: CreateDefaultSuggestedDocumentEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SuggestedDocumentEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.SuggestedDocumentEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<SuggestedDocumentEntity>
+  nameWithType: Task<SuggestedDocumentEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.SuggestedDocumentEntity>
+  nameWithType.vb: Task(Of SuggestedDocumentEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.SuggestedDocumentEntity)
+  name.vb: Task(Of SuggestedDocumentEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity
+    name: SuggestedDocumentEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.SuggestedDocumentEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity
+    name: SuggestedDocumentEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.SuggestedDocumentEntity.html
+  - name: )
+- uid: SuperOffice.CRM.Services.DocumentAgent.SaveSuggestedDocumentEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentAgent.SaveSuggestedDocumentEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.DocumentAgent.html#SuperOffice_CRM_Services_DocumentAgent_SaveSuggestedDocumentEntityAsync_SuperOffice_CRM_Services_SuggestedDocumentEntity_System_Threading_CancellationToken_
+  name: SaveSuggestedDocumentEntityAsync
+  nameWithType: DocumentAgent.SaveSuggestedDocumentEntityAsync
+  fullName: SuperOffice.CRM.Services.DocumentAgent.SaveSuggestedDocumentEntityAsync
+- uid: SuperOffice.CRM.Services.IDocumentAgent.SaveSuggestedDocumentEntityAsync(SuperOffice.CRM.Services.SuggestedDocumentEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDocumentAgent.SaveSuggestedDocumentEntityAsync(SuperOffice.CRM.Services.SuggestedDocumentEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IDocumentAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: SaveSuggestedDocumentEntityAsync(SuggestedDocumentEntity, CancellationToken)
+  nameWithType: IDocumentAgent.SaveSuggestedDocumentEntityAsync(SuggestedDocumentEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDocumentAgent.SaveSuggestedDocumentEntityAsync(SuperOffice.CRM.Services.SuggestedDocumentEntity, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IDocumentAgent.SaveSuggestedDocumentEntityAsync(SuperOffice.CRM.Services.SuggestedDocumentEntity,System.Threading.CancellationToken)
+    name: SaveSuggestedDocumentEntityAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity
+    name: SuggestedDocumentEntity
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IDocumentAgent.SaveSuggestedDocumentEntityAsync(SuperOffice.CRM.Services.SuggestedDocumentEntity,System.Threading.CancellationToken)
+    name: SaveSuggestedDocumentEntityAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.SuggestedDocumentEntity
+    name: SuggestedDocumentEntity
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.SuggestedDocumentEntity
+  commentId: T:SuperOffice.CRM.Services.SuggestedDocumentEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.SuggestedDocumentEntity.html
+  name: SuggestedDocumentEntity
+  nameWithType: SuggestedDocumentEntity
+  fullName: SuperOffice.CRM.Services.SuggestedDocumentEntity
 - uid: SuperOffice.CRM.Services.DocumentAgent.GetSuggestedDocumentEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.DocumentAgent.GetSuggestedDocumentEntityAsync
   isExternal: true
@@ -11452,4 +11396,74 @@ references:
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultTemplateVariablesParametersAsync*
+  commentId: Overload:SuperOffice.CRM.Services.DocumentAgent.CreateDefaultTemplateVariablesParametersAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.DocumentAgent.html#SuperOffice_CRM_Services_DocumentAgent_CreateDefaultTemplateVariablesParametersAsync_System_Threading_CancellationToken_
+  name: CreateDefaultTemplateVariablesParametersAsync
+  nameWithType: DocumentAgent.CreateDefaultTemplateVariablesParametersAsync
+  fullName: SuperOffice.CRM.Services.DocumentAgent.CreateDefaultTemplateVariablesParametersAsync
+- uid: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultTemplateVariablesParametersAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultTemplateVariablesParametersAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IDocumentAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultTemplateVariablesParametersAsync(CancellationToken)
+  nameWithType: IDocumentAgent.CreateDefaultTemplateVariablesParametersAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultTemplateVariablesParametersAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultTemplateVariablesParametersAsync(System.Threading.CancellationToken)
+    name: CreateDefaultTemplateVariablesParametersAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IDocumentAgent.CreateDefaultTemplateVariablesParametersAsync(System.Threading.CancellationToken)
+    name: CreateDefaultTemplateVariablesParametersAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TemplateVariablesParameters}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TemplateVariablesParameters}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TemplateVariablesParameters>
+  nameWithType: Task<TemplateVariablesParameters>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TemplateVariablesParameters>
+  nameWithType.vb: Task(Of TemplateVariablesParameters)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TemplateVariablesParameters)
+  name.vb: Task(Of TemplateVariablesParameters)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.TemplateVariablesParameters
+    name: TemplateVariablesParameters
+    isExternal: true
+    href: SuperOffice.CRM.Services.TemplateVariablesParameters.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.TemplateVariablesParameters
+    name: TemplateVariablesParameters
+    isExternal: true
+    href: SuperOffice.CRM.Services.TemplateVariablesParameters.html
   - name: )

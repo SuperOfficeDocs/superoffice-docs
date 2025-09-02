@@ -14,6 +14,7 @@ items:
   - SuperOffice.Diagnostics.ServiceCall.Method
   - SuperOffice.Diagnostics.ServiceCall.Parameters
   - SuperOffice.Diagnostics.ServiceCall.Started
+  - SuperOffice.Diagnostics.ServiceCall.ToString
   - SuperOffice.Diagnostics.ServiceCall.User
   langs:
   - csharp
@@ -25,13 +26,19 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
+  summary: >-
+    Information about a running service call. This class needs to
+
+    be kept as small as possible, and with as few references to external
+
+    objects as possible. It's created and abandoned for each API request.
+  example: []
   syntax:
     content: public class ServiceCall
     content.vb: Public Class ServiceCall
   inheritance:
   - System.Object
   inheritedMembers:
-  - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
   - System.Object.ReferenceEquals(System.Object,System.Object)
@@ -75,6 +82,28 @@ items:
   nameWithType.vb: ServiceCall.New(String, String, String, String, DateTimeOffset, ParamArray (parameter As String, argument As Object)())
   fullName.vb: SuperOffice.Diagnostics.ServiceCall.New(String, String, String, String, System.DateTimeOffset, ParamArray (parameter As String, argument As Object)())
   name.vb: New(String, String, String, String, DateTimeOffset, ParamArray (parameter As String, argument As Object)())
+- uid: SuperOffice.Diagnostics.ServiceCall.ToString
+  commentId: M:SuperOffice.Diagnostics.ServiceCall.ToString
+  id: ToString
+  parent: SuperOffice.Diagnostics.ServiceCall
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ServiceCall.ToString()
+  fullName: SuperOffice.Diagnostics.ServiceCall.ToString()
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.Diagnostics.ServiceCall.ToString*
 - uid: SuperOffice.Diagnostics.ServiceCall.ContextIdentifier
   commentId: P:SuperOffice.Diagnostics.ServiceCall.ContextIdentifier
   id: ContextIdentifier
@@ -303,30 +332,6 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
-- uid: System.Object.ToString
-  commentId: M:System.Object.ToString
-  parent: System.Object
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  name: ToString()
-  nameWithType: object.ToString()
-  fullName: object.ToString()
-  nameWithType.vb: Object.ToString()
-  fullName.vb: Object.ToString()
-  spec.csharp:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
-  spec.vb:
-  - uid: System.Object.ToString
-    name: ToString
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
-  - name: (
-  - name: )
 - uid: System.Object.Equals(System.Object)
   commentId: M:System.Object.Equals(System.Object)
   parent: System.Object
@@ -859,6 +864,37 @@ references:
   - name: )
   - name: (
   - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: SuperOffice.Diagnostics.ServiceCall.ToString*
+  commentId: Overload:SuperOffice.Diagnostics.ServiceCall.ToString
+  isExternal: true
+  href: SuperOffice.Diagnostics.ServiceCall.html#SuperOffice_Diagnostics_ServiceCall_ToString
+  name: ToString
+  nameWithType: ServiceCall.ToString
+  fullName: SuperOffice.Diagnostics.ServiceCall.ToString
 - uid: SuperOffice.Diagnostics.ServiceCall.ContextIdentifier*
   commentId: Overload:SuperOffice.Diagnostics.ServiceCall.ContextIdentifier
   isExternal: true

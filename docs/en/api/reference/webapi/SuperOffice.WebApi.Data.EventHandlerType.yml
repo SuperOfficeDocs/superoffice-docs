@@ -58,6 +58,8 @@ items:
   - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveStakeholder
   - SuperOffice.WebApi.Data.EventHandlerType.SalesBeforeSaveTicket
   - SuperOffice.WebApi.Data.EventHandlerType.SalesLoadCustomObject
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesLoadTicket
+  - SuperOffice.WebApi.Data.EventHandlerType.SalesLoadTicketMessage
   - SuperOffice.WebApi.Data.EventHandlerType.SalesSplitTicket
   - SuperOffice.WebApi.Data.EventHandlerType.ScheduledTaskFailed
   - SuperOffice.WebApi.Data.EventHandlerType.ServiceScreenAddMessageAfterSubmit
@@ -3440,6 +3442,68 @@ items:
       <EnumMember>
 
       SalesSplitTicket = 1019
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesLoadTicket
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesLoadTicket
+  id: SalesLoadTicket
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesLoadTicket
+  nameWithType: EventHandlerType.SalesLoadTicket
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesLoadTicket
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1020: SalesLoadTicket'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      SalesLoadTicket = 1020
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: >-
+      <EnumMember>
+
+      SalesLoadTicket = 1020
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.EventHandlerType.SalesLoadTicketMessage
+  commentId: F:SuperOffice.WebApi.Data.EventHandlerType.SalesLoadTicketMessage
+  id: SalesLoadTicketMessage
+  parent: SuperOffice.WebApi.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesLoadTicketMessage
+  nameWithType: EventHandlerType.SalesLoadTicketMessage
+  fullName: SuperOffice.WebApi.Data.EventHandlerType.SalesLoadTicketMessage
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1021: SalesLoadTicketMessage'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      SalesLoadTicketMessage = 1021
+    return:
+      type: SuperOffice.WebApi.Data.EventHandlerType
+    content.vb: >-
+      <EnumMember>
+
+      SalesLoadTicketMessage = 1021
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

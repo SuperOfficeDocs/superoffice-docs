@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.Data
   children:
   - SuperOffice.CRM.Data.EjscriptTableInfo.AccessKey
+  - SuperOffice.CRM.Data.EjscriptTableInfo.BlockedVerbs
   - SuperOffice.CRM.Data.EjscriptTableInfo.Body
   - SuperOffice.CRM.Data.EjscriptTableInfo.Definition
   - SuperOffice.CRM.Data.EjscriptTableInfo.Description
@@ -794,6 +795,32 @@ items:
       type: SuperOffice.Data.SQL.StringFieldInfo
     content.vb: Public ReadOnly Property SourceMaps As StringFieldInfo
   overload: SuperOffice.CRM.Data.EjscriptTableInfo.SourceMaps*
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo.BlockedVerbs
+  commentId: P:SuperOffice.CRM.Data.EjscriptTableInfo.BlockedVerbs
+  id: BlockedVerbs
+  parent: SuperOffice.CRM.Data.EjscriptTableInfo
+  langs:
+  - csharp
+  - vb
+  name: BlockedVerbs
+  nameWithType: EjscriptTableInfo.BlockedVerbs
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.BlockedVerbs
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'blocked_verbs' in table 'ejscript': Dictionary type Enum, .NET type: <xref href="SuperOffice.Data.EjScriptVerb" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The verbs that are blocked when calling a ejscript over HTTP
+  example: []
+  syntax:
+    content: public EjScriptVerbFieldInfo BlockedVerbs { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.EjScriptVerbFieldInfo
+    content.vb: Public ReadOnly Property BlockedVerbs As EjScriptVerbFieldInfo
+  overload: SuperOffice.CRM.Data.EjscriptTableInfo.BlockedVerbs*
 - uid: SuperOffice.CRM.Data.EjscriptTableInfo.HierarchyId_InnerJoin_Hierarchy
   commentId: P:SuperOffice.CRM.Data.EjscriptTableInfo.HierarchyId_InnerJoin_Hierarchy
   id: HierarchyId_InnerJoin_Hierarchy
@@ -2338,6 +2365,29 @@ references:
   name: SourceMaps
   nameWithType: EjscriptTableInfo.SourceMaps
   fullName: SuperOffice.CRM.Data.EjscriptTableInfo.SourceMaps
+- uid: SuperOffice.Data.EjScriptVerb
+  commentId: T:SuperOffice.Data.EjScriptVerb
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.EjScriptVerb.html
+  name: EjScriptVerb
+  nameWithType: EjScriptVerb
+  fullName: SuperOffice.Data.EjScriptVerb
+- uid: SuperOffice.CRM.Data.EjscriptTableInfo.BlockedVerbs*
+  commentId: Overload:SuperOffice.CRM.Data.EjscriptTableInfo.BlockedVerbs
+  isExternal: true
+  href: SuperOffice.CRM.Data.EjscriptTableInfo.html#SuperOffice_CRM_Data_EjscriptTableInfo_BlockedVerbs
+  name: BlockedVerbs
+  nameWithType: EjscriptTableInfo.BlockedVerbs
+  fullName: SuperOffice.CRM.Data.EjscriptTableInfo.BlockedVerbs
+- uid: SuperOffice.Data.SQL.EjScriptVerbFieldInfo
+  commentId: T:SuperOffice.Data.SQL.EjScriptVerbFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.EjScriptVerbFieldInfo.html
+  name: EjScriptVerbFieldInfo
+  nameWithType: EjScriptVerbFieldInfo
+  fullName: SuperOffice.Data.SQL.EjScriptVerbFieldInfo
 - uid: SuperOffice.CRM.Data.HierarchyTableInfo
   commentId: T:SuperOffice.CRM.Data.HierarchyTableInfo
   parent: SuperOffice.CRM.Data

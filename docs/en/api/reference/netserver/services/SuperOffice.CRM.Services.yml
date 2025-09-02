@@ -37,7 +37,9 @@ items:
   - SuperOffice.CRM.Services.Batch
   - SuperOffice.CRM.Services.BatchAgent
   - SuperOffice.CRM.Services.BatchTaskInfo
+  - SuperOffice.CRM.Services.BizCard
   - SuperOffice.CRM.Services.BlobEntity
+  - SuperOffice.CRM.Services.BoardViewSettingsBase
   - SuperOffice.CRM.Services.BulkUpdateAgent
   - SuperOffice.CRM.Services.Business
   - SuperOffice.CRM.Services.CRMScriptAgent
@@ -54,6 +56,7 @@ items:
   - SuperOffice.CRM.Services.CategorizationModelDetails
   - SuperOffice.CRM.Services.CategorizationStatusResponse
   - SuperOffice.CRM.Services.Category
+  - SuperOffice.CRM.Services.CategoryEntity
   - SuperOffice.CRM.Services.CategoryGuess
   - SuperOffice.CRM.Services.ChangedData
   - SuperOffice.CRM.Services.ChangedDataItem
@@ -284,6 +287,7 @@ items:
   - SuperOffice.CRM.Services.ImportColumnInfo
   - SuperOffice.CRM.Services.ImportErpData
   - SuperOffice.CRM.Services.ImportLine
+  - SuperOffice.CRM.Services.InitalUtmParameters
   - SuperOffice.CRM.Services.Installation
   - SuperOffice.CRM.Services.KbCategory
   - SuperOffice.CRM.Services.LanguageInfo
@@ -362,6 +366,7 @@ items:
   - SuperOffice.CRM.Services.ProductType
   - SuperOffice.CRM.Services.Project
   - SuperOffice.CRM.Services.ProjectAgent
+  - SuperOffice.CRM.Services.ProjectBoardViewSettings
   - SuperOffice.CRM.Services.ProjectEntity
   - SuperOffice.CRM.Services.ProjectEvent
   - SuperOffice.CRM.Services.ProjectEventEntity
@@ -425,6 +430,7 @@ items:
   - SuperOffice.CRM.Services.SaintConfiguration
   - SuperOffice.CRM.Services.Sale
   - SuperOffice.CRM.Services.SaleAgent
+  - SuperOffice.CRM.Services.SaleBoardViewSettings
   - SuperOffice.CRM.Services.SaleEntity
   - SuperOffice.CRM.Services.SaleStageEntity
   - SuperOffice.CRM.Services.SaleStakeholder
@@ -522,6 +528,7 @@ items:
   - SuperOffice.CRM.Services.UserInfo
   - SuperOffice.CRM.Services.UserPresenceStatus
   - SuperOffice.CRM.Services.UserValidationResult
+  - SuperOffice.CRM.Services.UtmParameters
   - SuperOffice.CRM.Services.VideoMeetingReservation
   - SuperOffice.CRM.Services.ViewStateAgent
   - SuperOffice.CRM.Services.VisibleFor
@@ -1239,6 +1246,13 @@ references:
   name: BatchTaskInfo
   nameWithType: BatchTaskInfo
   fullName: SuperOffice.CRM.Services.BatchTaskInfo
+- uid: SuperOffice.CRM.Services.BizCard
+  commentId: T:SuperOffice.CRM.Services.BizCard
+  isExternal: true
+  href: SuperOffice.CRM.Services.BizCard.html
+  name: BizCard
+  nameWithType: BizCard
+  fullName: SuperOffice.CRM.Services.BizCard
 - uid: SuperOffice.CRM.Services.BlobEntity
   commentId: T:SuperOffice.CRM.Services.BlobEntity
   parent: SuperOffice.CRM.Services
@@ -1247,6 +1261,14 @@ references:
   name: BlobEntity
   nameWithType: BlobEntity
   fullName: SuperOffice.CRM.Services.BlobEntity
+- uid: SuperOffice.CRM.Services.BoardViewSettingsBase
+  commentId: T:SuperOffice.CRM.Services.BoardViewSettingsBase
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.BoardViewSettingsBase.html
+  name: BoardViewSettingsBase
+  nameWithType: BoardViewSettingsBase
+  fullName: SuperOffice.CRM.Services.BoardViewSettingsBase
 - uid: SuperOffice.CRM.Services.Business
   commentId: T:SuperOffice.CRM.Services.Business
   parent: SuperOffice.CRM.Services
@@ -1306,6 +1328,14 @@ references:
   name: Category
   nameWithType: Category
   fullName: SuperOffice.CRM.Services.Category
+- uid: SuperOffice.CRM.Services.CategoryEntity
+  commentId: T:SuperOffice.CRM.Services.CategoryEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.CategoryEntity.html
+  name: CategoryEntity
+  nameWithType: CategoryEntity
+  fullName: SuperOffice.CRM.Services.CategoryEntity
 - uid: SuperOffice.CRM.Services.CategoryGuess
   commentId: T:SuperOffice.CRM.Services.CategoryGuess
   isExternal: true
@@ -2499,6 +2529,14 @@ references:
   name: ImportLine
   nameWithType: ImportLine
   fullName: SuperOffice.CRM.Services.ImportLine
+- uid: SuperOffice.CRM.Services.InitalUtmParameters
+  commentId: T:SuperOffice.CRM.Services.InitalUtmParameters
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.InitalUtmParameters.html
+  name: InitalUtmParameters
+  nameWithType: InitalUtmParameters
+  fullName: SuperOffice.CRM.Services.InitalUtmParameters
 - uid: SuperOffice.CRM.Services.Installation
   commentId: T:SuperOffice.CRM.Services.Installation
   isExternal: true
@@ -3016,6 +3054,13 @@ references:
   name: Project
   nameWithType: Project
   fullName: SuperOffice.CRM.Services.Project
+- uid: SuperOffice.CRM.Services.ProjectBoardViewSettings
+  commentId: T:SuperOffice.CRM.Services.ProjectBoardViewSettings
+  isExternal: true
+  href: SuperOffice.CRM.Services.ProjectBoardViewSettings.html
+  name: ProjectBoardViewSettings
+  nameWithType: ProjectBoardViewSettings
+  fullName: SuperOffice.CRM.Services.ProjectBoardViewSettings
 - uid: SuperOffice.CRM.Services.ProjectEntity
   commentId: T:SuperOffice.CRM.Services.ProjectEntity
   parent: SuperOffice.CRM.Services
@@ -3446,6 +3491,13 @@ references:
   name: Sale
   nameWithType: Sale
   fullName: SuperOffice.CRM.Services.Sale
+- uid: SuperOffice.CRM.Services.SaleBoardViewSettings
+  commentId: T:SuperOffice.CRM.Services.SaleBoardViewSettings
+  isExternal: true
+  href: SuperOffice.CRM.Services.SaleBoardViewSettings.html
+  name: SaleBoardViewSettings
+  nameWithType: SaleBoardViewSettings
+  fullName: SuperOffice.CRM.Services.SaleBoardViewSettings
 - uid: SuperOffice.CRM.Services.SalesActivity
   commentId: T:SuperOffice.CRM.Services.SalesActivity
   isExternal: true
@@ -4089,6 +4141,13 @@ references:
   name: UserValidationResult
   nameWithType: UserValidationResult
   fullName: SuperOffice.CRM.Services.UserValidationResult
+- uid: SuperOffice.CRM.Services.UtmParameters
+  commentId: T:SuperOffice.CRM.Services.UtmParameters
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html
+  name: UtmParameters
+  nameWithType: UtmParameters
+  fullName: SuperOffice.CRM.Services.UtmParameters
 - uid: SuperOffice.CRM.Services.VideoMeetingReservation
   commentId: T:SuperOffice.CRM.Services.VideoMeetingReservation
   isExternal: true

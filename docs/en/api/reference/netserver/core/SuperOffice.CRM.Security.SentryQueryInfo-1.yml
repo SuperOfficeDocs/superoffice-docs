@@ -48,6 +48,7 @@ items:
   - SuperOffice.CRM.Security.AppointmentSentryQueryInfo
   - SuperOffice.CRM.Security.AssociateSentryQueryInfo
   - SuperOffice.CRM.Security.ContactSentryQueryInfo
+  - SuperOffice.CRM.Security.CustomObjectSentryQueryInfo
   - SuperOffice.CRM.Security.DashboardSentryQueryInfo
   - SuperOffice.CRM.Security.DashboardTileSentryQueryInfo
   - SuperOffice.CRM.Security.DocDocumentSentryQueryInfo

@@ -42,6 +42,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityAppointment
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityToDo
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityDocument
+  - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityMailing
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityOther
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.IconCommon
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.GetRowsAsync(System.String,System.Threading.CancellationToken)
@@ -267,6 +268,14 @@ references:
   name: EntityDocument
   nameWithType: ActivityArchiveProviderBase.EntityDocument
   fullName: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityDocument
+- uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityMailing
+  commentId: F:SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityMailing
+  parent: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.html#SuperOffice_CRM_ArchiveLists_ActivityArchiveProviderBase_EntityMailing
+  name: EntityMailing
+  nameWithType: ActivityArchiveProviderBase.EntityMailing
+  fullName: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityMailing
 - uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityOther
   commentId: F:SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityOther
   parent: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase

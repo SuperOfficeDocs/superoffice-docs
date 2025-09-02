@@ -5,6 +5,7 @@ items:
   id: ServiceFacade
   parent: SuperOffice.CRM.Services.Implementation.ServiceFacades
   children:
+  - SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade})
   - SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallServiceAsync(System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.FireServiceCall(System.String,System.Object)
   langs:
@@ -18,8 +19,8 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Services.Implementation.ServiceFacades
   syntax:
-    content: public static class ServiceFacade
-    content.vb: Public Module ServiceFacade
+    content: public class ServiceFacade
+    content.vb: Public Class ServiceFacade
   inheritance:
   - System.Object
   inheritedMembers:
@@ -30,6 +31,33 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade})
+  commentId: M:SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade})
+  id: '#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade})'
+  parent: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade
+  langs:
+  - csharp
+  - vb
+  name: ServiceFacade(ILogger<ServiceFacade>)
+  nameWithType: ServiceFacade.ServiceFacade(ILogger<ServiceFacade>)
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.ServiceFacade(Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade>)
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Services.Implementation.ServiceFacades
+  syntax:
+    content: public ServiceFacade(ILogger<ServiceFacade> logger)
+    parameters:
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade}
+    content.vb: Public Sub New(logger As ILogger(Of ServiceFacade))
+  overload: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.#ctor*
+  nameWithType.vb: ServiceFacade.New(ILogger(Of ServiceFacade))
+  fullName.vb: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.New(Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade))
+  name.vb: New(ILogger(Of ServiceFacade))
 - uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallServiceAsync(System.String,System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallServiceAsync(System.String,System.String,System.Threading.CancellationToken)
   id: CallServiceAsync(System.String,System.String,System.Threading.CancellationToken)
@@ -45,7 +73,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Services.Implementation.ServiceFacades
   syntax:
-    content: public static Task<string> CallServiceAsync(string methodName, string arguments, CancellationToken cancellationToken = default)
+    content: public Task<string> CallServiceAsync(string methodName, string arguments, CancellationToken cancellationToken = default)
     parameters:
     - id: methodName
       type: System.String
@@ -55,7 +83,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{System.String}
-    content.vb: Public Shared Function CallServiceAsync(methodName As String, arguments As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+    content.vb: Public Function CallServiceAsync(methodName As String, arguments As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
   overload: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallServiceAsync*
   nameWithType.vb: ServiceFacade.CallServiceAsync(String, String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallServiceAsync(String, String, System.Threading.CancellationToken)
@@ -77,7 +105,7 @@ items:
   summary: Fire and forget version for <xref href="SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallServiceAsync(System.String%2cSystem.String%2cSystem.Threading.CancellationToken)" data-throw-if-not-resolved="false"></xref>
   example: []
   syntax:
-    content: public static void FireServiceCall(string methodName, object argument)
+    content: public void FireServiceCall(string methodName, object argument)
     parameters:
     - id: methodName
       type: System.String
@@ -85,7 +113,7 @@ items:
     - id: argument
       type: System.Object
       description: Argument object (ready for serialization)
-    content.vb: Public Shared Sub FireServiceCall(methodName As String, argument As Object)
+    content.vb: Public Sub FireServiceCall(methodName As String, argument As Object)
   overload: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.FireServiceCall*
   nameWithType.vb: ServiceFacade.FireServiceCall(String, Object)
   fullName.vb: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.FireServiceCall(String, Object)
@@ -378,6 +406,112 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
   - name: )
+- uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<ServiceFacade, To>(ServiceFacade)
+  nameWithType: EnumUtil.MapEnums<ServiceFacade, To>(ServiceFacade)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade, To>(SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade)
+  nameWithType.vb: EnumUtil.MapEnums(Of ServiceFacade, To)(ServiceFacade)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade, To)(SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade)
+  name.vb: MapEnums(Of ServiceFacade, To)(ServiceFacade)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade
+    name: ServiceFacade
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade
+    name: ServiceFacade
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade
+    name: ServiceFacade
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade
+    name: ServiceFacade
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.html
+  - name: )
+- uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<ServiceFacade, To>(ServiceFacade)
+  nameWithType: Converters.MapEnums<ServiceFacade, To>(ServiceFacade)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade, To>(SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade)
+  nameWithType.vb: Converters.MapEnums(Of ServiceFacade, To)(ServiceFacade)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade, To)(SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade)
+  name.vb: MapEnums(Of ServiceFacade, To)(ServiceFacade)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade
+    name: ServiceFacade
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade
+    name: ServiceFacade
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade
+    name: ServiceFacade
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade
+    name: ServiceFacade
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -385,6 +519,248 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.html#SuperOffice_CRM_Services_Implementation_ServiceFacades_ServiceFacade__ctor_Microsoft_Extensions_Logging_ILogger_SuperOffice_CRM_Services_Implementation_ServiceFacades_ServiceFacade__
+  name: ServiceFacade
+  nameWithType: ServiceFacade.ServiceFacade
+  fullName: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.ServiceFacade
+  nameWithType.vb: ServiceFacade.New
+  fullName.vb: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.New
+  name.vb: New
+- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<ServiceFacade>
+  nameWithType: ILogger<ServiceFacade>
+  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade>
+  nameWithType.vb: ILogger(Of ServiceFacade)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade)
+  name.vb: ILogger(Of ServiceFacade)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade
+    name: ServiceFacade
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade
+    name: ServiceFacade
+    isExternal: true
+    href: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.html
+  - name: )
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
 - uid: SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallServiceAsync*
   commentId: Overload:SuperOffice.CRM.Services.Implementation.ServiceFacades.ServiceFacade.CallServiceAsync
   isExternal: true

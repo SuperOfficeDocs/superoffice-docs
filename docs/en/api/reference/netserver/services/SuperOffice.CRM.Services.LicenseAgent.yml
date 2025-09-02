@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.LicenseAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ILicenseImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.LicenseAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ILicenseImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.LicenseAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ILicenseImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   - SuperOffice.CRM.Services.LicenseAgent.ActivateLicenseInfoAsync(SuperOffice.License.ExtendedLicenseInfo,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.LicenseAgent.AddLicenseFromFileAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.LicenseAgent.AssignThirdPartyLicensesAsync(System.Int32,System.String,System.String[],System.Threading.CancellationToken)
@@ -88,22 +88,22 @@ items:
   nameWithType.vb: LicenseAgent.New(ILicenseImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.LicenseAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.ILicenseImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(ILicenseImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.LicenseAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ILicenseImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  commentId: M:SuperOffice.CRM.Services.LicenseAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ILicenseImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ILicenseImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+- uid: SuperOffice.CRM.Services.LicenseAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ILicenseImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  commentId: M:SuperOffice.CRM.Services.LicenseAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ILicenseImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ILicenseImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
   parent: SuperOffice.CRM.Services.LicenseAgent
   langs:
   - csharp
   - vb
-  name: LicenseAgent(ILicenseImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  nameWithType: LicenseAgent.LicenseAgent(ILicenseImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName: SuperOffice.CRM.Services.LicenseAgent.LicenseAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.ILicenseImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name: LicenseAgent(ILicenseImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType: LicenseAgent.LicenseAgent(ILicenseImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName: SuperOffice.CRM.Services.LicenseAgent.LicenseAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.ILicenseImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public LicenseAgent(ILicenseImplementation licenseImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    content: public LicenseAgent(ILicenseImplementation licenseImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
     parameters:
     - id: licenseImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ILicenseImplementation
@@ -113,11 +113,15 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    content.vb: Public Sub New(licenseImplementation As ILicenseImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+    - id: scriptingConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+    - id: onlineConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+    content.vb: Public Sub New(licenseImplementation As ILicenseImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
   overload: SuperOffice.CRM.Services.LicenseAgent.#ctor*
-  nameWithType.vb: LicenseAgent.New(ILicenseImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName.vb: SuperOffice.CRM.Services.LicenseAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.ILicenseImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
-  name.vb: New(ILicenseImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType.vb: LicenseAgent.New(ILicenseImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName.vb: SuperOffice.CRM.Services.LicenseAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.ILicenseImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name.vb: New(ILicenseImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
 - uid: SuperOffice.CRM.Services.LicenseAgent.GetLicenseForAllOwnersFromDBAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.LicenseAgent.GetLicenseForAllOwnersFromDBAsync(System.Threading.CancellationToken)
   id: GetLicenseForAllOwnersFromDBAsync(System.Threading.CancellationToken)
@@ -1276,6 +1280,16 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+  isExternal: true
+  name: IScriptingConfiguration
+  nameWithType: ConfigFile.IScriptingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  isExternal: true
+  name: IOnlineConfiguration
+  nameWithType: ConfigFile.IOnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
 - uid: SuperOffice.CRM.Services.LicenseAgent.GetLicenseForAllOwnersFromDBAsync*
   commentId: Overload:SuperOffice.CRM.Services.LicenseAgent.GetLicenseForAllOwnersFromDBAsync
   isExternal: true

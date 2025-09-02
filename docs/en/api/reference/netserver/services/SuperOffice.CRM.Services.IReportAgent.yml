@@ -69,10 +69,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new ReportLabelLayoutEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  summary: Loading default values into a new ReportLabelLayoutEntity.
   example: []
   syntax:
     content: Task<ReportLabelLayoutEntity> CreateDefaultReportLabelLayoutEntityAsync(CancellationToken cancellationToken = default)
@@ -98,14 +95,14 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing ReportLabelLayoutEntity or creates a new ReportLabelLayoutEntity if the id parameter is empty
+  summary: Updates the existing ReportLabelLayoutEntity or creates a new ReportLabelLayoutEntity if the id parameter is 0.
   example: []
   syntax:
     content: Task<ReportLabelLayoutEntity> SaveReportLabelLayoutEntityAsync(ReportLabelLayoutEntity reportLabelLayoutEntity, CancellationToken cancellationToken = default)
     parameters:
     - id: reportLabelLayoutEntity
       type: SuperOffice.CRM.Services.ReportLabelLayoutEntity
-      description: The ReportLabelLayoutEntity that is saved.
+      description: The ReportLabelLayoutEntity that is saved
     - id: cancellationToken
       type: System.Threading.CancellationToken
     return:
@@ -139,6 +136,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task
+      description: This method has no return value
     content.vb: Function DeleteReportLabelLayoutEntityAsync(reportLabelLayoutEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.IReportAgent.DeleteReportLabelLayoutEntityAsync*
   nameWithType.vb: IReportAgent.DeleteReportLabelLayoutEntityAsync(Integer, CancellationToken)
@@ -170,7 +168,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ReportLabelLayoutEntity}
-      description: ReportLabelLayoutEntity
+      description: A single ReportLabelLayoutEntity
     content.vb: Function GetReportLabelLayoutEntityAsync(reportLabelLayoutEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ReportLabelLayoutEntity)
   overload: SuperOffice.CRM.Services.IReportAgent.GetReportLabelLayoutEntityAsync*
   nameWithType.vb: IReportAgent.GetReportLabelLayoutEntityAsync(Integer, CancellationToken)

@@ -5,7 +5,7 @@ items:
   id: ErpForceResyncBatchPlugin
   parent: SuperOffice.CRM.BatchProcessing.Plugins
   children:
-  - SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin.#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin})
+  - SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin.#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin},SuperOffice.CRM.Services.IErpSyncAgent)
   - SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin.PluginName
   - SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin.RunAsync(System.String,System.String,System.Threading.CancellationToken)
   langs:
@@ -77,22 +77,22 @@ items:
     return:
       type: System.String
     content.vb: Public Const PluginName As String = "ErpForceResyncBatchPlugin"
-- uid: SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin.#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin})
-  commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin.#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin})
-  id: '#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin})'
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin.#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin},SuperOffice.CRM.Services.IErpSyncAgent)
+  commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin.#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin},SuperOffice.CRM.Services.IErpSyncAgent)
+  id: '#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin},SuperOffice.CRM.Services.IErpSyncAgent)'
   parent: SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin
   langs:
   - csharp
   - vb
-  name: ErpForceResyncBatchPlugin(IBatchData, IBatchServiceConfiguration, ILogger<ErpForceResyncBatchPlugin>)
-  nameWithType: ErpForceResyncBatchPlugin.ErpForceResyncBatchPlugin(IBatchData, ConfigFile.IBatchServiceConfiguration, ILogger<ErpForceResyncBatchPlugin>)
-  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin.ErpForceResyncBatchPlugin(SuperOffice.CRM.BatchProcessing.IBatchData, SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration, Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin>)
+  name: ErpForceResyncBatchPlugin(IBatchData, IBatchServiceConfiguration, ILogger<ErpForceResyncBatchPlugin>, IErpSyncAgent)
+  nameWithType: ErpForceResyncBatchPlugin.ErpForceResyncBatchPlugin(IBatchData, ConfigFile.IBatchServiceConfiguration, ILogger<ErpForceResyncBatchPlugin>, IErpSyncAgent)
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin.ErpForceResyncBatchPlugin(SuperOffice.CRM.BatchProcessing.IBatchData, SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration, Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin>, SuperOffice.CRM.Services.IErpSyncAgent)
   type: Constructor
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing.Plugins
   syntax:
-    content: public ErpForceResyncBatchPlugin(IBatchData batchData, ConfigFile.IBatchServiceConfiguration batchServiceConfiguration, ILogger<ErpForceResyncBatchPlugin> logger)
+    content: public ErpForceResyncBatchPlugin(IBatchData batchData, ConfigFile.IBatchServiceConfiguration batchServiceConfiguration, ILogger<ErpForceResyncBatchPlugin> logger, IErpSyncAgent erpSyncAgent)
     parameters:
     - id: batchData
       type: SuperOffice.CRM.BatchProcessing.IBatchData
@@ -100,11 +100,13 @@ items:
       type: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration
     - id: logger
       type: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin}
-    content.vb: Public Sub New(batchData As IBatchData, batchServiceConfiguration As ConfigFile.IBatchServiceConfiguration, logger As ILogger(Of ErpForceResyncBatchPlugin))
+    - id: erpSyncAgent
+      type: SuperOffice.CRM.Services.IErpSyncAgent
+    content.vb: Public Sub New(batchData As IBatchData, batchServiceConfiguration As ConfigFile.IBatchServiceConfiguration, logger As ILogger(Of ErpForceResyncBatchPlugin), erpSyncAgent As IErpSyncAgent)
   overload: SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin.#ctor*
-  nameWithType.vb: ErpForceResyncBatchPlugin.New(IBatchData, ConfigFile.IBatchServiceConfiguration, ILogger(Of ErpForceResyncBatchPlugin))
-  fullName.vb: SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin.New(SuperOffice.CRM.BatchProcessing.IBatchData, SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration, Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin))
-  name.vb: New(IBatchData, IBatchServiceConfiguration, ILogger(Of ErpForceResyncBatchPlugin))
+  nameWithType.vb: ErpForceResyncBatchPlugin.New(IBatchData, ConfigFile.IBatchServiceConfiguration, ILogger(Of ErpForceResyncBatchPlugin), IErpSyncAgent)
+  fullName.vb: SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin.New(SuperOffice.CRM.BatchProcessing.IBatchData, SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration, Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin), SuperOffice.CRM.Services.IErpSyncAgent)
+  name.vb: New(IBatchData, IBatchServiceConfiguration, ILogger(Of ErpForceResyncBatchPlugin), IErpSyncAgent)
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin.RunAsync(System.String,System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin.RunAsync(System.String,System.String,System.Threading.CancellationToken)
   id: RunAsync(System.String,System.String,System.Threading.CancellationToken)
@@ -923,7 +925,7 @@ references:
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin.#ctor*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin.#ctor
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin.html#SuperOffice_CRM_BatchProcessing_Plugins_ErpForceResyncBatchPlugin__ctor_SuperOffice_CRM_BatchProcessing_IBatchData_SuperOffice_Configuration_ConfigFile_IBatchServiceConfiguration_Microsoft_Extensions_Logging_ILogger_SuperOffice_CRM_BatchProcessing_Plugins_ErpForceResyncBatchPlugin__
+  href: SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin.html#SuperOffice_CRM_BatchProcessing_Plugins_ErpForceResyncBatchPlugin__ctor_SuperOffice_CRM_BatchProcessing_IBatchData_SuperOffice_Configuration_ConfigFile_IBatchServiceConfiguration_Microsoft_Extensions_Logging_ILogger_SuperOffice_CRM_BatchProcessing_Plugins_ErpForceResyncBatchPlugin__SuperOffice_CRM_Services_IErpSyncAgent_
   name: ErpForceResyncBatchPlugin
   nameWithType: ErpForceResyncBatchPlugin.ErpForceResyncBatchPlugin
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin.ErpForceResyncBatchPlugin
@@ -1000,6 +1002,13 @@ references:
     isExternal: true
     href: SuperOffice.CRM.BatchProcessing.Plugins.ErpForceResyncBatchPlugin.html
   - name: )
+- uid: SuperOffice.CRM.Services.IErpSyncAgent
+  commentId: T:SuperOffice.CRM.Services.IErpSyncAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IErpSyncAgent
+  nameWithType: IErpSyncAgent
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent
 - uid: Microsoft.Extensions.Logging.ILogger`1
   commentId: T:Microsoft.Extensions.Logging.ILogger`1
   isExternal: true
@@ -1065,6 +1074,43 @@ references:
     name: Logging
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
 - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.SetResult(System.String)
   commentId: M:SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.SetResult(System.String)
   parent: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase

@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.AssociateAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.AssociateAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.AssociateAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   - SuperOffice.CRM.Services.AssociateAgent.GetAssociateAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.AssociateAgent.GetAssociateByPersonIdAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.AssociateAgent.GetAssociateListAsync(System.Int32[],System.Threading.CancellationToken)
@@ -76,22 +76,22 @@ items:
   nameWithType.vb: AssociateAgent.New(IAssociateImplementation, IAssociateListImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.AssociateAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IAssociateImplementation, IAssociateListImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.AssociateAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  commentId: M:SuperOffice.CRM.Services.AssociateAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+- uid: SuperOffice.CRM.Services.AssociateAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  commentId: M:SuperOffice.CRM.Services.AssociateAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
   parent: SuperOffice.CRM.Services.AssociateAgent
   langs:
   - csharp
   - vb
-  name: AssociateAgent(IAssociateImplementation, IAssociateListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  nameWithType: AssociateAgent.AssociateAgent(IAssociateImplementation, IAssociateListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName: SuperOffice.CRM.Services.AssociateAgent.AssociateAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name: AssociateAgent(IAssociateImplementation, IAssociateListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType: AssociateAgent.AssociateAgent(IAssociateImplementation, IAssociateListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName: SuperOffice.CRM.Services.AssociateAgent.AssociateAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public AssociateAgent(IAssociateImplementation associateImplementation, IAssociateListImplementation associateListImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    content: public AssociateAgent(IAssociateImplementation associateImplementation, IAssociateListImplementation associateListImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
     parameters:
     - id: associateImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation
@@ -103,11 +103,15 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    content.vb: Public Sub New(associateImplementation As IAssociateImplementation, associateListImplementation As IAssociateListImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+    - id: scriptingConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+    - id: onlineConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+    content.vb: Public Sub New(associateImplementation As IAssociateImplementation, associateListImplementation As IAssociateListImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
   overload: SuperOffice.CRM.Services.AssociateAgent.#ctor*
-  nameWithType.vb: AssociateAgent.New(IAssociateImplementation, IAssociateListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName.vb: SuperOffice.CRM.Services.AssociateAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
-  name.vb: New(IAssociateImplementation, IAssociateListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType.vb: AssociateAgent.New(IAssociateImplementation, IAssociateListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName.vb: SuperOffice.CRM.Services.AssociateAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IAssociateListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name.vb: New(IAssociateImplementation, IAssociateListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
 - uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociateAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.AssociateAgent.GetAssociateAsync(System.Int32,System.Threading.CancellationToken)
   id: GetAssociateAsync(System.Int32,System.Threading.CancellationToken)
@@ -132,9 +136,10 @@ items:
       description: The identifier of the Associate object
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Associate}
-      description: Associate
+      description: A single Associate
     content.vb: Public Function GetAssociateAsync(associateId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Associate)
   overload: SuperOffice.CRM.Services.AssociateAgent.GetAssociateAsync*
   implements:
@@ -303,9 +308,10 @@ items:
       description: The identifiers of the Associate object
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Associate[]}
-      description: Array of Associate objects
+      description: Array of Associate
     content.vb: Public Function GetAssociateListAsync(associateIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of Associate())
   overload: SuperOffice.CRM.Services.AssociateAgent.GetAssociateListAsync*
   implements:
@@ -785,6 +791,16 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+  isExternal: true
+  name: IScriptingConfiguration
+  nameWithType: ConfigFile.IScriptingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  isExternal: true
+  name: IOnlineConfiguration
+  nameWithType: ConfigFile.IOnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
 - uid: SuperOffice.CRM.Services.AssociateAgent.GetAssociateAsync*
   commentId: Overload:SuperOffice.CRM.Services.AssociateAgent.GetAssociateAsync
   isExternal: true

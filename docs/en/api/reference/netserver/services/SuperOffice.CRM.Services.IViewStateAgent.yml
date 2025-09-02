@@ -119,7 +119,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.History}
-      description: History
+      description: A single History
     content.vb: Function GetHistoryAsync(historyId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of History)
   overload: SuperOffice.CRM.Services.IViewStateAgent.GetHistoryAsync*
   nameWithType.vb: IViewStateAgent.GetHistoryAsync(Integer, CancellationToken)

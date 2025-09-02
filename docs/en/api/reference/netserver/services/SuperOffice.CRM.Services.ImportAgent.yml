@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.ImportAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportLineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportErpDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.ImportAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportLineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportErpDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.ImportAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportLineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportErpDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   - SuperOffice.CRM.Services.ImportAgent.CreateDefaultImportLineAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ImportAgent.CreateErpImportDataAsync(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String[],System.Int32,SuperOffice.Data.ErpActorType,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ImportAgent.PreviewImportAsync(SuperOffice.CRM.Services.ImportLine[],System.String[],System.String,System.String,System.Threading.CancellationToken)
@@ -72,22 +72,22 @@ items:
   nameWithType.vb: ImportAgent.New(IImportLineImplementation, IImportErpDataImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.ImportAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportLineImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportErpDataImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IImportLineImplementation, IImportErpDataImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.ImportAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportLineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportErpDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  commentId: M:SuperOffice.CRM.Services.ImportAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportLineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportErpDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportLineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportErpDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+- uid: SuperOffice.CRM.Services.ImportAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportLineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportErpDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  commentId: M:SuperOffice.CRM.Services.ImportAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportLineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportErpDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportLineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportErpDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
   parent: SuperOffice.CRM.Services.ImportAgent
   langs:
   - csharp
   - vb
-  name: ImportAgent(IImportLineImplementation, IImportErpDataImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  nameWithType: ImportAgent.ImportAgent(IImportLineImplementation, IImportErpDataImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName: SuperOffice.CRM.Services.ImportAgent.ImportAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportLineImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportErpDataImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name: ImportAgent(IImportLineImplementation, IImportErpDataImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType: ImportAgent.ImportAgent(IImportLineImplementation, IImportErpDataImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName: SuperOffice.CRM.Services.ImportAgent.ImportAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportLineImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportErpDataImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public ImportAgent(IImportLineImplementation importLineImplementation, IImportErpDataImplementation importErpDataImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    content: public ImportAgent(IImportLineImplementation importLineImplementation, IImportErpDataImplementation importErpDataImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
     parameters:
     - id: importLineImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportLineImplementation
@@ -99,11 +99,15 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    content.vb: Public Sub New(importLineImplementation As IImportLineImplementation, importErpDataImplementation As IImportErpDataImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+    - id: scriptingConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+    - id: onlineConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+    content.vb: Public Sub New(importLineImplementation As IImportLineImplementation, importErpDataImplementation As IImportErpDataImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
   overload: SuperOffice.CRM.Services.ImportAgent.#ctor*
-  nameWithType.vb: ImportAgent.New(IImportLineImplementation, IImportErpDataImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName.vb: SuperOffice.CRM.Services.ImportAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportLineImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportErpDataImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
-  name.vb: New(IImportLineImplementation, IImportErpDataImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType.vb: ImportAgent.New(IImportLineImplementation, IImportErpDataImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName.vb: SuperOffice.CRM.Services.ImportAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportLineImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IImportErpDataImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name.vb: New(IImportLineImplementation, IImportErpDataImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
 - uid: SuperOffice.CRM.Services.ImportAgent.PreviewImportAsync(SuperOffice.CRM.Services.ImportLine[],System.String[],System.String,System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ImportAgent.PreviewImportAsync(SuperOffice.CRM.Services.ImportLine[],System.String[],System.String,System.String,System.Threading.CancellationToken)
   id: PreviewImportAsync(SuperOffice.CRM.Services.ImportLine[],System.String[],System.String,System.String,System.Threading.CancellationToken)
@@ -673,6 +677,16 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+  isExternal: true
+  name: IScriptingConfiguration
+  nameWithType: ConfigFile.IScriptingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  isExternal: true
+  name: IOnlineConfiguration
+  nameWithType: ConfigFile.IOnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
 - uid: SuperOffice.CRM.Services.ImportAgent.PreviewImportAsync*
   commentId: Overload:SuperOffice.CRM.Services.ImportAgent.PreviewImportAsync
   isExternal: true

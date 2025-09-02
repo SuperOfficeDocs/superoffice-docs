@@ -10,6 +10,7 @@ items:
   - SuperOffice.CRM.UserPreferenceStrings.SalesNotification.NotifyAppointmentChange
   - SuperOffice.CRM.UserPreferenceStrings.SalesNotification.NotifyAppointmentDecline
   - SuperOffice.CRM.UserPreferenceStrings.SalesNotification.NotifyAppointmentInvitation
+  - SuperOffice.CRM.UserPreferenceStrings.SalesNotification.NotifyCompanyAssignment
   - SuperOffice.CRM.UserPreferenceStrings.SalesNotification.Section
   langs:
   - csharp
@@ -158,6 +159,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const NotifyAppointmentAssociateRejected As String = "notifyAppointmentAssociateRejected"
+- uid: SuperOffice.CRM.UserPreferenceStrings.SalesNotification.NotifyCompanyAssignment
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.SalesNotification.NotifyCompanyAssignment
+  id: NotifyCompanyAssignment
+  parent: SuperOffice.CRM.UserPreferenceStrings.SalesNotification
+  langs:
+  - csharp
+  - vb
+  name: NotifyCompanyAssignment
+  nameWithType: UserPreferenceStrings.SalesNotification.NotifyCompanyAssignment
+  fullName: SuperOffice.CRM.UserPreferenceStrings.SalesNotification.NotifyCompanyAssignment
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: (BOOL) Indicates if the user wants notifications when a contact is assigned to them.
+  example: []
+  syntax:
+    content: public const string NotifyCompanyAssignment = "notifyCompanyOwnership"
+    return:
+      type: System.String
+    content.vb: Public Const NotifyCompanyAssignment As String = "notifyCompanyOwnership"
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM

@@ -1,0 +1,629 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.BizCard
+  commentId: T:SuperOffice.CRM.Services.BizCard
+  id: BizCard
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.BizCard.#ctor
+  - SuperOffice.CRM.Services.BizCard.Contact
+  - SuperOffice.CRM.Services.BizCard.LogoImage
+  - SuperOffice.CRM.Services.BizCard.Person
+  - SuperOffice.CRM.Services.BizCard.PhotoImage
+  - SuperOffice.CRM.Services.BizCard.ToString
+  - SuperOffice.CRM.Services.BizCard.ToString(System.String)
+  langs:
+  - csharp
+  - vb
+  name: BizCard
+  nameWithType: BizCard
+  fullName: SuperOffice.CRM.Services.BizCard
+  type: Class
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Contains a ContactEntity and a PersonEntity filled with information from a business card.
+
+    <p></p>
+
+    Carrier object for BizCard.
+
+    Services for the BizCard Carrier is available from the <xref href="SuperOffice.CRM.Services.IAIAgent?text=AI+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")]
+
+      public class BizCard
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")>
+
+      Public Class BizCard
+  seealso:
+  - linkId: SuperOffice.CRM.Services.IAIAgent
+    commentId: T:SuperOffice.CRM.Services.IAIAgent
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.3.0.0
+- uid: SuperOffice.CRM.Services.BizCard.#ctor
+  commentId: M:SuperOffice.CRM.Services.BizCard.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.BizCard
+  langs:
+  - csharp
+  - vb
+  name: BizCard()
+  nameWithType: BizCard.BizCard()
+  fullName: SuperOffice.CRM.Services.BizCard.BizCard()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Default constructor
+  example: []
+  syntax:
+    content: public BizCard()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Services.BizCard.#ctor*
+  nameWithType.vb: BizCard.New()
+  fullName.vb: SuperOffice.CRM.Services.BizCard.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Services.BizCard.ToString
+  commentId: M:SuperOffice.CRM.Services.BizCard.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.BizCard
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: BizCard.ToString()
+  fullName: SuperOffice.CRM.Services.BizCard.ToString()
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the carrier contents as a formatted string.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString() As String
+  overridden: System.Object.ToString
+  overload: SuperOffice.CRM.Services.BizCard.ToString*
+- uid: SuperOffice.CRM.Services.BizCard.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.BizCard.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.BizCard
+  langs:
+  - csharp
+  - vb
+  name: ToString(string)
+  nameWithType: BizCard.ToString(string)
+  fullName: SuperOffice.CRM.Services.BizCard.ToString(string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.BizCard.ToString*
+  nameWithType.vb: BizCard.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.BizCard.ToString(String)
+  name.vb: ToString(String)
+- uid: SuperOffice.CRM.Services.BizCard.Contact
+  commentId: P:SuperOffice.CRM.Services.BizCard.Contact
+  id: Contact
+  parent: SuperOffice.CRM.Services.BizCard
+  langs:
+  - csharp
+  - vb
+  name: Contact
+  nameWithType: BizCard.Contact
+  fullName: SuperOffice.CRM.Services.BizCard.Contact
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: The contact information.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual ContactEntity Contact { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.ContactEntity
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Contact As ContactEntity
+  overload: SuperOffice.CRM.Services.BizCard.Contact*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.BizCard.Person
+  commentId: P:SuperOffice.CRM.Services.BizCard.Person
+  id: Person
+  parent: SuperOffice.CRM.Services.BizCard
+  langs:
+  - csharp
+  - vb
+  name: Person
+  nameWithType: BizCard.Person
+  fullName: SuperOffice.CRM.Services.BizCard.Person
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: The person information.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual PersonEntity Person { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.PersonEntity
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Person As PersonEntity
+  overload: SuperOffice.CRM.Services.BizCard.Person*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.BizCard.LogoImage
+  commentId: P:SuperOffice.CRM.Services.BizCard.LogoImage
+  id: LogoImage
+  parent: SuperOffice.CRM.Services.BizCard
+  langs:
+  - csharp
+  - vb
+  name: LogoImage
+  nameWithType: BizCard.LogoImage
+  fullName: SuperOffice.CRM.Services.BizCard.LogoImage
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Base64 encoded company logo image, if available.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string LogoImage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property LogoImage As String
+  overload: SuperOffice.CRM.Services.BizCard.LogoImage*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.BizCard.PhotoImage
+  commentId: P:SuperOffice.CRM.Services.BizCard.PhotoImage
+  id: PhotoImage
+  parent: SuperOffice.CRM.Services.BizCard
+  langs:
+  - csharp
+  - vb
+  name: PhotoImage
+  nameWithType: BizCard.PhotoImage
+  fullName: SuperOffice.CRM.Services.BizCard.PhotoImage
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Base64 encoded person photo image, if available.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string PhotoImage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property PhotoImage As String
+  overload: SuperOffice.CRM.Services.BizCard.PhotoImage*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.CRM.Services.IAIAgent
+  commentId: T:SuperOffice.CRM.Services.IAIAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAIAgent.html
+  name: IAIAgent
+  nameWithType: IAIAgent
+  fullName: SuperOffice.CRM.Services.IAIAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.BizCard.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.BizCard.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.BizCard.html#SuperOffice_CRM_Services_BizCard__ctor
+  name: BizCard
+  nameWithType: BizCard.BizCard
+  fullName: SuperOffice.CRM.Services.BizCard.BizCard
+  nameWithType.vb: BizCard.New
+  fullName.vb: SuperOffice.CRM.Services.BizCard.New
+  name.vb: New
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.BizCard.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.BizCard.ToString
+  isExternal: true
+  href: SuperOffice.CRM.Services.BizCard.html#SuperOffice_CRM_Services_BizCard_ToString
+  name: ToString
+  nameWithType: BizCard.ToString
+  fullName: SuperOffice.CRM.Services.BizCard.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Services.BizCard.Contact*
+  commentId: Overload:SuperOffice.CRM.Services.BizCard.Contact
+  isExternal: true
+  href: SuperOffice.CRM.Services.BizCard.html#SuperOffice_CRM_Services_BizCard_Contact
+  name: Contact
+  nameWithType: BizCard.Contact
+  fullName: SuperOffice.CRM.Services.BizCard.Contact
+- uid: SuperOffice.CRM.Services.ContactEntity
+  commentId: T:SuperOffice.CRM.Services.ContactEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.ContactEntity.html
+  name: ContactEntity
+  nameWithType: ContactEntity
+  fullName: SuperOffice.CRM.Services.ContactEntity
+- uid: SuperOffice.CRM.Services.BizCard.Person*
+  commentId: Overload:SuperOffice.CRM.Services.BizCard.Person
+  isExternal: true
+  href: SuperOffice.CRM.Services.BizCard.html#SuperOffice_CRM_Services_BizCard_Person
+  name: Person
+  nameWithType: BizCard.Person
+  fullName: SuperOffice.CRM.Services.BizCard.Person
+- uid: SuperOffice.CRM.Services.PersonEntity
+  commentId: T:SuperOffice.CRM.Services.PersonEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.PersonEntity.html
+  name: PersonEntity
+  nameWithType: PersonEntity
+  fullName: SuperOffice.CRM.Services.PersonEntity
+- uid: SuperOffice.CRM.Services.BizCard.LogoImage*
+  commentId: Overload:SuperOffice.CRM.Services.BizCard.LogoImage
+  isExternal: true
+  href: SuperOffice.CRM.Services.BizCard.html#SuperOffice_CRM_Services_BizCard_LogoImage
+  name: LogoImage
+  nameWithType: BizCard.LogoImage
+  fullName: SuperOffice.CRM.Services.BizCard.LogoImage
+- uid: SuperOffice.CRM.Services.BizCard.PhotoImage*
+  commentId: Overload:SuperOffice.CRM.Services.BizCard.PhotoImage
+  isExternal: true
+  href: SuperOffice.CRM.Services.BizCard.html#SuperOffice_CRM_Services_BizCard_PhotoImage
+  name: PhotoImage
+  nameWithType: BizCard.PhotoImage
+  fullName: SuperOffice.CRM.Services.BizCard.PhotoImage

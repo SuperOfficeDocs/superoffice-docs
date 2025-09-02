@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Rows.EjscriptRow.#ctor(SuperOffice.CRM.Rows.EjscriptRow.EjscriptRowIdxBase)
   - SuperOffice.CRM.Rows.EjscriptRow.AccessKey
+  - SuperOffice.CRM.Rows.EjscriptRow.BlockedVerbs
   - SuperOffice.CRM.Rows.EjscriptRow.Body
   - SuperOffice.CRM.Rows.EjscriptRow.CreateNew
   - SuperOffice.CRM.Rows.EjscriptRow.Description
@@ -55,6 +56,7 @@ items:
   - SuperOffice.CRM.Rows.EjscriptRow.UpdatedCount
   - SuperOffice.CRM.Rows.EjscriptRow.Validate(SuperOffice.CRM.Rows.RowValidator)
   - SuperOffice.CRM.Rows.EjscriptRow._currentAccessKey
+  - SuperOffice.CRM.Rows.EjscriptRow._currentBlockedVerbs
   - SuperOffice.CRM.Rows.EjscriptRow._currentBody
   - SuperOffice.CRM.Rows.EjscriptRow._currentDescription
   - SuperOffice.CRM.Rows.EjscriptRow._currentEjscriptId
@@ -77,6 +79,7 @@ items:
   - SuperOffice.CRM.Rows.EjscriptRow._currentUpdatedAssociateId
   - SuperOffice.CRM.Rows.EjscriptRow._currentUpdatedCount
   - SuperOffice.CRM.Rows.EjscriptRow._persistedAccessKey
+  - SuperOffice.CRM.Rows.EjscriptRow._persistedBlockedVerbs
   - SuperOffice.CRM.Rows.EjscriptRow._persistedBody
   - SuperOffice.CRM.Rows.EjscriptRow._persistedDescription
   - SuperOffice.CRM.Rows.EjscriptRow._persistedEjscriptId
@@ -708,6 +711,27 @@ items:
     return:
       type: System.String
     content.vb: Protected _persistedSourceMaps As String
+- uid: SuperOffice.CRM.Rows.EjscriptRow._persistedBlockedVerbs
+  commentId: F:SuperOffice.CRM.Rows.EjscriptRow._persistedBlockedVerbs
+  id: _persistedBlockedVerbs
+  parent: SuperOffice.CRM.Rows.EjscriptRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedBlockedVerbs
+  nameWithType: EjscriptRow._persistedBlockedVerbs
+  fullName: SuperOffice.CRM.Rows.EjscriptRow._persistedBlockedVerbs
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.EjscriptRow.BlockedVerbs" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected EjScriptVerb _persistedBlockedVerbs
+    return:
+      type: SuperOffice.Data.EjScriptVerb
+    content.vb: Protected _persistedBlockedVerbs As EjScriptVerb
 - uid: SuperOffice.CRM.Rows.EjscriptRow._currentEjscriptId
   commentId: F:SuperOffice.CRM.Rows.EjscriptRow._currentEjscriptId
   id: _currentEjscriptId
@@ -1170,6 +1194,27 @@ items:
     return:
       type: System.String
     content.vb: Protected _currentSourceMaps As String
+- uid: SuperOffice.CRM.Rows.EjscriptRow._currentBlockedVerbs
+  commentId: F:SuperOffice.CRM.Rows.EjscriptRow._currentBlockedVerbs
+  id: _currentBlockedVerbs
+  parent: SuperOffice.CRM.Rows.EjscriptRow
+  langs:
+  - csharp
+  - vb
+  name: _currentBlockedVerbs
+  nameWithType: EjscriptRow._currentBlockedVerbs
+  fullName: SuperOffice.CRM.Rows.EjscriptRow._currentBlockedVerbs
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.EjscriptRow.BlockedVerbs" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected EjScriptVerb _currentBlockedVerbs
+    return:
+      type: SuperOffice.Data.EjScriptVerb
+    content.vb: Protected _currentBlockedVerbs As EjScriptVerb
 - uid: SuperOffice.CRM.Rows.EjscriptRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.EjscriptRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -2653,6 +2698,37 @@ items:
       type: System.String
     content.vb: Public Overridable Property SourceMaps As String
   overload: SuperOffice.CRM.Rows.EjscriptRow.SourceMaps*
+- uid: SuperOffice.CRM.Rows.EjscriptRow.BlockedVerbs
+  commentId: P:SuperOffice.CRM.Rows.EjscriptRow.BlockedVerbs
+  id: BlockedVerbs
+  parent: SuperOffice.CRM.Rows.EjscriptRow
+  langs:
+  - csharp
+  - vb
+  name: BlockedVerbs
+  nameWithType: EjscriptRow.BlockedVerbs
+  fullName: SuperOffice.CRM.Rows.EjscriptRow.BlockedVerbs
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: EjScriptVerb. The verbs that are blocked when calling a ejscript over HTTP'
+  remarks: >-
+    Original type in dictionary:  Enum.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual EjScriptVerb BlockedVerbs { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.EjScriptVerb
+    content.vb: Public Overridable Property BlockedVerbs As EjScriptVerb
+  overload: SuperOffice.CRM.Rows.EjscriptRow.BlockedVerbs*
 references:
 - uid: SuperOffice.CRM.Rows.EjscriptRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.EjscriptRow.CreateNew
@@ -5791,6 +5867,21 @@ references:
   name: SourceMaps
   nameWithType: EjscriptRow.SourceMaps
   fullName: SuperOffice.CRM.Rows.EjscriptRow.SourceMaps
+- uid: SuperOffice.CRM.Rows.EjscriptRow.BlockedVerbs
+  commentId: P:SuperOffice.CRM.Rows.EjscriptRow.BlockedVerbs
+  isExternal: true
+  href: SuperOffice.CRM.Rows.EjscriptRow.html#SuperOffice_CRM_Rows_EjscriptRow_BlockedVerbs
+  name: BlockedVerbs
+  nameWithType: EjscriptRow.BlockedVerbs
+  fullName: SuperOffice.CRM.Rows.EjscriptRow.BlockedVerbs
+- uid: SuperOffice.Data.EjScriptVerb
+  commentId: T:SuperOffice.Data.EjScriptVerb
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.EjScriptVerb.html
+  name: EjScriptVerb
+  nameWithType: EjScriptVerb
+  fullName: SuperOffice.Data.EjScriptVerb
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -6861,3 +6952,10 @@ references:
   name: SourceMaps
   nameWithType: EjscriptRow.SourceMaps
   fullName: SuperOffice.CRM.Rows.EjscriptRow.SourceMaps
+- uid: SuperOffice.CRM.Rows.EjscriptRow.BlockedVerbs*
+  commentId: Overload:SuperOffice.CRM.Rows.EjscriptRow.BlockedVerbs
+  isExternal: true
+  href: SuperOffice.CRM.Rows.EjscriptRow.html#SuperOffice_CRM_Rows_EjscriptRow_BlockedVerbs
+  name: BlockedVerbs
+  nameWithType: EjscriptRow.BlockedVerbs
+  fullName: SuperOffice.CRM.Rows.EjscriptRow.BlockedVerbs

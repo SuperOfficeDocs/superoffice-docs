@@ -35,6 +35,8 @@ items:
 
       [MDOAdditionalInfo("GetDeletedLinks", "Include deleted projects", true)]
 
+      [MDOAdditionalInfo("ProjectTypeIDs", "Project types to get project statuses for", "1,2,3,4")]
+
       public class ProjectStatusProvider : GuideStepProvider, ISoListProvider, ISoList, IEnumerable<ISoListItem>, IEnumerable
     content.vb: >-
       <MDOProviderPlugin("ProjectStatus")>
@@ -46,6 +48,8 @@ items:
       <MDOAdditionalInfo("GetDeleted", "Include deleted items", True)>
 
       <MDOAdditionalInfo("GetDeletedLinks", "Include deleted projects", True)>
+
+      <MDOAdditionalInfo("ProjectTypeIDs", "Project types to get project statuses for", "1,2,3,4")>
 
       Public Class ProjectStatusProvider Inherits GuideStepProvider Implements ISoListProvider, ISoList, IEnumerable(Of ISoListItem), IEnumerable
   inheritance:
@@ -159,6 +163,15 @@ items:
       value: Include deleted projects
     - type: System.Boolean
       value: true
+  - type: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute
+    ctor: SuperOffice.CRM.Lists.MDOAdditionalInfoAttribute.#ctor(System.String,System.String,System.Object)
+    arguments:
+    - type: System.String
+      value: ProjectTypeIDs
+    - type: System.String
+      value: Project types to get project statuses for
+    - type: System.String
+      value: 1,2,3,4
 - uid: SuperOffice.CRM.Lists.ProjectStatusProvider.ProviderName
   commentId: F:SuperOffice.CRM.Lists.ProjectStatusProvider.ProviderName
   id: ProviderName

@@ -99,10 +99,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new BlobEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  summary: Loading default values into a new BlobEntity.
   example: []
   syntax:
     content: Task<BlobEntity> CreateDefaultBlobEntityAsync(CancellationToken cancellationToken = default)
@@ -128,14 +125,14 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing BlobEntity or creates a new BlobEntity if the id parameter is empty
+  summary: Updates the existing BlobEntity or creates a new BlobEntity if the id parameter is 0.
   example: []
   syntax:
     content: Task<BlobEntity> SaveBlobEntityAsync(BlobEntity blobEntity, CancellationToken cancellationToken = default)
     parameters:
     - id: blobEntity
       type: SuperOffice.CRM.Services.BlobEntity
-      description: The BlobEntity that is saved.
+      description: The BlobEntity that is saved
     - id: cancellationToken
       type: System.Threading.CancellationToken
     return:
@@ -169,6 +166,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task
+      description: This method has no return value
     content.vb: Function DeleteBlobEntityAsync(blobEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.IBLOBAgent.DeleteBlobEntityAsync*
   nameWithType.vb: IBLOBAgent.DeleteBlobEntityAsync(Integer, CancellationToken)
@@ -200,7 +198,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BlobEntity}
-      description: BlobEntity
+      description: A single BlobEntity
     content.vb: Function GetBlobEntityAsync(blobEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of BlobEntity)
   overload: SuperOffice.CRM.Services.IBLOBAgent.GetBlobEntityAsync*
   nameWithType.vb: IBLOBAgent.GetBlobEntityAsync(Integer, CancellationToken)

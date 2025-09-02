@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.FindAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFindImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.FindAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFindImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.FindAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFindImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   - SuperOffice.CRM.Services.FindAgent.CreateRestrictionGroupAsync(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.FindAgent.DeleteRestrictionGroupAsync(System.String,System.String,System.String,System.Int32,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.FindAgent.FindAsync(System.String,System.String,System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
@@ -102,22 +102,22 @@ items:
   nameWithType.vb: FindAgent.New(IFindImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.FindAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFindImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IFindImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.FindAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFindImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  commentId: M:SuperOffice.CRM.Services.FindAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFindImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFindImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+- uid: SuperOffice.CRM.Services.FindAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFindImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  commentId: M:SuperOffice.CRM.Services.FindAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFindImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFindImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
   parent: SuperOffice.CRM.Services.FindAgent
   langs:
   - csharp
   - vb
-  name: FindAgent(IFindImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  nameWithType: FindAgent.FindAgent(IFindImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName: SuperOffice.CRM.Services.FindAgent.FindAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFindImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name: FindAgent(IFindImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType: FindAgent.FindAgent(IFindImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName: SuperOffice.CRM.Services.FindAgent.FindAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFindImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public FindAgent(IFindImplementation findImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    content: public FindAgent(IFindImplementation findImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
     parameters:
     - id: findImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IFindImplementation
@@ -127,11 +127,15 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    content.vb: Public Sub New(findImplementation As IFindImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+    - id: scriptingConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+    - id: onlineConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+    content.vb: Public Sub New(findImplementation As IFindImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
   overload: SuperOffice.CRM.Services.FindAgent.#ctor*
-  nameWithType.vb: FindAgent.New(IFindImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName.vb: SuperOffice.CRM.Services.FindAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFindImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
-  name.vb: New(IFindImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType.vb: FindAgent.New(IFindImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName.vb: SuperOffice.CRM.Services.FindAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFindImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name.vb: New(IFindImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
 - uid: SuperOffice.CRM.Services.FindAgent.GetCriteriaInformationAsync(System.String,System.String,System.String,System.String[],System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.FindAgent.GetCriteriaInformationAsync(System.String,System.String,System.String,System.String[],System.Threading.CancellationToken)
   id: GetCriteriaInformationAsync(System.String,System.String,System.String,System.String[],System.Threading.CancellationToken)
@@ -2916,6 +2920,16 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+  isExternal: true
+  name: IScriptingConfiguration
+  nameWithType: ConfigFile.IScriptingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  isExternal: true
+  name: IOnlineConfiguration
+  nameWithType: ConfigFile.IOnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
 - uid: SuperOffice.CRM.Services.FindAgent.GetCriteriaInformationAsync*
   commentId: Overload:SuperOffice.CRM.Services.FindAgent.GetCriteriaInformationAsync
   isExternal: true

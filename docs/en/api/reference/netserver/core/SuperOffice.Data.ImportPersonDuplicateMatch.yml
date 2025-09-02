@@ -25,11 +25,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")]
 
       public enum ImportPersonDuplicateMatch
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")>
 
       Public Enum ImportPersonDuplicateMatch
   extensionMethods:
@@ -45,7 +45,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.2.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.3.0.0
 - uid: SuperOffice.Data.ImportPersonDuplicateMatch.FullName
   commentId: F:SuperOffice.Data.ImportPersonDuplicateMatch.FullName
   id: FullName

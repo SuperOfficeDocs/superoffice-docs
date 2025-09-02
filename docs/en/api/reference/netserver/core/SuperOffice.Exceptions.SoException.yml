@@ -58,6 +58,7 @@ items:
   - SuperOffice.Exceptions.SoInvalidSignatureException
   - SuperOffice.Exceptions.SoLicenseException
   - SuperOffice.Exceptions.SoMassOperationException
+  - SuperOffice.Exceptions.SoMissingDatabaseContextException
   - SuperOffice.Exceptions.SoNotFoundException
   - SuperOffice.Exceptions.SoNotImplementedException
   - SuperOffice.Exceptions.SoNotSupportedException

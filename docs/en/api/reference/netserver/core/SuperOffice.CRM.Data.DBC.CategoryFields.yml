@@ -6,8 +6,10 @@ items:
   parent: SuperOffice.CRM.Data
   children:
   - SuperOffice.CRM.Data.DBC.CategoryFields.CategoryFamilyId
+  - SuperOffice.CRM.Data.DBC.CategoryFields.CategoryGroup
   - SuperOffice.CRM.Data.DBC.CategoryFields.CategoryId
   - SuperOffice.CRM.Data.DBC.CategoryFields.Deleted
+  - SuperOffice.CRM.Data.DBC.CategoryFields.EnableLeadStatus
   - SuperOffice.CRM.Data.DBC.CategoryFields.Name
   - SuperOffice.CRM.Data.DBC.CategoryFields.Rank
   - SuperOffice.CRM.Data.DBC.CategoryFields.Registered
@@ -272,6 +274,48 @@ items:
     return:
       type: System.String
     content.vb: Public Const CategoryFamilyId As String = "CategoryFamily_id"
+- uid: SuperOffice.CRM.Data.DBC.CategoryFields.CategoryGroup
+  commentId: F:SuperOffice.CRM.Data.DBC.CategoryFields.CategoryGroup
+  id: CategoryGroup
+  parent: SuperOffice.CRM.Data.DBC.CategoryFields
+  langs:
+  - csharp
+  - vb
+  name: CategoryGroup
+  nameWithType: DBC.CategoryFields.CategoryGroup
+  fullName: SuperOffice.CRM.Data.DBC.CategoryFields.CategoryGroup
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Category.CategoryGroup: Category group'
+  example: []
+  syntax:
+    content: public const string CategoryGroup = "category_group"
+    return:
+      type: System.String
+    content.vb: Public Const CategoryGroup As String = "category_group"
+- uid: SuperOffice.CRM.Data.DBC.CategoryFields.EnableLeadStatus
+  commentId: F:SuperOffice.CRM.Data.DBC.CategoryFields.EnableLeadStatus
+  id: EnableLeadStatus
+  parent: SuperOffice.CRM.Data.DBC.CategoryFields
+  langs:
+  - csharp
+  - vb
+  name: EnableLeadStatus
+  nameWithType: DBC.CategoryFields.EnableLeadStatus
+  fullName: SuperOffice.CRM.Data.DBC.CategoryFields.EnableLeadStatus
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Category.EnableLeadStatus: Enable lead status qualification for categorygroup potential customers'
+  example: []
+  syntax:
+    content: public const string EnableLeadStatus = "enable_lead_status"
+    return:
+      type: System.String
+    content.vb: Public Const EnableLeadStatus As String = "enable_lead_status"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

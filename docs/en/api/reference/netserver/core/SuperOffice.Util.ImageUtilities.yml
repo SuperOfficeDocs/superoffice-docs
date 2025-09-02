@@ -10,6 +10,7 @@ items:
   - SuperOffice.Util.ImageUtilities.GetBytes(System.Drawing.Image)
   - SuperOffice.Util.ImageUtilities.GetClearPixel(System.Drawing.Size)
   - SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String(System.String,System.String)
+  - SuperOffice.Util.ImageUtilities.GetImageTypeFromBytes(System.Byte[],System.String)
   - SuperOffice.Util.ImageUtilities.GetIntersectionRectangle(System.Drawing.Size,System.Drawing.Size,SuperOffice.Util.ImageUtilities.VerticalAlignment)
   - SuperOffice.Util.ImageUtilities.GetScaledImageOrDefaultImage(System.Drawing.Image,SuperOffice.Util.ImageUtilities.ImageSize,SuperOffice.Util.ImageUtilities.FallbackStrategy,System.Func{System.Drawing.Image},System.Boolean,System.Drawing.Color)
   - SuperOffice.Util.ImageUtilities.GetSrNoPhoto(System.Drawing.Size,System.Drawing.Color,System.Drawing.Color,System.Boolean,System.String)
@@ -22,7 +23,7 @@ items:
   - SuperOffice.Util.ImageUtilities.Min(System.Drawing.Size,System.Drawing.Size)
   - SuperOffice.Util.ImageUtilities.ProductImageSize
   - SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync(System.String,System.Int32,System.Threading.CancellationToken)
-  - SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction(System.String)
+  - SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReductionAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.Util.ImageUtilities.ScaleImage(System.Drawing.Image,SuperOffice.Util.ImageUtilities.ImageSize,SuperOffice.Util.ImageUtilities.VerticalAlignment)
   - SuperOffice.Util.ImageUtilities.ScaleImage(System.Drawing.Image,System.Double,System.Double,System.Drawing.Size,System.Drawing.Size,System.Drawing.Color,SuperOffice.Util.ImageUtilities.VerticalAlignment)
   - SuperOffice.Util.ImageUtilities.ThumbnailSize
@@ -348,16 +349,16 @@ items:
   nameWithType.vb: ImageUtilities.ResolveUrlOrBase64ImageAsync(String, Integer, CancellationToken)
   fullName.vb: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageAsync(String, Integer, System.Threading.CancellationToken)
   name.vb: ResolveUrlOrBase64ImageAsync(String, Integer, CancellationToken)
-- uid: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction(System.String)
-  commentId: M:SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction(System.String)
-  id: ResolveUrlOrBase64ImageNoReduction(System.String)
+- uid: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReductionAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReductionAsync(System.String,System.Threading.CancellationToken)
+  id: ResolveUrlOrBase64ImageNoReductionAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.Util.ImageUtilities
   langs:
   - csharp
   - vb
-  name: ResolveUrlOrBase64ImageNoReduction(string)
-  nameWithType: ImageUtilities.ResolveUrlOrBase64ImageNoReduction(string)
-  fullName: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction(string)
+  name: ResolveUrlOrBase64ImageNoReductionAsync(string, CancellationToken)
+  nameWithType: ImageUtilities.ResolveUrlOrBase64ImageNoReductionAsync(string, CancellationToken)
+  fullName: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReductionAsync(string, System.Threading.CancellationToken)
   type: Method
   assemblies:
   - SoCore
@@ -366,19 +367,21 @@ items:
   remarks: Eventually this should do some caching, have a cache-retention policy, flush etc... but in this prototype version we just fetch the data directly
   example: []
   syntax:
-    content: public static string ResolveUrlOrBase64ImageNoReduction(string input)
+    content: public static Task<string> ResolveUrlOrBase64ImageNoReductionAsync(string input, CancellationToken cancellationToken = default)
     parameters:
     - id: input
       type: System.String
       description: The input, which may be a base64 encoded image or a URL
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
     return:
-      type: System.String
+      type: System.Threading.Tasks.Task{System.String}
       description: ''
-    content.vb: Public Shared Function ResolveUrlOrBase64ImageNoReduction(input As String) As String
-  overload: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction*
-  nameWithType.vb: ImageUtilities.ResolveUrlOrBase64ImageNoReduction(String)
-  fullName.vb: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction(String)
-  name.vb: ResolveUrlOrBase64ImageNoReduction(String)
+    content.vb: Public Shared Function ResolveUrlOrBase64ImageNoReductionAsync(input As String, cancellationToken As CancellationToken = Nothing) As Task(Of String)
+  overload: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReductionAsync*
+  nameWithType.vb: ImageUtilities.ResolveUrlOrBase64ImageNoReductionAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReductionAsync(String, System.Threading.CancellationToken)
+  name.vb: ResolveUrlOrBase64ImageNoReductionAsync(String, CancellationToken)
 - uid: SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String(System.String,System.String)
   commentId: M:SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String(System.String,System.String)
   id: GetImageTypeFromBase64String(System.String,System.String)
@@ -393,6 +396,11 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Util
+  summary: >-
+    Determine image type from the first few bytes of the image data.
+
+    Note: not the media-type, but the image file extension (gif, png, jpeg, tiff).
+  example: []
   syntax:
     content: public static string GetImageTypeFromBase64String(string base64String, string defaultType)
     parameters:
@@ -400,13 +408,51 @@ items:
       type: System.String
     - id: defaultType
       type: System.String
+      description: "\"gif\", \"png\", \"jpeg\", or \"tiff\""
     return:
       type: System.String
+      description: "\"gif\", \"png\", \"jpeg\", or \"tiff\""
     content.vb: Public Shared Function GetImageTypeFromBase64String(base64String As String, defaultType As String) As String
   overload: SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String*
   nameWithType.vb: ImageUtilities.GetImageTypeFromBase64String(String, String)
   fullName.vb: SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String(String, String)
   name.vb: GetImageTypeFromBase64String(String, String)
+- uid: SuperOffice.Util.ImageUtilities.GetImageTypeFromBytes(System.Byte[],System.String)
+  commentId: M:SuperOffice.Util.ImageUtilities.GetImageTypeFromBytes(System.Byte[],System.String)
+  id: GetImageTypeFromBytes(System.Byte[],System.String)
+  parent: SuperOffice.Util.ImageUtilities
+  langs:
+  - csharp
+  - vb
+  name: GetImageTypeFromBytes(byte[], string)
+  nameWithType: ImageUtilities.GetImageTypeFromBytes(byte[], string)
+  fullName: SuperOffice.Util.ImageUtilities.GetImageTypeFromBytes(byte[], string)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: >-
+    Determine image type from the first few bytes of the image data.
+
+    Note: not the media-type, but the image file extension (gif, png, jpeg, tiff).
+  example: []
+  syntax:
+    content: public static string GetImageTypeFromBytes(byte[] bytes, string defaultType)
+    parameters:
+    - id: bytes
+      type: System.Byte[]
+      description: Image data
+    - id: defaultType
+      type: System.String
+      description: "\"gif\", \"png\", \"jpeg\", or \"tiff\""
+    return:
+      type: System.String
+      description: "\"gif\", \"png\", \"jpeg\", or \"tiff\""
+    content.vb: Public Shared Function GetImageTypeFromBytes(bytes As Byte(), defaultType As String) As String
+  overload: SuperOffice.Util.ImageUtilities.GetImageTypeFromBytes*
+  nameWithType.vb: ImageUtilities.GetImageTypeFromBytes(Byte(), String)
+  fullName.vb: SuperOffice.Util.ImageUtilities.GetImageTypeFromBytes(Byte(), String)
+  name.vb: GetImageTypeFromBytes(Byte(), String)
 - uid: SuperOffice.Util.ImageUtilities.TryFitImage(System.Byte[],System.Int32,System.Int32,System.Boolean)
   commentId: M:SuperOffice.Util.ImageUtilities.TryFitImage(System.Byte[],System.Int32,System.Int32,System.Boolean)
   id: TryFitImage(System.Byte[],System.Int32,System.Int32,System.Boolean)
@@ -1472,13 +1518,13 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-- uid: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction*
-  commentId: Overload:SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction
+- uid: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReductionAsync*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReductionAsync
   isExternal: true
-  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_ResolveUrlOrBase64ImageNoReduction_System_String_
-  name: ResolveUrlOrBase64ImageNoReduction
-  nameWithType: ImageUtilities.ResolveUrlOrBase64ImageNoReduction
-  fullName: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReduction
+  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_ResolveUrlOrBase64ImageNoReductionAsync_System_String_System_Threading_CancellationToken_
+  name: ResolveUrlOrBase64ImageNoReductionAsync
+  nameWithType: ImageUtilities.ResolveUrlOrBase64ImageNoReductionAsync
+  fullName: SuperOffice.Util.ImageUtilities.ResolveUrlOrBase64ImageNoReductionAsync
 - uid: SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String*
   commentId: Overload:SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String
   isExternal: true
@@ -1486,6 +1532,13 @@ references:
   name: GetImageTypeFromBase64String
   nameWithType: ImageUtilities.GetImageTypeFromBase64String
   fullName: SuperOffice.Util.ImageUtilities.GetImageTypeFromBase64String
+- uid: SuperOffice.Util.ImageUtilities.GetImageTypeFromBytes*
+  commentId: Overload:SuperOffice.Util.ImageUtilities.GetImageTypeFromBytes
+  isExternal: true
+  href: SuperOffice.Util.ImageUtilities.html#SuperOffice_Util_ImageUtilities_GetImageTypeFromBytes_System_Byte___System_String_
+  name: GetImageTypeFromBytes
+  nameWithType: ImageUtilities.GetImageTypeFromBytes
+  fullName: SuperOffice.Util.ImageUtilities.GetImageTypeFromBytes
 - uid: SuperOffice.Util.ImageUtilities.TryFitImage*
   commentId: Overload:SuperOffice.Util.ImageUtilities.TryFitImage
   isExternal: true

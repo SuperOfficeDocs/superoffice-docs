@@ -87,124 +87,6 @@ items:
       value: Contact Agent
     - type: System.String
       value: Interface for the Contact Agent. Contact (company) data services.
-- uid: SuperOffice.CRM.Services.IContactAgent.CreateDefaultContactEntityAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IContactAgent.CreateDefaultContactEntityAsync(System.Threading.CancellationToken)
-  id: CreateDefaultContactEntityAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IContactAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultContactEntityAsync(CancellationToken)
-  nameWithType: IContactAgent.CreateDefaultContactEntityAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IContactAgent.CreateDefaultContactEntityAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new ContactEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: Task<ContactEntity> CreateDefaultContactEntityAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ContactEntity}
-      description: New ContactEntity with default values
-    content.vb: Function CreateDefaultContactEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ContactEntity)
-  overload: SuperOffice.CRM.Services.IContactAgent.CreateDefaultContactEntityAsync*
-- uid: SuperOffice.CRM.Services.IContactAgent.SaveContactEntityAsync(SuperOffice.CRM.Services.ContactEntity,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IContactAgent.SaveContactEntityAsync(SuperOffice.CRM.Services.ContactEntity,System.Threading.CancellationToken)
-  id: SaveContactEntityAsync(SuperOffice.CRM.Services.ContactEntity,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IContactAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveContactEntityAsync(ContactEntity, CancellationToken)
-  nameWithType: IContactAgent.SaveContactEntityAsync(ContactEntity, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IContactAgent.SaveContactEntityAsync(SuperOffice.CRM.Services.ContactEntity, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing ContactEntity or creates a new ContactEntity if the id parameter is empty
-  example: []
-  syntax:
-    content: Task<ContactEntity> SaveContactEntityAsync(ContactEntity contactEntity, CancellationToken cancellationToken = default)
-    parameters:
-    - id: contactEntity
-      type: SuperOffice.CRM.Services.ContactEntity
-      description: The ContactEntity that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ContactEntity}
-      description: New or updated ContactEntity
-    content.vb: Function SaveContactEntityAsync(contactEntity As ContactEntity, cancellationToken As CancellationToken = Nothing) As Task(Of ContactEntity)
-  overload: SuperOffice.CRM.Services.IContactAgent.SaveContactEntityAsync*
-- uid: SuperOffice.CRM.Services.IContactAgent.DeleteContactEntityAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IContactAgent.DeleteContactEntityAsync(System.Int32,System.Threading.CancellationToken)
-  id: DeleteContactEntityAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IContactAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteContactEntityAsync(int, CancellationToken)
-  nameWithType: IContactAgent.DeleteContactEntityAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IContactAgent.DeleteContactEntityAsync(int, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Deletes the ContactEntity
-  example: []
-  syntax:
-    content: Task DeleteContactEntityAsync(int contactEntityId, CancellationToken cancellationToken = default)
-    parameters:
-    - id: contactEntityId
-      type: System.Int32
-      description: The identity of the ContactEntity
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Function DeleteContactEntityAsync(contactEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
-  overload: SuperOffice.CRM.Services.IContactAgent.DeleteContactEntityAsync*
-  nameWithType.vb: IContactAgent.DeleteContactEntityAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IContactAgent.DeleteContactEntityAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeleteContactEntityAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContactAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContactAsync(System.Threading.CancellationToken)
-  id: CreateDefaultPreviewContactAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IContactAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultPreviewContactAsync(CancellationToken)
-  nameWithType: IContactAgent.CreateDefaultPreviewContactAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContactAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new PreviewContact.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: Task<PreviewContact> CreateDefaultPreviewContactAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewContact}
-      description: New PreviewContact with default values
-    content.vb: Function CreateDefaultPreviewContactAsync(cancellationToken As CancellationToken = Nothing) As Task(Of PreviewContact)
-  overload: SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContactAsync*
 - uid: SuperOffice.CRM.Services.IContactAgent.GetContactAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IContactAgent.GetContactAsync(System.Int32,System.Threading.CancellationToken)
   id: GetContactAsync(System.Int32,System.Threading.CancellationToken)
@@ -231,7 +113,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Contact}
-      description: Contact
+      description: A single Contact
     content.vb: Function GetContactAsync(contactId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Contact)
   overload: SuperOffice.CRM.Services.IContactAgent.GetContactAsync*
   nameWithType.vb: IContactAgent.GetContactAsync(Integer, CancellationToken)
@@ -275,6 +157,93 @@ items:
   nameWithType.vb: IContactAgent.GetMyActiveContactsAsync(Date, Integer(), ContactAction, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IContactAgent.GetMyActiveContactsAsync(Date, Integer(), SuperOffice.CRM.Services.Util.ContactAction, System.Threading.CancellationToken)
   name.vb: GetMyActiveContactsAsync(Date, Integer(), ContactAction, CancellationToken)
+- uid: SuperOffice.CRM.Services.IContactAgent.CreateDefaultContactEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.CreateDefaultContactEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultContactEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultContactEntityAsync(CancellationToken)
+  nameWithType: IContactAgent.CreateDefaultContactEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IContactAgent.CreateDefaultContactEntityAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new ContactEntity.
+  example: []
+  syntax:
+    content: Task<ContactEntity> CreateDefaultContactEntityAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ContactEntity}
+      description: New ContactEntity with default values
+    content.vb: Function CreateDefaultContactEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ContactEntity)
+  overload: SuperOffice.CRM.Services.IContactAgent.CreateDefaultContactEntityAsync*
+- uid: SuperOffice.CRM.Services.IContactAgent.SaveContactEntityAsync(SuperOffice.CRM.Services.ContactEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.SaveContactEntityAsync(SuperOffice.CRM.Services.ContactEntity,System.Threading.CancellationToken)
+  id: SaveContactEntityAsync(SuperOffice.CRM.Services.ContactEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveContactEntityAsync(ContactEntity, CancellationToken)
+  nameWithType: IContactAgent.SaveContactEntityAsync(ContactEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IContactAgent.SaveContactEntityAsync(SuperOffice.CRM.Services.ContactEntity, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing ContactEntity or creates a new ContactEntity if the id parameter is 0.
+  example: []
+  syntax:
+    content: Task<ContactEntity> SaveContactEntityAsync(ContactEntity contactEntity, CancellationToken cancellationToken = default)
+    parameters:
+    - id: contactEntity
+      type: SuperOffice.CRM.Services.ContactEntity
+      description: The ContactEntity that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ContactEntity}
+      description: New or updated ContactEntity
+    content.vb: Function SaveContactEntityAsync(contactEntity As ContactEntity, cancellationToken As CancellationToken = Nothing) As Task(Of ContactEntity)
+  overload: SuperOffice.CRM.Services.IContactAgent.SaveContactEntityAsync*
+- uid: SuperOffice.CRM.Services.IContactAgent.DeleteContactEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.DeleteContactEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteContactEntityAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteContactEntityAsync(int, CancellationToken)
+  nameWithType: IContactAgent.DeleteContactEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IContactAgent.DeleteContactEntityAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Deletes the ContactEntity. This table supports Soft Delete; records will be marked as deleted and disappear from the GUI and API results, but will not be physically deleted by this (and any other) method.
+  example: []
+  syntax:
+    content: Task DeleteContactEntityAsync(int contactEntityId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: contactEntityId
+      type: System.Int32
+      description: The identity of the ContactEntity
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function DeleteContactEntityAsync(contactEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IContactAgent.DeleteContactEntityAsync*
+  nameWithType.vb: IContactAgent.DeleteContactEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IContactAgent.DeleteContactEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteContactEntityAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IContactAgent.GetContactEntityAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IContactAgent.GetContactEntityAsync(System.Int32,System.Threading.CancellationToken)
   id: GetContactEntityAsync(System.Int32,System.Threading.CancellationToken)
@@ -301,7 +270,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ContactEntity}
-      description: ContactEntity
+      description: A single ContactEntity
     content.vb: Function GetContactEntityAsync(contactEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ContactEntity)
   overload: SuperOffice.CRM.Services.IContactAgent.GetContactEntityAsync*
   nameWithType.vb: IContactAgent.GetContactEntityAsync(Integer, CancellationToken)
@@ -1119,7 +1088,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Contact[]}
-      description: Array of Contact objects
+      description: Array of Contact
     content.vb: Function GetContactListAsync(contactIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of Contact())
   overload: SuperOffice.CRM.Services.IContactAgent.GetContactListAsync*
   nameWithType.vb: IContactAgent.GetContactListAsync(Integer(), CancellationToken)
@@ -1180,6 +1149,32 @@ items:
       description: Arrayof contacts
     content.vb: Function GetMyRecentContactsAsync(sourceType As ContactSourceType, cancellationToken As CancellationToken = Nothing) As Task(Of Contact())
   overload: SuperOffice.CRM.Services.IContactAgent.GetMyRecentContactsAsync*
+- uid: SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContactAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContactAsync(System.Threading.CancellationToken)
+  id: CreateDefaultPreviewContactAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IContactAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultPreviewContactAsync(CancellationToken)
+  nameWithType: IContactAgent.CreateDefaultPreviewContactAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContactAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new PreviewContact.
+  example: []
+  syntax:
+    content: Task<PreviewContact> CreateDefaultPreviewContactAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewContact}
+      description: New PreviewContact with default values
+    content.vb: Function CreateDefaultPreviewContactAsync(cancellationToken As CancellationToken = Nothing) As Task(Of PreviewContact)
+  overload: SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContactAsync*
 - uid: SuperOffice.CRM.Services.IContactAgent.GetPreviewContactAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IContactAgent.GetPreviewContactAsync(System.Int32,System.Threading.CancellationToken)
   id: GetPreviewContactAsync(System.Int32,System.Threading.CancellationToken)
@@ -1282,13 +1277,24 @@ references:
     name: Services
     isExternal: true
     href: SuperOffice.CRM.Services.html
-- uid: SuperOffice.CRM.Services.IContactAgent.CreateDefaultContactEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IContactAgent.CreateDefaultContactEntityAsync
+- uid: SuperOffice.CRM.Services.IContactAgent.GetContactAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IContactAgent.GetContactAsync
   isExternal: true
-  href: SuperOffice.CRM.Services.IContactAgent.html#SuperOffice_CRM_Services_IContactAgent_CreateDefaultContactEntityAsync_System_Threading_CancellationToken_
-  name: CreateDefaultContactEntityAsync
-  nameWithType: IContactAgent.CreateDefaultContactEntityAsync
-  fullName: SuperOffice.CRM.Services.IContactAgent.CreateDefaultContactEntityAsync
+  href: SuperOffice.CRM.Services.IContactAgent.html#SuperOffice_CRM_Services_IContactAgent_GetContactAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetContactAsync
+  nameWithType: IContactAgent.GetContactAsync
+  fullName: SuperOffice.CRM.Services.IContactAgent.GetContactAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.Threading.CancellationToken
   commentId: T:System.Threading.CancellationToken
   parent: System.Threading
@@ -1297,27 +1303,27 @@ references:
   name: CancellationToken
   nameWithType: CancellationToken
   fullName: System.Threading.CancellationToken
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ContactEntity}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ContactEntity}
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Contact}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Contact}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
   href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<ContactEntity>
-  nameWithType: Task<ContactEntity>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ContactEntity>
-  nameWithType.vb: Task(Of ContactEntity)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ContactEntity)
-  name.vb: Task(Of ContactEntity)
+  name: Task<Contact>
+  nameWithType: Task<Contact>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Contact>
+  nameWithType.vb: Task(Of Contact)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Contact)
+  name.vb: Task(Of Contact)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - uid: SuperOffice.CRM.Services.ContactEntity
-    name: ContactEntity
+  - uid: SuperOffice.CRM.Services.Contact
+    name: Contact
     isExternal: true
-    href: SuperOffice.CRM.Services.ContactEntity.html
+    href: SuperOffice.CRM.Services.Contact.html
   - name: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
@@ -1327,11 +1333,18 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: SuperOffice.CRM.Services.ContactEntity
-    name: ContactEntity
+  - uid: SuperOffice.CRM.Services.Contact
+    name: Contact
     isExternal: true
-    href: SuperOffice.CRM.Services.ContactEntity.html
+    href: SuperOffice.CRM.Services.Contact.html
   - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: System.Threading
   commentId: N:System.Threading
   isExternal: true
@@ -1424,138 +1437,6 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-- uid: SuperOffice.CRM.Services.IContactAgent.SaveContactEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IContactAgent.SaveContactEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IContactAgent.html#SuperOffice_CRM_Services_IContactAgent_SaveContactEntityAsync_SuperOffice_CRM_Services_ContactEntity_System_Threading_CancellationToken_
-  name: SaveContactEntityAsync
-  nameWithType: IContactAgent.SaveContactEntityAsync
-  fullName: SuperOffice.CRM.Services.IContactAgent.SaveContactEntityAsync
-- uid: SuperOffice.CRM.Services.ContactEntity
-  commentId: T:SuperOffice.CRM.Services.ContactEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.ContactEntity.html
-  name: ContactEntity
-  nameWithType: ContactEntity
-  fullName: SuperOffice.CRM.Services.ContactEntity
-- uid: SuperOffice.CRM.Services.IContactAgent.DeleteContactEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IContactAgent.DeleteContactEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IContactAgent.html#SuperOffice_CRM_Services_IContactAgent_DeleteContactEntityAsync_System_Int32_System_Threading_CancellationToken_
-  name: DeleteContactEntityAsync
-  nameWithType: IContactAgent.DeleteContactEntityAsync
-  fullName: SuperOffice.CRM.Services.IContactAgent.DeleteContactEntityAsync
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
-- uid: System.Threading.Tasks.Task
-  commentId: T:System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContactAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContactAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IContactAgent.html#SuperOffice_CRM_Services_IContactAgent_CreateDefaultPreviewContactAsync_System_Threading_CancellationToken_
-  name: CreateDefaultPreviewContactAsync
-  nameWithType: IContactAgent.CreateDefaultPreviewContactAsync
-  fullName: SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContactAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewContact}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewContact}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<PreviewContact>
-  nameWithType: Task<PreviewContact>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PreviewContact>
-  nameWithType.vb: Task(Of PreviewContact)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PreviewContact)
-  name.vb: Task(Of PreviewContact)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.PreviewContact
-    name: PreviewContact
-    isExternal: true
-    href: SuperOffice.CRM.Services.PreviewContact.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.PreviewContact
-    name: PreviewContact
-    isExternal: true
-    href: SuperOffice.CRM.Services.PreviewContact.html
-  - name: )
-- uid: SuperOffice.CRM.Services.IContactAgent.GetContactAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IContactAgent.GetContactAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IContactAgent.html#SuperOffice_CRM_Services_IContactAgent_GetContactAsync_System_Int32_System_Threading_CancellationToken_
-  name: GetContactAsync
-  nameWithType: IContactAgent.GetContactAsync
-  fullName: SuperOffice.CRM.Services.IContactAgent.GetContactAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Contact}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Contact}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<Contact>
-  nameWithType: Task<Contact>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Contact>
-  nameWithType.vb: Task(Of Contact)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Contact)
-  name.vb: Task(Of Contact)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.Contact
-    name: Contact
-    isExternal: true
-    href: SuperOffice.CRM.Services.Contact.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.Contact
-    name: Contact
-    isExternal: true
-    href: SuperOffice.CRM.Services.Contact.html
-  - name: )
 - uid: SuperOffice.CRM.Services.IContactAgent.GetMyActiveContactsAsync*
   commentId: Overload:SuperOffice.CRM.Services.IContactAgent.GetMyActiveContactsAsync
   isExternal: true
@@ -1691,6 +1572,78 @@ references:
     name: Util
     isExternal: true
     href: SuperOffice.CRM.Services.Util.html
+- uid: SuperOffice.CRM.Services.IContactAgent.CreateDefaultContactEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IContactAgent.CreateDefaultContactEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IContactAgent.html#SuperOffice_CRM_Services_IContactAgent_CreateDefaultContactEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultContactEntityAsync
+  nameWithType: IContactAgent.CreateDefaultContactEntityAsync
+  fullName: SuperOffice.CRM.Services.IContactAgent.CreateDefaultContactEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ContactEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ContactEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ContactEntity>
+  nameWithType: Task<ContactEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ContactEntity>
+  nameWithType.vb: Task(Of ContactEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ContactEntity)
+  name.vb: Task(Of ContactEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.ContactEntity
+    name: ContactEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.ContactEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.ContactEntity
+    name: ContactEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.ContactEntity.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IContactAgent.SaveContactEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IContactAgent.SaveContactEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IContactAgent.html#SuperOffice_CRM_Services_IContactAgent_SaveContactEntityAsync_SuperOffice_CRM_Services_ContactEntity_System_Threading_CancellationToken_
+  name: SaveContactEntityAsync
+  nameWithType: IContactAgent.SaveContactEntityAsync
+  fullName: SuperOffice.CRM.Services.IContactAgent.SaveContactEntityAsync
+- uid: SuperOffice.CRM.Services.ContactEntity
+  commentId: T:SuperOffice.CRM.Services.ContactEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.ContactEntity.html
+  name: ContactEntity
+  nameWithType: ContactEntity
+  fullName: SuperOffice.CRM.Services.ContactEntity
+- uid: SuperOffice.CRM.Services.IContactAgent.DeleteContactEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IContactAgent.DeleteContactEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IContactAgent.html#SuperOffice_CRM_Services_IContactAgent_DeleteContactEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteContactEntityAsync
+  nameWithType: IContactAgent.DeleteContactEntityAsync
+  fullName: SuperOffice.CRM.Services.IContactAgent.DeleteContactEntityAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Services.IContactAgent.GetContactEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.IContactAgent.GetContactEntityAsync
   isExternal: true
@@ -2372,6 +2325,48 @@ references:
   name: ContactSourceType
   nameWithType: ContactSourceType
   fullName: SuperOffice.CRM.Services.Util.ContactSourceType
+- uid: SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContactAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContactAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IContactAgent.html#SuperOffice_CRM_Services_IContactAgent_CreateDefaultPreviewContactAsync_System_Threading_CancellationToken_
+  name: CreateDefaultPreviewContactAsync
+  nameWithType: IContactAgent.CreateDefaultPreviewContactAsync
+  fullName: SuperOffice.CRM.Services.IContactAgent.CreateDefaultPreviewContactAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewContact}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PreviewContact}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<PreviewContact>
+  nameWithType: Task<PreviewContact>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PreviewContact>
+  nameWithType.vb: Task(Of PreviewContact)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PreviewContact)
+  name.vb: Task(Of PreviewContact)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.PreviewContact
+    name: PreviewContact
+    isExternal: true
+    href: SuperOffice.CRM.Services.PreviewContact.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.PreviewContact
+    name: PreviewContact
+    isExternal: true
+    href: SuperOffice.CRM.Services.PreviewContact.html
+  - name: )
 - uid: SuperOffice.CRM.Services.IContactAgent.GetPreviewContactAsync*
   commentId: Overload:SuperOffice.CRM.Services.IContactAgent.GetPreviewContactAsync
   isExternal: true

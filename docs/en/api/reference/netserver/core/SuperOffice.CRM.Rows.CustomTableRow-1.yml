@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.Rows
   children:
   - SuperOffice.CRM.Rows.CustomTableRow`1.#ctor(SuperOffice.CRM.Rows.CustomTableRow{`0}.CustomTableRowIdxBase)
+  - SuperOffice.CRM.Rows.CustomTableRow`1.GetFromPrimaryKeyAsync(`0,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.CustomTableRow`1.InnerFieldValuePairs
   - SuperOffice.CRM.Rows.CustomTableRow`1.InnerPrimaryKey
   - SuperOffice.CRM.Rows.CustomTableRow`1.InnerPrimaryKeyValue
@@ -158,6 +159,41 @@ items:
   nameWithType.vb: CustomTableRow(Of TTableInfo).New(CustomTableRow(Of TTableInfo).CustomTableRowIdxBase)
   fullName.vb: SuperOffice.CRM.Rows.CustomTableRow(Of TTableInfo).New(SuperOffice.CRM.Rows.CustomTableRow(Of TTableInfo).CustomTableRowIdxBase)
   name.vb: New(CustomTableRowIdxBase)
+- uid: SuperOffice.CRM.Rows.CustomTableRow`1.GetFromPrimaryKeyAsync(`0,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.CustomTableRow`1.GetFromPrimaryKeyAsync(`0,System.Int32,System.Threading.CancellationToken)
+  id: GetFromPrimaryKeyAsync(`0,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Rows.CustomTableRow`1
+  langs:
+  - csharp
+  - vb
+  name: GetFromPrimaryKeyAsync(TTableInfo, int, CancellationToken)
+  nameWithType: CustomTableRow<TTableInfo>.GetFromPrimaryKeyAsync(TTableInfo, int, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.CustomTableRow<TTableInfo>.GetFromPrimaryKeyAsync(TTableInfo, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Retrieves a CustomTableRow from the custom table based on the specified TableInfo and primary key.
+  example: []
+  syntax:
+    content: public static Task<CustomTableRow<TTableInfo>> GetFromPrimaryKeyAsync(TTableInfo tableInfo, int primaryKey, CancellationToken cancellationToken = default)
+    parameters:
+    - id: tableInfo
+      type: '{TTableInfo}'
+      description: The TableInfo describing the table from which the row will be retrieved.
+    - id: primaryKey
+      type: System.Int32
+      description: The Primary Key of the row to retrieve.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.CustomTableRow`1}
+      description: CustomTableRow based on the specified TableInfo and primary key.
+    content.vb: Public Shared Function GetFromPrimaryKeyAsync(tableInfo As TTableInfo, primaryKey As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of CustomTableRow(Of TTableInfo))
+  overload: SuperOffice.CRM.Rows.CustomTableRow`1.GetFromPrimaryKeyAsync*
+  nameWithType.vb: CustomTableRow(Of TTableInfo).GetFromPrimaryKeyAsync(TTableInfo, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.CustomTableRow(Of TTableInfo).GetFromPrimaryKeyAsync(TTableInfo, Integer, System.Threading.CancellationToken)
+  name.vb: GetFromPrimaryKeyAsync(TTableInfo, Integer, CancellationToken)
 - uid: SuperOffice.CRM.Rows.CustomTableRow`1.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   commentId: M:SuperOffice.CRM.Rows.CustomTableRow`1.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   id: OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
@@ -3451,6 +3487,179 @@ references:
     name: CustomTableRowIdxBase
     isExternal: true
     href: SuperOffice.CRM.Rows.CustomTableRow-1.CustomTableRowIdxBase.html
+- uid: SuperOffice.CRM.Rows.CustomTableRow`1.GetFromPrimaryKeyAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.CustomTableRow`1.GetFromPrimaryKeyAsync
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CustomTableRow-1.html#SuperOffice_CRM_Rows_CustomTableRow_1_GetFromPrimaryKeyAsync__0_System_Int32_System_Threading_CancellationToken_
+  name: GetFromPrimaryKeyAsync
+  nameWithType: CustomTableRow<TTableInfo>.GetFromPrimaryKeyAsync
+  fullName: SuperOffice.CRM.Rows.CustomTableRow<TTableInfo>.GetFromPrimaryKeyAsync
+  nameWithType.vb: CustomTableRow(Of TTableInfo).GetFromPrimaryKeyAsync
+  fullName.vb: SuperOffice.CRM.Rows.CustomTableRow(Of TTableInfo).GetFromPrimaryKeyAsync
+- uid: '{TTableInfo}'
+  commentId: '!:TTableInfo'
+  definition: TTableInfo
+  name: TTableInfo
+  nameWithType: TTableInfo
+  fullName: TTableInfo
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.CustomTableRow`1}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Rows.CustomTableRow`1}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<CustomTableRow<TTableInfo>>
+  nameWithType: Task<CustomTableRow<TTableInfo>>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Rows.CustomTableRow<TTableInfo>>
+  nameWithType.vb: Task(Of CustomTableRow(Of TTableInfo))
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Rows.CustomTableRow(Of TTableInfo))
+  name.vb: Task(Of CustomTableRow(Of TTableInfo))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.CustomTableRow`1
+    name: CustomTableRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CustomTableRow-1.html
+  - name: <
+  - name: TTableInfo
+  - name: '>'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.CustomTableRow`1
+    name: CustomTableRow
+    isExternal: true
+    href: SuperOffice.CRM.Rows.CustomTableRow-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TTableInfo
+  - name: )
+  - name: )
+- uid: TTableInfo
+  name: TTableInfo
+  nameWithType: TTableInfo
+  fullName: TTableInfo
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.Data.SoDataReader
   commentId: T:SuperOffice.Data.SoDataReader
   parent: SuperOffice.Data
@@ -3642,14 +3851,6 @@ references:
   name: DefaulterStrategy
   nameWithType: DefaulterStrategy
   fullName: SuperOffice.CRM.Rows.DefaulterStrategy
-- uid: System.Threading.CancellationToken
-  commentId: T:System.Threading.CancellationToken
-  parent: System.Threading
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
 - uid: System.Threading.Tasks.Task
   commentId: T:System.Threading.Tasks.Task
   parent: System.Threading.Tasks
@@ -3658,70 +3859,6 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
-- uid: System.Threading
-  commentId: N:System.Threading
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Threading
-  nameWithType: System.Threading
-  fullName: System.Threading
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-- uid: System.Threading.Tasks
-  commentId: N:System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Threading.Tasks
-  nameWithType: System.Threading.Tasks
-  fullName: System.Threading.Tasks
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  - name: .
-  - uid: System.Threading.Tasks
-    name: Tasks
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
 - uid: SuperOffice.CRM.Rows.TableRowBase.Validate(SuperOffice.CRM.Rows.RowValidator)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.Validate(SuperOffice.CRM.Rows.RowValidator)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -3851,17 +3988,6 @@ references:
   fullName: SuperOffice.CRM.Rows.CustomTableRow<TTableInfo>.SetPrimaryKey
   nameWithType.vb: CustomTableRow(Of TTableInfo).SetPrimaryKey
   fullName.vb: SuperOffice.CRM.Rows.CustomTableRow(Of TTableInfo).SetPrimaryKey
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
 - uid: SuperOffice.CRM.Rows.TableRowBase.Item(System.String)
   commentId: P:SuperOffice.CRM.Rows.TableRowBase.Item(System.String)
   parent: SuperOffice.CRM.Rows.TableRowBase

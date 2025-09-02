@@ -1,0 +1,843 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.EjScriptVerb
+  commentId: T:SuperOffice.Data.EjScriptVerb
+  id: EjScriptVerb
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.EjScriptVerb.BlockAll
+  - SuperOffice.Data.EjScriptVerb.BlockCONNECT
+  - SuperOffice.Data.EjScriptVerb.BlockDELETE
+  - SuperOffice.Data.EjScriptVerb.BlockGET
+  - SuperOffice.Data.EjScriptVerb.BlockHEAD
+  - SuperOffice.Data.EjScriptVerb.BlockNone
+  - SuperOffice.Data.EjScriptVerb.BlockOPTIONS
+  - SuperOffice.Data.EjScriptVerb.BlockOTHER
+  - SuperOffice.Data.EjScriptVerb.BlockPATCH
+  - SuperOffice.Data.EjScriptVerb.BlockPOST
+  - SuperOffice.Data.EjScriptVerb.BlockPUT
+  - SuperOffice.Data.EjScriptVerb.BlockTRACE
+  langs:
+  - csharp
+  - vb
+  name: EjScriptVerb
+  nameWithType: EjScriptVerb
+  fullName: SuperOffice.Data.EjScriptVerb
+  type: Enum
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: >-
+    Flag values for field 'blocked_verbs' in table 'ejscript'.
+
+    This Enum is used by:  ejscript.blocked_verbs
+
+    This Enum consists of flag values that can be combined.
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum EjScriptVerb
+    content.vb: >-
+      <Flags>
+
+      Public Enum EjScriptVerb
+  extensionMethods:
+  - SuperOffice.Data.EjScriptVerb.EnumUtil.MapEnums``2
+  - SuperOffice.Data.EjScriptVerb.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.Data.EjScriptVerb.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EjScriptVerb)
+  - SuperOffice.Data.EjScriptVerb.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  - System.Enum.EnumUtil.GetDescription
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.EjScriptVerb.BlockNone
+  commentId: F:SuperOffice.Data.EjScriptVerb.BlockNone
+  id: BlockNone
+  parent: SuperOffice.Data.EjScriptVerb
+  langs:
+  - csharp
+  - vb
+  name: BlockNone
+  nameWithType: EjScriptVerb.BlockNone
+  fullName: SuperOffice.Data.EjScriptVerb.BlockNone
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '0: All verbs allowed'
+  example: []
+  syntax:
+    content: BlockNone = 0
+    return:
+      type: SuperOffice.Data.EjScriptVerb
+- uid: SuperOffice.Data.EjScriptVerb.BlockGET
+  commentId: F:SuperOffice.Data.EjScriptVerb.BlockGET
+  id: BlockGET
+  parent: SuperOffice.Data.EjScriptVerb
+  langs:
+  - csharp
+  - vb
+  name: BlockGET
+  nameWithType: EjScriptVerb.BlockGET
+  fullName: SuperOffice.Data.EjScriptVerb.BlockGET
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '1: Block GET access'
+  example: []
+  syntax:
+    content: BlockGET = 1
+    return:
+      type: SuperOffice.Data.EjScriptVerb
+- uid: SuperOffice.Data.EjScriptVerb.BlockPOST
+  commentId: F:SuperOffice.Data.EjScriptVerb.BlockPOST
+  id: BlockPOST
+  parent: SuperOffice.Data.EjScriptVerb
+  langs:
+  - csharp
+  - vb
+  name: BlockPOST
+  nameWithType: EjScriptVerb.BlockPOST
+  fullName: SuperOffice.Data.EjScriptVerb.BlockPOST
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '2: Block POST access'
+  example: []
+  syntax:
+    content: BlockPOST = 2
+    return:
+      type: SuperOffice.Data.EjScriptVerb
+- uid: SuperOffice.Data.EjScriptVerb.BlockPUT
+  commentId: F:SuperOffice.Data.EjScriptVerb.BlockPUT
+  id: BlockPUT
+  parent: SuperOffice.Data.EjScriptVerb
+  langs:
+  - csharp
+  - vb
+  name: BlockPUT
+  nameWithType: EjScriptVerb.BlockPUT
+  fullName: SuperOffice.Data.EjScriptVerb.BlockPUT
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '4: Block PUT access'
+  example: []
+  syntax:
+    content: BlockPUT = 4
+    return:
+      type: SuperOffice.Data.EjScriptVerb
+- uid: SuperOffice.Data.EjScriptVerb.BlockDELETE
+  commentId: F:SuperOffice.Data.EjScriptVerb.BlockDELETE
+  id: BlockDELETE
+  parent: SuperOffice.Data.EjScriptVerb
+  langs:
+  - csharp
+  - vb
+  name: BlockDELETE
+  nameWithType: EjScriptVerb.BlockDELETE
+  fullName: SuperOffice.Data.EjScriptVerb.BlockDELETE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '8: Block DELETE access'
+  example: []
+  syntax:
+    content: BlockDELETE = 8
+    return:
+      type: SuperOffice.Data.EjScriptVerb
+- uid: SuperOffice.Data.EjScriptVerb.BlockPATCH
+  commentId: F:SuperOffice.Data.EjScriptVerb.BlockPATCH
+  id: BlockPATCH
+  parent: SuperOffice.Data.EjScriptVerb
+  langs:
+  - csharp
+  - vb
+  name: BlockPATCH
+  nameWithType: EjScriptVerb.BlockPATCH
+  fullName: SuperOffice.Data.EjScriptVerb.BlockPATCH
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '16: Block PATCH access'
+  example: []
+  syntax:
+    content: BlockPATCH = 16
+    return:
+      type: SuperOffice.Data.EjScriptVerb
+- uid: SuperOffice.Data.EjScriptVerb.BlockOPTIONS
+  commentId: F:SuperOffice.Data.EjScriptVerb.BlockOPTIONS
+  id: BlockOPTIONS
+  parent: SuperOffice.Data.EjScriptVerb
+  langs:
+  - csharp
+  - vb
+  name: BlockOPTIONS
+  nameWithType: EjScriptVerb.BlockOPTIONS
+  fullName: SuperOffice.Data.EjScriptVerb.BlockOPTIONS
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '32: Block OPTIONS access'
+  example: []
+  syntax:
+    content: BlockOPTIONS = 32
+    return:
+      type: SuperOffice.Data.EjScriptVerb
+- uid: SuperOffice.Data.EjScriptVerb.BlockHEAD
+  commentId: F:SuperOffice.Data.EjScriptVerb.BlockHEAD
+  id: BlockHEAD
+  parent: SuperOffice.Data.EjScriptVerb
+  langs:
+  - csharp
+  - vb
+  name: BlockHEAD
+  nameWithType: EjScriptVerb.BlockHEAD
+  fullName: SuperOffice.Data.EjScriptVerb.BlockHEAD
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '64: Block HEAD access'
+  example: []
+  syntax:
+    content: BlockHEAD = 64
+    return:
+      type: SuperOffice.Data.EjScriptVerb
+- uid: SuperOffice.Data.EjScriptVerb.BlockTRACE
+  commentId: F:SuperOffice.Data.EjScriptVerb.BlockTRACE
+  id: BlockTRACE
+  parent: SuperOffice.Data.EjScriptVerb
+  langs:
+  - csharp
+  - vb
+  name: BlockTRACE
+  nameWithType: EjScriptVerb.BlockTRACE
+  fullName: SuperOffice.Data.EjScriptVerb.BlockTRACE
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '128: Block TRACE access'
+  example: []
+  syntax:
+    content: BlockTRACE = 128
+    return:
+      type: SuperOffice.Data.EjScriptVerb
+- uid: SuperOffice.Data.EjScriptVerb.BlockCONNECT
+  commentId: F:SuperOffice.Data.EjScriptVerb.BlockCONNECT
+  id: BlockCONNECT
+  parent: SuperOffice.Data.EjScriptVerb
+  langs:
+  - csharp
+  - vb
+  name: BlockCONNECT
+  nameWithType: EjScriptVerb.BlockCONNECT
+  fullName: SuperOffice.Data.EjScriptVerb.BlockCONNECT
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '256: Block CONNECT access'
+  example: []
+  syntax:
+    content: BlockCONNECT = 256
+    return:
+      type: SuperOffice.Data.EjScriptVerb
+- uid: SuperOffice.Data.EjScriptVerb.BlockOTHER
+  commentId: F:SuperOffice.Data.EjScriptVerb.BlockOTHER
+  id: BlockOTHER
+  parent: SuperOffice.Data.EjScriptVerb
+  langs:
+  - csharp
+  - vb
+  name: BlockOTHER
+  nameWithType: EjScriptVerb.BlockOTHER
+  fullName: SuperOffice.Data.EjScriptVerb.BlockOTHER
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '512: Block OTHER, can be used for custom verbs'
+  example: []
+  syntax:
+    content: BlockOTHER = 512
+    return:
+      type: SuperOffice.Data.EjScriptVerb
+- uid: SuperOffice.Data.EjScriptVerb.BlockAll
+  commentId: F:SuperOffice.Data.EjScriptVerb.BlockAll
+  id: BlockAll
+  parent: SuperOffice.Data.EjScriptVerb
+  langs:
+  - csharp
+  - vb
+  name: BlockAll
+  nameWithType: EjScriptVerb.BlockAll
+  fullName: SuperOffice.Data.EjScriptVerb.BlockAll
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '-1: No verbs are allowed'
+  example: []
+  syntax:
+    content: BlockAll = -1
+    return:
+      type: SuperOffice.Data.EjScriptVerb
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.Data.EjScriptVerb.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<EjScriptVerb, To>(EjScriptVerb)
+  nameWithType: EnumUtil.MapEnums<EjScriptVerb, To>(EjScriptVerb)
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.EjScriptVerb, To>(SuperOffice.Data.EjScriptVerb)
+  nameWithType.vb: EnumUtil.MapEnums(Of EjScriptVerb, To)(EjScriptVerb)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.EjScriptVerb, To)(SuperOffice.Data.EjScriptVerb)
+  name.vb: MapEnums(Of EjScriptVerb, To)(EjScriptVerb)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.EjScriptVerb)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.EjScriptVerb
+    name: EjScriptVerb
+    isExternal: true
+    href: SuperOffice.Data.EjScriptVerb.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.EjScriptVerb
+    name: EjScriptVerb
+    isExternal: true
+    href: SuperOffice.Data.EjScriptVerb.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Data.EjScriptVerb)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.EjScriptVerb
+    name: EjScriptVerb
+    isExternal: true
+    href: SuperOffice.Data.EjScriptVerb.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.EjScriptVerb
+    name: EjScriptVerb
+    isExternal: true
+    href: SuperOffice.Data.EjScriptVerb.html
+  - name: )
+- uid: SuperOffice.Data.EjScriptVerb.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<EjScriptVerb, To>(EjScriptVerb)
+  nameWithType: Converters.MapEnums<EjScriptVerb, To>(EjScriptVerb)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.EjScriptVerb, To>(SuperOffice.Data.EjScriptVerb)
+  nameWithType.vb: Converters.MapEnums(Of EjScriptVerb, To)(EjScriptVerb)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.EjScriptVerb, To)(SuperOffice.Data.EjScriptVerb)
+  name.vb: MapEnums(Of EjScriptVerb, To)(EjScriptVerb)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.EjScriptVerb)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Data.EjScriptVerb
+    name: EjScriptVerb
+    isExternal: true
+    href: SuperOffice.Data.EjScriptVerb.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.EjScriptVerb
+    name: EjScriptVerb
+    isExternal: true
+    href: SuperOffice.Data.EjScriptVerb.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Data.EjScriptVerb)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.EjScriptVerb
+    name: EjScriptVerb
+    isExternal: true
+    href: SuperOffice.Data.EjScriptVerb.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.EjScriptVerb
+    name: EjScriptVerb
+    isExternal: true
+    href: SuperOffice.Data.EjScriptVerb.html
+  - name: )
+- uid: SuperOffice.Data.EjScriptVerb.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EjScriptVerb)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<EjScriptVerb>(EjScriptVerb, EjScriptVerb)
+  nameWithType: ObjectExtensions.AssignByReflection<EjScriptVerb>(EjScriptVerb, EjScriptVerb)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.EjScriptVerb>(SuperOffice.Data.EjScriptVerb, SuperOffice.Data.EjScriptVerb)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of EjScriptVerb)(EjScriptVerb, EjScriptVerb)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.EjScriptVerb)(SuperOffice.Data.EjScriptVerb, SuperOffice.Data.EjScriptVerb)
+  name.vb: AssignByReflection(Of EjScriptVerb)(EjScriptVerb, EjScriptVerb)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EjScriptVerb,SuperOffice.Data.EjScriptVerb)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.EjScriptVerb
+    name: EjScriptVerb
+    isExternal: true
+    href: SuperOffice.Data.EjScriptVerb.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.EjScriptVerb
+    name: EjScriptVerb
+    isExternal: true
+    href: SuperOffice.Data.EjScriptVerb.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.EjScriptVerb
+    name: EjScriptVerb
+    isExternal: true
+    href: SuperOffice.Data.EjScriptVerb.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.EjScriptVerb,SuperOffice.Data.EjScriptVerb)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.EjScriptVerb
+    name: EjScriptVerb
+    isExternal: true
+    href: SuperOffice.Data.EjScriptVerb.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.EjScriptVerb
+    name: EjScriptVerb
+    isExternal: true
+    href: SuperOffice.Data.EjScriptVerb.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.EjScriptVerb
+    name: EjScriptVerb
+    isExternal: true
+    href: SuperOffice.Data.EjScriptVerb.html
+  - name: )
+- uid: SuperOffice.Data.EjScriptVerb.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<EjScriptVerb>(EjScriptVerb)
+  nameWithType: ObjectExtensions.GraphCopy<EjScriptVerb>(EjScriptVerb)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.EjScriptVerb>(SuperOffice.Data.EjScriptVerb)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of EjScriptVerb)(EjScriptVerb)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.EjScriptVerb)(SuperOffice.Data.EjScriptVerb)
+  name.vb: GraphCopy(Of EjScriptVerb)(EjScriptVerb)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.EjScriptVerb)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.EjScriptVerb
+    name: EjScriptVerb
+    isExternal: true
+    href: SuperOffice.Data.EjScriptVerb.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.EjScriptVerb
+    name: EjScriptVerb
+    isExternal: true
+    href: SuperOffice.Data.EjScriptVerb.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.EjScriptVerb)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.EjScriptVerb
+    name: EjScriptVerb
+    isExternal: true
+    href: SuperOffice.Data.EjScriptVerb.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.EjScriptVerb
+    name: EjScriptVerb
+    isExternal: true
+    href: SuperOffice.Data.EjScriptVerb.html
+  - name: )
+- uid: System.Enum.EnumUtil.GetDescription
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  parent: EnumUtil
+  definition: EnumUtil.GetDescription(System.Enum)
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: EnumUtil.GetDescription(System.Enum)
+  commentId: M:EnumUtil.GetDescription(System.Enum)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  name: GetDescription(Enum)
+  nameWithType: EnumUtil.GetDescription(Enum)
+  fullName: EnumUtil.GetDescription(System.Enum)
+  spec.csharp:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.GetDescription(System.Enum)
+    name: GetDescription
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_GetDescription_System_Enum_
+  - name: (
+  - uid: System.Enum
+    name: Enum
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.enum
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.Data.EjScriptVerb
+  commentId: T:SuperOffice.Data.EjScriptVerb
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.EjScriptVerb.html
+  name: EjScriptVerb
+  nameWithType: EjScriptVerb
+  fullName: SuperOffice.Data.EjScriptVerb

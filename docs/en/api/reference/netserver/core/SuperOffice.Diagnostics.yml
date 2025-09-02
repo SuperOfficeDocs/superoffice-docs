@@ -22,8 +22,6 @@ items:
   - SuperOffice.Diagnostics.IServiceCallsRepository
   - SuperOffice.Diagnostics.ISoTimeRecorderContext
   - SuperOffice.Diagnostics.ISoTimeRecorderPlugin
-  - SuperOffice.Diagnostics.LogElement
-  - SuperOffice.Diagnostics.LogEntryInfo
   - SuperOffice.Diagnostics.OperationResourcesUsage
   - SuperOffice.Diagnostics.ResourceTraceWriter
   - SuperOffice.Diagnostics.ResourceTracer
@@ -35,8 +33,6 @@ items:
   - SuperOffice.Diagnostics.ServiceCallsRepositoryResourceLogger
   - SuperOffice.Diagnostics.ServiceCallsRepositoryResourceLoggerContext
   - SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter
-  - SuperOffice.Diagnostics.SoEventRecorder
-  - SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent
   - SuperOffice.Diagnostics.SoLogger
   - SuperOffice.Diagnostics.SoTimeLogger
   - SuperOffice.Diagnostics.SoTimeLoggerPlugin
@@ -133,22 +129,6 @@ references:
   name: IResourceUsageBucket
   nameWithType: IResourceUsageBucket
   fullName: SuperOffice.Diagnostics.IResourceUsageBucket
-- uid: SuperOffice.Diagnostics.LogEntryInfo
-  commentId: T:SuperOffice.Diagnostics.LogEntryInfo
-  parent: SuperOffice.Diagnostics
-  isExternal: true
-  href: SuperOffice.Diagnostics.LogEntryInfo.html
-  name: LogEntryInfo
-  nameWithType: LogEntryInfo
-  fullName: SuperOffice.Diagnostics.LogEntryInfo
-- uid: SuperOffice.Diagnostics.LogElement
-  commentId: T:SuperOffice.Diagnostics.LogElement
-  parent: SuperOffice.Diagnostics
-  isExternal: true
-  href: SuperOffice.Diagnostics.LogElement.html
-  name: LogElement
-  nameWithType: LogElement
-  fullName: SuperOffice.Diagnostics.LogElement
 - uid: SuperOffice.Diagnostics.ResourceTracer
   commentId: T:SuperOffice.Diagnostics.ResourceTracer
   parent: SuperOffice.Diagnostics
@@ -281,40 +261,6 @@ references:
   name: SimplePeriodicGrafanaReporter
   nameWithType: SimplePeriodicGrafanaReporter
   fullName: SuperOffice.Diagnostics.SimplePeriodicGrafanaReporter
-- uid: SuperOffice.Diagnostics.SoEventRecorder
-  commentId: T:SuperOffice.Diagnostics.SoEventRecorder
-  isExternal: true
-  href: SuperOffice.Diagnostics.SoEventRecorder.html
-  name: SoEventRecorder
-  nameWithType: SoEventRecorder
-  fullName: SuperOffice.Diagnostics.SoEventRecorder
-- uid: SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent
-  commentId: T:SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent
-  isExternal: true
-  href: SuperOffice.Diagnostics.SoEventRecorder.html
-  name: SoEventRecorder.SoRecordedEvent
-  nameWithType: SoEventRecorder.SoRecordedEvent
-  fullName: SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent
-  spec.csharp:
-  - uid: SuperOffice.Diagnostics.SoEventRecorder
-    name: SoEventRecorder
-    isExternal: true
-    href: SuperOffice.Diagnostics.SoEventRecorder.html
-  - name: .
-  - uid: SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent
-    name: SoRecordedEvent
-    isExternal: true
-    href: SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent.html
-  spec.vb:
-  - uid: SuperOffice.Diagnostics.SoEventRecorder
-    name: SoEventRecorder
-    isExternal: true
-    href: SuperOffice.Diagnostics.SoEventRecorder.html
-  - name: .
-  - uid: SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent
-    name: SoRecordedEvent
-    isExternal: true
-    href: SuperOffice.Diagnostics.SoEventRecorder.SoRecordedEvent.html
 - uid: SuperOffice.Diagnostics.SoLogger
   commentId: T:SuperOffice.Diagnostics.SoLogger
   parent: SuperOffice.Diagnostics

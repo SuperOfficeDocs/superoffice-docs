@@ -1,0 +1,2122 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  commentId: T:SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  id: BoardViewSettingsTableInfo
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.AssociateId
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.AssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.BoardViewSettingsId
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.ColorBy
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Definition
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.DictionaryTableName
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.EntityType
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Filters
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.GroupBy
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.HideEmptyGroups
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.IdxSelectionId(System.Int32)
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.IdxSelectionIdAssociateId(System.Int32,System.Int32)
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Registered
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RegisteredAssociateId
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SelectionId
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SelectionId_InnerJoin_Selection
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Settings
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SortBy
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SortDesc
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SubGroupBy
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SumBy
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Updated
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedAssociateId
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: BoardViewSettingsTableInfo
+  nameWithType: BoardViewSettingsTableInfo
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "Table 'board_view_settings': Settings for selection board view"
+  remarks: >-
+    An instance of this class represents one instance of this table in an SQL statement. In most
+
+    cases each table appears only once in a SELECT, but in cases where you need to self-join, or
+
+    there are multiple occurrences for other reasons (typically additional restrictions in the joins),
+
+    then you will need multiple instances. <br />
+
+    Instances of this class are created by calling TablesInfo.GetBoardViewSettingsInfo().
+  example: []
+  syntax:
+    content: >-
+      [DatabaseTable("board_view_settings")]
+
+      public class BoardViewSettingsTableInfo : TableInfo, ICloneable
+    content.vb: >-
+      <DatabaseTable("board_view_settings")>
+
+      Public Class BoardViewSettingsTableInfo Inherits TableInfo Implements ICloneable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.SQL.TableInfo
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - SuperOffice.Data.SQL.TableInfo.ToString
+  - SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.Data.SQL.TableInfo.Clone
+  - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  - SuperOffice.Data.SQL.TableInfo.TableName
+  - SuperOffice.Data.SQL.TableInfo.DbName
+  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  - SuperOffice.Data.SQL.TableInfo.All
+  - SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.SQL.DatabaseTableAttribute
+    ctor: SuperOffice.Data.SQL.DatabaseTableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: board_view_settings
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.DictionaryTableName
+  commentId: F:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.DictionaryTableName
+  id: DictionaryTableName
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableName
+  nameWithType: BoardViewSettingsTableInfo.DictionaryTableName
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.DictionaryTableName
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Conceptual name of table BoardViewSettings in the database dictionary: board_view_settings'
+  example: []
+  syntax:
+    content: public const string DictionaryTableName = "board_view_settings"
+    return:
+      type: System.String
+    content.vb: Public Const DictionaryTableName As String = "board_view_settings"
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.IdxSelectionId(System.Int32)
+  commentId: M:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.IdxSelectionId(System.Int32)
+  id: IdxSelectionId(System.Int32)
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IdxSelectionId(int)
+  nameWithType: BoardViewSettingsTableInfo.IdxSelectionId(int)
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.IdxSelectionId(int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Shortcut method for looking up using the database index SelectionId, which spans the following fields:
+
+    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">SelectionId</td><td class="description">The selection this board view settings belongs to</td></tr></tbody></table>
+  example: []
+  syntax:
+    content: public Restriction IdxSelectionId(int selectionId)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Function IdxSelectionId(selectionId As Integer) As Restriction
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.IdxSelectionId*
+  nameWithType.vb: BoardViewSettingsTableInfo.IdxSelectionId(Integer)
+  fullName.vb: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.IdxSelectionId(Integer)
+  name.vb: IdxSelectionId(Integer)
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.IdxSelectionIdAssociateId(System.Int32,System.Int32)
+  commentId: M:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.IdxSelectionIdAssociateId(System.Int32,System.Int32)
+  id: IdxSelectionIdAssociateId(System.Int32,System.Int32)
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: IdxSelectionIdAssociateId(int, int)
+  nameWithType: BoardViewSettingsTableInfo.IdxSelectionIdAssociateId(int, int)
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.IdxSelectionIdAssociateId(int, int)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Shortcut method for looking up using the database index SelectionIdAssociateId, which spans the following fields:
+
+    <table><thead><tr><th class="term">Field</th><th class="description">Description</th></tr></thead><tbody><tr><td class="term">SelectionId</td><td class="description">The selection this board view settings belongs to</td></tr><tr><td class="term">AssociateId</td><td class="description">The associate this board view settings belongs to (0 for all)</td></tr></tbody></table>
+  example: []
+  syntax:
+    content: public Restriction IdxSelectionIdAssociateId(int selectionId, int associateId)
+    parameters:
+    - id: selectionId
+      type: System.Int32
+    - id: associateId
+      type: System.Int32
+    return:
+      type: SuperOffice.Data.SQL.Restriction
+    content.vb: Public Function IdxSelectionIdAssociateId(selectionId As Integer, associateId As Integer) As Restriction
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.IdxSelectionIdAssociateId*
+  nameWithType.vb: BoardViewSettingsTableInfo.IdxSelectionIdAssociateId(Integer, Integer)
+  fullName.vb: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.IdxSelectionIdAssociateId(Integer, Integer)
+  name.vb: IdxSelectionIdAssociateId(Integer, Integer)
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.DictionaryTableNumber
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.DictionaryTableNumber
+  id: DictionaryTableNumber
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableNumber
+  nameWithType: BoardViewSettingsTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.DictionaryTableNumber
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Table number for table BoardViewSettings in the database dictionary; potentially changes between databases, but
+
+    always the same over the lifetime of any single database
+  example: []
+  syntax:
+    content: public int DictionaryTableNumber { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.DictionaryTableNumber*
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RuntimeDefinition
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RuntimeDefinition
+  id: RuntimeDefinition
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RuntimeDefinition
+  nameWithType: BoardViewSettingsTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RuntimeDefinition
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Definition of the table as described in the deployed runtime dictionary
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RuntimeDefinition*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Definition
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Definition
+  id: Definition
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: BoardViewSettingsTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Definition
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Definition of the table as described in the deployed runtime dictionary
+  example: []
+  syntax:
+    content: public override SoTable Definition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: Public Overrides ReadOnly Property Definition As SoTable
+  overridden: SuperOffice.Data.SQL.TableInfo.Definition
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Definition*
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.BoardViewSettingsId
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.BoardViewSettingsId
+  id: BoardViewSettingsId
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: BoardViewSettingsId
+  nameWithType: BoardViewSettingsTableInfo.BoardViewSettingsId
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.BoardViewSettingsId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'board_view_settings_id' in table 'board_view_settings': Dictionary type PK, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Primary key
+  example: []
+  syntax:
+    content: public Int32FieldInfo BoardViewSettingsId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property BoardViewSettingsId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.BoardViewSettingsId*
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SelectionId
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SelectionId
+  id: SelectionId
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: BoardViewSettingsTableInfo.SelectionId
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SelectionId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'selection_id' in table 'board_view_settings': Dictionary type FK, target: Selection, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The selection this board view settings belongs to
+  example: []
+  syntax:
+    content: public Int32FieldInfo SelectionId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property SelectionId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SelectionId*
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.AssociateId
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: BoardViewSettingsTableInfo.AssociateId
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.AssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'associate_id' in table 'board_view_settings': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The associate this board view settings belongs to (0 for all)
+  example: []
+  syntax:
+    content: public Int32FieldInfo AssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property AssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.AssociateId*
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.EntityType
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.EntityType
+  id: EntityType
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: EntityType
+  nameWithType: BoardViewSettingsTableInfo.EntityType
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.EntityType
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'entity_type' in table 'board_view_settings': Dictionary type Enum, .NET type: <xref href="SuperOffice.Data.BoardViewEntityType" data-throw-if-not-resolved="false"></xref><p></p>
+
+    The kind of board view entity these settings belong to
+  example: []
+  syntax:
+    content: public BoardViewEntityTypeFieldInfo EntityType { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.BoardViewEntityTypeFieldInfo
+    content.vb: Public ReadOnly Property EntityType As BoardViewEntityTypeFieldInfo
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.EntityType*
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.GroupBy
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.GroupBy
+  id: GroupBy
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: GroupBy
+  nameWithType: BoardViewSettingsTableInfo.GroupBy
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.GroupBy
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'group_by' in table 'board_view_settings': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Column name to group on
+  example: []
+  syntax:
+    content: public StringFieldInfo GroupBy { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property GroupBy As StringFieldInfo
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.GroupBy*
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SubGroupBy
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SubGroupBy
+  id: SubGroupBy
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SubGroupBy
+  nameWithType: BoardViewSettingsTableInfo.SubGroupBy
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SubGroupBy
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'sub_group_by' in table 'board_view_settings': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Column name to group on
+  example: []
+  syntax:
+    content: public StringFieldInfo SubGroupBy { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property SubGroupBy As StringFieldInfo
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SubGroupBy*
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SortBy
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SortBy
+  id: SortBy
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SortBy
+  nameWithType: BoardViewSettingsTableInfo.SortBy
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SortBy
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'sort_by' in table 'board_view_settings': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Column name to sort on
+  example: []
+  syntax:
+    content: public StringFieldInfo SortBy { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property SortBy As StringFieldInfo
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SortBy*
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SortDesc
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SortDesc
+  id: SortDesc
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SortDesc
+  nameWithType: BoardViewSettingsTableInfo.SortDesc
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SortDesc
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'sort_desc' in table 'board_view_settings': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    True if the sort is descending
+  example: []
+  syntax:
+    content: public UInt16FieldInfo SortDesc { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property SortDesc As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SortDesc*
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.HideEmptyGroups
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.HideEmptyGroups
+  id: HideEmptyGroups
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: HideEmptyGroups
+  nameWithType: BoardViewSettingsTableInfo.HideEmptyGroups
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.HideEmptyGroups
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'hide_empty_groups' in table 'board_view_settings': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Do not show groups with no members/elements if this is true
+  example: []
+  syntax:
+    content: public UInt16FieldInfo HideEmptyGroups { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property HideEmptyGroups As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.HideEmptyGroups*
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SumBy
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SumBy
+  id: SumBy
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SumBy
+  nameWithType: BoardViewSettingsTableInfo.SumBy
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SumBy
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'sum_by' in table 'board_view_settings': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Column name to sum on
+  example: []
+  syntax:
+    content: public StringFieldInfo SumBy { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property SumBy As StringFieldInfo
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SumBy*
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.ColorBy
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.ColorBy
+  id: ColorBy
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: ColorBy
+  nameWithType: BoardViewSettingsTableInfo.ColorBy
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.ColorBy
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'color_by' in table 'board_view_settings': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Column name to color on
+  example: []
+  syntax:
+    content: public StringFieldInfo ColorBy { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property ColorBy As StringFieldInfo
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.ColorBy*
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Filters
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Filters
+  id: Filters
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Filters
+  nameWithType: BoardViewSettingsTableInfo.Filters
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Filters
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'filters' in table 'board_view_settings': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Column names to filter on, comma separated
+  example: []
+  syntax:
+    content: public StringFieldInfo Filters { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Filters As StringFieldInfo
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Filters*
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Settings
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Settings
+  id: Settings
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: BoardViewSettingsTableInfo.Settings
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Settings
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'settings' in table 'board_view_settings': Dictionary type Clob, .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Settings that are not common to all board views. These are the unique properties of the sub carriers. Stored in json format.
+  example: []
+  syntax:
+    content: public StringFieldInfo Settings { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Settings As StringFieldInfo
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Settings*
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Registered
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: BoardViewSettingsTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Registered
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'registered' in table 'board_view_settings': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Registered when
+  example: []
+  syntax:
+    content: public DateTimeFieldInfo Registered { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Registered As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Registered*
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: BoardViewSettingsTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RegisteredAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'registered_associate_id' in table 'board_view_settings': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Registered by whom
+  example: []
+  syntax:
+    content: public Int32FieldInfo RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property RegisteredAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RegisteredAssociateId*
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Updated
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: BoardViewSettingsTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Updated
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'updated' in table 'board_view_settings': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Last updated when
+  example: []
+  syntax:
+    content: public DateTimeFieldInfo Updated { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Updated As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Updated*
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: BoardViewSettingsTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'updated_associate_id' in table 'board_view_settings': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Last updated by whom
+  example: []
+  syntax:
+    content: public Int32FieldInfo UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property UpdatedAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedAssociateId*
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedCount
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: BoardViewSettingsTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedCount
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'updatedCount' in table 'board_view_settings': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Number of updates made to this record
+  example: []
+  syntax:
+    content: public UInt16FieldInfo UpdatedCount { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedCount*
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SelectionId_InnerJoin_Selection
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SelectionId_InnerJoin_Selection
+  id: SelectionId_InnerJoin_Selection
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: SelectionId_InnerJoin_Selection
+  nameWithType: BoardViewSettingsTableInfo.SelectionId_InnerJoin_Selection
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SelectionId_InnerJoin_Selection
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key SelectionId in this table, to its target table <xref href="SuperOffice.CRM.Data.SelectionTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<SelectionTableInfo> SelectionId_InnerJoin_Selection { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SelectionTableInfo}
+    content.vb: Public ReadOnly Property SelectionId_InnerJoin_Selection As TargetedInnerJoin(Of SelectionTableInfo)
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SelectionId_InnerJoin_Selection*
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.AssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.AssociateId_InnerJoin_Associate
+  id: AssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: AssociateId_InnerJoin_Associate
+  nameWithType: BoardViewSettingsTableInfo.AssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.AssociateId_InnerJoin_Associate
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key AssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> AssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property AssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.AssociateId_InnerJoin_Associate*
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  id: RegisteredAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: BoardViewSettingsTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> RegisteredAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property RegisteredAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  id: UpdatedAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: BoardViewSettingsTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> UpdatedAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icloneable
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: SuperOffice.Data.SQL.TableInfo.ToString
+  commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
+  name: ToString()
+  nameWithType: TableInfo.ToString()
+  fullName: SuperOffice.Data.SQL.TableInfo.ToString()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
+  name: RegisterFields(params FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(params FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(params SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(ParamArray FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(ParamArray SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(ParamArray FieldInfo())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
+  - name: (
+  - name: params
+  - name: " "
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
+  - name: (
+  - name: ParamArray
+  - name: " "
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
+  name: FieldInfoFromSoField(SoField)
+  nameWithType: TableInfo.FieldInfoFromSoField(SoField)
+  fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.html
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.Clone
+  commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
+  name: Clone()
+  nameWithType: TableInfo.Clone()
+  fullName: SuperOffice.Data.SQL.TableInfo.Clone()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
+  name: IsSameTable(TableInfo)
+  nameWithType: TableInfo.IsSameTable(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
+  - name: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
+  - name: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
+  name: FindField(string)
+  nameWithType: TableInfo.FindField(string)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(string)
+  nameWithType.vb: TableInfo.FindField(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.FindField(String)
+  name.vb: FindField(String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
+  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
+  name: ProtAll
+  nameWithType: TableInfo.ProtAll
+  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_HashCheckFields
+  name: HashCheckFields
+  nameWithType: TableInfo.HashCheckFields
+  fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+- uid: SuperOffice.Data.SQL.TableInfo.TableName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_TableName
+  name: TableName
+  nameWithType: TableInfo.TableName
+  fullName: SuperOffice.Data.SQL.TableInfo.TableName
+- uid: SuperOffice.Data.SQL.TableInfo.DbName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_DbName
+  name: DbName
+  nameWithType: TableInfo.DbName
+  fullName: SuperOffice.Data.SQL.TableInfo.DbName
+- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
+  name: IsDictionaryTable
+  nameWithType: TableInfo.IsDictionaryTable
+  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+- uid: SuperOffice.Data.SQL.TableInfo.All
+  commentId: P:SuperOffice.Data.SQL.TableInfo.All
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_All
+  name: All
+  nameWithType: TableInfo.All
+  fullName: SuperOffice.Data.SQL.TableInfo.All
+- uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: this[string]
+  nameWithType: TableInfo.this[string]
+  fullName: SuperOffice.Data.SQL.TableInfo.this[string]
+  nameWithType.vb: TableInfo.this[](String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.this[](String)
+  name.vb: this[](String)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: this[]
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Item_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_PrimaryKeyField
+  name: PrimaryKeyField
+  nameWithType: TableInfo.PrimaryKeyField
+  fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<BoardViewSettingsTableInfo, To>(BoardViewSettingsTableInfo)
+  nameWithType: EnumUtil.MapEnums<BoardViewSettingsTableInfo, To>(BoardViewSettingsTableInfo)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.BoardViewSettingsTableInfo, To>(SuperOffice.CRM.Data.BoardViewSettingsTableInfo)
+  nameWithType.vb: EnumUtil.MapEnums(Of BoardViewSettingsTableInfo, To)(BoardViewSettingsTableInfo)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.BoardViewSettingsTableInfo, To)(SuperOffice.CRM.Data.BoardViewSettingsTableInfo)
+  name.vb: MapEnums(Of BoardViewSettingsTableInfo, To)(BoardViewSettingsTableInfo)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.BoardViewSettingsTableInfo)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+    name: BoardViewSettingsTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+    name: BoardViewSettingsTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.BoardViewSettingsTableInfo)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+    name: BoardViewSettingsTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+    name: BoardViewSettingsTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<BoardViewSettingsTableInfo, To>(BoardViewSettingsTableInfo)
+  nameWithType: Converters.MapEnums<BoardViewSettingsTableInfo, To>(BoardViewSettingsTableInfo)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.BoardViewSettingsTableInfo, To>(SuperOffice.CRM.Data.BoardViewSettingsTableInfo)
+  nameWithType.vb: Converters.MapEnums(Of BoardViewSettingsTableInfo, To)(BoardViewSettingsTableInfo)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.BoardViewSettingsTableInfo, To)(SuperOffice.CRM.Data.BoardViewSettingsTableInfo)
+  name.vb: MapEnums(Of BoardViewSettingsTableInfo, To)(BoardViewSettingsTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.BoardViewSettingsTableInfo)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+    name: BoardViewSettingsTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+    name: BoardViewSettingsTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.BoardViewSettingsTableInfo)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+    name: BoardViewSettingsTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+    name: BoardViewSettingsTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.IdxSelectionId*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.IdxSelectionId
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_IdxSelectionId_System_Int32_
+  name: IdxSelectionId
+  nameWithType: BoardViewSettingsTableInfo.IdxSelectionId
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.IdxSelectionId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.Data.SQL.Restriction
+  commentId: T:SuperOffice.Data.SQL.Restriction
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.Restriction.html
+  name: Restriction
+  nameWithType: Restriction
+  fullName: SuperOffice.Data.SQL.Restriction
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.IdxSelectionIdAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.IdxSelectionIdAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_IdxSelectionIdAssociateId_System_Int32_System_Int32_
+  name: IdxSelectionIdAssociateId
+  nameWithType: BoardViewSettingsTableInfo.IdxSelectionIdAssociateId
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.IdxSelectionIdAssociateId
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.DictionaryTableNumber
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_DictionaryTableNumber
+  name: DictionaryTableNumber
+  nameWithType: BoardViewSettingsTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.DictionaryTableNumber
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RuntimeDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RuntimeDefinition
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_RuntimeDefinition
+  name: RuntimeDefinition
+  nameWithType: BoardViewSettingsTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RuntimeDefinition
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  href: SuperOffice.Data.Dictionary.SoTable.html
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+- uid: SuperOffice.Data.SQL.TableInfo.Definition
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Definition
+  name: Definition
+  nameWithType: TableInfo.Definition
+  fullName: SuperOffice.Data.SQL.TableInfo.Definition
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Definition*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Definition
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_Definition
+  name: Definition
+  nameWithType: BoardViewSettingsTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Definition
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.BoardViewSettingsId*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.BoardViewSettingsId
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_BoardViewSettingsId
+  name: BoardViewSettingsId
+  nameWithType: BoardViewSettingsTableInfo.BoardViewSettingsId
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.BoardViewSettingsId
+- uid: SuperOffice.Data.SQL.Int32FieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.Int32FieldInfo.html
+  name: Int32FieldInfo
+  nameWithType: Int32FieldInfo
+  fullName: SuperOffice.Data.SQL.Int32FieldInfo
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SelectionId*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SelectionId
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_SelectionId
+  name: SelectionId
+  nameWithType: BoardViewSettingsTableInfo.SelectionId
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SelectionId
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.AssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.AssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_AssociateId
+  name: AssociateId
+  nameWithType: BoardViewSettingsTableInfo.AssociateId
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.AssociateId
+- uid: SuperOffice.Data.BoardViewEntityType
+  commentId: T:SuperOffice.Data.BoardViewEntityType
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.BoardViewEntityType.html
+  name: BoardViewEntityType
+  nameWithType: BoardViewEntityType
+  fullName: SuperOffice.Data.BoardViewEntityType
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.EntityType*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.EntityType
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_EntityType
+  name: EntityType
+  nameWithType: BoardViewSettingsTableInfo.EntityType
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.EntityType
+- uid: SuperOffice.Data.SQL.BoardViewEntityTypeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.BoardViewEntityTypeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.BoardViewEntityTypeFieldInfo.html
+  name: BoardViewEntityTypeFieldInfo
+  nameWithType: BoardViewEntityTypeFieldInfo
+  fullName: SuperOffice.Data.SQL.BoardViewEntityTypeFieldInfo
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.GroupBy*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.GroupBy
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_GroupBy
+  name: GroupBy
+  nameWithType: BoardViewSettingsTableInfo.GroupBy
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.GroupBy
+- uid: SuperOffice.Data.SQL.StringFieldInfo
+  commentId: T:SuperOffice.Data.SQL.StringFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.StringFieldInfo.html
+  name: StringFieldInfo
+  nameWithType: StringFieldInfo
+  fullName: SuperOffice.Data.SQL.StringFieldInfo
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SubGroupBy*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SubGroupBy
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_SubGroupBy
+  name: SubGroupBy
+  nameWithType: BoardViewSettingsTableInfo.SubGroupBy
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SubGroupBy
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SortBy*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SortBy
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_SortBy
+  name: SortBy
+  nameWithType: BoardViewSettingsTableInfo.SortBy
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SortBy
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SortDesc*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SortDesc
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_SortDesc
+  name: SortDesc
+  nameWithType: BoardViewSettingsTableInfo.SortDesc
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SortDesc
+- uid: SuperOffice.Data.SQL.UInt16FieldInfo
+  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.UInt16FieldInfo.html
+  name: UInt16FieldInfo
+  nameWithType: UInt16FieldInfo
+  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.HideEmptyGroups*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.HideEmptyGroups
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_HideEmptyGroups
+  name: HideEmptyGroups
+  nameWithType: BoardViewSettingsTableInfo.HideEmptyGroups
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.HideEmptyGroups
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SumBy*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SumBy
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_SumBy
+  name: SumBy
+  nameWithType: BoardViewSettingsTableInfo.SumBy
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SumBy
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.ColorBy*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.ColorBy
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_ColorBy
+  name: ColorBy
+  nameWithType: BoardViewSettingsTableInfo.ColorBy
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.ColorBy
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Filters*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Filters
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_Filters
+  name: Filters
+  nameWithType: BoardViewSettingsTableInfo.Filters
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Filters
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Settings*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Settings
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_Settings
+  name: Settings
+  nameWithType: BoardViewSettingsTableInfo.Settings
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Settings
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Registered*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Registered
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_Registered
+  name: Registered
+  nameWithType: BoardViewSettingsTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Registered
+- uid: SuperOffice.Data.SQL.DateTimeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.DateTimeFieldInfo.html
+  name: DateTimeFieldInfo
+  nameWithType: DateTimeFieldInfo
+  fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_RegisteredAssociateId
+  name: RegisteredAssociateId
+  nameWithType: BoardViewSettingsTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Updated*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Updated
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_Updated
+  name: Updated
+  nameWithType: BoardViewSettingsTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.Updated
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_UpdatedAssociateId
+  name: UpdatedAssociateId
+  nameWithType: BoardViewSettingsTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedCount*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedCount
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_UpdatedCount
+  name: UpdatedCount
+  nameWithType: BoardViewSettingsTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedCount
+- uid: SuperOffice.CRM.Data.SelectionTableInfo
+  commentId: T:SuperOffice.CRM.Data.SelectionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.SelectionTableInfo.html
+  name: SelectionTableInfo
+  nameWithType: SelectionTableInfo
+  fullName: SuperOffice.CRM.Data.SelectionTableInfo
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SelectionId_InnerJoin_Selection*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SelectionId_InnerJoin_Selection
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_SelectionId_InnerJoin_Selection
+  name: SelectionId_InnerJoin_Selection
+  nameWithType: BoardViewSettingsTableInfo.SelectionId_InnerJoin_Selection
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.SelectionId_InnerJoin_Selection
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SelectionTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.SelectionTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<SelectionTableInfo>
+  nameWithType: TargetedInnerJoin<SelectionTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.SelectionTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of SelectionTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.SelectionTableInfo)
+  name.vb: TargetedInnerJoin(Of SelectionTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.SelectionTableInfo
+    name: SelectionTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.SelectionTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.SelectionTableInfo
+    name: SelectionTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.SelectionTableInfo.html
+  - name: )
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
+  isExternal: true
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<TargetTableInfo>
+  nameWithType: TargetedInnerJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of TargetTableInfo)
+  name.vb: TargetedInnerJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - name: TargetTableInfo
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TargetTableInfo
+  - name: )
+- uid: SuperOffice.CRM.Data.AssociateTableInfo
+  commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html
+  name: AssociateTableInfo
+  nameWithType: AssociateTableInfo
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.AssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.AssociateId_InnerJoin_Associate
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_AssociateId_InnerJoin_Associate
+  name: AssociateId_InnerJoin_Associate
+  nameWithType: BoardViewSettingsTableInfo.AssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.AssociateId_InnerJoin_Associate
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<AssociateTableInfo>
+  nameWithType: TargetedInnerJoin<AssociateTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AssociateTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.AssociateTableInfo)
+  name.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.AssociateTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.AssociateTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_RegisteredAssociateId_InnerJoin_Associate
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: BoardViewSettingsTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RegisteredAssociateId_InnerJoin_Associate
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_UpdatedAssociateId_InnerJoin_Associate
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: BoardViewSettingsTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedAssociateId_InnerJoin_Associate

@@ -181,6 +181,7 @@ items:
   - SuperOffice.License.SoLicenseNames.Udef
   - SuperOffice.License.SoLicenseNames.User
   - SuperOffice.License.SoLicenseNames.UserManagement
+  - SuperOffice.License.SoLicenseNames.UtmSaving
   - SuperOffice.License.SoLicenseNames.VideoMeet
   - SuperOffice.License.SoLicenseNames.VisibleFor
   - SuperOffice.License.SoLicenseNames.Web
@@ -5082,6 +5083,30 @@ items:
     return:
       type: System.String
     content.vb: Public Const PremiumSupport As String = "superoffice.premium-support"
+- uid: SuperOffice.License.SoLicenseNames.UtmSaving
+  commentId: F:SuperOffice.License.SoLicenseNames.UtmSaving
+  id: UtmSaving
+  parent: SuperOffice.License.SoLicenseNames
+  langs:
+  - csharp
+  - vb
+  name: UtmSaving
+  nameWithType: SoLicenseNames.UtmSaving
+  fullName: SuperOffice.License.SoLicenseNames.UtmSaving
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.License
+  summary: >-
+    superoffice.utm-saving: Enables saving of utm parameters.
+
+    Site license.
+  example: []
+  syntax:
+    content: public const string UtmSaving = "superoffice.utm-saving"
+    return:
+      type: System.String
+    content.vb: Public Const UtmSaving As String = "superoffice.utm-saving"
 references:
 - uid: SuperOffice.License
   commentId: N:SuperOffice.License

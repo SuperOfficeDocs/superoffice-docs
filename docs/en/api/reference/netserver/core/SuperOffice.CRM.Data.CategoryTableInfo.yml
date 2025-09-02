@@ -7,11 +7,13 @@ items:
   children:
   - SuperOffice.CRM.Data.CategoryTableInfo.CategoryFamilyId
   - SuperOffice.CRM.Data.CategoryTableInfo.CategoryFamilyId_InnerJoin_CategoryFamily
+  - SuperOffice.CRM.Data.CategoryTableInfo.CategoryGroup
   - SuperOffice.CRM.Data.CategoryTableInfo.CategoryId
   - SuperOffice.CRM.Data.CategoryTableInfo.Definition
   - SuperOffice.CRM.Data.CategoryTableInfo.Deleted
   - SuperOffice.CRM.Data.CategoryTableInfo.DictionaryTableName
   - SuperOffice.CRM.Data.CategoryTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.CategoryTableInfo.EnableLeadStatus
   - SuperOffice.CRM.Data.CategoryTableInfo.LeftOuterJoin_CategoryGroupLink_CategoryId
   - SuperOffice.CRM.Data.CategoryTableInfo.LeftOuterJoin_CategoryHeadingLink_CategoryId
   - SuperOffice.CRM.Data.CategoryTableInfo.LeftOuterJoin_Contact_CategoryIdx
@@ -487,6 +489,58 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property CategoryFamilyId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.CategoryTableInfo.CategoryFamilyId*
+- uid: SuperOffice.CRM.Data.CategoryTableInfo.CategoryGroup
+  commentId: P:SuperOffice.CRM.Data.CategoryTableInfo.CategoryGroup
+  id: CategoryGroup
+  parent: SuperOffice.CRM.Data.CategoryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CategoryGroup
+  nameWithType: CategoryTableInfo.CategoryGroup
+  fullName: SuperOffice.CRM.Data.CategoryTableInfo.CategoryGroup
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'category_group' in table 'Category': Dictionary type Enum, .NET type: <xref href="SuperOffice.CRM.Data.CategoryTableInfo.CategoryGroup" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Category group
+  example: []
+  syntax:
+    content: public CategoryGroupFieldInfo CategoryGroup { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.CategoryGroupFieldInfo
+    content.vb: Public ReadOnly Property CategoryGroup As CategoryGroupFieldInfo
+  overload: SuperOffice.CRM.Data.CategoryTableInfo.CategoryGroup*
+- uid: SuperOffice.CRM.Data.CategoryTableInfo.EnableLeadStatus
+  commentId: P:SuperOffice.CRM.Data.CategoryTableInfo.EnableLeadStatus
+  id: EnableLeadStatus
+  parent: SuperOffice.CRM.Data.CategoryTableInfo
+  langs:
+  - csharp
+  - vb
+  name: EnableLeadStatus
+  nameWithType: CategoryTableInfo.EnableLeadStatus
+  fullName: SuperOffice.CRM.Data.CategoryTableInfo.EnableLeadStatus
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'enable_lead_status' in table 'Category': Dictionary type Bool, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Enable lead status qualification for categorygroup potential customers
+  example: []
+  syntax:
+    content: public UInt16FieldInfo EnableLeadStatus { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property EnableLeadStatus As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.CategoryTableInfo.EnableLeadStatus*
 - uid: SuperOffice.CRM.Data.CategoryTableInfo.RegisteredAssociateId_InnerJoin_Associate
   commentId: P:SuperOffice.CRM.Data.CategoryTableInfo.RegisteredAssociateId_InnerJoin_Associate
   id: RegisteredAssociateId_InnerJoin_Associate
@@ -1681,6 +1735,35 @@ references:
   name: CategoryFamilyId
   nameWithType: CategoryTableInfo.CategoryFamilyId
   fullName: SuperOffice.CRM.Data.CategoryTableInfo.CategoryFamilyId
+- uid: SuperOffice.CRM.Data.CategoryTableInfo.CategoryGroup
+  commentId: P:SuperOffice.CRM.Data.CategoryTableInfo.CategoryGroup
+  isExternal: true
+  href: SuperOffice.CRM.Data.CategoryTableInfo.html#SuperOffice_CRM_Data_CategoryTableInfo_CategoryGroup
+  name: CategoryGroup
+  nameWithType: CategoryTableInfo.CategoryGroup
+  fullName: SuperOffice.CRM.Data.CategoryTableInfo.CategoryGroup
+- uid: SuperOffice.CRM.Data.CategoryTableInfo.CategoryGroup*
+  commentId: Overload:SuperOffice.CRM.Data.CategoryTableInfo.CategoryGroup
+  isExternal: true
+  href: SuperOffice.CRM.Data.CategoryTableInfo.html#SuperOffice_CRM_Data_CategoryTableInfo_CategoryGroup
+  name: CategoryGroup
+  nameWithType: CategoryTableInfo.CategoryGroup
+  fullName: SuperOffice.CRM.Data.CategoryTableInfo.CategoryGroup
+- uid: SuperOffice.Data.SQL.CategoryGroupFieldInfo
+  commentId: T:SuperOffice.Data.SQL.CategoryGroupFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.CategoryGroupFieldInfo.html
+  name: CategoryGroupFieldInfo
+  nameWithType: CategoryGroupFieldInfo
+  fullName: SuperOffice.Data.SQL.CategoryGroupFieldInfo
+- uid: SuperOffice.CRM.Data.CategoryTableInfo.EnableLeadStatus*
+  commentId: Overload:SuperOffice.CRM.Data.CategoryTableInfo.EnableLeadStatus
+  isExternal: true
+  href: SuperOffice.CRM.Data.CategoryTableInfo.html#SuperOffice_CRM_Data_CategoryTableInfo_EnableLeadStatus
+  name: EnableLeadStatus
+  nameWithType: CategoryTableInfo.EnableLeadStatus
+  fullName: SuperOffice.CRM.Data.CategoryTableInfo.EnableLeadStatus
 - uid: SuperOffice.CRM.Data.AssociateTableInfo
   commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
   parent: SuperOffice.CRM.Data

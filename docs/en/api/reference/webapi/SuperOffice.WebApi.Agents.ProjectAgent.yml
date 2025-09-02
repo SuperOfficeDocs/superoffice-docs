@@ -53,6 +53,7 @@ items:
   - SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectEventEntityAsync(SuperOffice.WebApi.Data.ProjectEventEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ProjectAgent.SaveProjectMembersFunctionAndCommentAsync(System.Int32[],System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.ProjectAgent.SetCompletedAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ProjectAgent.SetDuplicateRulesStatusAsync(SuperOffice.WebApi.Data.DuplicateRule[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ProjectAgent.SetProjectImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.ProjectAgent.UpdateProjectMemberAsync(SuperOffice.WebApi.Data.ProjectMember,SuperOffice.WebApi.RequestOptions)
@@ -1151,6 +1152,44 @@ items:
   overload: SuperOffice.WebApi.Agents.ProjectAgent.ValidateProjectEntityAsync*
   implements:
   - SuperOffice.WebApi.Agents.IProjectAgent.ValidateProjectEntityAsync(SuperOffice.WebApi.Data.ProjectEntity,SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.SetCompletedAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.SetCompletedAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  id: SetCompletedAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: SetCompletedAsync(int, bool, RequestOptions)
+  nameWithType: ProjectAgent.SetCompletedAsync(int, bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.SetCompletedAsync(int, bool, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Set the completed flag on the project
+  example: []
+  syntax:
+    content: public Task SetCompletedAsync(int projectId, bool isCompleted, RequestOptions requestOptions = null)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: ''
+    - id: isCompleted
+      type: System.Boolean
+      description: True if the project is completed, false if it is not
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function SetCompletedAsync(projectId As Integer, isCompleted As Boolean, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.ProjectAgent.SetCompletedAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IProjectAgent.SetCompletedAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: ProjectAgent.SetCompletedAsync(Integer, Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ProjectAgent.SetCompletedAsync(Integer, Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: SetCompletedAsync(Integer, Boolean, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetProjectEventAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -5266,6 +5305,70 @@ references:
     name: StringDictionary
     isExternal: true
     href: SuperOffice.WebApi.Data.StringDictionary.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.ProjectAgent.SetCompletedAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.SetCompletedAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ProjectAgent.html#SuperOffice_WebApi_Agents_ProjectAgent_SetCompletedAsync_System_Int32_System_Boolean_SuperOffice_WebApi_RequestOptions_
+  name: SetCompletedAsync
+  nameWithType: ProjectAgent.SetCompletedAsync
+  fullName: SuperOffice.WebApi.Agents.ProjectAgent.SetCompletedAsync
+- uid: SuperOffice.WebApi.Agents.IProjectAgent.SetCompletedAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IProjectAgent.SetCompletedAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IProjectAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IProjectAgent.html#SuperOffice_WebApi_Agents_IProjectAgent_SetCompletedAsync_System_Int32_System_Boolean_SuperOffice_WebApi_RequestOptions_
+  name: SetCompletedAsync(int, bool, RequestOptions)
+  nameWithType: IProjectAgent.SetCompletedAsync(int, bool, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IProjectAgent.SetCompletedAsync(int, bool, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IProjectAgent.SetCompletedAsync(Integer, Boolean, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IProjectAgent.SetCompletedAsync(Integer, Boolean, SuperOffice.WebApi.RequestOptions)
+  name.vb: SetCompletedAsync(Integer, Boolean, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.SetCompletedAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: SetCompletedAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IProjectAgent.html#SuperOffice_WebApi_Agents_IProjectAgent_SetCompletedAsync_System_Int32_System_Boolean_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: bool
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IProjectAgent.SetCompletedAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+    name: SetCompletedAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IProjectAgent.html#SuperOffice_WebApi_Agents_IProjectAgent_SetCompletedAsync_System_Int32_System_Boolean_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Boolean
+    name: Boolean
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.boolean
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
 - uid: SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.ProjectAgent.GetProjectEventAsync

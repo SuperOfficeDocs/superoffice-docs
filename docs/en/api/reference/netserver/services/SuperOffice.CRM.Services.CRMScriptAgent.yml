@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.CRMScriptAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.CRMScriptAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.CRMScriptAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   - SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptByUniqueIdentifierAsync(System.String,System.Threading.CancellationToken)
@@ -102,22 +102,22 @@ items:
   nameWithType.vb: CRMScriptAgent.New(IScriptImplementation, ICRMScriptEntityImplementation, ITriggerScriptEntityImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.CRMScriptAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IScriptImplementation, ICRMScriptEntityImplementation, ITriggerScriptEntityImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.CRMScriptAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
   parent: SuperOffice.CRM.Services.CRMScriptAgent
   langs:
   - csharp
   - vb
-  name: CRMScriptAgent(IScriptImplementation, ICRMScriptEntityImplementation, ITriggerScriptEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  nameWithType: CRMScriptAgent.CRMScriptAgent(IScriptImplementation, ICRMScriptEntityImplementation, ITriggerScriptEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName: SuperOffice.CRM.Services.CRMScriptAgent.CRMScriptAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name: CRMScriptAgent(IScriptImplementation, ICRMScriptEntityImplementation, ITriggerScriptEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType: CRMScriptAgent.CRMScriptAgent(IScriptImplementation, ICRMScriptEntityImplementation, ITriggerScriptEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.CRMScriptAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public CRMScriptAgent(IScriptImplementation scriptImplementation, ICRMScriptEntityImplementation cRMScriptEntityImplementation, ITriggerScriptEntityImplementation triggerScriptEntityImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    content: public CRMScriptAgent(IScriptImplementation scriptImplementation, ICRMScriptEntityImplementation cRMScriptEntityImplementation, ITriggerScriptEntityImplementation triggerScriptEntityImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
     parameters:
     - id: scriptImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation
@@ -131,201 +131,15 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    content.vb: Public Sub New(scriptImplementation As IScriptImplementation, cRMScriptEntityImplementation As ICRMScriptEntityImplementation, triggerScriptEntityImplementation As ITriggerScriptEntityImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+    - id: scriptingConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+    - id: onlineConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+    content.vb: Public Sub New(scriptImplementation As IScriptImplementation, cRMScriptEntityImplementation As ICRMScriptEntityImplementation, triggerScriptEntityImplementation As ITriggerScriptEntityImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
   overload: SuperOffice.CRM.Services.CRMScriptAgent.#ctor*
-  nameWithType.vb: CRMScriptAgent.New(IScriptImplementation, ICRMScriptEntityImplementation, ITriggerScriptEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName.vb: SuperOffice.CRM.Services.CRMScriptAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
-  name.vb: New(IScriptImplementation, ICRMScriptEntityImplementation, ITriggerScriptEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-- uid: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
-  id: CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.CRMScriptAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultCRMScriptEntityAsync(CancellationToken)
-  nameWithType: CRMScriptAgent.CreateDefaultCRMScriptEntityAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new CRMScriptEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: public Task<CRMScriptEntity> CreateDefaultCRMScriptEntityAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptEntity}
-      description: New CRMScriptEntity with default values
-    content.vb: Public Function CreateDefaultCRMScriptEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of CRMScriptEntity)
-  overload: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultCRMScriptEntityAsync*
-  implements:
-  - SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity,System.Threading.CancellationToken)
-  id: SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.CRMScriptAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveCRMScriptEntityAsync(CRMScriptEntity, CancellationToken)
-  nameWithType: CRMScriptAgent.SaveCRMScriptEntityAsync(CRMScriptEntity, CancellationToken)
-  fullName: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing CRMScriptEntity or creates a new CRMScriptEntity if the id parameter is empty
-  example: []
-  syntax:
-    content: public Task<CRMScriptEntity> SaveCRMScriptEntityAsync(CRMScriptEntity cRMScriptEntity, CancellationToken cancellationToken = default)
-    parameters:
-    - id: cRMScriptEntity
-      type: SuperOffice.CRM.Services.CRMScriptEntity
-      description: The CRMScriptEntity that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptEntity}
-      description: New or updated CRMScriptEntity
-    content.vb: Public Function SaveCRMScriptEntityAsync(cRMScriptEntity As CRMScriptEntity, cancellationToken As CancellationToken = Nothing) As Task(Of CRMScriptEntity)
-  overload: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntityAsync*
-  implements:
-  - SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity,System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
-  id: DeleteCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.CRMScriptAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteCRMScriptEntityAsync(int, CancellationToken)
-  nameWithType: CRMScriptAgent.DeleteCRMScriptEntityAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptEntityAsync(int, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: Deletes the CRMScriptEntity
-  example: []
-  syntax:
-    content: public Task DeleteCRMScriptEntityAsync(int cRMScriptEntityId, CancellationToken cancellationToken = default)
-    parameters:
-    - id: cRMScriptEntityId
-      type: System.Int32
-      description: The identity of the CRMScriptEntity
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Public Function DeleteCRMScriptEntityAsync(cRMScriptEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
-  overload: SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptEntityAsync*
-  implements:
-  - SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
-  nameWithType.vb: CRMScriptAgent.DeleteCRMScriptEntityAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptEntityAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeleteCRMScriptEntityAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
-  id: CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.CRMScriptAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultTriggerScriptEntityAsync(CancellationToken)
-  nameWithType: CRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new TriggerScriptEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: public Task<TriggerScriptEntity> CreateDefaultTriggerScriptEntityAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TriggerScriptEntity}
-      description: New TriggerScriptEntity with default values
-    content.vb: Public Function CreateDefaultTriggerScriptEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of TriggerScriptEntity)
-  overload: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultTriggerScriptEntityAsync*
-  implements:
-  - SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity,System.Threading.CancellationToken)
-  id: SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.CRMScriptAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveTriggerScriptEntityAsync(TriggerScriptEntity, CancellationToken)
-  nameWithType: CRMScriptAgent.SaveTriggerScriptEntityAsync(TriggerScriptEntity, CancellationToken)
-  fullName: SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing TriggerScriptEntity or creates a new TriggerScriptEntity if the id parameter is empty
-  example: []
-  syntax:
-    content: public Task<TriggerScriptEntity> SaveTriggerScriptEntityAsync(TriggerScriptEntity triggerScriptEntity, CancellationToken cancellationToken = default)
-    parameters:
-    - id: triggerScriptEntity
-      type: SuperOffice.CRM.Services.TriggerScriptEntity
-      description: The TriggerScriptEntity that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TriggerScriptEntity}
-      description: New or updated TriggerScriptEntity
-    content.vb: Public Function SaveTriggerScriptEntityAsync(triggerScriptEntity As TriggerScriptEntity, cancellationToken As CancellationToken = Nothing) As Task(Of TriggerScriptEntity)
-  overload: SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptEntityAsync*
-  implements:
-  - SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity,System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
-  id: DeleteTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.CRMScriptAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteTriggerScriptEntityAsync(int, CancellationToken)
-  nameWithType: CRMScriptAgent.DeleteTriggerScriptEntityAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptEntityAsync(int, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: Deletes the TriggerScriptEntity
-  example: []
-  syntax:
-    content: public Task DeleteTriggerScriptEntityAsync(int triggerScriptEntityId, CancellationToken cancellationToken = default)
-    parameters:
-    - id: triggerScriptEntityId
-      type: System.Int32
-      description: The identity of the TriggerScriptEntity
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Public Function DeleteTriggerScriptEntityAsync(triggerScriptEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
-  overload: SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptEntityAsync*
-  implements:
-  - SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
-  nameWithType.vb: CRMScriptAgent.DeleteTriggerScriptEntityAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptEntityAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeleteTriggerScriptEntityAsync(Integer, CancellationToken)
+  nameWithType.vb: CRMScriptAgent.New(IScriptImplementation, ICRMScriptEntityImplementation, ITriggerScriptEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName.vb: SuperOffice.CRM.Services.CRMScriptAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IScriptImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ICRMScriptEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.ITriggerScriptEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name.vb: New(IScriptImplementation, ICRMScriptEntityImplementation, ITriggerScriptEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
 - uid: SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(System.String,System.Threading.CancellationToken)
   id: GetCRMScriptByUniqueIdentifierAsync(System.String,System.Threading.CancellationToken)
@@ -434,6 +248,102 @@ items:
   nameWithType.vb: CRMScriptAgent.DeleteCRMScriptByUniqueIdentifierAsync(String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptByUniqueIdentifierAsync(String, System.Threading.CancellationToken)
   name.vb: DeleteCRMScriptByUniqueIdentifierAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultCRMScriptEntityAsync(CancellationToken)
+  nameWithType: CRMScriptAgent.CreateDefaultCRMScriptEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new CRMScriptEntity.
+  example: []
+  syntax:
+    content: public Task<CRMScriptEntity> CreateDefaultCRMScriptEntityAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptEntity}
+      description: New CRMScriptEntity with default values
+    content.vb: Public Function CreateDefaultCRMScriptEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of CRMScriptEntity)
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultCRMScriptEntityAsync*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity,System.Threading.CancellationToken)
+  id: SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveCRMScriptEntityAsync(CRMScriptEntity, CancellationToken)
+  nameWithType: CRMScriptAgent.SaveCRMScriptEntityAsync(CRMScriptEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing CRMScriptEntity or creates a new CRMScriptEntity if the id parameter is 0.
+  example: []
+  syntax:
+    content: public Task<CRMScriptEntity> SaveCRMScriptEntityAsync(CRMScriptEntity cRMScriptEntity, CancellationToken cancellationToken = default)
+    parameters:
+    - id: cRMScriptEntity
+      type: SuperOffice.CRM.Services.CRMScriptEntity
+      description: The CRMScriptEntity that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptEntity}
+      description: New or updated CRMScriptEntity
+    content.vb: Public Function SaveCRMScriptEntityAsync(cRMScriptEntity As CRMScriptEntity, cancellationToken As CancellationToken = Nothing) As Task(Of CRMScriptEntity)
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntityAsync*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteCRMScriptEntityAsync(int, CancellationToken)
+  nameWithType: CRMScriptAgent.DeleteCRMScriptEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptEntityAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Deletes the CRMScriptEntity
+  example: []
+  syntax:
+    content: public Task DeleteCRMScriptEntityAsync(int cRMScriptEntityId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: cRMScriptEntityId
+      type: System.Int32
+      description: The identity of the CRMScriptEntity
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function DeleteCRMScriptEntityAsync(cRMScriptEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptEntityAsync*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: CRMScriptAgent.DeleteCRMScriptEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteCRMScriptEntityAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
   id: GetCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
@@ -458,9 +368,10 @@ items:
       description: The identifier of the CRMScriptEntity object
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptEntity}
-      description: CRMScriptEntity
+      description: A single CRMScriptEntity
     content.vb: Public Function GetCRMScriptEntityAsync(cRMScriptEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of CRMScriptEntity)
   overload: SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptEntityAsync*
   implements:
@@ -909,6 +820,102 @@ items:
   nameWithType.vb: CRMScriptAgent.ResolveIncludesAsync(String, Boolean, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.CRMScriptAgent.ResolveIncludesAsync(String, Boolean, System.Threading.CancellationToken)
   name.vb: ResolveIncludesAsync(String, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTriggerScriptEntityAsync(CancellationToken)
+  nameWithType: CRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new TriggerScriptEntity.
+  example: []
+  syntax:
+    content: public Task<TriggerScriptEntity> CreateDefaultTriggerScriptEntityAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TriggerScriptEntity}
+      description: New TriggerScriptEntity with default values
+    content.vb: Public Function CreateDefaultTriggerScriptEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of TriggerScriptEntity)
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultTriggerScriptEntityAsync*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity,System.Threading.CancellationToken)
+  id: SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveTriggerScriptEntityAsync(TriggerScriptEntity, CancellationToken)
+  nameWithType: CRMScriptAgent.SaveTriggerScriptEntityAsync(TriggerScriptEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing TriggerScriptEntity or creates a new TriggerScriptEntity if the id parameter is 0.
+  example: []
+  syntax:
+    content: public Task<TriggerScriptEntity> SaveTriggerScriptEntityAsync(TriggerScriptEntity triggerScriptEntity, CancellationToken cancellationToken = default)
+    parameters:
+    - id: triggerScriptEntity
+      type: SuperOffice.CRM.Services.TriggerScriptEntity
+      description: The TriggerScriptEntity that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TriggerScriptEntity}
+      description: New or updated TriggerScriptEntity
+    content.vb: Public Function SaveTriggerScriptEntityAsync(triggerScriptEntity As TriggerScriptEntity, cancellationToken As CancellationToken = Nothing) As Task(Of TriggerScriptEntity)
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptEntityAsync*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.CRMScriptAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteTriggerScriptEntityAsync(int, CancellationToken)
+  nameWithType: CRMScriptAgent.DeleteTriggerScriptEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptEntityAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Deletes the TriggerScriptEntity
+  example: []
+  syntax:
+    content: public Task DeleteTriggerScriptEntityAsync(int triggerScriptEntityId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: triggerScriptEntityId
+      type: System.Int32
+      description: The identity of the TriggerScriptEntity
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function DeleteTriggerScriptEntityAsync(triggerScriptEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptEntityAsync*
+  implements:
+  - SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: CRMScriptAgent.DeleteTriggerScriptEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteTriggerScriptEntityAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
   id: GetTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
@@ -933,9 +940,10 @@ items:
       description: The identifier of the TriggerScriptEntity object
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TriggerScriptEntity}
-      description: TriggerScriptEntity
+      description: A single TriggerScriptEntity
     content.vb: Public Function GetTriggerScriptEntityAsync(triggerScriptEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TriggerScriptEntity)
   overload: SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptEntityAsync*
   implements:
@@ -1528,41 +1536,77 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
-- uid: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultCRMScriptEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultCRMScriptEntityAsync
+- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
   isExternal: true
-  href: SuperOffice.CRM.Services.CRMScriptAgent.html#SuperOffice_CRM_Services_CRMScriptAgent_CreateDefaultCRMScriptEntityAsync_System_Threading_CancellationToken_
-  name: CreateDefaultCRMScriptEntityAsync
-  nameWithType: CRMScriptAgent.CreateDefaultCRMScriptEntityAsync
-  fullName: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultCRMScriptEntityAsync
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
+  name: IScriptingConfiguration
+  nameWithType: ConfigFile.IScriptingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  isExternal: true
+  name: IOnlineConfiguration
+  nameWithType: ConfigFile.IOnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptAgent.html#SuperOffice_CRM_Services_CRMScriptAgent_GetCRMScriptByUniqueIdentifierAsync_System_String_System_Threading_CancellationToken_
+  name: GetCRMScriptByUniqueIdentifierAsync
+  nameWithType: CRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.ICRMScriptAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: CreateDefaultCRMScriptEntityAsync(CancellationToken)
-  nameWithType: ICRMScriptAgent.CreateDefaultCRMScriptEntityAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: GetCRMScriptByUniqueIdentifierAsync(string, CancellationToken)
+  nameWithType: ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(string, System.Threading.CancellationToken)
+  nameWithType.vb: ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(String, System.Threading.CancellationToken)
+  name.vb: GetCRMScriptByUniqueIdentifierAsync(String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
-    name: CreateDefaultCRMScriptEntityAsync
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(System.String,System.Threading.CancellationToken)
+    name: GetCRMScriptByUniqueIdentifierAsync
     isExternal: true
   - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
-    name: CreateDefaultCRMScriptEntityAsync
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(System.String,System.Threading.CancellationToken)
+    name: GetCRMScriptByUniqueIdentifierAsync
     isExternal: true
   - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Threading.CancellationToken
   commentId: T:System.Threading.CancellationToken
   parent: System.Threading
@@ -1571,27 +1615,27 @@ references:
   name: CancellationToken
   nameWithType: CancellationToken
   fullName: System.Threading.CancellationToken
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptEntity}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptEntity}
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Script}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Script}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
   href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<CRMScriptEntity>
-  nameWithType: Task<CRMScriptEntity>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.CRMScriptEntity>
-  nameWithType.vb: Task(Of CRMScriptEntity)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.CRMScriptEntity)
-  name.vb: Task(Of CRMScriptEntity)
+  name: Task<Script>
+  nameWithType: Task<Script>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Script>
+  nameWithType.vb: Task(Of Script)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Script)
+  name.vb: Task(Of Script)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - uid: SuperOffice.CRM.Services.CRMScriptEntity
-    name: CRMScriptEntity
+  - uid: SuperOffice.CRM.Services.Script
+    name: Script
     isExternal: true
-    href: SuperOffice.CRM.Services.CRMScriptEntity.html
+    href: SuperOffice.CRM.Services.Script.html
   - name: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
@@ -1601,10 +1645,10 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: SuperOffice.CRM.Services.CRMScriptEntity
-    name: CRMScriptEntity
+  - uid: SuperOffice.CRM.Services.Script
+    name: Script
     isExternal: true
-    href: SuperOffice.CRM.Services.CRMScriptEntity.html
+    href: SuperOffice.CRM.Services.Script.html
   - name: )
 - uid: System.Threading
   commentId: N:System.Threading
@@ -1698,397 +1742,6 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-- uid: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.CRMScriptAgent.html#SuperOffice_CRM_Services_CRMScriptAgent_SaveCRMScriptEntityAsync_SuperOffice_CRM_Services_CRMScriptEntity_System_Threading_CancellationToken_
-  name: SaveCRMScriptEntityAsync
-  nameWithType: CRMScriptAgent.SaveCRMScriptEntityAsync
-  fullName: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntityAsync
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.ICRMScriptAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: SaveCRMScriptEntityAsync(CRMScriptEntity, CancellationToken)
-  nameWithType: ICRMScriptAgent.SaveCRMScriptEntityAsync(CRMScriptEntity, CancellationToken)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity, System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity,System.Threading.CancellationToken)
-    name: SaveCRMScriptEntityAsync
-    isExternal: true
-  - name: (
-  - uid: SuperOffice.CRM.Services.CRMScriptEntity
-    name: CRMScriptEntity
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity,System.Threading.CancellationToken)
-    name: SaveCRMScriptEntityAsync
-    isExternal: true
-  - name: (
-  - uid: SuperOffice.CRM.Services.CRMScriptEntity
-    name: CRMScriptEntity
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: SuperOffice.CRM.Services.CRMScriptEntity
-  commentId: T:SuperOffice.CRM.Services.CRMScriptEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.CRMScriptEntity.html
-  name: CRMScriptEntity
-  nameWithType: CRMScriptEntity
-  fullName: SuperOffice.CRM.Services.CRMScriptEntity
-- uid: SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.CRMScriptAgent.html#SuperOffice_CRM_Services_CRMScriptAgent_DeleteCRMScriptEntityAsync_System_Int32_System_Threading_CancellationToken_
-  name: DeleteCRMScriptEntityAsync
-  nameWithType: CRMScriptAgent.DeleteCRMScriptEntityAsync
-  fullName: SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptEntityAsync
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.ICRMScriptAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: DeleteCRMScriptEntityAsync(int, CancellationToken)
-  nameWithType: ICRMScriptAgent.DeleteCRMScriptEntityAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntityAsync(int, System.Threading.CancellationToken)
-  nameWithType.vb: ICRMScriptAgent.DeleteCRMScriptEntityAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntityAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeleteCRMScriptEntityAsync(Integer, CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
-    name: DeleteCRMScriptEntityAsync
-    isExternal: true
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
-    name: DeleteCRMScriptEntityAsync
-    isExternal: true
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
-- uid: System.Threading.Tasks.Task
-  commentId: T:System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultTriggerScriptEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultTriggerScriptEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.CRMScriptAgent.html#SuperOffice_CRM_Services_CRMScriptAgent_CreateDefaultTriggerScriptEntityAsync_System_Threading_CancellationToken_
-  name: CreateDefaultTriggerScriptEntityAsync
-  nameWithType: CRMScriptAgent.CreateDefaultTriggerScriptEntityAsync
-  fullName: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultTriggerScriptEntityAsync
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.ICRMScriptAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: CreateDefaultTriggerScriptEntityAsync(CancellationToken)
-  nameWithType: ICRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
-    name: CreateDefaultTriggerScriptEntityAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
-    name: CreateDefaultTriggerScriptEntityAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TriggerScriptEntity}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TriggerScriptEntity}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<TriggerScriptEntity>
-  nameWithType: Task<TriggerScriptEntity>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TriggerScriptEntity>
-  nameWithType.vb: Task(Of TriggerScriptEntity)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TriggerScriptEntity)
-  name.vb: Task(Of TriggerScriptEntity)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.TriggerScriptEntity
-    name: TriggerScriptEntity
-    isExternal: true
-    href: SuperOffice.CRM.Services.TriggerScriptEntity.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.TriggerScriptEntity
-    name: TriggerScriptEntity
-    isExternal: true
-    href: SuperOffice.CRM.Services.TriggerScriptEntity.html
-  - name: )
-- uid: SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.CRMScriptAgent.html#SuperOffice_CRM_Services_CRMScriptAgent_SaveTriggerScriptEntityAsync_SuperOffice_CRM_Services_TriggerScriptEntity_System_Threading_CancellationToken_
-  name: SaveTriggerScriptEntityAsync
-  nameWithType: CRMScriptAgent.SaveTriggerScriptEntityAsync
-  fullName: SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptEntityAsync
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.ICRMScriptAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: SaveTriggerScriptEntityAsync(TriggerScriptEntity, CancellationToken)
-  nameWithType: ICRMScriptAgent.SaveTriggerScriptEntityAsync(TriggerScriptEntity, CancellationToken)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity, System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity,System.Threading.CancellationToken)
-    name: SaveTriggerScriptEntityAsync
-    isExternal: true
-  - name: (
-  - uid: SuperOffice.CRM.Services.TriggerScriptEntity
-    name: TriggerScriptEntity
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity,System.Threading.CancellationToken)
-    name: SaveTriggerScriptEntityAsync
-    isExternal: true
-  - name: (
-  - uid: SuperOffice.CRM.Services.TriggerScriptEntity
-    name: TriggerScriptEntity
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: SuperOffice.CRM.Services.TriggerScriptEntity
-  commentId: T:SuperOffice.CRM.Services.TriggerScriptEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.TriggerScriptEntity.html
-  name: TriggerScriptEntity
-  nameWithType: TriggerScriptEntity
-  fullName: SuperOffice.CRM.Services.TriggerScriptEntity
-- uid: SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.CRMScriptAgent.html#SuperOffice_CRM_Services_CRMScriptAgent_DeleteTriggerScriptEntityAsync_System_Int32_System_Threading_CancellationToken_
-  name: DeleteTriggerScriptEntityAsync
-  nameWithType: CRMScriptAgent.DeleteTriggerScriptEntityAsync
-  fullName: SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptEntityAsync
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.ICRMScriptAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: DeleteTriggerScriptEntityAsync(int, CancellationToken)
-  nameWithType: ICRMScriptAgent.DeleteTriggerScriptEntityAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntityAsync(int, System.Threading.CancellationToken)
-  nameWithType.vb: ICRMScriptAgent.DeleteTriggerScriptEntityAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntityAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeleteTriggerScriptEntityAsync(Integer, CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
-    name: DeleteTriggerScriptEntityAsync
-    isExternal: true
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
-    name: DeleteTriggerScriptEntityAsync
-    isExternal: true
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync*
-  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.CRMScriptAgent.html#SuperOffice_CRM_Services_CRMScriptAgent_GetCRMScriptByUniqueIdentifierAsync_System_String_System_Threading_CancellationToken_
-  name: GetCRMScriptByUniqueIdentifierAsync
-  nameWithType: CRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync
-  fullName: SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync
-- uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(System.String,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(System.String,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.ICRMScriptAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: GetCRMScriptByUniqueIdentifierAsync(string, CancellationToken)
-  nameWithType: ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(string, CancellationToken)
-  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(string, System.Threading.CancellationToken)
-  nameWithType.vb: ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(String, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(String, System.Threading.CancellationToken)
-  name.vb: GetCRMScriptByUniqueIdentifierAsync(String, CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(System.String,System.Threading.CancellationToken)
-    name: GetCRMScriptByUniqueIdentifierAsync
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.GetCRMScriptByUniqueIdentifierAsync(System.String,System.Threading.CancellationToken)
-    name: GetCRMScriptByUniqueIdentifierAsync
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Script}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Script}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<Script>
-  nameWithType: Task<Script>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Script>
-  nameWithType.vb: Task(Of Script)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Script)
-  name.vb: Task(Of Script)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.Script
-    name: Script
-    isExternal: true
-    href: SuperOffice.CRM.Services.Script.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.Script
-    name: Script
-    isExternal: true
-    href: SuperOffice.CRM.Services.Script.html
-  - name: )
 - uid: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptByUniqueIdentifierAsync*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptByUniqueIdentifierAsync
   isExternal: true
@@ -2207,6 +1860,198 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultCRMScriptEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultCRMScriptEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptAgent.html#SuperOffice_CRM_Services_CRMScriptAgent_CreateDefaultCRMScriptEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultCRMScriptEntityAsync
+  nameWithType: CRMScriptAgent.CreateDefaultCRMScriptEntityAsync
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultCRMScriptEntityAsync
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultCRMScriptEntityAsync(CancellationToken)
+  nameWithType: ICRMScriptAgent.CreateDefaultCRMScriptEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
+    name: CreateDefaultCRMScriptEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultCRMScriptEntityAsync(System.Threading.CancellationToken)
+    name: CreateDefaultCRMScriptEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.CRMScriptEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<CRMScriptEntity>
+  nameWithType: Task<CRMScriptEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.CRMScriptEntity>
+  nameWithType.vb: Task(Of CRMScriptEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.CRMScriptEntity)
+  name.vb: Task(Of CRMScriptEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.CRMScriptEntity
+    name: CRMScriptEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.CRMScriptEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.CRMScriptEntity
+    name: CRMScriptEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.CRMScriptEntity.html
+  - name: )
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptAgent.html#SuperOffice_CRM_Services_CRMScriptAgent_SaveCRMScriptEntityAsync_SuperOffice_CRM_Services_CRMScriptEntity_System_Threading_CancellationToken_
+  name: SaveCRMScriptEntityAsync
+  nameWithType: CRMScriptAgent.SaveCRMScriptEntityAsync
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.SaveCRMScriptEntityAsync
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: SaveCRMScriptEntityAsync(CRMScriptEntity, CancellationToken)
+  nameWithType: ICRMScriptAgent.SaveCRMScriptEntityAsync(CRMScriptEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity,System.Threading.CancellationToken)
+    name: SaveCRMScriptEntityAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.CRMScriptEntity
+    name: CRMScriptEntity
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveCRMScriptEntityAsync(SuperOffice.CRM.Services.CRMScriptEntity,System.Threading.CancellationToken)
+    name: SaveCRMScriptEntityAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.CRMScriptEntity
+    name: CRMScriptEntity
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.CRMScriptEntity
+  commentId: T:SuperOffice.CRM.Services.CRMScriptEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptEntity.html
+  name: CRMScriptEntity
+  nameWithType: CRMScriptEntity
+  fullName: SuperOffice.CRM.Services.CRMScriptEntity
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptAgent.html#SuperOffice_CRM_Services_CRMScriptAgent_DeleteCRMScriptEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteCRMScriptEntityAsync
+  nameWithType: CRMScriptAgent.DeleteCRMScriptEntityAsync
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.DeleteCRMScriptEntityAsync
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DeleteCRMScriptEntityAsync(int, CancellationToken)
+  nameWithType: ICRMScriptAgent.DeleteCRMScriptEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntityAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: ICRMScriptAgent.DeleteCRMScriptEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteCRMScriptEntityAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteCRMScriptEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteCRMScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteCRMScriptEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.GetCRMScriptEntityAsync
   isExternal: true
@@ -3136,6 +2981,179 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: (
   - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultTriggerScriptEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultTriggerScriptEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptAgent.html#SuperOffice_CRM_Services_CRMScriptAgent_CreateDefaultTriggerScriptEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultTriggerScriptEntityAsync
+  nameWithType: CRMScriptAgent.CreateDefaultTriggerScriptEntityAsync
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.CreateDefaultTriggerScriptEntityAsync
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultTriggerScriptEntityAsync(CancellationToken)
+  nameWithType: ICRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
+    name: CreateDefaultTriggerScriptEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.CreateDefaultTriggerScriptEntityAsync(System.Threading.CancellationToken)
+    name: CreateDefaultTriggerScriptEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TriggerScriptEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TriggerScriptEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TriggerScriptEntity>
+  nameWithType: Task<TriggerScriptEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TriggerScriptEntity>
+  nameWithType.vb: Task(Of TriggerScriptEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TriggerScriptEntity)
+  name.vb: Task(Of TriggerScriptEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.TriggerScriptEntity
+    name: TriggerScriptEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.TriggerScriptEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.TriggerScriptEntity
+    name: TriggerScriptEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.TriggerScriptEntity.html
+  - name: )
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptAgent.html#SuperOffice_CRM_Services_CRMScriptAgent_SaveTriggerScriptEntityAsync_SuperOffice_CRM_Services_TriggerScriptEntity_System_Threading_CancellationToken_
+  name: SaveTriggerScriptEntityAsync
+  nameWithType: CRMScriptAgent.SaveTriggerScriptEntityAsync
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.SaveTriggerScriptEntityAsync
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: SaveTriggerScriptEntityAsync(TriggerScriptEntity, CancellationToken)
+  nameWithType: ICRMScriptAgent.SaveTriggerScriptEntityAsync(TriggerScriptEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity,System.Threading.CancellationToken)
+    name: SaveTriggerScriptEntityAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.TriggerScriptEntity
+    name: TriggerScriptEntity
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.SaveTriggerScriptEntityAsync(SuperOffice.CRM.Services.TriggerScriptEntity,System.Threading.CancellationToken)
+    name: SaveTriggerScriptEntityAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.TriggerScriptEntity
+    name: TriggerScriptEntity
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.TriggerScriptEntity
+  commentId: T:SuperOffice.CRM.Services.TriggerScriptEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.TriggerScriptEntity.html
+  name: TriggerScriptEntity
+  nameWithType: TriggerScriptEntity
+  fullName: SuperOffice.CRM.Services.TriggerScriptEntity
+- uid: SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.CRMScriptAgent.html#SuperOffice_CRM_Services_CRMScriptAgent_DeleteTriggerScriptEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteTriggerScriptEntityAsync
+  nameWithType: CRMScriptAgent.DeleteTriggerScriptEntityAsync
+  fullName: SuperOffice.CRM.Services.CRMScriptAgent.DeleteTriggerScriptEntityAsync
+- uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ICRMScriptAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DeleteTriggerScriptEntityAsync(int, CancellationToken)
+  nameWithType: ICRMScriptAgent.DeleteTriggerScriptEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntityAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: ICRMScriptAgent.DeleteTriggerScriptEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteTriggerScriptEntityAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteTriggerScriptEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ICRMScriptAgent.DeleteTriggerScriptEntityAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteTriggerScriptEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
 - uid: SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.CRMScriptAgent.GetTriggerScriptEntityAsync

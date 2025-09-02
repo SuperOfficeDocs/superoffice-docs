@@ -1,0 +1,2278 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo
+  commentId: T:SuperOffice.CRM.Data.UtmParametersTableInfo
+  id: UtmParametersTableInfo
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.Campaign
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.Content
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedContactId
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedContactId_InnerJoin_Contact
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedPersonId
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedPersonId_InnerJoin_Person
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.Definition
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.DictionaryTableName
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.DictionaryTableNumber
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchCampaign
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchContent
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchMedium
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchReferrerdomain
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchSource
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchTerm
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchWhen
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.FormSubmissionId
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.FormSubmissionId_InnerJoin_FormSubmission
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.Medium
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.Referrerdomain
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.Registered
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.RegisteredAssociateId
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.RuntimeDefinition
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.Source
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.Term
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.Updated
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedAssociateId
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedCount
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.UtmParametersId
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.When
+  langs:
+  - csharp
+  - vb
+  name: UtmParametersTableInfo
+  nameWithType: UtmParametersTableInfo
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "Table 'utm_parameters': Table for utm parameters collected from visits and formsubmissions"
+  remarks: >-
+    An instance of this class represents one instance of this table in an SQL statement. In most
+
+    cases each table appears only once in a SELECT, but in cases where you need to self-join, or
+
+    there are multiple occurrences for other reasons (typically additional restrictions in the joins),
+
+    then you will need multiple instances. <br />
+
+    Instances of this class are created by calling TablesInfo.GetUtmParametersInfo().
+  example: []
+  syntax:
+    content: >-
+      [DatabaseTable("utm_parameters")]
+
+      public class UtmParametersTableInfo : TableInfo, ICloneable
+    content.vb: >-
+      <DatabaseTable("utm_parameters")>
+
+      Public Class UtmParametersTableInfo Inherits TableInfo Implements ICloneable
+  inheritance:
+  - System.Object
+  - SuperOffice.Data.SQL.TableInfo
+  implements:
+  - System.ICloneable
+  inheritedMembers:
+  - SuperOffice.Data.SQL.TableInfo.ToString
+  - SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  - SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.Data.SQL.TableInfo.Clone
+  - SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  - SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  - SuperOffice.Data.SQL.TableInfo.ProtAll
+  - SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  - SuperOffice.Data.SQL.TableInfo.TableName
+  - SuperOffice.Data.SQL.TableInfo.DbName
+  - SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  - SuperOffice.Data.SQL.TableInfo.All
+  - SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  - SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Data.UtmParametersTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  attributes:
+  - type: SuperOffice.Data.SQL.DatabaseTableAttribute
+    ctor: SuperOffice.Data.SQL.DatabaseTableAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: utm_parameters
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.DictionaryTableName
+  commentId: F:SuperOffice.CRM.Data.UtmParametersTableInfo.DictionaryTableName
+  id: DictionaryTableName
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableName
+  nameWithType: UtmParametersTableInfo.DictionaryTableName
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.DictionaryTableName
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Conceptual name of table UtmParameters in the database dictionary: utm_parameters'
+  example: []
+  syntax:
+    content: public const string DictionaryTableName = "utm_parameters"
+    return:
+      type: System.String
+    content.vb: Public Const DictionaryTableName As String = "utm_parameters"
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.DictionaryTableNumber
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.DictionaryTableNumber
+  id: DictionaryTableNumber
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: DictionaryTableNumber
+  nameWithType: UtmParametersTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.DictionaryTableNumber
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Table number for table UtmParameters in the database dictionary; potentially changes between databases, but
+
+    always the same over the lifetime of any single database
+  example: []
+  syntax:
+    content: public int DictionaryTableNumber { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property DictionaryTableNumber As Integer
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.DictionaryTableNumber*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.RuntimeDefinition
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.RuntimeDefinition
+  id: RuntimeDefinition
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RuntimeDefinition
+  nameWithType: UtmParametersTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.RuntimeDefinition
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Definition of the table as described in the deployed runtime dictionary
+  example: []
+  syntax:
+    content: >-
+      [Obsolete("Use instance property Definition or static member DictionaryTableNumber", true)]
+
+      public static SoTable RuntimeDefinition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: >-
+      <Obsolete("Use instance property Definition or static member DictionaryTableNumber", True)>
+
+      Public Shared ReadOnly Property RuntimeDefinition As SoTable
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.RuntimeDefinition*
+  attributes:
+  - type: System.ObsoleteAttribute
+    ctor: System.ObsoleteAttribute.#ctor(System.String,System.Boolean)
+    arguments:
+    - type: System.String
+      value: Use instance property Definition or static member DictionaryTableNumber
+    - type: System.Boolean
+      value: true
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.Definition
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.Definition
+  id: Definition
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Definition
+  nameWithType: UtmParametersTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.Definition
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Definition of the table as described in the deployed runtime dictionary
+  example: []
+  syntax:
+    content: public override SoTable Definition { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.Dictionary.SoTable
+    content.vb: Public Overrides ReadOnly Property Definition As SoTable
+  overridden: SuperOffice.Data.SQL.TableInfo.Definition
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.Definition*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.UtmParametersId
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.UtmParametersId
+  id: UtmParametersId
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UtmParametersId
+  nameWithType: UtmParametersTableInfo.UtmParametersId
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.UtmParametersId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'utm_parameters_id' in table 'utm_parameters': Dictionary type PK, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Primary key
+  example: []
+  syntax:
+    content: public Int32FieldInfo UtmParametersId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property UtmParametersId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.UtmParametersId*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedPersonId
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedPersonId
+  id: CreatedPersonId
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CreatedPersonId
+  nameWithType: UtmParametersTableInfo.CreatedPersonId
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedPersonId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'created_person_id' in table 'utm_parameters': Dictionary type FK, target: Person, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Id of the created person
+  example: []
+  syntax:
+    content: public Int32FieldInfo CreatedPersonId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property CreatedPersonId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedPersonId*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedContactId
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedContactId
+  id: CreatedContactId
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CreatedContactId
+  nameWithType: UtmParametersTableInfo.CreatedContactId
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedContactId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'created_contact_id' in table 'utm_parameters': Dictionary type FK, target: Contact, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Id of the created contact
+  example: []
+  syntax:
+    content: public Int32FieldInfo CreatedContactId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property CreatedContactId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedContactId*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.FormSubmissionId
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.FormSubmissionId
+  id: FormSubmissionId
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FormSubmissionId
+  nameWithType: UtmParametersTableInfo.FormSubmissionId
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.FormSubmissionId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'form_submission_id' in table 'utm_parameters': Dictionary type FK, target: FormSubmission, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Id of formsubmission
+  example: []
+  syntax:
+    content: public Int32FieldInfo FormSubmissionId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property FormSubmissionId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.FormSubmissionId*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchSource
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchSource
+  id: FirsttouchSource
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FirsttouchSource
+  nameWithType: UtmParametersTableInfo.FirsttouchSource
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchSource
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'firsttouch_source' in table 'utm_parameters': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    First touch UTM Source
+  example: []
+  syntax:
+    content: public StringFieldInfo FirsttouchSource { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property FirsttouchSource As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchSource*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchMedium
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchMedium
+  id: FirsttouchMedium
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FirsttouchMedium
+  nameWithType: UtmParametersTableInfo.FirsttouchMedium
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchMedium
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'firsttouch_medium' in table 'utm_parameters': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    First touch UTM Medium
+  example: []
+  syntax:
+    content: public StringFieldInfo FirsttouchMedium { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property FirsttouchMedium As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchMedium*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchCampaign
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchCampaign
+  id: FirsttouchCampaign
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FirsttouchCampaign
+  nameWithType: UtmParametersTableInfo.FirsttouchCampaign
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchCampaign
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'firsttouch_campaign' in table 'utm_parameters': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    First touch UTM Campaign
+  example: []
+  syntax:
+    content: public StringFieldInfo FirsttouchCampaign { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property FirsttouchCampaign As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchCampaign*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchTerm
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchTerm
+  id: FirsttouchTerm
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FirsttouchTerm
+  nameWithType: UtmParametersTableInfo.FirsttouchTerm
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchTerm
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'firsttouch_term' in table 'utm_parameters': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    First touch UTM Term
+  example: []
+  syntax:
+    content: public StringFieldInfo FirsttouchTerm { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property FirsttouchTerm As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchTerm*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchContent
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchContent
+  id: FirsttouchContent
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FirsttouchContent
+  nameWithType: UtmParametersTableInfo.FirsttouchContent
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchContent
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'firsttouch_content' in table 'utm_parameters': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    First touch UTM Content
+  example: []
+  syntax:
+    content: public StringFieldInfo FirsttouchContent { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property FirsttouchContent As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchContent*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchReferrerdomain
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchReferrerdomain
+  id: FirsttouchReferrerdomain
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FirsttouchReferrerdomain
+  nameWithType: UtmParametersTableInfo.FirsttouchReferrerdomain
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchReferrerdomain
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'firsttouch_referrerdomain' in table 'utm_parameters': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    First touch referrer domain
+  example: []
+  syntax:
+    content: public StringFieldInfo FirsttouchReferrerdomain { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property FirsttouchReferrerdomain As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchReferrerdomain*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchWhen
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchWhen
+  id: FirsttouchWhen
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FirsttouchWhen
+  nameWithType: UtmParametersTableInfo.FirsttouchWhen
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchWhen
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'firsttouch_when' in table 'utm_parameters': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    First touch date
+  example: []
+  syntax:
+    content: public DateTimeFieldInfo FirsttouchWhen { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property FirsttouchWhen As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchWhen*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.Source
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.Source
+  id: Source
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: UtmParametersTableInfo.Source
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.Source
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'source' in table 'utm_parameters': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    UTM Source
+  example: []
+  syntax:
+    content: public StringFieldInfo Source { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Source As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.Source*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.Medium
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.Medium
+  id: Medium
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Medium
+  nameWithType: UtmParametersTableInfo.Medium
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.Medium
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'medium' in table 'utm_parameters': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    UTM Medium
+  example: []
+  syntax:
+    content: public StringFieldInfo Medium { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Medium As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.Medium*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.Campaign
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.Campaign
+  id: Campaign
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Campaign
+  nameWithType: UtmParametersTableInfo.Campaign
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.Campaign
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'campaign' in table 'utm_parameters': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    UTM Campaign
+  example: []
+  syntax:
+    content: public StringFieldInfo Campaign { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Campaign As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.Campaign*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.Term
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.Term
+  id: Term
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Term
+  nameWithType: UtmParametersTableInfo.Term
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.Term
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'term' in table 'utm_parameters': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    UTM Term
+  example: []
+  syntax:
+    content: public StringFieldInfo Term { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Term As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.Term*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.Content
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.Content
+  id: Content
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: UtmParametersTableInfo.Content
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.Content
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'content' in table 'utm_parameters': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    UTM Content
+  example: []
+  syntax:
+    content: public StringFieldInfo Content { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Content As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.Content*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.Referrerdomain
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.Referrerdomain
+  id: Referrerdomain
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Referrerdomain
+  nameWithType: UtmParametersTableInfo.Referrerdomain
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.Referrerdomain
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'referrerdomain' in table 'utm_parameters': Dictionary type String[256], .NET type: <xref href="System.String" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Referrer domain
+  example: []
+  syntax:
+    content: public StringFieldInfo Referrerdomain { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.StringFieldInfo
+    content.vb: Public ReadOnly Property Referrerdomain As StringFieldInfo
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.Referrerdomain*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.When
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.When
+  id: When
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: When
+  nameWithType: UtmParametersTableInfo.When
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.When
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'when' in table 'utm_parameters': Dictionary type DateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Date of the visit or form submission
+  example: []
+  syntax:
+    content: public DateTimeFieldInfo When { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property [When] As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.When*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.Registered
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: UtmParametersTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.Registered
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'registered' in table 'utm_parameters': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Registered when
+  example: []
+  syntax:
+    content: public DateTimeFieldInfo Registered { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Registered As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.Registered*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: UtmParametersTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.RegisteredAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'registered_associate_id' in table 'utm_parameters': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Registered by whom
+  example: []
+  syntax:
+    content: public Int32FieldInfo RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property RegisteredAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.RegisteredAssociateId*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.Updated
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: UtmParametersTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.Updated
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'updated' in table 'utm_parameters': Dictionary type UtcDateTime, .NET type: <xref href="System.DateTime" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Last updated when
+  example: []
+  syntax:
+    content: public DateTimeFieldInfo Updated { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.DateTimeFieldInfo
+    content.vb: Public ReadOnly Property Updated As DateTimeFieldInfo
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.Updated*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: UtmParametersTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'updated_associate_id' in table 'utm_parameters': Dictionary type FK, target: Associate, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Last updated by whom
+  example: []
+  syntax:
+    content: public Int32FieldInfo UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property UpdatedAssociateId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedAssociateId*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedCount
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: UtmParametersTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedCount
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'updatedCount' in table 'utm_parameters': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Number of updates made to this record
+  example: []
+  syntax:
+    content: public UInt16FieldInfo UpdatedCount { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property UpdatedCount As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedCount*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedPersonId_InnerJoin_Person
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedPersonId_InnerJoin_Person
+  id: CreatedPersonId_InnerJoin_Person
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CreatedPersonId_InnerJoin_Person
+  nameWithType: UtmParametersTableInfo.CreatedPersonId_InnerJoin_Person
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedPersonId_InnerJoin_Person
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key CreatedPersonId in this table, to its target table <xref href="SuperOffice.CRM.Data.PersonTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<PersonTableInfo> CreatedPersonId_InnerJoin_Person { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.PersonTableInfo}
+    content.vb: Public ReadOnly Property CreatedPersonId_InnerJoin_Person As TargetedInnerJoin(Of PersonTableInfo)
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedPersonId_InnerJoin_Person*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedContactId_InnerJoin_Contact
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedContactId_InnerJoin_Contact
+  id: CreatedContactId_InnerJoin_Contact
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: CreatedContactId_InnerJoin_Contact
+  nameWithType: UtmParametersTableInfo.CreatedContactId_InnerJoin_Contact
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedContactId_InnerJoin_Contact
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key CreatedContactId in this table, to its target table <xref href="SuperOffice.CRM.Data.ContactTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<ContactTableInfo> CreatedContactId_InnerJoin_Contact { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ContactTableInfo}
+    content.vb: Public ReadOnly Property CreatedContactId_InnerJoin_Contact As TargetedInnerJoin(Of ContactTableInfo)
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedContactId_InnerJoin_Contact*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.FormSubmissionId_InnerJoin_FormSubmission
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.FormSubmissionId_InnerJoin_FormSubmission
+  id: FormSubmissionId_InnerJoin_FormSubmission
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: FormSubmissionId_InnerJoin_FormSubmission
+  nameWithType: UtmParametersTableInfo.FormSubmissionId_InnerJoin_FormSubmission
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.FormSubmissionId_InnerJoin_FormSubmission
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key FormSubmissionId in this table, to its target table <xref href="SuperOffice.CRM.Data.FormSubmissionTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<FormSubmissionTableInfo> FormSubmissionId_InnerJoin_FormSubmission { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.FormSubmissionTableInfo}
+    content.vb: Public ReadOnly Property FormSubmissionId_InnerJoin_FormSubmission As TargetedInnerJoin(Of FormSubmissionTableInfo)
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.FormSubmissionId_InnerJoin_FormSubmission*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  id: RegisteredAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: UtmParametersTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key RegisteredAssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> RegisteredAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property RegisteredAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  id: UpdatedAssociateId_InnerJoin_Associate
+  parent: SuperOffice.CRM.Data.UtmParametersTableInfo
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: UtmParametersTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key UpdatedAssociateId in this table, to its target table <xref href="SuperOffice.CRM.Data.AssociateTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<AssociateTableInfo> UpdatedAssociateId_InnerJoin_Associate { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+    content.vb: Public ReadOnly Property UpdatedAssociateId_InnerJoin_Associate As TargetedInnerJoin(Of AssociateTableInfo)
+  overload: SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.Data.SQL.TableInfo
+  commentId: T:SuperOffice.Data.SQL.TableInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html
+  name: TableInfo
+  nameWithType: TableInfo
+  fullName: SuperOffice.Data.SQL.TableInfo
+- uid: System.ICloneable
+  commentId: T:System.ICloneable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.icloneable
+  name: ICloneable
+  nameWithType: ICloneable
+  fullName: System.ICloneable
+- uid: SuperOffice.Data.SQL.TableInfo.ToString
+  commentId: M:SuperOffice.Data.SQL.TableInfo.ToString
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
+  name: ToString()
+  nameWithType: TableInfo.ToString()
+  fullName: SuperOffice.Data.SQL.TableInfo.ToString()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.ToString
+    name: ToString
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ToString
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  commentId: M:SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
+  name: RegisterFields(params FieldInfo[])
+  nameWithType: TableInfo.RegisterFields(params FieldInfo[])
+  fullName: SuperOffice.Data.SQL.TableInfo.RegisterFields(params SuperOffice.Data.SQL.FieldInfo[])
+  nameWithType.vb: TableInfo.RegisterFields(ParamArray FieldInfo())
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.RegisterFields(ParamArray SuperOffice.Data.SQL.FieldInfo())
+  name.vb: RegisterFields(ParamArray FieldInfo())
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
+  - name: (
+  - name: params
+  - name: " "
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.RegisterFields(SuperOffice.Data.SQL.FieldInfo[])
+    name: RegisterFields
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_RegisterFields_SuperOffice_Data_SQL_FieldInfo___
+  - name: (
+  - name: ParamArray
+  - name: " "
+  - uid: SuperOffice.Data.SQL.FieldInfo
+    name: FieldInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.FieldInfo.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
+  name: FieldInfoFromSoField(SoField)
+  nameWithType: TableInfo.FieldInfoFromSoField(SoField)
+  fullName: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FieldInfoFromSoField(SuperOffice.Data.Dictionary.SoField)
+    name: FieldInfoFromSoField
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FieldInfoFromSoField_SuperOffice_Data_Dictionary_SoField_
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.html
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.Clone
+  commentId: M:SuperOffice.Data.SQL.TableInfo.Clone
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
+  name: Clone()
+  nameWithType: TableInfo.Clone()
+  fullName: SuperOffice.Data.SQL.TableInfo.Clone()
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Clone
+    name: Clone
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Clone
+  - name: (
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
+  name: IsSameTable(TableInfo)
+  nameWithType: TableInfo.IsSameTable(TableInfo)
+  fullName: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
+  - name: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.IsSameTable(SuperOffice.Data.SQL.TableInfo)
+    name: IsSameTable
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsSameTable_SuperOffice_Data_SQL_TableInfo_
+  - name: (
+  - uid: SuperOffice.Data.SQL.TableInfo
+    name: TableInfo
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  commentId: M:SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
+  name: FindField(string)
+  nameWithType: TableInfo.FindField(string)
+  fullName: SuperOffice.Data.SQL.TableInfo.FindField(string)
+  nameWithType.vb: TableInfo.FindField(String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.FindField(String)
+  name.vb: FindField(String)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.FindField(System.String)
+    name: FindField
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_FindField_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.ProtAll
+  commentId: P:SuperOffice.Data.SQL.TableInfo.ProtAll
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_ProtAll
+  name: ProtAll
+  nameWithType: TableInfo.ProtAll
+  fullName: SuperOffice.Data.SQL.TableInfo.ProtAll
+- uid: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  commentId: P:SuperOffice.Data.SQL.TableInfo.HashCheckFields
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_HashCheckFields
+  name: HashCheckFields
+  nameWithType: TableInfo.HashCheckFields
+  fullName: SuperOffice.Data.SQL.TableInfo.HashCheckFields
+- uid: SuperOffice.Data.SQL.TableInfo.TableName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.TableName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_TableName
+  name: TableName
+  nameWithType: TableInfo.TableName
+  fullName: SuperOffice.Data.SQL.TableInfo.TableName
+- uid: SuperOffice.Data.SQL.TableInfo.DbName
+  commentId: P:SuperOffice.Data.SQL.TableInfo.DbName
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_DbName
+  name: DbName
+  nameWithType: TableInfo.DbName
+  fullName: SuperOffice.Data.SQL.TableInfo.DbName
+- uid: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  commentId: P:SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_IsDictionaryTable
+  name: IsDictionaryTable
+  nameWithType: TableInfo.IsDictionaryTable
+  fullName: SuperOffice.Data.SQL.TableInfo.IsDictionaryTable
+- uid: SuperOffice.Data.SQL.TableInfo.All
+  commentId: P:SuperOffice.Data.SQL.TableInfo.All
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_All
+  name: All
+  nameWithType: TableInfo.All
+  fullName: SuperOffice.Data.SQL.TableInfo.All
+- uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Item(System.String)
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: this[string]
+  nameWithType: TableInfo.this[string]
+  fullName: SuperOffice.Data.SQL.TableInfo.this[string]
+  nameWithType.vb: TableInfo.this[](String)
+  fullName.vb: SuperOffice.Data.SQL.TableInfo.this[](String)
+  name.vb: this[](String)
+  spec.csharp:
+  - name: this
+  - name: '['
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TableInfo.Item(System.String)
+    name: this[]
+    isExternal: true
+    href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Item_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  commentId: P:SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_PrimaryKeyField
+  name: PrimaryKeyField
+  nameWithType: TableInfo.PrimaryKeyField
+  fullName: SuperOffice.Data.SQL.TableInfo.PrimaryKeyField
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<UtmParametersTableInfo, To>(UtmParametersTableInfo)
+  nameWithType: EnumUtil.MapEnums<UtmParametersTableInfo, To>(UtmParametersTableInfo)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Data.UtmParametersTableInfo, To>(SuperOffice.CRM.Data.UtmParametersTableInfo)
+  nameWithType.vb: EnumUtil.MapEnums(Of UtmParametersTableInfo, To)(UtmParametersTableInfo)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Data.UtmParametersTableInfo, To)(SuperOffice.CRM.Data.UtmParametersTableInfo)
+  name.vb: MapEnums(Of UtmParametersTableInfo, To)(UtmParametersTableInfo)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.UtmParametersTableInfo)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.UtmParametersTableInfo
+    name: UtmParametersTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.UtmParametersTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Data.UtmParametersTableInfo
+    name: UtmParametersTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.UtmParametersTableInfo.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Data.UtmParametersTableInfo)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.UtmParametersTableInfo
+    name: UtmParametersTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.UtmParametersTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.UtmParametersTableInfo
+    name: UtmParametersTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.UtmParametersTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<UtmParametersTableInfo, To>(UtmParametersTableInfo)
+  nameWithType: Converters.MapEnums<UtmParametersTableInfo, To>(UtmParametersTableInfo)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Data.UtmParametersTableInfo, To>(SuperOffice.CRM.Data.UtmParametersTableInfo)
+  nameWithType.vb: Converters.MapEnums(Of UtmParametersTableInfo, To)(UtmParametersTableInfo)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Data.UtmParametersTableInfo, To)(SuperOffice.CRM.Data.UtmParametersTableInfo)
+  name.vb: MapEnums(Of UtmParametersTableInfo, To)(UtmParametersTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.UtmParametersTableInfo)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Data.UtmParametersTableInfo
+    name: UtmParametersTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.UtmParametersTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Data.UtmParametersTableInfo
+    name: UtmParametersTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.UtmParametersTableInfo.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Data.UtmParametersTableInfo)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.UtmParametersTableInfo
+    name: UtmParametersTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.UtmParametersTableInfo.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Data.UtmParametersTableInfo
+    name: UtmParametersTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.UtmParametersTableInfo.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.DictionaryTableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.DictionaryTableNumber
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_DictionaryTableNumber
+  name: DictionaryTableNumber
+  nameWithType: UtmParametersTableInfo.DictionaryTableNumber
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.DictionaryTableNumber
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.RuntimeDefinition*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.RuntimeDefinition
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_RuntimeDefinition
+  name: RuntimeDefinition
+  nameWithType: UtmParametersTableInfo.RuntimeDefinition
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.RuntimeDefinition
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  href: SuperOffice.Data.Dictionary.SoTable.html
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+- uid: SuperOffice.Data.SQL.TableInfo.Definition
+  commentId: P:SuperOffice.Data.SQL.TableInfo.Definition
+  parent: SuperOffice.Data.SQL.TableInfo
+  isExternal: true
+  href: SuperOffice.Data.SQL.TableInfo.html#SuperOffice_Data_SQL_TableInfo_Definition
+  name: Definition
+  nameWithType: TableInfo.Definition
+  fullName: SuperOffice.Data.SQL.TableInfo.Definition
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.Definition*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.Definition
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_Definition
+  name: Definition
+  nameWithType: UtmParametersTableInfo.Definition
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.Definition
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.UtmParametersId*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.UtmParametersId
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_UtmParametersId
+  name: UtmParametersId
+  nameWithType: UtmParametersTableInfo.UtmParametersId
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.UtmParametersId
+- uid: SuperOffice.Data.SQL.Int32FieldInfo
+  commentId: T:SuperOffice.Data.SQL.Int32FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.Int32FieldInfo.html
+  name: Int32FieldInfo
+  nameWithType: Int32FieldInfo
+  fullName: SuperOffice.Data.SQL.Int32FieldInfo
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedPersonId*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedPersonId
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_CreatedPersonId
+  name: CreatedPersonId
+  nameWithType: UtmParametersTableInfo.CreatedPersonId
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedPersonId
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedContactId*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedContactId
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_CreatedContactId
+  name: CreatedContactId
+  nameWithType: UtmParametersTableInfo.CreatedContactId
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedContactId
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.FormSubmissionId*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.FormSubmissionId
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_FormSubmissionId
+  name: FormSubmissionId
+  nameWithType: UtmParametersTableInfo.FormSubmissionId
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.FormSubmissionId
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchSource*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchSource
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_FirsttouchSource
+  name: FirsttouchSource
+  nameWithType: UtmParametersTableInfo.FirsttouchSource
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchSource
+- uid: SuperOffice.Data.SQL.StringFieldInfo
+  commentId: T:SuperOffice.Data.SQL.StringFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.StringFieldInfo.html
+  name: StringFieldInfo
+  nameWithType: StringFieldInfo
+  fullName: SuperOffice.Data.SQL.StringFieldInfo
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchMedium*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchMedium
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_FirsttouchMedium
+  name: FirsttouchMedium
+  nameWithType: UtmParametersTableInfo.FirsttouchMedium
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchMedium
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchCampaign*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchCampaign
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_FirsttouchCampaign
+  name: FirsttouchCampaign
+  nameWithType: UtmParametersTableInfo.FirsttouchCampaign
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchCampaign
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchTerm*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchTerm
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_FirsttouchTerm
+  name: FirsttouchTerm
+  nameWithType: UtmParametersTableInfo.FirsttouchTerm
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchTerm
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchContent*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchContent
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_FirsttouchContent
+  name: FirsttouchContent
+  nameWithType: UtmParametersTableInfo.FirsttouchContent
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchContent
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchReferrerdomain*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchReferrerdomain
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_FirsttouchReferrerdomain
+  name: FirsttouchReferrerdomain
+  nameWithType: UtmParametersTableInfo.FirsttouchReferrerdomain
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchReferrerdomain
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchWhen*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchWhen
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_FirsttouchWhen
+  name: FirsttouchWhen
+  nameWithType: UtmParametersTableInfo.FirsttouchWhen
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.FirsttouchWhen
+- uid: SuperOffice.Data.SQL.DateTimeFieldInfo
+  commentId: T:SuperOffice.Data.SQL.DateTimeFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.DateTimeFieldInfo.html
+  name: DateTimeFieldInfo
+  nameWithType: DateTimeFieldInfo
+  fullName: SuperOffice.Data.SQL.DateTimeFieldInfo
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.Source*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.Source
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_Source
+  name: Source
+  nameWithType: UtmParametersTableInfo.Source
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.Source
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.Medium*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.Medium
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_Medium
+  name: Medium
+  nameWithType: UtmParametersTableInfo.Medium
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.Medium
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.Campaign*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.Campaign
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_Campaign
+  name: Campaign
+  nameWithType: UtmParametersTableInfo.Campaign
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.Campaign
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.Term*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.Term
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_Term
+  name: Term
+  nameWithType: UtmParametersTableInfo.Term
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.Term
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.Content*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.Content
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_Content
+  name: Content
+  nameWithType: UtmParametersTableInfo.Content
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.Content
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.Referrerdomain*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.Referrerdomain
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_Referrerdomain
+  name: Referrerdomain
+  nameWithType: UtmParametersTableInfo.Referrerdomain
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.Referrerdomain
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.When*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.When
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_When
+  name: When
+  nameWithType: UtmParametersTableInfo.When
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.When
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.Registered*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.Registered
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_Registered
+  name: Registered
+  nameWithType: UtmParametersTableInfo.Registered
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.Registered
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_RegisteredAssociateId
+  name: RegisteredAssociateId
+  nameWithType: UtmParametersTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.Updated*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.Updated
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_Updated
+  name: Updated
+  nameWithType: UtmParametersTableInfo.Updated
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.Updated
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_UpdatedAssociateId
+  name: UpdatedAssociateId
+  nameWithType: UtmParametersTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedAssociateId
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedCount*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedCount
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_UpdatedCount
+  name: UpdatedCount
+  nameWithType: UtmParametersTableInfo.UpdatedCount
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedCount
+- uid: SuperOffice.Data.SQL.UInt16FieldInfo
+  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.UInt16FieldInfo.html
+  name: UInt16FieldInfo
+  nameWithType: UInt16FieldInfo
+  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
+- uid: SuperOffice.CRM.Data.PersonTableInfo
+  commentId: T:SuperOffice.CRM.Data.PersonTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.PersonTableInfo.html
+  name: PersonTableInfo
+  nameWithType: PersonTableInfo
+  fullName: SuperOffice.CRM.Data.PersonTableInfo
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedPersonId_InnerJoin_Person*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedPersonId_InnerJoin_Person
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_CreatedPersonId_InnerJoin_Person
+  name: CreatedPersonId_InnerJoin_Person
+  nameWithType: UtmParametersTableInfo.CreatedPersonId_InnerJoin_Person
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedPersonId_InnerJoin_Person
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.PersonTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.PersonTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<PersonTableInfo>
+  nameWithType: TargetedInnerJoin<PersonTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.PersonTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of PersonTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.PersonTableInfo)
+  name.vb: TargetedInnerJoin(Of PersonTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.PersonTableInfo
+    name: PersonTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.PersonTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.PersonTableInfo
+    name: PersonTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.PersonTableInfo.html
+  - name: )
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin`1
+  isExternal: true
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<TargetTableInfo>
+  nameWithType: TargetedInnerJoin<TargetTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<TargetTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of TargetTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of TargetTableInfo)
+  name.vb: TargetedInnerJoin(Of TargetTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - name: TargetTableInfo
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TargetTableInfo
+  - name: )
+- uid: SuperOffice.CRM.Data.ContactTableInfo
+  commentId: T:SuperOffice.CRM.Data.ContactTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.ContactTableInfo.html
+  name: ContactTableInfo
+  nameWithType: ContactTableInfo
+  fullName: SuperOffice.CRM.Data.ContactTableInfo
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedContactId_InnerJoin_Contact*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedContactId_InnerJoin_Contact
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_CreatedContactId_InnerJoin_Contact
+  name: CreatedContactId_InnerJoin_Contact
+  nameWithType: UtmParametersTableInfo.CreatedContactId_InnerJoin_Contact
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.CreatedContactId_InnerJoin_Contact
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ContactTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.ContactTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<ContactTableInfo>
+  nameWithType: TargetedInnerJoin<ContactTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.ContactTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of ContactTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.ContactTableInfo)
+  name.vb: TargetedInnerJoin(Of ContactTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.ContactTableInfo
+    name: ContactTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ContactTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.ContactTableInfo
+    name: ContactTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.ContactTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.FormSubmissionTableInfo
+  commentId: T:SuperOffice.CRM.Data.FormSubmissionTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.FormSubmissionTableInfo.html
+  name: FormSubmissionTableInfo
+  nameWithType: FormSubmissionTableInfo
+  fullName: SuperOffice.CRM.Data.FormSubmissionTableInfo
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.FormSubmissionId_InnerJoin_FormSubmission*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.FormSubmissionId_InnerJoin_FormSubmission
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_FormSubmissionId_InnerJoin_FormSubmission
+  name: FormSubmissionId_InnerJoin_FormSubmission
+  nameWithType: UtmParametersTableInfo.FormSubmissionId_InnerJoin_FormSubmission
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.FormSubmissionId_InnerJoin_FormSubmission
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.FormSubmissionTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.FormSubmissionTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<FormSubmissionTableInfo>
+  nameWithType: TargetedInnerJoin<FormSubmissionTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.FormSubmissionTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of FormSubmissionTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.FormSubmissionTableInfo)
+  name.vb: TargetedInnerJoin(Of FormSubmissionTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.FormSubmissionTableInfo
+    name: FormSubmissionTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.FormSubmissionTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.FormSubmissionTableInfo
+    name: FormSubmissionTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.FormSubmissionTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.AssociateTableInfo
+  commentId: T:SuperOffice.CRM.Data.AssociateTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html
+  name: AssociateTableInfo
+  nameWithType: AssociateTableInfo
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.RegisteredAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_RegisteredAssociateId_InnerJoin_Associate
+  name: RegisteredAssociateId_InnerJoin_Associate
+  nameWithType: UtmParametersTableInfo.RegisteredAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.RegisteredAssociateId_InnerJoin_Associate
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.AssociateTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<AssociateTableInfo>
+  nameWithType: TargetedInnerJoin<AssociateTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.AssociateTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.AssociateTableInfo)
+  name.vb: TargetedInnerJoin(Of AssociateTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.AssociateTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.AssociateTableInfo
+    name: AssociateTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.AssociateTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedAssociateId_InnerJoin_Associate*
+  commentId: Overload:SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_UpdatedAssociateId_InnerJoin_Associate
+  name: UpdatedAssociateId_InnerJoin_Associate
+  nameWithType: UtmParametersTableInfo.UpdatedAssociateId_InnerJoin_Associate
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedAssociateId_InnerJoin_Associate

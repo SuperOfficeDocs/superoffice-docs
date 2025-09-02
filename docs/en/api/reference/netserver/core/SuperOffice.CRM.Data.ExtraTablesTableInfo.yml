@@ -38,6 +38,7 @@ items:
   - SuperOffice.CRM.Data.ExtraTablesTableInfo.ScreenChooserEntry_InnerJoin_ScreenChooser
   - SuperOffice.CRM.Data.ExtraTablesTableInfo.SearchHeader
   - SuperOffice.CRM.Data.ExtraTablesTableInfo.SortOrder
+  - SuperOffice.CRM.Data.ExtraTablesTableInfo.TableNumber
   - SuperOffice.CRM.Data.ExtraTablesTableInfo.ViewEntryHeader
   langs:
   - csharp
@@ -681,6 +682,32 @@ items:
       type: SuperOffice.Data.SQL.Int32FieldInfo
     content.vb: Public ReadOnly Property IconId As Int32FieldInfo
   overload: SuperOffice.CRM.Data.ExtraTablesTableInfo.IconId*
+- uid: SuperOffice.CRM.Data.ExtraTablesTableInfo.TableNumber
+  commentId: P:SuperOffice.CRM.Data.ExtraTablesTableInfo.TableNumber
+  id: TableNumber
+  parent: SuperOffice.CRM.Data.ExtraTablesTableInfo
+  langs:
+  - csharp
+  - vb
+  name: TableNumber
+  nameWithType: ExtraTablesTableInfo.TableNumber
+  fullName: SuperOffice.CRM.Data.ExtraTablesTableInfo.TableNumber
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'table_number' in table 'extra_tables': Dictionary type UShort, .NET type: <xref href="System.Int16" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Number of the table
+  example: []
+  syntax:
+    content: public UInt16FieldInfo TableNumber { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.UInt16FieldInfo
+    content.vb: Public ReadOnly Property TableNumber As UInt16FieldInfo
+  overload: SuperOffice.CRM.Data.ExtraTablesTableInfo.TableNumber*
 - uid: SuperOffice.CRM.Data.ExtraTablesTableInfo.HierarchyId_InnerJoin_Hierarchy
   commentId: P:SuperOffice.CRM.Data.ExtraTablesTableInfo.HierarchyId_InnerJoin_Hierarchy
   id: HierarchyId_InnerJoin_Hierarchy
@@ -2020,6 +2047,32 @@ references:
   name: IconId
   nameWithType: ExtraTablesTableInfo.IconId
   fullName: SuperOffice.CRM.Data.ExtraTablesTableInfo.IconId
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
+- uid: SuperOffice.CRM.Data.ExtraTablesTableInfo.TableNumber*
+  commentId: Overload:SuperOffice.CRM.Data.ExtraTablesTableInfo.TableNumber
+  isExternal: true
+  href: SuperOffice.CRM.Data.ExtraTablesTableInfo.html#SuperOffice_CRM_Data_ExtraTablesTableInfo_TableNumber
+  name: TableNumber
+  nameWithType: ExtraTablesTableInfo.TableNumber
+  fullName: SuperOffice.CRM.Data.ExtraTablesTableInfo.TableNumber
+- uid: SuperOffice.Data.SQL.UInt16FieldInfo
+  commentId: T:SuperOffice.Data.SQL.UInt16FieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.UInt16FieldInfo.html
+  name: UInt16FieldInfo
+  nameWithType: UInt16FieldInfo
+  fullName: SuperOffice.Data.SQL.UInt16FieldInfo
 - uid: SuperOffice.CRM.Data.HierarchyTableInfo
   commentId: T:SuperOffice.CRM.Data.HierarchyTableInfo
   parent: SuperOffice.CRM.Data

@@ -49,6 +49,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colDebugInfo
   - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colImportant
   - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colSLevel
+  - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colTimeSpent
   - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
@@ -523,6 +524,14 @@ references:
   name: _colSLevel
   nameWithType: TicketMessageExtenderBase._colSLevel
   fullName: SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colSLevel
+- uid: SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colTimeSpent
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colTimeSpent
+  parent: SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase.html#SuperOffice_CRM_ArchiveLists_TicketMessageExtenderBase__colTimeSpent
+  name: _colTimeSpent
+  nameWithType: TicketMessageExtenderBase._colTimeSpent
+  fullName: SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colTimeSpent
 - uid: SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase.InnerModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase.InnerModifyQuery
   parent: SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase

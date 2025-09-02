@@ -1343,7 +1343,7 @@ items:
   summary: Is the contact owner of central database and the license?
   example: []
   syntax:
-    content: protected bool IsContactLicenseOwner(int contactId)
+    content: public static bool IsContactLicenseOwner(int contactId)
     parameters:
     - id: contactId
       type: System.Int32
@@ -1351,7 +1351,7 @@ items:
     return:
       type: System.Boolean
       description: True if the contact is hte owner of central database and the license.
-    content.vb: Protected Function IsContactLicenseOwner(contactId As Integer) As Boolean
+    content.vb: Public Shared Function IsContactLicenseOwner(contactId As Integer) As Boolean
   overload: SuperOffice.CRM.Security.Sentry.IsContactLicenseOwner*
   nameWithType.vb: Sentry.IsContactLicenseOwner(Integer)
   fullName.vb: SuperOffice.CRM.Security.Sentry.IsContactLicenseOwner(Integer)

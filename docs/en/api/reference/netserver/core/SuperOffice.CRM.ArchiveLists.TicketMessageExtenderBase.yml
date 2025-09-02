@@ -22,6 +22,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colSearchTitle
   - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colTicketId
   - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colTicketMessageId
+  - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colTimeSpent
   langs:
   - csharp
   - vb
@@ -430,6 +431,25 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colSLevel As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colTimeSpent
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colTimeSpent
+  id: _colTimeSpent
+  parent: SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colTimeSpent
+  nameWithType: TicketMessageExtenderBase._colTimeSpent
+  fullName: SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colTimeSpent
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colTimeSpent
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colTimeSpent As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase.#ctor
   commentId: M:SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase.#ctor
   id: '#ctor'

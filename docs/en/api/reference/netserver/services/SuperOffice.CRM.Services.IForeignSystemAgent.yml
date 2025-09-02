@@ -95,10 +95,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new ForeignAppEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  summary: Loading default values into a new ForeignAppEntity.
   example: []
   syntax:
     content: Task<ForeignAppEntity> CreateDefaultForeignAppEntityAsync(CancellationToken cancellationToken = default)
@@ -124,14 +121,14 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing ForeignAppEntity or creates a new ForeignAppEntity if the id parameter is empty
+  summary: Updates the existing ForeignAppEntity or creates a new ForeignAppEntity if the id parameter is 0.
   example: []
   syntax:
     content: Task<ForeignAppEntity> SaveForeignAppEntityAsync(ForeignAppEntity foreignAppEntity, CancellationToken cancellationToken = default)
     parameters:
     - id: foreignAppEntity
       type: SuperOffice.CRM.Services.ForeignAppEntity
-      description: The ForeignAppEntity that is saved.
+      description: The ForeignAppEntity that is saved
     - id: cancellationToken
       type: System.Threading.CancellationToken
     return:
@@ -165,6 +162,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task
+      description: This method has no return value
     content.vb: Function DeleteForeignAppEntityAsync(foreignAppEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.DeleteForeignAppEntityAsync*
   nameWithType.vb: IForeignSystemAgent.DeleteForeignAppEntityAsync(Integer, CancellationToken)
@@ -196,7 +194,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ForeignAppEntity}
-      description: ForeignAppEntity
+      description: A single ForeignAppEntity
     content.vb: Function GetForeignAppEntityAsync(foreignAppEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ForeignAppEntity)
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignAppEntityAsync*
   nameWithType.vb: IForeignSystemAgent.GetForeignAppEntityAsync(Integer, CancellationToken)
@@ -919,7 +917,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ForeignDevice}
-      description: ForeignDevice
+      description: A single ForeignDevice
     content.vb: Function GetForeignDeviceAsync(foreignDeviceId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ForeignDevice)
   overload: SuperOffice.CRM.Services.IForeignSystemAgent.GetForeignDeviceAsync*
   nameWithType.vb: IForeignSystemAgent.GetForeignDeviceAsync(Integer, CancellationToken)

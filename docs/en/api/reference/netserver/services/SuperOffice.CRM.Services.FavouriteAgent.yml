@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.FavouriteAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.FavouriteAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.FavouriteAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   - SuperOffice.CRM.Services.FavouriteAgent.AddFavouriteAsync(System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.FavouriteAgent.AddFavouritesAsync(System.String,System.Int32[],System.Int32,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.FavouriteAgent.AddTicketsToFavouritesByProviderAsync(System.String,SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.Int32,System.String,System.Threading.CancellationToken)
@@ -77,22 +77,22 @@ items:
   nameWithType.vb: FavouriteAgent.New(IFavouriteImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IFavouriteImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.FavouriteAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+- uid: SuperOffice.CRM.Services.FavouriteAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  commentId: M:SuperOffice.CRM.Services.FavouriteAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
   parent: SuperOffice.CRM.Services.FavouriteAgent
   langs:
   - csharp
   - vb
-  name: FavouriteAgent(IFavouriteImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  nameWithType: FavouriteAgent.FavouriteAgent(IFavouriteImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName: SuperOffice.CRM.Services.FavouriteAgent.FavouriteAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name: FavouriteAgent(IFavouriteImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType: FavouriteAgent.FavouriteAgent(IFavouriteImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName: SuperOffice.CRM.Services.FavouriteAgent.FavouriteAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public FavouriteAgent(IFavouriteImplementation favouriteImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    content: public FavouriteAgent(IFavouriteImplementation favouriteImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
     parameters:
     - id: favouriteImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation
@@ -102,11 +102,15 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    content.vb: Public Sub New(favouriteImplementation As IFavouriteImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+    - id: scriptingConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+    - id: onlineConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+    content.vb: Public Sub New(favouriteImplementation As IFavouriteImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
   overload: SuperOffice.CRM.Services.FavouriteAgent.#ctor*
-  nameWithType.vb: FavouriteAgent.New(IFavouriteImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
-  name.vb: New(IFavouriteImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType.vb: FavouriteAgent.New(IFavouriteImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName.vb: SuperOffice.CRM.Services.FavouriteAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFavouriteImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name.vb: New(IFavouriteImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
 - uid: SuperOffice.CRM.Services.FavouriteAgent.IsFavouriteAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.FavouriteAgent.IsFavouriteAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
   id: IsFavouriteAsync(System.String,System.Int32,System.Int32,System.Threading.CancellationToken)
@@ -949,6 +953,16 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+  isExternal: true
+  name: IScriptingConfiguration
+  nameWithType: ConfigFile.IScriptingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  isExternal: true
+  name: IOnlineConfiguration
+  nameWithType: ConfigFile.IOnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
 - uid: SuperOffice.CRM.Services.FavouriteAgent.IsFavouriteAsync*
   commentId: Overload:SuperOffice.CRM.Services.FavouriteAgent.IsFavouriteAsync
   isExternal: true

@@ -80,8 +80,6 @@ items:
   summary: >-
     Loading default values into a new Webhook.
 
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
     <p></p>
 
     <b>Online Restricted:</b> The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -111,7 +109,7 @@ items:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   summary: >-
-    Updates the existing Webhook or creates a new Webhook if the id parameter is empty
+    Updates the existing Webhook or creates a new Webhook if the id parameter is 0. 
 
     <p></p>
 
@@ -122,7 +120,7 @@ items:
     parameters:
     - id: webhook
       type: SuperOffice.CRM.Services.Webhook
-      description: The Webhook that is saved.
+      description: The Webhook that is saved
     - id: cancellationToken
       type: System.Threading.CancellationToken
     return:
@@ -161,6 +159,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task
+      description: This method has no return value
     content.vb: Function DeleteWebhookAsync(webhookId As Integer, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.IWebhookAgent.DeleteWebhookAsync*
   nameWithType.vb: IWebhookAgent.DeleteWebhookAsync(Integer, CancellationToken)
@@ -181,7 +180,7 @@ items:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   summary: >-
-    Gets a Webhook object.                        
+    Gets a Webhook object.
 
     <p></p>
 
@@ -197,7 +196,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Webhook}
-      description: Webhook
+      description: A single Webhook
     content.vb: Function GetWebhookAsync(webhookId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Webhook)
   overload: SuperOffice.CRM.Services.IWebhookAgent.GetWebhookAsync*
   nameWithType.vb: IWebhookAgent.GetWebhookAsync(Integer, CancellationToken)

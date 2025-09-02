@@ -39,6 +39,7 @@ items:
   - SuperOffice.CRM.Services.Appointment.IsRecurrence
   - SuperOffice.CRM.Services.Appointment.JoinVideomeetUrl
   - SuperOffice.CRM.Services.Appointment.Location
+  - SuperOffice.CRM.Services.Appointment.MotherAssociateId
   - SuperOffice.CRM.Services.Appointment.MotherId
   - SuperOffice.CRM.Services.Appointment.OwnedExternally
   - SuperOffice.CRM.Services.Appointment.PersonFullName
@@ -97,11 +98,11 @@ items:
     }</code></pre>
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")]
 
       public class Appointment : Carrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")>
 
       Public Class Appointment Inherits Carrier
   seealso:
@@ -116,7 +117,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.2.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.3.0.0
 - uid: SuperOffice.CRM.Services.Appointment.#ctor
   commentId: M:SuperOffice.CRM.Services.Appointment.#ctor
   id: '#ctor'
@@ -1813,6 +1814,39 @@ items:
   - type: System.Runtime.Serialization.DataMemberAttribute
     ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
     arguments: []
+- uid: SuperOffice.CRM.Services.Appointment.MotherAssociateId
+  commentId: P:SuperOffice.CRM.Services.Appointment.MotherAssociateId
+  id: MotherAssociateId
+  parent: SuperOffice.CRM.Services.Appointment
+  langs:
+  - csharp
+  - vb
+  name: MotherAssociateId
+  nameWithType: Appointment.MotherAssociateId
+  fullName: SuperOffice.CRM.Services.Appointment.MotherAssociateId
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Associate/owner of the mother appointment
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int MotherAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property MotherAssociateId As Integer
+  overload: SuperOffice.CRM.Services.Appointment.MotherAssociateId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.Appointment.JoinVideomeetUrl
   commentId: P:SuperOffice.CRM.Services.Appointment.JoinVideomeetUrl
   id: JoinVideomeetUrl
@@ -2516,6 +2550,13 @@ references:
   name: AppointmentExternalOwner
   nameWithType: AppointmentExternalOwner
   fullName: SuperOffice.Data.AppointmentExternalOwner
+- uid: SuperOffice.CRM.Services.Appointment.MotherAssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.Appointment.MotherAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Services.Appointment.html#SuperOffice_CRM_Services_Appointment_MotherAssociateId
+  name: MotherAssociateId
+  nameWithType: Appointment.MotherAssociateId
+  fullName: SuperOffice.CRM.Services.Appointment.MotherAssociateId
 - uid: SuperOffice.CRM.Services.Appointment.JoinVideomeetUrl*
   commentId: Overload:SuperOffice.CRM.Services.Appointment.JoinVideomeetUrl
   isExternal: true

@@ -29,6 +29,7 @@ items:
   - SuperOffice.CRM.Lists.AssociateTypeListProvider
   - SuperOffice.CRM.Lists.AttachmentListProvider
   - SuperOffice.CRM.Lists.CRMScriptProvider
+  - SuperOffice.CRM.Lists.CategoryGroupProvider
   - SuperOffice.CRM.Lists.ChatChannelProvider
   - SuperOffice.CRM.Lists.ChatServiceProvider
   - SuperOffice.CRM.Lists.ChatSessionStatusProvider
@@ -45,6 +46,7 @@ items:
   - SuperOffice.CRM.Lists.CredentialGroupProvider
   - SuperOffice.CRM.Lists.CurrentUdefFieldsProvider
   - SuperOffice.CRM.Lists.CustLangListProvider
+  - SuperOffice.CRM.Lists.CustomObjectFavouriteListProvider
   - SuperOffice.CRM.Lists.CustomObjectListProvider
   - SuperOffice.CRM.Lists.CustomObjectRelationProvider
   - SuperOffice.CRM.Lists.DashboardEntityList
@@ -640,6 +642,13 @@ references:
   name: AttachmentListProvider
   nameWithType: AttachmentListProvider
   fullName: SuperOffice.CRM.Lists.AttachmentListProvider
+- uid: SuperOffice.CRM.Lists.CategoryGroupProvider
+  commentId: T:SuperOffice.CRM.Lists.CategoryGroupProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.CategoryGroupProvider.html
+  name: CategoryGroupProvider
+  nameWithType: CategoryGroupProvider
+  fullName: SuperOffice.CRM.Lists.CategoryGroupProvider
 - uid: SuperOffice.CRM.Lists.ChatbotProvider
   commentId: T:SuperOffice.CRM.Lists.ChatbotProvider
   isExternal: true
@@ -1058,6 +1067,13 @@ references:
   name: FaqReplyTemplateFavouriteListProvider
   nameWithType: FaqReplyTemplateFavouriteListProvider
   fullName: SuperOffice.CRM.Lists.FaqReplyTemplateFavouriteListProvider
+- uid: SuperOffice.CRM.Lists.CustomObjectFavouriteListProvider
+  commentId: T:SuperOffice.CRM.Lists.CustomObjectFavouriteListProvider
+  isExternal: true
+  href: SuperOffice.CRM.Lists.CustomObjectFavouriteListProvider.html
+  name: CustomObjectFavouriteListProvider
+  nameWithType: CustomObjectFavouriteListProvider
+  fullName: SuperOffice.CRM.Lists.CustomObjectFavouriteListProvider
 - uid: SuperOffice.CRM.Lists.FilterAssociateProvider
   commentId: T:SuperOffice.CRM.Lists.FilterAssociateProvider
   isExternal: true

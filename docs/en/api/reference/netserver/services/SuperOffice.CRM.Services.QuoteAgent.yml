@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.QuoteAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldMetadataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPriceListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProductImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteAlternativeImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteConnectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineConfigurationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionAttachmentImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.QuoteAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldMetadataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPriceListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProductImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteAlternativeImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteConnectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineConfigurationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionAttachmentImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.QuoteAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldMetadataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPriceListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProductImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteAlternativeImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteConnectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineConfigurationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionAttachmentImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   - SuperOffice.CRM.Services.QuoteAgent.AddSaleTypeQuoteAttachmentAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.QuoteAgent.ApproveQuoteVersionAsync(System.Int32,System.String,System.Int32,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.QuoteAgent.CanConnectorProvideCapabilityAsync(System.Int32,System.String,System.Threading.CancellationToken)
@@ -184,22 +184,22 @@ items:
   nameWithType.vb: QuoteAgent.New(IFieldMetadataImplementation, IPriceListImplementation, IProductImplementation, IQuoteImplementation, IQuoteAlternativeImplementation, IQuoteConnectionImplementation, IQuoteEntityImplementation, IQuoteLineImplementation, IQuoteLineConfigurationImplementation, IQuoteVersionImplementation, IQuoteVersionAttachmentImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.QuoteAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldMetadataImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPriceListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProductImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteAlternativeImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteConnectionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineConfigurationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionAttachmentImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IFieldMetadataImplementation, IPriceListImplementation, IProductImplementation, IQuoteImplementation, IQuoteAlternativeImplementation, IQuoteConnectionImplementation, IQuoteEntityImplementation, IQuoteLineImplementation, IQuoteLineConfigurationImplementation, IQuoteVersionImplementation, IQuoteVersionAttachmentImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.QuoteAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldMetadataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPriceListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProductImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteAlternativeImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteConnectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineConfigurationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionAttachmentImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  commentId: M:SuperOffice.CRM.Services.QuoteAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldMetadataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPriceListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProductImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteAlternativeImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteConnectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineConfigurationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionAttachmentImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldMetadataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPriceListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProductImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteAlternativeImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteConnectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineConfigurationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionAttachmentImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+- uid: SuperOffice.CRM.Services.QuoteAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldMetadataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPriceListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProductImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteAlternativeImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteConnectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineConfigurationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionAttachmentImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  commentId: M:SuperOffice.CRM.Services.QuoteAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldMetadataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPriceListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProductImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteAlternativeImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteConnectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineConfigurationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionAttachmentImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldMetadataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPriceListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IProductImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteAlternativeImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteConnectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineConfigurationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionAttachmentImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
   parent: SuperOffice.CRM.Services.QuoteAgent
   langs:
   - csharp
   - vb
-  name: QuoteAgent(IFieldMetadataImplementation, IPriceListImplementation, IProductImplementation, IQuoteImplementation, IQuoteAlternativeImplementation, IQuoteConnectionImplementation, IQuoteEntityImplementation, IQuoteLineImplementation, IQuoteLineConfigurationImplementation, IQuoteVersionImplementation, IQuoteVersionAttachmentImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  nameWithType: QuoteAgent.QuoteAgent(IFieldMetadataImplementation, IPriceListImplementation, IProductImplementation, IQuoteImplementation, IQuoteAlternativeImplementation, IQuoteConnectionImplementation, IQuoteEntityImplementation, IQuoteLineImplementation, IQuoteLineConfigurationImplementation, IQuoteVersionImplementation, IQuoteVersionAttachmentImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName: SuperOffice.CRM.Services.QuoteAgent.QuoteAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldMetadataImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPriceListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProductImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteAlternativeImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteConnectionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineConfigurationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionAttachmentImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name: QuoteAgent(IFieldMetadataImplementation, IPriceListImplementation, IProductImplementation, IQuoteImplementation, IQuoteAlternativeImplementation, IQuoteConnectionImplementation, IQuoteEntityImplementation, IQuoteLineImplementation, IQuoteLineConfigurationImplementation, IQuoteVersionImplementation, IQuoteVersionAttachmentImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType: QuoteAgent.QuoteAgent(IFieldMetadataImplementation, IPriceListImplementation, IProductImplementation, IQuoteImplementation, IQuoteAlternativeImplementation, IQuoteConnectionImplementation, IQuoteEntityImplementation, IQuoteLineImplementation, IQuoteLineConfigurationImplementation, IQuoteVersionImplementation, IQuoteVersionAttachmentImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName: SuperOffice.CRM.Services.QuoteAgent.QuoteAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldMetadataImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPriceListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProductImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteAlternativeImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteConnectionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineConfigurationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionAttachmentImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public QuoteAgent(IFieldMetadataImplementation fieldMetadataImplementation, IPriceListImplementation priceListImplementation, IProductImplementation productImplementation, IQuoteImplementation quoteImplementation, IQuoteAlternativeImplementation quoteAlternativeImplementation, IQuoteConnectionImplementation quoteConnectionImplementation, IQuoteEntityImplementation quoteEntityImplementation, IQuoteLineImplementation quoteLineImplementation, IQuoteLineConfigurationImplementation quoteLineConfigurationImplementation, IQuoteVersionImplementation quoteVersionImplementation, IQuoteVersionAttachmentImplementation quoteVersionAttachmentImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    content: public QuoteAgent(IFieldMetadataImplementation fieldMetadataImplementation, IPriceListImplementation priceListImplementation, IProductImplementation productImplementation, IQuoteImplementation quoteImplementation, IQuoteAlternativeImplementation quoteAlternativeImplementation, IQuoteConnectionImplementation quoteConnectionImplementation, IQuoteEntityImplementation quoteEntityImplementation, IQuoteLineImplementation quoteLineImplementation, IQuoteLineConfigurationImplementation quoteLineConfigurationImplementation, IQuoteVersionImplementation quoteVersionImplementation, IQuoteVersionAttachmentImplementation quoteVersionAttachmentImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
     parameters:
     - id: fieldMetadataImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldMetadataImplementation
@@ -229,263 +229,15 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    content.vb: Public Sub New(fieldMetadataImplementation As IFieldMetadataImplementation, priceListImplementation As IPriceListImplementation, productImplementation As IProductImplementation, quoteImplementation As IQuoteImplementation, quoteAlternativeImplementation As IQuoteAlternativeImplementation, quoteConnectionImplementation As IQuoteConnectionImplementation, quoteEntityImplementation As IQuoteEntityImplementation, quoteLineImplementation As IQuoteLineImplementation, quoteLineConfigurationImplementation As IQuoteLineConfigurationImplementation, quoteVersionImplementation As IQuoteVersionImplementation, quoteVersionAttachmentImplementation As IQuoteVersionAttachmentImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+    - id: scriptingConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+    - id: onlineConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+    content.vb: Public Sub New(fieldMetadataImplementation As IFieldMetadataImplementation, priceListImplementation As IPriceListImplementation, productImplementation As IProductImplementation, quoteImplementation As IQuoteImplementation, quoteAlternativeImplementation As IQuoteAlternativeImplementation, quoteConnectionImplementation As IQuoteConnectionImplementation, quoteEntityImplementation As IQuoteEntityImplementation, quoteLineImplementation As IQuoteLineImplementation, quoteLineConfigurationImplementation As IQuoteLineConfigurationImplementation, quoteVersionImplementation As IQuoteVersionImplementation, quoteVersionAttachmentImplementation As IQuoteVersionAttachmentImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
   overload: SuperOffice.CRM.Services.QuoteAgent.#ctor*
-  nameWithType.vb: QuoteAgent.New(IFieldMetadataImplementation, IPriceListImplementation, IProductImplementation, IQuoteImplementation, IQuoteAlternativeImplementation, IQuoteConnectionImplementation, IQuoteEntityImplementation, IQuoteLineImplementation, IQuoteLineConfigurationImplementation, IQuoteVersionImplementation, IQuoteVersionAttachmentImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName.vb: SuperOffice.CRM.Services.QuoteAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldMetadataImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPriceListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProductImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteAlternativeImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteConnectionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineConfigurationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionAttachmentImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
-  name.vb: New(IFieldMetadataImplementation, IPriceListImplementation, IProductImplementation, IQuoteImplementation, IQuoteAlternativeImplementation, IQuoteConnectionImplementation, IQuoteEntityImplementation, IQuoteLineImplementation, IQuoteLineConfigurationImplementation, IQuoteVersionImplementation, IQuoteVersionAttachmentImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-- uid: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultPriceListAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.QuoteAgent.CreateDefaultPriceListAsync(System.Threading.CancellationToken)
-  id: CreateDefaultPriceListAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.QuoteAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultPriceListAsync(CancellationToken)
-  nameWithType: QuoteAgent.CreateDefaultPriceListAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultPriceListAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new PriceList.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: public Task<PriceList> CreateDefaultPriceListAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PriceList}
-      description: New PriceList with default values
-    content.vb: Public Function CreateDefaultPriceListAsync(cancellationToken As CancellationToken = Nothing) As Task(Of PriceList)
-  overload: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultPriceListAsync*
-  implements:
-  - SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultPriceListAsync(System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.QuoteAgent.SavePriceListAsync(SuperOffice.CRM.Services.PriceList,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.QuoteAgent.SavePriceListAsync(SuperOffice.CRM.Services.PriceList,System.Threading.CancellationToken)
-  id: SavePriceListAsync(SuperOffice.CRM.Services.PriceList,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.QuoteAgent
-  langs:
-  - csharp
-  - vb
-  name: SavePriceListAsync(PriceList, CancellationToken)
-  nameWithType: QuoteAgent.SavePriceListAsync(PriceList, CancellationToken)
-  fullName: SuperOffice.CRM.Services.QuoteAgent.SavePriceListAsync(SuperOffice.CRM.Services.PriceList, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing PriceList or creates a new PriceList if the id parameter is empty
-  example: []
-  syntax:
-    content: public Task<PriceList> SavePriceListAsync(PriceList priceList, CancellationToken cancellationToken = default)
-    parameters:
-    - id: priceList
-      type: SuperOffice.CRM.Services.PriceList
-      description: The PriceList that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PriceList}
-      description: New or updated PriceList
-    content.vb: Public Function SavePriceListAsync(priceList As PriceList, cancellationToken As CancellationToken = Nothing) As Task(Of PriceList)
-  overload: SuperOffice.CRM.Services.QuoteAgent.SavePriceListAsync*
-  implements:
-  - SuperOffice.CRM.Services.IQuoteAgent.SavePriceListAsync(SuperOffice.CRM.Services.PriceList,System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.QuoteAgent.DeletePriceListAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.QuoteAgent.DeletePriceListAsync(System.Int32,System.Threading.CancellationToken)
-  id: DeletePriceListAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.QuoteAgent
-  langs:
-  - csharp
-  - vb
-  name: DeletePriceListAsync(int, CancellationToken)
-  nameWithType: QuoteAgent.DeletePriceListAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.QuoteAgent.DeletePriceListAsync(int, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: Deletes the PriceList
-  example: []
-  syntax:
-    content: public Task DeletePriceListAsync(int priceListId, CancellationToken cancellationToken = default)
-    parameters:
-    - id: priceListId
-      type: System.Int32
-      description: The identity of the PriceList
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Public Function DeletePriceListAsync(priceListId As Integer, cancellationToken As CancellationToken = Nothing) As Task
-  overload: SuperOffice.CRM.Services.QuoteAgent.DeletePriceListAsync*
-  implements:
-  - SuperOffice.CRM.Services.IQuoteAgent.DeletePriceListAsync(System.Int32,System.Threading.CancellationToken)
-  nameWithType.vb: QuoteAgent.DeletePriceListAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.QuoteAgent.DeletePriceListAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeletePriceListAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultProductAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.QuoteAgent.CreateDefaultProductAsync(System.Threading.CancellationToken)
-  id: CreateDefaultProductAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.QuoteAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultProductAsync(CancellationToken)
-  nameWithType: QuoteAgent.CreateDefaultProductAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultProductAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new Product.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: public Task<Product> CreateDefaultProductAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Product}
-      description: New Product with default values
-    content.vb: Public Function CreateDefaultProductAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Product)
-  overload: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultProductAsync*
-  implements:
-  - SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultProductAsync(System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.QuoteAgent.SaveProductAsync(SuperOffice.CRM.Services.Product,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.QuoteAgent.SaveProductAsync(SuperOffice.CRM.Services.Product,System.Threading.CancellationToken)
-  id: SaveProductAsync(SuperOffice.CRM.Services.Product,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.QuoteAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveProductAsync(Product, CancellationToken)
-  nameWithType: QuoteAgent.SaveProductAsync(Product, CancellationToken)
-  fullName: SuperOffice.CRM.Services.QuoteAgent.SaveProductAsync(SuperOffice.CRM.Services.Product, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing Product or creates a new Product if the id parameter is empty
-  example: []
-  syntax:
-    content: public Task<Product> SaveProductAsync(Product product, CancellationToken cancellationToken = default)
-    parameters:
-    - id: product
-      type: SuperOffice.CRM.Services.Product
-      description: The Product that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Product}
-      description: New or updated Product
-    content.vb: Public Function SaveProductAsync(product As Product, cancellationToken As CancellationToken = Nothing) As Task(Of Product)
-  overload: SuperOffice.CRM.Services.QuoteAgent.SaveProductAsync*
-  implements:
-  - SuperOffice.CRM.Services.IQuoteAgent.SaveProductAsync(SuperOffice.CRM.Services.Product,System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.QuoteAgent.DeleteProductAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.QuoteAgent.DeleteProductAsync(System.Int32,System.Threading.CancellationToken)
-  id: DeleteProductAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.QuoteAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteProductAsync(int, CancellationToken)
-  nameWithType: QuoteAgent.DeleteProductAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.QuoteAgent.DeleteProductAsync(int, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: Deletes the Product
-  example: []
-  syntax:
-    content: public Task DeleteProductAsync(int productId, CancellationToken cancellationToken = default)
-    parameters:
-    - id: productId
-      type: System.Int32
-      description: The identity of the Product
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Public Function DeleteProductAsync(productId As Integer, cancellationToken As CancellationToken = Nothing) As Task
-  overload: SuperOffice.CRM.Services.QuoteAgent.DeleteProductAsync*
-  implements:
-  - SuperOffice.CRM.Services.IQuoteAgent.DeleteProductAsync(System.Int32,System.Threading.CancellationToken)
-  nameWithType.vb: QuoteAgent.DeleteProductAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.QuoteAgent.DeleteProductAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeleteProductAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultQuoteAlternativeAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.QuoteAgent.CreateDefaultQuoteAlternativeAsync(System.Threading.CancellationToken)
-  id: CreateDefaultQuoteAlternativeAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.QuoteAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultQuoteAlternativeAsync(CancellationToken)
-  nameWithType: QuoteAgent.CreateDefaultQuoteAlternativeAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultQuoteAlternativeAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new QuoteAlternative.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: public Task<QuoteAlternative> CreateDefaultQuoteAlternativeAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.QuoteAlternative}
-      description: New QuoteAlternative with default values
-    content.vb: Public Function CreateDefaultQuoteAlternativeAsync(cancellationToken As CancellationToken = Nothing) As Task(Of QuoteAlternative)
-  overload: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultQuoteAlternativeAsync*
-  implements:
-  - SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultQuoteAlternativeAsync(System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.QuoteAgent.SaveQuoteAlternativeAsync(SuperOffice.CRM.Services.QuoteAlternative,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.QuoteAgent.SaveQuoteAlternativeAsync(SuperOffice.CRM.Services.QuoteAlternative,System.Threading.CancellationToken)
-  id: SaveQuoteAlternativeAsync(SuperOffice.CRM.Services.QuoteAlternative,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.QuoteAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveQuoteAlternativeAsync(QuoteAlternative, CancellationToken)
-  nameWithType: QuoteAgent.SaveQuoteAlternativeAsync(QuoteAlternative, CancellationToken)
-  fullName: SuperOffice.CRM.Services.QuoteAgent.SaveQuoteAlternativeAsync(SuperOffice.CRM.Services.QuoteAlternative, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing QuoteAlternative or creates a new QuoteAlternative if the id parameter is empty
-  example: []
-  syntax:
-    content: public Task<QuoteAlternative> SaveQuoteAlternativeAsync(QuoteAlternative quoteAlternative, CancellationToken cancellationToken = default)
-    parameters:
-    - id: quoteAlternative
-      type: SuperOffice.CRM.Services.QuoteAlternative
-      description: The QuoteAlternative that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.QuoteAlternative}
-      description: New or updated QuoteAlternative
-    content.vb: Public Function SaveQuoteAlternativeAsync(quoteAlternative As QuoteAlternative, cancellationToken As CancellationToken = Nothing) As Task(Of QuoteAlternative)
-  overload: SuperOffice.CRM.Services.QuoteAgent.SaveQuoteAlternativeAsync*
-  implements:
-  - SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteAlternativeAsync(SuperOffice.CRM.Services.QuoteAlternative,System.Threading.CancellationToken)
+  nameWithType.vb: QuoteAgent.New(IFieldMetadataImplementation, IPriceListImplementation, IProductImplementation, IQuoteImplementation, IQuoteAlternativeImplementation, IQuoteConnectionImplementation, IQuoteEntityImplementation, IQuoteLineImplementation, IQuoteLineConfigurationImplementation, IQuoteVersionImplementation, IQuoteVersionAttachmentImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName.vb: SuperOffice.CRM.Services.QuoteAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IFieldMetadataImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPriceListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IProductImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteAlternativeImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteConnectionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteLineConfigurationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IQuoteVersionAttachmentImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name.vb: New(IFieldMetadataImplementation, IPriceListImplementation, IProductImplementation, IQuoteImplementation, IQuoteAlternativeImplementation, IQuoteConnectionImplementation, IQuoteEntityImplementation, IQuoteLineImplementation, IQuoteLineConfigurationImplementation, IQuoteVersionImplementation, IQuoteVersionAttachmentImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
 - uid: SuperOffice.CRM.Services.QuoteAgent.GetConfigurationFieldsAsync(System.Int32,System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.QuoteAgent.GetConfigurationFieldsAsync(System.Int32,System.String,System.Threading.CancellationToken)
   id: GetConfigurationFieldsAsync(System.Int32,System.String,System.Threading.CancellationToken)
@@ -562,6 +314,102 @@ items:
   nameWithType.vb: QuoteAgent.TestConnectionAsync(String, StringDictionary, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.QuoteAgent.TestConnectionAsync(String, SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
   name.vb: TestConnectionAsync(String, StringDictionary, CancellationToken)
+- uid: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultPriceListAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.QuoteAgent.CreateDefaultPriceListAsync(System.Threading.CancellationToken)
+  id: CreateDefaultPriceListAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.QuoteAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultPriceListAsync(CancellationToken)
+  nameWithType: QuoteAgent.CreateDefaultPriceListAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultPriceListAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new PriceList.
+  example: []
+  syntax:
+    content: public Task<PriceList> CreateDefaultPriceListAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PriceList}
+      description: New PriceList with default values
+    content.vb: Public Function CreateDefaultPriceListAsync(cancellationToken As CancellationToken = Nothing) As Task(Of PriceList)
+  overload: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultPriceListAsync*
+  implements:
+  - SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultPriceListAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.QuoteAgent.SavePriceListAsync(SuperOffice.CRM.Services.PriceList,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.QuoteAgent.SavePriceListAsync(SuperOffice.CRM.Services.PriceList,System.Threading.CancellationToken)
+  id: SavePriceListAsync(SuperOffice.CRM.Services.PriceList,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.QuoteAgent
+  langs:
+  - csharp
+  - vb
+  name: SavePriceListAsync(PriceList, CancellationToken)
+  nameWithType: QuoteAgent.SavePriceListAsync(PriceList, CancellationToken)
+  fullName: SuperOffice.CRM.Services.QuoteAgent.SavePriceListAsync(SuperOffice.CRM.Services.PriceList, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing PriceList or creates a new PriceList if the id parameter is 0.
+  example: []
+  syntax:
+    content: public Task<PriceList> SavePriceListAsync(PriceList priceList, CancellationToken cancellationToken = default)
+    parameters:
+    - id: priceList
+      type: SuperOffice.CRM.Services.PriceList
+      description: The PriceList that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PriceList}
+      description: New or updated PriceList
+    content.vb: Public Function SavePriceListAsync(priceList As PriceList, cancellationToken As CancellationToken = Nothing) As Task(Of PriceList)
+  overload: SuperOffice.CRM.Services.QuoteAgent.SavePriceListAsync*
+  implements:
+  - SuperOffice.CRM.Services.IQuoteAgent.SavePriceListAsync(SuperOffice.CRM.Services.PriceList,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.QuoteAgent.DeletePriceListAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.QuoteAgent.DeletePriceListAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeletePriceListAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.QuoteAgent
+  langs:
+  - csharp
+  - vb
+  name: DeletePriceListAsync(int, CancellationToken)
+  nameWithType: QuoteAgent.DeletePriceListAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.QuoteAgent.DeletePriceListAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Deletes the PriceList
+  example: []
+  syntax:
+    content: public Task DeletePriceListAsync(int priceListId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: priceListId
+      type: System.Int32
+      description: The identity of the PriceList
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function DeletePriceListAsync(priceListId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.QuoteAgent.DeletePriceListAsync*
+  implements:
+  - SuperOffice.CRM.Services.IQuoteAgent.DeletePriceListAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: QuoteAgent.DeletePriceListAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.QuoteAgent.DeletePriceListAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeletePriceListAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.QuoteAgent.GetPriceListAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.QuoteAgent.GetPriceListAsync(System.Int32,System.Threading.CancellationToken)
   id: GetPriceListAsync(System.Int32,System.Threading.CancellationToken)
@@ -586,9 +434,10 @@ items:
       description: The identifier of the PriceList object
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PriceList}
-      description: PriceList
+      description: A single PriceList
     content.vb: Public Function GetPriceListAsync(priceListId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of PriceList)
   overload: SuperOffice.CRM.Services.QuoteAgent.GetPriceListAsync*
   implements:
@@ -646,6 +495,102 @@ items:
   nameWithType.vb: QuoteAgent.CopySuperOfficePriceListAsync(Integer, String, Date, Date, Integer, Boolean, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.QuoteAgent.CopySuperOfficePriceListAsync(Integer, String, Date, Date, Integer, Boolean, System.Threading.CancellationToken)
   name.vb: CopySuperOfficePriceListAsync(Integer, String, Date, Date, Integer, Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultProductAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.QuoteAgent.CreateDefaultProductAsync(System.Threading.CancellationToken)
+  id: CreateDefaultProductAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.QuoteAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultProductAsync(CancellationToken)
+  nameWithType: QuoteAgent.CreateDefaultProductAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultProductAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new Product.
+  example: []
+  syntax:
+    content: public Task<Product> CreateDefaultProductAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Product}
+      description: New Product with default values
+    content.vb: Public Function CreateDefaultProductAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Product)
+  overload: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultProductAsync*
+  implements:
+  - SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultProductAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.QuoteAgent.SaveProductAsync(SuperOffice.CRM.Services.Product,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.QuoteAgent.SaveProductAsync(SuperOffice.CRM.Services.Product,System.Threading.CancellationToken)
+  id: SaveProductAsync(SuperOffice.CRM.Services.Product,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.QuoteAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveProductAsync(Product, CancellationToken)
+  nameWithType: QuoteAgent.SaveProductAsync(Product, CancellationToken)
+  fullName: SuperOffice.CRM.Services.QuoteAgent.SaveProductAsync(SuperOffice.CRM.Services.Product, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing Product or creates a new Product if the id parameter is 0.
+  example: []
+  syntax:
+    content: public Task<Product> SaveProductAsync(Product product, CancellationToken cancellationToken = default)
+    parameters:
+    - id: product
+      type: SuperOffice.CRM.Services.Product
+      description: The Product that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Product}
+      description: New or updated Product
+    content.vb: Public Function SaveProductAsync(product As Product, cancellationToken As CancellationToken = Nothing) As Task(Of Product)
+  overload: SuperOffice.CRM.Services.QuoteAgent.SaveProductAsync*
+  implements:
+  - SuperOffice.CRM.Services.IQuoteAgent.SaveProductAsync(SuperOffice.CRM.Services.Product,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.QuoteAgent.DeleteProductAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.QuoteAgent.DeleteProductAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteProductAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.QuoteAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteProductAsync(int, CancellationToken)
+  nameWithType: QuoteAgent.DeleteProductAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.QuoteAgent.DeleteProductAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Deletes the Product
+  example: []
+  syntax:
+    content: public Task DeleteProductAsync(int productId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: productId
+      type: System.Int32
+      description: The identity of the Product
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function DeleteProductAsync(productId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.QuoteAgent.DeleteProductAsync*
+  implements:
+  - SuperOffice.CRM.Services.IQuoteAgent.DeleteProductAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: QuoteAgent.DeleteProductAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.QuoteAgent.DeleteProductAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteProductAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.QuoteAgent.GetProductImageAsync(System.Int32,System.String,System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.QuoteAgent.GetProductImageAsync(System.Int32,System.String,System.Int32,System.Threading.CancellationToken)
   id: GetProductImageAsync(System.Int32,System.String,System.Int32,System.Threading.CancellationToken)
@@ -973,6 +918,67 @@ items:
   nameWithType.vb: QuoteAgent.GetQuoteFromSaleIdAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.QuoteAgent.GetQuoteFromSaleIdAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetQuoteFromSaleIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultQuoteAlternativeAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.QuoteAgent.CreateDefaultQuoteAlternativeAsync(System.Threading.CancellationToken)
+  id: CreateDefaultQuoteAlternativeAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.QuoteAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultQuoteAlternativeAsync(CancellationToken)
+  nameWithType: QuoteAgent.CreateDefaultQuoteAlternativeAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultQuoteAlternativeAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new QuoteAlternative.
+  example: []
+  syntax:
+    content: public Task<QuoteAlternative> CreateDefaultQuoteAlternativeAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.QuoteAlternative}
+      description: New QuoteAlternative with default values
+    content.vb: Public Function CreateDefaultQuoteAlternativeAsync(cancellationToken As CancellationToken = Nothing) As Task(Of QuoteAlternative)
+  overload: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultQuoteAlternativeAsync*
+  implements:
+  - SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultQuoteAlternativeAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.QuoteAgent.SaveQuoteAlternativeAsync(SuperOffice.CRM.Services.QuoteAlternative,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.QuoteAgent.SaveQuoteAlternativeAsync(SuperOffice.CRM.Services.QuoteAlternative,System.Threading.CancellationToken)
+  id: SaveQuoteAlternativeAsync(SuperOffice.CRM.Services.QuoteAlternative,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.QuoteAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveQuoteAlternativeAsync(QuoteAlternative, CancellationToken)
+  nameWithType: QuoteAgent.SaveQuoteAlternativeAsync(QuoteAlternative, CancellationToken)
+  fullName: SuperOffice.CRM.Services.QuoteAgent.SaveQuoteAlternativeAsync(SuperOffice.CRM.Services.QuoteAlternative, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing QuoteAlternative or creates a new QuoteAlternative if the id parameter is 0.
+  example: []
+  syntax:
+    content: public Task<QuoteAlternative> SaveQuoteAlternativeAsync(QuoteAlternative quoteAlternative, CancellationToken cancellationToken = default)
+    parameters:
+    - id: quoteAlternative
+      type: SuperOffice.CRM.Services.QuoteAlternative
+      description: The QuoteAlternative that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.QuoteAlternative}
+      description: New or updated QuoteAlternative
+    content.vb: Public Function SaveQuoteAlternativeAsync(quoteAlternative As QuoteAlternative, cancellationToken As CancellationToken = Nothing) As Task(Of QuoteAlternative)
+  overload: SuperOffice.CRM.Services.QuoteAgent.SaveQuoteAlternativeAsync*
+  implements:
+  - SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteAlternativeAsync(SuperOffice.CRM.Services.QuoteAlternative,System.Threading.CancellationToken)
 - uid: SuperOffice.CRM.Services.QuoteAgent.GetQuoteAlternativeAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.QuoteAgent.GetQuoteAlternativeAsync(System.Int32,System.Threading.CancellationToken)
   id: GetQuoteAlternativeAsync(System.Int32,System.Threading.CancellationToken)
@@ -997,9 +1003,10 @@ items:
       description: The identifier of the QuoteAlternative object
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.QuoteAlternative}
-      description: QuoteAlternative
+      description: A single QuoteAlternative
     content.vb: Public Function GetQuoteAlternativeAsync(quoteAlternativeId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of QuoteAlternative)
   overload: SuperOffice.CRM.Services.QuoteAgent.GetQuoteAlternativeAsync*
   implements:
@@ -4222,41 +4229,100 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
-- uid: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultPriceListAsync*
-  commentId: Overload:SuperOffice.CRM.Services.QuoteAgent.CreateDefaultPriceListAsync
+- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
   isExternal: true
-  href: SuperOffice.CRM.Services.QuoteAgent.html#SuperOffice_CRM_Services_QuoteAgent_CreateDefaultPriceListAsync_System_Threading_CancellationToken_
-  name: CreateDefaultPriceListAsync
-  nameWithType: QuoteAgent.CreateDefaultPriceListAsync
-  fullName: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultPriceListAsync
-- uid: SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultPriceListAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultPriceListAsync(System.Threading.CancellationToken)
+  name: IScriptingConfiguration
+  nameWithType: ConfigFile.IScriptingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  isExternal: true
+  name: IOnlineConfiguration
+  nameWithType: ConfigFile.IOnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+- uid: SuperOffice.CRM.Services.QuoteAgent.GetConfigurationFieldsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteAgent.GetConfigurationFieldsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.QuoteAgent.html#SuperOffice_CRM_Services_QuoteAgent_GetConfigurationFieldsAsync_System_Int32_System_String_System_Threading_CancellationToken_
+  name: GetConfigurationFieldsAsync
+  nameWithType: QuoteAgent.GetConfigurationFieldsAsync
+  fullName: SuperOffice.CRM.Services.QuoteAgent.GetConfigurationFieldsAsync
+- uid: SuperOffice.CRM.Services.IQuoteAgent.GetConfigurationFieldsAsync(System.Int32,System.String,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.GetConfigurationFieldsAsync(System.Int32,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IQuoteAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: CreateDefaultPriceListAsync(CancellationToken)
-  nameWithType: IQuoteAgent.CreateDefaultPriceListAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultPriceListAsync(System.Threading.CancellationToken)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetConfigurationFieldsAsync(int, string, CancellationToken)
+  nameWithType: IQuoteAgent.GetConfigurationFieldsAsync(int, string, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.GetConfigurationFieldsAsync(int, string, System.Threading.CancellationToken)
+  nameWithType.vb: IQuoteAgent.GetConfigurationFieldsAsync(Integer, String, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IQuoteAgent.GetConfigurationFieldsAsync(Integer, String, System.Threading.CancellationToken)
+  name.vb: GetConfigurationFieldsAsync(Integer, String, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultPriceListAsync(System.Threading.CancellationToken)
-    name: CreateDefaultPriceListAsync
+  - uid: SuperOffice.CRM.Services.IQuoteAgent.GetConfigurationFieldsAsync(System.Int32,System.String,System.Threading.CancellationToken)
+    name: GetConfigurationFieldsAsync
     isExternal: true
   - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultPriceListAsync(System.Threading.CancellationToken)
-    name: CreateDefaultPriceListAsync
+  - uid: SuperOffice.CRM.Services.IQuoteAgent.GetConfigurationFieldsAsync(System.Int32,System.String,System.Threading.CancellationToken)
+    name: GetConfigurationFieldsAsync
     isExternal: true
   - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: System.Threading.CancellationToken
   commentId: T:System.Threading.CancellationToken
   parent: System.Threading
@@ -4265,27 +4331,27 @@ references:
   name: CancellationToken
   nameWithType: CancellationToken
   fullName: System.Threading.CancellationToken
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PriceList}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PriceList}
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FieldMetadataDictionary}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.FieldMetadataDictionary}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
   href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<PriceList>
-  nameWithType: Task<PriceList>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PriceList>
-  nameWithType.vb: Task(Of PriceList)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PriceList)
-  name.vb: Task(Of PriceList)
+  name: Task<FieldMetadataDictionary>
+  nameWithType: Task<FieldMetadataDictionary>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.FieldMetadataDictionary>
+  nameWithType.vb: Task(Of FieldMetadataDictionary)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.FieldMetadataDictionary)
+  name.vb: Task(Of FieldMetadataDictionary)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - uid: SuperOffice.CRM.Services.PriceList
-    name: PriceList
+  - uid: SuperOffice.CRM.Services.FieldMetadataDictionary
+    name: FieldMetadataDictionary
     isExternal: true
-    href: SuperOffice.CRM.Services.PriceList.html
+    href: SuperOffice.CRM.Services.FieldMetadataDictionary.html
   - name: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
@@ -4295,10 +4361,10 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: SuperOffice.CRM.Services.PriceList
-    name: PriceList
+  - uid: SuperOffice.CRM.Services.FieldMetadataDictionary
+    name: FieldMetadataDictionary
     isExternal: true
-    href: SuperOffice.CRM.Services.PriceList.html
+    href: SuperOffice.CRM.Services.FieldMetadataDictionary.html
   - name: )
 - uid: System.Threading
   commentId: N:System.Threading
@@ -4392,6 +4458,176 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.QuoteAgent.TestConnectionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteAgent.TestConnectionAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.QuoteAgent.html#SuperOffice_CRM_Services_QuoteAgent_TestConnectionAsync_System_String_SuperOffice_CRM_Services_StringDictionary_System_Threading_CancellationToken_
+  name: TestConnectionAsync
+  nameWithType: QuoteAgent.TestConnectionAsync
+  fullName: SuperOffice.CRM.Services.QuoteAgent.TestConnectionAsync
+- uid: SuperOffice.CRM.Services.IQuoteAgent.TestConnectionAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.TestConnectionAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IQuoteAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: TestConnectionAsync(string, StringDictionary, CancellationToken)
+  nameWithType: IQuoteAgent.TestConnectionAsync(string, StringDictionary, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.TestConnectionAsync(string, SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
+  nameWithType.vb: IQuoteAgent.TestConnectionAsync(String, StringDictionary, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IQuoteAgent.TestConnectionAsync(String, SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
+  name.vb: TestConnectionAsync(String, StringDictionary, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IQuoteAgent.TestConnectionAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+    name: TestConnectionAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Services.StringDictionary
+    name: StringDictionary
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IQuoteAgent.TestConnectionAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
+    name: TestConnectionAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Services.StringDictionary
+    name: StringDictionary
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.StringDictionary
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PluginResponse}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PluginResponse}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<PluginResponse>
+  nameWithType: Task<PluginResponse>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PluginResponse>
+  nameWithType.vb: Task(Of PluginResponse)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PluginResponse)
+  name.vb: Task(Of PluginResponse)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.PluginResponse
+    name: PluginResponse
+    isExternal: true
+    href: SuperOffice.CRM.Services.PluginResponse.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.PluginResponse
+    name: PluginResponse
+    isExternal: true
+    href: SuperOffice.CRM.Services.PluginResponse.html
+  - name: )
+- uid: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultPriceListAsync*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteAgent.CreateDefaultPriceListAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.QuoteAgent.html#SuperOffice_CRM_Services_QuoteAgent_CreateDefaultPriceListAsync_System_Threading_CancellationToken_
+  name: CreateDefaultPriceListAsync
+  nameWithType: QuoteAgent.CreateDefaultPriceListAsync
+  fullName: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultPriceListAsync
+- uid: SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultPriceListAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultPriceListAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IQuoteAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultPriceListAsync(CancellationToken)
+  nameWithType: IQuoteAgent.CreateDefaultPriceListAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultPriceListAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultPriceListAsync(System.Threading.CancellationToken)
+    name: CreateDefaultPriceListAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultPriceListAsync(System.Threading.CancellationToken)
+    name: CreateDefaultPriceListAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PriceList}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PriceList}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<PriceList>
+  nameWithType: Task<PriceList>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PriceList>
+  nameWithType.vb: Task(Of PriceList)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PriceList)
+  name.vb: Task(Of PriceList)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.PriceList
+    name: PriceList
+    isExternal: true
+    href: SuperOffice.CRM.Services.PriceList.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.PriceList
+    name: PriceList
+    isExternal: true
+    href: SuperOffice.CRM.Services.PriceList.html
+  - name: )
 - uid: SuperOffice.CRM.Services.QuoteAgent.SavePriceListAsync*
   commentId: Overload:SuperOffice.CRM.Services.QuoteAgent.SavePriceListAsync
   isExternal: true
@@ -4495,17 +4731,6 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
 - uid: System.Threading.Tasks.Task
   commentId: T:System.Threading.Tasks.Task
   parent: System.Threading.Tasks
@@ -4514,510 +4739,6 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
-- uid: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultProductAsync*
-  commentId: Overload:SuperOffice.CRM.Services.QuoteAgent.CreateDefaultProductAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.QuoteAgent.html#SuperOffice_CRM_Services_QuoteAgent_CreateDefaultProductAsync_System_Threading_CancellationToken_
-  name: CreateDefaultProductAsync
-  nameWithType: QuoteAgent.CreateDefaultProductAsync
-  fullName: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultProductAsync
-- uid: SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultProductAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultProductAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IQuoteAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: CreateDefaultProductAsync(CancellationToken)
-  nameWithType: IQuoteAgent.CreateDefaultProductAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultProductAsync(System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultProductAsync(System.Threading.CancellationToken)
-    name: CreateDefaultProductAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultProductAsync(System.Threading.CancellationToken)
-    name: CreateDefaultProductAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Product}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Product}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<Product>
-  nameWithType: Task<Product>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Product>
-  nameWithType.vb: Task(Of Product)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Product)
-  name.vb: Task(Of Product)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.Product
-    name: Product
-    isExternal: true
-    href: SuperOffice.CRM.Services.Product.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.Product
-    name: Product
-    isExternal: true
-    href: SuperOffice.CRM.Services.Product.html
-  - name: )
-- uid: SuperOffice.CRM.Services.QuoteAgent.SaveProductAsync*
-  commentId: Overload:SuperOffice.CRM.Services.QuoteAgent.SaveProductAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.QuoteAgent.html#SuperOffice_CRM_Services_QuoteAgent_SaveProductAsync_SuperOffice_CRM_Services_Product_System_Threading_CancellationToken_
-  name: SaveProductAsync
-  nameWithType: QuoteAgent.SaveProductAsync
-  fullName: SuperOffice.CRM.Services.QuoteAgent.SaveProductAsync
-- uid: SuperOffice.CRM.Services.IQuoteAgent.SaveProductAsync(SuperOffice.CRM.Services.Product,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.SaveProductAsync(SuperOffice.CRM.Services.Product,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IQuoteAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: SaveProductAsync(Product, CancellationToken)
-  nameWithType: IQuoteAgent.SaveProductAsync(Product, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IQuoteAgent.SaveProductAsync(SuperOffice.CRM.Services.Product, System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IQuoteAgent.SaveProductAsync(SuperOffice.CRM.Services.Product,System.Threading.CancellationToken)
-    name: SaveProductAsync
-    isExternal: true
-  - name: (
-  - uid: SuperOffice.CRM.Services.Product
-    name: Product
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IQuoteAgent.SaveProductAsync(SuperOffice.CRM.Services.Product,System.Threading.CancellationToken)
-    name: SaveProductAsync
-    isExternal: true
-  - name: (
-  - uid: SuperOffice.CRM.Services.Product
-    name: Product
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: SuperOffice.CRM.Services.Product
-  commentId: T:SuperOffice.CRM.Services.Product
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.Product.html
-  name: Product
-  nameWithType: Product
-  fullName: SuperOffice.CRM.Services.Product
-- uid: SuperOffice.CRM.Services.QuoteAgent.DeleteProductAsync*
-  commentId: Overload:SuperOffice.CRM.Services.QuoteAgent.DeleteProductAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.QuoteAgent.html#SuperOffice_CRM_Services_QuoteAgent_DeleteProductAsync_System_Int32_System_Threading_CancellationToken_
-  name: DeleteProductAsync
-  nameWithType: QuoteAgent.DeleteProductAsync
-  fullName: SuperOffice.CRM.Services.QuoteAgent.DeleteProductAsync
-- uid: SuperOffice.CRM.Services.IQuoteAgent.DeleteProductAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.DeleteProductAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IQuoteAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: DeleteProductAsync(int, CancellationToken)
-  nameWithType: IQuoteAgent.DeleteProductAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IQuoteAgent.DeleteProductAsync(int, System.Threading.CancellationToken)
-  nameWithType.vb: IQuoteAgent.DeleteProductAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IQuoteAgent.DeleteProductAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeleteProductAsync(Integer, CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IQuoteAgent.DeleteProductAsync(System.Int32,System.Threading.CancellationToken)
-    name: DeleteProductAsync
-    isExternal: true
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IQuoteAgent.DeleteProductAsync(System.Int32,System.Threading.CancellationToken)
-    name: DeleteProductAsync
-    isExternal: true
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultQuoteAlternativeAsync*
-  commentId: Overload:SuperOffice.CRM.Services.QuoteAgent.CreateDefaultQuoteAlternativeAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.QuoteAgent.html#SuperOffice_CRM_Services_QuoteAgent_CreateDefaultQuoteAlternativeAsync_System_Threading_CancellationToken_
-  name: CreateDefaultQuoteAlternativeAsync
-  nameWithType: QuoteAgent.CreateDefaultQuoteAlternativeAsync
-  fullName: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultQuoteAlternativeAsync
-- uid: SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultQuoteAlternativeAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultQuoteAlternativeAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IQuoteAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: CreateDefaultQuoteAlternativeAsync(CancellationToken)
-  nameWithType: IQuoteAgent.CreateDefaultQuoteAlternativeAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultQuoteAlternativeAsync(System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultQuoteAlternativeAsync(System.Threading.CancellationToken)
-    name: CreateDefaultQuoteAlternativeAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultQuoteAlternativeAsync(System.Threading.CancellationToken)
-    name: CreateDefaultQuoteAlternativeAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.QuoteAlternative}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.QuoteAlternative}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<QuoteAlternative>
-  nameWithType: Task<QuoteAlternative>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.QuoteAlternative>
-  nameWithType.vb: Task(Of QuoteAlternative)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.QuoteAlternative)
-  name.vb: Task(Of QuoteAlternative)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.QuoteAlternative
-    name: QuoteAlternative
-    isExternal: true
-    href: SuperOffice.CRM.Services.QuoteAlternative.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.QuoteAlternative
-    name: QuoteAlternative
-    isExternal: true
-    href: SuperOffice.CRM.Services.QuoteAlternative.html
-  - name: )
-- uid: SuperOffice.CRM.Services.QuoteAgent.SaveQuoteAlternativeAsync*
-  commentId: Overload:SuperOffice.CRM.Services.QuoteAgent.SaveQuoteAlternativeAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.QuoteAgent.html#SuperOffice_CRM_Services_QuoteAgent_SaveQuoteAlternativeAsync_SuperOffice_CRM_Services_QuoteAlternative_System_Threading_CancellationToken_
-  name: SaveQuoteAlternativeAsync
-  nameWithType: QuoteAgent.SaveQuoteAlternativeAsync
-  fullName: SuperOffice.CRM.Services.QuoteAgent.SaveQuoteAlternativeAsync
-- uid: SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteAlternativeAsync(SuperOffice.CRM.Services.QuoteAlternative,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteAlternativeAsync(SuperOffice.CRM.Services.QuoteAlternative,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IQuoteAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: SaveQuoteAlternativeAsync(QuoteAlternative, CancellationToken)
-  nameWithType: IQuoteAgent.SaveQuoteAlternativeAsync(QuoteAlternative, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteAlternativeAsync(SuperOffice.CRM.Services.QuoteAlternative, System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteAlternativeAsync(SuperOffice.CRM.Services.QuoteAlternative,System.Threading.CancellationToken)
-    name: SaveQuoteAlternativeAsync
-    isExternal: true
-  - name: (
-  - uid: SuperOffice.CRM.Services.QuoteAlternative
-    name: QuoteAlternative
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteAlternativeAsync(SuperOffice.CRM.Services.QuoteAlternative,System.Threading.CancellationToken)
-    name: SaveQuoteAlternativeAsync
-    isExternal: true
-  - name: (
-  - uid: SuperOffice.CRM.Services.QuoteAlternative
-    name: QuoteAlternative
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: SuperOffice.CRM.Services.QuoteAlternative
-  commentId: T:SuperOffice.CRM.Services.QuoteAlternative
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.QuoteAlternative.html
-  name: QuoteAlternative
-  nameWithType: QuoteAlternative
-  fullName: SuperOffice.CRM.Services.QuoteAlternative
-- uid: SuperOffice.CRM.Services.QuoteAgent.GetConfigurationFieldsAsync*
-  commentId: Overload:SuperOffice.CRM.Services.QuoteAgent.GetConfigurationFieldsAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.QuoteAgent.html#SuperOffice_CRM_Services_QuoteAgent_GetConfigurationFieldsAsync_System_Int32_System_String_System_Threading_CancellationToken_
-  name: GetConfigurationFieldsAsync
-  nameWithType: QuoteAgent.GetConfigurationFieldsAsync
-  fullName: SuperOffice.CRM.Services.QuoteAgent.GetConfigurationFieldsAsync
-- uid: SuperOffice.CRM.Services.IQuoteAgent.GetConfigurationFieldsAsync(System.Int32,System.String,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.GetConfigurationFieldsAsync(System.Int32,System.String,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IQuoteAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: GetConfigurationFieldsAsync(int, string, CancellationToken)
-  nameWithType: IQuoteAgent.GetConfigurationFieldsAsync(int, string, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IQuoteAgent.GetConfigurationFieldsAsync(int, string, System.Threading.CancellationToken)
-  nameWithType.vb: IQuoteAgent.GetConfigurationFieldsAsync(Integer, String, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IQuoteAgent.GetConfigurationFieldsAsync(Integer, String, System.Threading.CancellationToken)
-  name.vb: GetConfigurationFieldsAsync(Integer, String, CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IQuoteAgent.GetConfigurationFieldsAsync(System.Int32,System.String,System.Threading.CancellationToken)
-    name: GetConfigurationFieldsAsync
-    isExternal: true
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IQuoteAgent.GetConfigurationFieldsAsync(System.Int32,System.String,System.Threading.CancellationToken)
-    name: GetConfigurationFieldsAsync
-    isExternal: true
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.FieldMetadataDictionary}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.FieldMetadataDictionary}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<FieldMetadataDictionary>
-  nameWithType: Task<FieldMetadataDictionary>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.FieldMetadataDictionary>
-  nameWithType.vb: Task(Of FieldMetadataDictionary)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.FieldMetadataDictionary)
-  name.vb: Task(Of FieldMetadataDictionary)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.FieldMetadataDictionary
-    name: FieldMetadataDictionary
-    isExternal: true
-    href: SuperOffice.CRM.Services.FieldMetadataDictionary.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.FieldMetadataDictionary
-    name: FieldMetadataDictionary
-    isExternal: true
-    href: SuperOffice.CRM.Services.FieldMetadataDictionary.html
-  - name: )
-- uid: SuperOffice.CRM.Services.QuoteAgent.TestConnectionAsync*
-  commentId: Overload:SuperOffice.CRM.Services.QuoteAgent.TestConnectionAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.QuoteAgent.html#SuperOffice_CRM_Services_QuoteAgent_TestConnectionAsync_System_String_SuperOffice_CRM_Services_StringDictionary_System_Threading_CancellationToken_
-  name: TestConnectionAsync
-  nameWithType: QuoteAgent.TestConnectionAsync
-  fullName: SuperOffice.CRM.Services.QuoteAgent.TestConnectionAsync
-- uid: SuperOffice.CRM.Services.IQuoteAgent.TestConnectionAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.TestConnectionAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IQuoteAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: TestConnectionAsync(string, StringDictionary, CancellationToken)
-  nameWithType: IQuoteAgent.TestConnectionAsync(string, StringDictionary, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IQuoteAgent.TestConnectionAsync(string, SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
-  nameWithType.vb: IQuoteAgent.TestConnectionAsync(String, StringDictionary, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IQuoteAgent.TestConnectionAsync(String, SuperOffice.CRM.Services.StringDictionary, System.Threading.CancellationToken)
-  name.vb: TestConnectionAsync(String, StringDictionary, CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IQuoteAgent.TestConnectionAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
-    name: TestConnectionAsync
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Services.StringDictionary
-    name: StringDictionary
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IQuoteAgent.TestConnectionAsync(System.String,SuperOffice.CRM.Services.StringDictionary,System.Threading.CancellationToken)
-    name: TestConnectionAsync
-    isExternal: true
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: SuperOffice.CRM.Services.StringDictionary
-    name: StringDictionary
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: SuperOffice.CRM.Services.StringDictionary
-  isExternal: true
-  name: StringDictionary
-  nameWithType: StringDictionary
-  fullName: SuperOffice.CRM.Services.StringDictionary
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PluginResponse}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PluginResponse}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<PluginResponse>
-  nameWithType: Task<PluginResponse>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PluginResponse>
-  nameWithType.vb: Task(Of PluginResponse)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PluginResponse)
-  name.vb: Task(Of PluginResponse)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.PluginResponse
-    name: PluginResponse
-    isExternal: true
-    href: SuperOffice.CRM.Services.PluginResponse.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.PluginResponse
-    name: PluginResponse
-    isExternal: true
-    href: SuperOffice.CRM.Services.PluginResponse.html
-  - name: )
 - uid: SuperOffice.CRM.Services.QuoteAgent.GetPriceListAsync*
   commentId: Overload:SuperOffice.CRM.Services.QuoteAgent.GetPriceListAsync
   isExternal: true
@@ -5200,6 +4921,179 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
+- uid: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultProductAsync*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteAgent.CreateDefaultProductAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.QuoteAgent.html#SuperOffice_CRM_Services_QuoteAgent_CreateDefaultProductAsync_System_Threading_CancellationToken_
+  name: CreateDefaultProductAsync
+  nameWithType: QuoteAgent.CreateDefaultProductAsync
+  fullName: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultProductAsync
+- uid: SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultProductAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultProductAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IQuoteAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultProductAsync(CancellationToken)
+  nameWithType: IQuoteAgent.CreateDefaultProductAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultProductAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultProductAsync(System.Threading.CancellationToken)
+    name: CreateDefaultProductAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultProductAsync(System.Threading.CancellationToken)
+    name: CreateDefaultProductAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Product}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Product}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Product>
+  nameWithType: Task<Product>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Product>
+  nameWithType.vb: Task(Of Product)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Product)
+  name.vb: Task(Of Product)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.Product
+    name: Product
+    isExternal: true
+    href: SuperOffice.CRM.Services.Product.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.Product
+    name: Product
+    isExternal: true
+    href: SuperOffice.CRM.Services.Product.html
+  - name: )
+- uid: SuperOffice.CRM.Services.QuoteAgent.SaveProductAsync*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteAgent.SaveProductAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.QuoteAgent.html#SuperOffice_CRM_Services_QuoteAgent_SaveProductAsync_SuperOffice_CRM_Services_Product_System_Threading_CancellationToken_
+  name: SaveProductAsync
+  nameWithType: QuoteAgent.SaveProductAsync
+  fullName: SuperOffice.CRM.Services.QuoteAgent.SaveProductAsync
+- uid: SuperOffice.CRM.Services.IQuoteAgent.SaveProductAsync(SuperOffice.CRM.Services.Product,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.SaveProductAsync(SuperOffice.CRM.Services.Product,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IQuoteAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: SaveProductAsync(Product, CancellationToken)
+  nameWithType: IQuoteAgent.SaveProductAsync(Product, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.SaveProductAsync(SuperOffice.CRM.Services.Product, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IQuoteAgent.SaveProductAsync(SuperOffice.CRM.Services.Product,System.Threading.CancellationToken)
+    name: SaveProductAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.Product
+    name: Product
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IQuoteAgent.SaveProductAsync(SuperOffice.CRM.Services.Product,System.Threading.CancellationToken)
+    name: SaveProductAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.Product
+    name: Product
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.Product
+  commentId: T:SuperOffice.CRM.Services.Product
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.Product.html
+  name: Product
+  nameWithType: Product
+  fullName: SuperOffice.CRM.Services.Product
+- uid: SuperOffice.CRM.Services.QuoteAgent.DeleteProductAsync*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteAgent.DeleteProductAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.QuoteAgent.html#SuperOffice_CRM_Services_QuoteAgent_DeleteProductAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteProductAsync
+  nameWithType: QuoteAgent.DeleteProductAsync
+  fullName: SuperOffice.CRM.Services.QuoteAgent.DeleteProductAsync
+- uid: SuperOffice.CRM.Services.IQuoteAgent.DeleteProductAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.DeleteProductAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IQuoteAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DeleteProductAsync(int, CancellationToken)
+  nameWithType: IQuoteAgent.DeleteProductAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.DeleteProductAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IQuoteAgent.DeleteProductAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IQuoteAgent.DeleteProductAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteProductAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IQuoteAgent.DeleteProductAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteProductAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IQuoteAgent.DeleteProductAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteProductAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: SuperOffice.CRM.Services.QuoteAgent.GetProductImageAsync*
   commentId: Overload:SuperOffice.CRM.Services.QuoteAgent.GetProductImageAsync
   isExternal: true
@@ -5822,6 +5716,129 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
+- uid: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultQuoteAlternativeAsync*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteAgent.CreateDefaultQuoteAlternativeAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.QuoteAgent.html#SuperOffice_CRM_Services_QuoteAgent_CreateDefaultQuoteAlternativeAsync_System_Threading_CancellationToken_
+  name: CreateDefaultQuoteAlternativeAsync
+  nameWithType: QuoteAgent.CreateDefaultQuoteAlternativeAsync
+  fullName: SuperOffice.CRM.Services.QuoteAgent.CreateDefaultQuoteAlternativeAsync
+- uid: SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultQuoteAlternativeAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultQuoteAlternativeAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IQuoteAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultQuoteAlternativeAsync(CancellationToken)
+  nameWithType: IQuoteAgent.CreateDefaultQuoteAlternativeAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultQuoteAlternativeAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultQuoteAlternativeAsync(System.Threading.CancellationToken)
+    name: CreateDefaultQuoteAlternativeAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IQuoteAgent.CreateDefaultQuoteAlternativeAsync(System.Threading.CancellationToken)
+    name: CreateDefaultQuoteAlternativeAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.QuoteAlternative}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.QuoteAlternative}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<QuoteAlternative>
+  nameWithType: Task<QuoteAlternative>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.QuoteAlternative>
+  nameWithType.vb: Task(Of QuoteAlternative)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.QuoteAlternative)
+  name.vb: Task(Of QuoteAlternative)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.QuoteAlternative
+    name: QuoteAlternative
+    isExternal: true
+    href: SuperOffice.CRM.Services.QuoteAlternative.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.QuoteAlternative
+    name: QuoteAlternative
+    isExternal: true
+    href: SuperOffice.CRM.Services.QuoteAlternative.html
+  - name: )
+- uid: SuperOffice.CRM.Services.QuoteAgent.SaveQuoteAlternativeAsync*
+  commentId: Overload:SuperOffice.CRM.Services.QuoteAgent.SaveQuoteAlternativeAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.QuoteAgent.html#SuperOffice_CRM_Services_QuoteAgent_SaveQuoteAlternativeAsync_SuperOffice_CRM_Services_QuoteAlternative_System_Threading_CancellationToken_
+  name: SaveQuoteAlternativeAsync
+  nameWithType: QuoteAgent.SaveQuoteAlternativeAsync
+  fullName: SuperOffice.CRM.Services.QuoteAgent.SaveQuoteAlternativeAsync
+- uid: SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteAlternativeAsync(SuperOffice.CRM.Services.QuoteAlternative,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteAlternativeAsync(SuperOffice.CRM.Services.QuoteAlternative,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IQuoteAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: SaveQuoteAlternativeAsync(QuoteAlternative, CancellationToken)
+  nameWithType: IQuoteAgent.SaveQuoteAlternativeAsync(QuoteAlternative, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteAlternativeAsync(SuperOffice.CRM.Services.QuoteAlternative, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteAlternativeAsync(SuperOffice.CRM.Services.QuoteAlternative,System.Threading.CancellationToken)
+    name: SaveQuoteAlternativeAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.QuoteAlternative
+    name: QuoteAlternative
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IQuoteAgent.SaveQuoteAlternativeAsync(SuperOffice.CRM.Services.QuoteAlternative,System.Threading.CancellationToken)
+    name: SaveQuoteAlternativeAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.QuoteAlternative
+    name: QuoteAlternative
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.QuoteAlternative
+  commentId: T:SuperOffice.CRM.Services.QuoteAlternative
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.QuoteAlternative.html
+  name: QuoteAlternative
+  nameWithType: QuoteAlternative
+  fullName: SuperOffice.CRM.Services.QuoteAlternative
 - uid: SuperOffice.CRM.Services.QuoteAgent.GetQuoteAlternativeAsync*
   commentId: Overload:SuperOffice.CRM.Services.QuoteAgent.GetQuoteAlternativeAsync
   isExternal: true
