@@ -14,6 +14,7 @@ topic: SuperOffice for Outlook
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+index: true
 redirect_from: 
   - /en/email/superoffice-for-outlook/index
   - /en/email/superoffice-for-outlook/learn/index
