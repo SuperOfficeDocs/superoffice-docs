@@ -5,6 +5,7 @@ description: Globalization and Localization
 author: Bergfrid Dias
 date: 02.16.2022
 keywords: globalization, localization
+index: true
 ---
 
 # SuperOffice Globalization

@@ -5,6 +5,7 @@ description: MailLink
 author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
+index: true
 ---
 
 # MailLink

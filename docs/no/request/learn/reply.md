@@ -11,7 +11,6 @@ license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: no
-index: true
 redirect_from:
   - /no/request/learn/howto/reply
   - /no/faq/learn/add-to-request

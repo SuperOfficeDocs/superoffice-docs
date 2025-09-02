@@ -11,7 +11,6 @@ license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: sv
-index: true
 redirect_from: /sv/request/learn/howto/create
 ---
 

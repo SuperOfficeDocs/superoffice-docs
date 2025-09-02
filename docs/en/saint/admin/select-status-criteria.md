@@ -10,6 +10,7 @@ content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
+index: true
 redirect_from: /en/sale/saint/learn/admin/select-status-criteria
 ---
 

@@ -5,6 +5,7 @@ description: How to change DKIM from US to EU
 author: SuperOffice Product and Engineering
 keywords: email
 content_type: howto
+index: true
 ---
 
 # How to change DKIM from the US to the EU

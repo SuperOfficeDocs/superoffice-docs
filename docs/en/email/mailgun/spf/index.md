@@ -3,6 +3,7 @@ title: spf
 description:
 author: SuperOffice Product and Engineering
 keywords:
+index: true
 ---
 
 # SPF

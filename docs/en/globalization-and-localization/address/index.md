@@ -6,6 +6,7 @@ author: Tony Yates
 date: 02.16.2022
 content_type: concept
 keywords: address, globalization, LocalizedAddress, FormattedAddress
+index: true
 redirect_from: /en/globalization-and-localization/address/howto/index
 ---
 

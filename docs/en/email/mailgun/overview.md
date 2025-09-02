@@ -7,6 +7,7 @@ date: 06.20.2024
 keywords: Mailgun, email, suocrm
 content_type: concept
 deployment: online
+index: true
 ---
 
 # Mailgun
