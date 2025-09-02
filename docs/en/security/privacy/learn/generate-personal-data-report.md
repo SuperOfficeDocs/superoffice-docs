@@ -2,18 +2,23 @@
 uid: help-en-generate-personal-data-report
 title: Generate personal data report
 description: Generate personal data report
-author: SuperOffice RnD
+keywords: personal data report, privacy report
+author: SuperOffice Product and Engineering
 date: 06.29.2022
-keywords: company
+version: 10.3
 content_type: howto
+category: privacy
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
+index: true
 ---
 
 # Generate personal data report
 
 If a contact ask to view all information registered on them in SuperOffice, you can go to the Contact screen and generate a report containing the personal data of a contact. The report contains all data registered on this contact in SuperOffice, including contact information, interests, subscriptions, consent information and registered activities and communication (follow-ups, documents, requests and mailings).
 
-**Steps:**
+## Steps
 
 [!include[Go to Contact screen](../../../learn/includes/goto-contact.md)]
 

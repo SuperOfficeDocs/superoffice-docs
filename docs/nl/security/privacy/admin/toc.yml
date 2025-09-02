@@ -1,0 +1,11 @@
+items:
+- name: Implementatiehandleiding
+  href: index.md
+- name: Toestemmingsdoel toevoegen
+  href: add-purpose.md
+- name: Rechtsgrondslag toevoegen
+  href: add-legal-base.md
+- name: Privacybron toevoegen
+  href: add-source.md
+- name: E-mail met privacybevestiging bewerken
+  href: edit-privacy-confirmation-email.md

@@ -89,7 +89,7 @@ Hier können Sie übersetzte Versionen der Dokumentvorlage hinzufügen.
 [1]: ../../../globalization-and-localization/learn/translate-fields.md
 [2]: ../../../document/templates/learn/template-variables.md
 [3]: ../../../sale/admin/sale-type.md
-[4]: privacy-source-add.md
+[4]: ../../../security/privacy/admin/add-source.md
 [5]: ../../../saint/learn/index.md
 
 <!-- Referenced images -->

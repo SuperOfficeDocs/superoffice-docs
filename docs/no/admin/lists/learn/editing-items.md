@@ -57,7 +57,7 @@ Se denne videoen for å finne ut hvordan du kan redigere listeforekomster i Supe
 <!-- Referenced links -->
 [1]: deleting-items.md
 [2]: specialized-lists.md
-[3]: privacy-source-add.md
+[3]: ../../../security/privacy/admin/add-source.md
 [4]: ../../../sale/admin/sale-type.md
 
 <!-- Referenced images -->

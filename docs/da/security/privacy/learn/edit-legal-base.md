@@ -1,18 +1,21 @@
 ---
 uid: help-da-edit-legal-base
-title: Rediger retsgrundlag
+title: Redigere retsgrundlag for en person
 description: I denne vejledning lærer du om GDPR-funktionerne i SuperOffice Markedsføring, der hjælper dig med at sikre, at din markedsføringsindsats er i overensstemmelse med GDPR.
-keywords: personbeskyttelse, samtykke, retsgrundlag
-author: SuperOffice RnD
+keywords: redigere privacy-indstilling, retsgrundlag
+author: SuperOffice Product and Engineering
 date: 10.08.2024
 version: 10.3.10
 content_type: howto
+functional_right: Can update consent for contact
+category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
+index: true
 ---
 
-# Redigering af indstillinger om personbeskyttelse for en person
+# Redigere retsgrundlag for en person
 
 > [!NOTE]
 > Denne funktion kræver funktionelle rettigheder. Hvis du ikke har de rette funktionsrettigheder, kan du kun angive **E-markedsføring** som enten til eller fra.
@@ -22,8 +25,6 @@ Som firma indsamler, gemmer og håndterer du folks personoplysninger. I henhold 
 SuperOffice CRM har en funktion kaldet Samtykkehåndtering, der er designet til at hjælpe dig med at dokumentere, hvornår, hvordan og hvorfor du vil registrere bestemte personoplysninger i din CRM-løsning.
 
 Hver gang en person registreres i din SuperOffice CRM-database, registreres også det samtykke, personen har givet til, at vedkommendes detaljer må gemmes. Dette gør det muligt for dig til enhver tid at administrere og spore nøjagtigt, hvilket samtykke du har modtaget fra hvilken person.
-
-[!include[Need concent](includes/why-consent.md)]
 
 ## Definitioner
 

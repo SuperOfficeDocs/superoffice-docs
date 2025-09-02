@@ -2,18 +2,24 @@
 uid: help-da-generate-personal-data-report
 title: Generer persondatarapport
 description: Generer persondatarapport
-author: SuperOffice RnD
+keywords: persondatarapport
+author: SuperOffice Product and Engineering
 date: 06.29.2022
-keywords: firma
+version: 10.3
 content_type: howto
+functional_right: Can update consent for contact
+category: privacy
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
+index: true
 ---
 
 # Generer persondatarapport
 
 Hvis en person beder om at se al information, der er registreret om vedkommende SuperOffice, kan du gå til skærmbilledet Person og oprette en rapport, der indeholder personoplysninger for en person. Rapporten indeholder alle data, der er registreret om denne person i SuperOffice, herunder personinformation, interesser, abonnementer, samtykkeinformation samt registrerede aktiviteter og kommunikation (opfølgninger, dokumenter, sager og udsendelser).
 
-**Trin:**
+## Trin
 
 [!include[Go to Contact screen](../../../learn/includes/goto-contact.md)]
 

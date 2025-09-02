@@ -2,11 +2,16 @@
 uid: help-sv-send-privacy-confirmation-email
 title: Skicka e-postbekräftelse om personskydd
 description: Skicka e-postbekräftelse om personskydd
-author: SuperOffice RnD
+keywords: e-postbekräftelse, personskydd, integritetsbekräftelse
+author: SuperOffice Product and Engineering
 date: 02.21.2023
-keywords: GDPR, samtycke, e-post, integritet
+version: 10.3
 content_type: howto
+category: privacy
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
+index: true
 ---
 
 # Skicka e-postbekräftelse om personskydd
@@ -64,12 +69,12 @@ E-postbekräftelsen om personskydd informerar vanligtvis om följande:
 
 E-postmeddelandet kan också innehålla en länk till ett kundcenter där kontakten kan administrera abonnemang och samtycke. Länken är giltig i 21 dagar som standard.
 
-## Relaterat
+## Relaterat innehåll
 
 * [Redigera bekräftelsen om personskydd i Inställningar och underhåll][1]
 
 <!-- Referenced links -->
-[1]: edit-privacy-confirmation-email.md
+[1]: ../admin/edit-privacy-confirmation-email.md
 
 <!-- Referenced images -->
 [img2]: ../../../../media/loc/en/security/confirmation-email.png

@@ -2,14 +2,16 @@
 uid: help-en-mass-delete
 title: Mass delete records (permanently)
 description: In line with the GDPR requirements, you need to have a legal basis for storing the data of all your contacts. And when you no longer have a legal basis to do so, you need to remove their data from all of your systems.
-keywords: selection, GDPR
+keywords: mass delete, delete personal data
 author: Bergfrid Dias
 date: 03.21.2025
 version: 10.5.3
 content_type: howto
+category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+index: true
 redirect_from: /en/search-options/selection/learn/howto/mass-delete
 ---
 

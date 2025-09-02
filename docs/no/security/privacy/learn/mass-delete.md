@@ -2,14 +2,16 @@
 uid: help-no-mass-delete
 title: Masseslette poster (permanent)
 description: I tråd med GDPR-kravene må du ha hjemmel for å lagre dataene til alle personene dine. Og når du ikke lenger har hjemmel for å gjøre det, må du fjerne dataene deres fra alle systemene dine.
-keywords: utvalg, GDPR
+keywords: Masseslett, slette personopplysninger
 author: Bergfrid Dias
 date: 03.21.2025
 version: 10.5.3
 content_type: howto
+category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
+index: true
 redirect_from: /no/search-options/selection/learn/howto/mass-delete
 ---
 

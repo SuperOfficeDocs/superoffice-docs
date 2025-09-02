@@ -1,19 +1,27 @@
 ---
 uid: help-nl-privacy
 title: Privacy
-description: privacy
-author: SuperOffice RnD
+description: De functie Privacy in SuperOffice helpt u de gegevensprivacy van uw klanten te beschermen en te voldoen aan de General Data Protection Regulation (GDPR) (Algemene verordening gegevensbescherming, AVG) van de EU.
+keywords: privacy, GDPR, e-marketing, toestemming, rechtsgrondslag
+author: SuperOffice Product and Engineering
 date: 07.17.2024
-keywords: privacy, GDPR, e-marketing, toestemming
+version: 10.3
 content_type: concept
+category: privacy
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
+index: true
 ---
 
 # Privacy <i class="ph ph-shield" aria-label="Shield icon"></i>
 
 De functie **Privacy** in SuperOffice helpt u de gegevensprivacy van uw klanten te beschermen en te voldoen aan de General Data Protection Regulation (GDPR) (Algemene verordening gegevensbescherming, AVG) van de EU.
 
-[!include[Need concent](includes/why-consent.md)]
+U moet de toestemming (instemming) hebben van een persoon om (onder andere)
+
+* Hun gegevens opslaan en verwerken voor verkoop en/of dienstverlening aan een contactpersoon)
+* en om e-marketingmateriaal te verzenden
 
 Dit zijn twee verschillende doelen om toestemming van een persoon te verkrijgen. In SuperOffice worden deze doelen **Verkopen en service** en **E-marketing** genoemd. Er kunnen ook andere relevante doelen voor uw bedrijf zijn.
 
@@ -63,6 +71,6 @@ Als u deze optie *niet* selecteert, worden alleen personen die **E-marketing** h
 * [Items toevoegen aan de lijst Privacy - Bron][4]
 
 <!-- Referenced links -->
-[2]: admin/add-consent-purpose.md
-[3]: ../../../admin/lists/learn/privacy-legal-base-add.md
-[4]: ../../../admin/lists/learn/privacy-source-add.md
+[2]: ../admin/add-purpose.md
+[3]: ../admin/add-legal-base.md
+[4]: ../admin/add-source.md

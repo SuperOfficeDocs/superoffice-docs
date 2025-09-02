@@ -1,19 +1,27 @@
 ---
 uid: help-da-privacy
 title: Beskyttelse af personlige oplysninger
-description: personbeskyttelse
-author: SuperOffice RnD
+description: Funktionen Privacy i SuperOffice hjælper dig med at beskytte dine kunders data-privacy og overholde EU's generelle forordning om databeskyttelse (GDPR).
+keywords: personbeskyttelse, GDPR, e-markedsføring, samtykke, retsgrundlag
+author: SuperOffice Product and Engineering
 date: 06.29.2022
-keywords: personbeskyttelse, GDPR, e-markedsføring, samtykke
+version: 10.3
 content_type: concept
+category: privacy
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
+index: true
 ---
 
 # Beskyttelse af personlige oplysninger <i class="ph ph-shield" aria-label="Shield icon"></i>
 
 Funktionen **Privacy** i SuperOffice hjælper dig med at beskytte dine kunders data-privacy og overholde EU's generelle forordning om databeskyttelse (GDPR).
 
-[!include[Need concent](includes/why-consent.md)]
+Du skal have samtykke (tilladelse) fra en person til (blandt andet) at
+
+* Gemme og behandle deres data (til at sælge til og/eller levere tjenester til en person)
+* Sende dem e-markedsføringsmateriale
 
 Det er to forskellige formål med at indhente en persons samtykke. I SuperOffice kaldes disse formål **Salg og service** og **E-markedsføring**. Der kan også være andre formål, der er relevante for din virksomhed.
 
@@ -57,14 +65,14 @@ Hvis du vælger denne indstilling, vil kun personer, der har givet deres udtrykk
 
 Hvis du *ikke* vælger denne indstilling, vil kun personer med **E-markedsføring** indstillet til **OFF** og retsgrundlag indstillet til **Trukket tilbage** blive filtreret fra modtagerlisten. Dette fungerer på samme måde som **Ingen udsendelser**.
 
-## Hvad ønsker du at foretage dig nu?
+## Relateret indhold
 
 * [Tilføjelse af forekomster på listen Personbeskyttelse - Retsgrundlag][3]
 * [Tilføjelse af forekomster på listen Personbeskyttelse - Kilde][4]
 
 <!-- Referenced links -->
-[2]: admin/add-consent-purpose.md
-[3]: ../../../admin/lists/learn/privacy-legal-base-add.md
-[4]: ../../../admin/lists/learn/privacy-source-add.md
+[2]: ../admin/add-purpose.md
+[3]: ../admin/add-legal-base.md
+[4]: ../admin/add-source.md
 
 <!-- Referenced images -->

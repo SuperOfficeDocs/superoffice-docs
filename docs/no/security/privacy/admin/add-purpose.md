@@ -1,0 +1,62 @@
+---
+uid: help-no-privacy-add-purpose
+title: Konfigurer personverninnstillinger for GDPR - Legg til formål
+description: Finn ut hvordan du konfigurerer personverninnstillingene for firmaet ditt.
+keywords: personverninnstilling, legg til formål, ekstern personvernerklæring
+author: SuperOffice Product and Engineering
+date: 09.01.2025
+version: 10.5
+content_type: howto
+functional_right: list administrator, general administrator
+category: privacy
+audience: settings
+audience_tooltip: Innstillinger og vedlikehold
+language: no
+index: true
+redirect_from: /no/security/privacy/learn/admin/add-consent-purpose
+---
+
+# Konfigurer personverninnstillinger for GDPR - Legg til formål
+
+Finn ut hvordan du legger til og redigerer formål for behandling av personopplysninger, aktiverer standardinnstillinger for hjemmelen og aktiverer personverninnstillingene for e-markedsføring i utsendelser.
+
+## Trinn
+
+1. Gå til Innstillinger og vedlikehold og klikk på **Personvern**-knappen i Navigator (<i class="ph ph-shield" aria-hidden="true"></i>).
+
+1. Klikk på **Legg til** under listen med formål.
+
+1. I dialogboksen **Legg til formål** redigerer du følgende felt:
+
+    * **Formålsnavn**: Angi et beskrivende navn på formålet. Det må være entydig og lett å forstå.
+
+    * **Beskrivelse**: Skriv en kort beskrivelse og en personvernerklæring for kundene, som forklarer hvorfor du ber om deres samtykke, og hva informasjonen skal brukes til.
+
+    * **Formål-ID**: Det genereres automatisk en ID ut fra navnet på formålet, men du kan redigere denne senere. Merk at enkelte IDer er reservert.
+
+    * **Aktiv**: Brukes til å aktivere dette formålet og gjøre det synlig for brukerne.
+
+    * **Ekstern personvernerklæring**: Navnet/tittelen på koblingen til personvernerklæringen. Denne teksten brukes på en webside der kundene kan endre abonnementene sine.
+
+    * **URL for ekstern personvernerklæring**: URLen/koblingen til websiden med personvernerklæringen.
+
+    * **Godkjenningstekst**: Skriv inn teksten som kundene må klikke på for å gi sitt samtykke. Eksempler: "Jeg godtar disse betingelsene" eller "Ja, registrer meg ...".
+
+    * **Ekstern beskrivelse i kundesenter**: Skriv inn beskrivelsesteksten for dette formålet som skal vises i kundesenteret. Teksten bør inneholde:
+
+        * Hvorfor du trenger å lagre/behandle kundens data
+        * Hvilke data du lagrer/behandler
+        * Bekreftelse om at dataene vil ikke bli delt med andre parter og lagres på en sikker måte
+        * Informasjon om hvordan de kan endre eller trekke tilbake samtykke når som helst
+
+1. Klikk på <i class="ph ph-translate" aria-label="Translate"></i> ved siden av et felt for å legge til nye eller redigere eksisterende [oversettelser][1] av felttekstene.
+
+## Relatert innhold
+
+* [Personvern - Hjemmel][2]
+* [Personvern - Kilde][3]
+
+<!-- Referenced links -->
+[1]: ../../../globalization-and-localization/learn/translate-fields.md
+[2]: ../learn/index.md#legal-basis
+[3]: ../learn/index.md#source

@@ -57,7 +57,7 @@ Sehen Sie sich dieses Video an, um zu lernen, wie Sie Listenobjekte in SuperOffi
 <!-- Referenced links -->
 [1]: deleting-items.md
 [2]: specialized-lists.md
-[3]: privacy-source-add.md
+[3]: ../../../security/privacy/admin/add-source.md
 [4]: ../../../sale/admin/sale-type.md
 
 <!-- Referenced images -->

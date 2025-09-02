@@ -1,19 +1,27 @@
 ---
 uid: help-sv-privacy
 title: Integritet
-description: integritet
-author: SuperOffice RnD
+description: Med Integritet-funktionen i SuperOffice kan du skydda kundens personliga data och följa EU:s nya dataskyddsförordning (GDPR).
+keywords: integritet, GDPR, e-marknadsföring, samtycke, rättslig grund
+author: SuperOffice Product and Engineering
 date: 06.29.2022
-keywords: integritet, GDPR, e-marknadsföring, samtycke
+version: 10.3
 content_type: concept
+category: privacy
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
+index: true
 ---
 
 # Integritet <i class="ph ph-shield" aria-label="Shield icon"></i>
 
 Med **Integritet**-funktionen i SuperOffice kan du skydda kundens personliga data och följa EU:s nya dataskyddsförordning (GDPR).
 
-[!include[Need concent](includes/why-consent.md)]
+Du måste ha fått samtycke (tillåtelse) från en person om du (bland annat) ska
+
+* Lagra och behandla dennes data (för att sälja till/och eller leverera tjänster till en person)
+* Skicka e-marknadsföringsmaterial till personen
 
 Detta är två olika syften för att få samtycke av en person. I SuperOffice kallas dessa syften **Försäljning och tjänster** och **E-marknadsföring**. Det kan också vara andra syften som är relevanta för din verksamhet.
 
@@ -57,12 +65,12 @@ Om du väljer det här alternativet kommer enbart personer som gett sitt medgiva
 
 Om du *inte* väljer det här alternativet kommer bara personer med **E-marknadsföring** inställt på **AV** och med rättslig grund inställt på **Återkallat** att filtreras bort från mottagarlistan. Den fungerar på samma sätt som för **Inga utskick**.
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
 * [Lägga till poster i listan Integritet – Rättslig grund][3]
 * [Lägga till poster i listan Integritet – Källa][4]
 
 <!-- Referenced links -->
-[2]: admin/add-consent-purpose.md
-[3]: ../../../admin/lists/learn/privacy-legal-base-add.md
-[4]: ../../../admin/lists/learn/privacy-source-add.md
+[2]: ../admin/add-purpose.md
+[3]: ../admin/add-legal-base.md
+[4]: ../admin/add-source.md

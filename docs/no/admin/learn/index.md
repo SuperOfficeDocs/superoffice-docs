@@ -82,7 +82,7 @@ Den beste måten å definere dine egne prosjekt- eller salgsguider på, er å di
 [5]: ../../project/learn/index.md
 [6]: ../lists/learn/index.md
 [7]: ../../document/templates/learn/index.md
-[8]: ../../security/privacy/learn/implementation-guide.md
+[8]: ../../security/privacy/admin/index.md
 [9]: ../preferences/learn/index.md
 
 <!-- Referenced images -->

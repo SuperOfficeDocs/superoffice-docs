@@ -2,14 +2,16 @@
 uid: help-da-mass-delete
 title: Masseslet poster (permanent)
 description: I overensstemmelse med GDPR-kravene skal du have et retsgrundlag for at gemme data fra alle dine personer. Og når du ikke længere har et retsgrundlag for at gøre det, skal du fjerne deres data fra alle dine systemer.
-keywords: selection, GDPR
+keywords: Masseslet, slette personoplysninger
 author: Bergfrid Dias
 date: 03.21.2025
 version: 10.5.3
 content_type: howto
+category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
+index: true
 redirect_from: /da/search-options/selection/learn/howto/mass-delete
 ---
 

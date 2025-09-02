@@ -1,19 +1,27 @@
 ---
 uid: help-no-privacy
 title: Personvern
-description: personvern
-author: SuperOffice RnD
+description: Personvern-funksjonen i SuperOffice hjelper deg å beskytte personvernet til kundene dine og overholde EUs personvernforordning (GDPR).
+keywords: personvern, GDPR, e-markedsføring, samtykke, rettslig grunnlag
+author: SuperOffice Product and Engineering
 date: 06.29.2022
-keywords: personvern, GDPR, e-markedsføring, samtykke
+version: 10.3
 content_type: concept
+category: privacy
+audience: person
+audience_tooltip: SuperOffice CRM
 language: no
+index: true
 ---
 
 # Personvern <i class="ph ph-shield" aria-label="Shield icon"></i>
 
 **Personvern**-funksjonen i SuperOffice hjelper deg å beskytte personvernet til kundene dine og overholde EUs personvernforordning (GDPR).
 
-[!include[Need concent](includes/why-consent.md)]
+Du må ha samtykke (tillatelse) fra en person hvis du (blant annet) skal
+
+* Lagre og behandle dataene deres (for å selge til og/eller tilby tjenester til en person)
+* Sende e-markedsføringsmateriell til vedkommende
 
 Dette er to ulike formål for innhenting av samtykke fra en person. I SuperOffice kalles disse formålene **Salg og kundeservice** og **E-markedsføring**. Det kan også finnes andre formål som er relevante for virksomheten din.
 
@@ -57,14 +65,14 @@ Hvis du velger dette alternativet, vil bare personer som har gitt sitt samtykke 
 
 Hvis du *ikke* velger dette alternativet, vil bare personer med **E-markedsføring** satt til **AV** og hjemmel satt til **Trukket tilbake** filtreres bort fra mottakerlisten. Dette fungerer på samme måte som for **Ingen utsendelser**.
 
-## Hva vil du gjøre nå?
+## Relatert innhold
 
 * [Legg til elementer i listen Personvern - Hjemmel][3]
 * [Legge til elementer i listen Personvern - Kilde][4]
 
 <!-- Referenced links -->
-[2]: admin/add-consent-purpose.md
-[3]: ../../../admin/lists/learn/privacy-legal-base-add.md
-[4]: ../../../admin/lists/learn/privacy-source-add.md
+[2]: ../admin/add-purpose.md
+[3]: ../admin/add-legal-base.md
+[4]: ../admin/add-source.md
 
 <!-- Referenced images -->
