@@ -233,8 +233,6 @@ additionalContent:
         links:
         - text: Google Workspace documents
           url: ../document/cloud/g-suite/security.md
-        - text: Microsoft 365 documents
-          url: ../document/cloud/legacy/office-365/security.md
       # Card
       - title: Cookies
         links:
