@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetQuoteFromSaleId
 uid: v1QuoteAgent_GetQuoteFromSaleId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetQuoteFromSaleId
@@ -86,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 94
+  "SaleId": 358
 }
 ```
 
@@ -101,18 +102,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 36,
-  "SaleId": 166,
-  "QuoteConnectionId": 136,
-  "ERPQuoteKey": "voluptatem",
-  "ERPOrderKey": "beatae",
-  "ActiveQuoteVersionId": 800,
-  "AcceptedQuoteAlternativeId": 633,
-  "UseValuesFromQuote": 330,
-  "DocumentId": 99,
-  "PoNumber": "1054789",
-  "OrderComment": "voluptatibus",
-  "PreferredEmailCulture": "karson_botsford@dickinson.biz",
+  "QuoteId": 704,
+  "SaleId": 385,
+  "QuoteConnectionId": 825,
+  "ERPQuoteKey": "tenetur",
+  "ERPOrderKey": "doloremque",
+  "ActiveQuoteVersionId": 762,
+  "AcceptedQuoteAlternativeId": 571,
+  "UseValuesFromQuote": 166,
+  "DocumentId": 551,
+  "PoNumber": "1775120",
+  "OrderComment": "blanditiis",
+  "PreferredEmailCulture": "gavin@wintheiser.uk",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 751
+      "FieldLength": 541
     }
   }
 }

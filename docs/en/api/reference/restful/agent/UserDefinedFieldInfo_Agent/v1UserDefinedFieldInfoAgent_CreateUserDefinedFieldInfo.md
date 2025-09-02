@@ -2,6 +2,7 @@
 title: POST Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 uid: v1UserDefinedFieldInfoAgent_CreateUserDefinedFieldInfo
 generated: true
+content_type: reference
 ---
 
 # POST Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
@@ -107,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 501,
-  "ColumnId": 608,
-  "FieldDefault": "ratione",
-  "FieldHeight": 120,
-  "FieldLabel": "aliquam",
-  "FieldLeft": 110,
-  "FieldTop": 546,
+  "UDefFieldId": 161,
+  "ColumnId": 508,
+  "FieldDefault": "ex",
+  "FieldHeight": 38,
+  "FieldLabel": "non",
+  "FieldLeft": 974,
+  "FieldTop": 35,
   "FieldType": "Checkbox",
-  "FieldWidth": 462,
-  "FormatMask": "vel",
+  "FieldWidth": 132,
+  "FormatMask": "tempora",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 323,
-  "LabelLeft": 641,
-  "LabelTop": 344,
-  "LabelWidth": 976,
-  "LastVersionId": 317,
-  "ListTableId": 165,
+  "IsIndexed": true,
+  "LabelHeight": 999,
+  "LabelLeft": 470,
+  "LabelTop": 982,
+  "LabelWidth": 925,
+  "LastVersionId": 441,
+  "ListTableId": 905,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 725,
-  "ProgId": "excepturi",
-  "IsReadOnly": false,
-  "ShortLabel": "repellat",
-  "TabOrder": 103,
-  "TextLength": 59,
-  "Tooltip": "sapiente",
-  "UdefIdentity": 858,
-  "UDListDefinitionId": 278,
+  "Page1LineNo": 900,
+  "ProgId": "non",
+  "IsReadOnly": true,
+  "ShortLabel": "repellendus",
+  "TabOrder": 108,
+  "TextLength": 690,
+  "Tooltip": "architecto",
+  "UdefIdentity": 627,
+  "UDListDefinitionId": 72,
   "Justification": "Center",
-  "Version": 471,
-  "TemplateVariableName": "Hammes-Leffler",
-  "HasBeenPublished": true,
-  "MdoListName": "Hammes, Kreiger and Boehm",
+  "Version": 759,
+  "TemplateVariableName": "McLaughlin Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Greenholt Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 178
+      "FieldType": "System.Int32",
+      "FieldLength": 75
     }
   }
 }

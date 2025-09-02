@@ -2,6 +2,7 @@
 title: GET List/ProductType/Items/{id}/Headings
 uid: v1ProductTypeList_GetProductTypeHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/ProductType/Items/{id}/Headings
@@ -31,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 696,
-    "Name": "Hansen Inc and Sons",
-    "ToolTip": "Consectetur et sit placeat porro et corrupti soluta.",
+    "Id": 870,
+    "Name": "Feest Inc and Sons",
+    "ToolTip": "Aperiam dolore sint.",
     "Deleted": false,
-    "Rank": 335,
-    "Type": "voluptatem",
-    "ColorBlock": 915,
-    "IconHint": "quas",
+    "Rank": 926,
+    "Type": "quia",
+    "ColorBlock": 884,
+    "IconHint": "deleniti",
     "Selected": false,
-    "LastChanged": "2007-04-17T03:45:29.1703077+02:00",
+    "LastChanged": "2020-06-19T03:47:00.7380451+02:00",
     "ChildItems": [
       {
-        "Id": 245,
-        "Name": "Bednar, Prosacco and Terry",
-        "ToolTip": "Qui sapiente numquam eveniet.",
-        "Deleted": true,
-        "Rank": 948,
-        "Type": "id",
-        "ColorBlock": 324,
-        "IconHint": "asperiores",
-        "Selected": true,
-        "LastChanged": "2009-10-02T03:45:29.1703077+02:00",
+        "Id": 895,
+        "Name": "Ruecker-Blanda",
+        "ToolTip": "Est ut.",
+        "Deleted": false,
+        "Rank": 696,
+        "Type": "cum",
+        "ColorBlock": 43,
+        "IconHint": "cumque",
+        "Selected": false,
+        "LastChanged": "2013-06-10T03:47:00.7380451+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "necessitatibus",
+        "ExtraInfo": "nihil",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Katrine Legros",
+        "FullName": "Shania Bosco",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 925
+            "FieldLength": 809
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "in",
+    "ExtraInfo": "nisi",
+    "StyleHint": "assumenda",
     "Hidden": true,
-    "FullName": "Claire Hills",
+    "FullName": "Genoveva Nasir Okuneva II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 476
+        "FieldType": "System.Int32",
+        "FieldLength": 450
       }
     }
   }

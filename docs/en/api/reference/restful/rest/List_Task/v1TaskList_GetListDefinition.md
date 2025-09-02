@@ -2,6 +2,7 @@
 title: GET List/Task
 uid: v1TaskList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/Task
@@ -75,27 +76,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 251,
-  "Name": "Collins LLC",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 643,
+  "Id": 274,
+  "Name": "McGlynn-Waters",
+  "Tooltip": "vero",
+  "Deleted": true,
+  "Rank": 931,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "rem",
+  "UseGroupsAndHeadings": true,
+  "ListType": "doloribus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldLength": 439
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

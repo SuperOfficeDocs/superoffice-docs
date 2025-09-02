@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/RebuildUdefDeltas
 uid: v1ConfigurationAgent_RebuildUdefDeltas
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/RebuildUdefDeltas
@@ -58,7 +59,7 @@ No Content
 POST /api/v1/Agents/Configuration/RebuildUdefDeltas
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

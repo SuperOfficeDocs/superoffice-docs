@@ -2,6 +2,7 @@
 title: PUT List/Category/Headings
 uid: v1CategoryList_PutCategoryHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/Category/Headings
@@ -80,20 +81,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 464,
-    "Name": "Schmeler Group",
-    "Tooltip": "doloremque",
+    "HeadingId": 705,
+    "Name": "Thiel-Lehner",
+    "Tooltip": "hic",
     "Deleted": true,
-    "Rank": 209,
-    "UdListDefinitionId": 316
+    "Rank": 509,
+    "UdListDefinitionId": 535
   },
   {
-    "HeadingId": 464,
-    "Name": "Schmeler Group",
-    "Tooltip": "doloremque",
+    "HeadingId": 705,
+    "Name": "Thiel-Lehner",
+    "Tooltip": "hic",
     "Deleted": true,
-    "Rank": 209,
-    "UdListDefinitionId": 316
+    "Rank": 509,
+    "UdListDefinitionId": 535
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 265,
-    "Name": "Veum Group",
-    "Tooltip": "doloremque",
-    "Deleted": true,
-    "Rank": 866,
-    "UdListDefinitionId": 538,
+    "HeadingId": 67,
+    "Name": "Weimann LLC",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "Rank": 842,
+    "UdListDefinitionId": 461,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 837
+        "FieldType": "System.Int32",
+        "FieldLength": 923
       }
     }
   }

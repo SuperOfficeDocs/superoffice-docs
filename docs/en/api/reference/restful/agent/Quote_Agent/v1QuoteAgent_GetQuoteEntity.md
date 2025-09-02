@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetQuoteEntity
 uid: v1QuoteAgent_GetQuoteEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetQuoteEntity
@@ -85,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 779
+  "QuoteId": 635
 }
 ```
 
@@ -100,58 +101,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 482,
-  "SaleId": 294,
-  "QuoteConnectionId": 876,
-  "ERPQuoteKey": "vero",
-  "ERPOrderKey": "quis",
-  "ActiveQuoteVersionId": 241,
-  "AcceptedQuoteAlternativeId": 754,
-  "UseValuesFromQuote": 673,
-  "DocumentId": 59,
-  "PoNumber": "1253510",
-  "OrderComment": "et",
-  "PreferredEmailCulture": "clyde_kiehn@schumm.com",
+  "QuoteId": 664,
+  "SaleId": 594,
+  "QuoteConnectionId": 825,
+  "ERPQuoteKey": "quia",
+  "ERPOrderKey": "culpa",
+  "ActiveQuoteVersionId": 755,
+  "AcceptedQuoteAlternativeId": 456,
+  "UseValuesFromQuote": 588,
+  "DocumentId": 259,
+  "PoNumber": "1725738",
+  "OrderComment": "quo",
+  "PreferredEmailCulture": "jalon@rippinmitchell.com",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 566,
-      "ERPQuoteVersionKey": "molestiae",
-      "QuoteId": 149,
-      "Description": "Grass-roots zero administration initiative",
-      "Number": "709430",
+      "QuoteVersionId": 507,
+      "ERPQuoteVersionKey": "quia",
+      "QuoteId": 143,
+      "Description": "Compatible interactive function",
+      "Number": "1196249",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 171,
-      "SentDate": "2013-05-23T03:45:23.8266945+02:00",
-      "FollowupId": 139,
-      "ExpirationDate": "2000-02-09T03:45:23.8266945+01:00",
-      "DeliveryCountryId": 685,
+      "LikelyQuoteAlternativeId": 833,
+      "SentDate": "2002-07-20T03:46:55.2226157+02:00",
+      "FollowupId": 686,
+      "ExpirationDate": "2016-08-07T03:46:55.2226157+02:00",
+      "DeliveryCountryId": 762,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 809,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "qui",
-      "ERPPaymentTypeKey": "enim",
-      "ERPDeliveryTermsKey": "ut",
-      "ERPDeliveryTypeKey": "sit",
-      "Rank": 996,
-      "ApprovedBy": 87,
-      "ApprovedText": "hic",
-      "ApprovedRegisteredBy": 549,
-      "ApprovedRegisteredDate": "2001-12-27T03:45:23.8266945+01:00",
-      "ExtraField1": "libero",
-      "ExtraField2": "ea",
-      "ExtraField3": "enim",
-      "ExtraField4": "quia",
-      "ExtraField5": "ex",
-      "LastRecalculated": "2006-12-31T03:45:23.8266945+01:00",
-      "Updated": "2017-10-14T03:45:23.8266945+02:00",
-      "UpdatedAssociateId": 659,
-      "Registered": "2013-05-24T03:45:23.8266945+02:00",
-      "RegisteredAssociateId": 425,
-      "RequestAssociateId": 402,
-      "RequestComment": "natus",
+      "InvoiceCountryId": 923,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "ut",
+      "ERPPaymentTypeKey": "ratione",
+      "ERPDeliveryTermsKey": "quibusdam",
+      "ERPDeliveryTypeKey": "ut",
+      "Rank": 437,
+      "ApprovedBy": 68,
+      "ApprovedText": "enim",
+      "ApprovedRegisteredBy": 986,
+      "ApprovedRegisteredDate": "2011-08-13T03:46:55.2226157+02:00",
+      "ExtraField1": "ea",
+      "ExtraField2": "quae",
+      "ExtraField3": "officiis",
+      "ExtraField4": "soluta",
+      "ExtraField5": "vel",
+      "LastRecalculated": "2012-01-29T03:46:55.2226157+01:00",
+      "Updated": "2013-06-14T03:46:55.2226157+02:00",
+      "UpdatedAssociateId": 698,
+      "Registered": "2021-12-27T03:46:55.2226157+01:00",
+      "RegisteredAssociateId": 591,
+      "RequestAssociateId": 784,
+      "RequestComment": "quis",
       "QuoteAlternatives": [
         {},
         {}
@@ -161,7 +162,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 868
+          "FieldLength": 494
         }
       }
     }
@@ -170,8 +171,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 154
+      "FieldType": "System.String",
+      "FieldLength": 592
     }
   }
 }

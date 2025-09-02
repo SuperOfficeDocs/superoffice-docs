@@ -2,6 +2,7 @@
 title: POST Agents/BLOB/GetProductThumbnail
 uid: v1BLOBAgent_GetProductThumbnail
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BLOB/GetProductThumbnail
@@ -72,7 +73,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 13
+  "ProductId": 720
 }
 ```
 

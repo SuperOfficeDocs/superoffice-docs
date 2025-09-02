@@ -2,6 +2,7 @@
 title: PUT List/DocumentTemplate/Items/{id}
 uid: v1DocumentTemplateList_PutDocumentTemplateEntity
 generated: true
+content_type: reference
 ---
 
 # PUT List/DocumentTemplate/Items/{id}
@@ -118,34 +119,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 242,
-  "Name": "Langworth Group",
-  "Tooltip": "sit",
-  "SaveInDb": 512,
-  "Filename": "corporis",
-  "DefaultOref": "quod",
+  "DocumentTemplateId": 636,
+  "Name": "Boehm-Bode",
+  "Tooltip": "corporis",
+  "SaveInDb": 104,
+  "Filename": "dolorem",
+  "DefaultOref": "praesentium",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 141,
-  "IntentId": 696,
+  "AutoeventId": 556,
+  "IntentId": 639,
   "IsDefaultPublished": true,
-  "Rank": 483,
-  "LoadTemplateFromPlugin": 770,
-  "MimeType": "quis",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 956,
+  "Rank": 460,
+  "LoadTemplateFromPlugin": 487,
+  "MimeType": "accusantium",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 942,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "mireille.predovic@gorczany.ca",
+  "EmailSubject": "genevieve_baumbach@hamill.uk",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "adrianna_greenholt@schinner.biz",
+  "SenderEmailAddress": "leonora_pfannerstill@mraz.info",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -157,37 +158,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 950,
-  "Name": "Kihn-Ebert",
-  "Tooltip": "doloremque",
-  "SaveInDb": 824,
-  "Filename": "quo",
-  "DefaultOref": "quo",
+  "DocumentTemplateId": 627,
+  "Name": "Keeling-Kessler",
+  "Tooltip": "id",
+  "SaveInDb": 975,
+  "Filename": "fugiat",
+  "DefaultOref": "ea",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 584,
-  "IntentId": 894,
-  "IsDefaultPublished": true,
-  "Rank": 695,
-  "LoadTemplateFromPlugin": 337,
-  "MimeType": "ut",
+  "AutoeventId": 793,
+  "IntentId": 483,
+  "IsDefaultPublished": false,
+  "Rank": 387,
+  "LoadTemplateFromPlugin": 574,
+  "MimeType": "nesciunt",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 817,
+  "DocumentTypeKey": 43,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "albertha.kris@conn.ca",
+  "EmailSubject": "rodger@sanfordabernathy.name",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "dino@lockman.ca",
+  "SenderEmailAddress": "jewel@krajcik.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 260
+      "FieldLength": 259
     }
   }
 }

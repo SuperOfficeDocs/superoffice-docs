@@ -2,6 +2,7 @@
 title: Services88.SaleAgent.SetAsLost SOAP
 generated: true
 uid: Services88-Sale-SetAsLost
+content_type: reference
 ---
 
 # Services88 Sale SetAsLost

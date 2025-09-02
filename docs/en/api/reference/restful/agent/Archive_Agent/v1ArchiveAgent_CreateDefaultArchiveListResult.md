@@ -2,6 +2,7 @@
 title: POST Agents/Archive/CreateDefaultArchiveListResult
 uid: v1ArchiveAgent_CreateDefaultArchiveListResult
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/CreateDefaultArchiveListResult
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 ```
 
-Set default values into a new ArchiveListResult.
+Loading default values into a new ArchiveListResult.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -58,7 +57,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -68,26 +67,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 693,
+  "RowCount": 978,
   "Rows": [
     {
-      "EntityName": "Lang, Mayert and Von",
-      "PrimaryKey": 752,
+      "EntityName": "Anderson-Littel",
+      "PrimaryKey": 776,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "placeat",
-          "TooltipHint": "esse",
-          "LinkHint": "asperiores"
+          "DisplayValue": "corporis",
+          "TooltipHint": "ut",
+          "LinkHint": "sed"
         }
       },
-      "LinkHint": "quos",
-      "StyleHint": "laborum",
+      "LinkHint": "iusto",
+      "StyleHint": "nam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 567
+          "FieldLength": 235
         }
       }
     }
@@ -96,8 +95,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 372
+      "FieldType": "System.Int32",
+      "FieldLength": 193
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Services88.ArchiveAgent.GetRelatedData2 SOAP
 generated: true
 uid: Services88-Archive-GetRelatedData2
+content_type: reference
 ---
 
 # Services88 Archive GetRelatedData2

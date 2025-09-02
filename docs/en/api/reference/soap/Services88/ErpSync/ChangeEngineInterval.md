@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.ChangeEngineInterval SOAP
 generated: true
 uid: Services88-ErpSync-ChangeEngineInterval
+content_type: reference
 ---
 
 # Services88 ErpSync ChangeEngineInterval

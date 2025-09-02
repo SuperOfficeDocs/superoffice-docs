@@ -2,10 +2,10 @@
 uid: table-ImportDefault
 title: ImportDefault table
 description: Defaults for import fields/objects
-so.generated: true
+generated: true
 keywords: database table ImportDefault
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ImportDefault Table (189)

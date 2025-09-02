@@ -3,9 +3,9 @@ uid: targetyear
 title: targetyear
 keywords: mdoprovider mdo provider targetyear
 description: Year MDO list. Includes the two coming years, this year, and previous 5 years
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "targetyear" MDO List

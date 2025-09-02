@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetQuoteLineConfiguration
 uid: v1QuoteAgent_GetQuoteLineConfiguration
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetQuoteLineConfiguration
@@ -81,11 +82,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 678
+  "QuoteLineConfigurationId": 676
 }
 ```
 
@@ -96,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 394,
-  "FieldName": "Torphy, Hodkiewicz and Boyer",
-  "Label": "et",
-  "Tooltip": "aut",
-  "Editable": false,
+  "QuoteLineConfigurationId": 551,
+  "FieldName": "Reichel, Okuneva and Hoeger",
+  "Label": "suscipit",
+  "Tooltip": "saepe",
+  "Editable": true,
   "InUse": false,
   "Mandatory": false,
-  "Rank": 579,
-  "RestrictEdit": true,
+  "Rank": 863,
+  "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldLength": 98
     }
   }
 }

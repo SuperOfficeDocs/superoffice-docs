@@ -2,6 +2,7 @@
 title: POST Agents/Diagnostics/FlushCaches
 uid: v1DiagnosticsAgent_FlushCaches
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Diagnostics/FlushCaches
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/Diagnostics/FlushCaches
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

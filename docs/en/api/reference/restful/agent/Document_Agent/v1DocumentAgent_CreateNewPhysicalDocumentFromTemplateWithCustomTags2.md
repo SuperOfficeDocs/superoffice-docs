@@ -2,6 +2,7 @@
 title: POST Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 uid: v1DocumentAgent_CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
@@ -116,22 +117,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 699,
-  "PersonId": 13,
-  "AppointmentId": 411,
-  "DocumentId": 371,
-  "SaleId": 116,
-  "SelectionId": 938,
-  "ProjectId": 517,
+  "ContactId": 967,
+  "PersonId": 221,
+  "AppointmentId": 481,
+  "DocumentId": 2,
+  "SaleId": 528,
+  "SelectionId": 638,
+  "ProjectId": 261,
   "CustomTags": {
-    "CustomTags1": "unde",
-    "CustomTags2": "quaerat"
+    "CustomTags1": "inventore",
+    "CustomTags2": "nulla"
   },
-  "UiCulture": "et"
+  "UiCulture": "qui"
 }
 ```
 
@@ -142,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 14,
+  "DocumentId": 825,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ut",
-  "Header": "ex",
-  "Name": "Hyatt-Sanford",
-  "OurRef": "velit",
-  "YourRef": "quaerat",
-  "CreatedDate": "2003-06-10T03:45:23.3423327+02:00",
-  "UpdatedDate": "2000-11-20T03:45:23.3423327+01:00",
-  "Description": "Organized fault-tolerant process improvement",
+  "Attention": "hic",
+  "Header": "rerum",
+  "Name": "Schuster, Nienow and Pagac",
+  "OurRef": "est",
+  "YourRef": "qui",
+  "CreatedDate": "2014-02-17T03:46:54.67576+01:00",
+  "UpdatedDate": "2013-05-27T03:46:54.67576+02:00",
+  "Description": "Versatile bandwidth-monitored groupware",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2022-02-27T03:45:23.3423327+01:00",
-  "ExternalRef": "est",
+  "Date": "2015-11-02T03:46:54.67576+01:00",
+  "ExternalRef": "recusandae",
   "Completed": "Completed",
-  "ActiveLinks": 51,
+  "ActiveLinks": 428,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Larson-Halvorson",
-      "Id": 138,
-      "Description": "Profit-focused optimizing adapter",
-      "ExtraInfo": "voluptates",
-      "LinkId": 98,
+      "EntityName": "Bernhard-Beatty",
+      "Id": 741,
+      "Description": "Networked object-oriented array",
+      "ExtraInfo": "modi",
+      "LinkId": 897,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 68
+          "FieldLength": 987
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 471,
-  "Snum": 252,
+  "SuggestedDocumentId": 528,
+  "Snum": 398,
   "UserDefinedFields": {
-    "SuperOffice:1": "224023199",
-    "SuperOffice:2": "Genevieve Hintz"
+    "SuperOffice:1": "Ms. Rodolfo Schinner",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "recusandae"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "voluptates"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "velit"
+    "CustomFields1": "ipsam",
+    "CustomFields2": "vitae"
   },
-  "PublishEventDate": "2008-04-08T03:45:23.3423327+02:00",
-  "PublishTo": "2005-06-20T03:45:23.3423327+02:00",
-  "PublishFrom": "2004-01-19T03:45:23.3423327+01:00",
+  "PublishEventDate": "2023-08-23T03:46:54.67576+02:00",
+  "PublishTo": "2021-12-07T03:46:54.67576+01:00",
+  "PublishFrom": "2012-06-13T03:46:54.67576+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 325,
+      "VisibleId": 249,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "ducimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 515
+          "FieldType": "System.String",
+          "FieldLength": 877
         }
       }
     },
     {
-      "VisibleId": 325,
+      "VisibleId": 249,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "ducimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 515
+          "FieldType": "System.String",
+          "FieldLength": 877
         }
       }
     }
@@ -232,8 +233,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 200
+      "FieldType": "System.String",
+      "FieldLength": 17
     }
   }
 }

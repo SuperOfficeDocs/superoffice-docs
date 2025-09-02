@@ -2,6 +2,7 @@
 title: GET List/PaymentType/Items/{id}/Headings
 uid: v1PaymentTypeList_GetPaymentTypeHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/PaymentType/Items/{id}/Headings
@@ -85,7 +86,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 14,
-    "Name": "Bartell LLC",
-    "ToolTip": "Quibusdam eos ea.",
-    "Deleted": true,
-    "Rank": 688,
-    "Type": "fugit",
-    "ColorBlock": 3,
-    "IconHint": "facere",
+    "Id": 299,
+    "Name": "Reilly LLC",
+    "ToolTip": "Reiciendis atque et harum officiis illum reprehenderit et.",
+    "Deleted": false,
+    "Rank": 777,
+    "Type": "similique",
+    "ColorBlock": 921,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "2016-12-29T03:45:29.0765432+01:00",
+    "LastChanged": "2022-07-13T03:47:00.6911718+02:00",
     "ChildItems": [
       {
-        "Id": 769,
-        "Name": "Swaniawski-Stroman",
-        "ToolTip": "Blanditiis soluta asperiores est.",
+        "Id": 975,
+        "Name": "Kirlin Group",
+        "ToolTip": "Et rerum quasi doloribus quia aut quo.",
         "Deleted": false,
-        "Rank": 689,
-        "Type": "iure",
-        "ColorBlock": 94,
-        "IconHint": "labore",
+        "Rank": 996,
+        "Type": "natus",
+        "ColorBlock": 266,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2005-07-22T03:45:29.0765432+02:00",
+        "LastChanged": "2000-01-11T03:47:00.6911718+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
+        "ExtraInfo": "id",
         "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Amalia Hilpert",
+        "FullName": "Jonatan Mills V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 850
+            "FieldType": "System.Int32",
+            "FieldLength": 426
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "et",
+    "ExtraInfo": "omnis",
+    "StyleHint": "quo",
     "Hidden": false,
-    "FullName": "Mr. Arnulfo Wisozk Sr.",
+    "FullName": "Catherine Luettgen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 305
+        "FieldLength": 383
       }
     }
   }

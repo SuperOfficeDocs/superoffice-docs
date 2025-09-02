@@ -2,6 +2,7 @@
 title: POST Agents/Project/SaveProjectEntity
 uid: v1ProjectAgent_SaveProjectEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/SaveProjectEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Project/SaveProjectEntity
 ```
 
-Updates the existing ProjectEntity or creates a new ProjectEntity if the id parameter is empty
+Updates the existing ProjectEntity or creates a new ProjectEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing ProjectEntity or creates a new ProjectEntity if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: projectEntity 
 
-The ProjectEntity to be saved. 
+The ProjectEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -123,99 +124,99 @@ OK
 POST /api/v1/Agents/Project/SaveProjectEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 179,
-  "Name": "Shields-Howe",
-  "ProjectNumber": "611732",
+  "ProjectId": 253,
+  "Name": "Schiller, Christiansen and Bergnaum",
+  "ProjectNumber": "493221",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 30,
-      "ContactId": 522,
-      "ProjectId": 904,
-      "ContactName": "Ondricka-Kohler",
+      "ProjectmemberId": 321,
+      "ContactId": 297,
+      "ProjectId": 133,
+      "ContactName": "DuBuque, Welch and Champlin",
       "ContactDepartment": "",
-      "ProjectName": "Beahan, Walker and Gulgowski",
-      "EmailId": 693,
-      "EmailAddress": "felix_veum@auer.name",
-      "CountryId": 604,
-      "Firstname": "Greyson",
-      "MiddleName": "Robel Group",
-      "Lastname": "Spencer",
+      "ProjectName": "Gusikowski, Beer and Gislason",
+      "EmailId": 129,
+      "EmailAddress": "kelsi_rice@block.co.uk",
+      "CountryId": 848,
+      "Firstname": "Jacklyn",
+      "MiddleName": "Franecki-Rogahn",
+      "Lastname": "Hintz",
       "PersonId": 325,
-      "Mrmrs": "aliquam",
-      "ProjectMemberTypeName": "Johnson Group",
-      "Phone": "1-385-381-4837",
-      "PhoneId": 550,
-      "ProjectMemberTypeId": 607,
-      "EmailAddressName": "jerel_kiehn@rooblegros.co.uk",
-      "Comment": "quia",
-      "FullName": "Archibald Borer"
+      "Mrmrs": "et",
+      "ProjectMemberTypeName": "Turcotte, Flatley and Schulist",
+      "Phone": "155-546-7644 x533",
+      "PhoneId": 711,
+      "ProjectMemberTypeId": 714,
+      "EmailAddressName": "carmelo@volkman.com",
+      "Comment": "ut",
+      "FullName": "Lora Nitzsche III"
     }
   ],
   "Urls": [
     {
-      "Value": "odit",
-      "StrippedValue": "voluptas",
-      "Description": "Decentralized exuding initiative"
+      "Value": "adipisci",
+      "StrippedValue": "eaque",
+      "Description": "Expanded 24 hour system engine"
     },
     {
-      "Value": "odit",
-      "StrippedValue": "voluptas",
-      "Description": "Decentralized exuding initiative"
+      "Value": "adipisci",
+      "StrippedValue": "eaque",
+      "Description": "Expanded 24 hour system engine"
     }
   ],
-  "CreatedDate": "1999-08-18T03:45:23.7641958+02:00",
-  "UpdatedDate": "2016-07-31T03:45:23.7641958+02:00",
-  "Description": "Up-sized discrete synergy",
-  "Postit": "dignissimos",
+  "CreatedDate": "2002-03-06T03:46:55.1444933+01:00",
+  "UpdatedDate": "2014-08-14T03:46:55.1444933+02:00",
+  "Description": "Centralized dedicated portal",
+  "Postit": "id",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
   "HasImage": false,
-  "ImageDescription": "Diverse object-oriented utilisation",
-  "ActiveStatusMonitorId": 806,
+  "ImageDescription": "Cross-group asynchronous complexity",
+  "ActiveStatusMonitorId": 730,
   "Links": [
     {
-      "EntityName": "Considine, Schumm and Weimann",
-      "Id": 439,
-      "Description": "Secured intangible capability",
-      "ExtraInfo": "nihil",
-      "LinkId": 161
+      "EntityName": "Lubowitz LLC",
+      "Id": 842,
+      "Description": "Reverse-engineered 6th generation contingency",
+      "ExtraInfo": "aperiam",
+      "LinkId": 268
     },
     {
-      "EntityName": "Considine, Schumm and Weimann",
-      "Id": 439,
-      "Description": "Secured intangible capability",
-      "ExtraInfo": "nihil",
-      "LinkId": 161
+      "EntityName": "Lubowitz LLC",
+      "Id": 842,
+      "Description": "Reverse-engineered 6th generation contingency",
+      "ExtraInfo": "aperiam",
+      "LinkId": 268
     }
   ],
-  "ActiveLinks": 90,
+  "ActiveLinks": 569,
   "Completed": false,
-  "NextMilestoneDate": "2012-02-06T03:45:23.7641958+01:00",
-  "NmdAppointmentId": 143,
-  "EndDate": "2005-03-28T03:45:23.7641958+02:00",
-  "ActiveErpLinks": 494,
+  "NextMilestoneDate": "1999-02-04T03:46:55.1444933+01:00",
+  "NmdAppointmentId": 708,
+  "EndDate": "1999-07-21T03:46:55.1444933+02:00",
+  "ActiveErpLinks": 82,
   "UserDefinedFields": {
-    "SuperOffice:1": "936370133",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Lia Zemlak",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
     "ExtraFields1": "est",
-    "ExtraFields2": "omnis"
+    "ExtraFields2": "laboriosam"
   },
   "CustomFields": {
-    "CustomFields1": "eos",
-    "CustomFields2": "porro"
+    "CustomFields1": "blanditiis",
+    "CustomFields2": "laudantium"
   },
-  "PublishEventDate": "2014-05-03T03:45:23.7641958+02:00",
-  "PublishTo": "2017-10-13T03:45:23.7641958+02:00",
-  "PublishFrom": "1999-04-20T03:45:23.7641958+02:00",
+  "PublishEventDate": "2022-08-15T03:46:55.1444933+02:00",
+  "PublishTo": "2001-11-08T03:46:55.1444933+01:00",
+  "PublishFrom": "1998-12-03T03:46:55.1444933+01:00",
   "IsPublished": false
 }
 ```
@@ -227,127 +228,127 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 670,
-  "Name": "Hilpert-Monahan",
-  "ProjectNumber": "1886157",
+  "ProjectId": 523,
+  "Name": "Casper LLC",
+  "ProjectNumber": "943396",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 602,
-      "ContactId": 868,
-      "ProjectId": 714,
-      "ContactName": "Weimann-Yundt",
+      "ProjectmemberId": 904,
+      "ContactId": 772,
+      "ProjectId": 392,
+      "ContactName": "Leuschke, Labadie and Sporer",
       "ContactDepartment": "",
-      "ProjectName": "Collins, Klocko and Keebler",
-      "EmailId": 684,
-      "EmailAddress": "luigi@hickletremblay.co.uk",
-      "CountryId": 496,
-      "Firstname": "Hubert",
-      "MiddleName": "Haley, Smith and Durgan",
-      "Lastname": "Price",
-      "PersonId": 895,
-      "Mrmrs": "omnis",
-      "ProjectMemberTypeName": "Hodkiewicz, Bailey and Wuckert",
-      "Phone": "305-589-3733 x43082",
-      "PhoneId": 731,
-      "ProjectMemberTypeId": 58,
-      "EmailAddressName": "daren.wisoky@lindgren.us",
-      "Comment": "nihil",
-      "FullName": "Adrienne Reichel",
+      "ProjectName": "Heaney-Trantow",
+      "EmailId": 60,
+      "EmailAddress": "deshaun@hettinger.uk",
+      "CountryId": 961,
+      "Firstname": "Orlando",
+      "MiddleName": "Williamson Inc and Sons",
+      "Lastname": "Hoeger",
+      "PersonId": 802,
+      "Mrmrs": "a",
+      "ProjectMemberTypeName": "Hoppe Group",
+      "Phone": "(490)877-6678",
+      "PhoneId": 425,
+      "ProjectMemberTypeId": 274,
+      "EmailAddressName": "lessie@ohara.info",
+      "Comment": "quae",
+      "FullName": "Brady Pouros",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 942
+          "FieldType": "System.String",
+          "FieldLength": 858
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "totam",
-      "StrippedValue": "eum",
-      "Description": "Synergistic real-time productivity",
+      "Value": "repudiandae",
+      "StrippedValue": "dolorem",
+      "Description": "Assimilated multimedia initiative",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 738
+          "FieldLength": 189
         }
       }
     },
     {
-      "Value": "totam",
-      "StrippedValue": "eum",
-      "Description": "Synergistic real-time productivity",
+      "Value": "repudiandae",
+      "StrippedValue": "dolorem",
+      "Description": "Assimilated multimedia initiative",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 738
+          "FieldLength": 189
         }
       }
     }
   ],
-  "CreatedDate": "1998-02-23T03:45:23.7641958+01:00",
-  "UpdatedDate": "2017-08-26T03:45:23.7641958+02:00",
-  "Description": "Inverse eco-centric support",
-  "Postit": "earum",
+  "CreatedDate": "2008-01-24T03:46:55.1444933+01:00",
+  "UpdatedDate": "2025-03-05T03:46:55.1444933+01:00",
+  "Description": "Monitored disintermediate superstructure",
+  "Postit": "facere",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
   "HasImage": false,
-  "ImageDescription": "Inverse intermediate task-force",
-  "ActiveStatusMonitorId": 791,
+  "ImageDescription": "Ameliorated analyzing firmware",
+  "ActiveStatusMonitorId": 578,
   "Links": [
     {
-      "EntityName": "White Inc and Sons",
-      "Id": 13,
-      "Description": "Optional next generation core",
-      "ExtraInfo": "animi",
-      "LinkId": 130,
+      "EntityName": "Johnson-Schneider",
+      "Id": 52,
+      "Description": "Grass-roots secondary array",
+      "ExtraInfo": "et",
+      "LinkId": 779,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 896
+          "FieldLength": 475
         }
       }
     }
   ],
-  "ActiveLinks": 313,
-  "Completed": true,
-  "NextMilestoneDate": "2011-11-06T03:45:23.7641958+01:00",
-  "NmdAppointmentId": 822,
-  "EndDate": "2010-07-02T03:45:23.7641958+02:00",
-  "ActiveErpLinks": 868,
+  "ActiveLinks": 109,
+  "Completed": false,
+  "NextMilestoneDate": "1999-01-12T03:46:55.1444933+01:00",
+  "NmdAppointmentId": 133,
+  "EndDate": "2018-05-29T03:46:55.1444933+02:00",
+  "ActiveErpLinks": 177,
   "UserDefinedFields": {
-    "SuperOffice:1": "1301841334",
-    "SuperOffice:2": "Mrs. Gavin Botsford IV"
+    "SuperOffice:1": "886019027",
+    "SuperOffice:2": "Abby Ullrich Sr."
   },
   "ExtraFields": {
-    "ExtraFields1": "nemo",
-    "ExtraFields2": "ipsa"
+    "ExtraFields1": "sunt",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "libero",
-    "CustomFields2": "corporis"
+    "CustomFields1": "unde",
+    "CustomFields2": "voluptas"
   },
-  "PublishEventDate": "2025-06-22T03:45:23.7641958+02:00",
-  "PublishTo": "2024-09-19T03:45:23.7641958+02:00",
-  "PublishFrom": "1998-12-01T03:45:23.7641958+01:00",
+  "PublishEventDate": "2013-10-30T03:46:55.1444933+01:00",
+  "PublishTo": "2010-11-26T03:46:55.1444933+01:00",
+  "PublishFrom": "2018-08-24T03:46:55.1444933+02:00",
   "IsPublished": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldLength": 631
     }
   }
 }

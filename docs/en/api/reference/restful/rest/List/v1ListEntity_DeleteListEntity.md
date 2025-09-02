@@ -2,6 +2,7 @@
 title: DEL List/{id}
 uid: v1ListEntity_DeleteListEntity
 generated: true
+content_type: reference
 ---
 
 # DEL List/{id}
@@ -52,7 +53,7 @@ ListEntity deleted.
 DELETE /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

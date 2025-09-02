@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.GetPublishedDocumentsByDate SOAP
 generated: true
 uid: Services88-Document-GetPublishedDocumentsByDate
+content_type: reference
 ---
 
 # Services88 Document GetPublishedDocumentsByDate
@@ -41,8 +42,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <Document:GetPublishedDocumentsByDate>
     <Document:PersonId xsi:type="xsd:int">0</Document:PersonId>
     <Document:IncludeProjectDocuments xsi:type="xsd:boolean">false</Document:IncludeProjectDocuments>
-    <Document:StartTime xsi:type="xsd:dateTime">2025-06-26T01:43:43Z</Document:StartTime>
-    <Document:EndTime xsi:type="xsd:dateTime">2025-06-26T01:43:43Z</Document:EndTime>
+    <Document:StartTime xsi:type="xsd:dateTime">2025-08-30T01:45:16Z</Document:StartTime>
+    <Document:EndTime xsi:type="xsd:dateTime">2025-08-30T01:45:16Z</Document:EndTime>
     <Document:Count xsi:type="xsd:int">0</Document:Count>
    </Document:GetPublishedDocumentsByDate>
 

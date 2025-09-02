@@ -1,6 +1,8 @@
 ---
+uid: tag-UserDefinedFieldInfo_Agent
 title: UserDefinedFieldInfo_Agent
 generated: true
+content_type: reference
 ---
 
 ```http
@@ -10,15 +12,15 @@ generated: true
 
 
 
+* [POST Agents/UserDefinedFieldInfo/GetCustomFieldInfoList](v1UserDefinedFieldInfoAgent_GetCustomFieldInfoList.md)
+
+* [POST Agents/UserDefinedFieldInfo/GetCustomFieldInfo](v1UserDefinedFieldInfoAgent_GetCustomFieldInfo.md)
+
 * [POST Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo](v1UserDefinedFieldInfoAgent_CreateDefaultUserDefinedFieldInfo.md)
 
 * [POST Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo](v1UserDefinedFieldInfoAgent_SaveUserDefinedFieldInfo.md)
 
 * [POST Agents/UserDefinedFieldInfo/DeleteUserDefinedFieldInfo](v1UserDefinedFieldInfoAgent_DeleteUserDefinedFieldInfo.md)
-
-* [POST Agents/UserDefinedFieldInfo/GetCustomFieldInfoList](v1UserDefinedFieldInfoAgent_GetCustomFieldInfoList.md)
-
-* [POST Agents/UserDefinedFieldInfo/GetCustomFieldInfo](v1UserDefinedFieldInfoAgent_GetCustomFieldInfo.md)
 
 * [POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo](v1UserDefinedFieldInfoAgent_GetUserDefinedFieldInfo.md)
 

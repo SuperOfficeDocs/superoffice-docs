@@ -2,6 +2,7 @@
 title: POST Agents/Find/FindFromRestrictionsColumnsOrderBy
 uid: v1FindAgent_FindFromRestrictionsColumnsOrderBy
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/FindFromRestrictionsColumnsOrderBy
@@ -82,50 +83,50 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Bins Inc and Sons",
-      "Operator": "iusto",
+      "Name": "Heidenreich Group",
+      "Operator": "fuga",
       "Values": [
-        "omnis",
-        "ducimus"
+        "qui",
+        "sequi"
       ],
       "DisplayValues": [
-        "accusantium",
-        "sint"
+        "enim",
+        "magni"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 741,
+      "InterParenthesis": 452,
       "InterOperator": "And",
-      "UniqueHash": 729
+      "UniqueHash": 930
     }
   ],
-  "ProviderName": "Kuhlman Inc and Sons",
+  "ProviderName": "Hyatt-Johnson",
   "DesiredColumns": [
-    "molestiae",
-    "odio"
+    "et",
+    "quas"
   ],
   "OrderBy": [
     {
-      "Name": "Wilkinson Inc and Sons",
+      "Name": "Bradtke LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Wilkinson Inc and Sons",
+      "Name": "Bradtke LLC",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 163,
-  "PageNumber": 65
+  "PageSize": 276,
+  "PageNumber": 631
 }
 ```
 
@@ -138,51 +139,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Schmitt, Turcotte and Schoen",
-      "DisplayTooltip": "repellat",
-      "DisplayType": "non",
+      "DisplayName": "Jewess, Gislason and Veum",
+      "DisplayTooltip": "maxime",
+      "DisplayType": "facilis",
       "CanOrderBy": false,
-      "Name": "Tromp Group",
+      "Name": "Greenfelder, Treutel and Predovic",
       "CanRestrictBy": false,
-      "RestrictionType": "omnis",
-      "RestrictionListName": "Kirlin Group",
-      "IsVisible": false,
-      "ExtraInfo": "alias",
-      "Width": "unde",
-      "IconHint": "esse",
-      "HeadingIconHint": "voluptatem"
+      "RestrictionType": "quo",
+      "RestrictionListName": "Smitham-Walter",
+      "IsVisible": true,
+      "ExtraInfo": "doloremque",
+      "Width": "necessitatibus",
+      "IconHint": "quos",
+      "HeadingIconHint": "quia"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Olson LLC",
-      "PrimaryKey": 343,
+      "EntityName": "Schroeder LLC",
+      "PrimaryKey": 867,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "illo",
-          "TooltipHint": "autem",
-          "LinkHint": "voluptatem"
+          "DisplayValue": "odit",
+          "TooltipHint": "distinctio",
+          "LinkHint": "ratione"
         }
       },
-      "LinkHint": "voluptate",
-      "StyleHint": "vel",
+      "LinkHint": "perferendis",
+      "StyleHint": "facere",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 983
+          "FieldType": "System.String",
+          "FieldLength": 851
         }
       }
     }
   ],
-  "RowCount": 669,
+  "RowCount": 937,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 555
+      "FieldLength": 984
     }
   }
 }

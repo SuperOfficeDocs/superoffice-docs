@@ -2,6 +2,7 @@
 title: POST Agents/User/SaveCredential
 uid: v1UserAgent_SaveCredential
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/SaveCredential
@@ -71,11 +72,11 @@ OK
 POST /api/v1/Agents/User/SaveCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserId": 933,
+  "UserId": 902,
   "Credential": null
 }
 ```

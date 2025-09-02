@@ -1,6 +1,8 @@
 ---
+uid: tag-ForeignApp
 title: ForeignApp
 generated: true
+content_type: reference
 ---
 
 ```http

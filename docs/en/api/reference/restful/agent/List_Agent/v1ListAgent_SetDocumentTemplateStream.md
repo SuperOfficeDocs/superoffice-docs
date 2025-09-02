@@ -2,6 +2,7 @@
 title: POST Agents/List/SetDocumentTemplateStream
 uid: v1ListAgent_SetDocumentTemplateStream
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SetDocumentTemplateStream
@@ -102,14 +103,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "nihil",
-  "PluginId": 592
+  "LanguageCode": "ea",
+  "PluginId": 165
 }
 ```
 
@@ -120,37 +121,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 875,
-  "Name": "Lesch, Jaskolski and Terry",
-  "Tooltip": "est",
-  "SaveInDb": 256,
-  "Filename": "ut",
-  "DefaultOref": "aut",
+  "DocumentTemplateId": 462,
+  "Name": "Schiller-Labadie",
+  "Tooltip": "aliquam",
+  "SaveInDb": 179,
+  "Filename": "sit",
+  "DefaultOref": "minus",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 898,
-  "IntentId": 92,
+  "AutoeventId": 381,
+  "IntentId": 24,
   "IsDefaultPublished": false,
-  "Rank": 414,
-  "LoadTemplateFromPlugin": 66,
-  "MimeType": "molestiae",
+  "Rank": 54,
+  "LoadTemplateFromPlugin": 582,
+  "MimeType": "id",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 140,
+  "DocumentTypeKey": 95,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "adolphus@mayertmcclure.com",
+  "EmailSubject": "marcelino_nolan@pagac.ca",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "jaiden.wolff@zemlak.uk",
+  "SenderEmailAddress": "stacy_jacobs@turcotte.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 838
+      "FieldLength": 819
     }
   }
 }

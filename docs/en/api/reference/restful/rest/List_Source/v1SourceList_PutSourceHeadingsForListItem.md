@@ -2,6 +2,7 @@
 title: PUT List/Source/Items/{id}/Headings
 uid: v1SourceList_PutSourceHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/Source/Items/{id}/Headings
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 185,
-    "Name": "Huels-Berge",
-    "ToolTip": "Animi molestias officiis eum molestias.",
+    "Id": 17,
+    "Name": "Hessel-Wehner",
+    "ToolTip": "Repudiandae placeat facere.",
     "Deleted": true,
-    "Rank": 358,
-    "Type": "at",
-    "ColorBlock": 925,
-    "IconHint": "officia",
-    "Selected": true,
-    "LastChanged": "2020-05-14T03:45:29.2327869+02:00",
+    "Rank": 730,
+    "Type": "cumque",
+    "ColorBlock": 627,
+    "IconHint": "dolorem",
+    "Selected": false,
+    "LastChanged": "2018-08-30T03:47:00.8317917+02:00",
     "ChildItems": [
       {
-        "Id": 327,
-        "Name": "Mueller, Veum and Shields",
-        "ToolTip": "Quidem totam provident sunt minima provident quis velit.",
-        "Deleted": false,
-        "Rank": 991,
-        "Type": "quo",
-        "ColorBlock": 696,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "1999-10-24T03:45:29.2327869+02:00",
+        "Id": 214,
+        "Name": "Volkman-Herzog",
+        "ToolTip": "Ut mollitia sed alias.",
+        "Deleted": true,
+        "Rank": 476,
+        "Type": "ipsa",
+        "ColorBlock": 43,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2000-11-24T03:47:00.8317917+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "amet",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "libero",
         "Hidden": false,
-        "FullName": "Miss Shanie Enrique Johns"
+        "FullName": "Vickie Bahringer"
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "reprehenderit",
+    "ExtraInfo": "cumque",
+    "StyleHint": "sequi",
     "Hidden": false,
-    "FullName": "Arnold Jacobi"
+    "FullName": "Miss Norwood Katelyn Kemmer"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 888,
-    "Name": "Hansen, Hansen and Cartwright",
-    "ToolTip": "Facilis veritatis labore voluptate velit vero.",
-    "Deleted": true,
-    "Rank": 764,
-    "Type": "voluptatem",
-    "ColorBlock": 353,
-    "IconHint": "est",
+    "Id": 483,
+    "Name": "Schowalter, Morar and Krajcik",
+    "ToolTip": "Aliquid ut iure quo.",
+    "Deleted": false,
+    "Rank": 164,
+    "Type": "impedit",
+    "ColorBlock": 753,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2003-12-06T03:45:29.2327869+01:00",
+    "LastChanged": "2011-07-24T03:47:00.8317917+02:00",
     "ChildItems": [
       {
-        "Id": 699,
-        "Name": "Funk-Harber",
-        "ToolTip": "Eum quasi.",
-        "Deleted": false,
-        "Rank": 233,
-        "Type": "quam",
-        "ColorBlock": 305,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "2004-08-23T03:45:29.2327869+02:00",
+        "Id": 293,
+        "Name": "Kuhic-Gorczany",
+        "ToolTip": "Consectetur ex magni est dolore amet.",
+        "Deleted": true,
+        "Rank": 976,
+        "Type": "aperiam",
+        "ColorBlock": 772,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2007-08-07T03:47:00.8317917+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Maggie Wisoky",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "odit",
+        "Hidden": true,
+        "FullName": "Harmony Botsford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 720
+            "FieldType": "System.String",
+            "FieldLength": 262
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "tempore",
-    "Hidden": true,
-    "FullName": "Emmy Fritsch",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Brian Herzog",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 42
+        "FieldType": "System.String",
+        "FieldLength": 642
       }
     }
   }

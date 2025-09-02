@@ -2,6 +2,7 @@
 title: POST Agents/User/IsUserNameValid
 uid: v1UserAgent_IsUserNameValid
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/IsUserNameValid
@@ -73,14 +74,14 @@ OK
 POST /api/v1/Agents/User/IsUserNameValid
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 80,
+  "AssociateId": 569,
   "Type": "AnonymousAssociate",
-  "PersonId": 722,
-  "UserName": "Walter-Willms"
+  "PersonId": 144,
+  "UserName": "Grady-Torphy"
 }
 ```
 
@@ -90,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

@@ -2,6 +2,7 @@
 title: POST Agents/Find/FindOrderBy2
 uid: v1FindAgent_FindOrderBy2
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/FindOrderBy2
@@ -82,16 +83,16 @@ OK
 POST /api/v1/Agents/Find/FindOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quos",
-  "ProviderName": "Crist Inc and Sons",
-  "StorageKey": "quidem",
-  "PageSize": 540,
-  "PageNumber": 554,
-  "OrderBy": "maxime"
+  "StorageType": "aut",
+  "ProviderName": "Schulist-Sporer",
+  "StorageKey": "distinctio",
+  "PageSize": 976,
+  "PageNumber": 39,
+  "OrderBy": "sunt"
 }
 ```
 
@@ -104,51 +105,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Kunde LLC",
-      "DisplayTooltip": "quasi",
-      "DisplayType": "omnis",
-      "CanOrderBy": false,
-      "Name": "Schmitt Inc and Sons",
+      "DisplayName": "Cummerata, Runolfsdottir and Russel",
+      "DisplayTooltip": "unde",
+      "DisplayType": "impedit",
+      "CanOrderBy": true,
+      "Name": "Veum LLC",
       "CanRestrictBy": true,
-      "RestrictionType": "deserunt",
-      "RestrictionListName": "Dooley LLC",
-      "IsVisible": true,
-      "ExtraInfo": "pariatur",
-      "Width": "et",
-      "IconHint": "ut",
-      "HeadingIconHint": "quo"
+      "RestrictionType": "labore",
+      "RestrictionListName": "Mann LLC",
+      "IsVisible": false,
+      "ExtraInfo": "dolores",
+      "Width": "numquam",
+      "IconHint": "voluptatibus",
+      "HeadingIconHint": "illo"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Larkin Inc and Sons",
-      "PrimaryKey": 884,
+      "EntityName": "Fahey-Willms",
+      "PrimaryKey": 938,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "velit",
-          "TooltipHint": "ipsam",
-          "LinkHint": "distinctio"
+          "DisplayValue": "perferendis",
+          "TooltipHint": "voluptates",
+          "LinkHint": "qui"
         }
       },
-      "LinkHint": "odit",
-      "StyleHint": "maxime",
+      "LinkHint": "ab",
+      "StyleHint": "facere",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 325
+          "FieldLength": 624
         }
       }
     }
   ],
-  "RowCount": 379,
+  "RowCount": 496,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 504
+      "FieldLength": 498
     }
   }
 }

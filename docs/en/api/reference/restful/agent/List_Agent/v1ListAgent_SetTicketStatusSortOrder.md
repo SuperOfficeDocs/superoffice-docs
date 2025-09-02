@@ -2,6 +2,7 @@
 title: POST Agents/List/SetTicketStatusSortOrder
 uid: v1ListAgent_SetTicketStatusSortOrder
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SetTicketStatusSortOrder
@@ -69,8 +70,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 941,
-  "SortOrder": 263
+  "TicketStatusId": 523,
+  "SortOrder": 878
 }
 ```
 

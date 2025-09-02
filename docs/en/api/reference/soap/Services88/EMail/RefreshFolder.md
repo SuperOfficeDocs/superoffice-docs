@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.RefreshFolder SOAP
 generated: true
 uid: Services88-EMail-RefreshFolder
+content_type: reference
 ---
 
 # Services88 EMail RefreshFolder

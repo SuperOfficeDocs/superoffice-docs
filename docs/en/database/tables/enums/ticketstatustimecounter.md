@@ -2,10 +2,10 @@
 uid: enum-ticketstatustimecounter
 title: Enum values for TicketStatusTimeCounter
 description: Lists the enum values for TicketStatusTimeCounter.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # TicketStatusTimeCounter Enum

@@ -2,10 +2,10 @@
 uid: table-form_submission
 title: form_submission table
 description: A form submission
-so.generated: true
+generated: true
 keywords: database table form_submission
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # form\_submission Table (485)
@@ -52,6 +52,7 @@ A form submission
 |[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
 |[s\_shipment\_addr](s-shipment-addr.md)  |Addresses that are ready to be sent in a shipment. |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
+|[utm\_parameters](utm-parameters.md)  |Table for utm parameters collected from visits and formsubmissions |
 
 
 ## Replication Flags

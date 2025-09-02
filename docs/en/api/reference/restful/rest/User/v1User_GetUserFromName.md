@@ -2,6 +2,7 @@
 title: GET User/{userName}
 uid: v1User_GetUserFromName
 generated: true
+content_type: reference
 ---
 
 # GET User/{userName}
@@ -95,14 +96,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 904,
-  "Name": "Dickinson Group",
-  "Rank": 58,
-  "Tooltip": "id",
+  "AssociateId": 943,
+  "Name": "Rohan, Kunde and Grady",
+  "Rank": 625,
+  "Tooltip": "sint",
   "LicenseOwners": [
     {
-      "Name": "Weimann LLC",
-      "Description": "Synergized systematic archive",
+      "Name": "VonRueden-Blanda",
+      "Description": "Enhanced web-enabled workforce",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -115,14 +116,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 990
+          "FieldType": "System.Int32",
+          "FieldLength": 285
         }
       }
     },
     {
-      "Name": "Weimann LLC",
-      "Description": "Synergized systematic archive",
+      "Name": "VonRueden-Blanda",
+      "Description": "Enhanced web-enabled workforce",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,8 +136,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 990
+          "FieldType": "System.Int32",
+          "FieldLength": 285
         }
       }
     }
@@ -145,110 +146,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "doloribus",
-      "Tooltip": "harum",
-      "Id": 272,
-      "Rank": 368,
+      "Value": "quam",
+      "Tooltip": "eos",
+      "Id": 111,
+      "Rank": 795,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 267
+          "FieldType": "System.String",
+          "FieldLength": 751
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2001-07-13T03:45:28.8577995+02:00",
-  "Lastlogout": "2011-07-16T03:45:28.8577995+02:00",
-  "EjUserId": 696,
-  "RequestSignature": "facilis",
+  "Deleted": false,
+  "Lastlogin": "2004-10-25T03:47:00.5193028+02:00",
+  "Lastlogout": "2022-11-29T03:47:00.5193028+01:00",
+  "EjUserId": 52,
+  "RequestSignature": "earum",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "occaecati",
-      "DisplayValue": "repellat",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 582
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "occaecati",
-      "DisplayValue": "repellat",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 582
-        }
-      }
-    }
-  ],
-  "UserName": "Herman Inc and Sons",
-  "TicketCategories": [
-    {
-      "Id": 877,
-      "Name": "Fahey LLC",
-      "ToolTip": "Iure voluptas et.",
-      "Deleted": false,
-      "Rank": 861,
-      "Type": "omnis",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "eligendi",
-      "ColorBlock": 524,
-      "ExtraInfo": "asperiores",
-      "StyleHint": "omnis",
-      "FullName": "Miss Darrell Aaliyah Glover",
+      "Value": "cum",
+      "DisplayValue": "consequuntur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 325
+          "FieldLength": 703
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "cum",
+      "DisplayValue": "consequuntur",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 703
         }
       }
     }
   ],
-  "NickName": "Wuckert-Windler",
+  "UserName": "Bogan Inc and Sons",
+  "TicketCategories": [
+    {
+      "Id": 832,
+      "Name": "Kiehn Group",
+      "ToolTip": "Quam voluptates veritatis ut et sed voluptate.",
+      "Deleted": false,
+      "Rank": 536,
+      "Type": "sequi",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "odio",
+      "ColorBlock": 262,
+      "ExtraInfo": "mollitia",
+      "StyleHint": "officiis",
+      "FullName": "Alfonzo Johnston",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 248
+        }
+      }
+    }
+  ],
+  "NickName": "Mertz Group",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "sapiente"
+    "ExtraFields1": "maiores",
+    "ExtraFields2": "doloribus"
   },
   "CustomFields": {
-    "CustomFields1": "voluptates",
-    "CustomFields2": "autem"
+    "CustomFields1": "et",
+    "CustomFields2": "iusto"
   },
   "PostSaveCommands": [
     {
-      "Name": "Veum, Hartmann and Spinka",
-      "DisplayName": "Heathcote LLC",
-      "Description": "Up-sized static model",
-      "ToolTip": "Consequatur praesentium earum et est alias laudantium autem.",
+      "Name": "Cruickshank, Windler and Treutel",
+      "DisplayName": "Turner Inc and Sons",
+      "Description": "Quality-focused dedicated conglomeration",
+      "ToolTip": "Vitae beatae.",
       "Actions": "Implicit",
-      "ActionData": "quia",
+      "ActionData": "necessitatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 929
+          "FieldLength": 244
         }
       }
     }
@@ -258,7 +259,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 144
+      "FieldLength": 40
     }
   }
 }

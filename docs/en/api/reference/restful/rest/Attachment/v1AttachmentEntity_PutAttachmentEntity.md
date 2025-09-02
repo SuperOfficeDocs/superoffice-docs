@@ -2,6 +2,7 @@
 title: PUT Attachment/{id}
 uid: v1AttachmentEntity_PutAttachmentEntity
 generated: true
+content_type: reference
 ---
 
 # PUT Attachment/{id}
@@ -93,17 +94,17 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 396,
-  "Name": "Trantow-Rau",
-  "ContentType": "tempore",
-  "AttSize": 831,
+  "AttachmentId": 20,
+  "Name": "Wehner Group",
+  "ContentType": "beatae",
+  "AttSize": 701,
   "InlineImage": true,
-  "ContentId": "occaecati",
-  "AuthKey": "dolore",
+  "ContentId": "eos",
+  "AuthKey": "dicta",
   "IsSafeFileExtension": true
 }
 ```
@@ -115,25 +116,25 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 665,
-  "Name": "Barton LLC",
-  "ContentType": "non",
-  "AttSize": 517,
+  "AttachmentId": 905,
+  "Name": "Shields LLC",
+  "ContentType": "qui",
+  "AttSize": 680,
   "InlineImage": false,
-  "ContentId": "sit",
-  "AuthKey": "est",
+  "ContentId": "corporis",
+  "AuthKey": "autem",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 223
+      "FieldLength": 785
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

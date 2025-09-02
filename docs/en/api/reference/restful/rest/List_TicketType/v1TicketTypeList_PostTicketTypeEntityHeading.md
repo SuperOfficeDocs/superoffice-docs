@@ -2,6 +2,7 @@
 title: POST List/TicketType/Headings
 uid: v1TicketTypeList_PostTicketTypeEntityHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/TicketType/Headings
@@ -75,16 +76,16 @@ OK
 POST /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 317,
-  "Name": "Keeling, Murphy and White",
-  "Tooltip": "voluptatem",
+  "HeadingId": 684,
+  "Name": "Murazik-Harber",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 51,
-  "UdListDefinitionId": 331
+  "Rank": 608,
+  "UdListDefinitionId": 606
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 57,
-  "Name": "Dickens Group",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "Rank": 837,
-  "UdListDefinitionId": 39,
+  "HeadingId": 896,
+  "Name": "Torphy, Bogisich and Bednar",
+  "Tooltip": "quisquam",
+  "Deleted": false,
+  "Rank": 884,
+  "UdListDefinitionId": 960,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 2
+      "FieldType": "System.String",
+      "FieldLength": 730
     }
   }
 }

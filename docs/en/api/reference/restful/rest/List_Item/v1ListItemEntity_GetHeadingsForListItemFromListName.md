@@ -2,6 +2,7 @@
 title: GET List/{udListDefinitionName}/Items/{id}/Headings
 uid: v1ListItemEntity_GetHeadingsForListItemFromListName
 generated: true
+content_type: reference
 ---
 
 # GET List/{udListDefinitionName}/Items/{id}/Headings
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 362,
-    "Name": "Koelpin-Deckow",
-    "ToolTip": "Autem ratione vel quas cum fuga sed tempora.",
-    "Deleted": true,
-    "Rank": 116,
-    "Type": "dolor",
-    "ColorBlock": 145,
-    "IconHint": "vero",
-    "Selected": true,
-    "LastChanged": "2024-09-25T03:45:28.9517993+02:00",
+    "Id": 291,
+    "Name": "Pagac, Schmeler and Fahey",
+    "ToolTip": "Et doloribus accusamus omnis ipsa omnis numquam quia.",
+    "Deleted": false,
+    "Rank": 235,
+    "Type": "ullam",
+    "ColorBlock": 32,
+    "IconHint": "suscipit",
+    "Selected": false,
+    "LastChanged": "2014-12-18T03:47:00.5661762+01:00",
     "ChildItems": [
       {
-        "Id": 79,
-        "Name": "Jerde Group",
-        "ToolTip": "Similique eos quasi alias facere sit perspiciatis.",
-        "Deleted": true,
-        "Rank": 666,
-        "Type": "ea",
-        "ColorBlock": 504,
-        "IconHint": "eos",
-        "Selected": false,
-        "LastChanged": "2001-06-27T03:45:28.9517993+02:00",
+        "Id": 295,
+        "Name": "Bode, Kertzmann and O'Connell",
+        "ToolTip": "Id aliquid quam et ut laboriosam.",
+        "Deleted": false,
+        "Rank": 826,
+        "Type": "in",
+        "ColorBlock": 368,
+        "IconHint": "voluptatum",
+        "Selected": true,
+        "LastChanged": "2001-05-17T03:47:00.5661762+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "aut",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Rose Beatty",
+        "FullName": "Cortney Lindgren",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 675
+            "FieldType": "System.Int32",
+            "FieldLength": 569
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "doloribus",
+    "ExtraInfo": "officia",
+    "StyleHint": "facilis",
     "Hidden": false,
-    "FullName": "Idella Miller",
+    "FullName": "Thora McLaughlin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 645
+        "FieldType": "System.Int32",
+        "FieldLength": 928
       }
     }
   }

@@ -3,9 +3,9 @@ uid: LinksSelection
 title: LinksSelection
 description: 
 keywords: LinksSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "LinksSelection"
@@ -62,7 +62,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksSelection?$select=registeredByFullName,name,updatedBy
+GET /api/v1/archive/LinksSelection?$select=sourcePersonRestrictionId,name,updatedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

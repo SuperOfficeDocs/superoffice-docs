@@ -3,9 +3,9 @@ uid: FreetextProject
 title: FreetextProject
 description: Archive provider for freetext search on the Project entity.
 keywords: FreetextProject archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "FreetextProject"
@@ -146,7 +146,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextProject?$select=projectAssociate/associateDbId,NumberOfNotCompletedActivitiesInPeriod,projectUrl/URLAddress
+GET /api/v1/archive/FreetextProject?$select=projectUrl/URLAddress,projectAssociate/role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

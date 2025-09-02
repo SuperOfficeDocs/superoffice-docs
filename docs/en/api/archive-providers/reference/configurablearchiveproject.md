@@ -3,9 +3,9 @@ uid: ConfigurableArchiveProject
 title: ConfigurableArchiveProject
 description: This is the archive Provider for the Configurable project Archive.
 keywords: ConfigurableArchiveProject archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ConfigurableArchiveProject"
@@ -801,7 +801,7 @@ This is the archive Provider for the Configurable project Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConfigurableArchiveProject?$select=sale/amount,projectMember/hasInfoText,projectMember/personNoMail,projectMember/personUpdatedDate,projectMember/searchPhone/formattedNumber
+GET /api/v1/archive/ConfigurableArchiveProject?$select=imageThumbnail,sale/saleStatus,appointment/icon,appointment/invitedPersonId,document/time
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

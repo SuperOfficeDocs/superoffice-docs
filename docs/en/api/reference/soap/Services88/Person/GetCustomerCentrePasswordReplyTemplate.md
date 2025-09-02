@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.GetCustomerCentrePasswordReplyTemplate SOAP
 generated: true
 uid: Services88-Person-GetCustomerCentrePasswordReplyTemplate
+content_type: reference
 ---
 
 # Services88 Person GetCustomerCentrePasswordReplyTemplate

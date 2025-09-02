@@ -2,6 +2,7 @@
 title: POST Agents/Person/GetPersonList
 uid: v1PersonAgent_GetPersonList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/GetPersonList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/Person/GetPersonList?$select=name,department,category/id
 
 ## Request Body: personIds 
 
-The primary keys. 
+The identifiers of the Person object 
 
 
 ## Response:array
@@ -110,7 +111,7 @@ OK
 POST /api/v1/Agents/Person/GetPersonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -121,53 +122,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "tenetur",
-    "PersonId": 391,
-    "Mrmrs": "quisquam",
-    "Firstname": "Santiago",
-    "Lastname": "Schmitt",
-    "MiddleName": "Schuster, Paucek and Hyatt",
-    "Title": "ut",
-    "Description": "Triple-buffered context-sensitive migration",
-    "Email": "benny_stracke@jakubowskivolkman.co.uk",
-    "FullName": "Mr. Mateo Hector Jacobs",
-    "DirectPhone": "(916)480-7566",
-    "FormalName": "Wunsch Inc and Sons",
-    "CountryId": 198,
-    "ContactId": 156,
-    "ContactName": "Howell Group",
-    "Retired": 607,
-    "Rank": 326,
-    "ActiveInterests": 406,
+    "Position": "rerum",
+    "PersonId": 998,
+    "Mrmrs": "iure",
+    "Firstname": "Cooper",
+    "Lastname": "Schuppe",
+    "MiddleName": "Shanahan-Hettinger",
+    "Title": "quae",
+    "Description": "Grass-roots 3rd generation throughput",
+    "Email": "madaline.rowe@cartwrightritchie.co.uk",
+    "FullName": "Dr. Nigel Keeling",
+    "DirectPhone": "904-087-9481",
+    "FormalName": "Cormier, Ebert and Prohaska",
+    "CountryId": 848,
+    "ContactId": 595,
+    "ContactName": "Daugherty-Dooley",
+    "Retired": 299,
+    "Rank": 489,
+    "ActiveInterests": 196,
     "ContactDepartment": "",
-    "ContactCountryId": 239,
-    "ContactOrgNr": "1071349",
-    "FaxPhone": "1-543-935-2296 x72951",
-    "MobilePhone": "(848)953-7547",
-    "ContactPhone": "(526)935-2470",
-    "AssociateName": "Morar, Kreiger and Bauch",
-    "AssociateId": 754,
-    "UsePersonAddress": false,
-    "ContactFax": "qui",
-    "Kanafname": "harum",
-    "Kanalname": "ea",
-    "Post1": "qui",
-    "Post2": "mollitia",
-    "Post3": "facilis",
-    "EmailName": "morton@grimes.us",
-    "ContactFullName": "Ms. Haskell Goodwin DDS",
-    "ActiveErpLinks": 952,
-    "TicketPriorityId": 419,
-    "SupportLanguageId": 831,
-    "SupportAssociateId": 530,
+    "ContactCountryId": 535,
+    "ContactOrgNr": "729203",
+    "FaxPhone": "807.775.9759",
+    "MobilePhone": "(209)462-0597 x774",
+    "ContactPhone": "354.453.3939",
+    "AssociateName": "Reinger-Yundt",
+    "AssociateId": 951,
+    "UsePersonAddress": true,
+    "ContactFax": "voluptatum",
+    "Kanafname": "ea",
+    "Kanalname": "debitis",
+    "Post1": "laborum",
+    "Post2": "quia",
+    "Post3": "at",
+    "EmailName": "ezequiel.beatty@harris.ca",
+    "ContactFullName": "Deon Damion Jacobs I",
+    "ActiveErpLinks": 845,
+    "TicketPriorityId": 184,
+    "SupportLanguageId": 218,
+    "SupportAssociateId": 671,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1216513",
+    "PersonNumber": "1376195",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 307
+        "FieldLength": 178
       }
     }
   }

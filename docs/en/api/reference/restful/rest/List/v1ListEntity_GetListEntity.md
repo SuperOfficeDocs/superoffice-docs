@@ -2,6 +2,7 @@
 title: GET List/{id}
 uid: v1ListEntity_GetListEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/{id}
@@ -92,22 +93,22 @@ HTTP/1.1 200 ListEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 805,
-  "Name": "Armstrong-Batz",
-  "Tooltip": "deserunt",
+  "Id": 270,
+  "Name": "Mraz-Emard",
+  "Tooltip": "dolor",
   "Deleted": true,
-  "Rank": 553,
-  "IsCustomList": false,
+  "Rank": 562,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "sed",
-  "InUseByUserDefinedFields": false,
+  "ListType": "minima",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldLength": 905
     }
   },
   "_Links": {

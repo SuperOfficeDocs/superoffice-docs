@@ -2,6 +2,7 @@
 title: POST RelationDefinition
 uid: v1RelationDefinitionEntity_PostRelationDefinitionEntity
 generated: true
+content_type: reference
 ---
 
 # POST RelationDefinition
@@ -90,16 +91,16 @@ OK
 POST /api/v1/RelationDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 327,
-  "Name": "Kertzmann, Kuphal and Rempel",
-  "Tooltip": "consequatur",
-  "PassiveText": "aliquid",
+  "ReldefId": 696,
+  "Name": "Hahn-Reynolds",
+  "Tooltip": "veritatis",
+  "PassiveText": "debitis",
   "Deleted": false,
-  "Rank": 343,
+  "Rank": 972,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -112,25 +113,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 919,
-  "Name": "Pfeffer, Hegmann and Dickens",
-  "Tooltip": "repellendus",
-  "PassiveText": "nam",
+  "ReldefId": 898,
+  "Name": "Turner-Yundt",
+  "Tooltip": "perferendis",
+  "PassiveText": "molestias",
   "Deleted": true,
-  "Rank": 400,
+  "Rank": 320,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 859
+      "FieldType": "System.String",
+      "FieldLength": 591
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

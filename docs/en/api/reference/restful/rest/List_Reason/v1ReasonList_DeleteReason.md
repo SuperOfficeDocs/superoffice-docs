@@ -2,6 +2,7 @@
 title: DEL List/Reason/Items/{id}
 uid: v1ReasonList_DeleteReason
 generated: true
+content_type: reference
 ---
 
 # DEL List/Reason/Items/{id}
@@ -52,7 +53,7 @@ No Content
 DELETE /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

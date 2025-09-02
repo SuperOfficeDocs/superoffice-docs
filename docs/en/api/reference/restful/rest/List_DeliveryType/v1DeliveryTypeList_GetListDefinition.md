@@ -2,6 +2,7 @@
 title: GET List/DeliveryType
 uid: v1DeliveryTypeList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/DeliveryType
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/DeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,27 +76,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 891,
-  "Name": "Moore-Baumbach",
-  "Tooltip": "veniam",
-  "Deleted": true,
-  "Rank": 615,
-  "IsCustomList": false,
+  "Id": 830,
+  "Name": "Pfeffer-Frami",
+  "Tooltip": "expedita",
+  "Deleted": false,
+  "Rank": 221,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "esse",
-  "InUseByUserDefinedFields": true,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 852
+      "FieldType": "System.String",
+      "FieldLength": 417
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -2,6 +2,7 @@
 title: GET Webhook
 uid: v1Webhook_GetAllWebhooks
 generated: true
+content_type: reference
 ---
 
 # GET Webhook
@@ -30,7 +31,7 @@ Returns all webhooks, according to filter criteria
 
 ```http
 GET /api/v1/Webhook?nameFilter=aut
-GET /api/v1/Webhook?eventFilter=inventore
+GET /api/v1/Webhook?eventFilter=assumenda
 GET /api/v1/Webhook?statusFilter=Active
 ```
 
@@ -82,7 +83,7 @@ OK
 GET /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,28 +94,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 310,
-    "Name": "Lesch LLC",
+    "WebhookId": 562,
+    "Name": "Ryan, Parker and Rempel",
     "Events": [
-      "accusamus",
-      "ducimus"
+      "modi",
+      "unde"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "voluptas",
+    "Secret": "placeat",
     "State": "Active",
-    "Type": "harum",
+    "Type": "magnam",
     "Headers": {
-      "Headers1": "corporis",
-      "Headers2": "officia"
+      "Headers1": "fugit",
+      "Headers2": "quos"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2006-05-16T03:45:28.8890492+02:00",
+    "Registered": "2001-05-04T03:47:00.5505518+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2010-07-06T03:45:28.8890492+02:00",
+    "Updated": "2015-09-28T03:47:00.5505518+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "tara@cruickshankwalter.ca"
+    "ErrorsEmail": "marquis@okon.ca"
   }
 ]
 ```

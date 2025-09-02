@@ -2,10 +2,10 @@
 uid: table-word_relations
 title: word_relations table
 description: This table shows which word are used in which FAQ entry, and how many times            they are used in each
-so.generated: true
+generated: true
 keywords: database table word_relations
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # word\_relations Table (355)

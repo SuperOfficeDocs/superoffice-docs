@@ -2,6 +2,7 @@
 title: POST Agents/Person/GetPhones
 uid: v1PersonAgent_GetPhones
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/GetPhones
@@ -75,11 +76,11 @@ OK
 POST /api/v1/Agents/Person/GetPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 668
+  "PersonId": 470
 }
 ```
 
@@ -91,28 +92,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "amet",
-    "StrippedValue": "recusandae",
-    "Description": "Future-proofed multimedia system engine",
+    "Value": "sed",
+    "StrippedValue": "doloribus",
+    "Description": "Grass-roots holistic data-warehouse",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 680
+        "FieldLength": 70
       }
     }
   },
   {
-    "Value": "amet",
-    "StrippedValue": "recusandae",
-    "Description": "Future-proofed multimedia system engine",
+    "Value": "sed",
+    "StrippedValue": "doloribus",
+    "Description": "Grass-roots holistic data-warehouse",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 680
+        "FieldLength": 70
       }
     }
   }

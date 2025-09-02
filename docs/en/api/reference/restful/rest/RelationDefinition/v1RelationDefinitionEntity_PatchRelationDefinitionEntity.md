@@ -2,6 +2,7 @@
 title: PATCH RelationDefinition/{id}
 uid: v1RelationDefinitionEntity_PatchRelationDefinitionEntity
 generated: true
+content_type: reference
 ---
 
 # PATCH RelationDefinition/{id}
@@ -115,18 +116,18 @@ RelationDefinitionEntity  updated.
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "fuga",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "fuga",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -139,25 +140,25 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 90,
-  "Name": "Powlowski-Parisian",
-  "Tooltip": "et",
-  "PassiveText": "dolorem",
-  "Deleted": false,
-  "Rank": 960,
+  "ReldefId": 727,
+  "Name": "Berge Group",
+  "Tooltip": "sed",
+  "PassiveText": "enim",
+  "Deleted": true,
+  "Rank": 162,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 962
+      "FieldType": "System.String",
+      "FieldLength": 679
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

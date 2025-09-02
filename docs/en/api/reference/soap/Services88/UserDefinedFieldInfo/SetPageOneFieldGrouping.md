@@ -2,6 +2,7 @@
 title: Services88.UserDefinedFieldInfoAgent.SetPageOneFieldGrouping SOAP
 generated: true
 uid: Services88-UserDefinedFieldInfo-SetPageOneFieldGrouping
+content_type: reference
 ---
 
 # Services88 UserDefinedFieldInfo SetPageOneFieldGrouping

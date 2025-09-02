@@ -2,6 +2,7 @@
 title: POST Agents/EMail/TestAuthenticate
 uid: v1EMailAgent_TestAuthenticate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/TestAuthenticate

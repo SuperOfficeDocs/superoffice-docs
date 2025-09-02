@@ -2,6 +2,7 @@
 title: Services88.ListAgent.CreateDefaultAmountClassEntity SOAP
 generated: true
 uid: Services88-List-CreateDefaultAmountClassEntity
+content_type: reference
 ---
 
 # Services88 List CreateDefaultAmountClassEntity

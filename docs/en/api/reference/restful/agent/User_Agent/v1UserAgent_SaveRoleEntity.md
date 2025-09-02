@@ -2,6 +2,7 @@
 title: POST Agents/User/SaveRoleEntity
 uid: v1UserAgent_SaveRoleEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/SaveRoleEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/User/SaveRoleEntity
 ```
 
-Updates the existing RoleEntity or creates a new RoleEntity if the id parameter is empty
+Updates the existing RoleEntity or creates a new RoleEntity if the id parameter is 0.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -35,9 +36,9 @@ Updates the existing RoleEntity or creates a new RoleEntity if the id parameter 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: roleEntity 
 
-The RoleEntity to be saved. 
+The RoleEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -87,20 +88,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 349,
-  "Name": "Mertz-Simonis",
-  "Tooltip": "ducimus",
+  "RoleId": 732,
+  "Name": "Ankunding Inc and Sons",
+  "Tooltip": "ab",
   "RoleType": "Anonymous",
-  "Deleted": 829,
-  "Rank": 530,
-  "Created": "2009-07-14T03:45:24.1548097+02:00",
-  "UseCategories": 541,
+  "Deleted": 902,
+  "Rank": 592,
+  "Created": "2002-07-18T03:46:55.5663534+02:00",
+  "UseCategories": 269,
   "CreatedBy": null,
-  "Updated": "2008-08-09T03:45:24.1548097+02:00",
+  "Updated": "2002-12-20T03:46:55.5663534+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,24 +114,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 324,
-  "Name": "Cruickshank, Satterfield and Kuhic",
-  "Tooltip": "ullam",
+  "RoleId": 699,
+  "Name": "Wintheiser-Reilly",
+  "Tooltip": "non",
   "RoleType": "Anonymous",
-  "Deleted": 255,
-  "Rank": 470,
-  "Created": "2024-10-20T03:45:24.1548097+02:00",
-  "UseCategories": 521,
+  "Deleted": 398,
+  "Rank": 680,
+  "Created": "2025-04-16T03:46:55.5663534+02:00",
+  "UseCategories": 285,
   "CreatedBy": null,
-  "Updated": "2010-07-08T03:45:24.1548097+02:00",
+  "Updated": "1998-07-02T03:46:55.5663534+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldType": "System.String",
+      "FieldLength": 218
     }
   }
 }

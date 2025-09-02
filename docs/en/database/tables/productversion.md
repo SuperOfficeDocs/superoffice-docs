@@ -2,10 +2,10 @@
 uid: table-ProductVersion
 title: ProductVersion table
 description: Version information for code modules. Owner + code module must be unique
-so.generated: true
+generated: true
 keywords: database table ProductVersion
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ProductVersion Table (240)

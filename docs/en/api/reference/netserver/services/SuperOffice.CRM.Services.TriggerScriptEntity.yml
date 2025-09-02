@@ -60,11 +60,11 @@ items:
     var rows = archive.GetArchiveListByColumns2("EventHandler", "...", null, "getAllRows eq 1", null, 0, 100 );</code></pre>
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")]
 
       public class TriggerScriptEntity : Carrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")>
 
       Public Class TriggerScriptEntity Inherits Carrier
   seealso:
@@ -79,7 +79,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.2.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.3.0.0
 - uid: SuperOffice.CRM.Services.TriggerScriptEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.TriggerScriptEntity.#ctor
   id: '#ctor'

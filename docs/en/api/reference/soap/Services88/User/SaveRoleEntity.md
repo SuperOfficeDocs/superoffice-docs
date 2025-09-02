@@ -2,6 +2,7 @@
 title: Services88.UserAgent.SaveRoleEntity SOAP
 generated: true
 uid: Services88-User-SaveRoleEntity
+content_type: reference
 ---
 
 # Services88 User SaveRoleEntity
@@ -46,7 +47,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:RoleType xsi:type="User:RoleType">Employee</User:RoleType>
      <User:Deleted xsi:type="xsd:short">0</User:Deleted>
      <User:Rank xsi:type="xsd:short">0</User:Rank>
-     <User:Created xsi:type="xsd:dateTime">2025-06-26T01:45:01Z</User:Created>
+     <User:Created xsi:type="xsd:dateTime">2025-08-30T01:46:33Z</User:Created>
      <User:UseCategories xsi:type="xsd:short">0</User:UseCategories>
      <User:CreatedBy xsi:type="User:Associate">
       <User:AssociateId xsi:type="xsd:int">0</User:AssociateId>
@@ -61,8 +62,20 @@ Application tokens must be specified if calling an Online installation. Applicat
       <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
       <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
       <User:UserName xsi:type="xsd:string"></User:UserName>
+      <User:ExtraFields xsi:type="User:StringDictionary">
+       <User:StringKeyValuePair>
+        <User:Key xsi:type="xsd:string"></User:Key>
+        <User:Value xsi:type="xsd:string"></User:Value>
+       </User:StringKeyValuePair>
+      </User:ExtraFields>
+      <User:CustomFields xsi:type="User:StringDictionary">
+       <User:StringKeyValuePair>
+        <User:Key xsi:type="xsd:string"></User:Key>
+        <User:Value xsi:type="xsd:string"></User:Value>
+       </User:StringKeyValuePair>
+      </User:CustomFields>
      </User:CreatedBy>
-     <User:Updated xsi:type="xsd:dateTime">2025-06-26T01:45:01Z</User:Updated>
+     <User:Updated xsi:type="xsd:dateTime">2025-08-30T01:46:33Z</User:Updated>
      <User:UpdatedBy xsi:type="User:Associate">
       <User:AssociateId xsi:type="xsd:int">0</User:AssociateId>
       <User:Name xsi:type="xsd:string"></User:Name>
@@ -76,6 +89,18 @@ Application tokens must be specified if calling an Online installation. Applicat
       <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
       <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
       <User:UserName xsi:type="xsd:string"></User:UserName>
+      <User:ExtraFields xsi:type="User:StringDictionary">
+       <User:StringKeyValuePair>
+        <User:Key xsi:type="xsd:string"></User:Key>
+        <User:Value xsi:type="xsd:string"></User:Value>
+       </User:StringKeyValuePair>
+      </User:ExtraFields>
+      <User:CustomFields xsi:type="User:StringDictionary">
+       <User:StringKeyValuePair>
+        <User:Key xsi:type="xsd:string"></User:Key>
+        <User:Value xsi:type="xsd:string"></User:Value>
+       </User:StringKeyValuePair>
+      </User:CustomFields>
      </User:UpdatedBy>
      <User:DataRights xsi:type="User:DataRights">
       <User:ColumnsInfo xsi:type="User:ArrayOfRelationToOwner">
@@ -130,7 +155,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <User:RoleType xsi:type="User:RoleType">Employee</User:RoleType>
     <User:Deleted xsi:type="xsd:short">0</User:Deleted>
     <User:Rank xsi:type="xsd:short">0</User:Rank>
-    <User:Created xsi:type="xsd:dateTime">2025-06-26T01:45:01Z</User:Created>
+    <User:Created xsi:type="xsd:dateTime">2025-08-30T01:46:33Z</User:Created>
     <User:UseCategories xsi:type="xsd:short">0</User:UseCategories>
     <User:CreatedBy xsi:type="User:Associate">
      <User:AssociateId xsi:type="xsd:int">0</User:AssociateId>
@@ -145,8 +170,20 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
      <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
      <User:UserName xsi:type="xsd:string"></User:UserName>
+     <User:ExtraFields xsi:type="User:StringDictionary">
+      <User:StringKeyValuePair>
+       <User:Key xsi:type="xsd:string"></User:Key>
+       <User:Value xsi:type="xsd:string"></User:Value>
+      </User:StringKeyValuePair>
+     </User:ExtraFields>
+     <User:CustomFields xsi:type="User:StringDictionary">
+      <User:StringKeyValuePair>
+       <User:Key xsi:type="xsd:string"></User:Key>
+       <User:Value xsi:type="xsd:string"></User:Value>
+      </User:StringKeyValuePair>
+     </User:CustomFields>
     </User:CreatedBy>
-    <User:Updated xsi:type="xsd:dateTime">2025-06-26T01:45:01Z</User:Updated>
+    <User:Updated xsi:type="xsd:dateTime">2025-08-30T01:46:33Z</User:Updated>
     <User:UpdatedBy xsi:type="User:Associate">
      <User:AssociateId xsi:type="xsd:int">0</User:AssociateId>
      <User:Name xsi:type="xsd:string"></User:Name>
@@ -160,6 +197,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <User:Deleted xsi:type="xsd:boolean">false</User:Deleted>
      <User:EjUserId xsi:type="xsd:int">0</User:EjUserId>
      <User:UserName xsi:type="xsd:string"></User:UserName>
+     <User:ExtraFields xsi:type="User:StringDictionary">
+      <User:StringKeyValuePair>
+       <User:Key xsi:type="xsd:string"></User:Key>
+       <User:Value xsi:type="xsd:string"></User:Value>
+      </User:StringKeyValuePair>
+     </User:ExtraFields>
+     <User:CustomFields xsi:type="User:StringDictionary">
+      <User:StringKeyValuePair>
+       <User:Key xsi:type="xsd:string"></User:Key>
+       <User:Value xsi:type="xsd:string"></User:Value>
+      </User:StringKeyValuePair>
+     </User:CustomFields>
     </User:UpdatedBy>
     <User:DataRights xsi:type="User:DataRights">
      <User:ColumnsInfo xsi:type="User:ArrayOfRelationToOwner">

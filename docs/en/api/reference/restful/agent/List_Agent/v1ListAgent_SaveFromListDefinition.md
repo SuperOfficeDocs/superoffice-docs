@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveFromListDefinition
 uid: v1ListAgent_SaveFromListDefinition
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveFromListDefinition
@@ -80,12 +81,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 643,
-  "UdListDefinitionId": 375,
+  "Id": 90,
+  "UdListDefinitionId": 140,
   "Item": null
 }
 ```
@@ -97,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 255,
-  "Name": "Shields, Pouros and Gibson",
-  "Tooltip": "modi",
+  "Id": 777,
+  "Name": "Lowe-Kassulke",
+  "Tooltip": "in",
   "Deleted": false,
-  "UdListDefinitionId": 356,
-  "Rank": 942,
+  "UdListDefinitionId": 227,
+  "Rank": 222,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 904
+      "FieldType": "System.Int32",
+      "FieldLength": 233
     }
   }
 }

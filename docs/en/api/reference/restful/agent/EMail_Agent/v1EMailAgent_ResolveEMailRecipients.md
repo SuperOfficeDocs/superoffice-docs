@@ -2,6 +2,7 @@
 title: POST Agents/EMail/ResolveEMailRecipients
 uid: v1EMailAgent_ResolveEMailRecipients
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/ResolveEMailRecipients
@@ -86,11 +87,11 @@ OK
 POST /api/v1/Agents/EMail/ResolveEMailRecipients
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "ryann.beier@bogannienow.us"
+  "EmailAddress": "rocky_okon@walsh.ca"
 }
 ```
 
@@ -102,24 +103,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 920,
-    "ContactName": "Collins, Wilderman and Roberts",
-    "PersonId": 375,
-    "PersonName": "Kling LLC",
-    "AssociateId": 404,
-    "Address": "repudiandae",
-    "EmailId": 472,
+    "ContactId": 909,
+    "ContactName": "Strosin-Gusikowski",
+    "PersonId": 631,
+    "PersonName": "Herman Group",
+    "AssociateId": 823,
+    "Address": "in",
+    "EmailId": 827,
     "DuplicatePersonIds": [
-      184,
-      648
+      67,
+      820
     ],
-    "Name": "Boyer-Homenick",
+    "Name": "Hodkiewicz Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 15
+        "FieldType": "System.String",
+        "FieldLength": 727
       }
     }
   }

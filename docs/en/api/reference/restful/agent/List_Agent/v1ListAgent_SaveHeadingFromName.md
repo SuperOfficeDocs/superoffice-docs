@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveHeadingFromName
 uid: v1ListAgent_SaveHeadingFromName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveHeadingFromName
@@ -79,11 +80,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Terry-Fay",
+  "Name": "Blanda Group",
   "Entity": null
 }
 ```
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 257,
-  "Name": "Langworth-Walter",
-  "Tooltip": "harum",
+  "HeadingId": 602,
+  "Name": "Gerhold Inc and Sons",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 897,
-  "UdListDefinitionId": 910,
+  "Rank": 922,
+  "UdListDefinitionId": 865,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 670
+      "FieldLength": 499
     }
   }
 }

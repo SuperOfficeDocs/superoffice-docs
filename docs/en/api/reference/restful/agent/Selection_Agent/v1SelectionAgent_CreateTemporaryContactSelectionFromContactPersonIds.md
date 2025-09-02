@@ -2,6 +2,7 @@
 title: POST Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 uid: v1SelectionAgent_CreateTemporaryContactSelectionFromContactPersonIds
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
@@ -113,18 +114,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 561,
-      "ContactId": 122
+      "PersonId": 97,
+      "ContactId": 357
     },
     {
-      "PersonId": 561,
-      "ContactId": 122
+      "PersonId": 97,
+      "ContactId": 357
     }
   ]
 }
@@ -137,70 +138,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Profound analyzing support",
-  "Postit": "repellendus",
+  "Description": "Programmable motivating algorithm",
+  "Postit": "sed",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 205,
-  "IncludePerson": 306,
+  "GroupIdx": 920,
+  "IncludePerson": 117,
   "MemberCount": 99.99,
-  "Name": "Rau-Murazik",
-  "PostitTextId": 196,
-  "CreatedDate": "2013-11-17T03:45:23.9048172+01:00",
-  "SelectionId": 553,
-  "SoundEx": "excepturi",
-  "Source": 194,
-  "TextId": 414,
-  "UpdatedDate": "2016-01-10T03:45:23.9048172+01:00",
-  "UpdatedCount": 242,
-  "Visibility": 372,
+  "Name": "Stracke-Thompson",
+  "PostitTextId": 725,
+  "CreatedDate": "2021-01-21T03:46:55.3163674+01:00",
+  "SelectionId": 994,
+  "SoundEx": "pariatur",
+  "Source": 888,
+  "TextId": 757,
+  "UpdatedDate": "2005-06-19T03:46:55.3163674+02:00",
+  "UpdatedCount": 443,
+  "Visibility": 882,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 203,
-  "TargetTableName": "Cassin-Beahan",
-  "Completed": true,
-  "LeftSelectionId": 133,
-  "RightSelectionId": 630,
+  "CompanyUnique": true,
+  "TargetTableNumber": 577,
+  "TargetTableName": "Lakin Inc and Sons",
+  "Completed": false,
+  "LeftSelectionId": 259,
+  "RightSelectionId": 352,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Bauch-Crooks",
-  "ShadowProviderName": "Kovacek-Grant",
-  "ChartKey": "aliquam",
-  "LastLoaded": "2009-12-19T03:45:23.9048172+01:00",
-  "LastLoadedBy": 21,
+  "MainProviderName": "Reilly Group",
+  "ShadowProviderName": "Hermann-Huels",
+  "ChartKey": "sed",
+  "LastLoaded": "2009-03-10T03:46:55.3163674+01:00",
+  "LastLoadedBy": 961,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-03-20T03:45:23.9048172+01:00",
-  "LastMembershipChangeBy": 429,
+  "LastMembershipChange": "2000-06-18T03:46:55.3163674+02:00",
+  "LastMembershipChangeBy": 391,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "fugiat",
-  "MemberTabHeading": "eligendi",
-  "MailingsProviderName": "Erdman Group",
-  "DashboardTileDefinitionId": 120,
+  "MainHeading": "maxime",
+  "MemberTabHeading": "molestiae",
+  "MailingsProviderName": "Treutel, Pollich and Veum",
+  "DashboardTileDefinitionId": 512,
   "VisibleFor": [
     {
-      "VisibleId": 693,
+      "VisibleId": 323,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 846
+          "FieldType": "System.String",
+          "FieldLength": 754
         }
       }
     },
     {
-      "VisibleId": 693,
+      "VisibleId": 323,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 846
+          "FieldType": "System.String",
+          "FieldLength": 754
         }
       }
     }
@@ -210,7 +211,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldLength": 56
     }
   }
 }

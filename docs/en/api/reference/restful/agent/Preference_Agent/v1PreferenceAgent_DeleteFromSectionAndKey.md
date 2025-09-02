@@ -2,6 +2,7 @@
 title: POST Agents/Preference/DeleteFromSectionAndKey
 uid: v1PreferenceAgent_DeleteFromSectionAndKey
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/DeleteFromSectionAndKey
@@ -65,12 +66,12 @@ No Content
 POST /api/v1/Agents/Preference/DeleteFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "ut",
-  "Key": "molestiae"
+  "Section": "dolores",
+  "Key": "voluptatem"
 }
 ```
 

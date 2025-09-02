@@ -2,6 +2,7 @@
 title: POST Agents/List/GetHeadings
 uid: v1ListAgent_GetHeadings
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetHeadings
@@ -89,12 +90,12 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 188,
-  "ListItemId": 818,
+  "UdListDefinitionId": 703,
+  "ListItemId": 496,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 816,
-    "Name": "Kirlin, Sawayn and Brown",
-    "ToolTip": "Perspiciatis aperiam voluptatem consequatur enim quidem.",
+    "Id": 433,
+    "Name": "Marvin-Hamill",
+    "ToolTip": "At eaque eius odio totam aut est.",
     "Deleted": false,
-    "Rank": 665,
-    "Type": "exercitationem",
-    "ColorBlock": 794,
-    "IconHint": "culpa",
+    "Rank": 131,
+    "Type": "qui",
+    "ColorBlock": 104,
+    "IconHint": "earum",
     "Selected": false,
-    "LastChanged": "2005-07-24T03:45:23.5454538+02:00",
+    "LastChanged": "2004-04-18T03:46:54.9569999+02:00",
     "ChildItems": [
       {
-        "Id": 372,
-        "Name": "Tromp-Walter",
-        "ToolTip": "Odio voluptatibus voluptates sunt harum sed earum.",
-        "Deleted": false,
-        "Rank": 382,
-        "Type": "omnis",
-        "ColorBlock": 26,
-        "IconHint": "itaque",
-        "Selected": true,
-        "LastChanged": "2001-09-19T03:45:23.5610765+02:00",
+        "Id": 125,
+        "Name": "Armstrong Inc and Sons",
+        "ToolTip": "Animi quidem sint quis neque natus.",
+        "Deleted": true,
+        "Rank": 3,
+        "Type": "quam",
+        "ColorBlock": 352,
+        "IconHint": "eum",
+        "Selected": false,
+        "LastChanged": "2007-05-26T03:46:54.9569999+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "qui",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Violette Mraz",
+        "FullName": "Prof. Yessenia Cormier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 602
+            "FieldLength": 105
           }
         }
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "dignissimos",
+    "ExtraInfo": "harum",
+    "StyleHint": "sequi",
     "Hidden": false,
-    "FullName": "Joan Jenkins I",
+    "FullName": "Roxane Marion Rodriguez DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 315
+        "FieldType": "System.String",
+        "FieldLength": 62
       }
     }
   }

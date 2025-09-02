@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.RelationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.RelationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.RelationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   - SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntityAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.RelationAgent.DeleteContactRelationAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntityAsync(System.Int32,System.Threading.CancellationToken)
@@ -70,22 +70,22 @@ items:
   nameWithType.vb: RelationAgent.New(IContactRelationEntityImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.RelationAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IContactRelationEntityImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.RelationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  commentId: M:SuperOffice.CRM.Services.RelationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+- uid: SuperOffice.CRM.Services.RelationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  commentId: M:SuperOffice.CRM.Services.RelationAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
   parent: SuperOffice.CRM.Services.RelationAgent
   langs:
   - csharp
   - vb
-  name: RelationAgent(IContactRelationEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  nameWithType: RelationAgent.RelationAgent(IContactRelationEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName: SuperOffice.CRM.Services.RelationAgent.RelationAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name: RelationAgent(IContactRelationEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType: RelationAgent.RelationAgent(IContactRelationEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName: SuperOffice.CRM.Services.RelationAgent.RelationAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public RelationAgent(IContactRelationEntityImplementation contactRelationEntityImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    content: public RelationAgent(IContactRelationEntityImplementation contactRelationEntityImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
     parameters:
     - id: contactRelationEntityImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation
@@ -95,11 +95,15 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    content.vb: Public Sub New(contactRelationEntityImplementation As IContactRelationEntityImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+    - id: scriptingConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+    - id: onlineConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+    content.vb: Public Sub New(contactRelationEntityImplementation As IContactRelationEntityImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
   overload: SuperOffice.CRM.Services.RelationAgent.#ctor*
-  nameWithType.vb: RelationAgent.New(IContactRelationEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName.vb: SuperOffice.CRM.Services.RelationAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
-  name.vb: New(IContactRelationEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType.vb: RelationAgent.New(IContactRelationEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName.vb: SuperOffice.CRM.Services.RelationAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IContactRelationEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name.vb: New(IContactRelationEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
 - uid: SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntityAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntityAsync(System.Threading.CancellationToken)
   id: CreateDefaultContactRelationEntityAsync(System.Threading.CancellationToken)
@@ -114,16 +118,14 @@ items:
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new ContactRelationEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  summary: Loading default values into a new ContactRelationEntity.
   example: []
   syntax:
     content: public Task<ContactRelationEntity> CreateDefaultContactRelationEntityAsync(CancellationToken cancellationToken = default)
     parameters:
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ContactRelationEntity}
       description: New ContactRelationEntity with default values
@@ -155,9 +157,10 @@ items:
       description: The identifier of the ContactRelationEntity object
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ContactRelationEntity}
-      description: ContactRelationEntity
+      description: A single ContactRelationEntity
     content.vb: Public Function GetContactRelationEntityAsync(contactRelationEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ContactRelationEntity)
   overload: SuperOffice.CRM.Services.RelationAgent.GetContactRelationEntityAsync*
   implements:
@@ -623,6 +626,16 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+  isExternal: true
+  name: IScriptingConfiguration
+  nameWithType: ConfigFile.IScriptingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  isExternal: true
+  name: IOnlineConfiguration
+  nameWithType: ConfigFile.IOnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
 - uid: SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.RelationAgent.CreateDefaultContactRelationEntityAsync
   isExternal: true

@@ -2,6 +2,7 @@
 title: POST Agents/Quote/SaveProduct
 uid: v1QuoteAgent_SaveProduct
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/SaveProduct
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Quote/SaveProduct
 ```
 
-Updates the existing Product or creates a new Product if the id parameter is empty
+Updates the existing Product or creates a new Product if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing Product or creates a new Product if the id parameter is emp
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: product 
 
-The Product to be saved. 
+The Product that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -133,51 +134,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 997,
-  "ERPProductKey": "labore",
-  "ERPPriceListKey": "qui",
-  "Name": "Wyman Inc and Sons",
-  "Description": "Expanded multi-state interface",
-  "Code": "molestiae",
-  "PriceUnit": "ipsam",
-  "QuantityUnit": "suscipit",
+  "ProductId": 91,
+  "ERPProductKey": "ipsa",
+  "ERPPriceListKey": "harum",
+  "Name": "Schamberger-Hammes",
+  "Description": "Monitored bi-directional project",
+  "Code": "quisquam",
+  "PriceUnit": "laborum",
+  "QuantityUnit": "cupiditate",
   "IsSubscription": false,
-  "SubscriptionUnit": "mollitia",
-  "DefaultSubscriptionQuantity": 30844.827999999998,
-  "ItemNumber": "1580928",
+  "SubscriptionUnit": "perspiciatis",
+  "DefaultSubscriptionQuantity": 18782.061999999998,
+  "ItemNumber": "1668894",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "consequatur",
-  "ProductTypeKey": "voluptatum",
-  "VAT": 9138.744,
-  "VATInfo": "tempora",
-  "UnitCost": 27121.636,
-  "UnitMinimumPrice": 22085.298,
-  "UnitListPrice": 4475.352,
+  "ProductFamilyKey": "autem",
+  "ProductTypeKey": "sed",
+  "VAT": 20088.94,
+  "VATInfo": "sit",
+  "UnitCost": 5587.922,
+  "UnitMinimumPrice": 25808.489999999998,
+  "UnitListPrice": 2240.81,
   "InAssortment": false,
-  "Supplier": "et",
-  "SupplierCode": "et",
-  "Rights": "necessitatibus",
-  "Rule": "et",
+  "Supplier": "veniam",
+  "SupplierCode": "expedita",
+  "Rights": "assumenda",
+  "Rule": "unde",
   "ExtraInfo": [
     {
-      "Name": "Kautzer-Wehner",
-      "Value": "deserunt",
+      "Name": "Johnston Group",
+      "Value": "aut",
       "Type": "Image"
     },
     {
-      "Name": "Kautzer-Wehner",
-      "Value": "deserunt",
+      "Name": "Johnston Group",
+      "Value": "aut",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "earum",
-  "ExtraField1": "voluptates",
-  "ExtraField2": "excepturi",
-  "ExtraField3": "voluptatum",
-  "ExtraField4": "et",
-  "ExtraField5": "sit",
-  "InStock": 29939.102
+  "RawExtraInfo": "velit",
+  "ExtraField1": "optio",
+  "ExtraField2": "voluptatem",
+  "ExtraField3": "sit",
+  "ExtraField4": "ut",
+  "ExtraField5": "voluptatem",
+  "InStock": 30211.76
 }
 ```
 
@@ -188,73 +189,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 814,
-  "ERPProductKey": "repellendus",
-  "ERPPriceListKey": "laboriosam",
-  "Name": "Batz-Jerde",
-  "Description": "Function-based system-worthy database",
-  "Code": "totam",
-  "PriceUnit": "optio",
-  "QuantityUnit": "autem",
+  "ProductId": 585,
+  "ERPProductKey": "velit",
+  "ERPPriceListKey": "eveniet",
+  "Name": "Kilback-Walter",
+  "Description": "Optional executive middleware",
+  "Code": "reprehenderit",
+  "PriceUnit": "quisquam",
+  "QuantityUnit": "repudiandae",
   "IsSubscription": false,
-  "SubscriptionUnit": "enim",
-  "DefaultSubscriptionQuantity": 28193.464,
-  "ItemNumber": "1689805",
+  "SubscriptionUnit": "est",
+  "DefaultSubscriptionQuantity": 15522.702,
+  "ItemNumber": "1182134",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "placeat",
-  "ProductTypeKey": "tempora",
-  "VAT": 4249.704,
-  "VATInfo": "porro",
-  "UnitCost": 29193.21,
-  "UnitMinimumPrice": 1319.414,
-  "UnitListPrice": 10006.862,
+  "ProductFamilyKey": "et",
+  "ProductTypeKey": "ut",
+  "VAT": 11392.09,
+  "VATInfo": "et",
+  "UnitCost": 4957.988,
+  "UnitMinimumPrice": 19929.106,
+  "UnitListPrice": 22621.212,
   "InAssortment": false,
-  "Supplier": "ea",
-  "SupplierCode": "et",
-  "Rights": "asperiores",
-  "Rule": "voluptatem",
+  "Supplier": "cum",
+  "SupplierCode": "nesciunt",
+  "Rights": "omnis",
+  "Rule": "atque",
   "ExtraInfo": [
     {
-      "Name": "Kreiger-Lynch",
-      "Value": "asperiores",
+      "Name": "Boehm-Ritchie",
+      "Value": "nesciunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 869
+          "FieldType": "System.String",
+          "FieldLength": 897
         }
       }
     },
     {
-      "Name": "Kreiger-Lynch",
-      "Value": "asperiores",
+      "Name": "Boehm-Ritchie",
+      "Value": "nesciunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 869
+          "FieldType": "System.String",
+          "FieldLength": 897
         }
       }
     }
   ],
-  "RawExtraInfo": "esse",
-  "ExtraField1": "ut",
-  "ExtraField2": "eos",
-  "ExtraField3": "totam",
-  "ExtraField4": "omnis",
-  "ExtraField5": "incidunt",
-  "InStock": 10420.55,
+  "RawExtraInfo": "sed",
+  "ExtraField1": "sint",
+  "ExtraField2": "at",
+  "ExtraField3": "nihil",
+  "ExtraField4": "dolorem",
+  "ExtraField5": "illum",
+  "InStock": 4161.952,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 929
+      "FieldLength": 180
     }
   }
 }

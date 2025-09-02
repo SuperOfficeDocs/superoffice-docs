@@ -2,6 +2,7 @@
 title: GET Document/UdefLayout/{progidOrLabel}
 uid: v1DocumentEntity_GetUdefFieldInfo
 generated: true
+content_type: reference
 ---
 
 # GET Document/UdefLayout/{progidOrLabel}
@@ -93,7 +94,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +104,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 356,
-  "ColumnId": 965,
-  "FieldDefault": "tempora",
-  "FieldHeight": 883,
-  "FieldLabel": "sequi",
-  "FieldLeft": 592,
-  "FieldTop": 682,
+  "UDefFieldId": 783,
+  "ColumnId": 7,
+  "FieldDefault": "voluptas",
+  "FieldHeight": 148,
+  "FieldLabel": "voluptatem",
+  "FieldLeft": 685,
+  "FieldTop": 571,
   "FieldType": "Checkbox",
-  "FieldWidth": 89,
-  "FormatMask": "possimus",
+  "FieldWidth": 797,
+  "FormatMask": "voluptatibus",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 379,
-  "LabelLeft": 83,
-  "LabelTop": 548,
-  "LabelWidth": 357,
-  "LastVersionId": 517,
-  "ListTableId": 611,
+  "LabelHeight": 50,
+  "LabelLeft": 375,
+  "LabelTop": 550,
+  "LabelWidth": 659,
+  "LastVersionId": 797,
+  "ListTableId": 112,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 438,
-  "ProgId": "rerum",
+  "Page1LineNo": 134,
+  "ProgId": "facilis",
   "IsReadOnly": true,
-  "ShortLabel": "ut",
-  "TabOrder": 142,
-  "TextLength": 690,
-  "Tooltip": "est",
-  "UdefIdentity": 3,
-  "UDListDefinitionId": 223,
+  "ShortLabel": "voluptatem",
+  "TabOrder": 536,
+  "TextLength": 778,
+  "Tooltip": "ea",
+  "UdefIdentity": 827,
+  "UDListDefinitionId": 382,
   "Justification": "Center",
-  "Version": 400,
-  "TemplateVariableName": "Bradtke, Torphy and Quitzon",
+  "Version": 21,
+  "TemplateVariableName": "Nitzsche, Pfannerstill and Barton",
   "HasBeenPublished": false,
-  "MdoListName": "Deckow Inc and Sons",
+  "MdoListName": "Howell-Cartwright",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 156
+      "FieldType": "System.String",
+      "FieldLength": 22
     }
   }
 }

@@ -2,6 +2,7 @@
 title: GET List/Source/Items/{id}
 uid: v1SourceList_GetSource
 generated: true
+content_type: reference
 ---
 
 # GET List/Source/Items/{id}
@@ -75,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 758,
-  "Name": "Green LLC",
-  "Tooltip": "nulla",
-  "Deleted": true,
-  "UdListDefinitionId": 992,
-  "Rank": 203,
+  "Id": 311,
+  "Name": "Monahan Group",
+  "Tooltip": "maxime",
+  "Deleted": false,
+  "UdListDefinitionId": 51,
+  "Rank": 772,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 381
+      "FieldLength": 226
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetAllFromListName SOAP
 generated: true
 uid: Services88-List-GetAllFromListName
+content_type: reference
 ---
 
 # Services88 List GetAllFromListName

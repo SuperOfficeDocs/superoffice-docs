@@ -2,6 +2,7 @@
 title: Services88.SentryAgent.GetNewTableRight SOAP
 generated: true
 uid: Services88-Sentry-GetNewTableRight
+content_type: reference
 ---
 
 # Services88 Sentry GetNewTableRight

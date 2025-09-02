@@ -3,9 +3,9 @@ uid: TargetValueSub
 title: TargetValueSub
 description: Archive of TargetValue - used by .
 keywords: TargetValueSub archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "TargetValueSub"
@@ -407,7 +407,7 @@ Archive of TargetValue - used by .
 ## Sample
 
 ```http!
-GET /api/v1/archive/TargetValueSub?$select=associate/credentialDisplayValue,contact/contactSupportPerson/personExtra/x_person_priority_relation,contact/streetAddress/state
+GET /api/v1/archive/TargetValueSub?$select=associate/otherGroups,contact/contactSupportPerson/position,contact/contactSupportPerson/birthYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

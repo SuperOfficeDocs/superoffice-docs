@@ -2,6 +2,7 @@
 title: POST Agents/Quote/ToggleSaleTypeQuoteAttachmentDefaultIncluded
 uid: v1QuoteAgent_ToggleSaleTypeQuoteAttachmentDefaultIncluded
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/ToggleSaleTypeQuoteAttachmentDefaultIncluded
@@ -68,11 +69,11 @@ OK
 POST /api/v1/Agents/Quote/ToggleSaleTypeQuoteAttachmentDefaultIncluded
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeQuoteAttachmentId": 266
+  "SaleTypeQuoteAttachmentId": 538
 }
 ```
 

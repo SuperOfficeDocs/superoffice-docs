@@ -3,9 +3,9 @@ uid: activelanguage
 title: activelanguage
 keywords: mdoprovider mdo provider activelanguage
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "activelanguage" MDO List

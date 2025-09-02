@@ -2,6 +2,7 @@
 title: POST License/ChangeSerialNumber
 uid: v1License_ChangeSerialNumber
 generated: true
+content_type: reference
 ---
 
 # POST License/ChangeSerialNumber
@@ -28,8 +29,8 @@ Requests a new license from SuperLicense, checks if change is authorized.
 | newSerialNumber | string | **Required** New serial number to change to. |
 
 ```http
-POST /api/v1/License/ChangeSerialNumber?newCompanyName=Hane Group
-POST /api/v1/License/ChangeSerialNumber?newSerialNumber=1420325
+POST /api/v1/License/ChangeSerialNumber?newCompanyName=Hoppe-Connelly
+POST /api/v1/License/ChangeSerialNumber?newSerialNumber=656918
 ```
 
 
@@ -87,7 +88,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 482
+      "FieldLength": 278
     }
   }
 }

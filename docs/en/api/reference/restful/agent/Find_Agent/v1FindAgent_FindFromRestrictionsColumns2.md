@@ -2,6 +2,7 @@
 title: POST Agents/Find/FindFromRestrictionsColumns2
 uid: v1FindAgent_FindFromRestrictionsColumns2
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/FindFromRestrictionsColumns2
@@ -164,15 +165,15 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "natus",
-  "ProviderName": "Padberg LLC",
-  "DesiredColumns": "nisi",
-  "PageSize": 630,
-  "PageNumber": 52
+  "Restrictions": "quo",
+  "ProviderName": "Ruecker, Goldner and Frami",
+  "DesiredColumns": "voluptas",
+  "PageSize": 156,
+  "PageNumber": 407
 }
 ```
 
@@ -185,51 +186,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Schinner Group",
-      "DisplayTooltip": "cumque",
-      "DisplayType": "ut",
+      "DisplayName": "Walter LLC",
+      "DisplayTooltip": "aperiam",
+      "DisplayType": "sed",
       "CanOrderBy": true,
-      "Name": "Mueller-Konopelski",
-      "CanRestrictBy": false,
-      "RestrictionType": "culpa",
-      "RestrictionListName": "McKenzie-O'Reilly",
-      "IsVisible": true,
-      "ExtraInfo": "aliquid",
-      "Width": "debitis",
-      "IconHint": "recusandae",
-      "HeadingIconHint": "tempore"
+      "Name": "Hudson LLC",
+      "CanRestrictBy": true,
+      "RestrictionType": "consectetur",
+      "RestrictionListName": "Haley, Kunze and Kassulke",
+      "IsVisible": false,
+      "ExtraInfo": "alias",
+      "Width": "dignissimos",
+      "IconHint": "nam",
+      "HeadingIconHint": "aut"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Buckridge, Roob and Stracke",
-      "PrimaryKey": 336,
+      "EntityName": "Bashirian-Kulas",
+      "PrimaryKey": 543,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "eveniet",
-          "LinkHint": "maiores"
+          "DisplayValue": "qui",
+          "TooltipHint": "illo",
+          "LinkHint": "voluptas"
         }
       },
-      "LinkHint": "quaerat",
-      "StyleHint": "officiis",
+      "LinkHint": "id",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 600
+          "FieldLength": 835
         }
       }
     }
   ],
-  "RowCount": 353,
+  "RowCount": 661,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldType": "System.String",
+      "FieldLength": 370
     }
   }
 }

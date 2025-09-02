@@ -3,9 +3,9 @@ uid: projstatus
 title: projstatus
 keywords: mdoprovider mdo provider projstatus
 description: GenericMDOProvider reads MDO lists with default settings
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "projstatus" MDO List

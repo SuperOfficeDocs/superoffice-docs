@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.DeleteFolder SOAP
 generated: true
 uid: Services88-EMail-DeleteFolder
+content_type: reference
 ---
 
 # Services88 EMail DeleteFolder

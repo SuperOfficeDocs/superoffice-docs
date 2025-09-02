@@ -2,6 +2,7 @@
 title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 uid: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromProgId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
@@ -109,11 +110,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "tempora",
+  "ProgId": "quis",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 796,
-  "ColumnId": 254,
-  "FieldDefault": "provident",
-  "FieldHeight": 826,
-  "FieldLabel": "odio",
-  "FieldLeft": 731,
-  "FieldTop": 844,
+  "UDefFieldId": 132,
+  "ColumnId": 58,
+  "FieldDefault": "quo",
+  "FieldHeight": 900,
+  "FieldLabel": "reprehenderit",
+  "FieldLeft": 860,
+  "FieldTop": 150,
   "FieldType": "Checkbox",
-  "FieldWidth": 923,
-  "FormatMask": "ratione",
+  "FieldWidth": 547,
+  "FormatMask": "voluptates",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 818,
-  "LabelLeft": 356,
-  "LabelTop": 495,
-  "LabelWidth": 109,
-  "LastVersionId": 831,
-  "ListTableId": 188,
+  "LabelHeight": 17,
+  "LabelLeft": 506,
+  "LabelTop": 235,
+  "LabelWidth": 194,
+  "LastVersionId": 473,
+  "ListTableId": 611,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 686,
-  "ProgId": "et",
+  "Page1LineNo": 102,
+  "ProgId": "ducimus",
   "IsReadOnly": false,
-  "ShortLabel": "quia",
-  "TabOrder": 374,
-  "TextLength": 971,
-  "Tooltip": "a",
-  "UdefIdentity": 894,
-  "UDListDefinitionId": 154,
+  "ShortLabel": "quo",
+  "TabOrder": 765,
+  "TextLength": 456,
+  "Tooltip": "qui",
+  "UdefIdentity": 380,
+  "UDListDefinitionId": 549,
   "Justification": "Center",
-  "Version": 558,
-  "TemplateVariableName": "Labadie, Haag and Wisozk",
+  "Version": 438,
+  "TemplateVariableName": "Conroy Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Romaguera-Hettinger",
+  "MdoListName": "Rempel-Torphy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 815
+      "FieldLength": 458
     }
   }
 }

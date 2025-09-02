@@ -2,6 +2,7 @@
 title: GET List/QuoteApproveReason/Items/{id}
 uid: v1QuoteApproveReasonList_GetQuoteApproveReason
 generated: true
+content_type: reference
 ---
 
 # GET List/QuoteApproveReason/Items/{id}
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 51,
-  "Name": "Trantow-Smith",
-  "Tooltip": "ullam",
-  "Deleted": true,
-  "UdListDefinitionId": 349,
-  "Rank": 550,
+  "Id": 256,
+  "Name": "McDermott-Swift",
+  "Tooltip": "facere",
+  "Deleted": false,
+  "UdListDefinitionId": 431,
+  "Rank": 268,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 454
+      "FieldLength": 853
     }
   }
 }

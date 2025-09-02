@@ -2,11 +2,10 @@
 uid: enum-addresstype
 title: Enum values for AddressType
 description: Lists the enum values for AddressType.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
-redirect_from: /en/database/tables/enums/index
+content_type: reference
+envir: onsite, online
 ---
 
 # AddressType Enum

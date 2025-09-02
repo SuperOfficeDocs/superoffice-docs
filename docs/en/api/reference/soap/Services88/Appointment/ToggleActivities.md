@@ -2,6 +2,7 @@
 title: Services88.AppointmentAgent.ToggleActivities SOAP
 generated: true
 uid: Services88-Appointment-ToggleActivities
+content_type: reference
 ---
 
 # Services88 Appointment ToggleActivities

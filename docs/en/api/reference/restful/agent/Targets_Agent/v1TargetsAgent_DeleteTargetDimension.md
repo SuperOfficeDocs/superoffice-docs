@@ -2,6 +2,7 @@
 title: POST Agents/Targets/DeleteTargetDimension
 uid: v1TargetsAgent_DeleteTargetDimension
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Targets/DeleteTargetDimension
@@ -22,10 +23,10 @@ Deletes the TargetDimension
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| TargetDimensionId | int32 | **Required** The id of the TargetDimension to be deleted. |
+| targetDimensionId | int32 | **Required** The identity of the TargetDimension |
 
 ```http
-POST /api/v1/Agents/Targets/DeleteTargetDimension?TargetDimensionId=438
+POST /api/v1/Agents/Targets/DeleteTargetDimension?targetDimensionId=596
 ```
 
 

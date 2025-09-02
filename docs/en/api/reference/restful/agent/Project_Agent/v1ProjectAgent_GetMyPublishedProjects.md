@@ -2,6 +2,7 @@
 title: POST Agents/Project/GetMyPublishedProjects
 uid: v1ProjectAgent_GetMyPublishedProjects
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/GetMyPublishedProjects
@@ -82,7 +83,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +94,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 487,
-    "Name": "Gusikowski Inc and Sons",
-    "Description": "Upgradable logistical algorithm",
+    "ProjectId": 261,
+    "Name": "King Inc and Sons",
+    "Description": "Fully-configurable exuding moratorium",
     "URL": "http://www.example.com/",
-    "Type": "maiores",
-    "AssociateId": 241,
-    "AssociateFullName": "Jackeline Medhurst",
-    "TypeId": 154,
-    "Updated": "2020-06-01T03:45:23.7798203+02:00",
-    "StatusId": 628,
-    "Status": "ea",
-    "TextId": 402,
-    "PublishTo": "1999-10-04T03:45:23.7798203+02:00",
-    "PublishFrom": "2001-07-05T03:45:23.7798203+02:00",
+    "Type": "tempora",
+    "AssociateId": 756,
+    "AssociateFullName": "Loyce Hand",
+    "TypeId": 299,
+    "Updated": "2019-12-27T03:46:55.1757421+01:00",
+    "StatusId": 329,
+    "Status": "a",
+    "TextId": 849,
+    "PublishTo": "2012-05-22T03:46:55.1757421+02:00",
+    "PublishFrom": "2012-10-15T03:46:55.1757421+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1400721",
-    "ActiveErpLinks": 359,
+    "ProjectNumber": "537017",
+    "ActiveErpLinks": 663,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 647
+        "FieldType": "System.String",
+        "FieldLength": 973
       }
     }
   }

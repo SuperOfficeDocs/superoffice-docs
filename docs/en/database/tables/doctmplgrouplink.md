@@ -2,10 +2,10 @@
 uid: table-DocTmplGroupLink
 title: DocTmplGroupLink table
 description: User group link table for DocTmpl, for MDO item hiding
-so.generated: true
+generated: true
 keywords: database table DocTmplGroupLink
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # DocTmplGroupLink Table (131)

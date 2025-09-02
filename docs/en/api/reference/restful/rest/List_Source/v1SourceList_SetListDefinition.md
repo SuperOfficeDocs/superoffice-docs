@@ -2,6 +2,7 @@
 title: PUT List/Source
 uid: v1SourceList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/Source
@@ -84,19 +85,19 @@ OK
 PUT /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 411,
-  "Name": "O'Connell, Carroll and Olson",
-  "Tooltip": "unde",
+  "Id": 478,
+  "Name": "Hills-Jerde",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 652,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 71,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "autem",
+  "ListType": "ratione",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 231,
-  "Name": "Konopelski, Luettgen and D'Amore",
-  "Tooltip": "dolor",
+  "Id": 432,
+  "Name": "Nicolas, Hane and Lakin",
+  "Tooltip": "itaque",
   "Deleted": false,
-  "Rank": 241,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "est",
-  "InUseByUserDefinedFields": true,
+  "Rank": 787,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "non",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 577
+      "FieldLength": 966
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.SaveDefaultValueInfo SOAP
 generated: true
 uid: Services88-ErpSync-SaveDefaultValueInfo
+content_type: reference
 ---
 
 # Services88 ErpSync SaveDefaultValueInfo

@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.SetRepliedAt SOAP
 generated: true
 uid: Services88-EMail-SetRepliedAt
+content_type: reference
 ---
 
 # Services88 EMail SetRepliedAt

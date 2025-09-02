@@ -2,6 +2,7 @@
 title: POST DashTileDefinition
 uid: v1DashTileDefinition_PostDashTileDefinition
 generated: true
+content_type: reference
 ---
 
 # POST DashTileDefinition
@@ -116,25 +117,25 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 523,
-  "Name": "Bernier-Parker",
-  "Description": "Self-enabling grid-enabled forecast",
-  "DefaultHeight": 806,
-  "DefaultWidth": 788,
+  "DashboardTileDefinitionId": 875,
+  "Name": "Smith, Wilderman and Baumbach",
+  "Description": "Quality-focused needs-based throughput",
+  "DefaultHeight": 59,
+  "DefaultWidth": 641,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Hamill, Johns and Boehm",
-  "SelectionId": 12,
+  "EntityName": "Buckridge Inc and Sons",
+  "SelectionId": 325,
   "CurrencyMode": "Base",
-  "CurrencyCode": "perferendis",
+  "CurrencyCode": "similique",
   "Measure": "Average",
-  "MeasureField": "sint",
-  "SortBy": "hic",
-  "LayoutConfig": "aspernatur",
-  "SecondarySelectionId": 941,
-  "MeasureByField": "sapiente",
+  "MeasureField": "adipisci",
+  "SortBy": "minima",
+  "LayoutConfig": "quisquam",
+  "SecondarySelectionId": 693,
+  "MeasureByField": "consequatur",
   "Usage": "Dashboard",
-  "ProviderName": "Runolfsson Inc and Sons"
+  "ProviderName": "Kessler-Kshlerin"
 }
 ```
 
@@ -145,36 +146,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 536,
-  "Name": "Hamill, Leuschke and Veum",
-  "Description": "Focused incremental orchestration",
-  "DefaultHeight": 349,
-  "DefaultWidth": 863,
+  "DashboardTileDefinitionId": 153,
+  "Name": "Osinski LLC",
+  "Description": "Cross-group real-time projection",
+  "DefaultHeight": 772,
+  "DefaultWidth": 440,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Price-Price",
-  "SelectionId": 447,
+  "EntityName": "Bruen Group",
+  "SelectionId": 862,
   "CurrencyMode": "Base",
-  "CurrencyCode": "distinctio",
+  "CurrencyCode": "necessitatibus",
   "Measure": "Average",
-  "MeasureField": "facilis",
-  "SortBy": "provident",
-  "LayoutConfig": "at",
-  "SecondarySelectionId": 10,
-  "MeasureByField": "atque",
+  "MeasureField": "tempora",
+  "SortBy": "aut",
+  "LayoutConfig": "exercitationem",
+  "SecondarySelectionId": 564,
+  "MeasureByField": "dolore",
   "Usage": "Dashboard",
-  "ProviderName": "Schultz, Nicolas and Swaniawski",
+  "ProviderName": "Lang Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 407
+      "FieldLength": 535
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

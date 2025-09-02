@@ -2,6 +2,7 @@
 title: GET List/ReasonSold/Items/{id}/Headings
 uid: v1ReasonSoldList_GetReasonSoldHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/ReasonSold/Items/{id}/Headings
@@ -85,7 +86,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 986,
-    "Name": "Kris, Gulgowski and Weber",
-    "ToolTip": "Corporis autem.",
+    "Id": 559,
+    "Name": "Blick-Boyle",
+    "ToolTip": "Nihil laboriosam aut.",
     "Deleted": false,
-    "Rank": 25,
-    "Type": "illum",
-    "ColorBlock": 352,
-    "IconHint": "enim",
+    "Rank": 679,
+    "Type": "natus",
+    "ColorBlock": 905,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2002-03-26T03:45:29.2015441+01:00",
+    "LastChanged": "2016-04-21T03:47:00.8005429+02:00",
     "ChildItems": [
       {
-        "Id": 816,
-        "Name": "Hettinger-Konopelski",
-        "ToolTip": "Dolores facilis illo asperiores temporibus.",
+        "Id": 142,
+        "Name": "Torp, Gleason and Bayer",
+        "ToolTip": "Dolores et.",
         "Deleted": false,
-        "Rank": 56,
-        "Type": "quia",
-        "ColorBlock": 868,
-        "IconHint": "sint",
-        "Selected": true,
-        "LastChanged": "2004-08-10T03:45:29.2015441+02:00",
+        "Rank": 208,
+        "Type": "sapiente",
+        "ColorBlock": 212,
+        "IconHint": "quas",
+        "Selected": false,
+        "LastChanged": "2021-09-05T03:47:00.8005429+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "nesciunt",
+        "ExtraInfo": "illo",
+        "StyleHint": "doloribus",
         "Hidden": false,
-        "FullName": "Crystel Treutel",
+        "FullName": "Lazaro Kuhn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 579
+            "FieldType": "System.Int32",
+            "FieldLength": 447
           }
         }
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "ipsum",
+    "ExtraInfo": "et",
+    "StyleHint": "dignissimos",
     "Hidden": false,
-    "FullName": "Luz Schmidt",
+    "FullName": "Prof. Matilda Quigley III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 350
+        "FieldType": "System.Int32",
+        "FieldLength": 716
       }
     }
   }

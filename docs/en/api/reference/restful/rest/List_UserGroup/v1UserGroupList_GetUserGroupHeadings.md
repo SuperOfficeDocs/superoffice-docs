@@ -2,6 +2,7 @@
 title: GET List/UserGroup/Headings
 uid: v1UserGroupList_GetUserGroupHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/UserGroup/Headings
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 396,
-    "Name": "Wolf-Connelly",
-    "Tooltip": "doloremque",
-    "Deleted": false,
-    "Rank": 436,
-    "UdListDefinitionId": 442,
+    "HeadingId": 288,
+    "Name": "Dickinson, Christiansen and Littel",
+    "Tooltip": "illum",
+    "Deleted": true,
+    "Rank": 817,
+    "UdListDefinitionId": 565,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 626
+        "FieldLength": 144
       }
     }
   }

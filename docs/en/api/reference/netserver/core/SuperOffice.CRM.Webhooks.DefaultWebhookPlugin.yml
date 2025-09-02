@@ -5,7 +5,7 @@ items:
   id: DefaultWebhookPlugin
   parent: SuperOffice.CRM.Webhooks
   children:
-  - SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.#ctor(SuperOffice.CRM.Webhooks.IWebhookTransmitter)
+  - SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.#ctor(SuperOffice.CRM.Webhooks.IWebhookTransmitter,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.DefaultWebhookPlugin})
   - SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.AddToWebhookCountersAsync(System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.DeleteWebhookAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.Dispose
@@ -30,11 +30,19 @@ items:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Webhooks
   summary: >-
-    Default on-site webhook plugin.
+    Default webhook plugin.
 
     The plugin handles broadcasting the HTTP hooks to subscribing systems, and saving and storing the 
 
     plugin info in the local database.
+  remarks: >-
+    Actual broadcast of webhook events is in the <xref href="SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.NotifyAsync(SuperOffice.CRM.Webhooks.Webhook%2cSuperOffice.CRM.Webhooks.WebhookPayload%2cSystem.Threading.CancellationToken)" data-throw-if-not-resolved="false"></xref> method. REST webhooks are notified through the <xref href="SuperOffice.CRM.Webhooks.IWebhookTransmitter" data-throw-if-not-resolved="false"></xref>.
+
+    Other webhooks are notified through their own plugins, classes parallel to this one.
+
+    The rest of the code is about defining and
+
+    administration of the definitions of webhooks.
   example: []
   syntax:
     content: >-
@@ -89,30 +97,32 @@ items:
     return:
       type: SuperOffice.CRM.Webhooks.IWebhookTransmitter
     content.vb: Protected ReadOnly _webhookTransmitter As IWebhookTransmitter
-- uid: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.#ctor(SuperOffice.CRM.Webhooks.IWebhookTransmitter)
-  commentId: M:SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.#ctor(SuperOffice.CRM.Webhooks.IWebhookTransmitter)
-  id: '#ctor(SuperOffice.CRM.Webhooks.IWebhookTransmitter)'
+- uid: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.#ctor(SuperOffice.CRM.Webhooks.IWebhookTransmitter,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.DefaultWebhookPlugin})
+  commentId: M:SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.#ctor(SuperOffice.CRM.Webhooks.IWebhookTransmitter,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.DefaultWebhookPlugin})
+  id: '#ctor(SuperOffice.CRM.Webhooks.IWebhookTransmitter,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.DefaultWebhookPlugin})'
   parent: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin
   langs:
   - csharp
   - vb
-  name: DefaultWebhookPlugin(IWebhookTransmitter)
-  nameWithType: DefaultWebhookPlugin.DefaultWebhookPlugin(IWebhookTransmitter)
-  fullName: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.DefaultWebhookPlugin(SuperOffice.CRM.Webhooks.IWebhookTransmitter)
+  name: DefaultWebhookPlugin(IWebhookTransmitter, ILogger<DefaultWebhookPlugin>)
+  nameWithType: DefaultWebhookPlugin.DefaultWebhookPlugin(IWebhookTransmitter, ILogger<DefaultWebhookPlugin>)
+  fullName: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.DefaultWebhookPlugin(SuperOffice.CRM.Webhooks.IWebhookTransmitter, Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.Webhooks.DefaultWebhookPlugin>)
   type: Constructor
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Webhooks
   syntax:
-    content: public DefaultWebhookPlugin(IWebhookTransmitter webhookTransmitter)
+    content: public DefaultWebhookPlugin(IWebhookTransmitter webhookTransmitter, ILogger<DefaultWebhookPlugin> logger)
     parameters:
     - id: webhookTransmitter
       type: SuperOffice.CRM.Webhooks.IWebhookTransmitter
-    content.vb: Public Sub New(webhookTransmitter As IWebhookTransmitter)
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.DefaultWebhookPlugin}
+    content.vb: Public Sub New(webhookTransmitter As IWebhookTransmitter, logger As ILogger(Of DefaultWebhookPlugin))
   overload: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.#ctor*
-  nameWithType.vb: DefaultWebhookPlugin.New(IWebhookTransmitter)
-  fullName.vb: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.New(SuperOffice.CRM.Webhooks.IWebhookTransmitter)
-  name.vb: New(IWebhookTransmitter)
+  nameWithType.vb: DefaultWebhookPlugin.New(IWebhookTransmitter, ILogger(Of DefaultWebhookPlugin))
+  fullName.vb: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.New(SuperOffice.CRM.Webhooks.IWebhookTransmitter, Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Webhooks.DefaultWebhookPlugin))
+  name.vb: New(IWebhookTransmitter, ILogger(Of DefaultWebhookPlugin))
 - uid: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.GetAllWebhooksAsync(System.String,System.String,System.String,System.Nullable{SuperOffice.CRM.Webhooks.WebhookState},System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.GetAllWebhooksAsync(System.String,System.String,System.String,System.Nullable{SuperOffice.CRM.Webhooks.WebhookState},System.Threading.CancellationToken)
   id: GetAllWebhooksAsync(System.String,System.String,System.String,System.Nullable{SuperOffice.CRM.Webhooks.WebhookState},System.Threading.CancellationToken)
@@ -498,6 +508,63 @@ items:
   implements:
   - System.IDisposable.Dispose
 references:
+- uid: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.NotifyAsync(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.NotifyAsync(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload,System.Threading.CancellationToken)
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.html#SuperOffice_CRM_Webhooks_DefaultWebhookPlugin_NotifyAsync_SuperOffice_CRM_Webhooks_Webhook_SuperOffice_CRM_Webhooks_WebhookPayload_System_Threading_CancellationToken_
+  name: NotifyAsync(Webhook, WebhookPayload, CancellationToken)
+  nameWithType: DefaultWebhookPlugin.NotifyAsync(Webhook, WebhookPayload, CancellationToken)
+  fullName: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.NotifyAsync(SuperOffice.CRM.Webhooks.Webhook, SuperOffice.CRM.Webhooks.WebhookPayload, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.NotifyAsync(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload,System.Threading.CancellationToken)
+    name: NotifyAsync
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.html#SuperOffice_CRM_Webhooks_DefaultWebhookPlugin_NotifyAsync_SuperOffice_CRM_Webhooks_Webhook_SuperOffice_CRM_Webhooks_WebhookPayload_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.CRM.Webhooks.Webhook
+    name: Webhook
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Webhooks.WebhookPayload
+    name: WebhookPayload
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.NotifyAsync(SuperOffice.CRM.Webhooks.Webhook,SuperOffice.CRM.Webhooks.WebhookPayload,System.Threading.CancellationToken)
+    name: NotifyAsync
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.html#SuperOffice_CRM_Webhooks_DefaultWebhookPlugin_NotifyAsync_SuperOffice_CRM_Webhooks_Webhook_SuperOffice_CRM_Webhooks_WebhookPayload_System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.CRM.Webhooks.Webhook
+    name: Webhook
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.CRM.Webhooks.WebhookPayload
+    name: WebhookPayload
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Webhooks.IWebhookTransmitter
+  commentId: T:SuperOffice.CRM.Webhooks.IWebhookTransmitter
+  parent: SuperOffice.CRM.Webhooks
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.IWebhookTransmitter.html
+  name: IWebhookTransmitter
+  nameWithType: IWebhookTransmitter
+  fullName: SuperOffice.CRM.Webhooks.IWebhookTransmitter
 - uid: SuperOffice.CRM.Webhooks
   commentId: N:SuperOffice.CRM.Webhooks
   isExternal: true
@@ -1034,24 +1101,116 @@ references:
     name: ConnectorWS
     isExternal: true
     href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.CRM.Webhooks.IWebhookTransmitter
-  commentId: T:SuperOffice.CRM.Webhooks.IWebhookTransmitter
-  parent: SuperOffice.CRM.Webhooks
-  isExternal: true
-  href: SuperOffice.CRM.Webhooks.IWebhookTransmitter.html
-  name: IWebhookTransmitter
-  nameWithType: IWebhookTransmitter
-  fullName: SuperOffice.CRM.Webhooks.IWebhookTransmitter
 - uid: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.#ctor*
   commentId: Overload:SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.html#SuperOffice_CRM_Webhooks_DefaultWebhookPlugin__ctor_SuperOffice_CRM_Webhooks_IWebhookTransmitter_
+  href: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.html#SuperOffice_CRM_Webhooks_DefaultWebhookPlugin__ctor_SuperOffice_CRM_Webhooks_IWebhookTransmitter_Microsoft_Extensions_Logging_ILogger_SuperOffice_CRM_Webhooks_DefaultWebhookPlugin__
   name: DefaultWebhookPlugin
   nameWithType: DefaultWebhookPlugin.DefaultWebhookPlugin
   fullName: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.DefaultWebhookPlugin
   nameWithType.vb: DefaultWebhookPlugin.New
   fullName.vb: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.New
   name.vb: New
+- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.DefaultWebhookPlugin}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.DefaultWebhookPlugin}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<DefaultWebhookPlugin>
+  nameWithType: ILogger<DefaultWebhookPlugin>
+  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.Webhooks.DefaultWebhookPlugin>
+  nameWithType.vb: ILogger(Of DefaultWebhookPlugin)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Webhooks.DefaultWebhookPlugin)
+  name.vb: ILogger(Of DefaultWebhookPlugin)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin
+    name: DefaultWebhookPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin
+    name: DefaultWebhookPlugin
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.html
+  - name: )
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
 - uid: SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.GetAllWebhooksAsync*
   commentId: Overload:SuperOffice.CRM.Webhooks.DefaultWebhookPlugin.GetAllWebhooksAsync
   isExternal: true

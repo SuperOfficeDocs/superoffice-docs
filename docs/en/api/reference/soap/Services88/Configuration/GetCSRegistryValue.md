@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.GetCSRegistryValue SOAP
 generated: true
 uid: Services88-Configuration-GetCSRegistryValue
+content_type: reference
 ---
 
 # Services88 Configuration GetCSRegistryValue

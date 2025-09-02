@@ -2,6 +2,7 @@
 title: POST Agents/License/AssignThirdPartyLicenses
 uid: v1LicenseAgent_AssignThirdPartyLicenses
 generated: true
+content_type: reference
 ---
 
 # POST Agents/License/AssignThirdPartyLicenses
@@ -88,15 +89,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 376,
-  "ModuleOwner": "vel",
+  "AssociateId": 100,
+  "ModuleOwner": "voluptatem",
   "ModuleLicenseNames": [
-    "Pfeffer, Koepp and Gerhold",
-    "Murphy Group"
+    "Stiedemann-McLaughlin",
+    "Fadel-Blick"
   ]
 }
 ```
@@ -110,25 +111,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 325,
-    "Tooltip": "quasi",
-    "CanAssign": true,
-    "Free": 434,
-    "InUse": 18,
+    "Total": 26,
+    "Tooltip": "provident",
+    "CanAssign": false,
+    "Free": 102,
+    "InUse": 487,
     "IsHidden": true,
-    "Assigned": false,
-    "ModuleLicenseId": 952,
-    "Name": "Will, Dicki and Corkery",
-    "Description": "Robust web-enabled productivity",
-    "PrerequisiteModuleName": "Thompson-Wunsch",
-    "SortOrder": 287,
-    "ExtraFlags": 722,
+    "Assigned": true,
+    "ModuleLicenseId": 955,
+    "Name": "Herzog Inc and Sons",
+    "Description": "Configurable scalable Graphical User Interface",
+    "PrerequisiteModuleName": "O'Kon Inc and Sons",
+    "SortOrder": 387,
+    "ExtraFlags": 281,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 953
+        "FieldType": "System.Int32",
+        "FieldLength": 285
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/AI/CreateTextForAppointment
 uid: v1AIAgent_CreateTextForAppointment
 generated: true
+content_type: reference
 ---
 
 # POST Agents/AI/CreateTextForAppointment
@@ -69,12 +70,12 @@ OK
 POST /api/v1/Agents/AI/CreateTextForAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Appointment": null,
-  "IsoLangCode": "dicta"
+  "IsoLangCode": "voluptates"
 }
 ```
 
@@ -84,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"inventore"
+"nostrum"
 ```

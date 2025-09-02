@@ -2,6 +2,7 @@
 title: POST ChatSession/{id}/Reset
 uid: v1ChatSessionEntity_ResetChatSession
 generated: true
+content_type: reference
 ---
 
 # POST ChatSession/{id}/Reset
@@ -91,7 +92,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Reset
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,29 +102,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 391,
-  "TopicId": 186,
+  "ChatSessionId": 498,
+  "TopicId": 237,
   "User": null,
   "Person": null,
-  "CustomerAlias": "eum",
-  "CustomerHost": "dignissimos",
-  "CustomerName": "Bradtke-Bartoletti",
-  "CustomerEmail": "helmer@okunevasimonis.biz",
-  "CustomerPhone": "246.380.5950 x08245",
+  "CustomerAlias": "ut",
+  "CustomerHost": "vel",
+  "CustomerName": "Marquardt-Jacobson",
+  "CustomerEmail": "aubrey.jewess@beatty.name",
+  "CustomerPhone": "(553)084-7154",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Gutkowski, Yundt and Keeling",
+  "CustomerCompanyName": "Smith-Wolf",
   "Status": "Closed",
-  "FirstMessage": "commodi",
-  "LastMessage": "eum",
-  "WhenRequested": "2004-10-01T03:45:28.1546963+02:00",
-  "WhenStarted": "2012-12-09T03:45:28.1546963+01:00",
-  "WhenEnded": "2001-09-25T03:45:28.1546963+02:00",
-  "WhenIdle": "2020-08-27T03:45:28.1546963+02:00",
-  "WhenFetched": "2020-04-24T03:45:28.1546963+02:00",
-  "SessionKey": "debitis",
-  "InitialQueuePos": 916,
-  "AlertLevel": 186,
-  "Rank": 396,
+  "FirstMessage": "nesciunt",
+  "LastMessage": "excepturi",
+  "WhenRequested": "1999-03-16T03:46:59.7849459+01:00",
+  "WhenStarted": "2010-12-22T03:46:59.7849459+01:00",
+  "WhenEnded": "2022-03-27T03:46:59.7849459+02:00",
+  "WhenIdle": "2002-04-18T03:46:59.7849459+02:00",
+  "WhenFetched": "2002-07-21T03:46:59.7849459+02:00",
+  "SessionKey": "culpa",
+  "InitialQueuePos": 493,
+  "AlertLevel": 994,
+  "Rank": 806,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +132,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 353,
+  "Rating": 388,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 17
+      "FieldType": "System.String",
+      "FieldLength": 207
     }
   }
 }

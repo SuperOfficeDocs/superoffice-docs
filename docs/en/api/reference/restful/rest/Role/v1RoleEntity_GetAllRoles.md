@@ -2,6 +2,7 @@
 title: GET Role/{roleType}
 uid: v1RoleEntity_GetAllRoles
 generated: true
+content_type: reference
 ---
 
 # GET Role/{roleType}
@@ -78,7 +79,7 @@ OK
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 340,
-    "Name": "Mante-Abbott",
-    "ToolTip": "Et velit aut sed.",
+    "Id": 119,
+    "Name": "Treutel LLC",
+    "ToolTip": "Ut praesentium corrupti.",
     "Deleted": false,
-    "Rank": 377,
-    "Type": "culpa",
-    "ColorBlock": 971,
-    "IconHint": "corporis",
+    "Rank": 643,
+    "Type": "aperiam",
+    "ColorBlock": 353,
+    "IconHint": "necessitatibus",
     "Selected": false,
-    "LastChanged": "2019-12-23T03:45:28.5453063+01:00",
+    "LastChanged": "2012-11-12T03:47:00.2224384+01:00",
     "ChildItems": [
       {
-        "Id": 751,
-        "Name": "Miller-Schuster",
-        "ToolTip": "Distinctio qui inventore nobis et et amet.",
-        "Deleted": false,
-        "Rank": 577,
-        "Type": "odio",
-        "ColorBlock": 670,
-        "IconHint": "esse",
+        "Id": 577,
+        "Name": "Jenkins-Stracke",
+        "ToolTip": "Delectus ex nemo cumque dolores.",
+        "Deleted": true,
+        "Rank": 419,
+        "Type": "sed",
+        "ColorBlock": 938,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2006-01-02T03:45:28.5453063+01:00",
+        "LastChanged": "2014-10-25T03:47:00.2224384+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "possimus",
-        "StyleHint": "soluta",
+        "ExtraInfo": "qui",
+        "StyleHint": "alias",
         "Hidden": false,
-        "FullName": "Miss Lia Mayer",
+        "FullName": "Ofelia Gregory Heaney DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 322
+            "FieldType": "System.String",
+            "FieldLength": 542
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "fugit",
-    "Hidden": false,
-    "FullName": "Chance Moen",
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "necessitatibus",
+    "Hidden": true,
+    "FullName": "Mr. Edd Keanu Orn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 813
+        "FieldType": "System.String",
+        "FieldLength": 528
       }
     }
   }

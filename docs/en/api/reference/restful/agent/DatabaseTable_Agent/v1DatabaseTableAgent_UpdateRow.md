@@ -2,6 +2,7 @@
 title: POST Agents/DatabaseTable/UpdateRow
 uid: v1DatabaseTableAgent_UpdateRow
 generated: true
+content_type: reference
 ---
 
 # POST Agents/DatabaseTable/UpdateRow
@@ -70,11 +71,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Lowe Inc and Sons",
-  "Id": 221,
+  "TableName": "Kshlerin-West",
+  "Id": 594,
   "Values": {
-    "Values1": "velit",
-    "Values2": "rerum"
+    "Values1": "quis",
+    "Values2": "aperiam"
   }
 }
 ```

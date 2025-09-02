@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.CalculateMessageRecipients SOAP
 generated: true
 uid: Services88-Ticket-CalculateMessageRecipients
+content_type: reference
 ---
 
 # Services88 Ticket CalculateMessageRecipients

@@ -3,9 +3,9 @@ uid: CustomObjectDynamicSelectionSingleCriteriaGroup
 title: CustomObjectDynamicSelectionSingleCriteriaGroup
 description: CustomObject selection archive using the selectionId as criterionmapping.
 keywords: CustomObjectDynamicSelectionSingleCriteriaGroup archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "CustomObjectDynamicSelectionSingleCriteriaGroup"

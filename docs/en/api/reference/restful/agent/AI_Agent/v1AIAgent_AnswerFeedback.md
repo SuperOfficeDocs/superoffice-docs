@@ -2,6 +2,7 @@
 title: POST Agents/AI/AnswerFeedback
 uid: v1AIAgent_AnswerFeedback
 generated: true
+content_type: reference
 ---
 
 # POST Agents/AI/AnswerFeedback
@@ -65,12 +66,12 @@ No Content
 POST /api/v1/Agents/AI/AnswerFeedback
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TrackingId": "quae",
-  "IsThumbsUp": false
+  "TrackingId": "eaque",
+  "IsThumbsUp": true
 }
 ```
 

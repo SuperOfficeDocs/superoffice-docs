@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveTicketCategoryEntity
 uid: v1ListAgent_SaveTicketCategoryEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveTicketCategoryEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 ```
 
-Updates the existing TicketCategoryEntity or creates a new TicketCategoryEntity if the id parameter is empty
+Updates the existing TicketCategoryEntity or creates a new TicketCategoryEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing TicketCategoryEntity or creates a new TicketCategoryEntity 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: ticketCategoryEntity 
 
-The TicketCategoryEntity to be saved. 
+The TicketCategoryEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -97,33 +98,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 46,
-  "ParentId": 524,
-  "Name": "Stamm-Dickinson",
-  "Fullname": "molestias",
-  "CategoryMaster": 282,
+  "TicketCategoryId": 997,
+  "ParentId": 617,
+  "Name": "Bahringer-Turner",
+  "Fullname": "cupiditate",
+  "CategoryMaster": 741,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Wyman, Halvorson and Robel",
+  "ExternalName": "Cremin LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 425,
-  "ReplyTemplate": 535,
-  "NotificationEmail": "annie.kreiger@goodwin.ca",
+  "AssignmentLag": 735,
+  "ReplyTemplate": 307,
+  "NotificationEmail": "viola@christiansen.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 37,
+  "EffectiveReplyTemplateId": 392,
   "ExtraFields": {
-    "ExtraFields1": "vitae",
-    "ExtraFields2": "tenetur"
+    "ExtraFields1": "in",
+    "ExtraFields2": "eveniet"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "praesentium"
+    "CustomFields1": "et",
+    "CustomFields2": "vel"
   }
 }
 ```
@@ -135,36 +136,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 783,
-  "ParentId": 276,
-  "Name": "Hartmann-Lehner",
-  "Fullname": "nam",
-  "CategoryMaster": 599,
+  "TicketCategoryId": 383,
+  "ParentId": 585,
+  "Name": "Reinger, Bergnaum and Lind",
+  "Fullname": "distinctio",
+  "CategoryMaster": 632,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Huel Inc and Sons",
+  "ExternalName": "Howell, Considine and Bradtke",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 492,
-  "ReplyTemplate": 828,
-  "NotificationEmail": "imogene@senger.ca",
+  "AssignmentLag": 298,
+  "ReplyTemplate": 921,
+  "NotificationEmail": "mitchell.glover@huelwitting.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 762,
+  "EffectiveReplyTemplateId": 902,
   "ExtraFields": {
-    "ExtraFields1": "exercitationem",
-    "ExtraFields2": "et"
+    "ExtraFields1": "deserunt",
+    "ExtraFields2": "earum"
   },
   "CustomFields": {
-    "CustomFields1": "fugiat",
-    "CustomFields2": "magni"
+    "CustomFields1": "eveniet",
+    "CustomFields2": "quo"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 811
+      "FieldType": "System.String",
+      "FieldLength": 793
     }
   }
 }

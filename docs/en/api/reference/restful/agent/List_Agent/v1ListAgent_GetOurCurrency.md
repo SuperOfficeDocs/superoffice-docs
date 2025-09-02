@@ -2,6 +2,7 @@
 title: POST Agents/List/GetOurCurrency
 uid: v1ListAgent_GetOurCurrency
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetOurCurrency
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/List/GetOurCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,15 +78,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 883,
+  "Id": 20,
   "Value": "et",
-  "Tooltip": "sequi",
+  "Tooltip": "illum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 657
+      "FieldType": "System.String",
+      "FieldLength": 158
     }
   }
 }

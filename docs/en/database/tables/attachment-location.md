@@ -2,10 +2,10 @@
 uid: table-attachment_location
 title: attachment_location table
 description: A location for storing attachments
-so.generated: true
+generated: true
 keywords: database table attachment_location
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # attachment\_location Table (476)

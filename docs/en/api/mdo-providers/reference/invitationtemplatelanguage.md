@@ -3,9 +3,9 @@ uid: invitationtemplatelanguage
 title: invitationtemplatelanguage
 keywords: mdoprovider mdo provider invitationtemplatelanguage
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "invitationtemplatelanguage" MDO List

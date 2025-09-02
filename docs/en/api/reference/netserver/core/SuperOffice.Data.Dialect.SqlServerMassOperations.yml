@@ -6,6 +6,11 @@ items:
   parent: SuperOffice.Data.Dialect
   children:
   - SuperOffice.Data.Dialect.SqlServerMassOperations.#ctor
+  - SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTargetFromTempSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  - SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithDataMatchSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  - SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithKeyMatchSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  - SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithNewKeysSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  - SuperOffice.Data.Dialect.SqlServerMassOperations.GetZeroOutColumnsSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField[])
   langs:
   - csharp
   - vb
@@ -25,10 +30,15 @@ items:
   implements:
   - SuperOffice.Data.Dialect.IMassOperations
   inheritedMembers:
+  - SuperOffice.Data.Dialect.MassOperations._dbOps
+  - SuperOffice.Data.Dialect.MassOperations.VerifyRights
   - SuperOffice.Data.Dialect.MassOperations.InsertAsync(System.String,System.String[],System.String[][],System.Threading.CancellationToken)
   - SuperOffice.Data.Dialect.MassOperations.TruncateAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.Data.Dialect.MassOperations.UpsertAsync(System.String,System.String[],System.String[],System.String[][],SuperOffice.Data.UpsertNomatchAction,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.Data.Dialect.MassOperations.ToCarrierStatus(System.Int32)
   - SuperOffice.Data.Dialect.MassOperations.DeleteAsync(System.String,System.Int32[])
+  - SuperOffice.Data.Dialect.MassOperations.GetTargetInformation(System.String)
+  - SuperOffice.Data.Dialect.MassOperations.ReformatColumnsForImport(SuperOffice.Data.Dictionary.SoTable,System.String[],System.Collections.Generic.IEnumerable{System.String[]},System.Int32[],System.Collections.Generic.Dictionary{SuperOffice.Util.ComplexKey,SuperOffice.Data.Dialect.MassOperations.RowInfo},SuperOffice.Data.UDefType,System.Collections.Generic.Dictionary{System.Int32,System.Int32},System.Collections.Generic.List{System.Collections.Generic.List{System.String}})
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -41,6 +51,194 @@ items:
   - SuperOffice.Data.Dialect.SqlServerMassOperations.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
   - SuperOffice.Data.Dialect.SqlServerMassOperations.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.Dialect.SqlServerMassOperations)
   - SuperOffice.Data.Dialect.SqlServerMassOperations.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+- uid: SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithKeyMatchSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  commentId: M:SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithKeyMatchSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  id: GetUpdateTempTableWithKeyMatchSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  parent: SuperOffice.Data.Dialect.SqlServerMassOperations
+  langs:
+  - csharp
+  - vb
+  name: GetUpdateTempTableWithKeyMatchSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable<string>)
+  nameWithType: SqlServerMassOperations.GetUpdateTempTableWithKeyMatchSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable<string>)
+  fullName: SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithKeyMatchSql(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, System.Collections.Generic.IEnumerable<string>)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Dialect
+  example: []
+  syntax:
+    content: protected override string GetUpdateTempTableWithKeyMatchSql(SoTable tempTable, SoTable targetTable, SoField tempId, SoField targetId, SoField tempStatus, IEnumerable<string> keys)
+    parameters:
+    - id: tempTable
+      type: SuperOffice.Data.Dictionary.SoTable
+    - id: targetTable
+      type: SuperOffice.Data.Dictionary.SoTable
+    - id: tempId
+      type: SuperOffice.Data.Dictionary.SoField
+    - id: targetId
+      type: SuperOffice.Data.Dictionary.SoField
+    - id: tempStatus
+      type: SuperOffice.Data.Dictionary.SoField
+    - id: keys
+      type: System.Collections.Generic.IEnumerable{System.String}
+    return:
+      type: System.String
+    content.vb: Protected Overrides Function GetUpdateTempTableWithKeyMatchSql(tempTable As SoTable, targetTable As SoTable, tempId As SoField, targetId As SoField, tempStatus As SoField, keys As IEnumerable(Of String)) As String
+  overridden: SuperOffice.Data.Dialect.MassOperations.GetUpdateTempTableWithKeyMatchSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  overload: SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithKeyMatchSql*
+  nameWithType.vb: SqlServerMassOperations.GetUpdateTempTableWithKeyMatchSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable(Of String))
+  fullName.vb: SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithKeyMatchSql(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, System.Collections.Generic.IEnumerable(Of String))
+  name.vb: GetUpdateTempTableWithKeyMatchSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable(Of String))
+- uid: SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithDataMatchSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  commentId: M:SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithDataMatchSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  id: GetUpdateTempTableWithDataMatchSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  parent: SuperOffice.Data.Dialect.SqlServerMassOperations
+  langs:
+  - csharp
+  - vb
+  name: GetUpdateTempTableWithDataMatchSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable<string>)
+  nameWithType: SqlServerMassOperations.GetUpdateTempTableWithDataMatchSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable<string>)
+  fullName: SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithDataMatchSql(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, System.Collections.Generic.IEnumerable<string>)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Dialect
+  example: []
+  syntax:
+    content: protected override string GetUpdateTempTableWithDataMatchSql(SoTable tempTable, SoTable targetTable, SoField tempId, SoField targetId, SoField tempStatus, IEnumerable<string> valueFields)
+    parameters:
+    - id: tempTable
+      type: SuperOffice.Data.Dictionary.SoTable
+    - id: targetTable
+      type: SuperOffice.Data.Dictionary.SoTable
+    - id: tempId
+      type: SuperOffice.Data.Dictionary.SoField
+    - id: targetId
+      type: SuperOffice.Data.Dictionary.SoField
+    - id: tempStatus
+      type: SuperOffice.Data.Dictionary.SoField
+    - id: valueFields
+      type: System.Collections.Generic.IEnumerable{System.String}
+    return:
+      type: System.String
+    content.vb: Protected Overrides Function GetUpdateTempTableWithDataMatchSql(tempTable As SoTable, targetTable As SoTable, tempId As SoField, targetId As SoField, tempStatus As SoField, valueFields As IEnumerable(Of String)) As String
+  overridden: SuperOffice.Data.Dialect.MassOperations.GetUpdateTempTableWithDataMatchSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  overload: SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithDataMatchSql*
+  nameWithType.vb: SqlServerMassOperations.GetUpdateTempTableWithDataMatchSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable(Of String))
+  fullName.vb: SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithDataMatchSql(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, System.Collections.Generic.IEnumerable(Of String))
+  name.vb: GetUpdateTempTableWithDataMatchSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable(Of String))
+- uid: SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTargetFromTempSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  commentId: M:SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTargetFromTempSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  id: GetUpdateTargetFromTempSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  parent: SuperOffice.Data.Dialect.SqlServerMassOperations
+  langs:
+  - csharp
+  - vb
+  name: GetUpdateTargetFromTempSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable<string>)
+  nameWithType: SqlServerMassOperations.GetUpdateTargetFromTempSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable<string>)
+  fullName: SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTargetFromTempSql(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, System.Collections.Generic.IEnumerable<string>)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Dialect
+  example: []
+  syntax:
+    content: protected override string GetUpdateTargetFromTempSql(SoTable tempTable, SoTable targetTable, SoField tempId, SoField targetId, SoField tempStatus, IEnumerable<string> valueFields)
+    parameters:
+    - id: tempTable
+      type: SuperOffice.Data.Dictionary.SoTable
+    - id: targetTable
+      type: SuperOffice.Data.Dictionary.SoTable
+    - id: tempId
+      type: SuperOffice.Data.Dictionary.SoField
+    - id: targetId
+      type: SuperOffice.Data.Dictionary.SoField
+    - id: tempStatus
+      type: SuperOffice.Data.Dictionary.SoField
+    - id: valueFields
+      type: System.Collections.Generic.IEnumerable{System.String}
+    return:
+      type: System.String
+    content.vb: Protected Overrides Function GetUpdateTargetFromTempSql(tempTable As SoTable, targetTable As SoTable, tempId As SoField, targetId As SoField, tempStatus As SoField, valueFields As IEnumerable(Of String)) As String
+  overridden: SuperOffice.Data.Dialect.MassOperations.GetUpdateTargetFromTempSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  overload: SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTargetFromTempSql*
+  nameWithType.vb: SqlServerMassOperations.GetUpdateTargetFromTempSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable(Of String))
+  fullName.vb: SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTargetFromTempSql(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, System.Collections.Generic.IEnumerable(Of String))
+  name.vb: GetUpdateTargetFromTempSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable(Of String))
+- uid: SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithNewKeysSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  commentId: M:SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithNewKeysSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  id: GetUpdateTempTableWithNewKeysSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  parent: SuperOffice.Data.Dialect.SqlServerMassOperations
+  langs:
+  - csharp
+  - vb
+  name: GetUpdateTempTableWithNewKeysSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable<string>)
+  nameWithType: SqlServerMassOperations.GetUpdateTempTableWithNewKeysSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable<string>)
+  fullName: SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithNewKeysSql(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, System.Collections.Generic.IEnumerable<string>)
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Dialect
+  example: []
+  syntax:
+    content: protected override string GetUpdateTempTableWithNewKeysSql(SoTable tempTable, SoTable targetTable, SoField tempId, SoField targetId, SoField tempStatus, IEnumerable<string> keys)
+    parameters:
+    - id: tempTable
+      type: SuperOffice.Data.Dictionary.SoTable
+    - id: targetTable
+      type: SuperOffice.Data.Dictionary.SoTable
+    - id: tempId
+      type: SuperOffice.Data.Dictionary.SoField
+    - id: targetId
+      type: SuperOffice.Data.Dictionary.SoField
+    - id: tempStatus
+      type: SuperOffice.Data.Dictionary.SoField
+    - id: keys
+      type: System.Collections.Generic.IEnumerable{System.String}
+    return:
+      type: System.String
+    content.vb: Protected Overrides Function GetUpdateTempTableWithNewKeysSql(tempTable As SoTable, targetTable As SoTable, tempId As SoField, targetId As SoField, tempStatus As SoField, keys As IEnumerable(Of String)) As String
+  overridden: SuperOffice.Data.Dialect.MassOperations.GetUpdateTempTableWithNewKeysSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  overload: SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithNewKeysSql*
+  nameWithType.vb: SqlServerMassOperations.GetUpdateTempTableWithNewKeysSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable(Of String))
+  fullName.vb: SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithNewKeysSql(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, System.Collections.Generic.IEnumerable(Of String))
+  name.vb: GetUpdateTempTableWithNewKeysSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable(Of String))
+- uid: SuperOffice.Data.Dialect.SqlServerMassOperations.GetZeroOutColumnsSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField[])
+  commentId: M:SuperOffice.Data.Dialect.SqlServerMassOperations.GetZeroOutColumnsSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField[])
+  id: GetZeroOutColumnsSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField[])
+  parent: SuperOffice.Data.Dialect.SqlServerMassOperations
+  langs:
+  - csharp
+  - vb
+  name: GetZeroOutColumnsSql(SoTable, SoTable, SoField, SoField, SoField[])
+  nameWithType: SqlServerMassOperations.GetZeroOutColumnsSql(SoTable, SoTable, SoField, SoField, SoField[])
+  fullName: SuperOffice.Data.Dialect.SqlServerMassOperations.GetZeroOutColumnsSql(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField[])
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Data.Dialect
+  example: []
+  syntax:
+    content: protected override string GetZeroOutColumnsSql(SoTable tempTable, SoTable targetTable, SoField tempId, SoField targetId, SoField[] valueFieldDefs)
+    parameters:
+    - id: tempTable
+      type: SuperOffice.Data.Dictionary.SoTable
+    - id: targetTable
+      type: SuperOffice.Data.Dictionary.SoTable
+    - id: tempId
+      type: SuperOffice.Data.Dictionary.SoField
+    - id: targetId
+      type: SuperOffice.Data.Dictionary.SoField
+    - id: valueFieldDefs
+      type: SuperOffice.Data.Dictionary.SoField[]
+    return:
+      type: System.String
+    content.vb: Protected Overrides Function GetZeroOutColumnsSql(tempTable As SoTable, targetTable As SoTable, tempId As SoField, targetId As SoField, valueFieldDefs As SoField()) As String
+  overridden: SuperOffice.Data.Dialect.MassOperations.GetZeroOutColumnsSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField[])
+  overload: SuperOffice.Data.Dialect.SqlServerMassOperations.GetZeroOutColumnsSql*
+  nameWithType.vb: SqlServerMassOperations.GetZeroOutColumnsSql(SoTable, SoTable, SoField, SoField, SoField())
+  fullName.vb: SuperOffice.Data.Dialect.SqlServerMassOperations.GetZeroOutColumnsSql(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField())
+  name.vb: GetZeroOutColumnsSql(SoTable, SoTable, SoField, SoField, SoField())
 - uid: SuperOffice.Data.Dialect.SqlServerMassOperations.#ctor
   commentId: M:SuperOffice.Data.Dialect.SqlServerMassOperations.#ctor
   id: '#ctor'
@@ -127,6 +325,36 @@ references:
   name: IMassOperations
   nameWithType: IMassOperations
   fullName: SuperOffice.Data.Dialect.IMassOperations
+- uid: SuperOffice.Data.Dialect.MassOperations._dbOps
+  commentId: F:SuperOffice.Data.Dialect.MassOperations._dbOps
+  parent: SuperOffice.Data.Dialect.MassOperations
+  isExternal: true
+  href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations__dbOps
+  name: _dbOps
+  nameWithType: MassOperations._dbOps
+  fullName: SuperOffice.Data.Dialect.MassOperations._dbOps
+- uid: SuperOffice.Data.Dialect.MassOperations.VerifyRights
+  commentId: M:SuperOffice.Data.Dialect.MassOperations.VerifyRights
+  parent: SuperOffice.Data.Dialect.MassOperations
+  isExternal: true
+  href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_VerifyRights
+  name: VerifyRights()
+  nameWithType: MassOperations.VerifyRights()
+  fullName: SuperOffice.Data.Dialect.MassOperations.VerifyRights()
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.MassOperations.VerifyRights
+    name: VerifyRights
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_VerifyRights
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.MassOperations.VerifyRights
+    name: VerifyRights
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_VerifyRights
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.Dialect.MassOperations.InsertAsync(System.String,System.String[],System.String[][],System.Threading.CancellationToken)
   commentId: M:SuperOffice.Data.Dialect.MassOperations.InsertAsync(System.String,System.String[],System.String[][],System.Threading.CancellationToken)
   parent: SuperOffice.Data.Dialect.MassOperations
@@ -372,6 +600,39 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
+- uid: SuperOffice.Data.Dialect.MassOperations.ToCarrierStatus(System.Int32)
+  commentId: M:SuperOffice.Data.Dialect.MassOperations.ToCarrierStatus(System.Int32)
+  parent: SuperOffice.Data.Dialect.MassOperations
+  isExternal: true
+  href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_ToCarrierStatus_System_Int32_
+  name: ToCarrierStatus(int)
+  nameWithType: MassOperations.ToCarrierStatus(int)
+  fullName: SuperOffice.Data.Dialect.MassOperations.ToCarrierStatus(int)
+  nameWithType.vb: MassOperations.ToCarrierStatus(Integer)
+  fullName.vb: SuperOffice.Data.Dialect.MassOperations.ToCarrierStatus(Integer)
+  name.vb: ToCarrierStatus(Integer)
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.MassOperations.ToCarrierStatus(System.Int32)
+    name: ToCarrierStatus
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_ToCarrierStatus_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.MassOperations.ToCarrierStatus(System.Int32)
+    name: ToCarrierStatus
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_ToCarrierStatus_System_Int32_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
 - uid: SuperOffice.Data.Dialect.MassOperations.DeleteAsync(System.String,System.Int32[])
   commentId: M:SuperOffice.Data.Dialect.MassOperations.DeleteAsync(System.String,System.Int32[])
   parent: SuperOffice.Data.Dialect.MassOperations
@@ -419,6 +680,256 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.Data.Dialect.MassOperations.GetTargetInformation(System.String)
+  commentId: M:SuperOffice.Data.Dialect.MassOperations.GetTargetInformation(System.String)
+  parent: SuperOffice.Data.Dialect.MassOperations
+  isExternal: true
+  href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_GetTargetInformation_System_String_
+  name: GetTargetInformation(string)
+  nameWithType: MassOperations.GetTargetInformation(string)
+  fullName: SuperOffice.Data.Dialect.MassOperations.GetTargetInformation(string)
+  nameWithType.vb: MassOperations.GetTargetInformation(String)
+  fullName.vb: SuperOffice.Data.Dialect.MassOperations.GetTargetInformation(String)
+  name.vb: GetTargetInformation(String)
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.MassOperations.GetTargetInformation(System.String)
+    name: GetTargetInformation
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_GetTargetInformation_System_String_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.MassOperations.GetTargetInformation(System.String)
+    name: GetTargetInformation
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_GetTargetInformation_System_String_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: SuperOffice.Data.Dialect.MassOperations.ReformatColumnsForImport(SuperOffice.Data.Dictionary.SoTable,System.String[],System.Collections.Generic.IEnumerable{System.String[]},System.Int32[],System.Collections.Generic.Dictionary{SuperOffice.Util.ComplexKey,SuperOffice.Data.Dialect.MassOperations.RowInfo},SuperOffice.Data.UDefType,System.Collections.Generic.Dictionary{System.Int32,System.Int32},System.Collections.Generic.List{System.Collections.Generic.List{System.String}})
+  commentId: M:SuperOffice.Data.Dialect.MassOperations.ReformatColumnsForImport(SuperOffice.Data.Dictionary.SoTable,System.String[],System.Collections.Generic.IEnumerable{System.String[]},System.Int32[],System.Collections.Generic.Dictionary{SuperOffice.Util.ComplexKey,SuperOffice.Data.Dialect.MassOperations.RowInfo},SuperOffice.Data.UDefType,System.Collections.Generic.Dictionary{System.Int32,System.Int32},System.Collections.Generic.List{System.Collections.Generic.List{System.String}})
+  parent: SuperOffice.Data.Dialect.MassOperations
+  isExternal: true
+  href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_ReformatColumnsForImport_SuperOffice_Data_Dictionary_SoTable_System_String___System_Collections_Generic_IEnumerable_System_String____System_Int32___System_Collections_Generic_Dictionary_SuperOffice_Util_ComplexKey_SuperOffice_Data_Dialect_MassOperations_RowInfo__SuperOffice_Data_UDefType_System_Collections_Generic_Dictionary_System_Int32_System_Int32__System_Collections_Generic_List_System_Collections_Generic_List_System_String___
+  name: ReformatColumnsForImport(SoTable, string[], IEnumerable<string[]>, int[], Dictionary<ComplexKey, RowInfo>, UDefType, Dictionary<int, int>, List<List<string>>)
+  nameWithType: MassOperations.ReformatColumnsForImport(SoTable, string[], IEnumerable<string[]>, int[], Dictionary<ComplexKey, MassOperations.RowInfo>, UDefType, Dictionary<int, int>, List<List<string>>)
+  fullName: SuperOffice.Data.Dialect.MassOperations.ReformatColumnsForImport(SuperOffice.Data.Dictionary.SoTable, string[], System.Collections.Generic.IEnumerable<string[]>, int[], System.Collections.Generic.Dictionary<SuperOffice.Util.ComplexKey, SuperOffice.Data.Dialect.MassOperations.RowInfo>, SuperOffice.Data.UDefType, System.Collections.Generic.Dictionary<int, int>, System.Collections.Generic.List<System.Collections.Generic.List<string>>)
+  nameWithType.vb: MassOperations.ReformatColumnsForImport(SoTable, String(), IEnumerable(Of String()), Integer(), Dictionary(Of ComplexKey, MassOperations.RowInfo), UDefType, Dictionary(Of Integer, Integer), List(Of List(Of String)))
+  fullName.vb: SuperOffice.Data.Dialect.MassOperations.ReformatColumnsForImport(SuperOffice.Data.Dictionary.SoTable, String(), System.Collections.Generic.IEnumerable(Of String()), Integer(), System.Collections.Generic.Dictionary(Of SuperOffice.Util.ComplexKey, SuperOffice.Data.Dialect.MassOperations.RowInfo), SuperOffice.Data.UDefType, System.Collections.Generic.Dictionary(Of Integer, Integer), System.Collections.Generic.List(Of System.Collections.Generic.List(Of String)))
+  name.vb: ReformatColumnsForImport(SoTable, String(), IEnumerable(Of String()), Integer(), Dictionary(Of ComplexKey, RowInfo), UDefType, Dictionary(Of Integer, Integer), List(Of List(Of String)))
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.MassOperations.ReformatColumnsForImport(SuperOffice.Data.Dictionary.SoTable,System.String[],System.Collections.Generic.IEnumerable{System.String[]},System.Int32[],System.Collections.Generic.Dictionary{SuperOffice.Util.ComplexKey,SuperOffice.Data.Dialect.MassOperations.RowInfo},SuperOffice.Data.UDefType,System.Collections.Generic.Dictionary{System.Int32,System.Int32},System.Collections.Generic.List{System.Collections.Generic.List{System.String}})
+    name: ReformatColumnsForImport
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_ReformatColumnsForImport_SuperOffice_Data_Dictionary_SoTable_System_String___System_Collections_Generic_IEnumerable_System_String____System_Int32___System_Collections_Generic_Dictionary_SuperOffice_Util_ComplexKey_SuperOffice_Data_Dialect_MassOperations_RowInfo__SuperOffice_Data_UDefType_System_Collections_Generic_Dictionary_System_Int32_System_Int32__System_Collections_Generic_List_System_Collections_Generic_List_System_String___
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '['
+  - name: ']'
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: SuperOffice.Util.ComplexKey
+    name: ComplexKey
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dialect.MassOperations.RowInfo
+    name: RowInfo
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.RowInfo.html
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.MassOperations.ReformatColumnsForImport(SuperOffice.Data.Dictionary.SoTable,System.String[],System.Collections.Generic.IEnumerable{System.String[]},System.Int32[],System.Collections.Generic.Dictionary{SuperOffice.Util.ComplexKey,SuperOffice.Data.Dialect.MassOperations.RowInfo},SuperOffice.Data.UDefType,System.Collections.Generic.Dictionary{System.Int32,System.Int32},System.Collections.Generic.List{System.Collections.Generic.List{System.String}})
+    name: ReformatColumnsForImport
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_ReformatColumnsForImport_SuperOffice_Data_Dictionary_SoTable_System_String___System_Collections_Generic_IEnumerable_System_String____System_Int32___System_Collections_Generic_Dictionary_SuperOffice_Util_ComplexKey_SuperOffice_Data_Dialect_MassOperations_RowInfo__SuperOffice_Data_UDefType_System_Collections_Generic_Dictionary_System_Int32_System_Int32__System_Collections_Generic_List_System_Collections_Generic_List_System_String___
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: (
+  - name: )
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.ComplexKey
+    name: ComplexKey
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dialect.MassOperations.RowInfo
+    name: RowInfo
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.RowInfo.html
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.UDefType
+    name: UDefType
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.Dictionary`2
+    name: Dictionary
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Collections.Generic.List`1
+    name: List
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
   - name: )
   - name: )
 - uid: System.Object.ToString
@@ -1100,6 +1611,691 @@ references:
     name: Util
     isExternal: true
     href: SuperOffice.Util.html
+- uid: SuperOffice.Data.Dialect.MassOperations.GetUpdateTempTableWithKeyMatchSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  commentId: M:SuperOffice.Data.Dialect.MassOperations.GetUpdateTempTableWithKeyMatchSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  parent: SuperOffice.Data.Dialect.MassOperations
+  isExternal: true
+  href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_GetUpdateTempTableWithKeyMatchSql_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_System_Collections_Generic_IEnumerable_System_String__
+  name: GetUpdateTempTableWithKeyMatchSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable<string>)
+  nameWithType: MassOperations.GetUpdateTempTableWithKeyMatchSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable<string>)
+  fullName: SuperOffice.Data.Dialect.MassOperations.GetUpdateTempTableWithKeyMatchSql(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, System.Collections.Generic.IEnumerable<string>)
+  nameWithType.vb: MassOperations.GetUpdateTempTableWithKeyMatchSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable(Of String))
+  fullName.vb: SuperOffice.Data.Dialect.MassOperations.GetUpdateTempTableWithKeyMatchSql(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, System.Collections.Generic.IEnumerable(Of String))
+  name.vb: GetUpdateTempTableWithKeyMatchSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable(Of String))
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.MassOperations.GetUpdateTempTableWithKeyMatchSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+    name: GetUpdateTempTableWithKeyMatchSql
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_GetUpdateTempTableWithKeyMatchSql_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_System_Collections_Generic_IEnumerable_System_String__
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.MassOperations.GetUpdateTempTableWithKeyMatchSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+    name: GetUpdateTempTableWithKeyMatchSql
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_GetUpdateTempTableWithKeyMatchSql_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_System_Collections_Generic_IEnumerable_System_String__
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithKeyMatchSql*
+  commentId: Overload:SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithKeyMatchSql
+  isExternal: true
+  href: SuperOffice.Data.Dialect.SqlServerMassOperations.html#SuperOffice_Data_Dialect_SqlServerMassOperations_GetUpdateTempTableWithKeyMatchSql_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_System_Collections_Generic_IEnumerable_System_String__
+  name: GetUpdateTempTableWithKeyMatchSql
+  nameWithType: SqlServerMassOperations.GetUpdateTempTableWithKeyMatchSql
+  fullName: SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithKeyMatchSql
+- uid: SuperOffice.Data.Dictionary.SoTable
+  commentId: T:SuperOffice.Data.Dictionary.SoTable
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  href: SuperOffice.Data.Dictionary.SoTable.html
+  name: SoTable
+  nameWithType: SoTable
+  fullName: SuperOffice.Data.Dictionary.SoTable
+- uid: SuperOffice.Data.Dictionary.SoField
+  commentId: T:SuperOffice.Data.Dictionary.SoField
+  parent: SuperOffice.Data.Dictionary
+  isExternal: true
+  href: SuperOffice.Data.Dictionary.SoField.html
+  name: SoField
+  nameWithType: SoField
+  fullName: SuperOffice.Data.Dictionary.SoField
+- uid: System.Collections.Generic.IEnumerable{System.String}
+  commentId: T:System.Collections.Generic.IEnumerable{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<string>
+  nameWithType: IEnumerable<string>
+  fullName: System.Collections.Generic.IEnumerable<string>
+  nameWithType.vb: IEnumerable(Of String)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of String)
+  name.vb: IEnumerable(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.Data.Dictionary
+  commentId: N:SuperOffice.Data.Dictionary
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.Dictionary
+  nameWithType: SuperOffice.Data.Dictionary
+  fullName: SuperOffice.Data.Dictionary
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Dictionary
+    name: Dictionary
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.html
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.Data.Dialect.MassOperations.GetUpdateTempTableWithDataMatchSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  commentId: M:SuperOffice.Data.Dialect.MassOperations.GetUpdateTempTableWithDataMatchSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  parent: SuperOffice.Data.Dialect.MassOperations
+  isExternal: true
+  href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_GetUpdateTempTableWithDataMatchSql_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_System_Collections_Generic_IEnumerable_System_String__
+  name: GetUpdateTempTableWithDataMatchSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable<string>)
+  nameWithType: MassOperations.GetUpdateTempTableWithDataMatchSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable<string>)
+  fullName: SuperOffice.Data.Dialect.MassOperations.GetUpdateTempTableWithDataMatchSql(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, System.Collections.Generic.IEnumerable<string>)
+  nameWithType.vb: MassOperations.GetUpdateTempTableWithDataMatchSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable(Of String))
+  fullName.vb: SuperOffice.Data.Dialect.MassOperations.GetUpdateTempTableWithDataMatchSql(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, System.Collections.Generic.IEnumerable(Of String))
+  name.vb: GetUpdateTempTableWithDataMatchSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable(Of String))
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.MassOperations.GetUpdateTempTableWithDataMatchSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+    name: GetUpdateTempTableWithDataMatchSql
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_GetUpdateTempTableWithDataMatchSql_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_System_Collections_Generic_IEnumerable_System_String__
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.MassOperations.GetUpdateTempTableWithDataMatchSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+    name: GetUpdateTempTableWithDataMatchSql
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_GetUpdateTempTableWithDataMatchSql_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_System_Collections_Generic_IEnumerable_System_String__
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithDataMatchSql*
+  commentId: Overload:SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithDataMatchSql
+  isExternal: true
+  href: SuperOffice.Data.Dialect.SqlServerMassOperations.html#SuperOffice_Data_Dialect_SqlServerMassOperations_GetUpdateTempTableWithDataMatchSql_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_System_Collections_Generic_IEnumerable_System_String__
+  name: GetUpdateTempTableWithDataMatchSql
+  nameWithType: SqlServerMassOperations.GetUpdateTempTableWithDataMatchSql
+  fullName: SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithDataMatchSql
+- uid: SuperOffice.Data.Dialect.MassOperations.GetUpdateTargetFromTempSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  commentId: M:SuperOffice.Data.Dialect.MassOperations.GetUpdateTargetFromTempSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  parent: SuperOffice.Data.Dialect.MassOperations
+  isExternal: true
+  href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_GetUpdateTargetFromTempSql_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_System_Collections_Generic_IEnumerable_System_String__
+  name: GetUpdateTargetFromTempSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable<string>)
+  nameWithType: MassOperations.GetUpdateTargetFromTempSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable<string>)
+  fullName: SuperOffice.Data.Dialect.MassOperations.GetUpdateTargetFromTempSql(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, System.Collections.Generic.IEnumerable<string>)
+  nameWithType.vb: MassOperations.GetUpdateTargetFromTempSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable(Of String))
+  fullName.vb: SuperOffice.Data.Dialect.MassOperations.GetUpdateTargetFromTempSql(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, System.Collections.Generic.IEnumerable(Of String))
+  name.vb: GetUpdateTargetFromTempSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable(Of String))
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.MassOperations.GetUpdateTargetFromTempSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+    name: GetUpdateTargetFromTempSql
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_GetUpdateTargetFromTempSql_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_System_Collections_Generic_IEnumerable_System_String__
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.MassOperations.GetUpdateTargetFromTempSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+    name: GetUpdateTargetFromTempSql
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_GetUpdateTargetFromTempSql_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_System_Collections_Generic_IEnumerable_System_String__
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTargetFromTempSql*
+  commentId: Overload:SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTargetFromTempSql
+  isExternal: true
+  href: SuperOffice.Data.Dialect.SqlServerMassOperations.html#SuperOffice_Data_Dialect_SqlServerMassOperations_GetUpdateTargetFromTempSql_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_System_Collections_Generic_IEnumerable_System_String__
+  name: GetUpdateTargetFromTempSql
+  nameWithType: SqlServerMassOperations.GetUpdateTargetFromTempSql
+  fullName: SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTargetFromTempSql
+- uid: SuperOffice.Data.Dialect.MassOperations.GetUpdateTempTableWithNewKeysSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  commentId: M:SuperOffice.Data.Dialect.MassOperations.GetUpdateTempTableWithNewKeysSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+  parent: SuperOffice.Data.Dialect.MassOperations
+  isExternal: true
+  href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_GetUpdateTempTableWithNewKeysSql_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_System_Collections_Generic_IEnumerable_System_String__
+  name: GetUpdateTempTableWithNewKeysSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable<string>)
+  nameWithType: MassOperations.GetUpdateTempTableWithNewKeysSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable<string>)
+  fullName: SuperOffice.Data.Dialect.MassOperations.GetUpdateTempTableWithNewKeysSql(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, System.Collections.Generic.IEnumerable<string>)
+  nameWithType.vb: MassOperations.GetUpdateTempTableWithNewKeysSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable(Of String))
+  fullName.vb: SuperOffice.Data.Dialect.MassOperations.GetUpdateTempTableWithNewKeysSql(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, System.Collections.Generic.IEnumerable(Of String))
+  name.vb: GetUpdateTempTableWithNewKeysSql(SoTable, SoTable, SoField, SoField, SoField, IEnumerable(Of String))
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.MassOperations.GetUpdateTempTableWithNewKeysSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+    name: GetUpdateTempTableWithNewKeysSql
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_GetUpdateTempTableWithNewKeysSql_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_System_Collections_Generic_IEnumerable_System_String__
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.MassOperations.GetUpdateTempTableWithNewKeysSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,System.Collections.Generic.IEnumerable{System.String})
+    name: GetUpdateTempTableWithNewKeysSql
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_GetUpdateTempTableWithNewKeysSql_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_System_Collections_Generic_IEnumerable_System_String__
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  - name: )
+- uid: SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithNewKeysSql*
+  commentId: Overload:SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithNewKeysSql
+  isExternal: true
+  href: SuperOffice.Data.Dialect.SqlServerMassOperations.html#SuperOffice_Data_Dialect_SqlServerMassOperations_GetUpdateTempTableWithNewKeysSql_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_System_Collections_Generic_IEnumerable_System_String__
+  name: GetUpdateTempTableWithNewKeysSql
+  nameWithType: SqlServerMassOperations.GetUpdateTempTableWithNewKeysSql
+  fullName: SuperOffice.Data.Dialect.SqlServerMassOperations.GetUpdateTempTableWithNewKeysSql
+- uid: SuperOffice.Data.Dialect.MassOperations.GetZeroOutColumnsSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField[])
+  commentId: M:SuperOffice.Data.Dialect.MassOperations.GetZeroOutColumnsSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField[])
+  parent: SuperOffice.Data.Dialect.MassOperations
+  isExternal: true
+  href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_GetZeroOutColumnsSql_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField___
+  name: GetZeroOutColumnsSql(SoTable, SoTable, SoField, SoField, SoField[])
+  nameWithType: MassOperations.GetZeroOutColumnsSql(SoTable, SoTable, SoField, SoField, SoField[])
+  fullName: SuperOffice.Data.Dialect.MassOperations.GetZeroOutColumnsSql(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField[])
+  nameWithType.vb: MassOperations.GetZeroOutColumnsSql(SoTable, SoTable, SoField, SoField, SoField())
+  fullName.vb: SuperOffice.Data.Dialect.MassOperations.GetZeroOutColumnsSql(SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoTable, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField, SuperOffice.Data.Dictionary.SoField())
+  name.vb: GetZeroOutColumnsSql(SoTable, SoTable, SoField, SoField, SoField())
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.MassOperations.GetZeroOutColumnsSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField[])
+    name: GetZeroOutColumnsSql
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_GetZeroOutColumnsSql_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField___
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: '['
+  - name: ']'
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.MassOperations.GetZeroOutColumnsSql(SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoTable,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField,SuperOffice.Data.Dictionary.SoField[])
+    name: GetZeroOutColumnsSql
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.html#SuperOffice_Data_Dialect_MassOperations_GetZeroOutColumnsSql_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField___
+  - name: (
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoTable
+    name: SoTable
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.Data.Dialect.SqlServerMassOperations.GetZeroOutColumnsSql*
+  commentId: Overload:SuperOffice.Data.Dialect.SqlServerMassOperations.GetZeroOutColumnsSql
+  isExternal: true
+  href: SuperOffice.Data.Dialect.SqlServerMassOperations.html#SuperOffice_Data_Dialect_SqlServerMassOperations_GetZeroOutColumnsSql_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoTable_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField_SuperOffice_Data_Dictionary_SoField___
+  name: GetZeroOutColumnsSql
+  nameWithType: SqlServerMassOperations.GetZeroOutColumnsSql
+  fullName: SuperOffice.Data.Dialect.SqlServerMassOperations.GetZeroOutColumnsSql
+- uid: SuperOffice.Data.Dictionary.SoField[]
+  isExternal: true
+  href: SuperOffice.Data.Dictionary.SoField.html
+  name: SoField[]
+  nameWithType: SoField[]
+  fullName: SuperOffice.Data.Dictionary.SoField[]
+  nameWithType.vb: SoField()
+  fullName.vb: SuperOffice.Data.Dictionary.SoField()
+  name.vb: SoField()
+  spec.csharp:
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.html
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: SuperOffice.Data.Dictionary.SoField
+    name: SoField
+    isExternal: true
+    href: SuperOffice.Data.Dictionary.SoField.html
+  - name: (
+  - name: )
 - uid: SuperOffice.Data.Dialect.SqlServerMassOperations.#ctor*
   commentId: Overload:SuperOffice.Data.Dialect.SqlServerMassOperations.#ctor
   isExternal: true

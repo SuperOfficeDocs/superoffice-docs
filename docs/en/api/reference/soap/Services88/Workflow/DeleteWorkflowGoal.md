@@ -2,6 +2,7 @@
 title: Services88.WorkflowAgent.DeleteWorkflowGoal SOAP
 generated: true
 uid: Services88-Workflow-DeleteWorkflowGoal
+content_type: reference
 ---
 
 # Services88 Workflow DeleteWorkflowGoal

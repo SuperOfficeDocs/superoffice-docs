@@ -2,6 +2,7 @@
 title: POST Agents/List/GetLegalBaseList
 uid: v1ListAgent_GetLegalBaseList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetLegalBaseList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetLegalBaseList?$select=name,department,category/id
 
 ## Request Body: legalBaseIds 
 
-The primary keys. 
+The identifiers of the LegalBase object 
 
 
 ## Response:array
@@ -75,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBaseList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,18 +87,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 113,
-    "Name": "Rutherford Group",
-    "Tooltip": "quis",
-    "Rank": 350,
-    "Key": "sunt",
-    "Deleted": true,
+    "LegalBaseId": 415,
+    "Name": "Osinski-Eichmann",
+    "Tooltip": "sit",
+    "Rank": 14,
+    "Key": "voluptates",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 163
+        "FieldType": "System.Int32",
+        "FieldLength": 994
       }
     }
   }

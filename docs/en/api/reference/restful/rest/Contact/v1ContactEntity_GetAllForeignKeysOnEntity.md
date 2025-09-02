@@ -2,6 +2,7 @@
 title: GET Contact/{id}/ForeignKey
 uid: v1ContactEntity_GetAllForeignKeysOnEntity
 generated: true
+content_type: reference
 ---
 
 # GET Contact/{id}/ForeignKey
@@ -55,7 +56,7 @@ OK
 GET /api/v1/Contact/{id}/ForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -65,7 +66,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "explicabo",
-  "2": "blanditiis"
+  "1": "consectetur",
+  "2": "est"
 }
 ```

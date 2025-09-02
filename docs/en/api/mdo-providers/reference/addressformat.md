@@ -3,9 +3,9 @@ uid: addressformat
 title: addressformat
 keywords: mdoprovider mdo provider addressformat
 description: MDO list provider for AddressFormats Id returned is the layout_id, not the addressformat_id.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "addressformat" MDO List

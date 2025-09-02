@@ -2,6 +2,7 @@
 title: POST Agents/Import/PreviewImport
 uid: v1ImportAgent_PreviewImport
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Import/PreviewImport
@@ -80,38 +81,38 @@ OK
 POST /api/v1/Agents/Import/PreviewImport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ImportLines": [
     {
       "Values": [
-        "vero",
-        "non"
+        "et",
+        "quia"
       ],
       "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "expedita"
+      "ExternalKey": "deserunt"
     },
     {
       "Values": [
-        "vero",
-        "non"
+        "et",
+        "quia"
       ],
       "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "expedita"
+      "ExternalKey": "deserunt"
     }
   ],
   "ColumnDefinition": [
-    "et",
-    "ab"
+    "rerum",
+    "laudantium"
   ],
-  "Culture": "nobis",
-  "Context": "ut"
+  "Culture": "id",
+  "Context": "hic"
 }
 ```
 
@@ -124,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Values": [
-      "ipsum",
-      "rem"
+      "iusto",
+      "sed"
     ],
     "Selected": false,
     "Operation": "ContactAdded",
     "Type": "Contact",
-    "ExternalKey": "quo",
+    "ExternalKey": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 654
+        "FieldType": "System.Int32",
+        "FieldLength": 69
       }
     }
   }

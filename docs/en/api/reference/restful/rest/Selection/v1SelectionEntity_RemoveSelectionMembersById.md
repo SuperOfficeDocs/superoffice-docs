@@ -2,6 +2,7 @@
 title: POST Selection/{id}/Members/Remove
 uid: v1SelectionEntity_RemoveSelectionMembersById
 generated: true
+content_type: reference
 ---
 
 # POST Selection/{id}/Members/Remove
@@ -57,7 +58,7 @@ No Content
 POST /api/v1/Selection/{selectionId}/Members/Remove
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

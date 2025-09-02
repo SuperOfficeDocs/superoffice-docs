@@ -2,6 +2,7 @@
 title: PUT List/Business/Items/{id}/Headings
 uid: v1BusinessList_PutBusinessHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/Business/Items/{id}/Headings
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 358,
-    "Name": "Armstrong-Schultz",
-    "ToolTip": "Quam omnis ipsum.",
-    "Deleted": false,
-    "Rank": 673,
-    "Type": "ut",
-    "ColorBlock": 606,
-    "IconHint": "maiores",
+    "Id": 883,
+    "Name": "Wisoky Group",
+    "ToolTip": "Minus repellat.",
+    "Deleted": true,
+    "Rank": 1001,
+    "Type": "et",
+    "ColorBlock": 199,
+    "IconHint": "impedit",
     "Selected": true,
-    "LastChanged": "2002-06-08T03:45:28.9671778+02:00",
+    "LastChanged": "2011-05-03T03:47:00.5818006+02:00",
     "ChildItems": [
       {
-        "Id": 195,
-        "Name": "Hickle, Ullrich and Medhurst",
-        "ToolTip": "A repellendus ipsa velit deleniti quibusdam dolorem.",
+        "Id": 325,
+        "Name": "Bogisich, Vandervort and McGlynn",
+        "ToolTip": "Molestiae est placeat similique reprehenderit vel blanditiis eveniet.",
         "Deleted": false,
-        "Rank": 840,
-        "Type": "nemo",
-        "ColorBlock": 539,
-        "IconHint": "pariatur",
+        "Rank": 262,
+        "Type": "et",
+        "ColorBlock": 364,
+        "IconHint": "quae",
         "Selected": false,
-        "LastChanged": "2014-07-02T03:45:28.9671778+02:00",
+        "LastChanged": "2004-02-04T03:47:00.5818006+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "quo",
+        "ExtraInfo": "quos",
+        "StyleHint": "error",
         "Hidden": false,
-        "FullName": "Dr. Leonor Gutmann DDS"
+        "FullName": "Dr. Brain Bahringer IV"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "recusandae",
+    "ExtraInfo": "possimus",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Jerrold Goyette"
+    "FullName": "Jayda Geovanny Runolfsdottir DDS"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 274,
-    "Name": "Torp-Blick",
-    "ToolTip": "Dolores voluptatem quibusdam repudiandae qui quam ipsa iure.",
-    "Deleted": false,
-    "Rank": 488,
-    "Type": "sint",
-    "ColorBlock": 623,
-    "IconHint": "qui",
+    "Id": 812,
+    "Name": "Gorczany, Bergnaum and Bernier",
+    "ToolTip": "Iste similique dolor qui.",
+    "Deleted": true,
+    "Rank": 610,
+    "Type": "rerum",
+    "ColorBlock": 970,
+    "IconHint": "ratione",
     "Selected": true,
-    "LastChanged": "2018-05-22T03:45:28.9671778+02:00",
+    "LastChanged": "2021-04-03T03:47:00.5818006+02:00",
     "ChildItems": [
       {
-        "Id": 578,
-        "Name": "Fahey Inc and Sons",
-        "ToolTip": "Aliquam minus esse.",
-        "Deleted": false,
-        "Rank": 225,
-        "Type": "commodi",
-        "ColorBlock": 394,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2004-03-06T03:45:28.9671778+01:00",
+        "Id": 506,
+        "Name": "Hermiston, Crist and Ferry",
+        "ToolTip": "Nostrum architecto dolor odit corrupti excepturi facere assumenda.",
+        "Deleted": true,
+        "Rank": 867,
+        "Type": "alias",
+        "ColorBlock": 948,
+        "IconHint": "eos",
+        "Selected": true,
+        "LastChanged": "2009-09-11T03:47:00.5818006+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "impedit",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "quos",
         "Hidden": false,
-        "FullName": "Kirk Jasen Streich V",
+        "FullName": "Mr. Angelina Bauch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 176
+            "FieldLength": 695
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "labore",
-    "Hidden": false,
-    "FullName": "Amos Wilderman",
+    "ExtraInfo": "sit",
+    "StyleHint": "sint",
+    "Hidden": true,
+    "FullName": "Stanford Welch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 217
+        "FieldLength": 757
       }
     }
   }

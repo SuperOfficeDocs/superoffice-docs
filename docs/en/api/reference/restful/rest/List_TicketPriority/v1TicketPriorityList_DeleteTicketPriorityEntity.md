@@ -2,6 +2,7 @@
 title: DEL List/TicketPriority/Items/{id}
 uid: v1TicketPriorityList_DeleteTicketPriorityEntity
 generated: true
+content_type: reference
 ---
 
 # DEL List/TicketPriority/Items/{id}
@@ -52,7 +53,7 @@ No Content
 DELETE /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

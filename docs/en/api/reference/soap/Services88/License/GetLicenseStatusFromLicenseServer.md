@@ -2,6 +2,7 @@
 title: Services88.LicenseAgent.GetLicenseStatusFromLicenseServer SOAP
 generated: true
 uid: Services88-License-GetLicenseStatusFromLicenseServer
+content_type: reference
 ---
 
 # Services88 License GetLicenseStatusFromLicenseServer

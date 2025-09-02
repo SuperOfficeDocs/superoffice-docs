@@ -2,10 +2,10 @@
 uid: table-BinaryObject
 title: BinaryObject table
 description: Binary objects, i.e., blobs. Used for images, documents, SuperOffice inbox mail  and other large binary items
-so.generated: true
+generated: true
 keywords: database table BinaryObject
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # BinaryObject Table (205)

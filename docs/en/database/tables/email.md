@@ -2,10 +2,10 @@
 uid: table-Email
 title: Email table
 description: Email addresses for contacts, projects and persons
-so.generated: true
+generated: true
 keywords: database table Email
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # Email Table (55)

@@ -2,13 +2,13 @@
 uid: table-email_flow_content_link
 title: email_flow_content_link table
 description: Links content to an email workflow
-so.generated: true
+generated: true
 keywords: database table email_flow_content_link
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
-# email\_flow\_content\_link Table (518)
+# email\_flow\_content\_link Table (519)
 
 Links content to an email workflow
 

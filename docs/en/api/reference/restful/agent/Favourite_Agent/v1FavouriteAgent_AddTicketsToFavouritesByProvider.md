@@ -2,6 +2,7 @@
 title: POST Agents/Favourite/AddTicketsToFavouritesByProvider
 uid: v1FavouriteAgent_AddTicketsToFavouritesByProvider
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Favourite/AddTicketsToFavouritesByProvider
@@ -67,36 +68,36 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Berge Group",
+  "ProviderName": "Botsford-Orn",
   "Restrictions": [
     {
-      "Name": "Boehm-Langworth",
-      "Operator": "in",
+      "Name": "Kub-Beier",
+      "Operator": "quos",
       "Values": [
-        "praesentium",
-        "ut"
+        "iure",
+        "vel"
       ],
       "DisplayValues": [
-        "facere",
-        "debitis"
+        "minima",
+        "temporibus"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 824,
+      "InterParenthesis": 841,
       "InterOperator": "And",
-      "UniqueHash": 743
+      "UniqueHash": 520
     }
   ],
-  "AssociateId": 70,
-  "ExtraInfo": "quia"
+  "AssociateId": 67,
+  "ExtraInfo": "deserunt"
 }
 ```
 

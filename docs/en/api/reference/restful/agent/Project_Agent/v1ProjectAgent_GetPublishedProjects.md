@@ -2,6 +2,7 @@
 title: POST Agents/Project/GetPublishedProjects
 uid: v1ProjectAgent_GetPublishedProjects
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/GetPublishedProjects
@@ -95,8 +96,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    465,
-    330
+    678,
+    305
   ]
 }
 ```
@@ -109,30 +110,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 843,
-    "Name": "Nitzsche, Abshire and Ortiz",
-    "Description": "Upgradable analyzing parallelism",
+    "ProjectId": 5,
+    "Name": "Konopelski Inc and Sons",
+    "Description": "Automated optimal extranet",
     "URL": "http://www.example.com/",
-    "Type": "quidem",
-    "AssociateId": 926,
-    "AssociateFullName": "Lilla Kemmer",
-    "TypeId": 830,
-    "Updated": "2013-12-20T03:45:23.7798203+01:00",
-    "StatusId": 377,
-    "Status": "atque",
-    "TextId": 654,
-    "PublishTo": "2021-12-14T03:45:23.7798203+01:00",
-    "PublishFrom": "2014-06-28T03:45:23.7798203+02:00",
+    "Type": "iure",
+    "AssociateId": 876,
+    "AssociateFullName": "Miss Moshe Candelario Conn III",
+    "TypeId": 616,
+    "Updated": "2017-09-06T03:46:55.1757421+02:00",
+    "StatusId": 450,
+    "Status": "assumenda",
+    "TextId": 722,
+    "PublishTo": "2000-06-02T03:46:55.1757421+02:00",
+    "PublishFrom": "1999-02-09T03:46:55.1757421+01:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "936817",
-    "ActiveErpLinks": 634,
+    "ProjectNumber": "1103289",
+    "ActiveErpLinks": 25,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 867
+        "FieldLength": 480
       }
     }
   }

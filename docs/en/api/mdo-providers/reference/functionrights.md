@@ -3,9 +3,9 @@ uid: functionrights
 title: functionrights
 keywords: mdoprovider mdo provider functionrights
 description: FunctionRightsListProvider returns a MDO list of function rights in the database. Additional Info = "role=123;languageId=1024;roleType=1"
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "functionrights" MDO List
@@ -54,17 +54,6 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|16|Can export data to file||allow-bulk-export|
-|17|Can create tasks for a selection||allow-bulk-generate-activities|
-|18|Can copy a selection||allow-bulk-copy-members|
-|19|Allow bulk update||allow-bulk-edit|
-|20|Can delete selection members||allow-bulk-delete|
-|21|Can modify interests for selection members||allow-bulk-interests|
-|22|Can send e-mail to selection members||allow-bulk-email|
-|23|Can run custom tasks on selections||allow-bulk-user-applications|
-|24|Can see users belonging to other companies||see-other-companies-associates|
-|26|Status Monitor Administrator (counters)||admin-saint-regeneration|
-|27|Status Monitor Administrator (statuses)||admin-saint-definition|
 |28|Can create and delete tables in the database||allow-dictionarySDK|
 |29|Field Administrator||admin-udef|
 |30|Import Administrator||admin-import|
@@ -75,6 +64,17 @@ foreach (var item in listProvider.RootItems) {
 |35|Show projects marked as events||ext-see-event-projects|
 |36|Use data rights for My company||ext-use-my-company-rights|
 |37|Use data rights for Same project||ext-use-same-project-rights|
+|38|Audience Administrator||admin-audience|
+|39|SuperOffice Intellisync Server Maintenance||syncadmin-all|
+|40|Edit own synchronisation settings||syncadmin-user|
+|41|Can manage (move and merge) entities||allow-manage-entities|
+|42|Workflow administrator||admin-workflow|
+|43|Role Administrator||admin-role|
+|44|Replication administrator||admin-replication|
+|45|Preferences Administrator||admin-preferences|
+|46|Script Administrator||admin-script|
+|47|Quote administrator||admin-quote|
+|48|Can approve quotes||quote-can-approve|
 
 
 ## Related MDO Lists

@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.SendEmail SOAP
 generated: true
 uid: Services88-Person-SendEmail
+content_type: reference
 ---
 
 # Services88 Person SendEmail

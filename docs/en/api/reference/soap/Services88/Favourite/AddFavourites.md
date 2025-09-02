@@ -2,6 +2,7 @@
 title: Services88.FavouriteAgent.AddFavourites SOAP
 generated: true
 uid: Services88-Favourite-AddFavourites
+content_type: reference
 ---
 
 # Services88 Favourite AddFavourites

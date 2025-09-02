@@ -2,6 +2,7 @@
 title: GET List/ProductFamily/MDOItems
 uid: v1ProductFamilyList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/ProductFamily/MDOItems
@@ -26,8 +27,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=False
-GET /api/v1/List/ProductFamily/MDOItems?query=veritatis
+GET /api/v1/List/ProductFamily/MDOItems?flat=True
+GET /api/v1/List/ProductFamily/MDOItems?query=perferendis
 ```
 
 
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 20,
-    "Name": "Kuvalis LLC",
-    "ToolTip": "Vel voluptatum delectus.",
-    "Deleted": true,
-    "Rank": 528,
-    "Type": "eveniet",
+    "Id": 306,
+    "Name": "Sanford Group",
+    "ToolTip": "Autem adipisci autem.",
+    "Deleted": false,
+    "Rank": 419,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 20,
-        "Name": "Macejkovic Inc and Sons",
-        "ToolTip": "Ut ratione corrupti quis.",
+        "Id": 40,
+        "Name": "Kirlin-Lakin",
+        "ToolTip": "Voluptas explicabo nesciunt aut non deserunt.",
         "Deleted": false,
-        "Rank": 522,
-        "Type": "dolorem",
+        "Rank": 915,
+        "Type": "modi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "possimus",
-        "ColorBlock": 897,
-        "ExtraInfo": "quod",
-        "StyleHint": "amet",
-        "FullName": "Brook Emard",
+        "IconHint": "voluptas",
+        "ColorBlock": 154,
+        "ExtraInfo": "aut",
+        "StyleHint": "nobis",
+        "FullName": "Kariane Kessler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 699
+            "FieldLength": 926
           }
         }
       }
     ],
-    "IconHint": "laudantium",
-    "ColorBlock": 753,
-    "ExtraInfo": "similique",
-    "StyleHint": "vel",
-    "FullName": "Clay Welch",
+    "IconHint": "ut",
+    "ColorBlock": 346,
+    "ExtraInfo": "aperiam",
+    "StyleHint": "est",
+    "FullName": "Ruthe Rice",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 680
+        "FieldLength": 127
       }
     }
   }

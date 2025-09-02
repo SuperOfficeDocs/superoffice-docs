@@ -2,6 +2,7 @@
 title: DEL List/ProjectType/Items/{id}
 uid: v1ProjectTypeList_DeleteProjectType
 generated: true
+content_type: reference
 ---
 
 # DEL List/ProjectType/Items/{id}
@@ -52,7 +53,7 @@ No Content
 DELETE /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

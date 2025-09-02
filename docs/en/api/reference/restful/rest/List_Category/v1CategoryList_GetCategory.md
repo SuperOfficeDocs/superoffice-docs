@@ -2,6 +2,7 @@
 title: GET List/Category/Items/{id}
 uid: v1CategoryList_GetCategory
 generated: true
+content_type: reference
 ---
 
 # GET List/Category/Items/{id}
@@ -75,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 794,
-  "Name": "Walsh LLC",
-  "Tooltip": "eligendi",
+  "Id": 603,
+  "Name": "Bartoletti, Boyer and Hodkiewicz",
+  "Tooltip": "nostrum",
   "Deleted": false,
-  "UdListDefinitionId": 840,
-  "Rank": 780,
+  "UdListDefinitionId": 717,
+  "Rank": 750,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldLength": 86
     }
   }
 }

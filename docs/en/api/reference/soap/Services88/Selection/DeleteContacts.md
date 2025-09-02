@@ -2,6 +2,7 @@
 title: Services88.SelectionAgent.DeleteContacts SOAP
 generated: true
 uid: Services88-Selection-DeleteContacts
+content_type: reference
 ---
 
 # Services88 Selection DeleteContacts

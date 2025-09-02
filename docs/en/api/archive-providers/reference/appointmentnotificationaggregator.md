@@ -3,9 +3,9 @@ uid: AppointmentNotificationAggregator
 title: AppointmentNotificationAggregator
 description: 
 keywords: AppointmentNotificationAggregator archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "AppointmentNotificationAggregator"
@@ -50,7 +50,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentNotificationAggregator?$select=updateType,location
+GET /api/v1/archive/AppointmentNotificationAggregator?$select=startDateTime,updateType,location
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

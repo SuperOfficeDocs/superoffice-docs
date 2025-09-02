@@ -2,10 +2,10 @@
 uid: table-SaleStakeholder
 title: SaleStakeholder table
 description: Stakeholders in the sale, very similar to project members
-so.generated: true
+generated: true
 keywords: database table SaleStakeholder
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # SaleStakeholder Table (121)

@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/CreateAndAccept
 uid: v1AppointmentAgent_CreateAndAccept
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/CreateAndAccept
@@ -65,11 +66,11 @@ No Content
 POST /api/v1/Agents/Appointment/CreateAndAccept
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailItemId": 461,
+  "EmailItemId": 505,
   "UpdateMode": "OnlyThis"
 }
 ```

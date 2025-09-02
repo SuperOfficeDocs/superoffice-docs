@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetAppTaskMenus SOAP
 generated: true
 uid: Services88-List-GetAppTaskMenus
+content_type: reference
 ---
 
 # Services88 List GetAppTaskMenus

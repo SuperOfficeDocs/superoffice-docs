@@ -3,9 +3,9 @@ uid: contact_and_person_freetextsearch_hierarchical
 title: contact_and_person_freetextsearch_hierarchical
 keywords: mdoprovider mdo provider contact_and_person_freetextsearch_hierarchical
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "contact_and_person_freetextsearch_hierarchical" MDO List

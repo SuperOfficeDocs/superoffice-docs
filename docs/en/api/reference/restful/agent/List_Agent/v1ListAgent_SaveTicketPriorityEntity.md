@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveTicketPriorityEntity
 uid: v1ListAgent_SaveTicketPriorityEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveTicketPriorityEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/List/SaveTicketPriorityEntity
 ```
 
-Updates the existing TicketPriorityEntity or creates a new TicketPriorityEntity if the id parameter is empty
+Updates the existing TicketPriorityEntity or creates a new TicketPriorityEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing TicketPriorityEntity or creates a new TicketPriorityEntity 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: ticketPriorityEntity 
 
-The TicketPriorityEntity to be saved. 
+The TicketPriorityEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -121,54 +122,54 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 32,
-  "Name": "Reinger, Cremin and Heaney",
+  "TicketPriorityId": 780,
+  "Name": "Lakin-Weber",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 440,
+  "SortOrder": 835,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 859,
-  "MonStart": "2009-06-09T03:45:23.6235756+02:00",
-  "MonStop": "2021-02-20T03:45:23.6235756+01:00",
-  "TueStart": "2019-12-08T03:45:23.6235756+01:00",
-  "TueStop": "2001-04-18T03:45:23.6235756+02:00",
-  "WedStart": "2005-10-21T03:45:23.6235756+02:00",
-  "WedStop": "2022-11-19T03:45:23.6235756+01:00",
-  "ThuStart": "2022-01-29T03:45:23.6235756+01:00",
-  "ThuStop": "2021-02-25T03:45:23.6235756+01:00",
-  "FriStart": "2022-03-05T03:45:23.6235756+01:00",
-  "FriStop": "2010-02-05T03:45:23.6235756+01:00",
-  "SatStart": "2025-05-12T03:45:23.6235756+02:00",
-  "SatStop": "2012-08-24T03:45:23.6235756+02:00",
-  "SunStart": "2024-09-21T03:45:23.6235756+02:00",
-  "SunStop": "2006-12-08T03:45:23.6235756+01:00",
+  "Deadline": 937,
+  "MonStart": "2018-11-29T03:46:54.9257675+01:00",
+  "MonStop": "2006-01-07T03:46:54.9257675+01:00",
+  "TueStart": "1998-10-20T03:46:54.9257675+02:00",
+  "TueStop": "2004-02-16T03:46:54.9257675+01:00",
+  "WedStart": "2017-03-30T03:46:54.9257675+02:00",
+  "WedStop": "1999-05-27T03:46:54.9257675+02:00",
+  "ThuStart": "2014-05-31T03:46:54.9257675+02:00",
+  "ThuStop": "2006-09-12T03:46:54.9257675+02:00",
+  "FriStart": "2011-08-25T03:46:54.9257675+02:00",
+  "FriStop": "2023-11-27T03:46:54.9257675+01:00",
+  "SatStart": "2014-02-08T03:46:54.9257675+01:00",
+  "SatStop": "2002-03-05T03:46:54.9257675+01:00",
+  "SunStart": "2000-02-23T03:46:54.9257675+01:00",
+  "SunStop": "2010-12-16T03:46:54.9257675+01:00",
   "NonDates": [
-    "ab",
-    "quibusdam"
+    "illo",
+    "modi"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 264,
-      "AlertLevel": 789,
-      "AlertTimeout": 306,
-      "Action": 409,
-      "DelegateTo": 523,
-      "ScriptId": 460,
-      "EmailTo": "aletha@leannon.ca",
-      "SmsTo": "consequatur",
-      "ReplyTemplateIdCustomer": 63,
-      "ReplyTemplateIdUser": 903,
-      "ReplyTemplateIdCatmast": 406,
-      "ReplyTemplateIdEmail": 918,
-      "RtiCustomerSms": 415,
-      "ReplyTemplateIdUserSms": 430,
-      "ReplyTemplateIdCatmastSms": 23,
-      "ReplyTemplateIdSms": 194
+      "TicketAlertId": 42,
+      "AlertLevel": 951,
+      "AlertTimeout": 298,
+      "Action": 117,
+      "DelegateTo": 961,
+      "ScriptId": 24,
+      "EmailTo": "marley_kihn@erdman.ca",
+      "SmsTo": "amet",
+      "ReplyTemplateIdCustomer": 532,
+      "ReplyTemplateIdUser": 922,
+      "ReplyTemplateIdCatmast": 906,
+      "ReplyTemplateIdEmail": 331,
+      "RtiCustomerSms": 925,
+      "ReplyTemplateIdUserSms": 833,
+      "ReplyTemplateIdCatmastSms": 702,
+      "ReplyTemplateIdSms": 851
     }
   ]
 }
@@ -181,60 +182,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 30,
-  "Name": "Jacobs-Green",
+  "TicketPriorityId": 296,
+  "Name": "Abernathy LLC",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 93,
+  "SortOrder": 489,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 813,
-  "MonStart": "2018-08-31T03:45:23.6235756+02:00",
-  "MonStop": "2003-09-17T03:45:23.6235756+02:00",
-  "TueStart": "2002-12-15T03:45:23.6235756+01:00",
-  "TueStop": "2009-06-20T03:45:23.6235756+02:00",
-  "WedStart": "2003-04-07T03:45:23.6235756+02:00",
-  "WedStop": "1999-01-19T03:45:23.6235756+01:00",
-  "ThuStart": "2013-06-05T03:45:23.6235756+02:00",
-  "ThuStop": "2008-08-03T03:45:23.6235756+02:00",
-  "FriStart": "2005-02-08T03:45:23.6235756+01:00",
-  "FriStop": "2012-08-07T03:45:23.6235756+02:00",
-  "SatStart": "1999-02-27T03:45:23.6235756+01:00",
-  "SatStop": "2016-05-24T03:45:23.6235756+02:00",
-  "SunStart": "2016-01-05T03:45:23.6235756+01:00",
-  "SunStop": "2011-05-25T03:45:23.6235756+02:00",
+  "Deadline": 344,
+  "MonStart": "2020-08-26T03:46:54.9257675+02:00",
+  "MonStop": "2002-03-08T03:46:54.9257675+01:00",
+  "TueStart": "2015-07-17T03:46:54.9257675+02:00",
+  "TueStop": "2000-07-26T03:46:54.9257675+02:00",
+  "WedStart": "2021-10-03T03:46:54.9257675+02:00",
+  "WedStop": "2004-09-19T03:46:54.9257675+02:00",
+  "ThuStart": "2004-12-06T03:46:54.9257675+01:00",
+  "ThuStop": "2009-11-16T03:46:54.9257675+01:00",
+  "FriStart": "2019-02-06T03:46:54.9257675+01:00",
+  "FriStop": "2018-08-11T03:46:54.9257675+02:00",
+  "SatStart": "2010-04-23T03:46:54.9257675+02:00",
+  "SatStop": "1999-04-02T03:46:54.9257675+02:00",
+  "SunStart": "2019-09-11T03:46:54.9257675+02:00",
+  "SunStop": "2003-02-10T03:46:54.9257675+01:00",
   "NonDates": [
-    "repellendus",
-    "pariatur"
+    "in",
+    "autem"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 813,
-      "AlertLevel": 493,
-      "AlertTimeout": 540,
-      "Action": 734,
-      "DelegateTo": 383,
-      "ScriptId": 379,
-      "EmailTo": "ezra@schaden.info",
-      "SmsTo": "qui",
-      "ReplyTemplateIdCustomer": 589,
-      "ReplyTemplateIdUser": 563,
-      "ReplyTemplateIdCatmast": 801,
-      "ReplyTemplateIdEmail": 744,
-      "RtiCustomerSms": 332,
-      "ReplyTemplateIdUserSms": 692,
-      "ReplyTemplateIdCatmastSms": 782,
-      "ReplyTemplateIdSms": 815,
+      "TicketAlertId": 433,
+      "AlertLevel": 800,
+      "AlertTimeout": 266,
+      "Action": 251,
+      "DelegateTo": 993,
+      "ScriptId": 176,
+      "EmailTo": "chester.breitenberg@lehnerconn.com",
+      "SmsTo": "nam",
+      "ReplyTemplateIdCustomer": 178,
+      "ReplyTemplateIdUser": 756,
+      "ReplyTemplateIdCatmast": 917,
+      "ReplyTemplateIdEmail": 14,
+      "RtiCustomerSms": 405,
+      "ReplyTemplateIdUserSms": 193,
+      "ReplyTemplateIdCatmastSms": 470,
+      "ReplyTemplateIdSms": 393,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 232
+          "FieldType": "System.Int32",
+          "FieldLength": 542
         }
       }
     }
@@ -243,8 +244,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 426
+      "FieldType": "System.String",
+      "FieldLength": 879
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/Import/CreateErpImportData
 uid: v1ImportAgent_CreateErpImportData
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Import/CreateErpImportData
@@ -83,15 +84,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restriction": [
     {
-      "Name": "Keeling-Lynch",
-      "Operator": "omnis",
+      "Name": "Swaniawski Group",
+      "Operator": "ipsa",
       "Values": [
-        "sed",
-        "non"
+        "enim",
+        "nemo"
       ],
       "DisplayValues": [
-        "est",
-        "distinctio"
+        "quasi",
+        "rerum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -99,16 +100,16 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 504,
+      "InterParenthesis": 819,
       "InterOperator": "And",
-      "UniqueHash": 350
+      "UniqueHash": 293
     }
   ],
   "Columns": [
-    "sit",
-    "nam"
+    "ex",
+    "excepturi"
   ],
-  "ConnectionId": 618,
+  "ConnectionId": 509,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +124,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "quis",
-        "esse"
+        "et",
+        "unde"
       ],
-      "Selected": true,
+      "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "modi",
+      "ExternalKey": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 894
+          "FieldLength": 964
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Bradtke, Lehner and Schumm",
-      "DisplayName": "Pacocha-Schiller",
+      "Name": "Volkman Inc and Sons",
+      "DisplayName": "Kirlin-Jewess",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 989
+          "FieldLength": 848
         }
       }
     },
     {
-      "Name": "Bradtke, Lehner and Schumm",
-      "DisplayName": "Pacocha-Schiller",
+      "Name": "Volkman Inc and Sons",
+      "DisplayName": "Kirlin-Jewess",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 989
+          "FieldLength": 848
         }
       }
     }
@@ -173,7 +174,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldLength": 206
     }
   }
 }

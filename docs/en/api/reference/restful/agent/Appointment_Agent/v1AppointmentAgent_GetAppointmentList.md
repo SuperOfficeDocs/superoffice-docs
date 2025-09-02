@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetAppointmentList
 uid: v1AppointmentAgent_GetAppointmentList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetAppointmentList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/Appointment/GetAppointmentList?$select=name,department,categ
 
 ## Request Body: appointmentIds 
 
-The primary keys. 
+The identifiers of the Appointment object 
 
 
 ## Response:array
@@ -109,6 +110,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -123,7 +125,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -134,66 +136,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 178,
-    "StartDate": "2021-09-10T03:45:22.9517163+02:00",
-    "EndDate": "2009-12-22T03:45:22.9517163+01:00",
+    "AppointmentId": 123,
+    "StartDate": "2002-07-06T03:46:54.2695244+02:00",
+    "EndDate": "2022-11-26T03:46:54.2695244+01:00",
     "Type": "BookingForChecklist",
-    "Task": "quis",
-    "AssociateFullName": "Collin Kozey",
-    "ContactName": "Bechtelar, Schmeler and Von",
-    "Description": "De-engineered full-range algorithm",
-    "PersonFullName": "Marianne Denesik DDS",
-    "PersonId": 908,
-    "ContactId": 953,
-    "ProjectId": 374,
-    "ProjectName": "Douglas-Tremblay",
+    "Task": "recusandae",
+    "AssociateFullName": "Vladimir Willms",
+    "ContactName": "Bruen-Fadel",
+    "Description": "Stand-alone contextually-based website",
+    "PersonFullName": "Adelia Morissette",
+    "PersonId": 153,
+    "ContactId": 408,
+    "ProjectId": 681,
+    "ProjectName": "Grady, Wuckert and Mraz",
     "IsPublished": false,
-    "AssociateId": 758,
-    "ColorIndex": 490,
+    "AssociateId": 253,
+    "ColorIndex": 689,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 655,
-    "PriorityName": "Renner Inc and Sons",
+    "PriorityId": 801,
+    "PriorityName": "Blanda LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2007-02-22T03:45:22.9517163+01:00",
+    "ActiveDate": "2020-12-25T03:46:54.2695244+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-10-17T03:45:22.9517163+02:00",
-    "RecurringEndDate": "1998-11-24T03:45:22.9517163+01:00",
-    "MotherId": 937,
-    "AssignedBy": 176,
-    "AssignedByFullName": "Carlee Claudie Schaden Jr.",
+    "RecurringStartDate": "1999-09-16T03:46:54.2695244+02:00",
+    "RecurringEndDate": "2003-12-23T03:46:54.2695244+01:00",
+    "MotherId": 702,
+    "AssignedBy": 931,
+    "AssignedByFullName": "Mr. Lonnie Mandy Auer I",
     "RejectReason": "",
-    "Location": "sed",
-    "AlarmLeadTime": "veritatis",
-    "SaleId": 575,
-    "SaleName": "Kessler LLC",
-    "AssociateName": "Johnson Inc and Sons",
-    "CreatedDate": "2017-09-15T03:45:22.9517163+02:00",
-    "CreatedBy": "exercitationem",
-    "CreatedByFullName": "Daphne Keeling",
-    "CreatedByAssociateId": 717,
+    "Location": "consequatur",
+    "AlarmLeadTime": "pariatur",
+    "SaleId": 901,
+    "SaleName": "Jones, Kozey and Kemmer",
+    "AssociateName": "Tromp-Beier",
+    "CreatedDate": "2023-03-07T03:46:54.2695244+01:00",
+    "CreatedBy": "maiores",
+    "CreatedByFullName": "Jack Hettinger",
+    "CreatedByAssociateId": 544,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 165,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 48,
-    "Title": "placeat",
-    "Agenda": "corporis",
-    "InternalNotes": "quis",
+    "PreferredTZLocation": 643,
+    "Title": "dicta",
+    "Agenda": "quis",
+    "InternalNotes": "provident",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 414
+        "FieldLength": 345
       }
     }
   }

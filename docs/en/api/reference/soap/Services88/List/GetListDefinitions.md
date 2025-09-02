@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetListDefinitions SOAP
 generated: true
 uid: Services88-List-GetListDefinitions
+content_type: reference
 ---
 
 # Services88 List GetListDefinitions

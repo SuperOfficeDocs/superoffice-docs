@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/UpdateAppointmentWithModeAndEmail
 uid: v1AppointmentAgent_UpdateAppointmentWithModeAndEmail
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/UpdateAppointmentWithModeAndEmail
@@ -121,6 +122,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -139,14 +141,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 123,
-  "StartTime": "1998-07-16T03:45:22.7017267+02:00",
-  "EndTime": "2007-03-19T03:45:22.7017267+01:00",
+  "Id": 124,
+  "StartTime": "2020-06-02T03:46:54.0039095+02:00",
+  "EndTime": "2014-05-25T03:46:54.0039095+02:00",
   "Status": "Assignment",
   "Type": "BookingForChecklist",
-  "AssociateId": 583,
+  "AssociateId": 508,
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": false,
+  "SendEmailToParticipants": true,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null
 }
@@ -159,66 +161,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 647,
-  "StartDate": "2001-02-09T03:45:22.7017267+01:00",
-  "EndDate": "2024-10-05T03:45:22.7017267+02:00",
+  "AppointmentId": 5,
+  "StartDate": "2004-10-09T03:46:54.0039095+02:00",
+  "EndDate": "2007-12-29T03:46:54.0039095+01:00",
   "Type": "BookingForChecklist",
-  "Task": "et",
-  "AssociateFullName": "Deanna Kunde",
-  "ContactName": "Steuber Group",
-  "Description": "Diverse contextually-based migration",
-  "PersonFullName": "Fanny Abernathy",
-  "PersonId": 782,
-  "ContactId": 319,
-  "ProjectId": 934,
-  "ProjectName": "Turcotte-Wolff",
+  "Task": "aut",
+  "AssociateFullName": "Gardner Kane Bayer MD",
+  "ContactName": "Lind, Rogahn and Trantow",
+  "Description": "Multi-tiered 24 hour installation",
+  "PersonFullName": "Irving Botsford",
+  "PersonId": 724,
+  "ContactId": 48,
+  "ProjectId": 307,
+  "ProjectName": "Rice, Thompson and Murphy",
   "IsPublished": false,
-  "AssociateId": 191,
-  "ColorIndex": 819,
+  "AssociateId": 48,
+  "ColorIndex": 770,
   "IsFree": false,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 881,
-  "PriorityName": "Gottlieb Group",
+  "PriorityId": 929,
+  "PriorityName": "Murazik, Jacobs and Prohaska",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
+  "IsBookingMain": false,
   "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2017-03-17T03:45:22.7017267+01:00",
+  "ActiveDate": "2023-08-01T03:46:54.0039095+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2015-07-07T03:45:22.7017267+02:00",
-  "RecurringEndDate": "2021-07-11T03:45:22.7017267+02:00",
-  "MotherId": 635,
-  "AssignedBy": 53,
-  "AssignedByFullName": "Miss Shaylee Leone Hahn",
+  "RecurringStartDate": "2016-10-24T03:46:54.0039095+02:00",
+  "RecurringEndDate": "2013-06-28T03:46:54.0039095+02:00",
+  "MotherId": 880,
+  "AssignedBy": 661,
+  "AssignedByFullName": "Miss Taurean Marisol Howe",
   "RejectReason": "",
-  "Location": "nihil",
-  "AlarmLeadTime": "illum",
-  "SaleId": 10,
-  "SaleName": "Wiza Inc and Sons",
-  "AssociateName": "Thompson-Wuckert",
-  "CreatedDate": "2007-05-10T03:45:22.7017267+02:00",
-  "CreatedBy": "corrupti",
-  "CreatedByFullName": "Jedidiah Wyman",
-  "CreatedByAssociateId": 554,
+  "Location": "ipsa",
+  "AlarmLeadTime": "nam",
+  "SaleId": 6,
+  "SaleName": "Kassulke, Walsh and Ratke",
+  "AssociateName": "Rosenbaum-Herman",
+  "CreatedDate": "2006-03-16T03:46:54.0039095+01:00",
+  "CreatedBy": "aut",
+  "CreatedByFullName": "Verda McClure",
+  "CreatedByAssociateId": 166,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
+  "MotherAssociateId": 332,
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 184,
-  "Title": "possimus",
-  "Agenda": "ut",
-  "InternalNotes": "praesentium",
+  "PreferredTZLocation": 805,
+  "Title": "eos",
+  "Agenda": "aliquam",
+  "InternalNotes": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 66
+      "FieldType": "System.String",
+      "FieldLength": 829
     }
   }
 }

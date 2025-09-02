@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/GetTicketMessage
 uid: v1TicketAgent_GetTicketMessage
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/GetTicketMessage
@@ -22,11 +23,11 @@ Gets a TicketMessage object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| ticketMessageId | int32 | **Required** The primary key. |
+| ticketMessageId | int32 | **Required** The identifier of the TicketMessage object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=560
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=197
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -95,23 +96,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 950,
-  "CreatedAt": "2024-08-04T03:45:24.1235597+02:00",
+  "TicketMessageId": 847,
+  "CreatedAt": "2009-07-06T03:46:55.5351045+02:00",
   "Slevel": "External",
-  "Important": false,
-  "Author": "autem",
-  "PersonId": 106,
-  "PersonFullName": "Verla Jacobi",
-  "ContactId": 43,
-  "ContactName": "Schulist, Stark and Bins",
+  "Important": true,
+  "Author": "reprehenderit",
+  "PersonId": 703,
+  "PersonFullName": "Einar Kemmer",
+  "ContactId": 637,
+  "ContactName": "Muller LLC",
   "ContactDepartment": "",
-  "NumAttachments": 341,
-  "EmailHeader": "malachi.bartoletti@medhurst.ca",
+  "NumAttachments": 640,
+  "EmailHeader": "taylor_reichel@hintzquitzon.co.uk",
   "MessageHeaders": [
     {
-      "Id": 209,
-      "Name": "Upton LLC",
-      "Value": "et",
+      "Id": 679,
+      "Name": "Terry-Jewess",
+      "Value": "pariatur",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -119,23 +120,23 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 824
+          "FieldLength": 460
         }
       }
     }
   ],
-  "Language": "neque",
-  "Sentiment": 680,
-  "SentimentConfidence": 395,
-  "CreatedBy": 630,
-  "ChangedAt": "2015-04-18T03:45:24.1235597+02:00",
+  "Language": "consequatur",
+  "Sentiment": 35,
+  "SentimentConfidence": 586,
+  "CreatedBy": 544,
+  "ChangedAt": "2024-04-25T03:46:55.5351045+02:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 801
+      "FieldLength": 483
     }
   }
 }

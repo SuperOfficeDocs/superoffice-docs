@@ -1,0 +1,1198 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Services.UtmParameters
+  commentId: T:SuperOffice.CRM.Services.UtmParameters
+  id: UtmParameters
+  parent: SuperOffice.CRM.Services
+  children:
+  - SuperOffice.CRM.Services.UtmParameters.#ctor
+  - SuperOffice.CRM.Services.UtmParameters.Campaign
+  - SuperOffice.CRM.Services.UtmParameters.Content
+  - SuperOffice.CRM.Services.UtmParameters.CreatedContactId
+  - SuperOffice.CRM.Services.UtmParameters.CreatedPersonId
+  - SuperOffice.CRM.Services.UtmParameters.FirstTouchCampaign
+  - SuperOffice.CRM.Services.UtmParameters.FirstTouchContent
+  - SuperOffice.CRM.Services.UtmParameters.FirstTouchMedium
+  - SuperOffice.CRM.Services.UtmParameters.FirstTouchReferrerDomain
+  - SuperOffice.CRM.Services.UtmParameters.FirstTouchSource
+  - SuperOffice.CRM.Services.UtmParameters.FirstTouchTerm
+  - SuperOffice.CRM.Services.UtmParameters.FirstTouchWhen
+  - SuperOffice.CRM.Services.UtmParameters.FormSubmissionId
+  - SuperOffice.CRM.Services.UtmParameters.Medium
+  - SuperOffice.CRM.Services.UtmParameters.ReferrerDomain
+  - SuperOffice.CRM.Services.UtmParameters.Registered
+  - SuperOffice.CRM.Services.UtmParameters.RegisteredAssociateId
+  - SuperOffice.CRM.Services.UtmParameters.Source
+  - SuperOffice.CRM.Services.UtmParameters.Term
+  - SuperOffice.CRM.Services.UtmParameters.ToString
+  - SuperOffice.CRM.Services.UtmParameters.ToString(System.String)
+  - SuperOffice.CRM.Services.UtmParameters.Updated
+  - SuperOffice.CRM.Services.UtmParameters.UpdatedAssociateId
+  - SuperOffice.CRM.Services.UtmParameters.UpdatedCount
+  - SuperOffice.CRM.Services.UtmParameters.UtmParametersId
+  - SuperOffice.CRM.Services.UtmParameters.When
+  langs:
+  - csharp
+  - vb
+  name: UtmParameters
+  nameWithType: UtmParameters
+  fullName: SuperOffice.CRM.Services.UtmParameters
+  type: Class
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Utm parameters for a given person.
+
+    <p></p>
+
+    Carrier object for UtmParameters.
+
+    Services for the UtmParameters Carrier is available from the <xref href="SuperOffice.CRM.Services.IPersonAgent?text=Person+Agent" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: >-
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")]
+
+      public class UtmParameters : Carrier
+    content.vb: >-
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")>
+
+      Public Class UtmParameters Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.CRM.Services.IPersonAgent
+    commentId: T:SuperOffice.CRM.Services.IPersonAgent
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.Runtime.Serialization.DataContractAttribute
+    ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: Namespace
+      type: System.String
+      value: http://www.superoffice.net/ws/crm/NetServer/11.3.0.0
+- uid: SuperOffice.CRM.Services.UtmParameters.#ctor
+  commentId: M:SuperOffice.CRM.Services.UtmParameters.#ctor
+  id: '#ctor'
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: UtmParameters()
+  nameWithType: UtmParameters.UtmParameters()
+  fullName: SuperOffice.CRM.Services.UtmParameters.UtmParameters()
+  type: Constructor
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Default constructor
+  example: []
+  syntax:
+    content: public UtmParameters()
+    content.vb: Public Sub New()
+  overload: SuperOffice.CRM.Services.UtmParameters.#ctor*
+  nameWithType.vb: UtmParameters.New()
+  fullName.vb: SuperOffice.CRM.Services.UtmParameters.New()
+  name.vb: New()
+- uid: SuperOffice.CRM.Services.UtmParameters.ToString
+  commentId: M:SuperOffice.CRM.Services.UtmParameters.ToString
+  id: ToString
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: UtmParameters.ToString()
+  fullName: SuperOffice.CRM.Services.UtmParameters.ToString()
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Returns the carrier contents as a formatted string.
+  example: []
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Overrides Function ToString() As String
+  overload: SuperOffice.CRM.Services.UtmParameters.ToString*
+- uid: SuperOffice.CRM.Services.UtmParameters.ToString(System.String)
+  commentId: M:SuperOffice.CRM.Services.UtmParameters.ToString(System.String)
+  id: ToString(System.String)
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: ToString(string)
+  nameWithType: UtmParameters.ToString(string)
+  fullName: SuperOffice.CRM.Services.UtmParameters.ToString(string)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Returns the carrier contents as a formatted string, useful for debugging.
+
+    Each line in the output is prefixed with the input value.
+  example: []
+  syntax:
+    content: public string ToString(string prefix)
+    parameters:
+    - id: prefix
+      type: System.String
+      description: The line prefix (typically used for indenting)
+    return:
+      type: System.String
+      description: The carrier contents.
+    content.vb: Public Function ToString(prefix As String) As String
+  overload: SuperOffice.CRM.Services.UtmParameters.ToString*
+  nameWithType.vb: UtmParameters.ToString(String)
+  fullName.vb: SuperOffice.CRM.Services.UtmParameters.ToString(String)
+  name.vb: ToString(String)
+- uid: SuperOffice.CRM.Services.UtmParameters.UtmParametersId
+  commentId: P:SuperOffice.CRM.Services.UtmParameters.UtmParametersId
+  id: UtmParametersId
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: UtmParametersId
+  nameWithType: UtmParameters.UtmParametersId
+  fullName: SuperOffice.CRM.Services.UtmParameters.UtmParametersId
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Primary key
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int UtmParametersId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UtmParametersId As Integer
+  overload: SuperOffice.CRM.Services.UtmParameters.UtmParametersId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.UtmParameters.CreatedContactId
+  commentId: P:SuperOffice.CRM.Services.UtmParameters.CreatedContactId
+  id: CreatedContactId
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: CreatedContactId
+  nameWithType: UtmParameters.CreatedContactId
+  fullName: SuperOffice.CRM.Services.UtmParameters.CreatedContactId
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Id of the created contact
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int CreatedContactId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property CreatedContactId As Integer
+  overload: SuperOffice.CRM.Services.UtmParameters.CreatedContactId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.UtmParameters.CreatedPersonId
+  commentId: P:SuperOffice.CRM.Services.UtmParameters.CreatedPersonId
+  id: CreatedPersonId
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: CreatedPersonId
+  nameWithType: UtmParameters.CreatedPersonId
+  fullName: SuperOffice.CRM.Services.UtmParameters.CreatedPersonId
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Id of the created person
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int CreatedPersonId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property CreatedPersonId As Integer
+  overload: SuperOffice.CRM.Services.UtmParameters.CreatedPersonId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.UtmParameters.FormSubmissionId
+  commentId: P:SuperOffice.CRM.Services.UtmParameters.FormSubmissionId
+  id: FormSubmissionId
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: FormSubmissionId
+  nameWithType: UtmParameters.FormSubmissionId
+  fullName: SuperOffice.CRM.Services.UtmParameters.FormSubmissionId
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Id of the form submission
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int FormSubmissionId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FormSubmissionId As Integer
+  overload: SuperOffice.CRM.Services.UtmParameters.FormSubmissionId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.UtmParameters.FirstTouchSource
+  commentId: P:SuperOffice.CRM.Services.UtmParameters.FirstTouchSource
+  id: FirstTouchSource
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: FirstTouchSource
+  nameWithType: UtmParameters.FirstTouchSource
+  fullName: SuperOffice.CRM.Services.UtmParameters.FirstTouchSource
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: First touch UTM source
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string FirstTouchSource { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FirstTouchSource As String
+  overload: SuperOffice.CRM.Services.UtmParameters.FirstTouchSource*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.UtmParameters.FirstTouchMedium
+  commentId: P:SuperOffice.CRM.Services.UtmParameters.FirstTouchMedium
+  id: FirstTouchMedium
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: FirstTouchMedium
+  nameWithType: UtmParameters.FirstTouchMedium
+  fullName: SuperOffice.CRM.Services.UtmParameters.FirstTouchMedium
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: First touch UTM medium
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string FirstTouchMedium { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FirstTouchMedium As String
+  overload: SuperOffice.CRM.Services.UtmParameters.FirstTouchMedium*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.UtmParameters.FirstTouchCampaign
+  commentId: P:SuperOffice.CRM.Services.UtmParameters.FirstTouchCampaign
+  id: FirstTouchCampaign
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: FirstTouchCampaign
+  nameWithType: UtmParameters.FirstTouchCampaign
+  fullName: SuperOffice.CRM.Services.UtmParameters.FirstTouchCampaign
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: First touch UTM campaign
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string FirstTouchCampaign { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FirstTouchCampaign As String
+  overload: SuperOffice.CRM.Services.UtmParameters.FirstTouchCampaign*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.UtmParameters.FirstTouchTerm
+  commentId: P:SuperOffice.CRM.Services.UtmParameters.FirstTouchTerm
+  id: FirstTouchTerm
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: FirstTouchTerm
+  nameWithType: UtmParameters.FirstTouchTerm
+  fullName: SuperOffice.CRM.Services.UtmParameters.FirstTouchTerm
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: First touch UTM term
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string FirstTouchTerm { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FirstTouchTerm As String
+  overload: SuperOffice.CRM.Services.UtmParameters.FirstTouchTerm*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.UtmParameters.FirstTouchContent
+  commentId: P:SuperOffice.CRM.Services.UtmParameters.FirstTouchContent
+  id: FirstTouchContent
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: FirstTouchContent
+  nameWithType: UtmParameters.FirstTouchContent
+  fullName: SuperOffice.CRM.Services.UtmParameters.FirstTouchContent
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: First touch UTM content
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string FirstTouchContent { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FirstTouchContent As String
+  overload: SuperOffice.CRM.Services.UtmParameters.FirstTouchContent*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.UtmParameters.FirstTouchReferrerDomain
+  commentId: P:SuperOffice.CRM.Services.UtmParameters.FirstTouchReferrerDomain
+  id: FirstTouchReferrerDomain
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: FirstTouchReferrerDomain
+  nameWithType: UtmParameters.FirstTouchReferrerDomain
+  fullName: SuperOffice.CRM.Services.UtmParameters.FirstTouchReferrerDomain
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: First touch UTM referrer domain
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string FirstTouchReferrerDomain { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FirstTouchReferrerDomain As String
+  overload: SuperOffice.CRM.Services.UtmParameters.FirstTouchReferrerDomain*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.UtmParameters.FirstTouchWhen
+  commentId: P:SuperOffice.CRM.Services.UtmParameters.FirstTouchWhen
+  id: FirstTouchWhen
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: FirstTouchWhen
+  nameWithType: UtmParameters.FirstTouchWhen
+  fullName: SuperOffice.CRM.Services.UtmParameters.FirstTouchWhen
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: First touch date
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual DateTime FirstTouchWhen { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property FirstTouchWhen As Date
+  overload: SuperOffice.CRM.Services.UtmParameters.FirstTouchWhen*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.UtmParameters.Source
+  commentId: P:SuperOffice.CRM.Services.UtmParameters.Source
+  id: Source
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: UtmParameters.Source
+  fullName: SuperOffice.CRM.Services.UtmParameters.Source
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: UTM source
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Source { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Source As String
+  overload: SuperOffice.CRM.Services.UtmParameters.Source*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.UtmParameters.Medium
+  commentId: P:SuperOffice.CRM.Services.UtmParameters.Medium
+  id: Medium
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: Medium
+  nameWithType: UtmParameters.Medium
+  fullName: SuperOffice.CRM.Services.UtmParameters.Medium
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: UTM medium
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Medium { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Medium As String
+  overload: SuperOffice.CRM.Services.UtmParameters.Medium*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.UtmParameters.Campaign
+  commentId: P:SuperOffice.CRM.Services.UtmParameters.Campaign
+  id: Campaign
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: Campaign
+  nameWithType: UtmParameters.Campaign
+  fullName: SuperOffice.CRM.Services.UtmParameters.Campaign
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: UTM campaign
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Campaign { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Campaign As String
+  overload: SuperOffice.CRM.Services.UtmParameters.Campaign*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.UtmParameters.Term
+  commentId: P:SuperOffice.CRM.Services.UtmParameters.Term
+  id: Term
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: Term
+  nameWithType: UtmParameters.Term
+  fullName: SuperOffice.CRM.Services.UtmParameters.Term
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: UTM term
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Term { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Term As String
+  overload: SuperOffice.CRM.Services.UtmParameters.Term*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.UtmParameters.Content
+  commentId: P:SuperOffice.CRM.Services.UtmParameters.Content
+  id: Content
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: UtmParameters.Content
+  fullName: SuperOffice.CRM.Services.UtmParameters.Content
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: UTM content
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string Content { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Content As String
+  overload: SuperOffice.CRM.Services.UtmParameters.Content*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.UtmParameters.ReferrerDomain
+  commentId: P:SuperOffice.CRM.Services.UtmParameters.ReferrerDomain
+  id: ReferrerDomain
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: ReferrerDomain
+  nameWithType: UtmParameters.ReferrerDomain
+  fullName: SuperOffice.CRM.Services.UtmParameters.ReferrerDomain
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: UTM referrer domain
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual string ReferrerDomain { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property ReferrerDomain As String
+  overload: SuperOffice.CRM.Services.UtmParameters.ReferrerDomain*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.UtmParameters.When
+  commentId: P:SuperOffice.CRM.Services.UtmParameters.When
+  id: When
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: When
+  nameWithType: UtmParameters.When
+  fullName: SuperOffice.CRM.Services.UtmParameters.When
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Date of the visit or form submission
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual DateTime When { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property [When] As Date
+  overload: SuperOffice.CRM.Services.UtmParameters.When*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.UtmParameters.Registered
+  commentId: P:SuperOffice.CRM.Services.UtmParameters.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: UtmParameters.Registered
+  fullName: SuperOffice.CRM.Services.UtmParameters.Registered
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Registered when  in UTC.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual DateTime Registered { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Registered As Date
+  overload: SuperOffice.CRM.Services.UtmParameters.Registered*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.UtmParameters.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Services.UtmParameters.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: UtmParameters.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Services.UtmParameters.RegisteredAssociateId
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Registered by whom
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int RegisteredAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property RegisteredAssociateId As Integer
+  overload: SuperOffice.CRM.Services.UtmParameters.RegisteredAssociateId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.UtmParameters.Updated
+  commentId: P:SuperOffice.CRM.Services.UtmParameters.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: UtmParameters.Updated
+  fullName: SuperOffice.CRM.Services.UtmParameters.Updated
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Updated when  in UTC.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property Updated As Date
+  overload: SuperOffice.CRM.Services.UtmParameters.Updated*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.UtmParameters.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Services.UtmParameters.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: UtmParameters.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Services.UtmParameters.UpdatedAssociateId
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Updated by whom
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int UpdatedAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UpdatedAssociateId As Integer
+  overload: SuperOffice.CRM.Services.UtmParameters.UpdatedAssociateId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.UtmParameters.UpdatedCount
+  commentId: P:SuperOffice.CRM.Services.UtmParameters.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Services.UtmParameters
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: UtmParameters.UpdatedCount
+  fullName: SuperOffice.CRM.Services.UtmParameters.UpdatedCount
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Number of updates made to this record
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual short UpdatedCount { get; set; }
+    parameters: []
+    return:
+      type: System.Int16
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property UpdatedCount As Short
+  overload: SuperOffice.CRM.Services.UtmParameters.UpdatedCount*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.CRM.Services.IPersonAgent
+  commentId: T:SuperOffice.CRM.Services.IPersonAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IPersonAgent.html
+  name: IPersonAgent
+  nameWithType: IPersonAgent
+  fullName: SuperOffice.CRM.Services.IPersonAgent
+- uid: SuperOffice.CRM.Services
+  commentId: N:SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Services
+  nameWithType: SuperOffice.CRM.Services
+  fullName: SuperOffice.CRM.Services
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Services
+    name: Services
+    isExternal: true
+    href: SuperOffice.CRM.Services.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Services.UtmParameters.#ctor*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters__ctor
+  name: UtmParameters
+  nameWithType: UtmParameters.UtmParameters
+  fullName: SuperOffice.CRM.Services.UtmParameters.UtmParameters
+  nameWithType.vb: UtmParameters.New
+  fullName.vb: SuperOffice.CRM.Services.UtmParameters.New
+  name.vb: New
+- uid: SuperOffice.CRM.Services.UtmParameters.ToString*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.ToString
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters_ToString
+  name: ToString
+  nameWithType: UtmParameters.ToString
+  fullName: SuperOffice.CRM.Services.UtmParameters.ToString
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.CRM.Services.UtmParameters.UtmParametersId*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.UtmParametersId
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters_UtmParametersId
+  name: UtmParametersId
+  nameWithType: UtmParameters.UtmParametersId
+  fullName: SuperOffice.CRM.Services.UtmParameters.UtmParametersId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.CRM.Services.UtmParameters.CreatedContactId*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.CreatedContactId
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters_CreatedContactId
+  name: CreatedContactId
+  nameWithType: UtmParameters.CreatedContactId
+  fullName: SuperOffice.CRM.Services.UtmParameters.CreatedContactId
+- uid: SuperOffice.CRM.Services.UtmParameters.CreatedPersonId*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.CreatedPersonId
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters_CreatedPersonId
+  name: CreatedPersonId
+  nameWithType: UtmParameters.CreatedPersonId
+  fullName: SuperOffice.CRM.Services.UtmParameters.CreatedPersonId
+- uid: SuperOffice.CRM.Services.UtmParameters.FormSubmissionId*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.FormSubmissionId
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters_FormSubmissionId
+  name: FormSubmissionId
+  nameWithType: UtmParameters.FormSubmissionId
+  fullName: SuperOffice.CRM.Services.UtmParameters.FormSubmissionId
+- uid: SuperOffice.CRM.Services.UtmParameters.FirstTouchSource*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.FirstTouchSource
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters_FirstTouchSource
+  name: FirstTouchSource
+  nameWithType: UtmParameters.FirstTouchSource
+  fullName: SuperOffice.CRM.Services.UtmParameters.FirstTouchSource
+- uid: SuperOffice.CRM.Services.UtmParameters.FirstTouchMedium*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.FirstTouchMedium
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters_FirstTouchMedium
+  name: FirstTouchMedium
+  nameWithType: UtmParameters.FirstTouchMedium
+  fullName: SuperOffice.CRM.Services.UtmParameters.FirstTouchMedium
+- uid: SuperOffice.CRM.Services.UtmParameters.FirstTouchCampaign*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.FirstTouchCampaign
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters_FirstTouchCampaign
+  name: FirstTouchCampaign
+  nameWithType: UtmParameters.FirstTouchCampaign
+  fullName: SuperOffice.CRM.Services.UtmParameters.FirstTouchCampaign
+- uid: SuperOffice.CRM.Services.UtmParameters.FirstTouchTerm*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.FirstTouchTerm
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters_FirstTouchTerm
+  name: FirstTouchTerm
+  nameWithType: UtmParameters.FirstTouchTerm
+  fullName: SuperOffice.CRM.Services.UtmParameters.FirstTouchTerm
+- uid: SuperOffice.CRM.Services.UtmParameters.FirstTouchContent*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.FirstTouchContent
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters_FirstTouchContent
+  name: FirstTouchContent
+  nameWithType: UtmParameters.FirstTouchContent
+  fullName: SuperOffice.CRM.Services.UtmParameters.FirstTouchContent
+- uid: SuperOffice.CRM.Services.UtmParameters.FirstTouchReferrerDomain*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.FirstTouchReferrerDomain
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters_FirstTouchReferrerDomain
+  name: FirstTouchReferrerDomain
+  nameWithType: UtmParameters.FirstTouchReferrerDomain
+  fullName: SuperOffice.CRM.Services.UtmParameters.FirstTouchReferrerDomain
+- uid: SuperOffice.CRM.Services.UtmParameters.FirstTouchWhen*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.FirstTouchWhen
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters_FirstTouchWhen
+  name: FirstTouchWhen
+  nameWithType: UtmParameters.FirstTouchWhen
+  fullName: SuperOffice.CRM.Services.UtmParameters.FirstTouchWhen
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SuperOffice.CRM.Services.UtmParameters.Source*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.Source
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters_Source
+  name: Source
+  nameWithType: UtmParameters.Source
+  fullName: SuperOffice.CRM.Services.UtmParameters.Source
+- uid: SuperOffice.CRM.Services.UtmParameters.Medium*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.Medium
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters_Medium
+  name: Medium
+  nameWithType: UtmParameters.Medium
+  fullName: SuperOffice.CRM.Services.UtmParameters.Medium
+- uid: SuperOffice.CRM.Services.UtmParameters.Campaign*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.Campaign
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters_Campaign
+  name: Campaign
+  nameWithType: UtmParameters.Campaign
+  fullName: SuperOffice.CRM.Services.UtmParameters.Campaign
+- uid: SuperOffice.CRM.Services.UtmParameters.Term*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.Term
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters_Term
+  name: Term
+  nameWithType: UtmParameters.Term
+  fullName: SuperOffice.CRM.Services.UtmParameters.Term
+- uid: SuperOffice.CRM.Services.UtmParameters.Content*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.Content
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters_Content
+  name: Content
+  nameWithType: UtmParameters.Content
+  fullName: SuperOffice.CRM.Services.UtmParameters.Content
+- uid: SuperOffice.CRM.Services.UtmParameters.ReferrerDomain*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.ReferrerDomain
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters_ReferrerDomain
+  name: ReferrerDomain
+  nameWithType: UtmParameters.ReferrerDomain
+  fullName: SuperOffice.CRM.Services.UtmParameters.ReferrerDomain
+- uid: SuperOffice.CRM.Services.UtmParameters.When*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.When
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters_When
+  name: When
+  nameWithType: UtmParameters.When
+  fullName: SuperOffice.CRM.Services.UtmParameters.When
+- uid: SuperOffice.CRM.Services.UtmParameters.Registered*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.Registered
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters_Registered
+  name: Registered
+  nameWithType: UtmParameters.Registered
+  fullName: SuperOffice.CRM.Services.UtmParameters.Registered
+- uid: SuperOffice.CRM.Services.UtmParameters.RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters_RegisteredAssociateId
+  name: RegisteredAssociateId
+  nameWithType: UtmParameters.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Services.UtmParameters.RegisteredAssociateId
+- uid: SuperOffice.CRM.Services.UtmParameters.Updated*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.Updated
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters_Updated
+  name: Updated
+  nameWithType: UtmParameters.Updated
+  fullName: SuperOffice.CRM.Services.UtmParameters.Updated
+- uid: SuperOffice.CRM.Services.UtmParameters.UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters_UpdatedAssociateId
+  name: UpdatedAssociateId
+  nameWithType: UtmParameters.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Services.UtmParameters.UpdatedAssociateId
+- uid: SuperOffice.CRM.Services.UtmParameters.UpdatedCount*
+  commentId: Overload:SuperOffice.CRM.Services.UtmParameters.UpdatedCount
+  isExternal: true
+  href: SuperOffice.CRM.Services.UtmParameters.html#SuperOffice_CRM_Services_UtmParameters_UpdatedCount
+  name: UpdatedCount
+  nameWithType: UtmParameters.UpdatedCount
+  fullName: SuperOffice.CRM.Services.UtmParameters.UpdatedCount
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short

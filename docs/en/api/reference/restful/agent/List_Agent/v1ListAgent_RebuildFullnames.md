@@ -2,6 +2,7 @@
 title: POST Agents/List/RebuildFullnames
 uid: v1ListAgent_RebuildFullnames
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/RebuildFullnames
@@ -58,7 +59,7 @@ No Content
 POST /api/v1/Agents/List/RebuildFullnames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

@@ -2,6 +2,7 @@
 title: POST Agents/Sale/HasStakeholderSetting
 uid: v1SaleAgent_HasStakeholderSetting
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/HasStakeholderSetting
@@ -68,11 +69,11 @@ OK
 POST /api/v1/Agents/Sale/HasStakeholderSetting
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 469
+  "SaleId": 448
 }
 ```
 

@@ -2,6 +2,7 @@
 title: POST Agents/EMail/CreateNewPhysicalDocumentFromEmailAttachment
 uid: v1EMailAgent_CreateNewPhysicalDocumentFromEmailAttachment
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/CreateNewPhysicalDocumentFromEmailAttachment
@@ -114,9 +115,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 63,
-  "EmailItemId": 60,
-  "AttachmentId": "numquam"
+  "DocumentId": 643,
+  "EmailItemId": 204,
+  "AttachmentId": "neque"
 }
 ```
 
@@ -127,88 +128,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 305,
+  "DocumentId": 578,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "impedit",
-  "Header": "natus",
-  "Name": "Bashirian, Dietrich and Corwin",
-  "OurRef": "voluptate",
-  "YourRef": "qui",
-  "CreatedDate": "2015-06-05T03:45:23.389207+02:00",
-  "UpdatedDate": "1998-05-09T03:45:23.389207+02:00",
-  "Description": "Seamless holistic archive",
+  "Attention": "saepe",
+  "Header": "voluptatem",
+  "Name": "Bartoletti, Heathcote and Stanton",
+  "OurRef": "et",
+  "YourRef": "impedit",
+  "CreatedDate": "2017-01-08T03:46:54.7226337+01:00",
+  "UpdatedDate": "2013-11-09T03:46:54.7226337+01:00",
+  "Description": "Configurable context-sensitive forecast",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-02-02T03:45:23.389207+01:00",
-  "ExternalRef": "est",
+  "Date": "2013-05-23T03:46:54.7226337+02:00",
+  "ExternalRef": "natus",
   "Completed": "Completed",
-  "ActiveLinks": 243,
+  "ActiveLinks": 746,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Huel Inc and Sons",
-      "Id": 242,
-      "Description": "Face to face intangible info-mediaries",
-      "ExtraInfo": "voluptas",
-      "LinkId": 566,
+      "EntityName": "Kozey-Jakubowski",
+      "Id": 163,
+      "Description": "Horizontal client-driven workforce",
+      "ExtraInfo": "hic",
+      "LinkId": 842,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 165
+          "FieldType": "System.Int32",
+          "FieldLength": 290
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 184,
-  "Snum": 523,
+  "SuggestedDocumentId": 873,
+  "Snum": 841,
   "UserDefinedFields": {
-    "SuperOffice:1": "909516860",
-    "SuperOffice:2": "Mr. Margaret Loren Bernier"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatibus",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "tempore",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "corrupti",
-    "CustomFields2": "autem"
+    "CustomFields1": "et",
+    "CustomFields2": "ut"
   },
-  "PublishEventDate": "1999-01-04T03:45:23.389207+01:00",
-  "PublishTo": "2008-09-29T03:45:23.389207+02:00",
-  "PublishFrom": "2022-07-25T03:45:23.389207+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2007-08-22T03:46:54.7226337+02:00",
+  "PublishTo": "2017-09-15T03:46:54.7226337+02:00",
+  "PublishFrom": "2024-07-07T03:46:54.7226337+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 295,
+      "VisibleId": 897,
       "Visibility": "All",
-      "DisplayValue": "recusandae",
+      "DisplayValue": "ab",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 327
+          "FieldLength": 993
         }
       }
     },
     {
-      "VisibleId": 295,
+      "VisibleId": 897,
       "Visibility": "All",
-      "DisplayValue": "recusandae",
+      "DisplayValue": "ab",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 327
+          "FieldLength": 993
         }
       }
     }
@@ -218,7 +219,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldLength": 598
     }
   }
 }

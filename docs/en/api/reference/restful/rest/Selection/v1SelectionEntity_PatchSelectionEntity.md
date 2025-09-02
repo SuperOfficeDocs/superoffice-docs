@@ -2,6 +2,7 @@
 title: PATCH Selection/{id}
 uid: v1SelectionEntity_PatchSelectionEntity
 generated: true
+content_type: reference
 ---
 
 # PATCH Selection/{id}
@@ -148,18 +149,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quia",
+    "path": "veritatis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quia",
+    "path": "veritatis",
     "value": {}
   }
 ]
@@ -172,70 +173,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Sharable multimedia knowledge user",
+  "Description": "Customizable human-resource help-desk",
   "Postit": "est",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 554,
-  "IncludePerson": 168,
+  "GroupIdx": 226,
+  "IncludePerson": 661,
   "MemberCount": 99.99,
-  "Name": "Ruecker-Streich",
-  "PostitTextId": 629,
-  "CreatedDate": "2002-05-05T03:45:28.6546813+02:00",
-  "SelectionId": 90,
-  "SoundEx": "a",
-  "Source": 965,
-  "TextId": 104,
-  "UpdatedDate": "2011-09-20T03:45:28.6546813+02:00",
-  "UpdatedCount": 323,
-  "Visibility": 382,
+  "Name": "Conroy-Quitzon",
+  "PostitTextId": 241,
+  "CreatedDate": "2012-09-27T03:47:00.3005605+02:00",
+  "SelectionId": 452,
+  "SoundEx": "cupiditate",
+  "Source": 142,
+  "TextId": 130,
+  "UpdatedDate": "2005-02-07T03:47:00.3005605+01:00",
+  "UpdatedCount": 267,
+  "Visibility": 111,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 344,
-  "TargetTableName": "Bernier Group",
-  "Completed": true,
-  "LeftSelectionId": 615,
-  "RightSelectionId": 263,
+  "CompanyUnique": false,
+  "TargetTableNumber": 889,
+  "TargetTableName": "Dicki, Labadie and Rogahn",
+  "Completed": false,
+  "LeftSelectionId": 167,
+  "RightSelectionId": 832,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Koepp, Lang and Kohler",
-  "ShadowProviderName": "Cummings-Hackett",
-  "ChartKey": "voluptas",
-  "LastLoaded": "2006-06-23T03:45:28.6546813+02:00",
-  "LastLoadedBy": 495,
+  "MainProviderName": "Fadel-Rempel",
+  "ShadowProviderName": "Gislason Group",
+  "ChartKey": "quia",
+  "LastLoaded": "2018-05-10T03:47:00.3005605+02:00",
+  "LastLoadedBy": 291,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-06-20T03:45:28.6546813+02:00",
-  "LastMembershipChangeBy": 517,
+  "LastMembershipChange": "2012-10-16T03:47:00.3005605+02:00",
+  "LastMembershipChangeBy": 830,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nostrum",
-  "MemberTabHeading": "ad",
-  "MailingsProviderName": "Strosin-Tillman",
-  "DashboardTileDefinitionId": 822,
+  "MainHeading": "ex",
+  "MemberTabHeading": "asperiores",
+  "MailingsProviderName": "Bergnaum-Aufderhar",
+  "DashboardTileDefinitionId": 132,
   "VisibleFor": [
     {
-      "VisibleId": 893,
+      "VisibleId": 770,
       "Visibility": "All",
-      "DisplayValue": "repellendus",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 837
+          "FieldLength": 971
         }
       }
     },
     {
-      "VisibleId": 893,
+      "VisibleId": 770,
       "Visibility": "All",
-      "DisplayValue": "repellendus",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 837
+          "FieldLength": 971
         }
       }
     }
@@ -245,7 +246,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 342
+      "FieldLength": 469
     }
   },
   "_Links": {

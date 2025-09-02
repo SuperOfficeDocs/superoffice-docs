@@ -3,9 +3,9 @@ uid: erpdeliveryterms
 title: erpdeliveryterms
 keywords: mdoprovider mdo provider erpdeliveryterms
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "erpdeliveryterms" MDO List

@@ -2,10 +2,10 @@
 uid: table-ConsentPerson
 title: ConsentPerson table
 description: Link table that defines who has which consents
-so.generated: true
+generated: true
 keywords: database table ConsentPerson
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ConsentPerson Table (472)

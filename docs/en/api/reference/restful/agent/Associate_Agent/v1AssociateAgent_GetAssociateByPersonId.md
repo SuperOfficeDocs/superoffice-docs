@@ -2,6 +2,7 @@
 title: POST Agents/Associate/GetAssociateByPersonId
 uid: v1AssociateAgent_GetAssociateByPersonId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Associate/GetAssociateByPersonId
@@ -75,6 +76,8 @@ OK
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | EjUserId | int32 | ID of the ej user record corresponding to this associate; 0 for associates that are not ej users |
 | UserName | string | User name |
+| ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.Associate.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.Associate.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -84,11 +87,11 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 546
+  "PersonId": 163
 }
 ```
 
@@ -99,24 +102,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 626,
-  "Name": "Feil, McLaughlin and Erdman",
-  "PersonId": 47,
-  "Rank": 833,
-  "Tooltip": "quis",
+  "AssociateId": 888,
+  "Name": "Schmidt-Dietrich",
+  "PersonId": 3,
+  "Rank": 243,
+  "Tooltip": "iusto",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 452,
-  "FullName": "Ms. Felicity Jewess V",
-  "FormalName": "Effertz LLC",
+  "GroupIdx": 483,
+  "FullName": "Raquel Grady",
+  "FormalName": "Buckridge-Price",
   "Deleted": true,
-  "EjUserId": 943,
-  "UserName": "Green Group",
+  "EjUserId": 451,
+  "UserName": "Waelchi-Morissette",
+  "ExtraFields": {
+    "ExtraFields1": "et",
+    "ExtraFields2": "quibusdam"
+  },
+  "CustomFields": {
+    "CustomFields1": "est",
+    "CustomFields2": "voluptatem"
+  },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 380
+      "FieldLength": 179
     }
   }
 }

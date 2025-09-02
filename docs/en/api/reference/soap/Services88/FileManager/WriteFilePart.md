@@ -2,6 +2,7 @@
 title: Services88.FileManagerAgent.WriteFilePart SOAP
 generated: true
 uid: Services88-FileManager-WriteFilePart
+content_type: reference
 ---
 
 # Services88 FileManager WriteFilePart

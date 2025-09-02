@@ -2,6 +2,7 @@
 title: POST Agents/Contact/GetPreviewContact
 uid: v1ContactAgent_GetPreviewContact
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Contact/GetPreviewContact
@@ -82,11 +83,11 @@ OK
 POST /api/v1/Agents/Contact/GetPreviewContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 477
+  "ContactId": 802
 }
 ```
 
@@ -97,17 +98,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 356,
-  "Name": "Murazik, Larkin and Rippin",
+  "ContactId": 501,
+  "Name": "Kshlerin-Senger",
   "Department": "",
-  "CountryId": 658,
-  "Number2": "1465321",
-  "DirectPhone": "(366)482-4832 x359",
+  "CountryId": 31,
+  "Number2": "821505",
+  "DirectPhone": "017-153-7608",
   "URL": "http://www.example.com/",
-  "EmailAddress": "reagan@little.uk",
+  "EmailAddress": "rylan@volkman.uk",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
-  "AssociateFullName": "Conrad Wiegand II",
+  "AssociateFullName": "Barry Stoltenberg",
   "Address": null
 }
 ```

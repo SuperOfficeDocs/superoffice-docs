@@ -2,6 +2,7 @@
 title: Services88.TimeZoneAgent.GetBaseTimeZoneId SOAP
 generated: true
 uid: Services88-TimeZone-GetBaseTimeZoneId
+content_type: reference
 ---
 
 # Services88 TimeZone GetBaseTimeZoneId

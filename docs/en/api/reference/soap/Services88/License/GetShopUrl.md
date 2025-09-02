@@ -2,6 +2,7 @@
 title: Services88.LicenseAgent.GetShopUrl SOAP
 generated: true
 uid: Services88-License-GetShopUrl
+content_type: reference
 ---
 
 # Services88 License GetShopUrl

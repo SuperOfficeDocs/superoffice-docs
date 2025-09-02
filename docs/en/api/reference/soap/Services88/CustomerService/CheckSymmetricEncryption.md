@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.CheckSymmetricEncryption SOAP
 generated: true
 uid: Services88-CustomerService-CheckSymmetricEncryption
+content_type: reference
 ---
 
 # Services88 CustomerService CheckSymmetricEncryption

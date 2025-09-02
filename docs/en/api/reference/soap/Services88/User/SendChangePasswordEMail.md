@@ -2,6 +2,7 @@
 title: Services88.UserAgent.SendChangePasswordEMail SOAP
 generated: true
 uid: Services88-User-SendChangePasswordEMail
+content_type: reference
 ---
 
 # Services88 User SendChangePasswordEMail

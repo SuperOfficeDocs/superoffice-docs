@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.PersonAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IConsentPersonImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.PersonAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IConsentPersonImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.PersonAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IConsentPersonImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   - SuperOffice.CRM.Services.PersonAgent.AddBounceAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.PersonAgent.AddBounceWithCountAsync(System.String,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.PersonAgent.AddBounceWithDetailsAsync(System.String,System.Int32,System.Int32,System.String,System.Threading.CancellationToken)
@@ -49,6 +49,7 @@ items:
   - SuperOffice.CRM.Services.PersonAgent.GetPhonesAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.PersonAgent.GetSalesRepAsync(System.String,System.String,System.String,System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.PersonAgent.GetUserCandidateByPersonAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.PersonAgent.GetUtmParametersAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.PersonAgent.HasConsentAsync(System.Int32,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.PersonAgent.IsNumberValidAsync(System.Int32,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.PersonAgent.MergeAsync(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Boolean,System.Threading.CancellationToken)
@@ -135,22 +136,22 @@ items:
   nameWithType.vb: PersonAgent.New(IConsentPersonImplementation, IPersonImplementation, IPersonEntityImplementation, IPersonImageImplementation, IPersonListImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.PersonAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IConsentPersonImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IConsentPersonImplementation, IPersonImplementation, IPersonEntityImplementation, IPersonImageImplementation, IPersonListImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.PersonAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IConsentPersonImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  commentId: M:SuperOffice.CRM.Services.PersonAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IConsentPersonImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IConsentPersonImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+- uid: SuperOffice.CRM.Services.PersonAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IConsentPersonImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  commentId: M:SuperOffice.CRM.Services.PersonAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IConsentPersonImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IConsentPersonImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImageImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonListImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
   parent: SuperOffice.CRM.Services.PersonAgent
   langs:
   - csharp
   - vb
-  name: PersonAgent(IConsentPersonImplementation, IPersonImplementation, IPersonEntityImplementation, IPersonImageImplementation, IPersonListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  nameWithType: PersonAgent.PersonAgent(IConsentPersonImplementation, IPersonImplementation, IPersonEntityImplementation, IPersonImageImplementation, IPersonListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName: SuperOffice.CRM.Services.PersonAgent.PersonAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IConsentPersonImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name: PersonAgent(IConsentPersonImplementation, IPersonImplementation, IPersonEntityImplementation, IPersonImageImplementation, IPersonListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType: PersonAgent.PersonAgent(IConsentPersonImplementation, IPersonImplementation, IPersonEntityImplementation, IPersonImageImplementation, IPersonListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName: SuperOffice.CRM.Services.PersonAgent.PersonAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IConsentPersonImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public PersonAgent(IConsentPersonImplementation consentPersonImplementation, IPersonImplementation personImplementation, IPersonEntityImplementation personEntityImplementation, IPersonImageImplementation personImageImplementation, IPersonListImplementation personListImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    content: public PersonAgent(IConsentPersonImplementation consentPersonImplementation, IPersonImplementation personImplementation, IPersonEntityImplementation personEntityImplementation, IPersonImageImplementation personImageImplementation, IPersonListImplementation personListImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
     parameters:
     - id: consentPersonImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IConsentPersonImplementation
@@ -168,11 +169,15 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    content.vb: Public Sub New(consentPersonImplementation As IConsentPersonImplementation, personImplementation As IPersonImplementation, personEntityImplementation As IPersonEntityImplementation, personImageImplementation As IPersonImageImplementation, personListImplementation As IPersonListImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+    - id: scriptingConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+    - id: onlineConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+    content.vb: Public Sub New(consentPersonImplementation As IConsentPersonImplementation, personImplementation As IPersonImplementation, personEntityImplementation As IPersonEntityImplementation, personImageImplementation As IPersonImageImplementation, personListImplementation As IPersonListImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
   overload: SuperOffice.CRM.Services.PersonAgent.#ctor*
-  nameWithType.vb: PersonAgent.New(IConsentPersonImplementation, IPersonImplementation, IPersonEntityImplementation, IPersonImageImplementation, IPersonListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName.vb: SuperOffice.CRM.Services.PersonAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IConsentPersonImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
-  name.vb: New(IConsentPersonImplementation, IPersonImplementation, IPersonEntityImplementation, IPersonImageImplementation, IPersonListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType.vb: PersonAgent.New(IConsentPersonImplementation, IPersonImplementation, IPersonEntityImplementation, IPersonImageImplementation, IPersonListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName.vb: SuperOffice.CRM.Services.PersonAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IConsentPersonImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonImageImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IPersonListImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name.vb: New(IConsentPersonImplementation, IPersonImplementation, IPersonEntityImplementation, IPersonImageImplementation, IPersonListImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
 - uid: SuperOffice.CRM.Services.PersonAgent.CreateDefaultConsentPersonAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.PersonAgent.CreateDefaultConsentPersonAsync(System.Threading.CancellationToken)
   id: CreateDefaultConsentPersonAsync(System.Threading.CancellationToken)
@@ -187,16 +192,14 @@ items:
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new ConsentPerson.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  summary: Loading default values into a new ConsentPerson.
   example: []
   syntax:
     content: public Task<ConsentPerson> CreateDefaultConsentPersonAsync(CancellationToken cancellationToken = default)
     parameters:
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ConsentPerson}
       description: New ConsentPerson with default values
@@ -218,16 +221,17 @@ items:
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing ConsentPerson or creates a new ConsentPerson if the id parameter is empty
+  summary: Updates the existing ConsentPerson or creates a new ConsentPerson if the id parameter is 0.
   example: []
   syntax:
     content: public Task<ConsentPerson> SaveConsentPersonAsync(ConsentPerson consentPerson, CancellationToken cancellationToken = default)
     parameters:
     - id: consentPerson
       type: SuperOffice.CRM.Services.ConsentPerson
-      description: The ConsentPerson that is saved.
+      description: The ConsentPerson that is saved
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ConsentPerson}
       description: New or updated ConsentPerson
@@ -259,8 +263,10 @@ items:
       description: The identity of the ConsentPerson
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task
+      description: This method has no return value
     content.vb: Public Function DeleteConsentPersonAsync(consentPersonId As Integer, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.PersonAgent.DeleteConsentPersonAsync*
   implements:
@@ -268,132 +274,6 @@ items:
   nameWithType.vb: PersonAgent.DeleteConsentPersonAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.PersonAgent.DeleteConsentPersonAsync(Integer, System.Threading.CancellationToken)
   name.vb: DeleteConsentPersonAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonEntityAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonEntityAsync(System.Threading.CancellationToken)
-  id: CreateDefaultPersonEntityAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.PersonAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultPersonEntityAsync(CancellationToken)
-  nameWithType: PersonAgent.CreateDefaultPersonEntityAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonEntityAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new PersonEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: public Task<PersonEntity> CreateDefaultPersonEntityAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PersonEntity}
-      description: New PersonEntity with default values
-    content.vb: Public Function CreateDefaultPersonEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of PersonEntity)
-  overload: SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonEntityAsync*
-  implements:
-  - SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonEntityAsync(System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.PersonAgent.SavePersonEntityAsync(SuperOffice.CRM.Services.PersonEntity,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.PersonAgent.SavePersonEntityAsync(SuperOffice.CRM.Services.PersonEntity,System.Threading.CancellationToken)
-  id: SavePersonEntityAsync(SuperOffice.CRM.Services.PersonEntity,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.PersonAgent
-  langs:
-  - csharp
-  - vb
-  name: SavePersonEntityAsync(PersonEntity, CancellationToken)
-  nameWithType: PersonAgent.SavePersonEntityAsync(PersonEntity, CancellationToken)
-  fullName: SuperOffice.CRM.Services.PersonAgent.SavePersonEntityAsync(SuperOffice.CRM.Services.PersonEntity, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing PersonEntity or creates a new PersonEntity if the id parameter is empty
-  example: []
-  syntax:
-    content: public Task<PersonEntity> SavePersonEntityAsync(PersonEntity personEntity, CancellationToken cancellationToken = default)
-    parameters:
-    - id: personEntity
-      type: SuperOffice.CRM.Services.PersonEntity
-      description: The PersonEntity that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PersonEntity}
-      description: New or updated PersonEntity
-    content.vb: Public Function SavePersonEntityAsync(personEntity As PersonEntity, cancellationToken As CancellationToken = Nothing) As Task(Of PersonEntity)
-  overload: SuperOffice.CRM.Services.PersonAgent.SavePersonEntityAsync*
-  implements:
-  - SuperOffice.CRM.Services.IPersonAgent.SavePersonEntityAsync(SuperOffice.CRM.Services.PersonEntity,System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.PersonAgent.DeletePersonEntityAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.PersonAgent.DeletePersonEntityAsync(System.Int32,System.Threading.CancellationToken)
-  id: DeletePersonEntityAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.PersonAgent
-  langs:
-  - csharp
-  - vb
-  name: DeletePersonEntityAsync(int, CancellationToken)
-  nameWithType: PersonAgent.DeletePersonEntityAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.PersonAgent.DeletePersonEntityAsync(int, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: Deletes the PersonEntity
-  example: []
-  syntax:
-    content: public Task DeletePersonEntityAsync(int personEntityId, CancellationToken cancellationToken = default)
-    parameters:
-    - id: personEntityId
-      type: System.Int32
-      description: The identity of the PersonEntity
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Public Function DeletePersonEntityAsync(personEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
-  overload: SuperOffice.CRM.Services.PersonAgent.DeletePersonEntityAsync*
-  implements:
-  - SuperOffice.CRM.Services.IPersonAgent.DeletePersonEntityAsync(System.Int32,System.Threading.CancellationToken)
-  nameWithType.vb: PersonAgent.DeletePersonEntityAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.PersonAgent.DeletePersonEntityAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeletePersonEntityAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonImageAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonImageAsync(System.Threading.CancellationToken)
-  id: CreateDefaultPersonImageAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.PersonAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultPersonImageAsync(CancellationToken)
-  nameWithType: PersonAgent.CreateDefaultPersonImageAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonImageAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new PersonImage.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: public Task<PersonImage> CreateDefaultPersonImageAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PersonImage}
-      description: New PersonImage with default values
-    content.vb: Public Function CreateDefaultPersonImageAsync(cancellationToken As CancellationToken = Nothing) As Task(Of PersonImage)
-  overload: SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonImageAsync*
-  implements:
-  - SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonImageAsync(System.Threading.CancellationToken)
 - uid: SuperOffice.CRM.Services.PersonAgent.GetConsentPersonAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.PersonAgent.GetConsentPersonAsync(System.Int32,System.Threading.CancellationToken)
   id: GetConsentPersonAsync(System.Int32,System.Threading.CancellationToken)
@@ -418,9 +298,10 @@ items:
       description: The identifier of the ConsentPerson object
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ConsentPerson}
-      description: ConsentPerson
+      description: A single ConsentPerson
     content.vb: Public Function GetConsentPersonAsync(consentPersonId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ConsentPerson)
   overload: SuperOffice.CRM.Services.PersonAgent.GetConsentPersonAsync*
   implements:
@@ -452,9 +333,10 @@ items:
       description: The identifier of the Person object
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Person}
-      description: Person
+      description: A single Person
     content.vb: Public Function GetPersonAsync(personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Person)
   overload: SuperOffice.CRM.Services.PersonAgent.GetPersonAsync*
   implements:
@@ -500,6 +382,102 @@ items:
   nameWithType.vb: PersonAgent.TryAddPersonsToEmailFlowAsync(Integer, Integer(), CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.PersonAgent.TryAddPersonsToEmailFlowAsync(Integer, Integer(), System.Threading.CancellationToken)
   name.vb: TryAddPersonsToEmailFlowAsync(Integer, Integer(), CancellationToken)
+- uid: SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultPersonEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.PersonAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultPersonEntityAsync(CancellationToken)
+  nameWithType: PersonAgent.CreateDefaultPersonEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonEntityAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new PersonEntity.
+  example: []
+  syntax:
+    content: public Task<PersonEntity> CreateDefaultPersonEntityAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PersonEntity}
+      description: New PersonEntity with default values
+    content.vb: Public Function CreateDefaultPersonEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of PersonEntity)
+  overload: SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonEntityAsync*
+  implements:
+  - SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonEntityAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.PersonAgent.SavePersonEntityAsync(SuperOffice.CRM.Services.PersonEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.PersonAgent.SavePersonEntityAsync(SuperOffice.CRM.Services.PersonEntity,System.Threading.CancellationToken)
+  id: SavePersonEntityAsync(SuperOffice.CRM.Services.PersonEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.PersonAgent
+  langs:
+  - csharp
+  - vb
+  name: SavePersonEntityAsync(PersonEntity, CancellationToken)
+  nameWithType: PersonAgent.SavePersonEntityAsync(PersonEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.PersonAgent.SavePersonEntityAsync(SuperOffice.CRM.Services.PersonEntity, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing PersonEntity or creates a new PersonEntity if the id parameter is 0.
+  example: []
+  syntax:
+    content: public Task<PersonEntity> SavePersonEntityAsync(PersonEntity personEntity, CancellationToken cancellationToken = default)
+    parameters:
+    - id: personEntity
+      type: SuperOffice.CRM.Services.PersonEntity
+      description: The PersonEntity that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PersonEntity}
+      description: New or updated PersonEntity
+    content.vb: Public Function SavePersonEntityAsync(personEntity As PersonEntity, cancellationToken As CancellationToken = Nothing) As Task(Of PersonEntity)
+  overload: SuperOffice.CRM.Services.PersonAgent.SavePersonEntityAsync*
+  implements:
+  - SuperOffice.CRM.Services.IPersonAgent.SavePersonEntityAsync(SuperOffice.CRM.Services.PersonEntity,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.PersonAgent.DeletePersonEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.PersonAgent.DeletePersonEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeletePersonEntityAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.PersonAgent
+  langs:
+  - csharp
+  - vb
+  name: DeletePersonEntityAsync(int, CancellationToken)
+  nameWithType: PersonAgent.DeletePersonEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.PersonAgent.DeletePersonEntityAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Deletes the PersonEntity. This table supports Soft Delete; records will be marked as deleted and disappear from the GUI and API results, but will not be physically deleted by this (and any other) method.
+  example: []
+  syntax:
+    content: public Task DeletePersonEntityAsync(int personEntityId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: personEntityId
+      type: System.Int32
+      description: The identity of the PersonEntity
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function DeletePersonEntityAsync(personEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.PersonAgent.DeletePersonEntityAsync*
+  implements:
+  - SuperOffice.CRM.Services.IPersonAgent.DeletePersonEntityAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: PersonAgent.DeletePersonEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.PersonAgent.DeletePersonEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeletePersonEntityAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.PersonAgent.GetPersonEntityAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.PersonAgent.GetPersonEntityAsync(System.Int32,System.Threading.CancellationToken)
   id: GetPersonEntityAsync(System.Int32,System.Threading.CancellationToken)
@@ -524,9 +502,10 @@ items:
       description: The identifier of the PersonEntity object
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PersonEntity}
-      description: PersonEntity
+      description: A single PersonEntity
     content.vb: Public Function GetPersonEntityAsync(personEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of PersonEntity)
   overload: SuperOffice.CRM.Services.PersonAgent.GetPersonEntityAsync*
   implements:
@@ -2076,6 +2055,70 @@ items:
   nameWithType.vb: PersonAgent.SendEmailWithEventNameAsync(String, String, String, String, String, Integer(), String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.PersonAgent.SendEmailWithEventNameAsync(String, String, String, String, String, Integer(), String, System.Threading.CancellationToken)
   name.vb: SendEmailWithEventNameAsync(String, String, String, String, String, Integer(), String, CancellationToken)
+- uid: SuperOffice.CRM.Services.PersonAgent.GetUtmParametersAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.PersonAgent.GetUtmParametersAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetUtmParametersAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.PersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetUtmParametersAsync(int, CancellationToken)
+  nameWithType: PersonAgent.GetUtmParametersAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.PersonAgent.GetUtmParametersAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Get all UTM parameters for a given person.
+  example: []
+  syntax:
+    content: public Task<UtmParameters> GetUtmParametersAsync(int personId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id to get UTM parameters for
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UtmParameters}
+      description: UTM parameters recorded on this person
+    content.vb: Public Function GetUtmParametersAsync(personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of UtmParameters)
+  overload: SuperOffice.CRM.Services.PersonAgent.GetUtmParametersAsync*
+  implements:
+  - SuperOffice.CRM.Services.IPersonAgent.GetUtmParametersAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: PersonAgent.GetUtmParametersAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.PersonAgent.GetUtmParametersAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetUtmParametersAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonImageAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonImageAsync(System.Threading.CancellationToken)
+  id: CreateDefaultPersonImageAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.PersonAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultPersonImageAsync(CancellationToken)
+  nameWithType: PersonAgent.CreateDefaultPersonImageAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonImageAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new PersonImage.
+  example: []
+  syntax:
+    content: public Task<PersonImage> CreateDefaultPersonImageAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PersonImage}
+      description: New PersonImage with default values
+    content.vb: Public Function CreateDefaultPersonImageAsync(cancellationToken As CancellationToken = Nothing) As Task(Of PersonImage)
+  overload: SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonImageAsync*
+  implements:
+  - SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonImageAsync(System.Threading.CancellationToken)
 - uid: SuperOffice.CRM.Services.PersonAgent.GetPersonListAsync(System.Int32[],System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.PersonAgent.GetPersonListAsync(System.Int32[],System.Threading.CancellationToken)
   id: GetPersonListAsync(System.Int32[],System.Threading.CancellationToken)
@@ -2100,9 +2143,10 @@ items:
       description: The identifiers of the Person object
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Person[]}
-      description: Array of Person objects
+      description: Array of Person
     content.vb: Public Function GetPersonListAsync(personIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of Person())
   overload: SuperOffice.CRM.Services.PersonAgent.GetPersonListAsync*
   implements:
@@ -2880,6 +2924,16 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+  isExternal: true
+  name: IScriptingConfiguration
+  nameWithType: ConfigFile.IScriptingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  isExternal: true
+  name: IOnlineConfiguration
+  nameWithType: ConfigFile.IOnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
 - uid: SuperOffice.CRM.Services.PersonAgent.CreateDefaultConsentPersonAsync*
   commentId: Overload:SuperOffice.CRM.Services.PersonAgent.CreateDefaultConsentPersonAsync
   isExternal: true
@@ -3172,249 +3226,6 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
-- uid: SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.PersonAgent.html#SuperOffice_CRM_Services_PersonAgent_CreateDefaultPersonEntityAsync_System_Threading_CancellationToken_
-  name: CreateDefaultPersonEntityAsync
-  nameWithType: PersonAgent.CreateDefaultPersonEntityAsync
-  fullName: SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonEntityAsync
-- uid: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonEntityAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonEntityAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IPersonAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: CreateDefaultPersonEntityAsync(CancellationToken)
-  nameWithType: IPersonAgent.CreateDefaultPersonEntityAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonEntityAsync(System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonEntityAsync(System.Threading.CancellationToken)
-    name: CreateDefaultPersonEntityAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonEntityAsync(System.Threading.CancellationToken)
-    name: CreateDefaultPersonEntityAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PersonEntity}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PersonEntity}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<PersonEntity>
-  nameWithType: Task<PersonEntity>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PersonEntity>
-  nameWithType.vb: Task(Of PersonEntity)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PersonEntity)
-  name.vb: Task(Of PersonEntity)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.PersonEntity
-    name: PersonEntity
-    isExternal: true
-    href: SuperOffice.CRM.Services.PersonEntity.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.PersonEntity
-    name: PersonEntity
-    isExternal: true
-    href: SuperOffice.CRM.Services.PersonEntity.html
-  - name: )
-- uid: SuperOffice.CRM.Services.PersonAgent.SavePersonEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.PersonAgent.SavePersonEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.PersonAgent.html#SuperOffice_CRM_Services_PersonAgent_SavePersonEntityAsync_SuperOffice_CRM_Services_PersonEntity_System_Threading_CancellationToken_
-  name: SavePersonEntityAsync
-  nameWithType: PersonAgent.SavePersonEntityAsync
-  fullName: SuperOffice.CRM.Services.PersonAgent.SavePersonEntityAsync
-- uid: SuperOffice.CRM.Services.IPersonAgent.SavePersonEntityAsync(SuperOffice.CRM.Services.PersonEntity,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IPersonAgent.SavePersonEntityAsync(SuperOffice.CRM.Services.PersonEntity,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IPersonAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: SavePersonEntityAsync(PersonEntity, CancellationToken)
-  nameWithType: IPersonAgent.SavePersonEntityAsync(PersonEntity, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IPersonAgent.SavePersonEntityAsync(SuperOffice.CRM.Services.PersonEntity, System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IPersonAgent.SavePersonEntityAsync(SuperOffice.CRM.Services.PersonEntity,System.Threading.CancellationToken)
-    name: SavePersonEntityAsync
-    isExternal: true
-  - name: (
-  - uid: SuperOffice.CRM.Services.PersonEntity
-    name: PersonEntity
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IPersonAgent.SavePersonEntityAsync(SuperOffice.CRM.Services.PersonEntity,System.Threading.CancellationToken)
-    name: SavePersonEntityAsync
-    isExternal: true
-  - name: (
-  - uid: SuperOffice.CRM.Services.PersonEntity
-    name: PersonEntity
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: SuperOffice.CRM.Services.PersonEntity
-  commentId: T:SuperOffice.CRM.Services.PersonEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.PersonEntity.html
-  name: PersonEntity
-  nameWithType: PersonEntity
-  fullName: SuperOffice.CRM.Services.PersonEntity
-- uid: SuperOffice.CRM.Services.PersonAgent.DeletePersonEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.PersonAgent.DeletePersonEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.PersonAgent.html#SuperOffice_CRM_Services_PersonAgent_DeletePersonEntityAsync_System_Int32_System_Threading_CancellationToken_
-  name: DeletePersonEntityAsync
-  nameWithType: PersonAgent.DeletePersonEntityAsync
-  fullName: SuperOffice.CRM.Services.PersonAgent.DeletePersonEntityAsync
-- uid: SuperOffice.CRM.Services.IPersonAgent.DeletePersonEntityAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IPersonAgent.DeletePersonEntityAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IPersonAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: DeletePersonEntityAsync(int, CancellationToken)
-  nameWithType: IPersonAgent.DeletePersonEntityAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IPersonAgent.DeletePersonEntityAsync(int, System.Threading.CancellationToken)
-  nameWithType.vb: IPersonAgent.DeletePersonEntityAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IPersonAgent.DeletePersonEntityAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeletePersonEntityAsync(Integer, CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IPersonAgent.DeletePersonEntityAsync(System.Int32,System.Threading.CancellationToken)
-    name: DeletePersonEntityAsync
-    isExternal: true
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IPersonAgent.DeletePersonEntityAsync(System.Int32,System.Threading.CancellationToken)
-    name: DeletePersonEntityAsync
-    isExternal: true
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonImageAsync*
-  commentId: Overload:SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonImageAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.PersonAgent.html#SuperOffice_CRM_Services_PersonAgent_CreateDefaultPersonImageAsync_System_Threading_CancellationToken_
-  name: CreateDefaultPersonImageAsync
-  nameWithType: PersonAgent.CreateDefaultPersonImageAsync
-  fullName: SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonImageAsync
-- uid: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonImageAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonImageAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IPersonAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: CreateDefaultPersonImageAsync(CancellationToken)
-  nameWithType: IPersonAgent.CreateDefaultPersonImageAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonImageAsync(System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonImageAsync(System.Threading.CancellationToken)
-    name: CreateDefaultPersonImageAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonImageAsync(System.Threading.CancellationToken)
-    name: CreateDefaultPersonImageAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PersonImage}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PersonImage}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<PersonImage>
-  nameWithType: Task<PersonImage>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PersonImage>
-  nameWithType.vb: Task(Of PersonImage)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PersonImage)
-  name.vb: Task(Of PersonImage)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.PersonImage
-    name: PersonImage
-    isExternal: true
-    href: SuperOffice.CRM.Services.PersonImage.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.PersonImage
-    name: PersonImage
-    isExternal: true
-    href: SuperOffice.CRM.Services.PersonImage.html
-  - name: )
 - uid: SuperOffice.CRM.Services.PersonAgent.GetConsentPersonAsync*
   commentId: Overload:SuperOffice.CRM.Services.PersonAgent.GetConsentPersonAsync
   isExternal: true
@@ -3677,6 +3488,179 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.boolean
   - name: (
   - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.PersonAgent.html#SuperOffice_CRM_Services_PersonAgent_CreateDefaultPersonEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultPersonEntityAsync
+  nameWithType: PersonAgent.CreateDefaultPersonEntityAsync
+  fullName: SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonEntityAsync
+- uid: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultPersonEntityAsync(CancellationToken)
+  nameWithType: IPersonAgent.CreateDefaultPersonEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonEntityAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonEntityAsync(System.Threading.CancellationToken)
+    name: CreateDefaultPersonEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonEntityAsync(System.Threading.CancellationToken)
+    name: CreateDefaultPersonEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PersonEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PersonEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<PersonEntity>
+  nameWithType: Task<PersonEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PersonEntity>
+  nameWithType.vb: Task(Of PersonEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PersonEntity)
+  name.vb: Task(Of PersonEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.PersonEntity
+    name: PersonEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.PersonEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.PersonEntity
+    name: PersonEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.PersonEntity.html
+  - name: )
+- uid: SuperOffice.CRM.Services.PersonAgent.SavePersonEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.PersonAgent.SavePersonEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.PersonAgent.html#SuperOffice_CRM_Services_PersonAgent_SavePersonEntityAsync_SuperOffice_CRM_Services_PersonEntity_System_Threading_CancellationToken_
+  name: SavePersonEntityAsync
+  nameWithType: PersonAgent.SavePersonEntityAsync
+  fullName: SuperOffice.CRM.Services.PersonAgent.SavePersonEntityAsync
+- uid: SuperOffice.CRM.Services.IPersonAgent.SavePersonEntityAsync(SuperOffice.CRM.Services.PersonEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.SavePersonEntityAsync(SuperOffice.CRM.Services.PersonEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: SavePersonEntityAsync(PersonEntity, CancellationToken)
+  nameWithType: IPersonAgent.SavePersonEntityAsync(PersonEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.SavePersonEntityAsync(SuperOffice.CRM.Services.PersonEntity, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPersonAgent.SavePersonEntityAsync(SuperOffice.CRM.Services.PersonEntity,System.Threading.CancellationToken)
+    name: SavePersonEntityAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.PersonEntity
+    name: PersonEntity
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPersonAgent.SavePersonEntityAsync(SuperOffice.CRM.Services.PersonEntity,System.Threading.CancellationToken)
+    name: SavePersonEntityAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.PersonEntity
+    name: PersonEntity
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.PersonEntity
+  commentId: T:SuperOffice.CRM.Services.PersonEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.PersonEntity.html
+  name: PersonEntity
+  nameWithType: PersonEntity
+  fullName: SuperOffice.CRM.Services.PersonEntity
+- uid: SuperOffice.CRM.Services.PersonAgent.DeletePersonEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.PersonAgent.DeletePersonEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.PersonAgent.html#SuperOffice_CRM_Services_PersonAgent_DeletePersonEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeletePersonEntityAsync
+  nameWithType: PersonAgent.DeletePersonEntityAsync
+  fullName: SuperOffice.CRM.Services.PersonAgent.DeletePersonEntityAsync
+- uid: SuperOffice.CRM.Services.IPersonAgent.DeletePersonEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.DeletePersonEntityAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DeletePersonEntityAsync(int, CancellationToken)
+  nameWithType: IPersonAgent.DeletePersonEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.DeletePersonEntityAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IPersonAgent.DeletePersonEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPersonAgent.DeletePersonEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeletePersonEntityAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPersonAgent.DeletePersonEntityAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeletePersonEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPersonAgent.DeletePersonEntityAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeletePersonEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
 - uid: SuperOffice.CRM.Services.PersonAgent.GetPersonEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.PersonAgent.GetPersonEntityAsync
@@ -6983,6 +6967,161 @@ references:
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.PersonAgent.GetUtmParametersAsync*
+  commentId: Overload:SuperOffice.CRM.Services.PersonAgent.GetUtmParametersAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.PersonAgent.html#SuperOffice_CRM_Services_PersonAgent_GetUtmParametersAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetUtmParametersAsync
+  nameWithType: PersonAgent.GetUtmParametersAsync
+  fullName: SuperOffice.CRM.Services.PersonAgent.GetUtmParametersAsync
+- uid: SuperOffice.CRM.Services.IPersonAgent.GetUtmParametersAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.GetUtmParametersAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetUtmParametersAsync(int, CancellationToken)
+  nameWithType: IPersonAgent.GetUtmParametersAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.GetUtmParametersAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IPersonAgent.GetUtmParametersAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IPersonAgent.GetUtmParametersAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetUtmParametersAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPersonAgent.GetUtmParametersAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetUtmParametersAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPersonAgent.GetUtmParametersAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetUtmParametersAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UtmParameters}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.UtmParameters}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<UtmParameters>
+  nameWithType: Task<UtmParameters>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.UtmParameters>
+  nameWithType.vb: Task(Of UtmParameters)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.UtmParameters)
+  name.vb: Task(Of UtmParameters)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.UtmParameters
+    name: UtmParameters
+    isExternal: true
+    href: SuperOffice.CRM.Services.UtmParameters.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.UtmParameters
+    name: UtmParameters
+    isExternal: true
+    href: SuperOffice.CRM.Services.UtmParameters.html
+  - name: )
+- uid: SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonImageAsync*
+  commentId: Overload:SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonImageAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.PersonAgent.html#SuperOffice_CRM_Services_PersonAgent_CreateDefaultPersonImageAsync_System_Threading_CancellationToken_
+  name: CreateDefaultPersonImageAsync
+  nameWithType: PersonAgent.CreateDefaultPersonImageAsync
+  fullName: SuperOffice.CRM.Services.PersonAgent.CreateDefaultPersonImageAsync
+- uid: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonImageAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonImageAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IPersonAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultPersonImageAsync(CancellationToken)
+  nameWithType: IPersonAgent.CreateDefaultPersonImageAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonImageAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonImageAsync(System.Threading.CancellationToken)
+    name: CreateDefaultPersonImageAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IPersonAgent.CreateDefaultPersonImageAsync(System.Threading.CancellationToken)
+    name: CreateDefaultPersonImageAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.PersonImage}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.PersonImage}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<PersonImage>
+  nameWithType: Task<PersonImage>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.PersonImage>
+  nameWithType.vb: Task(Of PersonImage)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.PersonImage)
+  name.vb: Task(Of PersonImage)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.PersonImage
+    name: PersonImage
+    isExternal: true
+    href: SuperOffice.CRM.Services.PersonImage.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.PersonImage
+    name: PersonImage
+    isExternal: true
+    href: SuperOffice.CRM.Services.PersonImage.html
   - name: )
 - uid: SuperOffice.CRM.Services.PersonAgent.GetPersonListAsync*
   commentId: Overload:SuperOffice.CRM.Services.PersonAgent.GetPersonListAsync

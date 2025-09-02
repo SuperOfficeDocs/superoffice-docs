@@ -2,10 +2,10 @@
 uid: table-ProductType
 title: ProductType table
 description: List for the ProductType field of the Product table (Quote Management)
-so.generated: true
+generated: true
 keywords: database table ProductType
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ProductType Table (414)

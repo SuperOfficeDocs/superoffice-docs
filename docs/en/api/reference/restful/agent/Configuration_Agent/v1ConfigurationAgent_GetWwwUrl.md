@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetWwwUrl
 uid: v1ConfigurationAgent_GetWwwUrl
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetWwwUrl
@@ -68,11 +69,11 @@ OK
 POST /api/v1/Agents/Configuration/GetWwwUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Client": "consectetur"
+  "Client": "aut"
 }
 ```
 

@@ -2,6 +2,7 @@
 title: PUT List/TicketPriority
 uid: v1TicketPriorityList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/TicketPriority
@@ -84,19 +85,19 @@ OK
 PUT /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 818,
-  "Name": "Kautzer Inc and Sons",
-  "Tooltip": "odit",
+  "Id": 915,
+  "Name": "Ondricka, Orn and Bosco",
+  "Tooltip": "aut",
   "Deleted": true,
-  "Rank": 897,
+  "Rank": 1001,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "provident",
+  "ListType": "temporibus",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 292,
-  "Name": "Johnston Inc and Sons",
-  "Tooltip": "reprehenderit",
+  "Id": 563,
+  "Name": "Sanford-King",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 973,
+  "Rank": 561,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "sed",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 267
+      "FieldType": "System.Int32",
+      "FieldLength": 601
     }
   }
 }

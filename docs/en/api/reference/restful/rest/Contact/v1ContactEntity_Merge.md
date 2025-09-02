@@ -2,6 +2,7 @@
 title: POST Contact/{id}/MergeTo/{id}
 uid: v1ContactEntity_Merge
 generated: true
+content_type: reference
 ---
 
 # POST Contact/{id}/MergeTo/{id}
@@ -65,7 +66,7 @@ No Content
 POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

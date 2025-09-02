@@ -2,6 +2,7 @@
 title: POST Agents/TimeZone/ToggleActiveTimeZoneRow
 uid: v1TimeZoneAgent_ToggleActiveTimeZoneRow
 generated: true
+content_type: reference
 ---
 
 # POST Agents/TimeZone/ToggleActiveTimeZoneRow
@@ -68,7 +69,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 311
+  "Id": 960
 }
 ```
 

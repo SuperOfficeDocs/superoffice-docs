@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/AddMessageFromMailData
 uid: v1CustomerServiceAgent_AddMessageFromMailData
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/AddMessageFromMailData
@@ -83,12 +84,12 @@ OK
 POST /api/v1/Agents/CustomerService/AddMessageFromMailData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 805,
-  "Data": "et"
+  "TicketId": 72,
+  "Data": "aut"
 }
 ```
 
@@ -99,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 155,
-  "Title": "unde",
-  "OwnerName": "Keeling Group",
+  "TicketId": 955,
+  "Title": "autem",
+  "OwnerName": "Hills Group",
   "CategoryName": "VIP Customer",
-  "PriorityName": "Greenholt Group",
+  "PriorityName": "Reynolds-Deckow",
   "TicketUrl": "http://www.example.com/",
-  "PersonName": "Kreiger-Cormier",
-  "ContactName": "Cole-Cole",
+  "PersonName": "Jaskolski, O'Hara and Howe",
+  "ContactName": "Morar, Gerhold and Kling",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 474
+      "FieldLength": 130
     }
   }
 }

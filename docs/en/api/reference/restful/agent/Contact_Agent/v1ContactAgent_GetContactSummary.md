@@ -2,6 +2,7 @@
 title: POST Agents/Contact/GetContactSummary
 uid: v1ContactAgent_GetContactSummary
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Contact/GetContactSummary
@@ -77,12 +78,12 @@ OK
 POST /api/v1/Agents/Contact/GetContactSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 219,
-  "Limit": 920
+  "ContactId": 579,
+  "Limit": 4
 }
 ```
 
@@ -96,79 +97,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 595,
-      "TicketStatus": 87,
-      "Title": "architecto",
-      "Registered": "2013-05-07T03:45:23.2173332+02:00",
-      "IconHint": "maiores"
+      "TicketId": 994,
+      "TicketStatus": 356,
+      "Title": "nisi",
+      "Registered": "2018-05-11T03:46:54.5507645+02:00",
+      "IconHint": "neque"
     },
     {
-      "TicketId": 595,
-      "TicketStatus": 87,
-      "Title": "architecto",
-      "Registered": "2013-05-07T03:45:23.2173332+02:00",
-      "IconHint": "maiores"
+      "TicketId": 994,
+      "TicketStatus": 356,
+      "Title": "nisi",
+      "Registered": "2018-05-11T03:46:54.5507645+02:00",
+      "IconHint": "neque"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 702,
-      "DocumentId": 164,
-      "Date": "2022-02-26T03:45:23.2173332+01:00",
-      "Description": "Ergonomic cohesive architecture",
+      "AppointmentId": 688,
+      "DocumentId": 876,
+      "Date": "2010-11-24T03:46:54.5507645+01:00",
+      "Description": "Balanced value-added collaboration",
       "Completed": "Completed",
-      "Registered": "2018-03-12T03:45:23.2173332+01:00"
+      "Registered": "2022-03-15T03:46:54.5507645+01:00"
     },
     {
-      "AppointmentId": 702,
-      "DocumentId": 164,
-      "Date": "2022-02-26T03:45:23.2173332+01:00",
-      "Description": "Ergonomic cohesive architecture",
+      "AppointmentId": 688,
+      "DocumentId": 876,
+      "Date": "2010-11-24T03:46:54.5507645+01:00",
+      "Description": "Balanced value-added collaboration",
       "Completed": "Completed",
-      "Registered": "2018-03-12T03:45:23.2173332+01:00"
+      "Registered": "2022-03-15T03:46:54.5507645+01:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 769,
-      "DocumentId": 839,
-      "Date": "2016-11-01T03:45:23.2173332+01:00",
-      "Description": "Multi-channelled grid-enabled forecast",
+      "AppointmentId": 481,
+      "DocumentId": 2,
+      "Date": "2004-11-25T03:46:54.5507645+01:00",
+      "Description": "Fundamental mobile core",
       "Completed": "Completed",
-      "Registered": "2023-10-23T03:45:23.2173332+02:00"
+      "Registered": "2014-05-25T03:46:54.5507645+02:00"
     },
     {
-      "AppointmentId": 769,
-      "DocumentId": 839,
-      "Date": "2016-11-01T03:45:23.2173332+01:00",
-      "Description": "Multi-channelled grid-enabled forecast",
+      "AppointmentId": 481,
+      "DocumentId": 2,
+      "Date": "2004-11-25T03:46:54.5507645+01:00",
+      "Description": "Fundamental mobile core",
       "Completed": "Completed",
-      "Registered": "2023-10-23T03:45:23.2173332+02:00"
+      "Registered": "2014-05-25T03:46:54.5507645+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 944,
-      "SaleDate": "2009-08-21T03:45:23.2173332+02:00",
-      "Probability": 672,
-      "Heading": "et",
-      "Amount": 18117.654,
-      "Currency": "est",
-      "AmountInBaseCurrency": 21486.703999999998,
+      "SaleId": 816,
+      "SaleDate": "2018-03-15T03:46:54.5507645+01:00",
+      "Probability": 147,
+      "Heading": "autem",
+      "Amount": 10038.202,
+      "Currency": "consectetur",
+      "AmountInBaseCurrency": 9480.35,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2004-06-27T03:45:23.2173332+02:00"
+      "Registered": "2014-11-19T03:46:54.5507645+01:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 910,
-      "Name": "Predovic-Dicki",
-      "CompanyName": "Schaefer Group",
-      "FirstMessage": "saepe",
-      "LastMessage": "vel",
-      "WhenRequested": "2015-03-31T03:45:23.2173332+02:00",
-      "WhenEnded": "2016-07-05T03:45:23.2173332+02:00"
+      "ChatSessionId": 191,
+      "Name": "Toy Inc and Sons",
+      "CompanyName": "Crist, McClure and Hahn",
+      "FirstMessage": "libero",
+      "LastMessage": "sunt",
+      "WhenRequested": "2004-03-20T03:46:54.5507645+01:00",
+      "WhenEnded": "2021-07-09T03:46:54.5507645+02:00"
     }
   ]
 }

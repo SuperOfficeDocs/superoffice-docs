@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.GetCSWwwFolder SOAP
 generated: true
 uid: Services88-Configuration-GetCSWwwFolder
+content_type: reference
 ---
 
 # Services88 Configuration GetCSWwwFolder

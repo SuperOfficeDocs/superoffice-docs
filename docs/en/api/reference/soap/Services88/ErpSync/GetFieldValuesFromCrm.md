@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.GetFieldValuesFromCrm SOAP
 generated: true
 uid: Services88-ErpSync-GetFieldValuesFromCrm
+content_type: reference
 ---
 
 # Services88 ErpSync GetFieldValuesFromCrm

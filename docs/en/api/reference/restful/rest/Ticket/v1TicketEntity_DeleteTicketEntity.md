@@ -2,6 +2,7 @@
 title: DEL Ticket/{id}
 uid: v1TicketEntity_DeleteTicketEntity
 generated: true
+content_type: reference
 ---
 
 # DEL Ticket/{id}

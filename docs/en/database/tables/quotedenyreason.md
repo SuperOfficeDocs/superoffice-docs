@@ -2,13 +2,13 @@
 uid: table-QuoteDenyReason
 title: QuoteDenyReason table
 description: Predefined reasons for quote denial
-so.generated: true
+generated: true
 keywords: database table QuoteDenyReason
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
-# QuoteDenyReason Table (528)
+# QuoteDenyReason Table (529)
 
 QuoteDenyReason MDO list item table.
 Predefined reasons for quote denial

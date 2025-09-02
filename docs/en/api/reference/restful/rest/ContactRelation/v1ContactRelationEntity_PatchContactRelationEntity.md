@@ -2,6 +2,7 @@
 title: PATCH Relation/{id}
 uid: v1ContactRelationEntity_PatchContactRelationEntity
 generated: true
+content_type: reference
 ---
 
 # PATCH Relation/{id}
@@ -131,12 +132,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "ea",
+    "path": "deleniti",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ea",
+    "path": "deleniti",
     "value": {}
   }
 ]
@@ -149,35 +150,35 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 93,
-  "SourcePersonId": 734,
-  "DestinationContactId": 473,
-  "DestinationPersonId": 585,
-  "RelationId": 238,
-  "Comment": "possimus",
-  "RelationDefinitionId": 861,
-  "Reversed": 490,
-  "UpdatedDate": "2013-05-06T03:45:28.2484436+02:00",
-  "CreatedDate": "2016-04-12T03:45:28.2484436+02:00",
+  "SourceContactId": 954,
+  "SourcePersonId": 752,
+  "DestinationContactId": 204,
+  "DestinationPersonId": 234,
+  "RelationId": 275,
+  "Comment": "dignissimos",
+  "RelationDefinitionId": 169,
+  "Reversed": 228,
+  "UpdatedDate": "2012-05-02T03:46:59.8943184+02:00",
+  "CreatedDate": "2005-05-01T03:46:59.8943184+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Steuber Inc and Sons",
-  "SourcePersonName": "Rempel, Kuvalis and Strosin",
-  "DestinationContactName": "Bartoletti, Schmeler and West",
-  "DestinationPersonName": "Carter-Littel",
-  "ActiveText": "qui",
-  "PassiveText": "non",
+  "SourceContactName": "Yost, Bashirian and Jakubowski",
+  "SourcePersonName": "Predovic LLC",
+  "DestinationContactName": "Aufderhar-Stracke",
+  "DestinationPersonName": "Koch, Dickens and Barton",
+  "ActiveText": "et",
+  "PassiveText": "at",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 845
+      "FieldLength": 23
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -2,10 +2,10 @@
 uid: table-SaleTypeStageLink
 title: SaleTypeStageLink table
 description: Many-many link table between sale type and stage; and an anchor point for guide items
-so.generated: true
+generated: true
 keywords: database table SaleTypeStageLink
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # SaleTypeStageLink Table (160)

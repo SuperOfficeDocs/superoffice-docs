@@ -3,9 +3,9 @@ uid: LinksProject
 title: LinksProject
 description: 
 keywords: LinksProject archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "LinksProject"
@@ -140,7 +140,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksProject?$select=projectAssociate/isActiveText,projectAssociate/isLocation,projectPublish/publishedBy
+GET /api/v1/archive/LinksProject?$select=projectAssociate/assocType,projectPublish/publishedBy,projectAssociate/usergroupId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

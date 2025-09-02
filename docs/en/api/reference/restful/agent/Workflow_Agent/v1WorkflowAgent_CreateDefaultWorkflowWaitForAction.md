@@ -2,6 +2,7 @@
 title: POST Agents/Workflow/CreateDefaultWorkflowWaitForAction
 uid: v1WorkflowAgent_CreateDefaultWorkflowWaitForAction
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Workflow/CreateDefaultWorkflowWaitForAction
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowWaitForAction
 ```
 
-Set default values into a new WorkflowWaitForAction.
+Loading default values into a new WorkflowWaitForAction.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -62,7 +61,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,25 +71,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 510,
-  "WorkflowStepId": 810,
-  "WorkflowId": 19,
-  "Rank": 295,
+  "WorkflowWaitForActionId": 786,
+  "WorkflowStepId": 359,
+  "WorkflowId": 80,
+  "Rank": 663,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Waelchi-Spinka",
-      "Description": "Cross-platform user-facing flexibility",
-      "Rank": 497,
+      "Name": "Koss, Rau and Ritchie",
+      "Description": "Exclusive bi-directional throughput",
+      "Rank": 880,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Waelchi-Spinka",
-      "Description": "Cross-platform user-facing flexibility",
-      "Rank": 497,
+      "Name": "Koss, Rau and Ritchie",
+      "Description": "Exclusive bi-directional throughput",
+      "Rank": 880,
       "Restrictions": [
         {},
         {}
@@ -101,8 +100,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 463
+      "FieldType": "System.Int32",
+      "FieldLength": 573
     }
   }
 }

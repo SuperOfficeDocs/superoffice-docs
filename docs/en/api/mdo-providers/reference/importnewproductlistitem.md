@@ -3,9 +3,9 @@ uid: importnewproductlistitem
 title: importnewproductlistitem
 keywords: mdoprovider mdo provider importnewproductlistitem
 description: Import product list items - add, use blank
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "importnewproductlistitem" MDO List

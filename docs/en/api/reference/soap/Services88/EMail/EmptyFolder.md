@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.EmptyFolder SOAP
 generated: true
 uid: Services88-EMail-EmptyFolder
+content_type: reference
 ---
 
 # Services88 EMail EmptyFolder

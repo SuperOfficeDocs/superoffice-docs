@@ -2,6 +2,7 @@
 title: PATCH Ticket/{id}
 uid: v1TicketEntity_PatchTicketEntity
 generated: true
+content_type: reference
 ---
 
 # PATCH Ticket/{id}
@@ -165,18 +166,18 @@ TicketEntity  updated.
 PATCH /api/v1/Ticket/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "est",
+    "path": "temporibus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "est",
+    "path": "temporibus",
     "value": {}
   }
 ]
@@ -189,21 +190,21 @@ HTTP/1.1 200 TicketEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 302,
-  "Title": "ut",
-  "CreatedAt": "1999-07-16T03:45:28.7484296+02:00",
-  "LastChanged": "2005-09-26T03:45:28.7484296+02:00",
-  "ReadByOwner": "2000-11-13T03:45:28.7484296+01:00",
-  "ReadByCustomer": "2025-06-08T03:45:28.7484296+02:00",
-  "FirstReadByOwner": "2022-03-14T03:45:28.7484296+01:00",
-  "FirstReadByUser": "2018-10-04T03:45:28.7484296+02:00",
-  "Activate": "2015-10-14T03:45:28.7484296+02:00",
-  "ClosedAt": "2010-12-02T03:45:28.7484296+01:00",
-  "RepliedAt": "1999-07-05T03:45:28.7484296+02:00",
-  "AlertTimeout": "2005-05-15T03:45:28.7484296+02:00",
-  "Deadline": "2004-09-12T03:45:28.7484296+02:00",
+  "TicketId": 320,
+  "Title": "nesciunt",
+  "CreatedAt": "2014-07-01T03:47:00.347434+02:00",
+  "LastChanged": "2009-11-02T03:47:00.347434+01:00",
+  "ReadByOwner": "2014-10-03T03:47:00.347434+02:00",
+  "ReadByCustomer": "1998-12-22T03:47:00.347434+01:00",
+  "FirstReadByOwner": "2004-09-01T03:47:00.347434+02:00",
+  "FirstReadByUser": "1998-10-21T03:47:00.347434+02:00",
+  "Activate": "2005-12-07T03:47:00.347434+01:00",
+  "ClosedAt": "2011-06-27T03:47:00.347434+02:00",
+  "RepliedAt": "2024-09-02T03:47:00.347434+02:00",
+  "AlertTimeout": "2012-03-24T03:47:00.347434+01:00",
+  "Deadline": "2016-10-08T03:47:00.347434+02:00",
   "CreatedBy": null,
-  "Author": "beatae",
+  "Author": "sit",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -214,163 +215,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "vitae",
-      "PersonId": 624,
-      "Mrmrs": "saepe",
-      "Firstname": "Jacinto",
-      "Lastname": "Murazik",
-      "MiddleName": "Leannon-Schroeder",
-      "Title": "sapiente",
-      "Description": "Public-key needs-based capacity",
-      "Email": "kale_robel@blandakuvalis.us",
-      "FullName": "Elwyn Runolfsdottir",
-      "DirectPhone": "(190)553-0288",
-      "FormalName": "Koepp LLC",
-      "CountryId": 204,
-      "ContactId": 726,
-      "ContactName": "Weber-Bernhard",
-      "Retired": 870,
-      "Rank": 251,
-      "ActiveInterests": 587,
-      "ContactDepartment": "transition world-class functionalities",
-      "ContactCountryId": 516,
-      "ContactOrgNr": "1426405",
-      "FaxPhone": "1-680-110-2286",
-      "MobilePhone": "944.083.4531",
-      "ContactPhone": "1-341-694-0594 x881",
-      "AssociateName": "Zemlak LLC",
-      "AssociateId": 832,
+      "Position": "ipsam",
+      "PersonId": 85,
+      "Mrmrs": "aut",
+      "Firstname": "Marielle",
+      "Lastname": "Johns",
+      "MiddleName": "Powlowski-Upton",
+      "Title": "et",
+      "Description": "Synergistic mobile extranet",
+      "Email": "theodora@dubuque.biz",
+      "FullName": "Brooks Zulauf",
+      "DirectPhone": "485.692.4183 x8393",
+      "FormalName": "Schumm, Maggio and Collier",
+      "CountryId": 237,
+      "ContactId": 676,
+      "ContactName": "Krajcik-Kertzmann",
+      "Retired": 836,
+      "Rank": 443,
+      "ActiveInterests": 944,
+      "ContactDepartment": "",
+      "ContactCountryId": 259,
+      "ContactOrgNr": "1461283",
+      "FaxPhone": "(449)786-8963 x67604",
+      "MobilePhone": "341.749.6795 x6153",
+      "ContactPhone": "1-584-443-6456 x9046",
+      "AssociateName": "McDermott-Anderson",
+      "AssociateId": 272,
       "UsePersonAddress": false,
-      "ContactFax": "ut",
-      "Kanafname": "asperiores",
-      "Kanalname": "non",
-      "Post1": "incidunt",
-      "Post2": "sed",
-      "Post3": "repudiandae",
-      "EmailName": "astrid@spencer.co.uk",
-      "ContactFullName": "Tony Jane McLaughlin II",
-      "ActiveErpLinks": 65,
-      "TicketPriorityId": 551,
-      "SupportLanguageId": 822,
-      "SupportAssociateId": 60,
+      "ContactFax": "quo",
+      "Kanafname": "minus",
+      "Kanalname": "est",
+      "Post1": "dolorem",
+      "Post2": "qui",
+      "Post3": "nemo",
+      "EmailName": "triston@gottlieblubowitz.name",
+      "ContactFullName": "Dr. Lucius Noble Stiedemann",
+      "ActiveErpLinks": 513,
+      "TicketPriorityId": 631,
+      "SupportLanguageId": 263,
+      "SupportAssociateId": 34,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "248066",
+      "PersonNumber": "1193973",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 66
+          "FieldType": "System.String",
+          "FieldLength": 103
         }
       }
     }
   ],
-  "AlertLevel": 765,
-  "ConnectId": 852,
+  "AlertLevel": 16,
+  "ConnectId": 876,
   "ReadStatus": "Green",
-  "TimeToReply": 712,
-  "RealTimeToReply": 759,
-  "TimeToClose": 219,
-  "RealTimeToClose": 107,
-  "TimeSpentInternally": 919,
-  "TimeSpentExternally": 439,
-  "TimeSpentQueue": 318,
-  "RealTimeSpentInternally": 593,
-  "RealTimeSpentExternally": 240,
-  "RealTimeSpentQueue": 733,
-  "TimeSpent": 941,
+  "TimeToReply": 353,
+  "RealTimeToReply": 946,
+  "TimeToClose": 845,
+  "RealTimeToClose": 724,
+  "TimeSpentInternally": 282,
+  "TimeSpentExternally": 84,
+  "TimeSpentQueue": 288,
+  "RealTimeSpentInternally": 171,
+  "RealTimeSpentExternally": 678,
+  "RealTimeSpentQueue": 777,
+  "TimeSpent": 685,
   "HasAttachment": false,
-  "NumReplies": 672,
-  "NumMessages": 751,
-  "FromAddress": "labore",
+  "NumReplies": 17,
+  "NumMessages": 569,
+  "FromAddress": "consequatur",
   "Messages": [
     {
-      "TicketMessageId": 71,
-      "CreatedAt": "2003-06-23T03:45:28.7640528+02:00",
+      "TicketMessageId": 293,
+      "CreatedAt": "2015-02-14T03:47:00.347434+01:00",
       "Slevel": "External",
-      "Important": true,
+      "Important": false,
       "Author": "et",
-      "PersonId": 825,
-      "PersonFullName": "Jacey Jacobs",
-      "ContactId": 874,
-      "ContactName": "Cormier-O'Conner",
+      "PersonId": 121,
+      "PersonFullName": "Prof. Woodrow Kaylin Lesch I",
+      "ContactId": 793,
+      "ContactName": "Hane LLC",
       "ContactDepartment": "",
-      "NumAttachments": 225,
-      "EmailHeader": "mariano@pagac.ca",
+      "NumAttachments": 355,
+      "EmailHeader": "arnulfo_jacobson@cole.us",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "illum",
-      "Sentiment": 685,
-      "SentimentConfidence": 626,
-      "CreatedBy": 724,
-      "ChangedAt": "2019-01-15T03:45:28.7640528+01:00",
+      "Language": "veniam",
+      "Sentiment": 73,
+      "SentimentConfidence": 993,
+      "CreatedBy": 96,
+      "ChangedAt": "2017-04-18T03:47:00.347434+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 362
+          "FieldLength": 466
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 40,
-      "Name": "Turcotte Inc and Sons",
-      "ToolTip": "Aut minima perspiciatis corrupti dolor.",
+      "Id": 1001,
+      "Name": "Batz-Klein",
+      "ToolTip": "Voluptates inventore illum.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 919
+          "FieldType": "System.Int32",
+          "FieldLength": 435
         }
       }
     },
     {
-      "Id": 40,
-      "Name": "Turcotte Inc and Sons",
-      "ToolTip": "Aut minima perspiciatis corrupti dolor.",
+      "Id": 1001,
+      "Name": "Batz-Klein",
+      "ToolTip": "Voluptates inventore illum.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 919
+          "FieldType": "System.Int32",
+          "FieldLength": 435
         }
       }
     }
   ],
-  "Language": "itaque",
-  "Sentiment": 885,
-  "SentimentConfidence": 729,
-  "SuggestedCategoryId": 634,
+  "Language": "et",
+  "Sentiment": 514,
+  "SentimentConfidence": 689,
+  "SuggestedCategoryId": 877,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 825,
-  "IconHint": "quod",
+  "OrigHumanCategoryId": 950,
+  "IconHint": "neque",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 281,
+  "ActiveStatusMonitorId": 15,
   "ExtraFields": {
-    "ExtraFields1": "quibusdam",
-    "ExtraFields2": "id"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "eum"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "maxime"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "voluptates"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 800
+      "FieldType": "System.Int32",
+      "FieldLength": 5
     }
   },
   "_Links": {

@@ -2,6 +2,7 @@
 title: POST Agents/Targets/CreateDefaultTargetAssignmentForUserGroup
 uid: v1TargetsAgent_CreateDefaultTargetAssignmentForUserGroup
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Targets/CreateDefaultTargetAssignmentForUserGroup
@@ -81,11 +82,11 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 669
+  "UserGroupId": 56
 }
 ```
 
@@ -97,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 48,
+    "TargetAssignmentInfoId": 64,
     "Values": [
-      840,
-      178
+      559,
+      889
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 770,
-    "DimensionListItemDisplayName": "Hyatt Group",
+    "DimensionListItem": 353,
+    "DimensionListItemDisplayName": "Homenick LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 237
+        "FieldType": "System.String",
+        "FieldLength": 257
       }
     }
   }

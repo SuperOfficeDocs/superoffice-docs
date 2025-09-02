@@ -2,6 +2,7 @@
 title: GET Selection/Duplicates/{name}
 uid: v1SelectionEntity_GetDuplicates
 generated: true
+content_type: reference
 ---
 
 # GET Selection/Duplicates/{name}
@@ -63,7 +64,7 @@ OK
 GET /api/v1/Selection/Duplicates/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,17 +75,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Shields, Weissnat and Will",
-    "SoPrimaryKey": 168,
-    "EntryName": "Beahan LLC",
-    "EntryIdentifier": "sed",
-    "RuleDisplayName": "Robel, O'Conner and Rice",
+    "RuleName": "Schamberger-Gusikowski",
+    "SoPrimaryKey": 937,
+    "EntryName": "Collins LLC",
+    "EntryIdentifier": "non",
+    "RuleDisplayName": "Cruickshank Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 598
+        "FieldLength": 481
       }
     }
   }

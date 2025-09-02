@@ -2,6 +2,7 @@
 title: POST Agents/List/GetReasonStalledList
 uid: v1ListAgent_GetReasonStalledList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetReasonStalledList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetReasonStalledList?$select=name,department,category/i
 
 ## Request Body: reasonStalledIds 
 
-The primary keys. 
+The identifiers of the ReasonStalled object 
 
 
 ## Response:array
@@ -72,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetReasonStalledList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,28 +84,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 167,
-    "Value": "dicta",
-    "Tooltip": "consectetur",
+    "Id": 234,
+    "Value": "in",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 581
+        "FieldLength": 42
       }
     }
   },
   {
-    "Id": 167,
-    "Value": "dicta",
-    "Tooltip": "consectetur",
+    "Id": 234,
+    "Value": "in",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 581
+        "FieldLength": 42
       }
     }
   }

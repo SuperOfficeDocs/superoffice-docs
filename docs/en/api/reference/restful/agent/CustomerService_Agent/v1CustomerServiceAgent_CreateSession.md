@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/CreateSession
 uid: v1CustomerServiceAgent_CreateSession
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/CreateSession
@@ -75,11 +76,11 @@ OK
 POST /api/v1/Agents/CustomerService/CreateSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RemoteIp": "laudantium"
+  "RemoteIp": "cupiditate"
 }
 ```
 
@@ -90,15 +91,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "earum",
-  "LoginId": 749,
-  "UserId": 322,
+  "Key": "qui",
+  "LoginId": 921,
+  "UserId": 905,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 494
+      "FieldType": "System.Int32",
+      "FieldLength": 134
     }
   }
 }

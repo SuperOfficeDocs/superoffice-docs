@@ -2,6 +2,7 @@
 title: POST Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 uid: v1DocumentAgent_CreateNewPhysicalDocumentFromTemplateWithCustomTags
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
@@ -117,26 +118,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 494,
-  "PersonId": 925,
-  "AppointmentId": 94,
-  "DocumentId": 570,
-  "SaleId": 302,
-  "SelectionId": 204,
-  "ProjectId": 605,
+  "ContactId": 445,
+  "PersonId": 977,
+  "AppointmentId": 113,
+  "DocumentId": 608,
+  "SaleId": 838,
+  "SelectionId": 826,
+  "ProjectId": 650,
   "CustomTags": [
-    "veritatis",
-    "ipsam"
+    "ipsum",
+    "ea"
   ],
   "CustomValues": [
-    "nobis",
-    "consequatur"
+    "eaque",
+    "nam"
   ],
-  "UiCulture": "eos"
+  "UiCulture": "et"
 }
 ```
 
@@ -147,88 +148,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 10,
+  "DocumentId": 467,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "alias",
-  "Header": "perferendis",
-  "Name": "Kuhn Inc and Sons",
-  "OurRef": "unde",
-  "YourRef": "est",
-  "CreatedDate": "2006-10-26T03:45:23.3267081+02:00",
-  "UpdatedDate": "2024-01-31T03:45:23.3267081+01:00",
-  "Description": "Enterprise-wide actuating moderator",
+  "Attention": "voluptatibus",
+  "Header": "qui",
+  "Name": "Powlowski-Heaney",
+  "OurRef": "voluptatem",
+  "YourRef": "distinctio",
+  "CreatedDate": "2019-06-24T03:46:54.67576+02:00",
+  "UpdatedDate": "2011-07-25T03:46:54.67576+02:00",
+  "Description": "Switchable national data-warehouse",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2011-05-29T03:45:23.3267081+02:00",
-  "ExternalRef": "aut",
+  "Date": "2023-12-22T03:46:54.67576+01:00",
+  "ExternalRef": "et",
   "Completed": "Completed",
-  "ActiveLinks": 459,
+  "ActiveLinks": 553,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Cassin, Altenwerth and Oberbrunner",
-      "Id": 745,
-      "Description": "Streamlined 6th generation focus group",
-      "ExtraInfo": "neque",
-      "LinkId": 155,
+      "EntityName": "Ryan, Dicki and Ryan",
+      "Id": 12,
+      "Description": "Programmable attitude-oriented application",
+      "ExtraInfo": "ex",
+      "LinkId": 330,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 338
+          "FieldType": "System.String",
+          "FieldLength": 55
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 82,
-  "Snum": 173,
+  "SuggestedDocumentId": 1001,
+  "Snum": 483,
   "UserDefinedFields": {
-    "SuperOffice:1": "633723179",
-    "SuperOffice:2": "Mrs. Richard Tom Schoen"
+    "SuperOffice:1": "Melany Tromp",
+    "SuperOffice:2": "Nathan O'Keefe"
   },
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "consectetur"
+    "ExtraFields1": "amet",
+    "ExtraFields2": "minus"
   },
   "CustomFields": {
-    "CustomFields1": "hic",
-    "CustomFields2": "qui"
+    "CustomFields1": "totam",
+    "CustomFields2": "vitae"
   },
-  "PublishEventDate": "2011-01-20T03:45:23.3267081+01:00",
-  "PublishTo": "2005-09-15T03:45:23.3267081+02:00",
-  "PublishFrom": "2022-02-10T03:45:23.3267081+01:00",
+  "PublishEventDate": "2016-07-21T03:46:54.67576+02:00",
+  "PublishTo": "2024-06-27T03:46:54.67576+02:00",
+  "PublishFrom": "2003-01-02T03:46:54.67576+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 10,
+      "VisibleId": 178,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 857
+          "FieldLength": 907
         }
       }
     },
     {
-      "VisibleId": 10,
+      "VisibleId": 178,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 857
+          "FieldLength": 907
         }
       }
     }
@@ -237,8 +238,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 638
+      "FieldType": "System.Int32",
+      "FieldLength": 307
     }
   }
 }

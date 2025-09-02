@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.GetFolderList SOAP
 generated: true
 uid: Services88-EMail-GetFolderList
+content_type: reference
 ---
 
 # Services88 EMail GetFolderList

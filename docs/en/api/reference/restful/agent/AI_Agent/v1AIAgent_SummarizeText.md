@@ -2,6 +2,7 @@
 title: POST Agents/AI/SummarizeText
 uid: v1AIAgent_SummarizeText
 generated: true
+content_type: reference
 ---
 
 # POST Agents/AI/SummarizeText
@@ -70,13 +71,13 @@ OK
 POST /api/v1/Agents/AI/SummarizeText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "in",
-  "PercentSmaller": 198,
-  "IsoLangCode": "ducimus"
+  "Text": "itaque",
+  "PercentSmaller": 704,
+  "IsoLangCode": "quas"
 }
 ```
 
@@ -86,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"accusamus"
+"accusantium"
 ```

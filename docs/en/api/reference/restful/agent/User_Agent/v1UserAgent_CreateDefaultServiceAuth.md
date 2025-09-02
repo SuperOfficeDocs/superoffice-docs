@@ -2,6 +2,7 @@
 title: POST Agents/User/CreateDefaultServiceAuth
 uid: v1UserAgent_CreateDefaultServiceAuth
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/CreateDefaultServiceAuth
@@ -10,10 +11,7 @@ generated: true
 POST /api/v1/Agents/User/CreateDefaultServiceAuth
 ```
 
-Set default values into a new ServiceAuth.
-
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
+Loading default values into a new ServiceAuth.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -65,7 +63,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultServiceAuth
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +73,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 172,
-  "Server": "quibusdam",
-  "Port": 121,
-  "AuthType": "soluta",
-  "Username": "excepturi",
-  "Password": "fugiat",
+  "ServiceAuthId": 689,
+  "Server": "ut",
+  "Port": 394,
+  "AuthType": "molestias",
+  "Username": "voluptate",
+  "Password": "aspernatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 307
+      "FieldLength": 813
     }
   }
 }

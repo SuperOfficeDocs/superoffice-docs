@@ -2,6 +2,7 @@
 title: POST Relation
 uid: v1ContactRelationEntity_PostContactRelationEntity
 generated: true
+content_type: reference
 ---
 
 # POST Relation
@@ -110,28 +111,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 201,
-  "SourcePersonId": 51,
-  "DestinationContactId": 380,
-  "DestinationPersonId": 857,
-  "RelationId": 857,
-  "Comment": "repudiandae",
-  "RelationDefinitionId": 943,
-  "Reversed": 417,
-  "UpdatedDate": "2000-10-16T03:45:28.2171945+02:00",
-  "CreatedDate": "2020-11-06T03:45:28.2171945+01:00",
+  "SourceContactId": 662,
+  "SourcePersonId": 907,
+  "DestinationContactId": 842,
+  "DestinationPersonId": 868,
+  "RelationId": 169,
+  "Comment": "unde",
+  "RelationDefinitionId": 490,
+  "Reversed": 301,
+  "UpdatedDate": "2022-08-06T03:46:59.8786923+02:00",
+  "CreatedDate": "2000-10-10T03:46:59.8786923+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Koss Group",
-  "SourcePersonName": "Koss-Hodkiewicz",
-  "DestinationContactName": "Kulas-Lemke",
-  "DestinationPersonName": "Waelchi Group",
-  "ActiveText": "molestias",
-  "PassiveText": "aut"
+  "SourceContactName": "Carter Inc and Sons",
+  "SourcePersonName": "Kiehn Group",
+  "DestinationContactName": "Hansen Group",
+  "DestinationPersonName": "Weber-Muller",
+  "ActiveText": "et",
+  "PassiveText": "optio"
 }
 ```
 
@@ -142,35 +143,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 263,
-  "SourcePersonId": 808,
-  "DestinationContactId": 243,
-  "DestinationPersonId": 772,
-  "RelationId": 304,
-  "Comment": "sapiente",
-  "RelationDefinitionId": 415,
-  "Reversed": 194,
-  "UpdatedDate": "2018-04-01T03:45:28.2171945+02:00",
-  "CreatedDate": "2012-09-01T03:45:28.2171945+02:00",
+  "SourceContactId": 79,
+  "SourcePersonId": 466,
+  "DestinationContactId": 702,
+  "DestinationPersonId": 584,
+  "RelationId": 525,
+  "Comment": "eos",
+  "RelationDefinitionId": 232,
+  "Reversed": 24,
+  "UpdatedDate": "2015-07-06T03:46:59.8786923+02:00",
+  "CreatedDate": "2012-09-06T03:46:59.8786923+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Schuppe LLC",
-  "SourcePersonName": "Langworth-Vandervort",
-  "DestinationContactName": "Maggio-Morar",
-  "DestinationPersonName": "Price-Schuppe",
-  "ActiveText": "corrupti",
-  "PassiveText": "quae",
+  "SourceContactName": "Mann Group",
+  "SourcePersonName": "VonRueden, Jacobs and Kessler",
+  "DestinationContactName": "Tillman-Reynolds",
+  "DestinationPersonName": "Rath Inc and Sons",
+  "ActiveText": "nihil",
+  "PassiveText": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldType": "System.String",
+      "FieldLength": 179
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

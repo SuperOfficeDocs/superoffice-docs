@@ -2,6 +2,7 @@
 title: GET List/ProjectType/Items/{id}
 uid: v1ProjectTypeList_GetProjectType
 generated: true
+content_type: reference
 ---
 
 # GET List/ProjectType/Items/{id}
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 751,
-  "Name": "Green Group",
-  "Tooltip": "natus",
+  "Id": 823,
+  "Name": "Runolfsdottir LLC",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "UdListDefinitionId": 742,
-  "Rank": 11,
+  "UdListDefinitionId": 205,
+  "Rank": 198,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 900
+      "FieldType": "System.String",
+      "FieldLength": 779
     }
   }
 }

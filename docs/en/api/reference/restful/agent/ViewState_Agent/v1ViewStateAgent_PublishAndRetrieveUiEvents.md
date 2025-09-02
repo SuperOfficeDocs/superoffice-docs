@@ -2,6 +2,7 @@
 title: POST Agents/ViewState/PublishAndRetrieveUiEvents
 uid: v1ViewStateAgent_PublishAndRetrieveUiEvents
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ViewState/PublishAndRetrieveUiEvents
@@ -83,30 +84,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 14,
+  "LatestKnownEventId": 630,
   "PublishEvents": [
     {
-      "EventId": 337,
-      "EventName": "Schroeder Inc and Sons",
-      "EntityType": "ullam",
-      "EntityKey": 910,
-      "AssociateId": 185,
-      "AssociateName": "Ratke, Gutmann and Donnelly",
-      "EventDateTime": "2006-03-04T03:45:24.2016834+01:00"
+      "EventId": 904,
+      "EventName": "Gibson-Greenfelder",
+      "EntityType": "sed",
+      "EntityKey": 763,
+      "AssociateId": 20,
+      "AssociateName": "Klocko, Mertz and Hane",
+      "EventDateTime": "1998-11-07T03:46:55.6444757+01:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Gleason, Wyman and Schmeler",
-      "Value": 973
+      "Name": "Mueller-Bergstrom",
+      "Value": 592
     },
     {
-      "Name": "Gleason, Wyman and Schmeler",
-      "Value": 973
+      "Name": "Mueller-Bergstrom",
+      "Value": 592
     }
   ]
 }
@@ -120,19 +121,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 55,
-    "EventName": "Toy LLC",
-    "EntityType": "libero",
-    "EntityKey": 997,
-    "AssociateId": 460,
-    "AssociateName": "Mayert-Ward",
-    "EventDateTime": "2006-04-10T03:45:24.2016834+02:00",
+    "EventId": 974,
+    "EventName": "Kuhic-Kshlerin",
+    "EntityType": "quam",
+    "EntityKey": 261,
+    "AssociateId": 116,
+    "AssociateName": "Mraz-Kassulke",
+    "EventDateTime": "2015-04-04T03:46:55.6444757+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 21
+        "FieldType": "System.Int32",
+        "FieldLength": 666
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/DoEscalating
 uid: v1TicketAgent_DoEscalating
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/DoEscalating
@@ -71,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 806,
+  "TicketId": 503,
   "Action": "ActionChangedOwner"
 }
 ```

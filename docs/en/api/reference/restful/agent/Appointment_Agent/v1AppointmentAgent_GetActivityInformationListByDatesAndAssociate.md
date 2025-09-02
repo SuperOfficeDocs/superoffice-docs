@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetActivityInformationListByDatesAndAssociate
 uid: v1AppointmentAgent_GetActivityInformationListByDatesAndAssociate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetActivityInformationListByDatesAndAssociate
@@ -78,13 +79,13 @@ OK
 POST /api/v1/Agents/Appointment/GetActivityInformationListByDatesAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2007-08-02T03:45:22.7173512+02:00",
-  "EndDate": "2024-08-08T03:45:22.7173512+02:00",
-  "AssociateId": 756
+  "StartDate": "1998-07-15T03:46:54.0195335+02:00",
+  "EndDate": "2001-08-29T03:46:54.0195335+02:00",
+  "AssociateId": 221
 }
 ```
 
@@ -96,26 +97,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2018-09-02T03:45:22.7173512+02:00",
+    "Date": "2021-01-13T03:46:54.0195335+01:00",
     "ActivityInformation": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 294
+        "FieldType": "System.Int32",
+        "FieldLength": 681
       }
     }
   },
   {
-    "Date": "2018-09-02T03:45:22.7173512+02:00",
+    "Date": "2021-01-13T03:46:54.0195335+01:00",
     "ActivityInformation": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 294
+        "FieldType": "System.Int32",
+        "FieldLength": 681
       }
     }
   }

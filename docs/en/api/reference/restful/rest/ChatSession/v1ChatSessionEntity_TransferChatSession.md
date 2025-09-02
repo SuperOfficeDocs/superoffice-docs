@@ -2,6 +2,7 @@
 title: POST ChatSession/{id}/TransferTo/{toAssociate}
 uid: v1ChatSessionEntity_TransferChatSession
 generated: true
+content_type: reference
 ---
 
 # POST ChatSession/{id}/TransferTo/{toAssociate}
@@ -92,7 +93,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/TransferTo/{toAssociate}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,29 +103,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 523,
-  "TopicId": 882,
+  "ChatSessionId": 862,
+  "TopicId": 407,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quo",
-  "CustomerHost": "ut",
-  "CustomerName": "Carroll-Cummings",
-  "CustomerEmail": "ezekiel.oconnell@pfeffer.info",
-  "CustomerPhone": "597.415.1080 x9194",
+  "CustomerAlias": "aspernatur",
+  "CustomerHost": "velit",
+  "CustomerName": "Kris Group",
+  "CustomerEmail": "norris@cassin.co.uk",
+  "CustomerPhone": "847.956.2432",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Kautzer, Grady and Bins",
+  "CustomerCompanyName": "Pfannerstill-Schuster",
   "Status": "Closed",
-  "FirstMessage": "sunt",
-  "LastMessage": "explicabo",
-  "WhenRequested": "1998-03-04T03:45:28.1234472+01:00",
-  "WhenStarted": "1998-04-14T03:45:28.1234472+02:00",
-  "WhenEnded": "2006-01-05T03:45:28.1234472+01:00",
-  "WhenIdle": "2012-09-04T03:45:28.1234472+02:00",
-  "WhenFetched": "2015-09-08T03:45:28.1234472+02:00",
-  "SessionKey": "aperiam",
-  "InitialQueuePos": 505,
-  "AlertLevel": 110,
-  "Rank": 620,
+  "FirstMessage": "illo",
+  "LastMessage": "rem",
+  "WhenRequested": "2005-10-14T03:46:59.7693215+02:00",
+  "WhenStarted": "2010-03-31T03:46:59.7693215+02:00",
+  "WhenEnded": "2018-03-02T03:46:59.7693215+01:00",
+  "WhenIdle": "2000-08-02T03:46:59.7693215+02:00",
+  "WhenFetched": "2000-01-25T03:46:59.7693215+01:00",
+  "SessionKey": "sint",
+  "InitialQueuePos": 298,
+  "AlertLevel": 229,
+  "Rank": 335,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -132,13 +133,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 18,
+  "Rating": 726,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 974
+      "FieldLength": 515
     }
   }
 }

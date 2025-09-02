@@ -2,6 +2,7 @@
 title: DEL Person/{id}/Image
 uid: v1PersonEntity_DeleteImageContent
 generated: true
+content_type: reference
 ---
 
 # DEL Person/{id}/Image

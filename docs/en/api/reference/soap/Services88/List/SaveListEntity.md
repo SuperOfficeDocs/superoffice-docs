@@ -2,6 +2,7 @@
 title: Services88.ListAgent.SaveListEntity SOAP
 generated: true
 uid: Services88-List-SaveListEntity
+content_type: reference
 ---
 
 # Services88 List SaveListEntity

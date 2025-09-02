@@ -2,10 +2,10 @@
 uid: table-SOROperators
 title: SOROperators table
 description: SuperOffice reporter data
-so.generated: true
+generated: true
 keywords: database table SOROperators
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # SOROperators Table (176)

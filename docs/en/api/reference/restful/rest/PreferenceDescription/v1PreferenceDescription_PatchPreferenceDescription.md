@@ -2,6 +2,7 @@
 title: PATCH PreferenceDescription/{id}
 uid: v1PreferenceDescription_PatchPreferenceDescription
 generated: true
+content_type: reference
 ---
 
 # PATCH PreferenceDescription/{id}
@@ -125,18 +126,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "deleniti",
+    "path": "voluptatem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "deleniti",
+    "path": "voluptatem",
     "value": {}
   }
 ]
@@ -149,30 +150,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 219,
-  "Section": "soluta",
-  "Key": "vel",
-  "Name": "Windler LLC",
+  "PrefDescId": 259,
+  "Section": "tempora",
+  "Key": "quis",
+  "Name": "Lang-Fahey",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Customer-focused heuristic knowledge base",
+  "Description": "Focused eco-centric challenge",
   "IsBuiltin": false,
-  "TableName": "Mayer-Weissnat",
-  "UserDefinedListId": 913,
-  "Rank": 221,
-  "SubGroup": "dignissimos",
-  "MinLevel": 482,
-  "MaxValue": 318,
-  "MinValue": 841,
-  "RequiredLicense": "similique",
+  "TableName": "Schmeler-Metz",
+  "UserDefinedListId": 500,
+  "Rank": 973,
+  "SubGroup": "voluptas",
+  "MinLevel": 509,
+  "MaxValue": 624,
+  "MinValue": 788,
+  "RequiredLicense": "earum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 129
+      "FieldType": "System.Int32",
+      "FieldLength": 158
     }
   },
   "_Links": {

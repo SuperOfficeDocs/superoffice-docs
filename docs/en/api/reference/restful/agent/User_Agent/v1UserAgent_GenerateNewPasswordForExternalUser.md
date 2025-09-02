@@ -2,6 +2,7 @@
 title: POST Agents/User/GenerateNewPasswordForExternalUser
 uid: v1UserAgent_GenerateNewPasswordForExternalUser
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GenerateNewPasswordForExternalUser
@@ -74,7 +75,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Ryan, Carroll and Reichel"
+  "AssociateName": "Schiller-Weimann"
 }
 ```
 
@@ -84,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"maxime"
+"animi"
 ```

@@ -2,6 +2,7 @@
 title: POST Agents/Preference/GetPreferencesWithDisplayValues
 uid: v1PreferenceAgent_GetPreferencesWithDisplayValues
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/GetPreferencesWithDisplayValues
@@ -83,18 +84,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "nisi",
-      "Key": "est"
+      "Section": "asperiores",
+      "Key": "reiciendis"
     },
     {
-      "Section": "nisi",
-      "Key": "est"
+      "Section": "asperiores",
+      "Key": "reiciendis"
     }
   ]
 }
@@ -109,22 +110,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "amet",
+    "RawValue": "ullam",
     "Specification": null,
-    "DisplayValue": "laboriosam",
-    "DisplayTooltip": "facere",
+    "DisplayValue": "accusamus",
+    "DisplayTooltip": "voluptatem",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 185,
-    "PrefDescId": 972,
-    "TableName": "Adams-Hills",
-    "UserPreferenceId": 222,
+    "TargetId": 645,
+    "PrefDescId": 818,
+    "TableName": "Nikolaus Group",
+    "UserPreferenceId": 484,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 581
+        "FieldLength": 943
       }
     }
   }

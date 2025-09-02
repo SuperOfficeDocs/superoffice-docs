@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.HasMXRecord SOAP
 generated: true
 uid: Services88-EMail-HasMXRecord
+content_type: reference
 ---
 
 # Services88 EMail HasMXRecord

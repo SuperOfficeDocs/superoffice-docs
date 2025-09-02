@@ -3,9 +3,9 @@ uid: quotetemplate
 title: quotetemplate
 keywords: mdoprovider mdo provider quotetemplate
 description: This is a variant of the DocTmpl list - document templates - restricted to those that are of some quote document type. Use AdditionalInfo 'DocTmplQuoteType=&lt;a valid DocTmplQuoteType enum string value&gt;' to specify which one it should be
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "quotetemplate" MDO List

@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.CreateDefaultEMailAttachment SOAP
 generated: true
 uid: Services88-EMail-CreateDefaultEMailAttachment
+content_type: reference
 ---
 
 # Services88 EMail CreateDefaultEMailAttachment

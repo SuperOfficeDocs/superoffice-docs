@@ -2,10 +2,10 @@
 uid: table-dictionary_base
 title: dictionary_base table
 description: Language catalog for the ejournal dictionaries (automatic proof reading of message text etc)
-so.generated: true
+generated: true
 keywords: database table dictionary_base
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # dictionary\_base Table (359)

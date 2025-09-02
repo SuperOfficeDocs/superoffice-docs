@@ -2,6 +2,7 @@
 title: GET List/WebPanel/Items/{id}
 uid: v1WebPanelEntityList_GetWebPanelEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/WebPanel/Items/{id}
@@ -83,7 +84,7 @@ OK
 GET /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,34 +94,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 475,
-  "Name": "Jerde, Sawayn and Crona",
-  "Tooltip": "voluptates",
+  "WebPanelId": 443,
+  "Name": "Daniel, Gulgowski and Koelpin",
+  "Tooltip": "optio",
   "Deleted": false,
-  "Rank": 735,
+  "Rank": 685,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": false,
+  "OnSatellite": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Carter Inc and Sons",
+  "WindowName": "Conn, Moore and Upton",
   "Url": "http://www.example.com/",
-  "ProgId": "in",
-  "Icon": 339,
-  "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": true,
+  "ProgId": "velit",
+  "Icon": 871,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldLength": 111
     }
   }
 }

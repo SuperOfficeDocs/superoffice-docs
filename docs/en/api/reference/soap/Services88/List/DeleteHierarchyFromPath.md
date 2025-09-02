@@ -2,6 +2,7 @@
 title: Services88.ListAgent.DeleteHierarchyFromPath SOAP
 generated: true
 uid: Services88-List-DeleteHierarchyFromPath
+content_type: reference
 ---
 
 # Services88 List DeleteHierarchyFromPath

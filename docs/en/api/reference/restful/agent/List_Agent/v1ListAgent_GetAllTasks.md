@@ -2,6 +2,7 @@
 title: POST Agents/List/GetAllTasks
 uid: v1ListAgent_GetAllTasks
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetAllTasks
@@ -85,7 +86,7 @@ OK
 POST /api/v1/Agents/List/GetAllTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,16 +102,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 476,
-    "Value": "eius",
+    "TaskListItemId": 113,
+    "Value": "voluptate",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "non",
+    "Tooltip": "nesciunt",
     "Deleted": false,
-    "IntentId": 700,
-    "Rank": 187,
-    "IsDefaultAlldayEvent": false,
-    "IsDefaultFree": true,
+    "IntentId": 113,
+    "Rank": 255,
+    "IsDefaultAlldayEvent": true,
+    "IsDefaultFree": false,
     "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
@@ -119,7 +120,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 845
+        "FieldLength": 422
       }
     }
   }

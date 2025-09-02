@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetAssociatesDiaryInfo
 uid: v1AppointmentAgent_GetAssociatesDiaryInfo
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetAssociatesDiaryInfo
@@ -90,6 +91,8 @@ OK
 | RecurrenceInfo | RecurrenceInfo | The recurrence info if the appointment is recurring |
 | PersonName | string | The name of the appointment person. |
 | IsBooking | bool | True if the appointment is part of a booking |
+| OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -104,11 +107,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    445,
-    98
+    851,
+    559
   ],
-  "StartTime": "2007-10-06T03:45:22.7017267+02:00",
-  "EndTime": "2012-05-27T03:45:22.7017267+02:00"
+  "StartTime": "2016-08-05T03:46:54.0195335+02:00",
+  "EndTime": "1998-09-30T03:46:54.0195335+02:00"
 }
 ```
 
@@ -120,37 +123,39 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 587,
-    "AssociateId": 815,
-    "MotherId": 607,
-    "StartDate": "2002-12-11T03:45:22.7017267+01:00",
-    "EndDate": "2011-04-23T03:45:22.7017267+02:00",
+    "AppointmentId": 55,
+    "AssociateId": 628,
+    "MotherId": 718,
+    "StartDate": "2019-07-30T03:46:54.0195335+02:00",
+    "EndDate": "2007-01-19T03:46:54.0195335+01:00",
     "ColorIndex": "BlueAlt1",
-    "TaskName": "Ferry-McCullough",
-    "ContactName": "Klein, Larson and Keeling",
-    "ProjectName": "Gutkowski, Cassin and Kulas",
-    "Title": "doloribus",
-    "Agenda": "ut",
-    "IsAllDay": true,
-    "IsBusy": false,
+    "TaskName": "Ziemann, Corwin and Eichmann",
+    "ContactName": "Moen, Rosenbaum and Zboncak",
+    "ProjectName": "Koss-Little",
+    "Title": "cupiditate",
+    "Agenda": "praesentium",
+    "IsAllDay": false,
+    "IsBusy": true,
     "IsRecurring": true,
-    "IsVideoMeeting": false,
-    "HasAlarm": false,
-    "IsCompleted": true,
+    "IsVideoMeeting": true,
+    "HasAlarm": true,
+    "IsCompleted": false,
     "IsTentative": false,
-    "IsBookingMain": true,
-    "SendEmail": true,
+    "IsBookingMain": false,
+    "SendEmail": false,
     "AnySendEmail": false,
     "IsPrivate": false,
     "RecurrenceInfo": null,
-    "PersonName": "Labadie-Wiegand",
-    "IsBooking": true,
+    "PersonName": "Lockman-Koepp",
+    "IsBooking": false,
+    "OwnedExternally": "Google",
+    "MotherAssociateId": 191,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 84
+        "FieldLength": 139
       }
     }
   }

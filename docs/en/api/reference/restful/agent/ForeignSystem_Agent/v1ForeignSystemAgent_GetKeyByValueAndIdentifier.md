@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/GetKeyByValueAndIdentifier
 uid: v1ForeignSystemAgent_GetKeyByValueAndIdentifier
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/GetKeyByValueAndIdentifier
@@ -85,16 +86,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Medhurst, Kohler and Streich",
-  "DeviceName": "Douglas-Morissette",
-  "DeviceIdentifier": "aliquam",
-  "KeyName": "Walsh LLC",
-  "KeyValue": "quisquam",
-  "TableName": "Kutch-Bayer"
+  "ApplicationName": "Schmitt Inc and Sons",
+  "DeviceName": "Prosacco-Bahringer",
+  "DeviceIdentifier": "tempora",
+  "KeyName": "Howell LLC",
+  "KeyValue": "laboriosam",
+  "TableName": "Bartell LLC"
 }
 ```
 
@@ -105,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "iure",
-  "Value": "perspiciatis",
-  "RecordId": 945,
-  "CreatedDate": "2013-04-09T03:45:23.4829546+02:00",
-  "UpdatedDate": "1998-06-16T03:45:23.4829546+02:00",
-  "UpdatedBy": "fugit",
-  "CreatedBy": "quia",
-  "TableName": "VonRueden, Hessel and Fay",
+  "Key": "voluptatem",
+  "Value": "fugit",
+  "RecordId": 298,
+  "CreatedDate": "2004-03-31T03:46:54.9107593+02:00",
+  "UpdatedDate": "2022-10-28T03:46:54.9107593+02:00",
+  "UpdatedBy": "nulla",
+  "CreatedBy": "assumenda",
+  "TableName": "Mertz-Koelpin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 282
+      "FieldType": "System.String",
+      "FieldLength": 696
     }
   }
 }

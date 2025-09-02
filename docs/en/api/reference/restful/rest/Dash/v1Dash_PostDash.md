@@ -2,6 +2,7 @@
 title: POST Dash
 uid: v1Dash_PostDash
 generated: true
+content_type: reference
 ---
 
 # POST Dash
@@ -104,30 +105,30 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 859,
-  "UniqueId": "odio",
-  "Name": "Pouros Group",
-  "Description": "Enterprise-wide bandwidth-monitored middleware",
-  "AssociateId": 978,
-  "Columns": 627,
+  "DashboardId": 470,
+  "UniqueId": "voluptatem",
+  "Name": "Deckow Group",
+  "Description": "Reverse-engineered fresh-thinking toolset",
+  "AssociateId": 875,
+  "Columns": 674,
   "Theme": null,
-  "VisibleForAll": 358,
+  "VisibleForAll": 747,
   "VisibleForAssociates": [
-    212,
-    390
+    780,
+    455
   ],
   "VisibleForGroups": [
-    389,
-    209
+    130,
+    520
   ],
-  "PinForAll": 456,
+  "PinForAll": 506,
   "PinForAssociates": [
-    301,
-    114
+    76,
+    307
   ],
   "PinForGroups": [
-    253,
-    427
+    415,
+    164
   ]
 }
 ```
@@ -139,42 +140,42 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 948,
-  "UniqueId": "dolor",
-  "Name": "Blick-Wehner",
-  "Description": "User-centric hybrid time-frame",
-  "AssociateId": 603,
-  "Columns": 112,
+  "DashboardId": 974,
+  "UniqueId": "laudantium",
+  "Name": "Sanford, Luettgen and Harber",
+  "Description": "User-centric incremental focus group",
+  "AssociateId": 200,
+  "Columns": 875,
   "Theme": null,
-  "VisibleForAll": 196,
+  "VisibleForAll": 231,
   "VisibleForAssociates": [
-    263,
-    40
+    734,
+    852
   ],
   "VisibleForGroups": [
-    402,
-    620
+    895,
+    389
   ],
-  "PinForAll": 614,
+  "PinForAll": 34,
   "PinForAssociates": [
-    976,
-    26
+    137,
+    984
   ],
   "PinForGroups": [
-    363,
-    920
+    918,
+    723
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 883
+      "FieldType": "System.String",
+      "FieldLength": 898
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

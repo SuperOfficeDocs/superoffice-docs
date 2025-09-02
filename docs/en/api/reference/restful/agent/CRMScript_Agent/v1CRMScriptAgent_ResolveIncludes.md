@@ -2,6 +2,7 @@
 title: POST Agents/CRMScript/ResolveIncludes
 uid: v1CRMScriptAgent_ResolveIncludes
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CRMScript/ResolveIncludes
@@ -75,7 +76,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Script": "vero",
+  "Script": "odit",
   "IgnoreErrors": false
 }
 ```
@@ -87,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  532,
-  450
+  398,
+  156
 ]
 ```

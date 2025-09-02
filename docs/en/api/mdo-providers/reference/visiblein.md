@@ -3,9 +3,9 @@ uid: visiblein
 title: visiblein
 keywords: mdoprovider mdo provider visiblein
 description: Visible in list for web panels.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "visiblein" MDO List

@@ -2,6 +2,7 @@
 title: POST Agents/Sale/SetAsSoldWithReason
 uid: v1SaleAgent_SetAsSoldWithReason
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/SetAsSoldWithReason
@@ -67,15 +68,15 @@ No Content
 POST /api/v1/Agents/Sale/SetAsSoldWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleIds": [
-    67,
-    673
+    697,
+    812
   ],
-  "ReasonId": 291
+  "ReasonId": 488
 }
 ```
 

@@ -2,6 +2,7 @@
 title: PATCH Hierarchy/{id}
 uid: v1HierarchyEntity_PatchHierarchyEntity
 generated: true
+content_type: reference
 ---
 
 # PATCH Hierarchy/{id}
@@ -117,18 +118,18 @@ HierarchyEntity  updated.
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nobis",
+    "path": "nemo",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nobis",
+    "path": "nemo",
     "value": {}
   }
 ]
@@ -141,51 +142,51 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 323,
+  "HierarchyId": 37,
   "Domain": "Dashboards",
-  "Name": "Hegmann-Kshlerin",
-  "Fullname": "et",
-  "ParentId": 268,
+  "Name": "Hermiston-Heaney",
+  "Fullname": "delectus",
+  "ParentId": 220,
   "Children": [
     {
-      "HierarchyId": 38,
+      "HierarchyId": 85,
       "Domain": "Dashboards",
-      "Name": "Ferry, Pollich and Stiedemann",
-      "Fullname": "adipisci",
-      "ParentId": 864,
+      "Name": "Erdman-Corkery",
+      "Fullname": "ut",
+      "ParentId": 563,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2020-02-15T03:45:28.3734363+01:00",
-      "RegisteredAssociateId": 708,
-      "Updated": "2014-01-29T03:45:28.3734363+01:00",
-      "UpdatedAssociateId": 632,
+      "Registered": "2017-09-03T03:47:00.0349452+02:00",
+      "RegisteredAssociateId": 345,
+      "Updated": "2022-06-24T03:47:00.0349452+02:00",
+      "UpdatedAssociateId": 286,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 190
+          "FieldType": "System.String",
+          "FieldLength": 859
         }
       }
     }
   ],
-  "Registered": "2023-01-28T03:45:28.3734363+01:00",
-  "RegisteredAssociateId": 675,
-  "Updated": "2014-10-18T03:45:28.3734363+02:00",
-  "UpdatedAssociateId": 404,
+  "Registered": "2012-03-14T03:47:00.0349452+01:00",
+  "RegisteredAssociateId": 580,
+  "Updated": "2016-03-27T03:47:00.0349452+02:00",
+  "UpdatedAssociateId": 243,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 646
+      "FieldLength": 240
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

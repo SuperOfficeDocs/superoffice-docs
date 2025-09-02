@@ -2,6 +2,7 @@
 title: GET List/QuoteDenyReason/Items/{id}/UserGroups
 uid: v1QuoteDenyReasonList_GetQuoteDenyReasonUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/QuoteDenyReason/Items/{id}/UserGroups
@@ -75,7 +76,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 181,
-    "Name": "Kiehn, Block and Koepp",
-    "ToolTip": "Nihil eveniet natus nemo veritatis.",
+    "Id": 469,
+    "Name": "Sipes, Fay and Ritchie",
+    "ToolTip": "Fuga quaerat recusandae aliquam.",
     "Deleted": false,
-    "Rank": 647,
-    "Type": "asperiores",
-    "ColorBlock": 156,
-    "IconHint": "voluptates",
+    "Rank": 943,
+    "Type": "qui",
+    "ColorBlock": 643,
+    "IconHint": "quos",
     "Selected": false,
-    "LastChanged": "1998-08-22T03:45:29.1859346+02:00",
+    "LastChanged": "2014-07-27T03:47:00.7692942+02:00",
     "ChildItems": [
       {
-        "Id": 151,
-        "Name": "Wilderman, Pfannerstill and Kling",
-        "ToolTip": "Ea id quasi qui vel est sed voluptatem.",
+        "Id": 406,
+        "Name": "Pagac, Dooley and Morar",
+        "ToolTip": "Ut asperiores rem.",
         "Deleted": false,
-        "Rank": 611,
-        "Type": "eius",
-        "ColorBlock": 458,
-        "IconHint": "eum",
-        "Selected": false,
-        "LastChanged": "2024-11-12T03:45:29.1859346+01:00",
+        "Rank": 167,
+        "Type": "dolores",
+        "ColorBlock": 31,
+        "IconHint": "at",
+        "Selected": true,
+        "LastChanged": "2009-05-24T03:47:00.7692942+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "ullam",
+        "ExtraInfo": "vero",
+        "StyleHint": "nam",
         "Hidden": false,
-        "FullName": "Miss Sadie Cummerata",
+        "FullName": "Torrance King",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 343
+            "FieldType": "System.String",
+            "FieldLength": 153
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "iste",
-    "Hidden": true,
-    "FullName": "Mervin Nicolas",
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "occaecati",
+    "Hidden": false,
+    "FullName": "Maximillian Leannon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 410
+        "FieldType": "System.Int32",
+        "FieldLength": 534
       }
     }
   }

@@ -3,9 +3,9 @@ uid: erpfields
 title: erpfields
 keywords: mdoprovider mdo provider erpfields
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "erpfields" MDO List

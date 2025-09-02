@@ -2,6 +2,7 @@
 title: GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{id}/Value
 uid: v1ForeignAppEntity_GetKeyValueOnDeviceIdentifier
 generated: true
+content_type: reference
 ---
 
 # GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{id}/Value
@@ -70,5 +71,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"eos"
+"libero"
 ```

@@ -2,6 +2,7 @@
 title: Services88.UserAgent.IsNickNameUnique SOAP
 generated: true
 uid: Services88-User-IsNickNameUnique
+content_type: reference
 ---
 
 # Services88 User IsNickNameUnique

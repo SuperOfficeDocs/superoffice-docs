@@ -2,10 +2,10 @@
 uid: enum-widgettheme
 title: Enum values for WidgetTheme
 description: Lists the enum values for WidgetTheme.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # WidgetTheme Enum

@@ -2,6 +2,7 @@
 title: Services88.MDOAgent.GetSimpleList SOAP
 generated: true
 uid: Services88-MDO-GetSimpleList
+content_type: reference
 ---
 
 # Services88 MDO GetSimpleList

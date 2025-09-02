@@ -3,9 +3,9 @@ uid: sourceproduct
 title: sourceproduct
 keywords: mdoprovider mdo provider sourceproduct
 description: Products - Sales &amp; Marketing, Customer Service
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "sourceproduct" MDO List

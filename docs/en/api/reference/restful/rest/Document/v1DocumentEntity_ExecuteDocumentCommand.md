@@ -2,6 +2,7 @@
 title: POST Document/{id}/Command/{command}
 uid: v1DocumentEntity_ExecuteDocumentCommand
 generated: true
+content_type: reference
 ---
 
 # POST Document/{id}/Command/{command}
@@ -32,7 +33,7 @@ Execute a custom command on a particular document, optionally a particular versi
 | additionalData | array |  Any additional data that the document command needs. This parameter can be used as a tunnel between a custom-programmed GUI and its plugin.&lt;br/&gt;It is suggested that the format is name=value, with one such pair per array item. |
 
 ```http
-POST /api/v1/Document/{documentId}/Command/{command}?versionId=quos
+POST /api/v1/Document/{documentId}/Command/{command}?versionId=aut
 POST /api/v1/Document/{documentId}/Command/{command}?allowedReturnTypes=Message
 POST /api/v1/Document/{documentId}/Command/{command}?additionalData=Lorax
 ```
@@ -77,7 +78,7 @@ OK
 POST /api/v1/Document/{documentId}/Command/{command}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,11 +88,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "fugit",
-  "VersionId": "labore",
+  "ExternalReference": "quasi",
+  "VersionId": "provident",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "ut",
-  "AdditionalInfo": "sapiente"
+  "Value": "non",
+  "AdditionalInfo": "aperiam"
 }
 ```

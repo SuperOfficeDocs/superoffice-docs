@@ -2,6 +2,7 @@
 title: POST Agents/EMail/HasNewMail
 uid: v1EMailAgent_HasNewMail
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/HasNewMail
@@ -71,12 +72,12 @@ OK
 POST /api/v1/Agents/EMail/HasNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 787,
-  "FolderId": 978
+  "MailItemId": 520,
+  "FolderId": 48
 }
 ```
 

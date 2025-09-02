@@ -2,6 +2,7 @@
 title: GET List/Task/Items
 uid: v1TaskList_GetAllTaskListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Task/Items
@@ -27,7 +28,7 @@ Calls the Appointment agent service GetAllTaskListItem.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Task/Items?includeDeleted=True
+GET /api/v1/List/Task/Items?includeDeleted=False
 ```
 
 
@@ -79,7 +80,7 @@ OK
 GET /api/v1/List/Task/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,17 +91,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 943,
-    "Value": "architecto",
+    "TaskListItemId": 780,
+    "Value": "neque",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "nemo",
+    "Tooltip": "enim",
     "Deleted": false,
-    "IntentId": 112,
-    "Rank": 17,
-    "IsDefaultAlldayEvent": true,
-    "IsDefaultFree": false,
-    "IsDefaultPublished": false,
+    "IntentId": 24,
+    "Rank": 615,
+    "IsDefaultAlldayEvent": false,
+    "IsDefaultFree": true,
+    "IsDefaultPublished": true,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
     "TableRight": null,
@@ -108,7 +109,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 972
+        "FieldLength": 442
       }
     }
   }

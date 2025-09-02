@@ -2,6 +2,7 @@
 title: POST Agents/Project/SetProjectImage
 uid: v1ProjectAgent_SetProjectImage
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/SetProjectImage
@@ -65,11 +66,11 @@ No Content
 POST /api/v1/Agents/Project/SetProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 146,
+  "ProjectId": 106,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

@@ -2,6 +2,7 @@
 title: POST Agents/List/GetProjectTypeEntity
 uid: v1ListAgent_GetProjectTypeEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetProjectTypeEntity
@@ -22,11 +23,11 @@ Gets a ProjectTypeEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| projectTypeEntityId | int32 | **Required** The primary key. |
+| projectTypeEntityId | int32 | **Required** The identifier of the ProjectTypeEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=964
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=776
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,41 +87,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 137,
-  "Name": "Stiedemann-Little",
-  "Tooltip": "ut",
-  "Rank": 530,
+  "ProjTypeId": 153,
+  "Name": "McGlynn, Pollich and Feil",
+  "Tooltip": "id",
+  "Rank": 429,
   "DurationUnit": "Century",
-  "ProjectDuration": 800,
-  "Deleted": true,
+  "ProjectDuration": 403,
+  "Deleted": false,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 332,
-      "Name": "Jones Inc and Sons",
-      "ToolTip": "Nisi laborum amet.",
-      "Deleted": true,
-      "Rank": 226,
-      "Type": "non",
-      "ColorBlock": 243,
-      "IconHint": "vel",
+      "Id": 217,
+      "Name": "Pouros-Keeling",
+      "ToolTip": "Nisi consequatur nihil qui libero nemo.",
+      "Deleted": false,
+      "Rank": 744,
+      "Type": "sit",
+      "ColorBlock": 877,
+      "IconHint": "veniam",
       "Selected": true,
-      "LastChanged": "2019-07-14T03:45:23.5142048+02:00",
+      "LastChanged": "2002-04-12T03:46:54.9413809+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "placeat",
-      "StyleHint": "nisi",
-      "Hidden": true,
-      "FullName": "Mrs. Alanna Oswaldo Schimmel PhD",
+      "ExtraInfo": "earum",
+      "StyleHint": "debitis",
+      "Hidden": false,
+      "FullName": "Clark McDermott DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 122
+          "FieldLength": 85
         }
       }
     }
@@ -129,8 +130,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 845
+      "FieldType": "System.Int32",
+      "FieldLength": 780
     }
   }
 }

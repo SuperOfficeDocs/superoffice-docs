@@ -2,6 +2,7 @@
 title: POST Agents/License/GetThirdPartyLicenseAssignments
 uid: v1LicenseAgent_GetThirdPartyLicenseAssignments
 generated: true
+content_type: reference
 ---
 
 # POST Agents/License/GetThirdPartyLicenseAssignments
@@ -91,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 276,
-  "ModuleOwner": "est"
+  "AssociateId": 609,
+  "ModuleOwner": "repudiandae"
 }
 ```
 
@@ -104,26 +105,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 238,
-    "Tooltip": "atque",
-    "CanAssign": false,
-    "Free": 415,
-    "InUse": 143,
+    "Unrestricted": true,
+    "Total": 678,
+    "Tooltip": "magni",
+    "CanAssign": true,
+    "Free": 768,
+    "InUse": 838,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 135,
-    "Name": "Breitenberg LLC",
-    "Description": "Organized 5th generation framework",
-    "PrerequisiteModuleName": "Koepp-Bartell",
-    "SortOrder": 5,
-    "ExtraFlags": 454,
+    "ModuleLicenseId": 232,
+    "Name": "Bayer-Feil",
+    "Description": "Realigned grid-enabled frame",
+    "PrerequisiteModuleName": "Bayer Group",
+    "SortOrder": 403,
+    "ExtraFlags": 131,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 938
+        "FieldLength": 24
       }
     }
   }

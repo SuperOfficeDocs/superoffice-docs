@@ -2,6 +2,7 @@
 title: GET List/QuoteApproveReason/Items/Default
 uid: v1QuoteApproveReasonList_CreateDefaultQuoteApproveReason
 generated: true
+content_type: reference
 ---
 
 # GET List/QuoteApproveReason/Items/Default
@@ -70,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 232,
-  "Name": "O'Reilly LLC",
-  "Tooltip": "aut",
+  "Id": 475,
+  "Name": "O'Kon Inc and Sons",
+  "Tooltip": "nostrum",
   "Deleted": false,
-  "UdListDefinitionId": 758,
-  "Rank": 396,
+  "UdListDefinitionId": 368,
+  "Rank": 342,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 110
+      "FieldLength": 125
     }
   }
 }

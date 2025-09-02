@@ -2,6 +2,7 @@
 title: Services88.AppointmentAgent.SaveTaskListItem SOAP
 generated: true
 uid: Services88-Appointment-SaveTaskListItem
+content_type: reference
 ---
 
 # Services88 Appointment SaveTaskListItem

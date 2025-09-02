@@ -1,6 +1,8 @@
 ---
+uid: tag-Webhook
 title: Webhook
 generated: true
+content_type: reference
 ---
 
 ```http

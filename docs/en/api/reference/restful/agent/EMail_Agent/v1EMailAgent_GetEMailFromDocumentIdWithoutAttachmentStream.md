@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 uid: v1EMailAgent_GetEMailFromDocumentIdWithoutAttachmentStream
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
@@ -100,11 +101,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 168
+  "DocumentId": 68
 }
 ```
 
@@ -117,156 +118,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 674,
-      "ContactName": "Mann, Thompson and Nitzsche",
-      "PersonId": 757,
-      "PersonName": "Jerde, Sipes and Windler",
-      "AssociateId": 615,
-      "Address": "consequatur",
-      "EmailId": 891,
+      "ContactId": 437,
+      "ContactName": "Stokes, Trantow and Dickens",
+      "PersonId": 699,
+      "PersonName": "Kohler-Robel",
+      "AssociateId": 129,
+      "Address": "sint",
+      "EmailId": 295,
       "DuplicatePersonIds": [
-        342,
-        286
+        473,
+        696
       ],
-      "Name": "Hegmann-Harvey",
+      "Name": "Mosciski, Gutmann and Breitenberg",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 35
+          "FieldType": "System.String",
+          "FieldLength": 924
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 141,
-      "ContactName": "Spencer, Aufderhar and Kemmer",
-      "PersonId": 59,
-      "PersonName": "Jaskolski-Osinski",
-      "AssociateId": 461,
-      "Address": "ad",
-      "EmailId": 176,
+      "ContactId": 214,
+      "ContactName": "Kunze, O'Conner and Kovacek",
+      "PersonId": 900,
+      "PersonName": "Torphy-Reynolds",
+      "AssociateId": 281,
+      "Address": "dolorem",
+      "EmailId": 773,
       "DuplicatePersonIds": [
-        970,
-        217
+        581,
+        257
       ],
-      "Name": "Schinner-Von",
+      "Name": "Jerde-Bechtelar",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 491
+          "FieldLength": 615
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 431,
-      "ContactName": "Ortiz-Schulist",
-      "PersonId": 708,
-      "PersonName": "Strosin LLC",
-      "AssociateId": 766,
-      "Address": "perspiciatis",
-      "EmailId": 650,
+      "ContactId": 565,
+      "ContactName": "Spencer-Sauer",
+      "PersonId": 459,
+      "PersonName": "Hammes-Mueller",
+      "AssociateId": 501,
+      "Address": "quia",
+      "EmailId": 159,
       "DuplicatePersonIds": [
-        33,
-        265
+        194,
+        250
       ],
-      "Name": "O'Connell, Brekke and Schulist",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 655
-        }
-      }
-    }
-  ],
-  "Subject": "corporis",
-  "HTMLBody": "quis",
-  "From": null,
-  "Sent": "2015-12-11T03:45:23.389207+01:00",
-  "Size": 63,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "error",
-  "PlainBody": "atque",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 69,
-  "Attachments": [
-    {
-      "Description": "Re-engineered static array",
-      "Filename": "sed",
-      "Size": 782,
-      "Type": "tenetur",
-      "Encoding": "quas",
-      "Id": "veniam",
-      "Disposition": "enim",
-      "IsSafeFileExtension": false,
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Gutkowski-Becker",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 364
+          "FieldLength": 538
+        }
+      }
+    }
+  ],
+  "Subject": "non",
+  "HTMLBody": "nisi",
+  "From": null,
+  "Sent": "2005-08-31T03:46:54.7382579+02:00",
+  "Size": 507,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "beatae",
+  "PlainBody": "libero",
+  "IsSent": false,
+  "EMailSOInfo": null,
+  "ServerId": 110,
+  "Attachments": [
+    {
+      "Description": "Self-enabling zero tolerance firmware",
+      "Filename": "ut",
+      "Size": 687,
+      "Type": "totam",
+      "Encoding": "non",
+      "Id": "enim",
+      "Disposition": "excepturi",
+      "IsSafeFileExtension": true,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 650
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Haag-Feeney",
+      "Name": "Schinner Group",
       "Values": [
-        "nihil",
-        "consequatur"
+        "assumenda",
+        "illo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 256
+          "FieldLength": 715
         }
       }
     },
     {
-      "Name": "Haag-Feeney",
+      "Name": "Schinner Group",
       "Values": [
-        "nihil",
-        "consequatur"
+        "assumenda",
+        "illo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 256
+          "FieldLength": 715
         }
       }
     }
   ],
-  "FolderName": "Jerde Group",
-  "EmailItemId": 618,
-  "AccountId": 409,
-  "ReceivedAt": "2023-09-20T03:45:23.389207+02:00",
+  "FolderName": "Reilly Inc and Sons",
+  "EmailItemId": 464,
+  "AccountId": 980,
+  "ReceivedAt": "1999-10-17T03:46:54.7382579+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2019-10-07T03:45:23.389207+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2019-05-28T03:46:54.7382579+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 476
+      "FieldType": "System.Int32",
+      "FieldLength": 174
     }
   }
 }

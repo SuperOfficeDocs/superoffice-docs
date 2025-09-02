@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.GetSmsConfig SOAP
 generated: true
 uid: Services88-CustomerService-GetSmsConfig
+content_type: reference
 ---
 
 # Services88 CustomerService GetSmsConfig

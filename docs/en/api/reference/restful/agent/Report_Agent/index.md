@@ -1,6 +1,8 @@
 ---
+uid: tag-Report_Agent
 title: Report_Agent
 generated: true
+content_type: reference
 ---
 
 ```http

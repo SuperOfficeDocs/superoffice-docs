@@ -2,6 +2,7 @@
 title: POST Agents/CRMScript/ExecuteScript
 uid: v1CRMScriptAgent_ExecuteScript
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CRMScript/ExecuteScript
@@ -71,14 +72,14 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 236,
+  "CRMScriptId": 122,
   "Parameters": {
-    "Parameters1": "tenetur",
-    "Parameters2": "quis"
+    "Parameters1": "nam",
+    "Parameters2": "ut"
   }
 }
 ```
@@ -89,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"veritatis"
+"magni"
 ```

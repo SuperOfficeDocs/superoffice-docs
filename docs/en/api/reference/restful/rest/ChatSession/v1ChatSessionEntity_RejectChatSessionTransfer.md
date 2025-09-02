@@ -2,6 +2,7 @@
 title: POST ChatSession/{id}/RejectTransfer
 uid: v1ChatSessionEntity_RejectChatSessionTransfer
 generated: true
+content_type: reference
 ---
 
 # POST ChatSession/{id}/RejectTransfer
@@ -91,7 +92,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/RejectTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,43 +102,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 256,
-  "TopicId": 323,
+  "ChatSessionId": 140,
+  "TopicId": 425,
   "User": null,
   "Person": null,
-  "CustomerAlias": "sit",
-  "CustomerHost": "consectetur",
-  "CustomerName": "Bartell-Bode",
-  "CustomerEmail": "frankie@maggio.co.uk",
-  "CustomerPhone": "190-042-2165",
+  "CustomerAlias": "consequatur",
+  "CustomerHost": "ea",
+  "CustomerName": "Brekke, Monahan and Douglas",
+  "CustomerEmail": "electa.nikolaus@mante.us",
+  "CustomerPhone": "(827)507-4828",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Gottlieb-Murphy",
+  "CustomerCompanyName": "Ullrich LLC",
   "Status": "Closed",
-  "FirstMessage": "deleniti",
-  "LastMessage": "eum",
-  "WhenRequested": "2008-04-14T03:45:28.1390717+02:00",
-  "WhenStarted": "2020-02-22T03:45:28.1390717+01:00",
-  "WhenEnded": "2016-08-28T03:45:28.1390717+02:00",
-  "WhenIdle": "2006-05-20T03:45:28.1390717+02:00",
-  "WhenFetched": "2020-12-01T03:45:28.1390717+01:00",
-  "SessionKey": "inventore",
-  "InitialQueuePos": 385,
-  "AlertLevel": 17,
-  "Rank": 994,
+  "FirstMessage": "possimus",
+  "LastMessage": "sit",
+  "WhenRequested": "2011-07-09T03:46:59.7693215+02:00",
+  "WhenStarted": "2005-12-04T03:46:59.7693215+01:00",
+  "WhenEnded": "2022-02-12T03:46:59.7693215+01:00",
+  "WhenIdle": "2012-07-01T03:46:59.7693215+02:00",
+  "WhenFetched": "2019-02-05T03:46:59.7693215+01:00",
+  "SessionKey": "quae",
+  "InitialQueuePos": 963,
+  "AlertLevel": 217,
+  "Rank": 971,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 397,
+  "ChatbotIsActive": false,
+  "Rating": 419,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 445
+      "FieldType": "System.String",
+      "FieldLength": 862
     }
   }
 }

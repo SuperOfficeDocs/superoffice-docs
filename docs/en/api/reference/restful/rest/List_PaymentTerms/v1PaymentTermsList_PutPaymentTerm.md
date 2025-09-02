@@ -2,6 +2,7 @@
 title: PUT List/PaymentTerm/Items/{id}
 uid: v1PaymentTermsList_PutPaymentTerm
 generated: true
+content_type: reference
 ---
 
 # PUT List/PaymentTerm/Items/{id}
@@ -78,16 +79,16 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 574,
-  "Name": "Goyette-Stroman",
-  "Tooltip": "deserunt",
+  "Id": 790,
+  "Name": "Harris, Von and Conn",
+  "Tooltip": "facilis",
   "Deleted": false,
-  "UdListDefinitionId": 245,
-  "Rank": 206
+  "UdListDefinitionId": 205,
+  "Rank": 999
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 827,
-  "Name": "Effertz, Lockman and Ziemann",
-  "Tooltip": "eos",
+  "Id": 515,
+  "Name": "Cassin-Kutch",
+  "Tooltip": "nobis",
   "Deleted": false,
-  "UdListDefinitionId": 761,
-  "Rank": 580,
+  "UdListDefinitionId": 212,
+  "Rank": 343,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldLength": 845
     }
   }
 }

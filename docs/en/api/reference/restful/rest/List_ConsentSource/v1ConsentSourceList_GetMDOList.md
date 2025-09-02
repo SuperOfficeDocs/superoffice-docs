@@ -2,6 +2,7 @@
 title: GET List/ConsentSource/MDOItems
 uid: v1ConsentSourceList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/ConsentSource/MDOItems
@@ -27,7 +28,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=True
-GET /api/v1/List/ConsentSource/MDOItems?query=occaecati
+GET /api/v1/List/ConsentSource/MDOItems?query=harum
 ```
 
 
@@ -78,7 +79,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 870,
-    "Name": "Torp-Steuber",
-    "ToolTip": "Ducimus aut.",
+    "Id": 906,
+    "Name": "Russel-Frami",
+    "ToolTip": "Qui dolorem temporibus necessitatibus.",
     "Deleted": false,
-    "Rank": 857,
-    "Type": "consequatur",
+    "Rank": 924,
+    "Type": "libero",
     "ChildItems": [
       {
-        "Id": 891,
-        "Name": "Donnelly LLC",
-        "ToolTip": "Totam recusandae quidem atque illo sint quo.",
-        "Deleted": true,
-        "Rank": 547,
-        "Type": "distinctio",
+        "Id": 420,
+        "Name": "Yundt-Schmidt",
+        "ToolTip": "Molestias eum ea earum aut tenetur quae.",
+        "Deleted": false,
+        "Rank": 368,
+        "Type": "excepturi",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "et",
-        "ColorBlock": 147,
-        "ExtraInfo": "porro",
-        "StyleHint": "facilis",
-        "FullName": "Jaquan Johnson",
+        "ColorBlock": 829,
+        "ExtraInfo": "impedit",
+        "StyleHint": "qui",
+        "FullName": "Selena Predovic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 212
+            "FieldLength": 533
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 849,
-    "ExtraInfo": "tempore",
-    "StyleHint": "repellendus",
-    "FullName": "Johnson Zboncak",
+    "IconHint": "ut",
+    "ColorBlock": 184,
+    "ExtraInfo": "quis",
+    "StyleHint": "voluptate",
+    "FullName": "Marguerite Nikolaus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 717
+        "FieldType": "System.String",
+        "FieldLength": 373
       }
     }
   }

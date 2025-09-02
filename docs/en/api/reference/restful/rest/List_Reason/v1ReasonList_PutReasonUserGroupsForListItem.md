@@ -2,6 +2,7 @@
 title: PUT List/Reason/Items/{id}/UserGroups
 uid: v1ReasonList_PutReasonUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/Reason/Items/{id}/UserGroups
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 758,
-    "Name": "Gorczany-Oberbrunner",
-    "ToolTip": "Earum neque est animi.",
-    "Deleted": true,
-    "Rank": 220,
-    "Type": "consequuntur",
-    "ColorBlock": 914,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2009-07-27T03:45:29.2015441+02:00",
+    "Id": 76,
+    "Name": "Reichel-McLaughlin",
+    "ToolTip": "Consequatur et quo odit mollitia in.",
+    "Deleted": false,
+    "Rank": 926,
+    "Type": "libero",
+    "ColorBlock": 956,
+    "IconHint": "labore",
+    "Selected": false,
+    "LastChanged": "2009-10-11T03:47:00.7849183+02:00",
     "ChildItems": [
       {
-        "Id": 469,
-        "Name": "Harris, Wilderman and Cassin",
-        "ToolTip": "Ex quam dolor sed.",
+        "Id": 119,
+        "Name": "Franecki Inc and Sons",
+        "ToolTip": "Dolores eaque nihil.",
         "Deleted": true,
-        "Rank": 464,
-        "Type": "rerum",
-        "ColorBlock": 534,
-        "IconHint": "quo",
-        "Selected": false,
-        "LastChanged": "2000-02-05T03:45:29.2015441+01:00",
+        "Rank": 109,
+        "Type": "inventore",
+        "ColorBlock": 352,
+        "IconHint": "enim",
+        "Selected": true,
+        "LastChanged": "2004-10-31T03:47:00.7849183+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "fugit",
-        "Hidden": false,
-        "FullName": "Miss Alison Upton"
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "explicabo",
+        "Hidden": true,
+        "FullName": "Brent Kub"
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "explicabo",
+    "ExtraInfo": "et",
+    "StyleHint": "eligendi",
     "Hidden": true,
-    "FullName": "Mr. Ernestine Lela Beer MD"
+    "FullName": "Concepcion Littel"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 373,
-    "Name": "Ratke Group",
-    "ToolTip": "Necessitatibus et repudiandae hic natus.",
-    "Deleted": false,
-    "Rank": 490,
-    "Type": "quo",
-    "ColorBlock": 581,
-    "IconHint": "quis",
-    "Selected": true,
-    "LastChanged": "2011-11-28T03:45:29.2015441+01:00",
+    "Id": 448,
+    "Name": "Crooks LLC",
+    "ToolTip": "Expedita earum dicta maiores repellendus.",
+    "Deleted": true,
+    "Rank": 77,
+    "Type": "ducimus",
+    "ColorBlock": 93,
+    "IconHint": "velit",
+    "Selected": false,
+    "LastChanged": "1999-12-31T03:47:00.7849183+01:00",
     "ChildItems": [
       {
-        "Id": 554,
-        "Name": "Ward, Rohan and Murphy",
-        "ToolTip": "Vel molestias doloribus natus.",
-        "Deleted": true,
-        "Rank": 992,
-        "Type": "enim",
-        "ColorBlock": 900,
-        "IconHint": "odio",
-        "Selected": true,
-        "LastChanged": "2014-07-18T03:45:29.2015441+02:00",
+        "Id": 431,
+        "Name": "Gutkowski-Beatty",
+        "ToolTip": "Consequatur et.",
+        "Deleted": false,
+        "Rank": 445,
+        "Type": "qui",
+        "ColorBlock": 521,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2020-11-05T03:47:00.7849183+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quasi",
-        "StyleHint": "est",
+        "ExtraInfo": "ea",
+        "StyleHint": "incidunt",
         "Hidden": false,
-        "FullName": "Austen Klocko",
+        "FullName": "Russel Kunze II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 319
+            "FieldType": "System.String",
+            "FieldLength": 834
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "asperiores",
+    "ExtraInfo": "minus",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Mrs. Candida Jesus Harris",
+    "FullName": "Sunny Eichmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 598
+        "FieldLength": 468
       }
     }
   }

@@ -5,6 +5,7 @@ items:
   id: QuoteDocumentGenerator
   parent: SuperOffice.CRM.Sale
   children:
+  - SuperOffice.CRM.Sale.QuoteDocumentGenerator.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Sale.QuoteDocumentGenerator})
   - SuperOffice.CRM.Sale.QuoteDocumentGenerator.MergeToPdf(System.IO.Stream,System.IO.Stream,System.Data.DataSet)
   - SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTags(System.IO.Stream)
   - SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTagsAsync(System.Int32,System.Threading.CancellationToken)
@@ -28,8 +29,8 @@ items:
     Possibly not the prettiest thing we could do.
   example: []
   syntax:
-    content: public static class QuoteDocumentGenerator
-    content.vb: Public Module QuoteDocumentGenerator
+    content: public class QuoteDocumentGenerator
+    content.vb: Public Class QuoteDocumentGenerator
   inheritance:
   - System.Object
   inheritedMembers:
@@ -40,6 +41,9 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.CRM.Sale.QuoteDocumentGenerator.EnumUtil.MapEnums``2
+  - SuperOffice.CRM.Sale.QuoteDocumentGenerator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
 - uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.QuoteDetailsTag
   commentId: F:SuperOffice.CRM.Sale.QuoteDocumentGenerator.QuoteDetailsTag
   id: QuoteDetailsTag
@@ -59,6 +63,30 @@ items:
     return:
       type: System.String
     content.vb: Public Const QuoteDetailsTag As String = "QuoteDetails"
+- uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Sale.QuoteDocumentGenerator})
+  commentId: M:SuperOffice.CRM.Sale.QuoteDocumentGenerator.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Sale.QuoteDocumentGenerator})
+  id: '#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Sale.QuoteDocumentGenerator})'
+  parent: SuperOffice.CRM.Sale.QuoteDocumentGenerator
+  langs:
+  - csharp
+  - vb
+  name: QuoteDocumentGenerator(ILogger<QuoteDocumentGenerator>)
+  nameWithType: QuoteDocumentGenerator.QuoteDocumentGenerator(ILogger<QuoteDocumentGenerator>)
+  fullName: SuperOffice.CRM.Sale.QuoteDocumentGenerator.QuoteDocumentGenerator(Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.Sale.QuoteDocumentGenerator>)
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Sale
+  syntax:
+    content: public QuoteDocumentGenerator(ILogger<QuoteDocumentGenerator> logger)
+    parameters:
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Sale.QuoteDocumentGenerator}
+    content.vb: Public Sub New(logger As ILogger(Of QuoteDocumentGenerator))
+  overload: SuperOffice.CRM.Sale.QuoteDocumentGenerator.#ctor*
+  nameWithType.vb: QuoteDocumentGenerator.New(ILogger(Of QuoteDocumentGenerator))
+  fullName.vb: SuperOffice.CRM.Sale.QuoteDocumentGenerator.New(Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Sale.QuoteDocumentGenerator))
+  name.vb: New(ILogger(Of QuoteDocumentGenerator))
 - uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.MergeToPdf(System.IO.Stream,System.IO.Stream,System.Data.DataSet)
   commentId: M:SuperOffice.CRM.Sale.QuoteDocumentGenerator.MergeToPdf(System.IO.Stream,System.IO.Stream,System.Data.DataSet)
   id: MergeToPdf(System.IO.Stream,System.IO.Stream,System.Data.DataSet)
@@ -95,7 +123,7 @@ items:
     the tag in the main doc (the tag is removed).
   example: []
   syntax:
-    content: public static Stream MergeToPdf(Stream template, Stream mainDoc, DataSet data)
+    content: public Stream MergeToPdf(Stream template, Stream mainDoc, DataSet data)
     parameters:
     - id: template
       type: System.IO.Stream
@@ -109,7 +137,7 @@ items:
     return:
       type: System.IO.Stream
       description: Stream (backed by a byte array) containing a PDF document ready to save
-    content.vb: Public Shared Function MergeToPdf(template As Stream, mainDoc As Stream, data As DataSet) As Stream
+    content.vb: Public Function MergeToPdf(template As Stream, mainDoc As Stream, data As DataSet) As Stream
   overload: SuperOffice.CRM.Sale.QuoteDocumentGenerator.MergeToPdf*
 - uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTagsAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Sale.QuoteDocumentGenerator.PrescanForTagsAsync(System.Int32,System.Threading.CancellationToken)
@@ -436,6 +464,112 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
   - name: )
+- uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<QuoteDocumentGenerator, To>(QuoteDocumentGenerator)
+  nameWithType: EnumUtil.MapEnums<QuoteDocumentGenerator, To>(QuoteDocumentGenerator)
+  fullName: EnumUtil.MapEnums<SuperOffice.CRM.Sale.QuoteDocumentGenerator, To>(SuperOffice.CRM.Sale.QuoteDocumentGenerator)
+  nameWithType.vb: EnumUtil.MapEnums(Of QuoteDocumentGenerator, To)(QuoteDocumentGenerator)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.CRM.Sale.QuoteDocumentGenerator, To)(SuperOffice.CRM.Sale.QuoteDocumentGenerator)
+  name.vb: MapEnums(Of QuoteDocumentGenerator, To)(QuoteDocumentGenerator)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Sale.QuoteDocumentGenerator)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator
+    name: QuoteDocumentGenerator
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteDocumentGenerator.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator
+    name: QuoteDocumentGenerator
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteDocumentGenerator.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.CRM.Sale.QuoteDocumentGenerator)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator
+    name: QuoteDocumentGenerator
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteDocumentGenerator.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator
+    name: QuoteDocumentGenerator
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteDocumentGenerator.html
+  - name: )
+- uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<QuoteDocumentGenerator, To>(QuoteDocumentGenerator)
+  nameWithType: Converters.MapEnums<QuoteDocumentGenerator, To>(QuoteDocumentGenerator)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.CRM.Sale.QuoteDocumentGenerator, To>(SuperOffice.CRM.Sale.QuoteDocumentGenerator)
+  nameWithType.vb: Converters.MapEnums(Of QuoteDocumentGenerator, To)(QuoteDocumentGenerator)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.CRM.Sale.QuoteDocumentGenerator, To)(SuperOffice.CRM.Sale.QuoteDocumentGenerator)
+  name.vb: MapEnums(Of QuoteDocumentGenerator, To)(QuoteDocumentGenerator)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Sale.QuoteDocumentGenerator)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator
+    name: QuoteDocumentGenerator
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteDocumentGenerator.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator
+    name: QuoteDocumentGenerator
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteDocumentGenerator.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.CRM.Sale.QuoteDocumentGenerator)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator
+    name: QuoteDocumentGenerator
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteDocumentGenerator.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator
+    name: QuoteDocumentGenerator
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteDocumentGenerator.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -443,6 +577,138 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -454,6 +720,116 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
+- uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.#ctor*
+  commentId: Overload:SuperOffice.CRM.Sale.QuoteDocumentGenerator.#ctor
+  isExternal: true
+  href: SuperOffice.CRM.Sale.QuoteDocumentGenerator.html#SuperOffice_CRM_Sale_QuoteDocumentGenerator__ctor_Microsoft_Extensions_Logging_ILogger_SuperOffice_CRM_Sale_QuoteDocumentGenerator__
+  name: QuoteDocumentGenerator
+  nameWithType: QuoteDocumentGenerator.QuoteDocumentGenerator
+  fullName: SuperOffice.CRM.Sale.QuoteDocumentGenerator.QuoteDocumentGenerator
+  nameWithType.vb: QuoteDocumentGenerator.New
+  fullName.vb: SuperOffice.CRM.Sale.QuoteDocumentGenerator.New
+  name.vb: New
+- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Sale.QuoteDocumentGenerator}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Sale.QuoteDocumentGenerator}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<QuoteDocumentGenerator>
+  nameWithType: ILogger<QuoteDocumentGenerator>
+  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.Sale.QuoteDocumentGenerator>
+  nameWithType.vb: ILogger(Of QuoteDocumentGenerator)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Sale.QuoteDocumentGenerator)
+  name.vb: ILogger(Of QuoteDocumentGenerator)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator
+    name: QuoteDocumentGenerator
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteDocumentGenerator.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator
+    name: QuoteDocumentGenerator
+    isExternal: true
+    href: SuperOffice.CRM.Sale.QuoteDocumentGenerator.html
+  - name: )
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
 - uid: SuperOffice.CRM.Sale.QuoteDocumentGenerator.MergeToPdf*
   commentId: Overload:SuperOffice.CRM.Sale.QuoteDocumentGenerator.MergeToPdf
   isExternal: true

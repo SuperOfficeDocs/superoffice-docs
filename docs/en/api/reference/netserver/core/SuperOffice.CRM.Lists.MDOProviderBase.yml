@@ -885,13 +885,13 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Lists
   syntax:
-    content: protected virtual string GetHistoryIconHint(ListTableRow row)
+    content: protected virtual Task<string> GetHistoryIconHint(ListTableRow row)
     parameters:
     - id: row
       type: SuperOffice.CRM.Lists.ListTableRow
     return:
-      type: System.String
-    content.vb: Protected Overridable Function GetHistoryIconHint(row As ListTableRow) As String
+      type: System.Threading.Tasks.Task{System.String}
+    content.vb: Protected Overridable Function GetHistoryIconHint(row As ListTableRow) As Task(Of String)
   overload: SuperOffice.CRM.Lists.MDOProviderBase.GetHistoryIconHint*
 - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemTooltip(SuperOffice.CRM.Lists.ListTableRow)
   commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.GetItemTooltip(SuperOffice.CRM.Lists.ListTableRow)
@@ -2846,6 +2846,41 @@ references:
   name: GetHistoryIconHint
   nameWithType: MDOProviderBase.GetHistoryIconHint
   fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetHistoryIconHint
+- uid: System.Threading.Tasks.Task{System.String}
+  commentId: T:System.Threading.Tasks.Task{System.String}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<string>
+  nameWithType: Task<string>
+  fullName: System.Threading.Tasks.Task<string>
+  nameWithType.vb: Task(Of String)
+  fullName.vb: System.Threading.Tasks.Task(Of String)
+  name.vb: Task(Of String)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
 - uid: SuperOffice.CRM.Lists.MDOProviderBase.GetItemTooltip*
   commentId: Overload:SuperOffice.CRM.Lists.MDOProviderBase.GetItemTooltip
   isExternal: true

@@ -3,9 +3,9 @@ uid: SimpleAppointment
 title: SimpleAppointment
 description: 
 keywords: SimpleAppointment archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "SimpleAppointment"
@@ -735,7 +735,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleAppointment?$select=contact/streetAddress/county,contact/contactAssociate/contactId,contact/contactAssociate/assocType,contact/contactExtra/x_contact_float,person/personAssociate/assocName
+GET /api/v1/archive/SimpleAppointment?$select=appointmentPublish/publishedTo,contact/LastDoByTicket,person/correspondingAssociate/fullName,project/projectAssociate/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

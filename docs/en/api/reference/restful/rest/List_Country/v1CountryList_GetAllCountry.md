@@ -2,6 +2,7 @@
 title: GET List/Country/Items
 uid: v1CountryList_GetAllCountry
 generated: true
+content_type: reference
 ---
 
 # GET List/Country/Items
@@ -27,7 +28,7 @@ Calls the List agent service GetAllCountry.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Country/Items?includeDeleted=True
+GET /api/v1/List/Country/Items?includeDeleted=False
 ```
 
 
@@ -84,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,30 +96,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 560,
-    "Name": "Walter, Hermiston and Sipes",
-    "CurrencyId": 373,
-    "EnglishName": "Barrows-Jacobi",
+    "CountryId": 157,
+    "Name": "O'Reilly-Kreiger",
+    "CurrencyId": 604,
+    "EnglishName": "Boyer Group",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Reverse-engineered fault-tolerant process improvement",
-    "OrgNrText": "550586",
-    "InterAreaPrefix": "eligendi",
-    "DialInPrefix": "aliquam",
-    "ZipPrefix": "quia",
-    "DomainName": "West-Rath",
-    "AddressLayoutId": 480,
-    "DomesticAddressLayoutId": 898,
-    "ForeignAddressLayoutId": 16,
-    "Rank": 362,
-    "Tooltip": "autem",
+    "ImageDescription": "Synergistic incremental help-desk",
+    "OrgNrText": "582233",
+    "InterAreaPrefix": "aut",
+    "DialInPrefix": "possimus",
+    "ZipPrefix": "facilis",
+    "DomainName": "Dare-Jaskolski",
+    "AddressLayoutId": 669,
+    "DomesticAddressLayoutId": 909,
+    "ForeignAddressLayoutId": 635,
+    "Rank": 146,
+    "Tooltip": "voluptatem",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 862
+        "FieldLength": 160
       }
     }
   }

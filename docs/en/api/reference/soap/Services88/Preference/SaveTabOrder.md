@@ -2,6 +2,7 @@
 title: Services88.PreferenceAgent.SaveTabOrder SOAP
 generated: true
 uid: Services88-Preference-SaveTabOrder
+content_type: reference
 ---
 
 # Services88 Preference SaveTabOrder

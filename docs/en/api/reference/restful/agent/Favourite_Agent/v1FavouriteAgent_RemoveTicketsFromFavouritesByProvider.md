@@ -2,6 +2,7 @@
 title: POST Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 uid: v1FavouriteAgent_RemoveTicketsFromFavouritesByProvider
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Favourite/RemoveTicketsFromFavouritesByProvider
@@ -70,18 +71,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Becker LLC",
+  "ProviderName": "Raynor, Gottlieb and Ryan",
   "Restrictions": [
     {
-      "Name": "Spencer-Heathcote",
-      "Operator": "at",
+      "Name": "Crooks LLC",
+      "Operator": "aspernatur",
       "Values": [
-        "maxime",
-        "ducimus"
+        "delectus",
+        "et"
       ],
       "DisplayValues": [
-        "explicabo",
-        "enim"
+        "ipsum",
+        "recusandae"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -89,12 +90,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 631,
+      "InterParenthesis": 977,
       "InterOperator": "And",
-      "UniqueHash": 235
+      "UniqueHash": 112
     }
   ],
-  "AssociateId": 375
+  "AssociateId": 272
 }
 ```
 

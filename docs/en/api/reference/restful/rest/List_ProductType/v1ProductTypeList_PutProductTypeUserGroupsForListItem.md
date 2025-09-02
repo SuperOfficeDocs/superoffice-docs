@@ -2,6 +2,7 @@
 title: PUT List/ProductType/Items/{id}/UserGroups
 uid: v1ProductTypeList_PutProductTypeUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProductType/Items/{id}/UserGroups
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 274,
-    "Name": "Kihn-Koelpin",
-    "ToolTip": "Aut corporis omnis itaque accusantium corporis non dolor.",
+    "Id": 320,
+    "Name": "Moore-Hagenes",
+    "ToolTip": "Odit nihil numquam voluptatem quia perferendis temporibus.",
     "Deleted": false,
-    "Rank": 670,
-    "Type": "alias",
-    "ColorBlock": 716,
-    "IconHint": "qui",
+    "Rank": 897,
+    "Type": "optio",
+    "ColorBlock": 475,
+    "IconHint": "impedit",
     "Selected": false,
-    "LastChanged": "2014-05-10T03:45:29.1703077+02:00",
+    "LastChanged": "2006-12-01T03:47:00.7380451+01:00",
     "ChildItems": [
       {
-        "Id": 908,
-        "Name": "Parker LLC",
-        "ToolTip": "Aut iusto.",
+        "Id": 823,
+        "Name": "Hermann, Goodwin and Swaniawski",
+        "ToolTip": "Ullam doloremque.",
         "Deleted": false,
-        "Rank": 701,
-        "Type": "culpa",
-        "ColorBlock": 879,
-        "IconHint": "sit",
-        "Selected": true,
-        "LastChanged": "2006-11-12T03:45:29.1703077+01:00",
+        "Rank": 736,
+        "Type": "ad",
+        "ColorBlock": 463,
+        "IconHint": "magni",
+        "Selected": false,
+        "LastChanged": "2016-08-08T03:47:00.7380451+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "similique",
-        "StyleHint": "maiores",
+        "ExtraInfo": "illum",
+        "StyleHint": "nisi",
         "Hidden": false,
-        "FullName": "Ashley Renner"
+        "FullName": "Mr. Dejah Maximilian Stamm DDS"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "natus",
-    "Hidden": false,
-    "FullName": "Vena Fabiola Ferry I"
+    "ExtraInfo": "veritatis",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Ms. Estelle Romaguera"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 639,
-    "Name": "Ritchie-Connelly",
-    "ToolTip": "Voluptas corporis a.",
-    "Deleted": true,
-    "Rank": 9,
+    "Id": 836,
+    "Name": "Haley, Kemmer and Hegmann",
+    "ToolTip": "Maxime eligendi.",
+    "Deleted": false,
+    "Rank": 858,
     "Type": "qui",
-    "ColorBlock": 850,
-    "IconHint": "sequi",
+    "ColorBlock": 105,
+    "IconHint": "id",
     "Selected": false,
-    "LastChanged": "2023-05-21T03:45:29.1703077+02:00",
+    "LastChanged": "2010-03-29T03:47:00.7380451+02:00",
     "ChildItems": [
       {
-        "Id": 752,
-        "Name": "Bartell, Ernser and Dibbert",
-        "ToolTip": "Et nostrum laudantium odio odio consequuntur.",
+        "Id": 520,
+        "Name": "DuBuque LLC",
+        "ToolTip": "Maxime laudantium.",
         "Deleted": false,
-        "Rank": 508,
-        "Type": "a",
-        "ColorBlock": 155,
-        "IconHint": "similique",
+        "Rank": 638,
+        "Type": "et",
+        "ColorBlock": 866,
+        "IconHint": "dolore",
         "Selected": false,
-        "LastChanged": "2023-10-28T03:45:29.1703077+02:00",
+        "LastChanged": "2019-12-05T03:47:00.7380451+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "corrupti",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "minima",
         "Hidden": false,
-        "FullName": "Stevie Kertzmann",
+        "FullName": "Stuart Hirthe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 210
+            "FieldLength": 710
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "quia",
-    "Hidden": false,
-    "FullName": "Madaline Windler",
+    "ExtraInfo": "ex",
+    "StyleHint": "cupiditate",
+    "Hidden": true,
+    "FullName": "Mrs. Matilde Rosalee Zboncak III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 737
+        "FieldLength": 409
       }
     }
   }

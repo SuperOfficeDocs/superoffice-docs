@@ -2,10 +2,10 @@
 uid: enum-freebusy
 title: Enum values for FreeBusy
 description: Lists the enum values for FreeBusy.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # FreeBusy Enum

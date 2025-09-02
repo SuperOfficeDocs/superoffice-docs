@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/CreateDefaultAppointmentEntity
 uid: v1AppointmentAgent_CreateDefaultAppointmentEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/CreateDefaultAppointmentEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 ```
 
-Set default values into a new AppointmentEntity.
+Loading default values into a new AppointmentEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -116,7 +115,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -130,121 +129,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1999-09-26T03:45:22.7329771+02:00",
-  "AppointmentId": 261,
-  "Description": "Right-sized bottom-line internet solution",
-  "Title": "rerum",
-  "Agenda": "impedit",
-  "InternalNotes": "vel",
-  "StartDate": "2010-01-23T03:45:22.7329771+01:00",
-  "EndDate": "2001-01-19T03:45:22.7329771+01:00",
+  "CreatedDate": "2013-08-01T03:46:54.0351587+02:00",
+  "AppointmentId": 83,
+  "Description": "Inverse transitional model",
+  "Title": "nostrum",
+  "Agenda": "et",
+  "InternalNotes": "delectus",
+  "StartDate": "2019-05-08T03:46:54.0351587+02:00",
+  "EndDate": "2011-12-24T03:46:54.0351587+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 781,
+  "MotherId": 500,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1999-08-07T03:45:22.7329771+02:00",
+  "UpdatedDate": "2012-06-18T03:46:54.0351587+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 743,
+  "ActiveLinks": 686,
   "Links": [
     {
-      "EntityName": "Terry, Wisozk and Wisoky",
-      "Id": 706,
-      "Description": "Configurable multi-tasking throughput",
-      "ExtraInfo": "deleniti",
-      "LinkId": 798,
+      "EntityName": "Baumbach, Brakus and Kuphal",
+      "Id": 50,
+      "Description": "Diverse real-time application",
+      "ExtraInfo": "minus",
+      "LinkId": 764,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 629
+          "FieldType": "System.String",
+          "FieldLength": 896
         }
       }
     }
   ],
-  "AlarmLeadTime": "id",
-  "HasAlarm": true,
-  "ColorIndex": 871,
+  "AlarmLeadTime": "quas",
+  "HasAlarm": false,
+  "ColorIndex": 282,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "quo",
+  "IsAlldayEvent": false,
+  "LagTime": "possimus",
   "LeadTime": "qui",
-  "Location": "nam",
-  "RejectCounter": 64,
+  "Location": "adipisci",
+  "RejectCounter": 118,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 166,
-      "PersonId": 293,
-      "ContactId": 159,
-      "EmailId": 602,
-      "SendEmail": true,
+      "AssociateId": 91,
+      "PersonId": 615,
+      "ContactId": 391,
+      "EmailId": 318,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "winston@quitzongoodwin.biz",
-      "Description": "Cross-platform maximized circuit"
+      "EmailAddress": "rahul_nicolas@zieme.name",
+      "Description": "Configurable holistic product"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2018-03-30T03:45:22.7329771+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2010-04-05T03:46:54.0351587+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 599,
+  "PreferredTZLocation": 359,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 227,
+  "SuggestedAppointmentId": 652,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "libero",
+  "CentralserviceVideomeetId": "voluptates",
   "UserDefinedFields": {
-    "SuperOffice:1": "1734157741",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "301244631",
+    "SuperOffice:2": "1955108899"
   },
   "ExtraFields": {
-    "ExtraFields1": "fugit",
-    "ExtraFields2": "architecto"
+    "ExtraFields1": "recusandae",
+    "ExtraFields2": "ab"
   },
   "CustomFields": {
-    "CustomFields1": "saepe",
-    "CustomFields2": "et"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "culpa"
   },
-  "PublishEventDate": "2004-02-04T03:45:22.7329771+01:00",
-  "PublishTo": "2009-05-23T03:45:22.7329771+02:00",
-  "PublishFrom": "2007-07-15T03:45:22.7329771+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2018-10-08T03:46:54.050783+02:00",
+  "PublishTo": "2021-12-31T03:46:54.050783+01:00",
+  "PublishFrom": "2015-09-25T03:46:54.050783+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 32,
+      "VisibleId": 1001,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 432
+          "FieldLength": 972
         }
       }
     },
     {
-      "VisibleId": 32,
+      "VisibleId": 1001,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 432
+          "FieldLength": 972
         }
       }
     }
@@ -254,7 +253,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldLength": 118
     }
   }
 }

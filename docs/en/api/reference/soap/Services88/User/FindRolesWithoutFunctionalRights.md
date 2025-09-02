@@ -2,6 +2,7 @@
 title: Services88.UserAgent.FindRolesWithoutFunctionalRights SOAP
 generated: true
 uid: Services88-User-FindRolesWithoutFunctionalRights
+content_type: reference
 ---
 
 # Services88 User FindRolesWithoutFunctionalRights

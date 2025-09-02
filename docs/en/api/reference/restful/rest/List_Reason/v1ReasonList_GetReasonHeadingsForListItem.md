@@ -2,6 +2,7 @@
 title: GET List/Reason/Items/{id}/Headings
 uid: v1ReasonList_GetReasonHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Reason/Items/{id}/Headings
@@ -85,7 +86,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 707,
-    "Name": "Lynch-Dach",
-    "ToolTip": "Aut fugiat molestiae consequatur.",
-    "Deleted": true,
-    "Rank": 604,
-    "Type": "consequuntur",
-    "ColorBlock": 646,
-    "IconHint": "quae",
+    "Id": 558,
+    "Name": "O'Reilly LLC",
+    "ToolTip": "Aliquam veritatis qui modi.",
+    "Deleted": false,
+    "Rank": 488,
+    "Type": "velit",
+    "ColorBlock": 877,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2012-04-05T03:45:29.2015441+02:00",
+    "LastChanged": "2012-08-14T03:47:00.7849183+02:00",
     "ChildItems": [
       {
-        "Id": 425,
-        "Name": "Nader Inc and Sons",
-        "ToolTip": "Voluptas voluptatem sed rerum consequatur adipisci mollitia.",
-        "Deleted": true,
-        "Rank": 746,
-        "Type": "esse",
-        "ColorBlock": 502,
-        "IconHint": "sint",
-        "Selected": false,
-        "LastChanged": "2009-01-06T03:45:29.2015441+01:00",
+        "Id": 939,
+        "Name": "Cronin LLC",
+        "ToolTip": "Voluptatem laboriosam fugiat voluptatibus delectus quo blanditiis fugit.",
+        "Deleted": false,
+        "Rank": 6,
+        "Type": "eos",
+        "ColorBlock": 961,
+        "IconHint": "optio",
+        "Selected": true,
+        "LastChanged": "2008-06-11T03:47:00.7849183+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "corrupti",
+        "ExtraInfo": "delectus",
+        "StyleHint": "sunt",
         "Hidden": false,
-        "FullName": "Ivy Schmitt",
+        "FullName": "Abelardo Cassin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 814
+            "FieldLength": 356
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "reiciendis",
+    "ExtraInfo": "delectus",
+    "StyleHint": "unde",
     "Hidden": true,
-    "FullName": "Miss Vada Bergstrom DDS",
+    "FullName": "Orlando Leuschke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 264
+        "FieldType": "System.String",
+        "FieldLength": 355
       }
     }
   }

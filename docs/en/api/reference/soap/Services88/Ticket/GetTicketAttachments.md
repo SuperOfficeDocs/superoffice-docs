@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.GetTicketAttachments SOAP
 generated: true
 uid: Services88-Ticket-GetTicketAttachments
+content_type: reference
 ---
 
 # Services88 Ticket GetTicketAttachments

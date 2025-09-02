@@ -2,6 +2,7 @@
 title: Services88.SaleAgent.GetProbabilityFromStage SOAP
 generated: true
 uid: Services88-Sale-GetProbabilityFromStage
+content_type: reference
 ---
 
 # Services88 Sale GetProbabilityFromStage

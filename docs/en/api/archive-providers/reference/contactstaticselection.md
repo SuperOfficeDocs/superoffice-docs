@@ -3,9 +3,9 @@ uid: ContactStaticSelection
 title: ContactStaticSelection
 description: 
 keywords: ContactStaticSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ContactStaticSelection"
@@ -1002,6 +1002,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/ownedBy/personEmail| *None* |Owner - E-mail|  |
 |request/ownedBy/locationAddress| *None* |Owner - Location: Location|  |
 |request/ownedBy/isLocation| *None* |Owner - Is a location: Is a location|  |
+|request/ticketStatus/ticketStatusId| *None* |Status - ID: Displays request status ID|  |
+|request/ticketStatus/name| *None* |Status - Name: Displays the name of the request status|  |
+|request/ticketStatus/rank| *None* |Status - Status rank: Sort order of the status in the ticket status list|  |
+|request/ticketPriority/ticketPriorityId| *None* |Priority - ID: Displays the ID of the priority|  |
+|request/ticketPriority/name| *None* |Priority - Name: Displays the name of the priority|  |
+|request/ticketPriority/rank| *None* |Priority - Priority rank: Sort order of priority in the priority list|  |
 |request/extra/x\_ticket\_integer| *None* |Extra integer: Custom ticket integer. Default 123. External. Show in properties|  |
 |request/extra/x\_ticket\_float| *None* |Extra float: Custom float on Request. 2 decimal places|  |
 |request/extra/x\_ticket\_longtext| *None* |Extra long text: Custom long text on Request. Keep HTML tags. 9 line text area. Show in props|  |
@@ -1050,16 +1056,16 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/projectEvent/eventDate| *None* |Event date: Event date|  |
 |projectMembers/projectEvent/hasSignOn| *None* |Sign On: Does this event have the Sign On function enabled|  |
 |projectMembers/projectEvent/hasSignOff| *None* |Sign Off: Does this event have the Sign Off function enabled|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMembers/projectUrl/URLAddress| *None* |URL|  |
 |projectMembers/projectUrl/URLDescription| *None* |Description|  |
 |projectMembers/projectAssociate/firstName| *None* |First name: Displays the contact's first name|  |
 |projectMembers/projectAssociate/lastName| *None* |Last name: Displays the contact's last name|  |
 |projectMembers/projectAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.|  |
 |projectMembers/projectAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMembers/projectAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 |projectMembers/projectAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
 |projectMembers/projectAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms|  |
@@ -1154,16 +1160,16 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/location| *None* |Location: Display the location where the follow-up will take place.|  |
 |personAppointment/recurrenceRuleId| *None* |RR-ID: Repetition rule ID of follow-up|  |
 |personAppointment/rawType| *None* |Type: Type field for appointment, not decoded or formatted|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAppointment/rawStatus| *None* |Status: Status field for the follow-up, not decoded or formatted|  |
 |personAppointment/cautionWarning| *None* |Warning: Warning for invitations with potential problems: not properly synchronized with an external calendar, unsupported repetition pattern, e-mail notification failed, or other problems.|  |
 |personAppointment/visibleInDiary| *None* |ExcludeBook: Is the activity visible in the diary?|  |
 |personAppointment/endTime| *None* |End time: End time of an activity|  |
 |personAppointment/suggestedAppointmentId| *None* |Follow-up ID (suggestion: The database ID of a follow-up that originates in a suggestion|  |
 |personAppointment/completedDate| *None* |Completed date: Displays the actual date a follow-up/sale was marked as completed|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personAppointment/isMilestone| *None* |Milestone: Shows whether or not the follow-ups in this row are milestones|  |
 |personAppointment/invitedPersonId| *None* |ID of invited person: appointment.invitedpersonid record - utility for rd|  |
 |personAppointment/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)|  |
@@ -1229,7 +1235,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactStaticSelection?$select=email/emailDescription,contactUdef/SuperOffice:1,sale/updatedByFullName,sale/heading,appointment/duration
+GET /api/v1/archive/ContactStaticSelection?$select=contactUdef/SuperOffice:1,contactExtra/x_contact_integer,sale/currency,sale/earning,appointment/time
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

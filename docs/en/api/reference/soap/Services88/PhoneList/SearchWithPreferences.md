@@ -2,6 +2,7 @@
 title: Services88.PhoneListAgent.SearchWithPreferences SOAP
 generated: true
 uid: Services88-PhoneList-SearchWithPreferences
+content_type: reference
 ---
 
 # Services88 PhoneList SearchWithPreferences

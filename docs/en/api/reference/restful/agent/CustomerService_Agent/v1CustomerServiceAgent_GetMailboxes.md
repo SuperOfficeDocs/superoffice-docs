@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/GetMailboxes
 uid: v1CustomerServiceAgent_GetMailboxes
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/GetMailboxes
@@ -68,7 +69,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetMailboxes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,30 +80,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "MailInFilterId": 225,
-    "Address": "mollitia",
+    "MailInFilterId": 509,
+    "Address": "est",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Schuster-O'Keefe",
+    "PriorityName": "Graham LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 71
+        "FieldType": "System.String",
+        "FieldLength": 615
       }
     }
   },
   {
-    "MailInFilterId": 225,
-    "Address": "mollitia",
+    "MailInFilterId": 509,
+    "Address": "est",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Schuster-O'Keefe",
+    "PriorityName": "Graham LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 71
+        "FieldType": "System.String",
+        "FieldLength": 615
       }
     }
   }

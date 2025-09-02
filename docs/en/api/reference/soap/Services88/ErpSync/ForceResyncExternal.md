@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.ForceResyncExternal SOAP
 generated: true
 uid: Services88-ErpSync-ForceResyncExternal
+content_type: reference
 ---
 
 # Services88 ErpSync ForceResyncExternal

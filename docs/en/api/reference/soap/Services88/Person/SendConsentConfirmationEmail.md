@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.SendConsentConfirmationEmail SOAP
 generated: true
 uid: Services88-Person-SendConsentConfirmationEmail
+content_type: reference
 ---
 
 # Services88 Person SendConsentConfirmationEmail

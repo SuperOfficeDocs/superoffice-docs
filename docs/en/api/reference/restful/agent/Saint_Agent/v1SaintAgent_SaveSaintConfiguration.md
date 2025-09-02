@@ -2,6 +2,7 @@
 title: POST Agents/Saint/SaveSaintConfiguration
 uid: v1SaintAgent_SaveSaintConfiguration
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Saint/SaveSaintConfiguration
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Saint/SaveSaintConfiguration
 ```
 
-Updates the existing SaintConfiguration or creates a new SaintConfiguration if the id parameter is empty
+Updates the existing SaintConfiguration or creates a new SaintConfiguration if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing SaintConfiguration or creates a new SaintConfiguration if t
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: saintConfiguration 
 
-The SaintConfiguration to be saved. 
+The SaintConfiguration that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,18 +78,18 @@ OK
 POST /api/v1/Agents/Saint/SaveSaintConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 882,
+  "OwnerTable": 101,
   "Enabled": false,
-  "Period1": 94,
-  "Period2": 849,
-  "Period3": 533,
-  "GenerationStart": "2002-05-14T03:45:23.8423206+02:00",
-  "GenerationEnd": "2011-03-29T03:45:23.8423206+02:00",
-  "RowsGenerated": 250
+  "Period1": 5,
+  "Period2": 501,
+  "Period3": 117,
+  "GenerationStart": "2005-05-16T03:46:55.2382402+02:00",
+  "GenerationEnd": "2009-01-30T03:46:55.2382402+01:00",
+  "RowsGenerated": 857
 }
 ```
 
@@ -99,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 823,
+  "OwnerTable": 536,
   "Enabled": false,
-  "Period1": 988,
-  "Period2": 434,
-  "Period3": 228,
-  "GenerationStart": "2014-05-28T03:45:23.8423206+02:00",
-  "GenerationEnd": "2002-06-05T03:45:23.8423206+02:00",
-  "RowsGenerated": 33,
+  "Period1": 470,
+  "Period2": 773,
+  "Period3": 507,
+  "GenerationStart": "2017-02-28T03:46:55.2382402+01:00",
+  "GenerationEnd": "2009-07-08T03:46:55.2382402+02:00",
+  "RowsGenerated": 899,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 975
+      "FieldLength": 898
     }
   }
 }

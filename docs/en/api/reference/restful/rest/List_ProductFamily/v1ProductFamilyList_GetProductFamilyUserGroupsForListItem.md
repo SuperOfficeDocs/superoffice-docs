@@ -2,6 +2,7 @@
 title: GET List/ProductFamily/Items/{id}/UserGroups
 uid: v1ProductFamilyList_GetProductFamilyUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/ProductFamily/Items/{id}/UserGroups
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 272,
-    "Name": "Rodriguez, Walter and Kiehn",
-    "ToolTip": "Unde illum est vel quam necessitatibus.",
+    "Id": 58,
+    "Name": "Upton Group",
+    "ToolTip": "Sed fuga iure corporis.",
     "Deleted": false,
-    "Rank": 193,
-    "Type": "praesentium",
-    "ColorBlock": 723,
-    "IconHint": "aliquam",
-    "Selected": false,
-    "LastChanged": "2006-08-03T03:45:29.1549343+02:00",
+    "Rank": 925,
+    "Type": "delectus",
+    "ColorBlock": 18,
+    "IconHint": "quidem",
+    "Selected": true,
+    "LastChanged": "2001-12-25T03:47:00.7224209+01:00",
     "ChildItems": [
       {
-        "Id": 237,
-        "Name": "Larson, Legros and Bayer",
-        "ToolTip": "Fuga non voluptas.",
-        "Deleted": true,
-        "Rank": 279,
-        "Type": "similique",
-        "ColorBlock": 311,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2002-05-23T03:45:29.1549343+02:00",
+        "Id": 548,
+        "Name": "Yundt-Runolfsson",
+        "ToolTip": "Suscipit temporibus accusantium est ut.",
+        "Deleted": false,
+        "Rank": 818,
+        "Type": "a",
+        "ColorBlock": 283,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "2016-07-31T03:47:00.7224209+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "laboriosam",
-        "Hidden": false,
-        "FullName": "Rosendo Hintz",
+        "ExtraInfo": "quod",
+        "StyleHint": "similique",
+        "Hidden": true,
+        "FullName": "Golda Pouros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 12
+            "FieldType": "System.Int32",
+            "FieldLength": 19
           }
         }
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "reiciendis",
-    "Hidden": true,
-    "FullName": "Prof. Haylie Nora Dietrich I",
+    "ExtraInfo": "ea",
+    "StyleHint": "autem",
+    "Hidden": false,
+    "FullName": "Ernestine Hilpert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 717
+        "FieldType": "System.Int32",
+        "FieldLength": 108
       }
     }
   }

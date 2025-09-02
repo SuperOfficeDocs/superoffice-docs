@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveConsentPurpose
 uid: v1ListAgent_SaveConsentPurpose
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveConsentPurpose
@@ -85,7 +86,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,25 +101,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 375,
-  "Name": "Terry LLC",
-  "ConsentText": "quisquam",
-  "FormText": "alias",
-  "Key": "rerum",
-  "Tooltip": "consequatur",
-  "Active": 496,
-  "UpdatedDate": "2021-05-13T03:45:23.6235756+02:00",
+  "ConsentPurposeId": 42,
+  "Name": "Bogan Inc and Sons",
+  "ConsentText": "sit",
+  "FormText": "consequatur",
+  "Key": "omnis",
+  "Tooltip": "ut",
+  "Active": 64,
+  "UpdatedDate": "2014-09-16T03:46:54.9882491+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 411,
-  "PrivacyStatementDesc": "labore",
+  "Rank": 642,
+  "PrivacyStatementDesc": "enim",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldType": "System.String",
+      "FieldLength": 153
     }
   }
 }

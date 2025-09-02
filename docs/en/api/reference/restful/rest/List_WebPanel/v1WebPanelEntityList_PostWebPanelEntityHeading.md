@@ -2,6 +2,7 @@
 title: POST List/WebPanel/Headings
 uid: v1WebPanelEntityList_PostWebPanelEntityHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/WebPanel/Headings
@@ -79,12 +80,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 127,
-  "Name": "Keeling Group",
-  "Tooltip": "unde",
+  "HeadingId": 674,
+  "Name": "Wiza, Harris and Roob",
+  "Tooltip": "dolorum",
   "Deleted": false,
-  "Rank": 380,
-  "UdListDefinitionId": 461
+  "Rank": 243,
+  "UdListDefinitionId": 491
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 810,
-  "Name": "Stroman LLC",
-  "Tooltip": "vel",
+  "HeadingId": 633,
+  "Name": "DuBuque, Barton and Ruecker",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 560,
-  "UdListDefinitionId": 308,
+  "Rank": 335,
+  "UdListDefinitionId": 621,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 434
+      "FieldLength": 426
     }
   }
 }

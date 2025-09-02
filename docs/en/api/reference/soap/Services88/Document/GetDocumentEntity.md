@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.GetDocumentEntity SOAP
 generated: true
 uid: Services88-Document-GetDocumentEntity
+content_type: reference
 ---
 
 # Services88 Document GetDocumentEntity
@@ -77,6 +78,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Document:Deleted xsi:type="xsd:boolean">false</Document:Deleted>
      <Document:EjUserId xsi:type="xsd:int">0</Document:EjUserId>
      <Document:UserName xsi:type="xsd:string"></Document:UserName>
+     <Document:ExtraFields xsi:type="Document:StringDictionary">
+      <Document:StringKeyValuePair>
+       <Document:Key xsi:type="xsd:string"></Document:Key>
+       <Document:Value xsi:type="xsd:string"></Document:Value>
+      </Document:StringKeyValuePair>
+     </Document:ExtraFields>
+     <Document:CustomFields xsi:type="Document:StringDictionary">
+      <Document:StringKeyValuePair>
+       <Document:Key xsi:type="xsd:string"></Document:Key>
+       <Document:Value xsi:type="xsd:string"></Document:Value>
+      </Document:StringKeyValuePair>
+     </Document:CustomFields>
     </Document:UpdatedBy>
     <Document:CreatedBy xsi:type="Document:Associate">
      <Document:AssociateId xsi:type="xsd:int">0</Document:AssociateId>
@@ -91,14 +104,26 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Document:Deleted xsi:type="xsd:boolean">false</Document:Deleted>
      <Document:EjUserId xsi:type="xsd:int">0</Document:EjUserId>
      <Document:UserName xsi:type="xsd:string"></Document:UserName>
+     <Document:ExtraFields xsi:type="Document:StringDictionary">
+      <Document:StringKeyValuePair>
+       <Document:Key xsi:type="xsd:string"></Document:Key>
+       <Document:Value xsi:type="xsd:string"></Document:Value>
+      </Document:StringKeyValuePair>
+     </Document:ExtraFields>
+     <Document:CustomFields xsi:type="Document:StringDictionary">
+      <Document:StringKeyValuePair>
+       <Document:Key xsi:type="xsd:string"></Document:Key>
+       <Document:Value xsi:type="xsd:string"></Document:Value>
+      </Document:StringKeyValuePair>
+     </Document:CustomFields>
     </Document:CreatedBy>
     <Document:Attention xsi:type="xsd:string"></Document:Attention>
     <Document:Header xsi:type="xsd:string"></Document:Header>
     <Document:Name xsi:type="xsd:string"></Document:Name>
     <Document:OurRef xsi:type="xsd:string"></Document:OurRef>
     <Document:YourRef xsi:type="xsd:string"></Document:YourRef>
-    <Document:CreatedDate xsi:type="xsd:dateTime">2025-06-26T01:43:38Z</Document:CreatedDate>
-    <Document:UpdatedDate xsi:type="xsd:dateTime">2025-06-26T01:43:38Z</Document:UpdatedDate>
+    <Document:CreatedDate xsi:type="xsd:dateTime">2025-08-30T01:45:11Z</Document:CreatedDate>
+    <Document:UpdatedDate xsi:type="xsd:dateTime">2025-08-30T01:45:11Z</Document:UpdatedDate>
     <Document:Description xsi:type="xsd:string"></Document:Description>
     <Document:DocumentTemplate xsi:type="Document:DocumentTemplate">
      <Document:DocumentTemplateId xsi:type="xsd:int">0</Document:DocumentTemplateId>
@@ -169,6 +194,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Document:Deleted xsi:type="xsd:boolean">false</Document:Deleted>
      <Document:EjUserId xsi:type="xsd:int">0</Document:EjUserId>
      <Document:UserName xsi:type="xsd:string"></Document:UserName>
+     <Document:ExtraFields xsi:type="Document:StringDictionary">
+      <Document:StringKeyValuePair>
+       <Document:Key xsi:type="xsd:string"></Document:Key>
+       <Document:Value xsi:type="xsd:string"></Document:Value>
+      </Document:StringKeyValuePair>
+     </Document:ExtraFields>
+     <Document:CustomFields xsi:type="Document:StringDictionary">
+      <Document:StringKeyValuePair>
+       <Document:Key xsi:type="xsd:string"></Document:Key>
+       <Document:Value xsi:type="xsd:string"></Document:Value>
+      </Document:StringKeyValuePair>
+     </Document:CustomFields>
     </Document:Associate>
     <Document:Contact xsi:type="Document:Contact">
      <Document:ContactId xsi:type="xsd:int">0</Document:ContactId>
@@ -243,18 +280,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Document:AssociateId xsi:type="xsd:int">0</Document:AssociateId>
      <Document:AssociateFullName xsi:type="xsd:string"></Document:AssociateFullName>
      <Document:TypeId xsi:type="xsd:int">0</Document:TypeId>
-     <Document:Updated xsi:type="xsd:dateTime">2025-06-26T01:43:38Z</Document:Updated>
+     <Document:Updated xsi:type="xsd:dateTime">2025-08-30T01:45:11Z</Document:Updated>
      <Document:StatusId xsi:type="xsd:int">0</Document:StatusId>
      <Document:Status xsi:type="xsd:string"></Document:Status>
      <Document:TextId xsi:type="xsd:int">0</Document:TextId>
-     <Document:PublishTo xsi:type="xsd:dateTime">2025-06-26T01:43:38Z</Document:PublishTo>
-     <Document:PublishFrom xsi:type="xsd:dateTime">2025-06-26T01:43:38Z</Document:PublishFrom>
+     <Document:PublishTo xsi:type="xsd:dateTime">2025-08-30T01:45:11Z</Document:PublishTo>
+     <Document:PublishFrom xsi:type="xsd:dateTime">2025-08-30T01:45:11Z</Document:PublishFrom>
      <Document:IsPublished xsi:type="xsd:boolean">false</Document:IsPublished>
      <Document:URLName xsi:type="xsd:string"></Document:URLName>
      <Document:ProjectNumber xsi:type="xsd:string"></Document:ProjectNumber>
      <Document:ActiveErpLinks xsi:type="xsd:int">0</Document:ActiveErpLinks>
     </Document:Project>
-    <Document:Date xsi:type="xsd:dateTime">2025-06-26T01:43:38Z</Document:Date>
+    <Document:Date xsi:type="xsd:dateTime">2025-08-30T01:45:11Z</Document:Date>
     <Document:ExternalRef xsi:type="xsd:string"></Document:ExternalRef>
     <Document:Completed xsi:type="Document:ActivityStatus">Unknown</Document:Completed>
     <Document:ActiveLinks xsi:type="xsd:int">0</Document:ActiveLinks>
@@ -271,7 +308,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Document:LockSemantics xsi:type="Document:DocumentLockSemantics">None</Document:LockSemantics>
     <Document:Sale xsi:type="Document:Sale">
      <Document:ContactName xsi:type="xsd:string"></Document:ContactName>
-     <Document:SaleDate xsi:type="xsd:dateTime">2025-06-26T01:43:38Z</Document:SaleDate>
+     <Document:SaleDate xsi:type="xsd:dateTime">2025-08-30T01:45:11Z</Document:SaleDate>
      <Document:SaleId xsi:type="xsd:int">0</Document:SaleId>
      <Document:Probability xsi:type="xsd:short">0</Document:Probability>
      <Document:Title xsi:type="xsd:string"></Document:Title>
@@ -293,7 +330,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Document:PersonFullName xsi:type="xsd:string"></Document:PersonFullName>
      <Document:Completed xsi:type="Document:ActivityStatus">Unknown</Document:Completed>
      <Document:ActiveErpLinks xsi:type="xsd:int">0</Document:ActiveErpLinks>
-     <Document:NextDueDate xsi:type="xsd:dateTime">2025-06-26T01:43:38Z</Document:NextDueDate>
+     <Document:NextDueDate xsi:type="xsd:dateTime">2025-08-30T01:45:11Z</Document:NextDueDate>
      <Document:Number xsi:type="xsd:string"></Document:Number>
     </Document:Sale>
     <Document:SuggestedDocumentId xsi:type="xsd:int">0</Document:SuggestedDocumentId>
@@ -316,9 +353,9 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Document:Value xsi:type="xsd:string"></Document:Value>
      </Document:StringKeyValuePair>
     </Document:CustomFields>
-    <Document:PublishEventDate xsi:type="xsd:dateTime">2025-06-26T01:43:38Z</Document:PublishEventDate>
-    <Document:PublishTo xsi:type="xsd:dateTime">2025-06-26T01:43:38Z</Document:PublishTo>
-    <Document:PublishFrom xsi:type="xsd:dateTime">2025-06-26T01:43:38Z</Document:PublishFrom>
+    <Document:PublishEventDate xsi:type="xsd:dateTime">2025-08-30T01:45:11Z</Document:PublishEventDate>
+    <Document:PublishTo xsi:type="xsd:dateTime">2025-08-30T01:45:11Z</Document:PublishTo>
+    <Document:PublishFrom xsi:type="xsd:dateTime">2025-08-30T01:45:11Z</Document:PublishFrom>
     <Document:IsPublished xsi:type="xsd:boolean">false</Document:IsPublished>
     <Document:VisibleFor xsi:type="Document:ArrayOfVisibleFor">
      <Document:VisibleFor xsi:type="Document:VisibleFor">

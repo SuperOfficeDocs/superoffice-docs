@@ -2,6 +2,7 @@
 title: POST List/Competitor/Headings
 uid: v1CompetitorList_PostCompetitorHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/Competitor/Headings
@@ -79,12 +80,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 233,
-  "Name": "Kirlin Inc and Sons",
-  "Tooltip": "vel",
+  "HeadingId": 334,
+  "Name": "Kling-Lubowitz",
+  "Tooltip": "aperiam",
   "Deleted": false,
-  "Rank": 782,
-  "UdListDefinitionId": 909
+  "Rank": 278,
+  "UdListDefinitionId": 14
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 728,
-  "Name": "Mertz-Pfannerstill",
-  "Tooltip": "autem",
+  "HeadingId": 10,
+  "Name": "Bosco, Williamson and Lakin",
+  "Tooltip": "quas",
   "Deleted": false,
-  "Rank": 14,
-  "UdListDefinitionId": 163,
+  "Rank": 139,
+  "UdListDefinitionId": 879,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 230
+      "FieldLength": 72
     }
   }
 }

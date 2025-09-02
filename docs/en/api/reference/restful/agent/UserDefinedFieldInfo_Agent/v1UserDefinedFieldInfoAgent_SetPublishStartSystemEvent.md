@@ -2,6 +2,7 @@
 title: POST Agents/UserDefinedFieldInfo/SetPublishStartSystemEvent
 uid: v1UserDefinedFieldInfoAgent_SetPublishStartSystemEvent
 generated: true
+content_type: reference
 ---
 
 # POST Agents/UserDefinedFieldInfo/SetPublishStartSystemEvent

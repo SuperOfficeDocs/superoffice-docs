@@ -2,6 +2,7 @@
 title: GET BatchTask
 uid: v1Batch_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET BatchTask
@@ -70,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/BatchTask?$select=name,department,category/id
 GET /api/v1/BatchTask?$filter=name begins 'S'
 GET /api/v1/BatchTask?$orderBy=name asc
-GET /api/v1/BatchTask?$entities=eligendi
-GET /api/v1/BatchTask?$top=415
-GET /api/v1/BatchTask?$skip=426
+GET /api/v1/BatchTask?$entities=tempore
+GET /api/v1/BatchTask?$top=180
+GET /api/v1/BatchTask?$skip=719
 GET /api/v1/BatchTask?$mode=Full
 GET /api/v1/BatchTask?$options=GrandTotal=true
-GET /api/v1/BatchTask?$context=aperiam
+GET /api/v1/BatchTask?$context=quia
 GET /api/v1/BatchTask?$format=JSON
 GET /api/v1/BatchTask?$jsonSafe=False
 GET /api/v1/BatchTask?$output=Display
@@ -118,7 +119,7 @@ OK
 GET /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,19 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "culpa",
+  "odata.nextLink": "quia",
   "value": [
     {
-      "PrimaryKey": 8533,
-      "EntityName": "person",
-      "personId": 8533,
-      "fullName": "Dr. Lilla Doug McLaughlin PhD"
+      "PrimaryKey": 3228,
+      "EntityName": "sale",
+      "saleId": 3228,
+      "contactId": 7459,
+      "name": "Hudson, Willms and Kerluke"
     },
     {
-      "PrimaryKey": 4694,
-      "EntityName": "person",
-      "personId": 4694,
-      "fullName": "Misty Gleason DVM"
+      "PrimaryKey": 3244,
+      "EntityName": "sale",
+      "saleId": 3244,
+      "contactId": 4665,
+      "name": "Heaney, Romaguera and Kulas"
     }
   ]
 }

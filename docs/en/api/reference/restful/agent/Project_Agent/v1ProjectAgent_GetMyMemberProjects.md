@@ -2,6 +2,7 @@
 title: POST Agents/Project/GetMyMemberProjects
 uid: v1ProjectAgent_GetMyMemberProjects
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/GetMyMemberProjects
@@ -93,30 +94,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 431,
-    "Name": "Walker Inc and Sons",
-    "Description": "Cross-platform mission-critical toolset",
+    "ProjectId": 826,
+    "Name": "Klein, Boyle and Rath",
+    "Description": "Multi-channelled dynamic hub",
     "URL": "http://www.example.com/",
-    "Type": "tempore",
-    "AssociateId": 748,
-    "AssociateFullName": "Lyda Hudson",
-    "TypeId": 677,
-    "Updated": "2025-05-19T03:45:23.7798203+02:00",
-    "StatusId": 456,
-    "Status": "dolor",
-    "TextId": 80,
-    "PublishTo": "2018-05-12T03:45:23.7798203+02:00",
-    "PublishFrom": "2019-02-10T03:45:23.7798203+01:00",
+    "Type": "sint",
+    "AssociateId": 528,
+    "AssociateFullName": "Keely Sawayn",
+    "TypeId": 726,
+    "Updated": "2020-06-23T03:46:55.1757421+02:00",
+    "StatusId": 962,
+    "Status": "et",
+    "TextId": 720,
+    "PublishTo": "2008-11-30T03:46:55.1757421+01:00",
+    "PublishFrom": "2006-05-11T03:46:55.1757421+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1392967",
-    "ActiveErpLinks": 415,
+    "ProjectNumber": "1067068",
+    "ActiveErpLinks": 347,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 308
+        "FieldLength": 799
       }
     }
   }

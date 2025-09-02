@@ -10,6 +10,7 @@ items:
   - SuperOffice.WebApi.Agents.IListAgent.AddHierarchyToPathAsync(SuperOffice.WebApi.Data.Domain,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IListAgent.ChangeCurrencyAsync(System.Double,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IListAgent.CreateDefaultAmountClassEntityAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IListAgent.CreateDefaultCategoryEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IListAgent.CreateDefaultCountryAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IListAgent.CreateDefaultCurrencyEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IListAgent.CreateDefaultDocumentTemplateEntityAsync(SuperOffice.WebApi.RequestOptions)
@@ -79,6 +80,7 @@ items:
   - SuperOffice.WebApi.Agents.IListAgent.GetBusinessesAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IListAgent.GetCategoriesAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IListAgent.GetCategoryAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IListAgent.GetCategoryEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IListAgent.GetCategoryListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IListAgent.GetCompetitorAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IListAgent.GetCompetitorListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -246,6 +248,7 @@ items:
   - SuperOffice.WebApi.Agents.IListAgent.SaveAllFromListDefinitionAsync(System.Int32,SuperOffice.WebApi.Data.ListItemEntity[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IListAgent.SaveAllFromListNameAsync(System.String,SuperOffice.WebApi.Data.ListItemEntity[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IListAgent.SaveAmountClassEntityAsync(SuperOffice.WebApi.Data.AmountClassEntity,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IListAgent.SaveCategoryEntityAsync(SuperOffice.WebApi.Data.CategoryEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IListAgent.SaveConsentPurposeAsync(SuperOffice.WebApi.Data.ConsentPurpose,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IListAgent.SaveConsentSourceAsync(SuperOffice.WebApi.Data.ConsentSource,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IListAgent.SaveCountryAsync(SuperOffice.WebApi.Data.Country,SuperOffice.WebApi.RequestOptions)
@@ -380,6 +383,66 @@ items:
       description: New or updated AmountClassEntity
     content.vb: Function SaveAmountClassEntityAsync(amountClassEntity As AmountClassEntity, requestOptions As RequestOptions = Nothing) As Task(Of AmountClassEntity)
   overload: SuperOffice.WebApi.Agents.IListAgent.SaveAmountClassEntityAsync*
+- uid: SuperOffice.WebApi.Agents.IListAgent.CreateDefaultCategoryEntityAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IListAgent.CreateDefaultCategoryEntityAsync(SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultCategoryEntityAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IListAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultCategoryEntityAsync(RequestOptions)
+  nameWithType: IListAgent.CreateDefaultCategoryEntityAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IListAgent.CreateDefaultCategoryEntityAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: >-
+    Set default values into a new CategoryEntity.
+
+    NetServer calculates default values on the entity, which is required when creating/storing a new instance
+  example: []
+  syntax:
+    content: Task<CategoryEntity> CreateDefaultCategoryEntityAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CategoryEntity}
+      description: A blank CategoryEntity
+    content.vb: Function CreateDefaultCategoryEntityAsync(requestOptions As RequestOptions = Nothing) As Task(Of CategoryEntity)
+  overload: SuperOffice.WebApi.Agents.IListAgent.CreateDefaultCategoryEntityAsync*
+- uid: SuperOffice.WebApi.Agents.IListAgent.SaveCategoryEntityAsync(SuperOffice.WebApi.Data.CategoryEntity,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IListAgent.SaveCategoryEntityAsync(SuperOffice.WebApi.Data.CategoryEntity,SuperOffice.WebApi.RequestOptions)
+  id: SaveCategoryEntityAsync(SuperOffice.WebApi.Data.CategoryEntity,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IListAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveCategoryEntityAsync(CategoryEntity, RequestOptions)
+  nameWithType: IListAgent.SaveCategoryEntityAsync(CategoryEntity, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IListAgent.SaveCategoryEntityAsync(SuperOffice.WebApi.Data.CategoryEntity, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Updates the existing CategoryEntity or creates a new CategoryEntity if the id parameter is 0.
+  example: []
+  syntax:
+    content: Task<CategoryEntity> SaveCategoryEntityAsync(CategoryEntity categoryEntity, RequestOptions requestOptions = null)
+    parameters:
+    - id: categoryEntity
+      type: SuperOffice.WebApi.Data.CategoryEntity
+      description: The CategoryEntity that is saved.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CategoryEntity}
+      description: New or updated CategoryEntity
+    content.vb: Function SaveCategoryEntityAsync(categoryEntity As CategoryEntity, requestOptions As RequestOptions = Nothing) As Task(Of CategoryEntity)
+  overload: SuperOffice.WebApi.Agents.IListAgent.SaveCategoryEntityAsync*
 - uid: SuperOffice.WebApi.Agents.IListAgent.CreateDefaultTaskMenuAsync(SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IListAgent.CreateDefaultTaskMenuAsync(SuperOffice.WebApi.RequestOptions)
   id: CreateDefaultTaskMenuAsync(SuperOffice.WebApi.RequestOptions)
@@ -1845,6 +1908,39 @@ items:
   nameWithType.vb: IListAgent.GetCategoryAsync(Integer, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.IListAgent.GetCategoryAsync(Integer, SuperOffice.WebApi.RequestOptions)
   name.vb: GetCategoryAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IListAgent.GetCategoryEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IListAgent.GetCategoryEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetCategoryEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IListAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCategoryEntityAsync(int, RequestOptions)
+  nameWithType: IListAgent.GetCategoryEntityAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IListAgent.GetCategoryEntityAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Gets a specific CategoryEntity object.
+  example: []
+  syntax:
+    content: Task<CategoryEntity> GetCategoryEntityAsync(int categoryEntityId, RequestOptions requestOptions = null)
+    parameters:
+    - id: categoryEntityId
+      type: System.Int32
+      description: The identifier of the CategoryEntity object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CategoryEntity}
+      description: CategoryEntity
+    content.vb: Function GetCategoryEntityAsync(categoryEntityId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of CategoryEntity)
+  overload: SuperOffice.WebApi.Agents.IListAgent.GetCategoryEntityAsync*
+  nameWithType.vb: IListAgent.GetCategoryEntityAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IListAgent.GetCategoryEntityAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetCategoryEntityAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.IListAgent.GetCategoryListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.IListAgent.GetCategoryListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: GetCategoryListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -10247,6 +10343,63 @@ references:
     name: Data
     isExternal: true
     href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Agents.IListAgent.CreateDefaultCategoryEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IListAgent.CreateDefaultCategoryEntityAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_CreateDefaultCategoryEntityAsync_SuperOffice_WebApi_RequestOptions_
+  name: CreateDefaultCategoryEntityAsync
+  nameWithType: IListAgent.CreateDefaultCategoryEntityAsync
+  fullName: SuperOffice.WebApi.Agents.IListAgent.CreateDefaultCategoryEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CategoryEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CategoryEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<CategoryEntity>
+  nameWithType: Task<CategoryEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.CategoryEntity>
+  nameWithType.vb: Task(Of CategoryEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.CategoryEntity)
+  name.vb: Task(Of CategoryEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.CategoryEntity
+    name: CategoryEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CategoryEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.CategoryEntity
+    name: CategoryEntity
+    isExternal: true
+    href: SuperOffice.WebApi.Data.CategoryEntity.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.IListAgent.SaveCategoryEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IListAgent.SaveCategoryEntityAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_SaveCategoryEntityAsync_SuperOffice_WebApi_Data_CategoryEntity_SuperOffice_WebApi_RequestOptions_
+  name: SaveCategoryEntityAsync
+  nameWithType: IListAgent.SaveCategoryEntityAsync
+  fullName: SuperOffice.WebApi.Agents.IListAgent.SaveCategoryEntityAsync
+- uid: SuperOffice.WebApi.Data.CategoryEntity
+  commentId: T:SuperOffice.WebApi.Data.CategoryEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CategoryEntity.html
+  name: CategoryEntity
+  nameWithType: CategoryEntity
+  fullName: SuperOffice.WebApi.Data.CategoryEntity
 - uid: SuperOffice.WebApi.Agents.IListAgent.CreateDefaultTaskMenuAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IListAgent.CreateDefaultTaskMenuAsync
   isExternal: true
@@ -11500,6 +11653,13 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.Data.Category.html
   - name: )
+- uid: SuperOffice.WebApi.Agents.IListAgent.GetCategoryEntityAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IListAgent.GetCategoryEntityAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IListAgent.html#SuperOffice_WebApi_Agents_IListAgent_GetCategoryEntityAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetCategoryEntityAsync
+  nameWithType: IListAgent.GetCategoryEntityAsync
+  fullName: SuperOffice.WebApi.Agents.IListAgent.GetCategoryEntityAsync
 - uid: SuperOffice.WebApi.Agents.IListAgent.GetCategoryListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.IListAgent.GetCategoryListAsync
   isExternal: true

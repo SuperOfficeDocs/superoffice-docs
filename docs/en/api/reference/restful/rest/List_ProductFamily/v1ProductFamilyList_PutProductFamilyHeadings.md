@@ -2,6 +2,7 @@
 title: PUT List/ProductFamily/Headings
 uid: v1ProductFamilyList_PutProductFamilyHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProductFamily/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 775,
-    "Name": "Wintheiser Group",
-    "Tooltip": "nisi",
-    "Deleted": true,
-    "Rank": 393,
-    "UdListDefinitionId": 686
+    "HeadingId": 128,
+    "Name": "Reichel-Hilpert",
+    "Tooltip": "minima",
+    "Deleted": false,
+    "Rank": 382,
+    "UdListDefinitionId": 316
   },
   {
-    "HeadingId": 775,
-    "Name": "Wintheiser Group",
-    "Tooltip": "nisi",
-    "Deleted": true,
-    "Rank": 393,
-    "UdListDefinitionId": 686
+    "HeadingId": 128,
+    "Name": "Reichel-Hilpert",
+    "Tooltip": "minima",
+    "Deleted": false,
+    "Rank": 382,
+    "UdListDefinitionId": 316
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 321,
-    "Name": "Pagac-Lakin",
-    "Tooltip": "consequatur",
+    "HeadingId": 710,
+    "Name": "Leffler-Gutkowski",
+    "Tooltip": "quia",
     "Deleted": false,
-    "Rank": 724,
-    "UdListDefinitionId": 605,
+    "Rank": 354,
+    "UdListDefinitionId": 195,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 343
+        "FieldLength": 701
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/Person/SaveConsentPerson
 uid: v1PersonAgent_SaveConsentPerson
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/SaveConsentPerson
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Person/SaveConsentPerson
 ```
 
-Updates the existing ConsentPerson or creates a new ConsentPerson if the id parameter is empty
+Updates the existing ConsentPerson or creates a new ConsentPerson if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing ConsentPerson or creates a new ConsentPerson if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: consentPerson 
 
-The ConsentPerson to be saved. 
+The ConsentPerson that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,16 +74,16 @@ OK
 POST /api/v1/Agents/Person/SaveConsentPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 499,
+  "ConsentPersonId": 630,
   "ConsentSource": null,
   "LegalBase": null,
-  "PersonId": 743,
+  "PersonId": 557,
   "ConsentPurpose": null,
-  "Comment": "et"
+  "Comment": "omnis"
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 846,
+  "ConsentPersonId": 692,
   "ConsentSource": null,
   "LegalBase": null,
-  "PersonId": 171,
+  "PersonId": 600,
   "ConsentPurpose": null,
-  "Comment": "rerum",
+  "Comment": "necessitatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 218
+      "FieldLength": 227
     }
   }
 }

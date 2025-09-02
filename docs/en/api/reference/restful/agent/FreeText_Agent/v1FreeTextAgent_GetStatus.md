@@ -2,6 +2,7 @@
 title: POST Agents/FreeText/GetStatus
 uid: v1FreeTextAgent_GetStatus
 generated: true
+content_type: reference
 ---
 
 # POST Agents/FreeText/GetStatus
@@ -84,16 +85,16 @@ Content-Type: application/json; charset=utf-8
   "FreeTextEnabled": false,
   "SingleWordOperator": "Contains",
   "MultiWordOperator": "Contains",
-  "CountWords": 134,
-  "Occurrences": 648,
-  "LastGenerated": "2009-07-11T03:45:23.498579+02:00",
+  "CountWords": 373,
+  "Occurrences": 909,
+  "LastGenerated": "2004-02-18T03:46:54.9107593+01:00",
   "AutoEnableTravelAreas": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 153
+      "FieldLength": 695
     }
   }
 }

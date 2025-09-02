@@ -2,6 +2,7 @@
 title: POST Agents/List/GetCurrencyEntity
 uid: v1ListAgent_GetCurrencyEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetCurrencyEntity
@@ -22,11 +23,11 @@ Gets a CurrencyEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| currencyEntityId | int32 | **Required** The primary key. |
+| currencyEntityId | int32 | **Required** The identifier of the CurrencyEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCurrencyEntity?currencyEntityId=774
+POST /api/v1/Agents/List/GetCurrencyEntity?currencyEntityId=50
 POST /api/v1/Agents/List/GetCurrencyEntity?$select=name,department,category/id
 ```
 
@@ -73,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,19 +84,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 417,
-  "Name": "Hirthe LLC",
-  "Tooltip": "voluptates",
-  "Rank": 145,
-  "Rate": 5512.706,
-  "Units": 16516.18,
+  "CurrencyId": 500,
+  "Name": "Wolff, Larson and Schuppe",
+  "Tooltip": "eum",
+  "Rank": 950,
+  "Rate": 19960.446,
+  "Units": 30136.543999999998,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 566
+      "FieldType": "System.Int32",
+      "FieldLength": 408
     }
   }
 }

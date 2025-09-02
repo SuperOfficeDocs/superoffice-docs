@@ -2,10 +2,10 @@
 uid: table-SaintConfiguration
 title: SaintConfiguration table
 description: Configuration information for the Saint system
-so.generated: true
+generated: true
 keywords: database table SaintConfiguration
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # SaintConfiguration Table (458)

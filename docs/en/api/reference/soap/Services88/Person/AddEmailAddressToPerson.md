@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.AddEmailAddressToPerson SOAP
 generated: true
 uid: Services88-Person-AddEmailAddressToPerson
+content_type: reference
 ---
 
 # Services88 Person AddEmailAddressToPerson

@@ -2,6 +2,7 @@
 title: GET Project/{id}/HasGuide
 uid: v1ProjectEntity_HasGuide
 generated: true
+content_type: reference
 ---
 
 # GET Project/{id}/HasGuide
@@ -54,7 +55,7 @@ OK
 GET /api/v1/Project/{projectId}/HasGuide
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

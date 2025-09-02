@@ -2,10 +2,10 @@
 uid: table-PriceUnit
 title: PriceUnit table
 description: The list of price units, in the internal product register (meter, ton, bushel, microsecond, gradus, τρυβλίον, 五合枡, دونم or whatever)
-so.generated: true
+generated: true
 keywords: database table PriceUnit
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # PriceUnit Table (439)

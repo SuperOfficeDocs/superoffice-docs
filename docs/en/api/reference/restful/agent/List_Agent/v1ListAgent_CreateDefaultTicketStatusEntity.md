@@ -2,6 +2,7 @@
 title: POST Agents/List/CreateDefaultTicketStatusEntity
 uid: v1ListAgent_CreateDefaultTicketStatusEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/CreateDefaultTicketStatusEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/List/CreateDefaultTicketStatusEntity
 ```
 
-Set default values into a new TicketStatusEntity.
+Loading default values into a new TicketStatusEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -63,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketStatusEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 414,
-  "Name": "Roob Group",
+  "TicketStatusId": 633,
+  "Name": "Luettgen, Rempel and Jacobi",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
-  "IsDefault": false,
-  "UsedInQueue": false,
+  "IsDefault": true,
+  "UsedInQueue": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 489
+      "FieldType": "System.Int32",
+      "FieldLength": 7
     }
   }
 }

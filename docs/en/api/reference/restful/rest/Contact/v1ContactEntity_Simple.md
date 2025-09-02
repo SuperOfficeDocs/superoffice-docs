@@ -2,6 +2,7 @@
 title: GET Contact/{id}/Simple
 uid: v1ContactEntity_Simple
 generated: true
+content_type: reference
 ---
 
 # GET Contact/{id}/Simple
@@ -85,7 +86,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,36 +96,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 57,
-  "Name": "Hagenes-Herman",
-  "OrgNr": "54749",
-  "Department": "extend rich supply-chains",
+  "ContactId": 901,
+  "Name": "Baumbach, Reichel and Stehr",
+  "OrgNr": "892189",
+  "Department": "",
   "URL": "http://www.example.com/",
-  "City": "debitis",
-  "DirectPhone": "028.034.3152",
-  "AssociateId": 310,
-  "CountryId": 975,
-  "EmailAddress": "eduardo.stroman@shanahan.name",
-  "Kananame": "aperiam",
-  "EmailAddressName": "rae_ziemann@raynor.biz",
+  "City": "fuga",
+  "DirectPhone": "793-572-5998",
+  "AssociateId": 187,
+  "CountryId": 92,
+  "EmailAddress": "niko.armstrong@nitzscheward.us",
+  "Kananame": "dicta",
+  "EmailAddressName": "zackery@littlekoepp.co.uk",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Royce Jacobs",
+  "AssociateFullName": "Robyn Botsford V",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "alias",
-  "FullName": "Brannon Glover",
-  "IsOwnerContact": true,
-  "ActiveErpLinks": 442,
-  "Number1": "301545",
-  "Number2": "524472",
+  "FormattedAddress": "maxime",
+  "FullName": "Miss Cale Lesch II",
+  "IsOwnerContact": false,
+  "ActiveErpLinks": 229,
+  "Number1": "1414863",
+  "Number2": "1163223",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 168
+      "FieldLength": 985
     }
   }
 }

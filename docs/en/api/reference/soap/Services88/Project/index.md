@@ -2,6 +2,7 @@
 title: Services88.ProjectAgent SOAP
 uid: Services88-Project-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Project SOAP
@@ -60,6 +61,7 @@ Download [WSDL file for Services88/Project](../Services88-Project.md) if you nee
 * [SaveProjectEventEntity](SaveProjectEventEntity.md)
 * [SaveProjectMember](SaveProjectMember.md)
 * [SaveProjectMembersFunctionAndComment](SaveProjectMembersFunctionAndComment.md)
+* [SetCompleted](SetCompleted.md)
 * [SetDuplicateRulesStatus](SetDuplicateRulesStatus.md)
 * [SetProjectImage](SetProjectImage.md)
 * [UpdateProjectMember](UpdateProjectMember.md)

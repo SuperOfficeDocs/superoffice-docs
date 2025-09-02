@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.SubstituteTemplateVariables SOAP
 generated: true
 uid: Services88-Document-SubstituteTemplateVariables
+content_type: reference
 ---
 
 # Services88 Document SubstituteTemplateVariables

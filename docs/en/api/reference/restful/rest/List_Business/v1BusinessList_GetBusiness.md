@@ -2,6 +2,7 @@
 title: GET List/Business/Items/{id}
 uid: v1BusinessList_GetBusiness
 generated: true
+content_type: reference
 ---
 
 # GET List/Business/Items/{id}
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 284,
-  "Name": "Williamson Group",
-  "Tooltip": "cumque",
+  "Id": 179,
+  "Name": "Russel Group",
+  "Tooltip": "consectetur",
   "Deleted": false,
-  "UdListDefinitionId": 263,
-  "Rank": 662,
+  "UdListDefinitionId": 838,
+  "Rank": 311,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldType": "System.String",
+      "FieldLength": 16
     }
   }
 }

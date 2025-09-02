@@ -2,6 +2,7 @@
 title: POST Agents/Preference/SavePreferenceDescriptionLines
 uid: v1PreferenceAgent_SavePreferenceDescriptionLines
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/SavePreferenceDescriptionLines
@@ -78,25 +79,25 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 732,
-      "PrefDescId": 213,
-      "PrefValue": "illum",
-      "PrefShowValue": "autem",
-      "Description": "Organic secondary software",
+      "PrefDescLineId": 330,
+      "PrefDescId": 943,
+      "PrefValue": "natus",
+      "PrefShowValue": "nam",
+      "Description": "Robust well-modulated workforce",
       "IsBuiltin": true
     },
     {
-      "PrefDescLineId": 732,
-      "PrefDescId": 213,
-      "PrefValue": "illum",
-      "PrefShowValue": "autem",
-      "Description": "Organic secondary software",
+      "PrefDescLineId": 330,
+      "PrefDescId": 943,
+      "PrefValue": "natus",
+      "PrefShowValue": "nam",
+      "Description": "Robust well-modulated workforce",
       "IsBuiltin": true
     }
   ]
@@ -111,18 +112,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 378,
-    "PrefDescId": 536,
-    "PrefValue": "illo",
-    "PrefShowValue": "a",
-    "Description": "Right-sized responsive success",
-    "IsBuiltin": true,
+    "PrefDescLineId": 917,
+    "PrefDescId": 452,
+    "PrefValue": "nemo",
+    "PrefShowValue": "similique",
+    "Description": "Assimilated regional access",
+    "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 771
+        "FieldLength": 877
       }
     }
   }

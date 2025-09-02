@@ -2,6 +2,7 @@
 title: Services88.WorkflowAgent.CreateDefaultWorkflowStepFromType SOAP
 generated: true
 uid: Services88-Workflow-CreateDefaultWorkflowStepFromType
+content_type: reference
 ---
 
 # Services88 Workflow CreateDefaultWorkflowStepFromType

@@ -2,6 +2,7 @@
 title: Services88.UserAgent.GetUntrustedCredentials SOAP
 generated: true
 uid: Services88-User-GetUntrustedCredentials
+content_type: reference
 ---
 
 # Services88 User GetUntrustedCredentials
@@ -64,8 +65,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   <User:GetUntrustedCredentialsResponse>
    <User:Response xsi:type="User:ArrayOfUntrustedCredentials">
     <User:UntrustedCredentials xsi:type="User:UntrustedCredentials">
-     <User:ValidFrom xsi:type="xsd:dateTime">2025-06-26T01:45:06Z</User:ValidFrom>
-     <User:ValidTo xsi:type="xsd:dateTime">2025-06-26T01:45:06Z</User:ValidTo>
+     <User:ValidFrom xsi:type="xsd:dateTime">2025-08-30T01:46:38Z</User:ValidFrom>
+     <User:ValidTo xsi:type="xsd:dateTime">2025-08-30T01:46:38Z</User:ValidTo>
      <User:Comment xsi:type="xsd:string"></User:Comment>
      <User:SecretValue xsi:type="xsd:string"></User:SecretValue>
      <User:PublicValue xsi:type="xsd:string"></User:PublicValue>

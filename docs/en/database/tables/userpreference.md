@@ -2,10 +2,10 @@
 uid: table-UserPreference
 title: UserPreference table
 description: Preference system. If deflevel is set to 5; the user may change the preferences
-so.generated: true
+generated: true
 keywords: database table UserPreference
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # UserPreference Table (56)

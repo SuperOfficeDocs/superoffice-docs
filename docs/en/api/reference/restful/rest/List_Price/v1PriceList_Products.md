@@ -2,6 +2,7 @@
 title: GET Pricelist/{id}/Products
 uid: v1PriceList_Products
 generated: true
+content_type: reference
 ---
 
 # GET Pricelist/{id}/Products
@@ -74,14 +75,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist/{id}/Products?$select=name,department,category/id
 GET /api/v1/Pricelist/{id}/Products?$filter=name begins 'S'
 GET /api/v1/Pricelist/{id}/Products?$orderBy=name asc
-GET /api/v1/Pricelist/{id}/Products?$entities=hic
-GET /api/v1/Pricelist/{id}/Products?$top=689
-GET /api/v1/Pricelist/{id}/Products?$skip=775
+GET /api/v1/Pricelist/{id}/Products?$entities=molestiae
+GET /api/v1/Pricelist/{id}/Products?$top=685
+GET /api/v1/Pricelist/{id}/Products?$skip=171
 GET /api/v1/Pricelist/{id}/Products?$mode=Full
 GET /api/v1/Pricelist/{id}/Products?$options=GrandTotal=true
-GET /api/v1/Pricelist/{id}/Products?$context=molestias
+GET /api/v1/Pricelist/{id}/Products?$context=officiis
 GET /api/v1/Pricelist/{id}/Products?$format=JSON
-GET /api/v1/Pricelist/{id}/Products?$jsonSafe=False
+GET /api/v1/Pricelist/{id}/Products?$jsonSafe=True
 GET /api/v1/Pricelist/{id}/Products?$output=Display
 ```
 
@@ -134,19 +135,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptatem",
+  "odata.nextLink": "dolores",
   "value": [
     {
-      "PrimaryKey": 24,
-      "EntityName": "person",
-      "personId": 24,
-      "fullName": "Tyrell Brigitte O'Reilly V"
+      "PrimaryKey": 7620,
+      "EntityName": "sale",
+      "saleId": 7620,
+      "contactId": 6262,
+      "name": "Schneider-Legros"
     },
     {
-      "PrimaryKey": 6101,
-      "EntityName": "person",
-      "personId": 6101,
-      "fullName": "Ms. Mac Jillian Little Sr."
+      "PrimaryKey": 1051,
+      "EntityName": "sale",
+      "saleId": 1051,
+      "contactId": 1381,
+      "name": "Kessler-Spinka"
     }
   ]
 }

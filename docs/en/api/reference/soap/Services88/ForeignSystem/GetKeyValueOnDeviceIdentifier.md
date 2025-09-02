@@ -2,6 +2,7 @@
 title: Services88.ForeignSystemAgent.GetKeyValueOnDeviceIdentifier SOAP
 generated: true
 uid: Services88-ForeignSystem-GetKeyValueOnDeviceIdentifier
+content_type: reference
 ---
 
 # Services88 ForeignSystem GetKeyValueOnDeviceIdentifier

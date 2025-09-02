@@ -2,6 +2,7 @@
 title: Services88.PreferenceAgent.SavePreferences SOAP
 generated: true
 uid: Services88-Preference-SavePreferences
+content_type: reference
 ---
 
 # Services88 Preference SavePreferences

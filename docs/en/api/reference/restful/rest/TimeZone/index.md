@@ -1,6 +1,8 @@
 ---
+uid: tag-TimeZone
 title: TimeZone
 generated: true
+content_type: reference
 ---
 
 ```http

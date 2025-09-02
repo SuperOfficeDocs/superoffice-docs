@@ -2,6 +2,7 @@
 title: POST CRMScript/{id}/ExecuteAsEvent
 uid: v1CRMScriptEntity_ExecuteScriptAsEventByUniqueId
 generated: true
+content_type: reference
 ---
 
 # POST CRMScript/{id}/ExecuteAsEvent
@@ -98,42 +99,42 @@ OK
 POST /api/v1/CRMScript/{cRMScriptUniqueId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "quo",
-    "InputValues2": "est"
+    "InputValues1": "voluptatem",
+    "InputValues2": "aut"
   },
-  "BlockExecution": false,
-  "NavigateTo": "saepe",
-  "Message": "cumque",
-  "ShowDialog": "repellendus",
+  "BlockExecution": true,
+  "NavigateTo": "quisquam",
+  "Message": "sapiente",
+  "ShowDialog": "quibusdam",
   "OutputValues": {
-    "OutputValues1": "sequi",
-    "OutputValues2": "dolorum"
+    "OutputValues1": "et",
+    "OutputValues2": "consectetur"
   },
   "StateValues": {
-    "StateValues1": "quo",
-    "StateValues2": "aut"
+    "StateValues1": "dolores",
+    "StateValues2": "id"
   },
-  "Exception": "et",
+  "Exception": "fugiat",
   "ParserValues": {
-    "ParserValues1": "est",
-    "ParserValues2": "sequi"
+    "ParserValues1": "similique",
+    "ParserValues2": "quos"
   },
   "CgiVariables": {
-    "CgiVariables1": "voluptate",
-    "CgiVariables2": "voluptatem"
+    "CgiVariables1": "animi",
+    "CgiVariables2": "occaecati"
   },
-  "CgiContent": "dolores",
+  "CgiContent": "officiis",
   "Headers": {
-    "Headers1": "aut",
-    "Headers2": "sit"
+    "Headers1": "consequatur",
+    "Headers2": "fugiat"
   },
-  "TraceExecution": false
+  "TraceExecution": true
 }
 ```
 
@@ -146,42 +147,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "et",
-    "InputValues2": "unde"
+    "InputValues1": "veniam",
+    "InputValues2": "qui"
   },
   "BlockExecution": false,
-  "NavigateTo": "sequi",
-  "Message": "tempore",
-  "ShowDialog": "quis",
+  "NavigateTo": "ea",
+  "Message": "qui",
+  "ShowDialog": "asperiores",
   "OutputValues": {
-    "OutputValues1": "debitis",
-    "OutputValues2": "impedit"
+    "OutputValues1": "nulla",
+    "OutputValues2": "et"
   },
   "StateValues": {
-    "StateValues1": "magni",
-    "StateValues2": "dolor"
+    "StateValues1": "corrupti",
+    "StateValues2": "aliquam"
   },
-  "Exception": "corrupti",
+  "Exception": "cumque",
   "ParserValues": {
-    "ParserValues1": "cumque",
-    "ParserValues2": "occaecati"
+    "ParserValues1": "suscipit",
+    "ParserValues2": "esse"
   },
   "CgiVariables": {
-    "CgiVariables1": "rerum",
-    "CgiVariables2": "deleniti"
+    "CgiVariables1": "numquam",
+    "CgiVariables2": "libero"
   },
-  "CgiContent": "voluptatum",
+  "CgiContent": "ut",
   "Headers": {
-    "Headers1": "rem",
-    "Headers2": "quaerat"
+    "Headers1": "exercitationem",
+    "Headers2": "praesentium"
   },
-  "TraceExecution": true,
+  "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldLength": 513
     }
   }
 }

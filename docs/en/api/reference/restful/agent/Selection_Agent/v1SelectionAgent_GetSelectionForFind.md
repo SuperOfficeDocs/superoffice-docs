@@ -2,6 +2,7 @@
 title: POST Agents/Selection/GetSelectionForFind
 uid: v1SelectionAgent_GetSelectionForFind
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/GetSelectionForFind
@@ -85,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Beatty-Runte",
-  "TypicalSearchId": 985
+  "EntityName": "Gerlach-Pouros",
+  "TypicalSearchId": 32
 }
 ```
 
@@ -97,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Lind-Mertz",
-  "SelectionId": 367,
-  "CanSaveAsSelection": false,
-  "MainHeading": "vel",
-  "FilterScreenHeading": "tempora",
-  "SelectionEntityHeading": "voluptate",
+  "ProviderName": "Thiel, Fahey and Schmidt",
+  "SelectionId": 149,
+  "CanSaveAsSelection": true,
+  "MainHeading": "magni",
+  "FilterScreenHeading": "quia",
+  "SelectionEntityHeading": "incidunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 59
+      "FieldLength": 484
     }
   }
 }

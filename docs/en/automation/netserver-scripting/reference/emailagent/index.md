@@ -2,14 +2,10 @@
 uid: emailagent-script-events
 title: EMailAgent script event methods
 description: NetServer script event methods.
-keywords: netserver scripting
-author: SuperOffice Product and Engineering
-date: 06.12.2025
 generated: true
-category: automation
-topic: NetServer scripting
+keywords: netserver scripting
 content_type: reference
-deployment: onsite
+envir: onsite
 ---
 
 # EMailAgent method listing
@@ -118,3 +114,4 @@ Service methods defined on <see cref='T:IEMailAgent'>EMailAgent</see> that can t
 * [SyncEmailAccountsAsync](syncemailaccountsasync.md)
 * [TestAuthenticateAsync](testauthenticateasync.md)
 * [ToggleSubscriptionAsync](togglesubscriptionasync.md)
+

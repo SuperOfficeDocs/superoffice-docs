@@ -2,6 +2,7 @@
 title: PUT TicketMessage/{id}
 uid: v1TicketMessageEntity_HttpPutSaveTicketMessageEntityWithNotify
 generated: true
+content_type: reference
 ---
 
 # PUT TicketMessage/{id}
@@ -29,7 +30,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-PUT /api/v1/TicketMessage/{id}?notify=False
+PUT /api/v1/TicketMessage/{id}?notify=True
 ```
 
 
@@ -128,67 +129,67 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 315,
+  "EjMessageId": 423,
   "Ticket": null,
-  "CreatedAt": "2004-03-13T03:45:28.7796745+01:00",
+  "CreatedAt": "1999-09-13T03:47:00.3786828+02:00",
   "CreatedBy": null,
-  "Author": "est",
+  "Author": "dolores",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nam",
-  "TimeSpent": 403,
-  "Body": "et",
-  "HtmlBody": "at",
-  "EmailHeader": "warren.skiles@kling.name",
-  "DebugInfo": "porro",
-  "MailSorter": "harum",
+  "MessageId": "officia",
+  "TimeSpent": 604,
+  "Body": "perferendis",
+  "HtmlBody": "molestiae",
+  "EmailHeader": "hyman.mann@dare.info",
+  "DebugInfo": "exercitationem",
+  "MailSorter": "sed",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "possimus",
+  "SearchTitle": "voluptatem",
   "MessageHeaders": [
     {
-      "Id": 29,
-      "Name": "Stanton-Rodriguez",
-      "Value": "voluptatem",
+      "Id": 787,
+      "Name": "Stoltenberg-Conroy",
+      "Value": "nemo",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 29,
-      "Name": "Stanton-Rodriguez",
-      "Value": "voluptatem",
+      "Id": 787,
+      "Name": "Stoltenberg-Conroy",
+      "Value": "nemo",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "dolorum",
-  "Sentiment": 262,
-  "SentimentConfidence": 243,
+  "Language": "consequuntur",
+  "Sentiment": 235,
+  "SentimentConfidence": 584,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 123,
-      "Name": "Lesch-Kulas",
-      "ContentType": "excepturi",
-      "AttSize": 95,
-      "InlineImage": true,
-      "ContentId": "ducimus",
-      "AuthKey": "adipisci",
-      "IsSafeFileExtension": false
+      "AttachmentId": 524,
+      "Name": "Upton-Champlin",
+      "ContentType": "aut",
+      "AttSize": 190,
+      "InlineImage": false,
+      "ContentId": "qui",
+      "AuthKey": "odio",
+      "IsSafeFileExtension": true
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quasi",
-    "ExtraFields2": "expedita"
+    "ExtraFields1": "id",
+    "ExtraFields2": "modi"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "quam"
+    "CustomFields1": "molestiae",
+    "CustomFields2": "quasi"
   }
 }
 ```
@@ -200,28 +201,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 708,
+  "EjMessageId": 764,
   "Ticket": null,
-  "CreatedAt": "2006-10-23T03:45:28.7796745+02:00",
+  "CreatedAt": "2023-01-06T03:47:00.3786828+01:00",
   "CreatedBy": null,
-  "Author": "sed",
+  "Author": "et",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "voluptas",
-  "TimeSpent": 435,
-  "Body": "natus",
-  "HtmlBody": "dolore",
-  "EmailHeader": "madeline.lang@purdypfeffer.uk",
-  "DebugInfo": "repudiandae",
-  "MailSorter": "dolor",
+  "MessageId": "recusandae",
+  "TimeSpent": 336,
+  "Body": "culpa",
+  "HtmlBody": "voluptates",
+  "EmailHeader": "meghan@gibson.uk",
+  "DebugInfo": "ab",
+  "MailSorter": "modi",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "optio",
+  "SearchTitle": "rem",
   "MessageHeaders": [
     {
-      "Id": 939,
-      "Name": "Hilpert Inc and Sons",
-      "Value": "soluta",
+      "Id": 502,
+      "Name": "Schowalter LLC",
+      "Value": "optio",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -229,50 +230,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 846
+          "FieldLength": 582
         }
       }
     }
   ],
   "Important": false,
-  "Language": "assumenda",
-  "Sentiment": 562,
-  "SentimentConfidence": 514,
+  "Language": "esse",
+  "Sentiment": 685,
+  "SentimentConfidence": 452,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 60,
-      "Name": "Kuhn Inc and Sons",
-      "ContentType": "cupiditate",
-      "AttSize": 732,
+      "AttachmentId": 958,
+      "Name": "Weissnat-Gislason",
+      "ContentType": "quo",
+      "AttSize": 845,
       "InlineImage": false,
-      "ContentId": "perspiciatis",
-      "AuthKey": "odio",
-      "IsSafeFileExtension": true,
+      "ContentId": "hic",
+      "AuthKey": "amet",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 171
+          "FieldLength": 686
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "quae"
+    "ExtraFields1": "sed",
+    "ExtraFields2": "necessitatibus"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "et"
+    "CustomFields1": "non",
+    "CustomFields2": "molestiae"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 677
+      "FieldLength": 74
     }
   }
 }

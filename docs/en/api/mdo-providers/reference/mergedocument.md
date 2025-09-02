@@ -3,9 +3,9 @@ uid: mergedocument
 title: mergedocument
 keywords: mdoprovider mdo provider mergedocument
 description: MDO list provider for documents marked as type <see cref="F:SuperOffice.Data.TaskType.MailMergeDraft" />.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "mergedocument" MDO List

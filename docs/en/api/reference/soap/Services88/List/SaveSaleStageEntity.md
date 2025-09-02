@@ -2,6 +2,7 @@
 title: Services88.ListAgent.SaveSaleStageEntity SOAP
 generated: true
 uid: Services88-List-SaveSaleStageEntity
+content_type: reference
 ---
 
 # Services88 List SaveSaleStageEntity

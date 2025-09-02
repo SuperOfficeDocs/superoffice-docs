@@ -2,6 +2,7 @@
 title: DEL List/Task/Headings
 uid: v1TaskList_DeleteTaskListItemHeadings
 generated: true
+content_type: reference
 ---
 
 # DEL List/Task/Headings
@@ -48,7 +49,7 @@ No Content
 DELETE /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

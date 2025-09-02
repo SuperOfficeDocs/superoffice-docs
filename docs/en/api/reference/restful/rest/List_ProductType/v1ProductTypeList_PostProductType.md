@@ -2,6 +2,7 @@
 title: POST List/ProductType/Items
 uid: v1ProductTypeList_PostProductType
 generated: true
+content_type: reference
 ---
 
 # POST List/ProductType/Items
@@ -77,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 867,
-  "Name": "Hagenes, Breitenberg and Mayert",
-  "Tooltip": "eos",
+  "Id": 240,
+  "Name": "Bayer, Pouros and Dicki",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 122,
-  "Rank": 732
+  "UdListDefinitionId": 606,
+  "Rank": 67
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 228,
-  "Name": "Ebert Group",
-  "Tooltip": "nobis",
+  "Id": 245,
+  "Name": "Ward-Weimann",
+  "Tooltip": "soluta",
   "Deleted": false,
-  "UdListDefinitionId": 808,
-  "Rank": 470,
+  "UdListDefinitionId": 390,
+  "Rank": 421,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldLength": 338
     }
   }
 }

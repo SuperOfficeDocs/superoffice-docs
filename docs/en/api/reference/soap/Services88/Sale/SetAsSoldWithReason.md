@@ -2,6 +2,7 @@
 title: Services88.SaleAgent.SetAsSoldWithReason SOAP
 generated: true
 uid: Services88-Sale-SetAsSoldWithReason
+content_type: reference
 ---
 
 # Services88 Sale SetAsSoldWithReason

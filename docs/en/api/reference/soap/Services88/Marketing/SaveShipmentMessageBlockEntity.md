@@ -2,6 +2,7 @@
 title: Services88.MarketingAgent.SaveShipmentMessageBlockEntity SOAP
 generated: true
 uid: Services88-Marketing-SaveShipmentMessageBlockEntity
+content_type: reference
 ---
 
 # Services88 Marketing SaveShipmentMessageBlockEntity
@@ -43,9 +44,9 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Marketing:ShipmentMessageBlockId xsi:type="xsd:int">0</Marketing:ShipmentMessageBlockId>
      <Marketing:AssociateId xsi:type="xsd:int">0</Marketing:AssociateId>
      <Marketing:Block xsi:type="xsd:string"></Marketing:Block>
-     <Marketing:Registered xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</Marketing:Registered>
+     <Marketing:Registered xsi:type="xsd:dateTime">2025-08-30T01:45:47Z</Marketing:Registered>
      <Marketing:RegisteredAssociateId xsi:type="xsd:int">0</Marketing:RegisteredAssociateId>
-     <Marketing:Updated xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</Marketing:Updated>
+     <Marketing:Updated xsi:type="xsd:dateTime">2025-08-30T01:45:47Z</Marketing:Updated>
      <Marketing:UpdatedAssociateId xsi:type="xsd:int">0</Marketing:UpdatedAssociateId>
      <Marketing:UpdatedCount xsi:type="xsd:short">0</Marketing:UpdatedCount>
     </Marketing:ShipmentMessageBlockEntity>
@@ -75,9 +76,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Marketing:ShipmentMessageBlockId xsi:type="xsd:int">0</Marketing:ShipmentMessageBlockId>
     <Marketing:AssociateId xsi:type="xsd:int">0</Marketing:AssociateId>
     <Marketing:Block xsi:type="xsd:string"></Marketing:Block>
-    <Marketing:Registered xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</Marketing:Registered>
+    <Marketing:Registered xsi:type="xsd:dateTime">2025-08-30T01:45:47Z</Marketing:Registered>
     <Marketing:RegisteredAssociateId xsi:type="xsd:int">0</Marketing:RegisteredAssociateId>
-    <Marketing:Updated xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</Marketing:Updated>
+    <Marketing:Updated xsi:type="xsd:dateTime">2025-08-30T01:45:47Z</Marketing:Updated>
     <Marketing:UpdatedAssociateId xsi:type="xsd:int">0</Marketing:UpdatedAssociateId>
     <Marketing:UpdatedCount xsi:type="xsd:short">0</Marketing:UpdatedCount>
    </Marketing:Response>

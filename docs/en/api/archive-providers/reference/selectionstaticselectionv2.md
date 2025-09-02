@@ -3,9 +3,9 @@ uid: SelectionStaticSelectionV2
 title: SelectionStaticSelectionV2
 description: Static archive Provider for a Selection of selection archive.
 keywords: SelectionStaticSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "SelectionStaticSelectionV2"
@@ -82,7 +82,7 @@ Static archive Provider for a Selection of selection archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionStaticSelectionV2?$select=selectionAssociate/personId,lastMembershipChange,selectionAssociate/contactId
+GET /api/v1/archive/SelectionStaticSelectionV2?$select=selectionAssociate/credentialDisplayValue,lastMembershipChange,selectionAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -2,6 +2,7 @@
 title: Services88.BLOBAgent.GetOutputFromBatch SOAP
 generated: true
 uid: Services88-BLOB-GetOutputFromBatch
+content_type: reference
 ---
 
 # Services88 BLOB GetOutputFromBatch

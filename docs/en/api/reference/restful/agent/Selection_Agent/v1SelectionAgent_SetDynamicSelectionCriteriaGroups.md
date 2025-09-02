@@ -2,6 +2,7 @@
 title: POST Agents/Selection/SetDynamicSelectionCriteriaGroups
 uid: v1SelectionAgent_SetDynamicSelectionCriteriaGroups
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/SetDynamicSelectionCriteriaGroups
@@ -81,21 +82,21 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 54,
+  "SelectionId": 531,
   "Criteria": [
     {
-      "Name": "Parisian-Durgan",
-      "Description": "Intuitive 6th generation hardware",
-      "Rank": 345,
+      "Name": "Cremin Group",
+      "Description": "Innovative next generation circuit",
+      "Rank": 939,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Parisian-Durgan",
-      "Description": "Intuitive 6th generation hardware",
-      "Rank": 345,
+      "Name": "Cremin Group",
+      "Description": "Innovative next generation circuit",
+      "Rank": 939,
       "Restrictions": [
         {},
         {}
@@ -113,58 +114,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Muller LLC",
-    "Description": "Ergonomic 3rd generation synergy",
-    "Rank": 750,
+    "Name": "Walter, Ferry and Glover",
+    "Description": "Integrated responsive flexibility",
+    "Rank": 817,
     "Restrictions": [
       {
-        "Name": "Stark, Mayert and Champlin",
-        "Operator": "veritatis",
+        "Name": "Heathcote Group",
+        "Operator": "odio",
         "Values": [
-          "dolor",
-          "ut"
+          "quas",
+          "consequatur"
         ],
         "DisplayValues": [
-          "qui",
-          "laborum"
+          "aliquam",
+          "nemo"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 704,
+        "InterParenthesis": 459,
         "InterOperator": "And",
-        "UniqueHash": 501
+        "UniqueHash": 578
       }
     ]
   },
   {
-    "Name": "Muller LLC",
-    "Description": "Ergonomic 3rd generation synergy",
-    "Rank": 750,
+    "Name": "Walter, Ferry and Glover",
+    "Description": "Integrated responsive flexibility",
+    "Rank": 817,
     "Restrictions": [
       {
-        "Name": "Stark, Mayert and Champlin",
-        "Operator": "veritatis",
+        "Name": "Heathcote Group",
+        "Operator": "odio",
         "Values": [
-          "dolor",
-          "ut"
+          "quas",
+          "consequatur"
         ],
         "DisplayValues": [
-          "qui",
-          "laborum"
+          "aliquam",
+          "nemo"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 704,
+        "InterParenthesis": 459,
         "InterOperator": "And",
-        "UniqueHash": 501
+        "UniqueHash": 578
       }
     ]
   }

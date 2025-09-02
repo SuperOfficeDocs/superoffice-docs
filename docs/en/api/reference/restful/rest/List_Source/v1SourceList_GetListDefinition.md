@@ -2,6 +2,7 @@
 title: GET List/Source
 uid: v1SourceList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/Source
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,27 +76,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 447,
-  "Name": "Sawayn-Schimmel",
-  "Tooltip": "quia",
+  "Id": 974,
+  "Name": "Volkman LLC",
+  "Tooltip": "qui",
   "Deleted": true,
-  "Rank": 585,
+  "Rank": 110,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quos",
-  "InUseByUserDefinedFields": false,
+  "ListType": "repudiandae",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldType": "System.String",
+      "FieldLength": 513
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

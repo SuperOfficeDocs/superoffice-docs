@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.CanConnectorProvideCapability SOAP
 generated: true
 uid: Services88-Quote-CanConnectorProvideCapability
+content_type: reference
 ---
 
 # Services88 Quote CanConnectorProvideCapability

@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetPreviewAttachmentFromDocId
 uid: v1EMailAgent_GetPreviewAttachmentFromDocId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetPreviewAttachmentFromDocId
@@ -87,12 +88,12 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 753,
-  "AttachmentId": "rerum"
+  "DocId": 927,
+  "AttachmentId": "voluptas"
 }
 ```
 
@@ -103,21 +104,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Balanced attitude-oriented installation",
-  "Filename": "possimus",
-  "Size": 659,
-  "Type": "placeat",
-  "Encoding": "maiores",
-  "Id": "dignissimos",
-  "Disposition": "voluptatem",
-  "IsSafeFileExtension": true,
+  "Description": "Pre-emptive mobile system engine",
+  "Filename": "quia",
+  "Size": 2,
+  "Type": "cupiditate",
+  "Encoding": "maxime",
+  "Id": "enim",
+  "Disposition": "architecto",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldLength": 263
     }
   }
 }

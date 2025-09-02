@@ -2,6 +2,7 @@
 title: POST Agents/TimeZone/GetDefaultTimeZonePreference
 uid: v1TimeZoneAgent_GetDefaultTimeZonePreference
 generated: true
+content_type: reference
 ---
 
 # POST Agents/TimeZone/GetDefaultTimeZonePreference
@@ -69,5 +70,5 @@ Accept-Language: *
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-18
+943
 ```

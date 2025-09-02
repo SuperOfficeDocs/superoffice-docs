@@ -2,6 +2,7 @@
 title: POST Sale/Validate
 uid: v1SaleEntity_ValidateSaleEntity
 generated: true
+content_type: reference
 ---
 
 # POST Sale/Validate
@@ -111,7 +112,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "est",
+  "SaleText": "omnis",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +121,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2021-02-27T03:45:28.6390567+01:00",
-  "Amount": 28607.152,
-  "SaleId": 644,
-  "Earning": 16647.808,
-  "EarningPercent": 9984.9239999999991,
-  "Heading": "neque",
-  "Number": "1191862",
-  "Probability": 983,
-  "CreatedDate": "2007-02-06T03:45:28.6390567+01:00",
-  "UpdatedDate": "2011-04-18T03:45:28.6390567+02:00",
+  "Saledate": "2006-02-18T03:47:00.2693116+01:00",
+  "Amount": 8330.172,
+  "SaleId": 988,
+  "Earning": 25015.588,
+  "EarningPercent": 18127.056,
+  "Heading": "repellat",
+  "Number": "809020",
+  "Probability": 797,
+  "CreatedDate": "2000-12-05T03:47:00.2693116+01:00",
+  "UpdatedDate": "2016-11-27T03:47:00.2693116+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 863,
+  "ActiveLinks": 552,
   "Links": [
     {
-      "EntityName": "Schneider, Harber and Zemlak",
-      "Id": 699,
-      "Description": "Switchable background budgetary management",
-      "ExtraInfo": "fugiat",
-      "LinkId": 274
+      "EntityName": "Cummings Inc and Sons",
+      "Id": 629,
+      "Description": "Secured well-modulated circuit",
+      "ExtraInfo": "aliquid",
+      "LinkId": 207
     },
     {
-      "EntityName": "Schneider, Harber and Zemlak",
-      "Id": 699,
-      "Description": "Switchable background budgetary management",
-      "ExtraInfo": "fugiat",
-      "LinkId": 274
+      "EntityName": "Cummings Inc and Sons",
+      "Id": 629,
+      "Description": "Secured well-modulated circuit",
+      "ExtraInfo": "aliquid",
+      "LinkId": 207
     }
   ],
-  "NextDueDate": "2007-05-14T03:45:28.6390567+02:00",
-  "Postit": "eligendi",
+  "NextDueDate": "2024-03-13T03:47:00.2693116+01:00",
+  "Postit": "aliquam",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2004-04-30T03:45:28.6390567+02:00",
+  "ReopenDate": "2015-04-13T03:47:00.2693116+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Ondricka, Hermiston and Brekke",
-      "Comment": "dolor",
-      "StakeholderRoleId": 809,
-      "CountryId": 640,
-      "PersonId": 363,
-      "EmailDescription": "otis.hackett@schimmel.us",
-      "EmailId": 398,
-      "EmailAddress": "isabel.glover@pfeffer.uk",
-      "PhoneId": 519,
-      "ContactName": "Von Group",
-      "ContactId": 634,
-      "SaleId": 211,
-      "Mrmrs": "quis",
-      "Firstname": "Alexandro",
-      "MiddleName": "Block, Friesen and Stokes",
-      "Lastname": "Hagenes",
-      "SaleStakeholderId": 257,
-      "Rank": 321,
-      "Phone": "(420)405-7284"
+      "StakeholderRoleName": "Hilpert Inc and Sons",
+      "Comment": "aut",
+      "StakeholderRoleId": 843,
+      "CountryId": 985,
+      "PersonId": 664,
+      "EmailDescription": "bobbie_hoeger@greenheidenreich.ca",
+      "EmailId": 378,
+      "EmailAddress": "lesly@fisher.name",
+      "PhoneId": 195,
+      "ContactName": "Ratke Inc and Sons",
+      "ContactId": 31,
+      "SaleId": 971,
+      "Mrmrs": "ut",
+      "Firstname": "Kenny",
+      "MiddleName": "D'Amore, Davis and Ward",
+      "Lastname": "Huels",
+      "SaleStakeholderId": 163,
+      "Rank": 276,
+      "Phone": "141.362.5538"
     }
   ],
-  "ActiveErpLinks": 264,
+  "ActiveErpLinks": 308,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Mohammed Bulah Blanda DVM",
-    "SuperOffice:2": "Mr. Wilhelmine Marks"
+    "SuperOffice:1": "Bianka Crist",
+    "SuperOffice:2": "1864060443"
   },
   "ExtraFields": {
-    "ExtraFields1": "eaque",
-    "ExtraFields2": "possimus"
+    "ExtraFields1": "amet",
+    "ExtraFields2": "exercitationem"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "culpa"
+    "CustomFields1": "quia",
+    "CustomFields2": "cupiditate"
   },
-  "PublishEventDate": "2023-03-17T03:45:28.6390567+01:00",
-  "PublishTo": "2011-03-04T03:45:28.6390567+01:00",
-  "PublishFrom": "2021-12-17T03:45:28.6390567+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2015-06-01T03:47:00.2693116+02:00",
+  "PublishTo": "2019-10-05T03:47:00.2693116+02:00",
+  "PublishFrom": "2016-12-25T03:47:00.2693116+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 104,
+      "VisibleId": 948,
       "Visibility": "All",
-      "DisplayValue": "aut"
+      "DisplayValue": "architecto"
     },
     {
-      "VisibleId": 104,
+      "VisibleId": 948,
       "Visibility": "All",
-      "DisplayValue": "aut"
+      "DisplayValue": "architecto"
     }
   ]
 }
@@ -216,7 +217,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "tempora",
-  "2": "repellat"
+  "1": "delectus",
+  "2": "veritatis"
 }
 ```

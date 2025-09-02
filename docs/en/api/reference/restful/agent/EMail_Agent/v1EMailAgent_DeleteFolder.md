@@ -2,6 +2,7 @@
 title: POST Agents/EMail/DeleteFolder
 uid: v1EMailAgent_DeleteFolder
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/DeleteFolder

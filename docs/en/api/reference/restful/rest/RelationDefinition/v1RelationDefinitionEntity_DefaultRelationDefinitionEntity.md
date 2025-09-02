@@ -2,6 +2,7 @@
 title: GET RelationDefinition/default
 uid: v1RelationDefinitionEntity_DefaultRelationDefinitionEntity
 generated: true
+content_type: reference
 ---
 
 # GET RelationDefinition/default
@@ -74,20 +75,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 860,
-  "Name": "Ernser, Dibbert and Terry",
-  "Tooltip": "quidem",
-  "PassiveText": "quas",
+  "ReldefId": 713,
+  "Name": "Bergstrom-Hand",
+  "Tooltip": "aut",
+  "PassiveText": "quod",
   "Deleted": false,
-  "Rank": 915,
+  "Rank": 829,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 275
+      "FieldType": "System.Int32",
+      "FieldLength": 993
     }
   }
 }

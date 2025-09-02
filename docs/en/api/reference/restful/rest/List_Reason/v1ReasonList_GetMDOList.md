@@ -2,6 +2,7 @@
 title: GET List/Reason/MDOItems
 uid: v1ReasonList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/Reason/MDOItems
@@ -27,7 +28,7 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=qui
+GET /api/v1/List/Reason/MDOItems?query=eveniet
 ```
 
 
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 226,
-    "Name": "Steuber, Kris and Paucek",
-    "ToolTip": "Non laudantium nihil veritatis fuga earum corrupti.",
-    "Deleted": true,
-    "Rank": 778,
-    "Type": "non",
+    "Id": 8,
+    "Name": "Muller-Deckow",
+    "ToolTip": "Ab odio ut facere sunt eveniet.",
+    "Deleted": false,
+    "Rank": 300,
+    "Type": "cumque",
     "ChildItems": [
       {
-        "Id": 510,
-        "Name": "Bailey Inc and Sons",
-        "ToolTip": "Dicta quis illum odio.",
+        "Id": 251,
+        "Name": "Thiel, Romaguera and Muller",
+        "ToolTip": "Et in ut sit eum assumenda quod eveniet.",
         "Deleted": false,
-        "Rank": 592,
-        "Type": "labore",
+        "Rank": 319,
+        "Type": "id",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nihil",
-        "ColorBlock": 200,
-        "ExtraInfo": "possimus",
-        "StyleHint": "voluptatem",
-        "FullName": "Jarrell Langworth DDS",
+        "IconHint": "mollitia",
+        "ColorBlock": 226,
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "in",
+        "FullName": "Cyril Bartoletti",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 978
+            "FieldType": "System.String",
+            "FieldLength": 920
           }
         }
       }
     ],
-    "IconHint": "consectetur",
-    "ColorBlock": 222,
-    "ExtraInfo": "fuga",
-    "StyleHint": "sequi",
-    "FullName": "Miss Reba Mariana Rosenbaum",
+    "IconHint": "quo",
+    "ColorBlock": 99,
+    "ExtraInfo": "aut",
+    "StyleHint": "ipsum",
+    "FullName": "Mrs. Vince Jessyca Bednar DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 39
+        "FieldLength": 140
       }
     }
   }

@@ -1,6 +1,8 @@
 ---
+uid: tag-FreeText_Agent
 title: FreeText_Agent
 generated: true
+content_type: reference
 ---
 
 ```http

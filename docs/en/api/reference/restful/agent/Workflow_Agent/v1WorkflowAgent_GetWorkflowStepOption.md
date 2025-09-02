@@ -2,6 +2,7 @@
 title: POST Agents/Workflow/GetWorkflowStepOption
 uid: v1WorkflowAgent_GetWorkflowStepOption
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Workflow/GetWorkflowStepOption
@@ -77,11 +78,11 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowStepOption
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 196
+  "WorkflowStepOptionId": 756
 }
 ```
 
@@ -93,23 +94,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OptionType": "FormData",
-  "WorkflowStepOptionId": 624,
-  "WorkflowStepId": 973,
-  "WorkflowId": 843,
-  "Name": "Lubowitz, Veum and Bailey",
-  "Rank": 349,
+  "WorkflowStepOptionId": 24,
+  "WorkflowStepId": 121,
+  "WorkflowId": 447,
+  "Name": "O'Hara-Erdman",
+  "Rank": 782,
   "Steps": [
     {
-      "WorkflowStepId": 939,
-      "WorkflowId": 827,
+      "WorkflowStepId": 599,
+      "WorkflowId": 349,
       "StepType": "AddToList",
-      "Rank": 279
+      "Rank": 346
     },
     {
-      "WorkflowStepId": 939,
-      "WorkflowId": 827,
+      "WorkflowStepId": 599,
+      "WorkflowId": 349,
       "StepType": "AddToList",
-      "Rank": 279
+      "Rank": 346
     }
   ]
 }

@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/GetTicketMessageEntities
 uid: v1TicketAgent_GetTicketMessageEntities
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/GetTicketMessageEntities
@@ -99,14 +100,14 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 730,
+  "TicketId": 249,
   "MessageIds": [
-    976,
-    367
+    719,
+    164
   ]
 }
 ```
@@ -119,28 +120,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 17,
+    "EjMessageId": 490,
     "Ticket": null,
-    "CreatedAt": "2006-09-22T03:45:24.1079333+02:00",
+    "CreatedAt": "2019-10-17T03:46:55.51948+02:00",
     "CreatedBy": null,
-    "Author": "hic",
+    "Author": "accusamus",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "quis",
-    "TimeSpent": 862,
-    "Body": "et",
-    "HtmlBody": "libero",
-    "EmailHeader": "macy@metz.biz",
-    "DebugInfo": "dolores",
-    "MailSorter": "quaerat",
+    "MessageId": "qui",
+    "TimeSpent": 717,
+    "Body": "odit",
+    "HtmlBody": "qui",
+    "EmailHeader": "tatyana@sporer.name",
+    "DebugInfo": "et",
+    "MailSorter": "quas",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "quaerat",
+    "SearchTitle": "sit",
     "MessageHeaders": [
       {
-        "Id": 148,
-        "Name": "Gerlach-Renner",
-        "Value": "quam",
+        "Id": 715,
+        "Name": "Hauck-Lowe",
+        "Value": "molestiae",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
@@ -148,50 +149,50 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 510
+            "FieldLength": 738
           }
         }
       }
     ],
-    "Important": true,
-    "Language": "rerum",
-    "Sentiment": 684,
-    "SentimentConfidence": 187,
+    "Important": false,
+    "Language": "perferendis",
+    "Sentiment": 18,
+    "SentimentConfidence": 689,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 424,
-        "Name": "Kutch Inc and Sons",
-        "ContentType": "dolorem",
-        "AttSize": 86,
-        "InlineImage": false,
-        "ContentId": "necessitatibus",
-        "AuthKey": "expedita",
+        "AttachmentId": 11,
+        "Name": "Kozey, Homenick and Heller",
+        "ContentType": "impedit",
+        "AttSize": 33,
+        "InlineImage": true,
+        "ContentId": "ducimus",
+        "AuthKey": "qui",
         "IsSafeFileExtension": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 517
+            "FieldLength": 546
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "libero",
-      "ExtraFields2": "fugiat"
+      "ExtraFields1": "deserunt",
+      "ExtraFields2": "velit"
     },
     "CustomFields": {
-      "CustomFields1": "dolorem",
-      "CustomFields2": "ad"
+      "CustomFields1": "ut",
+      "CustomFields2": "atque"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 550
+        "FieldType": "System.Int32",
+        "FieldLength": 528
       }
     }
   }

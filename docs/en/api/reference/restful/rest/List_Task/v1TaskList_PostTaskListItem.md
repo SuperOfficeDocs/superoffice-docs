@@ -2,6 +2,7 @@
 title: POST List/Task/Items
 uid: v1TaskList_PostTaskListItem
 generated: true
+content_type: reference
 ---
 
 # POST List/Task/Items
@@ -89,21 +90,21 @@ OK
 POST /api/v1/List/Task/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 39,
-  "Value": "est",
+  "TaskListItemId": 50,
+  "Value": "nemo",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "a",
+  "Tooltip": "ea",
   "Deleted": false,
-  "IntentId": 548,
-  "Rank": 598,
+  "IntentId": 496,
+  "Rank": 695,
   "IsDefaultAlldayEvent": true,
-  "IsDefaultFree": true,
-  "IsDefaultPublished": true,
+  "IsDefaultFree": false,
+  "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange"
 }
@@ -116,15 +117,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 275,
-  "Value": "perspiciatis",
+  "TaskListItemId": 772,
+  "Value": "officiis",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "veniam",
-  "Deleted": true,
-  "IntentId": 266,
-  "Rank": 182,
-  "IsDefaultAlldayEvent": false,
+  "Tooltip": "illum",
+  "Deleted": false,
+  "IntentId": 770,
+  "Rank": 266,
+  "IsDefaultAlldayEvent": true,
   "IsDefaultFree": false,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
@@ -134,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 386
+      "FieldLength": 883
     }
   }
 }

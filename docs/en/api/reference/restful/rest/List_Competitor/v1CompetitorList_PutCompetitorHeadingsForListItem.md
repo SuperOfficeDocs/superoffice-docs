@@ -2,6 +2,7 @@
 title: PUT List/Competitor/Items/{id}/Headings
 uid: v1CompetitorList_PutCompetitorHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/Competitor/Items/{id}/Headings
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 472,
-    "Name": "Strosin, Gerhold and Abernathy",
-    "ToolTip": "Ex dolore ut reprehenderit.",
+    "Id": 533,
+    "Name": "Gusikowski Group",
+    "ToolTip": "Vel animi nemo sed tenetur sed sit.",
     "Deleted": false,
-    "Rank": 904,
-    "Type": "fugit",
-    "ColorBlock": 836,
-    "IconHint": "aperiam",
+    "Rank": 628,
+    "Type": "debitis",
+    "ColorBlock": 754,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "1998-09-29T03:45:28.9827939+02:00",
+    "LastChanged": "2016-01-29T03:47:00.5974251+01:00",
     "ChildItems": [
       {
-        "Id": 583,
-        "Name": "Bernhard, Waters and Sipes",
-        "ToolTip": "Saepe ipsa.",
-        "Deleted": false,
-        "Rank": 933,
-        "Type": "iusto",
-        "ColorBlock": 879,
-        "IconHint": "dolores",
-        "Selected": true,
-        "LastChanged": "2013-12-25T03:45:28.9827939+01:00",
+        "Id": 360,
+        "Name": "Grimes, Kilback and Fritsch",
+        "ToolTip": "Rerum laudantium dolorum eaque.",
+        "Deleted": true,
+        "Rank": 12,
+        "Type": "et",
+        "ColorBlock": 840,
+        "IconHint": "iusto",
+        "Selected": false,
+        "LastChanged": "2007-09-05T03:47:00.5974251+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "provident",
+        "ExtraInfo": "minus",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Johnny O'Keefe"
+        "FullName": "Mr. Presley Parker"
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "mollitia",
-    "Hidden": true,
-    "FullName": "Roselyn Schimmel"
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "dignissimos",
+    "Hidden": false,
+    "FullName": "Koby Halvorson"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 309,
-    "Name": "Runolfsdottir-O'Hara",
-    "ToolTip": "Voluptatem voluptatibus consequatur aperiam.",
+    "Id": 687,
+    "Name": "Schaden, Schaden and Jones",
+    "ToolTip": "Ducimus sed autem est.",
     "Deleted": false,
-    "Rank": 536,
-    "Type": "possimus",
-    "ColorBlock": 483,
-    "IconHint": "magnam",
-    "Selected": true,
-    "LastChanged": "2007-04-07T03:45:28.9827939+02:00",
+    "Rank": 48,
+    "Type": "commodi",
+    "ColorBlock": 449,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2015-03-17T03:47:00.5974251+01:00",
     "ChildItems": [
       {
-        "Id": 298,
-        "Name": "Carroll LLC",
-        "ToolTip": "Ratione rerum sunt fuga.",
+        "Id": 975,
+        "Name": "Stehr, Schmitt and Tremblay",
+        "ToolTip": "Error et ut quae facere voluptatum.",
         "Deleted": true,
-        "Rank": 544,
-        "Type": "aut",
-        "ColorBlock": 893,
-        "IconHint": "laborum",
+        "Rank": 421,
+        "Type": "maiores",
+        "ColorBlock": 523,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2022-03-31T03:45:28.9827939+02:00",
+        "LastChanged": "1998-04-17T03:47:00.5974251+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "et",
+        "ExtraInfo": "est",
+        "StyleHint": "architecto",
         "Hidden": false,
-        "FullName": "Madeline Cummings",
+        "FullName": "Mrs. Leonel Cartwright",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 771
+            "FieldLength": 227
           }
         }
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "voluptatem",
-    "Hidden": false,
-    "FullName": "Dr. Verner Wisozk",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "soluta",
+    "Hidden": true,
+    "FullName": "Dr. Deshaun Brekke V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 521
+        "FieldLength": 479
       }
     }
   }

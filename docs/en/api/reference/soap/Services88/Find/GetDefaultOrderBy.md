@@ -2,6 +2,7 @@
 title: Services88.FindAgent.GetDefaultOrderBy SOAP
 generated: true
 uid: Services88-Find-GetDefaultOrderBy
+content_type: reference
 ---
 
 # Services88 Find GetDefaultOrderBy

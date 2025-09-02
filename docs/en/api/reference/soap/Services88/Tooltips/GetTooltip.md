@@ -2,6 +2,7 @@
 title: Services88.TooltipsAgent.GetTooltip SOAP
 generated: true
 uid: Services88-Tooltips-GetTooltip
+content_type: reference
 ---
 
 # Services88 Tooltips GetTooltip

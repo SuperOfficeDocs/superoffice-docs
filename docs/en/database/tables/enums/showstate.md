@@ -2,10 +2,10 @@
 uid: enum-showstate
 title: Enum values for ShowState
 description: Lists the enum values for ShowState.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ShowState Enum

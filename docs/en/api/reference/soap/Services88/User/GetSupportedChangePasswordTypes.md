@@ -2,6 +2,7 @@
 title: Services88.UserAgent.GetSupportedChangePasswordTypes SOAP
 generated: true
 uid: Services88-User-GetSupportedChangePasswordTypes
+content_type: reference
 ---
 
 # Services88 User GetSupportedChangePasswordTypes

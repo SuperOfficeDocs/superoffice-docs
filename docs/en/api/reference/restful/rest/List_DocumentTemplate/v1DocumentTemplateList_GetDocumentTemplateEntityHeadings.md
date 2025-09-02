@@ -2,6 +2,7 @@
 title: GET List/DocumentTemplate/Headings
 uid: v1DocumentTemplateList_GetDocumentTemplateEntityHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/DocumentTemplate/Headings
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 24,
-    "Name": "Bergstrom, Crooks and Schinner",
-    "Tooltip": "reprehenderit",
+    "HeadingId": 844,
+    "Name": "Turner-Schmitt",
+    "Tooltip": "accusantium",
     "Deleted": false,
-    "Rank": 296,
-    "UdListDefinitionId": 996,
+    "Rank": 666,
+    "UdListDefinitionId": 123,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 888
+        "FieldType": "System.Int32",
+        "FieldLength": 336
       }
     }
   }

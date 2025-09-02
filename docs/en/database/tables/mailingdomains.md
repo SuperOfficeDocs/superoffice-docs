@@ -2,10 +2,10 @@
 uid: table-MailingDomains
 title: MailingDomains table
 description: List of allowed domains used in a Mailing
-so.generated: true
+generated: true
 keywords: database table MailingDomains
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # MailingDomains Table (493)

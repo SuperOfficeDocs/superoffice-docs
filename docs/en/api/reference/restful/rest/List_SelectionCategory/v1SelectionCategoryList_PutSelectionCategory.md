@@ -2,6 +2,7 @@
 title: PUT List/SelectionCategory/Items/{id}
 uid: v1SelectionCategoryList_PutSelectionCategory
 generated: true
+content_type: reference
 ---
 
 # PUT List/SelectionCategory/Items/{id}
@@ -82,12 +83,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 883,
-  "Name": "Waters-Parisian",
-  "Tooltip": "blanditiis",
-  "Deleted": true,
-  "UdListDefinitionId": 877,
-  "Rank": 949
+  "Id": 924,
+  "Name": "Jaskolski LLC",
+  "Tooltip": "nemo",
+  "Deleted": false,
+  "UdListDefinitionId": 552,
+  "Rank": 308
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 247,
-  "Name": "Yundt Inc and Sons",
-  "Tooltip": "nobis",
-  "Deleted": false,
-  "UdListDefinitionId": 830,
-  "Rank": 284,
+  "Id": 292,
+  "Name": "Tromp Inc and Sons",
+  "Tooltip": "ipsam",
+  "Deleted": true,
+  "UdListDefinitionId": 614,
+  "Rank": 2,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 964
+      "FieldType": "System.Int32",
+      "FieldLength": 803
     }
   }
 }

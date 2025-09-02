@@ -2,6 +2,7 @@
 title: PUT Contact/{id}/ImageInfo
 uid: v1ContactEntity_PutImageInfo
 generated: true
+content_type: reference
 ---
 
 # PUT Contact/{id}/ImageInfo
@@ -93,23 +94,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 719,
-  "BlobSize": 433,
-  "Description": "Customizable global website",
-  "ExtraInfo": "maxime",
+  "BlobId": 799,
+  "BlobSize": 87,
+  "Description": "Persevering systematic analyzer",
+  "ExtraInfo": "vero",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "nihil",
-  "OriginalSize": 283,
-  "CreatedDate": "1999-04-18T03:45:28.1703207+02:00",
-  "UpdatedDate": "2007-09-24T03:45:28.1703207+02:00",
+  "IsZipped": false,
+  "MimeType": "quos",
+  "OriginalSize": 524,
+  "CreatedDate": "2005-12-22T03:46:59.8161962+01:00",
+  "UpdatedDate": "2001-10-30T03:46:59.8161962+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et"
+  "ConceptualType": "ut"
 }
 ```
 
@@ -120,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 619,
-  "BlobSize": 869,
-  "Description": "Synergized assymetric hardware",
-  "ExtraInfo": "veritatis",
-  "IsEncrypted": true,
+  "BlobId": 629,
+  "BlobSize": 808,
+  "Description": "Re-contextualized 24 hour monitoring",
+  "ExtraInfo": "nulla",
+  "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "est",
-  "OriginalSize": 210,
-  "CreatedDate": "2010-11-29T03:45:28.1703207+01:00",
-  "UpdatedDate": "2016-09-24T03:45:28.1703207+02:00",
+  "MimeType": "molestiae",
+  "OriginalSize": 288,
+  "CreatedDate": "2017-05-03T03:46:59.8161962+02:00",
+  "UpdatedDate": "2011-04-11T03:46:59.8161962+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "est",
+  "ConceptualType": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 225
+      "FieldLength": 174
     }
   }
 }

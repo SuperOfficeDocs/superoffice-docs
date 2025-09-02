@@ -2,6 +2,7 @@
 title: Services88.BLOBAgent.DeleteBlobEntity SOAP
 generated: true
 uid: Services88-BLOB-DeleteBlobEntity
+content_type: reference
 ---
 
 # Services88 BLOB DeleteBlobEntity

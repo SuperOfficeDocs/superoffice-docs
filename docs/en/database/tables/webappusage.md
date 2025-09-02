@@ -2,10 +2,10 @@
 uid: table-WebAppUsage
 title: WebAppUsage table
 description: Usage statistics for web applications
-so.generated: true
+generated: true
 keywords: database table WebAppUsage
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # WebAppUsage Table (249)

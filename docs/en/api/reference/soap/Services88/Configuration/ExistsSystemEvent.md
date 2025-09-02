@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.ExistsSystemEvent SOAP
 generated: true
 uid: Services88-Configuration-ExistsSystemEvent
+content_type: reference
 ---
 
 # Services88 Configuration ExistsSystemEvent

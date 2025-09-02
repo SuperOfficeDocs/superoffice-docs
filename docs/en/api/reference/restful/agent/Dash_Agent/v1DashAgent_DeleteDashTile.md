@@ -2,6 +2,7 @@
 title: POST Agents/Dash/DeleteDashTile
 uid: v1DashAgent_DeleteDashTile
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/DeleteDashTile
@@ -22,10 +23,10 @@ Deletes the DashTile
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| DashTileId | int32 | **Required** The id of the DashTile to be deleted. |
+| dashTileId | int32 | **Required** The identity of the DashTile |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDashTile?DashTileId=525
+POST /api/v1/Agents/Dash/DeleteDashTile?dashTileId=947
 ```
 
 

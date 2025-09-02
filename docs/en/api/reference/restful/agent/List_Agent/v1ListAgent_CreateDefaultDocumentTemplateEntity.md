@@ -2,6 +2,7 @@
 title: POST Agents/List/CreateDefaultDocumentTemplateEntity
 uid: v1ListAgent_CreateDefaultDocumentTemplateEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/CreateDefaultDocumentTemplateEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 ```
 
-Set default values into a new DocumentTemplateEntity.
+Loading default values into a new DocumentTemplateEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -81,7 +80,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,37 +90,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 574,
-  "Name": "Blanda LLC",
-  "Tooltip": "delectus",
-  "SaveInDb": 383,
-  "Filename": "inventore",
-  "DefaultOref": "et",
+  "DocumentTemplateId": 321,
+  "Name": "O'Hara Inc and Sons",
+  "Tooltip": "occaecati",
+  "SaveInDb": 183,
+  "Filename": "eveniet",
+  "DefaultOref": "nihil",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 394,
-  "IntentId": 962,
-  "IsDefaultPublished": true,
-  "Rank": 207,
-  "LoadTemplateFromPlugin": 756,
-  "MimeType": "voluptas",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 447,
+  "AutoeventId": 190,
+  "IntentId": 653,
+  "IsDefaultPublished": false,
+  "Rank": 296,
+  "LoadTemplateFromPlugin": 32,
+  "MimeType": "ullam",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 519,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "rodolfo.herman@strosinnader.biz",
+  "EmailSubject": "mac_stokes@dickinsonmraz.us",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "milton@champlin.uk",
+  "SenderEmailAddress": "abagail@skiles.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 924
+      "FieldType": "System.String",
+      "FieldLength": 759
     }
   }
 }

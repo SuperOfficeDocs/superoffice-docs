@@ -2,6 +2,7 @@
 title: POST Agents/EMail/DeleteEMailAccount
 uid: v1EMailAgent_DeleteEMailAccount
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/DeleteEMailAccount
@@ -24,10 +25,10 @@ Deletes the EMailAccount
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| EMailAccountId | int32 | **Required** The id of the EMailAccount to be deleted. |
+| eMailAccountId | int32 | **Required** The identity of the EMailAccount |
 
 ```http
-POST /api/v1/Agents/EMail/DeleteEMailAccount?EMailAccountId=215
+POST /api/v1/Agents/EMail/DeleteEMailAccount?eMailAccountId=50
 ```
 
 
@@ -58,7 +59,7 @@ No Content
 POST /api/v1/Agents/EMail/DeleteEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

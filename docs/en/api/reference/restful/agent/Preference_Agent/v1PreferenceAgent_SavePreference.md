@@ -2,6 +2,7 @@
 title: POST Agents/Preference/SavePreference
 uid: v1PreferenceAgent_SavePreference
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/SavePreference
@@ -64,7 +65,7 @@ No Content
 POST /api/v1/Agents/Preference/SavePreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {

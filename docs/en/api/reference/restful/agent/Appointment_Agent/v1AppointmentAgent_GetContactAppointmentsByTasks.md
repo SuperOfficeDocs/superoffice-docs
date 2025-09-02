@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetContactAppointmentsByTasks
 uid: v1AppointmentAgent_GetContactAppointmentsByTasks
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetContactAppointmentsByTasks
@@ -118,6 +119,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -132,17 +134,17 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 9,
-  "StartTime": "2013-07-29T03:45:22.6861022+02:00",
-  "EndTime": "2013-01-20T03:45:22.6861022+01:00",
-  "Count": 912,
+  "ContactId": 593,
+  "StartTime": "1998-07-02T03:46:53.9882851+02:00",
+  "EndTime": "2003-02-18T03:46:53.9882851+01:00",
+  "Count": 647,
   "TaskIds": [
-    348,
-    281
+    177,
+    842
   ]
 }
 ```
@@ -155,66 +157,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 113,
-    "StartDate": "2011-04-01T03:45:22.6861022+02:00",
-    "EndDate": "2024-01-27T03:45:22.6861022+01:00",
+    "AppointmentId": 335,
+    "StartDate": "2012-08-15T03:46:53.9882851+02:00",
+    "EndDate": "2010-04-22T03:46:53.9882851+02:00",
     "Type": "BookingForChecklist",
-    "Task": "asperiores",
-    "AssociateFullName": "Mrs. Fatima Price Mann I",
-    "ContactName": "Sawayn Inc and Sons",
-    "Description": "Configurable well-modulated matrix",
-    "PersonFullName": "Mr. Mariam Stanton III",
-    "PersonId": 448,
-    "ContactId": 450,
-    "ProjectId": 18,
-    "ProjectName": "Heller-Adams",
-    "IsPublished": false,
-    "AssociateId": 101,
-    "ColorIndex": 466,
+    "Task": "voluptatem",
+    "AssociateFullName": "Tobin Mosciski",
+    "ContactName": "Shields-Kemmer",
+    "Description": "Pre-emptive actuating approach",
+    "PersonFullName": "Marina Gerhold",
+    "PersonId": 505,
+    "ContactId": 809,
+    "ProjectId": 317,
+    "ProjectName": "Cassin, Reynolds and Carroll",
+    "IsPublished": true,
+    "AssociateId": 964,
+    "ColorIndex": 177,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 172,
-    "PriorityName": "Jacobs Group",
+    "PriorityId": 635,
+    "PriorityName": "Pfannerstill-Jacobs",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2016-05-13T03:45:22.6861022+02:00",
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2015-05-17T03:46:53.9882851+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-01-28T03:45:22.6861022+01:00",
-    "RecurringEndDate": "2018-04-01T03:45:22.6861022+02:00",
-    "MotherId": 202,
-    "AssignedBy": 981,
-    "AssignedByFullName": "Jaydon Bartell II",
-    "RejectReason": "deliver bricks-and-clicks paradigms",
-    "Location": "in",
-    "AlarmLeadTime": "omnis",
-    "SaleId": 925,
-    "SaleName": "Conroy Group",
-    "AssociateName": "Kessler-Roberts",
-    "CreatedDate": "2025-06-22T03:45:22.6861022+02:00",
-    "CreatedBy": "sed",
-    "CreatedByFullName": "Mathilde Torp",
-    "CreatedByAssociateId": 179,
+    "RecurringStartDate": "2014-02-09T03:46:53.9882851+01:00",
+    "RecurringEndDate": "2011-01-25T03:46:53.9882851+01:00",
+    "MotherId": 656,
+    "AssignedBy": 979,
+    "AssignedByFullName": "Shakira Vaughn Ernser Jr.",
+    "RejectReason": "",
+    "Location": "iure",
+    "AlarmLeadTime": "consequatur",
+    "SaleId": 685,
+    "SaleName": "Daniel, Weimann and Balistreri",
+    "AssociateName": "Hand-Cole",
+    "CreatedDate": "2002-11-21T03:46:53.9882851+01:00",
+    "CreatedBy": "possimus",
+    "CreatedByFullName": "Mr. Jett Ruecker",
+    "CreatedByAssociateId": 204,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 132,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 666,
-    "Title": "odit",
-    "Agenda": "quibusdam",
-    "InternalNotes": "rerum",
+    "PreferredTZLocation": 65,
+    "Title": "repudiandae",
+    "Agenda": "commodi",
+    "InternalNotes": "sed",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 28
+        "FieldLength": 118
       }
     }
   }

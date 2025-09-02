@@ -3,9 +3,9 @@ uid: RecyclePerson
 title: RecyclePerson
 description: 
 keywords: RecyclePerson archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "RecyclePerson"

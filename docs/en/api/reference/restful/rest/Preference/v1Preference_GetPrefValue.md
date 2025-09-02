@@ -2,6 +2,7 @@
 title: GET Preference/{section}/{key}
 uid: v1Preference_GetPrefValue
 generated: true
+content_type: reference
 ---
 
 # GET Preference/{section}/{key}
@@ -83,22 +84,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "magnam",
+  "RawValue": "sint",
   "Specification": null,
-  "DisplayValue": "fugiat",
-  "DisplayTooltip": "dicta",
+  "DisplayValue": "voluptatibus",
+  "DisplayTooltip": "vel",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 750,
-  "PrefDescId": 834,
-  "TableName": "Collier, Ledner and Thiel",
-  "UserPreferenceId": 511,
+  "TargetId": 818,
+  "PrefDescId": 480,
+  "TableName": "Cummerata-Predovic",
+  "UserPreferenceId": 502,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 303
+      "FieldType": "System.Int32",
+      "FieldLength": 218
     }
   }
 }

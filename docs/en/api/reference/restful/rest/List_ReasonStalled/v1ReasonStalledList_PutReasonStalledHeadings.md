@@ -2,6 +2,7 @@
 title: PUT List/ReasonStalled/Headings
 uid: v1ReasonStalledList_PutReasonStalledHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/ReasonStalled/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 115,
-    "Name": "Considine, Herzog and Bashirian",
-    "Tooltip": "nihil",
+    "HeadingId": 355,
+    "Name": "Macejkovic, Schiller and Langosh",
+    "Tooltip": "quo",
     "Deleted": false,
-    "Rank": 384,
-    "UdListDefinitionId": 909
+    "Rank": 386,
+    "UdListDefinitionId": 362
   },
   {
-    "HeadingId": 115,
-    "Name": "Considine, Herzog and Bashirian",
-    "Tooltip": "nihil",
+    "HeadingId": 355,
+    "Name": "Macejkovic, Schiller and Langosh",
+    "Tooltip": "quo",
     "Deleted": false,
-    "Rank": 384,
-    "UdListDefinitionId": 909
+    "Rank": 386,
+    "UdListDefinitionId": 362
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 582,
-    "Name": "Ward Group",
-    "Tooltip": "tenetur",
+    "HeadingId": 491,
+    "Name": "Kertzmann Group",
+    "Tooltip": "sit",
     "Deleted": false,
-    "Rank": 484,
-    "UdListDefinitionId": 196,
+    "Rank": 261,
+    "UdListDefinitionId": 271,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 442
+        "FieldType": "System.Int32",
+        "FieldLength": 478
       }
     }
   }

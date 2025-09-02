@@ -2,6 +2,7 @@
 title: POST Agents/TimeZone/DeleteTimeZones
 uid: v1TimeZoneAgent_DeleteTimeZones
 generated: true
+content_type: reference
 ---
 
 # POST Agents/TimeZone/DeleteTimeZones
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/TimeZone/DeleteTimeZones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

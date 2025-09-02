@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetProductFromDbId
 uid: v1QuoteAgent_GetProductFromDbId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetProductFromDbId
@@ -106,11 +107,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 344
+  "ProductId": 522
 }
 ```
 
@@ -121,73 +122,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 408,
-  "ERPProductKey": "error",
-  "ERPPriceListKey": "consequatur",
-  "Name": "Crist-Hermiston",
-  "Description": "Optimized asynchronous firmware",
-  "Code": "non",
-  "PriceUnit": "rerum",
-  "QuantityUnit": "rerum",
-  "IsSubscription": false,
-  "SubscriptionUnit": "ullam",
-  "DefaultSubscriptionQuantity": 14554.296,
-  "ItemNumber": "1341213",
+  "ProductId": 211,
+  "ERPProductKey": "occaecati",
+  "ERPPriceListKey": "fugit",
+  "Name": "Reichel-Mann",
+  "Description": "Phased actuating strategy",
+  "Code": "amet",
+  "PriceUnit": "rem",
+  "QuantityUnit": "iste",
+  "IsSubscription": true,
+  "SubscriptionUnit": "reprehenderit",
+  "DefaultSubscriptionQuantity": 19023.38,
+  "ItemNumber": "1053678",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nemo",
-  "ProductTypeKey": "dicta",
-  "VAT": 17309.082,
-  "VATInfo": "at",
-  "UnitCost": 18095.716,
-  "UnitMinimumPrice": 19330.512,
-  "UnitListPrice": 1560.732,
+  "ProductFamilyKey": "veritatis",
+  "ProductTypeKey": "reprehenderit",
+  "VAT": 21793.836,
+  "VATInfo": "dolorum",
+  "UnitCost": 8518.212,
+  "UnitMinimumPrice": 3998.984,
+  "UnitListPrice": 20101.476,
   "InAssortment": true,
-  "Supplier": "autem",
-  "SupplierCode": "suscipit",
-  "Rights": "voluptas",
-  "Rule": "sit",
+  "Supplier": "qui",
+  "SupplierCode": "nemo",
+  "Rights": "nesciunt",
+  "Rule": "facere",
   "ExtraInfo": [
     {
-      "Name": "Upton-Prohaska",
-      "Value": "laboriosam",
+      "Name": "Swift, Muller and Kertzmann",
+      "Value": "aspernatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 842
+          "FieldLength": 122
         }
       }
     },
     {
-      "Name": "Upton-Prohaska",
-      "Value": "laboriosam",
+      "Name": "Swift, Muller and Kertzmann",
+      "Value": "aspernatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 842
+          "FieldLength": 122
         }
       }
     }
   ],
-  "RawExtraInfo": "qui",
-  "ExtraField1": "ipsam",
-  "ExtraField2": "asperiores",
-  "ExtraField3": "minima",
-  "ExtraField4": "quia",
-  "ExtraField5": "sed",
-  "InStock": 26225.311999999998,
+  "RawExtraInfo": "aut",
+  "ExtraField1": "voluptas",
+  "ExtraField2": "numquam",
+  "ExtraField3": "perferendis",
+  "ExtraField4": "iusto",
+  "ExtraField5": "praesentium",
+  "InStock": 11561.326,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 81
+      "FieldLength": 269
     }
   }
 }

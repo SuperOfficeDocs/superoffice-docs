@@ -2,6 +2,7 @@
 title: POST Agents/Sale/GetSaleStakeholder
 uid: v1SaleAgent_GetSaleStakeholder
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/GetSaleStakeholder
@@ -22,11 +23,11 @@ Gets a SaleStakeholder object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| saleStakeholderId | int32 | **Required** The primary key. |
+| saleStakeholderId | int32 | **Required** The identifier of the SaleStakeholder object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=21
+POST /api/v1/Agents/Sale/GetSaleStakeholder?saleStakeholderId=13
 POST /api/v1/Agents/Sale/GetSaleStakeholder?$select=name,department,category/id
 ```
 
@@ -95,31 +96,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Hane, Rutherford and Lemke",
-  "Comment": "fugit",
-  "StakeholderRoleId": 764,
-  "CountryId": 712,
-  "PersonId": 676,
-  "EmailDescription": "zula@hammes.info",
-  "EmailId": 497,
-  "EmailAddress": "braxton.mcglynn@feeney.co.uk",
-  "PhoneId": 245,
-  "ContactName": "McClure, Windler and Schamberger",
-  "ContactId": 684,
-  "SaleId": 273,
-  "Mrmrs": "voluptas",
-  "Firstname": "Moshe",
-  "MiddleName": "Schoen-Nitzsche",
-  "Lastname": "Wilkinson",
-  "SaleStakeholderId": 706,
-  "Rank": 787,
-  "Phone": "444.248.6102 x551",
+  "StakeholderRoleName": "Donnelly-Balistreri",
+  "Comment": "natus",
+  "StakeholderRoleId": 889,
+  "CountryId": 900,
+  "PersonId": 874,
+  "EmailDescription": "domenic.damore@boyer.name",
+  "EmailId": 304,
+  "EmailAddress": "citlalli.kuhic@block.info",
+  "PhoneId": 790,
+  "ContactName": "Quigley Inc and Sons",
+  "ContactId": 520,
+  "SaleId": 11,
+  "Mrmrs": "nihil",
+  "Firstname": "Florine",
+  "MiddleName": "O'Reilly-Schroeder",
+  "Lastname": "Lesch",
+  "SaleStakeholderId": 566,
+  "Rank": 761,
+  "Phone": "1-145-354-9114",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 974
+      "FieldType": "System.String",
+      "FieldLength": 192
     }
   }
 }

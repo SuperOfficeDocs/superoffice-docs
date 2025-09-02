@@ -3,9 +3,9 @@ uid: periods
 title: periods
 keywords: mdoprovider mdo provider periods
 description: Period values - Day, Week, Month, Quarter, Year
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "periods" MDO List

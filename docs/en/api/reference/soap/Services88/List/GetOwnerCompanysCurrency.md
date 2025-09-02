@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetOwnerCompanysCurrency SOAP
 generated: true
 uid: Services88-List-GetOwnerCompanysCurrency
+content_type: reference
 ---
 
 # Services88 List GetOwnerCompanysCurrency

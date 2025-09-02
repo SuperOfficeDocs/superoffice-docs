@@ -3,9 +3,9 @@ uid: contact_and_person_freetextsearch
 title: contact_and_person_freetextsearch
 keywords: mdoprovider mdo provider contact_and_person_freetextsearch
 description: Provider for selecting a Contact or a Person Does keyword matching and scoring across multiple string fields. Checks name, department, soundex fields. Additional - <list type="bullet"><item>Name = Person or PersonContact or ContactPerson</item><item>AddContact = true or false - add a contact item for person items</item><item>ExpandContact = TRUE or false - add all persons for a contact items</item><item>SkipRetired = TRUE or false - skip retired persons</item><item>ContactId = 123 - boost persons belonging to contact id in results rank</item></list>
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "contact_and_person_freetextsearch" MDO List

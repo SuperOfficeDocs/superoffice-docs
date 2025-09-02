@@ -1,6 +1,8 @@
 ---
+uid: tag-List
 title: List
 generated: true
+content_type: reference
 ---
 
 ```http

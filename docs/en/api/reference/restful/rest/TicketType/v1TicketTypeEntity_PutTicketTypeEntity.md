@@ -2,6 +2,7 @@
 title: PUT TicketType/{id}
 uid: v1TicketTypeEntity_PutTicketTypeEntity
 generated: true
+content_type: reference
 ---
 
 # PUT TicketType/{id}
@@ -119,34 +120,34 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 18,
-  "Name": "Schneider, Toy and Murazik",
-  "Rank": 963,
-  "Tooltip": "quasi",
-  "Icon": "labore",
-  "DefaultTicketStatus": 263,
+  "TicketTypeId": 511,
+  "Name": "Wehner-Lueilwitz",
+  "Rank": 962,
+  "Tooltip": "illo",
+  "Icon": "voluptas",
+  "DefaultTicketStatus": 617,
   "TicketStatuses": [
-    136,
-    960
+    997,
+    417
   ],
-  "DefaultTicketPriority": 209,
+  "DefaultTicketPriority": 397,
   "TicketPriorities": [
-    171,
-    504
+    115,
+    626
   ],
-  "ReplyTemplate": 357,
+  "ReplyTemplate": 473,
   "IsExternalVisible": true,
   "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    558,
-    799
+    780,
+    28
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false
+  "ReplyExternalAsDefault": true
 }
 ```
 
@@ -157,40 +158,40 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 589,
-  "Name": "Grady, Ritchie and Wolff",
-  "Rank": 996,
-  "Tooltip": "harum",
-  "Icon": "voluptate",
-  "DefaultTicketStatus": 568,
+  "TicketTypeId": 565,
+  "Name": "Treutel-Rutherford",
+  "Rank": 13,
+  "Tooltip": "ea",
+  "Icon": "sunt",
+  "DefaultTicketStatus": 38,
   "TicketStatuses": [
-    219,
-    836
+    80,
+    909
   ],
-  "DefaultTicketPriority": 404,
+  "DefaultTicketPriority": 360,
   "TicketPriorities": [
-    111,
-    566
+    803,
+    361
   ],
-  "ReplyTemplate": 591,
+  "ReplyTemplate": 944,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    640,
-    686
+    266,
+    1002
   ],
-  "ReplyForwardNoSignature": false,
+  "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 57
+      "FieldType": "System.String",
+      "FieldLength": 406
     }
   },
   "_Links": {

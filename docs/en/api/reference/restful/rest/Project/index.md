@@ -1,6 +1,8 @@
 ---
+uid: tag-Project
 title: Project
 generated: true
+content_type: reference
 ---
 
 ```http

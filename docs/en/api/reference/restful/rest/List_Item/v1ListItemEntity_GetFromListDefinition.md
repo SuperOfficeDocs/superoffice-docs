@@ -2,6 +2,7 @@
 title: GET List/{id}/Items/{id}
 uid: v1ListItemEntity_GetFromListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/{id}/Items/{id}
@@ -66,7 +67,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 365,
-  "Name": "Gislason, Beer and Mosciski",
-  "Tooltip": "repudiandae",
+  "Id": 537,
+  "Name": "Hilll LLC",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "UdListDefinitionId": 169,
-  "Rank": 22,
+  "UdListDefinitionId": 861,
+  "Rank": 392,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 977
+      "FieldLength": 979
     }
   }
 }

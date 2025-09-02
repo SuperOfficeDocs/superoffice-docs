@@ -1,4 +1,3 @@
-items:
 - name: SOAP Web Services
   href: index.md
 - name: Services84
@@ -11504,6 +11503,10 @@ items:
   - name: AI
     href: Services88/AI/index.md
     items:
+    - name: AnalyzeBizCardImage
+      href: Services88/AI/AnalyzeBizCardImage.md
+    - name: AnalyzeBizCardText
+      href: Services88/AI/AnalyzeBizCardText.md
     - name: Answer
       href: Services88/AI/Answer.md
     - name: AnswerAccepted
@@ -13326,6 +13329,8 @@ items:
       href: Services88/List/ChangeCurrency.md
     - name: CreateDefaultAmountClassEntity
       href: Services88/List/CreateDefaultAmountClassEntity.md
+    - name: CreateDefaultCategoryEntity
+      href: Services88/List/CreateDefaultCategoryEntity.md
     - name: CreateDefaultCountry
       href: Services88/List/CreateDefaultCountry.md
     - name: CreateDefaultCurrencyEntity
@@ -13464,6 +13469,8 @@ items:
       href: Services88/List/GetCategories.md
     - name: GetCategory
       href: Services88/List/GetCategory.md
+    - name: GetCategoryEntity
+      href: Services88/List/GetCategoryEntity.md
     - name: GetCategoryList
       href: Services88/List/GetCategoryList.md
     - name: GetCompetitor
@@ -13798,6 +13805,8 @@ items:
       href: Services88/List/SaveAllFromListName.md
     - name: SaveAmountClassEntity
       href: Services88/List/SaveAmountClassEntity.md
+    - name: SaveCategoryEntity
+      href: Services88/List/SaveCategoryEntity.md
     - name: SaveConsentPurpose
       href: Services88/List/SaveConsentPurpose.md
     - name: SaveConsentSource
@@ -14118,6 +14127,8 @@ items:
       href: Services88/Person/GetSalesRep.md
     - name: GetUserCandidateByPerson
       href: Services88/Person/GetUserCandidateByPerson.md
+    - name: GetUtmParameters
+      href: Services88/Person/GetUtmParameters.md
     - name: HasConsent
       href: Services88/Person/HasConsent.md
     - name: IsNumberValid
@@ -14385,6 +14396,8 @@ items:
       href: Services88/Project/SaveProjectMember.md
     - name: SaveProjectMembersFunctionAndComment
       href: Services88/Project/SaveProjectMembersFunctionAndComment.md
+    - name: SetCompleted
+      href: Services88/Project/SetCompleted.md
     - name: SetDuplicateRulesStatus
       href: Services88/Project/SetDuplicateRulesStatus.md
     - name: SetProjectImage
@@ -14768,6 +14781,8 @@ items:
       href: Services88/Selection/CreateContactSelectionFromSelection.md
     - name: CreateContactSelectionFromShadowSelection
       href: Services88/Selection/CreateContactSelectionFromShadowSelection.md
+    - name: CreateDefaultBoardViewSettingsFromEntityType
+      href: Services88/Selection/CreateDefaultBoardViewSettingsFromEntityType.md
     - name: CreateDefaultSelectionEntity
       href: Services88/Selection/CreateDefaultSelectionEntity.md
     - name: CreateNewEntry
@@ -14784,6 +14799,8 @@ items:
       href: Services88/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds.md
     - name: CreateTemporarySelectionFromIds
       href: Services88/Selection/CreateTemporarySelectionFromIds.md
+    - name: DeleteBoardViewSettings
+      href: Services88/Selection/DeleteBoardViewSettings.md
     - name: DeleteContacts
       href: Services88/Selection/DeleteContacts.md
     - name: DeleteEntities
@@ -14800,6 +14817,10 @@ items:
       href: Services88/Selection/ExportSelectionMembersWithOrderBy.md
     - name: GenerateFollowUps
       href: Services88/Selection/GenerateFollowUps.md
+    - name: GetBoardViewSettings
+      href: Services88/Selection/GetBoardViewSettings.md
+    - name: GetBoardViewSettingsForSelection
+      href: Services88/Selection/GetBoardViewSettingsForSelection.md
     - name: GetDuplicateRules
       href: Services88/Selection/GetDuplicateRules.md
     - name: GetDuplicates
@@ -14838,6 +14859,8 @@ items:
       href: Services88/Selection/RemoveSelectionMembersById.md
     - name: RemoveSelectionMembersFromSearch
       href: Services88/Selection/RemoveSelectionMembersFromSearch.md
+    - name: SaveBoardViewSettings
+      href: Services88/Selection/SaveBoardViewSettings.md
     - name: SaveSelectionEntity
       href: Services88/Selection/SaveSelectionEntity.md
     - name: SetDuplicateRulesStatus

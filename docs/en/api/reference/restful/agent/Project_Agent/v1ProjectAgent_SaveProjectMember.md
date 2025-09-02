@@ -2,6 +2,7 @@
 title: POST Agents/Project/SaveProjectMember
 uid: v1ProjectAgent_SaveProjectMember
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/SaveProjectMember
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Project/SaveProjectMember
 ```
 
-Updates the existing ProjectMember or creates a new ProjectMember if the id parameter is empty
+Updates the existing ProjectMember or creates a new ProjectMember if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing ProjectMember or creates a new ProjectMember if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: projectMember 
 
-The ProjectMember to be saved. 
+The ProjectMember that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -103,31 +104,31 @@ OK
 POST /api/v1/Agents/Project/SaveProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 227,
-  "ContactId": 104,
-  "ProjectId": 931,
-  "ContactName": "Kerluke, McCullough and Lesch",
+  "ProjectmemberId": 857,
+  "ContactId": 528,
+  "ProjectId": 8,
+  "ContactName": "Goodwin, Zboncak and White",
   "ContactDepartment": "",
-  "ProjectName": "Hirthe-Hegmann",
-  "EmailId": 260,
-  "EmailAddress": "johnathon@klein.com",
-  "CountryId": 736,
-  "Firstname": "Nyah",
-  "MiddleName": "Bergstrom, Christiansen and Parker",
-  "Lastname": "Fay",
-  "PersonId": 199,
-  "Mrmrs": "voluptas",
-  "ProjectMemberTypeName": "Ruecker, Harvey and Bailey",
-  "Phone": "(271)514-9036 x050",
-  "PhoneId": 740,
-  "ProjectMemberTypeId": 53,
-  "EmailAddressName": "bulah_leannon@greenfelder.com",
-  "Comment": "non",
-  "FullName": "Ms. Kianna Jaida Bruen"
+  "ProjectName": "Kuhn LLC",
+  "EmailId": 507,
+  "EmailAddress": "savion@tillmandouglas.uk",
+  "CountryId": 783,
+  "Firstname": "Rossie",
+  "MiddleName": "Stoltenberg Inc and Sons",
+  "Lastname": "Bednar",
+  "PersonId": 793,
+  "Mrmrs": "maxime",
+  "ProjectMemberTypeName": "Murray LLC",
+  "Phone": "(596)550-6416",
+  "PhoneId": 39,
+  "ProjectMemberTypeId": 454,
+  "EmailAddressName": "bennett@schimmel.us",
+  "Comment": "assumenda",
+  "FullName": "Ms. Mariela Theron Sawayn"
 }
 ```
 
@@ -138,33 +139,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 661,
-  "ContactId": 724,
-  "ProjectId": 466,
-  "ContactName": "Beier, Gorczany and Rice",
+  "ProjectmemberId": 992,
+  "ContactId": 924,
+  "ProjectId": 713,
+  "ContactName": "Jacobs Group",
   "ContactDepartment": "",
-  "ProjectName": "Upton-Mayer",
-  "EmailId": 941,
-  "EmailAddress": "autumn@nader.ca",
-  "CountryId": 896,
-  "Firstname": "Winifred",
-  "MiddleName": "Stoltenberg-Reilly",
-  "Lastname": "Altenwerth",
-  "PersonId": 383,
-  "Mrmrs": "ab",
-  "ProjectMemberTypeName": "Brown, Wuckert and Pagac",
-  "Phone": "200.118.2809 x016",
-  "PhoneId": 788,
-  "ProjectMemberTypeId": 788,
-  "EmailAddressName": "francesco_stokes@labadie.uk",
-  "Comment": "et",
-  "FullName": "Janie Purdy",
+  "ProjectName": "Ondricka-Rath",
+  "EmailId": 515,
+  "EmailAddress": "kaden@baumbach.ca",
+  "CountryId": 825,
+  "Firstname": "Esteban",
+  "MiddleName": "Beier LLC",
+  "Lastname": "Thompson",
+  "PersonId": 218,
+  "Mrmrs": "deserunt",
+  "ProjectMemberTypeName": "Harris-Sawayn",
+  "Phone": "375-783-8390",
+  "PhoneId": 163,
+  "ProjectMemberTypeId": 584,
+  "EmailAddressName": "delfina@wolforn.com",
+  "Comment": "velit",
+  "FullName": "Arielle Schamberger",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 866
+      "FieldLength": 163
     }
   }
 }

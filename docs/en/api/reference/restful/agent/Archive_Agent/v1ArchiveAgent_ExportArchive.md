@@ -2,6 +2,7 @@
 title: POST Agents/Archive/ExportArchive
 uid: v1ArchiveAgent_ExportArchive
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/ExportArchive
@@ -87,37 +88,37 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Marks LLC",
-  "Context": "dolores",
+  "ProviderName": "Klocko-Kling",
+  "Context": "quidem",
   "DesiredEntities": [
-    "quia",
-    "architecto"
+    "aut",
+    "numquam"
   ],
   "Columns": [
-    "voluptatum",
-    "aut"
+    "beatae",
+    "sunt"
   ],
   "SortOrder": [
     {
-      "Name": "Schaden LLC",
+      "Name": "Tremblay Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Schaden LLC",
+      "Name": "Tremblay Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Heathcote-Ankunding",
-      "Operator": "id",
+      "Name": "West-Beatty",
+      "Operator": "non",
       "Values": [
-        "quas",
-        "ab"
+        "iste",
+        "ducimus"
       ],
       "DisplayValues": [
-        "veritatis",
-        "consequatur"
+        "sit",
+        "vel"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -125,17 +126,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 257,
+      "InterParenthesis": 474,
       "InterOperator": "And",
-      "UniqueHash": 294
+      "UniqueHash": 365
     }
   ],
-  "ExportType": "enim",
+  "ExportType": "saepe",
   "SelectedRowIds": [
-    "voluptatum",
-    "commodi"
+    "blanditiis",
+    "quas"
   ],
-  "EstimatedRowCount": 410
+  "EstimatedRowCount": 190
 }
 ```
 
@@ -146,15 +147,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 505,
-  "FileName": "Lakin, Rutherford and Halvorson",
-  "Message": "ut",
+  "BatchTaskId": 422,
+  "FileName": "Crooks, Torp and Harber",
+  "Message": "magni",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 887
+      "FieldLength": 820
     }
   }
 }

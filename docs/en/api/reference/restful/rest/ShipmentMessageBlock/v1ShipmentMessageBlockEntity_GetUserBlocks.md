@@ -2,6 +2,7 @@
 title: GET ShipmentMessageBlock/Associate/{id}
 uid: v1ShipmentMessageBlockEntity_GetUserBlocks
 generated: true
+content_type: reference
 ---
 
 # GET ShipmentMessageBlock/Associate/{id}
@@ -66,7 +67,7 @@ OK
 GET /api/v1/ShipmentMessageBlock/Associate/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 826,
-    "AssociateId": 517,
-    "Block": "sapiente",
-    "Registered": "1999-05-10T03:45:28.6546813+02:00",
-    "RegisteredAssociateId": 230,
-    "Updated": "2002-07-16T03:45:28.6546813+02:00",
-    "UpdatedAssociateId": 869,
-    "UpdatedCount": 269,
+    "ShipmentMessageBlockId": 827,
+    "AssociateId": 544,
+    "Block": "neque",
+    "Registered": "2023-02-20T03:47:00.3005605+01:00",
+    "RegisteredAssociateId": 661,
+    "Updated": "2015-08-09T03:47:00.3005605+02:00",
+    "UpdatedAssociateId": 761,
+    "UpdatedCount": 322,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 922
+        "FieldLength": 647
       }
     }
   }

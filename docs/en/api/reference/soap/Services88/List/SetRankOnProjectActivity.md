@@ -2,6 +2,7 @@
 title: Services88.ListAgent.SetRankOnProjectActivity SOAP
 generated: true
 uid: Services88-List-SetRankOnProjectActivity
+content_type: reference
 ---
 
 # Services88 List SetRankOnProjectActivity

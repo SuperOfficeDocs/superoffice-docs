@@ -2,6 +2,7 @@
 title: Services88.WorkflowAgent.RemoveParticipantsFromEmailFlow SOAP
 generated: true
 uid: Services88-Workflow-RemoveParticipantsFromEmailFlow
+content_type: reference
 ---
 
 # Services88 Workflow RemoveParticipantsFromEmailFlow

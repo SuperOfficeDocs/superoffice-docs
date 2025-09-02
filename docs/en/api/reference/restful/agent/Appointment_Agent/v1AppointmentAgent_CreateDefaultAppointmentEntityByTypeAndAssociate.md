@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 uid: v1AppointmentAgent_CreateDefaultAppointmentEntityByTypeAndAssociate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
@@ -133,12 +134,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 218
+  "AssociateId": 207
 }
 ```
 
@@ -153,121 +154,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2017-12-01T03:45:22.9048421+01:00",
-  "AppointmentId": 631,
-  "Description": "Persevering mobile open system",
-  "Title": "culpa",
-  "Agenda": "ab",
-  "InternalNotes": "voluptatem",
-  "StartDate": "2000-06-05T03:45:22.9048421+02:00",
-  "EndDate": "2004-10-12T03:45:22.9048421+02:00",
+  "CreatedDate": "2001-03-20T03:46:54.2070265+01:00",
+  "AppointmentId": 901,
+  "Description": "Stand-alone local benchmark",
+  "Title": "commodi",
+  "Agenda": "cupiditate",
+  "InternalNotes": "vel",
+  "StartDate": "2023-03-20T03:46:54.2070265+01:00",
+  "EndDate": "2011-07-09T03:46:54.2070265+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 556,
+  "MotherId": 605,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2020-07-21T03:45:22.9048421+02:00",
+  "UpdatedDate": "2002-06-04T03:46:54.2070265+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 131,
+  "ActiveLinks": 910,
   "Links": [
     {
-      "EntityName": "Mertz, Stamm and Reynolds",
-      "Id": 868,
-      "Description": "Multi-lateral foreground algorithm",
-      "ExtraInfo": "non",
-      "LinkId": 527,
+      "EntityName": "Luettgen LLC",
+      "Id": 702,
+      "Description": "Streamlined attitude-oriented focus group",
+      "ExtraInfo": "et",
+      "LinkId": 415,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 720
+          "FieldLength": 311
         }
       }
     }
   ],
-  "AlarmLeadTime": "deleniti",
+  "AlarmLeadTime": "fugit",
   "HasAlarm": false,
-  "ColorIndex": 863,
-  "IsFree": false,
+  "ColorIndex": 678,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "distinctio",
-  "LeadTime": "perspiciatis",
-  "Location": "et",
-  "RejectCounter": 243,
+  "LagTime": "voluptatem",
+  "LeadTime": "rerum",
+  "Location": "non",
+  "RejectCounter": 103,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 788,
-      "PersonId": 996,
-      "ContactId": 367,
-      "EmailId": 659,
-      "SendEmail": false,
+      "AssociateId": 602,
+      "PersonId": 303,
+      "ContactId": 245,
+      "EmailId": 572,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "jamison@botsford.us",
-      "Description": "Ergonomic exuding project"
+      "EmailAddress": "lupe@gleason.info",
+      "Description": "Distributed regional protocol"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2019-09-23T03:45:22.9048421+02:00",
+  "ActiveDate": "2000-03-25T03:46:54.2070265+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 399,
+  "PreferredTZLocation": 874,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 642,
+  "SuggestedAppointmentId": 172,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sed",
+  "CentralserviceVideomeetId": "eligendi",
   "UserDefinedFields": {
-    "SuperOffice:1": "1252233398",
-    "SuperOffice:2": "Ashleigh Kiehn"
+    "SuperOffice:1": "Clark Schumm",
+    "SuperOffice:2": "1679940057"
   },
   "ExtraFields": {
-    "ExtraFields1": "nesciunt",
-    "ExtraFields2": "beatae"
+    "ExtraFields1": "odio",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "quas",
-    "CustomFields2": "occaecati"
+    "CustomFields1": "sit",
+    "CustomFields2": "blanditiis"
   },
-  "PublishEventDate": "2002-11-19T03:45:22.9048421+01:00",
-  "PublishTo": "2016-01-15T03:45:22.9048421+01:00",
-  "PublishFrom": "2016-04-22T03:45:22.9048421+02:00",
+  "PublishEventDate": "2014-11-24T03:46:54.2070265+01:00",
+  "PublishTo": "2014-12-09T03:46:54.2070265+01:00",
+  "PublishFrom": "2007-06-12T03:46:54.2070265+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 120,
+      "VisibleId": 822,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 969
+          "FieldType": "System.String",
+          "FieldLength": 886
         }
       }
     },
     {
-      "VisibleId": 120,
+      "VisibleId": 822,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 969
+          "FieldType": "System.String",
+          "FieldLength": 886
         }
       }
     }
@@ -277,7 +278,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldLength": 195
     }
   }
 }

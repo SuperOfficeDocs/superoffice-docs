@@ -2,6 +2,7 @@
 title: DEL License/{moduleOwner}/{id}
 uid: v1License_UnassignThirdPartyLicenses
 generated: true
+content_type: reference
 ---
 
 # DEL License/{moduleOwner}/{id}
@@ -74,7 +75,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,25 +87,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 724,
-    "Tooltip": "qui",
+    "Total": 337,
+    "Tooltip": "occaecati",
     "CanAssign": false,
-    "Free": 367,
-    "InUse": 362,
+    "Free": 475,
+    "InUse": 450,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 502,
-    "Name": "Harvey-Harvey",
-    "Description": "Stand-alone executive parallelism",
-    "PrerequisiteModuleName": "Powlowski-Christiansen",
-    "SortOrder": 973,
-    "ExtraFlags": 617,
+    "Assigned": true,
+    "ModuleLicenseId": 378,
+    "Name": "Murazik LLC",
+    "Description": "Ameliorated uniform solution",
+    "PrerequisiteModuleName": "Dibbert, Mitchell and Zulauf",
+    "SortOrder": 910,
+    "ExtraFlags": 638,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 27
+        "FieldType": "System.String",
+        "FieldLength": 84
       }
     }
   }

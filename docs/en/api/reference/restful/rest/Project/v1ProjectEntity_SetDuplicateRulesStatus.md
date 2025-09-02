@@ -2,6 +2,7 @@
 title: PUT Project/DuplicateRules
 uid: v1ProjectEntity_SetDuplicateRulesStatus
 generated: true
+content_type: reference
 ---
 
 # PUT Project/DuplicateRules
@@ -57,20 +58,20 @@ No Content
 PUT /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bartell, McCullough and McLaughlin",
-    "DisplayName": "Swift, Anderson and Effertz",
-    "DisplayTooltip": "quaerat",
+    "Name": "Hirthe-Towne",
+    "DisplayName": "Bahringer LLC",
+    "DisplayTooltip": "et",
     "IsActive": false
   },
   {
-    "Name": "Bartell, McCullough and McLaughlin",
-    "DisplayName": "Swift, Anderson and Effertz",
-    "DisplayTooltip": "quaerat",
+    "Name": "Hirthe-Towne",
+    "DisplayName": "Bahringer LLC",
+    "DisplayTooltip": "et",
     "IsActive": false
   }
 ]

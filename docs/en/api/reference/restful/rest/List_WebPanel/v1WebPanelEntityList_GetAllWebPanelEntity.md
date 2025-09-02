@@ -2,6 +2,7 @@
 title: GET List/WebPanel/Items
 uid: v1WebPanelEntityList_GetAllWebPanelEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/WebPanel/Items
@@ -78,7 +79,7 @@ OK
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,34 +90,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 124,
-    "Name": "Goodwin Inc and Sons",
-    "Tooltip": "reiciendis",
+    "WebPanelId": 431,
+    "Name": "Bogan Inc and Sons",
+    "Tooltip": "odit",
     "Deleted": false,
-    "Rank": 92,
+    "Rank": 696,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
-    "OnSatellite": false,
+    "OnCentral": false,
+    "OnSatellite": true,
     "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": false,
-    "ShowInToolBar": false,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": true,
+    "ShowInToolBar": true,
     "ShowInAddressBar": true,
     "ShowInStatusBar": true,
-    "WindowName": "Greenfelder Group",
+    "WindowName": "Dickens Inc and Sons",
     "Url": "http://www.example.com/",
-    "ProgId": "ut",
-    "Icon": 445,
+    "ProgId": "ullam",
+    "Icon": 551,
     "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 842
+        "FieldType": "System.String",
+        "FieldLength": 2
       }
     }
   }

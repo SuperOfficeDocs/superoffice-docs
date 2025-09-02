@@ -3,9 +3,9 @@ uid: suggesteddocument
 title: suggesteddocument
 keywords: mdoprovider mdo provider suggesteddocument
 description: SuggestedDocumentProvider creates a MDO list of suggested documents in the database.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "suggesteddocument" MDO List

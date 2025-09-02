@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetCSWwwFolder
 uid: v1ConfigurationAgent_GetCSWwwFolder
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetCSWwwFolder
@@ -69,5 +70,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"illo"
+"saepe"
 ```

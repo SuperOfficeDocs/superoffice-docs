@@ -2,6 +2,7 @@
 title: GET List/ProjectStatus/Items/{id}
 uid: v1ProjectStatusList_GetProjectStatus
 generated: true
+content_type: reference
 ---
 
 # GET List/ProjectStatus/Items/{id}
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 607,
-  "Name": "Schoen, Wolf and Prohaska",
-  "Tooltip": "blanditiis",
+  "Id": 696,
+  "Name": "Mitchell-Flatley",
+  "Tooltip": "harum",
   "Deleted": false,
-  "UdListDefinitionId": 312,
-  "Rank": 213,
+  "UdListDefinitionId": 60,
+  "Rank": 792,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldType": "System.String",
+      "FieldLength": 143
     }
   }
 }

@@ -2,10 +2,10 @@
 uid: table-DocTmplHeadingLink
 title: DocTmplHeadingLink table
 description: Heading link table for DocTmpl, for MDO headers
-so.generated: true
+generated: true
 keywords: database table DocTmplHeadingLink
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # DocTmplHeadingLink Table (132)

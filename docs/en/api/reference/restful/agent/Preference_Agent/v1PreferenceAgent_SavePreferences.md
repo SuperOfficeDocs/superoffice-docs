@@ -2,6 +2,7 @@
 title: POST Agents/Preference/SavePreferences
 uid: v1PreferenceAgent_SavePreferences
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/SavePreferences
@@ -66,23 +67,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "cum",
+      "RawValue": "inventore",
       "Specification": null,
-      "DisplayValue": "iure",
-      "DisplayTooltip": "exercitationem",
+      "DisplayValue": "perspiciatis",
+      "DisplayTooltip": "vel",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 127,
-      "PrefDescId": 35,
-      "TableName": "Hackett-Erdman",
-      "UserPreferenceId": 657
+      "TargetId": 635,
+      "PrefDescId": 778,
+      "TableName": "Boyle Group",
+      "UserPreferenceId": 972
     }
   ]
 }

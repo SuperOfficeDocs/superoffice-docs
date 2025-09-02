@@ -2,6 +2,7 @@
 title: POST Agents/List/GetListItemsForHeadingFromListName
 uid: v1ListAgent_GetListItemsForHeadingFromListName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetListItemsForHeadingFromListName
@@ -88,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Berge, Bergstrom and Steuber",
-  "HeadingId": 165
+  "UdListDefinitionName": "Simonis, Cole and Cole",
+  "HeadingId": 624
 }
 ```
 
@@ -105,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 636,
-    "Name": "Conn Group",
-    "ToolTip": "Ut rerum corrupti magni quo aut veritatis corporis.",
-    "Deleted": true,
-    "Rank": 342,
-    "Type": "asperiores",
-    "ColorBlock": 948,
-    "IconHint": "molestias",
-    "Selected": true,
-    "LastChanged": "2010-06-08T03:45:23.5927257+02:00",
+    "Id": 483,
+    "Name": "Senger, Nicolas and Roob",
+    "ToolTip": "Itaque doloribus ducimus id.",
+    "Deleted": false,
+    "Rank": 24,
+    "Type": "soluta",
+    "ColorBlock": 71,
+    "IconHint": "quas",
+    "Selected": false,
+    "LastChanged": "2014-12-29T03:46:54.9569999+01:00",
     "ChildItems": [
       {
-        "Id": 420,
-        "Name": "Gulgowski, Fadel and Rutherford",
-        "ToolTip": "Animi et hic quis eius nisi.",
-        "Deleted": true,
-        "Rank": 268,
-        "Type": "eaque",
-        "ColorBlock": 541,
-        "IconHint": "eveniet",
-        "Selected": true,
-        "LastChanged": "2024-06-09T03:45:23.5927257+02:00",
+        "Id": 874,
+        "Name": "Cummerata Inc and Sons",
+        "ToolTip": "Veniam perspiciatis asperiores.",
+        "Deleted": false,
+        "Rank": 403,
+        "Type": "ea",
+        "ColorBlock": 919,
+        "IconHint": "ex",
+        "Selected": false,
+        "LastChanged": "2020-07-01T03:46:54.9569999+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "amet",
+        "ExtraInfo": "est",
+        "StyleHint": "iste",
         "Hidden": false,
-        "FullName": "Joanne Swift IV",
+        "FullName": "Alexandra Schroeder",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 311
+            "FieldType": "System.Int32",
+            "FieldLength": 699
           }
         }
       }
     ],
-    "ExtraInfo": "dolorum",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Paolo Thompson",
+    "ExtraInfo": "blanditiis",
+    "StyleHint": "iure",
+    "Hidden": false,
+    "FullName": "Jeanie Betsy Bayer Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 520
+        "FieldType": "System.Int32",
+        "FieldLength": 471
       }
     }
   }

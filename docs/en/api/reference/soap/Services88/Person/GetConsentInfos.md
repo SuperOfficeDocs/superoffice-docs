@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.GetConsentInfos SOAP
 generated: true
 uid: Services88-Person-GetConsentInfos
+content_type: reference
 ---
 
 # Services88 Person GetConsentInfos
@@ -66,9 +67,9 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Person:ConsentInfo xsi:type="Person:ConsentInfo">
      <Person:ConsentPersonId xsi:type="xsd:int">0</Person:ConsentPersonId>
      <Person:Comment xsi:type="xsd:string"></Person:Comment>
-     <Person:Registered xsi:type="xsd:dateTime">2025-06-26T01:44:25Z</Person:Registered>
+     <Person:Registered xsi:type="xsd:dateTime">2025-08-30T01:45:57Z</Person:Registered>
      <Person:RegisteredAssociateId xsi:type="xsd:int">0</Person:RegisteredAssociateId>
-     <Person:Updated xsi:type="xsd:dateTime">2025-06-26T01:44:25Z</Person:Updated>
+     <Person:Updated xsi:type="xsd:dateTime">2025-08-30T01:45:57Z</Person:Updated>
      <Person:UpdatedAssociateId xsi:type="xsd:int">0</Person:UpdatedAssociateId>
      <Person:LegalBaseId xsi:type="xsd:int">0</Person:LegalBaseId>
      <Person:LegalBaseKey xsi:type="xsd:string"></Person:LegalBaseKey>

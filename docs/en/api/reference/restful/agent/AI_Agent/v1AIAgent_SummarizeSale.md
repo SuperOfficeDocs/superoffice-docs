@@ -2,6 +2,7 @@
 title: POST Agents/AI/SummarizeSale
 uid: v1AIAgent_SummarizeSale
 generated: true
+content_type: reference
 ---
 
 # POST Agents/AI/SummarizeSale
@@ -70,13 +71,13 @@ OK
 POST /api/v1/Agents/AI/SummarizeSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 434,
-  "NumSentences": 9,
-  "IsoLangCode": "et"
+  "SaleId": 206,
+  "NumSentences": 579,
+  "IsoLangCode": "est"
 }
 ```
 
@@ -86,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quae"
+"voluptates"
 ```

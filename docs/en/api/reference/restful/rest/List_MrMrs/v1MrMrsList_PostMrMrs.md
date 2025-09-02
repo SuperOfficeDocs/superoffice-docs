@@ -2,6 +2,7 @@
 title: POST List/MrMrs/Items
 uid: v1MrMrsList_PostMrMrs
 generated: true
+content_type: reference
 ---
 
 # POST List/MrMrs/Items
@@ -73,16 +74,16 @@ OK
 POST /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 504,
-  "Name": "Mills, Fadel and Kassulke",
-  "Tooltip": "voluptatibus",
-  "Deleted": false,
-  "UdListDefinitionId": 325,
-  "Rank": 854
+  "Id": 246,
+  "Name": "Hamill Group",
+  "Tooltip": "porro",
+  "Deleted": true,
+  "UdListDefinitionId": 330,
+  "Rank": 564
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 915,
-  "Name": "Gaylord LLC",
-  "Tooltip": "delectus",
-  "Deleted": true,
-  "UdListDefinitionId": 748,
-  "Rank": 639,
+  "Id": 758,
+  "Name": "Hagenes, Gerlach and Nicolas",
+  "Tooltip": "minus",
+  "Deleted": false,
+  "UdListDefinitionId": 474,
+  "Rank": 757,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 787
+      "FieldType": "System.String",
+      "FieldLength": 897
     }
   }
 }

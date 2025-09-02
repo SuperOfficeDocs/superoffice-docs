@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/GetDefaultMessageContentFull
 uid: v1TicketAgent_GetDefaultMessageContentFull
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/GetDefaultMessageContentFull
@@ -79,10 +80,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 555,
+  "TicketId": 867,
   "MessageActionType": "Forward",
-  "TicketMessageId": 757,
-  "TicketTypeId": 305
+  "TicketMessageId": 703,
+  "TicketTypeId": 271
 }
 ```
 
@@ -93,23 +94,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "voluptatem",
+  "Body": "nisi",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 925,
-      "Name": "Roob-Dooley",
-      "ContentType": "id",
-      "AttSize": 517,
+      "AttachmentId": 747,
+      "Name": "Vandervort, Rath and Koepp",
+      "ContentType": "quasi",
+      "AttSize": 244,
       "InlineImage": false,
-      "ContentId": "molestias",
-      "AuthKey": "dolores",
+      "ContentId": "dolorem",
+      "AuthKey": "similique",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 180
+          "FieldType": "System.String",
+          "FieldLength": 183
         }
       }
     }

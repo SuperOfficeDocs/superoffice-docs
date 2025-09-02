@@ -2,6 +2,7 @@
 title: POST Agents/Archive/GetArchiveConfigurationV2
 uid: v1ArchiveAgent_GetArchiveConfigurationV2
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/GetArchiveConfigurationV2
@@ -85,10 +86,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Paucek, Conroy and Boehm",
-  "ProviderName": "Sipes Inc and Sons",
-  "Context": "ab",
-  "OwnerKeys": "et"
+  "GuiName": "Roberts, Gorczany and Weissnat",
+  "ProviderName": "Yundt Inc and Sons",
+  "Context": "molestiae",
+  "OwnerKeys": "sed"
 }
 ```
 
@@ -101,68 +102,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Zieme, Bogan and Legros",
-      "DisplayTooltip": "ipsam",
-      "DisplayType": "cum",
-      "CanOrderBy": false,
-      "Name": "Durgan, Skiles and Lynch",
-      "CanRestrictBy": true,
-      "RestrictionType": "et",
-      "RestrictionListName": "Herman-Olson",
+      "DisplayName": "Hahn Inc and Sons",
+      "DisplayTooltip": "inventore",
+      "DisplayType": "quo",
+      "CanOrderBy": true,
+      "Name": "Rolfson, Bauch and Mills",
+      "CanRestrictBy": false,
+      "RestrictionType": "est",
+      "RestrictionListName": "Rice-Gislason",
       "IsVisible": false,
-      "ExtraInfo": "commodi",
-      "Width": "odio",
-      "IconHint": "eos",
-      "HeadingIconHint": "quis"
+      "ExtraInfo": "consectetur",
+      "Width": "consequatur",
+      "IconHint": "illum",
+      "HeadingIconHint": "molestias"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 644,
-      "Name": "Abernathy Inc and Sons",
-      "ToolTip": "Amet ipsam modi qui necessitatibus.",
-      "Deleted": false,
-      "Rank": 646,
-      "Type": "quis",
-      "ColorBlock": 946,
-      "IconHint": "commodi",
-      "Selected": true,
-      "LastChanged": "1998-07-26T03:45:22.967341+02:00",
+      "Id": 508,
+      "Name": "Sawayn, Effertz and Gerhold",
+      "ToolTip": "Accusamus deleniti est qui iure quia aperiam placeat.",
+      "Deleted": true,
+      "Rank": 675,
+      "Type": "inventore",
+      "ColorBlock": 609,
+      "IconHint": "omnis",
+      "Selected": false,
+      "LastChanged": "2016-04-15T03:46:54.2851489+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "repellendus",
-      "StyleHint": "aut",
-      "Hidden": true,
-      "FullName": "Prof. Kenton Erdman",
+      "ExtraInfo": "sed",
+      "StyleHint": "et",
+      "Hidden": false,
+      "FullName": "Melyssa Daugherty",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 869
+          "FieldType": "System.String",
+          "FieldLength": 860
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Ryan LLC",
+      "Name": "Krajcik LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Ryan LLC",
+      "Name": "Krajcik LLC",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "nisi",
+  "OwnerKeys": "voluptatum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 505
+      "FieldType": "System.String",
+      "FieldLength": 207
     }
   }
 }

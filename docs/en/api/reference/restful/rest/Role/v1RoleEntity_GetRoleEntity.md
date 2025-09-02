@@ -2,6 +2,7 @@
 title: GET Role/{id}
 uid: v1RoleEntity_GetRoleEntity
 generated: true
+content_type: reference
 ---
 
 # GET Role/{id}
@@ -97,24 +98,24 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 790,
-  "Name": "Terry-Huel",
-  "Tooltip": "modi",
+  "RoleId": 463,
+  "Name": "Romaguera, O'Reilly and Moore",
+  "Tooltip": "labore",
   "RoleType": "Anonymous",
-  "Deleted": 913,
-  "Rank": 366,
-  "Created": "2017-01-17T03:45:28.5296817+01:00",
-  "UseCategories": 684,
+  "Deleted": 802,
+  "Rank": 548,
+  "Created": "2002-10-15T03:47:00.2068137+02:00",
+  "UseCategories": 460,
   "CreatedBy": null,
-  "Updated": "2023-02-25T03:45:28.5296817+01:00",
+  "Updated": "2018-01-09T03:47:00.2068137+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 477
+      "FieldType": "System.Int32",
+      "FieldLength": 661
     }
   },
   "_Links": {

@@ -33,6 +33,7 @@ items:
   - SuperOffice.Data.TablesInfo.GetBatchTaskTableInfo
   - SuperOffice.Data.TablesInfo.GetBinaryObjectLinkTableInfo
   - SuperOffice.Data.TablesInfo.GetBinaryObjectTableInfo
+  - SuperOffice.Data.TablesInfo.GetBoardViewSettingsTableInfo
   - SuperOffice.Data.TablesInfo.GetBusinessGroupLinkTableInfo
   - SuperOffice.Data.TablesInfo.GetBusinessHeadingLinkTableInfo
   - SuperOffice.Data.TablesInfo.GetBusinessTableInfo
@@ -527,6 +528,7 @@ items:
   - SuperOffice.Data.TablesInfo.GetUserGroupTableInfo
   - SuperOffice.Data.TablesInfo.GetUserPreferenceTableInfo
   - SuperOffice.Data.TablesInfo.GetUserRoleLinkTableInfo
+  - SuperOffice.Data.TablesInfo.GetUtmParametersTableInfo
   - SuperOffice.Data.TablesInfo.GetVisibleForTableInfo
   - SuperOffice.Data.TablesInfo.GetWebAppUsageTableInfo
   - SuperOffice.Data.TablesInfo.GetWebhookTableInfo
@@ -13111,6 +13113,31 @@ items:
       type: SuperOffice.CRM.Data.TypicalSearchTableInfo
     content.vb: Public Shared Function GetTypicalSearchTableInfo() As TypicalSearchTableInfo
   overload: SuperOffice.Data.TablesInfo.GetTypicalSearchTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetBoardViewSettingsTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetBoardViewSettingsTableInfo
+  id: GetBoardViewSettingsTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetBoardViewSettingsTableInfo()
+  nameWithType: TablesInfo.GetBoardViewSettingsTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetBoardViewSettingsTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of BoardViewSettingsTableInfo:
+
+    Settings for selection board view
+  example: []
+  syntax:
+    content: public static BoardViewSettingsTableInfo GetBoardViewSettingsTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+    content.vb: Public Shared Function GetBoardViewSettingsTableInfo() As BoardViewSettingsTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetBoardViewSettingsTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetOnlineAppTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetOnlineAppTableInfo
   id: GetOnlineAppTableInfo
@@ -14036,6 +14063,31 @@ items:
       type: SuperOffice.CRM.Data.EntityCountsTableInfo
     content.vb: Public Shared Function GetEntityCountsTableInfo() As EntityCountsTableInfo
   overload: SuperOffice.Data.TablesInfo.GetEntityCountsTableInfo*
+- uid: SuperOffice.Data.TablesInfo.GetUtmParametersTableInfo
+  commentId: M:SuperOffice.Data.TablesInfo.GetUtmParametersTableInfo
+  id: GetUtmParametersTableInfo
+  parent: SuperOffice.Data.TablesInfo
+  langs:
+  - csharp
+  - vb
+  name: GetUtmParametersTableInfo()
+  nameWithType: TablesInfo.GetUtmParametersTableInfo()
+  fullName: SuperOffice.Data.TablesInfo.GetUtmParametersTableInfo()
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  summary: >-
+    New instance of UtmParametersTableInfo:
+
+    Table for utm parameters collected from visits and formsubmissions
+  example: []
+  syntax:
+    content: public static UtmParametersTableInfo GetUtmParametersTableInfo()
+    return:
+      type: SuperOffice.CRM.Data.UtmParametersTableInfo
+    content.vb: Public Shared Function GetUtmParametersTableInfo() As UtmParametersTableInfo
+  overload: SuperOffice.Data.TablesInfo.GetUtmParametersTableInfo*
 - uid: SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo
   commentId: M:SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo
   id: GetTicketTypeTableInfo
@@ -21966,6 +22018,21 @@ references:
   name: TypicalSearchTableInfo
   nameWithType: TypicalSearchTableInfo
   fullName: SuperOffice.CRM.Data.TypicalSearchTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetBoardViewSettingsTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetBoardViewSettingsTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetBoardViewSettingsTableInfo
+  name: GetBoardViewSettingsTableInfo
+  nameWithType: TablesInfo.GetBoardViewSettingsTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetBoardViewSettingsTableInfo
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  commentId: T:SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html
+  name: BoardViewSettingsTableInfo
+  nameWithType: BoardViewSettingsTableInfo
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetOnlineAppTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetOnlineAppTableInfo
   isExternal: true
@@ -22521,6 +22588,21 @@ references:
   name: EntityCountsTableInfo
   nameWithType: EntityCountsTableInfo
   fullName: SuperOffice.CRM.Data.EntityCountsTableInfo
+- uid: SuperOffice.Data.TablesInfo.GetUtmParametersTableInfo*
+  commentId: Overload:SuperOffice.Data.TablesInfo.GetUtmParametersTableInfo
+  isExternal: true
+  href: SuperOffice.Data.TablesInfo.html#SuperOffice_Data_TablesInfo_GetUtmParametersTableInfo
+  name: GetUtmParametersTableInfo
+  nameWithType: TablesInfo.GetUtmParametersTableInfo
+  fullName: SuperOffice.Data.TablesInfo.GetUtmParametersTableInfo
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo
+  commentId: T:SuperOffice.CRM.Data.UtmParametersTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html
+  name: UtmParametersTableInfo
+  nameWithType: UtmParametersTableInfo
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo
 - uid: SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo*
   commentId: Overload:SuperOffice.Data.TablesInfo.GetTicketTypeTableInfo
   isExternal: true

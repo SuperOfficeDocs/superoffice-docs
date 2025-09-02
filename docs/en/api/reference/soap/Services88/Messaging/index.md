@@ -2,6 +2,7 @@
 title: Services88.MessagingAgent SOAP
 uid: Services88-Messaging-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Messaging SOAP

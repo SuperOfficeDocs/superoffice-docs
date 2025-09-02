@@ -2,6 +2,7 @@
 title: POST Agents/DatabaseTable/ReadRow
 uid: v1DatabaseTableAgent_ReadRow
 generated: true
+content_type: reference
 ---
 
 # POST Agents/DatabaseTable/ReadRow
@@ -78,8 +79,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Grimes-Raynor",
-  "Id": 921
+  "TableName": "Lakin, Macejkovic and Schimmel",
+  "Id": 374
 }
 ```
 
@@ -91,15 +92,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "eius",
-    "Values2": "minus"
+    "Values1": "rerum",
+    "Values2": "est"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 774
+      "FieldLength": 564
     }
   }
 }

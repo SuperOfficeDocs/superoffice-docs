@@ -24,7 +24,10 @@ items:
   - SuperOffice.WebApi.Data.AppointmentInfo.IsRecurring
   - SuperOffice.WebApi.Data.AppointmentInfo.IsTentative
   - SuperOffice.WebApi.Data.AppointmentInfo.IsVideoMeeting
+  - SuperOffice.WebApi.Data.AppointmentInfo.MotherAssociateId
   - SuperOffice.WebApi.Data.AppointmentInfo.MotherId
+  - SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally
+  - SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally_String
   - SuperOffice.WebApi.Data.AppointmentInfo.PersonName
   - SuperOffice.WebApi.Data.AppointmentInfo.ProjectName
   - SuperOffice.WebApi.Data.AppointmentInfo.RecurrenceInfo
@@ -721,6 +724,109 @@ items:
       type: System.Boolean
     content.vb: Public Overridable Property IsBooking As Boolean
   overload: SuperOffice.WebApi.Data.AppointmentInfo.IsBooking*
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally_String
+  commentId: P:SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally_String
+  id: OwnedExternally_String
+  parent: SuperOffice.WebApi.Data.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: OwnedExternally_String
+  nameWithType: AppointmentInfo.OwnedExternally_String
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally_String
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Set if an external system owns this appointment.
+
+    Raw string enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("OwnedExternally")]
+
+      public string OwnedExternally_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("OwnedExternally")>
+
+      Public Property OwnedExternally_String As String
+  overload: SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally
+    commentId: P:SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: OwnedExternally
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally
+  commentId: P:SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally
+  id: OwnedExternally
+  parent: SuperOffice.WebApi.Data.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: OwnedExternally
+  nameWithType: AppointmentInfo.OwnedExternally
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Set if an external system owns this appointment.
+
+    NULL if unknown enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public AppointmentExternalOwner? OwnedExternally { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.AppointmentExternalOwner}
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property OwnedExternally As AppointmentExternalOwner?
+  overload: SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally_String
+    commentId: P:SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally_String
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.MotherAssociateId
+  commentId: P:SuperOffice.WebApi.Data.AppointmentInfo.MotherAssociateId
+  id: MotherAssociateId
+  parent: SuperOffice.WebApi.Data.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: MotherAssociateId
+  nameWithType: AppointmentInfo.MotherAssociateId
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.MotherAssociateId
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Associate/owner of the mother appointment
+  example: []
+  syntax:
+    content: public virtual int MotherAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property MotherAssociateId As Integer
+  overload: SuperOffice.WebApi.Data.AppointmentInfo.MotherAssociateId*
 references:
 - uid: SuperOffice.WebApi.Agents.AppointmentAgent
   commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
@@ -1333,3 +1439,58 @@ references:
   name: IsBooking
   nameWithType: AppointmentInfo.IsBooking
   fullName: SuperOffice.WebApi.Data.AppointmentInfo.IsBooking
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally
+  commentId: P:SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AppointmentInfo.html#SuperOffice_WebApi_Data_AppointmentInfo_OwnedExternally
+  name: OwnedExternally
+  nameWithType: AppointmentInfo.OwnedExternally
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally_String*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AppointmentInfo.html#SuperOffice_WebApi_Data_AppointmentInfo_OwnedExternally_String
+  name: OwnedExternally_String
+  nameWithType: AppointmentInfo.OwnedExternally_String
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally_String
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally_String
+  commentId: P:SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AppointmentInfo.html#SuperOffice_WebApi_Data_AppointmentInfo_OwnedExternally_String
+  name: OwnedExternally_String
+  nameWithType: AppointmentInfo.OwnedExternally_String
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally_String
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AppointmentInfo.html#SuperOffice_WebApi_Data_AppointmentInfo_OwnedExternally
+  name: OwnedExternally
+  nameWithType: AppointmentInfo.OwnedExternally
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.OwnedExternally
+- uid: System.Nullable{SuperOffice.WebApi.Data.AppointmentExternalOwner}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.AppointmentExternalOwner}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.AppointmentExternalOwner.html
+  name: AppointmentExternalOwner?
+  nameWithType: AppointmentExternalOwner?
+  fullName: SuperOffice.WebApi.Data.AppointmentExternalOwner?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.AppointmentExternalOwner
+    name: AppointmentExternalOwner
+    isExternal: true
+    href: SuperOffice.WebApi.Data.AppointmentExternalOwner.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.AppointmentExternalOwner
+    name: AppointmentExternalOwner
+    isExternal: true
+    href: SuperOffice.WebApi.Data.AppointmentExternalOwner.html
+  - name: '?'
+- uid: SuperOffice.WebApi.Data.AppointmentInfo.MotherAssociateId*
+  commentId: Overload:SuperOffice.WebApi.Data.AppointmentInfo.MotherAssociateId
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AppointmentInfo.html#SuperOffice_WebApi_Data_AppointmentInfo_MotherAssociateId
+  name: MotherAssociateId
+  nameWithType: AppointmentInfo.MotherAssociateId
+  fullName: SuperOffice.WebApi.Data.AppointmentInfo.MotherAssociateId

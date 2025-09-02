@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetMyTasks
 uid: v1AppointmentAgent_GetMyTasks
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetMyTasks
@@ -114,6 +115,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -128,11 +130,11 @@ OK
 POST /api/v1/Agents/Appointment/GetMyTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 145
+  "Count": 901
 }
 ```
 
@@ -144,66 +146,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 106,
-    "StartDate": "1999-06-27T03:45:22.6704778+02:00",
-    "EndDate": "2010-01-13T03:45:22.6704778+01:00",
+    "AppointmentId": 637,
+    "StartDate": "2011-02-04T03:46:54.2695244+01:00",
+    "EndDate": "2006-03-10T03:46:54.2695244+01:00",
     "Type": "BookingForChecklist",
-    "Task": "sit",
-    "AssociateFullName": "Roosevelt Jacobi",
-    "ContactName": "Mayert-Olson",
-    "Description": "Digitized national artificial intelligence",
-    "PersonFullName": "Ara Schaden",
-    "PersonId": 160,
-    "ContactId": 754,
-    "ProjectId": 362,
-    "ProjectName": "Flatley Group",
+    "Task": "impedit",
+    "AssociateFullName": "Miss Roxanne Renner DDS",
+    "ContactName": "Jerde, Koss and Mann",
+    "Description": "Versatile holistic matrices",
+    "PersonFullName": "Mr. Rod Haag Sr.",
+    "PersonId": 441,
+    "ContactId": 338,
+    "ProjectId": 96,
+    "ProjectName": "Wyman-Hoeger",
     "IsPublished": false,
-    "AssociateId": 392,
-    "ColorIndex": 958,
-    "IsFree": false,
+    "AssociateId": 947,
+    "ColorIndex": 281,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 920,
-    "PriorityName": "Connelly-Mosciski",
+    "PriorityId": 569,
+    "PriorityName": "Erdman, Ward and Pacocha",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2009-01-06T03:45:22.6704778+01:00",
+    "ActiveDate": "2023-12-15T03:46:54.2695244+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2025-03-09T03:45:22.6704778+01:00",
-    "RecurringEndDate": "2008-06-25T03:45:22.6704778+02:00",
-    "MotherId": 531,
-    "AssignedBy": 39,
-    "AssignedByFullName": "German Zulauf",
+    "RecurringStartDate": "2020-06-25T03:46:54.2695244+02:00",
+    "RecurringEndDate": "2015-07-28T03:46:54.2695244+02:00",
+    "MotherId": 624,
+    "AssignedBy": 691,
+    "AssignedByFullName": "Dovie Boehm III",
     "RejectReason": "",
-    "Location": "esse",
-    "AlarmLeadTime": "est",
-    "SaleId": 184,
-    "SaleName": "Wilderman Group",
-    "AssociateName": "Hagenes LLC",
-    "CreatedDate": "2021-07-29T03:45:22.6704778+02:00",
-    "CreatedBy": "quaerat",
-    "CreatedByFullName": "Ms. Asha Leannon V",
-    "CreatedByAssociateId": 644,
+    "Location": "amet",
+    "AlarmLeadTime": "eligendi",
+    "SaleId": 785,
+    "SaleName": "Wiza, Conn and Christiansen",
+    "AssociateName": "Bode LLC",
+    "CreatedDate": "2024-01-23T03:46:54.2695244+01:00",
+    "CreatedBy": "iusto",
+    "CreatedByFullName": "Miss Paolo McLaughlin",
+    "CreatedByAssociateId": 773,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 21,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 500,
-    "Title": "laboriosam",
-    "Agenda": "praesentium",
-    "InternalNotes": "sint",
+    "PreferredTZLocation": 896,
+    "Title": "officia",
+    "Agenda": "maxime",
+    "InternalNotes": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 20
+        "FieldType": "System.Int32",
+        "FieldLength": 738
       }
     }
   }

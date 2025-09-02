@@ -2,6 +2,7 @@
 title: POST Agents/Chat/GetChatTopicEntity
 uid: v1ChatAgent_GetChatTopicEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/GetChatTopicEntity
@@ -22,11 +23,11 @@ Gets a ChatTopicEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| chatTopicEntityId | int32 | **Required** The primary key. |
+| chatTopicEntityId | int32 | **Required** The identifier of the ChatTopicEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=306
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=527
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -97,7 +98,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -107,43 +108,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 210,
-  "Name": "McGlynn-Kirlin",
-  "Description": "Re-engineered zero tolerance synergy",
-  "WelcomeMessage": "possimus",
+  "ChatTopicId": 585,
+  "Name": "Cormier-Heller",
+  "Description": "Enhanced zero defect structure",
+  "WelcomeMessage": "sit",
   "Language": null,
-  "LastAccept": "2020-08-14T03:45:23.0610908+02:00",
-  "SecondsPrAccept": 819,
-  "AlertRecipient": "aut",
+  "LastAccept": "2015-05-13T03:46:54.3945199+02:00",
+  "SecondsPrAccept": 612,
+  "AlertRecipient": "harum",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "sint",
+  "BadgeHeader": "possimus",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "a",
-  "WarnNewChatMinutes": 946,
-  "WarnManagerNewChatMinutes": 385,
+  "CustomQueueText": "commodi",
+  "WarnNewChatMinutes": 912,
+  "WarnManagerNewChatMinutes": 906,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 977,
-  "WarnManagerChatMessageMinutes": 378,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 209,
-  "OfflineFormQueueLength": 101,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 329,
+  "WarnManagerChatMessageMinutes": 179,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 713,
+  "OfflineFormQueueLength": 600,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "magnam",
+  "WidgetRatingText": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 300
+      "FieldType": "System.Int32",
+      "FieldLength": 734
     }
   }
 }

@@ -2,6 +2,7 @@
 title: PUT List/UserGroup/Headings
 uid: v1UserGroupList_PutUserGroupHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/UserGroup/Headings
@@ -80,20 +81,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 377,
-    "Name": "Nitzsche, Reynolds and Gorczany",
-    "Tooltip": "eos",
+    "HeadingId": 441,
+    "Name": "Kovacek, Gorczany and Deckow",
+    "Tooltip": "maiores",
     "Deleted": true,
-    "Rank": 56,
-    "UdListDefinitionId": 685
+    "Rank": 43,
+    "UdListDefinitionId": 410
   },
   {
-    "HeadingId": 377,
-    "Name": "Nitzsche, Reynolds and Gorczany",
-    "Tooltip": "eos",
+    "HeadingId": 441,
+    "Name": "Kovacek, Gorczany and Deckow",
+    "Tooltip": "maiores",
     "Deleted": true,
-    "Rank": 56,
-    "UdListDefinitionId": 685
+    "Rank": 43,
+    "UdListDefinitionId": 410
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 361,
-    "Name": "Koch-Schulist",
-    "Tooltip": "eos",
+    "HeadingId": 255,
+    "Name": "Hettinger, Stamm and Borer",
+    "Tooltip": "repellat",
     "Deleted": false,
-    "Rank": 279,
-    "UdListDefinitionId": 78,
+    "Rank": 576,
+    "UdListDefinitionId": 586,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 907
+        "FieldLength": 663
       }
     }
   }

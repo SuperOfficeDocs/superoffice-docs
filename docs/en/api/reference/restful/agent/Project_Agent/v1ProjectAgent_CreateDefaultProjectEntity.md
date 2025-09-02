@@ -2,6 +2,7 @@
 title: POST Agents/Project/CreateDefaultProjectEntity
 uid: v1ProjectAgent_CreateDefaultProjectEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/CreateDefaultProjectEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Project/CreateDefaultProjectEntity
 ```
 
-Set default values into a new ProjectEntity.
+Loading default values into a new ProjectEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -97,127 +96,127 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 417,
-  "Name": "Lueilwitz, Robel and Nikolaus",
-  "ProjectNumber": "589812",
+  "ProjectId": 574,
+  "Name": "Lang, Schamberger and Schaefer",
+  "ProjectNumber": "801320",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 674,
-      "ContactId": 339,
-      "ProjectId": 650,
-      "ContactName": "Nitzsche, Gleichner and Larkin",
+      "ProjectmemberId": 368,
+      "ContactId": 371,
+      "ProjectId": 326,
+      "ContactName": "Lesch LLC",
       "ContactDepartment": "",
-      "ProjectName": "Senger-Mayert",
-      "EmailId": 685,
-      "EmailAddress": "mikel@carroll.biz",
-      "CountryId": 900,
-      "Firstname": "Davion",
-      "MiddleName": "Muller-Bergstrom",
-      "Lastname": "Gerhold",
-      "PersonId": 345,
-      "Mrmrs": "nihil",
-      "ProjectMemberTypeName": "Crooks Group",
-      "Phone": "1-406-958-8693",
-      "PhoneId": 959,
-      "ProjectMemberTypeId": 840,
-      "EmailAddressName": "otto@west.info",
-      "Comment": "voluptas",
-      "FullName": "Alessandro Leannon",
+      "ProjectName": "Klein, Shanahan and Kunde",
+      "EmailId": 183,
+      "EmailAddress": "margarete.mcdermott@goodwin.com",
+      "CountryId": 233,
+      "Firstname": "Jerad",
+      "MiddleName": "Jakubowski-Cassin",
+      "Lastname": "Streich",
+      "PersonId": 795,
+      "Mrmrs": "voluptates",
+      "ProjectMemberTypeName": "Gulgowski-Dickinson",
+      "Phone": "(841)698-6984",
+      "PhoneId": 776,
+      "ProjectMemberTypeId": 358,
+      "EmailAddressName": "nelson@ledner.com",
+      "Comment": "sit",
+      "FullName": "Dagmar Mann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 760
+          "FieldLength": 435
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "et",
-      "StrippedValue": "praesentium",
-      "Description": "Right-sized static array",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 843
-        }
-      }
-    },
-    {
-      "Value": "et",
-      "StrippedValue": "praesentium",
-      "Description": "Right-sized static array",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 843
-        }
-      }
-    }
-  ],
-  "CreatedDate": "2018-04-26T03:45:23.7641958+02:00",
-  "UpdatedDate": "2005-03-18T03:45:23.7641958+01:00",
-  "Description": "Synergized zero administration capacity",
-  "Postit": "esse",
-  "CreatedBy": null,
-  "UpdatedBy": null,
-  "Associate": null,
-  "ProjectStatus": null,
-  "ProjectType": null,
-  "HasImage": false,
-  "ImageDescription": "Ameliorated context-sensitive process improvement",
-  "ActiveStatusMonitorId": 953,
-  "Links": [
-    {
-      "EntityName": "Raynor, McKenzie and Walter",
-      "Id": 672,
-      "Description": "Assimilated foreground product",
-      "ExtraInfo": "officia",
-      "LinkId": 882,
+      "Value": "sequi",
+      "StrippedValue": "earum",
+      "Description": "Optional fault-tolerant product",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 959
+          "FieldLength": 863
+        }
+      }
+    },
+    {
+      "Value": "sequi",
+      "StrippedValue": "earum",
+      "Description": "Optional fault-tolerant product",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 863
         }
       }
     }
   ],
-  "ActiveLinks": 824,
+  "CreatedDate": "2022-03-07T03:46:55.1444933+01:00",
+  "UpdatedDate": "2020-08-10T03:46:55.1444933+02:00",
+  "Description": "Front-line well-modulated extranet",
+  "Postit": "numquam",
+  "CreatedBy": null,
+  "UpdatedBy": null,
+  "Associate": null,
+  "ProjectStatus": null,
+  "ProjectType": null,
+  "HasImage": true,
+  "ImageDescription": "Decentralized disintermediate circuit",
+  "ActiveStatusMonitorId": 248,
+  "Links": [
+    {
+      "EntityName": "Jacobs LLC",
+      "Id": 184,
+      "Description": "Phased attitude-oriented help-desk",
+      "ExtraInfo": "nemo",
+      "LinkId": 866,
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 679
+        }
+      }
+    }
+  ],
+  "ActiveLinks": 204,
   "Completed": false,
-  "NextMilestoneDate": "2004-01-18T03:45:23.7641958+01:00",
-  "NmdAppointmentId": 483,
-  "EndDate": "2000-01-07T03:45:23.7641958+01:00",
-  "ActiveErpLinks": 980,
+  "NextMilestoneDate": "2005-10-19T03:46:55.1444933+02:00",
+  "NmdAppointmentId": 328,
+  "EndDate": "2002-05-13T03:46:55.1444933+02:00",
+  "ActiveErpLinks": 192,
   "UserDefinedFields": {
-    "SuperOffice:1": "Bret Darby Weimann II",
-    "SuperOffice:2": "Ms. Gustave Mario Osinski"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "ipsa",
-    "ExtraFields2": "ipsam"
+    "ExtraFields1": "aliquid",
+    "ExtraFields2": "aspernatur"
   },
   "CustomFields": {
-    "CustomFields1": "consectetur",
-    "CustomFields2": "qui"
+    "CustomFields1": "culpa",
+    "CustomFields2": "eligendi"
   },
-  "PublishEventDate": "2015-06-21T03:45:23.7641958+02:00",
-  "PublishTo": "2000-01-17T03:45:23.7641958+01:00",
-  "PublishFrom": "2002-01-08T03:45:23.7641958+01:00",
+  "PublishEventDate": "2004-01-02T03:46:55.1444933+01:00",
+  "PublishTo": "2011-07-22T03:46:55.1444933+02:00",
+  "PublishFrom": "2010-03-10T03:46:55.1444933+01:00",
   "IsPublished": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 219
+      "FieldType": "System.Int32",
+      "FieldLength": 91
     }
   }
 }

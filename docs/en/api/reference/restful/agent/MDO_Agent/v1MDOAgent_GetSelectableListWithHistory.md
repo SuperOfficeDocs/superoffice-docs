@@ -2,6 +2,7 @@
 title: POST Agents/MDO/GetSelectableListWithHistory
 uid: v1MDOAgent_GetSelectableListWithHistory
 generated: true
+content_type: reference
 ---
 
 # POST Agents/MDO/GetSelectableListWithHistory
@@ -91,18 +92,18 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Fritsch, Graham and Gislason",
+  "Name": "O'Kon LLC",
   "ForceFlatList": true,
-  "AdditionalInfo": "assumenda",
+  "AdditionalInfo": "eos",
   "HistoryItems": [
-    687,
-    347
+    47,
+    914
   ],
-  "OnlyHistory": false
+  "OnlyHistory": true
 }
 ```
 
@@ -114,56 +115,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 475,
-    "Name": "Rutherford LLC",
-    "ToolTip": "Sed qui nostrum nesciunt aliquid.",
+    "Id": 528,
+    "Name": "Mosciski-Donnelly",
+    "ToolTip": "Rerum mollitia.",
     "Deleted": false,
-    "Rank": 74,
-    "Type": "voluptatibus",
-    "ColorBlock": 458,
-    "IconHint": "molestiae",
+    "Rank": 46,
+    "Type": "consequatur",
+    "ColorBlock": 976,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2023-05-06T03:45:23.6391999+02:00",
+    "LastChanged": "2021-09-16T03:46:55.0194982+02:00",
     "ChildItems": [
       {
-        "Id": 938,
-        "Name": "Cartwright Inc and Sons",
-        "ToolTip": "Sapiente omnis reprehenderit.",
-        "Deleted": true,
-        "Rank": 594,
-        "Type": "atque",
-        "ColorBlock": 526,
-        "IconHint": "magnam",
+        "Id": 260,
+        "Name": "Lowe-Pacocha",
+        "ToolTip": "Nihil ut accusantium.",
+        "Deleted": false,
+        "Rank": 920,
+        "Type": "vitae",
+        "ColorBlock": 976,
+        "IconHint": "perferendis",
         "Selected": false,
-        "LastChanged": "2011-02-16T03:45:23.6391999+01:00",
+        "LastChanged": "2018-11-16T03:46:55.0194982+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "consectetur",
+        "ExtraInfo": "vel",
+        "StyleHint": "officia",
         "Hidden": true,
-        "FullName": "Mr. Ryley Kerluke",
+        "FullName": "Minnie Hessel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 809
+            "FieldType": "System.Int32",
+            "FieldLength": 632
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "enim",
+    "ExtraInfo": "nisi",
+    "StyleHint": "officiis",
     "Hidden": false,
-    "FullName": "Ms. Marta Satterfield",
+    "FullName": "Edmund Sanford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 581
+        "FieldLength": 709
       }
     }
   }

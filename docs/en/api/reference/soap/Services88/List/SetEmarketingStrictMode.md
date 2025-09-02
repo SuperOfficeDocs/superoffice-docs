@@ -2,6 +2,7 @@
 title: Services88.ListAgent.SetEmarketingStrictMode SOAP
 generated: true
 uid: Services88-List-SetEmarketingStrictMode
+content_type: reference
 ---
 
 # Services88 List SetEmarketingStrictMode

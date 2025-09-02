@@ -8,6 +8,7 @@ items:
   - SuperOffice.Configuration.VersionPropertyNames.AggregateApisInSnapshot
   - SuperOffice.Configuration.VersionPropertyNames.AppiAllSqlCalls
   - SuperOffice.Configuration.VersionPropertyNames.AppiSqlQueryText
+  - SuperOffice.Configuration.VersionPropertyNames.CollectSoConnectionStack
   - SuperOffice.Configuration.VersionPropertyNames.DebugUser
   - SuperOffice.Configuration.VersionPropertyNames.DecorateSql
   - SuperOffice.Configuration.VersionPropertyNames.DecorateSqlWithCallstack
@@ -187,6 +188,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const AggregateApisInSnapshot As String = "AggregateApisInSnapshot"
+- uid: SuperOffice.Configuration.VersionPropertyNames.CollectSoConnectionStack
+  commentId: F:SuperOffice.Configuration.VersionPropertyNames.CollectSoConnectionStack
+  id: CollectSoConnectionStack
+  parent: SuperOffice.Configuration.VersionPropertyNames
+  langs:
+  - csharp
+  - vb
+  name: CollectSoConnectionStack
+  nameWithType: VersionPropertyNames.CollectSoConnectionStack
+  fullName: SuperOffice.Configuration.VersionPropertyNames.CollectSoConnectionStack
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Collect callstack in SoConnection.Open, to make it possible to find sinners who do not clean up their database connections properly
+  example: []
+  syntax:
+    content: public const string CollectSoConnectionStack = "CollectSoConnectionStack"
+    return:
+      type: System.String
+    content.vb: Public Const CollectSoConnectionStack As String = "CollectSoConnectionStack"
 references:
 - uid: SuperOffice.Configuration
   commentId: N:SuperOffice.Configuration

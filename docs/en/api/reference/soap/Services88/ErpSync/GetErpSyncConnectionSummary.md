@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.GetErpSyncConnectionSummary SOAP
 generated: true
 uid: Services88-ErpSync-GetErpSyncConnectionSummary
+content_type: reference
 ---
 
 # Services88 ErpSync GetErpSyncConnectionSummary
@@ -67,7 +68,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <ErpSync:DisplayDescription xsi:type="xsd:string"></ErpSync:DisplayDescription>
     <ErpSync:Active xsi:type="xsd:boolean">false</ErpSync:Active>
     <ErpSync:Deleted xsi:type="xsd:boolean">false</ErpSync:Deleted>
-    <ErpSync:LastSync xsi:type="xsd:dateTime">2025-06-26T01:43:54Z</ErpSync:LastSync>
+    <ErpSync:LastSync xsi:type="xsd:dateTime">2025-08-30T01:45:26Z</ErpSync:LastSync>
     <ErpSync:Actors xsi:type="ErpSync:ArrayOfErpSyncActorSummary">
      <ErpSync:ErpSyncActorSummary xsi:type="ErpSync:ErpSyncActorSummary">
       <ErpSync:ActorType xsi:type="ErpSync:ErpActorType">Unknown</ErpSync:ActorType>

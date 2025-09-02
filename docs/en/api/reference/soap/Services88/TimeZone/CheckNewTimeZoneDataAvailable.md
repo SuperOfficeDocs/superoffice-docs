@@ -2,6 +2,7 @@
 title: Services88.TimeZoneAgent.CheckNewTimeZoneDataAvailable SOAP
 generated: true
 uid: Services88-TimeZone-CheckNewTimeZoneDataAvailable
+content_type: reference
 ---
 
 # Services88 TimeZone CheckNewTimeZoneDataAvailable

@@ -2,6 +2,7 @@
 title: Services88.TargetsAgent.DeleteTargetGroup SOAP
 generated: true
 uid: Services88-Targets-DeleteTargetGroup
+content_type: reference
 ---
 
 # Services88 Targets DeleteTargetGroup

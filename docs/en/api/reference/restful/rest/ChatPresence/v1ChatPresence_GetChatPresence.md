@@ -2,6 +2,7 @@
 title: GET Presence/GetAll
 uid: v1ChatPresence_GetChatPresence
 generated: true
+content_type: reference
 ---
 
 # GET Presence/GetAll
@@ -59,7 +60,7 @@ OK
 GET /api/v1/Presence/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,20 +71,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 980,
-    "DisplayName": "Orn-Turner",
-    "OngoingChats": 30,
-    "Present": false,
+    "UserId": 711,
+    "DisplayName": "Friesen-Wilkinson",
+    "OngoingChats": 676,
+    "Present": true,
     "ChatTopics": [
-      856,
-      591
+      135,
+      222
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 137
+        "FieldLength": 138
       }
     }
   }

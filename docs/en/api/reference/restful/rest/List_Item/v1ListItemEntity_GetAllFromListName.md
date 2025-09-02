@@ -2,6 +2,7 @@
 title: GET List/{udListDefinitionName}/Items
 uid: v1ListItemEntity_GetAllFromListName
 generated: true
+content_type: reference
 ---
 
 # GET List/{udListDefinitionName}/Items
@@ -74,7 +75,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 378,
-    "Name": "Sporer-Bode",
-    "Tooltip": "non",
+    "Id": 601,
+    "Name": "Turcotte Group",
+    "Tooltip": "voluptatibus",
     "Deleted": false,
-    "UdListDefinitionId": 877,
-    "Rank": 831,
+    "UdListDefinitionId": 139,
+    "Rank": 282,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 941
+        "FieldType": "System.Int32",
+        "FieldLength": 28
       }
     }
   }

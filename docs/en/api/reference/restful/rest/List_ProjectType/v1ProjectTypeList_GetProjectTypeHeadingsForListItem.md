@@ -2,6 +2,7 @@
 title: GET List/ProjectType/Items/{id}/Headings
 uid: v1ProjectTypeList_GetProjectTypeHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/ProjectType/Items/{id}/Headings
@@ -85,7 +86,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 442,
-    "Name": "Christiansen Inc and Sons",
-    "ToolTip": "Et maiores quia commodi commodi dolorem molestiae dolor.",
-    "Deleted": true,
-    "Rank": 465,
-    "Type": "est",
-    "ColorBlock": 686,
-    "IconHint": "animi",
+    "Id": 705,
+    "Name": "Bosco LLC",
+    "ToolTip": "Qui eos expedita repellendus aliquid aperiam.",
+    "Deleted": false,
+    "Rank": 699,
+    "Type": "et",
+    "ColorBlock": 968,
+    "IconHint": "impedit",
     "Selected": false,
-    "LastChanged": "2002-08-16T03:45:29.1703077+02:00",
+    "LastChanged": "2014-02-21T03:47:00.7536695+01:00",
     "ChildItems": [
       {
-        "Id": 725,
-        "Name": "Purdy-Stark",
-        "ToolTip": "Architecto porro qui voluptatum sit magni.",
-        "Deleted": true,
-        "Rank": 490,
-        "Type": "aliquid",
-        "ColorBlock": 173,
+        "Id": 796,
+        "Name": "Jacobson-Dickinson",
+        "ToolTip": "Asperiores autem non culpa.",
+        "Deleted": false,
+        "Rank": 519,
+        "Type": "et",
+        "ColorBlock": 280,
         "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2022-03-17T03:45:29.1703077+01:00",
+        "LastChanged": "2006-03-13T03:47:00.7536695+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "ipsa",
         "Hidden": false,
-        "FullName": "Ms. Beulah Adrain Renner DDS",
+        "FullName": "Jayden Kub",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 912
+            "FieldLength": 691
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "ex",
-    "Hidden": false,
-    "FullName": "Miss Coralie Ari Mante IV",
+    "ExtraInfo": "sed",
+    "StyleHint": "necessitatibus",
+    "Hidden": true,
+    "FullName": "Mrs. Selmer Norene Medhurst DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 935
+        "FieldType": "System.String",
+        "FieldLength": 835
       }
     }
   }

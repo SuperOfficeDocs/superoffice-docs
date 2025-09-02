@@ -2,6 +2,7 @@
 title: GET ForeignApp/{applicationName}
 uid: v1ForeignAppEntity_GetAppByName
 generated: true
+content_type: reference
 ---
 
 # GET ForeignApp/{applicationName}
@@ -65,7 +66,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,32 +74,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 20 May 2018 03:45:28 G5T
+Last-Modified: Sun, 14 Aug 2011 03:47:00 G8T
 
 {
-  "ForeignAppId": 912,
-  "Name": "Larson, Becker and Smith",
-  "CreatedDate": "2003-07-12T03:45:28.3578119+02:00",
-  "UpdatedDate": "2018-05-20T03:45:28.3578119+02:00",
+  "ForeignAppId": 235,
+  "Name": "Robel, Spencer and Feeney",
+  "CreatedDate": "2007-11-08T03:47:00.0193121+01:00",
+  "UpdatedDate": "2011-08-14T03:47:00.0193121+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 523,
-      "Name": "McDermott, Balistreri and Kreiger",
-      "CreatedDate": "2023-02-14T03:45:28.3578119+01:00",
-      "UpdatedDate": "2018-12-19T03:45:28.3578119+01:00",
-      "AssociateFullName": "Jayson Sporer",
-      "CreatedBy": "commodi",
-      "UpdatedBy": "ad",
-      "DeviceIdentifier": "nam",
-      "ForeignAppId": 433,
+      "ForeignDeviceId": 208,
+      "Name": "Toy-Becker",
+      "CreatedDate": "2011-01-14T03:47:00.0349452+01:00",
+      "UpdatedDate": "2022-05-10T03:47:00.0349452+02:00",
+      "AssociateFullName": "Ms. Lilla Elinor Macejkovic",
+      "CreatedBy": "quibusdam",
+      "UpdatedBy": "autem",
+      "DeviceIdentifier": "consequatur",
+      "ForeignAppId": 80,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 745
+          "FieldType": "System.Int32",
+          "FieldLength": 475
         }
       }
     }
@@ -108,7 +109,7 @@ Last-Modified: Sun, 20 May 2018 03:45:28 G5T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 525
+      "FieldLength": 457
     }
   }
 }

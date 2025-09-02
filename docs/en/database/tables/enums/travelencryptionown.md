@@ -2,10 +2,10 @@
 uid: enum-travelencryptionown
 title: Enum values for TravelEncryptionOwn
 description: Lists the enum values for TravelEncryptionOwn.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # TravelEncryptionOwn Enum

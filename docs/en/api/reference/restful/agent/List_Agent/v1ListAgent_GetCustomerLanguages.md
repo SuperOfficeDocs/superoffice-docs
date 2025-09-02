@@ -2,6 +2,7 @@
 title: POST Agents/List/GetCustomerLanguages
 uid: v1ListAgent_GetCustomerLanguages
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetCustomerLanguages
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/List/GetCustomerLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 213,
-    "Value": "fugit",
-    "Tooltip": "aperiam",
+    "Id": 951,
+    "Value": "sed",
+    "Tooltip": "odit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 352
+        "FieldType": "System.String",
+        "FieldLength": 893
       }
     }
   },
   {
-    "Id": 213,
-    "Value": "fugit",
-    "Tooltip": "aperiam",
+    "Id": 951,
+    "Value": "sed",
+    "Tooltip": "odit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 352
+        "FieldType": "System.String",
+        "FieldLength": 893
       }
     }
   }

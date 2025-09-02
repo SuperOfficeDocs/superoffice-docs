@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/ForceResyncExternal
 uid: v1ErpSyncAgent_ForceResyncExternal
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/ForceResyncExternal
@@ -82,15 +83,15 @@ OK
 POST /api/v1/Agents/ErpSync/ForceResyncExternal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 519,
+  "ErpConnectionId": 258,
   "ErpActorType": "Customer",
   "ExternalKeys": [
-    "eveniet",
-    "non"
+    "at",
+    "error"
   ]
 }
 ```
@@ -102,18 +103,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "in",
-  "TechExplanation": "natus",
-  "ErrorCode": "veniam",
+  "IsOk": false,
+  "UserExplanation": "et",
+  "TechExplanation": "odio",
+  "ErrorCode": "labore",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldType": "System.String",
+      "FieldLength": 385
     }
   }
 }

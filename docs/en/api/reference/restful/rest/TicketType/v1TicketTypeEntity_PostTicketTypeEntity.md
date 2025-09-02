@@ -2,6 +2,7 @@
 title: POST TicketType
 uid: v1TicketTypeEntity_PostTicketTypeEntity
 generated: true
+content_type: reference
 ---
 
 # POST TicketType
@@ -112,35 +113,35 @@ OK
 POST /api/v1/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 1002,
-  "Name": "Mayer-Grady",
-  "Rank": 576,
-  "Tooltip": "ipsum",
-  "Icon": "nobis",
-  "DefaultTicketStatus": 158,
+  "TicketTypeId": 363,
+  "Name": "Kuhlman, O'Connell and Ortiz",
+  "Rank": 8,
+  "Tooltip": "velit",
+  "Icon": "quae",
+  "DefaultTicketStatus": 579,
   "TicketStatuses": [
-    59,
-    563
-  ],
-  "DefaultTicketPriority": 520,
-  "TicketPriorities": [
     620,
-    144
+    519
   ],
-  "ReplyTemplate": 500,
+  "DefaultTicketPriority": 952,
+  "TicketPriorities": [
+    833,
+    407
+  ],
+  "ReplyTemplate": 933,
   "IsExternalVisible": true,
-  "IsDefault": false,
+  "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    386,
-    989
+    237,
+    858
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": true
@@ -154,40 +155,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 566,
-  "Name": "Kris-Ratke",
-  "Rank": 847,
-  "Tooltip": "ea",
-  "Icon": "beatae",
-  "DefaultTicketStatus": 748,
+  "TicketTypeId": 956,
+  "Name": "Becker LLC",
+  "Rank": 252,
+  "Tooltip": "nam",
+  "Icon": "ut",
+  "DefaultTicketStatus": 454,
   "TicketStatuses": [
-    913,
-    829
+    392,
+    810
   ],
-  "DefaultTicketPriority": 698,
+  "DefaultTicketPriority": 500,
   "TicketPriorities": [
-    632,
-    774
+    852,
+    222
   ],
-  "ReplyTemplate": 576,
+  "ReplyTemplate": 922,
   "IsExternalVisible": false,
   "IsDefault": true,
   "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    148,
-    86
+    379,
+    449
   ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldLength": 564
     }
   },
   "_Links": {

@@ -2,6 +2,7 @@
 title: Services88.BLOBAgent.GetPersonImage SOAP
 generated: true
 uid: Services88-BLOB-GetPersonImage
+content_type: reference
 ---
 
 # Services88 BLOB GetPersonImage

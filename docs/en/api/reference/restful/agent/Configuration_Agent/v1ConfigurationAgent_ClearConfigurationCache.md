@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/ClearConfigurationCache
 uid: v1ConfigurationAgent_ClearConfigurationCache
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/ClearConfigurationCache
@@ -68,13 +69,13 @@ No Content
 POST /api/v1/Agents/Configuration/ClearConfigurationCache
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "ipsam",
-  "Instance": "quidem",
-  "ForAllAssociates": false
+  "Application": "et",
+  "Instance": "accusamus",
+  "ForAllAssociates": true
 }
 ```
 

@@ -2,6 +2,7 @@
 title: POST Agents/List/DeleteProjectStatus
 uid: v1ListAgent_DeleteProjectStatus
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/DeleteProjectStatus
@@ -64,11 +65,11 @@ No Content
 POST /api/v1/Agents/List/DeleteProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectStatusId": 928
+  "ProjectStatusId": 836
 }
 ```
 

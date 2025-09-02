@@ -1,6 +1,8 @@
 ---
+uid: tag-PhoneList_Agent
 title: PhoneList_Agent
 generated: true
+content_type: reference
 ---
 
 ```http

@@ -2,6 +2,7 @@
 title: POST Agents/List/GetLocalizedTextByType
 uid: v1ListAgent_GetLocalizedTextByType
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetLocalizedTextByType
@@ -80,13 +81,13 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "TextType": "Column",
-  "ResourceId": 836,
-  "LanguageId": 523
+  "ResourceId": 596,
+  "LanguageId": 154
 }
 ```
 
@@ -97,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 485,
-  "ResourceId": 600,
-  "Text": "explicabo",
+  "LanguageId": 665,
+  "ResourceId": 634,
+  "Text": "sit",
   "Type": "Column",
-  "LocalizedTextId": 658,
+  "LocalizedTextId": 514,
   "IsBuiltIn": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 709
+      "FieldLength": 360
     }
   }
 }

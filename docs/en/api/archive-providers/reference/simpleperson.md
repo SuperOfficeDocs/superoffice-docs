@@ -3,9 +3,9 @@ uid: SimplePerson
 title: SimplePerson
 description: 
 keywords: SimplePerson archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "SimplePerson"
@@ -809,6 +809,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/ownedBy/personEmail|string|Owner - E-mail| x |
 |request/ownedBy/locationAddress|string|Owner - Location: Location| x |
 |request/ownedBy/isLocation|bool|Owner - Is a location: Is a location| x |
+|request/ticketStatus/ticketStatusId|int|Status - ID: Displays request status ID| x |
+|request/ticketStatus/name|string|Status - Name: Displays the name of the request status| x |
+|request/ticketStatus/rank|int|Status - Status rank: Sort order of the status in the ticket status list| x |
+|request/ticketPriority/ticketPriorityId|int|Priority - ID: Displays the ID of the priority| x |
+|request/ticketPriority/name|string|Priority - Name: Displays the name of the priority| x |
+|request/ticketPriority/rank|int|Priority - Priority rank: Sort order of priority in the priority list| x |
 |request/extra/x\_ticket\_integer|int|Extra integer: Custom ticket integer. Default 123. External. Show in properties| x |
 |request/extra/x\_ticket\_float|decimal|Extra float: Custom float on Request. 2 decimal places| x |
 |request/extra/x\_ticket\_longtext|string|Extra long text: Custom long text on Request. Keep HTML tags. 9 line text area. Show in props| x |
@@ -841,16 +847,16 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |projectMembers/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |projectMembers/registeredBy|associate|Registered by: The user who registered the data| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMembers/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |projectMembers/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |projectMembers/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |projectMembers/nextMilestone|date|Next milestone: Date of next non-completed activity that is marked as a milestone| x |
 |projectMembers/endDate|date|End date: End date of project| x |
 |projectMembers/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMembers/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |projectMembers/function|listAny|Function: Displays the project member's function in the project| x |
 |projectMembers/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
@@ -945,16 +951,16 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/userGroup|userGroup|User group : The user group that owns the record| x |
 |personAppointment/who| *None* |Who: Contact and/or company|  |
 |personAppointment/updatedBy|associate|Updated by: The user who last updated the data| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAppointment/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |personAppointment/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |personAppointment/registeredBy|associate|Registered by: The user who registered the data| x |
 |personAppointment/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |personAppointment/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |personAppointment/appointmentId|int|DB ID: Displays the database ID of a row| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personAppointment/endDate|date|End date: Displays the deadline for a follow-up/sale| x |
 |personAppointment/priority|listAny|Priority: Displays the priority of the activity| x |
 |personAppointment/alarm|bool|Has alarm: Displays the alarm state of a follow-up| x |
@@ -1036,7 +1042,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimplePerson?$select=useAsMailingAddress,email/emailLastSent,personSourceRelation/lastName,personContact/phone/formattedNumber,personContact/contactSupportAssociate/otherGroups
+GET /api/v1/archive/SimplePerson?$select=email/emailAddress,personContact/restrictionAddress/line3,personContact/contactAssociate/usergroup,personContact/contactSupportPerson/personUpdatedDate,personContact/NumberOfNotCompletedSalesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

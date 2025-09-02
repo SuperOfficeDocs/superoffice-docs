@@ -2,6 +2,7 @@
 title: POST Agents/Workflow/RemoveParticipantsFromEmailFlow
 uid: v1WorkflowAgent_RemoveParticipantsFromEmailFlow
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Workflow/RemoveParticipantsFromEmailFlow
@@ -65,14 +66,14 @@ No Content
 POST /api/v1/Agents/Workflow/RemoveParticipantsFromEmailFlow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 545,
+  "EmailFlowId": 653,
   "WorkflowInstanceIds": [
-    172,
-    621
+    444,
+    856
   ]
 }
 ```

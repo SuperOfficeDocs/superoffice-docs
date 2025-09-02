@@ -2,6 +2,7 @@
 title: POST Agents/EMail/SetRepliedAt
 uid: v1EMailAgent_SetRepliedAt
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/SetRepliedAt
@@ -66,11 +67,11 @@ No Content
 POST /api/v1/Agents/EMail/SetRepliedAt
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "vero"
+  "MessageId": "sit"
 }
 ```
 

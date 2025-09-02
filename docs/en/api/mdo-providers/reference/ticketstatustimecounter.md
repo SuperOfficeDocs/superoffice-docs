@@ -3,9 +3,9 @@ uid: ticketstatustimecounter
 title: ticketstatustimecounter
 keywords: mdoprovider mdo provider ticketstatustimecounter
 description: Ticket status timer count values - None, Internall, Externally, Queue
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ticketstatustimecounter" MDO List

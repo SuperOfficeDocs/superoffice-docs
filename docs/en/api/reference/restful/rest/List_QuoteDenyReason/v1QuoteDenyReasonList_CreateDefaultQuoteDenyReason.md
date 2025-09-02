@@ -2,6 +2,7 @@
 title: GET List/QuoteDenyReason/Items/Default
 uid: v1QuoteDenyReasonList_CreateDefaultQuoteDenyReason
 generated: true
+content_type: reference
 ---
 
 # GET List/QuoteDenyReason/Items/Default
@@ -60,7 +61,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 965,
-  "Name": "D'Amore-Wilkinson",
-  "Tooltip": "sit",
+  "Id": 584,
+  "Name": "Daugherty, Kuhic and Boyer",
+  "Tooltip": "nesciunt",
   "Deleted": false,
-  "UdListDefinitionId": 935,
-  "Rank": 140,
+  "UdListDefinitionId": 464,
+  "Rank": 909,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 246
+      "FieldLength": 921
     }
   }
 }

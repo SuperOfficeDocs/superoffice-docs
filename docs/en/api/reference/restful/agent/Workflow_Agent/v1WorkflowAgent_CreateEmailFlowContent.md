@@ -2,6 +2,7 @@
 title: POST Agents/Workflow/CreateEmailFlowContent
 uid: v1WorkflowAgent_CreateEmailFlowContent
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Workflow/CreateEmailFlowContent
@@ -73,8 +74,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 816,
-  "ContentName": "Krajcik, Steuber and Reinger"
+  "EmailFlowId": 375,
+  "ContentName": "Murray Group"
 }
 ```
 
@@ -84,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-403
+578
 ```

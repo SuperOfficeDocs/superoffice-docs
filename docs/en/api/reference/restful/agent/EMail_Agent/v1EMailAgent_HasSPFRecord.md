@@ -2,6 +2,7 @@
 title: POST Agents/EMail/HasSPFRecord
 uid: v1EMailAgent_HasSPFRecord
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/HasSPFRecord
@@ -71,12 +72,12 @@ OK
 POST /api/v1/Agents/EMail/HasSPFRecord
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceSpf": "voluptates",
-  "TargetDomain": "aliquam"
+  "SourceSpf": "perspiciatis",
+  "TargetDomain": "sunt"
 }
 ```
 
@@ -86,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

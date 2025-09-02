@@ -2,6 +2,7 @@
 title: Services88.AIAgent.DetectSentiment SOAP
 generated: true
 uid: Services88-AI-DetectSentiment
+content_type: reference
 ---
 
 # Services88 AI DetectSentiment

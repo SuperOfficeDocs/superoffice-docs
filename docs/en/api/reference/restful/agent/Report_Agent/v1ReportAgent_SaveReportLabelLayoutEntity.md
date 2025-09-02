@@ -2,6 +2,7 @@
 title: POST Agents/Report/SaveReportLabelLayoutEntity
 uid: v1ReportAgent_SaveReportLabelLayoutEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Report/SaveReportLabelLayoutEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 ```
 
-Updates the existing ReportLabelLayoutEntity or creates a new ReportLabelLayoutEntity if the id parameter is empty
+Updates the existing ReportLabelLayoutEntity or creates a new ReportLabelLayoutEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing ReportLabelLayoutEntity or creates a new ReportLabelLayoutE
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: reportLabelLayoutEntity 
 
-The ReportLabelLayoutEntity to be saved. 
+The ReportLabelLayoutEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,18 +90,18 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 346,
-  "Name": "Botsford-Watsica",
-  "Description": "Adaptive explicit system engine",
+  "ReportLabelLayoutId": 412,
+  "Name": "Gerhold, Graham and Beer",
+  "Description": "Cross-group fresh-thinking time-frame",
   "Orientation": "Landscape",
-  "PaperWidth": 662,
-  "PaperHeight": 509,
-  "LeftMargin": 816,
-  "RightMargin": 168,
-  "TopMargin": 766,
-  "BottomMargin": 86,
-  "CountColumns": 447,
-  "CountRows": 676
+  "PaperWidth": 404,
+  "PaperHeight": 271,
+  "LeftMargin": 290,
+  "RightMargin": 178,
+  "TopMargin": 716,
+  "BottomMargin": 988,
+  "CountColumns": 525,
+  "CountRows": 395
 }
 ```
 
@@ -111,24 +112,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 416,
-  "Name": "Reinger-Bartoletti",
-  "Description": "Assimilated tangible methodology",
+  "ReportLabelLayoutId": 762,
+  "Name": "Bashirian Group",
+  "Description": "Stand-alone modular support",
   "Orientation": "Landscape",
-  "PaperWidth": 199,
-  "PaperHeight": 198,
-  "LeftMargin": 742,
-  "RightMargin": 347,
-  "TopMargin": 12,
-  "BottomMargin": 385,
-  "CountColumns": 692,
-  "CountRows": 652,
+  "PaperWidth": 362,
+  "PaperHeight": 424,
+  "LeftMargin": 19,
+  "RightMargin": 949,
+  "TopMargin": 277,
+  "BottomMargin": 793,
+  "CountColumns": 306,
+  "CountRows": 374,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldLength": 157
     }
   }
 }

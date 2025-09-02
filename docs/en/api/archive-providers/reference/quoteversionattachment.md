@@ -3,9 +3,9 @@ uid: QuoteVersionAttachment
 title: QuoteVersionAttachment
 description: This is the archive Provider for quote version attachments.
 keywords: QuoteVersionAttachment archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "QuoteVersionAttachment"
@@ -112,7 +112,7 @@ This is the archive Provider for quote version attachments.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteVersionAttachment?$select=documentPublish/isPublished,associate/contactDepartment,name
+GET /api/v1/archive/QuoteVersionAttachment?$select=suggestedDocumentId,name,associate/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

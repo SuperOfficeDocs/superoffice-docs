@@ -1,0 +1,1426 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.BizCardResult
+  commentId: T:SuperOffice.Util.BizCardResult
+  id: BizCardResult
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.BizCardResult.#ctor
+  - SuperOffice.Util.BizCardResult.Business
+  - SuperOffice.Util.BizCardResult.Category
+  - SuperOffice.Util.BizCardResult.CompanyName
+  - SuperOffice.Util.BizCardResult.Country
+  - SuperOffice.Util.BizCardResult.Department
+  - SuperOffice.Util.BizCardResult.DirectPhone
+  - SuperOffice.Util.BizCardResult.Email
+  - SuperOffice.Util.BizCardResult.Fax
+  - SuperOffice.Util.BizCardResult.Firstname
+  - SuperOffice.Util.BizCardResult.JobTitle
+  - SuperOffice.Util.BizCardResult.Lastname
+  - SuperOffice.Util.BizCardResult.Middlename
+  - SuperOffice.Util.BizCardResult.MobilePhone
+  - SuperOffice.Util.BizCardResult.OrganizationNumber
+  - SuperOffice.Util.BizCardResult.PersonalEmail
+  - SuperOffice.Util.BizCardResult.Position
+  - SuperOffice.Util.BizCardResult.Postal
+  - SuperOffice.Util.BizCardResult.Salutation
+  - SuperOffice.Util.BizCardResult.Street
+  - SuperOffice.Util.BizCardResult.Website
+  langs:
+  - csharp
+  - vb
+  name: BizCardResult
+  nameWithType: BizCardResult
+  fullName: SuperOffice.Util.BizCardResult
+  type: Class
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public class BizCardResult
+    content.vb: Public Class BizCardResult
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  extensionMethods:
+  - SuperOffice.Util.BizCardResult.EnumUtil.MapEnums``2
+  - SuperOffice.Util.BizCardResult.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.Util.BizCardResult.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.BizCardResult)
+  - SuperOffice.Util.BizCardResult.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+- uid: SuperOffice.Util.BizCardResult.#ctor
+  commentId: M:SuperOffice.Util.BizCardResult.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Util.BizCardResult
+  langs:
+  - csharp
+  - vb
+  name: BizCardResult()
+  nameWithType: BizCardResult.BizCardResult()
+  fullName: SuperOffice.Util.BizCardResult.BizCardResult()
+  type: Constructor
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public BizCardResult()
+    content.vb: Public Sub New()
+  overload: SuperOffice.Util.BizCardResult.#ctor*
+  nameWithType.vb: BizCardResult.New()
+  fullName.vb: SuperOffice.Util.BizCardResult.New()
+  name.vb: New()
+- uid: SuperOffice.Util.BizCardResult.CompanyName
+  commentId: P:SuperOffice.Util.BizCardResult.CompanyName
+  id: CompanyName
+  parent: SuperOffice.Util.BizCardResult
+  langs:
+  - csharp
+  - vb
+  name: CompanyName
+  nameWithType: BizCardResult.CompanyName
+  fullName: SuperOffice.Util.BizCardResult.CompanyName
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string CompanyName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property CompanyName As String
+  overload: SuperOffice.Util.BizCardResult.CompanyName*
+- uid: SuperOffice.Util.BizCardResult.Department
+  commentId: P:SuperOffice.Util.BizCardResult.Department
+  id: Department
+  parent: SuperOffice.Util.BizCardResult
+  langs:
+  - csharp
+  - vb
+  name: Department
+  nameWithType: BizCardResult.Department
+  fullName: SuperOffice.Util.BizCardResult.Department
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string Department { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Department As String
+  overload: SuperOffice.Util.BizCardResult.Department*
+- uid: SuperOffice.Util.BizCardResult.Street
+  commentId: P:SuperOffice.Util.BizCardResult.Street
+  id: Street
+  parent: SuperOffice.Util.BizCardResult
+  langs:
+  - csharp
+  - vb
+  name: Street
+  nameWithType: BizCardResult.Street
+  fullName: SuperOffice.Util.BizCardResult.Street
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public AddressRecordData Street { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.AddressRecordData
+    content.vb: Public Property Street As AddressRecordData
+  overload: SuperOffice.Util.BizCardResult.Street*
+- uid: SuperOffice.Util.BizCardResult.Postal
+  commentId: P:SuperOffice.Util.BizCardResult.Postal
+  id: Postal
+  parent: SuperOffice.Util.BizCardResult
+  langs:
+  - csharp
+  - vb
+  name: Postal
+  nameWithType: BizCardResult.Postal
+  fullName: SuperOffice.Util.BizCardResult.Postal
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public AddressRecordData Postal { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.AddressRecordData
+    content.vb: Public Property Postal As AddressRecordData
+  overload: SuperOffice.Util.BizCardResult.Postal*
+- uid: SuperOffice.Util.BizCardResult.Country
+  commentId: P:SuperOffice.Util.BizCardResult.Country
+  id: Country
+  parent: SuperOffice.Util.BizCardResult
+  langs:
+  - csharp
+  - vb
+  name: Country
+  nameWithType: BizCardResult.Country
+  fullName: SuperOffice.Util.BizCardResult.Country
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public CountryRecordData Country { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.CountryRecordData
+    content.vb: Public Property Country As CountryRecordData
+  overload: SuperOffice.Util.BizCardResult.Country*
+- uid: SuperOffice.Util.BizCardResult.Business
+  commentId: P:SuperOffice.Util.BizCardResult.Business
+  id: Business
+  parent: SuperOffice.Util.BizCardResult
+  langs:
+  - csharp
+  - vb
+  name: Business
+  nameWithType: BizCardResult.Business
+  fullName: SuperOffice.Util.BizCardResult.Business
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public BusinessRecordData Business { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.BusinessRecordData
+    content.vb: Public Property Business As BusinessRecordData
+  overload: SuperOffice.Util.BizCardResult.Business*
+- uid: SuperOffice.Util.BizCardResult.Category
+  commentId: P:SuperOffice.Util.BizCardResult.Category
+  id: Category
+  parent: SuperOffice.Util.BizCardResult
+  langs:
+  - csharp
+  - vb
+  name: Category
+  nameWithType: BizCardResult.Category
+  fullName: SuperOffice.Util.BizCardResult.Category
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public CategoryRecordData Category { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.CategoryRecordData
+    content.vb: Public Property Category As CategoryRecordData
+  overload: SuperOffice.Util.BizCardResult.Category*
+- uid: SuperOffice.Util.BizCardResult.OrganizationNumber
+  commentId: P:SuperOffice.Util.BizCardResult.OrganizationNumber
+  id: OrganizationNumber
+  parent: SuperOffice.Util.BizCardResult
+  langs:
+  - csharp
+  - vb
+  name: OrganizationNumber
+  nameWithType: BizCardResult.OrganizationNumber
+  fullName: SuperOffice.Util.BizCardResult.OrganizationNumber
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string OrganizationNumber { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property OrganizationNumber As String
+  overload: SuperOffice.Util.BizCardResult.OrganizationNumber*
+- uid: SuperOffice.Util.BizCardResult.Fax
+  commentId: P:SuperOffice.Util.BizCardResult.Fax
+  id: Fax
+  parent: SuperOffice.Util.BizCardResult
+  langs:
+  - csharp
+  - vb
+  name: Fax
+  nameWithType: BizCardResult.Fax
+  fullName: SuperOffice.Util.BizCardResult.Fax
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string Fax { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Fax As String
+  overload: SuperOffice.Util.BizCardResult.Fax*
+- uid: SuperOffice.Util.BizCardResult.Email
+  commentId: P:SuperOffice.Util.BizCardResult.Email
+  id: Email
+  parent: SuperOffice.Util.BizCardResult
+  langs:
+  - csharp
+  - vb
+  name: Email
+  nameWithType: BizCardResult.Email
+  fullName: SuperOffice.Util.BizCardResult.Email
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string Email { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Email As String
+  overload: SuperOffice.Util.BizCardResult.Email*
+- uid: SuperOffice.Util.BizCardResult.Website
+  commentId: P:SuperOffice.Util.BizCardResult.Website
+  id: Website
+  parent: SuperOffice.Util.BizCardResult
+  langs:
+  - csharp
+  - vb
+  name: Website
+  nameWithType: BizCardResult.Website
+  fullName: SuperOffice.Util.BizCardResult.Website
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string Website { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Website As String
+  overload: SuperOffice.Util.BizCardResult.Website*
+- uid: SuperOffice.Util.BizCardResult.Firstname
+  commentId: P:SuperOffice.Util.BizCardResult.Firstname
+  id: Firstname
+  parent: SuperOffice.Util.BizCardResult
+  langs:
+  - csharp
+  - vb
+  name: Firstname
+  nameWithType: BizCardResult.Firstname
+  fullName: SuperOffice.Util.BizCardResult.Firstname
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string Firstname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Firstname As String
+  overload: SuperOffice.Util.BizCardResult.Firstname*
+- uid: SuperOffice.Util.BizCardResult.Middlename
+  commentId: P:SuperOffice.Util.BizCardResult.Middlename
+  id: Middlename
+  parent: SuperOffice.Util.BizCardResult
+  langs:
+  - csharp
+  - vb
+  name: Middlename
+  nameWithType: BizCardResult.Middlename
+  fullName: SuperOffice.Util.BizCardResult.Middlename
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string Middlename { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Middlename As String
+  overload: SuperOffice.Util.BizCardResult.Middlename*
+- uid: SuperOffice.Util.BizCardResult.Lastname
+  commentId: P:SuperOffice.Util.BizCardResult.Lastname
+  id: Lastname
+  parent: SuperOffice.Util.BizCardResult
+  langs:
+  - csharp
+  - vb
+  name: Lastname
+  nameWithType: BizCardResult.Lastname
+  fullName: SuperOffice.Util.BizCardResult.Lastname
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string Lastname { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Lastname As String
+  overload: SuperOffice.Util.BizCardResult.Lastname*
+- uid: SuperOffice.Util.BizCardResult.Salutation
+  commentId: P:SuperOffice.Util.BizCardResult.Salutation
+  id: Salutation
+  parent: SuperOffice.Util.BizCardResult
+  langs:
+  - csharp
+  - vb
+  name: Salutation
+  nameWithType: BizCardResult.Salutation
+  fullName: SuperOffice.Util.BizCardResult.Salutation
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string Salutation { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Salutation As String
+  overload: SuperOffice.Util.BizCardResult.Salutation*
+- uid: SuperOffice.Util.BizCardResult.JobTitle
+  commentId: P:SuperOffice.Util.BizCardResult.JobTitle
+  id: JobTitle
+  parent: SuperOffice.Util.BizCardResult
+  langs:
+  - csharp
+  - vb
+  name: JobTitle
+  nameWithType: BizCardResult.JobTitle
+  fullName: SuperOffice.Util.BizCardResult.JobTitle
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string JobTitle { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property JobTitle As String
+  overload: SuperOffice.Util.BizCardResult.JobTitle*
+- uid: SuperOffice.Util.BizCardResult.Position
+  commentId: P:SuperOffice.Util.BizCardResult.Position
+  id: Position
+  parent: SuperOffice.Util.BizCardResult
+  langs:
+  - csharp
+  - vb
+  name: Position
+  nameWithType: BizCardResult.Position
+  fullName: SuperOffice.Util.BizCardResult.Position
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public PersPosRecordData Position { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Rows.PersPosRecordData
+    content.vb: Public Property Position As PersPosRecordData
+  overload: SuperOffice.Util.BizCardResult.Position*
+- uid: SuperOffice.Util.BizCardResult.PersonalEmail
+  commentId: P:SuperOffice.Util.BizCardResult.PersonalEmail
+  id: PersonalEmail
+  parent: SuperOffice.Util.BizCardResult
+  langs:
+  - csharp
+  - vb
+  name: PersonalEmail
+  nameWithType: BizCardResult.PersonalEmail
+  fullName: SuperOffice.Util.BizCardResult.PersonalEmail
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string PersonalEmail { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property PersonalEmail As String
+  overload: SuperOffice.Util.BizCardResult.PersonalEmail*
+- uid: SuperOffice.Util.BizCardResult.MobilePhone
+  commentId: P:SuperOffice.Util.BizCardResult.MobilePhone
+  id: MobilePhone
+  parent: SuperOffice.Util.BizCardResult
+  langs:
+  - csharp
+  - vb
+  name: MobilePhone
+  nameWithType: BizCardResult.MobilePhone
+  fullName: SuperOffice.Util.BizCardResult.MobilePhone
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string MobilePhone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property MobilePhone As String
+  overload: SuperOffice.Util.BizCardResult.MobilePhone*
+- uid: SuperOffice.Util.BizCardResult.DirectPhone
+  commentId: P:SuperOffice.Util.BizCardResult.DirectPhone
+  id: DirectPhone
+  parent: SuperOffice.Util.BizCardResult
+  langs:
+  - csharp
+  - vb
+  name: DirectPhone
+  nameWithType: BizCardResult.DirectPhone
+  fullName: SuperOffice.Util.BizCardResult.DirectPhone
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string DirectPhone { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property DirectPhone As String
+  overload: SuperOffice.Util.BizCardResult.DirectPhone*
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: SuperOffice.Util.BizCardResult.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<BizCardResult, To>(BizCardResult)
+  nameWithType: EnumUtil.MapEnums<BizCardResult, To>(BizCardResult)
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.BizCardResult, To>(SuperOffice.Util.BizCardResult)
+  nameWithType.vb: EnumUtil.MapEnums(Of BizCardResult, To)(BizCardResult)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.BizCardResult, To)(SuperOffice.Util.BizCardResult)
+  name.vb: MapEnums(Of BizCardResult, To)(BizCardResult)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.BizCardResult)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.BizCardResult
+    name: BizCardResult
+    isExternal: true
+    href: SuperOffice.Util.BizCardResult.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.BizCardResult
+    name: BizCardResult
+    isExternal: true
+    href: SuperOffice.Util.BizCardResult.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.BizCardResult)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.BizCardResult
+    name: BizCardResult
+    isExternal: true
+    href: SuperOffice.Util.BizCardResult.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.BizCardResult
+    name: BizCardResult
+    isExternal: true
+    href: SuperOffice.Util.BizCardResult.html
+  - name: )
+- uid: SuperOffice.Util.BizCardResult.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<BizCardResult, To>(BizCardResult)
+  nameWithType: Converters.MapEnums<BizCardResult, To>(BizCardResult)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.BizCardResult, To>(SuperOffice.Util.BizCardResult)
+  nameWithType.vb: Converters.MapEnums(Of BizCardResult, To)(BizCardResult)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.BizCardResult, To)(SuperOffice.Util.BizCardResult)
+  name.vb: MapEnums(Of BizCardResult, To)(BizCardResult)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.BizCardResult)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.BizCardResult
+    name: BizCardResult
+    isExternal: true
+    href: SuperOffice.Util.BizCardResult.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.BizCardResult
+    name: BizCardResult
+    isExternal: true
+    href: SuperOffice.Util.BizCardResult.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.BizCardResult)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.BizCardResult
+    name: BizCardResult
+    isExternal: true
+    href: SuperOffice.Util.BizCardResult.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.BizCardResult
+    name: BizCardResult
+    isExternal: true
+    href: SuperOffice.Util.BizCardResult.html
+  - name: )
+- uid: SuperOffice.Util.BizCardResult.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.BizCardResult)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<BizCardResult>(BizCardResult, BizCardResult)
+  nameWithType: ObjectExtensions.AssignByReflection<BizCardResult>(BizCardResult, BizCardResult)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.BizCardResult>(SuperOffice.Util.BizCardResult, SuperOffice.Util.BizCardResult)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of BizCardResult)(BizCardResult, BizCardResult)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.BizCardResult)(SuperOffice.Util.BizCardResult, SuperOffice.Util.BizCardResult)
+  name.vb: AssignByReflection(Of BizCardResult)(BizCardResult, BizCardResult)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.BizCardResult,SuperOffice.Util.BizCardResult)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Util.BizCardResult
+    name: BizCardResult
+    isExternal: true
+    href: SuperOffice.Util.BizCardResult.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.BizCardResult
+    name: BizCardResult
+    isExternal: true
+    href: SuperOffice.Util.BizCardResult.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Util.BizCardResult
+    name: BizCardResult
+    isExternal: true
+    href: SuperOffice.Util.BizCardResult.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.BizCardResult,SuperOffice.Util.BizCardResult)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.BizCardResult
+    name: BizCardResult
+    isExternal: true
+    href: SuperOffice.Util.BizCardResult.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.BizCardResult
+    name: BizCardResult
+    isExternal: true
+    href: SuperOffice.Util.BizCardResult.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Util.BizCardResult
+    name: BizCardResult
+    isExternal: true
+    href: SuperOffice.Util.BizCardResult.html
+  - name: )
+- uid: SuperOffice.Util.BizCardResult.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<BizCardResult>(BizCardResult)
+  nameWithType: ObjectExtensions.GraphCopy<BizCardResult>(BizCardResult)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.BizCardResult>(SuperOffice.Util.BizCardResult)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of BizCardResult)(BizCardResult)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.BizCardResult)(SuperOffice.Util.BizCardResult)
+  name.vb: GraphCopy(Of BizCardResult)(BizCardResult)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.BizCardResult)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Util.BizCardResult
+    name: BizCardResult
+    isExternal: true
+    href: SuperOffice.Util.BizCardResult.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.BizCardResult
+    name: BizCardResult
+    isExternal: true
+    href: SuperOffice.Util.BizCardResult.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.BizCardResult)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.BizCardResult
+    name: BizCardResult
+    isExternal: true
+    href: SuperOffice.Util.BizCardResult.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.BizCardResult
+    name: BizCardResult
+    isExternal: true
+    href: SuperOffice.Util.BizCardResult.html
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util.BizCardResult.#ctor*
+  commentId: Overload:SuperOffice.Util.BizCardResult.#ctor
+  isExternal: true
+  href: SuperOffice.Util.BizCardResult.html#SuperOffice_Util_BizCardResult__ctor
+  name: BizCardResult
+  nameWithType: BizCardResult.BizCardResult
+  fullName: SuperOffice.Util.BizCardResult.BizCardResult
+  nameWithType.vb: BizCardResult.New
+  fullName.vb: SuperOffice.Util.BizCardResult.New
+  name.vb: New
+- uid: SuperOffice.Util.BizCardResult.CompanyName*
+  commentId: Overload:SuperOffice.Util.BizCardResult.CompanyName
+  isExternal: true
+  href: SuperOffice.Util.BizCardResult.html#SuperOffice_Util_BizCardResult_CompanyName
+  name: CompanyName
+  nameWithType: BizCardResult.CompanyName
+  fullName: SuperOffice.Util.BizCardResult.CompanyName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.Util.BizCardResult.Department*
+  commentId: Overload:SuperOffice.Util.BizCardResult.Department
+  isExternal: true
+  href: SuperOffice.Util.BizCardResult.html#SuperOffice_Util_BizCardResult_Department
+  name: Department
+  nameWithType: BizCardResult.Department
+  fullName: SuperOffice.Util.BizCardResult.Department
+- uid: SuperOffice.Util.BizCardResult.Street*
+  commentId: Overload:SuperOffice.Util.BizCardResult.Street
+  isExternal: true
+  href: SuperOffice.Util.BizCardResult.html#SuperOffice_Util_BizCardResult_Street
+  name: Street
+  nameWithType: BizCardResult.Street
+  fullName: SuperOffice.Util.BizCardResult.Street
+- uid: SuperOffice.CRM.Rows.AddressRecordData
+  commentId: T:SuperOffice.CRM.Rows.AddressRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.AddressRecordData.html
+  name: AddressRecordData
+  nameWithType: AddressRecordData
+  fullName: SuperOffice.CRM.Rows.AddressRecordData
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+- uid: SuperOffice.Util.BizCardResult.Postal*
+  commentId: Overload:SuperOffice.Util.BizCardResult.Postal
+  isExternal: true
+  href: SuperOffice.Util.BizCardResult.html#SuperOffice_Util_BizCardResult_Postal
+  name: Postal
+  nameWithType: BizCardResult.Postal
+  fullName: SuperOffice.Util.BizCardResult.Postal
+- uid: SuperOffice.Util.BizCardResult.Country*
+  commentId: Overload:SuperOffice.Util.BizCardResult.Country
+  isExternal: true
+  href: SuperOffice.Util.BizCardResult.html#SuperOffice_Util_BizCardResult_Country
+  name: Country
+  nameWithType: BizCardResult.Country
+  fullName: SuperOffice.Util.BizCardResult.Country
+- uid: SuperOffice.CRM.Rows.CountryRecordData
+  commentId: T:SuperOffice.CRM.Rows.CountryRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CountryRecordData.html
+  name: CountryRecordData
+  nameWithType: CountryRecordData
+  fullName: SuperOffice.CRM.Rows.CountryRecordData
+- uid: SuperOffice.Util.BizCardResult.Business*
+  commentId: Overload:SuperOffice.Util.BizCardResult.Business
+  isExternal: true
+  href: SuperOffice.Util.BizCardResult.html#SuperOffice_Util_BizCardResult_Business
+  name: Business
+  nameWithType: BizCardResult.Business
+  fullName: SuperOffice.Util.BizCardResult.Business
+- uid: SuperOffice.CRM.Rows.BusinessRecordData
+  commentId: T:SuperOffice.CRM.Rows.BusinessRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.BusinessRecordData.html
+  name: BusinessRecordData
+  nameWithType: BusinessRecordData
+  fullName: SuperOffice.CRM.Rows.BusinessRecordData
+- uid: SuperOffice.Util.BizCardResult.Category*
+  commentId: Overload:SuperOffice.Util.BizCardResult.Category
+  isExternal: true
+  href: SuperOffice.Util.BizCardResult.html#SuperOffice_Util_BizCardResult_Category
+  name: Category
+  nameWithType: BizCardResult.Category
+  fullName: SuperOffice.Util.BizCardResult.Category
+- uid: SuperOffice.CRM.Rows.CategoryRecordData
+  commentId: T:SuperOffice.CRM.Rows.CategoryRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.CategoryRecordData.html
+  name: CategoryRecordData
+  nameWithType: CategoryRecordData
+  fullName: SuperOffice.CRM.Rows.CategoryRecordData
+- uid: SuperOffice.Util.BizCardResult.OrganizationNumber*
+  commentId: Overload:SuperOffice.Util.BizCardResult.OrganizationNumber
+  isExternal: true
+  href: SuperOffice.Util.BizCardResult.html#SuperOffice_Util_BizCardResult_OrganizationNumber
+  name: OrganizationNumber
+  nameWithType: BizCardResult.OrganizationNumber
+  fullName: SuperOffice.Util.BizCardResult.OrganizationNumber
+- uid: SuperOffice.Util.BizCardResult.Fax*
+  commentId: Overload:SuperOffice.Util.BizCardResult.Fax
+  isExternal: true
+  href: SuperOffice.Util.BizCardResult.html#SuperOffice_Util_BizCardResult_Fax
+  name: Fax
+  nameWithType: BizCardResult.Fax
+  fullName: SuperOffice.Util.BizCardResult.Fax
+- uid: SuperOffice.Util.BizCardResult.Email*
+  commentId: Overload:SuperOffice.Util.BizCardResult.Email
+  isExternal: true
+  href: SuperOffice.Util.BizCardResult.html#SuperOffice_Util_BizCardResult_Email
+  name: Email
+  nameWithType: BizCardResult.Email
+  fullName: SuperOffice.Util.BizCardResult.Email
+- uid: SuperOffice.Util.BizCardResult.Website*
+  commentId: Overload:SuperOffice.Util.BizCardResult.Website
+  isExternal: true
+  href: SuperOffice.Util.BizCardResult.html#SuperOffice_Util_BizCardResult_Website
+  name: Website
+  nameWithType: BizCardResult.Website
+  fullName: SuperOffice.Util.BizCardResult.Website
+- uid: SuperOffice.Util.BizCardResult.Firstname*
+  commentId: Overload:SuperOffice.Util.BizCardResult.Firstname
+  isExternal: true
+  href: SuperOffice.Util.BizCardResult.html#SuperOffice_Util_BizCardResult_Firstname
+  name: Firstname
+  nameWithType: BizCardResult.Firstname
+  fullName: SuperOffice.Util.BizCardResult.Firstname
+- uid: SuperOffice.Util.BizCardResult.Middlename*
+  commentId: Overload:SuperOffice.Util.BizCardResult.Middlename
+  isExternal: true
+  href: SuperOffice.Util.BizCardResult.html#SuperOffice_Util_BizCardResult_Middlename
+  name: Middlename
+  nameWithType: BizCardResult.Middlename
+  fullName: SuperOffice.Util.BizCardResult.Middlename
+- uid: SuperOffice.Util.BizCardResult.Lastname*
+  commentId: Overload:SuperOffice.Util.BizCardResult.Lastname
+  isExternal: true
+  href: SuperOffice.Util.BizCardResult.html#SuperOffice_Util_BizCardResult_Lastname
+  name: Lastname
+  nameWithType: BizCardResult.Lastname
+  fullName: SuperOffice.Util.BizCardResult.Lastname
+- uid: SuperOffice.Util.BizCardResult.Salutation*
+  commentId: Overload:SuperOffice.Util.BizCardResult.Salutation
+  isExternal: true
+  href: SuperOffice.Util.BizCardResult.html#SuperOffice_Util_BizCardResult_Salutation
+  name: Salutation
+  nameWithType: BizCardResult.Salutation
+  fullName: SuperOffice.Util.BizCardResult.Salutation
+- uid: SuperOffice.Util.BizCardResult.JobTitle*
+  commentId: Overload:SuperOffice.Util.BizCardResult.JobTitle
+  isExternal: true
+  href: SuperOffice.Util.BizCardResult.html#SuperOffice_Util_BizCardResult_JobTitle
+  name: JobTitle
+  nameWithType: BizCardResult.JobTitle
+  fullName: SuperOffice.Util.BizCardResult.JobTitle
+- uid: SuperOffice.Util.BizCardResult.Position*
+  commentId: Overload:SuperOffice.Util.BizCardResult.Position
+  isExternal: true
+  href: SuperOffice.Util.BizCardResult.html#SuperOffice_Util_BizCardResult_Position
+  name: Position
+  nameWithType: BizCardResult.Position
+  fullName: SuperOffice.Util.BizCardResult.Position
+- uid: SuperOffice.CRM.Rows.PersPosRecordData
+  commentId: T:SuperOffice.CRM.Rows.PersPosRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.PersPosRecordData.html
+  name: PersPosRecordData
+  nameWithType: PersPosRecordData
+  fullName: SuperOffice.CRM.Rows.PersPosRecordData
+- uid: SuperOffice.Util.BizCardResult.PersonalEmail*
+  commentId: Overload:SuperOffice.Util.BizCardResult.PersonalEmail
+  isExternal: true
+  href: SuperOffice.Util.BizCardResult.html#SuperOffice_Util_BizCardResult_PersonalEmail
+  name: PersonalEmail
+  nameWithType: BizCardResult.PersonalEmail
+  fullName: SuperOffice.Util.BizCardResult.PersonalEmail
+- uid: SuperOffice.Util.BizCardResult.MobilePhone*
+  commentId: Overload:SuperOffice.Util.BizCardResult.MobilePhone
+  isExternal: true
+  href: SuperOffice.Util.BizCardResult.html#SuperOffice_Util_BizCardResult_MobilePhone
+  name: MobilePhone
+  nameWithType: BizCardResult.MobilePhone
+  fullName: SuperOffice.Util.BizCardResult.MobilePhone
+- uid: SuperOffice.Util.BizCardResult.DirectPhone*
+  commentId: Overload:SuperOffice.Util.BizCardResult.DirectPhone
+  isExternal: true
+  href: SuperOffice.Util.BizCardResult.html#SuperOffice_Util_BizCardResult_DirectPhone
+  name: DirectPhone
+  nameWithType: BizCardResult.DirectPhone
+  fullName: SuperOffice.Util.BizCardResult.DirectPhone

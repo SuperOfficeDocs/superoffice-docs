@@ -1,6 +1,8 @@
 ---
+uid: tag-ChatTopic
 title: ChatTopic
 generated: true
+content_type: reference
 ---
 
 ```http

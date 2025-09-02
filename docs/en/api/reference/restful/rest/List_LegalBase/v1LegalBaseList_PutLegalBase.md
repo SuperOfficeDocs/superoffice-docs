@@ -2,6 +2,7 @@
 title: PUT List/LegalBase/Items/{id}
 uid: v1LegalBaseList_PutLegalBase
 generated: true
+content_type: reference
 ---
 
 # PUT List/LegalBase/Items/{id}
@@ -80,15 +81,15 @@ OK
 PUT /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 166,
-  "Name": "Schuster Inc and Sons",
-  "Tooltip": "et",
-  "Rank": 868,
-  "Key": "ex",
+  "LegalBaseId": 161,
+  "Name": "Muller Group",
+  "Tooltip": "modi",
+  "Rank": 401,
+  "Key": "possimus",
   "Deleted": true
 }
 ```
@@ -100,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 657,
-  "Name": "White LLC",
-  "Tooltip": "iure",
-  "Rank": 615,
-  "Key": "velit",
+  "LegalBaseId": 777,
+  "Name": "Reichel Group",
+  "Tooltip": "possimus",
+  "Rank": 243,
+  "Key": "non",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 561
+      "FieldLength": 666
     }
   }
 }

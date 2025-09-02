@@ -2,6 +2,7 @@
 title: GET List/Source/Items/Default
 uid: v1SourceList_CreateDefaultSource
 generated: true
+content_type: reference
 ---
 
 # GET List/Source/Items/Default
@@ -60,7 +61,7 @@ OK
 GET /api/v1/List/Source/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 280,
-  "Name": "Bartoletti LLC",
-  "Tooltip": "rerum",
+  "Id": 830,
+  "Name": "Hoppe, Towne and Lakin",
+  "Tooltip": "harum",
   "Deleted": false,
-  "UdListDefinitionId": 27,
-  "Rank": 94,
+  "UdListDefinitionId": 699,
+  "Rank": 482,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 630
+      "FieldType": "System.String",
+      "FieldLength": 601
     }
   }
 }

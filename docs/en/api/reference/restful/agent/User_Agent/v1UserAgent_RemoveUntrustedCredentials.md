@@ -2,6 +2,7 @@
 title: POST Agents/User/RemoveUntrustedCredentials
 uid: v1UserAgent_RemoveUntrustedCredentials
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/RemoveUntrustedCredentials
@@ -67,12 +68,12 @@ No Content
 POST /api/v1/Agents/User/RemoveUntrustedCredentials
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "nostrum",
-  "PublicValue": "consequatur"
+  "Type": "aut",
+  "PublicValue": "voluptates"
 }
 ```
 

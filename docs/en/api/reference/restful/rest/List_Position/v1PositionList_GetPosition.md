@@ -2,6 +2,7 @@
 title: GET List/Position/Items/{id}
 uid: v1PositionList_GetPosition
 generated: true
+content_type: reference
 ---
 
 # GET List/Position/Items/{id}
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/Position/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 144,
-  "Name": "Bins-Balistreri",
-  "Tooltip": "architecto",
-  "Deleted": false,
-  "UdListDefinitionId": 674,
-  "Rank": 89,
+  "Id": 559,
+  "Name": "Balistreri, Keebler and Homenick",
+  "Tooltip": "consequuntur",
+  "Deleted": true,
+  "UdListDefinitionId": 405,
+  "Rank": 510,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 808
+      "FieldType": "System.Int32",
+      "FieldLength": 627
     }
   }
 }

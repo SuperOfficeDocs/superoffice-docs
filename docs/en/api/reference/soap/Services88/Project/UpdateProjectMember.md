@@ -2,6 +2,7 @@
 title: Services88.ProjectAgent.UpdateProjectMember SOAP
 generated: true
 uid: Services88-Project-UpdateProjectMember
+content_type: reference
 ---
 
 # Services88 Project UpdateProjectMember

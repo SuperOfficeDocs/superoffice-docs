@@ -2,6 +2,7 @@
 title: POST Agents/Project/GetPublishedProjectsOnPersonId
 uid: v1ProjectAgent_GetPublishedProjectsOnPersonId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/GetPublishedProjectsOnPersonId
@@ -90,11 +91,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 691
+  "PersonId": 630
 }
 ```
 
@@ -106,30 +107,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 968,
-    "Name": "Littel LLC",
-    "Description": "Centralized client-driven customer loyalty",
+    "ProjectId": 9,
+    "Name": "Windler, Morar and Keebler",
+    "Description": "De-engineered real-time secured line",
     "URL": "http://www.example.com/",
-    "Type": "rerum",
-    "AssociateId": 854,
-    "AssociateFullName": "Prof. Madeline Lakin IV",
-    "TypeId": 98,
-    "Updated": "2009-06-05T03:45:23.7798203+02:00",
-    "StatusId": 434,
-    "Status": "quam",
-    "TextId": 361,
-    "PublishTo": "2019-05-05T03:45:23.7798203+02:00",
-    "PublishFrom": "1999-09-28T03:45:23.7798203+02:00",
-    "IsPublished": false,
+    "Type": "eos",
+    "AssociateId": 924,
+    "AssociateFullName": "Dora Zieme",
+    "TypeId": 713,
+    "Updated": "2011-12-17T03:46:55.1757421+01:00",
+    "StatusId": 866,
+    "Status": "facere",
+    "TextId": 672,
+    "PublishTo": "1999-04-17T03:46:55.1757421+02:00",
+    "PublishFrom": "2004-10-18T03:46:55.1757421+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1567778",
-    "ActiveErpLinks": 762,
+    "ProjectNumber": "932469",
+    "ActiveErpLinks": 40,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 577
+        "FieldLength": 944
       }
     }
   }

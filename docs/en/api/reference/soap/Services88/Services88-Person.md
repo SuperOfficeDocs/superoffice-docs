@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-Person
 title: Services88.PersonAgent WSDL
+content_type: reference
 ---
 
 # Services88.PersonAgent WSDL
@@ -228,6 +229,8 @@ title: Services88.PersonAgent WSDL
               <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
               <xs:element minOccurs="0" name="EjUserId" type="xs:int" />
               <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="tns:StringDictionary" />
+              <xs:element minOccurs="0" name="CustomFields" nillable="true" type="tns:StringDictionary" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -244,6 +247,24 @@ title: Services88.PersonAgent WSDL
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="UserType" nillable="true" type="tns:UserType" />
+      <xs:complexType name="StringDictionary">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="StringKeyValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" nillable="true" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="StringDictionary" nillable="true" type="tns:StringDictionary" />
       <xs:complexType name="SoExceptionInfo">
         <xs:sequence>
           <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
@@ -398,6 +419,7 @@ title: Services88.PersonAgent WSDL
               <xs:element minOccurs="0" name="BounceEmails" nillable="true" type="q1:ArrayOfstring" xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="ActiveStatusMonitorId" type="xs:int" />
               <xs:element minOccurs="0" name="CreatedByFormId" type="xs:int" />
+              <xs:element minOccurs="0" name="InitialUtmParameters" nillable="true" type="tns:InitalUtmParameters" />
               <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="tns:StringDictionary" />
               <xs:element minOccurs="0" name="CustomFields" nillable="true" type="tns:StringDictionary" />
@@ -718,24 +740,22 @@ title: Services88.PersonAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="ConsentInfo" nillable="true" type="tns:ConsentInfo" />
-      <xs:complexType name="StringDictionary">
-        <xs:annotation>
-          <xs:appinfo>
-            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
-          </xs:appinfo>
-        </xs:annotation>
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="StringKeyValuePair">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Key" nillable="true" type="xs:string" />
-                <xs:element name="Value" nillable="true" type="xs:string" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-        </xs:sequence>
+      <xs:complexType name="InitalUtmParameters">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="FormName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Medium" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Campaign" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Term" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Content" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ReferrerDomain" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
       </xs:complexType>
-      <xs:element name="StringDictionary" nillable="true" type="tns:StringDictionary" />
+      <xs:element name="InitalUtmParameters" nillable="true" type="tns:InitalUtmParameters" />
       <xs:element name="SavePersonEntity">
         <xs:complexType>
           <xs:sequence>
@@ -1675,6 +1695,52 @@ title: Services88.PersonAgent WSDL
           <xs:sequence />
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetUtmParameters">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="PersonId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetUtmParametersResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:UtmParameters" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="UtmParameters">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="UtmParametersId" type="xs:int" />
+              <xs:element minOccurs="0" name="CreatedContactId" type="xs:int" />
+              <xs:element minOccurs="0" name="CreatedPersonId" type="xs:int" />
+              <xs:element minOccurs="0" name="FormSubmissionId" type="xs:int" />
+              <xs:element minOccurs="0" name="FirstTouchSource" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FirstTouchMedium" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FirstTouchCampaign" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FirstTouchTerm" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FirstTouchContent" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FirstTouchReferrerDomain" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FirstTouchWhen" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Medium" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Campaign" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Term" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Content" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ReferrerDomain" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="When" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Registered" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="RegisteredAssociateId" type="xs:int" />
+              <xs:element minOccurs="0" name="Updated" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="UpdatedAssociateId" type="xs:int" />
+              <xs:element minOccurs="0" name="UpdatedCount" type="xs:short" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="UtmParameters" nillable="true" type="tns:UtmParameters" />
       <xs:element name="GetPersonList">
         <xs:complexType>
           <xs:sequence>
@@ -2760,6 +2826,23 @@ title: Services88.PersonAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetUtmParametersRequest">
+    <wsdl:part name="parameters" element="tns:GetUtmParameters" />
+  </wsdl:message>
+  <wsdl:message name="GetUtmParametersRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetUtmParametersResponse">
+    <wsdl:part name="parameters" element="tns:GetUtmParametersResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUtmParametersResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetPersonListRequest">
     <wsdl:part name="parameters" element="tns:GetPersonList" />
   </wsdl:message>
@@ -3147,6 +3230,10 @@ title: Services88.PersonAgent WSDL
     <wsdl:operation name="SendEmailWithEventName">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SendEmailWithEventName" name="SendEmailWithEventNameRequest" message="tns:SendEmailWithEventNameRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/SendEmailWithEventNameResponse" name="SendEmailWithEventNameResponse" message="tns:SendEmailWithEventNameResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUtmParameters">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetUtmParameters" name="GetUtmParametersRequest" message="tns:GetUtmParametersRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetUtmParametersResponse" name="GetUtmParametersResponse" message="tns:GetUtmParametersResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetPersonList">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetPersonList" name="GetPersonListRequest" message="tns:GetPersonListRequest" />
@@ -3992,6 +4079,22 @@ title: Services88.PersonAgent WSDL
         <soap:header message="tns:SendEmailWithEventNameResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SendEmailWithEventNameResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SendEmailWithEventNameResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUtmParameters">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Person/GetUtmParameters" style="document" />
+      <wsdl:input name="GetUtmParametersRequest">
+        <soap:header message="tns:GetUtmParametersRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetUtmParametersRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetUtmParametersRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetUtmParametersResponse">
+        <soap:header message="tns:GetUtmParametersResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetUtmParametersResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetUtmParametersResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetUtmParametersResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

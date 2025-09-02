@@ -1,6 +1,8 @@
 ---
+uid: tag-BulkUpdate_Agent
 title: BulkUpdate_Agent
 generated: true
+content_type: reference
 ---
 
 ```http

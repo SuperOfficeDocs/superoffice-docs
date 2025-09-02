@@ -2,6 +2,7 @@
 title: Services88.SaintAgent.GetStatusMonitorPeriods SOAP
 generated: true
 uid: Services88-Saint-GetStatusMonitorPeriods
+content_type: reference
 ---
 
 # Services88 Saint GetStatusMonitorPeriods

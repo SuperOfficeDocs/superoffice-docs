@@ -2,6 +2,7 @@
 title: POST Agents/BLOB/GetBlobEntityOnProduct
 uid: v1BLOBAgent_GetBlobEntityOnProduct
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BLOB/GetBlobEntityOnProduct
@@ -89,7 +90,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 692
+  "ProductId": 1002
 }
 ```
 
@@ -100,25 +101,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 150,
-  "BlobSize": 646,
-  "Description": "Inverse clear-thinking intranet",
-  "ExtraInfo": "debitis",
+  "BlobId": 98,
+  "BlobSize": 148,
+  "Description": "Re-contextualized system-worthy info-mediaries",
+  "ExtraInfo": "id",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "consequuntur",
-  "OriginalSize": 547,
-  "CreatedDate": "2004-07-30T03:45:22.9985914+02:00",
-  "UpdatedDate": "2008-01-04T03:45:22.9985914+01:00",
+  "MimeType": "quae",
+  "OriginalSize": 9,
+  "CreatedDate": "1999-02-10T03:46:54.3163903+01:00",
+  "UpdatedDate": "2002-08-08T03:46:54.3163903+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "est",
+  "ConceptualType": "magni",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 869
+      "FieldLength": 933
     }
   }
 }

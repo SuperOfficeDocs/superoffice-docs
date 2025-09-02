@@ -2,6 +2,7 @@
 title: Services88.WorkflowAgent.ConnectEmailFlowContent SOAP
 generated: true
 uid: Services88-Workflow-ConnectEmailFlowContent
+content_type: reference
 ---
 
 # Services88 Workflow ConnectEmailFlowContent

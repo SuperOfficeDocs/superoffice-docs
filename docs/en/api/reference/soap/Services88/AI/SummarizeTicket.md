@@ -2,6 +2,7 @@
 title: Services88.AIAgent.SummarizeTicket SOAP
 generated: true
 uid: Services88-AI-SummarizeTicket
+content_type: reference
 ---
 
 # Services88 AI SummarizeTicket

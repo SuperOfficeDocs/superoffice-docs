@@ -2,6 +2,7 @@
 title: Services88.ContactAgent.GetMyRecentContacts SOAP
 generated: true
 uid: Services88-Contact-GetMyRecentContacts
+content_type: reference
 ---
 
 # Services88 Contact GetMyRecentContacts

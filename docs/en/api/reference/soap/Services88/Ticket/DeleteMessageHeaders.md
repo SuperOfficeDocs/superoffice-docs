@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.DeleteMessageHeaders SOAP
 generated: true
 uid: Services88-Ticket-DeleteMessageHeaders
+content_type: reference
 ---
 
 # Services88 Ticket DeleteMessageHeaders

@@ -2,6 +2,7 @@
 title: POST Agents/Targets/GetTargetAssignmentForYearAndDimension
 uid: v1TargetsAgent_GetTargetAssignmentForYearAndDimension
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Targets/GetTargetAssignmentForYearAndDimension
@@ -85,15 +86,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 121,
+  "TargetYear": 1000,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 873,
-  "DimensionId": 122
+  "Id": 83,
+  "DimensionId": 820
 }
 ```
 
@@ -104,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 654,
+  "TargetAssignmentInfoId": 470,
   "Values": [
-    349,
-    600
+    155,
+    520
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 725,
-  "DimensionListItemDisplayName": "Lehner-Balistreri",
+  "DimensionListItem": 179,
+  "DimensionListItemDisplayName": "Nikolaus-Ebert",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 406
+      "FieldType": "System.String",
+      "FieldLength": 8
     }
   }
 }

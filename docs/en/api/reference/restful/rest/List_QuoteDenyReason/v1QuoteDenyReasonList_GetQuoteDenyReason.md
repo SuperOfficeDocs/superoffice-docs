@@ -2,6 +2,7 @@
 title: GET List/QuoteDenyReason/Items/{id}
 uid: v1QuoteDenyReasonList_GetQuoteDenyReason
 generated: true
+content_type: reference
 ---
 
 # GET List/QuoteDenyReason/Items/{id}
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 293,
-  "Name": "Dooley-Rodriguez",
-  "Tooltip": "amet",
+  "Id": 414,
+  "Name": "Jewess Group",
+  "Tooltip": "nihil",
   "Deleted": true,
-  "UdListDefinitionId": 872,
-  "Rank": 977,
+  "UdListDefinitionId": 55,
+  "Rank": 139,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldType": "System.String",
+      "FieldLength": 722
     }
   }
 }

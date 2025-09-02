@@ -2,6 +2,7 @@
 title: PUT ChatTopic/{id}/UserAgent/{username}
 uid: v1ChatTopicEntity_UpdateChatTopicUserAgent
 generated: true
+content_type: reference
 ---
 
 # PUT ChatTopic/{id}/UserAgent/{username}
@@ -76,16 +77,16 @@ OK
 PUT /api/v1/ChatTopic/{chatTopicId}/UserAgent/{username}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 294,
+  "TopicId": 287,
   "User": null,
   "CanListen": false,
   "CanRespond": false,
-  "CanManage": true,
-  "CanNotify": true
+  "CanManage": false,
+  "CanNotify": false
 }
 ```
 
@@ -96,11 +97,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 372,
+  "TopicId": 278,
   "User": null,
-  "CanListen": true,
-  "CanRespond": true,
-  "CanManage": false,
-  "CanNotify": false
+  "CanListen": false,
+  "CanRespond": false,
+  "CanManage": true,
+  "CanNotify": true
 }
 ```

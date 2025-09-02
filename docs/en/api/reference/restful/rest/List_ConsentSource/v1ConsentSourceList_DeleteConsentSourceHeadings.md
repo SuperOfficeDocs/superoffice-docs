@@ -2,6 +2,7 @@
 title: DEL List/ConsentSource/Headings
 uid: v1ConsentSourceList_DeleteConsentSourceHeadings
 generated: true
+content_type: reference
 ---
 
 # DEL List/ConsentSource/Headings

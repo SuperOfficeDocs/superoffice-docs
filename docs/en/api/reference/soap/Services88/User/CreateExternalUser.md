@@ -2,6 +2,7 @@
 title: Services88.UserAgent.CreateExternalUser SOAP
 generated: true
 uid: Services88-User-CreateExternalUser
+content_type: reference
 ---
 
 # Services88 User CreateExternalUser

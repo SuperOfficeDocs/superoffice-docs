@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetSaleType SOAP
 generated: true
 uid: Services88-List-GetSaleType
+content_type: reference
 ---
 
 # Services88 List GetSaleType

@@ -2,6 +2,7 @@
 title: POST BatchTask
 uid: v1Batch_StartBatchJob
 generated: true
+content_type: reference
 ---
 
 # POST BatchTask
@@ -79,34 +80,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 244,
-  "Name": "Gorczany Inc and Sons",
-  "AssociateId": 216,
-  "DetailsTable": 927,
-  "DetailsRecord": 809,
-  "IsSystemTask": true,
-  "IsInternalTask": false,
+  "Id": 772,
+  "Name": "Kunde Inc and Sons",
+  "AssociateId": 634,
+  "DetailsTable": 694,
+  "DetailsRecord": 337,
+  "IsSystemTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "similique",
-    "ParameterObject2": "veniam"
+    "ParameterObject1": "quo",
+    "ParameterObject2": "a"
   },
-  "LastStarted": "2019-06-04T03:45:28.7952992+02:00",
-  "Created": "2017-03-14T03:45:28.7952992+01:00",
-  "StartCount": 8,
-  "DatabaseSerialNumber": "1059126",
-  "Context": "exercitationem",
-  "Result": "necessitatibus",
+  "LastStarted": "2022-08-16T03:47:00.3943072+02:00",
+  "Created": "2016-09-08T03:47:00.3943072+02:00",
+  "StartCount": 488,
+  "DatabaseSerialNumber": "1079885",
+  "Context": "fugiat",
+  "Result": "consectetur",
   "State": "All",
-  "Description": "Realigned tertiary standardization",
-  "Response": "natus",
-  "Request": "rerum",
-  "ProgressDescription": "Object-based global knowledge user",
-  "ProgressPercent": 194,
-  "FileName": "Howe, Homenick and Kutch",
+  "Description": "Networked grid-enabled methodology",
+  "Response": "voluptas",
+  "Request": "consectetur",
+  "ProgressDescription": "Assimilated bandwidth-monitored benchmark",
+  "ProgressPercent": 449,
+  "FileName": "VonRueden, Runolfsson and Kirlin",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -117,5 +118,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-728
+469
 ```

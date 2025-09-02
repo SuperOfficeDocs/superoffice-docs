@@ -3,9 +3,9 @@ uid: tags
 title: tags
 keywords: mdoprovider mdo provider tags
 description: GenericMDOProvider reads MDO lists with default settings
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "tags" MDO List

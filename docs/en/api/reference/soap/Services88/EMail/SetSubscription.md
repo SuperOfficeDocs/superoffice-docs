@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.SetSubscription SOAP
 generated: true
 uid: Services88-EMail-SetSubscription
+content_type: reference
 ---
 
 # Services88 EMail SetSubscription

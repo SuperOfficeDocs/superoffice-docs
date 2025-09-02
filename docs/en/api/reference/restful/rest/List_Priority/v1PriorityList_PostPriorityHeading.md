@@ -2,6 +2,7 @@
 title: POST List/Priority/Headings
 uid: v1PriorityList_PostPriorityHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/Priority/Headings
@@ -75,16 +76,16 @@ OK
 POST /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 409,
-  "Name": "Jacobi-Hane",
-  "Tooltip": "odio",
+  "HeadingId": 462,
+  "Name": "Gleason-Gutmann",
+  "Tooltip": "ab",
   "Deleted": false,
-  "Rank": 756,
-  "UdListDefinitionId": 954
+  "Rank": 110,
+  "UdListDefinitionId": 765
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 195,
-  "Name": "Altenwerth LLC",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 334,
-  "UdListDefinitionId": 582,
+  "HeadingId": 833,
+  "Name": "Skiles Group",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 386,
+  "UdListDefinitionId": 759,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 486
+      "FieldLength": 253
     }
   }
 }

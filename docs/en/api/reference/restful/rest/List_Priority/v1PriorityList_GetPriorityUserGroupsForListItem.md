@@ -2,6 +2,7 @@
 title: GET List/Priority/Items/{id}/UserGroups
 uid: v1PriorityList_GetPriorityUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Priority/Items/{id}/UserGroups
@@ -75,7 +76,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 337,
-    "Name": "Johnson LLC",
-    "ToolTip": "Dolore non unde et adipisci.",
+    "Id": 324,
+    "Name": "Schuster-Cummings",
+    "ToolTip": "Nam ut dignissimos corporis explicabo.",
     "Deleted": false,
-    "Rank": 393,
-    "Type": "eum",
-    "ColorBlock": 106,
+    "Rank": 701,
+    "Type": "sunt",
+    "ColorBlock": 868,
     "IconHint": "maxime",
     "Selected": false,
-    "LastChanged": "2022-12-12T03:45:29.0921677+01:00",
+    "LastChanged": "2005-10-20T03:47:00.7067961+02:00",
     "ChildItems": [
       {
-        "Id": 97,
-        "Name": "Armstrong LLC",
-        "ToolTip": "Omnis consequuntur est assumenda consequatur quis tempore.",
-        "Deleted": false,
-        "Rank": 491,
-        "Type": "vitae",
-        "ColorBlock": 6,
-        "IconHint": "quae",
-        "Selected": true,
-        "LastChanged": "1999-11-29T03:45:29.0921677+01:00",
+        "Id": 658,
+        "Name": "Russel-Schmeler",
+        "ToolTip": "Commodi qui sapiente.",
+        "Deleted": true,
+        "Rank": 694,
+        "Type": "et",
+        "ColorBlock": 942,
+        "IconHint": "praesentium",
+        "Selected": false,
+        "LastChanged": "2025-06-11T03:47:00.7067961+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "est",
+        "ExtraInfo": "animi",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Johnathan Schamberger",
+        "FullName": "Mr. Vicente Herminio Kuhic DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 40
+            "FieldLength": 381
           }
         }
       }
     ],
-    "ExtraInfo": "eaque",
-    "StyleHint": "asperiores",
-    "Hidden": false,
-    "FullName": "Diego Kendrick Schroeder Sr.",
+    "ExtraInfo": "commodi",
+    "StyleHint": "impedit",
+    "Hidden": true,
+    "FullName": "Sid Beatty",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 370
+        "FieldLength": 293
       }
     }
   }

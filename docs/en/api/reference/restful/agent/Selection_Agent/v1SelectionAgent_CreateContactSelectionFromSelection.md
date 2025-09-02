@@ -2,6 +2,7 @@
 title: POST Agents/Selection/CreateContactSelectionFromSelection
 uid: v1SelectionAgent_CreateContactSelectionFromSelection
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/CreateContactSelectionFromSelection
@@ -116,14 +117,14 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 436,
-  "Name": "Watsica Inc and Sons",
+  "SelectionId": 201,
+  "Name": "Shields, Gerhold and Halvorson",
   "TargetSelectionType": "Combined",
-  "CopyMembers": false
+  "CopyMembers": true
 }
 ```
 
@@ -134,70 +135,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-platform motivating methodology",
-  "Postit": "nesciunt",
+  "Description": "User-friendly next generation migration",
+  "Postit": "molestias",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 63,
-  "IncludePerson": 61,
+  "GroupIdx": 83,
+  "IncludePerson": 979,
   "MemberCount": 99.99,
-  "Name": "Krajcik-Rippin",
-  "PostitTextId": 825,
-  "CreatedDate": "2008-07-04T03:45:23.8891939+02:00",
-  "SelectionId": 209,
-  "SoundEx": "reprehenderit",
-  "Source": 109,
-  "TextId": 662,
-  "UpdatedDate": "2021-05-24T03:45:23.8891939+02:00",
-  "UpdatedCount": 845,
-  "Visibility": 156,
+  "Name": "Fay Inc and Sons",
+  "PostitTextId": 294,
+  "CreatedDate": "2002-12-19T03:46:55.3007553+01:00",
+  "SelectionId": 377,
+  "SoundEx": "veritatis",
+  "Source": 287,
+  "TextId": 743,
+  "UpdatedDate": "2014-10-28T03:46:55.3007553+01:00",
+  "UpdatedCount": 797,
+  "Visibility": 87,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 680,
-  "TargetTableName": "Hagenes, Lesch and Huel",
+  "TargetTableNumber": 990,
+  "TargetTableName": "Funk-Senger",
   "Completed": false,
-  "LeftSelectionId": 882,
-  "RightSelectionId": 544,
+  "LeftSelectionId": 386,
+  "RightSelectionId": 996,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "O'Hara, Tremblay and O'Connell",
-  "ShadowProviderName": "Gleason-Mohr",
-  "ChartKey": "reiciendis",
-  "LastLoaded": "2007-02-15T03:45:23.8891939+01:00",
-  "LastLoadedBy": 453,
+  "MainProviderName": "Beer, Von and Champlin",
+  "ShadowProviderName": "Rippin Inc and Sons",
+  "ChartKey": "ut",
+  "LastLoaded": "2018-11-25T03:46:55.3007553+01:00",
+  "LastLoadedBy": 966,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2013-08-04T03:45:23.8891939+02:00",
-  "LastMembershipChangeBy": 699,
+  "LastMembershipChange": "2020-04-04T03:46:55.3007553+02:00",
+  "LastMembershipChangeBy": 909,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "autem",
-  "MemberTabHeading": "eveniet",
-  "MailingsProviderName": "Weber, Koss and Johnson",
-  "DashboardTileDefinitionId": 55,
+  "MainHeading": "et",
+  "MemberTabHeading": "eos",
+  "MailingsProviderName": "Turcotte LLC",
+  "DashboardTileDefinitionId": 82,
   "VisibleFor": [
     {
-      "VisibleId": 616,
+      "VisibleId": 71,
       "Visibility": "All",
-      "DisplayValue": "eligendi",
+      "DisplayValue": "impedit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 303
+          "FieldLength": 333
         }
       }
     },
     {
-      "VisibleId": 616,
+      "VisibleId": 71,
       "Visibility": "All",
-      "DisplayValue": "eligendi",
+      "DisplayValue": "impedit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 303
+          "FieldLength": 333
         }
       }
     }
@@ -207,7 +208,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 595
+      "FieldLength": 242
     }
   }
 }

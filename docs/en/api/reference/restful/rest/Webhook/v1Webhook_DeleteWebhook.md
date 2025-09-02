@@ -2,6 +2,7 @@
 title: DEL Webhook/{id}
 uid: v1Webhook_DeleteWebhook
 generated: true
+content_type: reference
 ---
 
 # DEL Webhook/{id}

@@ -2,6 +2,7 @@
 title: POST Agents/Project/GetProjectEntity
 uid: v1ProjectAgent_GetProjectEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/GetProjectEntity
@@ -22,11 +23,11 @@ Gets a ProjectEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| projectEntityId | int32 | **Required** The primary key. |
+| projectEntityId | int32 | **Required** The identifier of the ProjectEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEntity?projectEntityId=753
+POST /api/v1/Agents/Project/GetProjectEntity?projectEntityId=331
 POST /api/v1/Agents/Project/GetProjectEntity?$select=name,department,category/id
 ```
 
@@ -107,127 +108,127 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 502,
-  "Name": "Deckow Inc and Sons",
-  "ProjectNumber": "554148",
+  "ProjectId": 283,
+  "Name": "Koch Group",
+  "ProjectNumber": "1082135",
   "ProjectMembers": [
     {
-      "ProjectmemberId": 108,
-      "ContactId": 214,
-      "ProjectId": 994,
-      "ContactName": "Bode, Keebler and Hand",
+      "ProjectmemberId": 54,
+      "ContactId": 464,
+      "ProjectId": 663,
+      "ContactName": "Crist LLC",
       "ContactDepartment": "",
-      "ProjectName": "Hauck, Crooks and Gaylord",
-      "EmailId": 801,
-      "EmailAddress": "patsy_halvorson@jewess.com",
-      "CountryId": 516,
-      "Firstname": "Eldred",
-      "MiddleName": "Metz Group",
-      "Lastname": "Lesch",
-      "PersonId": 867,
-      "Mrmrs": "vel",
-      "ProjectMemberTypeName": "Moore, Pagac and Mills",
-      "Phone": "(605)522-6715",
-      "PhoneId": 823,
-      "ProjectMemberTypeId": 831,
-      "EmailAddressName": "kiel_graham@skilesgusikowski.co.uk",
-      "Comment": "ut",
-      "FullName": "Pink Kshlerin",
+      "ProjectName": "Hilll LLC",
+      "EmailId": 271,
+      "EmailAddress": "thomas@fahey.biz",
+      "CountryId": 794,
+      "Firstname": "Walter",
+      "MiddleName": "Botsford-Keeling",
+      "Lastname": "Lemke",
+      "PersonId": 989,
+      "Mrmrs": "dicta",
+      "ProjectMemberTypeName": "Daugherty-Kuphal",
+      "Phone": "1-523-574-2536 x44005",
+      "PhoneId": 105,
+      "ProjectMemberTypeId": 739,
+      "EmailAddressName": "deron_gibson@cormier.com",
+      "Comment": "et",
+      "FullName": "Effie Ratke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 398
+          "FieldType": "System.String",
+          "FieldLength": 82
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "ducimus",
-      "StrippedValue": "ea",
-      "Description": "Customer-focused zero tolerance software",
+      "Value": "architecto",
+      "StrippedValue": "nobis",
+      "Description": "Mandatory context-sensitive product",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 665
+          "FieldLength": 926
         }
       }
     },
     {
-      "Value": "ducimus",
-      "StrippedValue": "ea",
-      "Description": "Customer-focused zero tolerance software",
+      "Value": "architecto",
+      "StrippedValue": "nobis",
+      "Description": "Mandatory context-sensitive product",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 665
+          "FieldLength": 926
         }
       }
     }
   ],
-  "CreatedDate": "2010-01-30T03:45:23.7798203+01:00",
-  "UpdatedDate": "2008-03-14T03:45:23.7798203+01:00",
-  "Description": "Cloned non-volatile implementation",
-  "Postit": "laborum",
+  "CreatedDate": "2019-10-14T03:46:55.1601179+02:00",
+  "UpdatedDate": "2003-03-02T03:46:55.1601179+01:00",
+  "Description": "Enterprise-wide optimal toolset",
+  "Postit": "dolor",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Associate": null,
   "ProjectStatus": null,
   "ProjectType": null,
-  "HasImage": true,
-  "ImageDescription": "Quality-focused systemic knowledge base",
-  "ActiveStatusMonitorId": 494,
+  "HasImage": false,
+  "ImageDescription": "Synergistic tertiary approach",
+  "ActiveStatusMonitorId": 766,
   "Links": [
     {
-      "EntityName": "Ortiz-Koss",
-      "Id": 923,
-      "Description": "Virtual fresh-thinking monitoring",
-      "ExtraInfo": "suscipit",
-      "LinkId": 13,
+      "EntityName": "Schoen-Mayer",
+      "Id": 65,
+      "Description": "Switchable motivating ability",
+      "ExtraInfo": "omnis",
+      "LinkId": 708,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 367
+          "FieldLength": 967
         }
       }
     }
   ],
-  "ActiveLinks": 460,
-  "Completed": true,
-  "NextMilestoneDate": "2019-07-03T03:45:23.7798203+02:00",
-  "NmdAppointmentId": 327,
-  "EndDate": "2004-02-15T03:45:23.7798203+01:00",
-  "ActiveErpLinks": 571,
+  "ActiveLinks": 503,
+  "Completed": false,
+  "NextMilestoneDate": "2001-10-13T03:46:55.1601179+02:00",
+  "NmdAppointmentId": 946,
+  "EndDate": "2025-02-10T03:46:55.1601179+01:00",
+  "ActiveErpLinks": 910,
   "UserDefinedFields": {
-    "SuperOffice:1": "504690782",
-    "SuperOffice:2": "Jayme Crona"
+    "SuperOffice:1": "Benedict Harber",
+    "SuperOffice:2": "Aliza Aufderhar"
   },
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "vel"
+    "ExtraFields1": "corporis",
+    "ExtraFields2": "nam"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "cumque"
+    "CustomFields1": "quo",
+    "CustomFields2": "consequatur"
   },
-  "PublishEventDate": "2018-07-23T03:45:23.7798203+02:00",
-  "PublishTo": "2012-01-10T03:45:23.7798203+01:00",
-  "PublishFrom": "2013-05-01T03:45:23.7798203+02:00",
+  "PublishEventDate": "2024-09-27T03:46:55.1601179+02:00",
+  "PublishTo": "2021-11-28T03:46:55.1601179+01:00",
+  "PublishFrom": "2023-07-31T03:46:55.1601179+02:00",
   "IsPublished": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 6
+      "FieldType": "System.String",
+      "FieldLength": 378
     }
   }
 }

@@ -1,6 +1,8 @@
 ---
+uid: tag-List_Credited
 title: List_Credited
 generated: true
+content_type: reference
 ---
 
 ```http

@@ -2,6 +2,7 @@
 title: Services88.ListAgent.CreateDefaultExtAppEntity SOAP
 generated: true
 uid: Services88-List-CreateDefaultExtAppEntity
+content_type: reference
 ---
 
 # Services88 List CreateDefaultExtAppEntity

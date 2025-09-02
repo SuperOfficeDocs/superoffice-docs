@@ -2,10 +2,10 @@
 uid: enum-videomeetingstatus
 title: Enum values for VideoMeetingStatus
 description: Lists the enum values for VideoMeetingStatus.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # VideoMeetingStatus Enum

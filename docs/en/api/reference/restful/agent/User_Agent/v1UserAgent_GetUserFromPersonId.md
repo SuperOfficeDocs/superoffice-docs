@@ -2,6 +2,7 @@
 title: POST Agents/User/GetUserFromPersonId
 uid: v1UserAgent_GetUserFromPersonId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetUserFromPersonId
@@ -99,11 +100,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 309
+  "PersonId": 32
 }
 ```
 
@@ -115,14 +116,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 920,
-    "Name": "Botsford Inc and Sons",
-    "Rank": 396,
-    "Tooltip": "sed",
+    "AssociateId": 927,
+    "Name": "Lindgren, Wolf and Toy",
+    "Rank": 976,
+    "Tooltip": "id",
     "LicenseOwners": [
       {
-        "Name": "Treutel-Raynor",
-        "Description": "Object-based bottom-line attitude",
+        "Name": "Schumm Group",
+        "Description": "Function-based 4th generation implementation",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -135,14 +136,14 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 92
+            "FieldType": "System.String",
+            "FieldLength": 223
           }
         }
       },
       {
-        "Name": "Treutel-Raynor",
-        "Description": "Object-based bottom-line attitude",
+        "Name": "Schumm Group",
+        "Description": "Function-based 4th generation implementation",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -155,8 +156,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 92
+            "FieldType": "System.String",
+            "FieldLength": 223
           }
         }
       }
@@ -165,110 +166,110 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "fugiat",
-        "Tooltip": "rerum",
-        "Id": 835,
-        "Rank": 588,
+        "Value": "alias",
+        "Tooltip": "pariatur",
+        "Id": 831,
+        "Rank": 378,
         "Deleted": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 165
+            "FieldLength": 955
           }
         }
       }
     ],
     "Person": null,
     "Deleted": false,
-    "Lastlogin": "2010-08-13T03:45:24.1860585+02:00",
-    "Lastlogout": "2010-03-14T03:45:24.1860585+01:00",
-    "EjUserId": 374,
-    "RequestSignature": "eaque",
+    "Lastlogin": "2005-07-03T03:46:55.6132266+02:00",
+    "Lastlogout": "2010-01-25T03:46:55.6132266+01:00",
+    "EjUserId": 885,
+    "RequestSignature": "accusamus",
     "Type": "AnonymousAssociate",
     "IsPersonRetired": false,
     "IsOnTravel": true,
     "Credentials": [
       {
         "Type": null,
-        "Value": "architecto",
-        "DisplayValue": "deleniti",
+        "Value": "suscipit",
+        "DisplayValue": "placeat",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 31
+            "FieldLength": 271
           }
         }
       },
       {
         "Type": null,
-        "Value": "architecto",
-        "DisplayValue": "deleniti",
+        "Value": "suscipit",
+        "DisplayValue": "placeat",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 31
+            "FieldLength": 271
           }
         }
       }
     ],
-    "UserName": "Predovic Group",
+    "UserName": "Jacobson-Kshlerin",
     "TicketCategories": [
       {
-        "Id": 686,
-        "Name": "Paucek, Thompson and Abshire",
-        "ToolTip": "Ipsum veniam.",
-        "Deleted": false,
-        "Rank": 549,
-        "Type": "laboriosam",
+        "Id": 665,
+        "Name": "Hansen Group",
+        "ToolTip": "Id reiciendis.",
+        "Deleted": true,
+        "Rank": 879,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "id",
-        "ColorBlock": 266,
+        "IconHint": "reprehenderit",
+        "ColorBlock": 747,
         "ExtraInfo": "quia",
-        "StyleHint": "ut",
-        "FullName": "Miss Dayna Yundt",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 370
-          }
-        }
-      }
-    ],
-    "NickName": "Morissette-Volkman",
-    "WaitingForApproval": false,
-    "ExtraFields": {
-      "ExtraFields1": "optio",
-      "ExtraFields2": "veritatis"
-    },
-    "CustomFields": {
-      "CustomFields1": "rerum",
-      "CustomFields2": "molestiae"
-    },
-    "PostSaveCommands": [
-      {
-        "Name": "Pfeffer-Gorczany",
-        "DisplayName": "Mertz, Schaefer and Feest",
-        "Description": "Organized methodical forecast",
-        "ToolTip": "Ea et dicta in.",
-        "Actions": "Implicit",
-        "ActionData": "neque",
+        "StyleHint": "doloremque",
+        "FullName": "Antonio Vivien Heidenreich PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 194
+            "FieldLength": 602
+          }
+        }
+      }
+    ],
+    "NickName": "Adams-Block",
+    "WaitingForApproval": false,
+    "ExtraFields": {
+      "ExtraFields1": "similique",
+      "ExtraFields2": "labore"
+    },
+    "CustomFields": {
+      "CustomFields1": "fugiat",
+      "CustomFields2": "ex"
+    },
+    "PostSaveCommands": [
+      {
+        "Name": "Kovacek, Halvorson and Breitenberg",
+        "DisplayName": "Wyman, Gerhold and Hilll",
+        "Description": "Centralized maximized middleware",
+        "ToolTip": "Quia consequatur et et animi delectus tempore.",
+        "Actions": "Implicit",
+        "ActionData": "enim",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 706
           }
         }
       }
@@ -277,8 +278,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 690
+        "FieldType": "System.Int32",
+        "FieldLength": 893
       }
     }
   }

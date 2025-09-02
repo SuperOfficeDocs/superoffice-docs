@@ -2,10 +2,10 @@
 uid: table-wsdl_description
 title: wsdl_description table
 description: Soap wsdl files
-so.generated: true
+generated: true
 keywords: database table wsdl_description
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # wsdl\_description Table (357)

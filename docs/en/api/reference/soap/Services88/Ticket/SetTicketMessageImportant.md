@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.SetTicketMessageImportant SOAP
 generated: true
 uid: Services88-Ticket-SetTicketMessageImportant
+content_type: reference
 ---
 
 # Services88 Ticket SetTicketMessageImportant

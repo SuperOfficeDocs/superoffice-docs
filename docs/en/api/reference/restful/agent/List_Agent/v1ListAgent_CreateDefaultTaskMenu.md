@@ -2,6 +2,7 @@
 title: POST Agents/List/CreateDefaultTaskMenu
 uid: v1ListAgent_CreateDefaultTaskMenu
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/CreateDefaultTaskMenu
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/List/CreateDefaultTaskMenu
 ```
 
-Set default values into a new TaskMenu.
+Loading default values into a new TaskMenu.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -80,26 +79,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 172,
-  "Name": "Smitham-Cummings",
-  "Tooltip": "est",
-  "TableName": "Towne Group",
-  "Area": "repellendus",
+  "TaskMenuId": 322,
+  "Name": "Towne LLC",
+  "Tooltip": "velit",
+  "TableName": "Schowalter-Jaskolski",
+  "Area": "consequatur",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 132,
+  "CrmScriptId": 732,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 120,
+  "Rank": 496,
   "Encoding": "ANSI",
-  "ProgId": "ipsam",
+  "ProgId": "numquam",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 391
+      "FieldLength": 437
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Appointment/UdefLayout/Revert
 uid: v1AppointmentEntity_RevertUdefLayout
 generated: true
+content_type: reference
 ---
 
 # POST Appointment/UdefLayout/Revert
@@ -48,7 +49,7 @@ No Content
 POST /api/v1/Appointment/UdefLayout/Revert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

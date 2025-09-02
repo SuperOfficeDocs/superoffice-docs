@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/CreateDefaultAttachmentEntity
 uid: v1TicketAgent_CreateDefaultAttachmentEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/CreateDefaultAttachmentEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Ticket/CreateDefaultAttachmentEntity
 ```
 
-Set default values into a new AttachmentEntity.
+Loading default values into a new AttachmentEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -64,7 +63,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 135,
-  "Name": "Flatley-Hilpert",
-  "ContentType": "quia",
-  "AttSize": 841,
+  "AttachmentId": 924,
+  "Name": "Balistreri, Gerhold and Koepp",
+  "ContentType": "dolorum",
+  "AttSize": 94,
   "InlineImage": false,
-  "ContentId": "rerum",
-  "AuthKey": "mollitia",
-  "IsSafeFileExtension": true,
+  "ContentId": "impedit",
+  "AuthKey": "temporibus",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 942
+      "FieldLength": 256
     }
   }
 }

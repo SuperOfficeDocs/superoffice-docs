@@ -2,6 +2,7 @@
 title: POST Agents/List/GetLanguageInfo
 uid: v1ListAgent_GetLanguageInfo
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetLanguageInfo
@@ -22,11 +23,11 @@ Gets a LanguageInfo object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| languageInfoId | int32 | **Required** The primary key. |
+| languageInfoId | int32 | **Required** The identifier of the LanguageInfo object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLanguageInfo?languageInfoId=870
+POST /api/v1/Agents/List/GetLanguageInfo?languageInfoId=350
 POST /api/v1/Agents/List/GetLanguageInfo?$select=name,department,category/id
 ```
 
@@ -73,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLanguageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,19 +84,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageInfoId": 952,
-  "LCID": 133,
-  "EnglishName": "Rohan-Muller",
-  "NativeName": "Kreiger-Hermiston",
-  "ThreeLetterISOLanguageName": "Mohr-Klocko",
-  "TwoLetterISOLanguageName": "Jast LLC",
+  "LanguageInfoId": 512,
+  "LCID": 300,
+  "EnglishName": "Pollich-Morar",
+  "NativeName": "Gusikowski LLC",
+  "ThreeLetterISOLanguageName": "Schmidt Group",
+  "TwoLetterISOLanguageName": "Morar, Ward and Koch",
   "IsBuiltIn": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 583
+      "FieldLength": 764
     }
   }
 }

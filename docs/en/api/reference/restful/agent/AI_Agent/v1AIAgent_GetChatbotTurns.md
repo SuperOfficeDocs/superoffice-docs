@@ -2,6 +2,7 @@
 title: POST Agents/AI/GetChatbotTurns
 uid: v1AIAgent_GetChatbotTurns
 generated: true
+content_type: reference
 ---
 
 # POST Agents/AI/GetChatbotTurns
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/AI/GetChatbotTurns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "odio"
+  "ChatId": "ipsa"
 }
 ```
 
@@ -94,31 +95,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2009-03-23T03:45:22.6704778+01:00",
-    "UserPrompt": "explicabo",
-    "UserDisplayText": "et",
-    "BotResponse": "possimus",
+    "Timestamp": "2017-08-05T03:46:53.9726601+02:00",
+    "UserPrompt": "ducimus",
+    "UserDisplayText": "qui",
+    "BotResponse": "tenetur",
     "BotActions": {
-      "BotActions1": "nihil",
-      "BotActions2": "qui"
+      "BotActions1": "asperiores",
+      "BotActions2": "nihil"
     },
     "Attachments": [
-      "ab",
-      "vitae"
+      "aliquam",
+      "a"
     ]
   },
   {
-    "Timestamp": "2009-03-23T03:45:22.6704778+01:00",
-    "UserPrompt": "explicabo",
-    "UserDisplayText": "et",
-    "BotResponse": "possimus",
+    "Timestamp": "2017-08-05T03:46:53.9726601+02:00",
+    "UserPrompt": "ducimus",
+    "UserDisplayText": "qui",
+    "BotResponse": "tenetur",
     "BotActions": {
-      "BotActions1": "nihil",
-      "BotActions2": "qui"
+      "BotActions1": "asperiores",
+      "BotActions2": "nihil"
     },
     "Attachments": [
-      "ab",
-      "vitae"
+      "aliquam",
+      "a"
     ]
   }
 ]

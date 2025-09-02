@@ -2,6 +2,7 @@
 title: GET List/LegalBase
 uid: v1LegalBaseList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/LegalBase
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,27 +76,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 649,
-  "Name": "Powlowski Group",
-  "Tooltip": "nulla",
-  "Deleted": true,
-  "Rank": 365,
+  "Id": 392,
+  "Name": "Cronin, Ratke and Hills",
+  "Tooltip": "animi",
+  "Deleted": false,
+  "Rank": 992,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "placeat",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quo",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 470
+      "FieldLength": 219
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

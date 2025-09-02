@@ -2,10 +2,10 @@
 uid: table-LanguageInfoCountry
 title: LanguageInfoCountry table
 description: Many-many link between countries and languages, to give intelligent choices for language
-so.generated: true
+generated: true
 keywords: database table LanguageInfoCountry
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # LanguageInfoCountry Table (211)

@@ -2,6 +2,7 @@
 title: POST Agents/User/SetFunctionalRights
 uid: v1UserAgent_SetFunctionalRights
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/SetFunctionalRights
@@ -70,14 +71,14 @@ No Content
 POST /api/v1/Agents/User/SetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 890,
+  "RoleId": 469,
   "FunctionalRightIds": [
-    59,
-    377
+    310,
+    21
   ]
 }
 ```

@@ -2,6 +2,7 @@
 title: PUT Webhook/{id}
 uid: v1Webhook_PutWebhook
 generated: true
+content_type: reference
 ---
 
 # PUT Webhook/{id}
@@ -109,28 +110,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 548,
-  "Name": "Lockman, Grady and Fritsch",
+  "WebhookId": 585,
+  "Name": "Batz, Breitenberg and Yundt",
   "Events": [
-    "tempora",
-    "fugiat"
+    "consequuntur",
+    "sint"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "dolorem",
+  "Secret": "molestiae",
   "State": "Active",
-  "Type": "praesentium",
+  "Type": "perspiciatis",
   "Headers": {
-    "Headers1": "corporis",
-    "Headers2": "esse"
+    "Headers1": "ex",
+    "Headers2": "qui"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2017-11-30T03:45:28.8890492+01:00",
+  "Registered": "1998-04-16T03:47:00.5505518+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2024-08-22T03:45:28.8890492+02:00",
+  "Updated": "2000-12-01T03:47:00.5505518+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "corbin_kris@hyatt.com"
+  "ErrorsEmail": "boris@harber.info"
 }
 ```
 
@@ -141,28 +142,28 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 573,
-  "Name": "Smitham-Greenfelder",
+  "WebhookId": 366,
+  "Name": "Stehr, Ward and Ondricka",
   "Events": [
-    "provident",
-    "provident"
+    "corporis",
+    "neque"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "soluta",
+  "Secret": "eaque",
   "State": "Active",
-  "Type": "molestiae",
+  "Type": "porro",
   "Headers": {
     "Headers1": "aut",
-    "Headers2": "debitis"
+    "Headers2": "non"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2024-04-11T03:45:28.8890492+02:00",
+  "Registered": "2010-07-07T03:47:00.5505518+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2013-09-12T03:45:28.8890492+02:00",
+  "Updated": "2022-10-06T03:47:00.5505518+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "gordon@dickipadberg.com",
+  "ErrorsEmail": "kaycee.hahn@whitelabadie.info",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

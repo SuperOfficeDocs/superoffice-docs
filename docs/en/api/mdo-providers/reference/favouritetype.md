@@ -3,9 +3,9 @@ uid: favouritetype
 title: favouritetype
 keywords: mdoprovider mdo provider favouritetype
 description: MDO list provider for Favourite types
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "favouritetype" MDO List

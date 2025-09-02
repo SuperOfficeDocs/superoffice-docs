@@ -2,6 +2,7 @@
 title: POST Agents/Quote/CreateQuoteLine
 uid: v1QuoteAgent_CreateQuoteLine
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/CreateQuoteLine
@@ -122,12 +123,12 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 848,
-  "ERPProductKey": "omnis"
+  "QuoteAlternativeId": 993,
+  "ERPProductKey": "et"
 }
 ```
 
@@ -138,88 +139,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 728,
-  "ERPQuoteLineKey": "sint",
-  "QuoteAlternativeId": 192,
-  "ERPProductKey": "eum",
+  "QuoteLineId": 712,
+  "ERPQuoteLineKey": "corporis",
+  "QuoteAlternativeId": 445,
+  "ERPProductKey": "blanditiis",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 20806.626,
-  "DeliveredQuantity": 1037.354,
-  "Rank": 198,
-  "Name": "Roob, Schumm and Bartell",
-  "Description": "Self-enabling object-oriented open system",
-  "Code": "est",
-  "QuantityUnit": "id",
-  "PriceUnit": "consequatur",
-  "ItemNumber": "1261186",
+  "Quantity": 28616.554,
+  "DeliveredQuantity": 21430.291999999998,
+  "Rank": 205,
+  "Name": "Schuppe LLC",
+  "Description": "Right-sized intermediate hardware",
+  "Code": "explicabo",
+  "QuantityUnit": "aut",
+  "PriceUnit": "autem",
+  "ItemNumber": "319607",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "necessitatibus",
-  "ProductTypeKey": "voluptatem",
-  "Supplier": "nihil",
-  "SupplierCode": "aut",
+  "ProductFamilyKey": "optio",
+  "ProductTypeKey": "praesentium",
+  "Supplier": "praesentium",
+  "SupplierCode": "possimus",
   "Thumbnail": "aut",
-  "VATInfo": "voluptatem",
-  "VAT": 21430.291999999998,
-  "UnitCost": 4412.672,
-  "UnitMinimumPrice": 16851.518,
-  "UnitListPrice": 21311.2,
+  "VATInfo": "est",
+  "VAT": 19032.782,
+  "UnitCost": 2080.976,
+  "UnitMinimumPrice": 5221.244,
+  "UnitListPrice": 3738.862,
   "ExtraInfo": [
     {
-      "Name": "Schroeder LLC",
-      "Value": "dolor",
+      "Name": "Mayert, Thiel and Legros",
+      "Value": "sapiente",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 386
+          "FieldType": "System.Int32",
+          "FieldLength": 109
         }
       }
     },
     {
-      "Name": "Schroeder LLC",
-      "Value": "dolor",
+      "Name": "Mayert, Thiel and Legros",
+      "Value": "sapiente",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 386
+          "FieldType": "System.Int32",
+          "FieldLength": 109
         }
       }
     }
   ],
-  "RawExtraInfo": "delectus",
-  "IsSubscription": true,
-  "SubscriptionUnit": "maxime",
-  "SubscriptionQuantity": 8270.626,
-  "SubscriptionStart": "2004-06-12T03:45:23.8266945+02:00",
-  "ERPDiscountPercent": 26507.372,
-  "ERPDiscountAmount": 14018.382,
-  "DiscountPercent": 16165.171999999999,
-  "DiscountAmount": 3437.998,
+  "RawExtraInfo": "ratione",
+  "IsSubscription": false,
+  "SubscriptionUnit": "labore",
+  "SubscriptionQuantity": 30594.108,
+  "SubscriptionStart": "2009-10-22T03:46:55.2226157+02:00",
+  "ERPDiscountPercent": 10063.274,
+  "ERPDiscountAmount": 24965.444,
+  "DiscountPercent": 13664.24,
+  "DiscountAmount": 27544.726,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 16603.932,
-  "EarningAmount": 17086.568,
-  "SubTotal": 20399.206,
-  "TotalPrice": 4221.498,
-  "Rights": "saepe",
-  "Rule": "et",
-  "ExtraField1": "modi",
-  "ExtraField2": "quidem",
-  "ExtraField3": "quis",
-  "ExtraField4": "nam",
-  "ExtraField5": "aut",
+  "EarningPercent": 23075.642,
+  "EarningAmount": 20806.626,
+  "SubTotal": 14341.184,
+  "TotalPrice": 5243.182,
+  "Rights": "voluptatibus",
+  "Rule": "esse",
+  "ExtraField1": "incidunt",
+  "ExtraField2": "eaque",
+  "ExtraField3": "facilis",
+  "ExtraField4": "minus",
+  "ExtraField5": "iste",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 50
+      "FieldLength": 169
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Services88.DashAgent.GetSecondaryTempTileSelection SOAP
 generated: true
 uid: Services88-Dash-GetSecondaryTempTileSelection
+content_type: reference
 ---
 
 # Services88 Dash GetSecondaryTempTileSelection

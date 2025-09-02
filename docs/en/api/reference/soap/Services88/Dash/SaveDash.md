@@ -2,6 +2,7 @@
 title: Services88.DashAgent.SaveDash SOAP
 generated: true
 uid: Services88-Dash-SaveDash
+content_type: reference
 ---
 
 # Services88 Dash SaveDash

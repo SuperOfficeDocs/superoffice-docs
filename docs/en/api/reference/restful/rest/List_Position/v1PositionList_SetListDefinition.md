@@ -2,6 +2,7 @@
 title: PUT List/Position
 uid: v1PositionList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/Position
@@ -84,20 +85,20 @@ OK
 PUT /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 946,
-  "Name": "Howe, Friesen and Schiller",
-  "Tooltip": "facilis",
+  "Id": 804,
+  "Name": "Cremin Group",
+  "Tooltip": "delectus",
   "Deleted": false,
-  "Rank": 890,
-  "IsCustomList": true,
+  "Rank": 406,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "laboriosam",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "omnis",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 345,
-  "Name": "Gulgowski Inc and Sons",
-  "Tooltip": "libero",
+  "Id": 945,
+  "Name": "Walter Inc and Sons",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 862,
+  "Rank": 487,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "dolore",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 410
+      "FieldLength": 559
     }
   }
 }

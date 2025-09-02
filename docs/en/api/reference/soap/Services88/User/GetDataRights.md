@@ -2,6 +2,7 @@
 title: Services88.UserAgent.GetDataRights SOAP
 generated: true
 uid: Services88-User-GetDataRights
+content_type: reference
 ---
 
 # Services88 User GetDataRights

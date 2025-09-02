@@ -2,6 +2,7 @@
 title: GET List/Competitor/MDOItems
 uid: v1CompetitorList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/Competitor/MDOItems
@@ -27,7 +28,7 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=est
+GET /api/v1/List/Competitor/MDOItems?query=a
 ```
 
 
@@ -78,7 +79,7 @@ OK
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 97,
-    "Name": "Stokes LLC",
-    "ToolTip": "Qui earum culpa corporis totam laudantium voluptas facilis.",
+    "Id": 990,
+    "Name": "Ullrich, Oberbrunner and Smith",
+    "ToolTip": "Aut reprehenderit veritatis ducimus.",
     "Deleted": true,
-    "Rank": 595,
-    "Type": "velit",
+    "Rank": 902,
+    "Type": "repellat",
     "ChildItems": [
       {
-        "Id": 129,
-        "Name": "Reichel-Baumbach",
-        "ToolTip": "Amet natus aut consequuntur iusto.",
-        "Deleted": false,
-        "Rank": 361,
-        "Type": "libero",
+        "Id": 399,
+        "Name": "Hills-Reichert",
+        "ToolTip": "Beatae aut ea.",
+        "Deleted": true,
+        "Rank": 449,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quam",
-        "ColorBlock": 357,
-        "ExtraInfo": "et",
-        "StyleHint": "quas",
-        "FullName": "Itzel Waelchi",
+        "IconHint": "fugiat",
+        "ColorBlock": 90,
+        "ExtraInfo": "dolorem",
+        "StyleHint": "nulla",
+        "FullName": "Brayan Hegmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 768
+            "FieldLength": 159
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 30,
-    "ExtraInfo": "cum",
-    "StyleHint": "id",
-    "FullName": "Anastacio Elyssa Schuppe Jr.",
+    "IconHint": "neque",
+    "ColorBlock": 744,
+    "ExtraInfo": "quidem",
+    "StyleHint": "voluptatum",
+    "FullName": "Ashlynn Hudson MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 948
+        "FieldLength": 501
       }
     }
   }

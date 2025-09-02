@@ -2,10 +2,10 @@
 uid: table-udpersonSmall
 title: udpersonSmall table
 description: User-defined fields
-so.generated: true
+generated: true
 keywords: database table udpersonSmall
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # udpersonSmall Table (140)

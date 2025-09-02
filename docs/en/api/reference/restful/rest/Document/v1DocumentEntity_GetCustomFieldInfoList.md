@@ -2,6 +2,7 @@
 title: GET Document/CustomField
 uid: v1DocumentEntity_GetCustomFieldInfoList
 generated: true
+content_type: reference
 ---
 
 # GET Document/CustomField
@@ -80,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "McCullough-Hyatt",
-    "DisplayName": "Hudson Group",
-    "Description": "Organic homogeneous access",
-    "ShortLabel": "dolorem",
-    "HideLabel": false,
-    "HideField": true,
+    "FieldName": "Graham Inc and Sons",
+    "DisplayName": "Hilll LLC",
+    "Description": "Secured global internet solution",
+    "ShortLabel": "consequuntur",
+    "HideLabel": true,
+    "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": false,
+    "IsMandatory": true,
     "IsReadOnly": true,
-    "IsExternal": true,
-    "IsDisplayField": true,
-    "Rank": 663,
-    "TemplateVariableName": "Schumm-Jakubowski"
+    "IsExternal": false,
+    "IsDisplayField": false,
+    "Rank": 240,
+    "TemplateVariableName": "Fadel, Cremin and Trantow"
   }
 ]
 ```

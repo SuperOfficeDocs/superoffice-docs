@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.GetProduct SOAP
 generated: true
 uid: Services88-Quote-GetProduct
+content_type: reference
 ---
 
 # Services88 Quote GetProduct

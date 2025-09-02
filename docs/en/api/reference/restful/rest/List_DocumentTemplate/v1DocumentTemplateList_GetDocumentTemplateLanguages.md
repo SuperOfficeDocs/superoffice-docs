@@ -2,6 +2,7 @@
 title: GET List/DocumentTemplate/Items/{id}/Language
 uid: v1DocumentTemplateList_GetDocumentTemplateLanguages
 generated: true
+content_type: reference
 ---
 
 # GET List/DocumentTemplate/Items/{id}/Language
@@ -54,7 +55,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Language
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -64,7 +65,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "nam",
-  "sequi"
+  "ut",
+  "incidunt"
 ]
 ```

@@ -2,6 +2,7 @@
 title: POST Agents/List/DeleteAllHeadingsFromName
 uid: v1ListAgent_DeleteAllHeadingsFromName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/DeleteAllHeadingsFromName
@@ -64,11 +65,11 @@ No Content
 POST /api/v1/Agents/List/DeleteAllHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Parisian-Kuhic"
+  "Name": "Heller-Schowalter"
 }
 ```
 

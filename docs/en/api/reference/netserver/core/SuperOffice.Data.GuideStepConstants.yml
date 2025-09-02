@@ -9,6 +9,7 @@ items:
   - SuperOffice.Data.GuideStepConstants.GetDeleted
   - SuperOffice.Data.GuideStepConstants.GetDeletedLinks
   - SuperOffice.Data.GuideStepConstants.IsDeleted
+  - SuperOffice.Data.GuideStepConstants.ProjectTypeIDs
   langs:
   - csharp
   - vb
@@ -108,6 +109,25 @@ items:
     return:
       type: System.String
     content.vb: Public Const DeletedAlias As String = "DeletedAlias"
+- uid: SuperOffice.Data.GuideStepConstants.ProjectTypeIDs
+  commentId: F:SuperOffice.Data.GuideStepConstants.ProjectTypeIDs
+  id: ProjectTypeIDs
+  parent: SuperOffice.Data.GuideStepConstants
+  langs:
+  - csharp
+  - vb
+  name: ProjectTypeIDs
+  nameWithType: GuideStepConstants.ProjectTypeIDs
+  fullName: SuperOffice.Data.GuideStepConstants.ProjectTypeIDs
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public const string ProjectTypeIDs = "ProjectTypeIDs"
+    return:
+      type: System.String
+    content.vb: Public Const ProjectTypeIDs As String = "ProjectTypeIDs"
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data

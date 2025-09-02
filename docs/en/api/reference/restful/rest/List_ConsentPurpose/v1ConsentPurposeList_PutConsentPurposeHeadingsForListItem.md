@@ -2,6 +2,7 @@
 title: PUT List/ConsentPurpose/Items/{id}/Headings
 uid: v1ConsentPurposeList_PutConsentPurposeHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/ConsentPurpose/Items/{id}/Headings
@@ -102,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 528,
-    "Name": "McKenzie Group",
-    "ToolTip": "Enim eos eligendi voluptas voluptas.",
+    "Id": 326,
+    "Name": "Rogahn Inc and Sons",
+    "ToolTip": "Excepturi dolores ut architecto voluptatibus eligendi.",
     "Deleted": false,
-    "Rank": 786,
-    "Type": "voluptatem",
-    "ColorBlock": 696,
-    "IconHint": "suscipit",
+    "Rank": 615,
+    "Type": "harum",
+    "ColorBlock": 858,
+    "IconHint": "eos",
     "Selected": true,
-    "LastChanged": "2001-10-18T03:45:28.9984183+02:00",
+    "LastChanged": "2020-11-06T03:47:00.6130405+01:00",
     "ChildItems": [
       {
-        "Id": 224,
-        "Name": "Batz Group",
-        "ToolTip": "Autem delectus voluptatem eos veniam.",
-        "Deleted": false,
-        "Rank": 408,
-        "Type": "repellat",
-        "ColorBlock": 455,
-        "IconHint": "velit",
-        "Selected": true,
-        "LastChanged": "2012-09-29T03:45:28.9984183+02:00",
+        "Id": 693,
+        "Name": "Lang-Balistreri",
+        "ToolTip": "Non distinctio ipsa minima corrupti aspernatur.",
+        "Deleted": true,
+        "Rank": 590,
+        "Type": "eligendi",
+        "ColorBlock": 60,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2008-11-15T03:47:00.6130405+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "esse",
+        "ExtraInfo": "sequi",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Mr. Ashlee Asia Lindgren III"
+        "FullName": "Shemar Cassin"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "illum",
+    "ExtraInfo": "deleniti",
+    "StyleHint": "magni",
     "Hidden": false,
-    "FullName": "Jeremie Jaskolski"
+    "FullName": "Prof. Leonora Schmidt"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 526,
-    "Name": "Kuvalis, O'Hara and Bartoletti",
-    "ToolTip": "Doloribus molestiae necessitatibus voluptatem minima eum voluptatum sunt.",
+    "Id": 648,
+    "Name": "Durgan-Cremin",
+    "ToolTip": "Et aliquam enim voluptatem rem quia id quia.",
     "Deleted": true,
-    "Rank": 402,
-    "Type": "quo",
-    "ColorBlock": 285,
-    "IconHint": "asperiores",
+    "Rank": 790,
+    "Type": "impedit",
+    "ColorBlock": 409,
+    "IconHint": "aut",
     "Selected": true,
-    "LastChanged": "2000-08-19T03:45:28.9984183+02:00",
+    "LastChanged": "1998-12-31T03:47:00.6130405+01:00",
     "ChildItems": [
       {
-        "Id": 319,
-        "Name": "Heathcote, Hickle and Runte",
-        "ToolTip": "Temporibus error.",
+        "Id": 748,
+        "Name": "Kovacek-Weimann",
+        "ToolTip": "Aut ratione inventore consequatur.",
         "Deleted": false,
-        "Rank": 84,
-        "Type": "voluptatem",
-        "ColorBlock": 469,
-        "IconHint": "veritatis",
+        "Rank": 935,
+        "Type": "iure",
+        "ColorBlock": 588,
+        "IconHint": "explicabo",
         "Selected": true,
-        "LastChanged": "2014-04-12T03:45:28.9984183+02:00",
+        "LastChanged": "1999-09-09T03:47:00.6130405+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "delectus",
+        "ExtraInfo": "quo",
+        "StyleHint": "repellat",
         "Hidden": false,
-        "FullName": "Jalen Jerde",
+        "FullName": "Mrs. Thad Robyn Pfeffer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 136
+            "FieldType": "System.String",
+            "FieldLength": 647
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "ea",
+    "ExtraInfo": "modi",
+    "StyleHint": "occaecati",
     "Hidden": true,
-    "FullName": "Diana Price",
+    "FullName": "Mrs. Bobbie Greenfelder IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 35
+        "FieldType": "System.String",
+        "FieldLength": 241
       }
     }
   }

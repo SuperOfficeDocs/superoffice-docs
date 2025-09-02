@@ -3,9 +3,9 @@ uid: documentcompleted
 title: documentcompleted
 keywords: mdoprovider mdo provider documentcompleted
 description: Document completed status list - Not done, Done.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "documentcompleted" MDO List

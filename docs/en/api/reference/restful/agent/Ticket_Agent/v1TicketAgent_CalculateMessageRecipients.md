@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/CalculateMessageRecipients
 uid: v1TicketAgent_CalculateMessageRecipients
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/CalculateMessageRecipients
@@ -75,13 +76,13 @@ OK
 POST /api/v1/Agents/Ticket/CalculateMessageRecipients
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 484,
+  "TicketId": 711,
   "ActionType": "Forward",
-  "MessageId": 633
+  "MessageId": 66
 }
 ```
 
@@ -94,13 +95,13 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Type": "BCC",
-    "Value": "rem",
-    "DisplayValue": "et"
+    "Value": "sed",
+    "DisplayValue": "accusamus"
   },
   {
     "Type": "BCC",
-    "Value": "rem",
-    "DisplayValue": "et"
+    "Value": "sed",
+    "DisplayValue": "accusamus"
   }
 ]
 ```

@@ -2,6 +2,7 @@
 title: GET Hierarchy/{id}
 uid: v1HierarchyEntity_GetHierarchyEntity
 generated: true
+content_type: reference
 ---
 
 # GET Hierarchy/{id}
@@ -92,46 +93,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 162,
+  "HierarchyId": 926,
   "Domain": "Dashboards",
-  "Name": "Dietrich LLC",
-  "Fullname": "enim",
-  "ParentId": 698,
+  "Name": "Ward, Funk and Dooley",
+  "Fullname": "et",
+  "ParentId": 737,
   "Children": [
     {
-      "HierarchyId": 445,
+      "HierarchyId": 1001,
       "Domain": "Dashboards",
-      "Name": "Rolfson Group",
-      "Fullname": "id",
-      "ParentId": 920,
+      "Name": "Willms Group",
+      "Fullname": "quidem",
+      "ParentId": 643,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2006-08-23T03:45:28.3734363+02:00",
-      "RegisteredAssociateId": 417,
-      "Updated": "2024-04-11T03:45:28.3734363+02:00",
-      "UpdatedAssociateId": 982,
+      "Registered": "2012-03-04T03:47:00.0349452+01:00",
+      "RegisteredAssociateId": 551,
+      "Updated": "2023-03-18T03:47:00.0349452+01:00",
+      "UpdatedAssociateId": 105,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 103
+          "FieldLength": 100
         }
       }
     }
   ],
-  "Registered": "2016-11-19T03:45:28.3734363+01:00",
-  "RegisteredAssociateId": 89,
-  "Updated": "2014-02-01T03:45:28.3734363+01:00",
-  "UpdatedAssociateId": 599,
+  "Registered": "1998-04-17T03:47:00.0349452+02:00",
+  "RegisteredAssociateId": 841,
+  "Updated": "2020-08-13T03:47:00.0349452+02:00",
+  "UpdatedAssociateId": 477,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 622
+      "FieldLength": 11
     }
   },
   "_Links": {

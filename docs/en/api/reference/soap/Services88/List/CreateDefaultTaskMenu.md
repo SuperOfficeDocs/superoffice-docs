@@ -2,6 +2,7 @@
 title: Services88.ListAgent.CreateDefaultTaskMenu SOAP
 generated: true
 uid: Services88-List-CreateDefaultTaskMenu
+content_type: reference
 ---
 
 # Services88 List CreateDefaultTaskMenu

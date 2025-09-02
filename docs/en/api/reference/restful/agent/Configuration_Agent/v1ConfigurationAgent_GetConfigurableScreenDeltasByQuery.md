@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetConfigurableScreenDeltasByQuery
 uid: v1ConfigurationAgent_GetConfigurableScreenDeltasByQuery
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetConfigurableScreenDeltasByQuery
@@ -101,28 +102,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 34,
-    "Name": "Robel Group",
-    "Description": "Fully-configurable explicit workforce",
-    "DeltaJson": "facilis",
+    "ConfigurableScreenDeltaId": 461,
+    "Name": "Roob LLC",
+    "Description": "Quality-focused national infrastructure",
+    "DeltaJson": "dicta",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "aliquid",
-    "UpdatedDate": "2005-12-07T03:45:23.0767156+01:00",
-    "CreatedDate": "2001-02-17T03:45:23.0767156+01:00",
+    "RecipeId": "velit",
+    "UpdatedDate": "2016-01-30T03:46:54.4570178+01:00",
+    "CreatedDate": "2021-08-21T03:46:54.4570178+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      605,
-      38
+      600,
+      653
     ],
-    "AppliesToKey": "dolores",
+    "AppliesToKey": "fuga",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 956
+        "FieldLength": 288
       }
     }
   }

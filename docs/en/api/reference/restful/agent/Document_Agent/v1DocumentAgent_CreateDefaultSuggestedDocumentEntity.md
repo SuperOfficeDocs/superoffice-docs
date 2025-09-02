@@ -2,6 +2,7 @@
 title: POST Agents/Document/CreateDefaultSuggestedDocumentEntity
 uid: v1DocumentAgent_CreateDefaultSuggestedDocumentEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/CreateDefaultSuggestedDocumentEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Document/CreateDefaultSuggestedDocumentEntity
 ```
 
-Set default values into a new SuggestedDocumentEntity.
+Loading default values into a new SuggestedDocumentEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -67,7 +66,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,14 +76,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 5,
-  "Name": "Okuneva, Keebler and Kulas",
-  "Tooltip": "sit",
-  "Rank": 889,
-  "DoctmplId": 360,
-  "Header": "animi",
-  "OurRef": "aut",
-  "Deleted": true,
+  "SuggestedDocumentId": 640,
+  "Name": "Corkery, Adams and Osinski",
+  "Tooltip": "et",
+  "Rank": 858,
+  "DoctmplId": 436,
+  "Header": "neque",
+  "OurRef": "tenetur",
+  "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -92,8 +91,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldType": "System.String",
+      "FieldLength": 869
     }
   }
 }

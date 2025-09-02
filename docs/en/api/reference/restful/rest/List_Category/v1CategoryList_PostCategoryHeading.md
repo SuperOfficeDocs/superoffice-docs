@@ -2,6 +2,7 @@
 title: POST List/Category/Headings
 uid: v1CategoryList_PostCategoryHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/Category/Headings
@@ -75,16 +76,16 @@ OK
 POST /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 712,
-  "Name": "Lesch LLC",
-  "Tooltip": "voluptatum",
+  "HeadingId": 445,
+  "Name": "Hermiston Inc and Sons",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 662,
-  "UdListDefinitionId": 433
+  "Rank": 6,
+  "UdListDefinitionId": 540
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 558,
-  "Name": "Mertz-Daugherty",
-  "Tooltip": "eum",
+  "HeadingId": 368,
+  "Name": "Tillman Group",
+  "Tooltip": "pariatur",
   "Deleted": false,
-  "Rank": 648,
-  "UdListDefinitionId": 471,
+  "Rank": 531,
+  "UdListDefinitionId": 689,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 649
+      "FieldType": "System.Int32",
+      "FieldLength": 808
     }
   }
 }

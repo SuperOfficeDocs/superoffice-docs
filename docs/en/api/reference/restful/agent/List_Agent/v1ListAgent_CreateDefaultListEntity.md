@@ -2,6 +2,7 @@
 title: POST Agents/List/CreateDefaultListEntity
 uid: v1ListAgent_CreateDefaultListEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/CreateDefaultListEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/List/CreateDefaultListEntity
 ```
 
-Set default values into a new ListEntity.
+Loading default values into a new ListEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -66,7 +65,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 724,
-  "Name": "Hickle-Powlowski",
-  "Tooltip": "suscipit",
+  "Id": 156,
+  "Name": "Mitchell, Bartell and Oberbrunner",
+  "Tooltip": "facilis",
   "Deleted": false,
-  "Rank": 225,
+  "Rank": 956,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quia",
+  "UseGroupsAndHeadings": true,
+  "ListType": "quam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 636
+      "FieldLength": 142
     }
   }
 }

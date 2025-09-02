@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveTicketTypeEntity
 uid: v1ListAgent_SaveTicketTypeEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveTicketTypeEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/List/SaveTicketTypeEntity
 ```
 
-Updates the existing TicketTypeEntity or creates a new TicketTypeEntity if the id parameter is empty
+Updates the existing TicketTypeEntity or creates a new TicketTypeEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing TicketTypeEntity or creates a new TicketTypeEntity if the i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: ticketTypeEntity 
 
-The TicketTypeEntity to be saved. 
+The TicketTypeEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -99,38 +100,38 @@ OK
 POST /api/v1/Agents/List/SaveTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 821,
-  "Name": "McLaughlin-Mante",
-  "Rank": 43,
-  "Tooltip": "libero",
-  "Icon": "facilis",
-  "DefaultTicketStatus": 364,
+  "TicketTypeId": 336,
+  "Name": "Mante, Huels and Murphy",
+  "Rank": 470,
+  "Tooltip": "ipsa",
+  "Icon": "quibusdam",
+  "DefaultTicketStatus": 97,
   "TicketStatuses": [
-    203,
-    432
+    581,
+    56
   ],
-  "DefaultTicketPriority": 948,
+  "DefaultTicketPriority": 480,
   "TicketPriorities": [
-    416,
-    135
+    471,
+    248
   ],
-  "ReplyTemplate": 504,
+  "ReplyTemplate": 900,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": false,
+  "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    612,
-    61
+    951,
+    487
   ],
-  "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": false
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": true
 }
 ```
 
@@ -141,40 +142,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 711,
-  "Name": "Flatley LLC",
-  "Rank": 160,
-  "Tooltip": "molestias",
-  "Icon": "non",
-  "DefaultTicketStatus": 165,
+  "TicketTypeId": 607,
+  "Name": "Jacobs-Huels",
+  "Rank": 251,
+  "Tooltip": "et",
+  "Icon": "deserunt",
+  "DefaultTicketStatus": 172,
   "TicketStatuses": [
-    287,
-    983
+    385,
+    551
   ],
-  "DefaultTicketPriority": 945,
+  "DefaultTicketPriority": 618,
   "TicketPriorities": [
-    279,
-    910
+    222,
+    243
   ],
-  "ReplyTemplate": 345,
+  "ReplyTemplate": 777,
   "IsExternalVisible": false,
-  "IsDefault": true,
-  "ShowInNew": true,
+  "IsDefault": false,
+  "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    169,
-    605
+    783,
+    143
   ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true,
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldLength": 888
     }
   }
 }

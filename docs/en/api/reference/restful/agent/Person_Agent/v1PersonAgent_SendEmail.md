@@ -2,6 +2,7 @@
 title: POST Agents/Person/SendEmail
 uid: v1PersonAgent_SendEmail
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/SendEmail
@@ -69,18 +70,18 @@ No Content
 POST /api/v1/Agents/Person/SendEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "From": "dicta",
-  "To": "aut",
-  "Subject": "quo",
-  "PlainBody": "blanditiis",
-  "HtmlBody": "modi",
+  "From": "numquam",
+  "To": "sit",
+  "Subject": "at",
+  "PlainBody": "consequatur",
+  "HtmlBody": "eius",
   "AttachmentIds": [
-    706,
-    975
+    328,
+    295
   ]
 }
 ```

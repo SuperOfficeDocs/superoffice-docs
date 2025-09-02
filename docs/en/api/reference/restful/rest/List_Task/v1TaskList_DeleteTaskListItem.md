@@ -2,6 +2,7 @@
 title: DEL List/Task/Items/{id}
 uid: v1TaskList_DeleteTaskListItem
 generated: true
+content_type: reference
 ---
 
 # DEL List/Task/Items/{id}

@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.SaveErpConnectionSyncPriorities SOAP
 generated: true
 uid: Services88-ErpSync-SaveErpConnectionSyncPriorities
+content_type: reference
 ---
 
 # Services88 ErpSync SaveErpConnectionSyncPriorities

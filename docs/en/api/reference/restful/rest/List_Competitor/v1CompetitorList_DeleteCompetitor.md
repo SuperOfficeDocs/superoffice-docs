@@ -2,6 +2,7 @@
 title: DEL List/Competitor/Items/{id}
 uid: v1CompetitorList_DeleteCompetitor
 generated: true
+content_type: reference
 ---
 
 # DEL List/Competitor/Items/{id}

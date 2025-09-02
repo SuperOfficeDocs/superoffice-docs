@@ -1,6 +1,8 @@
 ---
+uid: tag-Document
 title: Document
 generated: true
+content_type: reference
 ---
 
 ```http

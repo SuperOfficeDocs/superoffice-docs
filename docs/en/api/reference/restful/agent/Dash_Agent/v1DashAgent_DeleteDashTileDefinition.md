@@ -2,6 +2,7 @@
 title: POST Agents/Dash/DeleteDashTileDefinition
 uid: v1DashAgent_DeleteDashTileDefinition
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/DeleteDashTileDefinition
@@ -22,10 +23,10 @@ Deletes the DashTileDefinition
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| DashTileDefinitionId | int32 | **Required** The id of the DashTileDefinition to be deleted. |
+| dashTileDefinitionId | int32 | **Required** The identity of the DashTileDefinition |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDashTileDefinition?DashTileDefinitionId=352
+POST /api/v1/Agents/Dash/DeleteDashTileDefinition?dashTileDefinitionId=253
 ```
 
 
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/Dash/DeleteDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

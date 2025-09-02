@@ -2,6 +2,7 @@
 title: Services88.SentryAgent.CanCreateAppointmentInAllDiaries SOAP
 generated: true
 uid: Services88-Sentry-CanCreateAppointmentInAllDiaries
+content_type: reference
 ---
 
 # Services88 Sentry CanCreateAppointmentInAllDiaries

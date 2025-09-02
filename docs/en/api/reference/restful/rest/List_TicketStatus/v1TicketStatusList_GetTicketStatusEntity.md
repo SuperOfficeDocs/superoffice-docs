@@ -2,6 +2,7 @@
 title: GET List/TicketStatus/Items/{id}
 uid: v1TicketStatusList_GetTicketStatusEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/TicketStatus/Items/{id}
@@ -68,7 +69,7 @@ OK
 GET /api/v1/List/TicketStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,8 +79,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 491,
-  "Name": "Gottlieb, Turner and Parisian",
+  "TicketStatusId": 636,
+  "Name": "Jewess Group",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": true,
@@ -90,7 +91,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 570
+      "FieldLength": 355
     }
   }
 }

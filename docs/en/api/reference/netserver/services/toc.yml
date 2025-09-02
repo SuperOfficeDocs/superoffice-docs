@@ -115,8 +115,12 @@ items:
     name: BatchAgent
   - uid: SuperOffice.CRM.Services.BatchTaskInfo
     name: BatchTaskInfo
+  - uid: SuperOffice.CRM.Services.BizCard
+    name: BizCard
   - uid: SuperOffice.CRM.Services.BlobEntity
     name: BlobEntity
+  - uid: SuperOffice.CRM.Services.BoardViewSettingsBase
+    name: BoardViewSettingsBase
   - uid: SuperOffice.CRM.Services.BulkUpdateAgent
     name: BulkUpdateAgent
   - uid: SuperOffice.CRM.Services.Business
@@ -149,6 +153,8 @@ items:
     name: CategorizationStatusResponse
   - uid: SuperOffice.CRM.Services.Category
     name: Category
+  - uid: SuperOffice.CRM.Services.CategoryEntity
+    name: CategoryEntity
   - uid: SuperOffice.CRM.Services.CategoryGuess
     name: CategoryGuess
   - uid: SuperOffice.CRM.Services.ChangedData
@@ -609,6 +615,8 @@ items:
     name: ImportErpData
   - uid: SuperOffice.CRM.Services.ImportLine
     name: ImportLine
+  - uid: SuperOffice.CRM.Services.InitalUtmParameters
+    name: InitalUtmParameters
   - uid: SuperOffice.CRM.Services.Installation
     name: Installation
   - uid: SuperOffice.CRM.Services.KbCategory
@@ -765,6 +773,8 @@ items:
     name: Project
   - uid: SuperOffice.CRM.Services.ProjectAgent
     name: ProjectAgent
+  - uid: SuperOffice.CRM.Services.ProjectBoardViewSettings
+    name: ProjectBoardViewSettings
   - uid: SuperOffice.CRM.Services.ProjectEntity
     name: ProjectEntity
   - uid: SuperOffice.CRM.Services.ProjectEvent
@@ -891,6 +901,8 @@ items:
     name: Sale
   - uid: SuperOffice.CRM.Services.SaleAgent
     name: SaleAgent
+  - uid: SuperOffice.CRM.Services.SaleBoardViewSettings
+    name: SaleBoardViewSettings
   - uid: SuperOffice.CRM.Services.SaleEntity
     name: SaleEntity
   - uid: SuperOffice.CRM.Services.SaleStageEntity
@@ -1085,6 +1097,8 @@ items:
     name: UserPresenceStatus
   - uid: SuperOffice.CRM.Services.UserValidationResult
     name: UserValidationResult
+  - uid: SuperOffice.CRM.Services.UtmParameters
+    name: UtmParameters
   - uid: SuperOffice.CRM.Services.VideoMeetingReservation
     name: VideoMeetingReservation
   - uid: SuperOffice.CRM.Services.ViewStateAgent
@@ -1171,11 +1185,6 @@ items:
     name: WorkflowWaitForAction
   - uid: SuperOffice.CRM.Services.WorkflowWaitForActionInfo
     name: WorkflowWaitForActionInfo
-- uid: SuperOffice.DashBoards
-  name: SuperOffice.DashBoards
-  items:
-  - uid: SuperOffice.DashBoards.UpdateState
-    name: UpdateState
 - uid: SuperOffice.ErpSync
   name: SuperOffice.ErpSync
   items:

@@ -2,6 +2,7 @@
 title: Services88.BlobManagerAgent.EndReadBlobPart SOAP
 generated: true
 uid: Services88-BlobManager-EndReadBlobPart
+content_type: reference
 ---
 
 # Services88 BlobManager EndReadBlobPart

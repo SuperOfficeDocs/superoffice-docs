@@ -2,6 +2,7 @@
 title: GET Appointment/UdefLayout/Published/{progidOrLabel}
 uid: v1AppointmentEntity_GetPublishedUdefFieldInfo
 generated: true
+content_type: reference
 ---
 
 # GET Appointment/UdefLayout/Published/{progidOrLabel}
@@ -93,7 +94,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +104,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 775,
-  "ColumnId": 831,
-  "FieldDefault": "vitae",
-  "FieldHeight": 501,
-  "FieldLabel": "beatae",
-  "FieldLeft": 504,
-  "FieldTop": 863,
+  "UDefFieldId": 966,
+  "ColumnId": 747,
+  "FieldDefault": "ad",
+  "FieldHeight": 234,
+  "FieldLabel": "sequi",
+  "FieldLeft": 126,
+  "FieldTop": 209,
   "FieldType": "Checkbox",
-  "FieldWidth": 706,
-  "FormatMask": "iure",
+  "FieldWidth": 631,
+  "FormatMask": "harum",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 317,
-  "LabelLeft": 129,
-  "LabelTop": 873,
-  "LabelWidth": 855,
-  "LastVersionId": 97,
-  "ListTableId": 470,
+  "IsIndexed": true,
+  "LabelHeight": 285,
+  "LabelLeft": 529,
+  "LabelTop": 107,
+  "LabelWidth": 676,
+  "LastVersionId": 770,
+  "ListTableId": 727,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 900,
-  "ProgId": "rerum",
-  "IsReadOnly": true,
-  "ShortLabel": "veniam",
-  "TabOrder": 953,
-  "TextLength": 666,
-  "Tooltip": "ut",
-  "UdefIdentity": 139,
-  "UDListDefinitionId": 552,
+  "Page1LineNo": 132,
+  "ProgId": "enim",
+  "IsReadOnly": false,
+  "ShortLabel": "quis",
+  "TabOrder": 215,
+  "TextLength": 216,
+  "Tooltip": "ea",
+  "UdefIdentity": 460,
+  "UDListDefinitionId": 89,
   "Justification": "Center",
-  "Version": 76,
-  "TemplateVariableName": "Runolfsson, Hermann and Auer",
-  "HasBeenPublished": true,
-  "MdoListName": "Gibson-Feil",
+  "Version": 97,
+  "TemplateVariableName": "Heaney-Sipes",
+  "HasBeenPublished": false,
+  "MdoListName": "Muller, Gerhold and Cummerata",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldType": "System.String",
+      "FieldLength": 696
     }
   }
 }

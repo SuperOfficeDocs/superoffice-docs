@@ -2,6 +2,7 @@
 title: Services88.UserDefinedFieldInfoAgent.SaveUserDefinedFieldInfos SOAP
 generated: true
 uid: Services88-UserDefinedFieldInfo-SaveUserDefinedFieldInfos
+content_type: reference
 ---
 
 # Services88 UserDefinedFieldInfo SaveUserDefinedFieldInfos

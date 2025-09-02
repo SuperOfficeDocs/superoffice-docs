@@ -2,6 +2,7 @@
 title: POST Agents/Preference/SavePreferenceEntity
 uid: v1PreferenceAgent_SavePreferenceEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/SavePreferenceEntity
@@ -91,7 +92,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Preference": null,
-  "RemoveLowerLevels": true
+  "RemoveLowerLevels": false
 }
 ```
 
@@ -103,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "quaerat",
+  "RawValue": "animi",
   "Specification": null,
-  "DisplayValue": "quo",
-  "DisplayTooltip": "rerum",
+  "DisplayValue": "et",
+  "DisplayTooltip": "et",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 182,
-  "PrefDescId": 473,
-  "TableName": "Schinner-Murazik",
-  "UserPreferenceId": 635,
+  "TargetId": 799,
+  "PrefDescId": 463,
+  "TableName": "Goldner, Auer and Sipes",
+  "UserPreferenceId": 820,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 455
+      "FieldLength": 862
     }
   }
 }

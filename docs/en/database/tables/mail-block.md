@@ -2,10 +2,10 @@
 uid: table-mail_block
 title: mail_block table
 description: This table controls the spam-protection system, ensuring that a single email recipient does not recieve too many emails during a certain period of time.
-so.generated: true
+generated: true
 keywords: database table mail_block
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # mail\_block Table (316)

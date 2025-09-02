@@ -3,9 +3,9 @@ uid: workflowtimewaitintervaltype
 title: workflowtimewaitintervaltype
 keywords: mdoprovider mdo provider workflowtimewaitintervaltype
 description: MDO provider for the WorkflowTimeWaitIntervalType enum
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "workflowtimewaitintervaltype" MDO List

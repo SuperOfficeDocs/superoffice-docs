@@ -2,6 +2,7 @@
 title: GET TicketMessage/{id}/Attachment/Noninline
 uid: v1TicketMessageEntity_GetAttachmentInfoNonInline
 generated: true
+content_type: reference
 ---
 
 # GET TicketMessage/{id}/Attachment/Noninline
@@ -66,7 +67,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment/Noninline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 762,
-    "Name": "Denesik, Goyette and Morar",
-    "ContentType": "neque",
-    "AttSize": 49,
-    "InlineImage": false,
-    "ContentId": "saepe",
-    "AuthKey": "voluptas",
+    "AttachmentId": 352,
+    "Name": "Pouros Group",
+    "ContentType": "non",
+    "AttSize": 205,
+    "InlineImage": true,
+    "ContentId": "quidem",
+    "AuthKey": "delectus",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 652
+        "FieldType": "System.Int32",
+        "FieldLength": 757
       }
     }
   }

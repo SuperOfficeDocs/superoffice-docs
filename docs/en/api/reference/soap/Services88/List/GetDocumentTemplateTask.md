@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetDocumentTemplateTask SOAP
 generated: true
 uid: Services88-List-GetDocumentTemplateTask
+content_type: reference
 ---
 
 # Services88 List GetDocumentTemplateTask

@@ -2,6 +2,7 @@
 title: POST Agents/Quote/SaveConnection
 uid: v1QuoteAgent_SaveConnection
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/SaveConnection
@@ -102,54 +103,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 286,
-  "ERPName": "Roberts LLC",
-  "DisplayName": "Bradtke-Rodriguez",
-  "DisplayDescription": "Multi-tiered coherent software",
-  "Rank": 286,
-  "ConnectorName": "Romaguera, Moen and Dickens",
-  "ErpConnectionId": 519,
-  "ExtraData": "quis",
+  "QuoteConnectionId": 839,
+  "ERPName": "Muller LLC",
+  "DisplayName": "Douglas-Reichel",
+  "DisplayDescription": "Integrated hybrid info-mediaries",
+  "Rank": 707,
+  "ConnectorName": "Moen Group",
+  "ErpConnectionId": 421,
+  "ExtraData": "explicabo",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 196,
-      "ERPPriceListKey": "hic",
-      "QuoteConnectionId": 688,
-      "Name": "Von, Gulgowski and Hirthe",
-      "Description": "Centralized radical solution",
-      "Currency": "nisi",
-      "CurrencyName": "Conn, Ritchie and Windler",
-      "ValidFrom": "2009-10-12T03:45:23.8266945+02:00",
-      "ValidTo": "2006-02-12T03:45:23.8266945+01:00",
-      "IsActive": true,
+      "PriceListId": 242,
+      "ERPPriceListKey": "similique",
+      "QuoteConnectionId": 730,
+      "Name": "Frami Inc and Sons",
+      "Description": "Up-sized disintermediate throughput",
+      "Currency": "nostrum",
+      "CurrencyName": "Sawayn-Stracke",
+      "ValidFrom": "2010-07-08T03:46:55.2226157+02:00",
+      "ValidTo": "2023-04-02T03:46:55.2226157+02:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 242
+          "FieldLength": 6
         }
       }
     }
   ],
-  "AllAccess": true,
+  "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    506,
-    905
+    370,
+    243
   ],
   "AssociateAccessIds": [
-    73,
-    998
+    624,
+    171
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 349
+      "FieldLength": 968
     }
   }
 }

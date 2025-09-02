@@ -2,6 +2,7 @@
 title: POST Agents/Project/AddProjectMembers
 uid: v1ProjectAgent_AddProjectMembers
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/AddProjectMembers
@@ -65,34 +66,34 @@ No Content
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 163,
+  "ProjectEntityId": 132,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 586,
-      "ContactId": 455,
-      "ProjectId": 613,
-      "ContactName": "Reichert, Bayer and Lowe",
+      "ProjectmemberId": 510,
+      "ContactId": 299,
+      "ProjectId": 511,
+      "ContactName": "Feeney, Nolan and Bernhard",
       "ContactDepartment": "",
-      "ProjectName": "Stehr-Rutherford",
-      "EmailId": 112,
-      "EmailAddress": "abner_bailey@cruickshank.co.uk",
-      "CountryId": 979,
-      "Firstname": "Erna",
-      "MiddleName": "Torphy Inc and Sons",
-      "Lastname": "Collier",
-      "PersonId": 307,
-      "Mrmrs": "veniam",
-      "ProjectMemberTypeName": "Terry Inc and Sons",
-      "Phone": "170.163.9611",
-      "PhoneId": 946,
-      "ProjectMemberTypeId": 794,
-      "EmailAddressName": "charlotte.weissnat@goyette.info",
-      "Comment": "eligendi",
-      "FullName": "Mrs. Palma Purdy"
+      "ProjectName": "Feest, O'Conner and Hessel",
+      "EmailId": 242,
+      "EmailAddress": "tyrell_schmidt@hayes.com",
+      "CountryId": 481,
+      "Firstname": "Nathan",
+      "MiddleName": "Kautzer, Morissette and Waelchi",
+      "Lastname": "Runolfsdottir",
+      "PersonId": 615,
+      "Mrmrs": "voluptas",
+      "ProjectMemberTypeName": "Murazik Inc and Sons",
+      "Phone": "294-570-9509 x375",
+      "PhoneId": 844,
+      "ProjectMemberTypeId": 866,
+      "EmailAddressName": "viva@gottlieb.co.uk",
+      "Comment": "ratione",
+      "FullName": "Mrs. Blake Rice DVM"
     }
   ]
 }

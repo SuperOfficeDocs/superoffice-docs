@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.GetRefreshedPageConfiguration SOAP
 generated: true
 uid: Services88-Configuration-GetRefreshedPageConfiguration
+content_type: reference
 ---
 
 # Services88 Configuration GetRefreshedPageConfiguration

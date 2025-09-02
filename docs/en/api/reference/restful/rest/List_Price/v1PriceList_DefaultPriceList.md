@@ -2,6 +2,7 @@
 title: GET Pricelist/default
 uid: v1PriceList_DefaultPriceList
 generated: true
+content_type: reference
 ---
 
 # GET Pricelist/default
@@ -76,22 +77,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 278,
-  "ERPPriceListKey": "reprehenderit",
-  "QuoteConnectionId": 341,
-  "Name": "Kutch Inc and Sons",
-  "Description": "Cloned explicit moratorium",
-  "Currency": "cum",
-  "CurrencyName": "Stark Inc and Sons",
-  "ValidFrom": "1998-09-16T03:45:29.0765432+02:00",
-  "ValidTo": "2016-05-21T03:45:29.0765432+02:00",
-  "IsActive": true,
+  "PriceListId": 546,
+  "ERPPriceListKey": "non",
+  "QuoteConnectionId": 32,
+  "Name": "Stanton-Baumbach",
+  "Description": "Balanced systemic budgetary management",
+  "Currency": "et",
+  "CurrencyName": "Conn-Price",
+  "ValidFrom": "2013-08-26T03:47:00.7067961+02:00",
+  "ValidTo": "2018-04-21T03:47:00.7067961+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 196
+      "FieldLength": 681
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Services88.WorkflowAgent.CopyEmailFlow SOAP
 generated: true
 uid: Services88-Workflow-CopyEmailFlow
+content_type: reference
 ---
 
 # Services88 Workflow CopyEmailFlow

@@ -2,6 +2,7 @@
 title: GET Person/CustomField
 uid: v1PersonEntity_GetCustomFieldInfoList
 generated: true
+content_type: reference
 ---
 
 # GET Person/CustomField
@@ -68,7 +69,7 @@ OK
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Gusikowski, Roberts and Schmidt",
-    "DisplayName": "Emard, Schneider and Blanda",
-    "Description": "Decentralized intangible installation",
-    "ShortLabel": "libero",
-    "HideLabel": false,
-    "HideField": true,
-    "IsIndexed": true,
-    "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": true,
+    "FieldName": "Strosin, Greenfelder and Lynch",
+    "DisplayName": "Marvin-Blanda",
+    "Description": "Balanced leading edge complexity",
+    "ShortLabel": "molestiae",
+    "HideLabel": true,
+    "HideField": false,
+    "IsIndexed": false,
+    "IsMandatory": true,
+    "IsReadOnly": true,
+    "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 800,
-    "TemplateVariableName": "Harvey Group"
+    "Rank": 701,
+    "TemplateVariableName": "Hansen Group"
   }
 ]
 ```

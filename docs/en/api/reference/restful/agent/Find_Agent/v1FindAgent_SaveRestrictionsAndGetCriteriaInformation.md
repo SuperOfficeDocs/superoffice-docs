@@ -2,6 +2,7 @@
 title: POST Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 uid: v1FindAgent_SaveRestrictionsAndGetCriteriaInformation
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/SaveRestrictionsAndGetCriteriaInformation
@@ -82,24 +83,24 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ad",
-  "ProviderName": "Pacocha LLC",
-  "StorageKey": "quisquam",
+  "StorageType": "impedit",
+  "ProviderName": "Stokes-Senger",
+  "StorageKey": "ad",
   "Restrictions": [
     {
-      "Name": "Beatty-Bernier",
-      "Operator": "enim",
+      "Name": "Nienow Group",
+      "Operator": "dolor",
       "Values": [
-        "dolor",
-        "sit"
+        "cupiditate",
+        "omnis"
       ],
       "DisplayValues": [
-        "nulla",
-        "qui"
+        "at",
+        "doloremque"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -107,14 +108,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 821,
+      "InterParenthesis": 23,
       "InterOperator": "And",
-      "UniqueHash": 516
+      "UniqueHash": 285
     }
   ],
   "StaticColumns": [
-    "molestias",
-    "molestiae"
+    "cupiditate",
+    "eius"
   ]
 }
 ```
@@ -128,81 +129,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Satterfield, Bogisich and Crist",
-      "Operator": "quis",
+      "Name": "Pacocha, Schuppe and McKenzie",
+      "Operator": "natus",
       "Values": [
-        "natus",
-        "officiis"
+        "necessitatibus",
+        "deserunt"
       ],
       "DisplayValues": [
-        "animi",
-        "aut"
+        "culpa",
+        "voluptates"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 129,
+      "InterParenthesis": 117,
       "InterOperator": "And",
-      "UniqueHash": 914
+      "UniqueHash": 977
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Mayert, Leannon and Senger",
-      "DisplayTooltip": "iure",
-      "DisplayType": "nostrum",
-      "CanOrderBy": true,
-      "Name": "Hoeger Inc and Sons",
+      "DisplayName": "Crist, Watsica and Hyatt",
+      "DisplayTooltip": "qui",
+      "DisplayType": "mollitia",
+      "CanOrderBy": false,
+      "Name": "Frami-Goyette",
       "CanRestrictBy": false,
-      "RestrictionType": "impedit",
-      "RestrictionListName": "Howell, Hermann and Kulas",
+      "RestrictionType": "nemo",
+      "RestrictionListName": "Legros, Hills and Wilkinson",
       "IsVisible": false,
-      "ExtraInfo": "dolores",
-      "Width": "ut",
-      "IconHint": "explicabo",
-      "HeadingIconHint": "cupiditate"
+      "ExtraInfo": "est",
+      "Width": "magni",
+      "IconHint": "id",
+      "HeadingIconHint": "amet"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Jakubowski, Jakubowski and Kihn",
-      "PrimaryKey": 415,
+      "EntityName": "Crist Group",
+      "PrimaryKey": 568,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eos",
-          "TooltipHint": "atque",
-          "LinkHint": "autem"
+          "DisplayValue": "laborum",
+          "TooltipHint": "voluptate",
+          "LinkHint": "provident"
         }
       },
-      "LinkHint": "eligendi",
-      "StyleHint": "eaque",
+      "LinkHint": "earum",
+      "StyleHint": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 202
+          "FieldType": "System.Int32",
+          "FieldLength": 504
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Christiansen-Bruen",
-      "Description": "Horizontal full-range challenge",
-      "Rank": 343,
+      "Name": "Klocko Inc and Sons",
+      "Description": "Expanded encompassing local area network",
+      "Rank": 945,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Christiansen-Bruen",
-      "Description": "Horizontal full-range challenge",
-      "Rank": 343,
+      "Name": "Klocko Inc and Sons",
+      "Description": "Expanded encompassing local area network",
+      "Rank": 945,
       "Restrictions": [
         {},
         {}
@@ -214,7 +215,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 642
+      "FieldLength": 267
     }
   }
 }

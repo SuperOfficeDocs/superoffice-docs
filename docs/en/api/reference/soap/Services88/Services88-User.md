@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-User
 title: Services88.UserAgent WSDL
+content_type: reference
 ---
 
 # Services88.UserAgent WSDL
@@ -470,11 +471,31 @@ title: Services88.UserAgent WSDL
               <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
               <xs:element minOccurs="0" name="EjUserId" type="xs:int" />
               <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="tns:StringDictionary" />
+              <xs:element minOccurs="0" name="CustomFields" nillable="true" type="tns:StringDictionary" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="Associate" nillable="true" type="tns:Associate" />
+      <xs:complexType name="StringDictionary">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="StringKeyValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" nillable="true" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="StringDictionary" nillable="true" type="tns:StringDictionary" />
       <xs:complexType name="DataRights">
         <xs:complexContent mixed="false">
           <xs:extension base="tns:Carrier">
@@ -865,24 +886,6 @@ title: Services88.UserAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="MDOListItem" nillable="true" type="tns:MDOListItem" />
-      <xs:complexType name="StringDictionary">
-        <xs:annotation>
-          <xs:appinfo>
-            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
-          </xs:appinfo>
-        </xs:annotation>
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="StringKeyValuePair">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Key" nillable="true" type="xs:string" />
-                <xs:element name="Value" nillable="true" type="xs:string" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="StringDictionary" nillable="true" type="tns:StringDictionary" />
       <xs:complexType name="ArrayOfCustomCommand">
         <xs:sequence>
           <xs:element minOccurs="0" maxOccurs="unbounded" name="CustomCommand" nillable="true" type="tns:CustomCommand" />
@@ -1322,6 +1325,13 @@ title: Services88.UserAgent WSDL
           <xs:enumeration value="Anonymous" />
           <xs:enumeration value="MyCompany" />
           <xs:enumeration value="SameProject" />
+          <xs:enumeration value="CustomObjects">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">10</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="RoleRelationToOwner" nillable="true" type="tns:RoleRelationToOwner" />

@@ -2,10 +2,10 @@
 uid: enum-workflowgoaltype
 title: Enum values for WorkflowGoalType
 description: Lists the enum values for WorkflowGoalType.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # WorkflowGoalType Enum

@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.CheckinDocument SOAP
 generated: true
 uid: Services88-Document-CheckinDocument
+content_type: reference
 ---
 
 # Services88 Document CheckinDocument

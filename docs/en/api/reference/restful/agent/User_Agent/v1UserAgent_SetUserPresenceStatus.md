@@ -2,6 +2,7 @@
 title: POST Agents/User/SetUserPresenceStatus
 uid: v1UserAgent_SetUserPresenceStatus
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/SetUserPresenceStatus
@@ -75,11 +76,11 @@ OK
 POST /api/v1/Agents/User/SetUserPresenceStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 38,
+  "AssociateId": 593,
   "UserPresenceStatus": null
 }
 ```
@@ -92,6 +93,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "StatusDeleted",
-  "Message": "eaque"
+  "Message": "explicabo"
 }
 ```

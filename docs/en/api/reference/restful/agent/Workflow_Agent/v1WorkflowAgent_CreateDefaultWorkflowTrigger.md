@@ -2,6 +2,7 @@
 title: POST Agents/Workflow/CreateDefaultWorkflowTrigger
 uid: v1WorkflowAgent_CreateDefaultWorkflowTrigger
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Workflow/CreateDefaultWorkflowTrigger
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowTrigger
 ```
 
-Set default values into a new WorkflowTrigger.
+Loading default values into a new WorkflowTrigger.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -60,7 +59,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,23 +69,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 231,
-  "WorkflowId": 740,
+  "WorkflowTriggerId": 115,
+  "WorkflowId": 430,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Willms LLC",
-      "Description": "Cross-group directional contingency",
-      "Rank": 501,
+      "Name": "Mitchell, Wiegand and Kuphal",
+      "Description": "Grass-roots hybrid customer loyalty",
+      "Rank": 266,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Willms LLC",
-      "Description": "Cross-group directional contingency",
-      "Rank": 501,
+      "Name": "Mitchell, Wiegand and Kuphal",
+      "Description": "Grass-roots hybrid customer loyalty",
+      "Rank": 266,
       "Restrictions": [
         {},
         {}
@@ -97,8 +96,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 748
+      "FieldType": "System.String",
+      "FieldLength": 514
     }
   }
 }

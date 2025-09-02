@@ -2,6 +2,7 @@
 title: POST Preference/{section}/{key}
 uid: v1Preference_SetPrefValue_POST
 generated: true
+content_type: reference
 ---
 
 # POST Preference/{section}/{key}
@@ -71,21 +72,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "repudiandae",
+  "RawValue": "quia",
   "Specification": null,
-  "DisplayValue": "rem",
-  "DisplayTooltip": "illo",
+  "DisplayValue": "totam",
+  "DisplayTooltip": "deleniti",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 590,
-  "PrefDescId": 368,
-  "TableName": "Hauck Group",
-  "UserPreferenceId": 445
+  "TargetId": 426,
+  "PrefDescId": 586,
+  "TableName": "Heller Inc and Sons",
+  "UserPreferenceId": 547
 }
 ```
 

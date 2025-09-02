@@ -2,6 +2,7 @@
 title: POST Agents/Document/CreateDefaultTemplateVariablesParameters
 uid: v1DocumentAgent_CreateDefaultTemplateVariablesParameters
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/CreateDefaultTemplateVariablesParameters
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Document/CreateDefaultTemplateVariablesParameters
 ```
 
-Set default values into a new TemplateVariablesParameters.
+Loading default values into a new TemplateVariablesParameters.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -72,7 +71,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultTemplateVariablesParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceInput": "corrupti",
+  "SourceInput": "totam",
   "Encoding": "Html",
   "CultureName": "sv",
-  "ContactId": 224,
-  "PersonId": 521,
-  "ProjectId": 983,
-  "SelectionId": 510,
-  "AppointmentId": 973,
-  "DocumentId": 968,
-  "SaleId": 763,
-  "QuoteLineId": 265,
+  "ContactId": 421,
+  "PersonId": 451,
+  "ProjectId": 442,
+  "SelectionId": 370,
+  "AppointmentId": 435,
+  "DocumentId": 932,
+  "SaleId": 876,
+  "QuoteLineId": 155,
   "QuoteAlternativeId": 12,
-  "ProductKey": "ex",
+  "ProductKey": "optio",
   "CustomTags": [
     [
       {}
@@ -103,14 +102,14 @@ Content-Type: application/json; charset=utf-8
       {}
     ]
   ],
-  "TicketId": 88,
+  "TicketId": 950,
   "DocumentEntity": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldLength": 606
     }
   }
 }

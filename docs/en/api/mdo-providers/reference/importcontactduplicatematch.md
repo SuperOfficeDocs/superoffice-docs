@@ -3,9 +3,9 @@ uid: importcontactduplicatematch
 title: importcontactduplicatematch
 keywords: mdoprovider mdo provider importcontactduplicatematch
 description: List of fields to match contact imports.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "importcontactduplicatematch" MDO List

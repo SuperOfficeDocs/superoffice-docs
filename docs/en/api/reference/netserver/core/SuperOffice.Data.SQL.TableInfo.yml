@@ -80,6 +80,7 @@ items:
   - SuperOffice.CRM.Data.BatchTaskTableInfo
   - SuperOffice.CRM.Data.BinaryObjectLinkTableInfo
   - SuperOffice.CRM.Data.BinaryObjectTableInfo
+  - SuperOffice.CRM.Data.BoardViewSettingsTableInfo
   - SuperOffice.CRM.Data.BusinessGroupLinkTableInfo
   - SuperOffice.CRM.Data.BusinessHeadingLinkTableInfo
   - SuperOffice.CRM.Data.BusinessTableInfo
@@ -570,6 +571,7 @@ items:
   - SuperOffice.CRM.Data.UserGroupTableInfo
   - SuperOffice.CRM.Data.UserPreferenceTableInfo
   - SuperOffice.CRM.Data.UserRoleLinkTableInfo
+  - SuperOffice.CRM.Data.UtmParametersTableInfo
   - SuperOffice.CRM.Data.VisibleForTableInfo
   - SuperOffice.CRM.Data.WebAppUsageTableInfo
   - SuperOffice.CRM.Data.WebhookTableInfo

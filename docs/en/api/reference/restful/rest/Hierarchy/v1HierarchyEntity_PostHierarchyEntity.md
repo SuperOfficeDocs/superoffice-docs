@@ -2,6 +2,7 @@
 title: POST Hierarchy
 uid: v1HierarchyEntity_PostHierarchyEntity
 generated: true
+content_type: reference
 ---
 
 # POST Hierarchy
@@ -98,32 +99,32 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 290,
+  "HierarchyId": 957,
   "Domain": "Dashboards",
-  "Name": "Dickinson, Schowalter and Heller",
-  "Fullname": "qui",
-  "ParentId": 369,
+  "Name": "Brekke Inc and Sons",
+  "Fullname": "ea",
+  "ParentId": 560,
   "Children": [
     {
-      "HierarchyId": 889,
+      "HierarchyId": 865,
       "Domain": "Dashboards",
-      "Name": "Runolfsdottir-Bradtke",
-      "Fullname": "tenetur",
-      "ParentId": 200,
+      "Name": "Blanda Inc and Sons",
+      "Fullname": "illo",
+      "ParentId": 88,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2005-04-04T03:45:28.3734363+02:00",
-      "RegisteredAssociateId": 867,
-      "Updated": "2022-04-29T03:45:28.3734363+02:00",
-      "UpdatedAssociateId": 823
+      "Registered": "2004-02-10T03:47:00.0349452+01:00",
+      "RegisteredAssociateId": 295,
+      "Updated": "1998-06-19T03:47:00.0349452+02:00",
+      "UpdatedAssociateId": 933
     }
   ],
-  "Registered": "2015-11-14T03:45:28.3734363+01:00",
-  "RegisteredAssociateId": 716,
-  "Updated": "2007-04-07T03:45:28.3734363+02:00",
-  "UpdatedAssociateId": 987
+  "Registered": "2020-01-03T03:47:00.0349452+01:00",
+  "RegisteredAssociateId": 950,
+  "Updated": "2018-03-22T03:47:00.0349452+01:00",
+  "UpdatedAssociateId": 428
 }
 ```
 
@@ -134,46 +135,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 546,
+  "HierarchyId": 233,
   "Domain": "Dashboards",
-  "Name": "Balistreri, Williamson and Goyette",
-  "Fullname": "doloremque",
-  "ParentId": 885,
+  "Name": "Hirthe, Bauch and Lowe",
+  "Fullname": "cumque",
+  "ParentId": 433,
   "Children": [
     {
-      "HierarchyId": 557,
+      "HierarchyId": 14,
       "Domain": "Dashboards",
-      "Name": "Runte Group",
-      "Fullname": "est",
-      "ParentId": 315,
+      "Name": "Collins-Ruecker",
+      "Fullname": "eaque",
+      "ParentId": 368,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2023-05-13T03:45:28.3734363+02:00",
-      "RegisteredAssociateId": 56,
-      "Updated": "2007-04-04T03:45:28.3734363+02:00",
-      "UpdatedAssociateId": 290,
+      "Registered": "2011-01-31T03:47:00.0349452+01:00",
+      "RegisteredAssociateId": 225,
+      "Updated": "2003-08-15T03:47:00.0349452+02:00",
+      "UpdatedAssociateId": 34,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 905
+          "FieldLength": 249
         }
       }
     }
   ],
-  "Registered": "2010-08-02T03:45:28.3734363+02:00",
-  "RegisteredAssociateId": 863,
-  "Updated": "2010-09-20T03:45:28.3734363+02:00",
-  "UpdatedAssociateId": 678,
+  "Registered": "2024-08-26T03:47:00.0349452+02:00",
+  "RegisteredAssociateId": 613,
+  "Updated": "2006-04-29T03:47:00.0349452+02:00",
+  "UpdatedAssociateId": 892,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 689
+      "FieldType": "System.Int32",
+      "FieldLength": 354
     }
   },
   "_Links": {

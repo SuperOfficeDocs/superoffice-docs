@@ -2,6 +2,7 @@
 title: POST Agents/User/GetSupportedChangePasswordTypes
 uid: v1UserAgent_GetSupportedChangePasswordTypes
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetSupportedChangePasswordTypes
@@ -74,7 +75,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 684
+  "AssociateId": 101
 }
 ```
 
@@ -85,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "consequatur",
-  "est"
+  "occaecati",
+  "voluptas"
 ]
 ```

@@ -2,6 +2,7 @@
 title: Services88.ContactAgent.CreateDefaultPreviewContact SOAP
 generated: true
 uid: Services88-Contact-CreateDefaultPreviewContact
+content_type: reference
 ---
 
 # Services88 Contact CreateDefaultPreviewContact

@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetPluginCapabilities SOAP
 generated: true
 uid: Services88-List-GetPluginCapabilities
+content_type: reference
 ---
 
 # Services88 List GetPluginCapabilities

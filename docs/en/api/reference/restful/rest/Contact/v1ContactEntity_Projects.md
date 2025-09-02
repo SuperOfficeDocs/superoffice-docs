@@ -2,6 +2,7 @@
 title: GET Contact/{id}/Projects
 uid: v1ContactEntity_Projects
 generated: true
+content_type: reference
 ---
 
 # GET Contact/{id}/Projects
@@ -74,14 +75,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Projects?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Projects?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Projects?$orderBy=name asc
-GET /api/v1/Contact/{id}/Projects?$entities=magni
-GET /api/v1/Contact/{id}/Projects?$top=38
-GET /api/v1/Contact/{id}/Projects?$skip=723
+GET /api/v1/Contact/{id}/Projects?$entities=aut
+GET /api/v1/Contact/{id}/Projects?$top=262
+GET /api/v1/Contact/{id}/Projects?$skip=159
 GET /api/v1/Contact/{id}/Projects?$mode=Full
 GET /api/v1/Contact/{id}/Projects?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Projects?$context=sit
+GET /api/v1/Contact/{id}/Projects?$context=impedit
 GET /api/v1/Contact/{id}/Projects?$format=JSON
-GET /api/v1/Contact/{id}/Projects?$jsonSafe=False
+GET /api/v1/Contact/{id}/Projects?$jsonSafe=True
 GET /api/v1/Contact/{id}/Projects?$output=Display
 ```
 
@@ -134,19 +135,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quam",
+  "odata.nextLink": "consequatur",
   "value": [
     {
-      "PrimaryKey": 1058,
-      "EntityName": "person",
-      "personId": 1058,
-      "fullName": "Edmund Cole"
+      "PrimaryKey": 8943,
+      "EntityName": "sale",
+      "saleId": 8943,
+      "contactId": 4181,
+      "name": "Rosenbaum-Macejkovic"
     },
     {
-      "PrimaryKey": 3775,
-      "EntityName": "person",
-      "personId": 3775,
-      "fullName": "Mitchel Walsh"
+      "PrimaryKey": 8349,
+      "EntityName": "sale",
+      "saleId": 8349,
+      "contactId": 2093,
+      "name": "Collier, Watsica and Hansen"
     }
   ]
 }

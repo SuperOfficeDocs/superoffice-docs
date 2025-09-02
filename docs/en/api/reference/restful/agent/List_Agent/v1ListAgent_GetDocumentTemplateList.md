@@ -2,6 +2,7 @@
 title: POST Agents/List/GetDocumentTemplateList
 uid: v1ListAgent_GetDocumentTemplateList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetDocumentTemplateList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetDocumentTemplateList?$select=name,department,categor
 
 ## Request Body: documentTemplateIds 
 
-The primary keys. 
+The identifiers of the DocumentTemplate object 
 
 
 ## Response:array
@@ -91,23 +92,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 686,
-    "Name": "Spinka, Renner and Okuneva",
-    "Tooltip": "excepturi",
-    "SaveInDb": 334,
-    "Filename": "id",
-    "DefaultOref": "dicta",
+    "DocumentTemplateId": 672,
+    "Name": "Goyette-Hoeger",
+    "Tooltip": "odit",
+    "SaveInDb": 353,
+    "Filename": "est",
+    "DefaultOref": "iste",
     "RecordType": "Appointment",
-    "Deleted": 582,
+    "Deleted": 301,
     "Direction": "Incoming",
-    "AutoeventId": 637,
+    "AutoeventId": 622,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 326
+        "FieldLength": 342
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/List/GetCreditedList
 uid: v1ListAgent_GetCreditedList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetCreditedList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetCreditedList?$select=name,department,category/id
 
 ## Request Body: creditedIds 
 
-The primary keys. 
+The identifiers of the Credited object 
 
 
 ## Response:array
@@ -72,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetCreditedList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,28 +84,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 810,
-    "Value": "voluptas",
-    "Tooltip": "voluptas",
+    "Id": 908,
+    "Value": "labore",
+    "Tooltip": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 551
+        "FieldLength": 337
       }
     }
   },
   {
-    "Id": 810,
-    "Value": "voluptas",
-    "Tooltip": "voluptas",
+    "Id": 908,
+    "Value": "labore",
+    "Tooltip": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 551
+        "FieldLength": 337
       }
     }
   }

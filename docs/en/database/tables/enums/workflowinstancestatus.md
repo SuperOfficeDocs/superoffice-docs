@@ -2,10 +2,10 @@
 uid: enum-workflowinstancestatus
 title: Enum values for WorkflowInstanceStatus
 description: Lists the enum values for WorkflowInstanceStatus.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # WorkflowInstanceStatus Enum

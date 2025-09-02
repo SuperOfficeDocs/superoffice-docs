@@ -2,10 +2,10 @@
 uid: table-Business
 title: Business table
 description: Business list table
-so.generated: true
+generated: true
 keywords: database table Business
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # Business Table (61)

@@ -2,6 +2,7 @@
 title: POST Agents/List/GetReasons
 uid: v1ListAgent_GetReasons
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetReasons
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/List/GetReasons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 73,
-    "Value": "maiores",
-    "Tooltip": "corrupti",
+    "Id": 126,
+    "Value": "temporibus",
+    "Tooltip": "a",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 240
+        "FieldLength": 325
       }
     }
   },
   {
-    "Id": 73,
-    "Value": "maiores",
-    "Tooltip": "corrupti",
+    "Id": 126,
+    "Value": "temporibus",
+    "Tooltip": "a",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 240
+        "FieldLength": 325
       }
     }
   }

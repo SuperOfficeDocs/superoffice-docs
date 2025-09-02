@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.SetPersonImage SOAP
 generated: true
 uid: Services88-Person-SetPersonImage
+content_type: reference
 ---
 
 # Services88 Person SetPersonImage

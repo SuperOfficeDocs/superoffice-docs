@@ -3,9 +3,9 @@ uid: lists
 title: lists
 keywords: mdoprovider mdo provider lists
 description: List provider for the Heading table. While this table looks like an MDO table, it lacks the standardized grouplink and headinglink companion tables for good reason, since it is the heading table itself.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "lists" MDO List

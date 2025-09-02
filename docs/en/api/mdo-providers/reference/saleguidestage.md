@@ -3,9 +3,9 @@ uid: saleguidestage
 title: saleguidestage
 keywords: mdoprovider mdo provider saleguidestage
 description: MDO provider for the stage list, customized for the sale guide stage button row
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "saleguidestage" MDO List

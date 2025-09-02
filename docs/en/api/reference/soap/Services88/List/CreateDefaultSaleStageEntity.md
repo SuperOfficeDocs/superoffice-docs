@@ -2,6 +2,7 @@
 title: Services88.ListAgent.CreateDefaultSaleStageEntity SOAP
 generated: true
 uid: Services88-List-CreateDefaultSaleStageEntity
+content_type: reference
 ---
 
 # Services88 List CreateDefaultSaleStageEntity

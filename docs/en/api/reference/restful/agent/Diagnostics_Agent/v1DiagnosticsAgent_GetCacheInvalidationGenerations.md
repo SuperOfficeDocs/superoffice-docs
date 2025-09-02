@@ -2,6 +2,7 @@
 title: POST Agents/Diagnostics/GetCacheInvalidationGenerations
 uid: v1DiagnosticsAgent_GetCacheInvalidationGenerations
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Diagnostics/GetCacheInvalidationGenerations
@@ -72,13 +73,13 @@ OK
 POST /api/v1/Agents/Diagnostics/GetCacheInvalidationGenerations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Names": [
-    "Ziemann Inc and Sons",
-    "Raynor-Okuneva"
+    "Rice LLC",
+    "Fritsch, Littel and Fadel"
   ]
 }
 ```
@@ -91,12 +92,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bosco LLC",
-    "Generation": 809
+    "Name": "Osinski, Orn and Nienow",
+    "Generation": 429
   },
   {
-    "Name": "Bosco LLC",
-    "Generation": 809
+    "Name": "Osinski, Orn and Nienow",
+    "Generation": 429
   }
 ]
 ```

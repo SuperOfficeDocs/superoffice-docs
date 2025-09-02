@@ -2,6 +2,7 @@
 title: Services88.WorkflowAgent SOAP
 uid: Services88-Workflow-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Workflow SOAP

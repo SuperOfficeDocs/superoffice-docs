@@ -2,6 +2,7 @@
 title: GET List/QuoteApproveReason/Headings
 uid: v1QuoteApproveReasonList_GetQuoteApproveReasonHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/QuoteApproveReason/Headings
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 166,
-    "Name": "Carroll, Ebert and Bergstrom",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 236,
-    "UdListDefinitionId": 488,
+    "HeadingId": 169,
+    "Name": "Nienow Inc and Sons",
+    "Tooltip": "laudantium",
+    "Deleted": false,
+    "Rank": 339,
+    "UdListDefinitionId": 788,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 443
+        "FieldLength": 805
       }
     }
   }

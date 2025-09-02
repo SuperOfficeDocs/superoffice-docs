@@ -2,6 +2,7 @@
 title: PUT List/{name}
 uid: v1ListEntity_SaveListEntityByName
 generated: true
+content_type: reference
 ---
 
 # PUT List/{name}
@@ -89,16 +90,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 620,
-  "Name": "Schmidt, Robel and Thompson",
-  "Tooltip": "facere",
+  "Id": 842,
+  "Name": "Konopelski, Cassin and Marquardt",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 644,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "reprehenderit",
-  "InUseByUserDefinedFields": false
+  "Rank": 583,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "rerum",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +110,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 752,
-  "Name": "Kautzer-Pfannerstill",
-  "Tooltip": "officiis",
-  "Deleted": true,
-  "Rank": 849,
+  "Id": 567,
+  "Name": "Romaguera, Hoppe and Prohaska",
+  "Tooltip": "vitae",
+  "Deleted": false,
+  "Rank": 409,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "enim",
+  "UseGroupsAndHeadings": false,
+  "ListType": "ipsam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 616
+      "FieldType": "System.String",
+      "FieldLength": 982
     }
   }
 }

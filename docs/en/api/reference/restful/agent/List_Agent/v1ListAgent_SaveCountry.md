@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveCountry
 uid: v1ListAgent_SaveCountry
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveCountry
@@ -90,7 +91,7 @@ OK
 POST /api/v1/Agents/List/SaveCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +106,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 477,
-  "Name": "Roob-Corwin",
-  "CurrencyId": 64,
-  "EnglishName": "Conn-Huel",
+  "CountryId": 368,
+  "Name": "McClure, Kling and Spinka",
+  "CurrencyId": 330,
+  "EnglishName": "Beier, Connelly and Steuber",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Compatible clear-thinking help-desk",
-  "OrgNrText": "328333",
-  "InterAreaPrefix": "molestias",
-  "DialInPrefix": "dolorum",
-  "ZipPrefix": "id",
-  "DomainName": "Runte, Cremin and Schroeder",
-  "AddressLayoutId": 591,
-  "DomesticAddressLayoutId": 341,
-  "ForeignAddressLayoutId": 941,
-  "Rank": 562,
-  "Tooltip": "quo",
+  "ImageDescription": "Upgradable optimal Graphical User Interface",
+  "OrgNrText": "1212930",
+  "InterAreaPrefix": "non",
+  "DialInPrefix": "fugit",
+  "ZipPrefix": "recusandae",
+  "DomainName": "Ziemann, Gleichner and Eichmann",
+  "AddressLayoutId": 345,
+  "DomesticAddressLayoutId": 835,
+  "ForeignAddressLayoutId": 460,
+  "Rank": 499,
+  "Tooltip": "blanditiis",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 817
+      "FieldLength": 845
     }
   }
 }

@@ -2,6 +2,7 @@
 title: GET List/Task/Headings
 uid: v1TaskList_GetTaskListItemHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/Task/Headings
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 985,
-    "Name": "Mertz-Nolan",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 697,
-    "UdListDefinitionId": 810,
+    "HeadingId": 402,
+    "Name": "Jakubowski, Turner and Russel",
+    "Tooltip": "optio",
+    "Deleted": true,
+    "Rank": 296,
+    "UdListDefinitionId": 93,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 615
+        "FieldType": "System.Int32",
+        "FieldLength": 400
       }
     }
   }

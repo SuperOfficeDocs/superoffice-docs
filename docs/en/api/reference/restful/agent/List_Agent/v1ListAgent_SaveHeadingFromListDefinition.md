@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveHeadingFromListDefinition
 uid: v1ListAgent_SaveHeadingFromListDefinition
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveHeadingFromListDefinition
@@ -79,11 +80,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 524,
+  "Id": 538,
   "Entity": null
 }
 ```
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 671,
-  "Name": "Ledner Group",
-  "Tooltip": "eligendi",
+  "HeadingId": 734,
+  "Name": "Hane-Rempel",
+  "Tooltip": "ad",
   "Deleted": false,
-  "Rank": 624,
-  "UdListDefinitionId": 87,
+  "Rank": 943,
+  "UdListDefinitionId": 677,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 926
+      "FieldType": "System.Int32",
+      "FieldLength": 976
     }
   }
 }

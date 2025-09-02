@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetUnsanitizedPreviewAttachmentFromId
 uid: v1EMailAgent_GetUnsanitizedPreviewAttachmentFromId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetUnsanitizedPreviewAttachmentFromId
@@ -93,10 +94,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 301,
+  "MailItemId": 713,
   "AttachmentId": "et",
-  "AttachmentType": "commodi",
-  "AttachmentFilename": "beatae"
+  "AttachmentType": "sed",
+  "AttachmentFilename": "quisquam"
 }
 ```
 
@@ -107,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Right-sized bi-directional throughput",
-  "Filename": "sint",
-  "Size": 978,
-  "Type": "qui",
-  "Encoding": "aliquid",
-  "Id": "assumenda",
-  "Disposition": "quis",
-  "IsSafeFileExtension": true,
+  "Description": "Centralized coherent collaboration",
+  "Filename": "non",
+  "Size": 201,
+  "Type": "quas",
+  "Encoding": "consequatur",
+  "Id": "sapiente",
+  "Disposition": "dolor",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 457
+      "FieldType": "System.Int32",
+      "FieldLength": 322
     }
   }
 }

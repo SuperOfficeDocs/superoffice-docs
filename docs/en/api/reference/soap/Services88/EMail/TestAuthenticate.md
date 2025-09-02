@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.TestAuthenticate SOAP
 generated: true
 uid: Services88-EMail-TestAuthenticate
+content_type: reference
 ---
 
 # Services88 EMail TestAuthenticate

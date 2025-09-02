@@ -2,6 +2,7 @@
 title: POST Agents/Diagnostics/GetCacheNames
 uid: v1DiagnosticsAgent_GetCacheNames
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Diagnostics/GetCacheNames
@@ -70,7 +71,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "ex",
-  "aspernatur"
+  "magnam",
+  "illo"
 ]
 ```

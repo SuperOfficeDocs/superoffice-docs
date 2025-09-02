@@ -2,6 +2,7 @@
 title: POST Agents/Quote/CreateConnectionFromConnectorName
 uid: v1QuoteAgent_CreateConnectionFromConnectorName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/CreateConnectionFromConnectorName
@@ -87,11 +88,11 @@ OK
 POST /api/v1/Agents/Quote/CreateConnectionFromConnectorName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Beier-Schoen"
+  "ConnectorName": "Cartwright, Zboncak and Koepp"
 }
 ```
 
@@ -102,54 +103,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 618,
-  "ERPName": "Steuber-Bergstrom",
-  "DisplayName": "Wiegand, Bernier and Kertzmann",
-  "DisplayDescription": "Vision-oriented regional monitoring",
-  "Rank": 850,
-  "ConnectorName": "Renner, Jast and Abbott",
-  "ErpConnectionId": 238,
-  "ExtraData": "quia",
-  "IsAvailable": false,
+  "QuoteConnectionId": 63,
+  "ERPName": "Ward Inc and Sons",
+  "DisplayName": "Douglas-Goodwin",
+  "DisplayDescription": "Profit-focused 24/7 internet solution",
+  "Rank": 673,
+  "ConnectorName": "Altenwerth, Lubowitz and Pacocha",
+  "ErpConnectionId": 847,
+  "ExtraData": "reiciendis",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 350,
-      "ERPPriceListKey": "et",
-      "QuoteConnectionId": 477,
-      "Name": "Dickens Inc and Sons",
-      "Description": "Assimilated zero defect solution",
-      "Currency": "qui",
-      "CurrencyName": "Stoltenberg, Nikolaus and Lockman",
-      "ValidFrom": "2006-09-17T03:45:23.8266945+02:00",
-      "ValidTo": "2005-08-17T03:45:23.8266945+02:00",
+      "PriceListId": 925,
+      "ERPPriceListKey": "nulla",
+      "QuoteConnectionId": 461,
+      "Name": "Breitenberg, Mueller and Cremin",
+      "Description": "Re-engineered content-based process improvement",
+      "Currency": "voluptatem",
+      "CurrencyName": "Bernier Group",
+      "ValidFrom": "2002-03-23T03:46:55.2226157+01:00",
+      "ValidTo": "2011-11-24T03:46:55.2226157+01:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 976
+          "FieldLength": 502
         }
       }
     }
   ],
   "AllAccess": true,
-  "Deleted": false,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    424,
-    298
+    455,
+    717
   ],
   "AssociateAccessIds": [
-    760,
-    257
+    434,
+    377
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 976
+      "FieldType": "System.Int32",
+      "FieldLength": 746
     }
   }
 }

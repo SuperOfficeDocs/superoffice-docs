@@ -2,6 +2,7 @@
 title: POST Agents/Relation/CreateDefaultContactRelationEntity
 uid: v1RelationAgent_CreateDefaultContactRelationEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Relation/CreateDefaultContactRelationEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 ```
 
-Set default values into a new ContactRelationEntity.
+Loading default values into a new ContactRelationEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -74,7 +73,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 627,
-  "SourcePersonId": 231,
-  "DestinationContactId": 252,
-  "DestinationPersonId": 112,
-  "RelationId": 467,
-  "Comment": "est",
-  "RelationDefinitionId": 158,
-  "Reversed": 374,
-  "UpdatedDate": "2000-12-15T03:45:23.8423206+01:00",
-  "CreatedDate": "2018-05-09T03:45:23.8423206+02:00",
+  "SourceContactId": 92,
+  "SourcePersonId": 491,
+  "DestinationContactId": 119,
+  "DestinationPersonId": 607,
+  "RelationId": 915,
+  "Comment": "unde",
+  "RelationDefinitionId": 196,
+  "Reversed": 250,
+  "UpdatedDate": "2008-08-31T03:46:55.2382402+02:00",
+  "CreatedDate": "2012-06-18T03:46:55.2382402+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Deckow Inc and Sons",
-  "SourcePersonName": "Marvin-Langworth",
-  "DestinationContactName": "Walker-Abbott",
-  "DestinationPersonName": "Roob Inc and Sons",
-  "ActiveText": "rerum",
-  "PassiveText": "voluptatem",
+  "SourceContactName": "Powlowski-Schultz",
+  "SourcePersonName": "Kris-Beahan",
+  "DestinationContactName": "Rodriguez Inc and Sons",
+  "DestinationPersonName": "Armstrong Group",
+  "ActiveText": "voluptates",
+  "PassiveText": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 483
+      "FieldLength": 633
     }
   }
 }

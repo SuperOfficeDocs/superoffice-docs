@@ -2,6 +2,7 @@
 title: Services88.ListAgent.SaveHeadingFromName SOAP
 generated: true
 uid: Services88-List-SaveHeadingFromName
+content_type: reference
 ---
 
 # Services88 List SaveHeadingFromName

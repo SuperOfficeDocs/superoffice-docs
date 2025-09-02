@@ -2,6 +2,7 @@
 title: POST Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 uid: v1FindAgent_SaveRestrictionsAndGetCriteriaInformation2
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
@@ -82,15 +83,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quisquam",
-  "ProviderName": "Morissette-Emmerich",
-  "StorageKey": "et",
-  "Restrictions": "dolores",
-  "StaticColumns": "facilis"
+  "StorageType": "nostrum",
+  "ProviderName": "Watsica Inc and Sons",
+  "StorageKey": "voluptates",
+  "Restrictions": "fugiat",
+  "StaticColumns": "necessitatibus"
 }
 ```
 
@@ -103,81 +104,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Schroeder Group",
-      "Operator": "laudantium",
+      "Name": "Hauck Inc and Sons",
+      "Operator": "ducimus",
       "Values": [
-        "ut",
-        "eos"
+        "ea",
+        "corporis"
       ],
       "DisplayValues": [
-        "sapiente",
-        "quas"
+        "corporis",
+        "fugiat"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 232,
+      "InterParenthesis": 443,
       "InterOperator": "And",
-      "UniqueHash": 824
+      "UniqueHash": 338
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Schumm, Brown and Witting",
-      "DisplayTooltip": "unde",
-      "DisplayType": "et",
-      "CanOrderBy": false,
-      "Name": "Reynolds, Jenkins and Boehm",
+      "DisplayName": "Von, Botsford and Franecki",
+      "DisplayTooltip": "odio",
+      "DisplayType": "voluptatem",
+      "CanOrderBy": true,
+      "Name": "Bayer Inc and Sons",
       "CanRestrictBy": false,
-      "RestrictionType": "eum",
-      "RestrictionListName": "Waters, Bayer and Weber",
-      "IsVisible": false,
-      "ExtraInfo": "temporibus",
-      "Width": "expedita",
-      "IconHint": "aut",
-      "HeadingIconHint": "quia"
+      "RestrictionType": "occaecati",
+      "RestrictionListName": "Christiansen, Dooley and Cole",
+      "IsVisible": true,
+      "ExtraInfo": "qui",
+      "Width": "eos",
+      "IconHint": "architecto",
+      "HeadingIconHint": "aperiam"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Christiansen, Schmeler and Runte",
-      "PrimaryKey": 467,
+      "EntityName": "Christiansen, Kerluke and Abbott",
+      "PrimaryKey": 905,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sit",
-          "TooltipHint": "deserunt",
-          "LinkHint": "eligendi"
+          "DisplayValue": "molestiae",
+          "TooltipHint": "eos",
+          "LinkHint": "ea"
         }
       },
-      "LinkHint": "est",
-      "StyleHint": "unde",
+      "LinkHint": "mollitia",
+      "StyleHint": "consectetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 554
+          "FieldLength": 926
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Cronin, Ernser and Quitzon",
-      "Description": "Centralized logistical website",
-      "Rank": 641,
+      "Name": "Schuppe-Keebler",
+      "Description": "Re-contextualized methodical matrix",
+      "Rank": 479,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Cronin, Ernser and Quitzon",
-      "Description": "Centralized logistical website",
-      "Rank": 641,
+      "Name": "Schuppe-Keebler",
+      "Description": "Re-contextualized methodical matrix",
+      "Rank": 479,
       "Restrictions": [
         {},
         {}
@@ -188,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 452
+      "FieldType": "System.Int32",
+      "FieldLength": 671
     }
   }
 }

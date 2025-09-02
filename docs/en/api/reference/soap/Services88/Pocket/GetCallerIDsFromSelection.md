@@ -2,6 +2,7 @@
 title: Services88.PocketAgent.GetCallerIDsFromSelection SOAP
 generated: true
 uid: Services88-Pocket-GetCallerIDsFromSelection
+content_type: reference
 ---
 
 # Services88 Pocket GetCallerIDsFromSelection

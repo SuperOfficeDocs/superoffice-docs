@@ -2,6 +2,7 @@
 title: Services88.BatchAgent.StopBatchJob SOAP
 generated: true
 uid: Services88-Batch-StopBatchJob
+content_type: reference
 ---
 
 # Services88 Batch StopBatchJob

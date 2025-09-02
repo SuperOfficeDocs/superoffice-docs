@@ -2,6 +2,7 @@
 title: GET Project/{id}/Guide
 uid: v1ProjectEntity_Guide
 generated: true
+content_type: reference
 ---
 
 # GET Project/{id}/Guide
@@ -74,14 +75,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Project/{id}/Guide?$select=name,department,category/id
 GET /api/v1/Project/{id}/Guide?$filter=name begins 'S'
 GET /api/v1/Project/{id}/Guide?$orderBy=name asc
-GET /api/v1/Project/{id}/Guide?$entities=accusantium
-GET /api/v1/Project/{id}/Guide?$top=431
-GET /api/v1/Project/{id}/Guide?$skip=921
+GET /api/v1/Project/{id}/Guide?$entities=et
+GET /api/v1/Project/{id}/Guide?$top=877
+GET /api/v1/Project/{id}/Guide?$skip=843
 GET /api/v1/Project/{id}/Guide?$mode=Full
 GET /api/v1/Project/{id}/Guide?$options=GrandTotal=true
-GET /api/v1/Project/{id}/Guide?$context=aut
+GET /api/v1/Project/{id}/Guide?$context=eveniet
 GET /api/v1/Project/{id}/Guide?$format=JSON
-GET /api/v1/Project/{id}/Guide?$jsonSafe=True
+GET /api/v1/Project/{id}/Guide?$jsonSafe=False
 GET /api/v1/Project/{id}/Guide?$output=Display
 ```
 
@@ -134,19 +135,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "qui",
+  "odata.nextLink": "laudantium",
   "value": [
     {
-      "PrimaryKey": 813,
-      "EntityName": "person",
-      "personId": 813,
-      "fullName": "Mrs. Murray Blick MD"
+      "PrimaryKey": 5505,
+      "EntityName": "sale",
+      "saleId": 5505,
+      "contactId": 2577,
+      "name": "Conn-Renner"
     },
     {
-      "PrimaryKey": 1020,
-      "EntityName": "person",
-      "personId": 1020,
-      "fullName": "Arno Blanda"
+      "PrimaryKey": 3919,
+      "EntityName": "sale",
+      "saleId": 3919,
+      "contactId": 3419,
+      "name": "Bode, Crooks and Simonis"
     }
   ]
 }

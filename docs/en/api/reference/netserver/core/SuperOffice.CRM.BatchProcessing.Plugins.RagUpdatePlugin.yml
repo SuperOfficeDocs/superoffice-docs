@@ -22,11 +22,11 @@ items:
   example: []
   syntax:
     content: >-
-      [BatchTask("RagUpdatePlugin")]
+      [BatchTask("RagUpdatePlugin", Timeout = 9200)]
 
       public class RagUpdatePlugin : BatchTaskBase, IBatchTask
     content.vb: >-
-      <BatchTask("RagUpdatePlugin")>
+      <BatchTask("RagUpdatePlugin", Timeout:=9200)>
 
       Public Class RagUpdatePlugin Inherits BatchTaskBase Implements IBatchTask
   inheritance:
@@ -68,6 +68,10 @@ items:
     arguments:
     - type: System.String
       value: RagUpdatePlugin
+    namedArguments:
+    - name: Timeout
+      type: System.Int32
+      value: 9200
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.PluginName
   commentId: F:SuperOffice.CRM.BatchProcessing.Plugins.RagUpdatePlugin.PluginName
   id: PluginName

@@ -1,6 +1,8 @@
 ---
+uid: tag-MDO_Agent
 title: MDO_Agent
 generated: true
+content_type: reference
 ---
 
 ```http

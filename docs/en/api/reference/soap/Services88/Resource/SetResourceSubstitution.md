@@ -2,6 +2,7 @@
 title: Services88.ResourceAgent.SetResourceSubstitution SOAP
 generated: true
 uid: Services88-Resource-SetResourceSubstitution
+content_type: reference
 ---
 
 # Services88 Resource SetResourceSubstitution

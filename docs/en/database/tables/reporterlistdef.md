@@ -2,10 +2,10 @@
 uid: table-ReporterListDef
 title: ReporterListDef table
 description: Reporter definitions
-so.generated: true
+generated: true
 keywords: database table ReporterListDef
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ReporterListDef Table (170)

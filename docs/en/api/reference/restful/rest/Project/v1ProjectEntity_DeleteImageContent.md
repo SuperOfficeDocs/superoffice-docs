@@ -2,6 +2,7 @@
 title: DEL Project/{id}/Image
 uid: v1ProjectEntity_DeleteImageContent
 generated: true
+content_type: reference
 ---
 
 # DEL Project/{id}/Image
@@ -50,7 +51,7 @@ No Content
 DELETE /api/v1/Project/{projectId}/Image
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

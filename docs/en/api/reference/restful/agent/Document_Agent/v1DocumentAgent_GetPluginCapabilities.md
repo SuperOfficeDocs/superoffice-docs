@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetPluginCapabilities
 uid: v1DocumentAgent_GetPluginCapabilities
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetPluginCapabilities
@@ -70,11 +71,11 @@ OK
 POST /api/v1/Agents/Document/GetPluginCapabilities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PluginId": 883
+  "PluginId": 946
 }
 ```
 
@@ -85,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "consectetur",
-  "2": "deserunt"
+  "1": "id",
+  "2": "et"
 }
 ```

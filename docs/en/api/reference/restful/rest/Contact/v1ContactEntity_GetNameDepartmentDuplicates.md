@@ -2,6 +2,7 @@
 title: GET Contact/Duplicates/{name}
 uid: v1ContactEntity_GetNameDepartmentDuplicates
 generated: true
+content_type: reference
 ---
 
 # GET Contact/Duplicates/{name}
@@ -29,7 +30,7 @@ Get duplicates based on the contact name and department
 | department | string |  Department used for lookup (if any) |
 
 ```http
-GET /api/v1/Contact/Duplicates/{name}?department=provident
+GET /api/v1/Contact/Duplicates/{name}?department=cumque
 ```
 
 
@@ -73,7 +74,7 @@ OK
 GET /api/v1/Contact/Duplicates/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Trantow-Herzog",
-    "SoPrimaryKey": 396,
-    "EntryName": "McCullough-Bechtelar",
-    "EntryIdentifier": "velit",
-    "RuleDisplayName": "Fadel Inc and Sons",
+    "RuleName": "Gorczany-Bradtke",
+    "SoPrimaryKey": 635,
+    "EntryName": "Hartmann LLC",
+    "EntryIdentifier": "eum",
+    "RuleDisplayName": "DuBuque-Brakus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 914
+        "FieldType": "System.String",
+        "FieldLength": 483
       }
     }
   }

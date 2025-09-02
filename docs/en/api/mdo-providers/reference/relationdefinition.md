@@ -3,9 +3,9 @@ uid: relationdefinition
 title: relationdefinition
 keywords: mdoprovider mdo provider relationdefinition
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "relationdefinition" MDO List

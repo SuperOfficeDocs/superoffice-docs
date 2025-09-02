@@ -2,6 +2,7 @@
 title: Services88.BatchAgent SOAP
 uid: Services88-Batch-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Batch SOAP

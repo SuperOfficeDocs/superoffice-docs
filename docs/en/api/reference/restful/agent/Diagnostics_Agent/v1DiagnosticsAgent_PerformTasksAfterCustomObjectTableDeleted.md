@@ -2,6 +2,7 @@
 title: POST Agents/Diagnostics/PerformTasksAfterCustomObjectTableDeleted
 uid: v1DiagnosticsAgent_PerformTasksAfterCustomObjectTableDeleted
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Diagnostics/PerformTasksAfterCustomObjectTableDeleted
@@ -66,11 +67,11 @@ No Content
 POST /api/v1/Agents/Diagnostics/PerformTasksAfterCustomObjectTableDeleted
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Turcotte, Leuschke and Stiedemann"
+  "TableName": "Donnelly-Bauch"
 }
 ```
 

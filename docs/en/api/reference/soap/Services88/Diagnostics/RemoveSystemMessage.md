@@ -2,6 +2,7 @@
 title: Services88.DiagnosticsAgent.RemoveSystemMessage SOAP
 generated: true
 uid: Services88-Diagnostics-RemoveSystemMessage
+content_type: reference
 ---
 
 # Services88 Diagnostics RemoveSystemMessage

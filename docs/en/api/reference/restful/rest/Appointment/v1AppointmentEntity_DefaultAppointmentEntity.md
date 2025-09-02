@@ -2,6 +2,7 @@
 title: GET Appointment/default
 uid: v1AppointmentEntity_DefaultAppointmentEntity
 generated: true
+content_type: reference
 ---
 
 # GET Appointment/default
@@ -116,7 +117,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -124,128 +125,128 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 08 Jan 2001 03:45:28 G1T
+Last-Modified: Fri, 24 Sep 2021 03:46:59 G9T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2017-12-21T03:45:28.0296999+01:00",
-  "AppointmentId": 244,
-  "Description": "Self-enabling 6th generation focus group",
-  "Title": "voluptate",
-  "Agenda": "nemo",
-  "InternalNotes": "quam",
-  "StartDate": "2014-06-18T03:45:28.0296999+02:00",
-  "EndDate": "2014-11-04T03:45:28.0296999+01:00",
+  "CreatedDate": "2013-02-22T03:46:59.6599495+01:00",
+  "AppointmentId": 826,
+  "Description": "Object-based object-oriented emulation",
+  "Title": "quia",
+  "Agenda": "voluptatem",
+  "InternalNotes": "enim",
+  "StartDate": "2001-01-28T03:46:59.6599495+01:00",
+  "EndDate": "2009-07-17T03:46:59.6599495+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 943,
+  "MotherId": 82,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2001-01-08T03:45:28.0296999+01:00",
+  "UpdatedDate": "2021-09-24T03:46:59.6599495+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 787,
+  "ActiveLinks": 895,
   "Links": [
     {
-      "EntityName": "Dietrich-Kemmer",
-      "Id": 843,
-      "Description": "Secured zero tolerance system engine",
-      "ExtraInfo": "ex",
-      "LinkId": 405,
+      "EntityName": "Lind-Runte",
+      "Id": 447,
+      "Description": "Re-contextualized needs-based matrix",
+      "ExtraInfo": "consequatur",
+      "LinkId": 844,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 239
+          "FieldLength": 823
         }
       }
     }
   ],
-  "AlarmLeadTime": "maxime",
+  "AlarmLeadTime": "amet",
   "HasAlarm": false,
-  "ColorIndex": 614,
-  "IsFree": false,
+  "ColorIndex": 696,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "quod",
-  "LeadTime": "reiciendis",
-  "Location": "occaecati",
-  "RejectCounter": 606,
+  "LagTime": "aspernatur",
+  "LeadTime": "et",
+  "Location": "vero",
+  "RejectCounter": 100,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 931,
-      "PersonId": 252,
-      "ContactId": 707,
-      "EmailId": 326,
-      "SendEmail": false,
+      "AssociateId": 659,
+      "PersonId": 962,
+      "ContactId": 213,
+      "EmailId": 741,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "holly_rice@stokes.name",
-      "Description": "Innovative dynamic pricing structure"
+      "EmailAddress": "uriah@mante.co.uk",
+      "Description": "Automated client-driven Graphical User Interface"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2000-05-24T03:45:28.0296999+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2021-03-25T03:46:59.6599495+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 764,
+  "PreferredTZLocation": 774,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 421,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 479,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "nulla",
+  "CentralserviceVideomeetId": "voluptates",
   "UserDefinedFields": {
-    "SuperOffice:1": "Hollis Waters",
-    "SuperOffice:2": "1534089375"
+    "SuperOffice:1": "Haylie Rempel",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "sapiente",
-    "ExtraFields2": "at"
+    "ExtraFields1": "et",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "distinctio",
-    "CustomFields2": "rem"
+    "CustomFields1": "ipsa",
+    "CustomFields2": "sunt"
   },
-  "PublishEventDate": "2019-11-03T03:45:28.0296999+01:00",
-  "PublishTo": "2005-04-20T03:45:28.0296999+02:00",
-  "PublishFrom": "2021-07-04T03:45:28.0296999+02:00",
+  "PublishEventDate": "2018-06-24T03:46:59.6599495+02:00",
+  "PublishTo": "2014-01-09T03:46:59.6599495+01:00",
+  "PublishFrom": "2003-07-12T03:46:59.6599495+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 546,
+      "VisibleId": 836,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 296
+          "FieldLength": 919
         }
       }
     },
     {
-      "VisibleId": 546,
+      "VisibleId": 836,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "accusamus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 296
+          "FieldLength": 919
         }
       }
     }
@@ -255,7 +256,7 @@ Last-Modified: Mon, 08 Jan 2001 03:45:28 G1T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldLength": 106
     }
   }
 }

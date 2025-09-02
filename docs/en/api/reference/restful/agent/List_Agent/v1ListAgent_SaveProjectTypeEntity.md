@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveProjectTypeEntity
 uid: v1ListAgent_SaveProjectTypeEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveProjectTypeEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 ```
 
-Updates the existing ProjectTypeEntity or creates a new ProjectTypeEntity if the id parameter is empty
+Updates the existing ProjectTypeEntity or creates a new ProjectTypeEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing ProjectTypeEntity or creates a new ProjectTypeEntity if the
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: projectTypeEntity 
 
-The ProjectTypeEntity to be saved. 
+The ProjectTypeEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,39 +82,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 54,
-  "Name": "Kuhn LLC",
-  "Tooltip": "vero",
-  "Rank": 171,
+  "ProjTypeId": 4,
+  "Name": "Feeney, Altenwerth and Kris",
+  "Tooltip": "iure",
+  "Rank": 27,
   "DurationUnit": "Century",
-  "ProjectDuration": 359,
+  "ProjectDuration": 567,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 793,
-      "Name": "Stracke Inc and Sons",
-      "ToolTip": "Enim aut voluptatem.",
+      "Id": 396,
+      "Name": "Lind Inc and Sons",
+      "ToolTip": "Fugiat similique quam eos et ut.",
       "Deleted": false,
-      "Rank": 558,
-      "Type": "fugiat",
-      "ColorBlock": 179,
-      "IconHint": "sunt",
-      "Selected": true,
-      "LastChanged": "2025-05-21T03:45:23.6079553+02:00",
+      "Rank": 868,
+      "Type": "voluptatem",
+      "ColorBlock": 207,
+      "IconHint": "natus",
+      "Selected": false,
+      "LastChanged": "2019-06-10T03:46:54.9413809+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dignissimos",
-      "StyleHint": "quod",
-      "Hidden": true,
-      "FullName": "Prof. Raymundo Kub I"
+      "ExtraInfo": "aliquam",
+      "StyleHint": "et",
+      "Hidden": false,
+      "FullName": "Chadrick O'Keefe"
     }
   ]
 }
@@ -126,41 +127,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 717,
-  "Name": "Schmitt, Spencer and Jacobson",
-  "Tooltip": "animi",
-  "Rank": 350,
+  "ProjTypeId": 832,
+  "Name": "Turner, Hirthe and Jakubowski",
+  "Tooltip": "voluptates",
+  "Rank": 929,
   "DurationUnit": "Century",
-  "ProjectDuration": 553,
-  "Deleted": false,
+  "ProjectDuration": 638,
+  "Deleted": true,
   "HasGuide": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 901,
-      "Name": "Treutel, Christiansen and Weber",
-      "ToolTip": "Quos sit voluptate est.",
-      "Deleted": false,
-      "Rank": 341,
-      "Type": "et",
-      "ColorBlock": 981,
-      "IconHint": "aut",
+      "Id": 173,
+      "Name": "Sipes Inc and Sons",
+      "ToolTip": "Expedita ipsam.",
+      "Deleted": true,
+      "Rank": 227,
+      "Type": "odio",
+      "ColorBlock": 528,
+      "IconHint": "dolores",
       "Selected": false,
-      "LastChanged": "1998-10-24T03:45:23.6235756+02:00",
+      "LastChanged": "2005-03-15T03:46:54.9413809+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "at",
+      "ExtraInfo": "magnam",
+      "StyleHint": "illo",
       "Hidden": true,
-      "FullName": "Lucile Schmidt",
+      "FullName": "Enid Ankunding",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 979
+          "FieldLength": 776
         }
       }
     }
@@ -169,8 +170,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 950
+      "FieldType": "System.Int32",
+      "FieldLength": 364
     }
   }
 }

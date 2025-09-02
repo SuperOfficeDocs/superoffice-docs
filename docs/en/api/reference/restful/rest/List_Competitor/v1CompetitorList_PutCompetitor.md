@@ -2,6 +2,7 @@
 title: PUT List/Competitor/Items/{id}
 uid: v1CompetitorList_PutCompetitor
 generated: true
+content_type: reference
 ---
 
 # PUT List/Competitor/Items/{id}
@@ -78,16 +79,16 @@ OK
 PUT /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 372,
-  "Name": "Ruecker-Labadie",
-  "Tooltip": "sed",
-  "Deleted": true,
-  "UdListDefinitionId": 766,
-  "Rank": 316
+  "Id": 695,
+  "Name": "Luettgen Group",
+  "Tooltip": "itaque",
+  "Deleted": false,
+  "UdListDefinitionId": 947,
+  "Rank": 494
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 814,
-  "Name": "Fritsch, Ziemann and O'Keefe",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "UdListDefinitionId": 654,
-  "Rank": 56,
+  "Id": 74,
+  "Name": "Huels, Larson and Krajcik",
+  "Tooltip": "similique",
+  "Deleted": true,
+  "UdListDefinitionId": 179,
+  "Rank": 179,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 969
+      "FieldLength": 551
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/Diagnostics/GetNextTableNumber
 uid: v1DiagnosticsAgent_GetNextTableNumber
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Diagnostics/GetNextTableNumber
@@ -60,7 +61,7 @@ OK
 POST /api/v1/Agents/Diagnostics/GetNextTableNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,5 +70,5 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-807
+345
 ```

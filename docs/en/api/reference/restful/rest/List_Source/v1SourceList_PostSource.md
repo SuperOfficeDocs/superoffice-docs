@@ -2,6 +2,7 @@
 title: POST List/Source/Items
 uid: v1SourceList_PostSource
 generated: true
+content_type: reference
 ---
 
 # POST List/Source/Items
@@ -73,16 +74,16 @@ OK
 POST /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 672,
-  "Name": "Ruecker-Dicki",
-  "Tooltip": "quibusdam",
-  "Deleted": true,
-  "UdListDefinitionId": 963,
-  "Rank": 850
+  "Id": 161,
+  "Name": "Windler, Green and Gibson",
+  "Tooltip": "dignissimos",
+  "Deleted": false,
+  "UdListDefinitionId": 304,
+  "Rank": 508
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 79,
-  "Name": "Yundt, Ortiz and Bahringer",
-  "Tooltip": "odit",
+  "Id": 610,
+  "Name": "Kovacek LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 617,
-  "Rank": 810,
+  "UdListDefinitionId": 884,
+  "Rank": 821,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 857
+      "FieldType": "System.Int32",
+      "FieldLength": 84
     }
   }
 }

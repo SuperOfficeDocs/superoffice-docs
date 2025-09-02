@@ -2,6 +2,7 @@
 title: GET List/Competitor/Items/{id}/Headings
 uid: v1CompetitorList_GetCompetitorHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Competitor/Items/{id}/Headings
@@ -31,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +86,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 49,
-    "Name": "Yost-Zulauf",
-    "ToolTip": "Facilis quam nobis sed iste.",
+    "Id": 791,
+    "Name": "Gulgowski-Schulist",
+    "ToolTip": "Rem dolores earum excepturi fugit dolor.",
     "Deleted": false,
-    "Rank": 615,
-    "Type": "soluta",
-    "ColorBlock": 636,
-    "IconHint": "iste",
-    "Selected": false,
-    "LastChanged": "2010-05-09T03:45:28.9827939+02:00",
+    "Rank": 118,
+    "Type": "aut",
+    "ColorBlock": 174,
+    "IconHint": "non",
+    "Selected": true,
+    "LastChanged": "2010-01-08T03:47:00.5974251+01:00",
     "ChildItems": [
       {
-        "Id": 510,
-        "Name": "Wilkinson, Mertz and Pacocha",
-        "ToolTip": "Repudiandae atque incidunt vel.",
-        "Deleted": true,
-        "Rank": 32,
-        "Type": "numquam",
-        "ColorBlock": 740,
-        "IconHint": "voluptas",
+        "Id": 391,
+        "Name": "Medhurst-Adams",
+        "ToolTip": "Assumenda qui distinctio laudantium quis occaecati amet et.",
+        "Deleted": false,
+        "Rank": 799,
+        "Type": "dolores",
+        "ColorBlock": 580,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2009-11-18T03:45:28.9827939+01:00",
+        "LastChanged": "2004-05-02T03:47:00.5974251+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "quae",
+        "ExtraInfo": "ut",
+        "StyleHint": "deleniti",
         "Hidden": false,
-        "FullName": "Miss Maxwell Marcella Corwin V",
+        "FullName": "Yvonne Klocko",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 799
+            "FieldType": "System.Int32",
+            "FieldLength": 277
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "libero",
-    "Hidden": false,
-    "FullName": "Rylee Kunde",
+    "ExtraInfo": "in",
+    "StyleHint": "accusamus",
+    "Hidden": true,
+    "FullName": "Theodore Willms",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 158
+        "FieldType": "System.Int32",
+        "FieldLength": 717
       }
     }
   }

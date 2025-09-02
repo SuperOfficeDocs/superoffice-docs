@@ -1,6 +1,8 @@
 ---
+uid: tag-Resource_Agent
 title: Resource_Agent
 generated: true
+content_type: reference
 ---
 
 ```http

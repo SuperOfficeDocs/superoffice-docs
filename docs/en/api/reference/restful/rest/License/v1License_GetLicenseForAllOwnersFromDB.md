@@ -2,6 +2,7 @@
 title: GET License
 uid: v1License_GetLicenseForAllOwnersFromDB
 generated: true
+content_type: reference
 ---
 
 # GET License
@@ -58,7 +59,7 @@ OK
 GET /api/v1/License
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,41 +71,41 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Reason": "",
-    "CanBeActivated": true,
+    "CanBeActivated": false,
     "New": null,
     "Current": null,
     "ExtendedModuleLicenses": [
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 117,
-        "NumberOfLicensesFree": 600,
-        "NumberOfLicensesAdded": 165,
-        "NumberOfLicensesNewTotal": 418,
-        "NumberOfLicensesNewFree": 570,
-        "NumberOfLicensesTotal": 663
+        "NumberOfLicensesInUse": 226,
+        "NumberOfLicensesFree": 71,
+        "NumberOfLicensesAdded": 522,
+        "NumberOfLicensesNewTotal": 757,
+        "NumberOfLicensesNewFree": 687,
+        "NumberOfLicensesTotal": 346
       }
     ],
-    "AccumulatedNextCheckDate": "2009-05-17T03:45:28.8109239+02:00"
+    "AccumulatedNextCheckDate": "2017-10-16T03:47:00.4099317+02:00"
   },
   {
     "Reason": "",
-    "CanBeActivated": true,
+    "CanBeActivated": false,
     "New": null,
     "Current": null,
     "ExtendedModuleLicenses": [
       {
         "New": null,
         "Current": null,
-        "NumberOfLicensesInUse": 117,
-        "NumberOfLicensesFree": 600,
-        "NumberOfLicensesAdded": 165,
-        "NumberOfLicensesNewTotal": 418,
-        "NumberOfLicensesNewFree": 570,
-        "NumberOfLicensesTotal": 663
+        "NumberOfLicensesInUse": 226,
+        "NumberOfLicensesFree": 71,
+        "NumberOfLicensesAdded": 522,
+        "NumberOfLicensesNewTotal": 757,
+        "NumberOfLicensesNewFree": 687,
+        "NumberOfLicensesTotal": 346
       }
     ],
-    "AccumulatedNextCheckDate": "2009-05-17T03:45:28.8109239+02:00"
+    "AccumulatedNextCheckDate": "2017-10-16T03:47:00.4099317+02:00"
   }
 ]
 ```

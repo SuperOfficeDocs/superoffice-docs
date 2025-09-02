@@ -2,6 +2,7 @@
 title: GET List/TicketType/Items
 uid: v1TicketTypeList_GetAllTicketTypeEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/TicketType/Items
@@ -75,7 +76,7 @@ OK
 GET /api/v1/List/TicketType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,31 +87,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 717,
-    "Name": "Bernhard-McDermott",
-    "Rank": 628,
-    "Tooltip": "nihil",
-    "Icon": "doloremque",
-    "DefaultTicketStatus": 2,
+    "TicketTypeId": 625,
+    "Name": "Harvey-Stehr",
+    "Rank": 164,
+    "Tooltip": "rerum",
+    "Icon": "dolorum",
+    "DefaultTicketStatus": 519,
     "TicketStatuses": [
-      907,
-      367
+      485,
+      153
     ],
-    "DefaultTicketPriority": 187,
+    "DefaultTicketPriority": 197,
     "TicketPriorities": [
-      715,
-      709
+      62,
+      581
     ],
-    "ReplyTemplate": 570,
+    "ReplyTemplate": 117,
     "IsExternalVisible": false,
-    "IsDefault": true,
-    "ShowInNew": false,
-    "ExcludeSignature": false,
+    "IsDefault": false,
+    "ShowInNew": true,
+    "ExcludeSignature": true,
     "ExcludeEmailRecipients": false,
-    "ExternalAsDefault": true,
+    "ExternalAsDefault": false,
     "VisibleForGroups": [
-      135,
-      722
+      888,
+      171
     ],
     "ReplyForwardNoSignature": false,
     "ReplyExternalAsDefault": true,
@@ -119,7 +120,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 751
+        "FieldLength": 677
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST CRMScript/{id}/ExecuteAsEvent
 uid: v1CRMScriptEntity_ExecuteScriptAsEvent
 generated: true
+content_type: reference
 ---
 
 # POST CRMScript/{id}/ExecuteAsEvent
@@ -98,42 +99,42 @@ OK
 POST /api/v1/CRMScript/{cRMScriptId}/ExecuteAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "enim",
-    "InputValues2": "qui"
+    "InputValues1": "aliquid",
+    "InputValues2": "libero"
   },
   "BlockExecution": true,
-  "NavigateTo": "ad",
-  "Message": "rem",
-  "ShowDialog": "reiciendis",
+  "NavigateTo": "itaque",
+  "Message": "tempora",
+  "ShowDialog": "ea",
   "OutputValues": {
-    "OutputValues1": "quia",
-    "OutputValues2": "vel"
+    "OutputValues1": "qui",
+    "OutputValues2": "id"
   },
   "StateValues": {
-    "StateValues1": "veritatis",
-    "StateValues2": "accusantium"
+    "StateValues1": "et",
+    "StateValues2": "quae"
   },
-  "Exception": "distinctio",
+  "Exception": "velit",
   "ParserValues": {
-    "ParserValues1": "dolor",
-    "ParserValues2": "qui"
+    "ParserValues1": "eos",
+    "ParserValues2": "nobis"
   },
   "CgiVariables": {
-    "CgiVariables1": "mollitia",
-    "CgiVariables2": "et"
+    "CgiVariables1": "molestiae",
+    "CgiVariables2": "cumque"
   },
-  "CgiContent": "et",
+  "CgiContent": "quia",
   "Headers": {
-    "Headers1": "et",
-    "Headers2": "sint"
+    "Headers1": "quidem",
+    "Headers2": "nihil"
   },
-  "TraceExecution": false
+  "TraceExecution": true
 }
 ```
 
@@ -146,34 +147,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "aliquam",
-    "InputValues2": "consequatur"
+    "InputValues1": "itaque",
+    "InputValues2": "vel"
   },
   "BlockExecution": false,
-  "NavigateTo": "sint",
-  "Message": "nisi",
-  "ShowDialog": "quis",
+  "NavigateTo": "omnis",
+  "Message": "sed",
+  "ShowDialog": "eos",
   "OutputValues": {
-    "OutputValues1": "fugiat",
-    "OutputValues2": "provident"
+    "OutputValues1": "sint",
+    "OutputValues2": "molestias"
   },
   "StateValues": {
-    "StateValues1": "sint",
-    "StateValues2": "sint"
+    "StateValues1": "maiores",
+    "StateValues2": "magni"
   },
-  "Exception": "modi",
+  "Exception": "sit",
   "ParserValues": {
-    "ParserValues1": "aut",
-    "ParserValues2": "laudantium"
+    "ParserValues1": "inventore",
+    "ParserValues2": "quis"
   },
   "CgiVariables": {
-    "CgiVariables1": "aut",
-    "CgiVariables2": "aperiam"
+    "CgiVariables1": "hic",
+    "CgiVariables2": "aut"
   },
-  "CgiContent": "rerum",
+  "CgiContent": "quo",
   "Headers": {
-    "Headers1": "qui",
-    "Headers2": "aliquam"
+    "Headers1": "corrupti",
+    "Headers2": "totam"
   },
   "TraceExecution": false,
   "TableRight": null,
@@ -181,7 +182,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldLength": 490
     }
   }
 }

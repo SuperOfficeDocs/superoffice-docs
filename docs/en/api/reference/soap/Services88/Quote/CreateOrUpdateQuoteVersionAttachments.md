@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.CreateOrUpdateQuoteVersionAttachments SOAP
 generated: true
 uid: Services88-Quote-CreateOrUpdateQuoteVersionAttachments
+content_type: reference
 ---
 
 # Services88 Quote CreateOrUpdateQuoteVersionAttachments

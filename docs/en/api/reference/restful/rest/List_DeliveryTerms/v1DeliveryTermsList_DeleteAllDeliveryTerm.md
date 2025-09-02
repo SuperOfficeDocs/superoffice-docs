@@ -2,6 +2,7 @@
 title: DEL List/DeliveryTerm/Items
 uid: v1DeliveryTermsList_DeleteAllDeliveryTerm
 generated: true
+content_type: reference
 ---
 
 # DEL List/DeliveryTerm/Items

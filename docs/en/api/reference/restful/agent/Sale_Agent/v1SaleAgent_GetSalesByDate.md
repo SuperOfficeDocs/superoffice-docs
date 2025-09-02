@@ -2,6 +2,7 @@
 title: POST Agents/Sale/GetSalesByDate
 uid: v1SaleAgent_GetSalesByDate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/GetSalesByDate
@@ -102,13 +103,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "1999-12-20T03:45:23.8735682+01:00",
-  "ToDate": "2015-09-07T03:45:23.8735682+02:00",
-  "AmountLimit": 191,
+  "FromDate": "2007-12-04T03:46:55.2694888+01:00",
+  "ToDate": "2003-09-02T03:46:55.2694888+02:00",
+  "AmountLimit": 541,
   "Status": "Lost"
 }
 ```
@@ -121,37 +122,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Collins LLC",
-    "SaleDate": "2003-03-01T03:45:23.8735682+01:00",
-    "SaleId": 388,
-    "Probability": 969,
-    "Title": "quasi",
-    "Amount": 28343.896,
-    "Currency": "nulla",
-    "ProjectName": "Johns Inc and Sons",
-    "AssociateFullName": "Lela Runolfsdottir",
-    "Description": "Expanded dedicated methodology",
+    "ContactName": "Zulauf-Hartmann",
+    "SaleDate": "2010-01-15T03:46:55.2694888+01:00",
+    "SaleId": 789,
+    "Probability": 280,
+    "Title": "distinctio",
+    "Amount": 18929.36,
+    "Currency": "saepe",
+    "ProjectName": "Walsh, Willms and Cole",
+    "AssociateFullName": "Georgette Evangeline Runte MD",
+    "Description": "Self-enabling non-volatile knowledge user",
     "Status": "Lost",
-    "WeightedAmount": 7183.128,
-    "ProjectId": 432,
-    "EarningPercent": 6148.9079999999994,
-    "Earning": 21373.88,
-    "ContactId": 609,
-    "AssociateId": 458,
-    "PersonId": 46,
-    "SaleTypeId": 292,
-    "SaleTypeName": "Kuhlman, Carter and Runolfsdottir",
-    "PersonFullName": "Wanda Jerde",
+    "WeightedAmount": 13178.47,
+    "ProjectId": 668,
+    "EarningPercent": 17193.124,
+    "Earning": 18352.703999999998,
+    "ContactId": 253,
+    "AssociateId": 894,
+    "PersonId": 484,
+    "SaleTypeId": 946,
+    "SaleTypeName": "Yundt, Streich and Douglas",
+    "PersonFullName": "Mrs. Johnnie Darwin Feil",
     "Completed": "Completed",
-    "ActiveErpLinks": 394,
-    "NextDueDate": "1998-03-14T03:45:23.8735682+01:00",
-    "Number": "701028",
+    "ActiveErpLinks": 976,
+    "NextDueDate": "2025-08-01T03:46:55.2694888+02:00",
+    "Number": "1168986",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 535
+        "FieldLength": 160
       }
     }
   }

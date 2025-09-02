@@ -2,6 +2,7 @@
 title: Services88.FavouriteAgent.RemoveTicketsFromFavouritesByProvider SOAP
 generated: true
 uid: Services88-Favourite-RemoveTicketsFromFavouritesByProvider
+content_type: reference
 ---
 
 # Services88 Favourite RemoveTicketsFromFavouritesByProvider

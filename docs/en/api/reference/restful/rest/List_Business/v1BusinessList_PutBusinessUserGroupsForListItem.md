@@ -2,6 +2,7 @@
 title: PUT List/Business/Items/{id}/UserGroups
 uid: v1BusinessList_PutBusinessUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/Business/Items/{id}/UserGroups
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 110,
-    "Name": "Flatley Group",
-    "ToolTip": "Ab exercitationem excepturi tempora quas exercitationem iste dolore.",
+    "Id": 908,
+    "Name": "Larson, Dare and Hills",
+    "ToolTip": "Et blanditiis sunt.",
     "Deleted": false,
-    "Rank": 901,
-    "Type": "adipisci",
-    "ColorBlock": 615,
-    "IconHint": "numquam",
-    "Selected": false,
-    "LastChanged": "2023-04-30T03:45:28.9671778+02:00",
+    "Rank": 198,
+    "Type": "porro",
+    "ColorBlock": 541,
+    "IconHint": "corporis",
+    "Selected": true,
+    "LastChanged": "2000-03-22T03:47:00.5818006+01:00",
     "ChildItems": [
       {
-        "Id": 532,
-        "Name": "Farrell-Haley",
-        "ToolTip": "Voluptate repellat voluptas enim ut nulla quidem ullam.",
+        "Id": 781,
+        "Name": "Farrell-Zboncak",
+        "ToolTip": "Earum delectus ex ipsa.",
         "Deleted": false,
-        "Rank": 996,
-        "Type": "corrupti",
-        "ColorBlock": 225,
-        "IconHint": "enim",
-        "Selected": false,
-        "LastChanged": "2005-12-11T03:45:28.9671778+01:00",
+        "Rank": 619,
+        "Type": "autem",
+        "ColorBlock": 810,
+        "IconHint": "dolor",
+        "Selected": true,
+        "LastChanged": "2018-03-30T03:47:00.5818006+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ratione",
-        "StyleHint": "numquam",
+        "ExtraInfo": "eos",
+        "StyleHint": "porro",
         "Hidden": false,
-        "FullName": "Aditya Windler"
+        "FullName": "Austin Kris"
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "excepturi",
+    "ExtraInfo": "aut",
+    "StyleHint": "eos",
     "Hidden": true,
-    "FullName": "Mrs. Vern Sanford"
+    "FullName": "Yvonne Zieme"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 583,
-    "Name": "Beahan, Olson and Kuhlman",
-    "ToolTip": "Voluptatibus sapiente quas.",
-    "Deleted": true,
-    "Rank": 617,
-    "Type": "consectetur",
-    "ColorBlock": 386,
-    "IconHint": "aliquam",
-    "Selected": false,
-    "LastChanged": "2006-11-24T03:45:28.9671778+01:00",
+    "Id": 299,
+    "Name": "Gibson Inc and Sons",
+    "ToolTip": "Aut ipsa facilis dicta voluptatum qui quo.",
+    "Deleted": false,
+    "Rank": 904,
+    "Type": "optio",
+    "ColorBlock": 731,
+    "IconHint": "dolor",
+    "Selected": true,
+    "LastChanged": "2000-01-23T03:47:00.5818006+01:00",
     "ChildItems": [
       {
-        "Id": 503,
-        "Name": "Stiedemann-Rolfson",
-        "ToolTip": "Dolorem possimus mollitia quis vel ut necessitatibus.",
+        "Id": 155,
+        "Name": "Hilll LLC",
+        "ToolTip": "Et ea.",
         "Deleted": false,
-        "Rank": 397,
-        "Type": "ullam",
-        "ColorBlock": 342,
-        "IconHint": "unde",
-        "Selected": true,
-        "LastChanged": "1998-11-29T03:45:28.9671778+01:00",
+        "Rank": 751,
+        "Type": "voluptate",
+        "ColorBlock": 388,
+        "IconHint": "ducimus",
+        "Selected": false,
+        "LastChanged": "2009-04-06T03:47:00.5818006+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "odio",
+        "ExtraInfo": "maiores",
+        "StyleHint": "corrupti",
         "Hidden": true,
-        "FullName": "Dr. Deanna Gladyce Breitenberg",
+        "FullName": "Audrey Kiehn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 10
+            "FieldType": "System.String",
+            "FieldLength": 187
           }
         }
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "id",
+    "ExtraInfo": "quo",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Blake McKenzie",
+    "FullName": "Ofelia Feest",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 311
+        "FieldLength": 675
       }
     }
   }

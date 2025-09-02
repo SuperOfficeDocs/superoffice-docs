@@ -2,6 +2,7 @@
 title: PUT List/ProductFamily
 uid: v1ProductFamilyList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProductFamily
@@ -84,19 +85,19 @@ OK
 PUT /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 435,
-  "Name": "Pouros Group",
-  "Tooltip": "asperiores",
+  "Id": 609,
+  "Name": "Hermann, Hermann and Pacocha",
+  "Tooltip": "minima",
   "Deleted": false,
-  "Rank": 990,
-  "IsCustomList": false,
+  "Rank": 688,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "fugiat",
+  "UseGroupsAndHeadings": false,
+  "ListType": "consequatur",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 257,
-  "Name": "Jenkins-Christiansen",
-  "Tooltip": "facilis",
-  "Deleted": false,
-  "Rank": 779,
+  "Id": 395,
+  "Name": "Schmeler-Jenkins",
+  "Tooltip": "vel",
+  "Deleted": true,
+  "Rank": 434,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "pariatur",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 79
+      "FieldType": "System.Int32",
+      "FieldLength": 199
     }
   }
 }

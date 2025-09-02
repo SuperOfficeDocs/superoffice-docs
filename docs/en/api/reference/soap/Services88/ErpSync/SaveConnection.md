@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.SaveConnection SOAP
 generated: true
 uid: Services88-ErpSync-SaveConnection
+content_type: reference
 ---
 
 # Services88 ErpSync SaveConnection

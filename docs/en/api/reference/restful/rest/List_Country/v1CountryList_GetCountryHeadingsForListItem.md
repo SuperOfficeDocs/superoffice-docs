@@ -2,6 +2,7 @@
 title: GET List/Country/Items/{id}/Headings
 uid: v1CountryList_GetCountryHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Country/Items/{id}/Headings
@@ -85,7 +86,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 283,
-    "Name": "Johns Group",
-    "ToolTip": "Dolorem ut blanditiis enim quia placeat sapiente voluptatum.",
-    "Deleted": true,
-    "Rank": 938,
-    "Type": "atque",
-    "ColorBlock": 607,
-    "IconHint": "in",
+    "Id": 853,
+    "Name": "Kilback, Klocko and Willms",
+    "ToolTip": "Ut non numquam.",
+    "Deleted": false,
+    "Rank": 612,
+    "Type": "facilis",
+    "ColorBlock": 273,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2016-07-05T03:45:29.014043+02:00",
+    "LastChanged": "2021-08-08T03:47:00.6130405+02:00",
     "ChildItems": [
       {
-        "Id": 595,
-        "Name": "Treutel Inc and Sons",
-        "ToolTip": "Cumque error accusamus odit maiores enim ratione corrupti.",
-        "Deleted": true,
-        "Rank": 774,
-        "Type": "perspiciatis",
-        "ColorBlock": 44,
-        "IconHint": "doloribus",
+        "Id": 78,
+        "Name": "Jakubowski Group",
+        "ToolTip": "Rerum rerum quod.",
+        "Deleted": false,
+        "Rank": 481,
+        "Type": "alias",
+        "ColorBlock": 973,
+        "IconHint": "corrupti",
         "Selected": false,
-        "LastChanged": "2013-12-28T03:45:29.014043+01:00",
+        "LastChanged": "2015-10-12T03:47:00.6130405+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "harum",
-        "Hidden": true,
-        "FullName": "Francis Lowe IV",
+        "ExtraInfo": "aut",
+        "StyleHint": "molestias",
+        "Hidden": false,
+        "FullName": "Brittany Leuschke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 488
+            "FieldType": "System.Int32",
+            "FieldLength": 891
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "ea",
+    "ExtraInfo": "qui",
+    "StyleHint": "officia",
     "Hidden": true,
-    "FullName": "Shany Zieme",
+    "FullName": "Kamren Reilly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 360
+        "FieldLength": 386
       }
     }
   }

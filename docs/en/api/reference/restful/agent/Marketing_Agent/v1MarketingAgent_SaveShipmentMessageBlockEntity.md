@@ -2,6 +2,7 @@
 title: POST Agents/Marketing/SaveShipmentMessageBlockEntity
 uid: v1MarketingAgent_SaveShipmentMessageBlockEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Marketing/SaveShipmentMessageBlockEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Marketing/SaveShipmentMessageBlockEntity
 ```
 
-Updates the existing ShipmentMessageBlockEntity or creates a new ShipmentMessageBlockEntity if the id parameter is empty
+Updates the existing ShipmentMessageBlockEntity or creates a new ShipmentMessageBlockEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing ShipmentMessageBlockEntity or creates a new ShipmentMessage
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: shipmentMessageBlockEntity 
 
-The ShipmentMessageBlockEntity to be saved. 
+The ShipmentMessageBlockEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,18 +78,18 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 275,
-  "AssociateId": 285,
-  "Block": "soluta",
-  "Registered": "2003-10-22T03:45:23.6235756+02:00",
-  "RegisteredAssociateId": 752,
-  "Updated": "2013-08-04T03:45:23.6235756+02:00",
-  "UpdatedAssociateId": 418,
-  "UpdatedCount": 782
+  "ShipmentMessageBlockId": 799,
+  "AssociateId": 242,
+  "Block": "placeat",
+  "Registered": "2018-08-13T03:46:55.0038735+02:00",
+  "RegisteredAssociateId": 205,
+  "Updated": "2005-01-22T03:46:55.0038735+01:00",
+  "UpdatedAssociateId": 682,
+  "UpdatedCount": 341
 }
 ```
 
@@ -99,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 325,
-  "AssociateId": 931,
-  "Block": "veniam",
-  "Registered": "2017-10-11T03:45:23.6235756+02:00",
-  "RegisteredAssociateId": 115,
-  "Updated": "2013-07-21T03:45:23.6235756+02:00",
-  "UpdatedAssociateId": 365,
-  "UpdatedCount": 907,
+  "ShipmentMessageBlockId": 506,
+  "AssociateId": 84,
+  "Block": "temporibus",
+  "Registered": "2004-11-27T03:46:55.0038735+01:00",
+  "RegisteredAssociateId": 705,
+  "Updated": "1999-06-24T03:46:55.0038735+02:00",
+  "UpdatedAssociateId": 392,
+  "UpdatedCount": 46,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 528
+      "FieldLength": 351
     }
   }
 }

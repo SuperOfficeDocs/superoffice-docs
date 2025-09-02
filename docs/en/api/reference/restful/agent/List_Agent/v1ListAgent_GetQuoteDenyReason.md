@@ -2,6 +2,7 @@
 title: POST Agents/List/GetQuoteDenyReason
 uid: v1ListAgent_GetQuoteDenyReason
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetQuoteDenyReason
@@ -22,11 +23,11 @@ Gets a QuoteDenyReason object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| quoteDenyReasonId | int32 | **Required** The primary key. |
+| quoteDenyReasonId | int32 | **Required** The identifier of the QuoteDenyReason object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetQuoteDenyReason?quoteDenyReasonId=440
+POST /api/v1/Agents/List/GetQuoteDenyReason?quoteDenyReasonId=873
 POST /api/v1/Agents/List/GetQuoteDenyReason?$select=name,department,category/id
 ```
 
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetQuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,15 +80,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 943,
-  "Value": "explicabo",
-  "Tooltip": "animi",
+  "Id": 658,
+  "Value": "doloremque",
+  "Tooltip": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 112
+      "FieldLength": 873
     }
   }
 }

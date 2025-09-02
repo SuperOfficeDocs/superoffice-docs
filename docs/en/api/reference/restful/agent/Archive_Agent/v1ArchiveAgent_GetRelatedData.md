@@ -2,6 +2,7 @@
 title: POST Agents/Archive/GetRelatedData
 uid: v1ArchiveAgent_GetRelatedData
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/GetRelatedData
@@ -76,15 +77,15 @@ OK
 POST /api/v1/Agents/Archive/GetRelatedData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "alias",
-  "RecordId": 767,
+  "Table": "asperiores",
+  "RecordId": 716,
   "Fields": [
-    "quas",
-    "sit"
+    "facilis",
+    "voluptatem"
   ]
 }
 ```
@@ -97,11 +98,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "facilis",
+    "Field": "iusto",
     "FieldValue": null
   },
   {
-    "Field": "facilis",
+    "Field": "iusto",
     "FieldValue": null
   }
 ]

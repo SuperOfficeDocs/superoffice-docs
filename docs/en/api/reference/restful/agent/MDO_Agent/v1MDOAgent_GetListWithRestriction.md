@@ -2,6 +2,7 @@
 title: POST Agents/MDO/GetListWithRestriction
 uid: v1MDOAgent_GetListWithRestriction
 generated: true
+content_type: reference
 ---
 
 # POST Agents/MDO/GetListWithRestriction
@@ -86,13 +87,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kassulke-Kautzer",
-  "AdditionalInfo": "recusandae",
-  "SearchValue": "officiis"
+  "Name": "Schuppe LLC",
+  "AdditionalInfo": "alias",
+  "SearchValue": "accusamus"
 }
 ```
 
@@ -104,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 811,
-    "Name": "Smith-Pfeffer",
-    "ToolTip": "Velit omnis explicabo.",
-    "Deleted": false,
-    "Rank": 891,
-    "Type": "amet",
+    "Id": 402,
+    "Name": "Jakubowski, West and Stracke",
+    "ToolTip": "Id enim nihil officia quod quia quisquam.",
+    "Deleted": true,
+    "Rank": 630,
+    "Type": "earum",
     "ChildItems": [
       {
-        "Id": 347,
-        "Name": "Dicki LLC",
-        "ToolTip": "Suscipit illo asperiores ipsa.",
-        "Deleted": true,
-        "Rank": 941,
-        "Type": "accusamus",
+        "Id": 409,
+        "Name": "Jacobs Inc and Sons",
+        "ToolTip": "Fuga omnis deleniti odit cum.",
+        "Deleted": false,
+        "Rank": 754,
+        "Type": "impedit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "numquam",
-        "ColorBlock": 699,
-        "ExtraInfo": "vel",
-        "StyleHint": "doloremque",
-        "FullName": "Prof. Hertha Ondricka PhD",
+        "IconHint": "qui",
+        "ColorBlock": 695,
+        "ExtraInfo": "voluptates",
+        "StyleHint": "et",
+        "FullName": "Lazaro O'Reilly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 546
+            "FieldLength": 284
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 897,
-    "ExtraInfo": "libero",
-    "StyleHint": "illo",
-    "FullName": "Matt King",
+    "IconHint": "quibusdam",
+    "ColorBlock": 908,
+    "ExtraInfo": "velit",
+    "StyleHint": "quia",
+    "FullName": "Lauren Huel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 437
+        "FieldType": "System.String",
+        "FieldLength": 976
       }
     }
   }

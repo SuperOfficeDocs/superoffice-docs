@@ -2,6 +2,7 @@
 title: POST Agents/License/GetUserLicenses
 uid: v1LicenseAgent_GetUserLicenses
 generated: true
+content_type: reference
 ---
 
 # POST Agents/License/GetUserLicenses
@@ -76,11 +77,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 84
+  "AssociateId": 44
 }
 ```
 
@@ -92,56 +93,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kunze, Swaniawski and Jaskolski",
-    "Description": "Virtual 6th generation intranet",
+    "Name": "Murphy Inc and Sons",
+    "Description": "Vision-oriented zero defect artificial intelligence",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 718,
-        "Tooltip": "itaque",
+        "Total": 336,
+        "Tooltip": "magni",
         "CanAssign": false,
-        "Free": 603,
-        "InUse": 81,
-        "IsHidden": false,
+        "Free": 922,
+        "InUse": 184,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 795,
-        "Name": "Pollich-Osinski",
-        "Description": "Progressive multimedia pricing structure",
-        "PrerequisiteModuleName": "Stiedemann, Vandervort and Wuckert",
-        "SortOrder": 774,
-        "ExtraFlags": 855,
+        "ModuleLicenseId": 312,
+        "Name": "Gibson LLC",
+        "Description": "Devolved directional success",
+        "PrerequisiteModuleName": "Jacobson, Brakus and Huel",
+        "SortOrder": 374,
+        "ExtraFlags": 293,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 940
+            "FieldLength": 906
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 41,
-        "Tooltip": "excepturi",
-        "CanAssign": false,
-        "Free": 708,
-        "InUse": 556,
+        "Unrestricted": true,
+        "Total": 521,
+        "Tooltip": "ea",
+        "CanAssign": true,
+        "Free": 674,
+        "InUse": 981,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 179,
-        "Name": "Runte-Wehner",
-        "Description": "Compatible fresh-thinking approach",
-        "PrerequisiteModuleName": "VonRueden, Miller and Bergstrom",
-        "SortOrder": 160,
-        "ExtraFlags": 953,
+        "ModuleLicenseId": 603,
+        "Name": "Lueilwitz Inc and Sons",
+        "Description": "Proactive homogeneous open architecture",
+        "PrerequisiteModuleName": "Balistreri-West",
+        "SortOrder": 66,
+        "ExtraFlags": 566,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 623
+            "FieldType": "System.Int32",
+            "FieldLength": 507
           }
         }
       }
@@ -150,62 +151,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 463
+        "FieldType": "System.String",
+        "FieldLength": 85
       }
     }
   },
   {
-    "Name": "Kunze, Swaniawski and Jaskolski",
-    "Description": "Virtual 6th generation intranet",
+    "Name": "Murphy Inc and Sons",
+    "Description": "Vision-oriented zero defect artificial intelligence",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 718,
-        "Tooltip": "itaque",
+        "Total": 336,
+        "Tooltip": "magni",
         "CanAssign": false,
-        "Free": 603,
-        "InUse": 81,
-        "IsHidden": false,
+        "Free": 922,
+        "InUse": 184,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 795,
-        "Name": "Pollich-Osinski",
-        "Description": "Progressive multimedia pricing structure",
-        "PrerequisiteModuleName": "Stiedemann, Vandervort and Wuckert",
-        "SortOrder": 774,
-        "ExtraFlags": 855,
+        "ModuleLicenseId": 312,
+        "Name": "Gibson LLC",
+        "Description": "Devolved directional success",
+        "PrerequisiteModuleName": "Jacobson, Brakus and Huel",
+        "SortOrder": 374,
+        "ExtraFlags": 293,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 940
+            "FieldLength": 906
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 41,
-        "Tooltip": "excepturi",
-        "CanAssign": false,
-        "Free": 708,
-        "InUse": 556,
+        "Unrestricted": true,
+        "Total": 521,
+        "Tooltip": "ea",
+        "CanAssign": true,
+        "Free": 674,
+        "InUse": 981,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 179,
-        "Name": "Runte-Wehner",
-        "Description": "Compatible fresh-thinking approach",
-        "PrerequisiteModuleName": "VonRueden, Miller and Bergstrom",
-        "SortOrder": 160,
-        "ExtraFlags": 953,
+        "ModuleLicenseId": 603,
+        "Name": "Lueilwitz Inc and Sons",
+        "Description": "Proactive homogeneous open architecture",
+        "PrerequisiteModuleName": "Balistreri-West",
+        "SortOrder": 66,
+        "ExtraFlags": 566,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 623
+            "FieldType": "System.Int32",
+            "FieldLength": 507
           }
         }
       }
@@ -214,8 +215,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 463
+        "FieldType": "System.String",
+        "FieldLength": 85
       }
     }
   }

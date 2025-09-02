@@ -2,6 +2,7 @@
 title: POST Agents/Document/SetDocumentStreamFromId
 uid: v1DocumentAgent_SetDocumentStreamFromId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/SetDocumentStreamFromId
@@ -109,11 +110,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 29,
+  "DocumentId": 682,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -125,88 +126,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 521,
+  "DocumentId": 503,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "perferendis",
-  "Header": "voluptates",
-  "Name": "Howe, Lindgren and Thompson",
-  "OurRef": "nihil",
-  "YourRef": "recusandae",
-  "CreatedDate": "2000-10-12T03:45:23.3579573+02:00",
-  "UpdatedDate": "2014-02-03T03:45:23.3579573+01:00",
-  "Description": "Automated object-oriented challenge",
+  "Attention": "commodi",
+  "Header": "ullam",
+  "Name": "McKenzie-Doyle",
+  "OurRef": "aperiam",
+  "YourRef": "voluptatem",
+  "CreatedDate": "2009-12-21T03:46:54.6913844+01:00",
+  "UpdatedDate": "2003-04-20T03:46:54.6913844+02:00",
+  "Description": "Ergonomic optimizing moratorium",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2002-01-06T03:45:23.3579573+01:00",
-  "ExternalRef": "ut",
+  "Date": "2022-05-06T03:46:54.707009+02:00",
+  "ExternalRef": "porro",
   "Completed": "Completed",
-  "ActiveLinks": 377,
+  "ActiveLinks": 973,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Hackett-Johnston",
-      "Id": 400,
-      "Description": "Integrated zero tolerance approach",
-      "ExtraInfo": "consequatur",
-      "LinkId": 957,
+      "EntityName": "Macejkovic Group",
+      "Id": 143,
+      "Description": "Phased coherent product",
+      "ExtraInfo": "totam",
+      "LinkId": 942,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 79
+          "FieldLength": 493
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 703,
-  "Snum": 965,
+  "SuggestedDocumentId": 471,
+  "Snum": 963,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Isai Trantow",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Vena Fahey",
+    "SuperOffice:2": "Miss Eloy Spencer Stiedemann Sr."
   },
   "ExtraFields": {
-    "ExtraFields1": "quam",
-    "ExtraFields2": "dolorum"
+    "ExtraFields1": "et",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "repudiandae",
-    "CustomFields2": "et"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "voluptatum"
   },
-  "PublishEventDate": "2007-05-24T03:45:23.3579573+02:00",
-  "PublishTo": "2000-12-08T03:45:23.3579573+01:00",
-  "PublishFrom": "2017-11-07T03:45:23.3579573+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2021-04-18T03:46:54.707009+02:00",
+  "PublishTo": "2024-10-22T03:46:54.707009+02:00",
+  "PublishFrom": "2005-01-25T03:46:54.707009+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 268,
+      "VisibleId": 273,
       "Visibility": "All",
-      "DisplayValue": "similique",
+      "DisplayValue": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 843
+          "FieldLength": 423
         }
       }
     },
     {
-      "VisibleId": 268,
+      "VisibleId": 273,
       "Visibility": "All",
-      "DisplayValue": "similique",
+      "DisplayValue": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 843
+          "FieldLength": 423
         }
       }
     }
@@ -216,7 +217,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 291
+      "FieldLength": 482
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 uid: v1UserDefinedFieldInfoAgent_SaveUserDefinedFieldInfos
 generated: true
+content_type: reference
 ---
 
 # POST Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
@@ -66,46 +67,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 390,
-      "ColumnId": 346,
-      "FieldDefault": "necessitatibus",
-      "FieldHeight": 941,
-      "FieldLabel": "quis",
-      "FieldLeft": 413,
-      "FieldTop": 707,
+      "UDefFieldId": 487,
+      "ColumnId": 194,
+      "FieldDefault": "ut",
+      "FieldHeight": 5,
+      "FieldLabel": "quia",
+      "FieldLeft": 411,
+      "FieldTop": 849,
       "FieldType": "Checkbox",
-      "FieldWidth": 175,
-      "FormatMask": "porro",
+      "FieldWidth": 127,
+      "FormatMask": "quaerat",
       "HideLabel": false,
       "IsIndexed": false,
-      "LabelHeight": 344,
-      "LabelLeft": 625,
-      "LabelTop": 84,
-      "LabelWidth": 820,
-      "LastVersionId": 991,
-      "ListTableId": 394,
-      "IsMandatory": true,
+      "LabelHeight": 751,
+      "LabelLeft": 428,
+      "LabelTop": 154,
+      "LabelWidth": 229,
+      "LastVersionId": 927,
+      "ListTableId": 486,
+      "IsMandatory": false,
       "Type": "Appointment",
-      "Page1LineNo": 565,
-      "ProgId": "iure",
+      "Page1LineNo": 522,
+      "ProgId": "quidem",
       "IsReadOnly": false,
-      "ShortLabel": "id",
-      "TabOrder": 28,
-      "TextLength": 584,
-      "Tooltip": "quia",
-      "UdefIdentity": 893,
-      "UDListDefinitionId": 409,
+      "ShortLabel": "aut",
+      "TabOrder": 364,
+      "TextLength": 551,
+      "Tooltip": "ut",
+      "UdefIdentity": 62,
+      "UDListDefinitionId": 468,
       "Justification": "Center",
-      "Version": 949,
-      "TemplateVariableName": "Borer-Gottlieb",
+      "Version": 326,
+      "TemplateVariableName": "Paucek, Gleason and Swift",
       "HasBeenPublished": false,
-      "MdoListName": "Turner-Monahan"
+      "MdoListName": "Gusikowski, Keebler and Kautzer"
     }
   ]
 }

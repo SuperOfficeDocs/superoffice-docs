@@ -2,6 +2,7 @@
 title: POST Agents/List/SetVisibleForUserGroups
 uid: v1ListAgent_SetVisibleForUserGroups
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SetVisibleForUserGroups
@@ -89,32 +90,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 774,
-  "ListItemId": 384,
+  "UdListDefinitionId": 239,
+  "ListItemId": 624,
   "UserGroups": [
     {
-      "Id": 610,
-      "Name": "Williamson, Dooley and Moen",
-      "ToolTip": "Eum atque.",
+      "Id": 828,
+      "Name": "Collier Group",
+      "ToolTip": "Consequatur quaerat ut.",
       "Deleted": false,
-      "Rank": 746,
-      "Type": "hic",
-      "ColorBlock": 90,
-      "IconHint": "dolore",
+      "Rank": 115,
+      "Type": "consequatur",
+      "ColorBlock": 758,
+      "IconHint": "distinctio",
       "Selected": false,
-      "LastChanged": "2009-02-24T03:45:23.5298295+01:00",
+      "LastChanged": "2020-07-20T03:46:54.9413809+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "optio",
-      "StyleHint": "et",
+      "ExtraInfo": "laborum",
+      "StyleHint": "natus",
       "Hidden": false,
-      "FullName": "Reyes Aufderhar"
+      "FullName": "Mrs. Erick Sadie Kutch"
     }
   ]
 }
@@ -128,56 +129,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 689,
-    "Name": "Jast-Satterfield",
-    "ToolTip": "Et ea consequatur occaecati.",
+    "Id": 391,
+    "Name": "Schneider LLC",
+    "ToolTip": "Veritatis ex.",
     "Deleted": false,
-    "Rank": 533,
-    "Type": "qui",
-    "ColorBlock": 40,
-    "IconHint": "fugit",
-    "Selected": false,
-    "LastChanged": "2002-06-01T03:45:23.5298295+02:00",
+    "Rank": 324,
+    "Type": "enim",
+    "ColorBlock": 722,
+    "IconHint": "maiores",
+    "Selected": true,
+    "LastChanged": "1999-08-07T03:46:54.9569999+02:00",
     "ChildItems": [
       {
-        "Id": 207,
-        "Name": "Pfannerstill, Murphy and Kerluke",
-        "ToolTip": "Iste dolor et voluptatum necessitatibus corrupti.",
-        "Deleted": true,
-        "Rank": 4,
-        "Type": "iure",
-        "ColorBlock": 313,
-        "IconHint": "officia",
+        "Id": 725,
+        "Name": "Tillman, Labadie and Tillman",
+        "ToolTip": "Qui molestiae nemo modi qui facere.",
+        "Deleted": false,
+        "Rank": 907,
+        "Type": "qui",
+        "ColorBlock": 145,
+        "IconHint": "commodi",
         "Selected": false,
-        "LastChanged": "1999-01-26T03:45:23.5298295+01:00",
+        "LastChanged": "2008-05-05T03:46:54.9569999+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "quia",
+        "ExtraInfo": "nemo",
+        "StyleHint": "enim",
         "Hidden": true,
-        "FullName": "Prof. Sophie Ben Kuhic Sr.",
+        "FullName": "Miss Austen Keegan Jacobs MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 544
+            "FieldLength": 67
           }
         }
       }
     ],
-    "ExtraInfo": "nobis",
-    "StyleHint": "necessitatibus",
-    "Hidden": true,
-    "FullName": "Marlin Kihn",
+    "ExtraInfo": "delectus",
+    "StyleHint": "quaerat",
+    "Hidden": false,
+    "FullName": "Dortha Runolfsdottir",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 126
+        "FieldLength": 112
       }
     }
   }

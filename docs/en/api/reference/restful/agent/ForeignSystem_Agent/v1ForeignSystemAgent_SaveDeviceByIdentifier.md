@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/SaveDeviceByIdentifier
 uid: v1ForeignSystemAgent_SaveDeviceByIdentifier
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/SaveDeviceByIdentifier
@@ -84,13 +85,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hettinger-Rath",
-  "DeviceName": "Koelpin-Erdman",
-  "DeviceIdentifier": "velit",
+  "ApplicationName": "Cronin-Ankunding",
+  "DeviceName": "Farrell Group",
+  "DeviceIdentifier": "est",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 780,
-  "Name": "Beer, Ernser and Schaden",
-  "CreatedDate": "2018-01-12T03:45:23.4829546+01:00",
-  "UpdatedDate": "2005-02-01T03:45:23.4829546+01:00",
-  "AssociateFullName": "Jenifer Cartwright",
-  "CreatedBy": "placeat",
+  "ForeignDeviceId": 685,
+  "Name": "Medhurst Group",
+  "CreatedDate": "2009-06-13T03:46:54.9107593+02:00",
+  "UpdatedDate": "2022-12-27T03:46:54.9107593+01:00",
+  "AssociateFullName": "Gianni Gutmann",
+  "CreatedBy": "fugiat",
   "UpdatedBy": "et",
-  "DeviceIdentifier": "quo",
-  "ForeignAppId": 679,
+  "DeviceIdentifier": "temporibus",
+  "ForeignAppId": 312,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldType": "System.String",
+      "FieldLength": 112
     }
   }
 }

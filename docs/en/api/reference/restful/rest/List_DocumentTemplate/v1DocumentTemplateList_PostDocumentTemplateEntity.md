@@ -2,6 +2,7 @@
 title: POST List/DocumentTemplate/Items
 uid: v1DocumentTemplateList_PostDocumentTemplateEntity
 generated: true
+content_type: reference
 ---
 
 # POST List/DocumentTemplate/Items
@@ -113,34 +114,34 @@ OK
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 793,
-  "Name": "Murray, Kling and Harvey",
-  "Tooltip": "eos",
-  "SaveInDb": 456,
-  "Filename": "maxime",
-  "DefaultOref": "eveniet",
+  "DocumentTemplateId": 76,
+  "Name": "Beer, Graham and Rodriguez",
+  "Tooltip": "iusto",
+  "SaveInDb": 879,
+  "Filename": "et",
+  "DefaultOref": "voluptatem",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 326,
-  "IntentId": 511,
+  "AutoeventId": 377,
+  "IntentId": 257,
   "IsDefaultPublished": false,
-  "Rank": 161,
-  "LoadTemplateFromPlugin": 933,
-  "MimeType": "est",
+  "Rank": 862,
+  "LoadTemplateFromPlugin": 468,
+  "MimeType": "itaque",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 751,
+  "DocumentTypeKey": 795,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "anabel_daniel@hammeseichmann.ca",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
+  "EmailSubject": "urban@steuber.co.uk",
+  "IncludeSignature": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "donald@zemlakswaniawski.us",
+  "SenderEmailAddress": "carleton.towne@pricetillman.co.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -152,37 +153,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 809,
-  "Name": "Harber Inc and Sons",
-  "Tooltip": "nesciunt",
-  "SaveInDb": 561,
-  "Filename": "recusandae",
-  "DefaultOref": "vel",
+  "DocumentTemplateId": 23,
+  "Name": "Buckridge Inc and Sons",
+  "Tooltip": "dolor",
+  "SaveInDb": 472,
+  "Filename": "impedit",
+  "DefaultOref": "ipsa",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 530,
-  "IntentId": 512,
+  "AutoeventId": 384,
+  "IntentId": 324,
   "IsDefaultPublished": false,
-  "Rank": 130,
-  "LoadTemplateFromPlugin": 601,
-  "MimeType": "rem",
+  "Rank": 154,
+  "LoadTemplateFromPlugin": 521,
+  "MimeType": "reprehenderit",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 791,
+  "DocumentTypeKey": 337,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "dayana@schaefer.ca",
+  "EmailSubject": "alf@grahamkuhic.us",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "dax_gleichner@murphy.com",
+  "SenderEmailAddress": "cassandra@hermistontowne.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 461
+      "FieldLength": 416
     }
   }
 }

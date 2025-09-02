@@ -2,6 +2,7 @@
 title: GET List/DeliveryTerm/MDOItems
 uid: v1DeliveryTermsList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/DeliveryTerm/MDOItems
@@ -26,8 +27,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=blanditiis
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
+GET /api/v1/List/DeliveryTerm/MDOItems?query=suscipit
 ```
 
 
@@ -78,7 +79,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 574,
-    "Name": "Medhurst-Adams",
-    "ToolTip": "Sequi ut aspernatur molestiae.",
+    "Id": 9,
+    "Name": "Green Group",
+    "ToolTip": "Reprehenderit earum tenetur.",
     "Deleted": false,
-    "Rank": 810,
-    "Type": "voluptates",
+    "Rank": 640,
+    "Type": "velit",
     "ChildItems": [
       {
-        "Id": 519,
-        "Name": "Donnelly-Gusikowski",
-        "ToolTip": "Molestiae tenetur harum.",
-        "Deleted": true,
-        "Rank": 138,
-        "Type": "dolorum",
+        "Id": 101,
+        "Name": "Sporer LLC",
+        "ToolTip": "Autem iste nemo quia magni iste.",
+        "Deleted": false,
+        "Rank": 168,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "blanditiis",
-        "ColorBlock": 169,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "et",
-        "FullName": "Prof. Alvah Elmer Raynor Sr.",
+        "IconHint": "sequi",
+        "ColorBlock": 52,
+        "ExtraInfo": "est",
+        "StyleHint": "itaque",
+        "FullName": "Clarissa Kulas",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 176
+            "FieldType": "System.String",
+            "FieldLength": 415
           }
         }
       }
     ],
-    "IconHint": "sed",
-    "ColorBlock": 746,
-    "ExtraInfo": "impedit",
-    "StyleHint": "provident",
-    "FullName": "Meaghan Koelpin DVM",
+    "IconHint": "amet",
+    "ColorBlock": 24,
+    "ExtraInfo": "quo",
+    "StyleHint": "cum",
+    "FullName": "Mr. Horace Torp PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 481
+        "FieldType": "System.String",
+        "FieldLength": 472
       }
     }
   }

@@ -2,6 +2,7 @@
 title: PUT List/MrMrs/Headings
 uid: v1MrMrsList_PutMrMrsHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/MrMrs/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 900,
-    "Name": "Bednar Inc and Sons",
-    "Tooltip": "consectetur",
+    "HeadingId": 607,
+    "Name": "D'Amore-Gleason",
+    "Tooltip": "dolorem",
     "Deleted": false,
-    "Rank": 133,
-    "UdListDefinitionId": 671
+    "Rank": 653,
+    "UdListDefinitionId": 917
   },
   {
-    "HeadingId": 900,
-    "Name": "Bednar Inc and Sons",
-    "Tooltip": "consectetur",
+    "HeadingId": 607,
+    "Name": "D'Amore-Gleason",
+    "Tooltip": "dolorem",
     "Deleted": false,
-    "Rank": 133,
-    "UdListDefinitionId": 671
+    "Rank": 653,
+    "UdListDefinitionId": 917
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 926,
-    "Name": "Blanda LLC",
-    "Tooltip": "minus",
+    "HeadingId": 999,
+    "Name": "Heller Inc and Sons",
+    "Tooltip": "dolores",
     "Deleted": true,
-    "Rank": 793,
-    "UdListDefinitionId": 858,
+    "Rank": 599,
+    "UdListDefinitionId": 137,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 160
+        "FieldLength": 517
       }
     }
   }

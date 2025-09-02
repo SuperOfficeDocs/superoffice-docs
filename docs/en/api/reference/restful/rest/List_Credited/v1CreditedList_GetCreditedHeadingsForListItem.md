@@ -2,6 +2,7 @@
 title: GET List/Credited/Items/{id}/Headings
 uid: v1CreditedList_GetCreditedHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Credited/Items/{id}/Headings
@@ -31,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +86,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 662,
-    "Name": "Bergstrom Group",
-    "ToolTip": "Voluptatum error.",
+    "Id": 428,
+    "Name": "White Group",
+    "ToolTip": "Ullam voluptates.",
     "Deleted": false,
-    "Rank": 631,
-    "Type": "aut",
-    "ColorBlock": 229,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "1998-03-07T03:45:29.014043+01:00",
+    "Rank": 360,
+    "Type": "odit",
+    "ColorBlock": 128,
+    "IconHint": "repellendus",
+    "Selected": false,
+    "LastChanged": "2009-02-18T03:47:00.628674+01:00",
     "ChildItems": [
       {
-        "Id": 209,
-        "Name": "Lebsack-Cruickshank",
-        "ToolTip": "Eaque sint voluptates illum iure.",
-        "Deleted": true,
-        "Rank": 707,
-        "Type": "sed",
-        "ColorBlock": 931,
-        "IconHint": "dolores",
+        "Id": 857,
+        "Name": "Wunsch-McClure",
+        "ToolTip": "Quam explicabo.",
+        "Deleted": false,
+        "Rank": 736,
+        "Type": "voluptatem",
+        "ColorBlock": 427,
+        "IconHint": "placeat",
         "Selected": false,
-        "LastChanged": "2003-11-18T03:45:29.014043+01:00",
+        "LastChanged": "2021-08-12T03:47:00.628674+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "esse",
+        "ExtraInfo": "adipisci",
+        "StyleHint": "mollitia",
         "Hidden": false,
-        "FullName": "Mr. Bettie Murazik Sr.",
+        "FullName": "Kellen Frami",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 827
+            "FieldLength": 439
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "non",
+    "ExtraInfo": "tempora",
+    "StyleHint": "magnam",
     "Hidden": false,
-    "FullName": "Ella Yost I",
+    "FullName": "Mrs. Carmen Margarete Brown IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 881
+        "FieldLength": 229
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/Pocket/RunAppointmentAlarmBroker
 uid: v1PocketAgent_RunAppointmentAlarmBroker
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Pocket/RunAppointmentAlarmBroker

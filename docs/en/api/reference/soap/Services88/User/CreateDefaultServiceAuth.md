@@ -2,6 +2,7 @@
 title: Services88.UserAgent.CreateDefaultServiceAuth SOAP
 generated: true
 uid: Services88-User-CreateDefaultServiceAuth
+content_type: reference
 ---
 
 # Services88 User CreateDefaultServiceAuth

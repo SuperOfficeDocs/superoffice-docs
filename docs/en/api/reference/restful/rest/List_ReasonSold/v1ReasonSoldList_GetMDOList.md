@@ -2,6 +2,7 @@
 title: GET List/ReasonSold/MDOItems
 uid: v1ReasonSoldList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/ReasonSold/MDOItems
@@ -27,7 +28,7 @@ Get the MDO list items for "ReasonSold" - with headings and filtering by user gr
 
 ```http
 GET /api/v1/List/ReasonSold/MDOItems?flat=False
-GET /api/v1/List/ReasonSold/MDOItems?query=et
+GET /api/v1/List/ReasonSold/MDOItems?query=praesentium
 ```
 
 
@@ -78,7 +79,7 @@ OK
 GET /api/v1/List/ReasonSold/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 571,
-    "Name": "Yundt-Kovacek",
-    "ToolTip": "Aliquid magnam placeat est eaque totam qui.",
-    "Deleted": true,
-    "Rank": 445,
-    "Type": "tempore",
+    "Id": 595,
+    "Name": "Koch Inc and Sons",
+    "ToolTip": "Dolores similique doloremque dolor molestiae harum ullam ut.",
+    "Deleted": false,
+    "Rank": 318,
+    "Type": "alias",
     "ChildItems": [
       {
-        "Id": 936,
-        "Name": "Ernser-Schmitt",
-        "ToolTip": "Dolores est maxime voluptatibus aut et aspernatur.",
+        "Id": 158,
+        "Name": "Boyer, Hagenes and McKenzie",
+        "ToolTip": "Omnis at minus omnis et unde.",
         "Deleted": true,
-        "Rank": 378,
-        "Type": "ratione",
+        "Rank": 399,
+        "Type": "cum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quisquam",
-        "ColorBlock": 153,
-        "ExtraInfo": "explicabo",
-        "StyleHint": "odio",
-        "FullName": "Dr. Delmer Jeffry Klein V",
+        "IconHint": "quia",
+        "ColorBlock": 48,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "quaerat",
+        "FullName": "Ludwig Kavon Heathcote DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 389
+            "FieldType": "System.String",
+            "FieldLength": 335
           }
         }
       }
     ],
-    "IconHint": "sit",
-    "ColorBlock": 443,
-    "ExtraInfo": "corporis",
-    "StyleHint": "dolor",
-    "FullName": "Kelley Kreiger",
+    "IconHint": "omnis",
+    "ColorBlock": 158,
+    "ExtraInfo": "nam",
+    "StyleHint": "alias",
+    "FullName": "Nat Hyatt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldType": "System.String",
+        "FieldLength": 547
       }
     }
   }

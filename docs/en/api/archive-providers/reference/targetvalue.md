@@ -3,9 +3,9 @@ uid: TargetValue
 title: TargetValue
 description: 
 keywords: TargetValue archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "TargetValue"
@@ -405,7 +405,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/TargetValue?$select=contact/contactNoMail,contact/restrictionPostalAddress/city,contact/contactSupportAssociate/usergroupId,contact/contactSupportPerson/personExtra/x_person_boolean,contact/contactExtra/x_contact_dropdown
+GET /api/v1/archive/TargetValue?$select=contact/updatedByFullName,contact/restrictionAddress/city,contact/contactAssociate/locationAddress,contact/contactSupportPerson/birthdate,contact/contactExtra/x_contact_hidden_integer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

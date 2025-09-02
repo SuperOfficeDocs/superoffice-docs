@@ -2,6 +2,7 @@
 title: GET Role/{roleType}/FunctionRight
 uid: v1RoleEntity_GetAllFunctionalRights
 generated: true
+content_type: reference
 ---
 
 # GET Role/{roleType}/FunctionRight
@@ -78,7 +79,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 136,
-    "Name": "Gerhold-Goodwin",
-    "ToolTip": "Sapiente maxime dolorem ullam.",
+    "Id": 831,
+    "Name": "Gerhold-Collins",
+    "ToolTip": "Voluptatem consequatur ea doloremque.",
     "Deleted": true,
-    "Rank": 857,
-    "Type": "est",
-    "ColorBlock": 549,
-    "IconHint": "ea",
+    "Rank": 830,
+    "Type": "tempora",
+    "ColorBlock": 502,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2019-04-07T03:45:28.5453063+02:00",
+    "LastChanged": "2011-11-07T03:47:00.2224384+01:00",
     "ChildItems": [
       {
-        "Id": 317,
-        "Name": "Reinger-Hirthe",
-        "ToolTip": "Quis quo inventore perferendis eum consequatur fuga.",
+        "Id": 554,
+        "Name": "Considine Group",
+        "ToolTip": "Necessitatibus itaque quam explicabo est.",
         "Deleted": true,
-        "Rank": 1002,
-        "Type": "maiores",
-        "ColorBlock": 16,
-        "IconHint": "praesentium",
+        "Rank": 452,
+        "Type": "iusto",
+        "ColorBlock": 743,
+        "IconHint": "delectus",
         "Selected": false,
-        "LastChanged": "2008-11-12T03:45:28.5453063+01:00",
+        "LastChanged": "2008-04-29T03:47:00.2224384+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "vel",
+        "ExtraInfo": "harum",
+        "StyleHint": "saepe",
         "Hidden": true,
-        "FullName": "Miss Lucy Mustafa Kris",
+        "FullName": "Mrs. Cameron Von",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 470
+            "FieldType": "System.String",
+            "FieldLength": 844
           }
         }
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "quo",
+    "ExtraInfo": "sit",
+    "StyleHint": "neque",
     "Hidden": false,
-    "FullName": "Adah Schinner",
+    "FullName": "Isaac Heaney",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 426
+        "FieldLength": 767
       }
     }
   }

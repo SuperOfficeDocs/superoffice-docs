@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.TryConnectActor SOAP
 generated: true
 uid: Services88-ErpSync-TryConnectActor
+content_type: reference
 ---
 
 # Services88 ErpSync TryConnectActor

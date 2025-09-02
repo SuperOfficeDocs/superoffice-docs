@@ -17,6 +17,8 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
+  summary: Background service to process UI event tracking and dispatch
+  example: []
   syntax:
     content: 'public class TrackEventSender : AsyncQueueProcessor<IAsyncQueue<TrackEvent>, TrackEvent>, IDisposable, IHostedService'
     content.vb: Public Class TrackEventSender Inherits AsyncQueueProcessor(Of IAsyncQueue(Of TrackEvent), TrackEvent) Implements IDisposable, IHostedService
@@ -30,6 +32,7 @@ items:
   inheritedMembers:
   - SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}._queue
   - SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}.ExecuteAsync(System.Threading.CancellationToken)
+  - SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Util.TrackEvent},System.Threading.CancellationToken)
   - SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Util.TrackEvent},System.Threading.CancellationToken)
   - Microsoft.Extensions.Hosting.BackgroundService.ExecuteAsync(System.Threading.CancellationToken)
   - Microsoft.Extensions.Hosting.BackgroundService.StartAsync(System.Threading.CancellationToken)
@@ -261,6 +264,61 @@ references:
     name: ExecuteAsync
     isExternal: true
   - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Util.TrackEvent},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Util.TrackEvent},System.Threading.CancellationToken)
+  parent: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}
+  definition: SuperOffice.Threading.AsyncQueueProcessor`2.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+  href: SuperOffice.Util.TrackEvent.html
+  name: OuterProcessItemAsync(IAsyncQueueProcessItemContext<TrackEvent>, CancellationToken)
+  nameWithType: AsyncQueueProcessor<IAsyncQueue<TrackEvent>, TrackEvent>.OuterProcessItemAsync(IAsyncQueueProcessItemContext<TrackEvent>, CancellationToken)
+  fullName: SuperOffice.Threading.AsyncQueueProcessor<SuperOffice.Threading.IAsyncQueue<SuperOffice.Util.TrackEvent>, SuperOffice.Util.TrackEvent>.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext<SuperOffice.Util.TrackEvent>, System.Threading.CancellationToken)
+  nameWithType.vb: AsyncQueueProcessor(Of IAsyncQueue(Of TrackEvent), TrackEvent).OuterProcessItemAsync(IAsyncQueueProcessItemContext(Of TrackEvent), CancellationToken)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of SuperOffice.Threading.IAsyncQueue(Of SuperOffice.Util.TrackEvent), SuperOffice.Util.TrackEvent).OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext(Of SuperOffice.Util.TrackEvent), System.Threading.CancellationToken)
+  name.vb: OuterProcessItemAsync(IAsyncQueueProcessItemContext(Of TrackEvent), CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Util.TrackEvent},System.Threading.CancellationToken)
+    name: OuterProcessItemAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: <
+  - uid: SuperOffice.Util.TrackEvent
+    name: TrackEvent
+    isExternal: true
+    href: SuperOffice.Util.TrackEvent.html
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.Util.TrackEvent},SuperOffice.Util.TrackEvent}.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Util.TrackEvent},System.Threading.CancellationToken)
+    name: OuterProcessItemAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.TrackEvent
+    name: TrackEvent
+    isExternal: true
+    href: SuperOffice.Util.TrackEvent.html
+  - name: )
+  - name: ','
+  - name: " "
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     isExternal: true
@@ -874,7 +932,7 @@ references:
 - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ExecuteAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.Threading.AsyncQueueProcessor`2.ExecuteAsync(System.Threading.CancellationToken)
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  href: SuperOffice.Threading.AsyncQueueProcessor-2.html#SuperOffice_Threading_AsyncQueueProcessor_2_ExecuteAsync_System_Threading_CancellationToken_
   name: ExecuteAsync(CancellationToken)
   nameWithType: AsyncQueueProcessor<TQueue, TItem>.ExecuteAsync(CancellationToken)
   fullName: SuperOffice.Threading.AsyncQueueProcessor<TQueue, TItem>.ExecuteAsync(System.Threading.CancellationToken)
@@ -884,6 +942,7 @@ references:
   - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ExecuteAsync(System.Threading.CancellationToken)
     name: ExecuteAsync
     isExternal: true
+    href: SuperOffice.Threading.AsyncQueueProcessor-2.html#SuperOffice_Threading_AsyncQueueProcessor_2_ExecuteAsync_System_Threading_CancellationToken_
   - name: (
   - uid: System.Threading.CancellationToken
     name: CancellationToken
@@ -894,25 +953,26 @@ references:
   - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ExecuteAsync(System.Threading.CancellationToken)
     name: ExecuteAsync
     isExternal: true
+    href: SuperOffice.Threading.AsyncQueueProcessor-2.html#SuperOffice_Threading_AsyncQueueProcessor_2_ExecuteAsync_System_Threading_CancellationToken_
   - name: (
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-- uid: SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
-  commentId: M:SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+- uid: SuperOffice.Threading.AsyncQueueProcessor`2.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsyncQueueProcessor`2.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
   isExternal: true
   href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: ProcessItemAsync(IAsyncQueueProcessItemContext<TItem>, CancellationToken)
-  nameWithType: AsyncQueueProcessor<TQueue, TItem>.ProcessItemAsync(IAsyncQueueProcessItemContext<TItem>, CancellationToken)
-  fullName: SuperOffice.Threading.AsyncQueueProcessor<TQueue, TItem>.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext<TItem>, System.Threading.CancellationToken)
-  nameWithType.vb: AsyncQueueProcessor(Of TQueue, TItem).ProcessItemAsync(IAsyncQueueProcessItemContext(Of TItem), CancellationToken)
-  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of TQueue, TItem).ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext(Of TItem), System.Threading.CancellationToken)
-  name.vb: ProcessItemAsync(IAsyncQueueProcessItemContext(Of TItem), CancellationToken)
+  name: OuterProcessItemAsync(IAsyncQueueProcessItemContext<TItem>, CancellationToken)
+  nameWithType: AsyncQueueProcessor<TQueue, TItem>.OuterProcessItemAsync(IAsyncQueueProcessItemContext<TItem>, CancellationToken)
+  fullName: SuperOffice.Threading.AsyncQueueProcessor<TQueue, TItem>.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext<TItem>, System.Threading.CancellationToken)
+  nameWithType.vb: AsyncQueueProcessor(Of TQueue, TItem).OuterProcessItemAsync(IAsyncQueueProcessItemContext(Of TItem), CancellationToken)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of TQueue, TItem).OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext(Of TItem), System.Threading.CancellationToken)
+  name.vb: OuterProcessItemAsync(IAsyncQueueProcessItemContext(Of TItem), CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
-    name: ProcessItemAsync
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+    name: OuterProcessItemAsync
     isExternal: true
   - name: (
   - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
@@ -929,13 +989,65 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
-    name: ProcessItemAsync
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+    name: OuterProcessItemAsync
     isExternal: true
   - name: (
   - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
     name: IAsyncQueueProcessItemContext
     isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+  isExternal: true
+  href: SuperOffice.Threading.AsyncQueueProcessor-2.html#SuperOffice_Threading_AsyncQueueProcessor_2_ProcessItemAsync_SuperOffice_Threading_IAsyncQueueProcessItemContext__1__System_Threading_CancellationToken_
+  name: ProcessItemAsync(IAsyncQueueProcessItemContext<TItem>, CancellationToken)
+  nameWithType: AsyncQueueProcessor<TQueue, TItem>.ProcessItemAsync(IAsyncQueueProcessItemContext<TItem>, CancellationToken)
+  fullName: SuperOffice.Threading.AsyncQueueProcessor<TQueue, TItem>.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext<TItem>, System.Threading.CancellationToken)
+  nameWithType.vb: AsyncQueueProcessor(Of TQueue, TItem).ProcessItemAsync(IAsyncQueueProcessItemContext(Of TItem), CancellationToken)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of TQueue, TItem).ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext(Of TItem), System.Threading.CancellationToken)
+  name.vb: ProcessItemAsync(IAsyncQueueProcessItemContext(Of TItem), CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+    name: ProcessItemAsync
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueProcessor-2.html#SuperOffice_Threading_AsyncQueueProcessor_2_ProcessItemAsync_SuperOffice_Threading_IAsyncQueueProcessItemContext__1__System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueProcessItemContext-1.html
+  - name: <
+  - name: TItem
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+    name: ProcessItemAsync
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueProcessor-2.html#SuperOffice_Threading_AsyncQueueProcessor_2_ProcessItemAsync_SuperOffice_Threading_IAsyncQueueProcessItemContext__1__System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueProcessItemContext-1.html
   - name: (
   - name: Of
   - name: " "

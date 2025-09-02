@@ -32,6 +32,7 @@ items:
   - SuperOffice.CRM.Services.ContactEntity.ExtraFields
   - SuperOffice.CRM.Services.ContactEntity.Faxes
   - SuperOffice.CRM.Services.ContactEntity.GroupId
+  - SuperOffice.CRM.Services.ContactEntity.InitialUtmParameters
   - SuperOffice.CRM.Services.ContactEntity.Interests
   - SuperOffice.CRM.Services.ContactEntity.Kananame
   - SuperOffice.CRM.Services.ContactEntity.Name
@@ -110,11 +111,11 @@ items:
     var tickets = archive.GetArchiveListByColumns2("Ticket", "...", null, "contactId eq 123", null, 0, 100 );</code></pre>
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")]
 
       public class ContactEntity : Carrier, IUdefFieldCarrier, IExtraFieldCarrier, IEntityCarrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")>
 
       Public Class ContactEntity Inherits Carrier Implements IUdefFieldCarrier, IExtraFieldCarrier, IEntityCarrier
   seealso:
@@ -133,7 +134,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.2.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.3.0.0
 - uid: SuperOffice.CRM.Services.ContactEntity.#ctor
   commentId: M:SuperOffice.CRM.Services.ContactEntity.#ctor
   id: '#ctor'
@@ -1589,6 +1590,39 @@ items:
   - type: System.Runtime.Serialization.DataMemberAttribute
     ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
     arguments: []
+- uid: SuperOffice.CRM.Services.ContactEntity.InitialUtmParameters
+  commentId: P:SuperOffice.CRM.Services.ContactEntity.InitialUtmParameters
+  id: InitialUtmParameters
+  parent: SuperOffice.CRM.Services.ContactEntity
+  langs:
+  - csharp
+  - vb
+  name: InitialUtmParameters
+  nameWithType: ContactEntity.InitialUtmParameters
+  fullName: SuperOffice.CRM.Services.ContactEntity.InitialUtmParameters
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Initial utm parameters when creating first person, readonly field
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual InitalUtmParameters InitialUtmParameters { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.InitalUtmParameters
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property InitialUtmParameters As InitalUtmParameters
+  overload: SuperOffice.CRM.Services.ContactEntity.InitialUtmParameters*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 - uid: SuperOffice.CRM.Services.ContactEntity.UserDefinedFields
   commentId: P:SuperOffice.CRM.Services.ContactEntity.UserDefinedFields
   id: UserDefinedFields
@@ -2372,6 +2406,21 @@ references:
   name: Domains
   nameWithType: ContactEntity.Domains
   fullName: SuperOffice.CRM.Services.ContactEntity.Domains
+- uid: SuperOffice.CRM.Services.ContactEntity.InitialUtmParameters*
+  commentId: Overload:SuperOffice.CRM.Services.ContactEntity.InitialUtmParameters
+  isExternal: true
+  href: SuperOffice.CRM.Services.ContactEntity.html#SuperOffice_CRM_Services_ContactEntity_InitialUtmParameters
+  name: InitialUtmParameters
+  nameWithType: ContactEntity.InitialUtmParameters
+  fullName: SuperOffice.CRM.Services.ContactEntity.InitialUtmParameters
+- uid: SuperOffice.CRM.Services.InitalUtmParameters
+  commentId: T:SuperOffice.CRM.Services.InitalUtmParameters
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.InitalUtmParameters.html
+  name: InitalUtmParameters
+  nameWithType: InitalUtmParameters
+  fullName: SuperOffice.CRM.Services.InitalUtmParameters
 - uid: SuperOffice.CRM.Services.ContactEntity.CustomFields
   commentId: P:SuperOffice.CRM.Services.ContactEntity.CustomFields
   isExternal: true

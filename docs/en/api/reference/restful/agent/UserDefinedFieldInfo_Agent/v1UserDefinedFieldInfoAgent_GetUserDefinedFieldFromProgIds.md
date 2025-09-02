@@ -2,6 +2,7 @@
 title: POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
 uid: v1UserDefinedFieldInfoAgent_GetUserDefinedFieldFromProgIds
 generated: true
+content_type: reference
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgIds
@@ -114,8 +115,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProgIds": [
-    "veritatis",
-    "et"
+    "nihil",
+    "sunt"
   ],
   "OwnerType": "Appointment"
 }
@@ -129,46 +130,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 3,
-    "ColumnId": 48,
-    "FieldDefault": "delectus",
-    "FieldHeight": 28,
-    "FieldLabel": "soluta",
-    "FieldLeft": 95,
-    "FieldTop": 541,
+    "UDefFieldId": 547,
+    "ColumnId": 973,
+    "FieldDefault": "doloremque",
+    "FieldHeight": 477,
+    "FieldLabel": "optio",
+    "FieldLeft": 259,
+    "FieldTop": 133,
     "FieldType": "Checkbox",
-    "FieldWidth": 573,
-    "FormatMask": "maiores",
+    "FieldWidth": 947,
+    "FormatMask": "in",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 442,
-    "LabelLeft": 228,
-    "LabelTop": 305,
-    "LabelWidth": 711,
-    "LastVersionId": 400,
-    "ListTableId": 570,
-    "IsMandatory": true,
+    "LabelHeight": 198,
+    "LabelLeft": 778,
+    "LabelTop": 845,
+    "LabelWidth": 670,
+    "LastVersionId": 615,
+    "ListTableId": 366,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 811,
-    "ProgId": "possimus",
-    "IsReadOnly": false,
-    "ShortLabel": "maxime",
-    "TabOrder": 819,
-    "TextLength": 497,
-    "Tooltip": "hic",
-    "UdefIdentity": 829,
-    "UDListDefinitionId": 45,
+    "Page1LineNo": 835,
+    "ProgId": "harum",
+    "IsReadOnly": true,
+    "ShortLabel": "culpa",
+    "TabOrder": 77,
+    "TextLength": 242,
+    "Tooltip": "impedit",
+    "UdefIdentity": 1002,
+    "UDListDefinitionId": 698,
     "Justification": "Center",
-    "Version": 268,
-    "TemplateVariableName": "Pacocha-Rolfson",
+    "Version": 454,
+    "TemplateVariableName": "Schaefer-Yost",
     "HasBeenPublished": false,
-    "MdoListName": "Waters, Schmidt and Mante",
+    "MdoListName": "Glover Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 694
+        "FieldType": "System.String",
+        "FieldLength": 437
       }
     }
   }

@@ -3,9 +3,9 @@ uid: dashboardtheme
 title: dashboardtheme
 keywords: mdoprovider mdo provider dashboardtheme
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "dashboardtheme" MDO List

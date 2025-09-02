@@ -3,9 +3,9 @@ uid: project
 title: project
 keywords: mdoprovider mdo provider project
 description: Provider for selecting a project.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "project" MDO List

@@ -2,6 +2,7 @@
 title: Services88.FreeTextAgent SOAP
 uid: Services88-FreeText-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 FreeText SOAP

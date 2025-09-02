@@ -2,6 +2,7 @@
 title: GET List/TicketType/Headings
 uid: v1TicketTypeList_GetTicketTypeEntityHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/TicketType/Headings
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 581,
-    "Name": "Hermann, Hills and Schiller",
-    "Tooltip": "et",
+    "HeadingId": 151,
+    "Name": "Kihn-Satterfield",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 24,
-    "UdListDefinitionId": 460,
+    "Rank": 387,
+    "UdListDefinitionId": 1000,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 212
+        "FieldLength": 198
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/Find/SaveRestrictionsWithContext
 uid: v1FindAgent_SaveRestrictionsWithContext
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/SaveRestrictionsWithContext
@@ -68,24 +69,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "consequatur",
-  "ProviderName": "McDermott, Predovic and Bauch",
-  "StorageKey": "qui",
+  "StorageType": "doloribus",
+  "ProviderName": "Morissette, Lindgren and Daugherty",
+  "StorageKey": "autem",
   "Restrictions": [
     {
-      "Name": "Schamberger-Wisozk",
-      "Operator": "commodi",
+      "Name": "Robel, Toy and Rempel",
+      "Operator": "veritatis",
       "Values": [
-        "aliquam",
-        "voluptates"
+        "dolor",
+        "in"
       ],
       "DisplayValues": [
-        "sit",
-        "dicta"
+        "ipsam",
+        "quidem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,12 +94,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 212,
+      "InterParenthesis": 519,
       "InterOperator": "And",
-      "UniqueHash": 828
+      "UniqueHash": 357
     }
   ],
-  "Context": "eum"
+  "Context": "beatae"
 }
 ```
 

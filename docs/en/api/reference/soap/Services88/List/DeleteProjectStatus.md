@@ -2,6 +2,7 @@
 title: Services88.ListAgent.DeleteProjectStatus SOAP
 generated: true
 uid: Services88-List-DeleteProjectStatus
+content_type: reference
 ---
 
 # Services88 List DeleteProjectStatus

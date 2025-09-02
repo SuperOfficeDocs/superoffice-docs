@@ -2,6 +2,7 @@
 title: DEL List/TicketCategory/Headings
 uid: v1TicketCategoryList_DeleteTicketCategoryEntityHeadings
 generated: true
+content_type: reference
 ---
 
 # DEL List/TicketCategory/Headings

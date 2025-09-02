@@ -3,9 +3,9 @@ uid: document
 title: document
 keywords: mdoprovider mdo provider document
 description: MDO list provider for documents.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "document" MDO List

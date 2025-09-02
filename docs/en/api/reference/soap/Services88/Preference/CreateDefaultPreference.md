@@ -2,6 +2,7 @@
 title: Services88.PreferenceAgent.CreateDefaultPreference SOAP
 generated: true
 uid: Services88-Preference-CreateDefaultPreference
+content_type: reference
 ---
 
 # Services88 Preference CreateDefaultPreference

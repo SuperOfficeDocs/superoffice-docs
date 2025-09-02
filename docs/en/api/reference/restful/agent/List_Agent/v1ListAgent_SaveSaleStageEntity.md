@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveSaleStageEntity
 uid: v1ListAgent_SaveSaleStageEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveSaleStageEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/List/SaveSaleStageEntity
 ```
 
-Updates the existing SaleStageEntity or creates a new SaleStageEntity if the id parameter is empty
+Updates the existing SaleStageEntity or creates a new SaleStageEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing SaleStageEntity or creates a new SaleStageEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: saleStageEntity 
 
-The SaleStageEntity to be saved. 
+The SaleStageEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,12 +78,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 916,
-  "Value": "eos",
-  "Tooltip": "inventore",
-  "Probability": 130,
+  "SaleStageId": 932,
+  "Value": "sunt",
+  "Tooltip": "qui",
+  "Probability": 996,
   "Deleted": false,
-  "Rank": 106
+  "Rank": 90
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 245,
-  "Value": "officia",
-  "Tooltip": "et",
-  "Probability": 150,
+  "SaleStageId": 798,
+  "Value": "est",
+  "Tooltip": "aspernatur",
+  "Probability": 702,
   "Deleted": true,
-  "Rank": 53,
+  "Rank": 243,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 6
+      "FieldLength": 282
     }
   }
 }

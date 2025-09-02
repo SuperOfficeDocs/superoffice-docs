@@ -2,10 +2,10 @@
 uid: enum-ticketcategoryflags
 title: Enum values for TicketCategoryFlags
 description: Lists the enum values for TicketCategoryFlags.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # TicketCategoryFlags Enum

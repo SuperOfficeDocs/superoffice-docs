@@ -2,6 +2,7 @@
 title: POST Agents/Workflow/CreateDefaultWorkflowEventResult
 uid: v1WorkflowAgent_CreateDefaultWorkflowEventResult
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Workflow/CreateDefaultWorkflowEventResult
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowEventResult
 ```
 
-Set default values into a new WorkflowEventResult.
+Loading default values into a new WorkflowEventResult.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -58,7 +57,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowEventResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,13 +68,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EventType": "AddedMessage",
-  "Attributes": "doloribus",
+  "Attributes": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 599
+      "FieldType": "System.String",
+      "FieldLength": 659
     }
   }
 }

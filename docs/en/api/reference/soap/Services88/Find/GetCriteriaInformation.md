@@ -2,6 +2,7 @@
 title: Services88.FindAgent.GetCriteriaInformation SOAP
 generated: true
 uid: Services88-Find-GetCriteriaInformation
+content_type: reference
 ---
 
 # Services88 Find GetCriteriaInformation

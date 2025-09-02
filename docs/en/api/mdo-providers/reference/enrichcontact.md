@@ -3,9 +3,9 @@ uid: enrichcontact
 title: enrichcontact
 keywords: mdoprovider mdo provider enrichcontact
 description: List of possible contacts to import from outside sources.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "enrichcontact" MDO List

@@ -9,6 +9,7 @@ items:
   - SuperOffice.Data.NotifyType.ChatAlert
   - SuperOffice.Data.NotifyType.ChatMessageAlert
   - SuperOffice.Data.NotifyType.ChatSessionTransfered
+  - SuperOffice.Data.NotifyType.ContactAssignment
   - SuperOffice.Data.NotifyType.Custom
   - SuperOffice.Data.NotifyType.Hotlist
   - SuperOffice.Data.NotifyType.NewTicket
@@ -271,6 +272,26 @@ items:
     content: Custom = 1024
     return:
       type: SuperOffice.Data.NotifyType
+- uid: SuperOffice.Data.NotifyType.ContactAssignment
+  commentId: F:SuperOffice.Data.NotifyType.ContactAssignment
+  id: ContactAssignment
+  parent: SuperOffice.Data.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: ContactAssignment
+  nameWithType: NotifyType.ContactAssignment
+  fullName: SuperOffice.Data.NotifyType.ContactAssignment
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '2048: Contact assignment'
+  example: []
+  syntax:
+    content: ContactAssignment = 2048
+    return:
+      type: SuperOffice.Data.NotifyType
 - uid: SuperOffice.Data.NotifyType.NotifyAll
   commentId: F:SuperOffice.Data.NotifyType.NotifyAll
   id: NotifyAll
@@ -285,13 +306,13 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2047: Notify all'
+  summary: '4095: Notify all'
   example: []
   syntax:
-    content: NotifyAll = NewTicket | NewTicketMessage | TicketEscalated | TicketActivated | ChatAlert | ActiveTickets | TicketTakeOver | ChatMessageAlert | ChatSessionTransfered | Hotlist | Custom
+    content: NotifyAll = NewTicket | NewTicketMessage | TicketEscalated | TicketActivated | ChatAlert | ActiveTickets | TicketTakeOver | ChatMessageAlert | ChatSessionTransfered | Hotlist | Custom | ContactAssignment
     return:
       type: SuperOffice.Data.NotifyType
-    content.vb: NotifyAll = NewTicket Or NewTicketMessage Or TicketEscalated Or TicketActivated Or ChatAlert Or ActiveTickets Or TicketTakeOver Or ChatMessageAlert Or ChatSessionTransfered Or Hotlist Or Custom
+    content.vb: NotifyAll = NewTicket Or NewTicketMessage Or TicketEscalated Or TicketActivated Or ChatAlert Or ActiveTickets Or TicketTakeOver Or ChatMessageAlert Or ChatSessionTransfered Or Hotlist Or Custom Or ContactAssignment
 references:
 - uid: SuperOffice.Data
   commentId: N:SuperOffice.Data

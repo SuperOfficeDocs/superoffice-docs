@@ -2,6 +2,7 @@
 title: POST Agents/CRMScript/ExecuteScriptAsEvent
 uid: v1CRMScriptAgent_ExecuteScriptAsEvent
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CRMScript/ExecuteScriptAsEvent
@@ -92,11 +93,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 649,
+  "CRMScriptId": 793,
   "EventData": null
 }
 ```
@@ -110,34 +111,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "unde",
-    "InputValues2": "dolores"
+    "InputValues1": "alias",
+    "InputValues2": "odit"
   },
-  "BlockExecution": false,
-  "NavigateTo": "quasi",
-  "Message": "accusantium",
-  "ShowDialog": "voluptas",
+  "BlockExecution": true,
+  "NavigateTo": "provident",
+  "Message": "laboriosam",
+  "ShowDialog": "at",
   "OutputValues": {
-    "OutputValues1": "ratione",
-    "OutputValues2": "illo"
+    "OutputValues1": "velit",
+    "OutputValues2": "omnis"
   },
   "StateValues": {
-    "StateValues1": "ipsa",
-    "StateValues2": "voluptas"
+    "StateValues1": "veniam",
+    "StateValues2": "autem"
   },
-  "Exception": "iusto",
+  "Exception": "autem",
   "ParserValues": {
-    "ParserValues1": "quia",
-    "ParserValues2": "ut"
+    "ParserValues1": "quibusdam",
+    "ParserValues2": "nemo"
   },
   "CgiVariables": {
-    "CgiVariables1": "maiores",
-    "CgiVariables2": "et"
+    "CgiVariables1": "voluptatem",
+    "CgiVariables2": "placeat"
   },
-  "CgiContent": "nihil",
+  "CgiContent": "consequatur",
   "Headers": {
-    "Headers1": "quam",
-    "Headers2": "minus"
+    "Headers1": "qui",
+    "Headers2": "velit"
   },
   "TraceExecution": false,
   "TableRight": null,
@@ -145,7 +146,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1001
+      "FieldLength": 480
     }
   }
 }

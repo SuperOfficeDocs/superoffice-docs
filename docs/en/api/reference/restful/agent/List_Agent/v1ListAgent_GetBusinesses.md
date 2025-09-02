@@ -2,6 +2,7 @@
 title: POST Agents/List/GetBusinesses
 uid: v1ListAgent_GetBusinesses
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetBusinesses
@@ -78,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 424,
-    "Value": "non",
-    "Tooltip": "magnam",
+    "Id": 891,
+    "Value": "ea",
+    "Tooltip": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 214
+        "FieldLength": 751
       }
     }
   },
   {
-    "Id": 424,
-    "Value": "non",
-    "Tooltip": "magnam",
+    "Id": 891,
+    "Value": "ea",
+    "Tooltip": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 214
+        "FieldLength": 751
       }
     }
   }

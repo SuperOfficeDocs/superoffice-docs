@@ -3,9 +3,9 @@ uid: emailfromtype
 title: emailfromtype
 keywords: mdoprovider mdo provider emailfromtype
 description: MDO provider for the EmailFromType enum
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "emailfromtype" MDO List

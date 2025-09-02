@@ -2,6 +2,7 @@
 title: Services88.DiagnosticsAgent SOAP
 uid: Services88-Diagnostics-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Diagnostics SOAP

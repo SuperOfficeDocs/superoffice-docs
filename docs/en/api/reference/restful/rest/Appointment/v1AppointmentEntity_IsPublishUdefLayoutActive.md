@@ -2,6 +2,7 @@
 title: GET Appointment/UdefLayout/Publish
 uid: v1AppointmentEntity_IsPublishUdefLayoutActive
 generated: true
+content_type: reference
 ---
 
 # GET Appointment/UdefLayout/Publish
@@ -61,5 +62,5 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

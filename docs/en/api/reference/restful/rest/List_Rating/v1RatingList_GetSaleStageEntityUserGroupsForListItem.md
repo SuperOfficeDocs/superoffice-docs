@@ -2,6 +2,7 @@
 title: GET List/Rating/Items/{id}/UserGroups
 uid: v1RatingList_GetSaleStageEntityUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Rating/Items/{id}/UserGroups
@@ -75,7 +76,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 200,
-    "Name": "Lemke-Jacobi",
-    "ToolTip": "Atque explicabo corrupti.",
-    "Deleted": false,
-    "Rank": 411,
-    "Type": "qui",
-    "ColorBlock": 124,
-    "IconHint": "nesciunt",
-    "Selected": false,
-    "LastChanged": "2017-01-19T03:45:29.1859346+01:00",
+    "Id": 448,
+    "Name": "Kshlerin-Kerluke",
+    "ToolTip": "Accusantium fugiat expedita aut.",
+    "Deleted": true,
+    "Rank": 843,
+    "Type": "sint",
+    "ColorBlock": 757,
+    "IconHint": "magni",
+    "Selected": true,
+    "LastChanged": "2014-02-03T03:47:00.7849183+01:00",
     "ChildItems": [
       {
-        "Id": 81,
-        "Name": "Morissette-Stracke",
-        "ToolTip": "Dolores veniam ut quaerat non quaerat quod.",
+        "Id": 12,
+        "Name": "Schneider, Durgan and Russel",
+        "ToolTip": "Voluptatibus molestiae corrupti deserunt.",
         "Deleted": false,
-        "Rank": 520,
-        "Type": "possimus",
-        "ColorBlock": 544,
-        "IconHint": "voluptates",
-        "Selected": true,
-        "LastChanged": "2007-10-30T03:45:29.1859346+01:00",
+        "Rank": 766,
+        "Type": "et",
+        "ColorBlock": 403,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2020-05-23T03:47:00.7849183+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Owen McGlynn",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "quasi",
+        "Hidden": false,
+        "FullName": "Mrs. Estevan Jenkins II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 851
+            "FieldLength": 189
           }
         }
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "quis",
-    "Hidden": true,
-    "FullName": "Sincere Murray",
+    "ExtraInfo": "qui",
+    "StyleHint": "ratione",
+    "Hidden": false,
+    "FullName": "Roma Wyman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 629
+        "FieldLength": 689
       }
     }
   }

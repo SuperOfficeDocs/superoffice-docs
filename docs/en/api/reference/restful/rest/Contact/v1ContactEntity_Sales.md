@@ -2,6 +2,7 @@
 title: GET Contact/{id}/Sales
 uid: v1ContactEntity_Sales
 generated: true
+content_type: reference
 ---
 
 # GET Contact/{id}/Sales
@@ -74,14 +75,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Contact/{id}/Sales?$select=name,department,category/id
 GET /api/v1/Contact/{id}/Sales?$filter=name begins 'S'
 GET /api/v1/Contact/{id}/Sales?$orderBy=name asc
-GET /api/v1/Contact/{id}/Sales?$entities=sunt
-GET /api/v1/Contact/{id}/Sales?$top=733
-GET /api/v1/Contact/{id}/Sales?$skip=674
+GET /api/v1/Contact/{id}/Sales?$entities=ut
+GET /api/v1/Contact/{id}/Sales?$top=444
+GET /api/v1/Contact/{id}/Sales?$skip=764
 GET /api/v1/Contact/{id}/Sales?$mode=Full
 GET /api/v1/Contact/{id}/Sales?$options=GrandTotal=true
-GET /api/v1/Contact/{id}/Sales?$context=ullam
+GET /api/v1/Contact/{id}/Sales?$context=quis
 GET /api/v1/Contact/{id}/Sales?$format=JSON
-GET /api/v1/Contact/{id}/Sales?$jsonSafe=True
+GET /api/v1/Contact/{id}/Sales?$jsonSafe=False
 GET /api/v1/Contact/{id}/Sales?$output=Display
 ```
 
@@ -134,19 +135,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "dicta",
+  "odata.nextLink": "provident",
   "value": [
     {
-      "PrimaryKey": 9282,
-      "EntityName": "person",
-      "personId": 9282,
-      "fullName": "Amelia Treutel"
+      "PrimaryKey": 4619,
+      "EntityName": "sale",
+      "saleId": 4619,
+      "contactId": 8895,
+      "name": "Marks-Roberts"
     },
     {
-      "PrimaryKey": 1228,
-      "EntityName": "person",
-      "personId": 1228,
-      "fullName": "Willie Friesen"
+      "PrimaryKey": 6764,
+      "EntityName": "sale",
+      "saleId": 6764,
+      "contactId": 8478,
+      "name": "Fadel Inc and Sons"
     }
   ]
 }

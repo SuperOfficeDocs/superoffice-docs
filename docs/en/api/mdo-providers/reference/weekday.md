@@ -3,9 +3,9 @@ uid: weekday
 title: weekday
 keywords: mdoprovider mdo provider weekday
 description: MDO provider for the hard-coded list of week days.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "weekday" MDO List

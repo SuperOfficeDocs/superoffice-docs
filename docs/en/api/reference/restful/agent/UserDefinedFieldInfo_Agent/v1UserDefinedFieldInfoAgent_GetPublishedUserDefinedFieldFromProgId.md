@@ -2,6 +2,7 @@
 title: POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 uid: v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldFromProgId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
@@ -109,11 +110,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "voluptatem",
+  "ProgId": "libero",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 405,
-  "ColumnId": 354,
-  "FieldDefault": "earum",
-  "FieldHeight": 399,
-  "FieldLabel": "corrupti",
-  "FieldLeft": 881,
-  "FieldTop": 425,
+  "UDefFieldId": 161,
+  "ColumnId": 692,
+  "FieldDefault": "officia",
+  "FieldHeight": 162,
+  "FieldLabel": "voluptas",
+  "FieldLeft": 335,
+  "FieldTop": 821,
   "FieldType": "Checkbox",
-  "FieldWidth": 85,
-  "FormatMask": "expedita",
+  "FieldWidth": 575,
+  "FormatMask": "minus",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 85,
-  "LabelLeft": 658,
-  "LabelTop": 245,
-  "LabelWidth": 266,
-  "LastVersionId": 749,
-  "ListTableId": 899,
-  "IsMandatory": false,
+  "IsIndexed": false,
+  "LabelHeight": 953,
+  "LabelLeft": 966,
+  "LabelTop": 994,
+  "LabelWidth": 729,
+  "LastVersionId": 434,
+  "ListTableId": 297,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 810,
-  "ProgId": "et",
-  "IsReadOnly": false,
-  "ShortLabel": "cupiditate",
-  "TabOrder": 647,
-  "TextLength": 885,
-  "Tooltip": "exercitationem",
-  "UdefIdentity": 986,
-  "UDListDefinitionId": 590,
+  "Page1LineNo": 509,
+  "ProgId": "tenetur",
+  "IsReadOnly": true,
+  "ShortLabel": "dicta",
+  "TabOrder": 56,
+  "TextLength": 463,
+  "Tooltip": "voluptas",
+  "UdefIdentity": 534,
+  "UDListDefinitionId": 691,
   "Justification": "Center",
-  "Version": 254,
-  "TemplateVariableName": "Bernier-Reynolds",
-  "HasBeenPublished": false,
-  "MdoListName": "Waelchi, Douglas and Robel",
+  "Version": 64,
+  "TemplateVariableName": "Fisher-Beahan",
+  "HasBeenPublished": true,
+  "MdoListName": "Zboncak Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldLength": 324
     }
   }
 }

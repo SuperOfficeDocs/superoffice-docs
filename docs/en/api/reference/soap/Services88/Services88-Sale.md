@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-Sale
 title: Services88.SaleAgent WSDL
+content_type: reference
 ---
 
 # Services88.SaleAgent WSDL
@@ -250,6 +251,7 @@ title: Services88.SaleAgent WSDL
               <xs:element minOccurs="0" name="CreatedByAssociateId" type="xs:int" />
               <xs:element minOccurs="0" name="CautionWarning" type="q21:AppointmentCautionWarning" />
               <xs:element minOccurs="0" name="OwnedExternally" type="q21:AppointmentExternalOwner" />
+              <xs:element minOccurs="0" name="MotherAssociateId" type="xs:int" />
               <xs:element minOccurs="0" name="JoinVideomeetUrl" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="PreferredTZLocation" type="xs:int" />
               <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
@@ -479,6 +481,8 @@ title: Services88.SaleAgent WSDL
               <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
               <xs:element minOccurs="0" name="EjUserId" type="xs:int" />
               <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="q33:StringDictionary" />
+              <xs:element minOccurs="0" name="CustomFields" nillable="true" type="q33:StringDictionary" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -495,9 +499,27 @@ title: Services88.SaleAgent WSDL
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="UserType" nillable="true" type="q35:UserType" xmlns:q35="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:complexType name="StringDictionary">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="StringKeyValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" nillable="true" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="StringDictionary" nillable="true" type="q36:StringDictionary" xmlns:q36="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Contact">
         <xs:complexContent mixed="false">
-          <xs:extension base="q36:Carrier" xmlns:q36="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q37:Carrier" xmlns:q37="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="ContactId" type="xs:int" />
               <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
@@ -516,7 +538,7 @@ title: Services88.SaleAgent WSDL
               <xs:element minOccurs="0" name="BusinessName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="CategoryName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="CountryName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Address" nillable="true" type="q36:Address" />
+              <xs:element minOccurs="0" name="Address" nillable="true" type="q37:Address" />
               <xs:element minOccurs="0" name="FormattedAddress" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="IsOwnerContact" type="xs:boolean" />
@@ -527,37 +549,37 @@ title: Services88.SaleAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Contact" nillable="true" type="q37:Contact" xmlns:q37="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Contact" nillable="true" type="q38:Contact" xmlns:q38="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Address">
         <xs:complexContent mixed="false">
-          <xs:extension base="q38:Carrier" xmlns:q38="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q39:Carrier" xmlns:q39="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Wgs84Latitude" type="xs:double" />
               <xs:element minOccurs="0" name="Wgs84Longitude" type="xs:double" />
-              <xs:element minOccurs="0" name="LocalizedAddress" nillable="true" type="q38:ArrayOfArrayOfLocalizedField" />
-              <xs:element minOccurs="0" name="Street" nillable="true" type="q38:StructuredAddress" />
-              <xs:element minOccurs="0" name="Postal" nillable="true" type="q38:StructuredAddress" />
+              <xs:element minOccurs="0" name="LocalizedAddress" nillable="true" type="q39:ArrayOfArrayOfLocalizedField" />
+              <xs:element minOccurs="0" name="Street" nillable="true" type="q39:StructuredAddress" />
+              <xs:element minOccurs="0" name="Postal" nillable="true" type="q39:StructuredAddress" />
               <xs:element minOccurs="0" name="Formatted" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Address" nillable="true" type="q39:Address" xmlns:q39="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Address" nillable="true" type="q40:Address" xmlns:q40="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfArrayOfLocalizedField">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ArrayOfLocalizedField" nillable="true" type="q40:ArrayOfLocalizedField" xmlns:q40="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ArrayOfLocalizedField" nillable="true" type="q41:ArrayOfLocalizedField" xmlns:q41="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfArrayOfLocalizedField" nillable="true" type="q41:ArrayOfArrayOfLocalizedField" xmlns:q41="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfArrayOfLocalizedField" nillable="true" type="q42:ArrayOfArrayOfLocalizedField" xmlns:q42="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfLocalizedField">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="LocalizedField" nillable="true" type="q42:LocalizedField" xmlns:q42="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="LocalizedField" nillable="true" type="q43:LocalizedField" xmlns:q43="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfLocalizedField" nillable="true" type="q43:ArrayOfLocalizedField" xmlns:q43="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfLocalizedField" nillable="true" type="q44:ArrayOfLocalizedField" xmlns:q44="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="LocalizedField">
         <xs:complexContent mixed="false">
-          <xs:extension base="q44:Carrier" xmlns:q44="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q45:Carrier" xmlns:q45="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
@@ -569,10 +591,10 @@ title: Services88.SaleAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="LocalizedField" nillable="true" type="q45:LocalizedField" xmlns:q45="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="LocalizedField" nillable="true" type="q46:LocalizedField" xmlns:q46="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="StructuredAddress">
         <xs:sequence>
-          <xs:element minOccurs="0" name="AtypeIdx" type="q46:AddressType" xmlns:q46="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="AtypeIdx" type="q47:AddressType" xmlns:q47="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="Address1" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="Address2" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="Address3" nillable="true" type="xs:string" />
@@ -583,7 +605,7 @@ title: Services88.SaleAgent WSDL
           <xs:element minOccurs="0" name="Formatted" nillable="true" type="xs:string" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="StructuredAddress" nillable="true" type="q47:StructuredAddress" xmlns:q47="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="StructuredAddress" nillable="true" type="q48:StructuredAddress" xmlns:q48="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="AddressType">
         <xs:annotation>
           <xs:appinfo>
@@ -617,10 +639,10 @@ title: Services88.SaleAgent WSDL
           </xs:enumeration>
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="AddressType" nillable="true" type="q48:AddressType" xmlns:q48="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="AddressType" nillable="true" type="q49:AddressType" xmlns:q49="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Project">
         <xs:complexContent mixed="false">
-          <xs:extension base="q49:Carrier" xmlns:q49="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q50:Carrier" xmlns:q50="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
               <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
@@ -644,10 +666,10 @@ title: Services88.SaleAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Project" nillable="true" type="q50:Project" xmlns:q50="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Project" nillable="true" type="q51:Project" xmlns:q51="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Person">
         <xs:complexContent mixed="false">
-          <xs:extension base="q51:Carrier" xmlns:q51="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q52:Carrier" xmlns:q52="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Position" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="PersonId" type="xs:int" />
@@ -694,10 +716,10 @@ title: Services88.SaleAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Person" nillable="true" type="q52:Person" xmlns:q52="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Person" nillable="true" type="q53:Person" xmlns:q53="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Currency">
         <xs:complexContent mixed="false">
-          <xs:extension base="q53:Carrier" xmlns:q53="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q54:Carrier" xmlns:q54="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Id" type="xs:int" />
               <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
@@ -706,10 +728,10 @@ title: Services88.SaleAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Currency" nillable="true" type="q54:Currency" xmlns:q54="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Currency" nillable="true" type="q55:Currency" xmlns:q55="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Competitor">
         <xs:complexContent mixed="false">
-          <xs:extension base="q55:Carrier" xmlns:q55="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q56:Carrier" xmlns:q56="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Id" type="xs:int" />
               <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
@@ -718,10 +740,10 @@ title: Services88.SaleAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Competitor" nillable="true" type="q56:Competitor" xmlns:q56="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Competitor" nillable="true" type="q57:Competitor" xmlns:q57="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Credited">
         <xs:complexContent mixed="false">
-          <xs:extension base="q57:Carrier" xmlns:q57="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q58:Carrier" xmlns:q58="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Id" type="xs:int" />
               <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
@@ -730,10 +752,10 @@ title: Services88.SaleAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Credited" nillable="true" type="q58:Credited" xmlns:q58="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Credited" nillable="true" type="q59:Credited" xmlns:q59="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Rating">
         <xs:complexContent mixed="false">
-          <xs:extension base="q59:Carrier" xmlns:q59="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q60:Carrier" xmlns:q60="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Id" type="xs:int" />
               <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
@@ -742,10 +764,10 @@ title: Services88.SaleAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Rating" nillable="true" type="q60:Rating" xmlns:q60="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Rating" nillable="true" type="q61:Rating" xmlns:q61="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Reason">
         <xs:complexContent mixed="false">
-          <xs:extension base="q61:Carrier" xmlns:q61="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q62:Carrier" xmlns:q62="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Id" type="xs:int" />
               <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
@@ -754,10 +776,10 @@ title: Services88.SaleAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Reason" nillable="true" type="q62:Reason" xmlns:q62="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Reason" nillable="true" type="q63:Reason" xmlns:q63="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Source">
         <xs:complexContent mixed="false">
-          <xs:extension base="q63:Carrier" xmlns:q63="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q64:Carrier" xmlns:q64="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Id" type="xs:int" />
               <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
@@ -766,7 +788,7 @@ title: Services88.SaleAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Source" nillable="true" type="q64:Source" xmlns:q64="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Source" nillable="true" type="q65:Source" xmlns:q65="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="SaleStatus">
         <xs:annotation>
           <xs:appinfo>
@@ -788,16 +810,16 @@ title: Services88.SaleAgent WSDL
           </xs:enumeration>
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="SaleStatus" nillable="true" type="q65:SaleStatus" xmlns:q65="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="SaleStatus" nillable="true" type="q66:SaleStatus" xmlns:q66="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfLink">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="Link" nillable="true" type="q66:Link" xmlns:q66="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Link" nillable="true" type="q67:Link" xmlns:q67="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfLink" nillable="true" type="q67:ArrayOfLink" xmlns:q67="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfLink" nillable="true" type="q68:ArrayOfLink" xmlns:q68="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Link">
         <xs:complexContent mixed="false">
-          <xs:extension base="q68:Carrier" xmlns:q68="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q69:Carrier" xmlns:q69="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="EntityName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Id" type="xs:int" />
@@ -808,10 +830,10 @@ title: Services88.SaleAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Link" nillable="true" type="q69:Link" xmlns:q69="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Link" nillable="true" type="q70:Link" xmlns:q70="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="SaleType">
         <xs:complexContent mixed="false">
-          <xs:extension base="q70:Carrier" xmlns:q70="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q71:Carrier" xmlns:q71="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Id" type="xs:int" />
               <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
@@ -820,10 +842,10 @@ title: Services88.SaleAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="SaleType" nillable="true" type="q71:SaleType" xmlns:q71="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="SaleType" nillable="true" type="q72:SaleType" xmlns:q72="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ReasonSold">
         <xs:complexContent mixed="false">
-          <xs:extension base="q72:Carrier" xmlns:q72="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q73:Carrier" xmlns:q73="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Id" type="xs:int" />
               <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
@@ -832,10 +854,10 @@ title: Services88.SaleAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ReasonSold" nillable="true" type="q73:ReasonSold" xmlns:q73="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ReasonSold" nillable="true" type="q74:ReasonSold" xmlns:q74="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ReasonStalled">
         <xs:complexContent mixed="false">
-          <xs:extension base="q74:Carrier" xmlns:q74="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q75:Carrier" xmlns:q75="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Id" type="xs:int" />
               <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
@@ -844,16 +866,16 @@ title: Services88.SaleAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ReasonStalled" nillable="true" type="q75:ReasonStalled" xmlns:q75="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ReasonStalled" nillable="true" type="q76:ReasonStalled" xmlns:q76="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfSaleStakeholder">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="SaleStakeholder" nillable="true" type="q76:SaleStakeholder" xmlns:q76="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="SaleStakeholder" nillable="true" type="q77:SaleStakeholder" xmlns:q77="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfSaleStakeholder" nillable="true" type="q77:ArrayOfSaleStakeholder" xmlns:q77="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfSaleStakeholder" nillable="true" type="q78:ArrayOfSaleStakeholder" xmlns:q78="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="SaleStakeholder">
         <xs:complexContent mixed="false">
-          <xs:extension base="q78:Carrier" xmlns:q78="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q79:Carrier" xmlns:q79="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="StakeholderRoleName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Comment" nillable="true" type="xs:string" />
@@ -878,25 +900,7 @@ title: Services88.SaleAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="SaleStakeholder" nillable="true" type="q79:SaleStakeholder" xmlns:q79="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-      <xs:complexType name="StringDictionary">
-        <xs:annotation>
-          <xs:appinfo>
-            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
-          </xs:appinfo>
-        </xs:annotation>
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="StringKeyValuePair">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Key" nillable="true" type="xs:string" />
-                <xs:element name="Value" nillable="true" type="xs:string" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="StringDictionary" nillable="true" type="q80:StringDictionary" xmlns:q80="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="SaleStakeholder" nillable="true" type="q80:SaleStakeholder" xmlns:q80="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfVisibleFor">
         <xs:sequence>
           <xs:element minOccurs="0" maxOccurs="unbounded" name="VisibleFor" nillable="true" type="q81:VisibleFor" xmlns:q81="http://www.superoffice.net/ws/crm/NetServer/Services88" />

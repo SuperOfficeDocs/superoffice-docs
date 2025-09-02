@@ -2,6 +2,7 @@
 title: POST Agents/Batch/UpdateBatchTask
 uid: v1BatchAgent_UpdateBatchTask
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Batch/UpdateBatchTask
@@ -96,7 +97,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +112,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 992,
-  "Name": "Corwin Inc and Sons",
-  "AssociateId": 316,
-  "DetailsTable": 223,
-  "DetailsRecord": 539,
+  "Id": 837,
+  "Name": "Hauck, Hartmann and Batz",
+  "AssociateId": 931,
+  "DetailsTable": 697,
+  "DetailsRecord": 269,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "modi",
-    "ParameterObject2": "expedita"
+    "ParameterObject1": "vero",
+    "ParameterObject2": "distinctio"
   },
-  "LastStarted": "2009-11-10T03:45:22.9829669+01:00",
-  "Created": "2002-01-22T03:45:22.9829669+01:00",
-  "StartCount": 11,
-  "DatabaseSerialNumber": "838642",
-  "Context": "praesentium",
-  "Result": "veniam",
+  "LastStarted": "2017-09-17T03:46:54.3007673+02:00",
+  "Created": "2003-12-18T03:46:54.3007673+01:00",
+  "StartCount": 638,
+  "DatabaseSerialNumber": "1272730",
+  "Context": "nobis",
+  "Result": "ea",
   "State": "All",
-  "Description": "Phased motivating budgetary management",
-  "Response": "commodi",
-  "Request": "facere",
-  "ProgressDescription": "Customizable bi-directional data-warehouse",
-  "ProgressPercent": 180,
-  "FileName": "Ward-Reilly",
+  "Description": "Profound holistic challenge",
+  "Response": "omnis",
+  "Request": "est",
+  "ProgressDescription": "Horizontal 4th generation core",
+  "ProgressPercent": 599,
+  "FileName": "Marquardt, Welch and Schimmel",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldLength": 636
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetConfigurableScreenDelta
 uid: v1ConfigurationAgent_GetConfigurableScreenDelta
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetConfigurableScreenDelta
@@ -22,11 +23,11 @@ Gets a ConfigurableScreenDelta object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| configurableScreenDeltaId | int32 | **Required** The primary key. |
+| configurableScreenDeltaId | int32 | **Required** The identifier of the ConfigurableScreenDelta object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=95
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=113
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -79,7 +80,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,28 +90,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 146,
-  "Name": "Robel, Koepp and Hintz",
-  "Description": "Open-architected static solution",
-  "DeltaJson": "deserunt",
+  "ConfigurableScreenDeltaId": 584,
+  "Name": "Parker, Medhurst and Metz",
+  "Description": "Balanced web-enabled secured line",
+  "DeltaJson": "vel",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "magni",
-  "UpdatedDate": "2014-11-19T03:45:23.0767156+01:00",
-  "CreatedDate": "1998-04-01T03:45:23.0767156+02:00",
+  "RecipeId": "nobis",
+  "UpdatedDate": "2024-03-09T03:46:54.4570178+01:00",
+  "CreatedDate": "2024-05-18T03:46:54.4570178+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    97,
-    176
+    795,
+    826
   ],
-  "AppliesToKey": "ab",
+  "AppliesToKey": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldType": "System.String",
+      "FieldLength": 312
     }
   }
 }

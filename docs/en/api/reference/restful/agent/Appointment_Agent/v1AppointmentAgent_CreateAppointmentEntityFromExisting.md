@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/CreateAppointmentEntityFromExisting
 uid: v1AppointmentAgent_CreateAppointmentEntityFromExisting
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/CreateAppointmentEntityFromExisting
@@ -135,12 +136,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateAppointmentEntityFromExisting
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 454,
-  "AssociateId": 184
+  "AppointmentId": 552,
+  "AssociateId": 116
 }
 ```
 
@@ -155,121 +156,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2021-04-08T03:45:22.7642247+02:00",
-  "AppointmentId": 779,
-  "Description": "Quality-focused upward-trending architecture",
-  "Title": "tempora",
-  "Agenda": "consequatur",
-  "InternalNotes": "voluptatem",
-  "StartDate": "2012-10-06T03:45:22.7642247+02:00",
-  "EndDate": "2006-11-10T03:45:22.7642247+01:00",
+  "CreatedDate": "2000-01-25T03:46:54.0820313+01:00",
+  "AppointmentId": 797,
+  "Description": "Up-sized human-resource firmware",
+  "Title": "vitae",
+  "Agenda": "ea",
+  "InternalNotes": "dolorem",
+  "StartDate": "2019-03-27T03:46:54.0820313+01:00",
+  "EndDate": "2019-04-19T03:46:54.0820313+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 534,
+  "MotherId": 944,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2007-06-03T03:45:22.7642247+02:00",
+  "UpdatedDate": "2018-03-19T03:46:54.1132807+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 244,
+  "ActiveLinks": 442,
   "Links": [
     {
-      "EntityName": "Larson Inc and Sons",
-      "Id": 687,
-      "Description": "Networked composite policy",
-      "ExtraInfo": "consequatur",
-      "LinkId": 478,
+      "EntityName": "Turcotte-Blick",
+      "Id": 641,
+      "Description": "Exclusive bifurcated benchmark",
+      "ExtraInfo": "dolorem",
+      "LinkId": 471,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 689
+          "FieldLength": 884
         }
       }
     }
   ],
-  "AlarmLeadTime": "voluptatum",
+  "AlarmLeadTime": "consequatur",
   "HasAlarm": false,
-  "ColorIndex": 63,
+  "ColorIndex": 637,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "et",
-  "LeadTime": "dolore",
-  "Location": "ut",
-  "RejectCounter": 593,
+  "IsAlldayEvent": false,
+  "LagTime": "debitis",
+  "LeadTime": "sint",
+  "Location": "et",
+  "RejectCounter": 324,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 662,
-      "PersonId": 396,
-      "ContactId": 323,
-      "EmailId": 89,
+      "AssociateId": 361,
+      "PersonId": 153,
+      "ContactId": 689,
+      "EmailId": 794,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "loy@osinski.com",
-      "Description": "Innovative 4th generation adapter"
+      "EmailAddress": "lavon_schmeler@hirtheeffertz.info",
+      "Description": "Progressive contextually-based internet solution"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2021-07-10T03:45:22.7642247+02:00",
+  "ActiveDate": "2013-09-03T03:46:54.1132807+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 393,
+  "PreferredTZLocation": 384,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 995,
+  "SuggestedAppointmentId": 840,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "perspiciatis",
+  "CentralserviceVideomeetId": "blanditiis",
   "UserDefinedFields": {
-    "SuperOffice:1": "159259863",
-    "SuperOffice:2": "1098427793"
+    "SuperOffice:1": "Hillary Ankunding",
+    "SuperOffice:2": "214439030"
   },
   "ExtraFields": {
-    "ExtraFields1": "ipsam",
-    "ExtraFields2": "ipsum"
+    "ExtraFields1": "quasi",
+    "ExtraFields2": "sunt"
   },
   "CustomFields": {
-    "CustomFields1": "commodi",
-    "CustomFields2": "eum"
+    "CustomFields1": "nam",
+    "CustomFields2": "illum"
   },
-  "PublishEventDate": "2003-03-02T03:45:22.8110948+01:00",
-  "PublishTo": "2002-10-30T03:45:22.8110948+01:00",
-  "PublishFrom": "2008-02-26T03:45:22.8110948+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2010-07-20T03:46:54.1445302+02:00",
+  "PublishTo": "2003-04-16T03:46:54.1445302+02:00",
+  "PublishFrom": "2003-04-01T03:46:54.1445302+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 510,
+      "VisibleId": 351,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 490
+          "FieldType": "System.String",
+          "FieldLength": 383
         }
       }
     },
     {
-      "VisibleId": 510,
+      "VisibleId": 351,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 490
+          "FieldType": "System.String",
+          "FieldLength": 383
         }
       }
     }
@@ -278,8 +279,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldType": "System.String",
+      "FieldLength": 488
     }
   }
 }

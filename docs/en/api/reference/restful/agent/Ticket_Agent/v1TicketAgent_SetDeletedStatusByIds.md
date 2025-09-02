@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/SetDeletedStatusByIds
 uid: v1TicketAgent_SetDeletedStatusByIds
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/SetDeletedStatusByIds
@@ -70,13 +71,13 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    174,
-    627
+    576,
+    344
   ]
 }
 ```
@@ -88,7 +89,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  828,
-  86
+  129,
+  705
 ]
 ```

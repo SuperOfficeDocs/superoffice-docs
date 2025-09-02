@@ -2,6 +2,7 @@
 title: PUT List/PaymentType/Items/{id}/Headings
 uid: v1PaymentTypeList_PutPaymentTypeHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/PaymentType/Items/{id}/Headings
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 373,
-    "Name": "Eichmann-Dare",
-    "ToolTip": "Cumque qui.",
+    "Id": 409,
+    "Name": "Ryan Inc and Sons",
+    "ToolTip": "Voluptatibus a rem laboriosam magni quod aut et.",
     "Deleted": false,
-    "Rank": 368,
-    "Type": "fugit",
-    "ColorBlock": 192,
-    "IconHint": "dolorem",
-    "Selected": true,
-    "LastChanged": "2022-12-19T03:45:29.0765432+01:00",
+    "Rank": 748,
+    "Type": "iure",
+    "ColorBlock": 414,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2024-05-09T03:47:00.6911718+02:00",
     "ChildItems": [
       {
-        "Id": 977,
-        "Name": "Beatty-Pagac",
-        "ToolTip": "Odio non minus sequi veritatis est perspiciatis perspiciatis.",
-        "Deleted": false,
-        "Rank": 26,
-        "Type": "ex",
-        "ColorBlock": 636,
-        "IconHint": "numquam",
+        "Id": 354,
+        "Name": "Friesen, Keebler and Predovic",
+        "ToolTip": "Ut quod nobis vero voluptate.",
+        "Deleted": true,
+        "Rank": 201,
+        "Type": "non",
+        "ColorBlock": 847,
+        "IconHint": "hic",
         "Selected": false,
-        "LastChanged": "2025-05-15T03:45:29.0765432+02:00",
+        "LastChanged": "2013-11-01T03:47:00.6911718+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "ex",
-        "Hidden": true,
-        "FullName": "Dejuan Ledner I"
+        "ExtraInfo": "asperiores",
+        "StyleHint": "nobis",
+        "Hidden": false,
+        "FullName": "Vernice Sipes"
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Dr. Luella Mueller"
+    "ExtraInfo": "odio",
+    "StyleHint": "sapiente",
+    "Hidden": true,
+    "FullName": "Reese Feest"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 181,
-    "Name": "Harber, Davis and King",
-    "ToolTip": "Nam ullam.",
+    "Id": 884,
+    "Name": "Bauch, Stracke and Quitzon",
+    "ToolTip": "Est facilis commodi omnis sapiente et delectus ut.",
     "Deleted": false,
-    "Rank": 33,
-    "Type": "delectus",
-    "ColorBlock": 721,
-    "IconHint": "laboriosam",
+    "Rank": 61,
+    "Type": "sint",
+    "ColorBlock": 586,
+    "IconHint": "ipsam",
     "Selected": false,
-    "LastChanged": "2002-11-16T03:45:29.0765432+01:00",
+    "LastChanged": "2022-03-18T03:47:00.6911718+01:00",
     "ChildItems": [
       {
-        "Id": 947,
-        "Name": "West, Cremin and Gulgowski",
-        "ToolTip": "Consectetur nihil neque temporibus sit et.",
-        "Deleted": true,
-        "Rank": 637,
-        "Type": "dolores",
-        "ColorBlock": 84,
-        "IconHint": "molestiae",
-        "Selected": false,
-        "LastChanged": "2000-10-16T03:45:29.0765432+02:00",
+        "Id": 237,
+        "Name": "Rau-Donnelly",
+        "ToolTip": "Voluptas et totam quibusdam excepturi.",
+        "Deleted": false,
+        "Rank": 652,
+        "Type": "natus",
+        "ColorBlock": 500,
+        "IconHint": "consequatur",
+        "Selected": true,
+        "LastChanged": "2007-05-23T03:47:00.6911718+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "dignissimos",
-        "Hidden": true,
-        "FullName": "Dax Bauch Jr.",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "fugiat",
+        "Hidden": false,
+        "FullName": "Murl Kaia Feil V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 256
+            "FieldType": "System.String",
+            "FieldLength": 17
           }
         }
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "quae",
+    "ExtraInfo": "aut",
+    "StyleHint": "modi",
     "Hidden": false,
-    "FullName": "Eddie Schowalter MD",
+    "FullName": "Zechariah Hansen I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 534
+        "FieldLength": 657
       }
     }
   }

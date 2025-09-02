@@ -2,10 +2,10 @@
 uid: table-ProjTypeHeadingLink
 title: ProjTypeHeadingLink table
 description: Heading link table for ProjType, for MDO headers
-so.generated: true
+generated: true
 keywords: database table ProjTypeHeadingLink
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ProjTypeHeadingLink Table (87)

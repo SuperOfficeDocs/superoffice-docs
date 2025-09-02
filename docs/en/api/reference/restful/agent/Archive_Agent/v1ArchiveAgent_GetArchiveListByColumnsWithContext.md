@@ -2,6 +2,7 @@
 title: POST Agents/Archive/GetArchiveListByColumnsWithContext
 uid: v1ArchiveAgent_GetArchiveListByColumnsWithContext
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/GetArchiveListByColumnsWithContext
@@ -104,36 +105,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Roberts-Mante",
+  "ProviderName": "O'Keefe Inc and Sons",
   "Columns": [
-    "architecto",
-    "quas"
+    "repudiandae",
+    "repellat"
   ],
   "SortOrder": [
     {
-      "Name": "Weber-Littel",
+      "Name": "Stamm, Pfannerstill and Stanton",
       "Direction": "ASC"
     },
     {
-      "Name": "Weber-Littel",
+      "Name": "Stamm, Pfannerstill and Stanton",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Keebler LLC",
-      "Operator": "porro",
+      "Name": "McLaughlin, Lynch and Will",
+      "Operator": "corporis",
       "Values": [
-        "autem",
-        "eum"
+        "consequatur",
+        "nemo"
       ],
       "DisplayValues": [
-        "animi",
-        "accusamus"
+        "distinctio",
+        "nesciunt"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -141,18 +142,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 358,
+      "InterParenthesis": 430,
       "InterOperator": "And",
-      "UniqueHash": 969
+      "UniqueHash": 71
     }
   ],
   "Entities": [
-    "et",
-    "laboriosam"
+    "omnis",
+    "porro"
   ],
-  "Page": 594,
-  "PageSize": 998,
-  "Context": "et"
+  "Page": 954,
+  "PageSize": 880,
+  "Context": "rem"
 }
 ```
 
@@ -164,23 +165,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Buckridge, Bashirian and Berge",
-    "PrimaryKey": 740,
+    "EntityName": "Deckow LLC",
+    "PrimaryKey": 822,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "repellat",
-        "TooltipHint": "aut",
-        "LinkHint": "quibusdam"
+        "DisplayValue": "qui",
+        "TooltipHint": "non",
+        "LinkHint": "et"
       }
     },
-    "LinkHint": "voluptatum",
-    "StyleHint": "dolorem",
+    "LinkHint": "suscipit",
+    "StyleHint": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 524
+        "FieldLength": 962
       }
     }
   }

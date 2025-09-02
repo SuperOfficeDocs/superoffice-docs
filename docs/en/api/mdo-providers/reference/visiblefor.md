@@ -3,9 +3,9 @@ uid: visiblefor
 title: visiblefor
 keywords: mdoprovider mdo provider visiblefor
 description: List provider for the VisibleFor dropdown control. Items are of type associate, usergroup or all, with a separate id space for each type. The current associate, its primary and secondary groups, and 'all' are the returned elements. MDO list sorting preferences for the UserGroup list are respected.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "visiblefor" MDO List

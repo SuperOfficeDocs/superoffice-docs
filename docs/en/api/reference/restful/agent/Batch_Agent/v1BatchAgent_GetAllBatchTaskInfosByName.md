@@ -2,6 +2,7 @@
 title: POST Agents/Batch/GetAllBatchTaskInfosByName
 uid: v1BatchAgent_GetAllBatchTaskInfosByName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Batch/GetAllBatchTaskInfosByName
@@ -94,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Zemlak Group"
+  "TaskName": "Weimann LLC"
 }
 ```
 
@@ -110,37 +111,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 628,
-    "Name": "Hoppe, Haag and Jewess",
-    "AssociateId": 894,
-    "DetailsTable": 469,
-    "DetailsRecord": 632,
+    "Id": 479,
+    "Name": "Bednar-Monahan",
+    "AssociateId": 58,
+    "DetailsTable": 269,
+    "DetailsRecord": 962,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "est",
-      "ParameterObject2": "ea"
+      "ParameterObject1": "fugit",
+      "ParameterObject2": "et"
     },
-    "LastStarted": "2021-11-22T03:45:22.9829669+01:00",
-    "Created": "2014-06-21T03:45:22.9829669+02:00",
-    "StartCount": 935,
-    "DatabaseSerialNumber": "568807",
-    "Context": "repellendus",
-    "Result": "in",
+    "LastStarted": "2023-07-12T03:46:54.3007673+02:00",
+    "Created": "2013-12-13T03:46:54.3007673+01:00",
+    "StartCount": 833,
+    "DatabaseSerialNumber": "707387",
+    "Context": "molestiae",
+    "Result": "esse",
     "State": "All",
-    "Description": "Persistent executive frame",
-    "Response": "esse",
-    "Request": "qui",
-    "ProgressDescription": "Sharable object-oriented parallelism",
-    "ProgressPercent": 148,
-    "FileName": "Kuvalis-Wilkinson",
+    "Description": "Public-key didactic orchestration",
+    "Response": "qui",
+    "Request": "debitis",
+    "ProgressDescription": "Multi-lateral heuristic complexity",
+    "ProgressPercent": 21,
+    "FileName": "Dickens-Flatley",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 828
+        "FieldLength": 573
       }
     }
   }

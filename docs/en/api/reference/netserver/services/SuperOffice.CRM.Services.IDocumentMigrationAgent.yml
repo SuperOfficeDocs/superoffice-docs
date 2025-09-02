@@ -82,8 +82,6 @@ items:
   summary: >-
     Loading default values into a new DocumentMigrationItemList.
 
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
     <p></p>
 
     <b>Online Restricted:</b> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
@@ -98,39 +96,6 @@ items:
       description: New DocumentMigrationItemList with default values
     content.vb: Function CreateDefaultDocumentMigrationItemListAsync(cancellationToken As CancellationToken = Nothing) As Task(Of DocumentMigrationItemList)
   overload: SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentMigrationItemListAsync*
-- uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync(System.Threading.CancellationToken)
-  id: CreateDefaultDocumentTemplateMigrationListAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IDocumentMigrationAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultDocumentTemplateMigrationListAsync(CancellationToken)
-  nameWithType: IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new DocumentTemplateMigrationList.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-    <p></p>
-
-    <b>Online Restricted:</b> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
-  example: []
-  syntax:
-    content: Task<DocumentTemplateMigrationList> CreateDefaultDocumentTemplateMigrationListAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DocumentTemplateMigrationList}
-      description: New DocumentTemplateMigrationList with default values
-    content.vb: Function CreateDefaultDocumentTemplateMigrationListAsync(cancellationToken As CancellationToken = Nothing) As Task(Of DocumentTemplateMigrationList)
-  overload: SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync*
 - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForAllDocumentsAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForAllDocumentsAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
   id: GetForAllDocumentsAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
@@ -362,6 +327,37 @@ items:
       description: Number of confidential documents.
     content.vb: Function GetNumberOfConfidentialDocumentsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Integer)
   overload: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetNumberOfConfidentialDocumentsAsync*
+- uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync(System.Threading.CancellationToken)
+  id: CreateDefaultDocumentTemplateMigrationListAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IDocumentMigrationAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultDocumentTemplateMigrationListAsync(CancellationToken)
+  nameWithType: IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Loading default values into a new DocumentTemplateMigrationList.
+
+    <p></p>
+
+    <b>Online Restricted:</b> The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
+  example: []
+  syntax:
+    content: Task<DocumentTemplateMigrationList> CreateDefaultDocumentTemplateMigrationListAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DocumentTemplateMigrationList}
+      description: New DocumentTemplateMigrationList with default values
+    content.vb: Function CreateDefaultDocumentTemplateMigrationListAsync(cancellationToken As CancellationToken = Nothing) As Task(Of DocumentTemplateMigrationList)
+  overload: SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync*
 - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForTemplatesAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForTemplatesAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
   id: GetForTemplatesAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
@@ -622,48 +618,6 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-- uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IDocumentMigrationAgent.html#SuperOffice_CRM_Services_IDocumentMigrationAgent_CreateDefaultDocumentTemplateMigrationListAsync_System_Threading_CancellationToken_
-  name: CreateDefaultDocumentTemplateMigrationListAsync
-  nameWithType: IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync
-  fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DocumentTemplateMigrationList}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.DocumentTemplateMigrationList}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<DocumentTemplateMigrationList>
-  nameWithType: Task<DocumentTemplateMigrationList>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.DocumentTemplateMigrationList>
-  nameWithType.vb: Task(Of DocumentTemplateMigrationList)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.DocumentTemplateMigrationList)
-  name.vb: Task(Of DocumentTemplateMigrationList)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.DocumentTemplateMigrationList
-    name: DocumentTemplateMigrationList
-    isExternal: true
-    href: SuperOffice.CRM.Services.DocumentTemplateMigrationList.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.DocumentTemplateMigrationList
-    name: DocumentTemplateMigrationList
-    isExternal: true
-    href: SuperOffice.CRM.Services.DocumentTemplateMigrationList.html
-  - name: )
 - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForAllDocumentsAsync*
   commentId: Overload:SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForAllDocumentsAsync
   isExternal: true
@@ -823,6 +777,48 @@ references:
     name: Integer
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IDocumentMigrationAgent.html#SuperOffice_CRM_Services_IDocumentMigrationAgent_CreateDefaultDocumentTemplateMigrationListAsync_System_Threading_CancellationToken_
+  name: CreateDefaultDocumentTemplateMigrationListAsync
+  nameWithType: IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync
+  fullName: SuperOffice.CRM.Services.IDocumentMigrationAgent.CreateDefaultDocumentTemplateMigrationListAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.DocumentTemplateMigrationList}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.DocumentTemplateMigrationList}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<DocumentTemplateMigrationList>
+  nameWithType: Task<DocumentTemplateMigrationList>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.DocumentTemplateMigrationList>
+  nameWithType.vb: Task(Of DocumentTemplateMigrationList)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.DocumentTemplateMigrationList)
+  name.vb: Task(Of DocumentTemplateMigrationList)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.DocumentTemplateMigrationList
+    name: DocumentTemplateMigrationList
+    isExternal: true
+    href: SuperOffice.CRM.Services.DocumentTemplateMigrationList.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.DocumentTemplateMigrationList
+    name: DocumentTemplateMigrationList
+    isExternal: true
+    href: SuperOffice.CRM.Services.DocumentTemplateMigrationList.html
   - name: )
 - uid: SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForTemplatesAsync*
   commentId: Overload:SuperOffice.CRM.Services.IDocumentMigrationAgent.GetForTemplatesAsync

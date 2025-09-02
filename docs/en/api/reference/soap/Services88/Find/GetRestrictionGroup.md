@@ -2,6 +2,7 @@
 title: Services88.FindAgent.GetRestrictionGroup SOAP
 generated: true
 uid: Services88-Find-GetRestrictionGroup
+content_type: reference
 ---
 
 # Services88 Find GetRestrictionGroup

@@ -2,6 +2,7 @@
 title: POST Agents/List/SetListItemsForHeadingFromListName
 uid: v1ListAgent_SetListItemsForHeadingFromListName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SetListItemsForHeadingFromListName
@@ -67,15 +68,15 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Green-Kuhlman",
-  "HeadingId": 966,
+  "UdListDefinitionName": "Lind Group",
+  "HeadingId": 83,
   "ListItemIds": [
-    403,
-    417
+    366,
+    434
   ],
   "Enable": false
 }

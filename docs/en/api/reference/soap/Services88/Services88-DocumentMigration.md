@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-DocumentMigration
 title: Services88.DocumentMigrationAgent WSDL
+content_type: reference
 ---
 
 # Services88.DocumentMigrationAgent WSDL

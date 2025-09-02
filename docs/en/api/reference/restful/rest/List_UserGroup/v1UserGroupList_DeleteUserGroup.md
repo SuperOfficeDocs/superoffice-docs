@@ -2,6 +2,7 @@
 title: DEL List/UserGroup/Items/{id}
 uid: v1UserGroupList_DeleteUserGroup
 generated: true
+content_type: reference
 ---
 
 # DEL List/UserGroup/Items/{id}
@@ -52,7 +53,7 @@ No Content
 DELETE /api/v1/List/UserGroup/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

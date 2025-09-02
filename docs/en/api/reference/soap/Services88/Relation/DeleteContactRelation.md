@@ -2,6 +2,7 @@
 title: Services88.RelationAgent.DeleteContactRelation SOAP
 generated: true
 uid: Services88-Relation-DeleteContactRelation
+content_type: reference
 ---
 
 # Services88 Relation DeleteContactRelation

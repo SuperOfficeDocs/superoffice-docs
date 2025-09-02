@@ -3,9 +3,9 @@ uid: y_car
 title: y_car
 keywords: mdoprovider mdo provider y_car
 description: Extra tables lists. List names are 'y_xyz' - based on the custom table name. Contents of the list are based on the display_field for the table
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "y_car" MDO List

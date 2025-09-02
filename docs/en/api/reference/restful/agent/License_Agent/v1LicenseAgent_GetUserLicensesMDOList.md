@@ -2,6 +2,7 @@
 title: POST Agents/License/GetUserLicensesMDOList
 uid: v1LicenseAgent_GetUserLicensesMDOList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/License/GetUserLicensesMDOList
@@ -79,7 +80,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,56 +91,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 954,
-    "Name": "Gulgowski, Herman and Lueilwitz",
-    "ToolTip": "Et quasi quisquam.",
+    "Id": 450,
+    "Name": "Wolf, Schoen and Nienow",
+    "ToolTip": "Porro aspernatur ut ut et dolore.",
     "Deleted": false,
-    "Rank": 307,
-    "Type": "sed",
-    "ColorBlock": 846,
-    "IconHint": "aliquam",
+    "Rank": 190,
+    "Type": "nihil",
+    "ColorBlock": 378,
+    "IconHint": "placeat",
     "Selected": false,
-    "LastChanged": "2019-10-06T03:45:23.498579+02:00",
+    "LastChanged": "2024-10-21T03:46:54.9107593+02:00",
     "ChildItems": [
       {
-        "Id": 353,
-        "Name": "Ondricka Inc and Sons",
-        "ToolTip": "Quis modi praesentium amet.",
+        "Id": 731,
+        "Name": "Runolfsson LLC",
+        "ToolTip": "Nam quod qui repudiandae illo.",
         "Deleted": false,
-        "Rank": 603,
-        "Type": "est",
-        "ColorBlock": 409,
-        "IconHint": "rerum",
-        "Selected": false,
-        "LastChanged": "2017-09-28T03:45:23.498579+02:00",
+        "Rank": 947,
+        "Type": "quam",
+        "ColorBlock": 319,
+        "IconHint": "autem",
+        "Selected": true,
+        "LastChanged": "2001-05-25T03:46:54.9107593+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "corrupti",
-        "Hidden": true,
-        "FullName": "Adonis Connelly",
+        "ExtraInfo": "qui",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Theo Keebler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 745
+            "FieldType": "System.Int32",
+            "FieldLength": 936
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "dolore",
-    "Hidden": true,
-    "FullName": "Heber Johns",
+    "ExtraInfo": "aut",
+    "StyleHint": "numquam",
+    "Hidden": false,
+    "FullName": "Laurianne Batz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 330
+        "FieldLength": 592
       }
     }
   }

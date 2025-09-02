@@ -2,6 +2,7 @@
 title: PUT List/Priority/Headings
 uid: v1PriorityList_PutPriorityHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/Priority/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 890,
-    "Name": "Moen-Hilpert",
-    "Tooltip": "modi",
+    "HeadingId": 137,
+    "Name": "Conroy-Bartell",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 522,
-    "UdListDefinitionId": 850
+    "Rank": 332,
+    "UdListDefinitionId": 159
   },
   {
-    "HeadingId": 890,
-    "Name": "Moen-Hilpert",
-    "Tooltip": "modi",
+    "HeadingId": 137,
+    "Name": "Conroy-Bartell",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 522,
-    "UdListDefinitionId": 850
+    "Rank": 332,
+    "UdListDefinitionId": 159
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 232,
-    "Name": "Hudson Inc and Sons",
-    "Tooltip": "dolor",
-    "Deleted": true,
-    "Rank": 768,
-    "UdListDefinitionId": 519,
+    "HeadingId": 772,
+    "Name": "Homenick-Bruen",
+    "Tooltip": "non",
+    "Deleted": false,
+    "Rank": 80,
+    "UdListDefinitionId": 224,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 72
+        "FieldType": "System.String",
+        "FieldLength": 804
       }
     }
   }

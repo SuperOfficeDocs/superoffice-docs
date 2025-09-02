@@ -2,6 +2,7 @@
 title: Services88.UserAgent.SetGeneratedPasswordFromName SOAP
 generated: true
 uid: Services88-User-SetGeneratedPasswordFromName
+content_type: reference
 ---
 
 # Services88 User SetGeneratedPasswordFromName

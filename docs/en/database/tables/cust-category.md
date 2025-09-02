@@ -2,10 +2,10 @@
 uid: table-cust_category
 title: cust_category table
 description: This table contains entries for categories exposed through a customer language.
-so.generated: true
+generated: true
 keywords: database table cust_category
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # cust\_category Table (321)

@@ -2,6 +2,7 @@
 title: PATCH List/{id}
 uid: v1ListEntity_PatchListEntity
 generated: true
+content_type: reference
 ---
 
 # PATCH List/{id}
@@ -117,18 +118,18 @@ ListEntity  updated.
 PATCH /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "tempora",
+    "path": "iusto",
     "value": {}
   },
   {
     "op": "add",
-    "path": "tempora",
+    "path": "iusto",
     "value": {}
   }
 ]
@@ -141,22 +142,22 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 997,
-  "Name": "Macejkovic Inc and Sons",
-  "Tooltip": "velit",
+  "Id": 502,
+  "Name": "Bogan LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 281,
+  "Rank": 775,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "architecto",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptas",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 709
+      "FieldLength": 187
     }
   },
   "_Links": {

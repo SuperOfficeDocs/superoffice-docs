@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/SaveConnectionListMappings
 uid: v1ErpSyncAgent_SaveConnectionListMappings
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/SaveConnectionListMappings
@@ -95,31 +96,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Schamberger, Hansen and Hane",
+      "ErpListName": "Becker-Johnson",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Schaefer Inc and Sons",
-      "ErpFieldId": 616,
+      "ErpActorTypeName": "Purdy-Fritsch",
+      "ErpFieldId": 728,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 841
+          "FieldType": "System.Int32",
+          "FieldLength": 3
         }
       }
     }
   ],
-  "ErpConnectionId": 729,
-  "ErpConnectionName": "Miller LLC",
+  "ErpConnectionId": 12,
+  "ErpConnectionName": "Botsford LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 434
+      "FieldLength": 436
     }
   }
 }

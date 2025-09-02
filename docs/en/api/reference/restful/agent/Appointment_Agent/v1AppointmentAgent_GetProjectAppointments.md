@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetProjectAppointments
 uid: v1AppointmentAgent_GetProjectAppointments
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetProjectAppointments
@@ -117,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -131,14 +133,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 364,
-  "StartTime": "2013-03-17T03:45:22.6704778+01:00",
-  "EndTime": "2003-10-01T03:45:22.6704778+02:00",
-  "Count": 386
+  "ProjectId": 82,
+  "StartTime": "2006-07-30T03:46:53.9726601+02:00",
+  "EndTime": "2010-03-23T03:46:53.9726601+01:00",
+  "Count": 59
 }
 ```
 
@@ -150,66 +152,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 703,
-    "StartDate": "2004-04-20T03:45:22.6704778+02:00",
-    "EndDate": "2013-12-25T03:45:22.6704778+01:00",
+    "AppointmentId": 789,
+    "StartDate": "2022-02-22T03:46:53.9726601+01:00",
+    "EndDate": "2016-07-31T03:46:53.9726601+02:00",
     "Type": "BookingForChecklist",
     "Task": "est",
-    "AssociateFullName": "Timmy Edythe Heller II",
-    "ContactName": "Welch, Roob and Nolan",
-    "Description": "Function-based scalable system engine",
-    "PersonFullName": "Dameon Hayes",
-    "PersonId": 985,
-    "ContactId": 446,
-    "ProjectId": 448,
-    "ProjectName": "Gleichner-Lockman",
+    "AssociateFullName": "Prof. Stephanie Polly Berge",
+    "ContactName": "Reinger, Nolan and Kunde",
+    "Description": "Reactive responsive utilisation",
+    "PersonFullName": "Ms. Jasmin McClure MD",
+    "PersonId": 140,
+    "ContactId": 22,
+    "ProjectId": 688,
+    "ProjectName": "Upton LLC",
     "IsPublished": false,
-    "AssociateId": 870,
-    "ColorIndex": 71,
+    "AssociateId": 613,
+    "ColorIndex": 816,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 561,
-    "PriorityName": "Mante Group",
+    "PriorityId": 792,
+    "PriorityName": "Durgan-Wilderman",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2019-09-04T03:45:22.6704778+02:00",
+    "ActiveDate": "2005-03-01T03:46:53.9726601+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2016-05-18T03:45:22.6704778+02:00",
-    "RecurringEndDate": "2023-11-16T03:45:22.6704778+01:00",
-    "MotherId": 15,
-    "AssignedBy": 573,
-    "AssignedByFullName": "Samanta Hammes",
-    "RejectReason": "deliver rich metrics",
-    "Location": "rerum",
-    "AlarmLeadTime": "et",
-    "SaleId": 928,
-    "SaleName": "Smith Inc and Sons",
-    "AssociateName": "Schmidt Inc and Sons",
-    "CreatedDate": "2003-08-30T03:45:22.6704778+02:00",
-    "CreatedBy": "optio",
-    "CreatedByFullName": "Petra Larson",
-    "CreatedByAssociateId": 774,
+    "RecurringStartDate": "2000-06-01T03:46:53.9726601+02:00",
+    "RecurringEndDate": "1999-07-26T03:46:53.9726601+02:00",
+    "MotherId": 86,
+    "AssignedBy": 77,
+    "AssignedByFullName": "Mose Becker",
+    "RejectReason": "",
+    "Location": "veritatis",
+    "AlarmLeadTime": "qui",
+    "SaleId": 697,
+    "SaleName": "Schmidt LLC",
+    "AssociateName": "Schmidt LLC",
+    "CreatedDate": "2022-11-25T03:46:53.9726601+01:00",
+    "CreatedBy": "quod",
+    "CreatedByFullName": "Jaylon Herbert Purdy III",
+    "CreatedByAssociateId": 792,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 243,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 428,
-    "Title": "et",
-    "Agenda": "dolor",
-    "InternalNotes": "in",
+    "PreferredTZLocation": 478,
+    "Title": "odio",
+    "Agenda": "rerum",
+    "InternalNotes": "mollitia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 393
+        "FieldType": "System.String",
+        "FieldLength": 918
       }
     }
   }

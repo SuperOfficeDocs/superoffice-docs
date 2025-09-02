@@ -2,10 +2,10 @@
 uid: enum-targetassignementlevel
 title: Enum values for TargetAssignementLevel
 description: Lists the enum values for TargetAssignementLevel.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # TargetAssignementLevel Enum

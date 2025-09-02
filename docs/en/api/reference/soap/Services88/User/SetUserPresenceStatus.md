@@ -2,6 +2,7 @@
 title: Services88.UserAgent.SetUserPresenceStatus SOAP
 generated: true
 uid: Services88-User-SetUserPresenceStatus
+content_type: reference
 ---
 
 # Services88 User SetUserPresenceStatus

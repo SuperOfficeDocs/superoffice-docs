@@ -2,6 +2,7 @@
 title: GET List/MrMrs/Items/{id}
 uid: v1MrMrsList_GetMrMrs
 generated: true
+content_type: reference
 ---
 
 # GET List/MrMrs/Items/{id}
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 698,
-  "Name": "Yost, Littel and Paucek",
-  "Tooltip": "rerum",
+  "Id": 709,
+  "Name": "Gleichner-Corwin",
+  "Tooltip": "iste",
   "Deleted": false,
-  "UdListDefinitionId": 25,
-  "Rank": 290,
+  "UdListDefinitionId": 962,
+  "Rank": 322,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 62
+      "FieldType": "System.String",
+      "FieldLength": 793
     }
   }
 }

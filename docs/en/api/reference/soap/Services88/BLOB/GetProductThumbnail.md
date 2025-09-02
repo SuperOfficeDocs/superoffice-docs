@@ -2,6 +2,7 @@
 title: Services88.BLOBAgent.GetProductThumbnail SOAP
 generated: true
 uid: Services88-BLOB-GetProductThumbnail
+content_type: reference
 ---
 
 # Services88 BLOB GetProductThumbnail

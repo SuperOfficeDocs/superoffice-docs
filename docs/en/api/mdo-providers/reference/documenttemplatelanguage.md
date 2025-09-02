@@ -3,9 +3,9 @@ uid: documenttemplatelanguage
 title: documenttemplatelanguage
 keywords: mdoprovider mdo provider documenttemplatelanguage
 description: MDO Provider for Document Template langauges.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "documenttemplatelanguage" MDO List

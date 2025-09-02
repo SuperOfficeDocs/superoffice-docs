@@ -2,6 +2,7 @@
 title: POST Agents/List/GetTicketStatuses
 uid: v1ListAgent_GetTicketStatuses
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetTicketStatuses
@@ -71,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetTicketStatuses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,19 +83,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 231,
-    "Name": "Farrell, Hyatt and Robel",
+    "TicketStatusId": 508,
+    "Name": "Barton, Oberbrunner and Wyman",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": true,
-    "IsDefault": false,
+    "NoEmailReopen": false,
+    "IsDefault": true,
     "UsedInQueue": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 497
+        "FieldLength": 135
       }
     }
   }

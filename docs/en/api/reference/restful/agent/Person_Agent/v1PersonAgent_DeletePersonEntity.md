@@ -2,6 +2,7 @@
 title: POST Agents/Person/DeletePersonEntity
 uid: v1PersonAgent_DeletePersonEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/DeletePersonEntity
@@ -10,8 +11,10 @@ generated: true
 POST /api/v1/Agents/Person/DeletePersonEntity
 ```
 
-Deletes the PersonEntity
+Deletes the PersonEntity.
 
+
+This table supports Soft Delete; records will be marked as deleted and disappear from the GUI and API results, but will not be physically deleted by this (and any other) method.
 
 
 
@@ -22,10 +25,10 @@ Deletes the PersonEntity
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| PersonEntityId | int32 | **Required** The id of the PersonEntity to be deleted. |
+| personEntityId | int32 | **Required** The identity of the PersonEntity |
 
 ```http
-POST /api/v1/Agents/Person/DeletePersonEntity?PersonEntityId=526
+POST /api/v1/Agents/Person/DeletePersonEntity?personEntityId=993
 ```
 
 

@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetContactAppointments
 uid: v1AppointmentAgent_GetContactAppointments
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetContactAppointments
@@ -117,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -131,14 +133,14 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 661,
-  "StartTime": "2015-02-24T03:45:22.6704778+01:00",
-  "EndTime": "2000-04-15T03:45:22.6704778+02:00",
-  "Count": 283
+  "ContactId": 708,
+  "StartTime": "2011-12-31T03:46:53.9726601+01:00",
+  "EndTime": "2023-02-10T03:46:53.9726601+01:00",
+  "Count": 254
 }
 ```
 
@@ -150,66 +152,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 464,
-    "StartDate": "2019-05-05T03:45:22.6704778+02:00",
-    "EndDate": "2003-10-21T03:45:22.6704778+02:00",
+    "AppointmentId": 488,
+    "StartDate": "2021-09-09T03:46:53.9726601+02:00",
+    "EndDate": "2012-03-05T03:46:53.9726601+01:00",
     "Type": "BookingForChecklist",
-    "Task": "iste",
-    "AssociateFullName": "Cleveland Cummings",
-    "ContactName": "Kohler-Marquardt",
-    "Description": "Ameliorated explicit analyzer",
-    "PersonFullName": "Linnea Heller",
-    "PersonId": 147,
-    "ContactId": 759,
-    "ProjectId": 904,
-    "ProjectName": "Gutkowski, Boyer and Denesik",
-    "IsPublished": false,
-    "AssociateId": 253,
-    "ColorIndex": 234,
+    "Task": "labore",
+    "AssociateFullName": "Giovanny Veum",
+    "ContactName": "Hilll-Hickle",
+    "Description": "Universal intermediate collaboration",
+    "PersonFullName": "Laney Jones",
+    "PersonId": 547,
+    "ContactId": 172,
+    "ProjectId": 91,
+    "ProjectName": "Cormier, Mraz and Williamson",
+    "IsPublished": true,
+    "AssociateId": 429,
+    "ColorIndex": 849,
     "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 198,
-    "PriorityName": "Hayes, Kassulke and Pfannerstill",
+    "PriorityId": 606,
+    "PriorityName": "Howe, Johnson and Mante",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2023-08-07T03:45:22.6704778+02:00",
+    "ActiveDate": "1998-09-14T03:46:53.9726601+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-02-16T03:45:22.6704778+01:00",
-    "RecurringEndDate": "2009-01-09T03:45:22.6704778+01:00",
-    "MotherId": 280,
-    "AssignedBy": 365,
-    "AssignedByFullName": "Dortha Sonia Wilderman II",
-    "RejectReason": "matrix proactive experiences",
-    "Location": "cupiditate",
-    "AlarmLeadTime": "ad",
-    "SaleId": 898,
-    "SaleName": "Dach, White and Legros",
-    "AssociateName": "Schamberger-Lehner",
-    "CreatedDate": "2008-08-08T03:45:22.6704778+02:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Jannie Reagan Konopelski PhD",
-    "CreatedByAssociateId": 753,
+    "RecurringStartDate": "1999-12-19T03:46:53.9726601+01:00",
+    "RecurringEndDate": "2025-06-19T03:46:53.9726601+02:00",
+    "MotherId": 601,
+    "AssignedBy": 566,
+    "AssignedByFullName": "Dr. Melyna Rogers Crona III",
+    "RejectReason": "",
+    "Location": "facere",
+    "AlarmLeadTime": "quasi",
+    "SaleId": 962,
+    "SaleName": "Witting-Schowalter",
+    "AssociateName": "Williamson-Leannon",
+    "CreatedDate": "2017-01-24T03:46:53.9726601+01:00",
+    "CreatedBy": "repellendus",
+    "CreatedByFullName": "Elise Olson",
+    "CreatedByAssociateId": 856,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 474,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 51,
-    "Title": "omnis",
-    "Agenda": "eligendi",
-    "InternalNotes": "debitis",
+    "PreferredTZLocation": 655,
+    "Title": "velit",
+    "Agenda": "accusantium",
+    "InternalNotes": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 484
+        "FieldLength": 220
       }
     }
   }

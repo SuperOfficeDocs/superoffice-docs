@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.UploadAttachment SOAP
 generated: true
 uid: Services88-Ticket-UploadAttachment
+content_type: reference
 ---
 
 # Services88 Ticket UploadAttachment

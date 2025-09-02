@@ -2,6 +2,7 @@
 title: POST Agents/Dash/CreateDefaultDashTile
 uid: v1DashAgent_CreateDefaultDashTile
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/CreateDefaultDashTile
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Dash/CreateDefaultDashTile
 ```
 
-Set default values into a new DashTile.
+Loading default values into a new DashTile.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -62,7 +61,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 439,
-  "DashboardId": 605,
-  "Height": 297,
-  "Width": 154,
-  "Rank": 746,
+  "DashboardTileId": 780,
+  "DashboardId": 455,
+  "Height": 230,
+  "Width": 147,
+  "Rank": 231,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 914
+      "FieldType": "System.String",
+      "FieldLength": 333
     }
   }
 }

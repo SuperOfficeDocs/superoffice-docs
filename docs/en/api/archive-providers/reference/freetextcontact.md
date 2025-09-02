@@ -3,9 +3,9 @@ uid: FreetextContact
 title: FreetextContact
 description: Archive provider for freetext search on the Contact (company) entity.
 keywords: FreetextContact archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "FreetextContact"
@@ -373,7 +373,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextContact?$select=streetAddress/line2,restrictionAddress/county,restrictionAddress/formattedAddress,contactAssociate/simultaneousEjUser
+GET /api/v1/archive/FreetextContact?$select=streetAddress/zip,contactAssociate/lastName,contactAssociate/ejUserId,contactSupportPerson/personInfo/textId,selectionIdRequest
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

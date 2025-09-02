@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetAppointmentEntity
 uid: v1AppointmentAgent_GetAppointmentEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetAppointmentEntity
@@ -22,11 +23,11 @@ Gets a AppointmentEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| appointmentEntityId | int32 | **Required** The primary key. |
+| appointmentEntityId | int32 | **Required** The identifier of the AppointmentEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=316
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=290
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -140,121 +141,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1999-01-25T03:45:22.7486003+01:00",
-  "AppointmentId": 287,
-  "Description": "Mandatory actuating paradigm",
-  "Title": "reiciendis",
-  "Agenda": "dolores",
-  "InternalNotes": "minus",
-  "StartDate": "2020-05-29T03:45:22.7486003+02:00",
-  "EndDate": "2003-09-30T03:45:22.7486003+02:00",
+  "CreatedDate": "2010-06-11T03:46:54.0664078+02:00",
+  "AppointmentId": 778,
+  "Description": "Open-architected tangible hardware",
+  "Title": "rerum",
+  "Agenda": "illo",
+  "InternalNotes": "nobis",
+  "StartDate": "2014-01-26T03:46:54.0664078+01:00",
+  "EndDate": "2012-10-02T03:46:54.0664078+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 966,
+  "MotherId": 582,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2020-10-21T03:45:22.7486003+02:00",
+  "UpdatedDate": "2005-02-24T03:46:54.0664078+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 713,
+  "ActiveLinks": 972,
   "Links": [
     {
-      "EntityName": "Stokes-Greenholt",
-      "Id": 549,
-      "Description": "Organized asynchronous focus group",
-      "ExtraInfo": "quia",
-      "LinkId": 792,
+      "EntityName": "Schinner, Erdman and Pouros",
+      "Id": 783,
+      "Description": "Re-engineered client-driven flexibility",
+      "ExtraInfo": "voluptatem",
+      "LinkId": 734,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 222
+          "FieldType": "System.String",
+          "FieldLength": 788
         }
       }
     }
   ],
-  "AlarmLeadTime": "vero",
+  "AlarmLeadTime": "voluptatum",
   "HasAlarm": false,
-  "ColorIndex": 741,
+  "ColorIndex": 997,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "deserunt",
-  "LeadTime": "eum",
-  "Location": "voluptas",
-  "RejectCounter": 744,
+  "IsAlldayEvent": false,
+  "LagTime": "labore",
+  "LeadTime": "optio",
+  "Location": "neque",
+  "RejectCounter": 421,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 580,
-      "PersonId": 446,
-      "ContactId": 181,
-      "EmailId": 704,
-      "SendEmail": true,
+      "AssociateId": 173,
+      "PersonId": 551,
+      "ContactId": 688,
+      "EmailId": 633,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "victoria@runolfsdottir.biz",
-      "Description": "Synergized 5th generation neural-net"
+      "EmailAddress": "malcolm.haag@pacocha.biz",
+      "Description": "Synergized impactful frame"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2019-05-25T03:45:22.7486003+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2013-05-20T03:46:54.0664078+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 904,
+  "PreferredTZLocation": 623,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 623,
+  "SuggestedAppointmentId": 609,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "fuga",
+  "CentralserviceVideomeetId": "totam",
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "1307153114"
+    "SuperOffice:1": "Miss Thaddeus Collins DDS",
+    "SuperOffice:2": "275568627"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "facilis"
+    "ExtraFields1": "et",
+    "ExtraFields2": "fugit"
   },
   "CustomFields": {
-    "CustomFields1": "architecto",
-    "CustomFields2": "maxime"
+    "CustomFields1": "pariatur",
+    "CustomFields2": "impedit"
   },
-  "PublishEventDate": "2022-02-18T03:45:22.7486003+01:00",
-  "PublishTo": "2011-05-19T03:45:22.7486003+02:00",
-  "PublishFrom": "2014-05-09T03:45:22.7486003+02:00",
+  "PublishEventDate": "2002-03-09T03:46:54.0664078+01:00",
+  "PublishTo": "2002-01-30T03:46:54.0664078+01:00",
+  "PublishFrom": "2021-05-28T03:46:54.0664078+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 775,
+      "VisibleId": 484,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 474
+          "FieldType": "System.Int32",
+          "FieldLength": 289
         }
       }
     },
     {
-      "VisibleId": 775,
+      "VisibleId": 484,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 474
+          "FieldType": "System.Int32",
+          "FieldLength": 289
         }
       }
     }
@@ -263,8 +264,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldType": "System.String",
+      "FieldLength": 916
     }
   }
 }

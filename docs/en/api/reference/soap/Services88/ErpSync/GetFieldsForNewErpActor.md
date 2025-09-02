@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.GetFieldsForNewErpActor SOAP
 generated: true
 uid: Services88-ErpSync-GetFieldsForNewErpActor
+content_type: reference
 ---
 
 # Services88 ErpSync GetFieldsForNewErpActor

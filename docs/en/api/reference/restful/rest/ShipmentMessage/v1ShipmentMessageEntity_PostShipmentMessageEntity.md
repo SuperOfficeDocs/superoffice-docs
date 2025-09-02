@@ -2,6 +2,7 @@
 title: POST ShipmentMessage
 uid: v1ShipmentMessageEntity_PostShipmentMessageEntity
 generated: true
+content_type: reference
 ---
 
 # POST ShipmentMessage
@@ -116,31 +117,31 @@ OK
 POST /api/v1/ShipmentMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 880,
-  "PlainMessage": "tenetur",
-  "HtmlMessage": "voluptate",
-  "SmsMessage": "quia",
-  "Description": "Profit-focused content-based application",
-  "Subject": "non",
-  "FolderId": 5,
-  "HeaderField": "ut",
-  "Design": "voluptates",
+  "ShipmentMessageId": 486,
+  "PlainMessage": "cumque",
+  "HtmlMessage": "fugit",
+  "SmsMessage": "a",
+  "Description": "Managed methodical toolset",
+  "Subject": "occaecati",
+  "FolderId": 592,
+  "HeaderField": "excepturi",
+  "Design": "culpa",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Proactive even-keeled intranet",
-  "AccessKey": "aut",
-  "DocumentMessage": 344,
-  "Registered": "2008-01-02T03:45:28.6546813+01:00",
-  "RegisteredAssociateId": 524,
-  "Updated": "2010-02-12T03:45:28.6546813+01:00",
-  "UpdatedAssociateId": 43,
-  "UpdatedCount": 192
+  "InlineImages": false,
+  "LongDescription": "Centralized real-time encoding",
+  "AccessKey": "facere",
+  "DocumentMessage": 651,
+  "Registered": "2007-01-18T03:47:00.3005605+01:00",
+  "RegisteredAssociateId": 133,
+  "Updated": "2013-11-17T03:47:00.3005605+01:00",
+  "UpdatedAssociateId": 626,
+  "UpdatedCount": 454
 }
 ```
 
@@ -151,38 +152,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 667,
-  "PlainMessage": "et",
-  "HtmlMessage": "quo",
-  "SmsMessage": "enim",
-  "Description": "Streamlined attitude-oriented matrices",
-  "Subject": "quisquam",
-  "FolderId": 70,
-  "HeaderField": "debitis",
-  "Design": "qui",
+  "ShipmentMessageId": 599,
+  "PlainMessage": "asperiores",
+  "HtmlMessage": "esse",
+  "SmsMessage": "sequi",
+  "Description": "Fully-configurable bifurcated open system",
+  "Subject": "ex",
+  "FolderId": 273,
+  "HeaderField": "et",
+  "Design": "rerum",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Profound regional benchmark",
-  "AccessKey": "ex",
-  "DocumentMessage": 9,
-  "Registered": "2016-04-21T03:45:28.6546813+02:00",
-  "RegisteredAssociateId": 533,
-  "Updated": "2025-05-12T03:45:28.6546813+02:00",
-  "UpdatedAssociateId": 104,
-  "UpdatedCount": 334,
+  "RegisterViews": false,
+  "InlineImages": false,
+  "LongDescription": "Front-line systemic matrices",
+  "AccessKey": "voluptatem",
+  "DocumentMessage": 519,
+  "Registered": "2020-01-08T03:47:00.3005605+01:00",
+  "RegisteredAssociateId": 659,
+  "Updated": "2010-01-16T03:47:00.3005605+01:00",
+  "UpdatedAssociateId": 902,
+  "UpdatedCount": 253,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldType": "System.String",
+      "FieldLength": 672
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

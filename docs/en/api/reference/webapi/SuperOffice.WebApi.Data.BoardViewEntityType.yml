@@ -1,0 +1,167 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.BoardViewEntityType
+  commentId: T:SuperOffice.WebApi.Data.BoardViewEntityType
+  id: BoardViewEntityType
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.BoardViewEntityType.None
+  - SuperOffice.WebApi.Data.BoardViewEntityType.Project
+  - SuperOffice.WebApi.Data.BoardViewEntityType.Sale
+  langs:
+  - csharp
+  - vb
+  name: BoardViewEntityType
+  nameWithType: BoardViewEntityType
+  fullName: SuperOffice.WebApi.Data.BoardViewEntityType
+  type: Enum
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Board view entity type
+
+    This Enum is used by:  board_view_settings.entity_type
+  example: []
+  syntax:
+    content: 'public enum BoardViewEntityType : short'
+    content.vb: Public Enum BoardViewEntityType As Short
+- uid: SuperOffice.WebApi.Data.BoardViewEntityType.None
+  commentId: F:SuperOffice.WebApi.Data.BoardViewEntityType.None
+  id: None
+  parent: SuperOffice.WebApi.Data.BoardViewEntityType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: BoardViewEntityType.None
+  fullName: SuperOffice.WebApi.Data.BoardViewEntityType.None
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '0: None'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      None = 0
+    return:
+      type: SuperOffice.WebApi.Data.BoardViewEntityType
+    content.vb: >-
+      <EnumMember>
+
+      None = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.BoardViewEntityType.Sale
+  commentId: F:SuperOffice.WebApi.Data.BoardViewEntityType.Sale
+  id: Sale
+  parent: SuperOffice.WebApi.Data.BoardViewEntityType
+  langs:
+  - csharp
+  - vb
+  name: Sale
+  nameWithType: BoardViewEntityType.Sale
+  fullName: SuperOffice.WebApi.Data.BoardViewEntityType.Sale
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1: Sale'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Sale = 1
+    return:
+      type: SuperOffice.WebApi.Data.BoardViewEntityType
+    content.vb: >-
+      <EnumMember>
+
+      Sale = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.BoardViewEntityType.Project
+  commentId: F:SuperOffice.WebApi.Data.BoardViewEntityType.Project
+  id: Project
+  parent: SuperOffice.WebApi.Data.BoardViewEntityType
+  langs:
+  - csharp
+  - vb
+  name: Project
+  nameWithType: BoardViewEntityType.Project
+  fullName: SuperOffice.WebApi.Data.BoardViewEntityType.Project
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '2: Project'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Project = 2
+    return:
+      type: SuperOffice.WebApi.Data.BoardViewEntityType
+    content.vb: >-
+      <EnumMember>
+
+      Project = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Data.BoardViewEntityType
+  commentId: T:SuperOffice.WebApi.Data.BoardViewEntityType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.BoardViewEntityType.html
+  name: BoardViewEntityType
+  nameWithType: BoardViewEntityType
+  fullName: SuperOffice.WebApi.Data.BoardViewEntityType

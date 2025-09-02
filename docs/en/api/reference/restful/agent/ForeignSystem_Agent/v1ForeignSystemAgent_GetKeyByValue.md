@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/GetKeyByValue
 uid: v1ForeignSystemAgent_GetKeyByValue
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/GetKeyByValue
@@ -88,11 +89,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Towne, Heller and Frami",
-  "DeviceName": "Hagenes Inc and Sons",
-  "KeyName": "Effertz-Koelpin",
-  "KeyValue": "omnis",
-  "TableName": "Hirthe LLC"
+  "ApplicationName": "Block Group",
+  "DeviceName": "Konopelski, Mraz and Reinger",
+  "KeyName": "Reichel-Walter",
+  "KeyValue": "qui",
+  "TableName": "Mills-Jenkins"
 }
 ```
 
@@ -103,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "doloribus",
-  "Value": "dolorem",
-  "RecordId": 473,
-  "CreatedDate": "2010-01-01T03:45:23.4829546+01:00",
-  "UpdatedDate": "1999-04-27T03:45:23.4829546+02:00",
-  "UpdatedBy": "omnis",
-  "CreatedBy": "totam",
-  "TableName": "Mante LLC",
+  "Key": "quos",
+  "Value": "inventore",
+  "RecordId": 278,
+  "CreatedDate": "2014-11-20T03:46:54.9107593+01:00",
+  "UpdatedDate": "1999-05-09T03:46:54.9107593+02:00",
+  "UpdatedBy": "dolorem",
+  "CreatedBy": "placeat",
+  "TableName": "Reichel-McCullough",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldLength": 185
     }
   }
 }

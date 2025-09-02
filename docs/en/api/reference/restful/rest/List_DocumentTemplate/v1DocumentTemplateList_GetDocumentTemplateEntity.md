@@ -2,6 +2,7 @@
 title: GET List/DocumentTemplate/Items/{id}
 uid: v1DocumentTemplateList_GetDocumentTemplateEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/DocumentTemplate/Items/{id}
@@ -86,7 +87,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,37 +97,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 932,
-  "Name": "Zboncak Group",
-  "Tooltip": "non",
-  "SaveInDb": 32,
-  "Filename": "et",
-  "DefaultOref": "vel",
+  "DocumentTemplateId": 543,
+  "Name": "Swift Group",
+  "Tooltip": "consequatur",
+  "SaveInDb": 339,
+  "Filename": "omnis",
+  "DefaultOref": "cumque",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 169,
-  "IntentId": 278,
-  "IsDefaultPublished": true,
-  "Rank": 835,
-  "LoadTemplateFromPlugin": 447,
-  "MimeType": "corrupti",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 114,
+  "AutoeventId": 66,
+  "IntentId": 911,
+  "IsDefaultPublished": false,
+  "Rank": 924,
+  "LoadTemplateFromPlugin": 894,
+  "MimeType": "dolorem",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 977,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "frida_cremin@kub.com",
+  "EmailSubject": "taya@kuphal.biz",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "leola_little@stoltenberg.com",
+  "SenderEmailAddress": "ricardo.kautzer@zboncak.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldLength": 754
     }
   }
 }

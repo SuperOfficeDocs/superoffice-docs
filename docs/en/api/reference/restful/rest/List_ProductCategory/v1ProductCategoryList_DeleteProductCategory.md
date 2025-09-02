@@ -2,6 +2,7 @@
 title: DEL List/ProductCategory/Items/{id}
 uid: v1ProductCategoryList_DeleteProductCategory
 generated: true
+content_type: reference
 ---
 
 # DEL List/ProductCategory/Items/{id}

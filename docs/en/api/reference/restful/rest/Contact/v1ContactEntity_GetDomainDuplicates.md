@@ -2,6 +2,7 @@
 title: GET Contact/DuplicateDomains/{domain}
 uid: v1ContactEntity_GetDomainDuplicates
 generated: true
+content_type: reference
 ---
 
 # GET Contact/DuplicateDomains/{domain}
@@ -74,17 +75,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Schinner-Gutmann",
-    "SoPrimaryKey": 910,
-    "EntryName": "Reilly-Cronin",
-    "EntryIdentifier": "rem",
-    "RuleDisplayName": "Krajcik Group",
+    "RuleName": "Mills-Boehm",
+    "SoPrimaryKey": 312,
+    "EntryName": "Schneider-Quigley",
+    "EntryIdentifier": "libero",
+    "RuleDisplayName": "Johns, Jacobs and Moen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 896
+        "FieldLength": 401
       }
     }
   }

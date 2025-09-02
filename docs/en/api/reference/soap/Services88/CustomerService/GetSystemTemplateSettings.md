@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.GetSystemTemplateSettings SOAP
 generated: true
 uid: Services88-CustomerService-GetSystemTemplateSettings
+content_type: reference
 ---
 
 # Services88 CustomerService GetSystemTemplateSettings

@@ -2,10 +2,10 @@
 uid: table-DataRight
 title: DataRight table
 description: Data right definition
-so.generated: true
+generated: true
 keywords: database table DataRight
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # DataRight Table (195)

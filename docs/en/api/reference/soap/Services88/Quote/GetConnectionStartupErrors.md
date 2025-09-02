@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.GetConnectionStartupErrors SOAP
 generated: true
 uid: Services88-Quote-GetConnectionStartupErrors
+content_type: reference
 ---
 
 # Services88 Quote GetConnectionStartupErrors

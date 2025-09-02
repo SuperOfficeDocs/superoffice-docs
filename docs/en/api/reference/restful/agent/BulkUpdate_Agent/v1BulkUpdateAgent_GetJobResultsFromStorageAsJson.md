@@ -2,6 +2,7 @@
 title: POST Agents/BulkUpdate/GetJobResultsFromStorageAsJson
 uid: v1BulkUpdateAgent_GetJobResultsFromStorageAsJson
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BulkUpdate/GetJobResultsFromStorageAsJson
@@ -70,7 +71,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "voluptatem",
-  "asperiores"
+  "aliquam",
+  "inventore"
 ]
 ```

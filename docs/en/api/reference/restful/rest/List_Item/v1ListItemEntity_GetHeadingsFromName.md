@@ -2,6 +2,7 @@
 title: GET List/{name}/Headings
 uid: v1ListItemEntity_GetHeadingsFromName
 generated: true
+content_type: reference
 ---
 
 # GET List/{name}/Headings
@@ -64,7 +65,7 @@ OK
 GET /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +76,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 373,
-    "Name": "Murazik Inc and Sons",
-    "Tooltip": "ad",
+    "HeadingId": 328,
+    "Name": "Blanda LLC",
+    "Tooltip": "minima",
     "Deleted": false,
-    "Rank": 871,
-    "UdListDefinitionId": 903,
+    "Rank": 208,
+    "UdListDefinitionId": 449,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 415
+        "FieldType": "System.String",
+        "FieldLength": 474
       }
     }
   }

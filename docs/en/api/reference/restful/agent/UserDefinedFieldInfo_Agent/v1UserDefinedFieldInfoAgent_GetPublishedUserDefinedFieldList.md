@@ -2,6 +2,7 @@
 title: POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 uid: v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedFieldList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
@@ -106,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 697,
-    "ColumnId": 545,
-    "FieldDefault": "illo",
-    "FieldHeight": 936,
-    "FieldLabel": "perspiciatis",
-    "FieldLeft": 560,
-    "FieldTop": 560,
+    "UDefFieldId": 261,
+    "ColumnId": 463,
+    "FieldDefault": "culpa",
+    "FieldHeight": 982,
+    "FieldLabel": "saepe",
+    "FieldLeft": 984,
+    "FieldTop": 111,
     "FieldType": "Checkbox",
-    "FieldWidth": 295,
-    "FormatMask": "similique",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 142,
-    "LabelLeft": 875,
-    "LabelTop": 464,
-    "LabelWidth": 119,
-    "LastVersionId": 187,
-    "ListTableId": 427,
+    "FieldWidth": 336,
+    "FormatMask": "in",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 463,
+    "LabelLeft": 391,
+    "LabelTop": 66,
+    "LabelWidth": 408,
+    "LastVersionId": 241,
+    "ListTableId": 248,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 143,
-    "ProgId": "aut",
+    "Page1LineNo": 180,
+    "ProgId": "consequuntur",
     "IsReadOnly": false,
-    "ShortLabel": "quis",
-    "TabOrder": 267,
-    "TextLength": 558,
-    "Tooltip": "tempora",
-    "UdefIdentity": 130,
-    "UDListDefinitionId": 1000,
+    "ShortLabel": "autem",
+    "TabOrder": 545,
+    "TextLength": 276,
+    "Tooltip": "repellendus",
+    "UdefIdentity": 834,
+    "UDListDefinitionId": 792,
     "Justification": "Center",
-    "Version": 478,
-    "TemplateVariableName": "McCullough-Beatty",
-    "HasBeenPublished": false,
-    "MdoListName": "Ziemann LLC",
+    "Version": 58,
+    "TemplateVariableName": "Fadel Inc and Sons",
+    "HasBeenPublished": true,
+    "MdoListName": "Bayer LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 840
+        "FieldLength": 573
       }
     }
   }

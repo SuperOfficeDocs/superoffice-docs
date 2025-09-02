@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.MoveEmailsToTrash SOAP
 generated: true
 uid: Services88-EMail-MoveEmailsToTrash
+content_type: reference
 ---
 
 # Services88 EMail MoveEmailsToTrash

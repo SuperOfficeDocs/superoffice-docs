@@ -2,6 +2,7 @@
 title: Services88.AppointmentAgent.DeleteVideoMeetingReservation SOAP
 generated: true
 uid: Services88-Appointment-DeleteVideoMeetingReservation
+content_type: reference
 ---
 
 # Services88 Appointment DeleteVideoMeetingReservation

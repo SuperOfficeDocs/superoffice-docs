@@ -2,6 +2,7 @@
 title: POST List/SaleType/Headings
 uid: v1SaleTypeList_PostSaleTypeEntityHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/SaleType/Headings
@@ -75,16 +76,16 @@ OK
 POST /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 43,
-  "Name": "Koelpin, Wisozk and Bruen",
-  "Tooltip": "molestiae",
+  "HeadingId": 980,
+  "Name": "Corwin Group",
+  "Tooltip": "fuga",
   "Deleted": false,
-  "Rank": 47,
-  "UdListDefinitionId": 418
+  "Rank": 119,
+  "UdListDefinitionId": 832
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 114,
-  "Name": "Wuckert LLC",
-  "Tooltip": "error",
+  "HeadingId": 414,
+  "Name": "Hermann Group",
+  "Tooltip": "autem",
   "Deleted": false,
-  "Rank": 120,
-  "UdListDefinitionId": 407,
+  "Rank": 148,
+  "UdListDefinitionId": 740,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 469
+      "FieldLength": 624
     }
   }
 }

@@ -2,6 +2,7 @@
 title: GET List/DocumentTemplate/Plugin
 uid: v1DocumentTemplateList_GetPluginList
 generated: true
+content_type: reference
 ---
 
 # GET List/DocumentTemplate/Plugin
@@ -50,7 +51,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Plugin
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -60,7 +61,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "provident",
-  "2": "ad"
+  "1": "unde",
+  "2": "rem"
 }
 ```

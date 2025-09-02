@@ -2,10 +2,10 @@
 uid: enum-roletype
 title: Enum values for RoleType
 description: Lists the enum values for RoleType.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # RoleType Enum

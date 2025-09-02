@@ -2,6 +2,7 @@
 title: POST Agents/Dash/CreateDefaultDashCollection
 uid: v1DashAgent_CreateDefaultDashCollection
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/CreateDefaultDashCollection
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 ```
 
-Set default values into a new DashCollection.
+Loading default values into a new DashCollection.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -71,111 +70,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 906,
-      "UniqueId": "odio",
-      "Name": "Deckow, Wilkinson and Mitchell",
-      "Description": "Optimized directional framework",
-      "AssociateId": 952,
-      "Columns": 739,
+      "DashboardId": 887,
+      "UniqueId": "nisi",
+      "Name": "Lind, Lynch and Homenick",
+      "Description": "Balanced even-keeled orchestration",
+      "AssociateId": 339,
+      "Columns": 720,
       "Theme": null,
-      "VisibleForAll": 308,
+      "VisibleForAll": 377,
       "VisibleForAssociates": [
-        240,
-        109
+        909,
+        661
       ],
       "VisibleForGroups": [
-        435,
-        801
+        234,
+        139
       ],
-      "PinForAll": 580,
+      "PinForAll": 351,
       "PinForAssociates": [
-        529,
-        88
+        904,
+        434
       ],
       "PinForGroups": [
-        721,
-        627
+        52,
+        722
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 153
+          "FieldLength": 427
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 832,
-      "UniqueId": "aut",
-      "Name": "Ondricka-Bogisich",
-      "Description": "Fully-configurable optimal portal",
-      "AssociateId": 806,
-      "Columns": 41,
+      "DashboardId": 928,
+      "UniqueId": "enim",
+      "Name": "Rodriguez-Nienow",
+      "Description": "Triple-buffered human-resource methodology",
+      "AssociateId": 252,
+      "Columns": 627,
       "Theme": null,
-      "VisibleForAll": 569,
+      "VisibleForAll": 928,
       "VisibleForAssociates": [
-        584,
-        979
+        322,
+        839
       ],
       "VisibleForGroups": [
-        43,
-        972
+        594,
+        533
       ],
-      "PinForAll": 600,
+      "PinForAll": 459,
       "PinForAssociates": [
-        789,
-        44
+        59,
+        307
       ],
       "PinForGroups": [
-        508,
-        733
+        1000,
+        832
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 307
+          "FieldLength": 195
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 126,
-      "UniqueId": "omnis",
-      "Name": "Klein-Schaden",
-      "Description": "Ergonomic local Graphical User Interface",
-      "AssociateId": 444,
-      "Columns": 21,
+      "DashboardId": 821,
+      "UniqueId": "architecto",
+      "Name": "Green, Gibson and Prosacco",
+      "Description": "Synergized optimal support",
+      "AssociateId": 51,
+      "Columns": 137,
       "Theme": null,
-      "VisibleForAll": 742,
+      "VisibleForAll": 47,
       "VisibleForAssociates": [
-        68,
-        203
+        447,
+        13
       ],
       "VisibleForGroups": [
-        847,
-        618
+        159,
+        907
       ],
-      "PinForAll": 697,
+      "PinForAll": 556,
       "PinForAssociates": [
-        694,
-        597
+        10,
+        647
       ],
       "PinForGroups": [
-        232,
-        645
+        523,
+        315
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 162
+          "FieldType": "System.String",
+          "FieldLength": 55
         }
       }
     }
@@ -184,8 +183,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 16
+      "FieldType": "System.Int32",
+      "FieldLength": 111
     }
   }
 }

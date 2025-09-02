@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.WorkflowAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.WorkflowAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.WorkflowAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   - SuperOffice.CRM.Services.WorkflowAgent.AddAfterWorkflowStepAsync(System.Int32,SuperOffice.CRM.Services.WorkflowStepBase,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.WorkflowAgent.ConnectEmailFlowContentAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.WorkflowAgent.CopyEmailFlowAsync(System.Int32,System.String,System.Threading.CancellationToken)
@@ -116,22 +116,22 @@ items:
   nameWithType.vb: WorkflowAgent.New(IEmailFlowImplementation, IWorkflowEventImplementation, IWorkflowEventResultImplementation, IWorkflowFilterImplementation, IWorkflowGoalImplementation, IWorkflowStepBaseImplementation, IWorkflowStepOptionBaseImplementation, IWorkflowTriggerImplementation, IWorkflowWaitForActionImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.WorkflowAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IEmailFlowImplementation, IWorkflowEventImplementation, IWorkflowEventResultImplementation, IWorkflowFilterImplementation, IWorkflowGoalImplementation, IWorkflowStepBaseImplementation, IWorkflowStepOptionBaseImplementation, IWorkflowTriggerImplementation, IWorkflowWaitForActionImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.WorkflowAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+- uid: SuperOffice.CRM.Services.WorkflowAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
   parent: SuperOffice.CRM.Services.WorkflowAgent
   langs:
   - csharp
   - vb
-  name: WorkflowAgent(IEmailFlowImplementation, IWorkflowEventImplementation, IWorkflowEventResultImplementation, IWorkflowFilterImplementation, IWorkflowGoalImplementation, IWorkflowStepBaseImplementation, IWorkflowStepOptionBaseImplementation, IWorkflowTriggerImplementation, IWorkflowWaitForActionImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  nameWithType: WorkflowAgent.WorkflowAgent(IEmailFlowImplementation, IWorkflowEventImplementation, IWorkflowEventResultImplementation, IWorkflowFilterImplementation, IWorkflowGoalImplementation, IWorkflowStepBaseImplementation, IWorkflowStepOptionBaseImplementation, IWorkflowTriggerImplementation, IWorkflowWaitForActionImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.WorkflowAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name: WorkflowAgent(IEmailFlowImplementation, IWorkflowEventImplementation, IWorkflowEventResultImplementation, IWorkflowFilterImplementation, IWorkflowGoalImplementation, IWorkflowStepBaseImplementation, IWorkflowStepOptionBaseImplementation, IWorkflowTriggerImplementation, IWorkflowWaitForActionImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType: WorkflowAgent.WorkflowAgent(IEmailFlowImplementation, IWorkflowEventImplementation, IWorkflowEventResultImplementation, IWorkflowFilterImplementation, IWorkflowGoalImplementation, IWorkflowStepBaseImplementation, IWorkflowStepOptionBaseImplementation, IWorkflowTriggerImplementation, IWorkflowWaitForActionImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.WorkflowAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public WorkflowAgent(IEmailFlowImplementation emailFlowImplementation, IWorkflowEventImplementation workflowEventImplementation, IWorkflowEventResultImplementation workflowEventResultImplementation, IWorkflowFilterImplementation workflowFilterImplementation, IWorkflowGoalImplementation workflowGoalImplementation, IWorkflowStepBaseImplementation workflowStepBaseImplementation, IWorkflowStepOptionBaseImplementation workflowStepOptionBaseImplementation, IWorkflowTriggerImplementation workflowTriggerImplementation, IWorkflowWaitForActionImplementation workflowWaitForActionImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    content: public WorkflowAgent(IEmailFlowImplementation emailFlowImplementation, IWorkflowEventImplementation workflowEventImplementation, IWorkflowEventResultImplementation workflowEventResultImplementation, IWorkflowFilterImplementation workflowFilterImplementation, IWorkflowGoalImplementation workflowGoalImplementation, IWorkflowStepBaseImplementation workflowStepBaseImplementation, IWorkflowStepOptionBaseImplementation workflowStepOptionBaseImplementation, IWorkflowTriggerImplementation workflowTriggerImplementation, IWorkflowWaitForActionImplementation workflowWaitForActionImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
     parameters:
     - id: emailFlowImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation
@@ -157,11 +157,15 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    content.vb: Public Sub New(emailFlowImplementation As IEmailFlowImplementation, workflowEventImplementation As IWorkflowEventImplementation, workflowEventResultImplementation As IWorkflowEventResultImplementation, workflowFilterImplementation As IWorkflowFilterImplementation, workflowGoalImplementation As IWorkflowGoalImplementation, workflowStepBaseImplementation As IWorkflowStepBaseImplementation, workflowStepOptionBaseImplementation As IWorkflowStepOptionBaseImplementation, workflowTriggerImplementation As IWorkflowTriggerImplementation, workflowWaitForActionImplementation As IWorkflowWaitForActionImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+    - id: scriptingConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+    - id: onlineConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+    content.vb: Public Sub New(emailFlowImplementation As IEmailFlowImplementation, workflowEventImplementation As IWorkflowEventImplementation, workflowEventResultImplementation As IWorkflowEventResultImplementation, workflowFilterImplementation As IWorkflowFilterImplementation, workflowGoalImplementation As IWorkflowGoalImplementation, workflowStepBaseImplementation As IWorkflowStepBaseImplementation, workflowStepOptionBaseImplementation As IWorkflowStepOptionBaseImplementation, workflowTriggerImplementation As IWorkflowTriggerImplementation, workflowWaitForActionImplementation As IWorkflowWaitForActionImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
   overload: SuperOffice.CRM.Services.WorkflowAgent.#ctor*
-  nameWithType.vb: WorkflowAgent.New(IEmailFlowImplementation, IWorkflowEventImplementation, IWorkflowEventResultImplementation, IWorkflowFilterImplementation, IWorkflowGoalImplementation, IWorkflowStepBaseImplementation, IWorkflowStepOptionBaseImplementation, IWorkflowTriggerImplementation, IWorkflowWaitForActionImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName.vb: SuperOffice.CRM.Services.WorkflowAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
-  name.vb: New(IEmailFlowImplementation, IWorkflowEventImplementation, IWorkflowEventResultImplementation, IWorkflowFilterImplementation, IWorkflowGoalImplementation, IWorkflowStepBaseImplementation, IWorkflowStepOptionBaseImplementation, IWorkflowTriggerImplementation, IWorkflowWaitForActionImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType.vb: WorkflowAgent.New(IEmailFlowImplementation, IWorkflowEventImplementation, IWorkflowEventResultImplementation, IWorkflowFilterImplementation, IWorkflowGoalImplementation, IWorkflowStepBaseImplementation, IWorkflowStepOptionBaseImplementation, IWorkflowTriggerImplementation, IWorkflowWaitForActionImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName.vb: SuperOffice.CRM.Services.WorkflowAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IEmailFlowImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowEventResultImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowFilterImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowGoalImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepBaseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowStepOptionBaseImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowTriggerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IWorkflowWaitForActionImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name.vb: New(IEmailFlowImplementation, IWorkflowEventImplementation, IWorkflowEventResultImplementation, IWorkflowFilterImplementation, IWorkflowGoalImplementation, IWorkflowStepBaseImplementation, IWorkflowStepOptionBaseImplementation, IWorkflowTriggerImplementation, IWorkflowWaitForActionImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
 - uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultEmailFlowAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultEmailFlowAsync(System.Threading.CancellationToken)
   id: CreateDefaultEmailFlowAsync(System.Threading.CancellationToken)
@@ -176,16 +180,14 @@ items:
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new EmailFlow.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  summary: Loading default values into a new EmailFlow.
   example: []
   syntax:
     content: public Task<EmailFlow> CreateDefaultEmailFlowAsync(CancellationToken cancellationToken = default)
     parameters:
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.EmailFlow}
       description: New EmailFlow with default values
@@ -207,16 +209,17 @@ items:
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing EmailFlow or creates a new EmailFlow if the id parameter is empty
+  summary: Updates the existing EmailFlow or creates a new EmailFlow if the id parameter is 0.
   example: []
   syntax:
     content: public Task<EmailFlow> SaveEmailFlowAsync(EmailFlow emailFlow, CancellationToken cancellationToken = default)
     parameters:
     - id: emailFlow
       type: SuperOffice.CRM.Services.EmailFlow
-      description: The EmailFlow that is saved.
+      description: The EmailFlow that is saved
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.EmailFlow}
       description: New or updated EmailFlow
@@ -248,8 +251,10 @@ items:
       description: The identity of the EmailFlow
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task
+      description: This method has no return value
     content.vb: Public Function DeleteEmailFlowAsync(emailFlowId As Integer, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.WorkflowAgent.DeleteEmailFlowAsync*
   implements:
@@ -257,384 +262,6 @@ items:
   nameWithType.vb: WorkflowAgent.DeleteEmailFlowAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.WorkflowAgent.DeleteEmailFlowAsync(Integer, System.Threading.CancellationToken)
   name.vb: DeleteEmailFlowAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
-  id: CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.WorkflowAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultWorkflowEventAsync(CancellationToken)
-  nameWithType: WorkflowAgent.CreateDefaultWorkflowEventAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new WorkflowEvent.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: public Task<WorkflowEvent> CreateDefaultWorkflowEventAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowEvent}
-      description: New WorkflowEvent with default values
-    content.vb: Public Function CreateDefaultWorkflowEventAsync(cancellationToken As CancellationToken = Nothing) As Task(Of WorkflowEvent)
-  overload: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventAsync*
-  implements:
-  - SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventResultAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventResultAsync(System.Threading.CancellationToken)
-  id: CreateDefaultWorkflowEventResultAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.WorkflowAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultWorkflowEventResultAsync(CancellationToken)
-  nameWithType: WorkflowAgent.CreateDefaultWorkflowEventResultAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventResultAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new WorkflowEventResult.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: public Task<WorkflowEventResult> CreateDefaultWorkflowEventResultAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowEventResult}
-      description: New WorkflowEventResult with default values
-    content.vb: Public Function CreateDefaultWorkflowEventResultAsync(cancellationToken As CancellationToken = Nothing) As Task(Of WorkflowEventResult)
-  overload: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventResultAsync*
-  implements:
-  - SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventResultAsync(System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowFilterAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowFilterAsync(System.Threading.CancellationToken)
-  id: CreateDefaultWorkflowFilterAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.WorkflowAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultWorkflowFilterAsync(CancellationToken)
-  nameWithType: WorkflowAgent.CreateDefaultWorkflowFilterAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowFilterAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new WorkflowFilter.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: public Task<WorkflowFilter> CreateDefaultWorkflowFilterAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowFilter}
-      description: New WorkflowFilter with default values
-    content.vb: Public Function CreateDefaultWorkflowFilterAsync(cancellationToken As CancellationToken = Nothing) As Task(Of WorkflowFilter)
-  overload: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowFilterAsync*
-  implements:
-  - SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowFilterAsync(System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowGoalAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowGoalAsync(System.Threading.CancellationToken)
-  id: CreateDefaultWorkflowGoalAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.WorkflowAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultWorkflowGoalAsync(CancellationToken)
-  nameWithType: WorkflowAgent.CreateDefaultWorkflowGoalAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowGoalAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new WorkflowGoal.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: public Task<WorkflowGoal> CreateDefaultWorkflowGoalAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowGoal}
-      description: New WorkflowGoal with default values
-    content.vb: Public Function CreateDefaultWorkflowGoalAsync(cancellationToken As CancellationToken = Nothing) As Task(Of WorkflowGoal)
-  overload: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowGoalAsync*
-  implements:
-  - SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowGoalAsync(System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.CRM.Services.WorkflowGoal,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.CRM.Services.WorkflowGoal,System.Threading.CancellationToken)
-  id: SaveWorkflowGoalAsync(SuperOffice.CRM.Services.WorkflowGoal,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.WorkflowAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveWorkflowGoalAsync(WorkflowGoal, CancellationToken)
-  nameWithType: WorkflowAgent.SaveWorkflowGoalAsync(WorkflowGoal, CancellationToken)
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.CRM.Services.WorkflowGoal, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing WorkflowGoal or creates a new WorkflowGoal if the id parameter is empty
-  example: []
-  syntax:
-    content: public Task<WorkflowGoal> SaveWorkflowGoalAsync(WorkflowGoal workflowGoal, CancellationToken cancellationToken = default)
-    parameters:
-    - id: workflowGoal
-      type: SuperOffice.CRM.Services.WorkflowGoal
-      description: The WorkflowGoal that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowGoal}
-      description: New or updated WorkflowGoal
-    content.vb: Public Function SaveWorkflowGoalAsync(workflowGoal As WorkflowGoal, cancellationToken As CancellationToken = Nothing) As Task(Of WorkflowGoal)
-  overload: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowGoalAsync*
-  implements:
-  - SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.CRM.Services.WorkflowGoal,System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowGoalAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowGoalAsync(System.Int32,System.Threading.CancellationToken)
-  id: DeleteWorkflowGoalAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.WorkflowAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteWorkflowGoalAsync(int, CancellationToken)
-  nameWithType: WorkflowAgent.DeleteWorkflowGoalAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowGoalAsync(int, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: Deletes the WorkflowGoal
-  example: []
-  syntax:
-    content: public Task DeleteWorkflowGoalAsync(int workflowGoalId, CancellationToken cancellationToken = default)
-    parameters:
-    - id: workflowGoalId
-      type: System.Int32
-      description: The identity of the WorkflowGoal
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Public Function DeleteWorkflowGoalAsync(workflowGoalId As Integer, cancellationToken As CancellationToken = Nothing) As Task
-  overload: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowGoalAsync*
-  implements:
-  - SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowGoalAsync(System.Int32,System.Threading.CancellationToken)
-  nameWithType.vb: WorkflowAgent.DeleteWorkflowGoalAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowGoalAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeleteWorkflowGoalAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowTriggerAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowTriggerAsync(System.Threading.CancellationToken)
-  id: CreateDefaultWorkflowTriggerAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.WorkflowAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultWorkflowTriggerAsync(CancellationToken)
-  nameWithType: WorkflowAgent.CreateDefaultWorkflowTriggerAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowTriggerAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new WorkflowTrigger.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: public Task<WorkflowTrigger> CreateDefaultWorkflowTriggerAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowTrigger}
-      description: New WorkflowTrigger with default values
-    content.vb: Public Function CreateDefaultWorkflowTriggerAsync(cancellationToken As CancellationToken = Nothing) As Task(Of WorkflowTrigger)
-  overload: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowTriggerAsync*
-  implements:
-  - SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowTriggerAsync(System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.CRM.Services.WorkflowTrigger,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.CRM.Services.WorkflowTrigger,System.Threading.CancellationToken)
-  id: SaveWorkflowTriggerAsync(SuperOffice.CRM.Services.WorkflowTrigger,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.WorkflowAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveWorkflowTriggerAsync(WorkflowTrigger, CancellationToken)
-  nameWithType: WorkflowAgent.SaveWorkflowTriggerAsync(WorkflowTrigger, CancellationToken)
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.CRM.Services.WorkflowTrigger, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing WorkflowTrigger or creates a new WorkflowTrigger if the id parameter is empty
-  example: []
-  syntax:
-    content: public Task<WorkflowTrigger> SaveWorkflowTriggerAsync(WorkflowTrigger workflowTrigger, CancellationToken cancellationToken = default)
-    parameters:
-    - id: workflowTrigger
-      type: SuperOffice.CRM.Services.WorkflowTrigger
-      description: The WorkflowTrigger that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowTrigger}
-      description: New or updated WorkflowTrigger
-    content.vb: Public Function SaveWorkflowTriggerAsync(workflowTrigger As WorkflowTrigger, cancellationToken As CancellationToken = Nothing) As Task(Of WorkflowTrigger)
-  overload: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowTriggerAsync*
-  implements:
-  - SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.CRM.Services.WorkflowTrigger,System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,System.Threading.CancellationToken)
-  id: DeleteWorkflowTriggerAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.WorkflowAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteWorkflowTriggerAsync(int, CancellationToken)
-  nameWithType: WorkflowAgent.DeleteWorkflowTriggerAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowTriggerAsync(int, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: Deletes the WorkflowTrigger
-  example: []
-  syntax:
-    content: public Task DeleteWorkflowTriggerAsync(int workflowTriggerId, CancellationToken cancellationToken = default)
-    parameters:
-    - id: workflowTriggerId
-      type: System.Int32
-      description: The identity of the WorkflowTrigger
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Public Function DeleteWorkflowTriggerAsync(workflowTriggerId As Integer, cancellationToken As CancellationToken = Nothing) As Task
-  overload: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowTriggerAsync*
-  implements:
-  - SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,System.Threading.CancellationToken)
-  nameWithType.vb: WorkflowAgent.DeleteWorkflowTriggerAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowTriggerAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeleteWorkflowTriggerAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowWaitForActionAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowWaitForActionAsync(System.Threading.CancellationToken)
-  id: CreateDefaultWorkflowWaitForActionAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.WorkflowAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultWorkflowWaitForActionAsync(CancellationToken)
-  nameWithType: WorkflowAgent.CreateDefaultWorkflowWaitForActionAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowWaitForActionAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new WorkflowWaitForAction.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: public Task<WorkflowWaitForAction> CreateDefaultWorkflowWaitForActionAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowWaitForAction}
-      description: New WorkflowWaitForAction with default values
-    content.vb: Public Function CreateDefaultWorkflowWaitForActionAsync(cancellationToken As CancellationToken = Nothing) As Task(Of WorkflowWaitForAction)
-  overload: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowWaitForActionAsync*
-  implements:
-  - SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowWaitForActionAsync(System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowWaitForActionAsync(SuperOffice.CRM.Services.WorkflowWaitForAction,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowWaitForActionAsync(SuperOffice.CRM.Services.WorkflowWaitForAction,System.Threading.CancellationToken)
-  id: SaveWorkflowWaitForActionAsync(SuperOffice.CRM.Services.WorkflowWaitForAction,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.WorkflowAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveWorkflowWaitForActionAsync(WorkflowWaitForAction, CancellationToken)
-  nameWithType: WorkflowAgent.SaveWorkflowWaitForActionAsync(WorkflowWaitForAction, CancellationToken)
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowWaitForActionAsync(SuperOffice.CRM.Services.WorkflowWaitForAction, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing WorkflowWaitForAction or creates a new WorkflowWaitForAction if the id parameter is empty
-  example: []
-  syntax:
-    content: public Task<WorkflowWaitForAction> SaveWorkflowWaitForActionAsync(WorkflowWaitForAction workflowWaitForAction, CancellationToken cancellationToken = default)
-    parameters:
-    - id: workflowWaitForAction
-      type: SuperOffice.CRM.Services.WorkflowWaitForAction
-      description: The WorkflowWaitForAction that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowWaitForAction}
-      description: New or updated WorkflowWaitForAction
-    content.vb: Public Function SaveWorkflowWaitForActionAsync(workflowWaitForAction As WorkflowWaitForAction, cancellationToken As CancellationToken = Nothing) As Task(Of WorkflowWaitForAction)
-  overload: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowWaitForActionAsync*
-  implements:
-  - SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowWaitForActionAsync(SuperOffice.CRM.Services.WorkflowWaitForAction,System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowWaitForActionAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowWaitForActionAsync(System.Int32,System.Threading.CancellationToken)
-  id: DeleteWorkflowWaitForActionAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.WorkflowAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteWorkflowWaitForActionAsync(int, CancellationToken)
-  nameWithType: WorkflowAgent.DeleteWorkflowWaitForActionAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowWaitForActionAsync(int, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: Deletes the WorkflowWaitForAction
-  example: []
-  syntax:
-    content: public Task DeleteWorkflowWaitForActionAsync(int workflowWaitForActionId, CancellationToken cancellationToken = default)
-    parameters:
-    - id: workflowWaitForActionId
-      type: System.Int32
-      description: The identity of the WorkflowWaitForAction
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Public Function DeleteWorkflowWaitForActionAsync(workflowWaitForActionId As Integer, cancellationToken As CancellationToken = Nothing) As Task
-  overload: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowWaitForActionAsync*
-  implements:
-  - SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowWaitForActionAsync(System.Int32,System.Threading.CancellationToken)
-  nameWithType.vb: WorkflowAgent.DeleteWorkflowWaitForActionAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowWaitForActionAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeleteWorkflowWaitForActionAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.WorkflowAgent.GetEmailFlowAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.WorkflowAgent.GetEmailFlowAsync(System.Int32,System.Threading.CancellationToken)
   id: GetEmailFlowAsync(System.Int32,System.Threading.CancellationToken)
@@ -659,9 +286,10 @@ items:
       description: The identifier of the EmailFlow object
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.EmailFlow}
-      description: EmailFlow
+      description: A single EmailFlow
     content.vb: Public Function GetEmailFlowAsync(emailFlowId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of EmailFlow)
   overload: SuperOffice.CRM.Services.WorkflowAgent.GetEmailFlowAsync*
   implements:
@@ -970,6 +598,35 @@ items:
   nameWithType.vb: WorkflowAgent.CopyEmailFlowAsync(Integer, String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.WorkflowAgent.CopyEmailFlowAsync(Integer, String, System.Threading.CancellationToken)
   name.vb: CopyEmailFlowAsync(Integer, String, CancellationToken)
+- uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
+  id: CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultWorkflowEventAsync(CancellationToken)
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowEventAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new WorkflowEvent.
+  example: []
+  syntax:
+    content: public Task<WorkflowEvent> CreateDefaultWorkflowEventAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowEvent}
+      description: New WorkflowEvent with default values
+    content.vb: Public Function CreateDefaultWorkflowEventAsync(cancellationToken As CancellationToken = Nothing) As Task(Of WorkflowEvent)
+  overload: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventAsync*
+  implements:
+  - SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
 - uid: SuperOffice.CRM.Services.WorkflowAgent.RunAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.WorkflowAgent.RunAsync(System.Threading.CancellationToken)
   id: RunAsync(System.Threading.CancellationToken)
@@ -1031,6 +688,160 @@ items:
   overload: SuperOffice.CRM.Services.WorkflowAgent.SendEventAsync*
   implements:
   - SuperOffice.CRM.Services.IWorkflowAgent.SendEventAsync(SuperOffice.CRM.Services.WorkflowEvent,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventResultAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventResultAsync(System.Threading.CancellationToken)
+  id: CreateDefaultWorkflowEventResultAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultWorkflowEventResultAsync(CancellationToken)
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowEventResultAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventResultAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new WorkflowEventResult.
+  example: []
+  syntax:
+    content: public Task<WorkflowEventResult> CreateDefaultWorkflowEventResultAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowEventResult}
+      description: New WorkflowEventResult with default values
+    content.vb: Public Function CreateDefaultWorkflowEventResultAsync(cancellationToken As CancellationToken = Nothing) As Task(Of WorkflowEventResult)
+  overload: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventResultAsync*
+  implements:
+  - SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventResultAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowFilterAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowFilterAsync(System.Threading.CancellationToken)
+  id: CreateDefaultWorkflowFilterAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultWorkflowFilterAsync(CancellationToken)
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowFilterAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowFilterAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new WorkflowFilter.
+  example: []
+  syntax:
+    content: public Task<WorkflowFilter> CreateDefaultWorkflowFilterAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowFilter}
+      description: New WorkflowFilter with default values
+    content.vb: Public Function CreateDefaultWorkflowFilterAsync(cancellationToken As CancellationToken = Nothing) As Task(Of WorkflowFilter)
+  overload: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowFilterAsync*
+  implements:
+  - SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowFilterAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowGoalAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowGoalAsync(System.Threading.CancellationToken)
+  id: CreateDefaultWorkflowGoalAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultWorkflowGoalAsync(CancellationToken)
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowGoalAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowGoalAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new WorkflowGoal.
+  example: []
+  syntax:
+    content: public Task<WorkflowGoal> CreateDefaultWorkflowGoalAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowGoal}
+      description: New WorkflowGoal with default values
+    content.vb: Public Function CreateDefaultWorkflowGoalAsync(cancellationToken As CancellationToken = Nothing) As Task(Of WorkflowGoal)
+  overload: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowGoalAsync*
+  implements:
+  - SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowGoalAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.CRM.Services.WorkflowGoal,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.CRM.Services.WorkflowGoal,System.Threading.CancellationToken)
+  id: SaveWorkflowGoalAsync(SuperOffice.CRM.Services.WorkflowGoal,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveWorkflowGoalAsync(WorkflowGoal, CancellationToken)
+  nameWithType: WorkflowAgent.SaveWorkflowGoalAsync(WorkflowGoal, CancellationToken)
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.CRM.Services.WorkflowGoal, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing WorkflowGoal or creates a new WorkflowGoal if the id parameter is 0.
+  example: []
+  syntax:
+    content: public Task<WorkflowGoal> SaveWorkflowGoalAsync(WorkflowGoal workflowGoal, CancellationToken cancellationToken = default)
+    parameters:
+    - id: workflowGoal
+      type: SuperOffice.CRM.Services.WorkflowGoal
+      description: The WorkflowGoal that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowGoal}
+      description: New or updated WorkflowGoal
+    content.vb: Public Function SaveWorkflowGoalAsync(workflowGoal As WorkflowGoal, cancellationToken As CancellationToken = Nothing) As Task(Of WorkflowGoal)
+  overload: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowGoalAsync*
+  implements:
+  - SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.CRM.Services.WorkflowGoal,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowGoalAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowGoalAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteWorkflowGoalAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteWorkflowGoalAsync(int, CancellationToken)
+  nameWithType: WorkflowAgent.DeleteWorkflowGoalAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowGoalAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Deletes the WorkflowGoal
+  example: []
+  syntax:
+    content: public Task DeleteWorkflowGoalAsync(int workflowGoalId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: workflowGoalId
+      type: System.Int32
+      description: The identity of the WorkflowGoal
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function DeleteWorkflowGoalAsync(workflowGoalId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowGoalAsync*
+  implements:
+  - SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowGoalAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: WorkflowAgent.DeleteWorkflowGoalAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowGoalAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteWorkflowGoalAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowGoalAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowGoalAsync(System.Int32,System.Threading.CancellationToken)
   id: GetWorkflowGoalAsync(System.Int32,System.Threading.CancellationToken)
@@ -1055,9 +866,10 @@ items:
       description: The identifier of the WorkflowGoal object
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowGoal}
-      description: WorkflowGoal
+      description: A single WorkflowGoal
     content.vb: Public Function GetWorkflowGoalAsync(workflowGoalId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of WorkflowGoal)
   overload: SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowGoalAsync*
   implements:
@@ -1237,6 +1049,102 @@ items:
   nameWithType.vb: WorkflowAgent.GetWorkflowStepOptionAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowStepOptionAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetWorkflowStepOptionAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowTriggerAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowTriggerAsync(System.Threading.CancellationToken)
+  id: CreateDefaultWorkflowTriggerAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultWorkflowTriggerAsync(CancellationToken)
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowTriggerAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowTriggerAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new WorkflowTrigger.
+  example: []
+  syntax:
+    content: public Task<WorkflowTrigger> CreateDefaultWorkflowTriggerAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowTrigger}
+      description: New WorkflowTrigger with default values
+    content.vb: Public Function CreateDefaultWorkflowTriggerAsync(cancellationToken As CancellationToken = Nothing) As Task(Of WorkflowTrigger)
+  overload: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowTriggerAsync*
+  implements:
+  - SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowTriggerAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.CRM.Services.WorkflowTrigger,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.CRM.Services.WorkflowTrigger,System.Threading.CancellationToken)
+  id: SaveWorkflowTriggerAsync(SuperOffice.CRM.Services.WorkflowTrigger,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveWorkflowTriggerAsync(WorkflowTrigger, CancellationToken)
+  nameWithType: WorkflowAgent.SaveWorkflowTriggerAsync(WorkflowTrigger, CancellationToken)
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.CRM.Services.WorkflowTrigger, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing WorkflowTrigger or creates a new WorkflowTrigger if the id parameter is 0.
+  example: []
+  syntax:
+    content: public Task<WorkflowTrigger> SaveWorkflowTriggerAsync(WorkflowTrigger workflowTrigger, CancellationToken cancellationToken = default)
+    parameters:
+    - id: workflowTrigger
+      type: SuperOffice.CRM.Services.WorkflowTrigger
+      description: The WorkflowTrigger that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowTrigger}
+      description: New or updated WorkflowTrigger
+    content.vb: Public Function SaveWorkflowTriggerAsync(workflowTrigger As WorkflowTrigger, cancellationToken As CancellationToken = Nothing) As Task(Of WorkflowTrigger)
+  overload: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowTriggerAsync*
+  implements:
+  - SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.CRM.Services.WorkflowTrigger,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteWorkflowTriggerAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteWorkflowTriggerAsync(int, CancellationToken)
+  nameWithType: WorkflowAgent.DeleteWorkflowTriggerAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowTriggerAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Deletes the WorkflowTrigger
+  example: []
+  syntax:
+    content: public Task DeleteWorkflowTriggerAsync(int workflowTriggerId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: workflowTriggerId
+      type: System.Int32
+      description: The identity of the WorkflowTrigger
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function DeleteWorkflowTriggerAsync(workflowTriggerId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowTriggerAsync*
+  implements:
+  - SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: WorkflowAgent.DeleteWorkflowTriggerAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowTriggerAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteWorkflowTriggerAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowTriggerAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowTriggerAsync(System.Int32,System.Threading.CancellationToken)
   id: GetWorkflowTriggerAsync(System.Int32,System.Threading.CancellationToken)
@@ -1261,9 +1169,10 @@ items:
       description: The identifier of the WorkflowTrigger object
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowTrigger}
-      description: WorkflowTrigger
+      description: A single WorkflowTrigger
     content.vb: Public Function GetWorkflowTriggerAsync(workflowTriggerId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of WorkflowTrigger)
   overload: SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowTriggerAsync*
   implements:
@@ -1271,6 +1180,102 @@ items:
   nameWithType.vb: WorkflowAgent.GetWorkflowTriggerAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowTriggerAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetWorkflowTriggerAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowWaitForActionAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowWaitForActionAsync(System.Threading.CancellationToken)
+  id: CreateDefaultWorkflowWaitForActionAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultWorkflowWaitForActionAsync(CancellationToken)
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowWaitForActionAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowWaitForActionAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new WorkflowWaitForAction.
+  example: []
+  syntax:
+    content: public Task<WorkflowWaitForAction> CreateDefaultWorkflowWaitForActionAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowWaitForAction}
+      description: New WorkflowWaitForAction with default values
+    content.vb: Public Function CreateDefaultWorkflowWaitForActionAsync(cancellationToken As CancellationToken = Nothing) As Task(Of WorkflowWaitForAction)
+  overload: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowWaitForActionAsync*
+  implements:
+  - SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowWaitForActionAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowWaitForActionAsync(SuperOffice.CRM.Services.WorkflowWaitForAction,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowWaitForActionAsync(SuperOffice.CRM.Services.WorkflowWaitForAction,System.Threading.CancellationToken)
+  id: SaveWorkflowWaitForActionAsync(SuperOffice.CRM.Services.WorkflowWaitForAction,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveWorkflowWaitForActionAsync(WorkflowWaitForAction, CancellationToken)
+  nameWithType: WorkflowAgent.SaveWorkflowWaitForActionAsync(WorkflowWaitForAction, CancellationToken)
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowWaitForActionAsync(SuperOffice.CRM.Services.WorkflowWaitForAction, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing WorkflowWaitForAction or creates a new WorkflowWaitForAction if the id parameter is 0.
+  example: []
+  syntax:
+    content: public Task<WorkflowWaitForAction> SaveWorkflowWaitForActionAsync(WorkflowWaitForAction workflowWaitForAction, CancellationToken cancellationToken = default)
+    parameters:
+    - id: workflowWaitForAction
+      type: SuperOffice.CRM.Services.WorkflowWaitForAction
+      description: The WorkflowWaitForAction that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowWaitForAction}
+      description: New or updated WorkflowWaitForAction
+    content.vb: Public Function SaveWorkflowWaitForActionAsync(workflowWaitForAction As WorkflowWaitForAction, cancellationToken As CancellationToken = Nothing) As Task(Of WorkflowWaitForAction)
+  overload: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowWaitForActionAsync*
+  implements:
+  - SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowWaitForActionAsync(SuperOffice.CRM.Services.WorkflowWaitForAction,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowWaitForActionAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowWaitForActionAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteWorkflowWaitForActionAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.WorkflowAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteWorkflowWaitForActionAsync(int, CancellationToken)
+  nameWithType: WorkflowAgent.DeleteWorkflowWaitForActionAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowWaitForActionAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Deletes the WorkflowWaitForAction
+  example: []
+  syntax:
+    content: public Task DeleteWorkflowWaitForActionAsync(int workflowWaitForActionId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: workflowWaitForActionId
+      type: System.Int32
+      description: The identity of the WorkflowWaitForAction
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function DeleteWorkflowWaitForActionAsync(workflowWaitForActionId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowWaitForActionAsync*
+  implements:
+  - SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowWaitForActionAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: WorkflowAgent.DeleteWorkflowWaitForActionAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowWaitForActionAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteWorkflowWaitForActionAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowWaitForActionAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowWaitForActionAsync(System.Int32,System.Threading.CancellationToken)
   id: GetWorkflowWaitForActionAsync(System.Int32,System.Threading.CancellationToken)
@@ -1295,9 +1300,10 @@ items:
       description: The identifier of the WorkflowWaitForAction object
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowWaitForAction}
-      description: WorkflowWaitForAction
+      description: A single WorkflowWaitForAction
     content.vb: Public Function GetWorkflowWaitForActionAsync(workflowWaitForActionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of WorkflowWaitForAction)
   overload: SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowWaitForActionAsync*
   implements:
@@ -1760,6 +1766,16 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+  isExternal: true
+  name: IScriptingConfiguration
+  nameWithType: ConfigFile.IScriptingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  isExternal: true
+  name: IOnlineConfiguration
+  nameWithType: ConfigFile.IOnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
 - uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultEmailFlowAsync*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultEmailFlowAsync
   isExternal: true
@@ -2052,735 +2068,6 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
-- uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventAsync*
-  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_CreateDefaultWorkflowEventAsync_System_Threading_CancellationToken_
-  name: CreateDefaultWorkflowEventAsync
-  nameWithType: WorkflowAgent.CreateDefaultWorkflowEventAsync
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventAsync
-- uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IWorkflowAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: CreateDefaultWorkflowEventAsync(CancellationToken)
-  nameWithType: IWorkflowAgent.CreateDefaultWorkflowEventAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
-    name: CreateDefaultWorkflowEventAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
-    name: CreateDefaultWorkflowEventAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowEvent}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowEvent}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<WorkflowEvent>
-  nameWithType: Task<WorkflowEvent>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.WorkflowEvent>
-  nameWithType.vb: Task(Of WorkflowEvent)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.WorkflowEvent)
-  name.vb: Task(Of WorkflowEvent)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.WorkflowEvent
-    name: WorkflowEvent
-    isExternal: true
-    href: SuperOffice.CRM.Services.WorkflowEvent.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.WorkflowEvent
-    name: WorkflowEvent
-    isExternal: true
-    href: SuperOffice.CRM.Services.WorkflowEvent.html
-  - name: )
-- uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventResultAsync*
-  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventResultAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_CreateDefaultWorkflowEventResultAsync_System_Threading_CancellationToken_
-  name: CreateDefaultWorkflowEventResultAsync
-  nameWithType: WorkflowAgent.CreateDefaultWorkflowEventResultAsync
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventResultAsync
-- uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventResultAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventResultAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IWorkflowAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: CreateDefaultWorkflowEventResultAsync(CancellationToken)
-  nameWithType: IWorkflowAgent.CreateDefaultWorkflowEventResultAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventResultAsync(System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventResultAsync(System.Threading.CancellationToken)
-    name: CreateDefaultWorkflowEventResultAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventResultAsync(System.Threading.CancellationToken)
-    name: CreateDefaultWorkflowEventResultAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowEventResult}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowEventResult}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<WorkflowEventResult>
-  nameWithType: Task<WorkflowEventResult>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.WorkflowEventResult>
-  nameWithType.vb: Task(Of WorkflowEventResult)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.WorkflowEventResult)
-  name.vb: Task(Of WorkflowEventResult)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.WorkflowEventResult
-    name: WorkflowEventResult
-    isExternal: true
-    href: SuperOffice.CRM.Services.WorkflowEventResult.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.WorkflowEventResult
-    name: WorkflowEventResult
-    isExternal: true
-    href: SuperOffice.CRM.Services.WorkflowEventResult.html
-  - name: )
-- uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowFilterAsync*
-  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowFilterAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_CreateDefaultWorkflowFilterAsync_System_Threading_CancellationToken_
-  name: CreateDefaultWorkflowFilterAsync
-  nameWithType: WorkflowAgent.CreateDefaultWorkflowFilterAsync
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowFilterAsync
-- uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowFilterAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowFilterAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IWorkflowAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: CreateDefaultWorkflowFilterAsync(CancellationToken)
-  nameWithType: IWorkflowAgent.CreateDefaultWorkflowFilterAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowFilterAsync(System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowFilterAsync(System.Threading.CancellationToken)
-    name: CreateDefaultWorkflowFilterAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowFilterAsync(System.Threading.CancellationToken)
-    name: CreateDefaultWorkflowFilterAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowFilter}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowFilter}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<WorkflowFilter>
-  nameWithType: Task<WorkflowFilter>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.WorkflowFilter>
-  nameWithType.vb: Task(Of WorkflowFilter)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.WorkflowFilter)
-  name.vb: Task(Of WorkflowFilter)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.WorkflowFilter
-    name: WorkflowFilter
-    isExternal: true
-    href: SuperOffice.CRM.Services.WorkflowFilter.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.WorkflowFilter
-    name: WorkflowFilter
-    isExternal: true
-    href: SuperOffice.CRM.Services.WorkflowFilter.html
-  - name: )
-- uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowGoalAsync*
-  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowGoalAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_CreateDefaultWorkflowGoalAsync_System_Threading_CancellationToken_
-  name: CreateDefaultWorkflowGoalAsync
-  nameWithType: WorkflowAgent.CreateDefaultWorkflowGoalAsync
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowGoalAsync
-- uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowGoalAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowGoalAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IWorkflowAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: CreateDefaultWorkflowGoalAsync(CancellationToken)
-  nameWithType: IWorkflowAgent.CreateDefaultWorkflowGoalAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowGoalAsync(System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowGoalAsync(System.Threading.CancellationToken)
-    name: CreateDefaultWorkflowGoalAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowGoalAsync(System.Threading.CancellationToken)
-    name: CreateDefaultWorkflowGoalAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowGoal}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowGoal}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<WorkflowGoal>
-  nameWithType: Task<WorkflowGoal>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.WorkflowGoal>
-  nameWithType.vb: Task(Of WorkflowGoal)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.WorkflowGoal)
-  name.vb: Task(Of WorkflowGoal)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.WorkflowGoal
-    name: WorkflowGoal
-    isExternal: true
-    href: SuperOffice.CRM.Services.WorkflowGoal.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.WorkflowGoal
-    name: WorkflowGoal
-    isExternal: true
-    href: SuperOffice.CRM.Services.WorkflowGoal.html
-  - name: )
-- uid: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowGoalAsync*
-  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowGoalAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_SaveWorkflowGoalAsync_SuperOffice_CRM_Services_WorkflowGoal_System_Threading_CancellationToken_
-  name: SaveWorkflowGoalAsync
-  nameWithType: WorkflowAgent.SaveWorkflowGoalAsync
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowGoalAsync
-- uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.CRM.Services.WorkflowGoal,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.CRM.Services.WorkflowGoal,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IWorkflowAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: SaveWorkflowGoalAsync(WorkflowGoal, CancellationToken)
-  nameWithType: IWorkflowAgent.SaveWorkflowGoalAsync(WorkflowGoal, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.CRM.Services.WorkflowGoal, System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.CRM.Services.WorkflowGoal,System.Threading.CancellationToken)
-    name: SaveWorkflowGoalAsync
-    isExternal: true
-  - name: (
-  - uid: SuperOffice.CRM.Services.WorkflowGoal
-    name: WorkflowGoal
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.CRM.Services.WorkflowGoal,System.Threading.CancellationToken)
-    name: SaveWorkflowGoalAsync
-    isExternal: true
-  - name: (
-  - uid: SuperOffice.CRM.Services.WorkflowGoal
-    name: WorkflowGoal
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: SuperOffice.CRM.Services.WorkflowGoal
-  commentId: T:SuperOffice.CRM.Services.WorkflowGoal
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowGoal.html
-  name: WorkflowGoal
-  nameWithType: WorkflowGoal
-  fullName: SuperOffice.CRM.Services.WorkflowGoal
-- uid: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowGoalAsync*
-  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowGoalAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_DeleteWorkflowGoalAsync_System_Int32_System_Threading_CancellationToken_
-  name: DeleteWorkflowGoalAsync
-  nameWithType: WorkflowAgent.DeleteWorkflowGoalAsync
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowGoalAsync
-- uid: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowGoalAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowGoalAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IWorkflowAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: DeleteWorkflowGoalAsync(int, CancellationToken)
-  nameWithType: IWorkflowAgent.DeleteWorkflowGoalAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowGoalAsync(int, System.Threading.CancellationToken)
-  nameWithType.vb: IWorkflowAgent.DeleteWorkflowGoalAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowGoalAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeleteWorkflowGoalAsync(Integer, CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowGoalAsync(System.Int32,System.Threading.CancellationToken)
-    name: DeleteWorkflowGoalAsync
-    isExternal: true
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowGoalAsync(System.Int32,System.Threading.CancellationToken)
-    name: DeleteWorkflowGoalAsync
-    isExternal: true
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowTriggerAsync*
-  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowTriggerAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_CreateDefaultWorkflowTriggerAsync_System_Threading_CancellationToken_
-  name: CreateDefaultWorkflowTriggerAsync
-  nameWithType: WorkflowAgent.CreateDefaultWorkflowTriggerAsync
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowTriggerAsync
-- uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowTriggerAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowTriggerAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IWorkflowAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: CreateDefaultWorkflowTriggerAsync(CancellationToken)
-  nameWithType: IWorkflowAgent.CreateDefaultWorkflowTriggerAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowTriggerAsync(System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowTriggerAsync(System.Threading.CancellationToken)
-    name: CreateDefaultWorkflowTriggerAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowTriggerAsync(System.Threading.CancellationToken)
-    name: CreateDefaultWorkflowTriggerAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowTrigger}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowTrigger}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<WorkflowTrigger>
-  nameWithType: Task<WorkflowTrigger>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.WorkflowTrigger>
-  nameWithType.vb: Task(Of WorkflowTrigger)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.WorkflowTrigger)
-  name.vb: Task(Of WorkflowTrigger)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.WorkflowTrigger
-    name: WorkflowTrigger
-    isExternal: true
-    href: SuperOffice.CRM.Services.WorkflowTrigger.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.WorkflowTrigger
-    name: WorkflowTrigger
-    isExternal: true
-    href: SuperOffice.CRM.Services.WorkflowTrigger.html
-  - name: )
-- uid: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowTriggerAsync*
-  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowTriggerAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_SaveWorkflowTriggerAsync_SuperOffice_CRM_Services_WorkflowTrigger_System_Threading_CancellationToken_
-  name: SaveWorkflowTriggerAsync
-  nameWithType: WorkflowAgent.SaveWorkflowTriggerAsync
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowTriggerAsync
-- uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.CRM.Services.WorkflowTrigger,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.CRM.Services.WorkflowTrigger,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IWorkflowAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: SaveWorkflowTriggerAsync(WorkflowTrigger, CancellationToken)
-  nameWithType: IWorkflowAgent.SaveWorkflowTriggerAsync(WorkflowTrigger, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.CRM.Services.WorkflowTrigger, System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.CRM.Services.WorkflowTrigger,System.Threading.CancellationToken)
-    name: SaveWorkflowTriggerAsync
-    isExternal: true
-  - name: (
-  - uid: SuperOffice.CRM.Services.WorkflowTrigger
-    name: WorkflowTrigger
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.CRM.Services.WorkflowTrigger,System.Threading.CancellationToken)
-    name: SaveWorkflowTriggerAsync
-    isExternal: true
-  - name: (
-  - uid: SuperOffice.CRM.Services.WorkflowTrigger
-    name: WorkflowTrigger
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: SuperOffice.CRM.Services.WorkflowTrigger
-  commentId: T:SuperOffice.CRM.Services.WorkflowTrigger
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowTrigger.html
-  name: WorkflowTrigger
-  nameWithType: WorkflowTrigger
-  fullName: SuperOffice.CRM.Services.WorkflowTrigger
-- uid: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowTriggerAsync*
-  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowTriggerAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_DeleteWorkflowTriggerAsync_System_Int32_System_Threading_CancellationToken_
-  name: DeleteWorkflowTriggerAsync
-  nameWithType: WorkflowAgent.DeleteWorkflowTriggerAsync
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowTriggerAsync
-- uid: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IWorkflowAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: DeleteWorkflowTriggerAsync(int, CancellationToken)
-  nameWithType: IWorkflowAgent.DeleteWorkflowTriggerAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowTriggerAsync(int, System.Threading.CancellationToken)
-  nameWithType.vb: IWorkflowAgent.DeleteWorkflowTriggerAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowTriggerAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeleteWorkflowTriggerAsync(Integer, CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,System.Threading.CancellationToken)
-    name: DeleteWorkflowTriggerAsync
-    isExternal: true
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,System.Threading.CancellationToken)
-    name: DeleteWorkflowTriggerAsync
-    isExternal: true
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowWaitForActionAsync*
-  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowWaitForActionAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_CreateDefaultWorkflowWaitForActionAsync_System_Threading_CancellationToken_
-  name: CreateDefaultWorkflowWaitForActionAsync
-  nameWithType: WorkflowAgent.CreateDefaultWorkflowWaitForActionAsync
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowWaitForActionAsync
-- uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowWaitForActionAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowWaitForActionAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IWorkflowAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: CreateDefaultWorkflowWaitForActionAsync(CancellationToken)
-  nameWithType: IWorkflowAgent.CreateDefaultWorkflowWaitForActionAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowWaitForActionAsync(System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowWaitForActionAsync(System.Threading.CancellationToken)
-    name: CreateDefaultWorkflowWaitForActionAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowWaitForActionAsync(System.Threading.CancellationToken)
-    name: CreateDefaultWorkflowWaitForActionAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowWaitForAction}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowWaitForAction}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<WorkflowWaitForAction>
-  nameWithType: Task<WorkflowWaitForAction>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.WorkflowWaitForAction>
-  nameWithType.vb: Task(Of WorkflowWaitForAction)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.WorkflowWaitForAction)
-  name.vb: Task(Of WorkflowWaitForAction)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.WorkflowWaitForAction
-    name: WorkflowWaitForAction
-    isExternal: true
-    href: SuperOffice.CRM.Services.WorkflowWaitForAction.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.WorkflowWaitForAction
-    name: WorkflowWaitForAction
-    isExternal: true
-    href: SuperOffice.CRM.Services.WorkflowWaitForAction.html
-  - name: )
-- uid: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowWaitForActionAsync*
-  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowWaitForActionAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_SaveWorkflowWaitForActionAsync_SuperOffice_CRM_Services_WorkflowWaitForAction_System_Threading_CancellationToken_
-  name: SaveWorkflowWaitForActionAsync
-  nameWithType: WorkflowAgent.SaveWorkflowWaitForActionAsync
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowWaitForActionAsync
-- uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowWaitForActionAsync(SuperOffice.CRM.Services.WorkflowWaitForAction,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowWaitForActionAsync(SuperOffice.CRM.Services.WorkflowWaitForAction,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IWorkflowAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: SaveWorkflowWaitForActionAsync(WorkflowWaitForAction, CancellationToken)
-  nameWithType: IWorkflowAgent.SaveWorkflowWaitForActionAsync(WorkflowWaitForAction, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowWaitForActionAsync(SuperOffice.CRM.Services.WorkflowWaitForAction, System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowWaitForActionAsync(SuperOffice.CRM.Services.WorkflowWaitForAction,System.Threading.CancellationToken)
-    name: SaveWorkflowWaitForActionAsync
-    isExternal: true
-  - name: (
-  - uid: SuperOffice.CRM.Services.WorkflowWaitForAction
-    name: WorkflowWaitForAction
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowWaitForActionAsync(SuperOffice.CRM.Services.WorkflowWaitForAction,System.Threading.CancellationToken)
-    name: SaveWorkflowWaitForActionAsync
-    isExternal: true
-  - name: (
-  - uid: SuperOffice.CRM.Services.WorkflowWaitForAction
-    name: WorkflowWaitForAction
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: SuperOffice.CRM.Services.WorkflowWaitForAction
-  commentId: T:SuperOffice.CRM.Services.WorkflowWaitForAction
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowWaitForAction.html
-  name: WorkflowWaitForAction
-  nameWithType: WorkflowWaitForAction
-  fullName: SuperOffice.CRM.Services.WorkflowWaitForAction
-- uid: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowWaitForActionAsync*
-  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowWaitForActionAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_DeleteWorkflowWaitForActionAsync_System_Int32_System_Threading_CancellationToken_
-  name: DeleteWorkflowWaitForActionAsync
-  nameWithType: WorkflowAgent.DeleteWorkflowWaitForActionAsync
-  fullName: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowWaitForActionAsync
-- uid: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowWaitForActionAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowWaitForActionAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IWorkflowAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: DeleteWorkflowWaitForActionAsync(int, CancellationToken)
-  nameWithType: IWorkflowAgent.DeleteWorkflowWaitForActionAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowWaitForActionAsync(int, System.Threading.CancellationToken)
-  nameWithType.vb: IWorkflowAgent.DeleteWorkflowWaitForActionAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowWaitForActionAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeleteWorkflowWaitForActionAsync(Integer, CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowWaitForActionAsync(System.Int32,System.Threading.CancellationToken)
-    name: DeleteWorkflowWaitForActionAsync
-    isExternal: true
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowWaitForActionAsync(System.Int32,System.Threading.CancellationToken)
-    name: DeleteWorkflowWaitForActionAsync
-    isExternal: true
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
 - uid: SuperOffice.CRM.Services.WorkflowAgent.GetEmailFlowAsync*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.GetEmailFlowAsync
   isExternal: true
@@ -3467,6 +2754,76 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
+- uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventAsync*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_CreateDefaultWorkflowEventAsync_System_Threading_CancellationToken_
+  name: CreateDefaultWorkflowEventAsync
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowEventAsync
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventAsync
+- uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IWorkflowAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultWorkflowEventAsync(CancellationToken)
+  nameWithType: IWorkflowAgent.CreateDefaultWorkflowEventAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
+    name: CreateDefaultWorkflowEventAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventAsync(System.Threading.CancellationToken)
+    name: CreateDefaultWorkflowEventAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowEvent}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowEvent}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<WorkflowEvent>
+  nameWithType: Task<WorkflowEvent>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.WorkflowEvent>
+  nameWithType.vb: Task(Of WorkflowEvent)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.WorkflowEvent)
+  name.vb: Task(Of WorkflowEvent)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.WorkflowEvent
+    name: WorkflowEvent
+    isExternal: true
+    href: SuperOffice.CRM.Services.WorkflowEvent.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.WorkflowEvent
+    name: WorkflowEvent
+    isExternal: true
+    href: SuperOffice.CRM.Services.WorkflowEvent.html
+  - name: )
 - uid: SuperOffice.CRM.Services.WorkflowAgent.RunAsync*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.RunAsync
   isExternal: true
@@ -3590,6 +2947,319 @@ references:
   name: WorkflowEvent
   nameWithType: WorkflowEvent
   fullName: SuperOffice.CRM.Services.WorkflowEvent
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowEventResult}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowEventResult}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<WorkflowEventResult>
+  nameWithType: Task<WorkflowEventResult>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.WorkflowEventResult>
+  nameWithType.vb: Task(Of WorkflowEventResult)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.WorkflowEventResult)
+  name.vb: Task(Of WorkflowEventResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.WorkflowEventResult
+    name: WorkflowEventResult
+    isExternal: true
+    href: SuperOffice.CRM.Services.WorkflowEventResult.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.WorkflowEventResult
+    name: WorkflowEventResult
+    isExternal: true
+    href: SuperOffice.CRM.Services.WorkflowEventResult.html
+  - name: )
+- uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventResultAsync*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventResultAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_CreateDefaultWorkflowEventResultAsync_System_Threading_CancellationToken_
+  name: CreateDefaultWorkflowEventResultAsync
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowEventResultAsync
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowEventResultAsync
+- uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventResultAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventResultAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IWorkflowAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultWorkflowEventResultAsync(CancellationToken)
+  nameWithType: IWorkflowAgent.CreateDefaultWorkflowEventResultAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventResultAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventResultAsync(System.Threading.CancellationToken)
+    name: CreateDefaultWorkflowEventResultAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowEventResultAsync(System.Threading.CancellationToken)
+    name: CreateDefaultWorkflowEventResultAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowFilterAsync*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowFilterAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_CreateDefaultWorkflowFilterAsync_System_Threading_CancellationToken_
+  name: CreateDefaultWorkflowFilterAsync
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowFilterAsync
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowFilterAsync
+- uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowFilterAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowFilterAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IWorkflowAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultWorkflowFilterAsync(CancellationToken)
+  nameWithType: IWorkflowAgent.CreateDefaultWorkflowFilterAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowFilterAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowFilterAsync(System.Threading.CancellationToken)
+    name: CreateDefaultWorkflowFilterAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowFilterAsync(System.Threading.CancellationToken)
+    name: CreateDefaultWorkflowFilterAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowFilter}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowFilter}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<WorkflowFilter>
+  nameWithType: Task<WorkflowFilter>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.WorkflowFilter>
+  nameWithType.vb: Task(Of WorkflowFilter)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.WorkflowFilter)
+  name.vb: Task(Of WorkflowFilter)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.WorkflowFilter
+    name: WorkflowFilter
+    isExternal: true
+    href: SuperOffice.CRM.Services.WorkflowFilter.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.WorkflowFilter
+    name: WorkflowFilter
+    isExternal: true
+    href: SuperOffice.CRM.Services.WorkflowFilter.html
+  - name: )
+- uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowGoalAsync*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowGoalAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_CreateDefaultWorkflowGoalAsync_System_Threading_CancellationToken_
+  name: CreateDefaultWorkflowGoalAsync
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowGoalAsync
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowGoalAsync
+- uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowGoalAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowGoalAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IWorkflowAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultWorkflowGoalAsync(CancellationToken)
+  nameWithType: IWorkflowAgent.CreateDefaultWorkflowGoalAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowGoalAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowGoalAsync(System.Threading.CancellationToken)
+    name: CreateDefaultWorkflowGoalAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowGoalAsync(System.Threading.CancellationToken)
+    name: CreateDefaultWorkflowGoalAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowGoal}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowGoal}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<WorkflowGoal>
+  nameWithType: Task<WorkflowGoal>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.WorkflowGoal>
+  nameWithType.vb: Task(Of WorkflowGoal)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.WorkflowGoal)
+  name.vb: Task(Of WorkflowGoal)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.WorkflowGoal
+    name: WorkflowGoal
+    isExternal: true
+    href: SuperOffice.CRM.Services.WorkflowGoal.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.WorkflowGoal
+    name: WorkflowGoal
+    isExternal: true
+    href: SuperOffice.CRM.Services.WorkflowGoal.html
+  - name: )
+- uid: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowGoalAsync*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowGoalAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_SaveWorkflowGoalAsync_SuperOffice_CRM_Services_WorkflowGoal_System_Threading_CancellationToken_
+  name: SaveWorkflowGoalAsync
+  nameWithType: WorkflowAgent.SaveWorkflowGoalAsync
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowGoalAsync
+- uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.CRM.Services.WorkflowGoal,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.CRM.Services.WorkflowGoal,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IWorkflowAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: SaveWorkflowGoalAsync(WorkflowGoal, CancellationToken)
+  nameWithType: IWorkflowAgent.SaveWorkflowGoalAsync(WorkflowGoal, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.CRM.Services.WorkflowGoal, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.CRM.Services.WorkflowGoal,System.Threading.CancellationToken)
+    name: SaveWorkflowGoalAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.WorkflowGoal
+    name: WorkflowGoal
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowGoalAsync(SuperOffice.CRM.Services.WorkflowGoal,System.Threading.CancellationToken)
+    name: SaveWorkflowGoalAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.WorkflowGoal
+    name: WorkflowGoal
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.WorkflowGoal
+  commentId: T:SuperOffice.CRM.Services.WorkflowGoal
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowGoal.html
+  name: WorkflowGoal
+  nameWithType: WorkflowGoal
+  fullName: SuperOffice.CRM.Services.WorkflowGoal
+- uid: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowGoalAsync*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowGoalAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_DeleteWorkflowGoalAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteWorkflowGoalAsync
+  nameWithType: WorkflowAgent.DeleteWorkflowGoalAsync
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowGoalAsync
+- uid: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowGoalAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowGoalAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IWorkflowAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DeleteWorkflowGoalAsync(int, CancellationToken)
+  nameWithType: IWorkflowAgent.DeleteWorkflowGoalAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowGoalAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IWorkflowAgent.DeleteWorkflowGoalAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowGoalAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteWorkflowGoalAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowGoalAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteWorkflowGoalAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowGoalAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteWorkflowGoalAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowGoalAsync*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowGoalAsync
   isExternal: true
@@ -3978,6 +3648,179 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
+- uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowTriggerAsync*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowTriggerAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_CreateDefaultWorkflowTriggerAsync_System_Threading_CancellationToken_
+  name: CreateDefaultWorkflowTriggerAsync
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowTriggerAsync
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowTriggerAsync
+- uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowTriggerAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowTriggerAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IWorkflowAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultWorkflowTriggerAsync(CancellationToken)
+  nameWithType: IWorkflowAgent.CreateDefaultWorkflowTriggerAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowTriggerAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowTriggerAsync(System.Threading.CancellationToken)
+    name: CreateDefaultWorkflowTriggerAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowTriggerAsync(System.Threading.CancellationToken)
+    name: CreateDefaultWorkflowTriggerAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowTrigger}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowTrigger}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<WorkflowTrigger>
+  nameWithType: Task<WorkflowTrigger>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.WorkflowTrigger>
+  nameWithType.vb: Task(Of WorkflowTrigger)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.WorkflowTrigger)
+  name.vb: Task(Of WorkflowTrigger)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.WorkflowTrigger
+    name: WorkflowTrigger
+    isExternal: true
+    href: SuperOffice.CRM.Services.WorkflowTrigger.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.WorkflowTrigger
+    name: WorkflowTrigger
+    isExternal: true
+    href: SuperOffice.CRM.Services.WorkflowTrigger.html
+  - name: )
+- uid: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowTriggerAsync*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowTriggerAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_SaveWorkflowTriggerAsync_SuperOffice_CRM_Services_WorkflowTrigger_System_Threading_CancellationToken_
+  name: SaveWorkflowTriggerAsync
+  nameWithType: WorkflowAgent.SaveWorkflowTriggerAsync
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowTriggerAsync
+- uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.CRM.Services.WorkflowTrigger,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.CRM.Services.WorkflowTrigger,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IWorkflowAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: SaveWorkflowTriggerAsync(WorkflowTrigger, CancellationToken)
+  nameWithType: IWorkflowAgent.SaveWorkflowTriggerAsync(WorkflowTrigger, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.CRM.Services.WorkflowTrigger, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.CRM.Services.WorkflowTrigger,System.Threading.CancellationToken)
+    name: SaveWorkflowTriggerAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.WorkflowTrigger
+    name: WorkflowTrigger
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowTriggerAsync(SuperOffice.CRM.Services.WorkflowTrigger,System.Threading.CancellationToken)
+    name: SaveWorkflowTriggerAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.WorkflowTrigger
+    name: WorkflowTrigger
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.WorkflowTrigger
+  commentId: T:SuperOffice.CRM.Services.WorkflowTrigger
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowTrigger.html
+  name: WorkflowTrigger
+  nameWithType: WorkflowTrigger
+  fullName: SuperOffice.CRM.Services.WorkflowTrigger
+- uid: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowTriggerAsync*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowTriggerAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_DeleteWorkflowTriggerAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteWorkflowTriggerAsync
+  nameWithType: WorkflowAgent.DeleteWorkflowTriggerAsync
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowTriggerAsync
+- uid: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IWorkflowAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DeleteWorkflowTriggerAsync(int, CancellationToken)
+  nameWithType: IWorkflowAgent.DeleteWorkflowTriggerAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowTriggerAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IWorkflowAgent.DeleteWorkflowTriggerAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowTriggerAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteWorkflowTriggerAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteWorkflowTriggerAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowTriggerAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteWorkflowTriggerAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowTriggerAsync*
   commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.GetWorkflowTriggerAsync
   isExternal: true
@@ -4015,6 +3858,179 @@ references:
   spec.vb:
   - uid: SuperOffice.CRM.Services.IWorkflowAgent.GetWorkflowTriggerAsync(System.Int32,System.Threading.CancellationToken)
     name: GetWorkflowTriggerAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowWaitForActionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowWaitForActionAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_CreateDefaultWorkflowWaitForActionAsync_System_Threading_CancellationToken_
+  name: CreateDefaultWorkflowWaitForActionAsync
+  nameWithType: WorkflowAgent.CreateDefaultWorkflowWaitForActionAsync
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.CreateDefaultWorkflowWaitForActionAsync
+- uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowWaitForActionAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowWaitForActionAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IWorkflowAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultWorkflowWaitForActionAsync(CancellationToken)
+  nameWithType: IWorkflowAgent.CreateDefaultWorkflowWaitForActionAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowWaitForActionAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowWaitForActionAsync(System.Threading.CancellationToken)
+    name: CreateDefaultWorkflowWaitForActionAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.CreateDefaultWorkflowWaitForActionAsync(System.Threading.CancellationToken)
+    name: CreateDefaultWorkflowWaitForActionAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowWaitForAction}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.WorkflowWaitForAction}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<WorkflowWaitForAction>
+  nameWithType: Task<WorkflowWaitForAction>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.WorkflowWaitForAction>
+  nameWithType.vb: Task(Of WorkflowWaitForAction)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.WorkflowWaitForAction)
+  name.vb: Task(Of WorkflowWaitForAction)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.WorkflowWaitForAction
+    name: WorkflowWaitForAction
+    isExternal: true
+    href: SuperOffice.CRM.Services.WorkflowWaitForAction.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.WorkflowWaitForAction
+    name: WorkflowWaitForAction
+    isExternal: true
+    href: SuperOffice.CRM.Services.WorkflowWaitForAction.html
+  - name: )
+- uid: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowWaitForActionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowWaitForActionAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_SaveWorkflowWaitForActionAsync_SuperOffice_CRM_Services_WorkflowWaitForAction_System_Threading_CancellationToken_
+  name: SaveWorkflowWaitForActionAsync
+  nameWithType: WorkflowAgent.SaveWorkflowWaitForActionAsync
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.SaveWorkflowWaitForActionAsync
+- uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowWaitForActionAsync(SuperOffice.CRM.Services.WorkflowWaitForAction,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowWaitForActionAsync(SuperOffice.CRM.Services.WorkflowWaitForAction,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IWorkflowAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: SaveWorkflowWaitForActionAsync(WorkflowWaitForAction, CancellationToken)
+  nameWithType: IWorkflowAgent.SaveWorkflowWaitForActionAsync(WorkflowWaitForAction, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowWaitForActionAsync(SuperOffice.CRM.Services.WorkflowWaitForAction, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowWaitForActionAsync(SuperOffice.CRM.Services.WorkflowWaitForAction,System.Threading.CancellationToken)
+    name: SaveWorkflowWaitForActionAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.WorkflowWaitForAction
+    name: WorkflowWaitForAction
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.SaveWorkflowWaitForActionAsync(SuperOffice.CRM.Services.WorkflowWaitForAction,System.Threading.CancellationToken)
+    name: SaveWorkflowWaitForActionAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.WorkflowWaitForAction
+    name: WorkflowWaitForAction
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.WorkflowWaitForAction
+  commentId: T:SuperOffice.CRM.Services.WorkflowWaitForAction
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowWaitForAction.html
+  name: WorkflowWaitForAction
+  nameWithType: WorkflowWaitForAction
+  fullName: SuperOffice.CRM.Services.WorkflowWaitForAction
+- uid: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowWaitForActionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowWaitForActionAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.WorkflowAgent.html#SuperOffice_CRM_Services_WorkflowAgent_DeleteWorkflowWaitForActionAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteWorkflowWaitForActionAsync
+  nameWithType: WorkflowAgent.DeleteWorkflowWaitForActionAsync
+  fullName: SuperOffice.CRM.Services.WorkflowAgent.DeleteWorkflowWaitForActionAsync
+- uid: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowWaitForActionAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowWaitForActionAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IWorkflowAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DeleteWorkflowWaitForActionAsync(int, CancellationToken)
+  nameWithType: IWorkflowAgent.DeleteWorkflowWaitForActionAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowWaitForActionAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IWorkflowAgent.DeleteWorkflowWaitForActionAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowWaitForActionAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteWorkflowWaitForActionAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowWaitForActionAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteWorkflowWaitForActionAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IWorkflowAgent.DeleteWorkflowWaitForActionAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteWorkflowWaitForActionAsync
     isExternal: true
   - name: (
   - uid: System.Int32

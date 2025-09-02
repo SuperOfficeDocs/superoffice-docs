@@ -2,6 +2,7 @@
 title: POST Agents/Preference/CreateDefaultPreferenceDescription
 uid: v1PreferenceAgent_CreateDefaultPreferenceDescription
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/CreateDefaultPreferenceDescription
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 ```
 
-Set default values into a new PreferenceDescription.
+Loading default values into a new PreferenceDescription.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -74,7 +73,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 593,
-  "Section": "nesciunt",
-  "Key": "ut",
-  "Name": "Kassulke Group",
+  "PrefDescId": 473,
+  "Section": "illum",
+  "Key": "rerum",
+  "Name": "Wyman-Abbott",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-channelled zero defect complexity",
+  "Description": "Decentralized even-keeled time-frame",
   "IsBuiltin": true,
-  "TableName": "Strosin, Hirthe and Walter",
-  "UserDefinedListId": 488,
-  "Rank": 713,
-  "SubGroup": "quia",
-  "MinLevel": 90,
-  "MaxValue": 294,
-  "MinValue": 326,
-  "RequiredLicense": "magni",
+  "TableName": "Carter, Lueilwitz and Ryan",
+  "UserDefinedListId": 789,
+  "Rank": 888,
+  "SubGroup": "et",
+  "MinLevel": 233,
+  "MaxValue": 120,
+  "MinValue": 523,
+  "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 738
+      "FieldLength": 49
     }
   }
 }

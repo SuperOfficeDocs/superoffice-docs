@@ -2,6 +2,7 @@
 title: PUT TriggerScript/{id}
 uid: v1TriggerScriptEntity_SaveTriggerScriptByUniqueId
 generated: true
+content_type: reference
 ---
 
 # PUT TriggerScript/{id}
@@ -90,20 +91,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 488,
-  "Name": "Glover-Bernhard",
+  "ScreenChooserId": 328,
+  "Name": "Anderson-Bosco",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "rem",
-  "Source": "ut",
-  "Registered": "2014-11-01T03:45:28.7952992+01:00",
-  "RegisteredAssociateId": 16,
-  "Updated": "2018-07-19T03:45:28.7952992+02:00",
-  "UpdatedAssociateId": 587
+  "UniqueIdentifier": "est",
+  "Source": "eos",
+  "Registered": "2014-09-28T03:47:00.3943072+02:00",
+  "RegisteredAssociateId": 918,
+  "Updated": "2003-08-13T03:47:00.3943072+02:00",
+  "UpdatedAssociateId": 404
 }
 ```
 
@@ -114,22 +115,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 799,
-  "Name": "Beahan, Bogan and D'Amore",
+  "ScreenChooserId": 511,
+  "Name": "Pacocha, Watsica and Schinner",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "omnis",
-  "Source": "ea",
-  "Registered": "2018-06-25T03:45:28.7952992+02:00",
-  "RegisteredAssociateId": 385,
-  "Updated": "2008-10-23T03:45:28.7952992+02:00",
-  "UpdatedAssociateId": 300,
+  "Enabled": true,
+  "UniqueIdentifier": "error",
+  "Source": "laboriosam",
+  "Registered": "2021-07-16T03:47:00.3943072+02:00",
+  "RegisteredAssociateId": 933,
+  "Updated": "2022-09-14T03:47:00.3943072+02:00",
+  "UpdatedAssociateId": 938,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 126
+      "FieldType": "System.Int32",
+      "FieldLength": 367
     }
   }
 }

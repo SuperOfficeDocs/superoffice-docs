@@ -2,6 +2,7 @@
 title: POST Agents/List/CreateDefaultDocumentTemplateLanguage
 uid: v1ListAgent_CreateDefaultDocumentTemplateLanguage
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/CreateDefaultDocumentTemplateLanguage
@@ -69,8 +70,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 690,
-  "LanguageCode": "consequuntur"
+  "DocumentTemplateId": 377,
+  "LanguageCode": "qui"
 }
 ```
 

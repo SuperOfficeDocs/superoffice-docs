@@ -2,6 +2,7 @@
 title: GET List/Priority
 uid: v1PriorityList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/Priority
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 44,
-  "Name": "Bernier, Dooley and Oberbrunner",
-  "Tooltip": "dolores",
+  "Id": 527,
+  "Name": "Block LLC",
+  "Tooltip": "dicta",
   "Deleted": false,
-  "Rank": 756,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": false,
+  "Rank": 401,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "incidunt",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 397
+      "FieldType": "System.Int32",
+      "FieldLength": 417
     }
   },
   "_Links": {

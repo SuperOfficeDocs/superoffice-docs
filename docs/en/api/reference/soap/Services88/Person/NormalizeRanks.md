@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.NormalizeRanks SOAP
 generated: true
 uid: Services88-Person-NormalizeRanks
+content_type: reference
 ---
 
 # Services88 Person NormalizeRanks

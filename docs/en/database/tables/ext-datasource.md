@@ -2,10 +2,10 @@
 uid: table-ext_datasource
 title: ext_datasource table
 description: This table contains external datasources, used for databaseintegration of customers and companies.
-so.generated: true
+generated: true
 keywords: database table ext_datasource
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ext\_datasource Table (317)

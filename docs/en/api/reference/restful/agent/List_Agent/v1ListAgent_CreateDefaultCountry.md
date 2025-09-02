@@ -2,6 +2,7 @@
 title: POST Agents/List/CreateDefaultCountry
 uid: v1ListAgent_CreateDefaultCountry
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/CreateDefaultCountry
@@ -82,7 +83,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 728,
-  "Name": "D'Amore Group",
-  "CurrencyId": 139,
-  "EnglishName": "Bode, Deckow and Wuckert",
+  "CountryId": 930,
+  "Name": "Schaefer, Adams and Rolfson",
+  "CurrencyId": 796,
+  "EnglishName": "Lowe, Gusikowski and Fay",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Balanced discrete circuit",
-  "OrgNrText": "1414881",
-  "InterAreaPrefix": "eum",
-  "DialInPrefix": "totam",
-  "ZipPrefix": "perspiciatis",
-  "DomainName": "McClure Group",
-  "AddressLayoutId": 825,
-  "DomesticAddressLayoutId": 383,
-  "ForeignAddressLayoutId": 507,
-  "Rank": 538,
-  "Tooltip": "qui",
+  "ImageDescription": "Decentralized methodical moderator",
+  "OrgNrText": "545533",
+  "InterAreaPrefix": "sed",
+  "DialInPrefix": "natus",
+  "ZipPrefix": "ut",
+  "DomainName": "Schmidt, Schuppe and Quigley",
+  "AddressLayoutId": 369,
+  "DomesticAddressLayoutId": 70,
+  "ForeignAddressLayoutId": 292,
+  "Rank": 296,
+  "Tooltip": "eveniet",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 340
+      "FieldLength": 260
     }
   }
 }

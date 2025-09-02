@@ -2,6 +2,7 @@
 title: POST Agents/Preference/GetXsrfPaths
 uid: v1PreferenceAgent_GetXsrfPaths
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/GetXsrfPaths
@@ -68,11 +69,11 @@ OK
 POST /api/v1/Agents/Preference/GetXsrfPaths
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Hostname": "voluptatibus"
+  "Hostname": "consequatur"
 }
 ```
 
@@ -83,7 +84,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "est",
-  "consectetur"
+  "possimus",
+  "velit"
 ]
 ```

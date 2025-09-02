@@ -2,6 +2,7 @@
 title: PATCH Appointment/{id}
 uid: v1AppointmentEntity_PatchAppointmentEntity
 generated: true
+content_type: reference
 ---
 
 # PATCH Appointment/{id}
@@ -167,18 +168,18 @@ AppointmentEntity  updated.
 PATCH /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "rerum",
+    "path": "eos",
     "value": {}
   },
   {
     "op": "add",
-    "path": "rerum",
+    "path": "eos",
     "value": {}
   }
 ]
@@ -195,121 +196,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2019-07-14T03:45:28.0765734+02:00",
-  "AppointmentId": 294,
-  "Description": "Stand-alone human-resource knowledge user",
-  "Title": "voluptates",
-  "Agenda": "optio",
-  "InternalNotes": "sed",
-  "StartDate": "2022-04-29T03:45:28.0765734+02:00",
-  "EndDate": "2012-12-13T03:45:28.0765734+01:00",
+  "CreatedDate": "2015-10-11T03:46:59.7068256+02:00",
+  "AppointmentId": 271,
+  "Description": "Quality-focused high-level forecast",
+  "Title": "harum",
+  "Agenda": "eum",
+  "InternalNotes": "quibusdam",
+  "StartDate": "2009-08-03T03:46:59.7068256+02:00",
+  "EndDate": "2007-12-13T03:46:59.7068256+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 141,
+  "MotherId": 784,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2014-02-16T03:45:28.0765734+01:00",
+  "UpdatedDate": "2005-08-31T03:46:59.7068256+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 742,
+  "ActiveLinks": 786,
   "Links": [
     {
-      "EntityName": "Altenwerth-Turcotte",
-      "Id": 784,
-      "Description": "Re-contextualized explicit groupware",
-      "ExtraInfo": "assumenda",
-      "LinkId": 554,
+      "EntityName": "Bradtke, Franecki and Hoeger",
+      "Id": 783,
+      "Description": "Intuitive hybrid flexibility",
+      "ExtraInfo": "et",
+      "LinkId": 266,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 637
+          "FieldLength": 805
         }
       }
     }
   ],
-  "AlarmLeadTime": "asperiores",
+  "AlarmLeadTime": "ex",
   "HasAlarm": false,
-  "ColorIndex": 388,
-  "IsFree": true,
+  "ColorIndex": 668,
+  "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "eveniet",
-  "LeadTime": "vero",
-  "Location": "veritatis",
-  "RejectCounter": 211,
+  "LagTime": "consequatur",
+  "LeadTime": "quia",
+  "Location": "id",
+  "RejectCounter": 698,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 869,
-      "PersonId": 471,
-      "ContactId": 792,
-      "EmailId": 390,
-      "SendEmail": true,
+      "AssociateId": 468,
+      "PersonId": 8,
+      "ContactId": 420,
+      "EmailId": 313,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "dagmar@haley.info",
-      "Description": "Fully-configurable 6th generation archive"
+      "EmailAddress": "cedrick.kunde@mccullough.us",
+      "Description": "Inverse composite function"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2021-09-15T03:45:28.0765734+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2011-03-26T03:46:59.7068256+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 315,
+  "PreferredTZLocation": 164,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 81,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 634,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "temporibus",
+  "CentralserviceVideomeetId": "et",
   "UserDefinedFields": {
-    "SuperOffice:1": "Nelle Pacocha",
-    "SuperOffice:2": "Ms. Hellen Weissnat Sr."
+    "SuperOffice:1": "1733240088",
+    "SuperOffice:2": "Gregg Bogan"
   },
   "ExtraFields": {
-    "ExtraFields1": "a",
-    "ExtraFields2": "voluptates"
+    "ExtraFields1": "velit",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "vitae",
-    "CustomFields2": "sunt"
+    "CustomFields1": "est",
+    "CustomFields2": "inventore"
   },
-  "PublishEventDate": "2024-12-02T03:45:28.0765734+01:00",
-  "PublishTo": "2015-03-08T03:45:28.0765734+01:00",
-  "PublishFrom": "2025-03-06T03:45:28.0765734+01:00",
+  "PublishEventDate": "2007-02-01T03:46:59.7068256+01:00",
+  "PublishTo": "2020-07-07T03:46:59.7068256+02:00",
+  "PublishFrom": "2021-01-29T03:46:59.7068256+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 586,
+      "VisibleId": 882,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 363
+          "FieldType": "System.Int32",
+          "FieldLength": 272
         }
       }
     },
     {
-      "VisibleId": 586,
+      "VisibleId": 882,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "minima",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 363
+          "FieldType": "System.Int32",
+          "FieldLength": 272
         }
       }
     }
@@ -318,13 +319,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1002
+      "FieldType": "System.String",
+      "FieldLength": 368
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

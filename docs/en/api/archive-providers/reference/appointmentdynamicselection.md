@@ -3,9 +3,9 @@ uid: AppointmentDynamicSelection
 title: AppointmentDynamicSelection
 description: Appointment selection archive using the selectionId as criterionmapping.
 keywords: AppointmentDynamicSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "AppointmentDynamicSelection"
@@ -740,7 +740,7 @@ Appointment selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentDynamicSelection?$select=person/personExtra/x_person_timespan,person/personAssociate/ejUserId,person/personAssociate/simultaneousEjUser,project/LastSale,sale/salePublish/isPublished
+GET /api/v1/archive/AppointmentDynamicSelection?$select=completed,contact/contactAssociate/portraitThumbnail,contact/contactUdef/SuperOffice:7,contact/LastActivity,person/restrictionAddress/addressId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

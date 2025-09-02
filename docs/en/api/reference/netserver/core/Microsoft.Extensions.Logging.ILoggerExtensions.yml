@@ -1,0 +1,480 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Extensions.Logging.ILoggerExtensions
+  commentId: T:Microsoft.Extensions.Logging.ILoggerExtensions
+  id: ILoggerExtensions
+  parent: Microsoft.Extensions.Logging
+  children:
+  - Microsoft.Extensions.Logging.ILoggerExtensions.BeginScopeEnrichedWithEnvironment(Microsoft.Extensions.Logging.ILogger,System.String,System.Object[])
+  - Microsoft.Extensions.Logging.ILoggerExtensions.LogErrorEnrichedWithEnvironment(Microsoft.Extensions.Logging.ILogger,System.Exception,System.String,System.Object[])
+  - Microsoft.Extensions.Logging.ILoggerExtensions.LogWarningEnrichedWithEnvironment(Microsoft.Extensions.Logging.ILogger,System.Exception,System.String,System.Object[])
+  langs:
+  - csharp
+  - vb
+  name: ILoggerExtensions
+  nameWithType: ILoggerExtensions
+  fullName: Microsoft.Extensions.Logging.ILoggerExtensions
+  type: Class
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.Logging
+  syntax:
+    content: public static class ILoggerExtensions
+    content.vb: Public Module ILoggerExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: Microsoft.Extensions.Logging.ILoggerExtensions.BeginScopeEnrichedWithEnvironment(Microsoft.Extensions.Logging.ILogger,System.String,System.Object[])
+  commentId: M:Microsoft.Extensions.Logging.ILoggerExtensions.BeginScopeEnrichedWithEnvironment(Microsoft.Extensions.Logging.ILogger,System.String,System.Object[])
+  id: BeginScopeEnrichedWithEnvironment(Microsoft.Extensions.Logging.ILogger,System.String,System.Object[])
+  isExtensionMethod: true
+  parent: Microsoft.Extensions.Logging.ILoggerExtensions
+  langs:
+  - csharp
+  - vb
+  name: BeginScopeEnrichedWithEnvironment(ILogger, string, params object[])
+  nameWithType: ILoggerExtensions.BeginScopeEnrichedWithEnvironment(ILogger, string, params object[])
+  fullName: Microsoft.Extensions.Logging.ILoggerExtensions.BeginScopeEnrichedWithEnvironment(Microsoft.Extensions.Logging.ILogger, string, params object[])
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.Logging
+  syntax:
+    content: public static IDisposable BeginScopeEnrichedWithEnvironment(this ILogger logger, string message, params object[] args)
+    parameters:
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger
+    - id: message
+      type: System.String
+    - id: args
+      type: System.Object[]
+    return:
+      type: System.IDisposable
+    content.vb: Public Shared Function BeginScopeEnrichedWithEnvironment(logger As ILogger, message As String, ParamArray args As Object()) As IDisposable
+  overload: Microsoft.Extensions.Logging.ILoggerExtensions.BeginScopeEnrichedWithEnvironment*
+  nameWithType.vb: ILoggerExtensions.BeginScopeEnrichedWithEnvironment(ILogger, String, ParamArray Object())
+  fullName.vb: Microsoft.Extensions.Logging.ILoggerExtensions.BeginScopeEnrichedWithEnvironment(Microsoft.Extensions.Logging.ILogger, String, ParamArray Object())
+  name.vb: BeginScopeEnrichedWithEnvironment(ILogger, String, ParamArray Object())
+- uid: Microsoft.Extensions.Logging.ILoggerExtensions.LogErrorEnrichedWithEnvironment(Microsoft.Extensions.Logging.ILogger,System.Exception,System.String,System.Object[])
+  commentId: M:Microsoft.Extensions.Logging.ILoggerExtensions.LogErrorEnrichedWithEnvironment(Microsoft.Extensions.Logging.ILogger,System.Exception,System.String,System.Object[])
+  id: LogErrorEnrichedWithEnvironment(Microsoft.Extensions.Logging.ILogger,System.Exception,System.String,System.Object[])
+  isExtensionMethod: true
+  parent: Microsoft.Extensions.Logging.ILoggerExtensions
+  langs:
+  - csharp
+  - vb
+  name: LogErrorEnrichedWithEnvironment(ILogger, Exception, string, params object[])
+  nameWithType: ILoggerExtensions.LogErrorEnrichedWithEnvironment(ILogger, Exception, string, params object[])
+  fullName: Microsoft.Extensions.Logging.ILoggerExtensions.LogErrorEnrichedWithEnvironment(Microsoft.Extensions.Logging.ILogger, System.Exception, string, params object[])
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.Logging
+  syntax:
+    content: public static void LogErrorEnrichedWithEnvironment(this ILogger logger, Exception exception, string message, params object[] args)
+    parameters:
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger
+    - id: exception
+      type: System.Exception
+    - id: message
+      type: System.String
+    - id: args
+      type: System.Object[]
+    content.vb: Public Shared Sub LogErrorEnrichedWithEnvironment(logger As ILogger, exception As Exception, message As String, ParamArray args As Object())
+  overload: Microsoft.Extensions.Logging.ILoggerExtensions.LogErrorEnrichedWithEnvironment*
+  nameWithType.vb: ILoggerExtensions.LogErrorEnrichedWithEnvironment(ILogger, Exception, String, ParamArray Object())
+  fullName.vb: Microsoft.Extensions.Logging.ILoggerExtensions.LogErrorEnrichedWithEnvironment(Microsoft.Extensions.Logging.ILogger, System.Exception, String, ParamArray Object())
+  name.vb: LogErrorEnrichedWithEnvironment(ILogger, Exception, String, ParamArray Object())
+- uid: Microsoft.Extensions.Logging.ILoggerExtensions.LogWarningEnrichedWithEnvironment(Microsoft.Extensions.Logging.ILogger,System.Exception,System.String,System.Object[])
+  commentId: M:Microsoft.Extensions.Logging.ILoggerExtensions.LogWarningEnrichedWithEnvironment(Microsoft.Extensions.Logging.ILogger,System.Exception,System.String,System.Object[])
+  id: LogWarningEnrichedWithEnvironment(Microsoft.Extensions.Logging.ILogger,System.Exception,System.String,System.Object[])
+  isExtensionMethod: true
+  parent: Microsoft.Extensions.Logging.ILoggerExtensions
+  langs:
+  - csharp
+  - vb
+  name: LogWarningEnrichedWithEnvironment(ILogger, Exception, string, params object[])
+  nameWithType: ILoggerExtensions.LogWarningEnrichedWithEnvironment(ILogger, Exception, string, params object[])
+  fullName: Microsoft.Extensions.Logging.ILoggerExtensions.LogWarningEnrichedWithEnvironment(Microsoft.Extensions.Logging.ILogger, System.Exception, string, params object[])
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: Microsoft.Extensions.Logging
+  syntax:
+    content: public static void LogWarningEnrichedWithEnvironment(this ILogger logger, Exception exception, string message, params object[] args)
+    parameters:
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger
+    - id: exception
+      type: System.Exception
+    - id: message
+      type: System.String
+    - id: args
+      type: System.Object[]
+    content.vb: Public Shared Sub LogWarningEnrichedWithEnvironment(logger As ILogger, exception As Exception, message As String, ParamArray args As Object())
+  overload: Microsoft.Extensions.Logging.ILoggerExtensions.LogWarningEnrichedWithEnvironment*
+  nameWithType.vb: ILoggerExtensions.LogWarningEnrichedWithEnvironment(ILogger, Exception, String, ParamArray Object())
+  fullName.vb: Microsoft.Extensions.Logging.ILoggerExtensions.LogWarningEnrichedWithEnvironment(Microsoft.Extensions.Logging.ILogger, System.Exception, String, ParamArray Object())
+  name.vb: LogWarningEnrichedWithEnvironment(ILogger, Exception, String, ParamArray Object())
+references:
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Extensions.Logging.ILoggerExtensions.BeginScopeEnrichedWithEnvironment*
+  commentId: Overload:Microsoft.Extensions.Logging.ILoggerExtensions.BeginScopeEnrichedWithEnvironment
+  isExternal: true
+  href: Microsoft.Extensions.Logging.ILoggerExtensions.html#Microsoft_Extensions_Logging_ILoggerExtensions_BeginScopeEnrichedWithEnvironment_Microsoft_Extensions_Logging_ILogger_System_String_System_Object___
+  name: BeginScopeEnrichedWithEnvironment
+  nameWithType: ILoggerExtensions.BeginScopeEnrichedWithEnvironment
+  fullName: Microsoft.Extensions.Logging.ILoggerExtensions.BeginScopeEnrichedWithEnvironment
+- uid: Microsoft.Extensions.Logging.ILogger
+  commentId: T:Microsoft.Extensions.Logging.ILogger
+  parent: Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger
+  name: ILogger
+  nameWithType: ILogger
+  fullName: Microsoft.Extensions.Logging.ILogger
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.Object[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object[]
+  nameWithType: object[]
+  fullName: object[]
+  nameWithType.vb: Object()
+  fullName.vb: Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: (
+  - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: Microsoft.Extensions.Logging.ILoggerExtensions.LogErrorEnrichedWithEnvironment*
+  commentId: Overload:Microsoft.Extensions.Logging.ILoggerExtensions.LogErrorEnrichedWithEnvironment
+  isExternal: true
+  href: Microsoft.Extensions.Logging.ILoggerExtensions.html#Microsoft_Extensions_Logging_ILoggerExtensions_LogErrorEnrichedWithEnvironment_Microsoft_Extensions_Logging_ILogger_System_Exception_System_String_System_Object___
+  name: LogErrorEnrichedWithEnvironment
+  nameWithType: ILoggerExtensions.LogErrorEnrichedWithEnvironment
+  fullName: Microsoft.Extensions.Logging.ILoggerExtensions.LogErrorEnrichedWithEnvironment
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.exception
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: Microsoft.Extensions.Logging.ILoggerExtensions.LogWarningEnrichedWithEnvironment*
+  commentId: Overload:Microsoft.Extensions.Logging.ILoggerExtensions.LogWarningEnrichedWithEnvironment
+  isExternal: true
+  href: Microsoft.Extensions.Logging.ILoggerExtensions.html#Microsoft_Extensions_Logging_ILoggerExtensions_LogWarningEnrichedWithEnvironment_Microsoft_Extensions_Logging_ILogger_System_Exception_System_String_System_Object___
+  name: LogWarningEnrichedWithEnvironment
+  nameWithType: ILoggerExtensions.LogWarningEnrichedWithEnvironment
+  fullName: Microsoft.Extensions.Logging.ILoggerExtensions.LogWarningEnrichedWithEnvironment

@@ -2,6 +2,7 @@
 title: POST List/QuoteApproveReason/Items
 uid: v1QuoteApproveReasonList_PostQuoteApproveReason
 generated: true
+content_type: reference
 ---
 
 # POST List/QuoteApproveReason/Items
@@ -73,16 +74,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 111,
-  "Name": "Hammes Group",
-  "Tooltip": "rem",
-  "Deleted": false,
-  "UdListDefinitionId": 788,
-  "Rank": 329
+  "Id": 914,
+  "Name": "Heller LLC",
+  "Tooltip": "odio",
+  "Deleted": true,
+  "UdListDefinitionId": 999,
+  "Rank": 270
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 49,
-  "Name": "Klocko LLC",
-  "Tooltip": "vel",
+  "Id": 863,
+  "Name": "Gutmann Group",
+  "Tooltip": "optio",
   "Deleted": false,
-  "UdListDefinitionId": 980,
-  "Rank": 608,
+  "UdListDefinitionId": 51,
+  "Rank": 28,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 809
+      "FieldLength": 239
     }
   }
 }

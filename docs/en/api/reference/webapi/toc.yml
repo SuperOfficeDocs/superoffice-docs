@@ -57,6 +57,8 @@ items:
     name: CustomerServiceAgent
   - uid: SuperOffice.WebApi.Agents.DashAgent
     name: DashAgent
+  - uid: SuperOffice.WebApi.Agents.DashboardAgent
+    name: DashboardAgent
   - uid: SuperOffice.WebApi.Agents.DatabaseAgent
     name: DatabaseAgent
   - uid: SuperOffice.WebApi.Agents.DatabaseTableAgent
@@ -107,6 +109,8 @@ items:
     name: ICustomerServiceAgent
   - uid: SuperOffice.WebApi.Agents.IDashAgent
     name: IDashAgent
+  - uid: SuperOffice.WebApi.Agents.IDashboardAgent
+    name: IDashboardAgent
   - uid: SuperOffice.WebApi.Agents.IDatabaseAgent
     name: IDatabaseAgent
   - uid: SuperOffice.WebApi.Agents.IDatabaseTableAgent
@@ -253,13 +257,6 @@ items:
     name: WebhookAgent
   - uid: SuperOffice.WebApi.Agents.WorkflowAgent
     name: WorkflowAgent
-- uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
-  name: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11
-  items:
-  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.DashboardAgent
-    name: DashboardAgent
-  - uid: SuperOffice.WebApi.Agents.ForNetserverUntilVersion11.IDashboardAgent
-    name: IDashboardAgent
 - uid: SuperOffice.WebApi.Authorization
   name: SuperOffice.WebApi.Authorization
   items:
@@ -301,6 +298,10 @@ items:
 - uid: SuperOffice.WebApi.Data
   name: SuperOffice.WebApi.Data
   items:
+  - uid: SuperOffice.WebApi.Data.AI_AnalyzeBizCardImageRequest
+    name: AI_AnalyzeBizCardImageRequest
+  - uid: SuperOffice.WebApi.Data.AI_AnalyzeBizCardTextRequest
+    name: AI_AnalyzeBizCardTextRequest
   - uid: SuperOffice.WebApi.Data.AI_AnswerAcceptedRequest
     name: AI_AnswerAcceptedRequest
   - uid: SuperOffice.WebApi.Data.AI_AnswerFeedbackRequest
@@ -801,10 +802,16 @@ items:
     name: Batch_StopBatchJobRequest
   - uid: SuperOffice.WebApi.Data.Batch_UpdateBatchTaskRequest
     name: Batch_UpdateBatchTaskRequest
+  - uid: SuperOffice.WebApi.Data.BizCard
+    name: BizCard
   - uid: SuperOffice.WebApi.Data.BlobEntity
     name: BlobEntity
   - uid: SuperOffice.WebApi.Data.BlobLinkType
     name: BlobLinkType
+  - uid: SuperOffice.WebApi.Data.BoardViewEntityType
+    name: BoardViewEntityType
+  - uid: SuperOffice.WebApi.Data.BoardViewSettingsBase
+    name: BoardViewSettingsBase
   - uid: SuperOffice.WebApi.Data.BookingType
     name: BookingType
   - uid: SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest
@@ -897,6 +904,10 @@ items:
     name: CategorizationStatusResponse
   - uid: SuperOffice.WebApi.Data.Category
     name: Category
+  - uid: SuperOffice.WebApi.Data.CategoryEntity
+    name: CategoryEntity
+  - uid: SuperOffice.WebApi.Data.CategoryGroup
+    name: CategoryGroup
   - uid: SuperOffice.WebApi.Data.CategoryGuess
     name: CategoryGuess
   - uid: SuperOffice.WebApi.Data.ChangePasswordType
@@ -1337,6 +1348,34 @@ items:
     name: Dash_SaveDashTileHtmlListRequest
   - uid: SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest
     name: Dash_SaveDashTilesRequest
+  - uid: SuperOffice.WebApi.Data.Dashboard
+    name: Dashboard
+  - uid: SuperOffice.WebApi.Data.DashboardLayout
+    name: DashboardLayout
+  - uid: SuperOffice.WebApi.Data.DashboardTile
+    name: DashboardTile
+  - uid: SuperOffice.WebApi.Data.DashboardTileEntityType
+    name: DashboardTileEntityType
+  - uid: SuperOffice.WebApi.Data.DashboardTileOption
+    name: DashboardTileOption
+  - uid: SuperOffice.WebApi.Data.DashboardTileOptionType
+    name: DashboardTileOptionType
+  - uid: SuperOffice.WebApi.Data.DashboardTileType
+    name: DashboardTileType
+  - uid: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest
+    name: Dashboard_CreateNewFromTemplateRequest
+  - uid: SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest
+    name: Dashboard_GetDashboardTilesRequest
+  - uid: SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest
+    name: Dashboard_GetDashboardsRequest
+  - uid: SuperOffice.WebApi.Data.Dashboard_GetDataRequest
+    name: Dashboard_GetDataRequest
+  - uid: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest
+    name: Dashboard_GetDataWithSelectionRequest
+  - uid: SuperOffice.WebApi.Data.Dashboard_GetStandardDashboardTileFromChartIdRequest
+    name: Dashboard_GetStandardDashboardTileFromChartIdRequest
+  - uid: SuperOffice.WebApi.Data.Dashboard_SetTileRequest
+    name: Dashboard_SetTileRequest
   - uid: SuperOffice.WebApi.Data.DataRight
     name: DataRight
   - uid: SuperOffice.WebApi.Data.DataRights
@@ -1839,6 +1878,8 @@ items:
     name: EMail_ToggleSubscriptionRequest
   - uid: SuperOffice.WebApi.Data.ETableRight
     name: ETableRight
+  - uid: SuperOffice.WebApi.Data.EjScriptVerb
+    name: EjScriptVerb
   - uid: SuperOffice.WebApi.Data.EjUserStatus
     name: EjUserStatus
   - uid: SuperOffice.WebApi.Data.EmailFlow
@@ -2261,6 +2302,8 @@ items:
     name: Import_SaveImportRequest
   - uid: SuperOffice.WebApi.Data.IncomingMessage
     name: IncomingMessage
+  - uid: SuperOffice.WebApi.Data.InitalUtmParameters
+    name: InitalUtmParameters
   - uid: SuperOffice.WebApi.Data.Installation
     name: Installation
   - uid: SuperOffice.WebApi.Data.IntStringDictionary
@@ -2865,6 +2908,8 @@ items:
     name: Person_GetSalesRepRequest
   - uid: SuperOffice.WebApi.Data.Person_GetUserCandidateByPersonRequest
     name: Person_GetUserCandidateByPersonRequest
+  - uid: SuperOffice.WebApi.Data.Person_GetUtmParametersRequest
+    name: Person_GetUtmParametersRequest
   - uid: SuperOffice.WebApi.Data.Person_HasConsentRequest
     name: Person_HasConsentRequest
   - uid: SuperOffice.WebApi.Data.Person_IsNumberValidRequest
@@ -3069,6 +3114,8 @@ items:
     name: ProductType
   - uid: SuperOffice.WebApi.Data.Project
     name: Project
+  - uid: SuperOffice.WebApi.Data.ProjectBoardViewSettings
+    name: ProjectBoardViewSettings
   - uid: SuperOffice.WebApi.Data.ProjectEntity
     name: ProjectEntity
   - uid: SuperOffice.WebApi.Data.ProjectEvent
@@ -3145,6 +3192,8 @@ items:
     name: Project_OfferAutoNextStatusOnApppointmentCompletedRequest
   - uid: SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest
     name: Project_SaveProjectMembersFunctionAndCommentRequest
+  - uid: SuperOffice.WebApi.Data.Project_SetCompletedRequest
+    name: Project_SetCompletedRequest
   - uid: SuperOffice.WebApi.Data.Project_SetDuplicateRulesStatusRequest
     name: Project_SetDuplicateRulesStatusRequest
   - uid: SuperOffice.WebApi.Data.Project_SetProjectImageRequest
@@ -3503,6 +3552,8 @@ items:
     name: Saint_SetRankOnStatusMonitorsRequest
   - uid: SuperOffice.WebApi.Data.Sale
     name: Sale
+  - uid: SuperOffice.WebApi.Data.SaleBoardViewSettings
+    name: SaleBoardViewSettings
   - uid: SuperOffice.WebApi.Data.SaleEntity
     name: SaleEntity
   - uid: SuperOffice.WebApi.Data.SaleStageEntity
@@ -3621,6 +3672,8 @@ items:
     name: Selection_CreateContactSelectionFromSelectionRequest
   - uid: SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromShadowSelectionRequest
     name: Selection_CreateContactSelectionFromShadowSelectionRequest
+  - uid: SuperOffice.WebApi.Data.Selection_CreateDefaultBoardViewSettingsFromEntityTypeRequest
+    name: Selection_CreateDefaultBoardViewSettingsFromEntityTypeRequest
   - uid: SuperOffice.WebApi.Data.Selection_CreateNewEntryRequest
     name: Selection_CreateNewEntryRequest
   - uid: SuperOffice.WebApi.Data.Selection_CreateSelectionEntityRequest
@@ -3635,6 +3688,8 @@ items:
     name: Selection_CreateTemporaryContactSelectionRequest
   - uid: SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest
     name: Selection_CreateTemporarySelectionFromIdsRequest
+  - uid: SuperOffice.WebApi.Data.Selection_DeleteBoardViewSettingsRequest
+    name: Selection_DeleteBoardViewSettingsRequest
   - uid: SuperOffice.WebApi.Data.Selection_DeleteContactsRequest
     name: Selection_DeleteContactsRequest
   - uid: SuperOffice.WebApi.Data.Selection_DeleteEntitiesRequest
@@ -3651,6 +3706,10 @@ items:
     name: Selection_ExportSelectionMembersWithOrderByRequest
   - uid: SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest
     name: Selection_GenerateFollowUpsRequest
+  - uid: SuperOffice.WebApi.Data.Selection_GetBoardViewSettingsForSelectionRequest
+    name: Selection_GetBoardViewSettingsForSelectionRequest
+  - uid: SuperOffice.WebApi.Data.Selection_GetBoardViewSettingsRequest
+    name: Selection_GetBoardViewSettingsRequest
   - uid: SuperOffice.WebApi.Data.Selection_GetDuplicateRulesRequest
     name: Selection_GetDuplicateRulesRequest
   - uid: SuperOffice.WebApi.Data.Selection_GetDuplicatesRequest
@@ -3687,6 +3746,8 @@ items:
     name: Selection_RemoveSelectionMembersFromSearchRequest
   - uid: SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersRequest
     name: Selection_RemoveSelectionMembersRequest
+  - uid: SuperOffice.WebApi.Data.Selection_SaveBoardViewSettingsRequest
+    name: Selection_SaveBoardViewSettingsRequest
   - uid: SuperOffice.WebApi.Data.Selection_SetDuplicateRulesStatusRequest
     name: Selection_SetDuplicateRulesStatusRequest
   - uid: SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request
@@ -4063,6 +4124,8 @@ items:
     name: Ticket_UploadAttachmentRequest
   - uid: SuperOffice.WebApi.Data.Ticket_ValidateAttachmentsRequest
     name: Ticket_ValidateAttachmentsRequest
+  - uid: SuperOffice.WebApi.Data.TileData
+    name: TileData
   - uid: SuperOffice.WebApi.Data.TimeZoneData
     name: TimeZoneData
   - uid: SuperOffice.WebApi.Data.TimeZoneRule
@@ -4253,6 +4316,8 @@ items:
     name: UserPreferenceStrings.MDOList
   - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Mail
     name: UserPreferenceStrings.Mail
+  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Mailing
+    name: UserPreferenceStrings.Mailing
   - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.MiniPanel
     name: UserPreferenceStrings.MiniPanel
   - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices
@@ -4477,6 +4542,8 @@ items:
     name: User_SetUserPresenceStatusRequest
   - uid: SuperOffice.WebApi.Data.User_ValidateUserRequest
     name: User_ValidateUserRequest
+  - uid: SuperOffice.WebApi.Data.UtmParameters
+    name: UtmParameters
   - uid: SuperOffice.WebApi.Data.ValueOverride
     name: ValueOverride
   - uid: SuperOffice.WebApi.Data.VersionInfo
@@ -4665,37 +4732,4 @@ items:
     name: Workflow_TryAddPersonsToEmailFlowRequest
   - uid: SuperOffice.WebApi.Data.Workflow_UpdateFormSubmissionsRequest
     name: Workflow_UpdateFormSubmissionsRequest
-- uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
-  name: SuperOffice.WebApi.Data.ForNetserverUntilVersion11
-  items:
-  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard
-    name: Dashboard
-  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardLayout
-    name: DashboardLayout
-  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile
-    name: DashboardTile
-  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileEntityType
-    name: DashboardTileEntityType
-  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOption
-    name: DashboardTileOption
-  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOptionType
-    name: DashboardTileOptionType
-  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileType
-    name: DashboardTileType
-  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_CreateNewFromTemplateRequest
-    name: Dashboard_CreateNewFromTemplateRequest
-  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetDashboardTilesRequest
-    name: Dashboard_GetDashboardTilesRequest
-  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetDashboardsRequest
-    name: Dashboard_GetDashboardsRequest
-  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetDataRequest
-    name: Dashboard_GetDataRequest
-  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetDataWithSelectionRequest
-    name: Dashboard_GetDataWithSelectionRequest
-  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_GetStandardDashboardTileFromChartIdRequest
-    name: Dashboard_GetStandardDashboardTileFromChartIdRequest
-  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard_SetTileRequest
-    name: Dashboard_SetTileRequest
-  - uid: SuperOffice.WebApi.Data.ForNetserverUntilVersion11.TileData
-    name: TileData
 memberLayout: SamePage

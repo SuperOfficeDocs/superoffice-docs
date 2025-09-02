@@ -2,6 +2,7 @@
 title: POST Agents/License/GetLicenseFromLicenseServer
 uid: v1LicenseAgent_GetLicenseFromLicenseServer
 generated: true
+content_type: reference
 ---
 
 # POST Agents/License/GetLicenseFromLicenseServer
@@ -80,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Koss-Hagenes"
+  "OwnerName": "Cummerata, McKenzie and Kunze"
 }
 ```
 
@@ -92,21 +93,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 851,
-      "NumberOfLicensesFree": 646,
-      "NumberOfLicensesAdded": 791,
-      "NumberOfLicensesNewTotal": 465,
-      "NumberOfLicensesNewFree": 570,
-      "NumberOfLicensesTotal": 915
+      "NumberOfLicensesInUse": 222,
+      "NumberOfLicensesFree": 474,
+      "NumberOfLicensesAdded": 218,
+      "NumberOfLicensesNewTotal": 601,
+      "NumberOfLicensesNewFree": 834,
+      "NumberOfLicensesTotal": 871
     }
   ],
-  "AccumulatedNextCheckDate": "2008-01-26T03:45:23.498579+01:00"
+  "AccumulatedNextCheckDate": "1999-06-11T03:46:54.9107593+02:00"
 }
 ```

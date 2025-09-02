@@ -5,6 +5,7 @@ items:
   id: ServicePreferenceMappings
   parent: SuperOffice.Data
   children:
+  - SuperOffice.Data.ServicePreferenceMappings.#ctor
   - SuperOffice.Data.ServicePreferenceMappings.AttachmentPathDecoder(System.String,System.String)
   - SuperOffice.Data.ServicePreferenceMappings.MappedLevel(SuperOffice.Data.ServicePreferenceMappings.PreferenceMappingType)
   - SuperOffice.Data.ServicePreferenceMappings.MappedSections
@@ -28,14 +29,8 @@ items:
   summary: The actual mapping definitions between the "pseudo" preferences an records in config, registry and possibly other tables
   example: []
   syntax:
-    content: >-
-      [SoInject("Process")]
-
-      public class ServicePreferenceMappings
-    content.vb: >-
-      <SoInject("Process")>
-
-      Public Class ServicePreferenceMappings
+    content: public class ServicePreferenceMappings
+    content.vb: Public Class ServicePreferenceMappings
   inheritance:
   - System.Object
   inheritedMembers:
@@ -49,12 +44,8 @@ items:
   extensionMethods:
   - SuperOffice.Data.ServicePreferenceMappings.EnumUtil.MapEnums``2
   - SuperOffice.Data.ServicePreferenceMappings.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  attributes:
-  - type: SuperOffice.Factory.SoInjectAttribute
-    ctor: SuperOffice.Factory.SoInjectAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Process
+  - SuperOffice.Data.ServicePreferenceMappings.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ServicePreferenceMappings)
+  - SuperOffice.Data.ServicePreferenceMappings.SuperOffice.Util.ObjectExtensions.GraphCopy``1
 - uid: SuperOffice.Data.ServicePreferenceMappings.PasswordMask
   commentId: F:SuperOffice.Data.ServicePreferenceMappings.PasswordMask
   id: PasswordMask
@@ -298,6 +289,27 @@ items:
       type: SuperOffice.Data.PreferenceLevel
     content.vb: Public Function MappedLevel(mappingType As ServicePreferenceMappings.PreferenceMappingType) As PreferenceLevel
   overload: SuperOffice.Data.ServicePreferenceMappings.MappedLevel*
+- uid: SuperOffice.Data.ServicePreferenceMappings.#ctor
+  commentId: M:SuperOffice.Data.ServicePreferenceMappings.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Data.ServicePreferenceMappings
+  langs:
+  - csharp
+  - vb
+  name: ServicePreferenceMappings()
+  nameWithType: ServicePreferenceMappings.ServicePreferenceMappings()
+  fullName: SuperOffice.Data.ServicePreferenceMappings.ServicePreferenceMappings()
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public ServicePreferenceMappings()
+    content.vb: Public Sub New()
+  overload: SuperOffice.Data.ServicePreferenceMappings.#ctor*
+  nameWithType.vb: ServicePreferenceMappings.New()
+  fullName.vb: SuperOffice.Data.ServicePreferenceMappings.New()
+  name.vb: New()
 - uid: SuperOffice.Data.ServicePreferenceMappings.Mappings
   commentId: P:SuperOffice.Data.ServicePreferenceMappings.Mappings
   id: Mappings
@@ -704,6 +716,112 @@ references:
     isExternal: true
     href: SuperOffice.Data.ServicePreferenceMappings.html
   - name: )
+- uid: SuperOffice.Data.ServicePreferenceMappings.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ServicePreferenceMappings)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<ServicePreferenceMappings>(ServicePreferenceMappings, ServicePreferenceMappings)
+  nameWithType: ObjectExtensions.AssignByReflection<ServicePreferenceMappings>(ServicePreferenceMappings, ServicePreferenceMappings)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Data.ServicePreferenceMappings>(SuperOffice.Data.ServicePreferenceMappings, SuperOffice.Data.ServicePreferenceMappings)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of ServicePreferenceMappings)(ServicePreferenceMappings, ServicePreferenceMappings)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Data.ServicePreferenceMappings)(SuperOffice.Data.ServicePreferenceMappings, SuperOffice.Data.ServicePreferenceMappings)
+  name.vb: AssignByReflection(Of ServicePreferenceMappings)(ServicePreferenceMappings, ServicePreferenceMappings)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ServicePreferenceMappings,SuperOffice.Data.ServicePreferenceMappings)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Data.ServicePreferenceMappings
+    name: ServicePreferenceMappings
+    isExternal: true
+    href: SuperOffice.Data.ServicePreferenceMappings.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.ServicePreferenceMappings
+    name: ServicePreferenceMappings
+    isExternal: true
+    href: SuperOffice.Data.ServicePreferenceMappings.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.ServicePreferenceMappings
+    name: ServicePreferenceMappings
+    isExternal: true
+    href: SuperOffice.Data.ServicePreferenceMappings.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Data.ServicePreferenceMappings,SuperOffice.Data.ServicePreferenceMappings)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ServicePreferenceMappings
+    name: ServicePreferenceMappings
+    isExternal: true
+    href: SuperOffice.Data.ServicePreferenceMappings.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.ServicePreferenceMappings
+    name: ServicePreferenceMappings
+    isExternal: true
+    href: SuperOffice.Data.ServicePreferenceMappings.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Data.ServicePreferenceMappings
+    name: ServicePreferenceMappings
+    isExternal: true
+    href: SuperOffice.Data.ServicePreferenceMappings.html
+  - name: )
+- uid: SuperOffice.Data.ServicePreferenceMappings.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<ServicePreferenceMappings>(ServicePreferenceMappings)
+  nameWithType: ObjectExtensions.GraphCopy<ServicePreferenceMappings>(ServicePreferenceMappings)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Data.ServicePreferenceMappings>(SuperOffice.Data.ServicePreferenceMappings)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of ServicePreferenceMappings)(ServicePreferenceMappings)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Data.ServicePreferenceMappings)(SuperOffice.Data.ServicePreferenceMappings)
+  name.vb: GraphCopy(Of ServicePreferenceMappings)(ServicePreferenceMappings)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ServicePreferenceMappings)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Data.ServicePreferenceMappings
+    name: ServicePreferenceMappings
+    isExternal: true
+    href: SuperOffice.Data.ServicePreferenceMappings.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Data.ServicePreferenceMappings
+    name: ServicePreferenceMappings
+    isExternal: true
+    href: SuperOffice.Data.ServicePreferenceMappings.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Data.ServicePreferenceMappings)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.ServicePreferenceMappings
+    name: ServicePreferenceMappings
+    isExternal: true
+    href: SuperOffice.Data.ServicePreferenceMappings.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Data.ServicePreferenceMappings
+    name: ServicePreferenceMappings
+    isExternal: true
+    href: SuperOffice.Data.ServicePreferenceMappings.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -806,6 +924,88 @@ references:
   name: Converters
   nameWithType: Converters
   fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
 - uid: SuperOffice.ErpSync.ConnectorWS
   commentId: N:SuperOffice.ErpSync.ConnectorWS
   isExternal: true
@@ -843,6 +1043,33 @@ references:
     name: ConnectorWS
     isExternal: true
     href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -973,6 +1200,16 @@ references:
   name: PreferenceLevel
   nameWithType: PreferenceLevel
   fullName: SuperOffice.Data.PreferenceLevel
+- uid: SuperOffice.Data.ServicePreferenceMappings.#ctor*
+  commentId: Overload:SuperOffice.Data.ServicePreferenceMappings.#ctor
+  isExternal: true
+  href: SuperOffice.Data.ServicePreferenceMappings.html#SuperOffice_Data_ServicePreferenceMappings__ctor
+  name: ServicePreferenceMappings
+  nameWithType: ServicePreferenceMappings.ServicePreferenceMappings
+  fullName: SuperOffice.Data.ServicePreferenceMappings.ServicePreferenceMappings
+  nameWithType.vb: ServicePreferenceMappings.New
+  fullName.vb: SuperOffice.Data.ServicePreferenceMappings.New
+  name.vb: New
 - uid: SuperOffice.Data.ServicePreferenceMappings.Mappings*
   commentId: Overload:SuperOffice.Data.ServicePreferenceMappings.Mappings
   isExternal: true

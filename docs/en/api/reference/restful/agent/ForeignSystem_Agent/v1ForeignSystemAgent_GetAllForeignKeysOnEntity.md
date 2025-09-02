@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/GetAllForeignKeysOnEntity
 uid: v1ForeignSystemAgent_GetAllForeignKeysOnEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/GetAllForeignKeysOnEntity
@@ -71,12 +72,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAllForeignKeysOnEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityType": "fugiat",
-  "EntityId": 764
+  "EntityType": "qui",
+  "EntityId": 977
 }
 ```
 
@@ -87,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "voluptas",
-  "2": "a"
+  "1": "voluptatem",
+  "2": "deleniti"
 }
 ```

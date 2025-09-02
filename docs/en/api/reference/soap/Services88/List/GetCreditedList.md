@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetCreditedList SOAP
 generated: true
 uid: Services88-List-GetCreditedList
+content_type: reference
 ---
 
 # Services88 List GetCreditedList

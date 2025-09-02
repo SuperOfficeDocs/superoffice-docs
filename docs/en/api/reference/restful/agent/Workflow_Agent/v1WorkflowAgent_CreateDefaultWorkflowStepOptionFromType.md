@@ -2,6 +2,7 @@
 title: POST Agents/Workflow/CreateDefaultWorkflowStepOptionFromType
 uid: v1WorkflowAgent_CreateDefaultWorkflowStepOptionFromType
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Workflow/CreateDefaultWorkflowStepOptionFromType
@@ -77,7 +78,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowStepOptionFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,23 +94,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OptionType": "FormData",
-  "WorkflowStepOptionId": 969,
-  "WorkflowStepId": 318,
-  "WorkflowId": 657,
-  "Name": "O'Hara-Grady",
-  "Rank": 221,
+  "WorkflowStepOptionId": 726,
+  "WorkflowStepId": 274,
+  "WorkflowId": 198,
+  "Name": "Bogan-Legros",
+  "Rank": 161,
   "Steps": [
     {
-      "WorkflowStepId": 733,
-      "WorkflowId": 874,
+      "WorkflowStepId": 945,
+      "WorkflowId": 673,
       "StepType": "AddToList",
-      "Rank": 319
+      "Rank": 766
     },
     {
-      "WorkflowStepId": 733,
-      "WorkflowId": 874,
+      "WorkflowStepId": 945,
+      "WorkflowId": 673,
       "StepType": "AddToList",
-      "Rank": 319
+      "Rank": 766
     }
   ]
 }

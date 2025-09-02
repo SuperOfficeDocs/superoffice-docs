@@ -2,6 +2,7 @@
 title: GET List/Priority/Items/{id}/Headings
 uid: v1PriorityList_GetPriorityHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Priority/Items/{id}/Headings
@@ -85,7 +86,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 703,
-    "Name": "Abshire, Cronin and Runolfsdottir",
-    "ToolTip": "Quo animi facilis ut mollitia quasi voluptate minus.",
-    "Deleted": false,
-    "Rank": 377,
-    "Type": "exercitationem",
-    "ColorBlock": 938,
-    "IconHint": "qui",
+    "Id": 150,
+    "Name": "Jewess-Weber",
+    "ToolTip": "Voluptatibus aut omnis eaque.",
+    "Deleted": true,
+    "Rank": 277,
+    "Type": "est",
+    "ColorBlock": 885,
+    "IconHint": "eaque",
     "Selected": false,
-    "LastChanged": "2014-06-24T03:45:29.0921677+02:00",
+    "LastChanged": "2003-11-25T03:47:00.7224209+01:00",
     "ChildItems": [
       {
-        "Id": 790,
-        "Name": "Crona-Steuber",
-        "ToolTip": "Aut et ut sed aspernatur.",
+        "Id": 984,
+        "Name": "Kuphal, Wunsch and Rogahn",
+        "ToolTip": "Aut doloribus aut doloribus quos.",
         "Deleted": false,
-        "Rank": 432,
-        "Type": "est",
-        "ColorBlock": 625,
-        "IconHint": "dicta",
+        "Rank": 895,
+        "Type": "et",
+        "ColorBlock": 96,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2000-12-09T03:45:29.0921677+01:00",
+        "LastChanged": "2005-11-30T03:47:00.7224209+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "sed",
+        "ExtraInfo": "dicta",
+        "StyleHint": "nemo",
         "Hidden": false,
-        "FullName": "Darren Volkman",
+        "FullName": "Annalise Langosh",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 639
+            "FieldType": "System.String",
+            "FieldLength": 606
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Daisha Smith",
+    "ExtraInfo": "aperiam",
+    "StyleHint": "quae",
+    "Hidden": false,
+    "FullName": "Janice Mosciski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 821
+        "FieldType": "System.String",
+        "FieldLength": 825
       }
     }
   }

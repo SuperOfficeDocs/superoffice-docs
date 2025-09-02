@@ -3,9 +3,9 @@ uid: AssociateProjectDynamicSelection
 title: AssociateProjectDynamicSelection
 description: 
 keywords: AssociateProjectDynamicSelection archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "AssociateProjectDynamicSelection"

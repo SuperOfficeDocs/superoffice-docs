@@ -3,9 +3,9 @@ uid: projectimage
 title: projectimage
 keywords: mdoprovider mdo provider projectimage
 description: Project images from the blob table
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "projectimage" MDO List

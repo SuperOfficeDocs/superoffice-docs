@@ -3,9 +3,9 @@ uid: importpersonduplicatematch
 title: importpersonduplicatematch
 keywords: mdoprovider mdo provider importpersonduplicatematch
 description: Import Person Fields to match on - Name, E-mail, phone, number, id, None
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "importpersonduplicatematch" MDO List

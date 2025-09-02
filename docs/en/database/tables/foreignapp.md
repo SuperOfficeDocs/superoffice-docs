@@ -2,10 +2,10 @@
 uid: table-foreignapp
 title: foreignapp table
 description: Top level of Foreign Key system
-so.generated: true
+generated: true
 keywords: database table foreignapp
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # foreignapp Table (181)

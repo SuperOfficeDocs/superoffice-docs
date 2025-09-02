@@ -2,6 +2,7 @@
 title: POST Agents/EMail/SaveDraft
 uid: v1EMailAgent_SaveDraft
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/SaveDraft
@@ -100,7 +101,7 @@ OK
 POST /api/v1/Agents/EMail/SaveDraft
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,97 +118,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 111,
-      "ContactName": "O'Conner-Brekke",
-      "PersonId": 600,
-      "PersonName": "Hagenes Inc and Sons",
-      "AssociateId": 557,
-      "Address": "rerum",
-      "EmailId": 410,
+      "ContactId": 306,
+      "ContactName": "Luettgen Inc and Sons",
+      "PersonId": 193,
+      "PersonName": "Lubowitz, Schowalter and Toy",
+      "AssociateId": 713,
+      "Address": "non",
+      "EmailId": 818,
       "DuplicatePersonIds": [
-        819,
-        675
+        67,
+        418
       ],
-      "Name": "Herzog-Stehr",
+      "Name": "Gerhold-Schroeder",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 302
+          "FieldType": "System.String",
+          "FieldLength": 249
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 894,
-      "ContactName": "Wilkinson LLC",
-      "PersonId": 122,
-      "PersonName": "Towne, Jast and Kuvalis",
-      "AssociateId": 943,
-      "Address": "similique",
-      "EmailId": 474,
+      "ContactId": 305,
+      "ContactName": "O'Keefe LLC",
+      "PersonId": 88,
+      "PersonName": "Armstrong Group",
+      "AssociateId": 929,
+      "Address": "suscipit",
+      "EmailId": 851,
       "DuplicatePersonIds": [
-        440,
-        564
+        385,
+        651
       ],
-      "Name": "Orn-Schmeler",
+      "Name": "Rolfson, Ebert and Little",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 501
+          "FieldLength": 610
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 62,
-      "ContactName": "Ritchie, Ratke and Gulgowski",
-      "PersonId": 663,
-      "PersonName": "Kuhn LLC",
-      "AssociateId": 592,
-      "Address": "quis",
-      "EmailId": 450,
+      "ContactId": 286,
+      "ContactName": "Pfeffer-Crona",
+      "PersonId": 8,
+      "PersonName": "Hills Inc and Sons",
+      "AssociateId": 788,
+      "Address": "dolore",
+      "EmailId": 815,
       "DuplicatePersonIds": [
-        964,
-        131
+        110,
+        384
       ],
-      "Name": "Shanahan, Lueilwitz and Flatley",
+      "Name": "Dare, Weimann and McKenzie",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 628
+          "FieldLength": 840
         }
       }
     }
   ],
-  "Subject": "maxime",
-  "HTMLBody": "sit",
+  "Subject": "atque",
+  "HTMLBody": "est",
   "From": null,
-  "Sent": "2012-02-25T03:45:23.389207+01:00",
-  "Size": 5,
+  "Sent": "2006-01-09T03:46:54.7382579+01:00",
+  "Size": 664,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "unde",
-  "PlainBody": "voluptas",
+  "MessageID": "ducimus",
+  "PlainBody": "velit",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 108,
+  "ServerId": 483,
   "Attachments": [
     {
-      "Description": "Fundamental exuding groupware",
-      "Filename": "asperiores",
-      "Size": 59,
-      "Type": "laborum",
-      "Encoding": "sapiente",
-      "Id": "facere",
-      "Disposition": "ab",
+      "Description": "Realigned composite projection",
+      "Filename": "qui",
+      "Size": 622,
+      "Type": "necessitatibus",
+      "Encoding": "quo",
+      "Id": "ducimus",
+      "Disposition": "enim",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,49 +216,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 354
+          "FieldLength": 31
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Haag, Sipes and Kris",
+      "Name": "Witting, Langosh and Stoltenberg",
       "Values": [
-        "harum",
-        "dolores"
+        "quia",
+        "aspernatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 42
+          "FieldType": "System.String",
+          "FieldLength": 276
         }
       }
     },
     {
-      "Name": "Haag, Sipes and Kris",
+      "Name": "Witting, Langosh and Stoltenberg",
       "Values": [
-        "harum",
-        "dolores"
+        "quia",
+        "aspernatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 42
+          "FieldType": "System.String",
+          "FieldLength": 276
         }
       }
     }
   ],
-  "FolderName": "Lebsack Inc and Sons",
-  "EmailItemId": 566,
-  "AccountId": 114,
-  "ReceivedAt": "2017-07-22T03:45:23.389207+02:00",
+  "FolderName": "Bergstrom, Mueller and Cremin",
+  "EmailItemId": 525,
+  "AccountId": 12,
+  "ReceivedAt": "2016-12-21T03:46:54.7382579+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2018-06-10T03:45:23.389207+02:00",
+  "RepliedAt": "1998-09-02T03:46:54.7382579+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +266,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldType": "System.String",
+      "FieldLength": 859
     }
   }
 }

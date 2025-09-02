@@ -2,6 +2,7 @@
 title: POST Agents/Project/DeleteProjectEventEntity
 uid: v1ProjectAgent_DeleteProjectEventEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/DeleteProjectEventEntity
@@ -22,10 +23,10 @@ Deletes the ProjectEventEntity
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectEventEntityId | int32 | **Required** The id of the ProjectEventEntity to be deleted. |
+| projectEventEntityId | int32 | **Required** The identity of the ProjectEventEntity |
 
 ```http
-POST /api/v1/Agents/Project/DeleteProjectEventEntity?ProjectEventEntityId=500
+POST /api/v1/Agents/Project/DeleteProjectEventEntity?projectEventEntityId=880
 ```
 
 
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/Project/DeleteProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

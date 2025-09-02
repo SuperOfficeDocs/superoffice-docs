@@ -2,6 +2,7 @@
 title: PATCH PreferenceDescriptionLine/{id}
 uid: v1PreferenceDescriptionLine_PatchPreferenceDescriptionLine
 generated: true
+content_type: reference
 ---
 
 # PATCH PreferenceDescriptionLine/{id}
@@ -113,18 +114,18 @@ PreferenceDescriptionLine  updated.
 PATCH /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "magnam",
+    "path": "asperiores",
     "value": {}
   },
   {
     "op": "add",
-    "path": "magnam",
+    "path": "asperiores",
     "value": {}
   }
 ]
@@ -137,18 +138,18 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 449,
-  "PrefDescId": 187,
-  "PrefValue": "porro",
-  "PrefShowValue": "quaerat",
-  "Description": "Re-contextualized tangible help-desk",
+  "PrefDescLineId": 304,
+  "PrefDescId": 395,
+  "PrefValue": "fugit",
+  "PrefShowValue": "odit",
+  "Description": "Automated zero defect application",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 588
+      "FieldType": "System.String",
+      "FieldLength": 543
     }
   },
   "_Links": {

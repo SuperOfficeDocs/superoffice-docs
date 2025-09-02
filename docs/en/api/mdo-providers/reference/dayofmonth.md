@@ -3,9 +3,9 @@ uid: dayofmonth
 title: dayofmonth
 keywords: mdoprovider mdo provider dayofmonth
 description: MDO provider for the hard-coded list of day alternatives in the recurrence dialog.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "dayofmonth" MDO List

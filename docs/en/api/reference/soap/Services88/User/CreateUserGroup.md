@@ -2,6 +2,7 @@
 title: Services88.UserAgent.CreateUserGroup SOAP
 generated: true
 uid: Services88-User-CreateUserGroup
+content_type: reference
 ---
 
 # Services88 User CreateUserGroup

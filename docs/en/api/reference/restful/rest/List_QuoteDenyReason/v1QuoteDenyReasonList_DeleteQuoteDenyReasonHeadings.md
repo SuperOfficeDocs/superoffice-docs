@@ -2,6 +2,7 @@
 title: DEL List/QuoteDenyReason/Headings
 uid: v1QuoteDenyReasonList_DeleteQuoteDenyReasonHeadings
 generated: true
+content_type: reference
 ---
 
 # DEL List/QuoteDenyReason/Headings

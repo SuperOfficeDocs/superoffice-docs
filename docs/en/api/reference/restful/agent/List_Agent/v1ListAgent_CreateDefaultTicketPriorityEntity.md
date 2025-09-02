@@ -2,6 +2,7 @@
 title: POST Agents/List/CreateDefaultTicketPriorityEntity
 uid: v1ListAgent_CreateDefaultTicketPriorityEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/CreateDefaultTicketPriorityEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 ```
 
-Set default values into a new TicketPriorityEntity.
+Loading default values into a new TicketPriorityEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -94,60 +93,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 249,
-  "Name": "Lubowitz, Deckow and Waters",
+  "TicketPriorityId": 782,
+  "Name": "Ritchie-Koelpin",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 219,
+  "SortOrder": 616,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 34,
-  "MonStart": "2021-05-13T03:45:23.6235756+02:00",
-  "MonStop": "2021-04-16T03:45:23.6235756+02:00",
-  "TueStart": "2007-08-09T03:45:23.6235756+02:00",
-  "TueStop": "2003-01-03T03:45:23.6235756+01:00",
-  "WedStart": "2002-04-14T03:45:23.6235756+02:00",
-  "WedStop": "2017-06-20T03:45:23.6235756+02:00",
-  "ThuStart": "2005-01-24T03:45:23.6235756+01:00",
-  "ThuStop": "2013-11-10T03:45:23.6235756+01:00",
-  "FriStart": "2017-09-01T03:45:23.6235756+02:00",
-  "FriStop": "2021-05-22T03:45:23.6235756+02:00",
-  "SatStart": "2006-05-28T03:45:23.6235756+02:00",
-  "SatStop": "2019-11-28T03:45:23.6235756+01:00",
-  "SunStart": "2012-06-05T03:45:23.6235756+02:00",
-  "SunStop": "2018-02-06T03:45:23.6235756+01:00",
+  "Deadline": 783,
+  "MonStart": "2013-09-22T03:46:54.9257675+02:00",
+  "MonStop": "2001-11-30T03:46:54.9257675+01:00",
+  "TueStart": "2025-06-29T03:46:54.9257675+02:00",
+  "TueStop": "2015-02-06T03:46:54.9257675+01:00",
+  "WedStart": "1999-01-14T03:46:54.9257675+01:00",
+  "WedStop": "2019-04-02T03:46:54.9257675+02:00",
+  "ThuStart": "2014-09-09T03:46:54.9257675+02:00",
+  "ThuStop": "2007-02-18T03:46:54.9257675+01:00",
+  "FriStart": "2013-08-09T03:46:54.9257675+02:00",
+  "FriStop": "2023-11-22T03:46:54.9257675+01:00",
+  "SatStart": "2024-09-25T03:46:54.9257675+02:00",
+  "SatStop": "2010-05-29T03:46:54.9257675+02:00",
+  "SunStart": "2019-11-27T03:46:54.9257675+01:00",
+  "SunStop": "2003-08-14T03:46:54.9257675+02:00",
   "NonDates": [
-    "error",
-    "et"
+    "doloremque",
+    "saepe"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 845,
-      "AlertLevel": 224,
-      "AlertTimeout": 409,
-      "Action": 129,
-      "DelegateTo": 644,
-      "ScriptId": 342,
-      "EmailTo": "khalid@gleason.co.uk",
-      "SmsTo": "quia",
-      "ReplyTemplateIdCustomer": 682,
-      "ReplyTemplateIdUser": 481,
-      "ReplyTemplateIdCatmast": 708,
-      "ReplyTemplateIdEmail": 446,
-      "RtiCustomerSms": 728,
-      "ReplyTemplateIdUserSms": 31,
-      "ReplyTemplateIdCatmastSms": 988,
-      "ReplyTemplateIdSms": 136,
+      "TicketAlertId": 455,
+      "AlertLevel": 593,
+      "AlertTimeout": 622,
+      "Action": 653,
+      "DelegateTo": 53,
+      "ScriptId": 910,
+      "EmailTo": "rowland_buckridge@tillman.uk",
+      "SmsTo": "saepe",
+      "ReplyTemplateIdCustomer": 274,
+      "ReplyTemplateIdUser": 562,
+      "ReplyTemplateIdCatmast": 454,
+      "ReplyTemplateIdEmail": 935,
+      "RtiCustomerSms": 222,
+      "ReplyTemplateIdUserSms": 840,
+      "ReplyTemplateIdCatmastSms": 262,
+      "ReplyTemplateIdSms": 773,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 277
+          "FieldLength": 388
         }
       }
     }
@@ -157,7 +156,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 988
+      "FieldLength": 946
     }
   }
 }

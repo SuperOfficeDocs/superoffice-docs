@@ -2,6 +2,7 @@
 title: GET List/{id}/Headings
 uid: v1ListItemEntity_GetHeadingsFromListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/{id}/Headings
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +77,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 497,
-    "Name": "Marquardt, Blick and Johns",
-    "Tooltip": "et",
+    "HeadingId": 31,
+    "Name": "O'Connell-Schinner",
+    "Tooltip": "nam",
     "Deleted": false,
-    "Rank": 573,
-    "UdListDefinitionId": 737,
+    "Rank": 386,
+    "UdListDefinitionId": 528,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 377
+        "FieldType": "System.String",
+        "FieldLength": 39
       }
     }
   }

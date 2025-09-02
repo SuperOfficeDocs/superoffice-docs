@@ -2,6 +2,7 @@
 title: Services88.TimeZoneAgent.SetActiveTimeZonesByFilter SOAP
 generated: true
 uid: Services88-TimeZone-SetActiveTimeZonesByFilter
+content_type: reference
 ---
 
 # Services88 TimeZone SetActiveTimeZonesByFilter

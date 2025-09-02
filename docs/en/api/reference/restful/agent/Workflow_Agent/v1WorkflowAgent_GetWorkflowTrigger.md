@@ -2,6 +2,7 @@
 title: POST Agents/Workflow/GetWorkflowTrigger
 uid: v1WorkflowAgent_GetWorkflowTrigger
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Workflow/GetWorkflowTrigger
@@ -22,11 +23,11 @@ Gets a WorkflowTrigger object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| workflowTriggerId | int32 | **Required** The primary key. |
+| workflowTriggerId | int32 | **Required** The identifier of the WorkflowTrigger object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowTrigger?workflowTriggerId=851
+POST /api/v1/Agents/Workflow/GetWorkflowTrigger?workflowTriggerId=537
 POST /api/v1/Agents/Workflow/GetWorkflowTrigger?$select=name,department,category/id
 ```
 
@@ -80,23 +81,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 190,
-  "WorkflowId": 935,
+  "WorkflowTriggerId": 340,
+  "WorkflowId": 610,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Stracke Group",
-      "Description": "Enterprise-wide motivating framework",
-      "Rank": 83,
+      "Name": "Keeling, Jacobs and Schiller",
+      "Description": "Intuitive scalable ability",
+      "Rank": 812,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Stracke Group",
-      "Description": "Enterprise-wide motivating framework",
-      "Rank": 83,
+      "Name": "Keeling, Jacobs and Schiller",
+      "Description": "Intuitive scalable ability",
+      "Rank": 812,
       "Restrictions": [
         {},
         {}
@@ -107,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 550
+      "FieldType": "System.Int32",
+      "FieldLength": 125
     }
   }
 }

@@ -2,6 +2,7 @@
 title: GET List/QuoteDenyReason/Items
 uid: v1QuoteDenyReasonList_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET List/QuoteDenyReason/Items
@@ -25,7 +26,7 @@ Gets all the QuoteDenyReason items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items?includeDeleted=True
+GET /api/v1/List/QuoteDenyReason/Items?includeDeleted=False
 ```
 
 
@@ -70,7 +71,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 202,
-    "Name": "Lehner, Graham and Bahringer",
-    "Tooltip": "exercitationem",
-    "Deleted": true,
-    "UdListDefinitionId": 374,
-    "Rank": 622,
+    "Id": 910,
+    "Name": "Wisoky, Hagenes and Farrell",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "UdListDefinitionId": 510,
+    "Rank": 559,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 904
+        "FieldLength": 158
       }
     }
   }

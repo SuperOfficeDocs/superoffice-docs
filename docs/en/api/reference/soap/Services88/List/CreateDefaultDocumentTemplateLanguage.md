@@ -2,6 +2,7 @@
 title: Services88.ListAgent.CreateDefaultDocumentTemplateLanguage SOAP
 generated: true
 uid: Services88-List-CreateDefaultDocumentTemplateLanguage
+content_type: reference
 ---
 
 # Services88 List CreateDefaultDocumentTemplateLanguage

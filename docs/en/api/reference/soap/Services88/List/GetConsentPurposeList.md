@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetConsentPurposeList SOAP
 generated: true
 uid: Services88-List-GetConsentPurposeList
+content_type: reference
 ---
 
 # Services88 List GetConsentPurposeList
@@ -73,7 +74,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <List:Key xsi:type="xsd:string"></List:Key>
      <List:Tooltip xsi:type="xsd:string"></List:Tooltip>
      <List:Active xsi:type="xsd:short">0</List:Active>
-     <List:UpdatedDate xsi:type="xsd:dateTime">2025-06-26T01:44:14Z</List:UpdatedDate>
+     <List:UpdatedDate xsi:type="xsd:dateTime">2025-08-30T01:45:46Z</List:UpdatedDate>
      <List:UpdatedBy xsi:type="List:Associate">
       <List:AssociateId xsi:type="xsd:int">0</List:AssociateId>
       <List:Name xsi:type="xsd:string"></List:Name>
@@ -87,6 +88,18 @@ Application tokens must be specified if calling an Online installation. Applicat
       <List:Deleted xsi:type="xsd:boolean">false</List:Deleted>
       <List:EjUserId xsi:type="xsd:int">0</List:EjUserId>
       <List:UserName xsi:type="xsd:string"></List:UserName>
+      <List:ExtraFields xsi:type="List:StringDictionary">
+       <List:StringKeyValuePair>
+        <List:Key xsi:type="xsd:string"></List:Key>
+        <List:Value xsi:type="xsd:string"></List:Value>
+       </List:StringKeyValuePair>
+      </List:ExtraFields>
+      <List:CustomFields xsi:type="List:StringDictionary">
+       <List:StringKeyValuePair>
+        <List:Key xsi:type="xsd:string"></List:Key>
+        <List:Value xsi:type="xsd:string"></List:Value>
+       </List:StringKeyValuePair>
+      </List:CustomFields>
      </List:UpdatedBy>
      <List:Deleted xsi:type="xsd:boolean">false</List:Deleted>
      <List:Rank xsi:type="xsd:short">0</List:Rank>

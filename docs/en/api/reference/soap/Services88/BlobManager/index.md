@@ -2,6 +2,7 @@
 title: Services88.BlobManagerAgent SOAP
 uid: Services88-BlobManager-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 BlobManager SOAP

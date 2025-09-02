@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.RebuildWebpanelDeltas SOAP
 generated: true
 uid: Services88-Configuration-RebuildWebpanelDeltas
+content_type: reference
 ---
 
 # Services88 Configuration RebuildWebpanelDeltas

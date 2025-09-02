@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetLocalizedTextByType SOAP
 generated: true
 uid: Services88-List-GetLocalizedTextByType
+content_type: reference
 ---
 
 # Services88 List GetLocalizedTextByType

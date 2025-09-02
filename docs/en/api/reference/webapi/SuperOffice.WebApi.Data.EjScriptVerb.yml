@@ -1,0 +1,403 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.EjScriptVerb
+  commentId: T:SuperOffice.WebApi.Data.EjScriptVerb
+  id: EjScriptVerb
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.EjScriptVerb.BlockCONNECT
+  - SuperOffice.WebApi.Data.EjScriptVerb.BlockDELETE
+  - SuperOffice.WebApi.Data.EjScriptVerb.BlockGET
+  - SuperOffice.WebApi.Data.EjScriptVerb.BlockHEAD
+  - SuperOffice.WebApi.Data.EjScriptVerb.BlockOPTIONS
+  - SuperOffice.WebApi.Data.EjScriptVerb.BlockOTHER
+  - SuperOffice.WebApi.Data.EjScriptVerb.BlockPATCH
+  - SuperOffice.WebApi.Data.EjScriptVerb.BlockPOST
+  - SuperOffice.WebApi.Data.EjScriptVerb.BlockPUT
+  - SuperOffice.WebApi.Data.EjScriptVerb.BlockTRACE
+  langs:
+  - csharp
+  - vb
+  name: EjScriptVerb
+  nameWithType: EjScriptVerb
+  fullName: SuperOffice.WebApi.Data.EjScriptVerb
+  type: Enum
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Flag values for field 'blocked_verbs' in table 'ejscript'.
+
+    This Enum is used by:  ejscript.blocked_verbs
+
+    This Enum consists of flag values that can be combined.
+  example: []
+  syntax:
+    content: >-
+      [Flags]
+
+      public enum EjScriptVerb
+    content.vb: >-
+      <Flags>
+
+      Public Enum EjScriptVerb
+  attributes:
+  - type: System.FlagsAttribute
+    ctor: System.FlagsAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.EjScriptVerb.BlockGET
+  commentId: F:SuperOffice.WebApi.Data.EjScriptVerb.BlockGET
+  id: BlockGET
+  parent: SuperOffice.WebApi.Data.EjScriptVerb
+  langs:
+  - csharp
+  - vb
+  name: BlockGET
+  nameWithType: EjScriptVerb.BlockGET
+  fullName: SuperOffice.WebApi.Data.EjScriptVerb.BlockGET
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1: Block GET access'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      BlockGET = 1
+    return:
+      type: SuperOffice.WebApi.Data.EjScriptVerb
+    content.vb: >-
+      <EnumMember>
+
+      BlockGET = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.EjScriptVerb.BlockPOST
+  commentId: F:SuperOffice.WebApi.Data.EjScriptVerb.BlockPOST
+  id: BlockPOST
+  parent: SuperOffice.WebApi.Data.EjScriptVerb
+  langs:
+  - csharp
+  - vb
+  name: BlockPOST
+  nameWithType: EjScriptVerb.BlockPOST
+  fullName: SuperOffice.WebApi.Data.EjScriptVerb.BlockPOST
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '2: Block POST access'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      BlockPOST = 2
+    return:
+      type: SuperOffice.WebApi.Data.EjScriptVerb
+    content.vb: >-
+      <EnumMember>
+
+      BlockPOST = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.EjScriptVerb.BlockPUT
+  commentId: F:SuperOffice.WebApi.Data.EjScriptVerb.BlockPUT
+  id: BlockPUT
+  parent: SuperOffice.WebApi.Data.EjScriptVerb
+  langs:
+  - csharp
+  - vb
+  name: BlockPUT
+  nameWithType: EjScriptVerb.BlockPUT
+  fullName: SuperOffice.WebApi.Data.EjScriptVerb.BlockPUT
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '4: Block PUT access'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      BlockPUT = 4
+    return:
+      type: SuperOffice.WebApi.Data.EjScriptVerb
+    content.vb: >-
+      <EnumMember>
+
+      BlockPUT = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.EjScriptVerb.BlockDELETE
+  commentId: F:SuperOffice.WebApi.Data.EjScriptVerb.BlockDELETE
+  id: BlockDELETE
+  parent: SuperOffice.WebApi.Data.EjScriptVerb
+  langs:
+  - csharp
+  - vb
+  name: BlockDELETE
+  nameWithType: EjScriptVerb.BlockDELETE
+  fullName: SuperOffice.WebApi.Data.EjScriptVerb.BlockDELETE
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '8: Block DELETE access'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      BlockDELETE = 8
+    return:
+      type: SuperOffice.WebApi.Data.EjScriptVerb
+    content.vb: >-
+      <EnumMember>
+
+      BlockDELETE = 8
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.EjScriptVerb.BlockPATCH
+  commentId: F:SuperOffice.WebApi.Data.EjScriptVerb.BlockPATCH
+  id: BlockPATCH
+  parent: SuperOffice.WebApi.Data.EjScriptVerb
+  langs:
+  - csharp
+  - vb
+  name: BlockPATCH
+  nameWithType: EjScriptVerb.BlockPATCH
+  fullName: SuperOffice.WebApi.Data.EjScriptVerb.BlockPATCH
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '16: Block PATCH access'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      BlockPATCH = 16
+    return:
+      type: SuperOffice.WebApi.Data.EjScriptVerb
+    content.vb: >-
+      <EnumMember>
+
+      BlockPATCH = 16
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.EjScriptVerb.BlockOPTIONS
+  commentId: F:SuperOffice.WebApi.Data.EjScriptVerb.BlockOPTIONS
+  id: BlockOPTIONS
+  parent: SuperOffice.WebApi.Data.EjScriptVerb
+  langs:
+  - csharp
+  - vb
+  name: BlockOPTIONS
+  nameWithType: EjScriptVerb.BlockOPTIONS
+  fullName: SuperOffice.WebApi.Data.EjScriptVerb.BlockOPTIONS
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '32: Block OPTIONS access'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      BlockOPTIONS = 32
+    return:
+      type: SuperOffice.WebApi.Data.EjScriptVerb
+    content.vb: >-
+      <EnumMember>
+
+      BlockOPTIONS = 32
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.EjScriptVerb.BlockHEAD
+  commentId: F:SuperOffice.WebApi.Data.EjScriptVerb.BlockHEAD
+  id: BlockHEAD
+  parent: SuperOffice.WebApi.Data.EjScriptVerb
+  langs:
+  - csharp
+  - vb
+  name: BlockHEAD
+  nameWithType: EjScriptVerb.BlockHEAD
+  fullName: SuperOffice.WebApi.Data.EjScriptVerb.BlockHEAD
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '64: Block HEAD access'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      BlockHEAD = 64
+    return:
+      type: SuperOffice.WebApi.Data.EjScriptVerb
+    content.vb: >-
+      <EnumMember>
+
+      BlockHEAD = 64
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.EjScriptVerb.BlockTRACE
+  commentId: F:SuperOffice.WebApi.Data.EjScriptVerb.BlockTRACE
+  id: BlockTRACE
+  parent: SuperOffice.WebApi.Data.EjScriptVerb
+  langs:
+  - csharp
+  - vb
+  name: BlockTRACE
+  nameWithType: EjScriptVerb.BlockTRACE
+  fullName: SuperOffice.WebApi.Data.EjScriptVerb.BlockTRACE
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '128: Block TRACE access'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      BlockTRACE = 128
+    return:
+      type: SuperOffice.WebApi.Data.EjScriptVerb
+    content.vb: >-
+      <EnumMember>
+
+      BlockTRACE = 128
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.EjScriptVerb.BlockCONNECT
+  commentId: F:SuperOffice.WebApi.Data.EjScriptVerb.BlockCONNECT
+  id: BlockCONNECT
+  parent: SuperOffice.WebApi.Data.EjScriptVerb
+  langs:
+  - csharp
+  - vb
+  name: BlockCONNECT
+  nameWithType: EjScriptVerb.BlockCONNECT
+  fullName: SuperOffice.WebApi.Data.EjScriptVerb.BlockCONNECT
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '256: Block CONNECT access'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      BlockCONNECT = 256
+    return:
+      type: SuperOffice.WebApi.Data.EjScriptVerb
+    content.vb: >-
+      <EnumMember>
+
+      BlockCONNECT = 256
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.EjScriptVerb.BlockOTHER
+  commentId: F:SuperOffice.WebApi.Data.EjScriptVerb.BlockOTHER
+  id: BlockOTHER
+  parent: SuperOffice.WebApi.Data.EjScriptVerb
+  langs:
+  - csharp
+  - vb
+  name: BlockOTHER
+  nameWithType: EjScriptVerb.BlockOTHER
+  fullName: SuperOffice.WebApi.Data.EjScriptVerb.BlockOTHER
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '512: Block OTHER, can be used for custom verbs'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      BlockOTHER = 512
+    return:
+      type: SuperOffice.WebApi.Data.EjScriptVerb
+    content.vb: >-
+      <EnumMember>
+
+      BlockOTHER = 512
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Data.EjScriptVerb
+  commentId: T:SuperOffice.WebApi.Data.EjScriptVerb
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.EjScriptVerb.html
+  name: EjScriptVerb
+  nameWithType: EjScriptVerb
+  fullName: SuperOffice.WebApi.Data.EjScriptVerb

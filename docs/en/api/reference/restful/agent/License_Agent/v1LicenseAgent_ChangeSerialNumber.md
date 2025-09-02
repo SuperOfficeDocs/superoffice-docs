@@ -2,6 +2,7 @@
 title: POST Agents/License/ChangeSerialNumber
 uid: v1LicenseAgent_ChangeSerialNumber
 generated: true
+content_type: reference
 ---
 
 # POST Agents/License/ChangeSerialNumber
@@ -77,12 +78,12 @@ OK
 POST /api/v1/Agents/License/ChangeSerialNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "Reinger Inc and Sons",
-  "NewSerialNumber": "578761"
+  "NewCompanyName": "Schimmel-Morissette",
+  "NewSerialNumber": "1058544"
 }
 ```
 
@@ -100,7 +101,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 244
+      "FieldLength": 266
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/List/GetListItemsForUserGroupFromListName
 uid: v1ListAgent_GetListItemsForUserGroupFromListName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetListItemsForUserGroupFromListName
@@ -92,8 +93,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Wiza-Berge",
-  "GroupId": 320
+  "UdListDefinitionName": "Legros Inc and Sons",
+  "GroupId": 466
 }
 ```
 
@@ -105,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 15,
-    "Name": "Schuppe Inc and Sons",
-    "ToolTip": "Dolores et perspiciatis aut eligendi voluptas enim inventore.",
+    "Id": 49,
+    "Name": "Fritsch, Donnelly and Johnston",
+    "ToolTip": "Earum rerum qui et eaque.",
     "Deleted": true,
-    "Rank": 635,
-    "Type": "asperiores",
-    "ColorBlock": 274,
-    "IconHint": "illum",
-    "Selected": true,
-    "LastChanged": "2003-06-04T03:45:23.5298295+02:00",
+    "Rank": 886,
+    "Type": "sed",
+    "ColorBlock": 454,
+    "IconHint": "iste",
+    "Selected": false,
+    "LastChanged": "2010-11-20T03:46:54.9569999+01:00",
     "ChildItems": [
       {
-        "Id": 658,
-        "Name": "Renner-Bernhard",
-        "ToolTip": "Consequatur ratione et.",
-        "Deleted": true,
-        "Rank": 638,
-        "Type": "sapiente",
-        "ColorBlock": 88,
-        "IconHint": "perspiciatis",
-        "Selected": true,
-        "LastChanged": "2017-03-15T03:45:23.5298295+01:00",
+        "Id": 699,
+        "Name": "Roberts LLC",
+        "ToolTip": "Vero corporis.",
+        "Deleted": false,
+        "Rank": 324,
+        "Type": "id",
+        "ColorBlock": 750,
+        "IconHint": "commodi",
+        "Selected": false,
+        "LastChanged": "2020-04-27T03:46:54.9569999+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Mr. Jordane Pacocha",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "architecto",
+        "Hidden": true,
+        "FullName": "Athena Block",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 429
+            "FieldLength": 593
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "neque",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Cydney Brekke",
+    "FullName": "Kallie Feil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 513
+        "FieldLength": 870
       }
     }
   }

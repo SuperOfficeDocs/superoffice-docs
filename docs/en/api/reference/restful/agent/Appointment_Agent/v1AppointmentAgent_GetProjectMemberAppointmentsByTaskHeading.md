@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetProjectMemberAppointmentsByTaskHeading
 uid: v1AppointmentAgent_GetProjectMemberAppointmentsByTaskHeading
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetProjectMemberAppointmentsByTaskHeading
@@ -118,6 +119,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -132,15 +134,15 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 142,
-  "StartTime": "1998-04-13T03:45:22.6861022+02:00",
-  "EndTime": "2006-08-06T03:45:22.6861022+02:00",
-  "Count": 724,
-  "TaskHeadingId": 293
+  "PersonId": 540,
+  "StartTime": "2023-08-27T03:46:53.9882851+02:00",
+  "EndTime": "2009-06-07T03:46:53.9882851+02:00",
+  "Count": 403,
+  "TaskHeadingId": 263
 }
 ```
 
@@ -152,66 +154,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 310,
-    "StartDate": "2018-12-28T03:45:22.6861022+01:00",
-    "EndDate": "2017-09-16T03:45:22.6861022+02:00",
+    "AppointmentId": 210,
+    "StartDate": "2017-09-03T03:46:53.9882851+02:00",
+    "EndDate": "2020-10-14T03:46:53.9882851+02:00",
     "Type": "BookingForChecklist",
-    "Task": "eos",
-    "AssociateFullName": "Miss Hiram Chanelle Beatty",
-    "ContactName": "Rice, Effertz and Shields",
-    "Description": "Triple-buffered 5th generation hardware",
-    "PersonFullName": "Mossie Toy",
-    "PersonId": 591,
-    "ContactId": 579,
-    "ProjectId": 689,
-    "ProjectName": "Purdy, Goldner and Jaskolski",
-    "IsPublished": false,
-    "AssociateId": 296,
-    "ColorIndex": 234,
+    "Task": "dicta",
+    "AssociateFullName": "Hermina Rutherford",
+    "ContactName": "Goldner-Little",
+    "Description": "Self-enabling composite Graphic Interface",
+    "PersonFullName": "Prof. Lucie Marks",
+    "PersonId": 507,
+    "ContactId": 919,
+    "ProjectId": 849,
+    "ProjectName": "Lueilwitz, McLaughlin and Bailey",
+    "IsPublished": true,
+    "AssociateId": 251,
+    "ColorIndex": 256,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 328,
-    "PriorityName": "Murphy-Prosacco",
+    "PriorityId": 804,
+    "PriorityName": "Greenholt-Marquardt",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2016-04-28T03:45:22.6861022+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2003-11-23T03:46:53.9882851+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2007-07-09T03:45:22.6861022+02:00",
-    "RecurringEndDate": "2001-01-06T03:45:22.6861022+01:00",
-    "MotherId": 424,
-    "AssignedBy": 754,
-    "AssignedByFullName": "Oceane Brakus",
+    "RecurringStartDate": "2000-05-30T03:46:53.9882851+02:00",
+    "RecurringEndDate": "2002-03-05T03:46:53.9882851+01:00",
+    "MotherId": 123,
+    "AssignedBy": 708,
+    "AssignedByFullName": "Stone Holly Ratke PhD",
     "RejectReason": "",
-    "Location": "quasi",
-    "AlarmLeadTime": "at",
-    "SaleId": 64,
-    "SaleName": "Huels, Graham and Koelpin",
-    "AssociateName": "Bechtelar-Carroll",
-    "CreatedDate": "2024-04-27T03:45:22.6861022+02:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Dorian Mosciski",
-    "CreatedByAssociateId": 115,
+    "Location": "possimus",
+    "AlarmLeadTime": "et",
+    "SaleId": 930,
+    "SaleName": "Rice, Connelly and Denesik",
+    "AssociateName": "Runolfsson-O'Kon",
+    "CreatedDate": "2024-04-22T03:46:53.9882851+02:00",
+    "CreatedBy": "vitae",
+    "CreatedByFullName": "Kaleigh Champlin III",
+    "CreatedByAssociateId": 637,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 458,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 83,
-    "Title": "quasi",
-    "Agenda": "debitis",
-    "InternalNotes": "ut",
+    "PreferredTZLocation": 199,
+    "Title": "qui",
+    "Agenda": "voluptates",
+    "InternalNotes": "occaecati",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 921
+        "FieldType": "System.Int32",
+        "FieldLength": 778
       }
     }
   }

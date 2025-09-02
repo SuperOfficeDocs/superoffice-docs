@@ -1,6 +1,8 @@
 ---
+uid: tag-Selection
 title: Selection
 generated: true
+content_type: reference
 ---
 
 ```http

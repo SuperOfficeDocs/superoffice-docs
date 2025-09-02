@@ -2,6 +2,7 @@
 title: Services88.AIAgent.ClearChatbotTurns SOAP
 generated: true
 uid: Services88-AI-ClearChatbotTurns
+content_type: reference
 ---
 
 # Services88 AI ClearChatbotTurns

@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetQuoteLines
 uid: v1QuoteAgent_GetQuoteLines
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetQuoteLines
@@ -125,7 +126,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 24
+  "QuoteAlternativeId": 554
 }
 ```
 
@@ -137,88 +138,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 513,
-    "ERPQuoteLineKey": "illo",
-    "QuoteAlternativeId": 131,
-    "ERPProductKey": "nisi",
+    "QuoteLineId": 91,
+    "ERPQuoteLineKey": "ut",
+    "QuoteAlternativeId": 552,
+    "ERPProductKey": "eum",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 8963.24,
-    "DeliveredQuantity": 25159.752,
-    "Rank": 874,
-    "Name": "Okuneva Group",
-    "Description": "Focused high-level system engine",
-    "Code": "aut",
-    "QuantityUnit": "nostrum",
-    "PriceUnit": "quia",
-    "ItemNumber": "873515",
+    "Quantity": 22273.338,
+    "DeliveredQuantity": 21044.809999999998,
+    "Rank": 711,
+    "Name": "Mante-Hyatt",
+    "Description": "Re-contextualized system-worthy algorithm",
+    "Code": "nihil",
+    "QuantityUnit": "ratione",
+    "PriceUnit": "voluptatem",
+    "ItemNumber": "131717",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "tempora",
-    "ProductTypeKey": "soluta",
-    "Supplier": "blanditiis",
-    "SupplierCode": "aut",
-    "Thumbnail": "voluptatibus",
+    "ProductFamilyKey": "id",
+    "ProductTypeKey": "et",
+    "Supplier": "commodi",
+    "SupplierCode": "expedita",
+    "Thumbnail": "autem",
     "VATInfo": "quo",
-    "VAT": 6286.804,
-    "UnitCost": 11125.699999999999,
-    "UnitMinimumPrice": 28604.018,
-    "UnitListPrice": 29832.546,
+    "VAT": 23172.796,
+    "UnitCost": 24282.232,
+    "UnitMinimumPrice": 20239.372,
+    "UnitListPrice": 1222.26,
     "ExtraInfo": [
       {
-        "Name": "Koch-Rohan",
-        "Value": "hic",
+        "Name": "Auer-Kilback",
+        "Value": "optio",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 393
+            "FieldLength": 188
           }
         }
       },
       {
-        "Name": "Koch-Rohan",
-        "Value": "hic",
+        "Name": "Auer-Kilback",
+        "Value": "optio",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 393
+            "FieldLength": 188
           }
         }
       }
     ],
-    "RawExtraInfo": "error",
-    "IsSubscription": false,
-    "SubscriptionUnit": "et",
-    "SubscriptionQuantity": 24175.676,
-    "SubscriptionStart": "2024-04-24T03:45:23.8423206+02:00",
-    "ERPDiscountPercent": 20549.638,
-    "ERPDiscountAmount": 12225.734,
-    "DiscountPercent": 22166.782,
-    "DiscountAmount": 29584.96,
+    "RawExtraInfo": "quas",
+    "IsSubscription": true,
+    "SubscriptionUnit": "voluptatum",
+    "SubscriptionQuantity": 6863.46,
+    "SubscriptionStart": "2024-04-24T03:46:55.2226157+02:00",
+    "ERPDiscountPercent": 14808.15,
+    "ERPDiscountAmount": 15804.761999999999,
+    "DiscountPercent": 7581.146,
+    "DiscountAmount": 28437.915999999997,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 9508.556,
-    "EarningAmount": 18647.3,
-    "SubTotal": 17490.854,
-    "TotalPrice": 14454.008,
-    "Rights": "suscipit",
-    "Rule": "nihil",
-    "ExtraField1": "aut",
-    "ExtraField2": "porro",
-    "ExtraField3": "dolorum",
-    "ExtraField4": "sint",
-    "ExtraField5": "vitae",
+    "EarningPercent": 12159.92,
+    "EarningAmount": 21778.166,
+    "SubTotal": 29873.288,
+    "TotalPrice": 26419.62,
+    "Rights": "possimus",
+    "Rule": "eos",
+    "ExtraField1": "facere",
+    "ExtraField2": "commodi",
+    "ExtraField3": "facilis",
+    "ExtraField4": "deserunt",
+    "ExtraField5": "nam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 357
+        "FieldType": "System.Int32",
+        "FieldLength": 118
       }
     }
   }

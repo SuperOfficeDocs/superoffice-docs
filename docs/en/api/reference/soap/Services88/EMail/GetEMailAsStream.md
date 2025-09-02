@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.GetEMailAsStream SOAP
 generated: true
 uid: Services88-EMail-GetEMailAsStream
+content_type: reference
 ---
 
 # Services88 EMail GetEMailAsStream

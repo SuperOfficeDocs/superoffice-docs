@@ -2,6 +2,7 @@
 title: Services88.ProjectAgent.IsNumberValid SOAP
 generated: true
 uid: Services88-Project-IsNumberValid
+content_type: reference
 ---
 
 # Services88 Project IsNumberValid

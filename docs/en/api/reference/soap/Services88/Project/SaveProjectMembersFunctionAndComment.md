@@ -2,6 +2,7 @@
 title: Services88.ProjectAgent.SaveProjectMembersFunctionAndComment SOAP
 generated: true
 uid: Services88-Project-SaveProjectMembersFunctionAndComment
+content_type: reference
 ---
 
 # Services88 Project SaveProjectMembersFunctionAndComment

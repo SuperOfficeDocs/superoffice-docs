@@ -2,6 +2,7 @@
 title: PUT List/Rating/Items/{id}/UserGroups
 uid: v1RatingList_PutSaleStageEntityUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/Rating/Items/{id}/UserGroups
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 284,
-    "Name": "Beer LLC",
-    "ToolTip": "Quisquam necessitatibus culpa ut ut unde.",
-    "Deleted": true,
-    "Rank": 164,
-    "Type": "illo",
-    "ColorBlock": 184,
-    "IconHint": "itaque",
+    "Id": 658,
+    "Name": "Emmerich Group",
+    "ToolTip": "Nostrum doloremque commodi sunt ipsum at.",
+    "Deleted": false,
+    "Rank": 180,
+    "Type": "et",
+    "ColorBlock": 941,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "2008-03-18T03:45:29.1859346+01:00",
+    "LastChanged": "2016-10-20T03:47:00.7849183+02:00",
     "ChildItems": [
       {
-        "Id": 555,
-        "Name": "Hegmann, Huels and Parker",
-        "ToolTip": "Laudantium expedita fuga excepturi voluptatum ab.",
+        "Id": 925,
+        "Name": "Kihn, Toy and Heller",
+        "ToolTip": "Qui labore.",
         "Deleted": false,
-        "Rank": 854,
-        "Type": "commodi",
-        "ColorBlock": 145,
-        "IconHint": "nisi",
+        "Rank": 996,
+        "Type": "voluptatum",
+        "ColorBlock": 51,
+        "IconHint": "optio",
         "Selected": true,
-        "LastChanged": "2021-03-08T03:45:29.1859346+01:00",
+        "LastChanged": "2011-03-22T03:47:00.7849183+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "quia",
+        "ExtraInfo": "rem",
+        "StyleHint": "sapiente",
         "Hidden": true,
-        "FullName": "Kaylah Kuvalis"
+        "FullName": "Jennyfer Greenfelder Jr."
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "corporis",
+    "ExtraInfo": "maiores",
+    "StyleHint": "dicta",
     "Hidden": true,
-    "FullName": "Ansel Metz"
+    "FullName": "Albertha Stroman"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 283,
-    "Name": "Altenwerth, Labadie and Hermann",
-    "ToolTip": "Dolores neque odio autem doloremque sequi minus.",
-    "Deleted": true,
-    "Rank": 886,
-    "Type": "debitis",
-    "ColorBlock": 124,
-    "IconHint": "debitis",
-    "Selected": false,
-    "LastChanged": "2016-09-16T03:45:29.1859346+02:00",
+    "Id": 101,
+    "Name": "Simonis-Hammes",
+    "ToolTip": "Rerum qui et et et dicta voluptas.",
+    "Deleted": false,
+    "Rank": 200,
+    "Type": "voluptatibus",
+    "ColorBlock": 491,
+    "IconHint": "quos",
+    "Selected": true,
+    "LastChanged": "2016-07-26T03:47:00.7849183+02:00",
     "ChildItems": [
       {
-        "Id": 648,
-        "Name": "Klocko Inc and Sons",
-        "ToolTip": "Deserunt ullam consequatur enim.",
-        "Deleted": false,
-        "Rank": 955,
-        "Type": "quo",
-        "ColorBlock": 747,
-        "IconHint": "velit",
+        "Id": 7,
+        "Name": "Hagenes-Farrell",
+        "ToolTip": "Qui suscipit odit.",
+        "Deleted": true,
+        "Rank": 852,
+        "Type": "velit",
+        "ColorBlock": 118,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2007-09-25T03:45:29.1859346+02:00",
+        "LastChanged": "2013-08-06T03:47:00.7849183+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "et",
+        "ExtraInfo": "rem",
+        "StyleHint": "a",
         "Hidden": false,
-        "FullName": "Mrs. Anastacio Thompson",
+        "FullName": "Miss Rozella Bailee Hermann Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 691
+            "FieldLength": 709
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "voluptatibus",
-    "Hidden": false,
-    "FullName": "Mr. Sierra O'Conner",
+    "ExtraInfo": "quia",
+    "StyleHint": "hic",
+    "Hidden": true,
+    "FullName": "Chloe Yost",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 796
+        "FieldLength": 801
       }
     }
   }

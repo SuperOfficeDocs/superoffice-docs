@@ -2,6 +2,7 @@
 title: Services88.UserAgent.DeleteExternalUser SOAP
 generated: true
 uid: Services88-User-DeleteExternalUser
+content_type: reference
 ---
 
 # Services88 User DeleteExternalUser

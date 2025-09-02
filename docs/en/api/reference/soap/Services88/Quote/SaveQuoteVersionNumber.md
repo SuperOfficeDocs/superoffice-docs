@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.SaveQuoteVersionNumber SOAP
 generated: true
 uid: Services88-Quote-SaveQuoteVersionNumber
+content_type: reference
 ---
 
 # Services88 Quote SaveQuoteVersionNumber

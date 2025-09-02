@@ -2,6 +2,7 @@
 title: POST Agents/Dash/CreateDefaultPreviewDashTile
 uid: v1DashAgent_CreateDefaultPreviewDashTile
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/CreateDefaultPreviewDashTile
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Dash/CreateDefaultPreviewDashTile
 ```
 
-Set default values into a new PreviewDashTile.
+Loading default values into a new PreviewDashTile.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -68,14 +67,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schneider Inc and Sons",
+  "Name": "Bradtke LLC",
   "TileType": "Area",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 400
+      "FieldType": "System.Int32",
+      "FieldLength": 798
     }
   }
 }

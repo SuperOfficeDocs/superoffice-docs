@@ -2,6 +2,7 @@
 title: Services88.DocumentMigrationAgent.GetNumberOfConfidentialDocuments SOAP
 generated: true
 uid: Services88-DocumentMigration-GetNumberOfConfidentialDocuments
+content_type: reference
 ---
 
 # Services88 DocumentMigration GetNumberOfConfidentialDocuments

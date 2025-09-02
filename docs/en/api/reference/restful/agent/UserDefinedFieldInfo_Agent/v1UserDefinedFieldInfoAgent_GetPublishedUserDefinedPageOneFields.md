@@ -2,6 +2,7 @@
 title: POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 uid: v1UserDefinedFieldInfoAgent_GetPublishedUserDefinedPageOneFields
 generated: true
+content_type: reference
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
@@ -112,7 +113,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 900
+  "UserGroupId": 762
 }
 ```
 
@@ -124,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 90,
-    "ColumnId": 804,
-    "FieldDefault": "ad",
-    "FieldHeight": 870,
-    "FieldLabel": "pariatur",
-    "FieldLeft": 19,
-    "FieldTop": 692,
+    "UDefFieldId": 730,
+    "ColumnId": 274,
+    "FieldDefault": "et",
+    "FieldHeight": 465,
+    "FieldLabel": "rem",
+    "FieldLeft": 265,
+    "FieldTop": 544,
     "FieldType": "Checkbox",
-    "FieldWidth": 301,
-    "FormatMask": "minima",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 787,
-    "LabelLeft": 907,
-    "LabelTop": 804,
-    "LabelWidth": 524,
-    "LastVersionId": 243,
-    "ListTableId": 39,
-    "IsMandatory": false,
+    "FieldWidth": 832,
+    "FormatMask": "natus",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 688,
+    "LabelLeft": 252,
+    "LabelTop": 645,
+    "LabelWidth": 714,
+    "LastVersionId": 965,
+    "ListTableId": 693,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 220,
-    "ProgId": "qui",
+    "Page1LineNo": 439,
+    "ProgId": "odio",
     "IsReadOnly": false,
-    "ShortLabel": "magni",
-    "TabOrder": 166,
-    "TextLength": 845,
-    "Tooltip": "id",
-    "UdefIdentity": 310,
-    "UDListDefinitionId": 313,
+    "ShortLabel": "sequi",
+    "TabOrder": 265,
+    "TextLength": 90,
+    "Tooltip": "facere",
+    "UdefIdentity": 608,
+    "UDListDefinitionId": 338,
     "Justification": "Center",
-    "Version": 482,
-    "TemplateVariableName": "Wilderman, Pfeffer and Stracke",
+    "Version": 631,
+    "TemplateVariableName": "Heaney-Abshire",
     "HasBeenPublished": false,
-    "MdoListName": "Labadie Inc and Sons",
+    "MdoListName": "Dietrich LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 873
+        "FieldLength": 291
       }
     }
   }

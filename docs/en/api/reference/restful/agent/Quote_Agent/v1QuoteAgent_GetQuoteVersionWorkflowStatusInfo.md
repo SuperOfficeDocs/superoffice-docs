@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetQuoteVersionWorkflowStatusInfo
 uid: v1QuoteAgent_GetQuoteVersionWorkflowStatusInfo
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetQuoteVersionWorkflowStatusInfo
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersionWorkflowStatusInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 984
+  "QuoteVersionId": 662
 }
 ```
 
@@ -94,15 +95,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "Error",
-  "IconHint": "praesentium",
-  "DisplayMessage": "sed",
-  "DisplayTooltip": "nobis",
+  "IconHint": "minima",
+  "DisplayMessage": "natus",
+  "DisplayTooltip": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldLength": 614
     }
   }
 }

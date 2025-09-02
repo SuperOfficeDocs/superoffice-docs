@@ -2,6 +2,7 @@
 title: POST Agents/EMail/CreateDefaultEMailFolder
 uid: v1EMailAgent_CreateDefaultEMailFolder
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/CreateDefaultEMailFolder
@@ -10,10 +11,7 @@ generated: true
 POST /api/v1/Agents/EMail/CreateDefaultEMailFolder
 ```
 
-Set default values into a new EMailFolder.
-
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
+Loading default values into a new EMailFolder.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -66,7 +64,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,19 +74,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Friesen Inc and Sons",
-  "Delimiter": "nam",
-  "Flags": "voluptate",
-  "TotalItems": 752,
-  "UnreadItems": 389,
-  "Subscribed": true,
-  "EmailFolderId": 201,
+  "Name": "Bahringer, Fay and Homenick",
+  "Delimiter": "perferendis",
+  "Flags": "velit",
+  "TotalItems": 377,
+  "UnreadItems": 597,
+  "Subscribed": false,
+  "EmailFolderId": 530,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 888
+      "FieldLength": 503
     }
   }
 }

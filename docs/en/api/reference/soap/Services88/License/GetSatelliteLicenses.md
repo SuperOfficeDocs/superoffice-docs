@@ -2,6 +2,7 @@
 title: Services88.LicenseAgent.GetSatelliteLicenses SOAP
 generated: true
 uid: Services88-License-GetSatelliteLicenses
+content_type: reference
 ---
 
 # Services88 License GetSatelliteLicenses

@@ -2,6 +2,7 @@
 title: Services88.PreferenceAgent.SaveFromSectionAndKey SOAP
 generated: true
 uid: Services88-Preference-SaveFromSectionAndKey
+content_type: reference
 ---
 
 # Services88 Preference SaveFromSectionAndKey

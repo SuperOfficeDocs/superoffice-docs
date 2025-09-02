@@ -2,6 +2,7 @@
 title: GET List/Currency/Headings
 uid: v1CurrencyList_GetCurrencyEntityHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/Currency/Headings
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 409,
-    "Name": "Koelpin-Dooley",
-    "Tooltip": "mollitia",
-    "Deleted": false,
-    "Rank": 599,
-    "UdListDefinitionId": 917,
+    "HeadingId": 348,
+    "Name": "Turcotte-Bergnaum",
+    "Tooltip": "cupiditate",
+    "Deleted": true,
+    "Rank": 360,
+    "UdListDefinitionId": 276,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 43
+        "FieldType": "System.Int32",
+        "FieldLength": 740
       }
     }
   }

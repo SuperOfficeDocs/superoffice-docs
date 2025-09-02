@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/Html2Text
 uid: v1TicketAgent_Html2Text
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/Html2Text
@@ -68,11 +69,11 @@ OK
 POST /api/v1/Agents/Ticket/Html2Text
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Content": "dolores"
+  "Content": "quia"
 }
 ```
 
@@ -82,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"atque"
+"qui"
 ```

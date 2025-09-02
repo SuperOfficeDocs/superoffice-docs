@@ -2,6 +2,7 @@
 title: POST Agents/Favourite/GetFavourites
 uid: v1FavouriteAgent_GetFavourites
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Favourite/GetFavourites
@@ -82,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Huel, Mante and Kunze",
-  "AssociateId": 561
+  "TableName": "Hodkiewicz-Wehner",
+  "AssociateId": 599
 }
 ```
 
@@ -95,17 +96,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Koepp LLC",
-    "RecordId": 607,
-    "AssociateId": 652,
-    "ExtraInfo": "minus",
-    "Rank": 751,
+    "TableName": "Abernathy Inc and Sons",
+    "RecordId": 44,
+    "AssociateId": 330,
+    "ExtraInfo": "perspiciatis",
+    "Rank": 279,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 504
+        "FieldLength": 402
       }
     }
   }

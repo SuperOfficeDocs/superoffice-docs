@@ -2,6 +2,7 @@
 title: POST List/SelectionCategory/Items
 uid: v1SelectionCategoryList_PostSelectionCategory
 generated: true
+content_type: reference
 ---
 
 # POST List/SelectionCategory/Items
@@ -77,12 +78,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 226,
-  "Name": "Hackett, Koss and Watsica",
-  "Tooltip": "libero",
+  "Id": 732,
+  "Name": "Wisozk Inc and Sons",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "UdListDefinitionId": 193,
-  "Rank": 256
+  "UdListDefinitionId": 48,
+  "Rank": 296
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 237,
-  "Name": "Hegmann Group",
-  "Tooltip": "libero",
-  "Deleted": true,
-  "UdListDefinitionId": 267,
-  "Rank": 449,
+  "Id": 627,
+  "Name": "Towne LLC",
+  "Tooltip": "autem",
+  "Deleted": false,
+  "UdListDefinitionId": 377,
+  "Rank": 661,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 271
+      "FieldLength": 934
     }
   }
 }

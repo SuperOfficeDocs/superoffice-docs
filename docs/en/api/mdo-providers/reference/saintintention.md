@@ -3,9 +3,9 @@ uid: saintintention
 title: saintintention
 keywords: mdoprovider mdo provider saintintention
 description: This SoList provider generates the Intent list for the Saint criteria. This list is an extension of the basic Intent MDO list, with the addition of an ALL choice with ID 0.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "saintintention" MDO List

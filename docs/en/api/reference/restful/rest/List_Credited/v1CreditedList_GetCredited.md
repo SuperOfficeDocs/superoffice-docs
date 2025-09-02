@@ -2,6 +2,7 @@
 title: GET List/Credited/Items/{id}
 uid: v1CreditedList_GetCredited
 generated: true
+content_type: reference
 ---
 
 # GET List/Credited/Items/{id}
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 719,
-  "Name": "Bechtelar, Monahan and Heidenreich",
-  "Tooltip": "fugit",
-  "Deleted": false,
-  "UdListDefinitionId": 660,
-  "Rank": 906,
+  "Id": 871,
+  "Name": "Grady Group",
+  "Tooltip": "excepturi",
+  "Deleted": true,
+  "UdListDefinitionId": 211,
+  "Rank": 177,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 896
+      "FieldLength": 840
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.SetConsent SOAP
 generated: true
 uid: Services88-Person-SetConsent
+content_type: reference
 ---
 
 # Services88 Person SetConsent

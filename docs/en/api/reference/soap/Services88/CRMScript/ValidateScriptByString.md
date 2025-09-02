@@ -2,6 +2,7 @@
 title: Services88.CRMScriptAgent.ValidateScriptByString SOAP
 generated: true
 uid: Services88-CRMScript-ValidateScriptByString
+content_type: reference
 ---
 
 # Services88 CRMScript ValidateScriptByString

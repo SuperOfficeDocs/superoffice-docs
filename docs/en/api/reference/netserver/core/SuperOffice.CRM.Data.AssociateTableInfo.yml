@@ -71,6 +71,9 @@ items:
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BinaryObjectLink_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BinaryObject_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BinaryObject_UpdatedAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_AssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_RegisteredAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BusinessGroupLink_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BusinessGroupLink_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BusinessHeadingLink_RegisteredAssociateId
@@ -749,6 +752,8 @@ items:
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UserRoleLink_AssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UserRoleLink_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UserRoleLink_UpdatedAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UtmParameters_RegisteredAssociateId
+  - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UtmParameters_UpdatedAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_VisibleFor_ForAssocId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_VisibleFor_RegisteredAssociateId
   - SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_VisibleFor_UpdatedAssociateId
@@ -17375,6 +17380,75 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.TypicalSearchTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_TypicalSearch_UpdatedAssociateId As TargetedLeftOuterJoin(Of TypicalSearchTableInfo)
   overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TypicalSearch_UpdatedAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_AssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_AssociateId
+  id: LeftOuterJoin_BoardViewSettings_AssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_BoardViewSettings_AssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_BoardViewSettings_AssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_AssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to BoardViewSettings.<xref href="SuperOffice.CRM.Data.BoardViewSettingsTableInfo.AssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<BoardViewSettingsTableInfo> LeftOuterJoin_BoardViewSettings_AssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.BoardViewSettingsTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_BoardViewSettings_AssociateId As TargetedLeftOuterJoin(Of BoardViewSettingsTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_AssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_RegisteredAssociateId
+  id: LeftOuterJoin_BoardViewSettings_RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_BoardViewSettings_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_BoardViewSettings_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_RegisteredAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to BoardViewSettings.<xref href="SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RegisteredAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<BoardViewSettingsTableInfo> LeftOuterJoin_BoardViewSettings_RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.BoardViewSettingsTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_BoardViewSettings_RegisteredAssociateId As TargetedLeftOuterJoin(Of BoardViewSettingsTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_RegisteredAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_UpdatedAssociateId
+  id: LeftOuterJoin_BoardViewSettings_UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_BoardViewSettings_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_BoardViewSettings_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_UpdatedAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to BoardViewSettings.<xref href="SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<BoardViewSettingsTableInfo> LeftOuterJoin_BoardViewSettings_UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.BoardViewSettingsTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_BoardViewSettings_UpdatedAssociateId As TargetedLeftOuterJoin(Of BoardViewSettingsTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_UpdatedAssociateId*
 - uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_OnlineApp_RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_OnlineApp_RegisteredAssociateId
   id: LeftOuterJoin_OnlineApp_RegisteredAssociateId
@@ -19077,6 +19151,52 @@ items:
       type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.EntityCountsTableInfo}
     content.vb: Public ReadOnly Property LeftOuterJoin_EntityCounts_AssociateId As TargetedLeftOuterJoin(Of EntityCountsTableInfo)
   overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_EntityCounts_AssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UtmParameters_RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UtmParameters_RegisteredAssociateId
+  id: LeftOuterJoin_UtmParameters_RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_UtmParameters_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_UtmParameters_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UtmParameters_RegisteredAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to UtmParameters.<xref href="SuperOffice.CRM.Data.UtmParametersTableInfo.RegisteredAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<UtmParametersTableInfo> LeftOuterJoin_UtmParameters_RegisteredAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.UtmParametersTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_UtmParameters_RegisteredAssociateId As TargetedLeftOuterJoin(Of UtmParametersTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UtmParameters_RegisteredAssociateId*
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UtmParameters_UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UtmParameters_UpdatedAssociateId
+  id: LeftOuterJoin_UtmParameters_UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.AssociateTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeftOuterJoin_UtmParameters_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_UtmParameters_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UtmParameters_UpdatedAssociateId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated left outer join from the primary key AssociateId on this table, to UtmParameters.<xref href="SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedAssociateId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedLeftOuterJoin<UtmParametersTableInfo> LeftOuterJoin_UtmParameters_UpdatedAssociateId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.UtmParametersTableInfo}
+    content.vb: Public ReadOnly Property LeftOuterJoin_UtmParameters_UpdatedAssociateId As TargetedLeftOuterJoin(Of UtmParametersTableInfo)
+  overload: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UtmParameters_UpdatedAssociateId*
 - uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketType_RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TicketType_RegisteredAssociateId
   id: LeftOuterJoin_TicketType_RegisteredAssociateId
@@ -41380,6 +41500,83 @@ references:
   name: LeftOuterJoin_TypicalSearch_UpdatedAssociateId
   nameWithType: AssociateTableInfo.LeftOuterJoin_TypicalSearch_UpdatedAssociateId
   fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_TypicalSearch_UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.AssociateId
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.AssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_AssociateId
+  name: AssociateId
+  nameWithType: BoardViewSettingsTableInfo.AssociateId
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.AssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_AssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_AssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_BoardViewSettings_AssociateId
+  name: LeftOuterJoin_BoardViewSettings_AssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_BoardViewSettings_AssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_AssociateId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.BoardViewSettingsTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.BoardViewSettingsTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<BoardViewSettingsTableInfo>
+  nameWithType: TargetedLeftOuterJoin<BoardViewSettingsTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.BoardViewSettingsTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of BoardViewSettingsTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.BoardViewSettingsTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of BoardViewSettingsTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+    name: BoardViewSettingsTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo
+    name: BoardViewSettingsTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_RegisteredAssociateId
+  name: RegisteredAssociateId
+  nameWithType: BoardViewSettingsTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_BoardViewSettings_RegisteredAssociateId
+  name: LeftOuterJoin_BoardViewSettings_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_BoardViewSettings_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.html#SuperOffice_CRM_Data_BoardViewSettingsTableInfo_UpdatedAssociateId
+  name: UpdatedAssociateId
+  nameWithType: BoardViewSettingsTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.BoardViewSettingsTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_BoardViewSettings_UpdatedAssociateId
+  name: LeftOuterJoin_BoardViewSettings_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_BoardViewSettings_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_BoardViewSettings_UpdatedAssociateId
 - uid: SuperOffice.CRM.Data.OnlineAppTableInfo.RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.OnlineAppTableInfo.RegisteredAssociateId
   isExternal: true
@@ -43676,6 +43873,69 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Data.EntityCountsTableInfo.html
   - name: )
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.RegisteredAssociateId
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_RegisteredAssociateId
+  name: RegisteredAssociateId
+  nameWithType: UtmParametersTableInfo.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.RegisteredAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UtmParameters_RegisteredAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UtmParameters_RegisteredAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_UtmParameters_RegisteredAssociateId
+  name: LeftOuterJoin_UtmParameters_RegisteredAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_UtmParameters_RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UtmParameters_RegisteredAssociateId
+- uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.UtmParametersTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedLeftOuterJoin{SuperOffice.CRM.Data.UtmParametersTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+  href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  name: TargetedLeftOuterJoin<UtmParametersTableInfo>
+  nameWithType: TargetedLeftOuterJoin<UtmParametersTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedLeftOuterJoin<SuperOffice.CRM.Data.UtmParametersTableInfo>
+  nameWithType.vb: TargetedLeftOuterJoin(Of UtmParametersTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedLeftOuterJoin(Of SuperOffice.CRM.Data.UtmParametersTableInfo)
+  name.vb: TargetedLeftOuterJoin(Of UtmParametersTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.UtmParametersTableInfo
+    name: UtmParametersTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.UtmParametersTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedLeftOuterJoin`1
+    name: TargetedLeftOuterJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedLeftOuterJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.UtmParametersTableInfo
+    name: UtmParametersTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.UtmParametersTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedAssociateId
+  commentId: P:SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.UtmParametersTableInfo.html#SuperOffice_CRM_Data_UtmParametersTableInfo_UpdatedAssociateId
+  name: UpdatedAssociateId
+  nameWithType: UtmParametersTableInfo.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.UtmParametersTableInfo.UpdatedAssociateId
+- uid: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UtmParameters_UpdatedAssociateId*
+  commentId: Overload:SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UtmParameters_UpdatedAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Data.AssociateTableInfo.html#SuperOffice_CRM_Data_AssociateTableInfo_LeftOuterJoin_UtmParameters_UpdatedAssociateId
+  name: LeftOuterJoin_UtmParameters_UpdatedAssociateId
+  nameWithType: AssociateTableInfo.LeftOuterJoin_UtmParameters_UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.AssociateTableInfo.LeftOuterJoin_UtmParameters_UpdatedAssociateId
 - uid: SuperOffice.CRM.Data.TicketTypeTableInfo.RegisteredAssociateId
   commentId: P:SuperOffice.CRM.Data.TicketTypeTableInfo.RegisteredAssociateId
   isExternal: true

@@ -2,6 +2,7 @@
 title: POST Agents/EMail/CreateDefaultEMailConnectionInfo
 uid: v1EMailAgent_CreateDefaultEMailConnectionInfo
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/CreateDefaultEMailConnectionInfo
@@ -10,10 +11,7 @@ generated: true
 POST /api/v1/Agents/EMail/CreateDefaultEMailConnectionInfo
 ```
 
-Set default values into a new EMailConnectionInfo.
-
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
+Loading default values into a new EMailConnectionInfo.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -64,7 +62,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailConnectionInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,17 +72,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerName": "Murazik LLC",
-  "UserName": "Grimes-Cartwright",
-  "Password": "dolorum",
-  "Folder": "deserunt",
+  "ServerName": "Gleichner-Haag",
+  "UserName": "Schuster, Haley and Bruen",
+  "Password": "veritatis",
+  "Folder": "perspiciatis",
   "UseSSL": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 554
+      "FieldLength": 449
     }
   }
 }

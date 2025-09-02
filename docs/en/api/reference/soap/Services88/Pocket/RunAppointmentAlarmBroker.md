@@ -2,6 +2,7 @@
 title: Services88.PocketAgent.RunAppointmentAlarmBroker SOAP
 generated: true
 uid: Services88-Pocket-RunAppointmentAlarmBroker
+content_type: reference
 ---
 
 # Services88 Pocket RunAppointmentAlarmBroker

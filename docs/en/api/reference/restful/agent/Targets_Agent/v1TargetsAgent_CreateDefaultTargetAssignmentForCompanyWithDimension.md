@@ -2,6 +2,7 @@
 title: POST Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithDimension
 uid: v1TargetsAgent_CreateDefaultTargetAssignmentForCompanyWithDimension
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithDimension
@@ -85,7 +86,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 497
+  "TargetDimensionId": 553
 }
 ```
 
@@ -97,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 319,
+    "TargetAssignmentInfoId": 375,
     "Values": [
-      165,
-      874
+      989,
+      665
     ],
     "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 122,
-    "DimensionListItemDisplayName": "Murazik Inc and Sons",
+    "DimensionListItem": 880,
+    "DimensionListItemDisplayName": "Schulist, Dooley and Haag",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 285
+        "FieldType": "System.String",
+        "FieldLength": 80
       }
     }
   }

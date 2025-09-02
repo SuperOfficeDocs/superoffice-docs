@@ -2,6 +2,7 @@
 title: POST Agents/TimeZone/UpdateTimeZoneData
 uid: v1TimeZoneAgent_UpdateTimeZoneData
 generated: true
+content_type: reference
 ---
 
 # POST Agents/TimeZone/UpdateTimeZoneData
@@ -60,7 +61,7 @@ OK
 POST /api/v1/Agents/TimeZone/UpdateTimeZoneData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,5 +70,5 @@ Accept-Language: fr,de,ru,zh
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

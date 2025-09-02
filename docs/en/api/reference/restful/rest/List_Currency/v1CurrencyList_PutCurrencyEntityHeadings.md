@@ -2,6 +2,7 @@
 title: PUT List/Currency/Headings
 uid: v1CurrencyList_PutCurrencyEntityHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/Currency/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 22,
-    "Name": "Wiegand, Witting and Eichmann",
-    "Tooltip": "quos",
+    "HeadingId": 415,
+    "Name": "Reinger Inc and Sons",
+    "Tooltip": "molestiae",
     "Deleted": true,
-    "Rank": 570,
-    "UdListDefinitionId": 988
+    "Rank": 76,
+    "UdListDefinitionId": 255
   },
   {
-    "HeadingId": 22,
-    "Name": "Wiegand, Witting and Eichmann",
-    "Tooltip": "quos",
+    "HeadingId": 415,
+    "Name": "Reinger Inc and Sons",
+    "Tooltip": "molestiae",
     "Deleted": true,
-    "Rank": 570,
-    "UdListDefinitionId": 988
+    "Rank": 76,
+    "UdListDefinitionId": 255
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 578,
-    "Name": "Sawayn-Weber",
-    "Tooltip": "delectus",
+    "HeadingId": 97,
+    "Name": "Mills-Dietrich",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 234,
-    "UdListDefinitionId": 91,
+    "Rank": 37,
+    "UdListDefinitionId": 668,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 351
+        "FieldType": "System.Int32",
+        "FieldLength": 381
       }
     }
   }

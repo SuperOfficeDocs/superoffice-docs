@@ -2,6 +2,7 @@
 title: POST Agents/MDO/GetSelectableListWithRestriction
 uid: v1MDOAgent_GetSelectableListWithRestriction
 generated: true
+content_type: reference
 ---
 
 # POST Agents/MDO/GetSelectableListWithRestriction
@@ -93,9 +94,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rempel, Morar and Collins",
-  "AdditionalInfo": "maiores",
-  "SearchValue": "est"
+  "Name": "Reichert Group",
+  "AdditionalInfo": "laudantium",
+  "SearchValue": "natus"
 }
 ```
 
@@ -107,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 844,
-    "Name": "Braun-Rempel",
-    "ToolTip": "Ex blanditiis delectus.",
+    "Id": 807,
+    "Name": "Kertzmann, Schuppe and Hilll",
+    "ToolTip": "Facere dignissimos hic quaerat voluptate.",
     "Deleted": true,
-    "Rank": 575,
-    "Type": "sed",
-    "ColorBlock": 495,
-    "IconHint": "vitae",
+    "Rank": 930,
+    "Type": "possimus",
+    "ColorBlock": 339,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2001-02-07T03:45:23.6391999+01:00",
+    "LastChanged": "2014-02-28T03:46:55.0194982+01:00",
     "ChildItems": [
       {
-        "Id": 958,
-        "Name": "Dietrich LLC",
-        "ToolTip": "Vel eos vel dignissimos hic quaerat eius reiciendis.",
+        "Id": 79,
+        "Name": "Zulauf, Torphy and Murray",
+        "ToolTip": "Qui harum hic quae.",
         "Deleted": true,
-        "Rank": 345,
-        "Type": "animi",
-        "ColorBlock": 364,
-        "IconHint": "vero",
+        "Rank": 800,
+        "Type": "est",
+        "ColorBlock": 52,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2014-03-21T03:45:23.6391999+01:00",
+        "LastChanged": "2009-07-21T03:46:55.0194982+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Theodora West",
+        "ExtraInfo": "cumque",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Berniece Haley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 873
+            "FieldType": "System.Int32",
+            "FieldLength": 926
           }
         }
       }
     ],
-    "ExtraInfo": "vitae",
-    "StyleHint": "unde",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Retha Treutel",
+    "FullName": "Miss Makenna Turner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 627
+        "FieldLength": 133
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST List/PaymentTerm/Headings
 uid: v1PaymentTermsList_PostPaymentTermHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/PaymentTerm/Headings
@@ -75,16 +76,16 @@ OK
 POST /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 462,
-  "Name": "Crooks-Ratke",
-  "Tooltip": "quam",
+  "HeadingId": 182,
+  "Name": "Armstrong, Johns and Vandervort",
+  "Tooltip": "necessitatibus",
   "Deleted": false,
-  "Rank": 476,
-  "UdListDefinitionId": 819
+  "Rank": 373,
+  "UdListDefinitionId": 726
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 235,
-  "Name": "Reichel, Hahn and Adams",
-  "Tooltip": "quidem",
-  "Deleted": true,
-  "Rank": 451,
-  "UdListDefinitionId": 119,
+  "HeadingId": 729,
+  "Name": "Koepp-Barrows",
+  "Tooltip": "molestiae",
+  "Deleted": false,
+  "Rank": 909,
+  "UdListDefinitionId": 145,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 67
+      "FieldLength": 703
     }
   }
 }

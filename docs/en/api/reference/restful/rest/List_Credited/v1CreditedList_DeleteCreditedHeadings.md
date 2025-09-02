@@ -2,6 +2,7 @@
 title: DEL List/Credited/Headings
 uid: v1CreditedList_DeleteCreditedHeadings
 generated: true
+content_type: reference
 ---
 
 # DEL List/Credited/Headings
@@ -48,7 +49,7 @@ No Content
 DELETE /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

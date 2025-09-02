@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/CreateDefaultDiaryViewEntity
 uid: v1ConfigurationAgent_CreateDefaultDiaryViewEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/CreateDefaultDiaryViewEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 ```
 
-Set default values into a new DiaryViewEntity.
+Loading default values into a new DiaryViewEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -64,7 +63,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,49 +73,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 865,
-  "Name": "Lynch-Wunsch",
-  "Tooltip": "sunt",
-  "VisibleColumns": 540,
-  "Rank": 119,
-  "AssocId": 123,
+  "DiaryViewId": 343,
+  "Name": "Gutkowski, Treutel and Kozey",
+  "Tooltip": "quibusdam",
+  "VisibleColumns": 987,
+  "Rank": 145,
+  "AssocId": 531,
   "AssociateList": [
     {
-      "Id": 799,
-      "Name": "McCullough LLC",
-      "ToolTip": "Aut dignissimos.",
-      "Deleted": true,
-      "Rank": 634,
-      "Type": "mollitia",
-      "ColorBlock": 422,
-      "IconHint": "optio",
+      "Id": 486,
+      "Name": "Bahringer-Lesch",
+      "ToolTip": "Voluptate maxime mollitia tempora similique est incidunt.",
+      "Deleted": false,
+      "Rank": 139,
+      "Type": "facilis",
+      "ColorBlock": 317,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "2012-10-26T03:45:23.0767156+02:00",
+      "LastChanged": "2020-02-17T03:46:54.4570178+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "qui",
+      "ExtraInfo": "error",
+      "StyleHint": "sed",
       "Hidden": false,
-      "FullName": "Ms. Lindsay Daugherty II",
+      "FullName": "Alexander Dare",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 501
+          "FieldLength": 111
         }
       }
     }
   ],
-  "TzLocationId": 959,
+  "TzLocationId": 392,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 241
     }
   }
 }

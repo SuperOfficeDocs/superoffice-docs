@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/EventHandlersExists
 uid: v1CustomerServiceAgent_EventHandlersExists
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/EventHandlersExists
@@ -73,8 +74,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EventHandlerTypes": [
-    "vitae",
-    "quis"
+    "necessitatibus",
+    "amet"
   ]
 }
 ```
@@ -86,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "aut",
-  "voluptatem"
+  "molestiae",
+  "nihil"
 ]
 ```

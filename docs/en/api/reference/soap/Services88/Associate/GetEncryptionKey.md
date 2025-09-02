@@ -2,6 +2,7 @@
 title: Services88.AssociateAgent.GetEncryptionKey SOAP
 generated: true
 uid: Services88-Associate-GetEncryptionKey
+content_type: reference
 ---
 
 # Services88 Associate GetEncryptionKey

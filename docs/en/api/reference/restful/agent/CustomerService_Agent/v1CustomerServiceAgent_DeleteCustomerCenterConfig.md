@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/DeleteCustomerCenterConfig
 uid: v1CustomerServiceAgent_DeleteCustomerCenterConfig
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/DeleteCustomerCenterConfig
@@ -22,10 +23,10 @@ Deletes the CustomerCenterConfig
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| CustomerCenterConfigId | int32 | **Required** The id of the CustomerCenterConfig to be deleted. |
+| customerCenterConfigId | int32 | **Required** The identity of the CustomerCenterConfig |
 
 ```http
-POST /api/v1/Agents/CustomerService/DeleteCustomerCenterConfig?CustomerCenterConfigId=794
+POST /api/v1/Agents/CustomerService/DeleteCustomerCenterConfig?customerCenterConfigId=106
 ```
 
 

@@ -1,6 +1,8 @@
 ---
+uid: tag-List_QuoteDenyReason
 title: List_QuoteDenyReason
 generated: true
+content_type: reference
 ---
 
 ```http

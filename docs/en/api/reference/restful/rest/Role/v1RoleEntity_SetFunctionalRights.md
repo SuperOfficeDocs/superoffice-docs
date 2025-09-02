@@ -2,6 +2,7 @@
 title: PUT Role/{id}/FunctionRight
 uid: v1RoleEntity_SetFunctionalRights
 generated: true
+content_type: reference
 ---
 
 # PUT Role/{id}/FunctionRight
@@ -60,7 +61,7 @@ No Content
 PUT /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

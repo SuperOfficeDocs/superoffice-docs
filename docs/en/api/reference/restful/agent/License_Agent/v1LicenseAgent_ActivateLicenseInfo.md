@@ -2,6 +2,7 @@
 title: POST Agents/License/ActivateLicenseInfo
 uid: v1LicenseAgent_ActivateLicenseInfo
 generated: true
+content_type: reference
 ---
 
 # POST Agents/License/ActivateLicenseInfo
@@ -90,13 +91,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Succeeded": true,
-  "Reason": "",
+  "Reason": "visualize bleeding-edge markets",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 759
+      "FieldType": "System.String",
+      "FieldLength": 964
     }
   }
 }

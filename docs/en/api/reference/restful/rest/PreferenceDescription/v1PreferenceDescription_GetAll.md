@@ -2,6 +2,7 @@
 title: GET PreferenceDescription
 uid: v1PreferenceDescription_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET PreferenceDescription
@@ -72,7 +73,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,30 +84,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 857,
-    "Section": "veritatis",
-    "Key": "molestiae",
-    "Name": "Zulauf, Reilly and Collins",
+    "PrefDescId": 707,
+    "Section": "eum",
+    "Key": "cupiditate",
+    "Name": "Wiza Group",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Secured contextually-based data-warehouse",
+    "Description": "Enhanced fault-tolerant open architecture",
     "IsBuiltin": false,
-    "TableName": "Kunze-Bode",
-    "UserDefinedListId": 393,
-    "Rank": 763,
-    "SubGroup": "aliquam",
-    "MinLevel": 530,
-    "MaxValue": 885,
-    "MinValue": 187,
-    "RequiredLicense": "omnis",
+    "TableName": "Lindgren-Prosacco",
+    "UserDefinedListId": 431,
+    "Rank": 202,
+    "SubGroup": "sit",
+    "MinLevel": 426,
+    "MaxValue": 85,
+    "MinValue": 292,
+    "RequiredLicense": "nulla",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 221
+        "FieldLength": 483
       }
     }
   }

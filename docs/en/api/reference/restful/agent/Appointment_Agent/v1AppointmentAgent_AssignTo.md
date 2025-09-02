@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/AssignTo
 uid: v1AppointmentAgent_AssignTo
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/AssignTo
@@ -138,7 +139,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 191,
+  "AppointmentId": 520,
   "Participant": null,
   "UpdateMode": "OnlyThis"
 }
@@ -155,121 +156,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2005-05-04T03:45:22.8579699+02:00",
-  "AppointmentId": 90,
-  "Description": "User-centric even-keeled initiative",
-  "Title": "vero",
-  "Agenda": "rerum",
-  "InternalNotes": "voluptatem",
-  "StartDate": "2013-10-26T03:45:22.8579699+02:00",
-  "EndDate": "2003-01-17T03:45:22.8579699+01:00",
+  "CreatedDate": "2008-11-11T03:46:54.1601532+01:00",
+  "AppointmentId": 293,
+  "Description": "Universal grid-enabled orchestration",
+  "Title": "eveniet",
+  "Agenda": "temporibus",
+  "InternalNotes": "eligendi",
+  "StartDate": "2012-09-27T03:46:54.1601532+02:00",
+  "EndDate": "2022-11-19T03:46:54.1601532+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 529,
+  "MotherId": 607,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2009-04-01T03:45:22.8579699+02:00",
+  "UpdatedDate": "2020-07-14T03:46:54.1601532+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 29,
+  "ActiveLinks": 300,
   "Links": [
     {
-      "EntityName": "Leffler Group",
-      "Id": 927,
-      "Description": "De-engineered mission-critical success",
-      "ExtraInfo": "illo",
-      "LinkId": 13,
+      "EntityName": "Herman-Purdy",
+      "Id": 303,
+      "Description": "Versatile assymetric strategy",
+      "ExtraInfo": "quam",
+      "LinkId": 444,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 607
+          "FieldLength": 966
         }
       }
     }
   ],
-  "AlarmLeadTime": "delectus",
-  "HasAlarm": true,
-  "ColorIndex": 415,
+  "AlarmLeadTime": "accusamus",
+  "HasAlarm": false,
+  "ColorIndex": 171,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "harum",
-  "LeadTime": "possimus",
-  "Location": "a",
-  "RejectCounter": 313,
+  "LagTime": "quod",
+  "LeadTime": "excepturi",
+  "Location": "quis",
+  "RejectCounter": 957,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 578,
-      "PersonId": 378,
-      "ContactId": 519,
-      "EmailId": 739,
+      "AssociateId": 408,
+      "PersonId": 979,
+      "ContactId": 764,
+      "EmailId": 459,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "stefanie@thompson.us",
-      "Description": "Function-based tertiary moderator"
+      "EmailAddress": "maritza_rodriguez@cormier.info",
+      "Description": "Synchronised methodical attitude"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2016-09-04T03:45:22.8579699+02:00",
+  "ActiveDate": "2023-02-18T03:46:54.1601532+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 345,
+  "PreferredTZLocation": 533,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 974,
+  "SuggestedAppointmentId": 163,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "iste",
+  "CentralserviceVideomeetId": "voluptate",
   "UserDefinedFields": {
-    "SuperOffice:1": "Laisha Bednar",
-    "SuperOffice:2": "579947358"
+    "SuperOffice:1": "Melyssa Moore",
+    "SuperOffice:2": "1704903468"
   },
   "ExtraFields": {
-    "ExtraFields1": "aliquid",
-    "ExtraFields2": "unde"
+    "ExtraFields1": "corporis",
+    "ExtraFields2": "eos"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "libero"
+    "CustomFields1": "dolor",
+    "CustomFields2": "repellendus"
   },
-  "PublishEventDate": "2001-07-27T03:45:22.8579699+02:00",
-  "PublishTo": "2001-03-20T03:45:22.8579699+01:00",
-  "PublishFrom": "2022-09-30T03:45:22.8579699+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2017-10-25T03:46:54.1601532+02:00",
+  "PublishTo": "2025-08-01T03:46:54.1601532+02:00",
+  "PublishFrom": "2006-09-15T03:46:54.1601532+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 503,
+      "VisibleId": 881,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 767
+          "FieldLength": 365
         }
       }
     },
     {
-      "VisibleId": 503,
+      "VisibleId": 881,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 767
+          "FieldLength": 365
         }
       }
     }
@@ -279,7 +280,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 5
+      "FieldLength": 512
     }
   }
 }

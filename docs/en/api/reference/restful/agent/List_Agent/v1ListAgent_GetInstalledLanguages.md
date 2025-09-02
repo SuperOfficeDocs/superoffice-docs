@@ -2,6 +2,7 @@
 title: POST Agents/List/GetInstalledLanguages
 uid: v1ListAgent_GetInstalledLanguages
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetInstalledLanguages
@@ -71,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetInstalledLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,19 +83,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 991,
-    "LCID": 830,
-    "EnglishName": "Satterfield, Sauer and Dare",
-    "NativeName": "Schneider Inc and Sons",
-    "ThreeLetterISOLanguageName": "Hayes, Wilkinson and Rippin",
-    "TwoLetterISOLanguageName": "Treutel, Bernier and Prohaska",
+    "LanguageInfoId": 44,
+    "LCID": 92,
+    "EnglishName": "Douglas Group",
+    "NativeName": "Kreiger, Hayes and Schaefer",
+    "ThreeLetterISOLanguageName": "Wunsch, Rowe and Parker",
+    "TwoLetterISOLanguageName": "Wolff Group",
     "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 294
+        "FieldType": "System.Int32",
+        "FieldLength": 54
       }
     }
   }

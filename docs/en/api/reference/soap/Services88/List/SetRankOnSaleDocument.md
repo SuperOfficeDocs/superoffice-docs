@@ -2,6 +2,7 @@
 title: Services88.ListAgent.SetRankOnSaleDocument SOAP
 generated: true
 uid: Services88-List-SetRankOnSaleDocument
+content_type: reference
 ---
 
 # Services88 List SetRankOnSaleDocument

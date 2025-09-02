@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetAllPriceLists
 uid: v1QuoteAgent_GetAllPriceLists
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetAllPriceLists
@@ -85,12 +86,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 203,
-  "Currency": "repellendus"
+  "QuoteConnectionId": 79,
+  "Currency": "doloremque"
 }
 ```
 
@@ -102,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 98,
-    "ERPPriceListKey": "deserunt",
-    "QuoteConnectionId": 7,
-    "Name": "Streich, Schmitt and Kirlin",
-    "Description": "Assimilated global monitoring",
-    "Currency": "possimus",
-    "CurrencyName": "Bailey-Feeney",
-    "ValidFrom": "2018-05-02T03:45:23.8266945+02:00",
-    "ValidTo": "2024-12-11T03:45:23.8266945+01:00",
+    "PriceListId": 512,
+    "ERPPriceListKey": "laborum",
+    "QuoteConnectionId": 725,
+    "Name": "Veum-Effertz",
+    "Description": "Synergized coherent superstructure",
+    "Currency": "voluptas",
+    "CurrencyName": "Fay Inc and Sons",
+    "ValidFrom": "2011-04-16T03:46:55.2226157+02:00",
+    "ValidTo": "2005-08-05T03:46:55.2226157+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 227
+        "FieldLength": 973
       }
     }
   }

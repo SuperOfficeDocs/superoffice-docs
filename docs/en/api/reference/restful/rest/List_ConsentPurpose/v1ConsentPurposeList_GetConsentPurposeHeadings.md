@@ -2,6 +2,7 @@
 title: GET List/ConsentPurpose/Headings
 uid: v1ConsentPurposeList_GetConsentPurposeHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/ConsentPurpose/Headings
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 473,
-    "Name": "Beer-Miller",
-    "Tooltip": "totam",
+    "HeadingId": 531,
+    "Name": "Sanford, Nicolas and Ferry",
+    "Tooltip": "assumenda",
     "Deleted": true,
-    "Rank": 28,
-    "UdListDefinitionId": 689,
+    "Rank": 559,
+    "UdListDefinitionId": 416,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 158
+        "FieldType": "System.Int32",
+        "FieldLength": 42
       }
     }
   }

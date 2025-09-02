@@ -2,6 +2,7 @@
 title: Services88.WebhookAgent.SignalEvent SOAP
 generated: true
 uid: Services88-Webhook-SignalEvent
+content_type: reference
 ---
 
 # Services88 Webhook SignalEvent

@@ -2,6 +2,7 @@
 title: POST Agents/Archive/GetArchiveConfigurationWithContext
 uid: v1ArchiveAgent_GetArchiveConfigurationWithContext
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/GetArchiveConfigurationWithContext
@@ -84,9 +85,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Weber, Nienow and Zemlak",
-  "ProviderName": "Schroeder LLC",
-  "Context": "incidunt"
+  "GuiName": "Wyman, Quigley and Johnson",
+  "ProviderName": "Kshlerin LLC",
+  "Context": "molestiae"
 }
 ```
 
@@ -99,68 +100,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Pollich Group",
-      "DisplayTooltip": "laborum",
-      "DisplayType": "et",
+      "DisplayName": "Stoltenberg Group",
+      "DisplayTooltip": "at",
+      "DisplayType": "quibusdam",
       "CanOrderBy": false,
-      "Name": "Rowe Inc and Sons",
-      "CanRestrictBy": true,
-      "RestrictionType": "excepturi",
-      "RestrictionListName": "Huel Inc and Sons",
+      "Name": "Dare, Boyle and Greenholt",
+      "CanRestrictBy": false,
+      "RestrictionType": "nulla",
+      "RestrictionListName": "Powlowski-Gutkowski",
       "IsVisible": false,
-      "ExtraInfo": "est",
-      "Width": "quasi",
-      "IconHint": "tenetur",
-      "HeadingIconHint": "modi"
+      "ExtraInfo": "unde",
+      "Width": "qui",
+      "IconHint": "eos",
+      "HeadingIconHint": "quaerat"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 43,
-      "Name": "Deckow, Jewess and Cronin",
-      "ToolTip": "Ea sit dolorem odit eos magni.",
+      "Id": 745,
+      "Name": "Oberbrunner-Huels",
+      "ToolTip": "At libero consequatur est.",
       "Deleted": false,
-      "Rank": 747,
-      "Type": "voluptas",
-      "ColorBlock": 765,
-      "IconHint": "non",
+      "Rank": 459,
+      "Type": "quam",
+      "ColorBlock": 928,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "1999-06-30T03:45:22.967341+02:00",
+      "LastChanged": "2009-04-24T03:46:54.2851489+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "cum",
-      "StyleHint": "voluptas",
-      "Hidden": false,
-      "FullName": "Prof. Jeromy Carol Runolfsdottir DVM",
+      "ExtraInfo": "labore",
+      "StyleHint": "dicta",
+      "Hidden": true,
+      "FullName": "Marge Abshire DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 353
+          "FieldType": "System.Int32",
+          "FieldLength": 818
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Keeling Inc and Sons",
+      "Name": "Reilly, Graham and Bechtelar",
       "Direction": "ASC"
     },
     {
-      "Name": "Keeling Inc and Sons",
+      "Name": "Reilly, Graham and Bechtelar",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "eum",
+  "OwnerKeys": "laborum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 418
+      "FieldType": "System.String",
+      "FieldLength": 762
     }
   }
 }

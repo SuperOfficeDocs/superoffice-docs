@@ -2,6 +2,7 @@
 title: POST Agents/Selection/ExportSelectionMembers
 uid: v1SelectionAgent_ExportSelectionMembers
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/ExportSelectionMembers
@@ -70,13 +71,13 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 339,
-  "TemplateName": "O'Keefe Group",
-  "UseContacts": true
+  "SelectionId": 856,
+  "TemplateName": "Schoen-Jerde",
+  "UseContacts": false
 }
 ```
 

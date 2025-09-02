@@ -2,6 +2,7 @@
 title: DEL List/Source/Headings
 uid: v1SourceList_DeleteSourceHeadings
 generated: true
+content_type: reference
 ---
 
 # DEL List/Source/Headings
@@ -48,7 +49,7 @@ No Content
 DELETE /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

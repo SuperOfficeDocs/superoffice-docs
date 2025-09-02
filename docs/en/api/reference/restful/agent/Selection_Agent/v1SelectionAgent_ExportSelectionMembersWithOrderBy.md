@@ -2,6 +2,7 @@
 title: POST Agents/Selection/ExportSelectionMembersWithOrderBy
 uid: v1SelectionAgent_ExportSelectionMembersWithOrderBy
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/ExportSelectionMembersWithOrderBy
@@ -71,14 +72,14 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 299,
-  "TemplateName": "Nolan, Reilly and O'Hara",
-  "UseContacts": true,
-  "OrderBy": "incidunt"
+  "SelectionId": 965,
+  "TemplateName": "Bogan LLC",
+  "UseContacts": false,
+  "OrderBy": "et"
 }
 ```
 

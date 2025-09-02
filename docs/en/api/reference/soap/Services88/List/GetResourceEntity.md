@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetResourceEntity SOAP
 generated: true
 uid: Services88-List-GetResourceEntity
+content_type: reference
 ---
 
 # Services88 List GetResourceEntity

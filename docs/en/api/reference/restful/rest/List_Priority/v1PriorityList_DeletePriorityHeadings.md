@@ -2,6 +2,7 @@
 title: DEL List/Priority/Headings
 uid: v1PriorityList_DeletePriorityHeadings
 generated: true
+content_type: reference
 ---
 
 # DEL List/Priority/Headings
@@ -48,7 +49,7 @@ No Content
 DELETE /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

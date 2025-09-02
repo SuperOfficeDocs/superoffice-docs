@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/GetFieldValuesFromCrm
 uid: v1ErpSyncAgent_GetFieldValuesFromCrm
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/GetFieldValuesFromCrm
@@ -81,11 +82,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 31,
+  "RecordId": 563,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -98,18 +99,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Boyer-Wiegand",
-    "CrmFieldKey": "maxime",
-    "Value": "et",
-    "DisplayValue": "aut",
-    "SyncToCrm": false,
-    "SyncToErp": true,
+    "DisplayName": "Daniel, Weissnat and Sauer",
+    "CrmFieldKey": "unde",
+    "Value": "at",
+    "DisplayValue": "et",
+    "SyncToCrm": true,
+    "SyncToErp": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 749
+        "FieldType": "System.String",
+        "FieldLength": 442
       }
     }
   }

@@ -3,9 +3,9 @@ uid: appointmentfavourite
 title: appointmentfavourite
 keywords: mdoprovider mdo provider appointmentfavourite
 description: MDO list provider for Favourites
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "appointmentfavourite" MDO List

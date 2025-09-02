@@ -2,6 +2,7 @@
 title: POST Document/{id}/Content
 uid: v1DocumentEntity_CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 generated: true
+content_type: reference
 ---
 
 # POST Document/{id}/Content
@@ -37,13 +38,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=63
-POST /api/v1/Document/{documentId}/Content?personId=641
-POST /api/v1/Document/{documentId}/Content?appointmentId=601
-POST /api/v1/Document/{documentId}/Content?saleId=146
-POST /api/v1/Document/{documentId}/Content?selectionId=883
-POST /api/v1/Document/{documentId}/Content?projectId=1002
-POST /api/v1/Document/{documentId}/Content?uiCulture=repellat
+POST /api/v1/Document/{documentId}/Content?contactId=726
+POST /api/v1/Document/{documentId}/Content?personId=357
+POST /api/v1/Document/{documentId}/Content?appointmentId=768
+POST /api/v1/Document/{documentId}/Content?saleId=350
+POST /api/v1/Document/{documentId}/Content?selectionId=336
+POST /api/v1/Document/{documentId}/Content?projectId=95
+POST /api/v1/Document/{documentId}/Content?uiCulture=illum
 ```
 
 
@@ -131,88 +132,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 243,
+  "DocumentId": 937,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "esse",
-  "Header": "eum",
-  "Name": "Schroeder LLC",
-  "OurRef": "sint",
-  "YourRef": "voluptatem",
-  "CreatedDate": "2000-05-21T03:45:28.3421873+02:00",
-  "UpdatedDate": "2008-12-05T03:45:28.3421873+01:00",
-  "Description": "Mandatory impactful open system",
+  "Attention": "quo",
+  "Header": "officiis",
+  "Name": "Simonis-Swift",
+  "OurRef": "quo",
+  "YourRef": "molestias",
+  "CreatedDate": "2002-07-11T03:47:00.005716+02:00",
+  "UpdatedDate": "2012-08-09T03:47:00.005716+02:00",
+  "Description": "Focused zero defect solution",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2004-05-16T03:45:28.3421873+02:00",
-  "ExternalRef": "perferendis",
+  "Date": "2003-03-10T03:47:00.005716+01:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 546,
+  "ActiveLinks": 508,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Harber, Schneider and Murphy",
-      "Id": 290,
-      "Description": "Sharable eco-centric flexibility",
-      "ExtraInfo": "sit",
-      "LinkId": 114,
+      "EntityName": "Stiedemann Group",
+      "Id": 810,
+      "Description": "Quality-focused tertiary flexibility",
+      "ExtraInfo": "quia",
+      "LinkId": 518,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 741
+          "FieldLength": 534
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 724,
-  "Snum": 318,
+  "SuggestedDocumentId": 989,
+  "Snum": 431,
   "UserDefinedFields": {
-    "SuperOffice:1": "Amanda Corwin IV",
-    "SuperOffice:2": "Johnnie Heaney Jr."
+    "SuperOffice:1": "Shyann Denesik DDS",
+    "SuperOffice:2": "Nellie O'Conner"
   },
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "unde"
+    "ExtraFields1": "totam",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "et"
+    "CustomFields1": "dolorem",
+    "CustomFields2": "sint"
   },
-  "PublishEventDate": "2016-06-07T03:45:28.3421873+02:00",
-  "PublishTo": "2017-01-16T03:45:28.3421873+01:00",
-  "PublishFrom": "2011-02-23T03:45:28.3421873+01:00",
+  "PublishEventDate": "2008-03-27T03:47:00.005716+01:00",
+  "PublishTo": "2013-11-18T03:47:00.005716+01:00",
+  "PublishFrom": "2016-06-11T03:47:00.005716+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 130,
+      "VisibleId": 416,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 784
+          "FieldLength": 429
         }
       }
     },
     {
-      "VisibleId": 130,
+      "VisibleId": 416,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "accusantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 784
+          "FieldLength": 429
         }
       }
     }
@@ -221,8 +222,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 504
+      "FieldType": "System.Int32",
+      "FieldLength": 877
     }
   }
 }

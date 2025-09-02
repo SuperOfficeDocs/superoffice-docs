@@ -2,6 +2,7 @@
 title: PUT List/PaymentTerm
 uid: v1PaymentTermsList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/PaymentTerm
@@ -84,19 +85,19 @@ OK
 PUT /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 285,
-  "Name": "McGlynn-Quitzon",
-  "Tooltip": "pariatur",
+  "Id": 587,
+  "Name": "Lebsack-Glover",
+  "Tooltip": "excepturi",
   "Deleted": false,
-  "Rank": 23,
+  "Rank": 126,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "dolorem",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 780,
-  "Name": "Nienow-Schmidt",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "Rank": 545,
+  "Id": 523,
+  "Name": "Toy Inc and Sons",
+  "Tooltip": "illo",
+  "Deleted": true,
+  "Rank": 437,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": false,
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 396
+      "FieldLength": 402
     }
   }
 }

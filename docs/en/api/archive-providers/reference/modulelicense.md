@@ -3,9 +3,9 @@ uid: ModuleLicense
 title: ModuleLicense
 description: Simple provider for module licences. This provider will return a flat list with
 keywords: ModuleLicense archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ModuleLicense"

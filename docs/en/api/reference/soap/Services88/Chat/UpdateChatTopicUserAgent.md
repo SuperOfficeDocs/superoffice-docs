@@ -2,6 +2,7 @@
 title: Services88.ChatAgent.UpdateChatTopicUserAgent SOAP
 generated: true
 uid: Services88-Chat-UpdateChatTopicUserAgent
+content_type: reference
 ---
 
 # Services88 Chat UpdateChatTopicUserAgent
@@ -56,6 +57,18 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Chat:Deleted xsi:type="xsd:boolean">false</Chat:Deleted>
       <Chat:EjUserId xsi:type="xsd:int">0</Chat:EjUserId>
       <Chat:UserName xsi:type="xsd:string"></Chat:UserName>
+      <Chat:ExtraFields xsi:type="Chat:StringDictionary">
+       <Chat:StringKeyValuePair>
+        <Chat:Key xsi:type="xsd:string"></Chat:Key>
+        <Chat:Value xsi:type="xsd:string"></Chat:Value>
+       </Chat:StringKeyValuePair>
+      </Chat:ExtraFields>
+      <Chat:CustomFields xsi:type="Chat:StringDictionary">
+       <Chat:StringKeyValuePair>
+        <Chat:Key xsi:type="xsd:string"></Chat:Key>
+        <Chat:Value xsi:type="xsd:string"></Chat:Value>
+       </Chat:StringKeyValuePair>
+      </Chat:CustomFields>
      </Chat:User>
      <Chat:CanListen xsi:type="xsd:boolean">false</Chat:CanListen>
      <Chat:CanRespond xsi:type="xsd:boolean">false</Chat:CanRespond>
@@ -99,6 +112,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Chat:Deleted xsi:type="xsd:boolean">false</Chat:Deleted>
      <Chat:EjUserId xsi:type="xsd:int">0</Chat:EjUserId>
      <Chat:UserName xsi:type="xsd:string"></Chat:UserName>
+     <Chat:ExtraFields xsi:type="Chat:StringDictionary">
+      <Chat:StringKeyValuePair>
+       <Chat:Key xsi:type="xsd:string"></Chat:Key>
+       <Chat:Value xsi:type="xsd:string"></Chat:Value>
+      </Chat:StringKeyValuePair>
+     </Chat:ExtraFields>
+     <Chat:CustomFields xsi:type="Chat:StringDictionary">
+      <Chat:StringKeyValuePair>
+       <Chat:Key xsi:type="xsd:string"></Chat:Key>
+       <Chat:Value xsi:type="xsd:string"></Chat:Value>
+      </Chat:StringKeyValuePair>
+     </Chat:CustomFields>
     </Chat:User>
     <Chat:CanListen xsi:type="xsd:boolean">false</Chat:CanListen>
     <Chat:CanRespond xsi:type="xsd:boolean">false</Chat:CanRespond>

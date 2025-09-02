@@ -2,6 +2,7 @@
 title: GET Person/{id}/Relations
 uid: v1PersonEntity_Relations
 generated: true
+content_type: reference
 ---
 
 # GET Person/{id}/Relations
@@ -74,14 +75,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Person/{id}/Relations?$select=name,department,category/id
 GET /api/v1/Person/{id}/Relations?$filter=name begins 'S'
 GET /api/v1/Person/{id}/Relations?$orderBy=name asc
-GET /api/v1/Person/{id}/Relations?$entities=quia
-GET /api/v1/Person/{id}/Relations?$top=382
-GET /api/v1/Person/{id}/Relations?$skip=851
+GET /api/v1/Person/{id}/Relations?$entities=est
+GET /api/v1/Person/{id}/Relations?$top=668
+GET /api/v1/Person/{id}/Relations?$skip=388
 GET /api/v1/Person/{id}/Relations?$mode=Full
 GET /api/v1/Person/{id}/Relations?$options=GrandTotal=true
-GET /api/v1/Person/{id}/Relations?$context=enim
+GET /api/v1/Person/{id}/Relations?$context=voluptatibus
 GET /api/v1/Person/{id}/Relations?$format=JSON
-GET /api/v1/Person/{id}/Relations?$jsonSafe=True
+GET /api/v1/Person/{id}/Relations?$jsonSafe=False
 GET /api/v1/Person/{id}/Relations?$output=Display
 ```
 
@@ -123,7 +124,7 @@ OK
 GET /api/v1/Person/{id}/Relations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -134,19 +135,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "alias",
+  "odata.nextLink": "dicta",
   "value": [
     {
-      "PrimaryKey": 1232,
-      "EntityName": "person",
-      "personId": 1232,
-      "fullName": "Mr. Tiffany Braun"
+      "PrimaryKey": 4368,
+      "EntityName": "sale",
+      "saleId": 4368,
+      "contactId": 9404,
+      "name": "O'Connell, Dicki and Herzog"
     },
     {
-      "PrimaryKey": 2604,
-      "EntityName": "person",
-      "personId": 2604,
-      "fullName": "Jerald Torphy"
+      "PrimaryKey": 7853,
+      "EntityName": "sale",
+      "saleId": 7853,
+      "contactId": 7042,
+      "name": "Harber LLC"
     }
   ]
 }

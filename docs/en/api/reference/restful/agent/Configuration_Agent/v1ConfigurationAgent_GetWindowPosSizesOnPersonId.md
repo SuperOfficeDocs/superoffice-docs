@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetWindowPosSizesOnPersonId
 uid: v1ConfigurationAgent_GetWindowPosSizesOnPersonId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetWindowPosSizesOnPersonId
@@ -83,11 +84,11 @@ OK
 POST /api/v1/Agents/Configuration/GetWindowPosSizesOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 868
+  "PersonId": 855
 }
 ```
 
@@ -99,23 +100,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "ullam",
-    "PersonId": 630,
-    "AssociateId": 879,
-    "ExtraId": 76,
-    "ExtraInfo": "iure",
-    "Height": 94,
-    "LeftX": 500,
+    "OwnerWindow": "commodi",
+    "PersonId": 941,
+    "AssociateId": 415,
+    "ExtraId": 736,
+    "ExtraInfo": "eum",
+    "Height": 467,
+    "LeftX": 386,
     "State": "Maximized",
-    "UpperY": 857,
-    "Width": 608,
-    "WindowPosSizeId": 973,
+    "UpperY": 581,
+    "Width": 324,
+    "WindowPosSizeId": 595,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 943
+        "FieldLength": 877
       }
     }
   }

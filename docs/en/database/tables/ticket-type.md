@@ -2,13 +2,13 @@
 uid: table-ticket_type
 title: ticket_type table
 description: A ticket (request) type
-so.generated: true
+generated: true
 keywords: database table ticket_type
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
-# ticket\_type Table (532)
+# ticket\_type Table (534)
 
 A ticket (request) type
 

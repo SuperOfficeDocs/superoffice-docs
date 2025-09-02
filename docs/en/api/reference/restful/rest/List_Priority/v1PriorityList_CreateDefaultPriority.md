@@ -2,6 +2,7 @@
 title: GET List/Priority/Items/Default
 uid: v1PriorityList_CreateDefaultPriority
 generated: true
+content_type: reference
 ---
 
 # GET List/Priority/Items/Default
@@ -60,7 +61,7 @@ OK
 GET /api/v1/List/Priority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 79,
-  "Name": "Bruen LLC",
-  "Tooltip": "quisquam",
+  "Id": 44,
+  "Name": "Abbott Group",
+  "Tooltip": "inventore",
   "Deleted": false,
-  "UdListDefinitionId": 497,
-  "Rank": 6,
+  "UdListDefinitionId": 106,
+  "Rank": 726,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 110
+      "FieldType": "System.String",
+      "FieldLength": 657
     }
   }
 }

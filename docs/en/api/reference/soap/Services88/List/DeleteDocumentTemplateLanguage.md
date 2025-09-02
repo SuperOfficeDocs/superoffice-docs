@@ -2,6 +2,7 @@
 title: Services88.ListAgent.DeleteDocumentTemplateLanguage SOAP
 generated: true
 uid: Services88-List-DeleteDocumentTemplateLanguage
+content_type: reference
 ---
 
 # Services88 List DeleteDocumentTemplateLanguage

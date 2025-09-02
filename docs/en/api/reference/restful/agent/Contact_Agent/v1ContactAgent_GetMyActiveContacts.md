@@ -2,6 +2,7 @@
 title: POST Agents/Contact/GetMyActiveContacts
 uid: v1ContactAgent_GetMyActiveContacts
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Contact/GetMyActiveContacts
@@ -94,10 +95,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2024-01-01T03:45:23.1704803+01:00",
+  "ActivityStartTime": "2013-03-21T03:46:54.4726424+01:00",
   "ContactCategories": [
-    523,
-    400
+    630,
+    790
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +112,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 572,
-    "Department": "",
-    "OrgNr": "1014983",
-    "Name": "Macejkovic-Grant",
+    "ContactId": 191,
+    "Department": "maximize world-class action-items",
+    "OrgNr": "1093233",
+    "Name": "Orn-Altenwerth",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Ms. Alba Oscar Zieme",
+    "AssociateFullName": "Robb Homenick",
     "Action": "ActivityCompleted",
-    "ActionTime": "1999-11-17T03:45:23.1704803+01:00",
+    "ActionTime": "2013-09-28T03:46:54.4726424+02:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Bartoletti, Blanda and Spinka",
-    "ActionId": 374,
-    "PersonId": 950,
-    "ActivityPersonId": 149,
-    "AssociateId": 183,
+    "ActivityPersonName": "Gibson, Terry and Kuhic",
+    "ActionId": 889,
+    "PersonId": 79,
+    "ActivityPersonId": 597,
+    "AssociateId": 361,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 858
+        "FieldLength": 34
       }
     }
   }

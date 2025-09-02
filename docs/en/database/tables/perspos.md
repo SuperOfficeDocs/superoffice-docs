@@ -2,10 +2,10 @@
 uid: table-PersPos
 title: PersPos table
 description: PersPos list table. Contact person position list
-so.generated: true
+generated: true
 keywords: database table PersPos
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # PersPos Table (76)

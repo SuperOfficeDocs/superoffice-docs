@@ -2,6 +2,7 @@
 title: Services88.LicenseAgent.ChangeSerialNumber SOAP
 generated: true
 uid: Services88-License-ChangeSerialNumber
+content_type: reference
 ---
 
 # Services88 License ChangeSerialNumber

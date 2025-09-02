@@ -2,6 +2,7 @@
 title: POST Agents/Quote/SaveQuoteAlternative
 uid: v1QuoteAgent_SaveQuoteAlternative
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/SaveQuoteAlternative
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Quote/SaveQuoteAlternative
 ```
 
-Updates the existing QuoteAlternative or creates a new QuoteAlternative if the id parameter is empty
+Updates the existing QuoteAlternative or creates a new QuoteAlternative if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing QuoteAlternative or creates a new QuoteAlternative if the i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: quoteAlternative 
 
-The QuoteAlternative to be saved. 
+The QuoteAlternative that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -111,29 +112,29 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 329,
-  "ERPQuoteAlternativeKey": "tempore",
-  "QuoteVersionId": 397,
-  "Name": "Halvorson-Armstrong",
-  "Description": "Multi-tiered explicit framework",
+  "QuoteAlternativeId": 841,
+  "ERPQuoteAlternativeKey": "aut",
+  "QuoteVersionId": 378,
+  "Name": "Pagac, Vandervort and Rosenbaum",
+  "Description": "Implemented directional superstructure",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 1729.9679999999998,
-  "ERPDiscountAmount": 15036.931999999999,
-  "DiscountPercent": 29174.406,
-  "DiscountAmount": 10104.016,
+  "ERPDiscountPercent": 28572.678,
+  "ERPDiscountAmount": 2967.8979999999997,
+  "DiscountPercent": 23570.814,
+  "DiscountAmount": 17863.8,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "facere",
-  "VAT": 11204.05,
-  "EarningPercent": 15572.846,
-  "EarningAmount": 12683.297999999999,
-  "SubTotal": 13062.511999999999,
-  "TotalPrice": 3018.042,
-  "ExtraField1": "non",
-  "ExtraField2": "ex",
-  "ExtraField3": "molestiae",
-  "ExtraField4": "quasi",
-  "ExtraField5": "occaecati"
+  "VATInfo": "ducimus",
+  "VAT": 13347.706,
+  "EarningPercent": 11498.645999999999,
+  "EarningAmount": 14933.51,
+  "SubTotal": 22063.36,
+  "TotalPrice": 29519.146,
+  "ExtraField1": "est",
+  "ExtraField2": "vel",
+  "ExtraField3": "placeat",
+  "ExtraField4": "vero",
+  "ExtraField5": "aliquid"
 }
 ```
 
@@ -144,35 +145,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 464,
-  "ERPQuoteAlternativeKey": "rerum",
-  "QuoteVersionId": 728,
-  "Name": "Beahan-Nolan",
-  "Description": "Extended regional flexibility",
+  "QuoteAlternativeId": 370,
+  "ERPQuoteAlternativeKey": "similique",
+  "QuoteVersionId": 190,
+  "Name": "Pacocha-Rutherford",
+  "Description": "Multi-channelled holistic protocol",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 6847.79,
-  "ERPDiscountAmount": 13150.264,
-  "DiscountPercent": 861.85,
-  "DiscountAmount": 29400.054,
+  "ERPDiscountPercent": 3666.7799999999997,
+  "ERPDiscountAmount": 29575.557999999997,
+  "DiscountPercent": 8082.5859999999993,
+  "DiscountAmount": 26664.072,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "aut",
-  "VAT": 10329.663999999999,
-  "EarningPercent": 18020.5,
-  "EarningAmount": 18606.558,
-  "SubTotal": 10696.342,
-  "TotalPrice": 14197.02,
-  "ExtraField1": "dolore",
-  "ExtraField2": "voluptas",
-  "ExtraField3": "provident",
-  "ExtraField4": "consequuntur",
-  "ExtraField5": "ut",
+  "VATInfo": "et",
+  "VAT": 17766.646,
+  "EarningPercent": 25194.226,
+  "EarningAmount": 22793.582,
+  "SubTotal": 30434.273999999998,
+  "TotalPrice": 15566.578,
+  "ExtraField1": "iure",
+  "ExtraField2": "quia",
+  "ExtraField3": "est",
+  "ExtraField4": "quae",
+  "ExtraField5": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 554
+      "FieldType": "System.Int32",
+      "FieldLength": 507
     }
   }
 }

@@ -2,6 +2,7 @@
 title: PUT Hierarchy/{domain}/{path}
 uid: v1HierarchyEntity_UpdateHierarchyFromPath
 generated: true
+content_type: reference
 ---
 
 # PUT Hierarchy/{domain}/{path}
@@ -90,32 +91,32 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 130,
+  "HierarchyId": 884,
   "Domain": "Dashboards",
-  "Name": "Reilly-Schoen",
-  "Fullname": "quaerat",
-  "ParentId": 962,
+  "Name": "Schmeler LLC",
+  "Fullname": "consequatur",
+  "ParentId": 368,
   "Children": [
     {
-      "HierarchyId": 990,
+      "HierarchyId": 758,
       "Domain": "Dashboards",
-      "Name": "Schaefer Inc and Sons",
-      "Fullname": "voluptatem",
-      "ParentId": 124,
+      "Name": "West LLC",
+      "Fullname": "fugit",
+      "ParentId": 185,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1998-07-20T03:45:28.3734363+02:00",
-      "RegisteredAssociateId": 88,
-      "Updated": "2017-11-02T03:45:28.3734363+01:00",
-      "UpdatedAssociateId": 621
+      "Registered": "2016-08-20T03:47:00.0349452+02:00",
+      "RegisteredAssociateId": 805,
+      "Updated": "2012-11-30T03:47:00.0349452+01:00",
+      "UpdatedAssociateId": 184
     }
   ],
-  "Registered": "2014-02-27T03:45:28.3734363+01:00",
-  "RegisteredAssociateId": 636,
-  "Updated": "2002-11-04T03:45:28.3734363+01:00",
-  "UpdatedAssociateId": 385
+  "Registered": "2001-04-05T03:47:00.0349452+02:00",
+  "RegisteredAssociateId": 46,
+  "Updated": "2009-06-22T03:47:00.0349452+02:00",
+  "UpdatedAssociateId": 965
 }
 ```
 
@@ -126,46 +127,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 771,
+  "HierarchyId": 726,
   "Domain": "Dashboards",
-  "Name": "Weber Group",
-  "Fullname": "praesentium",
-  "ParentId": 269,
+  "Name": "Ryan Group",
+  "Fullname": "quia",
+  "ParentId": 809,
   "Children": [
     {
-      "HierarchyId": 873,
+      "HierarchyId": 97,
       "Domain": "Dashboards",
-      "Name": "Hahn, Weber and Feest",
-      "Fullname": "rerum",
-      "ParentId": 862,
+      "Name": "Koepp-Franecki",
+      "Fullname": "facere",
+      "ParentId": 166,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2018-02-09T03:45:28.3734363+01:00",
-      "RegisteredAssociateId": 911,
-      "Updated": "1999-05-20T03:45:28.3734363+02:00",
-      "UpdatedAssociateId": 217,
+      "Registered": "2009-09-19T03:47:00.0349452+02:00",
+      "RegisteredAssociateId": 560,
+      "Updated": "2017-07-26T03:47:00.0349452+02:00",
+      "UpdatedAssociateId": 37,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 223
+          "FieldType": "System.Int32",
+          "FieldLength": 311
         }
       }
     }
   ],
-  "Registered": "2015-05-28T03:45:28.3734363+02:00",
-  "RegisteredAssociateId": 602,
-  "Updated": "2025-01-01T03:45:28.3734363+01:00",
-  "UpdatedAssociateId": 118,
+  "Registered": "2000-11-16T03:47:00.0349452+01:00",
+  "RegisteredAssociateId": 890,
+  "Updated": "2025-07-21T03:47:00.0349452+02:00",
+  "UpdatedAssociateId": 406,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 515
+      "FieldLength": 668
     }
   }
 }

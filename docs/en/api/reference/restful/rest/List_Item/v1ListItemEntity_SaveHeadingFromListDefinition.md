@@ -2,6 +2,7 @@
 title: POST List/{id}/Headings
 uid: v1ListItemEntity_SaveHeadingFromListDefinition
 generated: true
+content_type: reference
 ---
 
 # POST List/{id}/Headings
@@ -78,16 +79,16 @@ OK
 POST /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 113,
-  "Name": "Jacobson LLC",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 874,
-  "UdListDefinitionId": 266
+  "HeadingId": 456,
+  "Name": "Windler, Herman and Von",
+  "Tooltip": "autem",
+  "Deleted": false,
+  "Rank": 333,
+  "UdListDefinitionId": 477
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 98,
-  "Name": "Ziemann LLC",
-  "Tooltip": "recusandae",
-  "Deleted": false,
-  "Rank": 811,
-  "UdListDefinitionId": 469,
+  "HeadingId": 187,
+  "Name": "Kihn, Jones and Rice",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "Rank": 669,
+  "UdListDefinitionId": 248,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldLength": 838
     }
   }
 }

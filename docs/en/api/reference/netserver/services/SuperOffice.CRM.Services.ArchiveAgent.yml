@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.ArchiveAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IActivityFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveConfigurationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRelatedDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.ArchiveAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IActivityFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveConfigurationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRelatedDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.ArchiveAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IActivityFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveConfigurationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRelatedDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   - SuperOffice.CRM.Services.ArchiveAgent.CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ArchiveAgent.ExportArchiveAsync(System.String,System.String,System.String[],System.String[],SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[],SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[],System.String,System.String[],System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ArchiveAgent.GetActivityFilterAsync(System.Threading.CancellationToken)
@@ -105,22 +105,22 @@ items:
   nameWithType.vb: ArchiveAgent.New(IActivityFilterImplementation, IArchiveConfigurationImplementation, IArchiveListImplementation, IArchiveListResultImplementation, IRelatedDataImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.ArchiveAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IActivityFilterImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveConfigurationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListResultImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRelatedDataImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IActivityFilterImplementation, IArchiveConfigurationImplementation, IArchiveListImplementation, IArchiveListResultImplementation, IRelatedDataImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.ArchiveAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IActivityFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveConfigurationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRelatedDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  commentId: M:SuperOffice.CRM.Services.ArchiveAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IActivityFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveConfigurationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRelatedDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IActivityFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveConfigurationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRelatedDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+- uid: SuperOffice.CRM.Services.ArchiveAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IActivityFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveConfigurationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRelatedDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  commentId: M:SuperOffice.CRM.Services.ArchiveAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IActivityFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveConfigurationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRelatedDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IActivityFilterImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveConfigurationImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListResultImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRelatedDataImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
   parent: SuperOffice.CRM.Services.ArchiveAgent
   langs:
   - csharp
   - vb
-  name: ArchiveAgent(IActivityFilterImplementation, IArchiveConfigurationImplementation, IArchiveListImplementation, IArchiveListResultImplementation, IRelatedDataImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  nameWithType: ArchiveAgent.ArchiveAgent(IActivityFilterImplementation, IArchiveConfigurationImplementation, IArchiveListImplementation, IArchiveListResultImplementation, IRelatedDataImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName: SuperOffice.CRM.Services.ArchiveAgent.ArchiveAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IActivityFilterImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveConfigurationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListResultImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRelatedDataImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name: ArchiveAgent(IActivityFilterImplementation, IArchiveConfigurationImplementation, IArchiveListImplementation, IArchiveListResultImplementation, IRelatedDataImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType: ArchiveAgent.ArchiveAgent(IActivityFilterImplementation, IArchiveConfigurationImplementation, IArchiveListImplementation, IArchiveListResultImplementation, IRelatedDataImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName: SuperOffice.CRM.Services.ArchiveAgent.ArchiveAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IActivityFilterImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveConfigurationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListResultImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRelatedDataImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public ArchiveAgent(IActivityFilterImplementation activityFilterImplementation, IArchiveConfigurationImplementation archiveConfigurationImplementation, IArchiveListImplementation archiveListImplementation, IArchiveListResultImplementation archiveListResultImplementation, IRelatedDataImplementation relatedDataImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    content: public ArchiveAgent(IActivityFilterImplementation activityFilterImplementation, IArchiveConfigurationImplementation archiveConfigurationImplementation, IArchiveListImplementation archiveListImplementation, IArchiveListResultImplementation archiveListResultImplementation, IRelatedDataImplementation relatedDataImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
     parameters:
     - id: activityFilterImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IActivityFilterImplementation
@@ -138,42 +138,15 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    content.vb: Public Sub New(activityFilterImplementation As IActivityFilterImplementation, archiveConfigurationImplementation As IArchiveConfigurationImplementation, archiveListImplementation As IArchiveListImplementation, archiveListResultImplementation As IArchiveListResultImplementation, relatedDataImplementation As IRelatedDataImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+    - id: scriptingConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+    - id: onlineConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+    content.vb: Public Sub New(activityFilterImplementation As IActivityFilterImplementation, archiveConfigurationImplementation As IArchiveConfigurationImplementation, archiveListImplementation As IArchiveListImplementation, archiveListResultImplementation As IArchiveListResultImplementation, relatedDataImplementation As IRelatedDataImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
   overload: SuperOffice.CRM.Services.ArchiveAgent.#ctor*
-  nameWithType.vb: ArchiveAgent.New(IActivityFilterImplementation, IArchiveConfigurationImplementation, IArchiveListImplementation, IArchiveListResultImplementation, IRelatedDataImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName.vb: SuperOffice.CRM.Services.ArchiveAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IActivityFilterImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveConfigurationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListResultImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRelatedDataImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
-  name.vb: New(IActivityFilterImplementation, IArchiveConfigurationImplementation, IArchiveListImplementation, IArchiveListResultImplementation, IRelatedDataImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-- uid: SuperOffice.CRM.Services.ArchiveAgent.CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ArchiveAgent.CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
-  id: CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.ArchiveAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultArchiveListResultAsync(CancellationToken)
-  nameWithType: ArchiveAgent.CreateDefaultArchiveListResultAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.ArchiveAgent.CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new ArchiveListResult.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: public Task<ArchiveListResult> CreateDefaultArchiveListResultAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveListResult}
-      description: New ArchiveListResult with default values
-    content.vb: Public Function CreateDefaultArchiveListResultAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ArchiveListResult)
-  overload: SuperOffice.CRM.Services.ArchiveAgent.CreateDefaultArchiveListResultAsync*
-  implements:
-  - SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
+  nameWithType.vb: ArchiveAgent.New(IActivityFilterImplementation, IArchiveConfigurationImplementation, IArchiveListImplementation, IArchiveListResultImplementation, IRelatedDataImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName.vb: SuperOffice.CRM.Services.ArchiveAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IActivityFilterImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveConfigurationImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IArchiveListResultImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRelatedDataImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name.vb: New(IActivityFilterImplementation, IArchiveConfigurationImplementation, IArchiveListImplementation, IArchiveListResultImplementation, IRelatedDataImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
 - uid: SuperOffice.CRM.Services.ArchiveAgent.GetActivityFilterAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ArchiveAgent.GetActivityFilterAsync(System.Threading.CancellationToken)
   id: GetActivityFilterAsync(System.Threading.CancellationToken)
@@ -2732,6 +2705,35 @@ items:
   nameWithType.vb: ArchiveAgent.ExportArchiveAsync(String, String, String(), String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String, String(), Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.ArchiveAgent.ExportArchiveAsync(String, String, String(), String(), SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo(), SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo(), String, String(), Integer, System.Threading.CancellationToken)
   name.vb: ExportArchiveAsync(String, String, String(), String(), ArchiveOrderByInfo(), ArchiveRestrictionInfo(), String, String(), Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ArchiveAgent.CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ArchiveAgent.CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
+  id: CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ArchiveAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultArchiveListResultAsync(CancellationToken)
+  nameWithType: ArchiveAgent.CreateDefaultArchiveListResultAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ArchiveAgent.CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new ArchiveListResult.
+  example: []
+  syntax:
+    content: public Task<ArchiveListResult> CreateDefaultArchiveListResultAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveListResult}
+      description: New ArchiveListResult with default values
+    content.vb: Public Function CreateDefaultArchiveListResultAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ArchiveListResult)
+  overload: SuperOffice.CRM.Services.ArchiveAgent.CreateDefaultArchiveListResultAsync*
+  implements:
+  - SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
 - uid: SuperOffice.CRM.Services.ArchiveAgent.GetRelatedDataAsync(System.String,System.Int32,System.String[],System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ArchiveAgent.GetRelatedDataAsync(System.String,System.Int32,System.String[],System.Threading.CancellationToken)
   id: GetRelatedDataAsync(System.String,System.Int32,System.String[],System.Threading.CancellationToken)
@@ -3237,24 +3239,34 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
-- uid: SuperOffice.CRM.Services.ArchiveAgent.CreateDefaultArchiveListResultAsync*
-  commentId: Overload:SuperOffice.CRM.Services.ArchiveAgent.CreateDefaultArchiveListResultAsync
+- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
   isExternal: true
-  href: SuperOffice.CRM.Services.ArchiveAgent.html#SuperOffice_CRM_Services_ArchiveAgent_CreateDefaultArchiveListResultAsync_System_Threading_CancellationToken_
-  name: CreateDefaultArchiveListResultAsync
-  nameWithType: ArchiveAgent.CreateDefaultArchiveListResultAsync
-  fullName: SuperOffice.CRM.Services.ArchiveAgent.CreateDefaultArchiveListResultAsync
-- uid: SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
+  name: IScriptingConfiguration
+  nameWithType: ConfigFile.IScriptingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  isExternal: true
+  name: IOnlineConfiguration
+  nameWithType: ConfigFile.IOnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+- uid: SuperOffice.CRM.Services.ArchiveAgent.GetActivityFilterAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ArchiveAgent.GetActivityFilterAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ArchiveAgent.html#SuperOffice_CRM_Services_ArchiveAgent_GetActivityFilterAsync_System_Threading_CancellationToken_
+  name: GetActivityFilterAsync
+  nameWithType: ArchiveAgent.GetActivityFilterAsync
+  fullName: SuperOffice.CRM.Services.ArchiveAgent.GetActivityFilterAsync
+- uid: SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilterAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilterAsync(System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IArchiveAgent
   isExternal: true
   href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: CreateDefaultArchiveListResultAsync(CancellationToken)
-  nameWithType: IArchiveAgent.CreateDefaultArchiveListResultAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
+  name: GetActivityFilterAsync(CancellationToken)
+  nameWithType: IArchiveAgent.GetActivityFilterAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilterAsync(System.Threading.CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
-    name: CreateDefaultArchiveListResultAsync
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilterAsync(System.Threading.CancellationToken)
+    name: GetActivityFilterAsync
     isExternal: true
   - name: (
   - uid: System.Threading.CancellationToken
@@ -3263,8 +3275,8 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
-    name: CreateDefaultArchiveListResultAsync
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilterAsync(System.Threading.CancellationToken)
+    name: GetActivityFilterAsync
     isExternal: true
   - name: (
   - uid: System.Threading.CancellationToken
@@ -3280,27 +3292,27 @@ references:
   name: CancellationToken
   nameWithType: CancellationToken
   fullName: System.Threading.CancellationToken
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveListResult}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveListResult}
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ActivityFilter}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ActivityFilter}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
   href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<ArchiveListResult>
-  nameWithType: Task<ArchiveListResult>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ArchiveListResult>
-  nameWithType.vb: Task(Of ArchiveListResult)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ArchiveListResult)
-  name.vb: Task(Of ArchiveListResult)
+  name: Task<ActivityFilter>
+  nameWithType: Task<ActivityFilter>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ActivityFilter>
+  nameWithType.vb: Task(Of ActivityFilter)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ActivityFilter)
+  name.vb: Task(Of ActivityFilter)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - uid: SuperOffice.CRM.Services.ArchiveListResult
-    name: ArchiveListResult
+  - uid: SuperOffice.CRM.Services.ActivityFilter
+    name: ActivityFilter
     isExternal: true
-    href: SuperOffice.CRM.Services.ArchiveListResult.html
+    href: SuperOffice.CRM.Services.ActivityFilter.html
   - name: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
@@ -3310,10 +3322,10 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: SuperOffice.CRM.Services.ArchiveListResult
-    name: ArchiveListResult
+  - uid: SuperOffice.CRM.Services.ActivityFilter
+    name: ActivityFilter
     isExternal: true
-    href: SuperOffice.CRM.Services.ArchiveListResult.html
+    href: SuperOffice.CRM.Services.ActivityFilter.html
   - name: )
 - uid: System.Threading
   commentId: N:System.Threading
@@ -3407,76 +3419,6 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-- uid: SuperOffice.CRM.Services.ArchiveAgent.GetActivityFilterAsync*
-  commentId: Overload:SuperOffice.CRM.Services.ArchiveAgent.GetActivityFilterAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.ArchiveAgent.html#SuperOffice_CRM_Services_ArchiveAgent_GetActivityFilterAsync_System_Threading_CancellationToken_
-  name: GetActivityFilterAsync
-  nameWithType: ArchiveAgent.GetActivityFilterAsync
-  fullName: SuperOffice.CRM.Services.ArchiveAgent.GetActivityFilterAsync
-- uid: SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilterAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilterAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IArchiveAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: GetActivityFilterAsync(CancellationToken)
-  nameWithType: IArchiveAgent.GetActivityFilterAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilterAsync(System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilterAsync(System.Threading.CancellationToken)
-    name: GetActivityFilterAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IArchiveAgent.GetActivityFilterAsync(System.Threading.CancellationToken)
-    name: GetActivityFilterAsync
-    isExternal: true
-  - name: (
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ActivityFilter}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ActivityFilter}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<ActivityFilter>
-  nameWithType: Task<ActivityFilter>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ActivityFilter>
-  nameWithType.vb: Task(Of ActivityFilter)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ActivityFilter)
-  name.vb: Task(Of ActivityFilter)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.ActivityFilter
-    name: ActivityFilter
-    isExternal: true
-    href: SuperOffice.CRM.Services.ActivityFilter.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.ActivityFilter
-    name: ActivityFilter
-    isExternal: true
-    href: SuperOffice.CRM.Services.ActivityFilter.html
-  - name: )
 - uid: SuperOffice.CRM.Services.ArchiveAgent.SetActivityFilterAsync*
   commentId: Overload:SuperOffice.CRM.Services.ArchiveAgent.SetActivityFilterAsync
   isExternal: true
@@ -5261,6 +5203,41 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveListResult}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ArchiveListResult}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ArchiveListResult>
+  nameWithType: Task<ArchiveListResult>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ArchiveListResult>
+  nameWithType.vb: Task(Of ArchiveListResult)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ArchiveListResult)
+  name.vb: Task(Of ArchiveListResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.ArchiveListResult
+    name: ArchiveListResult
+    isExternal: true
+    href: SuperOffice.CRM.Services.ArchiveListResult.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.ArchiveListResult
+    name: ArchiveListResult
+    isExternal: true
+    href: SuperOffice.CRM.Services.ArchiveListResult.html
+  - name: )
 - uid: SuperOffice.CRM.Services.ArchiveAgent.GetProviderNamesAsync*
   commentId: Overload:SuperOffice.CRM.Services.ArchiveAgent.GetProviderNamesAsync
   isExternal: true
@@ -6681,6 +6658,41 @@ references:
     name: ExportArchiveResult
     isExternal: true
     href: SuperOffice.CRM.Services.ExportArchiveResult.html
+  - name: )
+- uid: SuperOffice.CRM.Services.ArchiveAgent.CreateDefaultArchiveListResultAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ArchiveAgent.CreateDefaultArchiveListResultAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ArchiveAgent.html#SuperOffice_CRM_Services_ArchiveAgent_CreateDefaultArchiveListResultAsync_System_Threading_CancellationToken_
+  name: CreateDefaultArchiveListResultAsync
+  nameWithType: ArchiveAgent.CreateDefaultArchiveListResultAsync
+  fullName: SuperOffice.CRM.Services.ArchiveAgent.CreateDefaultArchiveListResultAsync
+- uid: SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IArchiveAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultArchiveListResultAsync(CancellationToken)
+  nameWithType: IArchiveAgent.CreateDefaultArchiveListResultAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
+    name: CreateDefaultArchiveListResultAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IArchiveAgent.CreateDefaultArchiveListResultAsync(System.Threading.CancellationToken)
+    name: CreateDefaultArchiveListResultAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
 - uid: SuperOffice.CRM.Services.ArchiveAgent.GetRelatedDataAsync*
   commentId: Overload:SuperOffice.CRM.Services.ArchiveAgent.GetRelatedDataAsync

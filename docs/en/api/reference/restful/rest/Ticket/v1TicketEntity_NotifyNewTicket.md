@@ -2,6 +2,7 @@
 title: POST Ticket/{id}/NotifyNewTicket
 uid: v1TicketEntity_NotifyNewTicket
 generated: true
+content_type: reference
 ---
 
 # POST Ticket/{id}/NotifyNewTicket

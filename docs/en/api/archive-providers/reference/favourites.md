@@ -3,9 +3,9 @@ uid: Favourites
 title: Favourites
 description: Archive provider for the list of favourites
 keywords: Favourites archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "Favourites"
@@ -868,6 +868,12 @@ Archive provider for the list of favourites
 |ownedBy/personEmail| *None* |Owner - E-mail|  |
 |ownedBy/locationAddress| *None* |Owner - Location: Location|  |
 |ownedBy/isLocation| *None* |Owner - Is a location: Is a location|  |
+|ticketStatus/ticketStatusId| *None* |Status - ID: Displays request status ID|  |
+|ticketStatus/name| *None* |Status - Name: Displays the name of the request status|  |
+|ticketStatus/rank| *None* |Status - Status rank: Sort order of the status in the ticket status list|  |
+|ticketPriority/ticketPriorityId| *None* |Priority - ID: Displays the ID of the priority|  |
+|ticketPriority/name| *None* |Priority - Name: Displays the name of the priority|  |
+|ticketPriority/rank| *None* |Priority - Priority rank: Sort order of priority in the priority list|  |
 |extra/x\_ticket\_integer| *None* |Extra integer: Custom ticket integer. Default 123. External. Show in properties|  |
 |extra/x\_ticket\_float| *None* |Extra float: Custom float on Request. 2 decimal places|  |
 |extra/x\_ticket\_longtext| *None* |Extra long text: Custom long text on Request. Keep HTML tags. 9 line text area. Show in props|  |
@@ -888,7 +894,7 @@ Archive provider for the list of favourites
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=name,postAddress/addressId,streetAddress/wgs84longitude,personPager/description,project/projectEvent/hasSignOn
+GET /api/v1/archive/Favourites?$select=who,personExtra/x_person_float,project/imageThumbnail,project/NumberOfNotCompletedActivities,project/NumberOfSalesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

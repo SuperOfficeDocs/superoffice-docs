@@ -2,6 +2,7 @@
 title: POST Agents/Webhook/GetWebhook
 uid: v1WebhookAgent_GetWebhook
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Webhook/GetWebhook
@@ -24,11 +25,11 @@ Gets a Webhook object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| webhookId | int32 | **Required** The primary key. |
+| webhookId | int32 | **Required** The identifier of the Webhook object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Webhook/GetWebhook?webhookId=992
+POST /api/v1/Agents/Webhook/GetWebhook?webhookId=169
 POST /api/v1/Agents/Webhook/GetWebhook?$select=name,department,category/id
 ```
 
@@ -90,27 +91,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 437,
-  "Name": "Wisoky-Mohr",
+  "WebhookId": 574,
+  "Name": "Gleichner Group",
   "Events": [
-    "qui",
-    "doloremque"
+    "vel",
+    "optio"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "molestias",
+  "Secret": "id",
   "State": "Active",
-  "Type": "ipsa",
+  "Type": "nihil",
   "Headers": {
-    "Headers1": "accusamus",
-    "Headers2": "consequuntur"
+    "Headers1": "dolorem",
+    "Headers2": "maxime"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2015-12-03T03:45:24.2173078+01:00",
+  "Registered": "2004-04-29T03:46:55.6444757+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2014-06-27T03:45:24.2173078+02:00",
+  "Updated": "2023-10-12T03:46:55.6444757+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "delilah@grantlehner.com"
+  "ErrorsEmail": "jovany@rathrosenbaum.biz"
 }
 ```

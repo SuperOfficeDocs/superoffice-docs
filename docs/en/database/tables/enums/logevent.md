@@ -2,10 +2,10 @@
 uid: enum-logevent
 title: Enum values for LogEvent
 description: Lists the enum values for LogEvent.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # LogEvent Enum

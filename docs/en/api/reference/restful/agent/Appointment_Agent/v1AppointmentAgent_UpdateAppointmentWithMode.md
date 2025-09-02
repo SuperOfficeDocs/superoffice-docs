@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/UpdateAppointmentWithMode
 uid: v1AppointmentAgent_UpdateAppointmentWithMode
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/UpdateAppointmentWithMode
@@ -118,6 +119,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -132,16 +134,16 @@ OK
 POST /api/v1/Agents/Appointment/UpdateAppointmentWithMode
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 471,
-  "StartTime": "2014-02-06T03:45:22.7017267+01:00",
-  "EndTime": "2003-11-21T03:45:22.7017267+01:00",
+  "Id": 456,
+  "StartTime": "2013-01-31T03:46:54.0039095+01:00",
+  "EndTime": "2010-05-12T03:46:54.0039095+02:00",
   "Status": "Assignment",
   "Type": "BookingForChecklist",
-  "AssociateId": 533,
+  "AssociateId": 624,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -153,66 +155,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 64,
-  "StartDate": "2016-06-29T03:45:22.7017267+02:00",
-  "EndDate": "2018-06-01T03:45:22.7017267+02:00",
+  "AppointmentId": 746,
+  "StartDate": "2022-09-12T03:46:54.0039095+02:00",
+  "EndDate": "2001-08-19T03:46:54.0039095+02:00",
   "Type": "BookingForChecklist",
-  "Task": "sunt",
-  "AssociateFullName": "Mrs. Mariana Kathlyn Hessel",
-  "ContactName": "Ondricka Group",
-  "Description": "Universal systematic encoding",
-  "PersonFullName": "Tom Volkman",
-  "PersonId": 885,
-  "ContactId": 625,
-  "ProjectId": 991,
-  "ProjectName": "Gutmann LLC",
+  "Task": "deleniti",
+  "AssociateFullName": "Adalberto Eugene Muller MD",
+  "ContactName": "O'Hara, Hayes and Strosin",
+  "Description": "Customizable user-facing framework",
+  "PersonFullName": "Mrs. Okey O'Connell",
+  "PersonId": 746,
+  "ContactId": 953,
+  "ProjectId": 385,
+  "ProjectName": "Veum, Sipes and Eichmann",
   "IsPublished": false,
-  "AssociateId": 687,
-  "ColorIndex": 985,
-  "IsFree": false,
-  "HasAlarm": false,
-  "IsAlldayEvent": false,
+  "AssociateId": 373,
+  "ColorIndex": 219,
+  "IsFree": true,
+  "HasAlarm": true,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 471,
-  "PriorityName": "Ernser, Hartmann and Douglas",
+  "PriorityId": 706,
+  "PriorityName": "Shields Inc and Sons",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": true,
+  "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2017-09-25T03:45:22.7017267+02:00",
+  "ActiveDate": "2011-11-30T03:46:54.0039095+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2025-02-02T03:45:22.7017267+01:00",
-  "RecurringEndDate": "2007-04-10T03:45:22.7017267+02:00",
-  "MotherId": 289,
-  "AssignedBy": 535,
-  "AssignedByFullName": "Miss Tania Altenwerth I",
+  "RecurringStartDate": "2022-05-01T03:46:54.0039095+02:00",
+  "RecurringEndDate": "2016-07-23T03:46:54.0039095+02:00",
+  "MotherId": 499,
+  "AssignedBy": 497,
+  "AssignedByFullName": "Jordan Altenwerth",
   "RejectReason": "",
-  "Location": "vitae",
-  "AlarmLeadTime": "molestiae",
-  "SaleId": 870,
-  "SaleName": "Bechtelar, Pouros and Dare",
-  "AssociateName": "Funk-Johns",
-  "CreatedDate": "1998-11-25T03:45:22.7017267+01:00",
-  "CreatedBy": "voluptatibus",
-  "CreatedByFullName": "Brady Cummerata",
-  "CreatedByAssociateId": 145,
+  "Location": "deserunt",
+  "AlarmLeadTime": "voluptatem",
+  "SaleId": 396,
+  "SaleName": "Stokes Inc and Sons",
+  "AssociateName": "Glover Inc and Sons",
+  "CreatedDate": "2004-07-29T03:46:54.0039095+02:00",
+  "CreatedBy": "aut",
+  "CreatedByFullName": "Miss Filiberto Bode IV",
+  "CreatedByAssociateId": 725,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
+  "MotherAssociateId": 655,
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 217,
-  "Title": "magni",
-  "Agenda": "animi",
-  "InternalNotes": "ratione",
+  "PreferredTZLocation": 735,
+  "Title": "qui",
+  "Agenda": "fugiat",
+  "InternalNotes": "aliquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 976
+      "FieldType": "System.Int32",
+      "FieldLength": 376
     }
   }
 }

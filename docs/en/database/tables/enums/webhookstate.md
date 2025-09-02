@@ -2,10 +2,10 @@
 uid: enum-webhookstate
 title: Enum values for WebhookState
 description: Lists the enum values for WebhookState.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # WebhookState Enum

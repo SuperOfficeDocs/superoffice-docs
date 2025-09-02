@@ -2,6 +2,7 @@
 title: POST Agents/Sale/SaveSaleEntity
 uid: v1SaleAgent_SaveSaleEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/SaveSaleEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Sale/SaveSaleEntity
 ```
 
-Updates the existing SaleEntity or creates a new SaleEntity if the id parameter is empty
+Updates the existing SaleEntity or creates a new SaleEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing SaleEntity or creates a new SaleEntity if the id parameter 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: saleEntity 
 
-The SaleEntity to be saved. 
+The SaleEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -149,7 +150,7 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -159,7 +160,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "architecto",
+  "SaleText": "maiores",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -168,90 +169,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2005-06-14T03:45:23.8579437+02:00",
-  "Amount": 29490.94,
-  "SaleId": 720,
-  "Earning": 2272.15,
-  "EarningPercent": 15083.942,
-  "Heading": "perspiciatis",
-  "Number": "886666",
-  "Probability": 850,
-  "CreatedDate": "2006-04-16T03:45:23.8579437+02:00",
-  "UpdatedDate": "2012-11-19T03:45:23.8579437+01:00",
+  "Saledate": "2002-09-27T03:46:55.2538645+02:00",
+  "Amount": 8386.5839999999989,
+  "SaleId": 564,
+  "Earning": 26338.136,
+  "EarningPercent": 22865.664,
+  "Heading": "unde",
+  "Number": "767804",
+  "Probability": 721,
+  "CreatedDate": "2000-04-10T03:46:55.2538645+02:00",
+  "UpdatedDate": "2024-02-02T03:46:55.2538645+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 402,
+  "ActiveLinks": 692,
   "Links": [
     {
-      "EntityName": "Balistreri Inc and Sons",
-      "Id": 159,
-      "Description": "Extended executive solution",
-      "ExtraInfo": "omnis",
-      "LinkId": 196
+      "EntityName": "Ziemann-Moen",
+      "Id": 78,
+      "Description": "Re-engineered grid-enabled migration",
+      "ExtraInfo": "voluptatem",
+      "LinkId": 815
     },
     {
-      "EntityName": "Balistreri Inc and Sons",
-      "Id": 159,
-      "Description": "Extended executive solution",
-      "ExtraInfo": "omnis",
-      "LinkId": 196
+      "EntityName": "Ziemann-Moen",
+      "Id": 78,
+      "Description": "Re-engineered grid-enabled migration",
+      "ExtraInfo": "voluptatem",
+      "LinkId": 815
     }
   ],
-  "NextDueDate": "2013-05-04T03:45:23.8579437+02:00",
-  "Postit": "ut",
+  "NextDueDate": "2023-06-30T03:46:55.2538645+02:00",
+  "Postit": "sit",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2014-11-10T03:45:23.8579437+01:00",
+  "ReopenDate": "2007-12-05T03:46:55.2538645+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Yost, Schowalter and Kulas",
-      "Comment": "possimus",
-      "StakeholderRoleId": 492,
-      "CountryId": 228,
-      "PersonId": 643,
-      "EmailDescription": "winston@schamberger.info",
-      "EmailId": 34,
-      "EmailAddress": "sabryna@blanda.info",
-      "PhoneId": 183,
-      "ContactName": "Mraz Inc and Sons",
-      "ContactId": 732,
-      "SaleId": 719,
-      "Mrmrs": "animi",
-      "Firstname": "Barbara",
-      "MiddleName": "Armstrong LLC",
-      "Lastname": "Aufderhar",
-      "SaleStakeholderId": 819,
-      "Rank": 128,
-      "Phone": "969.376.0344"
+      "StakeholderRoleName": "Kerluke Group",
+      "Comment": "unde",
+      "StakeholderRoleId": 656,
+      "CountryId": 469,
+      "PersonId": 724,
+      "EmailDescription": "derrick.crona@greenholt.uk",
+      "EmailId": 882,
+      "EmailAddress": "annamae.purdy@schustervonrueden.co.uk",
+      "PhoneId": 134,
+      "ContactName": "Kuhn, Tillman and Cronin",
+      "ContactId": 261,
+      "SaleId": 403,
+      "Mrmrs": "eaque",
+      "Firstname": "Brown",
+      "MiddleName": "Lehner, McKenzie and Legros",
+      "Lastname": "Davis",
+      "SaleStakeholderId": 435,
+      "Rank": 557,
+      "Phone": "964-498-5722"
     }
   ],
-  "ActiveErpLinks": 836,
+  "ActiveErpLinks": 502,
   "UserDefinedFields": {
-    "SuperOffice:1": "170758731",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "1369531858",
+    "SuperOffice:2": "Zoila Doyle"
   },
   "ExtraFields": {
-    "ExtraFields1": "architecto",
-    "ExtraFields2": "recusandae"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "officia",
-    "CustomFields2": "maxime"
+    "CustomFields1": "sed",
+    "CustomFields2": "corporis"
   },
-  "PublishEventDate": "2019-09-23T03:45:23.8579437+02:00",
-  "PublishTo": "2017-07-14T03:45:23.8579437+02:00",
-  "PublishFrom": "1998-09-28T03:45:23.8579437+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2008-03-04T03:46:55.2538645+01:00",
+  "PublishTo": "2000-10-07T03:46:55.2538645+02:00",
+  "PublishFrom": "2021-07-25T03:46:55.2538645+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 861,
+      "VisibleId": 59,
       "Visibility": "All",
-      "DisplayValue": "excepturi"
+      "DisplayValue": "et"
     },
     {
-      "VisibleId": 861,
+      "VisibleId": 59,
       "Visibility": "All",
-      "DisplayValue": "excepturi"
+      "DisplayValue": "et"
     }
   ]
 }
@@ -270,7 +271,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "amet",
+  "SaleText": "mollitia",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -279,113 +280,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2024-04-26T03:45:23.8579437+02:00",
-  "Amount": 12351.094,
-  "SaleId": 753,
-  "Earning": 29290.363999999998,
-  "EarningPercent": 21398.951999999997,
-  "Heading": "consequatur",
-  "Number": "1019120",
-  "Probability": 935,
-  "CreatedDate": "2000-07-17T03:45:23.8579437+02:00",
-  "UpdatedDate": "2024-11-01T03:45:23.8579437+01:00",
+  "Saledate": "2023-04-24T03:46:55.2538645+02:00",
+  "Amount": 14767.408,
+  "SaleId": 37,
+  "Earning": 7787.99,
+  "EarningPercent": 5086.482,
+  "Heading": "sunt",
+  "Number": "355760",
+  "Probability": 992,
+  "CreatedDate": "2010-04-14T03:46:55.2538645+02:00",
+  "UpdatedDate": "2006-01-26T03:46:55.2538645+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 359,
+  "ActiveLinks": 119,
   "Links": [
     {
-      "EntityName": "Hoppe-Grimes",
-      "Id": 11,
-      "Description": "Object-based global conglomeration",
-      "ExtraInfo": "maxime",
-      "LinkId": 453,
+      "EntityName": "McGlynn Group",
+      "Id": 648,
+      "Description": "Diverse multi-tasking model",
+      "ExtraInfo": "exercitationem",
+      "LinkId": 377,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 962
+          "FieldType": "System.Int32",
+          "FieldLength": 944
         }
       }
     }
   ],
-  "NextDueDate": "2003-06-09T03:45:23.8579437+02:00",
-  "Postit": "tempore",
+  "NextDueDate": "2008-04-21T03:46:55.2538645+02:00",
+  "Postit": "velit",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2025-06-03T03:45:23.8579437+02:00",
+  "ReopenDate": "2019-12-02T03:46:55.2538645+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Schroeder-O'Kon",
-      "Comment": "molestias",
-      "StakeholderRoleId": 454,
-      "CountryId": 687,
-      "PersonId": 519,
-      "EmailDescription": "vernie@volkmanschmeler.biz",
-      "EmailId": 387,
-      "EmailAddress": "willis_hahn@boyle.biz",
-      "PhoneId": 74,
-      "ContactName": "Padberg, Stroman and Prohaska",
-      "ContactId": 784,
-      "SaleId": 985,
-      "Mrmrs": "reiciendis",
-      "Firstname": "Roberta",
-      "MiddleName": "Towne Group",
-      "Lastname": "Feil",
-      "SaleStakeholderId": 557,
-      "Rank": 350,
-      "Phone": "1-268-503-3101 x47076",
+      "StakeholderRoleName": "Wuckert, Doyle and Littel",
+      "Comment": "quo",
+      "StakeholderRoleId": 972,
+      "CountryId": 1001,
+      "PersonId": 133,
+      "EmailDescription": "modesta@wiegandbaumbach.name",
+      "EmailId": 520,
+      "EmailAddress": "fatima_mann@schadenlemke.ca",
+      "PhoneId": 901,
+      "ContactName": "Marks-Boyer",
+      "ContactId": 432,
+      "SaleId": 909,
+      "Mrmrs": "est",
+      "Firstname": "Waldo",
+      "MiddleName": "Jenkins-Hickle",
+      "Lastname": "Harris",
+      "SaleStakeholderId": 550,
+      "Rank": 58,
+      "Phone": "1-790-980-7273",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 184
+          "FieldType": "System.Int32",
+          "FieldLength": 546
         }
       }
     }
   ],
-  "ActiveErpLinks": 30,
+  "ActiveErpLinks": 544,
   "UserDefinedFields": {
-    "SuperOffice:1": "Shirley Wisoky",
-    "SuperOffice:2": "Oleta Jakubowski"
+    "SuperOffice:1": "Prof. Naomi Trisha Tromp",
+    "SuperOffice:2": "Prof. Aniya Nicolas"
   },
   "ExtraFields": {
-    "ExtraFields1": "inventore",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "architecto",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "accusantium",
-    "CustomFields2": "repellat"
+    "CustomFields1": "sint",
+    "CustomFields2": "iste"
   },
-  "PublishEventDate": "2002-09-28T03:45:23.8579437+02:00",
-  "PublishTo": "2004-10-11T03:45:23.8579437+02:00",
-  "PublishFrom": "2017-07-14T03:45:23.8579437+02:00",
+  "PublishEventDate": "2000-02-08T03:46:55.2538645+01:00",
+  "PublishTo": "2006-03-28T03:46:55.2538645+02:00",
+  "PublishFrom": "2004-11-19T03:46:55.2538645+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 955,
+      "VisibleId": 644,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 364
+          "FieldType": "System.Int32",
+          "FieldLength": 695
         }
       }
     },
     {
-      "VisibleId": 955,
+      "VisibleId": 644,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 364
+          "FieldType": "System.Int32",
+          "FieldLength": 695
         }
       }
     }
@@ -394,8 +395,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 599
+      "FieldType": "System.String",
+      "FieldLength": 341
     }
   }
 }

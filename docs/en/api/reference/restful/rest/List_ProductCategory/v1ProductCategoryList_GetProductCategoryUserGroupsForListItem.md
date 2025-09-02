@@ -2,6 +2,7 @@
 title: GET List/ProductCategory/Items/{id}/UserGroups
 uid: v1ProductCategoryList_GetProductCategoryUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/ProductCategory/Items/{id}/UserGroups
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 427,
-    "Name": "Gutmann-Murray",
-    "ToolTip": "Molestiae consectetur illum expedita in tempora odit sunt.",
-    "Deleted": true,
-    "Rank": 346,
-    "Type": "omnis",
-    "ColorBlock": 855,
-    "IconHint": "reiciendis",
-    "Selected": false,
-    "LastChanged": "2006-09-20T03:45:29.1549343+02:00",
+    "Id": 835,
+    "Name": "Ferry, Luettgen and Jakubowski",
+    "ToolTip": "At nesciunt necessitatibus sed.",
+    "Deleted": false,
+    "Rank": 484,
+    "Type": "possimus",
+    "ColorBlock": 335,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "2000-01-17T03:47:00.7224209+01:00",
     "ChildItems": [
       {
-        "Id": 888,
-        "Name": "Considine-Williamson",
-        "ToolTip": "Rerum alias dolores autem dolorem qui.",
+        "Id": 643,
+        "Name": "Sanford, Koch and Lesch",
+        "ToolTip": "Et quasi.",
         "Deleted": false,
-        "Rank": 665,
-        "Type": "consequuntur",
-        "ColorBlock": 810,
-        "IconHint": "aut",
+        "Rank": 631,
+        "Type": "maxime",
+        "ColorBlock": 505,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2002-01-11T03:45:29.1549343+01:00",
+        "LastChanged": "2009-10-04T03:47:00.7224209+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "molestiae",
-        "Hidden": true,
-        "FullName": "Tatum Treutel",
+        "ExtraInfo": "aut",
+        "StyleHint": "consequatur",
+        "Hidden": false,
+        "FullName": "Elna Hilll II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 136
+            "FieldLength": 515
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "temporibus",
-    "Hidden": true,
-    "FullName": "Dr. Herminia Kody Bailey Sr.",
+    "ExtraInfo": "ut",
+    "StyleHint": "omnis",
+    "Hidden": false,
+    "FullName": "Adriel Carter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 586
+        "FieldType": "System.Int32",
+        "FieldLength": 173
       }
     }
   }

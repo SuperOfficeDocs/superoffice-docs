@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/UpdateTicketsReadStatusByProvider
 uid: v1TicketAgent_UpdateTicketsReadStatusByProvider
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/UpdateTicketsReadStatusByProvider
@@ -74,18 +75,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "voluptatem",
+  "Provider": "atque",
   "Restrictions": [
     {
-      "Name": "McLaughlin, Nolan and Smitham",
-      "Operator": "rem",
+      "Name": "Koss, Hoeger and Langworth",
+      "Operator": "possimus",
       "Values": [
-        "quo",
-        "est"
+        "ut",
+        "dolores"
       ],
       "DisplayValues": [
-        "eius",
-        "ea"
+        "nihil",
+        "a"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 763,
+      "InterParenthesis": 749,
       "InterOperator": "And",
-      "UniqueHash": 912
+      "UniqueHash": 130
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +110,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  711,
-  580
+  44,
+  487
 ]
 ```

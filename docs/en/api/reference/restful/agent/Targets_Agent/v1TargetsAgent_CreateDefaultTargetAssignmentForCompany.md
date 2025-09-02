@@ -2,6 +2,7 @@
 title: POST Agents/Targets/CreateDefaultTargetAssignmentForCompany
 uid: v1TargetsAgent_CreateDefaultTargetAssignmentForCompany
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Targets/CreateDefaultTargetAssignmentForCompany
@@ -73,7 +74,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompany
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,24 +84,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 371,
+  "TargetAssignmentInfoId": 755,
   "Values": [
-    822,
-    910
+    498,
+    585
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 893,
-  "DimensionListItemDisplayName": "Waters, Little and Batz",
+  "DimensionListItem": 288,
+  "DimensionListItemDisplayName": "VonRueden LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 165
+      "FieldLength": 35
     }
   }
 }

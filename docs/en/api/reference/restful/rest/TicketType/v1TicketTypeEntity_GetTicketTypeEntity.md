@@ -2,6 +2,7 @@
 title: GET TicketType/{id}
 uid: v1TicketTypeEntity_GetTicketTypeEntity
 generated: true
+content_type: reference
 ---
 
 # GET TicketType/{id}
@@ -101,31 +102,31 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 957,
-  "Name": "Jacobi-Hyatt",
-  "Rank": 821,
-  "Tooltip": "et",
-  "Icon": "id",
-  "DefaultTicketStatus": 135,
+  "TicketTypeId": 167,
+  "Name": "Schowalter, Osinski and Mohr",
+  "Rank": 979,
+  "Tooltip": "nemo",
+  "Icon": "aut",
+  "DefaultTicketStatus": 401,
   "TicketStatuses": [
-    520,
-    727
+    697,
+    215
   ],
-  "DefaultTicketPriority": 95,
+  "DefaultTicketPriority": 600,
   "TicketPriorities": [
-    691,
-    819
+    132,
+    972
   ],
-  "ReplyTemplate": 2,
-  "IsExternalVisible": true,
-  "IsDefault": false,
+  "ReplyTemplate": 226,
+  "IsExternalVisible": false,
+  "IsDefault": true,
   "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    89,
-    462
+    762,
+    875
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": true,
@@ -134,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldLength": 794
     }
   },
   "_Links": {

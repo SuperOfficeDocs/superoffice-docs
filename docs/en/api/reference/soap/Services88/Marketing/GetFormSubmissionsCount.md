@@ -2,6 +2,7 @@
 title: Services88.MarketingAgent.GetFormSubmissionsCount SOAP
 generated: true
 uid: Services88-Marketing-GetFormSubmissionsCount
+content_type: reference
 ---
 
 # Services88 Marketing GetFormSubmissionsCount

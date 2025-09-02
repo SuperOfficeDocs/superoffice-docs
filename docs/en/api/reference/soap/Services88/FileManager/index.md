@@ -2,6 +2,7 @@
 title: Services88.FileManagerAgent SOAP
 uid: Services88-FileManager-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 FileManager SOAP

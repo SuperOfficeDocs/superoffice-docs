@@ -1,6 +1,8 @@
 ---
+uid: tag-List_DeliveryType
 title: List_DeliveryType
 generated: true
+content_type: reference
 ---
 
 ```http

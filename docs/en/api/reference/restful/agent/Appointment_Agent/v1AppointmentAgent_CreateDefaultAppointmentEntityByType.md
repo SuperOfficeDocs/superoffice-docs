@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/CreateDefaultAppointmentEntityByType
 uid: v1AppointmentAgent_CreateDefaultAppointmentEntityByType
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/CreateDefaultAppointmentEntityByType
@@ -132,7 +133,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -151,121 +152,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2008-06-10T03:45:22.7642247+02:00",
-  "AppointmentId": 998,
-  "Description": "Multi-lateral local collaboration",
-  "Title": "ullam",
-  "Agenda": "voluptatibus",
-  "InternalNotes": "libero",
-  "StartDate": "1999-04-27T03:45:22.7642247+02:00",
-  "EndDate": "1998-10-30T03:45:22.7642247+01:00",
+  "CreatedDate": "2017-07-29T03:46:54.0664078+02:00",
+  "AppointmentId": 605,
+  "Description": "Devolved modular moderator",
+  "Title": "at",
+  "Agenda": "et",
+  "InternalNotes": "dolor",
+  "StartDate": "2006-04-25T03:46:54.0664078+02:00",
+  "EndDate": "2007-08-21T03:46:54.0664078+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 384,
+  "MotherId": 602,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2021-04-18T03:45:22.7642247+02:00",
+  "UpdatedDate": "2014-02-23T03:46:54.0664078+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 50,
+  "ActiveLinks": 518,
   "Links": [
     {
-      "EntityName": "Stamm-Bernier",
-      "Id": 8,
-      "Description": "Total assymetric workforce",
-      "ExtraInfo": "sequi",
-      "LinkId": 1002,
+      "EntityName": "Aufderhar-Schmeler",
+      "Id": 357,
+      "Description": "Versatile well-modulated archive",
+      "ExtraInfo": "quo",
+      "LinkId": 769,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 117
+          "FieldType": "System.Int32",
+          "FieldLength": 303
         }
       }
     }
   ],
-  "AlarmLeadTime": "rerum",
-  "HasAlarm": true,
-  "ColorIndex": 129,
+  "AlarmLeadTime": "et",
+  "HasAlarm": false,
+  "ColorIndex": 915,
   "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "non",
-  "LeadTime": "in",
-  "Location": "dolore",
-  "RejectCounter": 144,
+  "LagTime": "nihil",
+  "LeadTime": "expedita",
+  "Location": "modi",
+  "RejectCounter": 927,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 389,
-      "PersonId": 548,
-      "ContactId": 402,
-      "EmailId": 917,
+      "AssociateId": 78,
+      "PersonId": 729,
+      "ContactId": 585,
+      "EmailId": 510,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "krystal_fritsch@rogahn.uk",
-      "Description": "Phased bottom-line open system"
+      "EmailAddress": "candice.jaskolski@russel.name",
+      "Description": "Open-architected encompassing projection"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2004-02-05T03:45:22.7642247+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2000-04-02T03:46:54.0664078+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 310,
+  "PreferredTZLocation": 446,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 923,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 904,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quidem",
+  "CentralserviceVideomeetId": "consequatur",
   "UserDefinedFields": {
-    "SuperOffice:1": "1128032176",
-    "SuperOffice:2": "Addison Bogisich"
+    "SuperOffice:1": "Jett Vicenta Moen DDS",
+    "SuperOffice:2": "Shanna Connelly"
   },
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "nostrum",
+    "ExtraFields2": "occaecati"
   },
   "CustomFields": {
-    "CustomFields1": "repellat",
-    "CustomFields2": "iure"
+    "CustomFields1": "et",
+    "CustomFields2": "iusto"
   },
-  "PublishEventDate": "2018-01-18T03:45:22.7642247+01:00",
-  "PublishTo": "2000-01-31T03:45:22.7642247+01:00",
-  "PublishFrom": "2021-03-15T03:45:22.7642247+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2012-06-18T03:46:54.0820313+02:00",
+  "PublishTo": "2014-02-22T03:46:54.0820313+01:00",
+  "PublishFrom": "2008-05-29T03:46:54.0820313+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 66,
+      "VisibleId": 663,
       "Visibility": "All",
-      "DisplayValue": "labore",
+      "DisplayValue": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 631
+          "FieldLength": 39
         }
       }
     },
     {
-      "VisibleId": 66,
+      "VisibleId": 663,
       "Visibility": "All",
-      "DisplayValue": "labore",
+      "DisplayValue": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 631
+          "FieldLength": 39
         }
       }
     }
@@ -274,8 +275,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 306
+      "FieldType": "System.Int32",
+      "FieldLength": 82
     }
   }
 }

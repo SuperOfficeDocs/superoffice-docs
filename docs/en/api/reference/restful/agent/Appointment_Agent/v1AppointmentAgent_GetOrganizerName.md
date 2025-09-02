@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetOrganizerName
 uid: v1AppointmentAgent_GetOrganizerName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetOrganizerName
@@ -68,11 +69,11 @@ OK
 POST /api/v1/Agents/Appointment/GetOrganizerName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherAppointmentId": 232
+  "MotherAppointmentId": 563
 }
 ```
 
@@ -82,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Dibbert Group"
+"Yost, Trantow and Nolan"
 ```

@@ -2,6 +2,7 @@
 title: Services88.DiagnosticsAgent.GetCacheState SOAP
 generated: true
 uid: Services88-Diagnostics-GetCacheState
+content_type: reference
 ---
 
 # Services88 Diagnostics GetCacheState

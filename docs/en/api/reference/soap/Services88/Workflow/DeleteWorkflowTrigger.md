@@ -2,6 +2,7 @@
 title: Services88.WorkflowAgent.DeleteWorkflowTrigger SOAP
 generated: true
 uid: Services88-Workflow-DeleteWorkflowTrigger
+content_type: reference
 ---
 
 # Services88 Workflow DeleteWorkflowTrigger

@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetPersonAppointmentsByTaskHeading
 uid: v1AppointmentAgent_GetPersonAppointmentsByTaskHeading
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetPersonAppointmentsByTaskHeading
@@ -119,6 +120,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -133,16 +135,16 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 63,
-  "IncludeProjectAppointments": true,
-  "StartTime": "2020-03-06T03:45:22.6861022+01:00",
-  "EndTime": "2010-05-25T03:45:22.6861022+02:00",
-  "Count": 372,
-  "TaskHeadingId": 250
+  "PersonId": 423,
+  "IncludeProjectAppointments": false,
+  "StartTime": "2014-11-01T03:46:53.9882851+01:00",
+  "EndTime": "2006-01-11T03:46:53.9882851+01:00",
+  "Count": 72,
+  "TaskHeadingId": 989
 }
 ```
 
@@ -154,66 +156,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 765,
-    "StartDate": "2016-01-10T03:45:22.6861022+01:00",
-    "EndDate": "2019-08-22T03:45:22.6861022+02:00",
+    "AppointmentId": 908,
+    "StartDate": "2005-04-26T03:46:53.9882851+02:00",
+    "EndDate": "2020-10-31T03:46:53.9882851+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ipsam",
-    "AssociateFullName": "Prof. Nikolas Roberto Reichel I",
-    "ContactName": "Howe, Luettgen and Cummerata",
-    "Description": "Total responsive infrastructure",
-    "PersonFullName": "Annalise Kshlerin",
-    "PersonId": 336,
-    "ContactId": 537,
-    "ProjectId": 105,
-    "ProjectName": "Parisian LLC",
+    "Task": "nihil",
+    "AssociateFullName": "Samanta Jenkins",
+    "ContactName": "Heaney, Blick and Stroman",
+    "Description": "Automated scalable hierarchy",
+    "PersonFullName": "Kailee Johns",
+    "PersonId": 827,
+    "ContactId": 337,
+    "ProjectId": 923,
+    "ProjectName": "Pollich, Ferry and Prohaska",
     "IsPublished": true,
-    "AssociateId": 507,
-    "ColorIndex": 354,
-    "IsFree": true,
-    "HasAlarm": true,
+    "AssociateId": 13,
+    "ColorIndex": 644,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 979,
-    "PriorityName": "Koch, Aufderhar and Grady",
+    "PriorityId": 391,
+    "PriorityName": "Grant, Marks and Leffler",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2013-04-04T03:45:22.6861022+02:00",
+    "ActiveDate": "2006-02-02T03:46:53.9882851+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-10-16T03:45:22.6861022+02:00",
-    "RecurringEndDate": "2015-12-15T03:45:22.6861022+01:00",
-    "MotherId": 370,
-    "AssignedBy": 41,
-    "AssignedByFullName": "Peyton Friesen",
-    "RejectReason": "",
-    "Location": "dolorum",
-    "AlarmLeadTime": "voluptate",
-    "SaleId": 103,
-    "SaleName": "Schuster-Mayer",
-    "AssociateName": "Lakin Group",
-    "CreatedDate": "2015-06-05T03:45:22.6861022+02:00",
-    "CreatedBy": "consectetur",
-    "CreatedByFullName": "Ms. Paolo Mueller II",
-    "CreatedByAssociateId": 331,
+    "RecurringStartDate": "2020-07-01T03:46:53.9882851+02:00",
+    "RecurringEndDate": "2005-12-23T03:46:53.9882851+01:00",
+    "MotherId": 103,
+    "AssignedBy": 350,
+    "AssignedByFullName": "Tressie Alfreda Schuppe IV",
+    "RejectReason": "reintermediate scalable vortals",
+    "Location": "aut",
+    "AlarmLeadTime": "error",
+    "SaleId": 65,
+    "SaleName": "Brakus LLC",
+    "AssociateName": "Mann-Langworth",
+    "CreatedDate": "1998-05-17T03:46:53.9882851+02:00",
+    "CreatedBy": "nisi",
+    "CreatedByFullName": "Prof. Raphael Brody Collier DVM",
+    "CreatedByAssociateId": 528,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 890,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 718,
-    "Title": "ipsam",
-    "Agenda": "dolores",
-    "InternalNotes": "quos",
+    "PreferredTZLocation": 208,
+    "Title": "iusto",
+    "Agenda": "iure",
+    "InternalNotes": "praesentium",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 489
+        "FieldLength": 401
       }
     }
   }

@@ -3,9 +3,9 @@ uid: ListItems
 title: ListItems
 description: Archive provider for the list of ListItems
 keywords: ListItems archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ListItems"
@@ -39,7 +39,7 @@ Archive provider for the list of ListItems
 ## Sample
 
 ```http!
-GET /api/v1/archive/ListItems?$select=listItemsName,listItemsTooltip
+GET /api/v1/archive/ListItems?$select=listItemsTooltip,listItemsName,listItemsTooltip
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

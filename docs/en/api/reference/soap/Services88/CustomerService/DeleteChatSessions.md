@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.DeleteChatSessions SOAP
 generated: true
 uid: Services88-CustomerService-DeleteChatSessions
+content_type: reference
 ---
 
 # Services88 CustomerService DeleteChatSessions

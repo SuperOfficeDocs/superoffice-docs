@@ -2,6 +2,7 @@
 title: GET Project/UdefLayout/Published/{progidOrLabel}
 uid: v1ProjectEntity_GetPublishedUdefFieldInfo
 generated: true
+content_type: reference
 ---
 
 # GET Project/UdefLayout/Published/{progidOrLabel}
@@ -93,7 +94,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +104,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 992,
-  "ColumnId": 868,
-  "FieldDefault": "voluptas",
-  "FieldHeight": 255,
-  "FieldLabel": "voluptate",
-  "FieldLeft": 6,
-  "FieldTop": 338,
+  "UDefFieldId": 54,
+  "ColumnId": 347,
+  "FieldDefault": "quisquam",
+  "FieldHeight": 276,
+  "FieldLabel": "saepe",
+  "FieldLeft": 250,
+  "FieldTop": 552,
   "FieldType": "Checkbox",
-  "FieldWidth": 643,
-  "FormatMask": "ea",
-  "HideLabel": true,
+  "FieldWidth": 174,
+  "FormatMask": "in",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 895,
-  "LabelLeft": 388,
-  "LabelTop": 278,
-  "LabelWidth": 826,
-  "LastVersionId": 12,
-  "ListTableId": 186,
-  "IsMandatory": true,
+  "LabelHeight": 154,
+  "LabelLeft": 472,
+  "LabelTop": 67,
+  "LabelWidth": 104,
+  "LastVersionId": 727,
+  "ListTableId": 373,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 579,
-  "ProgId": "dignissimos",
-  "IsReadOnly": true,
-  "ShortLabel": "ipsum",
-  "TabOrder": 994,
-  "TextLength": 107,
-  "Tooltip": "velit",
-  "UdefIdentity": 614,
-  "UDListDefinitionId": 823,
+  "Page1LineNo": 698,
+  "ProgId": "quidem",
+  "IsReadOnly": false,
+  "ShortLabel": "quaerat",
+  "TabOrder": 81,
+  "TextLength": 450,
+  "Tooltip": "est",
+  "UdefIdentity": 331,
+  "UDListDefinitionId": 719,
   "Justification": "Center",
-  "Version": 818,
-  "TemplateVariableName": "Zieme, Nicolas and Wuckert",
+  "Version": 579,
+  "TemplateVariableName": "Predovic-Pollich",
   "HasBeenPublished": true,
-  "MdoListName": "Hintz-Strosin",
+  "MdoListName": "Ondricka Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 447
+      "FieldLength": 686
     }
   }
 }

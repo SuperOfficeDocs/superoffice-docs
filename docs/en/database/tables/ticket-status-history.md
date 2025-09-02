@@ -2,10 +2,10 @@
 uid: table-ticket_status_history
 title: ticket_status_history table
 description: This table contains the history of a tickets statuses. Each time a ticket changes status a copy of the previous status of the record will be saved 
-so.generated: true
+generated: true
 keywords: database table ticket_status_history
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ticket\_status\_history Table (261)

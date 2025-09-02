@@ -2,6 +2,7 @@
 title: DEL List/ConsentSource/Items/{id}
 uid: v1ConsentSourceList_DeleteConsentSource
 generated: true
+content_type: reference
 ---
 
 # DEL List/ConsentSource/Items/{id}
@@ -52,7 +53,7 @@ No Content
 DELETE /api/v1/List/ConsentSource/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

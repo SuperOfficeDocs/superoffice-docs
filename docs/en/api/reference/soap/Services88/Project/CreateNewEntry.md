@@ -2,6 +2,7 @@
 title: Services88.ProjectAgent.CreateNewEntry SOAP
 generated: true
 uid: Services88-Project-CreateNewEntry
+content_type: reference
 ---
 
 # Services88 Project CreateNewEntry

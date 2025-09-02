@@ -2,10 +2,10 @@
 uid: enum-valueoverride
 title: Enum values for ValueOverride
 description: Lists the enum values for ValueOverride.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ValueOverride Enum

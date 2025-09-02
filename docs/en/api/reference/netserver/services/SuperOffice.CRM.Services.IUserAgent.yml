@@ -150,389 +150,6 @@ items:
       value: User Agent
     - type: System.String
       value: Interface for the User Agent. User administration
-- uid: SuperOffice.CRM.Services.IUserAgent.CreateDefaultRoleEntityAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IUserAgent.CreateDefaultRoleEntityAsync(System.Threading.CancellationToken)
-  id: CreateDefaultRoleEntityAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IUserAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultRoleEntityAsync(CancellationToken)
-  nameWithType: IUserAgent.CreateDefaultRoleEntityAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IUserAgent.CreateDefaultRoleEntityAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new RoleEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-    <p></p>
-
-    <b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
-  example: []
-  syntax:
-    content: Task<RoleEntity> CreateDefaultRoleEntityAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.RoleEntity}
-      description: New RoleEntity with default values
-    content.vb: Function CreateDefaultRoleEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of RoleEntity)
-  overload: SuperOffice.CRM.Services.IUserAgent.CreateDefaultRoleEntityAsync*
-- uid: SuperOffice.CRM.Services.IUserAgent.SaveRoleEntityAsync(SuperOffice.CRM.Services.RoleEntity,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IUserAgent.SaveRoleEntityAsync(SuperOffice.CRM.Services.RoleEntity,System.Threading.CancellationToken)
-  id: SaveRoleEntityAsync(SuperOffice.CRM.Services.RoleEntity,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IUserAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveRoleEntityAsync(RoleEntity, CancellationToken)
-  nameWithType: IUserAgent.SaveRoleEntityAsync(RoleEntity, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IUserAgent.SaveRoleEntityAsync(SuperOffice.CRM.Services.RoleEntity, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Updates the existing RoleEntity or creates a new RoleEntity if the id parameter is empty
-
-    <p></p>
-
-    <b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
-  example: []
-  syntax:
-    content: Task<RoleEntity> SaveRoleEntityAsync(RoleEntity roleEntity, CancellationToken cancellationToken = default)
-    parameters:
-    - id: roleEntity
-      type: SuperOffice.CRM.Services.RoleEntity
-      description: The RoleEntity that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.RoleEntity}
-      description: New or updated RoleEntity
-    content.vb: Function SaveRoleEntityAsync(roleEntity As RoleEntity, cancellationToken As CancellationToken = Nothing) As Task(Of RoleEntity)
-  overload: SuperOffice.CRM.Services.IUserAgent.SaveRoleEntityAsync*
-- uid: SuperOffice.CRM.Services.IUserAgent.CreateDefaultServiceAuthAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IUserAgent.CreateDefaultServiceAuthAsync(System.Threading.CancellationToken)
-  id: CreateDefaultServiceAuthAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IUserAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultServiceAuthAsync(CancellationToken)
-  nameWithType: IUserAgent.CreateDefaultServiceAuthAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IUserAgent.CreateDefaultServiceAuthAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new ServiceAuth.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-    <p></p>
-
-    <b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
-  example: []
-  syntax:
-    content: Task<ServiceAuth> CreateDefaultServiceAuthAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ServiceAuth}
-      description: New ServiceAuth with default values
-    content.vb: Function CreateDefaultServiceAuthAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ServiceAuth)
-  overload: SuperOffice.CRM.Services.IUserAgent.CreateDefaultServiceAuthAsync*
-- uid: SuperOffice.CRM.Services.IUserAgent.SaveServiceAuthAsync(SuperOffice.CRM.Services.ServiceAuth,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IUserAgent.SaveServiceAuthAsync(SuperOffice.CRM.Services.ServiceAuth,System.Threading.CancellationToken)
-  id: SaveServiceAuthAsync(SuperOffice.CRM.Services.ServiceAuth,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IUserAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveServiceAuthAsync(ServiceAuth, CancellationToken)
-  nameWithType: IUserAgent.SaveServiceAuthAsync(ServiceAuth, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IUserAgent.SaveServiceAuthAsync(SuperOffice.CRM.Services.ServiceAuth, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Updates the existing ServiceAuth or creates a new ServiceAuth if the id parameter is empty
-
-    <p></p>
-
-    <b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
-  example: []
-  syntax:
-    content: Task<ServiceAuth> SaveServiceAuthAsync(ServiceAuth serviceAuth, CancellationToken cancellationToken = default)
-    parameters:
-    - id: serviceAuth
-      type: SuperOffice.CRM.Services.ServiceAuth
-      description: The ServiceAuth that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ServiceAuth}
-      description: New or updated ServiceAuth
-    content.vb: Function SaveServiceAuthAsync(serviceAuth As ServiceAuth, cancellationToken As CancellationToken = Nothing) As Task(Of ServiceAuth)
-  overload: SuperOffice.CRM.Services.IUserAgent.SaveServiceAuthAsync*
-- uid: SuperOffice.CRM.Services.IUserAgent.DeleteServiceAuthAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IUserAgent.DeleteServiceAuthAsync(System.Int32,System.Threading.CancellationToken)
-  id: DeleteServiceAuthAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IUserAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteServiceAuthAsync(int, CancellationToken)
-  nameWithType: IUserAgent.DeleteServiceAuthAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IUserAgent.DeleteServiceAuthAsync(int, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Deletes the ServiceAuth
-
-    <p></p>
-
-    <b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
-  example: []
-  syntax:
-    content: Task DeleteServiceAuthAsync(int serviceAuthId, CancellationToken cancellationToken = default)
-    parameters:
-    - id: serviceAuthId
-      type: System.Int32
-      description: The identity of the ServiceAuth
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Function DeleteServiceAuthAsync(serviceAuthId As Integer, cancellationToken As CancellationToken = Nothing) As Task
-  overload: SuperOffice.CRM.Services.IUserAgent.DeleteServiceAuthAsync*
-  nameWithType.vb: IUserAgent.DeleteServiceAuthAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IUserAgent.DeleteServiceAuthAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeleteServiceAuthAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Services.IUserAgent.CreateDefaultUntrustedCredentialsAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IUserAgent.CreateDefaultUntrustedCredentialsAsync(System.Threading.CancellationToken)
-  id: CreateDefaultUntrustedCredentialsAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IUserAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultUntrustedCredentialsAsync(CancellationToken)
-  nameWithType: IUserAgent.CreateDefaultUntrustedCredentialsAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IUserAgent.CreateDefaultUntrustedCredentialsAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new UntrustedCredentials.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-    <p></p>
-
-    <b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
-  example: []
-  syntax:
-    content: Task<UntrustedCredentials> CreateDefaultUntrustedCredentialsAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UntrustedCredentials}
-      description: New UntrustedCredentials with default values
-    content.vb: Function CreateDefaultUntrustedCredentialsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of UntrustedCredentials)
-  overload: SuperOffice.CRM.Services.IUserAgent.CreateDefaultUntrustedCredentialsAsync*
-- uid: SuperOffice.CRM.Services.IUserAgent.CreateDefaultUserAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IUserAgent.CreateDefaultUserAsync(System.Threading.CancellationToken)
-  id: CreateDefaultUserAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IUserAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultUserAsync(CancellationToken)
-  nameWithType: IUserAgent.CreateDefaultUserAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IUserAgent.CreateDefaultUserAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new User.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-
-    <p></p>
-
-    <b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
-  example: []
-  syntax:
-    content: Task<User> CreateDefaultUserAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.User}
-      description: New User with default values
-    content.vb: Function CreateDefaultUserAsync(cancellationToken As CancellationToken = Nothing) As Task(Of User)
-  overload: SuperOffice.CRM.Services.IUserAgent.CreateDefaultUserAsync*
-- uid: SuperOffice.CRM.Services.IUserAgent.SaveUserAsync(SuperOffice.CRM.Services.User,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IUserAgent.SaveUserAsync(SuperOffice.CRM.Services.User,System.Threading.CancellationToken)
-  id: SaveUserAsync(SuperOffice.CRM.Services.User,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IUserAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveUserAsync(User, CancellationToken)
-  nameWithType: IUserAgent.SaveUserAsync(User, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IUserAgent.SaveUserAsync(SuperOffice.CRM.Services.User, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Updates the existing User or creates a new User if the id parameter is empty
-
-    <p></p>
-
-    <b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
-  example: []
-  syntax:
-    content: Task<User> SaveUserAsync(User user, CancellationToken cancellationToken = default)
-    parameters:
-    - id: user
-      type: SuperOffice.CRM.Services.User
-      description: The User that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.User}
-      description: New or updated User
-    content.vb: Function SaveUserAsync(user As User, cancellationToken As CancellationToken = Nothing) As Task(Of User)
-  overload: SuperOffice.CRM.Services.IUserAgent.SaveUserAsync*
-- uid: SuperOffice.CRM.Services.IUserAgent.GetUserCommandsAsync(SuperOffice.CRM.Services.User,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IUserAgent.GetUserCommandsAsync(SuperOffice.CRM.Services.User,System.Threading.CancellationToken)
-  id: GetUserCommandsAsync(SuperOffice.CRM.Services.User,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IUserAgent
-  langs:
-  - csharp
-  - vb
-  name: GetUserCommandsAsync(User, CancellationToken)
-  nameWithType: IUserAgent.GetUserCommandsAsync(User, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IUserAgent.GetUserCommandsAsync(SuperOffice.CRM.Services.User, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Get registered custom commands for User
-
-    <p></p>
-
-    <b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
-  example: []
-  syntax:
-    content: Task<CustomCommand[]> GetUserCommandsAsync(User user, CancellationToken cancellationToken = default)
-    parameters:
-    - id: user
-      type: SuperOffice.CRM.Services.User
-      description: The User
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomCommand[]}
-      description: Custom commands for the User
-    content.vb: Function GetUserCommandsAsync(user As User, cancellationToken As CancellationToken = Nothing) As Task(Of CustomCommand())
-  overload: SuperOffice.CRM.Services.IUserAgent.GetUserCommandsAsync*
-- uid: SuperOffice.CRM.Services.IUserAgent.ExecuteUserCommandAsync(System.String,SuperOffice.Data.CommandActionResult,SuperOffice.CRM.Services.User,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IUserAgent.ExecuteUserCommandAsync(System.String,SuperOffice.Data.CommandActionResult,SuperOffice.CRM.Services.User,System.Threading.CancellationToken)
-  id: ExecuteUserCommandAsync(System.String,SuperOffice.Data.CommandActionResult,SuperOffice.CRM.Services.User,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IUserAgent
-  langs:
-  - csharp
-  - vb
-  name: ExecuteUserCommandAsync(string, CommandActionResult, User, CancellationToken)
-  nameWithType: IUserAgent.ExecuteUserCommandAsync(string, CommandActionResult, User, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IUserAgent.ExecuteUserCommandAsync(string, SuperOffice.Data.CommandActionResult, SuperOffice.CRM.Services.User, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Executes the custom command for User
-
-    <p></p>
-
-    <b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
-  example: []
-  syntax:
-    content: Task<CommandResult> ExecuteUserCommandAsync(string commandName, CommandActionResult actionResult, User user, CancellationToken cancellationToken = default)
-    parameters:
-    - id: commandName
-      type: System.String
-      description: The name of the command to execute.
-    - id: actionResult
-      type: SuperOffice.Data.CommandActionResult
-      description: Result of an UI operation.
-    - id: user
-      type: SuperOffice.CRM.Services.User
-      description: The User to execute commands on.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CommandResult}
-      description: Result of the executed command
-    content.vb: Function ExecuteUserCommandAsync(commandName As String, actionResult As CommandActionResult, user As User, cancellationToken As CancellationToken = Nothing) As Task(Of CommandResult)
-  overload: SuperOffice.CRM.Services.IUserAgent.ExecuteUserCommandAsync*
-  nameWithType.vb: IUserAgent.ExecuteUserCommandAsync(String, CommandActionResult, User, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IUserAgent.ExecuteUserCommandAsync(String, SuperOffice.Data.CommandActionResult, SuperOffice.CRM.Services.User, System.Threading.CancellationToken)
-  name.vb: ExecuteUserCommandAsync(String, CommandActionResult, User, CancellationToken)
-- uid: SuperOffice.CRM.Services.IUserAgent.DeleteUserAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IUserAgent.DeleteUserAsync(System.Int32,System.Threading.CancellationToken)
-  id: DeleteUserAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IUserAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteUserAsync(int, CancellationToken)
-  nameWithType: IUserAgent.DeleteUserAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IUserAgent.DeleteUserAsync(int, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Deletes the User
-
-    <p></p>
-
-    <b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
-  example: []
-  syntax:
-    content: Task DeleteUserAsync(int userId, CancellationToken cancellationToken = default)
-    parameters:
-    - id: userId
-      type: System.Int32
-      description: The identity of the User
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Function DeleteUserAsync(userId As Integer, cancellationToken As CancellationToken = Nothing) As Task
-  overload: SuperOffice.CRM.Services.IUserAgent.DeleteUserAsync*
-  nameWithType.vb: IUserAgent.DeleteUserAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IUserAgent.DeleteUserAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeleteUserAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IUserAgent.GetAccessGatewayInfoAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IUserAgent.GetAccessGatewayInfoAsync(System.Threading.CancellationToken)
   id: GetAccessGatewayInfoAsync(System.Threading.CancellationToken)
@@ -884,7 +501,7 @@ items:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   summary: >-
-    Gets a Role object.                        
+    Gets a Role object.
 
     <p></p>
 
@@ -900,12 +517,77 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Role}
-      description: Role
+      description: A single Role
     content.vb: Function GetRoleAsync(roleId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Role)
   overload: SuperOffice.CRM.Services.IUserAgent.GetRoleAsync*
   nameWithType.vb: IUserAgent.GetRoleAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IUserAgent.GetRoleAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetRoleAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IUserAgent.CreateDefaultRoleEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserAgent.CreateDefaultRoleEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultRoleEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IUserAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultRoleEntityAsync(CancellationToken)
+  nameWithType: IUserAgent.CreateDefaultRoleEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserAgent.CreateDefaultRoleEntityAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Loading default values into a new RoleEntity.
+
+    <p></p>
+
+    <b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+  example: []
+  syntax:
+    content: Task<RoleEntity> CreateDefaultRoleEntityAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.RoleEntity}
+      description: New RoleEntity with default values
+    content.vb: Function CreateDefaultRoleEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of RoleEntity)
+  overload: SuperOffice.CRM.Services.IUserAgent.CreateDefaultRoleEntityAsync*
+- uid: SuperOffice.CRM.Services.IUserAgent.SaveRoleEntityAsync(SuperOffice.CRM.Services.RoleEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserAgent.SaveRoleEntityAsync(SuperOffice.CRM.Services.RoleEntity,System.Threading.CancellationToken)
+  id: SaveRoleEntityAsync(SuperOffice.CRM.Services.RoleEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IUserAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveRoleEntityAsync(RoleEntity, CancellationToken)
+  nameWithType: IUserAgent.SaveRoleEntityAsync(RoleEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserAgent.SaveRoleEntityAsync(SuperOffice.CRM.Services.RoleEntity, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Updates the existing RoleEntity or creates a new RoleEntity if the id parameter is 0. 
+
+    <p></p>
+
+    <b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+  example: []
+  syntax:
+    content: Task<RoleEntity> SaveRoleEntityAsync(RoleEntity roleEntity, CancellationToken cancellationToken = default)
+    parameters:
+    - id: roleEntity
+      type: SuperOffice.CRM.Services.RoleEntity
+      description: The RoleEntity that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.RoleEntity}
+      description: New or updated RoleEntity
+    content.vb: Function SaveRoleEntityAsync(roleEntity As RoleEntity, cancellationToken As CancellationToken = Nothing) As Task(Of RoleEntity)
+  overload: SuperOffice.CRM.Services.IUserAgent.SaveRoleEntityAsync*
 - uid: SuperOffice.CRM.Services.IUserAgent.GetRoleEntityAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IUserAgent.GetRoleEntityAsync(System.Int32,System.Threading.CancellationToken)
   id: GetRoleEntityAsync(System.Int32,System.Threading.CancellationToken)
@@ -921,7 +603,7 @@ items:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   summary: >-
-    Gets a RoleEntity object.                        
+    Gets a RoleEntity object.
 
     <p></p>
 
@@ -937,7 +619,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.RoleEntity}
-      description: RoleEntity
+      description: A single RoleEntity
     content.vb: Function GetRoleEntityAsync(roleEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of RoleEntity)
   overload: SuperOffice.CRM.Services.IUserAgent.GetRoleEntityAsync*
   nameWithType.vb: IUserAgent.GetRoleEntityAsync(Integer, CancellationToken)
@@ -1402,6 +1084,108 @@ items:
   nameWithType.vb: IUserAgent.FindRolesWithoutFunctionalRightsAsync(String(), CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IUserAgent.FindRolesWithoutFunctionalRightsAsync(String(), System.Threading.CancellationToken)
   name.vb: FindRolesWithoutFunctionalRightsAsync(String(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IUserAgent.CreateDefaultServiceAuthAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserAgent.CreateDefaultServiceAuthAsync(System.Threading.CancellationToken)
+  id: CreateDefaultServiceAuthAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IUserAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultServiceAuthAsync(CancellationToken)
+  nameWithType: IUserAgent.CreateDefaultServiceAuthAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserAgent.CreateDefaultServiceAuthAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Loading default values into a new ServiceAuth.
+
+    <p></p>
+
+    <b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+  example: []
+  syntax:
+    content: Task<ServiceAuth> CreateDefaultServiceAuthAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ServiceAuth}
+      description: New ServiceAuth with default values
+    content.vb: Function CreateDefaultServiceAuthAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ServiceAuth)
+  overload: SuperOffice.CRM.Services.IUserAgent.CreateDefaultServiceAuthAsync*
+- uid: SuperOffice.CRM.Services.IUserAgent.SaveServiceAuthAsync(SuperOffice.CRM.Services.ServiceAuth,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserAgent.SaveServiceAuthAsync(SuperOffice.CRM.Services.ServiceAuth,System.Threading.CancellationToken)
+  id: SaveServiceAuthAsync(SuperOffice.CRM.Services.ServiceAuth,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IUserAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveServiceAuthAsync(ServiceAuth, CancellationToken)
+  nameWithType: IUserAgent.SaveServiceAuthAsync(ServiceAuth, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserAgent.SaveServiceAuthAsync(SuperOffice.CRM.Services.ServiceAuth, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Updates the existing ServiceAuth or creates a new ServiceAuth if the id parameter is 0. 
+
+    <p></p>
+
+    <b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+  example: []
+  syntax:
+    content: Task<ServiceAuth> SaveServiceAuthAsync(ServiceAuth serviceAuth, CancellationToken cancellationToken = default)
+    parameters:
+    - id: serviceAuth
+      type: SuperOffice.CRM.Services.ServiceAuth
+      description: The ServiceAuth that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ServiceAuth}
+      description: New or updated ServiceAuth
+    content.vb: Function SaveServiceAuthAsync(serviceAuth As ServiceAuth, cancellationToken As CancellationToken = Nothing) As Task(Of ServiceAuth)
+  overload: SuperOffice.CRM.Services.IUserAgent.SaveServiceAuthAsync*
+- uid: SuperOffice.CRM.Services.IUserAgent.DeleteServiceAuthAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserAgent.DeleteServiceAuthAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteServiceAuthAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IUserAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteServiceAuthAsync(int, CancellationToken)
+  nameWithType: IUserAgent.DeleteServiceAuthAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserAgent.DeleteServiceAuthAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Deletes the ServiceAuth
+
+    <p></p>
+
+    <b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+  example: []
+  syntax:
+    content: Task DeleteServiceAuthAsync(int serviceAuthId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: serviceAuthId
+      type: System.Int32
+      description: The identity of the ServiceAuth
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function DeleteServiceAuthAsync(serviceAuthId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IUserAgent.DeleteServiceAuthAsync*
+  nameWithType.vb: IUserAgent.DeleteServiceAuthAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IUserAgent.DeleteServiceAuthAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteServiceAuthAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IUserAgent.GetServiceAuthAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IUserAgent.GetServiceAuthAsync(System.Int32,System.Threading.CancellationToken)
   id: GetServiceAuthAsync(System.Int32,System.Threading.CancellationToken)
@@ -1417,7 +1201,7 @@ items:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   summary: >-
-    Gets a ServiceAuth object.                        
+    Gets a ServiceAuth object.
 
     <p></p>
 
@@ -1433,7 +1217,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ServiceAuth}
-      description: ServiceAuth
+      description: A single ServiceAuth
     content.vb: Function GetServiceAuthAsync(serviceAuthId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ServiceAuth)
   overload: SuperOffice.CRM.Services.IUserAgent.GetServiceAuthAsync*
   nameWithType.vb: IUserAgent.GetServiceAuthAsync(Integer, CancellationToken)
@@ -1544,6 +1328,216 @@ items:
   nameWithType.vb: IUserAgent.GetExternalTokensAsync(String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IUserAgent.GetExternalTokensAsync(String, System.Threading.CancellationToken)
   name.vb: GetExternalTokensAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.IUserAgent.CreateDefaultUntrustedCredentialsAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserAgent.CreateDefaultUntrustedCredentialsAsync(System.Threading.CancellationToken)
+  id: CreateDefaultUntrustedCredentialsAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IUserAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultUntrustedCredentialsAsync(CancellationToken)
+  nameWithType: IUserAgent.CreateDefaultUntrustedCredentialsAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserAgent.CreateDefaultUntrustedCredentialsAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Loading default values into a new UntrustedCredentials.
+
+    <p></p>
+
+    <b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+  example: []
+  syntax:
+    content: Task<UntrustedCredentials> CreateDefaultUntrustedCredentialsAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UntrustedCredentials}
+      description: New UntrustedCredentials with default values
+    content.vb: Function CreateDefaultUntrustedCredentialsAsync(cancellationToken As CancellationToken = Nothing) As Task(Of UntrustedCredentials)
+  overload: SuperOffice.CRM.Services.IUserAgent.CreateDefaultUntrustedCredentialsAsync*
+- uid: SuperOffice.CRM.Services.IUserAgent.CreateDefaultUserAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserAgent.CreateDefaultUserAsync(System.Threading.CancellationToken)
+  id: CreateDefaultUserAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IUserAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultUserAsync(CancellationToken)
+  nameWithType: IUserAgent.CreateDefaultUserAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserAgent.CreateDefaultUserAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Loading default values into a new User.
+
+    <p></p>
+
+    <b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+  example: []
+  syntax:
+    content: Task<User> CreateDefaultUserAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.User}
+      description: New User with default values
+    content.vb: Function CreateDefaultUserAsync(cancellationToken As CancellationToken = Nothing) As Task(Of User)
+  overload: SuperOffice.CRM.Services.IUserAgent.CreateDefaultUserAsync*
+- uid: SuperOffice.CRM.Services.IUserAgent.SaveUserAsync(SuperOffice.CRM.Services.User,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserAgent.SaveUserAsync(SuperOffice.CRM.Services.User,System.Threading.CancellationToken)
+  id: SaveUserAsync(SuperOffice.CRM.Services.User,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IUserAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveUserAsync(User, CancellationToken)
+  nameWithType: IUserAgent.SaveUserAsync(User, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserAgent.SaveUserAsync(SuperOffice.CRM.Services.User, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Updates the existing User or creates a new User if the id parameter is 0. 
+
+    <p></p>
+
+    <b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+  example: []
+  syntax:
+    content: Task<User> SaveUserAsync(User user, CancellationToken cancellationToken = default)
+    parameters:
+    - id: user
+      type: SuperOffice.CRM.Services.User
+      description: The User that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.User}
+      description: New or updated User
+    content.vb: Function SaveUserAsync(user As User, cancellationToken As CancellationToken = Nothing) As Task(Of User)
+  overload: SuperOffice.CRM.Services.IUserAgent.SaveUserAsync*
+- uid: SuperOffice.CRM.Services.IUserAgent.GetUserCommandsAsync(SuperOffice.CRM.Services.User,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserAgent.GetUserCommandsAsync(SuperOffice.CRM.Services.User,System.Threading.CancellationToken)
+  id: GetUserCommandsAsync(SuperOffice.CRM.Services.User,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IUserAgent
+  langs:
+  - csharp
+  - vb
+  name: GetUserCommandsAsync(User, CancellationToken)
+  nameWithType: IUserAgent.GetUserCommandsAsync(User, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserAgent.GetUserCommandsAsync(SuperOffice.CRM.Services.User, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Get registered custom commands for User
+
+    <p></p>
+
+    <b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+  example: []
+  syntax:
+    content: Task<CustomCommand[]> GetUserCommandsAsync(User user, CancellationToken cancellationToken = default)
+    parameters:
+    - id: user
+      type: SuperOffice.CRM.Services.User
+      description: The User
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomCommand[]}
+      description: Custom commands for the User
+    content.vb: Function GetUserCommandsAsync(user As User, cancellationToken As CancellationToken = Nothing) As Task(Of CustomCommand())
+  overload: SuperOffice.CRM.Services.IUserAgent.GetUserCommandsAsync*
+- uid: SuperOffice.CRM.Services.IUserAgent.ExecuteUserCommandAsync(System.String,SuperOffice.Data.CommandActionResult,SuperOffice.CRM.Services.User,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserAgent.ExecuteUserCommandAsync(System.String,SuperOffice.Data.CommandActionResult,SuperOffice.CRM.Services.User,System.Threading.CancellationToken)
+  id: ExecuteUserCommandAsync(System.String,SuperOffice.Data.CommandActionResult,SuperOffice.CRM.Services.User,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IUserAgent
+  langs:
+  - csharp
+  - vb
+  name: ExecuteUserCommandAsync(string, CommandActionResult, User, CancellationToken)
+  nameWithType: IUserAgent.ExecuteUserCommandAsync(string, CommandActionResult, User, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserAgent.ExecuteUserCommandAsync(string, SuperOffice.Data.CommandActionResult, SuperOffice.CRM.Services.User, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Executes the custom command for User
+
+    <p></p>
+
+    <b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+  example: []
+  syntax:
+    content: Task<CommandResult> ExecuteUserCommandAsync(string commandName, CommandActionResult actionResult, User user, CancellationToken cancellationToken = default)
+    parameters:
+    - id: commandName
+      type: System.String
+      description: The name of the command to execute.
+    - id: actionResult
+      type: SuperOffice.Data.CommandActionResult
+      description: Result of an UI operation.
+    - id: user
+      type: SuperOffice.CRM.Services.User
+      description: The User to execute commands on.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CommandResult}
+      description: Result of the executed command
+    content.vb: Function ExecuteUserCommandAsync(commandName As String, actionResult As CommandActionResult, user As User, cancellationToken As CancellationToken = Nothing) As Task(Of CommandResult)
+  overload: SuperOffice.CRM.Services.IUserAgent.ExecuteUserCommandAsync*
+  nameWithType.vb: IUserAgent.ExecuteUserCommandAsync(String, CommandActionResult, User, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IUserAgent.ExecuteUserCommandAsync(String, SuperOffice.Data.CommandActionResult, SuperOffice.CRM.Services.User, System.Threading.CancellationToken)
+  name.vb: ExecuteUserCommandAsync(String, CommandActionResult, User, CancellationToken)
+- uid: SuperOffice.CRM.Services.IUserAgent.DeleteUserAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserAgent.DeleteUserAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteUserAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IUserAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteUserAsync(int, CancellationToken)
+  nameWithType: IUserAgent.DeleteUserAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserAgent.DeleteUserAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Deletes the User
+
+    <p></p>
+
+    <b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+  example: []
+  syntax:
+    content: Task DeleteUserAsync(int userId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: userId
+      type: System.Int32
+      description: The identity of the User
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function DeleteUserAsync(userId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IUserAgent.DeleteUserAsync*
+  nameWithType.vb: IUserAgent.DeleteUserAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IUserAgent.DeleteUserAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteUserAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IUserAgent.GetUserAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IUserAgent.GetUserAsync(System.Int32,System.Threading.CancellationToken)
   id: GetUserAsync(System.Int32,System.Threading.CancellationToken)
@@ -1559,7 +1553,7 @@ items:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   summary: >-
-    Gets a User object.                        
+    Gets a User object.
 
     <p></p>
 
@@ -1575,7 +1569,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.User}
-      description: User
+      description: A single User
     content.vb: Function GetUserAsync(userId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of User)
   overload: SuperOffice.CRM.Services.IUserAgent.GetUserAsync*
   nameWithType.vb: IUserAgent.GetUserAsync(Integer, CancellationToken)
@@ -3492,7 +3486,7 @@ items:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   summary: >-
-    Gets a UserGroup object.                        
+    Gets a UserGroup object.
 
     <p></p>
 
@@ -3508,7 +3502,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserGroup}
-      description: UserGroup
+      description: A single UserGroup
     content.vb: Function GetUserGroupAsync(userGroupId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of UserGroup)
   overload: SuperOffice.CRM.Services.IUserAgent.GetUserGroupAsync*
   nameWithType.vb: IUserAgent.GetUserGroupAsync(Integer, CancellationToken)
@@ -3671,7 +3665,7 @@ items:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   summary: >-
-    Gets an array of UserGroup objects.                        
+    Gets an array of UserGroup objects.
 
     <p></p>
 
@@ -3687,7 +3681,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserGroup[]}
-      description: Array of UserGroup objects
+      description: Array of UserGroup
     content.vb: Function GetUserGroupListAsync(userGroupIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of UserGroup())
   overload: SuperOffice.CRM.Services.IUserAgent.GetUserGroupListAsync*
   nameWithType.vb: IUserAgent.GetUserGroupListAsync(Integer(), CancellationToken)
@@ -3708,7 +3702,7 @@ items:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   summary: >-
-    Gets a UserInfo object.                        
+    Gets a UserInfo object.
 
     <p></p>
 
@@ -3724,7 +3718,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserInfo}
-      description: UserInfo
+      description: A single UserInfo
     content.vb: Function GetUserInfoAsync(userInfoId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of UserInfo)
   overload: SuperOffice.CRM.Services.IUserAgent.GetUserInfoAsync*
   nameWithType.vb: IUserAgent.GetUserInfoAsync(Integer, CancellationToken)
@@ -3745,7 +3739,7 @@ items:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
   summary: >-
-    Gets an array of UserInfo objects.                        
+    Gets an array of UserInfo objects.
 
     <p></p>
 
@@ -3761,7 +3755,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UserInfo[]}
-      description: Array of UserInfo objects
+      description: Array of UserInfo
     content.vb: Function GetUserInfoListAsync(userInfoIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of UserInfo())
   overload: SuperOffice.CRM.Services.IUserAgent.GetUserInfoListAsync*
   nameWithType.vb: IUserAgent.GetUserInfoListAsync(Integer(), CancellationToken)
@@ -3805,13 +3799,13 @@ references:
     name: Services
     isExternal: true
     href: SuperOffice.CRM.Services.html
-- uid: SuperOffice.CRM.Services.IUserAgent.CreateDefaultRoleEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.CreateDefaultRoleEntityAsync
+- uid: SuperOffice.CRM.Services.IUserAgent.GetAccessGatewayInfoAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.GetAccessGatewayInfoAsync
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_CreateDefaultRoleEntityAsync_System_Threading_CancellationToken_
-  name: CreateDefaultRoleEntityAsync
-  nameWithType: IUserAgent.CreateDefaultRoleEntityAsync
-  fullName: SuperOffice.CRM.Services.IUserAgent.CreateDefaultRoleEntityAsync
+  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_GetAccessGatewayInfoAsync_System_Threading_CancellationToken_
+  name: GetAccessGatewayInfoAsync
+  nameWithType: IUserAgent.GetAccessGatewayInfoAsync
+  fullName: SuperOffice.CRM.Services.IUserAgent.GetAccessGatewayInfoAsync
 - uid: System.Threading.CancellationToken
   commentId: T:System.Threading.CancellationToken
   parent: System.Threading
@@ -3820,27 +3814,27 @@ references:
   name: CancellationToken
   nameWithType: CancellationToken
   fullName: System.Threading.CancellationToken
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.RoleEntity}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.RoleEntity}
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AccessGatewayInfo}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.AccessGatewayInfo}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
   href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<RoleEntity>
-  nameWithType: Task<RoleEntity>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.RoleEntity>
-  nameWithType.vb: Task(Of RoleEntity)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.RoleEntity)
-  name.vb: Task(Of RoleEntity)
+  name: Task<AccessGatewayInfo>
+  nameWithType: Task<AccessGatewayInfo>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.AccessGatewayInfo>
+  nameWithType.vb: Task(Of AccessGatewayInfo)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.AccessGatewayInfo)
+  name.vb: Task(Of AccessGatewayInfo)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - uid: SuperOffice.CRM.Services.RoleEntity
-    name: RoleEntity
+  - uid: SuperOffice.CRM.Services.AccessGatewayInfo
+    name: AccessGatewayInfo
     isExternal: true
-    href: SuperOffice.CRM.Services.RoleEntity.html
+    href: SuperOffice.CRM.Services.AccessGatewayInfo.html
   - name: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
@@ -3850,10 +3844,10 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: SuperOffice.CRM.Services.RoleEntity
-    name: RoleEntity
+  - uid: SuperOffice.CRM.Services.AccessGatewayInfo
+    name: AccessGatewayInfo
     isExternal: true
-    href: SuperOffice.CRM.Services.RoleEntity.html
+    href: SuperOffice.CRM.Services.AccessGatewayInfo.html
   - name: )
 - uid: System.Threading
   commentId: N:System.Threading
@@ -3947,263 +3941,13 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-- uid: SuperOffice.CRM.Services.IUserAgent.SaveRoleEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.SaveRoleEntityAsync
+- uid: SuperOffice.CRM.Services.IUserAgent.GetOrRegisterAccessGatewayInfoAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.GetOrRegisterAccessGatewayInfoAsync
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_SaveRoleEntityAsync_SuperOffice_CRM_Services_RoleEntity_System_Threading_CancellationToken_
-  name: SaveRoleEntityAsync
-  nameWithType: IUserAgent.SaveRoleEntityAsync
-  fullName: SuperOffice.CRM.Services.IUserAgent.SaveRoleEntityAsync
-- uid: SuperOffice.CRM.Services.RoleEntity
-  commentId: T:SuperOffice.CRM.Services.RoleEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.RoleEntity.html
-  name: RoleEntity
-  nameWithType: RoleEntity
-  fullName: SuperOffice.CRM.Services.RoleEntity
-- uid: SuperOffice.CRM.Services.IUserAgent.CreateDefaultServiceAuthAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.CreateDefaultServiceAuthAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_CreateDefaultServiceAuthAsync_System_Threading_CancellationToken_
-  name: CreateDefaultServiceAuthAsync
-  nameWithType: IUserAgent.CreateDefaultServiceAuthAsync
-  fullName: SuperOffice.CRM.Services.IUserAgent.CreateDefaultServiceAuthAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ServiceAuth}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ServiceAuth}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<ServiceAuth>
-  nameWithType: Task<ServiceAuth>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ServiceAuth>
-  nameWithType.vb: Task(Of ServiceAuth)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ServiceAuth)
-  name.vb: Task(Of ServiceAuth)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.ServiceAuth
-    name: ServiceAuth
-    isExternal: true
-    href: SuperOffice.CRM.Services.ServiceAuth.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.ServiceAuth
-    name: ServiceAuth
-    isExternal: true
-    href: SuperOffice.CRM.Services.ServiceAuth.html
-  - name: )
-- uid: SuperOffice.CRM.Services.IUserAgent.SaveServiceAuthAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.SaveServiceAuthAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_SaveServiceAuthAsync_SuperOffice_CRM_Services_ServiceAuth_System_Threading_CancellationToken_
-  name: SaveServiceAuthAsync
-  nameWithType: IUserAgent.SaveServiceAuthAsync
-  fullName: SuperOffice.CRM.Services.IUserAgent.SaveServiceAuthAsync
-- uid: SuperOffice.CRM.Services.ServiceAuth
-  commentId: T:SuperOffice.CRM.Services.ServiceAuth
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.ServiceAuth.html
-  name: ServiceAuth
-  nameWithType: ServiceAuth
-  fullName: SuperOffice.CRM.Services.ServiceAuth
-- uid: SuperOffice.CRM.Services.IUserAgent.DeleteServiceAuthAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.DeleteServiceAuthAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_DeleteServiceAuthAsync_System_Int32_System_Threading_CancellationToken_
-  name: DeleteServiceAuthAsync
-  nameWithType: IUserAgent.DeleteServiceAuthAsync
-  fullName: SuperOffice.CRM.Services.IUserAgent.DeleteServiceAuthAsync
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
-- uid: System.Threading.Tasks.Task
-  commentId: T:System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.CRM.Services.IUserAgent.CreateDefaultUntrustedCredentialsAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.CreateDefaultUntrustedCredentialsAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_CreateDefaultUntrustedCredentialsAsync_System_Threading_CancellationToken_
-  name: CreateDefaultUntrustedCredentialsAsync
-  nameWithType: IUserAgent.CreateDefaultUntrustedCredentialsAsync
-  fullName: SuperOffice.CRM.Services.IUserAgent.CreateDefaultUntrustedCredentialsAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UntrustedCredentials}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.UntrustedCredentials}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<UntrustedCredentials>
-  nameWithType: Task<UntrustedCredentials>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.UntrustedCredentials>
-  nameWithType.vb: Task(Of UntrustedCredentials)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.UntrustedCredentials)
-  name.vb: Task(Of UntrustedCredentials)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.UntrustedCredentials
-    name: UntrustedCredentials
-    isExternal: true
-    href: SuperOffice.CRM.Services.UntrustedCredentials.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.UntrustedCredentials
-    name: UntrustedCredentials
-    isExternal: true
-    href: SuperOffice.CRM.Services.UntrustedCredentials.html
-  - name: )
-- uid: SuperOffice.CRM.Services.IUserAgent.CreateDefaultUserAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.CreateDefaultUserAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_CreateDefaultUserAsync_System_Threading_CancellationToken_
-  name: CreateDefaultUserAsync
-  nameWithType: IUserAgent.CreateDefaultUserAsync
-  fullName: SuperOffice.CRM.Services.IUserAgent.CreateDefaultUserAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.User}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.User}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<User>
-  nameWithType: Task<User>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.User>
-  nameWithType.vb: Task(Of User)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.User)
-  name.vb: Task(Of User)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.User
-    name: User
-    isExternal: true
-    href: SuperOffice.CRM.Services.User.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.User
-    name: User
-    isExternal: true
-    href: SuperOffice.CRM.Services.User.html
-  - name: )
-- uid: SuperOffice.CRM.Services.IUserAgent.SaveUserAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.SaveUserAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_SaveUserAsync_SuperOffice_CRM_Services_User_System_Threading_CancellationToken_
-  name: SaveUserAsync
-  nameWithType: IUserAgent.SaveUserAsync
-  fullName: SuperOffice.CRM.Services.IUserAgent.SaveUserAsync
-- uid: SuperOffice.CRM.Services.User
-  commentId: T:SuperOffice.CRM.Services.User
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.User.html
-  name: User
-  nameWithType: User
-  fullName: SuperOffice.CRM.Services.User
-- uid: SuperOffice.CRM.Services.IUserAgent.GetUserCommandsAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.GetUserCommandsAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_GetUserCommandsAsync_SuperOffice_CRM_Services_User_System_Threading_CancellationToken_
-  name: GetUserCommandsAsync
-  nameWithType: IUserAgent.GetUserCommandsAsync
-  fullName: SuperOffice.CRM.Services.IUserAgent.GetUserCommandsAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomCommand[]}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomCommand[]}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<CustomCommand[]>
-  nameWithType: Task<CustomCommand[]>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.CustomCommand[]>
-  nameWithType.vb: Task(Of CustomCommand())
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.CustomCommand())
-  name.vb: Task(Of CustomCommand())
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.CustomCommand
-    name: CustomCommand
-    isExternal: true
-    href: SuperOffice.CRM.Services.CustomCommand.html
-  - name: '['
-  - name: ']'
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.CustomCommand
-    name: CustomCommand
-    isExternal: true
-    href: SuperOffice.CRM.Services.CustomCommand.html
-  - name: (
-  - name: )
-  - name: )
-- uid: SuperOffice.CRM.Services.IUserAgent.ExecuteUserCommandAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.ExecuteUserCommandAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_ExecuteUserCommandAsync_System_String_SuperOffice_Data_CommandActionResult_SuperOffice_CRM_Services_User_System_Threading_CancellationToken_
-  name: ExecuteUserCommandAsync
-  nameWithType: IUserAgent.ExecuteUserCommandAsync
-  fullName: SuperOffice.CRM.Services.IUserAgent.ExecuteUserCommandAsync
+  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_GetOrRegisterAccessGatewayInfoAsync_System_String_System_Threading_CancellationToken_
+  name: GetOrRegisterAccessGatewayInfoAsync
+  nameWithType: IUserAgent.GetOrRegisterAccessGatewayInfoAsync
+  fullName: SuperOffice.CRM.Services.IUserAgent.GetOrRegisterAccessGatewayInfoAsync
 - uid: System.String
   commentId: T:System.String
   parent: System
@@ -4215,102 +3959,13 @@ references:
   nameWithType.vb: String
   fullName.vb: String
   name.vb: String
-- uid: SuperOffice.Data.CommandActionResult
+- uid: System
+  commentId: N:System
   isExternal: true
-  name: CommandActionResult
-  nameWithType: CommandActionResult
-  fullName: SuperOffice.Data.CommandActionResult
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CommandResult}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.CommandResult}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<CommandResult>
-  nameWithType: Task<CommandResult>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.CommandResult>
-  nameWithType.vb: Task(Of CommandResult)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.CommandResult)
-  name.vb: Task(Of CommandResult)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.CommandResult
-    name: CommandResult
-    isExternal: true
-    href: SuperOffice.CRM.Services.CommandResult.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.CommandResult
-    name: CommandResult
-    isExternal: true
-    href: SuperOffice.CRM.Services.CommandResult.html
-  - name: )
-- uid: SuperOffice.CRM.Services.IUserAgent.DeleteUserAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.DeleteUserAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_DeleteUserAsync_System_Int32_System_Threading_CancellationToken_
-  name: DeleteUserAsync
-  nameWithType: IUserAgent.DeleteUserAsync
-  fullName: SuperOffice.CRM.Services.IUserAgent.DeleteUserAsync
-- uid: SuperOffice.CRM.Services.IUserAgent.GetAccessGatewayInfoAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.GetAccessGatewayInfoAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_GetAccessGatewayInfoAsync_System_Threading_CancellationToken_
-  name: GetAccessGatewayInfoAsync
-  nameWithType: IUserAgent.GetAccessGatewayInfoAsync
-  fullName: SuperOffice.CRM.Services.IUserAgent.GetAccessGatewayInfoAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AccessGatewayInfo}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.AccessGatewayInfo}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<AccessGatewayInfo>
-  nameWithType: Task<AccessGatewayInfo>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.AccessGatewayInfo>
-  nameWithType.vb: Task(Of AccessGatewayInfo)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.AccessGatewayInfo)
-  name.vb: Task(Of AccessGatewayInfo)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.AccessGatewayInfo
-    name: AccessGatewayInfo
-    isExternal: true
-    href: SuperOffice.CRM.Services.AccessGatewayInfo.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.AccessGatewayInfo
-    name: AccessGatewayInfo
-    isExternal: true
-    href: SuperOffice.CRM.Services.AccessGatewayInfo.html
-  - name: )
-- uid: SuperOffice.CRM.Services.IUserAgent.GetOrRegisterAccessGatewayInfoAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.GetOrRegisterAccessGatewayInfoAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_GetOrRegisterAccessGatewayInfoAsync_System_String_System_Threading_CancellationToken_
-  name: GetOrRegisterAccessGatewayInfoAsync
-  nameWithType: IUserAgent.GetOrRegisterAccessGatewayInfoAsync
-  fullName: SuperOffice.CRM.Services.IUserAgent.GetOrRegisterAccessGatewayInfoAsync
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.IUserAgent.RegisterWithAccessGatewayAsync*
   commentId: Overload:SuperOffice.CRM.Services.IUserAgent.RegisterWithAccessGatewayAsync
   isExternal: true
@@ -4367,6 +4022,17 @@ references:
   name: SaveCredentialAsync
   nameWithType: IUserAgent.SaveCredentialAsync
   fullName: SuperOffice.CRM.Services.IUserAgent.SaveCredentialAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.Credential
   commentId: T:SuperOffice.CRM.Services.Credential
   parent: SuperOffice.CRM.Services
@@ -4519,6 +4185,63 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Services.Role.html
   - name: )
+- uid: SuperOffice.CRM.Services.IUserAgent.CreateDefaultRoleEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.CreateDefaultRoleEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_CreateDefaultRoleEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultRoleEntityAsync
+  nameWithType: IUserAgent.CreateDefaultRoleEntityAsync
+  fullName: SuperOffice.CRM.Services.IUserAgent.CreateDefaultRoleEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.RoleEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.RoleEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<RoleEntity>
+  nameWithType: Task<RoleEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.RoleEntity>
+  nameWithType.vb: Task(Of RoleEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.RoleEntity)
+  name.vb: Task(Of RoleEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.RoleEntity
+    name: RoleEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.RoleEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.RoleEntity
+    name: RoleEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.RoleEntity.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IUserAgent.SaveRoleEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.SaveRoleEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_SaveRoleEntityAsync_SuperOffice_CRM_Services_RoleEntity_System_Threading_CancellationToken_
+  name: SaveRoleEntityAsync
+  nameWithType: IUserAgent.SaveRoleEntityAsync
+  fullName: SuperOffice.CRM.Services.IUserAgent.SaveRoleEntityAsync
+- uid: SuperOffice.CRM.Services.RoleEntity
+  commentId: T:SuperOffice.CRM.Services.RoleEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.RoleEntity.html
+  name: RoleEntity
+  nameWithType: RoleEntity
+  fullName: SuperOffice.CRM.Services.RoleEntity
 - uid: SuperOffice.CRM.Services.IUserAgent.GetRoleEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.IUserAgent.GetRoleEntityAsync
   isExternal: true
@@ -4533,6 +4256,14 @@ references:
   name: DeleteRoleAsync
   nameWithType: IUserAgent.DeleteRoleAsync
   fullName: SuperOffice.CRM.Services.IUserAgent.DeleteRoleAsync
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Services.IUserAgent.GetAllRolesAsync*
   commentId: Overload:SuperOffice.CRM.Services.IUserAgent.GetAllRolesAsync
   isExternal: true
@@ -4901,6 +4632,70 @@ references:
   name: FindRolesWithoutFunctionalRightsAsync
   nameWithType: IUserAgent.FindRolesWithoutFunctionalRightsAsync
   fullName: SuperOffice.CRM.Services.IUserAgent.FindRolesWithoutFunctionalRightsAsync
+- uid: SuperOffice.CRM.Services.IUserAgent.CreateDefaultServiceAuthAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.CreateDefaultServiceAuthAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_CreateDefaultServiceAuthAsync_System_Threading_CancellationToken_
+  name: CreateDefaultServiceAuthAsync
+  nameWithType: IUserAgent.CreateDefaultServiceAuthAsync
+  fullName: SuperOffice.CRM.Services.IUserAgent.CreateDefaultServiceAuthAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ServiceAuth}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ServiceAuth}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ServiceAuth>
+  nameWithType: Task<ServiceAuth>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ServiceAuth>
+  nameWithType.vb: Task(Of ServiceAuth)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ServiceAuth)
+  name.vb: Task(Of ServiceAuth)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.ServiceAuth
+    name: ServiceAuth
+    isExternal: true
+    href: SuperOffice.CRM.Services.ServiceAuth.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.ServiceAuth
+    name: ServiceAuth
+    isExternal: true
+    href: SuperOffice.CRM.Services.ServiceAuth.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IUserAgent.SaveServiceAuthAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.SaveServiceAuthAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_SaveServiceAuthAsync_SuperOffice_CRM_Services_ServiceAuth_System_Threading_CancellationToken_
+  name: SaveServiceAuthAsync
+  nameWithType: IUserAgent.SaveServiceAuthAsync
+  fullName: SuperOffice.CRM.Services.IUserAgent.SaveServiceAuthAsync
+- uid: SuperOffice.CRM.Services.ServiceAuth
+  commentId: T:SuperOffice.CRM.Services.ServiceAuth
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.ServiceAuth.html
+  name: ServiceAuth
+  nameWithType: ServiceAuth
+  fullName: SuperOffice.CRM.Services.ServiceAuth
+- uid: SuperOffice.CRM.Services.IUserAgent.DeleteServiceAuthAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.DeleteServiceAuthAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_DeleteServiceAuthAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteServiceAuthAsync
+  nameWithType: IUserAgent.DeleteServiceAuthAsync
+  fullName: SuperOffice.CRM.Services.IUserAgent.DeleteServiceAuthAsync
 - uid: SuperOffice.CRM.Services.IUserAgent.GetServiceAuthAsync*
   commentId: Overload:SuperOffice.CRM.Services.IUserAgent.GetServiceAuthAsync
   isExternal: true
@@ -4972,6 +4767,205 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Services.TokenManagementInfo.html
   - name: )
+- uid: SuperOffice.CRM.Services.IUserAgent.CreateDefaultUntrustedCredentialsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.CreateDefaultUntrustedCredentialsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_CreateDefaultUntrustedCredentialsAsync_System_Threading_CancellationToken_
+  name: CreateDefaultUntrustedCredentialsAsync
+  nameWithType: IUserAgent.CreateDefaultUntrustedCredentialsAsync
+  fullName: SuperOffice.CRM.Services.IUserAgent.CreateDefaultUntrustedCredentialsAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.UntrustedCredentials}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.UntrustedCredentials}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<UntrustedCredentials>
+  nameWithType: Task<UntrustedCredentials>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.UntrustedCredentials>
+  nameWithType.vb: Task(Of UntrustedCredentials)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.UntrustedCredentials)
+  name.vb: Task(Of UntrustedCredentials)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.UntrustedCredentials
+    name: UntrustedCredentials
+    isExternal: true
+    href: SuperOffice.CRM.Services.UntrustedCredentials.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.UntrustedCredentials
+    name: UntrustedCredentials
+    isExternal: true
+    href: SuperOffice.CRM.Services.UntrustedCredentials.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IUserAgent.CreateDefaultUserAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.CreateDefaultUserAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_CreateDefaultUserAsync_System_Threading_CancellationToken_
+  name: CreateDefaultUserAsync
+  nameWithType: IUserAgent.CreateDefaultUserAsync
+  fullName: SuperOffice.CRM.Services.IUserAgent.CreateDefaultUserAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.User}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.User}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<User>
+  nameWithType: Task<User>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.User>
+  nameWithType.vb: Task(Of User)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.User)
+  name.vb: Task(Of User)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.User
+    name: User
+    isExternal: true
+    href: SuperOffice.CRM.Services.User.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.User
+    name: User
+    isExternal: true
+    href: SuperOffice.CRM.Services.User.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IUserAgent.SaveUserAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.SaveUserAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_SaveUserAsync_SuperOffice_CRM_Services_User_System_Threading_CancellationToken_
+  name: SaveUserAsync
+  nameWithType: IUserAgent.SaveUserAsync
+  fullName: SuperOffice.CRM.Services.IUserAgent.SaveUserAsync
+- uid: SuperOffice.CRM.Services.User
+  commentId: T:SuperOffice.CRM.Services.User
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.User.html
+  name: User
+  nameWithType: User
+  fullName: SuperOffice.CRM.Services.User
+- uid: SuperOffice.CRM.Services.IUserAgent.GetUserCommandsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.GetUserCommandsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_GetUserCommandsAsync_SuperOffice_CRM_Services_User_System_Threading_CancellationToken_
+  name: GetUserCommandsAsync
+  nameWithType: IUserAgent.GetUserCommandsAsync
+  fullName: SuperOffice.CRM.Services.IUserAgent.GetUserCommandsAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomCommand[]}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomCommand[]}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<CustomCommand[]>
+  nameWithType: Task<CustomCommand[]>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.CustomCommand[]>
+  nameWithType.vb: Task(Of CustomCommand())
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.CustomCommand())
+  name.vb: Task(Of CustomCommand())
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.CustomCommand
+    name: CustomCommand
+    isExternal: true
+    href: SuperOffice.CRM.Services.CustomCommand.html
+  - name: '['
+  - name: ']'
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.CustomCommand
+    name: CustomCommand
+    isExternal: true
+    href: SuperOffice.CRM.Services.CustomCommand.html
+  - name: (
+  - name: )
+  - name: )
+- uid: SuperOffice.CRM.Services.IUserAgent.ExecuteUserCommandAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.ExecuteUserCommandAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_ExecuteUserCommandAsync_System_String_SuperOffice_Data_CommandActionResult_SuperOffice_CRM_Services_User_System_Threading_CancellationToken_
+  name: ExecuteUserCommandAsync
+  nameWithType: IUserAgent.ExecuteUserCommandAsync
+  fullName: SuperOffice.CRM.Services.IUserAgent.ExecuteUserCommandAsync
+- uid: SuperOffice.Data.CommandActionResult
+  isExternal: true
+  name: CommandActionResult
+  nameWithType: CommandActionResult
+  fullName: SuperOffice.Data.CommandActionResult
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CommandResult}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.CommandResult}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<CommandResult>
+  nameWithType: Task<CommandResult>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.CommandResult>
+  nameWithType.vb: Task(Of CommandResult)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.CommandResult)
+  name.vb: Task(Of CommandResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.CommandResult
+    name: CommandResult
+    isExternal: true
+    href: SuperOffice.CRM.Services.CommandResult.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.CommandResult
+    name: CommandResult
+    isExternal: true
+    href: SuperOffice.CRM.Services.CommandResult.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IUserAgent.DeleteUserAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.DeleteUserAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_DeleteUserAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteUserAsync
+  nameWithType: IUserAgent.DeleteUserAsync
+  fullName: SuperOffice.CRM.Services.IUserAgent.DeleteUserAsync
 - uid: SuperOffice.CRM.Services.IUserAgent.GetUserAsync*
   commentId: Overload:SuperOffice.CRM.Services.IUserAgent.GetUserAsync
   isExternal: true

@@ -2,6 +2,7 @@
 title: GET List/Rating/Items
 uid: v1RatingList_GetAllSaleStageEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/Rating/Items
@@ -83,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleStageId": 778,
-    "Value": "adipisci",
-    "Tooltip": "ut",
-    "Probability": 683,
-    "Deleted": false,
-    "Rank": 370,
+    "SaleStageId": 935,
+    "Value": "consequatur",
+    "Tooltip": "rerum",
+    "Probability": 874,
+    "Deleted": true,
+    "Rank": 129,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 61
+        "FieldLength": 468
       }
     }
   }

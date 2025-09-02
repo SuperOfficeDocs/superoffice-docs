@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetAssociateDiary
 uid: v1AppointmentAgent_GetAssociateDiary
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetAssociateDiary
@@ -115,6 +116,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -129,14 +131,14 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociateDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 699,
-  "StartTime": "2002-08-01T03:45:22.7017267+02:00",
-  "EndTime": "2020-02-04T03:45:22.7017267+01:00",
-  "Count": 429
+  "AssociateId": 402,
+  "StartTime": "2021-08-25T03:46:54.0039095+02:00",
+  "EndTime": "2007-07-23T03:46:54.0039095+02:00",
+  "Count": 914
 }
 ```
 
@@ -148,66 +150,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 910,
-    "StartDate": "2019-09-23T03:45:22.7017267+02:00",
-    "EndDate": "2000-07-17T03:45:22.7017267+02:00",
+    "AppointmentId": 317,
+    "StartDate": "2011-03-06T03:46:54.0039095+01:00",
+    "EndDate": "2022-09-06T03:46:54.0039095+02:00",
     "Type": "BookingForChecklist",
-    "Task": "impedit",
-    "AssociateFullName": "Paul Zulauf",
-    "ContactName": "DuBuque, Johns and Boyer",
-    "Description": "Proactive static budgetary management",
-    "PersonFullName": "Beatrice Marks",
-    "PersonId": 992,
-    "ContactId": 49,
-    "ProjectId": 470,
-    "ProjectName": "Torp-Pollich",
-    "IsPublished": false,
-    "AssociateId": 493,
-    "ColorIndex": 549,
+    "Task": "cumque",
+    "AssociateFullName": "Marlee Harber",
+    "ContactName": "O'Conner LLC",
+    "Description": "Persevering homogeneous approach",
+    "PersonFullName": "Miss Adrianna Lueilwitz I",
+    "PersonId": 91,
+    "ContactId": 300,
+    "ProjectId": 853,
+    "ProjectName": "Wunsch Group",
+    "IsPublished": true,
+    "AssociateId": 340,
+    "ColorIndex": 558,
     "IsFree": true,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 743,
-    "PriorityName": "Kris-Boyer",
+    "PriorityId": 540,
+    "PriorityName": "Mohr-Schaefer",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2003-02-13T03:45:22.7017267+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2021-10-14T03:46:54.0039095+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-02-06T03:45:22.7017267+01:00",
-    "RecurringEndDate": "2020-05-26T03:45:22.7017267+02:00",
-    "MotherId": 62,
-    "AssignedBy": 868,
-    "AssignedByFullName": "Ms. Laverne Vincent Stracke DDS",
+    "RecurringStartDate": "2010-09-09T03:46:54.0039095+02:00",
+    "RecurringEndDate": "2021-06-25T03:46:54.0039095+02:00",
+    "MotherId": 263,
+    "AssignedBy": 902,
+    "AssignedByFullName": "Uriel Pouros",
     "RejectReason": "",
-    "Location": "adipisci",
-    "AlarmLeadTime": "aut",
-    "SaleId": 408,
-    "SaleName": "Runolfsson LLC",
-    "AssociateName": "Bartell-Schmitt",
-    "CreatedDate": "2005-02-05T03:45:22.7017267+01:00",
-    "CreatedBy": "sed",
-    "CreatedByFullName": "Mr. Odie Rogahn",
-    "CreatedByAssociateId": 638,
+    "Location": "consequatur",
+    "AlarmLeadTime": "impedit",
+    "SaleId": 808,
+    "SaleName": "Sipes Group",
+    "AssociateName": "Abbott Inc and Sons",
+    "CreatedDate": "2017-05-23T03:46:54.0039095+02:00",
+    "CreatedBy": "facere",
+    "CreatedByFullName": "Gilbert Maida Bernier I",
+    "CreatedByAssociateId": 80,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 279,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 827,
-    "Title": "illum",
-    "Agenda": "omnis",
-    "InternalNotes": "nam",
+    "PreferredTZLocation": 656,
+    "Title": "nostrum",
+    "Agenda": "error",
+    "InternalNotes": "distinctio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 612
+        "FieldType": "System.Int32",
+        "FieldLength": 177
       }
     }
   }

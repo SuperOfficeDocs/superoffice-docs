@@ -2,6 +2,7 @@
 title: POST Role
 uid: v1RoleEntity_PostRoleEntity
 generated: true
+content_type: reference
 ---
 
 # POST Role
@@ -101,20 +102,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 848,
-  "Name": "Johns-Larkin",
-  "Tooltip": "quaerat",
+  "RoleId": 640,
+  "Name": "Buckridge, DuBuque and Sipes",
+  "Tooltip": "officia",
   "RoleType": "Anonymous",
-  "Deleted": 584,
-  "Rank": 855,
-  "Created": "2013-10-14T03:45:28.5296817+02:00",
-  "UseCategories": 750,
+  "Deleted": 450,
+  "Rank": 367,
+  "Created": "2012-08-20T03:47:00.2068137+02:00",
+  "UseCategories": 384,
   "CreatedBy": null,
-  "Updated": "2022-09-05T03:45:28.5296817+02:00",
+  "Updated": "2025-02-24T03:47:00.2068137+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,16 +128,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 588,
-  "Name": "Stanton, Gulgowski and Hoppe",
-  "Tooltip": "nisi",
+  "RoleId": 454,
+  "Name": "Swaniawski, Koss and Hoeger",
+  "Tooltip": "cum",
   "RoleType": "Anonymous",
-  "Deleted": 922,
-  "Rank": 162,
-  "Created": "2005-05-21T03:45:28.5296817+02:00",
-  "UseCategories": 123,
+  "Deleted": 623,
+  "Rank": 538,
+  "Created": "2020-05-16T03:47:00.2068137+02:00",
+  "UseCategories": 930,
   "CreatedBy": null,
-  "Updated": "2000-11-11T03:45:28.5296817+01:00",
+  "Updated": "2005-11-12T03:47:00.2068137+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -144,7 +145,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldLength": 806
     }
   },
   "_Links": {

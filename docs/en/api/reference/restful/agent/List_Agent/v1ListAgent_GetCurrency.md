@@ -2,6 +2,7 @@
 title: POST Agents/List/GetCurrency
 uid: v1ListAgent_GetCurrency
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetCurrency
@@ -22,11 +23,11 @@ Gets a Currency object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| currencyId | int32 | **Required** The primary key. |
+| currencyId | int32 | **Required** The identifier of the Currency object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCurrency?currencyId=59
+POST /api/v1/Agents/List/GetCurrency?currencyId=174
 POST /api/v1/Agents/List/GetCurrency?$select=name,department,category/id
 ```
 
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,15 +80,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 887,
-  "Value": "minima",
-  "Tooltip": "nemo",
+  "Id": 508,
+  "Value": "laudantium",
+  "Tooltip": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 85
+      "FieldLength": 616
     }
   }
 }

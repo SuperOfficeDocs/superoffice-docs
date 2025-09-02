@@ -2,6 +2,7 @@
 title: Services88.DashAgent.CreateDefaultDashTileDefinition SOAP
 generated: true
 uid: Services88-Dash-CreateDefaultDashTileDefinition
+content_type: reference
 ---
 
 # Services88 Dash CreateDefaultDashTileDefinition

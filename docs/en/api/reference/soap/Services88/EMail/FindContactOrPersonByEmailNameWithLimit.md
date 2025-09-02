@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.FindContactOrPersonByEmailNameWithLimit SOAP
 generated: true
 uid: Services88-EMail-FindContactOrPersonByEmailNameWithLimit
+content_type: reference
 ---
 
 # Services88 EMail FindContactOrPersonByEmailNameWithLimit

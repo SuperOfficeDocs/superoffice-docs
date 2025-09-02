@@ -2,13 +2,13 @@
 uid: table-ShipmentTypeReservation
 title: ShipmentTypeReservation table
 description: ShipmentTypes a person has reserved against. Note that the absense of a record here implies acceptance of a mailings of this type
-so.generated: true
+generated: true
 keywords: database table ShipmentTypeReservation
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
-# ShipmentTypeReservation Table (498)
+# ShipmentTypeReservation Table (499)
 
 ShipmentTypes a person has reserved against. Note that the absense of a record here implies acceptance of a mailings of this type
 

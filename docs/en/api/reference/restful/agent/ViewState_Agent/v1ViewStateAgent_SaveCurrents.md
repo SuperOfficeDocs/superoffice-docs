@@ -2,6 +2,7 @@
 title: POST Agents/ViewState/SaveCurrents
 uid: v1ViewStateAgent_SaveCurrents
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ViewState/SaveCurrents
@@ -87,13 +88,13 @@ Content-Type: application/json; charset=utf-8
 {
   "Currents": [
     {
-      "Rank": 886,
-      "Id": 621,
-      "HistoryName": "Mosciski Group",
-      "HistoryId": 839,
-      "AssociateId": 136,
-      "Name": "Smitham Group",
-      "ItemInfo": "impedit"
+      "Rank": 848,
+      "Id": 141,
+      "HistoryName": "Cremin, Kreiger and Cole",
+      "HistoryId": 294,
+      "AssociateId": 422,
+      "Name": "Crist-Lesch",
+      "ItemInfo": "natus"
     }
   ]
 }
@@ -107,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 515,
-    "Id": 167,
-    "HistoryName": "Hudson, Abbott and Bernhard",
-    "HistoryId": 544,
-    "AssociateId": 191,
-    "Name": "McLaughlin-Cole",
-    "ItemInfo": "eaque",
+    "Rank": 876,
+    "Id": 908,
+    "HistoryName": "Emmerich-Kub",
+    "HistoryId": 968,
+    "AssociateId": 183,
+    "Name": "Prohaska Group",
+    "ItemInfo": "asperiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 742
+        "FieldLength": 250
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Appointment
 uid: v1AppointmentEntity_PostAppointmentEntity
 generated: true
+content_type: reference
 ---
 
 # POST Appointment
@@ -194,7 +195,7 @@ OK
 POST /api/v1/Appointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -202,106 +203,106 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2001-07-19T03:45:28.0453244+02:00",
-  "AppointmentId": 882,
-  "Description": "Seamless logistical adapter",
-  "Title": "corporis",
-  "Agenda": "qui",
-  "InternalNotes": "aut",
-  "StartDate": "2005-06-17T03:45:28.0453244+02:00",
-  "EndDate": "2021-08-15T03:45:28.0453244+02:00",
+  "CreatedDate": "2002-08-14T03:46:59.6599495+02:00",
+  "AppointmentId": 620,
+  "Description": "Streamlined stable strategy",
+  "Title": "ut",
+  "Agenda": "ipsa",
+  "InternalNotes": "quas",
+  "StartDate": "2012-05-19T03:46:59.6599495+02:00",
+  "EndDate": "2016-08-30T03:46:59.6599495+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 180,
+  "MotherId": 528,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2023-05-29T03:45:28.0453244+02:00",
+  "UpdatedDate": "2003-07-08T03:46:59.6755748+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 192,
+  "ActiveLinks": 775,
   "Links": [
     {
-      "EntityName": "Erdman Group",
-      "Id": 770,
-      "Description": "Automated motivating analyzer",
-      "ExtraInfo": "nostrum",
-      "LinkId": 856
+      "EntityName": "Littel, Hoppe and Emmerich",
+      "Id": 101,
+      "Description": "Extended modular workforce",
+      "ExtraInfo": "libero",
+      "LinkId": 147
     },
     {
-      "EntityName": "Erdman Group",
-      "Id": 770,
-      "Description": "Automated motivating analyzer",
-      "ExtraInfo": "nostrum",
-      "LinkId": 856
+      "EntityName": "Littel, Hoppe and Emmerich",
+      "Id": 101,
+      "Description": "Extended modular workforce",
+      "ExtraInfo": "libero",
+      "LinkId": 147
     }
   ],
-  "AlarmLeadTime": "iure",
-  "HasAlarm": false,
-  "ColorIndex": 140,
+  "AlarmLeadTime": "enim",
+  "HasAlarm": true,
+  "ColorIndex": 301,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "adipisci",
-  "LeadTime": "repellat",
-  "Location": "nihil",
-  "RejectCounter": 588,
-  "RejectReason": "visualize B2B e-business",
+  "IsAlldayEvent": false,
+  "LagTime": "qui",
+  "LeadTime": "exercitationem",
+  "Location": "provident",
+  "RejectCounter": 633,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 544,
-      "PersonId": 425,
-      "ContactId": 172,
-      "EmailId": 747,
+      "AssociateId": 180,
+      "PersonId": 877,
+      "ContactId": 126,
+      "EmailId": 327,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "adolf_heidenreich@hahnquigley.uk",
-      "Description": "Digitized human-resource customer loyalty"
+      "EmailAddress": "layla.ryan@ernserbeahan.uk",
+      "Description": "Centralized foreground alliance"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2007-12-21T03:45:28.0453244+01:00",
+  "ActiveDate": "2004-05-22T03:46:59.6755748+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 831,
+  "PreferredTZLocation": 684,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 543,
+  "SuggestedAppointmentId": 20,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "enim",
+  "CentralserviceVideomeetId": "aperiam",
   "UserDefinedFields": {
-    "SuperOffice:1": "Bart Little",
-    "SuperOffice:2": "Cali McLaughlin"
+    "SuperOffice:1": "577872613",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "possimus",
-    "ExtraFields2": "laboriosam"
+    "ExtraFields1": "consectetur",
+    "ExtraFields2": "quae"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "et"
+    "CustomFields1": "soluta",
+    "CustomFields2": "tempore"
   },
-  "PublishEventDate": "2009-02-02T03:45:28.0453244+01:00",
-  "PublishTo": "2004-12-17T03:45:28.0453244+01:00",
-  "PublishFrom": "2009-04-22T03:45:28.0453244+02:00",
+  "PublishEventDate": "2009-02-24T03:46:59.6755748+01:00",
+  "PublishTo": "2009-05-27T03:46:59.6755748+02:00",
+  "PublishFrom": "2022-10-22T03:46:59.6755748+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 381,
+      "VisibleId": 945,
       "Visibility": "All",
-      "DisplayValue": "architecto"
+      "DisplayValue": "laborum"
     },
     {
-      "VisibleId": 381,
+      "VisibleId": 945,
       "Visibility": "All",
-      "DisplayValue": "architecto"
+      "DisplayValue": "laborum"
     }
   ]
 }
@@ -318,121 +319,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2003-03-27T03:45:28.0453244+01:00",
-  "AppointmentId": 495,
-  "Description": "Progressive web-enabled website",
-  "Title": "quasi",
-  "Agenda": "et",
-  "InternalNotes": "architecto",
-  "StartDate": "2010-03-31T03:45:28.0453244+02:00",
-  "EndDate": "2020-03-18T03:45:28.0453244+01:00",
+  "CreatedDate": "2015-02-15T03:46:59.6755748+01:00",
+  "AppointmentId": 80,
+  "Description": "Mandatory bandwidth-monitored hierarchy",
+  "Title": "tempora",
+  "Agenda": "dolorem",
+  "InternalNotes": "illum",
+  "StartDate": "1999-03-07T03:46:59.6755748+01:00",
+  "EndDate": "2025-03-12T03:46:59.6755748+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 137,
+  "MotherId": 714,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2001-07-24T03:45:28.0453244+02:00",
+  "UpdatedDate": "2000-11-23T03:46:59.6755748+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 809,
+  "ActiveLinks": 770,
   "Links": [
     {
-      "EntityName": "Nienow-Heller",
-      "Id": 978,
-      "Description": "Ergonomic scalable concept",
-      "ExtraInfo": "aliquid",
-      "LinkId": 209,
+      "EntityName": "Mayert-Batz",
+      "Id": 154,
+      "Description": "Re-contextualized tangible complexity",
+      "ExtraInfo": "commodi",
+      "LinkId": 184,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 71
+          "FieldType": "System.Int32",
+          "FieldLength": 196
         }
       }
     }
   ],
-  "AlarmLeadTime": "atque",
+  "AlarmLeadTime": "quam",
   "HasAlarm": true,
-  "ColorIndex": 791,
+  "ColorIndex": 540,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "asperiores",
-  "LeadTime": "repellendus",
-  "Location": "et",
-  "RejectCounter": 505,
+  "IsAlldayEvent": false,
+  "LagTime": "consequatur",
+  "LeadTime": "nulla",
+  "Location": "aut",
+  "RejectCounter": 450,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 412,
-      "PersonId": 964,
-      "ContactId": 771,
-      "EmailId": 137,
+      "AssociateId": 696,
+      "PersonId": 340,
+      "ContactId": 140,
+      "EmailId": 593,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "sharon@johnston.biz",
-      "Description": "Reduced static superstructure"
+      "EmailAddress": "ford.boehm@williamson.info",
+      "Description": "Stand-alone empowering capacity"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2009-03-02T03:45:28.0453244+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2003-06-18T03:46:59.6755748+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 758,
+  "PreferredTZLocation": 852,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 296,
+  "SuggestedAppointmentId": 680,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ipsam",
+  "CentralserviceVideomeetId": "cum",
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Clifton Ernser"
+    "SuperOffice:1": "Mr. Jazmyn Ike Bayer IV",
+    "SuperOffice:2": "Geoffrey Ortiz"
   },
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "tempore"
+    "ExtraFields1": "doloribus",
+    "ExtraFields2": "architecto"
   },
   "CustomFields": {
-    "CustomFields1": "praesentium",
-    "CustomFields2": "nulla"
+    "CustomFields1": "non",
+    "CustomFields2": "non"
   },
-  "PublishEventDate": "2000-09-19T03:45:28.0453244+02:00",
-  "PublishTo": "2018-01-15T03:45:28.0453244+01:00",
-  "PublishFrom": "2009-09-29T03:45:28.0453244+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2009-09-23T03:46:59.6755748+02:00",
+  "PublishTo": "2015-02-08T03:46:59.6755748+01:00",
+  "PublishFrom": "2003-09-22T03:46:59.6755748+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 920,
+      "VisibleId": 858,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 580
+          "FieldLength": 342
         }
       }
     },
     {
-      "VisibleId": 920,
+      "VisibleId": 858,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 580
+          "FieldLength": 342
         }
       }
     }
@@ -441,8 +442,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 286
+      "FieldType": "System.String",
+      "FieldLength": 196
     }
   },
   "_Links": {

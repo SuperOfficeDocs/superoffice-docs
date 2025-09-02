@@ -2,6 +2,7 @@
 title: GET Sale/{id}/HasGuide
 uid: v1SaleEntity_HasGuide
 generated: true
+content_type: reference
 ---
 
 # GET Sale/{id}/HasGuide
@@ -54,7 +55,7 @@ OK
 GET /api/v1/Sale/{saleId}/HasGuide
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

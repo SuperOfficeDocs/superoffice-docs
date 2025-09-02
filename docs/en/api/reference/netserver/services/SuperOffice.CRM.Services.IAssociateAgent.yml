@@ -85,7 +85,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Associate}
-      description: Associate
+      description: A single Associate
     content.vb: Function GetAssociateAsync(associateId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Associate)
   overload: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateAsync*
   nameWithType.vb: IAssociateAgent.GetAssociateAsync(Integer, CancellationToken)
@@ -242,7 +242,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Associate[]}
-      description: Array of Associate objects
+      description: Array of Associate
     content.vb: Function GetAssociateListAsync(associateIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of Associate())
   overload: SuperOffice.CRM.Services.IAssociateAgent.GetAssociateListAsync*
   nameWithType.vb: IAssociateAgent.GetAssociateListAsync(Integer(), CancellationToken)

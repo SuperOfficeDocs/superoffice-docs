@@ -2,6 +2,7 @@
 title: POST Agents/Saint/SaveStatusMonitorPeriods
 uid: v1SaintAgent_SaveStatusMonitorPeriods
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Saint/SaveStatusMonitorPeriods
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Saint/SaveStatusMonitorPeriods
 ```
 
-Updates the existing StatusMonitorPeriods or creates a new StatusMonitorPeriods if the id parameter is empty
+Updates the existing StatusMonitorPeriods or creates a new StatusMonitorPeriods if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing StatusMonitorPeriods or creates a new StatusMonitorPeriods 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: statusMonitorPeriods 
 
-The StatusMonitorPeriods to be saved. 
+The StatusMonitorPeriods that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -71,9 +72,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 9,
-  "Period2": 901,
-  "Period3": 940
+  "Period1": 214,
+  "Period2": 339,
+  "Period3": 199
 }
 ```
 
@@ -84,15 +85,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 716,
-  "Period2": 980,
-  "Period3": 768,
+  "Period1": 310,
+  "Period2": 369,
+  "Period3": 769,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldLength": 457
     }
   }
 }

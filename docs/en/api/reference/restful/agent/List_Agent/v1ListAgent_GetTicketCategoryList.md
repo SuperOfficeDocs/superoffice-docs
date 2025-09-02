@@ -2,6 +2,7 @@
 title: POST Agents/List/GetTicketCategoryList
 uid: v1ListAgent_GetTicketCategoryList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetTicketCategoryList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetTicketCategoryList?$select=name,department,category/
 
 ## Request Body: ticketCategoryEntityIds 
 
-The primary keys. 
+The identifiers of the TicketCategoryEntity object 
 
 
 ## Response:array
@@ -98,36 +99,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 27,
-    "ParentId": 873,
-    "Name": "Wilkinson LLC",
-    "Fullname": "assumenda",
-    "CategoryMaster": 567,
+    "TicketCategoryId": 969,
+    "ParentId": 162,
+    "Name": "Wehner, Christiansen and Waters",
+    "Fullname": "dolor",
+    "CategoryMaster": 153,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Ruecker-Lind",
+    "ExternalName": "West, Dicki and Lehner",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 363,
-    "ReplyTemplate": 344,
-    "NotificationEmail": "geovanni@crona.uk",
+    "AssignmentLag": 53,
+    "ReplyTemplate": 82,
+    "NotificationEmail": "fredrick.nikolaus@vandervort.biz",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 719,
+    "EffectiveReplyTemplateId": 580,
     "ExtraFields": {
-      "ExtraFields1": "impedit",
-      "ExtraFields2": "quisquam"
+      "ExtraFields1": "dolorem",
+      "ExtraFields2": "vero"
     },
     "CustomFields": {
-      "CustomFields1": "impedit",
-      "CustomFields2": "autem"
+      "CustomFields1": "ex",
+      "CustomFields2": "ducimus"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 215
+        "FieldLength": 8
       }
     }
   }

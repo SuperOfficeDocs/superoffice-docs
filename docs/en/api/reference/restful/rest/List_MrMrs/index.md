@@ -1,6 +1,8 @@
 ---
+uid: tag-List_MrMrs
 title: List_MrMrs
 generated: true
+content_type: reference
 ---
 
 ```http

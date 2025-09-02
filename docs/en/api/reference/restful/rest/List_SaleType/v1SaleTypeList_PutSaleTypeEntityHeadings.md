@@ -2,6 +2,7 @@
 title: PUT List/SaleType/Headings
 uid: v1SaleTypeList_PutSaleTypeEntityHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/SaleType/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 586,
-    "Name": "Rempel-Donnelly",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 717,
-    "UdListDefinitionId": 845
+    "HeadingId": 103,
+    "Name": "Lueilwitz Group",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "Rank": 117,
+    "UdListDefinitionId": 243
   },
   {
-    "HeadingId": 586,
-    "Name": "Rempel-Donnelly",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 717,
-    "UdListDefinitionId": 845
+    "HeadingId": 103,
+    "Name": "Lueilwitz Group",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "Rank": 117,
+    "UdListDefinitionId": 243
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 755,
-    "Name": "Friesen-Mills",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "Rank": 21,
-    "UdListDefinitionId": 660,
+    "HeadingId": 813,
+    "Name": "Hilpert-Hand",
+    "Tooltip": "id",
+    "Deleted": false,
+    "Rank": 916,
+    "UdListDefinitionId": 503,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 952
+        "FieldLength": 194
       }
     }
   }

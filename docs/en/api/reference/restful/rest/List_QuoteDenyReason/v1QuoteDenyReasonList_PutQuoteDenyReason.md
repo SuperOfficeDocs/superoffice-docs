@@ -2,6 +2,7 @@
 title: PUT List/QuoteDenyReason/Items/{id}
 uid: v1QuoteDenyReasonList_PutQuoteDenyReason
 generated: true
+content_type: reference
 ---
 
 # PUT List/QuoteDenyReason/Items/{id}
@@ -78,16 +79,16 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 557,
-  "Name": "Herman, Ankunding and Dietrich",
-  "Tooltip": "facilis",
+  "Id": 956,
+  "Name": "Schuster-Zulauf",
+  "Tooltip": "autem",
   "Deleted": true,
-  "UdListDefinitionId": 464,
-  "Rank": 689
+  "UdListDefinitionId": 960,
+  "Rank": 575
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 387,
-  "Name": "Russel Group",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "UdListDefinitionId": 90,
-  "Rank": 928,
+  "Id": 79,
+  "Name": "Kshlerin-Jerde",
+  "Tooltip": "recusandae",
+  "Deleted": true,
+  "UdListDefinitionId": 538,
+  "Rank": 889,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 609
+      "FieldType": "System.String",
+      "FieldLength": 36
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/Workflow/CopyEmailFlow
 uid: v1WorkflowAgent_CopyEmailFlow
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Workflow/CopyEmailFlow
@@ -73,8 +74,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 443,
-  "NewName": "Heaney-Lesch"
+  "EmailFlowId": 297,
+  "NewName": "Shields-Torphy"
 }
 ```
 
@@ -84,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-501
+581
 ```

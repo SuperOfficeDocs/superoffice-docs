@@ -2,6 +2,7 @@
 title: Services88.FindAgent.FindWithColumns SOAP
 generated: true
 uid: Services88-Find-FindWithColumns
+content_type: reference
 ---
 
 # Services88 Find FindWithColumns

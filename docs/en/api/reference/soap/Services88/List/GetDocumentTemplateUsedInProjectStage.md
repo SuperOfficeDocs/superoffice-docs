@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetDocumentTemplateUsedInProjectStage SOAP
 generated: true
 uid: Services88-List-GetDocumentTemplateUsedInProjectStage
+content_type: reference
 ---
 
 # Services88 List GetDocumentTemplateUsedInProjectStage

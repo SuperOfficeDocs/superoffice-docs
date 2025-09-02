@@ -2,6 +2,7 @@
 title: GET List/{id}/Items/{id}/UserGroups
 uid: v1ListItemEntity_GetVisibleForUserGroups
 generated: true
+content_type: reference
 ---
 
 # GET List/{id}/Items/{id}/UserGroups
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 689,
-    "Name": "Howell Group",
-    "ToolTip": "Quam dolorem.",
-    "Deleted": false,
-    "Rank": 720,
-    "Type": "ut",
-    "ColorBlock": 961,
-    "IconHint": "sed",
+    "Id": 391,
+    "Name": "Bednar LLC",
+    "ToolTip": "Est voluptas quis delectus quia non.",
+    "Deleted": true,
+    "Rank": 472,
+    "Type": "consequuntur",
+    "ColorBlock": 856,
+    "IconHint": "incidunt",
     "Selected": true,
-    "LastChanged": "2019-05-10T03:45:28.9517993+02:00",
+    "LastChanged": "2025-08-28T03:47:00.5505518+02:00",
     "ChildItems": [
       {
-        "Id": 559,
-        "Name": "Roob LLC",
-        "ToolTip": "Non suscipit adipisci possimus nobis beatae.",
+        "Id": 205,
+        "Name": "Kunze-Tremblay",
+        "ToolTip": "Rerum quidem facilis possimus eligendi.",
         "Deleted": false,
-        "Rank": 833,
-        "Type": "odio",
-        "ColorBlock": 904,
-        "IconHint": "magnam",
+        "Rank": 446,
+        "Type": "odit",
+        "ColorBlock": 451,
+        "IconHint": "sed",
         "Selected": true,
-        "LastChanged": "2002-04-17T03:45:28.9517993+02:00",
+        "LastChanged": "2011-09-18T03:47:00.5505518+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "qui",
+        "ExtraInfo": "sunt",
+        "StyleHint": "atque",
         "Hidden": false,
-        "FullName": "Gwen Ruecker",
+        "FullName": "Ms. Clemens Lubowitz MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 425
+            "FieldType": "System.String",
+            "FieldLength": 734
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Cielo Crist",
+    "ExtraInfo": "tempora",
+    "StyleHint": "voluptas",
+    "Hidden": true,
+    "FullName": "Miss Giovanni Ivy Hoeger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 494
+        "FieldLength": 207
       }
     }
   }

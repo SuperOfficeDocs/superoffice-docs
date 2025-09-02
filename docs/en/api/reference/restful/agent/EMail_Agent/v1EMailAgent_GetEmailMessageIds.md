@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetEmailMessageIds
 uid: v1EMailAgent_GetEmailMessageIds
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetEmailMessageIds
@@ -70,7 +71,7 @@ OK
 POST /api/v1/Agents/EMail/GetEmailMessageIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -85,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "eligendi",
-  "repellat"
+  "ut",
+  "aut"
 ]
 ```

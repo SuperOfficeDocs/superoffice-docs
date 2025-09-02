@@ -2,6 +2,7 @@
 title: Services88.SaleAgent.OfferAutoNextStageOnApppointmentCompleted SOAP
 generated: true
 uid: Services88-Sale-OfferAutoNextStageOnApppointmentCompleted
+content_type: reference
 ---
 
 # Services88 Sale OfferAutoNextStageOnApppointmentCompleted

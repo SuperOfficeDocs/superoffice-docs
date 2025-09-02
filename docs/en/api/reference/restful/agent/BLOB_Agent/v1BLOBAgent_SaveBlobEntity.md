@@ -2,6 +2,7 @@
 title: POST Agents/BLOB/SaveBlobEntity
 uid: v1BLOBAgent_SaveBlobEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BLOB/SaveBlobEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 ```
 
-Updates the existing BlobEntity or creates a new BlobEntity if the id parameter is empty
+Updates the existing BlobEntity or creates a new BlobEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing BlobEntity or creates a new BlobEntity if the id parameter 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: blobEntity 
 
-The BlobEntity to be saved. 
+The BlobEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -87,23 +88,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 935,
-  "BlobSize": 53,
-  "Description": "Realigned zero tolerance circuit",
-  "ExtraInfo": "blanditiis",
-  "IsEncrypted": true,
+  "BlobId": 841,
+  "BlobSize": 176,
+  "Description": "Adaptive 24 hour policy",
+  "ExtraInfo": "cumque",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "possimus",
-  "OriginalSize": 230,
-  "CreatedDate": "2025-03-19T03:45:22.9829669+01:00",
-  "UpdatedDate": "2009-07-03T03:45:22.9829669+02:00",
+  "MimeType": "quas",
+  "OriginalSize": 900,
+  "CreatedDate": "2008-10-23T03:46:54.3007673+02:00",
+  "UpdatedDate": "2022-11-14T03:46:54.3007673+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "odit"
+  "ConceptualType": "voluptatibus"
 }
 ```
 
@@ -114,25 +115,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 76,
-  "BlobSize": 436,
-  "Description": "Front-line well-modulated function",
+  "BlobId": 898,
+  "BlobSize": 966,
+  "Description": "Multi-channelled well-modulated neural-net",
   "ExtraInfo": "eum",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "deserunt",
-  "OriginalSize": 952,
-  "CreatedDate": "2002-12-27T03:45:22.9829669+01:00",
-  "UpdatedDate": "2014-11-17T03:45:22.9829669+01:00",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "tenetur",
+  "OriginalSize": 972,
+  "CreatedDate": "1999-09-21T03:46:54.3007673+02:00",
+  "UpdatedDate": "2019-05-18T03:46:54.3007673+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "repudiandae",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 89
+      "FieldLength": 891
     }
   }
 }

@@ -2,6 +2,7 @@
 title: GET List/Source/Headings
 uid: v1SourceList_GetSourceHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/Source/Headings
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 820,
-    "Name": "Cole, Sporer and Beahan",
-    "Tooltip": "cum",
-    "Deleted": false,
-    "Rank": 852,
-    "UdListDefinitionId": 166,
+    "HeadingId": 519,
+    "Name": "Prosacco LLC",
+    "Tooltip": "suscipit",
+    "Deleted": true,
+    "Rank": 433,
+    "UdListDefinitionId": 659,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 89
+        "FieldLength": 467
       }
     }
   }

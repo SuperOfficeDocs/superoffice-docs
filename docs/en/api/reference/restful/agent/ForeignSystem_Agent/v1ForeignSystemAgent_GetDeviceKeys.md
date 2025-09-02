@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/GetDeviceKeys
 uid: v1ForeignSystemAgent_GetDeviceKeys
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/GetDeviceKeys
@@ -85,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Lueilwitz, Ziemann and Baumbach",
-  "DeviceName": "Ebert LLC"
+  "ApplicationName": "Goyette, Lueilwitz and Reichert",
+  "DeviceName": "Langosh, Runolfsdottir and Koelpin"
 }
 ```
 
@@ -98,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "expedita",
-    "Value": "autem",
-    "RecordId": 665,
-    "CreatedDate": "2012-10-20T03:45:23.498579+02:00",
-    "UpdatedDate": "2024-08-03T03:45:23.498579+02:00",
-    "UpdatedBy": "vel",
-    "CreatedBy": "id",
-    "TableName": "Altenwerth-Cummings",
+    "Key": "quis",
+    "Value": "ut",
+    "RecordId": 410,
+    "CreatedDate": "2018-08-28T03:46:54.9107593+02:00",
+    "UpdatedDate": "2021-11-13T03:46:54.9107593+01:00",
+    "UpdatedBy": "dolorem",
+    "CreatedBy": "vitae",
+    "TableName": "Collier, Reichel and Quitzon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 41
+        "FieldLength": 457
       }
     }
   }

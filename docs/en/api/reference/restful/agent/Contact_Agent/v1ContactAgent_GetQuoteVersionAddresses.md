@@ -2,6 +2,7 @@
 title: POST Agents/Contact/GetQuoteVersionAddresses
 uid: v1ContactAgent_GetQuoteVersionAddresses
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Contact/GetQuoteVersionAddresses
@@ -80,11 +81,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 547
+  "QuoteVersionId": 835
 }
 ```
 
@@ -96,41 +97,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 8192.276,
-    "Wgs84Longitude": 11348.214,
+    "Wgs84Latitude": 2131.12,
+    "Wgs84Longitude": 17064.63,
     "LocalizedAddress": [
       [
         {
-          "Name": "Carroll-Green",
-          "Value": "et",
-          "Tooltip": "autem",
-          "Label": "tempore",
-          "ValueLength": 98,
-          "AddressType": "quis",
+          "Name": "Daniel, Kris and Schultz",
+          "Value": "error",
+          "Tooltip": "est",
+          "Label": "dolores",
+          "ValueLength": 624,
+          "AddressType": "inventore",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.String",
-              "FieldLength": 606
+              "FieldType": "System.Int32",
+              "FieldLength": 720
             }
           }
         }
       ],
       [
         {
-          "Name": "Reichel Group",
-          "Value": "et",
-          "Tooltip": "accusantium",
-          "Label": "similique",
-          "ValueLength": 338,
-          "AddressType": "ea",
+          "Name": "Lesch-Bradtke",
+          "Value": "cum",
+          "Tooltip": "sed",
+          "Label": "qui",
+          "ValueLength": 679,
+          "AddressType": "facere",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.Int32",
-              "FieldLength": 997
+              "FieldType": "System.String",
+              "FieldLength": 614
             }
           }
         }
@@ -138,13 +139,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "maxime",
+    "Formatted": "exercitationem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 9
+        "FieldLength": 330
       }
     }
   }

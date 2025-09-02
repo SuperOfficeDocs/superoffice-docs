@@ -1,6 +1,8 @@
 ---
+uid: tag-List_Position
 title: List_Position
 generated: true
+content_type: reference
 ---
 
 ```http

@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/GetPreviewAttachmentStream
 uid: v1TicketAgent_GetPreviewAttachmentStream
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/GetPreviewAttachmentStream
@@ -82,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 17
+  "AttachmentId": 611
 }
 ```
 
@@ -93,16 +94,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Harber-Lehner",
-  "Type": "ipsa",
-  "Size": 751,
+  "Name": "Dicki LLC",
+  "Type": "inventore",
+  "Size": 276,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 455
+      "FieldType": "System.Int32",
+      "FieldLength": 424
     }
   }
 }

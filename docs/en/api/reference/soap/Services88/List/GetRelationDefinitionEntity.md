@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetRelationDefinitionEntity SOAP
 generated: true
 uid: Services88-List-GetRelationDefinitionEntity
+content_type: reference
 ---
 
 # Services88 List GetRelationDefinitionEntity

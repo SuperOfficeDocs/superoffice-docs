@@ -2,6 +2,7 @@
 title: Services88.ArchiveAgent.ExportArchive SOAP
 generated: true
 uid: Services88-Archive-ExportArchive
+content_type: reference
 ---
 
 # Services88 Archive ExportArchive

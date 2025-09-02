@@ -2,6 +2,7 @@
 title: Services88.TargetsAgent SOAP
 uid: Services88-Targets-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Targets SOAP

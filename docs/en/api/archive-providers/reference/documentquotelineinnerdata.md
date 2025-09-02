@@ -3,9 +3,9 @@ uid: DocumentQuoteLineInnerData
 title: DocumentQuoteLineInnerData
 description: 
 keywords: DocumentQuoteLineInnerData archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "DocumentQuoteLineInnerData"

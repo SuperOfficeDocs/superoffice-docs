@@ -2,6 +2,7 @@
 title: GET List/DeliveryType/MDOItems
 uid: v1DeliveryTypeList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/DeliveryType/MDOItems
@@ -26,8 +27,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=True
-GET /api/v1/List/DeliveryType/MDOItems?query=ipsa
+GET /api/v1/List/DeliveryType/MDOItems?flat=False
+GET /api/v1/List/DeliveryType/MDOItems?query=iusto
 ```
 
 
@@ -78,7 +79,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 273,
-    "Name": "Torp LLC",
-    "ToolTip": "Dolorem quis quia quia.",
+    "Id": 643,
+    "Name": "Von, Okuneva and Towne",
+    "ToolTip": "Excepturi amet.",
     "Deleted": false,
-    "Rank": 236,
-    "Type": "consequatur",
+    "Rank": 296,
+    "Type": "id",
     "ChildItems": [
       {
-        "Id": 599,
-        "Name": "Labadie-Boyer",
-        "ToolTip": "Sint eum harum laudantium sapiente sit voluptatem odit.",
-        "Deleted": false,
-        "Rank": 719,
-        "Type": "perspiciatis",
+        "Id": 50,
+        "Name": "O'Hara Group",
+        "ToolTip": "Dignissimos eos.",
+        "Deleted": true,
+        "Rank": 357,
+        "Type": "exercitationem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "adipisci",
-        "ColorBlock": 623,
-        "ExtraInfo": "rerum",
-        "StyleHint": "voluptatum",
-        "FullName": "Carleton Kreiger",
+        "IconHint": "cupiditate",
+        "ColorBlock": 541,
+        "ExtraInfo": "consequatur",
+        "StyleHint": "nisi",
+        "FullName": "Roberto Leuschke III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 159
+            "FieldLength": 743
           }
         }
       }
     ],
-    "IconHint": "eveniet",
-    "ColorBlock": 484,
-    "ExtraInfo": "recusandae",
-    "StyleHint": "voluptas",
-    "FullName": "Hardy Lang",
+    "IconHint": "optio",
+    "ColorBlock": 793,
+    "ExtraInfo": "totam",
+    "StyleHint": "deserunt",
+    "FullName": "Kelli Huels",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 78
+        "FieldType": "System.Int32",
+        "FieldLength": 493
       }
     }
   }

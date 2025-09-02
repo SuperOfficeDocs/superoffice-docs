@@ -2,6 +2,7 @@
 title: GET List/ProductFamily/Items/{id}/Headings
 uid: v1ProductFamilyList_GetProductFamilyHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/ProductFamily/Items/{id}/Headings
@@ -85,7 +86,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 204,
-    "Name": "Goodwin, Greenholt and Huel",
-    "ToolTip": "Sit amet totam beatae molestiae voluptas.",
+    "Id": 397,
+    "Name": "Stroman, Moore and Durgan",
+    "ToolTip": "Maiores distinctio sequi eum dolorum repellendus odio.",
     "Deleted": false,
-    "Rank": 795,
-    "Type": "et",
-    "ColorBlock": 28,
-    "IconHint": "voluptatibus",
+    "Rank": 221,
+    "Type": "tempore",
+    "ColorBlock": 679,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2008-11-23T03:45:29.1549343+01:00",
+    "LastChanged": "2013-12-08T03:47:00.7380451+01:00",
     "ChildItems": [
       {
-        "Id": 640,
-        "Name": "Ledner, Kulas and VonRueden",
-        "ToolTip": "Officiis qui ad.",
+        "Id": 528,
+        "Name": "Hammes, O'Kon and Ryan",
+        "ToolTip": "Neque sit.",
         "Deleted": false,
-        "Rank": 967,
-        "Type": "non",
-        "ColorBlock": 292,
-        "IconHint": "iure",
-        "Selected": false,
-        "LastChanged": "2020-11-07T03:45:29.1549343+01:00",
+        "Rank": 718,
+        "Type": "sed",
+        "ColorBlock": 99,
+        "IconHint": "accusamus",
+        "Selected": true,
+        "LastChanged": "2009-01-06T03:47:00.7380451+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "incidunt",
+        "ExtraInfo": "natus",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Emile Daniel",
+        "FullName": "Johnathon Bergnaum Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 619
+            "FieldLength": 814
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "deleniti",
+    "ExtraInfo": "qui",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Jude Kuphal Sr.",
+    "FullName": "Nick Kertzmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 646
+        "FieldLength": 589
       }
     }
   }

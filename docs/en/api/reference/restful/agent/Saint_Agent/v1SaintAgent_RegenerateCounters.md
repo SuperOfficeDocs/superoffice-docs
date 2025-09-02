@@ -2,6 +2,7 @@
 title: POST Agents/Saint/RegenerateCounters
 uid: v1SaintAgent_RegenerateCounters
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Saint/RegenerateCounters
@@ -109,37 +110,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 520,
-  "Name": "Moen Group",
-  "AssociateId": 471,
-  "DetailsTable": 173,
-  "DetailsRecord": 823,
-  "IsSystemTask": false,
+  "Id": 837,
+  "Name": "Davis-Monahan",
+  "AssociateId": 726,
+  "DetailsTable": 841,
+  "DetailsRecord": 874,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "quo",
-    "ParameterObject2": "ut"
+    "ParameterObject1": "non",
+    "ParameterObject2": "quis"
   },
-  "LastStarted": "2016-07-23T03:45:23.8423206+02:00",
-  "Created": "2022-11-09T03:45:23.8423206+01:00",
-  "StartCount": 76,
-  "DatabaseSerialNumber": "664245",
-  "Context": "iure",
-  "Result": "eius",
+  "LastStarted": "2024-10-21T03:46:55.2382402+02:00",
+  "Created": "2021-05-21T03:46:55.2382402+02:00",
+  "StartCount": 368,
+  "DatabaseSerialNumber": "902719",
+  "Context": "rerum",
+  "Result": "et",
   "State": "All",
-  "Description": "User-centric real-time superstructure",
-  "Response": "voluptatem",
-  "Request": "ut",
-  "ProgressDescription": "Configurable bifurcated conglomeration",
-  "ProgressPercent": 284,
-  "FileName": "Lesch Group",
+  "Description": "Synchronised 4th generation throughput",
+  "Response": "cum",
+  "Request": "aliquid",
+  "ProgressDescription": "Universal assymetric help-desk",
+  "ProgressPercent": 252,
+  "FileName": "Cummerata, Ruecker and Tromp",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 415
+      "FieldType": "System.String",
+      "FieldLength": 992
     }
   }
 }

@@ -2,6 +2,7 @@
 title: GET Appointment/CustomField
 uid: v1AppointmentEntity_GetCustomFieldInfoList
 generated: true
+content_type: reference
 ---
 
 # GET Appointment/CustomField
@@ -68,7 +69,7 @@ OK
 GET /api/v1/Appointment/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Kozey LLC",
-    "DisplayName": "Stoltenberg-Weber",
-    "Description": "Operative 5th generation instruction set",
-    "ShortLabel": "fugit",
-    "HideLabel": true,
+    "FieldName": "Weber, Metz and Waters",
+    "DisplayName": "Schowalter-Russel",
+    "Description": "Configurable content-based focus group",
+    "ShortLabel": "quaerat",
+    "HideLabel": false,
     "HideField": true,
     "IsIndexed": true,
-    "IsMandatory": true,
-    "IsReadOnly": true,
+    "IsMandatory": false,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 735,
-    "TemplateVariableName": "Satterfield Group"
+    "IsDisplayField": false,
+    "Rank": 686,
+    "TemplateVariableName": "Paucek, Wuckert and Lubowitz"
   }
 ]
 ```

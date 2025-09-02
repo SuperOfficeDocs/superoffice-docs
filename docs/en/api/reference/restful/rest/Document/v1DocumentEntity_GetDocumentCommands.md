@@ -2,6 +2,7 @@
 title: GET Document/{id}/Command
 uid: v1DocumentEntity_GetDocumentCommands
 generated: true
+content_type: reference
 ---
 
 # GET Document/{id}/Command
@@ -73,7 +74,7 @@ OK
 GET /api/v1/Document/{documentId}/Command
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Little-Wyman",
-    "DisplayName": "Corwin-Terry",
-    "DisplayTooltip": "laborum",
-    "IconHint": "nemo",
+    "Name": "Beahan-Klein",
+    "DisplayName": "Rohan, Hoeger and Moen",
+    "DisplayTooltip": "praesentium",
+    "IconHint": "reprehenderit",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Little-Wyman",
-    "DisplayName": "Corwin-Terry",
-    "DisplayTooltip": "laborum",
-    "IconHint": "nemo",
+    "Name": "Beahan-Klein",
+    "DisplayName": "Rohan, Hoeger and Moen",
+    "DisplayTooltip": "praesentium",
+    "IconHint": "reprehenderit",
     "ReturnType": "CustomGui"
   }
 ]

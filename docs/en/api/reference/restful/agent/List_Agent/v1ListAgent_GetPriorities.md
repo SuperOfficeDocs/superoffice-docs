@@ -2,6 +2,7 @@
 title: POST Agents/List/GetPriorities
 uid: v1ListAgent_GetPriorities
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetPriorities
@@ -78,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 667,
-    "Value": "recusandae",
-    "Tooltip": "et",
+    "Id": 236,
+    "Value": "sapiente",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 726
+        "FieldType": "System.String",
+        "FieldLength": 658
       }
     }
   },
   {
-    "Id": 667,
-    "Value": "recusandae",
-    "Tooltip": "et",
+    "Id": 236,
+    "Value": "sapiente",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 726
+        "FieldType": "System.String",
+        "FieldLength": 658
       }
     }
   }

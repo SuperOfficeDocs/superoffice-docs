@@ -2,6 +2,7 @@
 title: POST Agents/User/RegisterWithAccessGateway
 uid: v1UserAgent_RegisterWithAccessGateway
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/RegisterWithAccessGateway
@@ -80,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RedirectUri": "vitae"
+  "RedirectUri": "est"
 }
 ```
 
@@ -91,14 +92,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ClientId": "sit",
-  "RedirectUri": "ut",
+  "ClientId": "eveniet",
+  "RedirectUri": "provident",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 745
+      "FieldLength": 24
     }
   }
 }

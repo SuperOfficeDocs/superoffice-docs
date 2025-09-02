@@ -2,6 +2,7 @@
 title: POST List/ReasonSold/Items
 uid: v1ReasonSoldList_PostReasonSold
 generated: true
+content_type: reference
 ---
 
 # POST List/ReasonSold/Items
@@ -73,16 +74,16 @@ OK
 POST /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 486,
-  "Name": "Langworth-Beer",
-  "Tooltip": "ea",
+  "Id": 303,
+  "Name": "Ratke Inc and Sons",
+  "Tooltip": "accusamus",
   "Deleted": true,
-  "UdListDefinitionId": 264,
-  "Rank": 8
+  "UdListDefinitionId": 541,
+  "Rank": 41
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 181,
-  "Name": "Durgan-VonRueden",
-  "Tooltip": "ex",
-  "Deleted": true,
-  "UdListDefinitionId": 861,
-  "Rank": 323,
+  "Id": 593,
+  "Name": "Nienow-Nienow",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "UdListDefinitionId": 555,
+  "Rank": 917,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 650
+      "FieldLength": 339
     }
   }
 }

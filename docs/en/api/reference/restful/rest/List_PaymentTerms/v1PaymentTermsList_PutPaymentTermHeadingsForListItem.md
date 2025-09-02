@@ -2,6 +2,7 @@
 title: PUT List/PaymentTerm/Items/{id}/Headings
 uid: v1PaymentTermsList_PutPaymentTermHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/PaymentTerm/Items/{id}/Headings
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 5,
-    "Name": "Pouros, Cole and Schmidt",
-    "ToolTip": "Qui nihil voluptate et magni sit iste ducimus.",
-    "Deleted": true,
-    "Rank": 247,
-    "Type": "consequuntur",
-    "ColorBlock": 453,
-    "IconHint": "nesciunt",
+    "Id": 770,
+    "Name": "McCullough, Feil and Lakin",
+    "ToolTip": "Eligendi minima ut exercitationem.",
+    "Deleted": false,
+    "Rank": 520,
+    "Type": "est",
+    "ColorBlock": 186,
+    "IconHint": "sequi",
     "Selected": false,
-    "LastChanged": "2024-04-05T03:45:29.060917+02:00",
+    "LastChanged": "2017-02-22T03:47:00.6911718+01:00",
     "ChildItems": [
       {
-        "Id": 945,
-        "Name": "Murray Inc and Sons",
-        "ToolTip": "Ullam molestias ut dolor quos et blanditiis dignissimos.",
-        "Deleted": false,
-        "Rank": 249,
-        "Type": "maiores",
-        "ColorBlock": 20,
-        "IconHint": "voluptas",
+        "Id": 32,
+        "Name": "Lang, Daugherty and Will",
+        "ToolTip": "Assumenda voluptates qui alias consequatur quis et.",
+        "Deleted": true,
+        "Rank": 602,
+        "Type": "et",
+        "ColorBlock": 752,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2020-09-11T03:45:29.060917+02:00",
+        "LastChanged": "1999-09-15T03:47:00.6911718+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "aliquam",
-        "Hidden": false,
-        "FullName": "Ms. Humberto Abigale Barton III"
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "provident",
+        "Hidden": true,
+        "FullName": "Amir Prosacco"
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "quis",
+    "ExtraInfo": "ut",
+    "StyleHint": "architecto",
     "Hidden": true,
-    "FullName": "Emmanuelle Kuhn"
+    "FullName": "Ashton Simonis"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 651,
-    "Name": "Armstrong LLC",
-    "ToolTip": "Possimus autem.",
+    "Id": 931,
+    "Name": "Price LLC",
+    "ToolTip": "Consequatur accusantium tenetur nisi voluptas minus repellendus.",
     "Deleted": false,
-    "Rank": 131,
-    "Type": "doloribus",
-    "ColorBlock": 200,
-    "IconHint": "consequatur",
+    "Rank": 44,
+    "Type": "quis",
+    "ColorBlock": 28,
+    "IconHint": "possimus",
     "Selected": false,
-    "LastChanged": "2022-03-06T03:45:29.060917+01:00",
+    "LastChanged": "2013-06-28T03:47:00.6911718+02:00",
     "ChildItems": [
       {
-        "Id": 902,
-        "Name": "Koss-Schumm",
-        "ToolTip": "Est dolor sunt sequi eum.",
-        "Deleted": false,
-        "Rank": 116,
-        "Type": "quaerat",
-        "ColorBlock": 259,
-        "IconHint": "aut",
+        "Id": 130,
+        "Name": "Howe Inc and Sons",
+        "ToolTip": "Id quia nobis.",
+        "Deleted": true,
+        "Rank": 652,
+        "Type": "dolorem",
+        "ColorBlock": 904,
+        "IconHint": "ullam",
         "Selected": false,
-        "LastChanged": "2005-04-27T03:45:29.060917+02:00",
+        "LastChanged": "2022-05-30T03:47:00.6911718+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "odit",
-        "Hidden": true,
-        "FullName": "Eda Schumm",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "nihil",
+        "Hidden": false,
+        "FullName": "Candelario Hamill",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 120
+            "FieldType": "System.String",
+            "FieldLength": 133
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "ut",
+    "ExtraInfo": "ullam",
+    "StyleHint": "ratione",
     "Hidden": false,
-    "FullName": "Mr. Brown Emard DDS",
+    "FullName": "Domingo Rolfson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 477
+        "FieldLength": 214
       }
     }
   }

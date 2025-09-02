@@ -2,6 +2,7 @@
 title: POST Agents/EMail/RelayMessage
 uid: v1EMailAgent_RelayMessage
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/RelayMessage
@@ -69,16 +70,16 @@ No Content
 POST /api/v1/Agents/EMail/RelayMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfoExtended": null,
-  "Rfc822": "perferendis",
+  "Rfc822": "consectetur",
   "From": "ipsa",
   "Recipients": [
-    "doloribus",
-    "impedit"
+    "iste",
+    "ex"
   ]
 }
 ```

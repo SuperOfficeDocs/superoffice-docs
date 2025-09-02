@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetAllSelectionCategory SOAP
 generated: true
 uid: Services88-List-GetAllSelectionCategory
+content_type: reference
 ---
 
 # Services88 List GetAllSelectionCategory

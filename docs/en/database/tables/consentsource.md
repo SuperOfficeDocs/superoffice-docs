@@ -2,10 +2,10 @@
 uid: table-ConsentSource
 title: ConsentSource table
 description: Consent source for GDPR
-so.generated: true
+generated: true
 keywords: database table ConsentSource
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ConsentSource Table (471)

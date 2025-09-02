@@ -3,9 +3,9 @@ uid: LinksURL
 title: LinksURL
 description: 
 keywords: LinksURL archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "LinksURL"
@@ -40,7 +40,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksURL?$select=sourceProjectRestrictionId,sourceSelectionRestrictionId
+GET /api/v1/archive/LinksURL?$select=sourcePersonRestrictionId,sourceProjectRestrictionId,sourceSelectionRestrictionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -2,6 +2,7 @@
 title: POST Agents/EMail/MarkAsRead
 uid: v1EMailAgent_MarkAsRead
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/MarkAsRead
@@ -74,10 +75,10 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    833,
-    875
+    534,
+    297
   ],
-  "Read": true
+  "Read": false
 }
 ```
 

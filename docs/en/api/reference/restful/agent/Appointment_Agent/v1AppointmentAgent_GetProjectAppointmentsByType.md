@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetProjectAppointmentsByType
 uid: v1AppointmentAgent_GetProjectAppointmentsByType
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetProjectAppointmentsByType
@@ -118,6 +119,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -136,10 +138,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 372,
-  "StartTime": "2015-02-03T03:45:22.6704778+01:00",
-  "EndTime": "2013-03-30T03:45:22.6704778+01:00",
-  "Count": 935,
+  "ProjectId": 726,
+  "StartTime": "2009-01-11T03:46:53.9726601+01:00",
+  "EndTime": "1999-12-22T03:46:53.9726601+01:00",
+  "Count": 661,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -152,66 +154,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 163,
-    "StartDate": "2018-06-24T03:45:22.6704778+02:00",
-    "EndDate": "2000-01-07T03:45:22.6704778+01:00",
+    "AppointmentId": 350,
+    "StartDate": "2010-10-25T03:46:53.9726601+02:00",
+    "EndDate": "2015-10-28T03:46:53.9726601+01:00",
     "Type": "BookingForChecklist",
-    "Task": "aspernatur",
-    "AssociateFullName": "Mr. Elody Adonis Bins",
-    "ContactName": "Carter, Funk and Greenholt",
-    "Description": "Persistent zero tolerance support",
-    "PersonFullName": "Keyon Marianna Konopelski III",
-    "PersonId": 14,
-    "ContactId": 874,
-    "ProjectId": 613,
-    "ProjectName": "Rau, Medhurst and Hamill",
-    "IsPublished": false,
-    "AssociateId": 939,
-    "ColorIndex": 946,
+    "Task": "nisi",
+    "AssociateFullName": "Darrell Witting PhD",
+    "ContactName": "Barton, Tillman and Howell",
+    "Description": "Quality-focused local standardization",
+    "PersonFullName": "Marie Heller DDS",
+    "PersonId": 961,
+    "ContactId": 739,
+    "ProjectId": 176,
+    "ProjectName": "Balistreri-Legros",
+    "IsPublished": true,
+    "AssociateId": 72,
+    "ColorIndex": 383,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 572,
-    "PriorityName": "Swift-Yundt",
+    "PriorityId": 922,
+    "PriorityName": "Carroll LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2009-06-18T03:45:22.6704778+02:00",
+    "ActiveDate": "2018-05-01T03:46:53.9726601+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2021-12-12T03:45:22.6704778+01:00",
-    "RecurringEndDate": "2013-01-20T03:45:22.6704778+01:00",
-    "MotherId": 467,
-    "AssignedBy": 102,
-    "AssignedByFullName": "Pearlie Maeve Jacobs PhD",
+    "RecurringStartDate": "2020-07-11T03:46:53.9726601+02:00",
+    "RecurringEndDate": "2010-09-16T03:46:53.9726601+02:00",
+    "MotherId": 452,
+    "AssignedBy": 616,
+    "AssignedByFullName": "Ava D'Amore",
     "RejectReason": "",
-    "Location": "explicabo",
-    "AlarmLeadTime": "voluptates",
-    "SaleId": 812,
-    "SaleName": "Johnson, VonRueden and Rogahn",
-    "AssociateName": "Wilkinson-Stokes",
-    "CreatedDate": "2010-11-28T03:45:22.6704778+01:00",
-    "CreatedBy": "dolorum",
-    "CreatedByFullName": "Sedrick Pinkie Jones V",
-    "CreatedByAssociateId": 438,
+    "Location": "illo",
+    "AlarmLeadTime": "qui",
+    "SaleId": 994,
+    "SaleName": "Dare, Weimann and Harris",
+    "AssociateName": "Goodwin-Lemke",
+    "CreatedDate": "2000-11-03T03:46:53.9726601+01:00",
+    "CreatedBy": "nisi",
+    "CreatedByFullName": "Ashtyn Kertzmann",
+    "CreatedByAssociateId": 731,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 117,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 955,
-    "Title": "rerum",
-    "Agenda": "nisi",
-    "InternalNotes": "quos",
+    "PreferredTZLocation": 713,
+    "Title": "reprehenderit",
+    "Agenda": "et",
+    "InternalNotes": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 696
+        "FieldType": "System.String",
+        "FieldLength": 382
       }
     }
   }

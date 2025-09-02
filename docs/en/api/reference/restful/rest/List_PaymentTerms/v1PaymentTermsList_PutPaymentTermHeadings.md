@@ -2,6 +2,7 @@
 title: PUT List/PaymentTerm/Headings
 uid: v1PaymentTermsList_PutPaymentTermHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/PaymentTerm/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 280,
-    "Name": "Botsford, Russel and White",
-    "Tooltip": "fugiat",
+    "HeadingId": 207,
+    "Name": "Daniel-Morar",
+    "Tooltip": "voluptates",
     "Deleted": true,
-    "Rank": 832,
-    "UdListDefinitionId": 471
+    "Rank": 679,
+    "UdListDefinitionId": 682
   },
   {
-    "HeadingId": 280,
-    "Name": "Botsford, Russel and White",
-    "Tooltip": "fugiat",
+    "HeadingId": 207,
+    "Name": "Daniel-Morar",
+    "Tooltip": "voluptates",
     "Deleted": true,
-    "Rank": 832,
-    "UdListDefinitionId": 471
+    "Rank": 679,
+    "UdListDefinitionId": 682
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 1001,
-    "Name": "Haag-Steuber",
-    "Tooltip": "illo",
+    "HeadingId": 51,
+    "Name": "Homenick LLC",
+    "Tooltip": "eius",
     "Deleted": true,
-    "Rank": 666,
-    "UdListDefinitionId": 88,
+    "Rank": 955,
+    "UdListDefinitionId": 207,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 78
+        "FieldLength": 825
       }
     }
   }

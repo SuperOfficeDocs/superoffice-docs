@@ -2,6 +2,7 @@
 title: PUT List/WebPanel
 uid: v1WebPanelEntityList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/WebPanel
@@ -84,20 +85,20 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 563,
-  "Name": "Mills, Kunde and Barton",
-  "Tooltip": "ipsa",
-  "Deleted": false,
-  "Rank": 752,
+  "Id": 835,
+  "Name": "Wiza Inc and Sons",
+  "Tooltip": "veniam",
+  "Deleted": true,
+  "Rank": 954,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "dolore",
-  "InUseByUserDefinedFields": false
+  "ListType": "facere",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 948,
-  "Name": "Konopelski Group",
-  "Tooltip": "recusandae",
+  "Id": 907,
+  "Name": "Ferry-Fadel",
+  "Tooltip": "quae",
   "Deleted": false,
-  "Rank": 865,
-  "IsCustomList": true,
+  "Rank": 110,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "inventore",
+  "UseGroupsAndHeadings": false,
+  "ListType": "reiciendis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 256
+      "FieldType": "System.String",
+      "FieldLength": 452
     }
   }
 }

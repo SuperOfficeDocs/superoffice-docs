@@ -2,6 +2,7 @@
 title: GET DashTileDefinition/{id}
 uid: v1DashTileDefinition_GetDashTileDefinition
 generated: true
+content_type: reference
 ---
 
 # GET DashTileDefinition/{id}
@@ -91,7 +92,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,31 +102,31 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 134,
-  "Name": "Emard Group",
-  "Description": "Open-architected system-worthy hierarchy",
-  "DefaultHeight": 705,
-  "DefaultWidth": 938,
+  "DashboardTileDefinitionId": 126,
+  "Name": "Hoeger Inc and Sons",
+  "Description": "Mandatory needs-based workforce",
+  "DefaultHeight": 888,
+  "DefaultWidth": 972,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Rogahn Inc and Sons",
-  "SelectionId": 905,
+  "EntityName": "Kilback, Wilderman and Kreiger",
+  "SelectionId": 629,
   "CurrencyMode": "Base",
-  "CurrencyCode": "dolor",
+  "CurrencyCode": "fugit",
   "Measure": "Average",
-  "MeasureField": "odit",
-  "SortBy": "et",
-  "LayoutConfig": "et",
-  "SecondarySelectionId": 360,
-  "MeasureByField": "sit",
+  "MeasureField": "deserunt",
+  "SortBy": "in",
+  "LayoutConfig": "soluta",
+  "SecondarySelectionId": 461,
+  "MeasureByField": "sint",
   "Usage": "Dashboard",
-  "ProviderName": "Purdy, Schulist and Lemke",
+  "ProviderName": "Hayes, Reinger and Veum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 501
+      "FieldLength": 703
     }
   },
   "_Links": {

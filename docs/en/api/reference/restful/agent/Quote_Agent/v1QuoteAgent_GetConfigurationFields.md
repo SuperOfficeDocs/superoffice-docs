@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetConfigurationFields
 uid: v1QuoteAgent_GetConfigurationFields
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetConfigurationFields
@@ -85,12 +86,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 513,
-  "ConnectorName": "Schmidt, Littel and Lesch"
+  "ConnectionId": 915,
+  "ConnectorName": "Nienow Inc and Sons"
 }
 ```
 
@@ -102,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "cumque",
-    "Rank": 698,
-    "DisplayName": "Terry LLC",
-    "DisplayDescription": "Adaptive even-keeled productivity",
+    "FieldKey": "repellat",
+    "Rank": 101,
+    "DisplayName": "Lebsack LLC",
+    "DisplayDescription": "Operative local success",
     "FieldType": "Checkbox",
-    "ListName": "Hettinger, Muller and Beier",
-    "DefaultValue": "qui",
-    "MaxLength": 441,
+    "ListName": "Dietrich-Nolan",
+    "DefaultValue": "quia",
+    "MaxLength": 895,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 320
+        "FieldType": "System.Int32",
+        "FieldLength": 449
       }
     }
   }

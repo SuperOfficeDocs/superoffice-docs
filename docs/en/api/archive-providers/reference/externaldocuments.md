@@ -3,9 +3,9 @@ uid: externaldocuments
 title: externaldocuments
 description: 
 keywords: externaldocuments archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "externaldocuments"
@@ -43,7 +43,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/externaldocuments?$select=created,isInHistory
+GET /api/v1/archive/externaldocuments?$select=created,created,isInHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

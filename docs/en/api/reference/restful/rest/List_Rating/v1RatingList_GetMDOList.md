@@ -2,6 +2,7 @@
 title: GET List/Rating/MDOItems
 uid: v1RatingList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/Rating/MDOItems
@@ -27,7 +28,7 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=suscipit
+GET /api/v1/List/Rating/MDOItems?query=voluptatum
 ```
 
 
@@ -78,7 +79,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 283,
-    "Name": "Hauck-Koss",
-    "ToolTip": "Culpa non tenetur aperiam et.",
+    "Id": 867,
+    "Name": "Heidenreich-Hickle",
+    "ToolTip": "Aut enim cum ut vitae quibusdam.",
     "Deleted": false,
-    "Rank": 546,
-    "Type": "quos",
+    "Rank": 288,
+    "Type": "officiis",
     "ChildItems": [
       {
-        "Id": 792,
-        "Name": "Feeney-Wuckert",
-        "ToolTip": "Doloribus aut aut quo voluptatum.",
-        "Deleted": true,
-        "Rank": 869,
-        "Type": "ut",
+        "Id": 909,
+        "Name": "Gerhold-Jones",
+        "ToolTip": "Cupiditate debitis sapiente aliquam nihil tempore amet ipsa.",
+        "Deleted": false,
+        "Rank": 680,
+        "Type": "quia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptate",
-        "ColorBlock": 702,
-        "ExtraInfo": "earum",
-        "StyleHint": "dolorum",
-        "FullName": "Prof. General Hudson",
+        "IconHint": "repellat",
+        "ColorBlock": 953,
+        "ExtraInfo": "eaque",
+        "StyleHint": "consequuntur",
+        "FullName": "Mr. Jazmin Gaston Jaskolski Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 349
+            "FieldLength": 326
           }
         }
       }
     ],
-    "IconHint": "culpa",
-    "ColorBlock": 196,
-    "ExtraInfo": "debitis",
-    "StyleHint": "autem",
-    "FullName": "Vance Koss",
+    "IconHint": "harum",
+    "ColorBlock": 454,
+    "ExtraInfo": "expedita",
+    "StyleHint": "eveniet",
+    "FullName": "Hollie Shayne Schoen I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 148
+        "FieldType": "System.Int32",
+        "FieldLength": 882
       }
     }
   }

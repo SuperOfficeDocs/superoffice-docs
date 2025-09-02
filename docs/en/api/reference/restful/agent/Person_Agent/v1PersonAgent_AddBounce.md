@@ -2,6 +2,7 @@
 title: POST Agents/Person/AddBounce
 uid: v1PersonAgent_AddBounce
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/AddBounce
@@ -68,7 +69,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "rebekah_simonis@sauer.ca"
+  "EmailAddress": "nickolas_donnelly@schaeferbrekke.co.uk"
 }
 ```
 

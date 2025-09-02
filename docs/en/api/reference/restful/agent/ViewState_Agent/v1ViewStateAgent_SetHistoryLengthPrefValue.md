@@ -2,6 +2,7 @@
 title: POST Agents/ViewState/SetHistoryLengthPrefValue
 uid: v1ViewStateAgent_SetHistoryLengthPrefValue
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ViewState/SetHistoryLengthPrefValue
@@ -64,11 +65,11 @@ No Content
 POST /api/v1/Agents/ViewState/SetHistoryLengthPrefValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Length": 295
+  "Length": 122
 }
 ```
 

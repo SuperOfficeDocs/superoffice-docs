@@ -2,6 +2,7 @@
 title: POST Agents/List/CreateDefaultTicketTypeEntity
 uid: v1ListAgent_CreateDefaultTicketTypeEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/CreateDefaultTicketTypeEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/List/CreateDefaultTicketTypeEntity
 ```
 
-Set default values into a new TicketTypeEntity.
+Loading default values into a new TicketTypeEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -85,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 82,
-  "Name": "Baumbach-Bergstrom",
-  "Rank": 225,
-  "Tooltip": "animi",
-  "Icon": "saepe",
-  "DefaultTicketStatus": 762,
+  "TicketTypeId": 378,
+  "Name": "Rutherford-Pfannerstill",
+  "Rank": 641,
+  "Tooltip": "doloremque",
+  "Icon": "qui",
+  "DefaultTicketStatus": 435,
   "TicketStatuses": [
-    417,
-    877
+    940,
+    598
   ],
-  "DefaultTicketPriority": 474,
+  "DefaultTicketPriority": 539,
   "TicketPriorities": [
-    377,
-    338
+    446,
+    638
   ],
-  "ReplyTemplate": 196,
+  "ReplyTemplate": 314,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    378,
-    954
+    938,
+    797
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -117,8 +116,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 634
+      "FieldType": "System.Int32",
+      "FieldLength": 228
     }
   }
 }

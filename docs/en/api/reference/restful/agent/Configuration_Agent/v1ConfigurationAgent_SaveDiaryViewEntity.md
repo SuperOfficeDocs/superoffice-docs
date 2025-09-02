@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/SaveDiaryViewEntity
 uid: v1ConfigurationAgent_SaveDiaryViewEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/SaveDiaryViewEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 ```
 
-Updates the existing DiaryViewEntity or creates a new DiaryViewEntity if the id parameter is empty
+Updates the existing DiaryViewEntity or creates a new DiaryViewEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing DiaryViewEntity or creates a new DiaryViewEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: diaryViewEntity 
 
-The DiaryViewEntity to be saved. 
+The DiaryViewEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,35 +82,35 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 940,
-  "Name": "Ernser-Hamill",
-  "Tooltip": "non",
-  "VisibleColumns": 264,
-  "Rank": 427,
-  "AssocId": 634,
+  "DiaryViewId": 17,
+  "Name": "O'Keefe, Blick and Gibson",
+  "Tooltip": "ut",
+  "VisibleColumns": 533,
+  "Rank": 520,
+  "AssocId": 173,
   "AssociateList": [
     {
-      "Id": 644,
-      "Name": "Daniel-Streich",
-      "ToolTip": "Facilis et dolores iure molestiae.",
+      "Id": 586,
+      "Name": "Denesik Inc and Sons",
+      "ToolTip": "Hic ut perferendis.",
       "Deleted": false,
-      "Rank": 829,
-      "Type": "dicta",
-      "ColorBlock": 258,
-      "IconHint": "perferendis",
-      "Selected": false,
-      "LastChanged": "2011-05-10T03:45:23.0767156+02:00",
+      "Rank": 887,
+      "Type": "impedit",
+      "ColorBlock": 803,
+      "IconHint": "enim",
+      "Selected": true,
+      "LastChanged": "1999-09-19T03:46:54.4570178+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "consequuntur",
-      "StyleHint": "vel",
-      "Hidden": true,
-      "FullName": "Mrs. Joe Samara Collier DDS"
+      "ExtraInfo": "et",
+      "StyleHint": "voluptatem",
+      "Hidden": false,
+      "FullName": "Prof. Elbert Bergnaum MD"
     }
   ],
-  "TzLocationId": 626
+  "TzLocationId": 903
 }
 ```
 
@@ -120,49 +121,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 291,
-  "Name": "Crona-Cremin",
-  "Tooltip": "et",
-  "VisibleColumns": 74,
-  "Rank": 916,
-  "AssocId": 542,
+  "DiaryViewId": 843,
+  "Name": "Koelpin, Wolf and Simonis",
+  "Tooltip": "accusamus",
+  "VisibleColumns": 597,
+  "Rank": 476,
+  "AssocId": 522,
   "AssociateList": [
     {
-      "Id": 835,
-      "Name": "Kirlin, Jakubowski and Satterfield",
-      "ToolTip": "Et aspernatur debitis et modi.",
+      "Id": 636,
+      "Name": "Rutherford, Welch and Toy",
+      "ToolTip": "Ipsa porro atque explicabo possimus aut blanditiis illo.",
       "Deleted": false,
-      "Rank": 259,
-      "Type": "eveniet",
-      "ColorBlock": 633,
-      "IconHint": "perspiciatis",
-      "Selected": true,
-      "LastChanged": "2018-10-22T03:45:23.0767156+02:00",
+      "Rank": 472,
+      "Type": "quisquam",
+      "ColorBlock": 56,
+      "IconHint": "voluptatem",
+      "Selected": false,
+      "LastChanged": "2020-03-07T03:46:54.4570178+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "corporis",
-      "StyleHint": "officiis",
+      "ExtraInfo": "iste",
+      "StyleHint": "nam",
       "Hidden": false,
-      "FullName": "Eunice Bins",
+      "FullName": "Shanna Pagac",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 527
+          "FieldLength": 445
         }
       }
     }
   ],
-  "TzLocationId": 831,
+  "TzLocationId": 274,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 667
+      "FieldLength": 557
     }
   }
 }

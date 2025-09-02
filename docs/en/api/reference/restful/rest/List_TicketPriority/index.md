@@ -1,6 +1,8 @@
 ---
+uid: tag-List_TicketPriority
 title: List_TicketPriority
 generated: true
+content_type: reference
 ---
 
 ```http

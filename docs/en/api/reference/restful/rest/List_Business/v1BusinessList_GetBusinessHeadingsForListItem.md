@@ -2,6 +2,7 @@
 title: GET List/Business/Items/{id}/Headings
 uid: v1BusinessList_GetBusinessHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Business/Items/{id}/Headings
@@ -31,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 186,
-    "Name": "Anderson Inc and Sons",
-    "ToolTip": "Voluptas distinctio aliquam voluptas neque animi consequatur ut.",
+    "Id": 449,
+    "Name": "Morissette-Moen",
+    "ToolTip": "Est facere et ab et nisi molestias exercitationem.",
     "Deleted": false,
-    "Rank": 32,
-    "Type": "repellat",
-    "ColorBlock": 238,
-    "IconHint": "quibusdam",
-    "Selected": false,
-    "LastChanged": "2008-03-23T03:45:28.9671778+01:00",
+    "Rank": 684,
+    "Type": "fuga",
+    "ColorBlock": 207,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2011-01-08T03:47:00.5818006+01:00",
     "ChildItems": [
       {
-        "Id": 845,
-        "Name": "Kris, Romaguera and Blick",
-        "ToolTip": "Ut voluptates asperiores.",
+        "Id": 526,
+        "Name": "Hagenes, Mayer and Murphy",
+        "ToolTip": "Dolores sed incidunt corrupti est est.",
         "Deleted": false,
-        "Rank": 73,
-        "Type": "quos",
-        "ColorBlock": 913,
-        "IconHint": "molestias",
-        "Selected": true,
-        "LastChanged": "2006-05-31T03:45:28.9671778+02:00",
+        "Rank": 522,
+        "Type": "veritatis",
+        "ColorBlock": 597,
+        "IconHint": "commodi",
+        "Selected": false,
+        "LastChanged": "2005-03-27T03:47:00.5818006+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "illum",
-        "Hidden": true,
-        "FullName": "Tamara Feeney",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Darian Kling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 803
+            "FieldType": "System.String",
+            "FieldLength": 135
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "fugiat",
+    "ExtraInfo": "et",
+    "StyleHint": "assumenda",
     "Hidden": false,
-    "FullName": "Krystina Lemke",
+    "FullName": "William Glover",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 910
+        "FieldLength": 216
       }
     }
   }

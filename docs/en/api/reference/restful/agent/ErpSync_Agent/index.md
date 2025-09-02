@@ -1,6 +1,8 @@
 ---
+uid: tag-ErpSync_Agent
 title: ErpSync_Agent
 generated: true
+content_type: reference
 ---
 
 ```http
@@ -9,12 +11,6 @@ generated: true
 
 
 
-
-* [POST Agents/ErpSync/CreateDefaultErpSyncConnectorEntity](v1ErpSyncAgent_CreateDefaultErpSyncConnectorEntity.md)
-
-* [POST Agents/ErpSync/SaveErpSyncConnectorEntity](v1ErpSyncAgent_SaveErpSyncConnectorEntity.md)
-
-* [POST Agents/ErpSync/DeleteErpSyncConnectorEntity](v1ErpSyncAgent_DeleteErpSyncConnectorEntity.md)
 
 * [POST Agents/ErpSync/GetConnection](v1ErpSyncAgent_GetConnection.md)
 
@@ -77,6 +73,12 @@ generated: true
 * [POST Agents/ErpSync/GetCrmActorType](v1ErpSyncAgent_GetCrmActorType.md)
 
 * [POST Agents/ErpSync/GetErpSyncConnectionSummary](v1ErpSyncAgent_GetErpSyncConnectionSummary.md)
+
+* [POST Agents/ErpSync/CreateDefaultErpSyncConnectorEntity](v1ErpSyncAgent_CreateDefaultErpSyncConnectorEntity.md)
+
+* [POST Agents/ErpSync/SaveErpSyncConnectorEntity](v1ErpSyncAgent_SaveErpSyncConnectorEntity.md)
+
+* [POST Agents/ErpSync/DeleteErpSyncConnectorEntity](v1ErpSyncAgent_DeleteErpSyncConnectorEntity.md)
 
 * [POST Agents/ErpSync/GetErpSyncConnectorEntity](v1ErpSyncAgent_GetErpSyncConnectorEntity.md)
 

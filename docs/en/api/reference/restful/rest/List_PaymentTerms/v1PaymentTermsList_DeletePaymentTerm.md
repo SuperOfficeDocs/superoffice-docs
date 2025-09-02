@@ -2,6 +2,7 @@
 title: DEL List/PaymentTerm/Items/{id}
 uid: v1PaymentTermsList_DeletePaymentTerm
 generated: true
+content_type: reference
 ---
 
 # DEL List/PaymentTerm/Items/{id}
@@ -52,7 +53,7 @@ No Content
 DELETE /api/v1/List/PaymentTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

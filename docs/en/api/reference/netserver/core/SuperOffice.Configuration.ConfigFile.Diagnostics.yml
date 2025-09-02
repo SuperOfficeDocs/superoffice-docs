@@ -11,7 +11,6 @@ items:
   - SuperOffice.Configuration.ConfigFile.Diagnostics.EnableResourceTracer
   - SuperOffice.Configuration.ConfigFile.Diagnostics.EnableScaffolding
   - SuperOffice.Configuration.ConfigFile.Diagnostics.EnableStackTracing
-  - SuperOffice.Configuration.ConfigFile.Diagnostics.LogEventRecorder
   - SuperOffice.Configuration.ConfigFile.Diagnostics.LogFailureAudit
   - SuperOffice.Configuration.ConfigFile.Diagnostics.LogFolder
   - SuperOffice.Configuration.ConfigFile.Diagnostics.LogLongQueries
@@ -522,29 +521,6 @@ items:
       type: System.Boolean
     content.vb: Public Shared Property LogTimes As Boolean
   overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogTimes*
-- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogEventRecorder
-  commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.LogEventRecorder
-  id: LogEventRecorder
-  parent: SuperOffice.Configuration.ConfigFile.Diagnostics
-  langs:
-  - csharp
-  - vb
-  name: LogEventRecorder
-  nameWithType: ConfigFile.Diagnostics.LogEventRecorder
-  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogEventRecorder
-  type: Property
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Configuration
-  summary: Include a snapshot of the event recorder in all log entries
-  example: []
-  syntax:
-    content: public static bool LogEventRecorder { get; set; }
-    parameters: []
-    return:
-      type: System.Boolean
-    content.vb: Public Shared Property LogEventRecorder As Boolean
-  overload: SuperOffice.Configuration.ConfigFile.Diagnostics.LogEventRecorder*
 - uid: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableResourceTracer
   commentId: P:SuperOffice.Configuration.ConfigFile.Diagnostics.EnableResourceTracer
   id: EnableResourceTracer
@@ -1128,13 +1104,6 @@ references:
   name: LogTimes
   nameWithType: ConfigFile.Diagnostics.LogTimes
   fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogTimes
-- uid: SuperOffice.Configuration.ConfigFile.Diagnostics.LogEventRecorder*
-  commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.LogEventRecorder
-  isExternal: true
-  href: SuperOffice.Configuration.ConfigFile.Diagnostics.html#SuperOffice_Configuration_ConfigFile_Diagnostics_LogEventRecorder
-  name: LogEventRecorder
-  nameWithType: ConfigFile.Diagnostics.LogEventRecorder
-  fullName: SuperOffice.Configuration.ConfigFile.Diagnostics.LogEventRecorder
 - uid: SuperOffice.Configuration.ConfigFile.Diagnostics.EnableResourceTracer*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.Diagnostics.EnableResourceTracer
   isExternal: true

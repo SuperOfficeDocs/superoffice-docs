@@ -2,6 +2,7 @@
 title: PUT List/Priority/Items/{id}/UserGroups
 uid: v1PriorityList_PutPriorityUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/Priority/Items/{id}/UserGroups
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 850,
-    "Name": "Hegmann-Bernhard",
-    "ToolTip": "Ducimus est ea id.",
+    "Id": 123,
+    "Name": "Dicki-McCullough",
+    "ToolTip": "Velit rerum quis provident minus facere.",
     "Deleted": false,
-    "Rank": 825,
-    "Type": "sed",
-    "ColorBlock": 782,
-    "IconHint": "beatae",
+    "Rank": 666,
+    "Type": "autem",
+    "ColorBlock": 335,
+    "IconHint": "eius",
     "Selected": false,
-    "LastChanged": "2011-12-11T03:45:29.0921677+01:00",
+    "LastChanged": "2001-03-12T03:47:00.7067961+01:00",
     "ChildItems": [
       {
-        "Id": 510,
-        "Name": "Larkin, Gerhold and Herzog",
-        "ToolTip": "Numquam ut et.",
+        "Id": 33,
+        "Name": "Wunsch, Moore and Stark",
+        "ToolTip": "Qui dolor quo sunt asperiores quasi.",
         "Deleted": false,
-        "Rank": 168,
-        "Type": "placeat",
-        "ColorBlock": 81,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2018-06-15T03:45:29.0921677+02:00",
+        "Rank": 211,
+        "Type": "ut",
+        "ColorBlock": 287,
+        "IconHint": "iure",
+        "Selected": false,
+        "LastChanged": "2015-06-25T03:47:00.7067961+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "et",
+        "ExtraInfo": "autem",
+        "StyleHint": "quibusdam",
         "Hidden": true,
-        "FullName": "Talon Elena Denesik PhD"
+        "FullName": "Mrs. Ed Davis II"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Dr. Beth Cali Brakus"
+    "ExtraInfo": "et",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Rosa Rowe"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 918,
-    "Name": "Bogan Inc and Sons",
-    "ToolTip": "Voluptatem ut quis voluptas.",
+    "Id": 72,
+    "Name": "Ullrich Group",
+    "ToolTip": "Nesciunt occaecati ducimus aut enim assumenda.",
     "Deleted": false,
-    "Rank": 417,
-    "Type": "et",
-    "ColorBlock": 384,
-    "IconHint": "a",
+    "Rank": 191,
+    "Type": "aperiam",
+    "ColorBlock": 386,
+    "IconHint": "inventore",
     "Selected": false,
-    "LastChanged": "2017-06-12T03:45:29.0921677+02:00",
+    "LastChanged": "2020-03-03T03:47:00.7067961+01:00",
     "ChildItems": [
       {
-        "Id": 343,
-        "Name": "Romaguera Group",
-        "ToolTip": "Expedita sint voluptatum voluptas nisi facilis libero praesentium.",
-        "Deleted": true,
-        "Rank": 233,
-        "Type": "consequatur",
-        "ColorBlock": 692,
-        "IconHint": "atque",
+        "Id": 676,
+        "Name": "Gerlach-Nolan",
+        "ToolTip": "Totam repellat accusantium ut magni tenetur eum rerum.",
+        "Deleted": false,
+        "Rank": 291,
+        "Type": "enim",
+        "ColorBlock": 400,
+        "IconHint": "repellendus",
         "Selected": false,
-        "LastChanged": "1998-04-01T03:45:29.0921677+02:00",
+        "LastChanged": "2005-09-11T03:47:00.7067961+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "ut",
+        "ExtraInfo": "illum",
+        "StyleHint": "debitis",
         "Hidden": false,
-        "FullName": "Ms. Summer Alize Kozey V",
+        "FullName": "Mr. Emil Ullrich IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 472
+            "FieldLength": 539
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "numquam",
-    "Hidden": false,
-    "FullName": "Tomasa Kozey",
+    "ExtraInfo": "cum",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Ms. Elenor Durgan Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 216
+        "FieldLength": 153
       }
     }
   }

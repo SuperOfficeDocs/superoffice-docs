@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetDeliveryTerm SOAP
 generated: true
 uid: Services88-List-GetDeliveryTerm
+content_type: reference
 ---
 
 # Services88 List GetDeliveryTerm

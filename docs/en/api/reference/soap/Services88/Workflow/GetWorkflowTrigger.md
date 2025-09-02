@@ -2,6 +2,7 @@
 title: Services88.WorkflowAgent.GetWorkflowTrigger SOAP
 generated: true
 uid: Services88-Workflow-GetWorkflowTrigger
+content_type: reference
 ---
 
 # Services88 Workflow GetWorkflowTrigger

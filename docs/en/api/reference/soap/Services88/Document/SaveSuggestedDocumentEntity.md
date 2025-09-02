@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.SaveSuggestedDocumentEntity SOAP
 generated: true
 uid: Services88-Document-SaveSuggestedDocumentEntity
+content_type: reference
 ---
 
 # Services88 Document SaveSuggestedDocumentEntity

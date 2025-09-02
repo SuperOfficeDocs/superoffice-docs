@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/GetCustomerServiceStartupByOwner
 uid: v1CustomerServiceAgent_GetCustomerServiceStartupByOwner
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/GetCustomerServiceStartupByOwner
@@ -76,11 +77,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetCustomerServiceStartupByOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserId": 318
+  "UserId": 475
 }
 ```
 
@@ -92,27 +93,27 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TimezoneEnabled": false,
-  "TZOffset": 798,
-  "RecaptchaSiteKey": "consectetur",
+  "TZOffset": 521,
+  "RecaptchaSiteKey": "et",
   "SelectedPreferences": [
     {
       "Level": "Database",
-      "RawValue": "corrupti",
+      "RawValue": "nam",
       "Specification": null,
-      "DisplayValue": "laudantium",
-      "DisplayTooltip": "nam",
+      "DisplayValue": "illo",
+      "DisplayTooltip": "labore",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 841,
-      "PrefDescId": 732,
-      "TableName": "Boehm, Wolff and Reichel",
-      "UserPreferenceId": 321,
+      "TargetId": 868,
+      "PrefDescId": 873,
+      "TableName": "Brown, Weimann and Pacocha",
+      "UserPreferenceId": 46,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 642
+          "FieldLength": 574
         }
       }
     }
@@ -122,7 +123,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 816
+      "FieldLength": 317
     }
   }
 }

@@ -2,6 +2,7 @@
 title: DEL List/DocumentTemplate/Items/{id}/Content/{languageCode}
 uid: v1DocumentTemplateList_DeleteDocumentTemplateLanguage
 generated: true
+content_type: reference
 ---
 
 # DEL List/DocumentTemplate/Items/{id}/Content/{languageCode}
@@ -51,7 +52,7 @@ No Content
 DELETE /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

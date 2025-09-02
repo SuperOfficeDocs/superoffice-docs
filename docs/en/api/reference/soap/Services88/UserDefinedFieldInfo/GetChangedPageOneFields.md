@@ -2,6 +2,7 @@
 title: Services88.UserDefinedFieldInfoAgent.GetChangedPageOneFields SOAP
 generated: true
 uid: Services88-UserDefinedFieldInfo-GetChangedPageOneFields
+content_type: reference
 ---
 
 # Services88 UserDefinedFieldInfo GetChangedPageOneFields

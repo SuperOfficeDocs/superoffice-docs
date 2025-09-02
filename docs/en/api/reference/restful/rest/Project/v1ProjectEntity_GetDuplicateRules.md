@@ -2,6 +2,7 @@
 title: GET Project/DuplicateRules
 uid: v1ProjectEntity_GetDuplicateRules
 generated: true
+content_type: reference
 ---
 
 # GET Project/DuplicateRules
@@ -58,7 +59,7 @@ OK
 GET /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,30 +70,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "DuBuque, Ferry and Lueilwitz",
-    "DisplayName": "Hickle, Grant and Denesik",
-    "DisplayTooltip": "exercitationem",
-    "IsActive": true,
+    "Name": "Kozey, Feeney and Lueilwitz",
+    "DisplayName": "Jakubowski Inc and Sons",
+    "DisplayTooltip": "quisquam",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 799
+        "FieldLength": 59
       }
     }
   },
   {
-    "Name": "DuBuque, Ferry and Lueilwitz",
-    "DisplayName": "Hickle, Grant and Denesik",
-    "DisplayTooltip": "exercitationem",
-    "IsActive": true,
+    "Name": "Kozey, Feeney and Lueilwitz",
+    "DisplayName": "Jakubowski Inc and Sons",
+    "DisplayTooltip": "quisquam",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 799
+        "FieldLength": 59
       }
     }
   }

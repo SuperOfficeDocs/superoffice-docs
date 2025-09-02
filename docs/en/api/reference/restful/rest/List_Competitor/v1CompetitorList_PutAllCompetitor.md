@@ -2,6 +2,7 @@
 title: PUT List/Competitor/Items
 uid: v1CompetitorList_PutAllCompetitor
 generated: true
+content_type: reference
 ---
 
 # PUT List/Competitor/Items
@@ -73,25 +74,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 701,
-    "Name": "Kuhn-Ferry",
-    "Tooltip": "molestias",
+    "Id": 809,
+    "Name": "Lebsack Inc and Sons",
+    "Tooltip": "earum",
     "Deleted": false,
-    "UdListDefinitionId": 317,
-    "Rank": 725
+    "UdListDefinitionId": 994,
+    "Rank": 192
   },
   {
-    "Id": 701,
-    "Name": "Kuhn-Ferry",
-    "Tooltip": "molestias",
+    "Id": 809,
+    "Name": "Lebsack Inc and Sons",
+    "Tooltip": "earum",
     "Deleted": false,
-    "UdListDefinitionId": 317,
-    "Rank": 725
+    "UdListDefinitionId": 994,
+    "Rank": 192
   }
 ]
 ```
@@ -104,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 812,
-    "Name": "Hayes-Nikolaus",
-    "Tooltip": "quam",
-    "Deleted": true,
-    "UdListDefinitionId": 721,
-    "Rank": 51,
+    "Id": 6,
+    "Name": "Pouros, Huel and Hayes",
+    "Tooltip": "voluptates",
+    "Deleted": false,
+    "UdListDefinitionId": 88,
+    "Rank": 139,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 272
+        "FieldLength": 498
       }
     }
   }

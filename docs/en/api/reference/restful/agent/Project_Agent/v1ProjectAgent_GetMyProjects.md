@@ -2,6 +2,7 @@
 title: POST Agents/Project/GetMyProjects
 uid: v1ProjectAgent_GetMyProjects
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/GetMyProjects
@@ -92,7 +93,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 25,
-    "Name": "Ryan LLC",
-    "Description": "Cross-group attitude-oriented architecture",
+    "ProjectId": 224,
+    "Name": "Baumbach, Heathcote and Hoppe",
+    "Description": "Profound client-driven leverage",
     "URL": "http://www.example.com/",
-    "Type": "numquam",
-    "AssociateId": 991,
-    "AssociateFullName": "Damien Corkery",
-    "TypeId": 820,
-    "Updated": "2000-09-02T03:45:23.7798203+02:00",
-    "StatusId": 750,
-    "Status": "in",
-    "TextId": 677,
-    "PublishTo": "2000-01-31T03:45:23.7798203+01:00",
-    "PublishFrom": "2010-09-22T03:45:23.7798203+02:00",
+    "Type": "in",
+    "AssociateId": 610,
+    "AssociateFullName": "Daron Brakus",
+    "TypeId": 770,
+    "Updated": "2008-12-13T03:46:55.1757421+01:00",
+    "StatusId": 428,
+    "Status": "recusandae",
+    "TextId": 588,
+    "PublishTo": "2003-02-14T03:46:55.1757421+01:00",
+    "PublishFrom": "2010-10-03T03:46:55.1757421+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "842452",
-    "ActiveErpLinks": 358,
+    "ProjectNumber": "1958447",
+    "ActiveErpLinks": 243,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 942
+        "FieldType": "System.Int32",
+        "FieldLength": 362
       }
     }
   }

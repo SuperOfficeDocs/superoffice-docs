@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetProjectMemberAppointmentsByTask
 uid: v1AppointmentAgent_GetProjectMemberAppointmentsByTask
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetProjectMemberAppointmentsByTask
@@ -118,6 +119,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -136,11 +138,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 229,
-  "StartTime": "2000-05-24T03:45:22.6861022+02:00",
-  "EndTime": "2005-05-17T03:45:22.6861022+02:00",
-  "Count": 601,
-  "TaskId": 458
+  "PersonId": 256,
+  "StartTime": "2014-08-12T03:46:53.9882851+02:00",
+  "EndTime": "2021-12-04T03:46:53.9882851+01:00",
+  "Count": 453,
+  "TaskId": 308
 }
 ```
 
@@ -152,66 +154,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 131,
-    "StartDate": "2003-09-06T03:45:22.6861022+02:00",
-    "EndDate": "2003-11-24T03:45:22.6861022+01:00",
+    "AppointmentId": 103,
+    "StartDate": "2018-03-16T03:46:53.9882851+01:00",
+    "EndDate": "2016-02-23T03:46:53.9882851+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ut",
-    "AssociateFullName": "Miss Denis Elisa Larkin",
-    "ContactName": "O'Hara Inc and Sons",
-    "Description": "Visionary encompassing support",
-    "PersonFullName": "Miss Rudolph Antonina Lockman",
-    "PersonId": 354,
-    "ContactId": 764,
-    "ProjectId": 368,
-    "ProjectName": "Hirthe, Considine and Baumbach",
+    "Task": "asperiores",
+    "AssociateFullName": "Brionna Gleason",
+    "ContactName": "Haag, Murphy and Herzog",
+    "Description": "Up-sized dynamic matrix",
+    "PersonFullName": "Christopher Murphy",
+    "PersonId": 439,
+    "ContactId": 861,
+    "ProjectId": 34,
+    "ProjectName": "McLaughlin-Douglas",
     "IsPublished": false,
-    "AssociateId": 992,
-    "ColorIndex": 806,
+    "AssociateId": 167,
+    "ColorIndex": 441,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 827,
-    "PriorityName": "Parker-Gulgowski",
+    "PriorityId": 40,
+    "PriorityName": "O'Conner, Runolfsson and Hickle",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2003-01-22T03:45:22.6861022+01:00",
+    "ActiveDate": "2007-11-17T03:46:53.9882851+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-03-12T03:45:22.6861022+01:00",
-    "RecurringEndDate": "1999-12-30T03:45:22.6861022+01:00",
-    "MotherId": 416,
-    "AssignedBy": 840,
-    "AssignedByFullName": "Luisa Turcotte",
+    "RecurringStartDate": "2009-02-19T03:46:53.9882851+01:00",
+    "RecurringEndDate": "1999-12-23T03:46:53.9882851+01:00",
+    "MotherId": 685,
+    "AssignedBy": 697,
+    "AssignedByFullName": "Deanna Marvin Sr.",
     "RejectReason": "",
-    "Location": "ut",
-    "AlarmLeadTime": "ex",
-    "SaleId": 443,
-    "SaleName": "Jacobi-Dickens",
-    "AssociateName": "Block, Grady and Schinner",
-    "CreatedDate": "2009-06-03T03:45:22.6861022+02:00",
-    "CreatedBy": "repellendus",
-    "CreatedByFullName": "Prof. Brennan Cormier",
-    "CreatedByAssociateId": 424,
+    "Location": "omnis",
+    "AlarmLeadTime": "enim",
+    "SaleId": 281,
+    "SaleName": "Blick Group",
+    "AssociateName": "Bashirian, Gaylord and Kunze",
+    "CreatedDate": "2017-07-22T03:46:53.9882851+02:00",
+    "CreatedBy": "velit",
+    "CreatedByFullName": "Jeromy Lehner",
+    "CreatedByAssociateId": 181,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 34,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 211,
-    "Title": "cupiditate",
-    "Agenda": "qui",
-    "InternalNotes": "ut",
+    "PreferredTZLocation": 584,
+    "Title": "provident",
+    "Agenda": "deleniti",
+    "InternalNotes": "id",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 400
+        "FieldLength": 779
       }
     }
   }

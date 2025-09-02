@@ -2,6 +2,7 @@
 title: PUT List/Position/Items/{id}/UserGroups
 uid: v1PositionList_PutPositionUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/Position/Items/{id}/UserGroups
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 254,
-    "Name": "Kertzmann-Roberts",
-    "ToolTip": "Esse id.",
+    "Id": 432,
+    "Name": "Dietrich LLC",
+    "ToolTip": "Nihil harum.",
     "Deleted": false,
-    "Rank": 509,
-    "Type": "vero",
-    "ColorBlock": 447,
-    "IconHint": "deleniti",
-    "Selected": false,
-    "LastChanged": "2017-09-11T03:45:29.0765432+02:00",
+    "Rank": 883,
+    "Type": "quam",
+    "ColorBlock": 774,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2007-02-28T03:47:00.7067961+01:00",
     "ChildItems": [
       {
-        "Id": 220,
-        "Name": "Pacocha, Lebsack and McGlynn",
-        "ToolTip": "Quo est mollitia est sit rerum.",
+        "Id": 764,
+        "Name": "Gislason, Mertz and Gulgowski",
+        "ToolTip": "Voluptas quo nihil nostrum illo eaque et.",
         "Deleted": false,
-        "Rank": 901,
-        "Type": "suscipit",
-        "ColorBlock": 13,
-        "IconHint": "quis",
+        "Rank": 822,
+        "Type": "inventore",
+        "ColorBlock": 493,
+        "IconHint": "commodi",
         "Selected": false,
-        "LastChanged": "2012-08-16T03:45:29.0765432+02:00",
+        "LastChanged": "2005-11-25T03:47:00.7067961+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "magnam",
+        "ExtraInfo": "maxime",
+        "StyleHint": "rem",
         "Hidden": false,
-        "FullName": "Reuben Jones"
+        "FullName": "Hannah Kreiger"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "eum",
-    "Hidden": true,
-    "FullName": "Sam Osinski"
+    "ExtraInfo": "incidunt",
+    "StyleHint": "cum",
+    "Hidden": false,
+    "FullName": "Mrs. Schuyler Verdie Parisian"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 304,
-    "Name": "Hodkiewicz Group",
-    "ToolTip": "Temporibus sed velit hic fuga et.",
+    "Id": 976,
+    "Name": "Hickle, Farrell and Harvey",
+    "ToolTip": "Tempore neque.",
     "Deleted": false,
-    "Rank": 485,
-    "Type": "fugit",
-    "ColorBlock": 203,
-    "IconHint": "corporis",
-    "Selected": true,
-    "LastChanged": "2005-05-28T03:45:29.0765432+02:00",
+    "Rank": 812,
+    "Type": "saepe",
+    "ColorBlock": 486,
+    "IconHint": "ea",
+    "Selected": false,
+    "LastChanged": "2014-04-01T03:47:00.7067961+02:00",
     "ChildItems": [
       {
-        "Id": 689,
-        "Name": "Grady-Ritchie",
-        "ToolTip": "Perferendis quia quas eum ea.",
-        "Deleted": true,
-        "Rank": 28,
-        "Type": "voluptate",
-        "ColorBlock": 852,
-        "IconHint": "cum",
+        "Id": 129,
+        "Name": "Schuster-Friesen",
+        "ToolTip": "At omnis deserunt in quibusdam.",
+        "Deleted": false,
+        "Rank": 69,
+        "Type": "aspernatur",
+        "ColorBlock": 444,
+        "IconHint": "deleniti",
         "Selected": true,
-        "LastChanged": "1999-03-17T03:45:29.0765432+01:00",
+        "LastChanged": "1999-10-20T03:47:00.7067961+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "rerum",
-        "Hidden": false,
-        "FullName": "Alvis Heller",
+        "ExtraInfo": "quae",
+        "StyleHint": "laboriosam",
+        "Hidden": true,
+        "FullName": "Henri Hoppe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 799
+            "FieldLength": 819
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "repudiandae",
-    "Hidden": false,
-    "FullName": "Jaquelin Hermiston",
+    "ExtraInfo": "ut",
+    "StyleHint": "pariatur",
+    "Hidden": true,
+    "FullName": "Vicenta Halvorson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 694
+        "FieldType": "System.Int32",
+        "FieldLength": 181
       }
     }
   }

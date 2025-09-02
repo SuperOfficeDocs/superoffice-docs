@@ -2,6 +2,7 @@
 title: Services88.ContactAgent.GetNameDepartmentDuplicates SOAP
 generated: true
 uid: Services88-Contact-GetNameDepartmentDuplicates
+content_type: reference
 ---
 
 # Services88 Contact GetNameDepartmentDuplicates

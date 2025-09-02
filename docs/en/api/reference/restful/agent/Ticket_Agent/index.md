@@ -1,6 +1,8 @@
 ---
+uid: tag-Ticket_Agent
 title: Ticket_Agent
 generated: true
+content_type: reference
 ---
 
 ```http
@@ -22,14 +24,6 @@ generated: true
 
 * [POST Agents/Ticket/SaveAttachmentEntity](v1TicketAgent_SaveAttachmentEntity.md)
 
-* [POST Agents/Ticket/CreateDefaultTicketEntity](v1TicketAgent_CreateDefaultTicketEntity.md)
-
-* [POST Agents/Ticket/SaveTicketEntity](v1TicketAgent_SaveTicketEntity.md)
-
-* [POST Agents/Ticket/CreateDefaultTicketMessageEntity](v1TicketAgent_CreateDefaultTicketMessageEntity.md)
-
-* [POST Agents/Ticket/SaveTicketMessageEntity](v1TicketAgent_SaveTicketMessageEntity.md)
-
 * [POST Agents/Ticket/GetAttachmentEntity](v1TicketAgent_GetAttachmentEntity.md)
 
 * [POST Agents/Ticket/CopyFromCRMDocument](v1TicketAgent_CopyFromCRMDocument.md)
@@ -43,6 +37,10 @@ generated: true
 * [POST Agents/Ticket/GetTicket](v1TicketAgent_GetTicket.md)
 
 * [POST Agents/Ticket/GetTickets](v1TicketAgent_GetTickets.md)
+
+* [POST Agents/Ticket/CreateDefaultTicketEntity](v1TicketAgent_CreateDefaultTicketEntity.md)
+
+* [POST Agents/Ticket/SaveTicketEntity](v1TicketAgent_SaveTicketEntity.md)
 
 * [POST Agents/Ticket/GetTicketEntity](v1TicketAgent_GetTicketEntity.md)
 
@@ -99,6 +97,10 @@ generated: true
 * [POST Agents/Ticket/GetHotlistEjUsers](v1TicketAgent_GetHotlistEjUsers.md)
 
 * [POST Agents/Ticket/GetTicketMessage](v1TicketAgent_GetTicketMessage.md)
+
+* [POST Agents/Ticket/CreateDefaultTicketMessageEntity](v1TicketAgent_CreateDefaultTicketMessageEntity.md)
+
+* [POST Agents/Ticket/SaveTicketMessageEntity](v1TicketAgent_SaveTicketMessageEntity.md)
 
 * [POST Agents/Ticket/GetTicketMessageEntity](v1TicketAgent_GetTicketMessageEntity.md)
 

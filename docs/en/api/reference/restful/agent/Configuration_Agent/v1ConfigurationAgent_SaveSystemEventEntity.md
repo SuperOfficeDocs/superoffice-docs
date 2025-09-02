@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/SaveSystemEventEntity
 uid: v1ConfigurationAgent_SaveSystemEventEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/SaveSystemEventEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 ```
 
-Updates the existing SystemEventEntity or creates a new SystemEventEntity if the id parameter is empty
+Updates the existing SystemEventEntity or creates a new SystemEventEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing SystemEventEntity or creates a new SystemEventEntity if the
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: systemEventEntity 
 
-The SystemEventEntity to be saved. 
+The SystemEventEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -81,19 +82,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 454,
+  "SystemEventId": 262,
   "Scope": "Database",
-  "Eta": "2020-05-21T03:45:23.0767156+02:00",
-  "Eventkey": "id",
-  "Eventmess": "suscipit",
-  "ExtraInfo": 732,
-  "Owner": 988,
-  "UpdatedCount": 580,
-  "Registered": "2002-08-28T03:45:23.0767156+02:00",
+  "Eta": "2010-03-11T03:46:54.4570178+01:00",
+  "Eventkey": "quisquam",
+  "Eventmess": "molestiae",
+  "ExtraInfo": 111,
+  "Owner": 564,
+  "UpdatedCount": 863,
+  "Registered": "2017-05-21T03:46:54.4570178+02:00",
   "ActivatedBy": null
 }
 ```
@@ -105,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 202,
+  "SystemEventId": 742,
   "Scope": "Database",
-  "Eta": "2005-04-01T03:45:23.0767156+02:00",
-  "Eventkey": "minima",
-  "Eventmess": "voluptate",
-  "ExtraInfo": 705,
-  "Owner": 883,
-  "UpdatedCount": 736,
-  "Registered": "2025-04-02T03:45:23.0767156+02:00",
+  "Eta": "2007-09-07T03:46:54.4570178+02:00",
+  "Eventkey": "veniam",
+  "Eventmess": "at",
+  "ExtraInfo": 142,
+  "Owner": 251,
+  "UpdatedCount": 204,
+  "Registered": "2011-08-12T03:46:54.4570178+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 719
+      "FieldType": "System.Int32",
+      "FieldLength": 862
     }
   }
 }

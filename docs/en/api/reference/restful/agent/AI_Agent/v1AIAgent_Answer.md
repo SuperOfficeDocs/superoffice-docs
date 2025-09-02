@@ -2,6 +2,7 @@
 title: POST Agents/AI/Answer
 uid: v1AIAgent_Answer
 generated: true
+content_type: reference
 ---
 
 # POST Agents/AI/Answer
@@ -80,10 +81,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "NamespaceName": "Smith Inc and Sons",
-  "Query": "enim",
+  "NamespaceName": "Beer, Blick and Leannon",
+  "Query": "ullam",
   "Type": "Document",
-  "Top": 596
+  "Top": 128
 }
 ```
 
@@ -94,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Answer": "vel",
+  "Answer": "dolorem",
   "Source": [
     {
-      "Chunk": "nihil",
-      "Title": "ut",
-      "Id": "magnam",
+      "Chunk": "nisi",
+      "Title": "aut",
+      "Id": "fugit",
       "Type": "Document",
-      "Score": 250.72,
+      "Score": 28563.275999999998,
       "Metadata": {
         "fieldName": {}
       }
     },
     {
-      "Chunk": "nihil",
-      "Title": "ut",
-      "Id": "magnam",
+      "Chunk": "nisi",
+      "Title": "aut",
+      "Id": "fugit",
       "Type": "Document",
-      "Score": 250.72,
+      "Score": 28563.275999999998,
       "Metadata": {
         "fieldName": {}
       }
     }
   ],
-  "TrackingId": "similique"
+  "TrackingId": "nihil"
 }
 ```

@@ -2,6 +2,7 @@
 title: DEL List/DocumentTemplate/Items/{id}
 uid: v1DocumentTemplateList_DeleteDocumentTemplateEntity
 generated: true
+content_type: reference
 ---
 
 # DEL List/DocumentTemplate/Items/{id}

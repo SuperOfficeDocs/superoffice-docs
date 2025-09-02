@@ -3,9 +3,9 @@ uid: AssociateProjects
 title: AssociateProjects
 description: 
 keywords: AssociateProjects archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "AssociateProjects"

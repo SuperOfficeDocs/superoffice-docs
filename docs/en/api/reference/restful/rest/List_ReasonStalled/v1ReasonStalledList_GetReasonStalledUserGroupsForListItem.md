@@ -2,6 +2,7 @@
 title: GET List/ReasonStalled/Items/{id}/UserGroups
 uid: v1ReasonStalledList_GetReasonStalledUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/ReasonStalled/Items/{id}/UserGroups
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 733,
-    "Name": "Wiegand, Stanton and Kessler",
-    "ToolTip": "Aperiam molestias et corrupti tempora est culpa animi.",
+    "Id": 152,
+    "Name": "Mohr-Kris",
+    "ToolTip": "Minima quia aut reprehenderit.",
     "Deleted": false,
-    "Rank": 35,
-    "Type": "sint",
-    "ColorBlock": 715,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2015-03-15T03:45:29.2171623+01:00",
+    "Rank": 23,
+    "Type": "cupiditate",
+    "ColorBlock": 184,
+    "IconHint": "numquam",
+    "Selected": true,
+    "LastChanged": "2007-09-16T03:47:00.8005429+02:00",
     "ChildItems": [
       {
-        "Id": 585,
-        "Name": "Cruickshank, Thompson and Funk",
-        "ToolTip": "Non aperiam saepe odio modi rem aspernatur.",
+        "Id": 540,
+        "Name": "Grady, Zieme and Barrows",
+        "ToolTip": "Eius rerum odio atque.",
         "Deleted": false,
-        "Rank": 910,
-        "Type": "aut",
-        "ColorBlock": 645,
-        "IconHint": "et",
+        "Rank": 885,
+        "Type": "et",
+        "ColorBlock": 964,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2003-07-01T03:45:29.2171623+02:00",
+        "LastChanged": "2001-07-02T03:47:00.8005429+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "occaecati",
+        "ExtraInfo": "sit",
+        "StyleHint": "odio",
         "Hidden": false,
-        "FullName": "Mrs. Mavis Ray Weber",
+        "FullName": "Mrs. Carolyne Herzog I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 642
+            "FieldType": "System.Int32",
+            "FieldLength": 584
           }
         }
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "eius",
+    "ExtraInfo": "beatae",
+    "StyleHint": "ullam",
     "Hidden": false,
-    "FullName": "Kay Hayes",
+    "FullName": "Haskell Ullrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 686
+        "FieldType": "System.Int32",
+        "FieldLength": 620
       }
     }
   }

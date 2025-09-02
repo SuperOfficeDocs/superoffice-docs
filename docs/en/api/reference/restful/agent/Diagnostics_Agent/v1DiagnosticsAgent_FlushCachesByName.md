@@ -2,6 +2,7 @@
 title: POST Agents/Diagnostics/FlushCachesByName
 uid: v1DiagnosticsAgent_FlushCachesByName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Diagnostics/FlushCachesByName
@@ -64,13 +65,13 @@ No Content
 POST /api/v1/Agents/Diagnostics/FlushCachesByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Murphy-Barton",
-    "Swaniawski, Wilkinson and Trantow"
+    "Harris, Spinka and Weber",
+    "Legros-Conn"
   ]
 }
 ```

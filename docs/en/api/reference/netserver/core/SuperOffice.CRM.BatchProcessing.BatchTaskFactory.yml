@@ -5,7 +5,7 @@ items:
   id: BatchTaskFactory
   parent: SuperOffice.CRM.BatchProcessing
   children:
-  - SuperOffice.CRM.BatchProcessing.BatchTaskFactory.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.BatchTaskFactory})
+  - SuperOffice.CRM.BatchProcessing.BatchTaskFactory.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.BatchTaskFactory},SuperOffice.Data.Cache.ICacheManager)
   - SuperOffice.CRM.BatchProcessing.BatchTaskFactory.EndTaskAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.BatchProcessing.BatchTaskFactory.GetRunningTasks(SuperOffice.Data.BatchTaskState,System.Nullable{System.Boolean},System.Nullable{System.Boolean})
   - SuperOffice.CRM.BatchProcessing.BatchTaskFactory.GetTaskInfo(System.Int32)
@@ -42,30 +42,32 @@ items:
   extensionMethods:
   - SuperOffice.CRM.BatchProcessing.BatchTaskFactory.EnumUtil.MapEnums``2
   - SuperOffice.CRM.BatchProcessing.BatchTaskFactory.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-- uid: SuperOffice.CRM.BatchProcessing.BatchTaskFactory.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.BatchTaskFactory})
-  commentId: M:SuperOffice.CRM.BatchProcessing.BatchTaskFactory.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.BatchTaskFactory})
-  id: '#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.BatchTaskFactory})'
+- uid: SuperOffice.CRM.BatchProcessing.BatchTaskFactory.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.BatchTaskFactory},SuperOffice.Data.Cache.ICacheManager)
+  commentId: M:SuperOffice.CRM.BatchProcessing.BatchTaskFactory.#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.BatchTaskFactory},SuperOffice.Data.Cache.ICacheManager)
+  id: '#ctor(Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.BatchTaskFactory},SuperOffice.Data.Cache.ICacheManager)'
   parent: SuperOffice.CRM.BatchProcessing.BatchTaskFactory
   langs:
   - csharp
   - vb
-  name: BatchTaskFactory(ILogger<BatchTaskFactory>)
-  nameWithType: BatchTaskFactory.BatchTaskFactory(ILogger<BatchTaskFactory>)
-  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskFactory.BatchTaskFactory(Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.BatchProcessing.BatchTaskFactory>)
+  name: BatchTaskFactory(ILogger<BatchTaskFactory>, ICacheManager)
+  nameWithType: BatchTaskFactory.BatchTaskFactory(ILogger<BatchTaskFactory>, ICacheManager)
+  fullName: SuperOffice.CRM.BatchProcessing.BatchTaskFactory.BatchTaskFactory(Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.BatchProcessing.BatchTaskFactory>, SuperOffice.Data.Cache.ICacheManager)
   type: Constructor
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing
   syntax:
-    content: public BatchTaskFactory(ILogger<BatchTaskFactory> logger)
+    content: public BatchTaskFactory(ILogger<BatchTaskFactory> logger, ICacheManager cacheManager)
     parameters:
     - id: logger
       type: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.BatchTaskFactory}
-    content.vb: Public Sub New(logger As ILogger(Of BatchTaskFactory))
+    - id: cacheManager
+      type: SuperOffice.Data.Cache.ICacheManager
+    content.vb: Public Sub New(logger As ILogger(Of BatchTaskFactory), cacheManager As ICacheManager)
   overload: SuperOffice.CRM.BatchProcessing.BatchTaskFactory.#ctor*
-  nameWithType.vb: BatchTaskFactory.New(ILogger(Of BatchTaskFactory))
-  fullName.vb: SuperOffice.CRM.BatchProcessing.BatchTaskFactory.New(Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.BatchProcessing.BatchTaskFactory))
-  name.vb: New(ILogger(Of BatchTaskFactory))
+  nameWithType.vb: BatchTaskFactory.New(ILogger(Of BatchTaskFactory), ICacheManager)
+  fullName.vb: SuperOffice.CRM.BatchProcessing.BatchTaskFactory.New(Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.BatchProcessing.BatchTaskFactory), SuperOffice.Data.Cache.ICacheManager)
+  name.vb: New(ILogger(Of BatchTaskFactory), ICacheManager)
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskFactory.GetRunningTasks(SuperOffice.Data.BatchTaskState,System.Nullable{System.Boolean},System.Nullable{System.Boolean})
   commentId: M:SuperOffice.CRM.BatchProcessing.BatchTaskFactory.GetRunningTasks(SuperOffice.Data.BatchTaskState,System.Nullable{System.Boolean},System.Nullable{System.Boolean})
   id: GetRunningTasks(SuperOffice.Data.BatchTaskState,System.Nullable{System.Boolean},System.Nullable{System.Boolean})
@@ -790,7 +792,7 @@ references:
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskFactory.#ctor*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskFactory.#ctor
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.BatchTaskFactory.html#SuperOffice_CRM_BatchProcessing_BatchTaskFactory__ctor_Microsoft_Extensions_Logging_ILogger_SuperOffice_CRM_BatchProcessing_BatchTaskFactory__
+  href: SuperOffice.CRM.BatchProcessing.BatchTaskFactory.html#SuperOffice_CRM_BatchProcessing_BatchTaskFactory__ctor_Microsoft_Extensions_Logging_ILogger_SuperOffice_CRM_BatchProcessing_BatchTaskFactory__SuperOffice_Data_Cache_ICacheManager_
   name: BatchTaskFactory
   nameWithType: BatchTaskFactory.BatchTaskFactory
   fullName: SuperOffice.CRM.BatchProcessing.BatchTaskFactory.BatchTaskFactory
@@ -832,6 +834,14 @@ references:
     isExternal: true
     href: SuperOffice.CRM.BatchProcessing.BatchTaskFactory.html
   - name: )
+- uid: SuperOffice.Data.Cache.ICacheManager
+  commentId: T:SuperOffice.Data.Cache.ICacheManager
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  href: SuperOffice.Data.Cache.ICacheManager.html
+  name: ICacheManager
+  nameWithType: ICacheManager
+  fullName: SuperOffice.Data.Cache.ICacheManager
 - uid: Microsoft.Extensions.Logging.ILogger`1
   commentId: T:Microsoft.Extensions.Logging.ILogger`1
   isExternal: true
@@ -897,6 +907,43 @@ references:
     name: Logging
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+- uid: SuperOffice.Data.Cache
+  commentId: N:SuperOffice.Data.Cache
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.Cache
+  nameWithType: SuperOffice.Data.Cache
+  fullName: SuperOffice.Data.Cache
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.Data.Cache.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.Data.Cache.html
 - uid: SuperOffice.CRM.BatchProcessing.BatchTaskFactory.GetRunningTasks*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.BatchTaskFactory.GetRunningTasks
   isExternal: true

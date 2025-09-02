@@ -2,6 +2,7 @@
 title: POST Agents/Project/GetProjectEvent
 uid: v1ProjectAgent_GetProjectEvent
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/GetProjectEvent
@@ -22,11 +23,11 @@ Gets a ProjectEvent object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| projectEventId | int32 | **Required** The primary key. |
+| projectEventId | int32 | **Required** The identifier of the ProjectEvent object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=577
+POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=719
 POST /api/v1/Agents/Project/GetProjectEvent?$select=name,department,category/id
 ```
 
@@ -88,7 +89,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,34 +99,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateFullName": "Miss Vivianne Benny Beahan",
-  "Description": "Inverse bottom-line data-warehouse",
-  "ProjectId": 742,
-  "EventName": "Lueilwitz-Herzog",
-  "AssociateId": 120,
+  "AssociateFullName": "Mrs. Clifford Lacey Green DVM",
+  "Description": "Triple-buffered static customer loyalty",
+  "ProjectId": 426,
+  "EventName": "Moen-Rowe",
+  "AssociateId": 504,
   "IsSignedOn": false,
-  "SignOffConfirmationText": "esse",
-  "SignOffText": "quia",
-  "SignOnConfirmationText": "ut",
-  "SignOnText": "iste",
-  "EventDate": "1998-10-12T03:45:23.7798203+02:00",
+  "SignOffConfirmationText": "magni",
+  "SignOffText": "occaecati",
+  "SignOnConfirmationText": "dolorem",
+  "SignOnText": "vel",
+  "EventDate": "2001-02-24T03:46:55.1601179+01:00",
   "Enabled": false,
   "SignOff": false,
-  "SignOffTaskEnable": true,
+  "SignOffTaskEnable": false,
   "SignOnTaskEnable": false,
   "SignOn": false,
-  "SignOffTaskId": 95,
-  "SignOnTaskId": 982,
-  "SignOffTriggersAssign": true,
-  "SignOnTriggersAssign": true,
-  "SignOnPersonId": 490,
-  "SignOffPersonId": 546,
+  "SignOffTaskId": 458,
+  "SignOnTaskId": 668,
+  "SignOffTriggersAssign": false,
+  "SignOnTriggersAssign": false,
+  "SignOnPersonId": 764,
+  "SignOffPersonId": 13,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldLength": 649
     }
   }
 }

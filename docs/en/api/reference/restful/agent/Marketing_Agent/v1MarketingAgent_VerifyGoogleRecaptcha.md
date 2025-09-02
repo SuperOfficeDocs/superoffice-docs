@@ -2,6 +2,7 @@
 title: POST Agents/Marketing/VerifyGoogleRecaptcha
 uid: v1MarketingAgent_VerifyGoogleRecaptcha
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Marketing/VerifyGoogleRecaptcha
@@ -75,8 +76,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Token": "eum",
-  "OptionalSecretKey": "sint"
+  "Token": "rerum",
+  "OptionalSecretKey": "iure"
 }
 ```
 

@@ -2,6 +2,7 @@
 title: POST Agents/List/GetDepartmentList
 uid: v1ListAgent_GetDepartmentList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetDepartmentList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetDepartmentList?$select=name,department,category/id
 
 ## Request Body: departmentIds 
 
-The primary keys. 
+The identifiers of the Department object 
 
 
 ## Response:array
@@ -72,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetDepartmentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,28 +84,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 438,
-    "Value": "repudiandae",
-    "Tooltip": "deleniti",
+    "Id": 886,
+    "Value": "temporibus",
+    "Tooltip": "impedit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 291
+        "FieldLength": 556
       }
     }
   },
   {
-    "Id": 438,
-    "Value": "repudiandae",
-    "Tooltip": "deleniti",
+    "Id": 886,
+    "Value": "temporibus",
+    "Tooltip": "impedit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 291
+        "FieldLength": 556
       }
     }
   }

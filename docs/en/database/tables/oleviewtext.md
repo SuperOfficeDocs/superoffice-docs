@@ -2,10 +2,10 @@
 uid: table-OLEViewText
 title: OLEViewText table
 description: Control data table for the OLE DB Provider
-so.generated: true
+generated: true
 keywords: database table OLEViewText
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # OLEViewText Table (164)

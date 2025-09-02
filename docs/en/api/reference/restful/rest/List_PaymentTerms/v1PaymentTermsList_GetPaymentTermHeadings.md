@@ -2,6 +2,7 @@
 title: GET List/PaymentTerm/Headings
 uid: v1PaymentTermsList_GetPaymentTermHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/PaymentTerm/Headings
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 483,
-    "Name": "Streich Inc and Sons",
-    "Tooltip": "sapiente",
-    "Deleted": false,
-    "Rank": 43,
-    "UdListDefinitionId": 536,
+    "HeadingId": 266,
+    "Name": "Hammes Inc and Sons",
+    "Tooltip": "non",
+    "Deleted": true,
+    "Rank": 750,
+    "UdListDefinitionId": 787,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 2
+        "FieldLength": 991
       }
     }
   }

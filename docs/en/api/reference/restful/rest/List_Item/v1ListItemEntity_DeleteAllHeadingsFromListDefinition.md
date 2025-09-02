@@ -2,6 +2,7 @@
 title: DEL List/{id}/Headings
 uid: v1ListItemEntity_DeleteAllHeadingsFromListDefinition
 generated: true
+content_type: reference
 ---
 
 # DEL List/{id}/Headings

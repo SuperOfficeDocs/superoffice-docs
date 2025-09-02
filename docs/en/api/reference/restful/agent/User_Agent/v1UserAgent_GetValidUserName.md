@@ -2,6 +2,7 @@
 title: POST Agents/User/GetValidUserName
 uid: v1UserAgent_GetValidUserName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetValidUserName
@@ -77,10 +78,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 633,
+  "AssociateId": 979,
   "Type": "AnonymousAssociate",
-  "PersonId": 596,
-  "UserName": "Champlin, Wunsch and Schiller"
+  "PersonId": 376,
+  "UserName": "Armstrong-Lang"
 }
 ```
 
@@ -90,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Flatley Inc and Sons"
+"Barton, Boehm and Moore"
 ```

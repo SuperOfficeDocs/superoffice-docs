@@ -2,6 +2,7 @@
 title: POST Agents/List/CreateDefaultAmountClassEntity
 uid: v1ListAgent_CreateDefaultAmountClassEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/CreateDefaultAmountClassEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/List/CreateDefaultAmountClassEntity
 ```
 
-Set default values into a new AmountClassEntity.
+Loading default values into a new AmountClassEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -64,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 912,
-  "Name": "Macejkovic, Johnson and Bednar",
-  "Tooltip": "iusto",
-  "Rank": 910,
-  "AmountFrom": 27165.512,
-  "AmountTo": 26676.608,
-  "Deleted": true,
-  "CurrencyId": 550,
+  "AmountClassId": 242,
+  "Name": "Johnson-Kilback",
+  "Tooltip": "ex",
+  "Rank": 327,
+  "AmountFrom": 11448.502,
+  "AmountTo": 23357.701999999997,
+  "Deleted": false,
+  "CurrencyId": 333,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 310
+      "FieldType": "System.String",
+      "FieldLength": 295
     }
   }
 }

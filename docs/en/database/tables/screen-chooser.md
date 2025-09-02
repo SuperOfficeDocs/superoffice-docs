@@ -2,10 +2,10 @@
 uid: table-screen_chooser
 title: screen_chooser table
 description: Screen choosers
-so.generated: true
+generated: true
 keywords: database table screen_chooser
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # screen\_chooser Table (375)

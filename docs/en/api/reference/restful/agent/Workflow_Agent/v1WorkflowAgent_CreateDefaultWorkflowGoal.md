@@ -2,6 +2,7 @@
 title: POST Agents/Workflow/CreateDefaultWorkflowGoal
 uid: v1WorkflowAgent_CreateDefaultWorkflowGoal
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Workflow/CreateDefaultWorkflowGoal
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowGoal
 ```
 
-Set default values into a new WorkflowGoal.
+Loading default values into a new WorkflowGoal.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -70,23 +69,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 518,
-  "WorkflowId": 355,
+  "WorkflowGoalId": 268,
+  "WorkflowId": 518,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Gerhold, Ruecker and Murray",
-      "Description": "Synergized disintermediate help-desk",
-      "Rank": 308,
+      "Name": "Homenick Inc and Sons",
+      "Description": "Streamlined optimal info-mediaries",
+      "Rank": 799,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Gerhold, Ruecker and Murray",
-      "Description": "Synergized disintermediate help-desk",
-      "Rank": 308,
+      "Name": "Homenick Inc and Sons",
+      "Description": "Streamlined optimal info-mediaries",
+      "Rank": 799,
       "Restrictions": [
         {},
         {}
@@ -97,8 +96,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 310
+      "FieldType": "System.String",
+      "FieldLength": 248
     }
   }
 }

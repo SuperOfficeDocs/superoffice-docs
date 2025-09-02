@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.CreateDefaultEMailAccount SOAP
 generated: true
 uid: Services88-EMail-CreateDefaultEMailAccount
+content_type: reference
 ---
 
 # Services88 EMail CreateDefaultEMailAccount
@@ -87,7 +88,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <EMail:InboxFolder xsi:type="xsd:string"></EMail:InboxFolder>
     <EMail:SentFolder xsi:type="xsd:string"></EMail:SentFolder>
     <EMail:SimpleMode xsi:type="xsd:short">0</EMail:SimpleMode>
-    <EMail:LastFetch xsi:type="xsd:dateTime">2025-06-26T01:43:48Z</EMail:LastFetch>
+    <EMail:LastFetch xsi:type="xsd:dateTime">2025-08-30T01:45:21Z</EMail:LastFetch>
    </EMail:Response>
   </EMail:CreateDefaultEMailAccountResponse>
  </SOAP-ENV:Body>

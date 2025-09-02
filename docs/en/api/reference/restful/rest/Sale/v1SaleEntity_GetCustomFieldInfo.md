@@ -2,6 +2,7 @@
 title: GET Sale/CustomField/{fieldName}
 uid: v1SaleEntity_GetCustomFieldInfo
 generated: true
+content_type: reference
 ---
 
 # GET Sale/CustomField/{fieldName}
@@ -83,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Cormier Inc and Sons",
-  "DisplayName": "Bosco Group",
-  "Description": "Reduced zero defect parallelism",
-  "ShortLabel": "aliquid",
+  "FieldName": "Weissnat, Mann and Jones",
+  "DisplayName": "Quigley-Wintheiser",
+  "Description": "Assimilated global archive",
+  "ShortLabel": "sapiente",
   "HideLabel": true,
-  "HideField": false,
+  "HideField": true,
   "IsIndexed": false,
-  "IsMandatory": true,
+  "IsMandatory": false,
   "IsReadOnly": false,
   "IsExternal": true,
   "IsDisplayField": false,
-  "Rank": 976,
-  "TemplateVariableName": "Anderson LLC"
+  "Rank": 666,
+  "TemplateVariableName": "Yundt, Frami and Mayer"
 }
 ```

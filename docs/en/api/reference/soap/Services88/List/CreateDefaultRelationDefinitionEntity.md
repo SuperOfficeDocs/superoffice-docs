@@ -2,6 +2,7 @@
 title: Services88.ListAgent.CreateDefaultRelationDefinitionEntity SOAP
 generated: true
 uid: Services88-List-CreateDefaultRelationDefinitionEntity
+content_type: reference
 ---
 
 # Services88 List CreateDefaultRelationDefinitionEntity

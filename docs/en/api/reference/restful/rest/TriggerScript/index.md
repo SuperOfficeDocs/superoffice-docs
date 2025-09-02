@@ -1,6 +1,8 @@
 ---
+uid: tag-TriggerScript
 title: TriggerScript
 generated: true
+content_type: reference
 ---
 
 ```http

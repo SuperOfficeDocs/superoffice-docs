@@ -2,6 +2,7 @@
 title: POST Agents/Document/SubstituteMergeDocumentTemplateVariablesEx2
 uid: v1DocumentAgent_SubstituteMergeDocumentTemplateVariablesEx2
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/SubstituteMergeDocumentTemplateVariablesEx2
@@ -82,17 +83,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MergeDocumentId": 889,
-  "ContactId": 132,
-  "PersonId": 671,
-  "ProjectId": 666,
-  "SelectionId": 580,
-  "AppointmentId": 267,
-  "DocumentId": 847,
-  "SaleId": 747,
+  "MergeDocumentId": 274,
+  "ContactId": 897,
+  "PersonId": 616,
+  "ProjectId": 446,
+  "SelectionId": 984,
+  "AppointmentId": 884,
+  "DocumentId": 290,
+  "SaleId": 261,
   "CustomTags": {
-    "CustomTags1": "similique",
-    "CustomTags2": "facilis"
+    "CustomTags1": "dolores",
+    "CustomTags2": "dolorem"
   }
 }
 ```

@@ -2,6 +2,7 @@
 title: Services88.FindAgent.FindFromRestrictionsColumns SOAP
 generated: true
 uid: Services88-Find-FindFromRestrictionsColumns
+content_type: reference
 ---
 
 # Services88 Find FindFromRestrictionsColumns

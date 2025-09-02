@@ -3,9 +3,9 @@ uid: EventHandler
 title: EventHandler
 description: Archive of Event handlers - triggers - used by the web api and partners.
 keywords: EventHandler archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "EventHandler"

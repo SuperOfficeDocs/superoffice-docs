@@ -1,6 +1,8 @@
 ---
+uid: tag-List_TicketType
 title: List_TicketType
 generated: true
+content_type: reference
 ---
 
 ```http

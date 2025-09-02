@@ -2,6 +2,7 @@
 title: PUT List/QuoteApproveReason/Headings
 uid: v1QuoteApproveReasonList_PutQuoteApproveReasonHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/QuoteApproveReason/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 452,
-    "Name": "Hilll Inc and Sons",
-    "Tooltip": "ipsam",
-    "Deleted": false,
-    "Rank": 389,
-    "UdListDefinitionId": 884
+    "HeadingId": 162,
+    "Name": "Ortiz, Hermiston and Murphy",
+    "Tooltip": "cum",
+    "Deleted": true,
+    "Rank": 253,
+    "UdListDefinitionId": 798
   },
   {
-    "HeadingId": 452,
-    "Name": "Hilll Inc and Sons",
-    "Tooltip": "ipsam",
-    "Deleted": false,
-    "Rank": 389,
-    "UdListDefinitionId": 884
+    "HeadingId": 162,
+    "Name": "Ortiz, Hermiston and Murphy",
+    "Tooltip": "cum",
+    "Deleted": true,
+    "Rank": 253,
+    "UdListDefinitionId": 798
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 458,
-    "Name": "Gutkowski, Batz and Prohaska",
-    "Tooltip": "non",
+    "HeadingId": 812,
+    "Name": "Connelly Inc and Sons",
+    "Tooltip": "quidem",
     "Deleted": false,
-    "Rank": 228,
-    "UdListDefinitionId": 541,
+    "Rank": 283,
+    "UdListDefinitionId": 249,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 264
+        "FieldType": "System.Int32",
+        "FieldLength": 315
       }
     }
   }

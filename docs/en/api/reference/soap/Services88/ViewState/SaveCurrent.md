@@ -2,6 +2,7 @@
 title: Services88.ViewStateAgent.SaveCurrent SOAP
 generated: true
 uid: Services88-ViewState-SaveCurrent
+content_type: reference
 ---
 
 # Services88 ViewState SaveCurrent

@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveListEntity
 uid: v1ListAgent_SaveListEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveListEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/List/SaveListEntity
 ```
 
-Updates the existing ListEntity or creates a new ListEntity if the id parameter is empty
+Updates the existing ListEntity or creates a new ListEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing ListEntity or creates a new ListEntity if the id parameter 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: listEntity 
 
-The ListEntity to be saved. 
+The ListEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -85,15 +86,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 931,
-  "Name": "Heller-O'Keefe",
-  "Tooltip": "dolore",
+  "Id": 511,
+  "Name": "Kuhn, Lueilwitz and Rau",
+  "Tooltip": "hic",
   "Deleted": false,
-  "Rank": 557,
+  "Rank": 88,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "rem",
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptate",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -105,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 423,
-  "Name": "Kulas-West",
-  "Tooltip": "exercitationem",
-  "Deleted": false,
-  "Rank": 710,
+  "Id": 784,
+  "Name": "Boyer, Gibson and Windler",
+  "Tooltip": "at",
+  "Deleted": true,
+  "Rank": 972,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "culpa",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "cum",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldLength": 114
     }
   }
 }

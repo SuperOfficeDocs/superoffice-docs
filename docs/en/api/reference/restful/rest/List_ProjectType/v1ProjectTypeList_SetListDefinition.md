@@ -2,6 +2,7 @@
 title: PUT List/ProjectType
 uid: v1ProjectTypeList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProjectType
@@ -84,20 +85,20 @@ OK
 PUT /api/v1/List/ProjectType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 208,
-  "Name": "Reinger-Terry",
-  "Tooltip": "et",
+  "Id": 113,
+  "Name": "Fisher-Kerluke",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 483,
+  "Rank": 853,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "adipisci",
-  "InUseByUserDefinedFields": true
+  "ListType": "animi",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 766,
-  "Name": "Bosco, Stark and Emard",
-  "Tooltip": "ea",
+  "Id": 565,
+  "Name": "Ferry-Thiel",
+  "Tooltip": "iusto",
   "Deleted": false,
-  "Rank": 865,
+  "Rank": 464,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "eos",
+  "ListType": "quia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 722
+      "FieldLength": 80
     }
   }
 }

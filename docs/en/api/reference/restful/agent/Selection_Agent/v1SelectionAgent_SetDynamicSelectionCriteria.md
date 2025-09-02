@@ -2,6 +2,7 @@
 title: POST Agents/Selection/SetDynamicSelectionCriteria
 uid: v1SelectionAgent_SetDynamicSelectionCriteria
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/SetDynamicSelectionCriteria
@@ -83,22 +84,22 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 899,
+  "SelectionId": 822,
   "Criteria": [
     {
-      "Name": "Adams, Strosin and Pfannerstill",
-      "Operator": "consequuntur",
+      "Name": "Boyle Group",
+      "Operator": "excepturi",
       "Values": [
-        "corporis",
-        "saepe"
+        "aut",
+        "sed"
       ],
       "DisplayValues": [
-        "in",
-        "eaque"
+        "sint",
+        "vel"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -106,9 +107,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 812,
+      "InterParenthesis": 495,
       "InterOperator": "And",
-      "UniqueHash": 512
+      "UniqueHash": 194
     }
   ]
 }
@@ -122,29 +123,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pouros, Kreiger and Gorczany",
-    "Operator": "inventore",
+    "Name": "Schinner, Turner and Smith",
+    "Operator": "laborum",
     "Values": [
-      "qui",
-      "maxime"
+      "impedit",
+      "et"
     ],
     "DisplayValues": [
-      "consequatur",
-      "quibusdam"
+      "ab",
+      "exercitationem"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Bayer-Lebsack",
-        "Operator": "provident",
+        "Name": "Fritsch LLC",
+        "Operator": "voluptas",
         "Values": [
-          "quo",
-          "aut"
+          "architecto",
+          "eius"
         ],
         "DisplayValues": [
-          "ut",
-          "voluptatibus"
+          "molestiae",
+          "laudantium"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -152,14 +153,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 742,
+        "InterParenthesis": 856,
         "InterOperator": "And",
-        "UniqueHash": 669
+        "UniqueHash": 703
       }
     ],
-    "InterParenthesis": 270,
+    "InterParenthesis": 90,
     "InterOperator": "And",
-    "UniqueHash": 673
+    "UniqueHash": 295
   }
 ]
 ```

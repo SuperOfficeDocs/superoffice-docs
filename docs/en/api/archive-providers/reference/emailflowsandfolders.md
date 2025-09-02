@@ -3,9 +3,9 @@ uid: EmailFlowsAndFolders
 title: EmailFlowsAndFolders
 description: Archive of EmailFlows and Folders.
 keywords: EmailFlowsAndFolders archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "EmailFlowsAndFolders"
@@ -90,7 +90,7 @@ Combines all EmailFlows and EmailFlowFolders in one archive together.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowsAndFolders?$select=workflowDescription,updatedBy,workflowAssociate/title
+GET /api/v1/archive/EmailFlowsAndFolders?$select=workflowDefinitionStatusId,workflowAssociate/credentialType,updatedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

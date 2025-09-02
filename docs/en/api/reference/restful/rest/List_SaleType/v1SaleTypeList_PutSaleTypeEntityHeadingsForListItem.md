@@ -2,6 +2,7 @@
 title: PUT List/SaleType/Items/{id}/Headings
 uid: v1SaleTypeList_PutSaleTypeEntityHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/SaleType/Items/{id}/Headings
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 15,
-    "Name": "Berge-Wehner",
-    "ToolTip": "Voluptatibus qui molestiae error totam.",
-    "Deleted": true,
-    "Rank": 181,
-    "Type": "consequuntur",
-    "ColorBlock": 884,
-    "IconHint": "nostrum",
+    "Id": 1000,
+    "Name": "Barrows-Jewess",
+    "ToolTip": "Voluptatibus laudantium rem ab doloribus cumque illo.",
+    "Deleted": false,
+    "Rank": 13,
+    "Type": "possimus",
+    "ColorBlock": 245,
+    "IconHint": "explicabo",
     "Selected": true,
-    "LastChanged": "2001-12-24T03:45:29.2171623+01:00",
+    "LastChanged": "2004-03-23T03:47:00.8161673+01:00",
     "ChildItems": [
       {
-        "Id": 257,
-        "Name": "Ruecker, Beier and Jerde",
-        "ToolTip": "Nisi earum perferendis nemo ut tempora quia.",
-        "Deleted": true,
-        "Rank": 671,
-        "Type": "incidunt",
-        "ColorBlock": 487,
-        "IconHint": "incidunt",
-        "Selected": true,
-        "LastChanged": "1998-04-25T03:45:29.2171623+02:00",
+        "Id": 53,
+        "Name": "McDermott, Rosenbaum and Von",
+        "ToolTip": "Molestiae exercitationem aut id expedita est esse.",
+        "Deleted": false,
+        "Rank": 136,
+        "Type": "tempora",
+        "ColorBlock": 702,
+        "IconHint": "dicta",
+        "Selected": false,
+        "LastChanged": "1999-01-27T03:47:00.8161673+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "nesciunt",
+        "ExtraInfo": "ut",
+        "StyleHint": "consequuntur",
         "Hidden": false,
-        "FullName": "Mrs. Kirstin Cronin V"
+        "FullName": "Eldon Rosalia Torphy DDS"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "rem",
+    "ExtraInfo": "optio",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Henry Mayer"
+    "FullName": "Minerva Stanton"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 299,
-    "Name": "Okuneva Inc and Sons",
-    "ToolTip": "Quia qui rem assumenda eius id.",
-    "Deleted": false,
-    "Rank": 98,
-    "Type": "omnis",
-    "ColorBlock": 392,
-    "IconHint": "aspernatur",
+    "Id": 456,
+    "Name": "Steuber Group",
+    "ToolTip": "Asperiores odio rerum impedit.",
+    "Deleted": true,
+    "Rank": 719,
+    "Type": "non",
+    "ColorBlock": 988,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2000-02-09T03:45:29.2171623+01:00",
+    "LastChanged": "2021-08-02T03:47:00.8161673+02:00",
     "ChildItems": [
       {
-        "Id": 746,
-        "Name": "Harber Inc and Sons",
-        "ToolTip": "Voluptate voluptatem vero dolorum repudiandae quis id voluptas.",
+        "Id": 69,
+        "Name": "Abbott, Strosin and Donnelly",
+        "ToolTip": "Autem nobis adipisci fugiat distinctio qui voluptas eaque.",
         "Deleted": false,
-        "Rank": 805,
-        "Type": "repudiandae",
-        "ColorBlock": 977,
-        "IconHint": "vel",
-        "Selected": true,
-        "LastChanged": "2009-03-11T03:45:29.2171623+01:00",
+        "Rank": 946,
+        "Type": "in",
+        "ColorBlock": 669,
+        "IconHint": "autem",
+        "Selected": false,
+        "LastChanged": "1998-09-25T03:47:00.8161673+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "officiis",
-        "Hidden": true,
-        "FullName": "Mrs. Dewayne Mariah Morar",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "dicta",
+        "Hidden": false,
+        "FullName": "Devin Pouros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 298
+            "FieldLength": 501
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "sit",
+    "ExtraInfo": "facilis",
+    "StyleHint": "dolores",
     "Hidden": false,
-    "FullName": "Missouri Legros",
+    "FullName": "Prof. Maggie Leone Larson I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 987
+        "FieldLength": 332
       }
     }
   }

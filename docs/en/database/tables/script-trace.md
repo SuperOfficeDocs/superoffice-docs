@@ -2,10 +2,10 @@
 uid: table-script_trace
 title: script_trace table
 description: Scripts which should be traced
-so.generated: true
+generated: true
 keywords: database table script_trace
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # script\_trace Table (474)

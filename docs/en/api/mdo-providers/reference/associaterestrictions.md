@@ -3,9 +3,9 @@ uid: associaterestrictions
 title: associaterestrictions
 keywords: mdoprovider mdo provider associaterestrictions
 description: Public MDO provider based on the AssociateRestrictionsMDOProviderBase.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "associaterestrictions" MDO List

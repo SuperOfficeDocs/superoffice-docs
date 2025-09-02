@@ -2,6 +2,7 @@
 title: POST Agents/User/RemoveOwnerContact
 uid: v1UserAgent_RemoveOwnerContact
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/RemoveOwnerContact
@@ -70,7 +71,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 891
+  "ContactId": 363
 }
 ```
 

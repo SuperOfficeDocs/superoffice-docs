@@ -2,6 +2,7 @@
 title: POST Agents/License/GetSatelliteLicenses
 uid: v1LicenseAgent_GetSatelliteLicenses
 generated: true
+content_type: reference
 ---
 
 # POST Agents/License/GetSatelliteLicenses
@@ -76,11 +77,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 285
+  "SatelliteId": 891
 }
 ```
 
@@ -92,56 +93,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wyman LLC",
-    "Description": "Expanded encompassing migration",
+    "Name": "Carroll-Jerde",
+    "Description": "Multi-lateral user-facing emulation",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 752,
-        "Tooltip": "enim",
+        "Unrestricted": true,
+        "Total": 593,
+        "Tooltip": "laboriosam",
         "CanAssign": false,
-        "Free": 281,
-        "InUse": 959,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 544,
-        "Name": "Schowalter, Armstrong and Jacobi",
-        "Description": "Intuitive background collaboration",
-        "PrerequisiteModuleName": "Torp, Gulgowski and Harber",
-        "SortOrder": 460,
-        "ExtraFlags": 630,
+        "Free": 328,
+        "InUse": 69,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 71,
+        "Name": "Boehm, Bernier and King",
+        "Description": "Compatible composite policy",
+        "PrerequisiteModuleName": "Lakin Group",
+        "SortOrder": 163,
+        "ExtraFlags": 834,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 955
+            "FieldType": "System.Int32",
+            "FieldLength": 976
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 823,
-        "Tooltip": "illum",
-        "CanAssign": false,
-        "Free": 128,
-        "InUse": 427,
-        "IsHidden": false,
+        "Unrestricted": false,
+        "Total": 144,
+        "Tooltip": "nisi",
+        "CanAssign": true,
+        "Free": 133,
+        "InUse": 770,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 548,
-        "Name": "Nader, Cummings and Schamberger",
-        "Description": "Business-focused intangible infrastructure",
-        "PrerequisiteModuleName": "Wolff LLC",
-        "SortOrder": 513,
-        "ExtraFlags": 795,
+        "ModuleLicenseId": 995,
+        "Name": "Okuneva Inc and Sons",
+        "Description": "Ergonomic actuating hub",
+        "PrerequisiteModuleName": "Doyle Inc and Sons",
+        "SortOrder": 252,
+        "ExtraFlags": 195,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 591
+            "FieldLength": 524
           }
         }
       }
@@ -150,62 +151,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 157
+        "FieldType": "System.Int32",
+        "FieldLength": 846
       }
     }
   },
   {
-    "Name": "Wyman LLC",
-    "Description": "Expanded encompassing migration",
+    "Name": "Carroll-Jerde",
+    "Description": "Multi-lateral user-facing emulation",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 752,
-        "Tooltip": "enim",
+        "Unrestricted": true,
+        "Total": 593,
+        "Tooltip": "laboriosam",
         "CanAssign": false,
-        "Free": 281,
-        "InUse": 959,
-        "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 544,
-        "Name": "Schowalter, Armstrong and Jacobi",
-        "Description": "Intuitive background collaboration",
-        "PrerequisiteModuleName": "Torp, Gulgowski and Harber",
-        "SortOrder": 460,
-        "ExtraFlags": 630,
+        "Free": 328,
+        "InUse": 69,
+        "IsHidden": false,
+        "Assigned": false,
+        "ModuleLicenseId": 71,
+        "Name": "Boehm, Bernier and King",
+        "Description": "Compatible composite policy",
+        "PrerequisiteModuleName": "Lakin Group",
+        "SortOrder": 163,
+        "ExtraFlags": 834,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 955
+            "FieldType": "System.Int32",
+            "FieldLength": 976
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 823,
-        "Tooltip": "illum",
-        "CanAssign": false,
-        "Free": 128,
-        "InUse": 427,
-        "IsHidden": false,
+        "Unrestricted": false,
+        "Total": 144,
+        "Tooltip": "nisi",
+        "CanAssign": true,
+        "Free": 133,
+        "InUse": 770,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 548,
-        "Name": "Nader, Cummings and Schamberger",
-        "Description": "Business-focused intangible infrastructure",
-        "PrerequisiteModuleName": "Wolff LLC",
-        "SortOrder": 513,
-        "ExtraFlags": 795,
+        "ModuleLicenseId": 995,
+        "Name": "Okuneva Inc and Sons",
+        "Description": "Ergonomic actuating hub",
+        "PrerequisiteModuleName": "Doyle Inc and Sons",
+        "SortOrder": 252,
+        "ExtraFlags": 195,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 591
+            "FieldLength": 524
           }
         }
       }
@@ -214,8 +215,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 157
+        "FieldType": "System.Int32",
+        "FieldLength": 846
       }
     }
   }

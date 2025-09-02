@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-Resource
 title: Services88.ResourceAgent WSDL
+content_type: reference
 ---
 
 # Services88.ResourceAgent WSDL

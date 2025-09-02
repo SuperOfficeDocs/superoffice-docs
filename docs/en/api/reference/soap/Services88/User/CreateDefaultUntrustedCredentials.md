@@ -2,6 +2,7 @@
 title: Services88.UserAgent.CreateDefaultUntrustedCredentials SOAP
 generated: true
 uid: Services88-User-CreateDefaultUntrustedCredentials
+content_type: reference
 ---
 
 # Services88 User CreateDefaultUntrustedCredentials
@@ -62,8 +63,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
   <User:CreateDefaultUntrustedCredentialsResponse>
    <User:Response xsi:type="User:UntrustedCredentials">
-    <User:ValidFrom xsi:type="xsd:dateTime">2025-06-26T01:45:01Z</User:ValidFrom>
-    <User:ValidTo xsi:type="xsd:dateTime">2025-06-26T01:45:01Z</User:ValidTo>
+    <User:ValidFrom xsi:type="xsd:dateTime">2025-08-30T01:46:33Z</User:ValidFrom>
+    <User:ValidTo xsi:type="xsd:dateTime">2025-08-30T01:46:33Z</User:ValidTo>
     <User:Comment xsi:type="xsd:string"></User:Comment>
     <User:SecretValue xsi:type="xsd:string"></User:SecretValue>
     <User:PublicValue xsi:type="xsd:string"></User:PublicValue>

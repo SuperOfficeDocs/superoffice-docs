@@ -2,6 +2,7 @@
 title: PUT List/Source/Headings
 uid: v1SourceList_PutSourceHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/Source/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 17,
-    "Name": "Haag, Hoeger and Purdy",
-    "Tooltip": "non",
+    "HeadingId": 538,
+    "Name": "Kris, Zulauf and Bechtelar",
+    "Tooltip": "cupiditate",
     "Deleted": false,
-    "Rank": 464,
-    "UdListDefinitionId": 859
+    "Rank": 668,
+    "UdListDefinitionId": 97
   },
   {
-    "HeadingId": 17,
-    "Name": "Haag, Hoeger and Purdy",
-    "Tooltip": "non",
+    "HeadingId": 538,
+    "Name": "Kris, Zulauf and Bechtelar",
+    "Tooltip": "cupiditate",
     "Deleted": false,
-    "Rank": 464,
-    "UdListDefinitionId": 859
+    "Rank": 668,
+    "UdListDefinitionId": 97
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 53,
-    "Name": "Bednar-Koepp",
-    "Tooltip": "suscipit",
-    "Deleted": true,
-    "Rank": 768,
-    "UdListDefinitionId": 864,
+    "HeadingId": 684,
+    "Name": "Tromp LLC",
+    "Tooltip": "quaerat",
+    "Deleted": false,
+    "Rank": 108,
+    "UdListDefinitionId": 813,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 903
+        "FieldType": "System.String",
+        "FieldLength": 211
       }
     }
   }

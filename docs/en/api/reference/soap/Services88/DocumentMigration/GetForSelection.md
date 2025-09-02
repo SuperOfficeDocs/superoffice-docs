@@ -2,6 +2,7 @@
 title: Services88.DocumentMigrationAgent.GetForSelection SOAP
 generated: true
 uid: Services88-DocumentMigration-GetForSelection
+content_type: reference
 ---
 
 # Services88 DocumentMigration GetForSelection

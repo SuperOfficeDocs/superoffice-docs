@@ -1,6 +1,8 @@
 ---
+uid: tag-Tooltips_Agent
 title: Tooltips_Agent
 generated: true
+content_type: reference
 ---
 
 ```http

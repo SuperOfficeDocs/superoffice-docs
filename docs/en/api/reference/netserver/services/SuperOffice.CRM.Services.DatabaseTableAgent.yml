@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.DatabaseTableAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.DatabaseTableAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.DatabaseTableAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   - SuperOffice.CRM.Services.DatabaseTableAgent.DeleteAsync(System.String,System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DatabaseTableAgent.DeleteRowAsync(System.String,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.DatabaseTableAgent.InsertAsync(System.String,System.String[],System.String[][],System.Threading.CancellationToken)
@@ -76,22 +76,22 @@ items:
   nameWithType.vb: DatabaseTableAgent.New(ITableRecordImplementation, IMassOperationResultImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.DatabaseTableAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(ITableRecordImplementation, IMassOperationResultImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.DatabaseTableAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+- uid: SuperOffice.CRM.Services.DatabaseTableAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
   parent: SuperOffice.CRM.Services.DatabaseTableAgent
   langs:
   - csharp
   - vb
-  name: DatabaseTableAgent(ITableRecordImplementation, IMassOperationResultImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  nameWithType: DatabaseTableAgent.DatabaseTableAgent(ITableRecordImplementation, IMassOperationResultImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.DatabaseTableAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name: DatabaseTableAgent(ITableRecordImplementation, IMassOperationResultImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType: DatabaseTableAgent.DatabaseTableAgent(ITableRecordImplementation, IMassOperationResultImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName: SuperOffice.CRM.Services.DatabaseTableAgent.DatabaseTableAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public DatabaseTableAgent(ITableRecordImplementation tableRecordImplementation, IMassOperationResultImplementation massOperationResultImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    content: public DatabaseTableAgent(ITableRecordImplementation tableRecordImplementation, IMassOperationResultImplementation massOperationResultImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
     parameters:
     - id: tableRecordImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation
@@ -103,11 +103,15 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    content.vb: Public Sub New(tableRecordImplementation As ITableRecordImplementation, massOperationResultImplementation As IMassOperationResultImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+    - id: scriptingConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+    - id: onlineConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+    content.vb: Public Sub New(tableRecordImplementation As ITableRecordImplementation, massOperationResultImplementation As IMassOperationResultImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
   overload: SuperOffice.CRM.Services.DatabaseTableAgent.#ctor*
-  nameWithType.vb: DatabaseTableAgent.New(ITableRecordImplementation, IMassOperationResultImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName.vb: SuperOffice.CRM.Services.DatabaseTableAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
-  name.vb: New(ITableRecordImplementation, IMassOperationResultImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType.vb: DatabaseTableAgent.New(ITableRecordImplementation, IMassOperationResultImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName.vb: SuperOffice.CRM.Services.DatabaseTableAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.ITableRecordImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IMassOperationResultImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name.vb: New(ITableRecordImplementation, IMassOperationResultImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
 - uid: SuperOffice.CRM.Services.DatabaseTableAgent.ReadRowAsync(System.String,System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.DatabaseTableAgent.ReadRowAsync(System.String,System.Int32,System.Threading.CancellationToken)
   id: ReadRowAsync(System.String,System.Int32,System.Threading.CancellationToken)
@@ -826,6 +830,16 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+  isExternal: true
+  name: IScriptingConfiguration
+  nameWithType: ConfigFile.IScriptingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  isExternal: true
+  name: IOnlineConfiguration
+  nameWithType: ConfigFile.IOnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
 - uid: SuperOffice.CRM.Services.DatabaseTableAgent.ReadRowAsync*
   commentId: Overload:SuperOffice.CRM.Services.DatabaseTableAgent.ReadRowAsync
   isExternal: true

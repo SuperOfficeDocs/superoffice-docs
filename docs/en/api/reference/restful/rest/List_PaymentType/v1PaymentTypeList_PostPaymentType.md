@@ -2,6 +2,7 @@
 title: POST List/PaymentType/Items
 uid: v1PaymentTypeList_PostPaymentType
 generated: true
+content_type: reference
 ---
 
 # POST List/PaymentType/Items
@@ -73,16 +74,16 @@ OK
 POST /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 2,
-  "Name": "O'Hara Inc and Sons",
-  "Tooltip": "sint",
+  "Id": 250,
+  "Name": "Kshlerin Inc and Sons",
+  "Tooltip": "ipsa",
   "Deleted": false,
-  "UdListDefinitionId": 121,
-  "Rank": 127
+  "UdListDefinitionId": 428,
+  "Rank": 55
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 884,
-  "Name": "Weimann-Kessler",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "UdListDefinitionId": 629,
-  "Rank": 36,
+  "Id": 661,
+  "Name": "Emmerich, Feeney and Windler",
+  "Tooltip": "molestiae",
+  "Deleted": false,
+  "UdListDefinitionId": 619,
+  "Rank": 42,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 35
+      "FieldLength": 430
     }
   }
 }

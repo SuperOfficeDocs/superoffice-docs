@@ -2,6 +2,7 @@
 title: Services88.ProjectAgent.OfferAutoNextStatusOnApppointmentCompleted SOAP
 generated: true
 uid: Services88-Project-OfferAutoNextStatusOnApppointmentCompleted
+content_type: reference
 ---
 
 # Services88 Project OfferAutoNextStatusOnApppointmentCompleted

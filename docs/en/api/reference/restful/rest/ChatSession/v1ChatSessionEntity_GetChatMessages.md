@@ -2,6 +2,7 @@
 title: GET ChatSession/{id}/Messages
 uid: v1ChatSessionEntity_GetChatMessages
 generated: true
+content_type: reference
 ---
 
 # GET ChatSession/{id}/Messages
@@ -29,7 +30,7 @@ Get all or some of the messages in a chat session
 | after | int32 |  Return messages after this message id |
 
 ```http
-GET /api/v1/ChatSession/{chatSessionId}/Messages?after=98
+GET /api/v1/ChatSession/{chatSessionId}/Messages?after=267
 ```
 
 
@@ -86,15 +87,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 570,
-    "ChatSessionId": 407,
+    "ChatMessageId": 354,
+    "ChatSessionId": 416,
     "Type": "Invalid",
-    "Message": "perspiciatis",
-    "Author": "dolorem",
-    "ReadByCustomer": 874,
+    "Message": "aliquam",
+    "Author": "distinctio",
+    "ReadByCustomer": 628,
     "SpecialType": "Block",
-    "SpecialParam": "praesentium",
-    "WhenPosted": "2004-05-01T03:45:28.1546963+02:00"
+    "SpecialParam": "velit",
+    "WhenPosted": "1999-02-28T03:46:59.8005718+01:00"
   }
 ]
 ```

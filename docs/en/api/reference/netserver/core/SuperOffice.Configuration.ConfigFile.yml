@@ -9,6 +9,7 @@ items:
   - SuperOffice.Configuration.ConfigFile.AddOverrides(System.String[0:,0:])
   - SuperOffice.Configuration.ConfigFile.ForceOverrideIsOnline(System.Boolean)
   - SuperOffice.Configuration.ConfigFile.GetAllOverrides
+  - SuperOffice.Configuration.ConfigFile.GetAppSetting(System.String)
   - SuperOffice.Configuration.ConfigFile.GetConfig(System.String)
   - SuperOffice.Configuration.ConfigFile.HasOverride(System.String,System.String)
   - SuperOffice.Configuration.ConfigFile.IsOnline
@@ -263,6 +264,39 @@ items:
   nameWithType.vb: ConfigFile.GetConfig(String)
   fullName.vb: SuperOffice.Configuration.ConfigFile.GetConfig(String)
   name.vb: GetConfig(String)
+- uid: SuperOffice.Configuration.ConfigFile.GetAppSetting(System.String)
+  commentId: M:SuperOffice.Configuration.ConfigFile.GetAppSetting(System.String)
+  id: GetAppSetting(System.String)
+  parent: SuperOffice.Configuration.ConfigFile
+  langs:
+  - csharp
+  - vb
+  name: GetAppSetting(string)
+  nameWithType: ConfigFile.GetAppSetting(string)
+  fullName: SuperOffice.Configuration.ConfigFile.GetAppSetting(string)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: >-
+    Read a setting of the AppSettings-portion of the config file, based on the configured
+
+    .config-file actually used by NetServer.
+  example: []
+  syntax:
+    content: public static string GetAppSetting(string key)
+    parameters:
+    - id: key
+      type: System.String
+      description: ''
+    return:
+      type: System.String
+      description: ''
+    content.vb: Public Shared Function GetAppSetting(key As String) As String
+  overload: SuperOffice.Configuration.ConfigFile.GetAppSetting*
+  nameWithType.vb: ConfigFile.GetAppSetting(String)
+  fullName.vb: SuperOffice.Configuration.ConfigFile.GetAppSetting(String)
+  name.vb: GetAppSetting(String)
 - uid: SuperOffice.Configuration.ConfigFile.SetConfigFile(System.String)
   commentId: M:SuperOffice.Configuration.ConfigFile.SetConfigFile(System.String)
   id: SetConfigFile(System.String)
@@ -798,6 +832,13 @@ references:
     name: Specialized
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.collections.specialized
+- uid: SuperOffice.Configuration.ConfigFile.GetAppSetting*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.GetAppSetting
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.html#SuperOffice_Configuration_ConfigFile_GetAppSetting_System_String_
+  name: GetAppSetting
+  nameWithType: ConfigFile.GetAppSetting
+  fullName: SuperOffice.Configuration.ConfigFile.GetAppSetting
 - uid: SuperOffice.Configuration.ConfigFile.AddOverride(System.String,System.String,System.String)
   commentId: M:SuperOffice.Configuration.ConfigFile.AddOverride(System.String,System.String,System.String)
   isExternal: true

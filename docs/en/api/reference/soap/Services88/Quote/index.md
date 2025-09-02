@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent SOAP
 uid: Services88-Quote-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Quote SOAP

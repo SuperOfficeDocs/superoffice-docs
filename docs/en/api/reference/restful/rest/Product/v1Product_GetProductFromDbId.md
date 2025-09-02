@@ -2,6 +2,7 @@
 title: GET Product/{id}
 uid: v1Product_GetProductFromDbId
 generated: true
+content_type: reference
 ---
 
 # GET Product/{id}
@@ -92,7 +93,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,73 +103,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 615,
-  "ERPProductKey": "voluptatem",
-  "ERPPriceListKey": "est",
-  "Name": "Swift-Wisoky",
-  "Description": "Synergized well-modulated groupware",
-  "Code": "quam",
-  "PriceUnit": "qui",
-  "QuantityUnit": "excepturi",
-  "IsSubscription": true,
-  "SubscriptionUnit": "voluptatem",
-  "DefaultSubscriptionQuantity": 19233.358,
-  "ItemNumber": "1180549",
+  "ProductId": 66,
+  "ERPProductKey": "est",
+  "ERPPriceListKey": "reprehenderit",
+  "Name": "Jones Group",
+  "Description": "Triple-buffered 24 hour help-desk",
+  "Code": "quos",
+  "PriceUnit": "veritatis",
+  "QuantityUnit": "et",
+  "IsSubscription": false,
+  "SubscriptionUnit": "et",
+  "DefaultSubscriptionQuantity": 28068.104,
+  "ItemNumber": "1501664",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "minus",
-  "ProductTypeKey": "magni",
-  "VAT": 25598.512,
-  "VATInfo": "qui",
-  "UnitCost": 3795.274,
-  "UnitMinimumPrice": 20151.62,
-  "UnitListPrice": 9035.322,
+  "ProductFamilyKey": "officia",
+  "ProductTypeKey": "sed",
+  "VAT": 7389.972,
+  "VATInfo": "consequatur",
+  "UnitCost": 29932.834,
+  "UnitMinimumPrice": 15024.395999999999,
+  "UnitListPrice": 4926.648,
   "InAssortment": false,
-  "Supplier": "doloribus",
-  "SupplierCode": "a",
-  "Rights": "voluptatum",
-  "Rule": "sed",
+  "Supplier": "aut",
+  "SupplierCode": "est",
+  "Rights": "saepe",
+  "Rule": "repudiandae",
   "ExtraInfo": [
     {
-      "Name": "Monahan, Breitenberg and Beahan",
-      "Value": "in",
+      "Name": "Kautzer-Block",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 562
+          "FieldLength": 513
         }
       }
     },
     {
-      "Name": "Monahan, Breitenberg and Beahan",
-      "Value": "in",
+      "Name": "Kautzer-Block",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 562
+          "FieldLength": 513
         }
       }
     }
   ],
-  "RawExtraInfo": "eum",
-  "ExtraField1": "neque",
-  "ExtraField2": "cumque",
-  "ExtraField3": "quae",
-  "ExtraField4": "consequatur",
-  "ExtraField5": "sint",
-  "InStock": 890.05599999999993,
+  "RawExtraInfo": "quia",
+  "ExtraField1": "aut",
+  "ExtraField2": "illum",
+  "ExtraField3": "atque",
+  "ExtraField4": "neque",
+  "ExtraField5": "soluta",
+  "InStock": 12890.142,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 876
+      "FieldLength": 268
     }
   }
 }

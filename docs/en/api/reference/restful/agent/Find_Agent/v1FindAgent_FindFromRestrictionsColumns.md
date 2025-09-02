@@ -2,6 +2,7 @@
 title: POST Agents/Find/FindFromRestrictionsColumns
 uid: v1FindAgent_FindFromRestrictionsColumns
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/FindFromRestrictionsColumns
@@ -100,21 +101,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Raynor, Russel and Schroeder",
-      "Operator": "eos",
+      "Name": "Frami-Huels",
+      "Operator": "tenetur",
       "Values": [
-        "laborum",
-        "aliquid"
+        "autem",
+        "laborum"
       ],
       "DisplayValues": [
-        "reiciendis",
-        "consequatur"
+        "itaque",
+        "officia"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,18 +123,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 319,
+      "InterParenthesis": 687,
       "InterOperator": "And",
-      "UniqueHash": 619
+      "UniqueHash": 501
     }
   ],
-  "ProviderName": "Bauch, Ullrich and Cummings",
+  "ProviderName": "Hane, Strosin and McDermott",
   "DesiredColumns": [
-    "ab",
-    "dolor"
+    "ut",
+    "deleniti"
   ],
-  "PageSize": 777,
-  "PageNumber": 441
+  "PageSize": 651,
+  "PageNumber": 625
 }
 ```
 
@@ -146,51 +147,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Murphy-Olson",
-      "DisplayTooltip": "aut",
-      "DisplayType": "quia",
+      "DisplayName": "Sanford, West and Schimmel",
+      "DisplayTooltip": "est",
+      "DisplayType": "molestias",
       "CanOrderBy": false,
-      "Name": "Beier, Wilkinson and Grady",
-      "CanRestrictBy": false,
-      "RestrictionType": "ea",
-      "RestrictionListName": "Fritsch-Schuster",
-      "IsVisible": false,
-      "ExtraInfo": "dolor",
-      "Width": "magnam",
-      "IconHint": "aliquid",
-      "HeadingIconHint": "voluptas"
+      "Name": "Fahey-Vandervort",
+      "CanRestrictBy": true,
+      "RestrictionType": "doloremque",
+      "RestrictionListName": "Schmidt-Schoen",
+      "IsVisible": true,
+      "ExtraInfo": "excepturi",
+      "Width": "voluptas",
+      "IconHint": "nihil",
+      "HeadingIconHint": "voluptate"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Kuvalis LLC",
-      "PrimaryKey": 843,
+      "EntityName": "Boyle-Beahan",
+      "PrimaryKey": 614,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "esse",
-          "TooltipHint": "blanditiis",
-          "LinkHint": "aut"
+          "DisplayValue": "hic",
+          "TooltipHint": "dolor",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "beatae",
-      "StyleHint": "deleniti",
+      "LinkHint": "nulla",
+      "StyleHint": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 382
+          "FieldLength": 126
         }
       }
     }
   ],
-  "RowCount": 902,
+  "RowCount": 991,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 37
+      "FieldType": "System.String",
+      "FieldLength": 351
     }
   }
 }

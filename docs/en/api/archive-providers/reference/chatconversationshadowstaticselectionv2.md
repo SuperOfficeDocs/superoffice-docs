@@ -3,9 +3,9 @@ uid: ChatConversationShadowStaticSelectionV2
 title: ChatConversationShadowStaticSelectionV2
 description: Shadow contact provider for the static ChatConversation provider.
 keywords: ChatConversationShadowStaticSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ChatConversationShadowStaticSelectionV2"
@@ -492,7 +492,7 @@ Shadow contact provider for the static ChatConversation provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationShadowStaticSelectionV2?$select=associate/contactFullName,contact/NumberOfNotCompletedSalesInPeriod,person/restrictionAddress/line3
+GET /api/v1/archive/ChatConversationShadowStaticSelectionV2?$select=contact/contactExtra/x_contact_hidden_integer,person/restrictionAddress/line3,person/personAssociate/personEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

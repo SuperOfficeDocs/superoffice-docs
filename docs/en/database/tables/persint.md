@@ -2,10 +2,10 @@
 uid: table-PersInt
 title: PersInt table
 description: PersInt list table. List of Person interests.
-so.generated: true
+generated: true
 keywords: database table PersInt
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # PersInt Table (73)

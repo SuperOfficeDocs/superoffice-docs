@@ -1,6 +1,8 @@
 ---
+uid: tag-String
 title: String
 generated: true
+content_type: reference
 ---
 
 ```http

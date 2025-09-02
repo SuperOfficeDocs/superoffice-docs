@@ -1,6 +1,8 @@
 ---
+uid: tag-Selection_Agent
 title: Selection_Agent
 generated: true
+content_type: reference
 ---
 
 ```http
@@ -9,6 +11,16 @@ generated: true
 
 
 
+
+* [POST Agents/Selection/CreateDefaultBoardViewSettingsFromEntityType](v1SelectionAgent_CreateDefaultBoardViewSettingsFromEntityType.md)
+
+* [POST Agents/Selection/GetBoardViewSettings](v1SelectionAgent_GetBoardViewSettings.md)
+
+* [POST Agents/Selection/GetBoardViewSettingsForSelection](v1SelectionAgent_GetBoardViewSettingsForSelection.md)
+
+* [POST Agents/Selection/SaveBoardViewSettings](v1SelectionAgent_SaveBoardViewSettings.md)
+
+* [POST Agents/Selection/DeleteBoardViewSettings](v1SelectionAgent_DeleteBoardViewSettings.md)
 
 * [POST Agents/Selection/CreateDefaultSelectionEntity](v1SelectionAgent_CreateDefaultSelectionEntity.md)
 

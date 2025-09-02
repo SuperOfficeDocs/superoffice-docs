@@ -2,6 +2,7 @@
 title: Services88.CRMScriptAgent.ResolveIncludes SOAP
 generated: true
 uid: Services88-CRMScript-ResolveIncludes
+content_type: reference
 ---
 
 # Services88 CRMScript ResolveIncludes

@@ -2,6 +2,7 @@
 title: GET List/Task/Items/{id}/UserGroups
 uid: v1TaskList_GetTaskListItemUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Task/Items/{id}/UserGroups
@@ -75,7 +76,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 112,
-    "Name": "Smith, Bednar and Gerlach",
-    "ToolTip": "Molestias est corporis est sit atque unde magnam.",
-    "Deleted": true,
-    "Rank": 326,
-    "Type": "facilis",
-    "ColorBlock": 866,
-    "IconHint": "dolorem",
+    "Id": 128,
+    "Name": "Waelchi Group",
+    "ToolTip": "Ut accusamus repudiandae in molestias.",
+    "Deleted": false,
+    "Rank": 496,
+    "Type": "omnis",
+    "ColorBlock": 923,
+    "IconHint": "ipsum",
     "Selected": false,
-    "LastChanged": "2017-04-15T03:45:29.2327869+02:00",
+    "LastChanged": "2018-11-01T03:47:00.8942898+01:00",
     "ChildItems": [
       {
-        "Id": 387,
-        "Name": "Heller LLC",
-        "ToolTip": "Sequi est voluptatibus totam suscipit aut eos aliquid.",
-        "Deleted": false,
-        "Rank": 769,
-        "Type": "soluta",
-        "ColorBlock": 786,
-        "IconHint": "deleniti",
-        "Selected": true,
-        "LastChanged": "2012-05-05T03:45:29.2327869+02:00",
+        "Id": 62,
+        "Name": "Vandervort Inc and Sons",
+        "ToolTip": "Provident sit vero.",
+        "Deleted": true,
+        "Rank": 725,
+        "Type": "autem",
+        "ColorBlock": 308,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2012-11-14T03:47:00.8942898+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "in",
-        "Hidden": true,
-        "FullName": "Mrs. Brady Brendon Lowe MD",
+        "ExtraInfo": "sit",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Judy Daija Langosh IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 646
+            "FieldType": "System.String",
+            "FieldLength": 703
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Mr. Orval Fidel Jones",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Ms. Una Brent Sauer Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 137
+        "FieldType": "System.String",
+        "FieldLength": 493
       }
     }
   }

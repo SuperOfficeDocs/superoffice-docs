@@ -2,6 +2,7 @@
 title: POST Product/{id}/Image
 uid: v1Product_SaveImage_POST
 generated: true
+content_type: reference
 ---
 
 # POST Product/{id}/Image
@@ -62,7 +63,7 @@ The blob id
 POST /api/v1/Product/{productId}/Image
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,5 +72,5 @@ Accept-Language: sv
 HTTP/1.1 200 The blob id
 Content-Type: application/json; charset=utf-8
 
-281
+306
 ```

@@ -2,6 +2,7 @@
 title: POST Agents/User/FindRolesWithFunctionalRight
 uid: v1UserAgent_FindRolesWithFunctionalRight
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/FindRolesWithFunctionalRight
@@ -93,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Douglas-Dare"
+  "FunctionalRightName": "Kutch, Hickle and Krajcik"
 }
 ```
 
@@ -105,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 383,
-    "Name": "Welch-Beatty",
-    "ToolTip": "Incidunt unde saepe ab quas.",
+    "Id": 707,
+    "Name": "Wintheiser LLC",
+    "ToolTip": "Asperiores et et.",
     "Deleted": false,
-    "Rank": 822,
-    "Type": "impedit",
+    "Rank": 88,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 139,
-        "Name": "Jakubowski, Ledner and Feest",
-        "ToolTip": "Qui fugit ipsam sed excepturi voluptatem dolor.",
+        "Id": 904,
+        "Name": "Miller LLC",
+        "ToolTip": "Alias non nihil tenetur quo.",
         "Deleted": false,
-        "Rank": 728,
-        "Type": "repudiandae",
+        "Rank": 603,
+        "Type": "quibusdam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nulla",
-        "ColorBlock": 885,
-        "ExtraInfo": "itaque",
-        "StyleHint": "temporibus",
-        "FullName": "Abraham Altenwerth",
+        "IconHint": "dolores",
+        "ColorBlock": 614,
+        "ExtraInfo": "natus",
+        "StyleHint": "sit",
+        "FullName": "Khalil Halvorson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 25
+            "FieldType": "System.String",
+            "FieldLength": 939
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 766,
-    "ExtraInfo": "amet",
-    "StyleHint": "rerum",
-    "FullName": "Camille Baumbach",
+    "IconHint": "asperiores",
+    "ColorBlock": 696,
+    "ExtraInfo": "qui",
+    "StyleHint": "id",
+    "FullName": "Miss Amie Maymie Heller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 813
+        "FieldLength": 955
       }
     }
   }

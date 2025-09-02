@@ -2,6 +2,7 @@
 title: Services88.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeleted SOAP
 generated: true
 uid: Services88-Diagnostics-PerformTasksAfterCustomObjectTableDeleted
+content_type: reference
 ---
 
 # Services88 Diagnostics PerformTasksAfterCustomObjectTableDeleted

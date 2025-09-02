@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetCSAuthUrl
 uid: v1ConfigurationAgent_GetCSAuthUrl
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetCSAuthUrl
@@ -75,10 +76,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "beatae",
-  "ProgramName": "Morissette, Balistreri and Leuschke",
-  "Action": "sit",
-  "ExtraParameters": "saepe"
+  "Language": "hic",
+  "ProgramName": "Toy-Becker",
+  "Action": "odit",
+  "ExtraParameters": "dignissimos"
 }
 ```
 

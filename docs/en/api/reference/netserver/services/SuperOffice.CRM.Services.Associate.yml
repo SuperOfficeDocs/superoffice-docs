@@ -7,8 +7,10 @@ items:
   children:
   - SuperOffice.CRM.Services.Associate.#ctor
   - SuperOffice.CRM.Services.Associate.AssociateId
+  - SuperOffice.CRM.Services.Associate.CustomFields
   - SuperOffice.CRM.Services.Associate.Deleted
   - SuperOffice.CRM.Services.Associate.EjUserId
+  - SuperOffice.CRM.Services.Associate.ExtraFields
   - SuperOffice.CRM.Services.Associate.FormalName
   - SuperOffice.CRM.Services.Associate.FullName
   - SuperOffice.CRM.Services.Associate.GroupIdx
@@ -51,18 +53,20 @@ items:
     }</code></pre>
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")]
 
-      public class Associate : Carrier
+      public class Associate : Carrier, IExtraFieldCarrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")>
 
-      Public Class Associate Inherits Carrier
+      Public Class Associate Inherits Carrier Implements IExtraFieldCarrier
   seealso:
   - linkId: SuperOffice.CRM.Services.IAssociateAgent
     commentId: T:SuperOffice.CRM.Services.IAssociateAgent
   inheritance:
   - System.Object
+  implements:
+  - SuperOffice.CRM.Services.IExtraFieldCarrier
   attributes:
   - type: System.Runtime.Serialization.DataContractAttribute
     ctor: System.Runtime.Serialization.DataContractAttribute.#ctor
@@ -70,7 +74,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.2.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.3.0.0
 - uid: SuperOffice.CRM.Services.Associate.#ctor
   commentId: M:SuperOffice.CRM.Services.Associate.#ctor
   id: '#ctor'
@@ -549,6 +553,114 @@ items:
   - type: System.Runtime.Serialization.DataMemberAttribute
     ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
     arguments: []
+- uid: SuperOffice.CRM.Services.Associate.ExtraFields
+  commentId: P:SuperOffice.CRM.Services.Associate.ExtraFields
+  id: ExtraFields
+  parent: SuperOffice.CRM.Services.Associate
+  langs:
+  - csharp
+  - vb
+  name: ExtraFields
+  nameWithType: Associate.ExtraFields
+  fullName: SuperOffice.CRM.Services.Associate.ExtraFields
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Deprecated: Use <xref href="SuperOffice.CRM.Services.Associate.CustomFields" data-throw-if-not-resolved="false"></xref> instead.
+
+    Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc.
+  remarks: >-
+    The naming convention of the key string is as follows:
+
+    <table><tbody><tr><td class="term">Plug-in data</td><td class="description">
+           [Plug-in name].[Property name]
+           Example: DocumentPlugin.DocumentType
+           </td></tr><tr><td class="term">Foreign key data</td><td class="description">
+           The device identity is appended directly to the device name if it exists. 
+        This is not commonly used, but the database opens for this as a possibility to have several devices with the same name, 
+        and hence we would ensure an unique key if this field is used.
+        Example: Audience.SecretService.DefaultCountry
+        </td></tr><tr><td class="term">User defined table data</td><td class="description">
+           [Table name].[Field name]
+           Example: Phunneling.AggregatedSales
+           </td></tr><tr><td class="term">Other</td><td class="description">
+           Other data sources must ensure an unique name. If the key already exists we do not add the data to the dictionary. 
+           We also ensure that SuperOffice data are added first, so that existing data doesnt change when more data sources are added (with duplicate data keys).
+           </td></tr></tbody></table>
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public StringDictionary ExtraFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+    content.vb: >-
+      <DataMember>
+
+      Public Property ExtraFields As StringDictionary
+  overload: SuperOffice.CRM.Services.Associate.ExtraFields*
+  implements:
+  - SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.Associate.CustomFields
+  commentId: P:SuperOffice.CRM.Services.Associate.CustomFields
+  id: CustomFields
+  parent: SuperOffice.CRM.Services.Associate
+  langs:
+  - csharp
+  - vb
+  name: CustomFields
+  nameWithType: Associate.CustomFields
+  fullName: SuperOffice.CRM.Services.Associate.CustomFields
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin.
+
+    Custom fields combines user defined fields and extra fields into one bucket. 
+
+    The individual <xref href="SuperOffice.CRM.Services.Associate.ExtraFields" data-throw-if-not-resolved="false"></xref> and UserDefinedFields properties are deprecated in favor of this
+
+    combined collection.
+  remarks: >-
+    The naming convention of the key string is as follows:
+
+    <table><tbody><tr><td class="term">Extra field data</td><td class="description">
+           [Extra field name]<p></p>
+           Example: <pre><code class="lang-csharp">'x_gorp' = '[I:123]'</code></pre>
+           </td></tr><tr><td class="term">User defined field data</td><td class="description">
+           [Prog-id name]<p></p>
+        Example: <pre><code class="lang-csharp">'SuperOffice:1' = '[I:123]'</code></pre><p></p>
+           </td></tr></tbody></table>
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public StringDictionary CustomFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.StringDictionary
+    content.vb: >-
+      <DataMember>
+
+      Public Property CustomFields As StringDictionary
+  overload: SuperOffice.CRM.Services.Associate.CustomFields*
+  implements:
+  - SuperOffice.CRM.Services.IExtraFieldCarrier.CustomFields
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.CRM.Services.IAssociateAgent
   commentId: T:SuperOffice.CRM.Services.IAssociateAgent
@@ -606,6 +718,14 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
+- uid: SuperOffice.CRM.Services.IExtraFieldCarrier
+  commentId: T:SuperOffice.CRM.Services.IExtraFieldCarrier
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.IExtraFieldCarrier.html
+  name: IExtraFieldCarrier
+  nameWithType: IExtraFieldCarrier
+  fullName: SuperOffice.CRM.Services.IExtraFieldCarrier
 - uid: System
   commentId: N:System
   isExternal: true
@@ -763,3 +883,52 @@ references:
   name: UserName
   nameWithType: Associate.UserName
   fullName: SuperOffice.CRM.Services.Associate.UserName
+- uid: SuperOffice.CRM.Services.Associate.CustomFields
+  commentId: P:SuperOffice.CRM.Services.Associate.CustomFields
+  isExternal: true
+  href: SuperOffice.CRM.Services.Associate.html#SuperOffice_CRM_Services_Associate_CustomFields
+  name: CustomFields
+  nameWithType: Associate.CustomFields
+  fullName: SuperOffice.CRM.Services.Associate.CustomFields
+- uid: SuperOffice.CRM.Services.Associate.ExtraFields*
+  commentId: Overload:SuperOffice.CRM.Services.Associate.ExtraFields
+  isExternal: true
+  href: SuperOffice.CRM.Services.Associate.html#SuperOffice_CRM_Services_Associate_ExtraFields
+  name: ExtraFields
+  nameWithType: Associate.ExtraFields
+  fullName: SuperOffice.CRM.Services.Associate.ExtraFields
+- uid: SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
+  commentId: P:SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
+  parent: SuperOffice.CRM.Services.IExtraFieldCarrier
+  isExternal: true
+  href: SuperOffice.CRM.Services.IExtraFieldCarrier.html#SuperOffice_CRM_Services_IExtraFieldCarrier_ExtraFields
+  name: ExtraFields
+  nameWithType: IExtraFieldCarrier.ExtraFields
+  fullName: SuperOffice.CRM.Services.IExtraFieldCarrier.ExtraFields
+- uid: SuperOffice.CRM.Services.StringDictionary
+  isExternal: true
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.CRM.Services.StringDictionary
+- uid: SuperOffice.CRM.Services.Associate.ExtraFields
+  commentId: P:SuperOffice.CRM.Services.Associate.ExtraFields
+  isExternal: true
+  href: SuperOffice.CRM.Services.Associate.html#SuperOffice_CRM_Services_Associate_ExtraFields
+  name: ExtraFields
+  nameWithType: Associate.ExtraFields
+  fullName: SuperOffice.CRM.Services.Associate.ExtraFields
+- uid: SuperOffice.CRM.Services.Associate.CustomFields*
+  commentId: Overload:SuperOffice.CRM.Services.Associate.CustomFields
+  isExternal: true
+  href: SuperOffice.CRM.Services.Associate.html#SuperOffice_CRM_Services_Associate_CustomFields
+  name: CustomFields
+  nameWithType: Associate.CustomFields
+  fullName: SuperOffice.CRM.Services.Associate.CustomFields
+- uid: SuperOffice.CRM.Services.IExtraFieldCarrier.CustomFields
+  commentId: P:SuperOffice.CRM.Services.IExtraFieldCarrier.CustomFields
+  parent: SuperOffice.CRM.Services.IExtraFieldCarrier
+  isExternal: true
+  href: SuperOffice.CRM.Services.IExtraFieldCarrier.html#SuperOffice_CRM_Services_IExtraFieldCarrier_CustomFields
+  name: CustomFields
+  nameWithType: IExtraFieldCarrier.CustomFields
+  fullName: SuperOffice.CRM.Services.IExtraFieldCarrier.CustomFields

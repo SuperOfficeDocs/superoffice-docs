@@ -2,6 +2,7 @@
 title: GET List/{name}
 uid: v1ListEntity_GetListEntityByName
 generated: true
+content_type: reference
 ---
 
 # GET List/{name}
@@ -68,7 +69,7 @@ OK
 GET /api/v1/List/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 5,
-  "Name": "Medhurst Inc and Sons",
-  "Tooltip": "veniam",
-  "Deleted": true,
-  "Rank": 862,
+  "Id": 643,
+  "Name": "Anderson, Hintz and Kris",
+  "Tooltip": "aperiam",
+  "Deleted": false,
+  "Rank": 943,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eius",
-  "InUseByUserDefinedFields": true,
+  "ListType": "perferendis",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 527
+      "FieldLength": 678
     }
   }
 }

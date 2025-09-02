@@ -2,6 +2,7 @@
 title: POST Agents/User/GetUserInfoList
 uid: v1UserAgent_GetUserInfoList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetUserInfoList
@@ -47,7 +48,7 @@ POST /api/v1/Agents/User/GetUserInfoList?$select=name,department,category/id
 
 ## Request Body: userInfoIds 
 
-The primary keys. 
+The identifiers of the UserInfo object 
 
 
 ## Response:array
@@ -86,7 +87,7 @@ OK
 POST /api/v1/Agents/User/GetUserInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,29 +99,29 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Deleted": false,
-    "UserInfoId": 721,
-    "UserName": "Conn, Bartell and Kuhn",
-    "PersonId": 311,
-    "Rank": 933,
-    "Tooltip": "ut",
-    "UserGroupId": 293,
-    "EjUserId": 331,
+    "UserInfoId": 645,
+    "UserName": "Wiza Group",
+    "PersonId": 33,
+    "Rank": 601,
+    "Tooltip": "eum",
+    "UserGroupId": 952,
+    "EjUserId": 731,
     "UserType": "AnonymousAssociate",
     "GrantedLicenses": [
-      "tempore",
-      "dolorem"
+      "minus",
+      "repudiandae"
     ],
-    "CanLogon": false,
-    "RoleName": "McLaughlin-Wisoky",
-    "RoleTooltip": "recusandae",
-    "UserGroupName": "Grant LLC",
-    "UserGroupTooltip": "similique",
+    "CanLogon": true,
+    "RoleName": "Yundt-Hyatt",
+    "RoleTooltip": "fugiat",
+    "UserGroupName": "Zulauf, Homenick and Gusikowski",
+    "UserGroupTooltip": "pariatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 495
+        "FieldType": "System.String",
+        "FieldLength": 303
       }
     }
   }

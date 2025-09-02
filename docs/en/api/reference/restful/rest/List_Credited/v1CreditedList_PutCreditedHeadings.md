@@ -2,6 +2,7 @@
 title: PUT List/Credited/Headings
 uid: v1CreditedList_PutCreditedHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/Credited/Headings
@@ -80,20 +81,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 158,
-    "Name": "Zemlak, Johnson and Barrows",
-    "Tooltip": "atque",
-    "Deleted": true,
-    "Rank": 302,
-    "UdListDefinitionId": 105
+    "HeadingId": 579,
+    "Name": "Kulas Group",
+    "Tooltip": "vitae",
+    "Deleted": false,
+    "Rank": 973,
+    "UdListDefinitionId": 255
   },
   {
-    "HeadingId": 158,
-    "Name": "Zemlak, Johnson and Barrows",
-    "Tooltip": "atque",
-    "Deleted": true,
-    "Rank": 302,
-    "UdListDefinitionId": 105
+    "HeadingId": 579,
+    "Name": "Kulas Group",
+    "Tooltip": "vitae",
+    "Deleted": false,
+    "Rank": 973,
+    "UdListDefinitionId": 255
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 575,
-    "Name": "Prosacco, Toy and Lubowitz",
-    "Tooltip": "voluptatem",
+    "HeadingId": 577,
+    "Name": "Blick Inc and Sons",
+    "Tooltip": "eos",
     "Deleted": true,
-    "Rank": 269,
-    "UdListDefinitionId": 572,
+    "Rank": 237,
+    "UdListDefinitionId": 736,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 816
+        "FieldLength": 237
       }
     }
   }

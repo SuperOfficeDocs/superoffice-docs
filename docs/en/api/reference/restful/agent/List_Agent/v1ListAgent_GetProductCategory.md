@@ -2,6 +2,7 @@
 title: POST Agents/List/GetProductCategory
 uid: v1ListAgent_GetProductCategory
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetProductCategory
@@ -22,11 +23,11 @@ Gets a ProductCategory object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| productCategoryId | int32 | **Required** The primary key. |
+| productCategoryId | int32 | **Required** The identifier of the ProductCategory object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProductCategory?productCategoryId=223
+POST /api/v1/Agents/List/GetProductCategory?productCategoryId=974
 POST /api/v1/Agents/List/GetProductCategory?$select=name,department,category/id
 ```
 
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,15 +80,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 921,
-  "Value": "dignissimos",
-  "Tooltip": "molestiae",
+  "Id": 694,
+  "Value": "eveniet",
+  "Tooltip": "veniam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 116
+      "FieldLength": 505
     }
   }
 }

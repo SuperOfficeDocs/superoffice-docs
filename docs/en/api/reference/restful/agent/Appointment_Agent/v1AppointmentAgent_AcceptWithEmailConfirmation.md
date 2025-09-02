@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/AcceptWithEmailConfirmation
 uid: v1AppointmentAgent_AcceptWithEmailConfirmation
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/AcceptWithEmailConfirmation
@@ -69,7 +70,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 301,
+  "AppointmentId": 560,
   "UpdateMode": "OnlyThis"
 }
 ```

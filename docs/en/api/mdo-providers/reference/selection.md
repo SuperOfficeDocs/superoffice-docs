@@ -3,9 +3,9 @@ uid: selection
 title: selection
 keywords: mdoprovider mdo provider selection
 description: Provider for selecting a selection. Supported additionalInfo - kind=static or kind=dynamic to restrict to static or dynamic selections only. Otherwise you'll get both kinds. membertype=[tablename|tablenumber] to restrict to one kind of entities. Both tableNumber and table name can be used. Any combination of these are supported.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "selection" MDO List

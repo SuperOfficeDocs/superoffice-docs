@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.GetStatistics SOAP
 generated: true
 uid: Services88-CustomerService-GetStatistics
+content_type: reference
 ---
 
 # Services88 CustomerService GetStatistics

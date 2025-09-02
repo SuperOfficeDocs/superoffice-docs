@@ -2,10 +2,10 @@
 uid: enum-shipmentaddrstatus
 title: Enum values for ShipmentAddrStatus
 description: Lists the enum values for ShipmentAddrStatus.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ShipmentAddrStatus Enum

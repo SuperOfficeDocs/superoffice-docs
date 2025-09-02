@@ -2,6 +2,7 @@
 title: POST User/{id}/CustomCommand/{commandName}
 uid: v1User_ExecuteUserCommandAsync
 generated: true
+content_type: reference
 ---
 
 # POST User/{id}/CustomCommand/{commandName}
@@ -68,7 +69,7 @@ User with given id does not exist in the db.
 POST /api/v1/User/{id}/CustomCommand/{commandName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

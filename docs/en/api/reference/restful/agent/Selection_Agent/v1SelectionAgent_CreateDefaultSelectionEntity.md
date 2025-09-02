@@ -2,6 +2,7 @@
 title: POST Agents/Selection/CreateDefaultSelectionEntity
 uid: v1SelectionAgent_CreateDefaultSelectionEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/CreateDefaultSelectionEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 ```
 
-Set default values into a new SelectionEntity.
+Loading default values into a new SelectionEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -97,7 +96,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -107,70 +106,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Object-based modular matrix",
-  "Postit": "vero",
+  "Description": "Digitized optimizing encryption",
+  "Postit": "enim",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 939,
-  "IncludePerson": 101,
+  "GroupIdx": 853,
+  "IncludePerson": 829,
   "MemberCount": 99.99,
-  "Name": "Wiegand Group",
-  "PostitTextId": 137,
-  "CreatedDate": "2004-03-01T03:45:23.8891939+01:00",
-  "SelectionId": 662,
-  "SoundEx": "dolores",
-  "Source": 741,
-  "TextId": 299,
-  "UpdatedDate": "2021-04-03T03:45:23.8891939+02:00",
-  "UpdatedCount": 409,
-  "Visibility": 204,
+  "Name": "Miller, Kessler and Koch",
+  "PostitTextId": 195,
+  "CreatedDate": "2001-07-17T03:46:55.3007553+02:00",
+  "SelectionId": 556,
+  "SoundEx": "blanditiis",
+  "Source": 811,
+  "TextId": 168,
+  "UpdatedDate": "2015-06-12T03:46:55.3007553+02:00",
+  "UpdatedCount": 805,
+  "Visibility": 152,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 409,
-  "TargetTableName": "Nader Inc and Sons",
+  "CompanyUnique": false,
+  "TargetTableNumber": 194,
+  "TargetTableName": "Adams-Bergstrom",
   "Completed": false,
-  "LeftSelectionId": 280,
-  "RightSelectionId": 431,
+  "LeftSelectionId": 956,
+  "RightSelectionId": 349,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Jakubowski LLC",
-  "ShadowProviderName": "Shields-Witting",
-  "ChartKey": "minima",
-  "LastLoaded": "1998-03-14T03:45:23.8891939+01:00",
-  "LastLoadedBy": 501,
+  "MainProviderName": "Russel, Douglas and Hilll",
+  "ShadowProviderName": "McDermott-Cummerata",
+  "ChartKey": "dicta",
+  "LastLoaded": "2000-07-16T03:46:55.3007553+02:00",
+  "LastLoadedBy": 994,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-05-27T03:45:23.8891939+02:00",
-  "LastMembershipChangeBy": 453,
+  "LastMembershipChange": "2001-06-03T03:46:55.3007553+02:00",
+  "LastMembershipChangeBy": 739,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "libero",
-  "MemberTabHeading": "mollitia",
-  "MailingsProviderName": "Hintz Inc and Sons",
-  "DashboardTileDefinitionId": 444,
+  "MainHeading": "excepturi",
+  "MemberTabHeading": "provident",
+  "MailingsProviderName": "Durgan, Kub and Schamberger",
+  "DashboardTileDefinitionId": 991,
   "VisibleFor": [
     {
-      "VisibleId": 84,
+      "VisibleId": 6,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 192
+          "FieldLength": 250
         }
       }
     },
     {
-      "VisibleId": 84,
+      "VisibleId": 6,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 192
+          "FieldLength": 250
         }
       }
     }
@@ -180,7 +179,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 225
     }
   }
 }

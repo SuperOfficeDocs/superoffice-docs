@@ -2,6 +2,7 @@
 title: PUT List/DocumentTemplate/Items/{id}/Content/{languageCode}
 uid: v1DocumentTemplateList_SaveDocumentTemplateStream
 generated: true
+content_type: reference
 ---
 
 # PUT List/DocumentTemplate/Items/{id}/Content/{languageCode}
@@ -30,7 +31,7 @@ Writes content in stream to document template file
 | pluginId | int32 |  Plugin to use for storing document content. 0 = SOARC. Use -1 to use the plugin specified in the template. |
 
 ```http
-PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}?pluginId=172
+PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}?pluginId=936
 ```
 
 
@@ -77,7 +78,7 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Content/{languageCode}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,10 +88,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Breitenberg, Hessel and Jacobi",
-  "Description": "Pre-emptive explicit monitoring",
-  "ExternalReference": "est",
-  "MimeType": "voluptas",
-  "PluginId": 679
+  "Name": "Lynch, Cummerata and Mante",
+  "Description": "Sharable fresh-thinking adapter",
+  "ExternalReference": "vel",
+  "MimeType": "autem",
+  "PluginId": 844
 }
 ```

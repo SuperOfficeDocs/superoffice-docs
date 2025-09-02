@@ -2,6 +2,7 @@
 title: GET List/QuoteApproveReason
 uid: v1QuoteApproveReasonList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/QuoteApproveReason
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/QuoteApproveReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 596,
-  "Name": "Franecki, Jenkins and Spencer",
-  "Tooltip": "consequuntur",
+  "Id": 988,
+  "Name": "Doyle Inc and Sons",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 982,
-  "IsCustomList": true,
+  "Rank": 100,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptate",
+  "ListType": "ea",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1001
+      "FieldType": "System.String",
+      "FieldLength": 255
     }
   },
   "_Links": {

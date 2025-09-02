@@ -2,6 +2,7 @@
 title: GET List/Currency
 uid: v1CurrencyList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/Currency
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 772,
-  "Name": "Morissette-Ankunding",
-  "Tooltip": "natus",
-  "Deleted": true,
-  "Rank": 754,
+  "Id": 70,
+  "Name": "Schuster, Gulgowski and Flatley",
+  "Tooltip": "sint",
+  "Deleted": false,
+  "Rank": 322,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "excepturi",
+  "ListType": "a",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldType": "System.String",
+      "FieldLength": 569
     }
   },
   "_Links": {

@@ -3,9 +3,9 @@ uid: crmfields
 title: crmfields
 keywords: mdoprovider mdo provider crmfields
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "crmfields" MDO List

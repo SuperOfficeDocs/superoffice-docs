@@ -2,6 +2,7 @@
 title: POST Project/{id}/MergeTo/{id}
 uid: v1ProjectEntity_Merge
 generated: true
+content_type: reference
 ---
 
 # POST Project/{id}/MergeTo/{id}

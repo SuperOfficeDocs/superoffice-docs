@@ -2,6 +2,7 @@
 title: POST Agents/Find/DeleteRestrictionGroup
 uid: v1FindAgent_DeleteRestrictionGroup
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/DeleteRestrictionGroup
@@ -68,15 +69,15 @@ No Content
 POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quia",
-  "ProviderName": "Herzog-Wolff",
-  "StorageKey": "possimus",
-  "Rank": 738,
-  "Context": "dolor"
+  "StorageType": "aperiam",
+  "ProviderName": "White, Yundt and Corkery",
+  "StorageKey": "quod",
+  "Rank": 926,
+  "Context": "corrupti"
 }
 ```
 

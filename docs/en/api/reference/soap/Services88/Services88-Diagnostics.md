@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-Diagnostics
 title: Services88.DiagnosticsAgent WSDL
+content_type: reference
 ---
 
 # Services88.DiagnosticsAgent WSDL

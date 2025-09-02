@@ -2,6 +2,7 @@
 title: POST Agents/AI/DetectSentiment
 uid: v1AIAgent_DetectSentiment
 generated: true
+content_type: reference
 ---
 
 # POST Agents/AI/DetectSentiment
@@ -80,7 +81,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "nostrum"
+  "Text": "in"
 }
 ```
 
@@ -91,14 +92,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Score": 533,
-  "Confidence": 137,
+  "Score": 25,
+  "Confidence": 624,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1001
+      "FieldType": "System.Int32",
+      "FieldLength": 793
     }
   }
 }

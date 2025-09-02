@@ -2,6 +2,7 @@
 title: POST Agents/UserDefinedFieldInfo/IsPublishEventActive
 uid: v1UserDefinedFieldInfoAgent_IsPublishEventActive
 generated: true
+content_type: reference
 ---
 
 # POST Agents/UserDefinedFieldInfo/IsPublishEventActive
@@ -68,7 +69,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/IsPublishEventActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {

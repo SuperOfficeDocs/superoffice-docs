@@ -3,9 +3,9 @@ uid: erpproductcategory
 title: erpproductcategory
 keywords: mdoprovider mdo provider erpproductcategory
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "erpproductcategory" MDO List

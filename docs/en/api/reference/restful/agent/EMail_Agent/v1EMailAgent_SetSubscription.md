@@ -2,6 +2,7 @@
 title: POST Agents/EMail/SetSubscription
 uid: v1EMailAgent_SetSubscription
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/SetSubscription
@@ -67,20 +68,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Daugherty Group",
-      "Delimiter": "ea",
-      "Flags": "molestiae",
-      "TotalItems": 694,
-      "UnreadItems": 609,
+      "Name": "Pfeffer-Beer",
+      "Delimiter": "velit",
+      "Flags": "alias",
+      "TotalItems": 277,
+      "UnreadItems": 383,
       "Subscribed": false,
-      "EmailFolderId": 827
+      "EmailFolderId": 22
     }
   ]
 }

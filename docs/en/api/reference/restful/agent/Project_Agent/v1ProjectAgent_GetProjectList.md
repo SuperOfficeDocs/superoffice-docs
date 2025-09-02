@@ -2,6 +2,7 @@
 title: POST Agents/Project/GetProjectList
 uid: v1ProjectAgent_GetProjectList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/GetProjectList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/Project/GetProjectList?$select=name,department,category/id
 
 ## Request Body: projectIds 
 
-The primary keys. 
+The identifiers of the Project object 
 
 
 ## Response:array
@@ -87,7 +88,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 14,
-    "Name": "Bayer, Stanton and Yundt",
-    "Description": "Object-based 6th generation hardware",
+    "ProjectId": 952,
+    "Name": "Kovacek-Lowe",
+    "Description": "Compatible well-modulated collaboration",
     "URL": "http://www.example.com/",
-    "Type": "sit",
-    "AssociateId": 729,
-    "AssociateFullName": "Joanne Wuckert",
-    "TypeId": 684,
-    "Updated": "2016-08-24T03:45:23.7798203+02:00",
-    "StatusId": 252,
-    "Status": "eaque",
-    "TextId": 226,
-    "PublishTo": "2002-06-20T03:45:23.7798203+02:00",
-    "PublishFrom": "2002-08-07T03:45:23.7798203+02:00",
+    "Type": "temporibus",
+    "AssociateId": 868,
+    "AssociateFullName": "Karlee Lubowitz",
+    "TypeId": 899,
+    "Updated": "2013-01-11T03:46:55.1757421+01:00",
+    "StatusId": 33,
+    "Status": "quis",
+    "TextId": 268,
+    "PublishTo": "2022-05-12T03:46:55.1757421+02:00",
+    "PublishFrom": "2000-05-31T03:46:55.1757421+02:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "851910",
-    "ActiveErpLinks": 355,
+    "ProjectNumber": "881005",
+    "ActiveErpLinks": 954,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 161
+        "FieldLength": 26
       }
     }
   }

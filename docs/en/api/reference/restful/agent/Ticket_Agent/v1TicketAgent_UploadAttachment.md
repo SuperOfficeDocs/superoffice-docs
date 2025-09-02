@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/UploadAttachment
 uid: v1TicketAgent_UploadAttachment
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/UploadAttachment
@@ -65,11 +66,11 @@ No Content
 POST /api/v1/Agents/Ticket/UploadAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 487,
+  "AttachmentId": 757,
   "Content": "GIF89....File contents as raw bytes..."
 }
 ```

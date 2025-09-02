@@ -2,6 +2,7 @@
 title: GET List/DeliveryType/Items
 uid: v1DeliveryTypeList_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET List/DeliveryType/Items
@@ -25,7 +26,7 @@ Gets all the DeliveryType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/DeliveryType/Items?includeDeleted=False
+GET /api/v1/List/DeliveryType/Items?includeDeleted=True
 ```
 
 
@@ -81,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 274,
-    "Name": "Grady-West",
-    "Tooltip": "saepe",
+    "Id": 229,
+    "Name": "Bergnaum, Greenholt and O'Kon",
+    "Tooltip": "temporibus",
     "Deleted": false,
-    "UdListDefinitionId": 669,
-    "Rank": 669,
+    "UdListDefinitionId": 631,
+    "Rank": 399,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 814
+        "FieldType": "System.String",
+        "FieldLength": 905
       }
     }
   }

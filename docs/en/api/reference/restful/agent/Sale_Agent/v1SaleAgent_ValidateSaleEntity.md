@@ -2,6 +2,7 @@
 title: POST Agents/Sale/ValidateSaleEntity
 uid: v1SaleAgent_ValidateSaleEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/ValidateSaleEntity
@@ -68,7 +69,7 @@ OK
 POST /api/v1/Agents/Sale/ValidateSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -83,7 +84,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "nulla",
-  "2": "corporis"
+  "1": "porro",
+  "2": "quam"
 }
 ```

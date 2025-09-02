@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetAmountClassEntity SOAP
 generated: true
 uid: Services88-List-GetAmountClassEntity
+content_type: reference
 ---
 
 # Services88 List GetAmountClassEntity

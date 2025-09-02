@@ -2,6 +2,7 @@
 title: GET List/QuoteDenyReason/MDOItems
 uid: v1QuoteDenyReasonList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/QuoteDenyReason/MDOItems
@@ -27,7 +28,7 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=aliquid
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=explicabo
 ```
 
 
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 45,
-    "Name": "Emard Inc and Sons",
-    "ToolTip": "Suscipit ratione molestias minima tempora dolore libero praesentium.",
+    "Id": 43,
+    "Name": "Bednar Group",
+    "ToolTip": "Animi modi quia aut nulla qui reprehenderit.",
     "Deleted": false,
-    "Rank": 823,
-    "Type": "et",
+    "Rank": 267,
+    "Type": "maxime",
     "ChildItems": [
       {
-        "Id": 60,
-        "Name": "Greenholt, Osinski and Harvey",
-        "ToolTip": "Aperiam accusamus eaque ipsum.",
-        "Deleted": true,
-        "Rank": 125,
-        "Type": "laboriosam",
+        "Id": 346,
+        "Name": "Gislason Inc and Sons",
+        "ToolTip": "Repellat autem maiores qui amet sunt excepturi.",
+        "Deleted": false,
+        "Rank": 532,
+        "Type": "dicta",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 769,
-        "ExtraInfo": "corrupti",
-        "StyleHint": "dolorem",
-        "FullName": "Gerhard Kirlin",
+        "IconHint": "aliquam",
+        "ColorBlock": 335,
+        "ExtraInfo": "enim",
+        "StyleHint": "quisquam",
+        "FullName": "Justice Parker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 555
+            "FieldType": "System.Int32",
+            "FieldLength": 409
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 106,
-    "ExtraInfo": "aut",
-    "StyleHint": "veritatis",
-    "FullName": "Sienna Bins",
+    "IconHint": "dolorum",
+    "ColorBlock": 606,
+    "ExtraInfo": "enim",
+    "StyleHint": "omnis",
+    "FullName": "Dario Murray",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 605
+        "FieldType": "System.String",
+        "FieldLength": 112
       }
     }
   }

@@ -2,6 +2,7 @@
 title: PUT List/Business/Headings
 uid: v1BusinessList_PutBusinessHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/Business/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 532,
-    "Name": "Frami, Cole and Sawayn",
-    "Tooltip": "cumque",
+    "HeadingId": 749,
+    "Name": "Hartmann-Hettinger",
+    "Tooltip": "ullam",
     "Deleted": false,
-    "Rank": 762,
-    "UdListDefinitionId": 722
+    "Rank": 227,
+    "UdListDefinitionId": 824
   },
   {
-    "HeadingId": 532,
-    "Name": "Frami, Cole and Sawayn",
-    "Tooltip": "cumque",
+    "HeadingId": 749,
+    "Name": "Hartmann-Hettinger",
+    "Tooltip": "ullam",
     "Deleted": false,
-    "Rank": 762,
-    "UdListDefinitionId": 722
+    "Rank": 227,
+    "UdListDefinitionId": 824
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 249,
-    "Name": "Auer, Rohan and Cruickshank",
-    "Tooltip": "qui",
+    "HeadingId": 846,
+    "Name": "Feeney, Hammes and Thiel",
+    "Tooltip": "inventore",
     "Deleted": false,
-    "Rank": 1000,
-    "UdListDefinitionId": 656,
+    "Rank": 527,
+    "UdListDefinitionId": 558,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 728
+        "FieldType": "System.String",
+        "FieldLength": 403
       }
     }
   }

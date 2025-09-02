@@ -2,6 +2,7 @@
 title: GET List/SaleType/MDOItems
 uid: v1SaleTypeList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/SaleType/MDOItems
@@ -26,8 +27,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=True
-GET /api/v1/List/SaleType/MDOItems?query=sunt
+GET /api/v1/List/SaleType/MDOItems?flat=False
+GET /api/v1/List/SaleType/MDOItems?query=saepe
 ```
 
 
@@ -78,7 +79,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 236,
-    "Name": "Hilpert, Legros and Hermiston",
-    "ToolTip": "Eius et rem magni ea reprehenderit nesciunt.",
-    "Deleted": false,
-    "Rank": 157,
-    "Type": "repellendus",
+    "Id": 174,
+    "Name": "Towne, Kirlin and Schmidt",
+    "ToolTip": "Reiciendis consequatur voluptatum molestias.",
+    "Deleted": true,
+    "Rank": 712,
+    "Type": "ducimus",
     "ChildItems": [
       {
-        "Id": 394,
-        "Name": "Rosenbaum LLC",
-        "ToolTip": "Voluptatibus consectetur mollitia velit impedit impedit ab.",
-        "Deleted": true,
-        "Rank": 189,
-        "Type": "sit",
+        "Id": 498,
+        "Name": "Lockman, Adams and Luettgen",
+        "ToolTip": "Enim ut.",
+        "Deleted": false,
+        "Rank": 389,
+        "Type": "eveniet",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 421,
-        "ExtraInfo": "facilis",
-        "StyleHint": "molestiae",
-        "FullName": "Jovany Bradtke",
+        "IconHint": "dignissimos",
+        "ColorBlock": 416,
+        "ExtraInfo": "omnis",
+        "StyleHint": "temporibus",
+        "FullName": "Raven Zemlak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 690
+            "FieldType": "System.String",
+            "FieldLength": 285
           }
         }
       }
     ],
-    "IconHint": "itaque",
-    "ColorBlock": 903,
-    "ExtraInfo": "hic",
-    "StyleHint": "laboriosam",
-    "FullName": "Maeve Bruen",
+    "IconHint": "hic",
+    "ColorBlock": 488,
+    "ExtraInfo": "qui",
+    "StyleHint": "iure",
+    "FullName": "Ms. Carrie Letha Schimmel Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 564
+        "FieldType": "System.String",
+        "FieldLength": 310
       }
     }
   }

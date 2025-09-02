@@ -2,6 +2,7 @@
 title: Services88.ListAgent.SetTicketStatusSortOrder SOAP
 generated: true
 uid: Services88-List-SetTicketStatusSortOrder
+content_type: reference
 ---
 
 # Services88 List SetTicketStatusSortOrder

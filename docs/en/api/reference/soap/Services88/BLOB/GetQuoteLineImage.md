@@ -2,6 +2,7 @@
 title: Services88.BLOBAgent.GetQuoteLineImage SOAP
 generated: true
 uid: Services88-BLOB-GetQuoteLineImage
+content_type: reference
 ---
 
 # Services88 BLOB GetQuoteLineImage

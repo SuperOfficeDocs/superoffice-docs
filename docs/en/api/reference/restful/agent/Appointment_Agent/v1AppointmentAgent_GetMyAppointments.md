@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetMyAppointments
 uid: v1AppointmentAgent_GetMyAppointments
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetMyAppointments
@@ -116,6 +117,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -134,9 +136,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2021-07-12T03:45:22.9517163+02:00",
-  "EndTime": "2011-10-05T03:45:22.9517163+02:00",
-  "Count": 542
+  "StartTime": "2011-09-23T03:46:54.2695244+02:00",
+  "EndTime": "2006-08-23T03:46:54.2695244+02:00",
+  "Count": 373
 }
 ```
 
@@ -148,66 +150,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 342,
-    "StartDate": "2014-02-14T03:45:22.9517163+01:00",
-    "EndDate": "2000-04-12T03:45:22.9517163+02:00",
+    "AppointmentId": 455,
+    "StartDate": "2014-07-12T03:46:54.2695244+02:00",
+    "EndDate": "2019-08-03T03:46:54.2695244+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ratione",
-    "AssociateFullName": "Okey Daugherty",
-    "ContactName": "Torphy-Beer",
-    "Description": "Virtual dynamic encryption",
-    "PersonFullName": "Prof. Olga Schowalter Jr.",
-    "PersonId": 303,
-    "ContactId": 396,
-    "ProjectId": 548,
-    "ProjectName": "Okuneva-Murphy",
+    "Task": "dolores",
+    "AssociateFullName": "Ms. Vesta Diego Rodriguez",
+    "ContactName": "Lubowitz, VonRueden and Fahey",
+    "Description": "Front-line static info-mediaries",
+    "PersonFullName": "Ms. Friedrich Littel",
+    "PersonId": 343,
+    "ContactId": 637,
+    "ProjectId": 896,
+    "ProjectName": "Weimann Group",
     "IsPublished": false,
-    "AssociateId": 321,
-    "ColorIndex": 724,
-    "IsFree": false,
-    "HasAlarm": false,
+    "AssociateId": 909,
+    "ColorIndex": 121,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 161,
-    "PriorityName": "Stark Group",
+    "PriorityId": 315,
+    "PriorityName": "Hansen, Conn and Marquardt",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2015-02-09T03:45:22.9517163+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2007-02-10T03:46:54.2695244+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-08-02T03:45:22.9517163+02:00",
-    "RecurringEndDate": "2008-08-29T03:45:22.9517163+02:00",
-    "MotherId": 163,
-    "AssignedBy": 94,
-    "AssignedByFullName": "Jalon Gleason",
-    "RejectReason": "",
-    "Location": "tempore",
-    "AlarmLeadTime": "repellendus",
-    "SaleId": 118,
-    "SaleName": "Weimann-Stoltenberg",
-    "AssociateName": "Barrows, Mosciski and Hoppe",
-    "CreatedDate": "2011-05-01T03:45:22.9517163+02:00",
-    "CreatedBy": "voluptas",
-    "CreatedByFullName": "Caesar Dickens",
-    "CreatedByAssociateId": 216,
+    "RecurringStartDate": "2005-07-23T03:46:54.2695244+02:00",
+    "RecurringEndDate": "2005-01-22T03:46:54.2695244+01:00",
+    "MotherId": 142,
+    "AssignedBy": 989,
+    "AssignedByFullName": "Doris Ullrich",
+    "RejectReason": "harness e-business e-commerce",
+    "Location": "maiores",
+    "AlarmLeadTime": "et",
+    "SaleId": 215,
+    "SaleName": "Hermann-Maggio",
+    "AssociateName": "Friesen LLC",
+    "CreatedDate": "2023-07-20T03:46:54.2695244+02:00",
+    "CreatedBy": "dolor",
+    "CreatedByFullName": "Marianna Hyatt III",
+    "CreatedByAssociateId": 332,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 48,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 495,
-    "Title": "sed",
-    "Agenda": "voluptas",
-    "InternalNotes": "expedita",
+    "PreferredTZLocation": 998,
+    "Title": "consequatur",
+    "Agenda": "qui",
+    "InternalNotes": "ipsa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 842
+        "FieldLength": 377
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/GetCustomerServiceStartup
 uid: v1CustomerServiceAgent_GetCustomerServiceStartup
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/GetCustomerServiceStartup
@@ -68,7 +69,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetCustomerServiceStartup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,27 +80,27 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TimezoneEnabled": false,
-  "TZOffset": 343,
-  "RecaptchaSiteKey": "consequuntur",
+  "TZOffset": 382,
+  "RecaptchaSiteKey": "atque",
   "SelectedPreferences": [
     {
       "Level": "Database",
-      "RawValue": "ut",
+      "RawValue": "quia",
       "Specification": null,
-      "DisplayValue": "assumenda",
-      "DisplayTooltip": "ut",
+      "DisplayValue": "iste",
+      "DisplayTooltip": "quia",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 801,
-      "PrefDescId": 629,
-      "TableName": "Gottlieb-Jenkins",
-      "UserPreferenceId": 200,
+      "TargetId": 644,
+      "PrefDescId": 489,
+      "TableName": "Simonis Inc and Sons",
+      "UserPreferenceId": 933,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 216
+          "FieldType": "System.String",
+          "FieldLength": 148
         }
       }
     }
@@ -109,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 233
+      "FieldLength": 117
     }
   }
 }

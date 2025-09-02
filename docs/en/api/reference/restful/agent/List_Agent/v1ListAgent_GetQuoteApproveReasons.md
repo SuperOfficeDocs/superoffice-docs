@@ -2,6 +2,7 @@
 title: POST Agents/List/GetQuoteApproveReasons
 uid: v1ListAgent_GetQuoteApproveReasons
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetQuoteApproveReasons
@@ -78,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 556,
-    "Value": "tempore",
-    "Tooltip": "facilis",
+    "Id": 663,
+    "Value": "vero",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 846
+        "FieldLength": 135
       }
     }
   },
   {
-    "Id": 556,
-    "Value": "tempore",
-    "Tooltip": "facilis",
+    "Id": 663,
+    "Value": "vero",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 846
+        "FieldLength": 135
       }
     }
   }

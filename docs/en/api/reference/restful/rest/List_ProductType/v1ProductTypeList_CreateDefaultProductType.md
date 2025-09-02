@@ -2,6 +2,7 @@
 title: GET List/ProductType/Items/Default
 uid: v1ProductTypeList_CreateDefaultProductType
 generated: true
+content_type: reference
 ---
 
 # GET List/ProductType/Items/Default
@@ -60,7 +61,7 @@ OK
 GET /api/v1/List/ProductType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 655,
-  "Name": "Aufderhar Inc and Sons",
-  "Tooltip": "autem",
+  "Id": 35,
+  "Name": "Block LLC",
+  "Tooltip": "quae",
   "Deleted": false,
-  "UdListDefinitionId": 269,
-  "Rank": 104,
+  "UdListDefinitionId": 459,
+  "Rank": 466,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 887
+      "FieldType": "System.Int32",
+      "FieldLength": 555
     }
   }
 }

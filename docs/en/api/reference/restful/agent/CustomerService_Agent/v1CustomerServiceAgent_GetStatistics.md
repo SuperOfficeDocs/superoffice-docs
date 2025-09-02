@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/GetStatistics
 uid: v1CustomerServiceAgent_GetStatistics
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/GetStatistics
@@ -75,13 +76,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "sapiente",
-    "libero"
+    "nam",
+    "veritatis"
   ]
 }
 ```
@@ -94,82 +95,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "possimus",
+    "Label": "adipisci",
     "Values": [
       {
-        "Label": "laboriosam",
-        "Value": 5760.2919999999995,
-        "Description": "Persistent national collaboration",
+        "Label": "ipsa",
+        "Value": 19750.468,
+        "Description": "Assimilated incremental intranet",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 274
+            "FieldLength": 142
           }
         }
       },
       {
-        "Label": "laboriosam",
-        "Value": 5760.2919999999995,
-        "Description": "Persistent national collaboration",
+        "Label": "ipsa",
+        "Value": 19750.468,
+        "Description": "Assimilated incremental intranet",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 274
+            "FieldLength": 142
           }
         }
       }
     ],
-    "Description": "Pre-emptive web-enabled groupware",
+    "Description": "Persevering secondary projection",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 761
+        "FieldType": "System.Int32",
+        "FieldLength": 517
       }
     }
   },
   {
-    "Label": "possimus",
+    "Label": "adipisci",
     "Values": [
       {
-        "Label": "laboriosam",
-        "Value": 5760.2919999999995,
-        "Description": "Persistent national collaboration",
+        "Label": "ipsa",
+        "Value": 19750.468,
+        "Description": "Assimilated incremental intranet",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 274
+            "FieldLength": 142
           }
         }
       },
       {
-        "Label": "laboriosam",
-        "Value": 5760.2919999999995,
-        "Description": "Persistent national collaboration",
+        "Label": "ipsa",
+        "Value": 19750.468,
+        "Description": "Assimilated incremental intranet",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 274
+            "FieldLength": 142
           }
         }
       }
     ],
-    "Description": "Pre-emptive web-enabled groupware",
+    "Description": "Persevering secondary projection",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 761
+        "FieldType": "System.Int32",
+        "FieldLength": 517
       }
     }
   }

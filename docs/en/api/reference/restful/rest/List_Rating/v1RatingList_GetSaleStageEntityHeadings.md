@@ -2,6 +2,7 @@
 title: GET List/Rating/Headings
 uid: v1RatingList_GetSaleStageEntityHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/Rating/Headings
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 449,
-    "Name": "Gislason-Daugherty",
-    "Tooltip": "non",
+    "HeadingId": 685,
+    "Name": "Kerluke LLC",
+    "Tooltip": "dolor",
     "Deleted": false,
-    "Rank": 390,
-    "UdListDefinitionId": 619,
+    "Rank": 771,
+    "UdListDefinitionId": 50,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 868
+        "FieldType": "System.String",
+        "FieldLength": 817
       }
     }
   }

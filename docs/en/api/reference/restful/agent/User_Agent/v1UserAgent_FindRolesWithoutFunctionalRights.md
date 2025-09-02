@@ -2,6 +2,7 @@
 title: POST Agents/User/FindRolesWithoutFunctionalRights
 uid: v1UserAgent_FindRolesWithoutFunctionalRights
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/FindRolesWithoutFunctionalRights
@@ -73,13 +74,13 @@ OK
 POST /api/v1/Agents/User/FindRolesWithoutFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Weber, Ferry and Schiller",
-    "Huels LLC"
+    "Jacobson LLC",
+    "Orn, Runolfsson and Jacobi"
   ]
 }
 ```
@@ -91,7 +92,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  881,
-  445
+  592,
+  605
 ]
 ```

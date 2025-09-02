@@ -2,6 +2,7 @@
 title: GET Preference/{section}/{key}/{prefLevel}
 uid: v1Preference_GetPrefValueAtLevel
 generated: true
+content_type: reference
 ---
 
 # GET Preference/{section}/{key}/{prefLevel}
@@ -67,5 +68,5 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ea"
+"laboriosam"
 ```

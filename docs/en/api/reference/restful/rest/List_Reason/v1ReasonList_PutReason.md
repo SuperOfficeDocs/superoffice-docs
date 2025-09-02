@@ -2,6 +2,7 @@
 title: PUT List/Reason/Items/{id}
 uid: v1ReasonList_PutReason
 generated: true
+content_type: reference
 ---
 
 # PUT List/Reason/Items/{id}
@@ -78,16 +79,16 @@ OK
 PUT /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 727,
-  "Name": "Sipes LLC",
-  "Tooltip": "cupiditate",
+  "Id": 206,
+  "Name": "Heaney-Berge",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "UdListDefinitionId": 393,
-  "Rank": 73
+  "UdListDefinitionId": 430,
+  "Rank": 738
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 114,
-  "Name": "Jenkins-Lesch",
-  "Tooltip": "harum",
+  "Id": 658,
+  "Name": "Waters-Gusikowski",
+  "Tooltip": "in",
   "Deleted": false,
-  "UdListDefinitionId": 255,
-  "Rank": 768,
+  "UdListDefinitionId": 227,
+  "Rank": 352,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 793
+      "FieldLength": 72
     }
   }
 }

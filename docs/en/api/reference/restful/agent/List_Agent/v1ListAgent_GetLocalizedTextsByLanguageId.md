@@ -2,6 +2,7 @@
 title: POST Agents/List/GetLocalizedTextsByLanguageId
 uid: v1ListAgent_GetLocalizedTextsByLanguageId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetLocalizedTextsByLanguageId
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 447
+  "LanguageId": 976
 }
 ```
 
@@ -94,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 882,
-    "ResourceId": 504,
-    "Text": "perspiciatis",
+    "LanguageId": 343,
+    "ResourceId": 685,
+    "Text": "iure",
     "Type": "Column",
-    "LocalizedTextId": 223,
+    "LocalizedTextId": 374,
     "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 731
+        "FieldType": "System.Int32",
+        "FieldLength": 555
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/Project/CreateDefaultProjectMember
 uid: v1ProjectAgent_CreateDefaultProjectMember
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/CreateDefaultProjectMember
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Project/CreateDefaultProjectMember
 ```
 
-Set default values into a new ProjectMember.
+Loading default values into a new ProjectMember.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -87,33 +86,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 272,
-  "ContactId": 557,
-  "ProjectId": 986,
-  "ContactName": "Graham, Rice and Jast",
+  "ProjectmemberId": 274,
+  "ContactId": 82,
+  "ProjectId": 148,
+  "ContactName": "Brown, Koch and Bergnaum",
   "ContactDepartment": "",
-  "ProjectName": "Little, Funk and Carter",
-  "EmailId": 49,
-  "EmailAddress": "kevin_bayer@hand.com",
-  "CountryId": 372,
-  "Firstname": "Ruth",
-  "MiddleName": "Hoppe, Murazik and Nitzsche",
-  "Lastname": "Funk",
-  "PersonId": 205,
-  "Mrmrs": "ratione",
-  "ProjectMemberTypeName": "Schinner Inc and Sons",
-  "Phone": "(817)464-3268 x67031",
-  "PhoneId": 478,
-  "ProjectMemberTypeId": 271,
-  "EmailAddressName": "taryn@powlowskiwalsh.uk",
-  "Comment": "et",
-  "FullName": "Mrs. Dorcas Dave Mraz PhD",
+  "ProjectName": "Senger, Sporer and Mayer",
+  "EmailId": 10,
+  "EmailAddress": "mayra.oberbrunner@morar.ca",
+  "CountryId": 661,
+  "Firstname": "Helga",
+  "MiddleName": "Farrell LLC",
+  "Lastname": "Bruen",
+  "PersonId": 7,
+  "Mrmrs": "qui",
+  "ProjectMemberTypeName": "Kuhn, Grant and Dach",
+  "Phone": "202.744.8754 x19684",
+  "PhoneId": 637,
+  "ProjectMemberTypeId": 436,
+  "EmailAddressName": "norberto@mann.ca",
+  "Comment": "distinctio",
+  "FullName": "Dominique Osinski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 532
+      "FieldType": "System.Int32",
+      "FieldLength": 987
     }
   }
 }

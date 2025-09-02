@@ -2,6 +2,7 @@
 title: POST List/Position/Items
 uid: v1PositionList_PostPosition
 generated: true
+content_type: reference
 ---
 
 # POST List/Position/Items
@@ -73,16 +74,16 @@ OK
 POST /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 261,
-  "Name": "Lubowitz Inc and Sons",
-  "Tooltip": "veniam",
+  "Id": 103,
+  "Name": "Kovacek-Gottlieb",
+  "Tooltip": "similique",
   "Deleted": false,
-  "UdListDefinitionId": 309,
-  "Rank": 84
+  "UdListDefinitionId": 685,
+  "Rank": 934
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 999,
-  "Name": "Prohaska LLC",
-  "Tooltip": "quia",
+  "Id": 926,
+  "Name": "Marquardt, Rohan and Nader",
+  "Tooltip": "voluptatum",
   "Deleted": false,
-  "UdListDefinitionId": 213,
-  "Rank": 922,
+  "UdListDefinitionId": 988,
+  "Rank": 78,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 439
+      "FieldType": "System.Int32",
+      "FieldLength": 161
     }
   }
 }

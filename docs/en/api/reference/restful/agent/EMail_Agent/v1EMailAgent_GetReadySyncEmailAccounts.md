@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetReadySyncEmailAccounts
 uid: v1EMailAgent_GetReadySyncEmailAccounts
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetReadySyncEmailAccounts
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/EMail/GetReadySyncEmailAccounts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AccountId": 313,
-    "AssociateName": "Herzog Inc and Sons",
-    "AssociateId": 962,
+    "AccountId": 199,
+    "AssociateName": "Willms LLC",
+    "AssociateId": 123,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 560
+        "FieldLength": 702
       }
     }
   },
   {
-    "AccountId": 313,
-    "AssociateName": "Herzog Inc and Sons",
-    "AssociateId": 962,
+    "AccountId": 199,
+    "AssociateName": "Willms LLC",
+    "AssociateId": 123,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 560
+        "FieldLength": 702
       }
     }
   }

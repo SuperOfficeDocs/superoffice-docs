@@ -2,6 +2,7 @@
 title: POST Agents/Saint/GetStatusMonitorPeriods
 uid: v1SaintAgent_GetStatusMonitorPeriods
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Saint/GetStatusMonitorPeriods
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitorPeriods
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,15 +78,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 852,
-  "Period2": 143,
-  "Period3": 381,
+  "Period1": 303,
+  "Period2": 608,
+  "Period3": 920,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 513
+      "FieldLength": 506
     }
   }
 }

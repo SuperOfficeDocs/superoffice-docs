@@ -2,6 +2,7 @@
 title: POST Agents/Selection/GetSelectionShadowMembersArchiveRows
 uid: v1SelectionAgent_GetSelectionShadowMembersArchiveRows
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/GetSelectionShadowMembersArchiveRows
@@ -80,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 106,
-  "Select": "in"
+  "SelectionId": 295,
+  "Select": "ea"
 }
 ```
 
@@ -97,23 +98,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Emmerich Group",
-    "PrimaryKey": 68,
+    "EntityName": "Homenick, Bernier and Conroy",
+    "PrimaryKey": 512,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "perspiciatis",
-        "TooltipHint": "ea",
-        "LinkHint": "expedita"
+        "DisplayValue": "quo",
+        "TooltipHint": "et",
+        "LinkHint": "pariatur"
       }
     },
-    "LinkHint": "quis",
-    "StyleHint": "error",
+    "LinkHint": "sit",
+    "StyleHint": "animi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 586
+        "FieldType": "System.String",
+        "FieldLength": 153
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/List/GetDocumentTemplateUsedInProjectStage
 uid: v1ListAgent_GetDocumentTemplateUsedInProjectStage
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetDocumentTemplateUsedInProjectStage
@@ -68,11 +69,11 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateUsedInProjectStage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 938
+  "DocumentTemplateId": 962
 }
 ```
 
@@ -83,7 +84,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "est",
-  "tempore"
+  "delectus",
+  "ipsum"
 ]
 ```

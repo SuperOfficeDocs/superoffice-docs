@@ -1,6 +1,8 @@
 ---
+uid: tag-SystemEvent
 title: SystemEvent
 generated: true
+content_type: reference
 ---
 
 ```http

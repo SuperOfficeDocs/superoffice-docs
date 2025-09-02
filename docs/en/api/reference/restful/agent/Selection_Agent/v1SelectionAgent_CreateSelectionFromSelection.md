@@ -2,6 +2,7 @@
 title: POST Agents/Selection/CreateSelectionFromSelection
 uid: v1SelectionAgent_CreateSelectionFromSelection
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/CreateSelectionFromSelection
@@ -120,8 +121,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 981,
-  "Name": "Ritchie, Cronin and Gaylord",
+  "SelectionId": 867,
+  "Name": "Schimmel-Carter",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -134,70 +135,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Profound global Graphic Interface",
-  "Postit": "ea",
+  "Description": "Fully-configurable context-sensitive methodology",
+  "Postit": "adipisci",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 957,
-  "IncludePerson": 130,
+  "GroupIdx": 412,
+  "IncludePerson": 908,
   "MemberCount": 99.99,
-  "Name": "Champlin-Batz",
-  "PostitTextId": 439,
-  "CreatedDate": "2012-02-15T03:45:23.9048172+01:00",
-  "SelectionId": 907,
-  "SoundEx": "omnis",
-  "Source": 210,
-  "TextId": 83,
-  "UpdatedDate": "2022-11-19T03:45:23.9048172+01:00",
-  "UpdatedCount": 461,
-  "Visibility": 279,
+  "Name": "Rowe LLC",
+  "PostitTextId": 478,
+  "CreatedDate": "2005-09-26T03:46:55.3788724+02:00",
+  "SelectionId": 844,
+  "SoundEx": "qui",
+  "Source": 549,
+  "TextId": 393,
+  "UpdatedDate": "2025-05-10T03:46:55.3788724+02:00",
+  "UpdatedCount": 266,
+  "Visibility": 98,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 202,
-  "TargetTableName": "Halvorson LLC",
+  "CompanyUnique": true,
+  "TargetTableNumber": 279,
+  "TargetTableName": "Koss-Gerlach",
   "Completed": false,
-  "LeftSelectionId": 864,
-  "RightSelectionId": 800,
+  "LeftSelectionId": 225,
+  "RightSelectionId": 433,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Parker Group",
-  "ShadowProviderName": "Dare Inc and Sons",
-  "ChartKey": "explicabo",
-  "LastLoaded": "2015-12-10T03:45:23.9048172+01:00",
-  "LastLoadedBy": 782,
+  "MainProviderName": "McDermott Inc and Sons",
+  "ShadowProviderName": "Bradtke Group",
+  "ChartKey": "tempora",
+  "LastLoaded": "2017-11-03T03:46:55.3788724+01:00",
+  "LastLoadedBy": 484,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2025-02-10T03:45:23.9048172+01:00",
-  "LastMembershipChangeBy": 589,
+  "LastMembershipChange": "2019-07-10T03:46:55.3788724+02:00",
+  "LastMembershipChangeBy": 827,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aliquam",
-  "MemberTabHeading": "eum",
-  "MailingsProviderName": "Jones, Kessler and Koepp",
-  "DashboardTileDefinitionId": 808,
+  "MainHeading": "et",
+  "MemberTabHeading": "illo",
+  "MailingsProviderName": "Durgan LLC",
+  "DashboardTileDefinitionId": 868,
   "VisibleFor": [
     {
-      "VisibleId": 542,
+      "VisibleId": 57,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 456
+          "FieldType": "System.String",
+          "FieldLength": 832
         }
       }
     },
     {
-      "VisibleId": 542,
+      "VisibleId": 57,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 456
+          "FieldType": "System.String",
+          "FieldLength": 832
         }
       }
     }
@@ -207,7 +208,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 679
+      "FieldLength": 991
     }
   }
 }

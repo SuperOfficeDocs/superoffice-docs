@@ -51,6 +51,7 @@ items:
   - SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntityAsync(SuperOffice.CRM.Services.ProjectEventEntity,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IProjectAgent.SaveProjectMemberAsync(SuperOffice.CRM.Services.ProjectMember,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IProjectAgent.SaveProjectMembersFunctionAndCommentAsync(System.Int32[],System.Int32,System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IProjectAgent.SetCompletedAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IProjectAgent.SetDuplicateRulesStatusAsync(SuperOffice.CRM.Services.DuplicateRule[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IProjectAgent.SetProjectImageAsync(System.Int32,System.Drawing.Image,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IProjectAgent.UpdateProjectMemberAsync(SuperOffice.CRM.Services.ProjectMember,System.Threading.CancellationToken)
@@ -102,6 +103,38 @@ items:
       value: Project Agent
     - type: System.String
       value: Interface for the Project Agent. Collection of all services that works with Project data.
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetProjectAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetProjectAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: GetProjectAsync(int, CancellationToken)
+  nameWithType: IProjectAgent.GetProjectAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Gets a Project object.
+  example: []
+  syntax:
+    content: Task<Project> GetProjectAsync(int projectId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: The identifier of the Project object
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Project}
+      description: A single Project
+    content.vb: Function GetProjectAsync(projectId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Project)
+  overload: SuperOffice.CRM.Services.IProjectAgent.GetProjectAsync*
+  nameWithType.vb: IProjectAgent.GetProjectAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IProjectAgent.GetProjectAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetProjectAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEntityAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEntityAsync(System.Threading.CancellationToken)
   id: CreateDefaultProjectEntityAsync(System.Threading.CancellationToken)
@@ -116,10 +149,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new ProjectEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  summary: Loading default values into a new ProjectEntity.
   example: []
   syntax:
     content: Task<ProjectEntity> CreateDefaultProjectEntityAsync(CancellationToken cancellationToken = default)
@@ -145,14 +175,14 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing ProjectEntity or creates a new ProjectEntity if the id parameter is empty
+  summary: Updates the existing ProjectEntity or creates a new ProjectEntity if the id parameter is 0.
   example: []
   syntax:
     content: Task<ProjectEntity> SaveProjectEntityAsync(ProjectEntity projectEntity, CancellationToken cancellationToken = default)
     parameters:
     - id: projectEntity
       type: SuperOffice.CRM.Services.ProjectEntity
-      description: The ProjectEntity that is saved.
+      description: The ProjectEntity that is saved
     - id: cancellationToken
       type: System.Threading.CancellationToken
     return:
@@ -186,221 +216,12 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task
+      description: This method has no return value
     content.vb: Function DeleteProjectEntityAsync(projectEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEntityAsync*
   nameWithType.vb: IProjectAgent.DeleteProjectEntityAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEntityAsync(Integer, System.Threading.CancellationToken)
   name.vb: DeleteProjectEntityAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEventEntityAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEventEntityAsync(System.Threading.CancellationToken)
-  id: CreateDefaultProjectEventEntityAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IProjectAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultProjectEventEntityAsync(CancellationToken)
-  nameWithType: IProjectAgent.CreateDefaultProjectEventEntityAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEventEntityAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new ProjectEventEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: Task<ProjectEventEntity> CreateDefaultProjectEventEntityAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectEventEntity}
-      description: New ProjectEventEntity with default values
-    content.vb: Function CreateDefaultProjectEventEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ProjectEventEntity)
-  overload: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEventEntityAsync*
-- uid: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntityAsync(SuperOffice.CRM.Services.ProjectEventEntity,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntityAsync(SuperOffice.CRM.Services.ProjectEventEntity,System.Threading.CancellationToken)
-  id: SaveProjectEventEntityAsync(SuperOffice.CRM.Services.ProjectEventEntity,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IProjectAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveProjectEventEntityAsync(ProjectEventEntity, CancellationToken)
-  nameWithType: IProjectAgent.SaveProjectEventEntityAsync(ProjectEventEntity, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntityAsync(SuperOffice.CRM.Services.ProjectEventEntity, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing ProjectEventEntity or creates a new ProjectEventEntity if the id parameter is empty
-  example: []
-  syntax:
-    content: Task<ProjectEventEntity> SaveProjectEventEntityAsync(ProjectEventEntity projectEventEntity, CancellationToken cancellationToken = default)
-    parameters:
-    - id: projectEventEntity
-      type: SuperOffice.CRM.Services.ProjectEventEntity
-      description: The ProjectEventEntity that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectEventEntity}
-      description: New or updated ProjectEventEntity
-    content.vb: Function SaveProjectEventEntityAsync(projectEventEntity As ProjectEventEntity, cancellationToken As CancellationToken = Nothing) As Task(Of ProjectEventEntity)
-  overload: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntityAsync*
-- uid: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntityAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntityAsync(System.Int32,System.Threading.CancellationToken)
-  id: DeleteProjectEventEntityAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IProjectAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteProjectEventEntityAsync(int, CancellationToken)
-  nameWithType: IProjectAgent.DeleteProjectEventEntityAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntityAsync(int, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Deletes the ProjectEventEntity
-  example: []
-  syntax:
-    content: Task DeleteProjectEventEntityAsync(int projectEventEntityId, CancellationToken cancellationToken = default)
-    parameters:
-    - id: projectEventEntityId
-      type: System.Int32
-      description: The identity of the ProjectEventEntity
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Function DeleteProjectEventEntityAsync(projectEventEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
-  overload: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntityAsync*
-  nameWithType.vb: IProjectAgent.DeleteProjectEventEntityAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntityAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeleteProjectEventEntityAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectMemberAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectMemberAsync(System.Threading.CancellationToken)
-  id: CreateDefaultProjectMemberAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IProjectAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultProjectMemberAsync(CancellationToken)
-  nameWithType: IProjectAgent.CreateDefaultProjectMemberAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectMemberAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new ProjectMember.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: Task<ProjectMember> CreateDefaultProjectMemberAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectMember}
-      description: New ProjectMember with default values
-    content.vb: Function CreateDefaultProjectMemberAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ProjectMember)
-  overload: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectMemberAsync*
-- uid: SuperOffice.CRM.Services.IProjectAgent.SaveProjectMemberAsync(SuperOffice.CRM.Services.ProjectMember,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IProjectAgent.SaveProjectMemberAsync(SuperOffice.CRM.Services.ProjectMember,System.Threading.CancellationToken)
-  id: SaveProjectMemberAsync(SuperOffice.CRM.Services.ProjectMember,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IProjectAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveProjectMemberAsync(ProjectMember, CancellationToken)
-  nameWithType: IProjectAgent.SaveProjectMemberAsync(ProjectMember, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IProjectAgent.SaveProjectMemberAsync(SuperOffice.CRM.Services.ProjectMember, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing ProjectMember or creates a new ProjectMember if the id parameter is empty
-  example: []
-  syntax:
-    content: Task<ProjectMember> SaveProjectMemberAsync(ProjectMember projectMember, CancellationToken cancellationToken = default)
-    parameters:
-    - id: projectMember
-      type: SuperOffice.CRM.Services.ProjectMember
-      description: The ProjectMember that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectMember}
-      description: New or updated ProjectMember
-    content.vb: Function SaveProjectMemberAsync(projectMember As ProjectMember, cancellationToken As CancellationToken = Nothing) As Task(Of ProjectMember)
-  overload: SuperOffice.CRM.Services.IProjectAgent.SaveProjectMemberAsync*
-- uid: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberAsync(System.Int32,System.Threading.CancellationToken)
-  id: DeleteProjectMemberAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IProjectAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteProjectMemberAsync(int, CancellationToken)
-  nameWithType: IProjectAgent.DeleteProjectMemberAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberAsync(int, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Deletes the ProjectMember
-  example: []
-  syntax:
-    content: Task DeleteProjectMemberAsync(int projectMemberId, CancellationToken cancellationToken = default)
-    parameters:
-    - id: projectMemberId
-      type: System.Int32
-      description: The identity of the ProjectMember
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Function DeleteProjectMemberAsync(projectMemberId As Integer, cancellationToken As CancellationToken = Nothing) As Task
-  overload: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberAsync*
-  nameWithType.vb: IProjectAgent.DeleteProjectMemberAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeleteProjectMemberAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetProjectAsync(System.Int32,System.Threading.CancellationToken)
-  id: GetProjectAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IProjectAgent
-  langs:
-  - csharp
-  - vb
-  name: GetProjectAsync(int, CancellationToken)
-  nameWithType: IProjectAgent.GetProjectAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectAsync(int, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Gets a Project object.
-  example: []
-  syntax:
-    content: Task<Project> GetProjectAsync(int projectId, CancellationToken cancellationToken = default)
-    parameters:
-    - id: projectId
-      type: System.Int32
-      description: The identifier of the Project object
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Project}
-      description: Project
-    content.vb: Function GetProjectAsync(projectId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Project)
-  overload: SuperOffice.CRM.Services.IProjectAgent.GetProjectAsync*
-  nameWithType.vb: IProjectAgent.GetProjectAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IProjectAgent.GetProjectAsync(Integer, System.Threading.CancellationToken)
-  name.vb: GetProjectAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectEntityAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetProjectEntityAsync(System.Int32,System.Threading.CancellationToken)
   id: GetProjectEntityAsync(System.Int32,System.Threading.CancellationToken)
@@ -427,7 +248,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectEntity}
-      description: ProjectEntity
+      description: A single ProjectEntity
     content.vb: Function GetProjectEntityAsync(projectEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ProjectEntity)
   overload: SuperOffice.CRM.Services.IProjectAgent.GetProjectEntityAsync*
   nameWithType.vb: IProjectAgent.GetProjectEntityAsync(Integer, CancellationToken)
@@ -983,6 +804,41 @@ items:
       description: Error messages tagged by field.
     content.vb: Function ValidateProjectEntityAsync(projectEntity As ProjectEntity, cancellationToken As CancellationToken = Nothing) As Task(Of StringDictionary)
   overload: SuperOffice.CRM.Services.IProjectAgent.ValidateProjectEntityAsync*
+- uid: SuperOffice.CRM.Services.IProjectAgent.SetCompletedAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.SetCompletedAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  id: SetCompletedAsync(System.Int32,System.Boolean,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: SetCompletedAsync(int, bool, CancellationToken)
+  nameWithType: IProjectAgent.SetCompletedAsync(int, bool, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.SetCompletedAsync(int, bool, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Set the completed flag on the project
+  example: []
+  syntax:
+    content: Task SetCompletedAsync(int projectId, bool isCompleted, CancellationToken cancellationToken = default)
+    parameters:
+    - id: projectId
+      type: System.Int32
+      description: ''
+    - id: isCompleted
+      type: System.Boolean
+      description: True if the project is completed, false if it is not
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function SetCompletedAsync(projectId As Integer, isCompleted As Boolean, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IProjectAgent.SetCompletedAsync*
+  nameWithType.vb: IProjectAgent.SetCompletedAsync(Integer, Boolean, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IProjectAgent.SetCompletedAsync(Integer, Boolean, System.Threading.CancellationToken)
+  name.vb: SetCompletedAsync(Integer, Boolean, CancellationToken)
 - uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetProjectEventAsync(System.Int32,System.Threading.CancellationToken)
   id: GetProjectEventAsync(System.Int32,System.Threading.CancellationToken)
@@ -1009,7 +865,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectEvent}
-      description: ProjectEvent
+      description: A single ProjectEvent
     content.vb: Function GetProjectEventAsync(projectEventId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ProjectEvent)
   overload: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventAsync*
   nameWithType.vb: IProjectAgent.GetProjectEventAsync(Integer, CancellationToken)
@@ -1050,6 +906,93 @@ items:
   nameWithType.vb: IProjectAgent.GetProjectEventOnPersonAsync(Integer, Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventOnPersonAsync(Integer, Integer, System.Threading.CancellationToken)
   name.vb: GetProjectEventOnPersonAsync(Integer, Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEventEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEventEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultProjectEventEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultProjectEventEntityAsync(CancellationToken)
+  nameWithType: IProjectAgent.CreateDefaultProjectEventEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEventEntityAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new ProjectEventEntity.
+  example: []
+  syntax:
+    content: Task<ProjectEventEntity> CreateDefaultProjectEventEntityAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectEventEntity}
+      description: New ProjectEventEntity with default values
+    content.vb: Function CreateDefaultProjectEventEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ProjectEventEntity)
+  overload: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEventEntityAsync*
+- uid: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntityAsync(SuperOffice.CRM.Services.ProjectEventEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntityAsync(SuperOffice.CRM.Services.ProjectEventEntity,System.Threading.CancellationToken)
+  id: SaveProjectEventEntityAsync(SuperOffice.CRM.Services.ProjectEventEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveProjectEventEntityAsync(ProjectEventEntity, CancellationToken)
+  nameWithType: IProjectAgent.SaveProjectEventEntityAsync(ProjectEventEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntityAsync(SuperOffice.CRM.Services.ProjectEventEntity, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing ProjectEventEntity or creates a new ProjectEventEntity if the id parameter is 0.
+  example: []
+  syntax:
+    content: Task<ProjectEventEntity> SaveProjectEventEntityAsync(ProjectEventEntity projectEventEntity, CancellationToken cancellationToken = default)
+    parameters:
+    - id: projectEventEntity
+      type: SuperOffice.CRM.Services.ProjectEventEntity
+      description: The ProjectEventEntity that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectEventEntity}
+      description: New or updated ProjectEventEntity
+    content.vb: Function SaveProjectEventEntityAsync(projectEventEntity As ProjectEventEntity, cancellationToken As CancellationToken = Nothing) As Task(Of ProjectEventEntity)
+  overload: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntityAsync*
+- uid: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteProjectEventEntityAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteProjectEventEntityAsync(int, CancellationToken)
+  nameWithType: IProjectAgent.DeleteProjectEventEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntityAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Deletes the ProjectEventEntity
+  example: []
+  syntax:
+    content: Task DeleteProjectEventEntityAsync(int projectEventEntityId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: projectEventEntityId
+      type: System.Int32
+      description: The identity of the ProjectEventEntity
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function DeleteProjectEventEntityAsync(projectEventEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntityAsync*
+  nameWithType.vb: IProjectAgent.DeleteProjectEventEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteProjectEventEntityAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventEntityAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetProjectEventEntityAsync(System.Int32,System.Threading.CancellationToken)
   id: GetProjectEventEntityAsync(System.Int32,System.Threading.CancellationToken)
@@ -1076,7 +1019,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectEventEntity}
-      description: ProjectEventEntity
+      description: A single ProjectEventEntity
     content.vb: Function GetProjectEventEntityAsync(projectEventEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ProjectEventEntity)
   overload: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventEntityAsync*
   nameWithType.vb: IProjectAgent.GetProjectEventEntityAsync(Integer, CancellationToken)
@@ -1172,7 +1115,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectEvent[]}
-      description: Array of ProjectEvent objects
+      description: Array of ProjectEvent
     content.vb: Function GetProjectEventListAsync(projectEventIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of ProjectEvent())
   overload: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventListAsync*
   nameWithType.vb: IProjectAgent.GetProjectEventListAsync(Integer(), CancellationToken)
@@ -1262,7 +1205,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Project[]}
-      description: Array of Project objects
+      description: Array of Project
     content.vb: Function GetProjectListAsync(projectIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of Project())
   overload: SuperOffice.CRM.Services.IProjectAgent.GetProjectListAsync*
   nameWithType.vb: IProjectAgent.GetProjectListAsync(Integer(), CancellationToken)
@@ -1512,6 +1455,93 @@ items:
   nameWithType.vb: IProjectAgent.GetPublishedProjectsOnPersonIdAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IProjectAgent.GetPublishedProjectsOnPersonIdAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetPublishedProjectsOnPersonIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectMemberAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectMemberAsync(System.Threading.CancellationToken)
+  id: CreateDefaultProjectMemberAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultProjectMemberAsync(CancellationToken)
+  nameWithType: IProjectAgent.CreateDefaultProjectMemberAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectMemberAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new ProjectMember.
+  example: []
+  syntax:
+    content: Task<ProjectMember> CreateDefaultProjectMemberAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectMember}
+      description: New ProjectMember with default values
+    content.vb: Function CreateDefaultProjectMemberAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ProjectMember)
+  overload: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectMemberAsync*
+- uid: SuperOffice.CRM.Services.IProjectAgent.SaveProjectMemberAsync(SuperOffice.CRM.Services.ProjectMember,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.SaveProjectMemberAsync(SuperOffice.CRM.Services.ProjectMember,System.Threading.CancellationToken)
+  id: SaveProjectMemberAsync(SuperOffice.CRM.Services.ProjectMember,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveProjectMemberAsync(ProjectMember, CancellationToken)
+  nameWithType: IProjectAgent.SaveProjectMemberAsync(ProjectMember, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.SaveProjectMemberAsync(SuperOffice.CRM.Services.ProjectMember, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing ProjectMember or creates a new ProjectMember if the id parameter is 0.
+  example: []
+  syntax:
+    content: Task<ProjectMember> SaveProjectMemberAsync(ProjectMember projectMember, CancellationToken cancellationToken = default)
+    parameters:
+    - id: projectMember
+      type: SuperOffice.CRM.Services.ProjectMember
+      description: The ProjectMember that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectMember}
+      description: New or updated ProjectMember
+    content.vb: Function SaveProjectMemberAsync(projectMember As ProjectMember, cancellationToken As CancellationToken = Nothing) As Task(Of ProjectMember)
+  overload: SuperOffice.CRM.Services.IProjectAgent.SaveProjectMemberAsync*
+- uid: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteProjectMemberAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IProjectAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteProjectMemberAsync(int, CancellationToken)
+  nameWithType: IProjectAgent.DeleteProjectMemberAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Deletes the ProjectMember
+  example: []
+  syntax:
+    content: Task DeleteProjectMemberAsync(int projectMemberId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: projectMemberId
+      type: System.Int32
+      description: The identity of the ProjectMember
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function DeleteProjectMemberAsync(projectMemberId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberAsync*
+  nameWithType.vb: IProjectAgent.DeleteProjectMemberAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteProjectMemberAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectMemberAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IProjectAgent.GetProjectMemberAsync(System.Int32,System.Threading.CancellationToken)
   id: GetProjectMemberAsync(System.Int32,System.Threading.CancellationToken)
@@ -1538,7 +1568,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectMember}
-      description: ProjectMember
+      description: A single ProjectMember
     content.vb: Function GetProjectMemberAsync(projectMemberId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ProjectMember)
   overload: SuperOffice.CRM.Services.IProjectAgent.GetProjectMemberAsync*
   nameWithType.vb: IProjectAgent.GetProjectMemberAsync(Integer, CancellationToken)
@@ -1748,13 +1778,24 @@ references:
     name: Services
     isExternal: true
     href: SuperOffice.CRM.Services.html
-- uid: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEntityAsync
+- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetProjectAsync
   isExternal: true
-  href: SuperOffice.CRM.Services.IProjectAgent.html#SuperOffice_CRM_Services_IProjectAgent_CreateDefaultProjectEntityAsync_System_Threading_CancellationToken_
-  name: CreateDefaultProjectEntityAsync
-  nameWithType: IProjectAgent.CreateDefaultProjectEntityAsync
-  fullName: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEntityAsync
+  href: SuperOffice.CRM.Services.IProjectAgent.html#SuperOffice_CRM_Services_IProjectAgent_GetProjectAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetProjectAsync
+  nameWithType: IProjectAgent.GetProjectAsync
+  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.Threading.CancellationToken
   commentId: T:System.Threading.CancellationToken
   parent: System.Threading
@@ -1763,27 +1804,27 @@ references:
   name: CancellationToken
   nameWithType: CancellationToken
   fullName: System.Threading.CancellationToken
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectEntity}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectEntity}
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Project}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Project}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
   href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<ProjectEntity>
-  nameWithType: Task<ProjectEntity>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ProjectEntity>
-  nameWithType.vb: Task(Of ProjectEntity)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ProjectEntity)
-  name.vb: Task(Of ProjectEntity)
+  name: Task<Project>
+  nameWithType: Task<Project>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Project>
+  nameWithType.vb: Task(Of Project)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Project)
+  name.vb: Task(Of Project)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - uid: SuperOffice.CRM.Services.ProjectEntity
-    name: ProjectEntity
+  - uid: SuperOffice.CRM.Services.Project
+    name: Project
     isExternal: true
-    href: SuperOffice.CRM.Services.ProjectEntity.html
+    href: SuperOffice.CRM.Services.Project.html
   - name: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
@@ -1793,11 +1834,18 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: SuperOffice.CRM.Services.ProjectEntity
-    name: ProjectEntity
+  - uid: SuperOffice.CRM.Services.Project
+    name: Project
     isExternal: true
-    href: SuperOffice.CRM.Services.ProjectEntity.html
+    href: SuperOffice.CRM.Services.Project.html
   - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: System.Threading
   commentId: N:System.Threading
   isExternal: true
@@ -1890,6 +1938,48 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IProjectAgent.html#SuperOffice_CRM_Services_IProjectAgent_CreateDefaultProjectEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultProjectEntityAsync
+  nameWithType: IProjectAgent.CreateDefaultProjectEntityAsync
+  fullName: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ProjectEntity>
+  nameWithType: Task<ProjectEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ProjectEntity>
+  nameWithType.vb: Task(Of ProjectEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ProjectEntity)
+  name.vb: Task(Of ProjectEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.ProjectEntity
+    name: ProjectEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.ProjectEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.ProjectEntity
+    name: ProjectEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.ProjectEntity.html
+  - name: )
 - uid: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.SaveProjectEntityAsync
   isExternal: true
@@ -1912,17 +2002,6 @@ references:
   name: DeleteProjectEntityAsync
   nameWithType: IProjectAgent.DeleteProjectEntityAsync
   fullName: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEntityAsync
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
 - uid: System.Threading.Tasks.Task
   commentId: T:System.Threading.Tasks.Task
   parent: System.Threading.Tasks
@@ -1931,183 +2010,6 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEventEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEventEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IProjectAgent.html#SuperOffice_CRM_Services_IProjectAgent_CreateDefaultProjectEventEntityAsync_System_Threading_CancellationToken_
-  name: CreateDefaultProjectEventEntityAsync
-  nameWithType: IProjectAgent.CreateDefaultProjectEventEntityAsync
-  fullName: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEventEntityAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectEventEntity}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectEventEntity}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<ProjectEventEntity>
-  nameWithType: Task<ProjectEventEntity>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ProjectEventEntity>
-  nameWithType.vb: Task(Of ProjectEventEntity)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ProjectEventEntity)
-  name.vb: Task(Of ProjectEventEntity)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.ProjectEventEntity
-    name: ProjectEventEntity
-    isExternal: true
-    href: SuperOffice.CRM.Services.ProjectEventEntity.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.ProjectEventEntity
-    name: ProjectEventEntity
-    isExternal: true
-    href: SuperOffice.CRM.Services.ProjectEventEntity.html
-  - name: )
-- uid: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IProjectAgent.html#SuperOffice_CRM_Services_IProjectAgent_SaveProjectEventEntityAsync_SuperOffice_CRM_Services_ProjectEventEntity_System_Threading_CancellationToken_
-  name: SaveProjectEventEntityAsync
-  nameWithType: IProjectAgent.SaveProjectEventEntityAsync
-  fullName: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntityAsync
-- uid: SuperOffice.CRM.Services.ProjectEventEntity
-  commentId: T:SuperOffice.CRM.Services.ProjectEventEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.ProjectEventEntity.html
-  name: ProjectEventEntity
-  nameWithType: ProjectEventEntity
-  fullName: SuperOffice.CRM.Services.ProjectEventEntity
-- uid: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IProjectAgent.html#SuperOffice_CRM_Services_IProjectAgent_DeleteProjectEventEntityAsync_System_Int32_System_Threading_CancellationToken_
-  name: DeleteProjectEventEntityAsync
-  nameWithType: IProjectAgent.DeleteProjectEventEntityAsync
-  fullName: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntityAsync
-- uid: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectMemberAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectMemberAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IProjectAgent.html#SuperOffice_CRM_Services_IProjectAgent_CreateDefaultProjectMemberAsync_System_Threading_CancellationToken_
-  name: CreateDefaultProjectMemberAsync
-  nameWithType: IProjectAgent.CreateDefaultProjectMemberAsync
-  fullName: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectMemberAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectMember}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectMember}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<ProjectMember>
-  nameWithType: Task<ProjectMember>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ProjectMember>
-  nameWithType.vb: Task(Of ProjectMember)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ProjectMember)
-  name.vb: Task(Of ProjectMember)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.ProjectMember
-    name: ProjectMember
-    isExternal: true
-    href: SuperOffice.CRM.Services.ProjectMember.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.ProjectMember
-    name: ProjectMember
-    isExternal: true
-    href: SuperOffice.CRM.Services.ProjectMember.html
-  - name: )
-- uid: SuperOffice.CRM.Services.IProjectAgent.SaveProjectMemberAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.SaveProjectMemberAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IProjectAgent.html#SuperOffice_CRM_Services_IProjectAgent_SaveProjectMemberAsync_SuperOffice_CRM_Services_ProjectMember_System_Threading_CancellationToken_
-  name: SaveProjectMemberAsync
-  nameWithType: IProjectAgent.SaveProjectMemberAsync
-  fullName: SuperOffice.CRM.Services.IProjectAgent.SaveProjectMemberAsync
-- uid: SuperOffice.CRM.Services.ProjectMember
-  commentId: T:SuperOffice.CRM.Services.ProjectMember
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.ProjectMember.html
-  name: ProjectMember
-  nameWithType: ProjectMember
-  fullName: SuperOffice.CRM.Services.ProjectMember
-- uid: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IProjectAgent.html#SuperOffice_CRM_Services_IProjectAgent_DeleteProjectMemberAsync_System_Int32_System_Threading_CancellationToken_
-  name: DeleteProjectMemberAsync
-  nameWithType: IProjectAgent.DeleteProjectMemberAsync
-  fullName: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberAsync
-- uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetProjectAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IProjectAgent.html#SuperOffice_CRM_Services_IProjectAgent_GetProjectAsync_System_Int32_System_Threading_CancellationToken_
-  name: GetProjectAsync
-  nameWithType: IProjectAgent.GetProjectAsync
-  fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Project}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Project}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<Project>
-  nameWithType: Task<Project>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Project>
-  nameWithType.vb: Task(Of Project)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Project)
-  name.vb: Task(Of Project)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.Project
-    name: Project
-    isExternal: true
-    href: SuperOffice.CRM.Services.Project.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.Project
-    name: Project
-    isExternal: true
-    href: SuperOffice.CRM.Services.Project.html
-  - name: )
 - uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetProjectEntityAsync
   isExternal: true
@@ -2619,6 +2521,13 @@ references:
     name: StringDictionary
     isExternal: true
   - name: )
+- uid: SuperOffice.CRM.Services.IProjectAgent.SetCompletedAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.SetCompletedAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IProjectAgent.html#SuperOffice_CRM_Services_IProjectAgent_SetCompletedAsync_System_Int32_System_Boolean_System_Threading_CancellationToken_
+  name: SetCompletedAsync
+  nameWithType: IProjectAgent.SetCompletedAsync
+  fullName: SuperOffice.CRM.Services.IProjectAgent.SetCompletedAsync
 - uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventAsync*
   commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetProjectEventAsync
   isExternal: true
@@ -2668,6 +2577,70 @@ references:
   name: GetProjectEventOnPersonAsync
   nameWithType: IProjectAgent.GetProjectEventOnPersonAsync
   fullName: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventOnPersonAsync
+- uid: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEventEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEventEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IProjectAgent.html#SuperOffice_CRM_Services_IProjectAgent_CreateDefaultProjectEventEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultProjectEventEntityAsync
+  nameWithType: IProjectAgent.CreateDefaultProjectEventEntityAsync
+  fullName: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectEventEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectEventEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectEventEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ProjectEventEntity>
+  nameWithType: Task<ProjectEventEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ProjectEventEntity>
+  nameWithType.vb: Task(Of ProjectEventEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ProjectEventEntity)
+  name.vb: Task(Of ProjectEventEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.ProjectEventEntity
+    name: ProjectEventEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.ProjectEventEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.ProjectEventEntity
+    name: ProjectEventEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.ProjectEventEntity.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IProjectAgent.html#SuperOffice_CRM_Services_IProjectAgent_SaveProjectEventEntityAsync_SuperOffice_CRM_Services_ProjectEventEntity_System_Threading_CancellationToken_
+  name: SaveProjectEventEntityAsync
+  nameWithType: IProjectAgent.SaveProjectEventEntityAsync
+  fullName: SuperOffice.CRM.Services.IProjectAgent.SaveProjectEventEntityAsync
+- uid: SuperOffice.CRM.Services.ProjectEventEntity
+  commentId: T:SuperOffice.CRM.Services.ProjectEventEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.ProjectEventEntity.html
+  name: ProjectEventEntity
+  nameWithType: ProjectEventEntity
+  fullName: SuperOffice.CRM.Services.ProjectEventEntity
+- uid: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IProjectAgent.html#SuperOffice_CRM_Services_IProjectAgent_DeleteProjectEventEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteProjectEventEntityAsync
+  nameWithType: IProjectAgent.DeleteProjectEventEntityAsync
+  fullName: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectEventEntityAsync
 - uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectEventEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetProjectEventEntityAsync
   isExternal: true
@@ -2851,6 +2824,70 @@ references:
   name: GetPublishedProjectsOnPersonIdAsync
   nameWithType: IProjectAgent.GetPublishedProjectsOnPersonIdAsync
   fullName: SuperOffice.CRM.Services.IProjectAgent.GetPublishedProjectsOnPersonIdAsync
+- uid: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectMemberAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectMemberAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IProjectAgent.html#SuperOffice_CRM_Services_IProjectAgent_CreateDefaultProjectMemberAsync_System_Threading_CancellationToken_
+  name: CreateDefaultProjectMemberAsync
+  nameWithType: IProjectAgent.CreateDefaultProjectMemberAsync
+  fullName: SuperOffice.CRM.Services.IProjectAgent.CreateDefaultProjectMemberAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectMember}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ProjectMember}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ProjectMember>
+  nameWithType: Task<ProjectMember>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ProjectMember>
+  nameWithType.vb: Task(Of ProjectMember)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ProjectMember)
+  name.vb: Task(Of ProjectMember)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.ProjectMember
+    name: ProjectMember
+    isExternal: true
+    href: SuperOffice.CRM.Services.ProjectMember.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.ProjectMember
+    name: ProjectMember
+    isExternal: true
+    href: SuperOffice.CRM.Services.ProjectMember.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IProjectAgent.SaveProjectMemberAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.SaveProjectMemberAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IProjectAgent.html#SuperOffice_CRM_Services_IProjectAgent_SaveProjectMemberAsync_SuperOffice_CRM_Services_ProjectMember_System_Threading_CancellationToken_
+  name: SaveProjectMemberAsync
+  nameWithType: IProjectAgent.SaveProjectMemberAsync
+  fullName: SuperOffice.CRM.Services.IProjectAgent.SaveProjectMemberAsync
+- uid: SuperOffice.CRM.Services.ProjectMember
+  commentId: T:SuperOffice.CRM.Services.ProjectMember
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.ProjectMember.html
+  name: ProjectMember
+  nameWithType: ProjectMember
+  fullName: SuperOffice.CRM.Services.ProjectMember
+- uid: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IProjectAgent.html#SuperOffice_CRM_Services_IProjectAgent_DeleteProjectMemberAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteProjectMemberAsync
+  nameWithType: IProjectAgent.DeleteProjectMemberAsync
+  fullName: SuperOffice.CRM.Services.IProjectAgent.DeleteProjectMemberAsync
 - uid: SuperOffice.CRM.Services.IProjectAgent.GetProjectMemberAsync*
   commentId: Overload:SuperOffice.CRM.Services.IProjectAgent.GetProjectMemberAsync
   isExternal: true

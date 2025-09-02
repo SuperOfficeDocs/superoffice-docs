@@ -2,6 +2,7 @@
 title: PUT Person/UdefLayout
 uid: v1PersonEntity_SaveUdefLayout
 generated: true
+content_type: reference
 ---
 
 # PUT Person/UdefLayout
@@ -129,45 +130,45 @@ OK
 PUT /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 373,
-    "ColumnId": 371,
-    "FieldDefault": "officiis",
-    "FieldHeight": 705,
-    "FieldLabel": "sint",
-    "FieldLeft": 150,
-    "FieldTop": 616,
+    "UDefFieldId": 545,
+    "ColumnId": 947,
+    "FieldDefault": "nostrum",
+    "FieldHeight": 800,
+    "FieldLabel": "beatae",
+    "FieldLeft": 642,
+    "FieldTop": 117,
     "FieldType": "Checkbox",
-    "FieldWidth": 27,
-    "FormatMask": "alias",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 388,
-    "LabelLeft": 590,
-    "LabelTop": 513,
-    "LabelWidth": 43,
-    "LastVersionId": 218,
-    "ListTableId": 700,
+    "FieldWidth": 556,
+    "FormatMask": "eos",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 116,
+    "LabelLeft": 984,
+    "LabelTop": 162,
+    "LabelWidth": 413,
+    "LastVersionId": 925,
+    "ListTableId": 664,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 790,
-    "ProgId": "libero",
-    "IsReadOnly": false,
+    "Page1LineNo": 259,
+    "ProgId": "quia",
+    "IsReadOnly": true,
     "ShortLabel": "aut",
-    "TabOrder": 17,
-    "TextLength": 14,
-    "Tooltip": "est",
-    "UdefIdentity": 18,
-    "UDListDefinitionId": 46,
+    "TabOrder": 659,
+    "TextLength": 313,
+    "Tooltip": "quod",
+    "UdefIdentity": 379,
+    "UDListDefinitionId": 814,
     "Justification": "Center",
-    "Version": 724,
-    "TemplateVariableName": "Mitchell LLC",
+    "Version": 329,
+    "TemplateVariableName": "Ziemann-Fritsch",
     "HasBeenPublished": false,
-    "MdoListName": "Cummerata Inc and Sons"
+    "MdoListName": "Kshlerin Inc and Sons"
   }
 ]
 ```
@@ -180,46 +181,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 940,
-    "ColumnId": 914,
-    "FieldDefault": "neque",
-    "FieldHeight": 922,
-    "FieldLabel": "eos",
-    "FieldLeft": 774,
-    "FieldTop": 12,
+    "UDefFieldId": 980,
+    "ColumnId": 983,
+    "FieldDefault": "et",
+    "FieldHeight": 940,
+    "FieldLabel": "minus",
+    "FieldLeft": 749,
+    "FieldTop": 112,
     "FieldType": "Checkbox",
-    "FieldWidth": 300,
-    "FormatMask": "unde",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 899,
-    "LabelLeft": 732,
-    "LabelTop": 795,
-    "LabelWidth": 898,
-    "LastVersionId": 997,
-    "ListTableId": 55,
+    "FieldWidth": 811,
+    "FormatMask": "nihil",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 625,
+    "LabelLeft": 665,
+    "LabelTop": 693,
+    "LabelWidth": 382,
+    "LastVersionId": 581,
+    "ListTableId": 767,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 556,
-    "ProgId": "ex",
+    "Page1LineNo": 394,
+    "ProgId": "possimus",
     "IsReadOnly": false,
-    "ShortLabel": "deleniti",
-    "TabOrder": 880,
-    "TextLength": 996,
-    "Tooltip": "consequuntur",
-    "UdefIdentity": 792,
-    "UDListDefinitionId": 338,
+    "ShortLabel": "odit",
+    "TabOrder": 385,
+    "TextLength": 224,
+    "Tooltip": "deleniti",
+    "UdefIdentity": 834,
+    "UDListDefinitionId": 428,
     "Justification": "Center",
-    "Version": 738,
-    "TemplateVariableName": "Hyatt Group",
+    "Version": 153,
+    "TemplateVariableName": "Douglas Inc and Sons",
     "HasBeenPublished": false,
-    "MdoListName": "Considine, Metz and Boehm",
+    "MdoListName": "Gleason Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 189
+        "FieldType": "System.String",
+        "FieldLength": 215
       }
     }
   }

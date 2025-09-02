@@ -2,6 +2,7 @@
 title: Services88.ListAgent.SaveCurrencyEntity SOAP
 generated: true
 uid: Services88-List-SaveCurrencyEntity
+content_type: reference
 ---
 
 # Services88 List SaveCurrencyEntity

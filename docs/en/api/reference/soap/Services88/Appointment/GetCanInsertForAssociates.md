@@ -2,6 +2,7 @@
 title: Services88.AppointmentAgent.GetCanInsertForAssociates SOAP
 generated: true
 uid: Services88-Appointment-GetCanInsertForAssociates
+content_type: reference
 ---
 
 # Services88 Appointment GetCanInsertForAssociates

@@ -5,7 +5,7 @@ items:
   id: RagAIHelper
   parent: SuperOffice.Util
   children:
-  - SuperOffice.Util.RagAIHelper.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.RagAIConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.RagAIHelper})
+  - SuperOffice.Util.RagAIHelper.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.RagAIConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.RagAIHelper},SuperOffice.Data.Cache.ICacheManager)
   - SuperOffice.Util.RagAIHelper.AllowedHostsValidator
   - SuperOffice.Util.RagAIHelper.AnswerAcceptedAsync(System.String)
   - SuperOffice.Util.RagAIHelper.AnswerFeedbackAsync(System.String,System.Boolean)
@@ -76,32 +76,34 @@ items:
     return:
       type: System.String
     content.vb: Public Const ServiceCopilotNS As String = "ServiceCopilot"
-- uid: SuperOffice.Util.RagAIHelper.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.RagAIConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.RagAIHelper})
-  commentId: M:SuperOffice.Util.RagAIHelper.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.RagAIConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.RagAIHelper})
-  id: '#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.RagAIConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.RagAIHelper})'
+- uid: SuperOffice.Util.RagAIHelper.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.RagAIConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.RagAIHelper},SuperOffice.Data.Cache.ICacheManager)
+  commentId: M:SuperOffice.Util.RagAIHelper.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.RagAIConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.RagAIHelper},SuperOffice.Data.Cache.ICacheManager)
+  id: '#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.RagAIConfiguration},Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.RagAIHelper},SuperOffice.Data.Cache.ICacheManager)'
   parent: SuperOffice.Util.RagAIHelper
   langs:
   - csharp
   - vb
-  name: RagAIHelper(IOptions<RagAIConfiguration>, ILogger<RagAIHelper>)
-  nameWithType: RagAIHelper.RagAIHelper(IOptions<RagAIConfiguration>, ILogger<RagAIHelper>)
-  fullName: SuperOffice.Util.RagAIHelper.RagAIHelper(Microsoft.Extensions.Options.IOptions<SuperOffice.Util.RagAIConfiguration>, Microsoft.Extensions.Logging.ILogger<SuperOffice.Util.RagAIHelper>)
+  name: RagAIHelper(IOptions<RagAIConfiguration>, ILogger<RagAIHelper>, ICacheManager)
+  nameWithType: RagAIHelper.RagAIHelper(IOptions<RagAIConfiguration>, ILogger<RagAIHelper>, ICacheManager)
+  fullName: SuperOffice.Util.RagAIHelper.RagAIHelper(Microsoft.Extensions.Options.IOptions<SuperOffice.Util.RagAIConfiguration>, Microsoft.Extensions.Logging.ILogger<SuperOffice.Util.RagAIHelper>, SuperOffice.Data.Cache.ICacheManager)
   type: Constructor
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.Util
   syntax:
-    content: public RagAIHelper(IOptions<RagAIConfiguration> options, ILogger<RagAIHelper> logger)
+    content: public RagAIHelper(IOptions<RagAIConfiguration> options, ILogger<RagAIHelper> logger, ICacheManager cacheManager)
     parameters:
     - id: options
       type: Microsoft.Extensions.Options.IOptions{SuperOffice.Util.RagAIConfiguration}
     - id: logger
       type: Microsoft.Extensions.Logging.ILogger{SuperOffice.Util.RagAIHelper}
-    content.vb: Public Sub New(options As IOptions(Of RagAIConfiguration), logger As ILogger(Of RagAIHelper))
+    - id: cacheManager
+      type: SuperOffice.Data.Cache.ICacheManager
+    content.vb: Public Sub New(options As IOptions(Of RagAIConfiguration), logger As ILogger(Of RagAIHelper), cacheManager As ICacheManager)
   overload: SuperOffice.Util.RagAIHelper.#ctor*
-  nameWithType.vb: RagAIHelper.New(IOptions(Of RagAIConfiguration), ILogger(Of RagAIHelper))
-  fullName.vb: SuperOffice.Util.RagAIHelper.New(Microsoft.Extensions.Options.IOptions(Of SuperOffice.Util.RagAIConfiguration), Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Util.RagAIHelper))
-  name.vb: New(IOptions(Of RagAIConfiguration), ILogger(Of RagAIHelper))
+  nameWithType.vb: RagAIHelper.New(IOptions(Of RagAIConfiguration), ILogger(Of RagAIHelper), ICacheManager)
+  fullName.vb: SuperOffice.Util.RagAIHelper.New(Microsoft.Extensions.Options.IOptions(Of SuperOffice.Util.RagAIConfiguration), Microsoft.Extensions.Logging.ILogger(Of SuperOffice.Util.RagAIHelper), SuperOffice.Data.Cache.ICacheManager)
+  name.vb: New(IOptions(Of RagAIConfiguration), ILogger(Of RagAIHelper), ICacheManager)
 - uid: SuperOffice.Util.RagAIHelper.GetAuthorizationTokenAsync(System.Uri,System.Collections.Generic.Dictionary{System.String,System.Object},System.Threading.CancellationToken)
   commentId: M:SuperOffice.Util.RagAIHelper.GetAuthorizationTokenAsync(System.Uri,System.Collections.Generic.Dictionary{System.String,System.Object},System.Threading.CancellationToken)
   id: GetAuthorizationTokenAsync(System.Uri,System.Collections.Generic.Dictionary{System.String,System.Object},System.Threading.CancellationToken)
@@ -996,7 +998,7 @@ references:
 - uid: SuperOffice.Util.RagAIHelper.#ctor*
   commentId: Overload:SuperOffice.Util.RagAIHelper.#ctor
   isExternal: true
-  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper__ctor_Microsoft_Extensions_Options_IOptions_SuperOffice_Util_RagAIConfiguration__Microsoft_Extensions_Logging_ILogger_SuperOffice_Util_RagAIHelper__
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper__ctor_Microsoft_Extensions_Options_IOptions_SuperOffice_Util_RagAIConfiguration__Microsoft_Extensions_Logging_ILogger_SuperOffice_Util_RagAIHelper__SuperOffice_Data_Cache_ICacheManager_
   name: RagAIHelper
   nameWithType: RagAIHelper.RagAIHelper
   fullName: SuperOffice.Util.RagAIHelper.RagAIHelper
@@ -1073,6 +1075,14 @@ references:
     isExternal: true
     href: SuperOffice.Util.RagAIHelper.html
   - name: )
+- uid: SuperOffice.Data.Cache.ICacheManager
+  commentId: T:SuperOffice.Data.Cache.ICacheManager
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  href: SuperOffice.Data.Cache.ICacheManager.html
+  name: ICacheManager
+  nameWithType: ICacheManager
+  fullName: SuperOffice.Data.Cache.ICacheManager
 - uid: Microsoft.Extensions.Options.IOptions`1
   commentId: T:Microsoft.Extensions.Options.IOptions`1
   isExternal: true
@@ -1203,6 +1213,43 @@ references:
     name: Logging
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+- uid: SuperOffice.Data.Cache
+  commentId: N:SuperOffice.Data.Cache
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.Cache
+  nameWithType: SuperOffice.Data.Cache
+  fullName: SuperOffice.Data.Cache
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.Data.Cache.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.Data.Cache.html
 - uid: SuperOffice.Util.RagAIHelper.GetAuthorizationTokenAsync*
   commentId: Overload:SuperOffice.Util.RagAIHelper.GetAuthorizationTokenAsync
   isExternal: true

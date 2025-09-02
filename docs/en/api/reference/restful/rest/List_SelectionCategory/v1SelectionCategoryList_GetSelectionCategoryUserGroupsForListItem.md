@@ -2,6 +2,7 @@
 title: GET List/SelectionCategory/Items/{id}/UserGroups
 uid: v1SelectionCategoryList_GetSelectionCategoryUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/SelectionCategory/Items/{id}/UserGroups
@@ -75,7 +76,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 937,
-    "Name": "Franecki, Thompson and Bradtke",
-    "ToolTip": "Tenetur minima est omnis est.",
+    "Id": 98,
+    "Name": "Jenkins Group",
+    "ToolTip": "Vel ut ut.",
     "Deleted": false,
-    "Rank": 19,
-    "Type": "molestias",
-    "ColorBlock": 990,
-    "IconHint": "recusandae",
-    "Selected": true,
-    "LastChanged": "2009-01-20T03:45:29.2327869+01:00",
+    "Rank": 971,
+    "Type": "dignissimos",
+    "ColorBlock": 328,
+    "IconHint": "corporis",
+    "Selected": false,
+    "LastChanged": "2001-01-13T03:47:00.8161673+01:00",
     "ChildItems": [
       {
-        "Id": 750,
-        "Name": "Hodkiewicz, Witting and Olson",
-        "ToolTip": "Aperiam beatae autem.",
+        "Id": 439,
+        "Name": "Hagenes-Hettinger",
+        "ToolTip": "Et enim in et voluptatum aliquam.",
         "Deleted": false,
-        "Rank": 559,
-        "Type": "et",
-        "ColorBlock": 442,
-        "IconHint": "quibusdam",
+        "Rank": 370,
+        "Type": "illo",
+        "ColorBlock": 662,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2022-12-04T03:45:29.2327869+01:00",
+        "LastChanged": "2018-11-25T03:47:00.8161673+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "tempore",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Nellie Hand",
+        "FullName": "Miss Elvie Oma Cremin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 151
+            "FieldType": "System.String",
+            "FieldLength": 391
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "odit",
-    "Hidden": false,
-    "FullName": "Warren Bosco Jr.",
+    "ExtraInfo": "ut",
+    "StyleHint": "voluptate",
+    "Hidden": true,
+    "FullName": "Mr. Dominique Dare I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 482
+        "FieldLength": 245
       }
     }
   }

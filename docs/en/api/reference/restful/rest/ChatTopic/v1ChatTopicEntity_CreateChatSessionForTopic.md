@@ -2,6 +2,7 @@
 title: POST ChatTopic/{id}/Sessions
 uid: v1ChatTopicEntity_CreateChatSessionForTopic
 generated: true
+content_type: reference
 ---
 
 # POST ChatTopic/{id}/Sessions
@@ -89,7 +90,7 @@ OK
 POST /api/v1/ChatTopic/{chatTopicId}/Sessions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,29 +100,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 212,
-  "TopicId": 444,
+  "ChatSessionId": 912,
+  "TopicId": 680,
   "User": null,
   "Person": null,
-  "CustomerAlias": "optio",
-  "CustomerHost": "aut",
-  "CustomerName": "Glover LLC",
-  "CustomerEmail": "libby@gaylordrunte.us",
-  "CustomerPhone": "1-546-197-3286 x9039",
+  "CustomerAlias": "possimus",
+  "CustomerHost": "sit",
+  "CustomerName": "Emard-Stanton",
+  "CustomerEmail": "araceli@kuhichayes.co.uk",
+  "CustomerPhone": "584-071-0832 x0172",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Bayer-Romaguera",
+  "CustomerCompanyName": "Medhurst-Smith",
   "Status": "Closed",
-  "FirstMessage": "aliquam",
-  "LastMessage": "recusandae",
-  "WhenRequested": "2015-05-16T03:45:28.1703207+02:00",
-  "WhenStarted": "2018-04-18T03:45:28.1703207+02:00",
-  "WhenEnded": "2022-02-08T03:45:28.1703207+01:00",
-  "WhenIdle": "2024-03-26T03:45:28.1703207+01:00",
-  "WhenFetched": "2013-01-15T03:45:28.1703207+01:00",
-  "SessionKey": "dolore",
-  "InitialQueuePos": 941,
-  "AlertLevel": 144,
-  "Rank": 417,
+  "FirstMessage": "reiciendis",
+  "LastMessage": "laudantium",
+  "WhenRequested": "2011-02-17T03:46:59.8161962+01:00",
+  "WhenStarted": "2008-10-02T03:46:59.8161962+02:00",
+  "WhenEnded": "2015-01-29T03:46:59.8161962+01:00",
+  "WhenIdle": "2006-12-13T03:46:59.8161962+01:00",
+  "WhenFetched": "2002-02-12T03:46:59.8161962+01:00",
+  "SessionKey": "voluptatum",
+  "InitialQueuePos": 240,
+  "AlertLevel": 165,
+  "Rank": 716,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -129,13 +130,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 32,
+  "Rating": 509,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 867
+      "FieldType": "System.String",
+      "FieldLength": 599
     }
   }
 }

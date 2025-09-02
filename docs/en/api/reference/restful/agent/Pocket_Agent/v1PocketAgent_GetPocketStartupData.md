@@ -2,6 +2,7 @@
 title: POST Agents/Pocket/GetPocketStartupData
 uid: v1PocketAgent_GetPocketStartupData
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Pocket/GetPocketStartupData
@@ -82,15 +83,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "sint",
-    "maxime"
+    "quis",
+    "cupiditate"
   ],
-  "CurrentClientTime": "2006-10-01T03:45:23.7485708+02:00"
+  "CurrentClientTime": "2020-09-18T03:46:55.1288689+02:00"
 }
 ```
 
@@ -102,43 +103,43 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "ipsum",
-    "necessitatibus"
+    "eum",
+    "et"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 135,
-  "NotificationsCount": 838,
+  "OverdueSalesCount": 820,
+  "NotificationsCount": 620,
   "SystemWebPanels": [
     {
-      "WebPanelId": 840,
-      "Name": "Berge, Wisozk and Gusikowski",
-      "Tooltip": "quam",
-      "Deleted": true,
-      "Rank": 53,
+      "WebPanelId": 720,
+      "Name": "Gottlieb-Farrell",
+      "Tooltip": "illum",
+      "Deleted": false,
+      "Rank": 300,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": false,
-      "OnSatellite": false,
+      "OnSatellite": true,
       "OnTravel": false,
-      "OnSalesMarketingWeb": true,
+      "OnSalesMarketingWeb": false,
       "OnSalesMarketingPocket": false,
-      "ShowInMenuBar": false,
-      "ShowInToolBar": true,
+      "ShowInMenuBar": true,
+      "ShowInToolBar": false,
       "ShowInAddressBar": false,
-      "ShowInStatusBar": false,
-      "WindowName": "Rippin-Steuber",
+      "ShowInStatusBar": true,
+      "WindowName": "Denesik, Barrows and Hessel",
       "Url": "http://www.example.com/",
-      "ProgId": "sunt",
-      "Icon": 339,
-      "AlwaysReloadOnShow": false,
-      "NeverReloadOnCurrentChange": false,
+      "ProgId": "eius",
+      "Icon": 752,
+      "AlwaysReloadOnShow": true,
+      "NeverReloadOnCurrentChange": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 507
+          "FieldLength": 109
         }
       }
     }
@@ -146,34 +147,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "et",
+      "RawValue": "totam",
       "Specification": null,
-      "DisplayValue": "tempora",
-      "DisplayTooltip": "autem",
+      "DisplayValue": "hic",
+      "DisplayTooltip": "explicabo",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 705,
-      "PrefDescId": 394,
-      "TableName": "Kshlerin Inc and Sons",
-      "UserPreferenceId": 855,
+      "TargetId": 754,
+      "PrefDescId": 751,
+      "TableName": "Harvey-Luettgen",
+      "UserPreferenceId": 993,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 586
+          "FieldType": "System.Int32",
+          "FieldLength": 199
         }
       }
     }
   ],
   "IsPushNotificationEnabled": false,
-  "CustomData": "eius",
+  "CustomData": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 773
+      "FieldLength": 572
     }
   }
 }

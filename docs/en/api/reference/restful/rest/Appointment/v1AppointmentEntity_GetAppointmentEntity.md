@@ -2,6 +2,7 @@
 title: GET Appointment/{id}
 uid: v1AppointmentEntity_GetAppointmentEntity
 generated: true
+content_type: reference
 ---
 
 # GET Appointment/{id}
@@ -33,7 +34,7 @@ Calls the Appointment agent service GetAppointmentEntity.
 
 ```http
 GET /api/v1/Appointment/{id}?$select=name,department,category/id
-GET /api/v1/Appointment/{id}?fk=False
+GET /api/v1/Appointment/{id}?fk=True
 ```
 
 
@@ -135,7 +136,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -143,128 +144,128 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 12 Jun 2015 03:45:28 G6T
+Last-Modified: Fri, 04 Oct 2002 03:46:59 G10T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2010-10-06T03:45:28.0453244+02:00",
-  "AppointmentId": 607,
-  "Description": "Progressive systemic synergy",
-  "Title": "doloremque",
-  "Agenda": "enim",
-  "InternalNotes": "numquam",
-  "StartDate": "2015-09-30T03:45:28.0453244+02:00",
-  "EndDate": "2004-11-05T03:45:28.0453244+01:00",
+  "CreatedDate": "2018-09-29T03:46:59.6911992+02:00",
+  "AppointmentId": 233,
+  "Description": "Reverse-engineered solution-oriented concept",
+  "Title": "aliquam",
+  "Agenda": "ea",
+  "InternalNotes": "iste",
+  "StartDate": "2016-04-20T03:46:59.6911992+02:00",
+  "EndDate": "2000-10-07T03:46:59.6911992+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 393,
+  "MotherId": 460,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2015-06-12T03:45:28.0609491+02:00",
+  "UpdatedDate": "2002-10-04T03:46:59.6911992+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 677,
+  "ActiveLinks": 893,
   "Links": [
     {
-      "EntityName": "Fritsch Inc and Sons",
-      "Id": 726,
-      "Description": "Profit-focused next generation methodology",
-      "ExtraInfo": "alias",
-      "LinkId": 376,
+      "EntityName": "Breitenberg, Hessel and Okuneva",
+      "Id": 415,
+      "Description": "Quality-focused fault-tolerant concept",
+      "ExtraInfo": "non",
+      "LinkId": 132,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 720
+          "FieldLength": 993
         }
       }
     }
   ],
-  "AlarmLeadTime": "veritatis",
+  "AlarmLeadTime": "et",
   "HasAlarm": true,
-  "ColorIndex": 663,
+  "ColorIndex": 490,
   "IsFree": true,
   "IsAlldayEvent": true,
-  "LagTime": "quo",
-  "LeadTime": "consectetur",
-  "Location": "ut",
-  "RejectCounter": 597,
+  "LagTime": "repudiandae",
+  "LeadTime": "aspernatur",
+  "Location": "aperiam",
+  "RejectCounter": 900,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 947,
-      "PersonId": 296,
-      "ContactId": 720,
-      "EmailId": 535,
-      "SendEmail": false,
+      "AssociateId": 684,
+      "PersonId": 81,
+      "ContactId": 805,
+      "EmailId": 925,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "rossie.mann@stracke.name",
-      "Description": "Customizable optimal encoding"
+      "EmailAddress": "kirsten@bailey.name",
+      "Description": "Decentralized dynamic system engine"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2023-09-13T03:45:28.0609491+02:00",
-  "HasConflict": true,
+  "ActiveDate": "1999-10-26T03:46:59.6911992+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 478,
+  "PreferredTZLocation": 523,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 340,
+  "SuggestedAppointmentId": 441,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "illum",
+  "CentralserviceVideomeetId": "sint",
   "UserDefinedFields": {
-    "SuperOffice:1": "Dana Christiansen",
-    "SuperOffice:2": "1452267553"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Adolph Green"
   },
   "ExtraFields": {
-    "ExtraFields1": "molestias",
-    "ExtraFields2": "tempore"
+    "ExtraFields1": "eos",
+    "ExtraFields2": "ipsum"
   },
   "CustomFields": {
-    "CustomFields1": "labore",
-    "CustomFields2": "laudantium"
+    "CustomFields1": "suscipit",
+    "CustomFields2": "sint"
   },
-  "PublishEventDate": "2021-02-01T03:45:28.0609491+01:00",
-  "PublishTo": "1999-11-27T03:45:28.0609491+01:00",
-  "PublishFrom": "2023-07-17T03:45:28.0609491+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2010-02-19T03:46:59.6911992+01:00",
+  "PublishTo": "2006-08-31T03:46:59.6911992+02:00",
+  "PublishFrom": "2018-06-09T03:46:59.6911992+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 5,
+      "VisibleId": 180,
       "Visibility": "All",
-      "DisplayValue": "expedita",
+      "DisplayValue": "recusandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 425
+          "FieldLength": 4
         }
       }
     },
     {
-      "VisibleId": 5,
+      "VisibleId": 180,
       "Visibility": "All",
-      "DisplayValue": "expedita",
+      "DisplayValue": "recusandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 425
+          "FieldLength": 4
         }
       }
     }
@@ -273,8 +274,8 @@ Last-Modified: Fri, 12 Jun 2015 03:45:28 G6T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 374
+      "FieldType": "System.String",
+      "FieldLength": 299
     }
   },
   "_Links": {

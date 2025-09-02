@@ -2,6 +2,7 @@
 title: DEL List/PaymentTerm/Headings
 uid: v1PaymentTermsList_DeletePaymentTermHeadings
 generated: true
+content_type: reference
 ---
 
 # DEL List/PaymentTerm/Headings

@@ -2,6 +2,7 @@
 title: POST List/UserGroup/Items
 uid: v1UserGroupList_PostUserGroup
 generated: true
+content_type: reference
 ---
 
 # POST List/UserGroup/Items
@@ -73,15 +74,15 @@ OK
 POST /api/v1/List/UserGroup/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "eos",
-  "Tooltip": "nisi",
-  "Id": 878,
-  "Rank": 964,
-  "Deleted": false
+  "Value": "aut",
+  "Tooltip": "sit",
+  "Id": 772,
+  "Rank": 43,
+  "Deleted": true
 }
 ```
 
@@ -92,17 +93,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "assumenda",
-  "Tooltip": "accusamus",
-  "Id": 764,
-  "Rank": 176,
-  "Deleted": false,
+  "Value": "atque",
+  "Tooltip": "eum",
+  "Id": 619,
+  "Rank": 79,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldLength": 768
     }
   }
 }

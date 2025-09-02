@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.HasConnections SOAP
 generated: true
 uid: Services88-Quote-HasConnections
+content_type: reference
 ---
 
 # Services88 Quote HasConnections

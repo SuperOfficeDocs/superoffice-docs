@@ -11,6 +11,7 @@ items:
   - SuperOffice.Data.Dialect.Dialect
   - SuperOffice.Data.Dialect.Dialect.EncodedArraySearchType
   - SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch
+  - SuperOffice.Data.Dialect.Dialect.NonParameterizedInt
   - SuperOffice.Data.Dialect.FieldValueParser
   - SuperOffice.Data.Dialect.IDatabaseOperations
   - SuperOffice.Data.Dialect.IDatabaseOperationsFactory
@@ -18,11 +19,17 @@ items:
   - SuperOffice.Data.Dialect.IMassOperationsFactory
   - SuperOffice.Data.Dialect.ITempTableManager
   - SuperOffice.Data.Dialect.MassOperations
+  - SuperOffice.Data.Dialect.MassOperations.ERowStatus
+  - SuperOffice.Data.Dialect.MassOperations.RowInfo
   - SuperOffice.Data.Dialect.MassResult
   - SuperOffice.Data.Dialect.Oracle12
   - SuperOffice.Data.Dialect.OracleCommon
   - SuperOffice.Data.Dialect.OracleMassOperations
   - SuperOffice.Data.Dialect.OracleOperations
+  - SuperOffice.Data.Dialect.PostgreSqlDialect
+  - SuperOffice.Data.Dialect.PostgreSqlMassOperations
+  - SuperOffice.Data.Dialect.PostgreSqlMassOperationsV2
+  - SuperOffice.Data.Dialect.PostgreSqlOperations
   - SuperOffice.Data.Dialect.RowStatus
   - SuperOffice.Data.Dialect.SqlCommandXml
   - SuperOffice.Data.Dialect.SqlServer8Operations
@@ -156,6 +163,61 @@ references:
   name: MassOperations
   nameWithType: MassOperations
   fullName: SuperOffice.Data.Dialect.MassOperations
+- uid: SuperOffice.Data.Dialect.MassOperations.ERowStatus
+  commentId: T:SuperOffice.Data.Dialect.MassOperations.ERowStatus
+  parent: SuperOffice.Data.Dialect
+  isExternal: true
+  href: SuperOffice.Data.Dialect.MassOperations.html
+  name: MassOperations.ERowStatus
+  nameWithType: MassOperations.ERowStatus
+  fullName: SuperOffice.Data.Dialect.MassOperations.ERowStatus
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.MassOperations
+    name: MassOperations
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.html
+  - name: .
+  - uid: SuperOffice.Data.Dialect.MassOperations.ERowStatus
+    name: ERowStatus
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.ERowStatus.html
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.MassOperations
+    name: MassOperations
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.html
+  - name: .
+  - uid: SuperOffice.Data.Dialect.MassOperations.ERowStatus
+    name: ERowStatus
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.ERowStatus.html
+- uid: SuperOffice.Data.Dialect.MassOperations.RowInfo
+  commentId: T:SuperOffice.Data.Dialect.MassOperations.RowInfo
+  isExternal: true
+  href: SuperOffice.Data.Dialect.MassOperations.html
+  name: MassOperations.RowInfo
+  nameWithType: MassOperations.RowInfo
+  fullName: SuperOffice.Data.Dialect.MassOperations.RowInfo
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.MassOperations
+    name: MassOperations
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.html
+  - name: .
+  - uid: SuperOffice.Data.Dialect.MassOperations.RowInfo
+    name: RowInfo
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.RowInfo.html
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.MassOperations
+    name: MassOperations
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.html
+  - name: .
+  - uid: SuperOffice.Data.Dialect.MassOperations.RowInfo
+    name: RowInfo
+    isExternal: true
+    href: SuperOffice.Data.Dialect.MassOperations.RowInfo.html
 - uid: SuperOffice.Data.Dialect.Oracle12
   commentId: T:SuperOffice.Data.Dialect.Oracle12
   isExternal: true
@@ -185,6 +247,34 @@ references:
   name: OracleOperations
   nameWithType: OracleOperations
   fullName: SuperOffice.Data.Dialect.OracleOperations
+- uid: SuperOffice.Data.Dialect.PostgreSqlDialect
+  commentId: T:SuperOffice.Data.Dialect.PostgreSqlDialect
+  isExternal: true
+  href: SuperOffice.Data.Dialect.PostgreSqlDialect.html
+  name: PostgreSqlDialect
+  nameWithType: PostgreSqlDialect
+  fullName: SuperOffice.Data.Dialect.PostgreSqlDialect
+- uid: SuperOffice.Data.Dialect.PostgreSqlMassOperations
+  commentId: T:SuperOffice.Data.Dialect.PostgreSqlMassOperations
+  isExternal: true
+  href: SuperOffice.Data.Dialect.PostgreSqlMassOperations.html
+  name: PostgreSqlMassOperations
+  nameWithType: PostgreSqlMassOperations
+  fullName: SuperOffice.Data.Dialect.PostgreSqlMassOperations
+- uid: SuperOffice.Data.Dialect.PostgreSqlMassOperationsV2
+  commentId: T:SuperOffice.Data.Dialect.PostgreSqlMassOperationsV2
+  isExternal: true
+  href: SuperOffice.Data.Dialect.PostgreSqlMassOperationsV2.html
+  name: PostgreSqlMassOperationsV2
+  nameWithType: PostgreSqlMassOperationsV2
+  fullName: SuperOffice.Data.Dialect.PostgreSqlMassOperationsV2
+- uid: SuperOffice.Data.Dialect.PostgreSqlOperations
+  commentId: T:SuperOffice.Data.Dialect.PostgreSqlOperations
+  isExternal: true
+  href: SuperOffice.Data.Dialect.PostgreSqlOperations.html
+  name: PostgreSqlOperations
+  nameWithType: PostgreSqlOperations
+  fullName: SuperOffice.Data.Dialect.PostgreSqlOperations
 - uid: SuperOffice.Data.Dialect.SqlServerCollationMapping
   commentId: T:SuperOffice.Data.Dialect.SqlServerCollationMapping
   isExternal: true
@@ -285,6 +375,33 @@ references:
     name: FulltextEncodedSearch
     isExternal: true
     href: SuperOffice.Data.Dialect.Dialect.FulltextEncodedSearch.html
+- uid: SuperOffice.Data.Dialect.Dialect.NonParameterizedInt
+  commentId: T:SuperOffice.Data.Dialect.Dialect.NonParameterizedInt
+  isExternal: true
+  href: SuperOffice.Data.Dialect.Dialect.html
+  name: Dialect.NonParameterizedInt
+  nameWithType: Dialect.NonParameterizedInt
+  fullName: SuperOffice.Data.Dialect.Dialect.NonParameterizedInt
+  spec.csharp:
+  - uid: SuperOffice.Data.Dialect.Dialect
+    name: Dialect
+    isExternal: true
+    href: SuperOffice.Data.Dialect.Dialect.html
+  - name: .
+  - uid: SuperOffice.Data.Dialect.Dialect.NonParameterizedInt
+    name: NonParameterizedInt
+    isExternal: true
+    href: SuperOffice.Data.Dialect.Dialect.NonParameterizedInt.html
+  spec.vb:
+  - uid: SuperOffice.Data.Dialect.Dialect
+    name: Dialect
+    isExternal: true
+    href: SuperOffice.Data.Dialect.Dialect.html
+  - name: .
+  - uid: SuperOffice.Data.Dialect.Dialect.NonParameterizedInt
+    name: NonParameterizedInt
+    isExternal: true
+    href: SuperOffice.Data.Dialect.Dialect.NonParameterizedInt.html
 - uid: SuperOffice.Data.Dialect.IDatabaseOperations
   commentId: T:SuperOffice.Data.Dialect.IDatabaseOperations
   parent: SuperOffice.Data.Dialect

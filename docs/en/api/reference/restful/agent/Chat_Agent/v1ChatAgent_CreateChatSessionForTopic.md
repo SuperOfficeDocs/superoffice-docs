@@ -2,6 +2,7 @@
 title: POST Agents/Chat/CreateChatSessionForTopic
 uid: v1ChatAgent_CreateChatSessionForTopic
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/CreateChatSessionForTopic
@@ -103,11 +104,11 @@ OK
 POST /api/v1/Agents/Chat/CreateChatSessionForTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 770
+  "ChatTopicId": 749
 }
 ```
 
@@ -118,29 +119,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 800,
-  "TopicId": 254,
+  "ChatSessionId": 908,
+  "TopicId": 837,
   "User": null,
   "Person": null,
-  "CustomerAlias": "hic",
-  "CustomerHost": "cum",
-  "CustomerName": "Haag LLC",
-  "CustomerEmail": "adella@littel.ca",
-  "CustomerPhone": "360.655.5026 x16858",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Maggio-Wisozk",
+  "CustomerAlias": "provident",
+  "CustomerHost": "distinctio",
+  "CustomerName": "Rice, McLaughlin and Runolfsdottir",
+  "CustomerEmail": "joey.mante@bosco.name",
+  "CustomerPhone": "941.854.3494 x803",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Heidenreich-Brown",
   "Status": "Closed",
-  "FirstMessage": "quibusdam",
-  "LastMessage": "consequatur",
-  "WhenRequested": "2016-08-22T03:45:23.0767156+02:00",
-  "WhenStarted": "2013-01-29T03:45:23.0767156+01:00",
-  "WhenEnded": "2000-03-06T03:45:23.0767156+01:00",
-  "WhenIdle": "2002-08-31T03:45:23.0767156+02:00",
-  "WhenFetched": "2024-08-20T03:45:23.0767156+02:00",
-  "SessionKey": "sequi",
-  "InitialQueuePos": 916,
-  "AlertLevel": 241,
-  "Rank": 703,
+  "FirstMessage": "aut",
+  "LastMessage": "quo",
+  "WhenRequested": "2017-04-09T03:46:54.4257689+02:00",
+  "WhenStarted": "2017-04-30T03:46:54.4257689+02:00",
+  "WhenEnded": "2004-04-16T03:46:54.4257689+02:00",
+  "WhenIdle": "2020-12-25T03:46:54.4257689+01:00",
+  "WhenFetched": "2018-08-13T03:46:54.4257689+02:00",
+  "SessionKey": "omnis",
+  "InitialQueuePos": 394,
+  "AlertLevel": 674,
+  "Rank": 458,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -148,13 +149,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 324,
+  "Rating": 938,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 436
+      "FieldLength": 861
     }
   }
 }

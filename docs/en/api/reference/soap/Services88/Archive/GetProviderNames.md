@@ -2,6 +2,7 @@
 title: Services88.ArchiveAgent.GetProviderNames SOAP
 generated: true
 uid: Services88-Archive-GetProviderNames
+content_type: reference
 ---
 
 # Services88 Archive GetProviderNames

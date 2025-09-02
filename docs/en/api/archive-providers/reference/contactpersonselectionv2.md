@@ -3,9 +3,9 @@ uid: ContactPersonSelectionV2
 title: ContactPersonSelectionV2
 description: This is the archive Provider for the Selection contact/person archive.
 keywords: ContactPersonSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ContactPersonSelectionV2"
@@ -1006,6 +1006,12 @@ This is the archive Provider for the Selection contact/person archive.
 |request/ownedBy/personEmail| *None* |Owner - E-mail| x |
 |request/ownedBy/locationAddress| *None* |Owner - Location: Location| x |
 |request/ownedBy/isLocation| *None* |Owner - Is a location: Is a location| x |
+|request/ticketStatus/ticketStatusId| *None* |Status - ID: Displays request status ID| x |
+|request/ticketStatus/name| *None* |Status - Name: Displays the name of the request status| x |
+|request/ticketStatus/rank| *None* |Status - Status rank: Sort order of the status in the ticket status list| x |
+|request/ticketPriority/ticketPriorityId| *None* |Priority - ID: Displays the ID of the priority| x |
+|request/ticketPriority/name| *None* |Priority - Name: Displays the name of the priority| x |
+|request/ticketPriority/rank| *None* |Priority - Priority rank: Sort order of priority in the priority list| x |
 |request/extra/x\_ticket\_integer| *None* |Extra integer: Custom ticket integer. Default 123. External. Show in properties| x |
 |request/extra/x\_ticket\_float| *None* |Extra float: Custom float on Request. 2 decimal places| x |
 |request/extra/x\_ticket\_longtext| *None* |Extra long text: Custom long text on Request. Keep HTML tags. 9 line text area. Show in props| x |
@@ -1054,16 +1060,16 @@ This is the archive Provider for the Selection contact/person archive.
 |projectMembers/projectEvent/eventDate| *None* |Event date: Event date| x |
 |projectMembers/projectEvent/hasSignOn| *None* |Sign On: Does this event have the Sign On function enabled| x |
 |projectMembers/projectEvent/hasSignOff| *None* |Sign Off: Does this event have the Sign Off function enabled| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMembers/projectUrl/URLAddress| *None* |URL| x |
 |projectMembers/projectUrl/URLDescription| *None* |Description| x |
 |projectMembers/projectAssociate/firstName| *None* |First name: Displays the contact's first name| x |
 |projectMembers/projectAssociate/lastName| *None* |Last name: Displays the contact's last name| x |
 |projectMembers/projectAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.| x |
 |projectMembers/projectAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMembers/projectAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 |projectMembers/projectAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
 |projectMembers/projectAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -1158,16 +1164,16 @@ This is the archive Provider for the Selection contact/person archive.
 |personAppointment/location| *None* |Location: Display the location where the follow-up will take place.| x |
 |personAppointment/recurrenceRuleId| *None* |RR-ID: Repetition rule ID of follow-up| x |
 |personAppointment/rawType| *None* |Type: Type field for appointment, not decoded or formatted| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAppointment/rawStatus| *None* |Status: Status field for the follow-up, not decoded or formatted| x |
 |personAppointment/cautionWarning| *None* |Warning: Warning for invitations with potential problems: not properly synchronized with an external calendar, unsupported repetition pattern, e-mail notification failed, or other problems.| x |
 |personAppointment/visibleInDiary| *None* |ExcludeBook: Is the activity visible in the diary?| x |
 |personAppointment/endTime| *None* |End time: End time of an activity|  |
 |personAppointment/suggestedAppointmentId| *None* |Follow-up ID (suggestion: The database ID of a follow-up that originates in a suggestion| x |
 |personAppointment/completedDate| *None* |Completed date: Displays the actual date a follow-up/sale was marked as completed| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personAppointment/isMilestone| *None* |Milestone: Shows whether or not the follow-ups in this row are milestones| x |
 |personAppointment/invitedPersonId| *None* |ID of invited person: appointment.invitedpersonid record - utility for rd| x |
 |personAppointment/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)| x |
@@ -1262,16 +1268,16 @@ This is the archive Provider for the Selection contact/person archive.
 |workflowInstance/workflowInstanceDropoutReason| *None* |Dropout reason: Dropout reason|  |
 |workflowInstance/workflowInstanceLastCommunicationBounceInfo| *None* |Bounce info: Bounce information for the last communication step|  |
 |workflowInstance/workflowInstanceLastCommunicationTime| *None* |Sending time: When the message was sent| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |workflowInstance/workflowInstanceLastCommunicationStatus| *None* |Last e-mail status: Status of mailing recipient| x |
 |workflowInstance/updatedBy| *None* |Updated by: The user who last updated the data| x |
 |workflowInstance/updatedDate| *None* |Updated: The date/time the data was last updated in UTC.| x |
 |workflowInstance/registeredBy| *None* |Registered by: The user who registered the data| x |
 |workflowInstance/registeredDate| *None* |Registered date: The date/time the data was registered in UTC.| x |
 |workflowInstance/emailFlow/emailFlowId| *None* |E-mail flow ID: The database ID of the e-mail flow| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |workflowInstance/emailFlow/emailFlowHierarchyId| *None* |Hierarchy ID: Foreign key to hierarchy table| x |
 |workflowInstance/emailFlow/shipmentType| *None* |Mailing type: Mailing type this e-mail flow represents| x |
 |workflowInstance/emailFlow/overrideConsentSubscription| *None* |Override consent: Should consent subscriptions be overridden for this flow?| x |
@@ -1366,16 +1372,16 @@ This is the archive Provider for the Selection contact/person archive.
 |sale/quote/version/alternative/extraField4| *None* |Extra 4: Extra field 4 on the quote alternative| x |
 |sale/quote/version/alternative/extraField5| *None* |Extra 5: Extra field 5 on the quote alternative| x |
 |sale/quote/version/alternative/alternativeOrdering| *None* |QuoteAlternative ID: SuperOffice database ID of the quote alternative record| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/quote/version/alternative/subTotal| *None* |Total before discount: Total of all lines, before applying the Alternative discount| x |
 |sale/quote/version/alternative/totalPriceIncVAT| *None* |Total incl. VAT: Total of all lines, including VAT| x |
 |sale/quote/version/alternative/vatAmount| *None* |VAT: VAT (amount) for the alternative| x |
 |sale/quote/version/alternative/quoteline/quoteLineId| *None* |Quote line ID: Database identity of the quote line| x |
 |sale/quote/version/alternative/quoteline/quoteAlternativeId| *None* |Alternative ID: The database identity of the quote alternative| x |
 |sale/quote/version/alternative/quoteline/erpProductKey| *None* |Product key: The foreign key of the product the quote line is based on.| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |sale/quote/version/alternative/quoteline/rank| *None* |Rank: Shows the rank of a product| x |
 |sale/quote/version/alternative/quoteline/quantity| *None* |Quantity: The quantity that is offered| x |
 |sale/quote/version/alternative/quoteline/name| *None* |Name: The name of the product that is being offered.  This name can be changed to accommodate the customer's needs.| x |
@@ -1420,7 +1426,7 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=sourceRelation/department,sourceRelation/contactNoMail,sale/associate/role,document/associate/ejUserId,personNumber
+GET /api/v1/archive/ContactPersonSelectionV2?$select=document/associate/lastName,personSourceRelation/birthYear,request/ownedBy/personId,projectMembers/projectAssociate/usergroupId,personAppointment/isFree
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

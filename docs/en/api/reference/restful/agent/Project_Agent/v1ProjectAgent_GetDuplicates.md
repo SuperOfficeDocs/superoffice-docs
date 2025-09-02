@@ -2,6 +2,7 @@
 title: POST Agents/Project/GetDuplicates
 uid: v1ProjectAgent_GetDuplicates
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/GetDuplicates
@@ -77,11 +78,11 @@ OK
 POST /api/v1/Agents/Project/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hahn LLC"
+  "Name": "Hills, Schumm and Hyatt"
 }
 ```
 
@@ -93,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Renner-Ondricka",
-    "SoPrimaryKey": 755,
-    "EntryName": "Lakin, Hudson and Ortiz",
-    "EntryIdentifier": "odit",
-    "RuleDisplayName": "Kiehn Inc and Sons",
+    "RuleName": "Sipes-Beer",
+    "SoPrimaryKey": 575,
+    "EntryName": "Prohaska-Bosco",
+    "EntryIdentifier": "expedita",
+    "RuleDisplayName": "Auer Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 581
+        "FieldLength": 1002
       }
     }
   }

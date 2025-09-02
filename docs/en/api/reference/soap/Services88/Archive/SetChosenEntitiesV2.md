@@ -2,6 +2,7 @@
 title: Services88.ArchiveAgent.SetChosenEntitiesV2 SOAP
 generated: true
 uid: Services88-Archive-SetChosenEntitiesV2
+content_type: reference
 ---
 
 # Services88 Archive SetChosenEntitiesV2

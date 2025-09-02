@@ -2,6 +2,7 @@
 title: Services88.UserAgent.DeleteCredential SOAP
 generated: true
 uid: Services88-User-DeleteCredential
+content_type: reference
 ---
 
 # Services88 User DeleteCredential

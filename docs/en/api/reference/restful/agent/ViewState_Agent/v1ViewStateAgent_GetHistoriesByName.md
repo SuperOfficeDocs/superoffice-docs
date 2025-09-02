@@ -2,6 +2,7 @@
 title: POST Agents/ViewState/GetHistoriesByName
 uid: v1ViewStateAgent_GetHistoriesByName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ViewState/GetHistoriesByName
@@ -83,7 +84,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Kutch, Boyer and Upton"
+  "HistoryName": "Beatty-Willms"
 }
 ```
 
@@ -95,19 +96,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 85,
-    "Id": 872,
-    "HistoryName": "Klein-Abshire",
-    "HistoryId": 840,
-    "AssociateId": 180,
-    "Name": "Spinka-Bins",
-    "ItemInfo": "sed",
+    "Rank": 46,
+    "Id": 430,
+    "HistoryName": "Heidenreich LLC",
+    "HistoryId": 490,
+    "AssociateId": 564,
+    "Name": "Cole Inc and Sons",
+    "ItemInfo": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 503
+        "FieldType": "System.String",
+        "FieldLength": 269
       }
     }
   }

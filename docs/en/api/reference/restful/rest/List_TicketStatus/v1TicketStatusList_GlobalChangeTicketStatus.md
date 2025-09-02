@@ -2,6 +2,7 @@
 title: GET List/TicketStatus/{id}/ChangeTo/{id}
 uid: v1TicketStatusList_GlobalChangeTicketStatus
 generated: true
+content_type: reference
 ---
 
 # GET List/TicketStatus/{id}/ChangeTo/{id}
@@ -53,7 +54,7 @@ No Content
 GET /api/v1/List/TicketStatus/{fromTicketStatusId}/ChangeTo/{toTicketStatusId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

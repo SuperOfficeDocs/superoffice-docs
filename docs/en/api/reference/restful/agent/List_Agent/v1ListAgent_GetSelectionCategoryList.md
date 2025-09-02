@@ -2,6 +2,7 @@
 title: POST Agents/List/GetSelectionCategoryList
 uid: v1ListAgent_GetSelectionCategoryList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetSelectionCategoryList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetSelectionCategoryList?$select=name,department,catego
 
 ## Request Body: selectionCategoryIds 
 
-The primary keys. 
+The identifiers of the SelectionCategory object 
 
 
 ## Response:array
@@ -72,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetSelectionCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,28 +84,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 16,
-    "Value": "vero",
-    "Tooltip": "perspiciatis",
+    "Id": 923,
+    "Value": "molestiae",
+    "Tooltip": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 652
+        "FieldType": "System.String",
+        "FieldLength": 619
       }
     }
   },
   {
-    "Id": 16,
-    "Value": "vero",
-    "Tooltip": "perspiciatis",
+    "Id": 923,
+    "Value": "molestiae",
+    "Tooltip": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 652
+        "FieldType": "System.String",
+        "FieldLength": 619
       }
     }
   }

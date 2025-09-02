@@ -2,6 +2,7 @@
 title: POST Agents/Selection/CopySelectionMembers
 uid: v1SelectionAgent_CopySelectionMembers
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/CopySelectionMembers
@@ -65,12 +66,12 @@ No Content
 POST /api/v1/Agents/Selection/CopySelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromSelectionId": 469,
-  "ToSelectionId": 643
+  "FromSelectionId": 14,
+  "ToSelectionId": 626
 }
 ```
 

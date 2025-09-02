@@ -40,6 +40,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase{{Info}}
   derivedClasses:
   - SuperOffice.CRM.ArchiveLists.AppointmentNotificationExtenderBase
+  - SuperOffice.CRM.ArchiveLists.AssignmentNotificationExtenderBase
   - SuperOffice.CRM.ArchiveLists.TicketNotificationExtenderBase
   implements:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderQueryMapping

@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/SaveSuggestedAppointmentEntity
 uid: v1AppointmentAgent_SaveSuggestedAppointmentEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/SaveSuggestedAppointmentEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 ```
 
-Updates the existing SuggestedAppointmentEntity or creates a new SuggestedAppointmentEntity if the id parameter is empty
+Updates the existing SuggestedAppointmentEntity or creates a new SuggestedAppointmentEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing SuggestedAppointmentEntity or creates a new SuggestedAppoin
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: suggestedAppointmentEntity 
 
-The SuggestedAppointmentEntity to be saved. 
+The SuggestedAppointmentEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,21 +90,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 8,
-  "Name": "Davis, Tillman and Howe",
-  "Tooltip": "aliquam",
-  "Rank": 828,
-  "Deleted": false,
-  "DaysFuture": 235,
-  "Duration": "in",
+  "SuggestedAppointmentId": 652,
+  "Name": "Gerhold-Hagenes",
+  "Tooltip": "omnis",
+  "Rank": 416,
+  "Deleted": true,
+  "DaysFuture": 655,
+  "Duration": "odio",
   "AutoSuggest": false,
-  "IsMilestone": false,
+  "IsMilestone": true,
   "AssignToMember": false,
-  "Text": "laboriosam",
+  "Text": "non",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -117,17 +118,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 441,
-  "Name": "West Group",
-  "Tooltip": "qui",
-  "Rank": 885,
+  "SuggestedAppointmentId": 555,
+  "Name": "Weimann, Carter and Durgan",
+  "Tooltip": "dolorem",
+  "Rank": 328,
   "Deleted": false,
-  "DaysFuture": 590,
-  "Duration": "ipsam",
+  "DaysFuture": 385,
+  "Duration": "consequatur",
   "AutoSuggest": true,
-  "IsMilestone": false,
-  "AssignToMember": true,
-  "Text": "sint",
+  "IsMilestone": true,
+  "AssignToMember": false,
+  "Text": "dolorem",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -136,7 +137,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 316
+      "FieldLength": 649
     }
   }
 }

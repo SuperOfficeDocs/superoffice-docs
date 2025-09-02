@@ -1,6 +1,8 @@
 ---
+uid: tag-List_Rating
 title: List_Rating
 generated: true
+content_type: reference
 ---
 
 ```http

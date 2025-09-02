@@ -2,10 +2,10 @@
 uid: table-ReasonHeadingLink
 title: ReasonHeadingLink table
 description: Heading link table for Reason, for MDO headers
-so.generated: true
+generated: true
 keywords: database table ReasonHeadingLink
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ReasonHeadingLink Table (105)

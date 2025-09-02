@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.SaveWindowPosSizes SOAP
 generated: true
 uid: Services88-Configuration-SaveWindowPosSizes
+content_type: reference
 ---
 
 # Services88 Configuration SaveWindowPosSizes

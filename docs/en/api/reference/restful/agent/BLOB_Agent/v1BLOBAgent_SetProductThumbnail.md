@@ -2,6 +2,7 @@
 title: POST Agents/BLOB/SetProductThumbnail
 uid: v1BLOBAgent_SetProductThumbnail
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BLOB/SetProductThumbnail
@@ -71,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 533,
+  "ProductId": 934,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

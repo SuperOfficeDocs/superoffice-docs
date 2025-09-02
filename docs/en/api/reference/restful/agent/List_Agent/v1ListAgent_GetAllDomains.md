@@ -2,6 +2,7 @@
 title: POST Agents/List/GetAllDomains
 uid: v1ListAgent_GetAllDomains
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetAllDomains
@@ -60,7 +61,7 @@ OK
 POST /api/v1/Agents/List/GetAllDomains
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,7 +71,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "odio",
-  "aut"
+  "pariatur",
+  "similique"
 ]
 ```

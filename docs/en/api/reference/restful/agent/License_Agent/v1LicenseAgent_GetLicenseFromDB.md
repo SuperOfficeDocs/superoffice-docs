@@ -2,6 +2,7 @@
 title: POST Agents/License/GetLicenseFromDB
 uid: v1LicenseAgent_GetLicenseFromDB
 generated: true
+content_type: reference
 ---
 
 # POST Agents/License/GetLicenseFromDB
@@ -80,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Feil, Feeney and Littel"
+  "OwnerName": "Howell-Moore"
 }
 ```
 
@@ -91,7 +92,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "drive intuitive infomediaries",
+  "Reason": "",
   "CanBeActivated": false,
   "New": null,
   "Current": null,
@@ -99,14 +100,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 432,
-      "NumberOfLicensesFree": 499,
-      "NumberOfLicensesAdded": 622,
-      "NumberOfLicensesNewTotal": 935,
-      "NumberOfLicensesNewFree": 723,
-      "NumberOfLicensesTotal": 206
+      "NumberOfLicensesInUse": 973,
+      "NumberOfLicensesFree": 964,
+      "NumberOfLicensesAdded": 981,
+      "NumberOfLicensesNewTotal": 797,
+      "NumberOfLicensesNewFree": 264,
+      "NumberOfLicensesTotal": 548
     }
   ],
-  "AccumulatedNextCheckDate": "2007-06-01T03:45:23.498579+02:00"
+  "AccumulatedNextCheckDate": "2018-01-07T03:46:54.9107593+01:00"
 }
 ```

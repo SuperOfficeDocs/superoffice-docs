@@ -3,9 +3,9 @@ uid: ejuser
 title: ejuser
 keywords: mdoprovider mdo provider ejuser
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ejuser" MDO List

@@ -2,6 +2,7 @@
 title: GET List/PaymentType/Headings
 uid: v1PaymentTypeList_GetPaymentTypeHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/PaymentType/Headings
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 535,
-    "Name": "Wiegand, Murray and Schultz",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 166,
-    "UdListDefinitionId": 597,
+    "HeadingId": 190,
+    "Name": "Jaskolski, Ruecker and Walsh",
+    "Tooltip": "sed",
+    "Deleted": false,
+    "Rank": 109,
+    "UdListDefinitionId": 1000,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 855
+        "FieldLength": 802
       }
     }
   }

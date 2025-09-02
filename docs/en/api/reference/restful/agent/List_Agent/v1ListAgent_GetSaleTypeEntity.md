@@ -2,6 +2,7 @@
 title: POST Agents/List/GetSaleTypeEntity
 uid: v1ListAgent_GetSaleTypeEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetSaleTypeEntity
@@ -22,11 +23,11 @@ Gets a SaleTypeEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| saleTypeEntityId | int32 | **Required** The primary key. |
+| saleTypeEntityId | int32 | **Required** The identifier of the SaleTypeEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=640
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=281
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -98,53 +99,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 79,
-  "Name": "Padberg Group",
-  "Tooltip": "quos",
-  "Rank": 41,
+  "SaleTypeId": 293,
+  "Name": "Kassulke-Reilly",
+  "Tooltip": "vero",
+  "Rank": 756,
   "DurationUnit": "Century",
-  "SaleDuration": 501,
-  "SaleTypeCatId": 201,
-  "Deleted": false,
+  "SaleDuration": 215,
+  "SaleTypeCatId": 579,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 406,
-  "QuoteLinesTemplate": 225,
-  "ConfirmationLinesTemplate": 60,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 254,
+  "QuoteLinesTemplate": 816,
+  "ConfirmationLinesTemplate": 748,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 489,
-  "MinEarningPercent": 557,
-  "GroupQuoteLinesBy": 158,
-  "SortGroupLinesBy": 728,
+  "MaxDiscountPercent": 731,
+  "MinEarningPercent": 213,
+  "GroupQuoteLinesBy": 640,
+  "SortGroupLinesBy": 870,
   "Stages": [
     {
-      "Id": 795,
-      "Name": "Schultz-Kutch",
-      "ToolTip": "Autem sit quo nobis corrupti sed corporis voluptate.",
-      "Deleted": false,
-      "Rank": 807,
-      "Type": "doloribus",
-      "ColorBlock": 820,
-      "IconHint": "facere",
+      "Id": 271,
+      "Name": "Frami Group",
+      "ToolTip": "Dolorum nesciunt earum.",
+      "Deleted": true,
+      "Rank": 552,
+      "Type": "facilis",
+      "ColorBlock": 92,
+      "IconHint": "eum",
       "Selected": false,
-      "LastChanged": "1998-11-01T03:45:23.5142048+01:00",
+      "LastChanged": "1998-10-20T03:46:54.9413809+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "alias",
+      "ExtraInfo": "maiores",
       "StyleHint": "quibusdam",
       "Hidden": true,
-      "FullName": "Prof. Gino Dwight Grimes V",
+      "FullName": "Darrick Weber",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 208
+          "FieldLength": 217
         }
       }
     }
@@ -154,7 +155,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 902
+      "FieldLength": 747
     }
   }
 }

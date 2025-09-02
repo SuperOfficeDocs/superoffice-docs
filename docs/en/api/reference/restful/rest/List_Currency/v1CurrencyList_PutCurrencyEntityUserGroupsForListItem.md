@@ -2,6 +2,7 @@
 title: PUT List/Currency/Items/{id}/UserGroups
 uid: v1CurrencyList_PutCurrencyEntityUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/Currency/Items/{id}/UserGroups
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 279,
-    "Name": "Wunsch Group",
-    "ToolTip": "Odio animi quaerat aut animi aut voluptatem quia.",
+    "Id": 809,
+    "Name": "White, Luettgen and Hermiston",
+    "ToolTip": "Enim minima.",
     "Deleted": false,
-    "Rank": 940,
-    "Type": "dolore",
-    "ColorBlock": 550,
-    "IconHint": "porro",
-    "Selected": true,
-    "LastChanged": "2007-01-20T03:45:29.014043+01:00",
+    "Rank": 390,
+    "Type": "ut",
+    "ColorBlock": 253,
+    "IconHint": "sequi",
+    "Selected": false,
+    "LastChanged": "2018-08-21T03:47:00.628674+02:00",
     "ChildItems": [
       {
-        "Id": 778,
-        "Name": "Mraz, Kunde and Grant",
-        "ToolTip": "Aut nihil consequatur optio omnis sed.",
+        "Id": 677,
+        "Name": "Kilback Group",
+        "ToolTip": "Cumque vitae quo odit ad velit.",
         "Deleted": false,
-        "Rank": 899,
+        "Rank": 5,
         "Type": "beatae",
-        "ColorBlock": 900,
-        "IconHint": "porro",
+        "ColorBlock": 639,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2008-01-15T03:45:29.014043+01:00",
+        "LastChanged": "2024-09-07T03:47:00.628674+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Mr. Hobart O'Hara"
+        "ExtraInfo": "tenetur",
+        "StyleHint": "deleniti",
+        "Hidden": true,
+        "FullName": "Breana Anderson"
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Miss Vallie McClure"
+    "ExtraInfo": "ea",
+    "StyleHint": "quam",
+    "Hidden": false,
+    "FullName": "Michele Joelle Torp Sr."
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 573,
-    "Name": "Oberbrunner, Schaden and Kassulke",
-    "ToolTip": "Voluptatem temporibus fugiat voluptatem.",
+    "Id": 630,
+    "Name": "Marvin, Quitzon and Rogahn",
+    "ToolTip": "Error iusto nihil.",
     "Deleted": true,
-    "Rank": 585,
-    "Type": "consequatur",
-    "ColorBlock": 578,
-    "IconHint": "consequatur",
+    "Rank": 407,
+    "Type": "id",
+    "ColorBlock": 526,
+    "IconHint": "eaque",
     "Selected": false,
-    "LastChanged": "2023-04-15T03:45:29.014043+02:00",
+    "LastChanged": "2021-03-19T03:47:00.628674+01:00",
     "ChildItems": [
       {
-        "Id": 259,
-        "Name": "Graham, Lebsack and Hintz",
-        "ToolTip": "Vel at quia molestiae ipsum deleniti.",
+        "Id": 148,
+        "Name": "Schneider, Tillman and Lemke",
+        "ToolTip": "Dolores pariatur culpa et voluptas doloremque qui.",
         "Deleted": false,
-        "Rank": 83,
-        "Type": "qui",
-        "ColorBlock": 60,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2013-01-25T03:45:29.014043+01:00",
+        "Rank": 270,
+        "Type": "unde",
+        "ColorBlock": 290,
+        "IconHint": "eos",
+        "Selected": true,
+        "LastChanged": "2017-06-08T03:47:00.628674+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "esse",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "eum",
         "Hidden": false,
-        "FullName": "Lyla Bailey V",
+        "FullName": "Lula Mann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 833
+            "FieldType": "System.String",
+            "FieldLength": 791
           }
         }
       }
     ],
-    "ExtraInfo": "vitae",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "eum",
     "Hidden": false,
-    "FullName": "Nikko Cummings",
+    "FullName": "Guido Myrna Crona PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 214
+        "FieldLength": 428
       }
     }
   }

@@ -2,6 +2,7 @@
 title: Services88.SelectionAgent.ExportSelectionMembersWithOrderBy SOAP
 generated: true
 uid: Services88-Selection-ExportSelectionMembersWithOrderBy
+content_type: reference
 ---
 
 # Services88 Selection ExportSelectionMembersWithOrderBy

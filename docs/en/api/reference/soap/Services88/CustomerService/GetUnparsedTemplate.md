@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.GetUnparsedTemplate SOAP
 generated: true
 uid: Services88-CustomerService-GetUnparsedTemplate
+content_type: reference
 ---
 
 # Services88 CustomerService GetUnparsedTemplate

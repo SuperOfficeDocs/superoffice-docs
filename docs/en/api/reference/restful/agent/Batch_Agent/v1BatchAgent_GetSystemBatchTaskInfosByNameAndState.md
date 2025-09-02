@@ -2,6 +2,7 @@
 title: POST Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 uid: v1BatchAgent_GetSystemBatchTaskInfosByNameAndState
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Batch/GetSystemBatchTaskInfosByNameAndState
@@ -95,11 +96,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Abshire, Hegmann and Schamberger",
+  "TaskName": "Hoeger Inc and Sons",
   "State": "All"
 }
 ```
@@ -112,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 603,
-    "Name": "Cormier Inc and Sons",
-    "AssociateId": 62,
-    "DetailsTable": 190,
-    "DetailsRecord": 315,
-    "IsSystemTask": true,
-    "IsInternalTask": false,
+    "Id": 713,
+    "Name": "Stokes-Kutch",
+    "AssociateId": 229,
+    "DetailsTable": 267,
+    "DetailsRecord": 618,
+    "IsSystemTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "voluptates",
-      "ParameterObject2": "provident"
+      "ParameterObject1": "laborum",
+      "ParameterObject2": "aut"
     },
-    "LastStarted": "2015-09-27T03:45:22.9829669+02:00",
-    "Created": "2013-04-04T03:45:22.9829669+02:00",
-    "StartCount": 696,
-    "DatabaseSerialNumber": "1041239",
-    "Context": "ea",
-    "Result": "fugiat",
+    "LastStarted": "2020-04-30T03:46:54.3007673+02:00",
+    "Created": "2008-04-08T03:46:54.3007673+02:00",
+    "StartCount": 798,
+    "DatabaseSerialNumber": "1260609",
+    "Context": "adipisci",
+    "Result": "accusamus",
     "State": "All",
-    "Description": "Stand-alone composite standardization",
-    "Response": "dolores",
-    "Request": "quia",
-    "ProgressDescription": "Assimilated optimal knowledge user",
-    "ProgressPercent": 150,
-    "FileName": "Roob LLC",
+    "Description": "Extended upward-trending methodology",
+    "Response": "iusto",
+    "Request": "ea",
+    "ProgressDescription": "Reactive non-volatile benchmark",
+    "ProgressPercent": 112,
+    "FileName": "Monahan, White and Cassin",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 955
+        "FieldType": "System.Int32",
+        "FieldLength": 666
       }
     }
   }

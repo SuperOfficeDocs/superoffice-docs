@@ -2,6 +2,7 @@
 title: POST Agents/Marketing/GetPreviewMailingHeader
 uid: v1MarketingAgent_GetPreviewMailingHeader
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Marketing/GetPreviewMailingHeader
@@ -92,7 +93,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 202
+  "ShipmentId": 354
 }
 ```
 
@@ -103,28 +104,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2009-05-26T03:45:23.6391999+02:00",
+  "StartDate": "2015-05-21T03:46:55.0038735+02:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 144,
-  "ShipmentDescription": "Ameliorated object-oriented synergy",
-  "FromAddress": "et",
-  "Configuration": 817,
-  "PersonId": 490,
-  "PersonFullName": "Friedrich Renner",
-  "ShipmentType": "cumque",
-  "MessageId": 712,
-  "MessageSubject": "deleniti",
-  "DocumentMessageId": 783,
-  "NumSent": 937,
-  "NumOpened": 817,
-  "NumBounced": 739,
-  "NumClicks": 366,
+  "ShipmentId": 567,
+  "ShipmentDescription": "Profound heuristic structure",
+  "FromAddress": "consectetur",
+  "Configuration": 739,
+  "PersonId": 908,
+  "PersonFullName": "Ms. Dorthy Reichel MD",
+  "ShipmentType": "aut",
+  "MessageId": 575,
+  "MessageSubject": "qui",
+  "DocumentMessageId": 707,
+  "NumSent": 238,
+  "NumOpened": 858,
+  "NumBounced": 874,
+  "NumClicks": 249,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 117
+      "FieldLength": 707
     }
   }
 }

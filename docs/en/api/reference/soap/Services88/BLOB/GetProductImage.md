@@ -2,6 +2,7 @@
 title: Services88.BLOBAgent.GetProductImage SOAP
 generated: true
 uid: Services88-BLOB-GetProductImage
+content_type: reference
 ---
 
 # Services88 BLOB GetProductImage

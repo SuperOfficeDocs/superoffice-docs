@@ -2,6 +2,7 @@
 title: POST Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 uid: v1DocumentMigrationAgent_CreateDefaultDocumentMigrationItemList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
@@ -10,10 +11,7 @@ generated: true
 POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 ```
 
-Set default values into a new DocumentMigrationItemList.
-
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
+Loading default values into a new DocumentMigrationItemList.
 
 
 ## Online Restricted: ## The DocumentMigration agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for SuperOffice-internal apps.
@@ -61,7 +59,7 @@ OK
 POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,29 +69,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 313,
-  "NumDocumentsAlreadyMigrated": 857,
+  "NumDocumentsOmitted": 125,
+  "NumDocumentsAlreadyMigrated": 717,
   "Documents": [
     {
-      "DocumentId": 754,
-      "ContactId": 450,
-      "PersonId": 634,
-      "SaleId": 323,
-      "ProjectId": 197,
-      "DocTmplId": 445,
-      "AssociateId": 730,
-      "UserGroupId": 815,
-      "VisibleForId": 473
+      "DocumentId": 552,
+      "ContactId": 99,
+      "PersonId": 947,
+      "SaleId": 776,
+      "ProjectId": 959,
+      "DocTmplId": 750,
+      "AssociateId": 926,
+      "UserGroupId": 691,
+      "VisibleForId": 424
     }
   ],
   "Associates": [
     {
-      "AssociateId": 819,
-      "EmailAddress": "adaline.hamill@schmeler.info"
+      "AssociateId": 348,
+      "EmailAddress": "bailee.davis@mullerschaefer.uk"
     },
     {
-      "AssociateId": 819,
-      "EmailAddress": "adaline.hamill@schmeler.info"
+      "AssociateId": 348,
+      "EmailAddress": "bailee.davis@mullerschaefer.uk"
     }
   ]
 }

@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/SaveAndPublish
 uid: v1ConfigurationAgent_SaveAndPublish
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/SaveAndPublish
@@ -100,28 +101,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 106,
-  "Name": "Wiegand Group",
-  "Description": "Devolved static internet solution",
-  "DeltaJson": "amet",
+  "ConfigurableScreenDeltaId": 574,
+  "Name": "Flatley, Okuneva and Beahan",
+  "Description": "Down-sized encompassing methodology",
+  "DeltaJson": "sunt",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "quaerat",
-  "UpdatedDate": "2007-02-07T03:45:23.0767156+01:00",
-  "CreatedDate": "2025-01-24T03:45:23.0767156+01:00",
+  "RecipeId": "voluptatum",
+  "UpdatedDate": "1999-07-04T03:46:54.4570178+02:00",
+  "CreatedDate": "1999-03-01T03:46:54.4570178+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    385,
-    879
+    709,
+    762
   ],
-  "AppliesToKey": "vero",
+  "AppliesToKey": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 176
+      "FieldLength": 646
     }
   }
 }

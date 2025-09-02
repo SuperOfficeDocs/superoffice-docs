@@ -2,10 +2,10 @@
 uid: table-PMembTypeGroupLink
 title: PMembTypeGroupLink table
 description: User group link table for PMembType, for MDO item hiding
-so.generated: true
+generated: true
 keywords: database table PMembTypeGroupLink
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # PMembTypeGroupLink Table (92)

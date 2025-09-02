@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetCrediteds SOAP
 generated: true
 uid: Services88-List-GetCrediteds
+content_type: reference
 ---
 
 # Services88 List GetCrediteds

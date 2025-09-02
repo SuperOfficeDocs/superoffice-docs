@@ -23,6 +23,7 @@ items:
   - SuperOffice.Exceptions.SoInvalidSignatureException
   - SuperOffice.Exceptions.SoLicenseException
   - SuperOffice.Exceptions.SoMassOperationException
+  - SuperOffice.Exceptions.SoMissingDatabaseContextException
   - SuperOffice.Exceptions.SoNotFoundException
   - SuperOffice.Exceptions.SoNotImplementedException
   - SuperOffice.Exceptions.SoNotSupportedException
@@ -170,6 +171,13 @@ references:
   name: SoMassOperationException
   nameWithType: SoMassOperationException
   fullName: SuperOffice.Exceptions.SoMassOperationException
+- uid: SuperOffice.Exceptions.SoMissingDatabaseContextException
+  commentId: T:SuperOffice.Exceptions.SoMissingDatabaseContextException
+  isExternal: true
+  href: SuperOffice.Exceptions.SoMissingDatabaseContextException.html
+  name: SoMissingDatabaseContextException
+  nameWithType: SoMissingDatabaseContextException
+  fullName: SuperOffice.Exceptions.SoMissingDatabaseContextException
 - uid: SuperOffice.Exceptions.SoNotFoundException
   commentId: T:SuperOffice.Exceptions.SoNotFoundException
   isExternal: true

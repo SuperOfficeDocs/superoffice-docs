@@ -2,10 +2,10 @@
 uid: table-Product
 title: Product table
 description: One Product, member of one price list
-so.generated: true
+generated: true
 keywords: database table Product
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # Product Table (129)

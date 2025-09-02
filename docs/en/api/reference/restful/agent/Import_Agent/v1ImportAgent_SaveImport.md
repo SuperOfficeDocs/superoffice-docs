@@ -2,6 +2,7 @@
 title: POST Agents/Import/SaveImport
 uid: v1ImportAgent_SaveImport
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Import/SaveImport
@@ -72,39 +73,39 @@ OK
 POST /api/v1/Agents/Import/SaveImport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ImportLines": [
     {
       "Values": [
-        "itaque",
-        "velit"
+        "delectus",
+        "harum"
       ],
-      "Selected": false,
+      "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "rerum"
+      "ExternalKey": "modi"
     },
     {
       "Values": [
-        "itaque",
-        "velit"
+        "delectus",
+        "harum"
       ],
-      "Selected": false,
+      "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "rerum"
+      "ExternalKey": "modi"
     }
   ],
   "ColumnDefinition": [
-    "assumenda",
-    "atque"
+    "dolorem",
+    "porro"
   ],
-  "CreateSelection": true,
-  "Culture": "nemo",
-  "Context": "similique"
+  "CreateSelection": false,
+  "Culture": "excepturi",
+  "Context": "aut"
 }
 ```
 
@@ -115,7 +116,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  290,
-  670
+  457,
+  468
 ]
 ```

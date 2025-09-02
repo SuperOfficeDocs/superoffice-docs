@@ -2,6 +2,7 @@
 title: Services88.ListAgent.SaveWebPanelEntity SOAP
 generated: true
 uid: Services88-List-SaveWebPanelEntity
+content_type: reference
 ---
 
 # Services88 List SaveWebPanelEntity

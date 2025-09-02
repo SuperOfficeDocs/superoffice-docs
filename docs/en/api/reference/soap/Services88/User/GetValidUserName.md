@@ -2,6 +2,7 @@
 title: Services88.UserAgent.GetValidUserName SOAP
 generated: true
 uid: Services88-User-GetValidUserName
+content_type: reference
 ---
 
 # Services88 User GetValidUserName

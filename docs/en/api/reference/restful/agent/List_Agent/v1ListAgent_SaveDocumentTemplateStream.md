@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveDocumentTemplateStream
 uid: v1ListAgent_SaveDocumentTemplateStream
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveDocumentTemplateStream
@@ -78,14 +79,14 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 994,
+  "DocumentTemplateId": 234,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "dolor",
-  "PluginId": 673
+  "LanguageCode": "a",
+  "PluginId": 156
 }
 ```
 
@@ -96,10 +97,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Feil, Pacocha and Stroman",
-  "Description": "Persevering clear-thinking alliance",
-  "ExternalReference": "reprehenderit",
-  "MimeType": "aspernatur",
-  "PluginId": 204
+  "Name": "Zulauf, Donnelly and Reichert",
+  "Description": "Reduced high-level access",
+  "ExternalReference": "aut",
+  "MimeType": "officiis",
+  "PluginId": 456
 }
 ```

@@ -2,6 +2,7 @@
 title: POST Agents/Preference/SavePreferenceDescriptionLine
 uid: v1PreferenceAgent_SavePreferenceDescriptionLine
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/SavePreferenceDescriptionLine
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 ```
 
-Updates the existing PreferenceDescriptionLine or creates a new PreferenceDescriptionLine if the id parameter is empty
+Updates the existing PreferenceDescriptionLine or creates a new PreferenceDescriptionLine if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing PreferenceDescriptionLine or creates a new PreferenceDescri
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: preferenceDescriptionLine 
 
-The PreferenceDescriptionLine to be saved. 
+The PreferenceDescriptionLine that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,15 +74,15 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 370,
-  "PrefDescId": 644,
-  "PrefValue": "illum",
-  "PrefShowValue": "vitae",
-  "Description": "Integrated stable methodology",
+  "PrefDescLineId": 485,
+  "PrefDescId": 658,
+  "PrefValue": "explicabo",
+  "PrefShowValue": "perspiciatis",
+  "Description": "Horizontal asynchronous success",
   "IsBuiltin": false
 }
 ```
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 520,
-  "PrefDescId": 932,
-  "PrefValue": "aut",
-  "PrefShowValue": "est",
-  "Description": "Compatible upward-trending definition",
-  "IsBuiltin": false,
+  "PrefDescLineId": 233,
+  "PrefDescId": 369,
+  "PrefValue": "nisi",
+  "PrefShowValue": "porro",
+  "Description": "Assimilated fresh-thinking instruction set",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 445
+      "FieldLength": 449
     }
   }
 }

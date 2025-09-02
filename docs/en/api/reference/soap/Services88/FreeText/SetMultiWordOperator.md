@@ -2,6 +2,7 @@
 title: Services88.FreeTextAgent.SetMultiWordOperator SOAP
 generated: true
 uid: Services88-FreeText-SetMultiWordOperator
+content_type: reference
 ---
 
 # Services88 FreeText SetMultiWordOperator

@@ -2,6 +2,7 @@
 title: POST Agents/Selection/GetSelectionSummaries
 uid: v1SelectionAgent_GetSelectionSummaries
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/GetSelectionSummaries
@@ -75,13 +76,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    609,
-    758
+    525,
+    891
   ]
 }
 ```
@@ -94,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 672,
-    "Name": "Quitzon LLC",
-    "TargetTable": "possimus",
-    "Registered": "2009-01-12T03:45:23.9204418+01:00",
-    "ProviderName": "Fritsch-Nitzsche"
+    "SelectionId": 843,
+    "Name": "Kuhlman-Schmeler",
+    "TargetTable": "dolores",
+    "Registered": "2024-07-11T03:46:55.3944846+02:00",
+    "ProviderName": "Stroman, Feest and West"
   },
   {
-    "SelectionId": 672,
-    "Name": "Quitzon LLC",
-    "TargetTable": "possimus",
-    "Registered": "2009-01-12T03:45:23.9204418+01:00",
-    "ProviderName": "Fritsch-Nitzsche"
+    "SelectionId": 843,
+    "Name": "Kuhlman-Schmeler",
+    "TargetTable": "dolores",
+    "Registered": "2024-07-11T03:46:55.3944846+02:00",
+    "ProviderName": "Stroman, Feest and West"
   }
 ]
 ```

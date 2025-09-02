@@ -2,6 +2,7 @@
 title: POST Agents/Chat/UpdateChatTopicUserAgent
 uid: v1ChatAgent_UpdateChatTopicUserAgent
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/UpdateChatTopicUserAgent
@@ -78,12 +79,12 @@ OK
 POST /api/v1/Agents/Chat/UpdateChatTopicUserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 915,
-  "Username": "architecto",
+  "ChatTopicId": 561,
+  "Username": "eaque",
   "Useragent": null
 }
 ```
@@ -95,7 +96,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 84,
+  "TopicId": 45,
   "User": null,
   "CanListen": false,
   "CanRespond": false,

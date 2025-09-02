@@ -2,6 +2,7 @@
 title: POST Agents/Archive/GetArchiveListByColumnsWithHeader
 uid: v1ArchiveAgent_GetArchiveListByColumnsWithHeader
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/GetArchiveListByColumnsWithHeader
@@ -102,55 +103,55 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bartoletti, Stiedemann and Wyman",
+  "ProviderName": "Rosenbaum-Hammes",
   "Columns": [
-    "sit",
-    "assumenda"
+    "eos",
+    "ipsum"
   ],
   "SortOrder": [
     {
-      "Name": "Goyette, Willms and Hickle",
+      "Name": "Eichmann-Fritsch",
       "Direction": "ASC"
     },
     {
-      "Name": "Goyette, Willms and Hickle",
+      "Name": "Eichmann-Fritsch",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Bednar-Ondricka",
-      "Operator": "mollitia",
+      "Name": "Von-Dare",
+      "Operator": "voluptatem",
       "Values": [
-        "qui",
-        "sequi"
+        "vitae",
+        "vel"
       ],
       "DisplayValues": [
-        "dolore",
-        "ipsa"
+        "natus",
+        "autem"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 271,
+      "InterParenthesis": 10,
       "InterOperator": "And",
-      "UniqueHash": 198
+      "UniqueHash": 104
     }
   ],
   "Entities": [
-    "mollitia",
-    "ut"
+    "quis",
+    "voluptatem"
   ],
-  "Page": 810,
-  "PageSize": 729,
-  "Options": "qui"
+  "Page": 310,
+  "PageSize": 364,
+  "Options": "id"
 }
 ```
 
@@ -161,26 +162,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 437,
+  "RowCount": 713,
   "Rows": [
     {
-      "EntityName": "Bartell-Lindgren",
-      "PrimaryKey": 29,
+      "EntityName": "Huel LLC",
+      "PrimaryKey": 737,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quibusdam",
-          "TooltipHint": "facilis",
-          "LinkHint": "magni"
+          "DisplayValue": "voluptas",
+          "TooltipHint": "et",
+          "LinkHint": "architecto"
         }
       },
-      "LinkHint": "nisi",
-      "StyleHint": "molestias",
+      "LinkHint": "delectus",
+      "StyleHint": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 524
+          "FieldType": "System.Int32",
+          "FieldLength": 588
         }
       }
     }
@@ -189,8 +190,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 928
+      "FieldType": "System.String",
+      "FieldLength": 985
     }
   }
 }

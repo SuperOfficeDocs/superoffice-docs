@@ -2,6 +2,7 @@
 title: POST Agents/Quote/CreateQuoteLineFromProduct
 uid: v1QuoteAgent_CreateQuoteLineFromProduct
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/CreateQuoteLineFromProduct
@@ -126,7 +127,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 642,
+  "QuoteAlternativeId": 849,
   "Product": null
 }
 ```
@@ -138,88 +139,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 131,
-  "ERPQuoteLineKey": "est",
-  "QuoteAlternativeId": 800,
-  "ERPProductKey": "dicta",
+  "QuoteLineId": 711,
+  "ERPQuoteLineKey": "consequatur",
+  "QuoteAlternativeId": 935,
+  "ERPProductKey": "ex",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 10191.768,
-  "DeliveredQuantity": 15375.403999999999,
-  "Rank": 154,
-  "Name": "Huels LLC",
-  "Description": "Re-contextualized neutral moratorium",
-  "Code": "nemo",
-  "QuantityUnit": "aut",
-  "PriceUnit": "est",
-  "ItemNumber": "1140360",
+  "Quantity": 30029.987999999998,
+  "DeliveredQuantity": 20740.811999999998,
+  "Rank": 786,
+  "Name": "Ernser-Reinger",
+  "Description": "Compatible system-worthy parallelism",
+  "Code": "iste",
+  "QuantityUnit": "corporis",
+  "PriceUnit": "rerum",
+  "ItemNumber": "787906",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aut",
-  "ProductTypeKey": "consectetur",
-  "Supplier": "dolores",
-  "SupplierCode": "distinctio",
-  "Thumbnail": "quisquam",
-  "VATInfo": "dolores",
-  "VAT": 18888.618,
-  "UnitCost": 18217.942,
-  "UnitMinimumPrice": 6111.3,
-  "UnitListPrice": 20308.32,
+  "ProductFamilyKey": "laboriosam",
+  "ProductTypeKey": "dolor",
+  "Supplier": "in",
+  "SupplierCode": "accusamus",
+  "Thumbnail": "voluptatem",
+  "VATInfo": "sed",
+  "VAT": 19117.399999999998,
+  "UnitCost": 25006.185999999998,
+  "UnitMinimumPrice": 6246.062,
+  "UnitListPrice": 19603.17,
   "ExtraInfo": [
     {
-      "Name": "Weimann Group",
-      "Value": "rem",
+      "Name": "Medhurst, Carroll and Pollich",
+      "Value": "labore",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 751
+          "FieldLength": 94
         }
       }
     },
     {
-      "Name": "Weimann Group",
-      "Value": "rem",
+      "Name": "Medhurst, Carroll and Pollich",
+      "Value": "labore",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 751
+          "FieldLength": 94
         }
       }
     }
   ],
-  "RawExtraInfo": "ea",
-  "IsSubscription": true,
-  "SubscriptionUnit": "et",
-  "SubscriptionQuantity": 14541.76,
-  "SubscriptionStart": "2022-04-24T03:45:23.8266945+02:00",
-  "ERPDiscountPercent": 21552.518,
-  "ERPDiscountAmount": 20963.326,
-  "DiscountPercent": 28842.201999999997,
-  "DiscountAmount": 1134.508,
+  "RawExtraInfo": "adipisci",
+  "IsSubscription": false,
+  "SubscriptionUnit": "sunt",
+  "SubscriptionQuantity": 573.52199999999993,
+  "SubscriptionStart": "2013-06-13T03:46:55.2226157+02:00",
+  "ERPDiscountPercent": 3763.9339999999997,
+  "ERPDiscountAmount": 14635.779999999999,
+  "DiscountPercent": 26425.888,
+  "DiscountAmount": 23063.106,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 20129.682,
-  "EarningAmount": 7615.62,
-  "SubTotal": 29456.466,
-  "TotalPrice": 14983.653999999999,
-  "Rights": "non",
-  "Rule": "aliquam",
-  "ExtraField1": "sed",
-  "ExtraField2": "libero",
-  "ExtraField3": "nemo",
-  "ExtraField4": "adipisci",
-  "ExtraField5": "quo",
+  "EarningPercent": 18728.784,
+  "EarningAmount": 5493.902,
+  "SubTotal": 29290.363999999998,
+  "TotalPrice": 9226.496,
+  "Rights": "a",
+  "Rule": "id",
+  "ExtraField1": "consequatur",
+  "ExtraField2": "consectetur",
+  "ExtraField3": "est",
+  "ExtraField4": "eos",
+  "ExtraField5": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 607
+      "FieldLength": 974
     }
   }
 }

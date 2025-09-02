@@ -2,6 +2,7 @@
 title: POST Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
 uid: v1UserDefinedFieldInfoAgent_SaveUserDefinedFieldInfo
 generated: true
+content_type: reference
 ---
 
 # POST Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
 ```
 
-Updates the existing UserDefinedFieldInfo or creates a new UserDefinedFieldInfo if the id parameter is empty
+Updates the existing UserDefinedFieldInfo or creates a new UserDefinedFieldInfo if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing UserDefinedFieldInfo or creates a new UserDefinedFieldInfo 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: userDefinedFieldInfo 
 
-The UserDefinedFieldInfo to be saved. 
+The UserDefinedFieldInfo that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -129,44 +130,44 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 279,
-  "ColumnId": 8,
-  "FieldDefault": "reiciendis",
-  "FieldHeight": 466,
-  "FieldLabel": "molestiae",
-  "FieldLeft": 15,
-  "FieldTop": 65,
+  "UDefFieldId": 734,
+  "ColumnId": 786,
+  "FieldDefault": "eos",
+  "FieldHeight": 808,
+  "FieldLabel": "est",
+  "FieldLeft": 552,
+  "FieldTop": 751,
   "FieldType": "Checkbox",
-  "FieldWidth": 494,
-  "FormatMask": "odio",
+  "FieldWidth": 109,
+  "FormatMask": "ut",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 378,
-  "LabelLeft": 311,
-  "LabelTop": 716,
-  "LabelWidth": 951,
-  "LastVersionId": 78,
-  "ListTableId": 925,
-  "IsMandatory": true,
+  "LabelHeight": 381,
+  "LabelLeft": 365,
+  "LabelTop": 460,
+  "LabelWidth": 843,
+  "LastVersionId": 971,
+  "ListTableId": 334,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 687,
-  "ProgId": "molestiae",
-  "IsReadOnly": true,
-  "ShortLabel": "ea",
-  "TabOrder": 599,
-  "TextLength": 34,
-  "Tooltip": "veniam",
-  "UdefIdentity": 430,
-  "UDListDefinitionId": 666,
+  "Page1LineNo": 5,
+  "ProgId": "quas",
+  "IsReadOnly": false,
+  "ShortLabel": "ipsum",
+  "TabOrder": 223,
+  "TextLength": 762,
+  "Tooltip": "sit",
+  "UdefIdentity": 965,
+  "UDListDefinitionId": 345,
   "Justification": "Center",
-  "Version": 384,
-  "TemplateVariableName": "Walker-Stroman",
+  "Version": 970,
+  "TemplateVariableName": "Ullrich-Mraz",
   "HasBeenPublished": false,
-  "MdoListName": "Mohr, Conn and Erdman"
+  "MdoListName": "Runte, Collins and Gaylord"
 }
 ```
 
@@ -177,46 +178,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 26,
-  "ColumnId": 734,
-  "FieldDefault": "temporibus",
-  "FieldHeight": 1001,
-  "FieldLabel": "distinctio",
-  "FieldLeft": 994,
-  "FieldTop": 802,
+  "UDefFieldId": 86,
+  "ColumnId": 433,
+  "FieldDefault": "dolorem",
+  "FieldHeight": 596,
+  "FieldLabel": "et",
+  "FieldLeft": 990,
+  "FieldTop": 59,
   "FieldType": "Checkbox",
-  "FieldWidth": 41,
-  "FormatMask": "quo",
+  "FieldWidth": 728,
+  "FormatMask": "voluptatum",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 955,
-  "LabelLeft": 624,
-  "LabelTop": 929,
-  "LabelWidth": 883,
-  "LastVersionId": 768,
-  "ListTableId": 116,
+  "IsIndexed": true,
+  "LabelHeight": 336,
+  "LabelLeft": 871,
+  "LabelTop": 817,
+  "LabelWidth": 279,
+  "LastVersionId": 682,
+  "ListTableId": 198,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 493,
-  "ProgId": "inventore",
+  "Page1LineNo": 454,
+  "ProgId": "est",
   "IsReadOnly": false,
-  "ShortLabel": "aut",
-  "TabOrder": 80,
-  "TextLength": 924,
-  "Tooltip": "explicabo",
-  "UdefIdentity": 755,
-  "UDListDefinitionId": 116,
+  "ShortLabel": "labore",
+  "TabOrder": 727,
+  "TextLength": 368,
+  "Tooltip": "rerum",
+  "UdefIdentity": 114,
+  "UDListDefinitionId": 188,
   "Justification": "Center",
-  "Version": 89,
-  "TemplateVariableName": "Boyer, Blanda and West",
-  "HasBeenPublished": false,
-  "MdoListName": "Kunde Group",
+  "Version": 363,
+  "TemplateVariableName": "Murazik, Bauch and Murray",
+  "HasBeenPublished": true,
+  "MdoListName": "Marks, Mills and Ruecker",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 725
+      "FieldLength": 662
     }
   }
 }

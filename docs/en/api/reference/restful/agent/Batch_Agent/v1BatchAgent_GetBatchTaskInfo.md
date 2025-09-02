@@ -2,6 +2,7 @@
 title: POST Agents/Batch/GetBatchTaskInfo
 uid: v1BatchAgent_GetBatchTaskInfo
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Batch/GetBatchTaskInfo
@@ -94,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 702
+  "Id": 590
 }
 ```
 
@@ -109,37 +110,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 404,
-  "Name": "Rowe Group",
-  "AssociateId": 998,
-  "DetailsTable": 583,
-  "DetailsRecord": 399,
+  "Id": 142,
+  "Name": "Terry Group",
+  "AssociateId": 561,
+  "DetailsTable": 998,
+  "DetailsRecord": 189,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "ea",
-    "ParameterObject2": "accusamus"
+    "ParameterObject1": "et",
+    "ParameterObject2": "aliquid"
   },
-  "LastStarted": "2013-07-20T03:45:22.9829669+02:00",
-  "Created": "2018-04-19T03:45:22.9829669+02:00",
-  "StartCount": 753,
-  "DatabaseSerialNumber": "334719",
-  "Context": "cumque",
-  "Result": "aspernatur",
+  "LastStarted": "2020-08-24T03:46:54.3007673+02:00",
+  "Created": "2003-02-25T03:46:54.3007673+01:00",
+  "StartCount": 75,
+  "DatabaseSerialNumber": "1814330",
+  "Context": "ut",
+  "Result": "facere",
   "State": "All",
-  "Description": "Re-engineered disintermediate benchmark",
-  "Response": "eligendi",
-  "Request": "consequatur",
-  "ProgressDescription": "Cloned impactful leverage",
-  "ProgressPercent": 663,
-  "FileName": "Friesen, Lang and Hudson",
+  "Description": "Profound executive secured line",
+  "Response": "sed",
+  "Request": "autem",
+  "ProgressDescription": "Future-proofed impactful software",
+  "ProgressPercent": 670,
+  "FileName": "Windler, Brown and Sipes",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 346
+      "FieldType": "System.String",
+      "FieldLength": 744
     }
   }
 }

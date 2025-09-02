@@ -3,9 +3,9 @@ uid: ProjectMember
 title: ProjectMember
 description: Provider for the Project Member archive under Project
 keywords: ProjectMember archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ProjectMember"
@@ -543,7 +543,7 @@ from the result.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectMember?$select=project/projectPublish/publishedTo,project/projectAssociate/contactCategory,project/projectAssociate/assocName,person/searchPhone/formattedNumber,person/personAddress/line3
+GET /api/v1/archive/ProjectMember?$select=project/hasInfoText,project/registeredBy,project/NumberOfActivitiesInPeriod,project/NumberOfNotCompletedSales,person/email/emailProtocol
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

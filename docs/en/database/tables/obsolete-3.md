@@ -2,10 +2,10 @@
 uid: table-obsolete_3
 title: obsolete_3 table
 description: Obsolete table for functionality that was never implemented
-so.generated: true
+generated: true
 keywords: database table obsolete_3
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # obsolete\_3 Table (453)

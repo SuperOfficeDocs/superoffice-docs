@@ -2,6 +2,7 @@
 title: POST Agents/Find/GetDefaultDesiredColumns
 uid: v1FindAgent_GetDefaultDesiredColumns
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/GetDefaultDesiredColumns
@@ -91,9 +92,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "minus",
-  "ProviderName": "Schulist Inc and Sons",
-  "StorageKey": "aut"
+  "StorageType": "commodi",
+  "ProviderName": "Kessler, Kerluke and Kemmer",
+  "StorageKey": "soluta"
 }
 ```
 
@@ -105,19 +106,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Rutherford-Kohler",
-    "DisplayTooltip": "quas",
-    "DisplayType": "voluptatem",
+    "DisplayName": "Bogan-Ankunding",
+    "DisplayTooltip": "et",
+    "DisplayType": "ipsum",
     "CanOrderBy": false,
-    "Name": "Auer, Christiansen and Bashirian",
-    "CanRestrictBy": false,
-    "RestrictionType": "nostrum",
-    "RestrictionListName": "D'Amore-Kessler",
-    "IsVisible": false,
-    "ExtraInfo": "ab",
-    "Width": "repellat",
-    "IconHint": "molestiae",
-    "HeadingIconHint": "voluptatibus"
+    "Name": "Mosciski Inc and Sons",
+    "CanRestrictBy": true,
+    "RestrictionType": "rerum",
+    "RestrictionListName": "Kshlerin-Halvorson",
+    "IsVisible": true,
+    "ExtraInfo": "error",
+    "Width": "beatae",
+    "IconHint": "ad",
+    "HeadingIconHint": "tenetur"
   }
 ]
 ```

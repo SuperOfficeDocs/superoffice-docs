@@ -2,6 +2,7 @@
 title: Services88.BLOBAgent.GetContactImageWithSize SOAP
 generated: true
 uid: Services88-BLOB-GetContactImageWithSize
+content_type: reference
 ---
 
 # Services88 BLOB GetContactImageWithSize

@@ -2,6 +2,7 @@
 title: Services88.ListAgent.SaveDocumentTemplateEntity SOAP
 generated: true
 uid: Services88-List-SaveDocumentTemplateEntity
+content_type: reference
 ---
 
 # Services88 List SaveDocumentTemplateEntity

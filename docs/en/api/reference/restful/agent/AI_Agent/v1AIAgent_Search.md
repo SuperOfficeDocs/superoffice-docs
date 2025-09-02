@@ -2,6 +2,7 @@
 title: POST Agents/AI/Search
 uid: v1AIAgent_Search
 generated: true
+content_type: reference
 ---
 
 # POST Agents/AI/Search
@@ -79,14 +80,14 @@ OK
 POST /api/v1/Agents/AI/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "NamespaceName": "Jones-Towne",
-  "Query": "sit",
+  "NamespaceName": "Ratke, Harris and Mann",
+  "Query": "eos",
   "Type": "Document",
-  "Top": 496
+  "Top": 571
 }
 ```
 
@@ -98,21 +99,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Chunk": "necessitatibus",
-    "Title": "voluptas",
-    "Id": "atque",
+    "Chunk": "consectetur",
+    "Title": "cupiditate",
+    "Id": "error",
     "Type": "Document",
-    "Score": 26510.505999999998,
+    "Score": 16585.128,
     "Metadata": {
       "fieldName": {}
     }
   },
   {
-    "Chunk": "necessitatibus",
-    "Title": "voluptas",
-    "Id": "atque",
+    "Chunk": "consectetur",
+    "Title": "cupiditate",
+    "Id": "error",
     "Type": "Document",
-    "Score": 26510.505999999998,
+    "Score": 16585.128,
     "Metadata": {
       "fieldName": {}
     }

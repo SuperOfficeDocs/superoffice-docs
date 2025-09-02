@@ -2,6 +2,7 @@
 title: PATCH CRMScript/{id}
 uid: v1CRMScriptEntity_PatchCRMScriptEntity
 generated: true
+content_type: reference
 ---
 
 # PATCH CRMScript/{id}
@@ -118,6 +119,7 @@ CRMScriptEntity  updated.
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
+| BlockedVerbs | string | The verbs that are blocked when calling a ejscript over HTTP |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -128,18 +130,18 @@ CRMScriptEntity  updated.
 PATCH /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quibusdam",
+    "path": "quos",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quibusdam",
+    "path": "quos",
     "value": {}
   }
 ]
@@ -152,52 +154,53 @@ HTTP/1.1 200 CRMScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 182,
-  "UniqueIdentifier": "necessitatibus",
-  "Name": "Bosco, Walter and Fahey",
-  "Description": "Synchronised 5th generation moratorium",
-  "IncludeId": "ipsum",
-  "AccessKey": "saepe",
-  "HierarchyId": 617,
-  "Source": "mollitia",
-  "SourceCode": "sint",
+  "EjscriptId": 215,
+  "UniqueIdentifier": "error",
+  "Name": "Kuhic LLC",
+  "Description": "Multi-channelled coherent ability",
+  "IncludeId": "dolores",
+  "AccessKey": "sed",
+  "HierarchyId": 473,
+  "Source": "impedit",
+  "SourceCode": "unde",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 617,
+  "HtmlOutput": 578,
   "Includes": [
-    259,
-    243
+    256,
+    924
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 360,
-      "LineNumberTo": 902,
-      "Delta": 449,
-      "IncludeId": "esse",
+      "LineNumberFrom": 719,
+      "LineNumberTo": 792,
+      "Delta": 222,
+      "IncludeId": "rem",
       "IncludedFrom": [
-        "velit",
-        "possimus"
+        "a",
+        "ex"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 781
+          "FieldLength": 758
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2020-06-21T03:45:28.2955692+02:00",
-  "RegisteredAssociateId": 940,
-  "Updated": "2003-05-28T03:45:28.2955692+02:00",
-  "UpdatedAssociateId": 441,
+  "Registered": "2008-01-23T03:46:59.8943184+01:00",
+  "RegisteredAssociateId": 263,
+  "Updated": "2013-07-15T03:46:59.8943184+02:00",
+  "UpdatedAssociateId": 263,
+  "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldLength": 233
     }
   },
   "_Links": {

@@ -2,6 +2,7 @@
 title: PUT List/Priority/Items/{id}/Headings
 uid: v1PriorityList_PutPriorityHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/Priority/Items/{id}/Headings
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 389,
-    "Name": "Beatty-Bogisich",
-    "ToolTip": "Atque dicta.",
-    "Deleted": true,
-    "Rank": 335,
-    "Type": "blanditiis",
-    "ColorBlock": 537,
-    "IconHint": "iste",
-    "Selected": false,
-    "LastChanged": "2011-06-14T03:45:29.0921677+02:00",
+    "Id": 29,
+    "Name": "Tillman Inc and Sons",
+    "ToolTip": "Consequatur eum magni recusandae esse ipsam quia.",
+    "Deleted": false,
+    "Rank": 398,
+    "Type": "est",
+    "ColorBlock": 438,
+    "IconHint": "consequuntur",
+    "Selected": true,
+    "LastChanged": "2018-07-23T03:47:00.7224209+02:00",
     "ChildItems": [
       {
-        "Id": 100,
-        "Name": "Simonis-Boyle",
-        "ToolTip": "Rerum non debitis repellat rerum id.",
-        "Deleted": true,
-        "Rank": 311,
-        "Type": "et",
-        "ColorBlock": 201,
-        "IconHint": "corporis",
-        "Selected": true,
-        "LastChanged": "2007-09-07T03:45:29.0921677+02:00",
+        "Id": 157,
+        "Name": "Baumbach Group",
+        "ToolTip": "Natus aut omnis et eum atque itaque.",
+        "Deleted": false,
+        "Rank": 663,
+        "Type": "ducimus",
+        "ColorBlock": 643,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2002-02-19T03:47:00.7224209+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "eligendi",
+        "ExtraInfo": "eos",
+        "StyleHint": "asperiores",
         "Hidden": false,
-        "FullName": "Maxine McDermott"
+        "FullName": "Litzy Pinkie Gusikowski DVM"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Janiya Nitzsche"
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "repudiandae",
+    "Hidden": true,
+    "FullName": "Tatyana Langosh"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 838,
-    "Name": "Skiles-Kunde",
-    "ToolTip": "Ut aspernatur eaque laborum aliquid et eum.",
+    "Id": 716,
+    "Name": "Schimmel LLC",
+    "ToolTip": "Molestias sunt.",
     "Deleted": false,
-    "Rank": 328,
-    "Type": "eius",
-    "ColorBlock": 758,
-    "IconHint": "eligendi",
+    "Rank": 734,
+    "Type": "suscipit",
+    "ColorBlock": 331,
+    "IconHint": "occaecati",
     "Selected": true,
-    "LastChanged": "2006-02-17T03:45:29.0921677+01:00",
+    "LastChanged": "2014-11-07T03:47:00.7224209+01:00",
     "ChildItems": [
       {
-        "Id": 892,
-        "Name": "Kling Group",
-        "ToolTip": "Modi et ut nam dolor cumque sint neque.",
-        "Deleted": false,
-        "Rank": 571,
-        "Type": "maiores",
-        "ColorBlock": 862,
-        "IconHint": "error",
+        "Id": 947,
+        "Name": "Nitzsche LLC",
+        "ToolTip": "Est vel ad molestiae veniam quos.",
+        "Deleted": true,
+        "Rank": 793,
+        "Type": "qui",
+        "ColorBlock": 146,
+        "IconHint": "consequuntur",
         "Selected": true,
-        "LastChanged": "2011-01-10T03:45:29.0921677+01:00",
+        "LastChanged": "2009-03-25T03:47:00.7224209+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "velit",
+        "ExtraInfo": "sint",
+        "StyleHint": "magnam",
         "Hidden": false,
-        "FullName": "Pansy Kerluke",
+        "FullName": "Laurel Kris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 664
+            "FieldType": "System.String",
+            "FieldLength": 683
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "vitae",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "officia",
     "Hidden": false,
-    "FullName": "Prof. Ethel Moen",
+    "FullName": "Mrs. Amelia Osborne Nolan DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 133
+        "FieldLength": 576
       }
     }
   }

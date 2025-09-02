@@ -2,10 +2,10 @@
 uid: table-OLEView
 title: OLEView table
 description: Control data table for the OLE DB Provider
-so.generated: true
+generated: true
 keywords: database table OLEView
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # OLEView Table (163)

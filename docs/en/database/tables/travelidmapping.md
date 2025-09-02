@@ -2,10 +2,10 @@
 uid: table-travelidmapping
 title: travelidmapping table
 description: Mapping of primary keys between Travel databases and the mother database  All travel database transactions get a high id to be able to see that this entry came from a database outside the central database. When update files are read into the central database, they get a normal low id. This table remembers the high travel id to map it to the low central id as long as this travel user is travelling. 
-so.generated: true
+generated: true
 keywords: database table travelidmapping
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # travelidmapping Table (43)

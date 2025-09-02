@@ -2,6 +2,7 @@
 title: POST Agents/Find/GetRestrictionGroups
 uid: v1FindAgent_GetRestrictionGroups
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/GetRestrictionGroups
@@ -81,10 +82,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quo",
-  "ProviderName": "Mraz, Schowalter and Mosciski",
-  "StorageKey": "reiciendis",
-  "Context": "consequatur"
+  "StorageType": "velit",
+  "ProviderName": "Torphy-Wuckert",
+  "StorageKey": "vero",
+  "Context": "eius"
 }
 ```
 
@@ -96,58 +97,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Davis-Thompson",
-    "Description": "Sharable composite application",
-    "Rank": 148,
+    "Name": "Breitenberg Inc and Sons",
+    "Description": "Inverse uniform matrix",
+    "Rank": 575,
     "Restrictions": [
       {
-        "Name": "Rohan Inc and Sons",
-        "Operator": "reiciendis",
+        "Name": "Littel, Dickens and Hermiston",
+        "Operator": "vitae",
         "Values": [
-          "ad",
-          "rem"
+          "qui",
+          "magni"
         ],
         "DisplayValues": [
-          "mollitia",
-          "ipsam"
+          "porro",
+          "vero"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 926,
+        "InterParenthesis": 734,
         "InterOperator": "And",
-        "UniqueHash": 588
+        "UniqueHash": 150
       }
     ]
   },
   {
-    "Name": "Davis-Thompson",
-    "Description": "Sharable composite application",
-    "Rank": 148,
+    "Name": "Breitenberg Inc and Sons",
+    "Description": "Inverse uniform matrix",
+    "Rank": 575,
     "Restrictions": [
       {
-        "Name": "Rohan Inc and Sons",
-        "Operator": "reiciendis",
+        "Name": "Littel, Dickens and Hermiston",
+        "Operator": "vitae",
         "Values": [
-          "ad",
-          "rem"
+          "qui",
+          "magni"
         ],
         "DisplayValues": [
-          "mollitia",
-          "ipsam"
+          "porro",
+          "vero"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 926,
+        "InterParenthesis": 734,
         "InterOperator": "And",
-        "UniqueHash": 588
+        "UniqueHash": 150
       }
     ]
   }

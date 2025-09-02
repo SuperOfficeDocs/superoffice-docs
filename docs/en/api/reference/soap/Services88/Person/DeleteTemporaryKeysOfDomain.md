@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.DeleteTemporaryKeysOfDomain SOAP
 generated: true
 uid: Services88-Person-DeleteTemporaryKeysOfDomain
+content_type: reference
 ---
 
 # Services88 Person DeleteTemporaryKeysOfDomain

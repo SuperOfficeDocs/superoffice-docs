@@ -3,9 +3,9 @@ uid: task
 title: task
 keywords: mdoprovider mdo provider task
 description: Task table MDO list. Optional include "None" as first value.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "task" MDO List

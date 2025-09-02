@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetQuoteAlternatives
 uid: v1QuoteAgent_GetQuoteAlternatives
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetQuoteAlternatives
@@ -95,11 +96,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 205
+  "QuoteVersionId": 280
 }
 ```
 
@@ -111,35 +112,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 960,
-    "ERPQuoteAlternativeKey": "rerum",
-    "QuoteVersionId": 236,
-    "Name": "Larson Inc and Sons",
-    "Description": "Integrated static open architecture",
+    "QuoteAlternativeId": 394,
+    "ERPQuoteAlternativeKey": "neque",
+    "QuoteVersionId": 934,
+    "Name": "Treutel-Leannon",
+    "Description": "Assimilated directional extranet",
     "Status": "Error",
-    "Reason": "iterate out-of-the-box markets",
-    "ERPDiscountPercent": 2447.654,
-    "ERPDiscountAmount": 17703.966,
-    "DiscountPercent": 5493.902,
-    "DiscountAmount": 20690.667999999998,
+    "Reason": "",
+    "ERPDiscountPercent": 5102.152,
+    "ERPDiscountAmount": 28861.005999999998,
+    "DiscountPercent": 2704.642,
+    "DiscountAmount": 12683.297999999999,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "voluptatum",
-    "VAT": 6982.552,
-    "EarningPercent": 14416.4,
-    "EarningAmount": 27992.888,
-    "SubTotal": 23266.816,
-    "TotalPrice": 20443.082,
-    "ExtraField1": "temporibus",
-    "ExtraField2": "laboriosam",
-    "ExtraField3": "ullam",
-    "ExtraField4": "dolorum",
-    "ExtraField5": "neque",
+    "VATInfo": "rerum",
+    "VAT": 9944.1819999999989,
+    "EarningPercent": 13347.706,
+    "EarningAmount": 10335.931999999999,
+    "SubTotal": 26369.476,
+    "TotalPrice": 26269.188,
+    "ExtraField1": "placeat",
+    "ExtraField2": "eligendi",
+    "ExtraField3": "impedit",
+    "ExtraField4": "sed",
+    "ExtraField5": "eos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 127
+        "FieldLength": 864
       }
     }
   }

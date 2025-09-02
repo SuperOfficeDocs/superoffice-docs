@@ -2,6 +2,7 @@
 title: GET ChatTopic/{id}/UserAgent/{username}
 uid: v1ChatTopicEntity_GetChatTopicUserAgent
 generated: true
+content_type: reference
 ---
 
 # GET ChatTopic/{id}/UserAgent/{username}
@@ -63,7 +64,7 @@ OK
 GET /api/v1/ChatTopic/{chatTopicId}/UserAgent/{username}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,11 +74,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 485,
+  "TopicId": 640,
   "User": null,
   "CanListen": false,
   "CanRespond": false,
-  "CanManage": false,
-  "CanNotify": true
+  "CanManage": true,
+  "CanNotify": false
 }
 ```

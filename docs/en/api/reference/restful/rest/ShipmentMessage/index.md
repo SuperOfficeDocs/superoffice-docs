@@ -1,6 +1,8 @@
 ---
+uid: tag-ShipmentMessage
 title: ShipmentMessage
 generated: true
+content_type: reference
 ---
 
 ```http

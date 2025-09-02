@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-Report
 title: Services88.ReportAgent WSDL
+content_type: reference
 ---
 
 # Services88.ReportAgent WSDL

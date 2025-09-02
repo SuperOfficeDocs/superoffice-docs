@@ -2,6 +2,7 @@
 title: Services88.ListAgent.DeleteHierarchyEntity SOAP
 generated: true
 uid: Services88-List-DeleteHierarchyEntity
+content_type: reference
 ---
 
 # Services88 List DeleteHierarchyEntity

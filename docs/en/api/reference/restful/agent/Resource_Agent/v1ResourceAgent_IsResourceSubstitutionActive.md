@@ -2,6 +2,7 @@
 title: POST Agents/Resource/IsResourceSubstitutionActive
 uid: v1ResourceAgent_IsResourceSubstitutionActive
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Resource/IsResourceSubstitutionActive
@@ -82,8 +83,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Doyle-Bruen",
-    "Walsh, Halvorson and Ward"
+    "Hyatt-Herzog",
+    "Leffler-Schmitt"
   ],
   "Culture": "qui"
 }
@@ -97,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Walsh Group",
-    "ResourceValue": "unde",
-    "Culture": "omnis",
-    "IsActive": true,
+    "ResourceName": "Paucek-Upton",
+    "ResourceValue": "aspernatur",
+    "Culture": "officia",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldLength": 98
       }
     }
   },
   {
-    "ResourceName": "Walsh Group",
-    "ResourceValue": "unde",
-    "Culture": "omnis",
-    "IsActive": true,
+    "ResourceName": "Paucek-Upton",
+    "ResourceValue": "aspernatur",
+    "Culture": "officia",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldLength": 98
       }
     }
   }

@@ -2,6 +2,7 @@
 title: GET List/ProductType
 uid: v1ProductTypeList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/ProductType
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 286,
-  "Name": "Ullrich LLC",
-  "Tooltip": "molestiae",
+  "Id": 316,
+  "Name": "Runolfsson-Klein",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 109,
+  "Rank": 796,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "reprehenderit",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quo",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 225
+      "FieldLength": 54
     }
   },
   "_Links": {

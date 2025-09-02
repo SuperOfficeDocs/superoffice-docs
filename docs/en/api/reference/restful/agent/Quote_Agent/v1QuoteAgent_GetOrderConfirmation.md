@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetOrderConfirmation
 uid: v1QuoteAgent_GetOrderConfirmation
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetOrderConfirmation
@@ -69,12 +70,12 @@ OK
 POST /api/v1/Agents/Quote/GetOrderConfirmation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 541,
-  "ConfirmationTemplateId": 339
+  "QuoteVersionId": 149,
+  "ConfirmationTemplateId": 541
 }
 ```
 
@@ -84,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"repudiandae"
+"vero"
 ```

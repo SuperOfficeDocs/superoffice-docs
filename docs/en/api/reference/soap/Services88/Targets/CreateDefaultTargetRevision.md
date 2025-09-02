@@ -2,6 +2,7 @@
 title: Services88.TargetsAgent.CreateDefaultTargetRevision SOAP
 generated: true
 uid: Services88-Targets-CreateDefaultTargetRevision
+content_type: reference
 ---
 
 # Services88 Targets CreateDefaultTargetRevision
@@ -76,8 +77,20 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Targets:Deleted xsi:type="xsd:boolean">false</Targets:Deleted>
      <Targets:EjUserId xsi:type="xsd:int">0</Targets:EjUserId>
      <Targets:UserName xsi:type="xsd:string"></Targets:UserName>
+     <Targets:ExtraFields xsi:type="Targets:StringDictionary">
+      <Targets:StringKeyValuePair>
+       <Targets:Key xsi:type="xsd:string"></Targets:Key>
+       <Targets:Value xsi:type="xsd:string"></Targets:Value>
+      </Targets:StringKeyValuePair>
+     </Targets:ExtraFields>
+     <Targets:CustomFields xsi:type="Targets:StringDictionary">
+      <Targets:StringKeyValuePair>
+       <Targets:Key xsi:type="xsd:string"></Targets:Key>
+       <Targets:Value xsi:type="xsd:string"></Targets:Value>
+      </Targets:StringKeyValuePair>
+     </Targets:CustomFields>
     </Targets:Who>
-    <Targets:When xsi:type="xsd:dateTime">2025-06-26T01:44:50Z</Targets:When>
+    <Targets:When xsi:type="xsd:dateTime">2025-08-30T01:46:23Z</Targets:When>
     <Targets:Changes xsi:type="Targets:ArrayOfTargetChange">
      <Targets:TargetChange xsi:type="Targets:TargetChange">
       <Targets:FieldIdentifier xsi:type="xsd:string"></Targets:FieldIdentifier>

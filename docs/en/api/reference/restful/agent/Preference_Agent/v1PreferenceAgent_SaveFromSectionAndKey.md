@@ -2,6 +2,7 @@
 title: POST Agents/Preference/SaveFromSectionAndKey
 uid: v1PreferenceAgent_SaveFromSectionAndKey
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/SaveFromSectionAndKey
@@ -92,12 +93,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "eum",
-  "Key": "amet",
+  "Section": "et",
+  "Key": "minima",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +110,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 125,
-  "Section": "maxime",
-  "Key": "aliquid",
-  "Name": "Bartoletti Inc and Sons",
+  "PrefDescId": 509,
+  "Section": "placeat",
+  "Key": "placeat",
+  "Name": "Casper-Ankunding",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Innovative multi-state application",
-  "IsBuiltin": true,
-  "TableName": "Ledner, Fadel and Donnelly",
-  "UserDefinedListId": 358,
-  "Rank": 113,
-  "SubGroup": "sit",
-  "MinLevel": 565,
-  "MaxValue": 20,
-  "MinValue": 564,
-  "RequiredLicense": "quia",
+  "Description": "Multi-tiered static help-desk",
+  "IsBuiltin": false,
+  "TableName": "Wilderman Inc and Sons",
+  "UserDefinedListId": 418,
+  "Rank": 18,
+  "SubGroup": "numquam",
+  "MinLevel": 36,
+  "MaxValue": 548,
+  "MinValue": 255,
+  "RequiredLicense": "saepe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 27
+      "FieldType": "System.String",
+      "FieldLength": 932
     }
   }
 }

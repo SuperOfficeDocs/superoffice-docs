@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetDocumentList
 uid: v1DocumentAgent_GetDocumentList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetDocumentList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/Document/GetDocumentList?$select=name,department,category/id
 
 ## Request Body: documentIds 
 
-The primary keys. 
+The identifiers of the Document object 
 
 
 ## Response:array
@@ -89,7 +90,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,32 +101,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 742,
-    "Attention": "quibusdam",
-    "Header": "voluptates",
-    "Name": "Doyle-Toy",
-    "OurRef": "deserunt",
-    "YourRef": "odit",
-    "Description": "Integrated coherent algorithm",
-    "DocumentTemplate": "deleniti",
-    "IsPublished": false,
-    "PersonId": 470,
-    "PersonFullName": "Earl Rylan Satterfield I",
-    "AssociateFullName": "Dr. Dangelo Gulgowski",
-    "ContactId": 247,
-    "ContactName": "Schamberger Group",
-    "ProjectId": 609,
-    "ProjectName": "Schaden Inc and Sons",
-    "AssociateId": 310,
-    "Snum": 381,
-    "SaleId": 469,
-    "SaleName": "Grimes, Fisher and Bayer",
+    "DocumentId": 8,
+    "Attention": "dolor",
+    "Header": "fuga",
+    "Name": "Greenholt, Langosh and Friesen",
+    "OurRef": "natus",
+    "YourRef": "incidunt",
+    "Description": "Public-key attitude-oriented hardware",
+    "DocumentTemplate": "exercitationem",
+    "IsPublished": true,
+    "PersonId": 240,
+    "PersonFullName": "Donnie Waelchi",
+    "AssociateFullName": "Nikita Reichert",
+    "ContactId": 319,
+    "ContactName": "Gibson, Eichmann and Leffler",
+    "ProjectId": 610,
+    "ProjectName": "O'Conner, Johnston and Cassin",
+    "AssociateId": 253,
+    "Snum": 86,
+    "SaleId": 288,
+    "SaleName": "Nicolas, Bergstrom and Spinka",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 249
+        "FieldLength": 400
       }
     }
   }

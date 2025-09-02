@@ -3,9 +3,9 @@ uid: appointmentcautionwarning
 title: appointmentcautionwarning
 keywords: mdoprovider mdo provider appointmentcautionwarning
 description: Appointment.CautionWarning. Appointment and invitation synchronization info
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "appointmentcautionwarning" MDO List

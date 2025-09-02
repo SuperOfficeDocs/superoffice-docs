@@ -45,6 +45,7 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.ArchiveLists.TicketPriorityExtenderBase._colTicketPriorityId
   - SuperOffice.CRM.ArchiveLists.TicketPriorityExtenderBase._colName
+  - SuperOffice.CRM.ArchiveLists.TicketPriorityExtenderBase._colRank
   - SuperOffice.CRM.ArchiveLists.TicketPriorityExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.TicketPriorityTableInfo}._ourTable
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.TicketPriorityTableInfo}.ModifyQuery
@@ -431,6 +432,14 @@ references:
   name: _colName
   nameWithType: TicketPriorityExtenderBase._colName
   fullName: SuperOffice.CRM.ArchiveLists.TicketPriorityExtenderBase._colName
+- uid: SuperOffice.CRM.ArchiveLists.TicketPriorityExtenderBase._colRank
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketPriorityExtenderBase._colRank
+  parent: SuperOffice.CRM.ArchiveLists.TicketPriorityExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.TicketPriorityExtenderBase.html#SuperOffice_CRM_ArchiveLists_TicketPriorityExtenderBase__colRank
+  name: _colRank
+  nameWithType: TicketPriorityExtenderBase._colRank
+  fullName: SuperOffice.CRM.ArchiveLists.TicketPriorityExtenderBase._colRank
 - uid: SuperOffice.CRM.ArchiveLists.TicketPriorityExtenderBase.InnerModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.TicketPriorityExtenderBase.InnerModifyQuery
   parent: SuperOffice.CRM.ArchiveLists.TicketPriorityExtenderBase

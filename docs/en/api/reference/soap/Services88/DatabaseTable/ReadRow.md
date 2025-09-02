@@ -2,6 +2,7 @@
 title: Services88.DatabaseTableAgent.ReadRow SOAP
 generated: true
 uid: Services88-DatabaseTable-ReadRow
+content_type: reference
 ---
 
 # Services88 DatabaseTable ReadRow

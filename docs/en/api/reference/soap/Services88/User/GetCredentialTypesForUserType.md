@@ -2,6 +2,7 @@
 title: Services88.UserAgent.GetCredentialTypesForUserType SOAP
 generated: true
 uid: Services88-User-GetCredentialTypesForUserType
+content_type: reference
 ---
 
 # Services88 User GetCredentialTypesForUserType

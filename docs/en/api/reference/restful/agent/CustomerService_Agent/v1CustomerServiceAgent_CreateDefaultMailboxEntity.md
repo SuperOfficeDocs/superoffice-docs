@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/CreateDefaultMailboxEntity
 uid: v1CustomerServiceAgent_CreateDefaultMailboxEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/CreateDefaultMailboxEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/CustomerService/CreateDefaultMailboxEntity
 ```
 
-Set default values into a new MailboxEntity.
+Loading default values into a new MailboxEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -63,7 +62,7 @@ OK
 POST /api/v1/Agents/CustomerService/CreateDefaultMailboxEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailInFilterId": 947,
+  "MailInFilterId": 892,
   "ServerType": "Facebook",
-  "Address": "consectetur",
-  "Username": "quae",
-  "Password": "quaerat",
-  "Server": "ullam",
-  "Port": 718,
+  "Address": "et",
+  "Username": "ea",
+  "Password": "aut",
+  "Server": "voluptatum",
+  "Port": 822,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldType": "System.String",
+      "FieldLength": 455
     }
   }
 }

@@ -2,6 +2,7 @@
 title: DEL List/Business/Headings
 uid: v1BusinessList_DeleteBusinessHeadings
 generated: true
+content_type: reference
 ---
 
 # DEL List/Business/Headings

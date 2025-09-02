@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/GetTicketMessageWithOptions
 uid: v1TicketAgent_GetTicketMessageWithOptions
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/GetTicketMessageWithOptions
@@ -103,7 +104,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 179,
+  "TicketMessageEntityId": 199,
   "IncludeNonInlineAttachmentsInfo": false
 }
 ```
@@ -115,79 +116,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 286,
+  "EjMessageId": 381,
   "Ticket": null,
-  "CreatedAt": "2012-10-14T03:45:24.0141935+02:00",
+  "CreatedAt": "2019-11-07T03:46:55.4257333+01:00",
   "CreatedBy": null,
-  "Author": "dolorum",
+  "Author": "quo",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "est",
-  "TimeSpent": 642,
-  "Body": "vel",
-  "HtmlBody": "molestias",
-  "EmailHeader": "gerda@hagenes.co.uk",
-  "DebugInfo": "ex",
-  "MailSorter": "neque",
+  "MessageId": "nesciunt",
+  "TimeSpent": 640,
+  "Body": "itaque",
+  "HtmlBody": "consequatur",
+  "EmailHeader": "jadon.moen@graham.us",
+  "DebugInfo": "veniam",
+  "MailSorter": "ut",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "qui",
+  "SearchTitle": "consequuntur",
   "MessageHeaders": [
     {
-      "Id": 512,
-      "Name": "Morissette, Parker and Wilkinson",
-      "Value": "sint",
+      "Id": 886,
+      "Name": "Sauer-Cartwright",
+      "Value": "molestiae",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 909
+          "FieldType": "System.String",
+          "FieldLength": 447
         }
       }
     }
   ],
   "Important": false,
-  "Language": "eum",
-  "Sentiment": 365,
-  "SentimentConfidence": 522,
+  "Language": "et",
+  "Sentiment": 193,
+  "SentimentConfidence": 484,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 291,
-      "Name": "Bahringer-Rolfson",
-      "ContentType": "repudiandae",
-      "AttSize": 544,
+      "AttachmentId": 176,
+      "Name": "Beier Group",
+      "ContentType": "quo",
+      "AttSize": 982,
       "InlineImage": false,
-      "ContentId": "corrupti",
-      "AuthKey": "nisi",
+      "ContentId": "sed",
+      "AuthKey": "placeat",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 198
+          "FieldLength": 997
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "cum",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "enim",
+    "ExtraFields2": "nihil"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "velit"
+    "CustomFields1": "voluptatibus",
+    "CustomFields2": "rem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 844
+      "FieldLength": 789
     }
   }
 }

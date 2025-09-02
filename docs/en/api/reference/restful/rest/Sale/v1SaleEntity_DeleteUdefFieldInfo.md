@@ -2,6 +2,7 @@
 title: DEL Sale/UdefLayout/{progidOrLabel}
 uid: v1SaleEntity_DeleteUdefFieldInfo
 generated: true
+content_type: reference
 ---
 
 # DEL Sale/UdefLayout/{progidOrLabel}

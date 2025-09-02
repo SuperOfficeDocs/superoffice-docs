@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.CreateDefaultEMailConnectionInfoExtended SOAP
 generated: true
 uid: Services88-EMail-CreateDefaultEMailConnectionInfoExtended
+content_type: reference
 ---
 
 # Services88 EMail CreateDefaultEMailConnectionInfoExtended

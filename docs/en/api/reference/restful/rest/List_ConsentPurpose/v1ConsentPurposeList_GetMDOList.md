@@ -2,6 +2,7 @@
 title: GET List/ConsentPurpose/MDOItems
 uid: v1ConsentPurposeList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/ConsentPurpose/MDOItems
@@ -27,7 +28,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=possimus
+GET /api/v1/List/ConsentPurpose/MDOItems?query=voluptas
 ```
 
 
@@ -78,7 +79,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,44 +90,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 569,
-    "Name": "Funk-Dibbert",
-    "ToolTip": "Nobis et quam exercitationem.",
-    "Deleted": true,
-    "Rank": 545,
-    "Type": "autem",
+    "Id": 120,
+    "Name": "Blick Inc and Sons",
+    "ToolTip": "Non est magnam ipsum aspernatur ea voluptatum ea.",
+    "Deleted": false,
+    "Rank": 522,
+    "Type": "velit",
     "ChildItems": [
       {
-        "Id": 550,
-        "Name": "Hudson Inc and Sons",
-        "ToolTip": "Quo nostrum harum voluptatem cupiditate est.",
-        "Deleted": true,
-        "Rank": 80,
-        "Type": "tempora",
+        "Id": 204,
+        "Name": "Beier, Jones and Moen",
+        "ToolTip": "Laboriosam et et non.",
+        "Deleted": false,
+        "Rank": 698,
+        "Type": "iste",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "reprehenderit",
-        "ColorBlock": 378,
-        "ExtraInfo": "nostrum",
-        "StyleHint": "quam",
-        "FullName": "Ms. Tavares Amari Morissette",
+        "IconHint": "sunt",
+        "ColorBlock": 923,
+        "ExtraInfo": "et",
+        "StyleHint": "est",
+        "FullName": "Clemens Wyman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 547
+            "FieldType": "System.String",
+            "FieldLength": 765
           }
         }
       }
     ],
-    "IconHint": "eum",
-    "ColorBlock": 931,
-    "ExtraInfo": "ratione",
-    "StyleHint": "molestiae",
-    "FullName": "Waino Ronaldo Huels PhD",
+    "IconHint": "quo",
+    "ColorBlock": 704,
+    "ExtraInfo": "facilis",
+    "StyleHint": "aut",
+    "FullName": "Hulda Feil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

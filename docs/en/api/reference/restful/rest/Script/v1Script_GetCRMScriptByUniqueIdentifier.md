@@ -2,6 +2,7 @@
 title: GET Script/{uniqueIdentifier}
 uid: v1Script_GetCRMScriptByUniqueIdentifier
 generated: true
+content_type: reference
 ---
 
 # GET Script/{uniqueIdentifier}
@@ -61,6 +62,7 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedBy | string | Who updated this script |
 | Path | string | Path to script in the hierarchy. |
+| BlockedVerbs | string | The verbs that are blocked when calling a ejscript over HTTP |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -80,22 +82,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "nesciunt",
-  "Name": "Romaguera LLC",
-  "Description": "Cross-platform executive contingency",
-  "IncludeId": "quia",
-  "Source": "ad",
-  "Registered": "2004-02-03T03:45:28.8421748+01:00",
-  "RegisteredBy": "optio",
-  "Updated": "2006-01-04T03:45:28.8421748+01:00",
-  "UpdatedBy": "quis",
-  "Path": "debitis",
+  "UniqueIdentifier": "quidem",
+  "Name": "Abernathy-Hodkiewicz",
+  "Description": "Ergonomic background internet solution",
+  "IncludeId": "consequuntur",
+  "Source": "incidunt",
+  "Registered": "2011-06-12T03:47:00.5036785+02:00",
+  "RegisteredBy": "ut",
+  "Updated": "2016-06-01T03:47:00.5036785+02:00",
+  "UpdatedBy": "facere",
+  "Path": "ut",
+  "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 784
+      "FieldType": "System.Int32",
+      "FieldLength": 730
     }
   }
 }

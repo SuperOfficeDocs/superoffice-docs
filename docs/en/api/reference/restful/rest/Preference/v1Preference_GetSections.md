@@ -2,6 +2,7 @@
 title: GET Preference
 uid: v1Preference_GetSections
 generated: true
+content_type: reference
 ---
 
 # GET Preference
@@ -68,7 +69,7 @@ OK
 GET /api/v1/Preference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,50 +80,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 87,
-    "Name": "Conn, Cronin and Collier",
-    "ToolTip": "Commodi ducimus et minima.",
+    "Id": 43,
+    "Name": "Wiza LLC",
+    "ToolTip": "Qui alias eius sint ut qui molestias ut.",
     "Deleted": false,
-    "Rank": 157,
-    "Type": "officia",
+    "Rank": 752,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 181,
-        "Name": "Tremblay, Konopelski and Gutmann",
-        "ToolTip": "Voluptate qui quas enim enim quis corporis ratione.",
-        "Deleted": false,
-        "Rank": 880,
-        "Type": "vel",
+        "Id": 320,
+        "Name": "Marquardt Group",
+        "ToolTip": "Neque sapiente odit.",
+        "Deleted": true,
+        "Rank": 372,
+        "Type": "distinctio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fugiat",
-        "ColorBlock": 665,
-        "ExtraInfo": "velit",
-        "StyleHint": "soluta",
-        "FullName": "Wilma Wolff",
+        "IconHint": "quae",
+        "ColorBlock": 71,
+        "ExtraInfo": "dolorem",
+        "StyleHint": "atque",
+        "FullName": "Mr. Gabe Brown",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 707
+            "FieldType": "System.String",
+            "FieldLength": 311
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 753,
-    "ExtraInfo": "voluptate",
-    "StyleHint": "deleniti",
-    "FullName": "Arch Fahey",
+    "IconHint": "nemo",
+    "ColorBlock": 262,
+    "ExtraInfo": "aperiam",
+    "StyleHint": "est",
+    "FullName": "Cullen Hunter Kemmer DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 111
+        "FieldLength": 106
       }
     }
   }

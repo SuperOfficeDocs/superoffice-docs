@@ -2,6 +2,7 @@
 title: PUT List/DeliveryType/Items/{id}/Headings
 uid: v1DeliveryTypeList_PutDeliveryTypeHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/DeliveryType/Items/{id}/Headings
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 859,
-    "Name": "Kunze LLC",
-    "ToolTip": "Recusandae officia.",
+    "Id": 132,
+    "Name": "Ritchie LLC",
+    "ToolTip": "Autem reprehenderit magnam ea.",
     "Deleted": false,
-    "Rank": 339,
-    "Type": "consequuntur",
-    "ColorBlock": 885,
-    "IconHint": "et",
+    "Rank": 314,
+    "Type": "neque",
+    "ColorBlock": 248,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2004-01-01T03:45:29.0296674+01:00",
+    "LastChanged": "2016-11-27T03:47:00.6442984+01:00",
     "ChildItems": [
       {
-        "Id": 950,
-        "Name": "Fay, Brown and Olson",
-        "ToolTip": "Et enim eum expedita aperiam ut dolore veritatis.",
+        "Id": 349,
+        "Name": "Powlowski Inc and Sons",
+        "ToolTip": "Nihil quo enim voluptate laboriosam maiores.",
         "Deleted": false,
-        "Rank": 125,
-        "Type": "consequatur",
-        "ColorBlock": 189,
-        "IconHint": "eius",
+        "Rank": 412,
+        "Type": "et",
+        "ColorBlock": 684,
+        "IconHint": "distinctio",
         "Selected": false,
-        "LastChanged": "2011-03-02T03:45:29.0296674+01:00",
+        "LastChanged": "2015-08-17T03:47:00.6442984+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "atque",
-        "Hidden": true,
-        "FullName": "Karson Mertz"
+        "ExtraInfo": "quam",
+        "StyleHint": "aspernatur",
+        "Hidden": false,
+        "FullName": "Ms. Anthony Heathcote DVM"
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "in",
+    "ExtraInfo": "non",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Alyce Tromp"
+    "FullName": "Efren Terry"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 684,
-    "Name": "Carroll-Goldner",
-    "ToolTip": "Et unde illo iusto aut a.",
-    "Deleted": true,
-    "Rank": 948,
-    "Type": "a",
-    "ColorBlock": 277,
-    "IconHint": "cupiditate",
+    "Id": 46,
+    "Name": "Will-Osinski",
+    "ToolTip": "Atque et nisi exercitationem aut tempore ea quisquam.",
+    "Deleted": false,
+    "Rank": 311,
+    "Type": "deserunt",
+    "ColorBlock": 70,
+    "IconHint": "error",
     "Selected": false,
-    "LastChanged": "2004-04-09T03:45:29.0296674+02:00",
+    "LastChanged": "2000-03-24T03:47:00.6442984+01:00",
     "ChildItems": [
       {
-        "Id": 877,
-        "Name": "Feil, Farrell and Stanton",
-        "ToolTip": "In et corporis occaecati.",
+        "Id": 696,
+        "Name": "Nitzsche LLC",
+        "ToolTip": "Unde ad magnam ipsum deleniti.",
         "Deleted": false,
-        "Rank": 161,
-        "Type": "autem",
-        "ColorBlock": 318,
-        "IconHint": "sequi",
+        "Rank": 983,
+        "Type": "quam",
+        "ColorBlock": 912,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2002-11-01T03:45:29.0296674+01:00",
+        "LastChanged": "2021-09-01T03:47:00.6442984+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "perferendis",
-        "Hidden": true,
-        "FullName": "Carter Rice",
+        "ExtraInfo": "illum",
+        "StyleHint": "mollitia",
+        "Hidden": false,
+        "FullName": "Cassandra Hirthe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 363
+            "FieldType": "System.String",
+            "FieldLength": 543
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "fugit",
-    "Hidden": true,
-    "FullName": "Domenick Schulist",
+    "ExtraInfo": "quo",
+    "StyleHint": "provident",
+    "Hidden": false,
+    "FullName": "Carlotta Runolfsson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 312
+        "FieldLength": 211
       }
     }
   }

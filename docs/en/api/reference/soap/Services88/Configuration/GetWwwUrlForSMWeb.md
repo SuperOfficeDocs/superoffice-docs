@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.GetWwwUrlForSMWeb SOAP
 generated: true
 uid: Services88-Configuration-GetWwwUrlForSMWeb
+content_type: reference
 ---
 
 # Services88 Configuration GetWwwUrlForSMWeb

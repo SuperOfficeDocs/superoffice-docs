@@ -2,6 +2,7 @@
 title: PUT List/DocumentTemplate/Items/{id}/UserGroups
 uid: v1DocumentTemplateList_PutDocumentTemplateEntityUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/DocumentTemplate/Items/{id}/UserGroups
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 381,
-    "Name": "Corwin-Runolfsdottir",
-    "ToolTip": "Harum repudiandae dolores.",
+    "Id": 846,
+    "Name": "Brekke-Hansen",
+    "ToolTip": "Ut et quo.",
     "Deleted": false,
-    "Rank": 409,
-    "Type": "architecto",
-    "ColorBlock": 470,
-    "IconHint": "magni",
-    "Selected": true,
-    "LastChanged": "2008-10-03T03:45:29.0452922+02:00",
+    "Rank": 748,
+    "Type": "iure",
+    "ColorBlock": 665,
+    "IconHint": "ullam",
+    "Selected": false,
+    "LastChanged": "2002-05-31T03:47:00.6599229+02:00",
     "ChildItems": [
       {
-        "Id": 25,
-        "Name": "Kilback, Will and Doyle",
-        "ToolTip": "Laboriosam sunt commodi officia quasi nesciunt dignissimos.",
+        "Id": 840,
+        "Name": "Stark, Koch and Hahn",
+        "ToolTip": "Ducimus quia dolor ut voluptatem.",
         "Deleted": false,
-        "Rank": 680,
-        "Type": "eligendi",
-        "ColorBlock": 741,
-        "IconHint": "non",
+        "Rank": 584,
+        "Type": "porro",
+        "ColorBlock": 722,
+        "IconHint": "nihil",
         "Selected": false,
-        "LastChanged": "2015-01-20T03:45:29.0452922+01:00",
+        "LastChanged": "2008-08-25T03:47:00.6599229+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "id",
-        "StyleHint": "labore",
+        "ExtraInfo": "aut",
+        "StyleHint": "doloremque",
         "Hidden": false,
-        "FullName": "Tyrel Lueilwitz"
+        "FullName": "Katrine Grant"
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "vero",
-    "Hidden": true,
-    "FullName": "Bertha Hirthe"
+    "ExtraInfo": "ea",
+    "StyleHint": "maiores",
+    "Hidden": false,
+    "FullName": "Ruby Baumbach I"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 801,
-    "Name": "Frami LLC",
-    "ToolTip": "Occaecati doloribus et qui voluptatem quos excepturi.",
-    "Deleted": true,
-    "Rank": 408,
-    "Type": "voluptates",
-    "ColorBlock": 574,
-    "IconHint": "qui",
+    "Id": 971,
+    "Name": "Jakubowski-Stroman",
+    "ToolTip": "Eos numquam sunt consequatur.",
+    "Deleted": false,
+    "Rank": 879,
+    "Type": "perferendis",
+    "ColorBlock": 464,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2005-08-25T03:45:29.0452922+02:00",
+    "LastChanged": "2000-12-23T03:47:00.6599229+01:00",
     "ChildItems": [
       {
-        "Id": 852,
-        "Name": "Littel, Bergnaum and Schuppe",
-        "ToolTip": "Corporis et est commodi doloribus ipsa quia blanditiis.",
+        "Id": 928,
+        "Name": "Zemlak Inc and Sons",
+        "ToolTip": "Reiciendis consequatur est enim ut.",
         "Deleted": false,
-        "Rank": 610,
-        "Type": "iste",
-        "ColorBlock": 42,
-        "IconHint": "voluptas",
-        "Selected": true,
-        "LastChanged": "2010-02-06T03:45:29.0452922+01:00",
+        "Rank": 221,
+        "Type": "ratione",
+        "ColorBlock": 102,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2000-03-08T03:47:00.6599229+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "laboriosam",
-        "Hidden": false,
-        "FullName": "Amina Hackett Jr.",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "optio",
+        "Hidden": true,
+        "FullName": "Ms. Garfield Amya Gleason II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 965
+            "FieldLength": 969
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "est",
+    "ExtraInfo": "quis",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Concepcion Ashlee Gleichner IV",
+    "FullName": "Fern Goldner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 305
+        "FieldType": "System.Int32",
+        "FieldLength": 103
       }
     }
   }

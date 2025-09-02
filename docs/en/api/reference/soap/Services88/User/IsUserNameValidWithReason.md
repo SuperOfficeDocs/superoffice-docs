@@ -2,6 +2,7 @@
 title: Services88.UserAgent.IsUserNameValidWithReason SOAP
 generated: true
 uid: Services88-User-IsUserNameValidWithReason
+content_type: reference
 ---
 
 # Services88 User IsUserNameValidWithReason

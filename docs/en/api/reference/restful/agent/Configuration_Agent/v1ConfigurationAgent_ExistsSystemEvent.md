@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/ExistsSystemEvent
 uid: v1ConfigurationAgent_ExistsSystemEvent
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/ExistsSystemEvent
@@ -72,7 +73,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "illo"
+  "Key": "qui"
 }
 ```
 

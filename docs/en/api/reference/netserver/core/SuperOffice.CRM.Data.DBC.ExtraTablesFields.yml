@@ -22,6 +22,7 @@ items:
   - SuperOffice.CRM.Data.DBC.ExtraTablesFields.ScreenChooserEntry
   - SuperOffice.CRM.Data.DBC.ExtraTablesFields.SearchHeader
   - SuperOffice.CRM.Data.DBC.ExtraTablesFields.SortOrder
+  - SuperOffice.CRM.Data.DBC.ExtraTablesFields.TableNumber
   - SuperOffice.CRM.Data.DBC.ExtraTablesFields.ViewEntryHeader
   langs:
   - csharp
@@ -426,6 +427,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const IconId As String = "icon_id"
+- uid: SuperOffice.CRM.Data.DBC.ExtraTablesFields.TableNumber
+  commentId: F:SuperOffice.CRM.Data.DBC.ExtraTablesFields.TableNumber
+  id: TableNumber
+  parent: SuperOffice.CRM.Data.DBC.ExtraTablesFields
+  langs:
+  - csharp
+  - vb
+  name: TableNumber
+  nameWithType: DBC.ExtraTablesFields.TableNumber
+  fullName: SuperOffice.CRM.Data.DBC.ExtraTablesFields.TableNumber
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'ExtraTables.TableNumber: Number of the table'
+  example: []
+  syntax:
+    content: public const string TableNumber = "table_number"
+    return:
+      type: System.String
+    content.vb: Public Const TableNumber As String = "table_number"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

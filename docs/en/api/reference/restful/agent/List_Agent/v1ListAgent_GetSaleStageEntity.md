@@ -2,6 +2,7 @@
 title: POST Agents/List/GetSaleStageEntity
 uid: v1ListAgent_GetSaleStageEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetSaleStageEntity
@@ -22,11 +23,11 @@ Gets a SaleStageEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| saleStageEntityId | int32 | **Required** The primary key. |
+| saleStageEntityId | int32 | **Required** The identifier of the SaleStageEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleStageEntity?saleStageEntityId=871
+POST /api/v1/Agents/List/GetSaleStageEntity?saleStageEntityId=196
 POST /api/v1/Agents/List/GetSaleStageEntity?$select=name,department,category/id
 ```
 
@@ -82,18 +83,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 551,
-  "Value": "assumenda",
-  "Tooltip": "id",
-  "Probability": 386,
+  "SaleStageId": 318,
+  "Value": "corporis",
+  "Tooltip": "ea",
+  "Probability": 164,
   "Deleted": true,
-  "Rank": 541,
+  "Rank": 934,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 255
+      "FieldType": "System.Int32",
+      "FieldLength": 780
     }
   }
 }

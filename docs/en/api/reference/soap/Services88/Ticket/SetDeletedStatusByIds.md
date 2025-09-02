@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.SetDeletedStatusByIds SOAP
 generated: true
 uid: Services88-Ticket-SetDeletedStatusByIds
+content_type: reference
 ---
 
 # Services88 Ticket SetDeletedStatusByIds

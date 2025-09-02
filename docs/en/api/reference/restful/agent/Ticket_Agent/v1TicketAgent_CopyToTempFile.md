@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/CopyToTempFile
 uid: v1TicketAgent_CopyToTempFile
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/CopyToTempFile
@@ -75,8 +76,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "et",
-  "AttachmentId": 689
+  "Filename": "dicta",
+  "AttachmentId": 467
 }
 ```
 
@@ -86,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"harum"
+"eligendi"
 ```

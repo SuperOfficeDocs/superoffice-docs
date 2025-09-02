@@ -2,6 +2,7 @@
 title: POST CRMScript
 uid: v1CRMScriptEntity_PostCRMScriptEntity
 generated: true
+content_type: reference
 ---
 
 # POST CRMScript
@@ -72,6 +73,7 @@ The CRMScriptEntity to be saved.
 | RegisteredAssociateId | Integer | Registered by whom |
 | Updated | String | Last updated when  in UTC. |
 | UpdatedAssociateId | Integer | Last updated by whom |
+| BlockedVerbs | String | The verbs that are blocked when calling a ejscript over HTTP |
 
 ## Response:
 
@@ -103,6 +105,7 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
+| BlockedVerbs | string | The verbs that are blocked when calling a ejscript over HTTP |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -113,52 +116,53 @@ OK
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 644,
-  "UniqueIdentifier": "necessitatibus",
-  "Name": "Wilkinson Inc and Sons",
-  "Description": "Mandatory didactic solution",
-  "IncludeId": "voluptatem",
-  "AccessKey": "officia",
-  "HierarchyId": 80,
-  "Source": "consectetur",
-  "SourceCode": "est",
+  "EjscriptId": 126,
+  "UniqueIdentifier": "doloremque",
+  "Name": "Casper Group",
+  "Description": "Re-contextualized bi-directional productivity",
+  "IncludeId": "corrupti",
+  "AccessKey": "cumque",
+  "HierarchyId": 143,
+  "Source": "ullam",
+  "SourceCode": "minima",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 466,
+  "HtmlOutput": 177,
   "Includes": [
-    579,
-    912
+    825,
+    171
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 75,
-      "LineNumberTo": 173,
-      "Delta": 677,
-      "IncludeId": "est",
+      "LineNumberFrom": 957,
+      "LineNumberTo": 524,
+      "Delta": 476,
+      "IncludeId": "aspernatur",
       "IncludedFrom": [
-        "eum",
-        "molestiae"
+        "cum",
+        "eveniet"
       ]
     },
     {
-      "LineNumberFrom": 75,
-      "LineNumberTo": 173,
-      "Delta": 677,
-      "IncludeId": "est",
+      "LineNumberFrom": 957,
+      "LineNumberTo": 524,
+      "Delta": 476,
+      "IncludeId": "aspernatur",
       "IncludedFrom": [
-        "eum",
-        "molestiae"
+        "cum",
+        "eveniet"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2023-09-28T03:45:28.2955692+02:00",
-  "RegisteredAssociateId": 586,
-  "Updated": "2023-04-14T03:45:28.2955692+02:00",
-  "UpdatedAssociateId": 928
+  "Registered": "2011-04-23T03:46:59.8943184+02:00",
+  "RegisteredAssociateId": 183,
+  "Updated": "2012-11-30T03:46:59.8943184+01:00",
+  "UpdatedAssociateId": 791,
+  "BlockedVerbs": "BlockAll"
 }
 ```
 
@@ -169,52 +173,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 983,
-  "UniqueIdentifier": "iste",
-  "Name": "Medhurst, Sporer and Bauch",
-  "Description": "Upgradable reciprocal flexibility",
-  "IncludeId": "est",
-  "AccessKey": "sit",
-  "HierarchyId": 55,
-  "Source": "nisi",
-  "SourceCode": "consequatur",
+  "EjscriptId": 416,
+  "UniqueIdentifier": "quaerat",
+  "Name": "Shields-Crona",
+  "Description": "Versatile system-worthy policy",
+  "IncludeId": "omnis",
+  "AccessKey": "ad",
+  "HierarchyId": 812,
+  "Source": "vel",
+  "SourceCode": "aut",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 792,
+  "HtmlOutput": 540,
   "Includes": [
-    223,
-    973
+    871,
+    396
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 917,
-      "LineNumberTo": 953,
-      "Delta": 2,
-      "IncludeId": "fugiat",
+      "LineNumberFrom": 79,
+      "LineNumberTo": 660,
+      "Delta": 962,
+      "IncludeId": "officiis",
       "IncludedFrom": [
-        "aliquid",
-        "et"
+        "earum",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 654
+          "FieldLength": 329
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2005-10-02T03:45:28.2955692+02:00",
-  "RegisteredAssociateId": 592,
-  "Updated": "2016-08-04T03:45:28.2955692+02:00",
-  "UpdatedAssociateId": 770,
+  "Registered": "2001-06-01T03:46:59.8943184+02:00",
+  "RegisteredAssociateId": 872,
+  "Updated": "2004-07-31T03:46:59.8943184+02:00",
+  "UpdatedAssociateId": 382,
+  "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 114
+      "FieldLength": 702
     }
   },
   "_Links": {

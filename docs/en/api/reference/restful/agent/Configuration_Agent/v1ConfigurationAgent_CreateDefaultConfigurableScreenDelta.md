@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/CreateDefaultConfigurableScreenDelta
 uid: v1ConfigurationAgent_CreateDefaultConfigurableScreenDelta
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/CreateDefaultConfigurableScreenDelta
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 ```
 
-Set default values into a new ConfigurableScreenDelta.
+Loading default values into a new ConfigurableScreenDelta.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -69,7 +68,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,28 +78,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 687,
-  "Name": "Beer Group",
-  "Description": "Synergistic mobile conglomeration",
-  "DeltaJson": "sunt",
+  "ConfigurableScreenDeltaId": 215,
+  "Name": "Kunde Inc and Sons",
+  "Description": "Team-oriented systematic database",
+  "DeltaJson": "voluptate",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "dolor",
-  "UpdatedDate": "2012-06-25T03:45:23.0767156+02:00",
-  "CreatedDate": "2024-05-01T03:45:23.0767156+02:00",
+  "RecipeId": "ut",
+  "UpdatedDate": "2022-05-26T03:46:54.4570178+02:00",
+  "CreatedDate": "2003-07-08T03:46:54.4570178+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    942,
-    714
+    496,
+    391
   ],
-  "AppliesToKey": "non",
+  "AppliesToKey": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 280
+      "FieldLength": 271
     }
   }
 }

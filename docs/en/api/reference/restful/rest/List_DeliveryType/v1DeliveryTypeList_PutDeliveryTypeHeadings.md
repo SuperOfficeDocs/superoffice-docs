@@ -2,6 +2,7 @@
 title: PUT List/DeliveryType/Headings
 uid: v1DeliveryTypeList_PutDeliveryTypeHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/DeliveryType/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 27,
-    "Name": "McGlynn-Schaden",
-    "Tooltip": "in",
+    "HeadingId": 825,
+    "Name": "Altenwerth-Wolff",
+    "Tooltip": "temporibus",
     "Deleted": false,
-    "Rank": 681,
-    "UdListDefinitionId": 648
+    "Rank": 124,
+    "UdListDefinitionId": 17
   },
   {
-    "HeadingId": 27,
-    "Name": "McGlynn-Schaden",
-    "Tooltip": "in",
+    "HeadingId": 825,
+    "Name": "Altenwerth-Wolff",
+    "Tooltip": "temporibus",
     "Deleted": false,
-    "Rank": 681,
-    "UdListDefinitionId": 648
+    "Rank": 124,
+    "UdListDefinitionId": 17
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 298,
-    "Name": "Lubowitz LLC",
-    "Tooltip": "officiis",
-    "Deleted": false,
-    "Rank": 217,
-    "UdListDefinitionId": 506,
+    "HeadingId": 801,
+    "Name": "Nolan-Tromp",
+    "Tooltip": "error",
+    "Deleted": true,
+    "Rank": 166,
+    "UdListDefinitionId": 425,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 160
+        "FieldType": "System.String",
+        "FieldLength": 877
       }
     }
   }

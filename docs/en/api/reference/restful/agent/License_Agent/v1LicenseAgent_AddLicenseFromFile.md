@@ -2,6 +2,7 @@
 title: POST Agents/License/AddLicenseFromFile
 uid: v1LicenseAgent_AddLicenseFromFile
 generated: true
+content_type: reference
 ---
 
 # POST Agents/License/AddLicenseFromFile
@@ -76,11 +77,11 @@ OK
 POST /api/v1/Agents/License/AddLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "ab"
+  "FileContent": "labore"
 }
 ```
 
@@ -92,21 +93,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 954,
-      "NumberOfLicensesFree": 597,
-      "NumberOfLicensesAdded": 595,
-      "NumberOfLicensesNewTotal": 9,
-      "NumberOfLicensesNewFree": 530,
-      "NumberOfLicensesTotal": 209
+      "NumberOfLicensesInUse": 483,
+      "NumberOfLicensesFree": 618,
+      "NumberOfLicensesAdded": 118,
+      "NumberOfLicensesNewTotal": 316,
+      "NumberOfLicensesNewFree": 584,
+      "NumberOfLicensesTotal": 235
     }
   ],
-  "AccumulatedNextCheckDate": "2005-10-25T03:45:23.498579+02:00"
+  "AccumulatedNextCheckDate": "2009-11-16T03:46:54.9107593+01:00"
 }
 ```

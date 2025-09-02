@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.BreakActorLink SOAP
 generated: true
 uid: Services88-ErpSync-BreakActorLink
+content_type: reference
 ---
 
 # Services88 ErpSync BreakActorLink

@@ -2,6 +2,7 @@
 title: GET List/Credited/Items/Default
 uid: v1CreditedList_CreateDefaultCredited
 generated: true
+content_type: reference
 ---
 
 # GET List/Credited/Items/Default
@@ -60,7 +61,7 @@ OK
 GET /api/v1/List/Credited/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 106,
-  "Name": "Becker, Daugherty and Champlin",
-  "Tooltip": "animi",
-  "Deleted": true,
-  "UdListDefinitionId": 114,
-  "Rank": 478,
+  "Id": 971,
+  "Name": "Kohler, Bosco and Blick",
+  "Tooltip": "sequi",
+  "Deleted": false,
+  "UdListDefinitionId": 470,
+  "Rank": 963,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 536
+      "FieldType": "System.Int32",
+      "FieldLength": 403
     }
   }
 }

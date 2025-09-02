@@ -2,6 +2,7 @@
 title: POST Agents/Preference/GetFromSectionAndKey
 uid: v1PreferenceAgent_GetFromSectionAndKey
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/GetFromSectionAndKey
@@ -91,12 +92,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "placeat",
-  "Key": "est"
+  "Section": "est",
+  "Key": "rem"
 }
 ```
 
@@ -107,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 485,
-  "Section": "cupiditate",
-  "Key": "at",
-  "Name": "Kessler-Witting",
+  "PrefDescId": 620,
+  "Section": "et",
+  "Key": "enim",
+  "Name": "Koepp, Cruickshank and Ullrich",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Advanced disintermediate infrastructure",
-  "IsBuiltin": true,
-  "TableName": "Walter Inc and Sons",
-  "UserDefinedListId": 543,
-  "Rank": 984,
-  "SubGroup": "quia",
-  "MinLevel": 119,
-  "MaxValue": 988,
-  "MinValue": 888,
-  "RequiredLicense": "ad",
+  "Description": "User-friendly fresh-thinking Graphical User Interface",
+  "IsBuiltin": false,
+  "TableName": "Rosenbaum Group",
+  "UserDefinedListId": 587,
+  "Rank": 705,
+  "SubGroup": "et",
+  "MinLevel": 178,
+  "MaxValue": 24,
+  "MinValue": 42,
+  "RequiredLicense": "ratione",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 294
+      "FieldType": "System.String",
+      "FieldLength": 941
     }
   }
 }

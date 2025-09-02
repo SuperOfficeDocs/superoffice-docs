@@ -2,6 +2,7 @@
 title: POST Agents/Webhook/GetAllWebhooks
 uid: v1WebhookAgent_GetAllWebhooks
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Webhook/GetAllWebhooks
@@ -88,12 +89,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Zieme Group",
-  "EventFilter": "adipisci",
+  "NameFilter": "Prohaska Group",
+  "EventFilter": "est",
   "StatusFilter": "Active"
 }
 ```
@@ -106,28 +107,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 829,
-    "Name": "Wisozk Group",
+    "WebhookId": 112,
+    "Name": "Stamm Inc and Sons",
     "Events": [
-      "sapiente",
-      "quae"
+      "itaque",
+      "expedita"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "dolorem",
+    "Secret": "occaecati",
     "State": "Active",
-    "Type": "in",
+    "Type": "quam",
     "Headers": {
-      "Headers1": "pariatur",
-      "Headers2": "blanditiis"
+      "Headers1": "est",
+      "Headers2": "magnam"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2017-05-31T03:45:24.2173078+02:00",
+    "Registered": "2005-12-18T03:46:55.6444757+01:00",
     "RegisteredAssociate": null,
-    "Updated": "1999-08-04T03:45:24.2173078+02:00",
+    "Updated": "2012-12-01T03:46:55.6444757+01:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "kiel@fahey.us"
+    "ErrorsEmail": "kaitlin@mckenzie.com"
   }
 ]
 ```

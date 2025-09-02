@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveHeadingsForListItemFromListDefinition
 uid: v1ListAgent_SaveHeadingsForListItemFromListDefinition
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveHeadingsForListItemFromListDefinition
@@ -89,32 +90,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 50,
-  "ListItemId": 117,
+  "UdListDefinitionId": 464,
+  "ListItemId": 468,
   "Headings": [
     {
-      "Id": 343,
-      "Name": "Sawayn-Harvey",
-      "ToolTip": "Rem et perferendis nobis architecto.",
-      "Deleted": false,
-      "Rank": 714,
-      "Type": "possimus",
-      "ColorBlock": 921,
-      "IconHint": "fugit",
+      "Id": 567,
+      "Name": "Shields, Balistreri and Tremblay",
+      "ToolTip": "Ipsam sed sint aut enim.",
+      "Deleted": true,
+      "Rank": 575,
+      "Type": "id",
+      "ColorBlock": 841,
+      "IconHint": "ex",
       "Selected": true,
-      "LastChanged": "2021-09-25T03:45:23.5927257+02:00",
+      "LastChanged": "2008-03-08T03:46:54.9569999+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "in",
+      "ExtraInfo": "ullam",
+      "StyleHint": "nemo",
       "Hidden": true,
-      "FullName": "Betty Cremin"
+      "FullName": "Mr. Vincenza Raynor DDS"
     }
   ]
 }
@@ -128,56 +129,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 245,
-    "Name": "Schultz, Powlowski and Stokes",
-    "ToolTip": "Dolor ipsam in doloremque eos et aut.",
+    "Id": 947,
+    "Name": "Daugherty LLC",
+    "ToolTip": "Nesciunt repellat expedita.",
     "Deleted": false,
-    "Rank": 801,
-    "Type": "sed",
-    "ColorBlock": 180,
-    "IconHint": "architecto",
-    "Selected": false,
-    "LastChanged": "2002-02-18T03:45:23.5927257+01:00",
+    "Rank": 397,
+    "Type": "aliquam",
+    "ColorBlock": 434,
+    "IconHint": "perspiciatis",
+    "Selected": true,
+    "LastChanged": "1998-07-06T03:46:54.9569999+02:00",
     "ChildItems": [
       {
-        "Id": 491,
-        "Name": "Wiegand, Mueller and Rowe",
-        "ToolTip": "Dolores odit provident vel aspernatur ut ullam.",
+        "Id": 619,
+        "Name": "Gaylord, Quigley and Volkman",
+        "ToolTip": "Est quia.",
         "Deleted": false,
-        "Rank": 317,
-        "Type": "quia",
-        "ColorBlock": 405,
-        "IconHint": "saepe",
-        "Selected": false,
-        "LastChanged": "2002-10-31T03:45:23.5927257+01:00",
+        "Rank": 488,
+        "Type": "sed",
+        "ColorBlock": 81,
+        "IconHint": "eaque",
+        "Selected": true,
+        "LastChanged": "2001-08-14T03:46:54.9569999+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "sit",
+        "ExtraInfo": "illo",
+        "StyleHint": "neque",
         "Hidden": false,
-        "FullName": "Prof. Osbaldo Jackeline Huels",
+        "FullName": "Ike Grimes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 782
+            "FieldLength": 732
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "rerum",
+    "ExtraInfo": "qui",
+    "StyleHint": "accusantium",
     "Hidden": false,
-    "FullName": "Jane Rosenbaum",
+    "FullName": "Adaline Fadel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 353
+        "FieldLength": 792
       }
     }
   }

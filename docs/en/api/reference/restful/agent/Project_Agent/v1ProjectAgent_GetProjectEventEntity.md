@@ -2,6 +2,7 @@
 title: POST Agents/Project/GetProjectEventEntity
 uid: v1ProjectAgent_GetProjectEventEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/GetProjectEventEntity
@@ -22,11 +23,11 @@ Gets a ProjectEventEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| projectEventEntityId | int32 | **Required** The primary key. |
+| projectEventEntityId | int32 | **Required** The identifier of the ProjectEventEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=753
+POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=190
 POST /api/v1/Agents/Project/GetProjectEventEntity?$select=name,department,category/id
 ```
 
@@ -96,7 +97,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -106,79 +107,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "sint",
-  "SignOffText": "excepturi",
-  "SignOnConfirmationText": "ea",
-  "SignOnText": "porro",
-  "EventDate": "2000-07-13T03:45:23.7798203+02:00",
-  "Enabled": false,
-  "CreatedDate": "2011-10-12T03:45:23.7798203+02:00",
-  "SignOff": false,
+  "SignOffConfirmationText": "commodi",
+  "SignOffText": "accusamus",
+  "SignOnConfirmationText": "quo",
+  "SignOnText": "quis",
+  "EventDate": "2012-10-29T03:46:55.1601179+01:00",
+  "Enabled": true,
+  "CreatedDate": "2022-06-11T03:46:55.1601179+02:00",
+  "SignOff": true,
   "SignOffTaskEnable": true,
-  "SignOffTaskId": 400,
-  "SignOffTriggersAssign": false,
-  "SignOn": true,
+  "SignOffTaskId": 52,
+  "SignOffTriggersAssign": true,
+  "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 969,
+  "SignOnTaskId": 188,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2016-02-06T03:45:23.7798203+01:00",
+  "UpdatedDate": "1998-04-25T03:46:55.1601179+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 136,
-  "Id": 556,
-  "PublishFrom": "2013-05-19T03:45:23.7798203+02:00",
+  "ProjectId": 534,
+  "Id": 553,
+  "PublishFrom": "2013-08-11T03:46:55.1601179+02:00",
   "PublishType": "External",
-  "PublishTo": "2019-08-14T03:45:23.7798203+02:00",
+  "PublishTo": "2005-06-11T03:46:55.1601179+02:00",
   "VisibleForCategories": [
     {
-      "Id": 328,
-      "Name": "Lindgren Inc and Sons",
-      "ToolTip": "Officia accusamus.",
+      "Id": 347,
+      "Name": "Hauck Group",
+      "ToolTip": "Harum expedita est.",
       "Deleted": true,
-      "Rank": 166,
-      "Type": "voluptate",
+      "Rank": 271,
+      "Type": "fuga",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quidem",
-      "ColorBlock": 412,
-      "ExtraInfo": "odio",
-      "StyleHint": "reprehenderit",
-      "FullName": "Khalil Sawayn Sr.",
+      "IconHint": "incidunt",
+      "ColorBlock": 238,
+      "ExtraInfo": "sint",
+      "StyleHint": "numquam",
+      "FullName": "Mckenzie Hand",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 4
+          "FieldLength": 872
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 649,
-      "Name": "Schuppe LLC",
-      "ToolTip": "In qui mollitia sit.",
-      "Deleted": false,
-      "Rank": 667,
-      "Type": "voluptatem",
+      "Id": 706,
+      "Name": "Jast-Kertzmann",
+      "ToolTip": "Est veritatis impedit dignissimos quia.",
+      "Deleted": true,
+      "Rank": 433,
+      "Type": "ea",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "tenetur",
-      "ColorBlock": 223,
-      "ExtraInfo": "cumque",
-      "StyleHint": "iure",
-      "FullName": "Bud Lebsack",
+      "IconHint": "numquam",
+      "ColorBlock": 212,
+      "ExtraInfo": "enim",
+      "StyleHint": "nostrum",
+      "FullName": "Kyler Jast",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 480
+          "FieldLength": 376
         }
       }
     }
@@ -186,14 +187,14 @@ Content-Type: application/json; charset=utf-8
   "IsPublished": false,
   "IsVisibleForMembers": false,
   "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 315,
+  "IsVisibleForPersonInterests": true,
+  "ProjectEventId": 797,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 881
+      "FieldType": "System.String",
+      "FieldLength": 141
     }
   }
 }

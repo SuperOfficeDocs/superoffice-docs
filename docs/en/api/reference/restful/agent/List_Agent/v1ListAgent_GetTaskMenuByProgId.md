@@ -2,6 +2,7 @@
 title: POST Agents/List/GetTaskMenuByProgId
 uid: v1ListAgent_GetTaskMenuByProgId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetTaskMenuByProgId
@@ -86,11 +87,11 @@ OK
 POST /api/v1/Agents/List/GetTaskMenuByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "eum"
+  "ProgId": "at"
 }
 ```
 
@@ -101,26 +102,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 628,
-  "Name": "Thompson, Davis and Kreiger",
-  "Tooltip": "vitae",
-  "TableName": "Volkman, Gibson and Rippin",
-  "Area": "praesentium",
+  "TaskMenuId": 607,
+  "Name": "Thompson-Hartmann",
+  "Tooltip": "aut",
+  "TableName": "Kozey-Volkman",
+  "Area": "reiciendis",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 521,
+  "CrmScriptId": 37,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 479,
+  "Rank": 458,
   "Encoding": "ANSI",
-  "ProgId": "totam",
-  "Deleted": false,
+  "ProgId": "et",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldType": "System.String",
+      "FieldLength": 647
     }
   }
 }

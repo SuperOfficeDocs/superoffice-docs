@@ -2,6 +2,7 @@
 title: POST Agents/AI/GuessCategory
 uid: v1AIAgent_GuessCategory
 generated: true
+content_type: reference
 ---
 
 # POST Agents/AI/GuessCategory
@@ -70,11 +71,11 @@ OK
 POST /api/v1/Agents/AI/GuessCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 582
+  "TicketId": 785
 }
 ```
 
@@ -84,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-773
+255
 ```

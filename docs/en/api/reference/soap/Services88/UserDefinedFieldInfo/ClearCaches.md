@@ -2,6 +2,7 @@
 title: Services88.UserDefinedFieldInfoAgent.ClearCaches SOAP
 generated: true
 uid: Services88-UserDefinedFieldInfo-ClearCaches
+content_type: reference
 ---
 
 # Services88 UserDefinedFieldInfo ClearCaches

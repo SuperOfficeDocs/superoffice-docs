@@ -2,14 +2,10 @@
 uid: listagent-script-events
 title: ListAgent script event methods
 description: NetServer script event methods.
-keywords: netserver scripting
-author: SuperOffice Product and Engineering
-date: 06.12.2025
 generated: true
-category: automation
-topic: NetServer scripting
+keywords: netserver scripting
 content_type: reference
-deployment: onsite
+envir: onsite
 ---
 
 # ListAgent method listing
@@ -21,6 +17,7 @@ Service methods defined on <see cref='T:IListAgent'>ListAgent</see> that can tri
 * [AddHierarchyToPathAsync](addhierarchytopathasync.md)
 * [ChangeCurrencyAsync](changecurrencyasync.md)
 * [CreateDefaultAmountClassEntityAsync](createdefaultamountclassentityasync.md)
+* [CreateDefaultCategoryEntityAsync](createdefaultcategoryentityasync.md)
 * [CreateDefaultCountryAsync](createdefaultcountryasync.md)
 * [CreateDefaultCurrencyEntityAsync](createdefaultcurrencyentityasync.md)
 * [CreateDefaultDocumentTemplateEntityAsync](createdefaultdocumenttemplateentityasync.md)
@@ -90,6 +87,7 @@ Service methods defined on <see cref='T:IListAgent'>ListAgent</see> that can tri
 * [GetBusinessListAsync](getbusinesslistasync.md)
 * [GetCategoriesAsync](getcategoriesasync.md)
 * [GetCategoryAsync](getcategoryasync.md)
+* [GetCategoryEntityAsync](getcategoryentityasync.md)
 * [GetCategoryListAsync](getcategorylistasync.md)
 * [GetCompetitorAsync](getcompetitorasync.md)
 * [GetCompetitorListAsync](getcompetitorlistasync.md)
@@ -257,6 +255,7 @@ Service methods defined on <see cref='T:IListAgent'>ListAgent</see> that can tri
 * [SaveAllFromListDefinitionAsync](saveallfromlistdefinitionasync.md)
 * [SaveAllFromListNameAsync](saveallfromlistnameasync.md)
 * [SaveAmountClassEntityAsync](saveamountclassentityasync.md)
+* [SaveCategoryEntityAsync](savecategoryentityasync.md)
 * [SaveConsentPurposeAsync](saveconsentpurposeasync.md)
 * [SaveConsentSourceAsync](saveconsentsourceasync.md)
 * [SaveCountryAsync](savecountryasync.md)
@@ -314,3 +313,4 @@ Service methods defined on <see cref='T:IListAgent'>ListAgent</see> that can tri
 * [SortListItemsAsync](sortlistitemsasync.md)
 * [UpdateCategoryMembershipsAsync](updatecategorymembershipsasync.md)
 * [UpdateHierarchyFromPathAsync](updatehierarchyfrompathasync.md)
+

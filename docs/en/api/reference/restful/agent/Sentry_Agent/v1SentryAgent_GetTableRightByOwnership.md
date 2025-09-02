@@ -2,6 +2,7 @@
 title: POST Agents/Sentry/GetTableRightByOwnership
 uid: v1SentryAgent_GetTableRightByOwnership
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sentry/GetTableRightByOwnership
@@ -74,13 +75,13 @@ OK
 POST /api/v1/Agents/Sentry/GetTableRightByOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kiehn, Stiedemann and Bergstrom",
-  "ContactGroupId": 74,
-  "ContactAssociateId": 930
+  "TableName": "Beer Group",
+  "ContactGroupId": 229,
+  "ContactAssociateId": 927
 }
 ```
 
@@ -91,7 +92,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Mask": "Delete",
+  "Mask": "laboriosam",
   "Reason": ""
 }
 ```

@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetCsProgramUrl
 uid: v1ConfigurationAgent_GetCsProgramUrl
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetCsProgramUrl
@@ -71,14 +72,14 @@ OK
 POST /api/v1/Agents/Configuration/GetCsProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "eveniet",
-  "ProgramName": "Hickle-Heidenreich",
-  "Action": "libero",
-  "ExtraParameters": "qui"
+  "Language": "aut",
+  "ProgramName": "Hyatt-Stamm",
+  "Action": "voluptatem",
+  "ExtraParameters": "porro"
 }
 ```
 

@@ -3,9 +3,9 @@ uid: AppointmentShadowSelectionCombinedV2
 title: AppointmentShadowSelectionCombinedV2
 description: Implementation of the provider for the combined selection
 keywords: AppointmentShadowSelectionCombinedV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "AppointmentShadowSelectionCombinedV2"
@@ -742,7 +742,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowSelectionCombinedV2?$select=contact/contactPhone/formattedNumber,contact/contactAssociate/isActiveText,person/personAssociateId,project/projectUdef/SuperOffice:7,project/projectUdef/SuperOffice:9
+GET /api/v1/archive/AppointmentShadowSelectionCombinedV2?$select=intention,suggestedAppointmentId,appointmentPublish/isPublished,contact/nameDepartment,contact/registeredDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

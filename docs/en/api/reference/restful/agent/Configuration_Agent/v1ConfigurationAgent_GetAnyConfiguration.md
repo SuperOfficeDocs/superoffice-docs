@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetAnyConfiguration
 uid: v1ConfigurationAgent_GetAnyConfiguration
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetAnyConfiguration
@@ -73,14 +74,14 @@ OK
 POST /api/v1/Agents/Configuration/GetAnyConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "rerum",
-  "Instance": "voluptas",
-  "Item": "reprehenderit",
-  "Type": "quae"
+  "Application": "accusamus",
+  "Instance": "saepe",
+  "Item": "id",
+  "Type": "est"
 }
 ```
 
@@ -90,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"natus"
+"ipsum"
 ```

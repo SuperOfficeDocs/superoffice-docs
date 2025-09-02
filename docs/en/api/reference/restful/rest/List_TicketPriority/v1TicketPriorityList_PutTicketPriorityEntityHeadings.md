@@ -2,6 +2,7 @@
 title: PUT List/TicketPriority/Headings
 uid: v1TicketPriorityList_PutTicketPriorityEntityHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/TicketPriority/Headings
@@ -80,20 +81,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 117,
-    "Name": "Johnston, Schowalter and O'Kon",
-    "Tooltip": "sit",
+    "HeadingId": 77,
+    "Name": "Thiel Inc and Sons",
+    "Tooltip": "voluptates",
     "Deleted": false,
-    "Rank": 22,
-    "UdListDefinitionId": 637
+    "Rank": 741,
+    "UdListDefinitionId": 693
   },
   {
-    "HeadingId": 117,
-    "Name": "Johnston, Schowalter and O'Kon",
-    "Tooltip": "sit",
+    "HeadingId": 77,
+    "Name": "Thiel Inc and Sons",
+    "Tooltip": "voluptates",
     "Deleted": false,
-    "Rank": 22,
-    "UdListDefinitionId": 637
+    "Rank": 741,
+    "UdListDefinitionId": 693
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 105,
-    "Name": "Hodkiewicz-Jast",
-    "Tooltip": "id",
+    "HeadingId": 788,
+    "Name": "Mraz-Robel",
+    "Tooltip": "labore",
     "Deleted": false,
-    "Rank": 355,
-    "UdListDefinitionId": 349,
+    "Rank": 429,
+    "UdListDefinitionId": 617,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 606
+        "FieldLength": 550
       }
     }
   }

@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetReasonSold SOAP
 generated: true
 uid: Services88-List-GetReasonSold
+content_type: reference
 ---
 
 # Services88 List GetReasonSold

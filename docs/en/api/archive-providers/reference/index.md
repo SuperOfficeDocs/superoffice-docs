@@ -3,9 +3,9 @@ uid: archiveproviderslist
 title: Archive Provider List
 description: This is a list of all the valid provider names, and the associated column names and types.
 keywords: archive providers
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # Archive Providers
@@ -42,6 +42,9 @@ This is a list of all the valid provider names, and the associated column names 
 * [AppointmentStaticSelection](AppointmentStaticSelection.md)
 * [AppointmentStaticSelectionV2](AppointmentStaticSelectionV2.md)
 * [AppointmentUpdatedNotification](AppointmentUpdatedNotification.md)
+* [AssignmentCompanyNotification](AssignmentCompanyNotification.md)
+* [AssignmentNotification](AssignmentNotification.md)
+* [AssignmentPersonNotification](AssignmentPersonNotification.md)
 * [AssignResponseInvitation](AssignResponseInvitation.md)
 * [AssociateProjectDynamicSelection](AssociateProjectDynamicSelection.md)
 * [AssociateProjectDynamicSelectionV2](AssociateProjectDynamicSelectionV2.md)
@@ -91,6 +94,7 @@ This is a list of all the valid provider names, and the associated column names 
 * [CustomObject](CustomObject.md)
 * [CustomObjectDynamicSelectionSingleCriteriaGroup](CustomObjectDynamicSelectionSingleCriteriaGroup.md)
 * [CustomObjectDynamicSelectionV2](CustomObjectDynamicSelectionV2.md)
+* [customobjectfavourites](customobjectfavourites.md)
 * [CustomObjectSelectionCombinedV2](CustomObjectSelectionCombinedV2.md)
 * [CustomObjectSelectionV2](CustomObjectSelectionV2.md)
 * [CustomObjectStaticSelectionV2](CustomObjectStaticSelectionV2.md)

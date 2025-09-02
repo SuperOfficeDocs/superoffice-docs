@@ -2,6 +2,7 @@
 title: Services88.AIAgent.GetChatbotTurns SOAP
 generated: true
 uid: Services88-AI-GetChatbotTurns
+content_type: reference
 ---
 
 # Services88 AI GetChatbotTurns
@@ -64,7 +65,7 @@ Application tokens must be specified if calling an Online installation. Applicat
   <AI:GetChatbotTurnsResponse>
    <AI:Response xsi:type="AI:ArrayOfChatbotTurn">
     <AI:ChatbotTurn xsi:type="AI:ChatbotTurn">
-     <AI:Timestamp xsi:type="xsd:dateTime">2025-06-26T01:42:42Z</AI:Timestamp>
+     <AI:Timestamp xsi:type="xsd:dateTime">2025-08-30T01:44:15Z</AI:Timestamp>
      <AI:UserPrompt xsi:type="xsd:string"></AI:UserPrompt>
      <AI:UserDisplayText xsi:type="xsd:string"></AI:UserDisplayText>
      <AI:BotResponse xsi:type="xsd:string"></AI:BotResponse>

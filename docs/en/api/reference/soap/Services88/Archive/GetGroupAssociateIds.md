@@ -2,6 +2,7 @@
 title: Services88.ArchiveAgent.GetGroupAssociateIds SOAP
 generated: true
 uid: Services88-Archive-GetGroupAssociateIds
+content_type: reference
 ---
 
 # Services88 Archive GetGroupAssociateIds

@@ -2,6 +2,7 @@
 title: Services88.AssociateAgent.GetAssociatesByGroup SOAP
 generated: true
 uid: Services88-Associate-GetAssociatesByGroup
+content_type: reference
 ---
 
 # Services88 Associate GetAssociatesByGroup
@@ -77,6 +78,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Associate:Deleted xsi:type="xsd:boolean">false</Associate:Deleted>
      <Associate:EjUserId xsi:type="xsd:int">0</Associate:EjUserId>
      <Associate:UserName xsi:type="xsd:string"></Associate:UserName>
+     <Associate:ExtraFields xsi:type="Associate:StringDictionary">
+      <Associate:StringKeyValuePair>
+       <Associate:Key xsi:type="xsd:string"></Associate:Key>
+       <Associate:Value xsi:type="xsd:string"></Associate:Value>
+      </Associate:StringKeyValuePair>
+     </Associate:ExtraFields>
+     <Associate:CustomFields xsi:type="Associate:StringDictionary">
+      <Associate:StringKeyValuePair>
+       <Associate:Key xsi:type="xsd:string"></Associate:Key>
+       <Associate:Value xsi:type="xsd:string"></Associate:Value>
+      </Associate:StringKeyValuePair>
+     </Associate:CustomFields>
     </Associate:Associate>
    </Associate:Response>
   </Associate:GetAssociatesByGroupResponse>

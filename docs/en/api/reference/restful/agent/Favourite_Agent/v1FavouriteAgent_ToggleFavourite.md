@@ -2,6 +2,7 @@
 title: POST Agents/Favourite/ToggleFavourite
 uid: v1FavouriteAgent_ToggleFavourite
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Favourite/ToggleFavourite
@@ -75,10 +76,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Reynolds Group",
-  "RecordId": 288,
-  "AssociateId": 438,
-  "ExtraInfo": "itaque"
+  "TableName": "Schulist-Walker",
+  "RecordId": 287,
+  "AssociateId": 55,
+  "ExtraInfo": "est"
 }
 ```
 

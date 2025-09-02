@@ -2,6 +2,7 @@
 title: POST Agents/List/GetWebPanelList
 uid: v1ListAgent_GetWebPanelList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetWebPanelList
@@ -86,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetWebPanelList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,34 +98,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 891,
-    "Name": "Howell LLC",
-    "Tooltip": "illum",
+    "WebPanelId": 697,
+    "Name": "O'Keefe, Wyman and Kshlerin",
+    "Tooltip": "voluptas",
     "Deleted": true,
-    "Rank": 394,
+    "Rank": 407,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
     "OnSatellite": false,
-    "OnTravel": false,
-    "OnSalesMarketingWeb": true,
-    "OnSalesMarketingPocket": false,
+    "OnTravel": true,
+    "OnSalesMarketingWeb": false,
+    "OnSalesMarketingPocket": true,
     "ShowInMenuBar": false,
     "ShowInToolBar": false,
     "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Nikolaus, Blanda and Funk",
+    "WindowName": "Stiedemann, Kiehn and Boehm",
     "Url": "http://www.example.com/",
-    "ProgId": "voluptatem",
-    "Icon": 1001,
-    "AlwaysReloadOnShow": false,
-    "NeverReloadOnCurrentChange": false,
+    "ProgId": "est",
+    "Icon": 479,
+    "AlwaysReloadOnShow": true,
+    "NeverReloadOnCurrentChange": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 910
+        "FieldLength": 793
       }
     }
   }

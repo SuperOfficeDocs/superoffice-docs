@@ -2,6 +2,7 @@
 title: Services88.ViewStateAgent.GetLiveUiConfig SOAP
 generated: true
 uid: Services88-ViewState-GetLiveUiConfig
+content_type: reference
 ---
 
 # Services88 ViewState GetLiveUiConfig

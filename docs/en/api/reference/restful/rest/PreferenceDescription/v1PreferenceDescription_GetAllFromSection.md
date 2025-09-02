@@ -2,6 +2,7 @@
 title: GET PreferenceDescription/{section}
 uid: v1PreferenceDescription_GetAllFromSection
 generated: true
+content_type: reference
 ---
 
 # GET PreferenceDescription/{section}
@@ -76,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,30 +88,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 498,
-    "Section": "similique",
-    "Key": "fuga",
-    "Name": "Koss, Bailey and Schmidt",
+    "PrefDescId": 756,
+    "Section": "neque",
+    "Key": "ut",
+    "Name": "Rohan-Connelly",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Digitized executive implementation",
-    "IsBuiltin": true,
-    "TableName": "Bosco, Effertz and Dickens",
-    "UserDefinedListId": 645,
-    "Rank": 822,
-    "SubGroup": "sed",
-    "MinLevel": 452,
-    "MaxValue": 107,
-    "MinValue": 619,
-    "RequiredLicense": "illo",
+    "Description": "Public-key modular forecast",
+    "IsBuiltin": false,
+    "TableName": "Larson-Doyle",
+    "UserDefinedListId": 384,
+    "Rank": 777,
+    "SubGroup": "doloribus",
+    "MinLevel": 598,
+    "MaxValue": 869,
+    "MinValue": 919,
+    "RequiredLicense": "totam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 934
+        "FieldLength": 742
       }
     }
   }

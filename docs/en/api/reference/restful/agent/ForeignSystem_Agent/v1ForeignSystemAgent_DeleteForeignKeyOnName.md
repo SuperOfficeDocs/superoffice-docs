@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/DeleteForeignKeyOnName
 uid: v1ForeignSystemAgent_DeleteForeignKeyOnName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/DeleteForeignKeyOnName
@@ -71,16 +72,16 @@ No Content
 POST /api/v1/Agents/ForeignSystem/DeleteForeignKeyOnName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Mayert, Bashirian and Glover",
-  "DeviceName": "Howe-Stark",
-  "DeviceIdentifier": "natus",
-  "KeyName": "Morissette-Wyman",
-  "TableName": "Heller-Pacocha",
-  "RecordId": 880
+  "ApplicationName": "Quitzon-Schoen",
+  "DeviceName": "Prosacco Inc and Sons",
+  "DeviceIdentifier": "modi",
+  "KeyName": "Wehner LLC",
+  "TableName": "Bins-Satterfield",
+  "RecordId": 94
 }
 ```
 

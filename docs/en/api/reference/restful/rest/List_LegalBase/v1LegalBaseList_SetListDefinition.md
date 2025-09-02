@@ -2,6 +2,7 @@
 title: PUT List/LegalBase
 uid: v1LegalBaseList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/LegalBase
@@ -84,20 +85,20 @@ OK
 PUT /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 860,
-  "Name": "Bashirian-Prohaska",
-  "Tooltip": "dolor",
-  "Deleted": false,
-  "Rank": 211,
-  "IsCustomList": false,
+  "Id": 124,
+  "Name": "Leuschke, Hoppe and Bergstrom",
+  "Tooltip": "amet",
+  "Deleted": true,
+  "Rank": 632,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "vitae",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "ad",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 303,
-  "Name": "Leuschke Inc and Sons",
-  "Tooltip": "est",
+  "Id": 622,
+  "Name": "Stamm, Keeling and Cassin",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 943,
+  "Rank": 501,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sit",
+  "ListType": "quo",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 204
+      "FieldLength": 719
     }
   }
 }

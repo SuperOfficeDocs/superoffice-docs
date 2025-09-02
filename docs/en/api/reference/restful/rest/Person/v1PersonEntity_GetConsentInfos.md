@@ -2,6 +2,7 @@
 title: GET Person/{id}/Consent
 uid: v1PersonEntity_GetConsentInfos
 generated: true
+content_type: reference
 ---
 
 # GET Person/{id}/Consent
@@ -75,7 +76,7 @@ OK
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,27 +87,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 322,
-    "Comment": "rem",
-    "Registered": "2020-03-27T03:45:28.4828085+01:00",
-    "RegisteredAssociateId": 257,
-    "Updated": "2001-07-23T03:45:28.4828085+02:00",
-    "UpdatedAssociateId": 969,
-    "LegalBaseId": 905,
-    "LegalBaseKey": "magni",
-    "LegalBaseName": "Waters Inc and Sons",
-    "ConsentPurposeId": 843,
+    "ConsentPersonId": 80,
+    "Comment": "ut",
+    "Registered": "2000-04-03T03:47:00.1443174+02:00",
+    "RegisteredAssociateId": 119,
+    "Updated": "2004-04-01T03:47:00.1443174+02:00",
+    "UpdatedAssociateId": 971,
+    "LegalBaseId": 825,
+    "LegalBaseKey": "laboriosam",
+    "LegalBaseName": "Pfeffer, Conn and Dietrich",
+    "ConsentPurposeId": 448,
     "ConsentPurposeKey": "ipsum",
-    "ConsentPurposeName": "Gutkowski, Beier and Beahan",
-    "ConsentSourceId": 170,
-    "ConsentSourceKey": "ut",
-    "ConsentSourceName": "Jast LLC",
+    "ConsentPurposeName": "Schaefer, Medhurst and Swaniawski",
+    "ConsentSourceId": 740,
+    "ConsentSourceKey": "est",
+    "ConsentSourceName": "Rogahn LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 522
+        "FieldType": "System.String",
+        "FieldLength": 960
       }
     }
   }

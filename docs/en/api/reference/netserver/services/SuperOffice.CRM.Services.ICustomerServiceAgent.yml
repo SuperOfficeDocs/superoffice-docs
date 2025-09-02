@@ -91,153 +91,6 @@ items:
       value: CustomerService Agent
     - type: System.String
       value: Interface for the CustomerService Agent. Agent used for Customer Service methods
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync(System.Threading.CancellationToken)
-  id: CreateDefaultCustomerCenterConfigAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.ICustomerServiceAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultCustomerCenterConfigAsync(CancellationToken)
-  nameWithType: ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new CustomerCenterConfig.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: Task<CustomerCenterConfig> CreateDefaultCustomerCenterConfigAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomerCenterConfig}
-      description: New CustomerCenterConfig with default values
-    content.vb: Function CreateDefaultCustomerCenterConfigAsync(cancellationToken As CancellationToken = Nothing) As Task(Of CustomerCenterConfig)
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfigAsync(SuperOffice.CRM.Services.CustomerCenterConfig,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfigAsync(SuperOffice.CRM.Services.CustomerCenterConfig,System.Threading.CancellationToken)
-  id: SaveCustomerCenterConfigAsync(SuperOffice.CRM.Services.CustomerCenterConfig,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.ICustomerServiceAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveCustomerCenterConfigAsync(CustomerCenterConfig, CancellationToken)
-  nameWithType: ICustomerServiceAgent.SaveCustomerCenterConfigAsync(CustomerCenterConfig, CancellationToken)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfigAsync(SuperOffice.CRM.Services.CustomerCenterConfig, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing CustomerCenterConfig or creates a new CustomerCenterConfig if the id parameter is empty
-  example: []
-  syntax:
-    content: Task<CustomerCenterConfig> SaveCustomerCenterConfigAsync(CustomerCenterConfig customerCenterConfig, CancellationToken cancellationToken = default)
-    parameters:
-    - id: customerCenterConfig
-      type: SuperOffice.CRM.Services.CustomerCenterConfig
-      description: The CustomerCenterConfig that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomerCenterConfig}
-      description: New or updated CustomerCenterConfig
-    content.vb: Function SaveCustomerCenterConfigAsync(customerCenterConfig As CustomerCenterConfig, cancellationToken As CancellationToken = Nothing) As Task(Of CustomerCenterConfig)
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfigAsync*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync(System.Int32,System.Threading.CancellationToken)
-  id: DeleteCustomerCenterConfigAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.ICustomerServiceAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteCustomerCenterConfigAsync(int, CancellationToken)
-  nameWithType: ICustomerServiceAgent.DeleteCustomerCenterConfigAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync(int, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Deletes the CustomerCenterConfig
-  example: []
-  syntax:
-    content: Task DeleteCustomerCenterConfigAsync(int customerCenterConfigId, CancellationToken cancellationToken = default)
-    parameters:
-    - id: customerCenterConfigId
-      type: System.Int32
-      description: The identity of the CustomerCenterConfig
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Function DeleteCustomerCenterConfigAsync(customerCenterConfigId As Integer, cancellationToken As CancellationToken = Nothing) As Task
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync*
-  nameWithType.vb: ICustomerServiceAgent.DeleteCustomerCenterConfigAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeleteCustomerCenterConfigAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntityAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntityAsync(System.Threading.CancellationToken)
-  id: CreateDefaultMailboxEntityAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.ICustomerServiceAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultMailboxEntityAsync(CancellationToken)
-  nameWithType: ICustomerServiceAgent.CreateDefaultMailboxEntityAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntityAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new MailboxEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: Task<MailboxEntity> CreateDefaultMailboxEntityAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MailboxEntity}
-      description: New MailboxEntity with default values
-    content.vb: Function CreateDefaultMailboxEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of MailboxEntity)
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntityAsync*
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntityAsync(SuperOffice.CRM.Services.MailboxEntity,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntityAsync(SuperOffice.CRM.Services.MailboxEntity,System.Threading.CancellationToken)
-  id: SaveMailboxEntityAsync(SuperOffice.CRM.Services.MailboxEntity,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.ICustomerServiceAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveMailboxEntityAsync(MailboxEntity, CancellationToken)
-  nameWithType: ICustomerServiceAgent.SaveMailboxEntityAsync(MailboxEntity, CancellationToken)
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntityAsync(SuperOffice.CRM.Services.MailboxEntity, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing MailboxEntity or creates a new MailboxEntity if the id parameter is empty
-  example: []
-  syntax:
-    content: Task<MailboxEntity> SaveMailboxEntityAsync(MailboxEntity mailboxEntity, CancellationToken cancellationToken = default)
-    parameters:
-    - id: mailboxEntity
-      type: SuperOffice.CRM.Services.MailboxEntity
-      description: The MailboxEntity that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MailboxEntity}
-      description: New or updated MailboxEntity
-    content.vb: Function SaveMailboxEntityAsync(mailboxEntity As MailboxEntity, cancellationToken As CancellationToken = Nothing) As Task(Of MailboxEntity)
-  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntityAsync*
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessionsAsync(System.Int32[],System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessionsAsync(System.Int32[],System.Threading.CancellationToken)
   id: DeleteChatSessionsAsync(System.Int32[],System.Threading.CancellationToken)
@@ -575,6 +428,93 @@ items:
   nameWithType.vb: ICustomerServiceAgent.ReportSessionActiveAsync(String, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.ReportSessionActiveAsync(String, System.Threading.CancellationToken)
   name.vb: ReportSessionActiveAsync(String, CancellationToken)
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync(System.Threading.CancellationToken)
+  id: CreateDefaultCustomerCenterConfigAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ICustomerServiceAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultCustomerCenterConfigAsync(CancellationToken)
+  nameWithType: ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new CustomerCenterConfig.
+  example: []
+  syntax:
+    content: Task<CustomerCenterConfig> CreateDefaultCustomerCenterConfigAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomerCenterConfig}
+      description: New CustomerCenterConfig with default values
+    content.vb: Function CreateDefaultCustomerCenterConfigAsync(cancellationToken As CancellationToken = Nothing) As Task(Of CustomerCenterConfig)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfigAsync(SuperOffice.CRM.Services.CustomerCenterConfig,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfigAsync(SuperOffice.CRM.Services.CustomerCenterConfig,System.Threading.CancellationToken)
+  id: SaveCustomerCenterConfigAsync(SuperOffice.CRM.Services.CustomerCenterConfig,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ICustomerServiceAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveCustomerCenterConfigAsync(CustomerCenterConfig, CancellationToken)
+  nameWithType: ICustomerServiceAgent.SaveCustomerCenterConfigAsync(CustomerCenterConfig, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfigAsync(SuperOffice.CRM.Services.CustomerCenterConfig, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing CustomerCenterConfig or creates a new CustomerCenterConfig if the id parameter is 0.
+  example: []
+  syntax:
+    content: Task<CustomerCenterConfig> SaveCustomerCenterConfigAsync(CustomerCenterConfig customerCenterConfig, CancellationToken cancellationToken = default)
+    parameters:
+    - id: customerCenterConfig
+      type: SuperOffice.CRM.Services.CustomerCenterConfig
+      description: The CustomerCenterConfig that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomerCenterConfig}
+      description: New or updated CustomerCenterConfig
+    content.vb: Function SaveCustomerCenterConfigAsync(customerCenterConfig As CustomerCenterConfig, cancellationToken As CancellationToken = Nothing) As Task(Of CustomerCenterConfig)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfigAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteCustomerCenterConfigAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ICustomerServiceAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteCustomerCenterConfigAsync(int, CancellationToken)
+  nameWithType: ICustomerServiceAgent.DeleteCustomerCenterConfigAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Deletes the CustomerCenterConfig
+  example: []
+  syntax:
+    content: Task DeleteCustomerCenterConfigAsync(int customerCenterConfigId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: customerCenterConfigId
+      type: System.Int32
+      description: The identity of the CustomerCenterConfig
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function DeleteCustomerCenterConfigAsync(customerCenterConfigId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync*
+  nameWithType.vb: ICustomerServiceAgent.DeleteCustomerCenterConfigAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteCustomerCenterConfigAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfigAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfigAsync(System.Int32,System.Threading.CancellationToken)
   id: GetCustomerCenterConfigAsync(System.Int32,System.Threading.CancellationToken)
@@ -601,7 +541,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomerCenterConfig}
-      description: CustomerCenterConfig
+      description: A single CustomerCenterConfig
     content.vb: Function GetCustomerCenterConfigAsync(customerCenterConfigId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of CustomerCenterConfig)
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfigAsync*
   nameWithType.vb: ICustomerServiceAgent.GetCustomerCenterConfigAsync(Integer, CancellationToken)
@@ -871,6 +811,61 @@ items:
       description: An array of Mailbox objects
     content.vb: Function GetMailboxesAsync(cancellationToken As CancellationToken = Nothing) As Task(Of Mailbox())
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxesAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultMailboxEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ICustomerServiceAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultMailboxEntityAsync(CancellationToken)
+  nameWithType: ICustomerServiceAgent.CreateDefaultMailboxEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntityAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new MailboxEntity.
+  example: []
+  syntax:
+    content: Task<MailboxEntity> CreateDefaultMailboxEntityAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MailboxEntity}
+      description: New MailboxEntity with default values
+    content.vb: Function CreateDefaultMailboxEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of MailboxEntity)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntityAsync*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntityAsync(SuperOffice.CRM.Services.MailboxEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntityAsync(SuperOffice.CRM.Services.MailboxEntity,System.Threading.CancellationToken)
+  id: SaveMailboxEntityAsync(SuperOffice.CRM.Services.MailboxEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ICustomerServiceAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveMailboxEntityAsync(MailboxEntity, CancellationToken)
+  nameWithType: ICustomerServiceAgent.SaveMailboxEntityAsync(MailboxEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntityAsync(SuperOffice.CRM.Services.MailboxEntity, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing MailboxEntity or creates a new MailboxEntity if the id parameter is 0.
+  example: []
+  syntax:
+    content: Task<MailboxEntity> SaveMailboxEntityAsync(MailboxEntity mailboxEntity, CancellationToken cancellationToken = default)
+    parameters:
+    - id: mailboxEntity
+      type: SuperOffice.CRM.Services.MailboxEntity
+      description: The MailboxEntity that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MailboxEntity}
+      description: New or updated MailboxEntity
+    content.vb: Function SaveMailboxEntityAsync(mailboxEntity As MailboxEntity, cancellationToken As CancellationToken = Nothing) As Task(Of MailboxEntity)
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntityAsync*
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntityAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntityAsync(System.Int32,System.Threading.CancellationToken)
   id: GetMailboxEntityAsync(System.Int32,System.Threading.CancellationToken)
@@ -897,7 +892,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MailboxEntity}
-      description: MailboxEntity
+      description: A single MailboxEntity
     content.vb: Function GetMailboxEntityAsync(mailboxEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of MailboxEntity)
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntityAsync*
   nameWithType.vb: ICustomerServiceAgent.GetMailboxEntityAsync(Integer, CancellationToken)
@@ -1369,13 +1364,36 @@ references:
     name: Services
     isExternal: true
     href: SuperOffice.CRM.Services.html
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessionsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessionsAsync
   isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_CreateDefaultCustomerCenterConfigAsync_System_Threading_CancellationToken_
-  name: CreateDefaultCustomerCenterConfigAsync
-  nameWithType: ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync
+  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_DeleteChatSessionsAsync_System_Int32___System_Threading_CancellationToken_
+  name: DeleteChatSessionsAsync
+  nameWithType: ICustomerServiceAgent.DeleteChatSessionsAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessionsAsync
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
 - uid: System.Threading.CancellationToken
   commentId: T:System.Threading.CancellationToken
   parent: System.Threading
@@ -1384,41 +1402,14 @@ references:
   name: CancellationToken
   nameWithType: CancellationToken
   fullName: System.Threading.CancellationToken
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomerCenterConfig}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomerCenterConfig}
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
   parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<CustomerCenterConfig>
-  nameWithType: Task<CustomerCenterConfig>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.CustomerCenterConfig>
-  nameWithType.vb: Task(Of CustomerCenterConfig)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.CustomerCenterConfig)
-  name.vb: Task(Of CustomerCenterConfig)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.CustomerCenterConfig
-    name: CustomerCenterConfig
-    isExternal: true
-    href: SuperOffice.CRM.Services.CustomerCenterConfig.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.CustomerCenterConfig
-    name: CustomerCenterConfig
-    isExternal: true
-    href: SuperOffice.CRM.Services.CustomerCenterConfig.html
-  - name: )
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: System.Threading
   commentId: N:System.Threading
   isExternal: true
@@ -1446,34 +1437,6 @@ references:
     name: Threading
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading
-- uid: System.Threading.Tasks.Task`1
-  commentId: T:System.Threading.Tasks.Task`1
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<TResult>
-  nameWithType: Task<TResult>
-  fullName: System.Threading.Tasks.Task<TResult>
-  nameWithType.vb: Task(Of TResult)
-  fullName.vb: System.Threading.Tasks.Task(Of TResult)
-  name.vb: Task(Of TResult)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - name: TResult
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TResult
-  - name: )
 - uid: System.Threading.Tasks
   commentId: N:System.Threading.Tasks
   isExternal: true
@@ -1511,141 +1474,6 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfigAsync*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfigAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_SaveCustomerCenterConfigAsync_SuperOffice_CRM_Services_CustomerCenterConfig_System_Threading_CancellationToken_
-  name: SaveCustomerCenterConfigAsync
-  nameWithType: ICustomerServiceAgent.SaveCustomerCenterConfigAsync
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfigAsync
-- uid: SuperOffice.CRM.Services.CustomerCenterConfig
-  commentId: T:SuperOffice.CRM.Services.CustomerCenterConfig
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.CustomerCenterConfig.html
-  name: CustomerCenterConfig
-  nameWithType: CustomerCenterConfig
-  fullName: SuperOffice.CRM.Services.CustomerCenterConfig
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_DeleteCustomerCenterConfigAsync_System_Int32_System_Threading_CancellationToken_
-  name: DeleteCustomerCenterConfigAsync
-  nameWithType: ICustomerServiceAgent.DeleteCustomerCenterConfigAsync
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
-- uid: System.Threading.Tasks.Task
-  commentId: T:System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_CreateDefaultMailboxEntityAsync_System_Threading_CancellationToken_
-  name: CreateDefaultMailboxEntityAsync
-  nameWithType: ICustomerServiceAgent.CreateDefaultMailboxEntityAsync
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntityAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MailboxEntity}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.MailboxEntity}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<MailboxEntity>
-  nameWithType: Task<MailboxEntity>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.MailboxEntity>
-  nameWithType.vb: Task(Of MailboxEntity)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.MailboxEntity)
-  name.vb: Task(Of MailboxEntity)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.MailboxEntity
-    name: MailboxEntity
-    isExternal: true
-    href: SuperOffice.CRM.Services.MailboxEntity.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.MailboxEntity
-    name: MailboxEntity
-    isExternal: true
-    href: SuperOffice.CRM.Services.MailboxEntity.html
-  - name: )
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_SaveMailboxEntityAsync_SuperOffice_CRM_Services_MailboxEntity_System_Threading_CancellationToken_
-  name: SaveMailboxEntityAsync
-  nameWithType: ICustomerServiceAgent.SaveMailboxEntityAsync
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntityAsync
-- uid: SuperOffice.CRM.Services.MailboxEntity
-  commentId: T:SuperOffice.CRM.Services.MailboxEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.MailboxEntity.html
-  name: MailboxEntity
-  nameWithType: MailboxEntity
-  fullName: SuperOffice.CRM.Services.MailboxEntity
-- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessionsAsync*
-  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessionsAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_DeleteChatSessionsAsync_System_Int32___System_Threading_CancellationToken_
-  name: DeleteChatSessionsAsync
-  nameWithType: ICustomerServiceAgent.DeleteChatSessionsAsync
-  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteChatSessionsAsync
-- uid: System.Int32[]
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
-  spec.csharp:
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
-  spec.vb:
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUserAsync*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.ChatSessionsForUserAsync
   isExternal: true
@@ -1691,6 +1519,34 @@ references:
     href: SuperOffice.CRM.Services.ChatSession.html
   - name: (
   - name: )
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
   - name: )
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureTogglesAsync*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.UpdateFeatureTogglesAsync
@@ -1886,6 +1742,13 @@ references:
     isExternal: true
     href: SuperOffice.CRM.Services.CsSessionKey.html
   - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSessionAsync*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSessionAsync
   isExternal: true
@@ -1893,6 +1756,17 @@ references:
   name: RemoveSessionAsync
   nameWithType: ICustomerServiceAgent.RemoveSessionAsync
   fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.RemoveSessionAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValidAsync*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.SessionIsValidAsync
   isExternal: true
@@ -1991,6 +1865,70 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_CreateDefaultCustomerCenterConfigAsync_System_Threading_CancellationToken_
+  name: CreateDefaultCustomerCenterConfigAsync
+  nameWithType: ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultCustomerCenterConfigAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomerCenterConfig}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.CustomerCenterConfig}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<CustomerCenterConfig>
+  nameWithType: Task<CustomerCenterConfig>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.CustomerCenterConfig>
+  nameWithType.vb: Task(Of CustomerCenterConfig)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.CustomerCenterConfig)
+  name.vb: Task(Of CustomerCenterConfig)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.CustomerCenterConfig
+    name: CustomerCenterConfig
+    isExternal: true
+    href: SuperOffice.CRM.Services.CustomerCenterConfig.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.CustomerCenterConfig
+    name: CustomerCenterConfig
+    isExternal: true
+    href: SuperOffice.CRM.Services.CustomerCenterConfig.html
+  - name: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfigAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfigAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_SaveCustomerCenterConfigAsync_SuperOffice_CRM_Services_CustomerCenterConfig_System_Threading_CancellationToken_
+  name: SaveCustomerCenterConfigAsync
+  nameWithType: ICustomerServiceAgent.SaveCustomerCenterConfigAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveCustomerCenterConfigAsync
+- uid: SuperOffice.CRM.Services.CustomerCenterConfig
+  commentId: T:SuperOffice.CRM.Services.CustomerCenterConfig
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.CustomerCenterConfig.html
+  name: CustomerCenterConfig
+  nameWithType: CustomerCenterConfig
+  fullName: SuperOffice.CRM.Services.CustomerCenterConfig
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_DeleteCustomerCenterConfigAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteCustomerCenterConfigAsync
+  nameWithType: ICustomerServiceAgent.DeleteCustomerCenterConfigAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.DeleteCustomerCenterConfigAsync
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfigAsync*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfigAsync
   isExternal: true
@@ -2251,6 +2189,63 @@ references:
   - name: (
   - name: )
   - name: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_CreateDefaultMailboxEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultMailboxEntityAsync
+  nameWithType: ICustomerServiceAgent.CreateDefaultMailboxEntityAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.CreateDefaultMailboxEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.MailboxEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.MailboxEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<MailboxEntity>
+  nameWithType: Task<MailboxEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.MailboxEntity>
+  nameWithType.vb: Task(Of MailboxEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.MailboxEntity)
+  name.vb: Task(Of MailboxEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.MailboxEntity
+    name: MailboxEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.MailboxEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.MailboxEntity
+    name: MailboxEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.MailboxEntity.html
+  - name: )
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ICustomerServiceAgent.html#SuperOffice_CRM_Services_ICustomerServiceAgent_SaveMailboxEntityAsync_SuperOffice_CRM_Services_MailboxEntity_System_Threading_CancellationToken_
+  name: SaveMailboxEntityAsync
+  nameWithType: ICustomerServiceAgent.SaveMailboxEntityAsync
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.SaveMailboxEntityAsync
+- uid: SuperOffice.CRM.Services.MailboxEntity
+  commentId: T:SuperOffice.CRM.Services.MailboxEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.MailboxEntity.html
+  name: MailboxEntity
+  nameWithType: MailboxEntity
+  fullName: SuperOffice.CRM.Services.MailboxEntity
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntityAsync
   isExternal: true

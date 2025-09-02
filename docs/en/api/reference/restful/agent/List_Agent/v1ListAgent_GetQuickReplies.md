@@ -2,6 +2,7 @@
 title: POST Agents/List/GetQuickReplies
 uid: v1ListAgent_GetQuickReplies
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetQuickReplies
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/List/GetQuickReplies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuickReplyId": 451,
-    "Name": "Ryan, Corwin and Runte",
-    "HtmlBody": "quasi",
+    "QuickReplyId": 457,
+    "Name": "Donnelly-Klocko",
+    "HtmlBody": "officia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 782
+        "FieldLength": 532
       }
     }
   },
   {
-    "QuickReplyId": 451,
-    "Name": "Ryan, Corwin and Runte",
-    "HtmlBody": "quasi",
+    "QuickReplyId": 457,
+    "Name": "Donnelly-Klocko",
+    "HtmlBody": "officia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 782
+        "FieldLength": 532
       }
     }
   }

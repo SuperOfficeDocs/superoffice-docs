@@ -2,6 +2,7 @@
 title: DEL List/TicketType/Headings
 uid: v1TicketTypeList_DeleteTicketTypeEntityHeadings
 generated: true
+content_type: reference
 ---
 
 # DEL List/TicketType/Headings
@@ -48,7 +49,7 @@ No Content
 DELETE /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

@@ -2,6 +2,7 @@
 title: POST Agents/Person/SetPersonImage
 uid: v1PersonAgent_SetPersonImage
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/SetPersonImage
@@ -69,7 +70,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 74,
+  "PersonId": 889,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

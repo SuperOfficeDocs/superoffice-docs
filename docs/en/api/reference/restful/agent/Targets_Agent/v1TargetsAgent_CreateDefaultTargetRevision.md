@@ -2,6 +2,7 @@
 title: POST Agents/Targets/CreateDefaultTargetRevision
 uid: v1TargetsAgent_CreateDefaultTargetRevision
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Targets/CreateDefaultTargetRevision
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Targets/CreateDefaultTargetRevision
 ```
 
-Set default values into a new TargetRevision.
+Loading default values into a new TargetRevision.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -72,31 +71,31 @@ Content-Type: application/json; charset=utf-8
 {
   "LogEvent": "Create",
   "Who": null,
-  "When": "2008-12-02T03:45:23.9204418+01:00",
+  "When": "2012-12-10T03:46:55.4257333+01:00",
   "Changes": [
     {
-      "FieldIdentifier": "ab",
-      "ValueChangeFrom": 10994.072,
-      "ValueChangeTo": 1335.084,
+      "FieldIdentifier": "molestiae",
+      "ValueChangeFrom": 9123.074,
+      "ValueChangeTo": 18070.644,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 471
+          "FieldType": "System.String",
+          "FieldLength": 505
         }
       }
     },
     {
-      "FieldIdentifier": "ab",
-      "ValueChangeFrom": 10994.072,
-      "ValueChangeTo": 1335.084,
+      "FieldIdentifier": "molestiae",
+      "ValueChangeFrom": 9123.074,
+      "ValueChangeTo": 18070.644,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 471
+          "FieldType": "System.String",
+          "FieldLength": 505
         }
       }
     }
@@ -105,8 +104,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 959
+      "FieldType": "System.Int32",
+      "FieldLength": 84
     }
   }
 }

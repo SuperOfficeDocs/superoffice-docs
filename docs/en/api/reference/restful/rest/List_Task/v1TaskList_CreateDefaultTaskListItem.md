@@ -2,6 +2,7 @@
 title: GET List/Task/Items/Default
 uid: v1TaskList_CreateDefaultTaskListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Task/Items/Default
@@ -67,7 +68,7 @@ OK
 GET /api/v1/List/Task/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,25 +78,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 183,
-  "Value": "deserunt",
+  "TaskListItemId": 708,
+  "Value": "ducimus",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "ut",
+  "Tooltip": "quam",
   "Deleted": false,
-  "IntentId": 368,
-  "Rank": 258,
+  "IntentId": 931,
+  "Rank": 245,
   "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": false,
-  "IsDefaultPublished": false,
+  "IsDefaultFree": true,
+  "IsDefaultPublished": true,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 687
+      "FieldType": "System.String",
+      "FieldLength": 489
     }
   }
 }

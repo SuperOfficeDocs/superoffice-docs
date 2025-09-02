@@ -2,6 +2,7 @@
 title: POST Agents/Document/CheckoutDocument
 uid: v1DocumentAgent_CheckoutDocument
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/CheckoutDocument
@@ -81,10 +82,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 784,
+  "DocumentId": 849,
   "AllowedReturnTypes": [
-    "sed",
-    "dolorem"
+    "officia",
+    "ut"
   ]
 }
 ```
@@ -96,11 +97,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "quae",
-  "VersionId": "at",
-  "Success": false,
+  "ExternalReference": "esse",
+  "VersionId": "aut",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "sed",
-  "AdditionalInfo": "aspernatur"
+  "Value": "doloremque",
+  "AdditionalInfo": "et"
 }
 ```

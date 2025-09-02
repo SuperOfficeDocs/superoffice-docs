@@ -2,6 +2,7 @@
 title: GET List/Credited
 uid: v1CreditedList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/Credited
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 680,
-  "Name": "Brekke, Trantow and Morissette",
-  "Tooltip": "eligendi",
-  "Deleted": true,
-  "Rank": 497,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 123,
+  "Name": "Padberg-Nolan",
+  "Tooltip": "eaque",
+  "Deleted": false,
+  "Rank": 611,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "itaque",
-  "InUseByUserDefinedFields": false,
+  "ListType": "sint",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 655
+      "FieldLength": 157
     }
   },
   "_Links": {

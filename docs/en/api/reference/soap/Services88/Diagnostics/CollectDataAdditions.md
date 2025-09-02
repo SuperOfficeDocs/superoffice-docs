@@ -2,6 +2,7 @@
 title: Services88.DiagnosticsAgent.CollectDataAdditions SOAP
 generated: true
 uid: Services88-Diagnostics-CollectDataAdditions
+content_type: reference
 ---
 
 # Services88 Diagnostics CollectDataAdditions

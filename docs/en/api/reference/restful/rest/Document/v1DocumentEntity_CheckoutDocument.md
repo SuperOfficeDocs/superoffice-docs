@@ -2,6 +2,7 @@
 title: POST Document/{id}/Lock
 uid: v1DocumentEntity_CheckoutDocument
 generated: true
+content_type: reference
 ---
 
 # POST Document/{id}/Lock
@@ -82,11 +83,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "porro",
-  "VersionId": "ut",
-  "Success": false,
+  "ExternalReference": "sit",
+  "VersionId": "libero",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "occaecati",
-  "AdditionalInfo": "rerum"
+  "Value": "perferendis",
+  "AdditionalInfo": "ut"
 }
 ```

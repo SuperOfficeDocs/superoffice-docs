@@ -36,6 +36,7 @@ items:
   - SuperOffice.WebApi.Data.PersonEntity.Firstname
   - SuperOffice.WebApi.Data.PersonEntity.FormalName
   - SuperOffice.WebApi.Data.PersonEntity.FullName
+  - SuperOffice.WebApi.Data.PersonEntity.InitialUtmParameters
   - SuperOffice.WebApi.Data.PersonEntity.Interests
   - SuperOffice.WebApi.Data.PersonEntity.InternetPhones
   - SuperOffice.WebApi.Data.PersonEntity.IsAssociate
@@ -1578,6 +1579,29 @@ items:
       type: System.Int32
     content.vb: Public Overridable Property CreatedByFormId As Integer
   overload: SuperOffice.WebApi.Data.PersonEntity.CreatedByFormId*
+- uid: SuperOffice.WebApi.Data.PersonEntity.InitialUtmParameters
+  commentId: P:SuperOffice.WebApi.Data.PersonEntity.InitialUtmParameters
+  id: InitialUtmParameters
+  parent: SuperOffice.WebApi.Data.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: InitialUtmParameters
+  nameWithType: PersonEntity.InitialUtmParameters
+  fullName: SuperOffice.WebApi.Data.PersonEntity.InitialUtmParameters
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Initial utm parameters when creating this person, readonly fields
+  example: []
+  syntax:
+    content: public virtual InitalUtmParameters InitialUtmParameters { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.InitalUtmParameters
+    content.vb: Public Overridable Property InitialUtmParameters As InitalUtmParameters
+  overload: SuperOffice.WebApi.Data.PersonEntity.InitialUtmParameters*
 - uid: SuperOffice.WebApi.Data.PersonEntity.UserDefinedFields
   commentId: P:SuperOffice.WebApi.Data.PersonEntity.UserDefinedFields
   id: UserDefinedFields
@@ -2679,6 +2703,21 @@ references:
   name: CreatedByFormId
   nameWithType: PersonEntity.CreatedByFormId
   fullName: SuperOffice.WebApi.Data.PersonEntity.CreatedByFormId
+- uid: SuperOffice.WebApi.Data.PersonEntity.InitialUtmParameters*
+  commentId: Overload:SuperOffice.WebApi.Data.PersonEntity.InitialUtmParameters
+  isExternal: true
+  href: SuperOffice.WebApi.Data.PersonEntity.html#SuperOffice_WebApi_Data_PersonEntity_InitialUtmParameters
+  name: InitialUtmParameters
+  nameWithType: PersonEntity.InitialUtmParameters
+  fullName: SuperOffice.WebApi.Data.PersonEntity.InitialUtmParameters
+- uid: SuperOffice.WebApi.Data.InitalUtmParameters
+  commentId: T:SuperOffice.WebApi.Data.InitalUtmParameters
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.InitalUtmParameters.html
+  name: InitalUtmParameters
+  nameWithType: InitalUtmParameters
+  fullName: SuperOffice.WebApi.Data.InitalUtmParameters
 - uid: SuperOffice.WebApi.Data.PersonEntity.CustomFields
   commentId: P:SuperOffice.WebApi.Data.PersonEntity.CustomFields
   isExternal: true

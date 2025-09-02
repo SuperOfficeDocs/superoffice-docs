@@ -2,6 +2,7 @@
 title: Services88.PreferenceAgent.SavePreferenceEntity SOAP
 generated: true
 uid: Services88-Preference-SavePreferenceEntity
+content_type: reference
 ---
 
 # Services88 Preference SavePreferenceEntity

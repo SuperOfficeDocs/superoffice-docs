@@ -2,6 +2,7 @@
 title: PUT List/SelectionCategory/Items
 uid: v1SelectionCategoryList_PutAllSelectionCategory
 generated: true
+content_type: reference
 ---
 
 # PUT List/SelectionCategory/Items
@@ -73,25 +74,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 780,
-    "Name": "Schamberger, Fadel and Kris",
-    "Tooltip": "ea",
+    "Id": 322,
+    "Name": "Schmeler LLC",
+    "Tooltip": "exercitationem",
     "Deleted": true,
-    "UdListDefinitionId": 848,
-    "Rank": 249
+    "UdListDefinitionId": 850,
+    "Rank": 12
   },
   {
-    "Id": 780,
-    "Name": "Schamberger, Fadel and Kris",
-    "Tooltip": "ea",
+    "Id": 322,
+    "Name": "Schmeler LLC",
+    "Tooltip": "exercitationem",
     "Deleted": true,
-    "UdListDefinitionId": 848,
-    "Rank": 249
+    "UdListDefinitionId": 850,
+    "Rank": 12
   }
 ]
 ```
@@ -104,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 388,
-    "Name": "Stamm, Sipes and O'Hara",
-    "Tooltip": "dolorem",
-    "Deleted": false,
-    "UdListDefinitionId": 107,
-    "Rank": 860,
+    "Id": 354,
+    "Name": "Hyatt Inc and Sons",
+    "Tooltip": "nostrum",
+    "Deleted": true,
+    "UdListDefinitionId": 669,
+    "Rank": 489,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 810
+        "FieldLength": 663
       }
     }
   }

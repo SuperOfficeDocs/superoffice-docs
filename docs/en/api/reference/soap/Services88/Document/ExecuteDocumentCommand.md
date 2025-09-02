@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.ExecuteDocumentCommand SOAP
 generated: true
 uid: Services88-Document-ExecuteDocumentCommand
+content_type: reference
 ---
 
 # Services88 Document ExecuteDocumentCommand

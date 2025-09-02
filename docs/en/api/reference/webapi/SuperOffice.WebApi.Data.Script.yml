@@ -6,6 +6,8 @@ items:
   parent: SuperOffice.WebApi.Data
   children:
   - SuperOffice.WebApi.Data.Script.#ctor
+  - SuperOffice.WebApi.Data.Script.BlockedVerbs
+  - SuperOffice.WebApi.Data.Script.BlockedVerbs_String
   - SuperOffice.WebApi.Data.Script.Description
   - SuperOffice.WebApi.Data.Script.IncludeId
   - SuperOffice.WebApi.Data.Script.Name
@@ -318,6 +320,86 @@ items:
       type: System.String
     content.vb: Public Overridable Property Path As String
   overload: SuperOffice.WebApi.Data.Script.Path*
+- uid: SuperOffice.WebApi.Data.Script.BlockedVerbs_String
+  commentId: P:SuperOffice.WebApi.Data.Script.BlockedVerbs_String
+  id: BlockedVerbs_String
+  parent: SuperOffice.WebApi.Data.Script
+  langs:
+  - csharp
+  - vb
+  name: BlockedVerbs_String
+  nameWithType: Script.BlockedVerbs_String
+  fullName: SuperOffice.WebApi.Data.Script.BlockedVerbs_String
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    The verbs that are blocked when calling a ejscript over HTTP
+
+    Raw string enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty("BlockedVerbs")]
+
+      public string BlockedVerbs_String { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty("BlockedVerbs")>
+
+      Public Property BlockedVerbs_String As String
+  overload: SuperOffice.WebApi.Data.Script.BlockedVerbs_String*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.Script.BlockedVerbs
+    commentId: P:SuperOffice.WebApi.Data.Script.BlockedVerbs
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: BlockedVerbs
+- uid: SuperOffice.WebApi.Data.Script.BlockedVerbs
+  commentId: P:SuperOffice.WebApi.Data.Script.BlockedVerbs
+  id: BlockedVerbs
+  parent: SuperOffice.WebApi.Data.Script
+  langs:
+  - csharp
+  - vb
+  name: BlockedVerbs
+  nameWithType: Script.BlockedVerbs
+  fullName: SuperOffice.WebApi.Data.Script.BlockedVerbs
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    The verbs that are blocked when calling a ejscript over HTTP
+
+    NULL if unknown enum value.
+  example: []
+  syntax:
+    content: >-
+      [JsonIgnore]
+
+      public EjScriptVerb? BlockedVerbs { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{SuperOffice.WebApi.Data.EjScriptVerb}
+    content.vb: >-
+      <JsonIgnore>
+
+      Public Property BlockedVerbs As EjScriptVerb?
+  overload: SuperOffice.WebApi.Data.Script.BlockedVerbs*
+  seealso:
+  - linkId: SuperOffice.WebApi.Data.Script.BlockedVerbs_String
+    commentId: P:SuperOffice.WebApi.Data.Script.BlockedVerbs_String
+  attributes:
+  - type: Newtonsoft.Json.JsonIgnoreAttribute
+    ctor: Newtonsoft.Json.JsonIgnoreAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.WebApi.Agents.CRMScriptAgent
   commentId: T:SuperOffice.WebApi.Agents.CRMScriptAgent
@@ -739,3 +821,79 @@ references:
   name: Path
   nameWithType: Script.Path
   fullName: SuperOffice.WebApi.Data.Script.Path
+- uid: SuperOffice.WebApi.Data.Script.BlockedVerbs
+  commentId: P:SuperOffice.WebApi.Data.Script.BlockedVerbs
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Script.html#SuperOffice_WebApi_Data_Script_BlockedVerbs
+  name: BlockedVerbs
+  nameWithType: Script.BlockedVerbs
+  fullName: SuperOffice.WebApi.Data.Script.BlockedVerbs
+- uid: SuperOffice.WebApi.Data.Script.BlockedVerbs_String*
+  commentId: Overload:SuperOffice.WebApi.Data.Script.BlockedVerbs_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Script.html#SuperOffice_WebApi_Data_Script_BlockedVerbs_String
+  name: BlockedVerbs_String
+  nameWithType: Script.BlockedVerbs_String
+  fullName: SuperOffice.WebApi.Data.Script.BlockedVerbs_String
+- uid: SuperOffice.WebApi.Data.Script.BlockedVerbs_String
+  commentId: P:SuperOffice.WebApi.Data.Script.BlockedVerbs_String
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Script.html#SuperOffice_WebApi_Data_Script_BlockedVerbs_String
+  name: BlockedVerbs_String
+  nameWithType: Script.BlockedVerbs_String
+  fullName: SuperOffice.WebApi.Data.Script.BlockedVerbs_String
+- uid: SuperOffice.WebApi.Data.Script.BlockedVerbs*
+  commentId: Overload:SuperOffice.WebApi.Data.Script.BlockedVerbs
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Script.html#SuperOffice_WebApi_Data_Script_BlockedVerbs
+  name: BlockedVerbs
+  nameWithType: Script.BlockedVerbs
+  fullName: SuperOffice.WebApi.Data.Script.BlockedVerbs
+- uid: System.Nullable{SuperOffice.WebApi.Data.EjScriptVerb}
+  commentId: T:System.Nullable{SuperOffice.WebApi.Data.EjScriptVerb}
+  parent: System
+  definition: System.Nullable`1
+  href: SuperOffice.WebApi.Data.EjScriptVerb.html
+  name: EjScriptVerb?
+  nameWithType: EjScriptVerb?
+  fullName: SuperOffice.WebApi.Data.EjScriptVerb?
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.EjScriptVerb
+    name: EjScriptVerb
+    isExternal: true
+    href: SuperOffice.WebApi.Data.EjScriptVerb.html
+  - name: '?'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.EjScriptVerb
+    name: EjScriptVerb
+    isExternal: true
+    href: SuperOffice.WebApi.Data.EjScriptVerb.html
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )

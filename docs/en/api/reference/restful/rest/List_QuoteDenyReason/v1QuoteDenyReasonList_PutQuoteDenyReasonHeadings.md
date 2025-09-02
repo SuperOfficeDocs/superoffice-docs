@@ -2,6 +2,7 @@
 title: PUT List/QuoteDenyReason/Headings
 uid: v1QuoteDenyReasonList_PutQuoteDenyReasonHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/QuoteDenyReason/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 25,
-    "Name": "Farrell, Sipes and O'Reilly",
-    "Tooltip": "rerum",
-    "Deleted": true,
-    "Rank": 840,
-    "UdListDefinitionId": 816
+    "HeadingId": 221,
+    "Name": "Streich, Kertzmann and Rohan",
+    "Tooltip": "dolore",
+    "Deleted": false,
+    "Rank": 40,
+    "UdListDefinitionId": 4
   },
   {
-    "HeadingId": 25,
-    "Name": "Farrell, Sipes and O'Reilly",
-    "Tooltip": "rerum",
-    "Deleted": true,
-    "Rank": 840,
-    "UdListDefinitionId": 816
+    "HeadingId": 221,
+    "Name": "Streich, Kertzmann and Rohan",
+    "Tooltip": "dolore",
+    "Deleted": false,
+    "Rank": 40,
+    "UdListDefinitionId": 4
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 910,
-    "Name": "Ortiz, Larkin and Champlin",
-    "Tooltip": "quam",
+    "HeadingId": 697,
+    "Name": "Lubowitz, Kuvalis and Bashirian",
+    "Tooltip": "corporis",
     "Deleted": false,
-    "Rank": 753,
-    "UdListDefinitionId": 809,
+    "Rank": 792,
+    "UdListDefinitionId": 593,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 394
+        "FieldLength": 943
       }
     }
   }

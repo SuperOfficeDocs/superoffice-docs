@@ -2,6 +2,7 @@
 title: POST List/SaleType/Items
 uid: v1SaleTypeList_PostSaleTypeEntity
 generated: true
+content_type: reference
 ---
 
 # POST List/SaleType/Items
@@ -107,51 +108,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 923,
-  "Name": "Hoeger, Yost and Heaney",
-  "Tooltip": "consequatur",
-  "Rank": 96,
+  "SaleTypeId": 507,
+  "Name": "Kunze, Stamm and Okuneva",
+  "Tooltip": "aut",
+  "Rank": 996,
   "DurationUnit": "Century",
-  "SaleDuration": 227,
-  "SaleTypeCatId": 728,
+  "SaleDuration": 782,
+  "SaleTypeCatId": 680,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 43,
-  "QuoteLinesTemplate": 586,
-  "ConfirmationLinesTemplate": 91,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 852,
+  "QuoteLinesTemplate": 341,
+  "ConfirmationLinesTemplate": 362,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 390,
-  "MinEarningPercent": 508,
-  "GroupQuoteLinesBy": 274,
-  "SortGroupLinesBy": 744,
+  "MaxDiscountPercent": 820,
+  "MinEarningPercent": 341,
+  "GroupQuoteLinesBy": 458,
+  "SortGroupLinesBy": 467,
   "Stages": [
     {
-      "Id": 717,
-      "Name": "Howell-Moore",
-      "ToolTip": "Nihil necessitatibus eos nisi eveniet aut excepturi porro.",
-      "Deleted": false,
-      "Rank": 223,
-      "Type": "rerum",
-      "ColorBlock": 349,
-      "IconHint": "labore",
+      "Id": 438,
+      "Name": "Jakubowski-Weissnat",
+      "ToolTip": "Sapiente voluptatem sed temporibus quis.",
+      "Deleted": true,
+      "Rank": 530,
+      "Type": "ipsa",
+      "ColorBlock": 756,
+      "IconHint": "nihil",
       "Selected": false,
-      "LastChanged": "2009-12-19T03:45:29.2171623+01:00",
+      "LastChanged": "2005-01-16T03:47:00.8005429+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "vel",
-      "StyleHint": "excepturi",
-      "Hidden": true,
-      "FullName": "Celestino Kunde"
+      "ExtraInfo": "omnis",
+      "StyleHint": "ipsam",
+      "Hidden": false,
+      "FullName": "Karen Glover"
     }
   ]
 }
@@ -164,53 +165,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 70,
-  "Name": "Lesch Group",
-  "Tooltip": "quia",
-  "Rank": 51,
+  "SaleTypeId": 298,
+  "Name": "Frami, Moen and Padberg",
+  "Tooltip": "quos",
+  "Rank": 32,
   "DurationUnit": "Century",
-  "SaleDuration": 214,
-  "SaleTypeCatId": 301,
+  "SaleDuration": 435,
+  "SaleTypeCatId": 745,
   "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 703,
-  "QuoteLinesTemplate": 166,
-  "ConfirmationLinesTemplate": 673,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 852,
+  "QuoteLinesTemplate": 955,
+  "ConfirmationLinesTemplate": 527,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 246,
-  "MinEarningPercent": 490,
-  "GroupQuoteLinesBy": 497,
-  "SortGroupLinesBy": 189,
+  "MaxDiscountPercent": 371,
+  "MinEarningPercent": 258,
+  "GroupQuoteLinesBy": 884,
+  "SortGroupLinesBy": 323,
   "Stages": [
     {
-      "Id": 464,
-      "Name": "Walsh Inc and Sons",
-      "ToolTip": "Voluptatem eos dolorum distinctio.",
-      "Deleted": true,
-      "Rank": 36,
-      "Type": "eum",
-      "ColorBlock": 219,
-      "IconHint": "non",
+      "Id": 768,
+      "Name": "Oberbrunner, Larson and Simonis",
+      "ToolTip": "Omnis qui et excepturi.",
+      "Deleted": false,
+      "Rank": 776,
+      "Type": "et",
+      "ColorBlock": 202,
+      "IconHint": "rerum",
       "Selected": false,
-      "LastChanged": "2019-05-10T03:45:29.2171623+02:00",
+      "LastChanged": "2025-01-15T03:47:00.8005429+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sequi",
-      "StyleHint": "omnis",
-      "Hidden": false,
-      "FullName": "Deja Nils Becker DDS",
+      "ExtraInfo": "omnis",
+      "StyleHint": "consequatur",
+      "Hidden": true,
+      "FullName": "Ms. Gunnar Nicolette Wintheiser V",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 654
+          "FieldType": "System.String",
+          "FieldLength": 976
         }
       }
     }
@@ -220,7 +221,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 485
+      "FieldLength": 16
     }
   }
 }

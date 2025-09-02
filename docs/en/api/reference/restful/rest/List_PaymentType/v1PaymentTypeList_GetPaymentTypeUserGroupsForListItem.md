@@ -2,6 +2,7 @@
 title: GET List/PaymentType/Items/{id}/UserGroups
 uid: v1PaymentTypeList_GetPaymentTypeUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/PaymentType/Items/{id}/UserGroups
@@ -75,7 +76,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 293,
-    "Name": "Schuster-Abernathy",
-    "ToolTip": "Possimus ut rerum laudantium commodi dolore et non.",
-    "Deleted": false,
-    "Rank": 288,
-    "Type": "dolores",
-    "ColorBlock": 99,
-    "IconHint": "eveniet",
+    "Id": 656,
+    "Name": "Jenkins, Wilderman and Kuvalis",
+    "ToolTip": "Ab unde.",
+    "Deleted": true,
+    "Rank": 514,
+    "Type": "perspiciatis",
+    "ColorBlock": 206,
+    "IconHint": "excepturi",
     "Selected": false,
-    "LastChanged": "2007-06-23T03:45:29.0765432+02:00",
+    "LastChanged": "2010-01-01T03:47:00.6911718+01:00",
     "ChildItems": [
       {
-        "Id": 252,
-        "Name": "Schinner Group",
-        "ToolTip": "Ut ut nostrum dolorem alias.",
-        "Deleted": false,
-        "Rank": 566,
-        "Type": "ea",
-        "ColorBlock": 576,
-        "IconHint": "doloribus",
+        "Id": 369,
+        "Name": "Marquardt Group",
+        "ToolTip": "Rerum rerum doloribus aut eligendi.",
+        "Deleted": true,
+        "Rank": 100,
+        "Type": "recusandae",
+        "ColorBlock": 570,
+        "IconHint": "maiores",
         "Selected": false,
-        "LastChanged": "2023-12-28T03:45:29.0765432+01:00",
+        "LastChanged": "2017-06-26T03:47:00.6911718+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "eum",
-        "StyleHint": "a",
-        "Hidden": true,
-        "FullName": "Dixie Kunde",
+        "StyleHint": "tempora",
+        "Hidden": false,
+        "FullName": "Stephen Wintheiser",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 73
+            "FieldType": "System.String",
+            "FieldLength": 793
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "nesciunt",
+    "ExtraInfo": "quae",
+    "StyleHint": "reiciendis",
     "Hidden": true,
-    "FullName": "Maye Nikolaus IV",
+    "FullName": "Hope Veum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 139
+        "FieldLength": 574
       }
     }
   }

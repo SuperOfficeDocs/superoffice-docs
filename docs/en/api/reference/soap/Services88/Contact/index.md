@@ -2,6 +2,7 @@
 title: Services88.ContactAgent SOAP
 uid: Services88-Contact-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Contact SOAP

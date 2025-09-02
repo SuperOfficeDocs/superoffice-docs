@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.CopyDocumentToCsAttachment SOAP
 generated: true
 uid: Services88-Document-CopyDocumentToCsAttachment
+content_type: reference
 ---
 
 # Services88 Document CopyDocumentToCsAttachment

@@ -1,6 +1,8 @@
 ---
+uid: tag-ContactRelation
 title: ContactRelation
 generated: true
+content_type: reference
 ---
 
 ```http

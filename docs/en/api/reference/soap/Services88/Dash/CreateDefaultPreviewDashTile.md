@@ -2,6 +2,7 @@
 title: Services88.DashAgent.CreateDefaultPreviewDashTile SOAP
 generated: true
 uid: Services88-Dash-CreateDefaultPreviewDashTile
+content_type: reference
 ---
 
 # Services88 Dash CreateDefaultPreviewDashTile

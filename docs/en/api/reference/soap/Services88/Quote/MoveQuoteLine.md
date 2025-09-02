@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.MoveQuoteLine SOAP
 generated: true
 uid: Services88-Quote-MoveQuoteLine
+content_type: reference
 ---
 
 # Services88 Quote MoveQuoteLine

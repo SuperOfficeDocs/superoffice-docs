@@ -2,6 +2,7 @@
 title: Services88.FindAgent.FindOrderBy SOAP
 generated: true
 uid: Services88-Find-FindOrderBy
+content_type: reference
 ---
 
 # Services88 Find FindOrderBy

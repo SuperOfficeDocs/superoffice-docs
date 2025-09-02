@@ -2,6 +2,7 @@
 title: POST Agents/List/GetListDefinitions
 uid: v1ListAgent_GetListDefinitions
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetListDefinitions
@@ -82,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 863,
-    "Name": "Parker, Bailey and Herman",
-    "Tooltip": "dolorem",
+    "Id": 395,
+    "Name": "Walsh LLC",
+    "Tooltip": "itaque",
     "Deleted": false,
-    "Rank": 413,
-    "IsCustomList": true,
+    "Rank": 440,
+    "IsCustomList": false,
     "IsMDOList": true,
-    "UseGroupsAndHeadings": true,
-    "ListType": "nesciunt",
+    "UseGroupsAndHeadings": false,
+    "ListType": "id",
     "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 138
+        "FieldLength": 752
       }
     }
   }

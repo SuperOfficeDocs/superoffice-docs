@@ -2,6 +2,7 @@
 title: Services88.ListAgent.SaveExtAppEntity SOAP
 generated: true
 uid: Services88-List-SaveExtAppEntity
+content_type: reference
 ---
 
 # Services88 List SaveExtAppEntity

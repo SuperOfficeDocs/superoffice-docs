@@ -2,10 +2,10 @@
 uid: table-s_picture_entry
 title: s_picture_entry table
 description: This table describes each picture in the database
-so.generated: true
+generated: true
 keywords: database table s_picture_entry
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # s\_picture\_entry Table (340)

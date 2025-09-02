@@ -2,6 +2,7 @@
 title: GET List/TicketType/Items/{id}
 uid: v1TicketTypeList_GetTicketTypeEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/TicketType/Items/{id}
@@ -80,7 +81,7 @@ OK
 GET /api/v1/List/TicketType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,40 +91,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 634,
-  "Name": "Waelchi Inc and Sons",
-  "Rank": 134,
-  "Tooltip": "pariatur",
-  "Icon": "ut",
-  "DefaultTicketStatus": 580,
+  "TicketTypeId": 182,
+  "Name": "Bartell Group",
+  "Rank": 88,
+  "Tooltip": "nostrum",
+  "Icon": "harum",
+  "DefaultTicketStatus": 540,
   "TicketStatuses": [
-    291,
-    459
+    746,
+    861
   ],
-  "DefaultTicketPriority": 468,
+  "DefaultTicketPriority": 158,
   "TicketPriorities": [
-    337,
-    742
+    896,
+    194
   ],
-  "ReplyTemplate": 579,
+  "ReplyTemplate": 744,
   "IsExternalVisible": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": false,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    78,
-    230
+    701,
+    994
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 233
+      "FieldType": "System.Int32",
+      "FieldLength": 923
     }
   }
 }

@@ -3,9 +3,9 @@ uid: preferencesection
 title: preferencesection
 keywords: mdoprovider mdo provider preferencesection
 description: MDO Provider that retrieves a list of preference sections
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "preferencesection" MDO List
@@ -47,25 +47,25 @@ foreach (var item in listProvider.RootItems) {
 | --- | ----- | ------- | -------- |
 |1000010|Customer Centre password policy||ccAuthentication|
 |1000007|Client||Client|
-|1000547|SuperOffice Copilot||Copilot|
+|1000549|SuperOffice Copilot||Copilot|
 |1000020|Statistics||DataCollection|
 |1000032|Default values||Defaults|
 |1000067|Diary||DiaryView|
 |1000095|Filter Dialog||FilterDialog|
 |1000097|Freetext search||Freetext|
 |1000105|Functions||Functions|
-|1000542|In-app communication||InApp|
+|1000544|In-app communication||InApp|
 |1000160|E-mail||Mail|
 |1000222|Marketing||Mailing|
-|1000229|Grouped lists||MDOList|
-|1000539|Data mirroring||Mirroring|
-|1000300|Web Services||NetServices|
-|1000328|Notifications via popup||notification|
-|1000336|Notifications via e-mail||notificationEmail|
-|1000344|Notifications via SMS||notificationSms|
-|1000360|Contact||Person|
-|1000379|Mobile CRM||PocketTasks|
-|1000383|Request||request|
+|1000230|Grouped lists||MDOList|
+|1000541|Data mirroring||Mirroring|
+|1000301|Web Services||NetServices|
+|1000329|Notifications via popup||notification|
+|1000337|Notifications via e-mail||notificationEmail|
+|1000345|Notifications via SMS||notificationSms|
+|1000361|Contact||Person|
+|1000380|Mobile CRM||PocketTasks|
+|1000384|Request||request|
 
 
 ## Related MDO Lists

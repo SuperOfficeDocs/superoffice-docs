@@ -2,6 +2,7 @@
 title: Services88.UserDefinedFieldInfoAgent.SetUserDefinedPageOneField SOAP
 generated: true
 uid: Services88-UserDefinedFieldInfo-SetUserDefinedPageOneField
+content_type: reference
 ---
 
 # Services88 UserDefinedFieldInfo SetUserDefinedPageOneField

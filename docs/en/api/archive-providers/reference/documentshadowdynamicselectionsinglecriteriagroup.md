@@ -3,9 +3,9 @@ uid: DocumentShadowDynamicSelectionSingleCriteriaGroup
 title: DocumentShadowDynamicSelectionSingleCriteriaGroup
 description: Shadow contact provider for the dynamic document provider.
 keywords: DocumentShadowDynamicSelectionSingleCriteriaGroup archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "DocumentShadowDynamicSelectionSingleCriteriaGroup"
@@ -720,7 +720,7 @@ Shadow contact provider for the dynamic document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowDynamicSelectionSingleCriteriaGroup?$select=person/middleName,person/personHasInterests,person/personExtra/x_person_float,person/personAssociate/contactFullName,person/correspondingAssociate/assocType
+GET /api/v1/archive/DocumentShadowDynamicSelectionSingleCriteriaGroup?$select=associate/middleName,sale/description,sale/associate/usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

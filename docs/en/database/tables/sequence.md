@@ -2,10 +2,10 @@
 uid: table-sequence
 title: sequence table
 description: next_id to be used for each table
-so.generated: true
+generated: true
 keywords: database table sequence
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # sequence Table (0)

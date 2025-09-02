@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetPersonDiary
 uid: v1AppointmentAgent_GetPersonDiary
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetPersonDiary
@@ -117,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -131,14 +133,14 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 127,
-  "StartTime": "2016-10-12T03:45:22.6704778+02:00",
-  "EndTime": "2015-04-12T03:45:22.6704778+02:00",
-  "Count": 286
+  "PersonId": 327,
+  "StartTime": "2021-06-27T03:46:54.2695244+02:00",
+  "EndTime": "2012-05-05T03:46:54.2695244+02:00",
+  "Count": 945
 }
 ```
 
@@ -150,66 +152,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 907,
-    "StartDate": "2012-09-15T03:45:22.6704778+02:00",
-    "EndDate": "2015-02-12T03:45:22.6704778+01:00",
+    "AppointmentId": 581,
+    "StartDate": "2013-07-19T03:46:54.2695244+02:00",
+    "EndDate": "2021-07-01T03:46:54.2695244+02:00",
     "Type": "BookingForChecklist",
-    "Task": "optio",
-    "AssociateFullName": "Prof. Maximilian Marquardt",
-    "ContactName": "Schneider, Kunze and Nitzsche",
-    "Description": "Devolved dedicated moratorium",
-    "PersonFullName": "Dominique McKenzie",
-    "PersonId": 357,
-    "ContactId": 365,
-    "ProjectId": 737,
-    "ProjectName": "Von-Goldner",
-    "IsPublished": false,
-    "AssociateId": 594,
-    "ColorIndex": 737,
-    "IsFree": true,
+    "Task": "suscipit",
+    "AssociateFullName": "Tess Boyle",
+    "ContactName": "Reinger Group",
+    "Description": "Balanced holistic open system",
+    "PersonFullName": "Ernesto Karson Reinger II",
+    "PersonId": 492,
+    "ContactId": 94,
+    "ProjectId": 740,
+    "ProjectName": "Medhurst LLC",
+    "IsPublished": true,
+    "AssociateId": 54,
+    "ColorIndex": 213,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 40,
-    "PriorityName": "Leffler Group",
+    "PriorityId": 786,
+    "PriorityName": "VonRueden, Oberbrunner and Ebert",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2022-06-14T03:45:22.6704778+02:00",
+    "ActiveDate": "2020-11-20T03:46:54.2695244+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2022-01-10T03:45:22.6704778+01:00",
-    "RecurringEndDate": "2005-10-08T03:45:22.6704778+02:00",
-    "MotherId": 821,
-    "AssignedBy": 350,
-    "AssignedByFullName": "Prof. Jerrold Daugherty I",
+    "RecurringStartDate": "1999-06-18T03:46:54.2695244+02:00",
+    "RecurringEndDate": "2016-10-23T03:46:54.2695244+02:00",
+    "MotherId": 433,
+    "AssignedBy": 118,
+    "AssignedByFullName": "Ms. Katarina Heaney",
     "RejectReason": "",
     "Location": "ut",
-    "AlarmLeadTime": "ratione",
-    "SaleId": 528,
-    "SaleName": "DuBuque-Emmerich",
-    "AssociateName": "Bauch Inc and Sons",
-    "CreatedDate": "2009-02-13T03:45:22.6704778+01:00",
-    "CreatedBy": "tempora",
-    "CreatedByFullName": "Garfield Lehner",
-    "CreatedByAssociateId": 84,
+    "AlarmLeadTime": "molestiae",
+    "SaleId": 269,
+    "SaleName": "Stiedemann Inc and Sons",
+    "AssociateName": "Schamberger LLC",
+    "CreatedDate": "2015-07-30T03:46:54.2695244+02:00",
+    "CreatedBy": "beatae",
+    "CreatedByFullName": "Owen Little",
+    "CreatedByAssociateId": 979,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 966,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 7,
-    "Title": "officiis",
-    "Agenda": "alias",
-    "InternalNotes": "adipisci",
+    "PreferredTZLocation": 547,
+    "Title": "quod",
+    "Agenda": "animi",
+    "InternalNotes": "fuga",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 156
+        "FieldLength": 453
       }
     }
   }

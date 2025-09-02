@@ -2,6 +2,7 @@
 title: GET List/ProductCategory/Headings
 uid: v1ProductCategoryList_GetProductCategoryHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/ProductCategory/Headings
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 281,
-    "Name": "Kihn-Jakubowski",
-    "Tooltip": "sit",
-    "Deleted": true,
-    "Rank": 911,
-    "UdListDefinitionId": 120,
+    "HeadingId": 355,
+    "Name": "Smitham LLC",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 203,
+    "UdListDefinitionId": 356,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 512
+        "FieldLength": 205
       }
     }
   }

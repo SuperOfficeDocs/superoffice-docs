@@ -2,6 +2,7 @@
 title: Services88.SelectionAgent SOAP
 uid: Services88-Selection-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Selection SOAP
@@ -23,6 +24,7 @@ Download [WSDL file for Services88/Selection](../Services88-Selection.md) if you
 * [CopySelectionMembers](CopySelectionMembers.md)
 * [CreateContactSelectionFromSelection](CreateContactSelectionFromSelection.md)
 * [CreateContactSelectionFromShadowSelection](CreateContactSelectionFromShadowSelection.md)
+* [CreateDefaultBoardViewSettingsFromEntityType](CreateDefaultBoardViewSettingsFromEntityType.md)
 * [CreateDefaultSelectionEntity](CreateDefaultSelectionEntity.md)
 * [CreateNewEntry](CreateNewEntry.md)
 * [CreateSelectionEntity](CreateSelectionEntity.md)
@@ -31,6 +33,7 @@ Download [WSDL file for Services88/Selection](../Services88-Selection.md) if you
 * [CreateTemporaryContactSelectionFromContactPersonIds](CreateTemporaryContactSelectionFromContactPersonIds.md)
 * [CreateTemporaryContactSelectionFromSelectionMemberIds](CreateTemporaryContactSelectionFromSelectionMemberIds.md)
 * [CreateTemporarySelectionFromIds](CreateTemporarySelectionFromIds.md)
+* [DeleteBoardViewSettings](DeleteBoardViewSettings.md)
 * [DeleteContacts](DeleteContacts.md)
 * [DeleteEntities](DeleteEntities.md)
 * [DeletePersons](DeletePersons.md)
@@ -39,6 +42,8 @@ Download [WSDL file for Services88/Selection](../Services88-Selection.md) if you
 * [ExportSelectionMembers](ExportSelectionMembers.md)
 * [ExportSelectionMembersWithOrderBy](ExportSelectionMembersWithOrderBy.md)
 * [GenerateFollowUps](GenerateFollowUps.md)
+* [GetBoardViewSettings](GetBoardViewSettings.md)
+* [GetBoardViewSettingsForSelection](GetBoardViewSettingsForSelection.md)
 * [GetDuplicateRules](GetDuplicateRules.md)
 * [GetDuplicates](GetDuplicates.md)
 * [GetDynamicSelectionCriteria](GetDynamicSelectionCriteria.md)
@@ -58,6 +63,7 @@ Download [WSDL file for Services88/Selection](../Services88-Selection.md) if you
 * [RemoveSelectionMembers](RemoveSelectionMembers.md)
 * [RemoveSelectionMembersById](RemoveSelectionMembersById.md)
 * [RemoveSelectionMembersFromSearch](RemoveSelectionMembersFromSearch.md)
+* [SaveBoardViewSettings](SaveBoardViewSettings.md)
 * [SaveSelectionEntity](SaveSelectionEntity.md)
 * [SetDuplicateRulesStatus](SetDuplicateRulesStatus.md)
 * [SetDynamicSelectionCriteria](SetDynamicSelectionCriteria.md)

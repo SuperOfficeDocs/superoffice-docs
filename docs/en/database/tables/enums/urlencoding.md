@@ -2,10 +2,10 @@
 uid: enum-urlencoding
 title: Enum values for UrlEncoding
 description: Lists the enum values for UrlEncoding.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # UrlEncoding Enum

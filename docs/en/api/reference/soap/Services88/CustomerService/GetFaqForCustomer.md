@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.GetFaqForCustomer SOAP
 generated: true
 uid: Services88-CustomerService-GetFaqForCustomer
+content_type: reference
 ---
 
 # Services88 CustomerService GetFaqForCustomer

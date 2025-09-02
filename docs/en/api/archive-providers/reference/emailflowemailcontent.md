@@ -3,9 +3,9 @@ uid: EmailFlowEmailContent
 title: EmailFlowEmailContent
 description: Email flow message content.
 keywords: EmailFlowEmailContent archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "EmailFlowEmailContent"
@@ -260,7 +260,7 @@ Lists all email flow message content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/emailFlow/workflowDefinitionStatusId,shipment/emailFlow/workflowAssociate/isActive
+GET /api/v1/archive/EmailFlowEmailContent?$select=shipmentMessageId,emailFlow/emailFlowId,shipment/emailFlow/shipmentType,shipment/emailFlow/workflowAssociate/middleName,shipment/project/saintDirection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

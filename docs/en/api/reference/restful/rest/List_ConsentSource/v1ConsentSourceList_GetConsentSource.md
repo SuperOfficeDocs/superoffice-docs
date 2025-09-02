@@ -2,6 +2,7 @@
 title: GET List/ConsentSource/Items/{id}
 uid: v1ConsentSourceList_GetConsentSource
 generated: true
+content_type: reference
 ---
 
 # GET List/ConsentSource/Items/{id}
@@ -78,19 +79,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 560,
-  "Name": "Thompson-Padberg",
-  "Tooltip": "et",
-  "Rank": 733,
-  "Key": "blanditiis",
-  "MailTemplateId": 775,
+  "ConsentSourceId": 98,
+  "Name": "Hudson-Bradtke",
+  "Tooltip": "dicta",
+  "Rank": 686,
+  "Key": "sed",
+  "MailTemplateId": 66,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldLength": 448
     }
   }
 }

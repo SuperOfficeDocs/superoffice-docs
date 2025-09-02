@@ -3,9 +3,9 @@ uid: EmailAddress
 title: EmailAddress
 description: Special purpose archive provider used to search for email addresses.
 keywords: EmailAddress archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "EmailAddress"
@@ -519,7 +519,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailAddress?$select=getAllRows,personHasInterests,personContact/business,personContact/streetAddress/state,contactSupportPerson/personHasInterests
+GET /api/v1/archive/EmailAddress?$select=emailId,personId,personContact/hasInfoText,personContact/orgnr,postAddress/line3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

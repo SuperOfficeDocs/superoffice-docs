@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/FindTicketsByTitleOrId
 uid: v1CustomerServiceAgent_FindTicketsByTitleOrId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/FindTicketsByTitleOrId
@@ -85,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TitleOrId": "similique",
-  "MaxRows": 109
+  "TitleOrId": "debitis",
+  "MaxRows": 376
 }
 ```
 
@@ -98,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketId": 10,
-    "Title": "sunt",
-    "OwnerName": "Gottlieb-Johnson",
+    "TicketId": 400,
+    "Title": "odit",
+    "OwnerName": "Rolfson Group",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Rowe, Crooks and Jacobson",
+    "PriorityName": "Bruen, Lehner and Lakin",
     "TicketUrl": "http://www.example.com/",
-    "PersonName": "Lesch, Kassulke and Robel",
-    "ContactName": "Haag-Wisozk",
+    "PersonName": "Harvey-Boyle",
+    "ContactName": "Rath LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 692
+        "FieldType": "System.Int32",
+        "FieldLength": 603
       }
     }
   }

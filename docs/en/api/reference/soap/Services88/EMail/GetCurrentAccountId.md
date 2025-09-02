@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.GetCurrentAccountId SOAP
 generated: true
 uid: Services88-EMail-GetCurrentAccountId
+content_type: reference
 ---
 
 # Services88 EMail GetCurrentAccountId

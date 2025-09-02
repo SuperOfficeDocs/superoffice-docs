@@ -2,6 +2,7 @@
 title: Services88.SaleAgent.DeleteSaleEntity SOAP
 generated: true
 uid: Services88-Sale-DeleteSaleEntity
+content_type: reference
 ---
 
 # Services88 Sale DeleteSaleEntity

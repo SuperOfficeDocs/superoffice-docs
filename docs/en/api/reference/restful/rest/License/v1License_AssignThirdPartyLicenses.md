@@ -2,6 +2,7 @@
 title: PUT License/{moduleOwner}/{id}
 uid: v1License_AssignThirdPartyLicenses
 generated: true
+content_type: reference
 ---
 
 # PUT License/{moduleOwner}/{id}
@@ -78,7 +79,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,26 +90,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 206,
-    "Tooltip": "qui",
-    "CanAssign": false,
-    "Free": 50,
-    "InUse": 624,
-    "IsHidden": true,
-    "Assigned": false,
-    "ModuleLicenseId": 240,
-    "Name": "Corwin-Prohaska",
-    "Description": "Customizable 24 hour projection",
-    "PrerequisiteModuleName": "Bogan Inc and Sons",
-    "SortOrder": 87,
-    "ExtraFlags": 800,
+    "Unrestricted": true,
+    "Total": 352,
+    "Tooltip": "velit",
+    "CanAssign": true,
+    "Free": 801,
+    "InUse": 782,
+    "IsHidden": false,
+    "Assigned": true,
+    "ModuleLicenseId": 776,
+    "Name": "Haley-Kuhn",
+    "Description": "Managed client-driven function",
+    "PrerequisiteModuleName": "Kuhlman LLC",
+    "SortOrder": 704,
+    "ExtraFlags": 398,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 672
+        "FieldLength": 302
       }
     }
   }

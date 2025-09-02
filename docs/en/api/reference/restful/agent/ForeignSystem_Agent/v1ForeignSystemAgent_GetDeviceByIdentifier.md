@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/GetDeviceByIdentifier
 uid: v1ForeignSystemAgent_GetDeviceByIdentifier
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/GetDeviceByIdentifier
@@ -83,13 +84,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Schmeler-Harvey",
-  "DeviceName": "Bogan, Vandervort and Gutkowski",
-  "DeviceIdentifier": "alias"
+  "ApplicationName": "Padberg, Doyle and Dach",
+  "DeviceName": "Hahn Inc and Sons",
+  "DeviceIdentifier": "saepe"
 }
 ```
 
@@ -100,21 +101,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 258,
-  "Name": "Runolfsson, Walsh and Crooks",
-  "CreatedDate": "2003-09-21T03:45:23.4829546+02:00",
-  "UpdatedDate": "1999-10-02T03:45:23.4829546+02:00",
-  "AssociateFullName": "Miss Lewis McCullough Sr.",
-  "CreatedBy": "vitae",
-  "UpdatedBy": "non",
-  "DeviceIdentifier": "est",
-  "ForeignAppId": 108,
+  "ForeignDeviceId": 644,
+  "Name": "Rowe, Prosacco and Koepp",
+  "CreatedDate": "2017-03-05T03:46:54.8632539+01:00",
+  "UpdatedDate": "2005-03-01T03:46:54.8632539+01:00",
+  "AssociateFullName": "Marcelle Lebsack",
+  "CreatedBy": "exercitationem",
+  "UpdatedBy": "exercitationem",
+  "DeviceIdentifier": "a",
+  "ForeignAppId": 953,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 471
+      "FieldType": "System.String",
+      "FieldLength": 325
     }
   }
 }

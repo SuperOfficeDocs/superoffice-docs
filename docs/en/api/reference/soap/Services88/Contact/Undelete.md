@@ -2,6 +2,7 @@
 title: Services88.ContactAgent.Undelete SOAP
 generated: true
 uid: Services88-Contact-Undelete
+content_type: reference
 ---
 
 # Services88 Contact Undelete

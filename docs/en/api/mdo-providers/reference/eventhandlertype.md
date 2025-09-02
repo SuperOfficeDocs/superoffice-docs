@@ -3,9 +3,9 @@ uid: eventhandlertype
 title: eventhandlertype
 keywords: mdoprovider mdo provider eventhandlertype
 description: Screen trigger event types - members of <see cref="T:SuperOffice.Data.EventHandlerType" /> enum.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "eventhandlertype" MDO List

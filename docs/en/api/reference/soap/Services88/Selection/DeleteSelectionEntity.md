@@ -2,6 +2,7 @@
 title: Services88.SelectionAgent.DeleteSelectionEntity SOAP
 generated: true
 uid: Services88-Selection-DeleteSelectionEntity
+content_type: reference
 ---
 
 # Services88 Selection DeleteSelectionEntity

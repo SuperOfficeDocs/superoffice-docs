@@ -2,10 +2,10 @@
 uid: table-sale
 title: sale table
 description: Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.  
-so.generated: true
+generated: true
 keywords: database table sale
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # sale Table (13)

@@ -2,6 +2,7 @@
 title: GET List/DocumentTemplate/Items/{id}/Headings
 uid: v1DocumentTemplateList_GetDocumentTemplateEntityHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/DocumentTemplate/Items/{id}/Headings
@@ -31,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 848,
-    "Name": "Yost-Runte",
-    "ToolTip": "Eum velit quam corporis ut quaerat ut sunt.",
-    "Deleted": false,
-    "Rank": 795,
-    "Type": "aut",
-    "ColorBlock": 542,
-    "IconHint": "non",
+    "Id": 109,
+    "Name": "Johnston Inc and Sons",
+    "ToolTip": "Omnis ea sed et sapiente fugit numquam.",
+    "Deleted": true,
+    "Rank": 320,
+    "Type": "occaecati",
+    "ColorBlock": 103,
+    "IconHint": "quas",
     "Selected": false,
-    "LastChanged": "2018-01-21T03:45:29.0452922+01:00",
+    "LastChanged": "2020-08-20T03:47:00.6599229+02:00",
     "ChildItems": [
       {
-        "Id": 581,
-        "Name": "Ernser Group",
-        "ToolTip": "Ea rerum fugiat.",
+        "Id": 601,
+        "Name": "Grimes-Ryan",
+        "ToolTip": "Esse aut et et ratione est consequuntur earum.",
         "Deleted": false,
-        "Rank": 218,
-        "Type": "veniam",
-        "ColorBlock": 38,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2002-05-14T03:45:29.0452922+02:00",
+        "Rank": 110,
+        "Type": "labore",
+        "ColorBlock": 117,
+        "IconHint": "mollitia",
+        "Selected": true,
+        "LastChanged": "2004-08-23T03:47:00.6599229+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "id",
-        "Hidden": true,
-        "FullName": "Roberto Lueilwitz",
+        "ExtraInfo": "fuga",
+        "StyleHint": "quos",
+        "Hidden": false,
+        "FullName": "Mr. Amira Schowalter",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 26
+            "FieldLength": 225
           }
         }
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "sed",
-    "Hidden": false,
-    "FullName": "Holden Hackett",
+    "ExtraInfo": "possimus",
+    "StyleHint": "enim",
+    "Hidden": true,
+    "FullName": "Mrs. Rosalind Ryder Windler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 183
+        "FieldLength": 462
       }
     }
   }

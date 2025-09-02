@@ -1,6 +1,8 @@
 ---
+uid: tag-User_Agent
 title: User_Agent
 generated: true
+content_type: reference
 ---
 
 ```http
@@ -74,28 +76,6 @@ generated: true
 
 * [POST Agents/User/GetUserInfoList](v1UserAgent_GetUserInfoList.md)
 
-* [POST Agents/User/CreateDefaultRoleEntity](v1UserAgent_CreateDefaultRoleEntity.md)
-
-* [POST Agents/User/SaveRoleEntity](v1UserAgent_SaveRoleEntity.md)
-
-* [POST Agents/User/CreateDefaultServiceAuth](v1UserAgent_CreateDefaultServiceAuth.md)
-
-* [POST Agents/User/SaveServiceAuth](v1UserAgent_SaveServiceAuth.md)
-
-* [POST Agents/User/DeleteServiceAuth](v1UserAgent_DeleteServiceAuth.md)
-
-* [POST Agents/User/CreateDefaultUntrustedCredentials](v1UserAgent_CreateDefaultUntrustedCredentials.md)
-
-* [POST Agents/User/CreateDefaultUser](v1UserAgent_CreateDefaultUser.md)
-
-* [POST Agents/User/SaveUser](v1UserAgent_SaveUser.md)
-
-* [POST Agents/User/GetUserCommandsAsync](v1UserAgent_GetUserCommandsAsync.md)
-
-* [POST Agents/User/ExecuteUserCommandAsync](v1UserAgent_ExecuteUserCommandAsync.md)
-
-* [POST Agents/User/DeleteUser](v1UserAgent_DeleteUser.md)
-
 * [POST Agents/User/GetAccessGatewayInfo](v1UserAgent_GetAccessGatewayInfo.md)
 
 * [POST Agents/User/GetOrRegisterAccessGatewayInfo](v1UserAgent_GetOrRegisterAccessGatewayInfo.md)
@@ -115,6 +95,10 @@ generated: true
 * [POST Agents/User/GetCredentialUsersInGroup](v1UserAgent_GetCredentialUsersInGroup.md)
 
 * [POST Agents/User/GetRole](v1UserAgent_GetRole.md)
+
+* [POST Agents/User/CreateDefaultRoleEntity](v1UserAgent_CreateDefaultRoleEntity.md)
+
+* [POST Agents/User/SaveRoleEntity](v1UserAgent_SaveRoleEntity.md)
 
 * [POST Agents/User/GetRoleEntity](v1UserAgent_GetRoleEntity.md)
 
@@ -142,6 +126,12 @@ generated: true
 
 * [POST Agents/User/FindRolesWithoutFunctionalRights](v1UserAgent_FindRolesWithoutFunctionalRights.md)
 
+* [POST Agents/User/CreateDefaultServiceAuth](v1UserAgent_CreateDefaultServiceAuth.md)
+
+* [POST Agents/User/SaveServiceAuth](v1UserAgent_SaveServiceAuth.md)
+
+* [POST Agents/User/DeleteServiceAuth](v1UserAgent_DeleteServiceAuth.md)
+
 * [POST Agents/User/GetServiceAuth](v1UserAgent_GetServiceAuth.md)
 
 * [POST Agents/User/SaveExternalTokens](v1UserAgent_SaveExternalTokens.md)
@@ -149,6 +139,18 @@ generated: true
 * [POST Agents/User/DecryptAndSaveExternalTokens](v1UserAgent_DecryptAndSaveExternalTokens.md)
 
 * [POST Agents/User/GetExternalTokens](v1UserAgent_GetExternalTokens.md)
+
+* [POST Agents/User/CreateDefaultUntrustedCredentials](v1UserAgent_CreateDefaultUntrustedCredentials.md)
+
+* [POST Agents/User/CreateDefaultUser](v1UserAgent_CreateDefaultUser.md)
+
+* [POST Agents/User/SaveUser](v1UserAgent_SaveUser.md)
+
+* [POST Agents/User/GetUserCommands](v1UserAgent_GetUserCommands.md)
+
+* [POST Agents/User/ExecuteUserCommand](v1UserAgent_ExecuteUserCommand.md)
+
+* [POST Agents/User/DeleteUser](v1UserAgent_DeleteUser.md)
 
 * [POST Agents/User/GetUser](v1UserAgent_GetUser.md)
 

@@ -2,6 +2,7 @@
 title: POST Agents/DatabaseTable/Delete
 uid: v1DatabaseTableAgent_Delete
 generated: true
+content_type: reference
 ---
 
 # POST Agents/DatabaseTable/Delete
@@ -83,10 +84,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Torp-Kassulke",
+  "TableName": "Casper-Jerde",
   "IDs": [
-    442,
-    793
+    299,
+    130
   ]
 }
 ```
@@ -98,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "qui",
-  "Inserts": 112,
-  "Updates": 766,
-  "Deletes": 113,
+  "Success": false,
+  "Message": "maiores",
+  "Inserts": 728,
+  "Updates": 329,
+  "Deletes": 892,
   "RowStatus": [
     {
-      "PrimaryKey": 88,
+      "PrimaryKey": 946,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "maiores",
-        "totam"
+        "praesentium",
+        "eum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 33
+          "FieldLength": 632
         }
       }
     },
     {
-      "PrimaryKey": 88,
+      "PrimaryKey": 946,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "maiores",
-        "totam"
+        "praesentium",
+        "eum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 33
+          "FieldLength": 632
         }
       }
     }
@@ -142,7 +143,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldLength": 537
     }
   }
 }

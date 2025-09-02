@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetAppointmentRecords
 uid: v1AppointmentAgent_GetAppointmentRecords
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetAppointmentRecords
@@ -115,6 +116,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -129,12 +131,12 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentRecords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 186,
-  "RecurrenceRuleId": 570
+  "MotherId": 163,
+  "RecurrenceRuleId": 996
 }
 ```
 
@@ -146,66 +148,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 657,
-    "StartDate": "2006-08-23T03:45:22.7017267+02:00",
-    "EndDate": "2013-11-03T03:45:22.7017267+01:00",
+    "AppointmentId": 681,
+    "StartDate": "2016-06-20T03:46:54.0195335+02:00",
+    "EndDate": "2010-07-30T03:46:54.0195335+02:00",
     "Type": "BookingForChecklist",
-    "Task": "rerum",
-    "AssociateFullName": "Elmore Streich IV",
-    "ContactName": "Lowe Group",
-    "Description": "Right-sized demand-driven moratorium",
-    "PersonFullName": "Royce Crist",
-    "PersonId": 840,
-    "ContactId": 851,
-    "ProjectId": 861,
-    "ProjectName": "Reichel-Nienow",
+    "Task": "occaecati",
+    "AssociateFullName": "Johnpaul Kovacek",
+    "ContactName": "Okuneva, Schmitt and Lynch",
+    "Description": "Team-oriented intangible analyzer",
+    "PersonFullName": "Estelle Smith",
+    "PersonId": 655,
+    "ContactId": 687,
+    "ProjectId": 33,
+    "ProjectName": "Robel Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 702,
-    "ColorIndex": 352,
-    "IsFree": false,
+    "AssociateId": 458,
+    "ColorIndex": 459,
+    "IsFree": true,
     "HasAlarm": true,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 890,
-    "PriorityName": "Hauck, Durgan and VonRueden",
+    "PriorityId": 285,
+    "PriorityName": "Rutherford Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2002-03-12T03:45:22.7017267+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2017-03-26T03:46:54.0195335+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2012-07-08T03:45:22.7017267+02:00",
-    "RecurringEndDate": "2002-11-11T03:45:22.7017267+01:00",
-    "MotherId": 646,
-    "AssignedBy": 657,
-    "AssignedByFullName": "Seth Dietrich",
+    "RecurringStartDate": "2008-05-06T03:46:54.0195335+02:00",
+    "RecurringEndDate": "2014-11-27T03:46:54.0195335+01:00",
+    "MotherId": 41,
+    "AssignedBy": 346,
+    "AssignedByFullName": "Watson Vernice Quitzon Jr.",
     "RejectReason": "",
-    "Location": "adipisci",
-    "AlarmLeadTime": "dolorem",
-    "SaleId": 437,
-    "SaleName": "Powlowski LLC",
-    "AssociateName": "Schulist Group",
-    "CreatedDate": "2011-04-29T03:45:22.7017267+02:00",
-    "CreatedBy": "dolore",
-    "CreatedByFullName": "Kayleigh Stiedemann",
-    "CreatedByAssociateId": 46,
+    "Location": "veniam",
+    "AlarmLeadTime": "quas",
+    "SaleId": 283,
+    "SaleName": "Bins-Barton",
+    "AssociateName": "Towne LLC",
+    "CreatedDate": "2021-07-21T03:46:54.0195335+02:00",
+    "CreatedBy": "quos",
+    "CreatedByFullName": "Mrs. Toni Lue Flatley I",
+    "CreatedByAssociateId": 917,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 59,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 742,
-    "Title": "tempora",
-    "Agenda": "culpa",
-    "InternalNotes": "quisquam",
+    "PreferredTZLocation": 476,
+    "Title": "amet",
+    "Agenda": "hic",
+    "InternalNotes": "dolores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 908
+        "FieldType": "System.String",
+        "FieldLength": 122
       }
     }
   }

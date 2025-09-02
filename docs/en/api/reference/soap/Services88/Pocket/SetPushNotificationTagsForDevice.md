@@ -2,6 +2,7 @@
 title: Services88.PocketAgent.SetPushNotificationTagsForDevice SOAP
 generated: true
 uid: Services88-Pocket-SetPushNotificationTagsForDevice
+content_type: reference
 ---
 
 # Services88 Pocket SetPushNotificationTagsForDevice

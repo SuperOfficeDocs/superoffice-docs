@@ -2,6 +2,7 @@
 title: Services88.ListAgent.SaveFromListDefinition SOAP
 generated: true
 uid: Services88-List-SaveFromListDefinition
+content_type: reference
 ---
 
 # Services88 List SaveFromListDefinition

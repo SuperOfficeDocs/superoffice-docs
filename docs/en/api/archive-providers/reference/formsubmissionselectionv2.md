@@ -3,9 +3,9 @@ uid: FormSubmissionSelectionV2
 title: FormSubmissionSelectionV2
 description: This is the archive Provider for the Selection FormSubmission archive.
 keywords: FormSubmissionSelectionV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "FormSubmissionSelectionV2"
@@ -485,7 +485,7 @@ This is the archive Provider for the Selection FormSubmission archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionSelectionV2?$select=personId,person/personAssociate/associateDbId,contact/email/emailLastBounce,targetTableNumber
+GET /api/v1/archive/FormSubmissionSelectionV2?$select=person/personUpdatedBy,person/personExtra/y_rental/y_equipment/x_name,person/restrictionAddress/state
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

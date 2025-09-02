@@ -2,6 +2,7 @@
 title: POST Agents/BulkUpdate/GetStoredFields
 uid: v1BulkUpdateAgent_GetStoredFields
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BulkUpdate/GetStoredFields
@@ -88,12 +89,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "project",
-  "Context": "maxime"
+  "Context": "ipsam"
 }
 ```
 
@@ -107,74 +108,74 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
+    "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "ad",
-    "ValueType": "rerum",
+    "Key": "saepe",
+    "ValueType": "fuga",
     "Mandatory": false,
-    "EncodedDisplayName": "Quigley Inc and Sons",
-    "EncodedDisplayDescription": "Proactive upward-trending encoding",
+    "EncodedDisplayName": "Berge, Keeling and Murphy",
+    "EncodedDisplayDescription": "Ergonomic modular firmware",
     "IconHint": "est",
     "ControlInfos": [
       {
-        "Type": "minima",
-        "Label": "quibusdam",
-        "Dimension": 193,
-        "ListProviderName": "Weimann Group",
-        "ListProviderExtraInfo": "quo",
-        "ListProviderPrimaryKeyName": "Lowe, Schroeder and Keebler",
-        "ListLeadText": "quaerat",
+        "Type": "temporibus",
+        "Label": "dolore",
+        "Dimension": 572,
+        "ListProviderName": "Padberg, Purdy and Kerluke",
+        "ListProviderExtraInfo": "harum",
+        "ListProviderPrimaryKeyName": "Homenick Inc and Sons",
+        "ListLeadText": "ipsam",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 974
+            "FieldLength": 155
           }
         }
       }
     ],
-    "EncodedDataCaption": "autem",
-    "EncodedDataCaptionDescription": "Multi-lateral asynchronous contingency",
-    "CurrentOperationType": "quibusdam",
+    "EncodedDataCaption": "aut",
+    "EncodedDataCaptionDescription": "Realigned reciprocal collaboration",
+    "CurrentOperationType": "nemo",
     "Values": [
-      "distinctio",
-      "assumenda"
+      "quis",
+      "architecto"
     ],
     "DisplayValues": [
-      "voluptas",
-      "consequatur"
+      "id",
+      "quisquam"
     ],
     "OperationInfos": [
       {
-        "Key": "incidunt",
-        "EncodedDisplayName": "Funk Group",
+        "Key": "eligendi",
+        "EncodedDisplayName": "Luettgen, Larson and Doyle",
         "EncodedLeadTexts": [
-          "nam",
-          "autem"
+          "eius",
+          "qui"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 301
+            "FieldLength": 424
           }
         }
       },
       {
-        "Key": "incidunt",
-        "EncodedDisplayName": "Funk Group",
+        "Key": "eligendi",
+        "EncodedDisplayName": "Luettgen, Larson and Doyle",
         "EncodedLeadTexts": [
-          "nam",
-          "autem"
+          "eius",
+          "qui"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 301
+            "FieldLength": 424
           }
         }
       }

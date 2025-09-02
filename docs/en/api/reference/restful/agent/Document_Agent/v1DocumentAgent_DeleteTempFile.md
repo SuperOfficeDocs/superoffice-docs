@@ -2,6 +2,7 @@
 title: POST Agents/Document/DeleteTempFile
 uid: v1DocumentAgent_DeleteTempFile
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/DeleteTempFile
@@ -64,11 +65,11 @@ No Content
 POST /api/v1/Agents/Document/DeleteTempFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "dolore"
+  "Filename": "excepturi"
 }
 ```
 

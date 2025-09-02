@@ -1,6 +1,8 @@
 ---
+uid: tag-ChatSession
 title: ChatSession
 generated: true
+content_type: reference
 ---
 
 ```http

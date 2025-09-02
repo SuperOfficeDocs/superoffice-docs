@@ -2,10 +2,10 @@
 uid: table-ejsel_source_script
 title: ejsel_source_script table
 description: This table stores a selection script source
-so.generated: true
+generated: true
 keywords: database table ejsel_source_script
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ejsel\_source\_script Table (394)

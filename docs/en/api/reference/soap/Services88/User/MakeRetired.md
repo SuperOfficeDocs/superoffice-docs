@@ -2,6 +2,7 @@
 title: Services88.UserAgent.MakeRetired SOAP
 generated: true
 uid: Services88-User-MakeRetired
+content_type: reference
 ---
 
 # Services88 User MakeRetired

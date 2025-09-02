@@ -3,9 +3,9 @@ uid: chartselection
 title: chartselection
 keywords: mdoprovider mdo provider chartselection
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "chartselection" MDO List

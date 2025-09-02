@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent SOAP
 uid: Services88-Configuration-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Configuration SOAP

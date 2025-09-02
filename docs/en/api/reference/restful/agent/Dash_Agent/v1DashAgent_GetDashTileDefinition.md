@@ -2,6 +2,7 @@
 title: POST Agents/Dash/GetDashTileDefinition
 uid: v1DashAgent_GetDashTileDefinition
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/GetDashTileDefinition
@@ -22,11 +23,11 @@ Gets a DashTileDefinition object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| dashTileDefinitionId | int32 | **Required** The primary key. |
+| dashTileDefinitionId | int32 | **Required** The identifier of the DashTileDefinition object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=724
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=113
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -95,31 +96,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 676,
-  "Name": "Zieme, Hahn and Hirthe",
-  "Description": "Seamless global adapter",
-  "DefaultHeight": 118,
-  "DefaultWidth": 895,
+  "DashboardTileDefinitionId": 922,
+  "Name": "Zulauf, Kshlerin and Weissnat",
+  "Description": "Assimilated content-based encryption",
+  "DefaultHeight": 272,
+  "DefaultWidth": 436,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Kris, Nikolaus and Parisian",
-  "SelectionId": 558,
+  "EntityName": "Doyle Group",
+  "SelectionId": 30,
   "CurrencyMode": "Base",
-  "CurrencyCode": "dicta",
+  "CurrencyCode": "possimus",
   "Measure": "Average",
-  "MeasureField": "ex",
-  "SortBy": "maiores",
-  "LayoutConfig": "a",
-  "SecondarySelectionId": 326,
-  "MeasureByField": "enim",
+  "MeasureField": "officiis",
+  "SortBy": "dignissimos",
+  "LayoutConfig": "qui",
+  "SecondarySelectionId": 675,
+  "MeasureByField": "veniam",
   "Usage": "Dashboard",
-  "ProviderName": "Larson Group",
+  "ProviderName": "Marvin-Windler",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 158
+      "FieldLength": 554
     }
   }
 }

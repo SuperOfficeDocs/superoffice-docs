@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketPriorityExtenderBase.#ctor
   - SuperOffice.CRM.ArchiveLists.TicketPriorityExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.TicketPriorityExtenderBase._colName
+  - SuperOffice.CRM.ArchiveLists.TicketPriorityExtenderBase._colRank
   - SuperOffice.CRM.ArchiveLists.TicketPriorityExtenderBase._colTicketPriorityId
   langs:
   - csharp
@@ -210,6 +211,25 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colName As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.TicketPriorityExtenderBase._colRank
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketPriorityExtenderBase._colRank
+  id: _colRank
+  parent: SuperOffice.CRM.ArchiveLists.TicketPriorityExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colRank
+  nameWithType: TicketPriorityExtenderBase._colRank
+  fullName: SuperOffice.CRM.ArchiveLists.TicketPriorityExtenderBase._colRank
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colRank
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colRank As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.TicketPriorityExtenderBase.#ctor
   commentId: M:SuperOffice.CRM.ArchiveLists.TicketPriorityExtenderBase.#ctor
   id: '#ctor'

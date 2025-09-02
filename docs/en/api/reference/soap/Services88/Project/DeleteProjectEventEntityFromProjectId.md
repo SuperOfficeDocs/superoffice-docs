@@ -2,6 +2,7 @@
 title: Services88.ProjectAgent.DeleteProjectEventEntityFromProjectId SOAP
 generated: true
 uid: Services88-Project-DeleteProjectEventEntityFromProjectId
+content_type: reference
 ---
 
 # Services88 Project DeleteProjectEventEntityFromProjectId

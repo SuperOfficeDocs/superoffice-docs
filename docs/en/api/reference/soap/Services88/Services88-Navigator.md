@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-Navigator
 title: Services88.NavigatorAgent WSDL
+content_type: reference
 ---
 
 # Services88.NavigatorAgent WSDL

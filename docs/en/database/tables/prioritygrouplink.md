@@ -2,10 +2,10 @@
 uid: table-PriorityGroupLink
 title: PriorityGroupLink table
 description: User group link table for Priority, for MDO item hiding
-so.generated: true
+generated: true
 keywords: database table PriorityGroupLink
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # PriorityGroupLink Table (80)

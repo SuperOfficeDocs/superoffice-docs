@@ -2,6 +2,7 @@
 title: POST Agents/List/GetCountries
 uid: v1ListAgent_GetCountries
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetCountries
@@ -82,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +94,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 116,
-    "Name": "Blick-Crooks",
-    "CurrencyId": 910,
-    "EnglishName": "Gibson-Howell",
+    "CountryId": 209,
+    "Name": "Bednar Inc and Sons",
+    "CurrencyId": 35,
+    "EnglishName": "Bosco LLC",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Multi-channelled executive model",
-    "OrgNrText": "969941",
-    "InterAreaPrefix": "ea",
-    "DialInPrefix": "omnis",
-    "ZipPrefix": "sint",
-    "DomainName": "Bednar-Blanda",
-    "AddressLayoutId": 297,
-    "DomesticAddressLayoutId": 732,
-    "ForeignAddressLayoutId": 778,
-    "Rank": 137,
-    "Tooltip": "earum",
-    "Deleted": false,
+    "ImageDescription": "Robust system-worthy time-frame",
+    "OrgNrText": "1325872",
+    "InterAreaPrefix": "a",
+    "DialInPrefix": "ipsum",
+    "ZipPrefix": "voluptatem",
+    "DomainName": "Yundt, O'Keefe and Hilll",
+    "AddressLayoutId": 714,
+    "DomesticAddressLayoutId": 355,
+    "ForeignAddressLayoutId": 363,
+    "Rank": 737,
+    "Tooltip": "rerum",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 116
+        "FieldLength": 772
       }
     }
   }

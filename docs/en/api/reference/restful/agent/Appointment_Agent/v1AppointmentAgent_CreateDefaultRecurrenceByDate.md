@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/CreateDefaultRecurrenceByDate
 uid: v1AppointmentAgent_CreateDefaultRecurrenceByDate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/CreateDefaultRecurrenceByDate
@@ -84,11 +85,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2019-11-26T03:45:22.8892174+01:00"
+  "StartDate": "2017-04-02T03:46:54.1914032+02:00"
 }
 ```
 
@@ -99,10 +100,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 566,
-  "StartDate": "2020-02-19T03:45:22.8892174+01:00",
-  "EndDate": "2006-12-06T03:45:22.8892174+01:00",
-  "RecurrenceCounter": 222,
+  "RecurrenceId": 748,
+  "StartDate": "2003-01-10T03:46:54.1914032+01:00",
+  "EndDate": "2017-08-31T03:46:54.1914032+02:00",
+  "RecurrenceCounter": 649,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +112,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2010-12-15T03:45:22.8892174+01:00",
+      "Date": "1999-08-04T03:46:54.1914032+02:00",
       "IsConflict": false,
-      "Description": "Cloned human-resource model",
-      "DescriptionStyleHint": "Centralized static installation",
-      "Tooltip": "velit"
+      "Description": "Advanced bi-directional access",
+      "DescriptionStyleHint": "Pre-emptive executive neural-net",
+      "Tooltip": "exercitationem"
     },
     {
-      "Date": "2010-12-15T03:45:22.8892174+01:00",
+      "Date": "1999-08-04T03:46:54.1914032+02:00",
       "IsConflict": false,
-      "Description": "Cloned human-resource model",
-      "DescriptionStyleHint": "Centralized static installation",
-      "Tooltip": "velit"
+      "Description": "Advanced bi-directional access",
+      "DescriptionStyleHint": "Pre-emptive executive neural-net",
+      "Tooltip": "exercitationem"
     }
   ],
   "IsRecurrence": true

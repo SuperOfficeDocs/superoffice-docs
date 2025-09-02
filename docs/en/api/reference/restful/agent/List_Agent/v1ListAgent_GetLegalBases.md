@@ -2,6 +2,7 @@
 title: POST Agents/List/GetLegalBases
 uid: v1ListAgent_GetLegalBases
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetLegalBases
@@ -81,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 964,
-    "Name": "Goodwin-Legros",
-    "Tooltip": "officiis",
-    "Rank": 985,
-    "Key": "eum",
+    "LegalBaseId": 527,
+    "Name": "Hamill-Rempel",
+    "Tooltip": "nulla",
+    "Rank": 105,
+    "Key": "autem",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 853
+        "FieldLength": 123
       }
     }
   }

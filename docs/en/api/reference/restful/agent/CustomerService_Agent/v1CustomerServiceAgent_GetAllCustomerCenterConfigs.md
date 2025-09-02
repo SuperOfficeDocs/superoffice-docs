@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/GetAllCustomerCenterConfigs
 uid: v1CustomerServiceAgent_GetAllCustomerCenterConfigs
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/GetAllCustomerCenterConfigs
@@ -72,7 +73,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetAllCustomerCenterConfigs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,20 +84,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CustConfigId": 382,
+    "CustConfigId": 668,
     "Type": "Options",
-    "Config": "consequatur",
-    "CustLangId": 450,
-    "Registered": "2011-02-21T03:45:23.2485827+01:00",
-    "RegisteredAssociateId": 570,
-    "Updated": "2022-06-13T03:45:23.2485827+02:00",
-    "UpdatedAssociateId": 991,
+    "Config": "nam",
+    "CustLangId": 740,
+    "Registered": "2008-06-28T03:46:54.5820132+02:00",
+    "RegisteredAssociateId": 939,
+    "Updated": "2012-01-17T03:46:54.5820132+01:00",
+    "UpdatedAssociateId": 357,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 530
+        "FieldLength": 867
       }
     }
   }

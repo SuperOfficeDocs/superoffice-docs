@@ -16,6 +16,7 @@ items:
   - SuperOffice.WebApi.Agents.SelectionAgent.CopySelectionMembersAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.CreateContactSelectionFromSelectionAsync(System.Int32,System.String,SuperOffice.WebApi.Data.SelectionType,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.CreateContactSelectionFromShadowSelectionAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.SelectionAgent.CreateDefaultBoardViewSettingsFromEntityTypeAsync(SuperOffice.WebApi.Data.BoardViewEntityType,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.CreateDefaultSelectionEntityAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.CreateNewEntryAsync(SuperOffice.WebApi.Data.DuplicateEntry,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.CreateSelectionEntityAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -24,6 +25,7 @@ items:
   - SuperOffice.WebApi.Agents.SelectionAgent.CreateTemporaryContactSelectionFromContactPersonIdsAsync(SuperOffice.WebApi.Data.ContactPersonId[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.CreateTemporaryContactSelectionFromSelectionMemberIdsAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.CreateTemporarySelectionFromIdsAsync(System.Int32[],System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.SelectionAgent.DeleteBoardViewSettingsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.DeleteContactsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.DeleteEntitiesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.DeletePersonsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -32,6 +34,8 @@ items:
   - SuperOffice.WebApi.Agents.SelectionAgent.ExportSelectionMembersAsync(System.Int32,System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.ExportSelectionMembersWithOrderByAsync(System.Int32,System.String,System.Boolean,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.GenerateFollowUpsAsync(System.Int32,SuperOffice.WebApi.Data.AppointmentEntity,System.Int32,System.Boolean,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.SelectionAgent.GetBoardViewSettingsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.SelectionAgent.GetBoardViewSettingsForSelectionAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.GetDuplicateRulesAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.GetDuplicatesAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.GetDynamicSelectionCriteriaAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -51,6 +55,7 @@ items:
   - SuperOffice.WebApi.Agents.SelectionAgent.RemoveSelectionMembersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.RemoveSelectionMembersByIdAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.RemoveSelectionMembersFromSearchAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.SelectionAgent.SaveBoardViewSettingsAsync(SuperOffice.WebApi.Data.BoardViewSettingsBase,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.SaveSelectionEntityAsync(SuperOffice.WebApi.Data.SelectionEntity,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.SetDuplicateRulesStatusAsync(SuperOffice.WebApi.Data.DuplicateRule[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.SelectionAgent.SetDynamicSelectionCriteria2Async(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -247,6 +252,178 @@ items:
   overload: SuperOffice.WebApi.Agents.SelectionAgent.SaveSelectionEntityAsync*
   implements:
   - SuperOffice.WebApi.Agents.ISelectionAgent.SaveSelectionEntityAsync(SuperOffice.WebApi.Data.SelectionEntity,SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.SelectionAgent.CreateDefaultBoardViewSettingsFromEntityTypeAsync(SuperOffice.WebApi.Data.BoardViewEntityType,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.SelectionAgent.CreateDefaultBoardViewSettingsFromEntityTypeAsync(SuperOffice.WebApi.Data.BoardViewEntityType,SuperOffice.WebApi.RequestOptions)
+  id: CreateDefaultBoardViewSettingsFromEntityTypeAsync(SuperOffice.WebApi.Data.BoardViewEntityType,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.SelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultBoardViewSettingsFromEntityTypeAsync(BoardViewEntityType, RequestOptions)
+  nameWithType: SelectionAgent.CreateDefaultBoardViewSettingsFromEntityTypeAsync(BoardViewEntityType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.SelectionAgent.CreateDefaultBoardViewSettingsFromEntityTypeAsync(SuperOffice.WebApi.Data.BoardViewEntityType, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Creates a new carrier from the entity type given, with the right kind of properties, defaults set.
+  example: []
+  syntax:
+    content: public Task<BoardViewSettingsBase> CreateDefaultBoardViewSettingsFromEntityTypeAsync(BoardViewEntityType entityType, RequestOptions requestOptions = null)
+    parameters:
+    - id: entityType
+      type: SuperOffice.WebApi.Data.BoardViewEntityType
+      description: Entity type to create settings for
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BoardViewSettingsBase}
+      description: ''
+    content.vb: Public Function CreateDefaultBoardViewSettingsFromEntityTypeAsync(entityType As BoardViewEntityType, requestOptions As RequestOptions = Nothing) As Task(Of BoardViewSettingsBase)
+  overload: SuperOffice.WebApi.Agents.SelectionAgent.CreateDefaultBoardViewSettingsFromEntityTypeAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultBoardViewSettingsFromEntityTypeAsync(SuperOffice.WebApi.Data.BoardViewEntityType,SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.SelectionAgent.GetBoardViewSettingsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.SelectionAgent.GetBoardViewSettingsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetBoardViewSettingsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.SelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBoardViewSettingsAsync(int, RequestOptions)
+  nameWithType: SelectionAgent.GetBoardViewSettingsAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.SelectionAgent.GetBoardViewSettingsAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Get BoardViewSettings by ID
+  example: []
+  syntax:
+    content: public Task<BoardViewSettingsBase> GetBoardViewSettingsAsync(int boardViewSettingsId, RequestOptions requestOptions = null)
+    parameters:
+    - id: boardViewSettingsId
+      type: System.Int32
+      description: Primary key of BoardViewSettings
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BoardViewSettingsBase}
+      description: The settings, of appropriate sub type
+    content.vb: Public Function GetBoardViewSettingsAsync(boardViewSettingsId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of BoardViewSettingsBase)
+  overload: SuperOffice.WebApi.Agents.SelectionAgent.GetBoardViewSettingsAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ISelectionAgent.GetBoardViewSettingsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: SelectionAgent.GetBoardViewSettingsAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.SelectionAgent.GetBoardViewSettingsAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetBoardViewSettingsAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.SelectionAgent.GetBoardViewSettingsForSelectionAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.SelectionAgent.GetBoardViewSettingsForSelectionAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetBoardViewSettingsForSelectionAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.SelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: GetBoardViewSettingsForSelectionAsync(int, int, RequestOptions)
+  nameWithType: SelectionAgent.GetBoardViewSettingsForSelectionAsync(int, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.SelectionAgent.GetBoardViewSettingsForSelectionAsync(int, int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Get BoardViewSettings by selection id, associate id, and settings type
+  example: []
+  syntax:
+    content: public Task<BoardViewSettingsBase> GetBoardViewSettingsForSelectionAsync(int associateId, int selectionId, RequestOptions requestOptions = null)
+    parameters:
+    - id: associateId
+      type: System.Int32
+      description: Id of associate
+    - id: selectionId
+      type: System.Int32
+      description: Id of selection
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BoardViewSettingsBase}
+      description: The settings, of appropriate sub type
+    content.vb: Public Function GetBoardViewSettingsForSelectionAsync(associateId As Integer, selectionId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of BoardViewSettingsBase)
+  overload: SuperOffice.WebApi.Agents.SelectionAgent.GetBoardViewSettingsForSelectionAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ISelectionAgent.GetBoardViewSettingsForSelectionAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: SelectionAgent.GetBoardViewSettingsForSelectionAsync(Integer, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.SelectionAgent.GetBoardViewSettingsForSelectionAsync(Integer, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetBoardViewSettingsForSelectionAsync(Integer, Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.SelectionAgent.SaveBoardViewSettingsAsync(SuperOffice.WebApi.Data.BoardViewSettingsBase,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.SelectionAgent.SaveBoardViewSettingsAsync(SuperOffice.WebApi.Data.BoardViewSettingsBase,SuperOffice.WebApi.RequestOptions)
+  id: SaveBoardViewSettingsAsync(SuperOffice.WebApi.Data.BoardViewSettingsBase,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.SelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveBoardViewSettingsAsync(BoardViewSettingsBase, RequestOptions)
+  nameWithType: SelectionAgent.SaveBoardViewSettingsAsync(BoardViewSettingsBase, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.SelectionAgent.SaveBoardViewSettingsAsync(SuperOffice.WebApi.Data.BoardViewSettingsBase, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Save BoardViewSettings
+  example: []
+  syntax:
+    content: public Task<BoardViewSettingsBase> SaveBoardViewSettingsAsync(BoardViewSettingsBase boardViewSettings, RequestOptions requestOptions = null)
+    parameters:
+    - id: boardViewSettings
+      type: SuperOffice.WebApi.Data.BoardViewSettingsBase
+      description: Typed BoardViewSettings carrier object
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BoardViewSettingsBase}
+      description: The settings, of appropriate sub type
+    content.vb: Public Function SaveBoardViewSettingsAsync(boardViewSettings As BoardViewSettingsBase, requestOptions As RequestOptions = Nothing) As Task(Of BoardViewSettingsBase)
+  overload: SuperOffice.WebApi.Agents.SelectionAgent.SaveBoardViewSettingsAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ISelectionAgent.SaveBoardViewSettingsAsync(SuperOffice.WebApi.Data.BoardViewSettingsBase,SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.SelectionAgent.DeleteBoardViewSettingsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.SelectionAgent.DeleteBoardViewSettingsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: DeleteBoardViewSettingsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.SelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteBoardViewSettingsAsync(int, RequestOptions)
+  nameWithType: SelectionAgent.DeleteBoardViewSettingsAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.SelectionAgent.DeleteBoardViewSettingsAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Delete BoardViewSettings
+  example: []
+  syntax:
+    content: public Task DeleteBoardViewSettingsAsync(int boardViewSettingsId, RequestOptions requestOptions = null)
+    parameters:
+    - id: boardViewSettingsId
+      type: System.Int32
+      description: Primary key of BoardViewSettings
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function DeleteBoardViewSettingsAsync(boardViewSettingsId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.SelectionAgent.DeleteBoardViewSettingsAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ISelectionAgent.DeleteBoardViewSettingsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: SelectionAgent.DeleteBoardViewSettingsAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.SelectionAgent.DeleteBoardViewSettingsAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteBoardViewSettingsAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.SelectionAgent.GetSelectionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.SelectionAgent.GetSelectionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetSelectionEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -3475,6 +3652,342 @@ references:
     name: Data
     isExternal: true
     href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Agents.SelectionAgent.CreateDefaultBoardViewSettingsFromEntityTypeAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.SelectionAgent.CreateDefaultBoardViewSettingsFromEntityTypeAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.SelectionAgent.html#SuperOffice_WebApi_Agents_SelectionAgent_CreateDefaultBoardViewSettingsFromEntityTypeAsync_SuperOffice_WebApi_Data_BoardViewEntityType_SuperOffice_WebApi_RequestOptions_
+  name: CreateDefaultBoardViewSettingsFromEntityTypeAsync
+  nameWithType: SelectionAgent.CreateDefaultBoardViewSettingsFromEntityTypeAsync
+  fullName: SuperOffice.WebApi.Agents.SelectionAgent.CreateDefaultBoardViewSettingsFromEntityTypeAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultBoardViewSettingsFromEntityTypeAsync(SuperOffice.WebApi.Data.BoardViewEntityType,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultBoardViewSettingsFromEntityTypeAsync(SuperOffice.WebApi.Data.BoardViewEntityType,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ISelectionAgent.html#SuperOffice_WebApi_Agents_ISelectionAgent_CreateDefaultBoardViewSettingsFromEntityTypeAsync_SuperOffice_WebApi_Data_BoardViewEntityType_SuperOffice_WebApi_RequestOptions_
+  name: CreateDefaultBoardViewSettingsFromEntityTypeAsync(BoardViewEntityType, RequestOptions)
+  nameWithType: ISelectionAgent.CreateDefaultBoardViewSettingsFromEntityTypeAsync(BoardViewEntityType, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultBoardViewSettingsFromEntityTypeAsync(SuperOffice.WebApi.Data.BoardViewEntityType, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultBoardViewSettingsFromEntityTypeAsync(SuperOffice.WebApi.Data.BoardViewEntityType,SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultBoardViewSettingsFromEntityTypeAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ISelectionAgent.html#SuperOffice_WebApi_Agents_ISelectionAgent_CreateDefaultBoardViewSettingsFromEntityTypeAsync_SuperOffice_WebApi_Data_BoardViewEntityType_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.BoardViewEntityType
+    name: BoardViewEntityType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.BoardViewEntityType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ISelectionAgent.CreateDefaultBoardViewSettingsFromEntityTypeAsync(SuperOffice.WebApi.Data.BoardViewEntityType,SuperOffice.WebApi.RequestOptions)
+    name: CreateDefaultBoardViewSettingsFromEntityTypeAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ISelectionAgent.html#SuperOffice_WebApi_Agents_ISelectionAgent_CreateDefaultBoardViewSettingsFromEntityTypeAsync_SuperOffice_WebApi_Data_BoardViewEntityType_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.BoardViewEntityType
+    name: BoardViewEntityType
+    isExternal: true
+    href: SuperOffice.WebApi.Data.BoardViewEntityType.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Data.BoardViewEntityType
+  commentId: T:SuperOffice.WebApi.Data.BoardViewEntityType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.BoardViewEntityType.html
+  name: BoardViewEntityType
+  nameWithType: BoardViewEntityType
+  fullName: SuperOffice.WebApi.Data.BoardViewEntityType
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BoardViewSettingsBase}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.BoardViewSettingsBase}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<BoardViewSettingsBase>
+  nameWithType: Task<BoardViewSettingsBase>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.BoardViewSettingsBase>
+  nameWithType.vb: Task(Of BoardViewSettingsBase)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.BoardViewSettingsBase)
+  name.vb: Task(Of BoardViewSettingsBase)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.BoardViewSettingsBase
+    name: BoardViewSettingsBase
+    isExternal: true
+    href: SuperOffice.WebApi.Data.BoardViewSettingsBase.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.BoardViewSettingsBase
+    name: BoardViewSettingsBase
+    isExternal: true
+    href: SuperOffice.WebApi.Data.BoardViewSettingsBase.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.SelectionAgent.GetBoardViewSettingsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.SelectionAgent.GetBoardViewSettingsAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.SelectionAgent.html#SuperOffice_WebApi_Agents_SelectionAgent_GetBoardViewSettingsAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetBoardViewSettingsAsync
+  nameWithType: SelectionAgent.GetBoardViewSettingsAsync
+  fullName: SuperOffice.WebApi.Agents.SelectionAgent.GetBoardViewSettingsAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetBoardViewSettingsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.GetBoardViewSettingsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ISelectionAgent.html#SuperOffice_WebApi_Agents_ISelectionAgent_GetBoardViewSettingsAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetBoardViewSettingsAsync(int, RequestOptions)
+  nameWithType: ISelectionAgent.GetBoardViewSettingsAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetBoardViewSettingsAsync(int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: ISelectionAgent.GetBoardViewSettingsAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISelectionAgent.GetBoardViewSettingsAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetBoardViewSettingsAsync(Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetBoardViewSettingsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetBoardViewSettingsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ISelectionAgent.html#SuperOffice_WebApi_Agents_ISelectionAgent_GetBoardViewSettingsAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetBoardViewSettingsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetBoardViewSettingsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ISelectionAgent.html#SuperOffice_WebApi_Agents_ISelectionAgent_GetBoardViewSettingsAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: SuperOffice.WebApi.Agents.SelectionAgent.GetBoardViewSettingsForSelectionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.SelectionAgent.GetBoardViewSettingsForSelectionAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.SelectionAgent.html#SuperOffice_WebApi_Agents_SelectionAgent_GetBoardViewSettingsForSelectionAsync_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetBoardViewSettingsForSelectionAsync
+  nameWithType: SelectionAgent.GetBoardViewSettingsForSelectionAsync
+  fullName: SuperOffice.WebApi.Agents.SelectionAgent.GetBoardViewSettingsForSelectionAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetBoardViewSettingsForSelectionAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.GetBoardViewSettingsForSelectionAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ISelectionAgent.html#SuperOffice_WebApi_Agents_ISelectionAgent_GetBoardViewSettingsForSelectionAsync_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetBoardViewSettingsForSelectionAsync(int, int, RequestOptions)
+  nameWithType: ISelectionAgent.GetBoardViewSettingsForSelectionAsync(int, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.GetBoardViewSettingsForSelectionAsync(int, int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: ISelectionAgent.GetBoardViewSettingsForSelectionAsync(Integer, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISelectionAgent.GetBoardViewSettingsForSelectionAsync(Integer, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetBoardViewSettingsForSelectionAsync(Integer, Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetBoardViewSettingsForSelectionAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetBoardViewSettingsForSelectionAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ISelectionAgent.html#SuperOffice_WebApi_Agents_ISelectionAgent_GetBoardViewSettingsForSelectionAsync_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ISelectionAgent.GetBoardViewSettingsForSelectionAsync(System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetBoardViewSettingsForSelectionAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ISelectionAgent.html#SuperOffice_WebApi_Agents_ISelectionAgent_GetBoardViewSettingsForSelectionAsync_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.SelectionAgent.SaveBoardViewSettingsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.SelectionAgent.SaveBoardViewSettingsAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.SelectionAgent.html#SuperOffice_WebApi_Agents_SelectionAgent_SaveBoardViewSettingsAsync_SuperOffice_WebApi_Data_BoardViewSettingsBase_SuperOffice_WebApi_RequestOptions_
+  name: SaveBoardViewSettingsAsync
+  nameWithType: SelectionAgent.SaveBoardViewSettingsAsync
+  fullName: SuperOffice.WebApi.Agents.SelectionAgent.SaveBoardViewSettingsAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.SaveBoardViewSettingsAsync(SuperOffice.WebApi.Data.BoardViewSettingsBase,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.SaveBoardViewSettingsAsync(SuperOffice.WebApi.Data.BoardViewSettingsBase,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ISelectionAgent.html#SuperOffice_WebApi_Agents_ISelectionAgent_SaveBoardViewSettingsAsync_SuperOffice_WebApi_Data_BoardViewSettingsBase_SuperOffice_WebApi_RequestOptions_
+  name: SaveBoardViewSettingsAsync(BoardViewSettingsBase, RequestOptions)
+  nameWithType: ISelectionAgent.SaveBoardViewSettingsAsync(BoardViewSettingsBase, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.SaveBoardViewSettingsAsync(SuperOffice.WebApi.Data.BoardViewSettingsBase, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ISelectionAgent.SaveBoardViewSettingsAsync(SuperOffice.WebApi.Data.BoardViewSettingsBase,SuperOffice.WebApi.RequestOptions)
+    name: SaveBoardViewSettingsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ISelectionAgent.html#SuperOffice_WebApi_Agents_ISelectionAgent_SaveBoardViewSettingsAsync_SuperOffice_WebApi_Data_BoardViewSettingsBase_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.BoardViewSettingsBase
+    name: BoardViewSettingsBase
+    isExternal: true
+    href: SuperOffice.WebApi.Data.BoardViewSettingsBase.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ISelectionAgent.SaveBoardViewSettingsAsync(SuperOffice.WebApi.Data.BoardViewSettingsBase,SuperOffice.WebApi.RequestOptions)
+    name: SaveBoardViewSettingsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ISelectionAgent.html#SuperOffice_WebApi_Agents_ISelectionAgent_SaveBoardViewSettingsAsync_SuperOffice_WebApi_Data_BoardViewSettingsBase_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: SuperOffice.WebApi.Data.BoardViewSettingsBase
+    name: BoardViewSettingsBase
+    isExternal: true
+    href: SuperOffice.WebApi.Data.BoardViewSettingsBase.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Data.BoardViewSettingsBase
+  commentId: T:SuperOffice.WebApi.Data.BoardViewSettingsBase
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.BoardViewSettingsBase.html
+  name: BoardViewSettingsBase
+  nameWithType: BoardViewSettingsBase
+  fullName: SuperOffice.WebApi.Data.BoardViewSettingsBase
+- uid: SuperOffice.WebApi.Agents.SelectionAgent.DeleteBoardViewSettingsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.SelectionAgent.DeleteBoardViewSettingsAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.SelectionAgent.html#SuperOffice_WebApi_Agents_SelectionAgent_DeleteBoardViewSettingsAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: DeleteBoardViewSettingsAsync
+  nameWithType: SelectionAgent.DeleteBoardViewSettingsAsync
+  fullName: SuperOffice.WebApi.Agents.SelectionAgent.DeleteBoardViewSettingsAsync
+- uid: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteBoardViewSettingsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ISelectionAgent.DeleteBoardViewSettingsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ISelectionAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ISelectionAgent.html#SuperOffice_WebApi_Agents_ISelectionAgent_DeleteBoardViewSettingsAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: DeleteBoardViewSettingsAsync(int, RequestOptions)
+  nameWithType: ISelectionAgent.DeleteBoardViewSettingsAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteBoardViewSettingsAsync(int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: ISelectionAgent.DeleteBoardViewSettingsAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteBoardViewSettingsAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: DeleteBoardViewSettingsAsync(Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteBoardViewSettingsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteBoardViewSettingsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ISelectionAgent.html#SuperOffice_WebApi_Agents_ISelectionAgent_DeleteBoardViewSettingsAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ISelectionAgent.DeleteBoardViewSettingsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: DeleteBoardViewSettingsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ISelectionAgent.html#SuperOffice_WebApi_Agents_ISelectionAgent_DeleteBoardViewSettingsAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.WebApi.Agents.SelectionAgent.GetSelectionEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.SelectionAgent.GetSelectionEntityAsync
   isExternal: true
@@ -3527,17 +4040,6 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
 - uid: SuperOffice.WebApi.Agents.SelectionAgent.CreateSelectionEntityAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.SelectionAgent.CreateSelectionEntityAsync
   isExternal: true
@@ -3851,14 +4353,6 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-- uid: System.Threading.Tasks.Task
-  commentId: T:System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.WebApi.Agents.SelectionAgent.GetRecipientStatisticsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.SelectionAgent.GetRecipientStatisticsAsync
   isExternal: true

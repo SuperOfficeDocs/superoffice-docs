@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/ExecuteEventHandlers
 uid: v1CustomerServiceAgent_ExecuteEventHandlers
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/ExecuteEventHandlers
@@ -86,7 +87,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,42 +104,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "ipsa",
-    "InputValues2": "omnis"
+    "InputValues1": "quo",
+    "InputValues2": "molestiae"
   },
-  "BlockExecution": false,
-  "NavigateTo": "est",
-  "Message": "sint",
-  "ShowDialog": "harum",
+  "BlockExecution": true,
+  "NavigateTo": "quia",
+  "Message": "illo",
+  "ShowDialog": "quia",
   "OutputValues": {
-    "OutputValues1": "et",
-    "OutputValues2": "ducimus"
+    "OutputValues1": "architecto",
+    "OutputValues2": "sit"
   },
   "StateValues": {
-    "StateValues1": "possimus",
-    "StateValues2": "quo"
+    "StateValues1": "eos",
+    "StateValues2": "tempora"
   },
-  "Exception": "ad",
+  "Exception": "animi",
   "ParserValues": {
-    "ParserValues1": "laudantium",
-    "ParserValues2": "occaecati"
+    "ParserValues1": "consequatur",
+    "ParserValues2": "id"
   },
   "CgiVariables": {
-    "CgiVariables1": "quia",
-    "CgiVariables2": "quae"
+    "CgiVariables1": "dolore",
+    "CgiVariables2": "et"
   },
-  "CgiContent": "vero",
+  "CgiContent": "quia",
   "Headers": {
-    "Headers1": "tenetur",
-    "Headers2": "accusantium"
+    "Headers1": "quia",
+    "Headers2": "voluptates"
   },
-  "TraceExecution": false,
+  "TraceExecution": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 353
+      "FieldType": "System.String",
+      "FieldLength": 260
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/DocumentMigration/GetForAllDocuments
 uid: v1DocumentMigrationAgent_GetForAllDocuments
 generated: true
+content_type: reference
 ---
 
 # POST Agents/DocumentMigration/GetForAllDocuments
@@ -80,11 +81,11 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 660,
+  "DocumentPluginId": 576,
   "IncludeEmails": false
 }
 ```
@@ -96,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 253,
-  "NumDocumentsAlreadyMigrated": 100,
+  "NumDocumentsOmitted": 43,
+  "NumDocumentsAlreadyMigrated": 799,
   "Documents": [
     {
-      "DocumentId": 998,
-      "ContactId": 560,
-      "PersonId": 273,
-      "SaleId": 872,
-      "ProjectId": 888,
-      "DocTmplId": 57,
-      "AssociateId": 155,
-      "UserGroupId": 371,
-      "VisibleForId": 569
+      "DocumentId": 699,
+      "ContactId": 935,
+      "PersonId": 411,
+      "SaleId": 989,
+      "ProjectId": 811,
+      "DocTmplId": 475,
+      "AssociateId": 536,
+      "UserGroupId": 508,
+      "VisibleForId": 223
     }
   ],
   "Associates": [
     {
-      "AssociateId": 557,
-      "EmailAddress": "erwin@schinnerdeckow.info"
+      "AssociateId": 721,
+      "EmailAddress": "arch@emardleannon.ca"
     },
     {
-      "AssociateId": 557,
-      "EmailAddress": "erwin@schinnerdeckow.info"
+      "AssociateId": 721,
+      "EmailAddress": "arch@emardleannon.ca"
     }
   ]
 }

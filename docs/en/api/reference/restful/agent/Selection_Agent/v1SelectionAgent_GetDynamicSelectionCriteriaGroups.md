@@ -2,6 +2,7 @@
 title: POST Agents/Selection/GetDynamicSelectionCriteriaGroups
 uid: v1SelectionAgent_GetDynamicSelectionCriteriaGroups
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/GetDynamicSelectionCriteriaGroups
@@ -76,11 +77,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 225
+  "SelectionId": 573
 }
 ```
 
@@ -92,20 +93,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hartmann Group",
-    "Description": "Switchable real-time internet solution",
-    "Rank": 438,
+    "Name": "Veum, Haag and Hamill",
+    "Description": "Cross-platform value-added initiative",
+    "Rank": 945,
     "Restrictions": [
       {
-        "Name": "Mayer LLC",
-        "Operator": "repudiandae",
+        "Name": "Satterfield, Boyle and Windler",
+        "Operator": "porro",
         "Values": [
-          "quis",
-          "asperiores"
+          "veniam",
+          "aspernatur"
         ],
         "DisplayValues": [
-          "vitae",
-          "tempora"
+          "possimus",
+          "dolorum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -113,27 +114,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 168,
+        "InterParenthesis": 978,
         "InterOperator": "And",
-        "UniqueHash": 496
+        "UniqueHash": 902
       }
     ]
   },
   {
-    "Name": "Hartmann Group",
-    "Description": "Switchable real-time internet solution",
-    "Rank": 438,
+    "Name": "Veum, Haag and Hamill",
+    "Description": "Cross-platform value-added initiative",
+    "Rank": 945,
     "Restrictions": [
       {
-        "Name": "Mayer LLC",
-        "Operator": "repudiandae",
+        "Name": "Satterfield, Boyle and Windler",
+        "Operator": "porro",
         "Values": [
-          "quis",
-          "asperiores"
+          "veniam",
+          "aspernatur"
         ],
         "DisplayValues": [
-          "vitae",
-          "tempora"
+          "possimus",
+          "dolorum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -141,9 +142,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 168,
+        "InterParenthesis": 978,
         "InterOperator": "And",
-        "UniqueHash": 496
+        "UniqueHash": 902
       }
     ]
   }

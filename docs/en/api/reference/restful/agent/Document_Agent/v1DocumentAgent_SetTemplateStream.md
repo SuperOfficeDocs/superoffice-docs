@@ -2,6 +2,7 @@
 title: POST Agents/Document/SetTemplateStream
 uid: v1DocumentAgent_SetTemplateStream
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/SetTemplateStream
@@ -70,7 +71,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "consectetur",
+  "Filename": "a",
   "Personal": true,
   "Stream": "GIF89....File contents as raw bytes..."
 }

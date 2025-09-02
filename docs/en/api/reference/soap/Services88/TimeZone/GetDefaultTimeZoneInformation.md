@@ -2,6 +2,7 @@
 title: Services88.TimeZoneAgent.GetDefaultTimeZoneInformation SOAP
 generated: true
 uid: Services88-TimeZone-GetDefaultTimeZoneInformation
+content_type: reference
 ---
 
 # Services88 TimeZone GetDefaultTimeZoneInformation

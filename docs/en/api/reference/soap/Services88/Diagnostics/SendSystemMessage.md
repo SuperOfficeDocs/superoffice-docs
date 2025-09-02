@@ -2,6 +2,7 @@
 title: Services88.DiagnosticsAgent.SendSystemMessage SOAP
 generated: true
 uid: Services88-Diagnostics-SendSystemMessage
+content_type: reference
 ---
 
 # Services88 Diagnostics SendSystemMessage
@@ -42,7 +43,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Diagnostics:SystemMessageId xsi:type="xsd:string"></Diagnostics:SystemMessageId>
     <Diagnostics:AssociateId xsi:type="xsd:int">0</Diagnostics:AssociateId>
     <Diagnostics:MarkdownMessage xsi:type="xsd:string"></Diagnostics:MarkdownMessage>
-    <Diagnostics:Expire xsi:type="xsd:dateTime">2025-06-26T01:43:33Z</Diagnostics:Expire>
+    <Diagnostics:Expire xsi:type="xsd:dateTime">2025-08-30T01:45:06Z</Diagnostics:Expire>
     <Diagnostics:Type xsi:type="Diagnostics:SystemMessageType">Info</Diagnostics:Type>
    </Diagnostics:SendSystemMessage>
 

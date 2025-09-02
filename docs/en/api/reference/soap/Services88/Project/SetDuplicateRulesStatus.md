@@ -2,6 +2,7 @@
 title: Services88.ProjectAgent.SetDuplicateRulesStatus SOAP
 generated: true
 uid: Services88-Project-SetDuplicateRulesStatus
+content_type: reference
 ---
 
 # Services88 Project SetDuplicateRulesStatus

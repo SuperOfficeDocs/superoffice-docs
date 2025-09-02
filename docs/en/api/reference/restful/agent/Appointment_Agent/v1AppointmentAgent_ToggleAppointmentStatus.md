@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/ToggleAppointmentStatus
 uid: v1AppointmentAgent_ToggleAppointmentStatus
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/ToggleAppointmentStatus
@@ -72,7 +73,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 148
+  "AppointmentId": 993
 }
 ```
 

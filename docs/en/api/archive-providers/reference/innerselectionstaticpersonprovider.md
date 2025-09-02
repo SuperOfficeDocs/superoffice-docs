@@ -3,9 +3,9 @@ uid: InnerSelectionStaticPersonProvider
 title: InnerSelectionStaticPersonProvider
 description: 
 keywords: InnerSelectionStaticPersonProvider archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "InnerSelectionStaticPersonProvider"
@@ -607,6 +607,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/ownedBy/personEmail|string|Owner - E-mail| x |
 |request/ownedBy/locationAddress|string|Owner - Location: Location| x |
 |request/ownedBy/isLocation|bool|Owner - Is a location: Is a location| x |
+|request/ticketStatus/ticketStatusId|int|Status - ID: Displays request status ID| x |
+|request/ticketStatus/name|string|Status - Name: Displays the name of the request status| x |
+|request/ticketStatus/rank|int|Status - Status rank: Sort order of the status in the ticket status list| x |
+|request/ticketPriority/ticketPriorityId|int|Priority - ID: Displays the ID of the priority| x |
+|request/ticketPriority/name|string|Priority - Name: Displays the name of the priority| x |
+|request/ticketPriority/rank|int|Priority - Priority rank: Sort order of priority in the priority list| x |
 |request/extra/x\_ticket\_integer|int|Extra integer: Custom ticket integer. Default 123. External. Show in properties| x |
 |request/extra/x\_ticket\_float|decimal|Extra float: Custom float on Request. 2 decimal places| x |
 |request/extra/x\_ticket\_longtext|string|Extra long text: Custom long text on Request. Keep HTML tags. 9 line text area. Show in props| x |
@@ -633,16 +639,16 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
 |projectMembers/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
 |projectMembers/icon| *None* |Category: Displays the icon for an activity type| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMembers/text|string|Text: Displays a descriptive text for the item| x |
 |projectMembers/description|string|Description : Description| x |
 |projectMembers/updatedBy|associate|Updated by: The user who last updated the data| x |
 |projectMembers/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |projectMembers/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |projectMembers/registeredBy|associate|Registered by: The user who registered the data| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMembers/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |projectMembers/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |projectMembers/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
@@ -737,16 +743,16 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/text|positiveString|Text: Displays a descriptive text for the item| x |
 |personAppointment/associateId|associate|ID: Displays the login ID of the associate who owns the activity.| x |
 |personAppointment/contactId|listAny|Company ID: Database ID of company| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAppointment/personId|listAny|Contact ID: Database ID of the contact row| x |
 |personAppointment/projectId|listAny|Project ID: Database ID of project record| x |
 |personAppointment/saleId|int|Sale ID: The database ID of the sale record| x |
 |personAppointment/userGroup|userGroup|User group : The user group that owns the record| x |
 |personAppointment/who| *None* |Who: Contact and/or company|  |
 |personAppointment/updatedBy|associate|Updated by: The user who last updated the data| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personAppointment/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |personAppointment/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |personAppointment/registeredBy|associate|Registered by: The user who registered the data| x |
@@ -834,7 +840,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=personAddress/line3,correspondingAssociate/contactName,contactAssociate/role,contactUdef/SuperOffice:4,contactExtra/x_contact_time
+GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=personMobilePhone/description,personUrl/URLDescription,personExtra/x_person_date,correspondingAssociate/middleName,correspondingAssociate/ejDisplayName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -2,6 +2,7 @@
 title: PUT List/QuoteApproveReason/Items/{id}/Headings
 uid: v1QuoteApproveReasonList_PutQuoteApproveReasonHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/QuoteApproveReason/Items/{id}/Headings
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 161,
-    "Name": "Hamill-Wolf",
-    "ToolTip": "Reprehenderit non.",
-    "Deleted": true,
-    "Rank": 426,
-    "Type": "modi",
-    "ColorBlock": 547,
-    "IconHint": "deleniti",
+    "Id": 128,
+    "Name": "Larson Group",
+    "ToolTip": "Quis veritatis ut voluptatem error.",
+    "Deleted": false,
+    "Rank": 56,
+    "Type": "nihil",
+    "ColorBlock": 375,
+    "IconHint": "distinctio",
     "Selected": true,
-    "LastChanged": "2010-08-15T03:45:29.1859346+02:00",
+    "LastChanged": "2002-04-30T03:47:00.7692942+02:00",
     "ChildItems": [
       {
-        "Id": 269,
-        "Name": "Lind-Becker",
-        "ToolTip": "Quam facere est nobis voluptate.",
+        "Id": 881,
+        "Name": "Hoppe, Gleichner and Blick",
+        "ToolTip": "Sed dicta possimus quisquam similique aut optio.",
         "Deleted": true,
-        "Rank": 704,
-        "Type": "tempore",
-        "ColorBlock": 463,
-        "IconHint": "et",
+        "Rank": 231,
+        "Type": "et",
+        "ColorBlock": 447,
+        "IconHint": "earum",
         "Selected": false,
-        "LastChanged": "2015-11-13T03:45:29.1859346+01:00",
+        "LastChanged": "2008-03-27T03:47:00.7692942+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "libero",
+        "ExtraInfo": "omnis",
+        "StyleHint": "quaerat",
         "Hidden": false,
-        "FullName": "Marta Swaniawski"
+        "FullName": "Mona Shanahan"
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Celine Williamson"
+    "ExtraInfo": "ea",
+    "StyleHint": "sint",
+    "Hidden": true,
+    "FullName": "Ms. Ian Tiara Hansen DDS"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 809,
-    "Name": "Jewess Group",
-    "ToolTip": "Dicta at.",
-    "Deleted": false,
-    "Rank": 872,
-    "Type": "magni",
-    "ColorBlock": 613,
-    "IconHint": "sit",
+    "Id": 376,
+    "Name": "Ledner, Ondricka and Marks",
+    "ToolTip": "Porro dolorem quo.",
+    "Deleted": true,
+    "Rank": 744,
+    "Type": "aut",
+    "ColorBlock": 729,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2006-05-04T03:45:29.1859346+02:00",
+    "LastChanged": "2020-02-26T03:47:00.7692942+01:00",
     "ChildItems": [
       {
-        "Id": 970,
-        "Name": "Hills-Stark",
-        "ToolTip": "Quas consequatur natus occaecati corporis ea nesciunt officia.",
+        "Id": 849,
+        "Name": "Weissnat, Kutch and Kiehn",
+        "ToolTip": "Voluptas harum.",
         "Deleted": false,
-        "Rank": 671,
-        "Type": "dolorem",
-        "ColorBlock": 212,
-        "IconHint": "vel",
+        "Rank": 670,
+        "Type": "consequatur",
+        "ColorBlock": 100,
+        "IconHint": "saepe",
         "Selected": false,
-        "LastChanged": "2015-07-01T03:45:29.1859346+02:00",
+        "LastChanged": "2019-03-09T03:47:00.7692942+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "eveniet",
+        "ExtraInfo": "et",
+        "StyleHint": "cum",
         "Hidden": false,
-        "FullName": "Cristal Cremin",
+        "FullName": "Enoch Bernard Price DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 864
+            "FieldLength": 287
           }
         }
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "distinctio",
+    "ExtraInfo": "ab",
+    "StyleHint": "quaerat",
     "Hidden": false,
-    "FullName": "Jeffry Lebsack",
+    "FullName": "Adelbert Pinkie Pfannerstill I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 842
+        "FieldType": "System.String",
+        "FieldLength": 702
       }
     }
   }

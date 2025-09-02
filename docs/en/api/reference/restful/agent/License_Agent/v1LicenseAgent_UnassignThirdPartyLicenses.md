@@ -2,6 +2,7 @@
 title: POST Agents/License/UnassignThirdPartyLicenses
 uid: v1LicenseAgent_UnassignThirdPartyLicenses
 generated: true
+content_type: reference
 ---
 
 # POST Agents/License/UnassignThirdPartyLicenses
@@ -92,11 +93,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 236,
-  "ModuleOwner": "animi",
+  "AssociateId": 141,
+  "ModuleOwner": "eos",
   "ModuleLicenseNames": [
-    "Erdman Inc and Sons",
-    "Smitham-Reinger"
+    "DuBuque-Schoen",
+    "Parisian, Zemlak and Schmidt"
   ]
 }
 ```
@@ -109,26 +110,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 111,
-    "Tooltip": "velit",
-    "CanAssign": false,
-    "Free": 280,
-    "InUse": 1000,
-    "IsHidden": false,
+    "Unrestricted": false,
+    "Total": 583,
+    "Tooltip": "nostrum",
+    "CanAssign": true,
+    "Free": 139,
+    "InUse": 112,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 74,
-    "Name": "Kihn-Huel",
-    "Description": "Centralized incremental contingency",
-    "PrerequisiteModuleName": "Hane-Lebsack",
-    "SortOrder": 161,
-    "ExtraFlags": 142,
+    "ModuleLicenseId": 749,
+    "Name": "Armstrong-Lynch",
+    "Description": "User-centric foreground orchestration",
+    "PrerequisiteModuleName": "Jacobi, Stokes and Gutmann",
+    "SortOrder": 131,
+    "ExtraFlags": 750,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 294
+        "FieldType": "System.Int32",
+        "FieldLength": 527
       }
     }
   }

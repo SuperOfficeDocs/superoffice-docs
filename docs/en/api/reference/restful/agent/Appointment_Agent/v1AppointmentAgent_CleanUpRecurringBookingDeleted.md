@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/CleanUpRecurringBookingDeleted
 uid: v1AppointmentAgent_CleanUpRecurringBookingDeleted
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/CleanUpRecurringBookingDeleted
@@ -60,7 +61,7 @@ OK
 POST /api/v1/Agents/Appointment/CleanUpRecurringBookingDeleted
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -69,5 +70,5 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-71
+204
 ```

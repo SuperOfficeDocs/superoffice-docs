@@ -2,6 +2,7 @@
 title: GET Dash/{id}
 uid: v1Dash_GetDash
 generated: true
+content_type: reference
 ---
 
 # GET Dash/{id}
@@ -85,7 +86,7 @@ Dash found.
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,37 +96,37 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 739,
-  "UniqueId": "enim",
-  "Name": "Schaefer LLC",
-  "Description": "Open-architected scalable Graphical User Interface",
-  "AssociateId": 391,
-  "Columns": 296,
+  "DashboardId": 898,
+  "UniqueId": "voluptatem",
+  "Name": "Nikolaus-Gleason",
+  "Description": "Automated full-range algorithm",
+  "AssociateId": 599,
+  "Columns": 856,
   "Theme": null,
-  "VisibleForAll": 594,
+  "VisibleForAll": 532,
   "VisibleForAssociates": [
-    193,
-    153
+    97,
+    758
   ],
   "VisibleForGroups": [
-    146,
-    534
+    706,
+    457
   ],
-  "PinForAll": 438,
+  "PinForAll": 474,
   "PinForAssociates": [
-    485,
-    980
+    666,
+    519
   ],
   "PinForGroups": [
-    362,
-    697
+    320,
+    101
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 623
+      "FieldLength": 994
     }
   },
   "_Links": {

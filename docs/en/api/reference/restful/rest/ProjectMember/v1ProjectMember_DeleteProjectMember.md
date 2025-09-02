@@ -2,6 +2,7 @@
 title: DEL ProjectMember/{id}
 uid: v1ProjectMember_DeleteProjectMember
 generated: true
+content_type: reference
 ---
 
 # DEL ProjectMember/{id}
@@ -52,7 +53,7 @@ ProjectMember deleted.
 DELETE /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

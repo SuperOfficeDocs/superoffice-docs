@@ -2,6 +2,7 @@
 title: POST Agents/BLOB/SetProjectImage
 uid: v1BLOBAgent_SetProjectImage
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BLOB/SetProjectImage
@@ -65,11 +66,11 @@ No Content
 POST /api/v1/Agents/BLOB/SetProjectImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 308,
+  "ProjectId": 511,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

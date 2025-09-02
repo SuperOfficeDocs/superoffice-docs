@@ -2,6 +2,7 @@
 title: Services88.ListAgent.ChangeCurrency SOAP
 generated: true
 uid: Services88-List-ChangeCurrency
+content_type: reference
 ---
 
 # Services88 List ChangeCurrency

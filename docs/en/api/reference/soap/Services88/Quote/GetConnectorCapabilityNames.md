@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.GetConnectorCapabilityNames SOAP
 generated: true
 uid: Services88-Quote-GetConnectorCapabilityNames
+content_type: reference
 ---
 
 # Services88 Quote GetConnectorCapabilityNames

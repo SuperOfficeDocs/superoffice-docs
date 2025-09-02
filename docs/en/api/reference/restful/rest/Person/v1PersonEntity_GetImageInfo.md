@@ -2,6 +2,7 @@
 title: GET Person/{id}/ImageInfo
 uid: v1PersonEntity_GetImageInfo
 generated: true
+content_type: reference
 ---
 
 # GET Person/{id}/ImageInfo
@@ -81,28 +82,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 17 Feb 2024 03:45:28 G2T
+Last-Modified: Sun, 28 Feb 2021 03:47:00 G2T
 
 {
-  "BlobId": 853,
-  "BlobSize": 350,
-  "Description": "Quality-focused directional knowledge user",
-  "ExtraInfo": "tempora",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "amet",
-  "OriginalSize": 362,
-  "CreatedDate": "2018-12-06T03:45:28.4984325+01:00",
-  "UpdatedDate": "2024-02-17T03:45:28.4984325+01:00",
+  "BlobId": 208,
+  "BlobSize": 202,
+  "Description": "Balanced client-server matrix",
+  "ExtraInfo": "voluptatem",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "consequuntur",
+  "OriginalSize": 478,
+  "CreatedDate": "2017-11-10T03:47:00.1599324+01:00",
+  "UpdatedDate": "2021-02-28T03:47:00.1599324+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quos",
+  "ConceptualType": "aliquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 948
+      "FieldType": "System.String",
+      "FieldLength": 521
     }
   }
 }

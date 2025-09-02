@@ -3,9 +3,9 @@ uid: templatevariables
 title: templatevariables
 keywords: mdoprovider mdo provider templatevariables
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "templatevariables" MDO List

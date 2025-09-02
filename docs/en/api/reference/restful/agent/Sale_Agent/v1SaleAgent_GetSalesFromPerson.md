@@ -2,6 +2,7 @@
 title: POST Agents/Sale/GetSalesFromPerson
 uid: v1SaleAgent_GetSalesFromPerson
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/GetSalesFromPerson
@@ -98,11 +99,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 295,
+  "PersonId": 858,
   "OnlyOpenSales": true
 }
 ```
@@ -115,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Herman, Prosacco and Lind",
-    "SaleDate": "2022-09-12T03:45:23.8735682+02:00",
-    "SaleId": 18,
-    "Probability": 726,
-    "Title": "qui",
-    "Amount": 6130.1039999999994,
-    "Currency": "eos",
-    "ProjectName": "Hilpert Inc and Sons",
-    "AssociateFullName": "Taurean Gulgowski",
-    "Description": "Progressive real-time software",
+    "ContactName": "Breitenberg LLC",
+    "SaleDate": "2004-11-28T03:46:55.285132+01:00",
+    "SaleId": 350,
+    "Probability": 857,
+    "Title": "ad",
+    "Amount": 10762.155999999999,
+    "Currency": "illo",
+    "ProjectName": "Johns-Bechtelar",
+    "AssociateFullName": "Melvina White",
+    "Description": "Customizable clear-thinking flexibility",
     "Status": "Lost",
-    "WeightedAmount": 10194.902,
-    "ProjectId": 754,
-    "EarningPercent": 7537.2699999999995,
-    "Earning": 12507.794,
-    "ContactId": 641,
-    "AssociateId": 262,
-    "PersonId": 304,
-    "SaleTypeId": 38,
-    "SaleTypeName": "Rodriguez LLC",
-    "PersonFullName": "Serena Durgan",
+    "WeightedAmount": 25908.778,
+    "ProjectId": 159,
+    "EarningPercent": 13695.58,
+    "Earning": 607.996,
+    "ContactId": 395,
+    "AssociateId": 373,
+    "PersonId": 573,
+    "SaleTypeId": 758,
+    "SaleTypeName": "Heidenreich Group",
+    "PersonFullName": "Eva DuBuque",
     "Completed": "Completed",
-    "ActiveErpLinks": 242,
-    "NextDueDate": "2018-03-23T03:45:23.8735682+01:00",
-    "Number": "1206512",
+    "ActiveErpLinks": 945,
+    "NextDueDate": "2014-03-18T03:46:55.285132+01:00",
+    "Number": "1014967",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 922
+        "FieldType": "System.Int32",
+        "FieldLength": 993
       }
     }
   }

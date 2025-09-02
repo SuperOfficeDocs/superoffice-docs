@@ -3,9 +3,9 @@ uid: formratingdice
 title: formratingdice
 keywords: mdoprovider mdo provider formratingdice
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "formratingdice" MDO List

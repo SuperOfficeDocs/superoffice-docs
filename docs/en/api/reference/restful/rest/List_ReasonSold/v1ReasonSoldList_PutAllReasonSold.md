@@ -2,6 +2,7 @@
 title: PUT List/ReasonSold/Items
 uid: v1ReasonSoldList_PutAllReasonSold
 generated: true
+content_type: reference
 ---
 
 # PUT List/ReasonSold/Items
@@ -78,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 17,
-    "Name": "Grimes LLC",
-    "Tooltip": "voluptatem",
+    "Id": 118,
+    "Name": "Torp-Watsica",
+    "Tooltip": "animi",
     "Deleted": false,
-    "UdListDefinitionId": 148,
-    "Rank": 114
+    "UdListDefinitionId": 636,
+    "Rank": 630
   },
   {
-    "Id": 17,
-    "Name": "Grimes LLC",
-    "Tooltip": "voluptatem",
+    "Id": 118,
+    "Name": "Torp-Watsica",
+    "Tooltip": "animi",
     "Deleted": false,
-    "UdListDefinitionId": 148,
-    "Rank": 114
+    "UdListDefinitionId": 636,
+    "Rank": 630
   }
 ]
 ```
@@ -104,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 653,
-    "Name": "Swift-Schmeler",
-    "Tooltip": "quo",
+    "Id": 713,
+    "Name": "Goodwin-Huels",
+    "Tooltip": "sit",
     "Deleted": false,
-    "UdListDefinitionId": 524,
-    "Rank": 497,
+    "UdListDefinitionId": 289,
+    "Rank": 385,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 546
+        "FieldLength": 595
       }
     }
   }

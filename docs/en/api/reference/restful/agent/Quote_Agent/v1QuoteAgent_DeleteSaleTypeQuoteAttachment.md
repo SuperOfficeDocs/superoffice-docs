@@ -2,6 +2,7 @@
 title: POST Agents/Quote/DeleteSaleTypeQuoteAttachment
 uid: v1QuoteAgent_DeleteSaleTypeQuoteAttachment
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/DeleteSaleTypeQuoteAttachment
@@ -68,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeQuoteAttachmentId": 778
+  "SaleTypeQuoteAttachmentId": 527
 }
 ```
 

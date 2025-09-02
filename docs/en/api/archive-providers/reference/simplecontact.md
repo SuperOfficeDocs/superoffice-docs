@@ -3,9 +3,9 @@ uid: SimpleContact
 title: SimpleContact
 description: 
 keywords: SimpleContact archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "SimpleContact"
@@ -357,7 +357,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleContact?$select=postAddress/formattedAddress,contactSupportPerson/personExtra/x_person_category_relation,contactAssociate/contactFullName
+GET /api/v1/archive/SimpleContact?$select=contactSupportAssociate/title,contactSupportPerson/personCountry,contactAssociate/contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -2,6 +2,7 @@
 title: POST Agents/License/GetLicenseStatusFromLicenseServer
 uid: v1LicenseAgent_GetLicenseStatusFromLicenseServer
 generated: true
+content_type: reference
 ---
 
 # POST Agents/License/GetLicenseStatusFromLicenseServer
@@ -73,11 +74,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseStatusFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Kemmer, Lockman and Quitzon"
+  "OwnerName": "O'Reilly, Schneider and Waters"
 }
 ```
 
@@ -89,7 +90,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "molestiae",
+  "Message": "reiciendis",
   "Url": "http://www.example.com/"
 }
 ```

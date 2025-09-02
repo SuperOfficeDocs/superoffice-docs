@@ -2,6 +2,7 @@
 title: Services88.UserDefinedFieldInfoAgent.DetectUnpublishedChanges SOAP
 generated: true
 uid: Services88-UserDefinedFieldInfo-DetectUnpublishedChanges
+content_type: reference
 ---
 
 # Services88 UserDefinedFieldInfo DetectUnpublishedChanges

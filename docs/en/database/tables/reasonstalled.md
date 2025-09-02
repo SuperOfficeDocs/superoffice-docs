@@ -2,10 +2,10 @@
 uid: table-ReasonStalled
 title: ReasonStalled table
 description: Why was the sale marked as stalled
-so.generated: true
+generated: true
 keywords: database table ReasonStalled
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ReasonStalled Table (154)

@@ -3,9 +3,9 @@ uid: projectstatus
 title: projectstatus
 keywords: mdoprovider mdo provider projectstatus
 description: List of project guide steps status values.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "projectstatus" MDO List
@@ -23,6 +23,7 @@ The name of the MDO list is 'projectstatus'.
 |The project type id.| ProjectTypeId|123|
 |Include deleted items| GetDeleted|True|
 |Include deleted projects| GetDeletedLinks|True|
+|Project types to get project statuses for| ProjectTypeIDs|1,2,3,4|
 
 Separator: &
 
@@ -53,9 +54,9 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
-|5|Project planning||IsDeleted=False&ProjectTypeStatusLinkId=1|
-|6|Implementation||IsDeleted=False&ProjectTypeStatusLinkId=2|
-|7|Completion||IsDeleted=False&ProjectTypeStatusLinkId=3|
+|5|Project planning||IsDeleted=False&ProjectTypeStatusLinkId=1&|
+|6|Implementation||IsDeleted=False&ProjectTypeStatusLinkId=2&|
+|7|Completion||IsDeleted=False&ProjectTypeStatusLinkId=3&|
 
 
 ## Related MDO Lists

@@ -2,6 +2,7 @@
 title: GET List/Category/Items/{id}/Headings
 uid: v1CategoryList_GetCategoryHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Category/Items/{id}/Headings
@@ -85,7 +86,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 801,
-    "Name": "Walsh Group",
-    "ToolTip": "Omnis laboriosam ab nisi.",
-    "Deleted": false,
-    "Rank": 922,
-    "Type": "aperiam",
-    "ColorBlock": 234,
-    "IconHint": "nobis",
-    "Selected": false,
-    "LastChanged": "1999-10-12T03:45:28.9827939+02:00",
+    "Id": 12,
+    "Name": "Hilpert, Oberbrunner and Hoeger",
+    "ToolTip": "Et rerum placeat.",
+    "Deleted": true,
+    "Rank": 307,
+    "Type": "et",
+    "ColorBlock": 824,
+    "IconHint": "fuga",
+    "Selected": true,
+    "LastChanged": "2001-04-12T03:47:00.5818006+02:00",
     "ChildItems": [
       {
-        "Id": 512,
-        "Name": "Reynolds-Zboncak",
-        "ToolTip": "Culpa nostrum magni aut est doloribus cum.",
+        "Id": 124,
+        "Name": "Cronin Group",
+        "ToolTip": "Rerum est nemo modi et.",
         "Deleted": false,
-        "Rank": 98,
-        "Type": "rerum",
-        "ColorBlock": 318,
-        "IconHint": "dolores",
+        "Rank": 143,
+        "Type": "ad",
+        "ColorBlock": 261,
+        "IconHint": "quod",
         "Selected": false,
-        "LastChanged": "1999-03-24T03:45:28.9827939+01:00",
+        "LastChanged": "2017-05-10T03:47:00.5818006+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "eaque",
-        "Hidden": false,
-        "FullName": "Mrs. Robb Ullrich",
+        "ExtraInfo": "laborum",
+        "StyleHint": "voluptate",
+        "Hidden": true,
+        "FullName": "Chelsea Bailey Koch MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 751
+            "FieldType": "System.String",
+            "FieldLength": 465
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Pierce Schneider",
+    "ExtraInfo": "ullam",
+    "StyleHint": "quibusdam",
+    "Hidden": true,
+    "FullName": "Ms. Tony Bernhard",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 458
+        "FieldLength": 218
       }
     }
   }

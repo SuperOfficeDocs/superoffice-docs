@@ -3,9 +3,9 @@ uid: ContactPersonSelectionCombinedV2
 title: ContactPersonSelectionCombinedV2
 description: Implementation of the provider for the combined selection
 keywords: ContactPersonSelectionCombinedV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ContactPersonSelectionCombinedV2"
@@ -1004,6 +1004,12 @@ Implementation of the provider for the combined selection
 |request/ownedBy/personEmail| *None* |Owner - E-mail| x |
 |request/ownedBy/locationAddress| *None* |Owner - Location: Location| x |
 |request/ownedBy/isLocation| *None* |Owner - Is a location: Is a location| x |
+|request/ticketStatus/ticketStatusId| *None* |Status - ID: Displays request status ID| x |
+|request/ticketStatus/name| *None* |Status - Name: Displays the name of the request status| x |
+|request/ticketStatus/rank| *None* |Status - Status rank: Sort order of the status in the ticket status list| x |
+|request/ticketPriority/ticketPriorityId| *None* |Priority - ID: Displays the ID of the priority| x |
+|request/ticketPriority/name| *None* |Priority - Name: Displays the name of the priority| x |
+|request/ticketPriority/rank| *None* |Priority - Priority rank: Sort order of priority in the priority list| x |
 |request/extra/x\_ticket\_integer| *None* |Extra integer: Custom ticket integer. Default 123. External. Show in properties| x |
 |request/extra/x\_ticket\_float| *None* |Extra float: Custom float on Request. 2 decimal places| x |
 |request/extra/x\_ticket\_longtext| *None* |Extra long text: Custom long text on Request. Keep HTML tags. 9 line text area. Show in props| x |
@@ -1052,16 +1058,16 @@ Implementation of the provider for the combined selection
 |projectMembers/projectEvent/eventDate| *None* |Event date: Event date| x |
 |projectMembers/projectEvent/hasSignOn| *None* |Sign On: Does this event have the Sign On function enabled| x |
 |projectMembers/projectEvent/hasSignOff| *None* |Sign Off: Does this event have the Sign Off function enabled| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |projectMembers/projectUrl/URLAddress| *None* |URL| x |
 |projectMembers/projectUrl/URLDescription| *None* |Description| x |
 |projectMembers/projectAssociate/firstName| *None* |First name: Displays the contact's first name| x |
 |projectMembers/projectAssociate/lastName| *None* |Last name: Displays the contact's last name| x |
 |projectMembers/projectAssociate/middleName| *None* |Middle Name : Displays the contact's middle name.| x |
 |projectMembers/projectAssociate/fullName| *None* |Full name: Displays full name of user (first, middle, last - according to settings)| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |projectMembers/projectAssociate/contactId| *None* |Company ID: Database ID of the company the user belongs to|  |
 |projectMembers/projectAssociate/personId| *None* |Contact ID: Database ID of the contact row|  |
 |projectMembers/projectAssociate/mrMrs| *None* |Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
@@ -1156,16 +1162,16 @@ Implementation of the provider for the combined selection
 |personAppointment/location| *None* |Location: Display the location where the follow-up will take place.| x |
 |personAppointment/recurrenceRuleId| *None* |RR-ID: Repetition rule ID of follow-up| x |
 |personAppointment/rawType| *None* |Type: Type field for appointment, not decoded or formatted| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |personAppointment/rawStatus| *None* |Status: Status field for the follow-up, not decoded or formatted| x |
 |personAppointment/cautionWarning| *None* |Warning: Warning for invitations with potential problems: not properly synchronized with an external calendar, unsupported repetition pattern, e-mail notification failed, or other problems.| x |
 |personAppointment/visibleInDiary| *None* |ExcludeBook: Is the activity visible in the diary?| x |
 |personAppointment/endTime| *None* |End time: End time of an activity|  |
 |personAppointment/suggestedAppointmentId| *None* |Follow-up ID (suggestion: The database ID of a follow-up that originates in a suggestion| x |
 |personAppointment/completedDate| *None* |Completed date: Displays the actual date a follow-up/sale was marked as completed| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |personAppointment/isMilestone| *None* |Milestone: Shows whether or not the follow-ups in this row are milestones| x |
 |personAppointment/invitedPersonId| *None* |ID of invited person: appointment.invitedpersonid record - utility for rd| x |
 |personAppointment/recordTypeText| *None* |Activity type: The type of the activity (appointment, phone call, etc)| x |
@@ -1231,7 +1237,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionCombinedV2?$select=sourceRelation/updatedDate,targetRelation/registeredBy,sale/saleId,appointment/projectId,appointment/createdByWorkflow
+GET /api/v1/archive/ContactPersonSelectionCombinedV2?$select=saintIntention,personTargetRelation/fullName,personTargetRelation/personAssociateFullName,request/createdBy/isActive,projectMembers/imageThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

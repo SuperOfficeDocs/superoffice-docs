@@ -2,6 +2,7 @@
 title: POST Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 uid: v1DocumentAgent_CreateNewPhysicalMailMergeDocumentFromTemplate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
@@ -109,12 +110,12 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 617,
-  "UiCulture": "neque"
+  "DocumentId": 103,
+  "UiCulture": "necessitatibus"
 }
 ```
 
@@ -125,88 +126,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 710,
+  "DocumentId": 258,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "autem",
-  "Header": "rerum",
-  "Name": "Quigley-Quigley",
-  "OurRef": "occaecati",
-  "YourRef": "aut",
-  "CreatedDate": "2008-01-03T03:45:23.3267081+01:00",
-  "UpdatedDate": "2025-05-25T03:45:23.3267081+02:00",
-  "Description": "Managed actuating service-desk",
+  "Attention": "sed",
+  "Header": "alias",
+  "Name": "Stehr Inc and Sons",
+  "OurRef": "omnis",
+  "YourRef": "magni",
+  "CreatedDate": "2009-10-26T03:46:54.6601354+01:00",
+  "UpdatedDate": "2006-01-13T03:46:54.6601354+01:00",
+  "Description": "Function-based mobile functionalities",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2023-06-06T03:45:23.3267081+02:00",
-  "ExternalRef": "autem",
+  "Date": "2007-10-19T03:46:54.6601354+02:00",
+  "ExternalRef": "hic",
   "Completed": "Completed",
-  "ActiveLinks": 259,
+  "ActiveLinks": 799,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Jaskolski-Langosh",
-      "Id": 563,
-      "Description": "Multi-layered value-added standardization",
-      "ExtraInfo": "odio",
-      "LinkId": 147,
+      "EntityName": "Kilback-Ward",
+      "Id": 858,
+      "Description": "Vision-oriented local portal",
+      "ExtraInfo": "provident",
+      "LinkId": 467,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 633
+          "FieldType": "System.Int32",
+          "FieldLength": 744
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 145,
-  "Snum": 333,
+  "SuggestedDocumentId": 116,
+  "Snum": 888,
   "UserDefinedFields": {
-    "SuperOffice:1": "Einar Earnestine Price II",
-    "SuperOffice:2": "Dr. Sophie O'Conner"
+    "SuperOffice:1": "398794159",
+    "SuperOffice:2": "930918072"
   },
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "voluptate"
+    "ExtraFields1": "autem",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "molestiae"
+    "CustomFields1": "ex",
+    "CustomFields2": "ipsa"
   },
-  "PublishEventDate": "2008-11-27T03:45:23.3267081+01:00",
-  "PublishTo": "2018-10-08T03:45:23.3267081+02:00",
-  "PublishFrom": "2024-10-19T03:45:23.3267081+02:00",
+  "PublishEventDate": "2008-08-17T03:46:54.6601354+02:00",
+  "PublishTo": "2006-10-31T03:46:54.6601354+01:00",
+  "PublishFrom": "2014-05-23T03:46:54.6601354+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 943,
+      "VisibleId": 72,
       "Visibility": "All",
-      "DisplayValue": "debitis",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 605
+          "FieldType": "System.String",
+          "FieldLength": 902
         }
       }
     },
     {
-      "VisibleId": 943,
+      "VisibleId": 72,
       "Visibility": "All",
-      "DisplayValue": "debitis",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 605
+          "FieldType": "System.String",
+          "FieldLength": 902
         }
       }
     }
@@ -216,7 +217,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 751
+      "FieldLength": 499
     }
   }
 }

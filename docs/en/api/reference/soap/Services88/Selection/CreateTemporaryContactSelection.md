@@ -2,6 +2,7 @@
 title: Services88.SelectionAgent.CreateTemporaryContactSelection SOAP
 generated: true
 uid: Services88-Selection-CreateTemporaryContactSelection
+content_type: reference
 ---
 
 # Services88 Selection CreateTemporaryContactSelection
@@ -77,6 +78,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Selection:Deleted xsi:type="xsd:boolean">false</Selection:Deleted>
      <Selection:EjUserId xsi:type="xsd:int">0</Selection:EjUserId>
      <Selection:UserName xsi:type="xsd:string"></Selection:UserName>
+     <Selection:ExtraFields xsi:type="Selection:StringDictionary">
+      <Selection:StringKeyValuePair>
+       <Selection:Key xsi:type="xsd:string"></Selection:Key>
+       <Selection:Value xsi:type="xsd:string"></Selection:Value>
+      </Selection:StringKeyValuePair>
+     </Selection:ExtraFields>
+     <Selection:CustomFields xsi:type="Selection:StringDictionary">
+      <Selection:StringKeyValuePair>
+       <Selection:Key xsi:type="xsd:string"></Selection:Key>
+       <Selection:Value xsi:type="xsd:string"></Selection:Value>
+      </Selection:StringKeyValuePair>
+     </Selection:CustomFields>
     </Selection:Associate>
     <Selection:CreatedBy xsi:type="Selection:Associate">
      <Selection:AssociateId xsi:type="xsd:int">0</Selection:AssociateId>
@@ -91,6 +104,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Selection:Deleted xsi:type="xsd:boolean">false</Selection:Deleted>
      <Selection:EjUserId xsi:type="xsd:int">0</Selection:EjUserId>
      <Selection:UserName xsi:type="xsd:string"></Selection:UserName>
+     <Selection:ExtraFields xsi:type="Selection:StringDictionary">
+      <Selection:StringKeyValuePair>
+       <Selection:Key xsi:type="xsd:string"></Selection:Key>
+       <Selection:Value xsi:type="xsd:string"></Selection:Value>
+      </Selection:StringKeyValuePair>
+     </Selection:ExtraFields>
+     <Selection:CustomFields xsi:type="Selection:StringDictionary">
+      <Selection:StringKeyValuePair>
+       <Selection:Key xsi:type="xsd:string"></Selection:Key>
+       <Selection:Value xsi:type="xsd:string"></Selection:Value>
+      </Selection:StringKeyValuePair>
+     </Selection:CustomFields>
     </Selection:CreatedBy>
     <Selection:UpdatedBy xsi:type="Selection:Associate">
      <Selection:AssociateId xsi:type="xsd:int">0</Selection:AssociateId>
@@ -105,6 +130,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Selection:Deleted xsi:type="xsd:boolean">false</Selection:Deleted>
      <Selection:EjUserId xsi:type="xsd:int">0</Selection:EjUserId>
      <Selection:UserName xsi:type="xsd:string"></Selection:UserName>
+     <Selection:ExtraFields xsi:type="Selection:StringDictionary">
+      <Selection:StringKeyValuePair>
+       <Selection:Key xsi:type="xsd:string"></Selection:Key>
+       <Selection:Value xsi:type="xsd:string"></Selection:Value>
+      </Selection:StringKeyValuePair>
+     </Selection:ExtraFields>
+     <Selection:CustomFields xsi:type="Selection:StringDictionary">
+      <Selection:StringKeyValuePair>
+       <Selection:Key xsi:type="xsd:string"></Selection:Key>
+       <Selection:Value xsi:type="xsd:string"></Selection:Value>
+      </Selection:StringKeyValuePair>
+     </Selection:CustomFields>
     </Selection:UpdatedBy>
     <Selection:SelectionCategory xsi:type="Selection:SelectionCategory">
      <Selection:Id xsi:type="xsd:int">0</Selection:Id>
@@ -116,12 +153,12 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Selection:MemberCount xsi:type="xsd:unsignedInt">0</Selection:MemberCount>
     <Selection:Name xsi:type="xsd:string"></Selection:Name>
     <Selection:PostitTextId xsi:type="xsd:int">0</Selection:PostitTextId>
-    <Selection:CreatedDate xsi:type="xsd:dateTime">2025-06-26T01:44:50Z</Selection:CreatedDate>
+    <Selection:CreatedDate xsi:type="xsd:dateTime">2025-08-30T01:46:22Z</Selection:CreatedDate>
     <Selection:SelectionId xsi:type="xsd:int">0</Selection:SelectionId>
     <Selection:SoundEx xsi:type="xsd:string"></Selection:SoundEx>
     <Selection:Source xsi:type="xsd:short">0</Selection:Source>
     <Selection:TextId xsi:type="xsd:int">0</Selection:TextId>
-    <Selection:UpdatedDate xsi:type="xsd:dateTime">2025-06-26T01:44:50Z</Selection:UpdatedDate>
+    <Selection:UpdatedDate xsi:type="xsd:dateTime">2025-08-30T01:46:22Z</Selection:UpdatedDate>
     <Selection:UpdatedCount xsi:type="xsd:short">0</Selection:UpdatedCount>
     <Selection:Visibility xsi:type="xsd:short">0</Selection:Visibility>
     <Selection:SelectionType xsi:type="Selection:SelectionType">Static</Selection:SelectionType>
@@ -135,7 +172,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Selection:MainProviderName xsi:type="xsd:string"></Selection:MainProviderName>
     <Selection:ShadowProviderName xsi:type="xsd:string"></Selection:ShadowProviderName>
     <Selection:ChartKey xsi:type="xsd:string"></Selection:ChartKey>
-    <Selection:LastLoaded xsi:type="xsd:dateTime">2025-06-26T01:44:50Z</Selection:LastLoaded>
+    <Selection:LastLoaded xsi:type="xsd:dateTime">2025-08-30T01:46:22Z</Selection:LastLoaded>
     <Selection:LastLoadedBy xsi:type="xsd:int">0</Selection:LastLoadedBy>
     <Selection:LastLoadedByAssociate xsi:type="Selection:Associate">
      <Selection:AssociateId xsi:type="xsd:int">0</Selection:AssociateId>
@@ -150,8 +187,20 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Selection:Deleted xsi:type="xsd:boolean">false</Selection:Deleted>
      <Selection:EjUserId xsi:type="xsd:int">0</Selection:EjUserId>
      <Selection:UserName xsi:type="xsd:string"></Selection:UserName>
+     <Selection:ExtraFields xsi:type="Selection:StringDictionary">
+      <Selection:StringKeyValuePair>
+       <Selection:Key xsi:type="xsd:string"></Selection:Key>
+       <Selection:Value xsi:type="xsd:string"></Selection:Value>
+      </Selection:StringKeyValuePair>
+     </Selection:ExtraFields>
+     <Selection:CustomFields xsi:type="Selection:StringDictionary">
+      <Selection:StringKeyValuePair>
+       <Selection:Key xsi:type="xsd:string"></Selection:Key>
+       <Selection:Value xsi:type="xsd:string"></Selection:Value>
+      </Selection:StringKeyValuePair>
+     </Selection:CustomFields>
     </Selection:LastLoadedByAssociate>
-    <Selection:LastMembershipChange xsi:type="xsd:dateTime">2025-06-26T01:44:50Z</Selection:LastMembershipChange>
+    <Selection:LastMembershipChange xsi:type="xsd:dateTime">2025-08-30T01:46:22Z</Selection:LastMembershipChange>
     <Selection:LastMembershipChangeBy xsi:type="xsd:int">0</Selection:LastMembershipChangeBy>
     <Selection:LastMembershipChangeByAssociate xsi:type="Selection:Associate">
      <Selection:AssociateId xsi:type="xsd:int">0</Selection:AssociateId>
@@ -166,6 +215,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Selection:Deleted xsi:type="xsd:boolean">false</Selection:Deleted>
      <Selection:EjUserId xsi:type="xsd:int">0</Selection:EjUserId>
      <Selection:UserName xsi:type="xsd:string"></Selection:UserName>
+     <Selection:ExtraFields xsi:type="Selection:StringDictionary">
+      <Selection:StringKeyValuePair>
+       <Selection:Key xsi:type="xsd:string"></Selection:Key>
+       <Selection:Value xsi:type="xsd:string"></Selection:Value>
+      </Selection:StringKeyValuePair>
+     </Selection:ExtraFields>
+     <Selection:CustomFields xsi:type="Selection:StringDictionary">
+      <Selection:StringKeyValuePair>
+       <Selection:Key xsi:type="xsd:string"></Selection:Key>
+       <Selection:Value xsi:type="xsd:string"></Selection:Value>
+      </Selection:StringKeyValuePair>
+     </Selection:CustomFields>
     </Selection:LastMembershipChangeByAssociate>
     <Selection:MainHeading xsi:type="xsd:string"></Selection:MainHeading>
     <Selection:MemberTabHeading xsi:type="xsd:string"></Selection:MemberTabHeading>

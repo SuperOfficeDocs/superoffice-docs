@@ -2,6 +2,7 @@
 title: Services88.UserAgent.DeleteUser SOAP
 generated: true
 uid: Services88-User-DeleteUser
+content_type: reference
 ---
 
 # Services88 User DeleteUser

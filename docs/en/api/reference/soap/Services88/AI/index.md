@@ -2,6 +2,7 @@
 title: Services88.AIAgent SOAP
 uid: Services88-AI-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 AI SOAP
@@ -14,6 +15,8 @@ Handled by the <see cref="T:SuperOffice.Services88.IAIAgent">SuperOffice.Service
 
 Download [WSDL file for Services88/AI](../Services88-AI.md) if you need to generate your own proxy code.
 
+* [AnalyzeBizCardImage](AnalyzeBizCardImage.md)
+* [AnalyzeBizCardText](AnalyzeBizCardText.md)
 * [Answer](Answer.md)
 * [AnswerAccepted](AnswerAccepted.md)
 * [AnswerFeedback](AnswerFeedback.md)

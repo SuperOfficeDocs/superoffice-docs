@@ -2,6 +2,7 @@
 title: Services88.AppointmentAgent.GetTaskListItem SOAP
 generated: true
 uid: Services88-Appointment-GetTaskListItem
+content_type: reference
 ---
 
 # Services88 Appointment GetTaskListItem

@@ -2,10 +2,10 @@
 uid: table-dashboard
 title: dashboard table
 description: Describes a dashboard
-so.generated: true
+generated: true
 keywords: database table dashboard
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # dashboard Table (479)

@@ -2,6 +2,7 @@
 title: PATCH ForeignApp/{id}
 uid: v1ForeignAppEntity_PatchForeignAppEntity
 generated: true
+content_type: reference
 ---
 
 # PATCH ForeignApp/{id}
@@ -120,12 +121,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "exercitationem",
+    "path": "animi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "exercitationem",
+    "path": "animi",
     "value": {}
   }
 ]
@@ -138,29 +139,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 840,
-  "Name": "Waters-Thompson",
-  "CreatedDate": "2000-03-28T03:45:28.3578119+02:00",
-  "UpdatedDate": "2000-03-03T03:45:28.3578119+01:00",
+  "ForeignAppId": 145,
+  "Name": "Stamm, Cole and Robel",
+  "CreatedDate": "2011-01-16T03:47:00.0193121+01:00",
+  "UpdatedDate": "2010-03-07T03:47:00.0193121+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 457,
-      "Name": "McClure-Pagac",
-      "CreatedDate": "2014-09-30T03:45:28.3578119+02:00",
-      "UpdatedDate": "2012-07-07T03:45:28.3578119+02:00",
-      "AssociateFullName": "Dr. Angelina Veum",
-      "CreatedBy": "qui",
-      "UpdatedBy": "quisquam",
-      "DeviceIdentifier": "maxime",
-      "ForeignAppId": 338,
+      "ForeignDeviceId": 743,
+      "Name": "Cummings LLC",
+      "CreatedDate": "2008-03-07T03:47:00.0193121+01:00",
+      "UpdatedDate": "2015-06-12T03:47:00.0193121+02:00",
+      "AssociateFullName": "Mrs. Katrina Ashley Kunze III",
+      "CreatedBy": "laborum",
+      "UpdatedBy": "molestiae",
+      "DeviceIdentifier": "eligendi",
+      "ForeignAppId": 624,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 114
+          "FieldLength": 126
         }
       }
     }
@@ -169,8 +170,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 645
+      "FieldType": "System.Int32",
+      "FieldLength": 803
     }
   },
   "_Links": {

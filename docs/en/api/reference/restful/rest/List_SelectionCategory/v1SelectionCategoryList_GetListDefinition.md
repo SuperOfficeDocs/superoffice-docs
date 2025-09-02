@@ -2,6 +2,7 @@
 title: GET List/SelectionCategory
 uid: v1SelectionCategoryList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/SelectionCategory
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 924,
-  "Name": "Macejkovic, Boyle and Upton",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 237,
+  "Id": 218,
+  "Name": "Shanahan Inc and Sons",
+  "Tooltip": "in",
+  "Deleted": true,
+  "Rank": 859,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ex",
-  "InUseByUserDefinedFields": true,
+  "ListType": "provident",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 925
+      "FieldLength": 593
     }
   },
   "_Links": {

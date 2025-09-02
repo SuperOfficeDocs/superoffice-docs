@@ -2,6 +2,7 @@
 title: POST Agents/Contact/GetContactList
 uid: v1ContactAgent_GetContactList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Contact/GetContactList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/Contact/GetContactList?$select=name,department,category/id
 
 ## Request Body: contactIds 
 
-The primary keys. 
+The identifiers of the Contact object 
 
 
 ## Response:array
@@ -93,7 +94,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -104,36 +105,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 147,
-    "Name": "Braun-Hauck",
-    "OrgNr": "1115093",
+    "ContactId": 162,
+    "Name": "Dietrich, Kihn and Rempel",
+    "OrgNr": "944373",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "ipsam",
-    "DirectPhone": "120-874-7557",
-    "AssociateId": 457,
-    "CountryId": 67,
-    "EmailAddress": "era@bahringerhalvorson.info",
-    "Kananame": "itaque",
-    "EmailAddressName": "colton.auer@littel.co.uk",
+    "City": "placeat",
+    "DirectPhone": "1-287-568-4713 x3827",
+    "AssociateId": 570,
+    "CountryId": 865,
+    "EmailAddress": "retta@hartmann.uk",
+    "Kananame": "molestias",
+    "EmailAddressName": "xavier.farrell@price.us",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Moises Hermiston",
+    "AssociateFullName": "Prof. Junius Willard Oberbrunner IV",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "voluptatem",
-    "FullName": "Ms. Russ Wilma Goodwin",
+    "FormattedAddress": "consequatur",
+    "FullName": "Kamryn Marvin",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 768,
-    "Number1": "892639",
-    "Number2": "1215261",
+    "ActiveErpLinks": 323,
+    "Number1": "1690768",
+    "Number2": "1031281",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 702
+        "FieldLength": 502
       }
     }
   }

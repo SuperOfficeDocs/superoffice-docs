@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/GetHotlistEjUsers
 uid: v1TicketAgent_GetHotlistEjUsers
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/GetHotlistEjUsers
@@ -75,10 +76,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 652,
+  "TicketId": 169,
   "SkipAssociateIds": [
-    554,
-    495
+    159,
+    633
   ],
   "NotifyType": "ActiveTickets",
   "Channel": "Email"
@@ -92,7 +93,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  662,
-  220
+  841,
+  181
 ]
 ```

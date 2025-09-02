@@ -2,6 +2,7 @@
 title: POST Agents/Targets/GetTargetGroupForYear
 uid: v1TargetsAgent_GetTargetGroupForYear
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Targets/GetTargetGroupForYear
@@ -79,11 +80,11 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 13,
+  "TargetYear": 196,
   "EntityType": "None"
 }
 ```
@@ -95,30 +96,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 492,
-  "Year": 731,
+  "TargetGroupId": 43,
+  "Year": 51,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 463,
+      "TargetAssignmentInfoId": 597,
       "Values": [
-        441,
-        672
+        425,
+        361
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 874,
-      "DimensionListItemDisplayName": "Schowalter-Welch",
+      "DimensionListItem": 899,
+      "DimensionListItemDisplayName": "Beier Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 350
+          "FieldType": "System.String",
+          "FieldLength": 188
         }
       }
     }
@@ -129,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 734
+      "FieldLength": 212
     }
   }
 }

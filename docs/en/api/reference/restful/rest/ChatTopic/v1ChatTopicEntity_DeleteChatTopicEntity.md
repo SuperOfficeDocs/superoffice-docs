@@ -2,6 +2,7 @@
 title: DEL ChatTopic/{id}
 uid: v1ChatTopicEntity_DeleteChatTopicEntity
 generated: true
+content_type: reference
 ---
 
 # DEL ChatTopic/{id}

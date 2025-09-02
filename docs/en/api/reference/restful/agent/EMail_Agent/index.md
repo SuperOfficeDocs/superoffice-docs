@@ -1,6 +1,8 @@
 ---
+uid: tag-EMail_Agent
 title: EMail_Agent
 generated: true
+content_type: reference
 ---
 
 ```http
@@ -9,12 +11,6 @@ generated: true
 
 
 
-
-* [POST Agents/EMail/MoveEmailsToTrash](v1EMailAgent_MoveEmailsToTrash.md)
-
-* [POST Agents/EMail/Save](v1EMailAgent_Save.md)
-
-* [POST Agents/EMail/SaveToMailServer](v1EMailAgent_SaveToMailServer.md)
 
 * [POST Agents/EMail/Send](v1EMailAgent_Send.md)
 
@@ -80,6 +76,12 @@ generated: true
 
 * [POST Agents/EMail/GetEmailDocumentAsMimeStream](v1EMailAgent_GetEmailDocumentAsMimeStream.md)
 
+* [POST Agents/EMail/CreateDefaultEMailEnvelope](v1EMailAgent_CreateDefaultEMailEnvelope.md)
+
+* [POST Agents/EMail/CreateDefaultEMailFolder](v1EMailAgent_CreateDefaultEMailFolder.md)
+
+* [POST Agents/EMail/CreateDefaultEMailSOInfo](v1EMailAgent_CreateDefaultEMailSOInfo.md)
+
 * [POST Agents/EMail/GetEMailSOInfo](v1EMailAgent_GetEMailSOInfo.md)
 
 * [POST Agents/EMail/GetReadySyncEmailAccounts](v1EMailAgent_GetReadySyncEmailAccounts.md)
@@ -94,7 +96,25 @@ generated: true
 
 * [POST Agents/EMail/DeleteEMailAccount](v1EMailAgent_DeleteEMailAccount.md)
 
+* [POST Agents/EMail/GetEMailAccount](v1EMailAgent_GetEMailAccount.md)
+
+* [POST Agents/EMail/GetEMailAccountFromEMailAddress](v1EMailAgent_GetEMailAccountFromEMailAddress.md)
+
+* [POST Agents/EMail/GetCurrentAccountId](v1EMailAgent_GetCurrentAccountId.md)
+
+* [POST Agents/EMail/GetCurrentAccount](v1EMailAgent_GetCurrentAccount.md)
+
 * [POST Agents/EMail/CreateDefaultEMailAddress](v1EMailAgent_CreateDefaultEMailAddress.md)
+
+* [POST Agents/EMail/GetPersonEntitiesFromEmailAddress](v1EMailAgent_GetPersonEntitiesFromEmailAddress.md)
+
+* [POST Agents/EMail/GetPersonsFromEmailAddress](v1EMailAgent_GetPersonsFromEmailAddress.md)
+
+* [POST Agents/EMail/HasMXRecord](v1EMailAgent_HasMXRecord.md)
+
+* [POST Agents/EMail/HasSPFRecord](v1EMailAgent_HasSPFRecord.md)
+
+* [POST Agents/EMail/ResolveEMailRecipients](v1EMailAgent_ResolveEMailRecipients.md)
 
 * [POST Agents/EMail/CreateDefaultEMailAppointment](v1EMailAgent_CreateDefaultEMailAppointment.md)
 
@@ -107,30 +127,6 @@ generated: true
 * [POST Agents/EMail/CreateDefaultEMailCustomHeader](v1EMailAgent_CreateDefaultEMailCustomHeader.md)
 
 * [POST Agents/EMail/CreateDefaultEMailEntity](v1EMailAgent_CreateDefaultEMailEntity.md)
-
-* [POST Agents/EMail/CreateDefaultEMailEnvelope](v1EMailAgent_CreateDefaultEMailEnvelope.md)
-
-* [POST Agents/EMail/CreateDefaultEMailFolder](v1EMailAgent_CreateDefaultEMailFolder.md)
-
-* [POST Agents/EMail/CreateDefaultEMailSOInfo](v1EMailAgent_CreateDefaultEMailSOInfo.md)
-
-* [POST Agents/EMail/GetEMailAccount](v1EMailAgent_GetEMailAccount.md)
-
-* [POST Agents/EMail/GetEMailAccountFromEMailAddress](v1EMailAgent_GetEMailAccountFromEMailAddress.md)
-
-* [POST Agents/EMail/GetCurrentAccountId](v1EMailAgent_GetCurrentAccountId.md)
-
-* [POST Agents/EMail/GetCurrentAccount](v1EMailAgent_GetCurrentAccount.md)
-
-* [POST Agents/EMail/GetPersonEntitiesFromEmailAddress](v1EMailAgent_GetPersonEntitiesFromEmailAddress.md)
-
-* [POST Agents/EMail/GetPersonsFromEmailAddress](v1EMailAgent_GetPersonsFromEmailAddress.md)
-
-* [POST Agents/EMail/HasMXRecord](v1EMailAgent_HasMXRecord.md)
-
-* [POST Agents/EMail/HasSPFRecord](v1EMailAgent_HasSPFRecord.md)
-
-* [POST Agents/EMail/ResolveEMailRecipients](v1EMailAgent_ResolveEMailRecipients.md)
 
 * [POST Agents/EMail/GetEMailFromId](v1EMailAgent_GetEMailFromId.md)
 
@@ -213,3 +209,9 @@ generated: true
 * [POST Agents/EMail/MarkEmailsAsRead](v1EMailAgent_MarkEmailsAsRead.md)
 
 * [POST Agents/EMail/DeleteEmails](v1EMailAgent_DeleteEmails.md)
+
+* [POST Agents/EMail/MoveEmailsToTrash](v1EMailAgent_MoveEmailsToTrash.md)
+
+* [POST Agents/EMail/Save](v1EMailAgent_Save.md)
+
+* [POST Agents/EMail/SaveToMailServer](v1EMailAgent_SaveToMailServer.md)

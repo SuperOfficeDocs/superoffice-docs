@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.#ctor(SuperOffice.CRM.ArchiveLists.ActivityArchiveKind,System.String)
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityAppointment
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityDocument
+  - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityMailing
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityOther
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityToDo
   - SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.GetRowsAsync(System.String,System.Threading.CancellationToken)
@@ -163,6 +164,25 @@ items:
     return:
       type: System.String
     content.vb: Public Const EntityDocument As String = "document"
+- uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityMailing
+  commentId: F:SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityMailing
+  id: EntityMailing
+  parent: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase
+  langs:
+  - csharp
+  - vb
+  name: EntityMailing
+  nameWithType: ActivityArchiveProviderBase.EntityMailing
+  fullName: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityMailing
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string EntityMailing = "mailing"
+    return:
+      type: System.String
+    content.vb: Public Const EntityMailing As String = "mailing"
 - uid: SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityOther
   commentId: F:SuperOffice.CRM.ArchiveLists.ActivityArchiveProviderBase.EntityOther
   id: EntityOther

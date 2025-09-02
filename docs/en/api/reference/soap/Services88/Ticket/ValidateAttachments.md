@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.ValidateAttachments SOAP
 generated: true
 uid: Services88-Ticket-ValidateAttachments
+content_type: reference
 ---
 
 # Services88 Ticket ValidateAttachments

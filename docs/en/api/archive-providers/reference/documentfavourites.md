@@ -3,9 +3,9 @@ uid: documentfavourites
 title: documentfavourites
 description: 
 keywords: documentfavourites archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "documentfavourites"
@@ -109,7 +109,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/documentfavourites?$select=associate/contactFullName,name,associate/firstName
+GET /api/v1/archive/documentfavourites?$select=name,associate/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

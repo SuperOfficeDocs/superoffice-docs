@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.GetCustomerServiceStartupByOwner SOAP
 generated: true
 uid: Services88-CustomerService-GetCustomerServiceStartupByOwner
+content_type: reference
 ---
 
 # Services88 CustomerService GetCustomerServiceStartupByOwner

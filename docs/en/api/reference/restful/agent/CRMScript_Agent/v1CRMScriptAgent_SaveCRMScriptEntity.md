@@ -2,6 +2,7 @@
 title: POST Agents/CRMScript/SaveCRMScriptEntity
 uid: v1CRMScriptAgent_SaveCRMScriptEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CRMScript/SaveCRMScriptEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 ```
 
-Updates the existing CRMScriptEntity or creates a new CRMScriptEntity if the id parameter is empty
+Updates the existing CRMScriptEntity or creates a new CRMScriptEntity if the id parameter is 0.
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -35,9 +36,9 @@ Updates the existing CRMScriptEntity or creates a new CRMScriptEntity if the id 
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: cRMScriptEntity 
 
-The CRMScriptEntity to be saved. 
+The CRMScriptEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -59,6 +60,7 @@ The CRMScriptEntity to be saved.
 | RegisteredAssociateId | Integer | Registered by whom |
 | Updated | String | Last updated when  in UTC. |
 | UpdatedAssociateId | Integer | Last updated by whom |
+| BlockedVerbs | String | The verbs that are blocked when calling a ejscript over HTTP |
 
 ## Response:
 
@@ -90,6 +92,7 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
+| BlockedVerbs | string | The verbs that are blocked when calling a ejscript over HTTP |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -103,48 +106,49 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 907,
-  "UniqueIdentifier": "suscipit",
-  "Name": "Sauer Group",
-  "Description": "Programmable transitional customer loyalty",
-  "IncludeId": "omnis",
-  "AccessKey": "in",
-  "HierarchyId": 523,
-  "Source": "omnis",
-  "SourceCode": "veniam",
+  "EjscriptId": 451,
+  "UniqueIdentifier": "est",
+  "Name": "Zboncak-Kris",
+  "Description": "Focused local customer loyalty",
+  "IncludeId": "ut",
+  "AccessKey": "dignissimos",
+  "HierarchyId": 948,
+  "Source": "architecto",
+  "SourceCode": "ut",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 601,
+  "HtmlOutput": 623,
   "Includes": [
-    342,
-    13
+    55,
+    364
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 21,
-      "LineNumberTo": 227,
-      "Delta": 104,
-      "IncludeId": "quo",
+      "LineNumberFrom": 155,
+      "LineNumberTo": 619,
+      "Delta": 728,
+      "IncludeId": "rerum",
       "IncludedFrom": [
-        "ut",
-        "maiores"
+        "tempore",
+        "dolor"
       ]
     },
     {
-      "LineNumberFrom": 21,
-      "LineNumberTo": 227,
-      "Delta": 104,
-      "IncludeId": "quo",
+      "LineNumberFrom": 155,
+      "LineNumberTo": 619,
+      "Delta": 728,
+      "IncludeId": "rerum",
       "IncludedFrom": [
-        "ut",
-        "maiores"
+        "tempore",
+        "dolor"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2024-09-12T03:45:23.2329582+02:00",
-  "RegisteredAssociateId": 443,
-  "Updated": "1999-07-06T03:45:23.2329582+02:00",
-  "UpdatedAssociateId": 358
+  "Registered": "2005-10-31T03:46:54.5663888+01:00",
+  "RegisteredAssociateId": 747,
+  "Updated": "2004-09-24T03:46:54.5663888+02:00",
+  "UpdatedAssociateId": 361,
+  "BlockedVerbs": "BlockAll"
 }
 ```
 
@@ -155,52 +159,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 961,
-  "UniqueIdentifier": "debitis",
-  "Name": "Nikolaus-Stanton",
-  "Description": "Centralized 6th generation instruction set",
-  "IncludeId": "repellendus",
-  "AccessKey": "at",
-  "HierarchyId": 245,
-  "Source": "labore",
-  "SourceCode": "delectus",
+  "EjscriptId": 357,
+  "UniqueIdentifier": "tenetur",
+  "Name": "Grant-Kunde",
+  "Description": "Vision-oriented holistic array",
+  "IncludeId": "quidem",
+  "AccessKey": "atque",
+  "HierarchyId": 842,
+  "Source": "maiores",
+  "SourceCode": "sit",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 467,
+  "HtmlOutput": 585,
   "Includes": [
-    635,
-    460
+    414,
+    438
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 1001,
-      "LineNumberTo": 915,
-      "Delta": 974,
-      "IncludeId": "ducimus",
+      "LineNumberFrom": 495,
+      "LineNumberTo": 26,
+      "Delta": 733,
+      "IncludeId": "deserunt",
       "IncludedFrom": [
-        "aut",
-        "est"
+        "laboriosam",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 492
+          "FieldLength": 360
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2009-04-01T03:45:23.2329582+02:00",
-  "RegisteredAssociateId": 954,
-  "Updated": "2025-02-25T03:45:23.2329582+01:00",
-  "UpdatedAssociateId": 412,
+  "Registered": "2023-12-25T03:46:54.5663888+01:00",
+  "RegisteredAssociateId": 841,
+  "Updated": "2004-12-01T03:46:54.5663888+01:00",
+  "UpdatedAssociateId": 725,
+  "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldType": "System.String",
+      "FieldLength": 839
     }
   }
 }

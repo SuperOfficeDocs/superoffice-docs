@@ -2,6 +2,7 @@
 title: Services88.DiagnosticsAgent.CollectWebUsage SOAP
 generated: true
 uid: Services88-Diagnostics-CollectWebUsage
+content_type: reference
 ---
 
 # Services88 Diagnostics CollectWebUsage

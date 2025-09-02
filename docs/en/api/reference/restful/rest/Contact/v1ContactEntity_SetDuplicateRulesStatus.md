@@ -2,6 +2,7 @@
 title: PUT Contact/DuplicateRules
 uid: v1ContactEntity_SetDuplicateRulesStatus
 generated: true
+content_type: reference
 ---
 
 # PUT Contact/DuplicateRules
@@ -57,20 +58,20 @@ No Content
 PUT /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Oberbrunner, Marvin and Nitzsche",
-    "DisplayName": "Brekke-Effertz",
-    "DisplayTooltip": "sequi",
+    "Name": "Hackett, Armstrong and Wolff",
+    "DisplayName": "Boyle-Kuphal",
+    "DisplayTooltip": "sint",
     "IsActive": false
   },
   {
-    "Name": "Oberbrunner, Marvin and Nitzsche",
-    "DisplayName": "Brekke-Effertz",
-    "DisplayTooltip": "sequi",
+    "Name": "Hackett, Armstrong and Wolff",
+    "DisplayName": "Boyle-Kuphal",
+    "DisplayTooltip": "sint",
     "IsActive": false
   }
 ]

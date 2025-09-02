@@ -2,6 +2,7 @@
 title: POST Agents/Person/GetPersonSummary
 uid: v1PersonAgent_GetPersonSummary
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/GetPersonSummary
@@ -81,8 +82,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 576,
-  "Limit": 193
+  "PersonId": 243,
+  "Limit": 152
 }
 ```
 
@@ -96,79 +97,79 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "Tickets": [
     {
-      "TicketId": 930,
-      "TicketStatus": 823,
-      "Title": "blanditiis",
-      "Registered": "2000-11-07T03:45:23.7173227+01:00",
-      "IconHint": "est"
+      "TicketId": 540,
+      "TicketStatus": 590,
+      "Title": "non",
+      "Registered": "2015-05-08T03:46:55.0976201+02:00",
+      "IconHint": "ea"
     },
     {
-      "TicketId": 930,
-      "TicketStatus": 823,
-      "Title": "blanditiis",
-      "Registered": "2000-11-07T03:45:23.7173227+01:00",
-      "IconHint": "est"
+      "TicketId": 540,
+      "TicketStatus": 590,
+      "Title": "non",
+      "Registered": "2015-05-08T03:46:55.0976201+02:00",
+      "IconHint": "ea"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 526,
-      "DocumentId": 707,
-      "Date": "1998-02-11T03:45:23.7173227+01:00",
-      "Description": "Integrated human-resource knowledge user",
+      "AppointmentId": 922,
+      "DocumentId": 986,
+      "Date": "1999-03-31T03:46:55.0976201+02:00",
+      "Description": "Public-key impactful encryption",
       "Completed": "Completed",
-      "Registered": "2019-07-24T03:45:23.7173227+02:00"
+      "Registered": "2002-04-29T03:46:55.0976201+02:00"
     },
     {
-      "AppointmentId": 526,
-      "DocumentId": 707,
-      "Date": "1998-02-11T03:45:23.7173227+01:00",
-      "Description": "Integrated human-resource knowledge user",
+      "AppointmentId": 922,
+      "DocumentId": 986,
+      "Date": "1999-03-31T03:46:55.0976201+02:00",
+      "Description": "Public-key impactful encryption",
       "Completed": "Completed",
-      "Registered": "2019-07-24T03:45:23.7173227+02:00"
+      "Registered": "2002-04-29T03:46:55.0976201+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 361,
-      "DocumentId": 874,
-      "Date": "2011-05-19T03:45:23.7173227+02:00",
-      "Description": "Customizable disintermediate focus group",
+      "AppointmentId": 737,
+      "DocumentId": 498,
+      "Date": "2002-05-18T03:46:55.0976201+02:00",
+      "Description": "Mandatory scalable algorithm",
       "Completed": "Completed",
-      "Registered": "1998-08-21T03:45:23.7173227+02:00"
+      "Registered": "2004-09-04T03:46:55.0976201+02:00"
     },
     {
-      "AppointmentId": 361,
-      "DocumentId": 874,
-      "Date": "2011-05-19T03:45:23.7173227+02:00",
-      "Description": "Customizable disintermediate focus group",
+      "AppointmentId": 737,
+      "DocumentId": 498,
+      "Date": "2002-05-18T03:46:55.0976201+02:00",
+      "Description": "Mandatory scalable algorithm",
       "Completed": "Completed",
-      "Registered": "1998-08-21T03:45:23.7173227+02:00"
+      "Registered": "2004-09-04T03:46:55.0976201+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 78,
-      "SaleDate": "2016-05-03T03:45:23.7173227+02:00",
-      "Probability": 928,
-      "Heading": "quasi",
-      "Amount": 4647.722,
-      "Currency": "nam",
-      "AmountInBaseCurrency": 24407.592,
+      "SaleId": 718,
+      "SaleDate": "2001-05-27T03:46:55.0976201+02:00",
+      "Probability": 460,
+      "Heading": "officia",
+      "Amount": 28792.057999999997,
+      "Currency": "et",
+      "AmountInBaseCurrency": 19618.84,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2001-02-12T03:45:23.7173227+01:00"
+      "Registered": "2000-02-27T03:46:55.0976201+01:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 255,
-      "Name": "Hansen Inc and Sons",
-      "CompanyName": "Murphy, Wolf and Lubowitz",
-      "FirstMessage": "tenetur",
-      "LastMessage": "et",
-      "WhenRequested": "2002-03-03T03:45:23.7173227+01:00",
-      "WhenEnded": "2020-10-18T03:45:23.7173227+02:00"
+      "ChatSessionId": 272,
+      "Name": "Kihn-Lebsack",
+      "CompanyName": "Simonis LLC",
+      "FirstMessage": "sed",
+      "LastMessage": "enim",
+      "WhenRequested": "2023-09-19T03:46:55.0976201+02:00",
+      "WhenEnded": "2016-07-04T03:46:55.0976201+02:00"
     }
   ]
 }

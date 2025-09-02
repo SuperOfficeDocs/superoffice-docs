@@ -2,6 +2,7 @@
 title: POST Agents/List/GetPaymentType
 uid: v1ListAgent_GetPaymentType
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetPaymentType
@@ -22,11 +23,11 @@ Gets a PaymentType object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| paymentTypeId | int32 | **Required** The primary key. |
+| paymentTypeId | int32 | **Required** The identifier of the PaymentType object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetPaymentType?paymentTypeId=341
+POST /api/v1/Agents/List/GetPaymentType?paymentTypeId=684
 POST /api/v1/Agents/List/GetPaymentType?$select=name,department,category/id
 ```
 
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetPaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,15 +80,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 996,
-  "Value": "culpa",
-  "Tooltip": "reprehenderit",
+  "Id": 100,
+  "Value": "quis",
+  "Tooltip": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 117
+      "FieldType": "System.String",
+      "FieldLength": 611
     }
   }
 }

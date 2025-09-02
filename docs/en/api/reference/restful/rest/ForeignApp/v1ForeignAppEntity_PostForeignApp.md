@@ -2,6 +2,7 @@
 title: POST ForeignApp/{appName}
 uid: v1ForeignAppEntity_PostForeignApp
 generated: true
+content_type: reference
 ---
 
 # POST ForeignApp/{appName}
@@ -67,7 +68,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,29 +78,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 184,
-  "Name": "Beer LLC",
-  "CreatedDate": "2021-12-03T03:45:28.3578119+01:00",
-  "UpdatedDate": "2022-10-03T03:45:28.3578119+02:00",
+  "ForeignAppId": 97,
+  "Name": "Bogan-Kertzmann",
+  "CreatedDate": "2012-11-25T03:47:00.0193121+01:00",
+  "UpdatedDate": "2023-06-02T03:47:00.0193121+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 866,
-      "Name": "O'Reilly-Mraz",
-      "CreatedDate": "2011-02-02T03:45:28.3578119+01:00",
-      "UpdatedDate": "2003-12-08T03:45:28.3578119+01:00",
-      "AssociateFullName": "Adelle Lubowitz",
-      "CreatedBy": "expedita",
-      "UpdatedBy": "et",
-      "DeviceIdentifier": "aut",
-      "ForeignAppId": 865,
+      "ForeignDeviceId": 97,
+      "Name": "Cummerata-Williamson",
+      "CreatedDate": "2020-03-24T03:47:00.0193121+01:00",
+      "UpdatedDate": "2013-07-19T03:47:00.0193121+02:00",
+      "AssociateFullName": "Hortense Reichert",
+      "CreatedBy": "et",
+      "UpdatedBy": "sit",
+      "DeviceIdentifier": "sunt",
+      "ForeignAppId": 334,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 513
+          "FieldLength": 265
         }
       }
     }
@@ -109,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 282
+      "FieldLength": 21
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/List/CreateDefaultListItemEntity
 uid: v1ListAgent_CreateDefaultListItemEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/CreateDefaultListItemEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/List/CreateDefaultListItemEntity
 ```
 
-Set default values into a new ListItemEntity.
+Loading default values into a new ListItemEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -62,7 +61,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 706,
-  "Name": "Pagac Group",
-  "Tooltip": "quis",
+  "Id": 110,
+  "Name": "Watsica, Schroeder and Spinka",
+  "Tooltip": "adipisci",
   "Deleted": false,
-  "UdListDefinitionId": 382,
-  "Rank": 576,
+  "UdListDefinitionId": 366,
+  "Rank": 389,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 99
     }
   }
 }

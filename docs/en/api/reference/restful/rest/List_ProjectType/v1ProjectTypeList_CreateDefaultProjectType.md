@@ -2,6 +2,7 @@
 title: GET List/ProjectType/Items/Default
 uid: v1ProjectTypeList_CreateDefaultProjectType
 generated: true
+content_type: reference
 ---
 
 # GET List/ProjectType/Items/Default
@@ -70,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 136,
-  "Name": "Halvorson, Gulgowski and Stehr",
-  "Tooltip": "accusantium",
-  "Deleted": false,
-  "UdListDefinitionId": 540,
-  "Rank": 35,
+  "Id": 868,
+  "Name": "Harris-Zieme",
+  "Tooltip": "unde",
+  "Deleted": true,
+  "UdListDefinitionId": 250,
+  "Rank": 185,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 385
+      "FieldLength": 987
     }
   }
 }

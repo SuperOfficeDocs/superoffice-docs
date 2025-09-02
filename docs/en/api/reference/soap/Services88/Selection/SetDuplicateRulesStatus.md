@@ -2,6 +2,7 @@
 title: Services88.SelectionAgent.SetDuplicateRulesStatus SOAP
 generated: true
 uid: Services88-Selection-SetDuplicateRulesStatus
+content_type: reference
 ---
 
 # Services88 Selection SetDuplicateRulesStatus

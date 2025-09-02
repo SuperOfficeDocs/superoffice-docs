@@ -2,6 +2,7 @@
 title: POST Selection/{id}/Members/AddPerson
 uid: v1SelectionEntity_AddContactSelectionMembers
 generated: true
+content_type: reference
 ---
 
 # POST Selection/{id}/Members/AddPerson
@@ -64,12 +65,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 205,
-    "ContactId": 903
+    "PersonId": 541,
+    "ContactId": 890
   },
   {
-    "PersonId": 205,
-    "ContactId": 903
+    "PersonId": 541,
+    "ContactId": 890
   }
 ]
 ```

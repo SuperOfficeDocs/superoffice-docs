@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.GetErpSyncConnectorEntity SOAP
 generated: true
 uid: Services88-ErpSync-GetErpSyncConnectorEntity
+content_type: reference
 ---
 
 # Services88 ErpSync GetErpSyncConnectorEntity

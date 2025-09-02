@@ -2,10 +2,10 @@
 uid: enum-criterionlinktype
 title: Enum values for CriterionLinkType
 description: Lists the enum values for CriterionLinkType.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # CriterionLinkType Enum

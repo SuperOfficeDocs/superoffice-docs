@@ -2,6 +2,7 @@
 title: POST Agents/TimeZone/SetActiveTimeZoneRow
 uid: v1TimeZoneAgent_SetActiveTimeZoneRow
 generated: true
+content_type: reference
 ---
 
 # POST Agents/TimeZone/SetActiveTimeZoneRow
@@ -69,7 +70,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 272,
+  "Id": 424,
   "Active": false
 }
 ```

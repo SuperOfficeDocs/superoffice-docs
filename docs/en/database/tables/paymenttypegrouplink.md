@@ -2,10 +2,10 @@
 uid: table-PaymentTypeGroupLink
 title: PaymentTypeGroupLink table
 description: User group link table for PaymentType, for MDO item hiding
-so.generated: true
+generated: true
 keywords: database table PaymentTypeGroupLink
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # PaymentTypeGroupLink Table (431)

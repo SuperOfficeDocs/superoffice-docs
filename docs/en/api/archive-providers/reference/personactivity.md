@@ -3,9 +3,9 @@ uid: PersonActivity
 title: PersonActivity
 description: Activity archive provider for the Person card
 keywords: PersonActivity archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "PersonActivity"
@@ -1272,7 +1272,7 @@ Activity archive provider for the Person card
 ## Sample
 
 ```http!
-GET /api/v1/archive/PersonActivity?$select=person/personBusiness,person/phone/formattedNumber,person/personAssociate/otherGroups,person/correspondingAssociate/mrMrs,contact/name
+GET /api/v1/archive/PersonActivity?$select=person/portraitThumbnail,contact/contactId,contact/LastTicket,project/hasGuide,project/projectAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

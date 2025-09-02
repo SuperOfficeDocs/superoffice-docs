@@ -2,6 +2,7 @@
 title: POST Agents/EMail/RefreshFolderForAssociate
 uid: v1EMailAgent_RefreshFolderForAssociate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/RefreshFolderForAssociate
@@ -70,13 +71,13 @@ OK
 POST /api/v1/Agents/EMail/RefreshFolderForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    "iusto",
-    "aut"
+    "sequi",
+    "vitae"
   ]
 }
 ```
@@ -87,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"quisquam"
+"minus"
 ```

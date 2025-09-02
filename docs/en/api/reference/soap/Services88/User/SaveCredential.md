@@ -2,6 +2,7 @@
 title: Services88.UserAgent.SaveCredential SOAP
 generated: true
 uid: Services88-User-SaveCredential
+content_type: reference
 ---
 
 # Services88 User SaveCredential

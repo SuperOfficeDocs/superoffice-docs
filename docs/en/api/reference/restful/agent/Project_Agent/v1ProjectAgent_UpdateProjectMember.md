@@ -2,6 +2,7 @@
 title: POST Agents/Project/UpdateProjectMember
 uid: v1ProjectAgent_UpdateProjectMember
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/UpdateProjectMember
@@ -93,7 +94,7 @@ OK
 POST /api/v1/Agents/Project/UpdateProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,33 +109,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 731,
-  "ContactId": 139,
-  "ProjectId": 809,
-  "ContactName": "Willms-Roberts",
+  "ProjectmemberId": 840,
+  "ContactId": 505,
+  "ProjectId": 25,
+  "ContactName": "Anderson LLC",
   "ContactDepartment": "",
-  "ProjectName": "Lind, Paucek and Weissnat",
-  "EmailId": 165,
-  "EmailAddress": "raymundo_schmeler@simonis.biz",
-  "CountryId": 883,
-  "Firstname": "Rodrick",
-  "MiddleName": "Schaefer, Jaskolski and Vandervort",
-  "Lastname": "Anderson",
-  "PersonId": 405,
-  "Mrmrs": "architecto",
-  "ProjectMemberTypeName": "Harvey-Hackett",
-  "Phone": "102-811-4960",
-  "PhoneId": 524,
-  "ProjectMemberTypeId": 254,
-  "EmailAddressName": "jacinthe_beer@welchklocko.co.uk",
-  "Comment": "culpa",
-  "FullName": "Lolita Prohaska",
+  "ProjectName": "Pouros-Abshire",
+  "EmailId": 489,
+  "EmailAddress": "luella.monahan@wintheiserrunolfsdottir.us",
+  "CountryId": 271,
+  "Firstname": "Danika",
+  "MiddleName": "Corwin, Littel and Bogan",
+  "Lastname": "Strosin",
+  "PersonId": 138,
+  "Mrmrs": "perferendis",
+  "ProjectMemberTypeName": "Fritsch Inc and Sons",
+  "Phone": "(295)378-2529 x00653",
+  "PhoneId": 338,
+  "ProjectMemberTypeId": 719,
+  "EmailAddressName": "nia@medhurstlakin.ca",
+  "Comment": "quaerat",
+  "FullName": "Gaylord Elouise Jenkins I",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 220
+      "FieldLength": 3
     }
   }
 }

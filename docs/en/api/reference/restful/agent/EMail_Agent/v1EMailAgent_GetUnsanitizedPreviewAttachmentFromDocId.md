@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 uid: v1EMailAgent_GetUnsanitizedPreviewAttachmentFromDocId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
@@ -91,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 441,
-  "AttachmentId": "sint"
+  "DocId": 418,
+  "AttachmentId": "sunt"
 }
 ```
 
@@ -103,21 +104,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Mandatory 6th generation model",
-  "Filename": "facilis",
-  "Size": 69,
-  "Type": "autem",
-  "Encoding": "aliquid",
-  "Id": "iure",
-  "Disposition": "reiciendis",
-  "IsSafeFileExtension": true,
+  "Description": "Public-key user-facing time-frame",
+  "Filename": "dolorem",
+  "Size": 327,
+  "Type": "ut",
+  "Encoding": "perspiciatis",
+  "Id": "quos",
+  "Disposition": "qui",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 503
+      "FieldType": "System.Int32",
+      "FieldLength": 963
     }
   }
 }

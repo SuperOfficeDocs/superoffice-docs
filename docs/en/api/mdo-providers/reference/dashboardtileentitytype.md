@@ -3,9 +3,9 @@ uid: dashboardtileentitytype
 title: dashboardtileentitytype
 keywords: mdoprovider mdo provider dashboardtileentitytype
 description: List of dashboard tile types - Company, Project, Sale, Product, Activity, Web Panel
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "dashboardtileentitytype" MDO List

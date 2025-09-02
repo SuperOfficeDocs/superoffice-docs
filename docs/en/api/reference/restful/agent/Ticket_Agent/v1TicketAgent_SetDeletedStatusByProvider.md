@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/SetDeletedStatusByProvider
 uid: v1TicketAgent_SetDeletedStatusByProvider
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/SetDeletedStatusByProvider
@@ -75,28 +76,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Mayer-Watsica",
+  "ProviderName": "Hermiston Inc and Sons",
   "Restrictions": [
     {
-      "Name": "Bashirian Inc and Sons",
-      "Operator": "consequatur",
+      "Name": "Kuphal Group",
+      "Operator": "modi",
       "Values": [
-        "exercitationem",
-        "voluptas"
+        "recusandae",
+        "doloremque"
       ],
       "DisplayValues": [
-        "quam",
-        "omnis"
+        "voluptates",
+        "ratione"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 576,
+      "InterParenthesis": 451,
       "InterOperator": "And",
-      "UniqueHash": 561
+      "UniqueHash": 891
     }
   ]
 }
@@ -109,7 +110,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  252,
-  998
+  839,
+  966
 ]
 ```

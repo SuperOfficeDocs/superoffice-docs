@@ -2,6 +2,7 @@
 title: POST Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 uid: v1ContactEntity_ChangeFieldType
 generated: true
+content_type: reference
 ---
 
 # POST Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
@@ -30,7 +31,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -104,7 +105,7 @@ ContactEntity found.
 POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -114,46 +115,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 116,
-  "ColumnId": 857,
-  "FieldDefault": "reiciendis",
-  "FieldHeight": 933,
-  "FieldLabel": "quibusdam",
-  "FieldLeft": 418,
-  "FieldTop": 160,
+  "UDefFieldId": 399,
+  "ColumnId": 674,
+  "FieldDefault": "doloremque",
+  "FieldHeight": 40,
+  "FieldLabel": "pariatur",
+  "FieldLeft": 469,
+  "FieldTop": 988,
   "FieldType": "Checkbox",
-  "FieldWidth": 556,
-  "FormatMask": "expedita",
-  "HideLabel": false,
+  "FieldWidth": 472,
+  "FormatMask": "qui",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 988,
-  "LabelLeft": 15,
-  "LabelTop": 714,
-  "LabelWidth": 104,
-  "LastVersionId": 247,
-  "ListTableId": 24,
-  "IsMandatory": false,
+  "LabelHeight": 175,
+  "LabelLeft": 997,
+  "LabelTop": 755,
+  "LabelWidth": 332,
+  "LastVersionId": 495,
+  "ListTableId": 279,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 876,
-  "ProgId": "impedit",
+  "Page1LineNo": 63,
+  "ProgId": "quo",
   "IsReadOnly": false,
-  "ShortLabel": "incidunt",
-  "TabOrder": 489,
-  "TextLength": 321,
-  "Tooltip": "qui",
-  "UdefIdentity": 218,
-  "UDListDefinitionId": 206,
+  "ShortLabel": "cupiditate",
+  "TabOrder": 482,
+  "TextLength": 656,
+  "Tooltip": "enim",
+  "UdefIdentity": 244,
+  "UDListDefinitionId": 719,
   "Justification": "Center",
-  "Version": 149,
-  "TemplateVariableName": "Schoen Inc and Sons",
+  "Version": 527,
+  "TemplateVariableName": "Maggio, Hermiston and Kirlin",
   "HasBeenPublished": false,
-  "MdoListName": "Wiegand LLC",
+  "MdoListName": "Wintheiser LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldLength": 643
     }
   }
 }

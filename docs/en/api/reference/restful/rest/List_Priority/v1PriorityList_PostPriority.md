@@ -2,6 +2,7 @@
 title: POST List/Priority/Items
 uid: v1PriorityList_PostPriority
 generated: true
+content_type: reference
 ---
 
 # POST List/Priority/Items
@@ -73,16 +74,16 @@ OK
 POST /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 669,
-  "Name": "Dach, Hudson and Dibbert",
-  "Tooltip": "animi",
-  "Deleted": true,
-  "UdListDefinitionId": 627,
-  "Rank": 330
+  "Id": 276,
+  "Name": "Stamm, Harris and Murazik",
+  "Tooltip": "iusto",
+  "Deleted": false,
+  "UdListDefinitionId": 96,
+  "Rank": 674
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 16,
-  "Name": "Pacocha, Zemlak and Borer",
-  "Tooltip": "error",
+  "Id": 789,
+  "Name": "Pollich-Gleason",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "UdListDefinitionId": 443,
-  "Rank": 1000,
+  "UdListDefinitionId": 212,
+  "Rank": 24,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 706
+      "FieldLength": 748
     }
   }
 }

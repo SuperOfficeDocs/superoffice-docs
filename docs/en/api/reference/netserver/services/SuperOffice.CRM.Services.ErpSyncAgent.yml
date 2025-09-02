@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.ErpSyncAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionDataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionListMappingContainerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncFieldValueImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncActorTypeMappingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectionSummaryImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectorEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncDefaultValueImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineStatusImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.ErpSyncAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionDataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionListMappingContainerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncFieldValueImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncActorTypeMappingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectionSummaryImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectorEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncDefaultValueImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineStatusImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.ErpSyncAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionDataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionListMappingContainerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncFieldValueImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncActorTypeMappingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectionSummaryImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectorEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncDefaultValueImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineStatusImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   - SuperOffice.CRM.Services.ErpSyncAgent.BreakActorLinkAsync(System.Int32,System.Int32,SuperOffice.Data.CrmActorType,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ErpSyncAgent.CanDeleteErpSyncConnectorEntityAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ErpSyncAgent.ChangeEngineIntervalAsync(System.TimeSpan,System.Threading.CancellationToken)
@@ -137,22 +137,22 @@ items:
   nameWithType.vb: ErpSyncAgent.New(IErpConnectionImplementation, IErpConnectionDataImplementation, IErpConnectionListMappingContainerImplementation, IErpSyncFieldValueImplementation, IErpSyncActorTypeMappingImplementation, IErpSyncConnectionSummaryImplementation, IErpSyncConnectorEntityImplementation, IErpSyncDefaultValueImplementation, IErpSyncEngineImplementation, IErpSyncEngineStatusImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.ErpSyncAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionDataImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionListMappingContainerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncFieldValueImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncActorTypeMappingImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectionSummaryImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectorEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncDefaultValueImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineStatusImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IErpConnectionImplementation, IErpConnectionDataImplementation, IErpConnectionListMappingContainerImplementation, IErpSyncFieldValueImplementation, IErpSyncActorTypeMappingImplementation, IErpSyncConnectionSummaryImplementation, IErpSyncConnectorEntityImplementation, IErpSyncDefaultValueImplementation, IErpSyncEngineImplementation, IErpSyncEngineStatusImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.ErpSyncAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionDataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionListMappingContainerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncFieldValueImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncActorTypeMappingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectionSummaryImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectorEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncDefaultValueImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineStatusImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  commentId: M:SuperOffice.CRM.Services.ErpSyncAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionDataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionListMappingContainerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncFieldValueImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncActorTypeMappingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectionSummaryImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectorEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncDefaultValueImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineStatusImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionDataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionListMappingContainerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncFieldValueImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncActorTypeMappingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectionSummaryImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectorEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncDefaultValueImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineStatusImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+- uid: SuperOffice.CRM.Services.ErpSyncAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionDataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionListMappingContainerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncFieldValueImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncActorTypeMappingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectionSummaryImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectorEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncDefaultValueImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineStatusImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  commentId: M:SuperOffice.CRM.Services.ErpSyncAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionDataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionListMappingContainerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncFieldValueImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncActorTypeMappingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectionSummaryImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectorEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncDefaultValueImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineStatusImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionDataImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionListMappingContainerImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncFieldValueImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncActorTypeMappingImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectionSummaryImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectorEntityImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncDefaultValueImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineStatusImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
   parent: SuperOffice.CRM.Services.ErpSyncAgent
   langs:
   - csharp
   - vb
-  name: ErpSyncAgent(IErpConnectionImplementation, IErpConnectionDataImplementation, IErpConnectionListMappingContainerImplementation, IErpSyncFieldValueImplementation, IErpSyncActorTypeMappingImplementation, IErpSyncConnectionSummaryImplementation, IErpSyncConnectorEntityImplementation, IErpSyncDefaultValueImplementation, IErpSyncEngineImplementation, IErpSyncEngineStatusImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  nameWithType: ErpSyncAgent.ErpSyncAgent(IErpConnectionImplementation, IErpConnectionDataImplementation, IErpConnectionListMappingContainerImplementation, IErpSyncFieldValueImplementation, IErpSyncActorTypeMappingImplementation, IErpSyncConnectionSummaryImplementation, IErpSyncConnectorEntityImplementation, IErpSyncDefaultValueImplementation, IErpSyncEngineImplementation, IErpSyncEngineStatusImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName: SuperOffice.CRM.Services.ErpSyncAgent.ErpSyncAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionDataImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionListMappingContainerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncFieldValueImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncActorTypeMappingImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectionSummaryImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectorEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncDefaultValueImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineStatusImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name: ErpSyncAgent(IErpConnectionImplementation, IErpConnectionDataImplementation, IErpConnectionListMappingContainerImplementation, IErpSyncFieldValueImplementation, IErpSyncActorTypeMappingImplementation, IErpSyncConnectionSummaryImplementation, IErpSyncConnectorEntityImplementation, IErpSyncDefaultValueImplementation, IErpSyncEngineImplementation, IErpSyncEngineStatusImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType: ErpSyncAgent.ErpSyncAgent(IErpConnectionImplementation, IErpConnectionDataImplementation, IErpConnectionListMappingContainerImplementation, IErpSyncFieldValueImplementation, IErpSyncActorTypeMappingImplementation, IErpSyncConnectionSummaryImplementation, IErpSyncConnectorEntityImplementation, IErpSyncDefaultValueImplementation, IErpSyncEngineImplementation, IErpSyncEngineStatusImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName: SuperOffice.CRM.Services.ErpSyncAgent.ErpSyncAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionDataImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionListMappingContainerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncFieldValueImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncActorTypeMappingImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectionSummaryImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectorEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncDefaultValueImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineStatusImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public ErpSyncAgent(IErpConnectionImplementation erpConnectionImplementation, IErpConnectionDataImplementation erpConnectionDataImplementation, IErpConnectionListMappingContainerImplementation erpConnectionListMappingContainerImplementation, IErpSyncFieldValueImplementation erpSyncFieldValueImplementation, IErpSyncActorTypeMappingImplementation erpSyncActorTypeMappingImplementation, IErpSyncConnectionSummaryImplementation erpSyncConnectionSummaryImplementation, IErpSyncConnectorEntityImplementation erpSyncConnectorEntityImplementation, IErpSyncDefaultValueImplementation erpSyncDefaultValueImplementation, IErpSyncEngineImplementation erpSyncEngineImplementation, IErpSyncEngineStatusImplementation erpSyncEngineStatusImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    content: public ErpSyncAgent(IErpConnectionImplementation erpConnectionImplementation, IErpConnectionDataImplementation erpConnectionDataImplementation, IErpConnectionListMappingContainerImplementation erpConnectionListMappingContainerImplementation, IErpSyncFieldValueImplementation erpSyncFieldValueImplementation, IErpSyncActorTypeMappingImplementation erpSyncActorTypeMappingImplementation, IErpSyncConnectionSummaryImplementation erpSyncConnectionSummaryImplementation, IErpSyncConnectorEntityImplementation erpSyncConnectorEntityImplementation, IErpSyncDefaultValueImplementation erpSyncDefaultValueImplementation, IErpSyncEngineImplementation erpSyncEngineImplementation, IErpSyncEngineStatusImplementation erpSyncEngineStatusImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
     parameters:
     - id: erpConnectionImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionImplementation
@@ -180,106 +180,15 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    content.vb: Public Sub New(erpConnectionImplementation As IErpConnectionImplementation, erpConnectionDataImplementation As IErpConnectionDataImplementation, erpConnectionListMappingContainerImplementation As IErpConnectionListMappingContainerImplementation, erpSyncFieldValueImplementation As IErpSyncFieldValueImplementation, erpSyncActorTypeMappingImplementation As IErpSyncActorTypeMappingImplementation, erpSyncConnectionSummaryImplementation As IErpSyncConnectionSummaryImplementation, erpSyncConnectorEntityImplementation As IErpSyncConnectorEntityImplementation, erpSyncDefaultValueImplementation As IErpSyncDefaultValueImplementation, erpSyncEngineImplementation As IErpSyncEngineImplementation, erpSyncEngineStatusImplementation As IErpSyncEngineStatusImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+    - id: scriptingConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+    - id: onlineConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+    content.vb: Public Sub New(erpConnectionImplementation As IErpConnectionImplementation, erpConnectionDataImplementation As IErpConnectionDataImplementation, erpConnectionListMappingContainerImplementation As IErpConnectionListMappingContainerImplementation, erpSyncFieldValueImplementation As IErpSyncFieldValueImplementation, erpSyncActorTypeMappingImplementation As IErpSyncActorTypeMappingImplementation, erpSyncConnectionSummaryImplementation As IErpSyncConnectionSummaryImplementation, erpSyncConnectorEntityImplementation As IErpSyncConnectorEntityImplementation, erpSyncDefaultValueImplementation As IErpSyncDefaultValueImplementation, erpSyncEngineImplementation As IErpSyncEngineImplementation, erpSyncEngineStatusImplementation As IErpSyncEngineStatusImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
   overload: SuperOffice.CRM.Services.ErpSyncAgent.#ctor*
-  nameWithType.vb: ErpSyncAgent.New(IErpConnectionImplementation, IErpConnectionDataImplementation, IErpConnectionListMappingContainerImplementation, IErpSyncFieldValueImplementation, IErpSyncActorTypeMappingImplementation, IErpSyncConnectionSummaryImplementation, IErpSyncConnectorEntityImplementation, IErpSyncDefaultValueImplementation, IErpSyncEngineImplementation, IErpSyncEngineStatusImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName.vb: SuperOffice.CRM.Services.ErpSyncAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionDataImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionListMappingContainerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncFieldValueImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncActorTypeMappingImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectionSummaryImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectorEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncDefaultValueImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineStatusImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
-  name.vb: New(IErpConnectionImplementation, IErpConnectionDataImplementation, IErpConnectionListMappingContainerImplementation, IErpSyncFieldValueImplementation, IErpSyncActorTypeMappingImplementation, IErpSyncConnectionSummaryImplementation, IErpSyncConnectorEntityImplementation, IErpSyncDefaultValueImplementation, IErpSyncEngineImplementation, IErpSyncEngineStatusImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-- uid: SuperOffice.CRM.Services.ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(System.Threading.CancellationToken)
-  id: CreateDefaultErpSyncConnectorEntityAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.ErpSyncAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultErpSyncConnectorEntityAsync(CancellationToken)
-  nameWithType: ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new ErpSyncConnectorEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: public Task<ErpSyncConnectorEntity> CreateDefaultErpSyncConnectorEntityAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ErpSyncConnectorEntity}
-      description: New ErpSyncConnectorEntity with default values
-    content.vb: Public Function CreateDefaultErpSyncConnectorEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ErpSyncConnectorEntity)
-  overload: SuperOffice.CRM.Services.ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync*
-  implements:
-  - SuperOffice.CRM.Services.IErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.ErpSyncAgent.SaveErpSyncConnectorEntityAsync(SuperOffice.CRM.Services.ErpSyncConnectorEntity,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ErpSyncAgent.SaveErpSyncConnectorEntityAsync(SuperOffice.CRM.Services.ErpSyncConnectorEntity,System.Threading.CancellationToken)
-  id: SaveErpSyncConnectorEntityAsync(SuperOffice.CRM.Services.ErpSyncConnectorEntity,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.ErpSyncAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveErpSyncConnectorEntityAsync(ErpSyncConnectorEntity, CancellationToken)
-  nameWithType: ErpSyncAgent.SaveErpSyncConnectorEntityAsync(ErpSyncConnectorEntity, CancellationToken)
-  fullName: SuperOffice.CRM.Services.ErpSyncAgent.SaveErpSyncConnectorEntityAsync(SuperOffice.CRM.Services.ErpSyncConnectorEntity, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing ErpSyncConnectorEntity or creates a new ErpSyncConnectorEntity if the id parameter is empty
-  example: []
-  syntax:
-    content: public Task<ErpSyncConnectorEntity> SaveErpSyncConnectorEntityAsync(ErpSyncConnectorEntity erpSyncConnectorEntity, CancellationToken cancellationToken = default)
-    parameters:
-    - id: erpSyncConnectorEntity
-      type: SuperOffice.CRM.Services.ErpSyncConnectorEntity
-      description: The ErpSyncConnectorEntity that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ErpSyncConnectorEntity}
-      description: New or updated ErpSyncConnectorEntity
-    content.vb: Public Function SaveErpSyncConnectorEntityAsync(erpSyncConnectorEntity As ErpSyncConnectorEntity, cancellationToken As CancellationToken = Nothing) As Task(Of ErpSyncConnectorEntity)
-  overload: SuperOffice.CRM.Services.ErpSyncAgent.SaveErpSyncConnectorEntityAsync*
-  implements:
-  - SuperOffice.CRM.Services.IErpSyncAgent.SaveErpSyncConnectorEntityAsync(SuperOffice.CRM.Services.ErpSyncConnectorEntity,System.Threading.CancellationToken)
-- uid: SuperOffice.CRM.Services.ErpSyncAgent.DeleteErpSyncConnectorEntityAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.ErpSyncAgent.DeleteErpSyncConnectorEntityAsync(System.Int32,System.Threading.CancellationToken)
-  id: DeleteErpSyncConnectorEntityAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.ErpSyncAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteErpSyncConnectorEntityAsync(int, CancellationToken)
-  nameWithType: ErpSyncAgent.DeleteErpSyncConnectorEntityAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.ErpSyncAgent.DeleteErpSyncConnectorEntityAsync(int, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services.Implementation
-  namespace: SuperOffice.CRM.Services
-  summary: Deletes the ErpSyncConnectorEntity
-  example: []
-  syntax:
-    content: public Task DeleteErpSyncConnectorEntityAsync(int erpSyncConnectorEntityId, CancellationToken cancellationToken = default)
-    parameters:
-    - id: erpSyncConnectorEntityId
-      type: System.Int32
-      description: The identity of the ErpSyncConnectorEntity
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Public Function DeleteErpSyncConnectorEntityAsync(erpSyncConnectorEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
-  overload: SuperOffice.CRM.Services.ErpSyncAgent.DeleteErpSyncConnectorEntityAsync*
-  implements:
-  - SuperOffice.CRM.Services.IErpSyncAgent.DeleteErpSyncConnectorEntityAsync(System.Int32,System.Threading.CancellationToken)
-  nameWithType.vb: ErpSyncAgent.DeleteErpSyncConnectorEntityAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.ErpSyncAgent.DeleteErpSyncConnectorEntityAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeleteErpSyncConnectorEntityAsync(Integer, CancellationToken)
+  nameWithType.vb: ErpSyncAgent.New(IErpConnectionImplementation, IErpConnectionDataImplementation, IErpConnectionListMappingContainerImplementation, IErpSyncFieldValueImplementation, IErpSyncActorTypeMappingImplementation, IErpSyncConnectionSummaryImplementation, IErpSyncConnectorEntityImplementation, IErpSyncDefaultValueImplementation, IErpSyncEngineImplementation, IErpSyncEngineStatusImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName.vb: SuperOffice.CRM.Services.ErpSyncAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionDataImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpConnectionListMappingContainerImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncFieldValueImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncActorTypeMappingImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectionSummaryImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncConnectorEntityImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncDefaultValueImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IErpSyncEngineStatusImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name.vb: New(IErpConnectionImplementation, IErpConnectionDataImplementation, IErpConnectionListMappingContainerImplementation, IErpSyncFieldValueImplementation, IErpSyncActorTypeMappingImplementation, IErpSyncConnectionSummaryImplementation, IErpSyncConnectorEntityImplementation, IErpSyncDefaultValueImplementation, IErpSyncEngineImplementation, IErpSyncEngineStatusImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
 - uid: SuperOffice.CRM.Services.ErpSyncAgent.GetConnectionAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ErpSyncAgent.GetConnectionAsync(System.Int32,System.Threading.CancellationToken)
   id: GetConnectionAsync(System.Int32,System.Threading.CancellationToken)
@@ -1458,6 +1367,102 @@ items:
   nameWithType.vb: ErpSyncAgent.GetErpSyncConnectionSummaryAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.ErpSyncAgent.GetErpSyncConnectionSummaryAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetErpSyncConnectionSummaryAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultErpSyncConnectorEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultErpSyncConnectorEntityAsync(CancellationToken)
+  nameWithType: ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new ErpSyncConnectorEntity.
+  example: []
+  syntax:
+    content: public Task<ErpSyncConnectorEntity> CreateDefaultErpSyncConnectorEntityAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ErpSyncConnectorEntity}
+      description: New ErpSyncConnectorEntity with default values
+    content.vb: Public Function CreateDefaultErpSyncConnectorEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of ErpSyncConnectorEntity)
+  overload: SuperOffice.CRM.Services.ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync*
+  implements:
+  - SuperOffice.CRM.Services.IErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.ErpSyncAgent.SaveErpSyncConnectorEntityAsync(SuperOffice.CRM.Services.ErpSyncConnectorEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ErpSyncAgent.SaveErpSyncConnectorEntityAsync(SuperOffice.CRM.Services.ErpSyncConnectorEntity,System.Threading.CancellationToken)
+  id: SaveErpSyncConnectorEntityAsync(SuperOffice.CRM.Services.ErpSyncConnectorEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveErpSyncConnectorEntityAsync(ErpSyncConnectorEntity, CancellationToken)
+  nameWithType: ErpSyncAgent.SaveErpSyncConnectorEntityAsync(ErpSyncConnectorEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ErpSyncAgent.SaveErpSyncConnectorEntityAsync(SuperOffice.CRM.Services.ErpSyncConnectorEntity, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing ErpSyncConnectorEntity or creates a new ErpSyncConnectorEntity if the id parameter is 0.
+  example: []
+  syntax:
+    content: public Task<ErpSyncConnectorEntity> SaveErpSyncConnectorEntityAsync(ErpSyncConnectorEntity erpSyncConnectorEntity, CancellationToken cancellationToken = default)
+    parameters:
+    - id: erpSyncConnectorEntity
+      type: SuperOffice.CRM.Services.ErpSyncConnectorEntity
+      description: The ErpSyncConnectorEntity that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ErpSyncConnectorEntity}
+      description: New or updated ErpSyncConnectorEntity
+    content.vb: Public Function SaveErpSyncConnectorEntityAsync(erpSyncConnectorEntity As ErpSyncConnectorEntity, cancellationToken As CancellationToken = Nothing) As Task(Of ErpSyncConnectorEntity)
+  overload: SuperOffice.CRM.Services.ErpSyncAgent.SaveErpSyncConnectorEntityAsync*
+  implements:
+  - SuperOffice.CRM.Services.IErpSyncAgent.SaveErpSyncConnectorEntityAsync(SuperOffice.CRM.Services.ErpSyncConnectorEntity,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.ErpSyncAgent.DeleteErpSyncConnectorEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ErpSyncAgent.DeleteErpSyncConnectorEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteErpSyncConnectorEntityAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ErpSyncAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteErpSyncConnectorEntityAsync(int, CancellationToken)
+  nameWithType: ErpSyncAgent.DeleteErpSyncConnectorEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ErpSyncAgent.DeleteErpSyncConnectorEntityAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Deletes the ErpSyncConnectorEntity
+  example: []
+  syntax:
+    content: public Task DeleteErpSyncConnectorEntityAsync(int erpSyncConnectorEntityId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: erpSyncConnectorEntityId
+      type: System.Int32
+      description: The identity of the ErpSyncConnectorEntity
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function DeleteErpSyncConnectorEntityAsync(erpSyncConnectorEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ErpSyncAgent.DeleteErpSyncConnectorEntityAsync*
+  implements:
+  - SuperOffice.CRM.Services.IErpSyncAgent.DeleteErpSyncConnectorEntityAsync(System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: ErpSyncAgent.DeleteErpSyncConnectorEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ErpSyncAgent.DeleteErpSyncConnectorEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteErpSyncConnectorEntityAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.ErpSyncAgent.GetErpSyncConnectorEntityAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ErpSyncAgent.GetErpSyncConnectorEntityAsync(System.Int32,System.Threading.CancellationToken)
   id: GetErpSyncConnectorEntityAsync(System.Int32,System.Threading.CancellationToken)
@@ -1482,9 +1487,10 @@ items:
       description: The identifier of the ErpSyncConnectorEntity object
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ErpSyncConnectorEntity}
-      description: ErpSyncConnectorEntity
+      description: A single ErpSyncConnectorEntity
     content.vb: Public Function GetErpSyncConnectorEntityAsync(erpSyncConnectorEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ErpSyncConnectorEntity)
   overload: SuperOffice.CRM.Services.ErpSyncAgent.GetErpSyncConnectorEntityAsync*
   implements:
@@ -2442,41 +2448,77 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
-- uid: SuperOffice.CRM.Services.ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync
+- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
   isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncAgent.html#SuperOffice_CRM_Services_ErpSyncAgent_CreateDefaultErpSyncConnectorEntityAsync_System_Threading_CancellationToken_
-  name: CreateDefaultErpSyncConnectorEntityAsync
-  nameWithType: ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync
-  fullName: SuperOffice.CRM.Services.ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync
-- uid: SuperOffice.CRM.Services.IErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(System.Threading.CancellationToken)
+  name: IScriptingConfiguration
+  nameWithType: ConfigFile.IScriptingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  isExternal: true
+  name: IOnlineConfiguration
+  nameWithType: ConfigFile.IOnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+- uid: SuperOffice.CRM.Services.ErpSyncAgent.GetConnectionAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ErpSyncAgent.GetConnectionAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ErpSyncAgent.html#SuperOffice_CRM_Services_ErpSyncAgent_GetConnectionAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetConnectionAsync
+  nameWithType: ErpSyncAgent.GetConnectionAsync
+  fullName: SuperOffice.CRM.Services.ErpSyncAgent.GetConnectionAsync
+- uid: SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionAsync(System.Int32,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.Services.IErpSyncAgent
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: CreateDefaultErpSyncConnectorEntityAsync(CancellationToken)
-  nameWithType: IErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(System.Threading.CancellationToken)
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: GetConnectionAsync(int, CancellationToken)
+  nameWithType: IErpSyncAgent.GetConnectionAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IErpSyncAgent.GetConnectionAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetConnectionAsync(Integer, CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.CRM.Services.IErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(System.Threading.CancellationToken)
-    name: CreateDefaultErpSyncConnectorEntityAsync
+  - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetConnectionAsync
     isExternal: true
   - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
   spec.vb:
-  - uid: SuperOffice.CRM.Services.IErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(System.Threading.CancellationToken)
-    name: CreateDefaultErpSyncConnectorEntityAsync
+  - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionAsync(System.Int32,System.Threading.CancellationToken)
+    name: GetConnectionAsync
     isExternal: true
   - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.Threading.CancellationToken
   commentId: T:System.Threading.CancellationToken
   parent: System.Threading
@@ -2485,27 +2527,27 @@ references:
   name: CancellationToken
   nameWithType: CancellationToken
   fullName: System.Threading.CancellationToken
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ErpSyncConnectorEntity}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ErpSyncConnectorEntity}
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ErpConnection}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ErpConnection}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
   href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<ErpSyncConnectorEntity>
-  nameWithType: Task<ErpSyncConnectorEntity>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ErpSyncConnectorEntity>
-  nameWithType.vb: Task(Of ErpSyncConnectorEntity)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ErpSyncConnectorEntity)
-  name.vb: Task(Of ErpSyncConnectorEntity)
+  name: Task<ErpConnection>
+  nameWithType: Task<ErpConnection>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ErpConnection>
+  nameWithType.vb: Task(Of ErpConnection)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ErpConnection)
+  name.vb: Task(Of ErpConnection)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - uid: SuperOffice.CRM.Services.ErpSyncConnectorEntity
-    name: ErpSyncConnectorEntity
+  - uid: SuperOffice.CRM.Services.ErpConnection
+    name: ErpConnection
     isExternal: true
-    href: SuperOffice.CRM.Services.ErpSyncConnectorEntity.html
+    href: SuperOffice.CRM.Services.ErpConnection.html
   - name: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
@@ -2515,10 +2557,10 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: SuperOffice.CRM.Services.ErpSyncConnectorEntity
-    name: ErpSyncConnectorEntity
+  - uid: SuperOffice.CRM.Services.ErpConnection
+    name: ErpConnection
     isExternal: true
-    href: SuperOffice.CRM.Services.ErpSyncConnectorEntity.html
+    href: SuperOffice.CRM.Services.ErpConnection.html
   - name: )
 - uid: System.Threading
   commentId: N:System.Threading
@@ -2612,213 +2654,6 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-- uid: SuperOffice.CRM.Services.ErpSyncAgent.SaveErpSyncConnectorEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.ErpSyncAgent.SaveErpSyncConnectorEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncAgent.html#SuperOffice_CRM_Services_ErpSyncAgent_SaveErpSyncConnectorEntityAsync_SuperOffice_CRM_Services_ErpSyncConnectorEntity_System_Threading_CancellationToken_
-  name: SaveErpSyncConnectorEntityAsync
-  nameWithType: ErpSyncAgent.SaveErpSyncConnectorEntityAsync
-  fullName: SuperOffice.CRM.Services.ErpSyncAgent.SaveErpSyncConnectorEntityAsync
-- uid: SuperOffice.CRM.Services.IErpSyncAgent.SaveErpSyncConnectorEntityAsync(SuperOffice.CRM.Services.ErpSyncConnectorEntity,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.SaveErpSyncConnectorEntityAsync(SuperOffice.CRM.Services.ErpSyncConnectorEntity,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IErpSyncAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: SaveErpSyncConnectorEntityAsync(ErpSyncConnectorEntity, CancellationToken)
-  nameWithType: IErpSyncAgent.SaveErpSyncConnectorEntityAsync(ErpSyncConnectorEntity, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.SaveErpSyncConnectorEntityAsync(SuperOffice.CRM.Services.ErpSyncConnectorEntity, System.Threading.CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IErpSyncAgent.SaveErpSyncConnectorEntityAsync(SuperOffice.CRM.Services.ErpSyncConnectorEntity,System.Threading.CancellationToken)
-    name: SaveErpSyncConnectorEntityAsync
-    isExternal: true
-  - name: (
-  - uid: SuperOffice.CRM.Services.ErpSyncConnectorEntity
-    name: ErpSyncConnectorEntity
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IErpSyncAgent.SaveErpSyncConnectorEntityAsync(SuperOffice.CRM.Services.ErpSyncConnectorEntity,System.Threading.CancellationToken)
-    name: SaveErpSyncConnectorEntityAsync
-    isExternal: true
-  - name: (
-  - uid: SuperOffice.CRM.Services.ErpSyncConnectorEntity
-    name: ErpSyncConnectorEntity
-    isExternal: true
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: SuperOffice.CRM.Services.ErpSyncConnectorEntity
-  commentId: T:SuperOffice.CRM.Services.ErpSyncConnectorEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncConnectorEntity.html
-  name: ErpSyncConnectorEntity
-  nameWithType: ErpSyncConnectorEntity
-  fullName: SuperOffice.CRM.Services.ErpSyncConnectorEntity
-- uid: SuperOffice.CRM.Services.ErpSyncAgent.DeleteErpSyncConnectorEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.ErpSyncAgent.DeleteErpSyncConnectorEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncAgent.html#SuperOffice_CRM_Services_ErpSyncAgent_DeleteErpSyncConnectorEntityAsync_System_Int32_System_Threading_CancellationToken_
-  name: DeleteErpSyncConnectorEntityAsync
-  nameWithType: ErpSyncAgent.DeleteErpSyncConnectorEntityAsync
-  fullName: SuperOffice.CRM.Services.ErpSyncAgent.DeleteErpSyncConnectorEntityAsync
-- uid: SuperOffice.CRM.Services.IErpSyncAgent.DeleteErpSyncConnectorEntityAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.DeleteErpSyncConnectorEntityAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IErpSyncAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: DeleteErpSyncConnectorEntityAsync(int, CancellationToken)
-  nameWithType: IErpSyncAgent.DeleteErpSyncConnectorEntityAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.DeleteErpSyncConnectorEntityAsync(int, System.Threading.CancellationToken)
-  nameWithType.vb: IErpSyncAgent.DeleteErpSyncConnectorEntityAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.DeleteErpSyncConnectorEntityAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeleteErpSyncConnectorEntityAsync(Integer, CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IErpSyncAgent.DeleteErpSyncConnectorEntityAsync(System.Int32,System.Threading.CancellationToken)
-    name: DeleteErpSyncConnectorEntityAsync
-    isExternal: true
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IErpSyncAgent.DeleteErpSyncConnectorEntityAsync(System.Int32,System.Threading.CancellationToken)
-    name: DeleteErpSyncConnectorEntityAsync
-    isExternal: true
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
-- uid: System.Threading.Tasks.Task
-  commentId: T:System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: SuperOffice.CRM.Services.ErpSyncAgent.GetConnectionAsync*
-  commentId: Overload:SuperOffice.CRM.Services.ErpSyncAgent.GetConnectionAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.ErpSyncAgent.html#SuperOffice_CRM_Services_ErpSyncAgent_GetConnectionAsync_System_Int32_System_Threading_CancellationToken_
-  name: GetConnectionAsync
-  nameWithType: ErpSyncAgent.GetConnectionAsync
-  fullName: SuperOffice.CRM.Services.ErpSyncAgent.GetConnectionAsync
-- uid: SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IErpSyncAgent
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: GetConnectionAsync(int, CancellationToken)
-  nameWithType: IErpSyncAgent.GetConnectionAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionAsync(int, System.Threading.CancellationToken)
-  nameWithType.vb: IErpSyncAgent.GetConnectionAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionAsync(Integer, System.Threading.CancellationToken)
-  name.vb: GetConnectionAsync(Integer, CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionAsync(System.Int32,System.Threading.CancellationToken)
-    name: GetConnectionAsync
-    isExternal: true
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Services.IErpSyncAgent.GetConnectionAsync(System.Int32,System.Threading.CancellationToken)
-    name: GetConnectionAsync
-    isExternal: true
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ErpConnection}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ErpConnection}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<ErpConnection>
-  nameWithType: Task<ErpConnection>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ErpConnection>
-  nameWithType.vb: Task(Of ErpConnection)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ErpConnection)
-  name.vb: Task(Of ErpConnection)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.ErpConnection
-    name: ErpConnection
-    isExternal: true
-    href: SuperOffice.CRM.Services.ErpConnection.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.ErpConnection
-    name: ErpConnection
-    isExternal: true
-    href: SuperOffice.CRM.Services.ErpConnection.html
-  - name: )
 - uid: SuperOffice.CRM.Services.ErpSyncAgent.SaveConnectionAsync*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncAgent.SaveConnectionAsync
   isExternal: true
@@ -2922,6 +2757,14 @@ references:
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Services.ErpSyncAgent.GetConfigurationFieldsAsync*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncAgent.GetConfigurationFieldsAsync
   isExternal: true
@@ -5262,6 +5105,179 @@ references:
     name: ErpSyncConnectionSummary
     isExternal: true
     href: SuperOffice.CRM.Services.ErpSyncConnectionSummary.html
+  - name: )
+- uid: SuperOffice.CRM.Services.ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ErpSyncAgent.html#SuperOffice_CRM_Services_ErpSyncAgent_CreateDefaultErpSyncConnectorEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultErpSyncConnectorEntityAsync
+  nameWithType: ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync
+  fullName: SuperOffice.CRM.Services.ErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync
+- uid: SuperOffice.CRM.Services.IErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IErpSyncAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CreateDefaultErpSyncConnectorEntityAsync(CancellationToken)
+  nameWithType: IErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(System.Threading.CancellationToken)
+    name: CreateDefaultErpSyncConnectorEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IErpSyncAgent.CreateDefaultErpSyncConnectorEntityAsync(System.Threading.CancellationToken)
+    name: CreateDefaultErpSyncConnectorEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ErpSyncConnectorEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.ErpSyncConnectorEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<ErpSyncConnectorEntity>
+  nameWithType: Task<ErpSyncConnectorEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.ErpSyncConnectorEntity>
+  nameWithType.vb: Task(Of ErpSyncConnectorEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.ErpSyncConnectorEntity)
+  name.vb: Task(Of ErpSyncConnectorEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.ErpSyncConnectorEntity
+    name: ErpSyncConnectorEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.ErpSyncConnectorEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.ErpSyncConnectorEntity
+    name: ErpSyncConnectorEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.ErpSyncConnectorEntity.html
+  - name: )
+- uid: SuperOffice.CRM.Services.ErpSyncAgent.SaveErpSyncConnectorEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ErpSyncAgent.SaveErpSyncConnectorEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ErpSyncAgent.html#SuperOffice_CRM_Services_ErpSyncAgent_SaveErpSyncConnectorEntityAsync_SuperOffice_CRM_Services_ErpSyncConnectorEntity_System_Threading_CancellationToken_
+  name: SaveErpSyncConnectorEntityAsync
+  nameWithType: ErpSyncAgent.SaveErpSyncConnectorEntityAsync
+  fullName: SuperOffice.CRM.Services.ErpSyncAgent.SaveErpSyncConnectorEntityAsync
+- uid: SuperOffice.CRM.Services.IErpSyncAgent.SaveErpSyncConnectorEntityAsync(SuperOffice.CRM.Services.ErpSyncConnectorEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.SaveErpSyncConnectorEntityAsync(SuperOffice.CRM.Services.ErpSyncConnectorEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IErpSyncAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: SaveErpSyncConnectorEntityAsync(ErpSyncConnectorEntity, CancellationToken)
+  nameWithType: IErpSyncAgent.SaveErpSyncConnectorEntityAsync(ErpSyncConnectorEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.SaveErpSyncConnectorEntityAsync(SuperOffice.CRM.Services.ErpSyncConnectorEntity, System.Threading.CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IErpSyncAgent.SaveErpSyncConnectorEntityAsync(SuperOffice.CRM.Services.ErpSyncConnectorEntity,System.Threading.CancellationToken)
+    name: SaveErpSyncConnectorEntityAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.ErpSyncConnectorEntity
+    name: ErpSyncConnectorEntity
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IErpSyncAgent.SaveErpSyncConnectorEntityAsync(SuperOffice.CRM.Services.ErpSyncConnectorEntity,System.Threading.CancellationToken)
+    name: SaveErpSyncConnectorEntityAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.ErpSyncConnectorEntity
+    name: ErpSyncConnectorEntity
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.CRM.Services.ErpSyncConnectorEntity
+  commentId: T:SuperOffice.CRM.Services.ErpSyncConnectorEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.ErpSyncConnectorEntity.html
+  name: ErpSyncConnectorEntity
+  nameWithType: ErpSyncConnectorEntity
+  fullName: SuperOffice.CRM.Services.ErpSyncConnectorEntity
+- uid: SuperOffice.CRM.Services.ErpSyncAgent.DeleteErpSyncConnectorEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ErpSyncAgent.DeleteErpSyncConnectorEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ErpSyncAgent.html#SuperOffice_CRM_Services_ErpSyncAgent_DeleteErpSyncConnectorEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteErpSyncConnectorEntityAsync
+  nameWithType: ErpSyncAgent.DeleteErpSyncConnectorEntityAsync
+  fullName: SuperOffice.CRM.Services.ErpSyncAgent.DeleteErpSyncConnectorEntityAsync
+- uid: SuperOffice.CRM.Services.IErpSyncAgent.DeleteErpSyncConnectorEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IErpSyncAgent.DeleteErpSyncConnectorEntityAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IErpSyncAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: DeleteErpSyncConnectorEntityAsync(int, CancellationToken)
+  nameWithType: IErpSyncAgent.DeleteErpSyncConnectorEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IErpSyncAgent.DeleteErpSyncConnectorEntityAsync(int, System.Threading.CancellationToken)
+  nameWithType.vb: IErpSyncAgent.DeleteErpSyncConnectorEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IErpSyncAgent.DeleteErpSyncConnectorEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteErpSyncConnectorEntityAsync(Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.IErpSyncAgent.DeleteErpSyncConnectorEntityAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteErpSyncConnectorEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.IErpSyncAgent.DeleteErpSyncConnectorEntityAsync(System.Int32,System.Threading.CancellationToken)
+    name: DeleteErpSyncConnectorEntityAsync
+    isExternal: true
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
 - uid: SuperOffice.CRM.Services.ErpSyncAgent.GetErpSyncConnectorEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.ErpSyncAgent.GetErpSyncConnectorEntityAsync

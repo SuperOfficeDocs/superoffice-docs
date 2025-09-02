@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetAppointmentFromUID
 uid: v1AppointmentAgent_GetAppointmentFromUID
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetAppointmentFromUID
@@ -132,11 +133,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentFromUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UID": "at"
+  "UID": "provident"
 }
 ```
 
@@ -151,121 +152,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2000-10-16T03:45:22.9360912+02:00",
-  "AppointmentId": 341,
-  "Description": "Re-contextualized background workforce",
-  "Title": "qui",
-  "Agenda": "nihil",
-  "InternalNotes": "officia",
-  "StartDate": "1998-08-05T03:45:22.9360912+02:00",
-  "EndDate": "2009-07-04T03:45:22.9360912+02:00",
+  "CreatedDate": "2022-01-21T03:46:54.2539+01:00",
+  "AppointmentId": 949,
+  "Description": "Business-focused human-resource definition",
+  "Title": "voluptas",
+  "Agenda": "tenetur",
+  "InternalNotes": "aut",
+  "StartDate": "2018-12-16T03:46:54.2539+01:00",
+  "EndDate": "2017-03-03T03:46:54.2539+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 913,
+  "MotherId": 175,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2000-01-13T03:45:22.9360912+01:00",
+  "UpdatedDate": "2017-10-16T03:46:54.2539+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 561,
+  "ActiveLinks": 201,
   "Links": [
     {
-      "EntityName": "White-Turcotte",
-      "Id": 333,
-      "Description": "Quality-focused dynamic model",
-      "ExtraInfo": "commodi",
-      "LinkId": 399,
+      "EntityName": "Borer-Vandervort",
+      "Id": 498,
+      "Description": "Team-oriented user-facing firmware",
+      "ExtraInfo": "necessitatibus",
+      "LinkId": 586,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 864
+          "FieldLength": 386
         }
       }
     }
   ],
-  "AlarmLeadTime": "sit",
+  "AlarmLeadTime": "hic",
   "HasAlarm": false,
-  "ColorIndex": 35,
-  "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "asperiores",
-  "LeadTime": "qui",
+  "ColorIndex": 706,
+  "IsFree": false,
+  "IsAlldayEvent": true,
+  "LagTime": "et",
+  "LeadTime": "non",
   "Location": "ipsa",
-  "RejectCounter": 965,
+  "RejectCounter": 92,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 498,
-      "PersonId": 551,
-      "ContactId": 606,
-      "EmailId": 233,
-      "SendEmail": true,
+      "AssociateId": 172,
+      "PersonId": 844,
+      "ContactId": 24,
+      "EmailId": 988,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "krista_streich@herman.co.uk",
-      "Description": "Adaptive reciprocal workforce"
+      "EmailAddress": "alexie@goldner.uk",
+      "Description": "Adaptive impactful flexibility"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2014-04-07T03:45:22.9360912+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2016-06-20T03:46:54.2539+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 490,
+  "PreferredTZLocation": 4,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 761,
+  "SuggestedAppointmentId": 839,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "vero",
+  "CentralserviceVideomeetId": "commodi",
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "159431519"
+    "SuperOffice:2": "Jimmy Nienow"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "aperiam"
+    "ExtraFields1": "iure",
+    "ExtraFields2": "ipsa"
   },
   "CustomFields": {
-    "CustomFields1": "aspernatur",
-    "CustomFields2": "velit"
+    "CustomFields1": "atque",
+    "CustomFields2": "odit"
   },
-  "PublishEventDate": "2001-09-30T03:45:22.9360912+02:00",
-  "PublishTo": "2001-08-05T03:45:22.9360912+02:00",
-  "PublishFrom": "1998-04-18T03:45:22.9360912+02:00",
+  "PublishEventDate": "2012-04-07T03:46:54.2539+02:00",
+  "PublishTo": "2004-12-01T03:46:54.2539+01:00",
+  "PublishFrom": "1999-03-20T03:46:54.2539+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 459,
+      "VisibleId": 605,
       "Visibility": "All",
-      "DisplayValue": "dignissimos",
+      "DisplayValue": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 449
+          "FieldType": "System.Int32",
+          "FieldLength": 630
         }
       }
     },
     {
-      "VisibleId": 459,
+      "VisibleId": 605,
       "Visibility": "All",
-      "DisplayValue": "dignissimos",
+      "DisplayValue": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 449
+          "FieldType": "System.Int32",
+          "FieldLength": 630
         }
       }
     }
@@ -275,7 +276,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 879
+      "FieldLength": 157
     }
   }
 }

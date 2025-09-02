@@ -2,6 +2,7 @@
 title: DEL List/{id}/Items
 uid: v1ListItemEntity_DeleteAllFromListDefinition
 generated: true
+content_type: reference
 ---
 
 # DEL List/{id}/Items

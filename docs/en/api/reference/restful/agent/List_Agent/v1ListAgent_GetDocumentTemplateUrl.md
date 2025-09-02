@@ -2,6 +2,7 @@
 title: POST Agents/List/GetDocumentTemplateUrl
 uid: v1ListAgent_GetDocumentTemplateUrl
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetDocumentTemplateUrl
@@ -74,9 +75,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 903,
-  "WritableUrl": false,
-  "LanguageCode": "blanditiis"
+  "DocumentTemplateId": 869,
+  "WritableUrl": true,
+  "LanguageCode": "nobis"
 }
 ```
 

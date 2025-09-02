@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.GetFolderHasNewEMail SOAP
 generated: true
 uid: Services88-EMail-GetFolderHasNewEMail
+content_type: reference
 ---
 
 # Services88 EMail GetFolderHasNewEMail

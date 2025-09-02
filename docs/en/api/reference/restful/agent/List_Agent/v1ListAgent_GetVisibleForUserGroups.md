@@ -2,6 +2,7 @@
 title: POST Agents/List/GetVisibleForUserGroups
 uid: v1ListAgent_GetVisibleForUserGroups
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetVisibleForUserGroups
@@ -88,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 993,
-  "ListItemId": 323
+  "UdListDefinitionId": 191,
+  "ListItemId": 99
 }
 ```
 
@@ -105,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1001,
-    "Name": "Greenfelder-Romaguera",
-    "ToolTip": "At earum qui inventore.",
-    "Deleted": true,
-    "Rank": 308,
-    "Type": "veritatis",
-    "ColorBlock": 694,
-    "IconHint": "possimus",
-    "Selected": false,
-    "LastChanged": "2010-02-06T03:45:23.5298295+01:00",
+    "Id": 321,
+    "Name": "Rempel, Miller and Greenfelder",
+    "ToolTip": "Nobis qui occaecati molestiae soluta cumque impedit.",
+    "Deleted": false,
+    "Rank": 131,
+    "Type": "repudiandae",
+    "ColorBlock": 195,
+    "IconHint": "excepturi",
+    "Selected": true,
+    "LastChanged": "2021-07-26T03:46:54.9882491+02:00",
     "ChildItems": [
       {
-        "Id": 244,
-        "Name": "Gutmann LLC",
-        "ToolTip": "Assumenda libero incidunt non assumenda.",
+        "Id": 664,
+        "Name": "Abshire-Labadie",
+        "ToolTip": "Molestias voluptatem.",
         "Deleted": false,
-        "Rank": 691,
-        "Type": "voluptatem",
-        "ColorBlock": 743,
-        "IconHint": "est",
+        "Rank": 314,
+        "Type": "nobis",
+        "ColorBlock": 496,
+        "IconHint": "veritatis",
         "Selected": false,
-        "LastChanged": "2025-06-11T03:45:23.5298295+02:00",
+        "LastChanged": "2009-06-17T03:46:54.9882491+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "aperiam",
+        "ExtraInfo": "ab",
+        "StyleHint": "natus",
         "Hidden": false,
-        "FullName": "Mr. Mabelle Treutel I",
+        "FullName": "General Corwin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 707
+            "FieldLength": 575
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Miss Sedrick Borer",
+    "ExtraInfo": "sunt",
+    "StyleHint": "consequatur",
+    "Hidden": false,
+    "FullName": "Prof. Elvis Cecil Hintz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 285
+        "FieldType": "System.Int32",
+        "FieldLength": 667
       }
     }
   }

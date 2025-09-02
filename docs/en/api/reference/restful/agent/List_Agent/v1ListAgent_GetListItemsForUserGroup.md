@@ -2,6 +2,7 @@
 title: POST Agents/List/GetListItemsForUserGroup
 uid: v1ListAgent_GetListItemsForUserGroup
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetListItemsForUserGroup
@@ -88,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 812,
-  "GroupId": 771
+  "UdListDefinitionId": 291,
+  "GroupId": 789
 }
 ```
 
@@ -105,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 856,
-    "Name": "Weimann-Casper",
-    "ToolTip": "Eveniet dolorem qui.",
-    "Deleted": true,
-    "Rank": 948,
-    "Type": "optio",
-    "ColorBlock": 201,
-    "IconHint": "aliquid",
-    "Selected": false,
-    "LastChanged": "2013-10-18T03:45:23.5298295+02:00",
+    "Id": 311,
+    "Name": "Kirlin-O'Keefe",
+    "ToolTip": "Iusto quibusdam et qui cupiditate.",
+    "Deleted": false,
+    "Rank": 368,
+    "Type": "a",
+    "ColorBlock": 982,
+    "IconHint": "sint",
+    "Selected": true,
+    "LastChanged": "2000-10-09T03:46:54.9569999+02:00",
     "ChildItems": [
       {
-        "Id": 911,
-        "Name": "Gutkowski-Johnston",
-        "ToolTip": "Possimus placeat laboriosam nulla voluptatibus ut quos.",
+        "Id": 28,
+        "Name": "Pacocha, Abernathy and Marks",
+        "ToolTip": "Enim voluptatibus reiciendis nostrum.",
         "Deleted": false,
-        "Rank": 969,
-        "Type": "non",
-        "ColorBlock": 54,
-        "IconHint": "quo",
+        "Rank": 79,
+        "Type": "iusto",
+        "ColorBlock": 278,
+        "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2023-04-02T03:45:23.5298295+02:00",
+        "LastChanged": "2016-10-27T03:46:54.9569999+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "adipisci",
-        "Hidden": false,
-        "FullName": "Clarissa Williamson",
+        "ExtraInfo": "nihil",
+        "StyleHint": "omnis",
+        "Hidden": true,
+        "FullName": "Elenora Schumm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 325
+            "FieldLength": 322
           }
         }
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Ms. Juwan Ara Emmerich",
+    "ExtraInfo": "qui",
+    "StyleHint": "molestias",
+    "Hidden": true,
+    "FullName": "Ms. Franco Jaskolski V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 213
+        "FieldType": "System.Int32",
+        "FieldLength": 809
       }
     }
   }

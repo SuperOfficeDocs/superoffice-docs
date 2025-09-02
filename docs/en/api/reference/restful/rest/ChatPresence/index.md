@@ -1,6 +1,8 @@
 ---
+uid: tag-ChatPresence
 title: ChatPresence
 generated: true
+content_type: reference
 ---
 
 ```http

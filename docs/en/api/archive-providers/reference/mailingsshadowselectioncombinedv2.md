@@ -3,9 +3,9 @@ uid: MailingsShadowSelectionCombinedV2
 title: MailingsShadowSelectionCombinedV2
 description: Implementation of the provider for the combined selection
 keywords: MailingsShadowSelectionCombinedV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "MailingsShadowSelectionCombinedV2"
@@ -667,7 +667,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowSelectionCombinedV2?$select=mailingAddr/contact/contactAssociate/personId,mailingAddr/person/personAssociate/ejDisplayName,emailFlow/workflowDefinitionStatus,project/registeredDate
+GET /api/v1/archive/MailingsShadowSelectionCombinedV2?$select=mailingAddr/contact/contactSource,mailingAddr/contact/contactPhone/formattedNumber,mailingAddr/contact/streetAddress/line2,mailingAddr/contact/contactAssociate/otherGroups,mailingAddr/person/personAddress/state
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

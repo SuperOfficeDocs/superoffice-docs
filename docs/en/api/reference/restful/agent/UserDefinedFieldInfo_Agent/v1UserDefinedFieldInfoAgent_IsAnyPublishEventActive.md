@@ -2,6 +2,7 @@
 title: POST Agents/UserDefinedFieldInfo/IsAnyPublishEventActive
 uid: v1UserDefinedFieldInfoAgent_IsAnyPublishEventActive
 generated: true
+content_type: reference
 ---
 
 # POST Agents/UserDefinedFieldInfo/IsAnyPublishEventActive
@@ -69,5 +70,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

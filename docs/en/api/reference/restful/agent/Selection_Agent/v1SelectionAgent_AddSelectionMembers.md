@@ -2,6 +2,7 @@
 title: POST Agents/Selection/AddSelectionMembers
 uid: v1SelectionAgent_AddSelectionMembers
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/AddSelectionMembers
@@ -73,10 +74,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 847,
+  "SelectionId": 700,
   "Ids": [
-    160,
-    519
+    89,
+    681
   ]
 }
 ```
@@ -87,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-897
+6
 ```

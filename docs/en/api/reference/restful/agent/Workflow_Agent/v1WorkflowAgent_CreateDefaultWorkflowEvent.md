@@ -2,6 +2,7 @@
 title: POST Agents/Workflow/CreateDefaultWorkflowEvent
 uid: v1WorkflowAgent_CreateDefaultWorkflowEvent
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Workflow/CreateDefaultWorkflowEvent
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowEvent
 ```
 
-Set default values into a new WorkflowEvent.
+Loading default values into a new WorkflowEvent.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -58,7 +57,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -69,13 +68,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EventType": "AddedMessage",
-  "Attributes": "voluptatem",
+  "Attributes": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 185
+      "FieldType": "System.String",
+      "FieldLength": 204
     }
   }
 }

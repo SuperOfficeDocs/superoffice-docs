@@ -2,6 +2,7 @@
 title: Services88.ViewStateAgent.GetHistoriesByNamesAndIds SOAP
 generated: true
 uid: Services88-ViewState-GetHistoriesByNamesAndIds
+content_type: reference
 ---
 
 # Services88 ViewState GetHistoriesByNamesAndIds

@@ -2,6 +2,7 @@
 title: Services88.BLOBAgent.SetProjectImage SOAP
 generated: true
 uid: Services88-BLOB-SetProjectImage
+content_type: reference
 ---
 
 # Services88 BLOB SetProjectImage

@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.DeleteDocumentEntity SOAP
 generated: true
 uid: Services88-Document-DeleteDocumentEntity
+content_type: reference
 ---
 
 # Services88 Document DeleteDocumentEntity

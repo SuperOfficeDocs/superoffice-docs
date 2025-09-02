@@ -2,6 +2,7 @@
 title: GET TicketMessage/CustomField/{fieldName}
 uid: v1TicketMessageEntity_GetCustomFieldInfo
 generated: true
+content_type: reference
 ---
 
 # GET TicketMessage/CustomField/{fieldName}
@@ -83,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Raynor Group",
-  "DisplayName": "Schmeler, Mitchell and Kling",
-  "Description": "Quality-focused bifurcated moderator",
-  "ShortLabel": "ipsam",
+  "FieldName": "Yundt-Gibson",
+  "DisplayName": "Parisian-Considine",
+  "Description": "Persistent content-based hierarchy",
+  "ShortLabel": "in",
   "HideLabel": false,
-  "HideField": false,
+  "HideField": true,
   "IsIndexed": false,
-  "IsMandatory": false,
+  "IsMandatory": true,
   "IsReadOnly": false,
-  "IsExternal": true,
+  "IsExternal": false,
   "IsDisplayField": false,
-  "Rank": 629,
-  "TemplateVariableName": "Maggio LLC"
+  "Rank": 266,
+  "TemplateVariableName": "Frami-Graham"
 }
 ```

@@ -2,6 +2,7 @@
 title: POST Agents/Pocket/SetPushNotificationTagsForDevice
 uid: v1PocketAgent_SetPushNotificationTagsForDevice
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Pocket/SetPushNotificationTagsForDevice
@@ -69,8 +70,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DeviceIdentifier": "nostrum",
-  "Tags": "eligendi"
+  "DeviceIdentifier": "et",
+  "Tags": "consequuntur"
 }
 ```
 

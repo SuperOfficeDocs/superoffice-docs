@@ -2,6 +2,7 @@
 title: PUT Script/{uniqueIdentifier}
 uid: v1Script_SaveCRMScriptByUniqueIdentifier
 generated: true
+content_type: reference
 ---
 
 # PUT Script/{uniqueIdentifier}
@@ -55,6 +56,7 @@ Information about the CRMScript
 | Updated | String | Last updated when  in UTC. |
 | UpdatedBy | String | Who updated this script |
 | Path | String | Path to script in the hierarchy. |
+| BlockedVerbs | String | The verbs that are blocked when calling a ejscript over HTTP |
 
 ## Response:
 
@@ -78,6 +80,7 @@ OK
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedBy | string | Who updated this script |
 | Path | string | Path to script in the hierarchy. |
+| BlockedVerbs | string | The verbs that are blocked when calling a ejscript over HTTP |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -91,16 +94,17 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "et",
-  "Name": "DuBuque, Crona and Mosciski",
-  "Description": "Vision-oriented optimizing forecast",
-  "IncludeId": "atque",
-  "Source": "aspernatur",
-  "Registered": "2002-05-05T03:45:28.8421748+02:00",
+  "UniqueIdentifier": "quidem",
+  "Name": "Watsica, Schuppe and Bailey",
+  "Description": "Function-based bottom-line groupware",
+  "IncludeId": "nemo",
+  "Source": "est",
+  "Registered": "2009-09-20T03:47:00.5036785+02:00",
   "RegisteredBy": "aut",
-  "Updated": "2008-02-06T03:45:28.8421748+01:00",
-  "UpdatedBy": "ab",
-  "Path": "at"
+  "Updated": "2006-04-19T03:47:00.5036785+02:00",
+  "UpdatedBy": "accusantium",
+  "Path": "eveniet",
+  "BlockedVerbs": "BlockAll"
 }
 ```
 
@@ -111,22 +115,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "corrupti",
-  "Name": "Wyman-Shields",
-  "Description": "Re-contextualized user-facing Graphic Interface",
-  "IncludeId": "qui",
-  "Source": "porro",
-  "Registered": "2004-01-31T03:45:28.8421748+01:00",
-  "RegisteredBy": "quis",
-  "Updated": "2007-06-10T03:45:28.8421748+02:00",
-  "UpdatedBy": "earum",
-  "Path": "dolor",
+  "UniqueIdentifier": "incidunt",
+  "Name": "Goodwin-Ryan",
+  "Description": "Digitized actuating hierarchy",
+  "IncludeId": "nostrum",
+  "Source": "aut",
+  "Registered": "2014-05-31T03:47:00.5036785+02:00",
+  "RegisteredBy": "harum",
+  "Updated": "2001-06-08T03:47:00.5036785+02:00",
+  "UpdatedBy": "culpa",
+  "Path": "maiores",
+  "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 802
+      "FieldType": "System.Int32",
+      "FieldLength": 865
     }
   }
 }

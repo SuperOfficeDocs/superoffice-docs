@@ -2,6 +2,7 @@
 title: POST PreferenceDescriptionLine
 uid: v1PreferenceDescriptionLine_PostPreferenceDescriptionLine
 generated: true
+content_type: reference
 ---
 
 # POST PreferenceDescriptionLine
@@ -86,15 +87,15 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 582,
-  "PrefDescId": 462,
-  "PrefValue": "rerum",
-  "PrefShowValue": "sit",
-  "Description": "Devolved full-range task-force",
+  "PrefDescLineId": 182,
+  "PrefDescId": 337,
+  "PrefValue": "enim",
+  "PrefShowValue": "culpa",
+  "Description": "Multi-layered solution-oriented frame",
   "IsBuiltin": false
 }
 ```
@@ -106,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 939,
-  "PrefDescId": 507,
-  "PrefValue": "provident",
-  "PrefShowValue": "fugiat",
-  "Description": "Down-sized 3rd generation synergy",
-  "IsBuiltin": false,
+  "PrefDescLineId": 365,
+  "PrefDescId": 805,
+  "PrefValue": "nihil",
+  "PrefShowValue": "assumenda",
+  "Description": "Streamlined neutral firmware",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 925
+      "FieldLength": 705
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

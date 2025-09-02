@@ -2,6 +2,7 @@
 title: POST Appointment/UdefLayout
 uid: v1AppointmentEntity_AddUdefField
 generated: true
+content_type: reference
 ---
 
 # POST Appointment/UdefLayout
@@ -98,7 +99,7 @@ OK
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 147,
-  "ColumnId": 258,
-  "FieldDefault": "tempore",
-  "FieldHeight": 569,
-  "FieldLabel": "dolor",
-  "FieldLeft": 38,
-  "FieldTop": 58,
+  "UDefFieldId": 580,
+  "ColumnId": 760,
+  "FieldDefault": "aliquam",
+  "FieldHeight": 727,
+  "FieldLabel": "nulla",
+  "FieldLeft": 682,
+  "FieldTop": 716,
   "FieldType": "Checkbox",
-  "FieldWidth": 818,
-  "FormatMask": "sed",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 595,
-  "LabelLeft": 560,
-  "LabelTop": 444,
-  "LabelWidth": 430,
-  "LastVersionId": 961,
-  "ListTableId": 52,
+  "FieldWidth": 842,
+  "FormatMask": "nisi",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 906,
+  "LabelLeft": 246,
+  "LabelTop": 494,
+  "LabelWidth": 15,
+  "LastVersionId": 33,
+  "ListTableId": 654,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 328,
-  "ProgId": "atque",
+  "Page1LineNo": 378,
+  "ProgId": "nisi",
   "IsReadOnly": false,
-  "ShortLabel": "culpa",
-  "TabOrder": 309,
-  "TextLength": 51,
-  "Tooltip": "sunt",
-  "UdefIdentity": 459,
-  "UDListDefinitionId": 644,
+  "ShortLabel": "saepe",
+  "TabOrder": 814,
+  "TextLength": 595,
+  "Tooltip": "voluptas",
+  "UdefIdentity": 512,
+  "UDListDefinitionId": 194,
   "Justification": "Center",
-  "Version": 725,
-  "TemplateVariableName": "Zulauf Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Sauer, Boehm and Collins",
+  "Version": 702,
+  "TemplateVariableName": "Cormier Group",
+  "HasBeenPublished": false,
+  "MdoListName": "Strosin-Bayer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 503
+      "FieldType": "System.String",
+      "FieldLength": 222
     }
   }
 }

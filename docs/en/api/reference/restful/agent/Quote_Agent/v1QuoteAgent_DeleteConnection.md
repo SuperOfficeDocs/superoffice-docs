@@ -2,6 +2,7 @@
 title: POST Agents/Quote/DeleteConnection
 uid: v1QuoteAgent_DeleteConnection
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/DeleteConnection
@@ -68,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 391
+  "QuoteConnectionId": 244
 }
 ```
 

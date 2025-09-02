@@ -2,6 +2,7 @@
 title: GET ForeignApp/{id}
 uid: v1ForeignAppEntity_GetForeignAppEntity
 generated: true
+content_type: reference
 ---
 
 # GET ForeignApp/{id}
@@ -80,7 +81,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,32 +89,32 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 21 Sep 2002 03:45:28 G9T
+Last-Modified: Tue, 09 Jun 2020 03:47:00 G6T
 
 {
-  "ForeignAppId": 797,
-  "Name": "Herzog, Marks and Dibbert",
-  "CreatedDate": "2007-03-29T03:45:28.3578119+02:00",
-  "UpdatedDate": "2002-09-21T03:45:28.3578119+02:00",
+  "ForeignAppId": 337,
+  "Name": "Ferry-Pfeffer",
+  "CreatedDate": "2015-09-05T03:47:00.0193121+02:00",
+  "UpdatedDate": "2020-06-09T03:47:00.0193121+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 626,
-      "Name": "West, Rohan and Lind",
-      "CreatedDate": "2016-01-30T03:45:28.3578119+01:00",
-      "UpdatedDate": "2010-08-12T03:45:28.3578119+02:00",
-      "AssociateFullName": "Kaycee Schaefer",
-      "CreatedBy": "vitae",
-      "UpdatedBy": "nihil",
-      "DeviceIdentifier": "quibusdam",
-      "ForeignAppId": 158,
+      "ForeignDeviceId": 669,
+      "Name": "Schamberger Inc and Sons",
+      "CreatedDate": "2013-05-04T03:47:00.0193121+02:00",
+      "UpdatedDate": "2004-08-19T03:47:00.0193121+02:00",
+      "AssociateFullName": "Ursula Anderson MD",
+      "CreatedBy": "eos",
+      "UpdatedBy": "dolores",
+      "DeviceIdentifier": "ipsam",
+      "ForeignAppId": 996,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 896
+          "FieldLength": 306
         }
       }
     }
@@ -123,7 +124,7 @@ Last-Modified: Sat, 21 Sep 2002 03:45:28 G9T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 314
+      "FieldLength": 923
     }
   },
   "_Links": {

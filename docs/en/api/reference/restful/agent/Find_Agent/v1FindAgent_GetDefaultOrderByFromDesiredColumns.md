@@ -2,6 +2,7 @@
 title: POST Agents/Find/GetDefaultOrderByFromDesiredColumns
 uid: v1FindAgent_GetDefaultOrderByFromDesiredColumns
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/GetDefaultOrderByFromDesiredColumns
@@ -75,14 +76,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Farrell, Emmerich and Towne",
+  "ProviderName": "Senger Group",
   "DesiredColumns": [
-    "voluptate",
-    "hic"
+    "fuga",
+    "doloremque"
   ]
 }
 ```
@@ -95,11 +96,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schulist-Flatley",
+    "Name": "Schinner Inc and Sons",
     "Direction": "ASC"
   },
   {
-    "Name": "Schulist-Flatley",
+    "Name": "Schinner Inc and Sons",
     "Direction": "ASC"
   }
 ]

@@ -2,6 +2,7 @@
 title: Services88.FreeTextAgent.SetSingleWordOperator SOAP
 generated: true
 uid: Services88-FreeText-SetSingleWordOperator
+content_type: reference
 ---
 
 # Services88 FreeText SetSingleWordOperator

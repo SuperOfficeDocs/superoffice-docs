@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.NotifyNewTicket SOAP
 generated: true
 uid: Services88-Ticket-NotifyNewTicket
+content_type: reference
 ---
 
 # Services88 Ticket NotifyNewTicket

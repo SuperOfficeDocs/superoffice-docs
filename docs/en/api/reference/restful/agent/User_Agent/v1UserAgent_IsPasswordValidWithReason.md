@@ -2,6 +2,7 @@
 title: POST Agents/User/IsPasswordValidWithReason
 uid: v1UserAgent_IsPasswordValidWithReason
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/IsPasswordValidWithReason
@@ -79,14 +80,14 @@ OK
 POST /api/v1/Agents/User/IsPasswordValidWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 445,
+  "AssociateId": 374,
   "Type": "AnonymousAssociate",
-  "PersonId": 488,
-  "Password": "exercitationem"
+  "PersonId": 452,
+  "Password": "nihil"
 }
 ```
 
@@ -104,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 665
+      "FieldLength": 290
     }
   }
 }

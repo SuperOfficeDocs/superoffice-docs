@@ -2,6 +2,7 @@
 title: PUT List/ReasonStalled/Items/{id}/UserGroups
 uid: v1ReasonStalledList_PutReasonStalledUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/ReasonStalled/Items/{id}/UserGroups
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 596,
-    "Name": "Frami-Reinger",
-    "ToolTip": "Et aut.",
+    "Id": 210,
+    "Name": "Durgan, O'Keefe and Haley",
+    "ToolTip": "Accusantium odio.",
     "Deleted": false,
-    "Rank": 12,
-    "Type": "quasi",
-    "ColorBlock": 69,
-    "IconHint": "odit",
+    "Rank": 637,
+    "Type": "et",
+    "ColorBlock": 44,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2024-07-30T03:45:29.2171623+02:00",
+    "LastChanged": "2005-10-15T03:47:00.8005429+02:00",
     "ChildItems": [
       {
-        "Id": 977,
-        "Name": "Hyatt, Dickens and Fahey",
-        "ToolTip": "Soluta cumque molestias nihil nam sequi corporis.",
-        "Deleted": true,
-        "Rank": 589,
-        "Type": "et",
-        "ColorBlock": 928,
-        "IconHint": "voluptatem",
+        "Id": 727,
+        "Name": "McKenzie LLC",
+        "ToolTip": "Voluptate dicta.",
+        "Deleted": false,
+        "Rank": 698,
+        "Type": "quidem",
+        "ColorBlock": 124,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2025-02-28T03:45:29.2171623+01:00",
+        "LastChanged": "2011-05-28T03:47:00.8005429+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "fuga",
+        "ExtraInfo": "et",
+        "StyleHint": "laudantium",
         "Hidden": false,
-        "FullName": "Chelsey Crona"
+        "FullName": "Ms. Selmer Douglas I"
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Brian Borer"
+    "ExtraInfo": "sunt",
+    "StyleHint": "non",
+    "Hidden": false,
+    "FullName": "Kaitlin Ratke"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 291,
-    "Name": "Grady LLC",
-    "ToolTip": "Excepturi est error ipsam quasi.",
+    "Id": 10,
+    "Name": "O'Reilly-Weber",
+    "ToolTip": "Laborum non provident voluptatem voluptatem et est.",
     "Deleted": false,
-    "Rank": 322,
-    "Type": "quaerat",
-    "ColorBlock": 26,
-    "IconHint": "repellendus",
+    "Rank": 874,
+    "Type": "tempore",
+    "ColorBlock": 717,
+    "IconHint": "error",
     "Selected": false,
-    "LastChanged": "2003-10-18T03:45:29.2171623+02:00",
+    "LastChanged": "2023-04-30T03:47:00.8005429+02:00",
     "ChildItems": [
       {
-        "Id": 400,
-        "Name": "Stiedemann, Langworth and Dach",
-        "ToolTip": "Ut neque nemo sequi quas praesentium dolor et.",
+        "Id": 223,
+        "Name": "Hammes, Stoltenberg and Schultz",
+        "ToolTip": "Error tenetur ab maiores molestias rem placeat est.",
         "Deleted": false,
-        "Rank": 893,
-        "Type": "enim",
-        "ColorBlock": 633,
-        "IconHint": "sunt",
+        "Rank": 518,
+        "Type": "consectetur",
+        "ColorBlock": 806,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2010-09-10T03:45:29.2171623+02:00",
+        "LastChanged": "2006-05-11T03:47:00.8005429+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "culpa",
+        "ExtraInfo": "dolorum",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Dr. Jessyca Flo Lemke Sr.",
+        "FullName": "Jerad Witting",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 807
+            "FieldLength": 740
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "perferendis",
+    "ExtraInfo": "aut",
+    "StyleHint": "harum",
     "Hidden": true,
-    "FullName": "Marlon Eugenia Stark DVM",
+    "FullName": "Verner Margie Barrows V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 715
+        "FieldLength": 173
       }
     }
   }

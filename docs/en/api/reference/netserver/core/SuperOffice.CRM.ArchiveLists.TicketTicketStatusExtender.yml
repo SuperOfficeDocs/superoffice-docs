@@ -45,6 +45,7 @@ items:
   inheritedMembers:
   - SuperOffice.CRM.ArchiveLists.TicketStatusExtenderBase._colTicketStatusId
   - SuperOffice.CRM.ArchiveLists.TicketStatusExtenderBase._colName
+  - SuperOffice.CRM.ArchiveLists.TicketStatusExtenderBase._colRank
   - SuperOffice.CRM.ArchiveLists.TicketStatusExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.TicketStatusTableInfo}._ourTable
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.TicketStatusTableInfo}.ModifyQuery
@@ -431,6 +432,14 @@ references:
   name: _colName
   nameWithType: TicketStatusExtenderBase._colName
   fullName: SuperOffice.CRM.ArchiveLists.TicketStatusExtenderBase._colName
+- uid: SuperOffice.CRM.ArchiveLists.TicketStatusExtenderBase._colRank
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketStatusExtenderBase._colRank
+  parent: SuperOffice.CRM.ArchiveLists.TicketStatusExtenderBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.TicketStatusExtenderBase.html#SuperOffice_CRM_ArchiveLists_TicketStatusExtenderBase__colRank
+  name: _colRank
+  nameWithType: TicketStatusExtenderBase._colRank
+  fullName: SuperOffice.CRM.ArchiveLists.TicketStatusExtenderBase._colRank
 - uid: SuperOffice.CRM.ArchiveLists.TicketStatusExtenderBase.InnerModifyQuery
   commentId: M:SuperOffice.CRM.ArchiveLists.TicketStatusExtenderBase.InnerModifyQuery
   parent: SuperOffice.CRM.ArchiveLists.TicketStatusExtenderBase

@@ -2,6 +2,7 @@
 title: GET Project/CustomField
 uid: v1ProjectEntity_GetCustomFieldInfoList
 generated: true
+content_type: reference
 ---
 
 # GET Project/CustomField
@@ -68,7 +69,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Toy, Cummings and Harvey",
-    "DisplayName": "Collins, Hand and Kihn",
-    "Description": "Grass-roots web-enabled flexibility",
-    "ShortLabel": "est",
+    "FieldName": "Gerhold, Okuneva and Pacocha",
+    "DisplayName": "Sipes Group",
+    "Description": "Organized interactive archive",
+    "ShortLabel": "ex",
     "HideLabel": true,
     "HideField": false,
     "IsIndexed": true,
     "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": false,
+    "IsReadOnly": true,
+    "IsExternal": true,
     "IsDisplayField": false,
-    "Rank": 410,
-    "TemplateVariableName": "Roberts Group"
+    "Rank": 264,
+    "TemplateVariableName": "Schmitt Inc and Sons"
   }
 ]
 ```

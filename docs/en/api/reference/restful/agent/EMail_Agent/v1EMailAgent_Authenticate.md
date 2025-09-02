@@ -2,6 +2,7 @@
 title: POST Agents/EMail/Authenticate
 uid: v1EMailAgent_Authenticate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/Authenticate
@@ -70,7 +71,7 @@ OK
 POST /api/v1/Agents/EMail/Authenticate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {

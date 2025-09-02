@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetMySyncAppointments
 uid: v1AppointmentAgent_GetMySyncAppointments
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetMySyncAppointments
@@ -101,12 +102,12 @@ OK
 POST /api/v1/Agents/Appointment/GetMySyncAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "1998-08-09T03:45:22.7173512+02:00",
-  "EndTime": "1999-03-17T03:45:22.7173512+01:00"
+  "StartTime": "2008-05-31T03:46:54.0195335+02:00",
+  "EndTime": "2022-11-06T03:46:54.0195335+01:00"
 }
 ```
 
@@ -118,72 +119,72 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AlarmTime": "2019-04-12T03:45:22.7173512+02:00",
-    "AppointmentId": 823,
-    "AppointmentText": "voluptatem",
+    "AlarmTime": "2025-02-15T03:46:54.0195335+01:00",
+    "AppointmentId": 681,
+    "AppointmentText": "ut",
     "ContactDepartment": "",
-    "ContactFullName": "Pearl Farrell",
-    "ContactName": "Watsica, Dietrich and Leuschke",
-    "ContactId": 312,
-    "EndDate": "2014-08-05T03:45:22.7173512+02:00",
+    "ContactFullName": "Miss Axel Baylee Botsford V",
+    "ContactName": "Klocko LLC",
+    "ContactId": 112,
+    "EndDate": "2021-06-02T03:46:54.0195335+02:00",
     "HasAlarm": true,
-    "IsAllDay": false,
+    "IsAllDay": true,
     "IsAssignment": false,
     "IsBusy": false,
-    "IsCompleted": true,
+    "IsCompleted": false,
     "IsInvitation": false,
-    "IsTentative": false,
-    "Location": "itaque",
+    "IsTentative": true,
+    "Location": "perferendis",
     "Participants": [
       {
-        "PersonId": 709,
-        "PersonFirstName": "Lemke-Lowe",
-        "PersonMiddleName": "Wunsch Group",
-        "PersonLastname": "Ullrich",
-        "PersonMrmrs": "deserunt",
-        "PersonTitle": "dolore",
-        "PersonPosition": "libero",
-        "PersonAcademicTitle": "in",
-        "PersonFormalName": "Walsh Group",
-        "PersonFullName": "Freddy Glover",
-        "ContactId": 822,
-        "ContactName": "Kulas, Grady and Blanda",
+        "PersonId": 623,
+        "PersonFirstName": "Hansen, Ebert and Schoen",
+        "PersonMiddleName": "Turner Inc and Sons",
+        "PersonLastname": "Altenwerth",
+        "PersonMrmrs": "autem",
+        "PersonTitle": "molestiae",
+        "PersonPosition": "laboriosam",
+        "PersonAcademicTitle": "minima",
+        "PersonFormalName": "Homenick Inc and Sons",
+        "PersonFullName": "Eliane Abernathy",
+        "ContactId": 413,
+        "ContactName": "Fritsch, Casper and Konopelski",
         "ContactDepartment": "",
         "ContactBusiness": "Information Technology",
         "ContactCountry": "Sokovia",
         "ContactCategory": "VIP Customer",
-        "ContactFullName": "Dr. Jacklyn Heaney IV",
+        "ContactFullName": "Miss Tommie Glenna Koelpin",
         "EMail": [
-          "non",
-          "harum"
+          "consequatur",
+          "est"
         ],
         "PhonePrivate": [
-          "000-632-2747 x41501",
-          "1-556-440-9182"
+          "275.346.0500 x4952",
+          "1-868-086-4834"
         ],
         "PhoneFax": [
-          "(781)013-4888 x143",
-          "668.219.3982"
+          "459.095.1419 x2141",
+          "(246)081-6033"
         ],
         "PhoneMobile": [
-          "(306)304-0237 x00169",
-          "1-053-861-7402 x08048"
+          "989.023.4219",
+          "787-228-6026 x4972"
         ],
         "PhoneDirect": [
-          "952-649-4157 x27106",
-          "(535)469-2140"
+          "1-588-887-6182",
+          "170-341-5124 x62221"
         ],
         "PhoneContact": [
-          "236.450.6115 x901",
-          "308.535.6417 x1294"
+          "790.105.9103",
+          "925.336.6584"
         ],
         "Messenger": [
-          "tempore",
-          "natus"
+          "repellat",
+          "perferendis"
         ],
         "Voip": [
-          "illum",
-          "porro"
+          "non",
+          "eos"
         ],
         "ContactUrl": [
           "http://www.example.com/",
@@ -204,26 +205,26 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 920
+            "FieldLength": 757
           }
         }
       }
     ],
-    "PersonFormalName": "Heller-Dickens",
-    "PersonFullName": "Emilio Stracke",
-    "PersonId": 649,
-    "ProjectId": 602,
-    "ProjectName": "Bogisich Group",
-    "SaleId": 239,
-    "SaleName": "Witting-Ledner",
-    "StartDate": "2010-04-22T03:45:22.7173512+02:00",
-    "TaskName": "Conn-Yundt",
+    "PersonFormalName": "Schumm Inc and Sons",
+    "PersonFullName": "Axel Torrance Hessel DDS",
+    "PersonId": 814,
+    "ProjectId": 327,
+    "ProjectName": "Denesik Inc and Sons",
+    "SaleId": 142,
+    "SaleName": "McKenzie-Hackett",
+    "StartDate": "2005-11-23T03:46:54.0195335+01:00",
+    "TaskName": "Jacobi Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 195
+        "FieldLength": 329
       }
     }
   }

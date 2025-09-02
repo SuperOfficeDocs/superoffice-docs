@@ -2,6 +2,7 @@
 title: Services88.AppointmentAgent.GetNextSuggestedAppointmentBySale SOAP
 generated: true
 uid: Services88-Appointment-GetNextSuggestedAppointmentBySale
+content_type: reference
 ---
 
 # Services88 Appointment GetNextSuggestedAppointmentBySale
@@ -91,6 +92,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Appointment:Deleted xsi:type="xsd:boolean">false</Appointment:Deleted>
      <Appointment:EjUserId xsi:type="xsd:int">0</Appointment:EjUserId>
      <Appointment:UserName xsi:type="xsd:string"></Appointment:UserName>
+     <Appointment:ExtraFields xsi:type="Appointment:StringDictionary">
+      <Appointment:StringKeyValuePair>
+       <Appointment:Key xsi:type="xsd:string"></Appointment:Key>
+       <Appointment:Value xsi:type="xsd:string"></Appointment:Value>
+      </Appointment:StringKeyValuePair>
+     </Appointment:ExtraFields>
+     <Appointment:CustomFields xsi:type="Appointment:StringDictionary">
+      <Appointment:StringKeyValuePair>
+       <Appointment:Key xsi:type="xsd:string"></Appointment:Key>
+       <Appointment:Value xsi:type="xsd:string"></Appointment:Value>
+      </Appointment:StringKeyValuePair>
+     </Appointment:CustomFields>
     </Appointment:Associate>
    </Appointment:Response>
   </Appointment:GetNextSuggestedAppointmentBySaleResponse>

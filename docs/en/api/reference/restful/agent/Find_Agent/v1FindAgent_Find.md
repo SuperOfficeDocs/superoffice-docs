@@ -2,6 +2,7 @@
 title: POST Agents/Find/Find
 uid: v1FindAgent_Find
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/Find
@@ -85,11 +86,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quam",
-  "ProviderName": "Dickinson-Powlowski",
-  "StorageKey": "voluptatibus",
-  "PageSize": 1002,
-  "PageNumber": 973
+  "StorageType": "aspernatur",
+  "ProviderName": "Champlin Group",
+  "StorageKey": "corrupti",
+  "PageSize": 906,
+  "PageNumber": 172
 }
 ```
 
@@ -102,51 +103,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Beatty, Heathcote and Runte",
-      "DisplayTooltip": "doloremque",
-      "DisplayType": "consequuntur",
+      "DisplayName": "Lang, O'Keefe and Hane",
+      "DisplayTooltip": "quas",
+      "DisplayType": "ut",
       "CanOrderBy": false,
-      "Name": "Lubowitz LLC",
-      "CanRestrictBy": true,
-      "RestrictionType": "a",
-      "RestrictionListName": "Wisozk-Kautzer",
+      "Name": "Beahan-Durgan",
+      "CanRestrictBy": false,
+      "RestrictionType": "facilis",
+      "RestrictionListName": "Nader-Bartell",
       "IsVisible": false,
-      "ExtraInfo": "repellat",
-      "Width": "et",
-      "IconHint": "et",
-      "HeadingIconHint": "ducimus"
+      "ExtraInfo": "et",
+      "Width": "recusandae",
+      "IconHint": "aspernatur",
+      "HeadingIconHint": "repellendus"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "O'Conner, Erdman and Auer",
-      "PrimaryKey": 993,
+      "EntityName": "Welch-Adams",
+      "PrimaryKey": 601,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "et",
-          "TooltipHint": "adipisci",
-          "LinkHint": "ipsam"
+          "DisplayValue": "voluptatem",
+          "TooltipHint": "veniam",
+          "LinkHint": "quo"
         }
       },
-      "LinkHint": "ut",
-      "StyleHint": "tempore",
+      "LinkHint": "est",
+      "StyleHint": "necessitatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 646
+          "FieldLength": 791
         }
       }
     }
   ],
-  "RowCount": 410,
+  "RowCount": 400,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldLength": 951
     }
   }
 }

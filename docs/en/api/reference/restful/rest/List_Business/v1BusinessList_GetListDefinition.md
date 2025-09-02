@@ -2,6 +2,7 @@
 title: GET List/Business
 uid: v1BusinessList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/Business
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 80,
-  "Name": "Little-Bernier",
-  "Tooltip": "minima",
+  "Id": 792,
+  "Name": "Mueller Group",
+  "Tooltip": "omnis",
   "Deleted": true,
-  "Rank": 549,
-  "IsCustomList": false,
+  "Rank": 43,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ea",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "est",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 406
+      "FieldLength": 664
     }
   },
   "_Links": {

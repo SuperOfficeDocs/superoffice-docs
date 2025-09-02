@@ -2,6 +2,7 @@
 title: POST Agents/Marketing/CreateDefaultFormSubmissionEntity
 uid: v1MarketingAgent_CreateDefaultFormSubmissionEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Marketing/CreateDefaultFormSubmissionEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Marketing/CreateDefaultFormSubmissionEntity
 ```
 
-Set default values into a new FormSubmissionEntity.
+Loading default values into a new FormSubmissionEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -66,7 +65,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 766,
-  "FormId": 343,
-  "WhenSubmitted": "2019-05-22T03:45:23.6235756+02:00",
-  "ContactId": 523,
-  "PersonId": 964,
-  "EmailAddress": "dean@runolfsson.com",
-  "ResponseShipmentAddrId": 945,
-  "Response": "libero",
+  "FormSubmissionId": 520,
+  "FormId": 35,
+  "WhenSubmitted": "1998-12-02T03:46:55.0038735+01:00",
+  "ContactId": 904,
+  "PersonId": 649,
+  "EmailAddress": "consuelo_terry@osinski.name",
+  "ResponseShipmentAddrId": 209,
+  "Response": "dolor",
   "Status": "EmailVerification",
-  "ProcessingLog": "explicabo",
+  "ProcessingLog": "repudiandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 216
+      "FieldLength": 150
     }
   }
 }

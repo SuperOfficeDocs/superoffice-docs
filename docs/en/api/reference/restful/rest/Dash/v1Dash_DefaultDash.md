@@ -2,6 +2,7 @@
 title: GET Dash/default
 uid: v1Dash_DefaultDash
 generated: true
+content_type: reference
 ---
 
 # GET Dash/default
@@ -79,37 +80,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 794,
-  "UniqueId": "aut",
-  "Name": "Hessel, Conroy and Hammes",
-  "Description": "Polarised demand-driven utilisation",
-  "AssociateId": 704,
-  "Columns": 174,
+  "DashboardId": 761,
+  "UniqueId": "rerum",
+  "Name": "Quigley-Stoltenberg",
+  "Description": "Optional fault-tolerant application",
+  "AssociateId": 484,
+  "Columns": 163,
   "Theme": null,
-  "VisibleForAll": 52,
+  "VisibleForAll": 273,
   "VisibleForAssociates": [
-    508,
-    453
+    734,
+    792
   ],
   "VisibleForGroups": [
-    617,
-    605
+    87,
+    130
   ],
-  "PinForAll": 982,
+  "PinForAll": 158,
   "PinForAssociates": [
-    444,
-    657
+    794,
+    548
   ],
   "PinForGroups": [
-    705,
-    387
+    629,
+    292
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 413
+      "FieldLength": 658
     }
   }
 }

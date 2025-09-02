@@ -2,6 +2,7 @@
 title: POST Agents/Sale/CreateDefaultSaleStakeholder
 uid: v1SaleAgent_CreateDefaultSaleStakeholder
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/CreateDefaultSaleStakeholder
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 ```
 
-Set default values into a new SaleStakeholder.
+Loading default values into a new SaleStakeholder.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -75,7 +74,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Kreiger Group",
-  "Comment": "odio",
-  "StakeholderRoleId": 437,
-  "CountryId": 600,
-  "PersonId": 811,
-  "EmailDescription": "myrna@olson.uk",
-  "EmailId": 596,
-  "EmailAddress": "aisha.kulas@quitzon.info",
-  "PhoneId": 652,
-  "ContactName": "Bechtelar Group",
-  "ContactId": 667,
-  "SaleId": 652,
-  "Mrmrs": "quas",
-  "Firstname": "Uriah",
-  "MiddleName": "Daniel-Reilly",
-  "Lastname": "Grimes",
-  "SaleStakeholderId": 137,
-  "Rank": 514,
-  "Phone": "910-438-0013 x67946",
+  "StakeholderRoleName": "Hodkiewicz, Reinger and Bahringer",
+  "Comment": "cupiditate",
+  "StakeholderRoleId": 27,
+  "CountryId": 475,
+  "PersonId": 105,
+  "EmailDescription": "hildegard.lockman@feil.us",
+  "EmailId": 256,
+  "EmailAddress": "winfield@nitzsche.name",
+  "PhoneId": 727,
+  "ContactName": "Huel, Turcotte and Kling",
+  "ContactId": 81,
+  "SaleId": 72,
+  "Mrmrs": "quo",
+  "Firstname": "Chris",
+  "MiddleName": "Dickinson-Schimmel",
+  "Lastname": "Cartwright",
+  "SaleStakeholderId": 589,
+  "Rank": 679,
+  "Phone": "(372)319-9574",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 422
+      "FieldLength": 15
     }
   }
 }

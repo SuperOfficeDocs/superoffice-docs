@@ -2,6 +2,7 @@
 title: POST Agents/Person/ValidatePersonEntity
 uid: v1PersonAgent_ValidatePersonEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/ValidatePersonEntity
@@ -68,7 +69,7 @@ OK
 POST /api/v1/Agents/Person/ValidatePersonEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -83,7 +84,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "voluptatem",
-  "2": "hic"
+  "1": "iusto",
+  "2": "autem"
 }
 ```

@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-Archive
 title: Services88.ArchiveAgent WSDL
+content_type: reference
 ---
 
 # Services88.ArchiveAgent WSDL

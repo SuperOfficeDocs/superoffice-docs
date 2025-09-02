@@ -2,6 +2,7 @@
 title: Services88.CRMScriptAgent.DeleteCRMScriptEntity SOAP
 generated: true
 uid: Services88-CRMScript-DeleteCRMScriptEntity
+content_type: reference
 ---
 
 # Services88 CRMScript DeleteCRMScriptEntity

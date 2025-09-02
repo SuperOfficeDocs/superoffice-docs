@@ -2,6 +2,7 @@
 title: POST Agents/Saint/GetStatusMonitor
 uid: v1SaintAgent_GetStatusMonitor
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Saint/GetStatusMonitor
@@ -87,11 +88,11 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 32
+  "Id": 627
 }
 ```
 
@@ -102,27 +103,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 397,
-  "Rank": 691,
-  "DefaultTask": 777,
-  "DefaultTaskText": "ut",
-  "IsVisual": true,
-  "LastGenerated": "2020-12-31T03:45:23.8423206+01:00",
-  "Description": "Re-engineered empowering pricing structure",
-  "Name": "Gaylord-Hickle",
-  "StatusMonitorId": 769,
-  "PictureId": 288,
-  "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 419,
-  "NumNeedUpdate": 532,
-  "GenerationStart": "2020-07-14T03:45:23.8423206+02:00",
+  "OwnerTable": 644,
+  "Rank": 519,
+  "DefaultTask": 585,
+  "DefaultTaskText": "quod",
+  "IsVisual": false,
+  "LastGenerated": "2009-02-22T03:46:55.2382402+01:00",
+  "Description": "Grass-roots content-based internet solution",
+  "Name": "Jacobi Group",
+  "StatusMonitorId": 295,
+  "PictureId": 663,
+  "NeedsUpdate": true,
+  "Deleted": true,
+  "NumMatches": 770,
+  "NumNeedUpdate": 50,
+  "GenerationStart": "2000-09-14T03:46:55.2382402+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 89
+      "FieldType": "System.String",
+      "FieldLength": 594
     }
   }
 }

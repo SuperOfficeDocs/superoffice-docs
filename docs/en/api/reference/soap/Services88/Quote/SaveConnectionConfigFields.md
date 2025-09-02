@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.SaveConnectionConfigFields SOAP
 generated: true
 uid: Services88-Quote-SaveConnectionConfigFields
+content_type: reference
 ---
 
 # Services88 Quote SaveConnectionConfigFields

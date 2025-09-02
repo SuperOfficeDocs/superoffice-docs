@@ -2,6 +2,7 @@
 title: GET Person/UdefLayout/Publish
 uid: v1PersonEntity_IsPublishUdefLayoutActive
 generated: true
+content_type: reference
 ---
 
 # GET Person/UdefLayout/Publish
@@ -61,5 +62,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

@@ -2,6 +2,7 @@
 title: GET List/PaymentTerm/MDOItems
 uid: v1PaymentTermsList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/PaymentTerm/MDOItems
@@ -26,8 +27,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=True
-GET /api/v1/List/PaymentTerm/MDOItems?query=asperiores
+GET /api/v1/List/PaymentTerm/MDOItems?flat=False
+GET /api/v1/List/PaymentTerm/MDOItems?query=doloremque
 ```
 
 
@@ -78,7 +79,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 693,
-    "Name": "Murray, Hand and Raynor",
-    "ToolTip": "Facere nam occaecati illum qui.",
-    "Deleted": false,
-    "Rank": 128,
-    "Type": "vero",
+    "Id": 690,
+    "Name": "Prosacco-Lindgren",
+    "ToolTip": "Iste quaerat consectetur numquam laboriosam suscipit qui.",
+    "Deleted": true,
+    "Rank": 946,
+    "Type": "odit",
     "ChildItems": [
       {
-        "Id": 156,
-        "Name": "Hills-Beier",
-        "ToolTip": "Magnam qui ratione quam id.",
-        "Deleted": true,
-        "Rank": 132,
-        "Type": "non",
+        "Id": 190,
+        "Name": "Fisher Inc and Sons",
+        "ToolTip": "Molestiae commodi ut.",
+        "Deleted": false,
+        "Rank": 1000,
+        "Type": "nostrum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 155,
-        "ExtraInfo": "dolorum",
-        "StyleHint": "at",
-        "FullName": "Mr. Douglas Brandyn Hilll",
+        "IconHint": "ut",
+        "ColorBlock": 692,
+        "ExtraInfo": "quasi",
+        "StyleHint": "sed",
+        "FullName": "Georgianna Mann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 282
+            "FieldLength": 966
           }
         }
       }
     ],
-    "IconHint": "magnam",
-    "ColorBlock": 522,
-    "ExtraInfo": "omnis",
-    "StyleHint": "mollitia",
-    "FullName": "Mr. Kristin Martin Pouros V",
+    "IconHint": "non",
+    "ColorBlock": 764,
+    "ExtraInfo": "molestiae",
+    "StyleHint": "non",
+    "FullName": "Brendon Smitham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 233
+        "FieldLength": 80
       }
     }
   }

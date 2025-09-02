@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.DeleteExpired SOAP
 generated: true
 uid: Services88-Person-DeleteExpired
+content_type: reference
 ---
 
 # Services88 Person DeleteExpired

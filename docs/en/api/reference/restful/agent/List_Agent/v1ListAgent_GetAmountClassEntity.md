@@ -2,6 +2,7 @@
 title: POST Agents/List/GetAmountClassEntity
 uid: v1ListAgent_GetAmountClassEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetAmountClassEntity
@@ -22,11 +23,11 @@ Gets a AmountClassEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| amountClassEntityId | int32 | **Required** The primary key. |
+| amountClassEntityId | int32 | **Required** The identifier of the AmountClassEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetAmountClassEntity?amountClassEntityId=460
+POST /api/v1/Agents/List/GetAmountClassEntity?amountClassEntityId=397
 POST /api/v1/Agents/List/GetAmountClassEntity?$select=name,department,category/id
 ```
 
@@ -74,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,20 +85,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 97,
-  "Name": "Monahan, Borer and Glover",
-  "Tooltip": "id",
-  "Rank": 682,
-  "AmountFrom": 17653.822,
-  "AmountTo": 13109.521999999999,
+  "AmountClassId": 477,
+  "Name": "Auer, Boehm and Lynch",
+  "Tooltip": "praesentium",
+  "Rank": 497,
+  "AmountFrom": 777.232,
+  "AmountTo": 18543.878,
   "Deleted": false,
-  "CurrencyId": 322,
+  "CurrencyId": 867,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 638
+      "FieldLength": 165
     }
   }
 }

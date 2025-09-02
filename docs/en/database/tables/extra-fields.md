@@ -2,10 +2,10 @@
 uid: table-extra_fields
 title: extra_fields table
 description: This table contains entries for the extra fields in the system.
-so.generated: true
+generated: true
 keywords: database table extra_fields
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # extra\_fields Table (304)

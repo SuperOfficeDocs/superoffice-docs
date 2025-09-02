@@ -2,6 +2,7 @@
 title: POST List/TicketCategory/Headings
 uid: v1TicketCategoryList_PostTicketCategoryEntityHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/TicketCategory/Headings
@@ -75,16 +76,16 @@ OK
 POST /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 3,
-  "Name": "Trantow-Rempel",
+  "HeadingId": 27,
+  "Name": "Reichel, Effertz and Kris",
   "Tooltip": "et",
   "Deleted": false,
-  "Rank": 765,
-  "UdListDefinitionId": 92
+  "Rank": 84,
+  "UdListDefinitionId": 804
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 493,
-  "Name": "Ferry Group",
-  "Tooltip": "similique",
-  "Deleted": false,
-  "Rank": 396,
-  "UdListDefinitionId": 101,
+  "HeadingId": 4,
+  "Name": "Stracke, Bradtke and McKenzie",
+  "Tooltip": "eum",
+  "Deleted": true,
+  "Rank": 843,
+  "UdListDefinitionId": 608,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 410
+      "FieldLength": 884
     }
   }
 }

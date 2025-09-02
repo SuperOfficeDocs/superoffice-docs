@@ -2,6 +2,7 @@
 title: POST Attachment/CopyFromCRMDocument/{id}
 uid: v1AttachmentEntity_CopyFromCRMDocument
 generated: true
+content_type: reference
 ---
 
 # POST Attachment/CopyFromCRMDocument/{id}
@@ -76,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 310,
-  "Name": "Lang-Cassin",
-  "ContentType": "vero",
-  "AttSize": 585,
+  "AttachmentId": 406,
+  "Name": "Christiansen, Parisian and Spinka",
+  "ContentType": "soluta",
+  "AttSize": 552,
   "InlineImage": false,
-  "ContentId": "aperiam",
-  "AuthKey": "facere",
+  "ContentId": "minus",
+  "AuthKey": "vel",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 56
+      "FieldType": "System.Int32",
+      "FieldLength": 899
     }
   }
 }

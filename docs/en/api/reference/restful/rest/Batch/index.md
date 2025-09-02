@@ -1,6 +1,8 @@
 ---
+uid: tag-Batch
 title: Batch
 generated: true
+content_type: reference
 ---
 
 ```http

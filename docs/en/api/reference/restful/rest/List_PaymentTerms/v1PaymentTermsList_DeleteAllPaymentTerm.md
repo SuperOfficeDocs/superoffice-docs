@@ -2,6 +2,7 @@
 title: DEL List/PaymentTerm/Items
 uid: v1PaymentTermsList_DeleteAllPaymentTerm
 generated: true
+content_type: reference
 ---
 
 # DEL List/PaymentTerm/Items

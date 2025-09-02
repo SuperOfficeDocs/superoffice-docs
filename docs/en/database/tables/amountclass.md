@@ -2,10 +2,10 @@
 uid: table-AmountClass
 title: AmountClass table
 description: Amount Class list for SuperOffice Sales Intelligence (Saint) - used to group sales by amounts, into bins (low --&gt; high) called amount classes. More information regarding SuperOffice Sales Intelligence on http;//techdoc.superoffice.com 
-so.generated: true
+generated: true
 keywords: database table AmountClass
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # AmountClass Table (225)

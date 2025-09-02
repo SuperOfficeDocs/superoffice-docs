@@ -2,6 +2,7 @@
 title: PUT Document/{id}/Content
 uid: v1DocumentEntity_SetDocumentStreamFromId
 generated: true
+content_type: reference
 ---
 
 # PUT Document/{id}/Content
@@ -99,7 +100,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -109,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 312,
+  "DocumentId": 47,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "maxime",
-  "Header": "nihil",
-  "Name": "Weimann LLC",
-  "OurRef": "qui",
-  "YourRef": "voluptatem",
-  "CreatedDate": "2022-04-22T03:45:28.3421873+02:00",
-  "UpdatedDate": "2012-09-21T03:45:28.3421873+02:00",
-  "Description": "Front-line zero defect hub",
+  "Attention": "quidem",
+  "Header": "earum",
+  "Name": "Bechtelar Group",
+  "OurRef": "facere",
+  "YourRef": "itaque",
+  "CreatedDate": "2003-02-19T03:46:59.988068+01:00",
+  "UpdatedDate": "2015-03-08T03:46:59.988068+01:00",
+  "Description": "Persevering fresh-thinking forecast",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2008-03-27T03:45:28.3421873+01:00",
-  "ExternalRef": "ipsam",
+  "Date": "2000-04-12T03:46:59.988068+02:00",
+  "ExternalRef": "quas",
   "Completed": "Completed",
-  "ActiveLinks": 36,
+  "ActiveLinks": 509,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Jakubowski-Hodkiewicz",
-      "Id": 429,
-      "Description": "Self-enabling global knowledge base",
-      "ExtraInfo": "consequatur",
-      "LinkId": 53,
+      "EntityName": "Rolfson, Brown and D'Amore",
+      "Id": 918,
+      "Description": "Customer-focused mobile instruction set",
+      "ExtraInfo": "eius",
+      "LinkId": 617,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 715
+          "FieldLength": 20
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 416,
-  "Snum": 782,
+  "SuggestedDocumentId": 762,
+  "Snum": 925,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "1258215159"
+    "SuperOffice:1": "2087105476",
+    "SuperOffice:2": "Laila Muller"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "porro"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "quasi"
   },
   "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "eos"
+    "CustomFields1": "quia",
+    "CustomFields2": "voluptas"
   },
-  "PublishEventDate": "2019-05-24T03:45:28.3421873+02:00",
-  "PublishTo": "2008-09-09T03:45:28.3421873+02:00",
-  "PublishFrom": "2022-03-29T03:45:28.3421873+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2021-05-03T03:46:59.988068+02:00",
+  "PublishTo": "2016-07-07T03:46:59.988068+02:00",
+  "PublishFrom": "1999-10-20T03:46:59.988068+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 609,
+      "VisibleId": 532,
       "Visibility": "All",
-      "DisplayValue": "at",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 766
+          "FieldType": "System.Int32",
+          "FieldLength": 919
         }
       }
     },
     {
-      "VisibleId": 609,
+      "VisibleId": 532,
       "Visibility": "All",
-      "DisplayValue": "at",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 766
+          "FieldType": "System.Int32",
+          "FieldLength": 919
         }
       }
     }
@@ -200,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 630
+      "FieldLength": 227
     }
   }
 }

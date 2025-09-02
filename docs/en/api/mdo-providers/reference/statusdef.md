@@ -3,9 +3,9 @@ uid: statusdef
 title: statusdef
 keywords: mdoprovider mdo provider statusdef
 description: Return list of status monitors defined in the system. Additional info query parameter = "Contact" or "project".
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "statusdef" MDO List

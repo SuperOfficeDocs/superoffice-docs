@@ -2,6 +2,7 @@
 title: POST Agents/Quote/HasConnections
 uid: v1QuoteAgent_HasConnections
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/HasConnections
@@ -80,9 +81,9 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": false,
-  "UserExplanation": "sapiente",
-  "TechExplanation": "alias",
+  "IsOk": true,
+  "UserExplanation": "ut",
+  "TechExplanation": "veniam",
   "ErrorCode": "est",
   "Changes": null,
   "Status": "Error",
@@ -91,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 120
+      "FieldLength": 711
     }
   }
 }

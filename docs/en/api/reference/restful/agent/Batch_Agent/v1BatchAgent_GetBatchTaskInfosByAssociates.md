@@ -2,6 +2,7 @@
 title: POST Agents/Batch/GetBatchTaskInfosByAssociates
 uid: v1BatchAgent_GetBatchTaskInfosByAssociates
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Batch/GetBatchTaskInfosByAssociates
@@ -99,8 +100,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    143,
-    307
+    920,
+    24
   ]
 }
 ```
@@ -113,30 +114,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 290,
-    "Name": "Corkery-Ankunding",
-    "AssociateId": 632,
-    "DetailsTable": 345,
-    "DetailsRecord": 222,
-    "IsSystemTask": false,
-    "IsInternalTask": true,
+    "Id": 609,
+    "Name": "Runolfsdottir Group",
+    "AssociateId": 79,
+    "DetailsTable": 772,
+    "DetailsRecord": 842,
+    "IsSystemTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "harum",
-      "ParameterObject2": "corporis"
+      "ParameterObject1": "cum",
+      "ParameterObject2": "libero"
     },
-    "LastStarted": "2018-05-23T03:45:22.9829669+02:00",
-    "Created": "2017-01-05T03:45:22.9829669+01:00",
-    "StartCount": 404,
-    "DatabaseSerialNumber": "1377697",
-    "Context": "quam",
-    "Result": "voluptatem",
+    "LastStarted": "2005-04-03T03:46:54.3007673+02:00",
+    "Created": "2022-04-07T03:46:54.3007673+02:00",
+    "StartCount": 956,
+    "DatabaseSerialNumber": "811505",
+    "Context": "illo",
+    "Result": "eum",
     "State": "All",
-    "Description": "Reduced static toolset",
-    "Response": "ut",
-    "Request": "quam",
-    "ProgressDescription": "Networked multi-state hierarchy",
-    "ProgressPercent": 840,
-    "FileName": "McClure, Kub and Hahn",
+    "Description": "Self-enabling tangible project",
+    "Response": "nostrum",
+    "Request": "esse",
+    "ProgressDescription": "Up-sized maximized protocol",
+    "ProgressPercent": 958,
+    "FileName": "Windler-Nienow",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {

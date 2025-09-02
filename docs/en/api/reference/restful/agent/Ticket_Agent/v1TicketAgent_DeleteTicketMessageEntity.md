@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/DeleteTicketMessageEntity
 uid: v1TicketAgent_DeleteTicketMessageEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/DeleteTicketMessageEntity
@@ -68,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 649
+  "TicketMessageEntityId": 4
 }
 ```
 

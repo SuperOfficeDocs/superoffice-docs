@@ -2,6 +2,7 @@
 title: POST Agents/Chat/TransferChatSession
 uid: v1ChatAgent_TransferChatSession
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/TransferChatSession
@@ -106,12 +107,12 @@ OK
 POST /api/v1/Agents/Chat/TransferChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 536,
-  "ToAssociate": "ut"
+  "ChatSessionId": 435,
+  "ToAssociate": "unde"
 }
 ```
 
@@ -122,29 +123,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 946,
-  "TopicId": 317,
+  "ChatSessionId": 576,
+  "TopicId": 345,
   "User": null,
   "Person": null,
-  "CustomerAlias": "vel",
-  "CustomerHost": "placeat",
-  "CustomerName": "Rohan, Gorczany and Klocko",
-  "CustomerEmail": "foster@aufderharvon.co.uk",
-  "CustomerPhone": "1-917-665-1876 x3087",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Lang-Treutel",
+  "CustomerAlias": "voluptate",
+  "CustomerHost": "qui",
+  "CustomerName": "Krajcik-Rath",
+  "CustomerEmail": "kenna.christiansen@berge.info",
+  "CustomerPhone": "(885)684-0238 x3010",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Reynolds-Heaney",
   "Status": "Closed",
-  "FirstMessage": "earum",
-  "LastMessage": "accusamus",
-  "WhenRequested": "2003-08-11T03:45:23.0298416+02:00",
-  "WhenStarted": "1998-12-25T03:45:23.0298416+01:00",
-  "WhenEnded": "2015-10-27T03:45:23.0298416+01:00",
-  "WhenIdle": "2020-07-13T03:45:23.0298416+02:00",
-  "WhenFetched": "1998-05-26T03:45:23.0298416+02:00",
-  "SessionKey": "laudantium",
-  "InitialQueuePos": 918,
-  "AlertLevel": 846,
-  "Rank": 820,
+  "FirstMessage": "in",
+  "LastMessage": "eveniet",
+  "WhenRequested": "2013-01-19T03:46:54.3476466+01:00",
+  "WhenStarted": "2004-02-07T03:46:54.3476466+01:00",
+  "WhenEnded": "2013-04-06T03:46:54.3476466+02:00",
+  "WhenIdle": "2000-09-11T03:46:54.3476466+02:00",
+  "WhenFetched": "2022-12-25T03:46:54.3476466+01:00",
+  "SessionKey": "et",
+  "InitialQueuePos": 257,
+  "AlertLevel": 91,
+  "Rank": 496,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -152,13 +153,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 525,
+  "Rating": 726,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 286
+      "FieldType": "System.Int32",
+      "FieldLength": 677
     }
   }
 }

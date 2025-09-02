@@ -2,6 +2,7 @@
 title: GET List/TicketStatus/Items
 uid: v1TicketStatusList_GetAllTicketStatusEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/TicketStatus/Items
@@ -63,7 +64,7 @@ OK
 GET /api/v1/List/TicketStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,19 +75,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 659,
-    "Name": "Waelchi, Jakubowski and Durgan",
+    "TicketStatusId": 947,
+    "Name": "Jast-Schamberger",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": true,
-    "IsDefault": true,
-    "UsedInQueue": true,
+    "IsDefault": false,
+    "UsedInQueue": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 886
+        "FieldType": "System.String",
+        "FieldLength": 469
       }
     }
   }

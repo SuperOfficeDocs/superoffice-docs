@@ -2,6 +2,7 @@
 title: POST Agents/Dash/CopyTileSelection
 uid: v1DashAgent_CopyTileSelection
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/CopyTileSelection
@@ -72,7 +73,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 567
+  "SelectionId": 183
 }
 ```
 
@@ -82,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-539
+720
 ```

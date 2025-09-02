@@ -2,6 +2,7 @@
 title: POST Agents/Archive/GetArchiveList2
 uid: v1ArchiveAgent_GetArchiveList2
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/GetArchiveList2
@@ -172,13 +173,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Wintheiser-Kreiger",
-  "ProviderName": "Botsford-Hodkiewicz",
-  "SortOrder": "possimus",
-  "Restriction": "totam",
-  "Entities": "ut",
-  "Page": 783,
-  "PageSize": 673
+  "GuiName": "Morissette, Mosciski and Steuber",
+  "ProviderName": "Abernathy-Bergnaum",
+  "SortOrder": "voluptatem",
+  "Restriction": "quos",
+  "Entities": "voluptas",
+  "Page": 824,
+  "PageSize": 514
 }
 ```
 
@@ -190,23 +191,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Kub LLC",
-    "PrimaryKey": 682,
+    "EntityName": "Bins, Bauch and Schumm",
+    "PrimaryKey": 234,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "et",
-        "TooltipHint": "aliquid",
-        "LinkHint": "incidunt"
+        "DisplayValue": "aut",
+        "TooltipHint": "recusandae",
+        "LinkHint": "doloribus"
       }
     },
-    "LinkHint": "dolorem",
-    "StyleHint": "praesentium",
+    "LinkHint": "est",
+    "StyleHint": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 87
+        "FieldLength": 921
       }
     }
   }

@@ -33,6 +33,7 @@ items:
   - SuperOffice.CRM.Data.DBC.BatchTaskDefinition
   - SuperOffice.CRM.Data.DBC.BinaryObject
   - SuperOffice.CRM.Data.DBC.BinaryObjectLink
+  - SuperOffice.CRM.Data.DBC.BoardViewSettings
   - SuperOffice.CRM.Data.DBC.Business
   - SuperOffice.CRM.Data.DBC.BusinessGroupLink
   - SuperOffice.CRM.Data.DBC.BusinessHeadingLink
@@ -522,6 +523,7 @@ items:
   - SuperOffice.CRM.Data.DBC.UserGroupLink
   - SuperOffice.CRM.Data.DBC.UserPreference
   - SuperOffice.CRM.Data.DBC.UserRoleLink
+  - SuperOffice.CRM.Data.DBC.UtmParameters
   - SuperOffice.CRM.Data.DBC.VisibleFor
   - SuperOffice.CRM.Data.DBC.WebAppUsage
   - SuperOffice.CRM.Data.DBC.Webhook
@@ -10938,6 +10940,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const TypicalSearch As String = "TypicalSearch"
+- uid: SuperOffice.CRM.Data.DBC.BoardViewSettings
+  commentId: F:SuperOffice.CRM.Data.DBC.BoardViewSettings
+  id: BoardViewSettings
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: BoardViewSettings
+  nameWithType: DBC.BoardViewSettings
+  fullName: SuperOffice.CRM.Data.DBC.BoardViewSettings
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'BoardViewSettings: Settings for selection board view'
+  example: []
+  syntax:
+    content: public const string BoardViewSettings = "board_view_settings"
+    return:
+      type: System.String
+    content.vb: Public Const BoardViewSettings As String = "board_view_settings"
 - uid: SuperOffice.CRM.Data.DBC.OnlineApp
   commentId: F:SuperOffice.CRM.Data.DBC.OnlineApp
   id: OnlineApp
@@ -11715,6 +11738,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const EntityCounts As String = "EntityCounts"
+- uid: SuperOffice.CRM.Data.DBC.UtmParameters
+  commentId: F:SuperOffice.CRM.Data.DBC.UtmParameters
+  id: UtmParameters
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: UtmParameters
+  nameWithType: DBC.UtmParameters
+  fullName: SuperOffice.CRM.Data.DBC.UtmParameters
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'UtmParameters: Table for utm parameters collected from visits and formsubmissions'
+  example: []
+  syntax:
+    content: public const string UtmParameters = "utm_parameters"
+    return:
+      type: System.String
+    content.vb: Public Const UtmParameters As String = "utm_parameters"
 - uid: SuperOffice.CRM.Data.DBC.TicketType
   commentId: F:SuperOffice.CRM.Data.DBC.TicketType
   id: TicketType

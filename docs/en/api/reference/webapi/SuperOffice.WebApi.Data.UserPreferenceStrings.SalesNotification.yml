@@ -10,6 +10,7 @@ items:
   - SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.NotifyAppointmentChange
   - SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.NotifyAppointmentDecline
   - SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.NotifyAppointmentInvitation
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.NotifyCompanyAssignment
   - SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.Section
   langs:
   - csharp
@@ -158,6 +159,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const NotifyAppointmentAssociateRejected As String = "notifyAppointmentAssociateRejected"
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.NotifyCompanyAssignment
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.NotifyCompanyAssignment
+  id: NotifyCompanyAssignment
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification
+  langs:
+  - csharp
+  - vb
+  name: NotifyCompanyAssignment
+  nameWithType: UserPreferenceStrings.SalesNotification.NotifyCompanyAssignment
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.SalesNotification.NotifyCompanyAssignment
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: (BOOL) Indicates if the user wants notifications when a contact is assigned to them.
+  example: []
+  syntax:
+    content: public const string NotifyCompanyAssignment = "notifyCompanyOwnership"
+    return:
+      type: System.String
+    content.vb: Public Const NotifyCompanyAssignment As String = "notifyCompanyOwnership"
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data

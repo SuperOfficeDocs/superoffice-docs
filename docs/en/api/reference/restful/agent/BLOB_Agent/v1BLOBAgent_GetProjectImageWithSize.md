@@ -2,6 +2,7 @@
 title: POST Agents/BLOB/GetProjectImageWithSize
 uid: v1BLOBAgent_GetProjectImageWithSize
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BLOB/GetProjectImageWithSize
@@ -70,13 +71,13 @@ OK
 POST /api/v1/Agents/BLOB/GetProjectImageWithSize
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 917,
-  "Width": 582,
-  "Height": 828
+  "ProjectId": 806,
+  "Width": 952,
+  "Height": 94
 }
 ```
 

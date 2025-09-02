@@ -2,6 +2,7 @@
 title: Services88.ListAgent.SaveQuickReplies SOAP
 generated: true
 uid: Services88-List-SaveQuickReplies
+content_type: reference
 ---
 
 # Services88 List SaveQuickReplies

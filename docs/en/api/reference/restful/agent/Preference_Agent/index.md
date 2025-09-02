@@ -1,6 +1,8 @@
 ---
+uid: tag-Preference_Agent
 title: Preference_Agent
 generated: true
+content_type: reference
 ---
 
 ```http
@@ -11,18 +13,6 @@ generated: true
 
 
 * [POST Agents/Preference/CreateDefaultPreference](v1PreferenceAgent_CreateDefaultPreference.md)
-
-* [POST Agents/Preference/CreateDefaultPreferenceDescription](v1PreferenceAgent_CreateDefaultPreferenceDescription.md)
-
-* [POST Agents/Preference/SavePreferenceDescription](v1PreferenceAgent_SavePreferenceDescription.md)
-
-* [POST Agents/Preference/DeletePreferenceDescription](v1PreferenceAgent_DeletePreferenceDescription.md)
-
-* [POST Agents/Preference/CreateDefaultPreferenceDescriptionLine](v1PreferenceAgent_CreateDefaultPreferenceDescriptionLine.md)
-
-* [POST Agents/Preference/SavePreferenceDescriptionLine](v1PreferenceAgent_SavePreferenceDescriptionLine.md)
-
-* [POST Agents/Preference/DeletePreferenceDescriptionLine](v1PreferenceAgent_DeletePreferenceDescriptionLine.md)
 
 * [POST Agents/Preference/SavePreference](v1PreferenceAgent_SavePreference.md)
 
@@ -50,6 +40,12 @@ generated: true
 
 * [POST Agents/Preference/SetXsrfPaths](v1PreferenceAgent_SetXsrfPaths.md)
 
+* [POST Agents/Preference/CreateDefaultPreferenceDescription](v1PreferenceAgent_CreateDefaultPreferenceDescription.md)
+
+* [POST Agents/Preference/SavePreferenceDescription](v1PreferenceAgent_SavePreferenceDescription.md)
+
+* [POST Agents/Preference/DeletePreferenceDescription](v1PreferenceAgent_DeletePreferenceDescription.md)
+
 * [POST Agents/Preference/GetPreferenceDescription](v1PreferenceAgent_GetPreferenceDescription.md)
 
 * [POST Agents/Preference/GetFromSectionAndKey](v1PreferenceAgent_GetFromSectionAndKey.md)
@@ -61,6 +57,12 @@ generated: true
 * [POST Agents/Preference/SaveFromSectionAndKey](v1PreferenceAgent_SaveFromSectionAndKey.md)
 
 * [POST Agents/Preference/DeleteFromSectionAndKey](v1PreferenceAgent_DeleteFromSectionAndKey.md)
+
+* [POST Agents/Preference/CreateDefaultPreferenceDescriptionLine](v1PreferenceAgent_CreateDefaultPreferenceDescriptionLine.md)
+
+* [POST Agents/Preference/SavePreferenceDescriptionLine](v1PreferenceAgent_SavePreferenceDescriptionLine.md)
+
+* [POST Agents/Preference/DeletePreferenceDescriptionLine](v1PreferenceAgent_DeletePreferenceDescriptionLine.md)
 
 * [POST Agents/Preference/GetPreferenceDescriptionLine](v1PreferenceAgent_GetPreferenceDescriptionLine.md)
 

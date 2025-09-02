@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.GetTempFile SOAP
 generated: true
 uid: Services88-Document-GetTempFile
+content_type: reference
 ---
 
 # Services88 Document GetTempFile

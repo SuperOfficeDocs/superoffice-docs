@@ -2,6 +2,7 @@
 title: GET List/ReasonSold
 uid: v1ReasonSoldList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/ReasonSold
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 464,
-  "Name": "Schuppe, McCullough and Boyle",
-  "Tooltip": "magni",
+  "Id": 52,
+  "Name": "Bailey, Moore and Breitenberg",
+  "Tooltip": "sint",
   "Deleted": true,
-  "Rank": 391,
+  "Rank": 394,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "neque",
-  "InUseByUserDefinedFields": true,
+  "ListType": "suscipit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 234
+      "FieldType": "System.String",
+      "FieldLength": 825
     }
   },
   "_Links": {

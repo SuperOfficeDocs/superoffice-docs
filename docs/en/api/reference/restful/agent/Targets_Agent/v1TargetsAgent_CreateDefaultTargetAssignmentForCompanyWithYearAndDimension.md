@@ -2,6 +2,7 @@
 title: POST Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 uid: v1TargetsAgent_CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
@@ -86,8 +87,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 632,
-  "TargetDimensionId": 766
+  "Year": 478,
+  "TargetDimensionId": 862
 }
 ```
 
@@ -99,24 +100,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 247,
+    "TargetAssignmentInfoId": 124,
     "Values": [
-      798,
-      112
+      829,
+      687
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 810,
-    "DimensionListItemDisplayName": "D'Amore-Boehm",
+    "DimensionListItem": 901,
+    "DimensionListItemDisplayName": "Wehner, Bashirian and Ziemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 594
+        "FieldLength": 219
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/Saint/SetRankOnStatusMonitors
 uid: v1SaintAgent_SetRankOnStatusMonitors
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Saint/SetRankOnStatusMonitors
@@ -65,14 +66,14 @@ No Content
 POST /api/v1/Agents/Saint/SetRankOnStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "necessitatibus",
+  "Type": "molestiae",
   "ItemsIds": [
-    948,
-    434
+    138,
+    29
   ]
 }
 ```

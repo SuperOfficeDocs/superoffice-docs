@@ -2,6 +2,7 @@
 title: GET List/ProductType/Items/{id}
 uid: v1ProductTypeList_GetProductType
 generated: true
+content_type: reference
 ---
 
 # GET List/ProductType/Items/{id}
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 308,
-  "Name": "Zieme-Bergnaum",
-  "Tooltip": "ut",
+  "Id": 91,
+  "Name": "Fahey Group",
+  "Tooltip": "facere",
   "Deleted": false,
-  "UdListDefinitionId": 993,
-  "Rank": 344,
+  "UdListDefinitionId": 106,
+  "Rank": 80,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 808
+      "FieldType": "System.String",
+      "FieldLength": 418
     }
   }
 }

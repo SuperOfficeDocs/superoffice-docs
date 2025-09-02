@@ -3,9 +3,9 @@ uid: prefdescline
 title: prefdescline
 keywords: mdoprovider mdo provider prefdescline
 description: PrefDesc creates a MDO list of prefdesclines for a given prefdesc id.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "prefdescline" MDO List

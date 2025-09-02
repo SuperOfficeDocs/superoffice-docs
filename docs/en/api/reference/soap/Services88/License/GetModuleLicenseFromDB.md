@@ -2,6 +2,7 @@
 title: Services88.LicenseAgent.GetModuleLicenseFromDB SOAP
 generated: true
 uid: Services88-License-GetModuleLicenseFromDB
+content_type: reference
 ---
 
 # Services88 License GetModuleLicenseFromDB

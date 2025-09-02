@@ -2,6 +2,7 @@
 title: DEL List/ReasonSold/Headings
 uid: v1ReasonSoldList_DeleteReasonSoldHeadings
 generated: true
+content_type: reference
 ---
 
 # DEL List/ReasonSold/Headings
@@ -48,7 +49,7 @@ No Content
 DELETE /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

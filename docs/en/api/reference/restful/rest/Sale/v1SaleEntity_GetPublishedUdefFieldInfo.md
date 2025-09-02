@@ -2,6 +2,7 @@
 title: GET Sale/UdefLayout/Published/{progidOrLabel}
 uid: v1SaleEntity_GetPublishedUdefFieldInfo
 generated: true
+content_type: reference
 ---
 
 # GET Sale/UdefLayout/Published/{progidOrLabel}
@@ -93,7 +94,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +104,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 752,
-  "ColumnId": 211,
-  "FieldDefault": "aspernatur",
-  "FieldHeight": 873,
-  "FieldLabel": "sint",
-  "FieldLeft": 644,
-  "FieldTop": 220,
+  "UDefFieldId": 162,
+  "ColumnId": 230,
+  "FieldDefault": "eum",
+  "FieldHeight": 57,
+  "FieldLabel": "maxime",
+  "FieldLeft": 495,
+  "FieldTop": 292,
   "FieldType": "Checkbox",
-  "FieldWidth": 100,
-  "FormatMask": "quia",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 320,
-  "LabelLeft": 687,
-  "LabelTop": 650,
-  "LabelWidth": 680,
-  "LastVersionId": 74,
-  "ListTableId": 280,
-  "IsMandatory": false,
+  "FieldWidth": 402,
+  "FormatMask": "sint",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 945,
+  "LabelLeft": 954,
+  "LabelTop": 721,
+  "LabelWidth": 729,
+  "LastVersionId": 465,
+  "ListTableId": 298,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 419,
-  "ProgId": "officiis",
+  "Page1LineNo": 679,
+  "ProgId": "quo",
   "IsReadOnly": true,
-  "ShortLabel": "ipsa",
-  "TabOrder": 111,
-  "TextLength": 926,
-  "Tooltip": "rerum",
-  "UdefIdentity": 266,
-  "UDListDefinitionId": 407,
+  "ShortLabel": "excepturi",
+  "TabOrder": 380,
+  "TextLength": 874,
+  "Tooltip": "omnis",
+  "UdefIdentity": 912,
+  "UDListDefinitionId": 81,
   "Justification": "Center",
-  "Version": 420,
-  "TemplateVariableName": "Wiegand-Hammes",
+  "Version": 834,
+  "TemplateVariableName": "Ruecker, Murazik and Herzog",
   "HasBeenPublished": false,
-  "MdoListName": "Hintz LLC",
+  "MdoListName": "Koepp LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 414
+      "FieldLength": 705
     }
   }
 }

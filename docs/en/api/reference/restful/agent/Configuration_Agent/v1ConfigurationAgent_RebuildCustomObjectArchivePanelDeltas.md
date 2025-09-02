@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/RebuildCustomObjectArchivePanelDeltas
 uid: v1ConfigurationAgent_RebuildCustomObjectArchivePanelDeltas
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/RebuildCustomObjectArchivePanelDeltas

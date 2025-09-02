@@ -2,6 +2,7 @@
 title: GET User/current
 uid: v1User_GetCurrentUser
 generated: true
+content_type: reference
 ---
 
 # GET User/current
@@ -91,14 +92,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 705,
-  "Name": "Farrell LLC",
-  "Rank": 241,
-  "Tooltip": "impedit",
+  "AssociateId": 144,
+  "Name": "Mosciski, Bernier and Lehner",
+  "Rank": 218,
+  "Tooltip": "ut",
   "LicenseOwners": [
     {
-      "Name": "Schneider-Tromp",
-      "Description": "De-engineered uniform Graphic Interface",
+      "Name": "Torphy Group",
+      "Description": "Assimilated static leverage",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -112,13 +113,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 641
+          "FieldLength": 129
         }
       }
     },
     {
-      "Name": "Schneider-Tromp",
-      "Description": "De-engineered uniform Graphic Interface",
+      "Name": "Torphy Group",
+      "Description": "Assimilated static leverage",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -132,7 +133,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 641
+          "FieldLength": 129
         }
       }
     }
@@ -141,110 +142,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "earum",
-      "Tooltip": "et",
-      "Id": 685,
-      "Rank": 530,
-      "Deleted": true,
+      "Value": "placeat",
+      "Tooltip": "ad",
+      "Id": 560,
+      "Rank": 387,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 661
+          "FieldType": "System.Int32",
+          "FieldLength": 118
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2003-05-12T03:45:28.8734254+02:00",
-  "Lastlogout": "1998-09-24T03:45:28.8734254+02:00",
-  "EjUserId": 430,
-  "RequestSignature": "aut",
+  "Lastlogin": "2019-08-12T03:47:00.5349272+02:00",
+  "Lastlogout": "2007-07-15T03:47:00.5349272+02:00",
+  "EjUserId": 488,
+  "RequestSignature": "ea",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "dolorem",
-      "DisplayValue": "id",
+      "Value": "iusto",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 995
+          "FieldLength": 428
         }
       }
     },
     {
       "Type": null,
-      "Value": "dolorem",
-      "DisplayValue": "id",
+      "Value": "iusto",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 995
+          "FieldLength": 428
         }
       }
     }
   ],
-  "UserName": "Cummings-Smith",
+  "UserName": "Corwin Group",
   "TicketCategories": [
     {
-      "Id": 668,
-      "Name": "Jones, Kunze and Marks",
-      "ToolTip": "Qui quia.",
-      "Deleted": false,
-      "Rank": 4,
-      "Type": "soluta",
+      "Id": 927,
+      "Name": "Marks, Daniel and Pagac",
+      "ToolTip": "Dicta sit quibusdam et eaque et.",
+      "Deleted": true,
+      "Rank": 704,
+      "Type": "ea",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolorem",
-      "ColorBlock": 174,
-      "ExtraInfo": "voluptas",
-      "StyleHint": "amet",
-      "FullName": "Prof. Dariana Gerlach",
+      "IconHint": "dolor",
+      "ColorBlock": 424,
+      "ExtraInfo": "dolorem",
+      "StyleHint": "quae",
+      "FullName": "Mr. Alanna Albert Cartwright MD",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 782
+        }
+      }
+    }
+  ],
+  "NickName": "Kohler, Bernier and Schmeler",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "esse",
+    "ExtraFields2": "ut"
+  },
+  "CustomFields": {
+    "CustomFields1": "odit",
+    "CustomFields2": "quibusdam"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Bins, Murray and Towne",
+      "DisplayName": "Denesik, Zemlak and Hamill",
+      "Description": "Customizable 4th generation time-frame",
+      "ToolTip": "Temporibus voluptatem tempora.",
+      "Actions": "Implicit",
+      "ActionData": "voluptate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 964
-        }
-      }
-    }
-  ],
-  "NickName": "Watsica Group",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "corporis",
-    "ExtraFields2": "dolore"
-  },
-  "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "voluptates"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Wuckert Group",
-      "DisplayName": "Armstrong-Wolff",
-      "Description": "Public-key contextually-based standardization",
-      "ToolTip": "Quos ipsum porro.",
-      "Actions": "Implicit",
-      "ActionData": "itaque",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 632
+          "FieldLength": 87
         }
       }
     }
@@ -253,8 +254,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 131
+      "FieldType": "System.String",
+      "FieldLength": 82
     }
   }
 }

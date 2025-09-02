@@ -2,10 +2,10 @@
 uid: enum-texttype
 title: Enum values for TextType
 description: Lists the enum values for TextType.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # TextType Enum

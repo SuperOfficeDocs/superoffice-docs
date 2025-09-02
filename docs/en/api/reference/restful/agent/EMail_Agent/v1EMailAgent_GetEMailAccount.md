@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetEMailAccount
 uid: v1EMailAgent_GetEMailAccount
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetEMailAccount
@@ -24,11 +25,11 @@ Gets a EMailAccount object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| eMailAccountId | int32 | **Required** The primary key. |
+| eMailAccountId | int32 | **Required** The identifier of the EMailAccount object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/EMail/GetEMailAccount?eMailAccountId=111
+POST /api/v1/Agents/EMail/GetEMailAccount?eMailAccountId=231
 POST /api/v1/Agents/EMail/GetEMailAccount?$select=name,department,category/id
 ```
 
@@ -80,7 +81,7 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,24 +91,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 611,
-  "EMailAddress": "et",
-  "AssociateId": 332,
+  "EMailAccountId": 239,
+  "EMailAddress": "debitis",
+  "AssociateId": 828,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 378,
-  "ErrorCount": 799,
+  "AccountStatus": 130,
+  "ErrorCount": 489,
   "ErrorReason": "",
-  "InboxFolder": "at",
-  "SentFolder": "aut",
-  "SimpleMode": 756,
-  "LastFetch": "2009-10-22T03:45:23.4048314+02:00",
+  "InboxFolder": "quo",
+  "SentFolder": "incidunt",
+  "SimpleMode": 505,
+  "LastFetch": "2001-07-17T03:46:54.7538824+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldType": "System.String",
+      "FieldLength": 120
     }
   }
 }

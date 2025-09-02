@@ -2,6 +2,7 @@
 title: POST List/PaymentType/Headings
 uid: v1PaymentTypeList_PostPaymentTypeHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/PaymentType/Headings
@@ -79,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 418,
-  "Name": "Treutel Inc and Sons",
-  "Tooltip": "iure",
-  "Deleted": false,
-  "Rank": 743,
-  "UdListDefinitionId": 917
+  "HeadingId": 565,
+  "Name": "Greenfelder-Gottlieb",
+  "Tooltip": "minima",
+  "Deleted": true,
+  "Rank": 179,
+  "UdListDefinitionId": 370
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 928,
-  "Name": "Ruecker-Abshire",
-  "Tooltip": "quo",
+  "HeadingId": 402,
+  "Name": "Konopelski Group",
+  "Tooltip": "est",
   "Deleted": true,
-  "Rank": 52,
-  "UdListDefinitionId": 992,
+  "Rank": 850,
+  "UdListDefinitionId": 675,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 261
+      "FieldLength": 380
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/Selection/GetDuplicates
 uid: v1SelectionAgent_GetDuplicates
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/GetDuplicates
@@ -77,11 +78,11 @@ OK
 POST /api/v1/Agents/Selection/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cummerata, Schumm and Rippin"
+  "Name": "Dibbert Inc and Sons"
 }
 ```
 
@@ -93,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Runte-Bogan",
-    "SoPrimaryKey": 582,
-    "EntryName": "Hegmann, Mann and Raynor",
-    "EntryIdentifier": "earum",
-    "RuleDisplayName": "Wiza-Armstrong",
+    "RuleName": "Wolff, Kshlerin and Turner",
+    "SoPrimaryKey": 294,
+    "EntryName": "Beahan Group",
+    "EntryIdentifier": "eum",
+    "RuleDisplayName": "Stiedemann Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 734
+        "FieldType": "System.String",
+        "FieldLength": 987
       }
     }
   }

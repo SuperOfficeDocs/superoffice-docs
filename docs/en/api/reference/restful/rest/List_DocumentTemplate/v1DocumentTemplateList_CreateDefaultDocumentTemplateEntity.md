@@ -2,6 +2,7 @@
 title: GET List/DocumentTemplate/Items/Default
 uid: v1DocumentTemplateList_CreateDefaultDocumentTemplateEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/DocumentTemplate/Items/Default
@@ -79,7 +80,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,37 +90,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 434,
-  "Name": "Ritchie Group",
-  "Tooltip": "sunt",
-  "SaveInDb": 116,
-  "Filename": "voluptatibus",
-  "DefaultOref": "quas",
+  "DocumentTemplateId": 632,
+  "Name": "Hahn-Johnston",
+  "Tooltip": "commodi",
+  "SaveInDb": 243,
+  "Filename": "numquam",
+  "DefaultOref": "natus",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 286,
-  "IntentId": 154,
+  "AutoeventId": 245,
+  "IntentId": 783,
   "IsDefaultPublished": false,
-  "Rank": 747,
-  "LoadTemplateFromPlugin": 33,
-  "MimeType": "rerum",
+  "Rank": 6,
+  "LoadTemplateFromPlugin": 761,
+  "MimeType": "quam",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 373,
+  "DocumentTypeKey": 198,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "augustus_toy@spinka.uk",
+  "EmailSubject": "alfonso_willms@mueller.us",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "lorena_runolfsdottir@kiehn.ca",
+  "SenderEmailAddress": "jayme_boehm@krisfay.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 830
+      "FieldLength": 620
     }
   }
 }

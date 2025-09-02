@@ -2,6 +2,7 @@
 title: DEL List/ProjectStatus/Items/{id}
 uid: v1ProjectStatusList_DeleteProjectStatus
 generated: true
+content_type: reference
 ---
 
 # DEL List/ProjectStatus/Items/{id}

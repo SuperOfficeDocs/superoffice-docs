@@ -2,6 +2,7 @@
 title: POST Agents/Sale/HasGuide
 uid: v1SaleAgent_HasGuide
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/HasGuide
@@ -68,11 +69,11 @@ OK
 POST /api/v1/Agents/Sale/HasGuide
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 755
+  "SaleId": 114
 }
 ```
 
@@ -82,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

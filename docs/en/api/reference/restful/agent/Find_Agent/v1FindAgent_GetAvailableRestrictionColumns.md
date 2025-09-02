@@ -2,6 +2,7 @@
 title: POST Agents/Find/GetAvailableRestrictionColumns
 uid: v1FindAgent_GetAvailableRestrictionColumns
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/GetAvailableRestrictionColumns
@@ -71,12 +72,12 @@ OK
 POST /api/v1/Agents/Find/GetAvailableRestrictionColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "libero",
-  "ProviderName": "Gerhold Group"
+  "StorageType": "odio",
+  "ProviderName": "Witting, Ankunding and Mayert"
 }
 ```
 
@@ -87,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "dicta",
-  "amet"
+  "impedit",
+  "magni"
 ]
 ```

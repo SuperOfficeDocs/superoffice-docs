@@ -3,9 +3,9 @@ uid: workflowsteptype
 title: workflowsteptype
 keywords: mdoprovider mdo provider workflowsteptype
 description: MDO provider for the WorkflowStepType enum
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "workflowsteptype" MDO List
@@ -50,6 +50,7 @@ foreach (var item in listProvider.RootItems) {
 |6|Update contact|||
 |7|Add to selection/project|||
 |8|Remove from selection/project|||
+|15|Distribute to owner|||
 |9|Create request|||
 |10|Create follow-up|||
 |11|Create sale|||

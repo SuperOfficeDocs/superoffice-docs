@@ -2,6 +2,7 @@
 title: POST Appointment/UdefLayout/Publish
 uid: v1AppointmentEntity_PublishUdefLayout
 generated: true
+content_type: reference
 ---
 
 # POST Appointment/UdefLayout/Publish
@@ -52,7 +53,7 @@ OK
 POST /api/v1/Appointment/UdefLayout/Publish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -61,5 +62,5 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-466
+785
 ```

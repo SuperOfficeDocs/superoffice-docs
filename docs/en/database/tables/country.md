@@ -2,10 +2,10 @@
 uid: table-country
 title: country table
 description: Country information
-so.generated: true
+generated: true
 keywords: database table country
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # country Table (19)

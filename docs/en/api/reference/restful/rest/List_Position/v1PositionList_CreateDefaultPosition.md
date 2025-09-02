@@ -2,6 +2,7 @@
 title: GET List/Position/Items/Default
 uid: v1PositionList_CreateDefaultPosition
 generated: true
+content_type: reference
 ---
 
 # GET List/Position/Items/Default
@@ -60,7 +61,7 @@ OK
 GET /api/v1/List/Position/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 67,
-  "Name": "Cummings LLC",
-  "Tooltip": "tempore",
-  "Deleted": false,
-  "UdListDefinitionId": 952,
-  "Rank": 718,
+  "Id": 950,
+  "Name": "Stehr LLC",
+  "Tooltip": "quia",
+  "Deleted": true,
+  "UdListDefinitionId": 317,
+  "Rank": 827,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 182
+      "FieldType": "System.Int32",
+      "FieldLength": 482
     }
   }
 }

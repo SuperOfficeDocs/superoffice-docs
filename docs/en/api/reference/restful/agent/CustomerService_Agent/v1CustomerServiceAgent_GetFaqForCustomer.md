@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/GetFaqForCustomer
 uid: v1CustomerServiceAgent_GetFaqForCustomer
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/GetFaqForCustomer
@@ -74,7 +75,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FaqEntryId": 373
+  "FaqEntryId": 421
 }
 ```
 
@@ -84,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"aut"
+"similique"
 ```

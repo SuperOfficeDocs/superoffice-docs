@@ -2,6 +2,7 @@
 title: POST ChatSession/{id}/Pickup
 uid: v1ChatSessionEntity_PickUpChatSession
 generated: true
+content_type: reference
 ---
 
 # POST ChatSession/{id}/Pickup
@@ -91,7 +92,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,29 +102,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 437,
-  "TopicId": 674,
+  "ChatSessionId": 808,
+  "TopicId": 89,
   "User": null,
   "Person": null,
-  "CustomerAlias": "debitis",
-  "CustomerHost": "a",
-  "CustomerName": "Senger-McGlynn",
-  "CustomerEmail": "morris_conroy@kutch.ca",
-  "CustomerPhone": "(063)318-0173",
+  "CustomerAlias": "ut",
+  "CustomerHost": "consequatur",
+  "CustomerName": "Blick Group",
+  "CustomerEmail": "jett.daugherty@weissnat.us",
+  "CustomerPhone": "(586)409-5935 x1390",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Greenfelder, Bernhard and Ratke",
+  "CustomerCompanyName": "Morissette-Pouros",
   "Status": "Closed",
-  "FirstMessage": "repudiandae",
-  "LastMessage": "dignissimos",
-  "WhenRequested": "2023-10-18T03:45:28.1390717+02:00",
-  "WhenStarted": "2004-05-17T03:45:28.1390717+02:00",
-  "WhenEnded": "2004-03-21T03:45:28.1390717+01:00",
-  "WhenIdle": "2016-03-02T03:45:28.1390717+01:00",
-  "WhenFetched": "2014-11-20T03:45:28.1390717+01:00",
-  "SessionKey": "molestiae",
-  "InitialQueuePos": 779,
-  "AlertLevel": 776,
-  "Rank": 134,
+  "FirstMessage": "asperiores",
+  "LastMessage": "quam",
+  "WhenRequested": "2017-07-03T03:46:59.7849459+02:00",
+  "WhenStarted": "2016-07-15T03:46:59.7849459+02:00",
+  "WhenEnded": "2007-09-09T03:46:59.7849459+02:00",
+  "WhenIdle": "2020-09-16T03:46:59.7849459+02:00",
+  "WhenFetched": "2000-02-26T03:46:59.7849459+01:00",
+  "SessionKey": "dolores",
+  "InitialQueuePos": 976,
+  "AlertLevel": 373,
+  "Rank": 115,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +132,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 296,
+  "Rating": 520,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 877
+      "FieldLength": 782
     }
   }
 }

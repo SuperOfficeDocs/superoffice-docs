@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.Security
   children:
   - SuperOffice.CRM.Security.EOwnershipIndex.Anonymous
+  - SuperOffice.CRM.Security.EOwnershipIndex.CustomObjects
   - SuperOffice.CRM.Security.EOwnershipIndex.External
   - SuperOffice.CRM.Security.EOwnershipIndex.Group
   - SuperOffice.CRM.Security.EOwnershipIndex.MyCompany
@@ -32,11 +33,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")]
 
       public enum EOwnershipIndex
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")>
 
       Public Enum EOwnershipIndex
   extensionMethods:
@@ -52,7 +53,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.2.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.3.0.0
 - uid: SuperOffice.CRM.Security.EOwnershipIndex.Owner
   commentId: F:SuperOffice.CRM.Security.EOwnershipIndex.Owner
   id: Owner
@@ -398,6 +399,40 @@ items:
       value: System is obsolete
     - type: System.Boolean
       value: true
+- uid: SuperOffice.CRM.Security.EOwnershipIndex.CustomObjects
+  commentId: F:SuperOffice.CRM.Security.EOwnershipIndex.CustomObjects
+  id: CustomObjects
+  parent: SuperOffice.CRM.Security.EOwnershipIndex
+  langs:
+  - csharp
+  - vb
+  name: CustomObjects
+  nameWithType: EOwnershipIndex.CustomObjects
+  fullName: SuperOffice.CRM.Security.EOwnershipIndex.CustomObjects
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM.Security
+  summary: >-
+    Custom objects
+
+    <pre><code class="lang-csharp">value = 10</code></pre>
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      CustomObjects = 10
+    return:
+      type: SuperOffice.CRM.Security.EOwnershipIndex
+    content.vb: >-
+      <EnumMember>
+
+      CustomObjects = 10
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.CRM.Security
   commentId: N:SuperOffice.CRM.Security

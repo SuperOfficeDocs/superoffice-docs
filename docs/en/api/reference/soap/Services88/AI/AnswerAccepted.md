@@ -2,6 +2,7 @@
 title: Services88.AIAgent.AnswerAccepted SOAP
 generated: true
 uid: Services88-AI-AnswerAccepted
+content_type: reference
 ---
 
 # Services88 AI AnswerAccepted

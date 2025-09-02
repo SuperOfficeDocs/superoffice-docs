@@ -3,9 +3,9 @@ uid: salefavourite
 title: salefavourite
 keywords: mdoprovider mdo provider salefavourite
 description: MDO list provider for Favourites
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "salefavourite" MDO List

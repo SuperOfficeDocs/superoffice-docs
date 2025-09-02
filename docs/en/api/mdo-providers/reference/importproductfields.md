@@ -3,9 +3,9 @@ uid: importproductfields
 title: importproductfields
 keywords: mdoprovider mdo provider importproductfields
 description: MDO provider for column headers used in import
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "importproductfields" MDO List

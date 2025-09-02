@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-Chat
 title: Services88.ChatAgent WSDL
+content_type: reference
 ---
 
 # Services88.ChatAgent WSDL
@@ -200,6 +201,8 @@ title: Services88.ChatAgent WSDL
               <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
               <xs:element minOccurs="0" name="EjUserId" type="xs:int" />
               <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="q21:StringDictionary" />
+              <xs:element minOccurs="0" name="CustomFields" nillable="true" type="q21:StringDictionary" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -216,9 +219,27 @@ title: Services88.ChatAgent WSDL
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="UserType" nillable="true" type="q23:UserType" xmlns:q23="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:complexType name="StringDictionary">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="StringKeyValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" nillable="true" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="StringDictionary" nillable="true" type="q24:StringDictionary" xmlns:q24="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Person">
         <xs:complexContent mixed="false">
-          <xs:extension base="q24:Carrier" xmlns:q24="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q25:Carrier" xmlns:q25="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Position" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="PersonId" type="xs:int" />
@@ -265,7 +286,7 @@ title: Services88.ChatAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Person" nillable="true" type="q25:Person" xmlns:q25="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Person" nillable="true" type="q26:Person" xmlns:q26="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="ChatSessionStatus">
         <xs:annotation>
           <xs:appinfo>
@@ -287,7 +308,7 @@ title: Services88.ChatAgent WSDL
           <xs:enumeration value="ClosedFromQueue" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="ChatSessionStatus" nillable="true" type="q26:ChatSessionStatus" xmlns:q26="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ChatSessionStatus" nillable="true" type="q27:ChatSessionStatus" xmlns:q27="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="ChatSessionFlags">
         <xs:annotation>
           <xs:appinfo>
@@ -302,10 +323,10 @@ title: Services88.ChatAgent WSDL
           </xs:simpleType>
         </xs:list>
       </xs:simpleType>
-      <xs:element name="ChatSessionFlags" nillable="true" type="q27:ChatSessionFlags" xmlns:q27="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ChatSessionFlags" nillable="true" type="q28:ChatSessionFlags" xmlns:q28="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Contact">
         <xs:complexContent mixed="false">
-          <xs:extension base="q28:Carrier" xmlns:q28="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q29:Carrier" xmlns:q29="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="ContactId" type="xs:int" />
               <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
@@ -324,7 +345,7 @@ title: Services88.ChatAgent WSDL
               <xs:element minOccurs="0" name="BusinessName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="CategoryName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="CountryName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Address" nillable="true" type="q28:Address" />
+              <xs:element minOccurs="0" name="Address" nillable="true" type="q29:Address" />
               <xs:element minOccurs="0" name="FormattedAddress" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="IsOwnerContact" type="xs:boolean" />
@@ -335,37 +356,37 @@ title: Services88.ChatAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Contact" nillable="true" type="q29:Contact" xmlns:q29="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Contact" nillable="true" type="q30:Contact" xmlns:q30="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Address">
         <xs:complexContent mixed="false">
-          <xs:extension base="q30:Carrier" xmlns:q30="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q31:Carrier" xmlns:q31="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Wgs84Latitude" type="xs:double" />
               <xs:element minOccurs="0" name="Wgs84Longitude" type="xs:double" />
-              <xs:element minOccurs="0" name="LocalizedAddress" nillable="true" type="q30:ArrayOfArrayOfLocalizedField" />
-              <xs:element minOccurs="0" name="Street" nillable="true" type="q30:StructuredAddress" />
-              <xs:element minOccurs="0" name="Postal" nillable="true" type="q30:StructuredAddress" />
+              <xs:element minOccurs="0" name="LocalizedAddress" nillable="true" type="q31:ArrayOfArrayOfLocalizedField" />
+              <xs:element minOccurs="0" name="Street" nillable="true" type="q31:StructuredAddress" />
+              <xs:element minOccurs="0" name="Postal" nillable="true" type="q31:StructuredAddress" />
               <xs:element minOccurs="0" name="Formatted" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Address" nillable="true" type="q31:Address" xmlns:q31="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Address" nillable="true" type="q32:Address" xmlns:q32="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfArrayOfLocalizedField">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ArrayOfLocalizedField" nillable="true" type="q32:ArrayOfLocalizedField" xmlns:q32="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ArrayOfLocalizedField" nillable="true" type="q33:ArrayOfLocalizedField" xmlns:q33="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfArrayOfLocalizedField" nillable="true" type="q33:ArrayOfArrayOfLocalizedField" xmlns:q33="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfArrayOfLocalizedField" nillable="true" type="q34:ArrayOfArrayOfLocalizedField" xmlns:q34="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfLocalizedField">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="LocalizedField" nillable="true" type="q34:LocalizedField" xmlns:q34="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="LocalizedField" nillable="true" type="q35:LocalizedField" xmlns:q35="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfLocalizedField" nillable="true" type="q35:ArrayOfLocalizedField" xmlns:q35="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfLocalizedField" nillable="true" type="q36:ArrayOfLocalizedField" xmlns:q36="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="LocalizedField">
         <xs:complexContent mixed="false">
-          <xs:extension base="q36:Carrier" xmlns:q36="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q37:Carrier" xmlns:q37="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
@@ -377,10 +398,10 @@ title: Services88.ChatAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="LocalizedField" nillable="true" type="q37:LocalizedField" xmlns:q37="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="LocalizedField" nillable="true" type="q38:LocalizedField" xmlns:q38="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="StructuredAddress">
         <xs:sequence>
-          <xs:element minOccurs="0" name="AtypeIdx" type="q38:AddressType" xmlns:q38="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="AtypeIdx" type="q39:AddressType" xmlns:q39="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="Address1" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="Address2" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="Address3" nillable="true" type="xs:string" />
@@ -391,7 +412,7 @@ title: Services88.ChatAgent WSDL
           <xs:element minOccurs="0" name="Formatted" nillable="true" type="xs:string" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="StructuredAddress" nillable="true" type="q39:StructuredAddress" xmlns:q39="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="StructuredAddress" nillable="true" type="q40:StructuredAddress" xmlns:q40="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="AddressType">
         <xs:annotation>
           <xs:appinfo>
@@ -425,10 +446,10 @@ title: Services88.ChatAgent WSDL
           </xs:enumeration>
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="AddressType" nillable="true" type="q40:AddressType" xmlns:q40="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="AddressType" nillable="true" type="q41:AddressType" xmlns:q41="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Project">
         <xs:complexContent mixed="false">
-          <xs:extension base="q41:Carrier" xmlns:q41="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q42:Carrier" xmlns:q42="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
               <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
@@ -452,10 +473,10 @@ title: Services88.ChatAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Project" nillable="true" type="q42:Project" xmlns:q42="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Project" nillable="true" type="q43:Project" xmlns:q43="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Sale">
         <xs:complexContent mixed="false">
-          <xs:extension base="q43:Carrier" xmlns:q43="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q44:Carrier" xmlns:q44="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="ContactName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="SaleDate" type="xs:dateTime" />
@@ -467,7 +488,7 @@ title: Services88.ChatAgent WSDL
               <xs:element minOccurs="0" name="ProjectName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="AssociateFullName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Status" type="q43:SaleStatus" />
+              <xs:element minOccurs="0" name="Status" type="q44:SaleStatus" />
               <xs:element minOccurs="0" name="WeightedAmount" type="xs:double" />
               <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
               <xs:element minOccurs="0" name="EarningPercent" type="xs:double" />
@@ -478,7 +499,7 @@ title: Services88.ChatAgent WSDL
               <xs:element minOccurs="0" name="SaleTypeId" type="xs:int" />
               <xs:element minOccurs="0" name="SaleTypeName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="PersonFullName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Completed" type="q43:ActivityStatus" />
+              <xs:element minOccurs="0" name="Completed" type="q44:ActivityStatus" />
               <xs:element minOccurs="0" name="ActiveErpLinks" type="xs:int" />
               <xs:element minOccurs="0" name="NextDueDate" type="xs:dateTime" />
               <xs:element minOccurs="0" name="Number" nillable="true" type="xs:string" />
@@ -486,7 +507,7 @@ title: Services88.ChatAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Sale" nillable="true" type="q44:Sale" xmlns:q44="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Sale" nillable="true" type="q45:Sale" xmlns:q45="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="SaleStatus">
         <xs:annotation>
           <xs:appinfo>
@@ -508,7 +529,7 @@ title: Services88.ChatAgent WSDL
           </xs:enumeration>
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="SaleStatus" nillable="true" type="q45:SaleStatus" xmlns:q45="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="SaleStatus" nillable="true" type="q46:SaleStatus" xmlns:q46="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="ActivityStatus">
         <xs:restriction base="xs:string">
           <xs:enumeration value="Unknown" />
@@ -517,10 +538,10 @@ title: Services88.ChatAgent WSDL
           <xs:enumeration value="Completed" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="ActivityStatus" nillable="true" type="q46:ActivityStatus" xmlns:q46="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ActivityStatus" nillable="true" type="q47:ActivityStatus" xmlns:q47="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Ticket">
         <xs:complexContent mixed="false">
-          <xs:extension base="q47:Carrier" xmlns:q47="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q48:Carrier" xmlns:q48="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="TicketId" type="xs:int" />
               <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
@@ -542,13 +563,13 @@ title: Services88.ChatAgent WSDL
               <xs:element minOccurs="0" name="Category" type="xs:int" />
               <xs:element minOccurs="0" name="CategoryName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="CategoryFullname" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Slevel" type="q47:TicketSecurityLevel" />
+              <xs:element minOccurs="0" name="Slevel" type="q48:TicketSecurityLevel" />
               <xs:element minOccurs="0" name="Priority" type="xs:int" />
               <xs:element minOccurs="0" name="PriorityName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="BaseStatus" type="q47:TicketBaseStatus" />
+              <xs:element minOccurs="0" name="BaseStatus" type="q48:TicketBaseStatus" />
               <xs:element minOccurs="0" name="TicketStatus" type="xs:int" />
               <xs:element minOccurs="0" name="TicketStatusDisplayValue" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Origin" type="q47:TicketOrigin" />
+              <xs:element minOccurs="0" name="Origin" type="q48:TicketOrigin" />
               <xs:element minOccurs="0" name="CustId" type="xs:int" />
               <xs:element minOccurs="0" name="PersonFirstname" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="PersonMiddleName" nillable="true" type="xs:string" />
@@ -556,7 +577,7 @@ title: Services88.ChatAgent WSDL
               <xs:element minOccurs="0" name="PersonFullname" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="AlertLevel" type="xs:short" />
               <xs:element minOccurs="0" name="ConnectId" type="xs:int" />
-              <xs:element minOccurs="0" name="ReadStatus" type="q47:TicketReadStatus" />
+              <xs:element minOccurs="0" name="ReadStatus" type="q48:TicketReadStatus" />
               <xs:element minOccurs="0" name="TimeToReply" type="xs:int" />
               <xs:element minOccurs="0" name="RealTimeToReply" type="xs:int" />
               <xs:element minOccurs="0" name="TimeToClose" type="xs:int" />
@@ -589,7 +610,7 @@ title: Services88.ChatAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Ticket" nillable="true" type="q48:Ticket" xmlns:q48="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Ticket" nillable="true" type="q49:Ticket" xmlns:q49="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="TicketSecurityLevel">
         <xs:annotation>
           <xs:appinfo>
@@ -602,7 +623,7 @@ title: Services88.ChatAgent WSDL
           <xs:enumeration value="External" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="TicketSecurityLevel" nillable="true" type="q49:TicketSecurityLevel" xmlns:q49="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TicketSecurityLevel" nillable="true" type="q50:TicketSecurityLevel" xmlns:q50="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="TicketBaseStatus">
         <xs:annotation>
           <xs:appinfo>
@@ -674,7 +695,7 @@ title: Services88.ChatAgent WSDL
           </xs:enumeration>
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="TicketBaseStatus" nillable="true" type="q50:TicketBaseStatus" xmlns:q50="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TicketBaseStatus" nillable="true" type="q51:TicketBaseStatus" xmlns:q51="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="TicketOrigin">
         <xs:annotation>
           <xs:appinfo>
@@ -697,7 +718,7 @@ title: Services88.ChatAgent WSDL
           <xs:enumeration value="Form" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="TicketOrigin" nillable="true" type="q51:TicketOrigin" xmlns:q51="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TicketOrigin" nillable="true" type="q52:TicketOrigin" xmlns:q52="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="TicketReadStatus">
         <xs:annotation>
           <xs:appinfo>
@@ -711,7 +732,7 @@ title: Services88.ChatAgent WSDL
           <xs:enumeration value="Red" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="TicketReadStatus" nillable="true" type="q52:TicketReadStatus" xmlns:q52="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TicketReadStatus" nillable="true" type="q53:TicketReadStatus" xmlns:q53="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="SoExceptionInfo">
         <xs:sequence>
           <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
@@ -719,11 +740,11 @@ title: Services88.ChatAgent WSDL
           <xs:element minOccurs="0" name="FriendlyText" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="ExceptionType" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="InnerException" nillable="true" type="q53:SoExceptionInfo" xmlns:q53="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="Parameters" nillable="true" type="q54:SoExceptionInfoParameters" xmlns:q54="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="InnerException" nillable="true" type="q54:SoExceptionInfo" xmlns:q54="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Parameters" nillable="true" type="q55:SoExceptionInfoParameters" xmlns:q55="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="SoExceptionInfo" nillable="true" type="q55:SoExceptionInfo" xmlns:q55="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="SoExceptionInfo" nillable="true" type="q56:SoExceptionInfo" xmlns:q56="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="SoExceptionInfoParameters">
         <xs:annotation>
           <xs:appinfo>
@@ -741,8 +762,8 @@ title: Services88.ChatAgent WSDL
           </xs:element>
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="SoExceptionInfoParameters" nillable="true" type="q56:SoExceptionInfoParameters" xmlns:q56="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-      <xs:element name="ExceptionInfo" nillable="true" type="q57:SoExceptionInfo" xmlns:q57="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="SoExceptionInfoParameters" nillable="true" type="q57:SoExceptionInfoParameters" xmlns:q57="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ExceptionInfo" nillable="true" type="q58:SoExceptionInfo" xmlns:q58="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="SoExtraInfo">
         <xs:annotation>
           <xs:appinfo>
@@ -760,20 +781,20 @@ title: Services88.ChatAgent WSDL
           </xs:element>
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="SoExtraInfo" nillable="true" type="q58:SoExtraInfo" xmlns:q58="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-      <xs:element name="ExtraInfo" nillable="true" type="q59:SoExtraInfo" xmlns:q59="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="SoExtraInfo" nillable="true" type="q59:SoExtraInfo" xmlns:q59="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ExtraInfo" nillable="true" type="q60:SoExtraInfo" xmlns:q60="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="Succeeded" type="xs:boolean" />
       <xs:element name="SaveChatSessionEntity">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ChatSessionEntity" nillable="true" type="q60:ChatSessionEntity" xmlns:q60="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ChatSessionEntity" nillable="true" type="q61:ChatSessionEntity" xmlns:q61="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SaveChatSessionEntityResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q61:ChatSessionEntity" xmlns:q61="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q62:ChatSessionEntity" xmlns:q62="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -797,21 +818,21 @@ title: Services88.ChatAgent WSDL
       <xs:element name="CreateDefaultChatTopicAgentResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q62:ChatTopicAgent" xmlns:q62="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q63:ChatTopicAgent" xmlns:q63="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ChatTopicAgent">
         <xs:sequence>
           <xs:element minOccurs="0" name="TopicId" type="xs:int" />
-          <xs:element minOccurs="0" name="User" nillable="true" type="q63:Associate" xmlns:q63="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="User" nillable="true" type="q64:Associate" xmlns:q64="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="CanListen" type="xs:boolean" />
           <xs:element minOccurs="0" name="CanRespond" type="xs:boolean" />
           <xs:element minOccurs="0" name="CanManage" type="xs:boolean" />
           <xs:element minOccurs="0" name="CanNotify" type="xs:boolean" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ChatTopicAgent" nillable="true" type="q64:ChatTopicAgent" xmlns:q64="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ChatTopicAgent" nillable="true" type="q65:ChatTopicAgent" xmlns:q65="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="CreateDefaultChatTopicEntity">
         <xs:complexType>
           <xs:sequence />
@@ -820,23 +841,23 @@ title: Services88.ChatAgent WSDL
       <xs:element name="CreateDefaultChatTopicEntityResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q65:ChatTopicEntity" xmlns:q65="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q66:ChatTopicEntity" xmlns:q66="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ChatTopicEntity">
         <xs:complexContent mixed="false">
-          <xs:extension base="q66:Carrier" xmlns:q66="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q67:Carrier" xmlns:q67="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="ChatTopicId" type="xs:int" />
               <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="WelcomeMessage" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Language" nillable="true" type="q66:CustomerLanguage" />
+              <xs:element minOccurs="0" name="Language" nillable="true" type="q67:CustomerLanguage" />
               <xs:element minOccurs="0" name="LastAccept" type="xs:dateTime" />
               <xs:element minOccurs="0" name="SecondsPrAccept" type="xs:int" />
               <xs:element minOccurs="0" name="AlertRecipient" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="AlertTemplate" nillable="true" type="q66:ReplyTemplate" />
+              <xs:element minOccurs="0" name="AlertTemplate" nillable="true" type="q67:ReplyTemplate" />
               <xs:element minOccurs="0" name="CollectConsent" type="xs:boolean" />
               <xs:element minOccurs="0" name="BadgeHeader" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="CustomQueueTextEnabled" type="xs:boolean" />
@@ -844,13 +865,13 @@ title: Services88.ChatAgent WSDL
               <xs:element minOccurs="0" name="WarnNewChatMinutes" type="xs:int" />
               <xs:element minOccurs="0" name="WarnManagerNewChatMinutes" type="xs:int" />
               <xs:element minOccurs="0" name="TicketEnabled" type="xs:boolean" />
-              <xs:element minOccurs="0" name="TicketCategory" nillable="true" type="q66:TicketCategory" />
-              <xs:element minOccurs="0" name="TicketPriority" nillable="true" type="q66:TicketPriority" />
+              <xs:element minOccurs="0" name="TicketCategory" nillable="true" type="q67:TicketCategory" />
+              <xs:element minOccurs="0" name="TicketPriority" nillable="true" type="q67:TicketPriority" />
               <xs:element minOccurs="0" name="OpeningHoursEnabled" type="xs:boolean" />
-              <xs:element minOccurs="0" name="OpeningHours" nillable="true" type="q66:ChatOpeningHours" />
-              <xs:element minOccurs="0" name="Widget" nillable="true" type="q66:ChatWidgetSettings" />
+              <xs:element minOccurs="0" name="OpeningHours" nillable="true" type="q67:ChatOpeningHours" />
+              <xs:element minOccurs="0" name="Widget" nillable="true" type="q67:ChatWidgetSettings" />
               <xs:element minOccurs="0" name="BotEnabled" type="xs:boolean" />
-              <xs:element minOccurs="0" name="BotSettings" nillable="true" type="q66:ChatBotSettings" />
+              <xs:element minOccurs="0" name="BotSettings" nillable="true" type="q67:ChatBotSettings" />
               <xs:element minOccurs="0" name="OfflineCollectConsent" type="xs:boolean" />
               <xs:element minOccurs="0" name="WarnChatMessageMinutes" type="xs:int" />
               <xs:element minOccurs="0" name="WarnManagerChatMessageMinutes" type="xs:int" />
@@ -863,10 +884,10 @@ title: Services88.ChatAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ChatTopicEntity" nillable="true" type="q67:ChatTopicEntity" xmlns:q67="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ChatTopicEntity" nillable="true" type="q68:ChatTopicEntity" xmlns:q68="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="CustomerLanguage">
         <xs:complexContent mixed="false">
-          <xs:extension base="q68:Carrier" xmlns:q68="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q69:Carrier" xmlns:q69="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Id" type="xs:int" />
               <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
@@ -875,7 +896,7 @@ title: Services88.ChatAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="CustomerLanguage" nillable="true" type="q69:CustomerLanguage" xmlns:q69="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="CustomerLanguage" nillable="true" type="q70:CustomerLanguage" xmlns:q70="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ReplyTemplate">
         <xs:sequence>
           <xs:element minOccurs="0" name="ReplyTemplateId" type="xs:int" />
@@ -884,10 +905,10 @@ title: Services88.ChatAgent WSDL
           <xs:element minOccurs="0" name="FolderId" type="xs:int" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ReplyTemplate" nillable="true" type="q70:ReplyTemplate" xmlns:q70="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ReplyTemplate" nillable="true" type="q71:ReplyTemplate" xmlns:q71="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="TicketCategory">
         <xs:complexContent mixed="false">
-          <xs:extension base="q71:Carrier" xmlns:q71="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q72:Carrier" xmlns:q72="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Id" type="xs:int" />
               <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
@@ -896,10 +917,10 @@ title: Services88.ChatAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="TicketCategory" nillable="true" type="q72:TicketCategory" xmlns:q72="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TicketCategory" nillable="true" type="q73:TicketCategory" xmlns:q73="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="TicketPriority">
         <xs:complexContent mixed="false">
-          <xs:extension base="q73:Carrier" xmlns:q73="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q74:Carrier" xmlns:q74="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Id" type="xs:int" />
               <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
@@ -908,10 +929,10 @@ title: Services88.ChatAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="TicketPriority" nillable="true" type="q74:TicketPriority" xmlns:q74="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TicketPriority" nillable="true" type="q75:TicketPriority" xmlns:q75="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ChatOpeningHours">
         <xs:sequence>
-          <xs:element minOccurs="0" name="TzLocation" nillable="true" type="q75:TimeZoneData" xmlns:q75="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="TzLocation" nillable="true" type="q76:TimeZoneData" xmlns:q76="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="MonEnabled" type="xs:boolean" />
           <xs:element minOccurs="0" name="MonStart" type="ser:duration" />
           <xs:element minOccurs="0" name="MonStop" type="ser:duration" />
@@ -938,7 +959,7 @@ title: Services88.ChatAgent WSDL
           <xs:element minOccurs="0" name="LunchStop" type="ser:duration" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ChatOpeningHours" nillable="true" type="q76:ChatOpeningHours" xmlns:q76="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ChatOpeningHours" nillable="true" type="q77:ChatOpeningHours" xmlns:q77="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="TimeZoneData">
         <xs:sequence>
           <xs:element minOccurs="0" name="TZLocationID" type="xs:int" />
@@ -946,11 +967,11 @@ title: Services88.ChatAgent WSDL
           <xs:element minOccurs="0" name="TZLocationCode" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="TZLocationCities" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="IsoNumber" type="xs:int" />
-          <xs:element minOccurs="0" name="TimeZoneSTDRules" nillable="true" type="q77:TimeZoneRuleDictionary" xmlns:q77="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="TimeZoneDSTRules" nillable="true" type="q78:TimeZoneRuleDictionary" xmlns:q78="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="TimeZoneSTDRules" nillable="true" type="q78:TimeZoneRuleDictionary" xmlns:q78="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="TimeZoneDSTRules" nillable="true" type="q79:TimeZoneRuleDictionary" xmlns:q79="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="TimeZoneData" nillable="true" type="q79:TimeZoneData" xmlns:q79="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TimeZoneData" nillable="true" type="q80:TimeZoneData" xmlns:q80="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="TimeZoneRuleDictionary">
         <xs:annotation>
           <xs:appinfo>
@@ -962,13 +983,13 @@ title: Services88.ChatAgent WSDL
             <xs:complexType>
               <xs:sequence>
                 <xs:element name="Key" type="xs:dateTime" />
-                <xs:element name="Value" nillable="true" type="q80:TimeZoneRule" xmlns:q80="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+                <xs:element name="Value" nillable="true" type="q81:TimeZoneRule" xmlns:q81="http://www.superoffice.net/ws/crm/NetServer/Services88" />
               </xs:sequence>
             </xs:complexType>
           </xs:element>
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="TimeZoneRuleDictionary" nillable="true" type="q81:TimeZoneRuleDictionary" xmlns:q81="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TimeZoneRuleDictionary" nillable="true" type="q82:TimeZoneRuleDictionary" xmlns:q82="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="TimeZoneRule">
         <xs:sequence>
           <xs:element minOccurs="0" name="TZOffset" type="xs:int" />
@@ -980,21 +1001,21 @@ title: Services88.ChatAgent WSDL
           <xs:element minOccurs="0" name="EndMonth" type="xs:int" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="TimeZoneRule" nillable="true" type="q82:TimeZoneRule" xmlns:q82="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TimeZoneRule" nillable="true" type="q83:TimeZoneRule" xmlns:q83="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ChatWidgetSettings">
         <xs:sequence>
           <xs:element minOccurs="0" name="AutoFaqEnabled" type="xs:boolean" />
-          <xs:element minOccurs="0" name="AutoFaqCategory" nillable="true" type="q83:KbCategory" xmlns:q83="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="AutoFaqCategory" nillable="true" type="q84:KbCategory" xmlns:q84="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="PreFormEnabled" type="xs:boolean" />
           <xs:element minOccurs="0" name="PreFormMessage" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="RequiredFields" type="q84:WidgetRequiredFields" xmlns:q84="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="RequiredFields" type="q85:WidgetRequiredFields" xmlns:q85="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="PostFormEnabled" type="xs:boolean" />
           <xs:element minOccurs="0" name="PostFormHeader" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="PostFormMessage" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="PostTranscriptEnabled" type="xs:boolean" />
           <xs:element minOccurs="0" name="LanguageIsoCode" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="Size" type="q85:ChatWidgetSize" xmlns:q85="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="Theme" type="q86:WidgetTheme" xmlns:q86="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Size" type="q86:ChatWidgetSize" xmlns:q86="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Theme" type="q87:WidgetTheme" xmlns:q87="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="Color" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="BadgeColor" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="BadgeTextColor" nillable="true" type="xs:string" />
@@ -1014,11 +1035,11 @@ title: Services88.ChatAgent WSDL
           <xs:element minOccurs="0" name="WelcomeMessage" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="OfflineHeader" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="OfflineMessage" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="OfflineFields" type="q87:WidgetRequiredFields" xmlns:q87="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="OfflineFields" type="q88:WidgetRequiredFields" xmlns:q88="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="UseAgentFirstname" type="xs:boolean" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ChatWidgetSettings" nillable="true" type="q88:ChatWidgetSettings" xmlns:q88="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ChatWidgetSettings" nillable="true" type="q89:ChatWidgetSettings" xmlns:q89="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="KbCategory">
         <xs:sequence>
           <xs:element minOccurs="0" name="KbCategoryId" type="xs:int" />
@@ -1029,7 +1050,7 @@ title: Services88.ChatAgent WSDL
           <xs:element minOccurs="0" name="SortOrder" type="xs:int" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="KbCategory" nillable="true" type="q89:KbCategory" xmlns:q89="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="KbCategory" nillable="true" type="q90:KbCategory" xmlns:q90="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="WidgetRequiredFields">
         <xs:annotation>
           <xs:appinfo>
@@ -1048,14 +1069,14 @@ title: Services88.ChatAgent WSDL
           </xs:simpleType>
         </xs:list>
       </xs:simpleType>
-      <xs:element name="WidgetRequiredFields" nillable="true" type="q90:WidgetRequiredFields" xmlns:q90="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="WidgetRequiredFields" nillable="true" type="q91:WidgetRequiredFields" xmlns:q91="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="ChatWidgetSize">
         <xs:restriction base="xs:string">
           <xs:enumeration value="Normal" />
           <xs:enumeration value="Large" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="ChatWidgetSize" nillable="true" type="q91:ChatWidgetSize" xmlns:q91="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ChatWidgetSize" nillable="true" type="q92:ChatWidgetSize" xmlns:q92="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="WidgetTheme">
         <xs:annotation>
           <xs:appinfo>
@@ -1067,7 +1088,7 @@ title: Services88.ChatAgent WSDL
           <xs:enumeration value="Modern" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="WidgetTheme" nillable="true" type="q92:WidgetTheme" xmlns:q92="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="WidgetTheme" nillable="true" type="q93:WidgetTheme" xmlns:q93="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ChatBotSettings">
         <xs:sequence>
           <xs:element minOccurs="0" name="BotName" nillable="true" type="xs:string" />
@@ -1077,18 +1098,18 @@ title: Services88.ChatAgent WSDL
           <xs:element minOccurs="0" name="BotMessageReceivedScriptId" type="xs:int" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ChatBotSettings" nillable="true" type="q93:ChatBotSettings" xmlns:q93="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ChatBotSettings" nillable="true" type="q94:ChatBotSettings" xmlns:q94="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="SaveChatTopicEntity">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ChatTopicEntity" nillable="true" type="q94:ChatTopicEntity" xmlns:q94="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ChatTopicEntity" nillable="true" type="q95:ChatTopicEntity" xmlns:q95="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="SaveChatTopicEntityResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q95:ChatTopicEntity" xmlns:q95="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q96:ChatTopicEntity" xmlns:q96="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1112,34 +1133,34 @@ title: Services88.ChatAgent WSDL
       <xs:element name="GetChatPresenceResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q96:ArrayOfChatPresence" xmlns:q96="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q97:ArrayOfChatPresence" xmlns:q97="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfChatPresence">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ChatPresence" nillable="true" type="q97:ChatPresence" xmlns:q97="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ChatPresence" nillable="true" type="q98:ChatPresence" xmlns:q98="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfChatPresence" nillable="true" type="q98:ArrayOfChatPresence" xmlns:q98="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfChatPresence" nillable="true" type="q99:ArrayOfChatPresence" xmlns:q99="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ChatPresence">
         <xs:complexContent mixed="false">
-          <xs:extension base="q99:Carrier" xmlns:q99="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q100:Carrier" xmlns:q100="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="UserId" type="xs:int" />
               <xs:element minOccurs="0" name="DisplayName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="OngoingChats" type="xs:int" />
               <xs:element minOccurs="0" name="Present" type="xs:boolean" />
-              <xs:element minOccurs="0" name="ChatTopics" nillable="true" type="q100:ArrayOfint" xmlns:q100="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+              <xs:element minOccurs="0" name="ChatTopics" nillable="true" type="q101:ArrayOfint" xmlns:q101="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ChatPresence" nillable="true" type="q101:ChatPresence" xmlns:q101="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ChatPresence" nillable="true" type="q102:ChatPresence" xmlns:q102="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="SaveChatPresence">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="ChatPresence" nillable="true" type="q102:ArrayOfChatPresence" xmlns:q102="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="ChatPresence" nillable="true" type="q103:ArrayOfChatPresence" xmlns:q103="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1158,7 +1179,7 @@ title: Services88.ChatAgent WSDL
       <xs:element name="GetChatSessionEntityResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q103:ChatSessionEntity" xmlns:q103="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q104:ChatSessionEntity" xmlns:q104="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1170,16 +1191,16 @@ title: Services88.ChatAgent WSDL
       <xs:element name="ChatSessionsForUserResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q104:ArrayOfChatSessionEntity" xmlns:q104="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q105:ArrayOfChatSessionEntity" xmlns:q105="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfChatSessionEntity">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ChatSessionEntity" nillable="true" type="q105:ChatSessionEntity" xmlns:q105="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ChatSessionEntity" nillable="true" type="q106:ChatSessionEntity" xmlns:q106="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfChatSessionEntity" nillable="true" type="q106:ArrayOfChatSessionEntity" xmlns:q106="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfChatSessionEntity" nillable="true" type="q107:ArrayOfChatSessionEntity" xmlns:q107="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="TransferChatSession">
         <xs:complexType>
           <xs:sequence>
@@ -1191,7 +1212,7 @@ title: Services88.ChatAgent WSDL
       <xs:element name="TransferChatSessionResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q107:ChatSessionEntity" xmlns:q107="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q108:ChatSessionEntity" xmlns:q108="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1205,7 +1226,7 @@ title: Services88.ChatAgent WSDL
       <xs:element name="AcceptChatSessionTransferResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q108:ChatSessionEntity" xmlns:q108="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q109:ChatSessionEntity" xmlns:q109="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1219,7 +1240,7 @@ title: Services88.ChatAgent WSDL
       <xs:element name="RejectChatSessionTransferResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q109:ChatSessionEntity" xmlns:q109="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q110:ChatSessionEntity" xmlns:q110="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1233,7 +1254,7 @@ title: Services88.ChatAgent WSDL
       <xs:element name="PickUpChatSessionResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q110:ChatSessionEntity" xmlns:q110="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q111:ChatSessionEntity" xmlns:q111="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1245,7 +1266,7 @@ title: Services88.ChatAgent WSDL
       <xs:element name="PickUpFirstChatSessionResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q111:ChatSessionEntity" xmlns:q111="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q112:ChatSessionEntity" xmlns:q112="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1259,7 +1280,7 @@ title: Services88.ChatAgent WSDL
       <xs:element name="ResetChatSessionResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q112:ChatSessionEntity" xmlns:q112="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q113:ChatSessionEntity" xmlns:q113="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1289,30 +1310,30 @@ title: Services88.ChatAgent WSDL
       <xs:element name="GetChatMessagesResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q113:ArrayOfChatMessage" xmlns:q113="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q114:ArrayOfChatMessage" xmlns:q114="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfChatMessage">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ChatMessage" nillable="true" type="q114:ChatMessage" xmlns:q114="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ChatMessage" nillable="true" type="q115:ChatMessage" xmlns:q115="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfChatMessage" nillable="true" type="q115:ArrayOfChatMessage" xmlns:q115="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfChatMessage" nillable="true" type="q116:ArrayOfChatMessage" xmlns:q116="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ChatMessage">
         <xs:sequence>
           <xs:element minOccurs="0" name="ChatMessageId" type="xs:int" />
           <xs:element minOccurs="0" name="ChatSessionId" type="xs:int" />
-          <xs:element minOccurs="0" name="Type" type="q116:ChatMessageType" xmlns:q116="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Type" type="q117:ChatMessageType" xmlns:q117="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="Author" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="ReadByCustomer" type="xs:short" />
-          <xs:element minOccurs="0" name="SpecialType" type="q117:ChatMessageSpecialType" xmlns:q117="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="SpecialType" type="q118:ChatMessageSpecialType" xmlns:q118="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="SpecialParam" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="WhenPosted" type="xs:dateTime" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ChatMessage" nillable="true" type="q118:ChatMessage" xmlns:q118="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ChatMessage" nillable="true" type="q119:ChatMessage" xmlns:q119="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="ChatMessageType">
         <xs:annotation>
           <xs:appinfo>
@@ -1326,7 +1347,7 @@ title: Services88.ChatAgent WSDL
           <xs:enumeration value="Special" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="ChatMessageType" nillable="true" type="q119:ChatMessageType" xmlns:q119="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ChatMessageType" nillable="true" type="q120:ChatMessageType" xmlns:q120="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="ChatMessageSpecialType">
         <xs:annotation>
           <xs:appinfo>
@@ -1438,19 +1459,19 @@ title: Services88.ChatAgent WSDL
           </xs:enumeration>
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="ChatMessageSpecialType" nillable="true" type="q120:ChatMessageSpecialType" xmlns:q120="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ChatMessageSpecialType" nillable="true" type="q121:ChatMessageSpecialType" xmlns:q121="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="AddChatMessage">
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="ChatSessionId" type="xs:int" />
-            <xs:element minOccurs="0" name="Message" nillable="true" type="q121:ChatMessage" xmlns:q121="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Message" nillable="true" type="q122:ChatMessage" xmlns:q122="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="AddChatMessageResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q122:ChatMessage" xmlns:q122="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q123:ChatMessage" xmlns:q123="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1464,7 +1485,7 @@ title: Services88.ChatAgent WSDL
       <xs:element name="GetChatTopicEntityResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q123:ChatTopicEntity" xmlns:q123="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q124:ChatTopicEntity" xmlns:q124="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1490,16 +1511,16 @@ title: Services88.ChatAgent WSDL
       <xs:element name="ChatTopicsForUserResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q124:ArrayOfChatTopicEntity" xmlns:q124="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q125:ArrayOfChatTopicEntity" xmlns:q125="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfChatTopicEntity">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ChatTopicEntity" nillable="true" type="q125:ChatTopicEntity" xmlns:q125="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ChatTopicEntity" nillable="true" type="q126:ChatTopicEntity" xmlns:q126="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfChatTopicEntity" nillable="true" type="q126:ArrayOfChatTopicEntity" xmlns:q126="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfChatTopicEntity" nillable="true" type="q127:ArrayOfChatTopicEntity" xmlns:q127="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="GetUserAgentList">
         <xs:complexType>
           <xs:sequence>
@@ -1511,19 +1532,19 @@ title: Services88.ChatAgent WSDL
       <xs:element name="GetUserAgentListResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q127:ArrayOfMDOListItem" xmlns:q127="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q128:ArrayOfMDOListItem" xmlns:q128="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfMDOListItem">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="MDOListItem" nillable="true" type="q128:MDOListItem" xmlns:q128="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="MDOListItem" nillable="true" type="q129:MDOListItem" xmlns:q129="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfMDOListItem" nillable="true" type="q129:ArrayOfMDOListItem" xmlns:q129="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfMDOListItem" nillable="true" type="q130:ArrayOfMDOListItem" xmlns:q130="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="MDOListItem">
         <xs:complexContent mixed="false">
-          <xs:extension base="q130:Carrier" xmlns:q130="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q131:Carrier" xmlns:q131="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Id" type="xs:int" />
               <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
@@ -1531,7 +1552,7 @@ title: Services88.ChatAgent WSDL
               <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
               <xs:element minOccurs="0" name="Rank" type="xs:int" />
               <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ChildItems" nillable="true" type="q130:ArrayOfMDOListItem" />
+              <xs:element minOccurs="0" name="ChildItems" nillable="true" type="q131:ArrayOfMDOListItem" />
               <xs:element minOccurs="0" name="IconHint" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="ColorBlock" type="xs:int" />
               <xs:element minOccurs="0" name="ExtraInfo" nillable="true" type="xs:string" />
@@ -1541,7 +1562,7 @@ title: Services88.ChatAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="MDOListItem" nillable="true" type="q131:MDOListItem" xmlns:q131="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="MDOListItem" nillable="true" type="q132:MDOListItem" xmlns:q132="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="GetChatTopicUserAgentList">
         <xs:complexType>
           <xs:sequence>
@@ -1552,16 +1573,16 @@ title: Services88.ChatAgent WSDL
       <xs:element name="GetChatTopicUserAgentListResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q132:ArrayOfChatTopicAgent" xmlns:q132="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q133:ArrayOfChatTopicAgent" xmlns:q133="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfChatTopicAgent">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ChatTopicAgent" nillable="true" type="q133:ChatTopicAgent" xmlns:q133="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ChatTopicAgent" nillable="true" type="q134:ChatTopicAgent" xmlns:q134="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfChatTopicAgent" nillable="true" type="q134:ArrayOfChatTopicAgent" xmlns:q134="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfChatTopicAgent" nillable="true" type="q135:ArrayOfChatTopicAgent" xmlns:q135="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="GetChatTopicUserAgent">
         <xs:complexType>
           <xs:sequence>
@@ -1573,7 +1594,7 @@ title: Services88.ChatAgent WSDL
       <xs:element name="GetChatTopicUserAgentResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q135:ChatTopicAgent" xmlns:q135="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q136:ChatTopicAgent" xmlns:q136="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1581,14 +1602,14 @@ title: Services88.ChatAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="ChatTopicId" type="xs:int" />
-            <xs:element minOccurs="0" name="Useragent" nillable="true" type="q136:ChatTopicAgent" xmlns:q136="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Useragent" nillable="true" type="q137:ChatTopicAgent" xmlns:q137="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="AddChatTopicUserAgentResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q137:ChatTopicAgent" xmlns:q137="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q138:ChatTopicAgent" xmlns:q138="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1597,14 +1618,14 @@ title: Services88.ChatAgent WSDL
           <xs:sequence>
             <xs:element minOccurs="0" name="ChatTopicId" type="xs:int" />
             <xs:element minOccurs="0" name="Username" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="Useragent" nillable="true" type="q138:ChatTopicAgent" xmlns:q138="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Useragent" nillable="true" type="q139:ChatTopicAgent" xmlns:q139="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="UpdateChatTopicUserAgentResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q139:ChatTopicAgent" xmlns:q139="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q140:ChatTopicAgent" xmlns:q140="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1612,14 +1633,14 @@ title: Services88.ChatAgent WSDL
         <xs:complexType>
           <xs:sequence>
             <xs:element minOccurs="0" name="ChatTopicId" type="xs:int" />
-            <xs:element minOccurs="0" name="Useragents" nillable="true" type="q140:ArrayOfChatTopicAgent" xmlns:q140="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Useragents" nillable="true" type="q141:ArrayOfChatTopicAgent" xmlns:q141="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:element name="UpdateChatTopicUserAgentsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q141:ArrayOfChatTopicAgent" xmlns:q141="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q142:ArrayOfChatTopicAgent" xmlns:q142="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1646,7 +1667,7 @@ title: Services88.ChatAgent WSDL
       <xs:element name="CreateChatSessionForTopicResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q142:ChatSessionEntity" xmlns:q142="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q143:ChatSessionEntity" xmlns:q143="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>

@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/UpdateAppointment
 uid: v1AppointmentAgent_UpdateAppointment
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/UpdateAppointment
@@ -117,6 +118,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -131,16 +133,16 @@ OK
 POST /api/v1/Agents/Appointment/UpdateAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 908,
-  "StartTime": "2017-10-22T03:45:22.7017267+02:00",
-  "EndTime": "2011-03-22T03:45:22.7017267+01:00",
-  "Status": 216,
-  "Type": 389,
-  "AssociateId": 750
+  "Id": 126,
+  "StartTime": "2002-10-18T03:46:54.0039095+02:00",
+  "EndTime": "2003-11-15T03:46:54.0039095+01:00",
+  "Status": 565,
+  "Type": 28,
+  "AssociateId": 457
 }
 ```
 
@@ -151,66 +153,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 484,
-  "StartDate": "2003-05-03T03:45:22.7017267+02:00",
-  "EndDate": "2018-08-18T03:45:22.7017267+02:00",
+  "AppointmentId": 862,
+  "StartDate": "2014-01-14T03:46:54.0039095+01:00",
+  "EndDate": "2004-06-06T03:46:54.0039095+02:00",
   "Type": "BookingForChecklist",
-  "Task": "quis",
-  "AssociateFullName": "Kimberly Breitenberg",
-  "ContactName": "Lemke, Weber and Nader",
-  "Description": "Future-proofed background algorithm",
-  "PersonFullName": "Prof. Chadd Abraham Reynolds",
-  "PersonId": 711,
-  "ContactId": 507,
-  "ProjectId": 550,
-  "ProjectName": "DuBuque LLC",
-  "IsPublished": true,
-  "AssociateId": 391,
-  "ColorIndex": 191,
+  "Task": "esse",
+  "AssociateFullName": "Harmon Crist",
+  "ContactName": "Spinka Inc and Sons",
+  "Description": "Expanded maximized architecture",
+  "PersonFullName": "Prof. Winfield Cassandre Schaefer Sr.",
+  "PersonId": 126,
+  "ContactId": 66,
+  "ProjectId": 56,
+  "ProjectName": "Olson-Thompson",
+  "IsPublished": false,
+  "AssociateId": 295,
+  "ColorIndex": 745,
   "IsFree": false,
-  "HasAlarm": false,
+  "HasAlarm": true,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 681,
-  "PriorityName": "Raynor, Erdman and Tillman",
+  "PriorityId": 747,
+  "PriorityName": "Dickinson-Champlin",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
+  "IsBookingMain": false,
   "IsRecurrence": true,
   "IsBooking": true,
-  "ActiveDate": "2014-09-05T03:45:22.7017267+02:00",
+  "ActiveDate": "2009-12-22T03:46:54.0039095+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2021-12-31T03:45:22.7017267+01:00",
-  "RecurringEndDate": "2024-07-10T03:45:22.7017267+02:00",
-  "MotherId": 843,
-  "AssignedBy": 936,
-  "AssignedByFullName": "Wilhelm McClure",
+  "RecurringStartDate": "2010-07-26T03:46:54.0039095+02:00",
+  "RecurringEndDate": "2001-06-21T03:46:54.0039095+02:00",
+  "MotherId": 15,
+  "AssignedBy": 371,
+  "AssignedByFullName": "Mr. Reanna Sidney Bergnaum PhD",
   "RejectReason": "",
-  "Location": "et",
-  "AlarmLeadTime": "consequatur",
-  "SaleId": 481,
-  "SaleName": "O'Kon, Langworth and Brekke",
-  "AssociateName": "Stokes Group",
-  "CreatedDate": "2025-01-09T03:45:22.7017267+01:00",
-  "CreatedBy": "cum",
-  "CreatedByFullName": "Kathryn Upton DVM",
-  "CreatedByAssociateId": 316,
+  "Location": "sunt",
+  "AlarmLeadTime": "repellat",
+  "SaleId": 55,
+  "SaleName": "Feeney, Emmerich and Simonis",
+  "AssociateName": "Gulgowski-Ankunding",
+  "CreatedDate": "2004-10-21T03:46:54.0039095+02:00",
+  "CreatedBy": "similique",
+  "CreatedByFullName": "Johnny Dach",
+  "CreatedByAssociateId": 522,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
+  "MotherAssociateId": 244,
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 615,
-  "Title": "quod",
-  "Agenda": "reprehenderit",
-  "InternalNotes": "quos",
+  "PreferredTZLocation": 538,
+  "Title": "accusantium",
+  "Agenda": "dicta",
+  "InternalNotes": "explicabo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 211
+      "FieldType": "System.Int32",
+      "FieldLength": 523
     }
   }
 }

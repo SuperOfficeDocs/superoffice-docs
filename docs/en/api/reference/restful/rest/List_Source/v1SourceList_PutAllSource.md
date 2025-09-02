@@ -2,6 +2,7 @@
 title: PUT List/Source/Items
 uid: v1SourceList_PutAllSource
 generated: true
+content_type: reference
 ---
 
 # PUT List/Source/Items
@@ -73,25 +74,25 @@ OK
 PUT /api/v1/List/Source/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 747,
-    "Name": "Doyle-O'Reilly",
-    "Tooltip": "nisi",
-    "Deleted": false,
-    "UdListDefinitionId": 87,
-    "Rank": 279
+    "Id": 483,
+    "Name": "Pfeffer-Hahn",
+    "Tooltip": "reiciendis",
+    "Deleted": true,
+    "UdListDefinitionId": 17,
+    "Rank": 917
   },
   {
-    "Id": 747,
-    "Name": "Doyle-O'Reilly",
-    "Tooltip": "nisi",
-    "Deleted": false,
-    "UdListDefinitionId": 87,
-    "Rank": 279
+    "Id": 483,
+    "Name": "Pfeffer-Hahn",
+    "Tooltip": "reiciendis",
+    "Deleted": true,
+    "UdListDefinitionId": 17,
+    "Rank": 917
   }
 ]
 ```
@@ -104,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 223,
-    "Name": "Murazik-West",
-    "Tooltip": "excepturi",
+    "Id": 249,
+    "Name": "Gulgowski, Schiller and Monahan",
+    "Tooltip": "sed",
     "Deleted": false,
-    "UdListDefinitionId": 33,
-    "Rank": 921,
+    "UdListDefinitionId": 489,
+    "Rank": 233,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 570
+        "FieldType": "System.Int32",
+        "FieldLength": 36
       }
     }
   }

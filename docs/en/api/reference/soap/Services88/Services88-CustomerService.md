@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-CustomerService
 title: Services88.CustomerServiceAgent WSDL
+content_type: reference
 ---
 
 # Services88.CustomerServiceAgent WSDL
@@ -1130,6 +1131,20 @@ title: Services88.CustomerServiceAgent WSDL
             <xs:annotation>
               <xs:appinfo>
                 <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1019</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="SalesLoadTicket">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1020</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="SalesLoadTicketMessage">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1021</EnumerationValue>
               </xs:appinfo>
             </xs:annotation>
           </xs:enumeration>

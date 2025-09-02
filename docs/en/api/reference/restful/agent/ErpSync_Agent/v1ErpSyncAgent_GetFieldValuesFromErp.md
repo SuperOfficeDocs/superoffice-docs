@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/GetFieldValuesFromErp
 uid: v1ErpSyncAgent_GetFieldValuesFromErp
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/GetFieldValuesFromErp
@@ -86,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 839,
+  "ErpConnectionId": 382,
   "ActorTypeErp": "Customer",
-  "ErpKey": "et"
+  "ErpKey": "dolore"
 }
 ```
 
@@ -100,18 +101,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Pagac-Tillman",
-    "CrmFieldKey": "animi",
-    "Value": "adipisci",
-    "DisplayValue": "vel",
-    "SyncToCrm": true,
+    "DisplayName": "Collins, Bayer and Luettgen",
+    "CrmFieldKey": "non",
+    "Value": "suscipit",
+    "DisplayValue": "facilis",
+    "SyncToCrm": false,
     "SyncToErp": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 242
+        "FieldType": "System.Int32",
+        "FieldLength": 763
       }
     }
   }

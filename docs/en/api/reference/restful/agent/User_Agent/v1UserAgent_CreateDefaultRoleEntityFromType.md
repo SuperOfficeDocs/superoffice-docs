@@ -2,6 +2,7 @@
 title: POST Agents/User/CreateDefaultRoleEntityFromType
 uid: v1UserAgent_CreateDefaultRoleEntityFromType
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/CreateDefaultRoleEntityFromType
@@ -89,7 +90,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,16 +105,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 315,
-  "Name": "Schultz LLC",
-  "Tooltip": "vero",
+  "RoleId": 910,
+  "Name": "Cremin-Parisian",
+  "Tooltip": "consectetur",
   "RoleType": "Anonymous",
-  "Deleted": 801,
-  "Rank": 199,
-  "Created": "2021-12-31T03:45:24.1704335+01:00",
-  "UseCategories": 748,
+  "Deleted": 758,
+  "Rank": 637,
+  "Created": "2006-08-26T03:46:55.581978+02:00",
+  "UseCategories": 979,
   "CreatedBy": null,
-  "Updated": "2004-08-28T03:45:24.1704335+02:00",
+  "Updated": "2022-12-23T03:46:55.581978+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -121,7 +122,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 360
+      "FieldLength": 612
     }
   }
 }

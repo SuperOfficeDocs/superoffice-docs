@@ -2,6 +2,7 @@
 title: Services88.ListAgent.UpdateCategoryMemberships SOAP
 generated: true
 uid: Services88-List-UpdateCategoryMemberships
+content_type: reference
 ---
 
 # Services88 List UpdateCategoryMemberships
@@ -55,6 +56,18 @@ Application tokens must be specified if calling an Online installation. Applicat
        <List:Deleted xsi:type="xsd:boolean">false</List:Deleted>
        <List:EjUserId xsi:type="xsd:int">0</List:EjUserId>
        <List:UserName xsi:type="xsd:string"></List:UserName>
+       <List:ExtraFields xsi:type="List:StringDictionary">
+        <List:StringKeyValuePair>
+         <List:Key xsi:type="xsd:string"></List:Key>
+         <List:Value xsi:type="xsd:string"></List:Value>
+        </List:StringKeyValuePair>
+       </List:ExtraFields>
+       <List:CustomFields xsi:type="List:StringDictionary">
+        <List:StringKeyValuePair>
+         <List:Key xsi:type="xsd:string"></List:Key>
+         <List:Value xsi:type="xsd:string"></List:Value>
+        </List:StringKeyValuePair>
+       </List:CustomFields>
       </List:User>
       <List:Weight xsi:type="xsd:short">0</List:Weight>
      </List:TicketCategoryMembershipEntity>
@@ -74,6 +87,18 @@ Application tokens must be specified if calling an Online installation. Applicat
        <List:Deleted xsi:type="xsd:boolean">false</List:Deleted>
        <List:EjUserId xsi:type="xsd:int">0</List:EjUserId>
        <List:UserName xsi:type="xsd:string"></List:UserName>
+       <List:ExtraFields xsi:type="List:StringDictionary">
+        <List:StringKeyValuePair>
+         <List:Key xsi:type="xsd:string"></List:Key>
+         <List:Value xsi:type="xsd:string"></List:Value>
+        </List:StringKeyValuePair>
+       </List:ExtraFields>
+       <List:CustomFields xsi:type="List:StringDictionary">
+        <List:StringKeyValuePair>
+         <List:Key xsi:type="xsd:string"></List:Key>
+         <List:Value xsi:type="xsd:string"></List:Value>
+        </List:StringKeyValuePair>
+       </List:CustomFields>
       </List:User>
       <List:Weight xsi:type="xsd:short">0</List:Weight>
      </List:TicketCategoryMembershipEntity>
@@ -93,6 +118,18 @@ Application tokens must be specified if calling an Online installation. Applicat
        <List:Deleted xsi:type="xsd:boolean">false</List:Deleted>
        <List:EjUserId xsi:type="xsd:int">0</List:EjUserId>
        <List:UserName xsi:type="xsd:string"></List:UserName>
+       <List:ExtraFields xsi:type="List:StringDictionary">
+        <List:StringKeyValuePair>
+         <List:Key xsi:type="xsd:string"></List:Key>
+         <List:Value xsi:type="xsd:string"></List:Value>
+        </List:StringKeyValuePair>
+       </List:ExtraFields>
+       <List:CustomFields xsi:type="List:StringDictionary">
+        <List:StringKeyValuePair>
+         <List:Key xsi:type="xsd:string"></List:Key>
+         <List:Value xsi:type="xsd:string"></List:Value>
+        </List:StringKeyValuePair>
+       </List:CustomFields>
       </List:User>
       <List:Weight xsi:type="xsd:short">0</List:Weight>
      </List:TicketCategoryMembershipEntity>

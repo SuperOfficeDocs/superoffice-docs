@@ -2,6 +2,7 @@
 title: GET Document/{id}
 uid: v1DocumentEntity_GetDocumentEntity
 generated: true
+content_type: reference
 ---
 
 # GET Document/{id}
@@ -109,7 +110,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -117,91 +118,91 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 16 Oct 2009 03:45:28 G10T
+Last-Modified: Thu, 05 Oct 2017 03:46:59 G10T
 
 {
-  "DocumentId": 403,
+  "DocumentId": 939,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "rerum",
-  "Header": "aut",
-  "Name": "Quigley, Luettgen and Hackett",
-  "OurRef": "et",
-  "YourRef": "aliquam",
-  "CreatedDate": "2015-05-14T03:45:28.3109477+02:00",
-  "UpdatedDate": "2009-10-16T03:45:28.3109477+02:00",
-  "Description": "Cross-group non-volatile hierarchy",
+  "Attention": "ipsum",
+  "Header": "repellat",
+  "Name": "Connelly Inc and Sons",
+  "OurRef": "in",
+  "YourRef": "nihil",
+  "CreatedDate": "2004-11-22T03:46:59.9724437+01:00",
+  "UpdatedDate": "2017-10-05T03:46:59.9724437+02:00",
+  "Description": "Automated stable open system",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2024-02-23T03:45:28.3265627+01:00",
-  "ExternalRef": "nobis",
+  "Date": "1998-09-10T03:46:59.9724437+02:00",
+  "ExternalRef": "consequatur",
   "Completed": "Completed",
-  "ActiveLinks": 151,
+  "ActiveLinks": 243,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Wisoky Inc and Sons",
-      "Id": 706,
-      "Description": "Exclusive leading edge instruction set",
-      "ExtraInfo": "dolores",
-      "LinkId": 326,
+      "EntityName": "Johnston, Schaden and Runolfsson",
+      "Id": 256,
+      "Description": "Networked attitude-oriented internet solution",
+      "ExtraInfo": "suscipit",
+      "LinkId": 152,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 350
+          "FieldLength": 514
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 708,
-  "Snum": 621,
+  "SuggestedDocumentId": 716,
+  "Snum": 880,
   "UserDefinedFields": {
-    "SuperOffice:1": "719308254",
-    "SuperOffice:2": "Mr. Cielo Tabitha Erdman Sr."
+    "SuperOffice:1": "1769644707",
+    "SuperOffice:2": "Jason Parker"
   },
   "ExtraFields": {
-    "ExtraFields1": "enim",
-    "ExtraFields2": "est"
+    "ExtraFields1": "dolore",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "accusamus",
-    "CustomFields2": "veritatis"
+    "CustomFields1": "ut",
+    "CustomFields2": "officia"
   },
-  "PublishEventDate": "1998-03-24T03:45:28.3265627+01:00",
-  "PublishTo": "2016-01-23T03:45:28.3265627+01:00",
-  "PublishFrom": "2023-10-04T03:45:28.3265627+02:00",
+  "PublishEventDate": "2009-03-05T03:46:59.9724437+01:00",
+  "PublishTo": "2014-04-11T03:46:59.9724437+02:00",
+  "PublishFrom": "2016-12-29T03:46:59.9724437+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 409,
+      "VisibleId": 929,
       "Visibility": "All",
-      "DisplayValue": "sunt",
+      "DisplayValue": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 957
+          "FieldType": "System.Int32",
+          "FieldLength": 905
         }
       }
     },
     {
-      "VisibleId": 409,
+      "VisibleId": 929,
       "Visibility": "All",
-      "DisplayValue": "sunt",
+      "DisplayValue": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 957
+          "FieldType": "System.Int32",
+          "FieldLength": 905
         }
       }
     }
@@ -211,7 +212,7 @@ Last-Modified: Fri, 16 Oct 2009 03:45:28 G10T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 592
+      "FieldLength": 485
     }
   },
   "_Links": {

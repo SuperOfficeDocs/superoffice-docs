@@ -2,6 +2,7 @@
 title: GET Role
 uid: v1RoleEntity_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET Role
@@ -70,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Role?$select=name,department,category/id
 GET /api/v1/Role?$filter=name begins 'S'
 GET /api/v1/Role?$orderBy=name asc
-GET /api/v1/Role?$entities=est
-GET /api/v1/Role?$top=372
-GET /api/v1/Role?$skip=865
+GET /api/v1/Role?$entities=voluptas
+GET /api/v1/Role?$top=802
+GET /api/v1/Role?$skip=224
 GET /api/v1/Role?$mode=Full
 GET /api/v1/Role?$options=GrandTotal=true
-GET /api/v1/Role?$context=consectetur
+GET /api/v1/Role?$context=dolore
 GET /api/v1/Role?$format=JSON
 GET /api/v1/Role?$jsonSafe=False
 GET /api/v1/Role?$output=Display
@@ -118,7 +119,7 @@ OK
 GET /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -129,19 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptatem",
+  "odata.nextLink": "recusandae",
   "value": [
     {
-      "PrimaryKey": 8601,
-      "EntityName": "person",
-      "personId": 8601,
-      "fullName": "Jett Quigley"
+      "PrimaryKey": 9939,
+      "EntityName": "sale",
+      "saleId": 9939,
+      "contactId": 7329,
+      "name": "Cartwright-Schultz"
     },
     {
-      "PrimaryKey": 4083,
-      "EntityName": "person",
-      "personId": 4083,
-      "fullName": "Ms. Shanny Lelah Haag"
+      "PrimaryKey": 555,
+      "EntityName": "sale",
+      "saleId": 555,
+      "contactId": 5501,
+      "name": "Kilback Inc and Sons"
     }
   ]
 }

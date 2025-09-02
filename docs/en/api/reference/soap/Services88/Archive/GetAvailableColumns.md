@@ -2,6 +2,7 @@
 title: Services88.ArchiveAgent.GetAvailableColumns SOAP
 generated: true
 uid: Services88-Archive-GetAvailableColumns
+content_type: reference
 ---
 
 # Services88 Archive GetAvailableColumns

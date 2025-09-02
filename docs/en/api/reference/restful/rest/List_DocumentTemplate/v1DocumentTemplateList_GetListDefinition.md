@@ -2,6 +2,7 @@
 title: GET List/DocumentTemplate
 uid: v1DocumentTemplateList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/DocumentTemplate
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 105,
-  "Name": "Stoltenberg, Carroll and Mante",
-  "Tooltip": "ab",
+  "Id": 280,
+  "Name": "Schaefer, Hermiston and Mitchell",
+  "Tooltip": "laudantium",
   "Deleted": false,
-  "Rank": 842,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "illum",
+  "Rank": 148,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "laudantium",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 452
+      "FieldLength": 197
     }
   },
   "_Links": {

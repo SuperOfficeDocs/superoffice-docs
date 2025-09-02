@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.GetAttachmentInfoNonInline SOAP
 generated: true
 uid: Services88-Ticket-GetAttachmentInfoNonInline
+content_type: reference
 ---
 
 # Services88 Ticket GetAttachmentInfoNonInline

@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-PhoneList
 title: Services88.PhoneListAgent WSDL
+content_type: reference
 ---
 
 # Services88.PhoneListAgent WSDL

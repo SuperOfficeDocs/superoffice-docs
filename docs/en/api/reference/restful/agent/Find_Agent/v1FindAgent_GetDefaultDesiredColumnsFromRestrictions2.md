@@ -2,6 +2,7 @@
 title: POST Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 uid: v1FindAgent_GetDefaultDesiredColumnsFromRestrictions2
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
@@ -169,12 +170,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Dare LLC",
-  "Restrictions": "aut"
+  "ProviderName": "Wolff-Torphy",
+  "Restrictions": "et"
 }
 ```
 
@@ -186,19 +187,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Smith, Rippin and Sauer",
-    "DisplayTooltip": "sint",
-    "DisplayType": "vel",
-    "CanOrderBy": true,
-    "Name": "Herzog-Greenholt",
+    "DisplayName": "Renner Group",
+    "DisplayTooltip": "labore",
+    "DisplayType": "voluptas",
+    "CanOrderBy": false,
+    "Name": "Konopelski LLC",
     "CanRestrictBy": true,
-    "RestrictionType": "suscipit",
-    "RestrictionListName": "Kautzer LLC",
+    "RestrictionType": "provident",
+    "RestrictionListName": "Waters Group",
     "IsVisible": false,
-    "ExtraInfo": "consequatur",
-    "Width": "fuga",
-    "IconHint": "fugiat",
-    "HeadingIconHint": "impedit"
+    "ExtraInfo": "eligendi",
+    "Width": "illo",
+    "IconHint": "dicta",
+    "HeadingIconHint": "hic"
   }
 ]
 ```

@@ -2,6 +2,7 @@
 title: PATCH Role/{id}
 uid: v1RoleEntity_PatchRoleEntity
 generated: true
+content_type: reference
 ---
 
 # PATCH Role/{id}
@@ -128,12 +129,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "qui",
+    "path": "quo",
     "value": {}
   },
   {
     "op": "add",
-    "path": "qui",
+    "path": "quo",
     "value": {}
   }
 ]
@@ -146,16 +147,16 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 268,
-  "Name": "Hodkiewicz-Champlin",
-  "Tooltip": "iure",
+  "RoleId": 16,
+  "Name": "Sporer Inc and Sons",
+  "Tooltip": "asperiores",
   "RoleType": "Anonymous",
-  "Deleted": 873,
-  "Rank": 835,
-  "Created": "2021-01-17T03:45:28.5453063+01:00",
-  "UseCategories": 683,
+  "Deleted": 530,
+  "Rank": 543,
+  "Created": "2011-02-06T03:47:00.2224384+01:00",
+  "UseCategories": 34,
   "CreatedBy": null,
-  "Updated": "2021-05-19T03:45:28.5453063+02:00",
+  "Updated": "2001-09-21T03:47:00.2224384+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -163,7 +164,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 641
+      "FieldLength": 489
     }
   },
   "_Links": {

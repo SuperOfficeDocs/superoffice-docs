@@ -2,6 +2,7 @@
 title: POST Agents/User/CreateUserGroup
 uid: v1UserAgent_CreateUserGroup
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/CreateUserGroup
@@ -71,7 +72,7 @@ OK
 POST /api/v1/Agents/User/CreateUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,17 +82,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "in",
-  "Tooltip": "eos",
-  "Id": 61,
-  "Rank": 23,
-  "Deleted": true,
+  "Value": "iste",
+  "Tooltip": "non",
+  "Id": 304,
+  "Rank": 616,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 685
+      "FieldLength": 264
     }
   }
 }

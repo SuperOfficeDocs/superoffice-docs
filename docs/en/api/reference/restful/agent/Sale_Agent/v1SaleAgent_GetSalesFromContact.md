@@ -2,6 +2,7 @@
 title: POST Agents/Sale/GetSalesFromContact
 uid: v1SaleAgent_GetSalesFromContact
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/GetSalesFromContact
@@ -102,8 +103,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 898,
-  "OnlyOpenSales": false
+  "ContactId": 707,
+  "OnlyOpenSales": true
 }
 ```
 
@@ -115,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Wilkinson, Pollich and Ondricka",
-    "SaleDate": "2014-06-12T03:45:23.8735682+02:00",
-    "SaleId": 211,
-    "Probability": 416,
-    "Title": "consequatur",
-    "Amount": 20662.462,
-    "Currency": "excepturi",
-    "ProjectName": "Beer-Ondricka",
-    "AssociateFullName": "Davin Doris Jast Sr.",
-    "Description": "Exclusive neutral structure",
+    "ContactName": "Quigley Group",
+    "SaleDate": "2005-05-23T03:46:55.285132+02:00",
+    "SaleId": 274,
+    "Probability": 832,
+    "Title": "neque",
+    "Amount": 24410.726,
+    "Currency": "facilis",
+    "ProjectName": "Orn LLC",
+    "AssociateFullName": "Ms. Murray Johnson V",
+    "Description": "Re-engineered 24 hour knowledge user",
     "Status": "Lost",
-    "WeightedAmount": 21643.404,
-    "ProjectId": 537,
-    "EarningPercent": 8013.638,
-    "Earning": 19029.648,
-    "ContactId": 19,
-    "AssociateId": 37,
-    "PersonId": 927,
-    "SaleTypeId": 371,
-    "SaleTypeName": "Christiansen, Schulist and D'Amore",
-    "PersonFullName": "Frieda Torphy",
+    "WeightedAmount": 26479.165999999997,
+    "ProjectId": 38,
+    "EarningPercent": 4957.988,
+    "Earning": 3290.7,
+    "ContactId": 161,
+    "AssociateId": 822,
+    "PersonId": 9,
+    "SaleTypeId": 503,
+    "SaleTypeName": "Gleason, Jast and Erdman",
+    "PersonFullName": "Mr. Tara Talia Bogan I",
     "Completed": "Completed",
-    "ActiveErpLinks": 901,
-    "NextDueDate": "2021-10-07T03:45:23.8735682+02:00",
-    "Number": "1780075",
+    "ActiveErpLinks": 252,
+    "NextDueDate": "2024-05-24T03:46:55.285132+02:00",
+    "Number": "1568800",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 467
+        "FieldType": "System.Int32",
+        "FieldLength": 265
       }
     }
   }

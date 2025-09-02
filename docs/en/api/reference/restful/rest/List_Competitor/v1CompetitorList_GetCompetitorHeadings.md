@@ -2,6 +2,7 @@
 title: GET List/Competitor/Headings
 uid: v1CompetitorList_GetCompetitorHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/Competitor/Headings
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 751,
-    "Name": "Pfeffer, Ullrich and Runolfsdottir",
-    "Tooltip": "voluptas",
+    "HeadingId": 796,
+    "Name": "Homenick, Muller and Bogisich",
+    "Tooltip": "id",
     "Deleted": false,
-    "Rank": 388,
-    "UdListDefinitionId": 305,
+    "Rank": 983,
+    "UdListDefinitionId": 184,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 327
+        "FieldType": "System.Int32",
+        "FieldLength": 702
       }
     }
   }

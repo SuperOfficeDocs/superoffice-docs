@@ -2,6 +2,7 @@
 title: POST Agents/Chat/GetChatTopicUserAgentList
 uid: v1ChatAgent_GetChatTopicUserAgentList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/GetChatTopicUserAgentList
@@ -80,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 179
+  "ChatTopicId": 129
 }
 ```
 
@@ -92,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 146,
+    "TopicId": 408,
     "User": null,
-    "CanListen": false,
+    "CanListen": true,
     "CanRespond": false,
     "CanManage": false,
     "CanNotify": false
   },
   {
-    "TopicId": 146,
+    "TopicId": 408,
     "User": null,
-    "CanListen": false,
+    "CanListen": true,
     "CanRespond": false,
     "CanManage": false,
     "CanNotify": false

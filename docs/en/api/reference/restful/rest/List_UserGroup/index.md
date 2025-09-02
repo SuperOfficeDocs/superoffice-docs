@@ -1,6 +1,8 @@
 ---
+uid: tag-List_UserGroup
 title: List_UserGroup
 generated: true
+content_type: reference
 ---
 
 ```http

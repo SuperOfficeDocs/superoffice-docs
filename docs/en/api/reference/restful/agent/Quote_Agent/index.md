@@ -1,6 +1,8 @@
 ---
+uid: tag-Quote_Agent
 title: Quote_Agent
 generated: true
+content_type: reference
 ---
 
 ```http
@@ -80,29 +82,25 @@ generated: true
 
 * [POST Agents/Quote/ToggleQuoteVersionAttachmentIncluded](v1QuoteAgent_ToggleQuoteVersionAttachmentIncluded.md)
 
+* [POST Agents/Quote/GetConfigurationFields](v1QuoteAgent_GetConfigurationFields.md)
+
+* [POST Agents/Quote/TestConnection](v1QuoteAgent_TestConnection.md)
+
 * [POST Agents/Quote/CreateDefaultPriceList](v1QuoteAgent_CreateDefaultPriceList.md)
 
 * [POST Agents/Quote/SavePriceList](v1QuoteAgent_SavePriceList.md)
 
 * [POST Agents/Quote/DeletePriceList](v1QuoteAgent_DeletePriceList.md)
 
+* [POST Agents/Quote/GetPriceList](v1QuoteAgent_GetPriceList.md)
+
+* [POST Agents/Quote/CopySuperOfficePriceList](v1QuoteAgent_CopySuperOfficePriceList.md)
+
 * [POST Agents/Quote/CreateDefaultProduct](v1QuoteAgent_CreateDefaultProduct.md)
 
 * [POST Agents/Quote/SaveProduct](v1QuoteAgent_SaveProduct.md)
 
 * [POST Agents/Quote/DeleteProduct](v1QuoteAgent_DeleteProduct.md)
-
-* [POST Agents/Quote/CreateDefaultQuoteAlternative](v1QuoteAgent_CreateDefaultQuoteAlternative.md)
-
-* [POST Agents/Quote/SaveQuoteAlternative](v1QuoteAgent_SaveQuoteAlternative.md)
-
-* [POST Agents/Quote/GetConfigurationFields](v1QuoteAgent_GetConfigurationFields.md)
-
-* [POST Agents/Quote/TestConnection](v1QuoteAgent_TestConnection.md)
-
-* [POST Agents/Quote/GetPriceList](v1QuoteAgent_GetPriceList.md)
-
-* [POST Agents/Quote/CopySuperOfficePriceList](v1QuoteAgent_CopySuperOfficePriceList.md)
 
 * [POST Agents/Quote/GetProductImage](v1QuoteAgent_GetProductImage.md)
 
@@ -121,6 +119,10 @@ generated: true
 * [POST Agents/Quote/GetQuote](v1QuoteAgent_GetQuote.md)
 
 * [POST Agents/Quote/GetQuoteFromSaleId](v1QuoteAgent_GetQuoteFromSaleId.md)
+
+* [POST Agents/Quote/CreateDefaultQuoteAlternative](v1QuoteAgent_CreateDefaultQuoteAlternative.md)
+
+* [POST Agents/Quote/SaveQuoteAlternative](v1QuoteAgent_SaveQuoteAlternative.md)
 
 * [POST Agents/Quote/GetQuoteAlternative](v1QuoteAgent_GetQuoteAlternative.md)
 

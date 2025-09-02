@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetPersonTasks
 uid: v1AppointmentAgent_GetPersonTasks
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetPersonTasks
@@ -115,6 +116,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -133,8 +135,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 343,
-  "Count": 355
+  "PersonId": 77,
+  "Count": 744
 }
 ```
 
@@ -146,66 +148,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 482,
-    "StartDate": "2018-12-05T03:45:22.6704778+01:00",
-    "EndDate": "2017-11-04T03:45:22.6704778+01:00",
+    "AppointmentId": 305,
+    "StartDate": "2020-07-11T03:46:54.2695244+02:00",
+    "EndDate": "2021-08-12T03:46:54.2695244+02:00",
     "Type": "BookingForChecklist",
-    "Task": "explicabo",
-    "AssociateFullName": "Ms. Brandon Teresa Murray V",
-    "ContactName": "Willms-Aufderhar",
-    "Description": "Proactive tangible throughput",
-    "PersonFullName": "Ora Strosin",
-    "PersonId": 445,
-    "ContactId": 336,
-    "ProjectId": 633,
-    "ProjectName": "Murazik-Berge",
+    "Task": "neque",
+    "AssociateFullName": "Danielle Koepp",
+    "ContactName": "Mayer, Stiedemann and Jerde",
+    "Description": "Innovative 4th generation functionalities",
+    "PersonFullName": "Mrs. Annabel Gleason",
+    "PersonId": 420,
+    "ContactId": 471,
+    "ProjectId": 248,
+    "ProjectName": "Bashirian, Mraz and Rodriguez",
     "IsPublished": false,
-    "AssociateId": 481,
-    "ColorIndex": 660,
+    "AssociateId": 848,
+    "ColorIndex": 646,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 682,
-    "PriorityName": "Sawayn, Emard and Mueller",
+    "PriorityId": 191,
+    "PriorityName": "Feil, Stark and Wyman",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2017-02-25T03:45:22.6704778+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2003-01-02T03:46:54.2695244+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2024-07-28T03:45:22.6704778+02:00",
-    "RecurringEndDate": "2025-06-10T03:45:22.6704778+02:00",
-    "MotherId": 187,
-    "AssignedBy": 772,
-    "AssignedByFullName": "Eldridge Klocko",
-    "RejectReason": "strategize scalable initiatives",
-    "Location": "numquam",
-    "AlarmLeadTime": "est",
-    "SaleId": 461,
-    "SaleName": "Farrell Inc and Sons",
-    "AssociateName": "Kutch, Goldner and Metz",
-    "CreatedDate": "2008-03-02T03:45:22.6704778+01:00",
-    "CreatedBy": "itaque",
-    "CreatedByFullName": "Donnie Boehm",
-    "CreatedByAssociateId": 972,
+    "RecurringStartDate": "2012-10-16T03:46:54.2695244+02:00",
+    "RecurringEndDate": "2017-03-14T03:46:54.2695244+01:00",
+    "MotherId": 763,
+    "AssignedBy": 196,
+    "AssignedByFullName": "Ms. Nathanial Feil",
+    "RejectReason": "",
+    "Location": "rerum",
+    "AlarmLeadTime": "quia",
+    "SaleId": 402,
+    "SaleName": "Marquardt-Carroll",
+    "AssociateName": "Shanahan, Breitenberg and Mante",
+    "CreatedDate": "2016-03-09T03:46:54.2695244+01:00",
+    "CreatedBy": "numquam",
+    "CreatedByFullName": "Sebastian Ebert",
+    "CreatedByAssociateId": 189,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 56,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 582,
-    "Title": "qui",
-    "Agenda": "ea",
-    "InternalNotes": "labore",
+    "PreferredTZLocation": 981,
+    "Title": "voluptatum",
+    "Agenda": "eaque",
+    "InternalNotes": "cumque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 192
+        "FieldLength": 154
       }
     }
   }

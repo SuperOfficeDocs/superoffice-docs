@@ -2,10 +2,10 @@
 uid: table-ticket_log_action
 title: ticket_log_action table
 description: This table contains actions for the tickets.
-so.generated: true
+generated: true
 keywords: database table ticket_log_action
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ticket\_log\_action Table (269)

@@ -3,9 +3,9 @@ uid: appointmenttextid
 title: appointmenttextid
 keywords: mdoprovider mdo provider appointmenttextid
 description: Special case of appointment list where we get the id value from the Text table. For use when we want to represent an appointment with the text.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "appointmenttextid" MDO List

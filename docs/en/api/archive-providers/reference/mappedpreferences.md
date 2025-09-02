@@ -3,9 +3,9 @@ uid: MappedPreferences
 title: MappedPreferences
 description: Get all the mapped ('fake') Service preferences known to the <see cref="T -SuperOffice.Data.ServicePreferenceMapper" />.
 keywords: MappedPreferences archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "MappedPreferences"

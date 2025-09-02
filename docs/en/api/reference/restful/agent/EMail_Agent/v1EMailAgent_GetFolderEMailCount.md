@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetFolderEMailCount
 uid: v1EMailAgent_GetFolderEMailCount
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetFolderEMailCount
@@ -76,7 +77,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "OnlyUnread": false
+  "OnlyUnread": true
 }
 ```
 
@@ -86,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-165
+120
 ```

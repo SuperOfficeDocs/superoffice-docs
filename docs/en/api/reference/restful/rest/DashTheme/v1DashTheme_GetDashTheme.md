@@ -2,6 +2,7 @@
 title: GET DashTheme/{id}
 uid: v1DashTheme_GetDashTheme
 generated: true
+content_type: reference
 ---
 
 # GET DashTheme/{id}
@@ -88,18 +89,18 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 67,
-  "Name": "Ortiz Inc and Sons",
-  "Config": "doloribus",
-  "Rank": 8,
-  "Client": "rerum",
-  "Style": "eligendi",
+  "DashboardThemeId": 926,
+  "Name": "Tillman, Heathcote and Gibson",
+  "Config": "eos",
+  "Rank": 260,
+  "Client": "praesentium",
+  "Style": "beatae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 207
+      "FieldLength": 947
     }
   },
   "_Links": {

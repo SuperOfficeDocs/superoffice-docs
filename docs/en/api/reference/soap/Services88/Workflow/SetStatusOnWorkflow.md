@@ -2,6 +2,7 @@
 title: Services88.WorkflowAgent.SetStatusOnWorkflow SOAP
 generated: true
 uid: Services88-Workflow-SetStatusOnWorkflow
+content_type: reference
 ---
 
 # Services88 Workflow SetStatusOnWorkflow

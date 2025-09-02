@@ -2,6 +2,7 @@
 title: POST Agents/Sale/GetSaleStakeholderList
 uid: v1SaleAgent_GetSaleStakeholderList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/GetSaleStakeholderList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/Sale/GetSaleStakeholderList?$select=name,department,category
 
 ## Request Body: saleStakeholderIds 
 
-The primary keys. 
+The identifiers of the SaleStakeholder object 
 
 
 ## Response:array
@@ -99,31 +100,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Halvorson, Dietrich and Raynor",
-    "Comment": "temporibus",
-    "StakeholderRoleId": 887,
-    "CountryId": 631,
-    "PersonId": 316,
-    "EmailDescription": "jefferey.schmidt@lebsack.us",
-    "EmailId": 981,
-    "EmailAddress": "conrad@strosin.co.uk",
-    "PhoneId": 97,
-    "ContactName": "Schroeder, Hand and Runte",
-    "ContactId": 627,
-    "SaleId": 968,
-    "Mrmrs": "impedit",
-    "Firstname": "Genoveva",
-    "MiddleName": "Pfeffer, Fritsch and Collier",
-    "Lastname": "Lockman",
-    "SaleStakeholderId": 161,
-    "Rank": 469,
-    "Phone": "122.940.3300 x06146",
+    "StakeholderRoleName": "Langworth-Bahringer",
+    "Comment": "vel",
+    "StakeholderRoleId": 138,
+    "CountryId": 306,
+    "PersonId": 762,
+    "EmailDescription": "sylvan_runolfsson@renner.info",
+    "EmailId": 740,
+    "EmailAddress": "maggie@mante.biz",
+    "PhoneId": 323,
+    "ContactName": "Marquardt LLC",
+    "ContactId": 160,
+    "SaleId": 912,
+    "Mrmrs": "doloremque",
+    "Firstname": "Gilbert",
+    "MiddleName": "Yost Inc and Sons",
+    "Lastname": "Kub",
+    "SaleStakeholderId": 574,
+    "Rank": 818,
+    "Phone": "131.261.5279 x69756",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 522
+        "FieldLength": 527
       }
     }
   }

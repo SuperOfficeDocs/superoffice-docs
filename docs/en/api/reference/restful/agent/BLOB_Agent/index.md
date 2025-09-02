@@ -1,6 +1,8 @@
 ---
+uid: tag-BLOB_Agent
 title: BLOB_Agent
 generated: true
+content_type: reference
 ---
 
 ```http

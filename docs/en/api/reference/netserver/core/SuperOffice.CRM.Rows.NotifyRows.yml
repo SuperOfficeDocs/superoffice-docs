@@ -16,7 +16,9 @@ items:
   - SuperOffice.CRM.Rows.NotifyRows.GetFromCustomSearchAsync(SuperOffice.CRM.Rows.NotifyRows.CustomSearch,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.NotifyRows.GetFromIdxCategoryIdAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.NotifyRows.GetFromIdxChatTopicIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.NotifyRows.GetFromIdxContactIdAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.NotifyRows.GetFromIdxOwnerIdAsync(System.Int32,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.NotifyRows.GetFromIdxPersonIdAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.NotifyRows.GetFromIdxTicketAlertIdAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.NotifyRows.GetFromIdxTicketIdAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.NotifyRows.GetFromIdxUser2IdAsync(System.Int32,System.Threading.CancellationToken)
@@ -570,6 +572,86 @@ items:
   nameWithType.vb: NotifyRows.GetFromIdxTicketAlertIdAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Rows.NotifyRows.GetFromIdxTicketAlertIdAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetFromIdxTicketAlertIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Rows.NotifyRows.GetFromIdxContactIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.NotifyRows.GetFromIdxContactIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxContactIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Rows.NotifyRows
+  langs:
+  - csharp
+  - vb
+  name: GetFromIdxContactIdAsync(int, CancellationToken)
+  nameWithType: NotifyRows.GetFromIdxContactIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.NotifyRows.GetFromIdxContactIdAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: >-
+    Create a new instance of the NotifyRow object, by querying the database table via the index 'IDXNotifyContact_id'.
+
+    This method is intended to make it easy to use efficient queries that match a database index.
+  remarks: >-
+    This method represents one of the unique indexes on the Notify table. Non-unique indexes have corresponding inner classes
+
+    and methods in the <xref href="SuperOffice.CRM.Rows.NotifyRows" data-throw-if-not-resolved="false"></xref> collection, since they may return more than one row.
+  example: []
+  syntax:
+    content: public static Task<NotifyRows> GetFromIdxContactIdAsync(int contactId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: contactId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.NotifyRows}
+      description: >-
+        Row object that represents the result of the search. IsNew will be true if 
+                    the query did not match any row in the table
+    content.vb: Public Shared Function GetFromIdxContactIdAsync(contactId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of NotifyRows)
+  overload: SuperOffice.CRM.Rows.NotifyRows.GetFromIdxContactIdAsync*
+  nameWithType.vb: NotifyRows.GetFromIdxContactIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.NotifyRows.GetFromIdxContactIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetFromIdxContactIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Rows.NotifyRows.GetFromIdxPersonIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.NotifyRows.GetFromIdxPersonIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxPersonIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Rows.NotifyRows
+  langs:
+  - csharp
+  - vb
+  name: GetFromIdxPersonIdAsync(int, CancellationToken)
+  nameWithType: NotifyRows.GetFromIdxPersonIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.NotifyRows.GetFromIdxPersonIdAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: >-
+    Create a new instance of the NotifyRow object, by querying the database table via the index 'IDXNotifyPerson_id'.
+
+    This method is intended to make it easy to use efficient queries that match a database index.
+  remarks: >-
+    This method represents one of the unique indexes on the Notify table. Non-unique indexes have corresponding inner classes
+
+    and methods in the <xref href="SuperOffice.CRM.Rows.NotifyRows" data-throw-if-not-resolved="false"></xref> collection, since they may return more than one row.
+  example: []
+  syntax:
+    content: public static Task<NotifyRows> GetFromIdxPersonIdAsync(int personId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: personId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.NotifyRows}
+      description: >-
+        Row object that represents the result of the search. IsNew will be true if 
+                    the query did not match any row in the table
+    content.vb: Public Shared Function GetFromIdxPersonIdAsync(personId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of NotifyRows)
+  overload: SuperOffice.CRM.Rows.NotifyRows.GetFromIdxPersonIdAsync*
+  nameWithType.vb: NotifyRows.GetFromIdxPersonIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.NotifyRows.GetFromIdxPersonIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetFromIdxPersonIdAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Rows.NotifyRows.GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.NotifyTableInfo,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Rows.NotifyRows.GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.NotifyTableInfo,System.Threading.CancellationToken)
   id: GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.NotifyTableInfo,System.Threading.CancellationToken)
@@ -3225,6 +3307,20 @@ references:
   name: GetFromIdxTicketAlertIdAsync
   nameWithType: NotifyRows.GetFromIdxTicketAlertIdAsync
   fullName: SuperOffice.CRM.Rows.NotifyRows.GetFromIdxTicketAlertIdAsync
+- uid: SuperOffice.CRM.Rows.NotifyRows.GetFromIdxContactIdAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.NotifyRows.GetFromIdxContactIdAsync
+  isExternal: true
+  href: SuperOffice.CRM.Rows.NotifyRows.html#SuperOffice_CRM_Rows_NotifyRows_GetFromIdxContactIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetFromIdxContactIdAsync
+  nameWithType: NotifyRows.GetFromIdxContactIdAsync
+  fullName: SuperOffice.CRM.Rows.NotifyRows.GetFromIdxContactIdAsync
+- uid: SuperOffice.CRM.Rows.NotifyRows.GetFromIdxPersonIdAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.NotifyRows.GetFromIdxPersonIdAsync
+  isExternal: true
+  href: SuperOffice.CRM.Rows.NotifyRows.html#SuperOffice_CRM_Rows_NotifyRows_GetFromIdxPersonIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetFromIdxPersonIdAsync
+  nameWithType: NotifyRows.GetFromIdxPersonIdAsync
+  fullName: SuperOffice.CRM.Rows.NotifyRows.GetFromIdxPersonIdAsync
 - uid: SuperOffice.Data.SoDataReader.Read
   commentId: M:SuperOffice.Data.SoDataReader.Read
   isExternal: true

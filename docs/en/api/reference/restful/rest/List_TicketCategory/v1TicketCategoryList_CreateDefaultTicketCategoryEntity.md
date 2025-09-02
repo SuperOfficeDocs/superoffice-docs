@@ -2,6 +2,7 @@
 title: GET List/TicketCategory/Items/Default
 uid: v1TicketCategoryList_CreateDefaultTicketCategoryEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/TicketCategory/Items/Default
@@ -72,7 +73,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,36 +83,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 457,
-  "ParentId": 523,
-  "Name": "Grimes LLC",
-  "Fullname": "cumque",
-  "CategoryMaster": 2,
+  "TicketCategoryId": 124,
+  "ParentId": 887,
+  "Name": "Franecki LLC",
+  "Fullname": "molestiae",
+  "CategoryMaster": 212,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Pfeffer Inc and Sons",
+  "ExternalName": "Green Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 664,
-  "ReplyTemplate": 244,
-  "NotificationEmail": "nathan@osinski.biz",
+  "AssignmentLag": 576,
+  "ReplyTemplate": 681,
+  "NotificationEmail": "willow.harvey@morar.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 558,
+  "EffectiveReplyTemplateId": 220,
   "ExtraFields": {
-    "ExtraFields1": "hic",
-    "ExtraFields2": "exercitationem"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "eum"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "libero"
+    "CustomFields1": "ipsam",
+    "CustomFields2": "debitis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldLength": 438
     }
   }
 }

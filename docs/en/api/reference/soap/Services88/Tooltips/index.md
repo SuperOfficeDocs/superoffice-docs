@@ -2,6 +2,7 @@
 title: Services88.TooltipsAgent SOAP
 uid: Services88-Tooltips-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Tooltips SOAP

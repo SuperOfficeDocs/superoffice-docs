@@ -2,6 +2,7 @@
 title: GET List/TicketType
 uid: v1TicketTypeList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/TicketType
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 810,
-  "Name": "Kshlerin-King",
-  "Tooltip": "quo",
-  "Deleted": true,
-  "Rank": 486,
+  "Id": 896,
+  "Name": "Moen-Kertzmann",
+  "Tooltip": "sunt",
+  "Deleted": false,
+  "Rank": 652,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "UseGroupsAndHeadings": true,
+  "ListType": "corrupti",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 456
+      "FieldType": "System.String",
+      "FieldLength": 381
     }
   },
   "_Links": {

@@ -2,6 +2,7 @@
 title: Services88.SaleAgent.IsNumberValid SOAP
 generated: true
 uid: Services88-Sale-IsNumberValid
+content_type: reference
 ---
 
 # Services88 Sale IsNumberValid

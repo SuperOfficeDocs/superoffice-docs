@@ -2,6 +2,7 @@
 title: PUT List/TicketStatus/Items/{id}
 uid: v1TicketStatusList_PutTicketStatusEntity
 generated: true
+content_type: reference
 ---
 
 # PUT List/TicketStatus/Items/{id}
@@ -86,12 +87,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 334,
-  "Name": "Kertzmann Inc and Sons",
+  "TicketStatusId": 77,
+  "Name": "Rosenbaum-Torp",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
-  "IsDefault": true,
+  "NoEmailReopen": true,
+  "IsDefault": false,
   "UsedInQueue": false
 }
 ```
@@ -103,8 +104,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 852,
-  "Name": "Gleichner, Swift and Feil",
+  "TicketStatusId": 956,
+  "Name": "Walter Group",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
@@ -115,7 +116,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 997
+      "FieldLength": 303
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/Chat/SaveChatSessionEntity
 uid: v1ChatAgent_SaveChatSessionEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/SaveChatSessionEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Chat/SaveChatSessionEntity
 ```
 
-Updates the existing ChatSessionEntity or creates a new ChatSessionEntity if the id parameter is empty
+Updates the existing ChatSessionEntity or creates a new ChatSessionEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing ChatSessionEntity or creates a new ChatSessionEntity if the
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: chatSessionEntity 
 
-The ChatSessionEntity to be saved. 
+The ChatSessionEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -127,29 +128,29 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 673,
-  "TopicId": 129,
+  "ChatSessionId": 49,
+  "TopicId": 964,
   "User": null,
   "Person": null,
-  "CustomerAlias": "porro",
-  "CustomerHost": "iste",
-  "CustomerName": "Willms, Nikolaus and Rice",
-  "CustomerEmail": "timmothy.bins@dibbertolson.uk",
-  "CustomerPhone": "694.244.4123 x96980",
+  "CustomerAlias": "et",
+  "CustomerHost": "similique",
+  "CustomerName": "Ledner-Berge",
+  "CustomerEmail": "pasquale.graham@wardcummerata.com",
+  "CustomerPhone": "(486)442-6515",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Wolf, Gerhold and Wolff",
+  "CustomerCompanyName": "Emmerich, Tremblay and Rowe",
   "Status": "Closed",
-  "FirstMessage": "molestiae",
-  "LastMessage": "repellat",
-  "WhenRequested": "2018-03-15T03:45:22.9985914+01:00",
-  "WhenStarted": "2007-05-16T03:45:22.9985914+02:00",
-  "WhenEnded": "2011-10-26T03:45:22.9985914+02:00",
-  "WhenIdle": "2002-12-22T03:45:22.9985914+01:00",
-  "WhenFetched": "2007-11-16T03:45:22.9985914+01:00",
-  "SessionKey": "eius",
-  "InitialQueuePos": 668,
-  "AlertLevel": 434,
-  "Rank": 753,
+  "FirstMessage": "nihil",
+  "LastMessage": "suscipit",
+  "WhenRequested": "2021-05-15T03:46:54.3320222+02:00",
+  "WhenStarted": "2013-08-12T03:46:54.3320222+02:00",
+  "WhenEnded": "2016-12-19T03:46:54.3320222+01:00",
+  "WhenIdle": "1998-12-25T03:46:54.3320222+01:00",
+  "WhenFetched": "2015-06-21T03:46:54.3320222+02:00",
+  "SessionKey": "officia",
+  "InitialQueuePos": 790,
+  "AlertLevel": 945,
+  "Rank": 645,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -157,7 +158,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 965
+  "Rating": 623
 }
 ```
 
@@ -168,29 +169,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 515,
-  "TopicId": 76,
+  "ChatSessionId": 659,
+  "TopicId": 607,
   "User": null,
   "Person": null,
-  "CustomerAlias": "asperiores",
-  "CustomerHost": "in",
-  "CustomerName": "Jerde-Dicki",
-  "CustomerEmail": "lottie@wehner.ca",
-  "CustomerPhone": "(340)110-2988",
+  "CustomerAlias": "repudiandae",
+  "CustomerHost": "qui",
+  "CustomerName": "Dach-Spencer",
+  "CustomerEmail": "daryl.murazik@schaeferyost.ca",
+  "CustomerPhone": "(205)085-8171 x21171",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Fisher-Muller",
+  "CustomerCompanyName": "Dare Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "sunt",
-  "LastMessage": "iste",
-  "WhenRequested": "2023-04-27T03:45:23.0142166+02:00",
-  "WhenStarted": "2004-10-07T03:45:23.0142166+02:00",
-  "WhenEnded": "2025-01-09T03:45:23.0142166+01:00",
-  "WhenIdle": "2020-02-20T03:45:23.0142166+01:00",
-  "WhenFetched": "2005-12-20T03:45:23.0142166+01:00",
-  "SessionKey": "quos",
-  "InitialQueuePos": 555,
-  "AlertLevel": 52,
-  "Rank": 438,
+  "FirstMessage": "maiores",
+  "LastMessage": "omnis",
+  "WhenRequested": "2017-12-19T03:46:54.3320222+01:00",
+  "WhenStarted": "2013-01-25T03:46:54.3320222+01:00",
+  "WhenEnded": "2007-11-15T03:46:54.3320222+01:00",
+  "WhenIdle": "2017-10-02T03:46:54.3320222+02:00",
+  "WhenFetched": "2018-09-30T03:46:54.3320222+02:00",
+  "SessionKey": "et",
+  "InitialQueuePos": 117,
+  "AlertLevel": 168,
+  "Rank": 869,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -198,13 +199,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 200,
+  "Rating": 236,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 489
+      "FieldType": "System.Int32",
+      "FieldLength": 357
     }
   }
 }

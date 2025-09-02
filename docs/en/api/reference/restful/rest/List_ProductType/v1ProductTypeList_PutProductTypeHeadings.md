@@ -2,6 +2,7 @@
 title: PUT List/ProductType/Headings
 uid: v1ProductTypeList_PutProductTypeHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProductType/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 951,
-    "Name": "Casper-Streich",
-    "Tooltip": "non",
+    "HeadingId": 566,
+    "Name": "Farrell, Wintheiser and Grimes",
+    "Tooltip": "commodi",
     "Deleted": true,
-    "Rank": 785,
-    "UdListDefinitionId": 20
+    "Rank": 137,
+    "UdListDefinitionId": 747
   },
   {
-    "HeadingId": 951,
-    "Name": "Casper-Streich",
-    "Tooltip": "non",
+    "HeadingId": 566,
+    "Name": "Farrell, Wintheiser and Grimes",
+    "Tooltip": "commodi",
     "Deleted": true,
-    "Rank": 785,
-    "UdListDefinitionId": 20
+    "Rank": 137,
+    "UdListDefinitionId": 747
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 1001,
-    "Name": "Oberbrunner-Romaguera",
-    "Tooltip": "architecto",
+    "HeadingId": 369,
+    "Name": "McDermott, Grant and Kirlin",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "Rank": 716,
-    "UdListDefinitionId": 794,
+    "Rank": 685,
+    "UdListDefinitionId": 445,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 956
+        "FieldLength": 764
       }
     }
   }

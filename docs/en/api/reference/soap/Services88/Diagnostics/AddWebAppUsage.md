@@ -2,6 +2,7 @@
 title: Services88.DiagnosticsAgent.AddWebAppUsage SOAP
 generated: true
 uid: Services88-Diagnostics-AddWebAppUsage
+content_type: reference
 ---
 
 # Services88 Diagnostics AddWebAppUsage
@@ -43,7 +44,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Diagnostics:WebAppUsage xsi:type="Diagnostics:WebAppUsage">
       <Diagnostics:WebAppUsageId xsi:type="xsd:int">0</Diagnostics:WebAppUsageId>
       <Diagnostics:AssocId xsi:type="xsd:int">0</Diagnostics:AssocId>
-      <Diagnostics:Timestamp xsi:type="xsd:dateTime">2025-06-26T01:43:38Z</Diagnostics:Timestamp>
+      <Diagnostics:Timestamp xsi:type="xsd:dateTime">2025-08-30T01:45:11Z</Diagnostics:Timestamp>
       <Diagnostics:ViewState xsi:type="xsd:string"></Diagnostics:ViewState>
       <Diagnostics:AggregateCount xsi:type="xsd:unsignedInt">0</Diagnostics:AggregateCount>
       <Diagnostics:AggregateBin xsi:type="xsd:unsignedInt">0</Diagnostics:AggregateBin>

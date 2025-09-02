@@ -2,6 +2,7 @@
 title: PUT List/SelectionCategory/Items/{id}/UserGroups
 uid: v1SelectionCategoryList_PutSelectionCategoryUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/SelectionCategory/Items/{id}/UserGroups
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 696,
-    "Name": "Beer, Yost and Roob",
-    "ToolTip": "Repellat nulla natus porro enim odit voluptas incidunt.",
-    "Deleted": false,
-    "Rank": 755,
-    "Type": "qui",
-    "ColorBlock": 959,
-    "IconHint": "quo",
+    "Id": 887,
+    "Name": "Koepp-Mueller",
+    "ToolTip": "Voluptatem dolorum consectetur eos.",
+    "Deleted": true,
+    "Rank": 872,
+    "Type": "repudiandae",
+    "ColorBlock": 896,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2023-08-31T03:45:29.2327869+02:00",
+    "LastChanged": "2009-04-25T03:47:00.8161673+02:00",
     "ChildItems": [
       {
-        "Id": 836,
-        "Name": "Nader LLC",
-        "ToolTip": "Ea nam omnis.",
+        "Id": 921,
+        "Name": "Ward Group",
+        "ToolTip": "Recusandae possimus facere.",
         "Deleted": false,
-        "Rank": 545,
-        "Type": "nesciunt",
-        "ColorBlock": 346,
-        "IconHint": "in",
+        "Rank": 360,
+        "Type": "cum",
+        "ColorBlock": 561,
+        "IconHint": "natus",
         "Selected": false,
-        "LastChanged": "2007-01-16T03:45:29.2327869+01:00",
+        "LastChanged": "2010-08-17T03:47:00.8161673+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "ea",
+        "ExtraInfo": "rerum",
+        "StyleHint": "cupiditate",
         "Hidden": true,
-        "FullName": "Prof. Jan Arvid Osinski PhD"
+        "FullName": "Miss Mason Beatty DVM"
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Ben O'Hara"
+    "ExtraInfo": "asperiores",
+    "StyleHint": "omnis",
+    "Hidden": false,
+    "FullName": "Jude Harvey"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 772,
-    "Name": "Jakubowski Group",
-    "ToolTip": "Et reprehenderit voluptatem veritatis non accusamus architecto vero.",
-    "Deleted": false,
-    "Rank": 984,
-    "Type": "sed",
-    "ColorBlock": 626,
-    "IconHint": "sed",
+    "Id": 558,
+    "Name": "Schuppe, White and Hilpert",
+    "ToolTip": "Quis in.",
+    "Deleted": true,
+    "Rank": 90,
+    "Type": "iure",
+    "ColorBlock": 275,
+    "IconHint": "velit",
     "Selected": true,
-    "LastChanged": "2008-04-06T03:45:29.2327869+02:00",
+    "LastChanged": "2006-01-23T03:47:00.8161673+01:00",
     "ChildItems": [
       {
-        "Id": 480,
-        "Name": "Schulist-Fahey",
-        "ToolTip": "Laboriosam et sit sunt eveniet neque.",
+        "Id": 234,
+        "Name": "Maggio-McCullough",
+        "ToolTip": "Enim eum voluptatem vel rerum in ut dolor.",
         "Deleted": false,
-        "Rank": 426,
-        "Type": "qui",
-        "ColorBlock": 543,
-        "IconHint": "beatae",
+        "Rank": 405,
+        "Type": "molestias",
+        "ColorBlock": 136,
+        "IconHint": "accusantium",
         "Selected": false,
-        "LastChanged": "2001-03-31T03:45:29.2327869+02:00",
+        "LastChanged": "2020-09-09T03:47:00.8161673+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "nihil",
-        "Hidden": true,
-        "FullName": "Prof. Jamison Fritsch",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "dicta",
+        "Hidden": false,
+        "FullName": "Dovie Willms",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 41
+            "FieldLength": 834
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "libero",
-    "Hidden": true,
-    "FullName": "Yessenia Luettgen",
+    "ExtraInfo": "nam",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Mrs. Marguerite Romaguera",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 509
+        "FieldType": "System.String",
+        "FieldLength": 18
       }
     }
   }

@@ -2,13 +2,13 @@
 uid: table-QuoteApprReason
 title: QuoteApprReason table
 description: Predefined reasons for quote approval
-so.generated: true
+generated: true
 keywords: database table QuoteApprReason
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
-# QuoteApprReason Table (525)
+# QuoteApprReason Table (526)
 
 QuoteApprReason MDO list item table.
 Predefined reasons for quote approval

@@ -2,6 +2,7 @@
 title: GET List/DocumentTemplate/Items
 uid: v1DocumentTemplateList_GetAllDocumentTemplateEntity
 generated: true
+content_type: reference
 ---
 
 # GET List/DocumentTemplate/Items
@@ -91,7 +92,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,37 +103,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 742,
-    "Name": "Bogisich, Hettinger and Batz",
-    "Tooltip": "similique",
-    "SaveInDb": 424,
-    "Filename": "a",
-    "DefaultOref": "voluptas",
+    "DocumentTemplateId": 460,
+    "Name": "Haag, Koepp and Swift",
+    "Tooltip": "consequatur",
+    "SaveInDb": 133,
+    "Filename": "hic",
+    "DefaultOref": "sint",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 746,
-    "IntentId": 437,
+    "AutoeventId": 493,
+    "IntentId": 64,
     "IsDefaultPublished": true,
-    "Rank": 520,
-    "LoadTemplateFromPlugin": 699,
-    "MimeType": "voluptas",
+    "Rank": 988,
+    "LoadTemplateFromPlugin": 203,
+    "MimeType": "voluptatem",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 482,
+    "DocumentTypeKey": 818,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "laney_kuphal@emard.biz",
+    "EmailSubject": "susie.hane@jacobs.us",
     "IncludeSignature": true,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "macey@heathcoteschumm.ca",
+    "SenderEmailAddress": "carolyn.little@herzog.ca",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 292
+        "FieldLength": 125
       }
     }
   }

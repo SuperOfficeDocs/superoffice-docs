@@ -2,6 +2,7 @@
 title: Services88.UserAgent.GetCredentialUsersInGroup SOAP
 generated: true
 uid: Services88-User-GetCredentialUsersInGroup
+content_type: reference
 ---
 
 # Services88 User GetCredentialUsersInGroup

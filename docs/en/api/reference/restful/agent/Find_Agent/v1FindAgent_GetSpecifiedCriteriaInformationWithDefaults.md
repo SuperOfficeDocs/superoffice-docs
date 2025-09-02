@@ -2,6 +2,7 @@
 title: POST Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 uid: v1FindAgent_GetSpecifiedCriteriaInformationWithDefaults
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
@@ -86,16 +87,16 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Little, Koepp and Mitchell",
-  "StorageKey": "alias",
+  "StorageType": "dicta",
+  "ProviderName": "Abernathy, Stehr and Mayer",
+  "StorageKey": "quos",
   "DesiredColumnNames": [
-    "Donnelly, Stoltenberg and Zieme",
-    "Osinski, Dietrich and Schinner"
+    "Homenick, Kautzer and Beier",
+    "Simonis-Mann"
   ],
   "StaticColumns": [
-    "dolorem",
-    "esse"
+    "in",
+    "qui"
   ]
 }
 ```
@@ -109,15 +110,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Ullrich-Dickinson",
-      "Operator": "totam",
+      "Name": "Veum-Hackett",
+      "Operator": "fugiat",
       "Values": [
-        "quibusdam",
-        "modi"
+        "ducimus",
+        "non"
       ],
       "DisplayValues": [
-        "fugiat",
-        "saepe"
+        "et",
+        "accusamus"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -125,65 +126,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 702,
+      "InterParenthesis": 38,
       "InterOperator": "And",
-      "UniqueHash": 675
+      "UniqueHash": 860
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Murazik Group",
-      "DisplayTooltip": "totam",
-      "DisplayType": "sequi",
+      "DisplayName": "Erdman-Kertzmann",
+      "DisplayTooltip": "amet",
+      "DisplayType": "quia",
       "CanOrderBy": true,
-      "Name": "Emmerich Group",
-      "CanRestrictBy": false,
-      "RestrictionType": "repellat",
-      "RestrictionListName": "Glover, Nader and Klein",
+      "Name": "Morissette-Bins",
+      "CanRestrictBy": true,
+      "RestrictionType": "deleniti",
+      "RestrictionListName": "Heaney Group",
       "IsVisible": false,
-      "ExtraInfo": "accusantium",
-      "Width": "eius",
-      "IconHint": "possimus",
-      "HeadingIconHint": "ex"
+      "ExtraInfo": "aut",
+      "Width": "maxime",
+      "IconHint": "et",
+      "HeadingIconHint": "numquam"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Russel-Corwin",
-      "PrimaryKey": 390,
+      "EntityName": "Roob Inc and Sons",
+      "PrimaryKey": 727,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sed",
-          "TooltipHint": "eum",
-          "LinkHint": "ut"
+          "DisplayValue": "molestiae",
+          "TooltipHint": "excepturi",
+          "LinkHint": "iure"
         }
       },
-      "LinkHint": "est",
-      "StyleHint": "voluptates",
+      "LinkHint": "et",
+      "StyleHint": "quaerat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 65
+          "FieldType": "System.Int32",
+          "FieldLength": 796
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Pacocha LLC",
-      "Description": "Organized national paradigm",
-      "Rank": 818,
+      "Name": "Rath Group",
+      "Description": "Secured dynamic firmware",
+      "Rank": 2,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Pacocha LLC",
-      "Description": "Organized national paradigm",
-      "Rank": 818,
+      "Name": "Rath Group",
+      "Description": "Secured dynamic firmware",
+      "Rank": 2,
       "Restrictions": [
         {},
         {}
@@ -195,7 +196,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 93
+      "FieldLength": 731
     }
   }
 }

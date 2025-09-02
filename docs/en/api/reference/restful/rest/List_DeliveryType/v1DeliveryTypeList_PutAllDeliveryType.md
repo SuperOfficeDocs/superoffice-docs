@@ -2,6 +2,7 @@
 title: PUT List/DeliveryType/Items
 uid: v1DeliveryTypeList_PutAllDeliveryType
 generated: true
+content_type: reference
 ---
 
 # PUT List/DeliveryType/Items
@@ -73,25 +74,25 @@ OK
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 785,
-    "Name": "Wisozk-Streich",
-    "Tooltip": "quod",
+    "Id": 166,
+    "Name": "Heaney-Hilll",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 934,
-    "Rank": 2
+    "UdListDefinitionId": 875,
+    "Rank": 200
   },
   {
-    "Id": 785,
-    "Name": "Wisozk-Streich",
-    "Tooltip": "quod",
+    "Id": 166,
+    "Name": "Heaney-Hilll",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 934,
-    "Rank": 2
+    "UdListDefinitionId": 875,
+    "Rank": 200
   }
 ]
 ```
@@ -104,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 465,
-    "Name": "Mitchell-Beatty",
+    "Id": 766,
+    "Name": "Muller-Cummings",
     "Tooltip": "repellendus",
     "Deleted": false,
-    "UdListDefinitionId": 137,
-    "Rank": 949,
+    "UdListDefinitionId": 785,
+    "Rank": 413,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 995
+        "FieldLength": 220
       }
     }
   }

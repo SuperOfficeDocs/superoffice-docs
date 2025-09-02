@@ -2,6 +2,7 @@
 title: POST Agents/Chat/SaveChatPresence
 uid: v1ChatAgent_SaveChatPresence
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/SaveChatPresence
@@ -64,29 +65,29 @@ No Content
 POST /api/v1/Agents/Chat/SaveChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ChatPresence": [
     {
-      "UserId": 488,
-      "DisplayName": "Predovic Group",
-      "OngoingChats": 377,
-      "Present": false,
+      "UserId": 203,
+      "DisplayName": "Luettgen-Ebert",
+      "OngoingChats": 606,
+      "Present": true,
       "ChatTopics": [
-        423,
-        668
+        659,
+        646
       ]
     },
     {
-      "UserId": 488,
-      "DisplayName": "Predovic Group",
-      "OngoingChats": 377,
-      "Present": false,
+      "UserId": 203,
+      "DisplayName": "Luettgen-Ebert",
+      "OngoingChats": 606,
+      "Present": true,
       "ChatTopics": [
-        423,
-        668
+        659,
+        646
       ]
     }
   ]

@@ -2,6 +2,7 @@
 title: GET List/ProductCategory
 uid: v1ProductCategoryList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/ProductCategory
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 350,
-  "Name": "Corwin, Waelchi and McGlynn",
-  "Tooltip": "dolor",
-  "Deleted": true,
-  "Rank": 345,
+  "Id": 901,
+  "Name": "Hills-Dach",
+  "Tooltip": "adipisci",
+  "Deleted": false,
+  "Rank": 721,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "cumque",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "placeat",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 673
+      "FieldType": "System.String",
+      "FieldLength": 665
     }
   },
   "_Links": {

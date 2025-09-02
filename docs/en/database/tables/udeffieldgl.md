@@ -2,10 +2,10 @@
 uid: table-UDefFieldGL
 title: UDefFieldGL table
 description: User group link table for UDefField, for MDO item hiding
-so.generated: true
+generated: true
 keywords: database table UDefFieldGL
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # UDefFieldGL Table (147)

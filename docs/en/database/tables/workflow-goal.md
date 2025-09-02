@@ -2,13 +2,13 @@
 uid: table-workflow_goal
 title: workflow_goal table
 description: A set of goals related to a workflow. Some goals will have search criterias associated with it to determine if the goal has been reached.
-so.generated: true
+generated: true
 keywords: database table workflow_goal
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
-# workflow\_goal Table (513)
+# workflow\_goal Table (514)
 
 A set of goals related to a workflow. Some goals will have search criterias associated with it to determine if the goal has been reached.
 

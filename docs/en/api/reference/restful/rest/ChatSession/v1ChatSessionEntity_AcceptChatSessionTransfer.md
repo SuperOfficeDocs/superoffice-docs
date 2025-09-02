@@ -2,6 +2,7 @@
 title: POST ChatSession/{id}/AcceptTransfer
 uid: v1ChatSessionEntity_AcceptChatSessionTransfer
 generated: true
+content_type: reference
 ---
 
 # POST ChatSession/{id}/AcceptTransfer
@@ -91,7 +92,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/AcceptTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,43 +102,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 605,
-  "TopicId": 17,
+  "ChatSessionId": 748,
+  "TopicId": 887,
   "User": null,
   "Person": null,
-  "CustomerAlias": "dolor",
-  "CustomerHost": "laudantium",
-  "CustomerName": "McLaughlin Group",
-  "CustomerEmail": "gretchen.mclaughlin@dubuque.com",
-  "CustomerPhone": "414.618.8280 x2754",
+  "CustomerAlias": "autem",
+  "CustomerHost": "omnis",
+  "CustomerName": "Stark-Wilkinson",
+  "CustomerEmail": "mabelle.renner@wintheiserkling.uk",
+  "CustomerPhone": "(097)734-1866 x6854",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Schroeder, Boyle and Jacobson",
+  "CustomerCompanyName": "Langosh-Hilpert",
   "Status": "Closed",
-  "FirstMessage": "qui",
-  "LastMessage": "autem",
-  "WhenRequested": "2004-12-21T03:45:28.1234472+01:00",
-  "WhenStarted": "2004-08-13T03:45:28.1234472+02:00",
-  "WhenEnded": "2007-06-15T03:45:28.1234472+02:00",
-  "WhenIdle": "1998-03-26T03:45:28.1234472+01:00",
-  "WhenFetched": "2016-08-05T03:45:28.1234472+02:00",
-  "SessionKey": "velit",
-  "InitialQueuePos": 156,
-  "AlertLevel": 732,
-  "Rank": 744,
+  "FirstMessage": "nulla",
+  "LastMessage": "velit",
+  "WhenRequested": "2023-12-11T03:46:59.7693215+01:00",
+  "WhenStarted": "2007-12-31T03:46:59.7693215+01:00",
+  "WhenEnded": "2011-06-30T03:46:59.7693215+02:00",
+  "WhenIdle": "2009-08-07T03:46:59.7693215+02:00",
+  "WhenFetched": "2015-06-07T03:46:59.7693215+02:00",
+  "SessionKey": "aperiam",
+  "InitialQueuePos": 6,
+  "AlertLevel": 625,
+  "Rank": 36,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 704,
+  "ChatbotIsActive": false,
+  "Rating": 156,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 367
+      "FieldType": "System.Int32",
+      "FieldLength": 805
     }
   }
 }

@@ -2,6 +2,7 @@
 title: PUT List/{id}/Items/{id}/UserGroups
 uid: v1ListItemEntity_SetVisibleForUserGroups
 generated: true
+content_type: reference
 ---
 
 # PUT List/{id}/Items/{id}/UserGroups
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 138,
-    "Name": "Kub, Waelchi and Dicki",
-    "ToolTip": "Modi cum placeat aut quae non.",
+    "Id": 58,
+    "Name": "Lesch, Fay and Feil",
+    "ToolTip": "Ad et.",
     "Deleted": false,
-    "Rank": 160,
-    "Type": "nemo",
-    "ColorBlock": 587,
-    "IconHint": "perferendis",
+    "Rank": 480,
+    "Type": "soluta",
+    "ColorBlock": 140,
+    "IconHint": "aspernatur",
     "Selected": false,
-    "LastChanged": "2014-10-21T03:45:28.9517993+02:00",
+    "LastChanged": "2012-12-03T03:47:00.5505518+01:00",
     "ChildItems": [
       {
-        "Id": 357,
-        "Name": "Feest-Mertz",
-        "ToolTip": "Sit enim corporis ut est.",
+        "Id": 881,
+        "Name": "Kilback Group",
+        "ToolTip": "Ipsam sunt.",
         "Deleted": false,
-        "Rank": 313,
-        "Type": "velit",
-        "ColorBlock": 112,
-        "IconHint": "officiis",
-        "Selected": false,
-        "LastChanged": "2020-08-04T03:45:28.9517993+02:00",
+        "Rank": 478,
+        "Type": "reiciendis",
+        "ColorBlock": 572,
+        "IconHint": "recusandae",
+        "Selected": true,
+        "LastChanged": "2020-08-03T03:47:00.5505518+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "laudantium",
+        "ExtraInfo": "a",
+        "StyleHint": "minima",
         "Hidden": true,
-        "FullName": "Robin Rogahn"
+        "FullName": "Santiago Treutel"
       }
     ],
-    "ExtraInfo": "repellat",
-    "StyleHint": "quae",
+    "ExtraInfo": "nisi",
+    "StyleHint": "iure",
     "Hidden": false,
-    "FullName": "Mr. Stephany Kirlin"
+    "FullName": "Winona Prudence Gerlach V"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 438,
-    "Name": "Kilback-Lehner",
-    "ToolTip": "Minima ipsa et ea.",
+    "Id": 920,
+    "Name": "Rath LLC",
+    "ToolTip": "Consequatur rerum similique animi perferendis.",
     "Deleted": true,
-    "Rank": 69,
-    "Type": "praesentium",
-    "ColorBlock": 150,
-    "IconHint": "iure",
+    "Rank": 983,
+    "Type": "incidunt",
+    "ColorBlock": 832,
+    "IconHint": "veritatis",
     "Selected": false,
-    "LastChanged": "2011-06-03T03:45:28.9517993+02:00",
+    "LastChanged": "2010-10-05T03:47:00.5505518+02:00",
     "ChildItems": [
       {
-        "Id": 905,
-        "Name": "Kovacek-Bode",
-        "ToolTip": "Illo non voluptas voluptate corporis.",
+        "Id": 758,
+        "Name": "Cassin LLC",
+        "ToolTip": "Alias amet officia qui ab voluptatem facere voluptas.",
         "Deleted": false,
-        "Rank": 925,
-        "Type": "tempora",
-        "ColorBlock": 470,
-        "IconHint": "nemo",
-        "Selected": true,
-        "LastChanged": "2016-04-22T03:45:28.9517993+02:00",
+        "Rank": 132,
+        "Type": "quidem",
+        "ColorBlock": 127,
+        "IconHint": "quam",
+        "Selected": false,
+        "LastChanged": "2007-07-26T03:47:00.5505518+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "minus",
+        "ExtraInfo": "ut",
+        "StyleHint": "aliquid",
         "Hidden": false,
-        "FullName": "Aryanna Hoeger",
+        "FullName": "Theodore McDermott",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 711
+            "FieldLength": 659
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "et",
+    "ExtraInfo": "eligendi",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Vickie Keshawn Beatty Sr.",
+    "FullName": "Aurelio Rippin DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 524
+        "FieldLength": 178
       }
     }
   }

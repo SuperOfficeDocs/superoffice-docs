@@ -2,6 +2,7 @@
 title: POST Agents/EMail/CreateDefaultEMailAppointment
 uid: v1EMailAgent_CreateDefaultEMailAppointment
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/CreateDefaultEMailAppointment
@@ -10,10 +11,7 @@ generated: true
 POST /api/v1/Agents/EMail/CreateDefaultEMailAppointment
 ```
 
-Set default values into a new EMailAppointment.
-
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
+Loading default values into a new EMailAppointment.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -67,7 +65,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,20 +78,20 @@ Content-Type: application/json; charset=utf-8
   "Appointment": null,
   "CalMethod": "Add",
   "Participants": [
-    "laborum",
-    "repellat"
+    "et",
+    "laborum"
   ],
-  "Comment": "consequatur",
-  "Sequence": 568,
-  "DtStart": "2014-06-14T03:45:23.4048314+02:00",
-  "DtEnd": "2015-11-16T03:45:23.4048314+01:00",
-  "Superseded": true,
+  "Comment": "quo",
+  "Sequence": 605,
+  "DtStart": "2011-08-29T03:46:54.7695066+02:00",
+  "DtEnd": "2000-05-16T03:46:54.7695066+02:00",
+  "Superseded": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldLength": 95
     }
   }
 }

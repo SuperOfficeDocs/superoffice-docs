@@ -2,6 +2,7 @@
 title: GET User/Default
 uid: v1User_CreateDefaultUserFromUserTypeAndPersonId
 generated: true
+content_type: reference
 ---
 
 # GET User/Default
@@ -32,7 +33,7 @@ System and Anonymous users can be created without an exsisting person and permit
 
 ```http
 GET /api/v1/User/Default?userType=AnonymousAssociate
-GET /api/v1/User/Default?personId=709
+GET /api/v1/User/Default?personId=85
 ```
 
 
@@ -96,7 +97,7 @@ OK
 GET /api/v1/User/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -106,14 +107,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 286,
-  "Name": "West, Walsh and Spencer",
-  "Rank": 395,
-  "Tooltip": "quidem",
+  "AssociateId": 740,
+  "Name": "Bailey Group",
+  "Rank": 713,
+  "Tooltip": "occaecati",
   "LicenseOwners": [
     {
-      "Name": "Stracke, Okuneva and Morar",
-      "Description": "Optimized global function",
+      "Name": "Mertz Inc and Sons",
+      "Description": "Implemented 4th generation portal",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,14 +127,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 361
+          "FieldType": "System.String",
+          "FieldLength": 781
         }
       }
     },
     {
-      "Name": "Stracke, Okuneva and Morar",
-      "Description": "Optimized global function",
+      "Name": "Mertz Inc and Sons",
+      "Description": "Implemented 4th generation portal",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -146,8 +147,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 361
+          "FieldType": "System.String",
+          "FieldLength": 781
         }
       }
     }
@@ -156,110 +157,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "ea",
-      "Tooltip": "vel",
-      "Id": 38,
-      "Rank": 899,
+      "Value": "voluptate",
+      "Tooltip": "consequuntur",
+      "Id": 991,
+      "Rank": 676,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 672
+          "FieldLength": 682
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2005-08-27T03:45:28.8734254+02:00",
-  "Lastlogout": "2021-03-14T03:45:28.8734254+01:00",
-  "EjUserId": 606,
-  "RequestSignature": "et",
+  "Lastlogin": "2003-11-05T03:47:00.5349272+01:00",
+  "Lastlogout": "2021-03-12T03:47:00.5349272+01:00",
+  "EjUserId": 60,
+  "RequestSignature": "debitis",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": false,
+  "IsPersonRetired": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "nisi",
-      "DisplayValue": "tenetur",
+      "Value": "in",
+      "DisplayValue": "magni",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 656
+          "FieldLength": 153
         }
       }
     },
     {
       "Type": null,
-      "Value": "nisi",
-      "DisplayValue": "tenetur",
+      "Value": "in",
+      "DisplayValue": "magni",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 656
+          "FieldLength": 153
         }
       }
     }
   ],
-  "UserName": "West-Beahan",
+  "UserName": "Crona LLC",
   "TicketCategories": [
     {
-      "Id": 843,
-      "Name": "Graham-Green",
-      "ToolTip": "Repellat error voluptate culpa.",
-      "Deleted": true,
-      "Rank": 566,
-      "Type": "et",
+      "Id": 200,
+      "Name": "Hoeger Group",
+      "ToolTip": "Reiciendis saepe impedit maxime.",
+      "Deleted": false,
+      "Rank": 256,
+      "Type": "architecto",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sit",
-      "ColorBlock": 479,
-      "ExtraInfo": "magnam",
-      "StyleHint": "aut",
-      "FullName": "Mr. Audreanne Jayson Schulist PhD",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 217
-        }
-      }
-    }
-  ],
-  "NickName": "Rippin, Gorczany and Welch",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "animi",
-    "ExtraFields2": "hic"
-  },
-  "CustomFields": {
-    "CustomFields1": "impedit",
-    "CustomFields2": "et"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Kihn, Schuppe and Ondricka",
-      "DisplayName": "Monahan LLC",
-      "Description": "Reactive cohesive software",
-      "ToolTip": "Qui et occaecati magnam officia ut.",
-      "Actions": "Implicit",
-      "ActionData": "nisi",
+      "IconHint": "enim",
+      "ColorBlock": 387,
+      "ExtraInfo": "recusandae",
+      "StyleHint": "sed",
+      "FullName": "Alize DuBuque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 364
+          "FieldLength": 829
+        }
+      }
+    }
+  ],
+  "NickName": "Collins, Thiel and Romaguera",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "facere",
+    "ExtraFields2": "rem"
+  },
+  "CustomFields": {
+    "CustomFields1": "aut",
+    "CustomFields2": "at"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Stroman-Kihn",
+      "DisplayName": "Fay-Ritchie",
+      "Description": "Innovative bandwidth-monitored middleware",
+      "ToolTip": "Illum voluptas illum fugit deleniti.",
+      "Actions": "Implicit",
+      "ActionData": "et",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 713
         }
       }
     }
@@ -269,7 +270,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 565
+      "FieldLength": 981
     }
   }
 }

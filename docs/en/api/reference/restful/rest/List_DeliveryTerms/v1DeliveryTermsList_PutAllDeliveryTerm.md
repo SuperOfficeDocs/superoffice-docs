@@ -2,6 +2,7 @@
 title: PUT List/DeliveryTerm/Items
 uid: v1DeliveryTermsList_PutAllDeliveryTerm
 generated: true
+content_type: reference
 ---
 
 # PUT List/DeliveryTerm/Items
@@ -73,25 +74,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 127,
-    "Name": "Lind, Ebert and Franecki",
-    "Tooltip": "deserunt",
+    "Id": 326,
+    "Name": "Hermiston, Abshire and Jaskolski",
+    "Tooltip": "inventore",
     "Deleted": false,
-    "UdListDefinitionId": 714,
-    "Rank": 754
+    "UdListDefinitionId": 936,
+    "Rank": 774
   },
   {
-    "Id": 127,
-    "Name": "Lind, Ebert and Franecki",
-    "Tooltip": "deserunt",
+    "Id": 326,
+    "Name": "Hermiston, Abshire and Jaskolski",
+    "Tooltip": "inventore",
     "Deleted": false,
-    "UdListDefinitionId": 714,
-    "Rank": 754
+    "UdListDefinitionId": 936,
+    "Rank": 774
   }
 ]
 ```
@@ -104,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 641,
-    "Name": "Schmitt, Kulas and Block",
-    "Tooltip": "est",
+    "Id": 157,
+    "Name": "Maggio-Hane",
+    "Tooltip": "non",
     "Deleted": true,
-    "UdListDefinitionId": 670,
-    "Rank": 219,
+    "UdListDefinitionId": 16,
+    "Rank": 677,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 646
+        "FieldLength": 799
       }
     }
   }

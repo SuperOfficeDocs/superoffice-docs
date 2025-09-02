@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/CheckIfCustomizedTemplates
 uid: v1CustomerServiceAgent_CheckIfCustomizedTemplates
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/CheckIfCustomizedTemplates
@@ -60,7 +61,7 @@ OK
 POST /api/v1/Agents/CustomerService/CheckIfCustomizedTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,5 +70,5 @@ Accept-Language: *
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

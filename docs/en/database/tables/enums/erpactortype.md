@@ -2,10 +2,10 @@
 uid: enum-erpactortype
 title: Enum values for ErpActorType
 description: Lists the enum values for ErpActorType.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ErpActorType Enum

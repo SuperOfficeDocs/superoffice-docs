@@ -2,6 +2,7 @@
 title: Services88.UserAgent.SetExternalUserInfo SOAP
 generated: true
 uid: Services88-User-SetExternalUserInfo
+content_type: reference
 ---
 
 # Services88 User SetExternalUserInfo

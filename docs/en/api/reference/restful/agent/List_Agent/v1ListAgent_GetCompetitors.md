@@ -2,6 +2,7 @@
 title: POST Agents/List/GetCompetitors
 uid: v1ListAgent_GetCompetitors
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetCompetitors
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/List/GetCompetitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 54,
-    "Value": "ea",
-    "Tooltip": "quia",
+    "Id": 242,
+    "Value": "voluptatem",
+    "Tooltip": "nesciunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 451
+        "FieldType": "System.Int32",
+        "FieldLength": 425
       }
     }
   },
   {
-    "Id": 54,
-    "Value": "ea",
-    "Tooltip": "quia",
+    "Id": 242,
+    "Value": "voluptatem",
+    "Tooltip": "nesciunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 451
+        "FieldType": "System.Int32",
+        "FieldLength": 425
       }
     }
   }

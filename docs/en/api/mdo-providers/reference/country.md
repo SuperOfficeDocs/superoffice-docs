@@ -3,9 +3,9 @@ uid: country
 title: country
 keywords: mdoprovider mdo provider country
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "country" MDO List

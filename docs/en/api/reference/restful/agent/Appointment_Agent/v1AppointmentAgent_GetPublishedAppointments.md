@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetPublishedAppointments
 uid: v1AppointmentAgent_GetPublishedAppointments
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetPublishedAppointments
@@ -112,6 +113,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -131,8 +133,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    184,
-    314
+    657,
+    114
   ]
 }
 ```
@@ -145,66 +147,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 131,
-    "StartDate": "1999-05-09T03:45:22.7017267+02:00",
-    "EndDate": "2013-07-16T03:45:22.7017267+02:00",
+    "AppointmentId": 587,
+    "StartDate": "2001-03-29T03:46:54.0039095+02:00",
+    "EndDate": "2018-11-05T03:46:54.0039095+01:00",
     "Type": "BookingForChecklist",
-    "Task": "illum",
-    "AssociateFullName": "Alanis Jedediah Mohr IV",
-    "ContactName": "Stanton Inc and Sons",
-    "Description": "Streamlined tertiary projection",
-    "PersonFullName": "Olin Hyatt Jr.",
-    "PersonId": 100,
-    "ContactId": 160,
-    "ProjectId": 412,
-    "ProjectName": "Zemlak-Krajcik",
+    "Task": "aliquid",
+    "AssociateFullName": "Myra Conroy",
+    "ContactName": "Lehner Group",
+    "Description": "Business-focused mobile success",
+    "PersonFullName": "Justine Lubowitz",
+    "PersonId": 149,
+    "ContactId": 352,
+    "ProjectId": 957,
+    "ProjectName": "Farrell, Frami and Zboncak",
     "IsPublished": true,
-    "AssociateId": 538,
-    "ColorIndex": 709,
-    "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "AssociateId": 599,
+    "ColorIndex": 841,
+    "IsFree": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 263,
-    "PriorityName": "Kris-Crooks",
+    "PriorityId": 183,
+    "PriorityName": "Welch Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2001-06-13T03:45:22.7017267+02:00",
+    "ActiveDate": "2019-08-15T03:46:54.0039095+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2011-04-06T03:45:22.7017267+02:00",
-    "RecurringEndDate": "2015-04-03T03:45:22.7017267+02:00",
-    "MotherId": 347,
-    "AssignedBy": 111,
-    "AssignedByFullName": "Miss Abner Rey Mitchell Sr.",
+    "RecurringStartDate": "2000-08-19T03:46:54.0039095+02:00",
+    "RecurringEndDate": "2023-05-20T03:46:54.0039095+02:00",
+    "MotherId": 295,
+    "AssignedBy": 504,
+    "AssignedByFullName": "Nathaniel Deckow",
     "RejectReason": "",
-    "Location": "consequatur",
-    "AlarmLeadTime": "autem",
-    "SaleId": 408,
-    "SaleName": "Pfeffer-Koch",
-    "AssociateName": "Gerhold-Lowe",
-    "CreatedDate": "2023-08-21T03:45:22.7017267+02:00",
-    "CreatedBy": "fugit",
-    "CreatedByFullName": "Lucile Geovanni Kemmer II",
-    "CreatedByAssociateId": 468,
+    "Location": "voluptatem",
+    "AlarmLeadTime": "eos",
+    "SaleId": 479,
+    "SaleName": "Douglas Group",
+    "AssociateName": "Lubowitz, Zboncak and Emard",
+    "CreatedDate": "2010-04-14T03:46:54.0039095+02:00",
+    "CreatedBy": "facilis",
+    "CreatedByFullName": "Leatha Williamson",
+    "CreatedByAssociateId": 148,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 753,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 461,
-    "Title": "non",
-    "Agenda": "et",
-    "InternalNotes": "mollitia",
+    "PreferredTZLocation": 560,
+    "Title": "reiciendis",
+    "Agenda": "provident",
+    "InternalNotes": "tempora",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 573
+        "FieldType": "System.String",
+        "FieldLength": 313
       }
     }
   }

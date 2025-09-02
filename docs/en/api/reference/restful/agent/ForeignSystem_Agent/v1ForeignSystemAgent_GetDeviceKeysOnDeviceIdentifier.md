@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 uid: v1ForeignSystemAgent_GetDeviceKeysOnDeviceIdentifier
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
@@ -82,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "McDermott, Buckridge and Hayes",
-  "DeviceName": "Monahan Inc and Sons",
-  "DeviceIdentifier": "quam"
+  "ApplicationName": "Gaylord-Cummerata",
+  "DeviceName": "Rodriguez, Rogahn and Windler",
+  "DeviceIdentifier": "soluta"
 }
 ```
 
@@ -100,20 +101,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "animi",
-    "Value": "quaerat",
-    "RecordId": 481,
-    "CreatedDate": "2011-03-22T03:45:23.498579+01:00",
-    "UpdatedDate": "2018-09-03T03:45:23.498579+02:00",
-    "UpdatedBy": "perferendis",
-    "CreatedBy": "laboriosam",
-    "TableName": "Koch Inc and Sons",
+    "Key": "nisi",
+    "Value": "aliquid",
+    "RecordId": 672,
+    "CreatedDate": "2016-06-28T03:46:54.9107593+02:00",
+    "UpdatedDate": "2000-12-25T03:46:54.9107593+01:00",
+    "UpdatedBy": "dolorem",
+    "CreatedBy": "rerum",
+    "TableName": "Abernathy Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 941
+        "FieldType": "System.String",
+        "FieldLength": 392
       }
     }
   }

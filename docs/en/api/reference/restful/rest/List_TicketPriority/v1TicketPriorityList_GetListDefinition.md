@@ -2,6 +2,7 @@
 title: GET List/TicketPriority
 uid: v1TicketPriorityList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/TicketPriority
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/TicketPriority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,27 +76,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 490,
-  "Name": "Abernathy-Waters",
-  "Tooltip": "fugiat",
+  "Id": 859,
+  "Name": "Daugherty-Fisher",
+  "Tooltip": "laudantium",
   "Deleted": false,
-  "Rank": 959,
-  "IsCustomList": false,
+  "Rank": 95,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "sed",
-  "InUseByUserDefinedFields": true,
+  "ListType": "deleniti",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 482
+      "FieldType": "System.String",
+      "FieldLength": 24
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

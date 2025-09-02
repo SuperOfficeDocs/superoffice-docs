@@ -2,6 +2,7 @@
 title: POST Agents/AI/GetSummarizeSalePrompt
 uid: v1AIAgent_GetSummarizeSalePrompt
 generated: true
+content_type: reference
 ---
 
 # POST Agents/AI/GetSummarizeSalePrompt
@@ -81,13 +82,13 @@ OK
 POST /api/v1/Agents/AI/GetSummarizeSalePrompt
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 624,
-  "NumSentences": 563,
-  "Summary": "cum",
+  "SaleId": 923,
+  "NumSentences": 397,
+  "Summary": "quibusdam",
   "IsoLangCode": "est"
 }
 ```
@@ -99,17 +100,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2003-10-15T03:45:22.6704778+02:00",
-  "UserPrompt": "eveniet",
-  "UserDisplayText": "doloribus",
-  "BotResponse": "unde",
+  "Timestamp": "2018-09-11T03:46:53.9726601+02:00",
+  "UserPrompt": "fugiat",
+  "UserDisplayText": "qui",
+  "BotResponse": "et",
   "BotActions": {
-    "BotActions1": "aperiam",
-    "BotActions2": "inventore"
+    "BotActions1": "sit",
+    "BotActions2": "accusantium"
   },
   "Attachments": [
-    "quis",
-    "atque"
+    "necessitatibus",
+    "doloremque"
   ]
 }
 ```

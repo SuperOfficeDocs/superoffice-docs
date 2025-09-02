@@ -2,10 +2,10 @@
 uid: enum-doctmpldirection
 title: Enum values for DocTmplDirection
 description: Lists the enum values for DocTmplDirection.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # DocTmplDirection Enum

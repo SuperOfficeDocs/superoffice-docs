@@ -2,6 +2,7 @@
 title: GET Contact/{id}/Summary
 uid: v1ContactEntity_GetContactSummary
 generated: true
+content_type: reference
 ---
 
 # GET Contact/{id}/Summary
@@ -29,7 +30,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=990
+GET /api/v1/Contact/{contactId}/Summary?limit=167
 ```
 
 
@@ -72,7 +73,7 @@ OK
 GET /api/v1/Contact/{contactId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,79 +86,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 224,
-      "TicketStatus": 318,
-      "Title": "quia",
-      "Registered": "2021-08-07T03:45:28.2171945+02:00",
-      "IconHint": "odio"
+      "TicketId": 365,
+      "TicketStatus": 174,
+      "Title": "molestiae",
+      "Registered": "2013-03-09T03:46:59.8786923+01:00",
+      "IconHint": "ut"
     },
     {
-      "TicketId": 224,
-      "TicketStatus": 318,
-      "Title": "quia",
-      "Registered": "2021-08-07T03:45:28.2171945+02:00",
-      "IconHint": "odio"
+      "TicketId": 365,
+      "TicketStatus": 174,
+      "Title": "molestiae",
+      "Registered": "2013-03-09T03:46:59.8786923+01:00",
+      "IconHint": "ut"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 242,
-      "DocumentId": 479,
-      "Date": "2002-12-27T03:45:28.2171945+01:00",
-      "Description": "Customer-focused logistical website",
+      "AppointmentId": 132,
+      "DocumentId": 474,
+      "Date": "2020-11-03T03:46:59.8786923+01:00",
+      "Description": "Assimilated even-keeled portal",
       "Completed": "Completed",
-      "Registered": "2008-12-30T03:45:28.2171945+01:00"
+      "Registered": "1999-04-21T03:46:59.8786923+02:00"
     },
     {
-      "AppointmentId": 242,
-      "DocumentId": 479,
-      "Date": "2002-12-27T03:45:28.2171945+01:00",
-      "Description": "Customer-focused logistical website",
+      "AppointmentId": 132,
+      "DocumentId": 474,
+      "Date": "2020-11-03T03:46:59.8786923+01:00",
+      "Description": "Assimilated even-keeled portal",
       "Completed": "Completed",
-      "Registered": "2008-12-30T03:45:28.2171945+01:00"
+      "Registered": "1999-04-21T03:46:59.8786923+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 471,
-      "DocumentId": 884,
-      "Date": "2004-07-19T03:45:28.2171945+02:00",
-      "Description": "Object-based leading edge solution",
+      "AppointmentId": 117,
+      "DocumentId": 244,
+      "Date": "2024-09-06T03:46:59.8786923+02:00",
+      "Description": "Monitored assymetric initiative",
       "Completed": "Completed",
-      "Registered": "2019-04-18T03:45:28.2171945+02:00"
+      "Registered": "2019-01-14T03:46:59.8786923+01:00"
     },
     {
-      "AppointmentId": 471,
-      "DocumentId": 884,
-      "Date": "2004-07-19T03:45:28.2171945+02:00",
-      "Description": "Object-based leading edge solution",
+      "AppointmentId": 117,
+      "DocumentId": 244,
+      "Date": "2024-09-06T03:46:59.8786923+02:00",
+      "Description": "Monitored assymetric initiative",
       "Completed": "Completed",
-      "Registered": "2019-04-18T03:45:28.2171945+02:00"
+      "Registered": "2019-01-14T03:46:59.8786923+01:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 615,
-      "SaleDate": "2007-02-13T03:45:28.2171945+01:00",
-      "Probability": 865,
-      "Heading": "laboriosam",
-      "Amount": 12604.948,
-      "Currency": "quam",
-      "AmountInBaseCurrency": 2732.848,
+      "SaleId": 236,
+      "SaleDate": "2005-02-02T03:46:59.8786923+01:00",
+      "Probability": 312,
+      "Heading": "sit",
+      "Amount": 23103.847999999998,
+      "Currency": "eum",
+      "AmountInBaseCurrency": 24269.696,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2006-01-05T03:45:28.2171945+01:00"
+      "Registered": "2012-02-13T03:46:59.8786923+01:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 349,
-      "Name": "Deckow LLC",
-      "CompanyName": "Schroeder Group",
-      "FirstMessage": "harum",
-      "LastMessage": "reprehenderit",
-      "WhenRequested": "2000-03-09T03:45:28.2171945+01:00",
-      "WhenEnded": "2006-01-15T03:45:28.2171945+01:00"
+      "ChatSessionId": 957,
+      "Name": "Leuschke, Morar and Jakubowski",
+      "CompanyName": "Pacocha-Wehner",
+      "FirstMessage": "placeat",
+      "LastMessage": "nam",
+      "WhenRequested": "2003-09-15T03:46:59.8786923+02:00",
+      "WhenEnded": "2015-08-05T03:46:59.8786923+02:00"
     }
   ]
 }

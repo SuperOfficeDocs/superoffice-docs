@@ -2,6 +2,7 @@
 title: Services88.SelectionAgent.DeletePersons SOAP
 generated: true
 uid: Services88-Selection-DeletePersons
+content_type: reference
 ---
 
 # Services88 Selection DeletePersons

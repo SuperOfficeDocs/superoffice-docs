@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.TestSmtpServer SOAP
 generated: true
 uid: Services88-CustomerService-TestSmtpServer
+content_type: reference
 ---
 
 # Services88 CustomerService TestSmtpServer

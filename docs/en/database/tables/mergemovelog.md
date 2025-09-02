@@ -2,10 +2,10 @@
 uid: table-MergeMoveLog
 title: MergeMoveLog table
 description: Log of merge and move operations (person, contact, project)
-so.generated: true
+generated: true
 keywords: database table MergeMoveLog
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # MergeMoveLog Table (37)

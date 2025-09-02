@@ -2,6 +2,7 @@
 title: POST Agents/BLOB/GetBlobEntity
 uid: v1BLOBAgent_GetBlobEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BLOB/GetBlobEntity
@@ -22,11 +23,11 @@ Gets a BlobEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| blobEntityId | int32 | **Required** The primary key. |
+| blobEntityId | int32 | **Required** The identifier of the BlobEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=496
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=632
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -79,7 +80,7 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,25 +90,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 192,
-  "BlobSize": 20,
-  "Description": "Persistent static monitoring",
-  "ExtraInfo": "recusandae",
+  "BlobId": 738,
+  "BlobSize": 303,
+  "Description": "Reactive needs-based superstructure",
+  "ExtraInfo": "deleniti",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "est",
-  "OriginalSize": 23,
-  "CreatedDate": "2017-07-22T03:45:22.9829669+02:00",
-  "UpdatedDate": "2019-10-24T03:45:22.9829669+02:00",
+  "MimeType": "facilis",
+  "OriginalSize": 725,
+  "CreatedDate": "2009-06-27T03:46:54.3007673+02:00",
+  "UpdatedDate": "2001-01-19T03:46:54.3007673+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quis",
+  "ConceptualType": "rem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 61
+      "FieldType": "System.String",
+      "FieldLength": 939
     }
   }
 }

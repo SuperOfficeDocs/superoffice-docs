@@ -3,9 +3,9 @@ uid: QuoteLineShadowDynamicSelectionSingleCriteriaGroup
 title: QuoteLineShadowDynamicSelectionSingleCriteriaGroup
 description: Shadow contact provider for the dynamic quoteline provider.
 keywords: QuoteLineShadowDynamicSelectionSingleCriteriaGroup archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "QuoteLineShadowDynamicSelectionSingleCriteriaGroup"
@@ -763,7 +763,7 @@ Shadow contact provider for the dynamic quoteline provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLineShadowDynamicSelectionSingleCriteriaGroup?$select=alternative/version/quote/sale/icon,alternative/version/quote/sale/person/mrMrs,alternative/version/quote/sale/person/kanaLastName,alternative/version/quote/sale/person/restrictionAddress/state,alternative/version/quote/sale/person/personExtra/x_person_shorttext
+GET /api/v1/archive/QuoteLineShadowDynamicSelectionSingleCriteriaGroup?$select=alternative/version/quote/sale/person/personAssociate/personId,alternative/version/quote/sale/person/correspondingAssociate/assocName,alternative/version/quote/sale/contact/email/emailBounceCount,alternative/version/quote/sale/contact/contactAssociate/contactName,alternative/version/quote/sale/contact/NumberOfNotCompletedSalesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -2,6 +2,7 @@
 title: PUT List/Credited/Items/{id}
 uid: v1CreditedList_PutCredited
 generated: true
+content_type: reference
 ---
 
 # PUT List/Credited/Items/{id}
@@ -78,16 +79,16 @@ OK
 PUT /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 180,
-  "Name": "Schmeler Group",
-  "Tooltip": "ullam",
+  "Id": 880,
+  "Name": "Funk, Crona and Anderson",
+  "Tooltip": "eos",
   "Deleted": false,
-  "UdListDefinitionId": 769,
-  "Rank": 725
+  "UdListDefinitionId": 868,
+  "Rank": 912
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 454,
-  "Name": "Ward, Zulauf and Kirlin",
-  "Tooltip": "odio",
+  "Id": 25,
+  "Name": "Ledner Inc and Sons",
+  "Tooltip": "nemo",
   "Deleted": false,
-  "UdListDefinitionId": 374,
-  "Rank": 238,
+  "UdListDefinitionId": 193,
+  "Rank": 267,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 202
+      "FieldType": "System.Int32",
+      "FieldLength": 992
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/CRMScript/CreateDefaultTriggerScriptEntity
 uid: v1CRMScriptAgent_CreateDefaultTriggerScriptEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CRMScript/CreateDefaultTriggerScriptEntity
@@ -10,10 +11,7 @@ generated: true
 POST /api/v1/Agents/CRMScript/CreateDefaultTriggerScriptEntity
 ```
 
-Set default values into a new TriggerScriptEntity.
-
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
+Loading default values into a new TriggerScriptEntity.
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -69,7 +67,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,22 +77,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 786,
-  "Name": "Farrell Group",
+  "ScreenChooserId": 843,
+  "Name": "Streich, Okuneva and Carroll",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "dolores",
-  "Source": "nam",
-  "Registered": "2001-07-05T03:45:23.2329582+02:00",
-  "RegisteredAssociateId": 297,
-  "Updated": "2015-04-26T03:45:23.2329582+02:00",
-  "UpdatedAssociateId": 381,
+  "Enabled": true,
+  "UniqueIdentifier": "quia",
+  "Source": "quo",
+  "Registered": "2015-11-20T03:46:54.5820132+01:00",
+  "RegisteredAssociateId": 533,
+  "Updated": "2005-05-25T03:46:54.5820132+02:00",
+  "UpdatedAssociateId": 852,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 722
+      "FieldType": "System.String",
+      "FieldLength": 709
     }
   }
 }

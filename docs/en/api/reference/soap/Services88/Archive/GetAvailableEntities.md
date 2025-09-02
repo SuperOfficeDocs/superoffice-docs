@@ -2,6 +2,7 @@
 title: Services88.ArchiveAgent.GetAvailableEntities SOAP
 generated: true
 uid: Services88-Archive-GetAvailableEntities
+content_type: reference
 ---
 
 # Services88 Archive GetAvailableEntities

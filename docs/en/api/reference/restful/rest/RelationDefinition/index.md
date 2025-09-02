@@ -1,6 +1,8 @@
 ---
+uid: tag-RelationDefinition
 title: RelationDefinition
 generated: true
+content_type: reference
 ---
 
 ```http

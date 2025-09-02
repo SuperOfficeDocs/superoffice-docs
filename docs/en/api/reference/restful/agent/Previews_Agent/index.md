@@ -1,6 +1,8 @@
 ---
+uid: tag-Previews_Agent
 title: Previews_Agent
 generated: true
+content_type: reference
 ---
 
 ```http

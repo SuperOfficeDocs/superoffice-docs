@@ -2,6 +2,7 @@
 title: POST Agents/Archive/SetColumnWidths
 uid: v1ArchiveAgent_SetColumnWidths
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/SetColumnWidths
@@ -69,10 +70,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Murazik LLC",
+  "GuiName": "Spencer LLC",
   "ColumnWidths": [
-    "sed",
-    "vel"
+    "vero",
+    "rerum"
   ]
 }
 ```

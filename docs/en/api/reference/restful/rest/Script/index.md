@@ -1,6 +1,8 @@
 ---
+uid: tag-Script
 title: Script
 generated: true
+content_type: reference
 ---
 
 ```http

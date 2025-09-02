@@ -2,6 +2,7 @@
 title: Services88.ListAgent.MoveListItem SOAP
 generated: true
 uid: Services88-List-MoveListItem
+content_type: reference
 ---
 
 # Services88 List MoveListItem

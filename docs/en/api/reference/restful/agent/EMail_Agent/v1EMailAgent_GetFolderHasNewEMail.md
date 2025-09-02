@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetFolderHasNewEMail
 uid: v1EMailAgent_GetFolderHasNewEMail
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetFolderHasNewEMail
@@ -70,7 +71,7 @@ OK
 POST /api/v1/Agents/EMail/GetFolderHasNewEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {

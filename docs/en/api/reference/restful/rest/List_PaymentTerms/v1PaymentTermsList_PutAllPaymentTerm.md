@@ -2,6 +2,7 @@
 title: PUT List/PaymentTerm/Items
 uid: v1PaymentTermsList_PutAllPaymentTerm
 generated: true
+content_type: reference
 ---
 
 # PUT List/PaymentTerm/Items
@@ -78,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 719,
-    "Name": "Beier Inc and Sons",
-    "Tooltip": "sapiente",
-    "Deleted": false,
-    "UdListDefinitionId": 298,
-    "Rank": 634
+    "Id": 564,
+    "Name": "Pagac LLC",
+    "Tooltip": "facilis",
+    "Deleted": true,
+    "UdListDefinitionId": 84,
+    "Rank": 216
   },
   {
-    "Id": 719,
-    "Name": "Beier Inc and Sons",
-    "Tooltip": "sapiente",
-    "Deleted": false,
-    "UdListDefinitionId": 298,
-    "Rank": 634
+    "Id": 564,
+    "Name": "Pagac LLC",
+    "Tooltip": "facilis",
+    "Deleted": true,
+    "UdListDefinitionId": 84,
+    "Rank": 216
   }
 ]
 ```
@@ -104,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 38,
-    "Name": "Auer, Parker and Cassin",
-    "Tooltip": "rerum",
-    "Deleted": true,
-    "UdListDefinitionId": 538,
+    "Id": 871,
+    "Name": "Padberg-Pagac",
+    "Tooltip": "aut",
+    "Deleted": false,
+    "UdListDefinitionId": 98,
     "Rank": 961,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 264
+        "FieldType": "System.Int32",
+        "FieldLength": 824
       }
     }
   }

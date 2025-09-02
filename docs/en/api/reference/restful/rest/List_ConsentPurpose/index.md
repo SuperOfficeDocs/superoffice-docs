@@ -1,6 +1,8 @@
 ---
+uid: tag-List_ConsentPurpose
 title: List_ConsentPurpose
 generated: true
+content_type: reference
 ---
 
 ```http

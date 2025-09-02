@@ -2,10 +2,10 @@
 uid: table-ImportObject
 title: ImportObject table
 description: Import object types - see localetext for names.
-so.generated: true
+generated: true
 keywords: database table ImportObject
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ImportObject Table (186)

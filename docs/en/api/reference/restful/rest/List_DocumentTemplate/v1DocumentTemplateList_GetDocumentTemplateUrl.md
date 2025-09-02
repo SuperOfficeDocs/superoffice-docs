@@ -2,6 +2,7 @@
 title: GET List/DocumentTemplate/Items/{id}/Url
 uid: v1DocumentTemplateList_GetDocumentTemplateUrl
 generated: true
+content_type: reference
 ---
 
 # GET List/DocumentTemplate/Items/{id}/Url
@@ -30,8 +31,8 @@ Get a url to the document template
 | languageCode | string |  The language code ('en-US', 'nb-NO', etc). Use empty string if not supported or used. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?writableUrl=True
-GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?languageCode=quia
+GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?writableUrl=False
+GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?languageCode=beatae
 ```
 
 

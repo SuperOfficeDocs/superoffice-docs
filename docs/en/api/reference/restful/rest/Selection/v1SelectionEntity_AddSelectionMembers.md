@@ -2,6 +2,7 @@
 title: POST Selection/{id}/Members/Add
 uid: v1SelectionEntity_AddSelectionMembers
 generated: true
+content_type: reference
 ---
 
 # POST Selection/{id}/Members/Add
@@ -68,5 +69,5 @@ Accept-Language: fr,de,ru,zh
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-943
+274
 ```

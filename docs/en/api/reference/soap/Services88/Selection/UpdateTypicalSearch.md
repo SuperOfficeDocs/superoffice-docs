@@ -2,6 +2,7 @@
 title: Services88.SelectionAgent.UpdateTypicalSearch SOAP
 generated: true
 uid: Services88-Selection-UpdateTypicalSearch
+content_type: reference
 ---
 
 # Services88 Selection UpdateTypicalSearch

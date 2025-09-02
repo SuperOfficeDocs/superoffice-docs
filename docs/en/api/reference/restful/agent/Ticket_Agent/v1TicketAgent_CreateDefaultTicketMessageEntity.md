@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/CreateDefaultTicketMessageEntity
 uid: v1TicketAgent_CreateDefaultTicketMessageEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/CreateDefaultTicketMessageEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 ```
 
-Set default values into a new TicketMessageEntity.
+Loading default values into a new TicketMessageEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -82,7 +81,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,28 +91,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 577,
+  "EjMessageId": 293,
   "Ticket": null,
-  "CreatedAt": "2001-11-28T03:45:24.0298098+01:00",
+  "CreatedAt": "2005-09-17T03:46:55.5351045+02:00",
   "CreatedBy": null,
-  "Author": "pariatur",
+  "Author": "iste",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "officia",
-  "TimeSpent": 132,
-  "Body": "ducimus",
-  "HtmlBody": "delectus",
-  "EmailHeader": "mariane.kuvalis@goldner.com",
-  "DebugInfo": "aspernatur",
-  "MailSorter": "ad",
+  "MessageId": "atque",
+  "TimeSpent": 610,
+  "Body": "qui",
+  "HtmlBody": "veritatis",
+  "EmailHeader": "raymundo.schumm@strosin.co.uk",
+  "DebugInfo": "ut",
+  "MailSorter": "illum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "expedita",
+  "SearchTitle": "labore",
   "MessageHeaders": [
     {
-      "Id": 915,
-      "Name": "Graham-Kovacek",
-      "Value": "hic",
+      "Id": 183,
+      "Name": "Satterfield-Koelpin",
+      "Value": "odio",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,50 +120,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 270
+          "FieldLength": 108
         }
       }
     }
   ],
   "Important": false,
   "Language": "magni",
-  "Sentiment": 160,
-  "SentimentConfidence": 437,
+  "Sentiment": 179,
+  "SentimentConfidence": 832,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 422,
-      "Name": "Bogan, Wiza and Langosh",
-      "ContentType": "earum",
-      "AttSize": 255,
-      "InlineImage": false,
-      "ContentId": "est",
-      "AuthKey": "nisi",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 425,
+      "Name": "Toy LLC",
+      "ContentType": "deserunt",
+      "AttSize": 142,
+      "InlineImage": true,
+      "ContentId": "vel",
+      "AuthKey": "quibusdam",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 269
+          "FieldType": "System.Int32",
+          "FieldLength": 743
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "architecto",
-    "ExtraFields2": "minima"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "ullam"
+    "CustomFields1": "omnis",
+    "CustomFields2": "omnis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 611
+      "FieldType": "System.String",
+      "FieldLength": 303
     }
   }
 }

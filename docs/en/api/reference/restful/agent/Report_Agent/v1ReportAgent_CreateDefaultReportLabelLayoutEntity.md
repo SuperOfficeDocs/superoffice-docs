@@ -2,6 +2,7 @@
 title: POST Agents/Report/CreateDefaultReportLabelLayoutEntity
 uid: v1ReportAgent_CreateDefaultReportLabelLayoutEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Report/CreateDefaultReportLabelLayoutEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 ```
 
-Set default values into a new ReportLabelLayoutEntity.
+Loading default values into a new ReportLabelLayoutEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -68,7 +67,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,24 +77,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 40,
-  "Name": "Heathcote Inc and Sons",
-  "Description": "Reduced hybrid hardware",
+  "ReportLabelLayoutId": 873,
+  "Name": "Steuber Group",
+  "Description": "Re-engineered heuristic matrix",
   "Orientation": "Landscape",
-  "PaperWidth": 669,
-  "PaperHeight": 293,
-  "LeftMargin": 124,
-  "RightMargin": 546,
-  "TopMargin": 738,
-  "BottomMargin": 199,
-  "CountColumns": 844,
-  "CountRows": 985,
+  "PaperWidth": 705,
+  "PaperHeight": 611,
+  "LeftMargin": 276,
+  "RightMargin": 580,
+  "TopMargin": 924,
+  "BottomMargin": 635,
+  "CountColumns": 293,
+  "CountRows": 732,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldType": "System.String",
+      "FieldLength": 560
     }
   }
 }

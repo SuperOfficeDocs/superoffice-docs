@@ -2,6 +2,7 @@
 title: POST Agents/Tooltips/GetTooltip
 uid: v1TooltipsAgent_GetTooltip
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Tooltips/GetTooltip
@@ -74,7 +75,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TooltipHint": "molestias"
+  "TooltipHint": "dolorem"
 }
 ```
 
@@ -84,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"non"
+"autem"
 ```

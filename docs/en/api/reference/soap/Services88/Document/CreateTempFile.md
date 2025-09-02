@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.CreateTempFile SOAP
 generated: true
 uid: Services88-Document-CreateTempFile
+content_type: reference
 ---
 
 # Services88 Document CreateTempFile

@@ -2,6 +2,7 @@
 title: PUT List/PaymentType/Items/{id}
 uid: v1PaymentTypeList_PutPaymentType
 generated: true
+content_type: reference
 ---
 
 # PUT List/PaymentType/Items/{id}
@@ -82,12 +83,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 460,
-  "Name": "Kulas-Bernier",
-  "Tooltip": "non",
+  "Id": 539,
+  "Name": "Bahringer LLC",
+  "Tooltip": "perspiciatis",
   "Deleted": false,
-  "UdListDefinitionId": 592,
-  "Rank": 834
+  "UdListDefinitionId": 576,
+  "Rank": 307
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 550,
-  "Name": "Ritchie-Schuster",
-  "Tooltip": "cumque",
-  "Deleted": false,
-  "UdListDefinitionId": 325,
-  "Rank": 351,
+  "Id": 931,
+  "Name": "Barton Inc and Sons",
+  "Tooltip": "quae",
+  "Deleted": true,
+  "UdListDefinitionId": 381,
+  "Rank": 421,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 14
+      "FieldType": "System.Int32",
+      "FieldLength": 470
     }
   }
 }

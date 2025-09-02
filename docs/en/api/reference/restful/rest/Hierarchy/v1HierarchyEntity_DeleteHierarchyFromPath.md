@@ -2,6 +2,7 @@
 title: DEL Hierarchy/{domain}/{path}
 uid: v1HierarchyEntity_DeleteHierarchyFromPath
 generated: true
+content_type: reference
 ---
 
 # DEL Hierarchy/{domain}/{path}

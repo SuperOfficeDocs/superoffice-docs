@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/CheckSymmetricEncryption
 uid: v1CustomerServiceAgent_CheckSymmetricEncryption
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/CheckSymmetricEncryption
@@ -68,11 +69,11 @@ OK
 POST /api/v1/Agents/CustomerService/CheckSymmetricEncryption
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EncryptedString": "aut"
+  "EncryptedString": "debitis"
 }
 ```
 
@@ -82,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"nisi"
+"odio"
 ```

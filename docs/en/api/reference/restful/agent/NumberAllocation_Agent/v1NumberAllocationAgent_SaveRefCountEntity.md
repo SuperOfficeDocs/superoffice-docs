@@ -2,6 +2,7 @@
 title: POST Agents/NumberAllocation/SaveRefCountEntity
 uid: v1NumberAllocationAgent_SaveRefCountEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/NumberAllocation/SaveRefCountEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 ```
 
-Updates the existing RefCountEntity or creates a new RefCountEntity if the id parameter is empty
+Updates the existing RefCountEntity or creates a new RefCountEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing RefCountEntity or creates a new RefCountEntity if the id pa
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: refCountEntity 
 
-The RefCountEntity to be saved. 
+The RefCountEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -83,38 +84,38 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 896,
-  "Field": "nostrum",
-  "RecordId": 747,
+  "RefCountsId": 623,
+  "Field": "in",
+  "RecordId": 920,
   "SuggestedRecords": [
     {
-      "Id": 314,
-      "Name": "Greenholt, Huels and Cremin",
-      "ToolTip": "Dolores ipsum.",
+      "Id": 972,
+      "Name": "Luettgen Group",
+      "ToolTip": "Optio dolorem sed sed.",
       "Deleted": false,
-      "Rank": 805,
-      "Type": "consequuntur",
+      "Rank": 224,
+      "Type": "necessitatibus",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "tenetur",
-      "ColorBlock": 85,
-      "ExtraInfo": "maiores",
-      "StyleHint": "voluptas",
-      "FullName": "Eula D'Amore"
+      "IconHint": "sequi",
+      "ColorBlock": 199,
+      "ExtraInfo": "ut",
+      "StyleHint": "tempora",
+      "FullName": "Madeline Adams"
     }
   ],
-  "CurrentValue": 560,
-  "TravelPrefix": 863,
-  "SatPrefix": 398,
+  "CurrentValue": 53,
+  "TravelPrefix": 362,
+  "SatPrefix": 669,
   "Allocate": false,
-  "Unique": false,
-  "ReadOnly": true,
+  "Unique": true,
+  "ReadOnly": false,
   "AllowBlank": true
 }
 ```
@@ -126,49 +127,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 284,
-  "Field": "quia",
-  "RecordId": 597,
+  "RefCountsId": 308,
+  "Field": "sequi",
+  "RecordId": 175,
   "SuggestedRecords": [
     {
-      "Id": 558,
-      "Name": "Bayer-Auer",
-      "ToolTip": "Quod tempore dolores fugiat quibusdam perferendis.",
+      "Id": 677,
+      "Name": "Zulauf, Murazik and Kohler",
+      "ToolTip": "Ipsum aut asperiores repudiandae commodi odit voluptas.",
       "Deleted": false,
-      "Rank": 36,
-      "Type": "minima",
+      "Rank": 197,
+      "Type": "dignissimos",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "repellat",
-      "ColorBlock": 292,
-      "ExtraInfo": "consectetur",
-      "StyleHint": "in",
-      "FullName": "Josianne Lueilwitz",
+      "IconHint": "aut",
+      "ColorBlock": 319,
+      "ExtraInfo": "est",
+      "StyleHint": "eligendi",
+      "FullName": "Kaycee Effertz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 396
+          "FieldType": "System.String",
+          "FieldLength": 108
         }
       }
     }
   ],
-  "CurrentValue": 912,
-  "TravelPrefix": 966,
-  "SatPrefix": 324,
+  "CurrentValue": 247,
+  "TravelPrefix": 392,
+  "SatPrefix": 345,
   "Allocate": false,
   "Unique": false,
   "ReadOnly": false,
-  "AllowBlank": false,
+  "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 659
+      "FieldType": "System.String",
+      "FieldLength": 70
     }
   }
 }

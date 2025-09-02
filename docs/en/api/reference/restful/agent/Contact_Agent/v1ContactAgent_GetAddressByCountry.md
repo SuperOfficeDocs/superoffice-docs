@@ -2,6 +2,7 @@
 title: POST Agents/Contact/GetAddressByCountry
 uid: v1ContactAgent_GetAddressByCountry
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Contact/GetAddressByCountry
@@ -83,8 +84,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 97,
-  "CountryId": 805
+  "ContactId": 917,
+  "CountryId": 304
 }
 ```
 
@@ -95,41 +96,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 23059.971999999998,
-  "Wgs84Longitude": 28014.825999999997,
+  "Wgs84Latitude": 6054.888,
+  "Wgs84Longitude": 27278.336,
   "LocalizedAddress": [
     [
       {
-        "Name": "Flatley Group",
-        "Value": "sed",
-        "Tooltip": "eveniet",
-        "Label": "blanditiis",
-        "ValueLength": 763,
-        "AddressType": "omnis",
+        "Name": "Sauer, Mayert and Stoltenberg",
+        "Value": "repudiandae",
+        "Tooltip": "non",
+        "Label": "illum",
+        "ValueLength": 105,
+        "AddressType": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 61
+            "FieldLength": 809
           }
         }
       }
     ],
     [
       {
-        "Name": "Connelly-Hamill",
-        "Value": "laborum",
-        "Tooltip": "ratione",
-        "Label": "illum",
-        "ValueLength": 422,
-        "AddressType": "ipsam",
+        "Name": "Vandervort LLC",
+        "Value": "ipsam",
+        "Tooltip": "voluptatem",
+        "Label": "temporibus",
+        "ValueLength": 375,
+        "AddressType": "cumque",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 820
+            "FieldType": "System.String",
+            "FieldLength": 731
           }
         }
       }
@@ -137,13 +138,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "ullam",
+  "Formatted": "aspernatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 125
+      "FieldLength": 202
     }
   }
 }

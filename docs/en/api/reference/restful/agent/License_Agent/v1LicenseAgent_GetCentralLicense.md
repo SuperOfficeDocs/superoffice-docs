@@ -2,6 +2,7 @@
 title: POST Agents/License/GetCentralLicense
 uid: v1LicenseAgent_GetCentralLicense
 generated: true
+content_type: reference
 ---
 
 # POST Agents/License/GetCentralLicense
@@ -68,7 +69,7 @@ OK
 POST /api/v1/Agents/License/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,30 +80,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Okuneva, Schamberger and Emmerich",
-    "Description": "Object-based next generation time-frame",
+    "Name": "Gutmann, Sawayn and Murray",
+    "Description": "User-centric impactful task-force",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 766,
-        "Tooltip": "aut",
-        "CanAssign": false,
-        "Free": 368,
-        "InUse": 821,
+        "Unrestricted": false,
+        "Total": 59,
+        "Tooltip": "vel",
+        "CanAssign": true,
+        "Free": 435,
+        "InUse": 296,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 720,
-        "Name": "Walker LLC",
-        "Description": "Inverse motivating local area network",
-        "PrerequisiteModuleName": "Pfannerstill Inc and Sons",
-        "SortOrder": 456,
-        "ExtraFlags": 159,
+        "Assigned": false,
+        "ModuleLicenseId": 145,
+        "Name": "Stoltenberg-Gutkowski",
+        "Description": "User-centric next generation open architecture",
+        "PrerequisiteModuleName": "Harris-Goldner",
+        "SortOrder": 972,
+        "ExtraFlags": 242,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 413
+            "FieldType": "System.String",
+            "FieldLength": 730
           }
         }
       }
@@ -110,25 +111,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 129,
-        "Tooltip": "fugiat",
+        "Total": 392,
+        "Tooltip": "hic",
         "CanAssign": false,
-        "Free": 724,
-        "InUse": 788,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 438,
-        "Name": "Sipes, Kirlin and Mueller",
-        "Description": "Synergized empowering encryption",
-        "PrerequisiteModuleName": "Schimmel, Hills and Schamberger",
-        "SortOrder": 40,
-        "ExtraFlags": 445,
+        "Free": 424,
+        "InUse": 597,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 1001,
+        "Name": "Brakus, Nicolas and VonRueden",
+        "Description": "Focused web-enabled customer loyalty",
+        "PrerequisiteModuleName": "Terry-Fay",
+        "SortOrder": 808,
+        "ExtraFlags": 880,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 219
+            "FieldLength": 284
           }
         }
       }
@@ -138,35 +139,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 372
+        "FieldLength": 290
       }
     }
   },
   {
-    "Name": "Okuneva, Schamberger and Emmerich",
-    "Description": "Object-based next generation time-frame",
+    "Name": "Gutmann, Sawayn and Murray",
+    "Description": "User-centric impactful task-force",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 766,
-        "Tooltip": "aut",
-        "CanAssign": false,
-        "Free": 368,
-        "InUse": 821,
+        "Unrestricted": false,
+        "Total": 59,
+        "Tooltip": "vel",
+        "CanAssign": true,
+        "Free": 435,
+        "InUse": 296,
         "IsHidden": true,
-        "Assigned": true,
-        "ModuleLicenseId": 720,
-        "Name": "Walker LLC",
-        "Description": "Inverse motivating local area network",
-        "PrerequisiteModuleName": "Pfannerstill Inc and Sons",
-        "SortOrder": 456,
-        "ExtraFlags": 159,
+        "Assigned": false,
+        "ModuleLicenseId": 145,
+        "Name": "Stoltenberg-Gutkowski",
+        "Description": "User-centric next generation open architecture",
+        "PrerequisiteModuleName": "Harris-Goldner",
+        "SortOrder": 972,
+        "ExtraFlags": 242,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 413
+            "FieldType": "System.String",
+            "FieldLength": 730
           }
         }
       }
@@ -174,25 +175,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 129,
-        "Tooltip": "fugiat",
+        "Total": 392,
+        "Tooltip": "hic",
         "CanAssign": false,
-        "Free": 724,
-        "InUse": 788,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 438,
-        "Name": "Sipes, Kirlin and Mueller",
-        "Description": "Synergized empowering encryption",
-        "PrerequisiteModuleName": "Schimmel, Hills and Schamberger",
-        "SortOrder": 40,
-        "ExtraFlags": 445,
+        "Free": 424,
+        "InUse": 597,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 1001,
+        "Name": "Brakus, Nicolas and VonRueden",
+        "Description": "Focused web-enabled customer loyalty",
+        "PrerequisiteModuleName": "Terry-Fay",
+        "SortOrder": 808,
+        "ExtraFlags": 880,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 219
+            "FieldLength": 284
           }
         }
       }
@@ -202,7 +203,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 372
+        "FieldLength": 290
       }
     }
   }

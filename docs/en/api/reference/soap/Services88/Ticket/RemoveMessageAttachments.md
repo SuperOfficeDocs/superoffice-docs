@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.RemoveMessageAttachments SOAP
 generated: true
 uid: Services88-Ticket-RemoveMessageAttachments
+content_type: reference
 ---
 
 # Services88 Ticket RemoveMessageAttachments

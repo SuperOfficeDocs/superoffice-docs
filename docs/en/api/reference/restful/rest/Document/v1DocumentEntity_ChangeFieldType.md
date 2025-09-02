@@ -2,6 +2,7 @@
 title: POST Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 uid: v1DocumentEntity_ChangeFieldType
 generated: true
+content_type: reference
 ---
 
 # POST Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
@@ -30,7 +31,7 @@ Change a DocumentEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +105,7 @@ DocumentEntity found.
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -114,46 +115,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 740,
-  "ColumnId": 915,
-  "FieldDefault": "soluta",
-  "FieldHeight": 778,
-  "FieldLabel": "est",
-  "FieldLeft": 620,
-  "FieldTop": 564,
+  "UDefFieldId": 371,
+  "ColumnId": 483,
+  "FieldDefault": "in",
+  "FieldHeight": 293,
+  "FieldLabel": "et",
+  "FieldLeft": 869,
+  "FieldTop": 991,
   "FieldType": "Checkbox",
-  "FieldWidth": 226,
-  "FormatMask": "recusandae",
+  "FieldWidth": 926,
+  "FormatMask": "quidem",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 963,
-  "LabelLeft": 713,
-  "LabelTop": 512,
-  "LabelWidth": 45,
-  "LastVersionId": 222,
-  "ListTableId": 418,
+  "LabelHeight": 456,
+  "LabelLeft": 738,
+  "LabelTop": 34,
+  "LabelWidth": 406,
+  "LastVersionId": 381,
+  "ListTableId": 18,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 702,
-  "ProgId": "ducimus",
-  "IsReadOnly": true,
-  "ShortLabel": "eos",
-  "TabOrder": 606,
-  "TextLength": 924,
-  "Tooltip": "sunt",
-  "UdefIdentity": 39,
-  "UDListDefinitionId": 209,
+  "Page1LineNo": 143,
+  "ProgId": "repellat",
+  "IsReadOnly": false,
+  "ShortLabel": "officia",
+  "TabOrder": 368,
+  "TextLength": 98,
+  "Tooltip": "sed",
+  "UdefIdentity": 877,
+  "UDListDefinitionId": 375,
   "Justification": "Center",
-  "Version": 952,
-  "TemplateVariableName": "Kuvalis Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Nolan, Langworth and Zulauf",
+  "Version": 918,
+  "TemplateVariableName": "Kemmer-Greenholt",
+  "HasBeenPublished": true,
+  "MdoListName": "Flatley, Rohan and Yundt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldLength": 72
     }
   }
 }

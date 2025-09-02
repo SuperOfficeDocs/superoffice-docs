@@ -2,6 +2,7 @@
 title: PATCH ShipmentMessage/{id}
 uid: v1ShipmentMessageEntity_PatchShipmentMessageEntity
 generated: true
+content_type: reference
 ---
 
 # PATCH ShipmentMessage/{id}
@@ -128,18 +129,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "pariatur",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "pariatur",
+    "path": "et",
     "value": {}
   }
 ]
@@ -152,38 +153,38 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 835,
-  "PlainMessage": "soluta",
-  "HtmlMessage": "quos",
-  "SmsMessage": "delectus",
-  "Description": "Down-sized cohesive groupware",
-  "Subject": "dolor",
-  "FolderId": 65,
-  "HeaderField": "nisi",
-  "Design": "nobis",
+  "ShipmentMessageId": 848,
+  "PlainMessage": "aut",
+  "HtmlMessage": "magni",
+  "SmsMessage": "nemo",
+  "Description": "Front-line scalable forecast",
+  "Subject": "blanditiis",
+  "FolderId": 312,
+  "HeaderField": "optio",
+  "Design": "ratione",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Synchronised intermediate utilisation",
-  "AccessKey": "distinctio",
-  "DocumentMessage": 868,
-  "Registered": "2004-10-04T03:45:28.6546813+02:00",
-  "RegisteredAssociateId": 525,
-  "Updated": "2006-10-22T03:45:28.6546813+02:00",
-  "UpdatedAssociateId": 561,
-  "UpdatedCount": 537,
+  "LongDescription": "Grass-roots client-driven policy",
+  "AccessKey": "iste",
+  "DocumentMessage": 364,
+  "Registered": "2000-12-02T03:47:00.3005605+01:00",
+  "RegisteredAssociateId": 124,
+  "Updated": "2020-10-12T03:47:00.3005605+02:00",
+  "UpdatedAssociateId": 665,
+  "UpdatedCount": 568,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 868
+      "FieldLength": 741
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

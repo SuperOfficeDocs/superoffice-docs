@@ -2,6 +2,7 @@
 title: POST Agents/Dash/GetDash
 uid: v1DashAgent_GetDash
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/GetDash
@@ -22,11 +23,11 @@ Gets a Dash object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| dashId | int32 | **Required** The primary key. |
+| dashId | int32 | **Required** The identifier of the Dash object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDash?dashId=309
+POST /api/v1/Agents/Dash/GetDash?dashId=67
 POST /api/v1/Agents/Dash/GetDash?$select=name,department,category/id
 ```
 
@@ -79,7 +80,7 @@ OK
 POST /api/v1/Agents/Dash/GetDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,37 +90,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 382,
-  "UniqueId": "ut",
-  "Name": "Abshire Inc and Sons",
-  "Description": "Function-based bottom-line system engine",
-  "AssociateId": 486,
-  "Columns": 525,
+  "DashboardId": 528,
+  "UniqueId": "aliquid",
+  "Name": "Lesch LLC",
+  "Description": "Compatible mission-critical algorithm",
+  "AssociateId": 285,
+  "Columns": 347,
   "Theme": null,
-  "VisibleForAll": 833,
+  "VisibleForAll": 270,
   "VisibleForAssociates": [
-    892,
-    162
+    57,
+    207
   ],
   "VisibleForGroups": [
-    363,
-    91
+    467,
+    239
   ],
-  "PinForAll": 840,
+  "PinForAll": 69,
   "PinForAssociates": [
-    763,
-    45
+    112,
+    240
   ],
   "PinForGroups": [
-    340,
-    234
+    383,
+    361
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 264
+      "FieldLength": 971
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.GetTicketSummaries SOAP
 generated: true
 uid: Services88-Ticket-GetTicketSummaries
+content_type: reference
 ---
 
 # Services88 Ticket GetTicketSummaries
@@ -69,7 +70,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Ticket:TicketId xsi:type="xsd:int">0</Ticket:TicketId>
      <Ticket:TicketStatus xsi:type="xsd:int">0</Ticket:TicketStatus>
      <Ticket:Title xsi:type="xsd:string"></Ticket:Title>
-     <Ticket:Registered xsi:type="xsd:dateTime">2025-06-26T01:45:00Z</Ticket:Registered>
+     <Ticket:Registered xsi:type="xsd:dateTime">2025-08-30T01:46:33Z</Ticket:Registered>
      <Ticket:IconHint xsi:type="xsd:string"></Ticket:IconHint>
     </Ticket:TicketSummaryItem>
    </Ticket:Response>

@@ -2,6 +2,7 @@
 title: PUT List/ProductCategory/Items/{id}
 uid: v1ProductCategoryList_PutProductCategory
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProductCategory/Items/{id}
@@ -78,16 +79,16 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 581,
-  "Name": "Swift, Hayes and Von",
-  "Tooltip": "rerum",
+  "Id": 3,
+  "Name": "Weber-Johnson",
+  "Tooltip": "tempora",
   "Deleted": false,
-  "UdListDefinitionId": 110,
-  "Rank": 972
+  "UdListDefinitionId": 277,
+  "Rank": 254
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 745,
-  "Name": "McGlynn-Cummings",
-  "Tooltip": "optio",
-  "Deleted": true,
-  "UdListDefinitionId": 788,
-  "Rank": 342,
+  "Id": 796,
+  "Name": "Schiller Inc and Sons",
+  "Tooltip": "adipisci",
+  "Deleted": false,
+  "UdListDefinitionId": 656,
+  "Rank": 314,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 824
+      "FieldType": "System.String",
+      "FieldLength": 606
     }
   }
 }

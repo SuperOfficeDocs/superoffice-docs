@@ -2,6 +2,7 @@
 title: POST Agents/Find/CreateRestrictionGroup
 uid: v1FindAgent_CreateRestrictionGroup
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/CreateRestrictionGroup
@@ -77,14 +78,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quos",
-  "ProviderName": "Bailey LLC",
-  "StorageKey": "enim",
-  "Context": "ipsam"
+  "StorageType": "totam",
+  "ProviderName": "Mills, Blick and Dickens",
+  "StorageKey": "eos",
+  "Context": "autem"
 }
 ```
 
@@ -95,30 +96,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rosenbaum, Haag and Mraz",
-  "Description": "De-engineered uniform toolset",
-  "Rank": 282,
+  "Name": "Swift Inc and Sons",
+  "Description": "Cross-platform 5th generation interface",
+  "Rank": 145,
   "Restrictions": [
     {
-      "Name": "Rutherford Inc and Sons",
-      "Operator": "error",
+      "Name": "Ankunding Group",
+      "Operator": "rem",
       "Values": [
-        "fugit",
-        "est"
+        "reiciendis",
+        "sed"
       ],
       "DisplayValues": [
-        "iusto",
-        "repudiandae"
+        "laudantium",
+        "ad"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 639,
+      "InterParenthesis": 367,
       "InterOperator": "And",
-      "UniqueHash": 123
+      "UniqueHash": 976
     }
   ]
 }

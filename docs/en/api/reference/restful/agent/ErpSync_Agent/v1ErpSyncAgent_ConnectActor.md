@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/ConnectActor
 uid: v1ErpSyncAgent_ConnectActor
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/ConnectActor
@@ -75,25 +76,25 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 240,
-  "CrmRecordId": 499,
+  "ErpConnectionId": 657,
+  "CrmRecordId": 251,
   "CrmActorType": "Contact",
-  "ErpKey": "animi",
+  "ErpKey": "vel",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Hoppe, Osinski and Lind",
-      "CrmFieldKey": "quia",
-      "Value": "omnis",
-      "DisplayValue": "voluptate",
+      "DisplayName": "Lynch Group",
+      "CrmFieldKey": "quos",
+      "Value": "ducimus",
+      "DisplayValue": "possimus",
       "SyncToCrm": false,
       "SyncToErp": false
     },
     {
-      "DisplayName": "Hoppe, Osinski and Lind",
-      "CrmFieldKey": "quia",
-      "Value": "omnis",
-      "DisplayValue": "voluptate",
+      "DisplayName": "Lynch Group",
+      "CrmFieldKey": "quos",
+      "Value": "ducimus",
+      "DisplayValue": "possimus",
       "SyncToCrm": false,
       "SyncToErp": false
     }

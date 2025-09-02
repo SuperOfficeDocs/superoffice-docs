@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetDiaryByGroup
 uid: v1AppointmentAgent_GetDiaryByGroup
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetDiaryByGroup
@@ -116,6 +117,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -130,15 +132,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 151,
-  "GroupType": 424,
-  "StartTime": "2021-06-02T03:45:22.7017267+02:00",
-  "EndTime": "2025-03-29T03:45:22.7017267+01:00",
-  "Count": 702
+  "GroupId": 195,
+  "GroupType": 846,
+  "StartTime": "2010-04-10T03:46:54.0039095+02:00",
+  "EndTime": "2004-11-24T03:46:54.0039095+01:00",
+  "Count": 905
 }
 ```
 
@@ -150,66 +152,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 218,
-    "StartDate": "2000-09-07T03:45:22.7017267+02:00",
-    "EndDate": "1998-10-04T03:45:22.7017267+02:00",
+    "AppointmentId": 635,
+    "StartDate": "2020-05-30T03:46:54.0039095+02:00",
+    "EndDate": "2011-05-26T03:46:54.0039095+02:00",
     "Type": "BookingForChecklist",
-    "Task": "saepe",
-    "AssociateFullName": "Mrs. Gaetano Lucienne Bailey I",
-    "ContactName": "Crist LLC",
-    "Description": "Business-focused tertiary benchmark",
-    "PersonFullName": "Ashly Gottlieb",
-    "PersonId": 175,
-    "ContactId": 429,
-    "ProjectId": 712,
-    "ProjectName": "Ruecker Inc and Sons",
+    "Task": "qui",
+    "AssociateFullName": "Mr. Karelle Kilback",
+    "ContactName": "Kautzer-Bogisich",
+    "Description": "Exclusive local core",
+    "PersonFullName": "Stefan O'Connell",
+    "PersonId": 880,
+    "ContactId": 640,
+    "ProjectId": 638,
+    "ProjectName": "Monahan-Mueller",
     "IsPublished": true,
-    "AssociateId": 733,
-    "ColorIndex": 62,
-    "IsFree": false,
-    "HasAlarm": false,
+    "AssociateId": 497,
+    "ColorIndex": 228,
+    "IsFree": true,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 197,
-    "PriorityName": "Wilkinson, Hammes and Jakubowski",
+    "PriorityId": 832,
+    "PriorityName": "Willms-Kris",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2001-09-07T03:45:22.7017267+02:00",
+    "IsBooking": false,
+    "ActiveDate": "2016-02-29T03:46:54.0039095+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-07-18T03:45:22.7017267+02:00",
-    "RecurringEndDate": "1999-05-03T03:45:22.7017267+02:00",
-    "MotherId": 719,
-    "AssignedBy": 579,
-    "AssignedByFullName": "Hyman Wolf",
-    "RejectReason": "",
-    "Location": "autem",
-    "AlarmLeadTime": "et",
-    "SaleId": 202,
-    "SaleName": "Kerluke, Jaskolski and Beier",
-    "AssociateName": "Walker-Franecki",
-    "CreatedDate": "2006-04-07T03:45:22.7017267+02:00",
-    "CreatedBy": "rerum",
-    "CreatedByFullName": "Mrs. Pierce Rice I",
-    "CreatedByAssociateId": 290,
+    "RecurringStartDate": "2000-02-05T03:46:54.0039095+01:00",
+    "RecurringEndDate": "2004-09-06T03:46:54.0039095+02:00",
+    "MotherId": 527,
+    "AssignedBy": 334,
+    "AssignedByFullName": "Wilford Hauck",
+    "RejectReason": "synthesize front-end models",
+    "Location": "similique",
+    "AlarmLeadTime": "omnis",
+    "SaleId": 205,
+    "SaleName": "Botsford Inc and Sons",
+    "AssociateName": "Dicki-Sipes",
+    "CreatedDate": "2013-06-25T03:46:54.0039095+02:00",
+    "CreatedBy": "magni",
+    "CreatedByFullName": "Natalie Lueilwitz",
+    "CreatedByAssociateId": 940,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 702,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 603,
-    "Title": "qui",
-    "Agenda": "molestias",
-    "InternalNotes": "aut",
+    "PreferredTZLocation": 196,
+    "Title": "minus",
+    "Agenda": "tenetur",
+    "InternalNotes": "eaque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 50
+        "FieldLength": 299
       }
     }
   }

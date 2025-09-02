@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetUnsanitizedEMailFromDocumentId
 uid: v1EMailAgent_GetUnsanitizedEMailFromDocumentId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetUnsanitizedEMailFromDocumentId
@@ -103,11 +104,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 145
+  "DocumentId": 163
 }
 ```
 
@@ -120,97 +121,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 99,
-      "ContactName": "Kiehn-Kub",
-      "PersonId": 35,
-      "PersonName": "Mohr, Mosciski and Johnson",
-      "AssociateId": 915,
-      "Address": "facilis",
-      "EmailId": 12,
+      "ContactId": 798,
+      "ContactName": "Tillman Group",
+      "PersonId": 837,
+      "PersonName": "Abshire Group",
+      "AssociateId": 983,
+      "Address": "quia",
+      "EmailId": 954,
       "DuplicatePersonIds": [
-        101,
-        524
+        877,
+        989
       ],
-      "Name": "Pfannerstill-Heller",
+      "Name": "Keeling-Hand",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 824
+          "FieldLength": 408
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 560,
-      "ContactName": "Rodriguez LLC",
-      "PersonId": 766,
-      "PersonName": "Bednar Group",
-      "AssociateId": 349,
-      "Address": "voluptatum",
-      "EmailId": 209,
+      "ContactId": 324,
+      "ContactName": "Stiedemann, Torp and Keeling",
+      "PersonId": 735,
+      "PersonName": "Lebsack LLC",
+      "AssociateId": 125,
+      "Address": "rerum",
+      "EmailId": 456,
       "DuplicatePersonIds": [
-        793,
-        450
+        995,
+        888
       ],
-      "Name": "Bechtelar Inc and Sons",
+      "Name": "Pollich-Harvey",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 335
+          "FieldType": "System.String",
+          "FieldLength": 486
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 726,
-      "ContactName": "Schumm LLC",
-      "PersonId": 143,
-      "PersonName": "Grant-Rath",
-      "AssociateId": 605,
-      "Address": "eum",
-      "EmailId": 508,
+      "ContactId": 216,
+      "ContactName": "Nienow-Parker",
+      "PersonId": 484,
+      "PersonName": "Anderson, Tromp and Daugherty",
+      "AssociateId": 819,
+      "Address": "aut",
+      "EmailId": 110,
       "DuplicatePersonIds": [
-        888,
-        975
+        634,
+        50
       ],
-      "Name": "Kerluke-Larson",
+      "Name": "Ortiz, O'Conner and Roberts",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 387
+          "FieldType": "System.Int32",
+          "FieldLength": 405
         }
       }
     }
   ],
-  "Subject": "illum",
-  "HTMLBody": "voluptates",
+  "Subject": "voluptates",
+  "HTMLBody": "iusto",
   "From": null,
-  "Sent": "2011-12-16T03:45:23.4360809+01:00",
-  "Size": 610,
+  "Sent": "2021-03-18T03:46:54.785131+01:00",
+  "Size": 932,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quaerat",
-  "PlainBody": "omnis",
-  "IsSent": true,
+  "MessageID": "rerum",
+  "PlainBody": "qui",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 452,
+  "ServerId": 83,
   "Attachments": [
     {
-      "Description": "Re-contextualized logistical hardware",
-      "Filename": "voluptas",
-      "Size": 769,
-      "Type": "qui",
-      "Encoding": "dolore",
-      "Id": "deserunt",
-      "Disposition": "tempore",
+      "Description": "Pre-emptive stable circuit",
+      "Filename": "cupiditate",
+      "Size": 243,
+      "Type": "cumque",
+      "Encoding": "non",
+      "Id": "quibusdam",
+      "Disposition": "laboriosam",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -218,49 +219,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 419
+          "FieldLength": 694
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kihn, Mitchell and Morar",
+      "Name": "Leannon-Kirlin",
       "Values": [
-        "repellendus",
-        "dolor"
+        "qui",
+        "eius"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 921
+          "FieldLength": 729
         }
       }
     },
     {
-      "Name": "Kihn, Mitchell and Morar",
+      "Name": "Leannon-Kirlin",
       "Values": [
-        "repellendus",
-        "dolor"
+        "qui",
+        "eius"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 921
+          "FieldLength": 729
         }
       }
     }
   ],
-  "FolderName": "Purdy, Rath and Goyette",
-  "EmailItemId": 408,
-  "AccountId": 654,
-  "ReceivedAt": "2017-01-03T03:45:23.4360809+01:00",
+  "FolderName": "Moen LLC",
+  "EmailItemId": 287,
+  "AccountId": 807,
+  "ReceivedAt": "1999-02-03T03:46:54.785131+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-04-26T03:45:23.4360809+02:00",
+  "RepliedAt": "2021-01-24T03:46:54.785131+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -269,7 +270,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 52
+      "FieldLength": 371
     }
   }
 }

@@ -7,8 +7,10 @@ items:
   children:
   - SuperOffice.WebApi.Data.Associate.#ctor
   - SuperOffice.WebApi.Data.Associate.AssociateId
+  - SuperOffice.WebApi.Data.Associate.CustomFields
   - SuperOffice.WebApi.Data.Associate.Deleted
   - SuperOffice.WebApi.Data.Associate.EjUserId
+  - SuperOffice.WebApi.Data.Associate.ExtraFields
   - SuperOffice.WebApi.Data.Associate.FormalName
   - SuperOffice.WebApi.Data.Associate.FullName
   - SuperOffice.WebApi.Data.Associate.GroupIdx
@@ -417,6 +419,94 @@ items:
       type: System.String
     content.vb: Public Overridable Property UserName As String
   overload: SuperOffice.WebApi.Data.Associate.UserName*
+- uid: SuperOffice.WebApi.Data.Associate.ExtraFields
+  commentId: P:SuperOffice.WebApi.Data.Associate.ExtraFields
+  id: ExtraFields
+  parent: SuperOffice.WebApi.Data.Associate
+  langs:
+  - csharp
+  - vb
+  name: ExtraFields
+  nameWithType: Associate.ExtraFields
+  fullName: SuperOffice.WebApi.Data.Associate.ExtraFields
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Deprecated: Use <xref href="SuperOffice.WebApi.Data.Associate.CustomFields" data-throw-if-not-resolved="false"></xref> instead.
+
+    Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc.
+
+    The value string is the encoded value: "[I:123]" or "[DT:2019-09-11]".
+  remarks: >-
+    The naming convention of the key string is as follows:
+
+    <table><tbody><tr><td class="term">Plug-in data</td><td class="description">
+           [Plug-in name].[Property name]
+           Example: DocumentPlugin.DocumentType
+           </td></tr><tr><td class="term">Foreign key data</td><td class="description">
+           The device identity is appended directly to the device name if it exists. 
+        This is not commonly used, but the database opens for this as a possibility to have several devices with the same name, 
+        and hence we would ensure an unique key if this field is used.
+        Example: Audience.SecretService.DefaultCountry
+        </td></tr><tr><td class="term">User defined table data</td><td class="description">
+           [Table name].[Field name]
+           Example: Phunneling.AggregatedSales
+           </td></tr><tr><td class="term">Other</td><td class="description">
+           Other data sources must ensure an unique name. If the key already exists we do not add the data to the dictionary. 
+           We also ensure that SuperOffice data are added first, so that existing data doesnt change when more data sources are added (with duplicate data keys).
+           </td></tr></tbody></table>
+  example: []
+  syntax:
+    content: public virtual StringDictionary ExtraFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Overridable Property ExtraFields As StringDictionary
+  overload: SuperOffice.WebApi.Data.Associate.ExtraFields*
+- uid: SuperOffice.WebApi.Data.Associate.CustomFields
+  commentId: P:SuperOffice.WebApi.Data.Associate.CustomFields
+  id: CustomFields
+  parent: SuperOffice.WebApi.Data.Associate
+  langs:
+  - csharp
+  - vb
+  name: CustomFields
+  nameWithType: Associate.CustomFields
+  fullName: SuperOffice.WebApi.Data.Associate.CustomFields
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin.
+
+    Custom fields combines user defined fields and extra fields into one bucket. 
+
+    The individual <xref href="SuperOffice.WebApi.Data.Associate.ExtraFields" data-throw-if-not-resolved="false"></xref> and UserDefinedFields properties are deprecated in favor of this
+
+    combined collection.
+
+    The value string is the encoded value: "[I:123]" or "[DT:2019-09-11]".
+  remarks: >-
+    The naming convention of the key string is as follows:
+
+    <table><tbody><tr><td class="term">Extra field data</td><td class="description">
+           [Extra field name]<p></p>
+           Example: <pre><code class="lang-csharp">'x_gorp' = '[I:123]'</code></pre>
+           </td></tr><tr><td class="term">User defined field data</td><td class="description">
+           [Prog-id name]<p></p>
+        Example: <pre><code class="lang-csharp">'SuperOffice:1' = '[I:123]'</code></pre><p></p>
+           </td></tr></tbody></table>
+  example: []
+  syntax:
+    content: public virtual StringDictionary CustomFields { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Overridable Property CustomFields As StringDictionary
+  overload: SuperOffice.WebApi.Data.Associate.CustomFields*
 references:
 - uid: SuperOffice.WebApi.Agents.AssociateAgent
   commentId: T:SuperOffice.WebApi.Agents.AssociateAgent
@@ -930,3 +1020,39 @@ references:
   name: UserName
   nameWithType: Associate.UserName
   fullName: SuperOffice.WebApi.Data.Associate.UserName
+- uid: SuperOffice.WebApi.Data.Associate.CustomFields
+  commentId: P:SuperOffice.WebApi.Data.Associate.CustomFields
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Associate.html#SuperOffice_WebApi_Data_Associate_CustomFields
+  name: CustomFields
+  nameWithType: Associate.CustomFields
+  fullName: SuperOffice.WebApi.Data.Associate.CustomFields
+- uid: SuperOffice.WebApi.Data.Associate.ExtraFields*
+  commentId: Overload:SuperOffice.WebApi.Data.Associate.ExtraFields
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Associate.html#SuperOffice_WebApi_Data_Associate_ExtraFields
+  name: ExtraFields
+  nameWithType: Associate.ExtraFields
+  fullName: SuperOffice.WebApi.Data.Associate.ExtraFields
+- uid: SuperOffice.WebApi.Data.StringDictionary
+  commentId: T:SuperOffice.WebApi.Data.StringDictionary
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.StringDictionary.html
+  name: StringDictionary
+  nameWithType: StringDictionary
+  fullName: SuperOffice.WebApi.Data.StringDictionary
+- uid: SuperOffice.WebApi.Data.Associate.ExtraFields
+  commentId: P:SuperOffice.WebApi.Data.Associate.ExtraFields
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Associate.html#SuperOffice_WebApi_Data_Associate_ExtraFields
+  name: ExtraFields
+  nameWithType: Associate.ExtraFields
+  fullName: SuperOffice.WebApi.Data.Associate.ExtraFields
+- uid: SuperOffice.WebApi.Data.Associate.CustomFields*
+  commentId: Overload:SuperOffice.WebApi.Data.Associate.CustomFields
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Associate.html#SuperOffice_WebApi_Data_Associate_CustomFields
+  name: CustomFields
+  nameWithType: Associate.CustomFields
+  fullName: SuperOffice.WebApi.Data.Associate.CustomFields

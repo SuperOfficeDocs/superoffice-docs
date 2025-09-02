@@ -1,0 +1,714 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+  commentId: T:SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+  id: DBC.BoardViewSettingsFields
+  parent: SuperOffice.CRM.Data
+  children:
+  - SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.AssociateId
+  - SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.BoardViewSettingsId
+  - SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.ColorBy
+  - SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.EntityType
+  - SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.Filters
+  - SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.GroupBy
+  - SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.HideEmptyGroups
+  - SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.Registered
+  - SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.RegisteredAssociateId
+  - SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.SelectionId
+  - SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.Settings
+  - SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.SortBy
+  - SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.SortDesc
+  - SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.SubGroupBy
+  - SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.SumBy
+  - SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.Updated
+  - SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.UpdatedAssociateId
+  - SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.UpdatedCount
+  langs:
+  - csharp
+  - vb
+  name: DBC.BoardViewSettingsFields
+  nameWithType: DBC.BoardViewSettingsFields
+  fullName: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Fields for BoardViewSettings, Settings for selection board view
+  example: []
+  syntax:
+    content: public static class DBC.BoardViewSettingsFields
+    content.vb: Public Module DBC.BoardViewSettingsFields
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.BoardViewSettingsId
+  commentId: F:SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.BoardViewSettingsId
+  id: BoardViewSettingsId
+  parent: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+  langs:
+  - csharp
+  - vb
+  name: BoardViewSettingsId
+  nameWithType: DBC.BoardViewSettingsFields.BoardViewSettingsId
+  fullName: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.BoardViewSettingsId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'BoardViewSettings.BoardViewSettingsId: Primary key'
+  example: []
+  syntax:
+    content: public const string BoardViewSettingsId = "board_view_settings_id"
+    return:
+      type: System.String
+    content.vb: Public Const BoardViewSettingsId As String = "board_view_settings_id"
+- uid: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.SelectionId
+  commentId: F:SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.SelectionId
+  id: SelectionId
+  parent: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+  langs:
+  - csharp
+  - vb
+  name: SelectionId
+  nameWithType: DBC.BoardViewSettingsFields.SelectionId
+  fullName: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.SelectionId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'BoardViewSettings.SelectionId: The selection this board view settings belongs to'
+  example: []
+  syntax:
+    content: public const string SelectionId = "selection_id"
+    return:
+      type: System.String
+    content.vb: Public Const SelectionId As String = "selection_id"
+- uid: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.AssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.AssociateId
+  id: AssociateId
+  parent: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+  langs:
+  - csharp
+  - vb
+  name: AssociateId
+  nameWithType: DBC.BoardViewSettingsFields.AssociateId
+  fullName: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.AssociateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'BoardViewSettings.AssociateId: The associate this board view settings belongs to (0 for all)'
+  example: []
+  syntax:
+    content: public const string AssociateId = "associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const AssociateId As String = "associate_id"
+- uid: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.EntityType
+  commentId: F:SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.EntityType
+  id: EntityType
+  parent: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+  langs:
+  - csharp
+  - vb
+  name: EntityType
+  nameWithType: DBC.BoardViewSettingsFields.EntityType
+  fullName: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.EntityType
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'BoardViewSettings.EntityType: The kind of board view entity these settings belong to'
+  example: []
+  syntax:
+    content: public const string EntityType = "entity_type"
+    return:
+      type: System.String
+    content.vb: Public Const EntityType As String = "entity_type"
+- uid: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.GroupBy
+  commentId: F:SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.GroupBy
+  id: GroupBy
+  parent: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+  langs:
+  - csharp
+  - vb
+  name: GroupBy
+  nameWithType: DBC.BoardViewSettingsFields.GroupBy
+  fullName: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.GroupBy
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'BoardViewSettings.GroupBy: Column name to group on'
+  example: []
+  syntax:
+    content: public const string GroupBy = "group_by"
+    return:
+      type: System.String
+    content.vb: Public Const GroupBy As String = "group_by"
+- uid: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.SubGroupBy
+  commentId: F:SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.SubGroupBy
+  id: SubGroupBy
+  parent: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+  langs:
+  - csharp
+  - vb
+  name: SubGroupBy
+  nameWithType: DBC.BoardViewSettingsFields.SubGroupBy
+  fullName: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.SubGroupBy
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'BoardViewSettings.SubGroupBy: Column name to group on'
+  example: []
+  syntax:
+    content: public const string SubGroupBy = "sub_group_by"
+    return:
+      type: System.String
+    content.vb: Public Const SubGroupBy As String = "sub_group_by"
+- uid: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.SortBy
+  commentId: F:SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.SortBy
+  id: SortBy
+  parent: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+  langs:
+  - csharp
+  - vb
+  name: SortBy
+  nameWithType: DBC.BoardViewSettingsFields.SortBy
+  fullName: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.SortBy
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'BoardViewSettings.SortBy: Column name to sort on'
+  example: []
+  syntax:
+    content: public const string SortBy = "sort_by"
+    return:
+      type: System.String
+    content.vb: Public Const SortBy As String = "sort_by"
+- uid: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.SortDesc
+  commentId: F:SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.SortDesc
+  id: SortDesc
+  parent: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+  langs:
+  - csharp
+  - vb
+  name: SortDesc
+  nameWithType: DBC.BoardViewSettingsFields.SortDesc
+  fullName: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.SortDesc
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'BoardViewSettings.SortDesc: True if the sort is descending'
+  example: []
+  syntax:
+    content: public const string SortDesc = "sort_desc"
+    return:
+      type: System.String
+    content.vb: Public Const SortDesc As String = "sort_desc"
+- uid: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.HideEmptyGroups
+  commentId: F:SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.HideEmptyGroups
+  id: HideEmptyGroups
+  parent: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+  langs:
+  - csharp
+  - vb
+  name: HideEmptyGroups
+  nameWithType: DBC.BoardViewSettingsFields.HideEmptyGroups
+  fullName: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.HideEmptyGroups
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'BoardViewSettings.HideEmptyGroups: Do not show groups with no members/elements if this is true'
+  example: []
+  syntax:
+    content: public const string HideEmptyGroups = "hide_empty_groups"
+    return:
+      type: System.String
+    content.vb: Public Const HideEmptyGroups As String = "hide_empty_groups"
+- uid: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.SumBy
+  commentId: F:SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.SumBy
+  id: SumBy
+  parent: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+  langs:
+  - csharp
+  - vb
+  name: SumBy
+  nameWithType: DBC.BoardViewSettingsFields.SumBy
+  fullName: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.SumBy
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'BoardViewSettings.SumBy: Column name to sum on'
+  example: []
+  syntax:
+    content: public const string SumBy = "sum_by"
+    return:
+      type: System.String
+    content.vb: Public Const SumBy As String = "sum_by"
+- uid: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.ColorBy
+  commentId: F:SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.ColorBy
+  id: ColorBy
+  parent: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+  langs:
+  - csharp
+  - vb
+  name: ColorBy
+  nameWithType: DBC.BoardViewSettingsFields.ColorBy
+  fullName: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.ColorBy
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'BoardViewSettings.ColorBy: Column name to color on'
+  example: []
+  syntax:
+    content: public const string ColorBy = "color_by"
+    return:
+      type: System.String
+    content.vb: Public Const ColorBy As String = "color_by"
+- uid: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.Filters
+  commentId: F:SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.Filters
+  id: Filters
+  parent: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+  langs:
+  - csharp
+  - vb
+  name: Filters
+  nameWithType: DBC.BoardViewSettingsFields.Filters
+  fullName: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.Filters
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'BoardViewSettings.Filters: Column names to filter on, comma separated'
+  example: []
+  syntax:
+    content: public const string Filters = "filters"
+    return:
+      type: System.String
+    content.vb: Public Const Filters As String = "filters"
+- uid: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.Settings
+  commentId: F:SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.Settings
+  id: Settings
+  parent: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: DBC.BoardViewSettingsFields.Settings
+  fullName: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.Settings
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'BoardViewSettings.Settings: Settings that are not common to all board views. These are the unique properties of the sub carriers. Stored in json format.'
+  example: []
+  syntax:
+    content: public const string Settings = "settings"
+    return:
+      type: System.String
+    content.vb: Public Const Settings As String = "settings"
+- uid: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.Registered
+  commentId: F:SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.Registered
+  id: Registered
+  parent: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: DBC.BoardViewSettingsFields.Registered
+  fullName: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.Registered
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'BoardViewSettings.Registered: Registered when'
+  example: []
+  syntax:
+    content: public const string Registered = "registered"
+    return:
+      type: System.String
+    content.vb: Public Const Registered As String = "registered"
+- uid: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.RegisteredAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.RegisteredAssociateId
+  id: RegisteredAssociateId
+  parent: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+  langs:
+  - csharp
+  - vb
+  name: RegisteredAssociateId
+  nameWithType: DBC.BoardViewSettingsFields.RegisteredAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.RegisteredAssociateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'BoardViewSettings.RegisteredAssociateId: Registered by whom'
+  example: []
+  syntax:
+    content: public const string RegisteredAssociateId = "registered_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const RegisteredAssociateId As String = "registered_associate_id"
+- uid: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.Updated
+  commentId: F:SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.Updated
+  id: Updated
+  parent: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: DBC.BoardViewSettingsFields.Updated
+  fullName: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.Updated
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'BoardViewSettings.Updated: Last updated when'
+  example: []
+  syntax:
+    content: public const string Updated = "updated"
+    return:
+      type: System.String
+    content.vb: Public Const Updated As String = "updated"
+- uid: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.UpdatedAssociateId
+  commentId: F:SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.UpdatedAssociateId
+  id: UpdatedAssociateId
+  parent: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedAssociateId
+  nameWithType: DBC.BoardViewSettingsFields.UpdatedAssociateId
+  fullName: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.UpdatedAssociateId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'BoardViewSettings.UpdatedAssociateId: Last updated by whom'
+  example: []
+  syntax:
+    content: public const string UpdatedAssociateId = "updated_associate_id"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedAssociateId As String = "updated_associate_id"
+- uid: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.UpdatedCount
+  commentId: F:SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.UpdatedCount
+  id: UpdatedCount
+  parent: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields
+  langs:
+  - csharp
+  - vb
+  name: UpdatedCount
+  nameWithType: DBC.BoardViewSettingsFields.UpdatedCount
+  fullName: SuperOffice.CRM.Data.DBC.BoardViewSettingsFields.UpdatedCount
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'BoardViewSettings.UpdatedCount: Number of updates made to this record'
+  example: []
+  syntax:
+    content: public const string UpdatedCount = "updatedCount"
+    return:
+      type: System.String
+    content.vb: Public Const UpdatedCount As String = "updatedCount"
+references:
+- uid: SuperOffice.CRM.Data
+  commentId: N:SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Data
+  nameWithType: SuperOffice.CRM.Data
+  fullName: SuperOffice.CRM.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.CRM.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

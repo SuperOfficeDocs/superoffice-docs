@@ -2,10 +2,10 @@
 uid: table-s_list_element
 title: s_list_element table
 description: Elements in a static list.
-so.generated: true
+generated: true
 keywords: database table s_list_element
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # s\_list\_element Table (345)

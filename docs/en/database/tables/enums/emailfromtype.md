@@ -2,10 +2,10 @@
 uid: enum-emailfromtype
 title: Enum values for EmailFromType
 description: Lists the enum values for EmailFromType.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # EmailFromType Enum

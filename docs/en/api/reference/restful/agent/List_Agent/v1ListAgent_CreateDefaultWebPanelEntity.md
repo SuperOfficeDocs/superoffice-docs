@@ -2,6 +2,7 @@
 title: POST Agents/List/CreateDefaultWebPanelEntity
 uid: v1ListAgent_CreateDefaultWebPanelEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/CreateDefaultWebPanelEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 ```
 
-Set default values into a new WebPanelEntity.
+Loading default values into a new WebPanelEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -78,7 +77,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,34 +87,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 334,
-  "Name": "Kunze LLC",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 707,
+  "WebPanelId": 261,
+  "Name": "Abshire Group",
+  "Tooltip": "quam",
+  "Deleted": false,
+  "Rank": 568,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
+  "OnCentral": true,
+  "OnSatellite": false,
   "OnTravel": true,
   "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Zieme-Wehner",
+  "WindowName": "Shanahan-Sanford",
   "Url": "http://www.example.com/",
-  "ProgId": "dolores",
-  "Icon": 74,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "atque",
+  "Icon": 186,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 760
+      "FieldType": "System.String",
+      "FieldLength": 863
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.ChangePersonRank SOAP
 generated: true
 uid: Services88-Person-ChangePersonRank
+content_type: reference
 ---
 
 # Services88 Person ChangePersonRank

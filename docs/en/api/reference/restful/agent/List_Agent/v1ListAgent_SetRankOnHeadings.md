@@ -2,6 +2,7 @@
 title: POST Agents/List/SetRankOnHeadings
 uid: v1ListAgent_SetRankOnHeadings
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SetRankOnHeadings
@@ -65,14 +66,14 @@ No Content
 POST /api/v1/Agents/List/SetRankOnHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 903,
+  "UdListDefinitionId": 229,
   "HeadingIds": [
-    151,
-    123
+    306,
+    979
   ]
 }
 ```

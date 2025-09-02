@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetDocumentTemplateEntity SOAP
 generated: true
 uid: Services88-List-GetDocumentTemplateEntity
+content_type: reference
 ---
 
 # Services88 List GetDocumentTemplateEntity

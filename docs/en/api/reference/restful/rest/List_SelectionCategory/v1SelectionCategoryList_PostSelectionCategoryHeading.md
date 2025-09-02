@@ -2,6 +2,7 @@
 title: POST List/SelectionCategory/Headings
 uid: v1SelectionCategoryList_PostSelectionCategoryHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/SelectionCategory/Headings
@@ -75,16 +76,16 @@ OK
 POST /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 860,
-  "Name": "Roberts LLC",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "Rank": 185,
-  "UdListDefinitionId": 689
+  "HeadingId": 265,
+  "Name": "O'Connell, Moen and Yundt",
+  "Tooltip": "ratione",
+  "Deleted": false,
+  "Rank": 964,
+  "UdListDefinitionId": 357
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 14,
-  "Name": "Hegmann Group",
-  "Tooltip": "quaerat",
-  "Deleted": true,
-  "Rank": 608,
-  "UdListDefinitionId": 175,
+  "HeadingId": 273,
+  "Name": "Doyle, Conroy and Durgan",
+  "Tooltip": "eaque",
+  "Deleted": false,
+  "Rank": 461,
+  "UdListDefinitionId": 234,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 997
+      "FieldType": "System.Int32",
+      "FieldLength": 82
     }
   }
 }

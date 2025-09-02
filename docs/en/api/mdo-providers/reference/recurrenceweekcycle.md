@@ -3,9 +3,9 @@ uid: recurrenceweekcycle
 title: recurrenceweekcycle
 keywords: mdoprovider mdo provider recurrenceweekcycle
 description: MDO provider for the hard-coded list of week cycle alternatives in the recurrence dialog.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "recurrenceweekcycle" MDO List

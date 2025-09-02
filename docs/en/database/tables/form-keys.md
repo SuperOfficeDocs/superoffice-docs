@@ -2,10 +2,10 @@
 uid: table-form_keys
 title: form_keys table
 description: Keys that makes sure a form is not posted twice
-so.generated: true
+generated: true
 keywords: database table form_keys
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # form\_keys Table (366)

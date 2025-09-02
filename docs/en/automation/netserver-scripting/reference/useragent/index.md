@@ -2,14 +2,10 @@
 uid: useragent-script-events
 title: UserAgent script event methods
 description: NetServer script event methods.
-keywords: netserver scripting
-author: SuperOffice Product and Engineering
-date: 06.12.2025
 generated: true
-category: automation
-topic: NetServer scripting
+keywords: netserver scripting
 content_type: reference
-deployment: onsite
+envir: onsite
 ---
 
 # UserAgent method listing
@@ -111,3 +107,4 @@ Service methods defined on <see cref='T:IUserAgent'>UserAgent</see> that can tri
 * [SetPasswordFromNameAsync](setpasswordfromnameasync.md)
 * [SetUserPresenceStatusAsync](setuserpresencestatusasync.md)
 * [ValidateUserAsync](validateuserasync.md)
+

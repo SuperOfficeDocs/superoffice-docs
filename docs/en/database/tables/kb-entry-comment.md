@@ -2,10 +2,10 @@
 uid: table-kb_entry_comment
 title: kb_entry_comment table
 description: Comments to entries in the knowledge base, typically made by customers
-so.generated: true
+generated: true
 keywords: database table kb_entry_comment
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # kb\_entry\_comment Table (289)

@@ -2,6 +2,7 @@
 title: GET BatchTask/{id}
 uid: v1Batch_GetBatchTaskInfo
 generated: true
+content_type: reference
 ---
 
 # GET BatchTask/{id}
@@ -81,7 +82,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,37 +92,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 264,
-  "Name": "West-Braun",
-  "AssociateId": 34,
-  "DetailsTable": 11,
-  "DetailsRecord": 676,
+  "Id": 133,
+  "Name": "Borer, Keeling and Bergnaum",
+  "AssociateId": 610,
+  "DetailsTable": 174,
+  "DetailsRecord": 511,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "quasi",
-    "ParameterObject2": "qui"
+    "ParameterObject1": "eum",
+    "ParameterObject2": "amet"
   },
-  "LastStarted": "2024-10-23T03:45:28.7952992+02:00",
-  "Created": "2020-10-06T03:45:28.7952992+02:00",
-  "StartCount": 135,
-  "DatabaseSerialNumber": "369330",
-  "Context": "non",
-  "Result": "et",
+  "LastStarted": "2024-04-30T03:47:00.3943072+02:00",
+  "Created": "2003-06-23T03:47:00.3943072+02:00",
+  "StartCount": 491,
+  "DatabaseSerialNumber": "385130",
+  "Context": "dolorem",
+  "Result": "odit",
   "State": "All",
-  "Description": "Stand-alone scalable budgetary management",
-  "Response": "rerum",
-  "Request": "numquam",
-  "ProgressDescription": "Balanced static encoding",
-  "ProgressPercent": 436,
-  "FileName": "Tromp-Torp",
+  "Description": "Exclusive homogeneous open system",
+  "Response": "temporibus",
+  "Request": "ducimus",
+  "ProgressDescription": "Automated contextually-based capacity",
+  "ProgressPercent": 565,
+  "FileName": "Raynor, Erdman and Cassin",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 995
+      "FieldLength": 463
     }
   }
 }

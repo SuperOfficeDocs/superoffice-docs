@@ -2,6 +2,7 @@
 title: POST Agents/Dash/SaveDashTileHtmlList
 uid: v1DashAgent_SaveDashTileHtmlList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/SaveDashTileHtmlList
@@ -75,19 +76,19 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTileHtmlList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 125,
+  "DashboardTileDefinitionId": 590,
   "Languages": [
     {
-      "LanguageCode": "maiores",
-      "Html": "eos"
+      "LanguageCode": "saepe",
+      "Html": "illum"
     },
     {
-      "LanguageCode": "maiores",
-      "Html": "eos"
+      "LanguageCode": "saepe",
+      "Html": "illum"
     }
   ]
 }
@@ -101,26 +102,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "itaque",
-    "Html": "sed",
+    "LanguageCode": "occaecati",
+    "Html": "quas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 85
+        "FieldType": "System.Int32",
+        "FieldLength": 517
       }
     }
   },
   {
-    "LanguageCode": "itaque",
-    "Html": "sed",
+    "LanguageCode": "occaecati",
+    "Html": "quas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 85
+        "FieldType": "System.Int32",
+        "FieldLength": 517
       }
     }
   }

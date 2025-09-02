@@ -2,6 +2,7 @@
 title: PUT List/LegalBase/Items/{id}/UserGroups
 uid: v1LegalBaseList_PutLegalBaseUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/LegalBase/Items/{id}/UserGroups
@@ -102,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 384,
-    "Name": "Schoen LLC",
-    "ToolTip": "Maiores culpa possimus accusantium ut consectetur illum suscipit.",
-    "Deleted": false,
-    "Rank": 856,
-    "Type": "culpa",
-    "ColorBlock": 690,
-    "IconHint": "velit",
+    "Id": 305,
+    "Name": "Collins Inc and Sons",
+    "ToolTip": "Quia perferendis fuga.",
+    "Deleted": true,
+    "Rank": 634,
+    "Type": "et",
+    "ColorBlock": 187,
+    "IconHint": "voluptatum",
     "Selected": false,
-    "LastChanged": "2012-09-25T03:45:29.0452922+02:00",
+    "LastChanged": "2016-11-21T03:47:00.6599229+01:00",
     "ChildItems": [
       {
-        "Id": 329,
-        "Name": "King, Yost and Hahn",
-        "ToolTip": "Voluptatum fugit voluptas quia praesentium quisquam repellendus.",
+        "Id": 471,
+        "Name": "Osinski Group",
+        "ToolTip": "Praesentium ut voluptatum distinctio est quaerat et blanditiis.",
         "Deleted": false,
-        "Rank": 215,
-        "Type": "iste",
-        "ColorBlock": 104,
-        "IconHint": "quia",
-        "Selected": true,
-        "LastChanged": "1998-11-03T03:45:29.0452922+01:00",
+        "Rank": 918,
+        "Type": "rem",
+        "ColorBlock": 874,
+        "IconHint": "assumenda",
+        "Selected": false,
+        "LastChanged": "2011-08-26T03:47:00.6599229+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "error",
+        "ExtraInfo": "natus",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Yolanda Wehner"
+        "FullName": "Elliott Sauer"
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "deleniti",
+    "ExtraInfo": "provident",
+    "StyleHint": "omnis",
     "Hidden": true,
-    "FullName": "Mr. Abe Reginald Nikolaus Sr."
+    "FullName": "Sigmund Gorczany"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 11,
-    "Name": "Waters LLC",
-    "ToolTip": "Sequi aut numquam itaque culpa.",
+    "Id": 670,
+    "Name": "Lehner-Gusikowski",
+    "ToolTip": "Ipsa cum dolor quasi qui ut.",
     "Deleted": false,
-    "Rank": 477,
-    "Type": "perspiciatis",
-    "ColorBlock": 236,
-    "IconHint": "soluta",
+    "Rank": 423,
+    "Type": "ea",
+    "ColorBlock": 330,
+    "IconHint": "ipsam",
     "Selected": false,
-    "LastChanged": "2019-07-09T03:45:29.0452922+02:00",
+    "LastChanged": "2003-09-24T03:47:00.6755475+02:00",
     "ChildItems": [
       {
-        "Id": 378,
-        "Name": "Reinger, Welch and Heidenreich",
-        "ToolTip": "Culpa fugiat porro est quibusdam sed dolorem dolores.",
+        "Id": 647,
+        "Name": "Bode-Swift",
+        "ToolTip": "Numquam et cum rem accusantium aspernatur.",
         "Deleted": false,
-        "Rank": 993,
-        "Type": "nobis",
-        "ColorBlock": 499,
-        "IconHint": "tempore",
+        "Rank": 991,
+        "Type": "nihil",
+        "ColorBlock": 559,
+        "IconHint": "quam",
         "Selected": false,
-        "LastChanged": "2016-11-20T03:45:29.0452922+01:00",
+        "LastChanged": "2023-12-19T03:47:00.6755475+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "quas",
+        "ExtraInfo": "fugit",
+        "StyleHint": "placeat",
         "Hidden": false,
-        "FullName": "Abbie Strosin",
+        "FullName": "Bailee Rosenbaum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 157
+            "FieldLength": 838
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "voluptatibus",
-    "Hidden": false,
-    "FullName": "Cassandra Meghan Koch IV",
+    "ExtraInfo": "sit",
+    "StyleHint": "eligendi",
+    "Hidden": true,
+    "FullName": "Ms. Shyann Jonas VonRueden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 968
+        "FieldType": "System.String",
+        "FieldLength": 450
       }
     }
   }

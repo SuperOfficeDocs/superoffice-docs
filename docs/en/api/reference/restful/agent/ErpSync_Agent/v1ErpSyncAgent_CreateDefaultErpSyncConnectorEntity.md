@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/CreateDefaultErpSyncConnectorEntity
 uid: v1ErpSyncAgent_CreateDefaultErpSyncConnectorEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/CreateDefaultErpSyncConnectorEntity
@@ -10,10 +11,7 @@ generated: true
 POST /api/v1/Agents/ErpSync/CreateDefaultErpSyncConnectorEntity
 ```
 
-Set default values into a new ErpSyncConnectorEntity.
-
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
+Loading default values into a new ErpSyncConnectorEntity.
 
 
 ## Online Restricted: ## The ErpSync agent is not available in Online by default. Access must be requested specifically when app is registered. Intended for ERP integration apps.
@@ -73,16 +71,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 453,
-  "DisplayName": "Torphy-Balistreri",
+  "ErpConnectorId": 168,
+  "DisplayName": "Kautzer, Paucek and Ziemann",
   "URL": "http://www.example.com/",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 853
+      "FieldType": "System.String",
+      "FieldLength": 759
     }
   }
 }

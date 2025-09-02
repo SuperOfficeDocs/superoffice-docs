@@ -64,10 +64,10 @@ items:
   summary: Default namespace for services based on this version of NetServer
   example: []
   syntax:
-    content: public const string ServiceNamespace = "http://www.superoffice.net/ws/crm/NetServer/11.2.0.0"
+    content: public const string ServiceNamespace = "http://www.superoffice.net/ws/crm/NetServer/11.3.0.0"
     return:
       type: System.String
-    content.vb: Public Const ServiceNamespace As String = "http://www.superoffice.net/ws/crm/NetServer/11.2.0.0"
+    content.vb: Public Const ServiceNamespace As String = "http://www.superoffice.net/ws/crm/NetServer/11.3.0.0"
 - uid: SuperOffice.NetServerVersion.FriendlyName
   commentId: F:SuperOffice.NetServerVersion.FriendlyName
   id: FriendlyName
@@ -83,10 +83,10 @@ items:
   - SoCore
   namespace: SuperOffice
   syntax:
-    content: public const string FriendlyName = "SuperOffice CRM Online 11.2 Build {1}"
+    content: public const string FriendlyName = "SuperOffice CRM Online 11.3 Build {1}"
     return:
       type: System.String
-    content.vb: Public Const FriendlyName As String = "SuperOffice CRM Online 11.2 Build {1}"
+    content.vb: Public Const FriendlyName As String = "SuperOffice CRM Online 11.3 Build {1}"
 - uid: SuperOffice.NetServerVersion.MajorMinor
   commentId: F:SuperOffice.NetServerVersion.MajorMinor
   id: MajorMinor
@@ -102,10 +102,10 @@ items:
   - SoCore
   namespace: SuperOffice
   syntax:
-    content: public const string MajorMinor = "11.2"
+    content: public const string MajorMinor = "11.3"
     return:
       type: System.String
-    content.vb: Public Const MajorMinor As String = "11.2"
+    content.vb: Public Const MajorMinor As String = "11.3"
 - uid: SuperOffice.NetServerVersion.OverriddenVersionString
   commentId: M:SuperOffice.NetServerVersion.OverriddenVersionString
   id: OverriddenVersionString

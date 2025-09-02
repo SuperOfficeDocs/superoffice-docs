@@ -5,7 +5,7 @@ items:
   id: WebhookManager
   parent: SuperOffice.CRM.Webhooks
   children:
-  - SuperOffice.CRM.Webhooks.WebhookManager.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.Threading.IAsyncQueue{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}},SuperOffice.Security.Principal.INSPrincipalAccessor,System.IServiceProvider,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.WebhookManager})
+  - SuperOffice.CRM.Webhooks.WebhookManager.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.Threading.IAsyncQueue{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}},SuperOffice.Factory.ISoRequestItemsAccessor,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory)
   - SuperOffice.CRM.Webhooks.WebhookManager.DeleteWebhookAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Webhooks.WebhookManager.GetAllWebhooksAsync(System.String,System.String,System.String,System.Nullable{SuperOffice.CRM.Webhooks.WebhookState},System.Threading.CancellationToken)
   - SuperOffice.CRM.Webhooks.WebhookManager.GetCurrent
@@ -52,16 +52,16 @@ items:
   extensionMethods:
   - SuperOffice.CRM.Webhooks.WebhookManager.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Webhooks.WebhookManager.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-- uid: SuperOffice.CRM.Webhooks.WebhookManager.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.Threading.IAsyncQueue{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}},SuperOffice.Security.Principal.INSPrincipalAccessor,System.IServiceProvider,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.WebhookManager})
-  commentId: M:SuperOffice.CRM.Webhooks.WebhookManager.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.Threading.IAsyncQueue{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}},SuperOffice.Security.Principal.INSPrincipalAccessor,System.IServiceProvider,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.WebhookManager})
-  id: '#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.Threading.IAsyncQueue{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}},SuperOffice.Security.Principal.INSPrincipalAccessor,System.IServiceProvider,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.WebhookManager})'
+- uid: SuperOffice.CRM.Webhooks.WebhookManager.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.Threading.IAsyncQueue{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}},SuperOffice.Factory.ISoRequestItemsAccessor,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory)
+  commentId: M:SuperOffice.CRM.Webhooks.WebhookManager.#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.Threading.IAsyncQueue{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}},SuperOffice.Factory.ISoRequestItemsAccessor,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory)
+  id: '#ctor(SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.Threading.IAsyncQueue{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}},SuperOffice.Factory.ISoRequestItemsAccessor,Microsoft.Extensions.DependencyInjection.IServiceScopeFactory)'
   parent: SuperOffice.CRM.Webhooks.WebhookManager
   langs:
   - csharp
   - vb
-  name: WebhookManager(IAsyncQueue<WebhookTaskInfo>, IAsyncQueue<DelayedItem<RetryWebhook>>, INSPrincipalAccessor, IServiceProvider, ILogger<WebhookManager>)
-  nameWithType: WebhookManager.WebhookManager(IAsyncQueue<WebhookTaskInfo>, IAsyncQueue<DelayedItem<RetryWebhook>>, INSPrincipalAccessor, IServiceProvider, ILogger<WebhookManager>)
-  fullName: SuperOffice.CRM.Webhooks.WebhookManager.WebhookManager(SuperOffice.Threading.IAsyncQueue<SuperOffice.CRM.Webhooks.WebhookTaskInfo>, SuperOffice.Threading.IAsyncQueue<SuperOffice.Threading.DelayedItem<SuperOffice.CRM.Webhooks.RetryWebhook>>, SuperOffice.Security.Principal.INSPrincipalAccessor, System.IServiceProvider, Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.Webhooks.WebhookManager>)
+  name: WebhookManager(IAsyncQueue<WebhookTaskInfo>, IAsyncQueue<DelayedItem<RetryWebhook>>, ISoRequestItemsAccessor, IServiceScopeFactory)
+  nameWithType: WebhookManager.WebhookManager(IAsyncQueue<WebhookTaskInfo>, IAsyncQueue<DelayedItem<RetryWebhook>>, ISoRequestItemsAccessor, IServiceScopeFactory)
+  fullName: SuperOffice.CRM.Webhooks.WebhookManager.WebhookManager(SuperOffice.Threading.IAsyncQueue<SuperOffice.CRM.Webhooks.WebhookTaskInfo>, SuperOffice.Threading.IAsyncQueue<SuperOffice.Threading.DelayedItem<SuperOffice.CRM.Webhooks.RetryWebhook>>, SuperOffice.Factory.ISoRequestItemsAccessor, Microsoft.Extensions.DependencyInjection.IServiceScopeFactory)
   type: Constructor
   assemblies:
   - SoDataBase.BusinessLogic
@@ -69,23 +69,21 @@ items:
   summary: Creates the webhook dispatcher - instantiates the systam and custom webhook plugins.
   example: []
   syntax:
-    content: public WebhookManager(IAsyncQueue<WebhookTaskInfo> queue, IAsyncQueue<DelayedItem<RetryWebhook>> retryQueue, INSPrincipalAccessor principalAccessor, IServiceProvider serviceProvider, ILogger<WebhookManager> logger)
+    content: public WebhookManager(IAsyncQueue<WebhookTaskInfo> queue, IAsyncQueue<DelayedItem<RetryWebhook>> retryQueue, ISoRequestItemsAccessor soRequestItemsAccessor, IServiceScopeFactory serviceScopeFactory)
     parameters:
     - id: queue
       type: SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo}
     - id: retryQueue
       type: SuperOffice.Threading.IAsyncQueue{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}}
-    - id: principalAccessor
-      type: SuperOffice.Security.Principal.INSPrincipalAccessor
-    - id: serviceProvider
-      type: System.IServiceProvider
-    - id: logger
-      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.WebhookManager}
-    content.vb: Public Sub New(queue As IAsyncQueue(Of WebhookTaskInfo), retryQueue As IAsyncQueue(Of DelayedItem(Of RetryWebhook)), principalAccessor As INSPrincipalAccessor, serviceProvider As IServiceProvider, logger As ILogger(Of WebhookManager))
+    - id: soRequestItemsAccessor
+      type: SuperOffice.Factory.ISoRequestItemsAccessor
+    - id: serviceScopeFactory
+      type: Microsoft.Extensions.DependencyInjection.IServiceScopeFactory
+    content.vb: Public Sub New(queue As IAsyncQueue(Of WebhookTaskInfo), retryQueue As IAsyncQueue(Of DelayedItem(Of RetryWebhook)), soRequestItemsAccessor As ISoRequestItemsAccessor, serviceScopeFactory As IServiceScopeFactory)
   overload: SuperOffice.CRM.Webhooks.WebhookManager.#ctor*
-  nameWithType.vb: WebhookManager.New(IAsyncQueue(Of WebhookTaskInfo), IAsyncQueue(Of DelayedItem(Of RetryWebhook)), INSPrincipalAccessor, IServiceProvider, ILogger(Of WebhookManager))
-  fullName.vb: SuperOffice.CRM.Webhooks.WebhookManager.New(SuperOffice.Threading.IAsyncQueue(Of SuperOffice.CRM.Webhooks.WebhookTaskInfo), SuperOffice.Threading.IAsyncQueue(Of SuperOffice.Threading.DelayedItem(Of SuperOffice.CRM.Webhooks.RetryWebhook)), SuperOffice.Security.Principal.INSPrincipalAccessor, System.IServiceProvider, Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Webhooks.WebhookManager))
-  name.vb: New(IAsyncQueue(Of WebhookTaskInfo), IAsyncQueue(Of DelayedItem(Of RetryWebhook)), INSPrincipalAccessor, IServiceProvider, ILogger(Of WebhookManager))
+  nameWithType.vb: WebhookManager.New(IAsyncQueue(Of WebhookTaskInfo), IAsyncQueue(Of DelayedItem(Of RetryWebhook)), ISoRequestItemsAccessor, IServiceScopeFactory)
+  fullName.vb: SuperOffice.CRM.Webhooks.WebhookManager.New(SuperOffice.Threading.IAsyncQueue(Of SuperOffice.CRM.Webhooks.WebhookTaskInfo), SuperOffice.Threading.IAsyncQueue(Of SuperOffice.Threading.DelayedItem(Of SuperOffice.CRM.Webhooks.RetryWebhook)), SuperOffice.Factory.ISoRequestItemsAccessor, Microsoft.Extensions.DependencyInjection.IServiceScopeFactory)
+  name.vb: New(IAsyncQueue(Of WebhookTaskInfo), IAsyncQueue(Of DelayedItem(Of RetryWebhook)), ISoRequestItemsAccessor, IServiceScopeFactory)
 - uid: SuperOffice.CRM.Webhooks.WebhookManager.GetCurrent
   commentId: M:SuperOffice.CRM.Webhooks.WebhookManager.GetCurrent
   id: GetCurrent
@@ -1052,7 +1050,7 @@ references:
 - uid: SuperOffice.CRM.Webhooks.WebhookManager.#ctor*
   commentId: Overload:SuperOffice.CRM.Webhooks.WebhookManager.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Webhooks.WebhookManager.html#SuperOffice_CRM_Webhooks_WebhookManager__ctor_SuperOffice_Threading_IAsyncQueue_SuperOffice_CRM_Webhooks_WebhookTaskInfo__SuperOffice_Threading_IAsyncQueue_SuperOffice_Threading_DelayedItem_SuperOffice_CRM_Webhooks_RetryWebhook___SuperOffice_Security_Principal_INSPrincipalAccessor_System_IServiceProvider_Microsoft_Extensions_Logging_ILogger_SuperOffice_CRM_Webhooks_WebhookManager__
+  href: SuperOffice.CRM.Webhooks.WebhookManager.html#SuperOffice_CRM_Webhooks_WebhookManager__ctor_SuperOffice_Threading_IAsyncQueue_SuperOffice_CRM_Webhooks_WebhookTaskInfo__SuperOffice_Threading_IAsyncQueue_SuperOffice_Threading_DelayedItem_SuperOffice_CRM_Webhooks_RetryWebhook___SuperOffice_Factory_ISoRequestItemsAccessor_Microsoft_Extensions_DependencyInjection_IServiceScopeFactory_
   name: WebhookManager
   nameWithType: WebhookManager.WebhookManager
   fullName: SuperOffice.CRM.Webhooks.WebhookManager.WebhookManager
@@ -1134,57 +1132,22 @@ references:
     href: SuperOffice.CRM.Webhooks.RetryWebhook.html
   - name: )
   - name: )
-- uid: SuperOffice.Security.Principal.INSPrincipalAccessor
-  commentId: T:SuperOffice.Security.Principal.INSPrincipalAccessor
-  parent: SuperOffice.Security.Principal
+- uid: SuperOffice.Factory.ISoRequestItemsAccessor
+  commentId: T:SuperOffice.Factory.ISoRequestItemsAccessor
+  parent: SuperOffice.Factory
   isExternal: true
-  href: SuperOffice.Security.Principal.INSPrincipalAccessor.html
-  name: INSPrincipalAccessor
-  nameWithType: INSPrincipalAccessor
-  fullName: SuperOffice.Security.Principal.INSPrincipalAccessor
-- uid: System.IServiceProvider
-  commentId: T:System.IServiceProvider
-  parent: System
+  href: SuperOffice.Factory.ISoRequestItemsAccessor.html
+  name: ISoRequestItemsAccessor
+  nameWithType: ISoRequestItemsAccessor
+  fullName: SuperOffice.Factory.ISoRequestItemsAccessor
+- uid: Microsoft.Extensions.DependencyInjection.IServiceScopeFactory
+  commentId: T:Microsoft.Extensions.DependencyInjection.IServiceScopeFactory
+  parent: Microsoft.Extensions.DependencyInjection
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
-  name: IServiceProvider
-  nameWithType: IServiceProvider
-  fullName: System.IServiceProvider
-- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.WebhookManager}
-  commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.WebhookManager}
-  parent: Microsoft.Extensions.Logging
-  definition: Microsoft.Extensions.Logging.ILogger`1
-  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
-  name: ILogger<WebhookManager>
-  nameWithType: ILogger<WebhookManager>
-  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.Webhooks.WebhookManager>
-  nameWithType.vb: ILogger(Of WebhookManager)
-  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Webhooks.WebhookManager)
-  name.vb: ILogger(Of WebhookManager)
-  spec.csharp:
-  - uid: Microsoft.Extensions.Logging.ILogger`1
-    name: ILogger
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
-  - name: <
-  - uid: SuperOffice.CRM.Webhooks.WebhookManager
-    name: WebhookManager
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.WebhookManager.html
-  - name: '>'
-  spec.vb:
-  - uid: Microsoft.Extensions.Logging.ILogger`1
-    name: ILogger
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Webhooks.WebhookManager
-    name: WebhookManager
-    isExternal: true
-    href: SuperOffice.CRM.Webhooks.WebhookManager.html
-  - name: )
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.dependencyinjection.iservicescopefactory
+  name: IServiceScopeFactory
+  nameWithType: IServiceScopeFactory
+  fullName: Microsoft.Extensions.DependencyInjection.IServiceScopeFactory
 - uid: SuperOffice.Threading.IAsyncQueue`1
   commentId: T:SuperOffice.Threading.IAsyncQueue`1
   isExternal: true
@@ -1240,108 +1203,70 @@ references:
     name: Threading
     isExternal: true
     href: SuperOffice.Threading.html
-- uid: SuperOffice.Security.Principal
-  commentId: N:SuperOffice.Security.Principal
+- uid: SuperOffice.Factory
+  commentId: N:SuperOffice.Factory
   isExternal: true
   href: SuperOffice.html
-  name: SuperOffice.Security.Principal
-  nameWithType: SuperOffice.Security.Principal
-  fullName: SuperOffice.Security.Principal
+  name: SuperOffice.Factory
+  nameWithType: SuperOffice.Factory
+  fullName: SuperOffice.Factory
   spec.csharp:
   - uid: SuperOffice
     name: SuperOffice
     isExternal: true
     href: SuperOffice.html
   - name: .
-  - uid: SuperOffice.Security
-    name: Security
+  - uid: SuperOffice.Factory
+    name: Factory
     isExternal: true
-    href: SuperOffice.Security.html
-  - name: .
-  - uid: SuperOffice.Security.Principal
-    name: Principal
-    isExternal: true
-    href: SuperOffice.Security.Principal.html
+    href: SuperOffice.Factory.html
   spec.vb:
   - uid: SuperOffice
     name: SuperOffice
     isExternal: true
     href: SuperOffice.html
   - name: .
-  - uid: SuperOffice.Security
-    name: Security
+  - uid: SuperOffice.Factory
+    name: Factory
     isExternal: true
-    href: SuperOffice.Security.html
-  - name: .
-  - uid: SuperOffice.Security.Principal
-    name: Principal
-    isExternal: true
-    href: SuperOffice.Security.Principal.html
-- uid: Microsoft.Extensions.Logging.ILogger`1
-  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+    href: SuperOffice.Factory.html
+- uid: Microsoft.Extensions.DependencyInjection
+  commentId: N:Microsoft.Extensions.DependencyInjection
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
-  name: ILogger<TCategoryName>
-  nameWithType: ILogger<TCategoryName>
-  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
-  nameWithType.vb: ILogger(Of TCategoryName)
-  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
-  name.vb: ILogger(Of TCategoryName)
-  spec.csharp:
-  - uid: Microsoft.Extensions.Logging.ILogger`1
-    name: ILogger
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
-  - name: <
-  - name: TCategoryName
-  - name: '>'
-  spec.vb:
-  - uid: Microsoft.Extensions.Logging.ILogger`1
-    name: ILogger
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TCategoryName
-  - name: )
-- uid: Microsoft.Extensions.Logging
-  commentId: N:Microsoft.Extensions.Logging
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/microsoft
-  name: Microsoft.Extensions.Logging
-  nameWithType: Microsoft.Extensions.Logging
-  fullName: Microsoft.Extensions.Logging
+  href: Microsoft.html
+  name: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
   spec.csharp:
   - uid: Microsoft
     name: Microsoft
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft
+    href: Microsoft.html
   - name: .
   - uid: Microsoft.Extensions
     name: Extensions
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+    href: Microsoft.Extensions.html
   - name: .
-  - uid: Microsoft.Extensions.Logging
-    name: Logging
+  - uid: Microsoft.Extensions.DependencyInjection
+    name: DependencyInjection
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+    href: Microsoft.Extensions.DependencyInjection.html
   spec.vb:
   - uid: Microsoft
     name: Microsoft
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft
+    href: Microsoft.html
   - name: .
   - uid: Microsoft.Extensions
     name: Extensions
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+    href: Microsoft.Extensions.html
   - name: .
-  - uid: Microsoft.Extensions.Logging
-    name: Logging
+  - uid: Microsoft.Extensions.DependencyInjection
+    name: DependencyInjection
     isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+    href: Microsoft.Extensions.DependencyInjection.html
 - uid: SuperOffice.CRM.Webhooks.WebhookCache
   commentId: T:SuperOffice.CRM.Webhooks.WebhookCache
   isExternal: true

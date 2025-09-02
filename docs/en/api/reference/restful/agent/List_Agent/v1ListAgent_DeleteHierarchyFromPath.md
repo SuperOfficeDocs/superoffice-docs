@@ -2,6 +2,7 @@
 title: POST Agents/List/DeleteHierarchyFromPath
 uid: v1ListAgent_DeleteHierarchyFromPath
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/DeleteHierarchyFromPath
@@ -65,12 +66,12 @@ No Content
 POST /api/v1/Agents/List/DeleteHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "expedita"
+  "Path": "dolorem"
 }
 ```
 

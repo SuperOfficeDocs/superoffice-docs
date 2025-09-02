@@ -2,6 +2,7 @@
 title: GET TicketMessage/RfcAttachment/{id}/{position}
 uid: v1TicketMessageEntity_GetRfcAttachmentStream
 generated: true
+content_type: reference
 ---
 
 # GET TicketMessage/RfcAttachment/{id}/{position}

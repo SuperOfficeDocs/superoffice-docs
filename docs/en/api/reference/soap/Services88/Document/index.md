@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent SOAP
 uid: Services88-Document-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Document SOAP

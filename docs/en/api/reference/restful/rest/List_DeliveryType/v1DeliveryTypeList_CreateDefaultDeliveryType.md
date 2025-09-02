@@ -2,6 +2,7 @@
 title: GET List/DeliveryType/Items/Default
 uid: v1DeliveryTypeList_CreateDefaultDeliveryType
 generated: true
+content_type: reference
 ---
 
 # GET List/DeliveryType/Items/Default
@@ -60,7 +61,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 148,
-  "Name": "Wehner Inc and Sons",
-  "Tooltip": "quia",
+  "Id": 295,
+  "Name": "Bednar-Jacobi",
+  "Tooltip": "a",
   "Deleted": false,
-  "UdListDefinitionId": 201,
-  "Rank": 108,
+  "UdListDefinitionId": 407,
+  "Rank": 255,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 703
+      "FieldType": "System.Int32",
+      "FieldLength": 226
     }
   }
 }

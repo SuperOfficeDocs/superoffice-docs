@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
 uid: v1AppointmentAgent_CreateDefaultSuggestedAppointmentEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
 ```
 
-Set default values into a new SuggestedAppointmentEntity.
+Loading default values into a new SuggestedAppointmentEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -70,7 +69,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 783,
-  "Name": "Haag, Borer and Block",
-  "Tooltip": "reiciendis",
-  "Rank": 730,
+  "SuggestedAppointmentId": 89,
+  "Name": "Brakus, Spinka and Conn",
+  "Tooltip": "amet",
+  "Rank": 533,
   "Deleted": false,
-  "DaysFuture": 791,
-  "Duration": "quam",
+  "DaysFuture": 620,
+  "Duration": "est",
   "AutoSuggest": false,
-  "IsMilestone": true,
+  "IsMilestone": false,
   "AssignToMember": false,
   "Text": "culpa",
   "ProjectTypeStatusLink": null,
@@ -99,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 4
+      "FieldLength": 700
     }
   }
 }

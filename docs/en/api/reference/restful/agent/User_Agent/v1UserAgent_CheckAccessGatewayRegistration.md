@@ -2,6 +2,7 @@
 title: POST Agents/User/CheckAccessGatewayRegistration
 uid: v1UserAgent_CheckAccessGatewayRegistration
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/CheckAccessGatewayRegistration
@@ -62,7 +63,7 @@ OK
 POST /api/v1/Agents/User/CheckAccessGatewayRegistration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

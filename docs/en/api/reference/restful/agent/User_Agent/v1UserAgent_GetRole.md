@@ -2,6 +2,7 @@
 title: POST Agents/User/GetRole
 uid: v1UserAgent_GetRole
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetRole
@@ -24,11 +25,11 @@ Gets a Role object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| roleId | int32 | **Required** The primary key. |
+| roleId | int32 | **Required** The identifier of the Role object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetRole?roleId=41
+POST /api/v1/Agents/User/GetRole?roleId=576
 POST /api/v1/Agents/User/GetRole?$select=name,department,category/id
 ```
 
@@ -71,7 +72,7 @@ OK
 POST /api/v1/Agents/User/GetRole
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,15 +82,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 388,
-  "Value": "et",
-  "Tooltip": "quam",
+  "Id": 567,
+  "Value": "eum",
+  "Tooltip": "optio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 622
+      "FieldType": "System.String",
+      "FieldLength": 873
     }
   }
 }

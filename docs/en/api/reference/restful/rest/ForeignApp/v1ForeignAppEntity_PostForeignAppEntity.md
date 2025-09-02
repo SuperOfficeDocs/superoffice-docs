@@ -2,6 +2,7 @@
 title: POST ForeignApp
 uid: v1ForeignAppEntity_PostForeignAppEntity
 generated: true
+content_type: reference
 ---
 
 # POST ForeignApp
@@ -88,27 +89,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 241,
-  "Name": "Hoeger, Orn and Durgan",
-  "CreatedDate": "2012-08-30T03:45:28.3578119+02:00",
-  "UpdatedDate": "2000-03-18T03:45:28.3578119+01:00",
+  "ForeignAppId": 402,
+  "Name": "O'Conner, Volkman and Dickens",
+  "CreatedDate": "2017-01-08T03:47:00.0193121+01:00",
+  "UpdatedDate": "1998-07-28T03:47:00.0193121+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 561,
-      "Name": "Gutmann, Lakin and Jones",
-      "CreatedDate": "2004-04-27T03:45:28.3578119+02:00",
-      "UpdatedDate": "2004-11-17T03:45:28.3578119+01:00",
-      "AssociateFullName": "Ms. Forrest Alessandra Lynch",
-      "CreatedBy": "ullam",
-      "UpdatedBy": "sint",
-      "DeviceIdentifier": "vel",
-      "ForeignAppId": 244
+      "ForeignDeviceId": 989,
+      "Name": "Romaguera-Dietrich",
+      "CreatedDate": "2022-05-22T03:47:00.0193121+02:00",
+      "UpdatedDate": "1999-04-30T03:47:00.0193121+02:00",
+      "AssociateFullName": "Marcos Wuckert",
+      "CreatedBy": "harum",
+      "UpdatedBy": "aut",
+      "DeviceIdentifier": "id",
+      "ForeignAppId": 808
     }
   ]
 }
@@ -121,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 109,
-  "Name": "Dickinson, Wintheiser and Thompson",
-  "CreatedDate": "2020-10-22T03:45:28.3578119+02:00",
-  "UpdatedDate": "2006-06-16T03:45:28.3578119+02:00",
+  "ForeignAppId": 450,
+  "Name": "Gibson Inc and Sons",
+  "CreatedDate": "2010-01-06T03:47:00.0193121+01:00",
+  "UpdatedDate": "2021-01-03T03:47:00.0193121+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 161,
-      "Name": "Buckridge Inc and Sons",
-      "CreatedDate": "2008-11-11T03:45:28.3578119+01:00",
-      "UpdatedDate": "2007-12-05T03:45:28.3578119+01:00",
-      "AssociateFullName": "Jessica Lemke",
-      "CreatedBy": "distinctio",
-      "UpdatedBy": "reiciendis",
-      "DeviceIdentifier": "veniam",
-      "ForeignAppId": 174,
+      "ForeignDeviceId": 467,
+      "Name": "Rosenbaum-Hayes",
+      "CreatedDate": "1999-09-24T03:47:00.0193121+02:00",
+      "UpdatedDate": "2003-09-10T03:47:00.0193121+02:00",
+      "AssociateFullName": "Miss Krystel Oswaldo Feest",
+      "CreatedBy": "iste",
+      "UpdatedBy": "maiores",
+      "DeviceIdentifier": "omnis",
+      "ForeignAppId": 873,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 475
+          "FieldLength": 570
         }
       }
     }
@@ -153,12 +154,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 55
+      "FieldLength": 477
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -2,6 +2,7 @@
 title: Services88.DiagnosticsAgent.GetCacheNames SOAP
 generated: true
 uid: Services88-Diagnostics-GetCacheNames
+content_type: reference
 ---
 
 # Services88 Diagnostics GetCacheNames

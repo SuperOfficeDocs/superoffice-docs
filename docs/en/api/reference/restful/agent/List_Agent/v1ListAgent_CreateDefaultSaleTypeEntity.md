@@ -2,6 +2,7 @@
 title: POST Agents/List/CreateDefaultSaleTypeEntity
 uid: v1ListAgent_CreateDefaultSaleTypeEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/CreateDefaultSaleTypeEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 ```
 
-Set default values into a new SaleTypeEntity.
+Loading default values into a new SaleTypeEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -78,7 +77,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,53 +87,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 821,
-  "Name": "Hayes-Wehner",
-  "Tooltip": "temporibus",
-  "Rank": 358,
+  "SaleTypeId": 547,
+  "Name": "Jenkins, Kulas and Auer",
+  "Tooltip": "fugit",
+  "Rank": 402,
   "DurationUnit": "Century",
-  "SaleDuration": 502,
-  "SaleTypeCatId": 361,
+  "SaleDuration": 633,
+  "SaleTypeCatId": 84,
   "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 146,
-  "QuoteLinesTemplate": 788,
-  "ConfirmationLinesTemplate": 139,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 231,
+  "QuoteLinesTemplate": 704,
+  "ConfirmationLinesTemplate": 19,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 546,
-  "MinEarningPercent": 432,
-  "GroupQuoteLinesBy": 672,
-  "SortGroupLinesBy": 208,
+  "MaxDiscountPercent": 669,
+  "MinEarningPercent": 340,
+  "GroupQuoteLinesBy": 649,
+  "SortGroupLinesBy": 226,
   "Stages": [
     {
-      "Id": 986,
-      "Name": "Daugherty, Heaney and Gulgowski",
-      "ToolTip": "Quas et consequatur sit.",
-      "Deleted": false,
-      "Rank": 792,
-      "Type": "et",
-      "ColorBlock": 661,
-      "IconHint": "rem",
-      "Selected": false,
-      "LastChanged": "2005-03-26T03:45:23.6235756+01:00",
+      "Id": 739,
+      "Name": "Crist LLC",
+      "ToolTip": "Officiis non id quis.",
+      "Deleted": true,
+      "Rank": 334,
+      "Type": "rerum",
+      "ColorBlock": 30,
+      "IconHint": "et",
+      "Selected": true,
+      "LastChanged": "2006-08-16T03:46:54.9413809+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "error",
-      "StyleHint": "animi",
-      "Hidden": true,
-      "FullName": "Tomas Brain Jacobi III",
+      "ExtraInfo": "dolorum",
+      "StyleHint": "vero",
+      "Hidden": false,
+      "FullName": "Mr. Quincy Brooklyn Waters Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldLength": 507
         }
       }
     }
@@ -143,8 +142,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldType": "System.String",
+      "FieldLength": 209
     }
   }
 }

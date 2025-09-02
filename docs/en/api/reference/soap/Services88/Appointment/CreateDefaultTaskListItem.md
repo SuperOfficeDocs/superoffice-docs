@@ -2,6 +2,7 @@
 title: Services88.AppointmentAgent.CreateDefaultTaskListItem SOAP
 generated: true
 uid: Services88-Appointment-CreateDefaultTaskListItem
+content_type: reference
 ---
 
 # Services88 Appointment CreateDefaultTaskListItem

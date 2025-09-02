@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.CheckTemporaryKey SOAP
 generated: true
 uid: Services88-Person-CheckTemporaryKey
+content_type: reference
 ---
 
 # Services88 Person CheckTemporaryKey

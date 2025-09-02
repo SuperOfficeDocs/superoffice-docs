@@ -2,6 +2,7 @@
 title: POST Agents/List/DeleteFromListName
 uid: v1ListAgent_DeleteFromListName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/DeleteFromListName
@@ -65,12 +66,12 @@ No Content
 POST /api/v1/Agents/List/DeleteFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 798,
-  "UdListDefinitionName": "Okuneva, Weissnat and Rowe"
+  "Id": 554,
+  "UdListDefinitionName": "Bauch Inc and Sons"
 }
 ```
 

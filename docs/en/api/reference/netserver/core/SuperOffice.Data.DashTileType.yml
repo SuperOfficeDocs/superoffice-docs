@@ -11,6 +11,7 @@ items:
   - SuperOffice.Data.DashTileType.Column
   - SuperOffice.Data.DashTileType.CombinedBarLine
   - SuperOffice.Data.DashTileType.CombinedColumnLine
+  - SuperOffice.Data.DashTileType.Funnel
   - SuperOffice.Data.DashTileType.Gauge
   - SuperOffice.Data.DashTileType.HTML
   - SuperOffice.Data.DashTileType.Line
@@ -35,11 +36,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")]
 
       public enum DashTileType : short
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")>
 
       Public Enum DashTileType As Short
   extensionMethods:
@@ -55,7 +56,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.2.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.3.0.0
 - uid: SuperOffice.Data.DashTileType.None
   commentId: F:SuperOffice.Data.DashTileType.None
   id: None
@@ -455,6 +456,37 @@ items:
       <EnumMember>
 
       Gauge = 12
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.DashTileType.Funnel
+  commentId: F:SuperOffice.Data.DashTileType.Funnel
+  id: Funnel
+  parent: SuperOffice.Data.DashTileType
+  langs:
+  - csharp
+  - vb
+  name: Funnel
+  nameWithType: DashTileType.Funnel
+  fullName: SuperOffice.Data.DashTileType.Funnel
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '13: Funnel'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Funnel = 13
+    return:
+      type: SuperOffice.Data.DashTileType
+    content.vb: >-
+      <EnumMember>
+
+      Funnel = 13
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

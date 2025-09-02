@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/NotifyNewTicketMessage
 uid: v1TicketAgent_NotifyNewTicketMessage
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/NotifyNewTicketMessage
@@ -64,11 +65,11 @@ No Content
 POST /api/v1/Agents/Ticket/NotifyNewTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 342
+  "TicketEntityId": 13
 }
 ```
 

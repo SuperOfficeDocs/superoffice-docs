@@ -3,9 +3,9 @@ uid: quoteapprovers
 title: quoteapprovers
 keywords: mdoprovider mdo provider quoteapprovers
 description: Retrieve the list of all users that can approve quotes
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "quoteapprovers" MDO List

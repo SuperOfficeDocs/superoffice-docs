@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetConnectionConfigFields
 uid: v1QuoteAgent_GetConnectionConfigFields
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetConnectionConfigFields
@@ -68,11 +69,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionConfigFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 950
+  "QuoteConnectionId": 204
 }
 ```
 
@@ -83,7 +84,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "omnis",
-  "2": "et"
+  "1": "quo",
+  "2": "nemo"
 }
 ```

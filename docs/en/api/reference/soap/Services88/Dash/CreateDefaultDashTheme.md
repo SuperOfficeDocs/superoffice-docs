@@ -2,6 +2,7 @@
 title: Services88.DashAgent.CreateDefaultDashTheme SOAP
 generated: true
 uid: Services88-Dash-CreateDefaultDashTheme
+content_type: reference
 ---
 
 # Services88 Dash CreateDefaultDashTheme

@@ -2,6 +2,7 @@
 title: POST Attachment
 uid: v1AttachmentEntity_PostAttachmentEntity
 generated: true
+content_type: reference
 ---
 
 # POST Attachment
@@ -90,17 +91,17 @@ OK
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 639,
-  "Name": "Runte Group",
-  "ContentType": "recusandae",
-  "AttSize": 139,
+  "AttachmentId": 809,
+  "Name": "Rosenbaum, Schuster and Carter",
+  "ContentType": "rerum",
+  "AttSize": 717,
   "InlineImage": false,
-  "ContentId": "saepe",
-  "AuthKey": "quae",
+  "ContentId": "eum",
+  "AuthKey": "blanditiis",
   "IsSafeFileExtension": false
 }
 ```
@@ -112,25 +113,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 535,
-  "Name": "Kirlin-Kertzmann",
-  "ContentType": "nihil",
-  "AttSize": 555,
-  "InlineImage": false,
-  "ContentId": "quidem",
-  "AuthKey": "fuga",
-  "IsSafeFileExtension": true,
+  "AttachmentId": 203,
+  "Name": "Hoeger, Kertzmann and O'Hara",
+  "ContentType": "omnis",
+  "AttSize": 339,
+  "InlineImage": true,
+  "ContentId": "asperiores",
+  "AuthKey": "ut",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldType": "System.String",
+      "FieldLength": 61
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

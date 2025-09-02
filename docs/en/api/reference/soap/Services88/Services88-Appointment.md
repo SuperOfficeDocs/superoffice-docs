@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-Appointment
 title: Services88.AppointmentAgent WSDL
+content_type: reference
 ---
 
 # Services88.AppointmentAgent WSDL
@@ -96,6 +97,7 @@ title: Services88.AppointmentAgent WSDL
               <xs:element minOccurs="0" name="CreatedByAssociateId" type="xs:int" />
               <xs:element minOccurs="0" name="CautionWarning" type="q6:AppointmentCautionWarning" />
               <xs:element minOccurs="0" name="OwnedExternally" type="q6:AppointmentExternalOwner" />
+              <xs:element minOccurs="0" name="MotherAssociateId" type="xs:int" />
               <xs:element minOccurs="0" name="JoinVideomeetUrl" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="PreferredTZLocation" type="xs:int" />
               <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
@@ -740,6 +742,8 @@ title: Services88.AppointmentAgent WSDL
               <xs:element minOccurs="0" name="RecurrenceInfo" nillable="true" type="q68:RecurrenceInfo" />
               <xs:element minOccurs="0" name="PersonName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="IsBooking" type="xs:boolean" />
+              <xs:element minOccurs="0" name="OwnedExternally" type="q68:AppointmentExternalOwner" />
+              <xs:element minOccurs="0" name="MotherAssociateId" type="xs:int" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -1599,6 +1603,8 @@ title: Services88.AppointmentAgent WSDL
               <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
               <xs:element minOccurs="0" name="EjUserId" type="xs:int" />
               <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="q182:StringDictionary" />
+              <xs:element minOccurs="0" name="CustomFields" nillable="true" type="q182:StringDictionary" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -1615,6 +1621,24 @@ title: Services88.AppointmentAgent WSDL
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="UserType" nillable="true" type="q184:UserType" xmlns:q184="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:complexType name="StringDictionary">
+        <xs:annotation>
+          <xs:appinfo>
+            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="StringKeyValuePair">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="Key" nillable="true" type="xs:string" />
+                <xs:element name="Value" nillable="true" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="StringDictionary" nillable="true" type="q185:StringDictionary" xmlns:q185="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="GetSuggestedAppointmentEntity">
         <xs:complexType>
           <xs:sequence>
@@ -1625,13 +1649,13 @@ title: Services88.AppointmentAgent WSDL
       <xs:element name="GetSuggestedAppointmentEntityResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q185:SuggestedAppointmentEntity" xmlns:q185="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q186:SuggestedAppointmentEntity" xmlns:q186="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="SuggestedAppointmentEntity">
         <xs:complexContent mixed="false">
-          <xs:extension base="q186:Carrier" xmlns:q186="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q187:Carrier" xmlns:q187="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="SuggestedAppointmentId" type="xs:int" />
               <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
@@ -1644,17 +1668,17 @@ title: Services88.AppointmentAgent WSDL
               <xs:element minOccurs="0" name="IsMilestone" type="xs:boolean" />
               <xs:element minOccurs="0" name="AssignToMember" type="xs:boolean" />
               <xs:element minOccurs="0" name="Text" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ProjectTypeStatusLink" nillable="true" type="q186:ProjectTypeStatusLink" />
-              <xs:element minOccurs="0" name="SaleTypeStageLink" nillable="true" type="q186:SaleTypeStageLink" />
-              <xs:element minOccurs="0" name="Type" nillable="true" type="q186:Task" />
+              <xs:element minOccurs="0" name="ProjectTypeStatusLink" nillable="true" type="q187:ProjectTypeStatusLink" />
+              <xs:element minOccurs="0" name="SaleTypeStageLink" nillable="true" type="q187:SaleTypeStageLink" />
+              <xs:element minOccurs="0" name="Type" nillable="true" type="q187:Task" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="SuggestedAppointmentEntity" nillable="true" type="q187:SuggestedAppointmentEntity" xmlns:q187="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="SuggestedAppointmentEntity" nillable="true" type="q188:SuggestedAppointmentEntity" xmlns:q188="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ProjectTypeStatusLink">
         <xs:complexContent mixed="false">
-          <xs:extension base="q188:Carrier" xmlns:q188="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q189:Carrier" xmlns:q189="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="ProjectTypeStatusLinkId" type="xs:int" />
               <xs:element minOccurs="0" name="ProjTypeId" type="xs:int" />
@@ -1667,10 +1691,10 @@ title: Services88.AppointmentAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="ProjectTypeStatusLink" nillable="true" type="q189:ProjectTypeStatusLink" xmlns:q189="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ProjectTypeStatusLink" nillable="true" type="q190:ProjectTypeStatusLink" xmlns:q190="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="SaleTypeStageLink">
         <xs:complexContent mixed="false">
-          <xs:extension base="q190:Carrier" xmlns:q190="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q191:Carrier" xmlns:q191="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="SaleTypeStageLinkId" type="xs:int" />
               <xs:element minOccurs="0" name="SaleTypeId" type="xs:int" />
@@ -1684,10 +1708,10 @@ title: Services88.AppointmentAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="SaleTypeStageLink" nillable="true" type="q191:SaleTypeStageLink" xmlns:q191="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="SaleTypeStageLink" nillable="true" type="q192:SaleTypeStageLink" xmlns:q192="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Task">
         <xs:complexContent mixed="false">
-          <xs:extension base="q192:Carrier" xmlns:q192="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q193:Carrier" xmlns:q193="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Id" type="xs:int" />
               <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
@@ -1696,7 +1720,7 @@ title: Services88.AppointmentAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Task" nillable="true" type="q193:Task" xmlns:q193="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Task" nillable="true" type="q194:Task" xmlns:q194="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="GetTaskListItem">
         <xs:complexType>
           <xs:sequence>
@@ -1707,18 +1731,18 @@ title: Services88.AppointmentAgent WSDL
       <xs:element name="GetTaskListItemResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q194:TaskListItem" xmlns:q194="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q195:TaskListItem" xmlns:q195="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="TaskListItem">
         <xs:complexContent mixed="false">
-          <xs:extension base="q195:Carrier" xmlns:q195="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q196:Carrier" xmlns:q196="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="TaskListItemId" type="xs:int" />
               <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Direction" type="q195:TaskDirection" />
-              <xs:element minOccurs="0" name="Type" type="q195:TaskType" />
+              <xs:element minOccurs="0" name="Direction" type="q196:TaskDirection" />
+              <xs:element minOccurs="0" name="Type" type="q196:TaskType" />
               <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
               <xs:element minOccurs="0" name="IntentId" type="xs:int" />
@@ -1726,13 +1750,13 @@ title: Services88.AppointmentAgent WSDL
               <xs:element minOccurs="0" name="IsDefaultAlldayEvent" type="xs:boolean" />
               <xs:element minOccurs="0" name="IsDefaultFree" type="xs:boolean" />
               <xs:element minOccurs="0" name="IsDefaultPublished" type="xs:boolean" />
-              <xs:element minOccurs="0" name="ColorIndex" type="q195:ColorIndex" />
-              <xs:element minOccurs="0" name="DefaultVideomeetingStatus" type="q195:VideoMeetingStatus" />
+              <xs:element minOccurs="0" name="ColorIndex" type="q196:ColorIndex" />
+              <xs:element minOccurs="0" name="DefaultVideomeetingStatus" type="q196:VideoMeetingStatus" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="TaskListItem" nillable="true" type="q196:TaskListItem" xmlns:q196="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TaskListItem" nillable="true" type="q197:TaskListItem" xmlns:q197="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="TaskDirection">
         <xs:annotation>
           <xs:appinfo>
@@ -1746,7 +1770,7 @@ title: Services88.AppointmentAgent WSDL
           <xs:enumeration value="SaintAll" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="TaskDirection" nillable="true" type="q197:TaskDirection" xmlns:q197="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TaskDirection" nillable="true" type="q198:TaskDirection" xmlns:q198="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="VideoMeetingStatus">
         <xs:annotation>
           <xs:appinfo>
@@ -1759,7 +1783,7 @@ title: Services88.AppointmentAgent WSDL
           <xs:enumeration value="VideoMeetingOff" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="VideoMeetingStatus" nillable="true" type="q198:VideoMeetingStatus" xmlns:q198="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="VideoMeetingStatus" nillable="true" type="q199:VideoMeetingStatus" xmlns:q199="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="GetTaskListItems">
         <xs:complexType>
           <xs:sequence>
@@ -1770,16 +1794,16 @@ title: Services88.AppointmentAgent WSDL
       <xs:element name="GetTaskListItemsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q199:ArrayOfTaskListItem" xmlns:q199="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q200:ArrayOfTaskListItem" xmlns:q200="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfTaskListItem">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="TaskListItem" nillable="true" type="q200:TaskListItem" xmlns:q200="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="TaskListItem" nillable="true" type="q201:TaskListItem" xmlns:q201="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfTaskListItem" nillable="true" type="q201:ArrayOfTaskListItem" xmlns:q201="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfTaskListItem" nillable="true" type="q202:ArrayOfTaskListItem" xmlns:q202="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="CreateVideoMeetingReservation">
         <xs:complexType>
           <xs:sequence />
@@ -1788,13 +1812,13 @@ title: Services88.AppointmentAgent WSDL
       <xs:element name="CreateVideoMeetingReservationResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q202:VideoMeetingReservation" xmlns:q202="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q203:VideoMeetingReservation" xmlns:q203="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="VideoMeetingReservation">
         <xs:complexContent mixed="false">
-          <xs:extension base="q203:Carrier" xmlns:q203="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q204:Carrier" xmlns:q204="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="VideoMeetingId" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="VideoMeetingUrl" nillable="true" type="xs:string" />
@@ -1802,7 +1826,7 @@ title: Services88.AppointmentAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="VideoMeetingReservation" nillable="true" type="q204:VideoMeetingReservation" xmlns:q204="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="VideoMeetingReservation" nillable="true" type="q205:VideoMeetingReservation" xmlns:q205="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="DeleteVideoMeetingReservation">
         <xs:complexType>
           <xs:sequence>
@@ -1823,18 +1847,18 @@ title: Services88.AppointmentAgent WSDL
       <xs:element name="CreateDefaultAppointmentEntityResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q205:AppointmentEntity" xmlns:q205="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q206:AppointmentEntity" xmlns:q206="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="AppointmentEntity">
         <xs:complexContent mixed="false">
-          <xs:extension base="q206:Carrier" xmlns:q206="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q207:Carrier" xmlns:q207="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
-              <xs:element minOccurs="0" name="Associate" nillable="true" type="q206:Associate" />
-              <xs:element minOccurs="0" name="Contact" nillable="true" type="q206:Contact" />
-              <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="q206:Associate" />
-              <xs:element minOccurs="0" name="UpdatedBy" nillable="true" type="q206:Associate" />
+              <xs:element minOccurs="0" name="Associate" nillable="true" type="q207:Associate" />
+              <xs:element minOccurs="0" name="Contact" nillable="true" type="q207:Contact" />
+              <xs:element minOccurs="0" name="CreatedBy" nillable="true" type="q207:Associate" />
+              <xs:element minOccurs="0" name="UpdatedBy" nillable="true" type="q207:Associate" />
               <xs:element minOccurs="0" name="CreatedDate" type="xs:dateTime" />
               <xs:element minOccurs="0" name="AppointmentId" type="xs:int" />
               <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
@@ -1843,17 +1867,17 @@ title: Services88.AppointmentAgent WSDL
               <xs:element minOccurs="0" name="InternalNotes" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="StartDate" type="xs:dateTime" />
               <xs:element minOccurs="0" name="EndDate" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="InvitedPerson" nillable="true" type="q206:Person" />
-              <xs:element minOccurs="0" name="Person" nillable="true" type="q206:Person" />
+              <xs:element minOccurs="0" name="InvitedPerson" nillable="true" type="q207:Person" />
+              <xs:element minOccurs="0" name="Person" nillable="true" type="q207:Person" />
               <xs:element minOccurs="0" name="MotherId" type="xs:int" />
-              <xs:element minOccurs="0" name="Priority" nillable="true" type="q206:Priority" />
-              <xs:element minOccurs="0" name="Private" type="q206:AppointmentPrivate" />
-              <xs:element minOccurs="0" name="Project" nillable="true" type="q206:Project" />
-              <xs:element minOccurs="0" name="Type" type="q206:AppointmentType" />
+              <xs:element minOccurs="0" name="Priority" nillable="true" type="q207:Priority" />
+              <xs:element minOccurs="0" name="Private" type="q207:AppointmentPrivate" />
+              <xs:element minOccurs="0" name="Project" nillable="true" type="q207:Project" />
+              <xs:element minOccurs="0" name="Type" type="q207:AppointmentType" />
               <xs:element minOccurs="0" name="UpdatedDate" type="xs:dateTime" />
-              <xs:element minOccurs="0" name="Completed" type="q206:ActivityStatus" />
+              <xs:element minOccurs="0" name="Completed" type="q207:ActivityStatus" />
               <xs:element minOccurs="0" name="ActiveLinks" type="xs:int" />
-              <xs:element minOccurs="0" name="Links" nillable="true" type="q206:ArrayOfLink" />
+              <xs:element minOccurs="0" name="Links" nillable="true" type="q207:ArrayOfLink" />
               <xs:element minOccurs="0" name="AlarmLeadTime" type="ser:duration" />
               <xs:element minOccurs="0" name="HasAlarm" type="xs:boolean" />
               <xs:element minOccurs="0" name="ColorIndex" type="xs:short" />
@@ -1864,41 +1888,41 @@ title: Services88.AppointmentAgent WSDL
               <xs:element minOccurs="0" name="Location" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="RejectCounter" type="xs:short" />
               <xs:element minOccurs="0" name="RejectReason" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Recurrence" nillable="true" type="q206:RecurrenceInfo" />
-              <xs:element minOccurs="0" name="Participants" nillable="true" type="q206:ArrayOfParticipantInfo" />
-              <xs:element minOccurs="0" name="AssignmentStatus" type="q206:AssignmentStatus" />
-              <xs:element minOccurs="0" name="InvitationStatus" type="q206:InvitationStatus" />
-              <xs:element minOccurs="0" name="BookingType" type="q206:BookingType" />
+              <xs:element minOccurs="0" name="Recurrence" nillable="true" type="q207:RecurrenceInfo" />
+              <xs:element minOccurs="0" name="Participants" nillable="true" type="q207:ArrayOfParticipantInfo" />
+              <xs:element minOccurs="0" name="AssignmentStatus" type="q207:AssignmentStatus" />
+              <xs:element minOccurs="0" name="InvitationStatus" type="q207:InvitationStatus" />
+              <xs:element minOccurs="0" name="BookingType" type="q207:BookingType" />
               <xs:element minOccurs="0" name="ActiveDate" type="xs:dateTime" />
               <xs:element minOccurs="0" name="HasConflict" type="xs:boolean" />
-              <xs:element minOccurs="0" name="AssignedBy" nillable="true" type="q206:Associate" />
-              <xs:element minOccurs="0" name="MotherAssociate" nillable="true" type="q206:Associate" />
-              <xs:element minOccurs="0" name="Task" nillable="true" type="q206:TaskListItem" />
+              <xs:element minOccurs="0" name="AssignedBy" nillable="true" type="q207:Associate" />
+              <xs:element minOccurs="0" name="MotherAssociate" nillable="true" type="q207:Associate" />
+              <xs:element minOccurs="0" name="Task" nillable="true" type="q207:TaskListItem" />
               <xs:element minOccurs="0" name="PreferredTZLocation" type="xs:int" />
-              <xs:element minOccurs="0" name="PreferredTZLocationData" nillable="true" type="q206:TimeZoneData" />
-              <xs:element minOccurs="0" name="Sale" nillable="true" type="q206:Sale" />
+              <xs:element minOccurs="0" name="PreferredTZLocationData" nillable="true" type="q207:TimeZoneData" />
+              <xs:element minOccurs="0" name="Sale" nillable="true" type="q207:Sale" />
               <xs:element minOccurs="0" name="SuggestedAppointmentId" type="xs:int" />
               <xs:element minOccurs="0" name="IsMileStone" type="xs:boolean" />
-              <xs:element minOccurs="0" name="CautionWarning" type="q206:AppointmentCautionWarning" />
-              <xs:element minOccurs="0" name="OwnedExternally" type="q206:AppointmentExternalOwner" />
+              <xs:element minOccurs="0" name="CautionWarning" type="q207:AppointmentCautionWarning" />
+              <xs:element minOccurs="0" name="OwnedExternally" type="q207:AppointmentExternalOwner" />
               <xs:element minOccurs="0" name="JoinVideomeetUrl" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="CentralserviceVideomeetId" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="q206:StringDictionary" />
-              <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="q206:StringDictionary" />
-              <xs:element minOccurs="0" name="CustomFields" nillable="true" type="q206:StringDictionary" />
+              <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="q207:StringDictionary" />
+              <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="q207:StringDictionary" />
+              <xs:element minOccurs="0" name="CustomFields" nillable="true" type="q207:StringDictionary" />
               <xs:element minOccurs="0" name="PublishEventDate" type="xs:dateTime" />
               <xs:element minOccurs="0" name="PublishTo" type="xs:dateTime" />
               <xs:element minOccurs="0" name="PublishFrom" type="xs:dateTime" />
               <xs:element minOccurs="0" name="IsPublished" type="xs:boolean" />
-              <xs:element minOccurs="0" name="VisibleFor" nillable="true" type="q206:ArrayOfVisibleFor" />
+              <xs:element minOccurs="0" name="VisibleFor" nillable="true" type="q207:ArrayOfVisibleFor" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="AppointmentEntity" nillable="true" type="q207:AppointmentEntity" xmlns:q207="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="AppointmentEntity" nillable="true" type="q208:AppointmentEntity" xmlns:q208="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Priority">
         <xs:complexContent mixed="false">
-          <xs:extension base="q208:Carrier" xmlns:q208="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q209:Carrier" xmlns:q209="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Id" type="xs:int" />
               <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
@@ -1907,10 +1931,10 @@ title: Services88.AppointmentAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Priority" nillable="true" type="q209:Priority" xmlns:q209="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Priority" nillable="true" type="q210:Priority" xmlns:q210="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Project">
         <xs:complexContent mixed="false">
-          <xs:extension base="q210:Carrier" xmlns:q210="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q211:Carrier" xmlns:q211="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
               <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
@@ -1934,16 +1958,16 @@ title: Services88.AppointmentAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Project" nillable="true" type="q211:Project" xmlns:q211="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Project" nillable="true" type="q212:Project" xmlns:q212="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfLink">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="Link" nillable="true" type="q212:Link" xmlns:q212="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Link" nillable="true" type="q213:Link" xmlns:q213="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfLink" nillable="true" type="q213:ArrayOfLink" xmlns:q213="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfLink" nillable="true" type="q214:ArrayOfLink" xmlns:q214="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Link">
         <xs:complexContent mixed="false">
-          <xs:extension base="q214:Carrier" xmlns:q214="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q215:Carrier" xmlns:q215="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="EntityName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Id" type="xs:int" />
@@ -1954,13 +1978,13 @@ title: Services88.AppointmentAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Link" nillable="true" type="q215:Link" xmlns:q215="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Link" nillable="true" type="q216:Link" xmlns:q216="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfParticipantInfo">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ParticipantInfo" nillable="true" type="q216:ParticipantInfo" xmlns:q216="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ParticipantInfo" nillable="true" type="q217:ParticipantInfo" xmlns:q217="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfParticipantInfo" nillable="true" type="q217:ArrayOfParticipantInfo" xmlns:q217="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfParticipantInfo" nillable="true" type="q218:ArrayOfParticipantInfo" xmlns:q218="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ParticipantInfo">
         <xs:sequence>
           <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
@@ -1968,12 +1992,12 @@ title: Services88.AppointmentAgent WSDL
           <xs:element minOccurs="0" name="ContactId" type="xs:int" />
           <xs:element minOccurs="0" name="EmailId" type="xs:int" />
           <xs:element minOccurs="0" name="SendEmail" type="xs:boolean" />
-          <xs:element minOccurs="0" name="InvitationStatus" type="q218:InvitationStatus" xmlns:q218="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="InvitationStatus" type="q219:InvitationStatus" xmlns:q219="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           <xs:element minOccurs="0" name="EmailAddress" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ParticipantInfo" nillable="true" type="q219:ParticipantInfo" xmlns:q219="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ParticipantInfo" nillable="true" type="q220:ParticipantInfo" xmlns:q220="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="TimeZoneData">
         <xs:sequence>
           <xs:element minOccurs="0" name="TZLocationID" type="xs:int" />
@@ -1981,11 +2005,11 @@ title: Services88.AppointmentAgent WSDL
           <xs:element minOccurs="0" name="TZLocationCode" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="TZLocationCities" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="IsoNumber" type="xs:int" />
-          <xs:element minOccurs="0" name="TimeZoneSTDRules" nillable="true" type="q220:TimeZoneRuleDictionary" xmlns:q220="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="TimeZoneDSTRules" nillable="true" type="q221:TimeZoneRuleDictionary" xmlns:q221="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="TimeZoneSTDRules" nillable="true" type="q221:TimeZoneRuleDictionary" xmlns:q221="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="TimeZoneDSTRules" nillable="true" type="q222:TimeZoneRuleDictionary" xmlns:q222="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="TimeZoneData" nillable="true" type="q222:TimeZoneData" xmlns:q222="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TimeZoneData" nillable="true" type="q223:TimeZoneData" xmlns:q223="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="TimeZoneRuleDictionary">
         <xs:annotation>
           <xs:appinfo>
@@ -1997,13 +2021,13 @@ title: Services88.AppointmentAgent WSDL
             <xs:complexType>
               <xs:sequence>
                 <xs:element name="Key" type="xs:dateTime" />
-                <xs:element name="Value" nillable="true" type="q223:TimeZoneRule" xmlns:q223="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+                <xs:element name="Value" nillable="true" type="q224:TimeZoneRule" xmlns:q224="http://www.superoffice.net/ws/crm/NetServer/Services88" />
               </xs:sequence>
             </xs:complexType>
           </xs:element>
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="TimeZoneRuleDictionary" nillable="true" type="q224:TimeZoneRuleDictionary" xmlns:q224="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TimeZoneRuleDictionary" nillable="true" type="q225:TimeZoneRuleDictionary" xmlns:q225="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="TimeZoneRule">
         <xs:sequence>
           <xs:element minOccurs="0" name="TZOffset" type="xs:int" />
@@ -2015,10 +2039,10 @@ title: Services88.AppointmentAgent WSDL
           <xs:element minOccurs="0" name="EndMonth" type="xs:int" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="TimeZoneRule" nillable="true" type="q225:TimeZoneRule" xmlns:q225="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="TimeZoneRule" nillable="true" type="q226:TimeZoneRule" xmlns:q226="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="Sale">
         <xs:complexContent mixed="false">
-          <xs:extension base="q226:Carrier" xmlns:q226="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q227:Carrier" xmlns:q227="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="ContactName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="SaleDate" type="xs:dateTime" />
@@ -2030,7 +2054,7 @@ title: Services88.AppointmentAgent WSDL
               <xs:element minOccurs="0" name="ProjectName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="AssociateFullName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Status" type="q226:SaleStatus" />
+              <xs:element minOccurs="0" name="Status" type="q227:SaleStatus" />
               <xs:element minOccurs="0" name="WeightedAmount" type="xs:double" />
               <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
               <xs:element minOccurs="0" name="EarningPercent" type="xs:double" />
@@ -2041,7 +2065,7 @@ title: Services88.AppointmentAgent WSDL
               <xs:element minOccurs="0" name="SaleTypeId" type="xs:int" />
               <xs:element minOccurs="0" name="SaleTypeName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="PersonFullName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Completed" type="q226:ActivityStatus" />
+              <xs:element minOccurs="0" name="Completed" type="q227:ActivityStatus" />
               <xs:element minOccurs="0" name="ActiveErpLinks" type="xs:int" />
               <xs:element minOccurs="0" name="NextDueDate" type="xs:dateTime" />
               <xs:element minOccurs="0" name="Number" nillable="true" type="xs:string" />
@@ -2049,7 +2073,7 @@ title: Services88.AppointmentAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Sale" nillable="true" type="q227:Sale" xmlns:q227="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Sale" nillable="true" type="q228:Sale" xmlns:q228="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="SaleStatus">
         <xs:annotation>
           <xs:appinfo>
@@ -2071,25 +2095,7 @@ title: Services88.AppointmentAgent WSDL
           </xs:enumeration>
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="SaleStatus" nillable="true" type="q228:SaleStatus" xmlns:q228="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-      <xs:complexType name="StringDictionary">
-        <xs:annotation>
-          <xs:appinfo>
-            <IsDictionary xmlns="http://schemas.microsoft.com/2003/10/Serialization/">true</IsDictionary>
-          </xs:appinfo>
-        </xs:annotation>
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="StringKeyValuePair">
-            <xs:complexType>
-              <xs:sequence>
-                <xs:element name="Key" nillable="true" type="xs:string" />
-                <xs:element name="Value" nillable="true" type="xs:string" />
-              </xs:sequence>
-            </xs:complexType>
-          </xs:element>
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="StringDictionary" nillable="true" type="q229:StringDictionary" xmlns:q229="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="SaleStatus" nillable="true" type="q229:SaleStatus" xmlns:q229="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfVisibleFor">
         <xs:sequence>
           <xs:element minOccurs="0" maxOccurs="unbounded" name="VisibleFor" nillable="true" type="q230:VisibleFor" xmlns:q230="http://www.superoffice.net/ws/crm/NetServer/Services88" />

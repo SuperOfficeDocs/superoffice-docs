@@ -2,6 +2,7 @@
 title: Services88.FavouriteAgent.ToggleFavourite SOAP
 generated: true
 uid: Services88-Favourite-ToggleFavourite
+content_type: reference
 ---
 
 # Services88 Favourite ToggleFavourite

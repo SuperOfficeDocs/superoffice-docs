@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.FindAddress SOAP
 generated: true
 uid: Services88-EMail-FindAddress
+content_type: reference
 ---
 
 # Services88 EMail FindAddress

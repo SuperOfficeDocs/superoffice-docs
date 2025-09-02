@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/AddAttachments
 uid: v1TicketAgent_AddAttachments
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/AddAttachments
@@ -67,14 +68,14 @@ No Content
 POST /api/v1/Agents/Ticket/AddAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 745,
+  "TicketMessageEntityId": 674,
   "AttachmentIds": [
-    830,
-    258
+    19,
+    731
   ]
 }
 ```

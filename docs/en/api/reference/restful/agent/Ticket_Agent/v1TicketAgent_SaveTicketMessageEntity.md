@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/SaveTicketMessageEntity
 uid: v1TicketAgent_SaveTicketMessageEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/SaveTicketMessageEntity
@@ -10,8 +11,10 @@ generated: true
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 ```
 
-Updates the existing TicketMessageEntity or creates a new TicketMessageEntity if the id parameter is empty
+Updates the existing TicketMessageEntity or creates a new TicketMessageEntity if the id parameter is 0.
 
+
+Does not notify users of save.
 
 
 
@@ -33,9 +36,9 @@ Updates the existing TicketMessageEntity or creates a new TicketMessageEntity if
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: ticketMessageEntity 
 
-The TicketMessageEntity to be saved. 
+The TicketMessageEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -113,67 +116,67 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 86,
+  "EjMessageId": 601,
   "Ticket": null,
-  "CreatedAt": "2011-03-05T03:45:24.0298098+01:00",
+  "CreatedAt": "2003-04-02T03:46:55.5351045+02:00",
   "CreatedBy": null,
-  "Author": "rerum",
+  "Author": "illo",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "tenetur",
-  "TimeSpent": 668,
-  "Body": "blanditiis",
-  "HtmlBody": "nam",
-  "EmailHeader": "lorenzo@beier.co.uk",
-  "DebugInfo": "ducimus",
-  "MailSorter": "iste",
+  "MessageId": "voluptate",
+  "TimeSpent": 586,
+  "Body": "voluptatem",
+  "HtmlBody": "eum",
+  "EmailHeader": "chadrick.collier@miller.us",
+  "DebugInfo": "qui",
+  "MailSorter": "dolores",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "accusantium",
+  "SearchTitle": "aliquid",
   "MessageHeaders": [
     {
-      "Id": 370,
-      "Name": "Berge, Wilkinson and Conn",
-      "Value": "impedit",
+      "Id": 515,
+      "Name": "Deckow, Abshire and Walsh",
+      "Value": "laborum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 370,
-      "Name": "Berge, Wilkinson and Conn",
-      "Value": "impedit",
+      "Id": 515,
+      "Name": "Deckow, Abshire and Walsh",
+      "Value": "laborum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "eligendi",
-  "Sentiment": 902,
-  "SentimentConfidence": 426,
+  "Important": true,
+  "Language": "ea",
+  "Sentiment": 688,
+  "SentimentConfidence": 39,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 572,
-      "Name": "Homenick-Bogan",
-      "ContentType": "eum",
-      "AttSize": 540,
-      "InlineImage": true,
-      "ContentId": "ut",
-      "AuthKey": "occaecati",
+      "AttachmentId": 860,
+      "Name": "Kris Group",
+      "ContentType": "impedit",
+      "AttSize": 999,
+      "InlineImage": false,
+      "ContentId": "deleniti",
+      "AuthKey": "aliquam",
       "IsSafeFileExtension": true
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "nam",
-    "ExtraFields2": "nulla"
+    "ExtraFields1": "et",
+    "ExtraFields2": "voluptates"
   },
   "CustomFields": {
-    "CustomFields1": "culpa",
-    "CustomFields2": "fugit"
+    "CustomFields1": "excepturi",
+    "CustomFields2": "adipisci"
   }
 }
 ```
@@ -185,28 +188,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 37,
+  "EjMessageId": 531,
   "Ticket": null,
-  "CreatedAt": "2013-07-29T03:45:24.0454344+02:00",
+  "CreatedAt": "2023-06-30T03:46:55.5351045+02:00",
   "CreatedBy": null,
-  "Author": "occaecati",
+  "Author": "rem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "modi",
-  "TimeSpent": 701,
-  "Body": "quis",
-  "HtmlBody": "maiores",
-  "EmailHeader": "amos.fritsch@feest.co.uk",
-  "DebugInfo": "nihil",
-  "MailSorter": "ut",
+  "MessageId": "itaque",
+  "TimeSpent": 432,
+  "Body": "ut",
+  "HtmlBody": "sit",
+  "EmailHeader": "dawn@hammes.co.uk",
+  "DebugInfo": "tempore",
+  "MailSorter": "fuga",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "molestiae",
+  "SearchTitle": "eaque",
   "MessageHeaders": [
     {
-      "Id": 997,
-      "Name": "Pollich-Heathcote",
-      "Value": "eaque",
+      "Id": 834,
+      "Name": "Hauck-Hamill",
+      "Value": "nihil",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -214,50 +217,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 384
+          "FieldLength": 981
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "soluta",
-  "Sentiment": 308,
-  "SentimentConfidence": 604,
+  "Important": false,
+  "Language": "dignissimos",
+  "Sentiment": 486,
+  "SentimentConfidence": 894,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 49,
-      "Name": "Lubowitz, Ankunding and Raynor",
-      "ContentType": "tempora",
-      "AttSize": 621,
+      "AttachmentId": 861,
+      "Name": "Hoeger Group",
+      "ContentType": "nisi",
+      "AttSize": 186,
       "InlineImage": false,
-      "ContentId": "perspiciatis",
-      "AuthKey": "nemo",
+      "ContentId": "omnis",
+      "AuthKey": "aut",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 885
+          "FieldLength": 989
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "mollitia",
-    "ExtraFields2": "et"
+    "ExtraFields1": "non",
+    "ExtraFields2": "eos"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "quis"
+    "CustomFields1": "possimus",
+    "CustomFields2": "sit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 135
+      "FieldLength": 961
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.GetColleaguesBySource SOAP
 generated: true
 uid: Services88-Person-GetColleaguesBySource
+content_type: reference
 ---
 
 # Services88 Person GetColleaguesBySource

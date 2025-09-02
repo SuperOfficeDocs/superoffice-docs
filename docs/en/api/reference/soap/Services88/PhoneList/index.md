@@ -2,6 +2,7 @@
 title: Services88.PhoneListAgent SOAP
 uid: Services88-PhoneList-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 PhoneList SOAP

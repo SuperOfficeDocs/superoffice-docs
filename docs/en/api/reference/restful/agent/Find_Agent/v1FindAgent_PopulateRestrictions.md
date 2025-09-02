@@ -2,6 +2,7 @@
 title: POST Agents/Find/PopulateRestrictions
 uid: v1FindAgent_PopulateRestrictions
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/PopulateRestrictions
@@ -83,32 +84,32 @@ OK
 POST /api/v1/Agents/Find/PopulateRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Jast-Miller",
+  "ProviderName": "Hilpert-Hermann",
   "Restrictions": [
     {
-      "Name": "Jerde-Rowe",
-      "Operator": "officia",
+      "Name": "Crist, Lesch and Satterfield",
+      "Operator": "architecto",
       "Values": [
-        "consectetur",
-        "itaque"
+        "fuga",
+        "quia"
       ],
       "DisplayValues": [
-        "soluta",
-        "provident"
+        "perferendis",
+        "consequatur"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 566,
+      "InterParenthesis": 691,
       "InterOperator": "And",
-      "UniqueHash": 341
+      "UniqueHash": 747
     }
   ]
 }
@@ -122,44 +123,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hermiston-Hackett",
-    "Operator": "aut",
+    "Name": "D'Amore LLC",
+    "Operator": "sint",
     "Values": [
-      "tempore",
-      "veniam"
+      "molestiae",
+      "quia"
     ],
     "DisplayValues": [
-      "aperiam",
-      "voluptatum"
+      "est",
+      "omnis"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Maggio-Stiedemann",
-        "Operator": "quia",
+        "Name": "Kiehn-Becker",
+        "Operator": "eos",
         "Values": [
-          "accusantium",
-          "placeat"
+          "sapiente",
+          "voluptate"
         ],
         "DisplayValues": [
-          "labore",
-          "maxime"
+          "quia",
+          "voluptatem"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 792,
+        "InterParenthesis": 802,
         "InterOperator": "And",
-        "UniqueHash": 743
+        "UniqueHash": 704
       }
     ],
-    "InterParenthesis": 430,
+    "InterParenthesis": 254,
     "InterOperator": "And",
-    "UniqueHash": 531
+    "UniqueHash": 23
   }
 ]
 ```

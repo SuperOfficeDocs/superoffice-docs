@@ -3,9 +3,9 @@ uid: chatsessionstatus
 title: chatsessionstatus
 keywords: mdoprovider mdo provider chatsessionstatus
 description: Chat session status values
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "chatsessionstatus" MDO List

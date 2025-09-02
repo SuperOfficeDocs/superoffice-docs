@@ -2,6 +2,7 @@
 title: PUT List/Priority/Items/{id}
 uid: v1PriorityList_PutPriority
 generated: true
+content_type: reference
 ---
 
 # PUT List/Priority/Items/{id}
@@ -78,16 +79,16 @@ OK
 PUT /api/v1/List/Priority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 685,
-  "Name": "Greenholt Inc and Sons",
-  "Tooltip": "blanditiis",
+  "Id": 149,
+  "Name": "Howell LLC",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "UdListDefinitionId": 932,
-  "Rank": 801
+  "UdListDefinitionId": 911,
+  "Rank": 670
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 978,
-  "Name": "Feeney-Lueilwitz",
-  "Tooltip": "facere",
+  "Id": 688,
+  "Name": "Feeney LLC",
+  "Tooltip": "quisquam",
   "Deleted": false,
-  "UdListDefinitionId": 353,
-  "Rank": 328,
+  "UdListDefinitionId": 340,
+  "Rank": 583,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 400
+      "FieldLength": 977
     }
   }
 }

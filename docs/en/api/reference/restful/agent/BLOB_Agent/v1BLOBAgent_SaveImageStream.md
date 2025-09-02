@@ -2,6 +2,7 @@
 title: POST Agents/BLOB/SaveImageStream
 uid: v1BLOBAgent_SaveImageStream
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BLOB/SaveImageStream
@@ -78,7 +79,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "AccessToken",
   "Image": "GIF89....File contents as raw bytes...",
-  "Description": "Optimized attitude-oriented groupware"
+  "Description": "Ergonomic intangible solution"
 }
 ```
 
@@ -88,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-952
+993
 ```

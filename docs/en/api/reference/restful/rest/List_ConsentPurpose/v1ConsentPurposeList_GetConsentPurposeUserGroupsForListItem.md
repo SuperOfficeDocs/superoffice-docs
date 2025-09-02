@@ -2,6 +2,7 @@
 title: GET List/ConsentPurpose/Items/{id}/UserGroups
 uid: v1ConsentPurposeList_GetConsentPurposeUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/ConsentPurpose/Items/{id}/UserGroups
@@ -75,7 +76,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 178,
-    "Name": "Hand-Cummerata",
-    "ToolTip": "Consectetur exercitationem laboriosam et non a perspiciatis ut.",
-    "Deleted": false,
-    "Rank": 823,
-    "Type": "error",
-    "ColorBlock": 381,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2005-09-20T03:45:28.9984183+02:00",
+    "Id": 502,
+    "Name": "Boehm-Heller",
+    "ToolTip": "Nihil saepe et autem pariatur ut.",
+    "Deleted": true,
+    "Rank": 337,
+    "Type": "natus",
+    "ColorBlock": 394,
+    "IconHint": "at",
+    "Selected": true,
+    "LastChanged": "2007-06-20T03:47:00.5974251+02:00",
     "ChildItems": [
       {
-        "Id": 753,
-        "Name": "Wintheiser-Altenwerth",
-        "ToolTip": "Aperiam perferendis blanditiis magni est officiis dolor.",
-        "Deleted": false,
-        "Rank": 584,
-        "Type": "aliquid",
-        "ColorBlock": 311,
-        "IconHint": "asperiores",
+        "Id": 64,
+        "Name": "Daniel, Sanford and Hamill",
+        "ToolTip": "Debitis ab iure consequatur ducimus.",
+        "Deleted": true,
+        "Rank": 882,
+        "Type": "qui",
+        "ColorBlock": 621,
+        "IconHint": "ullam",
         "Selected": true,
-        "LastChanged": "2014-01-04T03:45:28.9984183+01:00",
+        "LastChanged": "2015-11-13T03:47:00.5974251+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "quasi",
+        "ExtraInfo": "et",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Micah Balistreri",
+        "FullName": "Sarai Zboncak",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 78
+            "FieldType": "System.String",
+            "FieldLength": 923
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "sunt",
-    "Hidden": false,
-    "FullName": "Remington Abbott",
+    "ExtraInfo": "ea",
+    "StyleHint": "et",
+    "Hidden": true,
+    "FullName": "Miss Mustafa Spinka Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 360
+        "FieldType": "System.String",
+        "FieldLength": 190
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/List/SetTicketPrioritySortOrder
 uid: v1ListAgent_SetTicketPrioritySortOrder
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SetTicketPrioritySortOrder
@@ -65,12 +66,12 @@ No Content
 POST /api/v1/Agents/List/SetTicketPrioritySortOrder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 224,
-  "SortOrder": 188
+  "TicketPriorityId": 718,
+  "SortOrder": 997
 }
 ```
 

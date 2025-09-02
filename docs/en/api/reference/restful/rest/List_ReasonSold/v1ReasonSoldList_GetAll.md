@@ -2,6 +2,7 @@
 title: GET List/ReasonSold/Items
 uid: v1ReasonSoldList_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET List/ReasonSold/Items
@@ -25,7 +26,7 @@ Gets all the ReasonSold items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ReasonSold/Items?includeDeleted=True
+GET /api/v1/List/ReasonSold/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 533,
-    "Name": "Flatley Inc and Sons",
-    "Tooltip": "vel",
+    "Id": 430,
+    "Name": "Runolfsdottir LLC",
+    "Tooltip": "accusamus",
     "Deleted": false,
-    "UdListDefinitionId": 641,
-    "Rank": 714,
+    "UdListDefinitionId": 192,
+    "Rank": 756,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 254
+        "FieldType": "System.String",
+        "FieldLength": 575
       }
     }
   }

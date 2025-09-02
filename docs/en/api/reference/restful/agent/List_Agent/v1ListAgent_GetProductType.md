@@ -2,6 +2,7 @@
 title: POST Agents/List/GetProductType
 uid: v1ListAgent_GetProductType
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetProductType
@@ -22,11 +23,11 @@ Gets a ProductType object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| productTypeId | int32 | **Required** The primary key. |
+| productTypeId | int32 | **Required** The identifier of the ProductType object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProductType?productTypeId=904
+POST /api/v1/Agents/List/GetProductType?productTypeId=314
 POST /api/v1/Agents/List/GetProductType?$select=name,department,category/id
 ```
 
@@ -79,15 +80,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 718,
-  "Value": "asperiores",
-  "Tooltip": "dolorum",
+  "Id": 17,
+  "Value": "nesciunt",
+  "Tooltip": "magnam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldLength": 125
     }
   }
 }

@@ -2,6 +2,7 @@
 title: PUT List/{id}/Items/{id}/Headings
 uid: v1ListItemEntity_SaveHeadingsForListItemFromListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/{id}/Items/{id}/Headings
@@ -101,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 685,
-    "Name": "Emard, Nitzsche and Hartmann",
-    "ToolTip": "Ullam sequi quam reiciendis est hic repudiandae.",
+    "Id": 646,
+    "Name": "Hermann, Ortiz and Parisian",
+    "ToolTip": "Est dolorem ea sit saepe id.",
     "Deleted": false,
-    "Rank": 741,
-    "Type": "itaque",
-    "ColorBlock": 828,
-    "IconHint": "molestiae",
-    "Selected": true,
-    "LastChanged": "2023-01-17T03:45:28.9517993+01:00",
+    "Rank": 809,
+    "Type": "qui",
+    "ColorBlock": 394,
+    "IconHint": "dolorem",
+    "Selected": false,
+    "LastChanged": "2016-09-13T03:47:00.5661762+02:00",
     "ChildItems": [
       {
-        "Id": 21,
-        "Name": "Runolfsson, Grant and Runte",
-        "ToolTip": "Dolores tempora doloremque.",
-        "Deleted": true,
-        "Rank": 592,
-        "Type": "culpa",
-        "ColorBlock": 718,
-        "IconHint": "enim",
+        "Id": 498,
+        "Name": "Hoeger, Rau and Herman",
+        "ToolTip": "Eos modi atque corrupti.",
+        "Deleted": false,
+        "Rank": 288,
+        "Type": "quisquam",
+        "ColorBlock": 501,
+        "IconHint": "eveniet",
         "Selected": false,
-        "LastChanged": "2010-01-07T03:45:28.9517993+01:00",
+        "LastChanged": "2010-01-14T03:47:00.5661762+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "fuga",
-        "Hidden": true,
-        "FullName": "Tremaine King"
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "eaque",
+        "Hidden": false,
+        "FullName": "Hugh Jacobson"
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "numquam",
+    "ExtraInfo": "nihil",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Richmond Howe"
+    "FullName": "Prof. Edison Willms IV"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 7,
-    "Name": "McLaughlin, Botsford and Hermiston",
-    "ToolTip": "Libero quidem.",
-    "Deleted": false,
-    "Rank": 113,
-    "Type": "omnis",
-    "ColorBlock": 566,
-    "IconHint": "repellat",
-    "Selected": false,
-    "LastChanged": "2015-10-22T03:45:28.9517993+02:00",
+    "Id": 940,
+    "Name": "Bradtke, Effertz and Konopelski",
+    "ToolTip": "Dolores in fugiat maiores quia quis voluptatem.",
+    "Deleted": true,
+    "Rank": 626,
+    "Type": "quaerat",
+    "ColorBlock": 955,
+    "IconHint": "laborum",
+    "Selected": true,
+    "LastChanged": "2013-09-18T03:47:00.5661762+02:00",
     "ChildItems": [
       {
-        "Id": 784,
-        "Name": "Stamm, Hintz and Strosin",
-        "ToolTip": "Atque repudiandae rerum expedita ea aut omnis autem.",
-        "Deleted": true,
-        "Rank": 482,
-        "Type": "amet",
-        "ColorBlock": 811,
-        "IconHint": "corrupti",
-        "Selected": true,
-        "LastChanged": "2012-06-11T03:45:28.9517993+02:00",
+        "Id": 879,
+        "Name": "Leannon LLC",
+        "ToolTip": "Eaque maiores.",
+        "Deleted": false,
+        "Rank": 682,
+        "Type": "veritatis",
+        "ColorBlock": 274,
+        "IconHint": "itaque",
+        "Selected": false,
+        "LastChanged": "2011-11-23T03:47:00.5661762+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "aut",
+        "ExtraInfo": "dolore",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Adaline Weissnat",
+        "FullName": "Cesar Haley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 209
+            "FieldLength": 554
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "nihil",
-    "Hidden": true,
-    "FullName": "Dr. Irwin Eusebio Koch IV",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "consequatur",
+    "Hidden": false,
+    "FullName": "Ms. Nova Rolfson II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 778
+        "FieldType": "System.String",
+        "FieldLength": 417
       }
     }
   }

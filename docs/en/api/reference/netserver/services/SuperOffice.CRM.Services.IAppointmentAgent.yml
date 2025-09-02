@@ -163,211 +163,6 @@ items:
       value: Appointment Agent
     - type: System.String
       value: Interface for the Appointment Agent. Collection of all services that works with Appointment data.
-- uid: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultAppointmentEntityAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultAppointmentEntityAsync(System.Threading.CancellationToken)
-  id: CreateDefaultAppointmentEntityAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IAppointmentAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultAppointmentEntityAsync(CancellationToken)
-  nameWithType: IAppointmentAgent.CreateDefaultAppointmentEntityAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultAppointmentEntityAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new AppointmentEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: Task<AppointmentEntity> CreateDefaultAppointmentEntityAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AppointmentEntity}
-      description: New AppointmentEntity with default values
-    content.vb: Function CreateDefaultAppointmentEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentEntity)
-  overload: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultAppointmentEntityAsync*
-- uid: SuperOffice.CRM.Services.IAppointmentAgent.SaveAppointmentEntityAsync(SuperOffice.CRM.Services.AppointmentEntity,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.SaveAppointmentEntityAsync(SuperOffice.CRM.Services.AppointmentEntity,System.Threading.CancellationToken)
-  id: SaveAppointmentEntityAsync(SuperOffice.CRM.Services.AppointmentEntity,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IAppointmentAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveAppointmentEntityAsync(AppointmentEntity, CancellationToken)
-  nameWithType: IAppointmentAgent.SaveAppointmentEntityAsync(AppointmentEntity, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IAppointmentAgent.SaveAppointmentEntityAsync(SuperOffice.CRM.Services.AppointmentEntity, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing AppointmentEntity or creates a new AppointmentEntity if the id parameter is empty
-  example: []
-  syntax:
-    content: Task<AppointmentEntity> SaveAppointmentEntityAsync(AppointmentEntity appointmentEntity, CancellationToken cancellationToken = default)
-    parameters:
-    - id: appointmentEntity
-      type: SuperOffice.CRM.Services.AppointmentEntity
-      description: The AppointmentEntity that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AppointmentEntity}
-      description: New or updated AppointmentEntity
-    content.vb: Function SaveAppointmentEntityAsync(appointmentEntity As AppointmentEntity, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentEntity)
-  overload: SuperOffice.CRM.Services.IAppointmentAgent.SaveAppointmentEntityAsync*
-- uid: SuperOffice.CRM.Services.IAppointmentAgent.DeleteAppointmentEntityAsync(System.Int32,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.DeleteAppointmentEntityAsync(System.Int32,System.Threading.CancellationToken)
-  id: DeleteAppointmentEntityAsync(System.Int32,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IAppointmentAgent
-  langs:
-  - csharp
-  - vb
-  name: DeleteAppointmentEntityAsync(int, CancellationToken)
-  nameWithType: IAppointmentAgent.DeleteAppointmentEntityAsync(int, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IAppointmentAgent.DeleteAppointmentEntityAsync(int, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Deletes the AppointmentEntity
-  example: []
-  syntax:
-    content: Task DeleteAppointmentEntityAsync(int appointmentEntityId, CancellationToken cancellationToken = default)
-    parameters:
-    - id: appointmentEntityId
-      type: System.Int32
-      description: The identity of the AppointmentEntity
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task
-    content.vb: Function DeleteAppointmentEntityAsync(appointmentEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
-  overload: SuperOffice.CRM.Services.IAppointmentAgent.DeleteAppointmentEntityAsync*
-  nameWithType.vb: IAppointmentAgent.DeleteAppointmentEntityAsync(Integer, CancellationToken)
-  fullName.vb: SuperOffice.CRM.Services.IAppointmentAgent.DeleteAppointmentEntityAsync(Integer, System.Threading.CancellationToken)
-  name.vb: DeleteAppointmentEntityAsync(Integer, CancellationToken)
-- uid: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultSuggestedAppointmentEntityAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultSuggestedAppointmentEntityAsync(System.Threading.CancellationToken)
-  id: CreateDefaultSuggestedAppointmentEntityAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IAppointmentAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultSuggestedAppointmentEntityAsync(CancellationToken)
-  nameWithType: IAppointmentAgent.CreateDefaultSuggestedAppointmentEntityAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultSuggestedAppointmentEntityAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new SuggestedAppointmentEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: Task<SuggestedAppointmentEntity> CreateDefaultSuggestedAppointmentEntityAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SuggestedAppointmentEntity}
-      description: New SuggestedAppointmentEntity with default values
-    content.vb: Function CreateDefaultSuggestedAppointmentEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of SuggestedAppointmentEntity)
-  overload: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultSuggestedAppointmentEntityAsync*
-- uid: SuperOffice.CRM.Services.IAppointmentAgent.SaveSuggestedAppointmentEntityAsync(SuperOffice.CRM.Services.SuggestedAppointmentEntity,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.SaveSuggestedAppointmentEntityAsync(SuperOffice.CRM.Services.SuggestedAppointmentEntity,System.Threading.CancellationToken)
-  id: SaveSuggestedAppointmentEntityAsync(SuperOffice.CRM.Services.SuggestedAppointmentEntity,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IAppointmentAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveSuggestedAppointmentEntityAsync(SuggestedAppointmentEntity, CancellationToken)
-  nameWithType: IAppointmentAgent.SaveSuggestedAppointmentEntityAsync(SuggestedAppointmentEntity, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IAppointmentAgent.SaveSuggestedAppointmentEntityAsync(SuperOffice.CRM.Services.SuggestedAppointmentEntity, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing SuggestedAppointmentEntity or creates a new SuggestedAppointmentEntity if the id parameter is empty
-  example: []
-  syntax:
-    content: Task<SuggestedAppointmentEntity> SaveSuggestedAppointmentEntityAsync(SuggestedAppointmentEntity suggestedAppointmentEntity, CancellationToken cancellationToken = default)
-    parameters:
-    - id: suggestedAppointmentEntity
-      type: SuperOffice.CRM.Services.SuggestedAppointmentEntity
-      description: The SuggestedAppointmentEntity that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SuggestedAppointmentEntity}
-      description: New or updated SuggestedAppointmentEntity
-    content.vb: Function SaveSuggestedAppointmentEntityAsync(suggestedAppointmentEntity As SuggestedAppointmentEntity, cancellationToken As CancellationToken = Nothing) As Task(Of SuggestedAppointmentEntity)
-  overload: SuperOffice.CRM.Services.IAppointmentAgent.SaveSuggestedAppointmentEntityAsync*
-- uid: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultTaskListItemAsync(System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultTaskListItemAsync(System.Threading.CancellationToken)
-  id: CreateDefaultTaskListItemAsync(System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IAppointmentAgent
-  langs:
-  - csharp
-  - vb
-  name: CreateDefaultTaskListItemAsync(CancellationToken)
-  nameWithType: IAppointmentAgent.CreateDefaultTaskListItemAsync(CancellationToken)
-  fullName: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultTaskListItemAsync(System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new TaskListItem.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
-  example: []
-  syntax:
-    content: Task<TaskListItem> CreateDefaultTaskListItemAsync(CancellationToken cancellationToken = default)
-    parameters:
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TaskListItem}
-      description: New TaskListItem with default values
-    content.vb: Function CreateDefaultTaskListItemAsync(cancellationToken As CancellationToken = Nothing) As Task(Of TaskListItem)
-  overload: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultTaskListItemAsync*
-- uid: SuperOffice.CRM.Services.IAppointmentAgent.SaveTaskListItemAsync(SuperOffice.CRM.Services.TaskListItem,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.SaveTaskListItemAsync(SuperOffice.CRM.Services.TaskListItem,System.Threading.CancellationToken)
-  id: SaveTaskListItemAsync(SuperOffice.CRM.Services.TaskListItem,System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.Services.IAppointmentAgent
-  langs:
-  - csharp
-  - vb
-  name: SaveTaskListItemAsync(TaskListItem, CancellationToken)
-  nameWithType: IAppointmentAgent.SaveTaskListItemAsync(TaskListItem, CancellationToken)
-  fullName: SuperOffice.CRM.Services.IAppointmentAgent.SaveTaskListItemAsync(SuperOffice.CRM.Services.TaskListItem, System.Threading.CancellationToken)
-  type: Method
-  assemblies:
-  - SuperOffice.Services
-  namespace: SuperOffice.CRM.Services
-  summary: Updates the existing TaskListItem or creates a new TaskListItem if the id parameter is empty
-  example: []
-  syntax:
-    content: Task<TaskListItem> SaveTaskListItemAsync(TaskListItem taskListItem, CancellationToken cancellationToken = default)
-    parameters:
-    - id: taskListItem
-      type: SuperOffice.CRM.Services.TaskListItem
-      description: The TaskListItem that is saved.
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
-    return:
-      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TaskListItem}
-      description: New or updated TaskListItem
-    content.vb: Function SaveTaskListItemAsync(taskListItem As TaskListItem, cancellationToken As CancellationToken = Nothing) As Task(Of TaskListItem)
-  overload: SuperOffice.CRM.Services.IAppointmentAgent.SaveTaskListItemAsync*
 - uid: SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentAsync(System.Int32,System.Threading.CancellationToken)
   id: GetAppointmentAsync(System.Int32,System.Threading.CancellationToken)
@@ -394,7 +189,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Appointment}
-      description: Appointment
+      description: A single Appointment
     content.vb: Function GetAppointmentAsync(appointmentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of Appointment)
   overload: SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentAsync*
   nameWithType.vb: IAppointmentAgent.GetAppointmentAsync(Integer, CancellationToken)
@@ -563,6 +358,93 @@ items:
   nameWithType.vb: IAppointmentAgent.ToggleAndSetActivitiesAsync(String(), CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IAppointmentAgent.ToggleAndSetActivitiesAsync(String(), System.Threading.CancellationToken)
   name.vb: ToggleAndSetActivitiesAsync(String(), CancellationToken)
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultAppointmentEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultAppointmentEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultAppointmentEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAppointmentAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultAppointmentEntityAsync(CancellationToken)
+  nameWithType: IAppointmentAgent.CreateDefaultAppointmentEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultAppointmentEntityAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new AppointmentEntity.
+  example: []
+  syntax:
+    content: Task<AppointmentEntity> CreateDefaultAppointmentEntityAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AppointmentEntity}
+      description: New AppointmentEntity with default values
+    content.vb: Function CreateDefaultAppointmentEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentEntity)
+  overload: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultAppointmentEntityAsync*
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.SaveAppointmentEntityAsync(SuperOffice.CRM.Services.AppointmentEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.SaveAppointmentEntityAsync(SuperOffice.CRM.Services.AppointmentEntity,System.Threading.CancellationToken)
+  id: SaveAppointmentEntityAsync(SuperOffice.CRM.Services.AppointmentEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAppointmentAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveAppointmentEntityAsync(AppointmentEntity, CancellationToken)
+  nameWithType: IAppointmentAgent.SaveAppointmentEntityAsync(AppointmentEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.SaveAppointmentEntityAsync(SuperOffice.CRM.Services.AppointmentEntity, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing AppointmentEntity or creates a new AppointmentEntity if the id parameter is 0. Save the appointment entity
+  example: []
+  syntax:
+    content: Task<AppointmentEntity> SaveAppointmentEntityAsync(AppointmentEntity appointmentEntity, CancellationToken cancellationToken = default)
+    parameters:
+    - id: appointmentEntity
+      type: SuperOffice.CRM.Services.AppointmentEntity
+      description: The AppointmentEntity that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AppointmentEntity}
+      description: New or updated AppointmentEntity
+    content.vb: Function SaveAppointmentEntityAsync(appointmentEntity As AppointmentEntity, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentEntity)
+  overload: SuperOffice.CRM.Services.IAppointmentAgent.SaveAppointmentEntityAsync*
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.DeleteAppointmentEntityAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.DeleteAppointmentEntityAsync(System.Int32,System.Threading.CancellationToken)
+  id: DeleteAppointmentEntityAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAppointmentAgent
+  langs:
+  - csharp
+  - vb
+  name: DeleteAppointmentEntityAsync(int, CancellationToken)
+  nameWithType: IAppointmentAgent.DeleteAppointmentEntityAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.DeleteAppointmentEntityAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Deletes the AppointmentEntity
+  example: []
+  syntax:
+    content: Task DeleteAppointmentEntityAsync(int appointmentEntityId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: appointmentEntityId
+      type: System.Int32
+      description: The identity of the AppointmentEntity
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function DeleteAppointmentEntityAsync(appointmentEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.IAppointmentAgent.DeleteAppointmentEntityAsync*
+  nameWithType.vb: IAppointmentAgent.DeleteAppointmentEntityAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IAppointmentAgent.DeleteAppointmentEntityAsync(Integer, System.Threading.CancellationToken)
+  name.vb: DeleteAppointmentEntityAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentEntityAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentEntityAsync(System.Int32,System.Threading.CancellationToken)
   id: GetAppointmentEntityAsync(System.Int32,System.Threading.CancellationToken)
@@ -589,7 +471,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AppointmentEntity}
-      description: AppointmentEntity
+      description: A single AppointmentEntity
     content.vb: Function GetAppointmentEntityAsync(appointmentEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of AppointmentEntity)
   overload: SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentEntityAsync*
   nameWithType.vb: IAppointmentAgent.GetAppointmentEntityAsync(Integer, CancellationToken)
@@ -2211,7 +2093,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Appointment[]}
-      description: Array of Appointment objects
+      description: Array of Appointment
     content.vb: Function GetAppointmentListAsync(appointmentIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task(Of Appointment())
   overload: SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentListAsync*
   nameWithType.vb: IAppointmentAgent.GetAppointmentListAsync(Integer(), CancellationToken)
@@ -4165,12 +4047,67 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SuggestedAppointment}
-      description: SuggestedAppointment
+      description: A single SuggestedAppointment
     content.vb: Function GetSuggestedAppointmentAsync(suggestedAppointmentId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of SuggestedAppointment)
   overload: SuperOffice.CRM.Services.IAppointmentAgent.GetSuggestedAppointmentAsync*
   nameWithType.vb: IAppointmentAgent.GetSuggestedAppointmentAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IAppointmentAgent.GetSuggestedAppointmentAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetSuggestedAppointmentAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultSuggestedAppointmentEntityAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultSuggestedAppointmentEntityAsync(System.Threading.CancellationToken)
+  id: CreateDefaultSuggestedAppointmentEntityAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAppointmentAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultSuggestedAppointmentEntityAsync(CancellationToken)
+  nameWithType: IAppointmentAgent.CreateDefaultSuggestedAppointmentEntityAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultSuggestedAppointmentEntityAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new SuggestedAppointmentEntity.
+  example: []
+  syntax:
+    content: Task<SuggestedAppointmentEntity> CreateDefaultSuggestedAppointmentEntityAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SuggestedAppointmentEntity}
+      description: New SuggestedAppointmentEntity with default values
+    content.vb: Function CreateDefaultSuggestedAppointmentEntityAsync(cancellationToken As CancellationToken = Nothing) As Task(Of SuggestedAppointmentEntity)
+  overload: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultSuggestedAppointmentEntityAsync*
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.SaveSuggestedAppointmentEntityAsync(SuperOffice.CRM.Services.SuggestedAppointmentEntity,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.SaveSuggestedAppointmentEntityAsync(SuperOffice.CRM.Services.SuggestedAppointmentEntity,System.Threading.CancellationToken)
+  id: SaveSuggestedAppointmentEntityAsync(SuperOffice.CRM.Services.SuggestedAppointmentEntity,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAppointmentAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveSuggestedAppointmentEntityAsync(SuggestedAppointmentEntity, CancellationToken)
+  nameWithType: IAppointmentAgent.SaveSuggestedAppointmentEntityAsync(SuggestedAppointmentEntity, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.SaveSuggestedAppointmentEntityAsync(SuperOffice.CRM.Services.SuggestedAppointmentEntity, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing SuggestedAppointmentEntity or creates a new SuggestedAppointmentEntity if the id parameter is 0.
+  example: []
+  syntax:
+    content: Task<SuggestedAppointmentEntity> SaveSuggestedAppointmentEntityAsync(SuggestedAppointmentEntity suggestedAppointmentEntity, CancellationToken cancellationToken = default)
+    parameters:
+    - id: suggestedAppointmentEntity
+      type: SuperOffice.CRM.Services.SuggestedAppointmentEntity
+      description: The SuggestedAppointmentEntity that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SuggestedAppointmentEntity}
+      description: New or updated SuggestedAppointmentEntity
+    content.vb: Function SaveSuggestedAppointmentEntityAsync(suggestedAppointmentEntity As SuggestedAppointmentEntity, cancellationToken As CancellationToken = Nothing) As Task(Of SuggestedAppointmentEntity)
+  overload: SuperOffice.CRM.Services.IAppointmentAgent.SaveSuggestedAppointmentEntityAsync*
 - uid: SuperOffice.CRM.Services.IAppointmentAgent.GetSuggestedAppointmentEntityAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.GetSuggestedAppointmentEntityAsync(System.Int32,System.Threading.CancellationToken)
   id: GetSuggestedAppointmentEntityAsync(System.Int32,System.Threading.CancellationToken)
@@ -4197,12 +4134,67 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SuggestedAppointmentEntity}
-      description: SuggestedAppointmentEntity
+      description: A single SuggestedAppointmentEntity
     content.vb: Function GetSuggestedAppointmentEntityAsync(suggestedAppointmentEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of SuggestedAppointmentEntity)
   overload: SuperOffice.CRM.Services.IAppointmentAgent.GetSuggestedAppointmentEntityAsync*
   nameWithType.vb: IAppointmentAgent.GetSuggestedAppointmentEntityAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.IAppointmentAgent.GetSuggestedAppointmentEntityAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetSuggestedAppointmentEntityAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultTaskListItemAsync(System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultTaskListItemAsync(System.Threading.CancellationToken)
+  id: CreateDefaultTaskListItemAsync(System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAppointmentAgent
+  langs:
+  - csharp
+  - vb
+  name: CreateDefaultTaskListItemAsync(CancellationToken)
+  nameWithType: IAppointmentAgent.CreateDefaultTaskListItemAsync(CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultTaskListItemAsync(System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Loading default values into a new TaskListItem.
+  example: []
+  syntax:
+    content: Task<TaskListItem> CreateDefaultTaskListItemAsync(CancellationToken cancellationToken = default)
+    parameters:
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TaskListItem}
+      description: New TaskListItem with default values
+    content.vb: Function CreateDefaultTaskListItemAsync(cancellationToken As CancellationToken = Nothing) As Task(Of TaskListItem)
+  overload: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultTaskListItemAsync*
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.SaveTaskListItemAsync(SuperOffice.CRM.Services.TaskListItem,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.SaveTaskListItemAsync(SuperOffice.CRM.Services.TaskListItem,System.Threading.CancellationToken)
+  id: SaveTaskListItemAsync(SuperOffice.CRM.Services.TaskListItem,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IAppointmentAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveTaskListItemAsync(TaskListItem, CancellationToken)
+  nameWithType: IAppointmentAgent.SaveTaskListItemAsync(TaskListItem, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.SaveTaskListItemAsync(SuperOffice.CRM.Services.TaskListItem, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Updates the existing TaskListItem or creates a new TaskListItem if the id parameter is 0.
+  example: []
+  syntax:
+    content: Task<TaskListItem> SaveTaskListItemAsync(TaskListItem taskListItem, CancellationToken cancellationToken = default)
+    parameters:
+    - id: taskListItem
+      type: SuperOffice.CRM.Services.TaskListItem
+      description: The TaskListItem that is saved
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TaskListItem}
+      description: New or updated TaskListItem
+    content.vb: Function SaveTaskListItemAsync(taskListItem As TaskListItem, cancellationToken As CancellationToken = Nothing) As Task(Of TaskListItem)
+  overload: SuperOffice.CRM.Services.IAppointmentAgent.SaveTaskListItemAsync*
 - uid: SuperOffice.CRM.Services.IAppointmentAgent.GetTaskListItemAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IAppointmentAgent.GetTaskListItemAsync(System.Int32,System.Threading.CancellationToken)
   id: GetTaskListItemAsync(System.Int32,System.Threading.CancellationToken)
@@ -4229,7 +4221,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TaskListItem}
-      description: TaskListItem
+      description: A single TaskListItem
     content.vb: Function GetTaskListItemAsync(taskListItemId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of TaskListItem)
   overload: SuperOffice.CRM.Services.IAppointmentAgent.GetTaskListItemAsync*
   nameWithType.vb: IAppointmentAgent.GetTaskListItemAsync(Integer, CancellationToken)
@@ -4363,13 +4355,24 @@ references:
     name: Services
     isExternal: true
     href: SuperOffice.CRM.Services.html
-- uid: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultAppointmentEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultAppointmentEntityAsync
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentAsync
   isExternal: true
-  href: SuperOffice.CRM.Services.IAppointmentAgent.html#SuperOffice_CRM_Services_IAppointmentAgent_CreateDefaultAppointmentEntityAsync_System_Threading_CancellationToken_
-  name: CreateDefaultAppointmentEntityAsync
-  nameWithType: IAppointmentAgent.CreateDefaultAppointmentEntityAsync
-  fullName: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultAppointmentEntityAsync
+  href: SuperOffice.CRM.Services.IAppointmentAgent.html#SuperOffice_CRM_Services_IAppointmentAgent_GetAppointmentAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetAppointmentAsync
+  nameWithType: IAppointmentAgent.GetAppointmentAsync
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentAsync
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: System.Threading.CancellationToken
   commentId: T:System.Threading.CancellationToken
   parent: System.Threading
@@ -4378,27 +4381,27 @@ references:
   name: CancellationToken
   nameWithType: CancellationToken
   fullName: System.Threading.CancellationToken
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AppointmentEntity}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.AppointmentEntity}
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Appointment}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Appointment}
   parent: System.Threading.Tasks
   definition: System.Threading.Tasks.Task`1
   href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<AppointmentEntity>
-  nameWithType: Task<AppointmentEntity>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.AppointmentEntity>
-  nameWithType.vb: Task(Of AppointmentEntity)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.AppointmentEntity)
-  name.vb: Task(Of AppointmentEntity)
+  name: Task<Appointment>
+  nameWithType: Task<Appointment>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Appointment>
+  nameWithType.vb: Task(Of Appointment)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Appointment)
+  name.vb: Task(Of Appointment)
   spec.csharp:
   - uid: System.Threading.Tasks.Task`1
     name: Task
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
   - name: <
-  - uid: SuperOffice.CRM.Services.AppointmentEntity
-    name: AppointmentEntity
+  - uid: SuperOffice.CRM.Services.Appointment
+    name: Appointment
     isExternal: true
-    href: SuperOffice.CRM.Services.AppointmentEntity.html
+    href: SuperOffice.CRM.Services.Appointment.html
   - name: '>'
   spec.vb:
   - uid: System.Threading.Tasks.Task`1
@@ -4408,11 +4411,18 @@ references:
   - name: (
   - name: Of
   - name: " "
-  - uid: SuperOffice.CRM.Services.AppointmentEntity
-    name: AppointmentEntity
+  - uid: SuperOffice.CRM.Services.Appointment
+    name: Appointment
     isExternal: true
-    href: SuperOffice.CRM.Services.AppointmentEntity.html
+    href: SuperOffice.CRM.Services.Appointment.html
   - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
 - uid: System.Threading
   commentId: N:System.Threading
   isExternal: true
@@ -4505,210 +4515,6 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
-- uid: SuperOffice.CRM.Services.IAppointmentAgent.SaveAppointmentEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.SaveAppointmentEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IAppointmentAgent.html#SuperOffice_CRM_Services_IAppointmentAgent_SaveAppointmentEntityAsync_SuperOffice_CRM_Services_AppointmentEntity_System_Threading_CancellationToken_
-  name: SaveAppointmentEntityAsync
-  nameWithType: IAppointmentAgent.SaveAppointmentEntityAsync
-  fullName: SuperOffice.CRM.Services.IAppointmentAgent.SaveAppointmentEntityAsync
-- uid: SuperOffice.CRM.Services.AppointmentEntity
-  commentId: T:SuperOffice.CRM.Services.AppointmentEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.AppointmentEntity.html
-  name: AppointmentEntity
-  nameWithType: AppointmentEntity
-  fullName: SuperOffice.CRM.Services.AppointmentEntity
-- uid: SuperOffice.CRM.Services.IAppointmentAgent.DeleteAppointmentEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.DeleteAppointmentEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IAppointmentAgent.html#SuperOffice_CRM_Services_IAppointmentAgent_DeleteAppointmentEntityAsync_System_Int32_System_Threading_CancellationToken_
-  name: DeleteAppointmentEntityAsync
-  nameWithType: IAppointmentAgent.DeleteAppointmentEntityAsync
-  fullName: SuperOffice.CRM.Services.IAppointmentAgent.DeleteAppointmentEntityAsync
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
-- uid: System.Threading.Tasks.Task
-  commentId: T:System.Threading.Tasks.Task
-  parent: System.Threading.Tasks
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
-  name: Task
-  nameWithType: Task
-  fullName: System.Threading.Tasks.Task
-- uid: System
-  commentId: N:System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System
-  nameWithType: System
-  fullName: System
-- uid: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultSuggestedAppointmentEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultSuggestedAppointmentEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IAppointmentAgent.html#SuperOffice_CRM_Services_IAppointmentAgent_CreateDefaultSuggestedAppointmentEntityAsync_System_Threading_CancellationToken_
-  name: CreateDefaultSuggestedAppointmentEntityAsync
-  nameWithType: IAppointmentAgent.CreateDefaultSuggestedAppointmentEntityAsync
-  fullName: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultSuggestedAppointmentEntityAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SuggestedAppointmentEntity}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.SuggestedAppointmentEntity}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<SuggestedAppointmentEntity>
-  nameWithType: Task<SuggestedAppointmentEntity>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.SuggestedAppointmentEntity>
-  nameWithType.vb: Task(Of SuggestedAppointmentEntity)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.SuggestedAppointmentEntity)
-  name.vb: Task(Of SuggestedAppointmentEntity)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.SuggestedAppointmentEntity
-    name: SuggestedAppointmentEntity
-    isExternal: true
-    href: SuperOffice.CRM.Services.SuggestedAppointmentEntity.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.SuggestedAppointmentEntity
-    name: SuggestedAppointmentEntity
-    isExternal: true
-    href: SuperOffice.CRM.Services.SuggestedAppointmentEntity.html
-  - name: )
-- uid: SuperOffice.CRM.Services.IAppointmentAgent.SaveSuggestedAppointmentEntityAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.SaveSuggestedAppointmentEntityAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IAppointmentAgent.html#SuperOffice_CRM_Services_IAppointmentAgent_SaveSuggestedAppointmentEntityAsync_SuperOffice_CRM_Services_SuggestedAppointmentEntity_System_Threading_CancellationToken_
-  name: SaveSuggestedAppointmentEntityAsync
-  nameWithType: IAppointmentAgent.SaveSuggestedAppointmentEntityAsync
-  fullName: SuperOffice.CRM.Services.IAppointmentAgent.SaveSuggestedAppointmentEntityAsync
-- uid: SuperOffice.CRM.Services.SuggestedAppointmentEntity
-  commentId: T:SuperOffice.CRM.Services.SuggestedAppointmentEntity
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.SuggestedAppointmentEntity.html
-  name: SuggestedAppointmentEntity
-  nameWithType: SuggestedAppointmentEntity
-  fullName: SuperOffice.CRM.Services.SuggestedAppointmentEntity
-- uid: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultTaskListItemAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultTaskListItemAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IAppointmentAgent.html#SuperOffice_CRM_Services_IAppointmentAgent_CreateDefaultTaskListItemAsync_System_Threading_CancellationToken_
-  name: CreateDefaultTaskListItemAsync
-  nameWithType: IAppointmentAgent.CreateDefaultTaskListItemAsync
-  fullName: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultTaskListItemAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TaskListItem}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TaskListItem}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<TaskListItem>
-  nameWithType: Task<TaskListItem>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TaskListItem>
-  nameWithType.vb: Task(Of TaskListItem)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TaskListItem)
-  name.vb: Task(Of TaskListItem)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.TaskListItem
-    name: TaskListItem
-    isExternal: true
-    href: SuperOffice.CRM.Services.TaskListItem.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.TaskListItem
-    name: TaskListItem
-    isExternal: true
-    href: SuperOffice.CRM.Services.TaskListItem.html
-  - name: )
-- uid: SuperOffice.CRM.Services.IAppointmentAgent.SaveTaskListItemAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.SaveTaskListItemAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IAppointmentAgent.html#SuperOffice_CRM_Services_IAppointmentAgent_SaveTaskListItemAsync_SuperOffice_CRM_Services_TaskListItem_System_Threading_CancellationToken_
-  name: SaveTaskListItemAsync
-  nameWithType: IAppointmentAgent.SaveTaskListItemAsync
-  fullName: SuperOffice.CRM.Services.IAppointmentAgent.SaveTaskListItemAsync
-- uid: SuperOffice.CRM.Services.TaskListItem
-  commentId: T:SuperOffice.CRM.Services.TaskListItem
-  parent: SuperOffice.CRM.Services
-  isExternal: true
-  href: SuperOffice.CRM.Services.TaskListItem.html
-  name: TaskListItem
-  nameWithType: TaskListItem
-  fullName: SuperOffice.CRM.Services.TaskListItem
-- uid: SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IAppointmentAgent.html#SuperOffice_CRM_Services_IAppointmentAgent_GetAppointmentAsync_System_Int32_System_Threading_CancellationToken_
-  name: GetAppointmentAsync
-  nameWithType: IAppointmentAgent.GetAppointmentAsync
-  fullName: SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.Appointment}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.Appointment}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<Appointment>
-  nameWithType: Task<Appointment>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.Appointment>
-  nameWithType.vb: Task(Of Appointment)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.Appointment)
-  name.vb: Task(Of Appointment)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.Appointment
-    name: Appointment
-    isExternal: true
-    href: SuperOffice.CRM.Services.Appointment.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.Appointment
-    name: Appointment
-    isExternal: true
-    href: SuperOffice.CRM.Services.Appointment.html
-  - name: )
 - uid: SuperOffice.CRM.Services.IAppointmentAgent.ToggleAppointmentStatusAsync*
   commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.ToggleAppointmentStatusAsync
   isExternal: true
@@ -4842,6 +4648,14 @@ references:
   name: ActivityStatus
   nameWithType: ActivityStatus
   fullName: SuperOffice.Data.ActivityStatus
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
 - uid: SuperOffice.CRM.Services.IAppointmentAgent.ToggleAndSetActivitiesAsync*
   commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.ToggleAndSetActivitiesAsync
   isExternal: true
@@ -4888,6 +4702,70 @@ references:
   - name: (
   - name: )
   - name: )
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultAppointmentEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultAppointmentEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAppointmentAgent.html#SuperOffice_CRM_Services_IAppointmentAgent_CreateDefaultAppointmentEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultAppointmentEntityAsync
+  nameWithType: IAppointmentAgent.CreateDefaultAppointmentEntityAsync
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultAppointmentEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.AppointmentEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.AppointmentEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<AppointmentEntity>
+  nameWithType: Task<AppointmentEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.AppointmentEntity>
+  nameWithType.vb: Task(Of AppointmentEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.AppointmentEntity)
+  name.vb: Task(Of AppointmentEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.AppointmentEntity
+    name: AppointmentEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.AppointmentEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.AppointmentEntity
+    name: AppointmentEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.AppointmentEntity.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.SaveAppointmentEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.SaveAppointmentEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAppointmentAgent.html#SuperOffice_CRM_Services_IAppointmentAgent_SaveAppointmentEntityAsync_SuperOffice_CRM_Services_AppointmentEntity_System_Threading_CancellationToken_
+  name: SaveAppointmentEntityAsync
+  nameWithType: IAppointmentAgent.SaveAppointmentEntityAsync
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.SaveAppointmentEntityAsync
+- uid: SuperOffice.CRM.Services.AppointmentEntity
+  commentId: T:SuperOffice.CRM.Services.AppointmentEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentEntity.html
+  name: AppointmentEntity
+  nameWithType: AppointmentEntity
+  fullName: SuperOffice.CRM.Services.AppointmentEntity
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.DeleteAppointmentEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.DeleteAppointmentEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAppointmentAgent.html#SuperOffice_CRM_Services_IAppointmentAgent_DeleteAppointmentEntityAsync_System_Int32_System_Threading_CancellationToken_
+  name: DeleteAppointmentEntityAsync
+  nameWithType: IAppointmentAgent.DeleteAppointmentEntityAsync
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.DeleteAppointmentEntityAsync
 - uid: SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.GetAppointmentEntityAsync
   isExternal: true
@@ -6385,6 +6263,63 @@ references:
   name: GetSuggestedAppointmentAsync
   nameWithType: IAppointmentAgent.GetSuggestedAppointmentAsync
   fullName: SuperOffice.CRM.Services.IAppointmentAgent.GetSuggestedAppointmentAsync
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultSuggestedAppointmentEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultSuggestedAppointmentEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAppointmentAgent.html#SuperOffice_CRM_Services_IAppointmentAgent_CreateDefaultSuggestedAppointmentEntityAsync_System_Threading_CancellationToken_
+  name: CreateDefaultSuggestedAppointmentEntityAsync
+  nameWithType: IAppointmentAgent.CreateDefaultSuggestedAppointmentEntityAsync
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultSuggestedAppointmentEntityAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.SuggestedAppointmentEntity}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.SuggestedAppointmentEntity}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<SuggestedAppointmentEntity>
+  nameWithType: Task<SuggestedAppointmentEntity>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.SuggestedAppointmentEntity>
+  nameWithType.vb: Task(Of SuggestedAppointmentEntity)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.SuggestedAppointmentEntity)
+  name.vb: Task(Of SuggestedAppointmentEntity)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.SuggestedAppointmentEntity
+    name: SuggestedAppointmentEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.SuggestedAppointmentEntity.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.SuggestedAppointmentEntity
+    name: SuggestedAppointmentEntity
+    isExternal: true
+    href: SuperOffice.CRM.Services.SuggestedAppointmentEntity.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.SaveSuggestedAppointmentEntityAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.SaveSuggestedAppointmentEntityAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAppointmentAgent.html#SuperOffice_CRM_Services_IAppointmentAgent_SaveSuggestedAppointmentEntityAsync_SuperOffice_CRM_Services_SuggestedAppointmentEntity_System_Threading_CancellationToken_
+  name: SaveSuggestedAppointmentEntityAsync
+  nameWithType: IAppointmentAgent.SaveSuggestedAppointmentEntityAsync
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.SaveSuggestedAppointmentEntityAsync
+- uid: SuperOffice.CRM.Services.SuggestedAppointmentEntity
+  commentId: T:SuperOffice.CRM.Services.SuggestedAppointmentEntity
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.SuggestedAppointmentEntity.html
+  name: SuggestedAppointmentEntity
+  nameWithType: SuggestedAppointmentEntity
+  fullName: SuperOffice.CRM.Services.SuggestedAppointmentEntity
 - uid: SuperOffice.CRM.Services.IAppointmentAgent.GetSuggestedAppointmentEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.GetSuggestedAppointmentEntityAsync
   isExternal: true
@@ -6392,6 +6327,63 @@ references:
   name: GetSuggestedAppointmentEntityAsync
   nameWithType: IAppointmentAgent.GetSuggestedAppointmentEntityAsync
   fullName: SuperOffice.CRM.Services.IAppointmentAgent.GetSuggestedAppointmentEntityAsync
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultTaskListItemAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultTaskListItemAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAppointmentAgent.html#SuperOffice_CRM_Services_IAppointmentAgent_CreateDefaultTaskListItemAsync_System_Threading_CancellationToken_
+  name: CreateDefaultTaskListItemAsync
+  nameWithType: IAppointmentAgent.CreateDefaultTaskListItemAsync
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.CreateDefaultTaskListItemAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.TaskListItem}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.TaskListItem}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TaskListItem>
+  nameWithType: Task<TaskListItem>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.TaskListItem>
+  nameWithType.vb: Task(Of TaskListItem)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.TaskListItem)
+  name.vb: Task(Of TaskListItem)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.TaskListItem
+    name: TaskListItem
+    isExternal: true
+    href: SuperOffice.CRM.Services.TaskListItem.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.TaskListItem
+    name: TaskListItem
+    isExternal: true
+    href: SuperOffice.CRM.Services.TaskListItem.html
+  - name: )
+- uid: SuperOffice.CRM.Services.IAppointmentAgent.SaveTaskListItemAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.SaveTaskListItemAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IAppointmentAgent.html#SuperOffice_CRM_Services_IAppointmentAgent_SaveTaskListItemAsync_SuperOffice_CRM_Services_TaskListItem_System_Threading_CancellationToken_
+  name: SaveTaskListItemAsync
+  nameWithType: IAppointmentAgent.SaveTaskListItemAsync
+  fullName: SuperOffice.CRM.Services.IAppointmentAgent.SaveTaskListItemAsync
+- uid: SuperOffice.CRM.Services.TaskListItem
+  commentId: T:SuperOffice.CRM.Services.TaskListItem
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  href: SuperOffice.CRM.Services.TaskListItem.html
+  name: TaskListItem
+  nameWithType: TaskListItem
+  fullName: SuperOffice.CRM.Services.TaskListItem
 - uid: SuperOffice.CRM.Services.IAppointmentAgent.GetTaskListItemAsync*
   commentId: Overload:SuperOffice.CRM.Services.IAppointmentAgent.GetTaskListItemAsync
   isExternal: true

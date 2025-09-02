@@ -2,6 +2,7 @@
 title: Services88.AppointmentAgent.AcceptWithSmtpEmailConfirmation SOAP
 generated: true
 uid: Services88-Appointment-AcceptWithSmtpEmailConfirmation
+content_type: reference
 ---
 
 # Services88 Appointment AcceptWithSmtpEmailConfirmation

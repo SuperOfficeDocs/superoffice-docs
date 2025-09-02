@@ -2,6 +2,7 @@
 title: Services88.MarketingAgent.DeleteMessageAndShipment SOAP
 generated: true
 uid: Services88-Marketing-DeleteMessageAndShipment
+content_type: reference
 ---
 
 # Services88 Marketing DeleteMessageAndShipment

@@ -2,6 +2,7 @@
 title: POST Agents/Archive/SetChosenEntities
 uid: v1ArchiveAgent_SetChosenEntities
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/SetChosenEntities
@@ -72,11 +73,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Corwin Group",
-  "ProviderName": "Aufderhar, Wiegand and Grimes",
+  "GuiName": "Klein, Braun and Homenick",
+  "ProviderName": "Green-Batz",
   "Entities": [
-    "sint",
-    "aut"
+    "omnis",
+    "soluta"
   ]
 }
 ```

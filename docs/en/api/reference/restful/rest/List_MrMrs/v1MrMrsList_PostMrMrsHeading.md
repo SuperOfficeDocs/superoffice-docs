@@ -2,6 +2,7 @@
 title: POST List/MrMrs/Headings
 uid: v1MrMrsList_PostMrMrsHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/MrMrs/Headings
@@ -75,16 +76,16 @@ OK
 POST /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 897,
-  "Name": "Graham-Grimes",
-  "Tooltip": "labore",
+  "HeadingId": 973,
+  "Name": "Krajcik-Grant",
+  "Tooltip": "eveniet",
   "Deleted": false,
-  "Rank": 883,
-  "UdListDefinitionId": 960
+  "Rank": 442,
+  "UdListDefinitionId": 995
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 310,
-  "Name": "Von-Volkman",
-  "Tooltip": "maxime",
+  "HeadingId": 117,
+  "Name": "Kessler, Jast and Kirlin",
+  "Tooltip": "dignissimos",
   "Deleted": true,
-  "Rank": 508,
-  "UdListDefinitionId": 167,
+  "Rank": 297,
+  "UdListDefinitionId": 347,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldLength": 683
     }
   }
 }

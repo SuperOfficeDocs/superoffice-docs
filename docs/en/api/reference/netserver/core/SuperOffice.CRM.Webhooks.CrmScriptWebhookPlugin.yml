@@ -65,7 +65,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Webhooks
-  summary: Broadcast the event to all subscribers, and mark failures/success status on the passed webhook objects.
+  summary: Send the webhook to the CrmScript system, via a ServiceFacade.CallServiceAsync call
   example: []
   syntax:
     content: public Task<WebhookResponse> NotifyAsync(Webhook webhook, WebhookPayload eventInfo, CancellationToken cancellationToken)

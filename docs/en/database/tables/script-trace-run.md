@@ -2,10 +2,10 @@
 uid: table-script_trace_run
 title: script_trace_run table
 description: Traces of executed scripts
-so.generated: true
+generated: true
 keywords: database table script_trace_run
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # script\_trace\_run Table (475)

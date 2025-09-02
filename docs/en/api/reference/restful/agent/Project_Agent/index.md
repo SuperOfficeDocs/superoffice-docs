@@ -1,6 +1,8 @@
 ---
+uid: tag-Project_Agent
 title: Project_Agent
 generated: true
+content_type: reference
 ---
 
 ```http
@@ -10,25 +12,13 @@ generated: true
 
 
 
+* [POST Agents/Project/GetProject](v1ProjectAgent_GetProject.md)
+
 * [POST Agents/Project/CreateDefaultProjectEntity](v1ProjectAgent_CreateDefaultProjectEntity.md)
 
 * [POST Agents/Project/SaveProjectEntity](v1ProjectAgent_SaveProjectEntity.md)
 
 * [POST Agents/Project/DeleteProjectEntity](v1ProjectAgent_DeleteProjectEntity.md)
-
-* [POST Agents/Project/CreateDefaultProjectEventEntity](v1ProjectAgent_CreateDefaultProjectEventEntity.md)
-
-* [POST Agents/Project/SaveProjectEventEntity](v1ProjectAgent_SaveProjectEventEntity.md)
-
-* [POST Agents/Project/DeleteProjectEventEntity](v1ProjectAgent_DeleteProjectEventEntity.md)
-
-* [POST Agents/Project/CreateDefaultProjectMember](v1ProjectAgent_CreateDefaultProjectMember.md)
-
-* [POST Agents/Project/SaveProjectMember](v1ProjectAgent_SaveProjectMember.md)
-
-* [POST Agents/Project/DeleteProjectMember](v1ProjectAgent_DeleteProjectMember.md)
-
-* [POST Agents/Project/GetProject](v1ProjectAgent_GetProject.md)
 
 * [POST Agents/Project/GetProjectEntity](v1ProjectAgent_GetProjectEntity.md)
 
@@ -66,9 +56,17 @@ generated: true
 
 * [POST Agents/Project/ValidateProjectEntity](v1ProjectAgent_ValidateProjectEntity.md)
 
+* [POST Agents/Project/SetCompleted](v1ProjectAgent_SetCompleted.md)
+
 * [POST Agents/Project/GetProjectEvent](v1ProjectAgent_GetProjectEvent.md)
 
 * [POST Agents/Project/GetProjectEventOnPerson](v1ProjectAgent_GetProjectEventOnPerson.md)
+
+* [POST Agents/Project/CreateDefaultProjectEventEntity](v1ProjectAgent_CreateDefaultProjectEventEntity.md)
+
+* [POST Agents/Project/SaveProjectEventEntity](v1ProjectAgent_SaveProjectEventEntity.md)
+
+* [POST Agents/Project/DeleteProjectEventEntity](v1ProjectAgent_DeleteProjectEventEntity.md)
 
 * [POST Agents/Project/GetProjectEventEntity](v1ProjectAgent_GetProjectEventEntity.md)
 
@@ -99,6 +97,12 @@ generated: true
 * [POST Agents/Project/GetMyPublishedProjects](v1ProjectAgent_GetMyPublishedProjects.md)
 
 * [POST Agents/Project/GetPublishedProjectsOnPersonId](v1ProjectAgent_GetPublishedProjectsOnPersonId.md)
+
+* [POST Agents/Project/CreateDefaultProjectMember](v1ProjectAgent_CreateDefaultProjectMember.md)
+
+* [POST Agents/Project/SaveProjectMember](v1ProjectAgent_SaveProjectMember.md)
+
+* [POST Agents/Project/DeleteProjectMember](v1ProjectAgent_DeleteProjectMember.md)
 
 * [POST Agents/Project/GetProjectMember](v1ProjectAgent_GetProjectMember.md)
 

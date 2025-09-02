@@ -2,6 +2,7 @@
 title: POST Contact/UdefLayout/Revert
 uid: v1ContactEntity_RevertUdefLayout
 generated: true
+content_type: reference
 ---
 
 # POST Contact/UdefLayout/Revert

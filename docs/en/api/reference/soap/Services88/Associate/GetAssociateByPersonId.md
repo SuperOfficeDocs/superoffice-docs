@@ -2,6 +2,7 @@
 title: Services88.AssociateAgent.GetAssociateByPersonId SOAP
 generated: true
 uid: Services88-Associate-GetAssociateByPersonId
+content_type: reference
 ---
 
 # Services88 Associate GetAssociateByPersonId
@@ -75,6 +76,18 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Associate:Deleted xsi:type="xsd:boolean">false</Associate:Deleted>
     <Associate:EjUserId xsi:type="xsd:int">0</Associate:EjUserId>
     <Associate:UserName xsi:type="xsd:string"></Associate:UserName>
+    <Associate:ExtraFields xsi:type="Associate:StringDictionary">
+     <Associate:StringKeyValuePair>
+      <Associate:Key xsi:type="xsd:string"></Associate:Key>
+      <Associate:Value xsi:type="xsd:string"></Associate:Value>
+     </Associate:StringKeyValuePair>
+    </Associate:ExtraFields>
+    <Associate:CustomFields xsi:type="Associate:StringDictionary">
+     <Associate:StringKeyValuePair>
+      <Associate:Key xsi:type="xsd:string"></Associate:Key>
+      <Associate:Value xsi:type="xsd:string"></Associate:Value>
+     </Associate:StringKeyValuePair>
+    </Associate:CustomFields>
    </Associate:Response>
   </Associate:GetAssociateByPersonIdResponse>
  </SOAP-ENV:Body>

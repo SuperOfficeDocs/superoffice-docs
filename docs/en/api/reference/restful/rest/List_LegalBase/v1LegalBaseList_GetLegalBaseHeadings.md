@@ -2,6 +2,7 @@
 title: GET List/LegalBase/Headings
 uid: v1LegalBaseList_GetLegalBaseHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/LegalBase/Headings
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 648,
-    "Name": "Bartoletti-Aufderhar",
-    "Tooltip": "facere",
+    "HeadingId": 485,
+    "Name": "Lebsack, Legros and Jacobi",
+    "Tooltip": "enim",
     "Deleted": false,
-    "Rank": 236,
-    "UdListDefinitionId": 167,
+    "Rank": 445,
+    "UdListDefinitionId": 180,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 235
+        "FieldLength": 724
       }
     }
   }

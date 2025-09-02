@@ -2,6 +2,7 @@
 title: Services88.ListAgent.MoveAllTickets SOAP
 generated: true
 uid: Services88-List-MoveAllTickets
+content_type: reference
 ---
 
 # Services88 List MoveAllTickets

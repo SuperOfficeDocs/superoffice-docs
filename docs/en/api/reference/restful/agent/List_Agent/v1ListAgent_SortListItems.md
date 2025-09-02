@@ -2,6 +2,7 @@
 title: POST Agents/List/SortListItems
 uid: v1ListAgent_SortListItems
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SortListItems
@@ -65,11 +66,11 @@ No Content
 POST /api/v1/Agents/List/SortListItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 741,
+  "UdListDefinitionId": 195,
   "CultureName": "sv"
 }
 ```

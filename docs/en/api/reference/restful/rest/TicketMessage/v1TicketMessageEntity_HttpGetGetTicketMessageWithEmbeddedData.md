@@ -2,6 +2,7 @@
 title: GET TicketMessage/{id}
 uid: v1TicketMessageEntity_HttpGetGetTicketMessageWithEmbeddedData
 generated: true
+content_type: reference
 ---
 
 # GET TicketMessage/{id}
@@ -97,7 +98,7 @@ OK
 GET /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -107,79 +108,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 630,
+  "EjMessageId": 760,
   "Ticket": null,
-  "CreatedAt": "2016-10-01T03:45:28.7796745+02:00",
+  "CreatedAt": "2011-01-14T03:47:00.3786828+01:00",
   "CreatedBy": null,
-  "Author": "consequatur",
+  "Author": "quos",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nemo",
-  "TimeSpent": 621,
-  "Body": "aut",
-  "HtmlBody": "modi",
-  "EmailHeader": "meghan_blanda@gutkowskiboyer.name",
-  "DebugInfo": "eos",
-  "MailSorter": "aut",
+  "MessageId": "nam",
+  "TimeSpent": 679,
+  "Body": "ullam",
+  "HtmlBody": "laudantium",
+  "EmailHeader": "rhiannon.sawayn@rowe.com",
+  "DebugInfo": "sapiente",
+  "MailSorter": "est",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "sed",
+  "SearchTitle": "quod",
   "MessageHeaders": [
     {
-      "Id": 247,
-      "Name": "Champlin-Lynch",
-      "Value": "quae",
+      "Id": 60,
+      "Name": "Dibbert-O'Hara",
+      "Value": "omnis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 935
+          "FieldType": "System.String",
+          "FieldLength": 797
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "qui",
-  "Sentiment": 551,
-  "SentimentConfidence": 914,
+  "Important": false,
+  "Language": "et",
+  "Sentiment": 220,
+  "SentimentConfidence": 340,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 223,
-      "Name": "Mosciski Group",
-      "ContentType": "in",
-      "AttSize": 401,
+      "AttachmentId": 153,
+      "Name": "Daugherty-Crona",
+      "ContentType": "optio",
+      "AttSize": 448,
       "InlineImage": false,
-      "ContentId": "accusamus",
-      "AuthKey": "aliquam",
+      "ContentId": "et",
+      "AuthKey": "culpa",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 354
+          "FieldLength": 511
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "ea",
-    "ExtraFields2": "suscipit"
+    "ExtraFields1": "dolores",
+    "ExtraFields2": "cupiditate"
   },
   "CustomFields": {
-    "CustomFields1": "nulla",
-    "CustomFields2": "et"
+    "CustomFields1": "non",
+    "CustomFields2": "consequatur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 564
+      "FieldType": "System.String",
+      "FieldLength": 14
     }
   }
 }

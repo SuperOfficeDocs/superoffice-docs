@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/GetForeignAppEntity
 uid: v1ForeignSystemAgent_GetForeignAppEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/GetForeignAppEntity
@@ -22,11 +23,11 @@ Gets a ForeignAppEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| foreignAppEntityId | int32 | **Required** The primary key. |
+| foreignAppEntityId | int32 | **Required** The identifier of the ForeignAppEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=889
+POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?foreignAppEntityId=511
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity?$select=name,department,category/id
 ```
 
@@ -73,7 +74,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,29 +84,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 964,
-  "Name": "Keeling LLC",
-  "CreatedDate": "1999-09-01T03:45:23.4829546+02:00",
-  "UpdatedDate": "2018-04-21T03:45:23.4829546+02:00",
+  "ForeignAppId": 882,
+  "Name": "Koelpin LLC",
+  "CreatedDate": "2013-09-13T03:46:54.847629+02:00",
+  "UpdatedDate": "2006-02-23T03:46:54.847629+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 190,
-      "Name": "Pfeffer LLC",
-      "CreatedDate": "2005-04-10T03:45:23.4829546+02:00",
-      "UpdatedDate": "2001-04-15T03:45:23.4829546+02:00",
-      "AssociateFullName": "Celine Gonzalo Streich DDS",
-      "CreatedBy": "omnis",
-      "UpdatedBy": "amet",
-      "DeviceIdentifier": "vitae",
-      "ForeignAppId": 476,
+      "ForeignDeviceId": 121,
+      "Name": "Auer, Deckow and Aufderhar",
+      "CreatedDate": "2005-10-25T03:46:54.847629+02:00",
+      "UpdatedDate": "2007-07-20T03:46:54.847629+02:00",
+      "AssociateFullName": "Joannie Kerluke",
+      "CreatedBy": "labore",
+      "UpdatedBy": "assumenda",
+      "DeviceIdentifier": "porro",
+      "ForeignAppId": 147,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 323
+          "FieldType": "System.Int32",
+          "FieldLength": 599
         }
       }
     }
@@ -114,8 +115,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 684
+      "FieldType": "System.Int32",
+      "FieldLength": 435
     }
   }
 }

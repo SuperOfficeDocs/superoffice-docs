@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-CRMScript
 title: Services88.CRMScriptAgent WSDL
+content_type: reference
 ---
 
 # Services88.CRMScriptAgent WSDL
@@ -63,6 +64,7 @@ title: Services88.CRMScriptAgent WSDL
               <xs:element minOccurs="0" name="RegisteredAssociateId" type="xs:int" />
               <xs:element minOccurs="0" name="Updated" type="xs:dateTime" />
               <xs:element minOccurs="0" name="UpdatedAssociateId" type="xs:int" />
+              <xs:element minOccurs="0" name="BlockedVerbs" type="tns:EjScriptVerb" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -233,6 +235,25 @@ title: Services88.CRMScriptAgent WSDL
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="CRMScriptErrorInfo" nillable="true" type="tns:CRMScriptErrorInfo" />
+      <xs:simpleType name="EjScriptVerb">
+        <xs:list>
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="BlockGET" />
+              <xs:enumeration value="BlockPOST" />
+              <xs:enumeration value="BlockPUT" />
+              <xs:enumeration value="BlockDELETE" />
+              <xs:enumeration value="BlockPATCH" />
+              <xs:enumeration value="BlockOPTIONS" />
+              <xs:enumeration value="BlockHEAD" />
+              <xs:enumeration value="BlockTRACE" />
+              <xs:enumeration value="BlockCONNECT" />
+              <xs:enumeration value="BlockOTHER" />
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:list>
+      </xs:simpleType>
+      <xs:element name="EjScriptVerb" nillable="true" type="tns:EjScriptVerb" />
       <xs:complexType name="SoExceptionInfo">
         <xs:sequence>
           <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
@@ -1086,6 +1107,20 @@ title: Services88.CRMScriptAgent WSDL
               </xs:appinfo>
             </xs:annotation>
           </xs:enumeration>
+          <xs:enumeration value="SalesLoadTicket">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1020</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
+          <xs:enumeration value="SalesLoadTicketMessage">
+            <xs:annotation>
+              <xs:appinfo>
+                <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">1021</EnumerationValue>
+              </xs:appinfo>
+            </xs:annotation>
+          </xs:enumeration>
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="EventHandlerType" nillable="true" type="tns:EventHandlerType" />
@@ -1143,6 +1178,7 @@ title: Services88.CRMScriptAgent WSDL
               <xs:element minOccurs="0" name="Updated" type="xs:dateTime" />
               <xs:element minOccurs="0" name="UpdatedBy" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Path" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="BlockedVerbs" type="tns:EjScriptVerb" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

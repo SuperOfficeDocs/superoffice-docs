@@ -2,6 +2,7 @@
 title: POST List/Reason/Headings
 uid: v1ReasonList_PostReasonHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/Reason/Headings
@@ -75,16 +76,16 @@ OK
 POST /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 634,
-  "Name": "Witting-Pouros",
-  "Tooltip": "qui",
+  "HeadingId": 396,
+  "Name": "Nienow-Koelpin",
+  "Tooltip": "laboriosam",
   "Deleted": false,
-  "Rank": 485,
-  "UdListDefinitionId": 942
+  "Rank": 853,
+  "UdListDefinitionId": 5
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 356,
-  "Name": "Brown-Hirthe",
-  "Tooltip": "eos",
+  "HeadingId": 425,
+  "Name": "O'Keefe, Upton and Farrell",
+  "Tooltip": "non",
   "Deleted": false,
-  "Rank": 852,
-  "UdListDefinitionId": 607,
+  "Rank": 936,
+  "UdListDefinitionId": 897,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 565
+      "FieldLength": 262
     }
   }
 }

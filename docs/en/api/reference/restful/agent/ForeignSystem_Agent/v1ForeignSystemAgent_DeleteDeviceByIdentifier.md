@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/DeleteDeviceByIdentifier
 uid: v1ForeignSystemAgent_DeleteDeviceByIdentifier
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/DeleteDeviceByIdentifier
@@ -66,13 +67,13 @@ No Content
 POST /api/v1/Agents/ForeignSystem/DeleteDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Dicki-Morar",
-  "DeviceName": "Herzog Group",
-  "DeviceIdentifier": "est"
+  "ApplicationName": "Buckridge-Goodwin",
+  "DeviceName": "Herzog LLC",
+  "DeviceIdentifier": "consequatur"
 }
 ```
 

@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetAttachment
 uid: v1EMailAgent_GetAttachment
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetAttachment
@@ -90,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 605,
-  "AttachmentId": "ipsa"
+  "MessageServerId": 874,
+  "AttachmentId": "voluptas"
 }
 ```
 
@@ -102,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Inverse bandwidth-monitored strategy",
-  "Filename": "autem",
-  "Size": 868,
-  "Type": "quasi",
-  "Encoding": "praesentium",
-  "Id": "itaque",
-  "Disposition": "cumque",
-  "IsSafeFileExtension": true,
+  "Description": "Adaptive logistical installation",
+  "Filename": "sit",
+  "Size": 339,
+  "Type": "aut",
+  "Encoding": "nulla",
+  "Id": "et",
+  "Disposition": "mollitia",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldLength": 83
     }
   }
 }

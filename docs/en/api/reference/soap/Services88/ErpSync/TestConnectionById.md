@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.TestConnectionById SOAP
 generated: true
 uid: Services88-ErpSync-TestConnectionById
+content_type: reference
 ---
 
 # Services88 ErpSync TestConnectionById

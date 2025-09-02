@@ -2,6 +2,7 @@
 title: Services88.SaleAgent.SaleHasQuote SOAP
 generated: true
 uid: Services88-Sale-SaleHasQuote
+content_type: reference
 ---
 
 # Services88 Sale SaleHasQuote

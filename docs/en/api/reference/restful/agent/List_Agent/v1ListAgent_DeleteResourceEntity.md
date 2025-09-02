@@ -2,6 +2,7 @@
 title: POST Agents/List/DeleteResourceEntity
 uid: v1ListAgent_DeleteResourceEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/DeleteResourceEntity
@@ -22,10 +23,10 @@ Deletes the ResourceEntity
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| ResourceEntityId | int32 | **Required** The id of the ResourceEntity to be deleted. |
+| resourceEntityId | int32 | **Required** The identity of the ResourceEntity |
 
 ```http
-POST /api/v1/Agents/List/DeleteResourceEntity?ResourceEntityId=597
+POST /api/v1/Agents/List/DeleteResourceEntity?resourceEntityId=686
 ```
 
 
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/List/DeleteResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

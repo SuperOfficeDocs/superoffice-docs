@@ -2,6 +2,7 @@
 title: Services88.FindAgent.FindFromRestrictions2 SOAP
 generated: true
 uid: Services88-Find-FindFromRestrictions2
+content_type: reference
 ---
 
 # Services88 Find FindFromRestrictions2

@@ -2,6 +2,7 @@
 title: POST Agents/Project/GetProjectMembers
 uid: v1ProjectAgent_GetProjectMembers
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/GetProjectMembers
@@ -93,11 +94,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 805
+  "ProjectId": 593
 }
 ```
 
@@ -109,33 +110,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 819,
-    "ContactId": 317,
-    "ProjectId": 211,
-    "ContactName": "Lind-Jacobs",
+    "ProjectmemberId": 361,
+    "ContactId": 39,
+    "ProjectId": 339,
+    "ContactName": "Lind LLC",
     "ContactDepartment": "",
-    "ProjectName": "Moen Group",
-    "EmailId": 531,
-    "EmailAddress": "creola@kessler.co.uk",
-    "CountryId": 346,
-    "Firstname": "Bradford",
-    "MiddleName": "Grant Group",
-    "Lastname": "Haley",
-    "PersonId": 269,
-    "Mrmrs": "sed",
-    "ProjectMemberTypeName": "Bode-Schultz",
-    "Phone": "1-761-933-0088 x38545",
-    "PhoneId": 72,
-    "ProjectMemberTypeId": 585,
-    "EmailAddressName": "christian@davismorissette.us",
-    "Comment": "aspernatur",
-    "FullName": "Rose McClure",
+    "ProjectName": "Ebert-Gaylord",
+    "EmailId": 160,
+    "EmailAddress": "jennifer@durgannader.ca",
+    "CountryId": 62,
+    "Firstname": "Zakary",
+    "MiddleName": "Paucek Group",
+    "Lastname": "Tromp",
+    "PersonId": 121,
+    "Mrmrs": "ut",
+    "ProjectMemberTypeName": "Leannon Group",
+    "Phone": "226.609.9748",
+    "PhoneId": 89,
+    "ProjectMemberTypeId": 792,
+    "EmailAddressName": "antonina.sauer@daughertyveum.com",
+    "Comment": "modi",
+    "FullName": "Kamren Lakin V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 932
+        "FieldLength": 601
       }
     }
   }

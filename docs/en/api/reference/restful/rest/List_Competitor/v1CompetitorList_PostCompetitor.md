@@ -2,6 +2,7 @@
 title: POST List/Competitor/Items
 uid: v1CompetitorList_PostCompetitor
 generated: true
+content_type: reference
 ---
 
 # POST List/Competitor/Items
@@ -73,16 +74,16 @@ OK
 POST /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 313,
-  "Name": "Graham Group",
-  "Tooltip": "aspernatur",
+  "Id": 121,
+  "Name": "Rogahn, O'Conner and Hermiston",
+  "Tooltip": "rerum",
   "Deleted": true,
-  "UdListDefinitionId": 101,
-  "Rank": 220
+  "UdListDefinitionId": 811,
+  "Rank": 973
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 445,
-  "Name": "Dach-Mitchell",
-  "Tooltip": "commodi",
+  "Id": 786,
+  "Name": "Cormier LLC",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "UdListDefinitionId": 445,
-  "Rank": 54,
+  "UdListDefinitionId": 591,
+  "Rank": 223,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 899
+      "FieldType": "System.Int32",
+      "FieldLength": 934
     }
   }
 }

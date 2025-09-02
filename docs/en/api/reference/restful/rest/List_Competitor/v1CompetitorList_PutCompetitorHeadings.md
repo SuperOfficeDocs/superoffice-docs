@@ -2,6 +2,7 @@
 title: PUT List/Competitor/Headings
 uid: v1CompetitorList_PutCompetitorHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/Competitor/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 75,
-    "Name": "Welch Group",
-    "Tooltip": "voluptatum",
+    "HeadingId": 333,
+    "Name": "Powlowski-Welch",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 606,
-    "UdListDefinitionId": 716
+    "Rank": 188,
+    "UdListDefinitionId": 464
   },
   {
-    "HeadingId": 75,
-    "Name": "Welch Group",
-    "Tooltip": "voluptatum",
+    "HeadingId": 333,
+    "Name": "Powlowski-Welch",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 606,
-    "UdListDefinitionId": 716
+    "Rank": 188,
+    "UdListDefinitionId": 464
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 611,
-    "Name": "Wisozk, Kilback and Skiles",
-    "Tooltip": "ducimus",
-    "Deleted": false,
-    "Rank": 23,
-    "UdListDefinitionId": 893,
+    "HeadingId": 75,
+    "Name": "Tremblay, Thompson and Miller",
+    "Tooltip": "reiciendis",
+    "Deleted": true,
+    "Rank": 936,
+    "UdListDefinitionId": 649,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldType": "System.String",
+        "FieldLength": 96
       }
     }
   }

@@ -2,6 +2,7 @@
 title: GET Schema/{tableName}
 uid: v1FieldInfoBase_GetCustomFieldInfoList
 generated: true
+content_type: reference
 ---
 
 # GET Schema/{tableName}
@@ -29,7 +30,7 @@ Return information about all the custom fields (user-defined + extra) on a parti
 | includeStandard | bool |  Include standard fields in result. Default false. |
 
 ```http
-GET /api/v1/Schema/{tableName}?includeStandard=True
+GET /api/v1/Schema/{tableName}?includeStandard=False
 ```
 
 
@@ -80,7 +81,7 @@ OK
 GET /api/v1/Schema/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,19 +93,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Rosenbaum-Fritsch",
-    "DisplayName": "Smitham-Medhurst",
-    "Description": "Innovative background capability",
-    "ShortLabel": "corporis",
+    "FieldName": "Frami, Runte and Sporer",
+    "DisplayName": "Ernser-Gleichner",
+    "Description": "Multi-channelled content-based model",
+    "ShortLabel": "unde",
     "HideLabel": true,
     "HideField": false,
-    "IsIndexed": true,
+    "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": true,
+    "IsReadOnly": true,
+    "IsExternal": false,
     "IsDisplayField": true,
-    "Rank": 464,
-    "TemplateVariableName": "Gerlach-McClure"
+    "Rank": 175,
+    "TemplateVariableName": "Kuhic LLC"
   }
 ]
 ```

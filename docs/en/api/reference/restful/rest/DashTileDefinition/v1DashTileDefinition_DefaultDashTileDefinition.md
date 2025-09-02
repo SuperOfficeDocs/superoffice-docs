@@ -2,6 +2,7 @@
 title: GET DashTileDefinition/default
 uid: v1DashTileDefinition_DefaultDashTileDefinition
 generated: true
+content_type: reference
 ---
 
 # GET DashTileDefinition/default
@@ -85,31 +86,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 744,
-  "Name": "Windler LLC",
-  "Description": "Persevering uniform hierarchy",
-  "DefaultHeight": 53,
-  "DefaultWidth": 151,
+  "DashboardTileDefinitionId": 874,
+  "Name": "Bechtelar, Rowe and Robel",
+  "Description": "Compatible stable toolset",
+  "DefaultHeight": 611,
+  "DefaultWidth": 186,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Rolfson Group",
-  "SelectionId": 241,
+  "EntityName": "Wilderman, Auer and Davis",
+  "SelectionId": 833,
   "CurrencyMode": "Base",
-  "CurrencyCode": "aspernatur",
+  "CurrencyCode": "mollitia",
   "Measure": "Average",
-  "MeasureField": "tempore",
-  "SortBy": "consectetur",
-  "LayoutConfig": "aperiam",
-  "SecondarySelectionId": 243,
-  "MeasureByField": "in",
+  "MeasureField": "magni",
+  "SortBy": "saepe",
+  "LayoutConfig": "voluptatem",
+  "SecondarySelectionId": 172,
+  "MeasureByField": "alias",
   "Usage": "Dashboard",
-  "ProviderName": "Schuster, Fadel and Predovic",
+  "ProviderName": "Witting Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 355
+      "FieldLength": 643
     }
   }
 }

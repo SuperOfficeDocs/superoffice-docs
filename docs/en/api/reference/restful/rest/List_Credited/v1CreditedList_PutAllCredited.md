@@ -2,6 +2,7 @@
 title: PUT List/Credited/Items
 uid: v1CreditedList_PutAllCredited
 generated: true
+content_type: reference
 ---
 
 # PUT List/Credited/Items
@@ -73,25 +74,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 561,
-    "Name": "Romaguera, Dibbert and Schmitt",
-    "Tooltip": "illo",
+    "Id": 817,
+    "Name": "Dooley, Langosh and Gaylord",
+    "Tooltip": "eos",
     "Deleted": false,
-    "UdListDefinitionId": 135,
-    "Rank": 865
+    "UdListDefinitionId": 888,
+    "Rank": 455
   },
   {
-    "Id": 561,
-    "Name": "Romaguera, Dibbert and Schmitt",
-    "Tooltip": "illo",
+    "Id": 817,
+    "Name": "Dooley, Langosh and Gaylord",
+    "Tooltip": "eos",
     "Deleted": false,
-    "UdListDefinitionId": 135,
-    "Rank": 865
+    "UdListDefinitionId": 888,
+    "Rank": 455
   }
 ]
 ```
@@ -104,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 696,
-    "Name": "Orn LLC",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "UdListDefinitionId": 387,
-    "Rank": 829,
+    "Id": 294,
+    "Name": "Gerlach-Connelly",
+    "Tooltip": "sit",
+    "Deleted": true,
+    "UdListDefinitionId": 500,
+    "Rank": 214,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 379
+        "FieldLength": 846
       }
     }
   }

@@ -49,6 +49,7 @@ items:
   - SuperOffice.WebApi.Agents.PersonAgent.GetPhonesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.GetSalesRepAsync(System.String,System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.GetUserCandidateByPersonAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.PersonAgent.GetUtmParametersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.HasConsentAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.IsNumberValidAsync(System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.MergeAsync(System.Int32,System.Int32,System.DateTime,System.Boolean,System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -2109,6 +2110,41 @@ items:
   nameWithType.vb: PersonAgent.SendEmailWithEventNameAsync(String, String, String, String, String, Integer(), String, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.PersonAgent.SendEmailWithEventNameAsync(String, String, String, String, String, Integer(), String, SuperOffice.WebApi.RequestOptions)
   name.vb: SendEmailWithEventNameAsync(String, String, String, String, String, Integer(), String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.PersonAgent.GetUtmParametersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.PersonAgent.GetUtmParametersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetUtmParametersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.PersonAgent
+  langs:
+  - csharp
+  - vb
+  name: GetUtmParametersAsync(int, RequestOptions)
+  nameWithType: PersonAgent.GetUtmParametersAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.PersonAgent.GetUtmParametersAsync(int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Get all UTM parameters for a given person.
+  example: []
+  syntax:
+    content: public Task<UtmParameters> GetUtmParametersAsync(int personId, RequestOptions requestOptions = null)
+    parameters:
+    - id: personId
+      type: System.Int32
+      description: The person id to get UTM parameters for
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UtmParameters}
+      description: UTM parameters recorded on this person
+    content.vb: Public Function GetUtmParametersAsync(personId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of UtmParameters)
+  overload: SuperOffice.WebApi.Agents.PersonAgent.GetUtmParametersAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPersonAgent.GetUtmParametersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: PersonAgent.GetUtmParametersAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.PersonAgent.GetUtmParametersAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetUtmParametersAsync(Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.PersonAgent.GetPersonListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.PersonAgent.GetPersonListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: GetPersonListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -7894,6 +7930,93 @@ references:
     name: RequestOptions
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.PersonAgent.GetUtmParametersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.PersonAgent.GetUtmParametersAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.PersonAgent.html#SuperOffice_WebApi_Agents_PersonAgent_GetUtmParametersAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetUtmParametersAsync
+  nameWithType: PersonAgent.GetUtmParametersAsync
+  fullName: SuperOffice.WebApi.Agents.PersonAgent.GetUtmParametersAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.GetUtmParametersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.GetUtmParametersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IPersonAgent.html#SuperOffice_WebApi_Agents_IPersonAgent_GetUtmParametersAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: GetUtmParametersAsync(int, RequestOptions)
+  nameWithType: IPersonAgent.GetUtmParametersAsync(int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.GetUtmParametersAsync(int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IPersonAgent.GetUtmParametersAsync(Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPersonAgent.GetUtmParametersAsync(Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetUtmParametersAsync(Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPersonAgent.GetUtmParametersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetUtmParametersAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IPersonAgent.html#SuperOffice_WebApi_Agents_IPersonAgent_GetUtmParametersAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPersonAgent.GetUtmParametersAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetUtmParametersAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IPersonAgent.html#SuperOffice_WebApi_Agents_IPersonAgent_GetUtmParametersAsync_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UtmParameters}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UtmParameters}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<UtmParameters>
+  nameWithType: Task<UtmParameters>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.UtmParameters>
+  nameWithType.vb: Task(Of UtmParameters)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.UtmParameters)
+  name.vb: Task(Of UtmParameters)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.UtmParameters
+    name: UtmParameters
+    isExternal: true
+    href: SuperOffice.WebApi.Data.UtmParameters.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.UtmParameters
+    name: UtmParameters
+    isExternal: true
+    href: SuperOffice.WebApi.Data.UtmParameters.html
   - name: )
 - uid: SuperOffice.WebApi.Agents.PersonAgent.GetPersonListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.PersonAgent.GetPersonListAsync

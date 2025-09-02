@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/GetProgramUrl
 uid: v1CustomerServiceAgent_GetProgramUrl
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/GetProgramUrl
@@ -69,11 +70,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgramName": "Rolfson LLC",
+  "ProgramName": "Rutherford, Torp and Mueller",
   "External": true
 }
 ```

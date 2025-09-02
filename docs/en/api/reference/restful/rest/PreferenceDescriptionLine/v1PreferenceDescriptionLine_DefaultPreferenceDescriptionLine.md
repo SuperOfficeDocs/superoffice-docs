@@ -2,6 +2,7 @@
 title: GET PreferenceDescriptionLine/default
 uid: v1PreferenceDescriptionLine_DefaultPreferenceDescriptionLine
 generated: true
+content_type: reference
 ---
 
 # GET PreferenceDescriptionLine/default
@@ -62,7 +63,7 @@ OK
 GET /api/v1/PreferenceDescriptionLine/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +73,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 16,
-  "PrefDescId": 962,
-  "PrefValue": "aut",
-  "PrefShowValue": "aliquam",
-  "Description": "Front-line upward-trending paradigm",
+  "PrefDescLineId": 572,
+  "PrefDescId": 519,
+  "PrefValue": "qui",
+  "PrefShowValue": "et",
+  "Description": "Universal bifurcated success",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 330
+      "FieldLength": 80
     }
   }
 }

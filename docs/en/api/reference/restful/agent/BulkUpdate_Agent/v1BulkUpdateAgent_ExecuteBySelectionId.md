@@ -2,6 +2,7 @@
 title: POST Agents/BulkUpdate/ExecuteBySelectionId
 uid: v1BulkUpdateAgent_ExecuteBySelectionId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BulkUpdate/ExecuteBySelectionId
@@ -72,36 +73,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
+      "CanSupportMultiUse": false,
       "DefaultShowInGui": true,
       "DefaultShowInSelector": false,
-      "IsActive": true,
-      "Key": "at",
-      "ValueType": "tempore",
+      "IsActive": false,
+      "Key": "repudiandae",
+      "ValueType": "est",
       "Mandatory": false,
-      "EncodedDisplayName": "Jakubowski LLC",
-      "EncodedDisplayDescription": "Down-sized exuding capability",
-      "IconHint": "eos",
+      "EncodedDisplayName": "Kirlin Group",
+      "EncodedDisplayDescription": "Assimilated asynchronous open architecture",
+      "IconHint": "dolores",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "maxime",
-      "EncodedDataCaptionDescription": "Devolved mission-critical service-desk",
-      "CurrentOperationType": "dignissimos",
+      "EncodedDataCaption": "beatae",
+      "EncodedDataCaptionDescription": "Re-contextualized neutral matrices",
+      "CurrentOperationType": "aut",
       "Values": [
-        "et",
-        "sunt"
+        "quis",
+        "id"
       ],
       "DisplayValues": [
-        "non",
-        "libero"
+        "rerum",
+        "ratione"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +110,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Homenick, Sipes and Kutch",
-  "Context": "maxime",
-  "SelectionId": 673,
+  "TableName": "West-Spinka",
+  "Context": "quisquam",
+  "SelectionId": 166,
   "IsShadow": false
 }
 ```
@@ -122,5 +123,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-760
+620
 ```

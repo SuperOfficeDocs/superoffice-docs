@@ -2,6 +2,7 @@
 title: Services88.MDOAgent SOAP
 uid: Services88-MDO-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 MDO SOAP

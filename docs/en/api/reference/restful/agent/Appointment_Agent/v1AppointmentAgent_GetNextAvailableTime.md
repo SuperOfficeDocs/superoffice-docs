@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetNextAvailableTime
 uid: v1AppointmentAgent_GetNextAvailableTime
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetNextAvailableTime
@@ -80,17 +81,17 @@ OK
 POST /api/v1/Agents/Appointment/GetNextAvailableTime
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Associates": [
-    315,
-    811
+    996,
+    417
   ],
-  "StartTime": "2001-06-10T03:45:22.7173512+02:00",
-  "EndTime": "2012-01-18T03:45:22.7173512+01:00",
-  "Count": 553,
+  "StartTime": "2007-11-23T03:46:54.0195335+01:00",
+  "EndTime": "2021-05-08T03:46:54.0195335+02:00",
+  "Count": 627,
   "IsAllDay": false
 }
 ```
@@ -103,30 +104,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AvailableTimeStart": "2015-10-24T03:45:22.7173512+02:00",
-    "AvailableTimeEnd": "2004-09-12T03:45:22.7173512+02:00",
-    "RecommendedTimeStart": "2010-05-31T03:45:22.7173512+02:00",
-    "RecommendedTimeEnd": "2000-11-08T03:45:22.7173512+01:00",
+    "AvailableTimeStart": "2002-04-09T03:46:54.0195335+02:00",
+    "AvailableTimeEnd": "2002-11-24T03:46:54.0195335+01:00",
+    "RecommendedTimeStart": "2003-03-21T03:46:54.0195335+01:00",
+    "RecommendedTimeEnd": "2021-12-15T03:46:54.0195335+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 484
+        "FieldType": "System.String",
+        "FieldLength": 961
       }
     }
   },
   {
-    "AvailableTimeStart": "2015-10-24T03:45:22.7173512+02:00",
-    "AvailableTimeEnd": "2004-09-12T03:45:22.7173512+02:00",
-    "RecommendedTimeStart": "2010-05-31T03:45:22.7173512+02:00",
-    "RecommendedTimeEnd": "2000-11-08T03:45:22.7173512+01:00",
+    "AvailableTimeStart": "2002-04-09T03:46:54.0195335+02:00",
+    "AvailableTimeEnd": "2002-11-24T03:46:54.0195335+01:00",
+    "RecommendedTimeStart": "2003-03-21T03:46:54.0195335+01:00",
+    "RecommendedTimeEnd": "2021-12-15T03:46:54.0195335+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 484
+        "FieldType": "System.String",
+        "FieldLength": 961
       }
     }
   }

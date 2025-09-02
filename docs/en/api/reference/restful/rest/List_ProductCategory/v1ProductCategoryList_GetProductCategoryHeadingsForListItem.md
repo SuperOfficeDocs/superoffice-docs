@@ -2,6 +2,7 @@
 title: GET List/ProductCategory/Items/{id}/Headings
 uid: v1ProductCategoryList_GetProductCategoryHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/ProductCategory/Items/{id}/Headings
@@ -31,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 194,
-    "Name": "Homenick, Roberts and Kling",
-    "ToolTip": "Illo aut qui voluptatem assumenda iusto quos.",
-    "Deleted": false,
-    "Rank": 835,
-    "Type": "nemo",
-    "ColorBlock": 348,
-    "IconHint": "soluta",
+    "Id": 231,
+    "Name": "Funk-O'Kon",
+    "ToolTip": "Voluptatem quam quos laudantium quia earum cupiditate.",
+    "Deleted": true,
+    "Rank": 689,
+    "Type": "voluptates",
+    "ColorBlock": 379,
+    "IconHint": "omnis",
     "Selected": true,
-    "LastChanged": "2001-11-16T03:45:29.1549343+01:00",
+    "LastChanged": "2014-04-18T03:47:00.7224209+02:00",
     "ChildItems": [
       {
-        "Id": 438,
-        "Name": "Runolfsdottir Group",
-        "ToolTip": "Suscipit non veritatis.",
-        "Deleted": true,
-        "Rank": 722,
-        "Type": "voluptas",
-        "ColorBlock": 368,
-        "IconHint": "unde",
+        "Id": 742,
+        "Name": "Ferry-Kovacek",
+        "ToolTip": "Architecto quaerat qui.",
+        "Deleted": false,
+        "Rank": 890,
+        "Type": "sed",
+        "ColorBlock": 834,
+        "IconHint": "fugiat",
         "Selected": false,
-        "LastChanged": "2011-12-28T03:45:29.1549343+01:00",
+        "LastChanged": "2010-08-09T03:47:00.7224209+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "nobis",
-        "Hidden": true,
-        "FullName": "Earline Homenick",
+        "ExtraInfo": "illo",
+        "StyleHint": "voluptates",
+        "Hidden": false,
+        "FullName": "Mrs. Eunice Magali Hackett",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 490
+            "FieldType": "System.Int32",
+            "FieldLength": 797
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "libero",
-    "Hidden": true,
-    "FullName": "Damion Konopelski I",
+    "ExtraInfo": "facere",
+    "StyleHint": "dolorum",
+    "Hidden": false,
+    "FullName": "Mrs. Kaitlin Kerluke MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 914
+        "FieldType": "System.String",
+        "FieldLength": 682
       }
     }
   }

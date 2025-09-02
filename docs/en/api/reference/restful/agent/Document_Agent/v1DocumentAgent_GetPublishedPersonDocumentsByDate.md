@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetPublishedPersonDocumentsByDate
 uid: v1DocumentAgent_GetPublishedPersonDocumentsByDate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetPublishedPersonDocumentsByDate
@@ -102,11 +103,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 879,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2024-09-04T03:45:23.2798335+02:00",
-  "EndTime": "1998-03-31T03:45:23.2798335+02:00",
-  "Count": 28
+  "PersonId": 495,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2005-11-23T03:46:54.6132622+01:00",
+  "EndTime": "2004-03-21T03:46:54.6132622+01:00",
+  "Count": 67
 }
 ```
 
@@ -118,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 914,
-    "Attention": "autem",
-    "Header": "cumque",
-    "Name": "Luettgen-Metz",
-    "OurRef": "harum",
-    "YourRef": "qui",
-    "Description": "Streamlined bottom-line open system",
-    "DocumentTemplate": "qui",
+    "DocumentId": 132,
+    "Attention": "sint",
+    "Header": "eos",
+    "Name": "Fay-Skiles",
+    "OurRef": "eaque",
+    "YourRef": "blanditiis",
+    "Description": "Vision-oriented 24 hour circuit",
+    "DocumentTemplate": "et",
     "IsPublished": false,
-    "PersonId": 378,
-    "PersonFullName": "Eleanora Davis",
-    "AssociateFullName": "Aurore Doyle",
-    "ContactId": 245,
-    "ContactName": "Borer, VonRueden and Larson",
-    "ProjectId": 145,
-    "ProjectName": "Wilderman-Howell",
-    "AssociateId": 920,
-    "Snum": 596,
-    "SaleId": 547,
-    "SaleName": "O'Reilly, Walker and Kohler",
+    "PersonId": 592,
+    "PersonFullName": "Roosevelt Bartell",
+    "AssociateFullName": "Miss Colleen Reynold Casper II",
+    "ContactId": 553,
+    "ContactName": "Boyer Inc and Sons",
+    "ProjectId": 248,
+    "ProjectName": "Gulgowski, Herman and Morar",
+    "AssociateId": 443,
+    "Snum": 249,
+    "SaleId": 140,
+    "SaleName": "Lynch Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 436
+        "FieldLength": 935
       }
     }
   }

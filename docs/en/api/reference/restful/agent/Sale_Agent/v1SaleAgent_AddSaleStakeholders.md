@@ -2,6 +2,7 @@
 title: POST Agents/Sale/AddSaleStakeholders
 uid: v1SaleAgent_AddSaleStakeholders
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/AddSaleStakeholders
@@ -65,32 +66,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 113,
+  "SaleId": 127,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Dooley, Kris and Schinner",
-      "Comment": "architecto",
-      "StakeholderRoleId": 17,
-      "CountryId": 806,
-      "PersonId": 715,
-      "EmailDescription": "odell@feil.us",
-      "EmailId": 989,
-      "EmailAddress": "imogene_dooley@crona.info",
-      "PhoneId": 398,
-      "ContactName": "Stracke Inc and Sons",
-      "ContactId": 883,
-      "SaleId": 645,
-      "Mrmrs": "aut",
-      "Firstname": "Marcel",
-      "MiddleName": "Tromp, Mraz and Christiansen",
-      "Lastname": "Robel",
-      "SaleStakeholderId": 311,
-      "Rank": 334,
-      "Phone": "549.449.9491"
+      "StakeholderRoleName": "Bode-Gottlieb",
+      "Comment": "rerum",
+      "StakeholderRoleId": 443,
+      "CountryId": 479,
+      "PersonId": 746,
+      "EmailDescription": "tierra_hartmann@nitzsche.us",
+      "EmailId": 917,
+      "EmailAddress": "clemens_lockman@wyman.info",
+      "PhoneId": 674,
+      "ContactName": "Dickens Group",
+      "ContactId": 467,
+      "SaleId": 429,
+      "Mrmrs": "omnis",
+      "Firstname": "Enid",
+      "MiddleName": "Ankunding-Raynor",
+      "Lastname": "Borer",
+      "SaleStakeholderId": 871,
+      "Rank": 91,
+      "Phone": "1-276-718-2852"
     }
   ]
 }

@@ -2,6 +2,7 @@
 title: Services88.AppointmentAgent.CreateAndAccept SOAP
 generated: true
 uid: Services88-Appointment-CreateAndAccept
+content_type: reference
 ---
 
 # Services88 Appointment CreateAndAccept

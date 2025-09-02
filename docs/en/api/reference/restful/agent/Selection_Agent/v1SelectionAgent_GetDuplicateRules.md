@@ -2,6 +2,7 @@
 title: POST Agents/Selection/GetDuplicateRules
 uid: v1SelectionAgent_GetDuplicateRules
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/GetDuplicateRules
@@ -68,7 +69,7 @@ OK
 POST /api/v1/Agents/Selection/GetDuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,30 +80,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mayert LLC",
-    "DisplayName": "Kessler, Kiehn and Hahn",
-    "DisplayTooltip": "suscipit",
+    "Name": "Bogan-Hessel",
+    "DisplayName": "Smitham, Hahn and Romaguera",
+    "DisplayTooltip": "nemo",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 3
+        "FieldLength": 530
       }
     }
   },
   {
-    "Name": "Mayert LLC",
-    "DisplayName": "Kessler, Kiehn and Hahn",
-    "DisplayTooltip": "suscipit",
+    "Name": "Bogan-Hessel",
+    "DisplayName": "Smitham, Hahn and Romaguera",
+    "DisplayTooltip": "nemo",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 3
+        "FieldLength": 530
       }
     }
   }

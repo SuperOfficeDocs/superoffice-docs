@@ -3,9 +3,9 @@ uid: emailphone
 title: emailphone
 keywords: mdoprovider mdo provider emailphone
 description: List of e-mail addresses and phone numbers matching the search value Searches e-mail address, phone number, person name, company name. E-mail address/phone number matches - return e-mail addresses/phone numbers + owner name (person or contact name) Person name matches - return all e-mail addresses/phone numbers for matched persons Company name matches. return all persons + first e-mail address/phone number for matched persons. 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "emailphone" MDO List

@@ -2,6 +2,7 @@
 title: PUT List/Source/Items/{id}
 uid: v1SourceList_PutSource
 generated: true
+content_type: reference
 ---
 
 # PUT List/Source/Items/{id}
@@ -82,12 +83,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 90,
-  "Name": "Walsh, Kutch and Durgan",
-  "Tooltip": "explicabo",
+  "Id": 1001,
+  "Name": "Nader-Gusikowski",
+  "Tooltip": "dolore",
   "Deleted": true,
-  "UdListDefinitionId": 689,
-  "Rank": 700
+  "UdListDefinitionId": 737,
+  "Rank": 146
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 486,
-  "Name": "Gleichner-Batz",
-  "Tooltip": "nihil",
-  "Deleted": true,
-  "UdListDefinitionId": 460,
-  "Rank": 965,
+  "Id": 749,
+  "Name": "Strosin, Bailey and Stiedemann",
+  "Tooltip": "quisquam",
+  "Deleted": false,
+  "UdListDefinitionId": 447,
+  "Rank": 466,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 169
+      "FieldType": "System.String",
+      "FieldLength": 945
     }
   }
 }

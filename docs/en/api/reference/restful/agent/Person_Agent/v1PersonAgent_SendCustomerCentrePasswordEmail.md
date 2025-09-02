@@ -2,6 +2,7 @@
 title: POST Agents/Person/SendCustomerCentrePasswordEmail
 uid: v1PersonAgent_SendCustomerCentrePasswordEmail
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/SendCustomerCentrePasswordEmail
@@ -67,14 +68,14 @@ No Content
 POST /api/v1/Agents/Person/SendCustomerCentrePasswordEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 213,
-  "From": "quam",
-  "To": "quo",
-  "Subject": "reiciendis"
+  "PersonId": 413,
+  "From": "odio",
+  "To": "id",
+  "Subject": "tempora"
 }
 ```
 

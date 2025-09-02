@@ -2,6 +2,7 @@
 title: POST Agents/List/CreateDefaultRelationDefinitionEntity
 uid: v1ListAgent_CreateDefaultRelationDefinitionEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/CreateDefaultRelationDefinitionEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/List/CreateDefaultRelationDefinitionEntity
 ```
 
-Set default values into a new RelationDefinitionEntity.
+Loading default values into a new RelationDefinitionEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -74,12 +73,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 651,
-  "Name": "Harvey-McLaughlin",
-  "Tooltip": "odio",
-  "PassiveText": "amet",
-  "Deleted": false,
-  "Rank": 221,
+  "ReldefId": 162,
+  "Name": "Kshlerin, Jakubowski and Kling",
+  "Tooltip": "saepe",
+  "PassiveText": "enim",
+  "Deleted": true,
+  "Rank": 362,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -87,7 +86,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 458
+      "FieldLength": 917
     }
   }
 }

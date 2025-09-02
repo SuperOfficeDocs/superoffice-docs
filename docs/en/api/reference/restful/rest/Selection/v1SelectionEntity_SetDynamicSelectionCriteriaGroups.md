@@ -2,6 +2,7 @@
 title: PUT Selection/{id}/CriteriaGroups
 uid: v1SelectionEntity_SetDynamicSelectionCriteriaGroups
 generated: true
+content_type: reference
 ---
 
 # PUT Selection/{id}/CriteriaGroups
@@ -73,25 +74,25 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Oberbrunner, Kuvalis and Bartoletti",
-    "Description": "Vision-oriented encompassing framework",
-    "Rank": 452,
+    "Name": "Marks Inc and Sons",
+    "Description": "Face to face content-based synergy",
+    "Rank": 635,
     "Restrictions": [
       {
-        "Name": "Blick, Nikolaus and Herman",
-        "Operator": "aut",
+        "Name": "Willms Group",
+        "Operator": "ea",
         "Values": [
-          "dolore",
-          "molestias"
+          "adipisci",
+          "voluptatem"
         ],
         "DisplayValues": [
-          "enim",
-          "quis"
+          "sed",
+          "perspiciatis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -99,27 +100,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 614,
+        "InterParenthesis": 595,
         "InterOperator": "And",
-        "UniqueHash": 827
+        "UniqueHash": 458
       }
     ]
   },
   {
-    "Name": "Oberbrunner, Kuvalis and Bartoletti",
-    "Description": "Vision-oriented encompassing framework",
-    "Rank": 452,
+    "Name": "Marks Inc and Sons",
+    "Description": "Face to face content-based synergy",
+    "Rank": 635,
     "Restrictions": [
       {
-        "Name": "Blick, Nikolaus and Herman",
-        "Operator": "aut",
+        "Name": "Willms Group",
+        "Operator": "ea",
         "Values": [
-          "dolore",
-          "molestias"
+          "adipisci",
+          "voluptatem"
         ],
         "DisplayValues": [
-          "enim",
-          "quis"
+          "sed",
+          "perspiciatis"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -127,9 +128,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 614,
+        "InterParenthesis": 595,
         "InterOperator": "And",
-        "UniqueHash": 827
+        "UniqueHash": 458
       }
     ]
   }
@@ -144,58 +145,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Greenfelder, Lemke and Bruen",
-    "Description": "Streamlined multi-state support",
-    "Rank": 861,
+    "Name": "Rohan LLC",
+    "Description": "Open-architected radical productivity",
+    "Rank": 939,
     "Restrictions": [
       {
-        "Name": "Farrell-Hettinger",
-        "Operator": "totam",
+        "Name": "Ziemann LLC",
+        "Operator": "porro",
         "Values": [
-          "deserunt",
-          "aliquid"
+          "cum",
+          "est"
         ],
         "DisplayValues": [
-          "sint",
-          "dolorem"
+          "qui",
+          "saepe"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 334,
+        "InterParenthesis": 690,
         "InterOperator": "And",
-        "UniqueHash": 1002
+        "UniqueHash": 401
       }
     ]
   },
   {
-    "Name": "Greenfelder, Lemke and Bruen",
-    "Description": "Streamlined multi-state support",
-    "Rank": 861,
+    "Name": "Rohan LLC",
+    "Description": "Open-architected radical productivity",
+    "Rank": 939,
     "Restrictions": [
       {
-        "Name": "Farrell-Hettinger",
-        "Operator": "totam",
+        "Name": "Ziemann LLC",
+        "Operator": "porro",
         "Values": [
-          "deserunt",
-          "aliquid"
+          "cum",
+          "est"
         ],
         "DisplayValues": [
-          "sint",
-          "dolorem"
+          "qui",
+          "saepe"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 334,
+        "InterParenthesis": 690,
         "InterOperator": "And",
-        "UniqueHash": 1002
+        "UniqueHash": 401
       }
     ]
   }

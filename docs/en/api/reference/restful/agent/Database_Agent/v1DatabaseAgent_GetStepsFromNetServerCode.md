@@ -2,6 +2,7 @@
 title: POST Agents/Database/GetStepsFromNetServerCode
 uid: v1DatabaseAgent_GetStepsFromNetServerCode
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Database/GetStepsFromNetServerCode
@@ -66,7 +67,7 @@ OK
 POST /api/v1/Agents/Database/GetStepsFromNetServerCode
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,26 +78,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Swaniawski LLC",
-    "StepNumber": 280,
+    "Name": "Steuber-Upton",
+    "StepNumber": 307,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 660
+        "FieldType": "System.String",
+        "FieldLength": 894
       }
     }
   },
   {
-    "Name": "Swaniawski LLC",
-    "StepNumber": 280,
+    "Name": "Steuber-Upton",
+    "StepNumber": 307,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 660
+        "FieldType": "System.String",
+        "FieldLength": 894
       }
     }
   }

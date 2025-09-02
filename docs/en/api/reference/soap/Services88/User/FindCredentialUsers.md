@@ -2,6 +2,7 @@
 title: Services88.UserAgent.FindCredentialUsers SOAP
 generated: true
 uid: Services88-User-FindCredentialUsers
+content_type: reference
 ---
 
 # Services88 User FindCredentialUsers

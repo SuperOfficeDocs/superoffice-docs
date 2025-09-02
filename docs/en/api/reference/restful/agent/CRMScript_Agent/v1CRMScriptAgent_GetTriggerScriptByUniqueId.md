@@ -2,6 +2,7 @@
 title: POST Agents/CRMScript/GetTriggerScriptByUniqueId
 uid: v1CRMScriptAgent_GetTriggerScriptByUniqueId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CRMScript/GetTriggerScriptByUniqueId
@@ -84,11 +85,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "officia"
+  "TriggerScriptUniqueId": "aliquid"
 }
 ```
 
@@ -99,22 +100,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 231,
-  "Name": "Kuhn, O'Connell and Strosin",
+  "ScreenChooserId": 603,
+  "Name": "Jewess-Greenholt",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "ut",
-  "Source": "est",
-  "Registered": "2015-02-06T03:45:23.2485827+01:00",
-  "RegisteredAssociateId": 479,
-  "Updated": "2017-11-01T03:45:23.2485827+01:00",
-  "UpdatedAssociateId": 855,
+  "UniqueIdentifier": "vitae",
+  "Source": "nihil",
+  "Registered": "1998-11-11T03:46:54.5820132+01:00",
+  "RegisteredAssociateId": 656,
+  "Updated": "2005-01-22T03:46:54.5820132+01:00",
+  "UpdatedAssociateId": 187,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 448
+      "FieldType": "System.Int32",
+      "FieldLength": 186
     }
   }
 }

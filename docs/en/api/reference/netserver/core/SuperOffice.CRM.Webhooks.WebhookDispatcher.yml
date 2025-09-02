@@ -5,7 +5,7 @@ items:
   id: WebhookDispatcher
   parent: SuperOffice.CRM.Webhooks
   children:
-  - SuperOffice.CRM.Webhooks.WebhookDispatcher.#ctor(SuperOffice.CRM.Webhooks.IWebhookManager,SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo})
+  - SuperOffice.CRM.Webhooks.WebhookDispatcher.#ctor(SuperOffice.CRM.Webhooks.IWebhookManager,SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.WebhookDispatcher})
   - SuperOffice.CRM.Webhooks.WebhookDispatcher.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Webhooks.WebhookTaskInfo},System.Threading.CancellationToken)
   langs:
   - csharp
@@ -32,6 +32,7 @@ items:
   inheritedMembers:
   - SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.CRM.Webhooks.WebhookTaskInfo}._queue
   - SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.CRM.Webhooks.WebhookTaskInfo}.ExecuteAsync(System.Threading.CancellationToken)
+  - SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.CRM.Webhooks.WebhookTaskInfo}.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Webhooks.WebhookTaskInfo},System.Threading.CancellationToken)
   - SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.CRM.Webhooks.WebhookTaskInfo}.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Webhooks.WebhookTaskInfo},System.Threading.CancellationToken)
   - Microsoft.Extensions.Hosting.BackgroundService.ExecuteAsync(System.Threading.CancellationToken)
   - Microsoft.Extensions.Hosting.BackgroundService.StartAsync(System.Threading.CancellationToken)
@@ -47,16 +48,16 @@ items:
   extensionMethods:
   - SuperOffice.CRM.Webhooks.WebhookDispatcher.EnumUtil.MapEnums``2
   - SuperOffice.CRM.Webhooks.WebhookDispatcher.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-- uid: SuperOffice.CRM.Webhooks.WebhookDispatcher.#ctor(SuperOffice.CRM.Webhooks.IWebhookManager,SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo})
-  commentId: M:SuperOffice.CRM.Webhooks.WebhookDispatcher.#ctor(SuperOffice.CRM.Webhooks.IWebhookManager,SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo})
-  id: '#ctor(SuperOffice.CRM.Webhooks.IWebhookManager,SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo})'
+- uid: SuperOffice.CRM.Webhooks.WebhookDispatcher.#ctor(SuperOffice.CRM.Webhooks.IWebhookManager,SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.WebhookDispatcher})
+  commentId: M:SuperOffice.CRM.Webhooks.WebhookDispatcher.#ctor(SuperOffice.CRM.Webhooks.IWebhookManager,SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.WebhookDispatcher})
+  id: '#ctor(SuperOffice.CRM.Webhooks.IWebhookManager,SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.WebhookDispatcher})'
   parent: SuperOffice.CRM.Webhooks.WebhookDispatcher
   langs:
   - csharp
   - vb
-  name: WebhookDispatcher(IWebhookManager, IAsyncQueue<WebhookTaskInfo>)
-  nameWithType: WebhookDispatcher.WebhookDispatcher(IWebhookManager, IAsyncQueue<WebhookTaskInfo>)
-  fullName: SuperOffice.CRM.Webhooks.WebhookDispatcher.WebhookDispatcher(SuperOffice.CRM.Webhooks.IWebhookManager, SuperOffice.Threading.IAsyncQueue<SuperOffice.CRM.Webhooks.WebhookTaskInfo>)
+  name: WebhookDispatcher(IWebhookManager, IAsyncQueue<WebhookTaskInfo>, ILogger<WebhookDispatcher>)
+  nameWithType: WebhookDispatcher.WebhookDispatcher(IWebhookManager, IAsyncQueue<WebhookTaskInfo>, ILogger<WebhookDispatcher>)
+  fullName: SuperOffice.CRM.Webhooks.WebhookDispatcher.WebhookDispatcher(SuperOffice.CRM.Webhooks.IWebhookManager, SuperOffice.Threading.IAsyncQueue<SuperOffice.CRM.Webhooks.WebhookTaskInfo>, Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.Webhooks.WebhookDispatcher>)
   type: Constructor
   assemblies:
   - SoDataBase.BusinessLogic
@@ -64,17 +65,19 @@ items:
   summary: Constructor called by Hosted Service / DI
   example: []
   syntax:
-    content: public WebhookDispatcher(IWebhookManager webhookManager, IAsyncQueue<WebhookTaskInfo> queue)
+    content: public WebhookDispatcher(IWebhookManager webhookManager, IAsyncQueue<WebhookTaskInfo> queue, ILogger<WebhookDispatcher> logger)
     parameters:
     - id: webhookManager
       type: SuperOffice.CRM.Webhooks.IWebhookManager
     - id: queue
       type: SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo}
-    content.vb: Public Sub New(webhookManager As IWebhookManager, queue As IAsyncQueue(Of WebhookTaskInfo))
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.WebhookDispatcher}
+    content.vb: Public Sub New(webhookManager As IWebhookManager, queue As IAsyncQueue(Of WebhookTaskInfo), logger As ILogger(Of WebhookDispatcher))
   overload: SuperOffice.CRM.Webhooks.WebhookDispatcher.#ctor*
-  nameWithType.vb: WebhookDispatcher.New(IWebhookManager, IAsyncQueue(Of WebhookTaskInfo))
-  fullName.vb: SuperOffice.CRM.Webhooks.WebhookDispatcher.New(SuperOffice.CRM.Webhooks.IWebhookManager, SuperOffice.Threading.IAsyncQueue(Of SuperOffice.CRM.Webhooks.WebhookTaskInfo))
-  name.vb: New(IWebhookManager, IAsyncQueue(Of WebhookTaskInfo))
+  nameWithType.vb: WebhookDispatcher.New(IWebhookManager, IAsyncQueue(Of WebhookTaskInfo), ILogger(Of WebhookDispatcher))
+  fullName.vb: SuperOffice.CRM.Webhooks.WebhookDispatcher.New(SuperOffice.CRM.Webhooks.IWebhookManager, SuperOffice.Threading.IAsyncQueue(Of SuperOffice.CRM.Webhooks.WebhookTaskInfo), Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Webhooks.WebhookDispatcher))
+  name.vb: New(IWebhookManager, IAsyncQueue(Of WebhookTaskInfo), ILogger(Of WebhookDispatcher))
 - uid: SuperOffice.CRM.Webhooks.WebhookDispatcher.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Webhooks.WebhookTaskInfo},System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Webhooks.WebhookDispatcher.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Webhooks.WebhookTaskInfo},System.Threading.CancellationToken)
   id: ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Webhooks.WebhookTaskInfo},System.Threading.CancellationToken)
@@ -275,6 +278,59 @@ references:
     name: ExecuteAsync
     isExternal: true
   - name: (
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.CRM.Webhooks.WebhookTaskInfo}.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Webhooks.WebhookTaskInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.CRM.Webhooks.WebhookTaskInfo}.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Webhooks.WebhookTaskInfo},System.Threading.CancellationToken)
+  parent: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.CRM.Webhooks.WebhookTaskInfo}
+  definition: SuperOffice.Threading.AsyncQueueProcessor`2.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: OuterProcessItemAsync(IAsyncQueueProcessItemContext<WebhookTaskInfo>, CancellationToken)
+  nameWithType: AsyncQueueProcessor<IAsyncQueue<WebhookTaskInfo>, WebhookTaskInfo>.OuterProcessItemAsync(IAsyncQueueProcessItemContext<WebhookTaskInfo>, CancellationToken)
+  fullName: SuperOffice.Threading.AsyncQueueProcessor<SuperOffice.Threading.IAsyncQueue<SuperOffice.CRM.Webhooks.WebhookTaskInfo>, SuperOffice.CRM.Webhooks.WebhookTaskInfo>.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext<SuperOffice.CRM.Webhooks.WebhookTaskInfo>, System.Threading.CancellationToken)
+  nameWithType.vb: AsyncQueueProcessor(Of IAsyncQueue(Of WebhookTaskInfo), WebhookTaskInfo).OuterProcessItemAsync(IAsyncQueueProcessItemContext(Of WebhookTaskInfo), CancellationToken)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of SuperOffice.Threading.IAsyncQueue(Of SuperOffice.CRM.Webhooks.WebhookTaskInfo), SuperOffice.CRM.Webhooks.WebhookTaskInfo).OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext(Of SuperOffice.CRM.Webhooks.WebhookTaskInfo), System.Threading.CancellationToken)
+  name.vb: OuterProcessItemAsync(IAsyncQueueProcessItemContext(Of WebhookTaskInfo), CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.CRM.Webhooks.WebhookTaskInfo}.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Webhooks.WebhookTaskInfo},System.Threading.CancellationToken)
+    name: OuterProcessItemAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: <
+  - uid: SuperOffice.CRM.Webhooks.WebhookTaskInfo
+    name: WebhookTaskInfo
+    isExternal: true
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor{SuperOffice.Threading.IAsyncQueue{SuperOffice.CRM.Webhooks.WebhookTaskInfo},SuperOffice.CRM.Webhooks.WebhookTaskInfo}.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.CRM.Webhooks.WebhookTaskInfo},System.Threading.CancellationToken)
+    name: OuterProcessItemAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Webhooks.WebhookTaskInfo
+    name: WebhookTaskInfo
+    isExternal: true
+  - name: )
+  - name: ','
+  - name: " "
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     isExternal: true
@@ -886,7 +942,7 @@ references:
 - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ExecuteAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.Threading.AsyncQueueProcessor`2.ExecuteAsync(System.Threading.CancellationToken)
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  href: SuperOffice.Threading.AsyncQueueProcessor-2.html#SuperOffice_Threading_AsyncQueueProcessor_2_ExecuteAsync_System_Threading_CancellationToken_
   name: ExecuteAsync(CancellationToken)
   nameWithType: AsyncQueueProcessor<TQueue, TItem>.ExecuteAsync(CancellationToken)
   fullName: SuperOffice.Threading.AsyncQueueProcessor<TQueue, TItem>.ExecuteAsync(System.Threading.CancellationToken)
@@ -896,6 +952,7 @@ references:
   - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ExecuteAsync(System.Threading.CancellationToken)
     name: ExecuteAsync
     isExternal: true
+    href: SuperOffice.Threading.AsyncQueueProcessor-2.html#SuperOffice_Threading_AsyncQueueProcessor_2_ExecuteAsync_System_Threading_CancellationToken_
   - name: (
   - uid: System.Threading.CancellationToken
     name: CancellationToken
@@ -906,25 +963,26 @@ references:
   - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ExecuteAsync(System.Threading.CancellationToken)
     name: ExecuteAsync
     isExternal: true
+    href: SuperOffice.Threading.AsyncQueueProcessor-2.html#SuperOffice_Threading_AsyncQueueProcessor_2_ExecuteAsync_System_Threading_CancellationToken_
   - name: (
   - uid: System.Threading.CancellationToken
     name: CancellationToken
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
-- uid: SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
-  commentId: M:SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+- uid: SuperOffice.Threading.AsyncQueueProcessor`2.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsyncQueueProcessor`2.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
   isExternal: true
   href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: ProcessItemAsync(IAsyncQueueProcessItemContext<TItem>, CancellationToken)
-  nameWithType: AsyncQueueProcessor<TQueue, TItem>.ProcessItemAsync(IAsyncQueueProcessItemContext<TItem>, CancellationToken)
-  fullName: SuperOffice.Threading.AsyncQueueProcessor<TQueue, TItem>.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext<TItem>, System.Threading.CancellationToken)
-  nameWithType.vb: AsyncQueueProcessor(Of TQueue, TItem).ProcessItemAsync(IAsyncQueueProcessItemContext(Of TItem), CancellationToken)
-  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of TQueue, TItem).ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext(Of TItem), System.Threading.CancellationToken)
-  name.vb: ProcessItemAsync(IAsyncQueueProcessItemContext(Of TItem), CancellationToken)
+  name: OuterProcessItemAsync(IAsyncQueueProcessItemContext<TItem>, CancellationToken)
+  nameWithType: AsyncQueueProcessor<TQueue, TItem>.OuterProcessItemAsync(IAsyncQueueProcessItemContext<TItem>, CancellationToken)
+  fullName: SuperOffice.Threading.AsyncQueueProcessor<TQueue, TItem>.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext<TItem>, System.Threading.CancellationToken)
+  nameWithType.vb: AsyncQueueProcessor(Of TQueue, TItem).OuterProcessItemAsync(IAsyncQueueProcessItemContext(Of TItem), CancellationToken)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of TQueue, TItem).OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext(Of TItem), System.Threading.CancellationToken)
+  name.vb: OuterProcessItemAsync(IAsyncQueueProcessItemContext(Of TItem), CancellationToken)
   spec.csharp:
-  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
-    name: ProcessItemAsync
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+    name: OuterProcessItemAsync
     isExternal: true
   - name: (
   - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
@@ -941,13 +999,65 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
   - name: )
   spec.vb:
-  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
-    name: ProcessItemAsync
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.OuterProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+    name: OuterProcessItemAsync
     isExternal: true
   - name: (
   - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
     name: IAsyncQueueProcessItemContext
     isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TItem
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+  isExternal: true
+  href: SuperOffice.Threading.AsyncQueueProcessor-2.html#SuperOffice_Threading_AsyncQueueProcessor_2_ProcessItemAsync_SuperOffice_Threading_IAsyncQueueProcessItemContext__1__System_Threading_CancellationToken_
+  name: ProcessItemAsync(IAsyncQueueProcessItemContext<TItem>, CancellationToken)
+  nameWithType: AsyncQueueProcessor<TQueue, TItem>.ProcessItemAsync(IAsyncQueueProcessItemContext<TItem>, CancellationToken)
+  fullName: SuperOffice.Threading.AsyncQueueProcessor<TQueue, TItem>.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext<TItem>, System.Threading.CancellationToken)
+  nameWithType.vb: AsyncQueueProcessor(Of TQueue, TItem).ProcessItemAsync(IAsyncQueueProcessItemContext(Of TItem), CancellationToken)
+  fullName.vb: SuperOffice.Threading.AsyncQueueProcessor(Of TQueue, TItem).ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext(Of TItem), System.Threading.CancellationToken)
+  name.vb: ProcessItemAsync(IAsyncQueueProcessItemContext(Of TItem), CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+    name: ProcessItemAsync
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueProcessor-2.html#SuperOffice_Threading_AsyncQueueProcessor_2_ProcessItemAsync_SuperOffice_Threading_IAsyncQueueProcessItemContext__1__System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueProcessItemContext-1.html
+  - name: <
+  - name: TItem
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Threading.AsyncQueueProcessor`2.ProcessItemAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{`1},System.Threading.CancellationToken)
+    name: ProcessItemAsync
+    isExternal: true
+    href: SuperOffice.Threading.AsyncQueueProcessor-2.html#SuperOffice_Threading_AsyncQueueProcessor_2_ProcessItemAsync_SuperOffice_Threading_IAsyncQueueProcessItemContext__1__System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+    href: SuperOffice.Threading.IAsyncQueueProcessItemContext-1.html
   - name: (
   - name: Of
   - name: " "
@@ -1095,7 +1205,7 @@ references:
 - uid: SuperOffice.CRM.Webhooks.WebhookDispatcher.#ctor*
   commentId: Overload:SuperOffice.CRM.Webhooks.WebhookDispatcher.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Webhooks.WebhookDispatcher.html#SuperOffice_CRM_Webhooks_WebhookDispatcher__ctor_SuperOffice_CRM_Webhooks_IWebhookManager_SuperOffice_Threading_IAsyncQueue_SuperOffice_CRM_Webhooks_WebhookTaskInfo__
+  href: SuperOffice.CRM.Webhooks.WebhookDispatcher.html#SuperOffice_CRM_Webhooks_WebhookDispatcher__ctor_SuperOffice_CRM_Webhooks_IWebhookManager_SuperOffice_Threading_IAsyncQueue_SuperOffice_CRM_Webhooks_WebhookTaskInfo__Microsoft_Extensions_Logging_ILogger_SuperOffice_CRM_Webhooks_WebhookDispatcher__
   name: WebhookDispatcher
   nameWithType: WebhookDispatcher.WebhookDispatcher
   fullName: SuperOffice.CRM.Webhooks.WebhookDispatcher.WebhookDispatcher
@@ -1140,6 +1250,41 @@ references:
     name: WebhookTaskInfo
     isExternal: true
   - name: )
+- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.WebhookDispatcher}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Webhooks.WebhookDispatcher}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<WebhookDispatcher>
+  nameWithType: ILogger<WebhookDispatcher>
+  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.Webhooks.WebhookDispatcher>
+  nameWithType.vb: ILogger(Of WebhookDispatcher)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Webhooks.WebhookDispatcher)
+  name.vb: ILogger(Of WebhookDispatcher)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: SuperOffice.CRM.Webhooks.WebhookDispatcher
+    name: WebhookDispatcher
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.WebhookDispatcher.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Webhooks.WebhookDispatcher
+    name: WebhookDispatcher
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.WebhookDispatcher.html
+  - name: )
 - uid: SuperOffice.Threading.IAsyncQueue`1
   commentId: T:SuperOffice.Threading.IAsyncQueue`1
   isExternal: true
@@ -1168,6 +1313,71 @@ references:
   - name: " "
   - name: TItem
   - name: )
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
 - uid: SuperOffice.CRM.Webhooks.WebhookDispatcher.ProcessItemAsync*
   commentId: Overload:SuperOffice.CRM.Webhooks.WebhookDispatcher.ProcessItemAsync
   isExternal: true

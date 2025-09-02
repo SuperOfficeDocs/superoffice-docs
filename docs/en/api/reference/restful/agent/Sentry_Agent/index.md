@@ -1,6 +1,8 @@
 ---
+uid: tag-Sentry_Agent
 title: Sentry_Agent
 generated: true
+content_type: reference
 ---
 
 ```http

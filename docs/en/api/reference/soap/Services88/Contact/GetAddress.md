@@ -2,6 +2,7 @@
 title: Services88.ContactAgent.GetAddress SOAP
 generated: true
 uid: Services88-Contact-GetAddress
+content_type: reference
 ---
 
 # Services88 Contact GetAddress

@@ -2,6 +2,7 @@
 title: Services88.DashAgent.CreateDefaultDashCollection SOAP
 generated: true
 uid: Services88-Dash-CreateDefaultDashCollection
+content_type: reference
 ---
 
 # Services88 Dash CreateDefaultDashCollection

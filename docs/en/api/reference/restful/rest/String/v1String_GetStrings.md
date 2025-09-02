@@ -2,6 +2,7 @@
 title: POST String
 uid: v1String_GetStrings
 generated: true
+content_type: reference
 ---
 
 # POST String
@@ -28,8 +29,8 @@ Post the array of strings to get translations for all the strings.
 | ignoreOverrides | bool |  Ignore the user-provided overrides, and return the translation as defined by the system. |
 
 ```http
-POST /api/v1/String?isoLangCode=quam
-POST /api/v1/String?ignoreOverrides=True
+POST /api/v1/String?isoLangCode=debitis
+POST /api/v1/String?ignoreOverrides=False
 ```
 
 

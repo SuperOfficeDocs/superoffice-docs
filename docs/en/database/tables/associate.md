@@ -2,10 +2,10 @@
 uid: table-associate
 title: associate table
 description: Employees, resources and other users - except for External persons
-so.generated: true
+generated: true
 keywords: database table associate
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # associate Table (2)
@@ -84,6 +84,7 @@ Employees, resources and other users - except for External persons
 |[BatchTaskDefinition](batchtaskdefinition.md)  |Batch task definitiopns, populated from the SuperOffice.CRM.BatchProcessing.BatchTask attribute |
 |[BinaryObject](binaryobject.md)  |Binary objects, i.e., blobs. Used for images, documents, SuperOffice inbox mail  and other large binary items |
 |[BinaryObjectLink](binaryobjectlink.md)  |Link table, connects a BinaryObject with one or more owners |
+|[board\_view\_settings](board-view-settings.md)  |Settings for selection board view |
 |[Business](business.md)  |Business list table |
 |[BusinessGroupLink](businessgrouplink.md)  |User group link table for Business, for MDO item hiding |
 |[BusinessHeadingLink](businessheadinglink.md)  |Heading link table for Business, for MDO headers |
@@ -405,6 +406,7 @@ Employees, resources and other users - except for External persons
 |[UserGroupLink](usergrouplink.md)  |Link table between associate and usergroup, specifies secondary group membership. From SIX an associate may belong to more than one usergroup. Http://techdoc.superoffice.com has more information about how roles are implemented. |
 |[UserPreference](userpreference.md)  |Preference system. If deflevel is set to 5; the user may change the preferences |
 |[UserRoleLink](userrolelink.md)  |Link between user role and user |
+|[utm\_parameters](utm-parameters.md)  |Table for utm parameters collected from visits and formsubmissions |
 |[VisibleFor](visiblefor.md)  |Visible for rights, who may see this appointment/document, sale,  salehist or selection |
 |[WebAppUsage](webappusage.md)  |Usage statistics for web applications |
 |[Webhook](webhook.md)  |Webhook URL to call when events occur in the client or in NetServer. Also tracks call+error statistics. |

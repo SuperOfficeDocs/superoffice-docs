@@ -2,6 +2,7 @@
 title: Services88.UserAgent.GetServiceAuth SOAP
 generated: true
 uid: Services88-User-GetServiceAuth
+content_type: reference
 ---
 
 # Services88 User GetServiceAuth

@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetCSRegistryValue
 uid: v1ConfigurationAgent_GetCSRegistryValue
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetCSRegistryValue
@@ -68,11 +69,11 @@ OK
 POST /api/v1/Agents/Configuration/GetCSRegistryValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Entry": 555
+  "Entry": 399
 }
 ```
 
@@ -82,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"et"
+"cupiditate"
 ```

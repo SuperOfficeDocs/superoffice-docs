@@ -2,6 +2,7 @@
 title: POST Agents/Contact/GetPreviewEnrichContact
 uid: v1ContactAgent_GetPreviewEnrichContact
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Contact/GetPreviewEnrichContact
@@ -82,11 +83,11 @@ OK
 POST /api/v1/Agents/Contact/GetPreviewEnrichContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EnrichId": "atque"
+  "EnrichId": "maxime"
 }
 ```
 
@@ -97,17 +98,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 348,
-  "Name": "Okuneva Group",
+  "ContactId": 269,
+  "Name": "Ruecker-Mann",
   "Department": "",
-  "CountryId": 832,
-  "Number2": "424285",
-  "DirectPhone": "076-040-5876 x589",
+  "CountryId": 940,
+  "Number2": "1401007",
+  "DirectPhone": "1-352-073-2561 x67812",
   "URL": "http://www.example.com/",
-  "EmailAddress": "max@blockkulas.com",
+  "EmailAddress": "lenna@yundt.us",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
-  "AssociateFullName": "Clovis Adams",
+  "AssociateFullName": "Celia Katelyn White II",
   "Address": null
 }
 ```

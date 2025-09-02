@@ -2,6 +2,7 @@
 title: POST List/ProductType/Headings
 uid: v1ProductTypeList_PostProductTypeHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/ProductType/Headings
@@ -79,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 217,
-  "Name": "Lebsack, Sanford and Schuppe",
-  "Tooltip": "beatae",
-  "Deleted": true,
-  "Rank": 843,
-  "UdListDefinitionId": 1000
+  "HeadingId": 937,
+  "Name": "Morissette-Goyette",
+  "Tooltip": "cupiditate",
+  "Deleted": false,
+  "Rank": 136,
+  "UdListDefinitionId": 810
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 514,
-  "Name": "Jaskolski, Erdman and Schroeder",
-  "Tooltip": "temporibus",
+  "HeadingId": 141,
+  "Name": "Harber Inc and Sons",
+  "Tooltip": "eius",
   "Deleted": false,
-  "Rank": 441,
-  "UdListDefinitionId": 403,
+  "Rank": 991,
+  "UdListDefinitionId": 551,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 971
+      "FieldType": "System.String",
+      "FieldLength": 484
     }
   }
 }

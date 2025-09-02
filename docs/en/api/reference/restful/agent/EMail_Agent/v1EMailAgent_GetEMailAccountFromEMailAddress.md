@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetEMailAccountFromEMailAddress
 uid: v1EMailAgent_GetEMailAccountFromEMailAddress
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetEMailAccountFromEMailAddress
@@ -90,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "necessitatibus"
+  "FromAddress": "occaecati"
 }
 ```
 
@@ -101,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 464,
-  "EMailAddress": "neque",
-  "AssociateId": 161,
+  "EMailAccountId": 715,
+  "EMailAddress": "voluptas",
+  "AssociateId": 465,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 79,
-  "ErrorCount": 925,
+  "AccountStatus": 120,
+  "ErrorCount": 887,
   "ErrorReason": "",
-  "InboxFolder": "ea",
-  "SentFolder": "odit",
-  "SimpleMode": 574,
-  "LastFetch": "2024-12-17T03:45:23.4048314+01:00",
+  "InboxFolder": "quasi",
+  "SentFolder": "repellendus",
+  "SimpleMode": 917,
+  "LastFetch": "2008-06-21T03:46:54.7538824+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 634
+      "FieldLength": 505
     }
   }
 }

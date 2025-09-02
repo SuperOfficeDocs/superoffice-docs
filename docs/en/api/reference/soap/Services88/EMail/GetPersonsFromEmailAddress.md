@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.GetPersonsFromEmailAddress SOAP
 generated: true
 uid: Services88-EMail-GetPersonsFromEmailAddress
+content_type: reference
 ---
 
 # Services88 EMail GetPersonsFromEmailAddress

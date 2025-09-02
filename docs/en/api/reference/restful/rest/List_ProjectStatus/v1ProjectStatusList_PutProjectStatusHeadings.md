@@ -2,6 +2,7 @@
 title: PUT List/ProjectStatus/Headings
 uid: v1ProjectStatusList_PutProjectStatusHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProjectStatus/Headings
@@ -80,20 +81,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 564,
-    "Name": "Sipes Inc and Sons",
-    "Tooltip": "voluptatem",
+    "HeadingId": 928,
+    "Name": "Connelly Inc and Sons",
+    "Tooltip": "est",
     "Deleted": true,
-    "Rank": 835,
-    "UdListDefinitionId": 82
+    "Rank": 279,
+    "UdListDefinitionId": 792
   },
   {
-    "HeadingId": 564,
-    "Name": "Sipes Inc and Sons",
-    "Tooltip": "voluptatem",
+    "HeadingId": 928,
+    "Name": "Connelly Inc and Sons",
+    "Tooltip": "est",
     "Deleted": true,
-    "Rank": 835,
-    "UdListDefinitionId": 82
+    "Rank": 279,
+    "UdListDefinitionId": 792
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 440,
-    "Name": "Purdy, Aufderhar and Conn",
-    "Tooltip": "veniam",
-    "Deleted": true,
-    "Rank": 953,
-    "UdListDefinitionId": 538,
+    "HeadingId": 952,
+    "Name": "Robel-Gerlach",
+    "Tooltip": "ex",
+    "Deleted": false,
+    "Rank": 351,
+    "UdListDefinitionId": 220,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 245
+        "FieldLength": 414
       }
     }
   }

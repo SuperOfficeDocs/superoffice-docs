@@ -2,6 +2,7 @@
 title: Services88.SelectionAgent.EditContactSelectionMemberDetails SOAP
 generated: true
 uid: Services88-Selection-EditContactSelectionMemberDetails
+content_type: reference
 ---
 
 # Services88 Selection EditContactSelectionMemberDetails

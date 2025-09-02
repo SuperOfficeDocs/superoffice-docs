@@ -2,6 +2,7 @@
 title: POST Agents/Preference/DeletePreferences
 uid: v1PreferenceAgent_DeletePreferences
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/DeletePreferences
@@ -69,8 +70,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    946,
-    487
+    40,
+    652
   ]
 }
 ```

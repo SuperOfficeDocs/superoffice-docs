@@ -2,6 +2,7 @@
 title: GET List/QuoteDenyReason/Items/{id}/Headings
 uid: v1QuoteDenyReasonList_GetQuoteDenyReasonHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/QuoteDenyReason/Items/{id}/Headings
@@ -85,7 +86,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 219,
-    "Name": "Cummings-Torp",
-    "ToolTip": "Totam veritatis dignissimos repellat est non vero.",
+    "Id": 265,
+    "Name": "Koss-Grady",
+    "ToolTip": "Recusandae quidem qui voluptatibus et impedit sed quam.",
     "Deleted": true,
-    "Rank": 805,
-    "Type": "animi",
-    "ColorBlock": 927,
-    "IconHint": "minus",
-    "Selected": true,
-    "LastChanged": "2022-01-06T03:45:29.1859346+01:00",
+    "Rank": 463,
+    "Type": "fugit",
+    "ColorBlock": 792,
+    "IconHint": "ad",
+    "Selected": false,
+    "LastChanged": "2024-04-17T03:47:00.7692942+02:00",
     "ChildItems": [
       {
-        "Id": 10,
-        "Name": "Morissette Group",
-        "ToolTip": "Magnam sit.",
-        "Deleted": true,
-        "Rank": 743,
-        "Type": "eum",
-        "ColorBlock": 799,
-        "IconHint": "sint",
+        "Id": 472,
+        "Name": "Bednar, Schamberger and Wilkinson",
+        "ToolTip": "Et sunt ut accusantium impedit.",
+        "Deleted": false,
+        "Rank": 856,
+        "Type": "omnis",
+        "ColorBlock": 204,
+        "IconHint": "voluptatibus",
         "Selected": false,
-        "LastChanged": "2020-02-24T03:45:29.1859346+01:00",
+        "LastChanged": "2011-03-09T03:47:00.7692942+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "est",
+        "ExtraInfo": "nihil",
+        "StyleHint": "nesciunt",
         "Hidden": false,
-        "FullName": "Garry Considine",
+        "FullName": "Damion Reichert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 218
+            "FieldLength": 863
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "ipsa",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "incidunt",
     "Hidden": true,
-    "FullName": "Fatima Kuhn",
+    "FullName": "Mrs. Murray Ally Conroy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 848
+        "FieldType": "System.String",
+        "FieldLength": 473
       }
     }
   }

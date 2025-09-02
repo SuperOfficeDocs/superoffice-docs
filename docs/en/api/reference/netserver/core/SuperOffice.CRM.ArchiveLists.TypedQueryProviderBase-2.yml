@@ -65,6 +65,8 @@ items:
   - SuperOffice.CRM.ArchiveLists.Archive.QuoteLineSelectionStaticProvider
   - SuperOffice.CRM.ArchiveLists.Archive.SaleSelectionStaticProvider
   - SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionStaticProvider
+  - SuperOffice.CRM.ArchiveLists.AssignmentCompanyNotificationSubProvider
+  - SuperOffice.CRM.ArchiveLists.AssignmentPersonNotificationSubProvider
   - SuperOffice.CRM.ArchiveLists.AssociateProjectsProvider
   - SuperOffice.CRM.ArchiveLists.BatchTaskProvider
   - SuperOffice.CRM.ArchiveLists.ChatSessionProvider
@@ -73,6 +75,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ContactFavouritesProvider
   - SuperOffice.CRM.ArchiveLists.ContactProjectsProvider
   - SuperOffice.CRM.ArchiveLists.ContactProvider
+  - SuperOffice.CRM.ArchiveLists.CustomObjectFavouritesProvider
   - SuperOffice.CRM.ArchiveLists.DocumentFavouritesProvider
   - SuperOffice.CRM.ArchiveLists.DocumentQuoteLineInnerDataProvider
   - SuperOffice.CRM.ArchiveLists.DotSyntaxProvider

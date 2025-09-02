@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.GetAppointmentDocuments SOAP
 generated: true
 uid: Services88-Document-GetAppointmentDocuments
+content_type: reference
 ---
 
 # Services88 Document GetAppointmentDocuments

@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/GetAttachmentPreview
 uid: v1TicketAgent_GetAttachmentPreview
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/GetAttachmentPreview
@@ -88,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 414
+  "AttachmentId": 877
 }
 ```
 
@@ -99,31 +100,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Legros-Mosciski",
-  "MimeType": "autem",
-  "Size": 292,
+  "Name": "Feest-Connelly",
+  "MimeType": "natus",
+  "Size": 389,
   "Content": "GIF89....File contents as raw bytes...",
-  "EmailSubject": "murray@effertzankunding.us",
-  "EmailFrom": "damon@koepp.co.uk",
-  "EmailTo": "tia@lind.com",
-  "EmailCc": "jeanette.shields@willwisozk.us",
-  "EmailDate": "2024-05-01T03:45:24.1235597+02:00",
+  "EmailSubject": "charlie.kuhlman@treutel.name",
+  "EmailFrom": "jess_satterfield@hane.info",
+  "EmailTo": "grant@jewess.ca",
+  "EmailCc": "juwan.johns@halvorsonrau.name",
+  "EmailDate": "2008-06-02T03:46:55.550729+02:00",
   "EmailAttachmentsInfo": [
     {
-      "AttachmentId": 193,
-      "Name": "McClure-Weissnat",
-      "ContentType": "pariatur",
-      "AttSize": 303,
+      "AttachmentId": 447,
+      "Name": "Von-Herzog",
+      "ContentType": "distinctio",
+      "AttSize": 382,
       "InlineImage": false,
-      "ContentId": "ut",
-      "AuthKey": "eveniet",
+      "ContentId": "enim",
+      "AuthKey": "rerum",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 128
+          "FieldType": "System.Int32",
+          "FieldLength": 934
         }
       }
     }
@@ -133,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldLength": 778
     }
   }
 }

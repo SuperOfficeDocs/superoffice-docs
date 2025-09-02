@@ -2,6 +2,7 @@
 title: PUT List/Category/Items/{id}
 uid: v1CategoryList_PutCategory
 generated: true
+content_type: reference
 ---
 
 # PUT List/Category/Items/{id}
@@ -78,16 +79,16 @@ OK
 PUT /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 600,
-  "Name": "Miller-Kemmer",
-  "Tooltip": "modi",
-  "Deleted": true,
-  "UdListDefinitionId": 656,
-  "Rank": 852
+  "Id": 98,
+  "Name": "McCullough Inc and Sons",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "UdListDefinitionId": 777,
+  "Rank": 612
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 362,
-  "Name": "Friesen Group",
-  "Tooltip": "quo",
+  "Id": 465,
+  "Name": "Oberbrunner-O'Reilly",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 678,
-  "Rank": 217,
+  "UdListDefinitionId": 123,
+  "Rank": 976,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldType": "System.String",
+      "FieldLength": 680
     }
   }
 }

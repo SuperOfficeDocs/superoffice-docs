@@ -2,6 +2,7 @@
 title: GET Contact/{id}/Image
 uid: v1ContactEntity_GetImage
 generated: true
+content_type: reference
 ---
 
 # GET Contact/{id}/Image
@@ -35,9 +36,9 @@ scaled and converted to the requested type.
 | ifBlank | Enum: Default, ClearPixel, SrNoPhoto, SrNoPhotoWithBorder, Null, GenericFileIcon |  What to return if there is no picture (default = Null = 404 Error) (Default, ClearPixel, SrNoPhoto, SrNoPhotoWithBorder) |
 
 ```http
-GET /api/v1/Contact/{contactId}/Image?w=375
-GET /api/v1/Contact/{contactId}/Image?h=740
-GET /api/v1/Contact/{contactId}/Image?type=molestiae
+GET /api/v1/Contact/{contactId}/Image?w=123
+GET /api/v1/Contact/{contactId}/Image?h=993
+GET /api/v1/Contact/{contactId}/Image?type=adipisci
 GET /api/v1/Contact/{contactId}/Image?ifBlank=ClearPixel
 ```
 
@@ -74,7 +75,7 @@ An image
 GET /api/v1/Contact/{contactId}/Image
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

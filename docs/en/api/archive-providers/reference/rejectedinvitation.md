@@ -3,9 +3,9 @@ uid: RejectedInvitation
 title: RejectedInvitation
 description: This is the query provider for invitations, of subtype 'Rejected'
 keywords: RejectedInvitation archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "RejectedInvitation"
@@ -743,7 +743,7 @@ This is an optional entity and is fetched only if the user checks the correspond
 ## Sample
 
 ```http!
-GET /api/v1/archive/RejectedInvitation?$select=contact/streetAddress/line2,contact/contactUdef/SuperOffice:8,person/useAsMailingAddress,person/personAddress/wgs84longitude,person/personAssociate/lastName
+GET /api/v1/archive/RejectedInvitation?$select=contact/email/emailLastSent,contact/streetAddress/line3,person/personAssociate/usergroup,person/correspondingAssociate/locationAddress,project/hasGuide
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -2,6 +2,7 @@
 title: GET TriggerScript/default
 uid: v1TriggerScriptEntity_DefaultTriggerScriptEntity
 generated: true
+content_type: reference
 ---
 
 # GET TriggerScript/default
@@ -69,7 +70,7 @@ OK
 GET /api/v1/TriggerScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 251,
-  "Name": "Labadie, Kutch and Kirlin",
+  "ScreenChooserId": 958,
+  "Name": "Stiedemann-Dickinson",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "explicabo",
-  "Source": "aspernatur",
-  "Registered": "2000-07-17T03:45:28.7952992+02:00",
-  "RegisteredAssociateId": 753,
-  "Updated": "2023-12-28T03:45:28.7952992+01:00",
-  "UpdatedAssociateId": 769,
+  "UniqueIdentifier": "recusandae",
+  "Source": "est",
+  "Registered": "2017-01-25T03:47:00.3943072+01:00",
+  "RegisteredAssociateId": 499,
+  "Updated": "2019-06-03T03:47:00.3943072+02:00",
+  "UpdatedAssociateId": 185,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 750
+      "FieldType": "System.String",
+      "FieldLength": 786
     }
   }
 }

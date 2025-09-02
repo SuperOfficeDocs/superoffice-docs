@@ -1,6 +1,8 @@
 ---
+uid: tag-List_Country
 title: List_Country
 generated: true
+content_type: reference
 ---
 
 ```http

@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/GetDefaultMessageContentWithOptions
 uid: v1TicketAgent_GetDefaultMessageContentWithOptions
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/GetDefaultMessageContentWithOptions
@@ -76,15 +77,15 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 818,
+  "TicketId": 562,
   "MessageActionType": "Forward",
-  "TicketMessageId": 921,
-  "TicketTypeId": 166,
-  "ExcludeSignature": false
+  "TicketMessageId": 166,
+  "TicketTypeId": 776,
+  "ExcludeSignature": true
 }
 ```
 
@@ -95,23 +96,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "tempore",
+  "Body": "adipisci",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 72,
-      "Name": "Kreiger, Quigley and Hermann",
-      "ContentType": "vitae",
-      "AttSize": 501,
-      "InlineImage": false,
-      "ContentId": "et",
-      "AuthKey": "officiis",
+      "AttachmentId": 213,
+      "Name": "Ryan, Ledner and Schmitt",
+      "ContentType": "et",
+      "AttSize": 609,
+      "InlineImage": true,
+      "ContentId": "quia",
+      "AuthKey": "vero",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 656
+          "FieldLength": 217
         }
       }
     }

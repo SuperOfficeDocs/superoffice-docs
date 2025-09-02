@@ -2,6 +2,7 @@
 title: GET ChatTopic/UserAgents
 uid: v1ChatTopicEntity_GetUserAgentList
 generated: true
+content_type: reference
 ---
 
 # GET ChatTopic/UserAgents
@@ -28,8 +29,8 @@ Users with Chat-CALs from the MDO list 'chatuser'
 | onlyPresent | bool |  Only show users who are present |
 
 ```http
-GET /api/v1/ChatTopic/UserAgents?flat=False
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
+GET /api/v1/ChatTopic/UserAgents?flat=True
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
 ```
 
 
@@ -91,50 +92,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 282,
-    "Name": "Ondricka, Shields and Jenkins",
-    "ToolTip": "Voluptas error dicta.",
-    "Deleted": false,
-    "Rank": 328,
-    "Type": "quasi",
+    "Id": 774,
+    "Name": "Parker, Kerluke and Osinski",
+    "ToolTip": "Rerum et sit harum provident officia vel.",
+    "Deleted": true,
+    "Rank": 976,
+    "Type": "soluta",
     "ChildItems": [
       {
-        "Id": 306,
-        "Name": "Simonis, Mayer and Rippin",
-        "ToolTip": "Laudantium voluptatibus non labore ipsum sequi ad.",
-        "Deleted": true,
-        "Rank": 592,
-        "Type": "nihil",
+        "Id": 998,
+        "Name": "Torphy LLC",
+        "ToolTip": "Veritatis atque tenetur id vitae laudantium in commodi.",
+        "Deleted": false,
+        "Rank": 286,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 572,
-        "ExtraInfo": "nihil",
-        "StyleHint": "laboriosam",
-        "FullName": "Eloisa Thompson",
+        "IconHint": "a",
+        "ColorBlock": 820,
+        "ExtraInfo": "consectetur",
+        "StyleHint": "tempora",
+        "FullName": "Vernie Hamill",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 158
+            "FieldType": "System.String",
+            "FieldLength": 432
           }
         }
       }
     ],
-    "IconHint": "animi",
-    "ColorBlock": 215,
-    "ExtraInfo": "numquam",
-    "StyleHint": "quae",
-    "FullName": "Prof. Brandyn Kreiger",
+    "IconHint": "quo",
+    "ColorBlock": 362,
+    "ExtraInfo": "non",
+    "StyleHint": "libero",
+    "FullName": "Danyka Morar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 149
+        "FieldType": "System.String",
+        "FieldLength": 433
       }
     }
   }

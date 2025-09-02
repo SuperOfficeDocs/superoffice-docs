@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.GetDefaultMessageContentFull SOAP
 generated: true
 uid: Services88-Ticket-GetDefaultMessageContentFull
+content_type: reference
 ---
 
 # Services88 Ticket GetDefaultMessageContentFull

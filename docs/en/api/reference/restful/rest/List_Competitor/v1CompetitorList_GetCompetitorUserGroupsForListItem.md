@@ -2,6 +2,7 @@
 title: GET List/Competitor/Items/{id}/UserGroups
 uid: v1CompetitorList_GetCompetitorUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Competitor/Items/{id}/UserGroups
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 817,
-    "Name": "Hills-Ortiz",
-    "ToolTip": "Earum quos consequuntur dolore.",
-    "Deleted": false,
-    "Rank": 468,
-    "Type": "accusamus",
-    "ColorBlock": 829,
-    "IconHint": "quidem",
+    "Id": 353,
+    "Name": "Kutch-Flatley",
+    "ToolTip": "Consequatur non et veniam impedit pariatur.",
+    "Deleted": true,
+    "Rank": 249,
+    "Type": "voluptate",
+    "ColorBlock": 562,
+    "IconHint": "adipisci",
     "Selected": false,
-    "LastChanged": "2010-11-27T03:45:28.9827939+01:00",
+    "LastChanged": "2000-04-14T03:47:00.5974251+02:00",
     "ChildItems": [
       {
-        "Id": 72,
-        "Name": "Price, Schaefer and Lebsack",
-        "ToolTip": "Ea illo natus adipisci fugiat id.",
+        "Id": 419,
+        "Name": "Grant-Wilderman",
+        "ToolTip": "Tenetur impedit officiis autem mollitia.",
         "Deleted": false,
-        "Rank": 606,
-        "Type": "praesentium",
-        "ColorBlock": 647,
-        "IconHint": "rerum",
+        "Rank": 35,
+        "Type": "possimus",
+        "ColorBlock": 62,
+        "IconHint": "exercitationem",
         "Selected": false,
-        "LastChanged": "2020-06-26T03:45:28.9827939+02:00",
+        "LastChanged": "1999-01-29T03:47:00.5974251+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "nisi",
-        "Hidden": true,
-        "FullName": "Mr. Alfredo Crist",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "quae",
+        "Hidden": false,
+        "FullName": "Miss Wilbert Larry Stehr",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 758
+            "FieldType": "System.Int32",
+            "FieldLength": 230
           }
         }
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "nesciunt",
-    "Hidden": false,
-    "FullName": "Miss Jasen Bradtke",
+    "ExtraInfo": "a",
+    "StyleHint": "occaecati",
+    "Hidden": true,
+    "FullName": "Ms. Jaleel Dooley DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 754
+        "FieldLength": 385
       }
     }
   }

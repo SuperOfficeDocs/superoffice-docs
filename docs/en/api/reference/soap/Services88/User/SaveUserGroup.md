@@ -2,6 +2,7 @@
 title: Services88.UserAgent.SaveUserGroup SOAP
 generated: true
 uid: Services88-User-SaveUserGroup
+content_type: reference
 ---
 
 # Services88 User SaveUserGroup

@@ -2,6 +2,7 @@
 title: POST Agents/Quote/CreateAndSaveQuoteLines
 uid: v1QuoteAgent_CreateAndSaveQuoteLines
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/CreateAndSaveQuoteLines
@@ -69,14 +70,14 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 872,
+  "QuoteAlternativeId": 249,
   "ErpProductKeys": [
-    "nemo",
-    "sequi"
+    "a",
+    "quas"
   ]
 }
 ```
@@ -87,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-135
+339
 ```

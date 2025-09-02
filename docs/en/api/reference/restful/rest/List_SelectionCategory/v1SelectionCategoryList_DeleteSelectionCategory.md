@@ -2,6 +2,7 @@
 title: DEL List/SelectionCategory/Items/{id}
 uid: v1SelectionCategoryList_DeleteSelectionCategory
 generated: true
+content_type: reference
 ---
 
 # DEL List/SelectionCategory/Items/{id}
@@ -52,7 +53,7 @@ No Content
 DELETE /api/v1/List/SelectionCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

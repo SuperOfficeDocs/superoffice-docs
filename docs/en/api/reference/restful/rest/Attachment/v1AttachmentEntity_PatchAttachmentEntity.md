@@ -2,6 +2,7 @@
 title: PATCH Attachment/{id}
 uid: v1AttachmentEntity_PatchAttachmentEntity
 generated: true
+content_type: reference
 ---
 
 # PATCH Attachment/{id}
@@ -121,12 +122,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "eos",
+    "path": "ex",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eos",
+    "path": "ex",
     "value": {}
   }
 ]
@@ -139,25 +140,25 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 923,
-  "Name": "Bogisich LLC",
-  "ContentType": "nobis",
-  "AttSize": 213,
-  "InlineImage": false,
-  "ContentId": "totam",
-  "AuthKey": "officia",
-  "IsSafeFileExtension": true,
+  "AttachmentId": 638,
+  "Name": "Ratke-Graham",
+  "ContentType": "dolorem",
+  "AttSize": 282,
+  "InlineImage": true,
+  "ContentId": "maiores",
+  "AuthKey": "quas",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 570
+      "FieldLength": 61
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

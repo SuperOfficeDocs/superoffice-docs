@@ -2,6 +2,7 @@
 title: POST Agents/List/GetPosition
 uid: v1ListAgent_GetPosition
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetPosition
@@ -22,11 +23,11 @@ Gets a Position object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| positionId | int32 | **Required** The primary key. |
+| positionId | int32 | **Required** The identifier of the Position object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetPosition?positionId=817
+POST /api/v1/Agents/List/GetPosition?positionId=52
 POST /api/v1/Agents/List/GetPosition?$select=name,department,category/id
 ```
 
@@ -69,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetPosition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,15 +80,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 586,
-  "Value": "aut",
-  "Tooltip": "ea",
+  "Id": 449,
+  "Value": "tempora",
+  "Tooltip": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 907
+      "FieldType": "System.String",
+      "FieldLength": 74
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/CreateDefaultSystemEventEntity
 uid: v1ConfigurationAgent_CreateDefaultSystemEventEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/CreateDefaultSystemEventEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Configuration/CreateDefaultSystemEventEntity
 ```
 
-Set default values into a new SystemEventEntity.
+Loading default values into a new SystemEventEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -76,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 603,
+  "SystemEventId": 726,
   "Scope": "Database",
-  "Eta": "2004-02-27T03:45:23.0767156+01:00",
-  "Eventkey": "eos",
-  "Eventmess": "nemo",
-  "ExtraInfo": 558,
-  "Owner": 452,
-  "UpdatedCount": 162,
-  "Registered": "2010-12-28T03:45:23.0767156+01:00",
+  "Eta": "2010-12-27T03:46:54.4570178+01:00",
+  "Eventkey": "aut",
+  "Eventmess": "et",
+  "ExtraInfo": 348,
+  "Owner": 497,
+  "UpdatedCount": 495,
+  "Registered": "2007-12-28T03:46:54.4570178+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 673
+      "FieldType": "System.String",
+      "FieldLength": 533
     }
   }
 }

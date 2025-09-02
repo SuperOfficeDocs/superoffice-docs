@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetPublishedDocument
 uid: v1DocumentAgent_GetPublishedDocument
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetPublishedDocument
@@ -96,7 +97,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 242
+  "DocumentId": 866
 }
 ```
 
@@ -107,32 +108,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 601,
-  "Attention": "omnis",
-  "Header": "nisi",
-  "Name": "Dare-Torp",
-  "OurRef": "voluptatem",
-  "YourRef": "et",
-  "Description": "Advanced intermediate analyzer",
-  "DocumentTemplate": "et",
-  "IsPublished": false,
-  "PersonId": 915,
-  "PersonFullName": "Kim Daniel III",
-  "AssociateFullName": "Mrs. Laron Conroy DVM",
-  "ContactId": 326,
-  "ContactName": "Ledner, Brown and Ebert",
-  "ProjectId": 896,
-  "ProjectName": "Jacobi Group",
-  "AssociateId": 240,
-  "Snum": 426,
-  "SaleId": 116,
-  "SaleName": "Daugherty Inc and Sons",
+  "DocumentId": 15,
+  "Attention": "nam",
+  "Header": "voluptas",
+  "Name": "Jaskolski, Willms and Glover",
+  "OurRef": "ipsa",
+  "YourRef": "eaque",
+  "Description": "Cloned web-enabled migration",
+  "DocumentTemplate": "deleniti",
+  "IsPublished": true,
+  "PersonId": 272,
+  "PersonFullName": "Miss Patsy Cierra Wunsch Sr.",
+  "AssociateFullName": "Wellington Zakary Cassin Jr.",
+  "ContactId": 329,
+  "ContactName": "Skiles Group",
+  "ProjectId": 904,
+  "ProjectName": "Tremblay Group",
+  "AssociateId": 23,
+  "Snum": 351,
+  "SaleId": 34,
+  "SaleName": "Balistreri, Renner and Terry",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 1002
+      "FieldType": "System.String",
+      "FieldLength": 432
     }
   }
 }

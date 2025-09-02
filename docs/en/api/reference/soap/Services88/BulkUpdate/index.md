@@ -2,6 +2,7 @@
 title: Services88.BulkUpdateAgent SOAP
 uid: Services88-BulkUpdate-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 BulkUpdate SOAP

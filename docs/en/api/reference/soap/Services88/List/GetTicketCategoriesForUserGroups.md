@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetTicketCategoriesForUserGroups SOAP
 generated: true
 uid: Services88-List-GetTicketCategoriesForUserGroups
+content_type: reference
 ---
 
 # Services88 List GetTicketCategoriesForUserGroups

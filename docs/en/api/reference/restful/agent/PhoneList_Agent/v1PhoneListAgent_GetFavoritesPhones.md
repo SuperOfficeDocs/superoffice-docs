@@ -2,6 +2,7 @@
 title: POST Agents/PhoneList/GetFavoritesPhones
 uid: v1PhoneListAgent_GetFavoritesPhones
 generated: true
+content_type: reference
 ---
 
 # POST Agents/PhoneList/GetFavoritesPhones
@@ -74,7 +75,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,22 +86,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "974-684-5574 x2690",
-    "PersonCellPhone": "337-142-0660",
-    "PersonPrivatePhone": "304-419-7560 x174",
-    "PersonFaxNumber": "987123",
-    "PersonPagerNumber": "1609074",
-    "PersonEmail": "ole@kihn.us",
-    "Id": 658,
-    "Name": "Walker LLC",
-    "Tooltip": "officiis",
-    "UniqueId": "tempore",
+    "PersonDirectPhone": "1-296-367-9016 x49076",
+    "PersonCellPhone": "(103)436-5493 x0747",
+    "PersonPrivatePhone": "(037)946-7715 x23930",
+    "PersonFaxNumber": "229777",
+    "PersonPagerNumber": "1190725",
+    "PersonEmail": "lesly.vonrueden@schaden.com",
+    "Id": 29,
+    "Name": "Wolff-Pacocha",
+    "Tooltip": "expedita",
+    "UniqueId": "minus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 438
+        "FieldType": "System.String",
+        "FieldLength": 178
       }
     }
   }

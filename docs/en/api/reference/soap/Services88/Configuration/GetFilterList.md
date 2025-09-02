@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.GetFilterList SOAP
 generated: true
 uid: Services88-Configuration-GetFilterList
+content_type: reference
 ---
 
 # Services88 Configuration GetFilterList

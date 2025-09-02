@@ -2,6 +2,7 @@
 title: POST Agents/BLOB/GetBlobEntityOnContact
 uid: v1BLOBAgent_GetBlobEntityOnContact
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BLOB/GetBlobEntityOnContact
@@ -85,11 +86,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 585
+  "ContactId": 454
 }
 ```
 
@@ -100,25 +101,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 350,
-  "BlobSize": 815,
-  "Description": "Business-focused national structure",
-  "ExtraInfo": "praesentium",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "porro",
-  "OriginalSize": 166,
-  "CreatedDate": "2014-01-29T03:45:22.9985914+01:00",
-  "UpdatedDate": "2020-02-11T03:45:22.9985914+01:00",
+  "BlobId": 931,
+  "BlobSize": 487,
+  "Description": "Synergistic regional pricing structure",
+  "ExtraInfo": "laudantium",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "necessitatibus",
+  "OriginalSize": 610,
+  "CreatedDate": "2024-06-08T03:46:54.3163903+02:00",
+  "UpdatedDate": "2015-08-08T03:46:54.3163903+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quod",
+  "ConceptualType": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 918
+      "FieldLength": 269
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Services88.SaintAgent.CreateDefaultStatusMonitorPeriods SOAP
 generated: true
 uid: Services88-Saint-CreateDefaultStatusMonitorPeriods
+content_type: reference
 ---
 
 # Services88 Saint CreateDefaultStatusMonitorPeriods

@@ -2,6 +2,7 @@
 title: PUT List/ProjectType/Items/{id}/Headings
 uid: v1ProjectTypeList_PutProjectTypeHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProjectType/Items/{id}/Headings
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 693,
-    "Name": "Stoltenberg LLC",
-    "ToolTip": "Molestiae labore.",
+    "Id": 880,
+    "Name": "Bruen, Hermann and Torp",
+    "ToolTip": "Fugit similique est.",
     "Deleted": false,
-    "Rank": 576,
-    "Type": "dolorem",
-    "ColorBlock": 613,
-    "IconHint": "ut",
+    "Rank": 98,
+    "Type": "eos",
+    "ColorBlock": 358,
+    "IconHint": "quidem",
     "Selected": false,
-    "LastChanged": "2008-09-19T03:45:29.1703077+02:00",
+    "LastChanged": "2024-12-14T03:47:00.7536695+01:00",
     "ChildItems": [
       {
-        "Id": 363,
-        "Name": "Boehm Group",
-        "ToolTip": "Debitis tempora et adipisci alias totam.",
+        "Id": 450,
+        "Name": "Koepp-Schneider",
+        "ToolTip": "Praesentium architecto sit velit.",
         "Deleted": false,
-        "Rank": 356,
-        "Type": "sunt",
-        "ColorBlock": 44,
-        "IconHint": "architecto",
-        "Selected": false,
-        "LastChanged": "2025-03-16T03:45:29.1703077+01:00",
+        "Rank": 89,
+        "Type": "est",
+        "ColorBlock": 309,
+        "IconHint": "occaecati",
+        "Selected": true,
+        "LastChanged": "2017-07-06T03:47:00.7536695+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "vel",
-        "Hidden": true,
-        "FullName": "Dr. Vanessa Dandre Schimmel"
+        "ExtraInfo": "culpa",
+        "StyleHint": "magnam",
+        "Hidden": false,
+        "FullName": "Kailyn Stokes"
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Waino Gerhold Sr."
+    "ExtraInfo": "eum",
+    "StyleHint": "accusantium",
+    "Hidden": true,
+    "FullName": "Kelton Barton"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 932,
-    "Name": "Harber-Rohan",
-    "ToolTip": "Perferendis distinctio aliquid a qui quaerat nam ut.",
-    "Deleted": true,
-    "Rank": 180,
-    "Type": "corporis",
-    "ColorBlock": 313,
-    "IconHint": "cumque",
+    "Id": 357,
+    "Name": "Lind-Robel",
+    "ToolTip": "Voluptas est saepe id impedit error.",
+    "Deleted": false,
+    "Rank": 36,
+    "Type": "voluptatum",
+    "ColorBlock": 34,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2013-08-15T03:45:29.1703077+02:00",
+    "LastChanged": "2014-03-22T03:47:00.7536695+01:00",
     "ChildItems": [
       {
-        "Id": 405,
-        "Name": "Auer, Barrows and Schaefer",
-        "ToolTip": "Omnis voluptas.",
-        "Deleted": false,
-        "Rank": 602,
-        "Type": "qui",
-        "ColorBlock": 155,
-        "IconHint": "voluptatem",
+        "Id": 736,
+        "Name": "Jakubowski Group",
+        "ToolTip": "Non voluptatem.",
+        "Deleted": true,
+        "Rank": 458,
+        "Type": "incidunt",
+        "ColorBlock": 626,
+        "IconHint": "ipsum",
         "Selected": false,
-        "LastChanged": "2025-01-09T03:45:29.1703077+01:00",
+        "LastChanged": "2017-12-04T03:47:00.7536695+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "exercitationem",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "cupiditate",
         "Hidden": false,
-        "FullName": "Jermaine Kohler",
+        "FullName": "Ozella Hermann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 653
+            "FieldType": "System.Int32",
+            "FieldLength": 467
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "dolores",
-    "Hidden": true,
-    "FullName": "Lori Ullrich",
+    "ExtraInfo": "quo",
+    "StyleHint": "consequatur",
+    "Hidden": false,
+    "FullName": "Austin Brown",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 871
+        "FieldType": "System.Int32",
+        "FieldLength": 756
       }
     }
   }

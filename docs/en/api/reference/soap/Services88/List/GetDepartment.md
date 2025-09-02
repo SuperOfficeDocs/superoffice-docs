@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetDepartment SOAP
 generated: true
 uid: Services88-List-GetDepartment
+content_type: reference
 ---
 
 # Services88 List GetDepartment

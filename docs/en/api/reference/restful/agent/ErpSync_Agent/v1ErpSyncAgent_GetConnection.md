@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/GetConnection
 uid: v1ErpSyncAgent_GetConnection
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/GetConnection
@@ -86,11 +87,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 519
+  "ErpConnectionId": 10
 }
 ```
 
@@ -101,33 +102,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 404,
-  "ErpConnectorId": 177,
-  "DisplayName": "Mills, Kovacek and Kovacek",
-  "DisplayDescription": "Customizable local array",
-  "Active": true,
-  "ConnectionId": "eum",
-  "MostRecentTimestamp": "doloremque",
+  "ErpConnectionId": 218,
+  "ErpConnectorId": 45,
+  "DisplayName": "Gulgowski, Runolfsson and Kertzmann",
+  "DisplayDescription": "User-centric high-level process improvement",
+  "Active": false,
+  "ConnectionId": "cumque",
+  "MostRecentTimestamp": "at",
   "ConfigFields": {
-    "ConfigFields1": "qui",
-    "ConfigFields2": "quia"
+    "ConfigFields1": "numquam",
+    "ConfigFields2": "in"
   },
   "Deleted": false,
-  "AllAccess": false,
+  "AllAccess": true,
   "UserGroupAccessIds": [
-    392,
-    155
+    487,
+    441
   ],
   "AssociateAccessIds": [
-    889,
-    522
+    394,
+    386
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 627
+      "FieldType": "System.String",
+      "FieldLength": 589
     }
   }
 }

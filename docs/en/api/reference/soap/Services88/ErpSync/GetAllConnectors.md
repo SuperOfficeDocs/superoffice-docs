@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.GetAllConnectors SOAP
 generated: true
 uid: Services88-ErpSync-GetAllConnectors
+content_type: reference
 ---
 
 # Services88 ErpSync GetAllConnectors

@@ -2,10 +2,10 @@
 uid: table-kb_solution_finder_entry
 title: kb_solution_finder_entry table
 description: Knowledge base problem solving wizard, items in a category linking to a knowledge base entry
-so.generated: true
+generated: true
 keywords: database table kb_solution_finder_entry
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # kb\_solution\_finder\_entry Table (295)

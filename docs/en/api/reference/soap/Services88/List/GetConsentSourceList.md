@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetConsentSourceList SOAP
 generated: true
 uid: Services88-List-GetConsentSourceList
+content_type: reference
 ---
 
 # Services88 List GetConsentSourceList

@@ -2,6 +2,7 @@
 title: Services88.FindAgent.GetDefaultDesiredColumnsFromRestrictions SOAP
 generated: true
 uid: Services88-Find-GetDefaultDesiredColumnsFromRestrictions
+content_type: reference
 ---
 
 # Services88 Find GetDefaultDesiredColumnsFromRestrictions

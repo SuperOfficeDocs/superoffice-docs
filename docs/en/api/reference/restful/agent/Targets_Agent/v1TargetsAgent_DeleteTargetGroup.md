@@ -2,6 +2,7 @@
 title: POST Agents/Targets/DeleteTargetGroup
 uid: v1TargetsAgent_DeleteTargetGroup
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Targets/DeleteTargetGroup
@@ -22,10 +23,10 @@ Deletes the TargetGroup
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| TargetGroupId | int32 | **Required** The id of the TargetGroup to be deleted. |
+| targetGroupId | int32 | **Required** The identity of the TargetGroup |
 
 ```http
-POST /api/v1/Agents/Targets/DeleteTargetGroup?TargetGroupId=572
+POST /api/v1/Agents/Targets/DeleteTargetGroup?targetGroupId=996
 ```
 
 
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/Targets/DeleteTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

@@ -2,6 +2,7 @@
 title: PATCH DashTileDefinition/{id}
 uid: v1DashTileDefinition_PatchDashTileDefinition
 generated: true
+content_type: reference
 ---
 
 # PATCH DashTileDefinition/{id}
@@ -132,12 +133,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "repellat",
+    "path": "illo",
     "value": {}
   },
   {
     "op": "add",
-    "path": "repellat",
+    "path": "illo",
     "value": {}
   }
 ]
@@ -150,36 +151,36 @@ HTTP/1.1 200 DashTileDefinition  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 77,
-  "Name": "Rippin-Langosh",
-  "Description": "Customer-focused content-based internet solution",
-  "DefaultHeight": 242,
-  "DefaultWidth": 970,
+  "DashboardTileDefinitionId": 309,
+  "Name": "Gorczany-Stark",
+  "Description": "Synchronised attitude-oriented interface",
+  "DefaultHeight": 591,
+  "DefaultWidth": 309,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Brakus, Lebsack and Hermiston",
-  "SelectionId": 785,
+  "EntityName": "Mann Group",
+  "SelectionId": 253,
   "CurrencyMode": "Base",
-  "CurrencyCode": "sed",
+  "CurrencyCode": "facilis",
   "Measure": "Average",
-  "MeasureField": "aut",
-  "SortBy": "rerum",
-  "LayoutConfig": "numquam",
-  "SecondarySelectionId": 873,
-  "MeasureByField": "quaerat",
+  "MeasureField": "minima",
+  "SortBy": "eveniet",
+  "LayoutConfig": "praesentium",
+  "SecondarySelectionId": 14,
+  "MeasureByField": "est",
   "Usage": "Dashboard",
-  "ProviderName": "Sporer-Buckridge",
+  "ProviderName": "Langosh Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 294
+      "FieldLength": 468
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

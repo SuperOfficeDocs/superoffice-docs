@@ -2,6 +2,7 @@
 title: POST Agents/Sale/SetAsLostWithReason
 uid: v1SaleAgent_SetAsLostWithReason
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/SetAsLostWithReason
@@ -67,15 +68,15 @@ No Content
 POST /api/v1/Agents/Sale/SetAsLostWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleIds": [
-    808,
-    911
+    143,
+    898
   ],
-  "ReasonId": 902
+  "ReasonId": 739
 }
 ```
 

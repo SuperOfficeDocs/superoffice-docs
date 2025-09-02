@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-Find
 title: Services88.FindAgent WSDL
+content_type: reference
 ---
 
 # Services88.FindAgent WSDL

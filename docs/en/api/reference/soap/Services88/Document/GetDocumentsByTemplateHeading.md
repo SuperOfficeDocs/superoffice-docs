@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.GetDocumentsByTemplateHeading SOAP
 generated: true
 uid: Services88-Document-GetDocumentsByTemplateHeading
+content_type: reference
 ---
 
 # Services88 Document GetDocumentsByTemplateHeading

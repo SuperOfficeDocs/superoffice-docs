@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/GetErpSyncConnectionSummary
 uid: v1ErpSyncAgent_GetErpSyncConnectionSummary
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/GetErpSyncConnectionSummary
@@ -80,11 +81,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 408
+  "ErpSyncConnectionId": 989
 }
 ```
 
@@ -95,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Schuster-Kris",
-  "DisplayDescription": "Optimized even-keeled encryption",
+  "DisplayName": "Aufderhar-Torphy",
+  "DisplayDescription": "Sharable foreground instruction set",
   "Active": false,
-  "Deleted": true,
-  "LastSync": "2016-11-21T03:45:23.4517052+01:00",
+  "Deleted": false,
+  "LastSync": "2012-11-20T03:46:54.8007556+01:00",
   "Actors": [
     {
       "ActorType": "Customer",
-      "HasMappings": true,
-      "Defaults": "tenetur",
-      "Mappings": "id",
+      "HasMappings": false,
+      "Defaults": "laudantium",
+      "Mappings": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 147
+          "FieldLength": 601
         }
       }
     },
     {
       "ActorType": "Customer",
-      "HasMappings": true,
-      "Defaults": "tenetur",
-      "Mappings": "id",
+      "HasMappings": false,
+      "Defaults": "laudantium",
+      "Mappings": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 147
+          "FieldLength": 601
         }
       }
     }
@@ -135,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 670
+      "FieldLength": 65
     }
   }
 }

@@ -3,9 +3,9 @@ uid: Activity
 title: Activity
 description: Activity archive provider that performs no filtering. This archive is not present anywhere in the standard six.web GUI.
 keywords: Activity archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "Activity"
@@ -769,7 +769,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 ## Sample
 
 ```http!
-GET /api/v1/archive/Activity?$select=contact/postAddress/formattedAddress,contact/contactAssociate/mrMrs,endDate
+GET /api/v1/archive/Activity?$select=person/birthdate,person/personAddress/line2,person/personUdef/SuperOffice:8,contact/contactAssociate/userName,sale/updatedByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

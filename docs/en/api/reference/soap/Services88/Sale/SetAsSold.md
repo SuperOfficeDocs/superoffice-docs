@@ -2,6 +2,7 @@
 title: Services88.SaleAgent.SetAsSold SOAP
 generated: true
 uid: Services88-Sale-SetAsSold
+content_type: reference
 ---
 
 # Services88 Sale SetAsSold

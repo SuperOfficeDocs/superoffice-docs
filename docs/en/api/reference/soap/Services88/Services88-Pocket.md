@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-Pocket
 title: Services88.PocketAgent WSDL
+content_type: reference
 ---
 
 # Services88.PocketAgent WSDL

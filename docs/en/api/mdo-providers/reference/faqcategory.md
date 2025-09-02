@@ -3,9 +3,9 @@ uid: faqcategory
 title: faqcategory
 keywords: mdoprovider mdo provider faqcategory
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "faqcategory" MDO List

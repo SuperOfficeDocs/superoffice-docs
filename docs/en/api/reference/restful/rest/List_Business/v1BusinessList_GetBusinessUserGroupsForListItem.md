@@ -2,6 +2,7 @@
 title: GET List/Business/Items/{id}/UserGroups
 uid: v1BusinessList_GetBusinessUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Business/Items/{id}/UserGroups
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 913,
-    "Name": "Gaylord LLC",
-    "ToolTip": "Qui debitis nihil quaerat.",
+    "Id": 766,
+    "Name": "Medhurst, Bernhard and Franecki",
+    "ToolTip": "Nostrum eum pariatur dolorem perferendis.",
     "Deleted": false,
-    "Rank": 280,
-    "Type": "similique",
-    "ColorBlock": 927,
-    "IconHint": "aliquam",
+    "Rank": 399,
+    "Type": "autem",
+    "ColorBlock": 661,
+    "IconHint": "ab",
     "Selected": false,
-    "LastChanged": "2020-07-06T03:45:28.9671778+02:00",
+    "LastChanged": "2011-03-15T03:47:00.5818006+01:00",
     "ChildItems": [
       {
-        "Id": 607,
-        "Name": "Ledner, Homenick and Simonis",
-        "ToolTip": "Aperiam quas sunt.",
+        "Id": 260,
+        "Name": "Will-Labadie",
+        "ToolTip": "Ipsam illum et sunt dicta consequatur repudiandae quidem.",
         "Deleted": false,
-        "Rank": 485,
-        "Type": "ipsum",
-        "ColorBlock": 485,
-        "IconHint": "assumenda",
+        "Rank": 695,
+        "Type": "qui",
+        "ColorBlock": 273,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2004-01-29T03:45:28.9671778+01:00",
+        "LastChanged": "2000-12-05T03:47:00.5818006+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "ipsam",
-        "Hidden": false,
-        "FullName": "Miss Earnest Ryan IV",
+        "ExtraInfo": "ut",
+        "StyleHint": "quod",
+        "Hidden": true,
+        "FullName": "Edmund Kessler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 676
+            "FieldLength": 979
           }
         }
       }
     ],
-    "ExtraInfo": "iusto",
-    "StyleHint": "quaerat",
+    "ExtraInfo": "sit",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Mr. Jeramy Schamberger DDS",
+    "FullName": "Bartholome Kling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 959
+        "FieldLength": 327
       }
     }
   }

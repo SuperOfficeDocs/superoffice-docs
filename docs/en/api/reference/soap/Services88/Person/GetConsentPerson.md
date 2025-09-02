@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.GetConsentPerson SOAP
 generated: true
 uid: Services88-Person-GetConsentPerson
+content_type: reference
 ---
 
 # Services88 Person GetConsentPerson
@@ -90,7 +91,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Person:Key xsi:type="xsd:string"></Person:Key>
      <Person:Tooltip xsi:type="xsd:string"></Person:Tooltip>
      <Person:Active xsi:type="xsd:short">0</Person:Active>
-     <Person:UpdatedDate xsi:type="xsd:dateTime">2025-06-26T01:44:20Z</Person:UpdatedDate>
+     <Person:UpdatedDate xsi:type="xsd:dateTime">2025-08-30T01:45:52Z</Person:UpdatedDate>
      <Person:UpdatedBy xsi:type="Person:Associate">
       <Person:AssociateId xsi:type="xsd:int">0</Person:AssociateId>
       <Person:Name xsi:type="xsd:string"></Person:Name>
@@ -104,6 +105,18 @@ Application tokens must be specified if calling an Online installation. Applicat
       <Person:Deleted xsi:type="xsd:boolean">false</Person:Deleted>
       <Person:EjUserId xsi:type="xsd:int">0</Person:EjUserId>
       <Person:UserName xsi:type="xsd:string"></Person:UserName>
+      <Person:ExtraFields xsi:type="Person:StringDictionary">
+       <Person:StringKeyValuePair>
+        <Person:Key xsi:type="xsd:string"></Person:Key>
+        <Person:Value xsi:type="xsd:string"></Person:Value>
+       </Person:StringKeyValuePair>
+      </Person:ExtraFields>
+      <Person:CustomFields xsi:type="Person:StringDictionary">
+       <Person:StringKeyValuePair>
+        <Person:Key xsi:type="xsd:string"></Person:Key>
+        <Person:Value xsi:type="xsd:string"></Person:Value>
+       </Person:StringKeyValuePair>
+      </Person:CustomFields>
      </Person:UpdatedBy>
      <Person:Deleted xsi:type="xsd:boolean">false</Person:Deleted>
      <Person:Rank xsi:type="xsd:short">0</Person:Rank>

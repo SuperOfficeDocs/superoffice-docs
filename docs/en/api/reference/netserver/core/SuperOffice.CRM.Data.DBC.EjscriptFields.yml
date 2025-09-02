@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.Data
   children:
   - SuperOffice.CRM.Data.DBC.EjscriptFields.AccessKey
+  - SuperOffice.CRM.Data.DBC.EjscriptFields.BlockedVerbs
   - SuperOffice.CRM.Data.DBC.EjscriptFields.Body
   - SuperOffice.CRM.Data.DBC.EjscriptFields.Description
   - SuperOffice.CRM.Data.DBC.EjscriptFields.EjscriptId
@@ -514,6 +515,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const SourceMaps As String = "source_maps"
+- uid: SuperOffice.CRM.Data.DBC.EjscriptFields.BlockedVerbs
+  commentId: F:SuperOffice.CRM.Data.DBC.EjscriptFields.BlockedVerbs
+  id: BlockedVerbs
+  parent: SuperOffice.CRM.Data.DBC.EjscriptFields
+  langs:
+  - csharp
+  - vb
+  name: BlockedVerbs
+  nameWithType: DBC.EjscriptFields.BlockedVerbs
+  fullName: SuperOffice.CRM.Data.DBC.EjscriptFields.BlockedVerbs
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Ejscript.BlockedVerbs: The verbs that are blocked when calling a ejscript over HTTP'
+  example: []
+  syntax:
+    content: public const string BlockedVerbs = "blocked_verbs"
+    return:
+      type: System.String
+    content.vb: Public Const BlockedVerbs As String = "blocked_verbs"
 references:
 - uid: SuperOffice.CRM.Data
   commentId: N:SuperOffice.CRM.Data

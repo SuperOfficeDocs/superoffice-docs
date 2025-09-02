@@ -58,6 +58,8 @@ items:
   - SuperOffice.Data.EventHandlerType.SalesBeforeSaveStakeholder
   - SuperOffice.Data.EventHandlerType.SalesBeforeSaveTicket
   - SuperOffice.Data.EventHandlerType.SalesLoadCustomObject
+  - SuperOffice.Data.EventHandlerType.SalesLoadTicket
+  - SuperOffice.Data.EventHandlerType.SalesLoadTicketMessage
   - SuperOffice.Data.EventHandlerType.SalesSplitTicket
   - SuperOffice.Data.EventHandlerType.ScheduledTaskFailed
   - SuperOffice.Data.EventHandlerType.ServiceScreenAddMessageAfterSubmit
@@ -126,11 +128,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")]
 
       public enum EventHandlerType
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")>
 
       Public Enum EventHandlerType
   extensionMethods:
@@ -146,7 +148,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.2.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.3.0.0
 - uid: SuperOffice.Data.EventHandlerType.Unknown
   commentId: F:SuperOffice.Data.EventHandlerType.Unknown
   id: Unknown
@@ -3460,6 +3462,68 @@ items:
       <EnumMember>
 
       SalesSplitTicket = 1019
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.EventHandlerType.SalesLoadTicket
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesLoadTicket
+  id: SalesLoadTicket
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesLoadTicket
+  nameWithType: EventHandlerType.SalesLoadTicket
+  fullName: SuperOffice.Data.EventHandlerType.SalesLoadTicket
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '1020: SalesLoadTicket'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      SalesLoadTicket = 1020
+    return:
+      type: SuperOffice.Data.EventHandlerType
+    content.vb: >-
+      <EnumMember>
+
+      SalesLoadTicket = 1020
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.EventHandlerType.SalesLoadTicketMessage
+  commentId: F:SuperOffice.Data.EventHandlerType.SalesLoadTicketMessage
+  id: SalesLoadTicketMessage
+  parent: SuperOffice.Data.EventHandlerType
+  langs:
+  - csharp
+  - vb
+  name: SalesLoadTicketMessage
+  nameWithType: EventHandlerType.SalesLoadTicketMessage
+  fullName: SuperOffice.Data.EventHandlerType.SalesLoadTicketMessage
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '1021: SalesLoadTicketMessage'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      SalesLoadTicketMessage = 1021
+    return:
+      type: SuperOffice.Data.EventHandlerType
+    content.vb: >-
+      <EnumMember>
+
+      SalesLoadTicketMessage = 1021
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

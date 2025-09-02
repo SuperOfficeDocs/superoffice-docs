@@ -2,10 +2,10 @@
 uid: enum-scripttype
 title: Enum values for ScriptType
 description: Lists the enum values for ScriptType.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ScriptType Enum

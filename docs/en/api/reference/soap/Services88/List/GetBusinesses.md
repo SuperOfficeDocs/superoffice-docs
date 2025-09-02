@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetBusinesses SOAP
 generated: true
 uid: Services88-List-GetBusinesses
+content_type: reference
 ---
 
 # Services88 List GetBusinesses

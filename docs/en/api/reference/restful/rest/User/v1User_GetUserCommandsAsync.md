@@ -2,6 +2,7 @@
 title: GET User/{id}/CustomCommand
 uid: v1User_GetUserCommandsAsync
 generated: true
+content_type: reference
 ---
 
 # GET User/{id}/CustomCommand

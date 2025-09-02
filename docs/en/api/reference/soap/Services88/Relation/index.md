@@ -2,6 +2,7 @@
 title: Services88.RelationAgent SOAP
 uid: Services88-Relation-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Relation SOAP

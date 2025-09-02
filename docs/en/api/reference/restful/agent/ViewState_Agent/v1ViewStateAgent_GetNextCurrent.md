@@ -2,6 +2,7 @@
 title: POST Agents/ViewState/GetNextCurrent
 uid: v1ViewStateAgent_GetNextCurrent
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ViewState/GetNextCurrent
@@ -82,12 +83,12 @@ OK
 POST /api/v1/Agents/ViewState/GetNextCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Satterfield-Hyatt",
-  "Id": 839
+  "HistoryName": "Stoltenberg-Funk",
+  "Id": 536
 }
 ```
 
@@ -98,19 +99,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 485,
-  "Id": 544,
-  "HistoryName": "Waters Group",
-  "HistoryId": 287,
-  "AssociateId": 964,
-  "Name": "Schuppe, O'Hara and Kuhlman",
-  "ItemInfo": "iusto",
+  "Rank": 598,
+  "Id": 306,
+  "HistoryName": "Herman-Weber",
+  "HistoryId": 708,
+  "AssociateId": 28,
+  "Name": "Flatley-Price",
+  "ItemInfo": "eaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 586
+      "FieldType": "System.Int32",
+      "FieldLength": 877
     }
   }
 }

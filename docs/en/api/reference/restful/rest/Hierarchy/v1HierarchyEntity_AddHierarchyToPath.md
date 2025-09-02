@@ -2,6 +2,7 @@
 title: POST Hierarchy/{domain}/{path}
 uid: v1HierarchyEntity_AddHierarchyToPath
 generated: true
+content_type: reference
 ---
 
 # POST Hierarchy/{domain}/{path}
@@ -74,7 +75,7 @@ OK
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,46 +85,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 641,
+  "HierarchyId": 560,
   "Domain": "Dashboards",
-  "Name": "Ankunding-Glover",
-  "Fullname": "tempora",
-  "ParentId": 790,
+  "Name": "Stamm-McLaughlin",
+  "Fullname": "animi",
+  "ParentId": 237,
   "Children": [
     {
-      "HierarchyId": 775,
+      "HierarchyId": 607,
       "Domain": "Dashboards",
-      "Name": "Brakus, Kub and Rodriguez",
-      "Fullname": "et",
-      "ParentId": 522,
+      "Name": "Fisher, Heller and Howe",
+      "Fullname": "minima",
+      "ParentId": 273,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2016-11-12T03:45:28.3734363+01:00",
-      "RegisteredAssociateId": 596,
-      "Updated": "2018-10-05T03:45:28.3734363+02:00",
-      "UpdatedAssociateId": 663,
+      "Registered": "2007-08-28T03:47:00.0349452+02:00",
+      "RegisteredAssociateId": 910,
+      "Updated": "2013-07-21T03:47:00.0349452+02:00",
+      "UpdatedAssociateId": 771,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 388
+          "FieldType": "System.String",
+          "FieldLength": 929
         }
       }
     }
   ],
-  "Registered": "2000-06-21T03:45:28.3734363+02:00",
-  "RegisteredAssociateId": 521,
-  "Updated": "2018-09-09T03:45:28.3734363+02:00",
-  "UpdatedAssociateId": 705,
+  "Registered": "2019-11-15T03:47:00.0349452+01:00",
+  "RegisteredAssociateId": 110,
+  "Updated": "2001-11-07T03:47:00.0349452+01:00",
+  "UpdatedAssociateId": 615,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 588
+      "FieldLength": 871
     }
   }
 }

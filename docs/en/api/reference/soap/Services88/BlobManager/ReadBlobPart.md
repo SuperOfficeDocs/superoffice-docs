@@ -2,6 +2,7 @@
 title: Services88.BlobManagerAgent.ReadBlobPart SOAP
 generated: true
 uid: Services88-BlobManager-ReadBlobPart
+content_type: reference
 ---
 
 # Services88 BlobManager ReadBlobPart

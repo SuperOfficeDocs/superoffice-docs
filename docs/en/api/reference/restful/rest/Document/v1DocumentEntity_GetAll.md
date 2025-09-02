@@ -2,6 +2,7 @@
 title: GET Document
 uid: v1DocumentEntity_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET Document
@@ -70,14 +71,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Document?$select=name,department,category/id
 GET /api/v1/Document?$filter=name begins 'S'
 GET /api/v1/Document?$orderBy=name asc
-GET /api/v1/Document?$entities=voluptates
-GET /api/v1/Document?$top=396
-GET /api/v1/Document?$skip=396
+GET /api/v1/Document?$entities=velit
+GET /api/v1/Document?$top=205
+GET /api/v1/Document?$skip=536
 GET /api/v1/Document?$mode=Full
 GET /api/v1/Document?$options=GrandTotal=true
-GET /api/v1/Document?$context=vitae
+GET /api/v1/Document?$context=optio
 GET /api/v1/Document?$format=JSON
-GET /api/v1/Document?$jsonSafe=False
+GET /api/v1/Document?$jsonSafe=True
 GET /api/v1/Document?$output=Display
 ```
 
@@ -129,19 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "numquam",
+  "odata.nextLink": "rerum",
   "value": [
     {
-      "PrimaryKey": 1176,
-      "EntityName": "person",
-      "personId": 1176,
-      "fullName": "Raul Roy Bode Sr."
+      "PrimaryKey": 2221,
+      "EntityName": "sale",
+      "saleId": 2221,
+      "contactId": 220,
+      "name": "Dare-Emard"
     },
     {
-      "PrimaryKey": 3028,
-      "EntityName": "person",
-      "personId": 3028,
-      "fullName": "Howard Windler"
+      "PrimaryKey": 7648,
+      "EntityName": "sale",
+      "saleId": 7648,
+      "contactId": 135,
+      "name": "Baumbach-Harvey"
     }
   ]
 }

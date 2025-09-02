@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetNextSuggestedAppointmentBySale
 uid: v1AppointmentAgent_GetNextSuggestedAppointmentBySale
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetNextSuggestedAppointmentBySale
@@ -88,13 +89,13 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 780,
-  "CurrentAppointmentId": 813,
-  "SkipCompleteCheck": false
+  "SaleId": 392,
+  "CurrentAppointmentId": 276,
+  "SkipCompleteCheck": true
 }
 ```
 
@@ -105,26 +106,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 948,
-  "Deleted": 405,
-  "DaysFuture": 640,
-  "Tooltip": "et",
-  "Text": "ea",
-  "TaskId": 36,
-  "SuggestedAppointmentId": 661,
-  "SaleTypeStageLinkId": 831,
-  "RegisteredAssociateId": 420,
-  "Rank": 553,
-  "ProjectTypeStatusLinkId": 299,
-  "Name": "Herzog LLC",
-  "Duration": 904,
+  "AutoSuggest": 149,
+  "Deleted": 318,
+  "DaysFuture": 788,
+  "Tooltip": "quaerat",
+  "Text": "et",
+  "TaskId": 857,
+  "SuggestedAppointmentId": 117,
+  "SaleTypeStageLinkId": 827,
+  "RegisteredAssociateId": 293,
+  "Rank": 314,
+  "ProjectTypeStatusLinkId": 305,
+  "Name": "Pollich Group",
+  "Duration": 308,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 251
+      "FieldLength": 51
     }
   }
 }

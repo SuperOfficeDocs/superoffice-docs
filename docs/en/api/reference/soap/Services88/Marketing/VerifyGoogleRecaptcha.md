@@ -2,6 +2,7 @@
 title: Services88.MarketingAgent.VerifyGoogleRecaptcha SOAP
 generated: true
 uid: Services88-Marketing-VerifyGoogleRecaptcha
+content_type: reference
 ---
 
 # Services88 Marketing VerifyGoogleRecaptcha

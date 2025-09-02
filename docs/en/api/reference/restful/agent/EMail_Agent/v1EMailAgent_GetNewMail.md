@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetNewMail
 uid: v1EMailAgent_GetNewMail
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetNewMail
@@ -84,13 +85,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    952,
-    769
+    655,
+    698
   ]
 }
 ```
@@ -103,45 +104,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 67,
-    "MessageId": "magni",
-    "Subject": "voluptatibus",
+    "ServerId": 627,
+    "MessageId": "dolor",
+    "Subject": "accusantium",
     "From": null,
     "To": [
       {
-        "ContactId": 250,
-        "ContactName": "Braun Inc and Sons",
-        "PersonId": 110,
-        "PersonName": "Windler Group",
-        "AssociateId": 179,
-        "Address": "adipisci",
-        "EmailId": 309,
+        "ContactId": 94,
+        "ContactName": "Beatty, Kassulke and Koch",
+        "PersonId": 401,
+        "PersonName": "Kessler-Lowe",
+        "AssociateId": 943,
+        "Address": "sed",
+        "EmailId": 129,
         "DuplicatePersonIds": [
-          211,
-          14
+          890,
+          257
         ],
-        "Name": "Torp Inc and Sons",
+        "Name": "Douglas LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 123
+            "FieldType": "System.Int32",
+            "FieldLength": 472
           }
         }
       }
     ],
-    "Sent": "2001-01-29T03:45:23.373582+01:00",
+    "Sent": "2007-11-27T03:46:54.7226337+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 202,
+    "Size": 184,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 188
+        "FieldLength": 875
       }
     }
   }

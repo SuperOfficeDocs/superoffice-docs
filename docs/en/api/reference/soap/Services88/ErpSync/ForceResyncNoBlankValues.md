@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.ForceResyncNoBlankValues SOAP
 generated: true
 uid: Services88-ErpSync-ForceResyncNoBlankValues
+content_type: reference
 ---
 
 # Services88 ErpSync ForceResyncNoBlankValues

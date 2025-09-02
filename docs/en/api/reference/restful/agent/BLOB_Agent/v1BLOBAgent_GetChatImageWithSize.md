@@ -2,6 +2,7 @@
 title: POST Agents/BLOB/GetChatImageWithSize
 uid: v1BLOBAgent_GetChatImageWithSize
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BLOB/GetChatImageWithSize
@@ -70,13 +71,13 @@ OK
 POST /api/v1/Agents/BLOB/GetChatImageWithSize
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 294,
-  "Width": 173,
-  "Height": 658
+  "ChatTopicId": 619,
+  "Width": 920,
+  "Height": 862
 }
 ```
 

@@ -2,6 +2,7 @@
 title: GET List/LegalBase/Items/{id}/UserGroups
 uid: v1LegalBaseList_GetLegalBaseUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/LegalBase/Items/{id}/UserGroups
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 177,
-    "Name": "Cummerata Group",
-    "ToolTip": "Autem a natus ratione.",
+    "Id": 244,
+    "Name": "Block-Steuber",
+    "ToolTip": "Deleniti voluptatem quae error earum eum ex aperiam.",
     "Deleted": true,
-    "Rank": 281,
-    "Type": "quia",
-    "ColorBlock": 687,
-    "IconHint": "non",
-    "Selected": true,
-    "LastChanged": "2018-01-25T03:45:29.0452922+01:00",
+    "Rank": 919,
+    "Type": "atque",
+    "ColorBlock": 415,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2010-10-27T03:47:00.6599229+02:00",
     "ChildItems": [
       {
-        "Id": 479,
-        "Name": "Fritsch Group",
-        "ToolTip": "Illo est iusto nihil architecto velit.",
+        "Id": 856,
+        "Name": "Fay Group",
+        "ToolTip": "Pariatur et perspiciatis necessitatibus sint consequatur facilis sed.",
         "Deleted": false,
-        "Rank": 670,
-        "Type": "rem",
-        "ColorBlock": 41,
-        "IconHint": "dolorem",
+        "Rank": 200,
+        "Type": "velit",
+        "ColorBlock": 199,
+        "IconHint": "similique",
         "Selected": true,
-        "LastChanged": "2009-05-25T03:45:29.0452922+02:00",
+        "LastChanged": "2012-02-29T03:47:00.6599229+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "magni",
-        "Hidden": true,
-        "FullName": "Ms. Chelsea Brayan Upton PhD",
+        "ExtraInfo": "totam",
+        "StyleHint": "eligendi",
+        "Hidden": false,
+        "FullName": "America Brakus PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 743
+            "FieldLength": 353
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "enim",
+    "ExtraInfo": "vitae",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Prof. Kameron Sigurd McDermott II",
+    "FullName": "Deshaun Orn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 824
+        "FieldType": "System.String",
+        "FieldLength": 138
       }
     }
   }

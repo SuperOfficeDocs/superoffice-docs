@@ -2,6 +2,7 @@
 title: POST Agents/MDO/GetSelectableList
 uid: v1MDOAgent_GetSelectableList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/MDO/GetSelectableList
@@ -90,13 +91,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kuvalis-Fay",
+  "Name": "Gleason-Pagac",
   "ForceFlatList": false,
-  "AdditionalInfo": "aperiam",
+  "AdditionalInfo": "non",
   "OnlyHistory": false
 }
 ```
@@ -109,56 +110,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 802,
-    "Name": "Spinka LLC",
-    "ToolTip": "Nemo mollitia qui ad tempore dicta quibusdam et.",
+    "Id": 82,
+    "Name": "Hand Inc and Sons",
+    "ToolTip": "Voluptas nam.",
     "Deleted": false,
-    "Rank": 221,
-    "Type": "est",
-    "ColorBlock": 973,
-    "IconHint": "dolor",
-    "Selected": true,
-    "LastChanged": "2000-08-26T03:45:23.6391999+02:00",
+    "Rank": 827,
+    "Type": "aut",
+    "ColorBlock": 979,
+    "IconHint": "repellendus",
+    "Selected": false,
+    "LastChanged": "2020-07-23T03:46:55.0194982+02:00",
     "ChildItems": [
       {
-        "Id": 609,
-        "Name": "Herman LLC",
-        "ToolTip": "Quibusdam voluptatibus enim est voluptatem omnis.",
-        "Deleted": true,
-        "Rank": 97,
-        "Type": "dolores",
-        "ColorBlock": 690,
-        "IconHint": "dolorum",
+        "Id": 537,
+        "Name": "Strosin LLC",
+        "ToolTip": "Ipsa ut ullam.",
+        "Deleted": false,
+        "Rank": 650,
+        "Type": "ipsam",
+        "ColorBlock": 628,
+        "IconHint": "provident",
         "Selected": false,
-        "LastChanged": "2016-10-08T03:45:23.6391999+02:00",
+        "LastChanged": "2015-09-25T03:46:55.0194982+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "dolores",
+        "ExtraInfo": "magni",
+        "StyleHint": "minima",
         "Hidden": true,
-        "FullName": "Bert Pfannerstill",
+        "FullName": "Isaias Ethel Botsford I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 161
+            "FieldLength": 809
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "maiores",
+    "ExtraInfo": "autem",
+    "StyleHint": "quae",
     "Hidden": true,
-    "FullName": "Theodore Keeling",
+    "FullName": "Estel Madeline Raynor I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 660
+        "FieldLength": 403
       }
     }
   }

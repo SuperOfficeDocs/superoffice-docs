@@ -2,6 +2,7 @@
 title: POST List/DocumentTemplate/Items/{id}/Content/{languageCode}
 uid: v1DocumentTemplateList_CreateDefaultDocumentTemplateLanguage
 generated: true
+content_type: reference
 ---
 
 # POST List/DocumentTemplate/Items/{id}/Content/{languageCode}

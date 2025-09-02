@@ -64,6 +64,7 @@ items:
   - SuperOffice.WebApi.Data.CategorizationModelDetails
   - SuperOffice.WebApi.Data.CategorizationStatusResponse
   - SuperOffice.WebApi.Data.Category
+  - SuperOffice.WebApi.Data.CategoryEntity
   - SuperOffice.WebApi.Data.CategoryGuess
   - SuperOffice.WebApi.Data.ChangedData
   - SuperOffice.WebApi.Data.ChangedDataItem
@@ -109,6 +110,9 @@ items:
   - SuperOffice.WebApi.Data.DashTile
   - SuperOffice.WebApi.Data.DashTileDefinition
   - SuperOffice.WebApi.Data.DashTileHtml
+  - SuperOffice.WebApi.Data.Dashboard
+  - SuperOffice.WebApi.Data.DashboardTile
+  - SuperOffice.WebApi.Data.DashboardTileOption
   - SuperOffice.WebApi.Data.DataRight
   - SuperOffice.WebApi.Data.DataRights
   - SuperOffice.WebApi.Data.DayInformationListItem
@@ -161,9 +165,6 @@ items:
   - SuperOffice.WebApi.Data.FieldMetadata
   - SuperOffice.WebApi.Data.FieldValue
   - SuperOffice.WebApi.Data.FindResults
-  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.Dashboard
-  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTile
-  - SuperOffice.WebApi.Data.ForNetserverUntilVersion11.DashboardTileOption
   - SuperOffice.WebApi.Data.ForeignAppEntity
   - SuperOffice.WebApi.Data.ForeignDevice
   - SuperOffice.WebApi.Data.ForeignKey
@@ -179,6 +180,7 @@ items:
   - SuperOffice.WebApi.Data.ImportErpData
   - SuperOffice.WebApi.Data.ImportLine
   - SuperOffice.WebApi.Data.IncomingMessage
+  - SuperOffice.WebApi.Data.InitalUtmParameters
   - SuperOffice.WebApi.Data.Installation
   - SuperOffice.WebApi.Data.LanguageInfo
   - SuperOffice.WebApi.Data.LegalBase
@@ -364,6 +366,7 @@ items:
   - SuperOffice.WebApi.Data.UserGroup
   - SuperOffice.WebApi.Data.UserInfo
   - SuperOffice.WebApi.Data.UserValidationResult
+  - SuperOffice.WebApi.Data.UtmParameters
   - SuperOffice.WebApi.Data.VideoMeetingReservation
   - SuperOffice.WebApi.Data.VisibleFor
   - SuperOffice.WebApi.Data.WebAppUsage

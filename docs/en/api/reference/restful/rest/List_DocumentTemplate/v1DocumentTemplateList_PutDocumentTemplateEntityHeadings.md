@@ -2,6 +2,7 @@
 title: PUT List/DocumentTemplate/Headings
 uid: v1DocumentTemplateList_PutDocumentTemplateEntityHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/DocumentTemplate/Headings
@@ -80,20 +81,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 718,
-    "Name": "Kemmer, Emard and Corwin",
-    "Tooltip": "labore",
-    "Deleted": true,
-    "Rank": 789,
-    "UdListDefinitionId": 974
+    "HeadingId": 986,
+    "Name": "Wiza-Torp",
+    "Tooltip": "aperiam",
+    "Deleted": false,
+    "Rank": 940,
+    "UdListDefinitionId": 812
   },
   {
-    "HeadingId": 718,
-    "Name": "Kemmer, Emard and Corwin",
-    "Tooltip": "labore",
-    "Deleted": true,
-    "Rank": 789,
-    "UdListDefinitionId": 974
+    "HeadingId": 986,
+    "Name": "Wiza-Torp",
+    "Tooltip": "aperiam",
+    "Deleted": false,
+    "Rank": 940,
+    "UdListDefinitionId": 812
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 996,
-    "Name": "Eichmann Group",
-    "Tooltip": "maiores",
+    "HeadingId": 438,
+    "Name": "Fahey-Gusikowski",
+    "Tooltip": "id",
     "Deleted": false,
-    "Rank": 165,
-    "UdListDefinitionId": 674,
+    "Rank": 109,
+    "UdListDefinitionId": 886,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 697
+        "FieldType": "System.String",
+        "FieldLength": 587
       }
     }
   }

@@ -3,9 +3,9 @@ uid: ExplicitInvitation
 title: ExplicitInvitation
 description: 
 keywords: ExplicitInvitation archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ExplicitInvitation"
@@ -739,7 +739,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExplicitInvitation?$select=text,contact/contactAssociate/fullName,contact/LastCompletedSale,contact/SaintStatus1,person/mrMrs
+GET /api/v1/archive/ExplicitInvitation?$select=contact/contactUdef/SuperOffice:2,person/mrMrs,project/projectAssociate/middleName,project/projectAssociate/assocType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

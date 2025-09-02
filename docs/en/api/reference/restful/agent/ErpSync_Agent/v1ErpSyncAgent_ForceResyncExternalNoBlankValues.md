@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/ForceResyncExternalNoBlankValues
 uid: v1ErpSyncAgent_ForceResyncExternalNoBlankValues
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/ForceResyncExternalNoBlankValues
@@ -85,15 +86,15 @@ OK
 POST /api/v1/Agents/ErpSync/ForceResyncExternalNoBlankValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 955,
+  "ErpConnectionId": 395,
   "ErpActorType": "Customer",
   "ExternalKeys": [
-    "doloribus",
-    "est"
+    "quia",
+    "aut"
   ]
 }
 ```
@@ -106,17 +107,17 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "qui",
-  "TechExplanation": "odit",
-  "ErrorCode": "beatae",
+  "UserExplanation": "atque",
+  "TechExplanation": "alias",
+  "ErrorCode": "aut",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 793
+      "FieldType": "System.Int32",
+      "FieldLength": 759
     }
   }
 }

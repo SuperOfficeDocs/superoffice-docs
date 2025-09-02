@@ -2,6 +2,7 @@
 title: Services88.SaleAgent.GetSaleStakeholders SOAP
 generated: true
 uid: Services88-Sale-GetSaleStakeholders
+content_type: reference
 ---
 
 # Services88 Sale GetSaleStakeholders

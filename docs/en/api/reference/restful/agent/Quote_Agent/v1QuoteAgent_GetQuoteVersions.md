@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetQuoteVersions
 uid: v1QuoteAgent_GetQuoteVersions
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetQuoteVersions
@@ -111,11 +112,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 32
+  "QuoteId": 21
 }
 ```
 
@@ -127,75 +128,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 267,
-    "ERPQuoteVersionKey": "enim",
-    "QuoteId": 615,
-    "Description": "Re-engineered maximized extranet",
-    "Number": "1221259",
+    "QuoteVersionId": 124,
+    "ERPQuoteVersionKey": "nostrum",
+    "QuoteId": 185,
+    "Description": "Reverse-engineered high-level hardware",
+    "Number": "241947",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 427,
-    "SentDate": "2001-04-29T03:45:23.7954455+02:00",
-    "FollowupId": 926,
-    "ExpirationDate": "2008-09-04T03:45:23.7954455+02:00",
-    "DeliveryCountryId": 146,
+    "LikelyQuoteAlternativeId": 652,
+    "SentDate": "2024-06-23T03:46:55.1913666+02:00",
+    "FollowupId": 662,
+    "ExpirationDate": "2008-03-05T03:46:55.1913666+01:00",
+    "DeliveryCountryId": 453,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 813,
+    "InvoiceCountryId": 966,
     "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "tempora",
-    "ERPPaymentTypeKey": "ab",
-    "ERPDeliveryTermsKey": "et",
-    "ERPDeliveryTypeKey": "cumque",
-    "Rank": 107,
-    "ApprovedBy": 672,
-    "ApprovedText": "inventore",
-    "ApprovedRegisteredBy": 94,
-    "ApprovedRegisteredDate": "2023-05-29T03:45:23.7954455+02:00",
-    "ExtraField1": "laboriosam",
-    "ExtraField2": "accusantium",
+    "ERPPaymentTermsKey": "quas",
+    "ERPPaymentTypeKey": "dolor",
+    "ERPDeliveryTermsKey": "id",
+    "ERPDeliveryTypeKey": "quam",
+    "Rank": 283,
+    "ApprovedBy": 254,
+    "ApprovedText": "voluptas",
+    "ApprovedRegisteredBy": 979,
+    "ApprovedRegisteredDate": "2000-06-17T03:46:55.1913666+02:00",
+    "ExtraField1": "sunt",
+    "ExtraField2": "et",
     "ExtraField3": "sunt",
-    "ExtraField4": "suscipit",
-    "ExtraField5": "dignissimos",
-    "LastRecalculated": "2002-05-18T03:45:23.7954455+02:00",
-    "Updated": "2015-02-06T03:45:23.7954455+01:00",
-    "UpdatedAssociateId": 572,
-    "Registered": "2003-02-15T03:45:23.7954455+01:00",
-    "RegisteredAssociateId": 60,
-    "RequestAssociateId": 969,
-    "RequestComment": "accusantium",
+    "ExtraField4": "est",
+    "ExtraField5": "ut",
+    "LastRecalculated": "2022-05-21T03:46:55.1913666+02:00",
+    "Updated": "2015-01-28T03:46:55.1913666+01:00",
+    "UpdatedAssociateId": 799,
+    "Registered": "2006-02-05T03:46:55.1913666+01:00",
+    "RegisteredAssociateId": 746,
+    "RequestAssociateId": 519,
+    "RequestComment": "eos",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 336,
-        "ERPQuoteAlternativeKey": "omnis",
-        "QuoteVersionId": 830,
-        "Name": "Lebsack LLC",
-        "Description": "Programmable eco-centric contingency",
+        "QuoteAlternativeId": 782,
+        "ERPQuoteAlternativeKey": "eos",
+        "QuoteVersionId": 889,
+        "Name": "Hackett, Hoppe and Wyman",
+        "Description": "Future-proofed composite contingency",
         "Status": "Error",
-        "Reason": "",
-        "ERPDiscountPercent": 26689.144,
-        "ERPDiscountAmount": 9583.771999999999,
-        "DiscountPercent": 6390.226,
-        "DiscountAmount": 31061.074,
+        "Reason": "engage e-business infrastructures",
+        "ERPDiscountPercent": 23953.162,
+        "ERPDiscountAmount": 26686.01,
+        "DiscountPercent": 1106.302,
+        "DiscountAmount": 16525.582,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "dignissimos",
-        "VAT": 24213.284,
-        "EarningPercent": 20590.38,
-        "EarningAmount": 26024.736,
-        "SubTotal": 25821.025999999998,
-        "TotalPrice": 10276.386,
-        "ExtraField1": "dolorum",
-        "ExtraField2": "minima",
-        "ExtraField3": "impedit",
-        "ExtraField4": "ut",
-        "ExtraField5": "nihil",
+        "VATInfo": "similique",
+        "VAT": 16419.025999999998,
+        "EarningPercent": 14234.627999999999,
+        "EarningAmount": 5199.306,
+        "SubTotal": 26789.432,
+        "TotalPrice": 3735.728,
+        "ExtraField1": "magni",
+        "ExtraField2": "sit",
+        "ExtraField3": "quis",
+        "ExtraField4": "mollitia",
+        "ExtraField5": "eum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 795
+            "FieldLength": 628
           }
         }
       }
@@ -204,8 +205,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 447
+        "FieldType": "System.Int32",
+        "FieldLength": 928
       }
     }
   }

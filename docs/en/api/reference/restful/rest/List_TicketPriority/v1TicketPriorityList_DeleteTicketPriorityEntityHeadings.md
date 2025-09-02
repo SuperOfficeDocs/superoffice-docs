@@ -2,6 +2,7 @@
 title: DEL List/TicketPriority/Headings
 uid: v1TicketPriorityList_DeleteTicketPriorityEntityHeadings
 generated: true
+content_type: reference
 ---
 
 # DEL List/TicketPriority/Headings

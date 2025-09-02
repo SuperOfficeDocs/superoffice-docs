@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.GetOwnerOnPersonId SOAP
 generated: true
 uid: Services88-Person-GetOwnerOnPersonId
+content_type: reference
 ---
 
 # Services88 Person GetOwnerOnPersonId

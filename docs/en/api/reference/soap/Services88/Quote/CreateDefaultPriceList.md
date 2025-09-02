@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.CreateDefaultPriceList SOAP
 generated: true
 uid: Services88-Quote-CreateDefaultPriceList
+content_type: reference
 ---
 
 # Services88 Quote CreateDefaultPriceList
@@ -69,8 +70,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Quote:Description xsi:type="xsd:string"></Quote:Description>
     <Quote:Currency xsi:type="xsd:string"></Quote:Currency>
     <Quote:CurrencyName xsi:type="xsd:string"></Quote:CurrencyName>
-    <Quote:ValidFrom xsi:type="xsd:dateTime">2025-06-26T01:44:35Z</Quote:ValidFrom>
-    <Quote:ValidTo xsi:type="xsd:dateTime">2025-06-26T01:44:35Z</Quote:ValidTo>
+    <Quote:ValidFrom xsi:type="xsd:dateTime">2025-08-30T01:46:07Z</Quote:ValidFrom>
+    <Quote:ValidTo xsi:type="xsd:dateTime">2025-08-30T01:46:07Z</Quote:ValidTo>
     <Quote:IsActive xsi:type="xsd:boolean">false</Quote:IsActive>
    </Quote:Response>
   </Quote:CreateDefaultPriceListResponse>

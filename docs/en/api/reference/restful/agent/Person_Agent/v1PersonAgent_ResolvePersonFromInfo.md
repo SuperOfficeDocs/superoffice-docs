@@ -2,6 +2,7 @@
 title: POST Agents/Person/ResolvePersonFromInfo
 uid: v1PersonAgent_ResolvePersonFromInfo
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/ResolvePersonFromInfo
@@ -79,19 +80,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 488,
-  "PersonName": "Strosin Inc and Sons",
+  "ContactId": 634,
+  "PersonName": "Graham Group",
   "PhoneNumbers": [
-    "652743",
-    "944999"
+    "1011308",
+    "819977"
   ],
   "Emails": [
-    "gregoria.gulgowski@lockman.name",
-    "eveline.welch@roobchristiansen.uk"
+    "antonette@walshorn.ca",
+    "anika.schaden@mcclurestiedemann.name"
   ]
 }
 ```
@@ -110,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 669
+      "FieldLength": 617
     }
   }
 }

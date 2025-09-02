@@ -2,6 +2,7 @@
 title: POST Agents/User/GetOrRegisterAccessGatewayInfo
 uid: v1UserAgent_GetOrRegisterAccessGatewayInfo
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetOrRegisterAccessGatewayInfo
@@ -76,11 +77,11 @@ OK
 POST /api/v1/Agents/User/GetOrRegisterAccessGatewayInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RedirectUri": "dolorem"
+  "RedirectUri": "ea"
 }
 ```
 
@@ -92,13 +93,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ClientId": "molestiae",
-  "RedirectUri": "rerum",
+  "RedirectUri": "aspernatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 25
+      "FieldType": "System.String",
+      "FieldLength": 718
     }
   }
 }

@@ -2,6 +2,7 @@
 title: PUT List/Task/Items/{id}/UserGroups
 uid: v1TaskList_PutTaskListItemUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/Task/Items/{id}/UserGroups
@@ -102,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 510,
-    "Name": "Kulas, Upton and Sawayn",
-    "ToolTip": "Eos numquam esse quis nam est.",
+    "Id": 515,
+    "Name": "Bogisich-Hintz",
+    "ToolTip": "Aut dolor incidunt velit facilis voluptatem est et.",
     "Deleted": false,
-    "Rank": 830,
-    "Type": "voluptatem",
-    "ColorBlock": 411,
-    "IconHint": "consequatur",
+    "Rank": 87,
+    "Type": "ea",
+    "ColorBlock": 57,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2013-03-05T03:45:29.2327869+01:00",
+    "LastChanged": "2011-04-24T03:47:00.8942898+02:00",
     "ChildItems": [
       {
-        "Id": 389,
-        "Name": "Treutel, Schinner and Windler",
-        "ToolTip": "Fugit et.",
-        "Deleted": true,
-        "Rank": 505,
-        "Type": "qui",
-        "ColorBlock": 633,
-        "IconHint": "necessitatibus",
+        "Id": 793,
+        "Name": "Auer Inc and Sons",
+        "ToolTip": "Quis magni quisquam est ad nobis.",
+        "Deleted": false,
+        "Rank": 108,
+        "Type": "cumque",
+        "ColorBlock": 680,
+        "IconHint": "eligendi",
         "Selected": false,
-        "LastChanged": "2008-08-26T03:45:29.2327869+02:00",
+        "LastChanged": "2016-07-08T03:47:00.8942898+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "explicabo",
-        "Hidden": false,
-        "FullName": "Cristian Bartoletti"
+        "ExtraInfo": "temporibus",
+        "StyleHint": "ipsam",
+        "Hidden": true,
+        "FullName": "Pierre Fay"
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "quisquam",
-    "Hidden": false,
-    "FullName": "Ms. Anastasia Hamill PhD"
+    "ExtraInfo": "voluptas",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Tony Wyman"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 960,
-    "Name": "Beatty-Conroy",
-    "ToolTip": "Laboriosam commodi.",
+    "Id": 940,
+    "Name": "Borer-Lehner",
+    "ToolTip": "Reiciendis recusandae praesentium iste aut ut aspernatur.",
     "Deleted": false,
-    "Rank": 674,
-    "Type": "qui",
-    "ColorBlock": 120,
-    "IconHint": "rerum",
+    "Rank": 129,
+    "Type": "et",
+    "ColorBlock": 850,
+    "IconHint": "ipsum",
     "Selected": false,
-    "LastChanged": "2025-02-15T03:45:29.2484114+01:00",
+    "LastChanged": "2022-07-17T03:47:00.8942898+02:00",
     "ChildItems": [
       {
-        "Id": 449,
-        "Name": "Cummings-Mohr",
-        "ToolTip": "Animi fugiat sed omnis nihil autem voluptas omnis.",
+        "Id": 537,
+        "Name": "Friesen LLC",
+        "ToolTip": "Consequatur in sed.",
         "Deleted": false,
-        "Rank": 203,
-        "Type": "cum",
-        "ColorBlock": 867,
-        "IconHint": "fuga",
+        "Rank": 525,
+        "Type": "sit",
+        "ColorBlock": 571,
+        "IconHint": "iure",
         "Selected": false,
-        "LastChanged": "2004-07-25T03:45:29.2484114+02:00",
+        "LastChanged": "2015-12-22T03:47:00.8942898+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "in",
-        "Hidden": true,
-        "FullName": "Oma Kihn",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "corrupti",
+        "Hidden": false,
+        "FullName": "Jett Schmeler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 359
+            "FieldLength": 362
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "fugiat",
-    "Hidden": true,
-    "FullName": "Gino Gus Huel Jr.",
+    "ExtraInfo": "omnis",
+    "StyleHint": "praesentium",
+    "Hidden": false,
+    "FullName": "Jena Helmer Klocko II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 19
+        "FieldLength": 630
       }
     }
   }

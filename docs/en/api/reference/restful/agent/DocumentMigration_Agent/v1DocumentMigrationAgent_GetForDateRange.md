@@ -2,6 +2,7 @@
 title: POST Agents/DocumentMigration/GetForDateRange
 uid: v1DocumentMigrationAgent_GetForDateRange
 generated: true
+content_type: reference
 ---
 
 # POST Agents/DocumentMigration/GetForDateRange
@@ -83,9 +84,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 716,
-  "MinDate": "2005-10-13T03:45:23.373582+02:00",
-  "MaxDate": "2011-05-11T03:45:23.373582+02:00",
+  "DocumentPluginId": 347,
+  "MinDate": "2000-03-17T03:46:54.707009+01:00",
+  "MaxDate": "2010-11-25T03:46:54.707009+01:00",
   "IncludeEmails": false
 }
 ```
@@ -97,29 +98,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 361,
-  "NumDocumentsAlreadyMigrated": 955,
+  "NumDocumentsOmitted": 983,
+  "NumDocumentsAlreadyMigrated": 917,
   "Documents": [
     {
-      "DocumentId": 650,
-      "ContactId": 228,
-      "PersonId": 848,
-      "SaleId": 620,
-      "ProjectId": 405,
-      "DocTmplId": 423,
-      "AssociateId": 816,
-      "UserGroupId": 796,
-      "VisibleForId": 935
+      "DocumentId": 6,
+      "ContactId": 279,
+      "PersonId": 158,
+      "SaleId": 308,
+      "ProjectId": 50,
+      "DocTmplId": 607,
+      "AssociateId": 742,
+      "UserGroupId": 537,
+      "VisibleForId": 827
     }
   ],
   "Associates": [
     {
-      "AssociateId": 724,
-      "EmailAddress": "jedediah.bogisich@hagenes.biz"
+      "AssociateId": 584,
+      "EmailAddress": "rubye@conroytromp.uk"
     },
     {
-      "AssociateId": 724,
-      "EmailAddress": "jedediah.bogisich@hagenes.biz"
+      "AssociateId": 584,
+      "EmailAddress": "rubye@conroytromp.uk"
     }
   ]
 }

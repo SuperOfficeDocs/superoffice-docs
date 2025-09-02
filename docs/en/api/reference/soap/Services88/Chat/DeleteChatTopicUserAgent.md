@@ -2,6 +2,7 @@
 title: Services88.ChatAgent.DeleteChatTopicUserAgent SOAP
 generated: true
 uid: Services88-Chat-DeleteChatTopicUserAgent
+content_type: reference
 ---
 
 # Services88 Chat DeleteChatTopicUserAgent

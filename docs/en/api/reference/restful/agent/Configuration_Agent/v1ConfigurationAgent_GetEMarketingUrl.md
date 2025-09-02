@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetEMarketingUrl
 uid: v1ConfigurationAgent_GetEMarketingUrl
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetEMarketingUrl
@@ -68,11 +69,11 @@ OK
 POST /api/v1/Agents/Configuration/GetEMarketingUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "eum"
+  "Language": "sequi"
 }
 ```
 

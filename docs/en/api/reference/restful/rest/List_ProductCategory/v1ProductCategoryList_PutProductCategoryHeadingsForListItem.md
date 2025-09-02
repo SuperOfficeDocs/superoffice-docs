@@ -2,6 +2,7 @@
 title: PUT List/ProductCategory/Items/{id}/Headings
 uid: v1ProductCategoryList_PutProductCategoryHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProductCategory/Items/{id}/Headings
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 634,
-    "Name": "Treutel, Little and Wolff",
-    "ToolTip": "Quo occaecati sit.",
+    "Id": 204,
+    "Name": "Bartoletti-Fay",
+    "ToolTip": "Dolore labore nam at velit voluptatem quia.",
     "Deleted": true,
-    "Rank": 602,
-    "Type": "ipsam",
-    "ColorBlock": 372,
-    "IconHint": "sed",
-    "Selected": true,
-    "LastChanged": "2003-08-18T03:45:29.1549343+02:00",
+    "Rank": 596,
+    "Type": "repellat",
+    "ColorBlock": 56,
+    "IconHint": "provident",
+    "Selected": false,
+    "LastChanged": "2018-09-02T03:47:00.7224209+02:00",
     "ChildItems": [
       {
-        "Id": 116,
-        "Name": "Senger, Orn and Stroman",
-        "ToolTip": "Officia dolores nihil consectetur aliquid consectetur velit a.",
-        "Deleted": false,
-        "Rank": 252,
-        "Type": "harum",
-        "ColorBlock": 78,
-        "IconHint": "architecto",
-        "Selected": true,
-        "LastChanged": "2010-01-28T03:45:29.1549343+01:00",
+        "Id": 710,
+        "Name": "Conn, Rempel and Johns",
+        "ToolTip": "Dolores harum velit sed.",
+        "Deleted": true,
+        "Rank": 477,
+        "Type": "beatae",
+        "ColorBlock": 464,
+        "IconHint": "libero",
+        "Selected": false,
+        "LastChanged": "2002-08-31T03:47:00.7224209+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "sint",
-        "Hidden": true,
-        "FullName": "Travon Shanahan"
+        "ExtraInfo": "tempore",
+        "StyleHint": "dignissimos",
+        "Hidden": false,
+        "FullName": "Jaiden Grant"
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "illum",
     "Hidden": false,
-    "FullName": "Deborah Rempel"
+    "FullName": "Dr. Jalon VonRueden"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 600,
-    "Name": "Kris, Harber and Gerlach",
-    "ToolTip": "Officiis corporis sit omnis et.",
+    "Id": 826,
+    "Name": "Pfeffer LLC",
+    "ToolTip": "Quisquam sint repudiandae fugit reiciendis.",
     "Deleted": false,
-    "Rank": 894,
-    "Type": "temporibus",
-    "ColorBlock": 785,
-    "IconHint": "vitae",
+    "Rank": 816,
+    "Type": "quas",
+    "ColorBlock": 841,
+    "IconHint": "maxime",
     "Selected": false,
-    "LastChanged": "2000-07-26T03:45:29.1549343+02:00",
+    "LastChanged": "2017-04-09T03:47:00.7224209+02:00",
     "ChildItems": [
       {
-        "Id": 839,
-        "Name": "Gerlach, Larkin and O'Kon",
-        "ToolTip": "Qui incidunt id temporibus qui.",
+        "Id": 742,
+        "Name": "Daugherty Group",
+        "ToolTip": "Et sed inventore consequatur magnam enim beatae.",
         "Deleted": false,
-        "Rank": 119,
-        "Type": "neque",
-        "ColorBlock": 964,
-        "IconHint": "excepturi",
-        "Selected": true,
-        "LastChanged": "2005-06-21T03:45:29.1549343+02:00",
+        "Rank": 644,
+        "Type": "atque",
+        "ColorBlock": 356,
+        "IconHint": "atque",
+        "Selected": false,
+        "LastChanged": "2003-08-09T03:47:00.7224209+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "tempora",
-        "Hidden": false,
-        "FullName": "Prof. Arden Kacey Kassulke",
+        "ExtraInfo": "quia",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Robin Kale Vandervort Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 101
+            "FieldType": "System.Int32",
+            "FieldLength": 765
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "temporibus",
-    "Hidden": true,
-    "FullName": "Rene Simeon Wilkinson I",
+    "ExtraInfo": "nulla",
+    "StyleHint": "soluta",
+    "Hidden": false,
+    "FullName": "Sammy Brown I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 426
+        "FieldLength": 745
       }
     }
   }

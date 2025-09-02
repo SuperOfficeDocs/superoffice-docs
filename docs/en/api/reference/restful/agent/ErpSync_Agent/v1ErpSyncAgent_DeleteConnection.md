@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/DeleteConnection
 uid: v1ErpSyncAgent_DeleteConnection
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/DeleteConnection
@@ -66,11 +67,11 @@ No Content
 POST /api/v1/Agents/ErpSync/DeleteConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 827
+  "ErpConnectionId": 799
 }
 ```
 

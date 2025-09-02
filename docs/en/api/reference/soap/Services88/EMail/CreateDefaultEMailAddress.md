@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.CreateDefaultEMailAddress SOAP
 generated: true
 uid: Services88-EMail-CreateDefaultEMailAddress
+content_type: reference
 ---
 
 # Services88 EMail CreateDefaultEMailAddress

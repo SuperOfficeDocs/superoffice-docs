@@ -2,6 +2,7 @@
 title: POST Agents/Webhook/SaveWebhook
 uid: v1WebhookAgent_SaveWebhook
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Webhook/SaveWebhook
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Webhook/SaveWebhook
 ```
 
-Updates the existing Webhook or creates a new Webhook if the id parameter is empty
+Updates the existing Webhook or creates a new Webhook if the id parameter is 0.
 
 
 ## Online Restricted: ## The Webhook agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -35,9 +36,9 @@ Updates the existing Webhook or creates a new Webhook if the id parameter is emp
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: webhook 
 
-The Webhook to be saved. 
+The Webhook that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -89,32 +90,32 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 709,
-  "Name": "Treutel LLC",
+  "WebhookId": 283,
+  "Name": "Walsh-Champlin",
   "Events": [
-    "quidem",
-    "fugiat"
+    "perferendis",
+    "voluptatem"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "saepe",
+  "Secret": "et",
   "State": "Active",
-  "Type": "alias",
+  "Type": "sit",
   "Headers": {
-    "Headers1": "voluptate",
-    "Headers2": "dolores"
+    "Headers1": "velit",
+    "Headers2": "consequatur"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2020-08-31T03:45:24.2016834+02:00",
+  "Registered": "2024-06-04T03:46:55.6444757+02:00",
   "RegisteredAssociate": null,
-  "Updated": "1998-04-14T03:45:24.2016834+02:00",
+  "Updated": "2018-05-01T03:46:55.6444757+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "deondre.klein@russel.info"
+  "ErrorsEmail": "maribel_jewess@lowe.info"
 }
 ```
 
@@ -125,27 +126,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 201,
-  "Name": "Monahan-Rolfson",
+  "WebhookId": 11,
+  "Name": "Hartmann, Schmidt and Towne",
   "Events": [
-    "quibusdam",
-    "laborum"
+    "sit",
+    "voluptate"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "sunt",
+  "Secret": "accusamus",
   "State": "Active",
-  "Type": "et",
+  "Type": "maxime",
   "Headers": {
-    "Headers1": "alias",
-    "Headers2": "in"
+    "Headers1": "sed",
+    "Headers2": "voluptatem"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2019-01-13T03:45:24.2173078+01:00",
+  "Registered": "2016-07-09T03:46:55.6444757+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2014-03-04T03:45:24.2173078+01:00",
+  "Updated": "2009-06-12T03:46:55.6444757+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "dane.torphy@mosciski.us"
+  "ErrorsEmail": "jevon@osinski.name"
 }
 ```

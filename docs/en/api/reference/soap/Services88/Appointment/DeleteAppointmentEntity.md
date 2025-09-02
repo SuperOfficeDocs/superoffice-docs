@@ -2,6 +2,7 @@
 title: Services88.AppointmentAgent.DeleteAppointmentEntity SOAP
 generated: true
 uid: Services88-Appointment-DeleteAppointmentEntity
+content_type: reference
 ---
 
 # Services88 Appointment DeleteAppointmentEntity

@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.GetPerson SOAP
 generated: true
 uid: Services88-Person-GetPerson
+content_type: reference
 ---
 
 # Services88 Person GetPerson

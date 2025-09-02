@@ -2,6 +2,7 @@
 title: Services88.SelectionAgent.GetDuplicateRules SOAP
 generated: true
 uid: Services88-Selection-GetDuplicateRules
+content_type: reference
 ---
 
 # Services88 Selection GetDuplicateRules

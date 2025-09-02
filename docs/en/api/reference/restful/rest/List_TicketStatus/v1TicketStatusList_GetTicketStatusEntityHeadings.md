@@ -2,6 +2,7 @@
 title: GET List/TicketStatus/Headings
 uid: v1TicketStatusList_GetTicketStatusEntityHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/TicketStatus/Headings
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 310,
-    "Name": "Mraz Inc and Sons",
-    "Tooltip": "ex",
+    "HeadingId": 502,
+    "Name": "Kuhlman, Murphy and Hand",
+    "Tooltip": "minus",
     "Deleted": true,
-    "Rank": 222,
-    "UdListDefinitionId": 986,
+    "Rank": 699,
+    "UdListDefinitionId": 625,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 714
+        "FieldLength": 888
       }
     }
   }

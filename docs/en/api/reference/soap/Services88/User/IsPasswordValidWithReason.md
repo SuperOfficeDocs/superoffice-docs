@@ -2,6 +2,7 @@
 title: Services88.UserAgent.IsPasswordValidWithReason SOAP
 generated: true
 uid: Services88-User-IsPasswordValidWithReason
+content_type: reference
 ---
 
 # Services88 User IsPasswordValidWithReason

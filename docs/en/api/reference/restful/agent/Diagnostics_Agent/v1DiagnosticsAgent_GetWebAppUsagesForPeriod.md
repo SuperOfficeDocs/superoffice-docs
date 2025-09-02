@@ -2,6 +2,7 @@
 title: POST Agents/Diagnostics/GetWebAppUsagesForPeriod
 uid: v1DiagnosticsAgent_GetWebAppUsagesForPeriod
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Diagnostics/GetWebAppUsagesForPeriod
@@ -81,13 +82,13 @@ OK
 POST /api/v1/Agents/Diagnostics/GetWebAppUsagesForPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2013-12-01T03:45:23.2798335+01:00",
-  "ToDate": "2021-06-05T03:45:23.2798335+02:00",
-  "SearchTerm": "fugiat"
+  "FromDate": "2021-09-19T03:46:54.6132622+02:00",
+  "ToDate": "2007-06-02T03:46:54.6132622+02:00",
+  "SearchTerm": "rem"
 }
 ```
 
@@ -99,19 +100,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebAppUsageId": 72,
-    "AssocId": 903,
-    "Timestamp": "2013-03-21T03:45:23.2798335+01:00",
-    "ViewState": "fugit",
-    "AggregateCount": 389,
-    "AggregateBin": 173,
-    "Version": 503,
+    "WebAppUsageId": 400,
+    "AssocId": 492,
+    "Timestamp": "2019-05-01T03:46:54.6132622+02:00",
+    "ViewState": "esse",
+    "AggregateCount": 856,
+    "AggregateBin": 396,
+    "Version": 563,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 848
+        "FieldType": "System.String",
+        "FieldLength": 954
       }
     }
   }

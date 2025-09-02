@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/MoveErpFieldItem
 uid: v1ErpSyncAgent_MoveErpFieldItem
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/MoveErpFieldItem
@@ -69,13 +70,13 @@ No Content
 POST /api/v1/Agents/ErpSync/MoveErpFieldItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 272,
-  "Direction": 672,
-  "ErpConnectionId": 678,
+  "ErpFieldId": 918,
+  "Direction": 265,
+  "ErpConnectionId": 816,
   "ErpActorType": "Customer"
 }
 ```

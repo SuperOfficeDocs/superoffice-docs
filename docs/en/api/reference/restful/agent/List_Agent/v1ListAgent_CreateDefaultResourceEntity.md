@@ -2,6 +2,7 @@
 title: POST Agents/List/CreateDefaultResourceEntity
 uid: v1ListAgent_CreateDefaultResourceEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/CreateDefaultResourceEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
 ```
 
-Set default values into a new ResourceEntity.
+Loading default values into a new ResourceEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -73,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 583,
-  "Name": "Rowe-Hauck",
-  "Rank": 671,
-  "Tooltip": "sequi",
-  "Deleted": true,
-  "IsLocation": false,
-  "LocationAddress": "repudiandae",
+  "ResourceId": 2,
+  "Name": "Bernhard-Raynor",
+  "Rank": 434,
+  "Tooltip": "quas",
+  "Deleted": false,
+  "IsLocation": true,
+  "LocationAddress": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 627
+      "FieldType": "System.Int32",
+      "FieldLength": 965
     }
   }
 }

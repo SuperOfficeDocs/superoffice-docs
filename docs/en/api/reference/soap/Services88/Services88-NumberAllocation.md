@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-NumberAllocation
 title: Services88.NumberAllocationAgent WSDL
+content_type: reference
 ---
 
 # Services88.NumberAllocationAgent WSDL

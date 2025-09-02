@@ -2,6 +2,7 @@
 title: Services88.DiagnosticsAgent.RemoveExpiredSystemMessages SOAP
 generated: true
 uid: Services88-Diagnostics-RemoveExpiredSystemMessages
+content_type: reference
 ---
 
 # Services88 Diagnostics RemoveExpiredSystemMessages

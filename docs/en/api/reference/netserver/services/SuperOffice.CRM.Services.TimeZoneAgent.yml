@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.TimeZoneAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.TimeZoneAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.TimeZoneAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   - SuperOffice.CRM.Services.TimeZoneAgent.CheckNewTimeZoneDataAvailableAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.TimeZoneAgent.DeleteTimeZonesAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.TimeZoneAgent.GetBaseTimeZoneIdAsync(System.Threading.CancellationToken)
@@ -80,22 +80,22 @@ items:
   nameWithType.vb: TimeZoneAgent.New(IPreferredTimeZoneImplementation, IRemoteTimeZoneMethodsImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.TimeZoneAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IPreferredTimeZoneImplementation, IRemoteTimeZoneMethodsImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.TimeZoneAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+- uid: SuperOffice.CRM.Services.TimeZoneAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation,SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
   parent: SuperOffice.CRM.Services.TimeZoneAgent
   langs:
   - csharp
   - vb
-  name: TimeZoneAgent(IPreferredTimeZoneImplementation, IRemoteTimeZoneMethodsImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  nameWithType: TimeZoneAgent.TimeZoneAgent(IPreferredTimeZoneImplementation, IRemoteTimeZoneMethodsImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName: SuperOffice.CRM.Services.TimeZoneAgent.TimeZoneAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name: TimeZoneAgent(IPreferredTimeZoneImplementation, IRemoteTimeZoneMethodsImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType: TimeZoneAgent.TimeZoneAgent(IPreferredTimeZoneImplementation, IRemoteTimeZoneMethodsImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName: SuperOffice.CRM.Services.TimeZoneAgent.TimeZoneAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public TimeZoneAgent(IPreferredTimeZoneImplementation preferredTimeZoneImplementation, IRemoteTimeZoneMethodsImplementation remoteTimeZoneMethodsImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    content: public TimeZoneAgent(IPreferredTimeZoneImplementation preferredTimeZoneImplementation, IRemoteTimeZoneMethodsImplementation remoteTimeZoneMethodsImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
     parameters:
     - id: preferredTimeZoneImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation
@@ -107,11 +107,15 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    content.vb: Public Sub New(preferredTimeZoneImplementation As IPreferredTimeZoneImplementation, remoteTimeZoneMethodsImplementation As IRemoteTimeZoneMethodsImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+    - id: scriptingConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+    - id: onlineConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+    content.vb: Public Sub New(preferredTimeZoneImplementation As IPreferredTimeZoneImplementation, remoteTimeZoneMethodsImplementation As IRemoteTimeZoneMethodsImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
   overload: SuperOffice.CRM.Services.TimeZoneAgent.#ctor*
-  nameWithType.vb: TimeZoneAgent.New(IPreferredTimeZoneImplementation, IRemoteTimeZoneMethodsImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName.vb: SuperOffice.CRM.Services.TimeZoneAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
-  name.vb: New(IPreferredTimeZoneImplementation, IRemoteTimeZoneMethodsImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType.vb: TimeZoneAgent.New(IPreferredTimeZoneImplementation, IRemoteTimeZoneMethodsImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName.vb: SuperOffice.CRM.Services.TimeZoneAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IPreferredTimeZoneImplementation, SuperOffice.CRM.Services.Implementation.BL.Contracts.IRemoteTimeZoneMethodsImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name.vb: New(IPreferredTimeZoneImplementation, IRemoteTimeZoneMethodsImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
 - uid: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformationAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformationAsync(System.Threading.CancellationToken)
   id: GetDefaultTimeZoneInformationAsync(System.Threading.CancellationToken)
@@ -889,6 +893,16 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+  isExternal: true
+  name: IScriptingConfiguration
+  nameWithType: ConfigFile.IScriptingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  isExternal: true
+  name: IOnlineConfiguration
+  nameWithType: ConfigFile.IOnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
 - uid: SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformationAsync*
   commentId: Overload:SuperOffice.CRM.Services.TimeZoneAgent.GetDefaultTimeZoneInformationAsync
   isExternal: true

@@ -2,6 +2,7 @@
 title: PUT List/DeliveryType/Items/{id}
 uid: v1DeliveryTypeList_PutDeliveryType
 generated: true
+content_type: reference
 ---
 
 # PUT List/DeliveryType/Items/{id}
@@ -78,16 +79,16 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 513,
-  "Name": "Lueilwitz, Mayert and Littel",
-  "Tooltip": "sit",
+  "Id": 59,
+  "Name": "Leuschke Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 108,
-  "Rank": 979
+  "UdListDefinitionId": 724,
+  "Rank": 403
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 927,
-  "Name": "Hessel-Jacobs",
-  "Tooltip": "doloremque",
+  "Id": 153,
+  "Name": "Hudson-Altenwerth",
+  "Tooltip": "quis",
   "Deleted": false,
-  "UdListDefinitionId": 487,
-  "Rank": 971,
+  "UdListDefinitionId": 936,
+  "Rank": 606,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 112
+      "FieldType": "System.Int32",
+      "FieldLength": 697
     }
   }
 }

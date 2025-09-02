@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetFolderInfo
 uid: v1EMailAgent_GetFolderInfo
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetFolderInfo
@@ -85,14 +86,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "expedita",
-    "repudiandae"
+    "suscipit",
+    "adipisci"
   ]
 }
 ```
@@ -105,19 +106,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gusikowski Inc and Sons",
-    "Delimiter": "et",
-    "Flags": "qui",
-    "TotalItems": 560,
-    "UnreadItems": 662,
+    "Name": "Runolfsdottir, Towne and Lindgren",
+    "Delimiter": "omnis",
+    "Flags": "debitis",
+    "TotalItems": 536,
+    "UnreadItems": 961,
     "Subscribed": false,
-    "EmailFolderId": 140,
+    "EmailFolderId": 776,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 98
+        "FieldType": "System.Int32",
+        "FieldLength": 321
       }
     }
   }

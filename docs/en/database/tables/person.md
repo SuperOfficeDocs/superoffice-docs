@@ -2,10 +2,10 @@
 uid: table-person
 title: person table
 description: Persons in a company or an organizations. All associates have a corresponding person record
-so.generated: true
+generated: true
 keywords: database table person
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # person Table (6)
@@ -132,6 +132,7 @@ Persons in a company or an organizations. All associates have a corresponding pe
 |[kb\_entry\_comment](kb-entry-comment.md)  |Comments to entries in the knowledge base, typically made by customers |
 |[login\_customer](login-customer.md)  |This table contains entries for customer sessions. At first only used for Soap logins, but will later also be used for web logins |
 |[message\_customers](message-customers.md)  |This table contains all cutomers who are involved in a message |
+|[notify](notify.md)  |This table contains the pop-up messages displayed for users for various events, such as &amp;apos;new ticket&amp;apos;, etc. |
 |[personinterest](personinterest.md)  |Note: If you add or remove rows in this table, you will need to update the interestCount field in the person table accordingly. This field should always reflect the number of interest records a person has, to enable the correct setting of the interest indicator on the tab in the person dialog.  Replication note: The combination of person_id and pinterest_idx is unique. If a duplicate is made on a replicated database, the system will replace the record in the target database with the one derived from the source database during replication. Therefore, do not assume that a record in this table will retain its ID indefinitely, even if the person keeps the interest. |
 |[PersPos](perspos.md)  |PersPos list table. Contact person position list |
 |[phone](phone.md)  |Contact and Person phonenumbers (+fax) |
@@ -159,6 +160,7 @@ Persons in a company or an organizations. All associates have a corresponding pe
 |[udpersonSmall](udpersonsmall.md)  |User-defined fields |
 |[URL](url.md)  |Unified Resource Locators, URL to contacts, persons or projects. |
 |[user\_candidate](user-candidate.md)  |This table will hold user candidate secrets |
+|[utm\_parameters](utm-parameters.md)  |Table for utm parameters collected from visits and formsubmissions |
 |[workflow](workflow.md)  |SuperOffice specific info about a workflow |
 |[workflow\_instance](workflow-instance.md)  |A set of properties related to the workflow instance of one participant going through the flow |
 

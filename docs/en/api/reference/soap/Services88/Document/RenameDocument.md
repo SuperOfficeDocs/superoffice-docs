@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.RenameDocument SOAP
 generated: true
 uid: Services88-Document-RenameDocument
+content_type: reference
 ---
 
 # Services88 Document RenameDocument

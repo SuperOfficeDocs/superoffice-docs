@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/SetSeen
 uid: v1AppointmentAgent_SetSeen
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/SetSeen
@@ -65,11 +66,11 @@ No Content
 POST /api/v1/Agents/Appointment/SetSeen
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 367,
+  "AppointmentId": 800,
   "UpdateMode": "OnlyThis"
 }
 ```

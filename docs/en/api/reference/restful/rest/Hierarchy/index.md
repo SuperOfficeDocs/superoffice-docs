@@ -1,6 +1,8 @@
 ---
+uid: tag-Hierarchy
 title: Hierarchy
 generated: true
+content_type: reference
 ---
 
 ```http

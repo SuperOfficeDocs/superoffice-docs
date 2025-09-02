@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.DeleteConnection SOAP
 generated: true
 uid: Services88-Quote-DeleteConnection
+content_type: reference
 ---
 
 # Services88 Quote DeleteConnection

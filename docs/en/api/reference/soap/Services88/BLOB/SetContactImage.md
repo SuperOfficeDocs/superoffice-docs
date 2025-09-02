@@ -2,6 +2,7 @@
 title: Services88.BLOBAgent.SetContactImage SOAP
 generated: true
 uid: Services88-BLOB-SetContactImage
+content_type: reference
 ---
 
 # Services88 BLOB SetContactImage

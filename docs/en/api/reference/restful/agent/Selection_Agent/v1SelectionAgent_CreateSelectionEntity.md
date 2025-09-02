@@ -2,6 +2,7 @@
 title: POST Agents/Selection/CreateSelectionEntity
 uid: v1SelectionAgent_CreateSelectionEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/CreateSelectionEntity
@@ -117,7 +118,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Rohan, Jaskolski and Kihn"
+  "TargetTableName": "Reilly, Cole and Kuhlman"
 }
 ```
 
@@ -128,70 +129,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Ergonomic disintermediate standardization",
-  "Postit": "quaerat",
+  "Description": "Reverse-engineered discrete system engine",
+  "Postit": "illo",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 413,
-  "IncludePerson": 551,
+  "GroupIdx": 543,
+  "IncludePerson": 919,
   "MemberCount": 99.99,
-  "Name": "Koss Group",
-  "PostitTextId": 161,
-  "CreatedDate": "2016-04-11T03:45:23.8891939+02:00",
-  "SelectionId": 254,
-  "SoundEx": "qui",
-  "Source": 54,
-  "TextId": 35,
-  "UpdatedDate": "2019-11-21T03:45:23.8891939+01:00",
-  "UpdatedCount": 312,
-  "Visibility": 443,
+  "Name": "Zemlak-Cruickshank",
+  "PostitTextId": 556,
+  "CreatedDate": "2012-06-25T03:46:55.3007553+02:00",
+  "SelectionId": 198,
+  "SoundEx": "nobis",
+  "Source": 916,
+  "TextId": 245,
+  "UpdatedDate": "2000-11-17T03:46:55.3007553+01:00",
+  "UpdatedCount": 545,
+  "Visibility": 96,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 579,
-  "TargetTableName": "Feest-Stoltenberg",
+  "CompanyUnique": false,
+  "TargetTableNumber": 437,
+  "TargetTableName": "Purdy, Wisoky and Treutel",
   "Completed": false,
-  "LeftSelectionId": 631,
-  "RightSelectionId": 499,
+  "LeftSelectionId": 471,
+  "RightSelectionId": 237,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Bashirian Group",
-  "ShadowProviderName": "Lubowitz Group",
-  "ChartKey": "dolor",
-  "LastLoaded": "2020-12-25T03:45:23.8891939+01:00",
-  "LastLoadedBy": 830,
+  "MainProviderName": "Lakin-Goodwin",
+  "ShadowProviderName": "Jerde, Rohan and Koss",
+  "ChartKey": "ut",
+  "LastLoaded": "2017-07-16T03:46:55.3007553+02:00",
+  "LastLoadedBy": 692,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-01-16T03:45:23.8891939+01:00",
-  "LastMembershipChangeBy": 116,
+  "LastMembershipChange": "2009-01-19T03:46:55.3007553+01:00",
+  "LastMembershipChangeBy": 951,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ipsa",
-  "MemberTabHeading": "vero",
-  "MailingsProviderName": "Ruecker LLC",
-  "DashboardTileDefinitionId": 930,
+  "MainHeading": "odio",
+  "MemberTabHeading": "sit",
+  "MailingsProviderName": "Kihn, Howell and Kunde",
+  "DashboardTileDefinitionId": 726,
   "VisibleFor": [
     {
-      "VisibleId": 137,
+      "VisibleId": 799,
       "Visibility": "All",
-      "DisplayValue": "nulla",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 130
+          "FieldLength": 90
         }
       }
     },
     {
-      "VisibleId": 137,
+      "VisibleId": 799,
       "Visibility": "All",
-      "DisplayValue": "nulla",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 130
+          "FieldLength": 90
         }
       }
     }
@@ -201,7 +202,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 659
+      "FieldLength": 674
     }
   }
 }

@@ -3,9 +3,9 @@ uid: mailclient
 title: mailclient
 keywords: mdoprovider mdo provider mailclient
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "mailclient" MDO List

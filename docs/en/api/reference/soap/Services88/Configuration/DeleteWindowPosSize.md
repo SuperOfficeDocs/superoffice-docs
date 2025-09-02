@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.DeleteWindowPosSize SOAP
 generated: true
 uid: Services88-Configuration-DeleteWindowPosSize
+content_type: reference
 ---
 
 # Services88 Configuration DeleteWindowPosSize

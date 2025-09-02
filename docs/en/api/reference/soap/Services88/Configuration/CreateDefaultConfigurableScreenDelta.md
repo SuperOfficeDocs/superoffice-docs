@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.CreateDefaultConfigurableScreenDelta SOAP
 generated: true
 uid: Services88-Configuration-CreateDefaultConfigurableScreenDelta
+content_type: reference
 ---
 
 # Services88 Configuration CreateDefaultConfigurableScreenDelta
@@ -69,8 +70,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Configuration:DeltaType xsi:type="Configuration:DeltaType">Unknown</Configuration:DeltaType>
     <Configuration:DeltaState xsi:type="Configuration:DeltaState">Unknown</Configuration:DeltaState>
     <Configuration:RecipeId xsi:type="xsd:string"></Configuration:RecipeId>
-    <Configuration:UpdatedDate xsi:type="xsd:dateTime">2025-06-26T01:43:08Z</Configuration:UpdatedDate>
-    <Configuration:CreatedDate xsi:type="xsd:dateTime">2025-06-26T01:43:08Z</Configuration:CreatedDate>
+    <Configuration:UpdatedDate xsi:type="xsd:dateTime">2025-08-30T01:44:40Z</Configuration:UpdatedDate>
+    <Configuration:CreatedDate xsi:type="xsd:dateTime">2025-08-30T01:44:40Z</Configuration:CreatedDate>
     <Configuration:UpdatedBy xsi:type="Configuration:Associate">
      <Configuration:AssociateId xsi:type="xsd:int">0</Configuration:AssociateId>
      <Configuration:Name xsi:type="xsd:string"></Configuration:Name>
@@ -84,6 +85,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Configuration:Deleted xsi:type="xsd:boolean">false</Configuration:Deleted>
      <Configuration:EjUserId xsi:type="xsd:int">0</Configuration:EjUserId>
      <Configuration:UserName xsi:type="xsd:string"></Configuration:UserName>
+     <Configuration:ExtraFields xsi:type="Configuration:StringDictionary">
+      <Configuration:StringKeyValuePair>
+       <Configuration:Key xsi:type="xsd:string"></Configuration:Key>
+       <Configuration:Value xsi:type="xsd:string"></Configuration:Value>
+      </Configuration:StringKeyValuePair>
+     </Configuration:ExtraFields>
+     <Configuration:CustomFields xsi:type="Configuration:StringDictionary">
+      <Configuration:StringKeyValuePair>
+       <Configuration:Key xsi:type="xsd:string"></Configuration:Key>
+       <Configuration:Value xsi:type="xsd:string"></Configuration:Value>
+      </Configuration:StringKeyValuePair>
+     </Configuration:CustomFields>
     </Configuration:UpdatedBy>
     <Configuration:CreatedBy xsi:type="Configuration:Associate">
      <Configuration:AssociateId xsi:type="xsd:int">0</Configuration:AssociateId>
@@ -98,6 +111,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <Configuration:Deleted xsi:type="xsd:boolean">false</Configuration:Deleted>
      <Configuration:EjUserId xsi:type="xsd:int">0</Configuration:EjUserId>
      <Configuration:UserName xsi:type="xsd:string"></Configuration:UserName>
+     <Configuration:ExtraFields xsi:type="Configuration:StringDictionary">
+      <Configuration:StringKeyValuePair>
+       <Configuration:Key xsi:type="xsd:string"></Configuration:Key>
+       <Configuration:Value xsi:type="xsd:string"></Configuration:Value>
+      </Configuration:StringKeyValuePair>
+     </Configuration:ExtraFields>
+     <Configuration:CustomFields xsi:type="Configuration:StringDictionary">
+      <Configuration:StringKeyValuePair>
+       <Configuration:Key xsi:type="xsd:string"></Configuration:Key>
+       <Configuration:Value xsi:type="xsd:string"></Configuration:Value>
+      </Configuration:StringKeyValuePair>
+     </Configuration:CustomFields>
     </Configuration:CreatedBy>
     <Configuration:AppliesToIds xsi:type="NetServerServices882:ArrayOfint">
      <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>

@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.License
   children:
   - SuperOffice.License.SignatureCreator.#ctor(SuperOffice.License.SignedPublicKey,System.Security.Cryptography.DSACryptoServiceProvider)
-  - SuperOffice.License.SignatureCreator.#ctor(SuperOffice.License.SignedPublicKey,System.Security.Cryptography.DSACryptoServiceProvider,Microsoft.Extensions.Logging.ILogger)
+  - SuperOffice.License.SignatureCreator.#ctor(SuperOffice.License.SignedPublicKey,System.Security.Cryptography.DSACryptoServiceProvider,Microsoft.Extensions.Logging.ILogger{SuperOffice.License.SignatureCreator})
   - SuperOffice.License.SignatureCreator.Sign(SuperOffice.License.LicenseInfo)
   - SuperOffice.License.SignatureCreator.Sign(SuperOffice.License.SerialNumberChange)
   - SuperOffice.License.SignatureCreator.Sign(System.String,System.String,SuperOffice.License.ModuleLicense)
@@ -85,34 +85,34 @@ items:
   nameWithType.vb: SignatureCreator.New(SignedPublicKey, DSACryptoServiceProvider)
   fullName.vb: SuperOffice.License.SignatureCreator.New(SuperOffice.License.SignedPublicKey, System.Security.Cryptography.DSACryptoServiceProvider)
   name.vb: New(SignedPublicKey, DSACryptoServiceProvider)
-- uid: SuperOffice.License.SignatureCreator.#ctor(SuperOffice.License.SignedPublicKey,System.Security.Cryptography.DSACryptoServiceProvider,Microsoft.Extensions.Logging.ILogger)
-  commentId: M:SuperOffice.License.SignatureCreator.#ctor(SuperOffice.License.SignedPublicKey,System.Security.Cryptography.DSACryptoServiceProvider,Microsoft.Extensions.Logging.ILogger)
-  id: '#ctor(SuperOffice.License.SignedPublicKey,System.Security.Cryptography.DSACryptoServiceProvider,Microsoft.Extensions.Logging.ILogger)'
+- uid: SuperOffice.License.SignatureCreator.#ctor(SuperOffice.License.SignedPublicKey,System.Security.Cryptography.DSACryptoServiceProvider,Microsoft.Extensions.Logging.ILogger{SuperOffice.License.SignatureCreator})
+  commentId: M:SuperOffice.License.SignatureCreator.#ctor(SuperOffice.License.SignedPublicKey,System.Security.Cryptography.DSACryptoServiceProvider,Microsoft.Extensions.Logging.ILogger{SuperOffice.License.SignatureCreator})
+  id: '#ctor(SuperOffice.License.SignedPublicKey,System.Security.Cryptography.DSACryptoServiceProvider,Microsoft.Extensions.Logging.ILogger{SuperOffice.License.SignatureCreator})'
   parent: SuperOffice.License.SignatureCreator
   langs:
   - csharp
   - vb
-  name: SignatureCreator(SignedPublicKey, DSACryptoServiceProvider, ILogger)
-  nameWithType: SignatureCreator.SignatureCreator(SignedPublicKey, DSACryptoServiceProvider, ILogger)
-  fullName: SuperOffice.License.SignatureCreator.SignatureCreator(SuperOffice.License.SignedPublicKey, System.Security.Cryptography.DSACryptoServiceProvider, Microsoft.Extensions.Logging.ILogger)
+  name: SignatureCreator(SignedPublicKey, DSACryptoServiceProvider, ILogger<SignatureCreator>)
+  nameWithType: SignatureCreator.SignatureCreator(SignedPublicKey, DSACryptoServiceProvider, ILogger<SignatureCreator>)
+  fullName: SuperOffice.License.SignatureCreator.SignatureCreator(SuperOffice.License.SignedPublicKey, System.Security.Cryptography.DSACryptoServiceProvider, Microsoft.Extensions.Logging.ILogger<SuperOffice.License.SignatureCreator>)
   type: Constructor
   assemblies:
   - SoLicense
   namespace: SuperOffice.License
   syntax:
-    content: public SignatureCreator(SignedPublicKey publicKey, DSACryptoServiceProvider privateKey, ILogger logger)
+    content: public SignatureCreator(SignedPublicKey publicKey, DSACryptoServiceProvider privateKey, ILogger<SignatureCreator> logger)
     parameters:
     - id: publicKey
       type: SuperOffice.License.SignedPublicKey
     - id: privateKey
       type: System.Security.Cryptography.DSACryptoServiceProvider
     - id: logger
-      type: Microsoft.Extensions.Logging.ILogger
-    content.vb: Public Sub New(publicKey As SignedPublicKey, privateKey As DSACryptoServiceProvider, logger As ILogger)
+      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.License.SignatureCreator}
+    content.vb: Public Sub New(publicKey As SignedPublicKey, privateKey As DSACryptoServiceProvider, logger As ILogger(Of SignatureCreator))
   overload: SuperOffice.License.SignatureCreator.#ctor*
-  nameWithType.vb: SignatureCreator.New(SignedPublicKey, DSACryptoServiceProvider, ILogger)
-  fullName.vb: SuperOffice.License.SignatureCreator.New(SuperOffice.License.SignedPublicKey, System.Security.Cryptography.DSACryptoServiceProvider, Microsoft.Extensions.Logging.ILogger)
-  name.vb: New(SignedPublicKey, DSACryptoServiceProvider, ILogger)
+  nameWithType.vb: SignatureCreator.New(SignedPublicKey, DSACryptoServiceProvider, ILogger(Of SignatureCreator))
+  fullName.vb: SuperOffice.License.SignatureCreator.New(SuperOffice.License.SignedPublicKey, System.Security.Cryptography.DSACryptoServiceProvider, Microsoft.Extensions.Logging.ILogger(Of SuperOffice.License.SignatureCreator))
+  name.vb: New(SignedPublicKey, DSACryptoServiceProvider, ILogger(Of SignatureCreator))
 - uid: SuperOffice.License.SignatureCreator.Sign(System.String,System.String,SuperOffice.License.ModuleLicense)
   commentId: M:SuperOffice.License.SignatureCreator.Sign(System.String,System.String,SuperOffice.License.ModuleLicense)
   id: Sign(System.String,System.String,SuperOffice.License.ModuleLicense)
@@ -1197,14 +1197,69 @@ references:
   name: SignedPublicKey
   nameWithType: SignedPublicKey
   fullName: SuperOffice.License.SignedPublicKey
-- uid: Microsoft.Extensions.Logging.ILogger
-  commentId: T:Microsoft.Extensions.Logging.ILogger
+- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.License.SignatureCreator}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.License.SignatureCreator}
   parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<SignatureCreator>
+  nameWithType: ILogger<SignatureCreator>
+  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.License.SignatureCreator>
+  nameWithType.vb: ILogger(Of SignatureCreator)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.License.SignatureCreator)
+  name.vb: ILogger(Of SignatureCreator)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: SuperOffice.License.SignatureCreator
+    name: SignatureCreator
+    isExternal: true
+    href: SuperOffice.License.SignatureCreator.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.License.SignatureCreator
+    name: SignatureCreator
+    isExternal: true
+    href: SuperOffice.License.SignatureCreator.html
+  - name: )
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger
-  name: ILogger
-  nameWithType: ILogger
-  fullName: Microsoft.Extensions.Logging.ILogger
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
 - uid: Microsoft.Extensions.Logging
   commentId: N:Microsoft.Extensions.Logging
   isExternal: true

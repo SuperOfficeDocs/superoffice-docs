@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetAssociatesDiary
 uid: v1AppointmentAgent_GetAssociatesDiary
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetAssociatesDiary
@@ -114,6 +115,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -133,11 +135,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    404,
-    868
+    377,
+    964
   ],
-  "StartTime": "2012-10-16T03:45:22.7017267+02:00",
-  "EndTime": "2020-09-02T03:45:22.7017267+02:00"
+  "StartTime": "2000-10-20T03:46:54.0039095+02:00",
+  "EndTime": "2018-10-21T03:46:54.0039095+02:00"
 }
 ```
 
@@ -149,66 +151,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 104,
-    "StartDate": "2004-04-09T03:45:22.7017267+02:00",
-    "EndDate": "2018-01-08T03:45:22.7017267+01:00",
+    "AppointmentId": 644,
+    "StartDate": "2002-10-21T03:46:54.0195335+02:00",
+    "EndDate": "2014-08-17T03:46:54.0195335+02:00",
     "Type": "BookingForChecklist",
-    "Task": "saepe",
-    "AssociateFullName": "Susanna Welch",
-    "ContactName": "Champlin Group",
-    "Description": "Optimized neutral internet solution",
-    "PersonFullName": "Presley Bailey",
-    "PersonId": 352,
-    "ContactId": 385,
-    "ProjectId": 707,
-    "ProjectName": "Cummings Group",
+    "Task": "temporibus",
+    "AssociateFullName": "Maximillia Wunsch",
+    "ContactName": "Cummings, Morissette and Mayert",
+    "Description": "Intuitive actuating structure",
+    "PersonFullName": "Santa Daugherty",
+    "PersonId": 622,
+    "ContactId": 97,
+    "ProjectId": 76,
+    "ProjectName": "Wunsch, Lakin and Abernathy",
     "IsPublished": true,
-    "AssociateId": 372,
-    "ColorIndex": 29,
-    "IsFree": true,
+    "AssociateId": 928,
+    "ColorIndex": 512,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 314,
-    "PriorityName": "Lemke, Steuber and Pacocha",
+    "PriorityId": 449,
+    "PriorityName": "Stehr Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2009-11-22T03:45:22.7017267+01:00",
+    "ActiveDate": "2020-11-05T03:46:54.0195335+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2025-01-25T03:45:22.7017267+01:00",
-    "RecurringEndDate": "2013-12-12T03:45:22.7017267+01:00",
-    "MotherId": 919,
-    "AssignedBy": 148,
-    "AssignedByFullName": "Clara Jones",
-    "RejectReason": "",
-    "Location": "voluptatem",
-    "AlarmLeadTime": "quidem",
-    "SaleId": 111,
-    "SaleName": "Rogahn-Feest",
-    "AssociateName": "Schmidt LLC",
-    "CreatedDate": "2015-03-03T03:45:22.7017267+01:00",
-    "CreatedBy": "tempora",
-    "CreatedByFullName": "Vincenzo Leannon Sr.",
-    "CreatedByAssociateId": 508,
+    "RecurringStartDate": "2004-10-10T03:46:54.0195335+02:00",
+    "RecurringEndDate": "2023-10-14T03:46:54.0195335+02:00",
+    "MotherId": 252,
+    "AssignedBy": 735,
+    "AssignedByFullName": "Mercedes McCullough",
+    "RejectReason": "matrix strategic interfaces",
+    "Location": "repudiandae",
+    "AlarmLeadTime": "quis",
+    "SaleId": 252,
+    "SaleName": "Hansen, Jerde and Leannon",
+    "AssociateName": "Bruen-Abbott",
+    "CreatedDate": "2022-05-31T03:46:54.0195335+02:00",
+    "CreatedBy": "molestiae",
+    "CreatedByFullName": "Mr. Amparo Charlene Anderson",
+    "CreatedByAssociateId": 360,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 230,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 507,
-    "Title": "eaque",
-    "Agenda": "et",
-    "InternalNotes": "reiciendis",
+    "PreferredTZLocation": 2,
+    "Title": "odio",
+    "Agenda": "enim",
+    "InternalNotes": "odio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 311
+        "FieldLength": 121
       }
     }
   }

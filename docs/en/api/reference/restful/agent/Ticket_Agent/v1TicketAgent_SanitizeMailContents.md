@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/SanitizeMailContents
 uid: v1TicketAgent_SanitizeMailContents
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/SanitizeMailContents
@@ -68,13 +69,13 @@ OK
 POST /api/v1/Agents/Ticket/SanitizeMailContents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Contents": [
-    "id",
-    "vel"
+    "nam",
+    "asperiores"
   ]
 }
 ```
@@ -86,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "quasi",
-  "numquam"
+  "dignissimos",
+  "enim"
 ]
 ```

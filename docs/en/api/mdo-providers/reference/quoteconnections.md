@@ -3,9 +3,9 @@ uid: quoteconnections
 title: quoteconnections
 keywords: mdoprovider mdo provider quoteconnections
 description: Retrieve the list of all defined Quote Connections - i.e. not the connectors (DLLs). ExtraInfo - "connectorname=Name-of-connector" - restricts results to connections defined by one particular connector.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "quoteconnections" MDO List

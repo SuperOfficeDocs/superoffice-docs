@@ -2,6 +2,7 @@
 title: POST Agents/User/GetAccessToken
 uid: v1UserAgent_GetAccessToken
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/GetAccessToken
@@ -75,7 +76,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppToken": "molestias",
+  "AppToken": "architecto",
   "IncludeCsSession": false
 }
 ```
@@ -86,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"non"
+"nesciunt"
 ```

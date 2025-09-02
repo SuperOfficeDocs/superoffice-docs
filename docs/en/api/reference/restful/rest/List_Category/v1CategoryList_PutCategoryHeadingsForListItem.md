@@ -2,6 +2,7 @@
 title: PUT List/Category/Items/{id}/Headings
 uid: v1CategoryList_PutCategoryHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/Category/Items/{id}/Headings
@@ -102,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 795,
-    "Name": "Koss, Gulgowski and Muller",
-    "ToolTip": "Voluptas in officia doloremque sit.",
-    "Deleted": false,
-    "Rank": 961,
-    "Type": "velit",
-    "ColorBlock": 516,
-    "IconHint": "voluptate",
+    "Id": 810,
+    "Name": "Dickens Group",
+    "ToolTip": "Quasi illum explicabo ratione soluta.",
+    "Deleted": true,
+    "Rank": 638,
+    "Type": "et",
+    "ColorBlock": 491,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2006-01-12T03:45:28.9827939+01:00",
+    "LastChanged": "2015-06-13T03:47:00.5818006+02:00",
     "ChildItems": [
       {
-        "Id": 431,
-        "Name": "Beatty Group",
-        "ToolTip": "Ut excepturi quo numquam sit.",
-        "Deleted": false,
-        "Rank": 598,
-        "Type": "delectus",
-        "ColorBlock": 491,
-        "IconHint": "deserunt",
+        "Id": 621,
+        "Name": "Beahan-Dibbert",
+        "ToolTip": "Minus et autem rerum atque rerum.",
+        "Deleted": true,
+        "Rank": 261,
+        "Type": "voluptatum",
+        "ColorBlock": 419,
+        "IconHint": "eligendi",
         "Selected": false,
-        "LastChanged": "2006-11-14T03:45:28.9827939+01:00",
+        "LastChanged": "2002-01-28T03:47:00.5818006+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maiores",
-        "StyleHint": "aliquid",
-        "Hidden": true,
-        "FullName": "Brendon Hammes"
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "illo",
+        "Hidden": false,
+        "FullName": "Ed Abernathy"
       }
     ],
-    "ExtraInfo": "iure",
-    "StyleHint": "quia",
+    "ExtraInfo": "sint",
+    "StyleHint": "aperiam",
     "Hidden": true,
-    "FullName": "Prof. Mohammad Dan Romaguera MD"
+    "FullName": "Gertrude Zulauf"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 868,
-    "Name": "Metz-Gottlieb",
-    "ToolTip": "Veritatis qui possimus at est aliquid.",
+    "Id": 697,
+    "Name": "Powlowski-Turcotte",
+    "ToolTip": "Est similique illo perspiciatis.",
     "Deleted": false,
-    "Rank": 936,
-    "Type": "ut",
-    "ColorBlock": 510,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2007-05-29T03:45:28.9827939+02:00",
+    "Rank": 289,
+    "Type": "quidem",
+    "ColorBlock": 680,
+    "IconHint": "nesciunt",
+    "Selected": false,
+    "LastChanged": "1999-01-20T03:47:00.5818006+01:00",
     "ChildItems": [
       {
-        "Id": 369,
-        "Name": "Padberg, Wolf and Labadie",
-        "ToolTip": "Odit impedit.",
+        "Id": 614,
+        "Name": "Pollich LLC",
+        "ToolTip": "Delectus nulla consequatur harum unde.",
         "Deleted": false,
-        "Rank": 811,
-        "Type": "placeat",
-        "ColorBlock": 701,
-        "IconHint": "voluptatem",
+        "Rank": 530,
+        "Type": "corrupti",
+        "ColorBlock": 229,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2019-03-19T03:45:28.9827939+01:00",
+        "LastChanged": "2004-12-24T03:47:00.5818006+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "nam",
-        "Hidden": false,
-        "FullName": "Floyd Goldner",
+        "ExtraInfo": "vel",
+        "StyleHint": "eaque",
+        "Hidden": true,
+        "FullName": "Terence Terry",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 977
+            "FieldLength": 122
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "et",
+    "ExtraInfo": "dolor",
+    "StyleHint": "commodi",
     "Hidden": true,
-    "FullName": "Wyatt Jakubowski",
+    "FullName": "Kim Corkery",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 522
+        "FieldType": "System.Int32",
+        "FieldLength": 755
       }
     }
   }

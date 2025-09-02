@@ -2,6 +2,7 @@
 title: POST Agents/EMail/CreateDefaultEMailAttachment
 uid: v1EMailAgent_CreateDefaultEMailAttachment
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/CreateDefaultEMailAttachment
@@ -10,10 +11,7 @@ generated: true
 POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
 ```
 
-Set default values into a new EMailAttachment.
-
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
+Loading default values into a new EMailAttachment.
 
 
 ## Online Restricted: ## The EMail agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -68,7 +66,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,13 +76,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-tiered leading edge intranet",
-  "Filename": "ex",
-  "Size": 620,
-  "Type": "et",
-  "Encoding": "aut",
-  "Id": "quia",
-  "Disposition": "saepe",
+  "Description": "Enhanced global encoding",
+  "Filename": "harum",
+  "Size": 309,
+  "Type": "praesentium",
+  "Encoding": "sed",
+  "Id": "omnis",
+  "Disposition": "quis",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -92,7 +90,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 273
+      "FieldLength": 158
     }
   }
 }

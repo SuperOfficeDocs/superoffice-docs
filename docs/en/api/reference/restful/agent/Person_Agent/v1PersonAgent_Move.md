@@ -2,6 +2,7 @@
 title: POST Agents/Person/Move
 uid: v1PersonAgent_Move
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/Move
@@ -68,13 +69,13 @@ No Content
 POST /api/v1/Agents/Person/Move
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 84,
-  "DestinationContactId": 517,
-  "MoveAfterDate": "2003-06-01T03:45:23.7016984+02:00"
+  "PersonId": 451,
+  "DestinationContactId": 80,
+  "MoveAfterDate": "2004-03-18T03:46:55.0819959+01:00"
 }
 ```
 

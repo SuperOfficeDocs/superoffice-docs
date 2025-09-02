@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/CreateDefaultForeignAppEntity
 uid: v1ForeignSystemAgent_CreateDefaultForeignAppEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/CreateDefaultForeignAppEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 ```
 
-Set default values into a new ForeignAppEntity.
+Loading default values into a new ForeignAppEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -63,7 +62,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,29 +72,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 268,
-  "Name": "Hyatt-Green",
-  "CreatedDate": "2008-02-13T03:45:23.4829546+01:00",
-  "UpdatedDate": "2013-06-13T03:45:23.4829546+02:00",
+  "ForeignAppId": 48,
+  "Name": "Klocko-Smith",
+  "CreatedDate": "2016-10-13T03:46:54.8320045+02:00",
+  "UpdatedDate": "2006-08-24T03:46:54.8320045+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 400,
-      "Name": "Ondricka, Orn and DuBuque",
-      "CreatedDate": "2017-10-28T03:45:23.4829546+02:00",
-      "UpdatedDate": "2001-01-30T03:45:23.4829546+01:00",
-      "AssociateFullName": "Michelle Fay",
-      "CreatedBy": "nesciunt",
-      "UpdatedBy": "sint",
-      "DeviceIdentifier": "minus",
-      "ForeignAppId": 717,
+      "ForeignDeviceId": 263,
+      "Name": "Quigley-O'Reilly",
+      "CreatedDate": "1999-02-14T03:46:54.8320045+01:00",
+      "UpdatedDate": "2010-07-08T03:46:54.8320045+02:00",
+      "AssociateFullName": "Dr. Caroline Justice Bahringer Sr.",
+      "CreatedBy": "non",
+      "UpdatedBy": "eligendi",
+      "DeviceIdentifier": "tenetur",
+      "ForeignAppId": 384,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 122
+          "FieldLength": 236
         }
       }
     }
@@ -104,8 +103,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldType": "System.String",
+      "FieldLength": 623
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/EMail/EmptyFolder
 uid: v1EMailAgent_EmptyFolder
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/EmptyFolder
@@ -67,12 +68,12 @@ No Content
 POST /api/v1/Agents/EMail/EmptyFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MoveToFolder": "sunt"
+  "MoveToFolder": "perspiciatis"
 }
 ```
 

@@ -2,6 +2,7 @@
 title: POST Agents/Quote/CopySuperOfficePriceList
 uid: v1QuoteAgent_CopySuperOfficePriceList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/CopySuperOfficePriceList
@@ -87,15 +88,15 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 199,
-  "NewName": "Yost, Marquardt and Ebert",
-  "ValidFrom": "2013-07-24T03:45:23.8110701+02:00",
-  "ValidTo": "2017-07-22T03:45:23.8110701+02:00",
-  "NewCurrencyId": 60,
+  "OriginalPriceListId": 197,
+  "NewName": "Ziemann LLC",
+  "ValidFrom": "2006-06-14T03:46:55.2069913+02:00",
+  "ValidTo": "2016-05-06T03:46:55.2069913+02:00",
+  "NewCurrencyId": 420,
   "ConvertCurrency": false
 }
 ```
@@ -107,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 88,
-  "ERPPriceListKey": "eum",
-  "QuoteConnectionId": 138,
-  "Name": "Friesen-Blanda",
-  "Description": "Distributed bifurcated internet solution",
-  "Currency": "ut",
-  "CurrencyName": "Kertzmann LLC",
-  "ValidFrom": "2003-04-23T03:45:23.8110701+02:00",
-  "ValidTo": "2001-06-09T03:45:23.8110701+02:00",
+  "PriceListId": 627,
+  "ERPPriceListKey": "assumenda",
+  "QuoteConnectionId": 914,
+  "Name": "Maggio, Carroll and Feil",
+  "Description": "Fundamental 5th generation website",
+  "Currency": "numquam",
+  "CurrencyName": "Windler, Schinner and Nitzsche",
+  "ValidFrom": "2009-06-04T03:46:55.2069913+02:00",
+  "ValidTo": "2012-10-02T03:46:55.2069913+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 196
+      "FieldLength": 36
     }
   }
 }

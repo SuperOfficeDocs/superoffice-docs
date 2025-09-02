@@ -2,6 +2,7 @@
 title: POST Agents/Preference/GetAllFromSection
 uid: v1PreferenceAgent_GetAllFromSection
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/GetAllFromSection
@@ -90,11 +91,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "voluptatem"
+  "Section": "aspernatur"
 }
 ```
 
@@ -106,30 +107,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 546,
-    "Section": "ad",
-    "Key": "nisi",
-    "Name": "Boehm, Murazik and Lang",
+    "PrefDescId": 211,
+    "Section": "labore",
+    "Key": "ipsum",
+    "Name": "Farrell, Boehm and Hayes",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Seamless content-based throughput",
+    "Description": "Digitized fresh-thinking analyzer",
     "IsBuiltin": false,
-    "TableName": "Fahey Inc and Sons",
-    "UserDefinedListId": 602,
-    "Rank": 374,
-    "SubGroup": "in",
-    "MinLevel": 479,
-    "MaxValue": 575,
-    "MinValue": 967,
-    "RequiredLicense": "id",
+    "TableName": "Ebert Inc and Sons",
+    "UserDefinedListId": 139,
+    "Rank": 759,
+    "SubGroup": "facilis",
+    "MinLevel": 798,
+    "MaxValue": 809,
+    "MinValue": 583,
+    "RequiredLicense": "ipsam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 724
+        "FieldLength": 798
       }
     }
   }

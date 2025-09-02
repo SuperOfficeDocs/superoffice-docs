@@ -2,6 +2,7 @@
 title: GET List/Currency/Items/{id}/UserGroups
 uid: v1CurrencyList_GetCurrencyEntityUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Currency/Items/{id}/UserGroups
@@ -75,7 +76,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 422,
-    "Name": "Jewess, Hackett and Padberg",
-    "ToolTip": "Tempora totam.",
+    "Id": 796,
+    "Name": "Marks-Dickens",
+    "ToolTip": "Ut voluptatem molestiae placeat ab veritatis facere natus.",
     "Deleted": false,
-    "Rank": 437,
-    "Type": "tempora",
-    "ColorBlock": 445,
-    "IconHint": "laborum",
+    "Rank": 312,
+    "Type": "recusandae",
+    "ColorBlock": 476,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "1998-11-17T03:45:29.014043+01:00",
+    "LastChanged": "2003-08-04T03:47:00.628674+02:00",
     "ChildItems": [
       {
-        "Id": 568,
-        "Name": "Wolff Group",
-        "ToolTip": "Eligendi qui aliquid qui provident sit molestiae.",
-        "Deleted": false,
-        "Rank": 613,
-        "Type": "aliquam",
-        "ColorBlock": 659,
-        "IconHint": "culpa",
+        "Id": 403,
+        "Name": "Kihn Inc and Sons",
+        "ToolTip": "Exercitationem ratione ab quidem ipsam sit eos.",
+        "Deleted": true,
+        "Rank": 494,
+        "Type": "itaque",
+        "ColorBlock": 962,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2010-04-05T03:45:29.014043+02:00",
+        "LastChanged": "2018-05-24T03:47:00.628674+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "omnis",
+        "ExtraInfo": "aut",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Mrs. Holden Ebert",
+        "FullName": "Cristal Gleichner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 822
+            "FieldType": "System.String",
+            "FieldLength": 282
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Wellington Cassin",
+    "ExtraInfo": "placeat",
+    "StyleHint": "illo",
+    "Hidden": true,
+    "FullName": "Emmet King Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 246
+        "FieldLength": 885
       }
     }
   }

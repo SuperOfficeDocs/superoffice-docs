@@ -2,6 +2,7 @@
 title: PUT List/ProjectType/Items/{id}
 uid: v1ProjectTypeList_PutProjectType
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProjectType/Items/{id}
@@ -78,16 +79,16 @@ OK
 PUT /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 933,
-  "Name": "Hudson-Mitchell",
-  "Tooltip": "eligendi",
+  "Id": 890,
+  "Name": "Runolfsson Group",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 390,
-  "Rank": 935
+  "UdListDefinitionId": 430,
+  "Rank": 901
 }
 ```
 
@@ -98,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 85,
-  "Name": "Legros, Senger and Gutkowski",
-  "Tooltip": "quisquam",
-  "Deleted": false,
-  "UdListDefinitionId": 591,
-  "Rank": 629,
+  "Id": 570,
+  "Name": "Hayes, Oberbrunner and Rodriguez",
+  "Tooltip": "non",
+  "Deleted": true,
+  "UdListDefinitionId": 494,
+  "Rank": 879,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 149
+      "FieldLength": 853
     }
   }
 }

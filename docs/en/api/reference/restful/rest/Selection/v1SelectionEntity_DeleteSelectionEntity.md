@@ -2,6 +2,7 @@
 title: DEL Selection/{id}
 uid: v1SelectionEntity_DeleteSelectionEntity
 generated: true
+content_type: reference
 ---
 
 # DEL Selection/{id}
@@ -50,7 +51,7 @@ No Content
 DELETE /api/v1/Selection/{selectionEntityId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetPersonAppointments
 uid: v1AppointmentAgent_GetPersonAppointments
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetPersonAppointments
@@ -118,6 +119,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -132,15 +134,15 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 767,
+  "PersonId": 326,
   "IncludeProjectAppointments": false,
-  "StartTime": "2007-01-29T03:45:22.9517163+01:00",
-  "EndTime": "2012-05-06T03:45:22.9517163+02:00",
-  "Count": 977
+  "StartTime": "2008-06-02T03:46:54.2695244+02:00",
+  "EndTime": "2025-08-01T03:46:54.2695244+02:00",
+  "Count": 548
 }
 ```
 
@@ -152,66 +154,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 874,
-    "StartDate": "2009-12-28T03:45:22.9517163+01:00",
-    "EndDate": "2012-05-29T03:45:22.9517163+02:00",
+    "AppointmentId": 688,
+    "StartDate": "2009-06-25T03:46:54.2695244+02:00",
+    "EndDate": "2011-08-09T03:46:54.2695244+02:00",
     "Type": "BookingForChecklist",
-    "Task": "sint",
-    "AssociateFullName": "Dr. Laurence Lauren Stark",
-    "ContactName": "Ledner-Bahringer",
-    "Description": "Mandatory exuding application",
-    "PersonFullName": "Dr. Christelle Goyette",
-    "PersonId": 2,
-    "ContactId": 518,
-    "ProjectId": 167,
-    "ProjectName": "Kuphal-Hartmann",
+    "Task": "eos",
+    "AssociateFullName": "Loma Donnelly MD",
+    "ContactName": "Langworth-Kuvalis",
+    "Description": "Total dynamic local area network",
+    "PersonFullName": "Stone Marks",
+    "PersonId": 217,
+    "ContactId": 921,
+    "ProjectId": 43,
+    "ProjectName": "Schoen LLC",
     "IsPublished": false,
-    "AssociateId": 762,
-    "ColorIndex": 112,
-    "IsFree": true,
+    "AssociateId": 96,
+    "ColorIndex": 152,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 765,
-    "PriorityName": "O'Keefe-Kohler",
+    "PriorityId": 252,
+    "PriorityName": "Keeling-Hessel",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2009-03-02T03:45:22.967341+01:00",
+    "ActiveDate": "2020-08-27T03:46:54.2695244+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2016-04-11T03:45:22.967341+02:00",
-    "RecurringEndDate": "2009-03-16T03:45:22.967341+01:00",
-    "MotherId": 361,
-    "AssignedBy": 779,
-    "AssignedByFullName": "Amelia Murazik",
+    "RecurringStartDate": "2005-01-21T03:46:54.2695244+01:00",
+    "RecurringEndDate": "2008-03-24T03:46:54.2695244+01:00",
+    "MotherId": 180,
+    "AssignedBy": 735,
+    "AssignedByFullName": "Ms. Danial Hillard Bogan",
     "RejectReason": "",
-    "Location": "commodi",
-    "AlarmLeadTime": "natus",
-    "SaleId": 373,
-    "SaleName": "Waelchi-Lindgren",
-    "AssociateName": "Smitham-Ward",
-    "CreatedDate": "2002-06-27T03:45:22.967341+02:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Garrett Goldner",
-    "CreatedByAssociateId": 338,
+    "Location": "est",
+    "AlarmLeadTime": "iure",
+    "SaleId": 815,
+    "SaleName": "Lueilwitz-Legros",
+    "AssociateName": "Predovic, Hansen and Erdman",
+    "CreatedDate": "2014-05-28T03:46:54.2695244+02:00",
+    "CreatedBy": "corrupti",
+    "CreatedByFullName": "Charlie Wintheiser",
+    "CreatedByAssociateId": 861,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 253,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 7,
-    "Title": "iste",
-    "Agenda": "facilis",
-    "InternalNotes": "nam",
+    "PreferredTZLocation": 622,
+    "Title": "consectetur",
+    "Agenda": "quia",
+    "InternalNotes": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 159
+        "FieldLength": 167
       }
     }
   }

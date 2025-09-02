@@ -2,10 +2,10 @@
 uid: table-document
 title: document table
 description: Documents, this table is an extension of the Appointment table.  There is always a corresponding appointment record; the relation between appointment and document is navigable in both directions. A document-type appointment record always has a corresponding document record and a record in VisibleFor specifying who may see this.  
-so.generated: true
+generated: true
 keywords: database table document
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # document Table (10)

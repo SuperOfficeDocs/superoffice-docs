@@ -13,6 +13,7 @@ items:
   - SuperOffice.Util.AccessGateway.TokenManagementInfo
   - SuperOffice.Util.AppointmentUtility
   - SuperOffice.Util.AttributeFetcher
+  - SuperOffice.Util.BizCardResult
   - SuperOffice.Util.ByteOrderMarkerEncodingDetector
   - SuperOffice.Util.CalendarExtensions
   - SuperOffice.Util.CalendarUtility
@@ -1155,6 +1156,13 @@ references:
   name: RagAIConfiguration
   nameWithType: RagAIConfiguration
   fullName: SuperOffice.Util.RagAIConfiguration
+- uid: SuperOffice.Util.BizCardResult
+  commentId: T:SuperOffice.Util.BizCardResult
+  isExternal: true
+  href: SuperOffice.Util.BizCardResult.html
+  name: BizCardResult
+  nameWithType: BizCardResult
+  fullName: SuperOffice.Util.BizCardResult
 - uid: SuperOffice.Util.RagAIHelper
   commentId: T:SuperOffice.Util.RagAIHelper
   isExternal: true

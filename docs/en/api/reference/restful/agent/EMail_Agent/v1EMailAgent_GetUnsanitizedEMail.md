@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetUnsanitizedEMail
 uid: v1EMailAgent_GetUnsanitizedEMail
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetUnsanitizedEMail
@@ -108,8 +109,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 597,
-  "IncludeAttachments": false
+  "Id": 656,
+  "IncludeAttachments": true
 }
 ```
 
@@ -122,97 +123,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 935,
-      "ContactName": "Schneider-Nicolas",
-      "PersonId": 625,
-      "PersonName": "Walsh-Windler",
-      "AssociateId": 416,
-      "Address": "molestiae",
-      "EmailId": 205,
+      "ContactId": 753,
+      "ContactName": "Bednar Inc and Sons",
+      "PersonId": 202,
+      "PersonName": "Torphy, Lemke and Mann",
+      "AssociateId": 774,
+      "Address": "sunt",
+      "EmailId": 542,
       "DuplicatePersonIds": [
-        5,
-        421
+        180,
+        635
       ],
-      "Name": "Krajcik-Wolf",
+      "Name": "Hermiston Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 939
+          "FieldLength": 131
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 146,
-      "ContactName": "Koss, Bernier and Smitham",
-      "PersonId": 830,
-      "PersonName": "Roob-Kris",
-      "AssociateId": 920,
-      "Address": "ipsa",
-      "EmailId": 74,
+      "ContactId": 59,
+      "ContactName": "Balistreri, Kutch and Harvey",
+      "PersonId": 561,
+      "PersonName": "Halvorson-Welch",
+      "AssociateId": 229,
+      "Address": "vero",
+      "EmailId": 650,
       "DuplicatePersonIds": [
-        803,
-        29
+        915,
+        19
       ],
-      "Name": "McKenzie, Windler and Bauch",
+      "Name": "Brekke, Weimann and Morissette",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 375
+          "FieldType": "System.String",
+          "FieldLength": 63
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 852,
-      "ContactName": "Nader, Mraz and Zboncak",
-      "PersonId": 667,
-      "PersonName": "Smitham Group",
-      "AssociateId": 207,
-      "Address": "ducimus",
-      "EmailId": 549,
+      "ContactId": 411,
+      "ContactName": "Kshlerin, Feeney and Daniel",
+      "PersonId": 686,
+      "PersonName": "Johns, Gorczany and Parisian",
+      "AssociateId": 52,
+      "Address": "temporibus",
+      "EmailId": 550,
       "DuplicatePersonIds": [
-        516,
-        250
+        527,
+        803
       ],
-      "Name": "Hahn-Mayert",
+      "Name": "Halvorson Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 372
+          "FieldType": "System.String",
+          "FieldLength": 288
         }
       }
     }
   ],
-  "Subject": "qui",
-  "HTMLBody": "ab",
+  "Subject": "consequuntur",
+  "HTMLBody": "optio",
   "From": null,
-  "Sent": "2012-12-18T03:45:23.4517052+01:00",
-  "Size": 329,
+  "Sent": "2001-08-07T03:46:54.8007556+02:00",
+  "Size": 569,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aspernatur",
-  "PlainBody": "et",
+  "MessageID": "asperiores",
+  "PlainBody": "veritatis",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 623,
+  "ServerId": 32,
   "Attachments": [
     {
-      "Description": "Profit-focused maximized interface",
-      "Filename": "culpa",
-      "Size": 931,
-      "Type": "at",
-      "Encoding": "mollitia",
-      "Id": "ea",
-      "Disposition": "eius",
+      "Description": "Secured incremental middleware",
+      "Filename": "eum",
+      "Size": 250,
+      "Type": "qui",
+      "Encoding": "fuga",
+      "Id": "impedit",
+      "Disposition": "consectetur",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -220,58 +221,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 172
+          "FieldLength": 363
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Bogan Group",
+      "Name": "Spinka-Zieme",
       "Values": [
-        "qui",
-        "illum"
+        "quia",
+        "nihil"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 674
+          "FieldType": "System.String",
+          "FieldLength": 154
         }
       }
     },
     {
-      "Name": "Bogan Group",
+      "Name": "Spinka-Zieme",
       "Values": [
-        "qui",
-        "illum"
+        "quia",
+        "nihil"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 674
+          "FieldType": "System.String",
+          "FieldLength": 154
         }
       }
     }
   ],
-  "FolderName": "Price, Gislason and O'Keefe",
-  "EmailItemId": 888,
-  "AccountId": 507,
-  "ReceivedAt": "2013-01-20T03:45:23.4517052+01:00",
+  "FolderName": "Walsh, Orn and Berge",
+  "EmailItemId": 64,
+  "AccountId": 265,
+  "ReceivedAt": "2019-04-24T03:46:54.8007556+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-09-18T03:45:23.4517052+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2013-05-10T03:46:54.8007556+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 508
+      "FieldType": "System.String",
+      "FieldLength": 326
     }
   }
 }

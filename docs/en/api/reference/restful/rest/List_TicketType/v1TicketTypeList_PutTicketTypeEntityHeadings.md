@@ -2,6 +2,7 @@
 title: PUT List/TicketType/Headings
 uid: v1TicketTypeList_PutTicketTypeEntityHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/TicketType/Headings
@@ -80,20 +81,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 681,
-    "Name": "Bergnaum-Stracke",
-    "Tooltip": "est",
+    "HeadingId": 114,
+    "Name": "Runte, Bednar and Hahn",
+    "Tooltip": "a",
     "Deleted": false,
-    "Rank": 332,
-    "UdListDefinitionId": 917
+    "Rank": 602,
+    "UdListDefinitionId": 784
   },
   {
-    "HeadingId": 681,
-    "Name": "Bergnaum-Stracke",
-    "Tooltip": "est",
+    "HeadingId": 114,
+    "Name": "Runte, Bednar and Hahn",
+    "Tooltip": "a",
     "Deleted": false,
-    "Rank": 332,
-    "UdListDefinitionId": 917
+    "Rank": 602,
+    "UdListDefinitionId": 784
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 179,
-    "Name": "Kautzer, Schiller and Parker",
-    "Tooltip": "dolorem",
-    "Deleted": false,
-    "Rank": 505,
-    "UdListDefinitionId": 282,
+    "HeadingId": 552,
+    "Name": "O'Keefe-Greenholt",
+    "Tooltip": "quae",
+    "Deleted": true,
+    "Rank": 205,
+    "UdListDefinitionId": 168,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 250
+        "FieldLength": 963
       }
     }
   }

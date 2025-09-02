@@ -2,6 +2,7 @@
 title: Services88.ViewStateAgent.SaveHistories SOAP
 generated: true
 uid: Services88-ViewState-SaveHistories
+content_type: reference
 ---
 
 # Services88 ViewState SaveHistories

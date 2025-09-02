@@ -2,6 +2,7 @@
 title: POST Agents/Dash/DeleteDashTheme
 uid: v1DashAgent_DeleteDashTheme
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/DeleteDashTheme
@@ -22,10 +23,10 @@ Deletes the DashTheme
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| DashThemeId | int32 | **Required** The id of the DashTheme to be deleted. |
+| dashThemeId | int32 | **Required** The identity of the DashTheme |
 
 ```http
-POST /api/v1/Agents/Dash/DeleteDashTheme?DashThemeId=308
+POST /api/v1/Agents/Dash/DeleteDashTheme?dashThemeId=361
 ```
 
 
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/Dash/DeleteDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

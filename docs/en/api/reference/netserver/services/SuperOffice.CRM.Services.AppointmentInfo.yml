@@ -23,7 +23,9 @@ items:
   - SuperOffice.CRM.Services.AppointmentInfo.IsRecurring
   - SuperOffice.CRM.Services.AppointmentInfo.IsTentative
   - SuperOffice.CRM.Services.AppointmentInfo.IsVideoMeeting
+  - SuperOffice.CRM.Services.AppointmentInfo.MotherAssociateId
   - SuperOffice.CRM.Services.AppointmentInfo.MotherId
+  - SuperOffice.CRM.Services.AppointmentInfo.OwnedExternally
   - SuperOffice.CRM.Services.AppointmentInfo.PersonName
   - SuperOffice.CRM.Services.AppointmentInfo.ProjectName
   - SuperOffice.CRM.Services.AppointmentInfo.RecurrenceInfo
@@ -54,11 +56,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")]
 
       public class AppointmentInfo : Carrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.2.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")>
 
       Public Class AppointmentInfo Inherits Carrier
   seealso:
@@ -73,7 +75,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.2.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.3.0.0
 - uid: SuperOffice.CRM.Services.AppointmentInfo.#ctor
   commentId: M:SuperOffice.CRM.Services.AppointmentInfo.#ctor
   id: '#ctor'
@@ -978,6 +980,72 @@ items:
   - type: System.Runtime.Serialization.DataMemberAttribute
     ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
     arguments: []
+- uid: SuperOffice.CRM.Services.AppointmentInfo.OwnedExternally
+  commentId: P:SuperOffice.CRM.Services.AppointmentInfo.OwnedExternally
+  id: OwnedExternally
+  parent: SuperOffice.CRM.Services.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: OwnedExternally
+  nameWithType: AppointmentInfo.OwnedExternally
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.OwnedExternally
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Set if an external system owns this appointment.
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual AppointmentExternalOwner OwnedExternally { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.AppointmentExternalOwner
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property OwnedExternally As AppointmentExternalOwner
+  overload: SuperOffice.CRM.Services.AppointmentInfo.OwnedExternally*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.CRM.Services.AppointmentInfo.MotherAssociateId
+  commentId: P:SuperOffice.CRM.Services.AppointmentInfo.MotherAssociateId
+  id: MotherAssociateId
+  parent: SuperOffice.CRM.Services.AppointmentInfo
+  langs:
+  - csharp
+  - vb
+  name: MotherAssociateId
+  nameWithType: AppointmentInfo.MotherAssociateId
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.MotherAssociateId
+  type: Property
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Associate/owner of the mother appointment
+  example: []
+  syntax:
+    content: >-
+      [DataMember]
+
+      public virtual int MotherAssociateId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <DataMember>
+
+      Public Overridable Property MotherAssociateId As Integer
+  overload: SuperOffice.CRM.Services.AppointmentInfo.MotherAssociateId*
+  attributes:
+  - type: System.Runtime.Serialization.DataMemberAttribute
+    ctor: System.Runtime.Serialization.DataMemberAttribute.#ctor
+    arguments: []
 references:
 - uid: SuperOffice.CRM.Services.IAppointmentAgent
   commentId: T:SuperOffice.CRM.Services.IAppointmentAgent
@@ -1288,3 +1356,22 @@ references:
   name: IsBooking
   nameWithType: AppointmentInfo.IsBooking
   fullName: SuperOffice.CRM.Services.AppointmentInfo.IsBooking
+- uid: SuperOffice.CRM.Services.AppointmentInfo.OwnedExternally*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.OwnedExternally
+  isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_OwnedExternally
+  name: OwnedExternally
+  nameWithType: AppointmentInfo.OwnedExternally
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.OwnedExternally
+- uid: SuperOffice.Data.AppointmentExternalOwner
+  isExternal: true
+  name: AppointmentExternalOwner
+  nameWithType: AppointmentExternalOwner
+  fullName: SuperOffice.Data.AppointmentExternalOwner
+- uid: SuperOffice.CRM.Services.AppointmentInfo.MotherAssociateId*
+  commentId: Overload:SuperOffice.CRM.Services.AppointmentInfo.MotherAssociateId
+  isExternal: true
+  href: SuperOffice.CRM.Services.AppointmentInfo.html#SuperOffice_CRM_Services_AppointmentInfo_MotherAssociateId
+  name: MotherAssociateId
+  nameWithType: AppointmentInfo.MotherAssociateId
+  fullName: SuperOffice.CRM.Services.AppointmentInfo.MotherAssociateId

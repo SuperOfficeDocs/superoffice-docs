@@ -2,6 +2,7 @@
 title: POST BatchTask/{id}/Stop
 uid: v1Batch_StopBatchJob
 generated: true
+content_type: reference
 ---
 
 # POST BatchTask/{id}/Stop
@@ -55,7 +56,7 @@ OK
 POST /api/v1/BatchTask/{id}/Stop
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

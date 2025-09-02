@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Rows.EjscriptRecordData.#ctor
   - SuperOffice.CRM.Rows.EjscriptRecordData.AccessKey
+  - SuperOffice.CRM.Rows.EjscriptRecordData.BlockedVerbs
   - SuperOffice.CRM.Rows.EjscriptRecordData.Body
   - SuperOffice.CRM.Rows.EjscriptRecordData.Description
   - SuperOffice.CRM.Rows.EjscriptRecordData.EjscriptId
@@ -532,6 +533,27 @@ items:
     return:
       type: System.String
     content.vb: Public SourceMaps As String
+- uid: SuperOffice.CRM.Rows.EjscriptRecordData.BlockedVerbs
+  commentId: F:SuperOffice.CRM.Rows.EjscriptRecordData.BlockedVerbs
+  id: BlockedVerbs
+  parent: SuperOffice.CRM.Rows.EjscriptRecordData
+  langs:
+  - csharp
+  - vb
+  name: BlockedVerbs
+  nameWithType: EjscriptRecordData.BlockedVerbs
+  fullName: SuperOffice.CRM.Rows.EjscriptRecordData.BlockedVerbs
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: The verbs that are blocked when calling a ejscript over HTTP
+  example: []
+  syntax:
+    content: public EjScriptVerb BlockedVerbs
+    return:
+      type: SuperOffice.Data.EjScriptVerb
+    content.vb: Public BlockedVerbs As EjScriptVerb
 - uid: SuperOffice.CRM.Rows.EjscriptRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.EjscriptRecordData.#ctor
   id: '#ctor'
@@ -1504,6 +1526,14 @@ references:
     name: Data
     isExternal: true
     href: SuperOffice.Data.html
+- uid: SuperOffice.Data.EjScriptVerb
+  commentId: T:SuperOffice.Data.EjScriptVerb
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.EjScriptVerb.html
+  name: EjScriptVerb
+  nameWithType: EjScriptVerb
+  fullName: SuperOffice.Data.EjScriptVerb
 - uid: SuperOffice.CRM.Rows.EjscriptRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.EjscriptRecordData.#ctor
   isExternal: true

@@ -2,6 +2,7 @@
 title: POST Agents/Marketing/GetShipmentMessageBlockEntity
 uid: v1MarketingAgent_GetShipmentMessageBlockEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Marketing/GetShipmentMessageBlockEntity
@@ -22,11 +23,11 @@ Gets a ShipmentMessageBlockEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| shipmentMessageBlockEntityId | int32 | **Required** The primary key. |
+| shipmentMessageBlockEntityId | int32 | **Required** The identifier of the ShipmentMessageBlockEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?shipmentMessageBlockEntityId=488
+POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?shipmentMessageBlockEntityId=277
 POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity?$select=name,department,category/id
 ```
 
@@ -74,7 +75,7 @@ OK
 POST /api/v1/Agents/Marketing/GetShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,20 +85,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 98,
-  "AssociateId": 46,
-  "Block": "exercitationem",
-  "Registered": "2023-12-14T03:45:23.6391999+01:00",
-  "RegisteredAssociateId": 562,
-  "Updated": "2003-04-22T03:45:23.6391999+02:00",
-  "UpdatedAssociateId": 848,
-  "UpdatedCount": 281,
+  "ShipmentMessageBlockId": 266,
+  "AssociateId": 1000,
+  "Block": "quo",
+  "Registered": "2009-11-16T03:46:55.0038735+01:00",
+  "RegisteredAssociateId": 360,
+  "Updated": "2016-12-20T03:46:55.0038735+01:00",
+  "UpdatedAssociateId": 216,
+  "UpdatedCount": 412,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 981
+      "FieldType": "System.String",
+      "FieldLength": 173
     }
   }
 }

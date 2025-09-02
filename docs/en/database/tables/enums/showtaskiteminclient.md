@@ -2,10 +2,10 @@
 uid: enum-showtaskiteminclient
 title: Enum values for ShowTaskItemInClient
 description: Lists the enum values for ShowTaskItemInClient.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ShowTaskItemInClient Enum

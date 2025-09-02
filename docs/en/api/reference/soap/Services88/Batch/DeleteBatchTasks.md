@@ -2,6 +2,7 @@
 title: Services88.BatchAgent.DeleteBatchTasks SOAP
 generated: true
 uid: Services88-Batch-DeleteBatchTasks
+content_type: reference
 ---
 
 # Services88 Batch DeleteBatchTasks

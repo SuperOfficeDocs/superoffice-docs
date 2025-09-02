@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-Project
 title: Services88.ProjectAgent WSDL
+content_type: reference
 ---
 
 # Services88.ProjectAgent WSDL
@@ -254,6 +255,8 @@ title: Services88.ProjectAgent WSDL
               <xs:element minOccurs="0" name="Deleted" type="xs:boolean" />
               <xs:element minOccurs="0" name="EjUserId" type="xs:int" />
               <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="q29:StringDictionary" />
+              <xs:element minOccurs="0" name="CustomFields" nillable="true" type="q29:StringDictionary" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
@@ -270,50 +273,6 @@ title: Services88.ProjectAgent WSDL
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="UserType" nillable="true" type="q31:UserType" xmlns:q31="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-      <xs:complexType name="ProjectStatus">
-        <xs:complexContent mixed="false">
-          <xs:extension base="q32:Carrier" xmlns:q32="http://www.superoffice.net/ws/crm/NetServer/Services88">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="Id" type="xs:int" />
-              <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="ProjectStatus" nillable="true" type="q33:ProjectStatus" xmlns:q33="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-      <xs:complexType name="ProjectType">
-        <xs:complexContent mixed="false">
-          <xs:extension base="q34:Carrier" xmlns:q34="http://www.superoffice.net/ws/crm/NetServer/Services88">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="Id" type="xs:int" />
-              <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="ProjectType" nillable="true" type="q35:ProjectType" xmlns:q35="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-      <xs:complexType name="ArrayOfLink">
-        <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="Link" nillable="true" type="q36:Link" xmlns:q36="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-        </xs:sequence>
-      </xs:complexType>
-      <xs:element name="ArrayOfLink" nillable="true" type="q37:ArrayOfLink" xmlns:q37="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-      <xs:complexType name="Link">
-        <xs:complexContent mixed="false">
-          <xs:extension base="q38:Carrier" xmlns:q38="http://www.superoffice.net/ws/crm/NetServer/Services88">
-            <xs:sequence>
-              <xs:element minOccurs="0" name="EntityName" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="Id" type="xs:int" />
-              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="ExtraInfo" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="LinkId" type="xs:int" />
-            </xs:sequence>
-          </xs:extension>
-        </xs:complexContent>
-      </xs:complexType>
-      <xs:element name="Link" nillable="true" type="q39:Link" xmlns:q39="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="StringDictionary">
         <xs:annotation>
           <xs:appinfo>
@@ -331,7 +290,51 @@ title: Services88.ProjectAgent WSDL
           </xs:element>
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="StringDictionary" nillable="true" type="q40:StringDictionary" xmlns:q40="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="StringDictionary" nillable="true" type="q32:StringDictionary" xmlns:q32="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:complexType name="ProjectStatus">
+        <xs:complexContent mixed="false">
+          <xs:extension base="q33:Carrier" xmlns:q33="http://www.superoffice.net/ws/crm/NetServer/Services88">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Id" type="xs:int" />
+              <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="ProjectStatus" nillable="true" type="q34:ProjectStatus" xmlns:q34="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:complexType name="ProjectType">
+        <xs:complexContent mixed="false">
+          <xs:extension base="q35:Carrier" xmlns:q35="http://www.superoffice.net/ws/crm/NetServer/Services88">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Id" type="xs:int" />
+              <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Tooltip" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="ProjectType" nillable="true" type="q36:ProjectType" xmlns:q36="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:complexType name="ArrayOfLink">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Link" nillable="true" type="q37:Link" xmlns:q37="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfLink" nillable="true" type="q38:ArrayOfLink" xmlns:q38="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:complexType name="Link">
+        <xs:complexContent mixed="false">
+          <xs:extension base="q39:Carrier" xmlns:q39="http://www.superoffice.net/ws/crm/NetServer/Services88">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="EntityName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Id" type="xs:int" />
+              <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="ExtraInfo" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="LinkId" type="xs:int" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="Link" nillable="true" type="q40:Link" xmlns:q40="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="SoExceptionInfo">
         <xs:sequence>
           <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
@@ -884,6 +887,7 @@ title: Services88.ProjectAgent WSDL
               <xs:element minOccurs="0" name="CreatedByAssociateId" type="xs:int" />
               <xs:element minOccurs="0" name="CautionWarning" type="q83:AppointmentCautionWarning" />
               <xs:element minOccurs="0" name="OwnedExternally" type="q83:AppointmentExternalOwner" />
+              <xs:element minOccurs="0" name="MotherAssociateId" type="xs:int" />
               <xs:element minOccurs="0" name="JoinVideomeetUrl" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="PreferredTZLocation" type="xs:int" />
               <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
@@ -1151,6 +1155,19 @@ title: Services88.ProjectAgent WSDL
           <xs:sequence>
             <xs:element minOccurs="0" name="Response" nillable="true" type="q96:StringDictionary" xmlns:q96="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetCompleted">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="ProjectId" type="xs:int" />
+            <xs:element minOccurs="0" name="IsCompleted" type="xs:boolean" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="SetCompletedResponse">
+        <xs:complexType>
+          <xs:sequence />
         </xs:complexType>
       </xs:element>
       <xs:element name="GetProjectEvent">
@@ -2037,6 +2054,23 @@ title: Services88.ProjectAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="SetCompletedRequest">
+    <wsdl:part name="parameters" element="tns:SetCompleted" />
+  </wsdl:message>
+  <wsdl:message name="SetCompletedRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="SetCompletedResponse">
+    <wsdl:part name="parameters" element="tns:SetCompletedResponse" />
+  </wsdl:message>
+  <wsdl:message name="SetCompletedResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetProjectEventRequest">
     <wsdl:part name="parameters" element="tns:GetProjectEvent" />
   </wsdl:message>
@@ -2540,6 +2574,10 @@ title: Services88.ProjectAgent WSDL
     <wsdl:operation name="ValidateProjectEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Project/ValidateProjectEntity" name="ValidateProjectEntityRequest" message="tns:ValidateProjectEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Project/ValidateProjectEntityResponse" name="ValidateProjectEntityResponse" message="tns:ValidateProjectEntityResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="SetCompleted">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Project/SetCompleted" name="SetCompletedRequest" message="tns:SetCompletedRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Project/SetCompletedResponse" name="SetCompletedResponse" message="tns:SetCompletedResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetProjectEvent">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Project/GetProjectEvent" name="GetProjectEventRequest" message="tns:GetProjectEventRequest" />
@@ -3081,6 +3119,22 @@ title: Services88.ProjectAgent WSDL
         <soap:header message="tns:ValidateProjectEntityResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:ValidateProjectEntityResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:ValidateProjectEntityResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetCompleted">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Project/SetCompleted" style="document" />
+      <wsdl:input name="SetCompletedRequest">
+        <soap:header message="tns:SetCompletedRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:SetCompletedRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:SetCompletedRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="SetCompletedResponse">
+        <soap:header message="tns:SetCompletedResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:SetCompletedResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:SetCompletedResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:SetCompletedResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

@@ -2,6 +2,7 @@
 title: GET List/Reason/Items/Default
 uid: v1ReasonList_CreateDefaultReason
 generated: true
+content_type: reference
 ---
 
 # GET List/Reason/Items/Default
@@ -60,7 +61,7 @@ OK
 GET /api/v1/List/Reason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 527,
-  "Name": "Erdman-Deckow",
-  "Tooltip": "facilis",
+  "Id": 844,
+  "Name": "Becker, Schmeler and Okuneva",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "UdListDefinitionId": 157,
-  "Rank": 779,
+  "UdListDefinitionId": 579,
+  "Rank": 966,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldLength": 938
     }
   }
 }

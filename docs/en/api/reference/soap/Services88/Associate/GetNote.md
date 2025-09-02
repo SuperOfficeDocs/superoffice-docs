@@ -2,6 +2,7 @@
 title: Services88.AssociateAgent.GetNote SOAP
 generated: true
 uid: Services88-Associate-GetNote
+content_type: reference
 ---
 
 # Services88 Associate GetNote

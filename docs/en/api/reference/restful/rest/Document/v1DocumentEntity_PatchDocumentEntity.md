@@ -2,6 +2,7 @@
 title: PATCH Document/{id}
 uid: v1DocumentEntity_PatchDocumentEntity
 generated: true
+content_type: reference
 ---
 
 # PATCH Document/{id}
@@ -147,12 +148,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "rerum",
+    "path": "neque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "rerum",
+    "path": "neque",
     "value": {}
   }
 ]
@@ -165,88 +166,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 743,
+  "DocumentId": 62,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "qui",
-  "Header": "autem",
-  "Name": "Ward, Farrell and Von",
-  "OurRef": "omnis",
-  "YourRef": "repudiandae",
-  "CreatedDate": "2001-03-06T03:45:28.3265627+01:00",
-  "UpdatedDate": "2015-02-07T03:45:28.3265627+01:00",
-  "Description": "Reactive content-based software",
+  "Attention": "voluptatem",
+  "Header": "doloremque",
+  "Name": "Gibson, Harris and Torp",
+  "OurRef": "similique",
+  "YourRef": "et",
+  "CreatedDate": "2008-05-27T03:46:59.988068+02:00",
+  "UpdatedDate": "2002-04-28T03:46:59.988068+02:00",
+  "Description": "Polarised multimedia framework",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2005-10-23T03:45:28.3265627+02:00",
-  "ExternalRef": "fugit",
+  "Date": "2010-09-14T03:46:59.988068+02:00",
+  "ExternalRef": "est",
   "Completed": "Completed",
-  "ActiveLinks": 290,
+  "ActiveLinks": 427,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Hilll LLC",
-      "Id": 298,
-      "Description": "Organic modular groupware",
-      "ExtraInfo": "totam",
-      "LinkId": 218,
+      "EntityName": "Adams, Lebsack and Gleason",
+      "Id": 770,
+      "Description": "Networked multi-state methodology",
+      "ExtraInfo": "accusamus",
+      "LinkId": 251,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 367
+          "FieldType": "System.String",
+          "FieldLength": 248
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 692,
-  "Snum": 348,
+  "SuggestedDocumentId": 162,
+  "Snum": 217,
   "UserDefinedFields": {
-    "SuperOffice:1": "Chad Bayer",
-    "SuperOffice:2": "Jarrell Marvin Sr."
+    "SuperOffice:1": "Quinn Purdy",
+    "SuperOffice:2": "Cynthia Heller"
   },
   "ExtraFields": {
-    "ExtraFields1": "repudiandae",
-    "ExtraFields2": "quam"
+    "ExtraFields1": "iste",
+    "ExtraFields2": "id"
   },
   "CustomFields": {
-    "CustomFields1": "reprehenderit",
-    "CustomFields2": "nobis"
+    "CustomFields1": "non",
+    "CustomFields2": "sed"
   },
-  "PublishEventDate": "2008-03-31T03:45:28.3265627+02:00",
-  "PublishTo": "1998-04-28T03:45:28.3265627+02:00",
-  "PublishFrom": "2001-01-30T03:45:28.3265627+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2012-05-10T03:46:59.988068+02:00",
+  "PublishTo": "2017-11-06T03:46:59.988068+01:00",
+  "PublishFrom": "2015-07-17T03:46:59.988068+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 962,
+      "VisibleId": 912,
       "Visibility": "All",
-      "DisplayValue": "hic",
+      "DisplayValue": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 874
+          "FieldLength": 219
         }
       }
     },
     {
-      "VisibleId": 962,
+      "VisibleId": 912,
       "Visibility": "All",
-      "DisplayValue": "hic",
+      "DisplayValue": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 874
+          "FieldLength": 219
         }
       }
     }
@@ -256,12 +257,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 2
+      "FieldLength": 224
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

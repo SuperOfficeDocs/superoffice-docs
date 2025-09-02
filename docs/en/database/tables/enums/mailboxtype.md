@@ -2,10 +2,10 @@
 uid: enum-mailboxtype
 title: Enum values for MailboxType
 description: Lists the enum values for MailboxType.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # MailboxType Enum

@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.GetAddressByCountry SOAP
 generated: true
 uid: Services88-Person-GetAddressByCountry
+content_type: reference
 ---
 
 # Services88 Person GetAddressByCountry

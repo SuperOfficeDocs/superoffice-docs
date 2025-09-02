@@ -1,6 +1,8 @@
 ---
+uid: tag-ProjectMember
 title: ProjectMember
 generated: true
+content_type: reference
 ---
 
 ```http

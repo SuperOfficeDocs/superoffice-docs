@@ -1,6 +1,8 @@
 ---
+uid: tag-License
 title: License
 generated: true
+content_type: reference
 ---
 
 ```http

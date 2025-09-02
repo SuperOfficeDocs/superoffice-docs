@@ -2,6 +2,7 @@
 title: POST Agents/Dash/SaveDashTiles
 uid: v1DashAgent_SaveDashTiles
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/SaveDashTiles
@@ -69,22 +70,22 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 366,
+  "DashboardId": 642,
   "DashTiles": [
     {
-      "DashboardTileId": 507,
-      "DashboardId": 564,
-      "Height": 507,
-      "Width": 186,
-      "Rank": 526,
+      "DashboardTileId": 890,
+      "DashboardId": 800,
+      "Height": 292,
+      "Width": 374,
+      "Rank": 255,
       "DashTileDefinition": null
     },
     {
-      "DashboardTileId": 507,
-      "DashboardId": 564,
-      "Height": 507,
-      "Width": 186,
-      "Rank": 526,
+      "DashboardTileId": 890,
+      "DashboardId": 800,
+      "Height": 292,
+      "Width": 374,
+      "Rank": 255,
       "DashTileDefinition": null
     }
   ]

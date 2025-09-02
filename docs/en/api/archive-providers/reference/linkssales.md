@@ -3,9 +3,9 @@ uid: LinksSales
 title: LinksSales
 description: Link data provider for sales, handles both addressing by source or by destination (not both at the same time!)
 keywords: LinksSales archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "LinksSales"
@@ -1148,7 +1148,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksSales?$select=person/personAssociate/isActiveText,person/personAssociate/otherGroups,contact/postAddress/line3,contact/contactAssociate/credentialDisplayValue,associate/contactCategory
+GET /api/v1/archive/LinksSales?$select=updatedDate,person/updatedByWorkflow,person/personUdef/SuperOffice:11,contact/business,contact/stop
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

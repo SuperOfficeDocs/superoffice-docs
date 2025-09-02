@@ -2,6 +2,7 @@
 title: POST Agents/Find/FindWithColumns
 uid: v1FindAgent_FindWithColumns
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/FindWithColumns
@@ -87,22 +88,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "mollitia",
-  "ProviderName": "Gottlieb-Kessler",
-  "StorageKey": "quia",
+  "StorageType": "quod",
+  "ProviderName": "Legros Group",
+  "StorageKey": "praesentium",
   "DesiredColumns": [
-    "ipsum",
-    "animi"
+    "architecto",
+    "doloribus"
   ],
-  "PageSize": 246,
-  "PageNumber": 773,
+  "PageSize": 231,
+  "PageNumber": 364,
   "OrderBy": [
     {
-      "Name": "Wisoky, Sporer and Block",
+      "Name": "Larson, Gerhold and Stark",
       "Direction": "ASC"
     },
     {
-      "Name": "Wisoky, Sporer and Block",
+      "Name": "Larson, Gerhold and Stark",
       "Direction": "ASC"
     }
   ]
@@ -118,51 +119,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Swift-Hirthe",
-      "DisplayTooltip": "delectus",
-      "DisplayType": "a",
-      "CanOrderBy": true,
-      "Name": "Koepp-Hilpert",
-      "CanRestrictBy": true,
-      "RestrictionType": "illum",
-      "RestrictionListName": "Schmidt-Heaney",
-      "IsVisible": false,
-      "ExtraInfo": "quos",
-      "Width": "aspernatur",
-      "IconHint": "provident",
-      "HeadingIconHint": "ipsum"
+      "DisplayName": "McLaughlin Group",
+      "DisplayTooltip": "explicabo",
+      "DisplayType": "maxime",
+      "CanOrderBy": false,
+      "Name": "Anderson-O'Hara",
+      "CanRestrictBy": false,
+      "RestrictionType": "labore",
+      "RestrictionListName": "King Inc and Sons",
+      "IsVisible": true,
+      "ExtraInfo": "dolores",
+      "Width": "laboriosam",
+      "IconHint": "ut",
+      "HeadingIconHint": "mollitia"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Torp-Marquardt",
-      "PrimaryKey": 287,
+      "EntityName": "Rodriguez Inc and Sons",
+      "PrimaryKey": 676,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "nihil",
-          "TooltipHint": "veniam",
-          "LinkHint": "quam"
+          "DisplayValue": "minus",
+          "TooltipHint": "nisi",
+          "LinkHint": "magni"
         }
       },
-      "LinkHint": "sequi",
-      "StyleHint": "non",
+      "LinkHint": "voluptate",
+      "StyleHint": "alias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 116
+          "FieldType": "System.String",
+          "FieldLength": 823
         }
       }
     }
   ],
-  "RowCount": 135,
+  "RowCount": 400,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldLength": 606
     }
   }
 }

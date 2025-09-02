@@ -2,6 +2,7 @@
 title: POST Agents/Find/GetCriteriaInformation
 uid: v1FindAgent_GetCriteriaInformation
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Find/GetCriteriaInformation
@@ -81,16 +82,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "vel",
-  "ProviderName": "Feeney-Pfeffer",
-  "StorageKey": "corporis",
+  "StorageType": "dolor",
+  "ProviderName": "Rutherford-Breitenberg",
+  "StorageKey": "enim",
   "StaticColumns": [
-    "animi",
-    "non"
+    "nisi",
+    "et"
   ]
 }
 ```
@@ -104,15 +105,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Gusikowski, Greenholt and Schiller",
-      "Operator": "rem",
+      "Name": "Heller Group",
+      "Operator": "ea",
       "Values": [
-        "nihil",
-        "hic"
+        "dolorem",
+        "et"
       ],
       "DisplayValues": [
-        "est",
-        "explicabo"
+        "recusandae",
+        "voluptatem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -120,65 +121,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 976,
+      "InterParenthesis": 273,
       "InterOperator": "And",
-      "UniqueHash": 526
+      "UniqueHash": 4
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Yost, Smitham and Cremin",
-      "DisplayTooltip": "natus",
-      "DisplayType": "non",
-      "CanOrderBy": false,
-      "Name": "Hilpert, Skiles and Maggio",
+      "DisplayName": "Considine-Kautzer",
+      "DisplayTooltip": "aut",
+      "DisplayType": "quasi",
+      "CanOrderBy": true,
+      "Name": "Connelly, O'Keefe and Keeling",
       "CanRestrictBy": false,
-      "RestrictionType": "porro",
-      "RestrictionListName": "Olson, Friesen and Schoen",
+      "RestrictionType": "atque",
+      "RestrictionListName": "Becker, Flatley and Lynch",
       "IsVisible": false,
-      "ExtraInfo": "nobis",
-      "Width": "facilis",
-      "IconHint": "quibusdam",
-      "HeadingIconHint": "itaque"
+      "ExtraInfo": "aut",
+      "Width": "possimus",
+      "IconHint": "incidunt",
+      "HeadingIconHint": "aut"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Windler, Roob and Gerhold",
-      "PrimaryKey": 241,
+      "EntityName": "Kihn Group",
+      "PrimaryKey": 950,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "exercitationem",
-          "TooltipHint": "atque",
-          "LinkHint": "assumenda"
+          "DisplayValue": "enim",
+          "TooltipHint": "voluptate",
+          "LinkHint": "nostrum"
         }
       },
-      "LinkHint": "tempore",
-      "StyleHint": "ea",
+      "LinkHint": "deserunt",
+      "StyleHint": "temporibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 793
+          "FieldType": "System.String",
+          "FieldLength": 548
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Heller-Vandervort",
-      "Description": "Open-source 24/7 capacity",
-      "Rank": 553,
+      "Name": "Schmitt, Haley and Davis",
+      "Description": "Decentralized human-resource collaboration",
+      "Rank": 468,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Heller-Vandervort",
-      "Description": "Open-source 24/7 capacity",
-      "Rank": 553,
+      "Name": "Schmitt, Haley and Davis",
+      "Description": "Decentralized human-resource collaboration",
+      "Rank": 468,
       "Restrictions": [
         {},
         {}
@@ -190,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldLength": 457
     }
   }
 }

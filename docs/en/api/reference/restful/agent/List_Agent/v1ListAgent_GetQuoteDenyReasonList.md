@@ -2,6 +2,7 @@
 title: POST Agents/List/GetQuoteDenyReasonList
 uid: v1ListAgent_GetQuoteDenyReasonList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetQuoteDenyReasonList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetQuoteDenyReasonList?$select=name,department,category
 
 ## Request Body: quoteDenyReasonIds 
 
-The primary keys. 
+The identifiers of the QuoteDenyReason object 
 
 
 ## Response:array
@@ -72,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetQuoteDenyReasonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,28 +84,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 690,
-    "Value": "esse",
+    "Id": 1002,
+    "Value": "velit",
     "Tooltip": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 73
+        "FieldLength": 937
       }
     }
   },
   {
-    "Id": 690,
-    "Value": "esse",
+    "Id": 1002,
+    "Value": "velit",
     "Tooltip": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 73
+        "FieldLength": 937
       }
     }
   }

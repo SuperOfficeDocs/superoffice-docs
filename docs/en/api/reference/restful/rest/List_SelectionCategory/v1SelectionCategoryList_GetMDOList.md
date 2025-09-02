@@ -2,6 +2,7 @@
 title: GET List/SelectionCategory/MDOItems
 uid: v1SelectionCategoryList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/SelectionCategory/MDOItems
@@ -27,7 +28,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=True
-GET /api/v1/List/SelectionCategory/MDOItems?query=porro
+GET /api/v1/List/SelectionCategory/MDOItems?query=similique
 ```
 
 
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 256,
-    "Name": "Borer, Nader and Dare",
-    "ToolTip": "Possimus nulla sit accusamus.",
+    "Id": 844,
+    "Name": "Kuhn LLC",
+    "ToolTip": "Omnis maiores sed porro libero.",
     "Deleted": false,
-    "Rank": 927,
-    "Type": "ut",
+    "Rank": 941,
+    "Type": "nam",
     "ChildItems": [
       {
-        "Id": 794,
-        "Name": "Tremblay Group",
-        "ToolTip": "Harum deleniti reiciendis voluptatibus quos quia sequi qui.",
-        "Deleted": false,
-        "Rank": 386,
-        "Type": "a",
+        "Id": 976,
+        "Name": "Price-Jenkins",
+        "ToolTip": "Modi quos expedita eum laudantium.",
+        "Deleted": true,
+        "Rank": 874,
+        "Type": "cum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "assumenda",
-        "ColorBlock": 504,
-        "ExtraInfo": "ea",
-        "StyleHint": "omnis",
-        "FullName": "Prof. Cole Walker",
+        "IconHint": "itaque",
+        "ColorBlock": 124,
+        "ExtraInfo": "nam",
+        "StyleHint": "adipisci",
+        "FullName": "Breana Royal Macejkovic PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 41
+            "FieldType": "System.Int32",
+            "FieldLength": 54
           }
         }
       }
     ],
-    "IconHint": "deserunt",
-    "ColorBlock": 997,
-    "ExtraInfo": "aperiam",
-    "StyleHint": "et",
-    "FullName": "Edmond Toney Swift III",
+    "IconHint": "non",
+    "ColorBlock": 21,
+    "ExtraInfo": "perferendis",
+    "StyleHint": "quisquam",
+    "FullName": "Dr. Rosetta Kilback",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 678
+        "FieldType": "System.Int32",
+        "FieldLength": 848
       }
     }
   }

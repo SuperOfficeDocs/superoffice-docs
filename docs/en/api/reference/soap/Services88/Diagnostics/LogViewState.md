@@ -2,6 +2,7 @@
 title: Services88.DiagnosticsAgent.LogViewState SOAP
 generated: true
 uid: Services88-Diagnostics-LogViewState
+content_type: reference
 ---
 
 # Services88 Diagnostics LogViewState

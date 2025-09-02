@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/GetWwwUrlForSMWeb
 uid: v1ConfigurationAgent_GetWwwUrlForSMWeb
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/GetWwwUrlForSMWeb

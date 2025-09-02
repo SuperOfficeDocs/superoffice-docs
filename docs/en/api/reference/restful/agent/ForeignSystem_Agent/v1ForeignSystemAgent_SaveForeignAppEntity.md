@@ -2,6 +2,7 @@
 title: POST Agents/ForeignSystem/SaveForeignAppEntity
 uid: v1ForeignSystemAgent_SaveForeignAppEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ForeignSystem/SaveForeignAppEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 ```
 
-Updates the existing ForeignAppEntity or creates a new ForeignAppEntity if the id parameter is empty
+Updates the existing ForeignAppEntity or creates a new ForeignAppEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing ForeignAppEntity or creates a new ForeignAppEntity if the i
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: foreignAppEntity 
 
-The ForeignAppEntity to be saved. 
+The ForeignAppEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,27 +76,27 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 965,
-  "Name": "Dooley-Walker",
-  "CreatedDate": "2021-07-10T03:45:23.4829546+02:00",
-  "UpdatedDate": "2009-08-15T03:45:23.4829546+02:00",
+  "ForeignAppId": 548,
+  "Name": "Nolan Group",
+  "CreatedDate": "2003-04-08T03:46:54.8320045+02:00",
+  "UpdatedDate": "2012-07-08T03:46:54.8320045+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 204,
-      "Name": "Mosciski, Abshire and Mayer",
-      "CreatedDate": "2011-12-02T03:45:23.4829546+01:00",
-      "UpdatedDate": "2010-07-20T03:45:23.4829546+02:00",
-      "AssociateFullName": "Meda Littel DDS",
-      "CreatedBy": "consectetur",
-      "UpdatedBy": "velit",
-      "DeviceIdentifier": "ad",
-      "ForeignAppId": 663
+      "ForeignDeviceId": 594,
+      "Name": "Schumm-Champlin",
+      "CreatedDate": "2007-04-05T03:46:54.8320045+02:00",
+      "UpdatedDate": "2023-07-09T03:46:54.8320045+02:00",
+      "AssociateFullName": "Cleo Watsica III",
+      "CreatedBy": "omnis",
+      "UpdatedBy": "sit",
+      "DeviceIdentifier": "voluptatum",
+      "ForeignAppId": 595
     }
   ]
 }
@@ -108,29 +109,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 374,
-  "Name": "Bartell Inc and Sons",
-  "CreatedDate": "1999-09-28T03:45:23.4829546+02:00",
-  "UpdatedDate": "2016-02-27T03:45:23.4829546+01:00",
+  "ForeignAppId": 710,
+  "Name": "Leannon-Greenholt",
+  "CreatedDate": "2017-08-11T03:46:54.8320045+02:00",
+  "UpdatedDate": "2024-08-07T03:46:54.8320045+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 305,
-      "Name": "Koepp, Casper and Considine",
-      "CreatedDate": "2018-11-16T03:45:23.4829546+01:00",
-      "UpdatedDate": "2023-01-18T03:45:23.4829546+01:00",
-      "AssociateFullName": "Dr. Dorothea O'Reilly IV",
-      "CreatedBy": "est",
-      "UpdatedBy": "labore",
-      "DeviceIdentifier": "id",
-      "ForeignAppId": 43,
+      "ForeignDeviceId": 574,
+      "Name": "Wisozk-Reilly",
+      "CreatedDate": "2008-02-13T03:46:54.8320045+01:00",
+      "UpdatedDate": "2025-05-25T03:46:54.8320045+02:00",
+      "AssociateFullName": "Wilburn Gibson",
+      "CreatedBy": "tenetur",
+      "UpdatedBy": "est",
+      "DeviceIdentifier": "vel",
+      "ForeignAppId": 884,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 841
+          "FieldType": "System.Int32",
+          "FieldLength": 568
         }
       }
     }
@@ -139,8 +140,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 498
+      "FieldType": "System.Int32",
+      "FieldLength": 304
     }
   }
 }

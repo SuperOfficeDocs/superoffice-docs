@@ -2,6 +2,7 @@
 title: POST List/Task/Headings
 uid: v1TaskList_PostTaskListItemHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/Task/Headings
@@ -75,16 +76,16 @@ OK
 POST /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 489,
-  "Name": "Rosenbaum-Labadie",
-  "Tooltip": "perspiciatis",
+  "HeadingId": 480,
+  "Name": "Pagac, Greenfelder and Paucek",
+  "Tooltip": "repellat",
   "Deleted": false,
-  "Rank": 541,
-  "UdListDefinitionId": 609
+  "Rank": 307,
+  "UdListDefinitionId": 225
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 39,
-  "Name": "Jacobi, Swaniawski and Goyette",
-  "Tooltip": "iusto",
+  "HeadingId": 20,
+  "Name": "Davis, Hilpert and Buckridge",
+  "Tooltip": "corrupti",
   "Deleted": false,
-  "Rank": 870,
-  "UdListDefinitionId": 938,
+  "Rank": 210,
+  "UdListDefinitionId": 211,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 670
+      "FieldLength": 785
     }
   }
 }

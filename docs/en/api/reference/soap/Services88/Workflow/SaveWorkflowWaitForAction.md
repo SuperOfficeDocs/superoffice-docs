@@ -2,6 +2,7 @@
 title: Services88.WorkflowAgent.SaveWorkflowWaitForAction SOAP
 generated: true
 uid: Services88-Workflow-SaveWorkflowWaitForAction
+content_type: reference
 ---
 
 # Services88 Workflow SaveWorkflowWaitForAction

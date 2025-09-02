@@ -1,6 +1,8 @@
 ---
+uid: tag-List_PaymentType
 title: List_PaymentType
 generated: true
+content_type: reference
 ---
 
 ```http

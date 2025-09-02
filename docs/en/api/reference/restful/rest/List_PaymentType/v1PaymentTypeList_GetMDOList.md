@@ -2,6 +2,7 @@
 title: GET List/PaymentType/MDOItems
 uid: v1PaymentTypeList_GetMDOList
 generated: true
+content_type: reference
 ---
 
 # GET List/PaymentType/MDOItems
@@ -27,7 +28,7 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=voluptatem
+GET /api/v1/List/PaymentType/MDOItems?query=qui
 ```
 
 
@@ -89,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 464,
-    "Name": "Kling LLC",
-    "ToolTip": "Sit non.",
+    "Id": 634,
+    "Name": "Wolff LLC",
+    "ToolTip": "Molestiae labore dolore dolorem molestiae eos repellendus.",
     "Deleted": true,
-    "Rank": 316,
-    "Type": "neque",
+    "Rank": 71,
+    "Type": "dolorum",
     "ChildItems": [
       {
-        "Id": 767,
-        "Name": "O'Keefe-Bosco",
-        "ToolTip": "Minus sunt distinctio ut vitae doloribus suscipit.",
+        "Id": 965,
+        "Name": "Roberts, Streich and Jerde",
+        "ToolTip": "Officiis quia et et.",
         "Deleted": false,
-        "Rank": 278,
-        "Type": "optio",
+        "Rank": 225,
+        "Type": "distinctio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptas",
-        "ColorBlock": 126,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "est",
-        "FullName": "Nathanael Olin Beahan MD",
+        "IconHint": "eius",
+        "ColorBlock": 991,
+        "ExtraInfo": "quia",
+        "StyleHint": "exercitationem",
+        "FullName": "Granville Schowalter",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 885
+            "FieldType": "System.Int32",
+            "FieldLength": 77
           }
         }
       }
     ],
-    "IconHint": "fugiat",
-    "ColorBlock": 409,
-    "ExtraInfo": "quasi",
-    "StyleHint": "non",
-    "FullName": "Mrs. Edgardo Luz Kunze DVM",
+    "IconHint": "cumque",
+    "ColorBlock": 268,
+    "ExtraInfo": "repellendus",
+    "StyleHint": "voluptatem",
+    "FullName": "Ms. Morris Rice III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 1000
+        "FieldType": "System.Int32",
+        "FieldLength": 948
       }
     }
   }

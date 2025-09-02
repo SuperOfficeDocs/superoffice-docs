@@ -2,6 +2,7 @@
 title: POST Agents/BLOB/CreateDefaultBlobEntity
 uid: v1BLOBAgent_CreateDefaultBlobEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BLOB/CreateDefaultBlobEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
 ```
 
-Set default values into a new BlobEntity.
+Loading default values into a new BlobEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -69,7 +68,7 @@ OK
 POST /api/v1/Agents/BLOB/CreateDefaultBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,25 +78,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 885,
-  "BlobSize": 501,
-  "Description": "Future-proofed national strategy",
-  "ExtraInfo": "recusandae",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "eligendi",
-  "OriginalSize": 825,
-  "CreatedDate": "2010-06-01T03:45:22.9829669+02:00",
-  "UpdatedDate": "2003-08-15T03:45:22.9829669+02:00",
+  "BlobId": 963,
+  "BlobSize": 834,
+  "Description": "Centralized object-oriented Graphical User Interface",
+  "ExtraInfo": "qui",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "dolorem",
+  "OriginalSize": 544,
+  "CreatedDate": "2019-04-08T03:46:54.3007673+02:00",
+  "UpdatedDate": "2005-06-15T03:46:54.3007673+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "repellat",
+  "ConceptualType": "accusamus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 530
+      "FieldLength": 388
     }
   }
 }

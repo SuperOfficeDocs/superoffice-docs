@@ -2,10 +2,10 @@
 uid: table-eab_folder
 title: eab_folder table
 description: This table contains eab (email address book) folders, used for containing email addresses.
-so.generated: true
+generated: true
 keywords: database table eab_folder
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # eab\_folder Table (314)

@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveHeadingEntity
 uid: v1ListAgent_SaveHeadingEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveHeadingEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/List/SaveHeadingEntity
 ```
 
-Updates the existing HeadingEntity or creates a new HeadingEntity if the id parameter is empty
+Updates the existing HeadingEntity or creates a new HeadingEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing HeadingEntity or creates a new HeadingEntity if the id para
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: headingEntity 
 
-The HeadingEntity to be saved. 
+The HeadingEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,16 +74,16 @@ OK
 POST /api/v1/Agents/List/SaveHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 934,
-  "Name": "Turcotte, Ortiz and Murray",
-  "Tooltip": "qui",
+  "HeadingId": 977,
+  "Name": "Mosciski Inc and Sons",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 375,
-  "UdListDefinitionId": 703
+  "Rank": 840,
+  "UdListDefinitionId": 937
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 354,
-  "Name": "Schuster Group",
-  "Tooltip": "reiciendis",
+  "HeadingId": 780,
+  "Name": "Reinger-Turcotte",
+  "Tooltip": "mollitia",
   "Deleted": false,
-  "Rank": 870,
-  "UdListDefinitionId": 368,
+  "Rank": 352,
+  "UdListDefinitionId": 384,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 101
+      "FieldLength": 750
     }
   }
 }

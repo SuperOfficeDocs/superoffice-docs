@@ -2,6 +2,7 @@
 title: PUT List/UserGroup/Items/{id}
 uid: v1UserGroupList_PutUserGroup
 generated: true
+content_type: reference
 ---
 
 # PUT List/UserGroup/Items/{id}
@@ -78,15 +79,15 @@ OK
 PUT /api/v1/List/UserGroup/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "distinctio",
-  "Tooltip": "consectetur",
-  "Id": 889,
-  "Rank": 812,
-  "Deleted": false
+  "Value": "voluptatibus",
+  "Tooltip": "quam",
+  "Id": 161,
+  "Rank": 501,
+  "Deleted": true
 }
 ```
 
@@ -97,17 +98,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "porro",
-  "Tooltip": "dignissimos",
-  "Id": 603,
-  "Rank": 163,
-  "Deleted": true,
+  "Value": "facilis",
+  "Tooltip": "dicta",
+  "Id": 602,
+  "Rank": 861,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 769
+      "FieldLength": 615
     }
   }
 }

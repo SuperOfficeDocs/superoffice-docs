@@ -2,6 +2,7 @@
 title: POST Agents/BulkUpdate/ExecuteByEntityIds
 uid: v1BulkUpdateAgent_ExecuteByEntityIds
 generated: true
+content_type: reference
 ---
 
 # POST Agents/BulkUpdate/ExecuteByEntityIds
@@ -71,36 +72,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": false,
+      "CanSupportMultiUse": true,
       "DefaultShowInGui": false,
       "DefaultShowInSelector": false,
       "IsActive": false,
-      "Key": "assumenda",
-      "ValueType": "veritatis",
+      "Key": "blanditiis",
+      "ValueType": "asperiores",
       "Mandatory": true,
-      "EncodedDisplayName": "Schiller, Rohan and Hegmann",
-      "EncodedDisplayDescription": "Synchronised non-volatile productivity",
-      "IconHint": "dolores",
+      "EncodedDisplayName": "Jacobs-Boehm",
+      "EncodedDisplayDescription": "Assimilated intangible firmware",
+      "IconHint": "dolor",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "tempore",
-      "EncodedDataCaptionDescription": "Quality-focused clear-thinking definition",
-      "CurrentOperationType": "quis",
+      "EncodedDataCaption": "velit",
+      "EncodedDataCaptionDescription": "Self-enabling optimizing pricing structure",
+      "CurrentOperationType": "commodi",
       "Values": [
-        "dolorum",
-        "debitis"
+        "et",
+        "et"
       ],
       "DisplayValues": [
-        "fuga",
-        "recusandae"
+        "maxime",
+        "nobis"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Rolfson-Spencer",
-  "Context": "officiis",
-  "Ids": "veritatis"
+  "TableName": "Bogisich-Abernathy",
+  "Context": "animi",
+  "Ids": "debitis"
 }
 ```
 
@@ -120,5 +121,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-527
+576
 ```

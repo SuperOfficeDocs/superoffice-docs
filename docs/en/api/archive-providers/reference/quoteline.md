@@ -3,9 +3,9 @@ uid: QuoteLine
 title: QuoteLine
 description: This is the archive Provider for the QuoteLine Archive.
 keywords: QuoteLine archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "QuoteLine"
@@ -71,7 +71,7 @@ This is the archive Provider for the QuoteLine Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteLine?$select=UnitListPriceSubscriptionQuantity,unitListPrice
+GET /api/v1/archive/QuoteLine?$select=updatedDate,UnitListPriceSubscriptionQuantity,unitListPrice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

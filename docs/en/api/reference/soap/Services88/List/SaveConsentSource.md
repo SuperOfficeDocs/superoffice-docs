@@ -2,6 +2,7 @@
 title: Services88.ListAgent.SaveConsentSource SOAP
 generated: true
 uid: Services88-List-SaveConsentSource
+content_type: reference
 ---
 
 # Services88 List SaveConsentSource

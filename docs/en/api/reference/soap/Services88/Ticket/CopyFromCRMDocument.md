@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.CopyFromCRMDocument SOAP
 generated: true
 uid: Services88-Ticket-CopyFromCRMDocument
+content_type: reference
 ---
 
 # Services88 Ticket CopyFromCRMDocument

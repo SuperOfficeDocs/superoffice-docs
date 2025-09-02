@@ -2,6 +2,7 @@
 title: GET List/ProductType/Items
 uid: v1ProductTypeList_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET List/ProductType/Items
@@ -25,7 +26,7 @@ Gets all the ProductType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductType/Items?includeDeleted=False
+GET /api/v1/List/ProductType/Items?includeDeleted=True
 ```
 
 
@@ -70,7 +71,7 @@ OK
 GET /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 322,
-    "Name": "Stark, Senger and McCullough",
-    "Tooltip": "suscipit",
+    "Id": 361,
+    "Name": "Williamson-Lehner",
+    "Tooltip": "quia",
     "Deleted": false,
-    "UdListDefinitionId": 116,
-    "Rank": 33,
+    "UdListDefinitionId": 313,
+    "Rank": 232,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 574
+        "FieldType": "System.Int32",
+        "FieldLength": 786
       }
     }
   }

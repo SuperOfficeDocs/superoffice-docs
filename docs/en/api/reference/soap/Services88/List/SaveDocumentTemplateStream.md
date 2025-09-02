@@ -2,6 +2,7 @@
 title: Services88.ListAgent.SaveDocumentTemplateStream SOAP
 generated: true
 uid: Services88-List-SaveDocumentTemplateStream
+content_type: reference
 ---
 
 # Services88 List SaveDocumentTemplateStream

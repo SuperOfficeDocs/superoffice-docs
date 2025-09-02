@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetExtAppEntity SOAP
 generated: true
 uid: Services88-List-GetExtAppEntity
+content_type: reference
 ---
 
 # Services88 List GetExtAppEntity

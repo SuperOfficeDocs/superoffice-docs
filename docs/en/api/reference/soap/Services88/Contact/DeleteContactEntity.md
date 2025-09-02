@@ -2,6 +2,7 @@
 title: Services88.ContactAgent.DeleteContactEntity SOAP
 generated: true
 uid: Services88-Contact-DeleteContactEntity
+content_type: reference
 ---
 
 # Services88 Contact DeleteContactEntity

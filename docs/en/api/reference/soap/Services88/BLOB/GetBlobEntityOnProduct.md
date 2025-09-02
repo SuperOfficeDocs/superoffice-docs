@@ -2,6 +2,7 @@
 title: Services88.BLOBAgent.GetBlobEntityOnProduct SOAP
 generated: true
 uid: Services88-BLOB-GetBlobEntityOnProduct
+content_type: reference
 ---
 
 # Services88 BLOB GetBlobEntityOnProduct
@@ -69,8 +70,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <BLOB:IsZipped xsi:type="xsd:boolean">false</BLOB:IsZipped>
     <BLOB:MimeType xsi:type="xsd:string"></BLOB:MimeType>
     <BLOB:OriginalSize xsi:type="xsd:unsignedInt">0</BLOB:OriginalSize>
-    <BLOB:CreatedDate xsi:type="xsd:dateTime">2025-06-26T01:42:58Z</BLOB:CreatedDate>
-    <BLOB:UpdatedDate xsi:type="xsd:dateTime">2025-06-26T01:42:58Z</BLOB:UpdatedDate>
+    <BLOB:CreatedDate xsi:type="xsd:dateTime">2025-08-30T01:44:30Z</BLOB:CreatedDate>
+    <BLOB:UpdatedDate xsi:type="xsd:dateTime">2025-08-30T01:44:30Z</BLOB:UpdatedDate>
     <BLOB:CreatedBy xsi:type="BLOB:Associate">
      <BLOB:AssociateId xsi:type="xsd:int">0</BLOB:AssociateId>
      <BLOB:Name xsi:type="xsd:string"></BLOB:Name>
@@ -84,6 +85,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <BLOB:Deleted xsi:type="xsd:boolean">false</BLOB:Deleted>
      <BLOB:EjUserId xsi:type="xsd:int">0</BLOB:EjUserId>
      <BLOB:UserName xsi:type="xsd:string"></BLOB:UserName>
+     <BLOB:ExtraFields xsi:type="BLOB:StringDictionary">
+      <BLOB:StringKeyValuePair>
+       <BLOB:Key xsi:type="xsd:string"></BLOB:Key>
+       <BLOB:Value xsi:type="xsd:string"></BLOB:Value>
+      </BLOB:StringKeyValuePair>
+     </BLOB:ExtraFields>
+     <BLOB:CustomFields xsi:type="BLOB:StringDictionary">
+      <BLOB:StringKeyValuePair>
+       <BLOB:Key xsi:type="xsd:string"></BLOB:Key>
+       <BLOB:Value xsi:type="xsd:string"></BLOB:Value>
+      </BLOB:StringKeyValuePair>
+     </BLOB:CustomFields>
     </BLOB:CreatedBy>
     <BLOB:UpdatedBy xsi:type="BLOB:Associate">
      <BLOB:AssociateId xsi:type="xsd:int">0</BLOB:AssociateId>
@@ -98,6 +111,18 @@ Application tokens must be specified if calling an Online installation. Applicat
      <BLOB:Deleted xsi:type="xsd:boolean">false</BLOB:Deleted>
      <BLOB:EjUserId xsi:type="xsd:int">0</BLOB:EjUserId>
      <BLOB:UserName xsi:type="xsd:string"></BLOB:UserName>
+     <BLOB:ExtraFields xsi:type="BLOB:StringDictionary">
+      <BLOB:StringKeyValuePair>
+       <BLOB:Key xsi:type="xsd:string"></BLOB:Key>
+       <BLOB:Value xsi:type="xsd:string"></BLOB:Value>
+      </BLOB:StringKeyValuePair>
+     </BLOB:ExtraFields>
+     <BLOB:CustomFields xsi:type="BLOB:StringDictionary">
+      <BLOB:StringKeyValuePair>
+       <BLOB:Key xsi:type="xsd:string"></BLOB:Key>
+       <BLOB:Value xsi:type="xsd:string"></BLOB:Value>
+      </BLOB:StringKeyValuePair>
+     </BLOB:CustomFields>
     </BLOB:UpdatedBy>
     <BLOB:ConceptualType xsi:type="xsd:string"></BLOB:ConceptualType>
    </BLOB:Response>

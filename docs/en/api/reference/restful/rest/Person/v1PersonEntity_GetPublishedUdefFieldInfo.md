@@ -2,6 +2,7 @@
 title: GET Person/UdefLayout/Published/{progidOrLabel}
 uid: v1PersonEntity_GetPublishedUdefFieldInfo
 generated: true
+content_type: reference
 ---
 
 # GET Person/UdefLayout/Published/{progidOrLabel}
@@ -93,7 +94,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +104,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 813,
-  "ColumnId": 886,
-  "FieldDefault": "laudantium",
-  "FieldHeight": 593,
-  "FieldLabel": "beatae",
-  "FieldLeft": 272,
-  "FieldTop": 583,
+  "UDefFieldId": 255,
+  "ColumnId": 215,
+  "FieldDefault": "ipsam",
+  "FieldHeight": 54,
+  "FieldLabel": "minima",
+  "FieldLeft": 96,
+  "FieldTop": 790,
   "FieldType": "Checkbox",
-  "FieldWidth": 488,
-  "FormatMask": "provident",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 792,
-  "LabelLeft": 271,
-  "LabelTop": 947,
-  "LabelWidth": 88,
-  "LastVersionId": 493,
-  "ListTableId": 922,
+  "FieldWidth": 447,
+  "FormatMask": "exercitationem",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 875,
+  "LabelLeft": 855,
+  "LabelTop": 687,
+  "LabelWidth": 522,
+  "LastVersionId": 62,
+  "ListTableId": 863,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 16,
-  "ProgId": "id",
+  "Page1LineNo": 367,
+  "ProgId": "qui",
   "IsReadOnly": true,
-  "ShortLabel": "soluta",
-  "TabOrder": 743,
-  "TextLength": 433,
-  "Tooltip": "autem",
-  "UdefIdentity": 124,
-  "UDListDefinitionId": 165,
+  "ShortLabel": "voluptas",
+  "TabOrder": 791,
+  "TextLength": 759,
+  "Tooltip": "sint",
+  "UdefIdentity": 90,
+  "UDListDefinitionId": 675,
   "Justification": "Center",
-  "Version": 379,
-  "TemplateVariableName": "Goyette Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "O'Conner, Daniel and Bins",
+  "Version": 531,
+  "TemplateVariableName": "Brekke-Ward",
+  "HasBeenPublished": false,
+  "MdoListName": "Osinski, Blick and Predovic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldType": "System.String",
+      "FieldLength": 176
     }
   }
 }

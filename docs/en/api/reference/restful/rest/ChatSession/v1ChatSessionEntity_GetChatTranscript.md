@@ -2,6 +2,7 @@
 title: POST ChatSession/{id}/Transcript
 uid: v1ChatSessionEntity_GetChatTranscript
 generated: true
+content_type: reference
 ---
 
 # POST ChatSession/{id}/Transcript
@@ -64,7 +65,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Transcript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

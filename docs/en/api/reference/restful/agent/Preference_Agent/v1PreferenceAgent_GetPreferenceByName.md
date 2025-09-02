@@ -2,6 +2,7 @@
 title: POST Agents/Preference/GetPreferenceByName
 uid: v1PreferenceAgent_GetPreferenceByName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/GetPreferenceByName
@@ -85,12 +86,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "ut",
-  "PrefKey": "consequatur",
+  "PrefSection": "distinctio",
+  "PrefKey": "dolorem",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "qui",
+  "RawValue": "et",
   "Specification": null,
-  "DisplayValue": "quo",
-  "DisplayTooltip": "sapiente",
+  "DisplayValue": "quisquam",
+  "DisplayTooltip": "quia",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 202,
-  "PrefDescId": 905,
-  "TableName": "Paucek Inc and Sons",
-  "UserPreferenceId": 764,
+  "TargetId": 878,
+  "PrefDescId": 373,
+  "TableName": "Raynor Inc and Sons",
+  "UserPreferenceId": 463,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 178
+      "FieldLength": 310
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/UserDefinedFieldInfo/ChangeFieldType
 uid: v1UserDefinedFieldInfoAgent_ChangeFieldType
 generated: true
+content_type: reference
 ---
 
 # POST Agents/UserDefinedFieldInfo/ChangeFieldType
@@ -114,7 +115,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Info": null,
   "FieldType": "Checkbox",
-  "IsIndexed": false
+  "IsIndexed": true
 }
 ```
 
@@ -125,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 579,
-  "ColumnId": 856,
-  "FieldDefault": "ratione",
-  "FieldHeight": 625,
-  "FieldLabel": "ipsa",
-  "FieldLeft": 277,
-  "FieldTop": 398,
+  "UDefFieldId": 313,
+  "ColumnId": 494,
+  "FieldDefault": "harum",
+  "FieldHeight": 521,
+  "FieldLabel": "quia",
+  "FieldLeft": 517,
+  "FieldTop": 995,
   "FieldType": "Checkbox",
-  "FieldWidth": 295,
-  "FormatMask": "minima",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 776,
-  "LabelLeft": 409,
-  "LabelTop": 426,
-  "LabelWidth": 465,
-  "LastVersionId": 35,
-  "ListTableId": 456,
-  "IsMandatory": false,
+  "FieldWidth": 582,
+  "FormatMask": "facilis",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 937,
+  "LabelLeft": 144,
+  "LabelTop": 539,
+  "LabelWidth": 997,
+  "LastVersionId": 662,
+  "ListTableId": 74,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 917,
-  "ProgId": "fugit",
+  "Page1LineNo": 573,
+  "ProgId": "nesciunt",
   "IsReadOnly": true,
-  "ShortLabel": "aut",
-  "TabOrder": 109,
-  "TextLength": 651,
-  "Tooltip": "optio",
-  "UdefIdentity": 177,
-  "UDListDefinitionId": 11,
+  "ShortLabel": "enim",
+  "TabOrder": 723,
+  "TextLength": 271,
+  "Tooltip": "maiores",
+  "UdefIdentity": 902,
+  "UDListDefinitionId": 667,
   "Justification": "Center",
-  "Version": 684,
-  "TemplateVariableName": "Mayert-Kuhn",
-  "HasBeenPublished": false,
-  "MdoListName": "Volkman-Hartmann",
+  "Version": 27,
+  "TemplateVariableName": "Bahringer, Smitham and Goyette",
+  "HasBeenPublished": true,
+  "MdoListName": "Ullrich-Mitchell",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 565
+      "FieldLength": 291
     }
   }
 }

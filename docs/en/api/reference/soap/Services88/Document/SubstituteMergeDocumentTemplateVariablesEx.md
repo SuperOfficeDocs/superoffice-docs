@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.SubstituteMergeDocumentTemplateVariablesEx SOAP
 generated: true
 uid: Services88-Document-SubstituteMergeDocumentTemplateVariablesEx
+content_type: reference
 ---
 
 # Services88 Document SubstituteMergeDocumentTemplateVariablesEx

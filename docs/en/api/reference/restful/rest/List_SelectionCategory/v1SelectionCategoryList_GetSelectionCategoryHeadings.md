@@ -2,6 +2,7 @@
 title: GET List/SelectionCategory/Headings
 uid: v1SelectionCategoryList_GetSelectionCategoryHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/SelectionCategory/Headings
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 911,
-    "Name": "Johns-Willms",
-    "Tooltip": "a",
+    "HeadingId": 514,
+    "Name": "Pacocha-Corkery",
+    "Tooltip": "dicta",
     "Deleted": false,
-    "Rank": 26,
-    "UdListDefinitionId": 800,
+    "Rank": 505,
+    "UdListDefinitionId": 509,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldType": "System.String",
+        "FieldLength": 405
       }
     }
   }

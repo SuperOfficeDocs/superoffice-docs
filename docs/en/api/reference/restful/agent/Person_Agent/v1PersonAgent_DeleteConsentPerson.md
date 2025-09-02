@@ -2,6 +2,7 @@
 title: POST Agents/Person/DeleteConsentPerson
 uid: v1PersonAgent_DeleteConsentPerson
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Person/DeleteConsentPerson
@@ -22,10 +23,10 @@ Deletes the ConsentPerson
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| ConsentPersonId | int32 | **Required** The id of the ConsentPerson to be deleted. |
+| consentPersonId | int32 | **Required** The identity of the ConsentPerson |
 
 ```http
-POST /api/v1/Agents/Person/DeleteConsentPerson?ConsentPersonId=476
+POST /api/v1/Agents/Person/DeleteConsentPerson?consentPersonId=236
 ```
 
 

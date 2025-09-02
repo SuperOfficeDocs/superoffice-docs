@@ -62,6 +62,7 @@ items:
   - SuperOffice.CRM.Lists.ArchiveProviderList
   - SuperOffice.CRM.Lists.AssociateTypeListProvider
   - SuperOffice.CRM.Lists.CRMScriptProvider
+  - SuperOffice.CRM.Lists.CategoryGroupProvider
   - SuperOffice.CRM.Lists.ChatChannelProvider
   - SuperOffice.CRM.Lists.ChatSessionStatusProvider
   - SuperOffice.CRM.Lists.ChatUserProvider
@@ -70,6 +71,7 @@ items:
   - SuperOffice.CRM.Lists.ContactFavouriteListProvider
   - SuperOffice.CRM.Lists.CreateDocumentTemplatePluginsProvider
   - SuperOffice.CRM.Lists.CredentialGroupProvider
+  - SuperOffice.CRM.Lists.CustomObjectFavouriteListProvider
   - SuperOffice.CRM.Lists.CustomObjectListProvider
   - SuperOffice.CRM.Lists.CustomObjectRelationProvider
   - SuperOffice.CRM.Lists.DashboardEntityList

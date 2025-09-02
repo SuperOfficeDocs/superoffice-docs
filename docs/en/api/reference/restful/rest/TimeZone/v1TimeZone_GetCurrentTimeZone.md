@@ -2,6 +2,7 @@
 title: GET TimeZone/current
 uid: v1TimeZone_GetCurrentTimeZone
 generated: true
+content_type: reference
 ---
 
 # GET TimeZone/current
@@ -61,7 +62,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,31 +72,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 659,
-  "Name": "Olson Inc and Sons",
-  "TZLocationCode": "asperiores",
-  "TZLocationCities": "aut",
-  "IsoNumber": 711,
+  "TZLocationID": 180,
+  "Name": "Hilpert-Skiles",
+  "TZLocationCode": "exercitationem",
+  "TZLocationCities": "harum",
+  "IsoNumber": 383,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 68,
-      "StartMonth": 428,
-      "EndDay": 514,
-      "EndMonth": 531,
-      "TZOffset": 352,
-      "StartRulePattern": "ullam",
-      "EndRulePattern": "exercitationem"
+      "StartDay": 108,
+      "StartMonth": 977,
+      "EndDay": 839,
+      "EndMonth": 909,
+      "TZOffset": 909,
+      "StartRulePattern": "magnam",
+      "EndRulePattern": "eius"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 781,
-      "StartMonth": 264,
-      "EndDay": 392,
-      "EndMonth": 131,
-      "TZOffset": 335,
-      "StartRulePattern": "reiciendis",
-      "EndRulePattern": "et"
+      "StartDay": 535,
+      "StartMonth": 513,
+      "EndDay": 687,
+      "EndMonth": 735,
+      "TZOffset": 227,
+      "StartRulePattern": "autem",
+      "EndRulePattern": "quia"
     }
   }
 }

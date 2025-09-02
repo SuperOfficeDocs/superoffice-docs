@@ -2,6 +2,7 @@
 title: POST Agents/Document/CreateTempFile
 uid: v1DocumentAgent_CreateTempFile
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/CreateTempFile
@@ -71,11 +72,11 @@ OK
 POST /api/v1/Agents/Document/CreateTempFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "alias",
+  "Filename": "id",
   "DataStream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -86,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"libero"
+"commodi"
 ```

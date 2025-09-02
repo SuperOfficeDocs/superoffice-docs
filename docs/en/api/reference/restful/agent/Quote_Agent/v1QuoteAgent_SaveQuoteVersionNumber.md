@@ -2,6 +2,7 @@
 title: POST Agents/Quote/SaveQuoteVersionNumber
 uid: v1QuoteAgent_SaveQuoteVersionNumber
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/SaveQuoteVersionNumber
@@ -73,8 +74,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 573,
-  "Number": "850403"
+  "QuoteVersionId": 57,
+  "Number": "755155"
 }
 ```
 

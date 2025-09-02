@@ -2,6 +2,7 @@
 title: PUT ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 uid: v1ForeignAppEntity_SaveForeignKey
 generated: true
+content_type: reference
 ---
 
 # PUT ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
@@ -83,18 +84,18 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sunt",
-  "Value": "hic",
-  "RecordId": 178,
-  "CreatedDate": "2008-04-08T03:45:28.3578119+02:00",
-  "UpdatedDate": "2007-04-25T03:45:28.3578119+02:00",
-  "UpdatedBy": "assumenda",
-  "CreatedBy": "atque",
-  "TableName": "Watsica, Gleichner and Lueilwitz"
+  "Key": "eos",
+  "Value": "molestias",
+  "RecordId": 917,
+  "CreatedDate": "2020-12-27T03:47:00.0349452+01:00",
+  "UpdatedDate": "2021-01-12T03:47:00.0349452+01:00",
+  "UpdatedBy": "aliquam",
+  "CreatedBy": "quisquam",
+  "TableName": "Goyette-Braun"
 }
 ```
 
@@ -105,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "perspiciatis",
-  "Value": "omnis",
-  "RecordId": 875,
-  "CreatedDate": "2005-02-24T03:45:28.3578119+01:00",
-  "UpdatedDate": "2018-09-18T03:45:28.3578119+02:00",
-  "UpdatedBy": "quam",
-  "CreatedBy": "est",
-  "TableName": "Jerde-Block",
+  "Key": "recusandae",
+  "Value": "minus",
+  "RecordId": 646,
+  "CreatedDate": "2003-07-06T03:47:00.0349452+02:00",
+  "UpdatedDate": "2024-07-16T03:47:00.0349452+02:00",
+  "UpdatedBy": "laborum",
+  "CreatedBy": "eum",
+  "TableName": "Dickens Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 609
+      "FieldLength": 723
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/List/GetListEntityByName
 uid: v1ListAgent_GetListEntityByName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetListEntityByName
@@ -82,11 +83,11 @@ OK
 POST /api/v1/Agents/List/GetListEntityByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Grady Group"
+  "Name": "Harber-Emard"
 }
 ```
 
@@ -97,22 +98,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 772,
-  "Name": "Hilll-Spencer",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 558,
+  "Id": 402,
+  "Name": "Hickle Group",
+  "Tooltip": "non",
+  "Deleted": true,
+  "Rank": 643,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "illum",
+  "UseGroupsAndHeadings": true,
+  "ListType": "doloremque",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 733
+      "FieldLength": 754
     }
   }
 }

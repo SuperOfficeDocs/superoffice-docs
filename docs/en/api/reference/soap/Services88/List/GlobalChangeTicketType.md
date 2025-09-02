@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GlobalChangeTicketType SOAP
 generated: true
 uid: Services88-List-GlobalChangeTicketType
+content_type: reference
 ---
 
 # Services88 List GlobalChangeTicketType

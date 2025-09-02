@@ -2,6 +2,7 @@
 title: GET List/Rating/Items/{id}/Headings
 uid: v1RatingList_GetSaleStageEntityHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/Rating/Items/{id}/Headings
@@ -31,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +86,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 284,
-    "Name": "Casper, Lueilwitz and Renner",
-    "ToolTip": "Voluptas qui dignissimos occaecati veniam libero quasi provident.",
+    "Id": 562,
+    "Name": "Koepp-Ruecker",
+    "ToolTip": "Repellat quibusdam est sit.",
     "Deleted": false,
-    "Rank": 423,
-    "Type": "fugit",
-    "ColorBlock": 658,
-    "IconHint": "quas",
-    "Selected": false,
-    "LastChanged": "2016-10-19T03:45:29.2015441+02:00",
+    "Rank": 298,
+    "Type": "eius",
+    "ColorBlock": 446,
+    "IconHint": "omnis",
+    "Selected": true,
+    "LastChanged": "2002-02-05T03:47:00.7849183+01:00",
     "ChildItems": [
       {
-        "Id": 968,
-        "Name": "Macejkovic LLC",
-        "ToolTip": "Nobis est autem ut dolore beatae nulla adipisci.",
-        "Deleted": true,
-        "Rank": 676,
-        "Type": "inventore",
-        "ColorBlock": 841,
-        "IconHint": "quidem",
+        "Id": 591,
+        "Name": "Bergnaum, Nicolas and Hudson",
+        "ToolTip": "Consequatur sit velit.",
+        "Deleted": false,
+        "Rank": 955,
+        "Type": "natus",
+        "ColorBlock": 512,
+        "IconHint": "harum",
         "Selected": false,
-        "LastChanged": "2003-06-04T03:45:29.2015441+02:00",
+        "LastChanged": "2024-05-27T03:47:00.7849183+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "eligendi",
+        "ExtraInfo": "sint",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Imogene Treutel MD",
+        "FullName": "Jan Treutel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 833
+            "FieldLength": 961
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "eos",
-    "Hidden": true,
-    "FullName": "Dr. Cheyenne Orn MD",
+    "ExtraInfo": "quaerat",
+    "StyleHint": "possimus",
+    "Hidden": false,
+    "FullName": "Domenico Konopelski V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldLength": 301
       }
     }
   }

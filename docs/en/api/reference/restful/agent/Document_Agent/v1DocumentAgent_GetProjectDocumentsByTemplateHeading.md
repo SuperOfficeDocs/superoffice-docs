@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetProjectDocumentsByTemplateHeading
 uid: v1DocumentAgent_GetProjectDocumentsByTemplateHeading
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetProjectDocumentsByTemplateHeading
@@ -98,15 +99,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 162,
-  "StartTime": "2012-01-13T03:45:23.2798335+01:00",
-  "EndTime": "2010-08-02T03:45:23.2798335+02:00",
-  "Count": 408,
-  "TemplateHeadingId": 576
+  "ProjectId": 380,
+  "StartTime": "2006-09-27T03:46:54.6288867+02:00",
+  "EndTime": "2021-03-30T03:46:54.6288867+02:00",
+  "Count": 503,
+  "TemplateHeadingId": 579
 }
 ```
 
@@ -118,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 973,
-    "Attention": "porro",
-    "Header": "optio",
-    "Name": "Hammes Inc and Sons",
-    "OurRef": "voluptas",
-    "YourRef": "aut",
-    "Description": "Exclusive full-range array",
-    "DocumentTemplate": "quis",
+    "DocumentId": 21,
+    "Attention": "accusantium",
+    "Header": "aliquid",
+    "Name": "Osinski-Beatty",
+    "OurRef": "alias",
+    "YourRef": "qui",
+    "Description": "Sharable explicit capability",
+    "DocumentTemplate": "hic",
     "IsPublished": false,
-    "PersonId": 306,
-    "PersonFullName": "Dimitri Bailey",
-    "AssociateFullName": "Mrs. Bernard Karl Schaefer",
-    "ContactId": 248,
-    "ContactName": "Mraz-Berge",
-    "ProjectId": 614,
-    "ProjectName": "Hills, Zemlak and Zieme",
-    "AssociateId": 556,
-    "Snum": 359,
-    "SaleId": 882,
-    "SaleName": "Spinka Group",
+    "PersonId": 167,
+    "PersonFullName": "Prof. Waylon Lauretta Kozey DDS",
+    "AssociateFullName": "Skye Rath",
+    "ContactId": 111,
+    "ContactName": "Kiehn, Gerlach and Purdy",
+    "ProjectId": 303,
+    "ProjectName": "Heller-Wuckert",
+    "AssociateId": 812,
+    "Snum": 649,
+    "SaleId": 8,
+    "SaleName": "Douglas Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 507
+        "FieldType": "System.Int32",
+        "FieldLength": 891
       }
     }
   }

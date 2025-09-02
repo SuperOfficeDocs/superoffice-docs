@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.GetConfigurationFields SOAP
 generated: true
 uid: Services88-ErpSync-GetConfigurationFields
+content_type: reference
 ---
 
 # Services88 ErpSync GetConfigurationFields

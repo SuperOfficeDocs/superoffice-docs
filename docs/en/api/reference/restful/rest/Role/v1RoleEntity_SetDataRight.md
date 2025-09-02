@@ -2,6 +2,7 @@
 title: PUT Role/{id}/DataRight/{tableName}/{relationToOwner}
 uid: v1RoleEntity_SetDataRight
 generated: true
+content_type: reference
 ---
 
 # PUT Role/{id}/DataRight/{tableName}/{relationToOwner}
@@ -26,7 +27,7 @@ An exception will be thrown if non existing position is specified.
 |-----------|------|-------------|
 | roleId | int32 | The role id to set the data right for **Required** |
 | tableName | string | The name of the entity/table **Required** |
-| relationToOwner | Enum: MyOwn, PrimaryGroup, OtherAssociates, OtherGroups, ExternalUser, Anonymous, MyCompany, SameProject | The id of the relation to owner **Required** |
+| relationToOwner | Enum: MyOwn, PrimaryGroup, OtherAssociates, OtherGroups, ExternalUser, Anonymous, MyCompany, SameProject, CustomObjects | The id of the relation to owner **Required** |
 
 
 ## Query String Parameters
@@ -36,7 +37,7 @@ An exception will be thrown if non existing position is specified.
 | dataRightValue | string | **Required** The data right value to set at the specified position (CRUD) |
 
 ```http
-PUT /api/v1/Role/{roleId}/DataRight/{tableName}/{relationToOwner}?dataRightValue=asperiores
+PUT /api/v1/Role/{roleId}/DataRight/{tableName}/{relationToOwner}?dataRightValue=amet
 ```
 
 

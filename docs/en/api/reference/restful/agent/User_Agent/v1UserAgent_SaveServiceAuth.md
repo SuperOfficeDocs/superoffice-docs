@@ -2,6 +2,7 @@
 title: POST Agents/User/SaveServiceAuth
 uid: v1UserAgent_SaveServiceAuth
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/SaveServiceAuth
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/User/SaveServiceAuth
 ```
 
-Updates the existing ServiceAuth or creates a new ServiceAuth if the id parameter is empty
+Updates the existing ServiceAuth or creates a new ServiceAuth if the id parameter is 0.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -35,9 +36,9 @@ Updates the existing ServiceAuth or creates a new ServiceAuth if the id paramete
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: serviceAuth 
 
-The ServiceAuth to be saved. 
+The ServiceAuth that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -75,16 +76,16 @@ OK
 POST /api/v1/Agents/User/SaveServiceAuth
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 509,
-  "Server": "optio",
-  "Port": 793,
-  "AuthType": "fugit",
-  "Username": "pariatur",
-  "Password": "rerum"
+  "ServiceAuthId": 962,
+  "Server": "distinctio",
+  "Port": 879,
+  "AuthType": "odio",
+  "Username": "tenetur",
+  "Password": "nisi"
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 95,
-  "Server": "aut",
-  "Port": 505,
-  "AuthType": "nemo",
-  "Username": "qui",
-  "Password": "mollitia",
+  "ServiceAuthId": 996,
+  "Server": "voluptates",
+  "Port": 554,
+  "AuthType": "sit",
+  "Username": "culpa",
+  "Password": "error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 424
+      "FieldLength": 71
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/Contact/DeleteContactEntity
 uid: v1ContactAgent_DeleteContactEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Contact/DeleteContactEntity
@@ -10,8 +11,10 @@ generated: true
 POST /api/v1/Agents/Contact/DeleteContactEntity
 ```
 
-Deletes the ContactEntity
+Deletes the ContactEntity.
 
+
+This table supports Soft Delete; records will be marked as deleted and disappear from the GUI and API results, but will not be physically deleted by this (and any other) method.
 
 
 
@@ -22,10 +25,10 @@ Deletes the ContactEntity
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| ContactEntityId | int32 | **Required** The id of the ContactEntity to be deleted. |
+| contactEntityId | int32 | **Required** The identity of the ContactEntity |
 
 ```http
-POST /api/v1/Agents/Contact/DeleteContactEntity?ContactEntityId=985
+POST /api/v1/Agents/Contact/DeleteContactEntity?contactEntityId=549
 ```
 
 

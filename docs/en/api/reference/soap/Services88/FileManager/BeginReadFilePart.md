@@ -2,6 +2,7 @@
 title: Services88.FileManagerAgent.BeginReadFilePart SOAP
 generated: true
 uid: Services88-FileManager-BeginReadFilePart
+content_type: reference
 ---
 
 # Services88 FileManager BeginReadFilePart

@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.SaveConnectionListMappings SOAP
 generated: true
 uid: Services88-ErpSync-SaveConnectionListMappings
+content_type: reference
 ---
 
 # Services88 ErpSync SaveConnectionListMappings

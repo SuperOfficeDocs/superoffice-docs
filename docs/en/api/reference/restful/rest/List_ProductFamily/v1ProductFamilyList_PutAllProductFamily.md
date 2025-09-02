@@ -2,6 +2,7 @@
 title: PUT List/ProductFamily/Items
 uid: v1ProductFamilyList_PutAllProductFamily
 generated: true
+content_type: reference
 ---
 
 # PUT List/ProductFamily/Items
@@ -73,25 +74,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 457,
-    "Name": "Bode, Kerluke and Ankunding",
-    "Tooltip": "error",
-    "Deleted": false,
-    "UdListDefinitionId": 782,
-    "Rank": 253
+    "Id": 897,
+    "Name": "Rice-Kovacek",
+    "Tooltip": "necessitatibus",
+    "Deleted": true,
+    "UdListDefinitionId": 554,
+    "Rank": 865
   },
   {
-    "Id": 457,
-    "Name": "Bode, Kerluke and Ankunding",
-    "Tooltip": "error",
-    "Deleted": false,
-    "UdListDefinitionId": 782,
-    "Rank": 253
+    "Id": 897,
+    "Name": "Rice-Kovacek",
+    "Tooltip": "necessitatibus",
+    "Deleted": true,
+    "UdListDefinitionId": 554,
+    "Rank": 865
   }
 ]
 ```
@@ -104,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 571,
-    "Name": "Quigley LLC",
-    "Tooltip": "voluptas",
+    "Id": 943,
+    "Name": "McLaughlin-Muller",
+    "Tooltip": "cupiditate",
     "Deleted": false,
-    "UdListDefinitionId": 944,
-    "Rank": 813,
+    "UdListDefinitionId": 815,
+    "Rank": 273,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 955
+        "FieldLength": 970
       }
     }
   }

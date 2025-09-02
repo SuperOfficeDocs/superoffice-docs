@@ -1,0 +1,263 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.CategoryGroup
+  commentId: T:SuperOffice.WebApi.Data.CategoryGroup
+  id: CategoryGroup
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.CategoryGroup.Customer
+  - SuperOffice.WebApi.Data.CategoryGroup.Lost
+  - SuperOffice.WebApi.Data.CategoryGroup.Other
+  - SuperOffice.WebApi.Data.CategoryGroup.Partner
+  - SuperOffice.WebApi.Data.CategoryGroup.PotentialCustomer
+  - SuperOffice.WebApi.Data.CategoryGroup.Unknown
+  langs:
+  - csharp
+  - vb
+  name: CategoryGroup
+  nameWithType: CategoryGroup
+  fullName: SuperOffice.WebApi.Data.CategoryGroup
+  type: Enum
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    5 different type a category can be grouped as
+
+    This Enum is used by:  Category.category_group
+  example: []
+  syntax:
+    content: 'public enum CategoryGroup : short'
+    content.vb: Public Enum CategoryGroup As Short
+- uid: SuperOffice.WebApi.Data.CategoryGroup.Unknown
+  commentId: F:SuperOffice.WebApi.Data.CategoryGroup.Unknown
+  id: Unknown
+  parent: SuperOffice.WebApi.Data.CategoryGroup
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: CategoryGroup.Unknown
+  fullName: SuperOffice.WebApi.Data.CategoryGroup.Unknown
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '0: Unknown category group'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Unknown = 0
+    return:
+      type: SuperOffice.WebApi.Data.CategoryGroup
+    content.vb: >-
+      <EnumMember>
+
+      Unknown = 0
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.CategoryGroup.Customer
+  commentId: F:SuperOffice.WebApi.Data.CategoryGroup.Customer
+  id: Customer
+  parent: SuperOffice.WebApi.Data.CategoryGroup
+  langs:
+  - csharp
+  - vb
+  name: Customer
+  nameWithType: CategoryGroup.Customer
+  fullName: SuperOffice.WebApi.Data.CategoryGroup.Customer
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '1: Customer'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Customer = 1
+    return:
+      type: SuperOffice.WebApi.Data.CategoryGroup
+    content.vb: >-
+      <EnumMember>
+
+      Customer = 1
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.CategoryGroup.PotentialCustomer
+  commentId: F:SuperOffice.WebApi.Data.CategoryGroup.PotentialCustomer
+  id: PotentialCustomer
+  parent: SuperOffice.WebApi.Data.CategoryGroup
+  langs:
+  - csharp
+  - vb
+  name: PotentialCustomer
+  nameWithType: CategoryGroup.PotentialCustomer
+  fullName: SuperOffice.WebApi.Data.CategoryGroup.PotentialCustomer
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '2: Potential customer'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      PotentialCustomer = 2
+    return:
+      type: SuperOffice.WebApi.Data.CategoryGroup
+    content.vb: >-
+      <EnumMember>
+
+      PotentialCustomer = 2
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.CategoryGroup.Partner
+  commentId: F:SuperOffice.WebApi.Data.CategoryGroup.Partner
+  id: Partner
+  parent: SuperOffice.WebApi.Data.CategoryGroup
+  langs:
+  - csharp
+  - vb
+  name: Partner
+  nameWithType: CategoryGroup.Partner
+  fullName: SuperOffice.WebApi.Data.CategoryGroup.Partner
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '3: Partner'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Partner = 3
+    return:
+      type: SuperOffice.WebApi.Data.CategoryGroup
+    content.vb: >-
+      <EnumMember>
+
+      Partner = 3
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.CategoryGroup.Lost
+  commentId: F:SuperOffice.WebApi.Data.CategoryGroup.Lost
+  id: Lost
+  parent: SuperOffice.WebApi.Data.CategoryGroup
+  langs:
+  - csharp
+  - vb
+  name: Lost
+  nameWithType: CategoryGroup.Lost
+  fullName: SuperOffice.WebApi.Data.CategoryGroup.Lost
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '4: Lost'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Lost = 4
+    return:
+      type: SuperOffice.WebApi.Data.CategoryGroup
+    content.vb: >-
+      <EnumMember>
+
+      Lost = 4
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.WebApi.Data.CategoryGroup.Other
+  commentId: F:SuperOffice.WebApi.Data.CategoryGroup.Other
+  id: Other
+  parent: SuperOffice.WebApi.Data.CategoryGroup
+  langs:
+  - csharp
+  - vb
+  name: Other
+  nameWithType: CategoryGroup.Other
+  fullName: SuperOffice.WebApi.Data.CategoryGroup.Other
+  type: Field
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: '5: Other'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Other = 5
+    return:
+      type: SuperOffice.WebApi.Data.CategoryGroup
+    content.vb: >-
+      <EnumMember>
+
+      Other = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: SuperOffice.WebApi.Data.CategoryGroup
+  commentId: T:SuperOffice.WebApi.Data.CategoryGroup
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CategoryGroup.html
+  name: CategoryGroup
+  nameWithType: CategoryGroup
+  fullName: SuperOffice.WebApi.Data.CategoryGroup

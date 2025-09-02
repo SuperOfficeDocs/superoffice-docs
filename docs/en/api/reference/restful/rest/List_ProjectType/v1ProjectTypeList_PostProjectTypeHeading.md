@@ -2,6 +2,7 @@
 title: POST List/ProjectType/Headings
 uid: v1ProjectTypeList_PostProjectTypeHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/ProjectType/Headings
@@ -79,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 564,
-  "Name": "Stiedemann LLC",
-  "Tooltip": "neque",
+  "HeadingId": 58,
+  "Name": "Reinger, Hoeger and Wunsch",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 733,
-  "UdListDefinitionId": 901
+  "Rank": 362,
+  "UdListDefinitionId": 55
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 692,
-  "Name": "Cummerata-Donnelly",
-  "Tooltip": "ea",
-  "Deleted": true,
-  "Rank": 573,
-  "UdListDefinitionId": 965,
+  "HeadingId": 137,
+  "Name": "Wolff-Greenfelder",
+  "Tooltip": "dicta",
+  "Deleted": false,
+  "Rank": 4,
+  "UdListDefinitionId": 321,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldLength": 227
     }
   }
 }

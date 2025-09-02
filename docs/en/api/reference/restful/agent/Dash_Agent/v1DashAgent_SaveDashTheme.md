@@ -2,6 +2,7 @@
 title: POST Agents/Dash/SaveDashTheme
 uid: v1DashAgent_SaveDashTheme
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Dash/SaveDashTheme
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Dash/SaveDashTheme
 ```
 
-Updates the existing DashTheme or creates a new DashTheme if the id parameter is empty
+Updates the existing DashTheme or creates a new DashTheme if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing DashTheme or creates a new DashTheme if the id parameter is
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: dashTheme 
 
-The DashTheme to be saved. 
+The DashTheme that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -73,16 +74,16 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 950,
-  "Name": "Grady, Lemke and Kuhn",
-  "Config": "esse",
-  "Rank": 949,
-  "Client": "recusandae",
-  "Style": "quia"
+  "DashboardThemeId": 911,
+  "Name": "Muller Inc and Sons",
+  "Config": "similique",
+  "Rank": 178,
+  "Client": "aut",
+  "Style": "qui"
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 893,
-  "Name": "Kautzer-Jewess",
-  "Config": "labore",
-  "Rank": 477,
-  "Client": "aperiam",
-  "Style": "quaerat",
+  "DashboardThemeId": 472,
+  "Name": "Pfeffer, Tremblay and Howell",
+  "Config": "non",
+  "Rank": 145,
+  "Client": "praesentium",
+  "Style": "delectus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldLength": 559
     }
   }
 }

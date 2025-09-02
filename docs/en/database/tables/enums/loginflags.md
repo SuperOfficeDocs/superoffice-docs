@@ -2,10 +2,10 @@
 uid: enum-loginflags
 title: Enum values for LoginFlags
 description: Lists the enum values for LoginFlags.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # LoginFlags Enum

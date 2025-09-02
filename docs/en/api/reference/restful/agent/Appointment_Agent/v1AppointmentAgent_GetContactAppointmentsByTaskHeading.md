@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetContactAppointmentsByTaskHeading
 uid: v1AppointmentAgent_GetContactAppointmentsByTaskHeading
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetContactAppointmentsByTaskHeading
@@ -118,6 +119,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -132,15 +134,15 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 167,
-  "StartTime": "2004-01-11T03:45:22.6861022+01:00",
-  "EndTime": "2018-02-03T03:45:22.6861022+01:00",
-  "Count": 281,
-  "TaskHeadingId": 931
+  "ContactId": 520,
+  "StartTime": "2010-06-07T03:46:53.9882851+02:00",
+  "EndTime": "2016-07-10T03:46:53.9882851+02:00",
+  "Count": 60,
+  "TaskHeadingId": 306
 }
 ```
 
@@ -152,66 +154,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 177,
-    "StartDate": "2007-08-07T03:45:22.6861022+02:00",
-    "EndDate": "2011-07-10T03:45:22.6861022+02:00",
+    "AppointmentId": 618,
+    "StartDate": "2017-04-16T03:46:54.0039095+02:00",
+    "EndDate": "2006-08-17T03:46:54.0039095+02:00",
     "Type": "BookingForChecklist",
-    "Task": "odio",
-    "AssociateFullName": "Mrs. Hayley Alfreda Prohaska Sr.",
-    "ContactName": "Cruickshank-Lebsack",
-    "Description": "Innovative local complexity",
-    "PersonFullName": "Prof. Anya Rahsaan Runolfsdottir",
-    "PersonId": 610,
-    "ContactId": 510,
-    "ProjectId": 143,
-    "ProjectName": "Wehner-Hirthe",
+    "Task": "totam",
+    "AssociateFullName": "Alvina Jast",
+    "ContactName": "Rutherford Group",
+    "Description": "Digitized bi-directional orchestration",
+    "PersonFullName": "Clemens Price",
+    "PersonId": 791,
+    "ContactId": 543,
+    "ProjectId": 749,
+    "ProjectName": "Torp, Larkin and Cartwright",
     "IsPublished": false,
-    "AssociateId": 526,
-    "ColorIndex": 134,
+    "AssociateId": 393,
+    "ColorIndex": 228,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 680,
-    "PriorityName": "Effertz, Stokes and Price",
+    "PriorityId": 33,
+    "PriorityName": "Ward LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2019-05-19T03:45:22.7017267+02:00",
+    "ActiveDate": "2004-07-27T03:46:54.0039095+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-02-08T03:45:22.7017267+01:00",
-    "RecurringEndDate": "2002-03-19T03:45:22.7017267+01:00",
-    "MotherId": 418,
-    "AssignedBy": 524,
-    "AssignedByFullName": "Ms. Emilio Eusebio Grant PhD",
+    "RecurringStartDate": "2023-06-14T03:46:54.0039095+02:00",
+    "RecurringEndDate": "1999-06-19T03:46:54.0039095+02:00",
+    "MotherId": 271,
+    "AssignedBy": 966,
+    "AssignedByFullName": "Soledad Dietrich",
     "RejectReason": "",
-    "Location": "ut",
-    "AlarmLeadTime": "possimus",
-    "SaleId": 910,
-    "SaleName": "Ratke-Kulas",
-    "AssociateName": "Konopelski-Veum",
-    "CreatedDate": "2025-04-10T03:45:22.7017267+02:00",
-    "CreatedBy": "dolorem",
-    "CreatedByFullName": "Prof. Hugh Kayden Sipes Jr.",
-    "CreatedByAssociateId": 304,
+    "Location": "illo",
+    "AlarmLeadTime": "dolorem",
+    "SaleId": 627,
+    "SaleName": "Predovic Group",
+    "AssociateName": "Haley LLC",
+    "CreatedDate": "2021-11-03T03:46:54.0039095+01:00",
+    "CreatedBy": "omnis",
+    "CreatedByFullName": "Adolphus Ruecker",
+    "CreatedByAssociateId": 511,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
+    "MotherAssociateId": 130,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 312,
-    "Title": "voluptatem",
-    "Agenda": "rerum",
-    "InternalNotes": "et",
+    "PreferredTZLocation": 69,
+    "Title": "architecto",
+    "Agenda": "quae",
+    "InternalNotes": "fuga",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 774
+        "FieldLength": 954
       }
     }
   }

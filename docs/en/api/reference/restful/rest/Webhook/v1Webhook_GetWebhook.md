@@ -2,6 +2,7 @@
 title: GET Webhook/{id}
 uid: v1Webhook_GetWebhook
 generated: true
+content_type: reference
 ---
 
 # GET Webhook/{id}
@@ -87,7 +88,7 @@ Webhook found.
 GET /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,31 +98,31 @@ HTTP/1.1 200 Webhook found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 62,
-  "Name": "Wehner, Erdman and Grant",
+  "WebhookId": 657,
+  "Name": "Wuckert-Stoltenberg",
   "Events": [
-    "quia",
-    "quia"
+    "voluptatem",
+    "error"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "et",
+  "Secret": "quis",
   "State": "Active",
-  "Type": "voluptas",
+  "Type": "reiciendis",
   "Headers": {
-    "Headers1": "nihil",
-    "Headers2": "distinctio"
+    "Headers1": "dolores",
+    "Headers2": "labore"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2009-04-08T03:45:28.8890492+02:00",
+  "Registered": "2004-11-10T03:47:00.5505518+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2022-12-12T03:45:28.8890492+01:00",
+  "Updated": "1999-05-07T03:47:00.5505518+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "casper@johnson.uk",
+  "ErrorsEmail": "kristopher_schmitt@jacobi.com",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

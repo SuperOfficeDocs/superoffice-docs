@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetAllSaleStages SOAP
 generated: true
 uid: Services88-List-GetAllSaleStages
+content_type: reference
 ---
 
 # Services88 List GetAllSaleStages

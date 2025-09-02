@@ -2,6 +2,7 @@
 title: Services88.UserDefinedFieldInfoAgent.GetUserDefinedFieldInfo SOAP
 generated: true
 uid: Services88-UserDefinedFieldInfo-GetUserDefinedFieldInfo
+content_type: reference
 ---
 
 # Services88 UserDefinedFieldInfo GetUserDefinedFieldInfo

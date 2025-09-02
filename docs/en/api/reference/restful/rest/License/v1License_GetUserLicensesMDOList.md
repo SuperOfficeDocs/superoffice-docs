@@ -2,6 +2,7 @@
 title: GET License/User/MdoList
 uid: v1License_GetUserLicensesMDOList
 generated: true
+content_type: reference
 ---
 
 # GET License/User/MdoList
@@ -69,7 +70,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,56 +81,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 838,
-    "Name": "Yundt, Graham and Gutkowski",
-    "ToolTip": "Voluptas repellat ut.",
-    "Deleted": false,
-    "Rank": 409,
-    "Type": "amet",
-    "ColorBlock": 221,
-    "IconHint": "fuga",
+    "Id": 720,
+    "Name": "Armstrong-Yost",
+    "ToolTip": "Quod quibusdam consectetur.",
+    "Deleted": true,
+    "Rank": 223,
+    "Type": "consequatur",
+    "ColorBlock": 306,
+    "IconHint": "suscipit",
     "Selected": true,
-    "LastChanged": "2016-06-04T03:45:28.8109239+02:00",
+    "LastChanged": "2013-11-09T03:47:00.4099317+01:00",
     "ChildItems": [
       {
-        "Id": 945,
-        "Name": "Jerde-Beatty",
-        "ToolTip": "Et magni aut excepturi.",
-        "Deleted": true,
-        "Rank": 209,
-        "Type": "non",
-        "ColorBlock": 317,
-        "IconHint": "nobis",
-        "Selected": true,
-        "LastChanged": "2011-06-05T03:45:28.8109239+02:00",
+        "Id": 926,
+        "Name": "Johnson-Stamm",
+        "ToolTip": "Suscipit vero et est vitae similique omnis dolorem.",
+        "Deleted": false,
+        "Rank": 359,
+        "Type": "provident",
+        "ColorBlock": 80,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2019-09-23T03:47:00.4099317+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "minima",
+        "ExtraInfo": "soluta",
+        "StyleHint": "molestias",
         "Hidden": false,
-        "FullName": "Orland Gerlach",
+        "FullName": "Tanner O'Conner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 552
+            "FieldLength": 878
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "dignissimos",
-    "Hidden": false,
-    "FullName": "Margaret Brekke",
+    "ExtraInfo": "illum",
+    "StyleHint": "eos",
+    "Hidden": true,
+    "FullName": "Miss Justyn Okuneva",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 793
+        "FieldLength": 481
       }
     }
   }

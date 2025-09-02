@@ -2,6 +2,7 @@
 title: Services88.SaleAgent.DeleteSaleStakeholder SOAP
 generated: true
 uid: Services88-Sale-DeleteSaleStakeholder
+content_type: reference
 ---
 
 # Services88 Sale DeleteSaleStakeholder

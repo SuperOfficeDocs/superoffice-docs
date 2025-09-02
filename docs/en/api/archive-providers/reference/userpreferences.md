@@ -3,9 +3,9 @@ uid: UserPreferences
 title: UserPreferences
 description: User (and system) preference settings, at all levels
 keywords: UserPreferences archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "UserPreferences"
@@ -50,7 +50,7 @@ Service settings that are mapped into preferences, retrieved by <see cref="T:Sup
 ## Sample
 
 ```http!
-GET /api/v1/archive/UserPreferences?$select=owner,deflevel,maxlevelname
+GET /api/v1/archive/UserPreferences?$select=deflevel,maxlevelname
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

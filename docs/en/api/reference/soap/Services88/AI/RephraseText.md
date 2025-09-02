@@ -2,6 +2,7 @@
 title: Services88.AIAgent.RephraseText SOAP
 generated: true
 uid: Services88-AI-RephraseText
+content_type: reference
 ---
 
 # Services88 AI RephraseText

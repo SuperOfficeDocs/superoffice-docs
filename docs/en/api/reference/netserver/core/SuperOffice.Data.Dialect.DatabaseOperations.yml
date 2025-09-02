@@ -53,6 +53,7 @@ items:
   - System.Object
   derivedClasses:
   - SuperOffice.Data.Dialect.OracleOperations
+  - SuperOffice.Data.Dialect.PostgreSqlOperations
   - SuperOffice.Data.Dialect.SqlServerOperations
   implements:
   - SuperOffice.Data.Dialect.IDatabaseOperations

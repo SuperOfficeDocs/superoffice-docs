@@ -2,6 +2,7 @@
 title: Services88.DiagnosticsAgent.GetNextTableNumber SOAP
 generated: true
 uid: Services88-Diagnostics-GetNextTableNumber
+content_type: reference
 ---
 
 # Services88 Diagnostics GetNextTableNumber

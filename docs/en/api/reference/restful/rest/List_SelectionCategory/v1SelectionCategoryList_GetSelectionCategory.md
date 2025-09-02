@@ -2,6 +2,7 @@
 title: GET List/SelectionCategory/Items/{id}
 uid: v1SelectionCategoryList_GetSelectionCategory
 generated: true
+content_type: reference
 ---
 
 # GET List/SelectionCategory/Items/{id}
@@ -75,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 604,
-  "Name": "Mueller-Klein",
-  "Tooltip": "debitis",
+  "Id": 244,
+  "Name": "Stehr LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 491,
-  "Rank": 465,
+  "UdListDefinitionId": 129,
+  "Rank": 138,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 857
+      "FieldType": "System.String",
+      "FieldLength": 338
     }
   }
 }

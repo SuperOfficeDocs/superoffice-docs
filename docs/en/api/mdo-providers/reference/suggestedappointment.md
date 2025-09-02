@@ -3,9 +3,9 @@ uid: suggestedappointment
 title: suggestedappointment
 keywords: mdoprovider mdo provider suggestedappointment
 description: Suggested Appointment Provider creates a MDO list of suggested appointments for a given guide stage.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "suggestedappointment" MDO List

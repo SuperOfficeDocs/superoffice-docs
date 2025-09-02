@@ -2,6 +2,7 @@
 title: POST Agents/Sale/DeleteSaleStakeholders
 uid: v1SaleAgent_DeleteSaleStakeholders
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/DeleteSaleStakeholders
@@ -69,8 +70,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    613,
-    500
+    229,
+    833
   ]
 }
 ```

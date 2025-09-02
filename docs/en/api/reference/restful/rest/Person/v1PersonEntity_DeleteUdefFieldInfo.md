@@ -2,6 +2,7 @@
 title: DEL Person/UdefLayout/{progidOrLabel}
 uid: v1PersonEntity_DeleteUdefFieldInfo
 generated: true
+content_type: reference
 ---
 
 # DEL Person/UdefLayout/{progidOrLabel}

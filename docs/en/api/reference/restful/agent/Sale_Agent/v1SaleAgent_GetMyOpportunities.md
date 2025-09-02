@@ -2,6 +2,7 @@
 title: POST Agents/Sale/GetMyOpportunities
 uid: v1SaleAgent_GetMyOpportunities
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/GetMyOpportunities
@@ -97,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 316
+  "Count": 254
 }
 ```
 
@@ -113,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Boehm Inc and Sons",
-    "SaleDate": "2001-08-08T03:45:23.8735682+02:00",
-    "SaleId": 769,
-    "Probability": 279,
-    "Title": "quia",
-    "Amount": 16920.466,
-    "Currency": "amet",
-    "ProjectName": "Blick, Swift and Morar",
-    "AssociateFullName": "Eliseo Boehm Sr.",
-    "Description": "Function-based scalable product",
+    "ContactName": "Stoltenberg Inc and Sons",
+    "SaleDate": "2024-12-13T03:46:55.2694888+01:00",
+    "SaleId": 681,
+    "Probability": 376,
+    "Title": "nam",
+    "Amount": 20674.998,
+    "Currency": "quos",
+    "ProjectName": "Little-Fahey",
+    "AssociateFullName": "Eduardo Wyman",
+    "Description": "Up-sized human-resource projection",
     "Status": "Lost",
-    "WeightedAmount": 28610.286,
-    "ProjectId": 489,
-    "EarningPercent": 16331.274,
-    "Earning": 5277.656,
-    "ContactId": 356,
-    "AssociateId": 750,
-    "PersonId": 132,
-    "SaleTypeId": 630,
-    "SaleTypeName": "Kessler, Keebler and Schmitt",
-    "PersonFullName": "Savanah Schaden",
+    "WeightedAmount": 22931.478,
+    "ProjectId": 586,
+    "EarningPercent": 2729.714,
+    "Earning": 16635.272,
+    "ContactId": 188,
+    "AssociateId": 94,
+    "PersonId": 862,
+    "SaleTypeId": 565,
+    "SaleTypeName": "Zemlak, Quitzon and Pagac",
+    "PersonFullName": "Marcelina Smitham",
     "Completed": "Completed",
-    "ActiveErpLinks": 207,
-    "NextDueDate": "2018-03-18T03:45:23.8735682+01:00",
-    "Number": "1564001",
+    "ActiveErpLinks": 614,
+    "NextDueDate": "2002-08-28T03:46:55.2694888+02:00",
+    "Number": "1094436",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 688
+        "FieldLength": 354
       }
     }
   }

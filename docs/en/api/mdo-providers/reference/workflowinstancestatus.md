@@ -3,9 +3,9 @@ uid: workflowinstancestatus
 title: workflowinstancestatus
 keywords: mdoprovider mdo provider workflowinstancestatus
 description: MDO provider for the WorkflowInstanceStatus enum
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "workflowinstancestatus" MDO List

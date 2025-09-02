@@ -2,6 +2,7 @@
 title: POST Agents/Targets/GetTargetGroupForYearAndDimension
 uid: v1TargetsAgent_GetTargetGroupForYearAndDimension
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Targets/GetTargetGroupForYearAndDimension
@@ -79,12 +80,12 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 106,
-  "DimensionId": 518
+  "TargetYear": 376,
+  "DimensionId": 353
 }
 ```
 
@@ -95,30 +96,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 442,
-  "Year": 412,
+  "TargetGroupId": 493,
+  "Year": 793,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 904,
+      "TargetAssignmentInfoId": 949,
       "Values": [
-        285,
-        840
+        654,
+        68
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 348,
-      "DimensionListItemDisplayName": "Terry-Welch",
+      "DimensionListItem": 876,
+      "DimensionListItemDisplayName": "Bartell-Wintheiser",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 457
+          "FieldLength": 51
         }
       }
     }
@@ -128,8 +129,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 588
+      "FieldType": "System.String",
+      "FieldLength": 330
     }
   }
 }

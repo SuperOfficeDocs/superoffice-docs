@@ -2,10 +2,10 @@
 uid: enum-shipmentlinkredirectkind
 title: Enum values for ShipmentLinkRedirectKind
 description: Lists the enum values for ShipmentLinkRedirectKind.
-so.generated: true
+generated: true
 keywords: database enum
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ShipmentLinkRedirectKind Enum

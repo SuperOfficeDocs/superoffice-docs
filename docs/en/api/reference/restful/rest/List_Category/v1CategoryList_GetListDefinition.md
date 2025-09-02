@@ -2,6 +2,7 @@
 title: GET List/Category
 uid: v1CategoryList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/Category
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 585,
-  "Name": "Bernier-Marks",
-  "Tooltip": "aut",
+  "Id": 243,
+  "Name": "Hudson LLC",
+  "Tooltip": "distinctio",
   "Deleted": false,
-  "Rank": 344,
-  "IsCustomList": false,
+  "Rank": 70,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "qui",
+  "UseGroupsAndHeadings": false,
+  "ListType": "vel",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 476
+      "FieldType": "System.Int32",
+      "FieldLength": 167
     }
   },
   "_Links": {

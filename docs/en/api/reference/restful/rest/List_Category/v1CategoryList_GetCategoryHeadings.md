@@ -2,6 +2,7 @@
 title: GET List/Category/Headings
 uid: v1CategoryList_GetCategoryHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/Category/Headings
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 361,
-    "Name": "Becker Inc and Sons",
-    "Tooltip": "ducimus",
+    "HeadingId": 307,
+    "Name": "Paucek, Sanford and Nader",
+    "Tooltip": "id",
     "Deleted": false,
-    "Rank": 800,
-    "UdListDefinitionId": 339,
+    "Rank": 893,
+    "UdListDefinitionId": 761,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 516
+        "FieldLength": 260
       }
     }
   }

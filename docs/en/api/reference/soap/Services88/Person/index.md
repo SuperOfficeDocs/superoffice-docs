@@ -2,6 +2,7 @@
 title: Services88.PersonAgent SOAP
 uid: Services88-Person-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Person SOAP
@@ -56,6 +57,7 @@ Download [WSDL file for Services88/Person](../Services88-Person.md) if you need 
 * [GetPhones](GetPhones.md)
 * [GetSalesRep](GetSalesRep.md)
 * [GetUserCandidateByPerson](GetUserCandidateByPerson.md)
+* [GetUtmParameters](GetUtmParameters.md)
 * [HasConsent](HasConsent.md)
 * [IsNumberValid](IsNumberValid.md)
 * [Merge](Merge.md)

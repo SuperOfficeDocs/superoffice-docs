@@ -2,6 +2,7 @@
 title: POST Agents/Marketing/CreateDefaultShipmentMessageBlockEntity
 uid: v1MarketingAgent_CreateDefaultShipmentMessageBlockEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Marketing/CreateDefaultShipmentMessageBlockEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageBlockEntity
 ```
 
-Set default values into a new ShipmentMessageBlockEntity.
+Loading default values into a new ShipmentMessageBlockEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -64,7 +63,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 219,
-  "AssociateId": 468,
-  "Block": "fuga",
-  "Registered": "2011-04-08T03:45:23.6235756+02:00",
-  "RegisteredAssociateId": 497,
-  "Updated": "2011-01-05T03:45:23.6235756+01:00",
-  "UpdatedAssociateId": 917,
-  "UpdatedCount": 237,
+  "ShipmentMessageBlockId": 807,
+  "AssociateId": 11,
+  "Block": "provident",
+  "Registered": "2002-05-19T03:46:55.0038735+02:00",
+  "RegisteredAssociateId": 293,
+  "Updated": "2009-10-21T03:46:55.0038735+02:00",
+  "UpdatedAssociateId": 387,
+  "UpdatedCount": 292,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 366
+      "FieldLength": 172
     }
   }
 }

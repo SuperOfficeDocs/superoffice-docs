@@ -2,6 +2,7 @@
 title: POST Agents/Sale/DeleteSaleEntity
 uid: v1SaleAgent_DeleteSaleEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/DeleteSaleEntity
@@ -22,10 +23,10 @@ Deletes the SaleEntity
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| SaleEntityId | int32 | **Required** The id of the SaleEntity to be deleted. |
+| saleEntityId | int32 | **Required** The identity of the SaleEntity |
 
 ```http
-POST /api/v1/Agents/Sale/DeleteSaleEntity?SaleEntityId=439
+POST /api/v1/Agents/Sale/DeleteSaleEntity?saleEntityId=836
 ```
 
 
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/Sale/DeleteSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

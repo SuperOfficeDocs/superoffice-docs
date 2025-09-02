@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/SplitTicket
 uid: v1TicketAgent_SplitTicket
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/SplitTicket
@@ -136,16 +137,16 @@ OK
 POST /api/v1/Agents/Ticket/SplitTicket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceTicketEntityId": 300,
-  "SourceTicketEntityStatusId": 130,
-  "SourceTicketEntityActivate": "2018-01-13T03:45:24.0923083+01:00",
+  "SourceTicketEntityId": 74,
+  "SourceTicketEntityStatusId": 313,
+  "SourceTicketEntityActivate": "2025-03-07T03:46:55.4882311+01:00",
   "TransferMessageIds": [
-    648,
-    881
+    876,
+    14
   ],
   "NewTicketEntity": null
 }
@@ -158,21 +159,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 479,
-  "Title": "deserunt",
-  "CreatedAt": "2020-11-06T03:45:24.0923083+01:00",
-  "LastChanged": "2001-07-02T03:45:24.0923083+02:00",
-  "ReadByOwner": "2008-10-03T03:45:24.0923083+02:00",
-  "ReadByCustomer": "2015-07-14T03:45:24.0923083+02:00",
-  "FirstReadByOwner": "2005-06-19T03:45:24.0923083+02:00",
-  "FirstReadByUser": "1998-06-26T03:45:24.0923083+02:00",
-  "Activate": "2024-05-20T03:45:24.0923083+02:00",
-  "ClosedAt": "2019-03-21T03:45:24.0923083+01:00",
-  "RepliedAt": "2018-03-29T03:45:24.0923083+02:00",
-  "AlertTimeout": "1999-11-24T03:45:24.0923083+01:00",
-  "Deadline": "1999-03-18T03:45:24.0923083+01:00",
+  "TicketId": 897,
+  "Title": "omnis",
+  "CreatedAt": "2014-12-12T03:46:55.5038556+01:00",
+  "LastChanged": "2001-12-24T03:46:55.5038556+01:00",
+  "ReadByOwner": "2001-12-16T03:46:55.5038556+01:00",
+  "ReadByCustomer": "2006-09-22T03:46:55.5038556+02:00",
+  "FirstReadByOwner": "2018-01-01T03:46:55.5038556+01:00",
+  "FirstReadByUser": "2012-04-30T03:46:55.5038556+02:00",
+  "Activate": "1999-03-30T03:46:55.5038556+02:00",
+  "ClosedAt": "1999-11-22T03:46:55.5038556+01:00",
+  "RepliedAt": "2025-08-30T03:46:55.5038556+02:00",
+  "AlertTimeout": "2014-01-11T03:46:55.5038556+01:00",
+  "Deadline": "2001-01-15T03:46:55.5038556+01:00",
   "CreatedBy": null,
-  "Author": "esse",
+  "Author": "voluptatem",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -183,163 +184,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "omnis",
-      "PersonId": 773,
-      "Mrmrs": "magni",
-      "Firstname": "Cecil",
-      "Lastname": "Stoltenberg",
-      "MiddleName": "Simonis Inc and Sons",
-      "Title": "eum",
-      "Description": "Devolved motivating policy",
-      "Email": "marquise.carter@mitchellwill.uk",
-      "FullName": "Justus Waters",
-      "DirectPhone": "1-775-273-0744 x637",
-      "FormalName": "Kreiger Group",
-      "CountryId": 524,
-      "ContactId": 59,
-      "ContactName": "Wintheiser, Dietrich and Beatty",
-      "Retired": 693,
-      "Rank": 609,
-      "ActiveInterests": 464,
+      "Position": "optio",
+      "PersonId": 887,
+      "Mrmrs": "nemo",
+      "Firstname": "Marc",
+      "Lastname": "Hoeger",
+      "MiddleName": "Bergstrom-O'Hara",
+      "Title": "alias",
+      "Description": "Robust tertiary structure",
+      "Email": "candido@funk.name",
+      "FullName": "Brycen Koch DVM",
+      "DirectPhone": "229.469.1319 x62366",
+      "FormalName": "Feil-McCullough",
+      "CountryId": 726,
+      "ContactId": 487,
+      "ContactName": "Bayer-Waters",
+      "Retired": 349,
+      "Rank": 886,
+      "ActiveInterests": 662,
       "ContactDepartment": "",
-      "ContactCountryId": 733,
-      "ContactOrgNr": "807013",
-      "FaxPhone": "1-012-747-3736",
-      "MobilePhone": "530-317-6260 x34982",
-      "ContactPhone": "(368)318-0012",
-      "AssociateName": "Hilll Inc and Sons",
-      "AssociateId": 37,
+      "ContactCountryId": 816,
+      "ContactOrgNr": "1473292",
+      "FaxPhone": "1-238-947-1797",
+      "MobilePhone": "313-951-7032 x3614",
+      "ContactPhone": "504.996.2815 x659",
+      "AssociateName": "Sipes Group",
+      "AssociateId": 785,
       "UsePersonAddress": false,
-      "ContactFax": "et",
-      "Kanafname": "in",
-      "Kanalname": "debitis",
-      "Post1": "fugiat",
-      "Post2": "et",
-      "Post3": "quos",
-      "EmailName": "abdullah@white.ca",
-      "ContactFullName": "Miss Javon McLaughlin I",
-      "ActiveErpLinks": 910,
-      "TicketPriorityId": 89,
-      "SupportLanguageId": 821,
-      "SupportAssociateId": 826,
+      "ContactFax": "laborum",
+      "Kanafname": "porro",
+      "Kanalname": "sit",
+      "Post1": "natus",
+      "Post2": "corporis",
+      "Post3": "voluptates",
+      "EmailName": "wilford_fay@turcotte.us",
+      "ContactFullName": "Hollis Sauer I",
+      "ActiveErpLinks": 100,
+      "TicketPriorityId": 643,
+      "SupportLanguageId": 596,
+      "SupportAssociateId": 493,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1409080",
+      "PersonNumber": "844197",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 536
+          "FieldType": "System.String",
+          "FieldLength": 348
         }
       }
     }
   ],
-  "AlertLevel": 865,
-  "ConnectId": 485,
+  "AlertLevel": 755,
+  "ConnectId": 93,
   "ReadStatus": "Green",
-  "TimeToReply": 762,
-  "RealTimeToReply": 490,
-  "TimeToClose": 34,
-  "RealTimeToClose": 929,
-  "TimeSpentInternally": 104,
-  "TimeSpentExternally": 852,
-  "TimeSpentQueue": 338,
-  "RealTimeSpentInternally": 408,
-  "RealTimeSpentExternally": 556,
-  "RealTimeSpentQueue": 103,
-  "TimeSpent": 122,
+  "TimeToReply": 348,
+  "RealTimeToReply": 563,
+  "TimeToClose": 328,
+  "RealTimeToClose": 728,
+  "TimeSpentInternally": 778,
+  "TimeSpentExternally": 639,
+  "TimeSpentQueue": 414,
+  "RealTimeSpentInternally": 163,
+  "RealTimeSpentExternally": 210,
+  "RealTimeSpentQueue": 947,
+  "TimeSpent": 645,
   "HasAttachment": false,
-  "NumReplies": 665,
-  "NumMessages": 787,
-  "FromAddress": "nihil",
+  "NumReplies": 860,
+  "NumMessages": 869,
+  "FromAddress": "est",
   "Messages": [
     {
-      "TicketMessageId": 206,
-      "CreatedAt": "2012-09-10T03:45:24.0923083+02:00",
+      "TicketMessageId": 493,
+      "CreatedAt": "2011-04-29T03:46:55.5038556+02:00",
       "Slevel": "External",
       "Important": true,
-      "Author": "ut",
-      "PersonId": 234,
-      "PersonFullName": "Berry Zemlak",
-      "ContactId": 824,
-      "ContactName": "Cummerata-Homenick",
+      "Author": "mollitia",
+      "PersonId": 865,
+      "PersonFullName": "Devonte Zemlak",
+      "ContactId": 973,
+      "ContactName": "Howell Group",
       "ContactDepartment": "",
-      "NumAttachments": 689,
-      "EmailHeader": "maximo@mayertbergstrom.com",
+      "NumAttachments": 401,
+      "EmailHeader": "margarett@roob.com",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "magnam",
-      "Sentiment": 537,
-      "SentimentConfidence": 333,
-      "CreatedBy": 536,
-      "ChangedAt": "2010-09-19T03:45:24.0923083+02:00",
+      "Language": "ullam",
+      "Sentiment": 36,
+      "SentimentConfidence": 281,
+      "CreatedBy": 499,
+      "ChangedAt": "2019-04-20T03:46:55.5038556+02:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 93
+          "FieldLength": 452
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 725,
-      "Name": "Metz, Metz and Schmidt",
-      "ToolTip": "Tenetur quaerat ut.",
+      "Id": 542,
+      "Name": "Hirthe-Considine",
+      "ToolTip": "Totam aut deleniti.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 182
+          "FieldType": "System.Int32",
+          "FieldLength": 516
         }
       }
     },
     {
-      "Id": 725,
-      "Name": "Metz, Metz and Schmidt",
-      "ToolTip": "Tenetur quaerat ut.",
+      "Id": 542,
+      "Name": "Hirthe-Considine",
+      "ToolTip": "Totam aut deleniti.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 182
+          "FieldType": "System.Int32",
+          "FieldLength": 516
         }
       }
     }
   ],
-  "Language": "sed",
-  "Sentiment": 533,
-  "SentimentConfidence": 242,
-  "SuggestedCategoryId": 748,
+  "Language": "exercitationem",
+  "Sentiment": 122,
+  "SentimentConfidence": 581,
+  "SuggestedCategoryId": 908,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 520,
-  "IconHint": "molestiae",
+  "OrigHumanCategoryId": 786,
+  "IconHint": "sunt",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 597,
+  "ActiveStatusMonitorId": 295,
   "ExtraFields": {
-    "ExtraFields1": "minima",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "dolores",
+    "ExtraFields2": "asperiores"
   },
   "CustomFields": {
-    "CustomFields1": "reiciendis",
-    "CustomFields2": "tenetur"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "laudantium"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 597
+      "FieldLength": 668
     }
   }
 }

@@ -2,6 +2,7 @@
 title: GET Document/{id}/Lock
 uid: v1DocumentEntity_GetCheckoutState
 generated: true
+content_type: reference
 ---
 
 # GET Document/{id}/Lock
@@ -70,7 +71,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 870,
-  "Name": "Ondricka, Ebert and Walker"
+  "AssociateId": 642,
+  "Name": "Koelpin-Braun"
 }
 ```

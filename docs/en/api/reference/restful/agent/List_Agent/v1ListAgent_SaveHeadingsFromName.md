@@ -2,6 +2,7 @@
 title: POST Agents/List/SaveHeadingsFromName
 uid: v1ListAgent_SaveHeadingsFromName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SaveHeadingsFromName
@@ -83,23 +84,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Okuneva, Adams and Wintheiser",
+  "Name": "Greenfelder Group",
   "Entities": [
     {
-      "HeadingId": 123,
-      "Name": "Mayer Group",
-      "Tooltip": "odit",
+      "HeadingId": 663,
+      "Name": "Rath, Kuvalis and Spinka",
+      "Tooltip": "debitis",
       "Deleted": false,
-      "Rank": 656,
-      "UdListDefinitionId": 63
+      "Rank": 854,
+      "UdListDefinitionId": 933
     },
     {
-      "HeadingId": 123,
-      "Name": "Mayer Group",
-      "Tooltip": "odit",
+      "HeadingId": 663,
+      "Name": "Rath, Kuvalis and Spinka",
+      "Tooltip": "debitis",
       "Deleted": false,
-      "Rank": 656,
-      "UdListDefinitionId": 63
+      "Rank": 854,
+      "UdListDefinitionId": 933
     }
   ]
 }
@@ -113,18 +114,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 870,
-    "Name": "Considine, Robel and Mueller",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 799,
-    "UdListDefinitionId": 62,
+    "HeadingId": 201,
+    "Name": "Schamberger Group",
+    "Tooltip": "pariatur",
+    "Deleted": true,
+    "Rank": 953,
+    "UdListDefinitionId": 597,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 460
+        "FieldType": "System.String",
+        "FieldLength": 723
       }
     }
   }

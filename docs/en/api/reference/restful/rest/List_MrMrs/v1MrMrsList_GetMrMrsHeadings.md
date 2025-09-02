@@ -2,6 +2,7 @@
 title: GET List/MrMrs/Headings
 uid: v1MrMrsList_GetMrMrsHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/MrMrs/Headings
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 785,
-    "Name": "Daniel Group",
-    "Tooltip": "et",
+    "HeadingId": 426,
+    "Name": "Fisher Group",
+    "Tooltip": "est",
     "Deleted": false,
-    "Rank": 124,
-    "UdListDefinitionId": 402,
+    "Rank": 763,
+    "UdListDefinitionId": 68,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 116
+        "FieldType": "System.Int32",
+        "FieldLength": 990
       }
     }
   }

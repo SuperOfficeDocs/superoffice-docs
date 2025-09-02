@@ -2,6 +2,7 @@
 title: GET Sale/UdefLayout/Published
 uid: v1SaleEntity_GetPublishedUdefLayout
 generated: true
+content_type: reference
 ---
 
 # GET Sale/UdefLayout/Published
@@ -88,7 +89,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 633,
-    "ColumnId": 344,
-    "FieldDefault": "aut",
-    "FieldHeight": 946,
-    "FieldLabel": "ut",
-    "FieldLeft": 287,
-    "FieldTop": 997,
+    "UDefFieldId": 223,
+    "ColumnId": 270,
+    "FieldDefault": "libero",
+    "FieldHeight": 970,
+    "FieldLabel": "itaque",
+    "FieldLeft": 179,
+    "FieldTop": 929,
     "FieldType": "Checkbox",
-    "FieldWidth": 548,
-    "FormatMask": "illum",
-    "HideLabel": false,
+    "FieldWidth": 695,
+    "FormatMask": "dolor",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 243,
-    "LabelLeft": 506,
-    "LabelTop": 468,
-    "LabelWidth": 983,
-    "LastVersionId": 468,
-    "ListTableId": 777,
-    "IsMandatory": false,
+    "LabelHeight": 579,
+    "LabelLeft": 7,
+    "LabelTop": 532,
+    "LabelWidth": 897,
+    "LastVersionId": 441,
+    "ListTableId": 43,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 88,
-    "ProgId": "aliquid",
+    "Page1LineNo": 490,
+    "ProgId": "autem",
     "IsReadOnly": false,
-    "ShortLabel": "recusandae",
-    "TabOrder": 809,
-    "TextLength": 228,
-    "Tooltip": "veniam",
-    "UdefIdentity": 182,
-    "UDListDefinitionId": 864,
+    "ShortLabel": "est",
+    "TabOrder": 920,
+    "TextLength": 547,
+    "Tooltip": "officia",
+    "UdefIdentity": 827,
+    "UDListDefinitionId": 645,
     "Justification": "Center",
-    "Version": 281,
-    "TemplateVariableName": "Haley Inc and Sons",
+    "Version": 250,
+    "TemplateVariableName": "Fahey-Hudson",
     "HasBeenPublished": false,
-    "MdoListName": "Cummerata, Lynch and Eichmann",
+    "MdoListName": "Stokes Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 462
+        "FieldLength": 56
       }
     }
   }

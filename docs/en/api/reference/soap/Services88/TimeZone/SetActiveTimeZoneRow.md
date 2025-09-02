@@ -2,6 +2,7 @@
 title: Services88.TimeZoneAgent.SetActiveTimeZoneRow SOAP
 generated: true
 uid: Services88-TimeZone-SetActiveTimeZoneRow
+content_type: reference
 ---
 
 # Services88 TimeZone SetActiveTimeZoneRow

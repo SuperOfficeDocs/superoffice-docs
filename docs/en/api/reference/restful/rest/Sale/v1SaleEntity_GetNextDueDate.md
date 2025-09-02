@@ -2,6 +2,7 @@
 title: GET Sale/{id}/NextDueDate
 uid: v1SaleEntity_GetNextDueDate
 generated: true
+content_type: reference
 ---
 
 # GET Sale/{id}/NextDueDate
@@ -65,5 +66,5 @@ Accept-Language: en
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"2018-10-05T03:45:28.6390567+02:00"
+"2015-09-26T03:47:00.2693116+02:00"
 ```

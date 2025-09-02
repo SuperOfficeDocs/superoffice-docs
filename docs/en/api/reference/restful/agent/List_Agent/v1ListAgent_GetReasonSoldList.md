@@ -2,6 +2,7 @@
 title: POST Agents/List/GetReasonSoldList
 uid: v1ListAgent_GetReasonSoldList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetReasonSoldList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetReasonSoldList?$select=name,department,category/id
 
 ## Request Body: reasonSoldIds 
 
-The primary keys. 
+The identifiers of the ReasonSold object 
 
 
 ## Response:array
@@ -72,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetReasonSoldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,28 +84,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 691,
-    "Value": "et",
-    "Tooltip": "qui",
+    "Id": 487,
+    "Value": "libero",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldLength": 643
       }
     }
   },
   {
-    "Id": 691,
-    "Value": "et",
-    "Tooltip": "qui",
+    "Id": 487,
+    "Value": "libero",
+    "Tooltip": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 675
+        "FieldLength": 643
       }
     }
   }

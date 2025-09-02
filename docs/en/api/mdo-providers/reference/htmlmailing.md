@@ -3,9 +3,9 @@ uid: htmlmailing
 title: htmlmailing
 keywords: mdoprovider mdo provider htmlmailing
 description: MDO provider for the different types of Mailings
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "htmlmailing" MDO List

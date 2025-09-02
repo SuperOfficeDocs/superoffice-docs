@@ -2,6 +2,7 @@
 title: GET List/ProjectType/Items/{id}/UserGroups
 uid: v1ProjectTypeList_GetProjectTypeUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/ProjectType/Items/{id}/UserGroups
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 445,
-    "Name": "Russel, Mills and Reichel",
-    "ToolTip": "Ut et quae provident non sapiente enim.",
-    "Deleted": true,
-    "Rank": 95,
-    "Type": "sint",
-    "ColorBlock": 156,
-    "IconHint": "illum",
-    "Selected": true,
-    "LastChanged": "2011-06-23T03:45:29.1703077+02:00",
+    "Id": 295,
+    "Name": "Jewess, Hickle and Kunze",
+    "ToolTip": "Beatae magni dicta deserunt accusamus.",
+    "Deleted": false,
+    "Rank": 71,
+    "Type": "inventore",
+    "ColorBlock": 608,
+    "IconHint": "dolorem",
+    "Selected": false,
+    "LastChanged": "2024-12-24T03:47:00.7536695+01:00",
     "ChildItems": [
       {
-        "Id": 771,
-        "Name": "Marvin Group",
-        "ToolTip": "Velit fugiat et deleniti sequi cumque.",
+        "Id": 169,
+        "Name": "Runte-Romaguera",
+        "ToolTip": "Voluptatem autem.",
         "Deleted": false,
-        "Rank": 875,
-        "Type": "doloremque",
-        "ColorBlock": 715,
-        "IconHint": "quae",
+        "Rank": 72,
+        "Type": "possimus",
+        "ColorBlock": 728,
+        "IconHint": "debitis",
         "Selected": true,
-        "LastChanged": "2016-02-01T03:45:29.1703077+01:00",
+        "LastChanged": "2012-12-06T03:47:00.7536695+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "occaecati",
+        "ExtraInfo": "qui",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Karelle Mona Feest IV",
+        "FullName": "Mrs. Marianna Flatley DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 131
+            "FieldLength": 611
           }
         }
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "impedit",
-    "Hidden": true,
-    "FullName": "Brielle Tillman",
+    "ExtraInfo": "quod",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Felicia Kuphal",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 146
+        "FieldType": "System.String",
+        "FieldLength": 416
       }
     }
   }

@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetQuoteApproveReason SOAP
 generated: true
 uid: Services88-List-GetQuoteApproveReason
+content_type: reference
 ---
 
 # Services88 List GetQuoteApproveReason

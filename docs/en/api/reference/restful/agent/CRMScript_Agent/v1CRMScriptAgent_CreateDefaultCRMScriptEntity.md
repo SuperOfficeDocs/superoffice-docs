@@ -2,6 +2,7 @@
 title: POST Agents/CRMScript/CreateDefaultCRMScriptEntity
 uid: v1CRMScriptAgent_CreateDefaultCRMScriptEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CRMScript/CreateDefaultCRMScriptEntity
@@ -10,10 +11,7 @@ generated: true
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 ```
 
-Set default values into a new CRMScriptEntity.
-
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
+Loading default values into a new CRMScriptEntity.
 
 
 ## Online Restricted: ## The CRMScript agent is not available in Online by default. Access must be requested specifically when app is registered.
@@ -68,6 +66,7 @@ OK
 | RegisteredAssociateId | int32 | Registered by whom |
 | Updated | date-time | Last updated when  in UTC. |
 | UpdatedAssociateId | int32 | Last updated by whom |
+| BlockedVerbs | string | The verbs that are blocked when calling a ejscript over HTTP |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -87,52 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 143,
-  "UniqueIdentifier": "repellat",
-  "Name": "Dooley-Gibson",
-  "Description": "Optimized cohesive challenge",
-  "IncludeId": "aliquid",
-  "AccessKey": "eum",
-  "HierarchyId": 935,
-  "Source": "quidem",
-  "SourceCode": "sint",
+  "EjscriptId": 770,
+  "UniqueIdentifier": "voluptatem",
+  "Name": "Berge LLC",
+  "Description": "Horizontal zero defect installation",
+  "IncludeId": "deserunt",
+  "AccessKey": "quaerat",
+  "HierarchyId": 67,
+  "Source": "est",
+  "SourceCode": "in",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 581,
+  "HtmlOutput": 830,
   "Includes": [
-    751,
-    183
+    89,
+    494
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 203,
-      "LineNumberTo": 541,
-      "Delta": 368,
-      "IncludeId": "minima",
+      "LineNumberFrom": 596,
+      "LineNumberTo": 309,
+      "Delta": 610,
+      "IncludeId": "ut",
       "IncludedFrom": [
-        "labore",
-        "consequatur"
+        "voluptatum",
+        "consectetur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 591
+          "FieldLength": 581
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2016-02-13T03:45:23.2329582+01:00",
-  "RegisteredAssociateId": 832,
-  "Updated": "2010-02-18T03:45:23.2329582+01:00",
-  "UpdatedAssociateId": 997,
+  "Registered": "1998-08-21T03:46:54.5663888+02:00",
+  "RegisteredAssociateId": 677,
+  "Updated": "2009-01-10T03:46:54.5663888+01:00",
+  "UpdatedAssociateId": 227,
+  "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 607
+      "FieldType": "System.String",
+      "FieldLength": 589
     }
   }
 }

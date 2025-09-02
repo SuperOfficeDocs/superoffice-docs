@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.GetSanitizedTemplateStreamFromId SOAP
 generated: true
 uid: Services88-Document-GetSanitizedTemplateStreamFromId
+content_type: reference
 ---
 
 # Services88 Document GetSanitizedTemplateStreamFromId

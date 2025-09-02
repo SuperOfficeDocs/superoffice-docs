@@ -2,6 +2,7 @@
 title: Services88.PocketAgent.RegisterDeviceForPushNotification SOAP
 generated: true
 uid: Services88-Pocket-RegisterDeviceForPushNotification
+content_type: reference
 ---
 
 # Services88 Pocket RegisterDeviceForPushNotification

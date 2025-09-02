@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/GetCrmActorType
 uid: v1ErpSyncAgent_GetCrmActorType
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/GetCrmActorType
@@ -71,11 +72,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetCrmActorType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 978,
+  "ErpConnectionId": 561,
   "ErpActorType": "Customer"
 }
 ```

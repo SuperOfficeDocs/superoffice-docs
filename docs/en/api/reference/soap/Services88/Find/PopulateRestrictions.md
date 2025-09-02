@@ -2,6 +2,7 @@
 title: Services88.FindAgent.PopulateRestrictions SOAP
 generated: true
 uid: Services88-Find-PopulateRestrictions
+content_type: reference
 ---
 
 # Services88 Find PopulateRestrictions

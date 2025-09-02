@@ -3,9 +3,9 @@ uid: mailingfavourites
 title: mailingfavourites
 description: 
 keywords: mailingfavourites archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "mailingfavourites"
@@ -163,7 +163,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/mailingfavourites?$select=project/projectAssociate/userName,project/text,project/projectUrl/URLDescription
+GET /api/v1/archive/mailingfavourites?$select=project/text,project/projectUrl/URLDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

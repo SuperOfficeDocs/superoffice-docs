@@ -3,9 +3,9 @@ uid: personemailaddress
 title: personemailaddress
 keywords: mdoprovider mdo provider personemailaddress
 description: List of e-mail addresses matching the search value, possibly restricted to a given company or person.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "personemailaddress" MDO List

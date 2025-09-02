@@ -2,6 +2,7 @@
 title: POST Agents/List/GetDocumentTemplateEntity
 uid: v1ListAgent_GetDocumentTemplateEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetDocumentTemplateEntity
@@ -22,11 +23,11 @@ Gets a DocumentTemplateEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| documentTemplateEntityId | int32 | **Required** The primary key. |
+| documentTemplateEntityId | int32 | **Required** The identifier of the DocumentTemplateEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=3
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=874
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -91,7 +92,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 86,
-  "Name": "Smitham-Schuster",
-  "Tooltip": "reiciendis",
-  "SaveInDb": 378,
-  "Filename": "fuga",
-  "DefaultOref": "voluptate",
+  "DocumentTemplateId": 845,
+  "Name": "Rath Inc and Sons",
+  "Tooltip": "consequuntur",
+  "SaveInDb": 489,
+  "Filename": "nisi",
+  "DefaultOref": "aut",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 424,
-  "IntentId": 588,
-  "IsDefaultPublished": false,
-  "Rank": 282,
-  "LoadTemplateFromPlugin": 191,
-  "MimeType": "sint",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 149,
+  "AutoeventId": 542,
+  "IntentId": 790,
+  "IsDefaultPublished": true,
+  "Rank": 981,
+  "LoadTemplateFromPlugin": 54,
+  "MimeType": "et",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 677,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "sterling@manteprosacco.ca",
-  "IncludeSignature": false,
+  "EmailSubject": "garrett_schamberger@schmeler.uk",
+  "IncludeSignature": true,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "demetrius_jacobi@strosin.com",
+  "SenderEmailAddress": "vivian_yundt@pacochaklocko.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 294
+      "FieldLength": 301
     }
   }
 }

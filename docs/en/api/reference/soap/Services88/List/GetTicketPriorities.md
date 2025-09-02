@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetTicketPriorities SOAP
 generated: true
 uid: Services88-List-GetTicketPriorities
+content_type: reference
 ---
 
 # Services88 List GetTicketPriorities

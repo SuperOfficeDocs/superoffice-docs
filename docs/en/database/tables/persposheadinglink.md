@@ -2,10 +2,10 @@
 uid: table-PersPosHeadingLink
 title: PersPosHeadingLink table
 description: Heading link table for PersPos, for MDO headers
-so.generated: true
+generated: true
 keywords: database table PersPosHeadingLink
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # PersPosHeadingLink Table (78)

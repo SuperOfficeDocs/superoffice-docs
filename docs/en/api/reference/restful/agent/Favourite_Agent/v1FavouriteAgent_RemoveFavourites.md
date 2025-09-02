@@ -2,6 +2,7 @@
 title: POST Agents/Favourite/RemoveFavourites
 uid: v1FavouriteAgent_RemoveFavourites
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Favourite/RemoveFavourites
@@ -66,16 +67,16 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Krajcik-Funk",
+  "TableName": "Wiegand-Davis",
   "RecordIds": [
-    984,
-    759
+    945,
+    994
   ],
-  "AssociateId": 428
+  "AssociateId": 483
 }
 ```
 

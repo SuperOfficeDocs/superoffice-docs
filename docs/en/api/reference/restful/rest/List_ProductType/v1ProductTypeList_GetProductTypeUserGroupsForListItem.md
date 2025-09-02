@@ -2,6 +2,7 @@
 title: GET List/ProductType/Items/{id}/UserGroups
 uid: v1ProductTypeList_GetProductTypeUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/ProductType/Items/{id}/UserGroups
@@ -75,7 +76,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 468,
-    "Name": "Greenfelder Group",
-    "ToolTip": "Saepe qui laboriosam ratione qui autem.",
+    "Id": 120,
+    "Name": "Gottlieb LLC",
+    "ToolTip": "Aut minus velit nam ut dolorem rerum.",
     "Deleted": false,
-    "Rank": 298,
-    "Type": "voluptatibus",
-    "ColorBlock": 249,
-    "IconHint": "eaque",
-    "Selected": false,
-    "LastChanged": "2017-12-06T03:45:29.1549343+01:00",
+    "Rank": 776,
+    "Type": "qui",
+    "ColorBlock": 337,
+    "IconHint": "vitae",
+    "Selected": true,
+    "LastChanged": "2001-03-07T03:47:00.7380451+01:00",
     "ChildItems": [
       {
-        "Id": 438,
-        "Name": "Bailey, Nikolaus and Kemmer",
-        "ToolTip": "Non odit fuga.",
+        "Id": 113,
+        "Name": "Flatley-Grant",
+        "ToolTip": "Non accusamus dolorem praesentium quaerat.",
         "Deleted": false,
-        "Rank": 131,
-        "Type": "sed",
-        "ColorBlock": 151,
-        "IconHint": "odit",
+        "Rank": 311,
+        "Type": "suscipit",
+        "ColorBlock": 297,
+        "IconHint": "molestias",
         "Selected": false,
-        "LastChanged": "2002-04-15T03:45:29.1549343+02:00",
+        "LastChanged": "2017-08-31T03:47:00.7380451+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "quas",
+        "ExtraInfo": "hic",
+        "StyleHint": "amet",
         "Hidden": true,
-        "FullName": "Jayson Loren Emmerich Jr.",
+        "FullName": "Clara Leuschke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 404
+            "FieldLength": 188
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "enim",
-    "Hidden": true,
-    "FullName": "Mrs. Hardy Rose Crona DDS",
+    "ExtraInfo": "dolor",
+    "StyleHint": "vero",
+    "Hidden": false,
+    "FullName": "Bailee Hammes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 294
+        "FieldType": "System.String",
+        "FieldLength": 710
       }
     }
   }

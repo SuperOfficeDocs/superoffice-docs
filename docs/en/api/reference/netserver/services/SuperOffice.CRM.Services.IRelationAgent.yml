@@ -69,10 +69,7 @@ items:
   assemblies:
   - SuperOffice.Services
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new ContactRelationEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  summary: Loading default values into a new ContactRelationEntity.
   example: []
   syntax:
     content: Task<ContactRelationEntity> CreateDefaultContactRelationEntityAsync(CancellationToken cancellationToken = default)
@@ -110,7 +107,7 @@ items:
       type: System.Threading.CancellationToken
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.ContactRelationEntity}
-      description: ContactRelationEntity
+      description: A single ContactRelationEntity
     content.vb: Function GetContactRelationEntityAsync(contactRelationEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of ContactRelationEntity)
   overload: SuperOffice.CRM.Services.IRelationAgent.GetContactRelationEntityAsync*
   nameWithType.vb: IRelationAgent.GetContactRelationEntityAsync(Integer, CancellationToken)

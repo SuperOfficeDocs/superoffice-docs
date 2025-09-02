@@ -2,6 +2,7 @@
 title: POST Agents/Document/SubstituteTemplateVariablesEx
 uid: v1DocumentAgent_SubstituteTemplateVariablesEx
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/SubstituteTemplateVariablesEx
@@ -68,7 +69,7 @@ OK
 POST /api/v1/Agents/Document/SubstituteTemplateVariablesEx
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -82,5 +83,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"in"
+"adipisci"
 ```

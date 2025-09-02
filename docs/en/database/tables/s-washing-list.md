@@ -2,10 +2,10 @@
 uid: table-s_washing_list
 title: s_washing_list table
 description: Unused table that is ment to be used for active washing in spm v2
-so.generated: true
+generated: true
 keywords: database table s_washing_list
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # s\_washing\_list Table (343)

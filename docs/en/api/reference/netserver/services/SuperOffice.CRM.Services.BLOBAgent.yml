@@ -6,7 +6,7 @@ items:
   parent: SuperOffice.CRM.Services
   children:
   - SuperOffice.CRM.Services.BLOBAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBlobEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor)
-  - SuperOffice.CRM.Services.BLOBAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBlobEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
+  - SuperOffice.CRM.Services.BLOBAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBlobEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   - SuperOffice.CRM.Services.BLOBAgent.ChangeContactImageAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.BLOBAgent.ChangePersonImageAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.BLOBAgent.ChangeProductImageAsync(System.Int32,System.Int32,System.Threading.CancellationToken)
@@ -100,22 +100,22 @@ items:
   nameWithType.vb: BLOBAgent.New(IBlobEntityImplementation, ISoRequestItemsAccessor)
   fullName.vb: SuperOffice.CRM.Services.BLOBAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBlobEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor)
   name.vb: New(IBlobEntityImplementation, ISoRequestItemsAccessor)
-- uid: SuperOffice.CRM.Services.BLOBAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBlobEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  commentId: M:SuperOffice.CRM.Services.BLOBAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBlobEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)
-  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBlobEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository)'
+- uid: SuperOffice.CRM.Services.BLOBAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBlobEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  commentId: M:SuperOffice.CRM.Services.BLOBAgent.#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBlobEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  id: '#ctor(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBlobEntityImplementation,SuperOffice.Factory.ISoRequestItemsAccessor,SuperOffice.Data.IDebugUser,SuperOffice.Diagnostics.IServiceCallsRepository,SuperOffice.Configuration.ConfigFile.IScriptingConfiguration,SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)'
   parent: SuperOffice.CRM.Services.BLOBAgent
   langs:
   - csharp
   - vb
-  name: BLOBAgent(IBlobEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  nameWithType: BLOBAgent.BLOBAgent(IBlobEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName: SuperOffice.CRM.Services.BLOBAgent.BLOBAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBlobEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
+  name: BLOBAgent(IBlobEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
+  nameWithType: BLOBAgent.BLOBAgent(IBlobEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName: SuperOffice.CRM.Services.BLOBAgent.BLOBAgent(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBlobEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
   type: Constructor
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
   syntax:
-    content: public BLOBAgent(IBlobEntityImplementation blobEntityImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository)
+    content: public BLOBAgent(IBlobEntityImplementation blobEntityImplementation, ISoRequestItemsAccessor accessor, IDebugUser debugUser, IServiceCallsRepository serviceCallsRepository, ConfigFile.IScriptingConfiguration scriptingConfiguration, ConfigFile.IOnlineConfiguration onlineConfiguration)
     parameters:
     - id: blobEntityImplementation
       type: SuperOffice.CRM.Services.Implementation.BL.Contracts.IBlobEntityImplementation
@@ -125,11 +125,15 @@ items:
       type: SuperOffice.Data.IDebugUser
     - id: serviceCallsRepository
       type: SuperOffice.Diagnostics.IServiceCallsRepository
-    content.vb: Public Sub New(blobEntityImplementation As IBlobEntityImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository)
+    - id: scriptingConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+    - id: onlineConfiguration
+      type: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+    content.vb: Public Sub New(blobEntityImplementation As IBlobEntityImplementation, accessor As ISoRequestItemsAccessor, debugUser As IDebugUser, serviceCallsRepository As IServiceCallsRepository, scriptingConfiguration As ConfigFile.IScriptingConfiguration, onlineConfiguration As ConfigFile.IOnlineConfiguration)
   overload: SuperOffice.CRM.Services.BLOBAgent.#ctor*
-  nameWithType.vb: BLOBAgent.New(IBlobEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
-  fullName.vb: SuperOffice.CRM.Services.BLOBAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBlobEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository)
-  name.vb: New(IBlobEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository)
+  nameWithType.vb: BLOBAgent.New(IBlobEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, ConfigFile.IScriptingConfiguration, ConfigFile.IOnlineConfiguration)
+  fullName.vb: SuperOffice.CRM.Services.BLOBAgent.New(SuperOffice.CRM.Services.Implementation.BL.Contracts.IBlobEntityImplementation, SuperOffice.Factory.ISoRequestItemsAccessor, SuperOffice.Data.IDebugUser, SuperOffice.Diagnostics.IServiceCallsRepository, SuperOffice.Configuration.ConfigFile.IScriptingConfiguration, SuperOffice.Configuration.ConfigFile.IOnlineConfiguration)
+  name.vb: New(IBlobEntityImplementation, ISoRequestItemsAccessor, IDebugUser, IServiceCallsRepository, IScriptingConfiguration, IOnlineConfiguration)
 - uid: SuperOffice.CRM.Services.BLOBAgent.CreateDefaultBlobEntityAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.BLOBAgent.CreateDefaultBlobEntityAsync(System.Threading.CancellationToken)
   id: CreateDefaultBlobEntityAsync(System.Threading.CancellationToken)
@@ -144,16 +148,14 @@ items:
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: >-
-    Loading default values into a new BlobEntity.
-
-    NetServer calculates default values (e.g. Country) on the entity, which is required when creating/storing a new instance
+  summary: Loading default values into a new BlobEntity.
   example: []
   syntax:
     content: public Task<BlobEntity> CreateDefaultBlobEntityAsync(CancellationToken cancellationToken = default)
     parameters:
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BlobEntity}
       description: New BlobEntity with default values
@@ -175,16 +177,17 @@ items:
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: Updates the existing BlobEntity or creates a new BlobEntity if the id parameter is empty
+  summary: Updates the existing BlobEntity or creates a new BlobEntity if the id parameter is 0.
   example: []
   syntax:
     content: public Task<BlobEntity> SaveBlobEntityAsync(BlobEntity blobEntity, CancellationToken cancellationToken = default)
     parameters:
     - id: blobEntity
       type: SuperOffice.CRM.Services.BlobEntity
-      description: The BlobEntity that is saved.
+      description: The BlobEntity that is saved
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BlobEntity}
       description: New or updated BlobEntity
@@ -216,8 +219,10 @@ items:
       description: The identity of the BlobEntity
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task
+      description: This method has no return value
     content.vb: Public Function DeleteBlobEntityAsync(blobEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task
   overload: SuperOffice.CRM.Services.BLOBAgent.DeleteBlobEntityAsync*
   implements:
@@ -249,9 +254,10 @@ items:
       description: The identifier of the BlobEntity object
     - id: cancellationToken
       type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
     return:
       type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BlobEntity}
-      description: BlobEntity
+      description: A single BlobEntity
     content.vb: Public Function GetBlobEntityAsync(blobEntityId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of BlobEntity)
   overload: SuperOffice.CRM.Services.BLOBAgent.GetBlobEntityAsync*
   implements:
@@ -1763,6 +1769,16 @@ references:
   name: IServiceCallsRepository
   nameWithType: IServiceCallsRepository
   fullName: SuperOffice.Diagnostics.IServiceCallsRepository
+- uid: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+  isExternal: true
+  name: IScriptingConfiguration
+  nameWithType: ConfigFile.IScriptingConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IScriptingConfiguration
+- uid: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
+  isExternal: true
+  name: IOnlineConfiguration
+  nameWithType: ConfigFile.IOnlineConfiguration
+  fullName: SuperOffice.Configuration.ConfigFile.IOnlineConfiguration
 - uid: SuperOffice.CRM.Services.BLOBAgent.CreateDefaultBlobEntityAsync*
   commentId: Overload:SuperOffice.CRM.Services.BLOBAgent.CreateDefaultBlobEntityAsync
   isExternal: true

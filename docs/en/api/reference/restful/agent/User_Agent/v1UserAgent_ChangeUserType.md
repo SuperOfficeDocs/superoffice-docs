@@ -2,6 +2,7 @@
 title: POST Agents/User/ChangeUserType
 uid: v1UserAgent_ChangeUserType
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/ChangeUserType
@@ -116,14 +117,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 872,
-  "Name": "Barrows-Prosacco",
-  "Rank": 680,
-  "Tooltip": "necessitatibus",
+  "AssociateId": 71,
+  "Name": "Emmerich, Brakus and Wolf",
+  "Rank": 688,
+  "Tooltip": "culpa",
   "LicenseOwners": [
     {
-      "Name": "Hettinger Group",
-      "Description": "Polarised real-time capacity",
+      "Name": "Schoen-Fay",
+      "Description": "Enhanced methodical data-warehouse",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,14 +137,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 581
+          "FieldType": "System.String",
+          "FieldLength": 426
         }
       }
     },
     {
-      "Name": "Hettinger Group",
-      "Description": "Polarised real-time capacity",
+      "Name": "Schoen-Fay",
+      "Description": "Enhanced methodical data-warehouse",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -156,8 +157,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 581
+          "FieldType": "System.String",
+          "FieldLength": 426
         }
       }
     }
@@ -166,110 +167,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "repellat",
-      "Tooltip": "quia",
-      "Id": 54,
-      "Rank": 350,
+      "Value": "enim",
+      "Tooltip": "hic",
+      "Id": 378,
+      "Rank": 934,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 983
+          "FieldLength": 178
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2009-10-05T03:45:24.1391839+02:00",
-  "Lastlogout": "2013-08-20T03:45:24.1391839+02:00",
-  "EjUserId": 480,
-  "RequestSignature": "totam",
+  "Lastlogin": "2012-12-08T03:46:55.5663534+01:00",
+  "Lastlogout": "2014-12-09T03:46:55.5663534+01:00",
+  "EjUserId": 410,
+  "RequestSignature": "quis",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "debitis",
-      "DisplayValue": "numquam",
+      "Value": "placeat",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 442
+          "FieldType": "System.String",
+          "FieldLength": 480
         }
       }
     },
     {
       "Type": null,
-      "Value": "debitis",
-      "DisplayValue": "numquam",
+      "Value": "placeat",
+      "DisplayValue": "id",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 442
+          "FieldType": "System.String",
+          "FieldLength": 480
         }
       }
     }
   ],
-  "UserName": "Stiedemann, Dach and DuBuque",
+  "UserName": "Jacobs, Toy and Grant",
   "TicketCategories": [
     {
-      "Id": 265,
-      "Name": "Russel-Barton",
-      "ToolTip": "Cupiditate unde eum laboriosam quia dolorem.",
+      "Id": 501,
+      "Name": "Wyman-Lesch",
+      "ToolTip": "Ducimus et architecto a.",
       "Deleted": false,
-      "Rank": 264,
-      "Type": "excepturi",
+      "Rank": 828,
+      "Type": "enim",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "repellat",
-      "ColorBlock": 557,
-      "ExtraInfo": "atque",
-      "StyleHint": "exercitationem",
-      "FullName": "Prof. Mittie Berge MD",
+      "IconHint": "distinctio",
+      "ColorBlock": 340,
+      "ExtraInfo": "autem",
+      "StyleHint": "autem",
+      "FullName": "Annetta Runolfsdottir",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 621
+          "FieldLength": 699
         }
       }
     }
   ],
-  "NickName": "Hyatt, Bernhard and Halvorson",
-  "WaitingForApproval": true,
+  "NickName": "Roberts LLC",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "doloremque",
-    "ExtraFields2": "impedit"
+    "ExtraFields1": "veritatis",
+    "ExtraFields2": "sunt"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "ut"
+    "CustomFields1": "quia",
+    "CustomFields2": "est"
   },
   "PostSaveCommands": [
     {
-      "Name": "O'Connell Inc and Sons",
-      "DisplayName": "Heathcote Group",
-      "Description": "Reduced tangible strategy",
-      "ToolTip": "Quia provident eius modi ut.",
+      "Name": "King Group",
+      "DisplayName": "Sawayn Inc and Sons",
+      "Description": "Automated holistic knowledge user",
+      "ToolTip": "Similique et voluptas non laudantium omnis ea libero.",
       "Actions": "Implicit",
-      "ActionData": "labore",
+      "ActionData": "deserunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 862
+          "FieldType": "System.String",
+          "FieldLength": 508
         }
       }
     }
@@ -279,7 +280,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 844
+      "FieldLength": 718
     }
   }
 }

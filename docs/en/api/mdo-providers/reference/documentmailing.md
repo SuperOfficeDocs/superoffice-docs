@@ -3,9 +3,9 @@ uid: documentmailing
 title: documentmailing
 keywords: mdoprovider mdo provider documentmailing
 description: Document shipments (mail merges).
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "documentmailing" MDO List

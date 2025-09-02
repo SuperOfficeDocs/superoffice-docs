@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GenerateNavigationUrl SOAP
 generated: true
 uid: Services88-List-GenerateNavigationUrl
+content_type: reference
 ---
 
 # Services88 List GenerateNavigationUrl

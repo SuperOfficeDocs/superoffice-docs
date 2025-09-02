@@ -3,9 +3,9 @@ uid: saintamountclass
 title: saintamountclass
 keywords: mdoprovider mdo provider saintamountclass
 description: This SoList provider generates the amount class list for the Saint criteria. This list is an extension of the basic AmountClass MDO list, with the addition of an ALL choice with ID 0.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "saintamountclass" MDO List

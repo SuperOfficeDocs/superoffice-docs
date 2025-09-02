@@ -2,6 +2,7 @@
 title: POST Agents/Saint/CreateDefaultStatusMonitorPeriods
 uid: v1SaintAgent_CreateDefaultStatusMonitorPeriods
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Saint/CreateDefaultStatusMonitorPeriods
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitorPeriods
 ```
 
-Set default values into a new StatusMonitorPeriods.
+Loading default values into a new StatusMonitorPeriods.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -59,7 +58,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitorPeriods
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -69,15 +68,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Period1": 338,
-  "Period2": 481,
-  "Period3": 775,
+  "Period1": 168,
+  "Period2": 381,
+  "Period3": 888,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 97
+      "FieldLength": 570
     }
   }
 }

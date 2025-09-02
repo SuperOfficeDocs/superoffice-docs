@@ -2,6 +2,7 @@
 title: POST Agents/Quote/CreateQuoteAlternative
 uid: v1QuoteAgent_CreateQuoteAlternative
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/CreateQuoteAlternative
@@ -97,13 +98,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 800,
-  "QuoteAlternativeName": "Nolan, Bahringer and Waters",
-  "QuoteAlternativeDescription": "Integrated explicit conglomeration"
+  "QuoteVersionId": 229,
+  "QuoteAlternativeName": "Ratke Group",
+  "QuoteAlternativeDescription": "Innovative heuristic analyzer"
 }
 ```
 
@@ -114,35 +115,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 127,
-  "ERPQuoteAlternativeKey": "accusamus",
-  "QuoteVersionId": 825,
-  "Name": "Hauck-VonRueden",
-  "Description": "Integrated intermediate focus group",
+  "QuoteAlternativeId": 695,
+  "ERPQuoteAlternativeKey": "nisi",
+  "QuoteVersionId": 656,
+  "Name": "Gaylord-Padberg",
+  "Description": "Visionary 5th generation capacity",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 23511.268,
-  "ERPDiscountAmount": 24053.45,
-  "DiscountPercent": 15384.805999999999,
-  "DiscountAmount": 7208.2,
+  "ERPDiscountPercent": 10517.704,
+  "ERPDiscountAmount": 4741.742,
+  "DiscountPercent": 5807.302,
+  "DiscountAmount": 15829.833999999999,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "voluptate",
-  "VAT": 14826.954,
-  "EarningPercent": 5052.008,
-  "EarningAmount": 13422.921999999999,
-  "SubTotal": 21671.61,
-  "TotalPrice": 14582.502,
-  "ExtraField1": "repellendus",
-  "ExtraField2": "asperiores",
-  "ExtraField3": "et",
-  "ExtraField4": "quis",
-  "ExtraField5": "similique",
+  "VATInfo": "corrupti",
+  "VAT": 26902.255999999998,
+  "EarningPercent": 3296.968,
+  "EarningAmount": 8452.398,
+  "SubTotal": 19239.626,
+  "TotalPrice": 19145.606,
+  "ExtraField1": "et",
+  "ExtraField2": "rem",
+  "ExtraField3": "tenetur",
+  "ExtraField4": "culpa",
+  "ExtraField5": "explicabo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 847
+      "FieldLength": 418
     }
   }
 }

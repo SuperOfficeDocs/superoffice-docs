@@ -3,9 +3,9 @@ uid: pmembtype
 title: pmembtype
 keywords: mdoprovider mdo provider pmembtype
 description: GenericMDOProvider reads MDO lists with default settings
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "pmembtype" MDO List

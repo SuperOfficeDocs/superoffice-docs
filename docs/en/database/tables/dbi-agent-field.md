@@ -2,10 +2,10 @@
 uid: table-dbi_agent_field
 title: dbi_agent_field table
 description: DBI agent fields
-so.generated: true
+generated: true
 keywords: database table dbi_agent_field
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # dbi\_agent\_field Table (382)

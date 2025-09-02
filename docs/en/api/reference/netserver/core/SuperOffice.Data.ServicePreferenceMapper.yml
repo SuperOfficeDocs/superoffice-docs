@@ -5,6 +5,7 @@ items:
   id: ServicePreferenceMapper
   parent: SuperOffice.Data
   children:
+  - SuperOffice.Data.ServicePreferenceMapper.#ctor(SuperOffice.Data.ServicePreferenceMappings,SuperOffice.Data.Cache.ICacheManager)
   - SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndFetchIntoCache(System.String)
   - SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndSavePreferenceAsync(System.String,System.String,System.String,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.Data.ServicePreferenceMapper.FetchIndividualValues
@@ -27,14 +28,8 @@ items:
     backwards compatibility with Service
   example: []
   syntax:
-    content: >-
-      [SoInject("Database")]
-
-      public class ServicePreferenceMapper
-    content.vb: >-
-      <SoInject("Database")>
-
-      Public Class ServicePreferenceMapper
+    content: public class ServicePreferenceMapper
+    content.vb: Public Class ServicePreferenceMapper
   inheritance:
   - System.Object
   inheritedMembers:
@@ -48,12 +43,32 @@ items:
   extensionMethods:
   - SuperOffice.Data.ServicePreferenceMapper.EnumUtil.MapEnums``2
   - SuperOffice.Data.ServicePreferenceMapper.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-  attributes:
-  - type: SuperOffice.Factory.SoInjectAttribute
-    ctor: SuperOffice.Factory.SoInjectAttribute.#ctor(System.String)
-    arguments:
-    - type: System.String
-      value: Database
+- uid: SuperOffice.Data.ServicePreferenceMapper.#ctor(SuperOffice.Data.ServicePreferenceMappings,SuperOffice.Data.Cache.ICacheManager)
+  commentId: M:SuperOffice.Data.ServicePreferenceMapper.#ctor(SuperOffice.Data.ServicePreferenceMappings,SuperOffice.Data.Cache.ICacheManager)
+  id: '#ctor(SuperOffice.Data.ServicePreferenceMappings,SuperOffice.Data.Cache.ICacheManager)'
+  parent: SuperOffice.Data.ServicePreferenceMapper
+  langs:
+  - csharp
+  - vb
+  name: ServicePreferenceMapper(ServicePreferenceMappings, ICacheManager)
+  nameWithType: ServicePreferenceMapper.ServicePreferenceMapper(ServicePreferenceMappings, ICacheManager)
+  fullName: SuperOffice.Data.ServicePreferenceMapper.ServicePreferenceMapper(SuperOffice.Data.ServicePreferenceMappings, SuperOffice.Data.Cache.ICacheManager)
+  type: Constructor
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public ServicePreferenceMapper(ServicePreferenceMappings mappings, ICacheManager cacheManager)
+    parameters:
+    - id: mappings
+      type: SuperOffice.Data.ServicePreferenceMappings
+    - id: cacheManager
+      type: SuperOffice.Data.Cache.ICacheManager
+    content.vb: Public Sub New(mappings As ServicePreferenceMappings, cacheManager As ICacheManager)
+  overload: SuperOffice.Data.ServicePreferenceMapper.#ctor*
+  nameWithType.vb: ServicePreferenceMapper.New(ServicePreferenceMappings, ICacheManager)
+  fullName.vb: SuperOffice.Data.ServicePreferenceMapper.New(SuperOffice.Data.ServicePreferenceMappings, SuperOffice.Data.Cache.ICacheManager)
+  name.vb: New(ServicePreferenceMappings, ICacheManager)
 - uid: SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndFetchIntoCache(System.String)
   commentId: M:SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndFetchIntoCache(System.String)
   id: CheckForMappingAndFetchIntoCache(System.String)
@@ -715,6 +730,69 @@ references:
     name: ConnectorWS
     isExternal: true
     href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Data.ServicePreferenceMapper.#ctor*
+  commentId: Overload:SuperOffice.Data.ServicePreferenceMapper.#ctor
+  isExternal: true
+  href: SuperOffice.Data.ServicePreferenceMapper.html#SuperOffice_Data_ServicePreferenceMapper__ctor_SuperOffice_Data_ServicePreferenceMappings_SuperOffice_Data_Cache_ICacheManager_
+  name: ServicePreferenceMapper
+  nameWithType: ServicePreferenceMapper.ServicePreferenceMapper
+  fullName: SuperOffice.Data.ServicePreferenceMapper.ServicePreferenceMapper
+  nameWithType.vb: ServicePreferenceMapper.New
+  fullName.vb: SuperOffice.Data.ServicePreferenceMapper.New
+  name.vb: New
+- uid: SuperOffice.Data.ServicePreferenceMappings
+  commentId: T:SuperOffice.Data.ServicePreferenceMappings
+  parent: SuperOffice.Data
+  isExternal: true
+  href: SuperOffice.Data.ServicePreferenceMappings.html
+  name: ServicePreferenceMappings
+  nameWithType: ServicePreferenceMappings
+  fullName: SuperOffice.Data.ServicePreferenceMappings
+- uid: SuperOffice.Data.Cache.ICacheManager
+  commentId: T:SuperOffice.Data.Cache.ICacheManager
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  href: SuperOffice.Data.Cache.ICacheManager.html
+  name: ICacheManager
+  nameWithType: ICacheManager
+  fullName: SuperOffice.Data.Cache.ICacheManager
+- uid: SuperOffice.Data.Cache
+  commentId: N:SuperOffice.Data.Cache
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.Cache
+  nameWithType: SuperOffice.Data.Cache
+  fullName: SuperOffice.Data.Cache
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.Data.Cache.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.Data.Cache.html
 - uid: SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndFetchIntoCache*
   commentId: Overload:SuperOffice.Data.ServicePreferenceMapper.CheckForMappingAndFetchIntoCache
   isExternal: true

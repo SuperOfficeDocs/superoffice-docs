@@ -105,6 +105,7 @@ items:
   - SuperOffice.CRM.Rows.BatchTaskRows
   - SuperOffice.CRM.Rows.BinaryObjectLinkRows
   - SuperOffice.CRM.Rows.BinaryObjectRows
+  - SuperOffice.CRM.Rows.BoardViewSettingsRows
   - SuperOffice.CRM.Rows.BusinessGroupLinkRows
   - SuperOffice.CRM.Rows.BusinessHeadingLinkRows
   - SuperOffice.CRM.Rows.BusinessRows
@@ -594,6 +595,7 @@ items:
   - SuperOffice.CRM.Rows.UserGroupRows
   - SuperOffice.CRM.Rows.UserPreferenceRows
   - SuperOffice.CRM.Rows.UserRoleLinkRows
+  - SuperOffice.CRM.Rows.UtmParametersRows
   - SuperOffice.CRM.Rows.VisibleForRows
   - SuperOffice.CRM.Rows.WebAppUsageRows
   - SuperOffice.CRM.Rows.WebhookRows

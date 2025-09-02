@@ -2,6 +2,7 @@
 title: POST Agents/Quote/CreateAndSaveQuoteVersion
 uid: v1QuoteAgent_CreateAndSaveQuoteVersion
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/CreateAndSaveQuoteVersion
@@ -111,11 +112,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 514
+  "QuoteVersionId": 50
 }
 ```
 
@@ -126,75 +127,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 388,
-  "ERPQuoteVersionKey": "temporibus",
-  "QuoteId": 751,
-  "Description": "Organic incremental info-mediaries",
-  "Number": "591483",
+  "QuoteVersionId": 705,
+  "ERPQuoteVersionKey": "asperiores",
+  "QuoteId": 181,
+  "Description": "Down-sized executive policy",
+  "Number": "959747",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 437,
-  "SentDate": "1999-10-02T03:45:23.7954455+02:00",
-  "FollowupId": 508,
-  "ExpirationDate": "2000-10-01T03:45:23.7954455+02:00",
-  "DeliveryCountryId": 990,
+  "LikelyQuoteAlternativeId": 561,
+  "SentDate": "2009-06-06T03:46:55.1913666+02:00",
+  "FollowupId": 955,
+  "ExpirationDate": "2013-07-05T03:46:55.1913666+02:00",
+  "DeliveryCountryId": 939,
   "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 241,
+  "InvoiceCountryId": 568,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "pariatur",
-  "ERPPaymentTypeKey": "nobis",
-  "ERPDeliveryTermsKey": "odio",
-  "ERPDeliveryTypeKey": "molestiae",
-  "Rank": 12,
-  "ApprovedBy": 691,
-  "ApprovedText": "alias",
-  "ApprovedRegisteredBy": 976,
-  "ApprovedRegisteredDate": "2001-12-21T03:45:23.7954455+01:00",
-  "ExtraField1": "similique",
-  "ExtraField2": "soluta",
-  "ExtraField3": "et",
-  "ExtraField4": "aliquid",
-  "ExtraField5": "at",
-  "LastRecalculated": "2016-05-21T03:45:23.7954455+02:00",
-  "Updated": "2017-08-13T03:45:23.7954455+02:00",
-  "UpdatedAssociateId": 20,
-  "Registered": "2010-10-07T03:45:23.7954455+02:00",
-  "RegisteredAssociateId": 33,
-  "RequestAssociateId": 567,
-  "RequestComment": "consequatur",
+  "ERPPaymentTermsKey": "sed",
+  "ERPPaymentTypeKey": "in",
+  "ERPDeliveryTermsKey": "nostrum",
+  "ERPDeliveryTypeKey": "quis",
+  "Rank": 601,
+  "ApprovedBy": 675,
+  "ApprovedText": "tenetur",
+  "ApprovedRegisteredBy": 913,
+  "ApprovedRegisteredDate": "2007-11-09T03:46:55.1913666+01:00",
+  "ExtraField1": "aspernatur",
+  "ExtraField2": "qui",
+  "ExtraField3": "dolorum",
+  "ExtraField4": "consequatur",
+  "ExtraField5": "sed",
+  "LastRecalculated": "2016-04-24T03:46:55.1913666+02:00",
+  "Updated": "2019-02-28T03:46:55.1913666+01:00",
+  "UpdatedAssociateId": 55,
+  "Registered": "2005-02-19T03:46:55.1913666+01:00",
+  "RegisteredAssociateId": 141,
+  "RequestAssociateId": 673,
+  "RequestComment": "voluptate",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 846,
-      "ERPQuoteAlternativeKey": "quas",
-      "QuoteVersionId": 761,
-      "Name": "Becker LLC",
-      "Description": "Ameliorated attitude-oriented initiative",
+      "QuoteAlternativeId": 576,
+      "ERPQuoteAlternativeKey": "neque",
+      "QuoteVersionId": 182,
+      "Name": "Smitham, Gutkowski and Wisozk",
+      "Description": "Synergistic assymetric software",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 15184.23,
-      "ERPDiscountAmount": 2604.354,
-      "DiscountPercent": 22981.622,
-      "DiscountAmount": 20308.32,
+      "ERPDiscountPercent": 27419.365999999998,
+      "ERPDiscountAmount": 15413.011999999999,
+      "DiscountPercent": 22138.576,
+      "DiscountAmount": 20994.666,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "sunt",
-      "VAT": 26588.856,
-      "EarningPercent": 30832.291999999998,
-      "EarningAmount": 14306.71,
-      "SubTotal": 2024.5639999999999,
-      "TotalPrice": 26150.095999999998,
-      "ExtraField1": "repellat",
-      "ExtraField2": "enim",
-      "ExtraField3": "quidem",
-      "ExtraField4": "neque",
-      "ExtraField5": "ipsa",
+      "VATInfo": "sint",
+      "VAT": 22006.948,
+      "EarningPercent": 12786.72,
+      "EarningAmount": 1175.25,
+      "SubTotal": 31.34,
+      "TotalPrice": 10151.026,
+      "ExtraField1": "error",
+      "ExtraField2": "sed",
+      "ExtraField3": "error",
+      "ExtraField4": "fugiat",
+      "ExtraField5": "velit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 375
+          "FieldLength": 434
         }
       }
     }
@@ -204,7 +205,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 422
+      "FieldLength": 35
     }
   }
 }

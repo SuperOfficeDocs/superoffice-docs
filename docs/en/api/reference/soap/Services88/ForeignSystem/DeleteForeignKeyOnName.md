@@ -2,6 +2,7 @@
 title: Services88.ForeignSystemAgent.DeleteForeignKeyOnName SOAP
 generated: true
 uid: Services88-ForeignSystem-DeleteForeignKeyOnName
+content_type: reference
 ---
 
 # Services88 ForeignSystem DeleteForeignKeyOnName

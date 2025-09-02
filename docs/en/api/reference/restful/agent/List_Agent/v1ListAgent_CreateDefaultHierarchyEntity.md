@@ -2,6 +2,7 @@
 title: POST Agents/List/CreateDefaultHierarchyEntity
 uid: v1ListAgent_CreateDefaultHierarchyEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/CreateDefaultHierarchyEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 ```
 
-Set default values into a new HierarchyEntity.
+Loading default values into a new HierarchyEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -66,7 +65,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,46 +75,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 968,
+  "HierarchyId": 841,
   "Domain": "Dashboards",
-  "Name": "Schaden-Heathcote",
-  "Fullname": "atque",
-  "ParentId": 1001,
+  "Name": "Bergnaum LLC",
+  "Fullname": "cupiditate",
+  "ParentId": 633,
   "Children": [
     {
-      "HierarchyId": 809,
+      "HierarchyId": 334,
       "Domain": "Dashboards",
-      "Name": "Luettgen Group",
-      "Fullname": "et",
-      "ParentId": 893,
+      "Name": "Russel, Muller and Heidenreich",
+      "Fullname": "enim",
+      "ParentId": 493,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2009-11-23T03:45:23.6079553+01:00",
-      "RegisteredAssociateId": 213,
-      "Updated": "1998-06-11T03:45:23.6079553+02:00",
-      "UpdatedAssociateId": 740,
+      "Registered": "2019-08-20T03:46:54.9726245+02:00",
+      "RegisteredAssociateId": 937,
+      "Updated": "2020-12-01T03:46:54.9726245+01:00",
+      "UpdatedAssociateId": 788,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 298
+          "FieldType": "System.String",
+          "FieldLength": 539
         }
       }
     }
   ],
-  "Registered": "2022-06-30T03:45:23.6079553+02:00",
-  "RegisteredAssociateId": 911,
-  "Updated": "2006-09-06T03:45:23.6079553+02:00",
-  "UpdatedAssociateId": 122,
+  "Registered": "2002-09-02T03:46:54.9726245+02:00",
+  "RegisteredAssociateId": 148,
+  "Updated": "2002-03-06T03:46:54.9726245+01:00",
+  "UpdatedAssociateId": 54,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 182
+      "FieldLength": 929
     }
   }
 }

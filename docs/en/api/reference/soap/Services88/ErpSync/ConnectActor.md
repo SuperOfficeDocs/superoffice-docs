@@ -2,6 +2,7 @@
 title: Services88.ErpSyncAgent.ConnectActor SOAP
 generated: true
 uid: Services88-ErpSync-ConnectActor
+content_type: reference
 ---
 
 # Services88 ErpSync ConnectActor

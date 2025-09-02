@@ -2,10 +2,10 @@
 uid: table-ErpListItemMapping
 title: ErpListItemMapping table
 description: Defines a mapping of ERP to CRM fields, per connection and actor type
-so.generated: true
+generated: true
 keywords: database table ErpListItemMapping
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ErpListItemMapping Table (424)

@@ -2,6 +2,7 @@
 title: POST Agents/Quote/GetQuoteLineConfigurationFromFieldName
 uid: v1QuoteAgent_GetQuoteLineConfigurationFromFieldName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/GetQuoteLineConfigurationFromFieldName
@@ -81,11 +82,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfigurationFromFieldName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldName": "Bayer-Gutkowski"
+  "FieldName": "Wisoky Inc and Sons"
 }
 ```
 
@@ -96,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 957,
-  "FieldName": "Kohler Inc and Sons",
-  "Label": "dolorem",
-  "Tooltip": "quaerat",
-  "Editable": true,
+  "QuoteLineConfigurationId": 631,
+  "FieldName": "Halvorson, Beatty and Conn",
+  "Label": "odio",
+  "Tooltip": "id",
+  "Editable": false,
   "InUse": false,
   "Mandatory": false,
-  "Rank": 183,
+  "Rank": 123,
   "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldLength": 177
     }
   }
 }

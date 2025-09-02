@@ -2,6 +2,7 @@
 title: GET Document/{id}/Content
 uid: v1DocumentEntity_GetDocumentStream
 generated: true
+content_type: reference
 ---
 
 # GET Document/{id}/Content
@@ -54,7 +55,7 @@ OK
 GET /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

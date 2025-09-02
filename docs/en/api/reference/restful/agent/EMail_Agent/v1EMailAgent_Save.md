@@ -2,6 +2,7 @@
 title: POST Agents/EMail/Save
 uid: v1EMailAgent_Save
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/Save
@@ -100,7 +101,7 @@ OK
 POST /api/v1/Agents/EMail/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,147 +118,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 802,
-      "ContactName": "Ziemann Group",
-      "PersonId": 979,
-      "PersonName": "Kemmer LLC",
-      "AssociateId": 918,
-      "Address": "quis",
-      "EmailId": 513,
+      "ContactId": 5,
+      "ContactName": "Smitham, Gutmann and Boyle",
+      "PersonId": 837,
+      "PersonName": "Hoppe Inc and Sons",
+      "AssociateId": 977,
+      "Address": "voluptatum",
+      "EmailId": 325,
       "DuplicatePersonIds": [
-        939,
-        49
+        898,
+        632
       ],
-      "Name": "Kunze Group",
+      "Name": "Haag Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 752
+          "FieldLength": 65
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 143,
-      "ContactName": "Gulgowski-Kertzmann",
-      "PersonId": 689,
-      "PersonName": "Champlin-Moen",
-      "AssociateId": 403,
-      "Address": "molestiae",
-      "EmailId": 197,
+      "ContactId": 294,
+      "ContactName": "Lesch-Braun",
+      "PersonId": 325,
+      "PersonName": "Abshire, Schaden and Brown",
+      "AssociateId": 927,
+      "Address": "ducimus",
+      "EmailId": 418,
       "DuplicatePersonIds": [
-        617,
-        47
+        48,
+        61
       ],
-      "Name": "White, Friesen and Zieme",
+      "Name": "Kautzer-Ferry",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 439
+          "FieldLength": 733
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 514,
-      "ContactName": "Hintz Group",
-      "PersonId": 511,
-      "PersonName": "Dooley, Lebsack and Little",
-      "AssociateId": 18,
-      "Address": "corrupti",
-      "EmailId": 105,
+      "ContactId": 73,
+      "ContactName": "Macejkovic, Cronin and Will",
+      "PersonId": 242,
+      "PersonName": "Feil, Kunde and Reinger",
+      "AssociateId": 563,
+      "Address": "dolorem",
+      "EmailId": 654,
       "DuplicatePersonIds": [
-        178,
-        938
+        941,
+        638
       ],
-      "Name": "Trantow-Murphy",
+      "Name": "Botsford Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 961
+          "FieldLength": 847
         }
       }
     }
   ],
-  "Subject": "molestias",
-  "HTMLBody": "architecto",
+  "Subject": "sint",
+  "HTMLBody": "et",
   "From": null,
-  "Sent": "2018-06-04T03:45:23.373582+02:00",
-  "Size": 143,
+  "Sent": "2008-04-04T03:46:54.8007556+02:00",
+  "Size": 722,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sunt",
-  "PlainBody": "repellendus",
-  "IsSent": true,
+  "MessageID": "et",
+  "PlainBody": "voluptate",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 376,
+  "ServerId": 678,
   "Attachments": [
     {
-      "Description": "Implemented coherent productivity",
-      "Filename": "sint",
-      "Size": 245,
-      "Type": "deleniti",
-      "Encoding": "pariatur",
-      "Id": "nostrum",
-      "Disposition": "illo",
-      "IsSafeFileExtension": true,
+      "Description": "Stand-alone discrete initiative",
+      "Filename": "provident",
+      "Size": 907,
+      "Type": "ex",
+      "Encoding": "vel",
+      "Id": "ut",
+      "Disposition": "non",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 547
+          "FieldLength": 42
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Turner LLC",
+      "Name": "Hoeger-Daniel",
       "Values": [
-        "animi",
-        "vel"
+        "autem",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 338
+          "FieldLength": 79
         }
       }
     },
     {
-      "Name": "Turner LLC",
+      "Name": "Hoeger-Daniel",
       "Values": [
-        "animi",
-        "vel"
+        "autem",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 338
+          "FieldLength": 79
         }
       }
     }
   ],
-  "FolderName": "Walter Inc and Sons",
-  "EmailItemId": 255,
-  "AccountId": 333,
-  "ReceivedAt": "2017-01-05T03:45:23.373582+01:00",
+  "FolderName": "Marks LLC",
+  "EmailItemId": 242,
+  "AccountId": 354,
+  "ReceivedAt": "2007-09-25T03:46:54.8007556+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2021-05-12T03:45:23.373582+02:00",
+  "RepliedAt": "2023-12-05T03:46:54.8007556+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +267,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 426
+      "FieldLength": 14
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/MDO/SetSelected
 uid: v1MDOAgent_SetSelected
 generated: true
+content_type: reference
 ---
 
 # POST Agents/MDO/SetSelected
@@ -93,28 +94,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kilback-Schinner",
-  "AdditionalInfo": "veniam",
+  "Name": "Hermann LLC",
+  "AdditionalInfo": "rerum",
   "SelectableMDOList": [
     {
-      "Id": 267,
-      "Name": "Berge, Ziemann and Barrows",
-      "ToolTip": "Perspiciatis possimus molestias animi qui.",
+      "Id": 284,
+      "Name": "Jacobs-Goldner",
+      "ToolTip": "Quia vitae ea.",
       "Deleted": false,
-      "Rank": 143,
-      "Type": "quis",
-      "ColorBlock": 741,
-      "IconHint": "dignissimos",
+      "Rank": 592,
+      "Type": "laborum",
+      "ColorBlock": 472,
+      "IconHint": "molestias",
       "Selected": false,
-      "LastChanged": "1998-04-22T03:45:23.6391999+02:00",
+      "LastChanged": "2009-10-28T03:46:55.0194982+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quaerat",
-      "StyleHint": "id",
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "voluptatem",
       "Hidden": false,
-      "FullName": "Nasir Lang II"
+      "FullName": "Mrs. Royal Cassandra Lesch V"
     }
   ]
 }
@@ -128,56 +129,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 109,
-    "Name": "Simonis, Torp and Fay",
-    "ToolTip": "Eveniet saepe autem possimus perferendis nemo eos.",
+    "Id": 961,
+    "Name": "Rice LLC",
+    "ToolTip": "Tempora quibusdam vitae.",
     "Deleted": true,
-    "Rank": 145,
-    "Type": "sapiente",
-    "ColorBlock": 990,
-    "IconHint": "ut",
+    "Rank": 579,
+    "Type": "enim",
+    "ColorBlock": 879,
+    "IconHint": "explicabo",
     "Selected": false,
-    "LastChanged": "2019-04-16T03:45:23.6391999+02:00",
+    "LastChanged": "2013-05-24T03:46:55.0194982+02:00",
     "ChildItems": [
       {
-        "Id": 581,
-        "Name": "Leannon, Collier and Russel",
-        "ToolTip": "Tenetur amet quisquam suscipit nisi molestiae autem culpa.",
-        "Deleted": true,
-        "Rank": 360,
-        "Type": "necessitatibus",
-        "ColorBlock": 120,
-        "IconHint": "amet",
-        "Selected": false,
-        "LastChanged": "2012-04-11T03:45:23.6391999+02:00",
+        "Id": 101,
+        "Name": "White Group",
+        "ToolTip": "Ut placeat reiciendis eius distinctio necessitatibus accusantium sit.",
+        "Deleted": false,
+        "Rank": 262,
+        "Type": "quod",
+        "ColorBlock": 569,
+        "IconHint": "nihil",
+        "Selected": true,
+        "LastChanged": "2010-07-03T03:46:55.0194982+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "tempore",
-        "Hidden": true,
-        "FullName": "Tressie Bradtke",
+        "ExtraInfo": "adipisci",
+        "StyleHint": "necessitatibus",
+        "Hidden": false,
+        "FullName": "Hipolito Roob",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 529
+            "FieldType": "System.Int32",
+            "FieldLength": 100
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "asperiores",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Isobel Ferry",
+    "FullName": "Carter Kshlerin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 337
+        "FieldLength": 249
       }
     }
   }

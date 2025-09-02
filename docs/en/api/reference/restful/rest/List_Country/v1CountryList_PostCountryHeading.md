@@ -2,6 +2,7 @@
 title: POST List/Country/Headings
 uid: v1CountryList_PostCountryHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/Country/Headings
@@ -75,16 +76,16 @@ OK
 POST /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 648,
-  "Name": "Bernier, Legros and Hirthe",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "Rank": 285,
-  "UdListDefinitionId": 19
+  "HeadingId": 607,
+  "Name": "Reinger, Treutel and Barrows",
+  "Tooltip": "quo",
+  "Deleted": false,
+  "Rank": 543,
+  "UdListDefinitionId": 178
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 664,
-  "Name": "Kuhlman, Hackett and Conroy",
-  "Tooltip": "hic",
+  "HeadingId": 577,
+  "Name": "Yost, Stoltenberg and Toy",
+  "Tooltip": "deleniti",
   "Deleted": true,
-  "Rank": 83,
-  "UdListDefinitionId": 351,
+  "Rank": 815,
+  "UdListDefinitionId": 413,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 524
+      "FieldLength": 48
     }
   }
 }

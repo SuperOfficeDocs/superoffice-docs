@@ -2,6 +2,7 @@
 title: GET List/Category/Items
 uid: v1CategoryList_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET List/Category/Items
@@ -70,7 +71,7 @@ OK
 GET /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 401,
-    "Name": "Denesik-Bogisich",
-    "Tooltip": "perspiciatis",
+    "Id": 539,
+    "Name": "Hegmann Group",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 850,
-    "Rank": 481,
+    "UdListDefinitionId": 21,
+    "Rank": 790,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 354
+        "FieldLength": 251
       }
     }
   }

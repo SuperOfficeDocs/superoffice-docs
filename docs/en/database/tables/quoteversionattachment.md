@@ -2,10 +2,10 @@
 uid: table-QuoteVersionAttachment
 title: QuoteVersionAttachment table
 description: Actual attachments to a quote
-so.generated: true
+generated: true
 keywords: database table QuoteVersionAttachment
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # QuoteVersionAttachment Table (447)

@@ -2,6 +2,7 @@
 title: POST List/TicketStatus/Items
 uid: v1TicketStatusList_PostTicketStatusEntity
 generated: true
+content_type: reference
 ---
 
 # POST List/TicketStatus/Items
@@ -81,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 264,
-  "Name": "Padberg, Wisozk and Lebsack",
+  "TicketStatusId": 755,
+  "Name": "Johnson-Schroeder",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
-  "IsDefault": false,
+  "IsDefault": true,
   "UsedInQueue": false
 }
 ```
@@ -98,19 +99,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 184,
-  "Name": "Torphy-Corkery",
+  "TicketStatusId": 129,
+  "Name": "Little-Mayer",
   "Status": "Active",
   "TimeCounter": "Externally",
-  "NoEmailReopen": false,
-  "IsDefault": true,
+  "NoEmailReopen": true,
+  "IsDefault": false,
   "UsedInQueue": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 418
+      "FieldType": "System.Int32",
+      "FieldLength": 312
     }
   }
 }

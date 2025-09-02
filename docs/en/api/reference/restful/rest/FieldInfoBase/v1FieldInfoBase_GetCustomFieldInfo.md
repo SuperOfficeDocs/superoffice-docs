@@ -2,6 +2,7 @@
 title: GET Schema/{tableName}/{fieldName}
 uid: v1FieldInfoBase_GetCustomFieldInfo
 generated: true
+content_type: reference
 ---
 
 # GET Schema/{tableName}/{fieldName}
@@ -71,7 +72,7 @@ OK
 GET /api/v1/Schema/{tableName}/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Schmidt, Dach and Rutherford",
-  "DisplayName": "Tremblay, Hegmann and Shields",
-  "Description": "Down-sized hybrid software",
-  "ShortLabel": "consequatur",
+  "FieldName": "Dickinson, Stracke and Raynor",
+  "DisplayName": "Pollich, Crist and Howell",
+  "Description": "Monitored tangible knowledge user",
+  "ShortLabel": "suscipit",
   "HideLabel": false,
   "HideField": false,
-  "IsIndexed": false,
+  "IsIndexed": true,
   "IsMandatory": true,
   "IsReadOnly": false,
   "IsExternal": false,
-  "IsDisplayField": false,
-  "Rank": 327,
-  "TemplateVariableName": "Wyman LLC"
+  "IsDisplayField": true,
+  "Rank": 152,
+  "TemplateVariableName": "Wisozk-Hermiston"
 }
 ```

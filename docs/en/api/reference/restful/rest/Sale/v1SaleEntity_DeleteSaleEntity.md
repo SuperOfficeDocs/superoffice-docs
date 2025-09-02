@@ -2,6 +2,7 @@
 title: DEL Sale/{id}
 uid: v1SaleEntity_DeleteSaleEntity
 generated: true
+content_type: reference
 ---
 
 # DEL Sale/{id}
@@ -53,7 +54,7 @@ SaleEntity deleted.
 DELETE /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

@@ -2,6 +2,7 @@
 title: GET List/ConsentSource/Items
 uid: v1ConsentSourceList_GetAllConsentSource
 generated: true
+content_type: reference
 ---
 
 # GET List/ConsentSource/Items
@@ -63,7 +64,7 @@ OK
 GET /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,19 +75,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 771,
-    "Name": "Thompson-Murazik",
-    "Tooltip": "ipsum",
-    "Rank": 937,
-    "Key": "adipisci",
-    "MailTemplateId": 103,
-    "Deleted": true,
+    "ConsentSourceId": 455,
+    "Name": "Green-Feest",
+    "Tooltip": "nostrum",
+    "Rank": 661,
+    "Key": "possimus",
+    "MailTemplateId": 575,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 970
+        "FieldLength": 1002
       }
     }
   }

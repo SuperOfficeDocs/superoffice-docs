@@ -2,6 +2,7 @@
 title: Services88.LicenseAgent.GetUserLicensesMDOList SOAP
 generated: true
 uid: Services88-License-GetUserLicensesMDOList
+content_type: reference
 ---
 
 # Services88 License GetUserLicensesMDOList
@@ -74,7 +75,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <License:ColorBlock xsi:type="xsd:int">0</License:ColorBlock>
      <License:IconHint xsi:type="xsd:string"></License:IconHint>
      <License:Selected xsi:type="xsd:boolean">false</License:Selected>
-     <License:LastChanged xsi:type="xsd:dateTime">2025-06-26T01:44:04Z</License:LastChanged>
+     <License:LastChanged xsi:type="xsd:dateTime">2025-08-30T01:45:36Z</License:LastChanged>
      <License:ChildItems xsi:type="License:ArrayOfSelectableMDOListItem">
       <License:SelectableMDOListItem xsi:type="License:SelectableMDOListItem">
        <License:Id xsi:type="xsd:int">0</License:Id>
@@ -86,7 +87,7 @@ Application tokens must be specified if calling an Online installation. Applicat
        <License:ColorBlock xsi:type="xsd:int">0</License:ColorBlock>
        <License:IconHint xsi:type="xsd:string"></License:IconHint>
        <License:Selected xsi:type="xsd:boolean">false</License:Selected>
-       <License:LastChanged xsi:type="xsd:dateTime">2025-06-26T01:44:04Z</License:LastChanged>
+       <License:LastChanged xsi:type="xsd:dateTime">2025-08-30T01:45:36Z</License:LastChanged>
        <License:ChildItems xsi:type="License:ArrayOfSelectableMDOListItem">
         <License:SelectableMDOListItem xsi:type="License:SelectableMDOListItem">
          <License:Id xsi:type="xsd:int">0</License:Id>
@@ -98,7 +99,7 @@ Application tokens must be specified if calling an Online installation. Applicat
          <License:ColorBlock xsi:type="xsd:int">0</License:ColorBlock>
          <License:IconHint xsi:type="xsd:string"></License:IconHint>
          <License:Selected xsi:type="xsd:boolean">false</License:Selected>
-         <License:LastChanged xsi:type="xsd:dateTime">2025-06-26T01:44:04Z</License:LastChanged>
+         <License:LastChanged xsi:type="xsd:dateTime">2025-08-30T01:45:36Z</License:LastChanged>
          <License:ChildItems xsi:type="License:ArrayOfSelectableMDOListItem">
           <License:SelectableMDOListItem xsi:nil="true"></License:SelectableMDOListItem>
          </License:ChildItems>

@@ -2,6 +2,7 @@
 title: Services88.ListAgent.SetRankOnHeadings SOAP
 generated: true
 uid: Services88-List-SetRankOnHeadings
+content_type: reference
 ---
 
 # Services88 List SetRankOnHeadings

@@ -2,6 +2,7 @@
 title: POST Agents/Quote/CopyQuoteAlternative
 uid: v1QuoteAgent_CopyQuoteAlternative
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/CopyQuoteAlternative
@@ -97,13 +98,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 139,
-  "QuoteAlternativeId": 253,
-  "QuoteAlternativeName": "Johns, Frami and Hand"
+  "QuoteVersionId": 949,
+  "QuoteAlternativeId": 920,
+  "QuoteAlternativeName": "Kessler-Hintz"
 }
 ```
 
@@ -114,35 +115,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 495,
-  "ERPQuoteAlternativeKey": "nihil",
-  "QuoteVersionId": 324,
-  "Name": "Ondricka-Wiegand",
-  "Description": "Organized fresh-thinking function",
+  "QuoteAlternativeId": 639,
+  "ERPQuoteAlternativeKey": "atque",
+  "QuoteVersionId": 322,
+  "Name": "Marquardt, Kerluke and Olson",
+  "Description": "User-centric fresh-thinking challenge",
   "Status": "Error",
-  "Reason": "target world-class architectures",
-  "ERPDiscountPercent": 7007.624,
-  "ERPDiscountAmount": 24868.29,
-  "DiscountPercent": 21574.456,
-  "DiscountAmount": 10069.542,
+  "Reason": "optimize front-end paradigms",
+  "ERPDiscountPercent": 7512.1979999999994,
+  "ERPDiscountAmount": 28412.843999999997,
+  "DiscountPercent": 10207.438,
+  "DiscountAmount": 18647.3,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "sunt",
-  "VAT": 4312.384,
-  "EarningPercent": 14936.644,
-  "EarningAmount": 30105.203999999998,
-  "SubTotal": 25792.82,
-  "TotalPrice": 5948.3319999999994,
-  "ExtraField1": "cum",
-  "ExtraField2": "harum",
-  "ExtraField3": "voluptas",
-  "ExtraField4": "rerum",
-  "ExtraField5": "nulla",
+  "VATInfo": "omnis",
+  "VAT": 26497.969999999998,
+  "EarningPercent": 18321.363999999998,
+  "EarningAmount": 16882.858,
+  "SubTotal": 24733.528,
+  "TotalPrice": 12504.66,
+  "ExtraField1": "natus",
+  "ExtraField2": "labore",
+  "ExtraField3": "ut",
+  "ExtraField4": "commodi",
+  "ExtraField5": "repudiandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 838
+      "FieldLength": 499
     }
   }
 }

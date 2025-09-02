@@ -3,9 +3,9 @@ uid: MailingsShadowDynamicSelectionSingleCriteriaGroup
 title: MailingsShadowDynamicSelectionSingleCriteriaGroup
 description: Shadow contact provider for the dynamic Mailings provider.
 keywords: MailingsShadowDynamicSelectionSingleCriteriaGroup archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "MailingsShadowDynamicSelectionSingleCriteriaGroup"
@@ -662,7 +662,7 @@ Shadow contact provider for the dynamic Mailings provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowDynamicSelectionSingleCriteriaGroup?$select=mailingAddr/contact/streetAddress/zip,mailingAddr/contact/contactAssociate/mrMrs,mailingAddr/contact/LastDoByTicket,mailingAddr/person/personHasInterests,mailingAddr/person/personExtra/y_rental/x_start
+GET /api/v1/archive/MailingsShadowDynamicSelectionSingleCriteriaGroup?$select=mailingSimpleStatus,mailingAddr/contact/NumberOfSales,mailingAddr/person/personAssociate/otherGroups,associate/isActiveText,project/NumberOfActivitiesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -2,6 +2,7 @@
 title: GET List/DeliveryTerm/Items/{id}/Headings
 uid: v1DeliveryTermsList_GetDeliveryTermHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/DeliveryTerm/Items/{id}/Headings
@@ -85,7 +86,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 626,
-    "Name": "Barton-Aufderhar",
-    "ToolTip": "Et fugit atque sit.",
+    "Id": 90,
+    "Name": "Satterfield, Wuckert and Gibson",
+    "ToolTip": "Commodi repellendus saepe laboriosam at.",
     "Deleted": true,
-    "Rank": 460,
-    "Type": "cum",
-    "ColorBlock": 723,
-    "IconHint": "rerum",
+    "Rank": 429,
+    "Type": "culpa",
+    "ColorBlock": 138,
+    "IconHint": "minima",
     "Selected": false,
-    "LastChanged": "2015-05-10T03:45:29.0296674+02:00",
+    "LastChanged": "2007-02-09T03:47:00.6442984+01:00",
     "ChildItems": [
       {
-        "Id": 364,
-        "Name": "Stamm, McKenzie and Rutherford",
-        "ToolTip": "Doloribus officiis sint et assumenda consequatur.",
+        "Id": 250,
+        "Name": "Quigley, O'Hara and Kassulke",
+        "ToolTip": "Blanditiis iste numquam non exercitationem saepe voluptas iure.",
         "Deleted": true,
-        "Rank": 18,
-        "Type": "ea",
-        "ColorBlock": 740,
-        "IconHint": "totam",
+        "Rank": 446,
+        "Type": "sunt",
+        "ColorBlock": 492,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2024-07-07T03:45:29.0296674+02:00",
+        "LastChanged": "1999-08-11T03:47:00.6442984+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Zachariah D'Amore Jr.",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "commodi",
+        "Hidden": false,
+        "FullName": "Beulah Thompson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 19
+            "FieldLength": 59
           }
         }
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Vicky Willms",
+    "ExtraInfo": "quo",
+    "StyleHint": "consectetur",
+    "Hidden": true,
+    "FullName": "Barton Walker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 984
+        "FieldType": "System.String",
+        "FieldLength": 268
       }
     }
   }

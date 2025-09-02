@@ -1,6 +1,8 @@
 ---
+uid: tag-List_ProductType
 title: List_ProductType
 generated: true
+content_type: reference
 ---
 
 ```http

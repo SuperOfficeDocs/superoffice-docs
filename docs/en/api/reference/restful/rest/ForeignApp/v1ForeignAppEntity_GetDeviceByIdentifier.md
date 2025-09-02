@@ -2,6 +2,7 @@
 title: GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 uid: v1ForeignAppEntity_GetDeviceByIdentifier
 generated: true
+content_type: reference
 ---
 
 # GET ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
@@ -69,7 +70,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,24 +78,24 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 04 Dec 2008 03:45:28 G12T
+Last-Modified: Thu, 02 Oct 2014 03:47:00 G10T
 
 {
-  "ForeignDeviceId": 106,
-  "Name": "Ryan, Lynch and Bauch",
-  "CreatedDate": "2024-04-24T03:45:28.3578119+02:00",
-  "UpdatedDate": "2008-12-04T03:45:28.3578119+01:00",
-  "AssociateFullName": "Ivy Serena Dibbert Jr.",
-  "CreatedBy": "tempora",
-  "UpdatedBy": "voluptatem",
-  "DeviceIdentifier": "aut",
-  "ForeignAppId": 472,
+  "ForeignDeviceId": 137,
+  "Name": "Purdy Inc and Sons",
+  "CreatedDate": "2006-05-25T03:47:00.0349452+02:00",
+  "UpdatedDate": "2014-10-02T03:47:00.0349452+02:00",
+  "AssociateFullName": "Prof. Tobin Beahan Jr.",
+  "CreatedBy": "et",
+  "UpdatedBy": "ut",
+  "DeviceIdentifier": "exercitationem",
+  "ForeignAppId": 858,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 986
+      "FieldLength": 817
     }
   }
 }

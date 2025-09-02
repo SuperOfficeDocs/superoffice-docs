@@ -2,6 +2,7 @@
 title: PUT List/Credited/Items/{id}/UserGroups
 uid: v1CreditedList_PutCreditedUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/Credited/Items/{id}/UserGroups
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 283,
-    "Name": "Wiza, Dibbert and Oberbrunner",
-    "ToolTip": "Inventore iusto rerum soluta natus et neque.",
+    "Id": 320,
+    "Name": "Howe, West and Corwin",
+    "ToolTip": "Ducimus unde.",
     "Deleted": false,
-    "Rank": 344,
-    "Type": "deserunt",
-    "ColorBlock": 4,
-    "IconHint": "facere",
+    "Rank": 277,
+    "Type": "debitis",
+    "ColorBlock": 453,
+    "IconHint": "culpa",
     "Selected": true,
-    "LastChanged": "2021-05-10T03:45:29.014043+02:00",
+    "LastChanged": "2005-02-02T03:47:00.628674+01:00",
     "ChildItems": [
       {
-        "Id": 852,
-        "Name": "Schuppe Group",
-        "ToolTip": "Itaque eveniet officia dolor unde rerum.",
-        "Deleted": true,
-        "Rank": 317,
-        "Type": "maxime",
-        "ColorBlock": 252,
-        "IconHint": "ipsa",
-        "Selected": true,
-        "LastChanged": "1998-08-23T03:45:29.014043+02:00",
+        "Id": 918,
+        "Name": "Klocko LLC",
+        "ToolTip": "Beatae provident aperiam fugiat qui.",
+        "Deleted": false,
+        "Rank": 749,
+        "Type": "minus",
+        "ColorBlock": 731,
+        "IconHint": "esse",
+        "Selected": false,
+        "LastChanged": "2001-04-17T03:47:00.628674+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "id",
+        "ExtraInfo": "amet",
+        "StyleHint": "omnis",
         "Hidden": true,
-        "FullName": "Mr. Mariane Martine Johns PhD"
+        "FullName": "Bo Bauch"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "atque",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Miss Skye Ratke"
+    "FullName": "Luisa Anderson"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 739,
-    "Name": "Lemke, Lang and Hickle",
-    "ToolTip": "Recusandae quis unde sit iste.",
-    "Deleted": true,
-    "Rank": 112,
-    "Type": "enim",
-    "ColorBlock": 557,
-    "IconHint": "corporis",
+    "Id": 615,
+    "Name": "O'Conner, Maggio and Brakus",
+    "ToolTip": "Magnam ducimus eum laborum voluptates deleniti.",
+    "Deleted": false,
+    "Rank": 940,
+    "Type": "laudantium",
+    "ColorBlock": 601,
+    "IconHint": "magnam",
     "Selected": false,
-    "LastChanged": "2016-12-06T03:45:29.014043+01:00",
+    "LastChanged": "2012-08-09T03:47:00.628674+02:00",
     "ChildItems": [
       {
-        "Id": 74,
-        "Name": "McCullough LLC",
-        "ToolTip": "Qui beatae voluptas molestiae voluptatem ratione.",
-        "Deleted": false,
-        "Rank": 269,
-        "Type": "nobis",
-        "ColorBlock": 247,
-        "IconHint": "sequi",
-        "Selected": false,
-        "LastChanged": "2004-03-15T03:45:29.014043+01:00",
+        "Id": 407,
+        "Name": "Little, Franecki and Hauck",
+        "ToolTip": "Voluptate dolorum culpa repellat repudiandae temporibus voluptas.",
+        "Deleted": true,
+        "Rank": 344,
+        "Type": "consequatur",
+        "ColorBlock": 353,
+        "IconHint": "occaecati",
+        "Selected": true,
+        "LastChanged": "2010-03-03T03:47:00.628674+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "quis",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "rem",
         "Hidden": false,
-        "FullName": "Kaley Kilback DVM",
+        "FullName": "Mrs. Lucio Cole",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 747
+            "FieldLength": 880
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "tempore",
-    "Hidden": true,
-    "FullName": "Dr. Marcus Pearlie Gleichner",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "repudiandae",
+    "Hidden": false,
+    "FullName": "Maurine Barrows",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 49
+        "FieldType": "System.Int32",
+        "FieldLength": 277
       }
     }
   }

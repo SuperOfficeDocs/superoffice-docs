@@ -2,6 +2,7 @@
 title: PUT List/Currency/Items/{id}
 uid: v1CurrencyList_PutCurrencyEntity
 generated: true
+content_type: reference
 ---
 
 # PUT List/Currency/Items/{id}
@@ -82,17 +83,17 @@ OK
 PUT /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 335,
-  "Name": "Mante-Graham",
-  "Tooltip": "explicabo",
-  "Rank": 631,
-  "Rate": 7230.138,
-  "Units": 5744.6219999999994,
-  "Deleted": false
+  "CurrencyId": 389,
+  "Name": "Stark LLC",
+  "Tooltip": "debitis",
+  "Rank": 699,
+  "Rate": 16635.272,
+  "Units": 9345.588,
+  "Deleted": true
 }
 ```
 
@@ -103,19 +104,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 753,
-  "Name": "Connelly Inc and Sons",
-  "Tooltip": "ad",
-  "Rank": 829,
-  "Rate": 24467.138,
-  "Units": 4481.62,
+  "CurrencyId": 176,
+  "Name": "Skiles-DuBuque",
+  "Tooltip": "officiis",
+  "Rank": 536,
+  "Rate": 21919.196,
+  "Units": 6515.586,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 187
+      "FieldLength": 726
     }
   }
 }

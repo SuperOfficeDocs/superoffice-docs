@@ -2,6 +2,7 @@
 title: POST Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 uid: v1UserDefinedFieldInfoAgent_GetCustomFieldInfo
 generated: true
+content_type: reference
 ---
 
 # POST Agents/UserDefinedFieldInfo/GetCustomFieldInfo
@@ -85,12 +86,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schiller-Breitenberg",
-  "FieldName": "Nikolaus, Kunze and Stracke"
+  "TableName": "Abshire, Goyette and Heller",
+  "FieldName": "Simonis Group"
 }
 ```
 
@@ -102,18 +103,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Sanford, Carroll and Kunze",
-  "DisplayName": "Harris Inc and Sons",
-  "Description": "Profit-focused 4th generation leverage",
-  "ShortLabel": "quis",
+  "FieldName": "Medhurst LLC",
+  "DisplayName": "White LLC",
+  "Description": "Proactive real-time access",
+  "ShortLabel": "vero",
   "HideLabel": false,
-  "HideField": false,
+  "HideField": true,
   "IsIndexed": false,
-  "IsMandatory": true,
-  "IsReadOnly": false,
-  "IsExternal": true,
+  "IsMandatory": false,
+  "IsReadOnly": true,
+  "IsExternal": false,
   "IsDisplayField": false,
-  "Rank": 208,
-  "TemplateVariableName": "Kulas LLC"
+  "Rank": 359,
+  "TemplateVariableName": "Cronin, Dooley and Wiegand"
 }
 ```

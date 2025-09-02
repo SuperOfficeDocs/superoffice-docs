@@ -2,6 +2,7 @@
 title: POST Agents/List/GetAllCountries
 uid: v1ListAgent_GetAllCountries
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetAllCountries
@@ -90,7 +91,7 @@ OK
 POST /api/v1/Agents/List/GetAllCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -106,30 +107,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 677,
-    "Name": "White-VonRueden",
-    "CurrencyId": 954,
-    "EnglishName": "Dare-Tremblay",
+    "CountryId": 429,
+    "Name": "Muller, Luettgen and Casper",
+    "CurrencyId": 825,
+    "EnglishName": "Friesen Inc and Sons",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Secured static structure",
-    "OrgNrText": "385022",
-    "InterAreaPrefix": "quas",
-    "DialInPrefix": "quo",
-    "ZipPrefix": "rerum",
-    "DomainName": "Oberbrunner, Beier and Rau",
-    "AddressLayoutId": 583,
-    "DomesticAddressLayoutId": 861,
-    "ForeignAddressLayoutId": 622,
-    "Rank": 880,
-    "Tooltip": "sunt",
+    "ImageDescription": "Switchable discrete functionalities",
+    "OrgNrText": "1602193",
+    "InterAreaPrefix": "dolor",
+    "DialInPrefix": "asperiores",
+    "ZipPrefix": "esse",
+    "DomainName": "Reinger Group",
+    "AddressLayoutId": 126,
+    "DomesticAddressLayoutId": 549,
+    "ForeignAddressLayoutId": 36,
+    "Rank": 550,
+    "Tooltip": "repudiandae",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 78
+        "FieldType": "System.String",
+        "FieldLength": 25
       }
     }
   }

@@ -2,6 +2,7 @@
 title: PUT Appointment/UdefLayout
 uid: v1AppointmentEntity_SaveUdefLayout
 generated: true
+content_type: reference
 ---
 
 # PUT Appointment/UdefLayout
@@ -129,45 +130,45 @@ OK
 PUT /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 923,
-    "ColumnId": 550,
-    "FieldDefault": "velit",
-    "FieldHeight": 283,
-    "FieldLabel": "libero",
-    "FieldLeft": 940,
-    "FieldTop": 948,
+    "UDefFieldId": 603,
+    "ColumnId": 890,
+    "FieldDefault": "voluptatibus",
+    "FieldHeight": 680,
+    "FieldLabel": "dolores",
+    "FieldLeft": 73,
+    "FieldTop": 436,
     "FieldType": "Checkbox",
-    "FieldWidth": 187,
-    "FormatMask": "provident",
-    "HideLabel": false,
+    "FieldWidth": 243,
+    "FormatMask": "nostrum",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 303,
-    "LabelLeft": 642,
-    "LabelTop": 929,
-    "LabelWidth": 480,
-    "LastVersionId": 664,
-    "ListTableId": 800,
-    "IsMandatory": false,
+    "LabelHeight": 438,
+    "LabelLeft": 514,
+    "LabelTop": 711,
+    "LabelWidth": 538,
+    "LastVersionId": 577,
+    "ListTableId": 5,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 942,
-    "ProgId": "tenetur",
+    "Page1LineNo": 815,
+    "ProgId": "sit",
     "IsReadOnly": false,
-    "ShortLabel": "necessitatibus",
-    "TabOrder": 352,
-    "TextLength": 708,
-    "Tooltip": "ut",
-    "UdefIdentity": 633,
-    "UDListDefinitionId": 489,
+    "ShortLabel": "quaerat",
+    "TabOrder": 303,
+    "TextLength": 313,
+    "Tooltip": "ducimus",
+    "UdefIdentity": 444,
+    "UDListDefinitionId": 203,
     "Justification": "Center",
-    "Version": 595,
-    "TemplateVariableName": "Greenholt-Turcotte",
-    "HasBeenPublished": false,
-    "MdoListName": "Tremblay, Bode and Kassulke"
+    "Version": 647,
+    "TemplateVariableName": "Bruen, Weimann and Becker",
+    "HasBeenPublished": true,
+    "MdoListName": "Casper, Welch and Schmitt"
   }
 ]
 ```
@@ -180,46 +181,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 783,
-    "ColumnId": 385,
-    "FieldDefault": "eos",
-    "FieldHeight": 415,
-    "FieldLabel": "officiis",
-    "FieldLeft": 813,
-    "FieldTop": 670,
+    "UDefFieldId": 972,
+    "ColumnId": 274,
+    "FieldDefault": "culpa",
+    "FieldHeight": 960,
+    "FieldLabel": "commodi",
+    "FieldLeft": 603,
+    "FieldTop": 582,
     "FieldType": "Checkbox",
-    "FieldWidth": 716,
-    "FormatMask": "consequuntur",
+    "FieldWidth": 340,
+    "FormatMask": "adipisci",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 798,
-    "LabelLeft": 25,
-    "LabelTop": 274,
-    "LabelWidth": 461,
-    "LastVersionId": 584,
-    "ListTableId": 331,
-    "IsMandatory": false,
+    "IsIndexed": false,
+    "LabelHeight": 715,
+    "LabelLeft": 659,
+    "LabelTop": 939,
+    "LabelWidth": 584,
+    "LastVersionId": 140,
+    "ListTableId": 963,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 884,
-    "ProgId": "beatae",
+    "Page1LineNo": 294,
+    "ProgId": "est",
     "IsReadOnly": true,
-    "ShortLabel": "inventore",
-    "TabOrder": 815,
-    "TextLength": 823,
-    "Tooltip": "ut",
-    "UdefIdentity": 244,
-    "UDListDefinitionId": 132,
+    "ShortLabel": "voluptas",
+    "TabOrder": 913,
+    "TextLength": 729,
+    "Tooltip": "odit",
+    "UdefIdentity": 821,
+    "UDListDefinitionId": 325,
     "Justification": "Center",
-    "Version": 508,
-    "TemplateVariableName": "Runolfsdottir-Wisoky",
+    "Version": 354,
+    "TemplateVariableName": "Armstrong-Parker",
     "HasBeenPublished": false,
-    "MdoListName": "Russel-Spinka",
+    "MdoListName": "Collins Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 799
+        "FieldLength": 31
       }
     }
   }

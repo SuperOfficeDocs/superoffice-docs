@@ -2,6 +2,7 @@
 title: GET List/Competitor/Items
 uid: v1CompetitorList_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET List/Competitor/Items
@@ -70,7 +71,7 @@ OK
 GET /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 547,
-    "Name": "Bosco Group",
-    "Tooltip": "nemo",
+    "Id": 449,
+    "Name": "Wintheiser, Bailey and Witting",
+    "Tooltip": "vero",
     "Deleted": false,
-    "UdListDefinitionId": 54,
-    "Rank": 291,
+    "UdListDefinitionId": 246,
+    "Rank": 369,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 536
+        "FieldLength": 174
       }
     }
   }

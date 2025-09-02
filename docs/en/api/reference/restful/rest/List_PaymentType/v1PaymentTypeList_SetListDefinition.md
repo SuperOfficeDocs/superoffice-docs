@@ -2,6 +2,7 @@
 title: PUT List/PaymentType
 uid: v1PaymentTypeList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/PaymentType
@@ -84,19 +85,19 @@ OK
 PUT /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 747,
-  "Name": "Cartwright Inc and Sons",
-  "Tooltip": "enim",
+  "Id": 849,
+  "Name": "Smitham Inc and Sons",
+  "Tooltip": "aspernatur",
   "Deleted": false,
-  "Rank": 33,
-  "IsCustomList": true,
+  "Rank": 413,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sunt",
+  "ListType": "quisquam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 466,
-  "Name": "Marquardt, Stoltenberg and Bode",
-  "Tooltip": "placeat",
+  "Id": 703,
+  "Name": "Abshire-Koch",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 968,
+  "Rank": 515,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "similique",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "odio",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 358
+      "FieldType": "System.String",
+      "FieldLength": 895
     }
   }
 }

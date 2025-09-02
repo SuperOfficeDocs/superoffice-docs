@@ -2,6 +2,7 @@
 title: PUT RelationDefinition/{id}
 uid: v1RelationDefinitionEntity_PutRelationDefinitionEntity
 generated: true
+content_type: reference
 ---
 
 # PUT RelationDefinition/{id}
@@ -93,16 +94,16 @@ RelationDefinitionEntity updated.
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 444,
-  "Name": "Dietrich Group",
-  "Tooltip": "porro",
-  "PassiveText": "eum",
-  "Deleted": true,
-  "Rank": 971,
+  "ReldefId": 472,
+  "Name": "Zieme-Jast",
+  "Tooltip": "aut",
+  "PassiveText": "nihil",
+  "Deleted": false,
+  "Rank": 38,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -115,25 +116,25 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 754,
-  "Name": "Casper, Hickle and Rodriguez",
-  "Tooltip": "neque",
-  "PassiveText": "nobis",
+  "ReldefId": 804,
+  "Name": "Dickens, Donnelly and Hamill",
+  "Tooltip": "vitae",
+  "PassiveText": "est",
   "Deleted": true,
-  "Rank": 416,
+  "Rank": 576,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 302
+      "FieldType": "System.Int32",
+      "FieldLength": 421
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -2,6 +2,7 @@
 title: Services88.SelectionAgent.GetRecipientStatisticsFromProjectMembers SOAP
 generated: true
 uid: Services88-Selection-GetRecipientStatisticsFromProjectMembers
+content_type: reference
 ---
 
 # Services88 Selection GetRecipientStatisticsFromProjectMembers

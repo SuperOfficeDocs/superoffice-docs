@@ -2,6 +2,7 @@
 title: POST Agents/Sale/GetSale
 uid: v1SaleAgent_GetSale
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Sale/GetSale
@@ -22,11 +23,11 @@ Gets a Sale object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| saleId | int32 | **Required** The primary key. |
+| saleId | int32 | **Required** The identifier of the Sale object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSale?saleId=786
+POST /api/v1/Agents/Sale/GetSale?saleId=27
 POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 ```
 
@@ -91,7 +92,7 @@ OK
 POST /api/v1/Agents/Sale/GetSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Purdy Group",
-  "SaleDate": "2000-01-31T03:45:23.8579437+01:00",
-  "SaleId": 401,
-  "Probability": 195,
-  "Title": "delectus",
-  "Amount": 13441.725999999999,
-  "Currency": "esse",
-  "ProjectName": "Sawayn Group",
-  "AssociateFullName": "Broderick Barrows",
-  "Description": "Reduced eco-centric software",
+  "ContactName": "Gerhold, Predovic and Adams",
+  "SaleDate": "2009-03-07T03:46:55.2382402+01:00",
+  "SaleId": 600,
+  "Probability": 214,
+  "Title": "ipsa",
+  "Amount": 25595.378,
+  "Currency": "deleniti",
+  "ProjectName": "Hessel, Carter and Moen",
+  "AssociateFullName": "Reed White IV",
+  "Description": "Horizontal motivating info-mediaries",
   "Status": "Lost",
-  "WeightedAmount": 31067.342,
-  "ProjectId": 912,
-  "EarningPercent": 31183.3,
-  "Earning": 673.81,
-  "ContactId": 798,
-  "AssociateId": 906,
-  "PersonId": 980,
-  "SaleTypeId": 754,
-  "SaleTypeName": "Mante-O'Hara",
-  "PersonFullName": "Nelda Dooley",
+  "WeightedAmount": 11276.132,
+  "ProjectId": 491,
+  "EarningPercent": 3102.66,
+  "Earning": 11467.306,
+  "ContactId": 169,
+  "AssociateId": 112,
+  "PersonId": 237,
+  "SaleTypeId": 809,
+  "SaleTypeName": "Morissette-Beer",
+  "PersonFullName": "Gust Hilll",
   "Completed": "Completed",
-  "ActiveErpLinks": 837,
-  "NextDueDate": "2018-10-11T03:45:23.8579437+02:00",
-  "Number": "1126076",
+  "ActiveErpLinks": 214,
+  "NextDueDate": "2002-02-21T03:46:55.2382402+01:00",
+  "Number": "1260081",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 766
+      "FieldType": "System.String",
+      "FieldLength": 813
     }
   }
 }

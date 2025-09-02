@@ -2,6 +2,7 @@
 title: POST Agents/Contact/Merge
 uid: v1ContactAgent_Merge
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Contact/Merge
@@ -69,14 +70,14 @@ No Content
 POST /api/v1/Agents/Contact/Merge
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 300,
-  "DestinationContactId": 227,
-  "MergeIdenticalPersons": true,
-  "ReplaceEmptyFieldsOnDestination": false
+  "SourceContactId": 131,
+  "DestinationContactId": 462,
+  "MergeIdenticalPersons": false,
+  "ReplaceEmptyFieldsOnDestination": true
 }
 ```
 

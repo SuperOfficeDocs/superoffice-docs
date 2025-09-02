@@ -3,9 +3,9 @@ uid: ConfigurableArchiveQuoteLine
 title: ConfigurableArchiveQuoteLine
 description: This is the archive Provider for the QuoteLine Archive.
 keywords: ConfigurableArchiveQuoteLine archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ConfigurableArchiveQuoteLine"
@@ -763,7 +763,7 @@ This is the archive Provider for the QuoteLine Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConfigurableArchiveQuoteLine?$select=alternative/version/quote/sale/person/searchPhone/formattedNumber,alternative/version/quote/sale/person/restrictionAddress/state,alternative/version/quote/sale/person/personUdef/SuperOffice:8,alternative/version/quote/sale/person/correspondingAssociate/portraitThumbnail,alternative/version/quote/sale/contact/restrictionAddress/state
+GET /api/v1/archive/ConfigurableArchiveQuoteLine?$select=productFamilyKey,alternative/version/quote/sale/person/supportAssociate,alternative/version/quote/sale/person/personAssociate/credentialDisplayValue,alternative/version/quote/sale/person/correspondingAssociate/fullName,alternative/version/quote/sale/contact/nameDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

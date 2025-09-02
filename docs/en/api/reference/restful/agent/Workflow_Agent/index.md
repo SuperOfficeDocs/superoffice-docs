@@ -1,6 +1,8 @@
 ---
+uid: tag-Workflow_Agent
 title: Workflow_Agent
 generated: true
+content_type: reference
 ---
 
 ```http
@@ -15,30 +17,6 @@ generated: true
 * [POST Agents/Workflow/SaveEmailFlow](v1WorkflowAgent_SaveEmailFlow.md)
 
 * [POST Agents/Workflow/DeleteEmailFlow](v1WorkflowAgent_DeleteEmailFlow.md)
-
-* [POST Agents/Workflow/CreateDefaultWorkflowEvent](v1WorkflowAgent_CreateDefaultWorkflowEvent.md)
-
-* [POST Agents/Workflow/CreateDefaultWorkflowEventResult](v1WorkflowAgent_CreateDefaultWorkflowEventResult.md)
-
-* [POST Agents/Workflow/CreateDefaultWorkflowFilter](v1WorkflowAgent_CreateDefaultWorkflowFilter.md)
-
-* [POST Agents/Workflow/CreateDefaultWorkflowGoal](v1WorkflowAgent_CreateDefaultWorkflowGoal.md)
-
-* [POST Agents/Workflow/SaveWorkflowGoal](v1WorkflowAgent_SaveWorkflowGoal.md)
-
-* [POST Agents/Workflow/DeleteWorkflowGoal](v1WorkflowAgent_DeleteWorkflowGoal.md)
-
-* [POST Agents/Workflow/CreateDefaultWorkflowTrigger](v1WorkflowAgent_CreateDefaultWorkflowTrigger.md)
-
-* [POST Agents/Workflow/SaveWorkflowTrigger](v1WorkflowAgent_SaveWorkflowTrigger.md)
-
-* [POST Agents/Workflow/DeleteWorkflowTrigger](v1WorkflowAgent_DeleteWorkflowTrigger.md)
-
-* [POST Agents/Workflow/CreateDefaultWorkflowWaitForAction](v1WorkflowAgent_CreateDefaultWorkflowWaitForAction.md)
-
-* [POST Agents/Workflow/SaveWorkflowWaitForAction](v1WorkflowAgent_SaveWorkflowWaitForAction.md)
-
-* [POST Agents/Workflow/DeleteWorkflowWaitForAction](v1WorkflowAgent_DeleteWorkflowWaitForAction.md)
 
 * [POST Agents/Workflow/GetEmailFlow](v1WorkflowAgent_GetEmailFlow.md)
 
@@ -58,9 +36,21 @@ generated: true
 
 * [POST Agents/Workflow/CopyEmailFlow](v1WorkflowAgent_CopyEmailFlow.md)
 
+* [POST Agents/Workflow/CreateDefaultWorkflowEvent](v1WorkflowAgent_CreateDefaultWorkflowEvent.md)
+
 * [POST Agents/Workflow/Run](v1WorkflowAgent_Run.md)
 
 * [POST Agents/Workflow/SendEvent](v1WorkflowAgent_SendEvent.md)
+
+* [POST Agents/Workflow/CreateDefaultWorkflowEventResult](v1WorkflowAgent_CreateDefaultWorkflowEventResult.md)
+
+* [POST Agents/Workflow/CreateDefaultWorkflowFilter](v1WorkflowAgent_CreateDefaultWorkflowFilter.md)
+
+* [POST Agents/Workflow/CreateDefaultWorkflowGoal](v1WorkflowAgent_CreateDefaultWorkflowGoal.md)
+
+* [POST Agents/Workflow/SaveWorkflowGoal](v1WorkflowAgent_SaveWorkflowGoal.md)
+
+* [POST Agents/Workflow/DeleteWorkflowGoal](v1WorkflowAgent_DeleteWorkflowGoal.md)
 
 * [POST Agents/Workflow/GetWorkflowGoal](v1WorkflowAgent_GetWorkflowGoal.md)
 
@@ -74,6 +64,18 @@ generated: true
 
 * [POST Agents/Workflow/GetWorkflowStepOption](v1WorkflowAgent_GetWorkflowStepOption.md)
 
+* [POST Agents/Workflow/CreateDefaultWorkflowTrigger](v1WorkflowAgent_CreateDefaultWorkflowTrigger.md)
+
+* [POST Agents/Workflow/SaveWorkflowTrigger](v1WorkflowAgent_SaveWorkflowTrigger.md)
+
+* [POST Agents/Workflow/DeleteWorkflowTrigger](v1WorkflowAgent_DeleteWorkflowTrigger.md)
+
 * [POST Agents/Workflow/GetWorkflowTrigger](v1WorkflowAgent_GetWorkflowTrigger.md)
+
+* [POST Agents/Workflow/CreateDefaultWorkflowWaitForAction](v1WorkflowAgent_CreateDefaultWorkflowWaitForAction.md)
+
+* [POST Agents/Workflow/SaveWorkflowWaitForAction](v1WorkflowAgent_SaveWorkflowWaitForAction.md)
+
+* [POST Agents/Workflow/DeleteWorkflowWaitForAction](v1WorkflowAgent_DeleteWorkflowWaitForAction.md)
 
 * [POST Agents/Workflow/GetWorkflowWaitForAction](v1WorkflowAgent_GetWorkflowWaitForAction.md)

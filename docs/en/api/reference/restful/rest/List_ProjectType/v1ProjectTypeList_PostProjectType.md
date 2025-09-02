@@ -2,6 +2,7 @@
 title: POST List/ProjectType/Items
 uid: v1ProjectTypeList_PostProjectType
 generated: true
+content_type: reference
 ---
 
 # POST List/ProjectType/Items
@@ -73,16 +74,16 @@ OK
 POST /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 843,
-  "Name": "Thiel Inc and Sons",
-  "Tooltip": "quibusdam",
-  "Deleted": true,
-  "UdListDefinitionId": 476,
-  "Rank": 165
+  "Id": 37,
+  "Name": "Klein-Torp",
+  "Tooltip": "non",
+  "Deleted": false,
+  "UdListDefinitionId": 343,
+  "Rank": 181
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 404,
-  "Name": "Hauck, Kessler and Mitchell",
-  "Tooltip": "temporibus",
+  "Id": 146,
+  "Name": "Roberts-Koepp",
+  "Tooltip": "sit",
   "Deleted": false,
-  "UdListDefinitionId": 816,
-  "Rank": 81,
+  "UdListDefinitionId": 1000,
+  "Rank": 974,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 876
+      "FieldLength": 828
     }
   }
 }

@@ -2,6 +2,7 @@
 title: GET List/ProductFamily/Items/Default
 uid: v1ProductFamilyList_CreateDefaultProductFamily
 generated: true
+content_type: reference
 ---
 
 # GET List/ProductFamily/Items/Default
@@ -60,7 +61,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 404,
-  "Name": "Goldner-Wuckert",
-  "Tooltip": "et",
+  "Id": 116,
+  "Name": "Russel, Hudson and Parisian",
+  "Tooltip": "deleniti",
   "Deleted": true,
-  "UdListDefinitionId": 483,
-  "Rank": 586,
+  "UdListDefinitionId": 631,
+  "Rank": 745,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 854
+      "FieldLength": 712
     }
   }
 }

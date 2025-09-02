@@ -2,6 +2,7 @@
 title: PUT List/TicketStatus/Headings
 uid: v1TicketStatusList_PutTicketStatusEntityHeadings
 generated: true
+content_type: reference
 ---
 
 # PUT List/TicketStatus/Headings
@@ -75,25 +76,25 @@ OK
 PUT /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 483,
-    "Name": "Bartoletti-Nolan",
-    "Tooltip": "illo",
-    "Deleted": false,
-    "Rank": 124,
-    "UdListDefinitionId": 943
+    "HeadingId": 334,
+    "Name": "McCullough-Goldner",
+    "Tooltip": "esse",
+    "Deleted": true,
+    "Rank": 527,
+    "UdListDefinitionId": 730
   },
   {
-    "HeadingId": 483,
-    "Name": "Bartoletti-Nolan",
-    "Tooltip": "illo",
-    "Deleted": false,
-    "Rank": 124,
-    "UdListDefinitionId": 943
+    "HeadingId": 334,
+    "Name": "McCullough-Goldner",
+    "Tooltip": "esse",
+    "Deleted": true,
+    "Rank": 527,
+    "UdListDefinitionId": 730
   }
 ]
 ```
@@ -106,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 889,
-    "Name": "Lind-Luettgen",
-    "Tooltip": "rerum",
+    "HeadingId": 545,
+    "Name": "Jacobs Group",
+    "Tooltip": "eius",
     "Deleted": false,
-    "Rank": 905,
-    "UdListDefinitionId": 308,
+    "Rank": 400,
+    "UdListDefinitionId": 537,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 996
+        "FieldLength": 589
       }
     }
   }

@@ -3,9 +3,9 @@ uid: externaldocumentitems
 title: externaldocumentitems
 description: <b>External Documents</b> is the same as the Image Library in service - images (and maybe other things?) that
 keywords: externaldocumentitems archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "externaldocumentitems"
@@ -44,7 +44,7 @@ can be added to messages. They are a special kind of attachment, and conencted t
 ## Sample
 
 ```http!
-GET /api/v1/archive/externaldocumentitems?$select=created,isInHistory
+GET /api/v1/archive/externaldocumentitems?$select=createdFullName,created,isInHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

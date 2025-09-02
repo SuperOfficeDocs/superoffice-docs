@@ -2,6 +2,7 @@
 title: GET List/ProjectStatus/Items/Default
 uid: v1ProjectStatusList_CreateDefaultProjectStatus
 generated: true
+content_type: reference
 ---
 
 # GET List/ProjectStatus/Items/Default
@@ -60,7 +61,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 740,
-  "Name": "Luettgen-Harber",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "UdListDefinitionId": 279,
-  "Rank": 63,
+  "Id": 792,
+  "Name": "Gutkowski, Bosco and Kunze",
+  "Tooltip": "voluptate",
+  "Deleted": true,
+  "UdListDefinitionId": 945,
+  "Rank": 818,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 854
+      "FieldType": "System.Int32",
+      "FieldLength": 387
     }
   }
 }

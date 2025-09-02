@@ -2,6 +2,7 @@
 title: POST Agents/Batch/GetBatchTaskInfosByNameAndState
 uid: v1BatchAgent_GetBatchTaskInfosByNameAndState
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Batch/GetBatchTaskInfosByNameAndState
@@ -95,11 +96,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Harvey Inc and Sons",
+  "Name": "Wunsch, Douglas and Mueller",
   "State": "All"
 }
 ```
@@ -112,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 779,
-    "Name": "Ernser Group",
-    "AssociateId": 434,
-    "DetailsTable": 307,
-    "DetailsRecord": 204,
-    "IsSystemTask": false,
+    "Id": 55,
+    "Name": "Koepp Group",
+    "AssociateId": 471,
+    "DetailsTable": 56,
+    "DetailsRecord": 166,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "fuga",
-      "ParameterObject2": "amet"
+      "ParameterObject1": "quas",
+      "ParameterObject2": "reiciendis"
     },
-    "LastStarted": "2005-08-09T03:45:22.9829669+02:00",
-    "Created": "2006-08-28T03:45:22.9829669+02:00",
-    "StartCount": 897,
-    "DatabaseSerialNumber": "160263",
-    "Context": "sit",
-    "Result": "quod",
+    "LastStarted": "2005-08-24T03:46:54.3007673+02:00",
+    "Created": "1998-05-17T03:46:54.3007673+02:00",
+    "StartCount": 559,
+    "DatabaseSerialNumber": "1300249",
+    "Context": "ut",
+    "Result": "quas",
     "State": "All",
-    "Description": "Managed mobile software",
-    "Response": "sit",
-    "Request": "quibusdam",
-    "ProgressDescription": "Synergistic secondary attitude",
-    "ProgressPercent": 224,
-    "FileName": "Sporer, Kuvalis and Harvey",
+    "Description": "Re-contextualized systemic initiative",
+    "Response": "ut",
+    "Request": "maiores",
+    "ProgressDescription": "Grass-roots multimedia knowledge user",
+    "ProgressPercent": 319,
+    "FileName": "Lesch-Heathcote",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 766
+        "FieldType": "System.String",
+        "FieldLength": 393
       }
     }
   }

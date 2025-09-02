@@ -4,6 +4,8 @@ items:
   commentId: N:SuperOffice.WebApi.Data
   id: SuperOffice.WebApi.Data
   children:
+  - SuperOffice.WebApi.Data.AI_AnalyzeBizCardImageRequest
+  - SuperOffice.WebApi.Data.AI_AnalyzeBizCardTextRequest
   - SuperOffice.WebApi.Data.AI_AnswerAcceptedRequest
   - SuperOffice.WebApi.Data.AI_AnswerFeedbackRequest
   - SuperOffice.WebApi.Data.AI_AnswerRequest
@@ -254,8 +256,11 @@ items:
   - SuperOffice.WebApi.Data.Batch_StartBatchJobRequest
   - SuperOffice.WebApi.Data.Batch_StopBatchJobRequest
   - SuperOffice.WebApi.Data.Batch_UpdateBatchTaskRequest
+  - SuperOffice.WebApi.Data.BizCard
   - SuperOffice.WebApi.Data.BlobEntity
   - SuperOffice.WebApi.Data.BlobLinkType
+  - SuperOffice.WebApi.Data.BoardViewEntityType
+  - SuperOffice.WebApi.Data.BoardViewSettingsBase
   - SuperOffice.WebApi.Data.BookingType
   - SuperOffice.WebApi.Data.BulkUpdate_ExecuteByEntityIdsRequest
   - SuperOffice.WebApi.Data.BulkUpdate_ExecuteBySelectionIdRequest
@@ -302,6 +307,8 @@ items:
   - SuperOffice.WebApi.Data.CategorizationModelDetails
   - SuperOffice.WebApi.Data.CategorizationStatusResponse
   - SuperOffice.WebApi.Data.Category
+  - SuperOffice.WebApi.Data.CategoryEntity
+  - SuperOffice.WebApi.Data.CategoryGroup
   - SuperOffice.WebApi.Data.CategoryGuess
   - SuperOffice.WebApi.Data.ChangePasswordType
   - SuperOffice.WebApi.Data.ChangedData
@@ -522,6 +529,20 @@ items:
   - SuperOffice.WebApi.Data.Dash_GetTempTileSelectionRequest
   - SuperOffice.WebApi.Data.Dash_SaveDashTileHtmlListRequest
   - SuperOffice.WebApi.Data.Dash_SaveDashTilesRequest
+  - SuperOffice.WebApi.Data.Dashboard
+  - SuperOffice.WebApi.Data.DashboardLayout
+  - SuperOffice.WebApi.Data.DashboardTile
+  - SuperOffice.WebApi.Data.DashboardTileEntityType
+  - SuperOffice.WebApi.Data.DashboardTileOption
+  - SuperOffice.WebApi.Data.DashboardTileOptionType
+  - SuperOffice.WebApi.Data.DashboardTileType
+  - SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest
+  - SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest
+  - SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest
+  - SuperOffice.WebApi.Data.Dashboard_GetDataRequest
+  - SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest
+  - SuperOffice.WebApi.Data.Dashboard_GetStandardDashboardTileFromChartIdRequest
+  - SuperOffice.WebApi.Data.Dashboard_SetTileRequest
   - SuperOffice.WebApi.Data.DataRight
   - SuperOffice.WebApi.Data.DataRights
   - SuperOffice.WebApi.Data.DatabaseTable_DeleteRequest
@@ -773,6 +794,7 @@ items:
   - SuperOffice.WebApi.Data.EMail_TestAuthenticateRequest
   - SuperOffice.WebApi.Data.EMail_ToggleSubscriptionRequest
   - SuperOffice.WebApi.Data.ETableRight
+  - SuperOffice.WebApi.Data.EjScriptVerb
   - SuperOffice.WebApi.Data.EjUserStatus
   - SuperOffice.WebApi.Data.EmailFlow
   - SuperOffice.WebApi.Data.EmailFromType
@@ -984,6 +1006,7 @@ items:
   - SuperOffice.WebApi.Data.Import_PreviewImportRequest
   - SuperOffice.WebApi.Data.Import_SaveImportRequest
   - SuperOffice.WebApi.Data.IncomingMessage
+  - SuperOffice.WebApi.Data.InitalUtmParameters
   - SuperOffice.WebApi.Data.Installation
   - SuperOffice.WebApi.Data.IntStringDictionary
   - SuperOffice.WebApi.Data.InterRestrictionOperator
@@ -1286,6 +1309,7 @@ items:
   - SuperOffice.WebApi.Data.Person_GetPhonesRequest
   - SuperOffice.WebApi.Data.Person_GetSalesRepRequest
   - SuperOffice.WebApi.Data.Person_GetUserCandidateByPersonRequest
+  - SuperOffice.WebApi.Data.Person_GetUtmParametersRequest
   - SuperOffice.WebApi.Data.Person_HasConsentRequest
   - SuperOffice.WebApi.Data.Person_IsNumberValidRequest
   - SuperOffice.WebApi.Data.Person_MergeRequest
@@ -1388,6 +1412,7 @@ items:
   - SuperOffice.WebApi.Data.ProductFamily
   - SuperOffice.WebApi.Data.ProductType
   - SuperOffice.WebApi.Data.Project
+  - SuperOffice.WebApi.Data.ProjectBoardViewSettings
   - SuperOffice.WebApi.Data.ProjectEntity
   - SuperOffice.WebApi.Data.ProjectEvent
   - SuperOffice.WebApi.Data.ProjectEventEntity
@@ -1426,6 +1451,7 @@ items:
   - SuperOffice.WebApi.Data.Project_MergeRequest
   - SuperOffice.WebApi.Data.Project_OfferAutoNextStatusOnApppointmentCompletedRequest
   - SuperOffice.WebApi.Data.Project_SaveProjectMembersFunctionAndCommentRequest
+  - SuperOffice.WebApi.Data.Project_SetCompletedRequest
   - SuperOffice.WebApi.Data.Project_SetDuplicateRulesStatusRequest
   - SuperOffice.WebApi.Data.Project_SetProjectImageRequest
   - SuperOffice.WebApi.Data.Project_UpdateProjectMemberRequest
@@ -1605,6 +1631,7 @@ items:
   - SuperOffice.WebApi.Data.Saint_RegenerateStatusMonitorsRequest
   - SuperOffice.WebApi.Data.Saint_SetRankOnStatusMonitorsRequest
   - SuperOffice.WebApi.Data.Sale
+  - SuperOffice.WebApi.Data.SaleBoardViewSettings
   - SuperOffice.WebApi.Data.SaleEntity
   - SuperOffice.WebApi.Data.SaleStageEntity
   - SuperOffice.WebApi.Data.SaleStakeholder
@@ -1664,6 +1691,7 @@ items:
   - SuperOffice.WebApi.Data.Selection_CopySelectionMembersRequest
   - SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromSelectionRequest
   - SuperOffice.WebApi.Data.Selection_CreateContactSelectionFromShadowSelectionRequest
+  - SuperOffice.WebApi.Data.Selection_CreateDefaultBoardViewSettingsFromEntityTypeRequest
   - SuperOffice.WebApi.Data.Selection_CreateNewEntryRequest
   - SuperOffice.WebApi.Data.Selection_CreateSelectionEntityRequest
   - SuperOffice.WebApi.Data.Selection_CreateSelectionFromSelectionRequest
@@ -1671,6 +1699,7 @@ items:
   - SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionFromSelectionMemberIdsRequest
   - SuperOffice.WebApi.Data.Selection_CreateTemporaryContactSelectionRequest
   - SuperOffice.WebApi.Data.Selection_CreateTemporarySelectionFromIdsRequest
+  - SuperOffice.WebApi.Data.Selection_DeleteBoardViewSettingsRequest
   - SuperOffice.WebApi.Data.Selection_DeleteContactsRequest
   - SuperOffice.WebApi.Data.Selection_DeleteEntitiesRequest
   - SuperOffice.WebApi.Data.Selection_DeletePersonsRequest
@@ -1679,6 +1708,8 @@ items:
   - SuperOffice.WebApi.Data.Selection_ExportSelectionMembersRequest
   - SuperOffice.WebApi.Data.Selection_ExportSelectionMembersWithOrderByRequest
   - SuperOffice.WebApi.Data.Selection_GenerateFollowUpsRequest
+  - SuperOffice.WebApi.Data.Selection_GetBoardViewSettingsForSelectionRequest
+  - SuperOffice.WebApi.Data.Selection_GetBoardViewSettingsRequest
   - SuperOffice.WebApi.Data.Selection_GetDuplicateRulesRequest
   - SuperOffice.WebApi.Data.Selection_GetDuplicatesRequest
   - SuperOffice.WebApi.Data.Selection_GetDynamicSelectionCriteriaGroupsRequest
@@ -1697,6 +1728,7 @@ items:
   - SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersByIdRequest
   - SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersFromSearchRequest
   - SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersRequest
+  - SuperOffice.WebApi.Data.Selection_SaveBoardViewSettingsRequest
   - SuperOffice.WebApi.Data.Selection_SetDuplicateRulesStatusRequest
   - SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria2Request
   - SuperOffice.WebApi.Data.Selection_SetDynamicSelectionCriteria3Request
@@ -1885,6 +1917,7 @@ items:
   - SuperOffice.WebApi.Data.Ticket_UpdateTicketsReadStatusRequest
   - SuperOffice.WebApi.Data.Ticket_UploadAttachmentRequest
   - SuperOffice.WebApi.Data.Ticket_ValidateAttachmentsRequest
+  - SuperOffice.WebApi.Data.TileData
   - SuperOffice.WebApi.Data.TimeZoneData
   - SuperOffice.WebApi.Data.TimeZoneRule
   - SuperOffice.WebApi.Data.TimeZoneRuleDictionary
@@ -1980,6 +2013,7 @@ items:
   - SuperOffice.WebApi.Data.UserPreferenceStrings.InApp
   - SuperOffice.WebApi.Data.UserPreferenceStrings.MDOList
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Mail
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Mailing
   - SuperOffice.WebApi.Data.UserPreferenceStrings.MiniPanel
   - SuperOffice.WebApi.Data.UserPreferenceStrings.NetServices
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Notification
@@ -2092,6 +2126,7 @@ items:
   - SuperOffice.WebApi.Data.User_SetPasswordRequest
   - SuperOffice.WebApi.Data.User_SetUserPresenceStatusRequest
   - SuperOffice.WebApi.Data.User_ValidateUserRequest
+  - SuperOffice.WebApi.Data.UtmParameters
   - SuperOffice.WebApi.Data.ValueOverride
   - SuperOffice.WebApi.Data.VersionInfo
   - SuperOffice.WebApi.Data.VideoMeetingReservation
@@ -4030,6 +4065,14 @@ references:
   name: ConsentPerson
   nameWithType: ConsentPerson
   fullName: SuperOffice.WebApi.Data.ConsentPerson
+- uid: SuperOffice.WebApi.Data.InitalUtmParameters
+  commentId: T:SuperOffice.WebApi.Data.InitalUtmParameters
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.InitalUtmParameters.html
+  name: InitalUtmParameters
+  nameWithType: InitalUtmParameters
+  fullName: SuperOffice.WebApi.Data.InitalUtmParameters
 - uid: SuperOffice.WebApi.Data.Person
   commentId: T:SuperOffice.WebApi.Data.Person
   parent: SuperOffice.WebApi.Data
@@ -4326,6 +4369,13 @@ references:
   name: Person_SendEmailWithEventNameRequest
   nameWithType: Person_SendEmailWithEventNameRequest
   fullName: SuperOffice.WebApi.Data.Person_SendEmailWithEventNameRequest
+- uid: SuperOffice.WebApi.Data.Person_GetUtmParametersRequest
+  commentId: T:SuperOffice.WebApi.Data.Person_GetUtmParametersRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Person_GetUtmParametersRequest.html
+  name: Person_GetUtmParametersRequest
+  nameWithType: Person_GetUtmParametersRequest
+  fullName: SuperOffice.WebApi.Data.Person_GetUtmParametersRequest
 - uid: SuperOffice.WebApi.Data.PersonImage
   commentId: T:SuperOffice.WebApi.Data.PersonImage
   isExternal: true
@@ -4424,6 +4474,13 @@ references:
   name: TemporaryKeyInfo
   nameWithType: TemporaryKeyInfo
   fullName: SuperOffice.WebApi.Data.TemporaryKeyInfo
+- uid: SuperOffice.WebApi.Data.UtmParameters
+  commentId: T:SuperOffice.WebApi.Data.UtmParameters
+  isExternal: true
+  href: SuperOffice.WebApi.Data.UtmParameters.html
+  name: UtmParameters
+  nameWithType: UtmParameters
+  fullName: SuperOffice.WebApi.Data.UtmParameters
 - uid: SuperOffice.WebApi.Data.Sale
   commentId: T:SuperOffice.WebApi.Data.Sale
   parent: SuperOffice.WebApi.Data
@@ -4878,6 +4935,13 @@ references:
   name: Project_ValidateProjectEntityRequest
   nameWithType: Project_ValidateProjectEntityRequest
   fullName: SuperOffice.WebApi.Data.Project_ValidateProjectEntityRequest
+- uid: SuperOffice.WebApi.Data.Project_SetCompletedRequest
+  commentId: T:SuperOffice.WebApi.Data.Project_SetCompletedRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Project_SetCompletedRequest.html
+  name: Project_SetCompletedRequest
+  nameWithType: Project_SetCompletedRequest
+  fullName: SuperOffice.WebApi.Data.Project_SetCompletedRequest
 - uid: SuperOffice.WebApi.Data.ProjectEvent
   commentId: T:SuperOffice.WebApi.Data.ProjectEvent
   isExternal: true
@@ -6726,6 +6790,14 @@ references:
   name: Category
   nameWithType: Category
   fullName: SuperOffice.WebApi.Data.Category
+- uid: SuperOffice.WebApi.Data.CategoryEntity
+  commentId: T:SuperOffice.WebApi.Data.CategoryEntity
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CategoryEntity.html
+  name: CategoryEntity
+  nameWithType: CategoryEntity
+  fullName: SuperOffice.WebApi.Data.CategoryEntity
 - uid: SuperOffice.WebApi.Data.List_GetCategoriesRequest
   commentId: T:SuperOffice.WebApi.Data.List_GetCategoriesRequest
   isExternal: true
@@ -9388,6 +9460,65 @@ references:
   name: Previews_GetPreviewRequest
   nameWithType: Previews_GetPreviewRequest
   fullName: SuperOffice.WebApi.Data.Previews_GetPreviewRequest
+- uid: SuperOffice.WebApi.Data.BoardViewSettingsBase
+  commentId: T:SuperOffice.WebApi.Data.BoardViewSettingsBase
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.BoardViewSettingsBase.html
+  name: BoardViewSettingsBase
+  nameWithType: BoardViewSettingsBase
+  fullName: SuperOffice.WebApi.Data.BoardViewSettingsBase
+- uid: SuperOffice.WebApi.Data.Selection_CreateDefaultBoardViewSettingsFromEntityTypeRequest
+  commentId: T:SuperOffice.WebApi.Data.Selection_CreateDefaultBoardViewSettingsFromEntityTypeRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Selection_CreateDefaultBoardViewSettingsFromEntityTypeRequest.html
+  name: Selection_CreateDefaultBoardViewSettingsFromEntityTypeRequest
+  nameWithType: Selection_CreateDefaultBoardViewSettingsFromEntityTypeRequest
+  fullName: SuperOffice.WebApi.Data.Selection_CreateDefaultBoardViewSettingsFromEntityTypeRequest
+- uid: SuperOffice.WebApi.Data.Selection_GetBoardViewSettingsRequest
+  commentId: T:SuperOffice.WebApi.Data.Selection_GetBoardViewSettingsRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Selection_GetBoardViewSettingsRequest.html
+  name: Selection_GetBoardViewSettingsRequest
+  nameWithType: Selection_GetBoardViewSettingsRequest
+  fullName: SuperOffice.WebApi.Data.Selection_GetBoardViewSettingsRequest
+- uid: SuperOffice.WebApi.Data.Selection_GetBoardViewSettingsForSelectionRequest
+  commentId: T:SuperOffice.WebApi.Data.Selection_GetBoardViewSettingsForSelectionRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Selection_GetBoardViewSettingsForSelectionRequest.html
+  name: Selection_GetBoardViewSettingsForSelectionRequest
+  nameWithType: Selection_GetBoardViewSettingsForSelectionRequest
+  fullName: SuperOffice.WebApi.Data.Selection_GetBoardViewSettingsForSelectionRequest
+- uid: SuperOffice.WebApi.Data.Selection_SaveBoardViewSettingsRequest
+  commentId: T:SuperOffice.WebApi.Data.Selection_SaveBoardViewSettingsRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Selection_SaveBoardViewSettingsRequest.html
+  name: Selection_SaveBoardViewSettingsRequest
+  nameWithType: Selection_SaveBoardViewSettingsRequest
+  fullName: SuperOffice.WebApi.Data.Selection_SaveBoardViewSettingsRequest
+- uid: SuperOffice.WebApi.Data.Selection_DeleteBoardViewSettingsRequest
+  commentId: T:SuperOffice.WebApi.Data.Selection_DeleteBoardViewSettingsRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Selection_DeleteBoardViewSettingsRequest.html
+  name: Selection_DeleteBoardViewSettingsRequest
+  nameWithType: Selection_DeleteBoardViewSettingsRequest
+  fullName: SuperOffice.WebApi.Data.Selection_DeleteBoardViewSettingsRequest
+- uid: SuperOffice.WebApi.Data.ProjectBoardViewSettings
+  commentId: T:SuperOffice.WebApi.Data.ProjectBoardViewSettings
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectBoardViewSettings.html
+  name: ProjectBoardViewSettings
+  nameWithType: ProjectBoardViewSettings
+  fullName: SuperOffice.WebApi.Data.ProjectBoardViewSettings
+- uid: SuperOffice.WebApi.Data.SaleBoardViewSettings
+  commentId: T:SuperOffice.WebApi.Data.SaleBoardViewSettings
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.SaleBoardViewSettings.html
+  name: SaleBoardViewSettings
+  nameWithType: SaleBoardViewSettings
+  fullName: SuperOffice.WebApi.Data.SaleBoardViewSettings
 - uid: SuperOffice.WebApi.Data.SelectionEntity
   commentId: T:SuperOffice.WebApi.Data.SelectionEntity
   parent: SuperOffice.WebApi.Data
@@ -15348,6 +15479,27 @@ references:
   name: AI_CreateTextForAppointmentRequest
   nameWithType: AI_CreateTextForAppointmentRequest
   fullName: SuperOffice.WebApi.Data.AI_CreateTextForAppointmentRequest
+- uid: SuperOffice.WebApi.Data.BizCard
+  commentId: T:SuperOffice.WebApi.Data.BizCard
+  isExternal: true
+  href: SuperOffice.WebApi.Data.BizCard.html
+  name: BizCard
+  nameWithType: BizCard
+  fullName: SuperOffice.WebApi.Data.BizCard
+- uid: SuperOffice.WebApi.Data.AI_AnalyzeBizCardImageRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_AnalyzeBizCardImageRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_AnalyzeBizCardImageRequest.html
+  name: AI_AnalyzeBizCardImageRequest
+  nameWithType: AI_AnalyzeBizCardImageRequest
+  fullName: SuperOffice.WebApi.Data.AI_AnalyzeBizCardImageRequest
+- uid: SuperOffice.WebApi.Data.AI_AnalyzeBizCardTextRequest
+  commentId: T:SuperOffice.WebApi.Data.AI_AnalyzeBizCardTextRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.AI_AnalyzeBizCardTextRequest.html
+  name: AI_AnalyzeBizCardTextRequest
+  nameWithType: AI_AnalyzeBizCardTextRequest
+  fullName: SuperOffice.WebApi.Data.AI_AnalyzeBizCardTextRequest
 - uid: SuperOffice.WebApi.Data.CategorizationModelDetails
   commentId: T:SuperOffice.WebApi.Data.CategorizationModelDetails
   parent: SuperOffice.WebApi.Data
@@ -16001,6 +16153,117 @@ references:
   name: WorkflowWaitForAction
   nameWithType: WorkflowWaitForAction
   fullName: SuperOffice.WebApi.Data.WorkflowWaitForAction
+- uid: SuperOffice.WebApi.Data.Dashboard
+  commentId: T:SuperOffice.WebApi.Data.Dashboard
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Dashboard.html
+  name: Dashboard
+  nameWithType: Dashboard
+  fullName: SuperOffice.WebApi.Data.Dashboard
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest
+  commentId: T:SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest.html
+  name: Dashboard_GetDashboardsRequest
+  nameWithType: Dashboard_GetDashboardsRequest
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDashboardsRequest
+- uid: SuperOffice.WebApi.Data.Dashboard_SetTileRequest
+  commentId: T:SuperOffice.WebApi.Data.Dashboard_SetTileRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Dashboard_SetTileRequest.html
+  name: Dashboard_SetTileRequest
+  nameWithType: Dashboard_SetTileRequest
+  fullName: SuperOffice.WebApi.Data.Dashboard_SetTileRequest
+- uid: SuperOffice.WebApi.Data.DashboardTile
+  commentId: T:SuperOffice.WebApi.Data.DashboardTile
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.DashboardTile.html
+  name: DashboardTile
+  nameWithType: DashboardTile
+  fullName: SuperOffice.WebApi.Data.DashboardTile
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest
+  commentId: T:SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest.html
+  name: Dashboard_GetDashboardTilesRequest
+  nameWithType: Dashboard_GetDashboardTilesRequest
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDashboardTilesRequest
+- uid: SuperOffice.WebApi.Data.Dashboard_GetStandardDashboardTileFromChartIdRequest
+  commentId: T:SuperOffice.WebApi.Data.Dashboard_GetStandardDashboardTileFromChartIdRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Dashboard_GetStandardDashboardTileFromChartIdRequest.html
+  name: Dashboard_GetStandardDashboardTileFromChartIdRequest
+  nameWithType: Dashboard_GetStandardDashboardTileFromChartIdRequest
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetStandardDashboardTileFromChartIdRequest
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDataRequest
+  commentId: T:SuperOffice.WebApi.Data.Dashboard_GetDataRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Dashboard_GetDataRequest.html
+  name: Dashboard_GetDataRequest
+  nameWithType: Dashboard_GetDataRequest
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDataRequest
+- uid: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest
+  commentId: T:SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest.html
+  name: Dashboard_CreateNewFromTemplateRequest
+  nameWithType: Dashboard_CreateNewFromTemplateRequest
+  fullName: SuperOffice.WebApi.Data.Dashboard_CreateNewFromTemplateRequest
+- uid: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest
+  commentId: T:SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest.html
+  name: Dashboard_GetDataWithSelectionRequest
+  nameWithType: Dashboard_GetDataWithSelectionRequest
+  fullName: SuperOffice.WebApi.Data.Dashboard_GetDataWithSelectionRequest
+- uid: SuperOffice.WebApi.Data.DashboardTileOption
+  commentId: T:SuperOffice.WebApi.Data.DashboardTileOption
+  isExternal: true
+  href: SuperOffice.WebApi.Data.DashboardTileOption.html
+  name: DashboardTileOption
+  nameWithType: DashboardTileOption
+  fullName: SuperOffice.WebApi.Data.DashboardTileOption
+- uid: SuperOffice.WebApi.Data.TileData
+  commentId: T:SuperOffice.WebApi.Data.TileData
+  isExternal: true
+  href: SuperOffice.WebApi.Data.TileData.html
+  name: TileData
+  nameWithType: TileData
+  fullName: SuperOffice.WebApi.Data.TileData
+- uid: SuperOffice.WebApi.Data.DashboardLayout
+  commentId: T:SuperOffice.WebApi.Data.DashboardLayout
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.DashboardLayout.html
+  name: DashboardLayout
+  nameWithType: DashboardLayout
+  fullName: SuperOffice.WebApi.Data.DashboardLayout
+- uid: SuperOffice.WebApi.Data.DashboardTileType
+  commentId: T:SuperOffice.WebApi.Data.DashboardTileType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.DashboardTileType.html
+  name: DashboardTileType
+  nameWithType: DashboardTileType
+  fullName: SuperOffice.WebApi.Data.DashboardTileType
+- uid: SuperOffice.WebApi.Data.DashboardTileEntityType
+  commentId: T:SuperOffice.WebApi.Data.DashboardTileEntityType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.DashboardTileEntityType.html
+  name: DashboardTileEntityType
+  nameWithType: DashboardTileEntityType
+  fullName: SuperOffice.WebApi.Data.DashboardTileEntityType
+- uid: SuperOffice.WebApi.Data.DashboardTileOptionType
+  commentId: T:SuperOffice.WebApi.Data.DashboardTileOptionType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.DashboardTileOptionType.html
+  name: DashboardTileOptionType
+  nameWithType: DashboardTileOptionType
+  fullName: SuperOffice.WebApi.Data.DashboardTileOptionType
 - uid: SuperOffice.WebApi.Data.AddressType
   commentId: T:SuperOffice.WebApi.Data.AddressType
   parent: SuperOffice.WebApi.Data
@@ -16665,6 +16928,14 @@ references:
   name: WorkflowWaitForActionType
   nameWithType: WorkflowWaitForActionType
   fullName: SuperOffice.WebApi.Data.WorkflowWaitForActionType
+- uid: SuperOffice.WebApi.Data.BoardViewEntityType
+  commentId: T:SuperOffice.WebApi.Data.BoardViewEntityType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.BoardViewEntityType.html
+  name: BoardViewEntityType
+  nameWithType: BoardViewEntityType
+  fullName: SuperOffice.WebApi.Data.BoardViewEntityType
 - uid: SuperOffice.WebApi.Data.WorkflowGoalType
   commentId: T:SuperOffice.WebApi.Data.WorkflowGoalType
   parent: SuperOffice.WebApi.Data
@@ -17217,6 +17488,14 @@ references:
   name: NotifyChannel
   nameWithType: NotifyChannel
   fullName: SuperOffice.WebApi.Data.NotifyChannel
+- uid: SuperOffice.WebApi.Data.CategoryGroup
+  commentId: T:SuperOffice.WebApi.Data.CategoryGroup
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.CategoryGroup.html
+  name: CategoryGroup
+  nameWithType: CategoryGroup
+  fullName: SuperOffice.WebApi.Data.CategoryGroup
 - uid: SuperOffice.WebApi.Data.EventHandlerType
   commentId: T:SuperOffice.WebApi.Data.EventHandlerType
   parent: SuperOffice.WebApi.Data
@@ -17377,6 +17656,14 @@ references:
   name: ScriptType
   nameWithType: ScriptType
   fullName: SuperOffice.WebApi.Data.ScriptType
+- uid: SuperOffice.WebApi.Data.EjScriptVerb
+  commentId: T:SuperOffice.WebApi.Data.EjScriptVerb
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.EjScriptVerb.html
+  name: EjScriptVerb
+  nameWithType: EjScriptVerb
+  fullName: SuperOffice.WebApi.Data.EjScriptVerb
 - uid: SuperOffice.WebApi.Data.WidgetTheme
   commentId: T:SuperOffice.WebApi.Data.WidgetTheme
   parent: SuperOffice.WebApi.Data
@@ -19118,6 +19405,33 @@ references:
     name: Copilot
     isExternal: true
     href: SuperOffice.WebApi.Data.UserPreferenceStrings.Copilot.html
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Mailing
+  commentId: T:SuperOffice.WebApi.Data.UserPreferenceStrings.Mailing
+  isExternal: true
+  href: SuperOffice.WebApi.Data.UserPreferenceStrings.html
+  name: UserPreferenceStrings.Mailing
+  nameWithType: UserPreferenceStrings.Mailing
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Mailing
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.WebApi.Data.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Mailing
+    name: Mailing
+    isExternal: true
+    href: SuperOffice.WebApi.Data.UserPreferenceStrings.Mailing.html
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings
+    name: UserPreferenceStrings
+    isExternal: true
+    href: SuperOffice.WebApi.Data.UserPreferenceStrings.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Mailing
+    name: Mailing
+    isExternal: true
+    href: SuperOffice.WebApi.Data.UserPreferenceStrings.Mailing.html
 - uid: SuperOffice.WebApi.Data.CultureDataFormatter
   commentId: T:SuperOffice.WebApi.Data.CultureDataFormatter
   isExternal: true

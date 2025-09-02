@@ -2,6 +2,7 @@
 title: GET List/Competitor/Items/{id}
 uid: v1CompetitorList_GetCompetitor
 generated: true
+content_type: reference
 ---
 
 # GET List/Competitor/Items/{id}
@@ -75,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 871,
-  "Name": "Gleason-Bashirian",
-  "Tooltip": "deserunt",
-  "Deleted": true,
-  "UdListDefinitionId": 163,
-  "Rank": 805,
+  "Id": 909,
+  "Name": "Greenholt, Conroy and Baumbach",
+  "Tooltip": "eum",
+  "Deleted": false,
+  "UdListDefinitionId": 58,
+  "Rank": 8,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 614
+      "FieldType": "System.Int32",
+      "FieldLength": 563
     }
   }
 }

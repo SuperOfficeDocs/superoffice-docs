@@ -2,6 +2,7 @@
 title: PUT List/PaymentType/Items
 uid: v1PaymentTypeList_PutAllPaymentType
 generated: true
+content_type: reference
 ---
 
 # PUT List/PaymentType/Items
@@ -73,25 +74,25 @@ OK
 PUT /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 560,
-    "Name": "Okuneva LLC",
-    "Tooltip": "rem",
+    "Id": 517,
+    "Name": "Kling-Little",
+    "Tooltip": "quaerat",
     "Deleted": true,
-    "UdListDefinitionId": 922,
-    "Rank": 970
+    "UdListDefinitionId": 420,
+    "Rank": 75
   },
   {
-    "Id": 560,
-    "Name": "Okuneva LLC",
-    "Tooltip": "rem",
+    "Id": 517,
+    "Name": "Kling-Little",
+    "Tooltip": "quaerat",
     "Deleted": true,
-    "UdListDefinitionId": 922,
-    "Rank": 970
+    "UdListDefinitionId": 420,
+    "Rank": 75
   }
 ]
 ```
@@ -104,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 242,
-    "Name": "Huels, Reichert and Schinner",
-    "Tooltip": "odit",
+    "Id": 122,
+    "Name": "Padberg Group",
+    "Tooltip": "nihil",
     "Deleted": false,
-    "UdListDefinitionId": 544,
-    "Rank": 843,
+    "UdListDefinitionId": 995,
+    "Rank": 677,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 806
+        "FieldType": "System.String",
+        "FieldLength": 753
       }
     }
   }

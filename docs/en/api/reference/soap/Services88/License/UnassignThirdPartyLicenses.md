@@ -2,6 +2,7 @@
 title: Services88.LicenseAgent.UnassignThirdPartyLicenses SOAP
 generated: true
 uid: Services88-License-UnassignThirdPartyLicenses
+content_type: reference
 ---
 
 # Services88 License UnassignThirdPartyLicenses

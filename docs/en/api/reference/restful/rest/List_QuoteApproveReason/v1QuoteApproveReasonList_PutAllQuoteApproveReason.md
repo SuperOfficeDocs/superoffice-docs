@@ -2,6 +2,7 @@
 title: PUT List/QuoteApproveReason/Items
 uid: v1QuoteApproveReasonList_PutAllQuoteApproveReason
 generated: true
+content_type: reference
 ---
 
 # PUT List/QuoteApproveReason/Items
@@ -78,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 22,
-    "Name": "Blanda-Keebler",
-    "Tooltip": "sed",
-    "Deleted": true,
-    "UdListDefinitionId": 100,
-    "Rank": 624
+    "Id": 258,
+    "Name": "Dickinson, Klocko and Reynolds",
+    "Tooltip": "accusantium",
+    "Deleted": false,
+    "UdListDefinitionId": 751,
+    "Rank": 834
   },
   {
-    "Id": 22,
-    "Name": "Blanda-Keebler",
-    "Tooltip": "sed",
-    "Deleted": true,
-    "UdListDefinitionId": 100,
-    "Rank": 624
+    "Id": 258,
+    "Name": "Dickinson, Klocko and Reynolds",
+    "Tooltip": "accusantium",
+    "Deleted": false,
+    "UdListDefinitionId": 751,
+    "Rank": 834
   }
 ]
 ```
@@ -104,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 542,
-    "Name": "Franecki LLC",
-    "Tooltip": "a",
+    "Id": 751,
+    "Name": "Crona Inc and Sons",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "UdListDefinitionId": 241,
-    "Rank": 26,
+    "UdListDefinitionId": 402,
+    "Rank": 287,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 621
+        "FieldLength": 899
       }
     }
   }

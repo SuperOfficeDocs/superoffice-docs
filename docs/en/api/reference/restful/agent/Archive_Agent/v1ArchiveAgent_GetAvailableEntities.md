@@ -2,6 +2,7 @@
 title: POST Agents/Archive/GetAvailableEntities
 uid: v1ArchiveAgent_GetAvailableEntities
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Archive/GetAvailableEntities
@@ -170,12 +171,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Conroy-Cremin",
-  "Context": "placeat"
+  "ProviderName": "Gerhold-Turner",
+  "Context": "dolore"
 }
 ```
 
@@ -187,50 +188,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 31,
-    "Name": "Ortiz-Breitenberg",
-    "ToolTip": "Qui architecto officia.",
+    "Id": 92,
+    "Name": "Adams-Lowe",
+    "ToolTip": "Sit necessitatibus.",
     "Deleted": true,
-    "Rank": 553,
-    "Type": "modi",
+    "Rank": 423,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 526,
-        "Name": "Kris, Pollich and Rippin",
-        "ToolTip": "Odio ipsam modi error.",
-        "Deleted": false,
-        "Rank": 7,
-        "Type": "quod",
+        "Id": 310,
+        "Name": "Turner Inc and Sons",
+        "ToolTip": "Harum assumenda laboriosam expedita tempore ut.",
+        "Deleted": true,
+        "Rank": 196,
+        "Type": "nam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "amet",
-        "ColorBlock": 563,
-        "ExtraInfo": "aut",
-        "StyleHint": "dolore",
-        "FullName": "Ophelia Aryanna Farrell DDS",
+        "IconHint": "ipsam",
+        "ColorBlock": 132,
+        "ExtraInfo": "dolores",
+        "StyleHint": "est",
+        "FullName": "Vicenta Wilfredo Nienow III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 431
+            "FieldType": "System.String",
+            "FieldLength": 746
           }
         }
       }
     ],
-    "IconHint": "at",
-    "ColorBlock": 58,
-    "ExtraInfo": "dicta",
-    "StyleHint": "voluptates",
-    "FullName": "Ms. Danika Stiedemann",
+    "IconHint": "dolorem",
+    "ColorBlock": 935,
+    "ExtraInfo": "iste",
+    "StyleHint": "pariatur",
+    "FullName": "Prof. Keanu Bahringer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 585
+        "FieldLength": 982
       }
     }
   }

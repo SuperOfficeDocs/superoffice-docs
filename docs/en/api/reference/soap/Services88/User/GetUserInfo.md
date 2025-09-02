@@ -2,6 +2,7 @@
 title: Services88.UserAgent.GetUserInfo SOAP
 generated: true
 uid: Services88-User-GetUserInfo
+content_type: reference
 ---
 
 # Services88 User GetUserInfo

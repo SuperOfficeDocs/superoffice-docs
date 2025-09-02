@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/HasChatNotify
 uid: v1CustomerServiceAgent_HasChatNotify
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/HasChatNotify

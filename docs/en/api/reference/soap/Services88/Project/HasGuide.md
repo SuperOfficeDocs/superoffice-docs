@@ -2,6 +2,7 @@
 title: Services88.ProjectAgent.HasGuide SOAP
 generated: true
 uid: Services88-Project-HasGuide
+content_type: reference
 ---
 
 # Services88 Project HasGuide

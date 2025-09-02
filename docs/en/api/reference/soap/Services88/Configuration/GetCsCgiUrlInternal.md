@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.GetCsCgiUrlInternal SOAP
 generated: true
 uid: Services88-Configuration-GetCsCgiUrlInternal
+content_type: reference
 ---
 
 # Services88 Configuration GetCsCgiUrlInternal

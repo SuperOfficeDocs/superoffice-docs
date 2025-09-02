@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.DeleteConfigurableScreenDelta SOAP
 generated: true
 uid: Services88-Configuration-DeleteConfigurableScreenDelta
+content_type: reference
 ---
 
 # Services88 Configuration DeleteConfigurableScreenDelta

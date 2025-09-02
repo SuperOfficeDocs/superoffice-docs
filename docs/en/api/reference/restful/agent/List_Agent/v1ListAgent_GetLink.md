@@ -2,6 +2,7 @@
 title: POST Agents/List/GetLink
 uid: v1ListAgent_GetLink
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetLink
@@ -22,11 +23,11 @@ Gets a Link object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| linkId | int32 | **Required** The primary key. |
+| linkId | int32 | **Required** The identifier of the Link object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetLink?linkId=16
+POST /api/v1/Agents/List/GetLink?linkId=759
 POST /api/v1/Agents/List/GetLink?$select=name,department,category/id
 ```
 
@@ -81,17 +82,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Gleason-Beer",
-  "Id": 6,
-  "Description": "Customer-focused high-level firmware",
-  "ExtraInfo": "vero",
+  "EntityName": "Langworth, Friesen and Johnston",
+  "Id": 585,
+  "Description": "Public-key context-sensitive hub",
+  "ExtraInfo": "deleniti",
   "LinkId": 621,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 693
+      "FieldLength": 257
     }
   }
 }

@@ -2,6 +2,7 @@
 title: Services88.BLOBAgent.SetPersonImage SOAP
 generated: true
 uid: Services88-BLOB-SetPersonImage
+content_type: reference
 ---
 
 # Services88 BLOB SetPersonImage

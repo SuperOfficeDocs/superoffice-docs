@@ -2,6 +2,7 @@
 title: DEL Pricelist/{id}
 uid: v1PriceList_DeletePriceList
 generated: true
+content_type: reference
 ---
 
 # DEL Pricelist/{id}
@@ -52,7 +53,7 @@ PriceList deleted.
 DELETE /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

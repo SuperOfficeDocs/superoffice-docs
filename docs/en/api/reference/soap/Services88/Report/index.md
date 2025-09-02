@@ -2,6 +2,7 @@
 title: Services88.ReportAgent SOAP
 uid: Services88-Report-soap
 generated: true
+content_type: reference
 ---
 
 # Services88 Report SOAP

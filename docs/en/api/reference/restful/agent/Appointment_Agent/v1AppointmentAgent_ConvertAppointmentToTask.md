@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/ConvertAppointmentToTask
 uid: v1AppointmentAgent_ConvertAppointmentToTask
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/ConvertAppointmentToTask
@@ -132,11 +133,11 @@ OK
 POST /api/v1/Agents/Appointment/ConvertAppointmentToTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 432
+  "AppointmentId": 602
 }
 ```
 
@@ -151,121 +152,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2019-02-25T03:45:22.9517163+01:00",
-  "AppointmentId": 626,
-  "Description": "Cross-group asynchronous standardization",
-  "Title": "ut",
-  "Agenda": "nesciunt",
-  "InternalNotes": "rerum",
-  "StartDate": "2005-12-13T03:45:22.9517163+01:00",
-  "EndDate": "2007-03-31T03:45:22.9517163+02:00",
+  "CreatedDate": "2013-01-31T03:46:54.2695244+01:00",
+  "AppointmentId": 5,
+  "Description": "Public-key grid-enabled complexity",
+  "Title": "voluptates",
+  "Agenda": "dolorum",
+  "InternalNotes": "est",
+  "StartDate": "2015-08-24T03:46:54.2695244+02:00",
+  "EndDate": "1999-12-04T03:46:54.2695244+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 98,
+  "MotherId": 167,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2007-06-12T03:45:22.9517163+02:00",
+  "UpdatedDate": "2018-04-28T03:46:54.2695244+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 978,
+  "ActiveLinks": 24,
   "Links": [
     {
-      "EntityName": "White-Ebert",
-      "Id": 340,
-      "Description": "Optional tangible budgetary management",
-      "ExtraInfo": "ipsam",
-      "LinkId": 538,
+      "EntityName": "Kemmer-Hegmann",
+      "Id": 59,
+      "Description": "Public-key disintermediate hub",
+      "ExtraInfo": "molestiae",
+      "LinkId": 459,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 251
+          "FieldLength": 142
         }
       }
     }
   ],
-  "AlarmLeadTime": "soluta",
-  "HasAlarm": true,
-  "ColorIndex": 461,
+  "AlarmLeadTime": "sint",
+  "HasAlarm": false,
+  "ColorIndex": 995,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "dolorem",
-  "LeadTime": "quis",
-  "Location": "unde",
-  "RejectCounter": 626,
+  "LagTime": "ipsam",
+  "LeadTime": "in",
+  "Location": "molestiae",
+  "RejectCounter": 726,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 545,
-      "PersonId": 391,
-      "ContactId": 440,
-      "EmailId": 410,
+      "AssociateId": 5,
+      "PersonId": 606,
+      "ContactId": 70,
+      "EmailId": 74,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "candido.wisozk@hegmann.name",
-      "Description": "Intuitive foreground software"
+      "EmailAddress": "loma.mante@marvin.ca",
+      "Description": "Expanded bifurcated task-force"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2019-10-10T03:45:22.9517163+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2012-07-01T03:46:54.2695244+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 987,
+  "PreferredTZLocation": 241,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 912,
+  "SuggestedAppointmentId": 65,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "id",
+  "CentralserviceVideomeetId": "nihil",
   "UserDefinedFields": {
-    "SuperOffice:1": "Kelly Bauch",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Guido Swift",
+    "SuperOffice:2": "Zelma Melissa Shields PhD"
   },
   "ExtraFields": {
-    "ExtraFields1": "molestiae",
-    "ExtraFields2": "minima"
+    "ExtraFields1": "exercitationem",
+    "ExtraFields2": "blanditiis"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "placeat"
+    "CustomFields1": "eligendi",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2020-06-26T03:45:22.9517163+02:00",
-  "PublishTo": "2020-06-05T03:45:22.9517163+02:00",
-  "PublishFrom": "2017-06-17T03:45:22.9517163+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2007-08-03T03:46:54.2695244+02:00",
+  "PublishTo": "2010-12-26T03:46:54.2695244+01:00",
+  "PublishFrom": "2022-10-15T03:46:54.2695244+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 559,
+      "VisibleId": 749,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 214
+          "FieldLength": 20
         }
       }
     },
     {
-      "VisibleId": 559,
+      "VisibleId": 749,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 214
+          "FieldLength": 20
         }
       }
     }
@@ -274,8 +275,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 194
+      "FieldType": "System.String",
+      "FieldLength": 134
     }
   }
 }

@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetPersonDocumentsByDate
 uid: v1DocumentAgent_GetPersonDocumentsByDate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetPersonDocumentsByDate
@@ -98,15 +99,15 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 171,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2012-04-06T03:45:23.2954586+02:00",
-  "EndTime": "2012-03-12T03:45:23.2954586+01:00",
-  "Count": 359
+  "PersonId": 443,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2004-05-14T03:46:54.6288867+02:00",
+  "EndTime": "2004-04-20T03:46:54.6288867+02:00",
+  "Count": 793
 }
 ```
 
@@ -118,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 683,
-    "Attention": "inventore",
-    "Header": "fuga",
-    "Name": "Russel, Hintz and Bayer",
-    "OurRef": "esse",
-    "YourRef": "vitae",
-    "Description": "Proactive national toolset",
-    "DocumentTemplate": "expedita",
+    "DocumentId": 78,
+    "Attention": "fugiat",
+    "Header": "velit",
+    "Name": "Leannon-Purdy",
+    "OurRef": "tempore",
+    "YourRef": "error",
+    "Description": "Distributed transitional project",
+    "DocumentTemplate": "et",
     "IsPublished": false,
-    "PersonId": 555,
-    "PersonFullName": "Domenico Durgan",
-    "AssociateFullName": "Ariane Jenkins",
-    "ContactId": 749,
-    "ContactName": "Powlowski-Dare",
-    "ProjectId": 357,
-    "ProjectName": "Pacocha-Johnston",
-    "AssociateId": 849,
-    "Snum": 618,
-    "SaleId": 866,
-    "SaleName": "Herzog Inc and Sons",
+    "PersonId": 320,
+    "PersonFullName": "Trudie Brekke",
+    "AssociateFullName": "Ms. Adella Kellen Ratke",
+    "ContactId": 262,
+    "ContactName": "Bosco, Jenkins and Collier",
+    "ProjectId": 916,
+    "ProjectName": "Schultz, Bergnaum and Greenholt",
+    "AssociateId": 740,
+    "Snum": 698,
+    "SaleId": 853,
+    "SaleName": "Wintheiser-Rippin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 949
+        "FieldType": "System.Int32",
+        "FieldLength": 997
       }
     }
   }

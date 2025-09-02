@@ -2,6 +2,7 @@
 title: POST Agents/PhoneList/Search
 uid: v1PhoneListAgent_Search
 generated: true
+content_type: reference
 ---
 
 # POST Agents/PhoneList/Search
@@ -88,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "et"
+  "SearchString": "reiciendis"
 }
 ```
 
@@ -100,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(502)999-1874",
-    "PersonCellPhone": "958-545-8517 x1209",
-    "PersonPrivatePhone": "1-885-381-2745",
-    "PersonFaxNumber": "1273587",
-    "PersonPagerNumber": "682634",
-    "PersonEmail": "mike@mcculloughschowalter.us",
-    "Id": 787,
-    "Name": "Koelpin-Gusikowski",
-    "Tooltip": "omnis",
-    "UniqueId": "quos",
+    "PersonDirectPhone": "1-609-980-3701 x6434",
+    "PersonCellPhone": "731-547-5475 x677",
+    "PersonPrivatePhone": "593-704-5053",
+    "PersonFaxNumber": "1657745",
+    "PersonPagerNumber": "1116250",
+    "PersonEmail": "robbie.weimann@wymanspinka.us",
+    "Id": 345,
+    "Name": "Schamberger-Grant",
+    "Tooltip": "dolores",
+    "UniqueId": "itaque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 608
+        "FieldLength": 578
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/User/DeleteRole
 uid: v1UserAgent_DeleteRole
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/DeleteRole
@@ -71,8 +72,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleIdToDelete": 83,
-  "ReplacingRoleId": 668
+  "RoleIdToDelete": 911,
+  "ReplacingRoleId": 137
 }
 ```
 

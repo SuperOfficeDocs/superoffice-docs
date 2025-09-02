@@ -2,6 +2,7 @@
 title: POST Agents/Selection/AddRemoveContactSelectionMemberInterests
 uid: v1SelectionAgent_AddRemoveContactSelectionMemberInterests
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/AddRemoveContactSelectionMemberInterests
@@ -68,26 +69,26 @@ No Content
 POST /api/v1/Agents/Selection/AddRemoveContactSelectionMemberInterests
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 530,
+  "SelectionId": 531,
   "AddCompanyInterests": [
-    421,
-    628
+    199,
+    808
   ],
   "RemoveCompanyInterests": [
-    783,
-    604
+    589,
+    646
   ],
   "AddContactInterests": [
-    729,
-    403
+    481,
+    323
   ],
   "RemoveContactInterests": [
-    938,
-    163
+    13,
+    1002
   ]
 }
 ```

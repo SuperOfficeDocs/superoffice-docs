@@ -2,6 +2,7 @@
 title: POST List/Business/Items
 uid: v1BusinessList_PostBusiness
 generated: true
+content_type: reference
 ---
 
 # POST List/Business/Items
@@ -73,16 +74,16 @@ OK
 POST /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 157,
-  "Name": "Legros, Beier and Schroeder",
-  "Tooltip": "expedita",
-  "Deleted": false,
-  "UdListDefinitionId": 879,
-  "Rank": 607
+  "Id": 575,
+  "Name": "Blick Inc and Sons",
+  "Tooltip": "necessitatibus",
+  "Deleted": true,
+  "UdListDefinitionId": 666,
+  "Rank": 778
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 711,
-  "Name": "Hagenes Inc and Sons",
-  "Tooltip": "eum",
-  "Deleted": false,
-  "UdListDefinitionId": 335,
-  "Rank": 930,
+  "Id": 245,
+  "Name": "Rath-Emard",
+  "Tooltip": "officiis",
+  "Deleted": true,
+  "UdListDefinitionId": 533,
+  "Rank": 453,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 197
+      "FieldLength": 659
     }
   }
 }

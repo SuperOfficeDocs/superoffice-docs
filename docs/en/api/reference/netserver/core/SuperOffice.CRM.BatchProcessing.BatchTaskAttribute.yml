@@ -138,7 +138,7 @@ items:
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing
-  summary: Gets or sets Timeout
+  summary: Gets or sets Timeout in seconds. Default = 3600 seconds (1 hour).
   example: []
   syntax:
     content: public int Timeout { get; set; }

@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetCountries SOAP
 generated: true
 uid: Services88-List-GetCountries
+content_type: reference
 ---
 
 # Services88 List GetCountries

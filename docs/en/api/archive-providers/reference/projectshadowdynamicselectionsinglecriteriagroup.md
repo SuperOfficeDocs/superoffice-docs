@@ -3,9 +3,9 @@ uid: ProjectShadowDynamicSelectionSingleCriteriaGroup
 title: ProjectShadowDynamicSelectionSingleCriteriaGroup
 description: Shadow contact provider for the dynamic Project provider.
 keywords: ProjectShadowDynamicSelectionSingleCriteriaGroup archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ProjectShadowDynamicSelectionSingleCriteriaGroup"
@@ -809,7 +809,7 @@ Shadow contact provider for the dynamic Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelectionSingleCriteriaGroup?$select=projectAssociate/isLocation,projectUdef/SuperOffice:6,sale/updatedBy,projectMember/createdByForm,projectMember/correspondingAssociate/isLocation
+GET /api/v1/archive/ProjectShadowDynamicSelectionSingleCriteriaGroup?$select=projectAssociate/simultaneousEjUser,saintTicketCategory,sale/stage,sale/stalledComment,appointment/type
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

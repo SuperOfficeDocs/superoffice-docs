@@ -2,6 +2,7 @@
 title: GET ChatSession
 uid: v1ChatSessionEntity_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET ChatSession
@@ -70,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ChatSession?$select=name,department,category/id
 GET /api/v1/ChatSession?$filter=name begins 'S'
 GET /api/v1/ChatSession?$orderBy=name asc
-GET /api/v1/ChatSession?$entities=velit
-GET /api/v1/ChatSession?$top=170
-GET /api/v1/ChatSession?$skip=608
+GET /api/v1/ChatSession?$entities=autem
+GET /api/v1/ChatSession?$top=286
+GET /api/v1/ChatSession?$skip=128
 GET /api/v1/ChatSession?$mode=Full
 GET /api/v1/ChatSession?$options=GrandTotal=true
-GET /api/v1/ChatSession?$context=iste
+GET /api/v1/ChatSession?$context=corrupti
 GET /api/v1/ChatSession?$format=JSON
 GET /api/v1/ChatSession?$jsonSafe=False
 GET /api/v1/ChatSession?$output=Display
@@ -118,7 +119,7 @@ OK
 GET /api/v1/ChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,19 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "numquam",
+  "odata.nextLink": "mollitia",
   "value": [
     {
-      "PrimaryKey": 878,
-      "EntityName": "person",
-      "personId": 878,
-      "fullName": "Adonis Harvey"
+      "PrimaryKey": 8196,
+      "EntityName": "sale",
+      "saleId": 8196,
+      "contactId": 3158,
+      "name": "Mayer-McGlynn"
     },
     {
-      "PrimaryKey": 9188,
-      "EntityName": "person",
-      "personId": 9188,
-      "fullName": "Dr. Pearline Felicita McCullough"
+      "PrimaryKey": 916,
+      "EntityName": "sale",
+      "saleId": 916,
+      "contactId": 3717,
+      "name": "Hickle, Blanda and Conroy"
     }
   ]
 }

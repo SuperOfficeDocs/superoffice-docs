@@ -2,6 +2,7 @@
 title: Services88.ListAgent.RebuildFullnames SOAP
 generated: true
 uid: Services88-List-RebuildFullnames
+content_type: reference
 ---
 
 # Services88 List RebuildFullnames

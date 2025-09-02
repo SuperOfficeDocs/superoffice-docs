@@ -2,10 +2,10 @@
 uid: table-extra_tables_result
 title: extra_tables_result table
 description: Result set of executed search in ejournal extra tables
-so.generated: true
+generated: true
 keywords: database table extra_tables_result
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # extra\_tables\_result Table (308)

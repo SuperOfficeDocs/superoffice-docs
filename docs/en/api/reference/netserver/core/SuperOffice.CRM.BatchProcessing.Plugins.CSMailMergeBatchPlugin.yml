@@ -5,7 +5,7 @@ items:
   id: CSMailMergeBatchPlugin
   parent: SuperOffice.CRM.BatchProcessing.Plugins
   children:
-  - SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin.#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.IDocumentAgent,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin})
+  - SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin.#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.IDocumentAgent,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin},SuperOffice.CRM.Services.IPersonAgent,SuperOffice.Data.Cache.ICacheManager)
   - SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin.PluginName
   - SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin.RunAsync(System.String,System.String,System.Threading.CancellationToken)
   langs:
@@ -87,22 +87,22 @@ items:
     return:
       type: System.String
     content.vb: Public Const PluginName As String = "CSMailMergeBatchPlugin"
-- uid: SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin.#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.IDocumentAgent,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin})
-  commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin.#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.IDocumentAgent,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin})
-  id: '#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.IDocumentAgent,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin})'
+- uid: SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin.#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.IDocumentAgent,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin},SuperOffice.CRM.Services.IPersonAgent,SuperOffice.Data.Cache.ICacheManager)
+  commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin.#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.IDocumentAgent,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin},SuperOffice.CRM.Services.IPersonAgent,SuperOffice.Data.Cache.ICacheManager)
+  id: '#ctor(SuperOffice.CRM.BatchProcessing.IBatchData,SuperOffice.CRM.Services.IDocumentAgent,SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin},SuperOffice.CRM.Services.IPersonAgent,SuperOffice.Data.Cache.ICacheManager)'
   parent: SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin
   langs:
   - csharp
   - vb
-  name: CSMailMergeBatchPlugin(IBatchData, IDocumentAgent, IBatchServiceConfiguration, ILogger<CSMailMergeBatchPlugin>)
-  nameWithType: CSMailMergeBatchPlugin.CSMailMergeBatchPlugin(IBatchData, IDocumentAgent, ConfigFile.IBatchServiceConfiguration, ILogger<CSMailMergeBatchPlugin>)
-  fullName: SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin.CSMailMergeBatchPlugin(SuperOffice.CRM.BatchProcessing.IBatchData, SuperOffice.CRM.Services.IDocumentAgent, SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration, Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin>)
+  name: CSMailMergeBatchPlugin(IBatchData, IDocumentAgent, IBatchServiceConfiguration, ILogger<CSMailMergeBatchPlugin>, IPersonAgent, ICacheManager)
+  nameWithType: CSMailMergeBatchPlugin.CSMailMergeBatchPlugin(IBatchData, IDocumentAgent, ConfigFile.IBatchServiceConfiguration, ILogger<CSMailMergeBatchPlugin>, IPersonAgent, ICacheManager)
+  fullName: SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin.CSMailMergeBatchPlugin(SuperOffice.CRM.BatchProcessing.IBatchData, SuperOffice.CRM.Services.IDocumentAgent, SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration, Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin>, SuperOffice.CRM.Services.IPersonAgent, SuperOffice.Data.Cache.ICacheManager)
   type: Constructor
   assemblies:
   - SoBatchProcessing
   namespace: SuperOffice.CRM.BatchProcessing.Plugins
   syntax:
-    content: public CSMailMergeBatchPlugin(IBatchData batchData, IDocumentAgent documentAgent, ConfigFile.IBatchServiceConfiguration batchServiceConfiguration, ILogger<CSMailMergeBatchPlugin> logger)
+    content: public CSMailMergeBatchPlugin(IBatchData batchData, IDocumentAgent documentAgent, ConfigFile.IBatchServiceConfiguration batchServiceConfiguration, ILogger<CSMailMergeBatchPlugin> logger, IPersonAgent personAgent, ICacheManager cacheManager)
     parameters:
     - id: batchData
       type: SuperOffice.CRM.BatchProcessing.IBatchData
@@ -112,11 +112,15 @@ items:
       type: SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration
     - id: logger
       type: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin}
-    content.vb: Public Sub New(batchData As IBatchData, documentAgent As IDocumentAgent, batchServiceConfiguration As ConfigFile.IBatchServiceConfiguration, logger As ILogger(Of CSMailMergeBatchPlugin))
+    - id: personAgent
+      type: SuperOffice.CRM.Services.IPersonAgent
+    - id: cacheManager
+      type: SuperOffice.Data.Cache.ICacheManager
+    content.vb: Public Sub New(batchData As IBatchData, documentAgent As IDocumentAgent, batchServiceConfiguration As ConfigFile.IBatchServiceConfiguration, logger As ILogger(Of CSMailMergeBatchPlugin), personAgent As IPersonAgent, cacheManager As ICacheManager)
   overload: SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin.#ctor*
-  nameWithType.vb: CSMailMergeBatchPlugin.New(IBatchData, IDocumentAgent, ConfigFile.IBatchServiceConfiguration, ILogger(Of CSMailMergeBatchPlugin))
-  fullName.vb: SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin.New(SuperOffice.CRM.BatchProcessing.IBatchData, SuperOffice.CRM.Services.IDocumentAgent, SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration, Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin))
-  name.vb: New(IBatchData, IDocumentAgent, IBatchServiceConfiguration, ILogger(Of CSMailMergeBatchPlugin))
+  nameWithType.vb: CSMailMergeBatchPlugin.New(IBatchData, IDocumentAgent, ConfigFile.IBatchServiceConfiguration, ILogger(Of CSMailMergeBatchPlugin), IPersonAgent, ICacheManager)
+  fullName.vb: SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin.New(SuperOffice.CRM.BatchProcessing.IBatchData, SuperOffice.CRM.Services.IDocumentAgent, SuperOffice.Configuration.ConfigFile.IBatchServiceConfiguration, Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin), SuperOffice.CRM.Services.IPersonAgent, SuperOffice.Data.Cache.ICacheManager)
+  name.vb: New(IBatchData, IDocumentAgent, IBatchServiceConfiguration, ILogger(Of CSMailMergeBatchPlugin), IPersonAgent, ICacheManager)
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin.RunAsync(System.String,System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin.RunAsync(System.String,System.String,System.Threading.CancellationToken)
   id: RunAsync(System.String,System.String,System.Threading.CancellationToken)
@@ -1190,7 +1194,7 @@ references:
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin.#ctor*
   commentId: Overload:SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin.#ctor
   isExternal: true
-  href: SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin.html#SuperOffice_CRM_BatchProcessing_Plugins_CSMailMergeBatchPlugin__ctor_SuperOffice_CRM_BatchProcessing_IBatchData_SuperOffice_CRM_Services_IDocumentAgent_SuperOffice_Configuration_ConfigFile_IBatchServiceConfiguration_Microsoft_Extensions_Logging_ILogger_SuperOffice_CRM_BatchProcessing_Plugins_CSMailMergeBatchPlugin__
+  href: SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin.html#SuperOffice_CRM_BatchProcessing_Plugins_CSMailMergeBatchPlugin__ctor_SuperOffice_CRM_BatchProcessing_IBatchData_SuperOffice_CRM_Services_IDocumentAgent_SuperOffice_Configuration_ConfigFile_IBatchServiceConfiguration_Microsoft_Extensions_Logging_ILogger_SuperOffice_CRM_BatchProcessing_Plugins_CSMailMergeBatchPlugin__SuperOffice_CRM_Services_IPersonAgent_SuperOffice_Data_Cache_ICacheManager_
   name: CSMailMergeBatchPlugin
   nameWithType: CSMailMergeBatchPlugin.CSMailMergeBatchPlugin
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin.CSMailMergeBatchPlugin
@@ -1274,6 +1278,21 @@ references:
     isExternal: true
     href: SuperOffice.CRM.BatchProcessing.Plugins.CSMailMergeBatchPlugin.html
   - name: )
+- uid: SuperOffice.CRM.Services.IPersonAgent
+  commentId: T:SuperOffice.CRM.Services.IPersonAgent
+  parent: SuperOffice.CRM.Services
+  isExternal: true
+  name: IPersonAgent
+  nameWithType: IPersonAgent
+  fullName: SuperOffice.CRM.Services.IPersonAgent
+- uid: SuperOffice.Data.Cache.ICacheManager
+  commentId: T:SuperOffice.Data.Cache.ICacheManager
+  parent: SuperOffice.Data.Cache
+  isExternal: true
+  href: SuperOffice.Data.Cache.ICacheManager.html
+  name: ICacheManager
+  nameWithType: ICacheManager
+  fullName: SuperOffice.Data.Cache.ICacheManager
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
   isExternal: true
@@ -1376,6 +1395,43 @@ references:
     name: Logging
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+- uid: SuperOffice.Data.Cache
+  commentId: N:SuperOffice.Data.Cache
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.Cache
+  nameWithType: SuperOffice.Data.Cache
+  fullName: SuperOffice.Data.Cache
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.Data.Cache.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.Cache
+    name: Cache
+    isExternal: true
+    href: SuperOffice.Data.Cache.html
 - uid: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.RunAsync(System.String,System.String,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase.RunAsync(System.String,System.String,System.Threading.CancellationToken)
   parent: SuperOffice.CRM.BatchProcessing.Tasks.BatchTaskBase

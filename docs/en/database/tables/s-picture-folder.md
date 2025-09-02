@@ -2,10 +2,10 @@
 uid: table-s_picture_folder
 title: s_picture_folder table
 description: This table contains all picture folders
-so.generated: true
+generated: true
 keywords: database table s_picture_folder
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # s\_picture\_folder Table (339)

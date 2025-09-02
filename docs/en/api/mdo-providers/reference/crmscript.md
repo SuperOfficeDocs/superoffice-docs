@@ -3,9 +3,9 @@ uid: crmscript
 title: crmscript
 keywords: mdoprovider mdo provider crmscript
 description: Archive of CRMScripts. Returns script id + name of script as hierarchy.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "crmscript" MDO List

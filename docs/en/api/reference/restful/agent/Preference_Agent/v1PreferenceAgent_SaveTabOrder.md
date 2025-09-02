@@ -2,6 +2,7 @@
 title: POST Agents/Preference/SaveTabOrder
 uid: v1PreferenceAgent_SaveTabOrder
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/SaveTabOrder

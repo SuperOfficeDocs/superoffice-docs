@@ -2,6 +2,7 @@
 title: GET License/{ownerName}/{moduleName}
 uid: v1License_GetModuleLicenseFromDB
 generated: true
+content_type: reference
 ---
 
 # GET License/{ownerName}/{moduleName}
@@ -82,20 +83,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Boyer LLC",
-  "ModuleName": "Schiller-Parker",
-  "ModuleDescription": "Profit-focused leading edge info-mediaries",
-  "ModuleTooltip": "consequuntur",
-  "ModuleVersion": "et",
+  "OwnerName": "Pouros LLC",
+  "ModuleName": "Lindgren, Sipes and Rutherford",
+  "ModuleDescription": "Distributed hybrid time-frame",
+  "ModuleTooltip": "esse",
+  "ModuleVersion": "quod",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": false,
+  "Unrestricted": true,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 544,
-  "ExtraFlags": 390,
-  "ExtraInfo": "et",
-  "SortOrder": 916,
+  "NumberOfLicenses": 541,
+  "ExtraFlags": 196,
+  "ExtraInfo": "doloribus",
+  "SortOrder": 463,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Spencer-Kutch",
-  "Signature": "culpa"
+  "PrerequisiteModuleName": "Yost, Durgan and Schamberger",
+  "Signature": "suscipit"
 }
 ```

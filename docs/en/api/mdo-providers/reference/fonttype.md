@@ -3,9 +3,9 @@ uid: fonttype
 title: fonttype
 keywords: mdoprovider mdo provider fonttype
 description: List of font types
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "fonttype" MDO List

@@ -2,10 +2,10 @@
 uid: table-Reason
 title: Reason table
 description: Reason list table. Why we lost the sale (list)
-so.generated: true
+generated: true
 keywords: database table Reason
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # Reason Table (103)

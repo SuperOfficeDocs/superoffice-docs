@@ -2,6 +2,7 @@
 title: POST Agents/Document/GetPreviewDocumentStream
 uid: v1DocumentAgent_GetPreviewDocumentStream
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/GetPreviewDocumentStream
@@ -78,11 +79,11 @@ OK
 POST /api/v1/Agents/Document/GetPreviewDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 13
+  "DocumentId": 907
 }
 ```
 
@@ -93,16 +94,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Doyle, Corwin and Monahan",
-  "Type": "ratione",
-  "Size": 62,
+  "Name": "Abernathy-Waelchi",
+  "Type": "labore",
+  "Size": 309,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 933
+      "FieldLength": 336
     }
   }
 }

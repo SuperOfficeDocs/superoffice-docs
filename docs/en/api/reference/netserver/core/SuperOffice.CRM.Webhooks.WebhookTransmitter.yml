@@ -26,6 +26,24 @@ items:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Webhooks
   summary: Default implementation of <xref href="SuperOffice.CRM.Webhooks.IWebhookTransmitter" data-throw-if-not-resolved="false"></xref>
+  remarks: >-
+    Format a webhook request, send it to the target URL, and handle retries if the request fails.
+
+    Retries are handled by the <xref href="SuperOffice.Threading.IDelayedAsyncQueue%601" data-throw-if-not-resolved="false"></xref> passed in the constructor.
+
+    Items on that queue are processed by the <xref href="SuperOffice.CRM.Webhooks.RetryWebhookProcessor" data-throw-if-not-resolved="false"></xref>, which is a
+
+    separate hosted service. That service will call the <xref href="SuperOffice.CRM.Webhooks.WebhookTransmitter.ProcessRetryAttemptAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext%7bSuperOffice.Threading.DelayedItem%7bSuperOffice.CRM.Webhooks.RetryWebhook%7d%7d%2cSystem.Threading.CancellationToken)" data-throw-if-not-resolved="false"></xref> in this class
+
+    to do the actual retry of the transmission.
+
+    <br />
+
+    This class also contains all the logic to obtain and configure a <xref href="System.Net.Http.HttpClient" data-throw-if-not-resolved="false"></xref> instance,
+
+    which is used to send the webhook requests. HttpClient lifetime is a complicated mess,
+
+    see https://learn.microsoft.com/en-us/dotnet/fundamentals/networking/http/httpclient-guidelines#httpclient-lifetime
   example: []
   syntax:
     content: 'public class WebhookTransmitter : IWebhookTransmitter'
@@ -363,6 +381,116 @@ references:
   name: IWebhookTransmitter
   nameWithType: IWebhookTransmitter
   fullName: SuperOffice.CRM.Webhooks.IWebhookTransmitter
+- uid: SuperOffice.Threading.IDelayedAsyncQueue`1
+  commentId: T:SuperOffice.Threading.IDelayedAsyncQueue`1
+  isExternal: true
+  href: SuperOffice.Threading.IDelayedAsyncQueue-1.html
+  name: IDelayedAsyncQueue<TItem>
+  nameWithType: IDelayedAsyncQueue<TItem>
+  fullName: SuperOffice.Threading.IDelayedAsyncQueue<TItem>
+  nameWithType.vb: IDelayedAsyncQueue(Of TItem)
+  fullName.vb: SuperOffice.Threading.IDelayedAsyncQueue(Of TItem)
+  name.vb: IDelayedAsyncQueue(Of TItem)
+  spec.csharp:
+  - uid: SuperOffice.Threading.IDelayedAsyncQueue`1
+    name: IDelayedAsyncQueue
+    isExternal: true
+    href: SuperOffice.Threading.IDelayedAsyncQueue-1.html
+  - name: <
+  - name: TItem
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Threading.IDelayedAsyncQueue`1
+    name: IDelayedAsyncQueue
+    isExternal: true
+    href: SuperOffice.Threading.IDelayedAsyncQueue-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TItem
+  - name: )
+- uid: SuperOffice.CRM.Webhooks.RetryWebhookProcessor
+  commentId: T:SuperOffice.CRM.Webhooks.RetryWebhookProcessor
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.RetryWebhookProcessor.html
+  name: RetryWebhookProcessor
+  nameWithType: RetryWebhookProcessor
+  fullName: SuperOffice.CRM.Webhooks.RetryWebhookProcessor
+- uid: SuperOffice.CRM.Webhooks.WebhookTransmitter.ProcessRetryAttemptAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Webhooks.WebhookTransmitter.ProcessRetryAttemptAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}},System.Threading.CancellationToken)
+  isExternal: true
+  href: SuperOffice.CRM.Webhooks.WebhookTransmitter.html#SuperOffice_CRM_Webhooks_WebhookTransmitter_ProcessRetryAttemptAsync_SuperOffice_Threading_IAsyncQueueProcessItemContext_SuperOffice_Threading_DelayedItem_SuperOffice_CRM_Webhooks_RetryWebhook___System_Threading_CancellationToken_
+  name: ProcessRetryAttemptAsync(IAsyncQueueProcessItemContext<DelayedItem<RetryWebhook>>, CancellationToken)
+  nameWithType: WebhookTransmitter.ProcessRetryAttemptAsync(IAsyncQueueProcessItemContext<DelayedItem<RetryWebhook>>, CancellationToken)
+  fullName: SuperOffice.CRM.Webhooks.WebhookTransmitter.ProcessRetryAttemptAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext<SuperOffice.Threading.DelayedItem<SuperOffice.CRM.Webhooks.RetryWebhook>>, System.Threading.CancellationToken)
+  nameWithType.vb: WebhookTransmitter.ProcessRetryAttemptAsync(IAsyncQueueProcessItemContext(Of DelayedItem(Of RetryWebhook)), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Webhooks.WebhookTransmitter.ProcessRetryAttemptAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext(Of SuperOffice.Threading.DelayedItem(Of SuperOffice.CRM.Webhooks.RetryWebhook)), System.Threading.CancellationToken)
+  name.vb: ProcessRetryAttemptAsync(IAsyncQueueProcessItemContext(Of DelayedItem(Of RetryWebhook)), CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Webhooks.WebhookTransmitter.ProcessRetryAttemptAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}},System.Threading.CancellationToken)
+    name: ProcessRetryAttemptAsync
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.WebhookTransmitter.html#SuperOffice_CRM_Webhooks_WebhookTransmitter_ProcessRetryAttemptAsync_SuperOffice_Threading_IAsyncQueueProcessItemContext_SuperOffice_Threading_DelayedItem_SuperOffice_CRM_Webhooks_RetryWebhook___System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: <
+  - uid: SuperOffice.Threading.DelayedItem`1
+    name: DelayedItem
+    isExternal: true
+  - name: <
+  - uid: SuperOffice.CRM.Webhooks.RetryWebhook
+    name: RetryWebhook
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.RetryWebhook.html
+  - name: '>'
+  - name: '>'
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Webhooks.WebhookTransmitter.ProcessRetryAttemptAsync(SuperOffice.Threading.IAsyncQueueProcessItemContext{SuperOffice.Threading.DelayedItem{SuperOffice.CRM.Webhooks.RetryWebhook}},System.Threading.CancellationToken)
+    name: ProcessRetryAttemptAsync
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.WebhookTransmitter.html#SuperOffice_CRM_Webhooks_WebhookTransmitter_ProcessRetryAttemptAsync_SuperOffice_Threading_IAsyncQueueProcessItemContext_SuperOffice_Threading_DelayedItem_SuperOffice_CRM_Webhooks_RetryWebhook___System_Threading_CancellationToken_
+  - name: (
+  - uid: SuperOffice.Threading.IAsyncQueueProcessItemContext`1
+    name: IAsyncQueueProcessItemContext
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Threading.DelayedItem`1
+    name: DelayedItem
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Webhooks.RetryWebhook
+    name: RetryWebhook
+    isExternal: true
+    href: SuperOffice.CRM.Webhooks.RetryWebhook.html
+  - name: )
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+- uid: System.Net.Http.HttpClient
+  commentId: T:System.Net.Http.HttpClient
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.net.http.httpclient
+  name: HttpClient
+  nameWithType: HttpClient
+  fullName: System.Net.Http.HttpClient
 - uid: SuperOffice.CRM.Webhooks
   commentId: N:SuperOffice.CRM.Webhooks
   isExternal: true
@@ -980,34 +1108,6 @@ references:
     name: WebhookTransmitter
     isExternal: true
     href: SuperOffice.CRM.Webhooks.WebhookTransmitter.html
-  - name: )
-- uid: SuperOffice.Threading.IDelayedAsyncQueue`1
-  commentId: T:SuperOffice.Threading.IDelayedAsyncQueue`1
-  isExternal: true
-  href: SuperOffice.Threading.IDelayedAsyncQueue-1.html
-  name: IDelayedAsyncQueue<TItem>
-  nameWithType: IDelayedAsyncQueue<TItem>
-  fullName: SuperOffice.Threading.IDelayedAsyncQueue<TItem>
-  nameWithType.vb: IDelayedAsyncQueue(Of TItem)
-  fullName.vb: SuperOffice.Threading.IDelayedAsyncQueue(Of TItem)
-  name.vb: IDelayedAsyncQueue(Of TItem)
-  spec.csharp:
-  - uid: SuperOffice.Threading.IDelayedAsyncQueue`1
-    name: IDelayedAsyncQueue
-    isExternal: true
-    href: SuperOffice.Threading.IDelayedAsyncQueue-1.html
-  - name: <
-  - name: TItem
-  - name: '>'
-  spec.vb:
-  - uid: SuperOffice.Threading.IDelayedAsyncQueue`1
-    name: IDelayedAsyncQueue
-    isExternal: true
-    href: SuperOffice.Threading.IDelayedAsyncQueue-1.html
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TItem
   - name: )
 - uid: SuperOffice.Threading
   commentId: N:SuperOffice.Threading

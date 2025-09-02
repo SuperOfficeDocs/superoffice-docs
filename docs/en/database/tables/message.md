@@ -2,10 +2,10 @@
 uid: table-Message
 title: Message table
 description: Definition of a message, corresponding to the header of a protocol
-so.generated: true
+generated: true
 keywords: database table Message
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # Message Table (242)

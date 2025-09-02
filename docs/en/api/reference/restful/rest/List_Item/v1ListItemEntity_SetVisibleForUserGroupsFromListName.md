@@ -2,6 +2,7 @@
 title: PUT List/{udListDefinitionName}/Items/{id}/UserGroups
 uid: v1ListItemEntity_SetVisibleForUserGroupsFromListName
 generated: true
+content_type: reference
 ---
 
 # PUT List/{udListDefinitionName}/Items/{id}/UserGroups
@@ -96,47 +97,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 428,
-    "Name": "Murphy LLC",
-    "ToolTip": "Dolor sit aliquid nihil ab totam quo voluptas.",
+    "Id": 866,
+    "Name": "Leffler-Howell",
+    "ToolTip": "Molestias officiis eum blanditiis aspernatur fugiat quia porro.",
     "Deleted": true,
-    "Rank": 178,
-    "Type": "ullam",
-    "ColorBlock": 698,
-    "IconHint": "esse",
-    "Selected": false,
-    "LastChanged": "2000-05-12T03:45:28.9517993+02:00",
+    "Rank": 627,
+    "Type": "quisquam",
+    "ColorBlock": 515,
+    "IconHint": "recusandae",
+    "Selected": true,
+    "LastChanged": "2011-06-25T03:47:00.5661762+02:00",
     "ChildItems": [
       {
-        "Id": 959,
-        "Name": "Schinner, Hermiston and Treutel",
-        "ToolTip": "In alias eveniet.",
+        "Id": 318,
+        "Name": "Rohan-Homenick",
+        "ToolTip": "Mollitia rerum sed eos.",
         "Deleted": true,
-        "Rank": 308,
-        "Type": "esse",
-        "ColorBlock": 441,
-        "IconHint": "aut",
+        "Rank": 434,
+        "Type": "placeat",
+        "ColorBlock": 887,
+        "IconHint": "quod",
         "Selected": true,
-        "LastChanged": "2014-05-22T03:45:28.9517993+02:00",
+        "LastChanged": "2016-01-10T03:47:00.5661762+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "fugiat",
-        "Hidden": true,
-        "FullName": "Allen Hartmann"
+        "ExtraInfo": "omnis",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Mrs. Levi Moen"
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "impedit",
+    "ExtraInfo": "sit",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Mrs. Augustus Mante"
+    "FullName": "Miss Adolfo Greenholt DDS"
   }
 ]
 ```
@@ -149,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 172,
-    "Name": "Haag-Lubowitz",
-    "ToolTip": "Nemo corrupti consectetur numquam corrupti repellendus.",
+    "Id": 38,
+    "Name": "Waters-Gorczany",
+    "ToolTip": "Consectetur beatae alias rem.",
     "Deleted": false,
-    "Rank": 459,
-    "Type": "nam",
-    "ColorBlock": 155,
-    "IconHint": "ducimus",
-    "Selected": false,
-    "LastChanged": "2022-12-11T03:45:28.9517993+01:00",
+    "Rank": 849,
+    "Type": "ratione",
+    "ColorBlock": 818,
+    "IconHint": "sint",
+    "Selected": true,
+    "LastChanged": "2002-09-26T03:47:00.5661762+02:00",
     "ChildItems": [
       {
-        "Id": 688,
-        "Name": "Walter LLC",
-        "ToolTip": "Voluptatibus error.",
+        "Id": 207,
+        "Name": "Rogahn LLC",
+        "ToolTip": "Quos voluptatibus ea temporibus mollitia.",
         "Deleted": true,
-        "Rank": 716,
-        "Type": "voluptas",
-        "ColorBlock": 238,
-        "IconHint": "omnis",
-        "Selected": false,
-        "LastChanged": "2020-08-01T03:45:28.9517993+02:00",
+        "Rank": 594,
+        "Type": "libero",
+        "ColorBlock": 252,
+        "IconHint": "vel",
+        "Selected": true,
+        "LastChanged": "2008-08-31T03:47:00.5661762+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nisi",
-        "StyleHint": "quibusdam",
-        "Hidden": true,
-        "FullName": "Dr. Kamryn Filiberto Wisozk",
+        "ExtraInfo": "ut",
+        "StyleHint": "sit",
+        "Hidden": false,
+        "FullName": "Deborah Bogan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 554
+            "FieldType": "System.Int32",
+            "FieldLength": 105
           }
         }
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "ducimus",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "tempora",
     "Hidden": false,
-    "FullName": "Octavia Effertz",
+    "FullName": "Mr. Clotilde Ali Schmeler PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 533
+        "FieldType": "System.String",
+        "FieldLength": 880
       }
     }
   }

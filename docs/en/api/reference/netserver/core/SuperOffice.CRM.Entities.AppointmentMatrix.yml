@@ -5,7 +5,7 @@ items:
   id: AppointmentMatrix
   parent: SuperOffice.CRM.Entities
   children:
-  - SuperOffice.CRM.Entities.AppointmentMatrix.#ctor(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.RecurrenceUpdateMode,SuperOffice.Util.ICalendarUtility,SuperOffice.Util.IAppointmentUtility,SuperOffice.CRM.Entities.IBookingManager)
+  - SuperOffice.CRM.Entities.AppointmentMatrix.#ctor(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.RecurrenceUpdateMode,SuperOffice.Util.ICalendarUtility,SuperOffice.Util.IAppointmentUtility,SuperOffice.CRM.Entities.IBookingManager,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Entities.AppointmentMatrix})
   - SuperOffice.CRM.Entities.AppointmentMatrix.AcceptAsync(SuperOffice.CRM.Services.ParticipantInfo,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.AppointmentMatrix.AcceptAsync(System.Int32,SuperOffice.Data.RecurrenceUpdateMode,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.AppointmentMatrix.AcceptAsync(System.Threading.CancellationToken)
@@ -410,22 +410,22 @@ items:
   overload: SuperOffice.CRM.Entities.AppointmentMatrix.DemandOwnership*
   implements:
   - SuperOffice.CRM.Entities.IAppointmentMatrix.DemandOwnership(SuperOffice.CRM.Entities.AppointmentMatrix.OwnershipIndex)
-- uid: SuperOffice.CRM.Entities.AppointmentMatrix.#ctor(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.RecurrenceUpdateMode,SuperOffice.Util.ICalendarUtility,SuperOffice.Util.IAppointmentUtility,SuperOffice.CRM.Entities.IBookingManager)
-  commentId: M:SuperOffice.CRM.Entities.AppointmentMatrix.#ctor(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.RecurrenceUpdateMode,SuperOffice.Util.ICalendarUtility,SuperOffice.Util.IAppointmentUtility,SuperOffice.CRM.Entities.IBookingManager)
-  id: '#ctor(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.RecurrenceUpdateMode,SuperOffice.Util.ICalendarUtility,SuperOffice.Util.IAppointmentUtility,SuperOffice.CRM.Entities.IBookingManager)'
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.#ctor(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.RecurrenceUpdateMode,SuperOffice.Util.ICalendarUtility,SuperOffice.Util.IAppointmentUtility,SuperOffice.CRM.Entities.IBookingManager,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Entities.AppointmentMatrix})
+  commentId: M:SuperOffice.CRM.Entities.AppointmentMatrix.#ctor(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.RecurrenceUpdateMode,SuperOffice.Util.ICalendarUtility,SuperOffice.Util.IAppointmentUtility,SuperOffice.CRM.Entities.IBookingManager,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Entities.AppointmentMatrix})
+  id: '#ctor(SuperOffice.CRM.Entities.Appointment,SuperOffice.Data.RecurrenceUpdateMode,SuperOffice.Util.ICalendarUtility,SuperOffice.Util.IAppointmentUtility,SuperOffice.CRM.Entities.IBookingManager,Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Entities.AppointmentMatrix})'
   parent: SuperOffice.CRM.Entities.AppointmentMatrix
   langs:
   - csharp
   - vb
-  name: AppointmentMatrix(Appointment, RecurrenceUpdateMode, ICalendarUtility, IAppointmentUtility, IBookingManager)
-  nameWithType: AppointmentMatrix.AppointmentMatrix(Appointment, RecurrenceUpdateMode, ICalendarUtility, IAppointmentUtility, IBookingManager)
-  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.AppointmentMatrix(SuperOffice.CRM.Entities.Appointment, SuperOffice.Data.RecurrenceUpdateMode, SuperOffice.Util.ICalendarUtility, SuperOffice.Util.IAppointmentUtility, SuperOffice.CRM.Entities.IBookingManager)
+  name: AppointmentMatrix(Appointment, RecurrenceUpdateMode, ICalendarUtility, IAppointmentUtility, IBookingManager, ILogger<AppointmentMatrix>)
+  nameWithType: AppointmentMatrix.AppointmentMatrix(Appointment, RecurrenceUpdateMode, ICalendarUtility, IAppointmentUtility, IBookingManager, ILogger<AppointmentMatrix>)
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.AppointmentMatrix(SuperOffice.CRM.Entities.Appointment, SuperOffice.Data.RecurrenceUpdateMode, SuperOffice.Util.ICalendarUtility, SuperOffice.Util.IAppointmentUtility, SuperOffice.CRM.Entities.IBookingManager, Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.Entities.AppointmentMatrix>)
   type: Constructor
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.Entities
   syntax:
-    content: public AppointmentMatrix(Appointment appointment, RecurrenceUpdateMode recurrenceUpdateMode, ICalendarUtility calendarUtility, IAppointmentUtility appointmentUtility, IBookingManager bookingManager)
+    content: public AppointmentMatrix(Appointment appointment, RecurrenceUpdateMode recurrenceUpdateMode, ICalendarUtility calendarUtility, IAppointmentUtility appointmentUtility, IBookingManager bookingManager, ILogger<AppointmentMatrix> logger)
     parameters:
     - id: appointment
       type: SuperOffice.CRM.Entities.Appointment
@@ -437,11 +437,13 @@ items:
       type: SuperOffice.Util.IAppointmentUtility
     - id: bookingManager
       type: SuperOffice.CRM.Entities.IBookingManager
-    content.vb: Public Sub New(appointment As Appointment, recurrenceUpdateMode As RecurrenceUpdateMode, calendarUtility As ICalendarUtility, appointmentUtility As IAppointmentUtility, bookingManager As IBookingManager)
+    - id: logger
+      type: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Entities.AppointmentMatrix}
+    content.vb: Public Sub New(appointment As Appointment, recurrenceUpdateMode As RecurrenceUpdateMode, calendarUtility As ICalendarUtility, appointmentUtility As IAppointmentUtility, bookingManager As IBookingManager, logger As ILogger(Of AppointmentMatrix))
   overload: SuperOffice.CRM.Entities.AppointmentMatrix.#ctor*
-  nameWithType.vb: AppointmentMatrix.New(Appointment, RecurrenceUpdateMode, ICalendarUtility, IAppointmentUtility, IBookingManager)
-  fullName.vb: SuperOffice.CRM.Entities.AppointmentMatrix.New(SuperOffice.CRM.Entities.Appointment, SuperOffice.Data.RecurrenceUpdateMode, SuperOffice.Util.ICalendarUtility, SuperOffice.Util.IAppointmentUtility, SuperOffice.CRM.Entities.IBookingManager)
-  name.vb: New(Appointment, RecurrenceUpdateMode, ICalendarUtility, IAppointmentUtility, IBookingManager)
+  nameWithType.vb: AppointmentMatrix.New(Appointment, RecurrenceUpdateMode, ICalendarUtility, IAppointmentUtility, IBookingManager, ILogger(Of AppointmentMatrix))
+  fullName.vb: SuperOffice.CRM.Entities.AppointmentMatrix.New(SuperOffice.CRM.Entities.Appointment, SuperOffice.Data.RecurrenceUpdateMode, SuperOffice.Util.ICalendarUtility, SuperOffice.Util.IAppointmentUtility, SuperOffice.CRM.Entities.IBookingManager, Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Entities.AppointmentMatrix))
+  name.vb: New(Appointment, RecurrenceUpdateMode, ICalendarUtility, IAppointmentUtility, IBookingManager, ILogger(Of AppointmentMatrix))
 - uid: SuperOffice.CRM.Entities.AppointmentMatrix.CalculateDaysAsync(System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Entities.AppointmentMatrix.CalculateDaysAsync(System.Threading.CancellationToken)
   id: CalculateDaysAsync(System.Threading.CancellationToken)
@@ -3796,7 +3798,7 @@ references:
 - uid: SuperOffice.CRM.Entities.AppointmentMatrix.#ctor*
   commentId: Overload:SuperOffice.CRM.Entities.AppointmentMatrix.#ctor
   isExternal: true
-  href: SuperOffice.CRM.Entities.AppointmentMatrix.html#SuperOffice_CRM_Entities_AppointmentMatrix__ctor_SuperOffice_CRM_Entities_Appointment_SuperOffice_Data_RecurrenceUpdateMode_SuperOffice_Util_ICalendarUtility_SuperOffice_Util_IAppointmentUtility_SuperOffice_CRM_Entities_IBookingManager_
+  href: SuperOffice.CRM.Entities.AppointmentMatrix.html#SuperOffice_CRM_Entities_AppointmentMatrix__ctor_SuperOffice_CRM_Entities_Appointment_SuperOffice_Data_RecurrenceUpdateMode_SuperOffice_Util_ICalendarUtility_SuperOffice_Util_IAppointmentUtility_SuperOffice_CRM_Entities_IBookingManager_Microsoft_Extensions_Logging_ILogger_SuperOffice_CRM_Entities_AppointmentMatrix__
   name: AppointmentMatrix
   nameWithType: AppointmentMatrix.AppointmentMatrix
   fullName: SuperOffice.CRM.Entities.AppointmentMatrix.AppointmentMatrix
@@ -3843,6 +3845,41 @@ references:
   name: IBookingManager
   nameWithType: IBookingManager
   fullName: SuperOffice.CRM.Entities.IBookingManager
+- uid: Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Entities.AppointmentMatrix}
+  commentId: T:Microsoft.Extensions.Logging.ILogger{SuperOffice.CRM.Entities.AppointmentMatrix}
+  parent: Microsoft.Extensions.Logging
+  definition: Microsoft.Extensions.Logging.ILogger`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<AppointmentMatrix>
+  nameWithType: ILogger<AppointmentMatrix>
+  fullName: Microsoft.Extensions.Logging.ILogger<SuperOffice.CRM.Entities.AppointmentMatrix>
+  nameWithType.vb: ILogger(Of AppointmentMatrix)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of SuperOffice.CRM.Entities.AppointmentMatrix)
+  name.vb: ILogger(Of AppointmentMatrix)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - uid: SuperOffice.CRM.Entities.AppointmentMatrix
+    name: AppointmentMatrix
+    isExternal: true
+    href: SuperOffice.CRM.Entities.AppointmentMatrix.html
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Entities.AppointmentMatrix
+    name: AppointmentMatrix
+    isExternal: true
+    href: SuperOffice.CRM.Entities.AppointmentMatrix.html
+  - name: )
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
   isExternal: true
@@ -3870,6 +3907,71 @@ references:
     name: Util
     isExternal: true
     href: SuperOffice.Util.html
+- uid: Microsoft.Extensions.Logging.ILogger`1
+  commentId: T:Microsoft.Extensions.Logging.ILogger`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  name: ILogger<TCategoryName>
+  nameWithType: ILogger<TCategoryName>
+  fullName: Microsoft.Extensions.Logging.ILogger<TCategoryName>
+  nameWithType.vb: ILogger(Of TCategoryName)
+  fullName.vb: Microsoft.Extensions.Logging.ILogger(Of TCategoryName)
+  name.vb: ILogger(Of TCategoryName)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: <
+  - name: TCategoryName
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILogger`1
+    name: ILogger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging.ilogger-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TCategoryName
+  - name: )
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Extensions
+    name: Extensions
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions
+  - name: .
+  - uid: Microsoft.Extensions.Logging
+    name: Logging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.extensions.logging
 - uid: SuperOffice.CRM.Entities.IAppointmentMatrix.RecurrenceUpdateMode
   commentId: P:SuperOffice.CRM.Entities.IAppointmentMatrix.RecurrenceUpdateMode
   parent: SuperOffice.CRM.Entities.IAppointmentMatrix

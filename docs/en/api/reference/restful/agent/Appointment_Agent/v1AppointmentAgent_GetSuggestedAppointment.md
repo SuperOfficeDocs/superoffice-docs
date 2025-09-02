@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetSuggestedAppointment
 uid: v1AppointmentAgent_GetSuggestedAppointment
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetSuggestedAppointment
@@ -22,11 +23,11 @@ Gets a SuggestedAppointment object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| suggestedAppointmentId | int32 | **Required** The primary key. |
+| suggestedAppointmentId | int32 | **Required** The identifier of the SuggestedAppointment object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=727
+POST /api/v1/Agents/Appointment/GetSuggestedAppointment?suggestedAppointmentId=303
 POST /api/v1/Agents/Appointment/GetSuggestedAppointment?$select=name,department,category/id
 ```
 
@@ -80,7 +81,7 @@ OK
 POST /api/v1/Agents/Appointment/GetSuggestedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,26 +91,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 745,
-  "Deleted": 935,
-  "DaysFuture": 757,
-  "Tooltip": "rerum",
-  "Text": "vero",
-  "TaskId": 890,
-  "SuggestedAppointmentId": 17,
-  "SaleTypeStageLinkId": 450,
-  "RegisteredAssociateId": 933,
-  "Rank": 47,
-  "ProjectTypeStatusLinkId": 532,
-  "Name": "Zemlak, Witting and Mayert",
-  "Duration": 22,
+  "AutoSuggest": 510,
+  "Deleted": 613,
+  "DaysFuture": 1001,
+  "Tooltip": "voluptate",
+  "Text": "aut",
+  "TaskId": 465,
+  "SuggestedAppointmentId": 679,
+  "SaleTypeStageLinkId": 583,
+  "RegisteredAssociateId": 211,
+  "Rank": 948,
+  "ProjectTypeStatusLinkId": 336,
+  "Name": "Rohan Group",
+  "Duration": 554,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 946
+      "FieldType": "System.String",
+      "FieldLength": 831
     }
   }
 }

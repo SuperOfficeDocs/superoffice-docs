@@ -2,6 +2,7 @@
 title: Services88.ProjectAgent.SaveProjectMember SOAP
 generated: true
 uid: Services88-Project-SaveProjectMember
+content_type: reference
 ---
 
 # Services88 Project SaveProjectMember

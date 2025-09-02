@@ -3,9 +3,9 @@ uid: taskmenudestination
 title: taskmenudestination
 keywords: mdoprovider mdo provider taskmenudestination
 description: 
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "taskmenudestination" MDO List

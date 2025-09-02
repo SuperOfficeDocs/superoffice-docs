@@ -1,6 +1,8 @@
 ---
+uid: tag-Configuration_Agent
 title: Configuration_Agent
 generated: true
+content_type: reference
 ---
 
 ```http
@@ -15,18 +17,6 @@ generated: true
 * [POST Agents/Configuration/SaveConfigurableScreenDelta](v1ConfigurationAgent_SaveConfigurableScreenDelta.md)
 
 * [POST Agents/Configuration/DeleteConfigurableScreenDelta](v1ConfigurationAgent_DeleteConfigurableScreenDelta.md)
-
-* [POST Agents/Configuration/CreateDefaultDiaryViewEntity](v1ConfigurationAgent_CreateDefaultDiaryViewEntity.md)
-
-* [POST Agents/Configuration/SaveDiaryViewEntity](v1ConfigurationAgent_SaveDiaryViewEntity.md)
-
-* [POST Agents/Configuration/DeleteDiaryViewEntity](v1ConfigurationAgent_DeleteDiaryViewEntity.md)
-
-* [POST Agents/Configuration/CreateDefaultSystemEventEntity](v1ConfigurationAgent_CreateDefaultSystemEventEntity.md)
-
-* [POST Agents/Configuration/SaveSystemEventEntity](v1ConfigurationAgent_SaveSystemEventEntity.md)
-
-* [POST Agents/Configuration/DeleteSystemEventEntity](v1ConfigurationAgent_DeleteSystemEventEntity.md)
 
 * [POST Agents/Configuration/GetConfigurableScreenDelta](v1ConfigurationAgent_GetConfigurableScreenDelta.md)
 
@@ -94,7 +84,19 @@ generated: true
 
 * [POST Agents/Configuration/GetAllFeatureToggles](v1ConfigurationAgent_GetAllFeatureToggles.md)
 
+* [POST Agents/Configuration/CreateDefaultDiaryViewEntity](v1ConfigurationAgent_CreateDefaultDiaryViewEntity.md)
+
+* [POST Agents/Configuration/SaveDiaryViewEntity](v1ConfigurationAgent_SaveDiaryViewEntity.md)
+
+* [POST Agents/Configuration/DeleteDiaryViewEntity](v1ConfigurationAgent_DeleteDiaryViewEntity.md)
+
 * [POST Agents/Configuration/GetDiaryViewEntity](v1ConfigurationAgent_GetDiaryViewEntity.md)
+
+* [POST Agents/Configuration/CreateDefaultSystemEventEntity](v1ConfigurationAgent_CreateDefaultSystemEventEntity.md)
+
+* [POST Agents/Configuration/SaveSystemEventEntity](v1ConfigurationAgent_SaveSystemEventEntity.md)
+
+* [POST Agents/Configuration/DeleteSystemEventEntity](v1ConfigurationAgent_DeleteSystemEventEntity.md)
 
 * [POST Agents/Configuration/GetSystemEventEntity](v1ConfigurationAgent_GetSystemEventEntity.md)
 

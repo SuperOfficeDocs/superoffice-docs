@@ -2,6 +2,7 @@
 title: GET List/TicketPriority/Headings
 uid: v1TicketPriorityList_GetTicketPriorityEntityHeadings
 generated: true
+content_type: reference
 ---
 
 # GET List/TicketPriority/Headings
@@ -62,7 +63,7 @@ OK
 GET /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 840,
-    "Name": "Marks-Waelchi",
-    "Tooltip": "maiores",
-    "Deleted": true,
-    "Rank": 514,
-    "UdListDefinitionId": 792,
+    "HeadingId": 241,
+    "Name": "Gutkowski-Kulas",
+    "Tooltip": "molestiae",
+    "Deleted": false,
+    "Rank": 704,
+    "UdListDefinitionId": 243,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 764
+        "FieldLength": 919
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/List/AddFromListDefinition
 uid: v1ListAgent_AddFromListDefinition
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/AddFromListDefinition
@@ -79,11 +80,11 @@ OK
 POST /api/v1/Agents/List/AddFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 745,
+  "UdListDefinitionId": 511,
   "Item": null
 }
 ```
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 103,
-  "Name": "Legros Group",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "UdListDefinitionId": 593,
-  "Rank": 510,
+  "Id": 507,
+  "Name": "Fisher-Prohaska",
+  "Tooltip": "aspernatur",
+  "Deleted": false,
+  "UdListDefinitionId": 42,
+  "Rank": 342,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 724
+      "FieldLength": 584
     }
   }
 }

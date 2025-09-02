@@ -3,9 +3,9 @@ uid: udlist28
 title: udlist28
 keywords: mdoprovider mdo provider udlist28
 description: Dynamic MDO provider that will create a list with the name udlist&lt;id&gt; for each user-defined list in the UDListDefinition table. The actual fetching is done by an inner <see cref="T:SuperOffice.CRM.Lists.UdListMDOProvider" /> for whatever list is implicitly specified by the id suffix of the dynamic list name
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "udlist28" MDO List

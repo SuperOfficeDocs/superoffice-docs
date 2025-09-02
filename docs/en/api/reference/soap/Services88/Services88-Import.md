@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-Import
 title: Services88.ImportAgent WSDL
+content_type: reference
 ---
 
 # Services88.ImportAgent WSDL

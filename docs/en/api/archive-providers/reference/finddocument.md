@@ -3,9 +3,9 @@ uid: FindDocument
 title: FindDocument
 description: Archive provider for finding documents
 keywords: FindDocument archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "FindDocument"
@@ -720,7 +720,7 @@ Archive provider for finding documents
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindDocument?$select=person/personAssociate/credentialDisplayValue,contact/streetAddress/addressId,contact/streetAddress/county
+GET /api/v1/archive/FindDocument?$select=person/personUpdatedBy,contact/email/emailLastSent,contact/contactExtra/x_contact_request_relation,project/projectAssociate/middleName,project/projectAssociate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

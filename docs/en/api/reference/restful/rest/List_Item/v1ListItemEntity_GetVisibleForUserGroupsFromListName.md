@@ -2,6 +2,7 @@
 title: GET List/{udListDefinitionName}/Items/{id}/UserGroups
 uid: v1ListItemEntity_GetVisibleForUserGroupsFromListName
 generated: true
+content_type: reference
 ---
 
 # GET List/{udListDefinitionName}/Items/{id}/UserGroups
@@ -74,7 +75,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 404,
-    "Name": "Haag Inc and Sons",
-    "ToolTip": "Et at officiis.",
-    "Deleted": true,
-    "Rank": 27,
+    "Id": 651,
+    "Name": "Reichel Group",
+    "ToolTip": "Aut odio quas.",
+    "Deleted": false,
+    "Rank": 174,
     "Type": "aut",
-    "ColorBlock": 976,
-    "IconHint": "ducimus",
-    "Selected": true,
-    "LastChanged": "2014-11-15T03:45:28.9517993+01:00",
+    "ColorBlock": 78,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2021-09-22T03:47:00.5661762+02:00",
     "ChildItems": [
       {
-        "Id": 560,
-        "Name": "Wyman Inc and Sons",
-        "ToolTip": "Aspernatur facere repellat voluptas nobis expedita.",
+        "Id": 404,
+        "Name": "Mayer-Gusikowski",
+        "ToolTip": "Voluptates consectetur vel quia cumque.",
         "Deleted": false,
-        "Rank": 124,
-        "Type": "incidunt",
-        "ColorBlock": 559,
-        "IconHint": "consectetur",
-        "Selected": true,
-        "LastChanged": "2006-01-24T03:45:28.9517993+01:00",
+        "Rank": 276,
+        "Type": "a",
+        "ColorBlock": 971,
+        "IconHint": "veritatis",
+        "Selected": false,
+        "LastChanged": "2001-05-31T03:47:00.5661762+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "occaecati",
-        "StyleHint": "voluptate",
-        "Hidden": false,
-        "FullName": "Miss Karine Auer",
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "quisquam",
+        "Hidden": true,
+        "FullName": "Irma Jewess",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 573
+            "FieldLength": 412
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "at",
+    "ExtraInfo": "id",
+    "StyleHint": "tenetur",
     "Hidden": false,
-    "FullName": "Leann Anderson",
+    "FullName": "Gus Carroll",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 369
+        "FieldLength": 186
       }
     }
   }

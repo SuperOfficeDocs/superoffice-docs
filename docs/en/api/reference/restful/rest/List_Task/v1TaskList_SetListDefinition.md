@@ -2,6 +2,7 @@
 title: PUT List/Task
 uid: v1TaskList_SetListDefinition
 generated: true
+content_type: reference
 ---
 
 # PUT List/Task
@@ -88,16 +89,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 901,
-  "Name": "Funk, Cassin and Sawayn",
-  "Tooltip": "ut",
+  "Id": 337,
+  "Name": "Orn-Feil",
+  "Tooltip": "eligendi",
   "Deleted": true,
-  "Rank": 257,
+  "Rank": 434,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "similique",
-  "InUseByUserDefinedFields": false
+  "ListType": "ratione",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 801,
-  "Name": "Fritsch LLC",
-  "Tooltip": "quidem",
-  "Deleted": false,
-  "Rank": 203,
+  "Id": 316,
+  "Name": "Von, Wintheiser and Reichel",
+  "Tooltip": "quod",
+  "Deleted": true,
+  "Rank": 771,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "veritatis",
+  "ListType": "sapiente",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 2
+      "FieldLength": 625
     }
   }
 }

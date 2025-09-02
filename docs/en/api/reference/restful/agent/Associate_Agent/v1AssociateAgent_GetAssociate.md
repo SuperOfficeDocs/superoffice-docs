@@ -2,6 +2,7 @@
 title: POST Agents/Associate/GetAssociate
 uid: v1AssociateAgent_GetAssociate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Associate/GetAssociate
@@ -22,11 +23,11 @@ Gets a Associate object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| associateId | int32 | **Required** The primary key. |
+| associateId | int32 | **Required** The identifier of the Associate object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Associate/GetAssociate?associateId=67
+POST /api/v1/Agents/Associate/GetAssociate?associateId=894
 POST /api/v1/Agents/Associate/GetAssociate?$select=name,department,category/id
 ```
 
@@ -69,6 +70,8 @@ OK
 | Deleted | bool | If true, the user is retired and should have no rights, not appear in lists, etc. |
 | EjUserId | int32 | ID of the ej user record corresponding to this associate; 0 for associates that are not ej users |
 | UserName | string | User name |
+| ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.Associate.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
+| CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.Associate.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -78,7 +81,7 @@ OK
 POST /api/v1/Agents/Associate/GetAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,24 +91,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 377,
-  "Name": "Gusikowski LLC",
-  "PersonId": 478,
-  "Rank": 241,
-  "Tooltip": "repellat",
+  "AssociateId": 420,
+  "Name": "Fisher Group",
+  "PersonId": 912,
+  "Rank": 388,
+  "Tooltip": "distinctio",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 411,
-  "FullName": "Miss Flavie Hettinger II",
-  "FormalName": "Murazik LLC",
+  "GroupIdx": 438,
+  "FullName": "Ms. Lane Gorczany",
+  "FormalName": "Wolf, Lowe and Kiehn",
   "Deleted": false,
-  "EjUserId": 508,
-  "UserName": "Strosin, Bayer and Gutkowski",
+  "EjUserId": 961,
+  "UserName": "Bode Group",
+  "ExtraFields": {
+    "ExtraFields1": "sunt",
+    "ExtraFields2": "quam"
+  },
+  "CustomFields": {
+    "CustomFields1": "expedita",
+    "CustomFields2": "saepe"
+  },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldLength": 385
     }
   }
 }

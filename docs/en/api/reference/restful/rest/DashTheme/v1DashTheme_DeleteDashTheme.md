@@ -2,6 +2,7 @@
 title: DEL DashTheme/{id}
 uid: v1DashTheme_DeleteDashTheme
 generated: true
+content_type: reference
 ---
 
 # DEL DashTheme/{id}

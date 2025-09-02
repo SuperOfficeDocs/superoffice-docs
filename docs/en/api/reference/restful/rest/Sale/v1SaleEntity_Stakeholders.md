@@ -2,6 +2,7 @@
 title: GET Sale/{id}/Stakeholders
 uid: v1SaleEntity_Stakeholders
 generated: true
+content_type: reference
 ---
 
 # GET Sale/{id}/Stakeholders
@@ -74,12 +75,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/Stakeholders?$select=name,department,category/id
 GET /api/v1/Sale/{id}/Stakeholders?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/Stakeholders?$orderBy=name asc
-GET /api/v1/Sale/{id}/Stakeholders?$entities=voluptatem
-GET /api/v1/Sale/{id}/Stakeholders?$top=142
-GET /api/v1/Sale/{id}/Stakeholders?$skip=897
+GET /api/v1/Sale/{id}/Stakeholders?$entities=eligendi
+GET /api/v1/Sale/{id}/Stakeholders?$top=457
+GET /api/v1/Sale/{id}/Stakeholders?$skip=196
 GET /api/v1/Sale/{id}/Stakeholders?$mode=Full
 GET /api/v1/Sale/{id}/Stakeholders?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/Stakeholders?$context=aliquam
+GET /api/v1/Sale/{id}/Stakeholders?$context=officia
 GET /api/v1/Sale/{id}/Stakeholders?$format=JSON
 GET /api/v1/Sale/{id}/Stakeholders?$jsonSafe=True
 GET /api/v1/Sale/{id}/Stakeholders?$output=Display
@@ -123,7 +124,7 @@ OK
 GET /api/v1/Sale/{id}/Stakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -134,19 +135,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "suscipit",
+  "odata.nextLink": "neque",
   "value": [
     {
-      "PrimaryKey": 1421,
-      "EntityName": "person",
-      "personId": 1421,
-      "fullName": "Marlen Rosenbaum"
+      "PrimaryKey": 572,
+      "EntityName": "sale",
+      "saleId": 572,
+      "contactId": 3224,
+      "name": "Gaylord, Johns and Jerde"
     },
     {
-      "PrimaryKey": 2775,
-      "EntityName": "person",
-      "personId": 2775,
-      "fullName": "Keyon Leuschke"
+      "PrimaryKey": 3471,
+      "EntityName": "sale",
+      "saleId": 3471,
+      "contactId": 211,
+      "name": "Anderson, Weber and Hoeger"
     }
   ]
 }

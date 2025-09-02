@@ -107,6 +107,7 @@ items:
   - SuperOffice.CRM.Entities.LinksHelper
   - SuperOffice.CRM.Entities.MailingStatistics
   - SuperOffice.CRM.Entities.MailingStatistics.SShipmentStatistics
+  - SuperOffice.CRM.Entities.NotificationHelper
   - SuperOffice.CRM.Entities.Person
   - SuperOffice.CRM.Entities.Person.CustomSearch
   - SuperOffice.CRM.Entities.Person.IdxPersonId
@@ -3650,6 +3651,13 @@ references:
   name: LinksHelper
   nameWithType: LinksHelper
   fullName: SuperOffice.CRM.Entities.LinksHelper
+- uid: SuperOffice.CRM.Entities.NotificationHelper
+  commentId: T:SuperOffice.CRM.Entities.NotificationHelper
+  isExternal: true
+  href: SuperOffice.CRM.Entities.NotificationHelper.html
+  name: NotificationHelper
+  nameWithType: NotificationHelper
+  fullName: SuperOffice.CRM.Entities.NotificationHelper
 - uid: SuperOffice.CRM.Entities.PersonPhoneSyncHelper
   commentId: T:SuperOffice.CRM.Entities.PersonPhoneSyncHelper
   isExternal: true

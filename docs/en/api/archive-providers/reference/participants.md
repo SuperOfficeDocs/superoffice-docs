@@ -3,9 +3,9 @@ uid: Participants
 title: Participants
 description: Archive list provider for the participants list of a booking (multi-person appointment)
 keywords: Participants archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "Participants"
@@ -247,7 +247,7 @@ in through the externalPersonRestrictionId are actually associates, then that to
 ## Sample
 
 ```http!
-GET /api/v1/archive/Participants?$select=isLocation,personRegisteredBy
+GET /api/v1/archive/Participants?$select=personSource,isLocation,personRegisteredBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

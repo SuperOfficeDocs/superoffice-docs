@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.EventHandlerExists SOAP
 generated: true
 uid: Services88-CustomerService-EventHandlerExists
+content_type: reference
 ---
 
 # Services88 CustomerService EventHandlerExists

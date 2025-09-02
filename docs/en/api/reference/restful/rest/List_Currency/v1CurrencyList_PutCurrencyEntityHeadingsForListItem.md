@@ -2,6 +2,7 @@
 title: PUT List/Currency/Items/{id}/Headings
 uid: v1CurrencyList_PutCurrencyEntityHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # PUT List/Currency/Items/{id}/Headings
@@ -97,47 +98,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 605,
-    "Name": "Bruen Group",
-    "ToolTip": "Ut facere aliquid quo repudiandae voluptatem voluptatem a.",
-    "Deleted": false,
-    "Rank": 685,
-    "Type": "facere",
-    "ColorBlock": 569,
-    "IconHint": "numquam",
-    "Selected": true,
-    "LastChanged": "2023-06-10T03:45:29.0296674+02:00",
+    "Id": 484,
+    "Name": "Green-Konopelski",
+    "ToolTip": "Minus tempora.",
+    "Deleted": true,
+    "Rank": 901,
+    "Type": "accusamus",
+    "ColorBlock": 517,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2009-03-14T03:47:00.628674+01:00",
     "ChildItems": [
       {
-        "Id": 754,
-        "Name": "Hagenes Group",
-        "ToolTip": "Quo aut porro delectus dolorem placeat assumenda qui.",
+        "Id": 136,
+        "Name": "Howell Group",
+        "ToolTip": "Neque consectetur harum odit facilis.",
         "Deleted": false,
-        "Rank": 664,
-        "Type": "necessitatibus",
-        "ColorBlock": 293,
-        "IconHint": "voluptatum",
-        "Selected": true,
-        "LastChanged": "2005-10-23T03:45:29.0296674+02:00",
+        "Rank": 213,
+        "Type": "adipisci",
+        "ColorBlock": 153,
+        "IconHint": "dolores",
+        "Selected": false,
+        "LastChanged": "2014-10-27T03:47:00.628674+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "unde",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "in",
         "Hidden": false,
-        "FullName": "Aliyah Hauck"
+        "FullName": "Gaetano Antonetta Johns IV"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "esse",
+    "ExtraInfo": "ut",
+    "StyleHint": "nemo",
     "Hidden": true,
-    "FullName": "Dorcas Fiona Morar MD"
+    "FullName": "Frederique Considine"
   }
 ]
 ```
@@ -150,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 359,
-    "Name": "Huels LLC",
-    "ToolTip": "Dolore animi sapiente eaque perspiciatis quas.",
+    "Id": 331,
+    "Name": "Nicolas LLC",
+    "ToolTip": "Aut est optio et magni accusamus.",
     "Deleted": false,
-    "Rank": 499,
-    "Type": "consectetur",
-    "ColorBlock": 335,
-    "IconHint": "accusantium",
-    "Selected": false,
-    "LastChanged": "2017-02-04T03:45:29.0296674+01:00",
+    "Rank": 735,
+    "Type": "totam",
+    "ColorBlock": 445,
+    "IconHint": "sunt",
+    "Selected": true,
+    "LastChanged": "2013-07-09T03:47:00.6442984+02:00",
     "ChildItems": [
       {
-        "Id": 700,
-        "Name": "Greenholt, O'Conner and Conn",
-        "ToolTip": "Repellendus ut voluptas.",
-        "Deleted": true,
-        "Rank": 745,
-        "Type": "fugiat",
-        "ColorBlock": 373,
-        "IconHint": "placeat",
-        "Selected": true,
-        "LastChanged": "2019-09-15T03:45:29.0296674+02:00",
+        "Id": 965,
+        "Name": "Kunde-Bruen",
+        "ToolTip": "Beatae totam ea assumenda ad.",
+        "Deleted": false,
+        "Rank": 647,
+        "Type": "quia",
+        "ColorBlock": 427,
+        "IconHint": "repellendus",
+        "Selected": false,
+        "LastChanged": "2023-09-16T03:47:00.6442984+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "perferendis",
+        "ExtraInfo": "quae",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Erling Boyle",
+        "FullName": "Luz Jacobi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 185
+            "FieldType": "System.Int32",
+            "FieldLength": 11
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "sint",
+    "ExtraInfo": "sit",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Willa Kilback",
+    "FullName": "Nelson Bartell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 250
+        "FieldType": "System.String",
+        "FieldLength": 69
       }
     }
   }

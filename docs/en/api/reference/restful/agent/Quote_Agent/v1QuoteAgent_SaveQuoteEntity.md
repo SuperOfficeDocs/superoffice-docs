@@ -2,6 +2,7 @@
 title: POST Agents/Quote/SaveQuoteEntity
 uid: v1QuoteAgent_SaveQuoteEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/SaveQuoteEntity
@@ -102,58 +103,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 248,
-  "SaleId": 244,
-  "QuoteConnectionId": 439,
-  "ERPQuoteKey": "alias",
-  "ERPOrderKey": "nihil",
-  "ActiveQuoteVersionId": 686,
-  "AcceptedQuoteAlternativeId": 159,
-  "UseValuesFromQuote": 21,
-  "DocumentId": 152,
-  "PoNumber": "896423",
-  "OrderComment": "aut",
-  "PreferredEmailCulture": "lance_price@veum.us",
+  "QuoteId": 958,
+  "SaleId": 740,
+  "QuoteConnectionId": 361,
+  "ERPQuoteKey": "ex",
+  "ERPOrderKey": "tempore",
+  "ActiveQuoteVersionId": 115,
+  "AcceptedQuoteAlternativeId": 849,
+  "UseValuesFromQuote": 940,
+  "DocumentId": 455,
+  "PoNumber": "262856",
+  "OrderComment": "officiis",
+  "PreferredEmailCulture": "ross@renner.info",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 273,
-      "ERPQuoteVersionKey": "culpa",
-      "QuoteId": 162,
-      "Description": "Distributed tangible structure",
-      "Number": "633136",
+      "QuoteVersionId": 333,
+      "ERPQuoteVersionKey": "magni",
+      "QuoteId": 616,
+      "Description": "Cross-platform holistic customer loyalty",
+      "Number": "643332",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 450,
-      "SentDate": "1998-02-23T03:45:23.8266945+01:00",
-      "FollowupId": 182,
-      "ExpirationDate": "2010-08-15T03:45:23.8266945+02:00",
-      "DeliveryCountryId": 209,
+      "LikelyQuoteAlternativeId": 612,
+      "SentDate": "2023-04-09T03:46:55.2226157+02:00",
+      "FollowupId": 376,
+      "ExpirationDate": "2011-08-12T03:46:55.2226157+02:00",
+      "DeliveryCountryId": 256,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 736,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "officiis",
-      "ERPPaymentTypeKey": "explicabo",
-      "ERPDeliveryTermsKey": "optio",
-      "ERPDeliveryTypeKey": "accusamus",
-      "Rank": 548,
-      "ApprovedBy": 223,
-      "ApprovedText": "rem",
-      "ApprovedRegisteredBy": 541,
-      "ApprovedRegisteredDate": "2007-06-14T03:45:23.8266945+02:00",
-      "ExtraField1": "et",
-      "ExtraField2": "maiores",
-      "ExtraField3": "quas",
-      "ExtraField4": "quo",
-      "ExtraField5": "dolores",
-      "LastRecalculated": "2014-09-20T03:45:23.8266945+02:00",
-      "Updated": "2000-04-30T03:45:23.8266945+02:00",
-      "UpdatedAssociateId": 403,
-      "Registered": "2020-04-20T03:45:23.8266945+02:00",
-      "RegisteredAssociateId": 162,
-      "RequestAssociateId": 750,
-      "RequestComment": "aliquid",
+      "InvoiceCountryId": 71,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "qui",
+      "ERPPaymentTypeKey": "magnam",
+      "ERPDeliveryTermsKey": "vel",
+      "ERPDeliveryTypeKey": "et",
+      "Rank": 155,
+      "ApprovedBy": 411,
+      "ApprovedText": "aliquid",
+      "ApprovedRegisteredBy": 149,
+      "ApprovedRegisteredDate": "2000-04-03T03:46:55.2226157+02:00",
+      "ExtraField1": "ipsam",
+      "ExtraField2": "amet",
+      "ExtraField3": "numquam",
+      "ExtraField4": "doloremque",
+      "ExtraField5": "et",
+      "LastRecalculated": "2005-03-30T03:46:55.2226157+02:00",
+      "Updated": "2023-01-03T03:46:55.2226157+01:00",
+      "UpdatedAssociateId": 570,
+      "Registered": "2001-09-18T03:46:55.2226157+02:00",
+      "RegisteredAssociateId": 597,
+      "RequestAssociateId": 239,
+      "RequestComment": "quaerat",
       "QuoteAlternatives": [
         {},
         {}
@@ -163,7 +164,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 181
+          "FieldLength": 105
         }
       }
     }
@@ -172,8 +173,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 865
+      "FieldType": "System.Int32",
+      "FieldLength": 735
     }
   }
 }

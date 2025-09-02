@@ -2,6 +2,7 @@
 title: POST Agents/Document/SaveSuggestedDocumentEntity
 uid: v1DocumentAgent_SaveSuggestedDocumentEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Document/SaveSuggestedDocumentEntity
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 ```
 
-Updates the existing SuggestedDocumentEntity or creates a new SuggestedDocumentEntity if the id parameter is empty
+Updates the existing SuggestedDocumentEntity or creates a new SuggestedDocumentEntity if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing SuggestedDocumentEntity or creates a new SuggestedDocumentE
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: suggestedDocumentEntity 
 
-The SuggestedDocumentEntity to be saved. 
+The SuggestedDocumentEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -87,13 +88,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 624,
-  "Name": "Emmerich, Abbott and Pouros",
-  "Tooltip": "voluptatum",
-  "Rank": 203,
-  "DoctmplId": 895,
-  "Header": "reiciendis",
-  "OurRef": "minus",
+  "SuggestedDocumentId": 174,
+  "Name": "Cormier-Weber",
+  "Tooltip": "ab",
+  "Rank": 561,
+  "DoctmplId": 29,
+  "Header": "aut",
+  "OurRef": "voluptatem",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -108,13 +109,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 836,
-  "Name": "Koepp LLC",
-  "Tooltip": "nisi",
-  "Rank": 409,
-  "DoctmplId": 289,
-  "Header": "eveniet",
-  "OurRef": "labore",
+  "SuggestedDocumentId": 441,
+  "Name": "Lehner Inc and Sons",
+  "Tooltip": "laboriosam",
+  "Rank": 476,
+  "DoctmplId": 54,
+  "Header": "distinctio",
+  "OurRef": "enim",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -123,8 +124,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 839
+      "FieldType": "System.String",
+      "FieldLength": 778
     }
   }
 }

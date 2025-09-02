@@ -2,6 +2,7 @@
 title: Services88.ListAgent.GetInstalledLanguages SOAP
 generated: true
 uid: Services88-List-GetInstalledLanguages
+content_type: reference
 ---
 
 # Services88 List GetInstalledLanguages

@@ -2,6 +2,7 @@
 title: POST Agents/List/GetAllDocumentTemplates
 uid: v1ListAgent_GetAllDocumentTemplates
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetAllDocumentTemplates
@@ -113,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 992,
-    "Name": "Johns, Reichert and Corwin",
-    "Tooltip": "facilis",
-    "SaveInDb": 668,
-    "Filename": "perferendis",
-    "DefaultOref": "veniam",
+    "DocumentTemplateId": 91,
+    "Name": "Dicki-Quitzon",
+    "Tooltip": "exercitationem",
+    "SaveInDb": 233,
+    "Filename": "natus",
+    "DefaultOref": "et",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 335,
-    "IntentId": 294,
+    "AutoeventId": 865,
+    "IntentId": 788,
     "IsDefaultPublished": true,
-    "Rank": 190,
-    "LoadTemplateFromPlugin": 819,
-    "MimeType": "dicta",
+    "Rank": 477,
+    "LoadTemplateFromPlugin": 882,
+    "MimeType": "ducimus",
     "IsInUseInGuides": true,
-    "DocumentTypeKey": 463,
+    "DocumentTypeKey": 426,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "melba_pfeffer@kassulke.biz",
+    "EmailSubject": "leilani@hammes.uk",
     "IncludeSignature": false,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "neil.dickens@okon.us",
+    "SenderEmailAddress": "bartholome.weber@zemlak.ca",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 464
+        "FieldLength": 981
       }
     }
   }

@@ -3,9 +3,9 @@ uid: SaleActivity
 title: SaleActivity
 description: Activity archive provider for the Sale card
 keywords: SaleActivity archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "SaleActivity"
@@ -769,7 +769,7 @@ Activity archive provider for the Sale card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleActivity?$select=person/personDirectPhone/description,person/correspondingAssociate/lastName,contact/updatedBy
+GET /api/v1/archive/SaleActivity?$select=person/personPrivate/description,person/personAssociate/ejDisplayName,person/correspondingAssociate/role,contact/phone/formattedNumber,contact/contactAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

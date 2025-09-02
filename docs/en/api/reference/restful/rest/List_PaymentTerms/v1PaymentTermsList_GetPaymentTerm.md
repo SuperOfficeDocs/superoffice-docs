@@ -2,6 +2,7 @@
 title: GET List/PaymentTerm/Items/{id}
 uid: v1PaymentTermsList_GetPaymentTerm
 generated: true
+content_type: reference
 ---
 
 # GET List/PaymentTerm/Items/{id}
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 708,
-  "Name": "Osinski, Bruen and Hintz",
-  "Tooltip": "voluptas",
+  "Id": 631,
+  "Name": "McKenzie Inc and Sons",
+  "Tooltip": "quia",
   "Deleted": false,
-  "UdListDefinitionId": 936,
-  "Rank": 564,
+  "UdListDefinitionId": 372,
+  "Rank": 17,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 589
+      "FieldLength": 349
     }
   }
 }

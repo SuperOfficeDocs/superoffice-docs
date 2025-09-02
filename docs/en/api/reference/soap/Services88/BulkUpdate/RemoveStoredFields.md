@@ -2,6 +2,7 @@
 title: Services88.BulkUpdateAgent.RemoveStoredFields SOAP
 generated: true
 uid: Services88-BulkUpdate-RemoveStoredFields
+content_type: reference
 ---
 
 # Services88 BulkUpdate RemoveStoredFields

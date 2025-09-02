@@ -3,9 +3,9 @@ uid: Notification
 title: Notification
 description: 
 keywords: Notification archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "Notification"
@@ -28,6 +28,8 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |"ticketTransferred"|Request|
 |"ticketCustomMessage"|Request|
 |"ticketFavouriteUpdated"|Request|
+|"assignmentCompany"|[!!Company assignment]|
+|"assignmentPerson"|[!!Person assignment]|
 
 ## Supported Columns
 | Name | Restriction | Description | OrderBy
@@ -56,11 +58,20 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |ticketId| *None* |!!ticketId|  |
 |category| *None* |!!category|  |
 |customUrl| *None* |!!customUrl|  |
+|type| *None* |Type: The type of notification|  |
+|ownerContactId| *None* |Owner associate ID: The associate ID of the user who is the original owner of the notification|  |
+|updatedAssocId| *None* |Updated by: Displays the name of the associate who last updated the project|  |
+|companyName| *None* |!!Company name: !!Company name tooltip|  |
+|personFirstName| *None* |!!Person first name: !!Person name tooltip|  |
+|personMiddleName| *None* |!!Person middle name: !!Person middle name tooltip|  |
+|personLastName| *None* |!!Person last name: !!Person last name tooltip|  |
+|personFullName| *None* |!!Person full name: !!Person full name tooltip|  |
+|personId| *None* |!!Person id: !!Person id tooltip|  |
 
 ## Sample
 
 ```http!
-GET /api/v1/archive/Notification?$select=startDateTime,isEmailInvitation
+GET /api/v1/archive/Notification?$select=isEmailInvitation,isRecurring,recurrencePattern
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

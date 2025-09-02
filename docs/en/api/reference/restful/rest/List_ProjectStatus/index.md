@@ -1,6 +1,8 @@
 ---
+uid: tag-List_ProjectStatus
 title: List_ProjectStatus
 generated: true
+content_type: reference
 ---
 
 ```http

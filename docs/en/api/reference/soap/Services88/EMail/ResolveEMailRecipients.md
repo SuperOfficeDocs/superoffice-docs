@@ -2,6 +2,7 @@
 title: Services88.EMailAgent.ResolveEMailRecipients SOAP
 generated: true
 uid: Services88-EMail-ResolveEMailRecipients
+content_type: reference
 ---
 
 # Services88 EMail ResolveEMailRecipients

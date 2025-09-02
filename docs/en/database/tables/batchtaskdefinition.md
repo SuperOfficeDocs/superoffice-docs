@@ -2,10 +2,10 @@
 uid: table-BatchTaskDefinition
 title: BatchTaskDefinition table
 description: Batch task definitiopns, populated from the SuperOffice.CRM.BatchProcessing.BatchTask attribute
-so.generated: true
+generated: true
 keywords: database table BatchTaskDefinition
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # BatchTaskDefinition Table (244)

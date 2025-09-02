@@ -12,6 +12,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.ShowField(SuperOffice.Data.Dictionary.SoField)
+  - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._analyzeOnlyBaseColumns
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._firstProviderInChain
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._recursionInfo
   - SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._soTable
@@ -37,6 +38,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.Data.SQL.TableInfo}
   derivedClasses:
   - SuperOffice.CRM.ArchiveLists.ExtraFieldsExtraTableExtender
+  - SuperOffice.CRM.ArchiveLists.FavouriteCustomObjectExtender
   - SuperOffice.CRM.ArchiveLists.Joiners.AppointmentExtraFieldExtender
   - SuperOffice.CRM.ArchiveLists.Joiners.ContactExtraFieldExtender
   - SuperOffice.CRM.ArchiveLists.Joiners.CustomObjectExtraFieldExtender
@@ -239,6 +241,25 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.RecursionInfo
     content.vb: Protected ReadOnly _recursionInfo As RecursionInfo
+- uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._analyzeOnlyBaseColumns
+  commentId: F:SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._analyzeOnlyBaseColumns
+  id: _analyzeOnlyBaseColumns
+  parent: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _analyzeOnlyBaseColumns
+  nameWithType: ExtraFieldExtenderBase._analyzeOnlyBaseColumns
+  fullName: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase._analyzeOnlyBaseColumns
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected bool _analyzeOnlyBaseColumns
+    return:
+      type: System.Boolean
+    content.vb: Protected _analyzeOnlyBaseColumns As Boolean
 - uid: SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.#ctor
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtraFieldExtenderBase.#ctor
   id: '#ctor'

@@ -2,6 +2,7 @@
 title: POST Agents/Preference/SavePreferenceEntities
 uid: v1PreferenceAgent_SavePreferenceEntities
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Preference/SavePreferenceEntities
@@ -65,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "iure",
+      "RawValue": "quis",
       "Specification": null,
-      "DisplayValue": "culpa",
-      "DisplayTooltip": "qui",
+      "DisplayValue": "natus",
+      "DisplayTooltip": "quisquam",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 322,
-      "PrefDescId": 955,
-      "TableName": "Pagac-Anderson",
-      "UserPreferenceId": 319
+      "TargetId": 23,
+      "PrefDescId": 310,
+      "TableName": "Crist-Huels",
+      "UserPreferenceId": 409
     }
   ],
   "RemoveLowerLevels": false

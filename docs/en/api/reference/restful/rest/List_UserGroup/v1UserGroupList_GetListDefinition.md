@@ -2,6 +2,7 @@
 title: GET List/UserGroup
 uid: v1UserGroupList_GetListDefinition
 generated: true
+content_type: reference
 ---
 
 # GET List/UserGroup
@@ -65,7 +66,7 @@ OK
 GET /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 935,
-  "Name": "Bruen Group",
-  "Tooltip": "fugiat",
-  "Deleted": false,
-  "Rank": 445,
+  "Id": 830,
+  "Name": "Robel-Gaylord",
+  "Tooltip": "sed",
+  "Deleted": true,
+  "Rank": 246,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "cum",
+  "UseGroupsAndHeadings": true,
+  "ListType": "dolores",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 265
+      "FieldType": "System.Int32",
+      "FieldLength": 326
     }
   },
   "_Links": {

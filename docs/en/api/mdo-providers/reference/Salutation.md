@@ -3,9 +3,9 @@ uid: salutation
 title: salutation
 keywords: mdoprovider mdo provider salutation
 description: GenericMDOProvider reads MDO lists with default settings
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "salutation" MDO List

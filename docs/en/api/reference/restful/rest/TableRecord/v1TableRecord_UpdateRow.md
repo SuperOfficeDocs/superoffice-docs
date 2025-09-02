@@ -2,6 +2,7 @@
 title: PUT Table/{tableName}/{id}
 uid: v1TableRecord_UpdateRow
 generated: true
+content_type: reference
 ---
 
 # PUT Table/{tableName}/{id}
@@ -57,7 +58,7 @@ No Content
 PUT /api/v1/Table/{tableName}/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

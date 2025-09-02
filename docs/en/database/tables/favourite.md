@@ -2,10 +2,10 @@
 uid: table-Favourite
 title: Favourite table
 description: Favourite records (star-marking)
-so.generated: true
+generated: true
 keywords: database table Favourite
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # Favourite Table (455)

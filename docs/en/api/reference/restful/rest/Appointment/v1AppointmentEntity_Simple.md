@@ -2,6 +2,7 @@
 title: GET Appointment/{id}/Simple
 uid: v1AppointmentEntity_Simple
 generated: true
+content_type: reference
 ---
 
 # GET Appointment/{id}/Simple
@@ -101,6 +102,7 @@ AppointmentEntity found.
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -115,7 +117,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -125,66 +127,67 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 425,
-  "StartDate": "2020-07-02T03:45:28.0765734+02:00",
-  "EndDate": "2018-10-19T03:45:28.0765734+02:00",
+  "AppointmentId": 349,
+  "StartDate": "2005-11-20T03:46:59.7068256+01:00",
+  "EndDate": "2018-09-10T03:46:59.7068256+02:00",
   "Type": "BookingForChecklist",
-  "Task": "odit",
-  "AssociateFullName": "Ms. Timmothy Zelma Rau",
-  "ContactName": "Larkin, Wiza and Keebler",
-  "Description": "Inverse exuding framework",
-  "PersonFullName": "Frederik Watsica",
-  "PersonId": 883,
-  "ContactId": 152,
-  "ProjectId": 629,
-  "ProjectName": "White-Hudson",
+  "Task": "nulla",
+  "AssociateFullName": "Emmett Senger",
+  "ContactName": "Roberts Group",
+  "Description": "Upgradable bottom-line emulation",
+  "PersonFullName": "Donnie Casandra Haag II",
+  "PersonId": 672,
+  "ContactId": 201,
+  "ProjectId": 676,
+  "ProjectName": "Hickle-Rogahn",
   "IsPublished": false,
-  "AssociateId": 480,
-  "ColorIndex": 833,
+  "AssociateId": 719,
+  "ColorIndex": 764,
   "IsFree": false,
-  "HasAlarm": false,
-  "IsAlldayEvent": false,
+  "HasAlarm": true,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 43,
-  "PriorityName": "Anderson LLC",
+  "PriorityId": 336,
+  "PriorityName": "Berge-Balistreri",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
-  "IsRecurrence": false,
+  "IsBookingMain": false,
+  "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2010-08-16T03:45:28.0765734+02:00",
+  "ActiveDate": "2013-04-07T03:46:59.7068256+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2011-09-26T03:45:28.0765734+02:00",
-  "RecurringEndDate": "2004-02-23T03:45:28.0765734+01:00",
-  "MotherId": 245,
-  "AssignedBy": 262,
-  "AssignedByFullName": "Frances Jenkins DDS",
+  "RecurringStartDate": "2015-01-21T03:46:59.7068256+01:00",
+  "RecurringEndDate": "2011-10-23T03:46:59.7068256+02:00",
+  "MotherId": 929,
+  "AssignedBy": 592,
+  "AssignedByFullName": "Jeanie Adrain Breitenberg PhD",
   "RejectReason": "",
-  "Location": "explicabo",
-  "AlarmLeadTime": "corrupti",
-  "SaleId": 917,
-  "SaleName": "Weimann, Stehr and Zemlak",
-  "AssociateName": "Williamson LLC",
-  "CreatedDate": "2023-01-11T03:45:28.0765734+01:00",
-  "CreatedBy": "quas",
-  "CreatedByFullName": "Mr. Theresa Abel Wilkinson II",
-  "CreatedByAssociateId": 871,
+  "Location": "excepturi",
+  "AlarmLeadTime": "ut",
+  "SaleId": 748,
+  "SaleName": "Walker, Sporer and Thompson",
+  "AssociateName": "Pouros Inc and Sons",
+  "CreatedDate": "2013-05-12T03:46:59.7068256+02:00",
+  "CreatedBy": "quia",
+  "CreatedByFullName": "Jana Hintz",
+  "CreatedByAssociateId": 339,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
+  "MotherAssociateId": 511,
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 664,
-  "Title": "corrupti",
-  "Agenda": "laboriosam",
-  "InternalNotes": "ad",
+  "PreferredTZLocation": 840,
+  "Title": "unde",
+  "Agenda": "harum",
+  "InternalNotes": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 142
+      "FieldLength": 656
     }
   }
 }

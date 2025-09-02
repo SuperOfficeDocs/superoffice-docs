@@ -2,13 +2,13 @@
 uid: table-target_revision_history
 title: target_revision_history table
 description: Revision history info in case the original target group or assignment info was deleted
-so.generated: true
+generated: true
 keywords: database table target_revision_history
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
-# target\_revision\_history Table (504)
+# target\_revision\_history Table (505)
 
 Revision history info in case the original target group or assignment info was deleted
 

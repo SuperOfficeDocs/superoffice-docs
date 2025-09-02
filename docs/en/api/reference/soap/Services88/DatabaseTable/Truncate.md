@@ -2,6 +2,7 @@
 title: Services88.DatabaseTableAgent.Truncate SOAP
 generated: true
 uid: Services88-DatabaseTable-Truncate
+content_type: reference
 ---
 
 # Services88 DatabaseTable Truncate

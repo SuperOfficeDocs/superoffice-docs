@@ -1,6 +1,8 @@
 ---
+uid: tag-Archive_Agent
 title: Archive_Agent
 generated: true
+content_type: reference
 ---
 
 ```http
@@ -9,8 +11,6 @@ generated: true
 
 
 
-
-* [POST Agents/Archive/CreateDefaultArchiveListResult](v1ArchiveAgent_CreateDefaultArchiveListResult.md)
 
 * [POST Agents/Archive/GetActivityFilter](v1ArchiveAgent_GetActivityFilter.md)
 
@@ -67,6 +67,8 @@ generated: true
 * [POST Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2](v1ArchiveAgent_GetArchiveListByColumnsWithHeaderWithContext2.md)
 
 * [POST Agents/Archive/ExportArchive](v1ArchiveAgent_ExportArchive.md)
+
+* [POST Agents/Archive/CreateDefaultArchiveListResult](v1ArchiveAgent_CreateDefaultArchiveListResult.md)
 
 * [POST Agents/Archive/GetRelatedData](v1ArchiveAgent_GetRelatedData.md)
 

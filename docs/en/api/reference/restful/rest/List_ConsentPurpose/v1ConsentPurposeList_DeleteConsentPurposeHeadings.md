@@ -2,6 +2,7 @@
 title: DEL List/ConsentPurpose/Headings
 uid: v1ConsentPurposeList_DeleteConsentPurposeHeadings
 generated: true
+content_type: reference
 ---
 
 # DEL List/ConsentPurpose/Headings
@@ -48,7 +49,7 @@ No Content
 DELETE /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

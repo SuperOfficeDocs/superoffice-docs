@@ -2,10 +2,10 @@
 uid: table-role_workflow
 title: role_workflow table
 description: Knowledge base workflow access rights associated with a role
-so.generated: true
+generated: true
 keywords: database table role_workflow
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # role\_workflow Table (327)

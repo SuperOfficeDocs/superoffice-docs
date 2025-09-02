@@ -2,10 +2,10 @@
 uid: table-SalutationGroupLink
 title: SalutationGroupLink table
 description: User group link table for Salutation, for MDO item hiding
-so.generated: true
+generated: true
 keywords: database table SalutationGroupLink
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # SalutationGroupLink Table (220)

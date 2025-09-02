@@ -2,6 +2,7 @@
 title: PUT List/QuoteDenyReason/Items
 uid: v1QuoteDenyReasonList_PutAllQuoteDenyReason
 generated: true
+content_type: reference
 ---
 
 # PUT List/QuoteDenyReason/Items
@@ -73,25 +74,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 914,
-    "Name": "Greenfelder, Emard and Bailey",
-    "Tooltip": "illo",
+    "Id": 185,
+    "Name": "Bechtelar-Veum",
+    "Tooltip": "in",
     "Deleted": true,
-    "UdListDefinitionId": 141,
-    "Rank": 942
+    "UdListDefinitionId": 856,
+    "Rank": 384
   },
   {
-    "Id": 914,
-    "Name": "Greenfelder, Emard and Bailey",
-    "Tooltip": "illo",
+    "Id": 185,
+    "Name": "Bechtelar-Veum",
+    "Tooltip": "in",
     "Deleted": true,
-    "UdListDefinitionId": 141,
-    "Rank": 942
+    "UdListDefinitionId": 856,
+    "Rank": 384
   }
 ]
 ```
@@ -104,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 507,
-    "Name": "Runolfsson-Schmeler",
-    "Tooltip": "quis",
-    "Deleted": false,
-    "UdListDefinitionId": 549,
-    "Rank": 973,
+    "Id": 708,
+    "Name": "Bailey, Little and Gaylord",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "UdListDefinitionId": 469,
+    "Rank": 729,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 61
+        "FieldLength": 302
       }
     }
   }

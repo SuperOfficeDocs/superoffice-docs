@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/CreateDefaultRecurrence
 uid: v1AppointmentAgent_CreateDefaultRecurrence
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/CreateDefaultRecurrence
@@ -74,7 +75,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,10 +85,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 634,
-  "StartDate": "2024-09-29T03:45:22.842344+02:00",
-  "EndDate": "2014-05-28T03:45:22.842344+02:00",
-  "RecurrenceCounter": 970,
+  "RecurrenceId": 932,
+  "StartDate": "2005-06-23T03:46:54.1445302+02:00",
+  "EndDate": "2023-03-13T03:46:54.1445302+01:00",
+  "RecurrenceCounter": 213,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,20 +97,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2018-03-19T03:45:22.842344+01:00",
-      "IsConflict": false,
-      "Description": "User-friendly web-enabled instruction set",
-      "DescriptionStyleHint": "Streamlined multi-tasking array",
-      "Tooltip": "provident"
+      "Date": "2020-03-28T03:46:54.1445302+01:00",
+      "IsConflict": true,
+      "Description": "Visionary incremental Graphic Interface",
+      "DescriptionStyleHint": "Phased explicit matrix",
+      "Tooltip": "architecto"
     },
     {
-      "Date": "2018-03-19T03:45:22.842344+01:00",
-      "IsConflict": false,
-      "Description": "User-friendly web-enabled instruction set",
-      "DescriptionStyleHint": "Streamlined multi-tasking array",
-      "Tooltip": "provident"
+      "Date": "2020-03-28T03:46:54.1445302+01:00",
+      "IsConflict": true,
+      "Description": "Visionary incremental Graphic Interface",
+      "DescriptionStyleHint": "Phased explicit matrix",
+      "Tooltip": "architecto"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

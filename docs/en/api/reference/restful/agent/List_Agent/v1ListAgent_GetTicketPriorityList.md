@@ -2,6 +2,7 @@
 title: POST Agents/List/GetTicketPriorityList
 uid: v1ListAgent_GetTicketPriorityList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetTicketPriorityList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetTicketPriorityList?$select=name,department,category/
 
 ## Request Body: ticketPriorityIds 
 
-The primary keys. 
+The identifiers of the TicketPriority object 
 
 
 ## Response:array
@@ -72,7 +73,7 @@ OK
 POST /api/v1/Agents/List/GetTicketPriorityList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,28 +84,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 638,
-    "Value": "enim",
-    "Tooltip": "debitis",
+    "Id": 471,
+    "Value": "rerum",
+    "Tooltip": "fugit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 526
+        "FieldType": "System.Int32",
+        "FieldLength": 149
       }
     }
   },
   {
-    "Id": 638,
-    "Value": "enim",
-    "Tooltip": "debitis",
+    "Id": 471,
+    "Value": "rerum",
+    "Tooltip": "fugit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 526
+        "FieldType": "System.Int32",
+        "FieldLength": 149
       }
     }
   }

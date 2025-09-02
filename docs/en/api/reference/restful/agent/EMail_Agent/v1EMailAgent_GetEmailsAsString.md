@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetEmailsAsString
 uid: v1EMailAgent_GetEmailsAsString
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetEmailsAsString
@@ -71,14 +72,14 @@ OK
 POST /api/v1/Agents/EMail/GetEmailsAsString
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfoExtended": null,
   "MessageIds": [
-    "quia",
-    "suscipit"
+    "eos",
+    "vitae"
   ]
 }
 ```
@@ -90,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "praesentium",
-  "aspernatur"
+  "nihil",
+  "dolores"
 ]
 ```

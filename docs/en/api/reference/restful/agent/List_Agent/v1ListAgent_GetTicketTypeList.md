@@ -2,6 +2,7 @@
 title: POST Agents/List/GetTicketTypeList
 uid: v1ListAgent_GetTicketTypeList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetTicketTypeList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/List/GetTicketTypeList?$select=name,department,category/id
 
 ## Request Body: ticketTypeEntityIds 
 
-The primary keys. 
+The identifiers of the TicketTypeEntity object 
 
 
 ## Response:array
@@ -99,40 +100,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 911,
-    "Name": "Herzog, Blanda and Pagac",
-    "Rank": 565,
-    "Tooltip": "sed",
-    "Icon": "neque",
-    "DefaultTicketStatus": 844,
+    "TicketTypeId": 7,
+    "Name": "Corwin Group",
+    "Rank": 732,
+    "Tooltip": "quo",
+    "Icon": "accusamus",
+    "DefaultTicketStatus": 222,
     "TicketStatuses": [
-      595,
-      633
+      753,
+      554
     ],
-    "DefaultTicketPriority": 667,
+    "DefaultTicketPriority": 615,
     "TicketPriorities": [
-      750,
-      773
+      857,
+      507
     ],
-    "ReplyTemplate": 935,
-    "IsExternalVisible": false,
+    "ReplyTemplate": 70,
+    "IsExternalVisible": true,
     "IsDefault": true,
     "ShowInNew": false,
-    "ExcludeSignature": true,
-    "ExcludeEmailRecipients": true,
+    "ExcludeSignature": false,
+    "ExcludeEmailRecipients": false,
     "ExternalAsDefault": false,
     "VisibleForGroups": [
-      916,
-      751
+      712,
+      766
     ],
-    "ReplyForwardNoSignature": true,
-    "ReplyExternalAsDefault": false,
+    "ReplyForwardNoSignature": false,
+    "ReplyExternalAsDefault": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 322
+        "FieldType": "System.Int32",
+        "FieldLength": 987
       }
     }
   }

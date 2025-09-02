@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/GetAppointment
 uid: v1AppointmentAgent_GetAppointment
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/GetAppointment
@@ -22,11 +23,11 @@ Gets a Appointment object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| appointmentId | int32 | **Required** The primary key. |
+| appointmentId | int32 | **Required** The identifier of the Appointment object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=563
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=603
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -106,6 +107,7 @@ OK
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
 | OwnedExternally | string | Set if an external system owns this appointment. |
+| MotherAssociateId | int32 | Associate/owner of the mother appointment |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -120,7 +122,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -130,66 +132,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 82,
-  "StartDate": "2013-06-17T03:45:22.7486003+02:00",
-  "EndDate": "2002-07-25T03:45:22.7486003+02:00",
+  "AppointmentId": 918,
+  "StartDate": "2006-01-13T03:46:54.0351587+01:00",
+  "EndDate": "2009-05-14T03:46:54.0351587+02:00",
   "Type": "BookingForChecklist",
-  "Task": "officia",
-  "AssociateFullName": "Georgianna Sunny Russel IV",
-  "ContactName": "Cummerata, Jakubowski and Fadel",
-  "Description": "Up-sized actuating leverage",
-  "PersonFullName": "Aaliyah Hailee Streich Jr.",
-  "PersonId": 181,
-  "ContactId": 1000,
-  "ProjectId": 976,
-  "ProjectName": "Erdman Group",
-  "IsPublished": false,
-  "AssociateId": 326,
-  "ColorIndex": 909,
-  "IsFree": true,
+  "Task": "voluptas",
+  "AssociateFullName": "Sigmund O'Hara",
+  "ContactName": "Heller Inc and Sons",
+  "Description": "Synergistic reciprocal application",
+  "PersonFullName": "Genoveva Pfeffer",
+  "PersonId": 436,
+  "ContactId": 591,
+  "ProjectId": 42,
+  "ProjectName": "Sawayn-Corkery",
+  "IsPublished": true,
+  "AssociateId": 849,
+  "ColorIndex": 518,
+  "IsFree": false,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 78,
-  "PriorityName": "Hermiston Inc and Sons",
+  "PriorityId": 597,
+  "PriorityName": "Purdy-Satterfield",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": true,
-  "IsBooking": true,
-  "ActiveDate": "2017-08-28T03:45:22.7486003+02:00",
+  "IsRecurrence": false,
+  "IsBooking": false,
+  "ActiveDate": "2008-10-13T03:46:54.0351587+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2000-01-11T03:45:22.7486003+01:00",
-  "RecurringEndDate": "2018-08-17T03:45:22.7486003+02:00",
-  "MotherId": 642,
-  "AssignedBy": 112,
-  "AssignedByFullName": "Jasen Moore",
-  "RejectReason": "",
-  "Location": "blanditiis",
-  "AlarmLeadTime": "ad",
-  "SaleId": 669,
-  "SaleName": "Ritchie Group",
-  "AssociateName": "Hoppe-Spinka",
-  "CreatedDate": "2017-05-29T03:45:22.7486003+02:00",
-  "CreatedBy": "omnis",
-  "CreatedByFullName": "Mr. Orlo Rodriguez MD",
-  "CreatedByAssociateId": 605,
+  "RecurringStartDate": "2020-12-09T03:46:54.0351587+01:00",
+  "RecurringEndDate": "2005-03-05T03:46:54.0351587+01:00",
+  "MotherId": 241,
+  "AssignedBy": 863,
+  "AssignedByFullName": "Cletus Gerhold",
+  "RejectReason": "engineer B2C relationships",
+  "Location": "quibusdam",
+  "AlarmLeadTime": "quia",
+  "SaleId": 91,
+  "SaleName": "Mills-Berge",
+  "AssociateName": "Gerhold Inc and Sons",
+  "CreatedDate": "2024-11-09T03:46:54.0351587+01:00",
+  "CreatedBy": "rem",
+  "CreatedByFullName": "Miss Emie Feeney MD",
+  "CreatedByAssociateId": 802,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
+  "MotherAssociateId": 176,
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 696,
-  "Title": "harum",
-  "Agenda": "exercitationem",
-  "InternalNotes": "velit",
+  "PreferredTZLocation": 801,
+  "Title": "eum",
+  "Agenda": "quae",
+  "InternalNotes": "vero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 200
+      "FieldLength": 586
     }
   }
 }

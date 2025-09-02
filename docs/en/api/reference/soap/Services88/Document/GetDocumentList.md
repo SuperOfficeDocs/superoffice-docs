@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.GetDocumentList SOAP
 generated: true
 uid: Services88-Document-GetDocumentList
+content_type: reference
 ---
 
 # Services88 Document GetDocumentList

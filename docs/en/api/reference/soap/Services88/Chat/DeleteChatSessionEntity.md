@@ -2,6 +2,7 @@
 title: Services88.ChatAgent.DeleteChatSessionEntity SOAP
 generated: true
 uid: Services88-Chat-DeleteChatSessionEntity
+content_type: reference
 ---
 
 # Services88 Chat DeleteChatSessionEntity

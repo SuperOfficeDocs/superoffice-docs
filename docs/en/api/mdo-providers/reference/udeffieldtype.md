@@ -3,9 +3,9 @@ uid: udeffieldtype
 title: udeffieldtype
 keywords: mdoprovider mdo provider udeffieldtype
 description: List of UDef field types for a given owner table, and possibly restricted based on the current field type
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "udeffieldtype" MDO List

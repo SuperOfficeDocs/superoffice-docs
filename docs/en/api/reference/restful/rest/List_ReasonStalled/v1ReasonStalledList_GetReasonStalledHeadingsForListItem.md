@@ -2,6 +2,7 @@
 title: GET List/ReasonStalled/Items/{id}/Headings
 uid: v1ReasonStalledList_GetReasonStalledHeadingsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/ReasonStalled/Items/{id}/Headings
@@ -31,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 646,
-    "Name": "Sawayn LLC",
-    "ToolTip": "Nostrum facilis eaque.",
-    "Deleted": false,
-    "Rank": 356,
-    "Type": "aut",
-    "ColorBlock": 818,
-    "IconHint": "eveniet",
-    "Selected": false,
-    "LastChanged": "2017-11-16T03:45:29.2171623+01:00",
+    "Id": 27,
+    "Name": "Wehner-Morar",
+    "ToolTip": "Amet cum odit vitae maxime.",
+    "Deleted": true,
+    "Rank": 895,
+    "Type": "eum",
+    "ColorBlock": 928,
+    "IconHint": "placeat",
+    "Selected": true,
+    "LastChanged": "2024-12-24T03:47:00.8005429+01:00",
     "ChildItems": [
       {
-        "Id": 127,
-        "Name": "Rodriguez Inc and Sons",
-        "ToolTip": "Vel accusamus sed deserunt accusantium laborum reiciendis.",
+        "Id": 764,
+        "Name": "Erdman-Kerluke",
+        "ToolTip": "Et adipisci tempora modi.",
         "Deleted": false,
-        "Rank": 879,
-        "Type": "corrupti",
-        "ColorBlock": 704,
-        "IconHint": "soluta",
+        "Rank": 93,
+        "Type": "numquam",
+        "ColorBlock": 631,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2010-05-02T03:45:29.2171623+02:00",
+        "LastChanged": "2005-08-19T03:47:00.8005429+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "sint",
-        "Hidden": false,
-        "FullName": "Ms. Emma Oscar Quitzon DVM",
+        "ExtraInfo": "in",
+        "StyleHint": "earum",
+        "Hidden": true,
+        "FullName": "Olaf McGlynn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 393
+            "FieldLength": 938
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "minima",
+    "ExtraInfo": "cumque",
+    "StyleHint": "dolore",
     "Hidden": true,
-    "FullName": "Chet Strosin",
+    "FullName": "Garnet Murray PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 186
+        "FieldType": "System.String",
+        "FieldLength": 459
       }
     }
   }

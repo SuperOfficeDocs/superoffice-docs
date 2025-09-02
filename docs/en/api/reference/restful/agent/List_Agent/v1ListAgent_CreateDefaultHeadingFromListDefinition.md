@@ -2,6 +2,7 @@
 title: POST Agents/List/CreateDefaultHeadingFromListDefinition
 uid: v1ListAgent_CreateDefaultHeadingFromListDefinition
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/CreateDefaultHeadingFromListDefinition
@@ -82,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 754
+  "UdListDefinitionId": 521
 }
 ```
 
@@ -93,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 143,
-  "Name": "McLaughlin-Carroll",
-  "Tooltip": "velit",
-  "Deleted": false,
-  "Rank": 510,
-  "UdListDefinitionId": 663,
+  "HeadingId": 592,
+  "Name": "Hintz-Kuphal",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "Rank": 22,
+  "UdListDefinitionId": 932,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 325
+      "FieldType": "System.Int32",
+      "FieldLength": 600
     }
   }
 }

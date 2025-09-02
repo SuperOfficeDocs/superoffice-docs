@@ -2,6 +2,7 @@
 title: POST Agents/List/GetTasks
 uid: v1ListAgent_GetTasks
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetTasks
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/List/GetTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 264,
-    "Value": "veritatis",
-    "Tooltip": "aut",
+    "Id": 601,
+    "Value": "officia",
+    "Tooltip": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 695
+        "FieldLength": 581
       }
     }
   },
   {
-    "Id": 264,
-    "Value": "veritatis",
-    "Tooltip": "aut",
+    "Id": 601,
+    "Value": "officia",
+    "Tooltip": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 695
+        "FieldLength": 581
       }
     }
   }

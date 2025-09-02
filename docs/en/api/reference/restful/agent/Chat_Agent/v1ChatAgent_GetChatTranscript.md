@@ -2,6 +2,7 @@
 title: POST Agents/Chat/GetChatTranscript
 uid: v1ChatAgent_GetChatTranscript
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/GetChatTranscript
@@ -69,11 +70,11 @@ OK
 POST /api/v1/Agents/Chat/GetChatTranscript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 178,
+  "ChatSessionId": 230,
   "Html": true
 }
 ```
@@ -84,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"pariatur"
+"voluptatem"
 ```

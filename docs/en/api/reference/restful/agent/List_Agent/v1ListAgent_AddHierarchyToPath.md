@@ -2,6 +2,7 @@
 title: POST Agents/List/AddHierarchyToPath
 uid: v1ListAgent_AddHierarchyToPath
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/AddHierarchyToPath
@@ -84,13 +85,13 @@ OK
 POST /api/v1/Agents/List/AddHierarchyToPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "ullam",
-  "Name": "Wunsch Group"
+  "Path": "facilis",
+  "Name": "Ruecker-Luettgen"
 }
 ```
 
@@ -101,46 +102,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 433,
+  "HierarchyId": 855,
   "Domain": "Dashboards",
-  "Name": "Predovic, Bergstrom and Hauck",
-  "Fullname": "repellendus",
-  "ParentId": 422,
+  "Name": "Ruecker-Bernhard",
+  "Fullname": "eaque",
+  "ParentId": 17,
   "Children": [
     {
-      "HierarchyId": 580,
+      "HierarchyId": 694,
       "Domain": "Dashboards",
-      "Name": "Fahey, Sporer and Schneider",
-      "Fullname": "ea",
-      "ParentId": 197,
+      "Name": "Daugherty, Lemke and Schumm",
+      "Fullname": "consectetur",
+      "ParentId": 645,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2019-03-15T03:45:23.6079553+01:00",
-      "RegisteredAssociateId": 200,
-      "Updated": "2018-04-23T03:45:23.6079553+02:00",
-      "UpdatedAssociateId": 771,
+      "Registered": "2014-05-27T03:46:54.9726245+02:00",
+      "RegisteredAssociateId": 409,
+      "Updated": "2022-03-06T03:46:54.9726245+01:00",
+      "UpdatedAssociateId": 342,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 829
+          "FieldType": "System.Int32",
+          "FieldLength": 893
         }
       }
     }
   ],
-  "Registered": "2015-04-23T03:45:23.6079553+02:00",
-  "RegisteredAssociateId": 970,
-  "Updated": "2019-06-01T03:45:23.6079553+02:00",
-  "UpdatedAssociateId": 213,
+  "Registered": "2022-07-15T03:46:54.9726245+02:00",
+  "RegisteredAssociateId": 257,
+  "Updated": "2021-10-18T03:46:54.9726245+02:00",
+  "UpdatedAssociateId": 725,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldLength": 543
     }
   }
 }

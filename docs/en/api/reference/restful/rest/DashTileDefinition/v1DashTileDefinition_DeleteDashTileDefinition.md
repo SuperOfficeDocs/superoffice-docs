@@ -2,6 +2,7 @@
 title: DEL DashTileDefinition/{id}
 uid: v1DashTileDefinition_DeleteDashTileDefinition
 generated: true
+content_type: reference
 ---
 
 # DEL DashTileDefinition/{id}

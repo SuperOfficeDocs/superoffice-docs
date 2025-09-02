@@ -2,6 +2,7 @@
 title: POST Agents/ErpSync/SaveConnection
 uid: v1ErpSyncAgent_SaveConnection
 generated: true
+content_type: reference
 ---
 
 # POST Agents/ErpSync/SaveConnection
@@ -86,7 +87,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,33 +102,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 414,
-  "ErpConnectorId": 35,
-  "DisplayName": "Romaguera-Dicki",
-  "DisplayDescription": "Secured maximized software",
-  "Active": false,
-  "ConnectionId": "ex",
-  "MostRecentTimestamp": "quidem",
+  "ErpConnectionId": 281,
+  "ErpConnectorId": 306,
+  "DisplayName": "Metz-Hamill",
+  "DisplayDescription": "Configurable web-enabled hardware",
+  "Active": true,
+  "ConnectionId": "in",
+  "MostRecentTimestamp": "architecto",
   "ConfigFields": {
-    "ConfigFields1": "in",
-    "ConfigFields2": "aut"
+    "ConfigFields1": "molestias",
+    "ConfigFields2": "et"
   },
-  "Deleted": true,
+  "Deleted": false,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    399,
-    304
+    126,
+    974
   ],
   "AssociateAccessIds": [
-    545,
-    894
+    499,
+    365
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 108
+      "FieldLength": 122
     }
   }
 }

@@ -2,6 +2,7 @@
 title: GET List/MrMrs/Items
 uid: v1MrMrsList_GetAll
 generated: true
+content_type: reference
 ---
 
 # GET List/MrMrs/Items
@@ -81,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 114,
-    "Name": "Tillman, Kuphal and Kuphal",
+    "Id": 190,
+    "Name": "Daugherty Group",
     "Tooltip": "velit",
-    "Deleted": false,
-    "UdListDefinitionId": 122,
-    "Rank": 357,
+    "Deleted": true,
+    "UdListDefinitionId": 418,
+    "Rank": 364,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 125
+        "FieldLength": 881
       }
     }
   }

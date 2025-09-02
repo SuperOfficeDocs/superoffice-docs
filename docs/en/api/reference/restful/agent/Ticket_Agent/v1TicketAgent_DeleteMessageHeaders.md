@@ -2,6 +2,7 @@
 title: POST Agents/Ticket/DeleteMessageHeaders
 uid: v1TicketAgent_DeleteMessageHeaders
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Ticket/DeleteMessageHeaders
@@ -71,8 +72,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HeaderIds": [
-    899,
-    172
+    326,
+    711
   ]
 }
 ```

@@ -23,6 +23,7 @@ items:
   - SuperOffice.CRM.Rows.ExtraTablesRecordData.ScreenChooserEntry
   - SuperOffice.CRM.Rows.ExtraTablesRecordData.SearchHeader
   - SuperOffice.CRM.Rows.ExtraTablesRecordData.SortOrder
+  - SuperOffice.CRM.Rows.ExtraTablesRecordData.TableNumber
   - SuperOffice.CRM.Rows.ExtraTablesRecordData.ViewEntryHeader
   langs:
   - csharp
@@ -444,6 +445,27 @@ items:
     return:
       type: System.Int32
     content.vb: Public IconId As Integer
+- uid: SuperOffice.CRM.Rows.ExtraTablesRecordData.TableNumber
+  commentId: F:SuperOffice.CRM.Rows.ExtraTablesRecordData.TableNumber
+  id: TableNumber
+  parent: SuperOffice.CRM.Rows.ExtraTablesRecordData
+  langs:
+  - csharp
+  - vb
+  name: TableNumber
+  nameWithType: ExtraTablesRecordData.TableNumber
+  fullName: SuperOffice.CRM.Rows.ExtraTablesRecordData.TableNumber
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Number of the table
+  example: []
+  syntax:
+    content: public short TableNumber
+    return:
+      type: System.Int16
+    content.vb: Public TableNumber As Short
 - uid: SuperOffice.CRM.Rows.ExtraTablesRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.ExtraTablesRecordData.#ctor
   id: '#ctor'
@@ -1370,6 +1392,17 @@ references:
   nameWithType.vb: UInteger
   fullName.vb: UInteger
   name.vb: UInteger
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int16
+  name: short
+  nameWithType: short
+  fullName: short
+  nameWithType.vb: Short
+  fullName.vb: Short
+  name.vb: Short
 - uid: SuperOffice.CRM.Rows.ExtraTablesRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.ExtraTablesRecordData.#ctor
   isExternal: true

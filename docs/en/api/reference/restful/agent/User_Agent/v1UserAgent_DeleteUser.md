@@ -2,6 +2,7 @@
 title: POST Agents/User/DeleteUser
 uid: v1UserAgent_DeleteUser
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/DeleteUser
@@ -24,10 +25,10 @@ Deletes the User
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| UserId | int32 | **Required** The id of the User to be deleted. |
+| userId | int32 | **Required** The identity of the User |
 
 ```http
-POST /api/v1/Agents/User/DeleteUser?UserId=993
+POST /api/v1/Agents/User/DeleteUser?userId=444
 ```
 
 
@@ -58,7 +59,7 @@ No Content
 POST /api/v1/Agents/User/DeleteUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

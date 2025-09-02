@@ -2,6 +2,7 @@
 title: Services88.QuoteAgent.PlaceOrder SOAP
 generated: true
 uid: Services88-Quote-PlaceOrder
+content_type: reference
 ---
 
 # Services88 Quote PlaceOrder

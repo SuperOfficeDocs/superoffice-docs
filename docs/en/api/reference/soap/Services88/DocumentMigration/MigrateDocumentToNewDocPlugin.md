@@ -2,6 +2,7 @@
 title: Services88.DocumentMigrationAgent.MigrateDocumentToNewDocPlugin SOAP
 generated: true
 uid: Services88-DocumentMigration-MigrateDocumentToNewDocPlugin
+content_type: reference
 ---
 
 # Services88 DocumentMigration MigrateDocumentToNewDocPlugin

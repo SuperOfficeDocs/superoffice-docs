@@ -2,6 +2,7 @@
 title: POST Agents/Chat/CreateDefaultChatTopicAgent
 uid: v1ChatAgent_CreateDefaultChatTopicAgent
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/CreateDefaultChatTopicAgent
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicAgent
 ```
 
-Set default values into a new ChatTopicAgent.
+Loading default values into a new ChatTopicAgent.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -60,7 +59,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,11 +69,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 348,
+  "TopicId": 419,
   "User": null,
-  "CanListen": false,
+  "CanListen": true,
   "CanRespond": true,
-  "CanManage": true,
+  "CanManage": false,
   "CanNotify": false
 }
 ```

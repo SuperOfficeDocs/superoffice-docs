@@ -2,6 +2,7 @@
 title: PUT List/Priority/Items
 uid: v1PriorityList_PutAllPriority
 generated: true
+content_type: reference
 ---
 
 # PUT List/Priority/Items
@@ -78,20 +79,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 243,
-    "Name": "Runolfsdottir, Kling and Satterfield",
-    "Tooltip": "dolore",
+    "Id": 543,
+    "Name": "Rempel-Witting",
+    "Tooltip": "tempora",
     "Deleted": false,
-    "UdListDefinitionId": 785,
-    "Rank": 413
+    "UdListDefinitionId": 735,
+    "Rank": 27
   },
   {
-    "Id": 243,
-    "Name": "Runolfsdottir, Kling and Satterfield",
-    "Tooltip": "dolore",
+    "Id": 543,
+    "Name": "Rempel-Witting",
+    "Tooltip": "tempora",
     "Deleted": false,
-    "UdListDefinitionId": 785,
-    "Rank": 413
+    "UdListDefinitionId": 735,
+    "Rank": 27
   }
 ]
 ```
@@ -104,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 523,
-    "Name": "Ryan-McDermott",
-    "Tooltip": "nesciunt",
+    "Id": 987,
+    "Name": "Jacobi, Leffler and Block",
+    "Tooltip": "eaque",
     "Deleted": true,
-    "UdListDefinitionId": 384,
-    "Rank": 978,
+    "UdListDefinitionId": 397,
+    "Rank": 673,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 284
+        "FieldType": "System.Int32",
+        "FieldLength": 999
       }
     }
   }

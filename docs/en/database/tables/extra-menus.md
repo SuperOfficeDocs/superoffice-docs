@@ -2,10 +2,10 @@
 uid: table-extra_menus
 title: extra_menus table
 description: This table contains entries for the extra menus in the system.
-so.generated: true
+generated: true
 keywords: database table extra_menus
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # extra\_menus Table (307)

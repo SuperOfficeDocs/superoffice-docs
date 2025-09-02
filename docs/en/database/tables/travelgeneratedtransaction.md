@@ -2,10 +2,10 @@
 uid: table-travelgeneratedtransaction
 title: travelgeneratedtransaction table
 description: Record of all generated replication data files from this database (*.dwn files from mother database to child, *.up from child database to mother)
-so.generated: true
+generated: true
 keywords: database table travelgeneratedtransaction
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # travelgeneratedtransaction Table (30)

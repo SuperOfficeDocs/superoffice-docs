@@ -2,6 +2,7 @@
 title: Services88.PreferenceAgent.SavePreferenceDescriptionLines SOAP
 generated: true
 uid: Services88-Preference-SavePreferenceDescriptionLines
+content_type: reference
 ---
 
 # Services88 Preference SavePreferenceDescriptionLines

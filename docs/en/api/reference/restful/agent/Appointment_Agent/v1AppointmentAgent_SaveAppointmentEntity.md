@@ -2,6 +2,7 @@
 title: POST Agents/Appointment/SaveAppointmentEntity
 uid: v1AppointmentAgent_SaveAppointmentEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Appointment/SaveAppointmentEntity
@@ -10,8 +11,10 @@ generated: true
 POST /api/v1/Agents/Appointment/SaveAppointmentEntity
 ```
 
-Updates the existing AppointmentEntity or creates a new AppointmentEntity if the id parameter is empty
+Updates the existing AppointmentEntity or creates a new AppointmentEntity if the id parameter is 0.
 
+
+Save the appointment entity
 
 
 
@@ -33,9 +36,9 @@ Updates the existing AppointmentEntity or creates a new AppointmentEntity if the
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: appointmentEntity 
 
-The AppointmentEntity to be saved. 
+The AppointmentEntity that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -189,106 +192,106 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1998-04-23T03:45:22.7329771+02:00",
-  "AppointmentId": 361,
-  "Description": "Innovative user-facing matrix",
-  "Title": "nobis",
-  "Agenda": "et",
-  "InternalNotes": "eius",
-  "StartDate": "2001-04-18T03:45:22.7329771+02:00",
-  "EndDate": "2010-02-25T03:45:22.7329771+01:00",
+  "CreatedDate": "2024-07-24T03:46:54.050783+02:00",
+  "AppointmentId": 740,
+  "Description": "Visionary foreground paradigm",
+  "Title": "sunt",
+  "Agenda": "iusto",
+  "InternalNotes": "fuga",
+  "StartDate": "2016-05-05T03:46:54.050783+02:00",
+  "EndDate": "2006-02-23T03:46:54.050783+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 425,
+  "MotherId": 150,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2024-05-09T03:45:22.7329771+02:00",
+  "UpdatedDate": "2014-05-13T03:46:54.050783+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 786,
+  "ActiveLinks": 511,
   "Links": [
     {
-      "EntityName": "Zulauf LLC",
-      "Id": 222,
-      "Description": "Ameliorated methodical flexibility",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 664
+      "EntityName": "Olson-Sanford",
+      "Id": 815,
+      "Description": "Enterprise-wide reciprocal benchmark",
+      "ExtraInfo": "qui",
+      "LinkId": 581
     },
     {
-      "EntityName": "Zulauf LLC",
-      "Id": 222,
-      "Description": "Ameliorated methodical flexibility",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 664
+      "EntityName": "Olson-Sanford",
+      "Id": 815,
+      "Description": "Enterprise-wide reciprocal benchmark",
+      "ExtraInfo": "qui",
+      "LinkId": 581
     }
   ],
-  "AlarmLeadTime": "sit",
+  "AlarmLeadTime": "soluta",
   "HasAlarm": false,
-  "ColorIndex": 405,
+  "ColorIndex": 115,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "quisquam",
-  "LeadTime": "autem",
-  "Location": "similique",
-  "RejectCounter": 72,
+  "LagTime": "odio",
+  "LeadTime": "maxime",
+  "Location": "sequi",
+  "RejectCounter": 919,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 76,
-      "PersonId": 894,
-      "ContactId": 14,
-      "EmailId": 840,
+      "AssociateId": 515,
+      "PersonId": 235,
+      "ContactId": 146,
+      "EmailId": 954,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "verlie@welch.ca",
-      "Description": "Reverse-engineered bi-directional open system"
+      "EmailAddress": "clementine_yost@kerluke.uk",
+      "Description": "Face to face bi-directional solution"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2025-05-14T03:45:22.7329771+02:00",
+  "ActiveDate": "1998-04-15T03:46:54.050783+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 7,
+  "PreferredTZLocation": 537,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 628,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 171,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sed",
+  "CentralserviceVideomeetId": "omnis",
   "UserDefinedFields": {
-    "SuperOffice:1": "1873788790",
-    "SuperOffice:2": "German Weber"
+    "SuperOffice:1": "1858885709",
+    "SuperOffice:2": "832871796"
   },
   "ExtraFields": {
-    "ExtraFields1": "minima",
-    "ExtraFields2": "maiores"
+    "ExtraFields1": "deleniti",
+    "ExtraFields2": "dolor"
   },
   "CustomFields": {
-    "CustomFields1": "quas",
-    "CustomFields2": "est"
+    "CustomFields1": "sed",
+    "CustomFields2": "vitae"
   },
-  "PublishEventDate": "2007-01-28T03:45:22.7329771+01:00",
-  "PublishTo": "2011-03-04T03:45:22.7329771+01:00",
-  "PublishFrom": "2007-06-14T03:45:22.7329771+02:00",
+  "PublishEventDate": "2015-08-10T03:46:54.050783+02:00",
+  "PublishTo": "2011-06-15T03:46:54.050783+02:00",
+  "PublishFrom": "2024-08-12T03:46:54.050783+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 565,
+      "VisibleId": 440,
       "Visibility": "All",
-      "DisplayValue": "alias"
+      "DisplayValue": "ipsam"
     },
     {
-      "VisibleId": 565,
+      "VisibleId": 440,
       "Visibility": "All",
-      "DisplayValue": "alias"
+      "DisplayValue": "ipsam"
     }
   ]
 }
@@ -305,121 +308,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2015-02-15T03:45:22.7486003+01:00",
-  "AppointmentId": 300,
-  "Description": "Adaptive disintermediate challenge",
-  "Title": "id",
-  "Agenda": "ut",
-  "InternalNotes": "reiciendis",
-  "StartDate": "2016-07-05T03:45:22.7486003+02:00",
-  "EndDate": "2016-03-31T03:45:22.7486003+02:00",
+  "CreatedDate": "2000-07-15T03:46:54.050783+02:00",
+  "AppointmentId": 361,
+  "Description": "Enhanced mission-critical firmware",
+  "Title": "assumenda",
+  "Agenda": "dicta",
+  "InternalNotes": "facere",
+  "StartDate": "2015-04-17T03:46:54.050783+02:00",
+  "EndDate": "2005-11-23T03:46:54.050783+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 916,
+  "MotherId": 810,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2014-08-15T03:45:22.7486003+02:00",
+  "UpdatedDate": "2022-06-03T03:46:54.050783+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 237,
+  "ActiveLinks": 657,
   "Links": [
     {
-      "EntityName": "Corkery-Windler",
-      "Id": 854,
-      "Description": "Implemented 4th generation contingency",
-      "ExtraInfo": "tempore",
-      "LinkId": 940,
+      "EntityName": "Leffler-Cassin",
+      "Id": 830,
+      "Description": "Phased modular model",
+      "ExtraInfo": "dolor",
+      "LinkId": 466,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 261
+          "FieldType": "System.String",
+          "FieldLength": 19
         }
       }
     }
   ],
-  "AlarmLeadTime": "ab",
+  "AlarmLeadTime": "aperiam",
   "HasAlarm": false,
-  "ColorIndex": 367,
+  "ColorIndex": 308,
   "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "illum",
-  "LeadTime": "vero",
-  "Location": "sit",
-  "RejectCounter": 506,
+  "LagTime": "voluptatum",
+  "LeadTime": "et",
+  "Location": "debitis",
+  "RejectCounter": 125,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 361,
-      "PersonId": 792,
-      "ContactId": 453,
-      "EmailId": 565,
+      "AssociateId": 437,
+      "PersonId": 536,
+      "ContactId": 114,
+      "EmailId": 346,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "jenifer@quigley.us",
-      "Description": "Multi-layered clear-thinking contingency"
+      "EmailAddress": "fredrick@blandafranecki.biz",
+      "Description": "Up-sized tertiary complexity"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2006-04-23T03:45:22.7486003+02:00",
-  "HasConflict": false,
+  "ActiveDate": "1998-04-16T03:46:54.050783+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 511,
+  "PreferredTZLocation": 793,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 875,
+  "SuggestedAppointmentId": 695,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "debitis",
+  "CentralserviceVideomeetId": "error",
   "UserDefinedFields": {
-    "SuperOffice:1": "1276521979",
-    "SuperOffice:2": "Teresa Herzog"
+    "SuperOffice:1": "Ms. Tristin Adeline Tillman",
+    "SuperOffice:2": "1525225211"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "quaerat"
+    "ExtraFields1": "cupiditate",
+    "ExtraFields2": "quasi"
   },
   "CustomFields": {
-    "CustomFields1": "quibusdam",
-    "CustomFields2": "reprehenderit"
+    "CustomFields1": "quas",
+    "CustomFields2": "eos"
   },
-  "PublishEventDate": "2020-05-29T03:45:22.7486003+02:00",
-  "PublishTo": "2008-07-21T03:45:22.7486003+02:00",
-  "PublishFrom": "2002-04-01T03:45:22.7486003+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2021-09-03T03:46:54.050783+02:00",
+  "PublishTo": "2003-06-08T03:46:54.050783+02:00",
+  "PublishFrom": "2004-03-24T03:46:54.050783+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 474,
+      "VisibleId": 979,
       "Visibility": "All",
-      "DisplayValue": "vel",
+      "DisplayValue": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 824
+          "FieldLength": 655
         }
       }
     },
     {
-      "VisibleId": 474,
+      "VisibleId": 979,
       "Visibility": "All",
-      "DisplayValue": "vel",
+      "DisplayValue": "aperiam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 824
+          "FieldLength": 655
         }
       }
     }
@@ -429,7 +432,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 779
+      "FieldLength": 787
     }
   }
 }

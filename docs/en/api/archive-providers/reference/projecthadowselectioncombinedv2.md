@@ -3,9 +3,9 @@ uid: ProjecthadowSelectionCombinedV2
 title: ProjecthadowSelectionCombinedV2
 description: Implementation of the provider for the combined selection
 keywords: ProjecthadowSelectionCombinedV2 archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ProjecthadowSelectionCombinedV2"
@@ -808,7 +808,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjecthadowSelectionCombinedV2?$select=icon,sale/saleId,projectMember/hasInfoText,targetTableNumber
+GET /api/v1/archive/ProjecthadowSelectionCombinedV2?$select=endDate,sale/saleUdef/SuperOffice:6,sale/saleUdef/SuperOffice:7,document/associate/contactId,document/documentUdef/SuperOffice:4
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

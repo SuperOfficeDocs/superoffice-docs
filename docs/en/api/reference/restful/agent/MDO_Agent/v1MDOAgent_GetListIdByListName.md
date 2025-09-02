@@ -2,6 +2,7 @@
 title: POST Agents/MDO/GetListIdByListName
 uid: v1MDOAgent_GetListIdByListName
 generated: true
+content_type: reference
 ---
 
 # POST Agents/MDO/GetListIdByListName
@@ -70,11 +71,11 @@ OK
 POST /api/v1/Agents/MDO/GetListIdByListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bauch-Casper"
+  "Name": "Hilll, Goldner and Kovacek"
 }
 ```
 
@@ -84,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-562
+943
 ```

@@ -2,6 +2,7 @@
 title: GET Person/{id}/Simple
 uid: v1PersonEntity_Simple
 generated: true
+content_type: reference
 ---
 
 # GET Person/{id}/Simple
@@ -102,7 +103,7 @@ PersonEntity found.
 GET /api/v1/Person/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -112,53 +113,53 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "consequatur",
-  "PersonId": 857,
-  "Mrmrs": "esse",
-  "Firstname": "Trent",
-  "Lastname": "Hilll",
-  "MiddleName": "Windler, Bednar and Gutkowski",
-  "Title": "eaque",
-  "Description": "Persistent mission-critical core",
-  "Email": "willow.mckenzie@jewess.biz",
-  "FullName": "Mr. Ashlee Rau II",
-  "DirectPhone": "054-065-5824 x03919",
-  "FormalName": "Stoltenberg Inc and Sons",
-  "CountryId": 454,
-  "ContactId": 152,
-  "ContactName": "Heidenreich-O'Reilly",
-  "Retired": 121,
-  "Rank": 154,
-  "ActiveInterests": 667,
+  "Position": "dignissimos",
+  "PersonId": 559,
+  "Mrmrs": "rerum",
+  "Firstname": "Felipa",
+  "Lastname": "Ruecker",
+  "MiddleName": "Schiller Group",
+  "Title": "officiis",
+  "Description": "Fully-configurable actuating analyzer",
+  "Email": "markus_feest@rogahn.us",
+  "FullName": "Prof. Jaron Purdy",
+  "DirectPhone": "125-977-4338",
+  "FormalName": "Dooley Inc and Sons",
+  "CountryId": 178,
+  "ContactId": 780,
+  "ContactName": "Jewess Inc and Sons",
+  "Retired": 562,
+  "Rank": 109,
+  "ActiveInterests": 490,
   "ContactDepartment": "",
-  "ContactCountryId": 818,
-  "ContactOrgNr": "1244152",
-  "FaxPhone": "1-245-798-4994 x352",
-  "MobilePhone": "1-776-134-8091 x9976",
-  "ContactPhone": "825-820-0844",
-  "AssociateName": "Jacobson, Ward and Friesen",
-  "AssociateId": 651,
-  "UsePersonAddress": true,
-  "ContactFax": "molestiae",
-  "Kanafname": "perspiciatis",
-  "Kanalname": "natus",
-  "Post1": "animi",
-  "Post2": "tenetur",
-  "Post3": "fuga",
-  "EmailName": "beulah@jewess.biz",
-  "ContactFullName": "Leopold Kreiger",
-  "ActiveErpLinks": 398,
-  "TicketPriorityId": 924,
-  "SupportLanguageId": 312,
-  "SupportAssociateId": 337,
+  "ContactCountryId": 415,
+  "ContactOrgNr": "1203261",
+  "FaxPhone": "081-052-9838 x5338",
+  "MobilePhone": "947.998.7138 x765",
+  "ContactPhone": "(354)695-2890 x1147",
+  "AssociateName": "Swaniawski-Ledner",
+  "AssociateId": 225,
+  "UsePersonAddress": false,
+  "ContactFax": "laudantium",
+  "Kanafname": "minus",
+  "Kanalname": "veritatis",
+  "Post1": "est",
+  "Post2": "perspiciatis",
+  "Post3": "molestias",
+  "EmailName": "demarco@schamberger.uk",
+  "ContactFullName": "Laney Casper",
+  "ActiveErpLinks": 538,
+  "TicketPriorityId": 898,
+  "SupportLanguageId": 220,
+  "SupportAssociateId": 274,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "304358",
+  "PersonNumber": "376450",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 595
+      "FieldType": "System.String",
+      "FieldLength": 414
     }
   }
 }

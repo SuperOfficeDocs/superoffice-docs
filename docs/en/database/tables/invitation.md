@@ -2,10 +2,10 @@
 uid: table-invitation
 title: invitation table
 description: Invitations to events
-so.generated: true
+generated: true
 keywords: database table invitation
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # invitation Table (491)

@@ -2,6 +2,7 @@
 title: GET Contact/UdefLayout/{progidOrLabel}
 uid: v1ContactEntity_GetUdefFieldInfo
 generated: true
+content_type: reference
 ---
 
 # GET Contact/UdefLayout/{progidOrLabel}
@@ -103,46 +104,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 517,
-  "ColumnId": 447,
-  "FieldDefault": "possimus",
-  "FieldHeight": 905,
-  "FieldLabel": "aliquid",
-  "FieldLeft": 315,
-  "FieldTop": 238,
+  "UDefFieldId": 277,
+  "ColumnId": 66,
+  "FieldDefault": "pariatur",
+  "FieldHeight": 535,
+  "FieldLabel": "impedit",
+  "FieldLeft": 405,
+  "FieldTop": 133,
   "FieldType": "Checkbox",
-  "FieldWidth": 293,
-  "FormatMask": "corporis",
+  "FieldWidth": 221,
+  "FormatMask": "voluptatem",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 878,
-  "LabelLeft": 68,
-  "LabelTop": 888,
-  "LabelWidth": 146,
-  "LastVersionId": 479,
-  "ListTableId": 910,
+  "LabelHeight": 328,
+  "LabelLeft": 648,
+  "LabelTop": 653,
+  "LabelWidth": 114,
+  "LastVersionId": 906,
+  "ListTableId": 229,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 474,
-  "ProgId": "est",
+  "Page1LineNo": 360,
+  "ProgId": "neque",
   "IsReadOnly": true,
-  "ShortLabel": "aut",
-  "TabOrder": 26,
-  "TextLength": 419,
-  "Tooltip": "saepe",
-  "UdefIdentity": 225,
-  "UDListDefinitionId": 302,
+  "ShortLabel": "cupiditate",
+  "TabOrder": 215,
+  "TextLength": 455,
+  "Tooltip": "aliquam",
+  "UdefIdentity": 651,
+  "UDListDefinitionId": 516,
   "Justification": "Center",
-  "Version": 576,
-  "TemplateVariableName": "Brekke, Torp and Schneider",
-  "HasBeenPublished": false,
-  "MdoListName": "Reichel LLC",
+  "Version": 530,
+  "TemplateVariableName": "Schulist, Brakus and Wehner",
+  "HasBeenPublished": true,
+  "MdoListName": "Schmitt Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 854
+      "FieldLength": 61
     }
   }
 }

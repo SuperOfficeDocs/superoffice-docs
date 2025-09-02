@@ -2,6 +2,7 @@
 title: POST Agents/Project/DeleteProjectMember
 uid: v1ProjectAgent_DeleteProjectMember
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Project/DeleteProjectMember
@@ -22,10 +23,10 @@ Deletes the ProjectMember
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| ProjectMemberId | int32 | **Required** The id of the ProjectMember to be deleted. |
+| projectMemberId | int32 | **Required** The identity of the ProjectMember |
 
 ```http
-POST /api/v1/Agents/Project/DeleteProjectMember?ProjectMemberId=392
+POST /api/v1/Agents/Project/DeleteProjectMember?projectMemberId=543
 ```
 
 
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/Project/DeleteProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

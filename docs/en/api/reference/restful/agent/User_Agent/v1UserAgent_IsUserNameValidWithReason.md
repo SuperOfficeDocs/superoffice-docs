@@ -2,6 +2,7 @@
 title: POST Agents/User/IsUserNameValidWithReason
 uid: v1UserAgent_IsUserNameValidWithReason
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/IsUserNameValidWithReason
@@ -79,14 +80,14 @@ OK
 POST /api/v1/Agents/User/IsUserNameValidWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 432,
+  "AssociateId": 897,
   "Type": "AnonymousAssociate",
-  "PersonId": 616,
-  "UserName": "Windler LLC"
+  "PersonId": 234,
+  "UserName": "Stanton, Fadel and Gutmann"
 }
 ```
 
@@ -104,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldLength": 971
     }
   }
 }

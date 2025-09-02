@@ -3,9 +3,9 @@ uid: exporttemplate
 title: exporttemplate
 keywords: mdoprovider mdo provider exporttemplate
 description: MDO provider for the list of template files for the 'export to file' function in the Selection Task pane. These are .sxf files found in so_arc/template, as well as in the so_arc/&lt;username&gt; directory of the current user. Impersonation is used if specified by the config file to access the document directories. The file name is returned as the list item name, while the full path is in the extrainfo.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "exporttemplate" MDO List

@@ -2,6 +2,7 @@
 title: Services88.AppointmentAgent.CleanUpBookingDeleted SOAP
 generated: true
 uid: Services88-Appointment-CleanUpBookingDeleted
+content_type: reference
 ---
 
 # Services88 Appointment CleanUpBookingDeleted

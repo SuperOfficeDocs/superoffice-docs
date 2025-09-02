@@ -2,10 +2,10 @@
 uid: table-PaymentTerms
 title: PaymentTerms table
 description: The list of payment terms, in the internal product register
-so.generated: true
+generated: true
 keywords: database table PaymentTerms
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # PaymentTerms Table (427)

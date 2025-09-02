@@ -2,6 +2,7 @@
 title: POST Agents/Workflow/SaveWorkflowWaitForAction
 uid: v1WorkflowAgent_SaveWorkflowWaitForAction
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Workflow/SaveWorkflowWaitForAction
@@ -10,7 +11,7 @@ generated: true
 POST /api/v1/Agents/Workflow/SaveWorkflowWaitForAction
 ```
 
-Updates the existing WorkflowWaitForAction or creates a new WorkflowWaitForAction if the id parameter is empty
+Updates the existing WorkflowWaitForAction or creates a new WorkflowWaitForAction if the id parameter is 0.
 
 
 
@@ -33,9 +34,9 @@ Updates the existing WorkflowWaitForAction or creates a new WorkflowWaitForActio
 | SO-TimeZone | Specify the timezone code that you would like date/time responses converted to. |
 | SO-AppToken | The application token that identifies the partner app. Used when calling Online WebAPI from a server. |
 
-## Request Body: entity 
+## Request Body: workflowWaitForAction 
 
-The WorkflowWaitForAction to be saved. 
+The WorkflowWaitForAction that is saved 
 
 | Property Name | Type |  Description |
 |----------------|------|--------------|
@@ -77,25 +78,25 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 261,
-  "WorkflowStepId": 389,
-  "WorkflowId": 709,
-  "Rank": 211,
+  "WorkflowWaitForActionId": 498,
+  "WorkflowStepId": 453,
+  "WorkflowId": 501,
+  "Rank": 416,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Ullrich-Schmeler",
-      "Description": "Enterprise-wide solution-oriented focus group",
-      "Rank": 191,
+      "Name": "Hodkiewicz LLC",
+      "Description": "Object-based radical website",
+      "Rank": 210,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Ullrich-Schmeler",
-      "Description": "Enterprise-wide solution-oriented focus group",
-      "Rank": 191,
+      "Name": "Hodkiewicz LLC",
+      "Description": "Object-based radical website",
+      "Rank": 210,
       "Restrictions": [
         {},
         {}
@@ -112,25 +113,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 726,
-  "WorkflowStepId": 215,
-  "WorkflowId": 291,
-  "Rank": 334,
+  "WorkflowWaitForActionId": 801,
+  "WorkflowStepId": 991,
+  "WorkflowId": 151,
+  "Rank": 782,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Torp Group",
-      "Description": "Vision-oriented grid-enabled orchestration",
-      "Rank": 493,
+      "Name": "Harber Inc and Sons",
+      "Description": "Compatible systemic website",
+      "Rank": 543,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Torp Group",
-      "Description": "Vision-oriented grid-enabled orchestration",
-      "Rank": 493,
+      "Name": "Harber Inc and Sons",
+      "Description": "Compatible systemic website",
+      "Rank": 543,
       "Restrictions": [
         {},
         {}
@@ -141,8 +142,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 528
+      "FieldType": "System.Int32",
+      "FieldLength": 3
     }
   }
 }

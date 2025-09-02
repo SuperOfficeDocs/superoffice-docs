@@ -2,6 +2,7 @@
 title: Services88.BLOBAgent.ChangeProjectImage SOAP
 generated: true
 uid: Services88-BLOB-ChangeProjectImage
+content_type: reference
 ---
 
 # Services88 BLOB ChangeProjectImage

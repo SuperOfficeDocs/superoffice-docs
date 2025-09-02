@@ -2,6 +2,7 @@
 title: Services88.TicketAgent.CopyToTempFile SOAP
 generated: true
 uid: Services88-Ticket-CopyToTempFile
+content_type: reference
 ---
 
 # Services88 Ticket CopyToTempFile

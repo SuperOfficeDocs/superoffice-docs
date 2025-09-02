@@ -2,6 +2,7 @@
 title: POST Agents/List/GetWebPanelEntity
 uid: v1ListAgent_GetWebPanelEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetWebPanelEntity
@@ -22,11 +23,11 @@ Gets a WebPanelEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| webPanelEntityId | int32 | **Required** The primary key. |
+| webPanelEntityId | int32 | **Required** The identifier of the WebPanelEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=947
+POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=433
 POST /api/v1/Agents/List/GetWebPanelEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +89,7 @@ OK
 POST /api/v1/Agents/List/GetWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,26 +99,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 134,
-  "Name": "McLaughlin-Heidenreich",
-  "Tooltip": "et",
+  "WebPanelId": 817,
+  "Name": "Pacocha Inc and Sons",
+  "Tooltip": "architecto",
   "Deleted": false,
-  "Rank": 304,
+  "Rank": 831,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": false,
+  "OnSatellite": false,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Ziemann-Powlowski",
+  "ShowInStatusBar": false,
+  "WindowName": "Mann LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "similique",
-  "Icon": 425,
+  "ProgId": "ut",
+  "Icon": 392,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": true,
   "TableRight": null,
@@ -125,7 +126,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 622
+      "FieldLength": 379
     }
   }
 }

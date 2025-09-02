@@ -2,6 +2,7 @@
 title: Services88.BLOBAgent.CleanupBatchTask SOAP
 generated: true
 uid: Services88-BLOB-CleanupBatchTask
+content_type: reference
 ---
 
 # Services88 BLOB CleanupBatchTask

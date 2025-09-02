@@ -2,6 +2,7 @@
 title: Services88.DocumentAgent.CreateDefaultSuggestedDocumentEntity SOAP
 generated: true
 uid: Services88-Document-CreateDefaultSuggestedDocumentEntity
+content_type: reference
 ---
 
 # Services88 Document CreateDefaultSuggestedDocumentEntity

@@ -2,6 +2,7 @@
 title: Services88.PersonAgent.AddBounce SOAP
 generated: true
 uid: Services88-Person-AddBounce
+content_type: reference
 ---
 
 # Services88 Person AddBounce

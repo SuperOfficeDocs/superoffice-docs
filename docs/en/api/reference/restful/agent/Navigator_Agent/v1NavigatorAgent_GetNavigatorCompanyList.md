@@ -2,6 +2,7 @@
 title: POST Agents/Navigator/GetNavigatorCompanyList
 uid: v1NavigatorAgent_GetNavigatorCompanyList
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Navigator/GetNavigatorCompanyList
@@ -45,7 +46,7 @@ POST /api/v1/Agents/Navigator/GetNavigatorCompanyList?$select=name,department,ca
 
 ## Request Body: navigatorCompanyIds 
 
-The primary keys. 
+The identifiers of the NavigatorCompany object 
 
 
 ## Response:array
@@ -83,28 +84,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 522,
-    "Value": "ex",
-    "Tooltip": "consequatur",
+    "Id": 754,
+    "Value": "saepe",
+    "Tooltip": "incidunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 752
+        "FieldType": "System.String",
+        "FieldLength": 816
       }
     }
   },
   {
-    "Id": 522,
-    "Value": "ex",
-    "Tooltip": "consequatur",
+    "Id": 754,
+    "Value": "saepe",
+    "Tooltip": "incidunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 752
+        "FieldType": "System.String",
+        "FieldLength": 816
       }
     }
   }

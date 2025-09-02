@@ -2,6 +2,7 @@
 title: GET MDOList/{listname}/selectable
 uid: v1MDOList_GetSelectableList
 generated: true
+content_type: reference
 ---
 
 # GET MDOList/{listname}/selectable
@@ -30,8 +31,8 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=officia
-GET /api/v1/MDOList/{listname}/selectable?flat=False
+GET /api/v1/MDOList/{listname}/selectable?additional=saepe
+GET /api/v1/MDOList/{listname}/selectable?flat=True
 ```
 
 
@@ -96,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 109,
-    "Name": "Torp-Gottlieb",
-    "ToolTip": "Odit veritatis a eum pariatur ducimus.",
-    "Deleted": false,
-    "Rank": 936,
-    "Type": "consequatur",
-    "ColorBlock": 1002,
-    "IconHint": "possimus",
+    "Id": 950,
+    "Name": "Terry, Feeney and Walter",
+    "ToolTip": "Vel dolores quibusdam.",
+    "Deleted": true,
+    "Rank": 317,
+    "Type": "nihil",
+    "ColorBlock": 596,
+    "IconHint": "libero",
     "Selected": false,
-    "LastChanged": "2013-07-14T03:45:29.060917+02:00",
+    "LastChanged": "2014-03-14T03:47:00.6755475+01:00",
     "ChildItems": [
       {
-        "Id": 196,
-        "Name": "Macejkovic, Turner and Harber",
-        "ToolTip": "Provident voluptas sed qui voluptatem temporibus.",
+        "Id": 285,
+        "Name": "Trantow-Kuphal",
+        "ToolTip": "Quibusdam in.",
         "Deleted": false,
-        "Rank": 564,
-        "Type": "ullam",
-        "ColorBlock": 687,
-        "IconHint": "magni",
-        "Selected": false,
-        "LastChanged": "2002-08-04T03:45:29.060917+02:00",
+        "Rank": 960,
+        "Type": "dolorum",
+        "ColorBlock": 543,
+        "IconHint": "exercitationem",
+        "Selected": true,
+        "LastChanged": "2013-07-15T03:47:00.6755475+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "occaecati",
-        "StyleHint": "atque",
+        "ExtraInfo": "officiis",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Mr. Kaia Jalyn Bernhard PhD",
+        "FullName": "Tessie D'Amore IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 149
+            "FieldLength": 430
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "provident",
     "Hidden": false,
-    "FullName": "Mable Adams",
+    "FullName": "Randi Batz DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldType": "System.String",
+        "FieldLength": 825
       }
     }
   }

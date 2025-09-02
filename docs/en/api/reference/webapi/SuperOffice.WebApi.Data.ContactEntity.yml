@@ -32,6 +32,7 @@ items:
   - SuperOffice.WebApi.Data.ContactEntity.ExtraFields
   - SuperOffice.WebApi.Data.ContactEntity.Faxes
   - SuperOffice.WebApi.Data.ContactEntity.GroupId
+  - SuperOffice.WebApi.Data.ContactEntity.InitialUtmParameters
   - SuperOffice.WebApi.Data.ContactEntity.Interests
   - SuperOffice.WebApi.Data.ContactEntity.Kananame
   - SuperOffice.WebApi.Data.ContactEntity.Name
@@ -1088,6 +1089,29 @@ items:
       type: System.String[]
     content.vb: Public Overridable Property Domains As String()
   overload: SuperOffice.WebApi.Data.ContactEntity.Domains*
+- uid: SuperOffice.WebApi.Data.ContactEntity.InitialUtmParameters
+  commentId: P:SuperOffice.WebApi.Data.ContactEntity.InitialUtmParameters
+  id: InitialUtmParameters
+  parent: SuperOffice.WebApi.Data.ContactEntity
+  langs:
+  - csharp
+  - vb
+  name: InitialUtmParameters
+  nameWithType: ContactEntity.InitialUtmParameters
+  fullName: SuperOffice.WebApi.Data.ContactEntity.InitialUtmParameters
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Initial utm parameters when creating first person, readonly field
+  example: []
+  syntax:
+    content: public virtual InitalUtmParameters InitialUtmParameters { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.InitalUtmParameters
+    content.vb: Public Overridable Property InitialUtmParameters As InitalUtmParameters
+  overload: SuperOffice.WebApi.Data.ContactEntity.InitialUtmParameters*
 - uid: SuperOffice.WebApi.Data.ContactEntity.UserDefinedFields
   commentId: P:SuperOffice.WebApi.Data.ContactEntity.UserDefinedFields
   id: UserDefinedFields
@@ -2033,6 +2057,21 @@ references:
   name: Domains
   nameWithType: ContactEntity.Domains
   fullName: SuperOffice.WebApi.Data.ContactEntity.Domains
+- uid: SuperOffice.WebApi.Data.ContactEntity.InitialUtmParameters*
+  commentId: Overload:SuperOffice.WebApi.Data.ContactEntity.InitialUtmParameters
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ContactEntity.html#SuperOffice_WebApi_Data_ContactEntity_InitialUtmParameters
+  name: InitialUtmParameters
+  nameWithType: ContactEntity.InitialUtmParameters
+  fullName: SuperOffice.WebApi.Data.ContactEntity.InitialUtmParameters
+- uid: SuperOffice.WebApi.Data.InitalUtmParameters
+  commentId: T:SuperOffice.WebApi.Data.InitalUtmParameters
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.InitalUtmParameters.html
+  name: InitalUtmParameters
+  nameWithType: InitalUtmParameters
+  fullName: SuperOffice.WebApi.Data.InitalUtmParameters
 - uid: SuperOffice.WebApi.Data.ContactEntity.CustomFields
   commentId: P:SuperOffice.WebApi.Data.ContactEntity.CustomFields
   isExternal: true

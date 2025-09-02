@@ -2,6 +2,7 @@
 title: GET Appointment/UdefLayout
 uid: v1AppointmentEntity_GetUdefLayout
 generated: true
+content_type: reference
 ---
 
 # GET Appointment/UdefLayout
@@ -90,7 +91,7 @@ OK
 GET /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,46 +102,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 808,
-    "ColumnId": 81,
-    "FieldDefault": "libero",
-    "FieldHeight": 835,
-    "FieldLabel": "dignissimos",
-    "FieldLeft": 736,
-    "FieldTop": 591,
+    "UDefFieldId": 385,
+    "ColumnId": 683,
+    "FieldDefault": "at",
+    "FieldHeight": 371,
+    "FieldLabel": "sit",
+    "FieldLeft": 309,
+    "FieldTop": 20,
     "FieldType": "Checkbox",
-    "FieldWidth": 442,
-    "FormatMask": "repudiandae",
-    "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 978,
-    "LabelLeft": 15,
-    "LabelTop": 113,
-    "LabelWidth": 752,
-    "LastVersionId": 329,
-    "ListTableId": 263,
+    "FieldWidth": 756,
+    "FormatMask": "laudantium",
+    "HideLabel": true,
+    "IsIndexed": false,
+    "LabelHeight": 932,
+    "LabelLeft": 539,
+    "LabelTop": 763,
+    "LabelWidth": 590,
+    "LastVersionId": 952,
+    "ListTableId": 992,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 552,
-    "ProgId": "nihil",
-    "IsReadOnly": false,
-    "ShortLabel": "aut",
-    "TabOrder": 641,
-    "TextLength": 233,
-    "Tooltip": "est",
-    "UdefIdentity": 672,
-    "UDListDefinitionId": 342,
+    "Page1LineNo": 569,
+    "ProgId": "officia",
+    "IsReadOnly": true,
+    "ShortLabel": "expedita",
+    "TabOrder": 493,
+    "TextLength": 391,
+    "Tooltip": "iusto",
+    "UdefIdentity": 673,
+    "UDListDefinitionId": 821,
     "Justification": "Center",
-    "Version": 942,
-    "TemplateVariableName": "Fisher, Upton and Doyle",
-    "HasBeenPublished": false,
-    "MdoListName": "Hilll, Abbott and Ernser",
+    "Version": 586,
+    "TemplateVariableName": "Parisian, Lebsack and Jakubowski",
+    "HasBeenPublished": true,
+    "MdoListName": "Dickinson-VonRueden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 492
+        "FieldType": "System.String",
+        "FieldLength": 812
       }
     }
   }

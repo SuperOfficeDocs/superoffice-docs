@@ -2,6 +2,7 @@
 title: POST List/Currency/Headings
 uid: v1CurrencyList_PostCurrencyEntityHeading
 generated: true
+content_type: reference
 ---
 
 # POST List/Currency/Headings
@@ -75,16 +76,16 @@ OK
 POST /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 381,
-  "Name": "Hoeger, Donnelly and Bernier",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 724,
-  "UdListDefinitionId": 316
+  "HeadingId": 116,
+  "Name": "Predovic, Gleason and Klein",
+  "Tooltip": "iusto",
+  "Deleted": true,
+  "Rank": 680,
+  "UdListDefinitionId": 337
 }
 ```
 
@@ -95,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 893,
-  "Name": "Bode Group",
-  "Tooltip": "adipisci",
-  "Deleted": true,
-  "Rank": 403,
-  "UdListDefinitionId": 87,
+  "HeadingId": 618,
+  "Name": "Legros-Haag",
+  "Tooltip": "molestias",
+  "Deleted": false,
+  "Rank": 258,
+  "UdListDefinitionId": 488,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 407
+      "FieldLength": 68
     }
   }
 }

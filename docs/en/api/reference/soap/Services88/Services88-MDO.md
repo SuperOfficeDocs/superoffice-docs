@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-MDO
 title: Services88.MDOAgent WSDL
+content_type: reference
 ---
 
 # Services88.MDOAgent WSDL

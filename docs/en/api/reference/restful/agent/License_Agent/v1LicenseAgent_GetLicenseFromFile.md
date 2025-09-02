@@ -2,6 +2,7 @@
 title: POST Agents/License/GetLicenseFromFile
 uid: v1LicenseAgent_GetLicenseFromFile
 generated: true
+content_type: reference
 ---
 
 # POST Agents/License/GetLicenseFromFile
@@ -76,11 +77,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "occaecati"
+  "FileContent": "ipsa"
 }
 ```
 
@@ -92,21 +93,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 303,
-      "NumberOfLicensesFree": 666,
-      "NumberOfLicensesAdded": 618,
-      "NumberOfLicensesNewTotal": 162,
-      "NumberOfLicensesNewFree": 661,
-      "NumberOfLicensesTotal": 735
+      "NumberOfLicensesInUse": 607,
+      "NumberOfLicensesFree": 962,
+      "NumberOfLicensesAdded": 26,
+      "NumberOfLicensesNewTotal": 511,
+      "NumberOfLicensesNewFree": 546,
+      "NumberOfLicensesTotal": 557
     }
   ],
-  "AccumulatedNextCheckDate": "2002-02-27T03:45:23.498579+01:00"
+  "AccumulatedNextCheckDate": "2008-05-23T03:46:54.9107593+02:00"
 }
 ```

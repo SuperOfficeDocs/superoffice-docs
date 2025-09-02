@@ -2,6 +2,7 @@
 title: Services88.SaleAgent.GetNextSaleStage SOAP
 generated: true
 uid: Services88-Sale-GetNextSaleStage
+content_type: reference
 ---
 
 # Services88 Sale GetNextSaleStage

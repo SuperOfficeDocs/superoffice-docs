@@ -2,6 +2,7 @@
 title: GET Project/UdefLayout
 uid: v1ProjectEntity_GetUdefLayout
 generated: true
+content_type: reference
 ---
 
 # GET Project/UdefLayout
@@ -90,7 +91,7 @@ OK
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,46 +102,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 678,
-    "ColumnId": 504,
-    "FieldDefault": "minus",
-    "FieldHeight": 404,
-    "FieldLabel": "et",
-    "FieldLeft": 698,
-    "FieldTop": 602,
+    "UDefFieldId": 509,
+    "ColumnId": 59,
+    "FieldDefault": "aut",
+    "FieldHeight": 797,
+    "FieldLabel": "omnis",
+    "FieldLeft": 17,
+    "FieldTop": 372,
     "FieldType": "Checkbox",
-    "FieldWidth": 859,
-    "FormatMask": "nisi",
+    "FieldWidth": 156,
+    "FormatMask": "ut",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 659,
-    "LabelLeft": 239,
-    "LabelTop": 999,
-    "LabelWidth": 981,
-    "LastVersionId": 106,
-    "ListTableId": 136,
+    "IsIndexed": true,
+    "LabelHeight": 774,
+    "LabelLeft": 100,
+    "LabelTop": 67,
+    "LabelWidth": 228,
+    "LastVersionId": 494,
+    "ListTableId": 849,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 795,
-    "ProgId": "voluptas",
+    "Page1LineNo": 605,
+    "ProgId": "exercitationem",
     "IsReadOnly": false,
-    "ShortLabel": "excepturi",
-    "TabOrder": 696,
-    "TextLength": 155,
-    "Tooltip": "porro",
-    "UdefIdentity": 289,
-    "UDListDefinitionId": 172,
+    "ShortLabel": "facere",
+    "TabOrder": 217,
+    "TextLength": 172,
+    "Tooltip": "quas",
+    "UdefIdentity": 214,
+    "UDListDefinitionId": 463,
     "Justification": "Center",
-    "Version": 191,
-    "TemplateVariableName": "Robel, Beahan and Schneider",
+    "Version": 319,
+    "TemplateVariableName": "Kunze-Schaefer",
     "HasBeenPublished": false,
-    "MdoListName": "Baumbach-Reinger",
+    "MdoListName": "Blanda, Tromp and Rowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 924
+        "FieldType": "System.Int32",
+        "FieldLength": 719
       }
     }
   }

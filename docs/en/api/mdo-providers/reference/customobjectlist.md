@@ -3,9 +3,9 @@ uid: customobjectlist
 title: customobjectlist
 keywords: mdoprovider mdo provider customobjectlist
 description: <see cref="T:SuperOffice.CRM.Lists.CustomObjectListProvider" /> creates tree list of the custom objects
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "customobjectlist" MDO List

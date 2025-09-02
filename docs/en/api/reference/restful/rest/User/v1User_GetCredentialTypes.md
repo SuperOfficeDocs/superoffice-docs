@@ -2,6 +2,7 @@
 title: GET User/CredentialTypes
 uid: v1User_GetCredentialTypes
 generated: true
+content_type: reference
 ---
 
 # GET User/CredentialTypes
@@ -62,7 +63,7 @@ OK
 GET /api/v1/User/CredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,9 +74,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "ducimus",
-    "Type": "voluptas",
-    "Description": "User-centric transitional archive",
+    "DisplayType": "dolore",
+    "Type": "ut",
+    "Description": "Fully-configurable local frame",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
     "IsUserNameSupported": true,
@@ -84,7 +85,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 597
+        "FieldLength": 655
       }
     }
   }

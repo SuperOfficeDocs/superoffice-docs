@@ -3,9 +3,9 @@ uid: ConfigurableArchiveAppointment
 title: ConfigurableArchiveAppointment
 description: This is the archive Provider for the Configurable appointment Archive.
 keywords: ConfigurableArchiveAppointment archive provider
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "ConfigurableArchiveAppointment"
@@ -738,7 +738,7 @@ This is the archive Provider for the Configurable appointment Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConfigurableArchiveAppointment?$select=cautionWarning,contact/contactDeleted,contact/email/emailAddress,person/correspondingAssociate/isLocation,project/updatedDate
+GET /api/v1/archive/ConfigurableArchiveAppointment?$select=appointmentId,contact/contactAssociate/contactId,contact/NumberOfSalesInPeriod,person/personNoMail,person/personAddress/line3
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

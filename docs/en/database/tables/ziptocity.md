@@ -2,10 +2,10 @@
 uid: table-ziptocity
 title: ziptocity table
 description: Zip codes and city names. Zip codes used during address entry. You will find more information about addressformat on http;//techdoc.superoffice.com 
-so.generated: true
+generated: true
 keywords: database table ziptocity
-so.topic: reference
-so.envir: onsite, online
+content_type: reference
+envir: onsite, online
 ---
 
 # ziptocity Table (16)

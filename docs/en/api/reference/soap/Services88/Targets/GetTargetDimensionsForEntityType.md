@@ -2,6 +2,7 @@
 title: Services88.TargetsAgent.GetTargetDimensionsForEntityType SOAP
 generated: true
 uid: Services88-Targets-GetTargetDimensionsForEntityType
+content_type: reference
 ---
 
 # Services88 Targets GetTargetDimensionsForEntityType

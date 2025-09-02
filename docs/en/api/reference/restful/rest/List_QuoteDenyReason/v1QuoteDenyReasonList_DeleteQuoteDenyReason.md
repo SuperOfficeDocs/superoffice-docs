@@ -2,6 +2,7 @@
 title: DEL List/QuoteDenyReason/Items/{id}
 uid: v1QuoteDenyReasonList_DeleteQuoteDenyReason
 generated: true
+content_type: reference
 ---
 
 # DEL List/QuoteDenyReason/Items/{id}

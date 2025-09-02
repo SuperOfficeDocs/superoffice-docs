@@ -2,6 +2,7 @@
 title: POST Agents/AI/TranslateEntity
 uid: v1AIAgent_TranslateEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/AI/TranslateEntity
@@ -70,13 +71,13 @@ OK
 POST /api/v1/Agents/AI/TranslateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Denesik-Leuschke",
-  "EntityId": 237,
-  "TargetLanguage": "aliquid"
+  "EntityName": "Bashirian Group",
+  "EntityId": 510,
+  "TargetLanguage": "ut"
 }
 ```
 
@@ -86,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"praesentium"
+"quasi"
 ```

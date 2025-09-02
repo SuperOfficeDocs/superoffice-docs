@@ -3,9 +3,9 @@ uid: contact_new
 title: contact_new
 keywords: mdoprovider mdo provider contact_new
 description: Provider for selecting a Contact - without person search. Does keyword matching and scoring across multiple string fields. Checks name, department, soundex fields.
-so.generated: true
-so.topic: reference
-so.envir: onsite, online
+generated: true
+content_type: reference
+envir: onsite, online
 ---
 
 # "contact_new" MDO List

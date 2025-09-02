@@ -2,6 +2,7 @@
 title: POST Agents/Contact/GetDuplicateRules
 uid: v1ContactAgent_GetDuplicateRules
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Contact/GetDuplicateRules
@@ -79,30 +80,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Yost Group",
-    "DisplayName": "Dicki-Feil",
-    "DisplayTooltip": "sed",
-    "IsActive": false,
+    "Name": "Connelly-Glover",
+    "DisplayName": "Yost, Heathcote and Kunde",
+    "DisplayTooltip": "voluptate",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 961
+        "FieldLength": 142
       }
     }
   },
   {
-    "Name": "Yost Group",
-    "DisplayName": "Dicki-Feil",
-    "DisplayTooltip": "sed",
-    "IsActive": false,
+    "Name": "Connelly-Glover",
+    "DisplayName": "Yost, Heathcote and Kunde",
+    "DisplayTooltip": "voluptate",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 961
+        "FieldLength": 142
       }
     }
   }

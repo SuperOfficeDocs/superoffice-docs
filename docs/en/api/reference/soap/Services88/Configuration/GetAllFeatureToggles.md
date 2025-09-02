@@ -2,6 +2,7 @@
 title: Services88.ConfigurationAgent.GetAllFeatureToggles SOAP
 generated: true
 uid: Services88-Configuration-GetAllFeatureToggles
+content_type: reference
 ---
 
 # Services88 Configuration GetAllFeatureToggles

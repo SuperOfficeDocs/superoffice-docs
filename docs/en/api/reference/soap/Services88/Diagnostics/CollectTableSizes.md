@@ -2,6 +2,7 @@
 title: Services88.DiagnosticsAgent.CollectTableSizes SOAP
 generated: true
 uid: Services88-Diagnostics-CollectTableSizes
+content_type: reference
 ---
 
 # Services88 Diagnostics CollectTableSizes

@@ -2,6 +2,7 @@
 title: POST Agents/List/GetConsentSources
 uid: v1ListAgent_GetConsentSources
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetConsentSources
@@ -71,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSources
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,19 +83,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 390,
-    "Name": "Reichel-Feil",
-    "Tooltip": "cumque",
-    "Rank": 310,
-    "Key": "ducimus",
-    "MailTemplateId": 74,
-    "Deleted": true,
+    "ConsentSourceId": 334,
+    "Name": "Zemlak-Ledner",
+    "Tooltip": "molestiae",
+    "Rank": 824,
+    "Key": "eius",
+    "MailTemplateId": 954,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 985
+        "FieldType": "System.Int32",
+        "FieldLength": 796
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/List/GetTicketCategoryEntity
 uid: v1ListAgent_GetTicketCategoryEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/GetTicketCategoryEntity
@@ -22,11 +23,11 @@ Gets a TicketCategoryEntity object.
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| ticketCategoryEntityId | int32 | **Required** The primary key. |
+| ticketCategoryEntityId | int32 | **Required** The identifier of the TicketCategoryEntity object |
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=860
+POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=954
 POST /api/v1/Agents/List/GetTicketCategoryEntity?$select=name,department,category/id
 ```
 
@@ -84,7 +85,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,36 +95,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 589,
-  "ParentId": 975,
-  "Name": "Legros-Muller",
-  "Fullname": "ratione",
-  "CategoryMaster": 246,
+  "TicketCategoryId": 318,
+  "ParentId": 945,
+  "Name": "Romaguera-Kilback",
+  "Fullname": "ut",
+  "CategoryMaster": 214,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Christiansen Group",
+  "ExternalName": "Bogisich Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 343,
-  "ReplyTemplate": 136,
-  "NotificationEmail": "loren@kundezemlak.uk",
+  "AssignmentLag": 589,
+  "ReplyTemplate": 666,
+  "NotificationEmail": "beulah.feil@gutmann.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 160,
+  "EffectiveReplyTemplateId": 448,
   "ExtraFields": {
-    "ExtraFields1": "quam",
-    "ExtraFields2": "velit"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "provident"
   },
   "CustomFields": {
-    "CustomFields1": "natus",
-    "CustomFields2": "ut"
+    "CustomFields1": "expedita",
+    "CustomFields2": "veritatis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 721
+      "FieldLength": 375
     }
   }
 }

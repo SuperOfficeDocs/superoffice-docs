@@ -2,6 +2,7 @@
 title: POST Agents/Selection/RemoveSelectionMembers
 uid: v1SelectionAgent_RemoveSelectionMembers
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Selection/RemoveSelectionMembers
@@ -67,14 +68,14 @@ No Content
 POST /api/v1/Agents/Selection/RemoveSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 666,
+  "SelectionId": 866,
   "SelectionMemberIds": [
-    372,
-    766
+    33,
+    544
   ]
 }
 ```

@@ -2,6 +2,7 @@
 generated: true
 uid: wsdl-Services88-Favourite
 title: Services88.FavouriteAgent WSDL
+content_type: reference
 ---
 
 # Services88.FavouriteAgent WSDL

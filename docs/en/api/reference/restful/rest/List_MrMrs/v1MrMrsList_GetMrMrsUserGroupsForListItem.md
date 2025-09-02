@@ -2,6 +2,7 @@
 title: GET List/MrMrs/Items/{id}/UserGroups
 uid: v1MrMrsList_GetMrMrsUserGroupsForListItem
 generated: true
+content_type: reference
 ---
 
 # GET List/MrMrs/Items/{id}/UserGroups
@@ -86,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 925,
-    "Name": "Kohler Group",
-    "ToolTip": "Et non facere cum.",
+    "Id": 427,
+    "Name": "Torp LLC",
+    "ToolTip": "Nihil rerum ullam consequatur eos occaecati laboriosam quaerat.",
     "Deleted": false,
-    "Rank": 680,
+    "Rank": 834,
     "Type": "molestiae",
-    "ColorBlock": 548,
-    "IconHint": "minus",
+    "ColorBlock": 384,
+    "IconHint": "voluptate",
     "Selected": false,
-    "LastChanged": "2025-05-19T03:45:29.060917+02:00",
+    "LastChanged": "2017-01-11T03:47:00.6755475+01:00",
     "ChildItems": [
       {
-        "Id": 730,
-        "Name": "Abbott, Morar and White",
-        "ToolTip": "Facere dolores asperiores odit.",
-        "Deleted": false,
-        "Rank": 238,
-        "Type": "sit",
-        "ColorBlock": 896,
-        "IconHint": "eum",
-        "Selected": true,
-        "LastChanged": "2011-04-05T03:45:29.060917+02:00",
+        "Id": 418,
+        "Name": "Kuvalis Inc and Sons",
+        "ToolTip": "Autem aliquam.",
+        "Deleted": true,
+        "Rank": 398,
+        "Type": "est",
+        "ColorBlock": 660,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2007-04-29T03:47:00.6755475+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "est",
+        "ExtraInfo": "quod",
+        "StyleHint": "sunt",
         "Hidden": true,
-        "FullName": "Delilah Schmitt",
+        "FullName": "Miss Antone Nicole Pfeffer MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 812
+            "FieldType": "System.String",
+            "FieldLength": 724
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "vitae",
-    "Hidden": false,
-    "FullName": "Ms. Carmela Lillian Casper PhD",
+    "ExtraInfo": "non",
+    "StyleHint": "suscipit",
+    "Hidden": true,
+    "FullName": "Darrell Kuhlman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 865
+        "FieldType": "System.Int32",
+        "FieldLength": 395
       }
     }
   }

@@ -2,6 +2,7 @@
 title: POST Agents/List/DeleteHierarchyEntity
 uid: v1ListAgent_DeleteHierarchyEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/DeleteHierarchyEntity
@@ -22,10 +23,10 @@ Deletes the HierarchyEntity
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| HierarchyEntityId | int32 | **Required** The id of the HierarchyEntity to be deleted. |
+| hierarchyEntityId | int32 | **Required** The identity of the HierarchyEntity |
 
 ```http
-POST /api/v1/Agents/List/DeleteHierarchyEntity?HierarchyEntityId=60
+POST /api/v1/Agents/List/DeleteHierarchyEntity?hierarchyEntityId=212
 ```
 
 
@@ -56,7 +57,7 @@ No Content
 POST /api/v1/Agents/List/DeleteHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response

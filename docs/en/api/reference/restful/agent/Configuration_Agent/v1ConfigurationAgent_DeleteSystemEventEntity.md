@@ -2,6 +2,7 @@
 title: POST Agents/Configuration/DeleteSystemEventEntity
 uid: v1ConfigurationAgent_DeleteSystemEventEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Configuration/DeleteSystemEventEntity
@@ -22,10 +23,10 @@ Deletes the SystemEventEntity
 
 | Parameter Name | Type |  Description |
 |----------------|------|--------------|
-| SystemEventEntityId | int32 | **Required** The id of the SystemEventEntity to be deleted. |
+| systemEventEntityId | int32 | **Required** The identity of the SystemEventEntity |
 
 ```http
-POST /api/v1/Agents/Configuration/DeleteSystemEventEntity?SystemEventEntityId=560
+POST /api/v1/Agents/Configuration/DeleteSystemEventEntity?systemEventEntityId=684
 ```
 
 

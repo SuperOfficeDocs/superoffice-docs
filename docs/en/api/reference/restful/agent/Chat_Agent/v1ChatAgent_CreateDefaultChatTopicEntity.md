@@ -2,6 +2,7 @@
 title: POST Agents/Chat/CreateDefaultChatTopicEntity
 uid: v1ChatAgent_CreateDefaultChatTopicEntity
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/CreateDefaultChatTopicEntity
@@ -10,10 +11,8 @@ generated: true
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 ```
 
-Set default values into a new ChatTopicEntity.
+Loading default values into a new ChatTopicEntity.
 
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
 
 
 
@@ -97,43 +96,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 200,
-  "Name": "Heaney, Keebler and Romaguera",
-  "Description": "Switchable multi-state leverage",
-  "WelcomeMessage": "sit",
+  "ChatTopicId": 726,
+  "Name": "Von Inc and Sons",
+  "Description": "Face to face empowering access",
+  "WelcomeMessage": "officiis",
   "Language": null,
-  "LastAccept": "2021-01-22T03:45:23.0142166+01:00",
-  "SecondsPrAccept": 330,
-  "AlertRecipient": "illo",
+  "LastAccept": "2025-02-27T03:46:54.3788954+01:00",
+  "SecondsPrAccept": 436,
+  "AlertRecipient": "sit",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "ut",
+  "CollectConsent": true,
+  "BadgeHeader": "aut",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "necessitatibus",
-  "WarnNewChatMinutes": 765,
-  "WarnManagerNewChatMinutes": 610,
-  "TicketEnabled": false,
+  "CustomQueueText": "sed",
+  "WarnNewChatMinutes": 107,
+  "WarnManagerNewChatMinutes": 309,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 56,
-  "WarnManagerChatMessageMinutes": 78,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 185,
+  "WarnManagerChatMessageMinutes": 899,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 751,
-  "OfflineFormQueueLength": 963,
+  "OfflineFormTimeLimit": 444,
+  "OfflineFormQueueLength": 204,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "qui",
+  "WidgetRatingText": "dolores",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 363
+      "FieldLength": 766
     }
   }
 }

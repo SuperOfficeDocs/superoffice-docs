@@ -2,6 +2,7 @@
 title: Services88.CustomerServiceAgent.ChatSessionsForUser SOAP
 generated: true
 uid: Services88-CustomerService-ChatSessionsForUser
+content_type: reference
 ---
 
 # Services88 CustomerService ChatSessionsForUser

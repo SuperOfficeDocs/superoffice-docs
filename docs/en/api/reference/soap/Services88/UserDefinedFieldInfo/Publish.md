@@ -2,6 +2,7 @@
 title: Services88.UserDefinedFieldInfoAgent.Publish SOAP
 generated: true
 uid: Services88-UserDefinedFieldInfo-Publish
+content_type: reference
 ---
 
 # Services88 UserDefinedFieldInfo Publish

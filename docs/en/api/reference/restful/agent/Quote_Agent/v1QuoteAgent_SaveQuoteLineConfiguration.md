@@ -2,6 +2,7 @@
 title: POST Agents/Quote/SaveQuoteLineConfiguration
 uid: v1QuoteAgent_SaveQuoteLineConfiguration
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Quote/SaveQuoteLineConfiguration
@@ -83,7 +84,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,21 +99,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 706,
-  "FieldName": "Hills Inc and Sons",
-  "Label": "aspernatur",
-  "Tooltip": "magnam",
-  "Editable": true,
+  "QuoteLineConfigurationId": 653,
+  "FieldName": "Koss, Littel and Funk",
+  "Label": "molestiae",
+  "Tooltip": "sapiente",
+  "Editable": false,
   "InUse": false,
   "Mandatory": false,
-  "Rank": 425,
-  "RestrictEdit": false,
+  "Rank": 337,
+  "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 255
+      "FieldLength": 514
     }
   }
 }

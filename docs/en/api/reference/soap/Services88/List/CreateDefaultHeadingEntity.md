@@ -2,6 +2,7 @@
 title: Services88.ListAgent.CreateDefaultHeadingEntity SOAP
 generated: true
 uid: Services88-List-CreateDefaultHeadingEntity
+content_type: reference
 ---
 
 # Services88 List CreateDefaultHeadingEntity

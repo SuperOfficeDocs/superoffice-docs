@@ -2,6 +2,7 @@
 title: POST Agents/Chat/AddChatMessage
 uid: v1ChatAgent_AddChatMessage
 generated: true
+content_type: reference
 ---
 
 # POST Agents/Chat/AddChatMessage
@@ -84,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 964,
+  "ChatSessionId": 548,
   "Message": null
 }
 ```
@@ -96,14 +97,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatMessageId": 276,
-  "ChatSessionId": 919,
+  "ChatMessageId": 918,
+  "ChatSessionId": 758,
   "Type": "Invalid",
-  "Message": "dolorem",
-  "Author": "aut",
-  "ReadByCustomer": 520,
+  "Message": "cumque",
+  "Author": "culpa",
+  "ReadByCustomer": 867,
   "SpecialType": "Block",
-  "SpecialParam": "quia",
-  "WhenPosted": "2003-07-05T03:45:23.0610908+02:00"
+  "SpecialParam": "labore",
+  "WhenPosted": "2011-03-21T03:46:54.3788954+01:00"
 }
 ```

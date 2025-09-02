@@ -2,6 +2,7 @@
 title: Services88.UserDefinedFieldInfoAgent.SetPublishStartSystemEvent SOAP
 generated: true
 uid: Services88-UserDefinedFieldInfo-SetPublishStartSystemEvent
+content_type: reference
 ---
 
 # Services88 UserDefinedFieldInfo SetPublishStartSystemEvent

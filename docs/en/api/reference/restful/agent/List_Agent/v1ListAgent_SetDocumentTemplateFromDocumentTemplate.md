@@ -2,6 +2,7 @@
 title: POST Agents/List/SetDocumentTemplateFromDocumentTemplate
 uid: v1ListAgent_SetDocumentTemplateFromDocumentTemplate
 generated: true
+content_type: reference
 ---
 
 # POST Agents/List/SetDocumentTemplateFromDocumentTemplate
@@ -98,11 +99,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 86,
+  "SourceDocumentTemplateId": 285,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +115,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 209,
-  "Name": "Carter, Turcotte and Corwin",
-  "Tooltip": "hic",
-  "SaveInDb": 534,
-  "Filename": "suscipit",
-  "DefaultOref": "et",
+  "DocumentTemplateId": 655,
+  "Name": "Turcotte, Cassin and Dickens",
+  "Tooltip": "animi",
+  "SaveInDb": 93,
+  "Filename": "qui",
+  "DefaultOref": "ut",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 97,
-  "IntentId": 421,
+  "AutoeventId": 20,
+  "IntentId": 325,
   "IsDefaultPublished": false,
-  "Rank": 374,
-  "LoadTemplateFromPlugin": 604,
-  "MimeType": "corporis",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 512,
+  "Rank": 869,
+  "LoadTemplateFromPlugin": 915,
+  "MimeType": "neque",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 25,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "ludie@botsfordblanda.name",
+  "EmailSubject": "cheyenne@oberbrunnermann.info",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "edmond@keelingdurgan.uk",
+  "SenderEmailAddress": "leonor.huel@mccullough.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 903
+      "FieldType": "System.Int32",
+      "FieldLength": 417
     }
   }
 }

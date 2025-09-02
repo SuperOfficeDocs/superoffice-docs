@@ -2,6 +2,7 @@
 title: Services88.DatabaseAgent.GetStepsFromNetServerCode SOAP
 generated: true
 uid: Services88-Database-GetStepsFromNetServerCode
+content_type: reference
 ---
 
 # Services88 Database GetStepsFromNetServerCode

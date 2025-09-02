@@ -2,6 +2,7 @@
 title: POST Agents/CustomerService/GetPreviewQuickReply
 uid: v1CustomerServiceAgent_GetPreviewQuickReply
 generated: true
+content_type: reference
 ---
 
 # POST Agents/CustomerService/GetPreviewQuickReply
@@ -80,7 +81,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 158
+  "QuickReplyId": 13
 }
 ```
 
@@ -91,16 +92,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hayes LLC",
-  "UpdatedByFullName": "Ally Hoeger",
-  "Updated": "2001-02-20T03:45:23.2485827+01:00",
-  "HtmlBody": "quo",
+  "Name": "Hyatt-Hoeger",
+  "UpdatedByFullName": "Yasmin Hettinger Jr.",
+  "Updated": "2005-09-04T03:46:54.5976376+02:00",
+  "HtmlBody": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 422
+      "FieldType": "System.Int32",
+      "FieldLength": 744
     }
   }
 }

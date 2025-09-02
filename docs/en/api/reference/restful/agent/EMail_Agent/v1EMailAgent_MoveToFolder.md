@@ -2,6 +2,7 @@
 title: POST Agents/EMail/MoveToFolder
 uid: v1EMailAgent_MoveToFolder
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/MoveToFolder
@@ -74,10 +75,10 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    419,
-    126
+    647,
+    6
   ],
-  "TargetFolder": "doloremque"
+  "TargetFolder": "aut"
 }
 ```
 

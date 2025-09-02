@@ -2,6 +2,7 @@
 title: POST Agents/User/CreateDefaultUntrustedCredentials
 uid: v1UserAgent_CreateDefaultUntrustedCredentials
 generated: true
+content_type: reference
 ---
 
 # POST Agents/User/CreateDefaultUntrustedCredentials
@@ -10,10 +11,7 @@ generated: true
 POST /api/v1/Agents/User/CreateDefaultUntrustedCredentials
 ```
 
-Set default values into a new UntrustedCredentials.
-
-
-NetServer calculates default values on the entity, which is required when creating/storing a new instance
+Loading default values into a new UntrustedCredentials.
 
 
 ## Online Restricted: ## The User agent is not available in Online by default. User management is not allowed for partner apps.
@@ -65,7 +63,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUntrustedCredentials
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +73,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ValidFrom": "2007-09-26T03:45:24.1548097+02:00",
-  "ValidTo": "2002-03-07T03:45:24.1548097+01:00",
-  "Comment": "laboriosam",
-  "SecretValue": "sint",
-  "PublicValue": "omnis",
+  "ValidFrom": "2014-10-13T03:46:55.581978+02:00",
+  "ValidTo": "2005-01-08T03:46:55.581978+01:00",
+  "Comment": "architecto",
+  "SecretValue": "ut",
+  "PublicValue": "quo",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldLength": 992
     }
   }
 }

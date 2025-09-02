@@ -2,6 +2,7 @@
 title: POST Agents/EMail/GetEMailFromAttachmentId
 uid: v1EMailAgent_GetEMailFromAttachmentId
 generated: true
+content_type: reference
 ---
 
 # POST Agents/EMail/GetEMailFromAttachmentId
@@ -106,10 +107,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 909,
+  "EmailId": 520,
   "AttachmentIds": [
-    "adipisci",
-    "commodi"
+    "voluptatem",
+    "temporibus"
   ],
   "IncludeAttachments": true
 }
@@ -124,148 +125,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 684,
-      "ContactName": "Wintheiser-Upton",
-      "PersonId": 960,
-      "PersonName": "Jaskolski Inc and Sons",
-      "AssociateId": 535,
-      "Address": "adipisci",
-      "EmailId": 990,
+      "ContactId": 447,
+      "ContactName": "Monahan-Casper",
+      "PersonId": 599,
+      "PersonName": "Buckridge-Hahn",
+      "AssociateId": 339,
+      "Address": "dolores",
+      "EmailId": 848,
       "DuplicatePersonIds": [
-        812,
-        566
+        200,
+        225
       ],
-      "Name": "Medhurst-Ankunding",
+      "Name": "Kertzmann LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 161
+          "FieldType": "System.Int32",
+          "FieldLength": 703
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 662,
-      "ContactName": "Lockman, Donnelly and Lindgren",
-      "PersonId": 127,
-      "PersonName": "Sporer-Schuster",
-      "AssociateId": 126,
-      "Address": "ut",
-      "EmailId": 400,
+      "ContactId": 593,
+      "ContactName": "Little Group",
+      "PersonId": 870,
+      "PersonName": "Dickens, Reinger and Murazik",
+      "AssociateId": 558,
+      "Address": "enim",
+      "EmailId": 434,
       "DuplicatePersonIds": [
-        578,
-        508
+        909,
+        188
       ],
-      "Name": "Batz-Nienow",
+      "Name": "Robel, Mraz and Deckow",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 498
+          "FieldType": "System.Int32",
+          "FieldLength": 707
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 845,
-      "ContactName": "Cole Inc and Sons",
-      "PersonId": 257,
-      "PersonName": "Douglas, Schneider and Green",
-      "AssociateId": 470,
-      "Address": "ipsa",
-      "EmailId": 932,
+      "ContactId": 398,
+      "ContactName": "Lehner Inc and Sons",
+      "PersonId": 223,
+      "PersonName": "Nolan LLC",
+      "AssociateId": 778,
+      "Address": "voluptatibus",
+      "EmailId": 665,
       "DuplicatePersonIds": [
-        394,
-        228
+        272,
+        720
       ],
-      "Name": "Cassin-Prosacco",
+      "Name": "Hermann-Hand",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 191
+          "FieldType": "System.String",
+          "FieldLength": 447
         }
       }
     }
   ],
-  "Subject": "et",
-  "HTMLBody": "nam",
+  "Subject": "qui",
+  "HTMLBody": "recusandae",
   "From": null,
-  "Sent": "2004-07-10T03:45:23.4360809+02:00",
-  "Size": 959,
+  "Sent": "1998-05-21T03:46:54.785131+02:00",
+  "Size": 606,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "nobis",
-  "PlainBody": "harum",
+  "MessageID": "dignissimos",
+  "PlainBody": "commodi",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 590,
+  "ServerId": 973,
   "Attachments": [
     {
-      "Description": "Implemented object-oriented neural-net",
-      "Filename": "et",
-      "Size": 150,
-      "Type": "delectus",
-      "Encoding": "et",
-      "Id": "totam",
-      "Disposition": "nesciunt",
+      "Description": "Face to face global knowledge base",
+      "Filename": "eaque",
+      "Size": 617,
+      "Type": "vel",
+      "Encoding": "reiciendis",
+      "Id": "et",
+      "Disposition": "tempora",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 638
+          "FieldType": "System.String",
+          "FieldLength": 172
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Durgan-Buckridge",
+      "Name": "Braun, Hyatt and Rau",
       "Values": [
-        "quo",
-        "velit"
+        "vitae",
+        "quaerat"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 388
+          "FieldType": "System.String",
+          "FieldLength": 605
         }
       }
     },
     {
-      "Name": "Durgan-Buckridge",
+      "Name": "Braun, Hyatt and Rau",
       "Values": [
-        "quo",
-        "velit"
+        "vitae",
+        "quaerat"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 388
+          "FieldType": "System.String",
+          "FieldLength": 605
         }
       }
     }
   ],
-  "FolderName": "Littel-O'Hara",
-  "EmailItemId": 693,
-  "AccountId": 103,
-  "ReceivedAt": "2011-10-22T03:45:23.4360809+02:00",
+  "FolderName": "Douglas LLC",
+  "EmailItemId": 948,
+  "AccountId": 735,
+  "ReceivedAt": "2010-06-09T03:46:54.785131+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2008-02-02T03:45:23.4360809+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2021-07-21T03:46:54.785131+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -273,7 +274,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 635
+      "FieldLength": 209
     }
   }
 }

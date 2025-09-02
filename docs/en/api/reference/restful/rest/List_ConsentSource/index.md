@@ -1,6 +1,8 @@
 ---
+uid: tag-List_ConsentSource
 title: List_ConsentSource
 generated: true
+content_type: reference
 ---
 
 ```http
