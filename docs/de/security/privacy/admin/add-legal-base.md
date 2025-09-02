@@ -4,7 +4,7 @@ title: Objekte zur Liste Datenschutz - Rechtsgrundlage hinzufügen
 description: Lernen Sie, wie man die Datenschutzlisten in dieser Anleitung ändern kann.
 keywords: Datenschutz Rechtsgrundlage Liste, Rechtsgrundlage hinzufügen
 author: SuperOffice Product and Engineering
-date: 02.23.2023
+date: 09.02.2025
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -15,19 +15,23 @@ redirect_from: /de/admin/lists/learn/privacy-legal-base-add
 
 # Objekte zur Liste Datenschutz - Rechtsgrundlage hinzufügen
 
-Um die Felder im Dialog **Listenelement bearbeiten** auszufüllen, wenn Sie ein Objekt zur Liste **Datenschutz - Rechtsgrundlage** hinzufügen.
-
-Sehen Sie sich das Video an, um zu lernen, wie man die Datenschutzlisten ändert (Videolänge - 3:57):
-
-<!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
-> [!Video https://www.youtube.com/embed/h1q6QX62ASk]
+Die Liste **Datenschutz - Rechtsgrundlage** enthält Optionen, die Benutzer auswählen, um die Rechtsgrundlage für die Verarbeitung personenbezogener Daten einer Person zu dokumentieren.
 
 ## Schritte
 
+1. Wählen Sie <i class="ph ph-list-bullets" aria-hidden="true"></i> **Listen** im Navigator.
+
+1. Wählen Sie **Datenschutz - Rechtsgrundlage** aus dem Dropdown-Menü. Die Registerkarte **Objekte** zeigt alle vorhandenen Rechtsgrundlagen.
+
+1. Klicken Sie auf **Hinzufügen**, um den Dialog **Listenelement bearbeiten** zu öffnen.
+
 1. Geben Sie den Objektnamen in das Feld **Name** ein.
-2. Geben Sie eine eindeutige Kennung für die Rechtsgrundlage in das Feld **Schlüssel** ein. Dieser Wert bleibt unabhängig von der Datenbank eindeutig und wird von Entwicklern verwendet.
-3. Geben Sie eine Beschreibung für das Objekt in das Feld **Beschreibung** ein.
-4. Klicken Sie auf **Speichern**, um die Änderungen zu speichern, oder auf **Abbrechen**, um sie zu verwerfen.
+
+1. Geben Sie eine eindeutige Kennung für die Rechtsgrundlage in das Feld **Schlüssel** ein. Dieser Wert bleibt unabhängig von der Datenbank eindeutig und wird von Entwicklern verwendet.
+
+1. Geben Sie eine Beschreibung für das Objekt in das Feld **Beschreibung** ein.
+
+1. Klicken Sie auf **Speichern**, um die Änderungen zu speichern, oder auf **Abbrechen**, um sie zu verwerfen.
 
 ## Verwandte Inhalte
 

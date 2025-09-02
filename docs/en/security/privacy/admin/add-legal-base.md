@@ -4,7 +4,7 @@ title: Add items to the Privacy - Legal basis list
 description: Learn how to change the privacy lists in this how-to guide.
 keywords: Privacy - Legal basis list, Add legal base
 author: SuperOffice Product and Engineering
-date: 02.23.2023
+date: 09.02.2025
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -15,14 +15,21 @@ redirect_from: /en/admin/lists/learn/privacy-legal-base-add
 
 # Add items to the Privacy - Legal basis list
 
-To complete the fields in the **Edit list item** dialog when you are adding an item to the **Privacy - Legal basis** list.
+The **Privacy - Legal basis** list contains options that users select to document the legal basis for processing a contact's personal data.
 
-Watch the video to learn how to change privacy lists (video length - 3:57):
+Watch the video to learn how to change privacy lists:
 
 <!-- markdownlint-disable-next-line MD034 DOCSMD007 -->
 > [!Video https://www.youtube.com/embed/h1q6QX62ASk]
+(video length - 3:57)
 
 ## Steps
+
+1. Select <i class="ph ph-list-bullets" aria-hidden="true"></i> **Lists** in the Navigator.
+
+1. Select **Privacy - Legal basis** from the dropdown menu. The **Items** tab shows all existing sources.
+
+1. Click **Add** to open the **Edit list item** dialog.
 
 1. Enter the name of the item in the **Name** field.
 1. Enter a unique identifier for the legal basis in the **Key** field. This value will remain unique independent of database and is used by developers.

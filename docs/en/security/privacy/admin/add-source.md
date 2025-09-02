@@ -4,7 +4,7 @@ title: Add items to the Privacy - Source list
 description: Learn how to change the privacy lists in this how-to guide.
 keywords: Privacy - Source list, add privacy source
 author: SuperOffice Product and Engineering
-date: 02.23.2023
+date: 09.02.2025
 content_type: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -15,9 +15,15 @@ redirect_from: /en/admin/lists/learn/privacy-source-add
 
 # Add items to the Privacy - Source list
 
-To complete the fields in the **Edit list item** dialog when you are adding an item when you are adding an item to the **Privacy - Source** list:
+The **Privacy - Source** list contains options that users select to show how and where they obtained consent from a contact.
 
 ## Steps
+
+1. Select <i class="ph ph-list-bullets" aria-hidden="true"></i> **Lists** in the Navigator.
+
+1. Select **Privacy - Source** from the dropdown menu. The **Items** tab shows all existing sources.
+
+1. Click **Add** to open the **Edit list item** dialog.
 
 1. Enter the name of the item in the **Name** field.
 
