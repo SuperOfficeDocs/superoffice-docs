@@ -60,7 +60,7 @@ Wenn Sie diese Option wählen, werden bei einer Kampagne nur Personen, die expli
 
 Wenn Sie diese Option *nicht* wählen, werden nur Personen, bei denen **E-Marketing** auf **AUS** und die Rechtsgrundlage auf **Widerrufen** gesetzt ist, aus der Empfängerliste herausgefiltert. Dies funktioniert genauso wie **Mailsperre**.
 
-## Was möchten Sie als Nächstes tun?
+## Verwandte Inhalte
 
 * [Objekte zur Liste Datenschutz - Rechtsgrundlage hinzufügen][3]
 * [Objekte zur Liste Datenschutz - Nachweis hinzufügen][4]

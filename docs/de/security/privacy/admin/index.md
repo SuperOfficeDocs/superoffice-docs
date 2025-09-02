@@ -266,7 +266,7 @@ DSGVO-Konformität – ein laufendes Projekt
 
 Mit dem Abschluss der drei Schritte haben Sie wichtige Maßnahmen zur Einhaltung der DSGVO ergriffen. Die Einhaltung der DSGVO ist jedoch ein fortlaufendes Projekt und umfasst alle IT-Systeme, die Ihre Firma verwendet. Von nun an sollten Sie sich darauf konzentrieren, die ordnungsgemäße Verwaltung personenbezogener Kundendaten in Ihrem SuperOffice CRM aufrechtzuerhalten – gemäß den Datenschutzrichtlinien Ihrer Firma und den Anforderungen der DSGVO.
 
-## Verwandt
+## Verwandte Inhalte
 
 * [Unsere Vorlage "Vorbereitung auf die DSGVO" herunterladen][3]
 * [E-Mail zur Datenschutzbestätigung bearbeiten][6]

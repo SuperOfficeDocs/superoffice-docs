@@ -62,7 +62,7 @@ Die E-Mail zur Datenschutzbestätigung informiert die Person normalerweise über
 
 Die E-Mail kann auch einen Link zu einem Kundenzentrum enthalten, wo die Person Abonnements und Einwilligung verwalten kann. Der Link ist standardmäßig 21 Tage gültig.
 
-## Verwandt
+## Verwandte Inhalte
 
 * [Bearbeiten Sie die E-Mail der Datenschutzbestätigung unter Einstellungen und Verwaltung][1]
 

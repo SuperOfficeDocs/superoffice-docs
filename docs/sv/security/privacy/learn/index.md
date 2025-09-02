@@ -60,7 +60,7 @@ Om du väljer det här alternativet kommer enbart personer som gett sitt medgiva
 
 Om du *inte* väljer det här alternativet kommer bara personer med **E-marknadsföring** inställt på **AV** och med rättslig grund inställt på **Återkallat** att filtreras bort från mottagarlistan. Den fungerar på samma sätt som för **Inga utskick**.
 
-## Vad vill du göra nu?
+## Relaterat innehåll
 
 * [Lägga till poster i listan Integritet – Rättslig grund][3]
 * [Lägga till poster i listan Integritet – Källa][4]

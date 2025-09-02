@@ -13,7 +13,7 @@ language: de
 
 Wenn eine Person Einsicht in alle erfassten Informationen verlangt, die über sie in SuperOffice gespeichert sind, können Sie in die Ansicht Person gehen und einen Bericht erstellen, der alle personenbezogenen Daten einer Person enthält. Der Bericht enthält alle Daten, die zu dieser Person in SuperOffice gespeichert sind. Dazu gehören Kontaktinformationen, Interessen, Abonnements, Einwilligungsinformationen und registrierte Aktivitäten sowie die Kommunikation (Folgeaufgaben, Dokumente, Anfragen und Kampagnen).
 
-**Schritte:**
+## Schritte
 
 [!include[Go to Contact screen](../../../learn/includes/goto-contact.md)]
 

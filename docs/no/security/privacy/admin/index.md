@@ -266,7 +266,7 @@ GDPR-samsvar – et pågående prosjekt
 
 Ved å fullføre de tre trinnene har du tatt viktige skritt mot GDPR-samsvar. Men samsvar med GDPR et pågående prosjekt og involverer alle IT-systemene firmaet bruker. Fra nå av bør du fokusere på å opprettholde riktig håndtering av personlige kundedata i SuperOffice CRM – i henhold til firmaets personvernerklæring og GDPR-kravene.
 
-## Beslektet
+## Relatert innhold
 
 * [Last ned malen "Forbered deg på GDPR"][3]
 * [Rediger e-postbekreftelsen for personvern][6]

@@ -266,7 +266,7 @@ GDPR compliance – an ongoing project
 
 By completing the three steps, you have taken important steps towards GDPR compliance. However, being GDPR compliant is an ongoing project and involves all the IT systems your company uses. From now on, you should focus on maintaining the proper management of personal customer data in your SuperOffice CRM – according to your company's privacy policies and the GDPR requirements.
 
-## Related
+## Related content
 
 * [Download our "Prepare for GDPR" template][3]
 * [Edit the privacy confirmation email][6]

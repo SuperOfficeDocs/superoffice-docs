@@ -29,7 +29,7 @@ Die E-Mail-Vorlage zur Datenschutzbestätigung ist eine **E-Mail-Vorlage**, die 
 
 [Wie Sie eine E-Mail-Vorlage hinzufügen][1]
 
-## Verwandt
+## Verwandte Inhalte
 
 * [Datenschutz-E-Mail wegen des Rechts von Personen auf Information senden][2]
 

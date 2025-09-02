@@ -41,7 +41,7 @@ Listen **Personvern - Kilde** inneholder alternativer som brukere velger for å 
 
 1. Klikk **Lagre** for å lagre endringene eller **Avbryt** for å forkaste dem.
 
-## Beslektet innhold
+## Relatert innhold
 
 * [Slik legger du til forekomster i listen Personvern - Hjemmel][2]
 

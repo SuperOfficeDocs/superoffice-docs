@@ -266,7 +266,7 @@ GDPR-efterlevnad – ett pågående projekt
 
 Genom att slutföra de tre stegen har du tagit viktiga steg mot GDPR-efterlevnad. Att vara GDPR-kompatibel är dock ett pågående projekt och involverar alla it-system som ditt företag använder. Från och med nu bör du fokusera på att upprätthålla korrekt hantering av kunders personuppgifter i din SuperOffice CRM-lösning – i enlighet med ditt företags integritetspolicy och kraven i GDPR.
 
-## Relaterat
+## Relaterat innehåll
 
 * [Ladda ner vår mall "Förbered dig för GDPR"][3]
 * [Redigera e-postbekräftelsen om personskydd][6]

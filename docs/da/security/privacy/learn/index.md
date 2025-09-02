@@ -60,7 +60,7 @@ Hvis du vælger denne indstilling, vil kun personer, der har givet deres udtrykk
 
 Hvis du *ikke* vælger denne indstilling, vil kun personer med **E-markedsføring** indstillet til **OFF** og retsgrundlag indstillet til **Trukket tilbage** blive filtreret fra modtagerlisten. Dette fungerer på samme måde som **Ingen udsendelser**.
 
-## Hvad ønsker du at foretage dig nu?
+## Relateret indhold
 
 * [Tilføjelse af forekomster på listen Personbeskyttelse - Retsgrundlag][3]
 * [Tilføjelse af forekomster på listen Personbeskyttelse - Kilde][4]

@@ -62,7 +62,7 @@ E-postbekreftelsen for personvern informerer vanligvis personen om følgende:
 
 E-posten kan også inneholde en kobling til et kundesenter der personen kan administrere abonnementer og samtykke. Koblingen er gyldig i 21 dager som standard.
 
-## Beslektet
+## Relatert innhold
 
 * [Rediger e-postbekreftelsen for personvern i Innstillinger og vedlikehold][1]
 

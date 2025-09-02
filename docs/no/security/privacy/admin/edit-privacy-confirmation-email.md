@@ -36,7 +36,7 @@ Malen for e-postbekreftelse for personvern er en **e-postmal**, som opprettes og
 
     Den nye redigerte versjonen er nå klar og kan brukes umiddelbart.
 
-## Beslektet
+## Relatert innhold
 
 * [Slik legger du til en e-postmal][1]
 * [Send en personvern-e-post for dine personers rett til å bli informert][2]

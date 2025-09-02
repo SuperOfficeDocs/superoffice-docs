@@ -60,7 +60,7 @@ If you select this option, only persons who have given their explicit consent to
 
 If you do *not* select this option, only persons with **E-marketing** set to **OFF** and legal basis set to **Withdrawn** will be filtered out of the recipients list. This works the same way as **No mailings**.
 
-## What do you want to do now?
+## Related content
 
 * [Add items to the Privacy - Legal basis list][3]
 * [Add items to the Privacy - Source list][4]

@@ -13,7 +13,7 @@ language: da
 
 Hvis en person beder om at se al information, der er registreret om vedkommende SuperOffice, kan du gå til skærmbilledet Person og oprette en rapport, der indeholder personoplysninger for en person. Rapporten indeholder alle data, der er registreret om denne person i SuperOffice, herunder personinformation, interesser, abonnementer, samtykkeinformation samt registrerede aktiviteter og kommunikation (opfølgninger, dokumenter, sager og udsendelser).
 
-**Trin:**
+## Trin
 
 [!include[Go to Contact screen](../../../learn/includes/goto-contact.md)]
 

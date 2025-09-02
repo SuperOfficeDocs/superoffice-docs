@@ -64,7 +64,7 @@ E-postbekräftelsen om personskydd informerar vanligtvis om följande:
 
 E-postmeddelandet kan också innehålla en länk till ett kundcenter där kontakten kan administrera abonnemang och samtycke. Länken är giltig i 21 dagar som standard.
 
-## Relaterat
+## Relaterat innehåll
 
 * [Redigera bekräftelsen om personskydd i Inställningar och underhåll][1]
 

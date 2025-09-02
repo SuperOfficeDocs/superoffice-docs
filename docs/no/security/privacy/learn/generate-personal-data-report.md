@@ -13,7 +13,7 @@ language: no
 
 Hvis en person ber om å få se all informasjon som er registrert på dem i SuperOffice, kan du gå til skjermbildet Person og generere en rapport som inneholder personopplysningene til en person. Rapporten inneholder alle data som er registrert om denne personen i SuperOffice, inkludert personinformasjon, interesser, abonnementer, samtykkeinformasjon og registrerte aktiviteter og kommunikasjon (oppfølginger, dokumenter, saker og utsendelser).
 
-**Trinn:**
+## Trinn
 
 [!include[Go to Contact screen](../../../learn/includes/goto-contact.md)]
 

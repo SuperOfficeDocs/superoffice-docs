@@ -36,7 +36,7 @@ Se videoen for å finne ut hvordan du endrer personvern lister:
 1. Skriv en beskrivelse av forekomsten i feltet **Beskrivelse**.
 1. Klikk **Lagre** for å lagre endringene eller **Avbryt** for å forkaste dem.
 
-## Beslektet innhold
+## Relatert innhold
 
 * [Legge til forekomster i listen Personvern - Kilde][1]
 

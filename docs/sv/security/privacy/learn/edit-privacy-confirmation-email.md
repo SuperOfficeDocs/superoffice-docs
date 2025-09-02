@@ -29,7 +29,7 @@ Mallen för e-postbekräftelse om personskydd är en **e-postmall** som skapas o
 
 [Så lägger du till en e-postmall][1]
 
-## Relaterat
+## Relaterat innehåll
 
 * [Skicka ett e-postmeddelande om integritet som tar upp dina kontakters rätt att bli informerade][2]
 
