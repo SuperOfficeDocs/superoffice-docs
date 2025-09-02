@@ -91,4 +91,4 @@ Dette er en oversigt over særlige indstillinger i nogle af de tilgængelige fel
 [1]: recaptcha.md
 [2]: create.md#multi-page
 [3]: ../../recipients/learn/manage-email-subscriptions.md
-[4]: ../../../security/privacy/learn/admin/add-purpose.md
+[4]: ../../../security/privacy/admin/add-purpose.md

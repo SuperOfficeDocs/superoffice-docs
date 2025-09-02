@@ -49,7 +49,7 @@ Listan **Integritet – Källa** innehåller alternativ som användare väljer f
 * [Så lägger du till poster i listan Integritet – Rättslig grund][2]
 
 <!-- Referenced links -->
-[1]: ../../document/templates/admin/link-template.md
+[1]: ../../../document/templates/admin/link-template.md
 [2]: add-legal-base.md
 
 <!-- Referenced images -->

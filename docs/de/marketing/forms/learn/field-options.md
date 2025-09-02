@@ -91,4 +91,4 @@ Im Folgenden finden Sie eine Übersicht über spezielle Optionen in einigen verf
 [1]: recaptcha.md
 [2]: create.md#multi-page
 [3]: ../../recipients/learn/manage-email-subscriptions.md
-[4]: ../../../security/privacy/learn/admin/add-purpose.md
+[4]: ../../../security/privacy/admin/add-purpose.md
