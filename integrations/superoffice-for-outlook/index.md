@@ -14,7 +14,14 @@ topic: SuperOffice for Outlook
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
-redirect_from: /en/email/superoffice-for-outlook/index
+redirect_from: 
+  - /en/email/superoffice-for-outlook/index
+  - /en/email/superoffice-for-outlook/learn/index
+  - /da/email/superoffice-for-outlook/learn/index
+  - /de/email/superoffice-for-outlook/learn/index
+  - /nl/email/superoffice-for-outlook/learn/index
+  - /no/email/superoffice-for-outlook/learn/index
+  - /sv/email/superoffice-for-outlook/learn/index
 ---
 
 # SuperOffice for Outlook (SOFO)

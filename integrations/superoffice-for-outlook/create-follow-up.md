@@ -12,6 +12,13 @@ topic: SuperOffice for Outlook
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from: 
+  - /en/email/superoffice-for-outlook/learn/create-follow-up
+  - /da/email/superoffice-for-outlook/learn/create-follow-up
+  - /de/email/superoffice-for-outlook/learn/create-follow-up
+  - /nl/email/superoffice-for-outlook/learn/create-follow-up
+  - /no/email/superoffice-for-outlook/learn/create-follow-up
+  - /sv/email/superoffice-for-outlook/learn/create-follow-up
 ---
 
 # Create follow-up

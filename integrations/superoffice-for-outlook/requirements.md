@@ -14,7 +14,14 @@ platform: web
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
-redirect_from: /en/email/superoffice-for-outlook/requirements
+redirect_from: 
+  - /en/email/superoffice-for-outlook/requirements
+  - /en/email/superoffice-for-outlook/learn/requirements
+  - /da/email/superoffice-for-outlook/learn/requirements
+  - /de/email/superoffice-for-outlook/learn/requirements
+  - /nl/email/superoffice-for-outlook/learn/requirements
+  - /no/email/superoffice-for-outlook/learn/requirements
+  - /sv/email/superoffice-for-outlook/learn/requirements
 ---
 
 # Requirements

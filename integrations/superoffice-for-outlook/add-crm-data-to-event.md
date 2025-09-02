@@ -12,6 +12,13 @@ topic: SuperOffice for Outlook
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from: 
+  - /en/email/superoffice-for-outlook/learn/add-crm-data-to-event
+  - /da/email/superoffice-for-outlook/learn/add-crm-data-to-event
+  - /de/email/superoffice-for-outlook/learn/add-crm-data-to-event
+  - /nl/email/superoffice-for-outlook/learn/add-crm-data-to-event
+  - /no/email/superoffice-for-outlook/learn/add-crm-data-to-event
+  - /sv/email/superoffice-for-outlook/learn/add-crm-data-to-event
 ---
 
 # Add CRM data to Outlook event

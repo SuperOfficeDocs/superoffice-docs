@@ -12,7 +12,14 @@ topic: SuperOffice for Outlook
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
-redirect_from: /en/email/superoffice-for-outlook/deploy-office-add-in
+redirect_from: 
+  - /en/email/superoffice-for-outlook/deploy-office-add-in
+  - /en/email/superoffice-for-outlook/learn/get
+  - /da/email/superoffice-for-outlook/learn/get
+  - /de/email/superoffice-for-outlook/learn/get
+  - /nl/email/superoffice-for-outlook/learn/get
+  - /no/email/superoffice-for-outlook/learn/get
+  - /sv/email/superoffice-for-outlook/learn/get
 ---
 
 # Get the add-in

@@ -12,6 +12,13 @@ topic: SuperOffice for Outlook
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from: 
+  - /en/email/superoffice-for-outlook/learn/create-request
+  - /da/email/superoffice-for-outlook/learn/create-request
+  - /de/email/superoffice-for-outlook/learn/create-request
+  - /nl/email/superoffice-for-outlook/learn/create-request
+  - /no/email/superoffice-for-outlook/learn/create-request
+  - /sv/email/superoffice-for-outlook/learn/create-request
 ---
 
 # Add request or message

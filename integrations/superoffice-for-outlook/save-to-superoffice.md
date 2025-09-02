@@ -14,6 +14,13 @@ platform: web
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from: 
+  - /en/email/superoffice-for-outlook/learn/save-to-superoffice
+  - /da/email/superoffice-for-outlook/learn/save-to-superoffice
+  - /de/email/superoffice-for-outlook/learn/save-to-superoffice
+  - /nl/email/superoffice-for-outlook/learn/save-to-superoffice
+  - /no/email/superoffice-for-outlook/learn/save-to-superoffice
+  - /sv/email/superoffice-for-outlook/learn/save-to-superoffice
 ---
 
 # Save to SuperOffice

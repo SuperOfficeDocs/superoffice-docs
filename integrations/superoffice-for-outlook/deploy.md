@@ -10,7 +10,14 @@ content_type: howto
 category: integration
 topic: SuperOffice for Outlook
 language: en
-redirect_from: /en/email/superoffice-for-outlook/deploy-centrally
+redirect_from: 
+  - /en/email/superoffice-for-outlook/deploy-centrally
+  - /en/email/superoffice-for-outlook/it/deploy
+  - /da/email/superoffice-for-outlook/it/deploy
+  - /de/email/superoffice-for-outlook/it/deploy
+  - /nl/email/superoffice-for-outlook/it/deploy
+  - /no/email/superoffice-for-outlook/it/deploy
+  - /sv/email/superoffice-for-outlook/it/deploy
 ---
 
 # Centralized deployment

@@ -12,6 +12,13 @@ topic: SuperOffice for Outlook
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from: 
+  - /en/email/superoffice-for-outlook/learn/add-contact-to-superoffice
+  - /da/email/superoffice-for-outlook/learn/add-contact-to-superoffice
+  - /de/email/superoffice-for-outlook/learn/add-contact-to-superoffice
+  - /nl/email/superoffice-for-outlook/learn/add-contact-to-superoffice
+  - /no/email/superoffice-for-outlook/learn/add-contact-to-superoffice
+  - /sv/email/superoffice-for-outlook/learn/add-contact-to-superoffice
 ---
 
 # Add contact to SuperOffice

@@ -12,6 +12,13 @@ topic: SuperOffice for Outlook
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
+redirect_from: 
+  - /en/email/superoffice-for-outlook/learn/create-sale
+  - /da/email/superoffice-for-outlook/learn/create-sale
+  - /de/email/superoffice-for-outlook/learn/create-sale
+  - /nl/email/superoffice-for-outlook/learn/create-sale
+  - /no/email/superoffice-for-outlook/learn/create-sale
+  - /sv/email/superoffice-for-outlook/learn/create-sale
 ---
 
 # Create sale
