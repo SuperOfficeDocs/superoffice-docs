@@ -41,19 +41,6 @@ items:
         href: cloud/g-suite/getting-started.md
       - name: Set up
         href: cloud/g-suite/set-up.md
-    - name: Microsoft 365 document integration (legacy)
-      href: cloud/legacy/office-365/index.md
-      items:
-      - name: Requirements
-        href: cloud/legacy/office-365/requirements.md
-      - name: Security
-        href: cloud/legacy/office-365/security.md
-      - name: Prepare SharePoint for set up
-        href: cloud/legacy/office-365/prepare-sharepoint.md
-      - name: Set up
-        href: cloud/legacy/office-365/set-up.md
-      - name: Troubleshooting
-        href: cloud/legacy/office-365/troubleshooting.md
   - name: WebTools
     href: webtools/toc.yml
   - name: Ribbons
