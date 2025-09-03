@@ -66,7 +66,7 @@ De integraties die je nodig hebt, hangen af van je besturingssysteem, je e-mailc
 [4]: ../../../document/webtools/learn/install.md
 [5]: ../../../document/webtools/learn/install-mac.md
 [6]: ../../../email/inbox/learn/setup.md
-[7]: ../../../email/superoffice-for-outlook/learn/index.md
+[7]: ../../../../../integrations/superoffice-for-outlook/index.md
 [8]: https://appstore.superoffice.com/infobridge-software-b-v-/synchronizer-for-superoffice
 [9]: ../../../email/gmail-link/learn/index.md
 [10]: default-mac.md
