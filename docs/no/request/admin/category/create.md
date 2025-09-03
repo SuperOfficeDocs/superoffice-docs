@@ -2,10 +2,10 @@
 uid: help-no-request-category-create
 title: Opprett sakskategori
 description: Opprett sakskategori
+keywords: legg til sakskategori, opprett sakskategori, ny sakskategori, sakskategori, fanen Kategorier, sak, kategori
 author: Hanne Gunnarsson
 date: 02.05.2025
 version: 10.5.1
-keywords: legg til sakskategori, opprett sakskategori, ny sakskategori, sakskategori, fanen Kategorier, sak, kategori
 content_type: howto
 license: serviceessentials
 audience: settings
