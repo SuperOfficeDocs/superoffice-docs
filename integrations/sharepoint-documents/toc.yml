@@ -1,0 +1,23 @@
+items:
+- name: Introduction
+  href: index.md
+- name: Requirements
+  href: requirements.md
+- name: Set up SharePoint
+  href: set-up.md
+  items:
+  - name: About permissions in SharePoint
+    href: permissions-in-sharepoint.md
+  - name: Permissions for documents
+    href: configure-permissions-documents.md
+  - name: Permissions for templates
+    href: configure-permissions-templates.md
+- name: Set up SuperOffice
+  href: configure-superoffice.md
+- name: Permissions for SuperOffice document library app
+  href: permissions-app.md
+- name: Troubleshooting
+  href: troubleshooting.md
+- name: Migration
+  href: migrate/toc.yml
+  topicHref: migrate/index.md

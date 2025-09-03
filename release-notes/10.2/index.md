@@ -139,7 +139,7 @@ content_type: release-note
 [16]: https://zapier.com/apps/superofficecrm/integrations
 [17]: ../integrations/sofo/3.1-update.md
 [18]: https://appstore.superoffice.com/Category/new-and-updated
-[19]: ../../docs/en/document/cloud/sharepoint-documents/migrate/index.md
+[19]: ../../integrations/sharepoint-documents/migrate/index.md
 [20]: ../../docs/en/developer-portal/create-app/message-center.md
 [21]: https://appstore.superoffice.com/lasso-x/lasso-for-superoffice
 [22]: https://appstore.superoffice.com/mailvideo-as/mailvideo

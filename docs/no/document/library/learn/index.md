@@ -51,9 +51,9 @@ Denne integrasjonen lar deg lagre alle dokumenter og e-poster i SharePoint Onlin
 
 <!-- Referenced links -->
 [2]: ../../../../en/document/cloud/overview.md
-[3]: ../../../../en/document/cloud/sharepoint-documents/requirements.md
-[4]: ../../../../en/document/cloud/sharepoint-documents/set-up.md
-[5]: ../../../../en/document/cloud/sharepoint-documents/configure-superoffice.md
+[3]: ../../../../../integrations/sharepoint-documents/requirements.md
+[4]: ../../../../../integrations/sharepoint-documents/set-up.md
+[5]: ../../../../../integrations/sharepoint-documents/configure-superoffice.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/document/admin-preferences-documentlibrary.png

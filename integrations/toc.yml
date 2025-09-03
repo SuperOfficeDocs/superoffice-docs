@@ -1,6 +1,9 @@
 items:
 - name: Introduction
   href: index.md
+- name: SharePoint documents
+  href: sharepoint-documents/toc.yml
+  topicHref: sharepoint-documents/index.md
 - name: SuperOffice for Outlook
   href: superoffice-for-outlook/toc.yml
   topicHref: superoffice-for-outlook/index.md
