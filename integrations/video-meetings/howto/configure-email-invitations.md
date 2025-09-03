@@ -1,12 +1,17 @@
 ---
+uid: configure-email-invitations
 title: Configure
-uid: configure_email_invitations
 description: How to configure video meetings in SuperOffice
-author: SuperOffice Product and Engineering
 keywords: video meetings
+author: SuperOffice Product and Engineering
 content_type: howto
+category: integration
+topic: video meetings
 deployment: online
 platform: web
+language: en
+redirect_from: /en/diary/video-meetings/howto/configure-email-invitations
+index: true
 ---
 
 # How to configure email invitations for video meetings

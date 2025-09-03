@@ -1,13 +1,18 @@
 ---
+uid: disconnect-user
 title: Disconnect user
-uid: disconnect_user
-description: How to disconnect a user from video meetings
+description: How to disconnect a user from video meetings
+keywords: video meetings
 author: SuperOffice Product and Engineering
 date: 08.12.2021
-keywords: video meetings
 content_type: howto
+category: integration
+topic: video meetings
 deployment: online
 platform: web
+language: en
+redirect_from: /en/diary/video-meetings/howto/disconnect-user
+index: true
 ---
 
 # How to remove video-meetings configuration for users

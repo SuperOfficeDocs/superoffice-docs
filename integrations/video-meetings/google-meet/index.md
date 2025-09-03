@@ -1,13 +1,19 @@
 ---
+uid: video-meetings-google
 title: Video Meetings for SuperOffice - Google Meet
-uid: video_meetings_google
 description: Getting started with Video Meetings for SuperOffice - Google Meet
-date: 08.12.2021
 keywords: video meeting
+date: 08.12.2021
 content_type: howto
+category: integration
+topic: video meetings
 deployment: online
 platform: web
+language: en
+redirect_from: /en/diary/video-meetings/google-meet/index
+index: true
 ---
+
 # Video Meetings for SuperOffice: Google Meet
 
 This article describes how to connect, configure, use and disconnect Google Meet.

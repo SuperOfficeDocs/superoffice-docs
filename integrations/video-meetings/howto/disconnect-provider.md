@@ -1,13 +1,18 @@
 ---
+uid: disconnect-video-provider
 title: Disconetct provider
-uid: disconnect_video_provider
-description: How to disconnect video provider
+description: How to disconnect video provider
+keywords: video meetings
 author: SuperOffice Product and Engineering
 date: 08.12.2021
-keywords: video meetings
 content_type: howto
+category: integration
+topic: video meetings
 deployment: online
 platform: web
+language: en
+redirect_from: /en/diary/video-meetings/howto/disconnect-provider
+index: true
 ---
 
 # How to disconnect video provider

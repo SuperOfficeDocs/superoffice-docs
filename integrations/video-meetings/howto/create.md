@@ -1,22 +1,18 @@
 ---
-uid: create_video_meeting
+uid: create-video-meeting
 title: Create a video meeting
 description: How to create a video meeting
 keywords: video meeting
 author: Bergfrid Dias
 date: 13.08.2021
 content_type: howto
+category: integration
+topic: video meetings
 deployment: online
 platform: web
---- Create a video meeting
-uid: create_video_meeting
-description: How to create a video meeting
-author: Bergfrid Dias
-date: 13.08.2021
-keywords: video meeting
-content_type: howto
-deployment: online
-platform: web
+language: en
+redirect_from: /en/diary/video-meetings/howto/create
+index: true
 ---
 
 # Create a video meeting

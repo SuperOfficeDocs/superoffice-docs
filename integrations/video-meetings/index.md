@@ -1,13 +1,18 @@
 ---
-uid: video_meeting_intro
+uid: video-meeting-intro
 title: Introduction
 description: Video Meetings for SuperOffice
 keywords: video meeting, template variable
 author: SuperOffice Product and Engineering
 date: 12.10.2024
 content_type: concept
+category: integration
+topic: video meetings
 deployment: online
 platform: web
+language: en
+redirect_from: /en/diary/video-meetings/index
+index: true
 ---
 
 # Video Meetings for SuperOffice

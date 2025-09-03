@@ -1,12 +1,17 @@
 ---
+uid: video-meetings-troubleshooting
 title: Troubleshooting Video Meetings for SuperOffice
-uid: video_meetings_troubleshooting
 description: Troubleshooting Video Meetings for SuperOffice
-date: 06.21.2021
 keywords: video meeting, troubleshooting, 404, context identifier
+date: 06.21.2021
 content_type: howto
+category: integration
+topic: video meetings
 deployment: online
 platform: web
+language: en
+redirect_from: /en/diary/video-meetings/troubleshooting
+index: true
 ---
 
 # Troubleshooting

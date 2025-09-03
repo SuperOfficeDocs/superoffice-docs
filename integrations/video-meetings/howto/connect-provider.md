@@ -1,13 +1,18 @@
 ---
+uid: connect-video-provider
 title: Connect provider
-uid: connect_video_provider
-description: How to connect video provider
+description: How to connect video provider
+keywords: video meeting
 author: SuperOffice Product and Engineering
 date: 06.21.2021
-keywords: video meeting
 content_type: howto
+category: integration
+topic: video meetings
 deployment: online
 platform: web
+language: en
+redirect_from: /en/diary/video-meetings/howto/connect-provider
+index: true
 ---
 
 # How to connect to a video provider

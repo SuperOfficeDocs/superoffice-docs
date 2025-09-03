@@ -1,13 +1,19 @@
 ---
+uid: video-meetings-zoom
 title: Video Meetings for SuperOffice - Zoom
-uid: video_meetings_zoom
 description: Getting started with Video Meetings for SuperOffice - Zoom
-date: 06.21.2021
 keywords: video meeting, Zoom
+date: 06.21.2021
 content_type: howto
+category: integration
+topic: video meetings
 deployment: online
 platform: web
+language: en
+redirect_from: /en/diary/video-meetings/zoom/index
+index: true
 ---
+
 # Video Meetings for SuperOffice: Zoom
 
 This article describes how to connect, configure, use and disconnect Zoom.

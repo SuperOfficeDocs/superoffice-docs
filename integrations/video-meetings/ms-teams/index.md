@@ -1,13 +1,19 @@
 ---
-uid: video_meetings_msteams
+uid: video-meetings-msteams
 title: Video Meetings for SuperOffice - Microsoft Teams
 description: Getting started with Video Meetings for SuperOffice - Microsoft Teams
 keywords: video meeting, Microsoft Teams
 date: 12.10.2024
 content_type: howto
+category: integration
+topic: video meetings
 deployment: online
 platform: web
+language: en
+redirect_from: /en/diary/video-meetings/ms-teams/index
+index: true
 ---
+
 # Video Meetings for SuperOffice: Microsoft Teams
 
 This article describes how to connect, configure, use and disconnect Microsoft Teams.
