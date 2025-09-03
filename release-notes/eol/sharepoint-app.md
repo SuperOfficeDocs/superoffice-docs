@@ -45,5 +45,5 @@ The old app also has some design aspects that aren't perfect for a lot of custom
 
 <!-- Referenced links -->
 [1]: ../../docs/en/online/identity/superid/sign-in-services.md
-[2]: ../../docs/en/document/cloud/sharepoint-documents/index.md
-[3]: ../../docs/en/document/cloud/sharepoint-documents/migrate/index.md
+[2]: ../../integrations/sharepoint-documents/index.md
+[3]: ../../integrations/sharepoint-documents/migrate/index.md

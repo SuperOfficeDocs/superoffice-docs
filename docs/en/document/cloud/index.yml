@@ -31,29 +31,29 @@ landingContent:
         typeDesc: concept
         links:
           - text: Introduction
-            url: sharepoint-documents/index.md
+            url: ../../../../integrations/sharepoint-documents/index.md
           - text: Permissions
-            url: sharepoint-documents/permissions-in-sharepoint.md
+            url: ../../../../integrations/sharepoint-documents/permissions-in-sharepoint.md
       - itemType: library_books
         typeDesc: reference
         links:
           - text: Requirements
-            url: sharepoint-documents/requirements.md
+            url: ../../../../integrations/sharepoint-documents/requirements.md
       - itemType: list
         typeDesc: how-to-guide
         links:
           - text: Set up SharePoint site and libraries
-            url: sharepoint-documents/set-up.md
+            url: ../../../../integrations/sharepoint-documents/set-up.md
           - text: Configure settings in SuperOffice Admin
-            url: sharepoint-documents/configure-superoffice.md
+            url: ../../../../integrations/sharepoint-documents/configure-superoffice.md
           - text: Set up SharePoint permissions for documents
-            url: sharepoint-documents/configure-permissions-documents.md
+            url: ../../../../integrations/sharepoint-documents/configure-permissions-documents.md
           - text: Set up SharePoint permissions for templates
-            url: sharepoint-documents/configure-permissions-templates.md
+            url: ../../../../integrations/sharepoint-documents/configure-permissions-templates.md
           - text: Permissions for SuperOffice integration application
-            url: sharepoint-documents/permissions-app.md
+            url: ../../../../integrations/sharepoint-documents/permissions-app.md
           - text: Troubleshooting
-            url: sharepoint-documents/troubleshooting.md
+            url: ../../../../integrations/sharepoint-documents/troubleshooting.md
 
   # Card
   - title: Google Workspace document integration

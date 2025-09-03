@@ -64,7 +64,7 @@ Stay informed, stay prepared, and feel empowered as we navigate these transition
 [22]: ../../docs/en/ui/screen-designer/learn/index.md
 [23]: ../../docs/en/api/web-services/endpoints/rest-webapi/index.md
 [24]: ../../docs/en/online/identity/superid/sign-in-services.md
-[25]: ../../docs/en/document/cloud/sharepoint-documents/migrate/index.md
+[25]: ../../integrations/sharepoint-documents/migrate/index.md
 [26]: ../../docs/en/search-options/selection/learn/index.md
 [27]: ../../docs/en/dashboard/learn/index.md
 
