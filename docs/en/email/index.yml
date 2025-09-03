@@ -30,7 +30,7 @@ highlightedContent:
     - title: "SuperOffice for Outlook"
       itemType: map
       typeDesc: overview
-      url: superoffice-for-outlook/learn/index.md
+      url: ../../../integrations/superoffice-for-outlook/index.md
     # Card
     - title: "MailLink"
       itemType: map
@@ -71,13 +71,13 @@ additionalContent:
       # Card
       - title: SuperOffice for Outlook
         links:
-          - url: superoffice-for-outlook/learn/index.md
+          - url: ../../../integrations/superoffice-for-outlook/index.md
             text: Deployment overview
-          - url: superoffice-for-outlook/it/deploy.md
+          - url: ../../../integrations/superoffice-for-outlook/deploy.md
             text: Deploy centrally
-          - url: superoffice-for-outlook/learn/get.md
+          - url: ../../../integrations/superoffice-for-outlook/get.md
             text: Deploy office add-in
-          - url: superoffice-for-outlook/learn/requirements.md
+          - url: ../../../integrations/superoffice-for-outlook/requirements.md
             text: Requirements
       # Card
       - title: MailLink
