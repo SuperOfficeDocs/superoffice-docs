@@ -62,20 +62,20 @@ landingContent:
         typeDesc: concept
         links:
           - text: Introduction
-            url: g-suite/index.md
+            url: ../../../../integrations/g-suite/index.md
           - text: Security
-            url: g-suite/security.md
+            url: ../../../../integrations/g-suite/security.md
       - itemType: library_books
         typeDesc: reference
         links:
           - text: Requirements
-            url: g-suite/requirements.md
+            url: ../../../../integrations/g-suite/requirements.md
       - itemType: list
         typeDesc: how-to-guide
         links:
           - text: Quick start
-            url: g-suite/getting-started.md
+            url: ../../../../integrations/g-suite/getting-started.md
           - text: Set up
-            url: g-suite/set-up.md
+            url: ../../../../integrations/g-suite/set-up.md
           - text: Configure
-            url: g-suite/configure.md
+            url: ../templates/admin/link-template.md
