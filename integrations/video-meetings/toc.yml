@@ -11,7 +11,8 @@ items:
   href: webex/index.md
 - name: Zoom
   href: zoom/index.md
-- name: Howto
+- name: How to...
+  topicHref: howto/create.md
   items:
   - name: Create video meeting
     href: howto/create.md

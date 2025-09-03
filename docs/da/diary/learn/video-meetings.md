@@ -94,7 +94,7 @@ Klik på aftalen i din SuperOffice-dagbog for at se dens detaljer i sidepanelet.
 Du deltager i videomødet via forhåndsvisningsskærmen ved at klikke på knappen **Deltag i møde**. Når du klikker på linket, starter dit videomøde automatisk.
 
 <!-- Referenced links -->
-[1]: ../../../en/diary/video-meeting/howto/connect-provider.md
+[1]: ../../../../integrations/video-meetings/howto/connect-provider.md
 [2]: invitation/add-attendee.md
 
 <!-- Referenced images -->

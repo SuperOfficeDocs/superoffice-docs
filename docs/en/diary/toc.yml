@@ -2,9 +2,6 @@ items:
 - name: Diary
   href: index.yml
   items:
-  - name: Video meeting
-    href: video-meeting/toc.yml
-    topicHref: video-meeting/index.md
   - name: User guide
     topicHref: learn/index.md
   - name: Technical reference
