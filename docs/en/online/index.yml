@@ -172,7 +172,7 @@ conceptualContent:
         - text: Google Workspace document integration
           itemType: explore
           typeDesc: concept
-          url: ../document/cloud/g-suite/index.md
+          url: ../../../integrations/g-suite/index.md
 
 # Card with summary style
 additionalContent:

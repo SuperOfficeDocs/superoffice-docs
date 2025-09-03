@@ -19,6 +19,7 @@ audience_tooltip: SuperOffice CRM
 ## Document
 
 * [SharePoint Documents][2]
+* [Google Workspace document integration][4]
 
 ## Email
 
@@ -28,3 +29,4 @@ audience_tooltip: SuperOffice CRM
 [1]: superoffice-for-outlook/index.md
 [2]: sharepoint-documents/index.md
 [3]: video-meetings/index.md
+[4]: g-suite/index.md

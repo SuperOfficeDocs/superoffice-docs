@@ -7,17 +7,6 @@ items:
     items:
     - name: Overview
       href: cloud/overview.md
-    - name: Google Workspace document integration
-      href: cloud/g-suite/index.md
-      items:
-      - name: Requirements
-        href: cloud/g-suite/requirements.md
-      - name: Security
-        href: cloud/g-suite/security.md
-      - name: Quick start
-        href: cloud/g-suite/getting-started.md
-      - name: Set up
-        href: cloud/g-suite/set-up.md
   - name: WebTools
     href: webtools/toc.yml
   - name: User guide
