@@ -65,6 +65,10 @@ Webhooks can also target CRMScripts by using the `Type: "crmscript"`. <!-- See @
 > [!NOTE]
 > Applies to Web client and NetServer Services only (onsite & online).
 
+> [!WARNING]
+> Events are only raise by changes in the root entity table, e.g. contact, person, sale, etc.
+> Events are **not emitted** for row changes in foreign key tables, e.g. phone, email, udcontactsmall. udprojectlarge, etc.
+
 * [Event details][1]
 * [Webhook subscription][2]
 * [Webhook notification][3]
