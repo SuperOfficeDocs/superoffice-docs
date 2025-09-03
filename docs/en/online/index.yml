@@ -168,7 +168,7 @@ conceptualContent:
         - text: SharePoint documents
           itemType: explore
           typeDesc: concept
-          url: ../document/cloud/sharepoint-documents/index.md
+          url: ../../../integrations/sharepoint-documents/index.md
         - text: Google Workspace document integration
           itemType: explore
           typeDesc: concept

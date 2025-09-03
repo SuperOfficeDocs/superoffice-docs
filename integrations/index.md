@@ -12,9 +12,14 @@ audience_tooltip: SuperOffice CRM
 
 # SuperOffice integrations
 
+## Document
+
+* [SharePoint Documents][2]
+
 ## Email
 
 * [SuperOffice for Outlook][1]
 
 <!-- Referenced links -->
 [1]: superoffice-for-outlook/index.md
+[2]: sharepoint-documents/index.md

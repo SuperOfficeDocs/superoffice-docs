@@ -61,20 +61,20 @@ landingContent:
         typeDesc: concept
         links:
         - text: Overview
-          url: cloud/sharepoint-documents/index.md
+          url: ../../../integrations/sharepoint-documents/index.md
         - text: Requirements
-          url: cloud/sharepoint-documents/requirements.md
+          url: ../../../integrations/sharepoint-documents/requirements.md
       - itemType: list
         typeDesc: how-to-guide
         links:
         - text: Set up SharePoint
-          url: cloud/sharepoint-documents/set-up.md
+          url: ../../../integrations/sharepoint-documents/set-up.md
         - text: Set up SuperOffice
-          url: cloud/sharepoint-documents/configure-superoffice.md
+          url: ../../../integrations/sharepoint-documents/configure-superoffice.md
         - text: Troubleshooting
-          url: cloud/sharepoint-documents/troubleshooting.md
+          url: ../../../integrations/sharepoint-documents/troubleshooting.md
         - text: Migration
-          url: cloud/sharepoint-documents/migrate/index.md
+          url: ../../../integrations/sharepoint-documents/migrate/index.md
       - itemType: video_library
         typeDesc: video
         links:
