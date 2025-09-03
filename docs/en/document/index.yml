@@ -87,18 +87,18 @@ landingContent:
         typeDesc: concept
         links:
         - text: Overview
-          url: cloud/g-suite/index.md
+          url: ../../../integrations/g-suite/index.md
         - text: Requirements
-          url: cloud/g-suite/requirements.md
+          url: ../../../integrations/g-suite/requirements.md
         - text: Security
-          url: cloud/g-suite/security.md
+          url: ../../../integrations/g-suite/security.md
       - itemType: list
         typeDesc: how-to-guide
         links:
         - text: Quick start
-          url: cloud/g-suite/getting-started.md
+          url: ../../../integrations/g-suite/getting-started.md
         - text: Set up
-          url: cloud/g-suite/set-up.md
+          url: ../../../integrations/g-suite/set-up.md
 
   - title: Document templates
     linkLists:

@@ -1,6 +1,9 @@
 items:
 - name: Introduction
   href: index.md
+- name: Google Workspace document integration
+  href: g-suite/toc.yml
+  topicHref: g-suite/index.md
 - name: SharePoint documents
   href: sharepoint-documents/toc.yml
   topicHref: sharepoint-documents/index.md
