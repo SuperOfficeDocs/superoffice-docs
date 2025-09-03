@@ -4,4 +4,4 @@
 3. Complete the information in the **Follow-up**.
 
 <!-- Referenced links -->
-[1]: ../../learn/create-follow-up.md
+[1]: ../../../docs/en/diary/learn/create-follow-up.md

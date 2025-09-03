@@ -45,7 +45,7 @@ highlightedContent:
     - title: "Video meetings"
       itemType: school
       typeDesc: learn
-      url: ../diary/video-meeting/index.md
+      url: ../../../integrations/video-meetings/index.md
     # Card
     - title: "Customer Service"
       itemType: map

@@ -12,6 +12,10 @@ audience_tooltip: SuperOffice CRM
 
 # SuperOffice integrations
 
+## Calendar
+
+* [Video Meetings for SuperOffice][3]
+
 ## Document
 
 * [SharePoint Documents][2]
@@ -23,3 +27,4 @@ audience_tooltip: SuperOffice CRM
 <!-- Referenced links -->
 [1]: superoffice-for-outlook/index.md
 [2]: sharepoint-documents/index.md
+[3]: video-meetings/index.md
