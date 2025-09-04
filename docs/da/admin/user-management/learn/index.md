@@ -127,7 +127,7 @@ På fanen **Brugergrupper** på skærmbilledet Brugere kan du få et overblik ov
 [3]: change-user-plan.md
 [4]: role/edit-rights-for-anonymous-users.md
 [6]: ../../license/learn/activate.md
-[7]: ../../../document/webtools/learn/install.md
+[7]: ../../../../../integrations/webtools/install.md
 
 <!-- Referenced images -->
 [img3]: ../../../../media/loc/en/admin/admin-users-overview.png

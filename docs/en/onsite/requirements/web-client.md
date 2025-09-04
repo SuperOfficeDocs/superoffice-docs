@@ -109,4 +109,4 @@ If you are running SuperOffice WebTools and SSL, please upgrade to SuperOffice 8
 
 <!-- Referenced links -->
 [1]: index.md
-[2]: ../../document/webtools/system-requirements.md
+[2]: ../../../../integrations/webtools/system-requirements.md
