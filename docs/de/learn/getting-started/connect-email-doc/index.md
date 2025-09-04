@@ -26,8 +26,8 @@ Das Verbinden Ihrer E-Mails, Dokumente und Ihres Kalenders mit SuperOffice hilft
 | | Anwendung | Beschreibung | Optionen |
 |-|---|---|---|
 | <i class="ph ph-at" aria-hidden="true"></i> | **E-Mail** | Archivieren Sie eingehende und ausgehende E-Mails.| [WebTools][4] (nur Windows)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice für Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
-| <i class="ph ph-files" aria-hidden="true"></i> | **Dokumente** | Archivieren Sie Dateien aus der Kommunikation mit Kunden und Kontakten. | SuperOffice-Dokumentenbibliothek ([WebTools][4] (Windows) / [WebTools für Mac][5])<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
-| <i class="ph ph-calendar" aria-hidden="true"></i> | **Kalender** | Einladungen senden und empfangen. | [SuperOffice Inbox][6]<br/> [Synchronizer für SuperOffice][8]<br /> [WebTools][4] (Windows) / [WebTools für Mac][5]|
+| <i class="ph ph-files" aria-hidden="true"></i> | **Dokumente** | Archivieren Sie Dateien aus der Kommunikation mit Kunden und Kontakten. | SuperOffice-Dokumentenbibliothek [WebTools][4] (Windows / Mac)<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
+| <i class="ph ph-calendar" aria-hidden="true"></i> | **Kalender** | Einladungen senden und empfangen. | [SuperOffice Inbox][6]<br/> [Synchronizer für SuperOffice][8]<br /> [WebTools][4] (Windows / Mac) |
 
 ## Welche Lösung verwendet Ihr Unternehmen?
 
@@ -63,8 +63,7 @@ Die benötigten Integrationen hängen von Ihrem Betriebssystem, Ihrem E-Mail-Cli
 [1]: default-win.md
 [2]: microsoft-365.md
 [3]: google-workspace.md
-[4]: ../../../document/webtools/learn/install.md
-[5]: ../../../document/webtools/learn/install-mac.md
+[4]: ../../../../../integrations/webtools/install.md
 [6]: ../../../email/inbox/learn/setup.md
 [7]: ../../../../../integrations/superoffice-for-outlook/index.md
 [8]: https://appstore.superoffice.com/infobridge-software-b-v-/synchronizer-for-superoffice

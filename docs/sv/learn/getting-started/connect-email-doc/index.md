@@ -26,8 +26,8 @@ Genom att ansluta din e-post, dina dokument och din kalender till SuperOffice ka
 | | Applikation | Beskrivning | Alternativ |
 |-|---|---|---|
 | <i class="ph ph-at" aria-hidden="true"></i> | **E-post** | Arkivera inkommande och utgående e-post.| [WebTools][4] (endast Windows)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice för Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
-| <i class="ph ph-files" aria-hidden="true"></i> | **Dokument** | Arkivera filer från kommunikation med kunder och kontakter. | SuperOffice dokumentbibliotek ([WebTools][4] (Windows) /[WebTools för Mac][5])<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
-| <i class="ph ph-calendar" aria-hidden="true"></i> | **Kalender** | Skicka och ta emot inbjudningar. | [SuperOffice Inbox][6]<br/> [Synkronisator för SuperOffice][8]<br /> [WebTools][4] (Windows) / [WebTools för Mac][5]|
+| <i class="ph ph-files" aria-hidden="true"></i> | **Dokument** | Arkivera filer från kommunikation med kunder och kontakter. | SuperOffice dokumentbibliotek [WebTools][4] (Windows / Mac)<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
+| <i class="ph ph-calendar" aria-hidden="true"></i> | **Kalender** | Skicka och ta emot inbjudningar. | [SuperOffice Inbox][6]<br/> [Synkronisator för SuperOffice][8]<br /> [WebTools][4] (Windows / Mac) |
 
 ## Vilken lösning använder ditt företag?
 
@@ -63,8 +63,7 @@ De integrationer du behöver beror på ditt operativsystem, din e-postklient och
 [1]: default-win.md
 [2]: microsoft-365.md
 [3]: google-workspace.md
-[4]: ../../../document/webtools/learn/install.md
-[5]: ../../../document/webtools/learn/install-mac.md
+[4]: ../../../../../integrations/webtools/install.md
 [6]: ../../../email/inbox/learn/setup.md
 [7]: ../../../../../integrations/superoffice-for-outlook/index.md
 [8]: https://appstore.superoffice.com/infobridge-software-b-v-/synchronizer-for-superoffice

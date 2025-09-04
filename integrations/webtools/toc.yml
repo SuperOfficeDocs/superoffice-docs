@@ -1,11 +1,12 @@
 items:
-- name: Overview
+- name: Introduction
   href: index.md
 - name: Technical overview
   href: technical-overview.md
 - name: System requirements
   href: system-requirements.md
 - name: Set up
+  topicHref: install.md
   items:
   - name: Install (user)
     href: install.md
