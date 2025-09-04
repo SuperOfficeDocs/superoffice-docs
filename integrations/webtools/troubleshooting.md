@@ -33,3 +33,12 @@ The registry key `LogFile` enables logging of the main actions.
 
 > [!NOTE]
 > A restart of WebTools is often necessary for applying the registry settings.
+
+## Related content
+
+* [What to do when SuperOffice archiving button has disappeared from Outlook?][13] - FAQ
+
+<!-- Referenced links -->
+[13]: https://community.superoffice.com/no/support-faqs/faq/what-to-do-when-superoffice-archiving-button-has-disappeared-from-outlook/
+
+<!-- Referenced images -->

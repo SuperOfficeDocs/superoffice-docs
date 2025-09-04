@@ -6,6 +6,7 @@ items:
 - name: System requirements
   href: system-requirements.md
 - name: Set up
+  topicHref: install.md
   items:
   - name: Install (user)
     href: install.md
@@ -20,10 +21,7 @@ items:
 - name: Debug
   href: debug.md
 - name: Learn
-  topicHref: learn/index.md
   items:
-  - name: Overview
-    href: learn/index.md
   - name: Install WebTools for Windows
     href: learn/install.md
   - name: Install WebTools for macOS

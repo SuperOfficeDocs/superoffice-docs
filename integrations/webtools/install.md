@@ -8,6 +8,8 @@ date: 10.13.2016
 content_type: howto
 category: integration
 topic: WebTools
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 redirect_from: /en/document/webtools/install
 index: true
