@@ -9,8 +9,7 @@ items:
 - name: SuperOffice for Outlook
   topicHref: ../../../../integrations/superoffice-for-outlook/index.md
 - name: Gmail Link
-  href: ../gmail-link/learn/toc.yml
-  topicHref: ../gmail-link/learn/index.md
+  topicHref: ../../../../integrations/gmail-link/index.md
 - name: Mail Link
   href: ../mail-link/learn/toc.yml
   topicHref: ../mail-link/learn/index.md

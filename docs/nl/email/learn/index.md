@@ -60,10 +60,10 @@ Als u een e-mailbijlage wilt opslaan, maar niet de e-mail zelf in SuperOffice CR
 
 <!-- Referenced links -->
 [1]: ../inbox/learn/index.md
-[2]: ../gmail-link/learn/index.md
-[3]: ../gmail-link/learn/email-archive-incoming.md
-[4]: ../gmail-link/learn/archive-emails-as-activities.md
-[5]: ../gmail-link/learn/archive-attachments.md
+[2]: ../../../../integrations/gmail-link/index.md
+[3]: ../../../../integrations/gmail-link/email-archive-incoming.md
+[4]: ../../../../integrations/gmail-link/archive-emails-as-activities.md
+[5]: ../../../../integrations/gmail-link/archive-attachments.md
 [6]: ../mail-link/learn/index.md
 [7]: ../mail-link/learn/archive-as-activity.md
 [8]: ../mail-link/learn/archive-on-contact.md
