@@ -6,6 +6,3 @@ items:
 - name: Innboks
   href: ../inbox/learn/toc.yml
   topicHref: ../inbox/learn/index.md
-- name: Mail Link
-  href: ../mail-link/learn/toc.yml
-  topicHref: ../mail-link/learn/index.md

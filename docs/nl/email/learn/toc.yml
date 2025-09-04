@@ -6,6 +6,3 @@ items:
 - name: Postvak IN
   href: ../inbox/learn/toc.yml
   topicHref: ../inbox/learn/index.md
-- name: Mail-koppeling
-  href: ../mail-link/learn/toc.yml
-  topicHref: ../mail-link/learn/index.md

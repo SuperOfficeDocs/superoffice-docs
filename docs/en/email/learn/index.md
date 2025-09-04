@@ -64,10 +64,10 @@ If you would like to save an email attachment but not the email itself in SuperO
 [3]: ../../../../../integrations/email-archive-incoming.md
 [4]: ../../../../../integrations/archive-emails-as-activities.md
 [5]: ../../../../../integrations/archive-attachments.md
-[6]: ../mail-link/learn/index.md
-[7]: ../mail-link/learn/archive-as-activity.md
-[8]: ../mail-link/learn/archive-on-contact.md
-[9]: ../mail-link/learn/archive-attachment.md
+[6]: ../../../../integrations/mail-link/index.md
+[7]: ../../../../integrations/mail-link/archive-as-activity.md
+[8]: ../../../../integrations/mail-link/archive-on-contact.md
+[9]: ../../../../integrations/mail-link/archive-attachment.md
 [11]: ../../contact/learn/send-email.md
 [12]: ../../document/learn/send-as-email.md
 [13]: ../../learn/getting-started/connect-email-doc/index.md
