@@ -100,6 +100,6 @@ If you do not want to add the email address to SuperOffice CRM, simply do not cl
 [1]: archive-on-contact.md
 [2]: archive-as-activity.md
 [3]: archive-attachment.md
-[4]: settings/superoffice-account.md
+[4]: settings.md
 
 <!-- Referenced images -->

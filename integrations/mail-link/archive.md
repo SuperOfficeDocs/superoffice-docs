@@ -29,19 +29,16 @@ index: true
 
 # Archive an email
 
-When you click the **Archive email** button on the mail client toolbar, a menu with archiving options is displayed.
+When you click the **Archive email** button on the mail client toolbar, a menu with archiving options is displayed. This button also appears in the email window when you open an email you received.
 
-> [!NOTE]
-> This button also appears in the email window when you open an email you received.
-
-**Options:**
+## Options
 
 * [Archiving emails on companies/contacts][2]
 * [Archiving emails as activities][1]
 * [Archiving attachments][3]
 * [Archiving emails as requests][4]
 
-For all the different archiving options, you may select the **Warn me when an email is larger than (in KB)** option in [the **General settings** pane][5] of the **SuperOffice CRM options** dialog. Thus, when you try to archive an email containing an attachment that is over the specified limit, a dialog will inform you of this and ask you if you would like to archive it anyway.
+For all the different archiving options, you may select the **Warn me when an email is larger than (in KB)** option in the **General settings** pane of the **SuperOffice CRM options** dialog. Thus, when you try to archive an email containing an attachment that is over the specified limit, a dialog will inform you of this and ask you if you would like to archive it anyway.
 
 ## Differences between Outlook and SuperOffice CRM
 
@@ -78,16 +75,14 @@ Click the **Archive is ON/OFF** button in the new email window to enable/disable
 
 ## Related content
 
-* [Archive options][9]
-* [General settings][5]
+* [SuperOffice CRM options dialog][5]
 
 <!-- Referenced links -->
 [1]: archive-as-activity.md
 [2]: archive-on-contact.md
 [3]: archive-attachment.md
 [4]: archive-as-request.md
-[5]: settings/general.md
-[9]: settings/default.md
+[5]: settings.md
 [6]: create-in-outlook.md
 [8]: create-in-superoffice.md
 

@@ -2,7 +2,7 @@
 uid: mail-link-create-crm
 title: Creating emails from SuperOffice CRM
 description: Creating emails from SuperOffice CRM
-keywords: create email, write email, email body template
+keywords: create email, write email, email body template, send as email
 author: SuperOffice Product and Engineering
 date: 06.29.2022
 content_type: howto
@@ -56,6 +56,12 @@ When creating an email from SuperOffice CRM, it is also possible to use predefin
 
 6. Click **Send** to send the message to the specified recipient(s).
 
+## Send as email
+
+* You can send a follow-up as an email by clicking <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i>**Task** > **Send as email** in the **Follow-up** dialog. A new email window containing the follow-up will then open in your mail client.
+
+* You can send a document as an email by right-clicking it in the **Activities** section tab in SuperOffice CRM and selecting **Send as email** or by clicking <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> > **Send as email** in the **Document** dialog. A new email window containing the document will then open in your mail client.
+
 ## Related content
 
 * [Create email templates][6]
@@ -66,6 +72,6 @@ When creating an email from SuperOffice CRM, it is also possible to use predefin
 [4]: select-recipients.md
 [5]: add-attachment.md
 [6]: ../../docs/en/admin/lists/learn/create-email-template.md
-[7]: settings/general.md
+[7]: settings.md
 
 <!-- Referenced images -->

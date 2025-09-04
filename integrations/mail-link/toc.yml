@@ -5,30 +5,25 @@ items:
   href: install.md
 - name: Archive email
   href: archive.md
-- name: How to...
-  topicHref: create-in-superoffice.md
-  items:
-  - name: Create email from SuperOffice CRM
-    href: create-in-superoffice.md
-  - name: Create email from Microsoft Outlook
-    href: create-in-outlook.md
-  - name: Select recipients
-    href: select-recipients.md
-  - name: Manage senders
-    href: manage-senders.md
-  - name: Add attachments
-    href: add-attachment.md
-  - name: Archive on company or contact
-    href: archive-on-contact.md
-  - name: Create appointment/task
-    href: archive-as-activity.md
-  - name: Create request
-    href: archive-as-request.md
-  - name: Archive attachments
-    href: archive-attachment.md
-
+- name: Create email from SuperOffice CRM
+  href: create-in-superoffice.md
+- name: Create email from Microsoft Outlook
+  href: create-in-outlook.md
+- name: Select recipients
+  href: select-recipients.md
+- name: Manage senders
+  href: manage-senders.md
+- name: Add attachments
+  href: add-attachment.md
+- name: Archive on company or contact
+  href: archive-on-contact.md
+- name: Create appointment/task
+  href: archive-as-activity.md
+- name: Create request
+  href: archive-as-request.md
+- name: Archive attachments
+  href: archive-attachment.md
 - name: SuperOffice CRM options dialog
-  href: settings/toc.yml
-  topicHref: settings/index.md
+  href: settings.md
 - name: Debug
   href: debug.md

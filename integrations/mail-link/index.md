@@ -84,7 +84,7 @@ MailLink is now a separate downloadable installer (the latest version) available
 [1]: https://www3.superoffice.com/DownloadService/
 [2]: archive.md
 [3]: manage-senders.md
-[4]: settings/index.md
+[4]: settings.md
 [5]: create-in-superoffice.md
 [6]: create-in-outlook.md
 
