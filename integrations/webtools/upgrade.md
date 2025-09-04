@@ -1,15 +1,21 @@
----
-title: Upgrade
+﻿---
 uid: webtools-upgrade
+title: Upgrade WebTools
 description: Upgrade WebTools, Hide download dialog
+keywords: upgrade WebTools
 author: SuperOffice Product and Engineering
-keywords: WebTools, upgrade
+date: 01.23.2024
 content_type: howto
+category: integration
+topic: WebTools
 deployment: onsite
 platform: web
+language: en
+redirect_from: /en/document/webtools/upgrade
+index: true
 ---
 
-# Upgrading
+# Upgrade WebTools
 
 When the user logs in to an updated Web installation, WebTools will detect there is an updated version available and prompt the user for an upgrade. Versioning in SuperOffice is defined as "MAJOR.MINOR.BUILD.REVISION". The user will be "forced" to upgrade if the MAJOR component is higher than the current major version of WebTools. Other changes are optional upgrades.
 

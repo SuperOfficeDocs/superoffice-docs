@@ -1,11 +1,16 @@
----
-title: WebTools
+﻿---
 uid: webtools
+title: WebTools
 description: Introduction to SuperOffice WebTools
-author: Hans Oluf Waaler
 keywords: WebTools
-content_type: concept
+author: Hans Oluf Waaler
 date: 10.13.2016
+content_type: concept
+category: integration
+topic: WebTools
+language: en
+redirect_from: /en/document/webtools/index
+index: true
 ---
 
 # SuperOffice WebTools

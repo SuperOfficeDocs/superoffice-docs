@@ -1,12 +1,17 @@
----
-title: Debug
+﻿---
 uid: webtools-debug
+title: Debugging WebTools
 description: How to debug WebTools
+keywords: debug WebTools, WebTools Connectivity diagnostics, DocLink
 author: Jostein K, Bergfrid Dias
 date: 01.23.2024
-keywords: debug, WebTools
 content_type: howto
+category: integration
+topic: WebTools
 deployment: onsite
+language: en
+redirect_from: /en/document/webtools/debug
+index: true
 ---
 
 # Debugging WebTools

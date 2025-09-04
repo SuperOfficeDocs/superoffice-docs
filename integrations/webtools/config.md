@@ -1,12 +1,17 @@
----
-title: Configure WebTools
+﻿---
 uid: webtools-configure
-description: "How to configure WebTools."
+title: Configure WebTools
+description: How to configure WebTools.
+keywords: configure WebTools, SiteInfo, registry
 author: H.O. Waaler, Jostein K, Bergfrid Dias
-keywords: WebTools, SiteInfo, registry
-content_type: howto
 date: 01.23.2024
+content_type: howto
+category: integration
+topic: WebTools
 deployment: onsite
+language: en
+redirect_from: /en/document/webtools/config
+index: true
 ---
 
 # Configure WebTools

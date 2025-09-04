@@ -1,11 +1,16 @@
----
-title: Troubleshooting
+﻿---
 uid: webtools-troubleshooting
+title: Troubleshooting
 description: Troubleshooting WebTools
+keywords: WebTools, troubleshooting
 author: Jostein K, Bergfrid Dias
 date: 01.23.2024
-keywords: WebTools
 content_type: howto
+category: integration
+topic: WebTools
+language: en
+redirect_from: /en/document/webtools/troubleshooting
+index: true
 ---
 
 # Troubleshooting WebTools

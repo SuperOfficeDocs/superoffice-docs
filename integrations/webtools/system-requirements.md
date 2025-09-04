@@ -1,11 +1,17 @@
----
-title: Requirements
-uid: webtools_system_requirements
+﻿---
+uid: webtools-system-requirements
+title: System requirements for WebTools
 description: System requirements for WebTools
+keywords: requirements for WebTools, compatibility, system requirements
 author: SuperOffice Product and Engineering
-keywords: WebTools
+date: 01.23.2024
 content_type: reference
+category: integration
+topic: WebTools
 deployment: onsite
+language: en
+redirect_from: /en/document/webtools/system-requirements
+index: true
 ---
 
 # System requirements for WebTools

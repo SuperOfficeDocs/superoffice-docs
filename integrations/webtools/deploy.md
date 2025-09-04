@@ -1,11 +1,17 @@
----
-title: Deploy
-uid: deploy_webtools
+﻿---
+uid: webtools-deploy
+title: WebTools deployment in a restricted environment
 description: WebTools deployment in a restricted environment
+keywords: deploy WebTools, SoConfig
 author: SuperOffice Product and Engineering
-keywords: WebTools
+date: 01.23.2024
 content_type: howto
+category: integration
+topic: WebTools
 deployment: onsite
+language: en
+redirect_from: /en/document/webtools/deploy
+index: true
 ---
 
 # WebTools deployment in a restricted environment
