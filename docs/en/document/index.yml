@@ -172,7 +172,7 @@ landingContent:
         - text: Webhooks - project member events
           url: ../automation/webhook/reference/project-member-events.md
         - text: Zapier
-          url: ../automation/zapier/index.md
+          url: ../../../integrations/zapier/index.md
 
   - title: CRMScript
     linkLists:

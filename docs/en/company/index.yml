@@ -141,7 +141,7 @@ conceptualContent:
       - text: Zapier
         itemType: library_books
         typeDesc: reference
-        url: ../automation/zapier/index.md
+        url: ../../../integrations/zapier/index.md
       - text: SCIM - sync company
         itemType: list
         typeDesc: how-to-guide

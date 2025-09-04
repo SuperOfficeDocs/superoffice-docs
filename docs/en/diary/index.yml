@@ -136,7 +136,7 @@ conceptualContent:
       - text: Zapier
         itemType: library_books
         typeDesc: reference
-        url: ../automation/zapier/index.md
+        url: ../../../integrations/zapier/index.md
 
     # Card
     - title: API how-tos
