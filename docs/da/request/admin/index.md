@@ -21,6 +21,7 @@ I denne del af SuperOffice Service kan du konfigurere indstillingerne for Servic
 
 ## Hvad ønsker du at få mere at vide om?
 
+* [Sagstyper][9]
 * [Roller][12]
 * [Brugere][13]
 * [Kategorier][4]
@@ -41,7 +42,7 @@ I denne del af SuperOffice Service kan du konfigurere indstillingerne for Servic
 [5]: priority/index.md
 [6]: status/index.md
 [8]: system-templates.md
-
+[9]: type/index.md
 [10]: ../../admin/options/learn/custlang/index.md
 [11]: ../../admin/preferences/learn/global-preferences/system.md
 [12]: ../../admin/user-management/learn/role/index.md

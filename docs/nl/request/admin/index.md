@@ -21,6 +21,7 @@ In deze sectie kunt u de instellingen voor Service configureren en aanpassen aan
 
 ## Gerelateerde inhoud
 
+* [Verzoektypes][9]
 * [Rollen][12]
 * [Gebruikers][13]
 * [Categorieën][4]
@@ -41,7 +42,7 @@ In deze sectie kunt u de instellingen voor Service configureren en aanpassen aan
 [5]: priority/index.md
 [6]: status/index.md
 [8]: system-templates.md
-
+[9]: type/index.md
 [10]: ../../admin/options/learn/custlang/index.md
 [11]: ../../admin/preferences/learn/global-preferences/system.md
 [12]: ../../admin/user-management/learn/role/index.md
