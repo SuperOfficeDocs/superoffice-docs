@@ -11,5 +11,4 @@ items:
 - name: Gmail Link
   topicHref: ../../../../integrations/gmail-link/index.md
 - name: Mail Link
-  href: ../mail-link/learn/toc.yml
-  topicHref: ../mail-link/learn/index.md
+  topicHref: ../../../../integrations/mail-link/index.md

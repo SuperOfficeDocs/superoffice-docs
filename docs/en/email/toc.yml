@@ -2,11 +2,6 @@ items:
 - name: Email
   topicHref: index.yml
   items:
-  - name: MailLink
-    href: mail-link/index.md
-    items:
-    - name: Debug
-      href: mail-link/debug.md
   - name: Mailgun
     href: mailgun/toc.yml
     topicHref: mailgun/index.yml

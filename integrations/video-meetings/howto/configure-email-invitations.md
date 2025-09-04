@@ -33,4 +33,4 @@ This feature is currently not supported if you use [Synchronizer for SuperOffice
 [1]: https://online.superoffice.com/appstore/infobridge-software-b-v-/synchronizer-for-superoffice
 [2]: ../../../docs/en/email/inbox/learn/index.md
 [3]: ../../../docs/en/admin/lists/learn/add-email-template.md
-[4]: ../../../docs/en/email/mail-link/learn/index.md
+[4]: ../../mail-link/index.md

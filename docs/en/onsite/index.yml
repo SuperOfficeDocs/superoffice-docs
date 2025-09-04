@@ -216,7 +216,7 @@ additionalContent:
           text: Windows client
         - url: ../document/webtools/debug.md
           text: WebTools
-        - url: ../email/mail-link/debug.md
+        - url: ../../../integrations/mail-link/debug.md
           text: Outlook Mail Link
         - url: ../document/ribbons/enable-debug.md
           text: Ribbons
