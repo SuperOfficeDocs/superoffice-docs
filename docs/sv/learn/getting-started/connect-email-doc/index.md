@@ -68,7 +68,7 @@ De integrationer du behöver beror på ditt operativsystem, din e-postklient och
 [6]: ../../../email/inbox/learn/setup.md
 [7]: ../../../../../integrations/superoffice-for-outlook/index.md
 [8]: https://appstore.superoffice.com/infobridge-software-b-v-/synchronizer-for-superoffice
-[9]: ../../../email/gmail-link/learn/index.md
+[9]: ../../../../../integrations/gmail-link/index.md
 [10]: default-mac.md
 
 <!-- Referenced images -->
