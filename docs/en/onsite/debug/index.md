@@ -46,5 +46,5 @@ SuperOffice Web always takes a long time to start up initially because IIS needs
 <!-- Referenced links -->
 [1]: ../../api/config/diagnostics.md
 [2]: web-client.md#10-2
-[8]: ../../email/mail-link/debug.md
+[8]: ../../../../integrations/mail-link/debug.md
 [9]: ../../document/ribbons/enable-debug.md

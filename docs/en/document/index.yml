@@ -46,7 +46,7 @@ landingContent:
         - text: Send email attachments from SuperOffice
           url: learn/send-as-email.md
         - text: Save email attachment to SuperOffice
-          url: ../email/mail-link/learn/archive.md
+          url: ../../../integrations/mail-link/archive.md
       - itemType: video_library
         typeDesc: video
         links:

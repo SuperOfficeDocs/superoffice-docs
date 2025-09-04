@@ -7,6 +7,9 @@ items:
 - name: Google Workspace document integration
   href: g-suite/toc.yml
   topicHref: g-suite/index.md
+- name: Mail Link
+  href: mail-link/toc.yml
+  topicHref: mail-link/index.md
 - name: SharePoint documents
   href: sharepoint-documents/toc.yml
   topicHref: sharepoint-documents/index.md

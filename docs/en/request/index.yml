@@ -51,7 +51,7 @@ landingContent:
         - text: How to create a request
           url: learn/create.md
         - text: How to archive emails as requests
-          url: ../email/mail-link/learn/archive-as-request.md
+          url: ../../../integrations/mail-link/archive-as-request.md
         - text: Take responsibility for a request
           url: learn/accept.md
         - text: How to reply to customers
