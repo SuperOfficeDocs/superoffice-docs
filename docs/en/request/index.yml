@@ -128,7 +128,7 @@ landingContent:
         - text: Webhooks - ticket events
           url: ../automation/webhook/reference/ticket-events.md
         - text: Zapier
-          url: ../automation/zapier/index.md
+          url: ../../../integrations/zapier/index.md
 
   - title: CRMScript
     linkLists:

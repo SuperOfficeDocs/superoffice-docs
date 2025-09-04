@@ -19,3 +19,6 @@ items:
 - name: Video meetings
   href: video-meetings/toc.yml
   topicHref: video-meetings/index.md
+- name: Zapier
+  href: zapier/toc.yml
+  topicHref: zapier/index.md
