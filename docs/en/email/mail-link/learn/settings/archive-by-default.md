@@ -1,3 +1,3 @@
 ﻿---
-redirect_url: https://docs.superoffice.com/integrations/mail-link/settings/archive-by-default.html
+redirect_url: https://docs.superoffice.com/integrations/mail-link/archive.html#by-default
 ---

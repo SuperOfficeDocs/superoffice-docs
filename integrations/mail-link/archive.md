@@ -18,6 +18,12 @@ redirect_from:
   - /nl/email/mail-link/learn/archive
   - /no/email/mail-link/learn/archive
   - /sv/email/mail-link/learn/archive
+  - /en/email/mail-link/learn/settings/archive-by-default
+  - /da/email/mail-link/learn/settings/archive-by-default
+  - /de/email/mail-link/learn/settings/archive-by-default
+  - /nl/email/mail-link/learn/settings/archive-by-default
+  - /no/email/mail-link/learn/settings/archive-by-default
+  - /sv/email/mail-link/learn/settings/archive-by-default
 index: true
 ---
 
@@ -63,6 +69,12 @@ The **Document** dialog will not open automatically if you:
 When an email is archived by a user, it is tagged with a unique ID within SuperOffice CRM. This means that next time someone tries to archive the same email, a warning will appear informing them about this; in this way, it is possible to avoid duplicates in the database.
 
 If you open an email that has already been archived, the **Archive email** button ![icon][img1] will appear green with a white check-mark. If you hold the mouse pointer over the button, an info box is displayed, telling you when and by whom the email was archived. This presupposes that you selected the **Check for duplicates when an email is opened** option in the **SuperOffice CRM options** dialog.
+
+## Turn default archiving on/off
+
+To archive all emails you send from your mail client in SuperOffice CRM, enable the archive by default function by selecting from the options under **Archive email by default when:** in the **SuperOffice CRM** **options** dialog. All emails you send will then be archived to SuperOffice CRM by default.
+
+Click the **Archive is ON/OFF** button in the new email window to enable/disable the archive by default function for emails created in your mail client.
 
 ## Related content
 

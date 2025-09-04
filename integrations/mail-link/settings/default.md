@@ -46,6 +46,6 @@ Options in the **Archive options** pane of the **SuperOffice CRM options** dialo
 <!-- Referenced links -->
 [2]: ../index.md
 [4]: ../create-in-superoffice.md
-[5]: archive-by-default.md
+[5]: ../archive.md#by-default
 
-<!-- Referenced images -->
+<!-- Referenced images -->
