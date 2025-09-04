@@ -6,6 +6,7 @@ author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
 deployment: onsite
+index: true
 ---
 
 # Customer service mailboxes

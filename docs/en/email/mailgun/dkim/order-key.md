@@ -8,6 +8,7 @@ keywords: mailgun
 content_type: howto
 deployment: online
 platform: web
+index: true
 ---
 
 # Request DKIM key for eu.mailgun.org

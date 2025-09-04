@@ -1,9 +1,10 @@
 ---
 title: config categorization AI Services
 description: How to setup and configure Categorization AI Service
-author: AnthonyYates
 keywords: AI
-content_type: tutorial, howto
+author: Anthony Yates
+date: 08.25.2025
+content_type: tutorial
 deployment: online
 platform: web
 index: true

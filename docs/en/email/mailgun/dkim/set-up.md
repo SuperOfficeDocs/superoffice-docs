@@ -9,6 +9,7 @@ version: 10.3
 content_type: howto
 deployment: online
 platform: web
+index: true
 ---
 
 # How to set up a DKIM Record

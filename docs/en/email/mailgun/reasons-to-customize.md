@@ -5,6 +5,7 @@ description: Reasons to customize Mailgun
 author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
+index: true
 ---
 
 <!-- markdownlint-disable-file MD013 -->

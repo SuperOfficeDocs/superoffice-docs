@@ -8,6 +8,7 @@ keywords: Mailgun, DKIM, online, email, DMARC, SMTP, bounce, consent
 content_type: howto
 deployment: online
 platform: web
+index: true
 ---
 
 # Multiple DKIM records in SuperOffice Online
