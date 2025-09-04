@@ -13,11 +13,6 @@ audience_tooltip: SuperOffice CRM
 deployment: onsite
 redirect_from:
   - /en/email/mail-link/debug
-  - /da/email/mail-link/debug
-  - /de/email/mail-link/debug
-  - /nl/email/mail-link/debug
-  - /no/email/mail-link/debug
-  - /sv/email/mail-link/debug
 index: true
 ---
 
