@@ -26,8 +26,8 @@ Door je e-mails, documenten en agenda aan SuperOffice te koppelen, kun je effici
 | | Applicatie | Beschrijving | Opties |
 |-|---|---|---|
 | <i class="ph ph-at" aria-hidden="true"></i> | **E-mail** | Archiveer inkomende en uitgaande e-mails.| [WebTools][4] (alleen Windows)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice voor Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
-| <i class="ph ph-files" aria-hidden="true"></i> | **Documenten** | Archiveer bestanden van communicatie met klanten en contacten. | SuperOffice documentbibliotheek ([WebTools][4] (Windows) / [WebTools voor Mac][5])<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
-| <i class="ph ph-calendar" aria-hidden="true"></i> | **Agenda** | Uitnodigingen verzenden en ontvangen. | [SuperOffice Inbox][6]<br/> [Synchronizer voor SuperOffice][8]<br /> [WebTools][4] (Windows) / [WebTools voor Mac][5]|
+| <i class="ph ph-files" aria-hidden="true"></i> | **Documenten** | Archiveer bestanden van communicatie met klanten en contacten. | SuperOffice documentbibliotheek [WebTools][4] (Windows / Mac) <br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
+| <i class="ph ph-calendar" aria-hidden="true"></i> | **Agenda** | Uitnodigingen verzenden en ontvangen. | [SuperOffice Inbox][6]<br/> [Synchronizer voor SuperOffice][8]<br /> [WebTools][4] (Windows / Mac) |
 
 ## Welke oplossing gebruikt jouw bedrijf?
 
@@ -63,8 +63,7 @@ De integraties die je nodig hebt, hangen af van je besturingssysteem, je e-mailc
 [1]: default-win.md
 [2]: microsoft-365.md
 [3]: google-workspace.md
-[4]: ../../../document/webtools/learn/install.md
-[5]: ../../../document/webtools/learn/install-mac.md
+[4]: ../../../../../integrations/webtools/install.md
 [6]: ../../../email/inbox/learn/setup.md
 [7]: ../../../../../integrations/superoffice-for-outlook/index.md
 [8]: https://appstore.superoffice.com/infobridge-software-b-v-/synchronizer-for-superoffice

@@ -22,3 +22,6 @@ items:
 - name: Zapier
   href: zapier/toc.yml
   topicHref: zapier/index.md
+- name: WebTools
+  href: webtools/toc.yml
+  topicHref: webtools/index.md

@@ -1,5 +1,5 @@
 items:
-- name: Overview
+- name: Introduction
   href: index.md
 - name: Technical overview
   href: technical-overview.md
@@ -19,3 +19,12 @@ items:
   href: troubleshooting.md
 - name: Debug
   href: debug.md
+- name: Learn
+  topicHref: learn/index.md
+  items:
+  - name: Overview
+    href: learn/index.md
+  - name: Install WebTools for Windows
+    href: learn/install.md
+  - name: Install WebTools for macOS
+    href: learn/install-mac.md

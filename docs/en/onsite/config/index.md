@@ -79,7 +79,7 @@ The following steps are recommended to increase security:
 [4]: ../command-line-switches.md
 [5]: ../debug/web-client.md
 [6]: ../../api/config/index.md
-[7]: ../../document/webtools/debug.md
+[7]: ../../../../integrations/webtools/debug.md
 [10]: ../../service/log-files.md
 [11]: ../../service/config/index.md
 [12]: ../../service/automated-tasks/index.md

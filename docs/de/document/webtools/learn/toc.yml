@@ -1,7 +1,0 @@
-items:
-- name: Überblick
-  href: index.md
-- name: Installieren - Windows
-  href: install.md
-- name: Installeiren - macOS
-  href: install-mac.md

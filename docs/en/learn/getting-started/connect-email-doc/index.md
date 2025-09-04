@@ -61,8 +61,8 @@ The integrations you need depend on your operating system, your email client, an
 [1]: default-win.md
 [2]: microsoft-365.md
 [3]: google-workspace.md
-[4]: ../../../document/webtools/learn/install.md
-[5]: ../../../document/webtools/learn/install-mac.md
+[4]: ../../../../../integrations/webtools/install.md
+[5]: ../../../../../integrations/webtools/install.md#mac
 [6]: ../../../email/inbox/learn/setup.md
 [7]: ../../../../../integrations/superoffice-for-outlook/index.md
 [8]: https://appstore.superoffice.com/infobridge-software-b-v-/synchronizer-for-superoffice
