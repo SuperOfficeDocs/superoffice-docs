@@ -213,6 +213,3 @@ Changes from v11.2.487.0 and v11.3.1348.0
 * New items
 
 ##### SuperOffice.WebApi.Data.UserPreferenceStrings.Mailing is New
-
-
-

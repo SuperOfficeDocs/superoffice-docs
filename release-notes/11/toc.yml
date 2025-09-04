@@ -37,6 +37,15 @@ items:
 - name: API
   href: api/index.md
   items:
+  - name: 11.3 update
+    href: api/11.3/11.3-update.md
+    items:
+    - name: NetServer Changes
+      href: api/11.3/11.3-netserver-update.md
+    - name: SuperOffice WebApi Changes
+      href: api/11.3/11.3-webapi-update.md
+    - name: Database changes 11.3
+      href: ../database/changes-11.3.1348.md
   - name: 11.2 update
     href: api/11.2/11.2-update.md
     items:
