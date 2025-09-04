@@ -4,7 +4,7 @@ title: System settings
 description: System settings
 keywords: Service
 author: Bergfrid Dias
-date: 01.15.2025
+date: 09.03.2025
 version: 10.5
 content_type: reference
 license: serviceessentials
@@ -21,6 +21,7 @@ In this section, you can configure the settings for Service to tailor it to your
 
 ## What would you like to find out more about?
 
+* [Request types][9]
 * [Roles][12]
 * [Users][13]
 * [Categories][4]
@@ -41,7 +42,7 @@ In this section, you can configure the settings for Service to tailor it to your
 [5]: priority/index.md
 [6]: status/index.md
 [8]: system-templates.md
-
+[9]: type/index.md
 [10]: ../../admin/options/learn/custlang/index.md
 [11]: ../../admin/preferences/learn/global-preferences/system.md
 [12]: ../../admin/user-management/learn/role/index.md
