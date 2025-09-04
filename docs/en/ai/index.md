@@ -3,7 +3,7 @@ uid: ai-services
 title: SuperOffice AI Services
 description: SuperOffice AI Services
 keywords: AI, Artificial Intelligence, AI Platform, license
-author: AnthonyYates
+author: Anthony Yates
 date: 06.25.2024
 content_type: concept
 deployment: online

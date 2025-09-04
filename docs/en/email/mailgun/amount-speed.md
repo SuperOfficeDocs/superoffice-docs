@@ -5,6 +5,7 @@ description: Mailgun - amount and speed
 author: SuperOffice Product and Engineering
 keywords:
 content_type: concept
+index: true
 ---
 
 # Mailgun - amount and speed

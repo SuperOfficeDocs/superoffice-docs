@@ -11,7 +11,6 @@ license: serviceessentials
 audience: person
 audience_tooltip: SuperOffice Service
 language: de
-index: true
 redirect_from: /de/request/learn/howto/create
 ---
 

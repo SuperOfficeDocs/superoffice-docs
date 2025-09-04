@@ -11,6 +11,7 @@ license: development-tools
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
+index: true
 redirect_from:
   - /en/quote/learn/admin/product/add-price-list
   - /en/quote/learn/admin/product/add-product-to-price-list

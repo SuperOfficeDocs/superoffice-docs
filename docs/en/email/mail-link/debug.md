@@ -7,6 +7,7 @@ date: 12.16.2011
 keywords: MailLink, debug, log_settings.xml, EnableDebug
 content_type: howto
 deployment: onsite
+index: true
 ---
 
 # Debug MailLink

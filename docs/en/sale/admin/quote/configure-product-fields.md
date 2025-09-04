@@ -11,6 +11,7 @@ license: salespremium
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
+index: true
 redirect_from: /en/quote/learn/admin/product/configure
 ---
 

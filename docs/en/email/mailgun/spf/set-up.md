@@ -8,6 +8,7 @@ keywords: SPF, email, DNS record, domain
 content_type: howto
 deployment: online
 platform: web
+index: true
 ---
 
 # How to set up SPF Record

@@ -7,6 +7,7 @@ date: 05.20.2022
 keywords: email, mailgun
 content_type: reference
 # Optional fields. Don't forget to remove # if you need a field.
+index: true
 ---
 
 # Mailgun sub-processor information (part of our DPA)
