@@ -1,6 +1,9 @@
 items:
 - name: Introduction
   href: index.md
+- name: SuperOffice Gmail Link
+  href: gmail-link/toc.yml
+  topicHref: gmail-link/index.md
 - name: Google Workspace document integration
   href: g-suite/toc.yml
   topicHref: g-suite/index.md
