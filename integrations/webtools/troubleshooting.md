@@ -10,7 +10,6 @@ category: integration
 topic: WebTools
 language: en
 redirect_from: /en/document/webtools/troubleshooting
-index: true
 ---
 
 # Troubleshooting WebTools

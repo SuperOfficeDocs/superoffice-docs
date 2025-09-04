@@ -11,7 +11,6 @@ topic: WebTools
 deployment: onsite
 language: en
 redirect_from: /en/document/webtools/deploy
-index: true
 ---
 
 # WebTools deployment in a restricted environment

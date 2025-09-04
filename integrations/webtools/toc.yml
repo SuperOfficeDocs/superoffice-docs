@@ -20,9 +20,3 @@ items:
   href: troubleshooting.md
 - name: Debug
   href: debug.md
-- name: Learn
-  items:
-  - name: Install WebTools for Windows
-    href: learn/install.md
-  - name: Install WebTools for macOS
-    href: learn/install-mac.md

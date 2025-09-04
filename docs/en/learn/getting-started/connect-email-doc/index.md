@@ -24,8 +24,8 @@ Connecting your emails, documents, and calendar to SuperOffice will help you wor
 | | Application | Description | Options |
 |-|---|---|---|
 | <i class="ph ph-at" aria-hidden="true"></i> | **Email** | Archive incoming and outgoing emails.| [WebTools][4] (Windows only)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice for Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
-| <i class="ph ph-files" aria-hidden="true"></i> | **Documents** | Archive files from communication with customers and contacts. | SuperOffice document library ([WebTools][4] (Windows) / [WebTools for Mac][5])<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
-| <i class="ph ph-calendar" aria-hidden="true"></i> | **Calendar** | Send and receive invitations. | [SuperOffice Inbox][6]<br/> [Synchronizer for SuperOffice][8]<br /> [WebTools][4] (Windows) / [WebTools for Mac][5]|
+| <i class="ph ph-files" aria-hidden="true"></i> | **Documents** | Archive files from communication with customers and contacts. | SuperOffice document library [WebTools][4] (Windows / Mac)<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
+| <i class="ph ph-calendar" aria-hidden="true"></i> | **Calendar** | Send and receive invitations. | [SuperOffice Inbox][6]<br/> [Synchronizer for SuperOffice][8]<br /> [WebTools][4] (Windows / Mac) |
 
 ## What solution does your company use?
 
@@ -62,7 +62,6 @@ The integrations you need depend on your operating system, your email client, an
 [2]: microsoft-365.md
 [3]: google-workspace.md
 [4]: ../../../../../integrations/webtools/install.md
-[5]: ../../../../../integrations/webtools/install.md#mac
 [6]: ../../../email/inbox/learn/setup.md
 [7]: ../../../../../integrations/superoffice-for-outlook/index.md
 [8]: https://appstore.superoffice.com/infobridge-software-b-v-/synchronizer-for-superoffice

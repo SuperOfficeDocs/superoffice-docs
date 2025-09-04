@@ -14,6 +14,11 @@ language: en
 redirect_from: 
   - /en/document/webtools/index
   - /en/document/webtools/learn/index
+  - /da/document/webtools/learn/index
+  - /de/document/webtools/learn/index
+  - /nl/document/webtools/learn/index
+  - /no/document/webtools/learn/index
+  - /sv/document/webtools/learn/index
 index: true
 ---
 

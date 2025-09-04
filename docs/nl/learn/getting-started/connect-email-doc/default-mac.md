@@ -48,5 +48,5 @@ Kies een van de volgende opties:
 
 <!-- Referenced links -->
 [1]: ../../../email/inbox/learn/setup.md
-[2]: ../../../../../integrations/webtools/install.html#mac
+[2]: ../../../../../integrations/webtools/install.md
 [9]: default-win.md

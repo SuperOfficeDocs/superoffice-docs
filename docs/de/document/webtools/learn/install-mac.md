@@ -1,3 +1,3 @@
 ﻿---
-redirect_url: https://docs.superoffice.com/integrations/webtools/install.html#mac
+redirect_url: https://docs.superoffice.com/integrations/webtools/install.html
 ---

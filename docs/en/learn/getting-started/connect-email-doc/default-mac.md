@@ -50,5 +50,5 @@ Choose one of the following options:
 
 <!-- Referenced links -->
 [1]: ../../../email/inbox/learn/setup.md
-[2]: ../../../../../integrations/webtools/install.md#mac
+[2]: ../../../../../integrations/webtools/install.md
 [9]: default-win.md

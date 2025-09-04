@@ -12,7 +12,6 @@ deployment: onsite
 platform: web
 language: en
 redirect_from: /en/document/webtools/upgrade
-index: true
 ---
 
 # Upgrade WebTools
