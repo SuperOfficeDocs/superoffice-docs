@@ -29,7 +29,7 @@ The Telenor Cyberdefence security evaluation has 3 key elements:
 * Testing
 * Audit report
 
-The self-assessment and the audit report are **confidential** between the partner and Watchcom. SuperOffice is only informed if there are red flags needing to be fixed.
+The self-assessment and the audit report are **confidential** between the partner and Telenor Cyberdefence. SuperOffice is only informed if there are red flags needing to be fixed.
 
 ## How is the testing done?
 
@@ -67,7 +67,7 @@ Security audits come in 3 different packages: small, medium (for most apps), and
 
 <!-- markdownlint-disable MD033 -->
 <table class="table-striped" style="width: 100%;" border="1">
-  <caption>Watchcom price models</caption>
+  <caption>Telenor Cyberdefence price models</caption>
   <colgroup> <col style="width: 20%;" span="1" /> <col style="width: 20%;" span="1" /> <col style="width: 20%;" span="1" /><col style="width: 20%;" span="1" /><col style="width: 20%;" span="1" /></colgroup>
   <thead>
     <tr>
@@ -143,7 +143,7 @@ We may send you multiple sets of keys at the same time. You will **not** be abl
 
 3. Your certification contact notifies us that you are ready to proceed.
 
-4. We run a quick verification to confirm that you are ready for Watchcom.
+4. We run a quick verification to confirm that you are ready for Telenor Cyberdefence.
 
 5. We prepare a **Handover document** and send it to Telenor Cyberdefence. It explains:
 
@@ -155,7 +155,7 @@ We may send you multiple sets of keys at the same time. You will **not** be abl
 7. After the test, you get the full report from Telenor Cyberdefence while SuperOffice only receive a pass/fail notification.
 
     > [!NOTE]
-    > **It is your responsibility to fix any red flags!** Contact SuperOffice to schedule a re-test. We will verify that the integration and environment is ready for Watchcom to perform the re-test.
+    > **It is your responsibility to fix any red flags!** Contact SuperOffice to schedule a re-test. We will verify that the integration and environment is ready for Telenor Cyberdefence to perform the re-test.
 
 8. When approved, we activate the application's keys to the production environment.
 
