@@ -18,7 +18,6 @@ metadata:
 # PLEASE PAY ATTENTION TO INDENTATION
 
 landingContent:
-  # Card 1
   - title: Introduction
     linkLists:
       - itemType: explore
@@ -104,8 +103,8 @@ landingContent:
           url: ../ui/blogic/custom-screens/index.md
         - text: Task menu items
           url: ../admin/lists/learn/add-items-to-task-menu.md
-        - text: Extra fields
-          url: ../custom-objects/admin/create-extra-field.md
+        - text: Custom fields
+          url: ../custom-objects/overview.md
 
   - title: Automation
     linkLists:
@@ -195,5 +194,3 @@ landingContent:
           url: ../database/tables/person.md
         - text: Form submission
           url: ../database/tables/form-submission.md
-
-  # Add another card here, and so on

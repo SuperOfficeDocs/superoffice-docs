@@ -49,7 +49,6 @@ conceptualContent:
   title: "" # < 60 chars (optional)
   summary: ""
   items:
-  # Card
     - title: Learn the essentials
       summary: ""
       links:
@@ -70,7 +69,6 @@ conceptualContent:
         typeDesc: learn
         url: /en/search-options/learn/find-screen.html#or
 
-    # Card
     - title: Videos
       summary: ""
       links:
@@ -87,7 +85,6 @@ conceptualContent:
         typeDesc: video
         url: https://www.youtube.com/watch?v=b1YsCcHwz-o
 
-    # Card
     - title: Configuration options
       summary: ""
       links:
@@ -112,7 +109,6 @@ conceptualContent:
           typeDesc: how-to-guide
           url: ../admin/options/learn/freetext-search/regenerate-index.md
 
-    # Card
     - title: UI options
       summary: ""
       links:
@@ -125,7 +121,6 @@ conceptualContent:
         typeDesc: concept
         url: ../ui/soprotocol/index.md
 
-    # Card
     - title: Data options
       summary: ""
       links:
@@ -138,8 +133,7 @@ conceptualContent:
         typeDesc: video
         url: https://www.youtube.com/watch?v=SpeZVxpxeMM
 
-    # Card
-    - title: Actions options
+    - title: Automation
       summary: ""
       links:
       - text: Overview
@@ -155,8 +149,7 @@ conceptualContent:
         typeDesc: reference
         url: ../../../integrations/zapier/index.md
 
-    # Card
-    - title: API options
+    - title: API
       summary: ""
       links:
       - text: CRMScript SearchEngine class
@@ -200,8 +193,7 @@ conceptualContent:
         typeDesc: how-to-guide
         url: ../api/search/selection/sql/add-person-to-selection.md
 
-    # Card
-    - title: Database options
+    - title: Database tables
       summary: ""
       links:
       - text: Selection table

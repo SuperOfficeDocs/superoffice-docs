@@ -78,4 +78,4 @@ Let’s remind ourselves and our customers why the Mailgun – service does a go
     Mailgun is an integrated part of the SuperOffice CRM Online concept. In terms of operation, upgrades, support, and knowledge. It is 100% managed by SuperOffice. Customers taking responsibility for running their own mail-server will represent a custom integrated solution that will affect the mentioned areas.
 
 <!-- Referenced links -->
-[1]: overview.md
+[1]: index.md
