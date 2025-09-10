@@ -28,7 +28,7 @@ landingContent:
         - text: Document library
           url: library/learn/index.md
         - text: Cloud integrations
-          url: cloud/overview.md
+          url: library/it/index.md
       - itemType: list
         typeDesc: how-to-guide
         links:
