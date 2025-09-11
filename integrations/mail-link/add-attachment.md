@@ -47,5 +47,5 @@ When [creating an email from Microsoft Outlook][1] you can add documents from Su
 [1]: create-in-outlook.md
 
 <!-- Referenced images -->
-[img1]: ../../docs/media/icons/mail-link/add-document.png
-[img2]: ../../docs/media/icons/mail-link/arrow.png
+[img1]: media/add-document.png
+[img2]: media/arrow.png

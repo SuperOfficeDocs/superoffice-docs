@@ -68,4 +68,4 @@ To view sales, projects, or activities related to a contact, follow these steps:
 [2]: https://appstore.superoffice.com/infobridge-software-b-v-/synchronizer-for-superoffice
 
 <!-- Referenced images -->
-[img1]: ../../docs/media/loc/en/email/outlook-calendar-event.png
+[img1]: media/outlook-calendar-event.png

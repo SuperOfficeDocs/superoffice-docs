@@ -91,6 +91,6 @@ MailLink is now a separate downloadable installer (the latest version) available
 <!-- Referenced images -->
 [img1]: media/webtools-old-schema.png
 [img2]: media/webtools-new-schema.png
-[img3]: ../../docs/media/loc/en/email/superoffice-button.png
-[img4]: ../../docs/media/icons/mail-link/archive-to-superoffice-crm.png
-[img5]: ../../docs/media/icons/mail-link/search-for-sender-in-superoffice-crm.png
+[img3]: media/superoffice-button.png
+[img4]: media/archive-to-superoffice-crm.png
+[img5]: media/search-for-sender-in-superoffice-crm.png

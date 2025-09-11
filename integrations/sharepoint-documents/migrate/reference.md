@@ -93,7 +93,7 @@ The **Status** section shows a detailed status of ongoing and completed jobs. It
 [1]: steps.md
 
 <!-- Referenced images -->
-[img1]: ../../../docs/media/loc/en/document/migration-completed-with-failures.png
-[img3]: ../../../docs/media/loc/en/document/migration-job-details.png
-[img4]: ../../../docs/media/loc/en/document/documents-omitted.png
-[img7]: ../../../docs/media/loc/en/document/migrate-step-2.png
+[img1]: ../media/migration-completed-with-failures.png
+[img3]: ../media/migration-job-details.png
+[img4]: ../media/documents-omitted.png
+[img7]: ../media/migrate-step-2.png

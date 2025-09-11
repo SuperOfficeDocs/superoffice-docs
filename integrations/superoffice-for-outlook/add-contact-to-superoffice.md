@@ -67,5 +67,5 @@ The **People** tab displays all contacts mentioned in the email. If the sender o
 [1]: get.md#open
 
 <!-- Referenced images -->
-[img1]: ../../docs/media/loc/en/email/outlook-add-contact.png
-[img2]: ../../docs/media/loc/en/email/outlook-unknown-contact.png
+[img1]: media/outlook-add-contact.png
+[img2]: media/outlook-unknown-contact.png

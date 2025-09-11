@@ -62,4 +62,4 @@ If an add-in update significantly increases the scope of data access, you must r
 [5]: https://aka.ms/centralized-deployment-guidance
 
 <!-- Referenced images -->
-[img1]: ../../docs/media/loc/en/email/outlook-api-limitation.png
+[img1]: media/outlook-api-limitation.png

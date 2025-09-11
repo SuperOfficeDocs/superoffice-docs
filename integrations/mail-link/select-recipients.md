@@ -45,5 +45,5 @@ When [creating an email from Microsoft Outlook][1], you can add recipients using
 [1]: create-in-outlook.md
 
 <!-- Referenced images -->
-[img1]: ../../docs/media/icons/mail-link/add-recipient.png
-[img2]: ../../docs/media/icons/mail-link/arrow.png
+[img1]: media/add-recipient.png
+[img2]: media/arrow.png

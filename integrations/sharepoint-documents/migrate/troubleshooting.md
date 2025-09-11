@@ -132,5 +132,5 @@ You must use **Edit Document** > **Open in Desktop App**.
 [3]: ../permissions-app.md
 
 <!-- Referenced images -->
-[img4]: ../../../docs/media/loc/en/document/edit-legacy-document.png
-[img9]: ../../../docs/media/loc/en/document/authorize-app.png
+[img4]: ../media/edit-legacy-document.png
+[img9]: ../media/authorize-app.png

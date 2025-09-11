@@ -105,4 +105,4 @@ Because the add-in is cloud-based, it is always up to date without any action on
 [19]: ../../docs/en/document/library/learn/index.md
 
 <!-- Referenced images -->
-[img1]: ../../docs/media/loc/en/email/user-superoffice-outlook-sidepanel.png
+[img1]: media/user-superoffice-outlook-sidepanel.png
