@@ -67,7 +67,7 @@ Make sure there are no user accounts in this group. Only service accounts.
 [2]: https://id.superoffice.com/identityprovider/register
 
 <!-- Referenced images -->
-[img1]: ../../docs/media/loc/en/document/so-sharepoint-home.png
-[img2]: ../../docs/media/loc/en/document/advanced-permissions.png
-[img3]: ../../docs/media/loc/en/document/share.png
-[img4]: ../../docs/media/loc/en/document/review.png
+[img1]: media/so-sharepoint-home.png
+[img2]: media/advanced-permissions.png
+[img3]: media/share.png
+[img4]: media/review.png
