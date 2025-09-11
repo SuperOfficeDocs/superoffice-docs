@@ -49,14 +49,14 @@ platform: Zapier
 > Breaking change: starting from version 3.5 the API response structure changes because **id**, **body** and **attachments** are now moved under the new **message** property. Clients depending on the old response will need to update.
 
 
-[img1]:<img width="1320" height="117" alt="create-zap" src="docs\en\automation\zapier\howto\media\create-zap.png" />
+[img1]: ../media/create-zap.png
 
-[img2]:<img width="814" height="571" alt="new-zap-window" src="docs\en\automation\zapier\howto\media\new-zap-window.png" />
+[img2]: ../media/new-zap-window.png
 
-[img3]:<img width="596" height="543" alt="search-superoffice-in-zapier" src="docs\en\automation\zapier\howto\media\search-superoffice-in-zapier.png" />
+[img3]: ../media/search-superoffice-in-zapier.png
 
-[img4]:<img width="699" height="538" alt="search-for-create-request-action" src="docs\en\automation\zapier\howto\media\search-for-create-request-action.png" />
+[img4]: ../media/search-for-create-request-action.png
 
-[img5]:<img width="359" height="356" alt="find-request-window" src="docs\en\automation\zapier\howto\media\find-request-window.png" />
+[img5]: ../media/find-request-window.png
 
-[img6]:<img width="325" height="802" alt="retrieved-request" src="docs\en\automation\zapier\howto\media\retrieved-request.png" />
+[img6]: ../media/retrieved-request.png
