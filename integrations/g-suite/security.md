@@ -90,8 +90,8 @@ The users belonging to other domains than the domain the service-account belongs
 [6]: https://admin.google.com/AdminHome?hl=en#GroupList:
 
 <!-- Referenced images -->
-[img1]: ../../docs/media/loc/en/document/gsiarc.png
-[img2]: ../../docs/media/loc/en/document/gsiarc2.png
-[img3]: ../../docs/media/loc/en/document/imagehhza.png
-[img4]: ../../docs/media/loc/en/document/googlesharearchive.png
-[img5]: ../../docs/media/loc/en/document/imagerrxjg.png
+[img1]: media/gsiarc.png
+[img2]: media/gsiarc2.png
+[img3]: media/imagehhza.png
+[img4]: media/googlesharearchive.png
+[img5]: media/imagerrxjg.png
