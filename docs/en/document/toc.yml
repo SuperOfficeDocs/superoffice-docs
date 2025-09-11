@@ -3,10 +3,7 @@ items:
   href: index.yml
   items:
   - name: Cloud document integrations
-    href: cloud/index.yml
-    items:
-    - name: Overview
-      href: cloud/overview.md
+    href: library/it/index.md
   - name: WebTools
     topicHref: ../../../integrations/webtools/index.md
   - name: User guide
