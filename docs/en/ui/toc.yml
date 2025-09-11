@@ -16,6 +16,3 @@ items:
   - name: Web panels
     href: web-panels/toc.yml
     topicHref: web-panels/index.md
-  - name: Design
-    href: design/toc.yml
-    topicHref: design/index.md
