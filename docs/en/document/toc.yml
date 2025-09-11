@@ -4,8 +4,6 @@ items:
   items:
   - name: Cloud document integrations
     href: library/it/index.md
-  - name: WebTools
-    topicHref: ../../../integrations/webtools/index.md
   - name: Ribbons
     href: ribbons/index.md
     items:
@@ -13,13 +11,5 @@ items:
       href: ribbons/enable-debug.md
     - name: Troubleshooting
       href: ribbons/troubleshooting.md
-  - name: User guide
-    topicHref: learn/index.md
-  - name: Template variable reference
-    topicHref: templates/variables/index.md
-  - name: Merge field reference
-    topicHref: templates/merge-fields/index.md
   - name: Open Document Format
     href: odf.md
-  - name: API options
-    topicHref: ../api/web-services/howto/document/index.md

@@ -1,23 +1,5 @@
 items:
 - name: Sale
   href: index.yml
-- name: User guide - sales
-  topicHref: learn/index.md
-- name: For administrators
-  topicHref: admin/index.md
-- name: Quote management
-  topicHref: learn/quote/index.md
-- name: Sales intelligence (SAINT)
-  topicHref: ../saint/learn/index.md
 - name: Technical reference
   href: dev/index.md
-- name: API options - sale
-  items:
-  - name: CRMScript
-    topicHref: ../automation/crmscript/howto/sale/index.md
-  - name: Web services
-    topicHref: ../api/web-services/howto/sale/index.md
-- name: API options - quote
-  items:
-  - name: CRMScript
-    topicHref: ../automation/crmscript/howto/quote/index.md

@@ -1,11 +1,5 @@
 items:
 - name: Requests
   href: index.yml
-- name: User guide
-  topicHref: learn/index.md
-- name: For administrators
-  topicHref: admin/index.md
 - name: Technical reference
   href: overview.md
-- name: CRMScript options
-  topicHref: ../automation/crmscript/howto/request/index.md
