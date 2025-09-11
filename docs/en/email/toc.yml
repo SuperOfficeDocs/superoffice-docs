@@ -7,8 +7,6 @@ items:
     topicHref: mailgun/index.md
   - name: SuperOffice Inbox
     items:
-    - name: User guide
-      topicHref: inbox/learn/index.md
     - name: MailKit
       href: inbox/it/index.md
   - name: Service and Marketing

@@ -2,17 +2,11 @@ items:
 - name: Diary
   href: index.yml
   items:
-  - name: User guide
-    topicHref: learn/index.md
   - name: Technical reference
     href: reference/index.md
   - name: API options
     topicHref: reference/index.md
     items:
-    - name: CRMScript
-      topicHref: ../automation/crmscript/howto/diary/index.md
-    - name: Web services
-      topicHref: ../api/web-services/howto/diary/index.md
     - name: Tutorials
       href: ../api/tutorials/index.md
       items:

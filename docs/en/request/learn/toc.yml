@@ -36,3 +36,5 @@ items:
 - name: For administrators
   href: ../admin/toc.yml
   topicHref: ../admin/index.md
+- name: Explore this topic
+  href: ../index.yml
