@@ -9,6 +9,13 @@ version: 10
 content_type: howto
 deployment: online
 platform: web
+redirect_from: 
+  - /en/ui/design/index
+  - /en/ui/design/error-removal
+  - /en/ui/design/info-hinting
+  - /en/ui/design/readiness-to-hand
+  - /en/ui/design/reading-list
+  - /en/ui/design/whitespace
 ---
 
 # Best practices for SuperOffice CRM Online apps
