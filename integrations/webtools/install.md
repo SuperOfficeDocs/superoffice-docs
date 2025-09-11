@@ -147,9 +147,9 @@ The full command given to *SuperOffice.TrayApp.Client.exe* in this example is:
 [2]: ../../docs/en/learn/getting-started/connect-email-doc/index.md
 
 <!-- Referenced images -->
-[img2]: ../../docs/media/loc/en/webtools/download-webtools.png
-[img3]: ../../docs/media/loc/en/webtools/webtools-pc.png
-[img4]: ../../docs/media/loc/en/webtools/webtools-email-client.png
-[img6]: ../../docs/media/loc/en/webtools/webtools-mac-install.jpg
-[img7]: ../../docs/media/loc/en/webtools/webtools-mac-login-items.jpg
-[img8]: ../../docs/media/loc/en/webtools/webtools-mac-preferences.jpg
+[img2]: media/download-webtools.png
+[img3]: media/webtools-pc.png
+[img4]: media/webtools-email-client.png
+[img6]: media/webtools-mac-install.jpg
+[img7]: media/webtools-mac-login-items.jpg
+[img8]: media/webtools-mac-preferences.jpg
