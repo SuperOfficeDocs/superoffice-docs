@@ -21,13 +21,13 @@ platform: Zapier
 
     ![Zapier: Create a new Zap -screenshot][img1]
 
-2. Create your **Trigger**n by clicking on it. It can be an action in Google sheets or another action in external systems or a part of SuperOffice
+2. Create your **Trigger** by clicking on it. It can be an action in Google sheets or another action in external systems or a part of SuperOffice.
 
     ![Zapier: Create your trigger -screenshot][img2]
 
-3. Click on **Action**. You will be taken to a windows from which you can select the application you want to use. Search for and click on SuperOffice.
+3. Click on **Action**. You will be taken to a window from which you can select the application you want to use. Search for and click on SuperOffice.
 
-    ![Zapier: Select your action -screenshot][img2]
+    ![Zapier: Select your action -screenshot][img3]
 
 4. A side menu will open, in the **Action event** section, select **Find Request**, then click the **Account** section and log in using your SuperOffice account.
 
@@ -46,17 +46,17 @@ platform: Zapier
     ![Zapier: Verify -screenshot][img6]
 
 > [!NOTE]
-> Breaking change: As of version **3.5**, requests contain **Message** field, which contains **Id**, **Body**, **HtmlBody**, **Attachments** and **CustomFields** fields.
+> Breaking change: starting from version 3.5 the API response structure changes because **id**, **body** and **attachments** are now moved under the new **message** property. Clients depending on the old response will need to update.
 
 
-[img1]:<img width="1320" height="117" alt="create-zap" src="https://github.com/user-attachments/assets/5be506dc-03e8-425b-a907-30d235bff676" />
+[img1]:<img width="1320" height="117" alt="create-zap" src="docs\media\zapier\create-zap.png" />
 
-[img2]:<img width="814" height="571" alt="new-zap-window" src="https://github.com/user-attachments/assets/66ce321b-753e-4b4f-95db-41049f0970d8" />
+[img2]:<img width="814" height="571" alt="new-zap-window" src="docs\media\zapier\new-zap-window.png" />
 
-[img3]:<img width="596" height="543" alt="search-superoffice-in-zapier" src="https://github.com/user-attachments/assets/2e0dd6f3-f286-4253-8552-517f862efbb7" />
+[img3]:<img width="596" height="543" alt="search-superoffice-in-zapier" src="docs\media\zapier\search-superoffice-in-zapier.png" />
 
-[img4]:<img width="699" height="538" alt="search-for-create-request-action" src="https://github.com/user-attachments/assets/cb0f3ec6-c820-4c22-8197-c67ae2b71062" />
+[img4]:<img width="699" height="538" alt="search-for-create-request-action" src="docs\media\zapier\search-for-create-request-action.png" />
 
-[img5]:<img width="359" height="356" alt="find-request-window" src="https://github.com/user-attachments/assets/23efb004-f467-4d2e-a4ab-3c35e47d5482" />
+[img5]:<img width="359" height="356" alt="find-request-window" src="docs\media\zapier\find-request-window.png" />
 
-[img6]:<img width="325" height="802" alt="retrieved-request" src="https://github.com/user-attachments/assets/024819df-fecc-4b15-b857-43f4fd5167dc" />
+[img6]:<img width="325" height="802" alt="retrieved-request" src="docs\media\zapier\retrieved-request.png" />
