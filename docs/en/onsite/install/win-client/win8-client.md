@@ -7,6 +7,10 @@ keywords:
 content_type: howto
 deployment: onsite
 platform: win
+redirect_from:
+  - /en/document/ribbons/index
+  - /en/document/ribbons/enable-debug
+  - /en/document/ribbons/troubleshooting
 ---
 
 # Install SuperOffice 8 Windows client
