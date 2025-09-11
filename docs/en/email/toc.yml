@@ -1,10 +1,10 @@
 items:
 - name: Email
-  topicHref: index.yml
+  href: index.yml
   items:
   - name: Mailgun
     href: mailgun/toc.yml
-    topicHref: mailgun/index.yml
+    topicHref: mailgun/index.md
   - name: SuperOffice Inbox
     items:
     - name: User guide

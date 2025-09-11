@@ -1,222 +1,216 @@
-### YamlMime:Category
+### YamlMime:SubCategory
 
-yamlMime: Category
+yamlMime: SubCategory
 title: Company
 summary: Welcome to the company area where you can find relevant links to all things related to companies.
-brand: devdocs
 
 metadata:
   title: Company
   description: "Learn about and work with a real-life company or organization; a company in the UI; a contact in the database."
-  so.product: superoffice
-  so.topic: hub-page
-  so.collection: collection
+  ms.topic: landing-page
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 10.23.2024
+  ms.date: 09.10.2025
 
-# highlightedContent section (optional)
-# Maximum of 8 items
-highlightedContent:
 # typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
 # itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
-  items:
-    # Card
-    - title: User guide
-      itemType: library_books
-      typeDesc: reference
-      url: learn/index.md
-    # Card
-    - title: Template variables
-      itemType: library_books
-      typeDesc: reference
-      url: ../document/templates/variables/from-company-card.md
-    # Card
-    - title: Address formats
-      itemType: library_books
-      typeDesc: reference
-      url: learn/address-formats.md
-    # Card
-    - title: Contact database table
-      itemType: library_books
-      typeDesc: reference
-      url: ../database/tables/contact.md
 
-# conceptualContent section (optional)
-conceptualContent:
-# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
-# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
-  title: "" # < 60 chars (optional)
-  summary: ""
-  items:
-  # Card
-    - title: Learn the essentials
-      summary: ""
-      links:
-      - text: How to add a company
-        itemType: school
-        typeDesc: learn
-        url: learn/create.md
-      - text: How to search for companies
-        itemType: school
-        typeDesc: learn
-        url: ../search-options/learn/find-screen.md
-
-    # Card
-    - title: Videos
-      summary: ""
-      links:
-      - text: How to import customer contacts
-        itemType: video_library
-        typeDesc: video
-        url: https://www.youtube.com/watch?v=dVkCfpOkNl8
-      - text: How to group information
-        itemType: video_library
-        typeDesc: video
-        url: https://www.youtube.com/watch?v=a3AC64pheok
-      - text: How to filter information
-        itemType: video_library
-        typeDesc: video
-        url: https://www.youtube.com/watch?v=HYYI4ZCl4S4
-
-    # Card
-    - title: Configuration options
-      summary: ""
-      links:
-        - text: User preferences
-          itemType: library_books
-          typeDesc: reference
-          url: ../admin/user-preferences/index.md
-
-    # Card
-    - title: UI options
-      summary: ""
-      links:
-      - text: Web panels
-        itemType: map
-        typeDesc: overview
-        url: ../ui/web-panels/index.md
-      - text: SoProtocol - create company
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../ui/soprotocol/howto/create-contact.md
-      - text: SoProtocol - get company
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../ui/soprotocol/howto/open-contact.md
-
-    # Card
-    - title: Data options
-      summary: ""
-      links:
-      - text: Custom fields
-        itemType: map
-        typeDesc: overview
-        url: ../custom-objects/overview.md
-      - text: UdcontactSmall table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/udcontactsmall.md
-      - text: UdcontactLarge table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/udcontactlarge.md
-
-    # Card
-    - title: Actions options
-      summary: ""
-      links:
-      - text: Overview
-        itemType: map
-        typeDesc: overview
-        url: ../automation/index.yml
-      - text: Triggers
-        itemType: explore
+landingContent:
+  - title: Introduction
+    linkLists:
+      - itemType: explore
         typeDesc: concept
-        url: ../automation/trigger/index.md
-      - text: Webhooks
-        itemType: library_books
-        typeDesc: reference
-        url: ../automation/webhook/reference/contact-events.md
-      - text: Zapier
-        itemType: library_books
-        typeDesc: reference
-        url: ../../../integrations/zapier/index.md
-      - text: SCIM - sync company
-        itemType: list
+        links:
+          - text: Companies and the Company card
+            url: learn/index.md
+      - itemType: list
         typeDesc: how-to-guide
-        url: ../online/identity/scim/provisioning/sync-company.md
+        links:
+          - text: Create new company
+            url: learn/create.md
+          - text: Edit company info
+            url: learn/edit.md
+          - text: Copy a company
+            url: learn/copy.md
+          - text: Merge companies
+            url: learn/merge-companies.md
+          - text: Delete a company
+            url: learn/delete.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Template variables
+            url: ../document/templates/variables/from-company-card.md
+          - text: User preferences
+            url: ../admin/user-preferences/index.md
+          - text: Address formats for countries
+            url: learn/address-formats.md
 
-    # Card
-    - title: API options
-      summary: "Examples of how to work with companies and interests in CRMScript and NetServer."
-      links:
-      - text: CRMScript
-        itemType: list
+  - title: Privacy and GDPR
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Implementation guide
+            url: ../security/privacy/admin/index.md
+      - itemType: list
         typeDesc: how-to-guide
-        url: ../automation/crmscript/howto/company/index.md
-      - text: Raw SQL
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../api/sql/howto/company/index.md
-      - text: OSQL
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../api/osql/howto/company/index.md
-      - text: Row
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../api/rows/howto/company/index.md
-      - text: Entity
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../api/entities/howto/company/index.md
-      - text: Web services, REST
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../api/web-services/howto/company/index.md
+        links:
+          - text: Edit privacy settings for a company
+            url: ../security/privacy/learn/edit-legal-base.md
+          - text: Send privacy confirmation email
+            url: ../security/privacy/learn/send-privacy-confirmation-email.md
+          - text: Edit privacy confirmation email
+            url: ../security/privacy/admin/edit-privacy-confirmation-email.md
+          - text: Generate personal data report
+            url: ../security/privacy/learn/generate-personal-data-report.md
+          - text: Delete records permanently
+            url: ../security/privacy/learn/mass-delete.md
+          - text: Add consent purpose
+            url: ../security/privacy/admin/add-purpose.md
+          - text: Add legal base
+            url: ../security/privacy/admin/add-legal-base.md
+          - text: Add privacy source
+            url: ../security/privacy/admin/add-source.md
 
-    # Card
-    - title: Database options
-      summary: ""
-      links:
-      - text: Contact table
-        itemType: library_books
+  - title: Relations
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Overview
+            url: ../learn/basics/relations.md
+          - text: Relations tab
+            url: ../learn/section-tabs/relations-tab.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Adding items to relation list
+            url: ../admin/lists/learn/adding-items-to-relation-list.md
+
+  - title: Import and bulk operations
+    linkLists:
+      - itemType: video_library
+        typeDesc: video
+        links:
+          - text: How to import customer contacts
+            url: https://www.youtube.com/watch?v=dVkCfpOkNl8
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Bulk update company information
+            url: ../learn/basics/bulk-update.md
+          - text: Use the Recycle bin to restore companies
+            url: ../learn/basics/deleting-elements.md#restore
+
+  - title: UI customization
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Screen Designer
+            url: ../ui/screen-designer/learn/index.md
+          - text: Web panels
+            url: ../ui/web-panels/index.md
+          - text: Task menu items
+            url: ../admin/lists/learn/add-items-to-task-menu.md
+          - text: Custom fields
+            url: ../custom-objects/overview.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: SoProtocol - create company
+            url: ../ui/soprotocol/howto/create-contact.md
+          - text: SoProtocol - get company
+            url: ../ui/soprotocol/howto/open-contact.md
+      - itemType: library_books
         typeDesc: reference
-        url: ../database/tables/contact.md
-      - text: Person table
-        itemType: library_books
+        links:
+          - text: UdcontactSmall table
+            url: ../database/tables/udcontactsmall.md
+          - text: UdcontactLarge table
+            url: ../database/tables/udcontactlarge.md
+
+  - title: Automation
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Overview
+            url: ../automation/index.yml
+          - text: Triggers
+            url: ../automation/trigger/index.md
+      - itemType: library_books
         typeDesc: reference
-        url: ../database/tables/person.md
-      - text: Associate table
-        itemType: library_books
+        links:
+          - text: Webhooks - contact events
+            url: ../automation/webhook/reference/contact-events.md
+          - text: Zapier
+            url: ../../../integrations/zapier/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: SCIM - sync company
+            url: ../online/identity/scim/provisioning/sync-company.md
+
+  - title: CRMScript
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overview
+          url: ../automation/crmscript/howto/company/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Create and update company
+          url: ../automation/crmscript/howto/company/create-company.md
+        - text: Get company info
+          url: ../automation/crmscript/howto/company/get-company.md
+        - text: Get activities
+          url: ../automation/crmscript/howto/company/get-activities.md
+        - text: Set/clear interest on company
+          url: ../automation/crmscript/howto/interests/company-interests.md
+
+  - title: API
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Working with companies in API
+            url: reference/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Raw SQL
+            url: ../api/sql/howto/company/index.md
+          - text: OSQL
+            url: ../api/osql/howto/company/index.md
+          - text: Row
+            url: ../api/rows/howto/company/index.md
+          - text: Entity
+            url: ../api/entities/howto/company/index.md
+          - text: Web services, REST
+            url: ../api/web-services/howto/company/index.md
+
+  - title: Database tables
+    linkLists:
+      - itemType: library_books
         typeDesc: reference
-        url: ../database/tables/associate.md
-      - text: UserGroup table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/usergroup.md
-      - text: Address table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/address.md
-      - text: Country table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/country.md
-      - text: Category table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/category.md
-      - text: Business table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/business.md
-      - text: UdcontactSmall table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/udcontactsmall.md
-      - text: UdcontactLarge table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/udcontactlarge.md
+        links:
+          - text: Contact table
+            url: ../database/tables/contact.md
+          - text: Person table
+            url: ../database/tables/person.md
+          - text: Associate table
+            url: ../database/tables/associate.md
+          - text: UserGroup table
+            url: ../database/tables/usergroup.md
+          - text: Address table
+            url: ../database/tables/address.md
+          - text: Country table
+            url: ../database/tables/country.md
+          - text: Category table
+            url: ../database/tables/category.md
+          - text: Business table
+            url: ../database/tables/business.md

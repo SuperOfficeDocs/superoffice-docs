@@ -18,7 +18,6 @@ metadata:
 # PLEASE PAY ATTENTION TO INDENTATION
 
 landingContent:
-  # Card 1
   - title: Introduction
     linkLists:
       - itemType: explore
@@ -29,13 +28,13 @@ landingContent:
         - text: Document library
           url: library/learn/index.md
         - text: Cloud integrations
-          url: cloud/overview.md
+          url: library/it/index.md
       - itemType: list
         typeDesc: how-to-guide
         links:
         - text: Connect email, documents and diary
           url: ../learn/getting-started/connect-email-doc/index.md
-        - text: "Web Tools"
+        - text: WebTools
           url: webtools/index.md
         - text: How to create a document
           url: learn/create.md
@@ -54,6 +53,43 @@ landingContent:
           url: https://www.youtube.com/watch?v=IUhlGOwXp0o
         - text: Create a document and link it to your project
           url: https://www.youtube.com/watch?v=TtgfQ8RO9fw
+
+  - title: Document templates
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overview
+          url: templates/learn/index.md
+        - text: Document types
+          url: templates/learn/document-types.md
+        - text: About template variables
+          url: templates/learn/template-variables.md
+        - text: Quote templates and merge fields
+          url: templates/learn/quote-templates.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Create document template
+          url: templates/learn/create.md
+        - text: Link template (in Settings and maintenance)
+          url: templates/admin/link-template.md
+        - text: Document templates in multiple languages
+          url: ../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+        - text: Edit document template
+          url: https://www.youtube.com/watch?v=FnhcmjP-TgE
+        - text: Add document template
+          url: https://www.youtube.com/watch?v=XcTN1wZPJGY
+      - itemType: library_books
+        typeDesc: reference
+        links:
+        - text: Template variable reference
+          url: templates/variables/index.md
+        - text: Merge field reference
+          url: templates/merge-fields/index.md
 
   - title: SharePoint documents
     linkLists:
@@ -100,43 +136,6 @@ landingContent:
         - text: Set up
           url: ../../../integrations/g-suite/set-up.md
 
-  - title: Document templates
-    linkLists:
-      - itemType: explore
-        typeDesc: concept
-        links:
-        - text: Overview
-          url: templates/learn/index.md
-        - text: Document types
-          url: templates/learn/document-types.md
-        - text: About template variables
-          url: templates/learn/template-variables.md
-        - text: Quote templates and merge fields
-          url: templates/learn/quote-templates.md
-      - itemType: list
-        typeDesc: how-to-guide
-        links:
-        - text: Create document template
-          url: templates/learn/create.md
-        - text: Link template (in Settings and maintenance)
-          url: templates/admin/link-template.md
-        - text: Document templates in multiple languages
-          url: ../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
-      - itemType: video_library
-        typeDesc: video
-        links:
-        - text: Edit document template
-          url: https://www.youtube.com/watch?v=FnhcmjP-TgE
-        - text: Add document template
-          url: https://www.youtube.com/watch?v=XcTN1wZPJGY
-      - itemType: library_books
-        typeDesc: reference
-        links:
-        - text: Template variable reference
-          url: templates/variables/index.md
-        - text: Merge field reference
-          url: templates/merge-fields/index.md
-
   - title: UI customization
     linkLists:
       - itemType: explore
@@ -152,8 +151,8 @@ landingContent:
           url: ../ui/blogic/custom-screens/index.md
         - text: Task menu items
           url: ../admin/lists/learn/add-items-to-task-menu.md
-        - text: Extra fields
-          url: ../custom-objects/admin/create-extra-field.md
+        - text: Custom fields
+          url: ../custom-objects/overview.md
 
   - title: Automation
     linkLists:
