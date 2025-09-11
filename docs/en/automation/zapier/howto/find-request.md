@@ -49,14 +49,14 @@ platform: Zapier
 > Breaking change: starting from version 3.5 the API response structure changes because **id**, **body** and **attachments** are now moved under the new **message** property. Clients depending on the old response will need to update.
 
 
-[img1]: ../media/create-zap.png
+[img1]: media/create-zap.png
 
-[img2]: ../media/new-zap-window.png
+[img2]: media/new-zap-window.png
 
-[img3]: ../media/search-superoffice-in-zapier.png
+[img3]: media/search-superoffice-in-zapier.png
 
-[img4]: ../media/search-for-create-request-action.png
+[img4]: media/search-for-create-request-action.png
 
-[img5]: ../media/find-request-window.png
+[img5]: media/find-request-window.png
 
-[img6]: ../media/retrieved-request.png
+[img6]: media/retrieved-request.png
