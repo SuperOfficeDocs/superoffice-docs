@@ -43,13 +43,6 @@ items:
         href: cloud/g-suite/set-up.md
   - name: WebTools
     href: webtools/toc.yml
-  - name: Ribbons
-    href: ribbons/index.md
-    items:
-    - name: Enable debug
-      href: ribbons/enable-debug.md
-    - name: Troubleshooting
-      href: ribbons/troubleshooting.md
   - name: User guide
     topicHref: learn/index.md
   - name: Template variable reference
