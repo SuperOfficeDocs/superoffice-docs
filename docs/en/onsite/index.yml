@@ -218,7 +218,5 @@ additionalContent:
           text: WebTools
         - url: ../email/mail-link/debug.md
           text: Outlook Mail Link
-        - url: ../document/ribbons/enable-debug.md
-          text: Ribbons
   # footer (optional)
   footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."
