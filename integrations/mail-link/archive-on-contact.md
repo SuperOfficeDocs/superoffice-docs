@@ -71,4 +71,4 @@ It is possible to archive an email (including any attachments) in your mail clie
 [4]: archive-as-request.md
 
 <!-- Referenced images -->
-[img1]: ../../docs/media/loc/en/email/email-maillink-archive-email.png
+[img1]: media/email-maillink-archive-email.png

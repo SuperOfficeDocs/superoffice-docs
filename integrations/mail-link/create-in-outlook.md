@@ -92,8 +92,8 @@ There are two ways of creating an email from Microsoft Outlook. You can use Supe
 [5]: settings.md
 
 <!-- referenced images -->
-[img1]: ../../docs/media/icons/mail-link/archive-is-on.png
-[img2]: ../../docs/media/icons/mail-link/archive-is-off.png
-[img3]: ../../docs/media/icons/mail-link/add-recipient.png
-[img4]: ../../docs/media/icons/mail-link/add-document.png
-[img5]: ../../docs/media/loc/en/email/superoffice-button.png
+[img1]: media/archive-is-on.png
+[img2]: media/archive-is-off.png
+[img3]: media/add-recipient.png
+[img4]: media/add-document.png
+[img5]: media/superoffice-button.png
