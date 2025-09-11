@@ -84,5 +84,5 @@ To send an email and automatically archive it to SuperOffice, follow these steps
 [1]: get.md#open
 
 <!-- Referenced images -->
-[img1]: ../../docs/media/loc/en/email/outlook-save-to-superoffice.png
-[img2]: ../../docs/media/loc/en/email/outlook-send-and-archive.png
+[img1]: media/outlook-save-to-superoffice.png
+[img2]: media/outlook-send-and-archive.png

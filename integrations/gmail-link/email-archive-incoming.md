@@ -61,4 +61,4 @@ Click the link in the pop-up message to open the document in SuperOffice.
 
 <!-- Referenced images -->
 [img1]: ../../common/icons/soarchive.png
-[img2]: ../../docs/media/loc/en/email/email-gmaillink-archive.png
+[img2]: media/email-gmaillink-archive.png

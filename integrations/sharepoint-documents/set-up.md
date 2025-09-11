@@ -64,7 +64,7 @@ The set-up of the SharePoint site and document libraries is quite flexible, but 
 [2]: https://docs.microsoft.com/en-US/sharepoint/create-site-collection
 
 <!-- Referenced images -->
-[img3]: ../../docs/media/loc/en/document/recent.png
-[img4]: ../../docs/media/loc/en/document/new-document-library.png
-[img5]: ../../docs/media/loc/en/document/create-document-library-documents.png
-[img6]: ../../docs/media/loc/en/document/create-document-library-templates.png
+[img3]: media/recent.png
+[img4]: media/new-document-library.png
+[img5]: media/create-document-library-documents.png
+[img6]: media/create-document-library-templates.png

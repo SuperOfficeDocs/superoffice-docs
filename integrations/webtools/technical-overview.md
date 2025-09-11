@@ -75,7 +75,7 @@ After version 8.1, WebTools and MacLink are no longer bundled with the actual in
 [2]: system-requirements.md
 
 <!-- Referenced images -->
-[img1]: ../../docs/media/loc/en/webtools/diagram-open-document-10.2.11.png
-[img2]: ../../docs/media/loc/en/webtools/diagram-open-document-10.2.10.png
-[img3]: ../../docs/media/loc/en/webtools/diagram-start-webtools-10.2.11.png
-[img4]: ../../docs/media/loc/en/webtools/diagram-start-webtools-10.2.10.png
+[img1]: media/diagram-open-document-10.2.11.png
+[img2]: media/diagram-open-document-10.2.10.png
+[img3]: media/diagram-start-webtools-10.2.11.png
+[img4]: media/diagram-start-webtools-10.2.10.png

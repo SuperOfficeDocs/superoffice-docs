@@ -72,4 +72,4 @@ If the attachment is the only part of the email you would like to keep for futur
 [4]: archive-as-request.md
 
 <!-- Referenced images -->
-[img1]: ../../docs/media/loc/en/email/email-maillink-archive-attachment.png
+[img1]: media/email-maillink-archive-attachment.png

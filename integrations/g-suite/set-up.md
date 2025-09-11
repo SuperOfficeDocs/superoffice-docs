@@ -161,9 +161,9 @@ For Google Workspace specifically:
 [7]: ../../docs/en/document/templates/admin/link-template.md
 
 <!-- Referenced images -->
-[img1]: ../../docs/media/loc/en/document/image58qub.png
-[img2]: ../../docs/media/loc/en/document/image0ox0s.png
-[img3]: ../../docs/media/loc/en/document/image5avtq.png
-[img4]: ../../docs/media/loc/en/document/imageu3rda.png
-[img5]: ../../docs/media/loc/en/document/template3.png
-[img6]: ../../docs/media/loc/en/document/template3b.png
+[img1]: media/image58qub.png
+[img2]: media/image0ox0s.png
+[img3]: media/image5avtq.png
+[img4]: media/imageu3rda.png
+[img5]: media/template3.png
+[img6]: media/template3b.png

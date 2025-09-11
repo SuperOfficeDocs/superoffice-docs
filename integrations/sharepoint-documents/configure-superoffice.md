@@ -150,11 +150,11 @@ See the [reference of permissions in SharePoint​][1] for more information.
 [2]: permissions-app.md
 
 <!-- Referenced images -->
-[img1]: ../../docs/media/loc/en/document/sharepoint-config-wizard.png
-[img2]: ../../docs/media/loc/en/document/template-location.png
-[img3]: ../../docs/media/loc/en/document/compatibility-check.png
-[img4]: ../../docs/media/loc/en/document/groups-and-access.png
-[img5]: ../../docs/media/loc/en/document/transfer-document-properties.png
-[img7]: ../../docs/media/loc/en/document/groups-and-access-ad.png
-[img8]: ../../docs/media/loc/en/document/confirm.png
+[img2]: media/template-location.png
+[img3]: media/compatibility-check.png
+[img4]: media/groups-and-access.png
+[img5]: media/transfer-document-properties.png
+[img7]: media/groups-and-access-ad.png
+[img8]: media/confirm.png
 [img9]: ../../docs/media/loc/en/document/so-admin-document-library.png
+[img1]: ../../docs/media/loc/en/document/sharepoint-config-wizard.png

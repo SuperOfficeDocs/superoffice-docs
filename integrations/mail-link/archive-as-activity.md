@@ -84,6 +84,6 @@ If you receive an email requesting you to take action, you can convert the email
 [4]: archive-as-request.md
 
 <!-- Referenced images -->
-[img2]: ../../docs/media/loc/en/email/mail-link-actions.jpg
-[img3]: ../../docs/media/loc/en/email/mail-link-create-apt.jpg
-[img4]: ../../docs/media/loc/en/email/mail-link-create-task.jpg
+[img2]: media/mail-link-actions.jpg
+[img3]: media/mail-link-create-apt.jpg
+[img4]: media/mail-link-create-task.jpg

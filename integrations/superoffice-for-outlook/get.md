@@ -124,7 +124,7 @@ After installing the add-in, you can pin it for quick access while reading email
 [5]: deploy.md
 
 <!-- Referenced images -->
-[img1]: ../../docs/media/loc/en/email/outlook-icon-bar.png
-[img2]: ../../docs/media/loc/en/email/outlook-pin.png
-[img3]: ../../docs/media/loc/en/email/outlook-apps-page.png
-[img4]: ../../docs/media/loc/en/email/outlook-remove-app.png
+[img1]: media/outlook-icon-bar.png
+[img2]: media/outlook-pin.png
+[img3]: media/outlook-apps-page.png
+[img4]: media/outlook-remove-app.png
