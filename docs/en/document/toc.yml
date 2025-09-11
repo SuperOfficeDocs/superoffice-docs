@@ -4,12 +4,5 @@ items:
   items:
   - name: Cloud document integrations
     href: library/it/index.md
-  - name: Ribbons
-    href: ribbons/index.md
-    items:
-    - name: Enable debug
-      href: ribbons/enable-debug.md
-    - name: Troubleshooting
-      href: ribbons/troubleshooting.md
   - name: Open Document Format
     href: odf.md
