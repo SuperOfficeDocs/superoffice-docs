@@ -29,3 +29,5 @@ items:
 - name: Invitations
   href: invitation/toc.yml
   topicHref: invitation/index.md
+- name: Explore this topic
+  href: ../index.yml

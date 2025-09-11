@@ -15,3 +15,5 @@ items:
   href: send-email.md
 - name: Dial contact
   href: dial.md
+- name: Explore this topic
+  href: ../index.yml

@@ -13,3 +13,5 @@ items:
   href: delete.md
 - name: Address formats for countries
   href: address-formats.md
+- name: Explore this topic
+  href: ../index.yml
