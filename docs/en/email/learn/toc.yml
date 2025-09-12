@@ -1,10 +1,10 @@
 items:
 - name: Overview
+  href: ../index.yml
+- name: Introduction
   href: index.md
 - name: Change default mail client in SuperOffice
   href: change-default-mail-client.md
 - name: Inbox
   href: ../inbox/learn/toc.yml
   topicHref: ../inbox/learn/index.md
-- name: Explore this topic
-  href: ../index.yml

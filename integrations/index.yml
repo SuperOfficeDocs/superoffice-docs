@@ -14,6 +14,82 @@ metadata:
 # itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
 
 landingContent:
+  - title: Gmail Link
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Introduction
+            url: gmail-link/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Install Gmail link
+            url: gmail-link/install.md
+          - text: Edit Gmail Link settings
+            url: gmail-link/settings.md
+          - text: Manage senders
+            url: gmail-link/manage-senders.md
+          - text: Archive incoming email
+            url: gmail-link/email-archive-incoming.md
+          - text: Archive attachments
+            url: gmail-link/archive-attachments.md
+          - text: Create activity
+            url: gmail-link/archive-emails-as-activities.md
+          - text: Create request
+            url: gmail-link/archive-emails-as-requests.md
+          - text: Archive outgoing email
+            url: gmail-link/email-archive-outgoing.md
+
+  - title: Google Workspace document integration
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Introduction
+            url: g-suite/index.md
+          - text: Security
+            url: g-suite/security.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Requirements
+            url: g-suite/requirements.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Quick start
+            url: g-suite/getting-started.md
+          - text: Set up
+            url: g-suite/set-up.md
+
+  - title: Mail Link
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Introduction
+            url: mail-link/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Install Mail Link/WebTools
+            url: mail-link/install.md
+          - text: Archive email
+            url: mail-link/archive.md
+          - text: Create email from SuperOffice CRM
+            url: mail-link/create-in-superoffice.md
+          - text: Create email from Microsoft Outlook
+            url: mail-link/create-in-outlook.md
+          - text: Select recipients
+            url: mail-link/select-recipients.md
+          - text: Manage senders
+            url: mail-link/manage-senders.md
+          - text: Add attachments
+            url: mail-link/add-attachment.md
+          - text: Archive on company or contact
+            url: mail-link/archive-on-contact.md
+
   - title: SharePoint documents
     linkLists:
       - itemType: explore
@@ -99,82 +175,6 @@ landingContent:
             url: video-meetings/howto/create.md
           - text: Join video meeting
             url: video-meetings/howto/join.md
-
-  - title: Google Workspace document integration
-    linkLists:
-      - itemType: explore
-        typeDesc: concept
-        links:
-          - text: Introduction
-            url: g-suite/index.md
-          - text: Security
-            url: g-suite/security.md
-      - itemType: library_books
-        typeDesc: reference
-        links:
-          - text: Requirements
-            url: g-suite/requirements.md
-      - itemType: list
-        typeDesc: how-to-guide
-        links:
-          - text: Quick start
-            url: g-suite/getting-started.md
-          - text: Set up
-            url: g-suite/set-up.md
-
-  - title: SuperOffice Gmail Link
-    linkLists:
-      - itemType: explore
-        typeDesc: concept
-        links:
-          - text: Introduction
-            url: gmail-link/index.md
-      - itemType: list
-        typeDesc: how-to-guide
-        links:
-          - text: Install Gmail link
-            url: gmail-link/install.md
-          - text: Edit Gmail Link settings
-            url: gmail-link/settings.md
-          - text: Manage senders
-            url: gmail-link/manage-senders.md
-          - text: Archive incoming email
-            url: gmail-link/email-archive-incoming.md
-          - text: Archive attachments
-            url: gmail-link/archive-attachments.md
-          - text: Create activity
-            url: gmail-link/archive-emails-as-activities.md
-          - text: Create request
-            url: gmail-link/archive-emails-as-requests.md
-          - text: Archive outgoing email
-            url: gmail-link/email-archive-outgoing.md
-
-  - title: Mail Link
-    linkLists:
-      - itemType: explore
-        typeDesc: concept
-        links:
-          - text: Introduction
-            url: mail-link/index.md
-      - itemType: list
-        typeDesc: how-to-guide
-        links:
-          - text: Install Mail Link/WebTools
-            url: mail-link/install.md
-          - text: Archive email
-            url: mail-link/archive.md
-          - text: Create email from SuperOffice CRM
-            url: mail-link/create-in-superoffice.md
-          - text: Create email from Microsoft Outlook
-            url: mail-link/create-in-outlook.md
-          - text: Select recipients
-            url: mail-link/select-recipients.md
-          - text: Manage senders
-            url: mail-link/manage-senders.md
-          - text: Add attachments
-            url: mail-link/add-attachment.md
-          - text: Archive on company or contact
-            url: mail-link/archive-on-contact.md
 
   - title: WebTools
     linkLists:
