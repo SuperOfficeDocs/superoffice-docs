@@ -79,7 +79,7 @@ landingContent:
         typeDesc: concept
         links:
         - text: Overview
-          url: overview.md#reply-templates
+          url: dev/index.md#reply-templates
       - itemType: library_books
         typeDesc: reference
         links:

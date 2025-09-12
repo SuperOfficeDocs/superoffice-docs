@@ -87,4 +87,4 @@ Click the **Archive is ON/OFF** button in the new email window to enable/disable
 [8]: create-in-superoffice.md
 
 <!-- Referenced images -->
-[img1]: media/mail-link/already-archived.png
+[img1]: media/already-archived.png

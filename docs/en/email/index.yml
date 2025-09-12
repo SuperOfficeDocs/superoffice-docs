@@ -29,7 +29,7 @@ landingContent:
         - text: Connect email, documents and diary
           url: ../learn/getting-started/connect-email-doc/index.md
         - text: Change default email client
-          url: learn/change-default-email-client.md
+          url: learn/change-default-mail-client.md
 
   - title: SuperOffice Inbox
     linkLists:
