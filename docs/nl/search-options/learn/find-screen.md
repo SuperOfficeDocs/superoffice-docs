@@ -10,7 +10,6 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
-index: true
 ---
 
 # Het scherm Zoeken <i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>
