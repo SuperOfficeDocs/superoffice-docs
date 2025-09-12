@@ -11,7 +11,6 @@ license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
-index: true
 ---
 
 # Boardweergave gebruiken in selecties <i class="ph ph-kanban" aria-hidden="true"></i>
