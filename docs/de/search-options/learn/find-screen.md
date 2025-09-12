@@ -10,7 +10,6 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
-index: true
 ---
 
 # Die Ansicht Suchen <i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>
