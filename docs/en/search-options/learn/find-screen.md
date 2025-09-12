@@ -10,7 +10,6 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
-index: true
 ---
 
 # The Find screen <i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>
