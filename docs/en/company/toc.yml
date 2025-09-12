@@ -1,6 +1,0 @@
-items:
-- name: Company (contact)
-  href: index.yml
-  items:
-  - name: Technical reference
-    href: reference/index.md

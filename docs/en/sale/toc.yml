@@ -1,5 +1,0 @@
-items:
-- name: Sale
-  href: index.yml
-- name: Technical reference
-  href: dev/index.md

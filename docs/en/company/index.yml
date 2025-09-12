@@ -178,7 +178,7 @@ landingContent:
         typeDesc: concept
         links:
           - text: Working with companies in API
-            url: reference/index.md
+            url: dev/index.md
       - itemType: list
         typeDesc: how-to-guide
         links:

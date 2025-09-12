@@ -71,7 +71,7 @@ conceptualContent:
       - text: Intro
         itemType: explore
         typeDesc: concept
-        url: ../request/overview.md#reply-templates
+        url: ../request/dev/index.md#reply-templates
       - text: Standard fields
         itemType: library_books
         typeDesc: reference

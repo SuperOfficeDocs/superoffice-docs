@@ -90,4 +90,4 @@ When a list of this type is returned, the associates that belong to each group w
 These examples are only one usage of the [associate list][1], but there can be many more innovative designs using the provided functionality, the creativity is up to the user.
 
 <!-- Referenced links -->
-[1]: ../../../../contact/reference/index.md#associate
+[1]: ../../../../contact/dev/index.md#associate

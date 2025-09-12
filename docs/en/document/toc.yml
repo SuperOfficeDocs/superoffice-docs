@@ -1,8 +1,0 @@
-items:
-- name: Document
-  href: index.yml
-  items:
-  - name: Cloud document integrations
-    href: library/it/index.md
-  - name: Open Document Format
-    href: odf.md
