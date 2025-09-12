@@ -24,7 +24,7 @@ landingContent:
         typeDesc: concept
         links:
         - text: Introduction to projects
-          url: reference/index.md
+          url: dev/index.md
         - text: Organize files and activities in projects
           url: learn/index.md
       - itemType: list

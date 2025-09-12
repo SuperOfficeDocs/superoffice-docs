@@ -24,7 +24,7 @@ landingContent:
         typeDesc: concept
         links:
         - text: Introduction to requests
-          url: overview.md
+          url: learn/index.md
         - text: Request status
           url: admin/status/index.md
       - itemType: list
@@ -156,6 +156,11 @@ landingContent:
 
   - title: API
     linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Working with requests in API
+            url: dev/index.md
       - itemType: library_books
         typeDesc: reference
         links:
