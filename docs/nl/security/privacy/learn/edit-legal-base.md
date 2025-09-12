@@ -12,7 +12,6 @@ category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
-index: true
 ---
 
 # Rechtsgrondslag voor een persoon bewerken
