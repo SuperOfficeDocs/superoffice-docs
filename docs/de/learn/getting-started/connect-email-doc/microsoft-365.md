@@ -45,4 +45,4 @@ Wählen Sie eine der folgenden Optionen:
 
 <!-- Referenced links -->
 [1]: ../../../email/inbox/learn/setup.md
-[3]: ../../../../en/document/cloud/sharepoint-documents/set-up.md
+[3]: ../../../../../integrations/sharepoint-documents/set-up.md

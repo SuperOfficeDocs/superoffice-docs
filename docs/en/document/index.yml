@@ -18,7 +18,6 @@ metadata:
 # PLEASE PAY ATTENTION TO INDENTATION
 
 landingContent:
-  # Card 1
   - title: Introduction
     linkLists:
       - itemType: explore
@@ -29,13 +28,13 @@ landingContent:
         - text: Document library
           url: library/learn/index.md
         - text: Cloud integrations
-          url: cloud/overview.md
+          url: library/it/index.md
       - itemType: list
         typeDesc: how-to-guide
         links:
         - text: Connect email, documents and diary
           url: ../learn/getting-started/connect-email-doc/index.md
-        - text: "Web Tools"
+        - text: WebTools
           url: webtools/index.md
         - text: How to create a document
           url: learn/create.md
@@ -46,7 +45,7 @@ landingContent:
         - text: Send email attachments from SuperOffice
           url: learn/send-as-email.md
         - text: Save email attachment to SuperOffice
-          url: ../email/mail-link/learn/archive.md
+          url: ../../../integrations/mail-link/archive.md
       - itemType: video_library
         typeDesc: video
         links:
@@ -54,51 +53,6 @@ landingContent:
           url: https://www.youtube.com/watch?v=IUhlGOwXp0o
         - text: Create a document and link it to your project
           url: https://www.youtube.com/watch?v=TtgfQ8RO9fw
-
-  - title: SharePoint documents
-    linkLists:
-      - itemType: explore
-        typeDesc: concept
-        links:
-        - text: Overview
-          url: cloud/sharepoint-documents/index.md
-        - text: Requirements
-          url: cloud/sharepoint-documents/requirements.md
-      - itemType: list
-        typeDesc: how-to-guide
-        links:
-        - text: Set up SharePoint
-          url: cloud/sharepoint-documents/set-up.md
-        - text: Set up SuperOffice
-          url: cloud/sharepoint-documents/configure-superoffice.md
-        - text: Troubleshooting
-          url: cloud/sharepoint-documents/troubleshooting.md
-        - text: Migration
-          url: cloud/sharepoint-documents/migrate/index.md
-      - itemType: video_library
-        typeDesc: video
-        links:
-        - text: Getting started with SharePoint for documents storage
-          url: https://www.youtube.com/watch?v=9QHJKkqDlzY 
-
-  - title: Google Workspace
-    linkLists:
-      - itemType: explore
-        typeDesc: concept
-        links:
-        - text: Overview
-          url: cloud/g-suite/index.md
-        - text: Requirements
-          url: cloud/g-suite/requirements.md
-        - text: Security
-          url: cloud/g-suite/security.md
-      - itemType: list
-        typeDesc: how-to-guide
-        links:
-        - text: Quick start
-          url: cloud/g-suite/getting-started.md
-        - text: Set up
-          url: cloud/g-suite/set-up.md
 
   - title: Document templates
     linkLists:
@@ -137,6 +91,51 @@ landingContent:
         - text: Merge field reference
           url: templates/merge-fields/index.md
 
+  - title: SharePoint documents
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overview
+          url: ../../../integrations/sharepoint-documents/index.md
+        - text: Requirements
+          url: ../../../integrations/sharepoint-documents/requirements.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Set up SharePoint
+          url: ../../../integrations/sharepoint-documents/set-up.md
+        - text: Set up SuperOffice
+          url: ../../../integrations/sharepoint-documents/configure-superoffice.md
+        - text: Troubleshooting
+          url: ../../../integrations/sharepoint-documents/troubleshooting.md
+        - text: Migration
+          url: ../../../integrations/sharepoint-documents/migrate/index.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+        - text: Getting started with SharePoint for documents storage
+          url: https://www.youtube.com/watch?v=9QHJKkqDlzY 
+
+  - title: Google Workspace
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overview
+          url: ../../../integrations/g-suite/index.md
+        - text: Requirements
+          url: ../../../integrations/g-suite/requirements.md
+        - text: Security
+          url: ../../../integrations/g-suite/security.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Quick start
+          url: ../../../integrations/g-suite/getting-started.md
+        - text: Set up
+          url: ../../../integrations/g-suite/set-up.md
+
   - title: UI customization
     linkLists:
       - itemType: explore
@@ -152,8 +151,8 @@ landingContent:
           url: ../ui/blogic/custom-screens/index.md
         - text: Task menu items
           url: ../admin/lists/learn/add-items-to-task-menu.md
-        - text: Extra fields
-          url: ../custom-objects/admin/create-extra-field.md
+        - text: Custom fields
+          url: ../custom-objects/overview.md
 
   - title: Automation
     linkLists:
@@ -172,7 +171,7 @@ landingContent:
         - text: Webhooks - project member events
           url: ../automation/webhook/reference/project-member-events.md
         - text: Zapier
-          url: ../automation/zapier/index.md
+          url: ../../../integrations/zapier/index.md
 
   - title: CRMScript
     linkLists:

@@ -143,7 +143,7 @@ We use **pilot programs** to assess how well the features and functions meet our
 [8]: https://community.superoffice.com/en/product-releases/pilot-programs/current-pilot-programs/
 [9]: https://community.superoffice.com/en/product-releases/whats-new/product/
 [10]: https://community.superoffice.com/en/product-releases/release-notes/
-[11]: ../../docs/en/email/superoffice-for-outlook/learn/index.md
+[11]: ../../integrations/superoffice-for-outlook/index.md
 [12]: ../../docs/en/mobile/superoffice-mobile/index.md
 [13]: ../integrations/sofo/6.0-update.md
 [14]: ../../docs/en/learn/index.yml

@@ -6,12 +6,3 @@ items:
 - name: Postvak IN
   href: ../inbox/learn/toc.yml
   topicHref: ../inbox/learn/index.md
-- name: SuperOffice voor Outlook
-  href: ../superoffice-for-outlook/learn/toc.yml
-  topicHref: ../superoffice-for-outlook/learn/index.md
-- name: Gmail Link
-  href: ../gmail-link/learn/toc.yml
-  topicHref: ../gmail-link/learn/index.md
-- name: Mail-koppeling
-  href: ../mail-link/learn/toc.yml
-  topicHref: ../mail-link/learn/index.md

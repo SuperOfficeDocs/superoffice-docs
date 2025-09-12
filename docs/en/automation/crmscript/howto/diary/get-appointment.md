@@ -77,5 +77,5 @@ for(Integer i = 0; i < appointmentList.length(); i++) {
 ```
 
 <!-- Referenced links -->
-[1]: ../../../../contact/reference/index.md#associate
+[1]: ../../../../contact/dev/index.md#associate
 [2]: ../../netserver/crmscript-archiveagent.md

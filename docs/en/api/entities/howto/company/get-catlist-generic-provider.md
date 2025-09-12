@@ -60,7 +60,7 @@ All `RootItems` are taken for the corresponding table, in this case, the  [categ
 
 <!-- Referenced links -->
 [1]: ../../../lists/entity/generic-list.md
-[2]: ../../../../company/reference/index.md#categorylist
+[2]: ../../../../company/dev/index.md#categorylist
 [3]: ../../../../database/tables/category.md
 [4]: ../../../../database/tables/history.md
 [5]: ../../../../database/tables/heading.md

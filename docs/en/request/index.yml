@@ -18,14 +18,13 @@ metadata:
 # PLEASE PAY ATTENTION TO INDENTATION
 
 landingContent:
-  # Card 1
   - title: Introduction
     linkLists:
       - itemType: explore
         typeDesc: concept
         links:
         - text: Introduction to requests
-          url: overview.md
+          url: learn/index.md
         - text: Request status
           url: admin/status/index.md
       - itemType: list
@@ -51,7 +50,7 @@ landingContent:
         - text: How to create a request
           url: learn/create.md
         - text: How to archive emails as requests
-          url: ../email/mail-link/learn/archive-as-request.md
+          url: ../../../integrations/mail-link/archive-as-request.md
         - text: Take responsibility for a request
           url: learn/accept.md
         - text: How to reply to customers
@@ -80,7 +79,7 @@ landingContent:
         typeDesc: concept
         links:
         - text: Overview
-          url: overview.md#reply-templates
+          url: dev/index.md#reply-templates
       - itemType: library_books
         typeDesc: reference
         links:
@@ -104,8 +103,8 @@ landingContent:
           url: ../ui/blogic/custom-screens/index.md
         - text: Task menu items
           url: ../admin/lists/learn/add-items-to-task-menu.md
-        - text: Extra fields
-          url: ../custom-objects/admin/create-extra-field.md
+        - text: Custom fields
+          url: ../custom-objects/overview.md
 
   - title: Automation
     linkLists:
@@ -128,7 +127,7 @@ landingContent:
         - text: Webhooks - ticket events
           url: ../automation/webhook/reference/ticket-events.md
         - text: Zapier
-          url: ../automation/zapier/index.md
+          url: ../../../integrations/zapier/index.md
 
   - title: CRMScript
     linkLists:
@@ -157,6 +156,11 @@ landingContent:
 
   - title: API
     linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Working with requests in API
+            url: dev/index.md
       - itemType: library_books
         typeDesc: reference
         links:
@@ -195,5 +199,3 @@ landingContent:
           url: ../database/tables/person.md
         - text: Form submission
           url: ../database/tables/form-submission.md
-
-  # Add another card here, and so on

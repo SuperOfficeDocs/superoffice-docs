@@ -130,7 +130,7 @@ Obsolete settings of the **Diagnostics** section from SuperOffice 10.2:
 <!-- Referenced links -->
 [1]: ../security/deployment-scenarios.md
 [2]: index.md
-[3]: ../../email/mail-link/debug.md
+[3]: ../../../../integrations/mail-link/debug.md
 
 <!-- Referenced images -->
 [img1]: media/image0sx5s.png

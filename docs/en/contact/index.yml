@@ -1,226 +1,227 @@
-### YamlMime:Category
+### YamlMime:SubCategory
 
-yamlMime: Category
+yamlMime: SubCategory
 title: Contact
 summary: Welcome to the contact area where you can find relevant links to all things related to company contacts.
-brand: devdocs
 
 metadata:
   title: Contact
   description: "Learn about and work with persons, customers, and employees: a contact in the UI; a person in the database."
-  so.product: superoffice
-  so.topic: hub-page
-  so.collection: collection
+  ms.topic: landing-page
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 02.02.2022
+  ms.date: 09.10.2025
 
-# highlightedContent section (optional)
-# Maximum of 8 items
-highlightedContent:
 # typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
 # itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
-  items:
-    # Card
-    - title: User guide
-      itemType: library_books
-      typeDesc: reference
-      url: learn/index.md
-    # Card
-    - title: Template variables
-      itemType: library_books
-      typeDesc: reference
-      url: ../document/templates/variables/for-selected-contact.md
-    # Card
-    - title: Address formats
-      itemType: library_books
-      typeDesc: reference
-      url: ../company/learn/address-formats.md
-    # Card
-    - title: Person database table
-      itemType: library_books
-      typeDesc: reference
-      url: ../database/tables/person.md
 
-# conceptualContent section (optional)
-conceptualContent:
-# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
-# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
-  title: "" # < 60 chars (optional)
-  summary: ""
-  items:
-  # Card
-    - title: Learn the essentials
-      summary: ""
-      links:
-      - text: How to add a contact
-        itemType: school
-        typeDesc: learn
-        url: learn/create.md
-      - text: How to search for contacts
-        itemType: school
-        typeDesc: learn
-        url: ../search-options/learn/find-screen.md
-
-    # Card
-    - title: Videos
-      summary: ""
-      links:
-      - text: How to import customer contacts
-        itemType: video_library
-        typeDesc: video
-        url: https://www.youtube.com/watch?v=dVkCfpOkNl8
-      - text: How to manage customer information
-        itemType: video_library
-        typeDesc: video
-        url: https://www.youtube.com/watch?v=10VQCTgxODc
-      - text: How to group information
-        itemType: video_library
-        typeDesc: video
-        url: https://www.youtube.com/watch?v=a3AC64pheok
-      - text: How to filter information
-        itemType: video_library
-        typeDesc: video
-        url: https://www.youtube.com/watch?v=HYYI4ZCl4S4
-
-    # Card
-    - title: Configuration options
-      summary: ""
-      links:
-        - text: User preference - Associates
-          itemType: library_books
-          typeDesc: reference
-          url: ../admin/user-preferences/reference/associates.md
-        - text: User preference - FindContact
-          itemType: library_books
-          typeDesc: reference
-          url: ../admin/user-preferences/reference/find-contact.md
-        - text: Lists - General Country
-          itemType: list
-          typeDesc: how-to-guide
-          url: ../admin/lists/learn/add-items-to-country-list.md
-
-    # Card
-    - title: UI options
-      summary: ""
-      links:
-      - text: Web panels
-        itemType: map
-        typeDesc: overview
-        url: ../ui/web-panels/index.md
-      - text: SoProtocol - list of contacts from a company
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../ui/soprotocol/howto/open-contact.md
-
-    # Card
-    - title: Data options
-      summary: ""
-      links:
-      - text: Custom objects
-        itemType: map
-        typeDesc: overview
-        url: ../custom-objects/overview.md
-      - text: How to add user-defined fields
-        itemType: video_library
-        typeDesc: video
-        url: https://www.youtube.com/watch?v=SpeZVxpxeMM
-      - text: UdpersonSmall table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/udpersonsmall.md
-      - text: UdpersonLarge table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/udpersonlarge.md
-
-    # Card
-    - title: Actions options
-      summary: ""
-      links:
-      - text: Overview
-        itemType: map
-        typeDesc: overview
-        url: ../automation/index.yml
-      - text: Triggers
-        itemType: explore
+landingContent:
+  - title: Introduction
+    linkLists:
+      - itemType: explore
         typeDesc: concept
-        url: ../automation/trigger/index.md
-      - text: Webhooks
-        itemType: library_books
-        typeDesc: reference
-        url: ../automation/webhook/reference/contact-events.md
-      - text: Zapier
-        itemType: library_books
-        typeDesc: reference
-        url: ../automation/zapier/index.md
-      - text: SCIM - sync user
-        itemType: list
+        links:
+          - text: Contacts and the Contact card
+            url: learn/index.md
+      - itemType: list
         typeDesc: how-to-guide
-        url: ../online/identity/scim/provisioning/sync-user.md
+        links:
+          - text: Create new contact
+            url: learn/create.md
+          - text: Edit contact info
+            url: learn/edit.md
+          - text: Move a contact
+            url: learn/move.md
+          - text: Merge contacts
+            url: learn/merge-contacts.md
+          - text: Delete a contact
+            url: learn/delete.md
+          - text: Send email to a contact
+            url: learn/send-email.md
+          - text: Dial contact
+            url: learn/dial.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+          - text: How to manage customer information
+            url: https://www.youtube.com/watch?v=10VQCTgxODc
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Template variables
+            url: ../document/templates/variables/for-selected-contact.md
+          - text: User preference - Associates
+            url: ../admin/user-preferences/reference/associates.md
+          - text: User preference - FindContact
+            url: ../admin/user-preferences/reference/find-contact.md
 
-    # Card
-    - title: API options
-      summary: "Examples of how to work with persons, customers, and employees in CRMScript and NetServer."
-      links:
-      - text: CRMScript
-        itemType: list
+  - title: Privacy and GDPR
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Implementation guide
+            url: ../security/privacy/admin/index.md
+      - itemType: list
         typeDesc: how-to-guide
-        url: ../automation/crmscript/howto/contact/index.md
-      - text: Raw SQL
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../api/sql/howto/contact/index.md
-      - text: OSQL
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../api/osql/howto/contact/index.md
-      - text: Row
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../api/rows/howto/contact/index.md
-      - text: Entity
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../api/entities/howto/contact/index.md
-      - text: Web services, REST
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../api/web-services/howto/contact/index.md
+        links:
+          - text: Edit privacy settings for a contact
+            url: ../security/privacy/learn/edit-legal-base.md
+          - text: Send privacy confirmation email
+            url: ../security/privacy/learn/send-privacy-confirmation-email.md
+          - text: Generate personal data report
+            url: ../security/privacy/learn/generate-personal-data-report.md
+          - text: Delete records permanently
+            url: ../security/privacy/learn/mass-delete.md
+          - text: Add consent purpose
+            url: ../security/privacy/admin/add-purpose.md
+          - text: Add legal base
+            url: ../security/privacy/admin/add-legal-base.md
+          - text: Add privacy source
+            url: ../security/privacy/admin/add-source.md
+          - text: Edit privacy confirmation email
+            url: ../security/privacy/admin/edit-privacy-confirmation-email.md
 
-    # Card
-    - title: Database options
-      summary: ""
-      links:
-      - text: Contact table
-        itemType: library_books
+  - title: Relations
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Relations overview
+            url: ../learn/basics/relations.md
+          - text: Relations tab
+            url: ../learn/section-tabs/relations-tab.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Adding items to relation list
+            url: ../admin/lists/learn/adding-items-to-relation-list.md
+
+  - title: Import and bulk operations
+    linkLists:
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Bulk update contact information
+            url: ../learn/basics/bulk-update.md
+          - text: Use the Recycle bin to restore contacts
+            url: ../learn/basics/deleting-elements.md#restore
+      - itemType: video_library
+        typeDesc: video
+        links:
+          - text: How to import customer contacts
+            url: https://www.youtube.com/watch?v=dVkCfpOkNl8
+
+  - title: UI customization
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Screen Designer
+            url: ../ui/screen-designer/learn/index.md
+          - text: Web panels
+            url: ../ui/web-panels/index.md
+          - text: Task menu items
+            url: ../admin/lists/learn/add-items-to-task-menu.md
+          - text: Custom fields
+            url: ../custom-objects/overview.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: SoProtocol - list of contacts from a company
+            url: ../ui/soprotocol/howto/open-contact.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+          - text: How to add user-defined fields
+            url: https://www.youtube.com/watch?v=SpeZVxpxeMM
+
+  - title: Automation
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Overview
+            url: ../automation/index.yml
+          - text: Triggers
+            url: ../automation/trigger/index.md
+      - itemType: library_books
         typeDesc: reference
-        url: ../database/tables/contact.md
-      - text: Person table
-        itemType: library_books
+        links:
+          - text: Webhooks - contact events
+            url: ../automation/webhook/reference/contact-events.md
+          - text: Zapier
+            url: ../../../integrations/zapier/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: SCIM - sync user
+            url: ../online/identity/scim/provisioning/sync-user.md
+
+  - title: CRMScript
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: Overview (customer, person, user)
+          url: ../automation/crmscript/howto/contact/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Create and update customers
+            url: ../automation/crmscript/howto/contact/create-customer.md
+          - text: Get customer info
+            url: ../automation/crmscript/howto/contact/get-customer.md
+          - text: Look up customers
+            url: ../automation/crmscript/howto/contact/find-customer.md
+          - text: Get interests
+            url: ../automation/crmscript/howto/contact/get-interests.md
+          - text: Create user
+            url: ../automation/crmscript/howto/contact/create-user.md
+          - text: Get user
+            url: ../automation/crmscript/howto/contact/get-user.md
+          - text: Set/clear interest on contact
+            url: ../automation/crmscript/howto/interests/contact-interests.md
+
+  - title: API
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Working with contacts in API
+            url: dev/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Raw SQL
+            url: ../api/sql/howto/contact/index.md
+          - text: OSQL
+            url: ../api/osql/howto/contact/index.md
+          - text: Row
+            url: ../api/rows/howto/contact/index.md
+          - text: Entity
+            url: ../api/entities/howto/contact/index.md
+          - text: Web services, REST
+            url: ../api/web-services/howto/contact/index.md
+
+  - title: Database tables
+    linkLists:
+      - itemType: library_books
         typeDesc: reference
-        url: ../database/tables/person.md
-      - text: Associate table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/associate.md
-      - text: Address table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/address.md
-      - text: Country table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/country.md
-      - text: Business table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/business.md
-      - text: UdpersonSmall table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/udpersonsmall.md
-      - text: UdpersonLarge table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/udpersonlarge.md
+        links:
+          - text: Contact table
+            url: ../database/tables/contact.md
+          - text: Person table
+            url: ../database/tables/person.md
+          - text: Associate table
+            url: ../database/tables/associate.md
+          - text: Address table
+            url: ../database/tables/address.md
+          - text: Country table
+            url: ../database/tables/country.md
+          - text: Business table
+            url: ../database/tables/business.md
+          - text: UdpersonSmall table
+            url: ../database/tables/udpersonsmall.md
+          - text: UdpersonLarge table
+            url: ../database/tables/udpersonlarge.md

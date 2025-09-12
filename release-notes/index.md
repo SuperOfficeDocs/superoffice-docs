@@ -78,7 +78,7 @@ We use **pilot programs** to assess how well the features and functions meet our
 [9]: 10.5/index.md
 [11]: 11/index.md
 [12]: integrations/index.md
-[13]: ../docs/en/email/superoffice-for-outlook/learn/index.md
+[13]: ../integrations/superoffice-for-outlook/index.md
 [14]: ../docs/en/mobile/superoffice-mobile/index.md
 [15]: ../docs/en/learn/index.yml
 [18]: ../docs/en/developer-portal/widgets/index.md#publish-status

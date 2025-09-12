@@ -214,9 +214,9 @@ additionalContent:
           text: Reporter
         - url: debug/win-client.md
           text: Windows client
-        - url: ../document/webtools/debug.md
+        - url: ../../../integrations/webtools/debug.md
           text: WebTools
-        - url: ../email/mail-link/debug.md
+        - url: ../../../integrations/mail-link/debug.md
           text: Outlook Mail Link
   # footer (optional)
   footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."

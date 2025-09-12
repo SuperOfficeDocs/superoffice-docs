@@ -60,12 +60,23 @@
         "dest":"release-notes",
         "files": [ "**/**.{md,yml}", "*.{md,yml}" ],
         "exclude": ["**/includes/**"]
+      },
+      {
+        "src":"integrations",
+        "dest":"integrations",
+        "files": [ "**/**.{md,yml}", "*.{md,yml}" ],
+        "exclude": ["**/includes/**"]
       }
     ],
     "resource": [
       {
         "src":"release-notes",
         "dest":"release-notes",
+        "files": ["**/*.{png,svg,jpg,gif,bmp,zip}"]
+      },
+      {
+        "src":"integrations",
+        "dest":"integrations",
         "files": ["**/*.{png,svg,jpg,gif,bmp,zip}"]
       },
       {

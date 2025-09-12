@@ -133,4 +133,4 @@ Once the example code is executed, the following rows will be added to the table
 <!-- Originally written for NetServer 3.0 -->
 
 <!-- Referenced links -->
-[1]: ../../../../company/reference/index.md#interests
+[1]: ../../../../company/dev/index.md#interests

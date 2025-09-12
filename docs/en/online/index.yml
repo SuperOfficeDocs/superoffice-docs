@@ -45,7 +45,7 @@ highlightedContent:
     - title: "Video meetings"
       itemType: school
       typeDesc: learn
-      url: ../diary/video-meeting/index.md
+      url: ../../../integrations/video-meetings/index.md
     # Card
     - title: "Customer Service"
       itemType: map
@@ -168,11 +168,11 @@ conceptualContent:
         - text: SharePoint documents
           itemType: explore
           typeDesc: concept
-          url: ../document/cloud/sharepoint-documents/index.md
+          url: ../../../integrations/sharepoint-documents/index.md
         - text: Google Workspace document integration
           itemType: explore
           typeDesc: concept
-          url: ../document/cloud/g-suite/index.md
+          url: ../../../integrations/g-suite/index.md
 
 # Card with summary style
 additionalContent:

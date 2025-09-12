@@ -1,0 +1,234 @@
+### YamlMime:SubCategory
+
+yamlMime: SubCategory
+title: SuperOffice integrations
+summary: "Documentation for SuperOffice integrations, such as SuperOffice for Outlook, SharePoint Documents, Video Meetings, WebTools, and Zapier."
+
+metadata:
+  title: SuperOffice integrations
+  description: "Documentation for SuperOffice integrations, such as SuperOffice for Outlook, SharePoint Documents, Video Meetings, WebTools, and Zapier."
+  ms.topic: landing-page
+  ms.date: 09.12.2025
+
+# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
+# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
+
+landingContent:
+  - title: Gmail Link
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Introduction
+            url: gmail-link/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Install Gmail link
+            url: gmail-link/install.md
+          - text: Edit Gmail Link settings
+            url: gmail-link/settings.md
+          - text: Manage senders
+            url: gmail-link/manage-senders.md
+          - text: Archive incoming email
+            url: gmail-link/email-archive-incoming.md
+          - text: Archive attachments
+            url: gmail-link/archive-attachments.md
+          - text: Create activity
+            url: gmail-link/archive-emails-as-activities.md
+          - text: Create request
+            url: gmail-link/archive-emails-as-requests.md
+          - text: Archive outgoing email
+            url: gmail-link/email-archive-outgoing.md
+
+  - title: Google Workspace document integration
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Introduction
+            url: g-suite/index.md
+          - text: Security
+            url: g-suite/security.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Requirements
+            url: g-suite/requirements.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Quick start
+            url: g-suite/getting-started.md
+          - text: Set up
+            url: g-suite/set-up.md
+
+  - title: Mail Link
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Introduction
+            url: mail-link/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Install Mail Link/WebTools
+            url: mail-link/install.md
+          - text: Archive email
+            url: mail-link/archive.md
+          - text: Create email from SuperOffice CRM
+            url: mail-link/create-in-superoffice.md
+          - text: Create email from Microsoft Outlook
+            url: mail-link/create-in-outlook.md
+          - text: Select recipients
+            url: mail-link/select-recipients.md
+          - text: Manage senders
+            url: mail-link/manage-senders.md
+          - text: Add attachments
+            url: mail-link/add-attachment.md
+          - text: Archive on company or contact
+            url: mail-link/archive-on-contact.md
+
+  - title: SharePoint documents
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Introduction
+            url: sharepoint-documents/index.md
+          - text: Permissions
+            url: sharepoint-documents/permissions-in-sharepoint.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Requirements
+            url: sharepoint-documents/requirements.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Set up SharePoint site and libraries
+            url: sharepoint-documents/set-up.md
+          - text: Configure settings in SuperOffice Admin
+            url: sharepoint-documents/configure-superoffice.md
+          - text: Set up SharePoint permissions for documents
+            url: sharepoint-documents/configure-permissions-documents.md
+          - text: Set up SharePoint permissions for templates
+            url: sharepoint-documents/configure-permissions-templates.md
+          - text: Permissions for SuperOffice integration application
+            url: sharepoint-documents/permissions-app.md
+          - text: Troubleshooting
+            url: sharepoint-documents/troubleshooting.md
+
+  - title: SuperOffice for Outlook
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Overview
+            url: superoffice-for-outlook/index.md
+      - itemType: power_settings_new
+        typeDesc: get-started
+        links:
+          - text: Get the add-in
+            url: superoffice-for-outlook/get.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Requirements
+            url: superoffice-for-outlook/requirements.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Save to SuperOffice
+            url: superoffice-for-outlook/save-to-superoffice.md
+          - text: Add contact to SuperOffice
+            url: superoffice-for-outlook/add-contact-to-superoffice.md
+          - text: Create follow-up
+            url: superoffice-for-outlook/create-follow-up.md
+          - text: Create sale
+            url: superoffice-for-outlook/create-sale.md
+          - text: Create request or add message
+            url: superoffice-for-outlook/create-request.md
+
+  - title: Video meetings
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Introduction
+            url: video-meetings/index.md
+          - text: Google
+            url: video-meetings/google-meet/index.md
+          - text: Jitsi
+            url: video-meetings/jitsi/index.md
+          - text: Microsoft Teams
+            url: video-meetings/ms-teams/index.md
+          - text: Webex
+            url: video-meetings/webex/index.md
+          - text: Zoom
+            url: video-meetings/zoom/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Create video meeting
+            url: video-meetings/howto/create.md
+          - text: Join video meeting
+            url: video-meetings/howto/join.md
+
+  - title: WebTools
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Introduction
+            url: webtools/index.md
+          - text: Technical overview
+            url: webtools/technical-overview.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: System requirements
+            url: webtools/system-requirements.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Install (user)
+            url: webtools/install.md
+          - text: Deploy (admin)
+            url: webtools/deploy.md
+          - text: Configure
+            url: webtools/config.md
+          - text: Upgrade
+            url: webtools/upgrade.md
+          - text: Troubleshooting
+            url: webtools/troubleshooting.md
+
+  - title: Zapier
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Overview
+            url: zapier/index.md
+      - itemType: power_settings_new
+        typeDesc: get-started
+        links:
+          - text: Connect account
+            url: zapier/get-started/set-up-account.md
+          - text: Make a Zap
+            url: zapier/get-started/create-zap.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Triggers, actions, templates
+            url: zapier/reference.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Set GDPR fields
+            url: zapier/howto/gdpr.md
+          - text: Handle SuperOffice list values
+            url: zapier/howto/listsource.md
+          - text: Format date and time
+            url: zapier/howto/datetime.md

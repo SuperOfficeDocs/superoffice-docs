@@ -18,14 +18,13 @@ metadata:
 # PLEASE PAY ATTENTION TO INDENTATION
 
 landingContent:
-  # Card 1
   - title: Introduction
     linkLists:
       - itemType: explore
         typeDesc: concept
         links:
         - text: Introduction to projects
-          url: reference/index.md
+          url: dev/index.md
         - text: Organize files and activities in projects
           url: learn/index.md
       - itemType: list
@@ -120,8 +119,8 @@ landingContent:
           url: ../ui/blogic/custom-screens/index.md
         - text: Task menu items
           url: ../admin/lists/learn/add-items-to-task-menu.md
-        - text: Extra fields
-          url: ../custom-objects/admin/create-extra-field.md
+        - text: Custom fields
+          url: ../custom-objects/overview.md
 
   - title: Automation
     linkLists:
@@ -140,7 +139,7 @@ landingContent:
         - text: Webhooks - project member events
           url: ../automation/webhook/reference/project-member-events.md
         - text: Zapier
-          url: ../automation/zapier/index.md
+          url: ../../../integrations/zapier/index.md
 
   - title: CRMScript
     linkLists:
