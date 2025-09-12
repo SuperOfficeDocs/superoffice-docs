@@ -11,7 +11,6 @@ category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
-index: true
 redirect_from: /de/search-options/selection/learn/howto/mass-delete
 ---
 
