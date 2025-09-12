@@ -15,7 +15,7 @@ redirect_from: /en/request/overview
 
 ![Request screen -screenshot][img1]
 
-[!include[License requirement](../../../common/includes/req-service-essentials.md)]
+[!include[License requirement](../../../../common/includes/req-service-essentials.md)]
 
 * Manage requests and inquiries already in the system
 * Create internal and external requests
@@ -96,7 +96,7 @@ The escalation chain has multiple levels. Each level has its own settings, such 
 * If and who the ticket should be delegated to on escalation
 * The ID of a [CRMScript][1] to run when the ticket alert goes off
 
-[!include[License requirement](../../../common/includes/req-service-prem.md)]
+[!include[License requirement](../../../../common/includes/req-service-prem.md)]
 
 You can [define additional escalation levels][8] for each priority.
 
@@ -217,26 +217,26 @@ The standard variables are Message, Company, Customer, Ticket, and Config.
 Some parser variables that exist will not be described. These are present only for backward compatibility.
 
 <!-- Referenced links -->
-[1]: ../automation/crmscript/overview/index.md
-[2]: ../contact/dev/index.md
-[3]: ../company/dev/index.md
-[4]: admin/status/create.md
-[5]: admin/category/create.md
-[6]: learn/tags.md
-[7]: admin/priority/create.md
-[8]: admin/priority/escalation-levels.md
+[1]: ../../automation/crmscript/overview/index.md
+[2]: ../../contact/dev/index.md
+[3]: ../../company/dev/index.md
+[4]: ../admin/status/create.md
+[5]: ../admin/category/create.md
+[6]: ../learn/tags.md
+[7]: ../admin/priority/create.md
+[8]: ../admin/priority/escalation-levels.md
 
-[11]: ../knowledge-base/learn/reply-templates/create.md
-[13]: ../knowledge-base/learn/reply-templates/template-variables.md
-[14]: ../admin/lists/learn/add-email-template.md
-[15]: ../admin/options/learn/custlang/index.md
-[16]: ../database/tables/reply-template.md
+[11]: ../../knowledge-base/learn/reply-templates/create.md
+[13]: ../../knowledge-base/learn/reply-templates/template-variables.md
+[14]: ../../admin/lists/learn/add-email-template.md
+[15]: ../../admin/options/learn/custlang/index.md
+[16]: ../../database/tables/reply-template.md
 
-[21]: ../knowledge-base/learn/reply-templates/template-variables.md#customer
-[22]: ../knowledge-base/learn/reply-templates/template-variables.md#company
-[23]: ../knowledge-base/learn/reply-templates/template-variables.md#user
-[24]: ../knowledge-base/learn/reply-templates/template-variables.md#ticket
-[25]: ../knowledge-base/learn/reply-templates/template-variables.md#config
+[21]: ../../knowledge-base/learn/reply-templates/template-variables.md#customer
+[22]: ../../knowledge-base/learn/reply-templates/template-variables.md#company
+[23]: ../../knowledge-base/learn/reply-templates/template-variables.md#user
+[24]: ../../knowledge-base/learn/reply-templates/template-variables.md#ticket
+[25]: ../../knowledge-base/learn/reply-templates/template-variables.md#config
 
 <!-- Referenced images -->
-[img1]: ../../media/loc/en/request/request-screen.png
+[img1]: ../../../media/loc/en/request/request-screen.png
