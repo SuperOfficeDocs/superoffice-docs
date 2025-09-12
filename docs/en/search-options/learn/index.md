@@ -10,7 +10,6 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
-index: true
 ---
 
 # Search options <i class="ph ph-magnifying-glass" aria-hidden="true"></i>
