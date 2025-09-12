@@ -10,7 +10,6 @@ content_type: howto
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
-index: true
 ---
 
 # Søke-skjermen <i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>
