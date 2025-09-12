@@ -12,7 +12,6 @@ category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
-index: true
 ---
 
 # Rediger personverninnstillinger for en person
