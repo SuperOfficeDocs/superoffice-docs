@@ -12,7 +12,6 @@ category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
-index: true
 ---
 
 # Bericht zu personenbezogenen Daten generieren
