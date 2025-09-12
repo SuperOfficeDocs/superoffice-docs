@@ -11,7 +11,6 @@ category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
-index: true
 ---
 
 # E-mail met privacybevestiging verzenden
