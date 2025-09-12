@@ -1,7 +1,7 @@
 items:
 - name: Overview
   href: index.yml
-- name: SuperOffice Gmail Link
+- name: Gmail Link
   href: gmail-link/toc.yml
   topicHref: gmail-link/index.md
 - name: Google Workspace document integration
@@ -19,9 +19,9 @@ items:
 - name: Video meetings
   href: video-meetings/toc.yml
   topicHref: video-meetings/index.md
-- name: Zapier
-  href: zapier/toc.yml
-  topicHref: zapier/index.md
 - name: WebTools
   href: webtools/toc.yml
   topicHref: webtools/index.md
+- name: Zapier
+  href: zapier/toc.yml
+  topicHref: zapier/index.md
