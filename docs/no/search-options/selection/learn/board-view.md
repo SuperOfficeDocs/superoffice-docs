@@ -11,7 +11,6 @@ license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
-index: true
 ---
 
 # Bruk tavlevisning i utvalg <i class="ph ph-kanban" aria-hidden="true"></i>
