@@ -1,5 +1,7 @@
 items:
 - name: Overview
+  href: ../index.yml
+- name: Introduction
   href: index.md
 - name: Appointment, task, phone call
   href: follow-ups.md
@@ -29,7 +31,5 @@ items:
 - name: Invitations
   href: invitation/toc.yml
   topicHref: invitation/index.md
-- name: Explore this topic
-  href: ../index.yml
 - name: Technical reference
   href: ../dev/index.md

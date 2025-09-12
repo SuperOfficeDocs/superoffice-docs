@@ -1,5 +1,7 @@
 items:
 - name: Overview
+  href: ../index.yml
+- name: Introduction
   href: index.md
 - name: Create project
   href: create.md
@@ -21,7 +23,5 @@ items:
 - name: For administrators
   href: ../admin/toc.yml
   topicHref: ../admin/index.md
-- name: Explore this topic
-  href: ../index.yml
 - name: Technical reference
   href: ../dev/index.md
