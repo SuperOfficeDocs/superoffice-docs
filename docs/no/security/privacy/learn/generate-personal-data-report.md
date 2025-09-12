@@ -11,7 +11,6 @@ category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
-index: true
 ---
 
 # Generer persondatarapport
