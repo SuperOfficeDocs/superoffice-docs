@@ -70,7 +70,7 @@ The `RootItems` are defined by the records in the `category` table only if the M
 
 <!-- Referenced links -->
 [1]: ../../../lists/entity/typed-list.md
-[2]: ../../../../company/reference/index.md#categorylist
+[2]: ../../../../company/dev/index.md#categorylist
 [4]: ../../../../database/tables/category.md
 [5]: ../../../../database/tables/heading.md
 
