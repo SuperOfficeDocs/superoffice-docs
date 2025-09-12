@@ -17,3 +17,5 @@ items:
   href: dial.md
 - name: Explore this topic
   href: ../index.yml
+- name: Technical reference
+  href: ../dev/index.md

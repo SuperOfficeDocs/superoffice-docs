@@ -2,8 +2,6 @@ items:
 - name: Diary
   href: index.yml
   items:
-  - name: Technical reference
-    href: reference/index.md
   - name: API options
     topicHref: reference/index.md
     items:
