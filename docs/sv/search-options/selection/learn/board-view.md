@@ -11,7 +11,6 @@ license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
-index: true
 ---
 
 # Använd tavlevy i urval <i class="ph ph-kanban" aria-hidden="true"></i>
