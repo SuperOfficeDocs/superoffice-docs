@@ -48,4 +48,4 @@ In the code above, once we have created an instance of the `Contact` entity by u
 * using the `SelectRootItems` property
 
 <!-- Referenced links -->
-[1]: ../../../../company/reference/index.md#interests
+[1]: ../../../../company/dev/index.md#interests

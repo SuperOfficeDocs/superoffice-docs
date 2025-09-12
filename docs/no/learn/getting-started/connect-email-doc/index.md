@@ -26,8 +26,8 @@ Ved å koble e-post, dokumenter og kalender til SuperOffice, kan du jobbe mer ef
 | | Applikasjon | Beskrivelse | Alternativer |
 |-|---|---|---|
 | <i class="ph ph-at" aria-hidden="true"></i> | **E-post** | Arkiver innkommende og utgående e-poster.| [WebTools][4] (kun Windows)<br /> [SuperOffice Inbox][6]<br /> [SuperOffice for Outlook][7]<br /> [Google Workspace (GmailLink)][9]|
-| <i class="ph ph-files" aria-hidden="true"></i> | **Dokumenter** | Arkiver filer fra kommunikasjon med kunder og kontakter. | SuperOffice dokumentbibliotek ([WebTools][4] (Windows) / [WebTools for Mac][5])<br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
-| <i class="ph ph-calendar" aria-hidden="true"></i> | **Kalender** | Send og motta invitasjoner. | [SuperOffice Inbox][6]<br/> [Synchronizer for SuperOffice][8]<br /> [WebTools][4] (Windows) / [WebTools for Mac][5]|
+| <i class="ph ph-files" aria-hidden="true"></i> | **Dokumenter** | Arkiver filer fra kommunikasjon med kunder og kontakter. | SuperOffice dokumentbibliotek [WebTools][4] (Windows / Mac) <br /> [Microsoft 365/SharePoint][2]<br /> [Google Workspace][3]|
+| <i class="ph ph-calendar" aria-hidden="true"></i> | **Kalender** | Send og motta invitasjoner. | [SuperOffice Inbox][6]<br/> [Synchronizer for SuperOffice][8]<br /> [WebTools][4] (Windows / Mac) |
 
 ## Hvilken løsning bruker bedriften din?
 
@@ -63,12 +63,11 @@ Integrasjonene du trenger avhenger av operativsystemet, e-postklienten og dokume
 [1]: default-win.md
 [2]: microsoft-365.md
 [3]: google-workspace.md
-[4]: ../../../document/webtools/learn/install.md
-[5]: ../../../document/webtools/learn/install-mac.md
+[4]: ../../../../../integrations/webtools/install.md
 [6]: ../../../email/inbox/learn/setup.md
-[7]: ../../../email/superoffice-for-outlook/learn/index.md
+[7]: ../../../../../integrations/superoffice-for-outlook/index.md
 [8]: https://appstore.superoffice.com/infobridge-software-b-v-/synchronizer-for-superoffice
-[9]: ../../../email/gmail-link/learn/index.md
+[9]: ../../../../../integrations/gmail-link/index.md
 [10]: default-mac.md
 
 <!-- Referenced images -->

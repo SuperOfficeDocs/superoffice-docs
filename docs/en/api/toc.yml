@@ -863,3 +863,12 @@ items:
   - name: Plug-ins
     href: plugins/toc.yml
     topicHref: plugins/index.md
+  - name: Tutorials
+    href: tutorials/index.md
+    items:
+    - name: iTunes-like client for activities
+      href: tutorials/itunes-like-activities/index.md
+    - name: SuperOffice iCal Feed
+      href: tutorials/so-ical-feed/index.md
+    - name: Generate RSS feed in VB.Net
+      href: tutorials/rss-feed-vb/index.md

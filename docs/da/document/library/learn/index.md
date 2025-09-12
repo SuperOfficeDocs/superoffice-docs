@@ -50,10 +50,10 @@ Denne integration giver dig mulighed for at gemme alle dokumenter og e-mails i S
 * [Konfigurer SharePoint dokumentbibliotek (5-trins guide)][5]
 
 <!-- Referenced links -->
-[2]: ../../../../en/document/cloud/overview.md
-[3]: ../../../../en/document/cloud/sharepoint-documents/requirements.md
-[4]: ../../../../en/document/cloud/sharepoint-documents/set-up.md
-[5]: ../../../../en/document/cloud/sharepoint-documents/configure-superoffice.md
+[2]: ../../../../en/document/library/it/index.md
+[3]: ../../../../../integrations/sharepoint-documents/requirements.md
+[4]: ../../../../../integrations/sharepoint-documents/set-up.md
+[5]: ../../../../../integrations/sharepoint-documents/configure-superoffice.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/document/admin-preferences-documentlibrary.png

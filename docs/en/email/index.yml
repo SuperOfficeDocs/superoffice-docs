@@ -1,108 +1,202 @@
-### YamlMime:Category
+### YamlMime:SubCategory
 
-yamlMime: Category
+yamlMime: SubCategory
 title: Email
-summary: Welcome to the email area where you can find relevant links to all things related to email.
-brand: devdocs
+summary: "Welcome to the email area where you can find relevant links to all things related to email"
 
 metadata:
   title: Email
-  description: Email
-  so.product: superoffice
-  so.topic: hub-page
-  so.collection: collection
+  description: "Learn about the alternatives for sending and receiving emails in SuperOffice and how to configure them."
+  ms.topic: landing-page
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 05.25.2025
+  ms.date: 09.10.2025
 
-# highlightedContent section (optional)
-# Maximum of 8 items
-highlightedContent:
 # typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
 # itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
-  items:
-    # Card
-    - title: "Mailgun"
-      itemType: map
-      typeDesc: overview
-      url: mailgun/index.yml
-    # Card
-    - title: "SuperOffice for Outlook"
-      itemType: map
-      typeDesc: overview
-      url: superoffice-for-outlook/learn/index.md
-    # Card
-    - title: "MailLink"
-      itemType: map
-      typeDesc: overview
-      url: mail-link/index.md
-    # Card
-    - title: "SuperOffice Inbox"
-      itemType: map
-      typeDesc: overview
-      url: inbox/it/index.md
-    # Card
-    - title: "Email in Service and Marketing"
-      itemType: map
-      typeDesc: overview
-      url: service/index.md
-    # Card
-    - title: "Email table"
-      itemType: library_books
-      typeDesc: reference
-      url: ../database/tables/email.md
 
-# Card with summary style
-additionalContent:
-  # Supports up to 3 sections
-  sections: 
-    - title: "" # < 60 chars (optional)
-      summary: "" # < 160 chars (optional)
-      items:
-      # Card
-      - title: Mailgun
+landingContent:
+  - title: Introduction
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
         links:
-          - url: mailgun/overview.md
-            text: Overview
-          - url: mailgun/dkim/index.md
-            text: DKIM
-          - url: mailgun/spf/index.md
-            text: SPF
-      # Card
-      - title: SuperOffice for Outlook
+        - text: Introduction to email
+          url: learn/index.md
+      - itemType: list
+        typeDesc: how-to-guide
         links:
-          - url: superoffice-for-outlook/learn/index.md
-            text: Deployment overview
-          - url: superoffice-for-outlook/it/deploy.md
-            text: Deploy centrally
-          - url: superoffice-for-outlook/learn/get.md
-            text: Deploy office add-in
-          - url: superoffice-for-outlook/learn/requirements.md
-            text: Requirements
-      # Card
-      - title: MailLink
+        - text: Connect email, documents and diary
+          url: ../learn/getting-started/connect-email-doc/index.md
+        - text: Change default email client
+          url: learn/change-default-mail-client.md
+
+  - title: SuperOffice Inbox
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
         links:
-          - url: mail-link/index.md
-            text: What is MailLink?
-          - url: mail-link/debug.md
-            text: Debug
-      # Card
-      - title: SuperOffice Inbox
+          - text: What is SuperOffice Inbox?
+            url: inbox/index.md
+      - itemType: list
+        typeDesc: how-to-guide
         links:
-          - url: inbox/index.md
-            text: What is SuperOffice Inbox?
-          - url: inbox/it/index.md#how-to-enable-mailkit
-            text: How to enable MailKit
-          - url: inbox/it/index.md#how-to-troubleshoot-mailkit
-            text: How to troubleshoot MailKit
-      # Card
-      - title: Service and Marketing mail
+          - text: Compose and send email
+            url: inbox/learn/compose.md
+          - text: Accept invitations
+            url: inbox/learn/invitations.md
+          - text: Archive email and attachments
+            url: inbox/learn/archive.md
+          - text: How to enable MailKit
+            url: inbox/it/index.md#how-to-enable-mailkit
+          - text: How to troubleshoot MailKit
+            url: inbox/it/index.md#how-to-troubleshoot-mailkit
+
+  - title: SuperOffice for Outlook
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
         links:
-          - url: service/index.md
-            text: What is cURL mail?
-          - url: service/index.md#how-to-enable-curl
-            text: How to enable cURL
-          - url: service/index.md#how-to-troubleshoot-mail-when-using-curl
-            text: How to troubleshoot mail when using cURL
-  # footer (optional)
-  footer: "Contribute to NetServer docs. Read our [contributor guide](https://www.github.com/SuperOfficeDocs/contribute)."
+          - text: Overview
+            url: ../../../integrations/superoffice-for-outlook/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Get the add-in
+            url: ../../../integrations/superoffice-for-outlook/get.md
+          - text: Deploy centrally
+            url: ../../../integrations/superoffice-for-outlook/deploy.md
+          - text: Save to SuperOffice
+            url: ../../../integrations/superoffice-for-outlook/save-to-superoffice.md
+          - text: Add contact to SuperOffice
+            url: ../../../integrations/superoffice-for-outlook/add-contact-to-superoffice.md
+          - text: Create follow-up
+            url: ../../../integrations/superoffice-for-outlook/create-follow-up.md
+          - text: Create sale
+            url: ../../../integrations/superoffice-for-outlook/create-sale.md
+          - text: Create request or add message
+            url: ../../../integrations/superoffice-for-outlook/create-request.md
+          - text: Add CRM data to Outlook event
+            url: ../../../integrations/superoffice-for-outlook/add-crm-data-to-event.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Requirements
+            url: ../../../integrations/superoffice-for-outlook/requirements.md
+
+  - title: Gmail Link
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Introduction
+            url: ../../../integrations/gmail-link/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Install Gmail link
+            url: ../../../integrations/gmail-link/install.md
+          - text: Edit Gmail Link settings
+            url: ../../../integrations/gmail-link/settings.md
+          - text: Manage senders
+            url: ../../../integrations/gmail-link/manage-senders.md
+          - text: Archive incoming email
+            url: ../../../integrations/gmail-link/email-archive-incoming.md
+          - text: Archive attachments
+            url: ../../../integrations/gmail-link/archive-attachments.md
+          - text: Create activity
+            url: ../../../integrations/gmail-link/archive-emails-as-activities.md
+          - text: Create request
+            url: ../../../integrations/gmail-link/archive-emails-as-requests.md
+          - text: Archive outgoing email
+            url: ../../../integrations/gmail-link/email-archive-outgoing.md
+
+  - title: MailLink
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: What is MailLink?
+            url: ../../../integrations/mail-link/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Install Mail Link/WebTools
+            url: ../../../integrations/mail-link/install.md
+          - text: Archive email
+            url: ../../../integrations/mail-link/archive.md
+          - text: Create email from SuperOffice CRM
+            url: ../../../integrations/mail-link/create-in-superoffice.md
+          - text: Create email from Microsoft Outlook
+            url: ../../../integrations/mail-link/create-in-outlook.md
+          - text: Select recipients
+            url: ../../../integrations/mail-link/select-recipients.md
+          - text: Manage senders
+            url: ../../../integrations/mail-link/manage-senders.md
+          - text: Add attachments
+            url: ../../../integrations/mail-link/add-attachment.md
+          - text: SuperOffice CRM options dialog
+            url: ../../../integrations/mail-link/settings.md
+          - text: Debug
+            url: ../../../integrations/mail-link/debug.md
+
+  - title: cURL
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: What is cURL mail?
+            url: service/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: How to enable cURL
+            url: service/index.md#how-to-enable-curl
+          - text: How to troubleshoot mail when using cURL
+            url: service/index.md#how-to-troubleshoot-mail-when-using-curl
+
+  - title: Mailgun
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Mail service alternatives
+            url: mailgun/index.md
+          - text: Reasons to customize
+            url: mailgun/reasons-to-customize.md
+          - text: Performance
+            url: mailgun/amount-speed.md
+          - text: Security
+            url: mailgun/security.md
+          - text: Sub-processor info
+            url: mailgun/sub-processor-info.md
+
+  - title: DKIM
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: What is the purpose of DKIM record?
+          url: mailgun/dkim/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+        - text: Request DKIM key for eu.mailgun.org
+          url: mailgun/dkim/order-key.md
+        - text: How to set up a DKIM Record
+          url: mailgun/dkim/set-up.md
+        - text: How to change DKIM from US to EU
+          url: mailgun/dkim/change-us-to-eu.md
+
+  - title: SPF
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+        - text: What is SPF?
+          url: mailgun/spf/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: How to set up SPF Record
+            url: mailgun/spf/set-up.md

@@ -31,4 +31,4 @@ Andere unterstützte Dateitypen:
 Siehe auch die Unterstützung für [Open Document Format][1].
 
 <!-- Referenced links -->
-[1]: ../../../../en/document/odf.md
+[1]: ../../../../en/document/library/it/odf.md

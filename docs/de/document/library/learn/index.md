@@ -50,10 +50,10 @@ Mit dieser Integration können Sie alle Dokumente und E-Mails in SharePoint Onli
 * [Konfiguration der SharePoint Dokumentenbibliothek (5-Schritt-Assistent)][5]
 
 <!-- Referenced links -->
-[2]: ../../../../en/document/cloud/overview.md
-[3]: ../../../../en/document/cloud/sharepoint-documents/requirements.md
-[4]: ../../../../en/document/cloud/sharepoint-documents/set-up.md
-[5]: ../../../../en/document/cloud/sharepoint-documents/configure-superoffice.md
+[2]: ../../../../en/document/library/it/index.md
+[3]: ../../../../../integrations/sharepoint-documents/requirements.md
+[4]: ../../../../../integrations/sharepoint-documents/set-up.md
+[5]: ../../../../../integrations/sharepoint-documents/configure-superoffice.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/document/admin-preferences-documentlibrary.png

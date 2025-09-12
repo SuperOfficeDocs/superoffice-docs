@@ -63,4 +63,4 @@ We have first retrieved a `Contact` entity using the `ContactAgent`. And then us
 Next, we iterate on the array and change its Boolean `Selected` property status. By using the `SaveContactEntity` method available in the `Contact` agent, we save the modifications made to the entity.
 
 <!-- Referenced links -->
-[1]: ../../../../company/reference/index.md#interests
+[1]: ../../../../company/dev/index.md#interests

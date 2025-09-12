@@ -1,0 +1,27 @@
+items:
+- name: Overview
+  href: index.yml
+- name: Gmail Link
+  href: gmail-link/toc.yml
+  topicHref: gmail-link/index.md
+- name: Google Workspace document integration
+  href: g-suite/toc.yml
+  topicHref: g-suite/index.md
+- name: Mail Link
+  href: mail-link/toc.yml
+  topicHref: mail-link/index.md
+- name: SharePoint documents
+  href: sharepoint-documents/toc.yml
+  topicHref: sharepoint-documents/index.md
+- name: SuperOffice for Outlook
+  href: superoffice-for-outlook/toc.yml
+  topicHref: superoffice-for-outlook/index.md
+- name: Video meetings
+  href: video-meetings/toc.yml
+  topicHref: video-meetings/index.md
+- name: WebTools
+  href: webtools/toc.yml
+  topicHref: webtools/index.md
+- name: Zapier
+  href: zapier/toc.yml
+  topicHref: zapier/index.md

@@ -30,4 +30,4 @@ The method returns an `ISoListItem` and requires a delegate that defines the ele
 Next, we move on to setting the interest to true or false. To do this we use the `SetItemSelection` method available `ContactInterestHelper` class. The method requires the interest ID and the new selection status (true or false) to be passed.
 
 <!-- Referenced links -->
-[1]: ../../../../company/reference/index.md#interests
+[1]: ../../../../company/dev/index.md#interests

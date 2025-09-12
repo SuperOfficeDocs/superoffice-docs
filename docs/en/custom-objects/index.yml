@@ -17,7 +17,6 @@ metadata:
 
 # PLEASE PAY ATTENTION TO INDENTATION
 landingContent:
-  # Card
   - title: Introduction
     linkLists:
       - itemType: library_books
@@ -32,7 +31,6 @@ landingContent:
         - text: Extra fields
           url: learn/extra-field.md
 
-  # Card
   - title: Create custom fields and objects
     linkLists:
       - itemType: list
@@ -50,7 +48,6 @@ landingContent:
         - text: How to add a user-defined field
           url: https://www.youtube.com/watch?v=SpeZVxpxeMM
 
-  # Card
   - title: UI customization
     linkLists:
       - itemType: explore
@@ -76,7 +73,6 @@ landingContent:
         - text: bLogic - select extra field
           url: ../ui/blogic/reference/select-extra-field.md
 
-  # Card
   - title: CRMScript
     linkLists:
       - itemType: explore
@@ -96,8 +92,7 @@ landingContent:
         - text: Add data to a new table
           url: ../automation/crmscript/howto/custom-objects/extra-table.md
 
-  # Card
-  - title: API options
+  - title: API
     linkLists:
     - itemType: explore
       typeDesc: concept
@@ -114,7 +109,6 @@ landingContent:
       - text: Raw SQL
         url: ../api/sql/howto/custom-objects/set-udef.md
 
-  # Card
   - title: Database tables
     linkLists:
     - itemType: library_books
@@ -132,5 +126,3 @@ landingContent:
         url: ../database/tables/extra-tables.md
       - text: extra_fields table
         url: ../database/tables/extra-fields.md
-
-  # Add another card here, and so on

@@ -36,3 +36,16 @@ items:
   - name: Mirroring
     href: mirroring/toc.yml
     topicHref: mirroring/index.yml
+  - name: Mail services
+    href: ../email/mailgun/index.md
+    items:
+    - name: Mailgun
+      href: ../email/mailgun/toc.yml
+      topicHref: ../email/mailgun/index.md
+    - name: MailKit (SuperOffice Inbox)
+      href: ../email/inbox/it/index.md
+    - name: Service and Marketing (cUrl)
+      href: ../email/service/index.md
+      items:
+      - name: Migrate mailboxes
+        href: ../email/service/migrate.md

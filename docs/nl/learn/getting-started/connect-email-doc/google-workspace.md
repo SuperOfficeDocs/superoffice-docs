@@ -49,6 +49,6 @@ Kies een van de volgende opties:
 
 <!-- Referenced links -->
 [1]: ../../../email/inbox/learn/setup.md
-[2]: ../../../email/gmail-link/learn/index.md
-[3]: ../../../../en/document/cloud/g-suite/index.md
+[2]: ../../../../../integrations/gmail-link/index.md
+[3]: ../../../../../integrations/g-suite/index.md
 [11]: http://online.superoffice.com/appstore/superoffice-as/superoffice-gmail-link

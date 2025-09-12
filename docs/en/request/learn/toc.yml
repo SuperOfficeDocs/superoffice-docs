@@ -1,5 +1,7 @@
 items:
 - name: Overview
+  href: ../index.yml
+- name: Introduction
   href: index.md
 - name: Handle requests with AI
   href: handle-request-ai.md
@@ -36,3 +38,5 @@ items:
 - name: For administrators
   href: ../admin/toc.yml
   topicHref: ../admin/index.md
+- name: Technical reference
+  href: ../dev/index.md

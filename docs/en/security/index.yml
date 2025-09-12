@@ -232,7 +232,7 @@ additionalContent:
       - title: Documents
         links:
         - text: Google Workspace documents
-          url: ../document/cloud/g-suite/security.md
+          url: ../../../integrations/g-suite/security.md
       # Card
       - title: Cookies
         links:

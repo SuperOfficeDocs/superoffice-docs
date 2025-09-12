@@ -51,4 +51,4 @@ using (SoSession.Authenticate("tje3", "tje3"))
 <!-- Referenced links -->
 [1]: <xref:SuperOffice.CRM.Entities.AppointmentMatrix>
 [2]: ../../../../diary/learn/invitation/index.md
-[3]: ../../../../diary/reference/index.md#frequency
+[3]: ../../../../diary/dev/index.md#frequency

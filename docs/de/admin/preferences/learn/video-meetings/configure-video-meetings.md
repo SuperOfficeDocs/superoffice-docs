@@ -45,7 +45,7 @@ language: de
 Klicken Sie auf **Konfigurieren**, wenn Sie einen anderen Anbieter auswählen oder die Konfiguration ändern möchten.
 
 <!-- Referenced links -->
-[1]: ../../../../../en/diary/video-meeting/index.md
+[1]: ../../../../../../integrations/video-meetings/index.md
 [2]: email-setup-in-superoffice.md
 
 <!-- Referenced images -->

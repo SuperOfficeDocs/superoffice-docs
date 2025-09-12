@@ -1,5 +1,7 @@
 items:
 - name: Overview
+  href: ../index.yml
+- name: Introduction
   href: index.md
 - name: Create new contact
   href: create.md
@@ -15,3 +17,5 @@ items:
   href: send-email.md
 - name: Dial contact
   href: dial.md
+- name: Technical reference
+  href: ../dev/index.md

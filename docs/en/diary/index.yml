@@ -1,262 +1,243 @@
-### YamlMime:Category
+### YamlMime:SubCategory
 
-yamlMime: Category
+yamlMime: SubCategory
 title: Diary (Follow-up)
 summary: Welcome to the diary area where you can find relevant links to all things related to follow-ups and tasks.
-brand: devdocs
 
 metadata:
   title: Diary (Follow-up)
   description: Contains details pertaining to follow-ups, activities, and sales.
-  so.product: superoffice
-  so.topic: hub-page
-  so.collection: collection
+  ms.topic: landing-page
   author: Bergfrid Dias
   so.author: digitaldiina
-  so.date: 08.25.2025
+  ms.date: 09.10.2025
 
-# highlightedContent section (optional)
-# Maximum of 8 items
-highlightedContent:
 # typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
 # itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
-  items:
-    # Card
-    - title: Video meetings
-      itemType: map
-      typeDesc: overview
-      url: video-meeting/index.md
-    # Card
-    - title: User guide
-      itemType: library_books
-      typeDesc: reference
-      url: learn/index.md
-    # Card
-    - title: Template variables
-      itemType: library_books
-      typeDesc: reference
-      url: ../document/templates/variables/for-appointments.md
-        # Card
-    - title: Appointment database table
-      itemType: library_books
-      typeDesc: reference
-      url: ../database/tables/appointment.md
 
-# conceptualContent section (optional)
-conceptualContent:
-# typeDesc: architecture | concept | deploy       | download      | get-started        | how-to-guide | learn  | overview | quickstart | reference     | tutorial | video              | whats-new
-# itemType: architecture | explore | cloud_upload | file_download | power_settings_new | list         | school | map      | place      | library_books | dvr      | video_library      | new_releases
-  title: "" # < 60 chars (optional)
-  summary: ""
-  items:
-  # Card
-    - title: Introduction
-      summary: ""
-      links:
-      - text: Types of follow-ups
-        itemType: explore
+landingContent:
+  - title: Introduction
+    linkLists:
+      - itemType: explore
         typeDesc: concept
-        url: learn/follow-ups.md
-      - text: Recurring appointments
-        itemType: explore
-        typeDesc: concept
-        url: learn/recurrence/index.md
-      - text: Invitations
-        itemType: explore
-        typeDesc: concept
-        url: learn/invitation/index.md
-
-  # Card
-    - title: User guide
-      summary: ""
-      links:
-      - text: Create a follow-up
-        itemType: school
-        typeDesc: learn
-        url: learn/create-follow-up.md
-      - text: Invite attendees
-        itemType: school
-        typeDesc: learn
-        url: learn/invitation/add-attendee.md
-
-    # Card
-    - title: Videos
-      summary: ""
-      links:
-      - text: Add follow-up to project
-        itemType: video_library
-        typeDesc: video
-        url: https://www.youtube.com/watch?v=YQr5B5IU7XY
-      - text: Create and join video meeting
-        itemType: video_library
-        typeDesc: video
-        url: https://www.youtube.com/watch?v=XDg_k086TRA
-      - text: Manage your tasks and optimize your schedule
-        itemType: video_library
-        typeDesc: video
-        url: https://www.youtube.com/watch?v=w4ywpuX2SPM
-
-    # Card
-    - title: Configuration options
-      summary: ""
-      links:
-        - text: User preference AppointmentDialog
-          itemType: library_books
-          typeDesc: reference
-          url: ../admin/user-preferences/reference/appointment-dialog.md
-        - text: User preference DiaryView
-          itemType: library_books
-          typeDesc: reference
-          url: ../admin/user-preferences/reference/diary-view.md
-        - text: List Follow-up type
-          itemType: list
-          typeDesc: how-to-guide
-          url: ../admin/lists/learn/adding-items-to-follow-up-type-list.md
-
-    # Card
-    - title: Automation
-      summary: ""
-      links:
-      - text: Overview
-        itemType: map
-        typeDesc: overview
-        url: ../automation/index.yml
-      - text: Trigger SalesAfterSaveAppointment
-        itemType: library_books
-        typeDesc: reference
-        url: ../automation/trigger/reference/CRMScript.Event.Trigger.yml#CRMScript_Event_Trigger_SalesAfterSaveAppointment
-      - text: Trigger SalesBeforeSaveAppointment
-        itemType: library_books
-        typeDesc: reference
-        url: ../automation/trigger/reference/CRMScript.Event.Trigger.yml#CRMScript_Event_Trigger_SalesBeforeSaveAppointment
-      - text: Webhook activity events
-        itemType: library_books
-        typeDesc: reference
-        url: ../automation/webhook/reference/activity-events.md
-      - text: Zapier
-        itemType: library_books
-        typeDesc: reference
-        url: ../automation/zapier/index.md
-
-    # Card
-    - title: API how-tos
-      summary: ""
-      links:
-      - text: CRMScript
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../automation/crmscript/howto/diary/index.md
-      - text: Raw SQL
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../api/sql/howto/diary/index.md
-      - text: OSQL
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../api/osql/howto/diary/create-apt-osql.md
-      - text: Row
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../api/rows/howto/diary/create-apt-row.md
-      - text: Entity
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../api/entities/howto/diary/index.md
-      - text: Web services
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../api/web-services/howto/diary/index.md
-      - text: Archive (search)
-        itemType: list
-        typeDesc: how-to-guide
-        url: ../api/archive-providers/howto/diary/invitation-archive.md
-
-    # Card
-    - title: Data options
-      summary: ""
-      links:
-      - text: Custom objects
-        itemType: map
-        typeDesc: overview
-        url: ../custom-objects/index.yml
-      - text: UdappntSmall table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/udappntsmall.md
-      - text: UdappntLarge table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/udappntlarge.md
-
-    # Card
-    - title: Database tables
-      summary: ""
-      links:
-      - text: Appointment table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/appointment.md
-      - text: Invitation table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/invitation.md
-      - text: RecurrenceRule table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/recurrencerule.md
-      - text: Priority table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/priority.md
-      - text: DiaryView table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/diaryview.md
-      - text: Task table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/task.md
-      - text: Project table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/project.md
-      - text: SuggestedAppointment table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/suggestedappointment.md
-      - text: Associate table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/associate.md
-      - text: UserGroup table
-        itemType: library_books
-        typeDesc: reference
-        url: ../database/tables/usergroup.md
-
-# Card with summary style
-additionalContent:
-  # Supports up to 3 sections
-  sections: 
-    - title: "Additional content" # < 60 chars (optional)
-      summary: "related information" # < 160 chars (optional)
-      items:
-      # Card
-      - title: UI options
         links:
-        - text: Web panels
-          url: ../ui/web-panels/index.md
-        - text: SoProtocol - create follow-up
-          url: ../ui/soprotocol/howto/create-follow-up.md
-        - text: SoProtocol - open Follow-up dialog
-          url: ../ui/soprotocol/howto/open-follow-up.md
-      # Card
-      - title: Related content
+          - text: The Diary screen
+            url: learn/index.md
+          - text: Types of follow-ups
+            url: learn/follow-ups.md
+      - itemType: list
+        typeDesc: how-to-guide
         links:
-        - text: Company
-          url: ../company/index.yml
-        - text: Contact
-          url: ../contact/index.yml
-        - text: Project
-          url: ../project/index.yml
-        - text: Sale
-          url: ../sale/index.yml
+          - text: Create a follow-up
+            url: learn/create-follow-up.md
+          - text: Edit or delete follow-up
+            url: learn/edit-follow-up.md
+          - text: Complete follow-up
+            url: learn/change-completed-status.md
+          - text: View other diaries
+            url: learn/other-diaries.md
+          - text: Group view
+            url: learn/group-view.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+          - text: Add follow-up to project
+            url: https://www.youtube.com/watch?v=YQr5B5IU7XY
+          - text: Manage your tasks and optimize your schedule
+            url: https://www.youtube.com/watch?v=w4ywpuX2SPM
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Template variables
+            url: ../document/templates/variables/for-appointments.md
+          - text: User preference - AppointmentDialog
+            url: ../admin/user-preferences/reference/appointment-dialog.md
+          - text: User preference - DiaryView
+            url: ../admin/user-preferences/reference/diary-view.md
+
+  - title: Video meetings
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Video meetings integration
+            url: ../../../integrations/video-meetings/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Create video meeting
+            url: ../../../integrations/video-meetings/howto/create.md
+          - text: Join video meeting
+            url: ../../../integrations/video-meetings/howto/join.md
+          - text: Configure email invitations
+            url: ../../../integrations/video-meetings/howto/configure-email-invitations.md
+          - text: Connect provider
+            url: ../../../integrations/video-meetings/howto/connect-provider.md
+          - text: Disconnect provider
+            url: ../../../integrations/video-meetings/howto/disconnect-provider.md
+          - text: Remove configuration for users
+            url: ../../../integrations/video-meetings/howto/disconnect-user.md
+      - itemType: video_library
+        typeDesc: video
+        links:
+          - text: Create and join video meeting
+            url: https://www.youtube.com/watch?v=XDg_k086TRA
+
+  - title: Invitations
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Overview
+            url: learn/invitation/index.md
+      - itemType: school
+        typeDesc: learn
+        links:
+          - text: Add attendee to follow-up
+            url: learn/invitation/add-attendee.md
+          - text: Accept or decline
+            url: learn/invitation/accept-decline.md
+
+  - title: Recurrence
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Overview
+            url: learn/recurrence/index.md
+      - itemType: school
+        typeDesc: learn
+        links:
+          - text: Creating recurring follow-up
+            url: learn/recurrence/create.md
+          - text: Stopping recurring follow-up
+            url: learn/recurrence/stop.md
+
+  - title: UI customization
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Screen Designer
+            url: ../ui/screen-designer/learn/index.md
+          - text: Web panels
+            url: ../ui/web-panels/index.md
+          - text: Task menu items
+            url: ../admin/lists/learn/add-items-to-task-menu.md
+          - text: List - Follow-up type
+            url: ../admin/lists/learn/adding-items-to-follow-up-type-list.md
+          - text: Custom fields
+            url: ../custom-objects/overview.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: SoProtocol - create follow-up
+            url: ../ui/soprotocol/howto/create-follow-up.md
+          - text: SoProtocol - open Follow-up dialog
+            url: ../ui/soprotocol/howto/open-follow-up.md
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: UdappntSmall table
+            url: ../database/tables/udappntsmall.md
+          - text: UdappntLarge table
+            url: ../database/tables/udappntlarge.md
+
+  - title: Automation
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Overview
+            url: ../automation/index.yml
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Trigger SalesAfterSaveAppointment
+            url: ../automation/trigger/reference/CRMScript.Event.Trigger.yml#CRMScript_Event_Trigger_SalesAfterSaveAppointment
+          - text: Trigger SalesBeforeSaveAppointment
+            url: ../automation/trigger/reference/CRMScript.Event.Trigger.yml#CRMScript_Event_Trigger_SalesBeforeSaveAppointment
+          - text: Webhook activity events
+            url: ../automation/webhook/reference/activity-events.md
+          - text: Zapier
+            url: ../../../integrations/zapier/index.md
+
+  - title: CRMScript
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Overview
+            url: ../automation/crmscript/howto/diary/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Get appointments
+            url: ../automation/crmscript/howto/diary/get-appointment.md
+          - text: Create appointment
+            url: ../automation/crmscript/howto/diary/create-appointment.md
+          - text: Update and delete appointments
+            url: ../automation/crmscript/howto/diary/update-appointment.md
+          - text: Working with todo lists
+            url: ../automation/crmscript/howto/diary/task.md
+          - text: View recurrence info
+            url: ../automation/crmscript/howto/diary/get-recurrence-info.md
+          - text: Get follow-ups in a series
+            url: ../automation/crmscript/howto/diary/get-appointments-in-series.md
+          - text: Create repeating follow-ups
+            url: ../automation/crmscript/howto/diary/create-recurring-appointment.md
+          - text: Update repeating follow-ups
+            url: ../automation/crmscript/howto/diary/update-recurrence.md
+          - text: Create invitation
+            url: ../automation/crmscript/howto/diary/create-invitation.md
+          - text: Accept invitation
+            url: ../automation/crmscript/howto/diary/accept-invitation.md
+
+  - title: API
+    linkLists:
+      - itemType: explore
+        typeDesc: concept
+        links:
+          - text: Working with follow-ups (appointments) in API
+            url: dev/index.md
+      - itemType: list
+        typeDesc: how-to-guide
+        links:
+          - text: Raw SQL
+            url: ../api/sql/howto/diary/index.md
+          - text: OSQL
+            url: ../api/osql/howto/diary/create-apt-osql.md
+          - text: Row
+            url: ../api/rows/howto/diary/create-apt-row.md
+          - text: Entity
+            url: ../api/entities/howto/diary/index.md
+          - text: Web services
+            url: ../api/web-services/howto/diary/index.md
+          - text: Archive (search)
+            url: ../api/archive-providers/howto/diary/invitation-archive.md
+
+  - title: Database tables
+    linkLists:
+      - itemType: library_books
+        typeDesc: reference
+        links:
+          - text: Appointment table
+            url: ../database/tables/appointment.md
+          - text: Invitation table
+            url: ../database/tables/invitation.md
+          - text: RecurrenceRule table
+            url: ../database/tables/recurrencerule.md
+          - text: Priority table
+            url: ../database/tables/priority.md
+          - text: DiaryView table
+            url: ../database/tables/diaryview.md
+          - text: Task table
+            url: ../database/tables/task.md
+          - text: Project table
+            url: ../database/tables/project.md
+          - text: SuggestedAppointment table
+            url: ../database/tables/suggestedappointment.md
+          - text: Associate table
+            url: ../database/tables/associate.md
+          - text: UserGroup table
+            url: ../database/tables/usergroup.md

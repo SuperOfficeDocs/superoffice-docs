@@ -1,5 +1,3 @@
 ---
-uid: superoffice-for-outlook-redirect
-date: 09.17.2024
-redirect_url: https://docs.superoffice.com/en/email/superoffice-for-outlook/learn/index.html
+redirect_url: https://docs.superoffice.com/integrations/superoffice-for-outlook/index.html
 ---

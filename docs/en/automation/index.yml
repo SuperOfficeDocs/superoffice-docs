@@ -169,4 +169,4 @@ landingContent:
         - text: Windows client script event system
           url: windows/win-script-event-system.md
         - text: Zapier
-          url: zapier/index.md
+          url: ../../../integrations/zapier/index.md
