@@ -10,7 +10,6 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
-index: true
 ---
 
 # Skærmbilledet Find <i class="ph ph-list-magnifying-glass" aria-hidden="true"></i>
