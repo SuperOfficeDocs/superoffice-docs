@@ -11,7 +11,6 @@ license: salespremium, servicepremium, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
-index: true
 ---
 
 # Board-Ansicht in Selektionen verwenden <i class="ph ph-kanban" aria-hidden="true"></i>
