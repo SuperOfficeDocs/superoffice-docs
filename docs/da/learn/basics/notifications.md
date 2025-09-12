@@ -11,7 +11,6 @@ license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
-index: true
 ---
 
 # Beskeder <i class="ph ph-bell" aria-label="Bell icon"></i>
