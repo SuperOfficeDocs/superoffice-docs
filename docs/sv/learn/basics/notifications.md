@@ -11,7 +11,6 @@ license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
-index: true
 ---
 
 # Aviseringar <i class="ph ph-bell" aria-label="Bell icon"></i>
