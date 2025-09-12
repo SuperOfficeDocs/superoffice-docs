@@ -11,7 +11,6 @@ category: privacy
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
-index: true
 ---
 
 # Personvern <i class="ph ph-shield" aria-label="Shield icon"></i>
