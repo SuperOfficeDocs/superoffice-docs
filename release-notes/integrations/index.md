@@ -14,7 +14,7 @@ audience_tooltip: SuperOffice CRM
 
 ## Office integrations
 
-* [Set configurations - Prefer direct link to Microsoft Teams (2.9)][13]
+* [Video meetings - Set configurations - Prefer direct link to Microsoft Teams (2.9)][13]
 * [SuperOffice for Outlook update – Action required (6.0)][1]
 
 [Current released versions][6]:
@@ -32,6 +32,7 @@ audience_tooltip: SuperOffice CRM
 
 See all the [new or updated apps][2]
 
+* [Book My Calendar (29.08.2025)][14] from SuperOffice AS
 * [FindProspects (08.08.2025)][12] from Cloud Connection AS
 * [SuperOffice Mobile CRM (10.06.2025)][7] from SuperOffice AS
 * [Online Signature (10.06.2025)][8] from Beezy365 A/S
@@ -56,5 +57,6 @@ See all the [new or updated apps][2]
 [11]: https://appstore.superoffice.com/supercompany-as/trale
 [12]: https://appstore.superoffice.com/cloud-connection/findprospects
 [13]: video-meetings/2.9-update.md
+[14]: https://appstore.superoffice.com/superoffice-as/book-my-calendar?utm_medium=docs&utm_source=release%20notes&utm_campaign=11.4
 
 <!-- Referenced images -->
