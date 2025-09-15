@@ -63,7 +63,12 @@ redirect_from: /en/automation/zapier/howto/find-company
 
     ![Zapier: Find or Create Company -screenshot][img7]
 
+## Related content
+
+* [Find request][1]
+
 <!-- Referenced links -->
+[1]: find-request.md
 
 <!-- Referenced images -->
 [img1]: media/find-company.png
