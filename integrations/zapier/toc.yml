@@ -19,5 +19,7 @@ items:
     href: howto/datetime.md
   - name: Create search action
     href: howto/find-company.md
+  - name: Find request
+    href: howto/find-request.md
 - name: Triggers, actions, templates
   href: reference.md
