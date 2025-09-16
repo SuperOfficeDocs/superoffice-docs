@@ -4,8 +4,8 @@ title: Die Seitenleiste
 description: Über die Seitenleiste erhalten Sie Zugriff auf Informationen, die in anderen Teilen von SuperOffice CRM gespeichert sind, ohne die Ansicht zu verlassen, in der Sie sich befinden.
 keywords: Seitenleiste
 author: Bergfrid Dias
-date: 02.11.2025
-version: 10.5.2
+date: 09.01.2025
+version: 11.3
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -106,7 +106,7 @@ Listet Mitglieder der aktuellen Selektion in der Ansicht **Selektion**.
 
 ## Benutzerdefinierte Ansichten
 
-Administratoren können benutzerdefinierte Ansichten für die Seitenleiste in **Einstellungen und Verwaltung** definieren, um das Panel an die Bedürfnisse Ihres Teams anzupassen.
+Administratoren können [benutzerdefinierte Ansichten][7] für die Seitenleiste in **Einstellungen und Verwaltung** definieren, um das Panel an die Bedürfnisse Ihres Teams anzupassen.
 
 ## FAQ und Tipps
 
@@ -132,6 +132,7 @@ Administratoren können benutzerdefinierte Ansichten für die Seitenleiste in **
 [4]: ../../../diary/learn/index.md
 [5]: ../../../document/learn/create.md#fields
 [6]: ../../../diary/learn/create-follow-up.md
+[7]: ../../../admin/lists/learn/web-panel-add-item.md
 [8]: ../../basics/fav.md
 [11]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-get-document-closed-in-the-side-panel-of-superoffice-crm-when-document-viewer-is-used/
 [10]: ../../../sale/learn/index.md#side-panel

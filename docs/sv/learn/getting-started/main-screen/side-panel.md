@@ -4,8 +4,8 @@ title: Använd sidopanelen för att arbeta mer effektivt
 description: Med sidopanelen kan du komma åt information som lagras i andra delar av SuperOffice CRM utan att lämna skärmen du befinner dig på.
 keywords: sidopanel
 author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+date: 09.01.2025
+version: 11.3
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -105,7 +105,7 @@ Listar medlemmar i det aktuella urvalet i **Urval**-fönstret.
 
 ## Användardefinierade vyer
 
-Administratörer kan definiera anpassade vyer för sidopanelen i **Inställningar och underhåll**, vilket gör att panelen kan skräddarsys efter teamets behov.
+Administratörer kan [definiera anpassade vyer][7] för sidopanelen i **Inställningar och underhåll**, vilket gör att panelen kan skräddarsys efter teamets behov.
 
 ## Vanliga frågor och tips
 
@@ -128,6 +128,7 @@ Administratörer kan definiera anpassade vyer för sidopanelen i **Inställninga
 [4]: ../../../diary/learn/index.md
 [5]: ../../../document/learn/create.md#fields
 [6]: ../../../diary/learn/create-follow-up.md
+[7]: ../../../admin/lists/learn/web-panel-add-item.md
 [8]: ../../basics/fav.md
 [10]: ../../../sale/learn/index.md#side-panel
 [11]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-get-document-closed-in-the-side-panel-of-superoffice-crm-when-document-viewer-is-used/

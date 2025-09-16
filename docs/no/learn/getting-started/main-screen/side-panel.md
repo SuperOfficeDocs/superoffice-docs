@@ -4,8 +4,8 @@ title: Bruk sidepanelet til å arbeide mer effektivt
 description: På sidepanelet får du tilgang til informasjon som er lagret i andre deler av SuperOffice CRM, uten å forlate skjermbildet du er i.
 keywords: sidepanel
 author: Bergfrid Dias
-date: 01.29.2025
-version: 10.5
+date: 09.01.2025
+version: 11.3
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -105,7 +105,7 @@ Viser en liste over medlemmer av gjeldende utvalg i **Utvalg**-skjermen.
 
 ## Brukerdefinerte visninger
 
-Administratorer kan definere egendefinerte visninger for sidepanelet i **Innstillinger og vedlikehold**, slik at panelet tilpasses teamets behov.
+Administratorer kan [definere egendefinerte visninger][7] for sidepanelet i **Innstillinger og vedlikehold**, slik at panelet tilpasses teamets behov.
 
 ## Vanlige spørsmål og tips
 
@@ -131,6 +131,7 @@ Administratorer kan definere egendefinerte visninger for sidepanelet i **Innstil
 [4]: ../../../diary/learn/index.md
 [5]: ../../../document/learn/create.md#fields
 [6]: ../../../diary/learn/create-follow-up.md
+[7]: ../../../admin/lists/learn/web-panel-add-item.md
 [8]: ../../basics/fav.md
 [11]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-get-document-closed-in-the-side-panel-of-superoffice-crm-when-document-viewer-is-used/
 [10]: ../../../sale/learn/index.md#side-panel
