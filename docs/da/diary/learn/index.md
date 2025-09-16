@@ -4,14 +4,14 @@ title: Dagbog
 description: SuperOffice Dagbog er hjertet i dit CRM-system. Disse vejledninger hjælper dig med at navigere i og arbejde med dagbogen.
 keywords: åbn Dagbog, skærmbilledet Dagbog, kalender, detaljekortet Aktiviteter, aktivitet, opgaveliste, to-do-liste, opfølgning, dagbog
 author: Bergfrid Dias
-date: 06.26.2025
-version: 10.5.5
+date: 09.17.2025
+version: 11.3
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
-redirect_from: /da/diary/learn/screen/index
+redirect_from: /da/diary/learn/screen
 ---
 
 # Dagbog
@@ -185,7 +185,7 @@ Du kan tilpasse Dagbogen, så den passer til din arbejdsrutine:
 
 * Knyt regelmæssigt aktiviteter til en kontaktperson eller et firma for at bevare en struktureret oversigt over dit teams interaktioner og forbedre samarbejdet.
 
-* Brug detaljekortene nedenfor kalenderen til hurtigt at få adgang til og administrere salg eller opgaver, mens du gennemgår din kalender.
+* Hvis du vil få vist og administrere salg eller aktiviteter, mens du ser din kalender, skal du aktivere indstillingen **Vis aktivitetslister under dagbog**. Dette viser detaljefanerne under kalenderen – ligesom i andre skærmbilleder – så de forbliver synlige uanset den valgte kalendervisning.
 
 * Skift mellem **side-om-side**-visning og **planlægningsgitter** i fanen **Oversigt** for at vælge det layout, der bedst passer til din planlægning.
 

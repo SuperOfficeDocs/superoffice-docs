@@ -4,14 +4,14 @@ title: Agenda
 description: De SuperOffice Agenda is het hart van uw CRM-systeem. Deze handleidingen helpen u te leren werken met de agenda.
 keywords: agenda openen, scherm Agenda, kalender, sectietabblad Activiteiten, activiteit, takenlijst, taak, taken, vervolgactiviteit, agenda
 author: Bergfrid Dias
-date: 06.26.2025
-version: 10.5.5
+date: 09.17.2025
+version: 11.3
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
-redirect_from: /nl/diary/learn/screen/index
+redirect_from: /nl/diary/learn/screen
 ---
 
 # Agenda
@@ -185,7 +185,7 @@ U kunt de agenda aanpassen aan uw werkwijze:
 
 * Koppel activiteiten regelmatig aan een persoon of bedrijf om een duidelijk overzicht van teaminteracties te behouden en samenwerking te bevorderen.
 
-* Gebruik de vaste sectietabbladen onder de agenda om verkoopactiviteiten of taken eenvoudig te beheren terwijl u door uw agenda bladert.
+* Om verkoop of activiteiten te bekijken en beheren terwijl je je agenda bekijkt, schakel je de voorkeur **Activiteitenlijsten onder agenda weergeven** in. Hiermee worden de sectietabbladen onder de agenda weergegeven – net als in andere schermen – zodat ze zichtbaar blijven, ongeacht de geselecteerde agendaweergave.
 
 * Schakel tussen de zij-aan-zij-weergave en het rooster in het tabblad **Weergave** om de indeling te kiezen die het beste bij uw planning past.
 
