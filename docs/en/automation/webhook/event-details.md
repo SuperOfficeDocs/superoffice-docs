@@ -29,6 +29,7 @@ Event name descriptors are a combination of the webhook entity and event type - 
 * [state][15]
 * [test][13]
 * [ticket][14]
+* [lists][17]
 
 ## Event names
 
@@ -67,3 +68,4 @@ Each entity raises an event when created, changed, or deleted. Therefore, all po
 [14]: reference/ticket-events.md
 [15]: reference/state-events.md
 [16]: reference/relation-events.md
+[17]: reference/list-events.md
