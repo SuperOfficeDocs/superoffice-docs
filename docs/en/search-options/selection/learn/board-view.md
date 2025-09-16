@@ -39,6 +39,10 @@ The functionality is the same across supported entities: you can drag cards, ope
 * Drag cards between columns to update the grouping field (such as stage or owner).
   * If subgroups are enabled, you can also drag cards between rows.
 
+* Click a card to view its details in the [side panel][11]. (Enable the preview by selecting it from the drop-down menu at the top of the side panel).
+
+    ![Side panel preview showing project details -screenshot][img12]
+
 * To edit a card, point to it and select the **Edit** button (<i class="ph ph-pencil" aria-hidden="true"></i>). This opens the same edit dialog used elsewhere in SuperOffice CRM—without leaving the board view.
 
   ![Cursor pointing to the edit button on a sale card -screenshot][img4]
@@ -210,6 +214,7 @@ Use grouping creatively to organize and act on data efficiently.
 <!-- Referenced links -->
 [1]: create.md
 [2]: index.md
+[11]: ../../../learn/getting-started/main-screen/side-panel.md
 [12]: ../../../sale/learn/create.md
 [13]: ../../../sale/admin/sale-stage.md
 [14]: ../../../request/learn/create.md
@@ -231,3 +236,4 @@ Use grouping creatively to organize and act on data efficiently.
 [img9]: ../../../../media/loc/en/search-options/board-view-filter-toolbar.png
 [img10]: ../../../../media/loc/en/search-options/board-view-filter-on-sale-type.png
 [img11]: ../../../../media/loc/en/search-options/board-view-summarized-sale-amount-per-column.png
+[img12]: ../../../../media/loc/en/search-options/selection-board-view-project-preview.png

@@ -39,6 +39,10 @@ De functionaliteit is identiek voor alle ondersteunde entiteiten: je kunt kaarte
 * Versleep kaarten tussen kolommen om het groeperingsveld bij te werken (zoals fase of eigenaar).
   * Als subgroepen zijn ingeschakeld, kun je kaarten ook tussen rijen binnen elke kolom slepen.
 
+* Klik op een kaart om de details in het [zijpaneel][11] te bekijken. (Schakel de voorbeeldweergave in door deze te selecteren in het vervolgkeuzemenu bovenaan het zijpaneel).
+
+    ![Zijpaneel met projectdetails -screenshot][img12]
+
 * Om een kaart te bewerken, wijs deze aan en klik op **Bewerken** (<i class="ph ph-pencil" aria-hidden="true"></i>). Dezelfde bewerkdialoog wordt gebruikt als elders in SuperOffice CRM – zonder de boardweergave te verlaten.
 
   ![Cursor wijst naar de knop Bewerken op een verkoopkaart -screenshot][img4]
@@ -210,6 +214,7 @@ Gebruik groepering creatief om efficiënt met gegevens te werken.
 <!-- Verwijzingen -->
 [1]: create.md
 [2]: index.md
+[11]: ../../../learn/getting-started/main-screen/side-panel.md
 [12]: ../../../sale/learn/create.md
 [13]: ../../../sale/admin/sale-stage.md
 [14]: ../../../request/learn/create.md
@@ -231,3 +236,4 @@ Gebruik groepering creatief om efficiënt met gegevens te werken.
 [img9]: ../../../../media/loc/en/search-options/board-view-filter-toolbar.png
 [img10]: ../../../../media/loc/en/search-options/board-view-filter-on-sale-type.png
 [img11]: ../../../../media/loc/en/search-options/board-view-summarized-sale-amount-per-column.png
+[img12]: ../../../../media/loc/en/search-options/selection-board-view-project-preview.png

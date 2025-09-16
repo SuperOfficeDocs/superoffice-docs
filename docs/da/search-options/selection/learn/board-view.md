@@ -39,6 +39,10 @@ Funktionaliteten er den samme på tværs af understøttede poster: Du kan trækk
 * Træk kort mellem kolonner for at opdatere grupperingsfeltet (f.eks. fase eller ejer).
   * Hvis undergrupper er aktiveret, kan du også trække kort mellem rækker i hver kolonne.
 
+* Klik på et kort for at se dets detaljer i [sidepanelet][11]. (Aktiver forhåndsvisningen ved at vælge den fra rullegardinmenuen øverst i sidepanelet).
+
+    ![Sidepanel, der viser projektdetaljer -screenshot][img12]
+
 * For at redigere et kort, peg på det og vælg knappen **Rediger** (<i class="ph ph-pencil" aria-hidden="true"></i>). Dette åbner den samme redigeringsdialog som andre steder i SuperOffice CRM – uden at forlade tavlevisningen.
 
   ![Markør peger på redigeringsknappen på et salgskort -screenshot][img4]
@@ -210,6 +214,7 @@ Brug gruppering kreativt for effektiv databehandling.
 <!-- Refererede links -->
 [1]: create.md
 [2]: index.md
+[11]: ../../../learn/getting-started/main-screen/side-panel.md
 [12]: ../../../sale/learn/create.md
 [13]: ../../../sale/admin/sale-stage.md
 [14]: ../../../request/learn/create.md
@@ -231,3 +236,4 @@ Brug gruppering kreativt for effektiv databehandling.
 [img9]: ../../../../media/loc/en/search-options/board-view-filter-toolbar.png
 [img10]: ../../../../media/loc/en/search-options/board-view-filter-on-sale-type.png
 [img11]: ../../../../media/loc/en/search-options/board-view-summarized-sale-amount-per-column.png
+[img12]: ../../../../media/loc/en/search-options/selection-board-view-project-preview.png
