@@ -26,7 +26,7 @@ At SuperOffice, relationships are at the heart of everything we do — and stron
 * 11.4 (22.09.2025):
   * [Selection - Board view for requests][10] in Core CRM and Sales
   * [Lists of contact - Create request from the context menu for a contact][11] in Service
-  * [Test environment badge][11] in Core and Settings and maintenance
+  * [Production sandbox badge (Test environment)][11] in Core and Settings and maintenance
 
 * 11.3 (02.09.2025):
   * [Selection - Board view for projects][6] in Core CRM and Sales
