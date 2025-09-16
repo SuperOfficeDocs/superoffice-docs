@@ -4,8 +4,8 @@ title: Knapper på toplinjen
 description: Knapper på toplinjen
 keywords: toplinje, knap, personlige indstillinger, menulinjen, hovedmenu
 author: Kirsti Aakerholt, Bergfrid Dias
-date: 07.03.2025
-version: 10.5.2
+date: 09.17.2025
+version: 11.3
 content_type: reference
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -36,7 +36,7 @@ language: da
 | **Præferencer** | Juster [personlige præferencer][6], såsom standardværdier, sortering og visuelle effekter. |
 | **Rediger personlig signatur** | Rediger den [e-mailsignatur][7], der bruges i udgående e-mails eller sager. |
 | **E-mailindstillinger** | Konfigurer indstillinger for indbakke. |
-| **Din Service-status** | Opdater din status (f.eks. Ikke til stede) og tilføj en valgfri besked. |
+| **Din tilgængelighedsstatus** | Vælg, om du er tilgængelig for automatisk tildeling af sager og personer. Hvis du sætter din status til *Ikke til stede*, bliver nye sager ikke tildelt dig, og din fraværsbesked vises ved dit navn, når nogen manuelt tildeler en sag. |
 | **Vis mine kontaktoplysninger** | Åbn dit personkort for at redigere detaljer såsom telefonnumre eller titel. |
 | **Lokale indstillinger** | Skift sprog, nummer-/datoformat og e-mailklientindstillinger. |
 | **Få mobilappen** | Konfigurer indstillinger for SuperOffice Mobile CRM. |
