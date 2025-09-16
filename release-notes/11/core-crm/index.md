@@ -15,6 +15,7 @@ audience_tooltip: SuperOffice CRM
 # New and improved Core CRM and Sales
 
 * [Selection - Board view for requests (11.4)][4]
+* [Test environment badge (11.4)][4]
 * [Selection - Board view for projects (11.3)][3]
 * [Selection - Preview card in board view (11.3)][3]
 * [Notification - New company/contact assigned (11.3)][3]

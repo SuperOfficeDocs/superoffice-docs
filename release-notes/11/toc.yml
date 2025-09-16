@@ -25,6 +25,8 @@ items:
 - name: Service
   href: service/index.md
   items:
+  - name: 11.4 update
+    href: service/11.4-update.md
   - name: 11.3 update
     href: service/11.3-update.md
   - name: 11.2 update
