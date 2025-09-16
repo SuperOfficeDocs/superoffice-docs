@@ -35,7 +35,8 @@ Different integration components are released on separate schedules. See the [in
 
 ## Developer Portal
 
-* 2.5 (02.09.2025): Role assignment, simplified management, improved security.
+* 2.5 (02.09.2025):
+  * Role assignment, Simplified management, Improved security.
 
 * 2.4 (20.08.2025): Bug fixing release
 
