@@ -2,10 +2,13 @@
 uid: help-de-service-settings-system-settings
 title: Benutzereinstellungen für SuperOffice Service
 description: Globale Einstellungen für Benutzereinstellungen für SuperOffice Service
-author: SuperOffice RnD
-date: 03.27.2023
-keywords: Service, Einstellungen
+keywords: Einstellungen
+author: SuperOffice Product and Engineering
+date: 09.01.2025
+version: 11.3
 content_type: concept
+license: serviceessentials
+functional_right: Service administration, General Administrator
 audience: settings
 audience_tooltip: Settings and maintenance
 language: de
@@ -42,6 +45,8 @@ Gehen Sie im Navigator zum <i class="ph ph-gear" aria-hidden="true"></i> **Einst
 * **Mindestwert für FAQ-Suchergebnisse (in Prozent)**: Bei Antwortvorlagen, die an Kunden gesendet werden, können Sie [automatische Vorschläge für FAQ-Einträge][1] hinzufügen, mit denen der Kunde seine Anfrage eventuell selbst lösen kann. In diesem Feld können Sie angeben, wie hoch ein Korrelationsgrad zwischen der Kundenanfrage und einem FAQ-Eintrag sein muss, damit ein FAQ-Eintrag zur Antwort an einen Kunden hinzugefügt wird. Wenn Sie hier einen zu niedrigen Wert festlegen, ist es möglich, dass der Kunde viele FAQs erhält, die für die Anfrage nicht relevant sind. Wenn eine Kundenanfrage mit einem Schlüsselwort in einem FAQ-Eintrag korreliert, wird der FAQ-Eintrag immer hinzugefügt.
 
 * **Zeitrahmen in Minuten für zugehörige Nachrichten**: Hier geben Sie eine Anzahl von Minuten ein. Wenn innerhalb dieses Zeitraums zwei oder mehr E-Mails von derselben Person eingehen, werden die Anfragen nach Möglichkeit an denselben Bearbeiter gesendet.
+
+* **Anonymisierung der Benutzer bei Antworten**: Wenn aktiviert, wird der Name des Agenten in ausgehender Kommunikation maskiert.
 
 * **Grenzwert für Benutzerinaktivität (in Stunden)**: Nach der festgelegten Anzahl von Stunden ohne Benutzeraktivität gilt der Benutzer als inaktiv (standardmäßig 2 Stunden). Dies wird beispielsweise bei der Aufteilung von Anfragen genutzt.
 

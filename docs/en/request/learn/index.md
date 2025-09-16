@@ -4,8 +4,8 @@ title: Requests
 description: Introduction to requests in SuperOffice
 keywords: request management, request, ticket, service
 author: Bergfrid Dias
-date: 06.19.2025
-version: 10.5.3
+date: 09.01.2025
+version: 11.3
 content_type: concept
 license: serviceessentials
 audience: person
@@ -199,6 +199,24 @@ You can customize requests to suit your workflow:
 
 1. Click **Save** to apply your changes.
 
+## Global preferences
+
+Administrators can customize Service for all users in Settings and maintenance.
+
+1. In **Settings and maintenance**, select <i class="ph ph-gear" aria-hidden="true"></i> **Preferences** in the navigator.
+1. Go to the **Global Preferences** tab and scroll down to the **SuperOffice Service system settings** section.
+
+Some settings that affect support agents include:
+
+* Anonymise users on reply
+* Default From address
+* Default style for outbound email
+* External access level as default
+* New status when accepting a request
+* Send email notification of open requests
+
+[View the full list][26]
+
 ## Related content
 
 * [Create request][4]
@@ -232,6 +250,8 @@ You can customize requests to suit your workflow:
 [15]: ../../learn/getting-started/edit-email-signature.md
 [18]: ../../learn/basics/fav.md
 [23]: ../../knowledge-base/learn/reply-templates/index.md
+[26]: ../../admin/preferences/learn/global-preferences/settings.md
+
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
 [21]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-reasons-why-batch-management-should-be-your-favorite-feature-in-superoffice-service/
 

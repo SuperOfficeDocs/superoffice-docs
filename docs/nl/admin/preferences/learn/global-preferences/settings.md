@@ -3,9 +3,12 @@ uid: help-nl-service-settings-system-settings
 title: SuperOffice Service-systeeminstellingen
 description: Algemene voorkeuren voor SuperOffice Service-systeeminstellingen
 keywords: Service, instellingen, systeeminstellingen, Algemene voorkeuren
-author: SuperOffice RnD
-date: 03.14.2025
-content_type: reference
+author: SuperOffice Product and Engineering
+date: 09.01.2025
+version: 11.3
+content_type: concept
+license: serviceessentials
+functional_right: Service administration, General Administrator
 audience: settings
 audience_tooltip: Settings and maintenance
 language: nl
@@ -42,6 +45,8 @@ Ga naar <i class="ph ph-gear" aria-hidden="true"></i> **Voorkeuren** in de navig
 * **Minimumscore voor zoekresultaten Veelgestelde vragen (percentage)**: Iin antwoordsjablonen die aan de klanten worden verzonden, kunt u [automatische suggesties toevoegen voor items in Veelgestelde vragen][1] die de klant helpen om het verzoek zelf op te lossen. In dit veld kunt u bepalen hoe hoog de mate van correlatie moet zijn tussen het verzoek van de klant en een item in Veelgestelde vragen om een veelgestelde vraag toe te voegen aan het antwoord op de klant. Als u hier een te lage waarde definieert, is het waarschijnlijk dat de klant veel Veelgestelde vragen zal ontvangen die niet relevant zijn voor het verzoek. Indien het klantverzoek overeenkomt met een sleutelwoord in een Veelgestelde vraag, zal de Veelgestelde vraag altijd worden opgenomen.
 
 * **Tijdsperiode voor cross-posts in minuten**: Hier voert u een aantal minuten in. Wanneer twee of meer e-mailberichten van dezelfde persoon binnen de ingestelde periode worden ontvangen, worden, indien mogelijk, de verzoeken naar dezelfde verzoekbehandelaar verzonden.
+
+* **Anonimiseer gebruikers bij antwoord**: Indien aangevinkt, wordt de naam van de agent gemaskeerd in uitgaande communicatie.
 
 * **Limiet (uren) voor inactiviteit van de gebruiker**: Na het opgegeven aantal uren zonder gebruikersactiviteit wordt de gebruiker als inactief beschouwd (standaard 2 uur). Dit wordt bijvoorbeeld gebruikt bij het delegeren van verzoeken.
 

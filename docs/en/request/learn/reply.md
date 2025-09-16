@@ -2,10 +2,10 @@
 uid: help-en-request-reply
 title: Reply to contact
 description: In this guide you will learn how to reply to all incoming requests in SuperOffice.
-keywords: reply to request, reply, reply all, add message, add comment, comment, internal, external, request,
+keywords: reply to request, reply, reply all, add message, add comment, comment, internal, external
 author: Bergfrid Dias, Kirsti Aakerholt
-date: 07.01.2025
-version: 11.2
+date: 09.01.2025
+version: 11.3
 content_type: howto
 license: serviceessentials
 audience: person
@@ -45,6 +45,9 @@ When you open a request and select **Reply**, the [email signature][7] you have 
 1. Click <i class="ph ph-paperclip" aria-label="Attachments"></i> to attach relevant documents.
 
 1. Click **Save** to send the message.
+    * If the **Anonymise users on reply** [global preference][11] is enabled, your name will be removed from outbound messages.
+
+    ![First image: Message preview showing sender's name. Second image: Same message preview with the sender's name removed, indicating anonymization. -screenshot][img7]
 
 ## <a id="reply-templ"></a>Insert reply templates
 
@@ -156,6 +159,7 @@ Time spent is displayed in each message header, and the time to reply is availab
 [8]: ../../knowledge-base/learn/reply-templates/index.md
 [9]: ../../knowledge-base/learn/faq/index.md
 [10]: forward.md
+[11]: ../../admin/preferences/learn/global-preferences/settings.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/insert-reply-template.png
@@ -163,3 +167,4 @@ Time spent is displayed in each message header, and the time to reply is availab
 [img4]: ../../../media/loc/en/request/reply-to-a-customer.png
 [img5]: ../../../media/loc/en/request/insert-earlier-message.png
 [img6]: ../../../media/loc/en/request/insert-message-with-attachments.png
+[img7]: ../../../media/loc/en/request/request-reply-anonymise-user.png

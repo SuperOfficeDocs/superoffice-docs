@@ -3,9 +3,12 @@ uid: help-sv-service-settings-system-settings
 title: Systeminställningar för SuperOffice Service
 description: Globala inställningar för Systeminställningar för SuperOffice Service
 keywords: Tjänst, inställningar
-author: SuperOffice RnD
-date: 02.25.2025
-content_type: howto
+author: SuperOffice Product and Engineering
+date: 09.01.2025
+version: 11.3
+content_type: concept
+license: serviceessentials
+functional_right: Service administration, General Administrator
 audience: settings
 audience_tooltip: Settings and maintenance
 language: sv
@@ -42,6 +45,8 @@ Gå till <i class="ph ph-gear" aria-hidden="true"></i> **Inställningar** i navi
 * **Minimivärde för FAQ-sökresultat (i procent)**: I svarsmallar som skickas till kunder kan [FAQ-poster läggas till automatiskt][1] för att hjälpa kunden att lösa ärendet själv. I detta fält kan du definiera i hur hög grad kundens ärende måste överensstämma med en FAQ-post för att FAQ-posten ska inkluderas i svaret till kunden. Om du definierar ett för lågt värde här kommer kunden sannolikt att få många FAQ-poster som inte är relevanta för ärendet. Om kundens ärende stämmer med ett nyckelord i en FAQ-post inkluderas alltid FAQ-posten.
 
 * **Tidsram för kryssmarkering i minuter**: Här kan du ange ett antal minuter. Om två eller flera e-postmeddelanden kommer in från samma kontakt under denna tid skickas ärendena till samma ärendehandläggare om det är möjligt.
+
+* **Anonymisera anvendare vid svar**: Om aktiverad kommer agentens namn att maskeras i utgående kommunikation.
 
 * **Gräns för användarinaktivitet (timmar)**: Efter det angivna antalet timmar utan användaraktivitet anses användaren vara inaktiv (standard 2 timmar). Det här alternativet används till exempel vid delegering av ärenden.
 

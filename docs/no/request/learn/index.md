@@ -4,8 +4,8 @@ title: Saker
 description: Introduksjon til saker i SuperOffice
 keywords: sak, service
 author: Bergfrid Dias
-date: 06.19.2025
-version: 10.5.3
+date: 09.01.2025
+version: 11.3
 content_type: concept
 license: serviceessentials
 audience: person
@@ -200,6 +200,24 @@ Du kan tilpasse saker slik at de passer din arbeidsflyt:
 
 1. Klikk **Lagre** for å bruke endringene.
 
+## Globale preferanser
+
+Administratorer kan tilpasse Service for alle brukere i Innstillinger og vedlikehold.
+
+1. I **Innstillinger og vedlikehold** velger du <i class="ph ph-gear" aria-hidden="true"></i> **Preferanser** i navigatoren.
+1. Gå til fanen **Globale preferanser** og rull ned til seksjonen **SuperOffice Service systeminnstillinger**.
+
+Noen innstillinger som påvirker kundestøtteagenter inkluderer:
+
+* Anonymisere brukere ved svar
+* Standard Fra-adresse
+* Standardstil for utgående e-post
+* Eksternt tilgangsnivå som standard
+* Ny status når du godtar en sak
+* Send e-postvarsling om åpne saker
+
+[Se hele listen][26]
+
 ## Aktuelt innhold
 
 * [Opprett sak][4]
@@ -235,6 +253,7 @@ Du kan tilpasse saker slik at de passer din arbeidsflyt:
 [23]: ../../knowledge-base/learn/reply-templates/index.md
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
 [21]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-reasons-why-batch-management-should-be-your-favorite-feature-in-superoffice-service/
+[26]: ../../admin/preferences/learn/global-preferences/settings.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-list-preview.png

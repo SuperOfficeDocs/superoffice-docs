@@ -2,10 +2,10 @@
 uid: help-nl-request-reply
 title: Antwoorden aan contact
 description: In deze gids staat hoe u alle binnenkomende verzoeken in SuperOffice kunt beantwoorden.
-author: Bergfrid Dias
-date: 07.01.2025
-version: 11.2
 keywords: verzoek, antwoordsjabloon
+author: Bergfrid Dias
+date: 09.01.2025
+version: 11.3
 content_type: howto
 license: serviceessentials
 audience: person
@@ -45,6 +45,9 @@ Wanneer u een verzoek opent en **Beantwoorden** selecteert, verschijnt automatis
 1. Klik op <i class="ph ph-paperclip" aria-label="Bijlagen"></i> om relevante documenten als bijlagen toe te voegen.
 
 1. Klik op **Opslaan** om het bericht te verzenden.
+    * Als de [globale voorkeur][11] **Anonimiseer gebruikers bij antwoord** is ingeschakeld, wordt uw naam verwijderd uit uitgaande berichten.
+
+    ![Eerste afbeelding: Berichtvoorbeeld met zichtbare afzendernaam. Tweede afbeelding: Hetzelfde berichtvoorbeeld met de afzendernaam verwijderd, wat anonimisering aangeeft. -screenshot][img7]
 
 ## <a id="reply-templ"></a>Antwoordsjablonen invoegen
 
@@ -156,6 +159,7 @@ De gebruikte tijd wordt weergegeven in de koptekst van elk bericht en is terug t
 [8]: ../../knowledge-base/learn/reply-templates/index.md
 [9]: ../../knowledge-base/learn/faq/index.md
 [10]: forward.md
+[11]: ../../admin/preferences/learn/global-preferences/settings.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/insert-reply-template.png
@@ -163,3 +167,4 @@ De gebruikte tijd wordt weergegeven in de koptekst van elk bericht en is terug t
 [img4]: ../../../media/loc/en/request/reply-to-a-customer.png
 [img5]: ../../../media/loc/en/request/insert-earlier-message.png
 [img6]: ../../../media/loc/en/request/insert-message-with-attachments.png
+[img7]: ../../../media/loc/en/request/request-reply-anonymise-user.png

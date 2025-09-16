@@ -2,10 +2,13 @@
 uid: help-en-service-settings-system-settings
 title: SuperOffice Service system settings
 description: Global preferences for SuperOffice Service system settings
-author: SuperOffice RnD
-date: 03.27.2023
 keywords: Service, settings
+author: SuperOffice Product and Engineering
+date: 09.01.2025
+version: 11.3
 content_type: concept
+license: serviceessentials
+functional_right: Service administration, General Administrator
 audience: settings
 audience_tooltip: Settings and maintenance
 language: en
@@ -21,9 +24,9 @@ Go to <i class="ph ph-gear" aria-hidden="true"></i> **Preferences** in the navig
 
 * **Default font weight**: Weight (thickness) of the default font in the Request editor.
 
-* **Send email notification of open requests**: Specifies if email about open requests is sent to the users. If you select **User can choose**, users can activate or deactivate email notification from <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Preferences** > **Notification via e-mail & SMS**.
-
 * **New status when accepting a request**: Select which status to use when a request is accepted by a user.
+
+* **Send email notification of open requests**: Specifies if email about open requests is sent to the users. If you select **User can choose**, users can activate or deactivate email notification from <i class="ph ph-user-circle" aria-hidden="true"></i> **Personal settings** > **Preferences** > **Notification via e-mail & SMS**.
 
 * **Number of days before notification**: Specifies how many days must pass before email notification about old requests is sent to the users. You can also specify the time of day that the notification should be sent.
 
@@ -42,6 +45,8 @@ Go to <i class="ph ph-gear" aria-hidden="true"></i> **Preferences** in the navig
 * **Minimum score for FAQ search result (in percent)**: In reply templates that are sent to customers, you can add [automatic suggestions for FAQ entries][1] to help the customer to resolve the request themselves. In this field you can define how high a degree of correlation there must be between the customer's request and an FAQ entry for an FAQ entry to be added to the reply to the customer. If you define too low a value here, it is likely that the customer will receive many FAQs that are not relevant to the request. If a customer's requests correlates to a key word in an FAQ entry, the FAQ entry will always be included.
 
 * **Cross-post time frame in minutes**: Here you enter a number of minutes and if two or more emails arrive from the same contact within this period, the requests will be sent to the same request handler, if possible.
+
+* **Anonymise users on reply**: If checked, the agent's name will be masked in outbound communication.
 
 * **User inactivity limit (hours)**: After the specified number of hours without user activity, the user is considered inactive (default 2 hours). This is for example used in request delegation.
 
