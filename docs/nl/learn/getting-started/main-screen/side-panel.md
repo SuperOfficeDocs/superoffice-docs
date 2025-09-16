@@ -114,6 +114,8 @@ Beheerders kunnen [aangepaste weergaven][7] definiëren voor het zijpaneel in **
 
     ![Voorbeeld van het zijpaneel met vastgezette favorieten voor snelle toegang. -screenshot][img1]
 
+* Gebruik het zijpaneel om [opgeslagen e-mails te bekijken][9], bijlagen te openen en direct te antwoorden of berichten door te sturen.
+
 * **Waarom is het zijpaneel leeg?**
 
   Als er geen contactpersoon is opgegeven (bijvoorbeeld in een dynamische selectie zonder **Hoofdcontactpersoon opnemen**), wordt er geen informatie weergegeven in het zijpaneel.
@@ -134,6 +136,7 @@ Beheerders kunnen [aangepaste weergaven][7] definiëren voor het zijpaneel in **
 [6]: ../../../diary/learn/create-follow-up.md
 [7]: ../../../admin/lists/learn/web-panel-add-item.md
 [8]: ../../basics/fav.md
+[9]: ../../../email/learn/index.md#preview
 [10]: ../../../sale/learn/index.md#side-panel
 [11]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-get-document-closed-in-the-side-panel-of-superoffice-crm-when-document-viewer-is-used/
 

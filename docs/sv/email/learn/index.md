@@ -2,10 +2,14 @@
 uid: help-sv-email
 title: E-post
 description: Med SuperOffice CRM kan du välja att spara och dela dina e-postmeddelanden på olika sätt som gör att du och ditt team blir mer produktiva.
-author: SuperOffice RnD
-date: 02.10.2023
 keywords: e-post, inkorg
+author: SuperOffice Product and Engineering
+date: 09.16.2025
+version: 11.3
 content_type: concept
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -58,6 +62,15 @@ Om du vill spara en e-postbilaga men inte själva e-postmeddelandet i SuperOffic
 * [Arkivera e-postbilagor med WebTools och Mail Link][9]
 * [Arkivera e-postbilagor med Gmail Link][5]
 
+## <a id="preview"></a>Förhandsgranska sparad e-post i SuperOffice
+
+Klicka på ett e-postmeddelande på [detaljkortet Aktiviteter][14] för att visa information om det i [sidopanelen][15]. (Aktivera förhandsgranskningen genom att välja den i listrutan högst upp på sidopanelen).
+
+* Klicka på en bilaga för att öppna den.
+* Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Uppgiftsmeny"></i> och välj **Svara** eller **Svara alla** för att svara på e-postmeddelandet eller **Vidarebefordra** för att skicka det till någon annan.
+
+![E-postförhandsgranskning med markerade alternativ i uppgiftsmenyn -screenshot][img1]
+
 <!-- Referenced links -->
 [1]: ../inbox/learn/index.md
 [2]: ../../../../integrations/gmail-link/index.md
@@ -71,5 +84,8 @@ Om du vill spara en e-postbilaga men inte själva e-postmeddelandet i SuperOffic
 [11]: ../../contact/learn/send-email.md
 [12]: ../../document/learn/send-as-email.md
 [13]: ../../learn/getting-started/connect-email-doc/index.md
+[14]: ../../learn/section-tabs/activities-tab.md
+[15]: ../../learn/getting-started/main-screen/side-panel.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/learn/side-panel-preview-email-tasks.png

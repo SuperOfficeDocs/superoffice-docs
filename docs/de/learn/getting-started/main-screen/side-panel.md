@@ -114,6 +114,8 @@ Administratoren können [benutzerdefinierte Ansichten][7] für die Seitenleiste 
 
     ![Beispiel der Seitenleiste mit angehefteten Favoriten -screenshot][img1]
 
+* Verwenden Sie die Seitenleiste, um [gespeicherte E-Mails anzuzeigen][9], Anhänge zu öffnen und Nachrichten direkt zu beantworten oder weiterzuleiten.
+
 * Warum ist die Seitenleiste leer?
 
   Wenn keine Person angegeben ist (z. B. in einer dynamischen Selektion ohne **Mit Hauptperson**), werden im Seitenleisten-Panel für Personen keine Informationen angezeigt.
@@ -134,6 +136,7 @@ Administratoren können [benutzerdefinierte Ansichten][7] für die Seitenleiste 
 [6]: ../../../diary/learn/create-follow-up.md
 [7]: ../../../admin/lists/learn/web-panel-add-item.md
 [8]: ../../basics/fav.md
+[9]: ../../../email/learn/index.md#preview
 [11]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-get-document-closed-in-the-side-panel-of-superoffice-crm-when-document-viewer-is-used/
 [10]: ../../../sale/learn/index.md#side-panel
 

@@ -113,6 +113,8 @@ Administratörer kan [definiera anpassade vyer][7] för sidopanelen i **Inställ
 
     ![Exempel på sidopanelen med favoriter fästa för snabb åtkomst -screenshot][img1]
 
+* Använd sidopanelen för att [förhandsgranska sparade e-post][9], öppna bilagor och svara eller vidarebefordra meddelanden direkt.
+
 * **Varför är sidopanelen tom?**
   Om ingen kontakt är angiven (t.ex. i ett dynamiskt urval utan **Inkludera kontakt**) visas ingen information i Kontakt-vyn i sidopanelen.
 
@@ -130,6 +132,7 @@ Administratörer kan [definiera anpassade vyer][7] för sidopanelen i **Inställ
 [6]: ../../../diary/learn/create-follow-up.md
 [7]: ../../../admin/lists/learn/web-panel-add-item.md
 [8]: ../../basics/fav.md
+[9]: ../../../email/learn/index.md#preview
 [10]: ../../../sale/learn/index.md#side-panel
 [11]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-get-document-closed-in-the-side-panel-of-superoffice-crm-when-document-viewer-is-used/
 

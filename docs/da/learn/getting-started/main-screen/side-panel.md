@@ -114,6 +114,8 @@ Administratorer kan [definere tilpassede visninger][7] for sidepanelet i **Indst
 
     ![Eksempel på fastgjorte sidepaneler -screenshot][img1]
 
+* Brug sidepanelet til at [forhåndsvis gemte e-mails][9], åbne vedhæftede filer og svar eller videresend beskeder direkte.
+
 * **Hvorfor er sidepanelet tomt?**
 
   Hvis ingen person er angivet (f.eks. i et dynamisk udvalg uden **Medtag den primære person**), vil oversigten **Personer** i sidepanelet ikke vise nogen oplysninger.
@@ -134,6 +136,7 @@ Administratorer kan [definere tilpassede visninger][7] for sidepanelet i **Indst
 [6]: ../../../diary/learn/create-follow-up.md
 [7]: ../../../admin/lists/learn/web-panel-add-item.md
 [8]: ../../basics/fav.md
+[9]: ../../../email/learn/index.md#preview
 [11]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-get-document-closed-in-the-side-panel-of-superoffice-crm-when-document-viewer-is-used/
 [10]: ../../../sale/learn/index.md#side-panel
 

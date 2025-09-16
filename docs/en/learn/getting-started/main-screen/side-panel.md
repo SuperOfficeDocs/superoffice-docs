@@ -114,6 +114,8 @@ Administrators can [define custom views][7] for the side panel in **Settings and
 
     ![Example of the side panel showing the favorites menu with pinned panels for easy access. -screenshot][img1]
 
+* Use the side panel to [preview saved emails][9], open attachments, and reply or forward messages directly.
+
 * Why is the side panel empty?
 
   If no contact is specified (for example, in a dynamic selection without **Include main contact**), the Contact side panel will not display information.
@@ -133,6 +135,7 @@ Administrators can [define custom views][7] for the side panel in **Settings and
 [5]: ../../../document/learn/create.md#fields
 [6]: ../../../diary/learn/create-follow-up.md
 [7]: ../../../admin/lists/learn/web-panel-add-item.md
+[9]: ../../../email/learn/index.md#preview
 [8]: ../../basics/fav.md
 [11]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-get-document-closed-in-the-side-panel-of-superoffice-crm-when-document-viewer-is-used/
 [10]: ../../../sale/learn/index.md#side-panel

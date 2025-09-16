@@ -113,6 +113,8 @@ Administratorer kan [definere egendefinerte visninger][7] for sidepanelet i **In
 
     ![Eksempel på sidepanel med festede favorittmenyer for enkel tilgang. -screenshot][img1]
 
+* Bruk sidepanelet til å [forhåndsvise lagrede e-poster][9], åpne vedlegg og svare eller videresende meldinger direkte.
+
 * Hvorfor er sidepanelet tomt?
 
   Hvis ingen kontakt er spesifisert (for eksempel i et dynamisk utvalg uten **Inkluder primærkontakt**), vises ingen informasjon i sidepanelet.
@@ -133,6 +135,7 @@ Administratorer kan [definere egendefinerte visninger][7] for sidepanelet i **In
 [6]: ../../../diary/learn/create-follow-up.md
 [7]: ../../../admin/lists/learn/web-panel-add-item.md
 [8]: ../../basics/fav.md
+[9]: ../../../email/learn/index.md#preview
 [11]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-get-document-closed-in-the-side-panel-of-superoffice-crm-when-document-viewer-is-used/
 [10]: ../../../sale/learn/index.md#side-panel
 
