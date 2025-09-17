@@ -4,8 +4,8 @@ title: Verzoeken
 description: Inleiding tot verzoeken in SuperOffice
 keywords: verzoek, ticket, service
 author: Bergfrid Dias
-date: 06.19.2025
-version: 10.5.3
+date: 09.01.2025
+version: 11.3
 content_type: concept
 license: serviceessentials
 audience: person
@@ -199,6 +199,24 @@ U kunt verzoeken aanpassen aan uw workflow:
 
 1. Klik op **Opslaan** om je wijzigingen toe te passen.
 
+## Globale voorkeuren
+
+Beheerders kunnen Service voor alle gebruikers aanpassen in Instellingen en onderhoud.
+
+1. In **Instellingen en onderhoud** selecteert u <i class="ph ph-gear" aria-hidden="true"></i> **Voorkeuren** in de navigator.
+1. Ga naar het tabblad **Globale voorkeuren** en scroll naar beneden naar de sectie **SuperOffice Service systeeminstellingen**.
+
+Enkele instellingen die ondersteuningsagenten beïnvloeden zijn:
+
+* Anonimiseer gebruikers bij antwoord
+* Standaard Van-adres
+* Standaardstijl voor uitgaande e-mail
+* Extern toegangsniveau als standaard
+* Nieuwe status bij accepteren van verzoek
+* E-mailmelding van geopende verzoeken verzenden
+
+[Bekijk de volledige lijst][26]
+
 ## Gerelateerde inhoud
 
 * [Verzoek maken][4]
@@ -234,6 +252,7 @@ U kunt verzoeken aanpassen aan uw workflow:
 [23]: ../../knowledge-base/learn/reply-templates/index.md
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
 [21]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-reasons-why-batch-management-should-be-your-favorite-feature-in-superoffice-service/
+[26]: ../../admin/preferences/learn/global-preferences/settings.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-list-preview.png

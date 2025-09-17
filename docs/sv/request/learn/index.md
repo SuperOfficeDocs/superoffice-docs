@@ -4,8 +4,8 @@ title: Ärenden
 description: Introduktion till ärenden i SuperOffice
 keywords: ärendehantering, ärende, ticket, service
 author: Bergfrid Dias
-date: 06.19.2025
-version: 10.5.3
+date: 09.01.2025
+version: 11.3
 content_type: concept
 license: serviceessentials
 audience: person
@@ -199,6 +199,24 @@ Du kan anpassa ärenden så att de passar ditt arbetsflöde:
 
 1. Klicka på **Spara** för att tillämpa dina ändringar.
 
+## Globala inställningar
+
+Administratörer kan anpassa Service för alla användare i Inställningar och underhåll.
+
+1. I **Inställningar och underhåll** väljer du <i class="ph ph-gear" aria-hidden="true"></i> **Inställningar** i navigatorn.
+1. Gå till fliken **Globala inställningar** och rulla ner till avsnittet **SuperOffice Service systeminställningar**.
+
+Några inställningar som påverkar supportagenter inkluderar:
+
+* Anonymisera anvendare vid svar
+* Standard Från-adress
+* Standardstil för utgående e-post
+* Extern åtkomstnivå som standard
+* Ny status vid acceptering av ärende
+* Skicka e-postavisering om öppna ärenden
+
+[Visa hela listan][26]
+
 ## Relaterat innehåll
 
 * [Skapa ett ärende][4]
@@ -234,6 +252,7 @@ Du kan anpassa ärenden så att de passar ditt arbetsflöde:
 [23]: ../../knowledge-base/learn/reply-templates/index.md
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
 [21]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-reasons-why-batch-management-should-be-your-favorite-feature-in-superoffice-service/
+[26]: ../../admin/preferences/learn/global-preferences/settings.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-list-preview.png

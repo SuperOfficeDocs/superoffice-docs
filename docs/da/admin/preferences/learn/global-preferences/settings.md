@@ -3,9 +3,12 @@ uid: help-da-service-settings-system-settings
 title: SuperOffice Service-systemindstillinger
 description: Globale præferencer for SuperOffice Service-systemindstillinger
 keywords: Tjeneste, indstillinger, globale præferencer
-author: SuperOffice RnD
-date: 02.28.2025
-content_type: reference
+author: SuperOffice Product and Engineering
+date: 09.01.2025
+version: 11.3
+content_type: concept
+license: serviceessentials
+functional_right: Service administration, General Administrator
 audience: settings
 audience_tooltip: Settings and maintenance
 language: da
@@ -42,6 +45,8 @@ Gå til <i class="ph ph-gear" aria-hidden="true"></i> **Præferencer** i navigat
 * **Minimumsscore for FAQ-søgeresultat (i procent)**: I svarskabeloner, der sendes til kunder, kan du tilføje [automatiske forslag til FAQ-poster][1], der kan hjælpe kunden med selv at løse sagen. I dette felt kan du definere, hvor meget sammenhæng der skal være mellem kundens sag og en FAQ-post, for at en FAQ-post kan føjes til svaret til kunden. Hvis du definerer en værdi, som er for lav, er det sandsynligt, at kunderne modtager mange FAQ'er, som ikke er relevante for sagen. Hvis en kundes sager har sammenhæng med et nøgleord i en FAQ, vil FAQ-posten altid blive medtaget.
 
 * **Tidsramme for krydsregistrering i minutter**: Her kan du angive et antal minutter, og hvis to eller flere e-mail-meddelelser kommer ind fra den samme person i løbet af denne tidsperiode, vil sagerne blive fordelt til den samme bruger, hvis det er muligt.
+
+* **Anonymiser brugere ved svar**: Hvis markeret, vil agentens navn blive maskeret i udgående kommunikation.
 
 * **Grænse for brugerinaktivitet (timer)**: Efter det angivne antal timer uden brugeraktivitet betragtes brugeren som inaktiv (standard 2 timer). Dette bruges f.eks. i fordelingen af sager.
 

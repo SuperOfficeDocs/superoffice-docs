@@ -2,10 +2,13 @@
 uid: help-no-service-settings-system-settings
 title: Systeminnstillinger for SuperOffice Service
 description: Globale preferanser for systeminnstillinger for SuperOffice Service
-author: SuperOffice RnD
-date: 03.27.2023
-keywords: Tjeneste, innstillinger
+keywords: sak, preferanse
+author: SuperOffice Product and Engineering
+date: 09.01.2025
+version: 11.3
 content_type: concept
+license: serviceessentials
+functional_right: Service administration, General Administrator
 audience: settings
 audience_tooltip: Settings and maintenance
 language: no
@@ -42,6 +45,8 @@ Gå til <i class="ph ph-gear" aria-hidden="true"></i> **Preferanser** i navigato
 * **Minimumsscore for FAQ-søkeresultat (i prosent)**: I svarmaler som sendes til kunder, kan du legge til [automatiske forslag til FAQ-oppføringer][1] for å hjelpe kunden med å løse saken selv. I dette feltet kan du angi hvor stor grad av samsvar det må være mellom kundens sak og en FAQ-oppføring, for at en FAQ-oppføring skal legges til i svaret til kunden. Hvis du angir en for lav verdi her, er det sannsynlig at kunden får mange FAQer som ikke er relevant for saken. Hvis kundens saker samsvarer med et nøkkelord i en FAQ-oppføring, vil FAQ-oppføringen alltid tas med.
 
 * **Tidsramme for kryssregistrering i minutter**: Her kan du angi antall minutter, og dersom to eller flere e-postmeldinger kommer inn fra samme person i løpet av denne tidsperioden, vil sakene bli fordelt til samme saksbehandler hvis mulig.
+
+* **Anonymisere brukere ved svar**: Hvis markert, vil agentens navn bli maskert i utgående kommunikasjon.
 
 * **Inaktivitetsgrense (timer)**: Etter det angitte antallet timer uten brukeraktivitet, anses brukeren som inaktiv (standard to timer). Dette brukes for eksempel i delegering av saker.
 

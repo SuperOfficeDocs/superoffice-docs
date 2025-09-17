@@ -4,8 +4,8 @@ title: Anfragen
 description: Einführung zu Anfragen in SuperOffice
 keywords: Anfragenmanagement, Anfrage, Ticket, Service
 author: Bergfrid Dias
-date: 06.19.2025
-version: 10.5.3
+date: 09.01.2025
+version: 11.3
 content_type: concept
 license: serviceessentials
 audience: person
@@ -198,6 +198,24 @@ Sie können Anfragen an Ihren Arbeitsablauf anpassen:
 
 1. Klicken Sie auf **Speichern**, um die Änderungen zu übernehmen.
 
+## Globale Einstellungen
+
+Administratoren können Service für alle Benutzer in Einstellungen und Wartung anpassen.
+
+1. In **Einstellungen und Wartung** wählen Sie <i class="ph ph-gear" aria-hidden="true"></i> **Einstellungen** im Navigator.
+1. Gehen Sie zur Registerkarte **Globale Einstellungen** und scrollen Sie nach unten zum Abschnitt **SuperOffice Service Systemeinstellungen**.
+
+Einige Einstellungen, die Support-Agenten betreffen, umfassen:
+
+* Anonymisierung der Benutzer bei Antworten
+* Standard-Absenderadresse
+* Standardstil für ausgehende E-Mails
+* Zugriffsstufe 'Extern' ist voreingestellt
+* Neuer Status beim Annehmen einer Anfrage
+* E-Mail-Benachrichtigung über offene Anfragen senden
+
+[Vollständige Liste anzeigen][26]
+
 ## Verwandte Inhalte
 
 * [Anfrage erstellen][4]
@@ -233,6 +251,7 @@ Sie können Anfragen an Ihren Arbeitsablauf anpassen:
 [23]: ../../knowledge-base/learn/reply-templates/index.md
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
 [21]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-reasons-why-batch-management-should-be-your-favorite-feature-in-superoffice-service/
+[26]: ../../admin/preferences/learn/global-preferences/settings.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-list-preview.png

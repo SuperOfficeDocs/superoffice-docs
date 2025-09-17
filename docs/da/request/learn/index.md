@@ -4,8 +4,8 @@ title: Sager
 description: Introduktion til sager i SuperOffice
 keywords: sag, ticket, service
 author: Bergfrid Dias
-date: 06.19.2025
-version: 10.5.3
+date: 09.01.2025
+version: 11.3
 content_type: concept
 license: serviceessentials
 audience: person
@@ -199,6 +199,24 @@ Du kan tilpasse sager, så de passer til din arbejdsproces:
 
 1. Klik på **Gem** for at anvende dine ændringer.
 
+## Globale præferencer
+
+Administratorer kan tilpasse Service for alle brugere i Indstillinger og vedligeholdelse.
+
+1. I **Indstillinger og vedligeholdelse** skal du vælge <i class="ph ph-gear" aria-hidden="true"></i> **Præferencer** i navigatoren.
+1. Gå til fanen **Globale præferencer** og rul ned til sektionen **SuperOffice Service systemindstillinger**.
+
+Nogle indstillinger, der påvirker supportagenter, inkluderer:
+
+* Anonymiser brugere ved svar
+* Standard Fra-adresse
+* Standardstil for udgående e-mail
+* Eksternt adgangsniveau som standard
+* Ny status ved accept af en sag
+* Send e-mailbesked om åbne sager
+
+[Se den fulde liste][26]
+
 ## Relateret indhold
 
 * [Opret sag][4]
@@ -234,6 +252,7 @@ Du kan tilpasse sager, så de passer til din arbejdsproces:
 [23]: ../../knowledge-base/learn/reply-templates/index.md
 [20]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-tips-to-provide-best-in-class-customer-service-with-superoffice-service/
 [21]: https://community.superoffice.com/en/learning/best-practices-tips/service/7-reasons-why-batch-management-should-be-your-favorite-feature-in-superoffice-service/
+[26]: ../../admin/preferences/learn/global-preferences/settings.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/request-list-preview.png

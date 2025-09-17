@@ -4,8 +4,8 @@ title: Einer Person antworten
 description: In dieser Anleitung lernen Sie, wie Sie alle eingehenden Anfragen in SuperOffice beantworten können.
 keywords: Anfrage, Antwortvorlage, Antwort, Antworten, Kommentar, intern, extern
 author: Bergfrid Dias
-date: 07.01.2025
-version: 11.2
+date: 09.01.2025
+version: 11.3
 content_type: howto
 license: serviceessentials
 audience: person
@@ -45,6 +45,9 @@ Wenn Sie eine Anfrage öffnen und **Antworten** auswählen, wird automatisch die
 1. Klicken Sie auf <i class="ph ph-paperclip" aria-label="Anhänge"></i>, um relevante Dokumente anzufügen.
 
 1. Klicken Sie auf **Speichern**, um die Mitteilung zu senden.
+    * Wenn die [globale Einstellung][11] **Anonymisierung der Benutzer bei Antworten** aktiviert ist, wird Ihr Name aus ausgehenden Nachrichten entfernt.
+
+    ![Erstes Bild: Nachrichtenvorschau mit sichtbarem Absendernamen. Zweites Bild: Dieselbe Nachrichtenvorschau mit entferntem Absendernamen, was eine Anonymisierung anzeigt. -screenshot][img7]
 
 ## <a id="reply-templ"></a>Antwortvorlagen einfügen
 
@@ -162,6 +165,7 @@ Der erfasste Zeitaufwand wird in jeder Mitteilung angezeigt, und die Bearbeitung
 [8]: ../../knowledge-base/learn/reply-templates/index.md
 [9]: ../../knowledge-base/learn/faq/index.md
 [10]: forward.md
+[11]: ../../admin/preferences/learn/global-preferences/settings.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/insert-reply-template.png
@@ -169,3 +173,4 @@ Der erfasste Zeitaufwand wird in jeder Mitteilung angezeigt, und die Bearbeitung
 [img4]: ../../../media/loc/en/request/reply-to-a-customer.png
 [img5]: ../../../media/loc/en/request/insert-earlier-message.png
 [img6]: ../../../media/loc/en/request/insert-message-with-attachments.png
+[img7]: ../../../media/loc/en/request/request-reply-anonymise-user.png

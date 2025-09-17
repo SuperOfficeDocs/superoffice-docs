@@ -4,8 +4,8 @@ title: Svara kontakt
 description: I den här guiden får du lära dig hur du svarar på alla inkommande ärenden i SuperOffice.
 keywords: ärende, svara på ärende, svara, svara alla, lägga till meddelande, lägga till kommentar, kommentar, internt, externt, ärende,
 author: Bergfrid Dias
-date: 07.01.2025
-version: 11.2
+date: 09.01.2025
+version: 11.3
 content_type: howto
 license: serviceessentials
 audience: person
@@ -45,6 +45,9 @@ När du öppnar ett ärende och väljer **Svara**, visas automatiskt den [e-post
 1. Klicka på <i class="ph ph-paperclip" aria-label="Bilagor"></i> för att bifoga relevanta dokument.
 
 1. Klicka på **Spara** för att skicka meddelandet.
+    * Om den [globala inställningen][11] **Anonymisera anvendare vid svar** är aktiverad kommer ditt namn att tas bort från utgående meddelanden.
+
+    ![Första bilden: Meddelandeförhandsgranskning som visar avsändarens namn. Andra bilden: Samma meddelandeförhandsgranskning med avsändarens namn borttaget, vilket indikerar anonymisering. -screenshot][img7]
 
 ## <a id="reply-templ"></a>Lägga till svarsmallar i meddelanden
 
@@ -156,6 +159,7 @@ Den registrerade tiden visas i varje meddelandehuvud, och svarstiden finns tillg
 [8]: ../../knowledge-base/learn/reply-templates/index.md
 [9]: ../../knowledge-base/learn/faq/index.md
 [10]: forward.md
+[11]: ../../admin/preferences/learn/global-preferences/settings.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/request/insert-reply-template.png
@@ -163,3 +167,4 @@ Den registrerade tiden visas i varje meddelandehuvud, och svarstiden finns tillg
 [img4]: ../../../media/loc/en/request/reply-to-a-customer.png
 [img5]: ../../../media/loc/en/request/insert-earlier-message.png
 [img6]: ../../../media/loc/en/request/insert-message-with-attachments.png
+[img7]: ../../../media/loc/en/request/request-reply-anonymise-user.png

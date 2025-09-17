@@ -4,8 +4,8 @@ title: Svar til person
 description: I denne veiledningen lærer du hvordan du svarer på alle innkommende saker i SuperOffice.
 keywords: svare på sak, svare, svar til alle, legge til melding, legge til kommentar, kommentar, intern, ekstern, sak
 author: Bergfrid Dias, Kirsti Aakerholt
-date: 07.01.2025
-version: 11.2
+date: 09.01.2025
+version: 11.3
 content_type: howto
 license: serviceessentials
 audience: person
@@ -45,6 +45,9 @@ Når du åpner en sak og velger **Svar**, vises [e-postsignaturen][7] du har kon
 1. Klikk på <i class="ph ph-paperclip" aria-label="Vedlegg"></i> for å legge ved relevante dokumenter.
 
 1. Klikk på **Lagre** for å sende meldingen.
+    * Hvis den [globale preferansen][11] **Anonymisere brukere ved svar** er aktivert, vil navnet ditt bli fjernet fra utgående meldinger.
+
+    ![Første bilde: Meldingsforhåndsvisning som viser avsenders navn. Andre bilde: Samme meldingsforhåndsvisning med avsenders navn fjernet, som indikerer anonymisering. -screenshot][img7]
 
 ## <a id="reply-templ"></a>Bruke svarmaler
 
@@ -156,6 +159,7 @@ Tidsbruken vises i meldingsoverskriften, og svartiden er tilgjengelig i fanen **
 [8]: ../../knowledge-base/learn/reply-templates/index.md
 [9]: ../../knowledge-base/learn/faq/index.md
 [10]: forward.md
+[11]: ../../admin/preferences/learn/global-preferences/settings.md
 
 <!-- Refererte bilder -->
 [img1]: ../../../media/loc/en/request/insert-reply-template.png
@@ -163,3 +167,4 @@ Tidsbruken vises i meldingsoverskriften, og svartiden er tilgjengelig i fanen **
 [img4]: ../../../media/loc/en/request/reply-to-a-customer.png
 [img5]: ../../../media/loc/en/request/insert-earlier-message.png
 [img6]: ../../../media/loc/en/request/insert-message-with-attachments.png
+[img7]: ../../../media/loc/en/request/request-reply-anonymise-user.png
