@@ -4,14 +4,14 @@ title: Kalender
 description: Der SuperOffice-Kalender ist das Herzstück Ihres CRM-Systems. Diese Anleitungen helfen Ihnen, sich im Kalender zurechtzufinden und effizient mit ihm zu arbeiten.
 keywords: Kalender öffnen, Kalenderansicht, Aktivitäten-Registerkarte, Aufgabenliste, To-do-Liste, Folgeaufgabe, Kalender
 author: Bergfrid Dias
-date: 06.26.2025
-version: 10.5.5
+date: 09.17.2025
+version: 11.3
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
-redirect_from: /de/diary/learn/screen/index
+redirect_from: /de/diary/learn/screen
 ---
 
 # Kalender
@@ -185,7 +185,7 @@ Sie können den Kalender individuell an Ihren Arbeitsstil anpassen:
 
 * Verknüpfen Sie regelmäßig Aktivitäten mit eine Person oder Firma, um eine klare Aufzeichnung der Teaminteraktionen zu gewährleisten und eine reibungslose Zusammenarbeit zu fördern.
 
-* Verwenden Sie die fixierten Bereichsregisterkarten unterhalb des Kalenders, um Verkaufsaktivitäten oder To-dos zu verwalten und gleichzeitig den Kalender im Blick zu behalten.
+* Um Verkäufe oder Aktivitäten in Ihrem Kalender anzuzeigen und zu verwalten, aktivieren Sie die Einstellung **Aktivitätslisten unter dem Kalender anzeigen**. Dadurch werden die Bereichsregisterkarten unter dem Kalender angezeigt – genau wie in anderen Bildschirmen – sodass sie unabhängig von der ausgewählten Kalenderansicht sichtbar bleiben.
 
 * Wechseln Sie in der Registerkarte **Übersict** zwischen der Nebeneinander- und der Rasteransicht, um die für Ihre Planung passende Darstellung auszuwählen.
 
