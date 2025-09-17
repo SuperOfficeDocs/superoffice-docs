@@ -86,8 +86,10 @@ items:
         href: webhook/reference/contact-events.md
       - name: Document events
         href: webhook/reference/document-events.md
-      - name: State change events
-        href: webhook/reference/state-events.md
+      - name: ExtraTable events
+        href: webhook/reference/extratable-events.md
+      - name: List events
+        href: webhook/reference/list-events.md
       - name: Person events
         href: webhook/reference/person-events.md
       - name: Project events
@@ -102,6 +104,8 @@ items:
         href: webhook/reference/sale-events.md
       - name: Sale stakeholder events
         href: webhook/reference/sale-stakeholder-events.md
+      - name: State change events
+        href: webhook/reference/state-events.md
       - name: Test events
         href: webhook/reference/test-event.md
       - name: Ticket events
@@ -113,4 +117,5 @@ items:
   - name: Win script and event system
     href: windows/win-script-event-system.md
   - name: Zapier
+
     topicHref: ../../../integrations/zapier/index.md
