@@ -19,7 +19,7 @@ These events are fired when ExtraTable rows are changed:
 
 ## FieldValues for extratable events
 
-The following fields are included in the `FieldValues` property of the webhook payload for document events:
+The following fields are included in the `FieldValues` property of the webhook payload for extratable events:
 
 * `id`
 * `last_changed`
@@ -65,8 +65,6 @@ X-SuperOffice-EventId: 1848cc1f-d395-49ba-9b35-04a9269996d4
 ```
 
 ## y_table.changed
-
-This can be triggered by changes to the document or appointment records (or both), so you may get appointment or document fields in the `Changes` list.
 
 ```json
 {
@@ -119,15 +117,3 @@ This can be triggered by changes to the document or appointment records (or both
   }
 }
 ```
-
-## CRMScript
-
-The most common way to add data to extratables is through the classes `ExtraTable` and `SearchEngine` which are both described in detail below.
-
-### ExtraTable
-
-Adding data through `ExtraTable` will not trigger a webhook as the save method does not go through NetServer. From `11.4` it will be possible to force a webhook to be sent out with `saveWithWebhook()`. Please note that this method comes with an overhead/performance hit (at LEAST 6-7 times slower) compared to the existing `save()`, so populating hundred/thousands of rows will (probably) not work.
-
-### SearchEngine
-
-It is not supported to send webhooks while adding data through `SearchEngine`.
