@@ -4,8 +4,8 @@ title: Diary
 description: The SuperOffice Diary is the heart of your CRM system. These how-to guides will help you learn how to navigate in and work with the diary.
 keywords: open Diary, Diary screen, calendar, Activities section tab, activities, to-do list, task list, follow-up, diary
 author: Bergfrid Dias
-date: 06.26.2025
-version: 10.5.5
+date: 09.17.2025
+version: 11.3
 content_type: concept
 license: salesessentials, serviceessentials, marketingessentials
 audience: person
@@ -14,7 +14,6 @@ language: en
 redirect_from:
   - /en/diary/learn/screen/
   - /en/diary/overview
-  - /en/diary/learn/screen/index
 ---
 
 # Diary
@@ -188,7 +187,7 @@ You can customize the Diary to suit your workflow:
 
 * Regularly connect activities to a contact or company to maintain a clear record of your team's interactions and promote smooth collaboration.
 
-* Use the sticky section tabs below the calendar to preview and manage sales or to-dos while looking through your calendar.
+* To preview and manage sales or activities while viewing your calendar, enable the **Display activities lists below diary** preference. This shows the section tabs below the calendar—just like in other screens—so they stay visible regardless of the selected calendar view.
 
 * Switch between side-by-side and scheduling grid views in the **View tab** to choose the layout that best fits your planning needs.
 
