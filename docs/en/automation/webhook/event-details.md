@@ -14,20 +14,22 @@ Event name descriptors are a combination of the webhook entity and event type - 
 
 ## Event entities
 
-* [activity][1]
-* [associate][2]
-* [chat][9]
-* [contact][3]
-* [documents][11]
-* [person][4]
-* [project][5]
-* [projectmember][6]
-* [quote][12]
-* [relation][16]
-* [sale][7]
-* [salestakeholder][8]
-* [state][15]
-* [test][13]
+* [activity][1]  
+* [associate][2]  
+* [chat][9]  
+* [contact][3]  
+* [documents][11]  
+* [extratables][18]  
+* [lists][17]  
+* [person][4]  
+* [project][5]  
+* [projectmember][6]  
+* [quote][12]  
+* [relation][16]  
+* [sale][7]  
+* [salestakeholder][8]  
+* [state][15]  
+* [test][13]  
 * [ticket][14]
 
 ## Event names
@@ -67,3 +69,5 @@ Each entity raises an event when created, changed, or deleted. Therefore, all po
 [14]: reference/ticket-events.md
 [15]: reference/state-events.md
 [16]: reference/relation-events.md
+[17]: reference/list-events.md
+[18]: reference/extratable-events.md
