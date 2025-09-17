@@ -17,8 +17,10 @@ items:
     href: delete-user.md
   - name: Anonieme gebruikers en systeemgebruikers beheren
     href: other-users.md
+  - name: Externe gebruikers beheren
+    href: managing-external-users.md
   - name: Gebruikers afmelden
-    href: ../../../onsite/win-client/learn/logging-users-off.md
+    href: logging-users-off.md
   - name: Bedrijf toevoegen/verwijderen in Onze bedrijven
     href: our-companies.md
   - name: Gebruikersgroepen beheren

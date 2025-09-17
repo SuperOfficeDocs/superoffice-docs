@@ -92,5 +92,5 @@ language: sv
 [7]: ../edit-email-signature.md
 [5]: ../../../search-options/learn/find-screen.md
 [10]: ../../../search-options/learn/freetext-search.md
-[15]: ../../../onsite/win-client/learn/creating-shortcuts-to-entries-in-crm.md
+[15]: ../../basics/creating-shortcuts-to-entries-in-crm.md
 [17]: ../../../sale/learn/sales-targets/index.md

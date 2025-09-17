@@ -5,6 +5,8 @@ items:
   href: activate.md
 - name: What is an update prototype?
   href: update-prototype.md
+- name: Freetext search and Travel
+  href: freetext-search-and-travel.md
 - name: Database options
   items:
   - name: Built-in

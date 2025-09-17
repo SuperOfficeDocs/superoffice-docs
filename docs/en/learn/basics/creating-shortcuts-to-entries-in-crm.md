@@ -1,0 +1,27 @@
+---
+uid: help-en-creating-shortcuts-to-entries-in-crm
+title: Creating shortcuts to entries in CRM
+description: Creating shortcuts to entries in CRM
+keywords: copy shortcut
+author: SuperOffice Product and Engineering
+date: 09.17.2025
+version: 11.3
+content_type: concept
+audience: person
+audience_tooltip: SuperOffice CRM
+language: en
+redirect_from: /en/onsite/win-client/learn/creating-shortcuts-to-entries-in-crm
+---
+
+# Create shortcuts to entries in SuperOffice CRM
+
+You can create shortcuts to an entry in SuperOffice CRM, for example, a contact, a follow-up, a sale, or a screen. Other internal users can click this shortcut to get quickly to the entry in question.
+
+The **Copy shortcut** option is available here:
+
+* Right-clicking an item in a section tab
+* **Task** menu (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) in main screens and dialogs for follow-ups and documents
+
+When you select the **Copy shortcut** option, a shortcut (URL) to the current entry is then copied to the clipboard. You can then paste the shortcut into, for example, an email message and send it to one or more internal users of SuperOffice CRM. You can also paste the shortcut to the **Run** dialog in Windows to run it.
+
+This function uses the SOProtocol. SuperOffice WebTools must be installed for this to function properly.

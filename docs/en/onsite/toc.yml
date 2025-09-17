@@ -167,5 +167,7 @@ items:
       href: debug/win-client.md
   - name: Travel
     href: travel/toc.yml
+  - name: Windows client settings
+    href: win-client/learn/index.md
   - name: Version history
     href: version-history.md

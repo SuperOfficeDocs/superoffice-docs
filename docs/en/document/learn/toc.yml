@@ -47,7 +47,7 @@ items:
   - name: Update template
     href: ../templates/admin/update-template.md
   - name: Document templates in multiple languages
-    href: ../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
+    href: ../templates/admin/using-document-templates-for-multiple-languages.md
 - name: Technical reference
   href: ../library/it/index.md
   items:
