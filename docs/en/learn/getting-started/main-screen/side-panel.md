@@ -4,8 +4,8 @@ title: Use side panel to work more efficiently
 description: The side panel allows you to access information stored in other parts of SuperOffice CRM, without leaving the screen you are on.
 keywords: side panel
 author: Bergfrid Dias
-date: 01.17.2025
-version: 10.5
+date: 09.01.2025
+version: 11.3
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -106,13 +106,15 @@ Lists members of the current selection in the **Selection** screen.
 
 ## User-defined views
 
-Administrators can define custom views for the side panel in **Settings and maintenance**, tailoring the panel to your team's needs.
+Administrators can [define custom views][7] for the side panel in **Settings and maintenance**, tailoring the panel to your team's needs.
 
 ## FAQs and tips
 
 * Pin frequently used side panels for easy access at the top of the list by clicking the **star** icon.
 
     ![Example of the side panel showing the favorites menu with pinned panels for easy access. -screenshot][img1]
+
+* Use the side panel to [preview saved emails][9], open attachments, and reply or forward messages directly.
 
 * Why is the side panel empty?
 
@@ -132,6 +134,8 @@ Administrators can define custom views for the side panel in **Settings and main
 [4]: ../../../diary/learn/index.md
 [5]: ../../../document/learn/create.md#fields
 [6]: ../../../diary/learn/create-follow-up.md
+[7]: ../../../admin/lists/learn/web-panel-add-item.md
+[9]: ../../../email/learn/index.md#preview
 [8]: ../../basics/fav.md
 [11]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-get-document-closed-in-the-side-panel-of-superoffice-crm-when-document-viewer-is-used/
 [10]: ../../../sale/learn/index.md#side-panel

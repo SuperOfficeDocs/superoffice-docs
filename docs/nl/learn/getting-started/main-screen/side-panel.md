@@ -4,8 +4,8 @@ title: Het zijpaneel gebruiken om efficiënter te werken
 description: Met het zijpaneel hebt u toegang tot informatie die is opgeslagen in andere delen van SuperOffice CRM, zonder het scherm te verlaten waarop u zich bevindt.
 keywords: zijpaneel
 author: Bergfrid Dias
-date: 03.14.2025
-version: 10.5.2
+date: 09.01.2025
+version: 11.3
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -106,13 +106,15 @@ Lijst met leden van de huidige selectie in het **Selectie**-scherm.
 
 ## Door gebruikers gedefinieerde weergaven
 
-Beheerders kunnen aangepaste weergaven definiëren in **Instellingen en onderhoud**, zodat het zijpaneel beter aansluit op de behoeften van uw team.
+Beheerders kunnen [aangepaste weergaven][7] definiëren voor het zijpaneel in **Instellingen en onderhoud**, zodat het paneel beter aansluit op de behoeften van uw team.
 
 ## Veelgestelde vragen en tips
 
 * **Veelgebruikte zijpanelen vastzetten:** Klik op het **ster**-pictogram om ze bovenaan de lijst te plaatsen.
 
     ![Voorbeeld van het zijpaneel met vastgezette favorieten voor snelle toegang. -screenshot][img1]
+
+* Gebruik het zijpaneel om [opgeslagen e-mails te bekijken][9], bijlagen te openen en direct te antwoorden of berichten door te sturen.
 
 * **Waarom is het zijpaneel leeg?**
 
@@ -132,7 +134,9 @@ Beheerders kunnen aangepaste weergaven definiëren in **Instellingen en onderhou
 [4]: ../../../diary/learn/index.md
 [5]: ../../../document/learn/create.md#fields
 [6]: ../../../diary/learn/create-follow-up.md
+[7]: ../../../admin/lists/learn/web-panel-add-item.md
 [8]: ../../basics/fav.md
+[9]: ../../../email/learn/index.md#preview
 [10]: ../../../sale/learn/index.md#side-panel
 [11]: https://community.superoffice.com/en/support-faqs/faq/what-to-do-when-i-get-document-closed-in-the-side-panel-of-superoffice-crm-when-document-viewer-is-used/
 

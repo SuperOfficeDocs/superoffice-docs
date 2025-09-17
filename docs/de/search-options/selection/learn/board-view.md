@@ -39,6 +39,10 @@ Die Funktionalität ist für alle unterstützten Selektionstypen gleich: Sie kö
 * Ziehen Sie Karten zwischen Spalten, um das Gruppierungsfeld zu aktualisieren (z. B. Stufe oder Besitzer).
   * Wenn Untergruppen aktiviert sind, können Sie Karten auch zwischen Zeilen innerhalb jeder Spalte verschieben.
 
+* Klicken Sie auf eine Karte, um ihre Details in der [Seitenleiste][11] anzuzeigen. (Aktivieren Sie die Vorschau, indem Sie sie aus dem Dropdown-Menü oben in der Seitenleiste auswählen).
+
+    ![Seitenleiste mit Projektdetails -screenshot][img12]
+
 * Um eine Karte zu bearbeiten, bewegen Sie die Maus darüber und klicken Sie auf **Bearbeiten** (<i class="ph ph-pencil" aria-hidden="true"></i>). Dies öffnet denselben Bearbeitungsdialog wie an anderer Stelle in SuperOffice CRM – ohne die Board-Ansicht zu verlassen.
 
   ![Cursor zeigt auf die Schaltfläche Bearbeiten auf einer Verkaufskarte -screenshot][img4]
@@ -210,6 +214,7 @@ Nutzen Sie Gruppierung kreativ, um Daten effizient zu organisieren und zu nutzen
 <!-- Referenzierte Links -->
 [1]: create.md
 [2]: index.md
+[11]: ../../../learn/getting-started/main-screen/side-panel.md
 [12]: ../../../sale/learn/create.md
 [13]: ../../../sale/admin/sale-stage.md
 [14]: ../../../request/learn/create.md
@@ -231,3 +236,4 @@ Nutzen Sie Gruppierung kreativ, um Daten effizient zu organisieren und zu nutzen
 [img9]: ../../../../media/loc/en/search-options/board-view-filter-toolbar.png
 [img10]: ../../../../media/loc/en/search-options/board-view-filter-on-sale-type.png
 [img11]: ../../../../media/loc/en/search-options/board-view-summarized-sale-amount-per-column.png
+[img12]: ../../../../media/loc/en/search-options/selection-board-view-project-preview.png

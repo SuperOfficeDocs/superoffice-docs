@@ -2,10 +2,14 @@
 uid: help-de-email
 title: E-Mail
 description: Mit SuperOffice CRM können Sie Ihre E-Mails auf verschiedene Arten speichern und teilen, damit Sie und Ihr Team produktiver arbeiten können.
-author: SuperOffice RnD
-date: 02.10.2023
-keywords: E-Mail, E-Mail
+keywords: E-Mail, Posteingang
+author: SuperOffice Product and Engineering
+date: 09.16.2025
+version: 11.3
 content_type: concept
+license: salesessentials, serviceessentials, marketingessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
@@ -58,6 +62,15 @@ Wenn Sie einen E-Mail-Anhang, nicht aber die E-Mail in SuperOffice CRM speichern
 * [E-Mail-Anhänge mit WebTools und Mail Link archivieren][9]
 * [E-Mail-Anhänge mit GMail Link archivieren][5]
 
+## <a id="preview"></a>Gespeicherte E-Mail in SuperOffice anzeigen
+
+Klicken Sie auf eine E-Mail in der [Bereichsregisterkarte Aktivitäten][14], um ihre Details in der [Seitenleiste][15] anzuzeigen. (Aktivieren Sie die Vorschau, indem Sie sie aus dem Dropdown-Menü oben in der Seitenleiste auswählen).
+
+* Klicken Sie auf einen Anhang, um ihn zu öffnen.
+* Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabenmenü"></i> und wählen Sie **Antworten** oder **Allen antworten**, um auf die E-Mail zu antworten, oder **Weiterleiten**, um sie an jemand anderen zu senden.
+
+![E-Mail-Vorschau mit hervorgehobenen Aufgabenmenü-Optionen -screenshot][img1]
+
 <!-- Referenced links -->
 [1]: ../inbox/learn/index.md
 [2]: ../../../../integrations/gmail-link/index.md
@@ -71,5 +84,8 @@ Wenn Sie einen E-Mail-Anhang, nicht aber die E-Mail in SuperOffice CRM speichern
 [11]: ../../contact/learn/send-email.md
 [12]: ../../document/learn/send-as-email.md
 [13]: ../../learn/getting-started/connect-email-doc/index.md
+[14]: ../../learn/section-tabs/activities-tab.md
+[15]: ../../learn/getting-started/main-screen/side-panel.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/learn/side-panel-preview-email-tasks.png
