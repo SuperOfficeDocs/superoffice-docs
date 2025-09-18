@@ -31,3 +31,5 @@ items:
     topicHref: ../../globalization-and-localization/learn/change-language.md
   - name: Externa applikationer och webbadresser
     href: external-applications-and-url-addresses.md
+  - name: Skapa/kopiera genväg
+    href: creating-shortcuts-to-entries-in-crm.md

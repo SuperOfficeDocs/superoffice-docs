@@ -137,7 +137,3 @@ items:
     - name: AI-diensten
       href: ../ai/learn/toc.yml
       topicHref: ../ai/learn/index.md
-
-  - name: Windows Client-instellingen
-    href: ../onsite/win-client/learn/toc.yml
-    topicHref: ../onsite/win-client/learn/index.md

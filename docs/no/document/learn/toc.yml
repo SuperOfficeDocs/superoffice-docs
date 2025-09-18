@@ -45,4 +45,4 @@ items:
   - name: Redigere mal
     href: ../templates/admin/update-template.md
   - name: Dokumentmaler på flere språk
-    href: ../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
+    href: ../templates/admin/using-document-templates-for-multiple-languages.md

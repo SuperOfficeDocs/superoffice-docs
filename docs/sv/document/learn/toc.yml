@@ -45,4 +45,4 @@ items:
   - name: Redigera mall
     href: ../templates/admin/update-template.md
   - name: Dokumentmallar på flera språk
-    href: ../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
+    href: ../templates/admin/using-document-templates-for-multiple-languages.md

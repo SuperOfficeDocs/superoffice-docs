@@ -45,4 +45,4 @@ items:
   - name: Rediger skabelon
     href: ../templates/admin/update-template.md
   - name: Dokumentskabeloner på flere sprog
-    href: ../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
+    href: ../templates/admin/using-document-templates-for-multiple-languages.md

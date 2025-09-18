@@ -17,8 +17,10 @@ items:
     href: delete-user.md
   - name: Administrere anonyme brukere og systembrukere
     href: other-users.md
+  - name: Håndtere eksterne brukere
+    href: managing-external-users.md
   - name: Logge av brukere
-    href: ../../../onsite/win-client/learn/logging-users-off.md
+    href: logging-users-off.md
   - name: Legg til / fjern firma i Våre firmaer
     href: our-companies.md
   - name: Administrere brukergrupper

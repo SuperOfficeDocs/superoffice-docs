@@ -17,8 +17,10 @@ items:
     href: delete-user.md
   - name: Hantera anonyma användare och systemanvändare
     href: other-users.md
+  - name: Hantera externa användare
+    href: managing-external-users.md
   - name: Logga ut användare
-    href: ../../../onsite/win-client/learn/logging-users-off.md
+    href: logging-users-off.md
   - name: Lägga till/ta bort företag i Våra företag
     href: our-companies.md
   - name: Hantera användargrupper
