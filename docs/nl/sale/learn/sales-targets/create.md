@@ -1,153 +1,151 @@
 ---
 uid: help-nl-sales-targets-create
 title: Verkooptargets instellen
-description: Houd uw budgetten bij door verkoopdoelen in te stellen. Dit helpt u om de juiste verwachtingen te stellen, uw groei te plannen, de motivatie te verhogen en tijd te besparen.
-author: SuperOffice RnD
-date: 02.16.2023
-keywords: verkoop
+description: Houd uw budgetten bij door verkooptargets in te stellen. Dit helpt u om de juiste verwachtingen te scheppen, uw groei te plannen, de motivatie te vergroten en tijd te besparen.
+keywords: verkooptargets
+author: SuperOffice Product and Engineering
+date: 09.19.2025
+version: 10.5
 content_type: howto
+license: salespremium
+deployment: online
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
 # Verkooptargets instellen
 
-Houd uw budgetten bij door verkoopdoelen in te stellen. Dit helpt u om de juiste verwachtingen te stellen, uw groei te plannen, de motivatie te verhogen en tijd te besparen.
+Houd uw budgetten bij door verkooptargets in te stellen. Dit helpt u om de juiste verwachtingen te scheppen, uw groei te plannen, de motivatie te vergroten en tijd te besparen.
 
-![Het dialoogvenster Targets geeft u een overzicht van uw huidige en eerdere verkoopdoelen -screenshot][img5]
+![Het dialoogvenster targets geeft een overzicht van uw huidige en vorige verkooptargets -screenshot][img1]
 
-De targetlijst kan de volgende secties bevatten:
+De targetslijst kan de volgende onderdelen bevatten:
 
-* Target van het bedrijf
-* Target de gebruikersgroep
-* Target de gebruiker
+* Het target van het bedrijf
+* Het target van de gebruikersgroep
+* Het target van de gebruiker
 * De som van targets voor alle gebruikers in één gebruikersgroep (niet bewerkbaar)
 
 Het is optioneel om het bedrijfstarget toe te voegen en om gebruikersspecifieke targets te hebben (ga naar Targetinstellingen om te wijzigen). De som van alle targets in één gebruikersgroep is niet bewerkbaar. Het toont de som voor alle gebruikers in één gebruikersgroep en is een richtlijn om het gemakkelijker te maken om het target voor de hele gebruikersgroep in te stellen. U kunt het bedrijfstarget toevoegen en bewerken, omdat het target voor het hele bedrijf niet noodzakelijkerwijs hetzelfde is als de som van alle gebruikersgroepen.
 
-## Eisen
+## Vereisten
 
 > [!NOTE]
-> Alleen voor **ONLINE-klanten** . (Niet beschikbaar voor Onsite-klanten.)
+> Alleen voor **ONLINE**-klanten. (Niet beschikbaar voor Onsite-klanten.)
 
-### Licenties
+Als u alleen een Sales Premium-licentie heeft, kunt u één groep toevoegen voor het targettype **Alle verkopen – Bedrag**. Om meer dan één gebruikersgroep toe te voegen, heeft u ook de licentie Unlimited sales targets nodig.
 
-Voor deze functie is de licentie Sales Premium vereist.
-De volgende functies zijn alleen beschikbaar met de Sales Targets Unlimited-licentie naast de Sales Premium-licentie:
+## Voor u begint
 
-* Extra targettypen (dimensies) toevoegen
-* Targets maken voor meerdere groepen/teams
+Voordat u de functie verkooptargets gaat gebruiken, moet u enkele instellingen configureren in Instellingen en onderhoud:
 
-### Toegang
+* Standaard zijn verkooptargets verdeeld per maand, maar u kunt dit wijzigen naar kwartaaltargets. Ga in Instellingen en onderhoud naar **Voorkeuren** > **Algemene systeemvoorkeuren** > **targets** om dit aan te passen.
 
-Toegang tot de functie **Targets** wordt door uw beheerder ingesteld in Instellingen en onderhoud.
+* Verkooptargets vergrendelen en ontgrendelen is alleen beschikbaar voor gebruikers met het functionele recht **Kan targets vergrendelen en ontgrendelen**. Dit kan worden gewijzigd in **Rollen** in Instellingen en onderhoud.
 
-### Gegevensrechten
+* Voor het aanmaken, bewerken en verwijderen van verkooptargets zijn specifieke gegevensrechten nodig. Dit kan ook worden gewijzigd in **Rollen** in Instellingen en onderhoud.
 
-Voor toegang tot deze functie, hebt u gegevensrechten nodig voor **Targets**.
+## Targets toevoegen voor een jaar
 
-### Functionele rechten
+1. Klik op <i class="ph ph-list" aria-label="Hoofdmenu"></i> en selecteer **Targets**.
 
-Alleen gebruikers met het functionele recht **Kan targets vergrendelen en ontgrendelen** kunnen targets vergrendelen en ontgrendelen.
+    * Als er nog geen verkooptargets zijn aangemaakt, is de lijst leeg.
 
-## Voordat u start
+1. Selecteer in het scherm **Verkooptargets** het jaar waarvoor u een target wilt aanmaken in de lijst **Selecteer jaar**.
 
-Voordat u de functie Verkooptargets gaat gebruiken, moet u een aantal dingen instellen in Instellingen en onderhoud:
+   * Als u een jaar selecteert én het voorgaande jaar bevat verkooptargets, krijgt u de vraag of u targets wilt aanmaken op basis van dat jaar. U kunt de targets kopiëren zoals ze zijn of kiezen om ze met een bepaald percentage te verhogen.
 
-* Standaard zijn de verkooptargets onderverdeeld in maanden, maar u kunt dit wijzigen in kwartaaltargets. Ga in Instellingen en onderhoud naar **Voorkeuren** > **Algemene systeemvoorkeuren** > **Targets** om eventuele wijzigingen aan te brengen.
+1. Klik op **Groepen en gebruikers toevoegen** en gebruik het zoekveld om de gewenste groep te vinden. Selecteer de groep in de lijst. Om een target voor het hele bedrijf toe te voegen, selecteer **Bedrijfstarget**.
 
-* Het vergrendelen en ontgrendelen van verkooptargets is alleen beschikbaar voor gebruikers met het functionele recht **Kan targets vergrendelen en ontgrendelen**. U kunt dit wijzigen in **Rollen** in Instellingen en onderhoud.
+    * De groep wordt toegevoegd aan het overzicht met maand- of kwartaaltargets die standaard op 0 staan in de standaardvaluta (tenzij u cijfers van een ander jaar heeft gekopieerd). Alle gebruikers (primaire groepsleden) die tot de groep behoren, worden eronder weergegeven.
 
-* Het maken, bewerken en verwijderen van verkooptargets vereist specifieke gegevensrechten. U kunt dit wijzigen in **Rollen** in Instellingen en onderhoud.
+1. Indien van toepassing kunt u de valuta voor het bedrijf of de groep wijzigen. De standaardvaluta is de basisvaluta die voor uw bedrijf is ingesteld. U kunt geen valuta instellen voor individuele gebruikers.
 
-> [!TIP]
-> Gebruik het veld **Vrije tekstzoekbewerking** om verkooptargets te zoeken voor specifieke groepen en gebruikers in een specifiek jaar.
+1. Pas de cijfers handmatig aan met de **TAB**-toets om naar het volgende veld te gaan. U kunt ook [cijfers kopiëren en plakken vanuit Excel](#import) of klikken op <i class="ph ph-list" aria-label="Menu-icoon"></i> aan het einde van een rij en **Cijfers aanpassen** selecteren.
 
-## Targets voor een jaar toevoegen
+   ![Cijfers aanpassen voor een specifiek target -screenshot][img3]
 
-> [!TIP]
-> Het standaard targettype is **Alle verkopen - Bedrag**. Als u de licentie Sales Targets Unlimited hebt, kunt u extra targettypen maken.
+1. Optioneel: Wanneer u een rij heeft voltooid, kunt u deze vergrendelen (<i class="ph ph-lock-simple" aria-hidden="true"></i>) om bewerken te voorkomen. Bijvoorbeeld nadat een budget is goedgekeurd en niet meer mag worden gewijzigd. Vergrendelde rijen kunnen niet worden verwijderd, leeggemaakt of bewerkt.
 
-1. Klik op **Hoofdmenu** (<i class="ph ph-list" aria-hidden="true"></i>) en selecteer **Targets**. Als er nog geen verkooptargets zijn gemaakt, is de lijst leeg.
+1. Als een specifieke groep of gebruiker geen verkooptarget moet hebben, klik dan op <i class="ph ph-list" aria-label="Menu-icoon"></i> en selecteer **Leegmaken** om de waarden te wissen.
 
-2. Selecteer in het scherm **Verkooptargets** het jaar waarvoor u een verkoopdoel wilt maken in de lijst **Jaar selecteren**. U kunt ook targets instellen voor voorgaande jaren, om budgetstatistieken terug in de tijd te maken.
+1. Klik op **Opslaan**.
 
-    > [!NOTE]
-    > Als u een jaar hebt geselecteerd EN het voorgaande jaar verkooptargets bevat, wordt u gevraagd of u targets wilt maken op basis van het voorgaande jaar. U kunt de targets ongewijzigd kopiëren of ervoor kiezen om de targets met een bepaald percentage te verhogen.
+    * Herhaal stappen 3-10 om extra groepen of bedrijven toe te voegen. Hiervoor is de licentie *Onbeperkte verkooptargets* nodig.
 
-3. Klik op **Groepen en gebruikers toevoegen**. Gebruik het zoekveld om specifieke groepen te vinden.
+    * Ga terug naar stap 2 om targets voor een ander jaar toe te voegen of klik op **Opslaan en sluiten** om dit scherm te verlaten.
 
-4. Klik op de relevante groep in de lijst. Als u een target voor het hele bedrijf wilt toevoegen, selecteert u **Bedrijfstarget**. De geselecteerde groep wordt toegevoegd aan het overzicht met maand-/kwartaaltargets die zijn ingesteld op 0 in de standaardvaluta (tenzij u de getallen uit een ander jaar hebt gekopieerd). Alle gebruikers (primaire groepsleden) die tot een groep behoren, worden onder de groep weergegeven.
+## Cijfers kopiëren van een ander target
 
-5. Gebruik de knoppen voor uitvouwen/samenvouwen bovenaan of de pijlen naast elke groep om gebruikers weer te geven of te verbergen.
+Om te voorkomen dat u de verkooptargets opnieuw helemaal moet instellen voor een andere gebruiker, kunt u de targets van een andere gebruiker kopiëren zoals ze zijn (vaste cijfers), aanpassen met een % of een jaarlijks totaal instellen.
 
-6. Wijzig indien van toepassing de valuta voor het bedrijf of de groep. De standaardvaluta is de basisvaluta die voor uw bedrijf is ingesteld. U kunt geen valuta instellen voor individuele gebruikers.
+Opties:
 
-7. Pas de getallen handmatig aan en ga met de toets **TAB** naar het volgende veld. U kunt ook [getallen uit Excel kopiëren en plakken](#import) of op <i class="ph ph-list" aria-label="Menu icon"></i> achteraan elke rij klikken en **Getallen aanpassen** selecteren . Opties:
+* **Beginbedrag instellen:** Voer het bedrag voor het hele jaar in. Het bedrag wordt gelijkmatig verdeeld over de maanden of kwartalen van de huidige rij.
 
-    * **Beginbedrag instellen**: voer het bedrag voor het hele jaar in. Het bedrag wordt gelijkelijk verdeeld over de maanden of kwartalen op de huidige rij.
-    * **Kopiëren van**: kopieer de waarden van een andere groep of gebruiker.
-    * **Kopiëren van vorig jaar**: kopieer waarden van vorig jaar en verhoog de waarden met een bepaald percentage. Deze optie is uitgeschakeld als vorig jaar geen waarden heeft.
-        Klik op **Opslaan** wanneer u klaar bent. De totalen voor alle gebruikers worden toegevoegd aan de rij **Alles** boven aan de lijst met gebruikers.
+* **Kopiëren van:** Kopieer de waarden van een andere groep of gebruiker.
 
-8. Optioneel: wanneer u een rij hebt voltooid, kunt u deze vergrendelen (<i class="ph ph-lock-simple" aria-hidden="true"></i>) om bewerking uit te schakelen. Bijvoorbeeld nadat een budget is goedgekeurd en niet mag worden bewerkt. Vergrendelde rijen kunnen niet worden verwijderd, gewist of bewerkt.
+* **Kopiëren van vorig jaar:** Kopieer waarden van vorig jaar en verhoog deze met een specifiek percentage. Deze optie is niet beschikbaar als er vorig jaar geen waarden zijn.
+    Klik op **Opslaan** wanneer u klaar bent. De totalen voor alle gebruikers worden toegevoegd aan de rij **Alle** bovenaan de lijst met gebruikers.
 
-9. Als een specifieke groep of gebruiker geen verkooptarget moet hebben, klikt u op <i class="ph ph-list" aria-label="Menu icon"></i> en selecteert u **Wissen** om de waarden leeg te maken.
+## Targets wissen of verwijderen
 
-10. Klik op **Opslaan**.
+Om een bedrijfs- of groepstarget te verwijderen, klikt u op <i class="ph ph-list" aria-label="Menu-icoon"></i> en selecteert u **Bedrijfstarget verwijderen** of **Groepstarget verwijderen**.
 
-11. Herhaal stappen 3-10 om extra groepen of bedrijven toe te voegen. Hiervoor is de licentie Sales Targets Unlimited vereist.
+Als u onjuiste cijfers heeft toegevoegd of een gebruiker het bedrijf heeft verlaten, kunt u de ingevoerde waarden wissen. Merk op dat u een gebruiker in een groep niet kunt verwijderen als deze geen verkooptargets heeft, maar u kunt de rij wel leegmaken.
 
-12. Ga naar stap 2 om verkooptargets voor nog een jaar toe te voegen of klik op **Opslaan en sluiten** om dit scherm te verlaten.
-
-> [!NOTE]
-> Om een bedrijfs- of groepstarget te verwijderen, klikt u op <i class="ph ph-list" aria-label="Menu icon"></i> en selecteert u **Bedrijfstarget verwijderen** of **Groepstarget verwijderen**.
-
-## Vergrendelings-/ontgrendelingsfunctie
-
-Afhankelijk van uw gebruikersrol (het functionele recht "Kan doelen vergrendelen/ontgrendelen"), kunt u een verkooptarget vergrendelen en ontgrendelen. Wanneer het verkooptarget is goedgekeurd, kunt u de rij selecteren om deze te vergrendelen en vervolgens kan de rij niet meer bewerkt worden. Als het verkooptarget is goedgekeurd en vergrendeld, mag het niet worden ontgrendeld, tenzij er bepaalde redenen zijn voor wijzigingen.
-
-## Getallen van het target van een andere gebruiker kopiëren
-
-Om te voorkomen dat u de verkooptargets helemaal opnieuw moet instellen voor een andere gebruiker, kunt u het verkooptarget van een andere gebruiker kopiëren zoals ze zijn (vaste getallen), het target omhoog of omlaag aanpassen met een percentage of het initiële jaarlijkse bedrag instellen.
-
-![Cijfers aanpassen voor een specifieke gebruiker, gebruikersgroep of het bedrijfsdoel -screenshot][img6]
-
-Als u een aantal getallen hebt toegevoegd die niet correct zijn, of als een gebruiker het bedrijf heeft verlaten, kunt u ervoor kiezen om de toegevoegde getallen te wissen. Maar let erop dat u een gebruiker in een gebruikersgroep niet kunt verwijderen als de gebruiker geen verkooptargets heeft, maar u kunt de rij wel wissen.
-
-> [!TIP]
-> U kunt de hele targetlijst exporteren, bewerken in een spreadsheet en vervolgens terug importeren naar Targets.
+![Cijfers wissen voor een specifiek target -screenshot][img2]
 
 ## Exporteren
 
-Klik op de knop **Taak** om het verkooptarget voor het geselecteerde jaar te exporteren naar Excel of PDF.
+Klik op de knop **Taak** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) om de verkooptargets voor het geselecteerde jaar te exporteren naar Excel of PDF.
 
-## <a id="import"></a>Import
+## <a id="import"></a>Importeren
 
-U kunt targetgegevens uit Excel kopiëren en de gegevens in de tabel in SuperOffice plakken.
+U kunt de hele targetslijst exporteren, bewerken in een spreadsheet en vervolgens weer importeren in targets.
 
-Ga hiertoe als volgt te werk:
+Ga hiervoor als volgt te werk:
 
-1. Klik op de knop **Taak** (<i class="ph ph-dots-three-circle-vertical" aria-hidden="true"></i>) om het verkooptarget voor het geselecteerde jaar te exporteren naar Excel.
+1. Exporteer de verkooptargets voor het geselecteerde jaar naar Excel.
 
-2. Bewerk de targetgegevens (bedragen) in de spreadsheet.
+1. Bewerk de targetgegevens (bedragen) in de spreadsheet.
 
-3. Kopieer de targetgegevens in de spreadsheet (alleen bedragen). U kunt elk gebied selecteren.
+1. Kopieer de targetgegevens in de spreadsheet (alleen bedragen). U kunt elk gebied selecteren.
 
-4. Selecteer de cel linksboven in het relevante gebied in SuperOffice en plak de gegevens. Als sommige rijen zijn vergrendeld, kunt u de gegevens niet plakken.
+1. Selecteer de cel linksboven in het relevante gebied in SuperOffice en plak de gegevens. Als sommige rijen vergrendeld zijn, kunt u de gegevens niet plakken.
 
-## Revisiehistorie
+## Functie vergrendelen/ontgrendelen
 
-Om de revisiehistorie voor een verkooptarget (rij) weer te geven, klikt u op <i class="ph ph-list" aria-label="Menu icon"></i> en selecteert u **Revisiehistorie**. In het scherm dat wordt weergegeven, kunt u alle wijzigingen bekijken die zijn aangebracht in het huidige verkooptarget. Dit omvat gewijzigde waarden en vergrendeling/ontgrendeling, wanneer de wijziging plaatsvond en door wie. Gebruik de knoppen voor uitvouwen/samenvouwen bovenaan voor het weergeven/verbergen van details.
+Afhankelijk van uw gebruikersrol (het functionele recht "Kan targets vergrendelen/ontgrendelen") kunt u een verkooptarget vergrendelen of ontgrendelen. Wanneer het target is goedgekeurd, kunt u de rij selecteren en vergrendelen, waardoor bewerken niet meer mogelijk is. Als het target is goedgekeurd en vergrendeld, moet het alleen worden ontgrendeld als er geldige redenen zijn om het te wijzigen.
+
+## Revisiegeschiedenis
+
+Om de revisiegeschiedenis van een verkooptarget (rij) te bekijken, klikt u op <i class="ph ph-list" aria-label="Menu-icoon"></i> en selecteert u **Revisiegeschiedenis**. In het scherm dat verschijnt, kunt u alle wijzigingen in het huidige target zien. Dit omvat gewijzigde waarden en vergrendelen/ontgrendelen, met de datum en gebruiker. Gebruik de knoppen bovenaan om details in of uit te klappen.
+
+## Tips
+
+* Gebruik de knoppen bovenaan of de pijlen naast elke groep om gebruikers te tonen of te verbergen.
+
+* U kunt targets instellen voor voorgaande jaren om statistieken achteraf te creëren.
+
+* Het standaardtargettype is **Alle verkopen – Bedrag**. Met de licentie Unlimited sales targets kunt u extra targettypen aanmaken.
+
+* Gebruik het veld **Vrije-tekst zoeken** om verkooptargets voor specifieke groepen en gebruikers in een bepaald jaar te vinden.
+
+* Voor targettypen die undertypen bevatten, gebruikt u de knop **Filter** (<i class="ph ph-funnel" aria-hidden="true"></i>) om specifieke elementen weer te geven of ermee te werken.
+
+   ![Klik op het trechterpictogram om verkooptargets te filteren op subtype -screenshot][img4]
 
 ## Gerelateerde inhoud
 
-* [Dashboard][1]
 * [Verkooptargets gebruiken in tegels][2]
 
 <!-- Referenced links -->
-[1]: ../../../dashboard/learn/index.md
 [2]: ../../../dashboard/learn/show-sales-targets.md
 
 <!-- Referenced images -->
-[img5]: ../../../../media/loc/en/sale/user-targets-salestargets.png
-[img6]: ../../../../media/loc/en/sale/user-targets-salestargets-adjustnumbers.png
+[img1]: ../../../../media/loc/en/sale/targets-dialog-group-expanded.png
+[img2]: ../../../../media/loc/en/sale/target-line-menu.png
+[img3]: ../../../../media/loc/en/sale/target-adjust-number.png
+[img4]: ../../../../media/loc/en/sale/filter-targets-by-dimension.png
