@@ -59,6 +59,6 @@ Om du saknar mycket information om kunder och kontakter i SuperOffice kan du anv
 [4]: import-from-erp.md
 [5]: import-products-from-excel.md
 [6]: configure-import-settings.md
-[7]: ../../../onsite/win-client/learn/import/index.md
+[7]: https://help.superoffice.com/docs/10.3/en/onsite/win-client/learn/import/index.html
 
 <!-- Referenced images -->

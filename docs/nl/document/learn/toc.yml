@@ -45,4 +45,4 @@ items:
   - name: Sjabloon bewerken
     href: ../templates/admin/update-template.md
   - name: Documentsjablonen in meerdere talen
-    href: ../../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
+    href: ../templates/admin/using-document-templates-for-multiple-languages.md

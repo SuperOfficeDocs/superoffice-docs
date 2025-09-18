@@ -17,8 +17,10 @@ items:
     href: delete-user.md
   - name: Manage anonymous and system users
     href: other-users.md
+  - name: Manage external users
+    href: managing-external-users.md
   - name: Log users off
-    href: ../../../onsite/win-client/learn/logging-users-off.md
+    href: logging-users-off.md
   - name: Add/remove company in Our companies
     href: our-companies.md
   - name: Manage user groups

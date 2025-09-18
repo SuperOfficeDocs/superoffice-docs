@@ -136,7 +136,3 @@ items:
     - name: KI-Services
       href: ../ai/learn/toc.yml
       topicHref: ../ai/learn/index.md
-
-  - name: Einstellungen für den Windows-Client
-    href: ../onsite/win-client/learn/toc.yml
-    topicHref: ../onsite/win-client/learn/index.md

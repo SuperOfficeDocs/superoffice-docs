@@ -55,5 +55,5 @@ Also [scripts][14] available in the Windows client only may be enabled in the Wi
 [9]: ../custom-objects/learn/udef.md
 [11]: https://help.superoffice.com/Documentation/Help/EN/CRM/8.5/WebHelpAdmin/index.htm#t=chap06%2FSOLoader.htm
 [12]: https://help.superoffice.com/Documentation/Help/EN/CRM/8.5/WebHelpAdmin/index.htm#t=chap02%2FReplication.htm
-[13]: ../onsite/win-client/learn/import/index.md
+[13]: https://help.superoffice.com/docs/10.3/en/onsite/win-client/learn/import/index.html
 [14]: https://help.superoffice.com/Documentation/Help/EN/CRM/8.5/WebHelpAdmin/index.htm#t=Skripting%2FScripting.htm

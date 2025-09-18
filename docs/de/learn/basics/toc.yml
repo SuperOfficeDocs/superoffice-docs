@@ -31,3 +31,5 @@ items:
     topicHref: ../../globalization-and-localization/learn/change-language.md
   - name: Externe Anwendungen und URL-Adressen
     href: external-applications-and-url-addresses.md
+  - name: Shortcut erstellen/kopieren
+    href: creating-shortcuts-to-entries-in-crm.md

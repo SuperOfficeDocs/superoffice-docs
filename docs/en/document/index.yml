@@ -75,7 +75,7 @@ landingContent:
         - text: Link template (in Settings and maintenance)
           url: templates/admin/link-template.md
         - text: Document templates in multiple languages
-          url: ../onsite/win-client/learn/using-document-templates-for-multiple-languages.md
+          url: templates/admin/using-document-templates-for-multiple-languages.md
       - itemType: video_library
         typeDesc: video
         links:
