@@ -3,7 +3,7 @@ uid: news-service-11
 title: What's new in SuperOffice 11
 description: Release notes. What's new in SuperOffice Service 11
 author: SuperOffice AS – Product and engineering
-date: 09.01.2025
+date: 09.22.2025
 version: 11
 content_type: release-note
 category: service
@@ -13,7 +13,7 @@ audience_tooltip: SuperOffice Service
 
 # New and improved Service
 
-* [Lists of contact - Create request from the context menu for a contact (11.4)][4]
+* [Lists of contacts - Create request from a contact's context menu (11.4)][4]
 * [Request - Anonymise support agent (11.3)][3]
 * [Request - Reply tools in Request properties (11.2)][2]
 * [Request - Pin request lists to the tab bar (11.2)][2]
