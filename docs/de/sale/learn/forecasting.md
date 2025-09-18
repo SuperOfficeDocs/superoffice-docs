@@ -2,47 +2,41 @@
 uid: help-de-sale-forecasting
 title: Pipeline überwachen und Umsatz prognostizieren
 description: Wie man seine Vertriebspipeline überwacht und Verkäufe mit Hilfe von Dashboards und Selektionen prognostiziert.
-keywords: Verkauf
+keywords: Verkauf, Prognose, Pipeline
 author: Bergfrid Dias
-date: 05.12.2025
-version: 10.4
+date: 09.19.2025
+version: 10.5
 content_type: howto
+license: salesessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: de
 ---
 
 # Pipeline überwachen und Umsatz prognostizieren
 
-Um Ihre langfristigen Verkaufsziele zu erreichen, ist es wichtig, eine gesunde Pipeline aufrechtzuerhalten. Es wird Ihnen helfen, einen objektiven Überblick über die Einzel- und die Gruppenpipeline zu haben, sodass Sie schneller reagieren, die Lücken schließen und die Geschäfte identifizieren können, die zusätzliche Ressourcen oder Anstrengungen erfordern.
+Um Ihre Verkaufsziele zu erreichen, ist es wichtig, eine gesunde Pipeline aufrechtzuerhalten. SuperOffice CRM bietet zwei Hauptmöglichkeiten, Verkäufe zu prognostizieren und Fortschritte zu überwachen: **Dashboard-Kacheln** und **Selektionen (Suchen)**.
 
-## Verwenden Sie Dashboards, um Ihre Vertriebspipeline zu verwalten
+Diese Tools helfen Ihnen dabei, Lücken zu identifizieren, stockende Geschäfte hervorzuheben und Ihre tatsächlichen Verkäufe mit Ihren Zielen zu vergleichen - egal ob Sie einzeln oder in einer Gruppe arbeiten.
 
-Das [SuperOffice Dashboard][2] ermöglicht den schnellen Zugriff auf Kacheln, wie Diagramme, Berichte und Statistiken, die für Sie wichtig sind.
+## Ihre Pipeline mit Dashboards überwachen
 
-Wenn Sie ein [Dashboard erstellen][1], können Sie aus einer Vielzahl vordefinierter Kacheln auswählen. Klicken Sie auf eine Kachel, um detaillierte Diagrammdaten einzublenden.
-
-### Beispiele
-
-Die Kacheln **Meine Prognose** helfen Ihnen, auf dem Laufenden zu bleiben, indem sie Ihnen Ihre abgeschlossenen Verkäufe und Ihre offenen Verkäufe für den letzten Monat, diesen Monat und den kommenden Monat anzeigen.
+Dashboards geben Ihnen einen schnellen Überblick über wichtige Verkaufsdaten. Sie können Kacheln verwenden, um Ihre eigenen Fortschritte, Gruppenergebnisse oder spezifische Pipeline-Metriken zu verfolgen.
 
 ![Beispiel für die Kachel Meine Prognose -screenshot][img1]
 
-Die verschiedenen **Diagramm mit großen Zahlen** geben Ihnen einen Überblick über Ihre Pipeline mit tatsächlichen Verkaufszahlen und Verkaufswerten. Auf diese Weise kennen Sie immer den genauen Wert Ihrer Arbeit.
+Häufige Kacheltypen für Verkaufsprognosen umfassen:
 
-![Beispiel für ein Diagramm mit großen Zahlen -screenshot][img2]
+* **Meine Prognose im Vergleich zum Ziel diesen Monat/Quartal:** Visualisieren Sie Ihre tatsächlichen Fortschritte gegenüber festgelegten Zielen.
+* **Team-Prognose im Vergleich zum Ziel:** Überwachen Sie, wie Ihr Team im Vergleich zu ihren gemeinsamen Zielen abschneidet.
+* **Meine Pipeline nächste 3 Monate (tatsächlich oder gewichtet):** Sehen Sie bevorstehende Verkäufe, entweder mit vollen oder gewichteten Beträgen.
+* **Meine Prognose nach Verkaufstyp:** Gliedern Sie Ihre Prognose nach Kategorie oder Produktlinie.
+* **Größte offene oder verkaufte Verkäufe diesen Monat:** Identifizieren Sie hochwertige Geschäfte zum Priorisieren oder zur Leistungsanalyse.
+* **Gruppenprognose / Umsatz diesen Monat:** Verfolgen Sie gruppenbezogene Verkaufsaktivitäten und Fortschritte.
 
-Mit der Kachel **Größte anstehende Verkäufe** können Sie alle Ihre Verkäufe in der Reihenfolge ihres Wertes anzeigen, damit Sie Ihre Zeit entsprechend priorisieren können.
+Sie können jede Kachel anpassen, indem Sie Datumsbereiche und Filter festlegen und Ergebnisse mit Zielen vergleichen.
 
-![Beispiel für die Kachel Größte anstehende Verkäufe -screenshot][img3]
-
-Auf der Kachel **Mein Aktivitätstempo** können Sie Ihre Aktivitäten sortiert nach Typ anzeigen. Anhand der Daten können Sie feststellen, ob Sie zu viel oder zu wenig Zeit für bestimmte Aktivitäten aufwenden.
-
-![Beispiel für die Kachel Mein Aktivitätentempo -screenshot][img4]
-
-Die Kachel **Verkäufe seit Jahresbeginn für meine Gruppe** ist eine großartige Möglichkeit, um im Auge zu behalten, ob die Verkäufe Ihrer Teams steigen.
-
-![Beispiel für die Kachel Verkäufe seit Jahresbeginn für meine Gruppe -screenshot][img5]
-
-## Verwenden Sie Selektionen, um Verkäufe zu prognostizieren
+## Ihre Pipeline mit Selektionen analysieren
 
 Mit der [Suchfunktion][5] in SuperOffice CRM können Sie verschiedene Datentypen suchen und finden. Das bedeutet, dass Sie Suchen auch verwenden können, um Ihre Verkäufe zu prognostizieren. Mit der Suchfunktion können Sie die Daten aller Felder in Ihrem SuperOffice CRM herausfiltern.
 
@@ -79,21 +73,21 @@ Um zu veranschaulichen, wie Sie die Suchfunktion für Umsatzprognosen verwenden 
 
 7. Klicken Sie unten in der Anzeige auf Suchen, um alle Ihre offenen Verkaufschancen mit einem Wert von mehr als 5000 € anzuzeigen.
 
-Sie haben nun eine Liste mit allen offenen Verkäufen im Wert von über 5000 € erstellt, die in diesem Jahr getätigt wurden. Sie können diese Liste so verwenden oder Sie können diese Liste verwenden, um Ihr Ergebnis auf eine andere Art und Weise zu präsentieren. Sie können zum Beispiel Ihre [Liste mit einem Diagramm visualisieren][6] und zu [persönliches Verkaufs-Dashboard][7] hinzufügen.
+## Verwandte Inhalte
+
+* [Verkaufsziele in Dashboard-Kacheln visualisieren][7]
+* [Neuen Verkauf erstellen][1]
+* [Selektion als Diagramm anzeigen][6]
+* [Verwenden der Suchansicht][5]
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../dashboard/learn/index.md
 [5]: ../../search-options/learn/find-screen.md
 [6]: ../../search-options/selection/learn/howto/display-as-charts.md
-[7]:  ../../dashboard/learn/show-sales-targets.md
+[7]: ../../dashboard/learn/show-sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/sale/my-forecast.png
-[img2]: ../../../media/loc/en/sale/big-numbers.png
-[img3]: ../../../media/loc/en/sale/my-upcoming-sales.png
-[img4]: ../../../media/loc/en/sale/my-activity-pace.png
-[img5]: ../../../media/loc/en/sale/sales-ytd.png
-[img7]: ../../../media/loc/en/sale/typical-search.png
-[img8]: ../../../media/loc/en/sale/find-screen.png
-[img9]: ../../../media/loc/en/sale/add-search-criteria.png
+[img1]: ../../../media/loc/en/sale/forecasting.png
+[img7]: ../../../media/loc/en/search-options/typical-sale-searches.png
+[img8]: ../../../media/loc/en/search-options/find-screen.png
+[img9]: ../../../media/loc/en/search-options/find-sale.png
