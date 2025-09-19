@@ -2,11 +2,13 @@
 uid: help-no-dashboard-tile-sales-targets
 title: Bruke salgsmål i figurer
 description: Bruke dashbord og figurer til å sammenligne salgsmålene med det faktiske salget.
-keywords: dashbord, salg, mål, diagram
+keywords: dashbord, salgsmål, diagram
 author: SuperOffice Product and Engineering
-date: 03.25.2025
+date: 09.19.2025
 version: 10.5.3
 content_type: howto
+license: salespremium
+deployment: online
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
@@ -14,11 +16,11 @@ language: no
 
 # Bruke mål i figurer
 
-Hvis [salgsmål][4] er definert for firmaet, team/grupper og/eller selgere, kan du legge til disse målene i dashbordfigurene dine. Du vil da få en visuell presentasjon av dine salg og salgsmål.
+Når [salgsmål][4] er satt opp for firmaet ditt, team eller individuelle brukere, kan du legge til disse målene i dashbordfigurer. Dette lar deg sammenligne faktisk salg med mål direkte i visuelle diagrammer som målere, stolpediagrammer og store tall.
 
-For å kunne visualisere målene dine i et dashbord må du først legge til eller redigere figurene i dashbordet. Når du har valgt riktig figur, kan du redigere figurenes utseende og diagramtype.
+For å lære hvordan dashbord og utvalg kan hjelpe deg med å overvåke og forutsi salg, se [Forutsi salget ditt][8].
 
-![Velg Utseende-fanen, og velg deretter Sammenlign med mål i delen Gruppering -screenshot][img7]
+![Velg Utseende-fanen, og velg deretter Sammenlign med mål i delen Gruppering -screenshot][img1]
 
 ## Legge til figur med salgsmål i dashbordet
 
@@ -77,15 +79,14 @@ For å kunne visualisere målene dine i et dashbord må du først legge til elle
 
 Hvis du ser feltet Sammenlign med mål, men det er deaktivert, kan du holde musen over feltet for å se et verktøytips som forklarer hva du må endre for å aktivere og velge feltet.
 
-![Hold pekeren over feltet Sammenlign med mål for å vise et verktøytips -screenshot][img8]
-
 Hvis Sammenlign med mål ikke er synlig, må du kontrollere at du har valgt riktig diagramtype, og at du har brukt Salgsdato som kriterium i fanen Datasett.
 
-## Relatert
+## Relatert innhold
 
 * [Legge til nytt dashbord][5]
 * [Redigere eller opprette figurer][6]
 * [Definere salgsmål][7]
+* [Forutsi salget ditt][8]
 
 <!-- Referenced links -->
 [2]: ../../search-options/learn/search-criteria.md
@@ -94,7 +95,7 @@ Hvis Sammenlign med mål ikke er synlig, må du kontrollere at du har valgt rikt
 [5]: create.md
 [6]: working-with-tiles.md
 [7]: ../../sale/learn/sales-targets/create.md
+[8]: ../../sale/learn/forecasting.md
 
 <!-- Referenced images -->
-[img7]: ../../../media/loc/en/dashboard/user-dashboard-tile-comparetotarget.png
-[img8]: ../../../media/loc/en/dashboard/user-dashboard-tile-disabled-comparetotarget.png
+[img1]: ../../../media/loc/en/dashboard/team-forecast-vs-target.png

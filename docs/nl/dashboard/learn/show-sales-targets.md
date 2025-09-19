@@ -2,11 +2,13 @@
 uid: help-nl-dashboard-tile-sales-targets
 title: Verkooptargets gebruiken in tegels
 description: Gebruik dashboards en tegels om uw verkooptargets te vergelijken met uw werkelijke verkopen.
-keywords: dashboard, verkoop, target, Grafiek
+keywords: dashboard, verkooptarget, grafiek
 author: SuperOffice Product and Engineering
-date: 03.25.2025
+date: 09.19.2025
 version: 10.5.3
 content_type: howto
+license: salespremium
+deployment: online
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
@@ -14,11 +16,11 @@ language: nl
 
 # Targets gebruiken in tegels
 
-Als u [verkooptargets][4] hebt gedefinieerd voor uw bedrijf, teams/groepen en/of verkopers  kunt u deze targets toevoegen aan uw dashboardtegels. U krijgt dan een visuele presentatie van uw werkelijke verkopen en uw targets.
+Zodra [verkooptargets][4] zijn ingesteld voor uw bedrijf, teams of individuele gebruikers, kunt u deze targets toevoegen aan dashboardtegels. Hiermee kunt u werkelijke verkopen vergelijken met targets direct in visuele grafieken zoals meters, staafdiagrammen en grote getallen.
 
-Om uw targets in een dashboard te kunnen visualiseren, moet u eerst de tegels in het dashboard toevoegen of bewerken. Nadat u de juiste tegel hebt gekozen, kunt u de opmaak en het grafiektype van de tegels bewerken.
+Om te leren hoe dashboards en selecties u kunnen helpen bij het monitoren en voorspellen van verkopen, zie [Uw verkopen voorspellen][8].
 
-![Kies het tabblad Opmaak en selecteer Vergelijken met target in de sectie Groepering -screenshot][img7]
+![Kies het tabblad Opmaak en selecteer Vergelijken met target in de sectie Groepering -screenshot][img1]
 
 ## Een tegel met verkooptargets aan dashboard toevoegen
 
@@ -77,8 +79,6 @@ Om uw targets in een dashboard te kunnen visualiseren, moet u eerst de tegels in
 
 Als u het veld Vergelijken met target ziet, maar dit is uitgeschakeld, kunt u met uw muis over het veld bewegen om knopinfo te zien waarin wordt uitgelegd wat u moet wijzigen om het veld in te schakelen en te selecteren.
 
-![Plaats de muisaanwijzer op het veld Vergelijken met target om knopinfo weer te geven -screenshot][img8]
-
 Is Vergelijken met target helemaal niet zichtbaar, controleer dan of u het juiste grafiektype hebt geselecteerd en dat u de verkoopdatum als criteria hebt gebruikt op het tabblad Gegevensset.
 
 ## Gerelateerde inhoud
@@ -86,6 +86,7 @@ Is Vergelijken met target helemaal niet zichtbaar, controleer dan of u het juist
 * [Een nieuwe dashboard toevoegen][5]
 * [Tegels bewerken of maken][6]
 * [Verkooptargets instellen][7]
+* [Uw verkopen voorspellen][8]
 
 <!-- Referenced links -->
 [2]: ../../search-options/learn/search-criteria.md
@@ -94,7 +95,7 @@ Is Vergelijken met target helemaal niet zichtbaar, controleer dan of u het juist
 [5]: create.md
 [6]: working-with-tiles.md
 [7]: ../../sale/learn/sales-targets/create.md
+[8]: ../../sale/learn/forecasting.md
 
 <!-- Referenced images -->
-[img7]: ../../../media/loc/en/dashboard/user-dashboard-tile-comparetotarget.png
-[img8]: ../../../media/loc/en/dashboard/user-dashboard-tile-disabled-comparetotarget.png
+[img1]: ../../../media/loc/en/dashboard/team-forecast-vs-target.png

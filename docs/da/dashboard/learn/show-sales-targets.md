@@ -2,11 +2,13 @@
 uid: help-da-dashboard-tile-sales-targets
 title: Brug af salgsmål i ruder
 description: Brug dashboards og ruder til at sammenligne dine salgsmål med dit faktiske salg.
-keywords: dashboard, salg, mål, diagram
+keywords: dashboard, salgsmål, diagram
 author: SuperOffice Product and Engineering
-date: 03.25.2025
+date: 09.19.2025
 version: 10.5.3
 content_type: howto
+license: salespremium
+deployment: online
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
@@ -14,11 +16,11 @@ language: da
 
 # Brug af mål i ruder
 
-Hvis du har defineret [salgsmål][4] for dit firma, teams/grupper og/eller sælgere, kan du tilføje disse mål til din ruder i dashboard. Du får derefter en visuel præsentation af dit faktiske salg og dine mål.
+Når [salgsmål][4] er opsat for dit firma, teams eller individuelle brugere, kan du tilføje disse mål til dashboard-ruder. Dette giver dig mulighed for at sammenligne faktisk salg med mål direkte i visuelle diagrammer som målere, søjlediagrammer og store tal.
 
-For at kunne visualisere dine mål i et dashboard skal du først tilføje eller redigere ruderne i dashboardet. Når du har valgt den korrekte rude, kan du redigere rudernes layout og diagramtype.
+For at lære hvordan dashboards og udvalg kan hjælpe dig med at overvåge og forudsige salg, se [Forudsig dit salg][8].
 
-![Vælg fanen Layout, og vælg Sammenlign med mål i sektionen Gruppering -screenshot][img7]
+![Vælg fanen Layout, og vælg Sammenlign med mål i sektionen Gruppering -screenshot][img1]
 
 ## Tilføj rude med salgsmål til et dashboard
 
@@ -77,8 +79,6 @@ For at kunne visualisere dine mål i et dashboard skal du først tilføje eller 
 
 Hvis du ser feltet Sammenlign med mål, men det er deaktiveret, kan du holde musen over feltet for at se et værktøjstip, der forklarer, hvad du skal ændre for at aktivere og vælge feltet.
 
-![Hold markøren over feltet Sammenlign med mål for at se et værktøjstip -screenshot][img8]
-
 Er Sammenlign med mål slet ikke synlig, skal du kontrollere, at du har valgt den korrekte diagramtype, og at du har brugt salgsdatoen som kriterier under fanen Datasæt.
 
 ## Relateret indhold
@@ -86,6 +86,7 @@ Er Sammenlign med mål slet ikke synlig, skal du kontrollere, at du har valgt de
 * [Tilføj et nyt dashboard][5]
 * [Rediger eller opret felter][6]
 * [Opsæt salgsmål][7]
+* [Forudsig dit salg][8]
 
 <!-- Referenced links -->
 [2]: ../../search-options/learn/search-criteria.md
@@ -94,7 +95,7 @@ Er Sammenlign med mål slet ikke synlig, skal du kontrollere, at du har valgt de
 [5]: create.md
 [6]: working-with-tiles.md
 [7]: ../../sale/learn/sales-targets/create.md
+[8]: ../../sale/learn/forecasting.md
 
 <!-- Referenced images -->
-[img7]: ../../../media/loc/en/dashboard/user-dashboard-tile-comparetotarget.png
-[img8]: ../../../media/loc/en/dashboard/user-dashboard-tile-disabled-comparetotarget.png
+[img1]: ../../../media/loc/en/dashboard/team-forecast-vs-target.png

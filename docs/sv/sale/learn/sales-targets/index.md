@@ -2,10 +2,15 @@
 uid: help-sv-sales-targets
 title: Försäljningsmål
 description: Möjligheten att hålla koll på dina försäljningsmöjligheter är en av de viktigaste funktionerna i SuperOffice CRM. Med hjälp av vår funktion för försäljningsmål kan du jämföra din faktiska försäljning med dina mål.
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: försäljning
+keywords: försäljningsmål
+author: SuperOffice Product and Engineering
+date: 09.19.2025
+version: 10.5
 content_type: concept
+license: salespremium
+deployment: online
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
@@ -20,7 +25,7 @@ Möjligheten att hålla koll på dina försäljningsmöjligheter är en av de vi
 
 För att skapa korrekta prognoser måste företag jämföra sin faktiska försäljning med sina försäljningsmål. Ange försäljningsmål för att hålla koll på dina budgetar. Försäljningsmål kan anges per år för din organisation, grupper/team och användare, med månads- eller kvartalsintervall. I dashboarden kan du lägga till anpassade figurer för att visa budgetar och faktisk försäljning i samma diagram.
 
-Alla användare som får sina försäljningsresultat mätta, kan se status och framsteg för sitt försäljningsmål genom att konfigurera motsvarande [figurer på dashboarden][4]. Detta ger en omedelbar, levande bild av deras försäljningsresultat jämfört med de uppsatta försäljningsmålen och hjälper dem att fokusera på individuella och gemensamma mål.
+Alla användare som får sina försäljningsresultat mätta, kan se status och framsteg för sitt försäljningsmål genom att konfigurera motsvarande [figurer på dashboarden][2]. Detta ger en omedelbar, levande bild av deras försäljningsresultat jämfört med de uppsatta försäljningsmålen och hjälper dem att fokusera på individuella och gemensamma mål.
 
 ![Dialogrutan mål ger dig en översikt över försäljningsmålen -screenshot][img6]
 
@@ -40,17 +45,25 @@ Alla användare som får sina försäljningsresultat mätta, kan se status och f
 | Måttenhet | Det numeriska värdet för att mäta målet, till exempel Belopp, Antal eller Bruttovinst. |
 | Separata mål| Lägg till önskade listelement, vilket beror på listan som valts i måltypen. |
 
-## Licenser
+## Krav
+
+### Licenser
 
 Följande funktioner är endast tillgängliga med Sales Targets Unlimited-licensen utöver Sales Premium-licensen:
 
 * Lägga till ytterligare måltyper (dimensioner)
 * Skapa mål för flera grupper/team
-**Åtkomst**
+
+### Åtkomst
+
 Åtkomst till funktionen **Mål** ställs in av administratören i Inställningar och underhåll.
-**Databehörigheter**
+
+### Databehörigheter
+
 För att komma åt denna funktion behöver du ha databehörighet för **Mål**.
-**Funktionsbehörigheter**
+
+### Funktionsbehörigheter
+
 Endast användare med funktionsbehörigheten **Kan låsa och låsa upp mål** kan låsa och låsa upp mål.
 
 ## Relaterat innehåll
@@ -61,7 +74,6 @@ Endast användare med funktionsbehörigheten **Kan låsa och låsa upp mål** ka
 <!-- Referenced links -->
 [1]: ../../../dashboard/learn/index.md
 [2]: ../../../dashboard/learn/show-sales-targets.md
-[4]: https://community.superoffice.com/no/learning/best-practices-tips/sales/reach-your-sales-targets-with-dashboard-reports/
 
 <!-- Referenced images -->
-[img6]: ../../../../media/loc/en/sale/user-targets-salestargets-collapsed.png
+[img6]: ../../../../media/loc/en/sale/targets-dialog.png

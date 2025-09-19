@@ -2,10 +2,16 @@
 uid: help-da-sales-target-types
 title: Opret en salgsmåltype med undertyper
 description: Det kan være stressende at holde styr på dine salgsmål. Men hvis du definerer parametre og dimensioner for dine salgsmål, bliver det meget nemmere at holde styr på dine mål.
-author: SuperOffice RnD
-date: 02.16.2023
-keywords: salg
+keywords: salgsmål, dimension
+author: SuperOffice Product and Engineering
+date: 09.17.2025
+version: 10.5.2
 content_type: howto
+license: salespremium, Unlimited sales targets
+functional_right: Targets administrator
+deployment: online
+audience: person
+audience_tooltip: SuperOffice CRM
 language: da
 ---
 
@@ -13,39 +19,18 @@ language: da
 
 Det kan være stressende at holde styr på dine salgsmål. Men hvis du definerer parametre og dimensioner for dine salgsmål, bliver det meget nemmere at holde styr på dine mål.
 
-Du kan tilføje nye måltyper (dimensioner) ud over standardmåltypen **Alle salg – Beløb**.
+Som standard inkluderer SuperOffice én måltype: **Alle salg – Beløb**. Du kan tilføje brugerdefinerede måltyper baseret på salgsdata, firmaoplysninger eller brugerdefinerede felter.
+
+## Krav
+
+Du skal have den funktionelle ret **Targets administrator** for at tilføje, redigere eller slette måltyper.
 
 > [!NOTE]
-> Du skal bruge Sales Premium-licensen sammen med Unlimited Sales Target-licensen for at tilføje mere end én brugergruppe og måltype. Hvis du kun har Sales Premium-licens, kan du tilføje én gruppe for måltypen Alle salg – Beløb.
+> For at tilføje måltyper har du brug for Unlimited sales targets-licensen ud over Sales Premium-licensen.
 
-Du skal have den funktionsrettigheden Måladministrator for din rolle for at kunne tilføje, redigere og fjerne måltyper.
+## Tilgængelige måltyper
 
-## Angiv måltype
-
-For at definere parametrene og dimensionerne skal du først angive en måltype.
-
-Du kan angive en måltype for både brugere og grupper samt angive andre målparametre: Måltype, Måleenhed, Separate mål. Du kan også definere, om den kun skal være tilgængelig på firma- og gruppeniveau (og ikke på brugerniveau).
-
-![Oversigt over de forskellige måltyper og undertyper for et salgsmål -screenshot][img1]
-
-## Tilføj ny måltype
-
-1. Klik på **Tilføj ny måltype**. Eller klik på <i class="ph ph-gear" aria-label="Gear"></i> (**Konfigurer mål**) på fanen for at redigere en eksisterende måltype.
-
-2. Klik på **Måltype** for at vælge den måltype (dimension), du vil bruge.
-
-3. Klik på **Måleenhed** for at vælge den relevante enhed. De tilgængelige enheder afhænger af den valgte måltype. Hvis du har valgt **Kategori** som måltype, kan du f.eks. vælge at måle efter beløb eller antal (antal salg i en kategori).
-
-4. På den næste liste kan du vælge bestemte elementer af den måltype, du har valgt. Hvis du ikke vælger nogen, vil alle blive medtaget. Eksempel: Hvis du har valgt **Kategori** som måltype, kan du vælge de firmakategorier, du vil oprette mål for.
-
-5. Vælg **Kun tilgængelig på firmaniveau og koncernniveau**, hvis denne måltype ikke skal være tilgængelig på brugerniveau, kun på gruppe-/teamniveau og firmaniveau.
-
-6. Klik på **Gem**. Den nye måltype tilføjes som en fane. Du kan nu tilføje mål som beskrevet ovenfor.
-
-> [!NOTE]
-> Måltype og måleenhed ikke kan ændres i en eksisterende måltype. Alternativt kan du oprette en ny måltype med de nødvendige indstillinger og derefter slette den gamle.
-
-### Måltyper (parametre)
+En **måltype** definerer, hvad du vil måle. Du kan vælge mellem følgende systemdefinerede dimensioner:
 
 * Alle salg
 * Salgstype
@@ -56,44 +41,60 @@ Du kan angive en måltype for både brugere og grupper samt angive andre målpar
 * Firma, branche
 * Firma, land
 
-Du kan også angive mål for et hvilket som helst af dine egne brugerdefinerede felter, der indeholder lister. Når en måltype er valgt, er det ikke muligt at vælge denne type mål igen for at undgå at oprette dubletter.
+Du kan også bruge dine egne brugerdefinerede felter, hvis de indeholder listeværdier.
 
-### Måleenhed
+**Hver dimension kan kun bruges én gang for at forhindre dubletter.**
 
-Du kan måle et salg på forskellige måder. Vælg din foretrukne enhed afhængigt af, hvilke enheder dit firma bruger.
+## Tilføj en ny måltype
 
-* Beløb
-* Antal
-* Fortjeneste
+1. Klik på <i class="ph ph-list" aria-label="Hovedmenu"></i> og vælg **Mål**.
 
-### Separate undertyper af mål (dimensioner)
+1. I skærmbilledet **Mål** skal du klikke på **Tilføj ny måltype** for at definere en salgsdimension. Du kan også klikke på <i class="ph ph-gear" aria-label="Tandhjul"></i> (**Konfigurer mål**) på en eksisterende fane for at redigere den.
 
-Den tilgængelige liste afhænger af den valgte måltype. For eksempel:
+    ![Mål-skærmbillede med knappen Tilføj ny måltype -screenshot][img4]
 
-* Hvis måltypen er angivet til Salgstype, viser målundertyperne listen over salgstyper, der er defineret af dit firma.
-* Hvis måltypen er indstillet til Kilde, viser målundertyperne listen over salgskilder, der er defineret af dit firma.
+1. Klik på **Måltype** for at vælge den dimension, du vil spore, såsom **Salgskilde** eller **Firmakategori**.
 
-Nederst i dialogboksen er der et afkrydsningsfelt for Kun tilgængelig på firmaniveau og koncernniveau. Når du markerer dette afkrydsningsfelt, tilføjes måltypen kun på firma- og gruppeniveau, og de forskellige brugere vises ikke på din målliste.
+    ![Målindstillinger-dialog til oprettelse af en ny måltype -screenshot][img1]
 
-> [!NOTE]
-> Når du har gemt dit nye mål, kan du stadig gå til Indstillinger og ændre listen Separate mål og afkrydsningsfeltet for Kun tilgængelig på firmaniveau og gruppeniveau. Vær opmærksom på, at hvis du først vælger Kun tilgængelig på firmaniveau og gruppeniveau, efter at du har tilføjet tal på brugerniveauet, får du en advarsel om, at brugertallene slettes, når de gemmes.
+1. Klik på **Måleenhed** for at vælge, hvordan resultater beregnes:
 
-Når den nye måltype er gemt, er tiden inde til at [tilføje grupper og brugere til dit salgsmål][3].
+    * **Beløb:** Samlet værdi af salg
+    * **Antal:** Antal salg
+    * **Fortjeneste:** Fortjenstmargen
 
-![Du finder knappen Tilføj grupper og brugere i oversigten over salgsmål -screenshot][img2]
+    Valgmulighederne afhænger af den valgte måltype.
 
-## Filtrer måltyper
+1. Under **Separate mål** skal du vælge specifikke undertyper, der skal spores separat. Valgmulighederne afhænger af den valgte måltype.
 
-Når det kommer til måltyperne med målundertypelisten, kan du klikke på knappen Filtrer og filtrere de forskellige forekomster.
+    For eksempel, hvis måltypen er **Kategori**, er undertyperne dine firmakategorier.
 
-![Klik på knappen Filtrer for at filtrere efter målundertype -screenshot][img3]
+1. Vælg afkrydsningsfeltet **Kun tilgængelig på firmaniveau og gruppeniveau**, hvis denne måltype ikke skal være tilgængelig på brugerniveau.
 
-## Fjern måltyper
+1. Klik på **Gem**. Måltypen tilføjes som en fane. Du kan nu [tilføje grupper og brugere til dit salgsmål][3].
 
-For at slette en måltype skal du klikke på Målindstillinger og derefter klikke på knappen Slet. Husk, at sletning af en måltype er en handling, der ikke kan fortrydes, og denne handling vil slette alle data for måltypen på forrige, gældende og fremtidige år. Det er ikke muligt at slette standardmåltypen Alle salg – Beløb.
+## Fjern en måltype
+
+For at slette en måltype:
+
+1. Åbn **Målindstillinger** fra den relevante fane.
+2. Klik på **Slet**.
+
+> [!WARNING]
+> Sletning af en måltype fjerner permanent alle relaterede data for alle år - tidligere, nuværende og fremtidige. Du kan ikke slette standardtypen **Alle salg – Beløb**.
+
+## Tips og fejlfinding
+
+* Efter at have gemt kan måltypen og måleenheden ikke ændres. For at justere disse indstillinger skal du oprette en ny måltype og slette den gamle.
+
+* Du kan redigere listen **Separate mål** og afkrydsningsfeltet **Kun tilgængelig på firmaniveau og gruppeniveau** efter at have gemt.
+
+    > [!NOTE]
+    > Hvis du aktiverer firma/gruppe-kun tilgængelighed efter at have indtastet værdier på brugerniveau, vises en advarsel. Hvis du gemmer denne ændring, slettes målene på brugerniveau.
 
 ## Relateret indhold
 
+* [Tilføj grupper og brugere til dit salgsmål][3]
 * [Brug af salgsmål i dashboardruder][2]
 
 <!-- Referenced links -->
@@ -101,6 +102,5 @@ For at slette en måltype skal du klikke på Målindstillinger og derefter klikk
 [3]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/sale/user-targets-new-target-type.png
-[img2]: ../../../../media/loc/en/sale/user-targets-add-groups-users.png
-[img3]: ../../../../media/loc/en/sale/user-targets-filter-type.png
+[img1]: ../../../../media/loc/en/sale/target-settings.png
+[img4]: ../../../../media/loc/en/sale/add-new-target-type-button.png

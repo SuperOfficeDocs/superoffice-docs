@@ -2,10 +2,15 @@
 uid: help-nl-sales-targets
 title: Verkooptargets
 description: De mogelijkheid om uw verkoopkansen te volgen is een van de belangrijkste functionaliteiten in SuperOffice CRM. Met behulp van onze functies voor verkooptargets kunt u uw werkelijke verkopen vergelijken met uw targets.
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: verkoop
+keywords: verkooptargets
+author: SuperOffice Product and Engineering
+date: 09.17.2025
+version: 10.5.2
 content_type: concept
+license: salespremium
+deployment: online
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -20,7 +25,7 @@ De mogelijkheid om uw verkoopkansen te volgen is een van de belangrijkste functi
 
 Om nauwkeurige prognoses te maken, moeten bedrijven hun werkelijke omzet vergelijken met hun verkooptargets. Stel verkooptargets vast om uw budgetten te volgen. Verkooptargets kunnen per jaar worden vastgesteld voor uw organisatie, groepen/teams en gebruikers, met intervallen van een maand of een kwartaal. In het dashboard kunt u aangepaste tegels toevoegen om budgetten en werkelijke verkopen in hetzelfde diagram weer te geven.
 
-Alle gebruikers waarvan de verkoopprestaties worden bijgehouden, hebben toegang tot de status en voortgang van hun verkooptarget door overeenkomstige [tegels in het dashboard][4] in te stellen. Dit geeft een direct, live beeld van hun verkoopprestaties ten opzichte van de gestelde verkooptargets en helpt hen zich te concentreren op individuele en gemeenschappelijke targets.
+Alle gebruikers waarvan de verkoopprestaties worden bijgehouden, hebben toegang tot de status en voortgang van hun verkooptarget door overeenkomstige [tegels in het dashboard][2] in te stellen. Dit geeft een direct, live beeld van hun verkoopprestaties ten opzichte van de gestelde verkooptargets en helpt hen zich te concentreren op individuele en gemeenschappelijke targets.
 
 ![Het dialoogvenster Target geeft u een overzicht van de verkooptargets -screenshot][img6]
 
@@ -40,17 +45,25 @@ De toegang tot targets wordt ingesteld door uw beheerder in Instellingen en onde
 | Meeteenheid | De numerieke waarde om het doel te meten, zoals Bedrag, Aantal of Winst. |
 | Afzonderlijke targets| Voeg gewenste lijstelementen toe, dit is afhankelijk van de lijst die in het targettype is gekozen. |
 
-## Licenties
+## Vereisten
+
+### Licenties
 
 De volgende functies zijn alleen beschikbaar met de Sales Targets Unlimited-licentie naast de Sales Premium-licentie:
 
 * Extra targettypen (dimensies) toevoegen
 * Targets maken voor meerdere groepen/teams
-**Toegang**
+
+### Toegang
+
 Toegang tot de functie **Targets** wordt door uw beheerder ingesteld in Instellingen en onderhoud.
-**Gegevensrechten**
+
+### Gegevensrechten
+
 Voor toegang tot deze functie, hebt u gegevensrechten nodig voor **Targets**.
-**Functionele rechten**
+
+### Functionele rechten
+
 Alleen gebruikers met het functionele recht **Kan targets vergrendelen en ontgrendelen** kunnen targets vergrendelen en ontgrendelen.
 
 ## Gerelateerde inhoud
@@ -61,7 +74,6 @@ Alleen gebruikers met het functionele recht **Kan targets vergrendelen en ontgre
 <!-- Referenced links -->
 [1]: ../../../dashboard/learn/index.md
 [2]: ../../../dashboard/learn/show-sales-targets.md
-[4]: https://community.superoffice.com/no/learning/best-practices-tips/sales/reach-your-sales-targets-with-dashboard-reports/
 
 <!-- Referenced images -->
-[img6]: ../../../../media/loc/en/sale/user-targets-salestargets-collapsed.png
+[img6]: ../../../../media/loc/en/sale/targets-dialog.png

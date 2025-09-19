@@ -2,11 +2,13 @@
 uid: help-sv-dashboard-tile-sales-targets
 title: Använda försäljningsmål i paneler
 description: Använd dashboards och paneler för att jämföra dina försäljningsmål med din faktiska försäljning.
-keywords: dashboard, försäljning, mål, diagram
+keywords: dashboard, försäljningsmål, diagram
 author: SuperOffice Product and Engineering
-date: 03.25.2025
+date: 09.19.2025
 version: 10.5.3
 content_type: howto
+license: salespremium
+deployment: online
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
@@ -14,11 +16,11 @@ language: sv
 
 # Använda mål i paneler
 
-Om [försäljningsmål][4] har definierats för ditt företag, dina team/grupper och/eller dina säljare kan du lägga till dessa mål i dina dashboardpaneler. Du kommer då att få en visuell presentation av din faktiska försäljning och dina mål.
+När [försäljningsmål][4] har ställts in för ditt företag, team eller enskilda användare kan du lägga till dessa mål i dashboardpaneler. Detta låter dig jämföra faktisk försäljning med mål direkt i visuella diagram som mätare, stapeldiagram och stora siffror.
 
-För att du ska kunna visualisera dina mål i en panel måste du först lägga till eller redigera panelerna på dashboarden. När du har valt rätt panel kan du redigera panelens layout och diagramtyp.
+För att lära dig hur dashboards och urval kan hjälpa dig att övervaka och förutse försäljning, se [Prognostisera din försäljning][8].
 
-![Gå till fliken Layout och välj Jämför med mål i sektionen Gruppering -screenshot][img7]
+![Gå till fliken Layout och välj Jämför med mål i sektionen Gruppering -screenshot][img1]
 
 ## Lägg till panel med försäljningsmål på en dashboard
 
@@ -77,8 +79,6 @@ För att du ska kunna visualisera dina mål i en panel måste du först lägga t
 
 Om du ser fältet Jämför med mål, men det är inaktiverat, kan du hålla muspekaren över fältet så visas en hjälptext som förklarar vad du behöver ändra för att du ska kunna aktivera och välja fältet.
 
-![Håll muspekaren över fältet Jämför med mål om du vill se en hjälptext -screenshot][img8]
-
 Om alternativet Jämför med mål inte är synligt överhuvudtaget kontrollerar du att du har valt rätt diagramtyp och att du har använt Försäljningsdatum som villkor på fliken Dataset.
 
 ## Relaterat
@@ -86,6 +86,7 @@ Om alternativet Jämför med mål inte är synligt överhuvudtaget kontrollerar 
 * [Lägg till en ny dashboard][5]
 * [Redigera eller skapa paneler][6]
 * [Konfigurera försäljningsmål][7]
+* [Prognostisera din försäljning][8]
 
 <!-- Referenced links -->
 [2]: ../../search-options/learn/search-criteria.md
@@ -94,7 +95,7 @@ Om alternativet Jämför med mål inte är synligt överhuvudtaget kontrollerar 
 [5]: create.md
 [6]: working-with-tiles.md
 [7]: ../../sale/learn/sales-targets/create.md
+[8]: ../../sale/learn/forecasting.md
 
 <!-- Referenced images -->
-[img7]: ../../../media/loc/en/dashboard/user-dashboard-tile-comparetotarget.png
-[img8]: ../../../media/loc/en/dashboard/user-dashboard-tile-disabled-comparetotarget.png
+[img1]: ../../../media/loc/en/dashboard/team-forecast-vs-target.png

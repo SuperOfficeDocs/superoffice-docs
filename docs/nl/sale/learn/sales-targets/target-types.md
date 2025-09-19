@@ -2,10 +2,16 @@
 uid: help-nl-sales-target-types
 title: Een verkooptargettype met subtypen instellen
 description: Bovenop uw verkooptargets zitten kan stressvol zijn. Maar als u parameters en dimensies van uw verkooptargets definieert, wordt het beheren van uw doelen veel eenvoudiger.
-author: SuperOffice RnD
-date: 02.16.2023
-keywords: verkoop
+keywords: verkooptarget, dimensie
+author: SuperOffice Product and Engineering
+date: 09.19.2025
+version: 10.5
 content_type: howto
+license: salespremium, Unlimited sales targets
+functional_right: Targets administrator
+deployment: online
+audience: person
+audience_tooltip: SuperOffice CRM
 language: nl
 ---
 
@@ -13,39 +19,18 @@ language: nl
 
 Bovenop uw verkooptargets zitten kan stressvol zijn. Maar als u parameters en dimensies van uw verkooptargets definieert, wordt het beheren van uw doelen veel eenvoudiger.
 
-U kunt nieuwe targettypen (dimensies) toevoegen in aanvulling op het standaardtargettype **Alle verkopen - Bedrag**.
+Standaard bevat SuperOffice één targettype: **Alle verkopen – Bedrag**. U kunt aangepaste targettypen toevoegen op basis van verkoopdata, bedrijfsgegevens of door gebruiker gedefinieerde velden.
+
+## Vereisten
+
+U moet het functionele recht **Targets administrator** hebben om targettypen toe te voegen, te bewerken of te verwijderen.
 
 > [!NOTE]
-> U hebt een Sales Premium-licentie nodig samen met de licentie Unlimited sales targets om meer dan één gebruikersgroep en targettype toe te voegen. Als u alleen een Sales Premium-licentie hebt, kunt u één groep toevoegen voor het doeltype Alle verkopen - Bedrag.
+> Om targettypen toe te voegen, hebt u de Unlimited sales targets-licentie nodig naast de Sales Premium-licentie.
 
-U moet de functionele juiste targetbeheerder hebben voor uw rol om targettypen toe te voegen, bewerken en verwijderen.
+## Beschikbare targettypen
 
-## Targettype instellen
-
-Om de parameters en dimensies te definiëren, moet u eerst een targettype instellen.
-
-U kunt een targettype instellen voor zowel gebruikers als groepen naast andere targetparameters: Targettype, Meeteenheid, Afzonderlijke targets. U kunt ook definiëren of het alleen beschikbaar moet zijn op bedrijfs- en groepsniveau (en niet op gebruikersniveau).
-
-![Overzicht van de verschillende targettypen en subtypen voor een verkooptype -screenshot][img1]
-
-## Nieuw targettype toevoegen
-
-1. Klik op **Nieuw targettype toevoegen**. Of klik op <i class="ph ph-gear" aria-label="Gear"></i> (**Target configureren**) op het tabblad om een bestaand targettype te bewerken.
-
-2. Klik op **Targettype** om het targettype (dimensie) te selecteren dat u wilt gebruiken.
-
-3. Klik op **Meeteenheid** om de relevante eenheid te selecteren. De beschikbare eenheden zijn afhankelijk van het geselecteerde targettype. Als u **Categorie** als targettype hebt geselecteerd kunt u er bijvoorbeeld voor kiezen om te meten op basis van bedrag of aantal (aantal verkopen in een categorie).
-
-4. In de volgende lijst kunt u specifieke elementen van het geselecteerde doeltype selecteren. Als u er geen selecteert, wordt alles opgenomen. Bijvoorbeeld: Als u **Categorie** als targettype hebt geselecteerd, kunt u de bedrijfscategorieën selecteren waarvoor u targets wilt maken.
-
-5. Selecteer **Alleen beschikbaar op bedrijfsniveau en groepsniveau** als dit targettype niet beschikbaar mag zijn op gebruikersniveau, alleen op groeps-/teamniveau en bedrijfsniveau.
-
-6. Klik op **Opslaan**. Het nieuwe targettype wordt toegevoegd als een tabblad. U kunt nu targets toevoegen zoals hierboven beschreven.
-
-> [!NOTE]
-> Targettype en de meeteenheid niet kunnen worden gewijzigd in een bestaand targettype. U kunt ook een nieuw targettype maken met de vereiste instellingen en vervolgens het oude targettype verwijderen.
-
-### Targettypen (parameters)
+Een **targettype** definieert wat u wilt meten. U kunt kiezen uit de volgende systeem-gedefinieerde dimensies:
 
 * Alle verkopen
 * Verkooptype
@@ -56,51 +41,66 @@ U kunt een targettype instellen voor zowel gebruikers als groepen naast andere t
 * Bedrijfsbranche
 * Land van het bedrijf
 
-U kunt ook targets instellen voor uw eigen door de gebruiker gedefinieerde velden die lijsten bevatten. Nadat een targettype is geselecteerd, is het niet mogelijk om dat targettype opnieuw te selecteren om te voorkomen dat er duplicaten worden gemaakt.
+U kunt ook uw eigen door gebruiker gedefinieerde velden gebruiken, als ze lijstwaarden bevatten.
 
-### Meeteenheid
+**Elke dimensie kan slechts één keer worden gebruikt om duplicaten te voorkomen.**
 
-U kunt een verkoop op verschillende manieren meten. Kies uw voorkeurseenheid, afhankelijk van welke eenheden uw bedrijf gebruikt.
+## Een nieuw targettype toevoegen
 
-* Bedrag
-* Totaal
-* Winst
+1. Klik <i class="ph ph-list" aria-label="Hoofdmenu"></i> en selecteer **Targets**.
 
-### Afzonderlijke subtargets (dimensies)
+1. In het **Targets**-scherm, klik **Nieuw targettype toevoegen** om een aangepaste verkoopdimensie te definiëren. U kunt ook op <i class="ph ph-gear" aria-label="Tandwiel"></i> (**Target configureren**) op een bestaand tabblad klikken om het te bewerken.
 
-De lijst met beschikbare zijn afhankelijk van het geselecteerde targettype. Bijvoorbeeld:
+    ![Targets-scherm met knop Nieuw targettype toevoegen -screenshot][img4]
 
-* Als het targettype is ingesteld op Verkooptype, staan in de targetsubtypen de lijst met verkooptypen die door uw bedrijf zijn gedefinieerd.
-* Als het targettype is ingesteld op Bron, staan in de targetsubtypen de lijst met verkoopbronnen die door uw bedrijf zijn gedefinieerd.
+1. Klik **Targettype** om de dimensie te selecteren die u wilt volgen, zoals **Verkoopbron** of **Bedrijfscategorie**.
 
-Onderaan het dialoogvenster staat een selectievakje voor Alleen beschikbaar op bedrijfs- en groepsniveau. Wanneer u dit selectievakje inschakelt, wordt het targettype alleen toegevoegd op bedrijfs- en groepsniveau en verschijnen de verschillende gebruikers niet in uw targetlijst.
+    ![Targetinstellingen-dialoog voor het maken van een nieuw targettype -screenshot][img1]
 
-> [!NOTE]
-> Wanneer u uw nieuwe target hebt opgeslagen, kunt u nog steeds naar Instellingen gaan en de lijst Afzonderlijke targets en het selectievakje voor Alleen beschikbaar op bedrijfs- en groepsniveau wijzigen. Houd er rekening mee dat als u Alleen beschikbaar op bedrijfs- en groepsniveau selecteert nadat u getallen op gebruikersniveau hebt toegevoegd, u een waarschuwing krijgt dat de getallen van de gebruiker worden verwijderd wanneer ze worden opgeslagen.
+1. Klik **Meeteenheid** om te kiezen hoe resultaten worden berekend:
 
-Wanneer het nieuwe targettype is opgeslagen, is het tijd om[groepen en gebruikers toe te voegen aan uw verkoopdoel][3].
+    * **Bedrag:** Totale waarde van verkopen
+    * **Aantal:** Aantal verkopen
+    * **Winst:** Winstmarge
 
-![U vindt de knop Groepen en gebruikers toevoegen in het overzicht Verkooptargets -screenshot][img2]
+    De opties zijn afhankelijk van het geselecteerde targettype.
 
-## Targettypen filteren
+1. Onder **Aparte targets**, kies specifieke subtypes om apart te volgen. De opties zijn afhankelijk van het geselecteerde targettype.
 
-Als het gaat om de targettypen met de lijst met targetsubtypen, kunt u op de knop Filteren klikken en op de verschillende lijstitems filteren.
+    Bijvoorbeeld, als het targettype **Categorie** is, zijn de subtypes uw bedrijfscategorieën.
 
-![Klik op de filterknop om te filteren op targetsubtype -screenshot][img3]
+1. Selecteer het selectievakje **Alleen beschikbaar op bedrijfs- en groepsniveau** als dit targettype niet beschikbaar moet zijn op gebruikersniveau.
 
-## Targettypen verwijderen
+1. Klik **Opslaan**. Het targettype wordt toegevoegd als een tabblad. U kunt nu [groepen en gebruikers toevoegen aan uw verkooptarget][3].
 
-Als u een targettype wilt verwijderen, klikt u op de targetinstellingen en klikt u op de knop Verwijderen. Houd er rekening mee dat het verwijderen van een targettype een niet-omkeerbare actie is en dat alle gegevens voor het targettype in eerdere, huidige en toekomstige jaren worden verwijderd. Het standaard targettype Alle verkopen - Bedrag kan niet worden verwijderd.
+## Een targettype verwijderen
+
+Om een targettype te verwijderen:
+
+1. Open **Targetinstellingen** van het relevante tabblad.
+2. Klik **Verwijderen**.
+
+> [!WARNING]
+> Het verwijderen van een targettype verwijdert permanent alle gerelateerde gegevens voor alle jaren - vorige, huidige en toekomstige. U kunt het standaardtype **Alle verkopen – Bedrag** niet verwijderen.
+
+## Tips en probleemoplossing
+
+* Na het opslaan kunnen het targettype en de meeteenheid niet worden gewijzigd. Om deze instellingen aan te passen, maak een nieuw targettype aan en verwijder het oude.
+
+* U kunt de lijst **Aparte targets** en het selectievakje **Alleen beschikbaar op bedrijfs- en groepsniveau** na het opslaan bewerken.
+
+    > [!NOTE]
+    > Als u de beschikbaarheid alleen op bedrijfs-/groepsniveau inschakelt na het invoeren van waarden op gebruikersniveau, verschijnt er een waarschuwing. Het opslaan van deze wijziging zal de targets op gebruikersniveau verwijderen.
 
 ## Gerelateerde inhoud
 
-* [Verkooptargets gebruiken op dashboardtegels][2]
+* [Groepen en gebruikers toevoegen aan uw verkooptarget][3]
+* [Verkooptargets gebruiken in dashboard-tegels][2]
 
 <!-- Referenced links -->
 [2]: ../../../dashboard/learn/show-sales-targets.md
 [3]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/sale/user-targets-new-target-type.png
-[img2]: ../../../../media/loc/en/sale/user-targets-add-groups-users.png
-[img3]: ../../../../media/loc/en/sale/user-targets-filter-type.png
+[img1]: ../../../../media/loc/en/sale/target-settings.png
+[img4]: ../../../../media/loc/en/sale/add-new-target-type-button.png

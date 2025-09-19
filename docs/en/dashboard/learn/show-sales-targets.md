@@ -2,11 +2,13 @@
 uid: help-en-dashboard-tile-sales-targets
 title: Using sales targets in tiles
 description: Use dashboards and tiles to compare your sales targets to your actual sales.
-keywords: dashboard, sale, target, chart
+keywords: dashboard, sales target, chart
 author: SuperOffice Product and Engineering
-date: 03.25.2025
+date: 09.19.2025
 version: 10.5.3
 content_type: howto
+license: salespremium
+deployment: online
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
@@ -14,11 +16,11 @@ language: en
 
 # Using targets in tiles
 
-If [sales targets][4] are defined for your company, teams/groups and/or sales people, you can add these targets to your dashboard tiles. You will then get a visual presentation of your actual sales and your targets.
+Once [sales targets][4] are set up for your company, teams, or individual users, you can add those targets to dashboard tiles. This lets you compare actual sales with targets directly in visual charts like gauges, bar charts, and big numbers.
 
-To be able to visualize your targets in a dashboard, you first need to add or edit the tiles in the dashboard. After you have chosen the correct tile, you can edit the tiles' layout and chart type.
+To learn how dashboards and selections can help you monitor and forecast sales, see [Forecast your sales][8].
 
-![Choose the Layout tab and select Compare to target in the Grouping section -screenshot][img7]
+![Choose the Layout tab and select Compare to target in the Grouping section -screenshot][img1]
 
 ## Add tile with sales targets to dashboard
 
@@ -77,8 +79,6 @@ To be able to visualize your targets in a dashboard, you first need to add or ed
 
 If you see the field Compare to target, but it is disabled, you can hover your mouse over the field to see a tooltip that explains what you need to change to enable and select the field.
 
-![Hover over the Compare to target field to see a tooltip -screenshot][img8]
-
 Is the Compare to target not visible at all, make sure that you have selected the correct chart type and you have used the Sales date as criteria in the Dataset tab.
 
 ## Related content
@@ -86,6 +86,7 @@ Is the Compare to target not visible at all, make sure that you have selected th
 * [Add new dashboard][5]
 * [Edit or create tiles][6]
 * [Set up sales targets][7]
+* [Forecast your sales][8]
 
 <!-- Referenced links -->
 [2]: ../../search-options/learn/search-criteria.md
@@ -94,7 +95,7 @@ Is the Compare to target not visible at all, make sure that you have selected th
 [5]: create.md
 [6]: working-with-tiles.md
 [7]: ../../sale/learn/sales-targets/create.md
+[8]: ../../sale/learn/forecasting.md
 
 <!-- Referenced images -->
-[img7]: ../../../media/loc/en/dashboard/user-dashboard-tile-comparetotarget.png
-[img8]: ../../../media/loc/en/dashboard/user-dashboard-tile-disabled-comparetotarget.png
+[img1]: ../../../media/loc/en/dashboard/team-forecast-vs-target.png

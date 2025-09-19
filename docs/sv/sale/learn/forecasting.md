@@ -1,99 +1,93 @@
 ---
 uid: help-sv-sale-forecasting
-title: Övervaka din pipeline och skapa prognoser för försäljningen
-description: Hur du övervakar din försäljningspipeline och skapar prognoser för din försäljning med hjälp av dashboards och urval.
-keywords: försäljning
+title: Övervaka din pipeline och prognostisera försäljning
+description: Hur du övervakar din försäljningspipeline och prognostiserar din försäljning med hjälp av instrumentpaneler och urval.
+keywords: försäljning, prognos, pipeline
 author: Bergfrid Dias
-date: 05.12.2025
-version: 10.4
+date: 09.19.2025
+version: 10.5
 content_type: howto
+license: salesessentials
+audience: person
+audience_tooltip: SuperOffice CRM
 language: sv
 ---
 
-# Övervaka din pipeline och skapa prognoser för försäljningen
+# Övervaka din pipeline och prognostisera försäljning
 
-För att nå dina långsiktiga försäljningsmål är det viktigt att upprätthålla en hälsosam pipeline. Det hjälper dig att få en objektiv översikt över både individens och gruppens pipeline, så att du kan reagera snabbare, fylla luckorna och identifiera de affärer som kräver ytterligare resurser eller åtgärder.
+För att nå dina försäljningsmål är det viktigt att ha en hälsosam pipeline. SuperOffice CRM erbjuder två huvudmetoder för att prognostisera försäljning och följa upp resultat: **instrumentpanelsbrickor** och **urval (Sök)**.
 
-## Använd dashboards för att hantera din säljpipeline
+Dessa verktyg hjälper dig att identifiera luckor, lyfta fram stillastående affärer och jämföra din faktiska försäljning med dina mål – oavsett om du arbetar individuellt eller i grupp.
 
-med [SuperOffice Dashboard][2] får du snabb åtkomst till figurer, som diagram, rapporter och statistik, som är viktiga för dig.
+## Övervaka din pipeline med instrumentpaneler
 
-När du [skapar en dashboard][1], kan du välja mellan en lång rad olika fördefinierade figurer. Klicka på ett diagramfigur för att borra ner i diagramdata.
+Instrumentpaneler ger en snabb överblick över viktiga försäljningsdata. Du kan använda brickor för att följa upp din egen utveckling, gruppresultat eller specifika nyckeltal i pipelinen.
 
-### Exempel
+![Exempel på Min prognos-bricka -screenshot][img1]
 
-Figurerna **Min prognos** hjälper dig att hålla koll genom att visa dig avslutad försäljning och dina öppna försäljningar under föregående månad, innevarande månad och kommande månad.
+Vanliga brickor för försäljningsprognoser inkluderar:
 
-![Exempel på figuren Min prognos -screenshot][img1]
+* **Min prognos jämfört med mål denna månad/kvartal:** Visualisera faktisk utveckling mot satta mål.
+* **Grupprognos jämfört med mål:** Följ hur ditt team presterar mot sina gemensamma mål.
+* **Min pipeline kommande 3 månader (faktisk eller viktad):** Visa kommande affärer, antingen i fulla belopp eller viktade belopp.
+* **Min prognos efter försäljningstyp:** Bryt ner prognosen efter kategori eller produktlinje.
+* **Största öppna eller vunna affärer denna månad:** Identifiera högvärdesaffärer att prioritera eller analysera.
+* **Grupprognos / intäkter denna månad:** Följ försäljningsaktivitet och utveckling på gruppnivå.
 
-De olika figurerna **Stora siffror** ger dig en översikt över din pipeline med faktiska försäljningssiffror och försäljningsvärden. Så du kommer alltid att veta det exakta värdet på det du arbetar med.
+Du kan anpassa varje bricka genom att ställa in datumintervall, filter och jämföra resultat med mål.
 
-![Exempel på Stora siffror-figur -screenshot][img2]
+## Analysera din pipeline med urval
 
-Figuren **Största kommande försäljning** låter dig se alla dina försäljningar ordnade efter deras värde, vilket hjälper dig att prioritera och planera din tid.
-
-![Exempel på figur Största kommande försäljning -screenshot][img3]
-
-Med figuren **Mitt aktivitetstempo** kan du se dina aktiviteter ordnade efter typ. Uppgifterna hjälper dig att identifiera om du lägger för mycket eller för lite tid på vissa aktiviteter.
-
-![Exempel på figuren Mitt aktivitetstempo -screenshot][img4]
-
-Figuren **Försäljningar hittills i år för min grupp** är ett utmärkt sätt att hålla koll på om ditt teams försäljning växer.
-
-![Exempel på figuren Försäljningar hittills i år för min grupp -screenshot][img5]
-
-## Använd urval för att prognostisera försäljningen
-
-Med funktionen [Sök][5] i SuperOffice CRM kan du söka och hitta olika typer av data. Det innebär att du också kan använda sök för att skapa prognoser för din försäljning. Genom att använda funktionen sök kan du filtrera bort data för valfritt fält i SuperOffice CRM.
+[Funktionen Sök][5] i SuperOffice CRM låter dig söka och hitta olika typer av data. Det innebär att du också kan använda Sök för att prognostisera din försäljning. Med Sök kan du filtrera på data i vilket fält som helst i SuperOffice CRM.
 
 Exempel:
 
-* Jag vill att en lista över all försäljning över 5000 euro som ska slutföras nästa månad.
-* Jag vill ha en lista över alla mina uppskjutna försäljningar.
-* Jag vill ha en lista över alla försäljningsförslag som skickats under innevarande månad.
-* Jag vill ha en lista över alla kunder som har köpt en produkt som vi planerar att uppgradera.
+* Jag vill ha en lista över alla affärer över 5 000 € som ska avslutas nästa månad.
+* Jag vill ha en lista över alla mina stillastående affärer.
+* Jag vill ha en lista över alla offerter som skickats denna månad.
+* Jag vill ha en lista över kunder som har köpt en produkt vi planerar att uppgradera.
 
-För att komma igång innehåller sökskärmen några färdiga sökmallar, så kallade **vanliga sökningar**. Dessa sökningar inkluderar översikter som visar dina försäljningsmöjligheter och aktiviteter för den aktuella månaden, samt för de kommande månaderna. Det finns också ett urval av alla försäljningar som har glömts bort. Klicka på knappen **Sök** för att komma igång.
+För att komma igång innehåller Sök-skärmen några färdiga sökmallar, kallade **typiska sökningar**. Dessa inkluderar översikter som visar försäljningsmöjligheter och aktiviteter för innevarande månad, samt för kommande månader. Det finns också ett urval över glömda affärer. Klicka på **Sök**-knappen för att starta.
 
-![Med vanliga sökningar kan du välja från en lista med färdiga sökningar för att starta din sökning -screenshot][img7]
+![Typiska sökningar låter dig välja från en lista med färdiga sökningar -screenshot][img7]
 
 ### Exempel
 
-För att visa hur du kan använda sökfunktionen för försäljningsprognoser, är här ett exempel på hur du skapar en sökning för alla öppna försäljningar, gjorda i år, som är större än 5000 euro:
+För att visa hur du kan använda Sök-funktionen för försäljningsprognoser är här ett exempel på hur du skapar en sökning efter alla öppna affärer, gjorda i år, som är större än 5 000 €:
 
-1. Klicka på Hitta försäljning för att öppna en ny sökning relaterad till försäljning.
+1. Klicka på **Sök försäljning** för att öppna en ny sökning relaterad till försäljning.
 
-    ![Klicka på Hitta försäljning för att öppna en ny försäljningsrelaterad sökning -screenshot][img8]
+    ![Klicka på Sök försäljning för att öppna en ny sökning relaterad till försäljning -screenshot][img8]
 
-2. Här kan du ändra de fördefinierade fälten med ny inmatning, eller ta bort onödiga kriterier helt och hållet, eller klicka på knappen lägg till för att lägga till ett nytt sökkriterium.
+2. Här kan du ändra de fördefinierade fälten med ny input, ta bort onödiga kriterier eller klicka på **Lägg till**-knappen för att lägga till ett nytt sökkriterium.
 
-3. När du klickar på lägg till, visas en rullgardinsmeny. Välj försäljning i rullgardinsmenyn. Välj sedan fältet som heter belopp.
+3. När du klickar på **Lägg till** visas en rullgardinsmeny. Klicka på **Försäljning** i menyn och välj sedan fältet **Belopp**.
 
-4. Klicka på det andra fältet som för närvarande visar tecknet =. Välj tecknet >.
+4. Klicka på det andra fältet som för närvarande visar =-tecknet. Välj tecknet **>**.
 
-5. Lägg till det värde som måste uppfyllas. I det här fallet mer än 5000 euro. Klicka på det tredje fältet och ange 5000.
+5. Ange värdet som ska uppfyllas. I detta fall större än 5 000 €. Klicka i det tredje fältet och skriv in 5000.
 
-    ![Ändra de fördefinierade fälten med ny inmatning eller ta bort onödiga kriterier helt och hållet -screenshot][img9]
+    ![Ändra fördefinierade fält med ny input, eller ta bort onödiga kriterier -screenshot][img9]
 
-6. För att lägga till fler kriterier, upprepar du bara denna process.
+6. För att lägga till fler kriterier, upprepa processen.
 
-7. Tryck på sök längst ner på skärmen för att se alla dina öppna försäljningsmöjligheter med ett värde som är större än 5000 euro.
+7. Klicka på **Sök** längst ner på skärmen för att se alla öppna försäljningsmöjligheter med ett värde större än 5 000 €.
 
-Du har nu skapat en lista som innehåller all öppen försäljning värd över 5000 euro som gjorts i år. Du kan använda den här listan som den är, eller så kan du använda den här listan för att presentera ditt resultat på ett annat sätt. Du kan till exempel [visualisera din lista med ett diagram][6] och lägga till den i din [personliga försäljningsdashboard][7].
+## Relaterat innehåll
+
+* [Visualisera försäljningsmål i instrumentpanelsbrickor][7]
+* [Skapa en ny försäljning][1]
+* [Visa ett urval som ett diagram][6]
+* [Använda Sök-skärmen][5]
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: ../../dashboard/learn/index.md
 [5]: ../../search-options/learn/find-screen.md
 [6]: ../../search-options/selection/learn/howto/display-as-charts.md
-[7]:  ../../dashboard/learn/show-sales-targets.md
+[7]: ../../dashboard/learn/show-sales-targets.md
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/sale/my-forecast.png
-[img2]: ../../../media/loc/en/sale/big-numbers.png
-[img3]: ../../../media/loc/en/sale/my-upcoming-sales.png
-[img4]: ../../../media/loc/en/sale/my-activity-pace.png
-[img5]: ../../../media/loc/en/sale/sales-ytd.png
-[img7]: ../../../media/loc/en/sale/typical-search.png
-[img8]: ../../../media/loc/en/sale/find-screen.png
-[img9]: ../../../media/loc/en/sale/add-search-criteria.png
+[img1]: ../../../media/loc/en/sale/forecasting.png
+[img7]: ../../../media/loc/en/search-options/typical-sale-searches.png
+[img8]: ../../../media/loc/en/search-options/find-screen.png
+[img9]: ../../../media/loc/en/search-options/find-sale.png

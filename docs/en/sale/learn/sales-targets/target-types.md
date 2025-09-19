@@ -2,10 +2,16 @@
 uid: help-en-sales-target-types
 title: Set up a sale target type with sub-types
 description: Staying on top of your sales targets can be stressful. But if you define parameters and dimensions of your sales targets – managing your goals becomes much easier.
-author: SuperOffice RnD
-date: 02.16.2023
-keywords: sale
+keywords: sales target, dimension
+author: SuperOffice Product and Engineering
+date: 09.19.2025
+version: 10.5
 content_type: howto
+license: salespremium, Unlimited sales targets
+functional_right: Targets administrator
+deployment: online
+audience: person
+audience_tooltip: SuperOffice CRM
 language: en
 ---
 
@@ -13,39 +19,18 @@ language: en
 
 Staying on top of your sales targets can be stressful. But if you define parameters and dimensions of your sales targets – managing your goals becomes much easier.
 
-You can add new target types (dimensions) in addition to the default target type **All sales - Amount**.
+By default, SuperOffice includes one target type: **All sales – Amount**. You can add custom target types based on sales data, company details, or user-defined fields.
+
+## Requirements
+
+You must have the functional right **Targets administrator** to add, edit, or delete target types.
 
 > [!NOTE]
-> You will need Sales Premium license together with the Unlimited sales targets license to add more than one user group and target type. If you only have Sales Premium license you are able to add one group for the target type All sales - Amount.
+> To add target types, you need the Unlimited sales targets license in addition to the Sales Premium license.
 
-You need to have the functional right Targets administrator for your role to add, edit and remove target types.
+## Available target types
 
-## Set target type
-
-To define the parameters and dimensions you need to set up a target type, first.
-
-You can set up a target type for both users and groups, as well as set other target parameters: Target type, Measurement unit, Separate targets. You can also define if it only should be available on the company and group level (and not on the user level).
-
-![Overview of the different target types and sub-types for a sale target -screenshot][img1]
-
-## Add new target type
-
-1. Click **Add new target type**. Or click <i class="ph ph-gear" aria-label="Gear"></i> (**Configure target**) on the tab to edit an existing target type.
-
-2. Click **Target type** to select the target type (dimension) you want to use.
-
-3. Click **Measurement unit** to select the relevant unit. The available units will depend on the selected target type. If you selected **Category** as target type, you can for instance select to measure by amount or count (number of sales in a category).
-
-4. In the next list, you can select specific elements of the target type you have selected. If you do not select any, all will be included. Example: If you selected **Category** as target type, you can select the company categories for which you want to create targets.
-
-5. Select **Available on company level and group level only** if this target type should not be available on a user level, only for group/team level and company level.
-
-6. Click **Save**. The new target type is added as a tab. You can now add targets as described above.
-
-> [!NOTE]
-> Target type and measurement unit cannot be changed in an existing target type. You can alternatively create a new target type with the required settings, and then delete the old one.
-
-### Target types (parameters)
+A **target type** defines what you want to measure. You can choose from the following system-defined dimensions:
 
 * All sales
 * Sale type
@@ -56,44 +41,60 @@ You can set up a target type for both users and groups, as well as set other tar
 * Company business
 * Company country
 
-You can also set targets for any of your own user-defined fields that contain lists. After a target type is selected, it is not possible to select that type of target again, to avoid creating duplicates.
+You can also use your own user-defined fields, if they contain list values.
 
-### Measurement unit
+**Each dimension can only be used once to prevent duplicates.**
 
-You can measure a sale in different ways. Choose your preferred unit depending on what units your company use.
+## Add a new target type
 
-* Amount
-* Count
-* Profit
+1. Click <i class="ph ph-list" aria-label="Main menu"></i> and select **Targets**.
 
-### Separate targets sub-types (dimensions)
+1. In the **Targets** screen, click **Add new target type** to define a custom sales dimension. You can also click <i class="ph ph-gear" aria-label="Gear"></i> (**Configure target**) on an existing tab to edit it.
 
-The list available will depend on the target type selected. For example:
+    ![Targets screen with Add new target type button -screenshot][img4]
 
-* If the Target type is set to Sale type, the target sub-types will show the list for sale types defined by your company.
-* If the target type is set to Source, the target sub-types will show the list for sale sources defined by your company.
+1. Click **Target type** to select the dimension to track, such as **Sale source** or **Company category**.
 
-At the bottom of the dialogue is a checkbox for Available on company and group level only. When you mark this checkbox, the target type will only be added on the company and group level, and the different users will not appear in your target list.
+    ![Target settings dialog for creating a new target type -screenshot][img1]
 
-> [!NOTE]
-> When you have saved your new target, you can still go to Settings and change the Separate targets list and the checkbox for Available on company and group level only. Be aware that if you select Available on company and group level only after you have added numbers on the user level, you get a warning that the user numbers will be deleted when saved.
+1. Click **Measurement unit** to choose how results are calculated:
 
-When the new target type is saved, it is time to [add groups and users to your sales target][3].
+    * **Amount:** Total value of sales
+    * **Count:** Number of sales
+    * **Profit:** Profit margin
 
-![You will find the Add groups and users button in the Sales target overview -screenshot][img2]
+    The options depend on the selected target type.
 
-## Filter target types
+1. Under **Separate targets**, choose specific sub-types to track separately. The options depend on the selected target type.
 
-When it comes to the target types with the target sub-type list, you can click the Filter button and filter on the different list items.
+    For Example, if the target type is **Category**, the sub-types are your company categories.
 
-![Click the filter button to filter on target sub-type -screenshot][img3]
+1. Select the checkbox **Available on company level and group level only** if this target type should not be available at the user level.
 
-## Remove target types
+1. Click **Save**. The target type is added as a tab. You can now [add groups and users to your sales target][3].
 
-To delete a target type, click on the Target settings and click the Delete button. Please, keep in mind that deleting a target type is a non-reversible action, and it will delete all data for the target type on previous, current and future years. The default target type All sales - Amount is not possible to delete.
+## Remove a target type
 
-## Related topics
+To delete a target type:
 
+1. Open **Target settings** from the relevant tab.
+2. Click **Delete**.
+
+> [!WARNING]
+> Deleting a target type permanently removes all related data for all years - previous, current, and future. You cannot delete the default type **All sales – Amount**.
+
+## Tips and troubleshooting
+
+* After saving, the target type and measurement unit cannot be changed. To adjust these settings, create a new target type and delete the old one.
+
+* You can edit the **Separate targets** list and the **Available on company level and group level only** checkbox after saving.
+
+    > [!NOTE]
+    > If you enable company/group-only availability after entering values on the user level, a warning appears. Saving this change will delete the user-level targets.
+
+## Related content
+
+* [Add groups and users to your sales target][3]
 * [Using sales targets in dashboard tiles][2]
 
 <!-- Referenced links -->
@@ -101,6 +102,5 @@ To delete a target type, click on the Target settings and click the Delete butto
 [3]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/sale/user-targets-new-target-type.png
-[img2]: ../../../../media/loc/en/sale/user-targets-add-groups-users.png
-[img3]: ../../../../media/loc/en/sale/user-targets-filter-type.png
+[img1]: ../../../../media/loc/en/sale/target-settings.png
+[img4]: ../../../../media/loc/en/sale/add-new-target-type-button.png
