@@ -41,6 +41,7 @@ items:
   - SuperOffice.WebApi.Agents.UserAgent.GenerateNewPasswordForExternalUserAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.GetAccessGatewayInfoAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.GetAccessTokenAsync(System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.UserAgent.GetAllDataRightsAsync(System.Int32,SuperOffice.WebApi.Data.RoleRelationToOwner,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.GetAllFunctionalRightsAsync(SuperOffice.WebApi.Data.RoleType,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.GetAllRolesAsync(SuperOffice.WebApi.Data.RoleType,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.UserAgent.GetAllUserGroupsAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
@@ -1194,6 +1195,49 @@ items:
   overload: SuperOffice.WebApi.Agents.UserAgent.GetAllFunctionalRightsAsync*
   implements:
   - SuperOffice.WebApi.Agents.IUserAgent.GetAllFunctionalRightsAsync(SuperOffice.WebApi.Data.RoleType,SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.UserAgent.GetAllDataRightsAsync(System.Int32,SuperOffice.WebApi.Data.RoleRelationToOwner,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.UserAgent.GetAllDataRightsAsync(System.Int32,SuperOffice.WebApi.Data.RoleRelationToOwner,SuperOffice.WebApi.RequestOptions)
+  id: GetAllDataRightsAsync(System.Int32,SuperOffice.WebApi.Data.RoleRelationToOwner,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.UserAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAllDataRightsAsync(int, RoleRelationToOwner, RequestOptions)
+  nameWithType: UserAgent.GetAllDataRightsAsync(int, RoleRelationToOwner, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.UserAgent.GetAllDataRightsAsync(int, SuperOffice.WebApi.Data.RoleRelationToOwner, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: >-
+    Get a list of all data rights for the given role, filtered by relation to owner. MDO List name = 'DataRights', extra='roleType=0'.
+
+    <p></p>
+
+    <b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+  example: []
+  syntax:
+    content: public Task<StringDictionary> GetAllDataRightsAsync(int roleId, RoleRelationToOwner relationToOwner, RequestOptions requestOptions = null)
+    parameters:
+    - id: roleId
+      type: System.Int32
+      description: The role id to set the functional rights for
+    - id: relationToOwner
+      type: SuperOffice.WebApi.Data.RoleRelationToOwner
+      description: The id of the relation to owner
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}
+      description: The CRUD rights (C, CR, CRU, or CRUD) for each table related to the given role and relation to owner.
+    content.vb: Public Function GetAllDataRightsAsync(roleId As Integer, relationToOwner As RoleRelationToOwner, requestOptions As RequestOptions = Nothing) As Task(Of StringDictionary)
+  overload: SuperOffice.WebApi.Agents.UserAgent.GetAllDataRightsAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IUserAgent.GetAllDataRightsAsync(System.Int32,SuperOffice.WebApi.Data.RoleRelationToOwner,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: UserAgent.GetAllDataRightsAsync(Integer, RoleRelationToOwner, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.UserAgent.GetAllDataRightsAsync(Integer, SuperOffice.WebApi.Data.RoleRelationToOwner, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetAllDataRightsAsync(Integer, RoleRelationToOwner, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.UserAgent.GetFunctionalRightsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.UserAgent.GetFunctionalRightsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetFunctionalRightsAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -7245,6 +7289,113 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
   - name: )
+- uid: SuperOffice.WebApi.Agents.UserAgent.GetAllDataRightsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.UserAgent.GetAllDataRightsAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.UserAgent.html#SuperOffice_WebApi_Agents_UserAgent_GetAllDataRightsAsync_System_Int32_SuperOffice_WebApi_Data_RoleRelationToOwner_SuperOffice_WebApi_RequestOptions_
+  name: GetAllDataRightsAsync
+  nameWithType: UserAgent.GetAllDataRightsAsync
+  fullName: SuperOffice.WebApi.Agents.UserAgent.GetAllDataRightsAsync
+- uid: SuperOffice.WebApi.Agents.IUserAgent.GetAllDataRightsAsync(System.Int32,SuperOffice.WebApi.Data.RoleRelationToOwner,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IUserAgent.GetAllDataRightsAsync(System.Int32,SuperOffice.WebApi.Data.RoleRelationToOwner,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IUserAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IUserAgent.html#SuperOffice_WebApi_Agents_IUserAgent_GetAllDataRightsAsync_System_Int32_SuperOffice_WebApi_Data_RoleRelationToOwner_SuperOffice_WebApi_RequestOptions_
+  name: GetAllDataRightsAsync(int, RoleRelationToOwner, RequestOptions)
+  nameWithType: IUserAgent.GetAllDataRightsAsync(int, RoleRelationToOwner, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IUserAgent.GetAllDataRightsAsync(int, SuperOffice.WebApi.Data.RoleRelationToOwner, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IUserAgent.GetAllDataRightsAsync(Integer, RoleRelationToOwner, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IUserAgent.GetAllDataRightsAsync(Integer, SuperOffice.WebApi.Data.RoleRelationToOwner, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetAllDataRightsAsync(Integer, RoleRelationToOwner, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IUserAgent.GetAllDataRightsAsync(System.Int32,SuperOffice.WebApi.Data.RoleRelationToOwner,SuperOffice.WebApi.RequestOptions)
+    name: GetAllDataRightsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IUserAgent.html#SuperOffice_WebApi_Agents_IUserAgent_GetAllDataRightsAsync_System_Int32_SuperOffice_WebApi_Data_RoleRelationToOwner_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.RoleRelationToOwner
+    name: RoleRelationToOwner
+    isExternal: true
+    href: SuperOffice.WebApi.Data.RoleRelationToOwner.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IUserAgent.GetAllDataRightsAsync(System.Int32,SuperOffice.WebApi.Data.RoleRelationToOwner,SuperOffice.WebApi.RequestOptions)
+    name: GetAllDataRightsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IUserAgent.html#SuperOffice_WebApi_Agents_IUserAgent_GetAllDataRightsAsync_System_Int32_SuperOffice_WebApi_Data_RoleRelationToOwner_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.RoleRelationToOwner
+    name: RoleRelationToOwner
+    isExternal: true
+    href: SuperOffice.WebApi.Data.RoleRelationToOwner.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Data.RoleRelationToOwner
+  commentId: T:SuperOffice.WebApi.Data.RoleRelationToOwner
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.RoleRelationToOwner.html
+  name: RoleRelationToOwner
+  nameWithType: RoleRelationToOwner
+  fullName: SuperOffice.WebApi.Data.RoleRelationToOwner
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<StringDictionary>
+  nameWithType: Task<StringDictionary>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.StringDictionary>
+  nameWithType.vb: Task(Of StringDictionary)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.StringDictionary)
+  name.vb: Task(Of StringDictionary)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.StringDictionary
+    name: StringDictionary
+    isExternal: true
+    href: SuperOffice.WebApi.Data.StringDictionary.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.StringDictionary
+    name: StringDictionary
+    isExternal: true
+    href: SuperOffice.WebApi.Data.StringDictionary.html
+  - name: )
 - uid: SuperOffice.WebApi.Agents.UserAgent.GetFunctionalRightsAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.UserAgent.GetFunctionalRightsAsync
   isExternal: true
@@ -7476,14 +7627,6 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
   - name: )
-- uid: SuperOffice.WebApi.Data.RoleRelationToOwner
-  commentId: T:SuperOffice.WebApi.Data.RoleRelationToOwner
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  href: SuperOffice.WebApi.Data.RoleRelationToOwner.html
-  name: RoleRelationToOwner
-  nameWithType: RoleRelationToOwner
-  fullName: SuperOffice.WebApi.Data.RoleRelationToOwner
 - uid: SuperOffice.WebApi.Agents.UserAgent.GetDataRightAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.UserAgent.GetDataRightAsync
   isExternal: true
@@ -7658,41 +7801,6 @@ references:
     name: RequestOptions
     isExternal: true
     href: SuperOffice.WebApi.RequestOptions.html
-  - name: )
-- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.StringDictionary}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<StringDictionary>
-  nameWithType: Task<StringDictionary>
-  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.StringDictionary>
-  nameWithType.vb: Task(Of StringDictionary)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.StringDictionary)
-  name.vb: Task(Of StringDictionary)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.WebApi.Data.StringDictionary
-    name: StringDictionary
-    isExternal: true
-    href: SuperOffice.WebApi.Data.StringDictionary.html
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.WebApi.Data.StringDictionary
-    name: StringDictionary
-    isExternal: true
-    href: SuperOffice.WebApi.Data.StringDictionary.html
   - name: )
 - uid: SuperOffice.WebApi.Agents.UserAgent.CreateDefaultRoleEntityFromTypeAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.UserAgent.CreateDefaultRoleEntityFromTypeAsync

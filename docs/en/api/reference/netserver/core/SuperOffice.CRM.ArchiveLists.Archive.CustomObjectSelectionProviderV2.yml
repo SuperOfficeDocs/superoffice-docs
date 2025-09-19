@@ -39,7 +39,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
   inheritedMembers:
-  - SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionProviderBaseV2.GetCustomObjectSelectionMembersRowsAsync(System.Int32,System.String[],System.Threading.CancellationToken)
   - SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBaseV2.ColumnSelectionId
   - SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBaseV2._staticProvider
   - SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBaseV2._dynamicProvider
@@ -240,67 +239,6 @@ references:
   name: IArchiveProviderHasEntities
   nameWithType: IArchiveProviderHasEntities
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
-- uid: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionProviderBaseV2.GetCustomObjectSelectionMembersRowsAsync(System.Int32,System.String[],System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionProviderBaseV2.GetCustomObjectSelectionMembersRowsAsync(System.Int32,System.String[],System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionProviderBaseV2
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionProviderBaseV2.html#SuperOffice_CRM_ArchiveLists_Archive_CustomObjectSelectionProviderBaseV2_GetCustomObjectSelectionMembersRowsAsync_System_Int32_System_String___System_Threading_CancellationToken_
-  name: GetCustomObjectSelectionMembersRowsAsync(int, string[], CancellationToken)
-  nameWithType: CustomObjectSelectionProviderBaseV2.GetCustomObjectSelectionMembersRowsAsync(int, string[], CancellationToken)
-  fullName: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionProviderBaseV2.GetCustomObjectSelectionMembersRowsAsync(int, string[], System.Threading.CancellationToken)
-  nameWithType.vb: CustomObjectSelectionProviderBaseV2.GetCustomObjectSelectionMembersRowsAsync(Integer, String(), CancellationToken)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionProviderBaseV2.GetCustomObjectSelectionMembersRowsAsync(Integer, String(), System.Threading.CancellationToken)
-  name.vb: GetCustomObjectSelectionMembersRowsAsync(Integer, String(), CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionProviderBaseV2.GetCustomObjectSelectionMembersRowsAsync(System.Int32,System.String[],System.Threading.CancellationToken)
-    name: GetCustomObjectSelectionMembersRowsAsync
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionProviderBaseV2.html#SuperOffice_CRM_ArchiveLists_Archive_CustomObjectSelectionProviderBaseV2_GetCustomObjectSelectionMembersRowsAsync_System_Int32_System_String___System_Threading_CancellationToken_
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionProviderBaseV2.GetCustomObjectSelectionMembersRowsAsync(System.Int32,System.String[],System.Threading.CancellationToken)
-    name: GetCustomObjectSelectionMembersRowsAsync
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Archive.CustomObjectSelectionProviderBaseV2.html#SuperOffice_CRM_ArchiveLists_Archive_CustomObjectSelectionProviderBaseV2_GetCustomObjectSelectionMembersRowsAsync_System_Int32_System_String___System_Threading_CancellationToken_
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBaseV2.ColumnSelectionId
   commentId: F:SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBaseV2.ColumnSelectionId
   parent: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBaseV2

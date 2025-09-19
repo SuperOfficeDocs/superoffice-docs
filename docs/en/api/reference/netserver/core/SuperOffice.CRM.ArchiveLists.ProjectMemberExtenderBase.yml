@@ -18,6 +18,8 @@ items:
   - SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase._colPersonId
   - SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase._colPmId
   - SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase._colProjectId
+  - SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase._colRegistered
+  - SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase._colUpdated
   langs:
   - csharp
   - vb
@@ -55,6 +57,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.ProjectMemberTableInfo}.SetJoin
   - SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.ProjectMemberTableInfo}.GetRankRestriction(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.ProjectMemberTableInfo}.StyleHintPrefix
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.Visible
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.Invisible
@@ -290,6 +293,44 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colHasInfoText As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase._colRegistered
+  commentId: F:SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase._colRegistered
+  id: _colRegistered
+  parent: SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colRegistered
+  nameWithType: ProjectMemberExtenderBase._colRegistered
+  fullName: SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase._colRegistered
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colRegistered
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colRegistered As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase._colUpdated
+  commentId: F:SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase._colUpdated
+  id: _colUpdated
+  parent: SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colUpdated
+  nameWithType: ProjectMemberExtenderBase._colUpdated
+  fullName: SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase._colUpdated
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colUpdated
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colUpdated As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase.#ctor
   commentId: M:SuperOffice.CRM.ArchiveLists.ProjectMemberExtenderBase.#ctor
   id: '#ctor'
@@ -736,6 +777,14 @@ references:
   fullName: SuperOffice.CRM.ArchiveLists.ExtenderBase<SuperOffice.CRM.Data.ProjectMemberTableInfo>.StyleHintPrefix
   nameWithType.vb: ExtenderBase(Of ProjectMemberTableInfo).StyleHintPrefix
   fullName.vb: SuperOffice.CRM.ArchiveLists.ExtenderBase(Of SuperOffice.CRM.Data.ProjectMemberTableInfo).StyleHintPrefix
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
+  commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase__orderBy
+  name: _orderBy
+  nameWithType: ExtensibleColumnsBase._orderBy
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
   commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
   parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase

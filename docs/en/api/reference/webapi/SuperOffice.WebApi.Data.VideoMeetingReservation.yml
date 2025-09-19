@@ -24,17 +24,14 @@ items:
     VideoMeetingReservation - Create or delete a VideoMeetingReservation. The VideoMeetingReservation.MeetingId can be linked to an Appointment
   example: []
   syntax:
-    content: 'public class VideoMeetingReservation : Carrier'
-    content.vb: Public Class VideoMeetingReservation Inherits Carrier
+    content: public class VideoMeetingReservation
+    content.vb: Public Class VideoMeetingReservation
   seealso:
   - linkId: SuperOffice.WebApi.Agents.AppointmentAgent
     commentId: T:SuperOffice.WebApi.Agents.AppointmentAgent
   inheritance:
   - System.Object
-  - SuperOffice.WebApi.Data.Carrier
   inheritedMembers:
-  - SuperOffice.WebApi.Data.Carrier.TableRight
-  - SuperOffice.WebApi.Data.Carrier.FieldProperties
   - System.Object.ToString
   - System.Object.Equals(System.Object)
   - System.Object.Equals(System.Object,System.Object)
@@ -167,30 +164,6 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
-- uid: SuperOffice.WebApi.Data.Carrier
-  commentId: T:SuperOffice.WebApi.Data.Carrier
-  parent: SuperOffice.WebApi.Data
-  isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html
-  name: Carrier
-  nameWithType: Carrier
-  fullName: SuperOffice.WebApi.Data.Carrier
-- uid: SuperOffice.WebApi.Data.Carrier.TableRight
-  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
-  parent: SuperOffice.WebApi.Data.Carrier
-  isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
-  name: TableRight
-  nameWithType: Carrier.TableRight
-  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
-- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
-  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
-  parent: SuperOffice.WebApi.Data.Carrier
-  isExternal: true
-  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
-  name: FieldProperties
-  nameWithType: Carrier.FieldProperties
-  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object

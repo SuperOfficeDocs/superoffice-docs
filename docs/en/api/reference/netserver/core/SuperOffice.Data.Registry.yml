@@ -397,11 +397,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.4.0.0")]
 
       public enum Registry
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.4.0.0")>
 
       Public Enum Registry
   extensionMethods:
@@ -417,7 +417,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.3.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.4.0.0
 - uid: SuperOffice.Data.Registry.RegistryEntry_End
   commentId: F:SuperOffice.Data.Registry.RegistryEntry_End
   id: RegistryEntry_End

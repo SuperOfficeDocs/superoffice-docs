@@ -23,11 +23,11 @@ items:
   example: []
   syntax:
     content: >-
-      [CollectionDataContract(Name = "ColumnDataDictionary", ItemName = "ColumnDataKeyValuePair", KeyName = "Key", ValueName = "Value", Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")]
+      [CollectionDataContract(Name = "ColumnDataDictionary", ItemName = "ColumnDataKeyValuePair", KeyName = "Key", ValueName = "Value", Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.4.0.0")]
 
       public class ColumnDataDictionary : Dictionary<string, ArchiveColumnData>, IDictionary<string, ArchiveColumnData>, ICollection<KeyValuePair<string, ArchiveColumnData>>, IDictionary, ICollection, IReadOnlyDictionary<string, ArchiveColumnData>, IReadOnlyCollection<KeyValuePair<string, ArchiveColumnData>>, IEnumerable<KeyValuePair<string, ArchiveColumnData>>, IEnumerable, ISerializable, IDeserializationCallback
     content.vb: >-
-      <CollectionDataContract(Name:="ColumnDataDictionary", ItemName:="ColumnDataKeyValuePair", KeyName:="Key", ValueName:="Value", Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")>
+      <CollectionDataContract(Name:="ColumnDataDictionary", ItemName:="ColumnDataKeyValuePair", KeyName:="Key", ValueName:="Value", Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.4.0.0")>
 
       Public Class ColumnDataDictionary Inherits Dictionary(Of String, ArchiveColumnData) Implements IDictionary(Of String, ArchiveColumnData), ICollection(Of KeyValuePair(Of String, ArchiveColumnData)), IDictionary, ICollection, IReadOnlyDictionary(Of String, ArchiveColumnData), IReadOnlyCollection(Of KeyValuePair(Of String, ArchiveColumnData)), IEnumerable(Of KeyValuePair(Of String, ArchiveColumnData)), IEnumerable, ISerializable, IDeserializationCallback
   inheritance:
@@ -92,7 +92,7 @@ items:
       value: Value
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.3.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.4.0.0
 - uid: SuperOffice.CRM.Services.ColumnDataDictionary.#ctor
   commentId: M:SuperOffice.CRM.Services.ColumnDataDictionary.#ctor
   id: '#ctor'

@@ -9,6 +9,12 @@ items:
   - SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colCampaign
   - SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colContent
+  - SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colFirstTouchCampaign
+  - SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colFirstTouchContent
+  - SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colFirstTouchMedium
+  - SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colFirstTouchReferrerDomain
+  - SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colFirstTouchSource
+  - SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colFirstTouchTerm
   - SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colMedium
   - SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colReferrerDomain
   - SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colSource
@@ -58,6 +64,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.UtmParametersTableInfo}.SetJoin
   - SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.UtmParametersTableInfo}.GetRankRestriction(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.UtmParametersTableInfo}.StyleHintPrefix
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.Visible
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.Invisible
@@ -198,6 +205,120 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colUTMDataId As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colFirstTouchSource
+  commentId: F:SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colFirstTouchSource
+  id: _colFirstTouchSource
+  parent: SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colFirstTouchSource
+  nameWithType: UtmParametersExtenderBase._colFirstTouchSource
+  fullName: SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colFirstTouchSource
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colFirstTouchSource
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colFirstTouchSource As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colFirstTouchMedium
+  commentId: F:SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colFirstTouchMedium
+  id: _colFirstTouchMedium
+  parent: SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colFirstTouchMedium
+  nameWithType: UtmParametersExtenderBase._colFirstTouchMedium
+  fullName: SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colFirstTouchMedium
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colFirstTouchMedium
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colFirstTouchMedium As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colFirstTouchCampaign
+  commentId: F:SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colFirstTouchCampaign
+  id: _colFirstTouchCampaign
+  parent: SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colFirstTouchCampaign
+  nameWithType: UtmParametersExtenderBase._colFirstTouchCampaign
+  fullName: SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colFirstTouchCampaign
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colFirstTouchCampaign
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colFirstTouchCampaign As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colFirstTouchTerm
+  commentId: F:SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colFirstTouchTerm
+  id: _colFirstTouchTerm
+  parent: SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colFirstTouchTerm
+  nameWithType: UtmParametersExtenderBase._colFirstTouchTerm
+  fullName: SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colFirstTouchTerm
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colFirstTouchTerm
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colFirstTouchTerm As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colFirstTouchContent
+  commentId: F:SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colFirstTouchContent
+  id: _colFirstTouchContent
+  parent: SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colFirstTouchContent
+  nameWithType: UtmParametersExtenderBase._colFirstTouchContent
+  fullName: SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colFirstTouchContent
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colFirstTouchContent
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colFirstTouchContent As ArchiveColumnInfo
+- uid: SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colFirstTouchReferrerDomain
+  commentId: F:SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colFirstTouchReferrerDomain
+  id: _colFirstTouchReferrerDomain
+  parent: SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colFirstTouchReferrerDomain
+  nameWithType: UtmParametersExtenderBase._colFirstTouchReferrerDomain
+  fullName: SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colFirstTouchReferrerDomain
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colFirstTouchReferrerDomain
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colFirstTouchReferrerDomain As ArchiveColumnInfo
 - uid: SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colSource
   commentId: F:SuperOffice.CRM.ArchiveLists.UtmParametersExtenderBase._colSource
   id: _colSource
@@ -347,10 +468,7 @@ items:
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
-  summary: >-
-    Add/map return fields to the query; call SetJoin to obtain the contact table info instance from
-
-    the derived class
+  summary: ''
   example: []
   syntax:
     content: protected override void InnerModifyQuery()
@@ -686,6 +804,14 @@ references:
   fullName: SuperOffice.CRM.ArchiveLists.ExtenderBase<SuperOffice.CRM.Data.UtmParametersTableInfo>.StyleHintPrefix
   nameWithType.vb: ExtenderBase(Of UtmParametersTableInfo).StyleHintPrefix
   fullName.vb: SuperOffice.CRM.ArchiveLists.ExtenderBase(Of SuperOffice.CRM.Data.UtmParametersTableInfo).StyleHintPrefix
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
+  commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase__orderBy
+  name: _orderBy
+  nameWithType: ExtensibleColumnsBase._orderBy
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
   commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
   parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase

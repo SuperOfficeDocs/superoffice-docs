@@ -23,6 +23,7 @@ items:
   - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.RoleName
   - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.SectionName
   - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.SemanticVersion
+  - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.UserflowApiKey
   - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.UserflowToken
   - SuperOffice.Configuration.ConfigFile.OnlineConfiguration.Validate(System.ComponentModel.DataAnnotations.ValidationContext)
   langs:
@@ -487,6 +488,30 @@ items:
       type: System.String
     content.vb: Public Property AmplitudeApiKey As String
   overload: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.AmplitudeApiKey*
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.UserflowApiKey
+  commentId: P:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.UserflowApiKey
+  id: UserflowApiKey
+  parent: SuperOffice.Configuration.ConfigFile.OnlineConfiguration
+  langs:
+  - csharp
+  - vb
+  name: UserflowApiKey
+  nameWithType: ConfigFile.OnlineConfiguration.UserflowApiKey
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.UserflowApiKey
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Configuration
+  summary: Token to connect server-side to Userflow Prod or SOD environment
+  remarks: Required when EnableOnline is true
+  example: []
+  syntax:
+    content: public string UserflowApiKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property UserflowApiKey As String
+  overload: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.UserflowApiKey*
 - uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.UserflowToken
   commentId: P:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.UserflowToken
   id: UserflowToken
@@ -501,7 +526,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Configuration
-  summary: Token to connect to Userflow Prod or SOD environment
+  summary: Token to connect browser to Userflow Prod or SOD environment
   remarks: Required when EnableOnline is true
   example: []
   syntax:
@@ -1578,6 +1603,13 @@ references:
   name: AmplitudeApiKey
   nameWithType: ConfigFile.OnlineConfiguration.AmplitudeApiKey
   fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.AmplitudeApiKey
+- uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.UserflowApiKey*
+  commentId: Overload:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.UserflowApiKey
+  isExternal: true
+  href: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.html#SuperOffice_Configuration_ConfigFile_OnlineConfiguration_UserflowApiKey
+  name: UserflowApiKey
+  nameWithType: ConfigFile.OnlineConfiguration.UserflowApiKey
+  fullName: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.UserflowApiKey
 - uid: SuperOffice.Configuration.ConfigFile.OnlineConfiguration.UserflowToken*
   commentId: Overload:SuperOffice.Configuration.ConfigFile.OnlineConfiguration.UserflowToken
   isExternal: true

@@ -70,6 +70,7 @@ items:
   - SuperOffice.CRM.Lists.FormFolderProvider
   - SuperOffice.CRM.Lists.FunctionRightsListProvider
   - SuperOffice.CRM.Lists.KbEntryListProvider
+  - SuperOffice.CRM.Lists.LeadStatusListProvider
   - SuperOffice.CRM.Lists.LegalBaseListProvider
   - SuperOffice.CRM.Lists.MailingDomainsProvider
   - SuperOffice.CRM.Lists.MailingSubscriptionTypeProvider

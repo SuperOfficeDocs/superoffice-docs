@@ -39,6 +39,7 @@ items:
   - SuperOffice.CRM.Services.IUserAgent.GenerateNewPasswordForExternalUserAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IUserAgent.GetAccessGatewayInfoAsync(System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IUserAgent.GetAccessTokenAsync(System.String,System.Boolean,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.IUserAgent.GetAllDataRightsAsync(System.Int32,SuperOffice.CRM.Services.Util.RoleRelationToOwner,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IUserAgent.GetAllFunctionalRightsAsync(SuperOffice.Data.RoleType,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IUserAgent.GetAllRolesAsync(SuperOffice.Data.RoleType,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.IUserAgent.GetAllUserGroupsAsync(System.Boolean,System.Threading.CancellationToken)
@@ -733,6 +734,46 @@ items:
       description: FunctionRight items with name and description. Code name for function right is in the extra-info property.
     content.vb: Function GetAllFunctionalRightsAsync(roleType As RoleType, cancellationToken As CancellationToken = Nothing) As Task(Of SelectableMDOListItem())
   overload: SuperOffice.CRM.Services.IUserAgent.GetAllFunctionalRightsAsync*
+- uid: SuperOffice.CRM.Services.IUserAgent.GetAllDataRightsAsync(System.Int32,SuperOffice.CRM.Services.Util.RoleRelationToOwner,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.IUserAgent.GetAllDataRightsAsync(System.Int32,SuperOffice.CRM.Services.Util.RoleRelationToOwner,System.Threading.CancellationToken)
+  id: GetAllDataRightsAsync(System.Int32,SuperOffice.CRM.Services.Util.RoleRelationToOwner,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.IUserAgent
+  langs:
+  - csharp
+  - vb
+  name: GetAllDataRightsAsync(int, RoleRelationToOwner, CancellationToken)
+  nameWithType: IUserAgent.GetAllDataRightsAsync(int, RoleRelationToOwner, CancellationToken)
+  fullName: SuperOffice.CRM.Services.IUserAgent.GetAllDataRightsAsync(int, SuperOffice.CRM.Services.Util.RoleRelationToOwner, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: >-
+    Get a list of all data rights for the given role, filtered by relation to owner. MDO List name = 'DataRights', extra='roleType=0'.
+
+    <p></p>
+
+    <b>Online Restricted:</b> The User agent is not available in Online by default. User management is not allowed for partner apps.
+  example: []
+  syntax:
+    content: Task<StringDictionary> GetAllDataRightsAsync(int roleId, RoleRelationToOwner relationToOwner, CancellationToken cancellationToken = default)
+    parameters:
+    - id: roleId
+      type: System.Int32
+      description: The role id to set the functional rights for
+    - id: relationToOwner
+      type: SuperOffice.CRM.Services.Util.RoleRelationToOwner
+      description: The id of the relation to owner
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StringDictionary}
+      description: The CRUD rights (C, CR, CRU, or CRUD) for each table related to the given role and relation to owner.
+    content.vb: Function GetAllDataRightsAsync(roleId As Integer, relationToOwner As RoleRelationToOwner, cancellationToken As CancellationToken = Nothing) As Task(Of StringDictionary)
+  overload: SuperOffice.CRM.Services.IUserAgent.GetAllDataRightsAsync*
+  nameWithType.vb: IUserAgent.GetAllDataRightsAsync(Integer, RoleRelationToOwner, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.IUserAgent.GetAllDataRightsAsync(Integer, SuperOffice.CRM.Services.Util.RoleRelationToOwner, System.Threading.CancellationToken)
+  name.vb: GetAllDataRightsAsync(Integer, RoleRelationToOwner, CancellationToken)
 - uid: SuperOffice.CRM.Services.IUserAgent.GetFunctionalRightsAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.IUserAgent.GetFunctionalRightsAsync(System.Int32,System.Threading.CancellationToken)
   id: GetFunctionalRightsAsync(System.Int32,System.Threading.CancellationToken)
@@ -4322,50 +4363,13 @@ references:
   name: GetAllFunctionalRightsAsync
   nameWithType: IUserAgent.GetAllFunctionalRightsAsync
   fullName: SuperOffice.CRM.Services.IUserAgent.GetAllFunctionalRightsAsync
-- uid: SuperOffice.CRM.Services.IUserAgent.GetFunctionalRightsAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.GetFunctionalRightsAsync
+- uid: SuperOffice.CRM.Services.IUserAgent.GetAllDataRightsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.GetAllDataRightsAsync
   isExternal: true
-  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_GetFunctionalRightsAsync_System_Int32_System_Threading_CancellationToken_
-  name: GetFunctionalRightsAsync
-  nameWithType: IUserAgent.GetFunctionalRightsAsync
-  fullName: SuperOffice.CRM.Services.IUserAgent.GetFunctionalRightsAsync
-- uid: SuperOffice.CRM.Services.IUserAgent.SetFunctionalRightsAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.SetFunctionalRightsAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_SetFunctionalRightsAsync_System_Int32_System_Int32___System_Threading_CancellationToken_
-  name: SetFunctionalRightsAsync
-  nameWithType: IUserAgent.SetFunctionalRightsAsync
-  fullName: SuperOffice.CRM.Services.IUserAgent.SetFunctionalRightsAsync
-- uid: System.Int32[]
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.int32
-  name: int[]
-  nameWithType: int[]
-  fullName: int[]
-  nameWithType.vb: Integer()
-  fullName.vb: Integer()
-  name.vb: Integer()
-  spec.csharp:
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: '['
-  - name: ']'
-  spec.vb:
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: (
-  - name: )
-- uid: SuperOffice.CRM.Services.IUserAgent.SetDataRightAsync*
-  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.SetDataRightAsync
-  isExternal: true
-  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_SetDataRightAsync_System_Int32_System_String_SuperOffice_CRM_Services_Util_RoleRelationToOwner_System_String_System_Threading_CancellationToken_
-  name: SetDataRightAsync
-  nameWithType: IUserAgent.SetDataRightAsync
-  fullName: SuperOffice.CRM.Services.IUserAgent.SetDataRightAsync
+  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_GetAllDataRightsAsync_System_Int32_SuperOffice_CRM_Services_Util_RoleRelationToOwner_System_Threading_CancellationToken_
+  name: GetAllDataRightsAsync
+  nameWithType: IUserAgent.GetAllDataRightsAsync
+  fullName: SuperOffice.CRM.Services.IUserAgent.GetAllDataRightsAsync
 - uid: SuperOffice.CRM.Services.Util.RoleRelationToOwner
   commentId: T:SuperOffice.CRM.Services.Util.RoleRelationToOwner
   parent: SuperOffice.CRM.Services.Util
@@ -4374,6 +4378,39 @@ references:
   name: RoleRelationToOwner
   nameWithType: RoleRelationToOwner
   fullName: SuperOffice.CRM.Services.Util.RoleRelationToOwner
+- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StringDictionary}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.StringDictionary}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<StringDictionary>
+  nameWithType: Task<StringDictionary>
+  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.StringDictionary>
+  nameWithType.vb: Task(Of StringDictionary)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.StringDictionary)
+  name.vb: Task(Of StringDictionary)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.CRM.Services.StringDictionary
+    name: StringDictionary
+    isExternal: true
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Services.StringDictionary
+    name: StringDictionary
+    isExternal: true
+  - name: )
 - uid: SuperOffice.CRM.Services.Util
   commentId: N:SuperOffice.CRM.Services.Util
   isExternal: true
@@ -4421,6 +4458,50 @@ references:
     name: Util
     isExternal: true
     href: SuperOffice.CRM.Services.Util.html
+- uid: SuperOffice.CRM.Services.IUserAgent.GetFunctionalRightsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.GetFunctionalRightsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_GetFunctionalRightsAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetFunctionalRightsAsync
+  nameWithType: IUserAgent.GetFunctionalRightsAsync
+  fullName: SuperOffice.CRM.Services.IUserAgent.GetFunctionalRightsAsync
+- uid: SuperOffice.CRM.Services.IUserAgent.SetFunctionalRightsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.SetFunctionalRightsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_SetFunctionalRightsAsync_System_Int32_System_Int32___System_Threading_CancellationToken_
+  name: SetFunctionalRightsAsync
+  nameWithType: IUserAgent.SetFunctionalRightsAsync
+  fullName: SuperOffice.CRM.Services.IUserAgent.SetFunctionalRightsAsync
+- uid: System.Int32[]
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int[]
+  nameWithType: int[]
+  fullName: int[]
+  nameWithType.vb: Integer()
+  fullName.vb: Integer()
+  name.vb: Integer()
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+- uid: SuperOffice.CRM.Services.IUserAgent.SetDataRightAsync*
+  commentId: Overload:SuperOffice.CRM.Services.IUserAgent.SetDataRightAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.IUserAgent.html#SuperOffice_CRM_Services_IUserAgent_SetDataRightAsync_System_Int32_System_String_SuperOffice_CRM_Services_Util_RoleRelationToOwner_System_String_System_Threading_CancellationToken_
+  name: SetDataRightAsync
+  nameWithType: IUserAgent.SetDataRightAsync
+  fullName: SuperOffice.CRM.Services.IUserAgent.SetDataRightAsync
 - uid: SuperOffice.CRM.Services.IUserAgent.GetDataRightAsync*
   commentId: Overload:SuperOffice.CRM.Services.IUserAgent.GetDataRightAsync
   isExternal: true
@@ -4470,39 +4551,6 @@ references:
   name: GetDataRightsAsync
   nameWithType: IUserAgent.GetDataRightsAsync
   fullName: SuperOffice.CRM.Services.IUserAgent.GetDataRightsAsync
-- uid: System.Threading.Tasks.Task{SuperOffice.CRM.Services.StringDictionary}
-  commentId: T:System.Threading.Tasks.Task{SuperOffice.CRM.Services.StringDictionary}
-  parent: System.Threading.Tasks
-  definition: System.Threading.Tasks.Task`1
-  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  name: Task<StringDictionary>
-  nameWithType: Task<StringDictionary>
-  fullName: System.Threading.Tasks.Task<SuperOffice.CRM.Services.StringDictionary>
-  nameWithType.vb: Task(Of StringDictionary)
-  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.CRM.Services.StringDictionary)
-  name.vb: Task(Of StringDictionary)
-  spec.csharp:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: <
-  - uid: SuperOffice.CRM.Services.StringDictionary
-    name: StringDictionary
-    isExternal: true
-  - name: '>'
-  spec.vb:
-  - uid: System.Threading.Tasks.Task`1
-    name: Task
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: SuperOffice.CRM.Services.StringDictionary
-    name: StringDictionary
-    isExternal: true
-  - name: )
 - uid: SuperOffice.CRM.Services.IUserAgent.CreateDefaultRoleEntityFromTypeAsync*
   commentId: Overload:SuperOffice.CRM.Services.IUserAgent.CreateDefaultRoleEntityFromTypeAsync
   isExternal: true

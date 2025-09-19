@@ -56,6 +56,7 @@ items:
   - SuperOffice.CRM.Services.SelectionAgent.RemoveSelectionMembersByIdAsync(System.Int32,System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.SelectionAgent.RemoveSelectionMembersFromSearchAsync(System.Int32,System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.SelectionAgent.SaveBoardViewSettingsAsync(SuperOffice.CRM.Services.BoardViewSettingsBase,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Services.SelectionAgent.SaveBoardViewSettingsForSelectionAndAssociateAsync(SuperOffice.CRM.Services.BoardViewSettingsBase,System.Int32,System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.SelectionAgent.SaveSelectionEntityAsync(SuperOffice.CRM.Services.SelectionEntity,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.SelectionAgent.SetDuplicateRulesStatusAsync(SuperOffice.CRM.Services.DuplicateRule[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.SelectionAgent.SetDynamicSelectionCriteria2Async(System.Int32,System.String,System.Threading.CancellationToken)
@@ -253,7 +254,7 @@ items:
   assemblies:
   - SuperOffice.Services.Implementation
   namespace: SuperOffice.CRM.Services
-  summary: Get BoardViewSettings by selection id, associate id, and settings type
+  summary: Get BoardViewSettings by associate id and selection id
   example: []
   syntax:
     content: public Task<BoardViewSettingsBase> GetBoardViewSettingsForSelectionAsync(int associateId, int selectionId, CancellationToken cancellationToken = default)
@@ -309,6 +310,47 @@ items:
   overload: SuperOffice.CRM.Services.SelectionAgent.SaveBoardViewSettingsAsync*
   implements:
   - SuperOffice.CRM.Services.ISelectionAgent.SaveBoardViewSettingsAsync(SuperOffice.CRM.Services.BoardViewSettingsBase,System.Threading.CancellationToken)
+- uid: SuperOffice.CRM.Services.SelectionAgent.SaveBoardViewSettingsForSelectionAndAssociateAsync(SuperOffice.CRM.Services.BoardViewSettingsBase,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.SelectionAgent.SaveBoardViewSettingsForSelectionAndAssociateAsync(SuperOffice.CRM.Services.BoardViewSettingsBase,System.Int32,System.Int32,System.Threading.CancellationToken)
+  id: SaveBoardViewSettingsForSelectionAndAssociateAsync(SuperOffice.CRM.Services.BoardViewSettingsBase,System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.SelectionAgent
+  langs:
+  - csharp
+  - vb
+  name: SaveBoardViewSettingsForSelectionAndAssociateAsync(BoardViewSettingsBase, int, int, CancellationToken)
+  nameWithType: SelectionAgent.SaveBoardViewSettingsForSelectionAndAssociateAsync(BoardViewSettingsBase, int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.SelectionAgent.SaveBoardViewSettingsForSelectionAndAssociateAsync(SuperOffice.CRM.Services.BoardViewSettingsBase, int, int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services.Implementation
+  namespace: SuperOffice.CRM.Services
+  summary: Save BoardViewSettings on the given selection/associate
+  example: []
+  syntax:
+    content: public Task<BoardViewSettingsBase> SaveBoardViewSettingsForSelectionAndAssociateAsync(BoardViewSettingsBase boardViewSettings, int associateId, int selectionId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: boardViewSettings
+      type: SuperOffice.CRM.Services.BoardViewSettingsBase
+      description: Typed BoardViewSettings carrier object
+    - id: associateId
+      type: System.Int32
+      description: Id of associate
+    - id: selectionId
+      type: System.Int32
+      description: Id of selection
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+      description: This operation <b>cannot</b> be cancelled; the cancellationToken parameter is ignored
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Services.BoardViewSettingsBase}
+      description: The settings, of appropriate sub type
+    content.vb: Public Function SaveBoardViewSettingsForSelectionAndAssociateAsync(boardViewSettings As BoardViewSettingsBase, associateId As Integer, selectionId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of BoardViewSettingsBase)
+  overload: SuperOffice.CRM.Services.SelectionAgent.SaveBoardViewSettingsForSelectionAndAssociateAsync*
+  implements:
+  - SuperOffice.CRM.Services.ISelectionAgent.SaveBoardViewSettingsForSelectionAndAssociateAsync(SuperOffice.CRM.Services.BoardViewSettingsBase,System.Int32,System.Int32,System.Threading.CancellationToken)
+  nameWithType.vb: SelectionAgent.SaveBoardViewSettingsForSelectionAndAssociateAsync(BoardViewSettingsBase, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.SelectionAgent.SaveBoardViewSettingsForSelectionAndAssociateAsync(SuperOffice.CRM.Services.BoardViewSettingsBase, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: SaveBoardViewSettingsForSelectionAndAssociateAsync(BoardViewSettingsBase, Integer, Integer, CancellationToken)
 - uid: SuperOffice.CRM.Services.SelectionAgent.DeleteBoardViewSettingsAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.SelectionAgent.DeleteBoardViewSettingsAsync(System.Int32,System.Threading.CancellationToken)
   id: DeleteBoardViewSettingsAsync(System.Int32,System.Threading.CancellationToken)
@@ -3255,6 +3297,78 @@ references:
   name: BoardViewSettingsBase
   nameWithType: BoardViewSettingsBase
   fullName: SuperOffice.CRM.Services.BoardViewSettingsBase
+- uid: SuperOffice.CRM.Services.SelectionAgent.SaveBoardViewSettingsForSelectionAndAssociateAsync*
+  commentId: Overload:SuperOffice.CRM.Services.SelectionAgent.SaveBoardViewSettingsForSelectionAndAssociateAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.SelectionAgent.html#SuperOffice_CRM_Services_SelectionAgent_SaveBoardViewSettingsForSelectionAndAssociateAsync_SuperOffice_CRM_Services_BoardViewSettingsBase_System_Int32_System_Int32_System_Threading_CancellationToken_
+  name: SaveBoardViewSettingsForSelectionAndAssociateAsync
+  nameWithType: SelectionAgent.SaveBoardViewSettingsForSelectionAndAssociateAsync
+  fullName: SuperOffice.CRM.Services.SelectionAgent.SaveBoardViewSettingsForSelectionAndAssociateAsync
+- uid: SuperOffice.CRM.Services.ISelectionAgent.SaveBoardViewSettingsForSelectionAndAssociateAsync(SuperOffice.CRM.Services.BoardViewSettingsBase,System.Int32,System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ISelectionAgent.SaveBoardViewSettingsForSelectionAndAssociateAsync(SuperOffice.CRM.Services.BoardViewSettingsBase,System.Int32,System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ISelectionAgent
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: SaveBoardViewSettingsForSelectionAndAssociateAsync(BoardViewSettingsBase, int, int, CancellationToken)
+  nameWithType: ISelectionAgent.SaveBoardViewSettingsForSelectionAndAssociateAsync(BoardViewSettingsBase, int, int, CancellationToken)
+  fullName: SuperOffice.CRM.Services.ISelectionAgent.SaveBoardViewSettingsForSelectionAndAssociateAsync(SuperOffice.CRM.Services.BoardViewSettingsBase, int, int, System.Threading.CancellationToken)
+  nameWithType.vb: ISelectionAgent.SaveBoardViewSettingsForSelectionAndAssociateAsync(BoardViewSettingsBase, Integer, Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ISelectionAgent.SaveBoardViewSettingsForSelectionAndAssociateAsync(SuperOffice.CRM.Services.BoardViewSettingsBase, Integer, Integer, System.Threading.CancellationToken)
+  name.vb: SaveBoardViewSettingsForSelectionAndAssociateAsync(BoardViewSettingsBase, Integer, Integer, CancellationToken)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ISelectionAgent.SaveBoardViewSettingsForSelectionAndAssociateAsync(SuperOffice.CRM.Services.BoardViewSettingsBase,System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: SaveBoardViewSettingsForSelectionAndAssociateAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.BoardViewSettingsBase
+    name: BoardViewSettingsBase
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ISelectionAgent.SaveBoardViewSettingsForSelectionAndAssociateAsync(SuperOffice.CRM.Services.BoardViewSettingsBase,System.Int32,System.Int32,System.Threading.CancellationToken)
+    name: SaveBoardViewSettingsForSelectionAndAssociateAsync
+    isExternal: true
+  - name: (
+  - uid: SuperOffice.CRM.Services.BoardViewSettingsBase
+    name: BoardViewSettingsBase
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Threading.CancellationToken
+    name: CancellationToken
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  - name: )
 - uid: SuperOffice.CRM.Services.SelectionAgent.DeleteBoardViewSettingsAsync*
   commentId: Overload:SuperOffice.CRM.Services.SelectionAgent.DeleteBoardViewSettingsAsync
   isExternal: true

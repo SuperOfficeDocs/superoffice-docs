@@ -6,12 +6,9 @@ items:
   parent: SuperOffice.Security.Principal
   children:
   - SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.GetAccessTokenAsync(System.Security.Claims.ClaimsPrincipal,System.String,System.Boolean,System.Threading.CancellationToken)
-  - SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.GetGrantedLicensesAsString(System.Security.Claims.ClaimsPrincipal)
   - SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.GetLicense(System.Security.Claims.ClaimsPrincipal,System.String)
   - SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.GetPrincipalCarrier(System.Security.Claims.ClaimsPrincipal)
   - SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.GetSafeCredentials(System.Security.Claims.ClaimsPrincipal)
-  - SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.HasLicense(System.Security.Claims.ClaimsPrincipal,System.String)
-  - SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.HasLicense(System.Security.Claims.ClaimsPrincipal,System.String,System.String)
   langs:
   - csharp
   - vb
@@ -145,90 +142,6 @@ items:
   nameWithType.vb: SoDatabaseClaimsPrincipalExtensions.GetLicense(ClaimsPrincipal, String)
   fullName.vb: SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.GetLicense(System.Security.Claims.ClaimsPrincipal, String)
   name.vb: GetLicense(ClaimsPrincipal, String)
-- uid: SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.HasLicense(System.Security.Claims.ClaimsPrincipal,System.String,System.String)
-  commentId: M:SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.HasLicense(System.Security.Claims.ClaimsPrincipal,System.String,System.String)
-  id: HasLicense(System.Security.Claims.ClaimsPrincipal,System.String,System.String)
-  isExtensionMethod: true
-  parent: SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions
-  langs:
-  - csharp
-  - vb
-  name: HasLicense(ClaimsPrincipal, string, string)
-  nameWithType: SoDatabaseClaimsPrincipalExtensions.HasLicense(ClaimsPrincipal, string, string)
-  fullName: SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.HasLicense(System.Security.Claims.ClaimsPrincipal, string, string)
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Security.Principal
-  syntax:
-    content: public static bool HasLicense(this ClaimsPrincipal claimsPrincipal, string moduleOwner, string licenseName)
-    parameters:
-    - id: claimsPrincipal
-      type: System.Security.Claims.ClaimsPrincipal
-    - id: moduleOwner
-      type: System.String
-    - id: licenseName
-      type: System.String
-    return:
-      type: System.Boolean
-    content.vb: Public Shared Function HasLicense(claimsPrincipal As ClaimsPrincipal, moduleOwner As String, licenseName As String) As Boolean
-  overload: SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.HasLicense*
-  nameWithType.vb: SoDatabaseClaimsPrincipalExtensions.HasLicense(ClaimsPrincipal, String, String)
-  fullName.vb: SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.HasLicense(System.Security.Claims.ClaimsPrincipal, String, String)
-  name.vb: HasLicense(ClaimsPrincipal, String, String)
-- uid: SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.GetGrantedLicensesAsString(System.Security.Claims.ClaimsPrincipal)
-  commentId: M:SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.GetGrantedLicensesAsString(System.Security.Claims.ClaimsPrincipal)
-  id: GetGrantedLicensesAsString(System.Security.Claims.ClaimsPrincipal)
-  isExtensionMethod: true
-  parent: SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions
-  langs:
-  - csharp
-  - vb
-  name: GetGrantedLicensesAsString(ClaimsPrincipal)
-  nameWithType: SoDatabaseClaimsPrincipalExtensions.GetGrantedLicensesAsString(ClaimsPrincipal)
-  fullName: SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.GetGrantedLicensesAsString(System.Security.Claims.ClaimsPrincipal)
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Security.Principal
-  syntax:
-    content: public static string GetGrantedLicensesAsString(this ClaimsPrincipal claimsPrincipal)
-    parameters:
-    - id: claimsPrincipal
-      type: System.Security.Claims.ClaimsPrincipal
-    return:
-      type: System.String
-    content.vb: Public Shared Function GetGrantedLicensesAsString(claimsPrincipal As ClaimsPrincipal) As String
-  overload: SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.GetGrantedLicensesAsString*
-- uid: SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.HasLicense(System.Security.Claims.ClaimsPrincipal,System.String)
-  commentId: M:SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.HasLicense(System.Security.Claims.ClaimsPrincipal,System.String)
-  id: HasLicense(System.Security.Claims.ClaimsPrincipal,System.String)
-  isExtensionMethod: true
-  parent: SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions
-  langs:
-  - csharp
-  - vb
-  name: HasLicense(ClaimsPrincipal, string)
-  nameWithType: SoDatabaseClaimsPrincipalExtensions.HasLicense(ClaimsPrincipal, string)
-  fullName: SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.HasLicense(System.Security.Claims.ClaimsPrincipal, string)
-  type: Method
-  assemblies:
-  - SoDataBase
-  namespace: SuperOffice.Security.Principal
-  syntax:
-    content: public static bool HasLicense(this ClaimsPrincipal claimsPrincipal, string licenseName)
-    parameters:
-    - id: claimsPrincipal
-      type: System.Security.Claims.ClaimsPrincipal
-    - id: licenseName
-      type: System.String
-    return:
-      type: System.Boolean
-    content.vb: Public Shared Function HasLicense(claimsPrincipal As ClaimsPrincipal, licenseName As String) As Boolean
-  overload: SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.HasLicense*
-  nameWithType.vb: SoDatabaseClaimsPrincipalExtensions.HasLicense(ClaimsPrincipal, String)
-  fullName.vb: SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.HasLicense(System.Security.Claims.ClaimsPrincipal, String)
-  name.vb: HasLicense(ClaimsPrincipal, String)
 references:
 - uid: SuperOffice.Security.Principal
   commentId: N:SuperOffice.Security.Principal
@@ -795,17 +708,3 @@ references:
   name: GrantedModuleLicense
   nameWithType: GrantedModuleLicense
   fullName: SuperOffice.CRM.Services.GrantedModuleLicense
-- uid: SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.HasLicense*
-  commentId: Overload:SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.HasLicense
-  isExternal: true
-  href: SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.html#SuperOffice_Security_Principal_SoDatabaseClaimsPrincipalExtensions_HasLicense_System_Security_Claims_ClaimsPrincipal_System_String_System_String_
-  name: HasLicense
-  nameWithType: SoDatabaseClaimsPrincipalExtensions.HasLicense
-  fullName: SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.HasLicense
-- uid: SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.GetGrantedLicensesAsString*
-  commentId: Overload:SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.GetGrantedLicensesAsString
-  isExternal: true
-  href: SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.html#SuperOffice_Security_Principal_SoDatabaseClaimsPrincipalExtensions_GetGrantedLicensesAsString_System_Security_Claims_ClaimsPrincipal_
-  name: GetGrantedLicensesAsString
-  nameWithType: SoDatabaseClaimsPrincipalExtensions.GetGrantedLicensesAsString
-  fullName: SuperOffice.Security.Principal.SoDatabaseClaimsPrincipalExtensions.GetGrantedLicensesAsString

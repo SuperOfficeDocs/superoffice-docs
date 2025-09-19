@@ -62,6 +62,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.ScreenChooserTableInfo}.SetJoin
   - SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.ScreenChooserTableInfo}.GetRankRestriction(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.ScreenChooserTableInfo}.StyleHintPrefix
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.Visible
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.Invisible
@@ -940,6 +941,14 @@ references:
   fullName: SuperOffice.CRM.ArchiveLists.ExtenderBase<SuperOffice.CRM.Data.ScreenChooserTableInfo>.StyleHintPrefix
   nameWithType.vb: ExtenderBase(Of ScreenChooserTableInfo).StyleHintPrefix
   fullName.vb: SuperOffice.CRM.ArchiveLists.ExtenderBase(Of SuperOffice.CRM.Data.ScreenChooserTableInfo).StyleHintPrefix
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
+  commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase__orderBy
+  name: _orderBy
+  nameWithType: ExtensibleColumnsBase._orderBy
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
   commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
   parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase

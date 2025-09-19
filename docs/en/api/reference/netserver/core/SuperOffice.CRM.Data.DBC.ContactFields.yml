@@ -53,7 +53,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: Fields for Contact, Companies and Organizations.   This table features a special record containing information about the contact that owns the database.
+  summary: Fields for Contact, Companies and Organizations.
   example: []
   syntax:
     content: public static class DBC.ContactFields

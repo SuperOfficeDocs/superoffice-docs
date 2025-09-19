@@ -10,7 +10,7 @@ items:
   - SuperOffice.CRM.UserPreferenceStrings.SalesNotification.NotifyAppointmentChange
   - SuperOffice.CRM.UserPreferenceStrings.SalesNotification.NotifyAppointmentDecline
   - SuperOffice.CRM.UserPreferenceStrings.SalesNotification.NotifyAppointmentInvitation
-  - SuperOffice.CRM.UserPreferenceStrings.SalesNotification.NotifyCompanyAssignment
+  - SuperOffice.CRM.UserPreferenceStrings.SalesNotification.NotifyContactOwnership
   - SuperOffice.CRM.UserPreferenceStrings.SalesNotification.Section
   langs:
   - csharp
@@ -159,16 +159,16 @@ items:
     return:
       type: System.String
     content.vb: Public Const NotifyAppointmentAssociateRejected As String = "notifyAppointmentAssociateRejected"
-- uid: SuperOffice.CRM.UserPreferenceStrings.SalesNotification.NotifyCompanyAssignment
-  commentId: F:SuperOffice.CRM.UserPreferenceStrings.SalesNotification.NotifyCompanyAssignment
-  id: NotifyCompanyAssignment
+- uid: SuperOffice.CRM.UserPreferenceStrings.SalesNotification.NotifyContactOwnership
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.SalesNotification.NotifyContactOwnership
+  id: NotifyContactOwnership
   parent: SuperOffice.CRM.UserPreferenceStrings.SalesNotification
   langs:
   - csharp
   - vb
-  name: NotifyCompanyAssignment
-  nameWithType: UserPreferenceStrings.SalesNotification.NotifyCompanyAssignment
-  fullName: SuperOffice.CRM.UserPreferenceStrings.SalesNotification.NotifyCompanyAssignment
+  name: NotifyContactOwnership
+  nameWithType: UserPreferenceStrings.SalesNotification.NotifyContactOwnership
+  fullName: SuperOffice.CRM.UserPreferenceStrings.SalesNotification.NotifyContactOwnership
   type: Field
   assemblies:
   - SoCore
@@ -176,10 +176,10 @@ items:
   summary: (BOOL) Indicates if the user wants notifications when a contact is assigned to them.
   example: []
   syntax:
-    content: public const string NotifyCompanyAssignment = "notifyCompanyOwnership"
+    content: public const string NotifyContactOwnership = "notifyContactOwnership"
     return:
       type: System.String
-    content.vb: Public Const NotifyCompanyAssignment As String = "notifyCompanyOwnership"
+    content.vb: Public Const NotifyContactOwnership As String = "notifyContactOwnership"
 references:
 - uid: SuperOffice.CRM
   commentId: N:SuperOffice.CRM
