@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/User/GetCredentialTypesForUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,9 +97,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "aperiam",
-    "Type": "cum",
-    "Description": "Streamlined real-time system engine",
+    "DisplayType": "quis",
+    "Type": "voluptatem",
+    "Description": "Self-enabling object-oriented hardware",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
     "IsUserNameSupported": false,
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 26
+        "FieldType": "System.Int32",
+        "FieldLength": 92
       }
     }
   }

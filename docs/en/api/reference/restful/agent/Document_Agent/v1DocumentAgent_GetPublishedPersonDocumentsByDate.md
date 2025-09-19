@@ -99,15 +99,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 495,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2005-11-23T03:46:54.6132622+01:00",
-  "EndTime": "2004-03-21T03:46:54.6132622+01:00",
-  "Count": 67
+  "PersonId": 750,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2005-01-28T03:41:53.3713643+01:00",
+  "EndTime": "2010-03-09T03:41:53.3713643+01:00",
+  "Count": 645
 }
 ```
 
@@ -119,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 132,
-    "Attention": "sint",
-    "Header": "eos",
-    "Name": "Fay-Skiles",
-    "OurRef": "eaque",
-    "YourRef": "blanditiis",
-    "Description": "Vision-oriented 24 hour circuit",
-    "DocumentTemplate": "et",
+    "DocumentId": 352,
+    "Attention": "sequi",
+    "Header": "et",
+    "Name": "Price-McKenzie",
+    "OurRef": "eius",
+    "YourRef": "ad",
+    "Description": "Fundamental scalable secured line",
+    "DocumentTemplate": "deleniti",
     "IsPublished": false,
-    "PersonId": 592,
-    "PersonFullName": "Roosevelt Bartell",
-    "AssociateFullName": "Miss Colleen Reynold Casper II",
-    "ContactId": 553,
-    "ContactName": "Boyer Inc and Sons",
-    "ProjectId": 248,
-    "ProjectName": "Gulgowski, Herman and Morar",
-    "AssociateId": 443,
-    "Snum": 249,
-    "SaleId": 140,
-    "SaleName": "Lynch Inc and Sons",
+    "PersonId": 440,
+    "PersonFullName": "Maximillian Beier",
+    "AssociateFullName": "Mr. Bart Raven Leuschke Sr.",
+    "ContactId": 64,
+    "ContactName": "Toy-Hilpert",
+    "ProjectId": 552,
+    "ProjectName": "Kassulke-Altenwerth",
+    "AssociateId": 305,
+    "Snum": 353,
+    "SaleId": 676,
+    "SaleName": "Hettinger LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 935
+        "FieldLength": 894
       }
     }
   }

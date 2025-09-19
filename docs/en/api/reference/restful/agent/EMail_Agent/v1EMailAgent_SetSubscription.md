@@ -68,20 +68,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Pfeffer-Beer",
-      "Delimiter": "velit",
-      "Flags": "alias",
-      "TotalItems": 277,
-      "UnreadItems": 383,
-      "Subscribed": false,
-      "EmailFolderId": 22
+      "Name": "Ullrich, Rau and Balistreri",
+      "Delimiter": "fugit",
+      "Flags": "aut",
+      "TotalItems": 799,
+      "UnreadItems": 895,
+      "Subscribed": true,
+      "EmailFolderId": 474
     }
   ]
 }

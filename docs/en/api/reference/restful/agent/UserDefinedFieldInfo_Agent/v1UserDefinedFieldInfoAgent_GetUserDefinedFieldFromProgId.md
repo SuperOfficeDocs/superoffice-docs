@@ -110,11 +110,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "quis",
+  "ProgId": "voluptas",
   "OwnerType": "Appointment"
 }
 ```
@@ -126,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 132,
-  "ColumnId": 58,
-  "FieldDefault": "quo",
-  "FieldHeight": 900,
-  "FieldLabel": "reprehenderit",
-  "FieldLeft": 860,
-  "FieldTop": 150,
+  "UDefFieldId": 1001,
+  "ColumnId": 156,
+  "FieldDefault": "consequuntur",
+  "FieldHeight": 376,
+  "FieldLabel": "doloribus",
+  "FieldLeft": 978,
+  "FieldTop": 381,
   "FieldType": "Checkbox",
-  "FieldWidth": 547,
-  "FormatMask": "voluptates",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 17,
-  "LabelLeft": 506,
-  "LabelTop": 235,
-  "LabelWidth": 194,
-  "LastVersionId": 473,
-  "ListTableId": 611,
+  "FieldWidth": 315,
+  "FormatMask": "autem",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 824,
+  "LabelLeft": 570,
+  "LabelTop": 773,
+  "LabelWidth": 695,
+  "LastVersionId": 723,
+  "ListTableId": 234,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 102,
-  "ProgId": "ducimus",
+  "Page1LineNo": 22,
+  "ProgId": "aut",
   "IsReadOnly": false,
-  "ShortLabel": "quo",
-  "TabOrder": 765,
-  "TextLength": 456,
-  "Tooltip": "qui",
-  "UdefIdentity": 380,
-  "UDListDefinitionId": 549,
+  "ShortLabel": "repellendus",
+  "TabOrder": 495,
+  "TextLength": 223,
+  "Tooltip": "eveniet",
+  "UdefIdentity": 261,
+  "UDListDefinitionId": 114,
   "Justification": "Center",
-  "Version": 438,
-  "TemplateVariableName": "Conroy Inc and Sons",
+  "Version": 982,
+  "TemplateVariableName": "Weissnat-Marquardt",
   "HasBeenPublished": false,
-  "MdoListName": "Rempel-Torphy",
+  "MdoListName": "Moen Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 458
+      "FieldType": "System.String",
+      "FieldLength": 105
     }
   }
 }

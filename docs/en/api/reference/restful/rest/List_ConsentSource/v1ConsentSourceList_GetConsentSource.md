@@ -69,7 +69,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,19 +79,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 98,
-  "Name": "Hudson-Bradtke",
-  "Tooltip": "dicta",
-  "Rank": 686,
-  "Key": "sed",
-  "MailTemplateId": 66,
-  "Deleted": false,
+  "ConsentSourceId": 269,
+  "Name": "Lowe, Hauck and Heidenreich",
+  "Tooltip": "recusandae",
+  "Rank": 359,
+  "Key": "ipsam",
+  "MailTemplateId": 762,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 448
+      "FieldLength": 403
     }
   }
 }

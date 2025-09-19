@@ -78,26 +78,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Moen, Anderson and Crist",
-    "StepNumber": 605,
+    "Name": "Kuvalis Inc and Sons",
+    "StepNumber": 631,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldLength": 694
       }
     }
   },
   {
-    "Name": "Moen, Anderson and Crist",
-    "StepNumber": 605,
+    "Name": "Kuvalis Inc and Sons",
+    "StepNumber": 631,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldLength": 694
       }
     }
   }

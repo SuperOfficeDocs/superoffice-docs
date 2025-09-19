@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,29 +72,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 48,
-  "Name": "Klocko-Smith",
-  "CreatedDate": "2016-10-13T03:46:54.8320045+02:00",
-  "UpdatedDate": "2006-08-24T03:46:54.8320045+02:00",
+  "ForeignAppId": 832,
+  "Name": "Emard, Lubowitz and Mosciski",
+  "CreatedDate": "2008-10-30T03:41:53.5744803+01:00",
+  "UpdatedDate": "2011-04-03T03:41:53.5744803+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 263,
-      "Name": "Quigley-O'Reilly",
-      "CreatedDate": "1999-02-14T03:46:54.8320045+01:00",
-      "UpdatedDate": "2010-07-08T03:46:54.8320045+02:00",
-      "AssociateFullName": "Dr. Caroline Justice Bahringer Sr.",
-      "CreatedBy": "non",
-      "UpdatedBy": "eligendi",
-      "DeviceIdentifier": "tenetur",
-      "ForeignAppId": 384,
+      "ForeignDeviceId": 906,
+      "Name": "O'Conner-Littel",
+      "CreatedDate": "2001-11-17T03:41:53.5744803+01:00",
+      "UpdatedDate": "2002-04-09T03:41:53.5744803+02:00",
+      "AssociateFullName": "Pietro Jewess",
+      "CreatedBy": "soluta",
+      "UpdatedBy": "beatae",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 427,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 236
+          "FieldLength": 116
         }
       }
     }
@@ -104,7 +104,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 623
+      "FieldLength": 381
     }
   }
 }

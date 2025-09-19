@@ -27,7 +27,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=736
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=952
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -111,88 +111,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 950,
+  "DocumentId": 812,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "adipisci",
-  "Header": "saepe",
-  "Name": "Vandervort Group",
-  "OurRef": "doloremque",
-  "YourRef": "totam",
-  "CreatedDate": "2021-10-08T03:46:54.6445112+02:00",
-  "UpdatedDate": "2013-04-11T03:46:54.6445112+02:00",
-  "Description": "Implemented object-oriented moderator",
+  "Attention": "voluptas",
+  "Header": "magnam",
+  "Name": "Willms-Durgan",
+  "OurRef": "voluptatem",
+  "YourRef": "non",
+  "CreatedDate": "2002-09-01T03:41:53.402614+02:00",
+  "UpdatedDate": "2024-05-17T03:41:53.402614+02:00",
+  "Description": "Open-source exuding local area network",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2022-04-09T03:46:54.6445112+02:00",
-  "ExternalRef": "consequuntur",
+  "Date": "2024-07-01T03:41:53.402614+02:00",
+  "ExternalRef": "aut",
   "Completed": "Completed",
-  "ActiveLinks": 426,
+  "ActiveLinks": 975,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Ferry, Bernhard and Treutel",
-      "Id": 30,
-      "Description": "Business-focused value-added productivity",
-      "ExtraInfo": "quo",
-      "LinkId": 558,
+      "EntityName": "Kuvalis, Luettgen and Bauch",
+      "Id": 977,
+      "Description": "Synergistic 6th generation product",
+      "ExtraInfo": "qui",
+      "LinkId": 878,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 782
+          "FieldLength": 160
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 119,
-  "Snum": 317,
+  "SuggestedDocumentId": 7,
+  "Snum": 1000,
   "UserDefinedFields": {
-    "SuperOffice:1": "Maryjane Jeff Jast III",
-    "SuperOffice:2": "Vincenza Cleve Walker III"
+    "SuperOffice:1": "Gilda Marks",
+    "SuperOffice:2": "Samantha Barrows"
   },
   "ExtraFields": {
-    "ExtraFields1": "quas",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "delectus",
+    "ExtraFields2": "dolor"
   },
   "CustomFields": {
-    "CustomFields1": "amet",
-    "CustomFields2": "enim"
+    "CustomFields1": "id",
+    "CustomFields2": "nam"
   },
-  "PublishEventDate": "2018-01-05T03:46:54.6445112+01:00",
-  "PublishTo": "2009-04-05T03:46:54.6445112+02:00",
-  "PublishFrom": "2004-05-18T03:46:54.6445112+02:00",
+  "PublishEventDate": "2004-11-03T03:41:53.402614+01:00",
+  "PublishTo": "2021-09-29T03:41:53.402614+02:00",
+  "PublishFrom": "2011-08-02T03:41:53.402614+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 468,
+      "VisibleId": 728,
       "Visibility": "All",
-      "DisplayValue": "excepturi",
+      "DisplayValue": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 272
+          "FieldLength": 342
         }
       }
     },
     {
-      "VisibleId": 468,
+      "VisibleId": 728,
       "Visibility": "All",
-      "DisplayValue": "excepturi",
+      "DisplayValue": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 272
+          "FieldLength": 342
         }
       }
     }
@@ -202,7 +202,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 389
+      "FieldLength": 246
     }
   }
 }

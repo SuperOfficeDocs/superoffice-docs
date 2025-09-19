@@ -99,15 +99,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 153,
-  "StartTime": "2012-05-20T03:46:54.6132622+02:00",
-  "EndTime": "2009-06-24T03:46:54.6132622+02:00",
-  "Count": 3,
-  "DocumentTemplateId": 832
+  "PersonId": 475,
+  "StartTime": "2013-12-19T03:41:53.3713643+01:00",
+  "EndTime": "2014-09-02T03:41:53.3713643+02:00",
+  "Count": 84,
+  "DocumentTemplateId": 505
 }
 ```
 
@@ -119,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 803,
-    "Attention": "qui",
-    "Header": "laborum",
-    "Name": "Ward-Reilly",
-    "OurRef": "culpa",
-    "YourRef": "aperiam",
-    "Description": "Streamlined multi-tasking instruction set",
-    "DocumentTemplate": "natus",
-    "IsPublished": false,
-    "PersonId": 690,
-    "PersonFullName": "Prof. Leland Kraig Moore DDS",
-    "AssociateFullName": "Clifton Darrick Connelly MD",
-    "ContactId": 785,
-    "ContactName": "Wolff, Bruen and Jenkins",
-    "ProjectId": 786,
-    "ProjectName": "Hirthe, Kautzer and Heaney",
-    "AssociateId": 449,
-    "Snum": 18,
-    "SaleId": 981,
-    "SaleName": "Crona Inc and Sons",
+    "DocumentId": 53,
+    "Attention": "minima",
+    "Header": "quo",
+    "Name": "Brown, Will and Shields",
+    "OurRef": "dolorem",
+    "YourRef": "itaque",
+    "Description": "Organic systemic installation",
+    "DocumentTemplate": "ab",
+    "IsPublished": true,
+    "PersonId": 130,
+    "PersonFullName": "Isaiah Parisian",
+    "AssociateFullName": "Sophia Turner",
+    "ContactId": 265,
+    "ContactName": "Turcotte, Runolfsdottir and Tremblay",
+    "ProjectId": 243,
+    "ProjectName": "Dickens, Goldner and Grady",
+    "AssociateId": 519,
+    "Snum": 938,
+    "SaleId": 266,
+    "SaleName": "Nolan LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 891
+        "FieldType": "System.Int32",
+        "FieldLength": 599
       }
     }
   }

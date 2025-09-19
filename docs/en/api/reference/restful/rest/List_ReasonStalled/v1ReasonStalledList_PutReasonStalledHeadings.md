@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 355,
-    "Name": "Macejkovic, Schiller and Langosh",
-    "Tooltip": "quo",
-    "Deleted": false,
-    "Rank": 386,
-    "UdListDefinitionId": 362
+    "HeadingId": 680,
+    "Name": "Rempel-Bednar",
+    "Tooltip": "ullam",
+    "Deleted": true,
+    "Rank": 550,
+    "UdListDefinitionId": 830
   },
   {
-    "HeadingId": 355,
-    "Name": "Macejkovic, Schiller and Langosh",
-    "Tooltip": "quo",
-    "Deleted": false,
-    "Rank": 386,
-    "UdListDefinitionId": 362
+    "HeadingId": 680,
+    "Name": "Rempel-Bednar",
+    "Tooltip": "ullam",
+    "Deleted": true,
+    "Rank": 550,
+    "UdListDefinitionId": 830
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 491,
-    "Name": "Kertzmann Group",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "Rank": 261,
-    "UdListDefinitionId": 271,
+    "HeadingId": 529,
+    "Name": "Romaguera-Corwin",
+    "Tooltip": "asperiores",
+    "Deleted": true,
+    "Rank": 697,
+    "UdListDefinitionId": 921,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 478
+        "FieldType": "System.String",
+        "FieldLength": 418
       }
     }
   }

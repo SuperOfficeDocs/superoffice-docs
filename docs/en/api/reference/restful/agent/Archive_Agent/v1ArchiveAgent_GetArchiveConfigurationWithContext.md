@@ -81,13 +81,13 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Wyman, Quigley and Johnson",
-  "ProviderName": "Kshlerin LLC",
-  "Context": "molestiae"
+  "GuiName": "Kerluke Group",
+  "ProviderName": "Weber, Lowe and Waters",
+  "Context": "ad"
 }
 ```
 
@@ -100,68 +100,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Stoltenberg Group",
-      "DisplayTooltip": "at",
-      "DisplayType": "quibusdam",
+      "DisplayName": "Wyman-Tillman",
+      "DisplayTooltip": "unde",
+      "DisplayType": "culpa",
       "CanOrderBy": false,
-      "Name": "Dare, Boyle and Greenholt",
-      "CanRestrictBy": false,
-      "RestrictionType": "nulla",
-      "RestrictionListName": "Powlowski-Gutkowski",
+      "Name": "Mante, Rogahn and Block",
+      "CanRestrictBy": true,
+      "RestrictionType": "excepturi",
+      "RestrictionListName": "Lubowitz-Jenkins",
       "IsVisible": false,
-      "ExtraInfo": "unde",
-      "Width": "qui",
-      "IconHint": "eos",
-      "HeadingIconHint": "quaerat"
+      "ExtraInfo": "pariatur",
+      "Width": "numquam",
+      "IconHint": "enim",
+      "HeadingIconHint": "nisi"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 745,
-      "Name": "Oberbrunner-Huels",
-      "ToolTip": "At libero consequatur est.",
-      "Deleted": false,
-      "Rank": 459,
-      "Type": "quam",
-      "ColorBlock": 928,
-      "IconHint": "et",
+      "Id": 624,
+      "Name": "Walter Group",
+      "ToolTip": "Ut vero similique aut ut consequuntur.",
+      "Deleted": true,
+      "Rank": 614,
+      "Type": "vel",
+      "ColorBlock": 183,
+      "IconHint": "doloribus",
       "Selected": false,
-      "LastChanged": "2009-04-24T03:46:54.2851489+02:00",
+      "LastChanged": "2020-03-06T03:41:53.0588794+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "labore",
-      "StyleHint": "dicta",
-      "Hidden": true,
-      "FullName": "Marge Abshire DVM",
+      "ExtraInfo": "ut",
+      "StyleHint": "laborum",
+      "Hidden": false,
+      "FullName": "Marcelino Cormier",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 818
+          "FieldLength": 126
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Reilly, Graham and Bechtelar",
+      "Name": "Bauch-Brakus",
       "Direction": "ASC"
     },
     {
-      "Name": "Reilly, Graham and Bechtelar",
+      "Name": "Bauch-Brakus",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "laborum",
+  "OwnerKeys": "facilis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 762
+      "FieldType": "System.Int32",
+      "FieldLength": 905
     }
   }
 }

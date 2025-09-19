@@ -80,15 +80,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 590,
+  "DashboardTileDefinitionId": 927,
   "Languages": [
     {
-      "LanguageCode": "saepe",
-      "Html": "illum"
+      "LanguageCode": "vero",
+      "Html": "dolorem"
     },
     {
-      "LanguageCode": "saepe",
-      "Html": "illum"
+      "LanguageCode": "vero",
+      "Html": "dolorem"
     }
   ]
 }
@@ -102,26 +102,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "occaecati",
-    "Html": "quas",
+    "LanguageCode": "labore",
+    "Html": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 517
+        "FieldLength": 997
       }
     }
   },
   {
-    "LanguageCode": "occaecati",
-    "Html": "quas",
+    "LanguageCode": "labore",
+    "Html": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 517
+        "FieldLength": 997
       }
     }
   }

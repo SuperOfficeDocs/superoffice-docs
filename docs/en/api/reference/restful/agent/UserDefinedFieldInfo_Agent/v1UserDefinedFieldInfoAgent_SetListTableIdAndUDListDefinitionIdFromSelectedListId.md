@@ -113,7 +113,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 829
+  "SelectedListId": 379
 }
 ```
 
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 752,
-  "ColumnId": 602,
-  "FieldDefault": "perspiciatis",
-  "FieldHeight": 487,
-  "FieldLabel": "nulla",
-  "FieldLeft": 764,
-  "FieldTop": 62,
+  "UDefFieldId": 531,
+  "ColumnId": 501,
+  "FieldDefault": "distinctio",
+  "FieldHeight": 889,
+  "FieldLabel": "alias",
+  "FieldLeft": 25,
+  "FieldTop": 324,
   "FieldType": "Checkbox",
-  "FieldWidth": 676,
-  "FormatMask": "sint",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 229,
-  "LabelLeft": 455,
-  "LabelTop": 140,
-  "LabelWidth": 288,
-  "LastVersionId": 426,
-  "ListTableId": 214,
+  "FieldWidth": 657,
+  "FormatMask": "aut",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 667,
+  "LabelLeft": 366,
+  "LabelTop": 362,
+  "LabelWidth": 39,
+  "LastVersionId": 137,
+  "ListTableId": 108,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 708,
-  "ProgId": "rerum",
-  "IsReadOnly": false,
-  "ShortLabel": "porro",
-  "TabOrder": 411,
-  "TextLength": 204,
-  "Tooltip": "nulla",
-  "UdefIdentity": 797,
-  "UDListDefinitionId": 867,
+  "Page1LineNo": 725,
+  "ProgId": "non",
+  "IsReadOnly": true,
+  "ShortLabel": "dolor",
+  "TabOrder": 24,
+  "TextLength": 231,
+  "Tooltip": "sint",
+  "UdefIdentity": 568,
+  "UDListDefinitionId": 622,
   "Justification": "Center",
-  "Version": 482,
-  "TemplateVariableName": "Klein Inc and Sons",
+  "Version": 982,
+  "TemplateVariableName": "Mann, Ondricka and Metz",
   "HasBeenPublished": false,
-  "MdoListName": "Osinski, Connelly and Hyatt",
+  "MdoListName": "Hermiston-Reilly",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 838
+      "FieldType": "System.Int32",
+      "FieldLength": 199
     }
   }
 }

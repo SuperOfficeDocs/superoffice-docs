@@ -97,7 +97,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": true
+  "IncludeMemberProjects": false
 }
 ```
 
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 224,
-    "Name": "Baumbach, Heathcote and Hoppe",
-    "Description": "Profound client-driven leverage",
+    "ProjectId": 274,
+    "Name": "Sawayn, Collier and Cole",
+    "Description": "Grass-roots fresh-thinking toolset",
     "URL": "http://www.example.com/",
-    "Type": "in",
-    "AssociateId": 610,
-    "AssociateFullName": "Daron Brakus",
-    "TypeId": 770,
-    "Updated": "2008-12-13T03:46:55.1757421+01:00",
-    "StatusId": 428,
-    "Status": "recusandae",
-    "TextId": 588,
-    "PublishTo": "2003-02-14T03:46:55.1757421+01:00",
-    "PublishFrom": "2010-10-03T03:46:55.1757421+02:00",
+    "Type": "asperiores",
+    "AssociateId": 897,
+    "AssociateFullName": "Ms. Ruthe Maymie Bartoletti IV",
+    "TypeId": 449,
+    "Updated": "2010-08-03T03:41:53.9182167+02:00",
+    "StatusId": 954,
+    "Status": "atque",
+    "TextId": 688,
+    "PublishTo": "2017-01-18T03:41:53.9182167+01:00",
+    "PublishFrom": "2016-09-20T03:41:53.9182167+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1958447",
-    "ActiveErpLinks": 243,
+    "ProjectNumber": "1053093",
+    "ActiveErpLinks": 956,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 362
+        "FieldType": "System.String",
+        "FieldLength": 387
       }
     }
   }

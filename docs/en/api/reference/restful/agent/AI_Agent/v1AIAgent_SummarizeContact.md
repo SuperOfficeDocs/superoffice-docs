@@ -71,13 +71,13 @@ OK
 POST /api/v1/Agents/AI/SummarizeContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 982,
-  "NumSentences": 245,
-  "IsoLangCode": "eum"
+  "ContactId": 50,
+  "NumSentences": 252,
+  "IsoLangCode": "nesciunt"
 }
 ```
 
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"vitae"
+"ad"
 ```

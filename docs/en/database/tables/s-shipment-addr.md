@@ -59,9 +59,9 @@ Addresses that are ready to be sent in a shipment.
 
 | Table|  Description |
 |------|-------------|
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 |[form\_submission](form-submission.md)  |A form submission |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 |[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[workflow\_instance](workflow-instance.md)  |A set of properties related to the workflow instance of one participant going through the flow |

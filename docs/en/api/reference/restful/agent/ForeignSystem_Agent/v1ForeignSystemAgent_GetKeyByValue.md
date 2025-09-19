@@ -89,11 +89,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Block Group",
-  "DeviceName": "Konopelski, Mraz and Reinger",
-  "KeyName": "Reichel-Walter",
-  "KeyValue": "qui",
-  "TableName": "Mills-Jenkins"
+  "ApplicationName": "Buckridge-Deckow",
+  "DeviceName": "Hills-Trantow",
+  "KeyName": "Monahan Inc and Sons",
+  "KeyValue": "assumenda",
+  "TableName": "Kassulke-Schamberger"
 }
 ```
 
@@ -104,20 +104,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quos",
-  "Value": "inventore",
-  "RecordId": 278,
-  "CreatedDate": "2014-11-20T03:46:54.9107593+01:00",
-  "UpdatedDate": "1999-05-09T03:46:54.9107593+02:00",
-  "UpdatedBy": "dolorem",
-  "CreatedBy": "placeat",
-  "TableName": "Reichel-McCullough",
+  "Key": "repellendus",
+  "Value": "veniam",
+  "RecordId": 669,
+  "CreatedDate": "2008-01-04T03:41:53.5901046+01:00",
+  "UpdatedDate": "2007-09-23T03:41:53.5901046+02:00",
+  "UpdatedBy": "quas",
+  "CreatedBy": "id",
+  "TableName": "O'Keefe Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 185
+      "FieldType": "System.String",
+      "FieldLength": 145
     }
   }
 }

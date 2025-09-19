@@ -58,21 +58,21 @@ No Content
 PUT /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stamm-Ortiz",
-    "DisplayName": "Schaden Group",
-    "DisplayTooltip": "sed",
-    "IsActive": true
+    "Name": "Wolff-Weimann",
+    "DisplayName": "Bayer Inc and Sons",
+    "DisplayTooltip": "optio",
+    "IsActive": false
   },
   {
-    "Name": "Stamm-Ortiz",
-    "DisplayName": "Schaden Group",
-    "DisplayTooltip": "sed",
-    "IsActive": true
+    "Name": "Wolff-Weimann",
+    "DisplayName": "Bayer Inc and Sons",
+    "DisplayTooltip": "optio",
+    "IsActive": false
   }
 ]
 ```

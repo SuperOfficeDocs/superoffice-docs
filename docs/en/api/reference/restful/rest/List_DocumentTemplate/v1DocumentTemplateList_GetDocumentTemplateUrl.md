@@ -32,7 +32,7 @@ Get a url to the document template
 
 ```http
 GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?writableUrl=False
-GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?languageCode=beatae
+GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url?languageCode=repellat
 ```
 
 
@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{documentTemplateId}/Url
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response

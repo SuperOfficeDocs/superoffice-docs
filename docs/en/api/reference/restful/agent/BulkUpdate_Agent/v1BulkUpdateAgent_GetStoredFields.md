@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "project",
-  "Context": "ipsam"
+  "Context": "quia"
 }
 ```
 
@@ -109,73 +109,73 @@ Content-Type: application/json; charset=utf-8
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
-    "IsActive": false,
-    "Key": "saepe",
-    "ValueType": "fuga",
+    "IsActive": true,
+    "Key": "culpa",
+    "ValueType": "et",
     "Mandatory": false,
-    "EncodedDisplayName": "Berge, Keeling and Murphy",
-    "EncodedDisplayDescription": "Ergonomic modular firmware",
-    "IconHint": "est",
+    "EncodedDisplayName": "Marquardt, Bednar and Ziemann",
+    "EncodedDisplayDescription": "Realigned maximized open system",
+    "IconHint": "molestiae",
     "ControlInfos": [
       {
-        "Type": "temporibus",
-        "Label": "dolore",
-        "Dimension": 572,
-        "ListProviderName": "Padberg, Purdy and Kerluke",
-        "ListProviderExtraInfo": "harum",
-        "ListProviderPrimaryKeyName": "Homenick Inc and Sons",
-        "ListLeadText": "ipsam",
+        "Type": "non",
+        "Label": "est",
+        "Dimension": 736,
+        "ListProviderName": "Johnson-Waelchi",
+        "ListProviderExtraInfo": "at",
+        "ListProviderPrimaryKeyName": "Shields, Weber and Hammes",
+        "ListLeadText": "a",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 155
+            "FieldLength": 136
           }
         }
       }
     ],
-    "EncodedDataCaption": "aut",
-    "EncodedDataCaptionDescription": "Realigned reciprocal collaboration",
-    "CurrentOperationType": "nemo",
+    "EncodedDataCaption": "ea",
+    "EncodedDataCaptionDescription": "Face to face bottom-line open system",
+    "CurrentOperationType": "voluptates",
     "Values": [
-      "quis",
-      "architecto"
+      "libero",
+      "tempora"
     ],
     "DisplayValues": [
-      "id",
-      "quisquam"
+      "aspernatur",
+      "est"
     ],
     "OperationInfos": [
       {
         "Key": "eligendi",
-        "EncodedDisplayName": "Luettgen, Larson and Doyle",
+        "EncodedDisplayName": "Schiller LLC",
         "EncodedLeadTexts": [
-          "eius",
-          "qui"
+          "dolorum",
+          "temporibus"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 424
+            "FieldType": "System.String",
+            "FieldLength": 497
           }
         }
       },
       {
         "Key": "eligendi",
-        "EncodedDisplayName": "Luettgen, Larson and Doyle",
+        "EncodedDisplayName": "Schiller LLC",
         "EncodedLeadTexts": [
-          "eius",
-          "qui"
+          "dolorum",
+          "temporibus"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 424
+            "FieldType": "System.String",
+            "FieldLength": 497
           }
         }
       }

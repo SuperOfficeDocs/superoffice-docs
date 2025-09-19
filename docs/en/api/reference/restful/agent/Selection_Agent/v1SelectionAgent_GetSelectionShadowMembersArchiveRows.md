@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 295,
-  "Select": "ea"
+  "SelectionId": 710,
+  "Select": "repellendus"
 }
 ```
 
@@ -98,23 +98,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Homenick, Bernier and Conroy",
-    "PrimaryKey": 512,
+    "EntityName": "Gislason, Shields and Von",
+    "PrimaryKey": 54,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quo",
-        "TooltipHint": "et",
-        "LinkHint": "pariatur"
+        "DisplayValue": "dolores",
+        "TooltipHint": "ut",
+        "LinkHint": "magni"
       }
     },
-    "LinkHint": "sit",
-    "StyleHint": "animi",
+    "LinkHint": "officia",
+    "StyleHint": "dolorem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 153
+        "FieldType": "System.Int32",
+        "FieldLength": 787
       }
     }
   }

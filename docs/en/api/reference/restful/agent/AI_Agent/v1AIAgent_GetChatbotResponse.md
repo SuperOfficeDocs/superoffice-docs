@@ -84,41 +84,41 @@ OK
 POST /api/v1/Agents/AI/GetChatbotResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "commodi",
-  "IsoLangCode": "dolorem",
-  "UserPrompt": "velit",
-  "DisplayValue": "deleniti",
+  "ChatId": "delectus",
+  "IsoLangCode": "omnis",
+  "UserPrompt": "nam",
+  "DisplayValue": "qui",
   "PreviousTurns": [
     {
-      "Timestamp": "2015-03-18T03:46:53.9726601+01:00",
-      "UserPrompt": "exercitationem",
-      "UserDisplayText": "sit",
-      "BotResponse": "magnam",
+      "Timestamp": "2016-04-26T03:41:52.7620128+02:00",
+      "UserPrompt": "praesentium",
+      "UserDisplayText": "ducimus",
+      "BotResponse": "fugit",
       "BotActions": {
-        "BotActions1": "dolor",
-        "BotActions2": "aliquam"
+        "BotActions1": "voluptatem",
+        "BotActions2": "et"
       },
       "Attachments": [
-        "qui",
-        "earum"
+        "placeat",
+        "maiores"
       ]
     },
     {
-      "Timestamp": "2015-03-18T03:46:53.9726601+01:00",
-      "UserPrompt": "exercitationem",
-      "UserDisplayText": "sit",
-      "BotResponse": "magnam",
+      "Timestamp": "2016-04-26T03:41:52.7620128+02:00",
+      "UserPrompt": "praesentium",
+      "UserDisplayText": "ducimus",
+      "BotResponse": "fugit",
       "BotActions": {
-        "BotActions1": "dolor",
-        "BotActions2": "aliquam"
+        "BotActions1": "voluptatem",
+        "BotActions2": "et"
       },
       "Attachments": [
-        "qui",
-        "earum"
+        "placeat",
+        "maiores"
       ]
     }
   ],
@@ -133,17 +133,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2023-08-07T03:46:53.9726601+02:00",
-  "UserPrompt": "delectus",
-  "UserDisplayText": "repellendus",
-  "BotResponse": "dolores",
+  "Timestamp": "2010-08-07T03:41:52.7620128+02:00",
+  "UserPrompt": "sint",
+  "UserDisplayText": "quia",
+  "BotResponse": "tempore",
   "BotActions": {
-    "BotActions1": "repellat",
-    "BotActions2": "harum"
+    "BotActions1": "at",
+    "BotActions2": "voluptatum"
   },
   "Attachments": [
-    "libero",
-    "eum"
+    "suscipit",
+    "deleniti"
   ]
 }
 ```

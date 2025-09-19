@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "amet",
+  "TriggerScriptUniqueId": "excepturi",
   "Entity": null
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 953,
-  "Name": "Rosenbaum, Barrows and McDermott",
+  "ScreenChooserId": 851,
+  "Name": "Tromp, Mills and Moore",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "labore",
-  "Source": "facere",
-  "Registered": "2004-11-30T03:46:54.5820132+01:00",
-  "RegisteredAssociateId": 163,
-  "Updated": "2000-11-24T03:46:54.5820132+01:00",
-  "UpdatedAssociateId": 312,
+  "UniqueIdentifier": "ullam",
+  "Source": "vitae",
+  "Registered": "2009-08-19T03:41:53.3401161+02:00",
+  "RegisteredAssociateId": 692,
+  "Updated": "2011-02-05T03:41:53.3401161+01:00",
+  "UpdatedAssociateId": 979,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 261
+      "FieldType": "System.Int32",
+      "FieldLength": 457
     }
   }
 }

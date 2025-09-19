@@ -67,46 +67,46 @@ No Content
 POST /api/v1/Agents/UserDefinedFieldInfo/SaveUserDefinedFieldInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Infos": [
     {
-      "UDefFieldId": 487,
-      "ColumnId": 194,
-      "FieldDefault": "ut",
-      "FieldHeight": 5,
-      "FieldLabel": "quia",
-      "FieldLeft": 411,
-      "FieldTop": 849,
+      "UDefFieldId": 217,
+      "ColumnId": 862,
+      "FieldDefault": "voluptas",
+      "FieldHeight": 385,
+      "FieldLabel": "libero",
+      "FieldLeft": 179,
+      "FieldTop": 633,
       "FieldType": "Checkbox",
-      "FieldWidth": 127,
-      "FormatMask": "quaerat",
-      "HideLabel": false,
+      "FieldWidth": 402,
+      "FormatMask": "et",
+      "HideLabel": true,
       "IsIndexed": false,
-      "LabelHeight": 751,
-      "LabelLeft": 428,
-      "LabelTop": 154,
-      "LabelWidth": 229,
-      "LastVersionId": 927,
-      "ListTableId": 486,
-      "IsMandatory": false,
+      "LabelHeight": 787,
+      "LabelLeft": 558,
+      "LabelTop": 48,
+      "LabelWidth": 550,
+      "LastVersionId": 612,
+      "ListTableId": 79,
+      "IsMandatory": true,
       "Type": "Appointment",
-      "Page1LineNo": 522,
-      "ProgId": "quidem",
+      "Page1LineNo": 362,
+      "ProgId": "qui",
       "IsReadOnly": false,
-      "ShortLabel": "aut",
-      "TabOrder": 364,
-      "TextLength": 551,
-      "Tooltip": "ut",
-      "UdefIdentity": 62,
-      "UDListDefinitionId": 468,
+      "ShortLabel": "et",
+      "TabOrder": 305,
+      "TextLength": 692,
+      "Tooltip": "quae",
+      "UdefIdentity": 459,
+      "UDListDefinitionId": 560,
       "Justification": "Center",
-      "Version": 326,
-      "TemplateVariableName": "Paucek, Gleason and Swift",
+      "Version": 895,
+      "TemplateVariableName": "Hauck LLC",
       "HasBeenPublished": false,
-      "MdoListName": "Gusikowski, Keebler and Kautzer"
+      "MdoListName": "Lebsack, Tillman and Smith"
     }
   ]
 }

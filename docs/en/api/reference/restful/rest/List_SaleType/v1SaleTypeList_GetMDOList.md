@@ -28,7 +28,7 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=saepe
+GET /api/v1/List/SaleType/MDOItems?query=neque
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 174,
-    "Name": "Towne, Kirlin and Schmidt",
-    "ToolTip": "Reiciendis consequatur voluptatum molestias.",
-    "Deleted": true,
-    "Rank": 712,
-    "Type": "ducimus",
+    "Id": 147,
+    "Name": "Hills Inc and Sons",
+    "ToolTip": "Assumenda aut voluptatibus accusamus.",
+    "Deleted": false,
+    "Rank": 737,
+    "Type": "eos",
     "ChildItems": [
       {
-        "Id": 498,
-        "Name": "Lockman, Adams and Luettgen",
-        "ToolTip": "Enim ut.",
+        "Id": 365,
+        "Name": "Kutch, Strosin and Purdy",
+        "ToolTip": "Eligendi tenetur sint illum nemo quod.",
         "Deleted": false,
-        "Rank": 389,
-        "Type": "eveniet",
+        "Rank": 168,
+        "Type": "sed",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dignissimos",
-        "ColorBlock": 416,
-        "ExtraInfo": "omnis",
-        "StyleHint": "temporibus",
-        "FullName": "Raven Zemlak",
+        "IconHint": "provident",
+        "ColorBlock": 551,
+        "ExtraInfo": "est",
+        "StyleHint": "eum",
+        "FullName": "Godfrey Feest",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 285
+            "FieldType": "System.Int32",
+            "FieldLength": 897
           }
         }
       }
     ],
-    "IconHint": "hic",
-    "ColorBlock": 488,
-    "ExtraInfo": "qui",
-    "StyleHint": "iure",
-    "FullName": "Ms. Carrie Letha Schimmel Jr.",
+    "IconHint": "et",
+    "ColorBlock": 257,
+    "ExtraInfo": "animi",
+    "StyleHint": "assumenda",
+    "FullName": "Prof. Lyric Cronin MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 310
+        "FieldType": "System.Int32",
+        "FieldLength": 910
       }
     }
   }

@@ -79,7 +79,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 766
+  "AssociateId": 415
 }
 ```
 
@@ -91,6 +91,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "ex"
+  "Message": "beatae"
 }
 ```

@@ -69,7 +69,7 @@ OK
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Schmitt Group",
-    "DisplayName": "Johnson-Ruecker",
-    "Description": "Re-engineered zero administration extranet",
-    "ShortLabel": "esse",
+    "FieldName": "Hills, Barrows and Bayer",
+    "DisplayName": "Balistreri, Torphy and Wisozk",
+    "Description": "Innovative systematic interface",
+    "ShortLabel": "asperiores",
     "HideLabel": true,
     "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": false,
+    "IsIndexed": false,
+    "IsMandatory": true,
     "IsReadOnly": false,
-    "IsExternal": true,
-    "IsDisplayField": false,
-    "Rank": 497,
-    "TemplateVariableName": "Wolff-Senger"
+    "IsExternal": false,
+    "IsDisplayField": true,
+    "Rank": 541,
+    "TemplateVariableName": "Gerlach, Larkin and Dach"
   }
 ]
 ```

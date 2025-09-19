@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 803,
-    "Name": "Watsica, Gutkowski and Tremblay",
-    "ToolTip": "Deserunt et eos non ut eos quia enim.",
+    "Id": 810,
+    "Name": "Kiehn-Thompson",
+    "ToolTip": "Sit nulla.",
     "Deleted": false,
-    "Rank": 840,
-    "Type": "explicabo",
-    "ColorBlock": 430,
-    "IconHint": "sapiente",
+    "Rank": 867,
+    "Type": "vel",
+    "ColorBlock": 955,
+    "IconHint": "aspernatur",
     "Selected": true,
-    "LastChanged": "2022-01-05T03:47:00.6911718+01:00",
+    "LastChanged": "2009-08-17T03:41:59.4336101+02:00",
     "ChildItems": [
       {
-        "Id": 944,
-        "Name": "Kertzmann, Koelpin and Collins",
-        "ToolTip": "Voluptas aspernatur eum ea iste ut.",
-        "Deleted": true,
-        "Rank": 213,
-        "Type": "eveniet",
-        "ColorBlock": 210,
-        "IconHint": "ut",
+        "Id": 393,
+        "Name": "Walter-Crooks",
+        "ToolTip": "Reiciendis beatae doloremque et alias.",
+        "Deleted": false,
+        "Rank": 319,
+        "Type": "aut",
+        "ColorBlock": 849,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2000-01-05T03:47:00.6911718+01:00",
+        "LastChanged": "2015-07-25T03:41:59.4336101+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "aperiam",
+        "ExtraInfo": "eos",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Enola Maryse Hirthe I",
+        "FullName": "Isabell Kreiger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 366
+            "FieldLength": 78
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "dignissimos",
-    "Hidden": true,
-    "FullName": "Maia Larson",
+    "ExtraInfo": "quasi",
+    "StyleHint": "quibusdam",
+    "Hidden": false,
+    "FullName": "Kacey Bradtke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 558
+        "FieldLength": 612
       }
     }
   }

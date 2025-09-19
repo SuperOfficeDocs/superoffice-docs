@@ -1138,7 +1138,7 @@ Sale archive provider for the Diary card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDiary?$select=person/personDeletedDate,contact/contactAssociate/contactId,contact/contactExtra/x_contact_short_dropdown,saleStakeholder/contact/business,saleStakeholder/contact/contactAssociate/portraitThumbnail
+GET /api/v1/archive/SaleDiary?$select=person/correspondingAssociate/associateDbId,contact/contactAssociate/middleName,contact/saintTicketStatus,project/projectAssociate/lastName,saleStakeholder/person/personSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

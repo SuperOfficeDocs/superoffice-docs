@@ -134,12 +134,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 207
+  "AssociateId": 599
 }
 ```
 
@@ -154,121 +154,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2001-03-20T03:46:54.2070265+01:00",
-  "AppointmentId": 901,
-  "Description": "Stand-alone local benchmark",
-  "Title": "commodi",
-  "Agenda": "cupiditate",
-  "InternalNotes": "vel",
-  "StartDate": "2023-03-20T03:46:54.2070265+01:00",
-  "EndDate": "2011-07-09T03:46:54.2070265+02:00",
+  "CreatedDate": "2003-01-30T03:41:52.9807564+01:00",
+  "AppointmentId": 512,
+  "Description": "Profit-focused encompassing paradigm",
+  "Title": "itaque",
+  "Agenda": "reprehenderit",
+  "InternalNotes": "hic",
+  "StartDate": "2012-02-25T03:41:52.9807564+01:00",
+  "EndDate": "1998-05-20T03:41:52.9807564+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 605,
+  "MotherId": 250,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2002-06-04T03:46:54.2070265+02:00",
+  "UpdatedDate": "2020-03-10T03:41:52.9807564+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 910,
+  "ActiveLinks": 543,
   "Links": [
     {
-      "EntityName": "Luettgen LLC",
-      "Id": 702,
-      "Description": "Streamlined attitude-oriented focus group",
-      "ExtraInfo": "et",
-      "LinkId": 415,
+      "EntityName": "McKenzie-Hilpert",
+      "Id": 528,
+      "Description": "Organized attitude-oriented definition",
+      "ExtraInfo": "aut",
+      "LinkId": 599,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 311
+          "FieldLength": 325
         }
       }
     }
   ],
-  "AlarmLeadTime": "fugit",
+  "AlarmLeadTime": "et",
   "HasAlarm": false,
-  "ColorIndex": 678,
-  "IsFree": true,
+  "ColorIndex": 911,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "voluptatem",
-  "LeadTime": "rerum",
-  "Location": "non",
-  "RejectCounter": 103,
+  "LagTime": "modi",
+  "LeadTime": "ut",
+  "Location": "blanditiis",
+  "RejectCounter": 363,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 602,
-      "PersonId": 303,
-      "ContactId": 245,
-      "EmailId": 572,
-      "SendEmail": true,
+      "AssociateId": 923,
+      "PersonId": 990,
+      "ContactId": 663,
+      "EmailId": 343,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "lupe@gleason.info",
-      "Description": "Distributed regional protocol"
+      "EmailAddress": "tyrique@walkerkilback.ca",
+      "Description": "Programmable well-modulated artificial intelligence"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2000-03-25T03:46:54.2070265+01:00",
-  "HasConflict": false,
+  "ActiveDate": "2025-08-13T03:41:52.9807564+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 874,
+  "PreferredTZLocation": 825,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 172,
+  "SuggestedAppointmentId": 308,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "eligendi",
+  "CentralserviceVideomeetId": "velit",
   "UserDefinedFields": {
-    "SuperOffice:1": "Clark Schumm",
-    "SuperOffice:2": "1679940057"
+    "SuperOffice:1": "Madison McCullough IV",
+    "SuperOffice:2": "Katheryn Carroll"
   },
   "ExtraFields": {
-    "ExtraFields1": "odio",
-    "ExtraFields2": "est"
+    "ExtraFields1": "quia",
+    "ExtraFields2": "culpa"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "blanditiis"
+    "CustomFields1": "sunt",
+    "CustomFields2": "quo"
   },
-  "PublishEventDate": "2014-11-24T03:46:54.2070265+01:00",
-  "PublishTo": "2014-12-09T03:46:54.2070265+01:00",
-  "PublishFrom": "2007-06-12T03:46:54.2070265+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "1999-03-27T03:41:52.996381+01:00",
+  "PublishTo": "2006-10-01T03:41:52.996381+02:00",
+  "PublishFrom": "2020-02-19T03:41:52.996381+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 822,
+      "VisibleId": 303,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "doloremque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 886
+          "FieldLength": 530
         }
       }
     },
     {
-      "VisibleId": 822,
+      "VisibleId": 303,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "doloremque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 886
+          "FieldLength": 530
         }
       }
     }
@@ -278,7 +278,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 195
+      "FieldLength": 976
     }
   }
 }

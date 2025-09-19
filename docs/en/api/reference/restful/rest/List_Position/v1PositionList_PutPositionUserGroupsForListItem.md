@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 432,
-    "Name": "Dietrich LLC",
-    "ToolTip": "Nihil harum.",
+    "Id": 190,
+    "Name": "Brekke LLC",
+    "ToolTip": "Veniam et atque et repudiandae.",
     "Deleted": false,
-    "Rank": 883,
-    "Type": "quam",
-    "ColorBlock": 774,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2007-02-28T03:47:00.7067961+01:00",
+    "Rank": 551,
+    "Type": "dolorem",
+    "ColorBlock": 198,
+    "IconHint": "officia",
+    "Selected": false,
+    "LastChanged": "2005-07-25T03:41:59.4492344+02:00",
     "ChildItems": [
       {
-        "Id": 764,
-        "Name": "Gislason, Mertz and Gulgowski",
-        "ToolTip": "Voluptas quo nihil nostrum illo eaque et.",
-        "Deleted": false,
-        "Rank": 822,
-        "Type": "inventore",
-        "ColorBlock": 493,
-        "IconHint": "commodi",
+        "Id": 777,
+        "Name": "Batz, Reinger and Mann",
+        "ToolTip": "Incidunt ipsa modi ducimus.",
+        "Deleted": true,
+        "Rank": 420,
+        "Type": "doloribus",
+        "ColorBlock": 281,
+        "IconHint": "nesciunt",
         "Selected": false,
-        "LastChanged": "2005-11-25T03:47:00.7067961+01:00",
+        "LastChanged": "2010-02-10T03:41:59.4492344+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "rem",
+        "ExtraInfo": "et",
+        "StyleHint": "numquam",
         "Hidden": false,
-        "FullName": "Hannah Kreiger"
+        "FullName": "Rebekah Senger"
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "cum",
-    "Hidden": false,
-    "FullName": "Mrs. Schuyler Verdie Parisian"
+    "ExtraInfo": "vel",
+    "StyleHint": "consequuntur",
+    "Hidden": true,
+    "FullName": "Merle Rice"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 976,
-    "Name": "Hickle, Farrell and Harvey",
-    "ToolTip": "Tempore neque.",
+    "Id": 675,
+    "Name": "Kessler, Hettinger and Bosco",
+    "ToolTip": "Ipsam dolores qui porro.",
     "Deleted": false,
-    "Rank": 812,
-    "Type": "saepe",
-    "ColorBlock": 486,
-    "IconHint": "ea",
+    "Rank": 501,
+    "Type": "quo",
+    "ColorBlock": 321,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2014-04-01T03:47:00.7067961+02:00",
+    "LastChanged": "2003-12-18T03:41:59.4492344+01:00",
     "ChildItems": [
       {
-        "Id": 129,
-        "Name": "Schuster-Friesen",
-        "ToolTip": "At omnis deserunt in quibusdam.",
+        "Id": 489,
+        "Name": "Collins Inc and Sons",
+        "ToolTip": "Repellat quas repellat voluptatibus et sint quod non.",
         "Deleted": false,
-        "Rank": 69,
-        "Type": "aspernatur",
-        "ColorBlock": 444,
-        "IconHint": "deleniti",
-        "Selected": true,
-        "LastChanged": "1999-10-20T03:47:00.7067961+02:00",
+        "Rank": 45,
+        "Type": "consectetur",
+        "ColorBlock": 683,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2009-09-04T03:41:59.4492344+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "laboriosam",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "molestias",
         "Hidden": true,
-        "FullName": "Henri Hoppe",
+        "FullName": "Corbin Haag",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 819
+            "FieldType": "System.Int32",
+            "FieldLength": 517
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "pariatur",
+    "ExtraInfo": "quia",
+    "StyleHint": "sunt",
     "Hidden": true,
-    "FullName": "Vicenta Halvorson",
+    "FullName": "Favian O'Kon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 181
+        "FieldType": "System.String",
+        "FieldLength": 50
       }
     }
   }

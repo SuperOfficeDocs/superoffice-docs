@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 12,
-    "Name": "Hilpert, Oberbrunner and Hoeger",
-    "ToolTip": "Et rerum placeat.",
-    "Deleted": true,
-    "Rank": 307,
-    "Type": "et",
-    "ColorBlock": 824,
-    "IconHint": "fuga",
+    "Id": 519,
+    "Name": "Thompson-Boyer",
+    "ToolTip": "Soluta officiis quasi fugiat eum.",
+    "Deleted": false,
+    "Rank": 380,
+    "Type": "sapiente",
+    "ColorBlock": 394,
+    "IconHint": "voluptatem",
     "Selected": true,
-    "LastChanged": "2001-04-12T03:47:00.5818006+02:00",
+    "LastChanged": "2006-02-20T03:41:59.3554887+01:00",
     "ChildItems": [
       {
-        "Id": 124,
-        "Name": "Cronin Group",
-        "ToolTip": "Rerum est nemo modi et.",
+        "Id": 307,
+        "Name": "Oberbrunner, Farrell and Schmidt",
+        "ToolTip": "Voluptas vel rerum nisi ad rerum pariatur est.",
         "Deleted": false,
-        "Rank": 143,
-        "Type": "ad",
-        "ColorBlock": 261,
-        "IconHint": "quod",
+        "Rank": 449,
+        "Type": "modi",
+        "ColorBlock": 210,
+        "IconHint": "iure",
         "Selected": false,
-        "LastChanged": "2017-05-10T03:47:00.5818006+02:00",
+        "LastChanged": "2022-06-26T03:41:59.3554887+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "voluptate",
+        "ExtraInfo": "aperiam",
+        "StyleHint": "sapiente",
         "Hidden": true,
-        "FullName": "Chelsea Bailey Koch MD",
+        "FullName": "Jose Muller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 465
+            "FieldType": "System.Int32",
+            "FieldLength": 432
           }
         }
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "quibusdam",
+    "ExtraInfo": "non",
+    "StyleHint": "eligendi",
     "Hidden": true,
-    "FullName": "Ms. Tony Bernhard",
+    "FullName": "Ibrahim Murphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 218
+        "FieldLength": 799
       }
     }
   }

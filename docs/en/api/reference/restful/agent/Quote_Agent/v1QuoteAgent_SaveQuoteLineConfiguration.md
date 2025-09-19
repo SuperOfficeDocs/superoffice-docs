@@ -99,21 +99,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 653,
-  "FieldName": "Koss, Littel and Funk",
-  "Label": "molestiae",
-  "Tooltip": "sapiente",
-  "Editable": false,
+  "QuoteLineConfigurationId": 512,
+  "FieldName": "Gutkowski-Bechtelar",
+  "Label": "odit",
+  "Tooltip": "laudantium",
+  "Editable": true,
   "InUse": false,
-  "Mandatory": false,
-  "Rank": 337,
-  "RestrictEdit": true,
+  "Mandatory": true,
+  "Rank": 720,
+  "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 514
+      "FieldType": "System.Int32",
+      "FieldLength": 615
     }
   }
 }

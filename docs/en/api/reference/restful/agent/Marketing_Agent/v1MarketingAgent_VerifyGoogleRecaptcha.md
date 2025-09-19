@@ -76,8 +76,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Token": "rerum",
-  "OptionalSecretKey": "iure"
+  "Token": "quibusdam",
+  "OptionalSecretKey": "adipisci"
 }
 ```
 

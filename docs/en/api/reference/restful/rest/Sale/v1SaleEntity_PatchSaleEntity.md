@@ -152,18 +152,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "occaecati",
+    "path": "accusamus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "occaecati",
+    "path": "accusamus",
     "value": {}
   }
 ]
@@ -182,7 +182,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "sint",
+  "SaleText": "nisi",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -191,113 +191,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2025-07-02T03:47:00.2693116+02:00",
-  "Amount": 25736.408,
-  "SaleId": 198,
-  "Earning": 5233.78,
-  "EarningPercent": 28193.464,
-  "Heading": "provident",
-  "Number": "1299457",
-  "Probability": 375,
-  "CreatedDate": "2000-12-14T03:47:00.2693116+01:00",
-  "UpdatedDate": "2012-04-21T03:47:00.2693116+02:00",
+  "Saledate": "2013-02-23T03:41:58.9961292+01:00",
+  "Amount": 29500.342,
+  "SaleId": 868,
+  "Earning": 329.07,
+  "EarningPercent": 26780.03,
+  "Heading": "eveniet",
+  "Number": "247067",
+  "Probability": 686,
+  "CreatedDate": "2013-08-12T03:41:58.9961292+02:00",
+  "UpdatedDate": "2024-09-16T03:41:58.9961292+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 505,
+  "ActiveLinks": 581,
   "Links": [
     {
-      "EntityName": "Kuhic, Gottlieb and Ratke",
-      "Id": 87,
-      "Description": "Managed discrete capacity",
-      "ExtraInfo": "nemo",
-      "LinkId": 341,
+      "EntityName": "Nitzsche, Rippin and Langosh",
+      "Id": 802,
+      "Description": "Vision-oriented multimedia projection",
+      "ExtraInfo": "quaerat",
+      "LinkId": 850,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 620
+          "FieldType": "System.String",
+          "FieldLength": 823
         }
       }
     }
   ],
-  "NextDueDate": "2012-04-26T03:47:00.2693116+02:00",
-  "Postit": "ut",
+  "NextDueDate": "2025-07-30T03:41:58.9961292+02:00",
+  "Postit": "ad",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2001-03-18T03:47:00.2693116+01:00",
+  "ReopenDate": "2025-03-09T03:41:58.9961292+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Anderson Group",
-      "Comment": "rerum",
-      "StakeholderRoleId": 968,
-      "CountryId": 107,
-      "PersonId": 789,
-      "EmailDescription": "bradley@schaefer.us",
-      "EmailId": 136,
-      "EmailAddress": "edgardo_heathcote@mcdermottdooley.uk",
-      "PhoneId": 333,
-      "ContactName": "Ankunding Inc and Sons",
-      "ContactId": 483,
-      "SaleId": 353,
-      "Mrmrs": "voluptatibus",
-      "Firstname": "Violet",
-      "MiddleName": "Kunde LLC",
-      "Lastname": "Emmerich",
-      "SaleStakeholderId": 616,
-      "Rank": 529,
-      "Phone": "005-217-8993 x6387",
+      "StakeholderRoleName": "Doyle-Towne",
+      "Comment": "velit",
+      "StakeholderRoleId": 226,
+      "CountryId": 757,
+      "PersonId": 803,
+      "EmailDescription": "marcelo_langworth@hammesschoen.biz",
+      "EmailId": 72,
+      "EmailAddress": "jessyca_boyer@terrykirlin.com",
+      "PhoneId": 659,
+      "ContactName": "Walsh, Hackett and Witting",
+      "ContactId": 344,
+      "SaleId": 370,
+      "Mrmrs": "qui",
+      "Firstname": "Jaycee",
+      "MiddleName": "Blick-Lehner",
+      "Lastname": "Mitchell",
+      "SaleStakeholderId": 456,
+      "Rank": 718,
+      "Phone": "009-567-4088 x064",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 819
+          "FieldLength": 531
         }
       }
     }
   ],
-  "ActiveErpLinks": 716,
+  "ActiveErpLinks": 814,
   "UserDefinedFields": {
-    "SuperOffice:1": "Kira Roob",
-    "SuperOffice:2": "1706238604"
+    "SuperOffice:1": "1393378220",
+    "SuperOffice:2": "Loyce Zboncak"
   },
   "ExtraFields": {
-    "ExtraFields1": "iure",
-    "ExtraFields2": "reiciendis"
+    "ExtraFields1": "aperiam",
+    "ExtraFields2": "sed"
   },
   "CustomFields": {
-    "CustomFields1": "odit",
+    "CustomFields1": "possimus",
     "CustomFields2": "autem"
   },
-  "PublishEventDate": "2002-12-28T03:47:00.2693116+01:00",
-  "PublishTo": "2019-09-26T03:47:00.2693116+02:00",
-  "PublishFrom": "2021-03-27T03:47:00.2693116+01:00",
+  "PublishEventDate": "2014-02-02T03:41:58.9961292+01:00",
+  "PublishTo": "2006-03-22T03:41:58.9961292+01:00",
+  "PublishFrom": "2017-03-20T03:41:58.9961292+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 583,
+      "VisibleId": 465,
       "Visibility": "All",
-      "DisplayValue": "corrupti",
+      "DisplayValue": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 518
+          "FieldType": "System.String",
+          "FieldLength": 181
         }
       }
     },
     {
-      "VisibleId": 583,
+      "VisibleId": 465,
       "Visibility": "All",
-      "DisplayValue": "corrupti",
+      "DisplayValue": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 518
+          "FieldType": "System.String",
+          "FieldLength": 181
         }
       }
     }
@@ -307,7 +307,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 870
+      "FieldLength": 724
     }
   },
   "_Links": {

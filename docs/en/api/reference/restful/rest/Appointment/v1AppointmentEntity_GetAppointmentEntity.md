@@ -34,7 +34,7 @@ Calls the Appointment agent service GetAppointmentEntity.
 
 ```http
 GET /api/v1/Appointment/{id}?$select=name,department,category/id
-GET /api/v1/Appointment/{id}?fk=True
+GET /api/v1/Appointment/{id}?fk=False
 ```
 
 
@@ -144,128 +144,128 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 04 Oct 2002 03:46:59 G10T
+Last-Modified: Mon, 04 Jan 2021 03:41:58 G1T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2018-09-29T03:46:59.6911992+02:00",
+  "CreatedDate": "2006-03-26T03:41:58.3399079+02:00",
   "AppointmentId": 233,
-  "Description": "Reverse-engineered solution-oriented concept",
-  "Title": "aliquam",
-  "Agenda": "ea",
-  "InternalNotes": "iste",
-  "StartDate": "2016-04-20T03:46:59.6911992+02:00",
-  "EndDate": "2000-10-07T03:46:59.6911992+02:00",
+  "Description": "User-friendly user-facing project",
+  "Title": "ut",
+  "Agenda": "deserunt",
+  "InternalNotes": "officiis",
+  "StartDate": "2012-05-26T03:41:58.3399079+02:00",
+  "EndDate": "2014-04-28T03:41:58.3399079+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 460,
+  "MotherId": 282,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2002-10-04T03:46:59.6911992+02:00",
+  "UpdatedDate": "2021-01-04T03:41:58.3399079+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 893,
+  "ActiveLinks": 424,
   "Links": [
     {
-      "EntityName": "Breitenberg, Hessel and Okuneva",
-      "Id": 415,
-      "Description": "Quality-focused fault-tolerant concept",
-      "ExtraInfo": "non",
-      "LinkId": 132,
+      "EntityName": "Walter, Lindgren and Strosin",
+      "Id": 470,
+      "Description": "Balanced context-sensitive model",
+      "ExtraInfo": "ex",
+      "LinkId": 197,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 993
+          "FieldLength": 364
         }
       }
     }
   ],
-  "AlarmLeadTime": "et",
-  "HasAlarm": true,
-  "ColorIndex": 490,
+  "AlarmLeadTime": "quod",
+  "HasAlarm": false,
+  "ColorIndex": 298,
   "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "repudiandae",
-  "LeadTime": "aspernatur",
-  "Location": "aperiam",
-  "RejectCounter": 900,
+  "IsAlldayEvent": false,
+  "LagTime": "reiciendis",
+  "LeadTime": "qui",
+  "Location": "veniam",
+  "RejectCounter": 223,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 684,
-      "PersonId": 81,
-      "ContactId": 805,
-      "EmailId": 925,
-      "SendEmail": true,
+      "AssociateId": 691,
+      "PersonId": 681,
+      "ContactId": 980,
+      "EmailId": 946,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "kirsten@bailey.name",
-      "Description": "Decentralized dynamic system engine"
+      "EmailAddress": "garnet@blick.us",
+      "Description": "Synchronised assymetric forecast"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1999-10-26T03:46:59.6911992+02:00",
+  "ActiveDate": "2002-02-08T03:41:58.3399079+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 523,
+  "PreferredTZLocation": 53,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 441,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 942,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sint",
+  "CentralserviceVideomeetId": "nisi",
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Adolph Green"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "ipsum"
+    "ExtraFields1": "facere",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "suscipit",
-    "CustomFields2": "sint"
+    "CustomFields1": "qui",
+    "CustomFields2": "ea"
   },
-  "PublishEventDate": "2010-02-19T03:46:59.6911992+01:00",
-  "PublishTo": "2006-08-31T03:46:59.6911992+02:00",
-  "PublishFrom": "2018-06-09T03:46:59.6911992+02:00",
+  "PublishEventDate": "2012-03-15T03:41:58.3399079+01:00",
+  "PublishTo": "2010-04-02T03:41:58.3399079+02:00",
+  "PublishFrom": "2021-04-02T03:41:58.3399079+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 180,
+      "VisibleId": 795,
       "Visibility": "All",
-      "DisplayValue": "recusandae",
+      "DisplayValue": "optio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 4
+          "FieldType": "System.Int32",
+          "FieldLength": 504
         }
       }
     },
     {
-      "VisibleId": 180,
+      "VisibleId": 795,
       "Visibility": "All",
-      "DisplayValue": "recusandae",
+      "DisplayValue": "optio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 4
+          "FieldType": "System.Int32",
+          "FieldLength": 504
         }
       }
     }
@@ -274,8 +274,8 @@ Last-Modified: Fri, 04 Oct 2002 03:46:59 G10T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 299
+      "FieldType": "System.Int32",
+      "FieldLength": 644
     }
   },
   "_Links": {

@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Hyatt-Herzog",
-    "Leffler-Schmitt"
+    "Mante, Koch and Feil",
+    "Shields LLC"
   ],
-  "Culture": "qui"
+  "Culture": "aut"
 }
 ```
 
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Paucek-Upton",
-    "ResourceValue": "aspernatur",
-    "Culture": "officia",
+    "ResourceName": "Weissnat LLC",
+    "ResourceValue": "dolorem",
+    "Culture": "quidem",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 98
+        "FieldType": "System.String",
+        "FieldLength": 473
       }
     }
   },
   {
-    "ResourceName": "Paucek-Upton",
-    "ResourceValue": "aspernatur",
-    "Culture": "officia",
+    "ResourceName": "Weissnat LLC",
+    "ResourceValue": "dolorem",
+    "Culture": "quidem",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 98
+        "FieldType": "System.String",
+        "FieldLength": 473
       }
     }
   }

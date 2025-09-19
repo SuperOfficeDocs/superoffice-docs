@@ -85,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 380,
-  "After": 593
+  "ChatSessionId": 328,
+  "After": 500
 }
 ```
 
@@ -98,15 +98,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 28,
-    "ChatSessionId": 690,
+    "ChatMessageId": 294,
+    "ChatSessionId": 80,
     "Type": "Invalid",
-    "Message": "vero",
-    "Author": "quia",
-    "ReadByCustomer": 814,
+    "Message": "pariatur",
+    "Author": "quam",
+    "ReadByCustomer": 930,
     "SpecialType": "Block",
-    "SpecialParam": "est",
-    "WhenPosted": "2000-12-22T03:46:54.3788954+01:00"
+    "SpecialParam": "quidem",
+    "WhenPosted": "2007-02-18T03:41:53.152624+01:00"
   }
 ]
 ```

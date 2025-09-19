@@ -104,36 +104,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Paucek, Pacocha and Johnston",
+  "ProviderName": "Durgan, Boyle and Sporer",
   "Columns": [
-    "magnam",
-    "aperiam"
+    "sit",
+    "esse"
   ],
   "SortOrder": [
     {
-      "Name": "Langosh, Smith and Bashirian",
+      "Name": "Swaniawski Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Langosh, Smith and Bashirian",
+      "Name": "Swaniawski Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Weber-Kerluke",
-      "Operator": "eveniet",
+      "Name": "Cormier Inc and Sons",
+      "Operator": "est",
       "Values": [
-        "nostrum",
-        "fuga"
+        "sed",
+        "impedit"
       ],
       "DisplayValues": [
-        "fuga",
-        "error"
+        "ut",
+        "cumque"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -141,17 +141,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 903,
+      "InterParenthesis": 959,
       "InterOperator": "And",
-      "UniqueHash": 261
+      "UniqueHash": 881
     }
   ],
   "Entities": [
-    "id",
-    "alias"
+    "et",
+    "earum"
   ],
-  "Page": 607,
-  "PageSize": 565
+  "Page": 444,
+  "PageSize": 259
 }
 ```
 
@@ -163,23 +163,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Bayer, Beatty and Lynch",
-    "PrimaryKey": 724,
+    "EntityName": "Paucek-Hoppe",
+    "PrimaryKey": 473,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "dolor",
-        "TooltipHint": "aut",
-        "LinkHint": "doloremque"
+        "DisplayValue": "officiis",
+        "TooltipHint": "in",
+        "LinkHint": "distinctio"
       }
     },
-    "LinkHint": "optio",
-    "StyleHint": "odio",
+    "LinkHint": "dicta",
+    "StyleHint": "ea",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 561
+        "FieldLength": 268
       }
     }
   }

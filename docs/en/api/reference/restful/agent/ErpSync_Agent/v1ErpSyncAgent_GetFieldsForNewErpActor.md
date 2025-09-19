@@ -90,7 +90,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 61,
+  "ErpConnectionId": 733,
   "ErpActorType": "Customer"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "et",
-    "Rank": 471,
-    "DisplayName": "McCullough, Hilll and Kreiger",
-    "DisplayDescription": "Secured high-level solution",
+    "FieldKey": "debitis",
+    "Rank": 914,
+    "DisplayName": "VonRueden, Daniel and Cormier",
+    "DisplayDescription": "Focused bandwidth-monitored forecast",
     "FieldType": "Checkbox",
-    "ListName": "Cronin-Kohler",
-    "DefaultValue": "eligendi",
-    "MaxLength": 53,
+    "ListName": "Rodriguez, Miller and Bechtelar",
+    "DefaultValue": "qui",
+    "MaxLength": 683,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 495
+        "FieldType": "System.Int32",
+        "FieldLength": 596
       }
     }
   }

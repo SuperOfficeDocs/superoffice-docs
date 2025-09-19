@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 796,
-    "Name": "Pfannerstill-Stiedemann",
-    "ToolTip": "Velit dignissimos aut omnis.",
-    "Deleted": true,
-    "Rank": 682,
-    "Type": "odit",
-    "ColorBlock": 796,
-    "IconHint": "in",
-    "Selected": true,
-    "LastChanged": "2023-12-03T03:47:00.6130405+01:00",
+    "Id": 927,
+    "Name": "Brown-Stracke",
+    "ToolTip": "Possimus aspernatur.",
+    "Deleted": false,
+    "Rank": 30,
+    "Type": "itaque",
+    "ColorBlock": 511,
+    "IconHint": "sit",
+    "Selected": false,
+    "LastChanged": "2001-06-16T03:41:59.3711138+02:00",
     "ChildItems": [
       {
-        "Id": 40,
-        "Name": "Roob, Boyer and Bechtelar",
-        "ToolTip": "Nostrum enim maxime quo architecto non repellat nisi.",
-        "Deleted": false,
-        "Rank": 338,
-        "Type": "corporis",
-        "ColorBlock": 1002,
-        "IconHint": "unde",
-        "Selected": true,
-        "LastChanged": "2020-06-19T03:47:00.6130405+02:00",
+        "Id": 886,
+        "Name": "Jerde-Wisozk",
+        "ToolTip": "Reiciendis amet omnis tempore ratione eum et.",
+        "Deleted": true,
+        "Rank": 442,
+        "Type": "ullam",
+        "ColorBlock": 945,
+        "IconHint": "iure",
+        "Selected": false,
+        "LastChanged": "2019-01-10T03:41:59.3711138+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "adipisci",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Vincent Wolf Jr.",
+        "FullName": "Mr. Dayton Waters PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 681
+            "FieldType": "System.String",
+            "FieldLength": 538
           }
         }
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "nostrum",
-    "Hidden": true,
-    "FullName": "Quincy Zulauf",
+    "ExtraInfo": "provident",
+    "StyleHint": "mollitia",
+    "Hidden": false,
+    "FullName": "Mrs. Enrique Von II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 17
+        "FieldLength": 411
       }
     }
   }

@@ -89,7 +89,7 @@ OK
 GET /api/v1/Sale/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 223,
-    "ColumnId": 270,
-    "FieldDefault": "libero",
-    "FieldHeight": 970,
-    "FieldLabel": "itaque",
-    "FieldLeft": 179,
-    "FieldTop": 929,
+    "UDefFieldId": 213,
+    "ColumnId": 987,
+    "FieldDefault": "dignissimos",
+    "FieldHeight": 529,
+    "FieldLabel": "et",
+    "FieldLeft": 195,
+    "FieldTop": 64,
     "FieldType": "Checkbox",
-    "FieldWidth": 695,
-    "FormatMask": "dolor",
-    "HideLabel": true,
+    "FieldWidth": 575,
+    "FormatMask": "quas",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 579,
-    "LabelLeft": 7,
-    "LabelTop": 532,
-    "LabelWidth": 897,
-    "LastVersionId": 441,
-    "ListTableId": 43,
+    "LabelHeight": 503,
+    "LabelLeft": 165,
+    "LabelTop": 614,
+    "LabelWidth": 64,
+    "LastVersionId": 27,
+    "ListTableId": 350,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 490,
-    "ProgId": "autem",
-    "IsReadOnly": false,
-    "ShortLabel": "est",
-    "TabOrder": 920,
-    "TextLength": 547,
-    "Tooltip": "officia",
-    "UdefIdentity": 827,
-    "UDListDefinitionId": 645,
+    "Page1LineNo": 993,
+    "ProgId": "molestiae",
+    "IsReadOnly": true,
+    "ShortLabel": "inventore",
+    "TabOrder": 256,
+    "TextLength": 701,
+    "Tooltip": "odio",
+    "UdefIdentity": 56,
+    "UDListDefinitionId": 944,
     "Justification": "Center",
-    "Version": 250,
-    "TemplateVariableName": "Fahey-Hudson",
-    "HasBeenPublished": false,
-    "MdoListName": "Stokes Inc and Sons",
+    "Version": 72,
+    "TemplateVariableName": "Strosin-Satterfield",
+    "HasBeenPublished": true,
+    "MdoListName": "Hills, Doyle and Hintz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldLength": 613
       }
     }
   }

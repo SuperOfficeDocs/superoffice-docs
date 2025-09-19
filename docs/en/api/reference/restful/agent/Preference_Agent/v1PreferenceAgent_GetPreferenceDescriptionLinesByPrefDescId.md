@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 961
+  "PrefDescId": 108
 }
 ```
 
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 575,
-    "PrefDescId": 760,
-    "PrefValue": "dolor",
+    "PrefDescLineId": 380,
+    "PrefDescId": 876,
+    "PrefValue": "non",
     "PrefShowValue": "qui",
-    "Description": "Switchable homogeneous superstructure",
-    "IsBuiltin": false,
+    "Description": "Total multi-state emulation",
+    "IsBuiltin": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 782
+        "FieldLength": 757
       }
     }
   }

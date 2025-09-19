@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 295,
-    "Name": "Flatley, Schneider and Brakus",
-    "ToolTip": "Et consequatur voluptas illo laboriosam architecto molestias sit.",
+    "Id": 633,
+    "Name": "Schneider Inc and Sons",
+    "ToolTip": "Magni soluta blanditiis consequatur eaque saepe quia qui.",
     "Deleted": false,
-    "Rank": 116,
-    "Type": "numquam",
-    "ColorBlock": 480,
-    "IconHint": "dolore",
+    "Rank": 978,
+    "Type": "ducimus",
+    "ColorBlock": 833,
+    "IconHint": "neque",
     "Selected": false,
-    "LastChanged": "2009-05-29T03:47:00.8161673+02:00",
+    "LastChanged": "2023-12-21T03:41:59.6054711+01:00",
     "ChildItems": [
       {
-        "Id": 146,
-        "Name": "Balistreri-Keebler",
-        "ToolTip": "Laboriosam dolorum nesciunt in odio.",
+        "Id": 687,
+        "Name": "Bashirian LLC",
+        "ToolTip": "Facere pariatur quo quaerat sed omnis.",
         "Deleted": false,
-        "Rank": 709,
-        "Type": "quae",
-        "ColorBlock": 200,
-        "IconHint": "sit",
+        "Rank": 272,
+        "Type": "rerum",
+        "ColorBlock": 960,
+        "IconHint": "vitae",
         "Selected": false,
-        "LastChanged": "2018-08-23T03:47:00.8161673+02:00",
+        "LastChanged": "2011-02-10T03:41:59.6054711+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "quia",
+        "ExtraInfo": "et",
+        "StyleHint": "perspiciatis",
         "Hidden": false,
-        "FullName": "Perry Louvenia Frami Jr.",
+        "FullName": "Arnold Gaylord",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 32
+            "FieldType": "System.Int32",
+            "FieldLength": 991
           }
         }
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "veritatis",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "accusamus",
     "Hidden": false,
-    "FullName": "Mckenna Dietrich",
+    "FullName": "Mrs. Jefferey Schumm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 674
+        "FieldType": "System.String",
+        "FieldLength": 134
       }
     }
   }

@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,30 +71,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 838,
-  "Year": 701,
+  "TargetGroupId": 636,
+  "Year": 881,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 890,
+      "TargetAssignmentInfoId": 72,
       "Values": [
-        156,
-        889
+        957,
+        496
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 234,
-      "DimensionListItemDisplayName": "Schuster-Baumbach",
+      "DimensionListItem": 190,
+      "DimensionListItemDisplayName": "Hessel, Macejkovic and Ledner",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 534
+          "FieldType": "System.String",
+          "FieldLength": 746
         }
       }
     }
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldLength": 355
     }
   }
 }

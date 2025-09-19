@@ -88,9 +88,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Effertz, Jacobson and Labadie",
-  "DeviceName": "Durgan-Roob",
-  "DeviceIdentifier": "qui"
+  "ApplicationName": "Konopelski, Dooley and Stanton",
+  "DeviceName": "Gleason, Fahey and Schumm",
+  "DeviceIdentifier": "voluptatum"
 }
 ```
 
@@ -101,21 +101,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 763,
-  "Name": "Rath Group",
-  "CreatedDate": "2004-11-27T03:46:54.8788782+01:00",
-  "UpdatedDate": "2016-12-02T03:46:54.8788782+01:00",
-  "AssociateFullName": "Emie Hilll",
-  "CreatedBy": "nihil",
-  "UpdatedBy": "doloribus",
-  "DeviceIdentifier": "nesciunt",
-  "ForeignAppId": 31,
+  "ForeignDeviceId": 727,
+  "Name": "Casper, Yost and Stehr",
+  "CreatedDate": "2010-05-30T03:41:53.5901046+02:00",
+  "UpdatedDate": "2003-09-24T03:41:53.5901046+02:00",
+  "AssociateFullName": "Shanny Runolfsson",
+  "CreatedBy": "veritatis",
+  "UpdatedBy": "facilis",
+  "DeviceIdentifier": "omnis",
+  "ForeignAppId": 128,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldType": "System.String",
+      "FieldLength": 189
     }
   }
 }

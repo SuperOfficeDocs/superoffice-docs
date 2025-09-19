@@ -20,8 +20,8 @@ envir: onsite, online
 |2| [associate](associate.md) |Employees, resources and other users - except for External persons|
 |3| [AssociateGroupLink](associategrouplink.md) |User group link table for Associate, for MDO item hiding|
 |4| [AssociateHeadingLink](associateheadinglink.md) |Heading link table for associate for display only. Supportive table, used for grouping and filtering on lists. |
-|5| [contact](contact.md) |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.  |
-|6| [person](person.md) |Persons in a company or an organizations. All associates have a corresponding person record|
+|5| [contact](contact.md) |Companies and Organizations.|
+|6| [person](person.md) |Persons|
 |7| [address](address.md) |Contact and Person addresses|
 |8| [phone](phone.md) |Contact and Person phonenumbers (+fax)|
 |9| [appointment](appointment.md) |Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this. |
@@ -548,7 +548,8 @@ envir: onsite, online
 |531| [QuoteDenyReasonHeadingLink](quotedenyreasonheadinglink.md) |Heading link table for QuoteDenyReason, for MDO headers|
 |532| [EntityCounts](entitycounts.md) |Number of different entities an associate has created for usage statistics|
 |533| [utm\_parameters](utm-parameters.md) |Table for utm parameters collected from visits and formsubmissions|
-|534| [ticket\_type](ticket-type.md) |A ticket (request) type|
-|535| [ticket\_type\_priority](ticket-type-priority.md) |Link table defining what Priorities are relevant to a particular Ticket type|
-|536| [ticket\_type\_status](ticket-type-status.md) |Link table defining what Statuses are relevant to a particular Ticket type|
+|534| [leadstatus](leadstatus.md) |List items of lead status that is selectable for contacts and persons that have specific category|
+|535| [ticket\_type](ticket-type.md) |A ticket (request) type|
+|536| [ticket\_type\_priority](ticket-type-priority.md) |Link table defining what Priorities are relevant to a particular Ticket type|
+|537| [ticket\_type\_status](ticket-type-status.md) |Link table defining what Statuses are relevant to a particular Ticket type|
 

@@ -118,18 +118,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "voluptatem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "voluptatem",
     "value": {}
   }
 ]
@@ -142,27 +142,27 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 804,
-  "ERPPriceListKey": "cupiditate",
-  "QuoteConnectionId": 708,
-  "Name": "Borer, Torp and Koss",
-  "Description": "User-centric 6th generation system engine",
-  "Currency": "ratione",
-  "CurrencyName": "Tillman-Sauer",
-  "ValidFrom": "2014-06-16T03:47:00.7067961+02:00",
-  "ValidTo": "2000-02-11T03:47:00.7067961+01:00",
+  "PriceListId": 152,
+  "ERPPriceListKey": "consectetur",
+  "QuoteConnectionId": 380,
+  "Name": "Gerhold, Wilkinson and Labadie",
+  "Description": "Customer-focused 24 hour matrix",
+  "Currency": "sed",
+  "CurrencyName": "Hammes-Larkin",
+  "ValidFrom": "2022-01-30T03:41:59.4648585+01:00",
+  "ValidTo": "2015-11-02T03:41:59.4648585+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 542
+      "FieldLength": 308
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

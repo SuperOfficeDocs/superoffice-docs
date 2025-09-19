@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,46 +75,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 841,
+  "HierarchyId": 848,
   "Domain": "Dashboards",
-  "Name": "Bergnaum LLC",
-  "Fullname": "cupiditate",
-  "ParentId": 633,
+  "Name": "Wisoky Group",
+  "Fullname": "quia",
+  "ParentId": 181,
   "Children": [
     {
-      "HierarchyId": 334,
+      "HierarchyId": 194,
       "Domain": "Dashboards",
-      "Name": "Russel, Muller and Heidenreich",
-      "Fullname": "enim",
-      "ParentId": 493,
+      "Name": "Christiansen-Hickle",
+      "Fullname": "et",
+      "ParentId": 653,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2019-08-20T03:46:54.9726245+02:00",
-      "RegisteredAssociateId": 937,
-      "Updated": "2020-12-01T03:46:54.9726245+01:00",
-      "UpdatedAssociateId": 788,
+      "Registered": "2024-01-28T03:41:53.7307246+01:00",
+      "RegisteredAssociateId": 401,
+      "Updated": "2010-03-09T03:41:53.7307246+01:00",
+      "UpdatedAssociateId": 919,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 539
+          "FieldLength": 739
         }
       }
     }
   ],
-  "Registered": "2002-09-02T03:46:54.9726245+02:00",
-  "RegisteredAssociateId": 148,
-  "Updated": "2002-03-06T03:46:54.9726245+01:00",
-  "UpdatedAssociateId": 54,
+  "Registered": "2015-01-24T03:41:53.7307246+01:00",
+  "RegisteredAssociateId": 873,
+  "Updated": "2008-05-07T03:41:53.7307246+02:00",
+  "UpdatedAssociateId": 562,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 929
+      "FieldLength": 77
     }
   }
 }

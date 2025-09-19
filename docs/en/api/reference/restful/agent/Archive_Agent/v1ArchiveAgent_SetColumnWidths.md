@@ -66,14 +66,14 @@ No Content
 POST /api/v1/Agents/Archive/SetColumnWidths
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Spencer LLC",
+  "GuiName": "Fadel Inc and Sons",
   "ColumnWidths": [
-    "vero",
-    "rerum"
+    "sint",
+    "dolores"
   ]
 }
 ```

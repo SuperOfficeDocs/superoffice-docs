@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/ViewState/GetPreviousCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Daniel, Dickens and Stamm",
-  "Id": 221
+  "HistoryName": "Schumm, Hane and Daniel",
+  "Id": 257
 }
 ```
 
@@ -99,19 +99,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 689,
-  "Id": 466,
-  "HistoryName": "Sporer Inc and Sons",
-  "HistoryId": 90,
-  "AssociateId": 313,
-  "Name": "Oberbrunner-Schumm",
-  "ItemInfo": "adipisci",
+  "Rank": 435,
+  "Id": 785,
+  "HistoryName": "Larson, Bailey and Kerluke",
+  "HistoryId": 773,
+  "AssociateId": 222,
+  "Name": "Parker-Ratke",
+  "ItemInfo": "labore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 184
+      "FieldLength": 985
     }
   }
 }

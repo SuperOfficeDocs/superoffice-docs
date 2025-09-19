@@ -93,11 +93,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 141,
-  "ModuleOwner": "eos",
+  "AssociateId": 165,
+  "ModuleOwner": "et",
   "ModuleLicenseNames": [
-    "DuBuque-Schoen",
-    "Parisian, Zemlak and Schmidt"
+    "Funk LLC",
+    "Goodwin, Dickinson and Keebler"
   ]
 }
 ```
@@ -111,25 +111,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 583,
-    "Tooltip": "nostrum",
+    "Total": 54,
+    "Tooltip": "voluptatem",
     "CanAssign": true,
-    "Free": 139,
-    "InUse": 112,
-    "IsHidden": true,
+    "Free": 798,
+    "InUse": 516,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 749,
-    "Name": "Armstrong-Lynch",
-    "Description": "User-centric foreground orchestration",
-    "PrerequisiteModuleName": "Jacobi, Stokes and Gutmann",
-    "SortOrder": 131,
-    "ExtraFlags": 750,
+    "ModuleLicenseId": 290,
+    "Name": "Erdman Group",
+    "Description": "Implemented attitude-oriented throughput",
+    "PrerequisiteModuleName": "Feeney LLC",
+    "SortOrder": 603,
+    "ExtraFlags": 110,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldLength": 336
       }
     }
   }

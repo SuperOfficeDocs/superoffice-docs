@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 752
+  "ProjectId": 4
 }
 ```
 
@@ -101,25 +101,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 205,
-  "BlobSize": 959,
-  "Description": "Fundamental 4th generation data-warehouse",
-  "ExtraInfo": "sed",
+  "BlobId": 586,
+  "BlobSize": 134,
+  "Description": "Mandatory scalable parallelism",
+  "ExtraInfo": "iure",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "aut",
-  "OriginalSize": 783,
-  "CreatedDate": "2006-08-15T03:46:54.3163903+02:00",
-  "UpdatedDate": "2002-05-05T03:46:54.3163903+02:00",
+  "MimeType": "saepe",
+  "OriginalSize": 460,
+  "CreatedDate": "2010-04-25T03:41:53.0901263+02:00",
+  "UpdatedDate": "2007-11-26T03:41:53.0901263+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "accusamus",
+  "ConceptualType": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 380
+      "FieldType": "System.Int32",
+      "FieldLength": 599
     }
   }
 }

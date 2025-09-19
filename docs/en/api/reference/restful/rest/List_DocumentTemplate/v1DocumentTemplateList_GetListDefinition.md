@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 280,
-  "Name": "Schaefer, Hermiston and Mitchell",
-  "Tooltip": "laudantium",
-  "Deleted": false,
-  "Rank": 148,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 136,
+  "Name": "Schroeder, Reynolds and Ratke",
+  "Tooltip": "minus",
+  "Deleted": true,
+  "Rank": 881,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "laudantium",
+  "ListType": "quaerat",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 197
+      "FieldLength": 796
     }
   },
   "_Links": {

@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/User/FindCredentialsGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "voluptas",
-  "SearchString": "veniam"
+  "Type": "voluptatibus",
+  "SearchString": "qui"
 }
 ```
 
@@ -98,26 +98,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rolfson Inc and Sons",
-    "DisplayName": "Leffler, Heaney and Ritchie",
+    "Name": "Beier LLC",
+    "DisplayName": "D'Amore-Langosh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 866
+        "FieldLength": 390
       }
     }
   },
   {
-    "Name": "Rolfson Inc and Sons",
-    "DisplayName": "Leffler, Heaney and Ritchie",
+    "Name": "Beier LLC",
+    "DisplayName": "D'Amore-Langosh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 866
+        "FieldLength": 390
       }
     }
   }

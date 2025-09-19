@@ -93,22 +93,22 @@ HTTP/1.1 200 ListEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 270,
-  "Name": "Mraz-Emard",
-  "Tooltip": "dolor",
+  "Id": 984,
+  "Name": "Rogahn, Howell and Ondricka",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 562,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "minima",
-  "InUseByUserDefinedFields": true,
+  "Rank": 97,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quibusdam",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 905
+      "FieldType": "System.String",
+      "FieldLength": 742
     }
   },
   "_Links": {

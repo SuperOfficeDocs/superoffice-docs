@@ -96,11 +96,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Bayer Group",
+  "TaskName": "Grimes Inc and Sons",
   "State": "All"
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 842,
-    "Name": "Hilpert LLC",
-    "AssociateId": 630,
-    "DetailsTable": 673,
-    "DetailsRecord": 832,
+    "Id": 264,
+    "Name": "Mertz LLC",
+    "AssociateId": 690,
+    "DetailsTable": 959,
+    "DetailsRecord": 756,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "quam",
-      "ParameterObject2": "magni"
+      "ParameterObject1": "placeat",
+      "ParameterObject2": "similique"
     },
-    "LastStarted": "2023-11-29T03:46:54.3007673+01:00",
-    "Created": "2014-09-11T03:46:54.3007673+02:00",
-    "StartCount": 705,
-    "DatabaseSerialNumber": "943115",
-    "Context": "ad",
-    "Result": "harum",
+    "LastStarted": "2022-09-11T03:41:53.0745025+02:00",
+    "Created": "2005-05-09T03:41:53.0745025+02:00",
+    "StartCount": 66,
+    "DatabaseSerialNumber": "1135414",
+    "Context": "architecto",
+    "Result": "vel",
     "State": "All",
-    "Description": "Reduced eco-centric paradigm",
-    "Response": "dolores",
-    "Request": "eius",
-    "ProgressDescription": "Open-source foreground infrastructure",
-    "ProgressPercent": 585,
-    "FileName": "Kilback, Rutherford and Rempel",
+    "Description": "Up-sized 24 hour methodology",
+    "Response": "id",
+    "Request": "quisquam",
+    "ProgressDescription": "Switchable content-based collaboration",
+    "ProgressPercent": 810,
+    "FileName": "Trantow Inc and Sons",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 84
+        "FieldLength": 213
       }
     }
   }

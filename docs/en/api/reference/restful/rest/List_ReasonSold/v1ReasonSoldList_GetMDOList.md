@@ -28,7 +28,7 @@ Get the MDO list items for "ReasonSold" - with headings and filtering by user gr
 
 ```http
 GET /api/v1/List/ReasonSold/MDOItems?flat=False
-GET /api/v1/List/ReasonSold/MDOItems?query=praesentium
+GET /api/v1/List/ReasonSold/MDOItems?query=tempora
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/ReasonSold/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 595,
-    "Name": "Koch Inc and Sons",
-    "ToolTip": "Dolores similique doloremque dolor molestiae harum ullam ut.",
+    "Id": 139,
+    "Name": "Wintheiser-Funk",
+    "ToolTip": "Aspernatur iure.",
     "Deleted": false,
-    "Rank": 318,
-    "Type": "alias",
+    "Rank": 874,
+    "Type": "error",
     "ChildItems": [
       {
-        "Id": 158,
-        "Name": "Boyer, Hagenes and McKenzie",
-        "ToolTip": "Omnis at minus omnis et unde.",
-        "Deleted": true,
-        "Rank": 399,
-        "Type": "cum",
+        "Id": 258,
+        "Name": "Predovic Group",
+        "ToolTip": "Delectus doloribus unde omnis iure incidunt.",
+        "Deleted": false,
+        "Rank": 60,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quia",
-        "ColorBlock": 48,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "quaerat",
-        "FullName": "Ludwig Kavon Heathcote DVM",
+        "IconHint": "fugit",
+        "ColorBlock": 385,
+        "ExtraInfo": "temporibus",
+        "StyleHint": "blanditiis",
+        "FullName": "Ms. Fae Doyle IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 335
+            "FieldType": "System.Int32",
+            "FieldLength": 834
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 158,
-    "ExtraInfo": "nam",
-    "StyleHint": "alias",
-    "FullName": "Nat Hyatt",
+    "IconHint": "nobis",
+    "ColorBlock": 804,
+    "ExtraInfo": "numquam",
+    "StyleHint": "laborum",
+    "FullName": "Mr. Imelda Hal Stark",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 547
+        "FieldLength": 891
       }
     }
   }

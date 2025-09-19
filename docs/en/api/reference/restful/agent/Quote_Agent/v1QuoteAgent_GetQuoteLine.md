@@ -126,7 +126,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 989
+  "QuoteLineId": 376
 }
 ```
 
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 267,
-  "ERPQuoteLineKey": "non",
-  "QuoteAlternativeId": 459,
-  "ERPProductKey": "aliquam",
+  "QuoteLineId": 796,
+  "ERPQuoteLineKey": "rem",
+  "QuoteAlternativeId": 541,
+  "ERPProductKey": "qui",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 17982.892,
-  "DeliveredQuantity": 30669.324,
-  "Rank": 211,
-  "Name": "Brown-Morissette",
-  "Description": "Cross-group dedicated complexity",
-  "Code": "ducimus",
-  "QuantityUnit": "et",
+  "Quantity": 30628.582,
+  "DeliveredQuantity": 18534.476,
+  "Rank": 378,
+  "Name": "Balistreri, Morar and Beier",
+  "Description": "Robust well-modulated function",
+  "Code": "in",
+  "QuantityUnit": "porro",
   "PriceUnit": "ut",
-  "ItemNumber": "648032",
+  "ItemNumber": "959945",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "totam",
-  "ProductTypeKey": "rerum",
-  "Supplier": "sit",
-  "SupplierCode": "iusto",
-  "Thumbnail": "quibusdam",
-  "VATInfo": "officia",
-  "VAT": 20170.424,
-  "UnitCost": 31289.856,
-  "UnitMinimumPrice": 8035.576,
-  "UnitListPrice": 30280.708,
+  "ProductFamilyKey": "mollitia",
+  "ProductTypeKey": "quos",
+  "Supplier": "nobis",
+  "SupplierCode": "enim",
+  "Thumbnail": "sed",
+  "VATInfo": "sint",
+  "VAT": 23523.804,
+  "UnitCost": 29268.426,
+  "UnitMinimumPrice": 14917.84,
+  "UnitListPrice": 25727.005999999998,
   "ExtraInfo": [
     {
-      "Name": "Erdman, Konopelski and Monahan",
-      "Value": "asperiores",
+      "Name": "Purdy-Ledner",
+      "Value": "deserunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 233
+          "FieldType": "System.Int32",
+          "FieldLength": 22
         }
       }
     },
     {
-      "Name": "Erdman, Konopelski and Monahan",
-      "Value": "asperiores",
+      "Name": "Purdy-Ledner",
+      "Value": "deserunt",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 233
+          "FieldType": "System.Int32",
+          "FieldLength": 22
         }
       }
     }
   ],
-  "RawExtraInfo": "dolorem",
+  "RawExtraInfo": "eum",
   "IsSubscription": false,
-  "SubscriptionUnit": "tempora",
-  "SubscriptionQuantity": 31023.466,
-  "SubscriptionStart": "2014-12-14T03:46:55.2226157+01:00",
-  "ERPDiscountPercent": 31217.773999999998,
-  "ERPDiscountAmount": 19026.514,
-  "DiscountPercent": 6346.3499999999995,
-  "DiscountAmount": 3604.1,
+  "SubscriptionUnit": "quae",
+  "SubscriptionQuantity": 9649.586,
+  "SubscriptionStart": "2006-02-12T03:41:53.9650897+01:00",
+  "ERPDiscountPercent": 15413.011999999999,
+  "ERPDiscountAmount": 16111.894,
+  "DiscountPercent": 27557.262,
+  "DiscountAmount": 12275.877999999999,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 11749.366,
-  "EarningAmount": 8389.7179999999989,
-  "SubTotal": 7502.7959999999994,
-  "TotalPrice": 18656.702,
-  "Rights": "quas",
-  "Rule": "fugiat",
-  "ExtraField1": "sapiente",
-  "ExtraField2": "quia",
-  "ExtraField3": "at",
-  "ExtraField4": "omnis",
-  "ExtraField5": "dolores",
+  "EarningPercent": 15735.814,
+  "EarningAmount": 19615.706,
+  "SubTotal": 31104.95,
+  "TotalPrice": 16375.15,
+  "Rights": "aut",
+  "Rule": "quaerat",
+  "ExtraField1": "animi",
+  "ExtraField2": "rerum",
+  "ExtraField3": "aut",
+  "ExtraField4": "eos",
+  "ExtraField5": "architecto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 593
+      "FieldLength": 101
     }
   }
 }

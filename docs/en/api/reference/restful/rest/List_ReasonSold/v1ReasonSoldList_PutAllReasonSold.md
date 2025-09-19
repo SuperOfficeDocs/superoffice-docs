@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 118,
-    "Name": "Torp-Watsica",
-    "Tooltip": "animi",
+    "Id": 990,
+    "Name": "Franecki LLC",
+    "Tooltip": "quisquam",
     "Deleted": false,
-    "UdListDefinitionId": 636,
-    "Rank": 630
+    "UdListDefinitionId": 431,
+    "Rank": 250
   },
   {
-    "Id": 118,
-    "Name": "Torp-Watsica",
-    "Tooltip": "animi",
+    "Id": 990,
+    "Name": "Franecki LLC",
+    "Tooltip": "quisquam",
     "Deleted": false,
-    "UdListDefinitionId": 636,
-    "Rank": 630
+    "UdListDefinitionId": 431,
+    "Rank": 250
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 713,
-    "Name": "Goodwin-Huels",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "UdListDefinitionId": 289,
-    "Rank": 385,
+    "Id": 197,
+    "Name": "Considine LLC",
+    "Tooltip": "eligendi",
+    "Deleted": true,
+    "UdListDefinitionId": 886,
+    "Rank": 538,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 595
+        "FieldType": "System.String",
+        "FieldLength": 22
       }
     }
   }

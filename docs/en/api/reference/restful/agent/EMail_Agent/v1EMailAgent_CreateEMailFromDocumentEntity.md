@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,147 +118,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 180,
-      "ContactName": "Prohaska Group",
-      "PersonId": 135,
-      "PersonName": "Torphy-Bogan",
-      "AssociateId": 475,
-      "Address": "et",
-      "EmailId": 398,
+      "ContactId": 263,
+      "ContactName": "Harris Inc and Sons",
+      "PersonId": 62,
+      "PersonName": "King, Bartoletti and Cummings",
+      "AssociateId": 891,
+      "Address": "sit",
+      "EmailId": 612,
       "DuplicatePersonIds": [
-        147,
-        759
+        137,
+        216
       ],
-      "Name": "Schulist-Stehr",
+      "Name": "Reichel, Terry and Jones",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 694
+          "FieldType": "System.String",
+          "FieldLength": 161
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 947,
-      "ContactName": "Strosin, Metz and Morar",
-      "PersonId": 84,
-      "PersonName": "Marvin Inc and Sons",
-      "AssociateId": 169,
-      "Address": "quia",
-      "EmailId": 197,
+      "ContactId": 188,
+      "ContactName": "Padberg Group",
+      "PersonId": 481,
+      "PersonName": "Bauch-Blick",
+      "AssociateId": 111,
+      "Address": "tenetur",
+      "EmailId": 165,
       "DuplicatePersonIds": [
-        539,
-        983
+        701,
+        398
       ],
-      "Name": "Robel, Turner and Osinski",
+      "Name": "Sawayn, Ferry and Hintz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 177
+          "FieldType": "System.Int32",
+          "FieldLength": 550
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 253,
-      "ContactName": "Mosciski LLC",
-      "PersonId": 240,
-      "PersonName": "Boehm, Kunde and Schmitt",
-      "AssociateId": 252,
-      "Address": "vero",
-      "EmailId": 451,
+      "ContactId": 574,
+      "ContactName": "Ledner-Kunde",
+      "PersonId": 335,
+      "PersonName": "Kutch, Heller and Durgan",
+      "AssociateId": 330,
+      "Address": "unde",
+      "EmailId": 545,
       "DuplicatePersonIds": [
-        544,
-        554
+        653,
+        726
       ],
-      "Name": "Kilback-Collins",
+      "Name": "Cassin LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 752
+          "FieldType": "System.Int32",
+          "FieldLength": 745
         }
       }
     }
   ],
-  "Subject": "enim",
-  "HTMLBody": "nesciunt",
+  "Subject": "dicta",
+  "HTMLBody": "eos",
   "From": null,
-  "Sent": "2004-07-01T03:46:54.785131+02:00",
-  "Size": 770,
+  "Sent": "2001-09-04T03:41:53.5276084+02:00",
+  "Size": 290,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aut",
-  "PlainBody": "hic",
-  "IsSent": false,
+  "MessageID": "necessitatibus",
+  "PlainBody": "quia",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 693,
+  "ServerId": 879,
   "Attachments": [
     {
-      "Description": "Multi-channelled analyzing alliance",
-      "Filename": "magnam",
-      "Size": 84,
-      "Type": "aliquam",
-      "Encoding": "placeat",
-      "Id": "voluptate",
-      "Disposition": "voluptatem",
-      "IsSafeFileExtension": true,
+      "Description": "Cloned impactful definition",
+      "Filename": "a",
+      "Size": 502,
+      "Type": "sed",
+      "Encoding": "recusandae",
+      "Id": "ut",
+      "Disposition": "ullam",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 848
+          "FieldLength": 339
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Kling, Pouros and O'Keefe",
+      "Name": "Anderson, Aufderhar and Daniel",
       "Values": [
-        "aut",
-        "dicta"
+        "et",
+        "minima"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 512
+          "FieldLength": 431
         }
       }
     },
     {
-      "Name": "Kling, Pouros and O'Keefe",
+      "Name": "Anderson, Aufderhar and Daniel",
       "Values": [
-        "aut",
-        "dicta"
+        "et",
+        "minima"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 512
+          "FieldLength": 431
         }
       }
     }
   ],
-  "FolderName": "Cruickshank Inc and Sons",
-  "EmailItemId": 466,
-  "AccountId": 204,
-  "ReceivedAt": "2004-11-04T03:46:54.785131+01:00",
+  "FolderName": "Pollich-Hudson",
+  "EmailItemId": 35,
+  "AccountId": 501,
+  "ReceivedAt": "2021-03-23T03:41:53.5276084+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2024-03-31T03:46:54.785131+02:00",
+  "RepliedAt": "2010-01-01T03:41:53.5276084+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,7 +267,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 313
+      "FieldLength": 676
     }
   }
 }

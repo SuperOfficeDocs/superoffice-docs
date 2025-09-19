@@ -27,7 +27,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=684
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=654
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 355,
+  "EjMessageId": 795,
   "Ticket": null,
-  "CreatedAt": "1998-11-25T03:46:55.5351045+01:00",
+  "CreatedAt": "1999-08-30T03:41:54.2932014+02:00",
   "CreatedBy": null,
-  "Author": "iusto",
+  "Author": "et",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quia",
-  "TimeSpent": 510,
-  "Body": "nobis",
-  "HtmlBody": "unde",
-  "EmailHeader": "alexandrine@mitchell.info",
-  "DebugInfo": "dignissimos",
-  "MailSorter": "nostrum",
+  "MessageId": "et",
+  "TimeSpent": 954,
+  "Body": "libero",
+  "HtmlBody": "officia",
+  "EmailHeader": "milan.tremblay@russel.name",
+  "DebugInfo": "est",
+  "MailSorter": "et",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "tenetur",
+  "SearchTitle": "rerum",
   "MessageHeaders": [
     {
-      "Id": 596,
-      "Name": "Nienow Group",
-      "Value": "quam",
+      "Id": 776,
+      "Name": "Hermann-Bernier",
+      "Value": "omnis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -132,50 +132,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 464
+          "FieldLength": 822
         }
       }
     }
   ],
   "Important": false,
-  "Language": "perspiciatis",
-  "Sentiment": 999,
-  "SentimentConfidence": 782,
+  "Language": "dicta",
+  "Sentiment": 993,
+  "SentimentConfidence": 1000,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 724,
-      "Name": "Luettgen, Cruickshank and Hudson",
-      "ContentType": "sed",
-      "AttSize": 612,
+      "AttachmentId": 994,
+      "Name": "Macejkovic-Veum",
+      "ContentType": "consequatur",
+      "AttSize": 632,
       "InlineImage": false,
-      "ContentId": "et",
-      "AuthKey": "iste",
-      "IsSafeFileExtension": true,
+      "ContentId": "tempora",
+      "AuthKey": "magni",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 201
+          "FieldLength": 982
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "voluptates",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "earum",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "impedit"
+    "CustomFields1": "a",
+    "CustomFields2": "esse"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 497
+      "FieldLength": 654
     }
   }
 }

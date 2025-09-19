@@ -121,18 +121,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "officiis",
+    "path": "quod",
     "value": {}
   },
   {
     "op": "add",
-    "path": "officiis",
+    "path": "quod",
     "value": {}
   }
 ]
@@ -145,27 +145,27 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 140,
-  "Name": "Corwin, Tremblay and Jewess",
+  "ScreenChooserId": 801,
+  "Name": "Cronin-Harvey",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "omnis",
-  "Source": "fuga",
-  "Registered": "2008-11-18T03:47:00.3943072+01:00",
-  "RegisteredAssociateId": 701,
-  "Updated": "2008-12-25T03:47:00.3943072+01:00",
-  "UpdatedAssociateId": 829,
+  "Enabled": true,
+  "UniqueIdentifier": "neque",
+  "Source": "velit",
+  "Registered": "1999-12-07T03:41:59.1679969+01:00",
+  "RegisteredAssociateId": 458,
+  "Updated": "1998-08-23T03:41:59.1679969+02:00",
+  "UpdatedAssociateId": 376,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 276
+      "FieldLength": 89
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

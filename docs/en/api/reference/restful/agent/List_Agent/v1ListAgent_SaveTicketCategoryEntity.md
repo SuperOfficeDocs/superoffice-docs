@@ -98,33 +98,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 997,
-  "ParentId": 617,
-  "Name": "Bahringer-Turner",
-  "Fullname": "cupiditate",
-  "CategoryMaster": 741,
+  "TicketCategoryId": 148,
+  "ParentId": 648,
+  "Name": "Beier, Carroll and Quigley",
+  "Fullname": "alias",
+  "CategoryMaster": 447,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Cremin LLC",
+  "ExternalName": "Altenwerth Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 735,
-  "ReplyTemplate": 307,
-  "NotificationEmail": "viola@christiansen.uk",
+  "AssignmentLag": 93,
+  "ReplyTemplate": 266,
+  "NotificationEmail": "art.collier@murphy.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 392,
+  "EffectiveReplyTemplateId": 372,
   "ExtraFields": {
-    "ExtraFields1": "in",
-    "ExtraFields2": "eveniet"
+    "ExtraFields1": "repellat",
+    "ExtraFields2": "doloremque"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "vel"
+    "CustomFields1": "totam",
+    "CustomFields2": "ut"
   }
 }
 ```
@@ -136,36 +136,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 383,
-  "ParentId": 585,
-  "Name": "Reinger, Bergnaum and Lind",
-  "Fullname": "distinctio",
-  "CategoryMaster": 632,
+  "TicketCategoryId": 84,
+  "ParentId": 824,
+  "Name": "Considine Group",
+  "Fullname": "qui",
+  "CategoryMaster": 351,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Howell, Considine and Bradtke",
+  "ExternalName": "Kihn-Christiansen",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 298,
-  "ReplyTemplate": 921,
-  "NotificationEmail": "mitchell.glover@huelwitting.us",
+  "AssignmentLag": 646,
+  "ReplyTemplate": 293,
+  "NotificationEmail": "lelah@mcdermottbergnaum.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 902,
+  "EffectiveReplyTemplateId": 869,
   "ExtraFields": {
-    "ExtraFields1": "deserunt",
-    "ExtraFields2": "earum"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "eveniet",
-    "CustomFields2": "quo"
+    "CustomFields1": "natus",
+    "CustomFields2": "est"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 793
+      "FieldLength": 754
     }
   }
 }

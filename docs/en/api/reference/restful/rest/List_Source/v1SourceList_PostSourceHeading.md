@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 342,
-  "Name": "Grimes Group",
-  "Tooltip": "est",
+  "HeadingId": 452,
+  "Name": "Gaylord Inc and Sons",
+  "Tooltip": "fugit",
   "Deleted": false,
-  "Rank": 660,
-  "UdListDefinitionId": 14
+  "Rank": 932,
+  "UdListDefinitionId": 343
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 364,
-  "Name": "Pagac LLC",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "Rank": 717,
-  "UdListDefinitionId": 294,
+  "HeadingId": 800,
+  "Name": "Prohaska, Hoppe and Homenick",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "Rank": 933,
+  "UdListDefinitionId": 225,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 444
+      "FieldType": "System.String",
+      "FieldLength": 469
     }
   }
 }

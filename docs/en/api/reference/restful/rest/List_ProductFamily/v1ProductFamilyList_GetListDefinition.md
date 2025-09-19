@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 322,
-  "Name": "Kessler, Bartoletti and Kshlerin",
-  "Tooltip": "commodi",
+  "Id": 621,
+  "Name": "Gerhold-Hammes",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 899,
+  "Rank": 710,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "ListType": "animi",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 959
+      "FieldType": "System.String",
+      "FieldLength": 696
     }
   },
   "_Links": {

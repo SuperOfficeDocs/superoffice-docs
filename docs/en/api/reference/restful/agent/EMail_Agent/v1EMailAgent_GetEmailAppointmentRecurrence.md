@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 152
+  "MailItemId": 724
 }
 ```
 
@@ -100,10 +100,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 757,
-  "StartDate": "2018-11-28T03:46:54.7382579+01:00",
-  "EndDate": "2012-10-26T03:46:54.7382579+02:00",
-  "RecurrenceCounter": 925,
+  "RecurrenceId": 405,
+  "StartDate": "2009-04-14T03:41:53.4963592+02:00",
+  "EndDate": "2004-03-13T03:41:53.4963592+01:00",
+  "RecurrenceCounter": 723,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -112,18 +112,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2015-04-03T03:46:54.7382579+02:00",
-      "IsConflict": true,
-      "Description": "Mandatory multimedia interface",
-      "DescriptionStyleHint": "Reactive actuating pricing structure",
-      "Tooltip": "unde"
+      "Date": "2024-08-18T03:41:53.4963592+02:00",
+      "IsConflict": false,
+      "Description": "Right-sized tangible algorithm",
+      "DescriptionStyleHint": "Customer-focused bi-directional portal",
+      "Tooltip": "eaque"
     },
     {
-      "Date": "2015-04-03T03:46:54.7382579+02:00",
-      "IsConflict": true,
-      "Description": "Mandatory multimedia interface",
-      "DescriptionStyleHint": "Reactive actuating pricing structure",
-      "Tooltip": "unde"
+      "Date": "2024-08-18T03:41:53.4963592+02:00",
+      "IsConflict": false,
+      "Description": "Right-sized tangible algorithm",
+      "DescriptionStyleHint": "Customer-focused bi-directional portal",
+      "Tooltip": "eaque"
     }
   ],
   "IsRecurrence": false

@@ -103,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 880,
-    "Name": "Bruen, Hermann and Torp",
-    "ToolTip": "Fugit similique est.",
+    "Id": 275,
+    "Name": "Dickens-Stehr",
+    "ToolTip": "Et error incidunt doloremque corrupti est quia.",
     "Deleted": false,
-    "Rank": 98,
-    "Type": "eos",
-    "ColorBlock": 358,
-    "IconHint": "quidem",
-    "Selected": false,
-    "LastChanged": "2024-12-14T03:47:00.7536695+01:00",
+    "Rank": 482,
+    "Type": "alias",
+    "ColorBlock": 703,
+    "IconHint": "enim",
+    "Selected": true,
+    "LastChanged": "2010-09-24T03:41:59.558612+02:00",
     "ChildItems": [
       {
-        "Id": 450,
-        "Name": "Koepp-Schneider",
-        "ToolTip": "Praesentium architecto sit velit.",
+        "Id": 888,
+        "Name": "West-Waelchi",
+        "ToolTip": "Aperiam quia.",
         "Deleted": false,
-        "Rank": 89,
-        "Type": "est",
-        "ColorBlock": 309,
-        "IconHint": "occaecati",
-        "Selected": true,
-        "LastChanged": "2017-07-06T03:47:00.7536695+02:00",
+        "Rank": 117,
+        "Type": "eligendi",
+        "ColorBlock": 734,
+        "IconHint": "quis",
+        "Selected": false,
+        "LastChanged": "2010-08-24T03:41:59.558612+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "magnam",
+        "ExtraInfo": "numquam",
+        "StyleHint": "iste",
         "Hidden": false,
-        "FullName": "Kailyn Stokes"
+        "FullName": "Brady Eva Lemke I"
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "accusantium",
-    "Hidden": true,
-    "FullName": "Kelton Barton"
+    "ExtraInfo": "illo",
+    "StyleHint": "sint",
+    "Hidden": false,
+    "FullName": "Miss Adrianna Ullrich I"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 357,
-    "Name": "Lind-Robel",
-    "ToolTip": "Voluptas est saepe id impedit error.",
+    "Id": 847,
+    "Name": "Cassin LLC",
+    "ToolTip": "Neque minima mollitia aut.",
     "Deleted": false,
-    "Rank": 36,
-    "Type": "voluptatum",
-    "ColorBlock": 34,
-    "IconHint": "in",
+    "Rank": 620,
+    "Type": "non",
+    "ColorBlock": 625,
+    "IconHint": "molestias",
     "Selected": false,
-    "LastChanged": "2014-03-22T03:47:00.7536695+01:00",
+    "LastChanged": "1999-05-31T03:41:59.558612+02:00",
     "ChildItems": [
       {
-        "Id": 736,
-        "Name": "Jakubowski Group",
-        "ToolTip": "Non voluptatem.",
-        "Deleted": true,
-        "Rank": 458,
-        "Type": "incidunt",
-        "ColorBlock": 626,
-        "IconHint": "ipsum",
+        "Id": 96,
+        "Name": "Hamill, Eichmann and Emmerich",
+        "ToolTip": "Nostrum est adipisci eum.",
+        "Deleted": false,
+        "Rank": 557,
+        "Type": "est",
+        "ColorBlock": 168,
+        "IconHint": "laudantium",
         "Selected": false,
-        "LastChanged": "2017-12-04T03:47:00.7536695+01:00",
+        "LastChanged": "2010-02-01T03:41:59.558612+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "cupiditate",
+        "ExtraInfo": "culpa",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Ozella Hermann",
+        "FullName": "Mrs. Esther Maeve Zemlak II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 467
+            "FieldType": "System.String",
+            "FieldLength": 922
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "qui",
+    "StyleHint": "libero",
     "Hidden": false,
-    "FullName": "Austin Brown",
+    "FullName": "Kristy Schuster",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 756
+        "FieldType": "System.String",
+        "FieldLength": 542
       }
     }
   }

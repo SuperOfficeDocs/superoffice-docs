@@ -78,16 +78,16 @@ OK
 POST /api/v1/List/ConsentSource/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 676,
-  "Name": "Turner Group",
-  "Tooltip": "eius",
-  "Rank": 26,
-  "Key": "harum",
-  "MailTemplateId": 655,
+  "ConsentSourceId": 279,
+  "Name": "Williamson, Brown and Pollich",
+  "Tooltip": "iusto",
+  "Rank": 452,
+  "Key": "at",
+  "MailTemplateId": 769,
   "Deleted": false
 }
 ```
@@ -99,19 +99,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 192,
-  "Name": "Hartmann-Parker",
-  "Tooltip": "dolor",
-  "Rank": 795,
-  "Key": "tenetur",
-  "MailTemplateId": 187,
+  "ConsentSourceId": 746,
+  "Name": "Frami, Langworth and Gerlach",
+  "Tooltip": "molestiae",
+  "Rank": 649,
+  "Key": "assumenda",
+  "MailTemplateId": 167,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 671
+      "FieldType": "System.Int32",
+      "FieldLength": 364
     }
   }
 }

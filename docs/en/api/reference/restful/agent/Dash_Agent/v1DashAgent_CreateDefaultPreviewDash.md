@@ -71,33 +71,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 605,
-  "Name": "Kunze, Lowe and O'Keefe",
-  "Description": "Future-proofed incremental adapter",
-  "OwnedByFullName": "Miss Erna Kaia Kulas Sr.",
-  "Registered": "2014-12-03T03:46:54.6132622+01:00",
+  "DashboardId": 635,
+  "Name": "Eichmann LLC",
+  "Description": "Organic empowering utilisation",
+  "OwnedByFullName": "Haskell Morissette",
+  "Registered": "2019-03-30T03:41:53.3713643+01:00",
   "Tiles": [
     {
-      "Name": "Keeling Inc and Sons",
+      "Name": "Ryan Group",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 297
+          "FieldType": "System.String",
+          "FieldLength": 728
         }
       }
     },
     {
-      "Name": "Keeling Inc and Sons",
+      "Name": "Ryan Group",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 297
+          "FieldType": "System.String",
+          "FieldLength": 728
         }
       }
     }
@@ -106,8 +106,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 588
+      "FieldType": "System.String",
+      "FieldLength": 859
     }
   }
 }

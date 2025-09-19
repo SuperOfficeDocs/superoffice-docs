@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,21 +85,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 34,
-    "FieldName": "Parker, Stracke and Goodwin",
-    "Label": "vel",
-    "Tooltip": "ut",
+    "QuoteLineConfigurationId": 1002,
+    "FieldName": "Balistreri-Hoeger",
+    "Label": "consequatur",
+    "Tooltip": "ab",
     "Editable": false,
-    "InUse": false,
-    "Mandatory": false,
-    "Rank": 944,
-    "RestrictEdit": false,
+    "InUse": true,
+    "Mandatory": true,
+    "Rank": 159,
+    "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 931
+        "FieldType": "System.String",
+        "FieldLength": 187
       }
     }
   }

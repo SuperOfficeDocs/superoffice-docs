@@ -89,14 +89,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 5,
-  "Channel": "et",
-  "Regarding": "voluptatum",
-  "ContactName": "Leffler LLC",
-  "PersonFirstname": "Charity",
-  "PersonLastname": "Haley",
-  "EmailAddress": "marisol_jakubowski@hintz.co.uk",
-  "PhoneNumber": "830568"
+  "AssociateIdForNewContact": 629,
+  "Channel": "id",
+  "Regarding": "et",
+  "ContactName": "Stehr, Macejkovic and Armstrong",
+  "PersonFirstname": "Arch",
+  "PersonLastname": "Hermiston",
+  "EmailAddress": "santiago@schinnerkoepp.info",
+  "PhoneNumber": "1388607"
 }
 ```
 
@@ -109,36 +109,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 611,
-      "Name": "Smith, Connelly and Kris",
-      "OrgNr": "601005",
+      "ContactId": 994,
+      "Name": "Kuvalis, Huels and Kozey",
+      "OrgNr": "915565",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "est",
-      "DirectPhone": "1-288-642-6881 x837",
-      "AssociateId": 542,
-      "CountryId": 438,
-      "EmailAddress": "sheila.collier@boganjohns.co.uk",
-      "Kananame": "architecto",
-      "EmailAddressName": "ona@paucek.ca",
+      "City": "et",
+      "DirectPhone": "1-766-405-5545 x44695",
+      "AssociateId": 841,
+      "CountryId": 550,
+      "EmailAddress": "kaleb.tremblay@mayer.biz",
+      "Kananame": "minus",
+      "EmailAddressName": "rudolph@lemke.uk",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Diamond Nikolaus",
+      "AssociateFullName": "Keira Hane",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "in",
-      "FullName": "Dillon Sauer",
+      "FormattedAddress": "voluptatem",
+      "FullName": "Kim Funk",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 926,
-      "Number1": "1131064",
-      "Number2": "904984",
+      "ActiveErpLinks": 911,
+      "Number1": "729581",
+      "Number2": "1167682",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 885
+          "FieldLength": 432
         }
       }
     }
@@ -150,7 +150,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 447
+      "FieldLength": 112
     }
   }
 }

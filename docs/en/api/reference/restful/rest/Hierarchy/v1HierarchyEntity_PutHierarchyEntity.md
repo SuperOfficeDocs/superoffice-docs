@@ -98,36 +98,36 @@ HierarchyEntity updated.
 PUT /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 964,
+  "HierarchyId": 753,
   "Domain": "Dashboards",
-  "Name": "D'Amore Inc and Sons",
-  "Fullname": "reiciendis",
-  "ParentId": 401,
+  "Name": "Stokes-Feest",
+  "Fullname": "ea",
+  "ParentId": 87,
   "Children": [
     {
-      "HierarchyId": 860,
+      "HierarchyId": 8,
       "Domain": "Dashboards",
-      "Name": "Crist, Gislason and Bruen",
-      "Fullname": "officiis",
-      "ParentId": 916,
+      "Name": "Ziemann Group",
+      "Fullname": "et",
+      "ParentId": 197,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2019-06-08T03:47:00.0349452+02:00",
-      "RegisteredAssociateId": 977,
-      "Updated": "2007-04-14T03:47:00.0349452+02:00",
-      "UpdatedAssociateId": 898
+      "Registered": "2012-05-16T03:41:58.7773879+02:00",
+      "RegisteredAssociateId": 67,
+      "Updated": "2021-03-11T03:41:58.7773879+01:00",
+      "UpdatedAssociateId": 858
     }
   ],
-  "Registered": "2002-02-03T03:47:00.0349452+01:00",
-  "RegisteredAssociateId": 228,
-  "Updated": "2016-10-30T03:47:00.0349452+01:00",
-  "UpdatedAssociateId": 852
+  "Registered": "2008-04-09T03:41:58.7773879+02:00",
+  "RegisteredAssociateId": 240,
+  "Updated": "2023-08-14T03:41:58.7773879+02:00",
+  "UpdatedAssociateId": 521
 }
 ```
 
@@ -138,46 +138,46 @@ HTTP/1.1 200 HierarchyEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 732,
+  "HierarchyId": 318,
   "Domain": "Dashboards",
-  "Name": "Smitham-McClure",
-  "Fullname": "ducimus",
-  "ParentId": 86,
+  "Name": "Zulauf-Rath",
+  "Fullname": "laboriosam",
+  "ParentId": 834,
   "Children": [
     {
-      "HierarchyId": 463,
+      "HierarchyId": 541,
       "Domain": "Dashboards",
-      "Name": "Durgan-Bode",
-      "Fullname": "dolores",
-      "ParentId": 127,
+      "Name": "Rau LLC",
+      "Fullname": "non",
+      "ParentId": 64,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2012-12-08T03:47:00.0349452+01:00",
-      "RegisteredAssociateId": 168,
-      "Updated": "1998-07-10T03:47:00.0349452+02:00",
-      "UpdatedAssociateId": 902,
+      "Registered": "2004-03-02T03:41:58.7773879+01:00",
+      "RegisteredAssociateId": 478,
+      "Updated": "2020-01-15T03:41:58.7773879+01:00",
+      "UpdatedAssociateId": 247,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 292
+          "FieldLength": 187
         }
       }
     }
   ],
-  "Registered": "2004-06-04T03:47:00.0349452+02:00",
-  "RegisteredAssociateId": 31,
-  "Updated": "2010-02-20T03:47:00.0349452+01:00",
-  "UpdatedAssociateId": 347,
+  "Registered": "2007-10-11T03:41:58.7773879+02:00",
+  "RegisteredAssociateId": 120,
+  "Updated": "2008-11-03T03:41:58.7773879+01:00",
+  "UpdatedAssociateId": 982,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldLength": 492
     }
   },
   "_Links": {

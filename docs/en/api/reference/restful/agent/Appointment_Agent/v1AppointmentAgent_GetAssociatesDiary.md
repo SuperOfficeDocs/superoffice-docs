@@ -130,16 +130,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    377,
-    964
+    251,
+    930
   ],
-  "StartTime": "2000-10-20T03:46:54.0039095+02:00",
-  "EndTime": "2018-10-21T03:46:54.0039095+02:00"
+  "StartTime": "2021-04-10T03:41:52.793262+02:00",
+  "EndTime": "2012-12-11T03:41:52.793262+01:00"
 }
 ```
 
@@ -151,67 +151,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 644,
-    "StartDate": "2002-10-21T03:46:54.0195335+02:00",
-    "EndDate": "2014-08-17T03:46:54.0195335+02:00",
+    "AppointmentId": 496,
+    "StartDate": "2021-02-25T03:41:52.793262+01:00",
+    "EndDate": "2023-03-03T03:41:52.793262+01:00",
     "Type": "BookingForChecklist",
-    "Task": "temporibus",
-    "AssociateFullName": "Maximillia Wunsch",
-    "ContactName": "Cummings, Morissette and Mayert",
-    "Description": "Intuitive actuating structure",
-    "PersonFullName": "Santa Daugherty",
-    "PersonId": 622,
-    "ContactId": 97,
-    "ProjectId": 76,
-    "ProjectName": "Wunsch, Lakin and Abernathy",
+    "Task": "et",
+    "AssociateFullName": "Miss Maryam Emard II",
+    "ContactName": "Douglas LLC",
+    "Description": "Object-based exuding throughput",
+    "PersonFullName": "Sandy Stehr",
+    "PersonId": 444,
+    "ContactId": 937,
+    "ProjectId": 30,
+    "ProjectName": "Metz-Dickens",
     "IsPublished": true,
-    "AssociateId": 928,
-    "ColorIndex": 512,
+    "AssociateId": 860,
+    "ColorIndex": 50,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 449,
-    "PriorityName": "Stehr Inc and Sons",
+    "PriorityId": 850,
+    "PriorityName": "Donnelly-Casper",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2020-11-05T03:46:54.0195335+01:00",
+    "ActiveDate": "2011-07-28T03:41:52.793262+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-10-10T03:46:54.0195335+02:00",
-    "RecurringEndDate": "2023-10-14T03:46:54.0195335+02:00",
-    "MotherId": 252,
-    "AssignedBy": 735,
-    "AssignedByFullName": "Mercedes McCullough",
-    "RejectReason": "matrix strategic interfaces",
-    "Location": "repudiandae",
-    "AlarmLeadTime": "quis",
-    "SaleId": 252,
-    "SaleName": "Hansen, Jerde and Leannon",
-    "AssociateName": "Bruen-Abbott",
-    "CreatedDate": "2022-05-31T03:46:54.0195335+02:00",
-    "CreatedBy": "molestiae",
-    "CreatedByFullName": "Mr. Amparo Charlene Anderson",
-    "CreatedByAssociateId": 360,
+    "RecurringStartDate": "2001-01-21T03:41:52.793262+01:00",
+    "RecurringEndDate": "2006-06-10T03:41:52.793262+02:00",
+    "MotherId": 693,
+    "AssignedBy": 273,
+    "AssignedByFullName": "Abbie Anya Leffler DVM",
+    "RejectReason": "",
+    "Location": "voluptatem",
+    "AlarmLeadTime": "vitae",
+    "SaleId": 567,
+    "SaleName": "Heidenreich-Weber",
+    "AssociateName": "Runolfsdottir-Pfannerstill",
+    "CreatedDate": "2015-05-07T03:41:52.793262+02:00",
+    "CreatedBy": "quidem",
+    "CreatedByFullName": "Terrence Morar DVM",
+    "CreatedByAssociateId": 409,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 230,
+    "MotherAssociateId": 839,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 2,
-    "Title": "odio",
-    "Agenda": "enim",
-    "InternalNotes": "odio",
+    "PreferredTZLocation": 127,
+    "Title": "quos",
+    "Agenda": "dolorem",
+    "InternalNotes": "nesciunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 121
+        "FieldType": "System.Int32",
+        "FieldLength": 50
       }
     }
   }

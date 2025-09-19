@@ -68,13 +68,13 @@ No Content
 POST /api/v1/Agents/Resource/SetResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Witting, Ernser and Ondricka",
-  "ResourceValues": "sit",
-  "Culture": "soluta",
+  "ResourceName": "Keeling LLC",
+  "ResourceValues": "recusandae",
+  "Culture": "ipsum",
   "IsActive": false
 }
 ```

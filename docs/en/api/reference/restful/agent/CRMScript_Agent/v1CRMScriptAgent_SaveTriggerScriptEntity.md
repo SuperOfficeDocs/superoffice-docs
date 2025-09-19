@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 86,
-  "Name": "Marvin Inc and Sons",
+  "ScreenChooserId": 981,
+  "Name": "Sipes Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "blanditiis",
-  "Source": "reiciendis",
-  "Registered": "2008-10-07T03:46:54.5820132+02:00",
-  "RegisteredAssociateId": 951,
-  "Updated": "2019-11-01T03:46:54.5820132+01:00",
-  "UpdatedAssociateId": 110
+  "Enabled": true,
+  "UniqueIdentifier": "non",
+  "Source": "vitae",
+  "Registered": "2004-03-18T03:41:53.3401161+01:00",
+  "RegisteredAssociateId": 631,
+  "Updated": "2001-06-19T03:41:53.3401161+02:00",
+  "UpdatedAssociateId": 489
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 934,
-  "Name": "Senger Group",
+  "ScreenChooserId": 770,
+  "Name": "Rowe, Hessel and McCullough",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "aliquam",
-  "Source": "voluptates",
-  "Registered": "2021-03-18T03:46:54.5820132+01:00",
-  "RegisteredAssociateId": 825,
-  "Updated": "1999-07-22T03:46:54.5820132+02:00",
-  "UpdatedAssociateId": 577,
+  "UniqueIdentifier": "placeat",
+  "Source": "aspernatur",
+  "Registered": "2005-03-14T03:41:53.3401161+01:00",
+  "RegisteredAssociateId": 772,
+  "Updated": "2020-03-27T03:41:53.3401161+01:00",
+  "UpdatedAssociateId": 223,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 533
+      "FieldType": "System.Int32",
+      "FieldLength": 203
     }
   }
 }

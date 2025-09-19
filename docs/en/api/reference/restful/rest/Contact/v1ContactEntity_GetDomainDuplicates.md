@@ -75,17 +75,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Mills-Boehm",
-    "SoPrimaryKey": 312,
-    "EntryName": "Schneider-Quigley",
-    "EntryIdentifier": "libero",
-    "RuleDisplayName": "Johns, Jacobs and Moen",
+    "RuleName": "Wilkinson LLC",
+    "SoPrimaryKey": 706,
+    "EntryName": "Parker-Bogan",
+    "EntryIdentifier": "ut",
+    "RuleDisplayName": "Hintz, Armstrong and Sanford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 401
+        "FieldType": "System.String",
+        "FieldLength": 784
       }
     }
   }

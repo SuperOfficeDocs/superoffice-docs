@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 114,
-    "Name": "Runte, Bednar and Hahn",
-    "Tooltip": "a",
-    "Deleted": false,
-    "Rank": 602,
-    "UdListDefinitionId": 784
+    "HeadingId": 855,
+    "Name": "Kuhlman LLC",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "Rank": 559,
+    "UdListDefinitionId": 445
   },
   {
-    "HeadingId": 114,
-    "Name": "Runte, Bednar and Hahn",
-    "Tooltip": "a",
-    "Deleted": false,
-    "Rank": 602,
-    "UdListDefinitionId": 784
+    "HeadingId": 855,
+    "Name": "Kuhlman LLC",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "Rank": 559,
+    "UdListDefinitionId": 445
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 552,
-    "Name": "O'Keefe-Greenholt",
-    "Tooltip": "quae",
+    "HeadingId": 622,
+    "Name": "Bruen-Spencer",
+    "Tooltip": "hic",
     "Deleted": true,
-    "Rank": 205,
-    "UdListDefinitionId": 168,
+    "Rank": 431,
+    "UdListDefinitionId": 569,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 963
+        "FieldType": "System.Int32",
+        "FieldLength": 10
       }
     }
   }

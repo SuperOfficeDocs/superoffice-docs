@@ -27,7 +27,7 @@ Gets a Sale object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSale?saleId=27
+POST /api/v1/Agents/Sale/GetSale?saleId=391
 POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Sale/GetSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Gerhold, Predovic and Adams",
-  "SaleDate": "2009-03-07T03:46:55.2382402+01:00",
-  "SaleId": 600,
-  "Probability": 214,
-  "Title": "ipsa",
-  "Amount": 25595.378,
-  "Currency": "deleniti",
-  "ProjectName": "Hessel, Carter and Moen",
-  "AssociateFullName": "Reed White IV",
-  "Description": "Horizontal motivating info-mediaries",
+  "ContactName": "Bergstrom LLC",
+  "SaleDate": "2008-10-24T03:41:53.9807136+02:00",
+  "SaleId": 820,
+  "Probability": 817,
+  "Title": "deleniti",
+  "Amount": 23965.698,
+  "Currency": "ipsam",
+  "ProjectName": "Gerhold Group",
+  "AssociateFullName": "Mrs. Madie Helene Veum",
+  "Description": "Cross-group exuding structure",
   "Status": "Lost",
-  "WeightedAmount": 11276.132,
-  "ProjectId": 491,
-  "EarningPercent": 3102.66,
-  "Earning": 11467.306,
-  "ContactId": 169,
-  "AssociateId": 112,
-  "PersonId": 237,
-  "SaleTypeId": 809,
-  "SaleTypeName": "Morissette-Beer",
-  "PersonFullName": "Gust Hilll",
+  "WeightedAmount": 9383.196,
+  "ProjectId": 11,
+  "EarningPercent": 4444.012,
+  "Earning": 5324.666,
+  "ContactId": 133,
+  "AssociateId": 812,
+  "PersonId": 544,
+  "SaleTypeId": 396,
+  "SaleTypeName": "Flatley-Conn",
+  "PersonFullName": "Silas Johns",
   "Completed": "Completed",
-  "ActiveErpLinks": 214,
-  "NextDueDate": "2002-02-21T03:46:55.2382402+01:00",
-  "Number": "1260081",
+  "ActiveErpLinks": 137,
+  "NextDueDate": "2025-04-06T03:41:53.9807136+02:00",
+  "Number": "1130759",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 813
+      "FieldLength": 823
     }
   }
 }

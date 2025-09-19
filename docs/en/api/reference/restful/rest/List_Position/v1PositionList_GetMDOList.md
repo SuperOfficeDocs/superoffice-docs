@@ -28,7 +28,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=nihil
+GET /api/v1/List/Position/MDOItems?query=soluta
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 204,
-    "Name": "Rutherford LLC",
-    "ToolTip": "Nihil architecto amet perferendis suscipit dolores.",
-    "Deleted": false,
-    "Rank": 616,
-    "Type": "sit",
+    "Id": 310,
+    "Name": "Bode Inc and Sons",
+    "ToolTip": "Labore omnis qui aperiam magnam.",
+    "Deleted": true,
+    "Rank": 266,
+    "Type": "dicta",
     "ChildItems": [
       {
-        "Id": 932,
-        "Name": "Leuschke-Bode",
-        "ToolTip": "Dolores dolores deserunt ut officiis.",
+        "Id": 700,
+        "Name": "Barrows LLC",
+        "ToolTip": "Ea adipisci porro in aut.",
         "Deleted": false,
-        "Rank": 788,
-        "Type": "repellat",
+        "Rank": 858,
+        "Type": "dolore",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nulla",
-        "ColorBlock": 55,
-        "ExtraInfo": "error",
-        "StyleHint": "optio",
-        "FullName": "Janick Waldo Williamson IV",
+        "IconHint": "mollitia",
+        "ColorBlock": 978,
+        "ExtraInfo": "quam",
+        "StyleHint": "aliquam",
+        "FullName": "Allison Wuckert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 662
+            "FieldLength": 97
           }
         }
       }
     ],
-    "IconHint": "blanditiis",
-    "ColorBlock": 618,
-    "ExtraInfo": "est",
-    "StyleHint": "vero",
-    "FullName": "Kasandra Sawayn",
+    "IconHint": "qui",
+    "ColorBlock": 690,
+    "ExtraInfo": "possimus",
+    "StyleHint": "delectus",
+    "FullName": "Shania Bernice Legros Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 497
+        "FieldType": "System.Int32",
+        "FieldLength": 887
       }
     }
   }

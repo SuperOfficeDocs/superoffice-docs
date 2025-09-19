@@ -116,11 +116,11 @@ OK
 POST /api/v1/Agents/EMail/GetPersonsFromEmailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "emmitt@ohara.com"
+  "EmailAddress": "kenton_medhurst@gutkowskiortiz.com"
 }
 ```
 
@@ -132,53 +132,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "beatae",
-    "PersonId": 157,
-    "Mrmrs": "enim",
-    "Firstname": "Alvis",
-    "Lastname": "Ullrich",
-    "MiddleName": "Gulgowski-Towne",
-    "Title": "dicta",
-    "Description": "Optional grid-enabled parallelism",
-    "Email": "quincy@connjohnston.info",
-    "FullName": "Marilyne Ruecker",
-    "DirectPhone": "417-805-8777 x7186",
-    "FormalName": "Haag Group",
-    "CountryId": 781,
-    "ContactId": 522,
-    "ContactName": "Heller, Macejkovic and Upton",
-    "Retired": 160,
-    "Rank": 472,
-    "ActiveInterests": 387,
-    "ContactDepartment": "evolve out-of-the-box supply-chains",
-    "ContactCountryId": 467,
-    "ContactOrgNr": "650923",
-    "FaxPhone": "384-971-5534 x602",
-    "MobilePhone": "487.268.5775",
-    "ContactPhone": "995-933-7431 x53054",
-    "AssociateName": "Oberbrunner LLC",
-    "AssociateId": 138,
-    "UsePersonAddress": false,
-    "ContactFax": "consequatur",
-    "Kanafname": "quia",
-    "Kanalname": "quae",
-    "Post1": "aut",
-    "Post2": "impedit",
-    "Post3": "mollitia",
-    "EmailName": "myrl@damore.biz",
-    "ContactFullName": "Evans Connelly",
-    "ActiveErpLinks": 346,
-    "TicketPriorityId": 740,
-    "SupportLanguageId": 708,
-    "SupportAssociateId": 239,
+    "Position": "a",
+    "PersonId": 848,
+    "Mrmrs": "maxime",
+    "Firstname": "Keagan",
+    "Lastname": "Schowalter",
+    "MiddleName": "Rutherford, Streich and Kessler",
+    "Title": "laborum",
+    "Description": "Networked client-driven moratorium",
+    "Email": "marlon@weimannschoen.co.uk",
+    "FullName": "Maymie Kassulke",
+    "DirectPhone": "(552)462-6039 x303",
+    "FormalName": "Balistreri, Hand and Hirthe",
+    "CountryId": 118,
+    "ContactId": 253,
+    "ContactName": "Kerluke Group",
+    "Retired": 811,
+    "Rank": 654,
+    "ActiveInterests": 757,
+    "ContactDepartment": "",
+    "ContactCountryId": 350,
+    "ContactOrgNr": "403004",
+    "FaxPhone": "719-847-8616 x4496",
+    "MobilePhone": "(883)187-1008",
+    "ContactPhone": "1-663-750-4120 x933",
+    "AssociateName": "Lesch LLC",
+    "AssociateId": 843,
+    "UsePersonAddress": true,
+    "ContactFax": "sit",
+    "Kanafname": "velit",
+    "Kanalname": "incidunt",
+    "Post1": "maiores",
+    "Post2": "officia",
+    "Post3": "inventore",
+    "EmailName": "alyce_zulauf@hermiston.com",
+    "ContactFullName": "Brendon Beer",
+    "ActiveErpLinks": 39,
+    "TicketPriorityId": 372,
+    "SupportLanguageId": 940,
+    "SupportAssociateId": 962,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1111522",
+    "PersonNumber": "1543123",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 360
+        "FieldType": "System.Int32",
+        "FieldLength": 466
       }
     }
   }

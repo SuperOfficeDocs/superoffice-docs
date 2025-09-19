@@ -90,15 +90,15 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 605,
-  "PrefDescId": 240,
-  "PrefValue": "qui",
-  "PrefShowValue": "recusandae",
-  "Description": "Open-source actuating encoding",
+  "PrefDescLineId": 603,
+  "PrefDescId": 182,
+  "PrefValue": "labore",
+  "PrefShowValue": "reiciendis",
+  "Description": "Programmable directional attitude",
   "IsBuiltin": false
 }
 ```
@@ -110,18 +110,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 72,
-  "PrefDescId": 32,
-  "PrefValue": "aliquid",
-  "PrefShowValue": "in",
-  "Description": "Cross-platform object-oriented extranet",
-  "IsBuiltin": false,
+  "PrefDescLineId": 779,
+  "PrefDescId": 243,
+  "PrefValue": "expedita",
+  "PrefShowValue": "aperiam",
+  "Description": "Proactive real-time hardware",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 76
+      "FieldType": "System.Int32",
+      "FieldLength": 778
     }
   },
   "_Links": {

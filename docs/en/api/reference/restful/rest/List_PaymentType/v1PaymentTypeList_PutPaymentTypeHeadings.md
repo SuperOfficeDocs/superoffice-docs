@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 98,
-    "Name": "Brakus-Hane",
-    "Tooltip": "et",
+    "HeadingId": 369,
+    "Name": "Gottlieb, Prosacco and Osinski",
+    "Tooltip": "error",
     "Deleted": false,
-    "Rank": 766,
-    "UdListDefinitionId": 453
+    "Rank": 864,
+    "UdListDefinitionId": 386
   },
   {
-    "HeadingId": 98,
-    "Name": "Brakus-Hane",
-    "Tooltip": "et",
+    "HeadingId": 369,
+    "Name": "Gottlieb, Prosacco and Osinski",
+    "Tooltip": "error",
     "Deleted": false,
-    "Rank": 766,
-    "UdListDefinitionId": 453
+    "Rank": 864,
+    "UdListDefinitionId": 386
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 799,
-    "Name": "Schuster LLC",
-    "Tooltip": "libero",
+    "HeadingId": 982,
+    "Name": "Daniel, Gerlach and Bode",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 830,
-    "UdListDefinitionId": 847,
+    "Rank": 75,
+    "UdListDefinitionId": 881,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 251
+        "FieldType": "System.String",
+        "FieldLength": 369
       }
     }
   }

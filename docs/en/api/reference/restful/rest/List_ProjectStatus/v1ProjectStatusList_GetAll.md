@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 353,
-    "Name": "Hoppe LLC",
-    "Tooltip": "quod",
+    "Id": 302,
+    "Name": "Klocko, Stehr and Borer",
+    "Tooltip": "ad",
     "Deleted": false,
-    "UdListDefinitionId": 498,
-    "Rank": 428,
+    "UdListDefinitionId": 959,
+    "Rank": 196,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 871
+        "FieldLength": 955
       }
     }
   }

@@ -84,26 +84,26 @@ OK
 POST /api/v1/Agents/Find/FindWithColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quod",
-  "ProviderName": "Legros Group",
-  "StorageKey": "praesentium",
+  "StorageType": "in",
+  "ProviderName": "Hagenes-Prohaska",
+  "StorageKey": "voluptatem",
   "DesiredColumns": [
-    "architecto",
-    "doloribus"
+    "repellendus",
+    "nulla"
   ],
-  "PageSize": 231,
-  "PageNumber": 364,
+  "PageSize": 962,
+  "PageNumber": 493,
   "OrderBy": [
     {
-      "Name": "Larson, Gerhold and Stark",
+      "Name": "O'Reilly-Abernathy",
       "Direction": "ASC"
     },
     {
-      "Name": "Larson, Gerhold and Stark",
+      "Name": "O'Reilly-Abernathy",
       "Direction": "ASC"
     }
   ]
@@ -119,51 +119,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "McLaughlin Group",
-      "DisplayTooltip": "explicabo",
-      "DisplayType": "maxime",
+      "DisplayName": "Goldner LLC",
+      "DisplayTooltip": "aspernatur",
+      "DisplayType": "voluptate",
       "CanOrderBy": false,
-      "Name": "Anderson-O'Hara",
+      "Name": "Stoltenberg-Anderson",
       "CanRestrictBy": false,
-      "RestrictionType": "labore",
-      "RestrictionListName": "King Inc and Sons",
+      "RestrictionType": "suscipit",
+      "RestrictionListName": "Gorczany-Kub",
       "IsVisible": true,
-      "ExtraInfo": "dolores",
-      "Width": "laboriosam",
-      "IconHint": "ut",
-      "HeadingIconHint": "mollitia"
+      "ExtraInfo": "eligendi",
+      "Width": "excepturi",
+      "IconHint": "similique",
+      "HeadingIconHint": "et"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Rodriguez Inc and Sons",
-      "PrimaryKey": 676,
+      "EntityName": "Nikolaus, Lehner and Gutmann",
+      "PrimaryKey": 686,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "minus",
-          "TooltipHint": "nisi",
-          "LinkHint": "magni"
+          "DisplayValue": "et",
+          "TooltipHint": "minima",
+          "LinkHint": "vel"
         }
       },
-      "LinkHint": "voluptate",
-      "StyleHint": "alias",
+      "LinkHint": "ipsa",
+      "StyleHint": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 823
+          "FieldType": "System.Int32",
+          "FieldLength": 259
         }
       }
     }
   ],
-  "RowCount": 400,
+  "RowCount": 880,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 606
+      "FieldType": "System.String",
+      "FieldLength": 624
     }
   }
 }

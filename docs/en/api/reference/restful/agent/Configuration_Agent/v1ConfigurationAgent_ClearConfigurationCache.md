@@ -73,9 +73,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "et",
-  "Instance": "accusamus",
-  "ForAllAssociates": true
+  "Application": "repudiandae",
+  "Instance": "nulla",
+  "ForAllAssociates": false
 }
 ```
 

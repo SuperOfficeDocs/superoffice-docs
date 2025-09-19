@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 218,
-  "Name": "Shanahan Inc and Sons",
-  "Tooltip": "in",
-  "Deleted": true,
-  "Rank": 859,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "provident",
+  "Id": 539,
+  "Name": "Collier Group",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 153,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "cumque",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 593
+      "FieldType": "System.Int32",
+      "FieldLength": 381
     }
   },
   "_Links": {

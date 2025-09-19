@@ -37,7 +37,7 @@ Calls the User agent service GetUser.
 
 ```http
 GET /api/v1/User/{id}?$select=name,department,category/id
-GET /api/v1/User/{id}?fk=True
+GET /api/v1/User/{id}?fk=False
 ```
 
 
@@ -103,7 +103,7 @@ User found.
 GET /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -113,14 +113,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 150,
-  "Name": "Terry-Volkman",
-  "Rank": 227,
-  "Tooltip": "sit",
+  "AssociateId": 928,
+  "Name": "Schoen, Wiegand and O'Keefe",
+  "Rank": 59,
+  "Tooltip": "fugit",
   "LicenseOwners": [
     {
-      "Name": "Kohler, Sipes and Bosco",
-      "Description": "Visionary dynamic hub",
+      "Name": "Pollich Inc and Sons",
+      "Description": "Universal zero administration workforce",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -133,14 +133,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 777
+          "FieldType": "System.Int32",
+          "FieldLength": 754
         }
       }
     },
     {
-      "Name": "Kohler, Sipes and Bosco",
-      "Description": "Visionary dynamic hub",
+      "Name": "Pollich Inc and Sons",
+      "Description": "Universal zero administration workforce",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 777
+          "FieldType": "System.Int32",
+          "FieldLength": 754
         }
       }
     }
@@ -163,110 +163,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "deleniti",
-      "Tooltip": "distinctio",
-      "Id": 271,
-      "Rank": 92,
+      "Value": "at",
+      "Tooltip": "consequuntur",
+      "Id": 243,
+      "Rank": 143,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 414
+          "FieldLength": 468
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "1999-12-24T03:47:00.5193028+01:00",
-  "Lastlogout": "2006-08-17T03:47:00.5193028+02:00",
-  "EjUserId": 677,
-  "RequestSignature": "et",
+  "Deleted": true,
+  "Lastlogin": "2017-01-31T03:41:59.2304945+01:00",
+  "Lastlogout": "2016-04-03T03:41:59.2304945+02:00",
+  "EjUserId": 52,
+  "RequestSignature": "occaecati",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsPersonRetired": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "est",
-      "DisplayValue": "et",
+      "Value": "provident",
+      "DisplayValue": "vero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 297
+          "FieldLength": 435
         }
       }
     },
     {
       "Type": null,
-      "Value": "est",
-      "DisplayValue": "et",
+      "Value": "provident",
+      "DisplayValue": "vero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 297
+          "FieldLength": 435
         }
       }
     }
   ],
-  "UserName": "Kutch Group",
+  "UserName": "Pollich LLC",
   "TicketCategories": [
     {
-      "Id": 531,
-      "Name": "King-Stracke",
-      "ToolTip": "Officiis esse ut illo in quos quis quod.",
+      "Id": 528,
+      "Name": "Ward, Hegmann and Walker",
+      "ToolTip": "Voluptates ipsam deleniti deleniti fugit sint illo.",
       "Deleted": false,
-      "Rank": 109,
-      "Type": "modi",
+      "Rank": 445,
+      "Type": "minima",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eum",
-      "ColorBlock": 287,
-      "ExtraInfo": "provident",
-      "StyleHint": "reprehenderit",
-      "FullName": "Miss Fletcher Rowan Bahringer Jr.",
+      "IconHint": "nisi",
+      "ColorBlock": 707,
+      "ExtraInfo": "consequatur",
+      "StyleHint": "ratione",
+      "FullName": "Adah Lemke",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 520
+          "FieldLength": 692
         }
       }
     }
   ],
-  "NickName": "Daniel LLC",
-  "WaitingForApproval": false,
+  "NickName": "Ebert, Wolf and Ryan",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "quibusdam"
+    "CustomFields1": "sunt",
+    "CustomFields2": "consectetur"
   },
   "PostSaveCommands": [
     {
-      "Name": "Haley-Botsford",
-      "DisplayName": "Prosacco Group",
-      "Description": "Balanced analyzing customer loyalty",
-      "ToolTip": "Qui dolorem nemo.",
+      "Name": "Heaney-Kuhic",
+      "DisplayName": "Toy, West and Luettgen",
+      "Description": "Front-line full-range methodology",
+      "ToolTip": "Mollitia eius aut id consequuntur quos dignissimos architecto.",
       "Actions": "Implicit",
-      "ActionData": "dignissimos",
+      "ActionData": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 244
+          "FieldLength": 530
         }
       }
     }
@@ -276,12 +276,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 190
+      "FieldLength": 302
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

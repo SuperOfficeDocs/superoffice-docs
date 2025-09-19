@@ -81,7 +81,7 @@ Entity to be checked for errors.
 | ActiveErpLinks | Integer | The number of active erp links |
 | BounceEmails | Array | Email addresses with a positive bounce counter. |
 | Domains | Array | Web domains for this contact, ordered in array by rank |
-| InitialUtmParameters | InitalUtmParameters | Initial utm parameters when creating first person, readonly field |
+| UtmParameters | SavedUtmParameters | Utm parameters when creating first person and contact, readonly field |
 | UserDefinedFields | Object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | Object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | Object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.ContactEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -103,89 +103,89 @@ OK
 POST /api/v1/Contact/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 832,
-  "Name": "Leuschke-Stoltenberg",
+  "ContactId": 871,
+  "Name": "Rowe, Bartell and Mante",
   "Department": "",
-  "OrgNr": "993659",
-  "Number1": "597957",
-  "Number2": "851663",
-  "UpdatedDate": "2015-01-17T03:46:59.8786923+01:00",
-  "CreatedDate": "2017-02-27T03:46:59.8786923+01:00",
+  "OrgNr": "1059872",
+  "Number1": "642307",
+  "Number2": "1449081",
+  "UpdatedDate": "2007-09-01T03:41:58.6211452+02:00",
+  "CreatedDate": "2024-02-08T03:41:58.6211452+01:00",
   "Emails": [
     {
-      "Value": "aut",
-      "StrippedValue": "tempora",
-      "Description": "Business-focused systematic hub"
+      "Value": "dicta",
+      "StrippedValue": "quis",
+      "Description": "Profound content-based productivity"
     },
     {
-      "Value": "aut",
-      "StrippedValue": "tempora",
-      "Description": "Business-focused systematic hub"
+      "Value": "dicta",
+      "StrippedValue": "quis",
+      "Description": "Profound content-based productivity"
     }
   ],
   "Interests": [
     {
-      "Id": 727,
-      "Name": "Leuschke Group",
-      "ToolTip": "Quia nihil.",
-      "Deleted": false,
-      "Rank": 618,
-      "Type": "ut",
-      "ColorBlock": 242,
-      "IconHint": "tempora",
-      "Selected": false,
-      "LastChanged": "2020-11-30T03:46:59.8786923+01:00",
+      "Id": 960,
+      "Name": "Weber, Torphy and Abernathy",
+      "ToolTip": "Ea mollitia eos fuga consequuntur veritatis corporis.",
+      "Deleted": true,
+      "Rank": 486,
+      "Type": "possimus",
+      "ColorBlock": 734,
+      "IconHint": "assumenda",
+      "Selected": true,
+      "LastChanged": "1999-04-06T03:41:58.6211452+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "repellat",
-      "StyleHint": "suscipit",
-      "Hidden": false,
-      "FullName": "Dolly Kreiger"
+      "ExtraInfo": "et",
+      "StyleHint": "aliquam",
+      "Hidden": true,
+      "FullName": "Matilde Torp DDS"
     }
   ],
   "Urls": [
     {
-      "Value": "hic",
-      "StrippedValue": "quia",
-      "Description": "Re-engineered human-resource pricing structure"
+      "Value": "ut",
+      "StrippedValue": "et",
+      "Description": "Monitored secondary complexity"
     },
     {
-      "Value": "hic",
-      "StrippedValue": "quia",
-      "Description": "Re-engineered human-resource pricing structure"
+      "Value": "ut",
+      "StrippedValue": "et",
+      "Description": "Monitored secondary complexity"
     }
   ],
   "Phones": [
     {
-      "Value": "suscipit",
-      "StrippedValue": "est",
-      "Description": "Upgradable client-server product"
+      "Value": "quas",
+      "StrippedValue": "dicta",
+      "Description": "Up-sized mission-critical alliance"
     },
     {
-      "Value": "suscipit",
-      "StrippedValue": "est",
-      "Description": "Upgradable client-server product"
+      "Value": "quas",
+      "StrippedValue": "dicta",
+      "Description": "Up-sized mission-critical alliance"
     }
   ],
   "Faxes": [
     {
-      "Value": "harum",
-      "StrippedValue": "animi",
-      "Description": "Reduced even-keeled implementation"
+      "Value": "facere",
+      "StrippedValue": "repellat",
+      "Description": "Configurable neutral local area network"
     },
     {
-      "Value": "harum",
-      "StrippedValue": "animi",
-      "Description": "Reduced even-keeled implementation"
+      "Value": "facere",
+      "StrippedValue": "repellat",
+      "Description": "Configurable neutral local area network"
     }
   ],
-  "Description": "Multi-lateral logistical function",
+  "Description": "Exclusive value-added pricing structure",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -194,87 +194,87 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "vel",
-      "PersonId": 261,
-      "Mrmrs": "iure",
-      "Firstname": "Ocie",
-      "Lastname": "Hane",
-      "MiddleName": "Quigley Inc and Sons",
-      "Title": "officiis",
-      "Description": "Public-key mission-critical infrastructure",
-      "Email": "tod@blicknolan.co.uk",
-      "FullName": "Dr. Paxton Wolf MD",
-      "DirectPhone": "428-073-1781",
-      "FormalName": "Reinger-Hermiston",
-      "CountryId": 926,
-      "ContactId": 41,
-      "ContactName": "Effertz LLC",
-      "Retired": 719,
-      "Rank": 196,
-      "ActiveInterests": 69,
+      "Position": "accusantium",
+      "PersonId": 943,
+      "Mrmrs": "dignissimos",
+      "Firstname": "Mitchel",
+      "Lastname": "Hahn",
+      "MiddleName": "Keebler-Ledner",
+      "Title": "aut",
+      "Description": "Networked grid-enabled info-mediaries",
+      "Email": "lorena_roob@breitenberg.us",
+      "FullName": "Marcel Ebert",
+      "DirectPhone": "105-408-3726",
+      "FormalName": "Will Inc and Sons",
+      "CountryId": 444,
+      "ContactId": 731,
+      "ContactName": "Corkery LLC",
+      "Retired": 340,
+      "Rank": 516,
+      "ActiveInterests": 944,
       "ContactDepartment": "",
-      "ContactCountryId": 204,
-      "ContactOrgNr": "1873530",
-      "FaxPhone": "(412)805-7439 x831",
-      "MobilePhone": "1-287-029-7211 x8025",
-      "ContactPhone": "737.337.5625",
-      "AssociateName": "Balistreri LLC",
-      "AssociateId": 597,
+      "ContactCountryId": 699,
+      "ContactOrgNr": "301462",
+      "FaxPhone": "619.728.0927",
+      "MobilePhone": "1-658-651-9289",
+      "ContactPhone": "(654)606-2378",
+      "AssociateName": "Leffler Group",
+      "AssociateId": 951,
       "UsePersonAddress": false,
-      "ContactFax": "dolore",
-      "Kanafname": "ea",
-      "Kanalname": "aperiam",
-      "Post1": "delectus",
-      "Post2": "aut",
-      "Post3": "fugiat",
-      "EmailName": "tatyana@mertzlebsack.biz",
-      "ContactFullName": "Robyn Greenfelder",
-      "ActiveErpLinks": 162,
-      "TicketPriorityId": 371,
-      "SupportLanguageId": 379,
-      "SupportAssociateId": 704,
+      "ContactFax": "cumque",
+      "Kanafname": "quibusdam",
+      "Kanalname": "qui",
+      "Post1": "eum",
+      "Post2": "nihil",
+      "Post3": "consequatur",
+      "EmailName": "trent_jaskolski@grant.uk",
+      "ContactFullName": "Mrs. Lloyd Wolff",
+      "ActiveErpLinks": 158,
+      "TicketPriorityId": 169,
+      "SupportLanguageId": 590,
+      "SupportAssociateId": 32,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1414836"
+      "PersonNumber": "1477801"
     }
   ],
   "NoMailing": false,
-  "Kananame": "molestiae",
+  "Kananame": "non",
   "Xstop": false,
-  "ActiveInterests": 406,
-  "GroupId": 189,
-  "ActiveStatusMonitorId": 451,
+  "ActiveInterests": 29,
+  "GroupId": 159,
+  "ActiveStatusMonitorId": 161,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 814,
-  "DbiAgentId": 430,
-  "DbiLastSyncronized": "2003-09-21T03:46:59.8786923+02:00",
-  "DbiKey": "quos",
-  "DbiLastModified": "2002-11-26T03:46:59.8786923+01:00",
+  "Deleted": 997,
+  "DbiAgentId": 471,
+  "DbiLastSyncronized": "2010-05-09T03:41:58.6211452+02:00",
+  "DbiKey": "blanditiis",
+  "DbiLastModified": "2016-11-01T03:41:58.6211452+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 896,
-  "ActiveErpLinks": 892,
+  "Source": 311,
+  "ActiveErpLinks": 720,
   "BounceEmails": [
-    "elwyn.cassin@satterfieldmcdermott.co.uk",
-    "archibald_harris@millsgaylord.uk"
+    "nasir_schimmel@okonbalistreri.info",
+    "gabe.lehner@bosco.us"
   ],
   "Domains": [
-    "voluptatem",
-    "rerum"
+    "repellendus",
+    "id"
   ],
-  "InitialUtmParameters": null,
+  "UtmParameters": null,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Bruce VonRueden Sr.",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Willis Gerhold V",
+    "SuperOffice:2": "Prof. Raphaelle Orland Kohler DDS"
   },
   "ExtraFields": {
-    "ExtraFields1": "omnis",
-    "ExtraFields2": "architecto"
+    "ExtraFields1": "mollitia",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "illo",
-    "CustomFields2": "iure"
+    "CustomFields1": "et",
+    "CustomFields2": "sunt"
   }
 }
 ```
@@ -286,7 +286,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "sed",
-  "2": "quia"
+  "1": "quis",
+  "2": "sed"
 }
 ```

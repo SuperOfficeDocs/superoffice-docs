@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Navigator/GetAllNavigatorCompany
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 658,
-    "Value": "temporibus",
-    "Tooltip": "voluptatem",
+    "Id": 403,
+    "Value": "et",
+    "Tooltip": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 678
+        "FieldLength": 611
       }
     }
   },
   {
-    "Id": 658,
-    "Value": "temporibus",
-    "Tooltip": "voluptatem",
+    "Id": 403,
+    "Value": "et",
+    "Tooltip": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 678
+        "FieldLength": 611
       }
     }
   }

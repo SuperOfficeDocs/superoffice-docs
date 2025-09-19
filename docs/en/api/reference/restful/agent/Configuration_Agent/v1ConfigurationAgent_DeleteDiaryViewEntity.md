@@ -26,7 +26,7 @@ Deletes the DiaryViewEntity
 | diaryViewEntityId | int32 | **Required** The identity of the DiaryViewEntity |
 
 ```http
-POST /api/v1/Agents/Configuration/DeleteDiaryViewEntity?diaryViewEntityId=831
+POST /api/v1/Agents/Configuration/DeleteDiaryViewEntity?diaryViewEntityId=755
 ```
 
 

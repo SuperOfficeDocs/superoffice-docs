@@ -99,7 +99,7 @@ OK
 POST /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 30,
-  "ColumnId": 607,
-  "FieldDefault": "facilis",
-  "FieldHeight": 177,
-  "FieldLabel": "consequuntur",
-  "FieldLeft": 390,
-  "FieldTop": 353,
+  "UDefFieldId": 1000,
+  "ColumnId": 945,
+  "FieldDefault": "delectus",
+  "FieldHeight": 657,
+  "FieldLabel": "possimus",
+  "FieldLeft": 668,
+  "FieldTop": 626,
   "FieldType": "Checkbox",
-  "FieldWidth": 900,
-  "FormatMask": "iste",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 378,
-  "LabelLeft": 932,
-  "LabelTop": 521,
-  "LabelWidth": 800,
-  "LastVersionId": 227,
-  "ListTableId": 73,
-  "IsMandatory": false,
+  "FieldWidth": 164,
+  "FormatMask": "sint",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 297,
+  "LabelLeft": 518,
+  "LabelTop": 677,
+  "LabelWidth": 693,
+  "LastVersionId": 194,
+  "ListTableId": 11,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 370,
-  "ProgId": "consequatur",
+  "Page1LineNo": 904,
+  "ProgId": "animi",
   "IsReadOnly": false,
   "ShortLabel": "et",
-  "TabOrder": 596,
-  "TextLength": 540,
-  "Tooltip": "ipsum",
-  "UdefIdentity": 386,
-  "UDListDefinitionId": 31,
+  "TabOrder": 65,
+  "TextLength": 455,
+  "Tooltip": "deserunt",
+  "UdefIdentity": 423,
+  "UDListDefinitionId": 10,
   "Justification": "Center",
-  "Version": 746,
-  "TemplateVariableName": "Jakubowski-West",
+  "Version": 791,
+  "TemplateVariableName": "Breitenberg, Hermiston and Nader",
   "HasBeenPublished": false,
-  "MdoListName": "Altenwerth, McCullough and Prohaska",
+  "MdoListName": "Cormier Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 233
+      "FieldType": "System.Int32",
+      "FieldLength": 848
     }
   }
 }

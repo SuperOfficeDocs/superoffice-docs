@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,33 +95,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 840,
+  "ErpConnectionId": 35,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 713,
-      "CrmFieldKey": "quis",
-      "CrmDisplayName": "Becker Group",
-      "CrmDisplayTooltip": "porro",
-      "ErpFieldKey": "commodi",
+      "ErpFieldId": 623,
+      "CrmFieldKey": "maxime",
+      "CrmDisplayName": "McCullough-Trantow",
+      "CrmDisplayTooltip": "et",
+      "ErpFieldKey": "similique",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Kuvalis Group",
-      "ErpDisplayTooltip": "expedita",
-      "SyncToCrm": false,
-      "SyncToErp": true,
+      "ErpDisplayName": "Kutch LLC",
+      "ErpDisplayTooltip": "ut",
+      "SyncToCrm": true,
+      "SyncToErp": false,
       "ShowInGui": false,
-      "ShowInSearch": true,
-      "AlreadyMapped": true,
+      "ShowInSearch": false,
+      "AlreadyMapped": false,
       "MissingInERP": true,
       "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "autem",
+      "ListReference": "veritatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 701
+          "FieldLength": 416
         }
       }
     }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 69
+      "FieldLength": 839
     }
   }
 }

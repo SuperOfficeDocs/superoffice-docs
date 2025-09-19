@@ -70,27 +70,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 125,
-  "WorkflowId": 486,
+  "WorkflowGoalId": 777,
+  "WorkflowId": 430,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Ferry, Powlowski and Schamberger",
-      "Description": "Quality-focused local parallelism",
-      "Rank": 64,
+      "Name": "Boyle Inc and Sons",
+      "Description": "Robust neutral complexity",
+      "Rank": 966,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Ferry, Powlowski and Schamberger",
-      "Description": "Quality-focused local parallelism",
-      "Rank": 64,
+      "Name": "Boyle Inc and Sons",
+      "Description": "Robust neutral complexity",
+      "Rank": 966,
       "Restrictions": [
         {},
         {}
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 592,
-  "WorkflowId": 453,
+  "WorkflowGoalId": 773,
+  "WorkflowId": 816,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Dicki Inc and Sons",
-      "Description": "Cloned zero defect service-desk",
-      "Rank": 143,
+      "Name": "Nitzsche, Larkin and Kohler",
+      "Description": "Intuitive incremental benchmark",
+      "Rank": 103,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Dicki Inc and Sons",
-      "Description": "Cloned zero defect service-desk",
-      "Rank": 143,
+      "Name": "Nitzsche, Larkin and Kohler",
+      "Description": "Intuitive incremental benchmark",
+      "Rank": 103,
       "Restrictions": [
         {},
         {}
@@ -134,8 +134,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 51
+      "FieldType": "System.String",
+      "FieldLength": 740
     }
   }
 }

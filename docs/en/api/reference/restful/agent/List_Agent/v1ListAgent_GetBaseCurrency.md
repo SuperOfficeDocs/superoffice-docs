@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetBaseCurrency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 817,
-  "Name": "Wisoky LLC",
-  "Tooltip": "ab",
-  "Rank": 811,
-  "Rate": 12225.734,
-  "Units": 8229.884,
+  "CurrencyId": 639,
+  "Name": "West Inc and Sons",
+  "Tooltip": "ducimus",
+  "Rank": 524,
+  "Rate": 22169.916,
+  "Units": 13363.376,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldType": "System.String",
+      "FieldLength": 929
     }
   }
 }

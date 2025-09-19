@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 749,
-    "Name": "Hammes-Grant",
-    "ToolTip": "Laboriosam molestias et accusantium.",
-    "Deleted": true,
-    "Rank": 984,
-    "Type": "et",
-    "ColorBlock": 856,
-    "IconHint": "iste",
+    "Id": 125,
+    "Name": "Conroy-Dickens",
+    "ToolTip": "Reiciendis inventore veniam corrupti molestiae consequatur officia.",
+    "Deleted": false,
+    "Rank": 322,
+    "Type": "blanditiis",
+    "ColorBlock": 570,
+    "IconHint": "reiciendis",
     "Selected": false,
-    "LastChanged": "1999-05-10T03:47:00.7536695+02:00",
+    "LastChanged": "2006-08-02T03:41:59.558612+02:00",
     "ChildItems": [
       {
-        "Id": 828,
-        "Name": "Cole Group",
-        "ToolTip": "Voluptatem provident rerum ab natus.",
-        "Deleted": true,
-        "Rank": 31,
-        "Type": "doloribus",
-        "ColorBlock": 648,
-        "IconHint": "error",
-        "Selected": false,
-        "LastChanged": "2004-06-30T03:47:00.7536695+02:00",
+        "Id": 950,
+        "Name": "Hickle-Bruen",
+        "ToolTip": "Vero delectus ea tempora reiciendis dolor.",
+        "Deleted": false,
+        "Rank": 842,
+        "Type": "quia",
+        "ColorBlock": 746,
+        "IconHint": "omnis",
+        "Selected": true,
+        "LastChanged": "2011-02-12T03:41:59.558612+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "eveniet",
+        "ExtraInfo": "id",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Ms. Antonina Eve Bergstrom DVM"
+        "FullName": "Ms. Vladimir Hammes I"
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "fugiat",
+    "ExtraInfo": "molestias",
+    "StyleHint": "totam",
     "Hidden": false,
-    "FullName": "Lessie Dannie Murazik V"
+    "FullName": "Mrs. Garth Abdiel Marvin V"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 86,
-    "Name": "O'Reilly, Koch and Hills",
-    "ToolTip": "Autem eligendi atque fuga libero minus praesentium mollitia.",
-    "Deleted": false,
-    "Rank": 726,
-    "Type": "fugiat",
-    "ColorBlock": 262,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2006-11-13T03:47:00.7692942+01:00",
+    "Id": 865,
+    "Name": "Mertz, Schaefer and Hand",
+    "ToolTip": "Quia provident explicabo aliquam.",
+    "Deleted": true,
+    "Rank": 93,
+    "Type": "ea",
+    "ColorBlock": 260,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2017-11-15T03:41:59.558612+01:00",
     "ChildItems": [
       {
-        "Id": 602,
-        "Name": "Boyer-Nader",
-        "ToolTip": "Ut laudantium deleniti eius incidunt fugiat.",
+        "Id": 206,
+        "Name": "Parisian Inc and Sons",
+        "ToolTip": "Consequuntur ipsam amet excepturi et a quidem.",
         "Deleted": true,
-        "Rank": 490,
-        "Type": "fugiat",
-        "ColorBlock": 677,
-        "IconHint": "omnis",
-        "Selected": false,
-        "LastChanged": "2003-06-20T03:47:00.7692942+02:00",
+        "Rank": 694,
+        "Type": "vitae",
+        "ColorBlock": 440,
+        "IconHint": "perspiciatis",
+        "Selected": true,
+        "LastChanged": "2012-02-10T03:41:59.558612+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "est",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "placeat",
         "Hidden": true,
-        "FullName": "Monique Russel",
+        "FullName": "Freeda Gottlieb DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 636
+            "FieldLength": 730
           }
         }
       }
     ],
-    "ExtraInfo": "minima",
-    "StyleHint": "saepe",
+    "ExtraInfo": "facilis",
+    "StyleHint": "earum",
     "Hidden": false,
-    "FullName": "Prof. Shany Rath Sr.",
+    "FullName": "Cornelius Nitzsche",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 54
+        "FieldLength": 603
       }
     }
   }

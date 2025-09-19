@@ -92,7 +92,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,38 +100,38 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 14 Feb 2010 03:46:59 G2T
+Last-Modified: Wed, 15 Jul 2020 03:41:58 G7T
 
 {
-  "SourceContactId": 835,
-  "SourcePersonId": 731,
-  "DestinationContactId": 634,
-  "DestinationPersonId": 817,
-  "RelationId": 254,
-  "Comment": "et",
-  "RelationDefinitionId": 920,
-  "Reversed": 546,
-  "UpdatedDate": "2010-02-14T03:46:59.8786923+01:00",
-  "CreatedDate": "2017-04-17T03:46:59.8786923+02:00",
+  "SourceContactId": 33,
+  "SourcePersonId": 912,
+  "DestinationContactId": 475,
+  "DestinationPersonId": 404,
+  "RelationId": 597,
+  "Comment": "odit",
+  "RelationDefinitionId": 781,
+  "Reversed": 261,
+  "UpdatedDate": "2020-07-15T03:41:58.6211452+02:00",
+  "CreatedDate": "2024-03-20T03:41:58.6211452+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Bogan Inc and Sons",
-  "SourcePersonName": "Mosciski-Senger",
-  "DestinationContactName": "McCullough, Lind and Smitham",
-  "DestinationPersonName": "Gorczany Group",
-  "ActiveText": "quia",
-  "PassiveText": "enim",
+  "SourceContactName": "Yost LLC",
+  "SourcePersonName": "Brakus, Bergstrom and Thompson",
+  "DestinationContactName": "Auer-Crona",
+  "DestinationPersonName": "Ryan-Gerhold",
+  "ActiveText": "et",
+  "PassiveText": "atque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 738
+      "FieldType": "System.Int32",
+      "FieldLength": 952
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

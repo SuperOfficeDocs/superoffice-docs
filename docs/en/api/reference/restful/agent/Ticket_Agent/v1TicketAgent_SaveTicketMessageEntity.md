@@ -116,67 +116,67 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 601,
+  "EjMessageId": 321,
   "Ticket": null,
-  "CreatedAt": "2003-04-02T03:46:55.5351045+02:00",
+  "CreatedAt": "2007-09-04T03:41:54.2775762+02:00",
   "CreatedBy": null,
-  "Author": "illo",
+  "Author": "deleniti",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "voluptate",
-  "TimeSpent": 586,
-  "Body": "voluptatem",
-  "HtmlBody": "eum",
-  "EmailHeader": "chadrick.collier@miller.us",
-  "DebugInfo": "qui",
-  "MailSorter": "dolores",
+  "MessageId": "consequatur",
+  "TimeSpent": 142,
+  "Body": "repudiandae",
+  "HtmlBody": "omnis",
+  "EmailHeader": "furman_lemke@toy.co.uk",
+  "DebugInfo": "veritatis",
+  "MailSorter": "quia",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "aliquid",
+  "SearchTitle": "officia",
   "MessageHeaders": [
     {
-      "Id": 515,
-      "Name": "Deckow, Abshire and Walsh",
-      "Value": "laborum",
+      "Id": 719,
+      "Name": "Jenkins, Effertz and Davis",
+      "Value": "corrupti",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 515,
-      "Name": "Deckow, Abshire and Walsh",
-      "Value": "laborum",
+      "Id": 719,
+      "Name": "Jenkins, Effertz and Davis",
+      "Value": "corrupti",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": true,
-  "Language": "ea",
-  "Sentiment": 688,
-  "SentimentConfidence": 39,
+  "Important": false,
+  "Language": "rerum",
+  "Sentiment": 873,
+  "SentimentConfidence": 965,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 860,
-      "Name": "Kris Group",
-      "ContentType": "impedit",
-      "AttSize": 999,
-      "InlineImage": false,
-      "ContentId": "deleniti",
-      "AuthKey": "aliquam",
-      "IsSafeFileExtension": true
+      "AttachmentId": 175,
+      "Name": "Waelchi-Shields",
+      "ContentType": "et",
+      "AttSize": 135,
+      "InlineImage": true,
+      "ContentId": "aut",
+      "AuthKey": "animi",
+      "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "voluptates"
+    "ExtraFields1": "exercitationem",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "excepturi",
-    "CustomFields2": "adipisci"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "commodi"
   }
 }
 ```
@@ -188,28 +188,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 531,
+  "EjMessageId": 347,
   "Ticket": null,
-  "CreatedAt": "2023-06-30T03:46:55.5351045+02:00",
+  "CreatedAt": "2022-11-18T03:41:54.2775762+01:00",
   "CreatedBy": null,
-  "Author": "rem",
+  "Author": "sint",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "itaque",
-  "TimeSpent": 432,
-  "Body": "ut",
-  "HtmlBody": "sit",
-  "EmailHeader": "dawn@hammes.co.uk",
-  "DebugInfo": "tempore",
-  "MailSorter": "fuga",
+  "MessageId": "eos",
+  "TimeSpent": 360,
+  "Body": "et",
+  "HtmlBody": "autem",
+  "EmailHeader": "ayana@roob.us",
+  "DebugInfo": "doloremque",
+  "MailSorter": "nulla",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "eaque",
+  "SearchTitle": "ut",
   "MessageHeaders": [
     {
-      "Id": 834,
-      "Name": "Hauck-Hamill",
-      "Value": "nihil",
+      "Id": 831,
+      "Name": "Daniel LLC",
+      "Value": "dolores",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -217,50 +217,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 981
+          "FieldLength": 760
         }
       }
     }
   ],
   "Important": false,
-  "Language": "dignissimos",
-  "Sentiment": 486,
-  "SentimentConfidence": 894,
+  "Language": "eos",
+  "Sentiment": 363,
+  "SentimentConfidence": 404,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 861,
-      "Name": "Hoeger Group",
-      "ContentType": "nisi",
-      "AttSize": 186,
+      "AttachmentId": 570,
+      "Name": "Grant Inc and Sons",
+      "ContentType": "et",
+      "AttSize": 947,
       "InlineImage": false,
-      "ContentId": "omnis",
-      "AuthKey": "aut",
+      "ContentId": "quaerat",
+      "AuthKey": "delectus",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 989
+          "FieldLength": 393
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "eos"
+    "ExtraFields1": "ea",
+    "ExtraFields2": "eius"
   },
   "CustomFields": {
-    "CustomFields1": "possimus",
-    "CustomFields2": "sit"
+    "CustomFields1": "beatae",
+    "CustomFields2": "quaerat"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldType": "System.String",
+      "FieldLength": 72
     }
   }
 }

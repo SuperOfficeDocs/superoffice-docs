@@ -112,34 +112,34 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 309,
-  "Name": "Volkman, Murazik and Heaney",
-  "Tooltip": "et",
-  "SaveInDb": 175,
-  "Filename": "quo",
-  "DefaultOref": "sint",
+  "DocumentTemplateId": 714,
+  "Name": "Shanahan Group",
+  "Tooltip": "ea",
+  "SaveInDb": 262,
+  "Filename": "dolor",
+  "DefaultOref": "suscipit",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 822,
-  "IntentId": 997,
+  "AutoeventId": 274,
+  "IntentId": 83,
   "IsDefaultPublished": true,
-  "Rank": 955,
-  "LoadTemplateFromPlugin": 609,
-  "MimeType": "occaecati",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 620,
+  "Rank": 355,
+  "LoadTemplateFromPlugin": 604,
+  "MimeType": "in",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 763,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "luna@luettgen.biz",
+  "EmailSubject": "bart_kassulke@reinger.us",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "oda@wisoky.info",
+  "SenderEmailAddress": "coby@weberdenesik.ca",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -151,37 +151,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 910,
-  "Name": "Kuhn, O'Conner and Schneider",
-  "Tooltip": "excepturi",
-  "SaveInDb": 562,
-  "Filename": "et",
-  "DefaultOref": "nobis",
+  "DocumentTemplateId": 632,
+  "Name": "Schamberger, Herman and Barton",
+  "Tooltip": "cumque",
+  "SaveInDb": 351,
+  "Filename": "nostrum",
+  "DefaultOref": "et",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 754,
-  "IntentId": 674,
+  "AutoeventId": 787,
+  "IntentId": 67,
   "IsDefaultPublished": false,
-  "Rank": 207,
-  "LoadTemplateFromPlugin": 894,
-  "MimeType": "deserunt",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 343,
+  "Rank": 151,
+  "LoadTemplateFromPlugin": 931,
+  "MimeType": "quo",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 292,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "lourdes@hayes.biz",
+  "EmailSubject": "jaron@swaniawski.ca",
   "IncludeSignature": true,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "maddison.smitham@gutmannpacocha.co.uk",
+  "SenderEmailAddress": "edna@champlinhirthe.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 971
+      "FieldType": "System.String",
+      "FieldLength": 309
     }
   }
 }

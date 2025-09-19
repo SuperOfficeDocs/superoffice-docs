@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateDefaultUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 376,
-  "ColumnId": 711,
-  "FieldDefault": "dicta",
-  "FieldHeight": 219,
-  "FieldLabel": "officiis",
-  "FieldLeft": 692,
-  "FieldTop": 125,
+  "UDefFieldId": 195,
+  "ColumnId": 759,
+  "FieldDefault": "placeat",
+  "FieldHeight": 484,
+  "FieldLabel": "voluptatibus",
+  "FieldLeft": 424,
+  "FieldTop": 17,
   "FieldType": "Checkbox",
-  "FieldWidth": 317,
-  "FormatMask": "voluptatem",
+  "FieldWidth": 681,
+  "FormatMask": "occaecati",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 53,
-  "LabelLeft": 644,
-  "LabelTop": 894,
-  "LabelWidth": 372,
-  "LastVersionId": 648,
-  "ListTableId": 2,
-  "IsMandatory": false,
+  "LabelHeight": 305,
+  "LabelLeft": 708,
+  "LabelTop": 322,
+  "LabelWidth": 988,
+  "LastVersionId": 612,
+  "ListTableId": 723,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 90,
-  "ProgId": "nemo",
+  "Page1LineNo": 525,
+  "ProgId": "maiores",
   "IsReadOnly": false,
-  "ShortLabel": "dignissimos",
-  "TabOrder": 786,
-  "TextLength": 832,
-  "Tooltip": "dolorem",
-  "UdefIdentity": 978,
-  "UDListDefinitionId": 182,
+  "ShortLabel": "perspiciatis",
+  "TabOrder": 366,
+  "TextLength": 547,
+  "Tooltip": "quia",
+  "UdefIdentity": 577,
+  "UDListDefinitionId": 398,
   "Justification": "Center",
-  "Version": 118,
-  "TemplateVariableName": "Ward, Kuhlman and Witting",
-  "HasBeenPublished": false,
-  "MdoListName": "Hintz Inc and Sons",
+  "Version": 576,
+  "TemplateVariableName": "Lemke, Langworth and Jewess",
+  "HasBeenPublished": true,
+  "MdoListName": "Langworth Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldLength": 627
     }
   }
 }

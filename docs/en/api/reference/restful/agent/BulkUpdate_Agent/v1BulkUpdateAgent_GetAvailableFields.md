@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,76 +104,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
-    "DefaultShowInGui": true,
+    "CanSupportMultiUse": true,
+    "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
     "IsActive": true,
-    "Key": "culpa",
-    "ValueType": "odio",
+    "Key": "officiis",
+    "ValueType": "et",
     "Mandatory": false,
-    "EncodedDisplayName": "Davis-Ankunding",
-    "EncodedDisplayDescription": "Fully-configurable foreground definition",
-    "IconHint": "autem",
+    "EncodedDisplayName": "Blick, Effertz and Parker",
+    "EncodedDisplayDescription": "Triple-buffered methodical firmware",
+    "IconHint": "perferendis",
     "ControlInfos": [
       {
-        "Type": "qui",
-        "Label": "id",
-        "Dimension": 822,
-        "ListProviderName": "Wiegand-Hickle",
-        "ListProviderExtraInfo": "consequatur",
-        "ListProviderPrimaryKeyName": "Kling-Koelpin",
-        "ListLeadText": "assumenda",
+        "Type": "dolorum",
+        "Label": "est",
+        "Dimension": 194,
+        "ListProviderName": "VonRueden-Stark",
+        "ListProviderExtraInfo": "temporibus",
+        "ListProviderPrimaryKeyName": "Rosenbaum-Zulauf",
+        "ListLeadText": "et",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 645
+            "FieldLength": 889
           }
         }
       }
     ],
-    "EncodedDataCaption": "sit",
-    "EncodedDataCaptionDescription": "Pre-emptive secondary success",
-    "CurrentOperationType": "ipsa",
+    "EncodedDataCaption": "sunt",
+    "EncodedDataCaptionDescription": "Multi-channelled executive artificial intelligence",
+    "CurrentOperationType": "veniam",
     "Values": [
-      "enim",
-      "distinctio"
+      "ut",
+      "et"
     ],
     "DisplayValues": [
-      "aut",
-      "doloremque"
+      "necessitatibus",
+      "velit"
     ],
     "OperationInfos": [
       {
-        "Key": "odio",
-        "EncodedDisplayName": "Daugherty LLC",
+        "Key": "sit",
+        "EncodedDisplayName": "Schiller LLC",
         "EncodedLeadTexts": [
-          "nesciunt",
-          "tenetur"
+          "odio",
+          "id"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 593
+            "FieldLength": 760
           }
         }
       },
       {
-        "Key": "odio",
-        "EncodedDisplayName": "Daugherty LLC",
+        "Key": "sit",
+        "EncodedDisplayName": "Schiller LLC",
         "EncodedLeadTexts": [
-          "nesciunt",
-          "tenetur"
+          "odio",
+          "id"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 593
+            "FieldLength": 760
           }
         }
       }

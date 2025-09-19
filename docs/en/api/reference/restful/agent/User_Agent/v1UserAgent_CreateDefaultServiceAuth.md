@@ -73,18 +73,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServiceAuthId": 689,
-  "Server": "ut",
-  "Port": 394,
-  "AuthType": "molestias",
-  "Username": "voluptate",
-  "Password": "aspernatur",
+  "ServiceAuthId": 843,
+  "Server": "soluta",
+  "Port": 308,
+  "AuthType": "aspernatur",
+  "Username": "incidunt",
+  "Password": "nemo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldLength": 830
     }
   }
 }

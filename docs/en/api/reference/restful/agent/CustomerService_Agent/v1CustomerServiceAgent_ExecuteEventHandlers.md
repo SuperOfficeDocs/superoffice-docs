@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,42 +104,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "quo",
-    "InputValues2": "molestiae"
+    "InputValues1": "ratione",
+    "InputValues2": "qui"
   },
   "BlockExecution": true,
-  "NavigateTo": "quia",
-  "Message": "illo",
-  "ShowDialog": "quia",
+  "NavigateTo": "est",
+  "Message": "dolorem",
+  "ShowDialog": "laboriosam",
   "OutputValues": {
-    "OutputValues1": "architecto",
-    "OutputValues2": "sit"
+    "OutputValues1": "ea",
+    "OutputValues2": "nemo"
   },
   "StateValues": {
-    "StateValues1": "eos",
-    "StateValues2": "tempora"
+    "StateValues1": "nihil",
+    "StateValues2": "sit"
   },
-  "Exception": "animi",
+  "Exception": "aut",
   "ParserValues": {
-    "ParserValues1": "consequatur",
-    "ParserValues2": "id"
+    "ParserValues1": "veritatis",
+    "ParserValues2": "et"
   },
   "CgiVariables": {
-    "CgiVariables1": "dolore",
-    "CgiVariables2": "et"
+    "CgiVariables1": "qui",
+    "CgiVariables2": "quidem"
   },
-  "CgiContent": "quia",
+  "CgiContent": "nemo",
   "Headers": {
-    "Headers1": "quia",
-    "Headers2": "voluptates"
+    "Headers1": "repellat",
+    "Headers2": "officiis"
   },
   "TraceExecution": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 260
+      "FieldType": "System.Int32",
+      "FieldLength": 831
     }
   }
 }

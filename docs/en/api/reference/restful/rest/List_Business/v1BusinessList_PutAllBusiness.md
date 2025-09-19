@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 166,
-    "Name": "Kertzmann Inc and Sons",
-    "Tooltip": "voluptatem",
+    "Id": 244,
+    "Name": "Langosh Group",
+    "Tooltip": "dolor",
     "Deleted": false,
-    "UdListDefinitionId": 873,
-    "Rank": 590
+    "UdListDefinitionId": 209,
+    "Rank": 886
   },
   {
-    "Id": 166,
-    "Name": "Kertzmann Inc and Sons",
-    "Tooltip": "voluptatem",
+    "Id": 244,
+    "Name": "Langosh Group",
+    "Tooltip": "dolor",
     "Deleted": false,
-    "UdListDefinitionId": 873,
-    "Rank": 590
+    "UdListDefinitionId": 209,
+    "Rank": 886
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 895,
-    "Name": "Hauck Group",
-    "Tooltip": "qui",
+    "Id": 364,
+    "Name": "Haley Inc and Sons",
+    "Tooltip": "ullam",
     "Deleted": false,
-    "UdListDefinitionId": 675,
-    "Rank": 647,
+    "UdListDefinitionId": 431,
+    "Rank": 866,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 894
+        "FieldLength": 525
       }
     }
   }

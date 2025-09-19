@@ -96,21 +96,21 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 270,
-  "Rank": 508,
-  "DefaultTask": 930,
-  "DefaultTaskText": "et",
+  "OwnerTable": 96,
+  "Rank": 379,
+  "DefaultTask": 661,
+  "DefaultTaskText": "itaque",
   "IsVisual": false,
-  "LastGenerated": "2017-09-11T03:46:55.2382402+02:00",
-  "Description": "Versatile composite process improvement",
-  "Name": "Simonis-Kuhn",
-  "StatusMonitorId": 839,
-  "PictureId": 121,
-  "NeedsUpdate": true,
+  "LastGenerated": "2010-07-03T03:41:53.9807136+02:00",
+  "Description": "Configurable 5th generation encoding",
+  "Name": "Welch-Batz",
+  "StatusMonitorId": 34,
+  "PictureId": 53,
+  "NeedsUpdate": false,
   "Deleted": true,
-  "NumMatches": 507,
-  "NumNeedUpdate": 324,
-  "GenerationStart": "2007-08-04T03:46:55.2382402+02:00"
+  "NumMatches": 738,
+  "NumNeedUpdate": 199,
+  "GenerationStart": "2009-05-28T03:41:53.9807136+02:00"
 }
 ```
 
@@ -121,27 +121,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 545,
-  "Rank": 965,
-  "DefaultTask": 141,
-  "DefaultTaskText": "qui",
+  "OwnerTable": 58,
+  "Rank": 67,
+  "DefaultTask": 376,
+  "DefaultTaskText": "omnis",
   "IsVisual": false,
-  "LastGenerated": "2005-01-09T03:46:55.2382402+01:00",
-  "Description": "Synergistic zero defect firmware",
-  "Name": "Russel Group",
-  "StatusMonitorId": 956,
-  "PictureId": 817,
-  "NeedsUpdate": true,
-  "Deleted": false,
-  "NumMatches": 718,
-  "NumNeedUpdate": 367,
-  "GenerationStart": "2023-02-22T03:46:55.2382402+01:00",
+  "LastGenerated": "2022-01-05T03:41:53.9807136+01:00",
+  "Description": "Up-sized local matrices",
+  "Name": "Baumbach, Oberbrunner and Fadel",
+  "StatusMonitorId": 755,
+  "PictureId": 359,
+  "NeedsUpdate": false,
+  "Deleted": true,
+  "NumMatches": 603,
+  "NumNeedUpdate": 995,
+  "GenerationStart": "2017-10-08T03:41:53.9807136+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 612
+      "FieldType": "System.Int32",
+      "FieldLength": 864
     }
   }
 }

@@ -86,18 +86,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Streich LLC",
+  "TableName": "Barrows, Weimann and Metz",
   "Columns": [
-    "molestiae",
-    "eos"
+    "enim",
+    "inventore"
   ],
   "Keys": [
-    "debitis",
-    "consequuntur"
+    "enim",
+    "unde"
   ],
   "Data": [
     [
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     ]
   ],
   "NomatchAction": "DeleteRow",
-  "ReturnRowStatus": false
+  "ReturnRowStatus": true
 }
 ```
 
@@ -120,40 +120,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "adipisci",
-  "Inserts": 924,
-  "Updates": 492,
-  "Deletes": 370,
+  "Message": "labore",
+  "Inserts": 201,
+  "Updates": 404,
+  "Deletes": 732,
   "RowStatus": [
     {
-      "PrimaryKey": 358,
+      "PrimaryKey": 370,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "consequatur",
-        "excepturi"
+        "ab",
+        "architecto"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 734
+          "FieldLength": 938
         }
       }
     },
     {
-      "PrimaryKey": 358,
+      "PrimaryKey": 370,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "consequatur",
-        "excepturi"
+        "ab",
+        "architecto"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 734
+          "FieldLength": 938
         }
       }
     }
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 478
+      "FieldLength": 256
     }
   }
 }

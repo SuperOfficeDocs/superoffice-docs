@@ -89,22 +89,22 @@ OK
 POST /api/v1/Agents/Appointment/GenerateLead
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 524,
-  "LeadDescription": "Team-oriented demand-driven policy",
-  "Relation": "sit",
-  "RelationId": 61,
-  "LeadContact": "et",
-  "LeadPersonFirstname": "Reese",
-  "LeadPersonLastname": "Schmitt",
-  "LeadPersonEmail": "jayden.rowe@emmerich.uk",
-  "LeadPhoneNumber": "568461",
-  "CreatorsContact": "non",
-  "CreatorsFirstname": "Ahmed",
-  "CreatorsLastname": "Kautzer"
+  "AssociateIdForNewContact": 902,
+  "LeadDescription": "Switchable empowering success",
+  "Relation": "facere",
+  "RelationId": 227,
+  "LeadContact": "accusantium",
+  "LeadPersonFirstname": "Mafalda",
+  "LeadPersonLastname": "Borer",
+  "LeadPersonEmail": "lauriane_ebert@lind.ca",
+  "LeadPhoneNumber": "716153",
+  "CreatorsContact": "voluptatum",
+  "CreatorsFirstname": "Waino",
+  "CreatorsLastname": "Doyle"
 }
 ```
 
@@ -117,36 +117,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 366,
-      "Name": "Herzog Inc and Sons",
-      "OrgNr": "1169258",
+      "ContactId": 720,
+      "Name": "Huel, Macejkovic and Wehner",
+      "OrgNr": "1055763",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "ullam",
-      "DirectPhone": "(079)275-9150 x12904",
-      "AssociateId": 317,
-      "CountryId": 890,
-      "EmailAddress": "salvatore.mante@kuhic.co.uk",
-      "Kananame": "dicta",
-      "EmailAddressName": "wilford_ward@kulas.info",
+      "City": "rerum",
+      "DirectPhone": "937-707-0610 x4881",
+      "AssociateId": 609,
+      "CountryId": 965,
+      "EmailAddress": "theo.reynolds@hillswolf.name",
+      "Kananame": "fugiat",
+      "EmailAddressName": "evan@stehr.uk",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Daniela Becker",
+      "AssociateFullName": "Arden Hilda Klein II",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "reiciendis",
-      "FullName": "Euna Conroy",
+      "FormattedAddress": "odio",
+      "FullName": "Monty Hayes",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 854,
-      "Number1": "814642",
-      "Number2": "1241474",
+      "ActiveErpLinks": 47,
+      "Number1": "768679",
+      "Number2": "717755",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 291
+          "FieldType": "System.Int32",
+          "FieldLength": 62
         }
       }
     }
@@ -158,7 +158,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldLength": 347
     }
   }
 }

@@ -79,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 210,
-    "Value": "est",
-    "Tooltip": "a",
+    "Id": 495,
+    "Value": "expedita",
+    "Tooltip": "ratione",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 566
+        "FieldLength": 442
       }
     }
   },
   {
-    "Id": 210,
-    "Value": "est",
-    "Tooltip": "a",
+    "Id": 495,
+    "Value": "expedita",
+    "Tooltip": "ratione",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 566
+        "FieldLength": 442
       }
     }
   }

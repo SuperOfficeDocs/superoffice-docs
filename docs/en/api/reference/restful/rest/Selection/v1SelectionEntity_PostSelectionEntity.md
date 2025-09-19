@@ -157,60 +157,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Distributed didactic software",
-  "Postit": "qui",
+  "Description": "Fundamental empowering pricing structure",
+  "Postit": "beatae",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 12,
-  "IncludePerson": 618,
+  "GroupIdx": 443,
+  "IncludePerson": 25,
   "MemberCount": 99.99,
-  "Name": "Fritsch Inc and Sons",
-  "PostitTextId": 593,
-  "CreatedDate": "2005-07-18T03:47:00.2849361+02:00",
-  "SelectionId": 766,
-  "SoundEx": "iusto",
-  "Source": 273,
-  "TextId": 673,
-  "UpdatedDate": "2001-01-01T03:47:00.2849361+01:00",
-  "UpdatedCount": 354,
-  "Visibility": 98,
+  "Name": "Tromp-Corkery",
+  "PostitTextId": 188,
+  "CreatedDate": "2013-10-10T03:41:59.0117535+02:00",
+  "SelectionId": 354,
+  "SoundEx": "quo",
+  "Source": 14,
+  "TextId": 387,
+  "UpdatedDate": "2013-02-07T03:41:59.0117535+01:00",
+  "UpdatedCount": 133,
+  "Visibility": 745,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 962,
-  "TargetTableName": "Kirlin, Christiansen and Kirlin",
-  "Completed": true,
-  "LeftSelectionId": 822,
-  "RightSelectionId": 593,
+  "TargetTableNumber": 253,
+  "TargetTableName": "Stehr Inc and Sons",
+  "Completed": false,
+  "LeftSelectionId": 1000,
+  "RightSelectionId": 845,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gislason-Rodriguez",
-  "ShadowProviderName": "Kessler-Schaden",
-  "ChartKey": "qui",
-  "LastLoaded": "1999-05-11T03:47:00.2849361+02:00",
-  "LastLoadedBy": 818,
+  "MainProviderName": "Larson, Flatley and Goodwin",
+  "ShadowProviderName": "Brekke, Effertz and Walter",
+  "ChartKey": "doloremque",
+  "LastLoaded": "1998-10-10T03:41:59.0117535+02:00",
+  "LastLoadedBy": 402,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-04-08T03:47:00.2849361+02:00",
-  "LastMembershipChangeBy": 741,
+  "LastMembershipChange": "2002-06-03T03:41:59.0117535+02:00",
+  "LastMembershipChangeBy": 451,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "itaque",
-  "MemberTabHeading": "dolor",
-  "MailingsProviderName": "Gulgowski Inc and Sons",
-  "DashboardTileDefinitionId": 81,
+  "MainHeading": "saepe",
+  "MemberTabHeading": "quasi",
+  "MailingsProviderName": "Reichel, Von and Wisoky",
+  "DashboardTileDefinitionId": 666,
   "VisibleFor": [
     {
-      "VisibleId": 110,
+      "VisibleId": 217,
       "Visibility": "All",
-      "DisplayValue": "magni"
+      "DisplayValue": "debitis"
     },
     {
-      "VisibleId": 110,
+      "VisibleId": 217,
       "Visibility": "All",
-      "DisplayValue": "magni"
+      "DisplayValue": "debitis"
     }
   ]
 }
@@ -223,70 +223,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Seamless static methodology",
-  "Postit": "iusto",
+  "Description": "Persistent 4th generation matrix",
+  "Postit": "ipsum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 266,
-  "IncludePerson": 563,
+  "GroupIdx": 60,
+  "IncludePerson": 510,
   "MemberCount": 99.99,
-  "Name": "Purdy Inc and Sons",
-  "PostitTextId": 501,
-  "CreatedDate": "2014-07-08T03:47:00.2849361+02:00",
-  "SelectionId": 566,
-  "SoundEx": "tenetur",
-  "Source": 52,
-  "TextId": 391,
-  "UpdatedDate": "2010-11-23T03:47:00.2849361+01:00",
-  "UpdatedCount": 141,
-  "Visibility": 438,
+  "Name": "Stark, Oberbrunner and Boyle",
+  "PostitTextId": 650,
+  "CreatedDate": "2019-09-25T03:41:59.0117535+02:00",
+  "SelectionId": 733,
+  "SoundEx": "facere",
+  "Source": 790,
+  "TextId": 320,
+  "UpdatedDate": "1998-09-09T03:41:59.0117535+02:00",
+  "UpdatedCount": 841,
+  "Visibility": 73,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 858,
-  "TargetTableName": "Cartwright, McGlynn and Halvorson",
-  "Completed": false,
-  "LeftSelectionId": 463,
-  "RightSelectionId": 506,
+  "CompanyUnique": true,
+  "TargetTableNumber": 978,
+  "TargetTableName": "Breitenberg, Dibbert and Reichert",
+  "Completed": true,
+  "LeftSelectionId": 725,
+  "RightSelectionId": 918,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Baumbach-McDermott",
-  "ShadowProviderName": "Heaney LLC",
-  "ChartKey": "nulla",
-  "LastLoaded": "1999-03-28T03:47:00.2849361+02:00",
-  "LastLoadedBy": 479,
+  "MainProviderName": "Smitham-O'Kon",
+  "ShadowProviderName": "Schumm, Hessel and Hand",
+  "ChartKey": "voluptatem",
+  "LastLoaded": "2017-09-19T03:41:59.0117535+02:00",
+  "LastLoadedBy": 788,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-08-10T03:47:00.2849361+02:00",
-  "LastMembershipChangeBy": 441,
+  "LastMembershipChange": "2023-05-30T03:41:59.0117535+02:00",
+  "LastMembershipChangeBy": 486,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "explicabo",
-  "MemberTabHeading": "voluptatibus",
-  "MailingsProviderName": "Ward, Mann and Lakin",
-  "DashboardTileDefinitionId": 501,
+  "MainHeading": "quasi",
+  "MemberTabHeading": "id",
+  "MailingsProviderName": "Waters, Hodkiewicz and Morar",
+  "DashboardTileDefinitionId": 534,
   "VisibleFor": [
     {
-      "VisibleId": 118,
+      "VisibleId": 902,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 626
+          "FieldLength": 959
         }
       }
     },
     {
-      "VisibleId": 118,
+      "VisibleId": 902,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 626
+          "FieldLength": 959
         }
       }
     }
@@ -296,12 +296,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 304
+      "FieldLength": 627
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

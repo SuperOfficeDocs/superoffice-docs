@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 552,
-    "Name": "Veum LLC",
-    "ToolTip": "Tempora ut excepturi.",
+    "Id": 675,
+    "Name": "Adams, Adams and Funk",
+    "ToolTip": "Molestiae ipsum quod saepe.",
     "Deleted": false,
-    "Rank": 74,
-    "Type": "dolor",
-    "ColorBlock": 63,
-    "IconHint": "animi",
+    "Rank": 129,
+    "Type": "asperiores",
+    "ColorBlock": 494,
+    "IconHint": "dolores",
     "Selected": true,
-    "LastChanged": "2024-12-06T03:47:00.7849183+01:00",
+    "LastChanged": "2007-05-07T03:41:59.5898538+02:00",
     "ChildItems": [
       {
-        "Id": 416,
-        "Name": "Schaden-Beier",
-        "ToolTip": "Deserunt vel ex atque quibusdam expedita.",
+        "Id": 781,
+        "Name": "Kassulke-Hodkiewicz",
+        "ToolTip": "Suscipit voluptas deserunt mollitia repudiandae asperiores ad.",
         "Deleted": false,
-        "Rank": 336,
-        "Type": "nesciunt",
-        "ColorBlock": 58,
-        "IconHint": "eligendi",
+        "Rank": 640,
+        "Type": "mollitia",
+        "ColorBlock": 249,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2011-12-22T03:47:00.7849183+01:00",
+        "LastChanged": "1999-07-27T03:41:59.5898538+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "aut",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "ipsum",
         "Hidden": false,
-        "FullName": "Fatima Thiel I",
+        "FullName": "Mrs. Shanon Dooley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 360
+            "FieldLength": 208
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "sint",
+    "ExtraInfo": "aut",
+    "StyleHint": "culpa",
     "Hidden": false,
-    "FullName": "Kendrick Parker",
+    "FullName": "Asa Skiles",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 311
+        "FieldType": "System.Int32",
+        "FieldLength": 662
       }
     }
   }

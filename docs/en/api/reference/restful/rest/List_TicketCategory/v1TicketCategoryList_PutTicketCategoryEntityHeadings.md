@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 531,
-    "Name": "Berge-Fisher",
-    "Tooltip": "inventore",
+    "HeadingId": 508,
+    "Name": "Willms Inc and Sons",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 467,
-    "UdListDefinitionId": 91
+    "Rank": 672,
+    "UdListDefinitionId": 571
   },
   {
-    "HeadingId": 531,
-    "Name": "Berge-Fisher",
-    "Tooltip": "inventore",
+    "HeadingId": 508,
+    "Name": "Willms Inc and Sons",
+    "Tooltip": "qui",
     "Deleted": false,
-    "Rank": 467,
-    "UdListDefinitionId": 91
+    "Rank": 672,
+    "UdListDefinitionId": 571
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 849,
-    "Name": "Crooks-Bergstrom",
-    "Tooltip": "dicta",
-    "Deleted": false,
-    "Rank": 824,
-    "UdListDefinitionId": 546,
+    "HeadingId": 900,
+    "Name": "Blick, Roob and Sipes",
+    "Tooltip": "quo",
+    "Deleted": true,
+    "Rank": 360,
+    "UdListDefinitionId": 738,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 642
+        "FieldLength": 152
       }
     }
   }

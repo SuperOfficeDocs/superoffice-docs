@@ -87,36 +87,36 @@ OK
 PUT /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 884,
+  "HierarchyId": 881,
   "Domain": "Dashboards",
-  "Name": "Schmeler LLC",
-  "Fullname": "consequatur",
-  "ParentId": 368,
+  "Name": "Stracke, Adams and Homenick",
+  "Fullname": "aut",
+  "ParentId": 452,
   "Children": [
     {
-      "HierarchyId": 758,
+      "HierarchyId": 675,
       "Domain": "Dashboards",
-      "Name": "West LLC",
-      "Fullname": "fugit",
-      "ParentId": 185,
+      "Name": "Osinski, Cole and Emard",
+      "Fullname": "consequatur",
+      "ParentId": 871,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2016-08-20T03:47:00.0349452+02:00",
-      "RegisteredAssociateId": 805,
-      "Updated": "2012-11-30T03:47:00.0349452+01:00",
-      "UpdatedAssociateId": 184
+      "Registered": "2015-04-08T03:41:58.7773879+02:00",
+      "RegisteredAssociateId": 823,
+      "Updated": "1999-05-30T03:41:58.7773879+02:00",
+      "UpdatedAssociateId": 737
     }
   ],
-  "Registered": "2001-04-05T03:47:00.0349452+02:00",
-  "RegisteredAssociateId": 46,
-  "Updated": "2009-06-22T03:47:00.0349452+02:00",
-  "UpdatedAssociateId": 965
+  "Registered": "2013-07-06T03:41:58.7773879+02:00",
+  "RegisteredAssociateId": 860,
+  "Updated": "2016-10-30T03:41:58.7773879+01:00",
+  "UpdatedAssociateId": 314
 }
 ```
 
@@ -127,46 +127,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 726,
+  "HierarchyId": 885,
   "Domain": "Dashboards",
-  "Name": "Ryan Group",
-  "Fullname": "quia",
-  "ParentId": 809,
+  "Name": "Roberts, Hintz and Erdman",
+  "Fullname": "accusantium",
+  "ParentId": 989,
   "Children": [
     {
-      "HierarchyId": 97,
+      "HierarchyId": 938,
       "Domain": "Dashboards",
-      "Name": "Koepp-Franecki",
-      "Fullname": "facere",
-      "ParentId": 166,
+      "Name": "Flatley, Hoeger and Goldner",
+      "Fullname": "vitae",
+      "ParentId": 145,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2009-09-19T03:47:00.0349452+02:00",
-      "RegisteredAssociateId": 560,
-      "Updated": "2017-07-26T03:47:00.0349452+02:00",
-      "UpdatedAssociateId": 37,
+      "Registered": "2015-04-12T03:41:58.7773879+02:00",
+      "RegisteredAssociateId": 236,
+      "Updated": "2018-09-24T03:41:58.7773879+02:00",
+      "UpdatedAssociateId": 519,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldLength": 905
         }
       }
     }
   ],
-  "Registered": "2000-11-16T03:47:00.0349452+01:00",
-  "RegisteredAssociateId": 890,
-  "Updated": "2025-07-21T03:47:00.0349452+02:00",
-  "UpdatedAssociateId": 406,
+  "Registered": "2009-04-23T03:41:58.7773879+02:00",
+  "RegisteredAssociateId": 728,
+  "Updated": "2021-09-30T03:41:58.7773879+02:00",
+  "UpdatedAssociateId": 598,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 668
+      "FieldType": "System.Int32",
+      "FieldLength": 546
     }
   }
 }

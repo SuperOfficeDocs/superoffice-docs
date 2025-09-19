@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Frami-Wiegand"
+  "EntityName": "Schaefer Inc and Sons"
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 584,
-  "DashboardId": 159,
-  "Height": 119,
-  "Width": 197,
-  "Rank": 212,
+  "DashboardTileId": 654,
+  "DashboardId": 423,
+  "Height": 699,
+  "Width": 369,
+  "Rank": 793,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 711
+      "FieldLength": 186
     }
   }
 }

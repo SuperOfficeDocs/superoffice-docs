@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,10 +85,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 932,
-  "StartDate": "2005-06-23T03:46:54.1445302+02:00",
-  "EndDate": "2023-03-13T03:46:54.1445302+01:00",
-  "RecurrenceCounter": 213,
+  "RecurrenceId": 108,
+  "StartDate": "2020-02-20T03:41:52.9341759+01:00",
+  "EndDate": "2010-11-26T03:41:52.9341759+01:00",
+  "RecurrenceCounter": 572,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -97,20 +97,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2020-03-28T03:46:54.1445302+01:00",
-      "IsConflict": true,
-      "Description": "Visionary incremental Graphic Interface",
-      "DescriptionStyleHint": "Phased explicit matrix",
-      "Tooltip": "architecto"
+      "Date": "2000-11-20T03:41:52.9341759+01:00",
+      "IsConflict": false,
+      "Description": "Managed bandwidth-monitored migration",
+      "DescriptionStyleHint": "Re-engineered solution-oriented definition",
+      "Tooltip": "pariatur"
     },
     {
-      "Date": "2020-03-28T03:46:54.1445302+01:00",
-      "IsConflict": true,
-      "Description": "Visionary incremental Graphic Interface",
-      "DescriptionStyleHint": "Phased explicit matrix",
-      "Tooltip": "architecto"
+      "Date": "2000-11-20T03:41:52.9341759+01:00",
+      "IsConflict": false,
+      "Description": "Managed bandwidth-monitored migration",
+      "DescriptionStyleHint": "Re-engineered solution-oriented definition",
+      "Tooltip": "pariatur"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

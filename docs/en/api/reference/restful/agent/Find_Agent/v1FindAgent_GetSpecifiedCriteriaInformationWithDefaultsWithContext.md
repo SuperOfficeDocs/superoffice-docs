@@ -84,22 +84,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quam",
-  "ProviderName": "Mosciski-Heathcote",
-  "StorageKey": "architecto",
+  "StorageType": "vel",
+  "ProviderName": "Schmitt LLC",
+  "StorageKey": "recusandae",
   "DesiredColumnNames": [
-    "McKenzie-Jerde",
-    "Howell, Moen and Raynor"
+    "Dicki, Rice and Abshire",
+    "Considine, VonRueden and Pollich"
   ],
   "StaticColumns": [
-    "eum",
-    "nisi"
+    "corrupti",
+    "nihil"
   ],
-  "Context": "cum"
+  "Context": "ex"
 }
 ```
 
@@ -112,81 +112,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Beer-Roberts",
-      "Operator": "ea",
+      "Name": "Greenfelder LLC",
+      "Operator": "quo",
       "Values": [
-        "ut",
-        "quia"
+        "suscipit",
+        "perferendis"
       ],
       "DisplayValues": [
-        "quo",
-        "sed"
+        "ut",
+        "odio"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 964,
+      "InterParenthesis": 801,
       "InterOperator": "And",
-      "UniqueHash": 564
+      "UniqueHash": 382
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Kunde Group",
-      "DisplayTooltip": "dolor",
-      "DisplayType": "reiciendis",
+      "DisplayName": "Walter, Rolfson and Gerhold",
+      "DisplayTooltip": "magnam",
+      "DisplayType": "deleniti",
       "CanOrderBy": false,
-      "Name": "Lubowitz-Jaskolski",
+      "Name": "Brown-Nicolas",
       "CanRestrictBy": false,
-      "RestrictionType": "laudantium",
-      "RestrictionListName": "Zboncak Inc and Sons",
-      "IsVisible": false,
-      "ExtraInfo": "placeat",
-      "Width": "quisquam",
-      "IconHint": "quo",
-      "HeadingIconHint": "aliquid"
+      "RestrictionType": "debitis",
+      "RestrictionListName": "Cormier, Friesen and Mills",
+      "IsVisible": true,
+      "ExtraInfo": "dolorum",
+      "Width": "rem",
+      "IconHint": "distinctio",
+      "HeadingIconHint": "voluptatum"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Denesik Group",
-      "PrimaryKey": 119,
+      "EntityName": "Orn Group",
+      "PrimaryKey": 730,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "est",
-          "TooltipHint": "tempore",
-          "LinkHint": "alias"
+          "DisplayValue": "rem",
+          "TooltipHint": "accusamus",
+          "LinkHint": "ut"
         }
       },
-      "LinkHint": "minus",
-      "StyleHint": "blanditiis",
+      "LinkHint": "facere",
+      "StyleHint": "perspiciatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 778
+          "FieldType": "System.Int32",
+          "FieldLength": 274
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Schumm-Schiller",
-      "Description": "Multi-channelled well-modulated hardware",
-      "Rank": 885,
+      "Name": "Hoppe, Blick and Bahringer",
+      "Description": "Vision-oriented multimedia parallelism",
+      "Rank": 267,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schumm-Schiller",
-      "Description": "Multi-channelled well-modulated hardware",
-      "Rank": 885,
+      "Name": "Hoppe, Blick and Bahringer",
+      "Description": "Vision-oriented multimedia parallelism",
+      "Rank": 267,
       "Restrictions": [
         {},
         {}
@@ -197,8 +197,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 832
+      "FieldType": "System.String",
+      "FieldLength": 208
     }
   }
 }

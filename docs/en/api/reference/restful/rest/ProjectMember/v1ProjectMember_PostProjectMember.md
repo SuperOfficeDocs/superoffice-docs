@@ -73,6 +73,8 @@ The ProjectMember to be saved.
 | EmailAddressName | String | The e-mail address description |
 | Comment | String | Comment text on the project membership |
 | FullName | String | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | String | The date and time when the project member was registered  in UTC. |
+| Updated | String | The date and time when the project member was last updated  in UTC. |
 
 ## Response:
 
@@ -107,6 +109,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -117,31 +121,33 @@ OK
 POST /api/v1/ProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 969,
-  "ContactId": 666,
-  "ProjectId": 639,
-  "ContactName": "Lueilwitz-Muller",
+  "ProjectmemberId": 17,
+  "ContactId": 149,
+  "ProjectId": 489,
+  "ContactName": "Torphy Group",
   "ContactDepartment": "",
-  "ProjectName": "Stokes, Wisozk and Hilll",
-  "EmailId": 960,
-  "EmailAddress": "osbaldo@hyatthaag.info",
-  "CountryId": 591,
-  "Firstname": "Harrison",
-  "MiddleName": "Jacobi LLC",
-  "Lastname": "Pacocha",
-  "PersonId": 809,
-  "Mrmrs": "quidem",
-  "ProjectMemberTypeName": "Abernathy LLC",
-  "Phone": "(429)884-9750 x99705",
-  "PhoneId": 935,
-  "ProjectMemberTypeId": 285,
-  "EmailAddressName": "euna_denesik@howe.co.uk",
-  "Comment": "necessitatibus",
-  "FullName": "Jarrett Greenfelder"
+  "ProjectName": "Batz-Lind",
+  "EmailId": 602,
+  "EmailAddress": "rosario_abshire@faheymonahan.uk",
+  "CountryId": 156,
+  "Firstname": "Giuseppe",
+  "MiddleName": "Marks, Ortiz and Schimmel",
+  "Lastname": "Kirlin",
+  "PersonId": 410,
+  "Mrmrs": "occaecati",
+  "ProjectMemberTypeName": "Marvin-Bahringer",
+  "Phone": "(268)966-5384 x73235",
+  "PhoneId": 525,
+  "ProjectMemberTypeId": 657,
+  "EmailAddressName": "jeanette@padbergframi.us",
+  "Comment": "quasi",
+  "FullName": "Mrs. Willa Gavin Gottlieb",
+  "Registered": "2022-07-21T03:41:59.1992454+02:00",
+  "Updated": "2022-10-10T03:41:59.1992454+02:00"
 }
 ```
 
@@ -152,38 +158,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 376,
-  "ContactId": 515,
-  "ProjectId": 296,
-  "ContactName": "Simonis-Gutkowski",
-  "ContactDepartment": "target e-business eyeballs",
-  "ProjectName": "Collier-Gusikowski",
-  "EmailId": 511,
-  "EmailAddress": "vincenza@abernathycasper.ca",
-  "CountryId": 652,
-  "Firstname": "Kasandra",
-  "MiddleName": "Mosciski-Ankunding",
-  "Lastname": "Harber",
-  "PersonId": 170,
-  "Mrmrs": "minima",
-  "ProjectMemberTypeName": "Kemmer-Larson",
-  "Phone": "393.112.8205 x654",
-  "PhoneId": 775,
-  "ProjectMemberTypeId": 373,
-  "EmailAddressName": "erling@quitzonsauer.name",
-  "Comment": "id",
-  "FullName": "Dr. Carolanne Legros IV",
+  "ProjectmemberId": 716,
+  "ContactId": 848,
+  "ProjectId": 698,
+  "ContactName": "Purdy Group",
+  "ContactDepartment": "",
+  "ProjectName": "Paucek LLC",
+  "EmailId": 374,
+  "EmailAddress": "bartholome@mcglynn.uk",
+  "CountryId": 482,
+  "Firstname": "Britney",
+  "MiddleName": "Wiegand Group",
+  "Lastname": "Greenholt",
+  "PersonId": 269,
+  "Mrmrs": "eum",
+  "ProjectMemberTypeName": "Gottlieb-Raynor",
+  "Phone": "747.902.5386",
+  "PhoneId": 777,
+  "ProjectMemberTypeId": 722,
+  "EmailAddressName": "jerry@rowe.com",
+  "Comment": "amet",
+  "FullName": "Mallie Leffler",
+  "Registered": "2018-05-17T03:41:59.1992454+02:00",
+  "Updated": "2011-06-20T03:41:59.1992454+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 696
+      "FieldType": "System.Int32",
+      "FieldLength": 387
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

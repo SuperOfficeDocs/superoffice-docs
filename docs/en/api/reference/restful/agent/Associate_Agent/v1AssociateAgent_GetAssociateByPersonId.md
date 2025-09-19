@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateByPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 163
+  "PersonId": 62
 }
 ```
 
@@ -102,32 +102,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 888,
-  "Name": "Schmidt-Dietrich",
-  "PersonId": 3,
-  "Rank": 243,
-  "Tooltip": "iusto",
+  "AssociateId": 985,
+  "Name": "Ledner-Gottlieb",
+  "PersonId": 92,
+  "Rank": 458,
+  "Tooltip": "assumenda",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 483,
-  "FullName": "Raquel Grady",
-  "FormalName": "Buckridge-Price",
+  "GroupIdx": 58,
+  "FullName": "Nolan Hansen",
+  "FormalName": "Funk-Herman",
   "Deleted": true,
-  "EjUserId": 451,
-  "UserName": "Waelchi-Morissette",
+  "EjUserId": 534,
+  "UserName": "Marquardt-Schroeder",
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "in",
+    "ExtraFields2": "vel"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "possimus",
+    "CustomFields2": "corporis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 179
+      "FieldLength": 156
     }
   }
 }

@@ -70,27 +70,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 785,
-  "WorkflowId": 117,
+  "WorkflowTriggerId": 2,
+  "WorkflowId": 777,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Walker, Gerhold and Wolf",
-      "Description": "Down-sized context-sensitive synergy",
-      "Rank": 76,
+      "Name": "Hirthe, Corkery and Johns",
+      "Description": "Customizable clear-thinking complexity",
+      "Rank": 622,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Walker, Gerhold and Wolf",
-      "Description": "Down-sized context-sensitive synergy",
-      "Rank": 76,
+      "Name": "Hirthe, Corkery and Johns",
+      "Description": "Customizable clear-thinking complexity",
+      "Rank": 622,
       "Restrictions": [
         {},
         {}
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 676,
-  "WorkflowId": 123,
+  "WorkflowTriggerId": 138,
+  "WorkflowId": 802,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Jones-Turner",
-      "Description": "Extended even-keeled installation",
-      "Rank": 940,
+      "Name": "DuBuque LLC",
+      "Description": "Profit-focused regional orchestration",
+      "Rank": 371,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Jones-Turner",
-      "Description": "Extended even-keeled installation",
-      "Rank": 940,
+      "Name": "DuBuque LLC",
+      "Description": "Profit-focused regional orchestration",
+      "Rank": 371,
       "Restrictions": [
         {},
         {}
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 641
+      "FieldLength": 597
     }
   }
 }

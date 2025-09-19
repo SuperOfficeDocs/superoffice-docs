@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 917,
-  "CountryId": 304
+  "ContactId": 599,
+  "CountryId": 456
 }
 ```
 
@@ -96,41 +96,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 6054.888,
-  "Wgs84Longitude": 27278.336,
+  "Wgs84Latitude": 16152.635999999999,
+  "Wgs84Longitude": 3325.174,
   "LocalizedAddress": [
     [
       {
-        "Name": "Sauer, Mayert and Stoltenberg",
-        "Value": "repudiandae",
-        "Tooltip": "non",
-        "Label": "illum",
-        "ValueLength": 105,
-        "AddressType": "et",
+        "Name": "Bednar, Hagenes and Von",
+        "Value": "doloremque",
+        "Tooltip": "rerum",
+        "Label": "unde",
+        "ValueLength": 362,
+        "AddressType": "quia",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 809
+            "FieldLength": 982
           }
         }
       }
     ],
     [
       {
-        "Name": "Vandervort LLC",
-        "Value": "ipsam",
-        "Tooltip": "voluptatem",
-        "Label": "temporibus",
-        "ValueLength": 375,
-        "AddressType": "cumque",
+        "Name": "Block-Grimes",
+        "Value": "assumenda",
+        "Tooltip": "qui",
+        "Label": "sit",
+        "ValueLength": 399,
+        "AddressType": "consectetur",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 731
+            "FieldLength": 558
           }
         }
       }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "aspernatur",
+  "Formatted": "reiciendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldLength": 250
     }
   }
 }

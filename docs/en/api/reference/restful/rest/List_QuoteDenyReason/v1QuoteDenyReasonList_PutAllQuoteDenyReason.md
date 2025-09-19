@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 185,
-    "Name": "Bechtelar-Veum",
-    "Tooltip": "in",
-    "Deleted": true,
-    "UdListDefinitionId": 856,
-    "Rank": 384
+    "Id": 115,
+    "Name": "Kozey, Heaney and Daugherty",
+    "Tooltip": "dolores",
+    "Deleted": false,
+    "UdListDefinitionId": 210,
+    "Rank": 431
   },
   {
-    "Id": 185,
-    "Name": "Bechtelar-Veum",
-    "Tooltip": "in",
-    "Deleted": true,
-    "UdListDefinitionId": 856,
-    "Rank": 384
+    "Id": 115,
+    "Name": "Kozey, Heaney and Daugherty",
+    "Tooltip": "dolores",
+    "Deleted": false,
+    "UdListDefinitionId": 210,
+    "Rank": 431
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 708,
-    "Name": "Bailey, Little and Gaylord",
-    "Tooltip": "voluptas",
+    "Id": 264,
+    "Name": "Deckow, Stehr and Gorczany",
+    "Tooltip": "consequatur",
     "Deleted": true,
-    "UdListDefinitionId": 469,
-    "Rank": 729,
+    "UdListDefinitionId": 374,
+    "Rank": 169,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 302
+        "FieldType": "System.String",
+        "FieldLength": 513
       }
     }
   }

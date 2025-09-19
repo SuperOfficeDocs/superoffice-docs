@@ -115,18 +115,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "animi",
+    "path": "voluptatum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "animi",
+    "path": "voluptatum",
     "value": {}
   }
 ]
@@ -139,29 +139,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 145,
-  "Name": "Stamm, Cole and Robel",
-  "CreatedDate": "2011-01-16T03:47:00.0193121+01:00",
-  "UpdatedDate": "2010-03-07T03:47:00.0193121+01:00",
+  "ForeignAppId": 733,
+  "Name": "Herman LLC",
+  "CreatedDate": "2012-07-05T03:41:58.7617712+02:00",
+  "UpdatedDate": "2014-11-13T03:41:58.7617712+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 743,
-      "Name": "Cummings LLC",
-      "CreatedDate": "2008-03-07T03:47:00.0193121+01:00",
-      "UpdatedDate": "2015-06-12T03:47:00.0193121+02:00",
-      "AssociateFullName": "Mrs. Katrina Ashley Kunze III",
-      "CreatedBy": "laborum",
-      "UpdatedBy": "molestiae",
-      "DeviceIdentifier": "eligendi",
-      "ForeignAppId": 624,
+      "ForeignDeviceId": 36,
+      "Name": "Langosh-Kreiger",
+      "CreatedDate": "2011-04-29T03:41:58.7617712+02:00",
+      "UpdatedDate": "2020-08-05T03:41:58.7617712+02:00",
+      "AssociateFullName": "Horacio Shanahan",
+      "CreatedBy": "sequi",
+      "UpdatedBy": "quis",
+      "DeviceIdentifier": "alias",
+      "ForeignAppId": 948,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 126
+          "FieldLength": 748
         }
       }
     }
@@ -171,7 +171,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 803
+      "FieldLength": 280
     }
   },
   "_Links": {

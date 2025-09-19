@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 159,
-    "Name": "Mitchell Inc and Sons",
-    "ToolTip": "Aut illo id aspernatur.",
+    "Id": 74,
+    "Name": "Kohler, Bahringer and Wintheiser",
+    "ToolTip": "Nisi aut nisi.",
     "Deleted": false,
-    "Rank": 163,
-    "Type": "recusandae",
-    "ColorBlock": 751,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2011-12-14T03:47:00.7380451+01:00",
+    "Rank": 511,
+    "Type": "ullam",
+    "ColorBlock": 988,
+    "IconHint": "omnis",
+    "Selected": false,
+    "LastChanged": "2020-03-30T03:41:59.5432177+02:00",
     "ChildItems": [
       {
-        "Id": 584,
-        "Name": "Bechtelar LLC",
-        "ToolTip": "Rerum ut nisi.",
-        "Deleted": true,
-        "Rank": 336,
-        "Type": "libero",
-        "ColorBlock": 151,
-        "IconHint": "veritatis",
+        "Id": 928,
+        "Name": "Corkery LLC",
+        "ToolTip": "Culpa qui natus reprehenderit pariatur est.",
+        "Deleted": false,
+        "Rank": 842,
+        "Type": "consequatur",
+        "ColorBlock": 241,
+        "IconHint": "praesentium",
         "Selected": false,
-        "LastChanged": "2023-12-17T03:47:00.7380451+01:00",
+        "LastChanged": "2003-03-29T03:41:59.5432177+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "maiores",
+        "ExtraInfo": "placeat",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Leonor Jaskolski",
+        "FullName": "Cletus Bahringer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 827
+            "FieldType": "System.Int32",
+            "FieldLength": 784
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "maxime",
     "Hidden": true,
-    "FullName": "Crystel Stoltenberg",
+    "FullName": "Brayan Connelly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 445
+        "FieldLength": 324
       }
     }
   }

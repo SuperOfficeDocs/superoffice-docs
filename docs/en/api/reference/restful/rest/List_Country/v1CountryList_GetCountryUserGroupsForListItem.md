@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 216,
-    "Name": "Larson Group",
-    "ToolTip": "Similique tenetur non voluptas quo sed.",
+    "Id": 227,
+    "Name": "Flatley Inc and Sons",
+    "ToolTip": "Quo aut pariatur vero id repellat natus.",
     "Deleted": true,
-    "Rank": 447,
-    "Type": "maiores",
-    "ColorBlock": 630,
-    "IconHint": "odio",
-    "Selected": true,
-    "LastChanged": "2012-09-15T03:47:00.6130405+02:00",
+    "Rank": 866,
+    "Type": "pariatur",
+    "ColorBlock": 832,
+    "IconHint": "dolor",
+    "Selected": false,
+    "LastChanged": "2022-07-17T03:41:59.3867375+02:00",
     "ChildItems": [
       {
-        "Id": 843,
-        "Name": "Koepp, Weimann and Muller",
-        "ToolTip": "Odit aut rerum aut nemo sed.",
+        "Id": 892,
+        "Name": "Doyle, Jerde and Hudson",
+        "ToolTip": "Ad est eveniet quibusdam sit.",
         "Deleted": false,
-        "Rank": 986,
-        "Type": "blanditiis",
-        "ColorBlock": 122,
-        "IconHint": "dolorem",
-        "Selected": false,
-        "LastChanged": "2000-03-11T03:47:00.6130405+01:00",
+        "Rank": 865,
+        "Type": "est",
+        "ColorBlock": 340,
+        "IconHint": "iste",
+        "Selected": true,
+        "LastChanged": "2024-08-27T03:41:59.3867375+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "tenetur",
+        "ExtraInfo": "eum",
+        "StyleHint": "a",
         "Hidden": false,
-        "FullName": "Prof. Bertha Derrick Mayer III",
+        "FullName": "Marcellus Adams",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 60
+            "FieldType": "System.String",
+            "FieldLength": 123
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "quis",
+    "ExtraInfo": "et",
+    "StyleHint": "ratione",
     "Hidden": true,
-    "FullName": "Janiya Hettinger",
+    "FullName": "Arno Schuster",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 450
+        "FieldLength": 71
       }
     }
   }

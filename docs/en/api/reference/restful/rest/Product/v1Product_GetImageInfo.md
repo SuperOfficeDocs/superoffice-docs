@@ -82,28 +82,28 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 03 Oct 2011 03:47:00 G10T
+Last-Modified: Sun, 31 Jul 2005 03:41:59 G7T
 
 {
-  "BlobId": 869,
-  "BlobSize": 983,
-  "Description": "Optional eco-centric model",
-  "ExtraInfo": "et",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "dolorem",
-  "OriginalSize": 278,
-  "CreatedDate": "2000-05-09T03:47:00.4255562+02:00",
-  "UpdatedDate": "2011-10-03T03:47:00.4255562+02:00",
+  "BlobId": 434,
+  "BlobSize": 469,
+  "Description": "Persevering regional hierarchy",
+  "ExtraInfo": "aut",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "molestias",
+  "OriginalSize": 53,
+  "CreatedDate": "2006-09-05T03:41:59.1992454+02:00",
+  "UpdatedDate": "2005-07-31T03:41:59.1992454+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ea",
+  "ConceptualType": "quae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldType": "System.String",
+      "FieldLength": 577
     }
   }
 }

@@ -141,16 +141,16 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 GET /api/v1/Archive/{archiveProviderName}?$select=name,department,category/id
 GET /api/v1/Archive/{archiveProviderName}?$filter=name begins 'S'
 GET /api/v1/Archive/{archiveProviderName}?$orderBy=name asc
-GET /api/v1/Archive/{archiveProviderName}?$entities=sed
-GET /api/v1/Archive/{archiveProviderName}?$top=655
-GET /api/v1/Archive/{archiveProviderName}?$skip=874
+GET /api/v1/Archive/{archiveProviderName}?$entities=doloribus
+GET /api/v1/Archive/{archiveProviderName}?$top=710
+GET /api/v1/Archive/{archiveProviderName}?$skip=735
 GET /api/v1/Archive/{archiveProviderName}?$mode=Full
 GET /api/v1/Archive/{archiveProviderName}?$options=GrandTotal=true
-GET /api/v1/Archive/{archiveProviderName}?$context=sit
+GET /api/v1/Archive/{archiveProviderName}?$context=magni
 GET /api/v1/Archive/{archiveProviderName}?$format=JSON
-GET /api/v1/Archive/{archiveProviderName}?$metadata=totam
+GET /api/v1/Archive/{archiveProviderName}?$metadata=temporibus
 GET /api/v1/Archive/{archiveProviderName}?$inlineCount=AllPages
-GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=True
+GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=False
 GET /api/v1/Archive/{archiveProviderName}?$output=Display
 ```
 
@@ -191,7 +191,7 @@ OK
 GET /api/v1/Archive/{archiveProviderName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -202,21 +202,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "aut",
+  "odata.nextLink": "nihil",
   "value": [
     {
-      "PrimaryKey": 9635,
+      "PrimaryKey": 3207,
       "EntityName": "sale",
-      "saleId": 9635,
-      "contactId": 5939,
-      "name": "Homenick, Spencer and Johns"
+      "saleId": 3207,
+      "contactId": 7803,
+      "name": "Metz-Wisozk"
     },
     {
-      "PrimaryKey": 9842,
+      "PrimaryKey": 3441,
       "EntityName": "sale",
-      "saleId": 9842,
-      "contactId": 8858,
-      "name": "Turcotte, Fisher and Ledner"
+      "saleId": 3441,
+      "contactId": 7964,
+      "name": "Shanahan Group"
     }
   ]
 }

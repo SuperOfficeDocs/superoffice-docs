@@ -66,7 +66,7 @@ OK
 GET /api/v1/Archive/{archiveProviderName}/$metadata
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,21 +77,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "non",
+  "odata.nextLink": "sint",
   "value": [
     {
-      "PrimaryKey": 1133,
+      "PrimaryKey": 4560,
       "EntityName": "sale",
-      "saleId": 1133,
-      "contactId": 1752,
-      "name": "Harber, Runolfsdottir and Rutherford"
+      "saleId": 4560,
+      "contactId": 9432,
+      "name": "Parisian, Fay and Keeling"
     },
     {
-      "PrimaryKey": 1597,
+      "PrimaryKey": 7643,
       "EntityName": "sale",
-      "saleId": 1597,
-      "contactId": 9686,
-      "name": "Becker, Feil and Harber"
+      "saleId": 7643,
+      "contactId": 5242,
+      "name": "Skiles, Swift and Walsh"
     }
   ]
 }

@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 445,
-  "Name": "Hermiston Inc and Sons",
-  "Tooltip": "voluptatem",
+  "HeadingId": 525,
+  "Name": "Mann Group",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 6,
-  "UdListDefinitionId": 540
+  "Rank": 310,
+  "UdListDefinitionId": 355
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 368,
-  "Name": "Tillman Group",
-  "Tooltip": "pariatur",
-  "Deleted": false,
-  "Rank": 531,
-  "UdListDefinitionId": 689,
+  "HeadingId": 429,
+  "Name": "Hamill, Hane and Rippin",
+  "Tooltip": "sint",
+  "Deleted": true,
+  "Rank": 129,
+  "UdListDefinitionId": 854,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 808
+      "FieldLength": 441
     }
   }
 }

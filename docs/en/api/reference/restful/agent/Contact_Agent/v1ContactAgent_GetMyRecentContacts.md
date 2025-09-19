@@ -115,36 +115,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 904,
-    "Name": "O'Kon LLC",
-    "OrgNr": "1052720",
-    "Department": "brand revolutionary eyeballs",
+    "ContactId": 761,
+    "Name": "Ortiz Inc and Sons",
+    "OrgNr": "1323156",
+    "Department": "",
     "URL": "http://www.example.com/",
-    "City": "ut",
-    "DirectPhone": "1-430-448-0253",
-    "AssociateId": 213,
-    "CountryId": 172,
-    "EmailAddress": "stefan@shanahanrau.us",
-    "Kananame": "soluta",
-    "EmailAddressName": "estevan@nolan.uk",
+    "City": "architecto",
+    "DirectPhone": "553-995-4685 x6918",
+    "AssociateId": 100,
+    "CountryId": 860,
+    "EmailAddress": "moriah.barton@monahan.uk",
+    "Kananame": "nostrum",
+    "EmailAddressName": "sophia@becker.biz",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Ima Schuster",
+    "AssociateFullName": "Annabelle Zechariah Welch DVM",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "libero",
-    "FullName": "Minnie Nikolaus",
+    "FormattedAddress": "aut",
+    "FullName": "Prof. Jazmyne Raleigh Muller",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 931,
-    "Number1": "819861",
-    "Number2": "1289355",
+    "ActiveErpLinks": 924,
+    "Number1": "695729",
+    "Number2": "1318602",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 622
+        "FieldLength": 283
       }
     }
   }

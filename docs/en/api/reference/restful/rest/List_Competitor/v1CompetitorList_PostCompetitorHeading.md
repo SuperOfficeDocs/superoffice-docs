@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 334,
-  "Name": "Kling-Lubowitz",
-  "Tooltip": "aperiam",
+  "HeadingId": 650,
+  "Name": "Grady LLC",
+  "Tooltip": "nemo",
   "Deleted": false,
-  "Rank": 278,
-  "UdListDefinitionId": 14
+  "Rank": 204,
+  "UdListDefinitionId": 332
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 10,
-  "Name": "Bosco, Williamson and Lakin",
-  "Tooltip": "quas",
-  "Deleted": false,
-  "Rank": 139,
-  "UdListDefinitionId": 879,
+  "HeadingId": 592,
+  "Name": "Ortiz, Rodriguez and Braun",
+  "Tooltip": "deleniti",
+  "Deleted": true,
+  "Rank": 559,
+  "UdListDefinitionId": 376,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 72
+      "FieldLength": 713
     }
   }
 }

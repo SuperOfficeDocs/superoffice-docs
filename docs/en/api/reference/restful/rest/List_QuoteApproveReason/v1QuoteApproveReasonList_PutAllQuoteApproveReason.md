@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 258,
-    "Name": "Dickinson, Klocko and Reynolds",
-    "Tooltip": "accusantium",
-    "Deleted": false,
-    "UdListDefinitionId": 751,
-    "Rank": 834
+    "Id": 950,
+    "Name": "Ankunding, Rohan and Reilly",
+    "Tooltip": "at",
+    "Deleted": true,
+    "UdListDefinitionId": 75,
+    "Rank": 358
   },
   {
-    "Id": 258,
-    "Name": "Dickinson, Klocko and Reynolds",
-    "Tooltip": "accusantium",
-    "Deleted": false,
-    "UdListDefinitionId": 751,
-    "Rank": 834
+    "Id": 950,
+    "Name": "Ankunding, Rohan and Reilly",
+    "Tooltip": "at",
+    "Deleted": true,
+    "UdListDefinitionId": 75,
+    "Rank": 358
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 751,
-    "Name": "Crona Inc and Sons",
-    "Tooltip": "rerum",
+    "Id": 804,
+    "Name": "Lowe Inc and Sons",
+    "Tooltip": "sint",
     "Deleted": false,
-    "UdListDefinitionId": 402,
-    "Rank": 287,
+    "UdListDefinitionId": 456,
+    "Rank": 460,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldLength": 549
       }
     }
   }

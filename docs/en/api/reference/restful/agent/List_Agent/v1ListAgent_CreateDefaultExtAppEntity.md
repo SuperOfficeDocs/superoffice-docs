@@ -87,34 +87,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 854,
-  "Name": "Will Group",
-  "Tooltip": "ipsum",
+  "ExtAppId": 273,
+  "Name": "Maggio LLC",
+  "Tooltip": "doloremque",
   "Deleted": true,
-  "Rank": 74,
-  "Filename": "error",
-  "Parameters": "adipisci",
-  "Workdir": "reprehenderit",
+  "Rank": 44,
+  "Filename": "sunt",
+  "Parameters": "accusantium",
+  "Workdir": "provident",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 653,
-  "WaitToFinish": true,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "Icon": 988,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "minus",
+  "Path": "non",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 155
+      "FieldType": "System.Int32",
+      "FieldLength": 582
     }
   }
 }

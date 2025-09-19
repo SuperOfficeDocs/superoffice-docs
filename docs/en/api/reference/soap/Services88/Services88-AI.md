@@ -1260,7 +1260,7 @@ content_type: reference
               <xs:element minOccurs="0" name="ActiveErpLinks" type="xs:int" />
               <xs:element minOccurs="0" name="BounceEmails" nillable="true" type="q124:ArrayOfstring" xmlns:q124="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="Domains" nillable="true" type="q125:ArrayOfstring" xmlns:q125="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
-              <xs:element minOccurs="0" name="InitialUtmParameters" nillable="true" type="q123:InitalUtmParameters" />
+              <xs:element minOccurs="0" name="UtmParameters" nillable="true" type="q123:SavedUtmParameters" />
               <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="q123:StringDictionary" />
               <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="q123:StringDictionary" />
               <xs:element minOccurs="0" name="CustomFields" nillable="true" type="q123:StringDictionary" />
@@ -1398,11 +1398,17 @@ content_type: reference
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="CustomerLanguage" nillable="true" type="q146:CustomerLanguage" xmlns:q146="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-      <xs:complexType name="InitalUtmParameters">
+      <xs:complexType name="SavedUtmParameters">
         <xs:complexContent mixed="false">
           <xs:extension base="q147:Carrier" xmlns:q147="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="FormName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FirsttouchSource" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FirsttouchMedium" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FirsttouchCampaign" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FirsttouchTerm" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FirsttouchContent" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="FirsttouchReferrerDomain" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Source" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Medium" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Campaign" nillable="true" type="xs:string" />
@@ -1413,7 +1419,7 @@ content_type: reference
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="InitalUtmParameters" nillable="true" type="q148:InitalUtmParameters" xmlns:q148="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="SavedUtmParameters" nillable="true" type="q148:SavedUtmParameters" xmlns:q148="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="PersonEntity">
         <xs:complexContent mixed="false">
           <xs:extension base="q149:Carrier" xmlns:q149="http://www.superoffice.net/ws/crm/NetServer/Services88">
@@ -1479,7 +1485,8 @@ content_type: reference
               <xs:element minOccurs="0" name="BounceEmails" nillable="true" type="q150:ArrayOfstring" xmlns:q150="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
               <xs:element minOccurs="0" name="ActiveStatusMonitorId" type="xs:int" />
               <xs:element minOccurs="0" name="CreatedByFormId" type="xs:int" />
-              <xs:element minOccurs="0" name="InitialUtmParameters" nillable="true" type="q149:InitalUtmParameters" />
+              <xs:element minOccurs="0" name="UtmParameters" nillable="true" type="q149:SavedUtmParameters" />
+              <xs:element minOccurs="0" name="LeadstatusId" type="xs:int" />
               <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="q149:StringDictionary" />
               <xs:element minOccurs="0" name="ExtraFields" nillable="true" type="q149:StringDictionary" />
               <xs:element minOccurs="0" name="CustomFields" nillable="true" type="q149:StringDictionary" />

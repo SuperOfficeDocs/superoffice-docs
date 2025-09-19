@@ -82,7 +82,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,76 +93,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "rem",
-  "AssociateId": 281,
+  "Associate": "deleniti",
+  "AssociateId": 594,
   "IsPerson": false,
-  "PersonId": 936,
-  "CountryId": 314,
-  "HomeCountryId": 492,
-  "ContactId": 796,
-  "GroupId": 561,
-  "BusinessId": 465,
-  "CategoryId": 220,
-  "ContactOwner": 130,
-  "RoleId": 564,
-  "RoleName": "Hand, Konopelski and Haag",
-  "RoleDescription": "Cloned bottom-line time-frame",
+  "PersonId": 253,
+  "CountryId": 541,
+  "HomeCountryId": 414,
+  "ContactId": 973,
+  "GroupId": 203,
+  "BusinessId": 271,
+  "CategoryId": 889,
+  "ContactOwner": 504,
+  "RoleId": 506,
+  "RoleName": "Torp-Mosciski",
+  "RoleDescription": "Operative leading edge project",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 161,
-      "OwnerName": "Lemke-Roberts",
-      "OwnerDescription": "Persevering clear-thinking info-mediaries",
-      "ModuleId": 311,
-      "Name": "Bradtke-Leuschke",
-      "Description": "Sharable incremental workforce",
-      "Version": "rerum",
+      "OwnerId": 667,
+      "OwnerName": "Schmeler LLC",
+      "OwnerDescription": "Secured methodical frame",
+      "ModuleId": 845,
+      "Name": "Muller LLC",
+      "Description": "Virtual grid-enabled capacity",
+      "Version": "corporis",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 435,
-      "ExtraInfo": "quasi",
-      "SortOrder": 628,
-      "LicenseNumber": 54,
-      "IsHidden": true,
+      "ExtraFlags": 632,
+      "ExtraInfo": "doloribus",
+      "SortOrder": 356,
+      "LicenseNumber": 794,
+      "IsHidden": false,
       "IsUnrestricted": false,
-      "ExpiryDate": "2009-11-21T03:47:00.5349272+01:00",
+      "ExpiryDate": "2025-08-14T03:41:59.2617427+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 121
+          "FieldType": "System.Int32",
+          "FieldLength": 691
         }
       }
     }
   ],
-  "FullName": "Crawford Kris",
-  "EMailAddress": "consequatur",
+  "FullName": "Fred Jacobson",
+  "EMailAddress": "laborum",
   "FunctionRights": [
-    "quam",
-    "quisquam"
+    "quidem",
+    "in"
   ],
-  "EjUserId": 470,
-  "EjAccessLevel": 942,
+  "EjUserId": 693,
+  "EjAccessLevel": 359,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "deleniti",
-      "SearchName": "Dickens-Blick",
-      "DisplayName": "Schowalter-Thiel",
-      "CredentialId": 508
+      "Type": "cumque",
+      "SearchName": "Fay LLC",
+      "DisplayName": "Hane Group",
+      "CredentialId": 588
     },
     {
-      "Type": "deleniti",
-      "SearchName": "Dickens-Blick",
-      "DisplayName": "Schowalter-Thiel",
-      "CredentialId": 508
+      "Type": "cumque",
+      "SearchName": "Fay LLC",
+      "DisplayName": "Hane Group",
+      "CredentialId": 588
     }
   ],
   "SecondaryGroups": [
-    654,
-    492
+    761,
+    986
   ],
-  "DatabaseContextIdentifier": "est",
-  "UserName": "Greenfelder-Schneider"
+  "DatabaseContextIdentifier": "sed",
+  "UserName": "O'Reilly, Glover and Sauer"
 }
 ```

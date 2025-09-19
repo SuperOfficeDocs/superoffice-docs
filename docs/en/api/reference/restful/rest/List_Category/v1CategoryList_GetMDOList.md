@@ -27,8 +27,8 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Category/MDOItems?flat=True
-GET /api/v1/List/Category/MDOItems?query=nostrum
+GET /api/v1/List/Category/MDOItems?flat=False
+GET /api/v1/List/Category/MDOItems?query=repellendus
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 897,
-    "Name": "Wilkinson-Prosacco",
-    "ToolTip": "Rerum beatae qui voluptas adipisci.",
-    "Deleted": false,
-    "Rank": 64,
-    "Type": "aut",
+    "Id": 486,
+    "Name": "Hettinger, Swaniawski and Funk",
+    "ToolTip": "Molestiae tempore dicta ipsum neque velit recusandae.",
+    "Deleted": true,
+    "Rank": 405,
+    "Type": "non",
     "ChildItems": [
       {
-        "Id": 685,
-        "Name": "Hodkiewicz LLC",
-        "ToolTip": "Quaerat amet velit.",
+        "Id": 361,
+        "Name": "Gottlieb-Schimmel",
+        "ToolTip": "Vel fugiat est accusamus consequatur.",
         "Deleted": false,
-        "Rank": 37,
-        "Type": "qui",
+        "Rank": 485,
+        "Type": "nobis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quidem",
-        "ColorBlock": 658,
-        "ExtraInfo": "ut",
-        "StyleHint": "consequatur",
-        "FullName": "Velva Pagac",
+        "IconHint": "enim",
+        "ColorBlock": 897,
+        "ExtraInfo": "dicta",
+        "StyleHint": "vel",
+        "FullName": "Minnie Beier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 485
+            "FieldLength": 33
           }
         }
       }
     ],
-    "IconHint": "nihil",
-    "ColorBlock": 113,
-    "ExtraInfo": "assumenda",
-    "StyleHint": "facilis",
-    "FullName": "Rhett Schuppe V",
+    "IconHint": "vitae",
+    "ColorBlock": 278,
+    "ExtraInfo": "ut",
+    "StyleHint": "magni",
+    "FullName": "Ariane Mante",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 863
+        "FieldType": "System.Int32",
+        "FieldLength": 934
       }
     }
   }

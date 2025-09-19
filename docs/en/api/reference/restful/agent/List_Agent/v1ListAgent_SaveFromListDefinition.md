@@ -85,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 90,
-  "UdListDefinitionId": 140,
+  "Id": 764,
+  "UdListDefinitionId": 558,
   "Item": null
 }
 ```
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 777,
-  "Name": "Lowe-Kassulke",
-  "Tooltip": "in",
+  "Id": 804,
+  "Name": "Rowe-Little",
+  "Tooltip": "totam",
   "Deleted": false,
-  "UdListDefinitionId": 227,
-  "Rank": 222,
+  "UdListDefinitionId": 195,
+  "Rank": 696,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 233
+      "FieldType": "System.String",
+      "FieldLength": 812
     }
   }
 }

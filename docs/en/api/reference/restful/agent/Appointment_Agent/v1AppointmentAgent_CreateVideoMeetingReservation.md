@@ -60,8 +60,6 @@ OK
 |----------------|------|--------------|
 | VideoMeetingId | string | The ID for the meeting, as considered from the central meeting service, not SO |
 | VideoMeetingUrl | string | The URL for the meeting. |
-| TableRight | TableRight | The carrier's table right |
-| FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
 ## Sample request
 
@@ -69,7 +67,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateVideoMeetingReservation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,15 +77,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "VideoMeetingId": "eos",
-  "VideoMeetingUrl": "http://www.example.com/",
-  "TableRight": null,
-  "FieldProperties": {
-    "fieldName": {
-      "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 855
-    }
-  }
+  "VideoMeetingId": "id",
+  "VideoMeetingUrl": "http://www.example.com/"
 }
 ```

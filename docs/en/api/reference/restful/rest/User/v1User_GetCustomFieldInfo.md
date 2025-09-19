@@ -73,7 +73,7 @@ OK
 GET /api/v1/User/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Bins LLC",
-  "DisplayName": "Willms-Krajcik",
-  "Description": "Multi-channelled solution-oriented structure",
-  "ShortLabel": "qui",
+  "FieldName": "Murazik-Kohler",
+  "DisplayName": "Sipes Group",
+  "Description": "Programmable value-added standardization",
+  "ShortLabel": "aperiam",
   "HideLabel": false,
-  "HideField": true,
+  "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": false,
-  "IsReadOnly": true,
+  "IsMandatory": true,
+  "IsReadOnly": false,
   "IsExternal": true,
-  "IsDisplayField": true,
-  "Rank": 783,
-  "TemplateVariableName": "Carroll-Mraz"
+  "IsDisplayField": false,
+  "Rank": 942,
+  "TemplateVariableName": "Strosin, Rath and Dickens"
 }
 ```

@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 94,
-  "Name": "Swaniawski, Pfeffer and Berge",
-  "Tooltip": "voluptas",
-  "Deleted": false,
-  "Rank": 98,
-  "IsCustomList": true,
+  "Id": 411,
+  "Name": "Wolf-Morar",
+  "Tooltip": "dolore",
+  "Deleted": true,
+  "Rank": 375,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "magnam",
+  "UseGroupsAndHeadings": true,
+  "ListType": "quia",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 376,
-  "Name": "Schmeler LLC",
-  "Tooltip": "numquam",
+  "Id": 191,
+  "Name": "Kuhic Inc and Sons",
+  "Tooltip": "labore",
   "Deleted": false,
-  "Rank": 937,
+  "Rank": 948,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "harum",
-  "InUseByUserDefinedFields": false,
+  "ListType": "corrupti",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 532
+      "FieldLength": 119
     }
   }
 }

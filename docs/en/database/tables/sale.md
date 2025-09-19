@@ -94,11 +94,11 @@ Sales  For every Sale record edited through the SuperOffice GUI, a copy of the c
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[chat\_session](chat-session.md)  |This table contains chat sessions. |
 |[Comptr](comptr.md)  |Comptr list table. List of all possible competitors (sale). |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 |[Credited](credited.md)  |Credited list table. List of who is to be credited for the sale. |
 |[Currency](currency.md)  |Currency list table |
 |[email\_item](email-item.md)  |Email data |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 |[Prob](prob.md)  |Prob list table. Probability, used in  sales . |
 |[project](project.md)  |Projects |
 |[Quote](quote.md)  |Quote root level, at most one per Sale, always connected to one Sale |

@@ -119,34 +119,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 636,
-  "Name": "Boehm-Bode",
-  "Tooltip": "corporis",
-  "SaveInDb": 104,
-  "Filename": "dolorem",
-  "DefaultOref": "praesentium",
+  "DocumentTemplateId": 886,
+  "Name": "Roberts Inc and Sons",
+  "Tooltip": "nesciunt",
+  "SaveInDb": 984,
+  "Filename": "amet",
+  "DefaultOref": "ex",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 556,
-  "IntentId": 639,
+  "AutoeventId": 655,
+  "IntentId": 907,
   "IsDefaultPublished": true,
-  "Rank": 460,
-  "LoadTemplateFromPlugin": 487,
-  "MimeType": "accusantium",
+  "Rank": 90,
+  "LoadTemplateFromPlugin": 402,
+  "MimeType": "doloremque",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 942,
+  "DocumentTypeKey": 328,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "genevieve_baumbach@hamill.uk",
-  "IncludeSignature": true,
-  "ShowCurrents": false,
+  "EmailSubject": "abe@rauoreilly.ca",
+  "IncludeSignature": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "leonora_pfannerstill@mraz.info",
+  "SenderEmailAddress": "raheem@metzturcotte.co.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -158,37 +158,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 627,
-  "Name": "Keeling-Kessler",
-  "Tooltip": "id",
-  "SaveInDb": 975,
-  "Filename": "fugiat",
-  "DefaultOref": "ea",
+  "DocumentTemplateId": 16,
+  "Name": "Von LLC",
+  "Tooltip": "cumque",
+  "SaveInDb": 555,
+  "Filename": "qui",
+  "DefaultOref": "odio",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 793,
-  "IntentId": 483,
+  "AutoeventId": 980,
+  "IntentId": 188,
   "IsDefaultPublished": false,
-  "Rank": 387,
-  "LoadTemplateFromPlugin": 574,
-  "MimeType": "nesciunt",
+  "Rank": 623,
+  "LoadTemplateFromPlugin": 44,
+  "MimeType": "ut",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 43,
+  "DocumentTypeKey": 280,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "rodger@sanfordabernathy.name",
-  "IncludeSignature": true,
+  "EmailSubject": "hollis@bernhardbergnaum.biz",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "jewel@krajcik.uk",
+  "SenderEmailAddress": "edwina@kohler.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldLength": 164
     }
   }
 }

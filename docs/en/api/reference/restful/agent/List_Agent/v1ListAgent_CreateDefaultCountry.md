@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 930,
-  "Name": "Schaefer, Adams and Rolfson",
-  "CurrencyId": 796,
-  "EnglishName": "Lowe, Gusikowski and Fay",
+  "CountryId": 545,
+  "Name": "Glover Group",
+  "CurrencyId": 636,
+  "EnglishName": "Rosenbaum Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Decentralized methodical moderator",
-  "OrgNrText": "545533",
-  "InterAreaPrefix": "sed",
-  "DialInPrefix": "natus",
-  "ZipPrefix": "ut",
-  "DomainName": "Schmidt, Schuppe and Quigley",
-  "AddressLayoutId": 369,
-  "DomesticAddressLayoutId": 70,
-  "ForeignAddressLayoutId": 292,
-  "Rank": 296,
-  "Tooltip": "eveniet",
-  "Deleted": false,
+  "ImageDescription": "Triple-buffered demand-driven collaboration",
+  "OrgNrText": "322511",
+  "InterAreaPrefix": "qui",
+  "DialInPrefix": "velit",
+  "ZipPrefix": "dignissimos",
+  "DomainName": "Cassin Inc and Sons",
+  "AddressLayoutId": 364,
+  "DomesticAddressLayoutId": 349,
+  "ForeignAddressLayoutId": 156,
+  "Rank": 9,
+  "Tooltip": "est",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 260
+      "FieldType": "System.String",
+      "FieldLength": 878
     }
   }
 }

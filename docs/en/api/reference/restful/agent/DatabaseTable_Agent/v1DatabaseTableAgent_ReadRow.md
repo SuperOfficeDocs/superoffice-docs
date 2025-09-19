@@ -75,12 +75,12 @@ OK
 POST /api/v1/Agents/DatabaseTable/ReadRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Lakin, Macejkovic and Schimmel",
-  "Id": 374
+  "TableName": "Leffler-Gibson",
+  "Id": 700
 }
 ```
 
@@ -92,15 +92,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "rerum",
-    "Values2": "est"
+    "Values1": "eum",
+    "Values2": "labore"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 564
+      "FieldLength": 377
     }
   }
 }

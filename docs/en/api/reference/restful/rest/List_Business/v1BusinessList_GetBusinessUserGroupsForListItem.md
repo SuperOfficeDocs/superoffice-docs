@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 766,
-    "Name": "Medhurst, Bernhard and Franecki",
-    "ToolTip": "Nostrum eum pariatur dolorem perferendis.",
+    "Id": 954,
+    "Name": "Cronin Group",
+    "ToolTip": "Alias earum nam quia aliquid sequi.",
     "Deleted": false,
-    "Rank": 399,
-    "Type": "autem",
-    "ColorBlock": 661,
-    "IconHint": "ab",
+    "Rank": 563,
+    "Type": "est",
+    "ColorBlock": 952,
+    "IconHint": "culpa",
     "Selected": false,
-    "LastChanged": "2011-03-15T03:47:00.5818006+01:00",
+    "LastChanged": "2010-11-19T03:41:59.339865+01:00",
     "ChildItems": [
       {
-        "Id": 260,
-        "Name": "Will-Labadie",
-        "ToolTip": "Ipsam illum et sunt dicta consequatur repudiandae quidem.",
+        "Id": 59,
+        "Name": "Mayert Inc and Sons",
+        "ToolTip": "Odio sint quasi dolor et aut non.",
         "Deleted": false,
-        "Rank": 695,
-        "Type": "qui",
-        "ColorBlock": 273,
-        "IconHint": "eos",
-        "Selected": false,
-        "LastChanged": "2000-12-05T03:47:00.5818006+01:00",
+        "Rank": 726,
+        "Type": "fuga",
+        "ColorBlock": 293,
+        "IconHint": "doloremque",
+        "Selected": true,
+        "LastChanged": "2002-03-18T03:41:59.339865+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "quod",
+        "ExtraInfo": "quas",
+        "StyleHint": "dolorum",
         "Hidden": true,
-        "FullName": "Edmund Kessler",
+        "FullName": "Bridie Kohler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 979
+            "FieldLength": 378
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "sit",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Bartholome Kling",
+    "FullName": "Terence Heidenreich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 327
+        "FieldLength": 879
       }
     }
   }

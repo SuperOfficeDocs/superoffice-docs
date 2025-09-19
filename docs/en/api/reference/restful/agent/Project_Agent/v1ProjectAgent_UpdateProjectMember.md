@@ -85,6 +85,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -94,7 +96,7 @@ OK
 POST /api/v1/Agents/Project/UpdateProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,33 +111,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 840,
-  "ContactId": 505,
-  "ProjectId": 25,
-  "ContactName": "Anderson LLC",
+  "ProjectmemberId": 289,
+  "ContactId": 631,
+  "ProjectId": 937,
+  "ContactName": "Schoen Group",
   "ContactDepartment": "",
-  "ProjectName": "Pouros-Abshire",
-  "EmailId": 489,
-  "EmailAddress": "luella.monahan@wintheiserrunolfsdottir.us",
-  "CountryId": 271,
-  "Firstname": "Danika",
-  "MiddleName": "Corwin, Littel and Bogan",
-  "Lastname": "Strosin",
-  "PersonId": 138,
-  "Mrmrs": "perferendis",
-  "ProjectMemberTypeName": "Fritsch Inc and Sons",
-  "Phone": "(295)378-2529 x00653",
-  "PhoneId": 338,
-  "ProjectMemberTypeId": 719,
-  "EmailAddressName": "nia@medhurstlakin.ca",
-  "Comment": "quaerat",
-  "FullName": "Gaylord Elouise Jenkins I",
+  "ProjectName": "Russel, Zulauf and Crona",
+  "EmailId": 908,
+  "EmailAddress": "bethel.raynor@eichmann.us",
+  "CountryId": 582,
+  "Firstname": "Darrin",
+  "MiddleName": "Walsh-Spencer",
+  "Lastname": "Koch",
+  "PersonId": 387,
+  "Mrmrs": "nemo",
+  "ProjectMemberTypeName": "Jacobi LLC",
+  "Phone": "732-429-3102 x21930",
+  "PhoneId": 270,
+  "ProjectMemberTypeId": 150,
+  "EmailAddressName": "ramona@schmidt.uk",
+  "Comment": "consequuntur",
+  "FullName": "Maynard Hane",
+  "Registered": "2010-07-05T03:41:53.933842+02:00",
+  "Updated": "2004-10-15T03:41:53.933842+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldType": "System.String",
+      "FieldLength": 217
     }
   }
 }

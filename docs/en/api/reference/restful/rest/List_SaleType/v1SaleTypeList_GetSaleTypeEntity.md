@@ -94,53 +94,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 504,
-  "Name": "Crist LLC",
-  "Tooltip": "quae",
-  "Rank": 237,
+  "SaleTypeId": 617,
+  "Name": "Conn-Koch",
+  "Tooltip": "ducimus",
+  "Rank": 771,
   "DurationUnit": "Century",
-  "SaleDuration": 658,
-  "SaleTypeCatId": 437,
+  "SaleDuration": 896,
+  "SaleTypeCatId": 616,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 198,
-  "QuoteLinesTemplate": 667,
-  "ConfirmationLinesTemplate": 955,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 774,
+  "QuoteLinesTemplate": 767,
+  "ConfirmationLinesTemplate": 389,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 531,
-  "MinEarningPercent": 222,
-  "GroupQuoteLinesBy": 321,
-  "SortGroupLinesBy": 105,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 976,
+  "MinEarningPercent": 356,
+  "GroupQuoteLinesBy": 475,
+  "SortGroupLinesBy": 891,
   "Stages": [
     {
-      "Id": 449,
-      "Name": "Howe, Conn and Schiller",
-      "ToolTip": "Harum dolores.",
-      "Deleted": false,
-      "Rank": 38,
-      "Type": "quisquam",
-      "ColorBlock": 195,
-      "IconHint": "eaque",
+      "Id": 832,
+      "Name": "Parisian, Considine and Balistreri",
+      "ToolTip": "In rerum possimus est et consectetur praesentium.",
+      "Deleted": true,
+      "Rank": 59,
+      "Type": "voluptatum",
+      "ColorBlock": 803,
+      "IconHint": "sint",
       "Selected": true,
-      "LastChanged": "2000-06-19T03:47:00.8005429+02:00",
+      "LastChanged": "2020-01-30T03:41:59.6054711+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "iste",
-      "StyleHint": "vitae",
-      "Hidden": true,
-      "FullName": "Ms. Earline Waylon Rowe III",
+      "ExtraInfo": "est",
+      "StyleHint": "quas",
+      "Hidden": false,
+      "FullName": "Nigel Smith",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 685
+          "FieldLength": 155
         }
       }
     }
@@ -150,7 +150,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 596
+      "FieldLength": 898
     }
   }
 }

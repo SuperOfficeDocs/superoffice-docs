@@ -28,7 +28,7 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=laboriosam
+GET /api/v1/List/Business/MDOItems?query=fugiat
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 672,
-    "Name": "Fadel Group",
-    "ToolTip": "Et consequatur.",
+    "Id": 230,
+    "Name": "Douglas, Kris and Homenick",
+    "ToolTip": "Et praesentium velit optio quibusdam.",
     "Deleted": false,
-    "Rank": 890,
-    "Type": "temporibus",
+    "Rank": 175,
+    "Type": "perspiciatis",
     "ChildItems": [
       {
-        "Id": 921,
-        "Name": "Stehr, Nitzsche and Schneider",
-        "ToolTip": "Magnam qui debitis.",
+        "Id": 550,
+        "Name": "Bechtelar-Douglas",
+        "ToolTip": "Qui consequuntur excepturi adipisci expedita.",
         "Deleted": false,
-        "Rank": 116,
-        "Type": "sunt",
+        "Rank": 850,
+        "Type": "ipsum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quidem",
-        "ColorBlock": 784,
-        "ExtraInfo": "nihil",
-        "StyleHint": "laborum",
-        "FullName": "Karina Arvid Mante Sr.",
+        "IconHint": "facere",
+        "ColorBlock": 611,
+        "ExtraInfo": "illum",
+        "StyleHint": "quis",
+        "FullName": "Braden Tre Kreiger Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 107
+            "FieldLength": 470
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 991,
-    "ExtraInfo": "voluptates",
-    "StyleHint": "autem",
-    "FullName": "Ms. Crystal Rebeka Ruecker DDS",
+    "IconHint": "error",
+    "ColorBlock": 97,
+    "ExtraInfo": "rerum",
+    "StyleHint": "iure",
+    "FullName": "Miss Reece Stanton MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 24
+        "FieldType": "System.String",
+        "FieldLength": 853
       }
     }
   }

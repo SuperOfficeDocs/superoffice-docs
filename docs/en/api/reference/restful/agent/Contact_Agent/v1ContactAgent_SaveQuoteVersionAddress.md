@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 15,
+  "QuoteVersionId": 290,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 425
+  "CountryId": 121
 }
 ```
 
@@ -100,41 +100,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 22655.685999999998,
-  "Wgs84Longitude": 1720.566,
+  "Wgs84Latitude": 2316.026,
+  "Wgs84Longitude": 670.67599999999993,
   "LocalizedAddress": [
     [
       {
-        "Name": "Goodwin-Zemlak",
-        "Value": "consequatur",
-        "Tooltip": "porro",
-        "Label": "praesentium",
-        "ValueLength": 657,
-        "AddressType": "labore",
+        "Name": "Towne Inc and Sons",
+        "Value": "recusandae",
+        "Tooltip": "at",
+        "Label": "voluptatibus",
+        "ValueLength": 947,
+        "AddressType": "totam",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 314
+            "FieldType": "System.String",
+            "FieldLength": 527
           }
         }
       }
     ],
     [
       {
-        "Name": "Pfannerstill Inc and Sons",
-        "Value": "aperiam",
-        "Tooltip": "est",
-        "Label": "error",
-        "ValueLength": 32,
-        "AddressType": "voluptatum",
+        "Name": "Cormier, Wisoky and Hayes",
+        "Value": "et",
+        "Tooltip": "odio",
+        "Label": "qui",
+        "ValueLength": 564,
+        "AddressType": "magni",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 791
+            "FieldType": "System.Int32",
+            "FieldLength": 15
           }
         }
       }
@@ -142,13 +142,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "incidunt",
+  "Formatted": "modi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldLength": 269
     }
   }
 }

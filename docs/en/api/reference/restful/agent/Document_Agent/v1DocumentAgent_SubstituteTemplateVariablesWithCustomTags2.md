@@ -81,24 +81,24 @@ OK
 POST /api/v1/Agents/Document/SubstituteTemplateVariablesWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Source": "ut",
+  "Source": "quaerat",
   "GeneratorEncoding": "Html",
   "CustomTags": {
-    "CustomTags1": "tempora",
-    "CustomTags2": "vero"
+    "CustomTags1": "est",
+    "CustomTags2": "officiis"
   },
-  "ContactId": 273,
-  "PersonId": 142,
-  "AppointmentId": 498,
-  "DocumentId": 559,
-  "SaleId": 289,
-  "SelectionId": 620,
-  "ProjectId": 119,
-  "CultureName": "sv"
+  "ContactId": 284,
+  "PersonId": 397,
+  "AppointmentId": 613,
+  "DocumentId": 99,
+  "SaleId": 338,
+  "SelectionId": 859,
+  "ProjectId": 980,
+  "CultureName": "en"
 }
 ```
 
@@ -108,5 +108,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sed"
+"suscipit"
 ```

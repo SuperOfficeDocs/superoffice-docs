@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Cummerata, McKenzie and Kunze"
+  "OwnerName": "Yundt-Wintheiser"
 }
 ```
 
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 222,
-      "NumberOfLicensesFree": 474,
-      "NumberOfLicensesAdded": 218,
-      "NumberOfLicensesNewTotal": 601,
-      "NumberOfLicensesNewFree": 834,
-      "NumberOfLicensesTotal": 871
+      "NumberOfLicensesInUse": 966,
+      "NumberOfLicensesFree": 370,
+      "NumberOfLicensesAdded": 457,
+      "NumberOfLicensesNewTotal": 70,
+      "NumberOfLicensesNewFree": 686,
+      "NumberOfLicensesTotal": 439
     }
   ],
-  "AccumulatedNextCheckDate": "1999-06-11T03:46:54.9107593+02:00"
+  "AccumulatedNextCheckDate": "2002-12-10T03:41:53.6057294+01:00"
 }
 ```

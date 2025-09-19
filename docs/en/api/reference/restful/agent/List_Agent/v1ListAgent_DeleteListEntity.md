@@ -26,7 +26,7 @@ Deletes the ListEntity
 | listEntityId | int32 | **Required** The identity of the ListEntity |
 
 ```http
-POST /api/v1/Agents/List/DeleteListEntity?listEntityId=933
+POST /api/v1/Agents/List/DeleteListEntity?listEntityId=831
 ```
 
 

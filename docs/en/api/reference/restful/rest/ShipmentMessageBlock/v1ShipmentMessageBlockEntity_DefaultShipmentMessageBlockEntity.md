@@ -75,20 +75,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 732,
-  "AssociateId": 805,
-  "Block": "et",
-  "Registered": "2005-04-13T03:47:00.3005605+02:00",
-  "RegisteredAssociateId": 198,
-  "Updated": "2016-12-31T03:47:00.3005605+01:00",
-  "UpdatedAssociateId": 286,
-  "UpdatedCount": 270,
+  "ShipmentMessageBlockId": 892,
+  "AssociateId": 697,
+  "Block": "voluptate",
+  "Registered": "2019-09-04T03:41:59.0273773+02:00",
+  "RegisteredAssociateId": 102,
+  "Updated": "2015-11-10T03:41:59.0273773+01:00",
+  "UpdatedAssociateId": 433,
+  "UpdatedCount": 139,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 555
+      "FieldType": "System.Int32",
+      "FieldLength": 386
     }
   }
 }

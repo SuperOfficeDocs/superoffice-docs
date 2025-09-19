@@ -85,6 +85,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -94,11 +96,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 593
+  "ProjectId": 355
 }
 ```
 
@@ -110,33 +112,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 361,
-    "ContactId": 39,
-    "ProjectId": 339,
-    "ContactName": "Lind LLC",
+    "ProjectmemberId": 478,
+    "ContactId": 409,
+    "ProjectId": 62,
+    "ContactName": "Hickle, Koch and Spencer",
     "ContactDepartment": "",
-    "ProjectName": "Ebert-Gaylord",
-    "EmailId": 160,
-    "EmailAddress": "jennifer@durgannader.ca",
-    "CountryId": 62,
-    "Firstname": "Zakary",
-    "MiddleName": "Paucek Group",
-    "Lastname": "Tromp",
-    "PersonId": 121,
-    "Mrmrs": "ut",
-    "ProjectMemberTypeName": "Leannon Group",
-    "Phone": "226.609.9748",
-    "PhoneId": 89,
-    "ProjectMemberTypeId": 792,
-    "EmailAddressName": "antonina.sauer@daughertyveum.com",
-    "Comment": "modi",
-    "FullName": "Kamren Lakin V",
+    "ProjectName": "Beahan, Ebert and Grant",
+    "EmailId": 583,
+    "EmailAddress": "benny@russel.name",
+    "CountryId": 754,
+    "Firstname": "Aric",
+    "MiddleName": "McGlynn-Paucek",
+    "Lastname": "Bogan",
+    "PersonId": 892,
+    "Mrmrs": "laborum",
+    "ProjectMemberTypeName": "Kiehn Group",
+    "Phone": "254-880-0655",
+    "PhoneId": 934,
+    "ProjectMemberTypeId": 923,
+    "EmailAddressName": "rolando.baumbach@ritchie.uk",
+    "Comment": "nostrum",
+    "FullName": "Raphaelle Kohler",
+    "Registered": "2001-08-03T03:41:53.9182167+02:00",
+    "Updated": "2007-08-31T03:41:53.9182167+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 601
+        "FieldType": "System.String",
+        "FieldLength": 47
       }
     }
   }

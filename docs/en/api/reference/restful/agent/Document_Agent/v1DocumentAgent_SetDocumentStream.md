@@ -111,13 +111,13 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "OverwriteExistingData": false
+  "OverwriteExistingData": true
 }
 ```
 
@@ -128,88 +128,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 98,
+  "DocumentId": 679,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptatibus",
-  "Header": "vel",
-  "Name": "Rempel LLC",
-  "OurRef": "dolorum",
-  "YourRef": "dolores",
-  "CreatedDate": "2013-02-27T03:46:54.6601354+01:00",
-  "UpdatedDate": "2025-04-20T03:46:54.6601354+02:00",
-  "Description": "Reactive multimedia forecast",
+  "Attention": "harum",
+  "Header": "rerum",
+  "Name": "Bednar-Miller",
+  "OurRef": "vel",
+  "YourRef": "ut",
+  "CreatedDate": "2005-05-26T03:41:53.4182376+02:00",
+  "UpdatedDate": "2012-12-21T03:41:53.4182376+01:00",
+  "Description": "Operative full-range installation",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2012-09-02T03:46:54.6601354+02:00",
-  "ExternalRef": "ducimus",
+  "Date": "2023-09-04T03:41:53.4182376+02:00",
+  "ExternalRef": "est",
   "Completed": "Completed",
-  "ActiveLinks": 803,
+  "ActiveLinks": 457,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Marvin Group",
-      "Id": 543,
-      "Description": "Function-based non-volatile interface",
-      "ExtraInfo": "natus",
-      "LinkId": 237,
+      "EntityName": "Littel, Schroeder and Okuneva",
+      "Id": 194,
+      "Description": "Integrated tertiary toolset",
+      "ExtraInfo": "provident",
+      "LinkId": 466,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 631
+          "FieldType": "System.Int32",
+          "FieldLength": 755
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 439,
-  "Snum": 53,
+  "SuggestedDocumentId": 413,
+  "Snum": 670,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mozell Cummerata",
-    "SuperOffice:2": "Ms. Gregoria Jodie Luettgen MD"
+    "SuperOffice:1": "92436482",
+    "SuperOffice:2": "681473816"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatum",
-    "ExtraFields2": "cumque"
+    "ExtraFields1": "voluptates",
+    "ExtraFields2": "corrupti"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "tenetur"
+    "CustomFields1": "eaque",
+    "CustomFields2": "cum"
   },
-  "PublishEventDate": "2013-11-12T03:46:54.6601354+01:00",
-  "PublishTo": "2002-05-14T03:46:54.6601354+02:00",
-  "PublishFrom": "2022-05-22T03:46:54.6601354+02:00",
+  "PublishEventDate": "2018-05-10T03:41:53.4182376+02:00",
+  "PublishTo": "2002-09-06T03:41:53.4182376+02:00",
+  "PublishFrom": "1999-02-03T03:41:53.4182376+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 39,
+      "VisibleId": 289,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 986
+          "FieldLength": 5
         }
       }
     },
     {
-      "VisibleId": 39,
+      "VisibleId": 289,
       "Visibility": "All",
-      "DisplayValue": "consequuntur",
+      "DisplayValue": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 986
+          "FieldLength": 5
         }
       }
     }
@@ -218,8 +218,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 642
+      "FieldType": "System.String",
+      "FieldLength": 248
     }
   }
 }

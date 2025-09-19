@@ -100,7 +100,7 @@ OK
 PUT /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 47,
+  "DocumentId": 819,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quidem",
-  "Header": "earum",
-  "Name": "Bechtelar Group",
-  "OurRef": "facere",
-  "YourRef": "itaque",
-  "CreatedDate": "2003-02-19T03:46:59.988068+01:00",
-  "UpdatedDate": "2015-03-08T03:46:59.988068+01:00",
-  "Description": "Persevering fresh-thinking forecast",
+  "Attention": "et",
+  "Header": "recusandae",
+  "Name": "Satterfield LLC",
+  "OurRef": "recusandae",
+  "YourRef": "dolorem",
+  "CreatedDate": "2014-02-24T03:41:58.7307453+01:00",
+  "UpdatedDate": "2010-03-09T03:41:58.7307453+01:00",
+  "Description": "Centralized dedicated model",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2000-04-12T03:46:59.988068+02:00",
-  "ExternalRef": "quas",
+  "Date": "1998-10-22T03:41:58.7307453+02:00",
+  "ExternalRef": "eum",
   "Completed": "Completed",
-  "ActiveLinks": 509,
+  "ActiveLinks": 801,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Rolfson, Brown and D'Amore",
-      "Id": 918,
-      "Description": "Customer-focused mobile instruction set",
-      "ExtraInfo": "eius",
-      "LinkId": 617,
+      "EntityName": "Nitzsche Group",
+      "Id": 825,
+      "Description": "Networked motivating concept",
+      "ExtraInfo": "neque",
+      "LinkId": 319,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 20
+          "FieldType": "System.Int32",
+          "FieldLength": 971
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 762,
-  "Snum": 925,
+  "SuggestedDocumentId": 11,
+  "Snum": 374,
   "UserDefinedFields": {
-    "SuperOffice:1": "2087105476",
-    "SuperOffice:2": "Laila Muller"
+    "SuperOffice:1": "Jaylon Ebba Durgan DDS",
+    "SuperOffice:2": "Mr. Garland Okey Morissette"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "quasi"
+    "ExtraFields1": "natus",
+    "ExtraFields2": "numquam"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "praesentium",
+    "CustomFields2": "blanditiis"
   },
-  "PublishEventDate": "2021-05-03T03:46:59.988068+02:00",
-  "PublishTo": "2016-07-07T03:46:59.988068+02:00",
-  "PublishFrom": "1999-10-20T03:46:59.988068+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2006-10-30T03:41:58.7307453+01:00",
+  "PublishTo": "2017-04-21T03:41:58.7307453+02:00",
+  "PublishFrom": "1999-01-15T03:41:58.7307453+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 532,
+      "VisibleId": 802,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 919
+          "FieldLength": 604
         }
       }
     },
     {
-      "VisibleId": 532,
+      "VisibleId": 802,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "libero",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 919
+          "FieldLength": 604
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 227
+      "FieldLength": 841
     }
   }
 }

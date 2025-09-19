@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 607,
-  "Name": "Reinger, Treutel and Barrows",
-  "Tooltip": "quo",
-  "Deleted": false,
-  "Rank": 543,
-  "UdListDefinitionId": 178
+  "HeadingId": 599,
+  "Name": "Klocko Inc and Sons",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 672,
+  "UdListDefinitionId": 124
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 577,
-  "Name": "Yost, Stoltenberg and Toy",
-  "Tooltip": "deleniti",
-  "Deleted": true,
-  "Rank": 815,
-  "UdListDefinitionId": 413,
+  "HeadingId": 950,
+  "Name": "Strosin-Ruecker",
+  "Tooltip": "repudiandae",
+  "Deleted": false,
+  "Rank": 803,
+  "UdListDefinitionId": 786,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 48
+      "FieldLength": 312
     }
   }
 }

@@ -76,21 +76,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Enhanced global encoding",
-  "Filename": "harum",
-  "Size": 309,
-  "Type": "praesentium",
-  "Encoding": "sed",
-  "Id": "omnis",
-  "Disposition": "quis",
-  "IsSafeFileExtension": false,
+  "Description": "Fully-configurable dynamic strategy",
+  "Filename": "dolor",
+  "Size": 575,
+  "Type": "suscipit",
+  "Encoding": "illum",
+  "Id": "maiores",
+  "Disposition": "ratione",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldLength": 565
     }
   }
 }

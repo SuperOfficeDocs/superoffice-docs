@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,88 +99,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 74,
+  "DocumentId": 887,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ut",
-  "Header": "non",
-  "Name": "Pfeffer-Grant",
-  "OurRef": "quisquam",
-  "YourRef": "qui",
-  "CreatedDate": "2010-05-07T03:46:54.6288867+02:00",
-  "UpdatedDate": "1999-11-11T03:46:54.6288867+01:00",
-  "Description": "Multi-channelled foreground emulation",
+  "Attention": "odio",
+  "Header": "omnis",
+  "Name": "Flatley, Hoeger and Donnelly",
+  "OurRef": "doloremque",
+  "YourRef": "distinctio",
+  "CreatedDate": "2016-05-03T03:41:53.3869896+02:00",
+  "UpdatedDate": "2005-08-29T03:41:53.3869896+02:00",
+  "Description": "Multi-lateral bi-directional benchmark",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2024-10-23T03:46:54.6445112+02:00",
-  "ExternalRef": "culpa",
+  "Date": "1998-09-10T03:41:53.402614+02:00",
+  "ExternalRef": "nostrum",
   "Completed": "Completed",
-  "ActiveLinks": 443,
+  "ActiveLinks": 114,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Pacocha Group",
-      "Id": 230,
-      "Description": "Versatile assymetric parallelism",
-      "ExtraInfo": "voluptatum",
-      "LinkId": 650,
+      "EntityName": "O'Keefe, Turcotte and Lockman",
+      "Id": 621,
+      "Description": "Future-proofed multimedia success",
+      "ExtraInfo": "enim",
+      "LinkId": 946,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 369
+          "FieldType": "System.Int32",
+          "FieldLength": 441
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 375,
-  "Snum": 902,
+  "SuggestedDocumentId": 286,
+  "Snum": 814,
   "UserDefinedFields": {
-    "SuperOffice:1": "Hershel Hand",
-    "SuperOffice:2": "Duane Bernier"
+    "SuperOffice:1": "2103755476",
+    "SuperOffice:2": "1055835923"
   },
   "ExtraFields": {
-    "ExtraFields1": "modi",
-    "ExtraFields2": "rem"
+    "ExtraFields1": "enim",
+    "ExtraFields2": "porro"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "architecto"
+    "CustomFields1": "veniam",
+    "CustomFields2": "aspernatur"
   },
-  "PublishEventDate": "2019-01-25T03:46:54.6445112+01:00",
-  "PublishTo": "2013-03-31T03:46:54.6445112+02:00",
-  "PublishFrom": "2004-03-15T03:46:54.6445112+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2013-06-23T03:41:53.402614+02:00",
+  "PublishTo": "2014-04-24T03:41:53.402614+02:00",
+  "PublishFrom": "2016-12-09T03:41:53.402614+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 782,
+      "VisibleId": 287,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 640
+          "FieldLength": 260
         }
       }
     },
     {
-      "VisibleId": 782,
+      "VisibleId": 287,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 640
+          "FieldLength": 260
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 498
+      "FieldType": "System.Int32",
+      "FieldLength": 490
     }
   }
 }

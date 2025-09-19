@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/List/AddFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 511,
+  "UdListDefinitionId": 151,
   "Item": null
 }
 ```
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 507,
-  "Name": "Fisher-Prohaska",
-  "Tooltip": "aspernatur",
+  "Id": 722,
+  "Name": "Blanda, Christiansen and Veum",
+  "Tooltip": "ducimus",
   "Deleted": false,
-  "UdListDefinitionId": 42,
-  "Rank": 342,
+  "UdListDefinitionId": 595,
+  "Rank": 729,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 584
+      "FieldLength": 904
     }
   }
 }

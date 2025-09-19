@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 395,
-    "Name": "Stracke, Streich and Moore",
-    "Tooltip": "ut",
+    "HeadingId": 793,
+    "Name": "Kris, Daniel and Kunze",
+    "Tooltip": "repellendus",
     "Deleted": false,
-    "Rank": 508,
-    "UdListDefinitionId": 690,
+    "Rank": 959,
+    "UdListDefinitionId": 910,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 754
+        "FieldLength": 829
       }
     }
   }

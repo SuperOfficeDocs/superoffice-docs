@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 767,
-  "Name": "Rowe, Turcotte and Bode",
-  "Tooltip": "quae",
+  "Id": 487,
+  "Name": "Bode Inc and Sons",
+  "Tooltip": "quo",
   "Deleted": false,
-  "Rank": 297,
+  "Rank": 807,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aut",
+  "UseGroupsAndHeadings": false,
+  "ListType": "ut",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 622,
-  "Name": "Quigley, Breitenberg and O'Connell",
-  "Tooltip": "eveniet",
+  "Id": 102,
+  "Name": "Ritchie-Emard",
+  "Tooltip": "fugiat",
   "Deleted": true,
-  "Rank": 44,
-  "IsCustomList": true,
+  "Rank": 721,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
-  "InUseByUserDefinedFields": false,
+  "ListType": "libero",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 844
+      "FieldLength": 126
     }
   }
 }

@@ -75,9 +75,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 43,
+  "TicketId": 618,
   "MessageActionType": "Forward",
-  "TicketMessageId": 414
+  "TicketMessageId": 447
 }
 ```
 
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"vero"
+"aut"
 ```

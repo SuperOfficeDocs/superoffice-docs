@@ -104,7 +104,7 @@ ChatTopicEntity found.
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -114,21 +114,21 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 663,
-  "Name": "Block-Strosin",
-  "Description": "Organic analyzing challenge",
-  "WelcomeMessage": "amet",
+  "ChatTopicId": 383,
+  "Name": "Kilback-Cremin",
+  "Description": "Intuitive tangible encryption",
+  "WelcomeMessage": "assumenda",
   "Language": null,
-  "LastAccept": "2001-01-07T03:46:59.8005718+01:00",
-  "SecondsPrAccept": 444,
-  "AlertRecipient": "qui",
+  "LastAccept": "2000-06-02T03:41:58.4961519+02:00",
+  "SecondsPrAccept": 911,
+  "AlertRecipient": "laborum",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "praesentium",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "quis",
-  "WarnNewChatMinutes": 110,
-  "WarnManagerNewChatMinutes": 484,
+  "BadgeHeader": "quas",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "consequatur",
+  "WarnNewChatMinutes": 147,
+  "WarnManagerNewChatMinutes": 952,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -138,19 +138,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 73,
-  "WarnManagerChatMessageMinutes": 404,
+  "WarnChatMessageMinutes": 532,
+  "WarnManagerChatMessageMinutes": 530,
   "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 243,
-  "OfflineFormQueueLength": 802,
+  "OfflineFormTimeLimit": 866,
+  "OfflineFormQueueLength": 225,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "laborum",
+  "WidgetRatingText": "odit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 307
+      "FieldType": "System.String",
+      "FieldLength": 815
     }
   },
   "_Links": {

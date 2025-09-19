@@ -80,7 +80,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,36 +90,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 72,
-  "ParentId": 567,
-  "Name": "Kutch, Robel and Skiles",
-  "Fullname": "odit",
-  "CategoryMaster": 700,
+  "TicketCategoryId": 505,
+  "ParentId": 236,
+  "Name": "Bahringer, Huel and Bogisich",
+  "Fullname": "quasi",
+  "CategoryMaster": 49,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Daniel, McLaughlin and Schneider",
+  "ExternalName": "Smith Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 174,
-  "ReplyTemplate": 991,
-  "NotificationEmail": "carlotta_cummings@tillman.us",
+  "AssignmentLag": 343,
+  "ReplyTemplate": 867,
+  "NotificationEmail": "willis@crooks.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 47,
+  "EffectiveReplyTemplateId": 49,
   "ExtraFields": {
-    "ExtraFields1": "dolore",
-    "ExtraFields2": "quaerat"
+    "ExtraFields1": "blanditiis",
+    "ExtraFields2": "ipsam"
   },
   "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "expedita"
+    "CustomFields1": "delectus",
+    "CustomFields2": "similique"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 554
+      "FieldType": "System.Int32",
+      "FieldLength": 760
     }
   }
 }

@@ -99,7 +99,7 @@ OK
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -109,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 580,
-  "ColumnId": 760,
-  "FieldDefault": "aliquam",
-  "FieldHeight": 727,
-  "FieldLabel": "nulla",
-  "FieldLeft": 682,
-  "FieldTop": 716,
+  "UDefFieldId": 610,
+  "ColumnId": 710,
+  "FieldDefault": "ducimus",
+  "FieldHeight": 897,
+  "FieldLabel": "sed",
+  "FieldLeft": 884,
+  "FieldTop": 556,
   "FieldType": "Checkbox",
-  "FieldWidth": 842,
-  "FormatMask": "nisi",
+  "FieldWidth": 233,
+  "FormatMask": "harum",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 906,
-  "LabelLeft": 246,
-  "LabelTop": 494,
-  "LabelWidth": 15,
-  "LastVersionId": 33,
-  "ListTableId": 654,
+  "LabelHeight": 891,
+  "LabelLeft": 423,
+  "LabelTop": 354,
+  "LabelWidth": 649,
+  "LastVersionId": 162,
+  "ListTableId": 11,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 378,
-  "ProgId": "nisi",
+  "Page1LineNo": 818,
+  "ProgId": "et",
   "IsReadOnly": false,
-  "ShortLabel": "saepe",
-  "TabOrder": 814,
-  "TextLength": 595,
-  "Tooltip": "voluptas",
-  "UdefIdentity": 512,
-  "UDListDefinitionId": 194,
+  "ShortLabel": "magnam",
+  "TabOrder": 851,
+  "TextLength": 710,
+  "Tooltip": "magni",
+  "UdefIdentity": 205,
+  "UDListDefinitionId": 566,
   "Justification": "Center",
-  "Version": 702,
-  "TemplateVariableName": "Cormier Group",
-  "HasBeenPublished": false,
-  "MdoListName": "Strosin-Bayer",
+  "Version": 924,
+  "TemplateVariableName": "McCullough, Braun and Koelpin",
+  "HasBeenPublished": true,
+  "MdoListName": "Kuhn-Schaefer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 222
+      "FieldType": "System.Int32",
+      "FieldLength": 527
     }
   }
 }

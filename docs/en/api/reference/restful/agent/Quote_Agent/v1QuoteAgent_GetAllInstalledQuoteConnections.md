@@ -93,54 +93,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 382,
-    "ERPName": "Durgan, Littel and Lang",
-    "DisplayName": "Satterfield-Bayer",
-    "DisplayDescription": "Balanced cohesive solution",
-    "Rank": 929,
-    "ConnectorName": "Rutherford-Gulgowski",
-    "ErpConnectionId": 805,
-    "ExtraData": "placeat",
+    "QuoteConnectionId": 785,
+    "ERPName": "Wyman-Kozey",
+    "DisplayName": "Ward-Considine",
+    "DisplayDescription": "Secured user-facing throughput",
+    "Rank": 47,
+    "ConnectorName": "Gibson Group",
+    "ErpConnectionId": 404,
+    "ExtraData": "sed",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 988,
-        "ERPPriceListKey": "et",
-        "QuoteConnectionId": 352,
-        "Name": "VonRueden, Bradtke and Terry",
-        "Description": "Cloned exuding hub",
-        "Currency": "deserunt",
-        "CurrencyName": "Crooks Group",
-        "ValidFrom": "2021-12-17T03:46:55.2069913+01:00",
-        "ValidTo": "2009-11-10T03:46:55.2069913+01:00",
-        "IsActive": true,
+        "PriceListId": 177,
+        "ERPPriceListKey": "perspiciatis",
+        "QuoteConnectionId": 73,
+        "Name": "Fritsch, Gerhold and Parisian",
+        "Description": "Streamlined composite extranet",
+        "Currency": "officiis",
+        "CurrencyName": "Flatley, Kilback and Collins",
+        "ValidFrom": "2003-11-25T03:41:53.9650897+01:00",
+        "ValidTo": "2009-11-03T03:41:53.9650897+01:00",
+        "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 500
+            "FieldLength": 117
           }
         }
       }
     ],
-    "AllAccess": true,
+    "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      15,
-      519
+      421,
+      223
     ],
     "AssociateAccessIds": [
-      456,
-      156
+      534,
+      160
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 649
+        "FieldLength": 837
       }
     }
   }

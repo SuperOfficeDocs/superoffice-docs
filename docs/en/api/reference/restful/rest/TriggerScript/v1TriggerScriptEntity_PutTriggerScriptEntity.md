@@ -100,20 +100,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 408,
-  "Name": "Zieme, Baumbach and Cummings",
+  "ScreenChooserId": 56,
+  "Name": "Marvin-Erdman",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "dolore",
-  "Source": "facilis",
-  "Registered": "2012-04-14T03:47:00.3943072+02:00",
-  "RegisteredAssociateId": 822,
-  "Updated": "2011-01-23T03:47:00.3943072+01:00",
-  "UpdatedAssociateId": 640
+  "UniqueIdentifier": "animi",
+  "Source": "voluptatem",
+  "Registered": "2016-12-12T03:41:59.1679969+01:00",
+  "RegisteredAssociateId": 109,
+  "Updated": "2017-10-23T03:41:59.1679969+02:00",
+  "UpdatedAssociateId": 328
 }
 ```
 
@@ -124,27 +124,27 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 506,
-  "Name": "Wiegand, Hodkiewicz and Dietrich",
+  "ScreenChooserId": 328,
+  "Name": "Baumbach-Lemke",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "deserunt",
-  "Source": "nobis",
-  "Registered": "1998-12-12T03:47:00.3943072+01:00",
-  "RegisteredAssociateId": 206,
-  "Updated": "2011-05-10T03:47:00.3943072+02:00",
-  "UpdatedAssociateId": 985,
+  "UniqueIdentifier": "quae",
+  "Source": "id",
+  "Registered": "2023-07-11T03:41:59.1679969+02:00",
+  "RegisteredAssociateId": 580,
+  "Updated": "2006-11-16T03:41:59.1679969+01:00",
+  "UpdatedAssociateId": 548,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 997
+      "FieldLength": 696
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

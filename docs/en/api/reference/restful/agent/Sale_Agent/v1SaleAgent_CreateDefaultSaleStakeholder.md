@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Hodkiewicz, Reinger and Bahringer",
-  "Comment": "cupiditate",
-  "StakeholderRoleId": 27,
-  "CountryId": 475,
-  "PersonId": 105,
-  "EmailDescription": "hildegard.lockman@feil.us",
-  "EmailId": 256,
-  "EmailAddress": "winfield@nitzsche.name",
-  "PhoneId": 727,
-  "ContactName": "Huel, Turcotte and Kling",
-  "ContactId": 81,
-  "SaleId": 72,
-  "Mrmrs": "quo",
-  "Firstname": "Chris",
-  "MiddleName": "Dickinson-Schimmel",
-  "Lastname": "Cartwright",
-  "SaleStakeholderId": 589,
-  "Rank": 679,
-  "Phone": "(372)319-9574",
+  "StakeholderRoleName": "Dickens-Moore",
+  "Comment": "odit",
+  "StakeholderRoleId": 742,
+  "CountryId": 323,
+  "PersonId": 719,
+  "EmailDescription": "reynold.champlin@casperokuneva.uk",
+  "EmailId": 50,
+  "EmailAddress": "nicolette.koelpin@hilll.biz",
+  "PhoneId": 212,
+  "ContactName": "Schneider LLC",
+  "ContactId": 243,
+  "SaleId": 563,
+  "Mrmrs": "quia",
+  "Firstname": "Hardy",
+  "MiddleName": "Brown Group",
+  "Lastname": "Weber",
+  "SaleStakeholderId": 282,
+  "Rank": 395,
+  "Phone": "239-929-8473",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldLength": 135
     }
   }
 }

@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 431,
-    "Name": "Schroeder-Hyatt",
-    "Tooltip": "id",
+    "HeadingId": 17,
+    "Name": "West-Kulas",
+    "Tooltip": "quasi",
     "Deleted": false,
-    "Rank": 168,
-    "UdListDefinitionId": 804
+    "Rank": 812,
+    "UdListDefinitionId": 357
   },
   {
-    "HeadingId": 431,
-    "Name": "Schroeder-Hyatt",
-    "Tooltip": "id",
+    "HeadingId": 17,
+    "Name": "West-Kulas",
+    "Tooltip": "quasi",
     "Deleted": false,
-    "Rank": 168,
-    "UdListDefinitionId": 804
+    "Rank": 812,
+    "UdListDefinitionId": 357
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 607,
-    "Name": "Funk-Hettinger",
-    "Tooltip": "voluptate",
-    "Deleted": false,
-    "Rank": 492,
-    "UdListDefinitionId": 570,
+    "HeadingId": 389,
+    "Name": "Ryan-Hickle",
+    "Tooltip": "deleniti",
+    "Deleted": true,
+    "Rank": 632,
+    "UdListDefinitionId": 797,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 967
+        "FieldLength": 4
       }
     }
   }

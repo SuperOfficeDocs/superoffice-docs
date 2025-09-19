@@ -90,12 +90,12 @@ OK
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 413,
-  "Type": 669
+  "GroupId": 703,
+  "Type": 84
 }
 ```
 
@@ -107,32 +107,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 107,
-    "Name": "Kassulke LLC",
-    "PersonId": 177,
-    "Rank": 301,
-    "Tooltip": "dolor",
+    "AssociateId": 660,
+    "Name": "Buckridge LLC",
+    "PersonId": 839,
+    "Rank": 554,
+    "Tooltip": "voluptate",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 825,
-    "FullName": "Ray Leannon",
-    "FormalName": "Goyette, Towne and Mertz",
-    "Deleted": false,
-    "EjUserId": 273,
-    "UserName": "Volkman-O'Conner",
+    "GroupIdx": 584,
+    "FullName": "Ms. Lucy Duane Purdy V",
+    "FormalName": "Flatley, Cummings and Kautzer",
+    "Deleted": true,
+    "EjUserId": 167,
+    "UserName": "Gusikowski-Sauer",
     "ExtraFields": {
-      "ExtraFields1": "sed",
-      "ExtraFields2": "aperiam"
+      "ExtraFields1": "neque",
+      "ExtraFields2": "nostrum"
     },
     "CustomFields": {
-      "CustomFields1": "facilis",
-      "CustomFields2": "tenetur"
+      "CustomFields1": "enim",
+      "CustomFields2": "quia"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 726
+        "FieldLength": 707
       }
     }
   }

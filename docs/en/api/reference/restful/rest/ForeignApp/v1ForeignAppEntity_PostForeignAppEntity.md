@@ -89,27 +89,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 402,
-  "Name": "O'Conner, Volkman and Dickens",
-  "CreatedDate": "2017-01-08T03:47:00.0193121+01:00",
-  "UpdatedDate": "1998-07-28T03:47:00.0193121+02:00",
+  "ForeignAppId": 449,
+  "Name": "Crooks, McKenzie and Hand",
+  "CreatedDate": "2016-12-14T03:41:58.7617712+01:00",
+  "UpdatedDate": "2018-05-21T03:41:58.7617712+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 989,
-      "Name": "Romaguera-Dietrich",
-      "CreatedDate": "2022-05-22T03:47:00.0193121+02:00",
-      "UpdatedDate": "1999-04-30T03:47:00.0193121+02:00",
-      "AssociateFullName": "Marcos Wuckert",
-      "CreatedBy": "harum",
-      "UpdatedBy": "aut",
-      "DeviceIdentifier": "id",
-      "ForeignAppId": 808
+      "ForeignDeviceId": 857,
+      "Name": "Brekke, Hodkiewicz and Hand",
+      "CreatedDate": "2017-12-26T03:41:58.7617712+01:00",
+      "UpdatedDate": "1999-05-08T03:41:58.7617712+02:00",
+      "AssociateFullName": "Lavonne Jast Jr.",
+      "CreatedBy": "quis",
+      "UpdatedBy": "quo",
+      "DeviceIdentifier": "aut",
+      "ForeignAppId": 96
     }
   ]
 }
@@ -122,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 450,
-  "Name": "Gibson Inc and Sons",
-  "CreatedDate": "2010-01-06T03:47:00.0193121+01:00",
-  "UpdatedDate": "2021-01-03T03:47:00.0193121+01:00",
+  "ForeignAppId": 395,
+  "Name": "Braun, Koss and Hirthe",
+  "CreatedDate": "2008-03-04T03:41:58.7617712+01:00",
+  "UpdatedDate": "2015-05-23T03:41:58.7617712+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 467,
-      "Name": "Rosenbaum-Hayes",
-      "CreatedDate": "1999-09-24T03:47:00.0193121+02:00",
-      "UpdatedDate": "2003-09-10T03:47:00.0193121+02:00",
-      "AssociateFullName": "Miss Krystel Oswaldo Feest",
-      "CreatedBy": "iste",
-      "UpdatedBy": "maiores",
-      "DeviceIdentifier": "omnis",
-      "ForeignAppId": 873,
+      "ForeignDeviceId": 246,
+      "Name": "Quigley, Langworth and Ruecker",
+      "CreatedDate": "2011-07-06T03:41:58.7617712+02:00",
+      "UpdatedDate": "2003-06-16T03:41:58.7617712+02:00",
+      "AssociateFullName": "Alivia Ward III",
+      "CreatedBy": "asperiores",
+      "UpdatedBy": "quos",
+      "DeviceIdentifier": "voluptas",
+      "ForeignAppId": 950,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 570
+          "FieldLength": 390
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 477
+      "FieldLength": 694
     }
   },
   "_Links": {

@@ -69,7 +69,7 @@ OK
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,10 +81,10 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Strosin, Greenfelder and Lynch",
-    "DisplayName": "Marvin-Blanda",
-    "Description": "Balanced leading edge complexity",
-    "ShortLabel": "molestiae",
+    "FieldName": "Bartell, Wolff and Schroeder",
+    "DisplayName": "Streich, Powlowski and Kohler",
+    "Description": "Exclusive motivating encryption",
+    "ShortLabel": "voluptas",
     "HideLabel": true,
     "HideField": false,
     "IsIndexed": false,
@@ -92,8 +92,8 @@ Content-Type: application/json; charset=utf-8
     "IsReadOnly": true,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 701,
-    "TemplateVariableName": "Hansen Group"
+    "Rank": 496,
+    "TemplateVariableName": "Cruickshank-King"
   }
 ]
 ```

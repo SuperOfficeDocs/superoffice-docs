@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 864
+  "DepartmentId": 44
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-028-253-8280 x2430",
-    "PersonCellPhone": "1-257-737-8496",
-    "PersonPrivatePhone": "(404)825-4615 x7826",
-    "PersonFaxNumber": "1427227",
-    "PersonPagerNumber": "1134951",
-    "PersonEmail": "lenore_rempel@dietrichzboncak.biz",
-    "Id": 580,
-    "Name": "Bosco, Brakus and Sporer",
-    "Tooltip": "saepe",
-    "UniqueId": "autem",
+    "PersonDirectPhone": "1-579-184-9384 x56646",
+    "PersonCellPhone": "(739)437-4312 x169",
+    "PersonPrivatePhone": "(274)545-8855 x80174",
+    "PersonFaxNumber": "1062313",
+    "PersonPagerNumber": "1070543",
+    "PersonEmail": "eliezer_mitchell@keebler.name",
+    "Id": 233,
+    "Name": "Okuneva, Effertz and Kirlin",
+    "Tooltip": "officia",
+    "UniqueId": "totam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 501
+        "FieldLength": 241
       }
     }
   }

@@ -98,20 +98,20 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 429,
-  "ERPPriceListKey": "enim",
-  "QuoteConnectionId": 599,
-  "Name": "Predovic-Jast",
-  "Description": "Vision-oriented explicit success",
-  "Currency": "esse",
-  "CurrencyName": "Gerhold Group",
-  "ValidFrom": "2018-11-07T03:47:00.7067961+01:00",
-  "ValidTo": "2017-04-08T03:47:00.7067961+02:00",
-  "IsActive": true
+  "PriceListId": 701,
+  "ERPPriceListKey": "quis",
+  "QuoteConnectionId": 553,
+  "Name": "Treutel, Rath and Mosciski",
+  "Description": "Organized holistic productivity",
+  "Currency": "ducimus",
+  "CurrencyName": "Rodriguez, O'Keefe and VonRueden",
+  "ValidFrom": "2018-02-17T03:41:59.4648585+01:00",
+  "ValidTo": "2019-11-09T03:41:59.4648585+01:00",
+  "IsActive": false
 }
 ```
 
@@ -122,22 +122,22 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 156,
-  "ERPPriceListKey": "possimus",
-  "QuoteConnectionId": 613,
-  "Name": "Altenwerth, Lehner and Wunsch",
-  "Description": "Adaptive global project",
-  "Currency": "modi",
-  "CurrencyName": "Prohaska, Stiedemann and Jast",
-  "ValidFrom": "2003-11-03T03:47:00.7067961+01:00",
-  "ValidTo": "2024-10-05T03:47:00.7067961+02:00",
-  "IsActive": true,
+  "PriceListId": 404,
+  "ERPPriceListKey": "dolor",
+  "QuoteConnectionId": 315,
+  "Name": "Ebert-Smith",
+  "Description": "Monitored tangible complexity",
+  "Currency": "odio",
+  "CurrencyName": "Wiegand-Swift",
+  "ValidFrom": "2015-07-17T03:41:59.4648585+02:00",
+  "ValidTo": "2020-07-15T03:41:59.4648585+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 983
+      "FieldLength": 912
     }
   },
   "_Links": {

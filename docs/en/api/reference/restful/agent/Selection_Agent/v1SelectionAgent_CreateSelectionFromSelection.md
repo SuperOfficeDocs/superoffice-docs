@@ -117,12 +117,12 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 867,
-  "Name": "Schimmel-Carter",
+  "SelectionId": 783,
+  "Name": "Cummerata, Kunze and Hammes",
   "TargetSelectionType": "Combined",
   "CopyMembers": false
 }
@@ -135,70 +135,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Fully-configurable context-sensitive methodology",
-  "Postit": "adipisci",
+  "Description": "Persevering value-added matrices",
+  "Postit": "a",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 412,
-  "IncludePerson": 908,
+  "GroupIdx": 856,
+  "IncludePerson": 697,
   "MemberCount": 99.99,
-  "Name": "Rowe LLC",
-  "PostitTextId": 478,
-  "CreatedDate": "2005-09-26T03:46:55.3788724+02:00",
-  "SelectionId": 844,
-  "SoundEx": "qui",
-  "Source": 549,
-  "TextId": 393,
-  "UpdatedDate": "2025-05-10T03:46:55.3788724+02:00",
-  "UpdatedCount": 266,
-  "Visibility": 98,
+  "Name": "Nikolaus-Treutel",
+  "PostitTextId": 585,
+  "CreatedDate": "2023-10-13T03:41:54.0588353+02:00",
+  "SelectionId": 318,
+  "SoundEx": "architecto",
+  "Source": 530,
+  "TextId": 131,
+  "UpdatedDate": "2016-04-25T03:41:54.0588353+02:00",
+  "UpdatedCount": 765,
+  "Visibility": 458,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 279,
-  "TargetTableName": "Koss-Gerlach",
+  "CompanyUnique": false,
+  "TargetTableNumber": 923,
+  "TargetTableName": "Franecki Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 225,
-  "RightSelectionId": 433,
+  "LeftSelectionId": 524,
+  "RightSelectionId": 264,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "McDermott Inc and Sons",
-  "ShadowProviderName": "Bradtke Group",
-  "ChartKey": "tempora",
-  "LastLoaded": "2017-11-03T03:46:55.3788724+01:00",
-  "LastLoadedBy": 484,
+  "MainProviderName": "Hayes, Bauch and Wuckert",
+  "ShadowProviderName": "Heaney-Jacobi",
+  "ChartKey": "magnam",
+  "LastLoaded": "2000-12-04T03:41:54.0588353+01:00",
+  "LastLoadedBy": 990,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2019-07-10T03:46:55.3788724+02:00",
-  "LastMembershipChangeBy": 827,
+  "LastMembershipChange": "2003-02-13T03:41:54.0588353+01:00",
+  "LastMembershipChangeBy": 791,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "illo",
-  "MailingsProviderName": "Durgan LLC",
-  "DashboardTileDefinitionId": 868,
+  "MainHeading": "possimus",
+  "MemberTabHeading": "esse",
+  "MailingsProviderName": "Erdman-Smitham",
+  "DashboardTileDefinitionId": 276,
   "VisibleFor": [
     {
-      "VisibleId": 57,
+      "VisibleId": 868,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "dolorum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 832
+          "FieldLength": 667
         }
       }
     },
     {
-      "VisibleId": 57,
+      "VisibleId": 868,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "dolorum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 832
+          "FieldLength": 667
         }
       }
     }
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 991
+      "FieldLength": 813
     }
   }
 }

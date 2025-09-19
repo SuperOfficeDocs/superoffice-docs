@@ -28,7 +28,7 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=quia
+GET /api/v1/List/Source/MDOItems?query=voluptatem
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 203,
-    "Name": "Funk Inc and Sons",
-    "ToolTip": "Laudantium qui porro delectus.",
+    "Id": 419,
+    "Name": "Harber, Schamberger and Metz",
+    "ToolTip": "Voluptas et fugit.",
     "Deleted": false,
-    "Rank": 430,
-    "Type": "ipsum",
+    "Rank": 210,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 183,
-        "Name": "Smitham, Watsica and Bode",
-        "ToolTip": "Voluptas temporibus ut quia.",
+        "Id": 335,
+        "Name": "Dibbert Inc and Sons",
+        "ToolTip": "Placeat fugit.",
         "Deleted": false,
-        "Rank": 799,
-        "Type": "veritatis",
+        "Rank": 832,
+        "Type": "iusto",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "neque",
-        "ColorBlock": 924,
-        "ExtraInfo": "animi",
-        "StyleHint": "molestiae",
-        "FullName": "Gaylord Baumbach",
+        "IconHint": "deserunt",
+        "ColorBlock": 938,
+        "ExtraInfo": "veniam",
+        "StyleHint": "earum",
+        "FullName": "Jada Ritchie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 779
+            "FieldLength": 550
           }
         }
       }
     ],
-    "IconHint": "officia",
-    "ColorBlock": 922,
-    "ExtraInfo": "eos",
-    "StyleHint": "expedita",
-    "FullName": "Eva Claud Gutkowski III",
+    "IconHint": "accusantium",
+    "ColorBlock": 547,
+    "ExtraInfo": "perferendis",
+    "StyleHint": "laboriosam",
+    "FullName": "Wilton Morris Quigley I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 259
+        "FieldType": "System.String",
+        "FieldLength": 440
       }
     }
   }

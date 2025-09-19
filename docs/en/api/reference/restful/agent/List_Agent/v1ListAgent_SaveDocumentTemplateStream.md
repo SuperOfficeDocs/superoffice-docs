@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 234,
+  "DocumentTemplateId": 849,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "a",
-  "PluginId": 156
+  "LanguageCode": "dolores",
+  "PluginId": 432
 }
 ```
 
@@ -97,10 +97,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Zulauf, Donnelly and Reichert",
-  "Description": "Reduced high-level access",
-  "ExternalReference": "aut",
-  "MimeType": "officiis",
-  "PluginId": 456
+  "Name": "O'Hara-Bergnaum",
+  "Description": "Diverse coherent Graphical User Interface",
+  "ExternalReference": "error",
+  "MimeType": "aut",
+  "PluginId": 332
 }
 ```

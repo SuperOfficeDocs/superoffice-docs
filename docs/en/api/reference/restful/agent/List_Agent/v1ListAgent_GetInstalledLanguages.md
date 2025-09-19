@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/List/GetInstalledLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,19 +83,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 44,
-    "LCID": 92,
-    "EnglishName": "Douglas Group",
-    "NativeName": "Kreiger, Hayes and Schaefer",
-    "ThreeLetterISOLanguageName": "Wunsch, Rowe and Parker",
-    "TwoLetterISOLanguageName": "Wolff Group",
-    "IsBuiltIn": true,
+    "LanguageInfoId": 598,
+    "LCID": 306,
+    "EnglishName": "Nolan Inc and Sons",
+    "NativeName": "Kassulke-Koss",
+    "ThreeLetterISOLanguageName": "Okuneva, Kulas and Beatty",
+    "TwoLetterISOLanguageName": "Treutel, Hermiston and Feil",
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 54
+        "FieldType": "System.String",
+        "FieldLength": 514
       }
     }
   }

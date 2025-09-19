@@ -99,15 +99,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 38,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2002-07-03T03:46:54.707009+02:00",
-  "EndTime": "2015-10-04T03:46:54.707009+02:00",
-  "Count": 988
+  "PersonId": 553,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2013-09-19T03:41:53.4651107+02:00",
+  "EndTime": "2017-11-30T03:41:53.4651107+01:00",
+  "Count": 460
 }
 ```
 
@@ -119,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 701,
-    "Attention": "eveniet",
-    "Header": "non",
-    "Name": "Goyette-Klocko",
-    "OurRef": "repudiandae",
-    "YourRef": "quis",
-    "Description": "Virtual didactic matrices",
-    "DocumentTemplate": "voluptates",
-    "IsPublished": true,
-    "PersonId": 693,
-    "PersonFullName": "Mrs. Abbigail Cecelia Hickle I",
-    "AssociateFullName": "Waino Dach",
-    "ContactId": 545,
-    "ContactName": "Greenfelder-Kiehn",
-    "ProjectId": 330,
-    "ProjectName": "Lebsack-Feest",
-    "AssociateId": 404,
-    "Snum": 566,
-    "SaleId": 244,
-    "SaleName": "Bogan, Luettgen and Rosenbaum",
+    "DocumentId": 829,
+    "Attention": "ut",
+    "Header": "rem",
+    "Name": "Shanahan, Beier and Ryan",
+    "OurRef": "laboriosam",
+    "YourRef": "accusamus",
+    "Description": "Customer-focused heuristic pricing structure",
+    "DocumentTemplate": "eos",
+    "IsPublished": false,
+    "PersonId": 687,
+    "PersonFullName": "Prof. Katelynn Marjory Volkman",
+    "AssociateFullName": "Dr. Deondre Wiegand",
+    "ContactId": 514,
+    "ContactName": "Gusikowski Group",
+    "ProjectId": 552,
+    "ProjectName": "Lemke Group",
+    "AssociateId": 293,
+    "Snum": 892,
+    "SaleId": 428,
+    "SaleName": "Schimmel-Nikolaus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 320
+        "FieldType": "System.String",
+        "FieldLength": 934
       }
     }
   }

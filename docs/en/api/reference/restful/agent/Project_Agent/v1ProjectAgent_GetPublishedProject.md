@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 276
+  "ProjectId": 210
 }
 ```
 
@@ -106,30 +106,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 857,
-  "Name": "Ziemann Group",
-  "Description": "Enterprise-wide global capacity",
+  "ProjectId": 527,
+  "Name": "Schamberger, Braun and Runolfsson",
+  "Description": "Robust motivating firmware",
   "URL": "http://www.example.com/",
-  "Type": "cumque",
-  "AssociateId": 303,
-  "AssociateFullName": "April Schoen",
-  "TypeId": 417,
-  "Updated": "2025-03-29T03:46:55.1757421+01:00",
-  "StatusId": 56,
-  "Status": "dolor",
-  "TextId": 539,
-  "PublishTo": "2022-01-08T03:46:55.1757421+01:00",
-  "PublishFrom": "2022-08-07T03:46:55.1757421+02:00",
-  "IsPublished": false,
+  "Type": "saepe",
+  "AssociateId": 466,
+  "AssociateFullName": "Annamarie Lubowitz",
+  "TypeId": 945,
+  "Updated": "2012-11-30T03:41:53.9182167+01:00",
+  "StatusId": 288,
+  "Status": "et",
+  "TextId": 826,
+  "PublishTo": "1999-09-11T03:41:53.9182167+02:00",
+  "PublishFrom": "2004-11-18T03:41:53.9182167+01:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "820617",
-  "ActiveErpLinks": 350,
+  "ProjectNumber": "1470915",
+  "ActiveErpLinks": 801,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 646
+      "FieldLength": 956
     }
   }
 }

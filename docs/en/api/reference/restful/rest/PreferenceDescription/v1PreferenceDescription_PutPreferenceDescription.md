@@ -114,28 +114,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 380,
-  "Section": "dicta",
-  "Key": "fugit",
-  "Name": "Robel, Emard and Stoltenberg",
+  "PrefDescId": 343,
+  "Section": "odio",
+  "Key": "quos",
+  "Name": "Beatty LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Innovative uniform info-mediaries",
-  "IsBuiltin": false,
-  "TableName": "Gutmann-Frami",
-  "UserDefinedListId": 129,
-  "Rank": 363,
-  "SubGroup": "architecto",
-  "MinLevel": 149,
-  "MaxValue": 540,
-  "MinValue": 829,
-  "RequiredLicense": "voluptate"
+  "Description": "Enhanced bottom-line application",
+  "IsBuiltin": true,
+  "TableName": "White-Lindgren",
+  "UserDefinedListId": 787,
+  "Rank": 457,
+  "SubGroup": "quo",
+  "MinLevel": 710,
+  "MaxValue": 261,
+  "MinValue": 796,
+  "RequiredLicense": "vel"
 }
 ```
 
@@ -146,30 +146,30 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 47,
-  "Section": "accusantium",
-  "Key": "at",
-  "Name": "Koelpin-Kemmer",
+  "PrefDescId": 82,
+  "Section": "itaque",
+  "Key": "qui",
+  "Name": "Sauer, Hettinger and Dickinson",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Down-sized solution-oriented moderator",
-  "IsBuiltin": true,
-  "TableName": "Zulauf LLC",
-  "UserDefinedListId": 721,
-  "Rank": 47,
-  "SubGroup": "cumque",
-  "MinLevel": 661,
-  "MaxValue": 622,
-  "MinValue": 865,
-  "RequiredLicense": "quia",
+  "Description": "Monitored explicit array",
+  "IsBuiltin": false,
+  "TableName": "Stamm-Little",
+  "UserDefinedListId": 173,
+  "Rank": 584,
+  "SubGroup": "eveniet",
+  "MinLevel": 6,
+  "MaxValue": 117,
+  "MinValue": 750,
+  "RequiredLicense": "velit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 440
+      "FieldLength": 701
     }
   },
   "_Links": {

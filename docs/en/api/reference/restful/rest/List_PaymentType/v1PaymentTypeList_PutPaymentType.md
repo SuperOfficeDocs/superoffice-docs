@@ -79,16 +79,16 @@ OK
 PUT /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 539,
-  "Name": "Bahringer LLC",
-  "Tooltip": "perspiciatis",
-  "Deleted": false,
-  "UdListDefinitionId": 576,
-  "Rank": 307
+  "Id": 196,
+  "Name": "Moore Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 169,
+  "Rank": 328
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 931,
-  "Name": "Barton Inc and Sons",
-  "Tooltip": "quae",
-  "Deleted": true,
-  "UdListDefinitionId": 381,
-  "Rank": 421,
+  "Id": 226,
+  "Name": "Bailey Inc and Sons",
+  "Tooltip": "odio",
+  "Deleted": false,
+  "UdListDefinitionId": 188,
+  "Rank": 431,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 470
+      "FieldLength": 486
     }
   }
 }

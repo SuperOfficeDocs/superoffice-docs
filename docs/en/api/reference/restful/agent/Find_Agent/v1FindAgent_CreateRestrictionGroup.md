@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "totam",
-  "ProviderName": "Mills, Blick and Dickens",
-  "StorageKey": "eos",
-  "Context": "autem"
+  "StorageType": "aliquam",
+  "ProviderName": "Fay Group",
+  "StorageKey": "aut",
+  "Context": "culpa"
 }
 ```
 
@@ -96,30 +96,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Swift Inc and Sons",
-  "Description": "Cross-platform 5th generation interface",
-  "Rank": 145,
+  "Name": "Gaylord-Leuschke",
+  "Description": "Enhanced didactic strategy",
+  "Rank": 70,
   "Restrictions": [
     {
-      "Name": "Ankunding Group",
-      "Operator": "rem",
+      "Name": "Bahringer-Powlowski",
+      "Operator": "reiciendis",
       "Values": [
-        "reiciendis",
-        "sed"
+        "excepturi",
+        "accusantium"
       ],
       "DisplayValues": [
-        "laudantium",
-        "ad"
+        "cupiditate",
+        "ut"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 367,
+      "InterParenthesis": 613,
       "InterOperator": "And",
-      "UniqueHash": 976
+      "UniqueHash": 340
     }
   ]
 }

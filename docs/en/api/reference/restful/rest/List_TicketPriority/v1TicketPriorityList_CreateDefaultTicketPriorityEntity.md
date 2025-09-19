@@ -93,60 +93,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 136,
-  "Name": "Rice, Roob and White",
+  "TicketPriorityId": 185,
+  "Name": "Huel, O'Kon and Turner",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 757,
+  "SortOrder": 863,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 974,
-  "MonStart": "2025-04-05T03:47:00.9099142+02:00",
-  "MonStop": "2001-11-13T03:47:00.9099142+01:00",
-  "TueStart": "2023-04-03T03:47:00.9099142+02:00",
-  "TueStop": "2005-09-30T03:47:00.9099142+02:00",
-  "WedStart": "2007-06-01T03:47:00.9099142+02:00",
-  "WedStop": "2006-07-29T03:47:00.9099142+02:00",
-  "ThuStart": "2017-10-19T03:47:00.9099142+02:00",
-  "ThuStop": "2001-06-22T03:47:00.9099142+02:00",
-  "FriStart": "2000-11-05T03:47:00.9099142+01:00",
-  "FriStop": "2011-03-03T03:47:00.9099142+01:00",
-  "SatStart": "2006-12-15T03:47:00.9099142+01:00",
-  "SatStop": "2017-01-24T03:47:00.9099142+01:00",
-  "SunStart": "2017-01-10T03:47:00.9099142+01:00",
-  "SunStop": "2007-02-01T03:47:00.9099142+01:00",
+  "Deadline": 886,
+  "MonStart": "2016-11-28T03:41:59.6367262+01:00",
+  "MonStop": "2007-10-01T03:41:59.6367262+02:00",
+  "TueStart": "2012-02-22T03:41:59.6367262+01:00",
+  "TueStop": "2013-01-18T03:41:59.6367262+01:00",
+  "WedStart": "2024-01-18T03:41:59.6367262+01:00",
+  "WedStop": "2008-10-13T03:41:59.6367262+02:00",
+  "ThuStart": "2019-03-17T03:41:59.6367262+01:00",
+  "ThuStop": "2005-09-13T03:41:59.6367262+02:00",
+  "FriStart": "1998-11-15T03:41:59.6367262+01:00",
+  "FriStop": "2023-11-08T03:41:59.6367262+01:00",
+  "SatStart": "2015-03-02T03:41:59.6367262+01:00",
+  "SatStop": "2003-03-14T03:41:59.6367262+01:00",
+  "SunStart": "2023-09-14T03:41:59.6367262+02:00",
+  "SunStop": "2024-04-18T03:41:59.6367262+02:00",
   "NonDates": [
-    "ducimus",
-    "et"
+    "nostrum",
+    "ratione"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 344,
-      "AlertLevel": 162,
-      "AlertTimeout": 611,
-      "Action": 652,
-      "DelegateTo": 583,
-      "ScriptId": 14,
-      "EmailTo": "derick@cummingskoepp.us",
-      "SmsTo": "qui",
-      "ReplyTemplateIdCustomer": 433,
-      "ReplyTemplateIdUser": 484,
-      "ReplyTemplateIdCatmast": 534,
-      "ReplyTemplateIdEmail": 410,
-      "RtiCustomerSms": 57,
-      "ReplyTemplateIdUserSms": 424,
-      "ReplyTemplateIdCatmastSms": 722,
-      "ReplyTemplateIdSms": 768,
+      "TicketAlertId": 732,
+      "AlertLevel": 15,
+      "AlertTimeout": 525,
+      "Action": 838,
+      "DelegateTo": 756,
+      "ScriptId": 572,
+      "EmailTo": "lia.kling@oreillyberge.name",
+      "SmsTo": "reiciendis",
+      "ReplyTemplateIdCustomer": 85,
+      "ReplyTemplateIdUser": 489,
+      "ReplyTemplateIdCatmast": 896,
+      "ReplyTemplateIdEmail": 338,
+      "RtiCustomerSms": 961,
+      "ReplyTemplateIdUserSms": 180,
+      "ReplyTemplateIdCatmastSms": 4,
+      "ReplyTemplateIdSms": 803,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 559
+          "FieldType": "System.String",
+          "FieldLength": 614
         }
       }
     }
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 565
+      "FieldType": "System.String",
+      "FieldLength": 537
     }
   }
 }

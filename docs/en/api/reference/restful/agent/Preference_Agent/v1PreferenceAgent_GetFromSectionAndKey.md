@@ -96,8 +96,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "est",
-  "Key": "rem"
+  "Section": "eligendi",
+  "Key": "eligendi"
 }
 ```
 
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 620,
-  "Section": "et",
-  "Key": "enim",
-  "Name": "Koepp, Cruickshank and Ullrich",
+  "PrefDescId": 678,
+  "Section": "quaerat",
+  "Key": "iste",
+  "Name": "Mueller, Abshire and Harris",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "User-friendly fresh-thinking Graphical User Interface",
+  "Description": "Distributed upward-trending attitude",
   "IsBuiltin": false,
-  "TableName": "Rosenbaum Group",
-  "UserDefinedListId": 587,
-  "Rank": 705,
-  "SubGroup": "et",
-  "MinLevel": 178,
-  "MaxValue": 24,
-  "MinValue": 42,
-  "RequiredLicense": "ratione",
+  "TableName": "Kub Group",
+  "UserDefinedListId": 379,
+  "Rank": 544,
+  "SubGroup": "non",
+  "MinLevel": 794,
+  "MaxValue": 958,
+  "MinValue": 533,
+  "RequiredLicense": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 941
+      "FieldType": "System.Int32",
+      "FieldLength": 586
     }
   }
 }

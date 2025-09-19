@@ -107,11 +107,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 567
+  "SuggestedDocumentId": 692
 }
 ```
 
@@ -122,88 +122,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 862,
+  "DocumentId": 309,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "omnis",
-  "Header": "omnis",
-  "Name": "Greenfelder-Dickinson",
-  "OurRef": "dolores",
-  "YourRef": "velit",
-  "CreatedDate": "2018-05-22T03:46:54.6913844+02:00",
-  "UpdatedDate": "1998-06-21T03:46:54.6913844+02:00",
-  "Description": "Front-line transitional pricing structure",
+  "Attention": "voluptatibus",
+  "Header": "dolorum",
+  "Name": "Conn Inc and Sons",
+  "OurRef": "dolor",
+  "YourRef": "provident",
+  "CreatedDate": "2001-12-14T03:41:53.4494861+01:00",
+  "UpdatedDate": "1999-12-31T03:41:53.4494861+01:00",
+  "Description": "Optional web-enabled success",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2005-01-09T03:46:54.6913844+01:00",
-  "ExternalRef": "mollitia",
+  "Date": "2020-12-20T03:41:53.4494861+01:00",
+  "ExternalRef": "odit",
   "Completed": "Completed",
-  "ActiveLinks": 682,
+  "ActiveLinks": 960,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Jacobs Group",
-      "Id": 290,
-      "Description": "Diverse reciprocal monitoring",
-      "ExtraInfo": "perspiciatis",
-      "LinkId": 721,
+      "EntityName": "Veum, Douglas and Borer",
+      "Id": 578,
+      "Description": "Progressive optimizing project",
+      "ExtraInfo": "vitae",
+      "LinkId": 388,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 532
+          "FieldLength": 906
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 522,
-  "Snum": 628,
+  "SuggestedDocumentId": 234,
+  "Snum": 181,
   "UserDefinedFields": {
-    "SuperOffice:1": "Thomas Johns",
-    "SuperOffice:2": "795172046"
+    "SuperOffice:1": "Prof. Gage Eichmann MD",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "saepe",
-    "ExtraFields2": "ipsam"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "magni"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "voluptatibus"
+    "CustomFields1": "dolor",
+    "CustomFields2": "a"
   },
-  "PublishEventDate": "2012-01-03T03:46:54.6913844+01:00",
-  "PublishTo": "2020-02-16T03:46:54.6913844+01:00",
-  "PublishFrom": "2023-11-20T03:46:54.6913844+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2000-05-23T03:41:53.4494861+02:00",
+  "PublishTo": "2001-11-24T03:41:53.4494861+01:00",
+  "PublishFrom": "2018-05-28T03:41:53.4494861+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 279,
+      "VisibleId": 810,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "dignissimos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 353
+          "FieldLength": 742
         }
       }
     },
     {
-      "VisibleId": 279,
+      "VisibleId": 810,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "dignissimos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 353
+          "FieldLength": 742
         }
       }
     }
@@ -213,7 +213,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 58
+      "FieldLength": 993
     }
   }
 }

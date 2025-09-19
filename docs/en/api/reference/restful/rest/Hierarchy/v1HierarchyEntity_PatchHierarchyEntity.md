@@ -118,18 +118,18 @@ HierarchyEntity  updated.
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nemo",
+    "path": "vero",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nemo",
+    "path": "vero",
     "value": {}
   }
 ]
@@ -142,46 +142,46 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 37,
+  "HierarchyId": 384,
   "Domain": "Dashboards",
-  "Name": "Hermiston-Heaney",
-  "Fullname": "delectus",
-  "ParentId": 220,
+  "Name": "Emmerich-Cartwright",
+  "Fullname": "accusamus",
+  "ParentId": 231,
   "Children": [
     {
-      "HierarchyId": 85,
+      "HierarchyId": 345,
       "Domain": "Dashboards",
-      "Name": "Erdman-Corkery",
-      "Fullname": "ut",
-      "ParentId": 563,
+      "Name": "Morar-Heller",
+      "Fullname": "voluptas",
+      "ParentId": 690,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2017-09-03T03:47:00.0349452+02:00",
-      "RegisteredAssociateId": 345,
-      "Updated": "2022-06-24T03:47:00.0349452+02:00",
-      "UpdatedAssociateId": 286,
+      "Registered": "2017-01-24T03:41:58.7773879+01:00",
+      "RegisteredAssociateId": 958,
+      "Updated": "2009-11-07T03:41:58.7773879+01:00",
+      "UpdatedAssociateId": 765,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 859
+          "FieldLength": 723
         }
       }
     }
   ],
-  "Registered": "2012-03-14T03:47:00.0349452+01:00",
-  "RegisteredAssociateId": 580,
-  "Updated": "2016-03-27T03:47:00.0349452+02:00",
-  "UpdatedAssociateId": 243,
+  "Registered": "2012-04-15T03:41:58.7773879+02:00",
+  "RegisteredAssociateId": 616,
+  "Updated": "2011-04-12T03:41:58.7773879+02:00",
+  "UpdatedAssociateId": 885,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 240
+      "FieldLength": 764
     }
   },
   "_Links": {

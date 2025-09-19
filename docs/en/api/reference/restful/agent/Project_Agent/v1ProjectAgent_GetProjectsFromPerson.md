@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 35
+  "PersonId": 62
 }
 ```
 
@@ -107,30 +107,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 105,
-    "Name": "Padberg-Hauck",
-    "Description": "Team-oriented bandwidth-monitored internet solution",
+    "ProjectId": 471,
+    "Name": "Stokes Group",
+    "Description": "Enhanced client-driven infrastructure",
     "URL": "http://www.example.com/",
-    "Type": "minus",
-    "AssociateId": 509,
-    "AssociateFullName": "Ms. Antonia Gibson III",
-    "TypeId": 248,
-    "Updated": "2001-02-04T03:46:55.1757421+01:00",
-    "StatusId": 676,
-    "Status": "veritatis",
-    "TextId": 56,
-    "PublishTo": "2007-03-28T03:46:55.1757421+02:00",
-    "PublishFrom": "2001-10-31T03:46:55.1757421+01:00",
+    "Type": "et",
+    "AssociateId": 471,
+    "AssociateFullName": "Mr. Jaylan Skyla McClure PhD",
+    "TypeId": 73,
+    "Updated": "2006-03-04T03:41:53.9182167+01:00",
+    "StatusId": 834,
+    "Status": "dolor",
+    "TextId": 356,
+    "PublishTo": "2001-12-12T03:41:53.9182167+01:00",
+    "PublishFrom": "2023-07-25T03:41:53.9182167+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1514317",
-    "ActiveErpLinks": 242,
+    "ProjectNumber": "690790",
+    "ActiveErpLinks": 686,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 395
+        "FieldType": "System.Int32",
+        "FieldLength": 754
       }
     }
   }

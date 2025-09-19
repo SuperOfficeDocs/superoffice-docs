@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 10,
-    "Name": "Emmerich, Borer and Jast",
-    "Tooltip": "consectetur",
+    "HeadingId": 911,
+    "Name": "Breitenberg Inc and Sons",
+    "Tooltip": "illo",
     "Deleted": true,
-    "Rank": 748,
-    "UdListDefinitionId": 249
+    "Rank": 165,
+    "UdListDefinitionId": 497
   },
   {
-    "HeadingId": 10,
-    "Name": "Emmerich, Borer and Jast",
-    "Tooltip": "consectetur",
+    "HeadingId": 911,
+    "Name": "Breitenberg Inc and Sons",
+    "Tooltip": "illo",
     "Deleted": true,
-    "Rank": 748,
-    "UdListDefinitionId": 249
+    "Rank": 165,
+    "UdListDefinitionId": 497
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 407,
-    "Name": "Crona LLC",
-    "Tooltip": "pariatur",
+    "HeadingId": 133,
+    "Name": "Mante Group",
+    "Tooltip": "dolores",
     "Deleted": true,
-    "Rank": 249,
-    "UdListDefinitionId": 63,
+    "Rank": 861,
+    "UdListDefinitionId": 919,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 690
+        "FieldLength": 710
       }
     }
   }

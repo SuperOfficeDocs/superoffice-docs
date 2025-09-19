@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Padberg, Doyle and Dach",
-  "DeviceName": "Hahn Inc and Sons",
-  "DeviceIdentifier": "saepe"
+  "ApplicationName": "Ritchie Group",
+  "DeviceName": "Moen Group",
+  "DeviceIdentifier": "magnam"
 }
 ```
 
@@ -101,21 +101,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 644,
-  "Name": "Rowe, Prosacco and Koepp",
-  "CreatedDate": "2017-03-05T03:46:54.8632539+01:00",
-  "UpdatedDate": "2005-03-01T03:46:54.8632539+01:00",
-  "AssociateFullName": "Marcelle Lebsack",
-  "CreatedBy": "exercitationem",
-  "UpdatedBy": "exercitationem",
-  "DeviceIdentifier": "a",
-  "ForeignAppId": 953,
+  "ForeignDeviceId": 928,
+  "Name": "Wuckert-Lueilwitz",
+  "CreatedDate": "2024-02-13T03:41:53.5901046+01:00",
+  "UpdatedDate": "2021-08-02T03:41:53.5901046+02:00",
+  "AssociateFullName": "Ms. Jose Senger",
+  "CreatedBy": "dolorem",
+  "UpdatedBy": "fugiat",
+  "DeviceIdentifier": "quidem",
+  "ForeignAppId": 311,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 325
+      "FieldType": "System.Int32",
+      "FieldLength": 21
     }
   }
 }

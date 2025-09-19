@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/List/AddHierarchyToPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "facilis",
-  "Name": "Ruecker-Luettgen"
+  "Path": "quis",
+  "Name": "Swift-Dibbert"
 }
 ```
 
@@ -102,46 +102,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 855,
+  "HierarchyId": 401,
   "Domain": "Dashboards",
-  "Name": "Ruecker-Bernhard",
-  "Fullname": "eaque",
-  "ParentId": 17,
+  "Name": "Wisoky, Upton and Orn",
+  "Fullname": "repudiandae",
+  "ParentId": 311,
   "Children": [
     {
-      "HierarchyId": 694,
+      "HierarchyId": 743,
       "Domain": "Dashboards",
-      "Name": "Daugherty, Lemke and Schumm",
-      "Fullname": "consectetur",
-      "ParentId": 645,
+      "Name": "Wilkinson Inc and Sons",
+      "Fullname": "tenetur",
+      "ParentId": 387,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2014-05-27T03:46:54.9726245+02:00",
-      "RegisteredAssociateId": 409,
-      "Updated": "2022-03-06T03:46:54.9726245+01:00",
-      "UpdatedAssociateId": 342,
+      "Registered": "2005-04-11T03:41:53.7307246+02:00",
+      "RegisteredAssociateId": 472,
+      "Updated": "2019-04-14T03:41:53.7307246+02:00",
+      "UpdatedAssociateId": 470,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 893
+          "FieldType": "System.String",
+          "FieldLength": 598
         }
       }
     }
   ],
-  "Registered": "2022-07-15T03:46:54.9726245+02:00",
-  "RegisteredAssociateId": 257,
-  "Updated": "2021-10-18T03:46:54.9726245+02:00",
-  "UpdatedAssociateId": 725,
+  "Registered": "2000-12-16T03:41:53.7307246+01:00",
+  "RegisteredAssociateId": 728,
+  "Updated": "2007-12-29T03:41:53.7307246+01:00",
+  "UpdatedAssociateId": 511,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldLength": 132
     }
   }
 }

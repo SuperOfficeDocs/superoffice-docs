@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 327,
-    "Name": "Huel-Heathcote",
-    "Tooltip": "animi",
-    "Deleted": true,
-    "Rank": 27,
-    "UdListDefinitionId": 895,
+    "HeadingId": 198,
+    "Name": "Roob, Hyatt and Lowe",
+    "Tooltip": "vel",
+    "Deleted": false,
+    "Rank": 786,
+    "UdListDefinitionId": 849,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 741
+        "FieldType": "System.Int32",
+        "FieldLength": 175
       }
     }
   }

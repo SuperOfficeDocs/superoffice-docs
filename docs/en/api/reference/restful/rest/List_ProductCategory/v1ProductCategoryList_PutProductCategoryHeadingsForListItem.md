@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 204,
-    "Name": "Bartoletti-Fay",
-    "ToolTip": "Dolore labore nam at velit voluptatem quia.",
+    "Id": 397,
+    "Name": "Braun LLC",
+    "ToolTip": "Est incidunt impedit assumenda officiis ipsam reiciendis.",
     "Deleted": true,
-    "Rank": 596,
-    "Type": "repellat",
-    "ColorBlock": 56,
-    "IconHint": "provident",
+    "Rank": 208,
+    "Type": "aut",
+    "ColorBlock": 887,
+    "IconHint": "amet",
     "Selected": false,
-    "LastChanged": "2018-09-02T03:47:00.7224209+02:00",
+    "LastChanged": "2015-02-13T03:41:59.4648585+01:00",
     "ChildItems": [
       {
-        "Id": 710,
-        "Name": "Conn, Rempel and Johns",
-        "ToolTip": "Dolores harum velit sed.",
-        "Deleted": true,
-        "Rank": 477,
-        "Type": "beatae",
-        "ColorBlock": 464,
-        "IconHint": "libero",
+        "Id": 96,
+        "Name": "Runte, Cremin and Upton",
+        "ToolTip": "Nemo doloribus dolor sit voluptas sit consequatur.",
+        "Deleted": false,
+        "Rank": 55,
+        "Type": "placeat",
+        "ColorBlock": 145,
+        "IconHint": "possimus",
         "Selected": false,
-        "LastChanged": "2002-08-31T03:47:00.7224209+02:00",
+        "LastChanged": "2001-06-16T03:41:59.4648585+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "libero",
+        "StyleHint": "error",
         "Hidden": false,
-        "FullName": "Jaiden Grant"
+        "FullName": "Prof. Monty Gleichner"
       }
     ],
-    "ExtraInfo": "voluptatum",
-    "StyleHint": "illum",
+    "ExtraInfo": "inventore",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Dr. Jalon VonRueden"
+    "FullName": "Scot Hamill"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 826,
-    "Name": "Pfeffer LLC",
-    "ToolTip": "Quisquam sint repudiandae fugit reiciendis.",
-    "Deleted": false,
-    "Rank": 816,
-    "Type": "quas",
-    "ColorBlock": 841,
-    "IconHint": "maxime",
+    "Id": 627,
+    "Name": "Trantow Inc and Sons",
+    "ToolTip": "Distinctio aspernatur dolore laboriosam.",
+    "Deleted": true,
+    "Rank": 592,
+    "Type": "inventore",
+    "ColorBlock": 306,
+    "IconHint": "fugiat",
     "Selected": false,
-    "LastChanged": "2017-04-09T03:47:00.7224209+02:00",
+    "LastChanged": "2021-01-24T03:41:59.4804834+01:00",
     "ChildItems": [
       {
-        "Id": 742,
-        "Name": "Daugherty Group",
-        "ToolTip": "Et sed inventore consequatur magnam enim beatae.",
+        "Id": 519,
+        "Name": "Ward-Mueller",
+        "ToolTip": "Voluptatem sunt.",
         "Deleted": false,
-        "Rank": 644,
-        "Type": "atque",
-        "ColorBlock": 356,
-        "IconHint": "atque",
+        "Rank": 955,
+        "Type": "non",
+        "ColorBlock": 179,
+        "IconHint": "nobis",
         "Selected": false,
-        "LastChanged": "2003-08-09T03:47:00.7224209+02:00",
+        "LastChanged": "2012-06-03T03:41:59.4804834+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Robin Kale Vandervort Sr.",
+        "ExtraInfo": "dicta",
+        "StyleHint": "eum",
+        "Hidden": false,
+        "FullName": "Charlotte Leannon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 765
+            "FieldLength": 949
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "soluta",
+    "ExtraInfo": "quia",
+    "StyleHint": "sit",
     "Hidden": false,
-    "FullName": "Sammy Brown I",
+    "FullName": "Mr. Archibald Pamela Reichert II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 745
+        "FieldType": "System.String",
+        "FieldLength": 746
       }
     }
   }

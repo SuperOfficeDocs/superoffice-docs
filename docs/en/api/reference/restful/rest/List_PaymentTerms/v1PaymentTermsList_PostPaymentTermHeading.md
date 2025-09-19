@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 182,
-  "Name": "Armstrong, Johns and Vandervort",
-  "Tooltip": "necessitatibus",
+  "HeadingId": 673,
+  "Name": "Hirthe Inc and Sons",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 373,
-  "UdListDefinitionId": 726
+  "Rank": 407,
+  "UdListDefinitionId": 935
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 729,
-  "Name": "Koepp-Barrows",
-  "Tooltip": "molestiae",
-  "Deleted": false,
-  "Rank": 909,
-  "UdListDefinitionId": 145,
+  "HeadingId": 152,
+  "Name": "Wintheiser Group",
+  "Tooltip": "accusamus",
+  "Deleted": true,
+  "Rank": 788,
+  "UdListDefinitionId": 663,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 703
+      "FieldLength": 542
     }
   }
 }

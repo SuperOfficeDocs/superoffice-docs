@@ -93,28 +93,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 695,
+  "EjMessageId": 879,
   "Ticket": null,
-  "CreatedAt": "2010-08-09T03:47:00.3630582+02:00",
+  "CreatedAt": "2006-12-16T03:41:59.1367485+01:00",
   "CreatedBy": null,
   "Author": "voluptas",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "in",
-  "TimeSpent": 224,
-  "Body": "veritatis",
-  "HtmlBody": "nihil",
-  "EmailHeader": "ludie@goyette.com",
-  "DebugInfo": "velit",
-  "MailSorter": "placeat",
+  "MessageId": "et",
+  "TimeSpent": 112,
+  "Body": "vel",
+  "HtmlBody": "ad",
+  "EmailHeader": "kellie.goodwin@ratkekshlerin.info",
+  "DebugInfo": "vel",
+  "MailSorter": "voluptas",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "molestias",
+  "SearchTitle": "blanditiis",
   "MessageHeaders": [
     {
-      "Id": 426,
-      "Name": "Block LLC",
-      "Value": "delectus",
+      "Id": 864,
+      "Name": "Smith-Waelchi",
+      "Value": "ea",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -122,50 +122,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 613
+          "FieldLength": 564
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "quam",
-  "Sentiment": 562,
-  "SentimentConfidence": 678,
+  "Important": true,
+  "Language": "commodi",
+  "Sentiment": 493,
+  "SentimentConfidence": 665,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 108,
-      "Name": "Mraz, McCullough and Hirthe",
-      "ContentType": "rerum",
-      "AttSize": 57,
-      "InlineImage": false,
-      "ContentId": "neque",
-      "AuthKey": "aliquam",
+      "AttachmentId": 360,
+      "Name": "Prosacco-McKenzie",
+      "ContentType": "aut",
+      "AttSize": 509,
+      "InlineImage": true,
+      "ContentId": "ut",
+      "AuthKey": "quidem",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 87
+          "FieldLength": 323
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "itaque",
-    "ExtraFields2": "expedita"
+    "ExtraFields1": "eveniet",
+    "ExtraFields2": "dolor"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "quia"
+    "CustomFields1": "officia",
+    "CustomFields2": "exercitationem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 799
+      "FieldLength": 638
     }
   }
 }

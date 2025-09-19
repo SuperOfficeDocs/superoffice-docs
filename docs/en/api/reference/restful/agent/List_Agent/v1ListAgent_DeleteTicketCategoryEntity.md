@@ -26,7 +26,7 @@ Deletes the TicketCategoryEntity
 | ticketCategoryEntityId | int32 | **Required** The identity of the TicketCategoryEntity |
 
 ```http
-POST /api/v1/Agents/List/DeleteTicketCategoryEntity?ticketCategoryEntityId=80
+POST /api/v1/Agents/List/DeleteTicketCategoryEntity?ticketCategoryEntityId=309
 ```
 
 

@@ -76,7 +76,7 @@ OK
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,27 +87,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 80,
-    "Comment": "ut",
-    "Registered": "2000-04-03T03:47:00.1443174+02:00",
+    "ConsentPersonId": 617,
+    "Comment": "illo",
+    "Registered": "2011-11-04T03:41:58.8242618+01:00",
     "RegisteredAssociateId": 119,
-    "Updated": "2004-04-01T03:47:00.1443174+02:00",
-    "UpdatedAssociateId": 971,
-    "LegalBaseId": 825,
-    "LegalBaseKey": "laboriosam",
-    "LegalBaseName": "Pfeffer, Conn and Dietrich",
-    "ConsentPurposeId": 448,
-    "ConsentPurposeKey": "ipsum",
-    "ConsentPurposeName": "Schaefer, Medhurst and Swaniawski",
-    "ConsentSourceId": 740,
-    "ConsentSourceKey": "est",
-    "ConsentSourceName": "Rogahn LLC",
+    "Updated": "2006-05-09T03:41:58.8242618+02:00",
+    "UpdatedAssociateId": 296,
+    "LegalBaseId": 9,
+    "LegalBaseKey": "dolorem",
+    "LegalBaseName": "Gulgowski-Reilly",
+    "ConsentPurposeId": 913,
+    "ConsentPurposeKey": "dicta",
+    "ConsentPurposeName": "O'Reilly, Stracke and Auer",
+    "ConsentSourceId": 257,
+    "ConsentSourceKey": "expedita",
+    "ConsentSourceName": "Dickinson, Hegmann and Lockman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 960
+        "FieldType": "System.Int32",
+        "FieldLength": 643
       }
     }
   }

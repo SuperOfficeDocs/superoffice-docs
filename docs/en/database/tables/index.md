@@ -71,7 +71,7 @@ envir: onsite, online
 | [ConsentPerson](consentperson.md) |Link table that defines who has which consents| 472 |
 | [ConsentPurpose](consentpurpose.md) |GDPR purpose alternatives| 469 |
 | [ConsentSource](consentsource.md) |Consent source for GDPR| 471 |
-| [contact](contact.md) |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.  | 5 |
+| [contact](contact.md) |Companies and Organizations.| 5 |
 | [contactinterest](contactinterest.md) |Link-table between contact and interests in ContInt| 14 |
 | [ContInt](contint.md) |ContInt list table. List-text of all valid contact interest types.| 70 |
 | [ContIntGroupLink](contintgrouplink.md) |User group link table for ContInt, for MDO item hiding| 71 |
@@ -216,6 +216,7 @@ envir: onsite, online
 | [kb\_workflow\_access](kb-workflow-access.md) |Control of who can do what in a knowledge base workflow step| 293 |
 | [LanguageInfo](languageinfo.md) |Information about languages, from ISO standards and related information| 210 |
 | [LanguageInfoCountry](languageinfocountry.md) |Many-many link between countries and languages, to give intelligent choices for language| 211 |
+| [leadstatus](leadstatus.md) |List items of lead status that is selectable for contacts and persons that have specific category| 534 |
 | [legal\_html\_tags](legal-html-tags.md) |This table is used as a list of all legal HTML tags. HTML tags not in this list                  will be ignored when viewing html versions of messages| 353 |
 | [LegalBase](legalbase.md) |Legal base for GDPR (Article 6)| 470 |
 | [LicenseAssocLink](licenseassoclink.md) |Link between ModuleLicense and Associate, for per-assoc licenses; this is how licenses are assigned/consumed| 238 |
@@ -272,7 +273,7 @@ envir: onsite, online
 | [PersInt](persint.md) |PersInt list table. List of Person interests.| 73 |
 | [PersIntGroupLink](persintgrouplink.md) |User group link table for PersInt, for MDO item hiding| 74 |
 | [PersIntHeadingLink](persintheadinglink.md) |Heading link table for PersInt, for MDO headers| 75 |
-| [person](person.md) |Persons in a company or an organizations. All associates have a corresponding person record| 6 |
+| [person](person.md) |Persons| 6 |
 | [personinterest](personinterest.md) |Note: If you add or remove rows in this table, you will need to update the interestCount field in the person table accordingly. This field should always reflect the number of interest records a person has, to enable the correct setting of the interest indicator on the tab in the person dialog.  Replication note: The combination of person_id and pinterest_idx is unique. If a duplicate is made on a replicated database, the system will replace the record in the target database with the one derived from the source database during replication. Therefore, do not assume that a record in this table will retain its ID indefinitely, even if the person keeps the interest.| 15 |
 | [PersPos](perspos.md) |PersPos list table. Contact person position list| 76 |
 | [PersPosGroupLink](persposgrouplink.md) |User group link table for PersPos, for MDO item hiding| 77 |
@@ -488,9 +489,9 @@ envir: onsite, online
 | [ticket\_priority](ticket-priority.md) |This table contains the ticket priorities.| 275 |
 | [ticket\_status](ticket-status.md) |This table user defined ticket status values.| 263 |
 | [ticket\_status\_history](ticket-status-history.md) |This table contains the history of a tickets statuses. Each time a ticket changes status a copy of the previous status of the record will be saved | 261 |
-| [ticket\_type](ticket-type.md) |A ticket (request) type| 534 |
-| [ticket\_type\_priority](ticket-type-priority.md) |Link table defining what Priorities are relevant to a particular Ticket type| 535 |
-| [ticket\_type\_status](ticket-type-status.md) |Link table defining what Statuses are relevant to a particular Ticket type| 536 |
+| [ticket\_type](ticket-type.md) |A ticket (request) type| 535 |
+| [ticket\_type\_priority](ticket-type-priority.md) |Link table defining what Priorities are relevant to a particular Ticket type| 536 |
+| [ticket\_type\_status](ticket-type-status.md) |Link table defining what Statuses are relevant to a particular Ticket type| 537 |
 | [timestamps](timestamps.md) |Timestamp information| 300 |
 | [travelcurrent](travelcurrent.md) |Information about this database and its place in the hierarchy| 32 |
 | [travelgenerateddatabase](travelgenerateddatabase.md) |Information about all databases generated from this database| 33 |

@@ -84,8 +84,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 542,
-  "IncludeDeleted": false
+  "UdListDefinitionId": 486,
+  "IncludeDeleted": true
 }
 ```
 
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 581,
-    "Name": "Willms, Stanton and Kemmer",
-    "Tooltip": "quo",
+    "Id": 738,
+    "Name": "Treutel Group",
+    "Tooltip": "quidem",
     "Deleted": false,
-    "UdListDefinitionId": 115,
-    "Rank": 587,
+    "UdListDefinitionId": 34,
+    "Rank": 225,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 277
+        "FieldLength": 373
       }
     }
   }

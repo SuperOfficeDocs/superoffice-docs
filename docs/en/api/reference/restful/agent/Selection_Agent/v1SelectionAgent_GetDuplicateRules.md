@@ -80,30 +80,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bogan-Hessel",
-    "DisplayName": "Smitham, Hahn and Romaguera",
-    "DisplayTooltip": "nemo",
-    "IsActive": true,
+    "Name": "Prohaska, Rau and Cole",
+    "DisplayName": "Hamill-DuBuque",
+    "DisplayTooltip": "consequatur",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 530
+        "FieldType": "System.Int32",
+        "FieldLength": 539
       }
     }
   },
   {
-    "Name": "Bogan-Hessel",
-    "DisplayName": "Smitham, Hahn and Romaguera",
-    "DisplayTooltip": "nemo",
-    "IsActive": true,
+    "Name": "Prohaska, Rau and Cole",
+    "DisplayName": "Hamill-DuBuque",
+    "DisplayTooltip": "consequatur",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 530
+        "FieldType": "System.Int32",
+        "FieldLength": 539
       }
     }
   }

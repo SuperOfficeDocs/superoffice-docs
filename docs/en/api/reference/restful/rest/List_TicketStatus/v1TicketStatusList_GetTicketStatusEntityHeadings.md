@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 502,
-    "Name": "Kuhlman, Murphy and Hand",
-    "Tooltip": "minus",
+    "HeadingId": 171,
+    "Name": "Hackett LLC",
+    "Tooltip": "ducimus",
     "Deleted": true,
-    "Rank": 699,
-    "UdListDefinitionId": 625,
+    "Rank": 956,
+    "UdListDefinitionId": 357,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 888
+        "FieldType": "System.String",
+        "FieldLength": 841
       }
     }
   }

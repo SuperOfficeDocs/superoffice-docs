@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Selection/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Dibbert Inc and Sons"
+  "Name": "Feest-Bogisich"
 }
 ```
 
@@ -94,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Wolff, Kshlerin and Turner",
-    "SoPrimaryKey": 294,
-    "EntryName": "Beahan Group",
-    "EntryIdentifier": "eum",
-    "RuleDisplayName": "Stiedemann Inc and Sons",
+    "RuleName": "Weimann-Cummerata",
+    "SoPrimaryKey": 103,
+    "EntryName": "Mohr-Dickens",
+    "EntryIdentifier": "aut",
+    "RuleDisplayName": "Cassin LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 987
+        "FieldLength": 384
       }
     }
   }

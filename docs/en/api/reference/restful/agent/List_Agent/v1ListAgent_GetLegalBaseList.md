@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBaseList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,18 +87,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 415,
-    "Name": "Osinski-Eichmann",
-    "Tooltip": "sit",
-    "Rank": 14,
-    "Key": "voluptates",
+    "LegalBaseId": 1000,
+    "Name": "Balistreri Inc and Sons",
+    "Tooltip": "nesciunt",
+    "Rank": 885,
+    "Key": "nemo",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 994
+        "FieldLength": 909
       }
     }
   }

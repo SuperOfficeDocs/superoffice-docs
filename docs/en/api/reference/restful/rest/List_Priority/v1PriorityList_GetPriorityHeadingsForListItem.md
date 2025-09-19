@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 150,
-    "Name": "Jewess-Weber",
-    "ToolTip": "Voluptatibus aut omnis eaque.",
-    "Deleted": true,
-    "Rank": 277,
-    "Type": "est",
-    "ColorBlock": 885,
-    "IconHint": "eaque",
+    "Id": 670,
+    "Name": "Schultz Group",
+    "ToolTip": "Autem quisquam et praesentium.",
+    "Deleted": false,
+    "Rank": 453,
+    "Type": "illo",
+    "ColorBlock": 464,
+    "IconHint": "tempore",
     "Selected": false,
-    "LastChanged": "2003-11-25T03:47:00.7224209+01:00",
+    "LastChanged": "2013-06-27T03:41:59.4648585+02:00",
     "ChildItems": [
       {
-        "Id": 984,
-        "Name": "Kuphal, Wunsch and Rogahn",
-        "ToolTip": "Aut doloribus aut doloribus quos.",
+        "Id": 903,
+        "Name": "Lueilwitz, Graham and Sipes",
+        "ToolTip": "Unde earum non tempora et.",
         "Deleted": false,
-        "Rank": 895,
-        "Type": "et",
-        "ColorBlock": 96,
-        "IconHint": "aut",
+        "Rank": 451,
+        "Type": "sit",
+        "ColorBlock": 527,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2005-11-30T03:47:00.7224209+01:00",
+        "LastChanged": "2000-03-22T03:41:59.4648585+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "nemo",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "similique",
         "Hidden": false,
-        "FullName": "Annalise Langosh",
+        "FullName": "Annabell Kohler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 606
+            "FieldLength": 107
           }
         }
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "quae",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Janice Mosciski",
+    "FullName": "Athena Hintz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 825
+        "FieldType": "System.Int32",
+        "FieldLength": 519
       }
     }
   }

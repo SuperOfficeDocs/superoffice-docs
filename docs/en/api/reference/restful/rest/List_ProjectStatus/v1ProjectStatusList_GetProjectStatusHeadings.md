@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 291,
-    "Name": "Cartwright, Mueller and Schowalter",
-    "Tooltip": "velit",
+    "HeadingId": 202,
+    "Name": "Dicki Group",
+    "Tooltip": "deleniti",
     "Deleted": true,
-    "Rank": 119,
-    "UdListDefinitionId": 960,
+    "Rank": 850,
+    "UdListDefinitionId": 764,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldLength": 861
       }
     }
   }

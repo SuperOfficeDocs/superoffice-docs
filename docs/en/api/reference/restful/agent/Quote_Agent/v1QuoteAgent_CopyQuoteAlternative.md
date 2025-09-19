@@ -102,9 +102,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 949,
-  "QuoteAlternativeId": 920,
-  "QuoteAlternativeName": "Kessler-Hintz"
+  "QuoteVersionId": 754,
+  "QuoteAlternativeId": 310,
+  "QuoteAlternativeName": "Turcotte, Murphy and Leuschke"
 }
 ```
 
@@ -115,35 +115,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 639,
-  "ERPQuoteAlternativeKey": "atque",
-  "QuoteVersionId": 322,
-  "Name": "Marquardt, Kerluke and Olson",
-  "Description": "User-centric fresh-thinking challenge",
+  "QuoteAlternativeId": 643,
+  "ERPQuoteAlternativeKey": "impedit",
+  "QuoteVersionId": 953,
+  "Name": "Tillman-McDermott",
+  "Description": "Reduced clear-thinking productivity",
   "Status": "Error",
-  "Reason": "optimize front-end paradigms",
-  "ERPDiscountPercent": 7512.1979999999994,
-  "ERPDiscountAmount": 28412.843999999997,
-  "DiscountPercent": 10207.438,
-  "DiscountAmount": 18647.3,
+  "Reason": "",
+  "ERPDiscountPercent": 7850.67,
+  "ERPDiscountAmount": 19474.676,
+  "DiscountPercent": 25805.356,
+  "DiscountAmount": 17945.284,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "omnis",
-  "VAT": 26497.969999999998,
-  "EarningPercent": 18321.363999999998,
-  "EarningAmount": 16882.858,
-  "SubTotal": 24733.528,
-  "TotalPrice": 12504.66,
-  "ExtraField1": "natus",
-  "ExtraField2": "labore",
-  "ExtraField3": "ut",
-  "ExtraField4": "commodi",
-  "ExtraField5": "repudiandae",
+  "VATInfo": "qui",
+  "VAT": 13382.18,
+  "EarningPercent": 6286.804,
+  "EarningAmount": 18478.064,
+  "SubTotal": 4444.012,
+  "TotalPrice": 871.252,
+  "ExtraField1": "qui",
+  "ExtraField2": "excepturi",
+  "ExtraField3": "adipisci",
+  "ExtraField4": "porro",
+  "ExtraField5": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldLength": 318
     }
   }
 }

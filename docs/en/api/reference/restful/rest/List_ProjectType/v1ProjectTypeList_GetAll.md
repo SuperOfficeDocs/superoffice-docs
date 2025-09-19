@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 314,
-    "Name": "Witting Inc and Sons",
-    "Tooltip": "qui",
+    "Id": 323,
+    "Name": "Quitzon, Padberg and Veum",
+    "Tooltip": "libero",
     "Deleted": false,
-    "UdListDefinitionId": 992,
-    "Rank": 445,
+    "UdListDefinitionId": 838,
+    "Rank": 548,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 556
+        "FieldType": "System.Int32",
+        "FieldLength": 135
       }
     }
   }

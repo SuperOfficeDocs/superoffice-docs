@@ -70,7 +70,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TrackingId": "eaque",
+  "TrackingId": "eos",
   "IsThumbsUp": true
 }
 ```

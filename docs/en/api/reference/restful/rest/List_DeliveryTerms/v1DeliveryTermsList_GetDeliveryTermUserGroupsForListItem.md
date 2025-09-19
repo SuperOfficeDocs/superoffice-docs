@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 150,
-    "Name": "McKenzie Group",
-    "ToolTip": "Omnis nisi rerum et aperiam atque dolorem temporibus.",
+    "Id": 701,
+    "Name": "Greenholt, Howell and Erdman",
+    "ToolTip": "Ullam ea rerum est vero.",
     "Deleted": false,
-    "Rank": 678,
-    "Type": "consequatur",
-    "ColorBlock": 864,
-    "IconHint": "illum",
-    "Selected": false,
-    "LastChanged": "2009-08-04T03:47:00.6442984+02:00",
+    "Rank": 747,
+    "Type": "aperiam",
+    "ColorBlock": 60,
+    "IconHint": "dolore",
+    "Selected": true,
+    "LastChanged": "2007-09-18T03:41:59.4023618+02:00",
     "ChildItems": [
       {
-        "Id": 853,
-        "Name": "Marquardt, Gulgowski and Becker",
-        "ToolTip": "Modi temporibus.",
-        "Deleted": false,
-        "Rank": 519,
-        "Type": "ex",
-        "ColorBlock": 962,
-        "IconHint": "magni",
+        "Id": 485,
+        "Name": "Sauer-Krajcik",
+        "ToolTip": "In minima.",
+        "Deleted": true,
+        "Rank": 316,
+        "Type": "porro",
+        "ColorBlock": 372,
+        "IconHint": "nisi",
         "Selected": false,
-        "LastChanged": "2007-09-07T03:47:00.6442984+02:00",
+        "LastChanged": "2024-03-28T03:41:59.4023618+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "tenetur",
-        "Hidden": true,
-        "FullName": "Ms. Conrad Lang",
+        "ExtraInfo": "animi",
+        "StyleHint": "iure",
+        "Hidden": false,
+        "FullName": "Herminio Kuvalis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 442
+            "FieldLength": 501
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "facere",
+    "ExtraInfo": "ut",
+    "StyleHint": "laudantium",
     "Hidden": false,
-    "FullName": "Miss Madalyn O'Reilly",
+    "FullName": "Luther Eliezer Rutherford I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 402
+        "FieldType": "System.Int32",
+        "FieldLength": 738
       }
     }
   }

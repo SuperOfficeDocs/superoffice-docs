@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 90,
-  "Name": "Nader, Bergnaum and Fadel",
-  "Tooltip": "sapiente",
+  "Id": 141,
+  "Name": "Ruecker Group",
+  "Tooltip": "temporibus",
   "Deleted": false,
-  "UdListDefinitionId": 560,
-  "Rank": 730,
+  "UdListDefinitionId": 321,
+  "Rank": 581,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 632
+      "FieldLength": 175
     }
   }
 }

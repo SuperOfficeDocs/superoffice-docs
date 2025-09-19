@@ -62,7 +62,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,31 +72,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 180,
-  "Name": "Hilpert-Skiles",
-  "TZLocationCode": "exercitationem",
-  "TZLocationCities": "harum",
-  "IsoNumber": 383,
+  "TZLocationID": 62,
+  "Name": "Carter-Beatty",
+  "TZLocationCode": "aut",
+  "TZLocationCities": "aut",
+  "IsoNumber": 77,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 108,
-      "StartMonth": 977,
-      "EndDay": 839,
-      "EndMonth": 909,
-      "TZOffset": 909,
-      "StartRulePattern": "magnam",
-      "EndRulePattern": "eius"
+      "StartDay": 671,
+      "StartMonth": 10,
+      "EndDay": 123,
+      "EndMonth": 156,
+      "TZOffset": 115,
+      "StartRulePattern": "voluptatum",
+      "EndRulePattern": "minus"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 535,
-      "StartMonth": 513,
-      "EndDay": 687,
-      "EndMonth": 735,
-      "TZOffset": 227,
-      "StartRulePattern": "autem",
-      "EndRulePattern": "quia"
+      "StartDay": 830,
+      "StartMonth": 521,
+      "EndDay": 413,
+      "EndMonth": 327,
+      "TZOffset": 27,
+      "StartRulePattern": "tempore",
+      "EndRulePattern": "repudiandae"
     }
   }
 }

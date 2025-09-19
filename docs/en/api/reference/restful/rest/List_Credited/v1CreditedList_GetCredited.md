@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 871,
-  "Name": "Grady Group",
-  "Tooltip": "excepturi",
-  "Deleted": true,
-  "UdListDefinitionId": 211,
-  "Rank": 177,
+  "Id": 267,
+  "Name": "Yundt LLC",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 626,
+  "Rank": 674,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldType": "System.String",
+      "FieldLength": 639
     }
   }
 }

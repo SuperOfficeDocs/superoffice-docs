@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,41 +75,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 811,
-  "Name": "Kuvalis-Towne",
-  "Tooltip": "unde",
-  "Rank": 192,
+  "ProjTypeId": 226,
+  "Name": "Donnelly Group",
+  "Tooltip": "et",
+  "Rank": 827,
   "DurationUnit": "Century",
-  "ProjectDuration": 703,
+  "ProjectDuration": 408,
   "Deleted": false,
   "HasGuide": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 63,
-      "Name": "Dach LLC",
-      "ToolTip": "Dolorum facilis dolorum architecto excepturi qui nesciunt molestias.",
+      "Id": 834,
+      "Name": "Heaney, Torp and Bins",
+      "ToolTip": "Aut pariatur quis atque at deserunt.",
       "Deleted": true,
-      "Rank": 73,
-      "Type": "necessitatibus",
-      "ColorBlock": 528,
-      "IconHint": "sit",
+      "Rank": 891,
+      "Type": "laborum",
+      "ColorBlock": 136,
+      "IconHint": "atque",
       "Selected": false,
-      "LastChanged": "2024-05-14T03:46:54.9413809+02:00",
+      "LastChanged": "2002-02-18T03:41:53.6213534+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "asperiores",
-      "StyleHint": "corporis",
+      "ExtraInfo": "autem",
+      "StyleHint": "sit",
       "Hidden": false,
-      "FullName": "Faustino Feest",
+      "FullName": "Dr. Anjali Maritza Block",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 860
+          "FieldLength": 634
         }
       }
     }
@@ -118,8 +118,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldType": "System.String",
+      "FieldLength": 244
     }
   }
 }

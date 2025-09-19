@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 986,
-    "Name": "Wiza-Torp",
-    "Tooltip": "aperiam",
-    "Deleted": false,
-    "Rank": 940,
-    "UdListDefinitionId": 812
+    "HeadingId": 492,
+    "Name": "Gulgowski Inc and Sons",
+    "Tooltip": "quae",
+    "Deleted": true,
+    "Rank": 326,
+    "UdListDefinitionId": 247
   },
   {
-    "HeadingId": 986,
-    "Name": "Wiza-Torp",
-    "Tooltip": "aperiam",
-    "Deleted": false,
-    "Rank": 940,
-    "UdListDefinitionId": 812
+    "HeadingId": 492,
+    "Name": "Gulgowski Inc and Sons",
+    "Tooltip": "quae",
+    "Deleted": true,
+    "Rank": 326,
+    "UdListDefinitionId": 247
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 438,
-    "Name": "Fahey-Gusikowski",
-    "Tooltip": "id",
+    "HeadingId": 462,
+    "Name": "Casper, Hintz and Parker",
+    "Tooltip": "porro",
     "Deleted": false,
-    "Rank": 109,
-    "UdListDefinitionId": 886,
+    "Rank": 14,
+    "UdListDefinitionId": 121,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 587
+        "FieldType": "System.Int32",
+        "FieldLength": 761
       }
     }
   }

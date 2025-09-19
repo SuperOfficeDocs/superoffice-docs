@@ -85,8 +85,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 47,
-  "UdListDefinitionName": "Wolff-D'Amore",
+  "Id": 423,
+  "UdListDefinitionName": "Jacobi-Bergnaum",
   "Item": null
 }
 ```
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 959,
-  "Name": "Koepp-Hamill",
-  "Tooltip": "rem",
-  "Deleted": false,
-  "UdListDefinitionId": 503,
-  "Rank": 181,
+  "Id": 597,
+  "Name": "McLaughlin, Bruen and Cassin",
+  "Tooltip": "autem",
+  "Deleted": true,
+  "UdListDefinitionId": 259,
+  "Rank": 341,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 390
+      "FieldLength": 963
     }
   }
 }

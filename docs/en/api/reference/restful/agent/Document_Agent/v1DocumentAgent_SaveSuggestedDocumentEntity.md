@@ -88,13 +88,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 174,
-  "Name": "Cormier-Weber",
-  "Tooltip": "ab",
-  "Rank": 561,
-  "DoctmplId": 29,
-  "Header": "aut",
-  "OurRef": "voluptatem",
+  "SuggestedDocumentId": 683,
+  "Name": "Labadie, Kohler and Little",
+  "Tooltip": "quos",
+  "Rank": 256,
+  "DoctmplId": 447,
+  "Header": "fuga",
+  "OurRef": "atque",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -109,14 +109,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 441,
-  "Name": "Lehner Inc and Sons",
+  "SuggestedDocumentId": 300,
+  "Name": "Block, Kuhlman and Heidenreich",
   "Tooltip": "laboriosam",
-  "Rank": 476,
-  "DoctmplId": 54,
-  "Header": "distinctio",
-  "OurRef": "enim",
-  "Deleted": false,
+  "Rank": 343,
+  "DoctmplId": 938,
+  "Header": "omnis",
+  "OurRef": "quis",
+  "Deleted": true,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
@@ -124,8 +124,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 778
+      "FieldType": "System.Int32",
+      "FieldLength": 523
     }
   }
 }

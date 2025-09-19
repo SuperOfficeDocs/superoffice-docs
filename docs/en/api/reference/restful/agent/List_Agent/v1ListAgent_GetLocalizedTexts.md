@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 416,
-    "ResourceId": 888,
-    "Text": "sapiente",
+    "LanguageId": 714,
+    "ResourceId": 729,
+    "Text": "est",
     "Type": "Column",
-    "LocalizedTextId": 733,
+    "LocalizedTextId": 127,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 210
+        "FieldType": "System.String",
+        "FieldLength": 508
       }
     }
   }

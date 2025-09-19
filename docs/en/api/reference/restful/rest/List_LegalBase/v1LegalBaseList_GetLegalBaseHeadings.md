@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 485,
-    "Name": "Lebsack, Legros and Jacobi",
-    "Tooltip": "enim",
+    "HeadingId": 328,
+    "Name": "Mueller, Boehm and Luettgen",
+    "Tooltip": "sint",
     "Deleted": false,
-    "Rank": 445,
-    "UdListDefinitionId": 180,
+    "Rank": 590,
+    "UdListDefinitionId": 332,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 724
+        "FieldType": "System.String",
+        "FieldLength": 692
       }
     }
   }

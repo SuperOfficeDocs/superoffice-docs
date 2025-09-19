@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 448,
-    "Name": "Kshlerin-Kerluke",
-    "ToolTip": "Accusantium fugiat expedita aut.",
+    "Id": 837,
+    "Name": "Boehm-Tromp",
+    "ToolTip": "Temporibus voluptatem rem ut molestias cumque.",
     "Deleted": true,
-    "Rank": 843,
-    "Type": "sint",
-    "ColorBlock": 757,
-    "IconHint": "magni",
+    "Rank": 476,
+    "Type": "et",
+    "ColorBlock": 194,
+    "IconHint": "eos",
     "Selected": true,
-    "LastChanged": "2014-02-03T03:47:00.7849183+01:00",
+    "LastChanged": "2000-10-12T03:41:59.5742289+02:00",
     "ChildItems": [
       {
-        "Id": 12,
-        "Name": "Schneider, Durgan and Russel",
-        "ToolTip": "Voluptatibus molestiae corrupti deserunt.",
+        "Id": 984,
+        "Name": "Veum, O'Keefe and Fahey",
+        "ToolTip": "Est doloremque suscipit iusto et consequatur mollitia voluptate.",
         "Deleted": false,
-        "Rank": 766,
-        "Type": "et",
-        "ColorBlock": 403,
-        "IconHint": "non",
+        "Rank": 27,
+        "Type": "quis",
+        "ColorBlock": 383,
+        "IconHint": "voluptatum",
         "Selected": false,
-        "LastChanged": "2020-05-23T03:47:00.7849183+02:00",
+        "LastChanged": "2012-08-27T03:41:59.5742289+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "quasi",
+        "ExtraInfo": "illo",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Mrs. Estevan Jenkins II",
+        "FullName": "Kole Feeney",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 189
+            "FieldLength": 81
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "ratione",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "numquam",
     "Hidden": false,
-    "FullName": "Roma Wyman",
+    "FullName": "Larry Fisher",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 689
+        "FieldType": "System.String",
+        "FieldLength": 93
       }
     }
   }

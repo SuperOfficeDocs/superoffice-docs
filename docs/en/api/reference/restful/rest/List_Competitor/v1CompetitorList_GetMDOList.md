@@ -27,8 +27,8 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=a
+GET /api/v1/List/Competitor/MDOItems?flat=True
+GET /api/v1/List/Competitor/MDOItems?query=incidunt
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Competitor/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 990,
-    "Name": "Ullrich, Oberbrunner and Smith",
-    "ToolTip": "Aut reprehenderit veritatis ducimus.",
+    "Id": 29,
+    "Name": "Hintz, Lemke and Kling",
+    "ToolTip": "Ea rerum sit facilis mollitia perferendis ea quod.",
     "Deleted": true,
-    "Rank": 902,
-    "Type": "repellat",
+    "Rank": 936,
+    "Type": "voluptate",
     "ChildItems": [
       {
-        "Id": 399,
-        "Name": "Hills-Reichert",
-        "ToolTip": "Beatae aut ea.",
-        "Deleted": true,
-        "Rank": 449,
-        "Type": "qui",
+        "Id": 927,
+        "Name": "Hudson-Haley",
+        "ToolTip": "Eligendi qui exercitationem sit.",
+        "Deleted": false,
+        "Rank": 880,
+        "Type": "aliquam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "fugiat",
-        "ColorBlock": 90,
-        "ExtraInfo": "dolorem",
-        "StyleHint": "nulla",
-        "FullName": "Brayan Hegmann",
+        "IconHint": "eum",
+        "ColorBlock": 426,
+        "ExtraInfo": "corrupti",
+        "StyleHint": "consequatur",
+        "FullName": "Jamaal Daugherty",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 159
+            "FieldLength": 515
           }
         }
       }
     ],
-    "IconHint": "neque",
-    "ColorBlock": 744,
-    "ExtraInfo": "quidem",
-    "StyleHint": "voluptatum",
-    "FullName": "Ashlynn Hudson MD",
+    "IconHint": "voluptatem",
+    "ColorBlock": 965,
+    "ExtraInfo": "earum",
+    "StyleHint": "voluptatem",
+    "FullName": "Demond Hayes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 501
+        "FieldLength": 38
       }
     }
   }

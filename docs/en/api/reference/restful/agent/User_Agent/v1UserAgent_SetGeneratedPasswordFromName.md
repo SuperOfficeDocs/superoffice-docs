@@ -75,7 +75,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "DuBuque Group"
+  "AssociateName": "Hirthe-Rogahn"
 }
 ```
 
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Reichel, Gorczany and Bergnaum"
+"Schimmel, Harvey and Kihn"
 ```

@@ -92,8 +92,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    65,
-    697
+    521,
+    61
   ]
 }
 ```
@@ -106,45 +106,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 355,
-    "MessageId": "rerum",
-    "Subject": "doloremque",
+    "ServerId": 647,
+    "MessageId": "et",
+    "Subject": "qui",
     "From": null,
     "To": [
       {
-        "ContactId": 451,
-        "ContactName": "Lynch-Schroeder",
-        "PersonId": 437,
-        "PersonName": "Terry Inc and Sons",
-        "AssociateId": 429,
-        "Address": "officia",
-        "EmailId": 412,
+        "ContactId": 907,
+        "ContactName": "Mills Group",
+        "PersonId": 258,
+        "PersonName": "Lowe-Ruecker",
+        "AssociateId": 712,
+        "Address": "ut",
+        "EmailId": 105,
         "DuplicatePersonIds": [
-          470,
-          180
+          244,
+          710
         ],
-        "Name": "Vandervort Inc and Sons",
+        "Name": "Murazik LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 178
+            "FieldLength": 649
           }
         }
       }
     ],
-    "Sent": "2006-05-10T03:46:54.785131+02:00",
+    "Sent": "2017-04-07T03:41:53.5276084+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 644,
+    "Size": 290,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 176
+        "FieldLength": 409
       }
     }
   }

@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 935
+  "ErpFieldId": 182
 }
 ```
 
@@ -100,22 +100,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 950,
-  "DefaultValue": "expedita",
+  "ErpFieldId": 975,
+  "DefaultValue": "pariatur",
   "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "voluptas",
+  "FirstSyncDefaultValue": "eos",
   "PromptUser": true,
   "Mandatory": false,
-  "ErpFieldKey": "dolorem",
+  "ErpFieldKey": "libero",
   "FieldType": "Checkbox",
-  "ListName": "Murphy, Ullrich and McGlynn",
+  "ListName": "Kassulke Inc and Sons",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 455
+      "FieldType": "System.Int32",
+      "FieldLength": 386
     }
   }
 }

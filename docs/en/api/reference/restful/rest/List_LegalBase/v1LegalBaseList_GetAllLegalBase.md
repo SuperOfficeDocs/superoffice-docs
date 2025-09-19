@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 438,
-    "Name": "Purdy-Ullrich",
-    "Tooltip": "neque",
-    "Rank": 355,
-    "Key": "aut",
+    "LegalBaseId": 825,
+    "Name": "Veum-Schinner",
+    "Tooltip": "illo",
+    "Rank": 853,
+    "Key": "dignissimos",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 308
+        "FieldLength": 583
       }
     }
   }

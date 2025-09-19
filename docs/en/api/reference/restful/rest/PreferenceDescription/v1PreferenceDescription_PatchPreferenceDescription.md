@@ -132,12 +132,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "sit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "sit",
     "value": {}
   }
 ]
@@ -150,30 +150,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 259,
-  "Section": "tempora",
-  "Key": "quis",
-  "Name": "Lang-Fahey",
+  "PrefDescId": 148,
+  "Section": "eligendi",
+  "Key": "vel",
+  "Name": "Jenkins LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Focused eco-centric challenge",
-  "IsBuiltin": false,
-  "TableName": "Schmeler-Metz",
-  "UserDefinedListId": 500,
-  "Rank": 973,
-  "SubGroup": "voluptas",
-  "MinLevel": 509,
-  "MaxValue": 624,
-  "MinValue": 788,
-  "RequiredLicense": "earum",
+  "Description": "Horizontal well-modulated data-warehouse",
+  "IsBuiltin": true,
+  "TableName": "Hegmann Group",
+  "UserDefinedListId": 222,
+  "Rank": 44,
+  "SubGroup": "et",
+  "MinLevel": 687,
+  "MaxValue": 559,
+  "MinValue": 265,
+  "RequiredLicense": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldLength": 474
     }
   },
   "_Links": {

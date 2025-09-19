@@ -94,23 +94,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 538,
-  "BlobSize": 249,
-  "Description": "Horizontal incremental access",
-  "ExtraInfo": "perferendis",
-  "IsEncrypted": false,
+  "BlobId": 783,
+  "BlobSize": 953,
+  "Description": "Proactive real-time policy",
+  "ExtraInfo": "harum",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "praesentium",
-  "OriginalSize": 113,
-  "CreatedDate": "2019-07-14T03:47:00.4255562+02:00",
-  "UpdatedDate": "2000-12-26T03:47:00.4255562+01:00",
+  "MimeType": "quo",
+  "OriginalSize": 628,
+  "CreatedDate": "2005-08-24T03:41:59.1992454+02:00",
+  "UpdatedDate": "2013-03-02T03:41:59.1992454+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "consequuntur"
+  "ConceptualType": "sint"
 }
 ```
 
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 128,
-  "BlobSize": 345,
-  "Description": "User-centric eco-centric success",
-  "ExtraInfo": "magni",
-  "IsEncrypted": false,
+  "BlobId": 575,
+  "BlobSize": 669,
+  "Description": "Cloned fault-tolerant interface",
+  "ExtraInfo": "voluptatem",
+  "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "distinctio",
-  "OriginalSize": 241,
-  "CreatedDate": "2006-12-18T03:47:00.4255562+01:00",
-  "UpdatedDate": "2012-05-26T03:47:00.4255562+02:00",
+  "MimeType": "iure",
+  "OriginalSize": 547,
+  "CreatedDate": "2020-01-19T03:41:59.1992454+01:00",
+  "UpdatedDate": "2021-02-18T03:41:59.1992454+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quia",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldLength": 956
     }
   }
 }

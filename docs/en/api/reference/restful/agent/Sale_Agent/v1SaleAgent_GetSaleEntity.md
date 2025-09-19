@@ -27,7 +27,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=753
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=562
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -127,7 +127,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "maxime",
+  "SaleText": "voluptate",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -136,113 +136,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1999-01-28T03:46:55.2694888+01:00",
-  "Amount": 18782.061999999998,
-  "SaleId": 125,
-  "Earning": 14582.502,
-  "EarningPercent": 4641.454,
-  "Heading": "consequatur",
-  "Number": "647732",
-  "Probability": 976,
-  "CreatedDate": "2001-01-02T03:46:55.2694888+01:00",
-  "UpdatedDate": "1999-06-09T03:46:55.2694888+02:00",
+  "Saledate": "1999-05-09T03:41:54.0119629+02:00",
+  "Amount": 18337.034,
+  "SaleId": 851,
+  "Earning": 25072.0,
+  "EarningPercent": 8599.696,
+  "Heading": "architecto",
+  "Number": "1866095",
+  "Probability": 892,
+  "CreatedDate": "2015-04-02T03:41:54.0119629+02:00",
+  "UpdatedDate": "2012-09-29T03:41:54.0119629+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 52,
+  "ActiveLinks": 245,
   "Links": [
     {
-      "EntityName": "Crooks Group",
-      "Id": 677,
-      "Description": "Polarised actuating data-warehouse",
-      "ExtraInfo": "enim",
-      "LinkId": 591,
+      "EntityName": "Jewess Inc and Sons",
+      "Id": 681,
+      "Description": "Vision-oriented multimedia info-mediaries",
+      "ExtraInfo": "saepe",
+      "LinkId": 573,
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 767
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2014-08-04T03:41:54.0119629+02:00",
+  "Postit": "vel",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2004-08-29T03:41:54.0119629+02:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Gaylord, Macejkovic and Kohler",
+      "Comment": "tempore",
+      "StakeholderRoleId": 183,
+      "CountryId": 912,
+      "PersonId": 531,
+      "EmailDescription": "durward.hintz@aufderhar.com",
+      "EmailId": 674,
+      "EmailAddress": "kelley_oconner@greentrantow.co.uk",
+      "PhoneId": 814,
+      "ContactName": "Bosco, McClure and Toy",
+      "ContactId": 598,
+      "SaleId": 861,
+      "Mrmrs": "quia",
+      "Firstname": "Adam",
+      "MiddleName": "Osinski Inc and Sons",
+      "Lastname": "Konopelski",
+      "SaleStakeholderId": 623,
+      "Rank": 825,
+      "Phone": "495.884.6394",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 909
+          "FieldLength": 920
         }
       }
     }
   ],
-  "NextDueDate": "2018-11-29T03:46:55.2694888+01:00",
-  "Postit": "modi",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2011-08-15T03:46:55.2694888+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Schinner-Rau",
-      "Comment": "aut",
-      "StakeholderRoleId": 273,
-      "CountryId": 607,
-      "PersonId": 549,
-      "EmailDescription": "sydnie@konopelski.uk",
-      "EmailId": 733,
-      "EmailAddress": "maria@hauck.uk",
-      "PhoneId": 15,
-      "ContactName": "Fahey, Turner and Veum",
-      "ContactId": 157,
-      "SaleId": 217,
-      "Mrmrs": "qui",
-      "Firstname": "Rosario",
-      "MiddleName": "Gislason, Wehner and Goldner",
-      "Lastname": "McKenzie",
-      "SaleStakeholderId": 251,
-      "Rank": 414,
-      "Phone": "146.573.2757",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 317
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 147,
+  "ActiveErpLinks": 808,
   "UserDefinedFields": {
-    "SuperOffice:1": "Lexi Rempel IV",
+    "SuperOffice:1": "True",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "distinctio",
-    "ExtraFields2": "consectetur"
+    "ExtraFields1": "et",
+    "ExtraFields2": "aspernatur"
   },
   "CustomFields": {
-    "CustomFields1": "accusantium",
-    "CustomFields2": "cumque"
+    "CustomFields1": "quo",
+    "CustomFields2": "recusandae"
   },
-  "PublishEventDate": "2015-01-24T03:46:55.2694888+01:00",
-  "PublishTo": "2017-05-30T03:46:55.2694888+02:00",
-  "PublishFrom": "2001-08-02T03:46:55.2694888+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2008-07-14T03:41:54.0119629+02:00",
+  "PublishTo": "2003-02-25T03:41:54.0119629+01:00",
+  "PublishFrom": "2022-04-22T03:41:54.0119629+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 658,
+      "VisibleId": 270,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "iusto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 403
+          "FieldLength": 950
         }
       }
     },
     {
-      "VisibleId": 658,
+      "VisibleId": 270,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "iusto",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 403
+          "FieldLength": 950
         }
       }
     }
@@ -252,7 +252,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 753
+      "FieldLength": 936
     }
   }
 }

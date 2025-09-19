@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 295,
-    "Name": "Jewess, Hickle and Kunze",
-    "ToolTip": "Beatae magni dicta deserunt accusamus.",
+    "Id": 556,
+    "Name": "Cormier, Wintheiser and Kris",
+    "ToolTip": "Consequuntur saepe maiores.",
     "Deleted": false,
-    "Rank": 71,
-    "Type": "inventore",
-    "ColorBlock": 608,
-    "IconHint": "dolorem",
-    "Selected": false,
-    "LastChanged": "2024-12-24T03:47:00.7536695+01:00",
+    "Rank": 478,
+    "Type": "at",
+    "ColorBlock": 577,
+    "IconHint": "cupiditate",
+    "Selected": true,
+    "LastChanged": "2008-09-14T03:41:59.558612+02:00",
     "ChildItems": [
       {
-        "Id": 169,
-        "Name": "Runte-Romaguera",
-        "ToolTip": "Voluptatem autem.",
-        "Deleted": false,
-        "Rank": 72,
-        "Type": "possimus",
-        "ColorBlock": 728,
-        "IconHint": "debitis",
-        "Selected": true,
-        "LastChanged": "2012-12-06T03:47:00.7536695+01:00",
+        "Id": 796,
+        "Name": "King-Wisoky",
+        "ToolTip": "Blanditiis totam eos.",
+        "Deleted": true,
+        "Rank": 68,
+        "Type": "non",
+        "ColorBlock": 527,
+        "IconHint": "minus",
+        "Selected": false,
+        "LastChanged": "1998-05-20T03:41:59.558612+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "aut",
+        "ExtraInfo": "occaecati",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Mrs. Marianna Flatley DVM",
+        "FullName": "Mr. Alex Ledner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 611
+            "FieldType": "System.String",
+            "FieldLength": 871
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Felicia Kuphal",
+    "ExtraInfo": "expedita",
+    "StyleHint": "id",
+    "Hidden": true,
+    "FullName": "Weston Fahey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 416
+        "FieldType": "System.Int32",
+        "FieldLength": 697
       }
     }
   }

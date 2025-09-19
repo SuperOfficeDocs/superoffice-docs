@@ -72,20 +72,20 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "adipisci",
-  "ProviderName": "Funk Group",
-  "StorageKey": "numquam",
+  "StorageType": "eos",
+  "ProviderName": "Quitzon, Daugherty and Beer",
+  "StorageKey": "maxime",
   "Restrictions": [
     {
-      "Name": "Hackett Inc and Sons",
-      "Operator": "beatae",
+      "Name": "Jerde-Hintz",
+      "Operator": "qui",
       "Values": [
-        "iure",
-        "hic"
+        "deleniti",
+        "perspiciatis"
       ],
       "DisplayValues": [
-        "rerum",
-        "dolor"
+        "nostrum",
+        "nesciunt"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,9 +93,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 857,
+      "InterParenthesis": 53,
       "InterOperator": "And",
-      "UniqueHash": 173
+      "UniqueHash": 884
     }
   ]
 }

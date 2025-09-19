@@ -1330,7 +1330,7 @@ Shadow contact provider for the static sale provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleShadowStaticSelection?$select=contact/email/emailProtocol,contact/contactUdef/SuperOffice:1,appointment/saleId,document/associate/ejDisplayName,saleStakeholder/person/title
+GET /api/v1/archive/SaleShadowStaticSelection?$select=getNoRows,person/supportLanguage,person/restrictionAddress/city,contact/contactDeleted,appointment/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

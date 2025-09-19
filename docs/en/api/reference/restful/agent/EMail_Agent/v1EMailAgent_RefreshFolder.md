@@ -81,8 +81,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "Folders": [
-    "perspiciatis",
-    "quos"
+    "omnis",
+    "omnis"
   ]
 }
 ```
@@ -93,5 +93,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-613
+826
 ```

@@ -93,34 +93,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 620,
-    "ERPName": "Kuhlman, Spencer and Lemke",
-    "DisplayName": "McDermott, Bednar and Heaney",
-    "DisplayDescription": "Advanced cohesive knowledge user",
-    "Rank": 810,
-    "ConnectorName": "Schuppe Group",
-    "ErpConnectionId": 615,
-    "ExtraData": "consequatur",
-    "IsAvailable": false,
+    "QuoteConnectionId": 561,
+    "ERPName": "Weber LLC",
+    "DisplayName": "Powlowski-Padberg",
+    "DisplayDescription": "Multi-channelled zero administration policy",
+    "Rank": 296,
+    "ConnectorName": "Effertz, Schneider and Fisher",
+    "ErpConnectionId": 282,
+    "ExtraData": "aut",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 939,
-        "ERPPriceListKey": "aliquam",
-        "QuoteConnectionId": 581,
-        "Name": "Renner, Johns and Gleason",
-        "Description": "Re-contextualized disintermediate attitude",
-        "Currency": "quas",
-        "CurrencyName": "Murphy, Jenkins and Senger",
-        "ValidFrom": "2006-12-29T03:46:55.2069913+01:00",
-        "ValidTo": "2012-08-08T03:46:55.2069913+02:00",
-        "IsActive": false,
+        "PriceListId": 868,
+        "ERPPriceListKey": "id",
+        "QuoteConnectionId": 287,
+        "Name": "Gutkowski, Stamm and Rau",
+        "Description": "Open-source 3rd generation frame",
+        "Currency": "dignissimos",
+        "CurrencyName": "Medhurst-Parisian",
+        "ValidFrom": "1999-12-09T03:41:53.9650897+01:00",
+        "ValidTo": "1998-11-16T03:41:53.9650897+01:00",
+        "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 277
+            "FieldType": "System.Int32",
+            "FieldLength": 949
           }
         }
       }
@@ -128,19 +128,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      889,
-      361
+      562,
+      192
     ],
     "AssociateAccessIds": [
-      586,
-      875
+      330,
+      978
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 693
+        "FieldType": "System.Int32",
+        "FieldLength": 702
       }
     }
   }

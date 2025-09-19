@@ -89,15 +89,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 100,
-  "ModuleOwner": "voluptatem",
+  "AssociateId": 733,
+  "ModuleOwner": "ut",
   "ModuleLicenseNames": [
-    "Stiedemann-McLaughlin",
-    "Fadel-Blick"
+    "Heller Group",
+    "Graham-Rowe"
   ]
 }
 ```
@@ -111,25 +111,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 26,
-    "Tooltip": "provident",
-    "CanAssign": false,
-    "Free": 102,
-    "InUse": 487,
-    "IsHidden": true,
-    "Assigned": true,
-    "ModuleLicenseId": 955,
-    "Name": "Herzog Inc and Sons",
-    "Description": "Configurable scalable Graphical User Interface",
-    "PrerequisiteModuleName": "O'Kon Inc and Sons",
-    "SortOrder": 387,
-    "ExtraFlags": 281,
+    "Total": 328,
+    "Tooltip": "ex",
+    "CanAssign": true,
+    "Free": 226,
+    "InUse": 298,
+    "IsHidden": false,
+    "Assigned": false,
+    "ModuleLicenseId": 541,
+    "Name": "Doyle Inc and Sons",
+    "Description": "Upgradable secondary data-warehouse",
+    "PrerequisiteModuleName": "Lowe, Dare and Kunde",
+    "SortOrder": 212,
+    "ExtraFlags": 467,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 285
+        "FieldLength": 311
       }
     }
   }

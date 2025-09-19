@@ -94,28 +94,28 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 239,
-  "ListItemId": 624,
+  "UdListDefinitionId": 523,
+  "ListItemId": 814,
   "UserGroups": [
     {
-      "Id": 828,
-      "Name": "Collier Group",
-      "ToolTip": "Consequatur quaerat ut.",
+      "Id": 922,
+      "Name": "Boyer-Kulas",
+      "ToolTip": "Modi error qui provident rerum sed rerum voluptatum.",
       "Deleted": false,
-      "Rank": 115,
-      "Type": "consequatur",
-      "ColorBlock": 758,
-      "IconHint": "distinctio",
+      "Rank": 83,
+      "Type": "ab",
+      "ColorBlock": 709,
+      "IconHint": "nihil",
       "Selected": false,
-      "LastChanged": "2020-07-20T03:46:54.9413809+02:00",
+      "LastChanged": "2024-10-20T03:41:53.6369777+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "laborum",
-      "StyleHint": "natus",
-      "Hidden": false,
-      "FullName": "Mrs. Erick Sadie Kutch"
+      "ExtraInfo": "eaque",
+      "StyleHint": "distinctio",
+      "Hidden": true,
+      "FullName": "Calista Tremblay"
     }
   ]
 }
@@ -129,56 +129,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 391,
-    "Name": "Schneider LLC",
-    "ToolTip": "Veritatis ex.",
+    "Id": 683,
+    "Name": "Upton Group",
+    "ToolTip": "Atque ut dolores assumenda cupiditate delectus distinctio odit.",
     "Deleted": false,
-    "Rank": 324,
-    "Type": "enim",
-    "ColorBlock": 722,
-    "IconHint": "maiores",
-    "Selected": true,
-    "LastChanged": "1999-08-07T03:46:54.9569999+02:00",
+    "Rank": 620,
+    "Type": "laudantium",
+    "ColorBlock": 16,
+    "IconHint": "pariatur",
+    "Selected": false,
+    "LastChanged": "2021-11-24T03:41:53.6369777+01:00",
     "ChildItems": [
       {
-        "Id": 725,
-        "Name": "Tillman, Labadie and Tillman",
-        "ToolTip": "Qui molestiae nemo modi qui facere.",
+        "Id": 247,
+        "Name": "Gottlieb-Bernier",
+        "ToolTip": "Ullam sapiente reiciendis laborum ipsam.",
         "Deleted": false,
-        "Rank": 907,
-        "Type": "qui",
-        "ColorBlock": 145,
-        "IconHint": "commodi",
+        "Rank": 6,
+        "Type": "aut",
+        "ColorBlock": 799,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2008-05-05T03:46:54.9569999+02:00",
+        "LastChanged": "2010-12-09T03:41:53.6369777+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "enim",
-        "Hidden": true,
-        "FullName": "Miss Austen Keegan Jacobs MD",
+        "ExtraInfo": "perferendis",
+        "StyleHint": "sapiente",
+        "Hidden": false,
+        "FullName": "Miss Watson Terry Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 67
+            "FieldType": "System.String",
+            "FieldLength": 714
           }
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "quaerat",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "a",
     "Hidden": false,
-    "FullName": "Dortha Runolfsdottir",
+    "FullName": "Lula Bergstrom Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldLength": 665
       }
     }
   }

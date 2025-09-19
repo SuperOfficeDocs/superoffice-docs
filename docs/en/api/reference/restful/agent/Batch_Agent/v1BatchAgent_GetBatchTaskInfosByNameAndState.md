@@ -96,11 +96,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wunsch, Douglas and Mueller",
+  "Name": "Wintheiser, Kling and Denesik",
   "State": "All"
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 55,
-    "Name": "Koepp Group",
-    "AssociateId": 471,
-    "DetailsTable": 56,
-    "DetailsRecord": 166,
+    "Id": 215,
+    "Name": "Smith-Bauch",
+    "AssociateId": 152,
+    "DetailsTable": 277,
+    "DetailsRecord": 140,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "quas",
-      "ParameterObject2": "reiciendis"
+      "ParameterObject1": "molestiae",
+      "ParameterObject2": "porro"
     },
-    "LastStarted": "2005-08-24T03:46:54.3007673+02:00",
-    "Created": "1998-05-17T03:46:54.3007673+02:00",
-    "StartCount": 559,
-    "DatabaseSerialNumber": "1300249",
-    "Context": "ut",
-    "Result": "quas",
+    "LastStarted": "2007-03-24T03:41:53.0745025+01:00",
+    "Created": "2022-04-21T03:41:53.0745025+02:00",
+    "StartCount": 755,
+    "DatabaseSerialNumber": "1415565",
+    "Context": "ipsum",
+    "Result": "quis",
     "State": "All",
-    "Description": "Re-contextualized systemic initiative",
-    "Response": "ut",
-    "Request": "maiores",
-    "ProgressDescription": "Grass-roots multimedia knowledge user",
-    "ProgressPercent": 319,
-    "FileName": "Lesch-Heathcote",
+    "Description": "Vision-oriented impactful implementation",
+    "Response": "rerum",
+    "Request": "reprehenderit",
+    "ProgressDescription": "Digitized systematic utilisation",
+    "ProgressPercent": 789,
+    "FileName": "Towne, Collier and Keebler",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 393
+        "FieldType": "System.Int32",
+        "FieldLength": 836
       }
     }
   }

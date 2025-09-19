@@ -94,30 +94,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 890,
-    "Section": "ab",
-    "Key": "aut",
-    "Name": "Quitzon-Schimmel",
+    "PrefDescId": 702,
+    "Section": "molestiae",
+    "Key": "velit",
+    "Name": "Leannon, Thiel and Metz",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Focused content-based collaboration",
-    "IsBuiltin": false,
-    "TableName": "Turcotte LLC",
-    "UserDefinedListId": 955,
-    "Rank": 441,
-    "SubGroup": "expedita",
-    "MinLevel": 661,
-    "MaxValue": 391,
-    "MinValue": 336,
-    "RequiredLicense": "doloremque",
+    "Description": "Balanced cohesive support",
+    "IsBuiltin": true,
+    "TableName": "Pagac Group",
+    "UserDefinedListId": 871,
+    "Rank": 623,
+    "SubGroup": "magni",
+    "MinLevel": 197,
+    "MaxValue": 168,
+    "MinValue": 474,
+    "RequiredLicense": "dolorum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 285
+        "FieldLength": 37
       }
     }
   }

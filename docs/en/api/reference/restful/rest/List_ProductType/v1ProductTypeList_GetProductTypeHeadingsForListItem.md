@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 870,
-    "Name": "Feest Inc and Sons",
-    "ToolTip": "Aperiam dolore sint.",
+    "Id": 761,
+    "Name": "Bauch, Bayer and Kunde",
+    "ToolTip": "Reiciendis totam id asperiores accusamus culpa.",
     "Deleted": false,
-    "Rank": 926,
-    "Type": "quia",
-    "ColorBlock": 884,
-    "IconHint": "deleniti",
+    "Rank": 812,
+    "Type": "illo",
+    "ColorBlock": 245,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2020-06-19T03:47:00.7380451+02:00",
+    "LastChanged": "2008-05-29T03:41:59.5432177+02:00",
     "ChildItems": [
       {
-        "Id": 895,
-        "Name": "Ruecker-Blanda",
-        "ToolTip": "Est ut.",
+        "Id": 213,
+        "Name": "Dickinson-Wolf",
+        "ToolTip": "Necessitatibus debitis aut eius.",
         "Deleted": false,
-        "Rank": 696,
-        "Type": "cum",
-        "ColorBlock": 43,
-        "IconHint": "cumque",
-        "Selected": false,
-        "LastChanged": "2013-06-10T03:47:00.7380451+02:00",
+        "Rank": 197,
+        "Type": "esse",
+        "ColorBlock": 80,
+        "IconHint": "eius",
+        "Selected": true,
+        "LastChanged": "2003-07-19T03:41:59.5432177+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "sit",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "doloremque",
         "Hidden": false,
-        "FullName": "Shania Bosco",
+        "FullName": "Bennie Nitzsche III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 809
+            "FieldType": "System.String",
+            "FieldLength": 299
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "assumenda",
-    "Hidden": true,
-    "FullName": "Genoveva Nasir Okuneva II",
+    "ExtraInfo": "tempora",
+    "StyleHint": "placeat",
+    "Hidden": false,
+    "FullName": "Rosemarie Kessler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 450
+        "FieldLength": 597
       }
     }
   }

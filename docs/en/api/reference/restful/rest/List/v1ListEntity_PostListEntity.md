@@ -95,19 +95,19 @@ OK
 POST /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 226,
-  "Name": "Rau, Roob and Welch",
-  "Tooltip": "maiores",
+  "Id": 478,
+  "Name": "McDermott, Pollich and Marquardt",
+  "Tooltip": "eius",
   "Deleted": true,
-  "Rank": 802,
+  "Rank": 444,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
+  "ListType": "velit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -119,22 +119,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 199,
-  "Name": "Kulas Group",
-  "Tooltip": "quibusdam",
-  "Deleted": true,
-  "Rank": 983,
+  "Id": 790,
+  "Name": "Hauck, Schiller and Bradtke",
+  "Tooltip": "eos",
+  "Deleted": false,
+  "Rank": 733,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "est",
+  "UseGroupsAndHeadings": false,
+  "ListType": "dicta",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldLength": 507
     }
   },
   "_Links": {

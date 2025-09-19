@@ -74,8 +74,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Ratke Group",
-  "BinaryObjectId": 484
+  "TableName": "Greenholt-Sporer",
+  "BinaryObjectId": 562
 }
 ```
 
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"est"
+"eaque"
 ```

@@ -61,6 +61,8 @@ The ProjectMember that is saved
 | EmailAddressName | String | The e-mail address description |
 | Comment | String | Comment text on the project membership |
 | FullName | String | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | String | The date and time when the project member was registered  in UTC. |
+| Updated | String | The date and time when the project member was last updated  in UTC. |
 
 ## Response:
 
@@ -95,6 +97,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -104,31 +108,33 @@ OK
 POST /api/v1/Agents/Project/SaveProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 857,
-  "ContactId": 528,
-  "ProjectId": 8,
-  "ContactName": "Goodwin, Zboncak and White",
+  "ProjectmemberId": 783,
+  "ContactId": 186,
+  "ProjectId": 884,
+  "ContactName": "Ward, Renner and Bartell",
   "ContactDepartment": "",
-  "ProjectName": "Kuhn LLC",
-  "EmailId": 507,
-  "EmailAddress": "savion@tillmandouglas.uk",
-  "CountryId": 783,
-  "Firstname": "Rossie",
-  "MiddleName": "Stoltenberg Inc and Sons",
-  "Lastname": "Bednar",
-  "PersonId": 793,
-  "Mrmrs": "maxime",
-  "ProjectMemberTypeName": "Murray LLC",
-  "Phone": "(596)550-6416",
-  "PhoneId": 39,
-  "ProjectMemberTypeId": 454,
-  "EmailAddressName": "bennett@schimmel.us",
-  "Comment": "assumenda",
-  "FullName": "Ms. Mariela Theron Sawayn"
+  "ProjectName": "Beahan-Lubowitz",
+  "EmailId": 950,
+  "EmailAddress": "jedediah.block@gulgowskilangworth.biz",
+  "CountryId": 556,
+  "Firstname": "Hope",
+  "MiddleName": "Maggio-Armstrong",
+  "Lastname": "Larson",
+  "PersonId": 746,
+  "Mrmrs": "est",
+  "ProjectMemberTypeName": "Ledner, Roob and Towne",
+  "Phone": "(684)198-2173 x25108",
+  "PhoneId": 848,
+  "ProjectMemberTypeId": 759,
+  "EmailAddressName": "bertha.denesik@blick.us",
+  "Comment": "rem",
+  "FullName": "Vivian Morissette",
+  "Registered": "2014-10-23T03:41:53.9182167+02:00",
+  "Updated": "2006-01-10T03:41:53.9182167+01:00"
 }
 ```
 
@@ -139,33 +145,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 992,
-  "ContactId": 924,
-  "ProjectId": 713,
-  "ContactName": "Jacobs Group",
-  "ContactDepartment": "",
-  "ProjectName": "Ondricka-Rath",
-  "EmailId": 515,
-  "EmailAddress": "kaden@baumbach.ca",
-  "CountryId": 825,
-  "Firstname": "Esteban",
-  "MiddleName": "Beier LLC",
-  "Lastname": "Thompson",
-  "PersonId": 218,
-  "Mrmrs": "deserunt",
-  "ProjectMemberTypeName": "Harris-Sawayn",
-  "Phone": "375-783-8390",
-  "PhoneId": 163,
-  "ProjectMemberTypeId": 584,
-  "EmailAddressName": "delfina@wolforn.com",
-  "Comment": "velit",
-  "FullName": "Arielle Schamberger",
+  "ProjectmemberId": 677,
+  "ContactId": 617,
+  "ProjectId": 627,
+  "ContactName": "Reichert, West and Dibbert",
+  "ContactDepartment": "strategize B2C deliverables",
+  "ProjectName": "Howell-Mann",
+  "EmailId": 879,
+  "EmailAddress": "watson@bradtkecruickshank.name",
+  "CountryId": 861,
+  "Firstname": "Mariam",
+  "MiddleName": "Schimmel, Bogan and D'Amore",
+  "Lastname": "Goldner",
+  "PersonId": 983,
+  "Mrmrs": "nam",
+  "ProjectMemberTypeName": "Heller Group",
+  "Phone": "1-854-242-0206 x139",
+  "PhoneId": 356,
+  "ProjectMemberTypeId": 103,
+  "EmailAddressName": "roma@sawayn.biz",
+  "Comment": "sed",
+  "FullName": "Ms. Rosamond Kuhn",
+  "Registered": "2018-09-05T03:41:53.9182167+02:00",
+  "Updated": "2010-09-11T03:41:53.9182167+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 163
+      "FieldType": "System.Int32",
+      "FieldLength": 332
     }
   }
 }

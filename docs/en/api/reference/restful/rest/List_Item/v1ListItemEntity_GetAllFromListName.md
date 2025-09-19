@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 601,
-    "Name": "Turcotte Group",
-    "Tooltip": "voluptatibus",
+    "Id": 788,
+    "Name": "Bode-Schowalter",
+    "Tooltip": "quasi",
     "Deleted": false,
-    "UdListDefinitionId": 139,
-    "Rank": 282,
+    "UdListDefinitionId": 940,
+    "Rank": 304,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 28
+        "FieldType": "System.String",
+        "FieldLength": 855
       }
     }
   }

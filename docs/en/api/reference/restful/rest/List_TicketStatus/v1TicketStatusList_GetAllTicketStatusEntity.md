@@ -64,7 +64,7 @@ OK
 GET /api/v1/List/TicketStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,8 +75,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 947,
-    "Name": "Jast-Schamberger",
+    "TicketStatusId": 394,
+    "Name": "Erdman Inc and Sons",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": true,
@@ -86,8 +86,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 469
+        "FieldType": "System.Int32",
+        "FieldLength": 616
       }
     }
   }

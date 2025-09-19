@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 90,
-    "Name": "Satterfield, Wuckert and Gibson",
-    "ToolTip": "Commodi repellendus saepe laboriosam at.",
+    "Id": 317,
+    "Name": "Schmitt-Huel",
+    "ToolTip": "Error voluptas illo.",
     "Deleted": true,
-    "Rank": 429,
-    "Type": "culpa",
-    "ColorBlock": 138,
-    "IconHint": "minima",
+    "Rank": 949,
+    "Type": "quibusdam",
+    "ColorBlock": 963,
+    "IconHint": "saepe",
     "Selected": false,
-    "LastChanged": "2007-02-09T03:47:00.6442984+01:00",
+    "LastChanged": "2013-08-23T03:41:59.4023618+02:00",
     "ChildItems": [
       {
-        "Id": 250,
-        "Name": "Quigley, O'Hara and Kassulke",
-        "ToolTip": "Blanditiis iste numquam non exercitationem saepe voluptas iure.",
-        "Deleted": true,
-        "Rank": 446,
-        "Type": "sunt",
-        "ColorBlock": 492,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "1999-08-11T03:47:00.6442984+02:00",
+        "Id": 668,
+        "Name": "Hackett Group",
+        "ToolTip": "Laboriosam qui saepe culpa sint.",
+        "Deleted": false,
+        "Rank": 639,
+        "Type": "et",
+        "ColorBlock": 742,
+        "IconHint": "reiciendis",
+        "Selected": true,
+        "LastChanged": "2005-01-21T03:41:59.4023618+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "commodi",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Beulah Thompson",
+        "FullName": "Ms. Sandrine Bria Dicki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 59
+            "FieldLength": 510
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "consectetur",
+    "ExtraInfo": "nihil",
+    "StyleHint": "quia",
     "Hidden": true,
-    "FullName": "Barton Walker",
+    "FullName": "Ms. Helga Smith Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 268
+        "FieldType": "System.Int32",
+        "FieldLength": 575
       }
     }
   }

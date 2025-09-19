@@ -30,6 +30,8 @@ content_type: reference
 
 * [GET Role/{roleType}/FunctionRight](v1RoleEntity_GetAllFunctionalRights.md)
 
+* [GET Role/{id}/DataRight/{relationToOwner}](v1RoleEntity_GetAllDataRights.md)
+
 * [GET Role/{id}/FunctionRight](v1RoleEntity_GetFunctionalRights.md)
 
 * [PUT Role/{id}/FunctionRight](v1RoleEntity_SetFunctionalRights.md)

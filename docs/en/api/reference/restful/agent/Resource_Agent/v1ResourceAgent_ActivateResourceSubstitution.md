@@ -71,8 +71,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "McClure, Gerlach and Farrell",
-  "Culture": "maxime",
+  "ResourceName": "Fritsch Inc and Sons",
+  "Culture": "qui",
   "IsActive": false
 }
 ```

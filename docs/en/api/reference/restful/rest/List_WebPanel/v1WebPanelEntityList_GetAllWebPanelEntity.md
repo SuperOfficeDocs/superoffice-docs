@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,34 +90,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 431,
-    "Name": "Bogan Inc and Sons",
-    "Tooltip": "odit",
-    "Deleted": false,
-    "Rank": 696,
+    "WebPanelId": 856,
+    "Name": "Fay, Hackett and Sanford",
+    "Tooltip": "laboriosam",
+    "Deleted": true,
+    "Rank": 920,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
-    "OnSatellite": true,
-    "OnTravel": false,
+    "OnCentral": true,
+    "OnSatellite": false,
+    "OnTravel": true,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": true,
-    "ShowInToolBar": true,
-    "ShowInAddressBar": true,
-    "ShowInStatusBar": true,
-    "WindowName": "Dickens Inc and Sons",
+    "ShowInToolBar": false,
+    "ShowInAddressBar": false,
+    "ShowInStatusBar": false,
+    "WindowName": "White, Conn and Renner",
     "Url": "http://www.example.com/",
-    "ProgId": "ullam",
-    "Icon": 551,
-    "AlwaysReloadOnShow": true,
-    "NeverReloadOnCurrentChange": false,
+    "ProgId": "sit",
+    "Icon": 16,
+    "AlwaysReloadOnShow": false,
+    "NeverReloadOnCurrentChange": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 2
+        "FieldType": "System.Int32",
+        "FieldLength": 747
       }
     }
   }

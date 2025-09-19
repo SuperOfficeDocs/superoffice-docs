@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "velit",
-  "ProviderName": "Torphy-Wuckert",
-  "StorageKey": "vero",
-  "Context": "eius"
+  "StorageType": "quisquam",
+  "ProviderName": "McKenzie Inc and Sons",
+  "StorageKey": "omnis",
+  "Context": "enim"
 }
 ```
 
@@ -97,20 +97,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Breitenberg Inc and Sons",
-    "Description": "Inverse uniform matrix",
-    "Rank": 575,
+    "Name": "Reinger-Yost",
+    "Description": "Distributed didactic ability",
+    "Rank": 910,
     "Restrictions": [
       {
-        "Name": "Littel, Dickens and Hermiston",
-        "Operator": "vitae",
+        "Name": "Cartwright-Parisian",
+        "Operator": "earum",
         "Values": [
-          "qui",
-          "magni"
+          "reprehenderit",
+          "ut"
         ],
         "DisplayValues": [
-          "porro",
-          "vero"
+          "aut",
+          "deserunt"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -118,27 +118,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 734,
+        "InterParenthesis": 69,
         "InterOperator": "And",
-        "UniqueHash": 150
+        "UniqueHash": 990
       }
     ]
   },
   {
-    "Name": "Breitenberg Inc and Sons",
-    "Description": "Inverse uniform matrix",
-    "Rank": 575,
+    "Name": "Reinger-Yost",
+    "Description": "Distributed didactic ability",
+    "Rank": 910,
     "Restrictions": [
       {
-        "Name": "Littel, Dickens and Hermiston",
-        "Operator": "vitae",
+        "Name": "Cartwright-Parisian",
+        "Operator": "earum",
         "Values": [
-          "qui",
-          "magni"
+          "reprehenderit",
+          "ut"
         ],
         "DisplayValues": [
-          "porro",
-          "vero"
+          "aut",
+          "deserunt"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -146,9 +146,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 734,
+        "InterParenthesis": 69,
         "InterOperator": "And",
-        "UniqueHash": 150
+        "UniqueHash": 990
       }
     ]
   }

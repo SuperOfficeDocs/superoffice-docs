@@ -79,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 81,
-    "Value": "qui",
-    "Tooltip": "ea",
+    "Id": 164,
+    "Value": "error",
+    "Tooltip": "quae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 545
+        "FieldLength": 175
       }
     }
   },
   {
-    "Id": 81,
-    "Value": "qui",
-    "Tooltip": "ea",
+    "Id": 164,
+    "Value": "error",
+    "Tooltip": "quae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 545
+        "FieldLength": 175
       }
     }
   }

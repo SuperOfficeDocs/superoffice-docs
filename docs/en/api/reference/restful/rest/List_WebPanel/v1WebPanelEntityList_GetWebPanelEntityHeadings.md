@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 112,
-    "Name": "Botsford, Luettgen and Aufderhar",
-    "Tooltip": "voluptatem",
-    "Deleted": true,
-    "Rank": 864,
-    "UdListDefinitionId": 706,
+    "HeadingId": 688,
+    "Name": "Runolfsson-Kuhic",
+    "Tooltip": "sed",
+    "Deleted": false,
+    "Rank": 748,
+    "UdListDefinitionId": 906,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 126
+        "FieldType": "System.Int32",
+        "FieldLength": 484
       }
     }
   }

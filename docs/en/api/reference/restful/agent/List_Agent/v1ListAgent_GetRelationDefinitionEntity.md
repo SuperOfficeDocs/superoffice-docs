@@ -27,7 +27,7 @@ Gets a RelationDefinitionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetRelationDefinitionEntity?relationDefinitionEntityId=148
+POST /api/v1/Agents/List/GetRelationDefinitionEntity?relationDefinitionEntityId=823
 POST /api/v1/Agents/List/GetRelationDefinitionEntity?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,20 +85,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 932,
-  "Name": "Stamm LLC",
-  "Tooltip": "blanditiis",
-  "PassiveText": "alias",
+  "ReldefId": 627,
+  "Name": "Collins-Cartwright",
+  "Tooltip": "doloribus",
+  "PassiveText": "qui",
   "Deleted": false,
-  "Rank": 959,
+  "Rank": 81,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 430
+      "FieldType": "System.String",
+      "FieldLength": 563
     }
   }
 }

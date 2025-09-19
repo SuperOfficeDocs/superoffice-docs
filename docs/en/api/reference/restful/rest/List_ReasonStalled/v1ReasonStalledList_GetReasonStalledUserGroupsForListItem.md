@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 152,
-    "Name": "Mohr-Kris",
-    "ToolTip": "Minima quia aut reprehenderit.",
-    "Deleted": false,
-    "Rank": 23,
-    "Type": "cupiditate",
-    "ColorBlock": 184,
-    "IconHint": "numquam",
+    "Id": 370,
+    "Name": "Kulas, Gibson and DuBuque",
+    "ToolTip": "Consequatur in.",
+    "Deleted": true,
+    "Rank": 39,
+    "Type": "dicta",
+    "ColorBlock": 678,
+    "IconHint": "ad",
     "Selected": true,
-    "LastChanged": "2007-09-16T03:47:00.8005429+02:00",
+    "LastChanged": "2000-11-23T03:41:59.5898538+01:00",
     "ChildItems": [
       {
-        "Id": 540,
-        "Name": "Grady, Zieme and Barrows",
-        "ToolTip": "Eius rerum odio atque.",
-        "Deleted": false,
-        "Rank": 885,
-        "Type": "et",
-        "ColorBlock": 964,
-        "IconHint": "voluptas",
+        "Id": 342,
+        "Name": "Gusikowski Group",
+        "ToolTip": "Quam non.",
+        "Deleted": true,
+        "Rank": 138,
+        "Type": "itaque",
+        "ColorBlock": 895,
+        "IconHint": "vel",
         "Selected": false,
-        "LastChanged": "2001-07-02T03:47:00.8005429+02:00",
+        "LastChanged": "2014-06-06T03:41:59.5898538+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "odio",
+        "ExtraInfo": "officiis",
+        "StyleHint": "deleniti",
         "Hidden": false,
-        "FullName": "Mrs. Carolyne Herzog I",
+        "FullName": "Justus Nienow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 584
+            "FieldType": "System.String",
+            "FieldLength": 319
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "ullam",
+    "ExtraInfo": "nobis",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Haskell Ullrich",
+    "FullName": "Kay O'Connell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 620
+        "FieldLength": 909
       }
     }
   }

@@ -66,7 +66,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,17 +77,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "consequatur",
-    "DocumentId": 209,
-    "VersionId": "voluptatem",
-    "CheckedInDate": "2015-03-14T03:47:00.005716+01:00",
-    "CheckedInByName": "Larson Group",
-    "CheckedInByAssociateId": 291,
-    "Description": "Robust neutral artificial intelligence",
-    "DisplayText": "aut",
+    "ExternalReference": "omnis",
+    "DocumentId": 664,
+    "VersionId": "ducimus",
+    "CheckedInDate": "2003-05-19T03:41:58.7461566+02:00",
+    "CheckedInByName": "Boyer, Fahey and Beer",
+    "CheckedInByAssociateId": 402,
+    "Description": "Balanced composite contingency",
+    "DisplayText": "nam",
     "ExtraFields": [
-      "sit",
-      "esse"
+      "deleniti",
+      "mollitia"
     ]
   }
 ]

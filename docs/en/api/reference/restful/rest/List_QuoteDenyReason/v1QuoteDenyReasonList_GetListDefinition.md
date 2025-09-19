@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/QuoteDenyReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 38,
-  "Name": "Hansen, Schoen and Altenwerth",
-  "Tooltip": "voluptatem",
+  "Id": 512,
+  "Name": "Macejkovic-Rippin",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "Rank": 56,
-  "IsCustomList": false,
+  "Rank": 873,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "iure",
+  "ListType": "deserunt",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldLength": 847
     }
   },
   "_Links": {

@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 70,
-  "Name": "Schuster, Gulgowski and Flatley",
-  "Tooltip": "sint",
+  "Id": 360,
+  "Name": "Zulauf, Funk and Jacobs",
+  "Tooltip": "rem",
   "Deleted": false,
-  "Rank": 322,
+  "Rank": 331,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "a",
+  "UseGroupsAndHeadings": true,
+  "ListType": "unde",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 569
+      "FieldType": "System.Int32",
+      "FieldLength": 215
     }
   },
   "_Links": {

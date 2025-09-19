@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 549,
-    "Name": "Cassin-Gutkowski",
-    "ToolTip": "Quidem temporibus in quaerat et cupiditate unde.",
-    "Deleted": false,
-    "Rank": 910,
-    "Type": "numquam",
-    "ColorBlock": 824,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2007-10-16T03:47:00.8005429+02:00",
+    "Id": 819,
+    "Name": "Koch Group",
+    "ToolTip": "Provident quia.",
+    "Deleted": true,
+    "Rank": 796,
+    "Type": "recusandae",
+    "ColorBlock": 741,
+    "IconHint": "in",
+    "Selected": true,
+    "LastChanged": "2024-12-02T03:41:59.5898538+01:00",
     "ChildItems": [
       {
-        "Id": 969,
-        "Name": "Schuster-Hoeger",
-        "ToolTip": "Tenetur voluptate.",
+        "Id": 549,
+        "Name": "Wehner, Gleichner and Hudson",
+        "ToolTip": "Officia tenetur aut est.",
         "Deleted": false,
-        "Rank": 429,
-        "Type": "est",
-        "ColorBlock": 897,
-        "IconHint": "facere",
+        "Rank": 251,
+        "Type": "molestiae",
+        "ColorBlock": 720,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2008-06-18T03:47:00.8005429+02:00",
+        "LastChanged": "2015-11-06T03:41:59.5898538+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "repellendus",
-        "Hidden": false,
-        "FullName": "Jeromy Schmidt"
+        "ExtraInfo": "hic",
+        "StyleHint": "repellat",
+        "Hidden": true,
+        "FullName": "Edwina Monahan"
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "nihil",
-    "Hidden": false,
-    "FullName": "Vickie Collier"
+    "ExtraInfo": "quas",
+    "StyleHint": "molestiae",
+    "Hidden": true,
+    "FullName": "Chyna Metz"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 308,
-    "Name": "Bahringer, Witting and Lindgren",
-    "ToolTip": "Velit rerum maiores iusto reiciendis eum.",
+    "Id": 476,
+    "Name": "Quitzon-Hermann",
+    "ToolTip": "Sequi et rerum est enim et.",
     "Deleted": false,
-    "Rank": 346,
-    "Type": "et",
-    "ColorBlock": 610,
-    "IconHint": "vero",
-    "Selected": true,
-    "LastChanged": "2001-06-24T03:47:00.8005429+02:00",
+    "Rank": 724,
+    "Type": "quibusdam",
+    "ColorBlock": 532,
+    "IconHint": "ad",
+    "Selected": false,
+    "LastChanged": "2014-03-21T03:41:59.5898538+01:00",
     "ChildItems": [
       {
-        "Id": 9,
-        "Name": "Nitzsche Inc and Sons",
-        "ToolTip": "Excepturi provident nisi et veniam iure.",
+        "Id": 861,
+        "Name": "Waters-Reynolds",
+        "ToolTip": "Doloremque aut.",
         "Deleted": false,
-        "Rank": 994,
-        "Type": "est",
-        "ColorBlock": 760,
-        "IconHint": "dolores",
+        "Rank": 207,
+        "Type": "sint",
+        "ColorBlock": 695,
+        "IconHint": "aspernatur",
         "Selected": false,
-        "LastChanged": "2025-06-26T03:47:00.8005429+02:00",
+        "LastChanged": "2007-10-04T03:41:59.5898538+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "debitis",
+        "ExtraInfo": "quo",
+        "StyleHint": "voluptate",
         "Hidden": true,
-        "FullName": "Ocie Huels",
+        "FullName": "Mr. Emmanuelle Labadie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 226
+            "FieldType": "System.String",
+            "FieldLength": 623
           }
         }
       }
     ],
-    "ExtraInfo": "earum",
-    "StyleHint": "eveniet",
-    "Hidden": false,
-    "FullName": "Miss Derek Baumbach DVM",
+    "ExtraInfo": "vero",
+    "StyleHint": "laboriosam",
+    "Hidden": true,
+    "FullName": "Mr. Elizabeth Welch DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 362
+        "FieldLength": 465
       }
     }
   }

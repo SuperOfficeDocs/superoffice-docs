@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 685,
-    "Name": "Kerluke LLC",
-    "Tooltip": "dolor",
+    "HeadingId": 34,
+    "Name": "Boyle-Hodkiewicz",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 771,
-    "UdListDefinitionId": 50,
+    "Rank": 201,
+    "UdListDefinitionId": 838,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 817
+        "FieldType": "System.Int32",
+        "FieldLength": 710
       }
     }
   }

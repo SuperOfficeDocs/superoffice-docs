@@ -109,8 +109,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 656,
-  "IncludeAttachments": true
+  "Id": 42,
+  "IncludeAttachments": false
 }
 ```
 
@@ -123,156 +123,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 753,
-      "ContactName": "Bednar Inc and Sons",
-      "PersonId": 202,
-      "PersonName": "Torphy, Lemke and Mann",
-      "AssociateId": 774,
-      "Address": "sunt",
-      "EmailId": 542,
+      "ContactId": 22,
+      "ContactName": "Haag-Jacobi",
+      "PersonId": 636,
+      "PersonName": "Fay-Gerhold",
+      "AssociateId": 115,
+      "Address": "et",
+      "EmailId": 867,
       "DuplicatePersonIds": [
-        180,
-        635
+        233,
+        534
       ],
-      "Name": "Hermiston Group",
+      "Name": "Cartwright Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 131
+          "FieldLength": 85
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 59,
-      "ContactName": "Balistreri, Kutch and Harvey",
-      "PersonId": 561,
-      "PersonName": "Halvorson-Welch",
-      "AssociateId": 229,
-      "Address": "vero",
-      "EmailId": 650,
+      "ContactId": 324,
+      "ContactName": "Willms, Gusikowski and Turner",
+      "PersonId": 274,
+      "PersonName": "Vandervort-Douglas",
+      "AssociateId": 508,
+      "Address": "dolorem",
+      "EmailId": 275,
       "DuplicatePersonIds": [
-        915,
-        19
+        533,
+        296
       ],
-      "Name": "Brekke, Weimann and Morissette",
+      "Name": "Stark LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 63
+          "FieldType": "System.Int32",
+          "FieldLength": 548
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 411,
-      "ContactName": "Kshlerin, Feeney and Daniel",
-      "PersonId": 686,
-      "PersonName": "Johns, Gorczany and Parisian",
-      "AssociateId": 52,
-      "Address": "temporibus",
-      "EmailId": 550,
+      "ContactId": 533,
+      "ContactName": "Hudson, Bins and Steuber",
+      "PersonId": 878,
+      "PersonName": "Nicolas Inc and Sons",
+      "AssociateId": 673,
+      "Address": "omnis",
+      "EmailId": 39,
       "DuplicatePersonIds": [
-        527,
-        803
+        421,
+        418
       ],
-      "Name": "Halvorson Group",
+      "Name": "Champlin Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 288
+          "FieldType": "System.Int32",
+          "FieldLength": 629
         }
       }
     }
   ],
-  "Subject": "consequuntur",
-  "HTMLBody": "optio",
+  "Subject": "fugiat",
+  "HTMLBody": "culpa",
   "From": null,
-  "Sent": "2001-08-07T03:46:54.8007556+02:00",
-  "Size": 569,
+  "Sent": "2005-12-23T03:41:53.5432319+01:00",
+  "Size": 581,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "asperiores",
-  "PlainBody": "veritatis",
+  "MessageID": "expedita",
+  "PlainBody": "dolorem",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 32,
+  "ServerId": 262,
   "Attachments": [
     {
-      "Description": "Secured incremental middleware",
-      "Filename": "eum",
-      "Size": 250,
-      "Type": "qui",
-      "Encoding": "fuga",
-      "Id": "impedit",
-      "Disposition": "consectetur",
-      "IsSafeFileExtension": false,
+      "Description": "Visionary multi-state knowledge base",
+      "Filename": "molestias",
+      "Size": 123,
+      "Type": "vel",
+      "Encoding": "voluptates",
+      "Id": "consequatur",
+      "Disposition": "laborum",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 363
+          "FieldLength": 835
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Spinka-Zieme",
+      "Name": "Grant Inc and Sons",
       "Values": [
-        "quia",
-        "nihil"
+        "magnam",
+        "vero"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 154
+          "FieldLength": 423
         }
       }
     },
     {
-      "Name": "Spinka-Zieme",
+      "Name": "Grant Inc and Sons",
       "Values": [
-        "quia",
-        "nihil"
+        "magnam",
+        "vero"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 154
+          "FieldLength": 423
         }
       }
     }
   ],
-  "FolderName": "Walsh, Orn and Berge",
-  "EmailItemId": 64,
-  "AccountId": 265,
-  "ReceivedAt": "2019-04-24T03:46:54.8007556+02:00",
+  "FolderName": "Wehner-Aufderhar",
+  "EmailItemId": 135,
+  "AccountId": 325,
+  "ReceivedAt": "2016-09-20T03:41:53.5432319+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-05-10T03:46:54.8007556+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2014-10-28T03:41:53.5432319+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 326
+      "FieldType": "System.Int32",
+      "FieldLength": 852
     }
   }
 }

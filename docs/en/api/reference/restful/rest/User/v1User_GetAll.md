@@ -71,14 +71,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/User?$select=name,department,category/id
 GET /api/v1/User?$filter=name begins 'S'
 GET /api/v1/User?$orderBy=name asc
-GET /api/v1/User?$entities=nobis
-GET /api/v1/User?$top=478
-GET /api/v1/User?$skip=425
+GET /api/v1/User?$entities=a
+GET /api/v1/User?$top=85
+GET /api/v1/User?$skip=642
 GET /api/v1/User?$mode=Full
 GET /api/v1/User?$options=GrandTotal=true
-GET /api/v1/User?$context=rerum
+GET /api/v1/User?$context=ea
 GET /api/v1/User?$format=JSON
-GET /api/v1/User?$jsonSafe=False
+GET /api/v1/User?$jsonSafe=True
 GET /api/v1/User?$output=Display
 ```
 
@@ -130,21 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "perferendis",
+  "odata.nextLink": "quis",
   "value": [
     {
-      "PrimaryKey": 6190,
+      "PrimaryKey": 7348,
       "EntityName": "sale",
-      "saleId": 6190,
-      "contactId": 8832,
-      "name": "Lockman-Schuppe"
+      "saleId": 7348,
+      "contactId": 5696,
+      "name": "Lowe LLC"
     },
     {
-      "PrimaryKey": 3573,
+      "PrimaryKey": 2671,
       "EntityName": "sale",
-      "saleId": 3573,
-      "contactId": 535,
-      "name": "Rutherford, Rosenbaum and Marvin"
+      "saleId": 2671,
+      "contactId": 9002,
+      "name": "Stamm Group"
     }
   ]
 }

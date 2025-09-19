@@ -95,19 +95,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 224,
-  "Name": "O'Conner, Hilpert and Windler",
-  "Tooltip": "molestias",
-  "Rank": 2,
-  "Key": "aut",
-  "MailTemplateId": 814,
+  "ConsentSourceId": 421,
+  "Name": "Gerlach-Effertz",
+  "Tooltip": "cumque",
+  "Rank": 894,
+  "Key": "quas",
+  "MailTemplateId": 553,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 663
+      "FieldLength": 87
     }
   }
 }

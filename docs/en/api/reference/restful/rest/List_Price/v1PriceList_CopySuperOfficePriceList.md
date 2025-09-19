@@ -34,9 +34,9 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=05/19/2008 03:47:02
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=07/17/2011 03:47:02
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=144
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=11/08/1998 03:42:00
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=12/16/2022 03:42:00
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=597
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
 ```
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,22 +96,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 237,
-  "ERPPriceListKey": "id",
-  "QuoteConnectionId": 563,
-  "Name": "Abshire, Olson and Bailey",
-  "Description": "Synergized well-modulated capability",
-  "Currency": "cupiditate",
-  "CurrencyName": "Sauer, Heidenreich and Lesch",
-  "ValidFrom": "2018-06-13T03:47:00.7067961+02:00",
-  "ValidTo": "2009-03-06T03:47:00.7067961+01:00",
+  "PriceListId": 873,
+  "ERPPriceListKey": "debitis",
+  "QuoteConnectionId": 184,
+  "Name": "Batz, Roob and Goldner",
+  "Description": "Sharable didactic interface",
+  "Currency": "repellat",
+  "CurrencyName": "Stanton-West",
+  "ValidFrom": "2007-02-14T03:41:59.4648585+01:00",
+  "ValidTo": "2018-01-24T03:41:59.4648585+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 413
+      "FieldLength": 308
     }
   }
 }

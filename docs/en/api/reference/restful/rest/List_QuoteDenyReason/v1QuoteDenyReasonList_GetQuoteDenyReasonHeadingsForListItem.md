@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 265,
-    "Name": "Koss-Grady",
-    "ToolTip": "Recusandae quidem qui voluptatibus et impedit sed quam.",
-    "Deleted": true,
-    "Rank": 463,
-    "Type": "fugit",
-    "ColorBlock": 792,
-    "IconHint": "ad",
-    "Selected": false,
-    "LastChanged": "2024-04-17T03:47:00.7692942+02:00",
+    "Id": 273,
+    "Name": "Breitenberg, Blick and Mayert",
+    "ToolTip": "Reiciendis rerum et ut in.",
+    "Deleted": false,
+    "Rank": 279,
+    "Type": "consequatur",
+    "ColorBlock": 261,
+    "IconHint": "possimus",
+    "Selected": true,
+    "LastChanged": "2018-06-26T03:41:59.5742289+02:00",
     "ChildItems": [
       {
-        "Id": 472,
-        "Name": "Bednar, Schamberger and Wilkinson",
-        "ToolTip": "Et sunt ut accusantium impedit.",
+        "Id": 430,
+        "Name": "Champlin, Howe and Bahringer",
+        "ToolTip": "Perferendis sed fugiat dolorem non amet.",
         "Deleted": false,
-        "Rank": 856,
-        "Type": "omnis",
-        "ColorBlock": 204,
-        "IconHint": "voluptatibus",
+        "Rank": 249,
+        "Type": "consequatur",
+        "ColorBlock": 168,
+        "IconHint": "veniam",
         "Selected": false,
-        "LastChanged": "2011-03-09T03:47:00.7692942+01:00",
+        "LastChanged": "2009-02-27T03:41:59.5742289+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "nesciunt",
+        "ExtraInfo": "optio",
+        "StyleHint": "error",
         "Hidden": false,
-        "FullName": "Damion Reichert",
+        "FullName": "Lois Stoltenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 863
+            "FieldLength": 994
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "incidunt",
+    "ExtraInfo": "ea",
+    "StyleHint": "cupiditate",
     "Hidden": true,
-    "FullName": "Mrs. Murray Ally Conroy",
+    "FullName": "Mrs. Jan Johns",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 473
+        "FieldType": "System.Int32",
+        "FieldLength": 490
       }
     }
   }

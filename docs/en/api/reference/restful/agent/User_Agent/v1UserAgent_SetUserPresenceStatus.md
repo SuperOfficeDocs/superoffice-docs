@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 593,
+  "AssociateId": 701,
   "UserPresenceStatus": null
 }
 ```
@@ -93,6 +93,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "StatusDeleted",
-  "Message": "explicabo"
+  "Message": "asperiores"
 }
 ```

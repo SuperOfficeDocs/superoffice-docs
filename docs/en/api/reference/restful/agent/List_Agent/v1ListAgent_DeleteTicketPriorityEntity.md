@@ -26,7 +26,7 @@ Deletes the TicketPriorityEntity
 | ticketPriorityEntityId | int32 | **Required** The identity of the TicketPriorityEntity |
 
 ```http
-POST /api/v1/Agents/List/DeleteTicketPriorityEntity?ticketPriorityEntityId=524
+POST /api/v1/Agents/List/DeleteTicketPriorityEntity?ticketPriorityEntityId=736
 ```
 
 
@@ -57,7 +57,7 @@ No Content
 POST /api/v1/Agents/List/DeleteTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

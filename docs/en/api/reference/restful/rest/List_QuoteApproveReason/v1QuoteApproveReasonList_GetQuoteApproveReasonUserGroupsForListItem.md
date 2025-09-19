@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 745,
-    "Name": "Kub-Sipes",
-    "ToolTip": "Expedita repellendus neque.",
+    "Id": 35,
+    "Name": "Herzog Group",
+    "ToolTip": "Et ut veniam dicta aperiam ea natus qui.",
     "Deleted": false,
-    "Rank": 763,
-    "Type": "delectus",
-    "ColorBlock": 626,
-    "IconHint": "voluptas",
+    "Rank": 781,
+    "Type": "doloribus",
+    "ColorBlock": 535,
+    "IconHint": "illo",
     "Selected": false,
-    "LastChanged": "2003-05-13T03:47:00.7536695+02:00",
+    "LastChanged": "2021-11-10T03:41:59.558612+01:00",
     "ChildItems": [
       {
-        "Id": 524,
-        "Name": "Kiehn-Shields",
-        "ToolTip": "Consequuntur quia voluptas.",
-        "Deleted": true,
-        "Rank": 707,
-        "Type": "temporibus",
-        "ColorBlock": 57,
-        "IconHint": "animi",
-        "Selected": true,
-        "LastChanged": "2022-12-26T03:47:00.7536695+01:00",
+        "Id": 812,
+        "Name": "Kutch, Marquardt and Kassulke",
+        "ToolTip": "Consequuntur labore.",
+        "Deleted": false,
+        "Rank": 377,
+        "Type": "et",
+        "ColorBlock": 431,
+        "IconHint": "provident",
+        "Selected": false,
+        "LastChanged": "2015-09-04T03:41:59.558612+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "omnis",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "velit",
         "Hidden": false,
-        "FullName": "Tyrell Hintz",
+        "FullName": "Ms. Carlie Medhurst",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 44
+            "FieldType": "System.Int32",
+            "FieldLength": 515
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "iste",
-    "Hidden": false,
-    "FullName": "Miguel O'Connell",
+    "ExtraInfo": "possimus",
+    "StyleHint": "sint",
+    "Hidden": true,
+    "FullName": "Maia Swift",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 318
+        "FieldLength": 448
       }
     }
   }

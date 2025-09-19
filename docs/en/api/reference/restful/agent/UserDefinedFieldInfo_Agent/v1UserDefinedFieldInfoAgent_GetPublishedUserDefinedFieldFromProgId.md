@@ -110,11 +110,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "libero",
+  "ProgId": "facilis",
   "OwnerType": "Appointment"
 }
 ```
@@ -126,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 161,
-  "ColumnId": 692,
-  "FieldDefault": "officia",
-  "FieldHeight": 162,
-  "FieldLabel": "voluptas",
-  "FieldLeft": 335,
-  "FieldTop": 821,
+  "UDefFieldId": 433,
+  "ColumnId": 667,
+  "FieldDefault": "aperiam",
+  "FieldHeight": 253,
+  "FieldLabel": "fugiat",
+  "FieldLeft": 184,
+  "FieldTop": 179,
   "FieldType": "Checkbox",
-  "FieldWidth": 575,
-  "FormatMask": "minus",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 953,
-  "LabelLeft": 966,
-  "LabelTop": 994,
-  "LabelWidth": 729,
-  "LastVersionId": 434,
-  "ListTableId": 297,
+  "FieldWidth": 916,
+  "FormatMask": "natus",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 497,
+  "LabelLeft": 640,
+  "LabelTop": 831,
+  "LabelWidth": 765,
+  "LastVersionId": 74,
+  "ListTableId": 718,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 509,
-  "ProgId": "tenetur",
-  "IsReadOnly": true,
-  "ShortLabel": "dicta",
-  "TabOrder": 56,
-  "TextLength": 463,
-  "Tooltip": "voluptas",
-  "UdefIdentity": 534,
-  "UDListDefinitionId": 691,
+  "Page1LineNo": 98,
+  "ProgId": "excepturi",
+  "IsReadOnly": false,
+  "ShortLabel": "temporibus",
+  "TabOrder": 40,
+  "TextLength": 602,
+  "Tooltip": "velit",
+  "UdefIdentity": 219,
+  "UDListDefinitionId": 810,
   "Justification": "Center",
-  "Version": 64,
-  "TemplateVariableName": "Fisher-Beahan",
+  "Version": 540,
+  "TemplateVariableName": "Rath-Kiehn",
   "HasBeenPublished": true,
-  "MdoListName": "Zboncak Inc and Sons",
+  "MdoListName": "Treutel-Friesen",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldLength": 158
     }
   }
 }

@@ -80,7 +80,7 @@ OK
 GET /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,46 +90,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 683,
+  "HierarchyId": 270,
   "Domain": "Dashboards",
-  "Name": "O'Kon-McCullough",
-  "Fullname": "eum",
-  "ParentId": 739,
+  "Name": "Rippin-Bednar",
+  "Fullname": "tempora",
+  "ParentId": 945,
   "Children": [
     {
-      "HierarchyId": 508,
+      "HierarchyId": 608,
       "Domain": "Dashboards",
-      "Name": "Mueller-Beier",
-      "Fullname": "consectetur",
-      "ParentId": 960,
+      "Name": "Jaskolski Inc and Sons",
+      "Fullname": "doloribus",
+      "ParentId": 173,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2001-05-17T03:47:00.0349452+02:00",
-      "RegisteredAssociateId": 312,
-      "Updated": "2024-05-07T03:47:00.0349452+02:00",
-      "UpdatedAssociateId": 156,
+      "Registered": "2005-12-04T03:41:58.7773879+01:00",
+      "RegisteredAssociateId": 585,
+      "Updated": "2019-12-05T03:41:58.7773879+01:00",
+      "UpdatedAssociateId": 982,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 767
+          "FieldLength": 643
         }
       }
     }
   ],
-  "Registered": "2006-09-27T03:47:00.0349452+02:00",
-  "RegisteredAssociateId": 498,
-  "Updated": "2022-08-17T03:47:00.0349452+02:00",
-  "UpdatedAssociateId": 126,
+  "Registered": "2012-05-28T03:41:58.7773879+02:00",
+  "RegisteredAssociateId": 196,
+  "Updated": "2005-07-06T03:41:58.7773879+02:00",
+  "UpdatedAssociateId": 979,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldType": "System.String",
+      "FieldLength": 923
     }
   }
 }

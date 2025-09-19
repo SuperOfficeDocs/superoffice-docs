@@ -88,7 +88,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,43 +98,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 898,
-  "Name": "Toy-Lind",
-  "Description": "Future-proofed cohesive strategy",
-  "WelcomeMessage": "assumenda",
+  "ChatTopicId": 734,
+  "Name": "Braun, Sauer and Mosciski",
+  "Description": "Progressive global help-desk",
+  "WelcomeMessage": "culpa",
   "Language": null,
-  "LastAccept": "2011-05-28T03:46:59.8005718+02:00",
-  "SecondsPrAccept": 218,
-  "AlertRecipient": "aspernatur",
+  "LastAccept": "2011-07-19T03:41:58.4961519+02:00",
+  "SecondsPrAccept": 348,
+  "AlertRecipient": "quos",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "pariatur",
+  "CollectConsent": false,
+  "BadgeHeader": "molestiae",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "accusamus",
-  "WarnNewChatMinutes": 491,
-  "WarnManagerNewChatMinutes": 918,
+  "CustomQueueText": "delectus",
+  "WarnNewChatMinutes": 856,
+  "WarnManagerNewChatMinutes": 983,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 485,
-  "WarnManagerChatMessageMinutes": 748,
+  "WarnChatMessageMinutes": 757,
+  "WarnManagerChatMessageMinutes": 832,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 695,
-  "OfflineFormQueueLength": 4,
+  "OfflineFormTimeLimit": 806,
+  "OfflineFormQueueLength": 279,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "nihil",
+  "WidgetRatingText": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 385
+      "FieldType": "System.String",
+      "FieldLength": 832
     }
   }
 }

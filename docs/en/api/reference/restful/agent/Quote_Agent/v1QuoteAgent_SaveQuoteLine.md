@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 280,
-  "ERPQuoteLineKey": "temporibus",
-  "QuoteAlternativeId": 70,
-  "ERPProductKey": "facere",
+  "QuoteLineId": 307,
+  "ERPQuoteLineKey": "alias",
+  "QuoteAlternativeId": 489,
+  "ERPProductKey": "ipsam",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 13893.021999999999,
-  "DeliveredQuantity": 18496.868,
-  "Rank": 862,
-  "Name": "King Inc and Sons",
-  "Description": "Distributed stable moderator",
-  "Code": "iusto",
-  "QuantityUnit": "praesentium",
-  "PriceUnit": "doloribus",
-  "ItemNumber": "1084014",
+  "Quantity": 23642.896,
+  "DeliveredQuantity": 13272.49,
+  "Rank": 702,
+  "Name": "Mills-Durgan",
+  "Description": "Synergized 6th generation core",
+  "Code": "incidunt",
+  "QuantityUnit": "aut",
+  "PriceUnit": "tempore",
+  "ItemNumber": "1948376",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "id",
-  "ProductTypeKey": "voluptas",
-  "Supplier": "quia",
-  "SupplierCode": "est",
-  "Thumbnail": "reprehenderit",
-  "VATInfo": "asperiores",
-  "VAT": 9129.342,
-  "UnitCost": 27118.502,
-  "UnitMinimumPrice": 29666.444,
-  "UnitListPrice": 9054.126,
+  "ProductFamilyKey": "ut",
+  "ProductTypeKey": "molestiae",
+  "Supplier": "ut",
+  "SupplierCode": "quod",
+  "Thumbnail": "voluptatibus",
+  "VATInfo": "harum",
+  "VAT": 1485.5159999999998,
+  "UnitCost": 23577.082,
+  "UnitMinimumPrice": 22473.914,
+  "UnitListPrice": 25943.252,
   "ExtraInfo": [
     {
-      "Name": "Barton, Kozey and Deckow",
-      "Value": "voluptatem",
+      "Name": "Lind, Gerhold and Hodkiewicz",
+      "Value": "laudantium",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 739
+          "FieldLength": 661
         }
       }
     },
     {
-      "Name": "Barton, Kozey and Deckow",
-      "Value": "voluptatem",
+      "Name": "Lind, Gerhold and Hodkiewicz",
+      "Value": "laudantium",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 739
+          "FieldLength": 661
         }
       }
     }
   ],
-  "RawExtraInfo": "qui",
-  "IsSubscription": false,
-  "SubscriptionUnit": "consectetur",
-  "SubscriptionQuantity": 18678.64,
-  "SubscriptionStart": "2015-05-28T03:46:55.2226157+02:00",
-  "ERPDiscountPercent": 30211.76,
-  "ERPDiscountAmount": 19737.932,
-  "DiscountPercent": 7283.416,
-  "DiscountAmount": 14720.398,
+  "RawExtraInfo": "doloremque",
+  "IsSubscription": true,
+  "SubscriptionUnit": "quia",
+  "SubscriptionQuantity": 18487.466,
+  "SubscriptionStart": "2002-04-06T03:41:53.9650897+02:00",
+  "ERPDiscountPercent": 10132.222,
+  "ERPDiscountAmount": 27325.345999999998,
+  "DiscountPercent": 6358.8859999999995,
+  "DiscountAmount": 12216.332,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 16876.59,
-  "EarningAmount": 5707.014,
-  "SubTotal": 5895.054,
-  "TotalPrice": 13153.398,
-  "Rights": "assumenda",
-  "Rule": "est",
-  "ExtraField1": "voluptatem",
-  "ExtraField2": "quibusdam",
-  "ExtraField3": "officia",
-  "ExtraField4": "fugit",
-  "ExtraField5": "dolores",
+  "EarningPercent": 29271.559999999998,
+  "EarningAmount": 7587.414,
+  "SubTotal": 24460.87,
+  "TotalPrice": 13861.681999999999,
+  "Rights": "culpa",
+  "Rule": "quaerat",
+  "ExtraField1": "sit",
+  "ExtraField2": "est",
+  "ExtraField3": "ut",
+  "ExtraField4": "similique",
+  "ExtraField5": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 560
+      "FieldLength": 670
     }
   }
 }

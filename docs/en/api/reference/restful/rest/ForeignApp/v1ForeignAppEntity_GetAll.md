@@ -71,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ForeignApp?$select=name,department,category/id
 GET /api/v1/ForeignApp?$filter=name begins 'S'
 GET /api/v1/ForeignApp?$orderBy=name asc
-GET /api/v1/ForeignApp?$entities=quod
-GET /api/v1/ForeignApp?$top=911
-GET /api/v1/ForeignApp?$skip=216
+GET /api/v1/ForeignApp?$entities=accusamus
+GET /api/v1/ForeignApp?$top=101
+GET /api/v1/ForeignApp?$skip=69
 GET /api/v1/ForeignApp?$mode=Full
 GET /api/v1/ForeignApp?$options=GrandTotal=true
-GET /api/v1/ForeignApp?$context=qui
+GET /api/v1/ForeignApp?$context=voluptate
 GET /api/v1/ForeignApp?$format=JSON
 GET /api/v1/ForeignApp?$jsonSafe=False
 GET /api/v1/ForeignApp?$output=Display
@@ -130,21 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "vel",
+  "odata.nextLink": "suscipit",
   "value": [
     {
-      "PrimaryKey": 320,
+      "PrimaryKey": 8374,
       "EntityName": "sale",
-      "saleId": 320,
-      "contactId": 7033,
-      "name": "Cormier LLC"
+      "saleId": 8374,
+      "contactId": 3551,
+      "name": "Hermiston-Bergnaum"
     },
     {
-      "PrimaryKey": 8815,
+      "PrimaryKey": 1495,
       "EntityName": "sale",
-      "saleId": 8815,
-      "contactId": 4591,
-      "name": "Kling, Kris and Rau"
+      "saleId": 1495,
+      "contactId": 8106,
+      "name": "Herman LLC"
     }
   ]
 }

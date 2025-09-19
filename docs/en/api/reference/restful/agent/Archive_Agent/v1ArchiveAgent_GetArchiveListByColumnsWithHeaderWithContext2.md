@@ -168,19 +168,19 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeaderWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Brown Inc and Sons",
-  "Columns": "illo",
-  "SortOrder": "consequuntur",
-  "Restriction": "et",
-  "Entities": "in",
-  "Page": 103,
-  "PageSize": 493,
-  "Options": "ratione",
-  "Context": "nihil"
+  "ProviderName": "Farrell-McKenzie",
+  "Columns": "alias",
+  "SortOrder": "consectetur",
+  "Restriction": "ut",
+  "Entities": "laborum",
+  "Page": 481,
+  "PageSize": 950,
+  "Options": "ex",
+  "Context": "odio"
 }
 ```
 
@@ -191,26 +191,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 304,
+  "RowCount": 902,
   "Rows": [
     {
-      "EntityName": "Kris Group",
-      "PrimaryKey": 72,
+      "EntityName": "Sipes, Lehner and Schultz",
+      "PrimaryKey": 903,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "laudantium",
-          "TooltipHint": "tempore",
-          "LinkHint": "officia"
+          "DisplayValue": "est",
+          "TooltipHint": "facere",
+          "LinkHint": "molestiae"
         }
       },
-      "LinkHint": "eos",
-      "StyleHint": "maiores",
+      "LinkHint": "hic",
+      "StyleHint": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 977
+          "FieldLength": 767
         }
       }
     }
@@ -219,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 983
+      "FieldType": "System.String",
+      "FieldLength": 895
     }
   }
 }

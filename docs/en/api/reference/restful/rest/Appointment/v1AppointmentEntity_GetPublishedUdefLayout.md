@@ -89,7 +89,7 @@ OK
 GET /api/v1/Appointment/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 123,
-    "ColumnId": 899,
-    "FieldDefault": "nobis",
-    "FieldHeight": 62,
-    "FieldLabel": "alias",
-    "FieldLeft": 919,
-    "FieldTop": 386,
+    "UDefFieldId": 752,
+    "ColumnId": 768,
+    "FieldDefault": "est",
+    "FieldHeight": 678,
+    "FieldLabel": "provident",
+    "FieldLeft": 196,
+    "FieldTop": 41,
     "FieldType": "Checkbox",
-    "FieldWidth": 274,
-    "FormatMask": "omnis",
-    "HideLabel": true,
+    "FieldWidth": 688,
+    "FormatMask": "at",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 209,
-    "LabelLeft": 674,
-    "LabelTop": 72,
-    "LabelWidth": 786,
-    "LastVersionId": 325,
-    "ListTableId": 485,
-    "IsMandatory": false,
+    "LabelHeight": 332,
+    "LabelLeft": 353,
+    "LabelTop": 235,
+    "LabelWidth": 209,
+    "LastVersionId": 669,
+    "ListTableId": 321,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 530,
-    "ProgId": "perferendis",
+    "Page1LineNo": 808,
+    "ProgId": "facilis",
     "IsReadOnly": false,
-    "ShortLabel": "ad",
-    "TabOrder": 673,
-    "TextLength": 459,
-    "Tooltip": "facilis",
-    "UdefIdentity": 400,
-    "UDListDefinitionId": 743,
+    "ShortLabel": "autem",
+    "TabOrder": 499,
+    "TextLength": 844,
+    "Tooltip": "quibusdam",
+    "UdefIdentity": 121,
+    "UDListDefinitionId": 76,
     "Justification": "Center",
-    "Version": 160,
-    "TemplateVariableName": "Mante-Grant",
+    "Version": 926,
+    "TemplateVariableName": "Greenholt LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Connelly, Bradtke and Farrell",
+    "MdoListName": "Willms, Parisian and Kris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 46
+        "FieldLength": 528
       }
     }
   }

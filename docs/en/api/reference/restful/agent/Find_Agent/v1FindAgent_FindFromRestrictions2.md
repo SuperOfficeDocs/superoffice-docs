@@ -164,14 +164,14 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "vitae",
-  "ProviderName": "Douglas Group",
-  "PageSize": 232,
-  "PageNumber": 977
+  "Restrictions": "est",
+  "ProviderName": "Green-Conn",
+  "PageSize": 558,
+  "PageNumber": 32
 }
 ```
 
@@ -184,51 +184,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Schaden Group",
-      "DisplayTooltip": "consectetur",
-      "DisplayType": "modi",
+      "DisplayName": "Hoeger-Gislason",
+      "DisplayTooltip": "nisi",
+      "DisplayType": "aut",
       "CanOrderBy": false,
-      "Name": "Swift Group",
+      "Name": "Kemmer-McCullough",
       "CanRestrictBy": false,
-      "RestrictionType": "voluptatem",
-      "RestrictionListName": "Abernathy-Greenfelder",
+      "RestrictionType": "culpa",
+      "RestrictionListName": "Ward, Dooley and Dickinson",
       "IsVisible": true,
-      "ExtraInfo": "voluptatem",
-      "Width": "natus",
-      "IconHint": "ducimus",
-      "HeadingIconHint": "velit"
+      "ExtraInfo": "quidem",
+      "Width": "non",
+      "IconHint": "maiores",
+      "HeadingIconHint": "sunt"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Boyer LLC",
-      "PrimaryKey": 222,
+      "EntityName": "Vandervort LLC",
+      "PrimaryKey": 808,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "hic",
-          "LinkHint": "nesciunt"
+          "DisplayValue": "autem",
+          "TooltipHint": "rerum",
+          "LinkHint": "similique"
         }
       },
-      "LinkHint": "voluptatem",
-      "StyleHint": "dolorem",
+      "LinkHint": "magni",
+      "StyleHint": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldLength": 709
         }
       }
     }
   ],
-  "RowCount": 496,
+  "RowCount": 153,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 9
+      "FieldType": "System.Int32",
+      "FieldLength": 954
     }
   }
 }

@@ -422,6 +422,8 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |projectMember/personId|int|Contact ID: Database ID of the contact row| x |
 |projectMember/function|listAny|Function: Displays the project member's function in the project| x |
 |projectMember/hasInfoText|bool|Project member information: Displays an icon indicating that there is additional information available for the project member| x |
+|projectMember/registered|datetime|Registered date: The date/time the data was registered in UTC.| x |
+|projectMember/updated|datetime|Updated: The date/time the data was last updated in UTC.| x |
 |projectMember/textId|int|Text ID| x |
 |projectMember/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |projectMember/firstName|string|First name: Displays the contact's first name| x |
@@ -431,12 +433,12 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |projectMember/hasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|projectMember/position|listAny|Position| x |
-|projectMember/personNumber|string|Number: Displays the contact's number| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/position|listAny|Position| x |
+|projectMember/personNumber|string|Number: Displays the contact's number| x |
 |projectMember/title|string|Title: Displays the contact's job title| x |
 |projectMember/personCountry|listAny|Country: Country| x |
 |projectMember/personCountryId|int|Country ID: Country ID| x |
@@ -535,12 +537,12 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |projectMember/personUdef/SuperOffice:8|decimal|contactdecimal| x |
 |projectMember/personUdef/SuperOffice:9|string|page1saleonly| x |
 |projectMember/personUdef/SuperOffice:10|string|page1marketingonly| x |
-|projectMember/personUdef/SuperOffice:11|string|page1adminonly| x |
-|projectMember/personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/personUdef/SuperOffice:11|string|page1adminonly| x |
+|projectMember/personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
 |projectMember/personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |projectMember/personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |projectMember/personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
@@ -639,12 +641,12 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |projectMember/legalBaseStore|listAny|Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
 |projectMember/legalBaseEmarketing|listAny|Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
 |projectMember/consentSourceStore|listAny|Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
-|projectMember/consentSourceEmarketing|listAny|Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
-|projectMember/name|stringorPK|Company name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/consentSourceEmarketing|listAny|Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
+|projectMember/name|stringorPK|Company name| x |
 |projectMember/department|string|Department| x |
 |projectMember/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
 |projectMember/associateId|associate|Our contact: Displays our contact| x |
@@ -743,12 +745,12 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 |projectMember/contactUdef/SuperOffice:1|string|companyshorttext: tooltipshorttext| x |
 |projectMember/contactUdef/SuperOffice:2|string|companylongtext: tooltiplongtext| x |
 |projectMember/contactUdef/SuperOffice:3|int|companynumber| x |
-|projectMember/contactUdef/SuperOffice:4|date|companydate| x |
-|projectMember/contactUdef/SuperOffice:5|unlimitedDate|companyunlimiteddate: tooltipunlimiteddate| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/contactUdef/SuperOffice:4|date|companydate| x |
+|projectMember/contactUdef/SuperOffice:5|unlimitedDate|companyunlimiteddate: tooltipunlimiteddate| x |
 |projectMember/contactUdef/SuperOffice:6|bool|companycheckbox| x |
 |projectMember/contactUdef/SuperOffice:7|listAny|companydropdownlistbox| x |
 |projectMember/contactUdef/SuperOffice:8|decimal|companydecimal| x |
@@ -810,7 +812,7 @@ Archive provider for Project Saint Status - same as Find Project, but adds abili
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaintProject?$select=projectAssociate/ejDisplayName,projectUdef/SuperOffice:10,appointment/associate/assocType,projectMember/rank,projectMember/personRegisteredByFullName
+GET /api/v1/archive/SaintProject?$select=completed,appointment/associate/ejUserId,projectMember/personInfo/textId,projectMember/personExtra/y_rental/x_end,projectMember/contactAssociate/simultaneousEjUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

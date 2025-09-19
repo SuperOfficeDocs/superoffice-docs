@@ -93,8 +93,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Legros Inc and Sons",
-  "GroupId": 466
+  "UdListDefinitionName": "Marvin Inc and Sons",
+  "GroupId": 566
 }
 ```
 
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 49,
-    "Name": "Fritsch, Donnelly and Johnston",
-    "ToolTip": "Earum rerum qui et eaque.",
-    "Deleted": true,
-    "Rank": 886,
-    "Type": "sed",
-    "ColorBlock": 454,
-    "IconHint": "iste",
-    "Selected": false,
-    "LastChanged": "2010-11-20T03:46:54.9569999+01:00",
+    "Id": 1000,
+    "Name": "Hansen Group",
+    "ToolTip": "Inventore et.",
+    "Deleted": false,
+    "Rank": 576,
+    "Type": "tempora",
+    "ColorBlock": 146,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2010-09-29T03:41:53.6994806+02:00",
     "ChildItems": [
       {
-        "Id": 699,
-        "Name": "Roberts LLC",
-        "ToolTip": "Vero corporis.",
+        "Id": 189,
+        "Name": "Carter, Heller and Jast",
+        "ToolTip": "Inventore vel doloremque.",
         "Deleted": false,
-        "Rank": 324,
-        "Type": "id",
-        "ColorBlock": 750,
-        "IconHint": "commodi",
+        "Rank": 623,
+        "Type": "non",
+        "ColorBlock": 361,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2020-04-27T03:46:54.9569999+02:00",
+        "LastChanged": "2004-07-23T03:41:53.6994806+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "architecto",
-        "Hidden": true,
-        "FullName": "Athena Block",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "repudiandae",
+        "Hidden": false,
+        "FullName": "Dr. Eugene Roslyn Kris",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 593
+            "FieldLength": 1001
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "qui",
+    "ExtraInfo": "et",
+    "StyleHint": "suscipit",
     "Hidden": false,
-    "FullName": "Kallie Feil",
+    "FullName": "Ibrahim Beer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 870
+        "FieldType": "System.String",
+        "FieldLength": 169
       }
     }
   }

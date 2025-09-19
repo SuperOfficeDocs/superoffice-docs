@@ -85,8 +85,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "HistoryNames": [
-    "Becker, Mraz and Jast",
-    "Luettgen Group"
+    "Corkery Group",
+    "Swaniawski LLC"
   ]
 }
 ```
@@ -99,19 +99,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 75,
-    "Id": 851,
-    "HistoryName": "Reichert Group",
-    "HistoryId": 478,
-    "AssociateId": 570,
-    "Name": "Paucek Group",
-    "ItemInfo": "alias",
+    "Rank": 853,
+    "Id": 703,
+    "HistoryName": "Durgan LLC",
+    "HistoryId": 99,
+    "AssociateId": 866,
+    "Name": "Bashirian-Gerhold",
+    "ItemInfo": "quaerat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 903
+        "FieldType": "System.Int32",
+        "FieldLength": 625
       }
     }
   }

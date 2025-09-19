@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 409,
-    "Name": "Ryan Inc and Sons",
-    "ToolTip": "Voluptatibus a rem laboriosam magni quod aut et.",
-    "Deleted": false,
-    "Rank": 748,
-    "Type": "iure",
-    "ColorBlock": 414,
-    "IconHint": "aut",
+    "Id": 360,
+    "Name": "Sawayn-Hand",
+    "ToolTip": "Sit dicta sapiente cum molestias dignissimos ut consectetur.",
+    "Deleted": true,
+    "Rank": 560,
+    "Type": "ea",
+    "ColorBlock": 486,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2024-05-09T03:47:00.6911718+02:00",
+    "LastChanged": "1999-09-30T03:41:59.4492344+02:00",
     "ChildItems": [
       {
-        "Id": 354,
-        "Name": "Friesen, Keebler and Predovic",
-        "ToolTip": "Ut quod nobis vero voluptate.",
-        "Deleted": true,
-        "Rank": 201,
-        "Type": "non",
-        "ColorBlock": 847,
-        "IconHint": "hic",
+        "Id": 979,
+        "Name": "Bergstrom-McCullough",
+        "ToolTip": "Nisi impedit.",
+        "Deleted": false,
+        "Rank": 384,
+        "Type": "consectetur",
+        "ColorBlock": 519,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2013-11-01T03:47:00.6911718+01:00",
+        "LastChanged": "2000-02-28T03:41:59.4492344+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "nobis",
+        "ExtraInfo": "et",
+        "StyleHint": "maiores",
         "Hidden": false,
-        "FullName": "Vernice Sipes"
+        "FullName": "Marshall Farrell"
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "sapiente",
-    "Hidden": true,
-    "FullName": "Reese Feest"
+    "ExtraInfo": "quidem",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Hubert Greenfelder III"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 884,
-    "Name": "Bauch, Stracke and Quitzon",
-    "ToolTip": "Est facilis commodi omnis sapiente et delectus ut.",
+    "Id": 192,
+    "Name": "Kub, Rohan and Stiedemann",
+    "ToolTip": "Minima molestiae.",
     "Deleted": false,
-    "Rank": 61,
-    "Type": "sint",
-    "ColorBlock": 586,
-    "IconHint": "ipsam",
+    "Rank": 289,
+    "Type": "error",
+    "ColorBlock": 761,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2022-03-18T03:47:00.6911718+01:00",
+    "LastChanged": "2010-08-05T03:41:59.4492344+02:00",
     "ChildItems": [
       {
-        "Id": 237,
-        "Name": "Rau-Donnelly",
-        "ToolTip": "Voluptas et totam quibusdam excepturi.",
+        "Id": 99,
+        "Name": "Harvey, Sipes and Stroman",
+        "ToolTip": "Numquam fugit doloremque.",
         "Deleted": false,
-        "Rank": 652,
-        "Type": "natus",
-        "ColorBlock": 500,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "2007-05-23T03:47:00.6911718+02:00",
+        "Rank": 30,
+        "Type": "vero",
+        "ColorBlock": 307,
+        "IconHint": "architecto",
+        "Selected": false,
+        "LastChanged": "1998-07-30T03:41:59.4492344+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nostrum",
-        "StyleHint": "fugiat",
+        "ExtraInfo": "et",
+        "StyleHint": "debitis",
         "Hidden": false,
-        "FullName": "Murl Kaia Feil V",
+        "FullName": "Kiara Schmeler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 17
+            "FieldLength": 998
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "modi",
-    "Hidden": false,
-    "FullName": "Zechariah Hansen I",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Royal Ritchie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldLength": 323
       }
     }
   }

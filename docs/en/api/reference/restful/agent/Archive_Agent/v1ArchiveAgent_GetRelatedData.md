@@ -77,15 +77,15 @@ OK
 POST /api/v1/Agents/Archive/GetRelatedData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "asperiores",
-  "RecordId": 716,
+  "Table": "beatae",
+  "RecordId": 5,
   "Fields": [
-    "facilis",
-    "voluptatem"
+    "et",
+    "suscipit"
   ]
 }
 ```
@@ -98,11 +98,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "iusto",
+    "Field": "possimus",
     "FieldValue": null
   },
   {
-    "Field": "iusto",
+    "Field": "possimus",
     "FieldValue": null
   }
 ]

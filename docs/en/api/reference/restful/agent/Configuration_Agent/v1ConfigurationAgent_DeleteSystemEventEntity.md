@@ -26,7 +26,7 @@ Deletes the SystemEventEntity
 | systemEventEntityId | int32 | **Required** The identity of the SystemEventEntity |
 
 ```http
-POST /api/v1/Agents/Configuration/DeleteSystemEventEntity?systemEventEntityId=684
+POST /api/v1/Agents/Configuration/DeleteSystemEventEntity?systemEventEntityId=7
 ```
 
 

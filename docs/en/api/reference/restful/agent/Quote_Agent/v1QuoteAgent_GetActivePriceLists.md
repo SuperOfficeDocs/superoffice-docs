@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 995,
-  "Currency": "nam"
+  "QuoteConnectionId": 698,
+  "Currency": "aut"
 }
 ```
 
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 931,
-    "ERPPriceListKey": "et",
-    "QuoteConnectionId": 56,
-    "Name": "Cole-Jacobson",
-    "Description": "Re-contextualized uniform monitoring",
-    "Currency": "ab",
-    "CurrencyName": "Mann, Ryan and Streich",
-    "ValidFrom": "2000-06-27T03:46:55.2226157+02:00",
-    "ValidTo": "2016-02-29T03:46:55.2226157+01:00",
+    "PriceListId": 839,
+    "ERPPriceListKey": "quia",
+    "QuoteConnectionId": 690,
+    "Name": "Block-Muller",
+    "Description": "Business-focused global paradigm",
+    "Currency": "qui",
+    "CurrencyName": "Hessel, Borer and Turcotte",
+    "ValidFrom": "2020-09-16T03:41:53.9650897+02:00",
+    "ValidTo": "2020-06-01T03:41:53.9650897+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 582
+        "FieldType": "System.Int32",
+        "FieldLength": 624
       }
     }
   }

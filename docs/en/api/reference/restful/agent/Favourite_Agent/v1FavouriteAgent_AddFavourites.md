@@ -68,17 +68,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Nienow, Boyer and Torp",
+  "TableName": "Schoen, Morar and Kunze",
   "RecordIds": [
-    413,
-    824
+    543,
+    617
   ],
-  "AssociateId": 448,
-  "ExtraInfo": "dolorem"
+  "AssociateId": 707,
+  "ExtraInfo": "fugit"
 }
 ```
 

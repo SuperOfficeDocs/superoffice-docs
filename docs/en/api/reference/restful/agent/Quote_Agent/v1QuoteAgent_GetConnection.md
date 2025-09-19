@@ -92,7 +92,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 930
+  "QuoteConnectionId": 129
 }
 ```
 
@@ -103,34 +103,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 922,
-  "ERPName": "Hagenes Inc and Sons",
-  "DisplayName": "Cronin, Cartwright and Kuvalis",
-  "DisplayDescription": "Intuitive regional application",
-  "Rank": 743,
-  "ConnectorName": "Huels LLC",
-  "ErpConnectionId": 625,
-  "ExtraData": "cum",
+  "QuoteConnectionId": 195,
+  "ERPName": "Leannon, Grady and Windler",
+  "DisplayName": "Dickens, Sanford and Beier",
+  "DisplayDescription": "Right-sized multi-tasking array",
+  "Rank": 679,
+  "ConnectorName": "Baumbach-Hodkiewicz",
+  "ErpConnectionId": 411,
+  "ExtraData": "dolorum",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 642,
-      "ERPPriceListKey": "beatae",
-      "QuoteConnectionId": 907,
-      "Name": "Marquardt Group",
-      "Description": "Proactive modular product",
-      "Currency": "numquam",
-      "CurrencyName": "Rau LLC",
-      "ValidFrom": "2010-04-26T03:46:55.2226157+02:00",
-      "ValidTo": "2014-02-07T03:46:55.2226157+01:00",
+      "PriceListId": 210,
+      "ERPPriceListKey": "ipsam",
+      "QuoteConnectionId": 91,
+      "Name": "Kertzmann Inc and Sons",
+      "Description": "Profit-focused non-volatile contingency",
+      "Currency": "molestiae",
+      "CurrencyName": "Padberg, Beatty and Cole",
+      "ValidFrom": "2004-11-23T03:41:53.9650897+01:00",
+      "ValidTo": "2002-12-04T03:41:53.9650897+01:00",
       "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldLength": 727
         }
       }
     }
@@ -138,19 +138,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    97,
-    86
+    117,
+    20
   ],
   "AssociateAccessIds": [
-    867,
-    21
+    208,
+    508
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 634
+      "FieldType": "System.String",
+      "FieldLength": 740
     }
   }
 }

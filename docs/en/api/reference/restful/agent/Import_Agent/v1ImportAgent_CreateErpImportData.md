@@ -78,21 +78,21 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Swaniawski Group",
-      "Operator": "ipsa",
+      "Name": "Zulauf Group",
+      "Operator": "non",
       "Values": [
-        "enim",
-        "nemo"
+        "et",
+        "dolores"
       ],
       "DisplayValues": [
-        "quasi",
-        "rerum"
+        "consequatur",
+        "dolores"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -100,16 +100,16 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 819,
+      "InterParenthesis": 104,
       "InterOperator": "And",
-      "UniqueHash": 293
+      "UniqueHash": 230
     }
   ],
   "Columns": [
-    "ex",
-    "excepturi"
+    "ducimus",
+    "doloribus"
   ],
-  "ConnectionId": 509,
+  "ConnectionId": 298,
   "ErpActorType": "Customer"
 }
 ```
@@ -124,47 +124,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "et",
-        "unde"
+        "debitis",
+        "sed"
       ],
-      "Selected": false,
+      "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "est",
+      "ExternalKey": "porro",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 964
+          "FieldType": "System.String",
+          "FieldLength": 486
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Volkman Inc and Sons",
-      "DisplayName": "Kirlin-Jewess",
-      "Locked": false,
+      "Name": "Berge, Huel and Mann",
+      "DisplayName": "Schaden LLC",
+      "Locked": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 848
+          "FieldLength": 665
         }
       }
     },
     {
-      "Name": "Volkman Inc and Sons",
-      "DisplayName": "Kirlin-Jewess",
-      "Locked": false,
+      "Name": "Berge, Huel and Mann",
+      "DisplayName": "Schaden LLC",
+      "Locked": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 848
+          "FieldLength": 665
         }
       }
     }
@@ -174,7 +174,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 206
+      "FieldLength": 370
     }
   }
 }

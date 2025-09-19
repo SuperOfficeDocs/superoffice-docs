@@ -92,7 +92,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,31 +102,31 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Kris, Lueilwitz and Mertz",
-  "Comment": "dignissimos",
-  "StakeholderRoleId": 761,
-  "CountryId": 784,
-  "PersonId": 947,
-  "EmailDescription": "hollie@dicki.biz",
-  "EmailId": 211,
-  "EmailAddress": "edward.lockman@jones.ca",
-  "PhoneId": 426,
-  "ContactName": "Stracke-Braun",
-  "ContactId": 588,
-  "SaleId": 590,
-  "Mrmrs": "est",
-  "Firstname": "Helena",
-  "MiddleName": "West LLC",
-  "Lastname": "Harber",
-  "SaleStakeholderId": 309,
-  "Rank": 364,
-  "Phone": "1-346-105-1411",
+  "StakeholderRoleName": "O'Keefe LLC",
+  "Comment": "tempore",
+  "StakeholderRoleId": 531,
+  "CountryId": 353,
+  "PersonId": 340,
+  "EmailDescription": "korbin_white@keelinganderson.us",
+  "EmailId": 84,
+  "EmailAddress": "skye.bergstrom@hansen.co.uk",
+  "PhoneId": 683,
+  "ContactName": "Kessler-Mann",
+  "ContactId": 13,
+  "SaleId": 737,
+  "Mrmrs": "consequatur",
+  "Firstname": "Carrie",
+  "MiddleName": "Senger, Douglas and Tromp",
+  "Lastname": "Quitzon",
+  "SaleStakeholderId": 592,
+  "Rank": 664,
+  "Phone": "1-958-447-6590",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 165
+      "FieldLength": 926
     }
   },
   "_Links": {

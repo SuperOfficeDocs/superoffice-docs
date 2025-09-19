@@ -72,14 +72,14 @@ OK
 POST /api/v1/Agents/Configuration/GetCsProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "aut",
-  "ProgramName": "Hyatt-Stamm",
-  "Action": "voluptatem",
-  "ExtraParameters": "porro"
+  "Language": "et",
+  "ProgramName": "Feil LLC",
+  "Action": "nesciunt",
+  "ExtraParameters": "optio"
 }
 ```
 

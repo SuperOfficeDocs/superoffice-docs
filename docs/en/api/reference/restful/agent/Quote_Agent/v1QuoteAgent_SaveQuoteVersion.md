@@ -112,7 +112,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -127,75 +127,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 388,
-  "ERPQuoteVersionKey": "non",
-  "QuoteId": 8,
-  "Description": "Virtual logistical model",
-  "Number": "404393",
+  "QuoteVersionId": 901,
+  "ERPQuoteVersionKey": "nostrum",
+  "QuoteId": 192,
+  "Description": "Switchable user-facing focus group",
+  "Number": "807210",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
-  "Reason": "",
-  "LikelyQuoteAlternativeId": 658,
-  "SentDate": "2004-07-10T03:46:55.1913666+02:00",
-  "FollowupId": 669,
-  "ExpirationDate": "1998-09-13T03:46:55.1913666+02:00",
-  "DeliveryCountryId": 121,
+  "Reason": "target efficient channels",
+  "LikelyQuoteAlternativeId": 585,
+  "SentDate": "2000-07-21T03:41:53.933842+02:00",
+  "FollowupId": 87,
+  "ExpirationDate": "2008-01-16T03:41:53.933842+01:00",
+  "DeliveryCountryId": 378,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 423,
+  "InvoiceCountryId": 10,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "delectus",
-  "ERPPaymentTypeKey": "numquam",
-  "ERPDeliveryTermsKey": "voluptatem",
-  "ERPDeliveryTypeKey": "assumenda",
-  "Rank": 941,
-  "ApprovedBy": 362,
-  "ApprovedText": "vel",
-  "ApprovedRegisteredBy": 691,
-  "ApprovedRegisteredDate": "2022-06-08T03:46:55.1913666+02:00",
-  "ExtraField1": "libero",
-  "ExtraField2": "et",
-  "ExtraField3": "aspernatur",
-  "ExtraField4": "amet",
-  "ExtraField5": "similique",
-  "LastRecalculated": "2015-11-10T03:46:55.1913666+01:00",
-  "Updated": "2004-09-19T03:46:55.1913666+02:00",
-  "UpdatedAssociateId": 917,
-  "Registered": "2020-07-22T03:46:55.1913666+02:00",
-  "RegisteredAssociateId": 887,
-  "RequestAssociateId": 346,
-  "RequestComment": "nobis",
+  "ERPPaymentTermsKey": "aliquam",
+  "ERPPaymentTypeKey": "atque",
+  "ERPDeliveryTermsKey": "est",
+  "ERPDeliveryTypeKey": "ut",
+  "Rank": 792,
+  "ApprovedBy": 891,
+  "ApprovedText": "similique",
+  "ApprovedRegisteredBy": 673,
+  "ApprovedRegisteredDate": "2010-07-29T03:41:53.933842+02:00",
+  "ExtraField1": "excepturi",
+  "ExtraField2": "consequuntur",
+  "ExtraField3": "et",
+  "ExtraField4": "neque",
+  "ExtraField5": "at",
+  "LastRecalculated": "2012-03-18T03:41:53.933842+01:00",
+  "Updated": "2003-02-10T03:41:53.933842+01:00",
+  "UpdatedAssociateId": 252,
+  "Registered": "2013-04-23T03:41:53.933842+02:00",
+  "RegisteredAssociateId": 799,
+  "RequestAssociateId": 262,
+  "RequestComment": "nostrum",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 160,
-      "ERPQuoteAlternativeKey": "hic",
-      "QuoteVersionId": 92,
-      "Name": "Veum-Parisian",
-      "Description": "Open-source modular solution",
+      "QuoteAlternativeId": 20,
+      "ERPQuoteAlternativeKey": "dolores",
+      "QuoteVersionId": 368,
+      "Name": "Medhurst-Weimann",
+      "Description": "User-friendly intangible archive",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 11812.046,
-      "ERPDiscountAmount": 30757.075999999997,
-      "DiscountPercent": 2986.7019999999998,
-      "DiscountAmount": 25745.809999999998,
+      "ERPDiscountPercent": 18155.262,
+      "ERPDiscountAmount": 27209.388,
+      "DiscountPercent": 4434.61,
+      "DiscountAmount": 15842.369999999999,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "nesciunt",
-      "VAT": 16635.272,
-      "EarningPercent": 20314.588,
-      "EarningAmount": 1306.878,
-      "SubTotal": 20233.104,
-      "TotalPrice": 8897.426,
-      "ExtraField1": "illo",
-      "ExtraField2": "enim",
-      "ExtraField3": "fugiat",
-      "ExtraField4": "provident",
-      "ExtraField5": "sint",
+      "VATInfo": "alias",
+      "VAT": 955.87,
+      "EarningPercent": 3745.1299999999997,
+      "EarningAmount": 27842.456,
+      "SubTotal": 11379.554,
+      "TotalPrice": 19264.698,
+      "ExtraField1": "qui",
+      "ExtraField2": "laborum",
+      "ExtraField3": "rem",
+      "ExtraField4": "inventore",
+      "ExtraField5": "excepturi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 326
+          "FieldType": "System.Int32",
+          "FieldLength": 124
         }
       }
     }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 399
+      "FieldLength": 106
     }
   }
 }

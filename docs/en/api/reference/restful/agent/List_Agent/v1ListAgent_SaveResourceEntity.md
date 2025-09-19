@@ -80,13 +80,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 672,
-  "Name": "Ortiz, Wisozk and Wiza",
-  "Rank": 577,
-  "Tooltip": "quod",
-  "Deleted": true,
+  "ResourceId": 201,
+  "Name": "Buckridge-Bahringer",
+  "Rank": 279,
+  "Tooltip": "consequatur",
+  "Deleted": false,
   "IsLocation": false,
-  "LocationAddress": "reiciendis"
+  "LocationAddress": "rem"
 }
 ```
 
@@ -97,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 735,
-  "Name": "Goyette Inc and Sons",
-  "Rank": 33,
-  "Tooltip": "at",
-  "Deleted": false,
-  "IsLocation": false,
-  "LocationAddress": "voluptate",
+  "ResourceId": 592,
+  "Name": "Harris, Hintz and Conn",
+  "Rank": 11,
+  "Tooltip": "enim",
+  "Deleted": true,
+  "IsLocation": true,
+  "LocationAddress": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 286
+      "FieldLength": 661
     }
   }
 }

@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 514,
+  "ErpConnectionId": 112,
   "ActorType": "Customer"
 }
 ```
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 206,
+  "ErpConnectionId": 244,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 969,
-      "CrmFieldKey": "cum",
-      "CrmDisplayName": "Hodkiewicz-Davis",
-      "CrmDisplayTooltip": "in",
-      "ErpFieldKey": "quaerat",
+      "ErpFieldId": 27,
+      "CrmFieldKey": "molestiae",
+      "CrmDisplayName": "Nienow-Lesch",
+      "CrmDisplayTooltip": "tempora",
+      "ErpFieldKey": "nam",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Heller, Torp and Cremin",
-      "ErpDisplayTooltip": "omnis",
-      "SyncToCrm": false,
-      "SyncToErp": true,
+      "ErpDisplayName": "Hayes-Koepp",
+      "ErpDisplayTooltip": "excepturi",
+      "SyncToCrm": true,
+      "SyncToErp": false,
       "ShowInGui": false,
-      "ShowInSearch": true,
+      "ShowInSearch": false,
       "AlreadyMapped": false,
       "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "dolore",
+      "ListReference": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 120
+          "FieldLength": 554
         }
       }
     }
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 120
+      "FieldLength": 249
     }
   }
 }

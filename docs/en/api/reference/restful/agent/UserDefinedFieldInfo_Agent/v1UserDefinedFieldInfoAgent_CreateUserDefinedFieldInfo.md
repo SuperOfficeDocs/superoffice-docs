@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,46 +124,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 161,
-  "ColumnId": 508,
-  "FieldDefault": "ex",
-  "FieldHeight": 38,
-  "FieldLabel": "non",
-  "FieldLeft": 974,
-  "FieldTop": 35,
+  "UDefFieldId": 208,
+  "ColumnId": 1001,
+  "FieldDefault": "voluptate",
+  "FieldHeight": 197,
+  "FieldLabel": "enim",
+  "FieldLeft": 548,
+  "FieldTop": 533,
   "FieldType": "Checkbox",
-  "FieldWidth": 132,
-  "FormatMask": "tempora",
+  "FieldWidth": 329,
+  "FormatMask": "perferendis",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 999,
-  "LabelLeft": 470,
-  "LabelTop": 982,
-  "LabelWidth": 925,
-  "LastVersionId": 441,
-  "ListTableId": 905,
+  "IsIndexed": false,
+  "LabelHeight": 151,
+  "LabelLeft": 407,
+  "LabelTop": 174,
+  "LabelWidth": 579,
+  "LastVersionId": 439,
+  "ListTableId": 815,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 900,
-  "ProgId": "non",
-  "IsReadOnly": true,
-  "ShortLabel": "repellendus",
-  "TabOrder": 108,
-  "TextLength": 690,
-  "Tooltip": "architecto",
-  "UdefIdentity": 627,
-  "UDListDefinitionId": 72,
+  "Page1LineNo": 442,
+  "ProgId": "consequatur",
+  "IsReadOnly": false,
+  "ShortLabel": "suscipit",
+  "TabOrder": 80,
+  "TextLength": 810,
+  "Tooltip": "ut",
+  "UdefIdentity": 230,
+  "UDListDefinitionId": 349,
   "Justification": "Center",
-  "Version": 759,
-  "TemplateVariableName": "McLaughlin Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Greenholt Group",
+  "Version": 990,
+  "TemplateVariableName": "Mohr-Walter",
+  "HasBeenPublished": true,
+  "MdoListName": "Gerhold-Bergstrom",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 75
+      "FieldType": "System.String",
+      "FieldLength": 1002
     }
   }
 }

@@ -88,14 +88,14 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "eos",
-  "Value": "molestias",
-  "RecordId": 917,
-  "CreatedDate": "2020-12-27T03:47:00.0349452+01:00",
-  "UpdatedDate": "2021-01-12T03:47:00.0349452+01:00",
-  "UpdatedBy": "aliquam",
-  "CreatedBy": "quisquam",
-  "TableName": "Goyette-Braun"
+  "Key": "rem",
+  "Value": "quaerat",
+  "RecordId": 671,
+  "CreatedDate": "2020-07-07T03:41:58.7617712+02:00",
+  "UpdatedDate": "2016-02-11T03:41:58.7617712+01:00",
+  "UpdatedBy": "ullam",
+  "CreatedBy": "assumenda",
+  "TableName": "Paucek-Hauck"
 }
 ```
 
@@ -106,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "recusandae",
-  "Value": "minus",
-  "RecordId": 646,
-  "CreatedDate": "2003-07-06T03:47:00.0349452+02:00",
-  "UpdatedDate": "2024-07-16T03:47:00.0349452+02:00",
-  "UpdatedBy": "laborum",
-  "CreatedBy": "eum",
-  "TableName": "Dickens Inc and Sons",
+  "Key": "nesciunt",
+  "Value": "labore",
+  "RecordId": 494,
+  "CreatedDate": "1999-05-07T03:41:58.7617712+02:00",
+  "UpdatedDate": "2021-05-21T03:41:58.7617712+02:00",
+  "UpdatedBy": "qui",
+  "CreatedBy": "eius",
+  "TableName": "Romaguera-McDermott",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 723
+      "FieldType": "System.String",
+      "FieldLength": 523
     }
   }
 }

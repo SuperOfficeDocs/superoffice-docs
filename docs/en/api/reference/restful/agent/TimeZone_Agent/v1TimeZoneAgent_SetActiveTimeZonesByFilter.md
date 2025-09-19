@@ -70,8 +70,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filter": "voluptatibus",
-  "Active": false
+  "Filter": "amet",
+  "Active": true
 }
 ```
 

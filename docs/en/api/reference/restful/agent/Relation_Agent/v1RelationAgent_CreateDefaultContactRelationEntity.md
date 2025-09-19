@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 92,
-  "SourcePersonId": 491,
-  "DestinationContactId": 119,
-  "DestinationPersonId": 607,
-  "RelationId": 915,
-  "Comment": "unde",
-  "RelationDefinitionId": 196,
-  "Reversed": 250,
-  "UpdatedDate": "2008-08-31T03:46:55.2382402+02:00",
-  "CreatedDate": "2012-06-18T03:46:55.2382402+02:00",
+  "SourceContactId": 435,
+  "SourcePersonId": 102,
+  "DestinationContactId": 859,
+  "DestinationPersonId": 930,
+  "RelationId": 588,
+  "Comment": "esse",
+  "RelationDefinitionId": 70,
+  "Reversed": 317,
+  "UpdatedDate": "2015-06-03T03:41:53.9807136+02:00",
+  "CreatedDate": "2008-07-06T03:41:53.9807136+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Powlowski-Schultz",
-  "SourcePersonName": "Kris-Beahan",
-  "DestinationContactName": "Rodriguez Inc and Sons",
-  "DestinationPersonName": "Armstrong Group",
-  "ActiveText": "voluptates",
-  "PassiveText": "quia",
+  "SourceContactName": "Hauck LLC",
+  "SourcePersonName": "Champlin, Torphy and Thompson",
+  "DestinationContactName": "Crist-O'Keefe",
+  "DestinationPersonName": "Rau Group",
+  "ActiveText": "consequatur",
+  "PassiveText": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 633
+      "FieldLength": 236
     }
   }
 }

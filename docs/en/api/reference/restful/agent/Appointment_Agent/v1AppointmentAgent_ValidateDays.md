@@ -83,8 +83,8 @@ Content-Type: application/json; charset=utf-8
 {
   "AppointmentEntity": null,
   "Dates": [
-    "inventore",
-    "soluta"
+    "sed",
+    "veritatis"
   ]
 }
 ```
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2012-12-31T03:46:54.1445302+01:00",
-    "IsConflict": false,
-    "Description": "Customizable solution-oriented groupware",
-    "DescriptionStyleHint": "Synergized optimal matrix",
-    "Tooltip": "quasi"
+    "Date": "2018-02-10T03:41:52.9341759+01:00",
+    "IsConflict": true,
+    "Description": "Balanced system-worthy complexity",
+    "DescriptionStyleHint": "Fully-configurable 6th generation support",
+    "Tooltip": "ut"
   },
   {
-    "Date": "2012-12-31T03:46:54.1445302+01:00",
-    "IsConflict": false,
-    "Description": "Customizable solution-oriented groupware",
-    "DescriptionStyleHint": "Synergized optimal matrix",
-    "Tooltip": "quasi"
+    "Date": "2018-02-10T03:41:52.9341759+01:00",
+    "IsConflict": true,
+    "Description": "Balanced system-worthy complexity",
+    "DescriptionStyleHint": "Fully-configurable 6th generation support",
+    "Tooltip": "ut"
   }
 ]
 ```

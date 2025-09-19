@@ -100,7 +100,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Hoeger Inc and Sons",
+  "TaskName": "Schamberger, Prohaska and Carroll",
   "State": "All"
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 713,
-    "Name": "Stokes-Kutch",
-    "AssociateId": 229,
-    "DetailsTable": 267,
-    "DetailsRecord": 618,
+    "Id": 888,
+    "Name": "Abshire-Dicki",
+    "AssociateId": 470,
+    "DetailsTable": 380,
+    "DetailsRecord": 897,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "laborum",
-      "ParameterObject2": "aut"
+      "ParameterObject1": "nihil",
+      "ParameterObject2": "aliquam"
     },
-    "LastStarted": "2020-04-30T03:46:54.3007673+02:00",
-    "Created": "2008-04-08T03:46:54.3007673+02:00",
-    "StartCount": 798,
-    "DatabaseSerialNumber": "1260609",
-    "Context": "adipisci",
-    "Result": "accusamus",
+    "LastStarted": "2014-12-18T03:41:53.0745025+01:00",
+    "Created": "2024-08-17T03:41:53.0745025+02:00",
+    "StartCount": 529,
+    "DatabaseSerialNumber": "1480413",
+    "Context": "magni",
+    "Result": "vel",
     "State": "All",
-    "Description": "Extended upward-trending methodology",
-    "Response": "iusto",
-    "Request": "ea",
-    "ProgressDescription": "Reactive non-volatile benchmark",
-    "ProgressPercent": 112,
-    "FileName": "Monahan, White and Cassin",
+    "Description": "Enhanced optimal task-force",
+    "Response": "repellendus",
+    "Request": "ut",
+    "ProgressDescription": "Distributed fault-tolerant task-force",
+    "ProgressPercent": 721,
+    "FileName": "Gutkowski Inc and Sons",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 666
+        "FieldType": "System.String",
+        "FieldLength": 655
       }
     }
   }

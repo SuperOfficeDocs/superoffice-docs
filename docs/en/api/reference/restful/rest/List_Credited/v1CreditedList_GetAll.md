@@ -26,7 +26,7 @@ Gets all the Credited items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Credited/Items?includeDeleted=True
+GET /api/v1/List/Credited/Items?includeDeleted=False
 ```
 
 
@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 493,
-    "Name": "Considine-Wintheiser",
-    "Tooltip": "reprehenderit",
+    "Id": 176,
+    "Name": "Waters Group",
+    "Tooltip": "dolorum",
     "Deleted": false,
-    "UdListDefinitionId": 887,
-    "Rank": 999,
+    "UdListDefinitionId": 495,
+    "Rank": 835,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 915
+        "FieldLength": 843
       }
     }
   }

@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    356,
-    137
+    703,
+    252
   ],
   "State": "All"
 }
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 699,
-    "Name": "Heidenreich, Grimes and Tremblay",
-    "AssociateId": 623,
-    "DetailsTable": 14,
-    "DetailsRecord": 604,
+    "Id": 517,
+    "Name": "O'Hara, Lindgren and Jakubowski",
+    "AssociateId": 227,
+    "DetailsTable": 455,
+    "DetailsRecord": 803,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "earum",
-      "ParameterObject2": "omnis"
+      "ParameterObject1": "consectetur",
+      "ParameterObject2": "beatae"
     },
-    "LastStarted": "2014-05-24T03:46:54.3007673+02:00",
-    "Created": "1999-02-14T03:46:54.3007673+01:00",
-    "StartCount": 169,
-    "DatabaseSerialNumber": "1743961",
-    "Context": "repudiandae",
-    "Result": "voluptates",
+    "LastStarted": "2016-07-31T03:41:53.0745025+02:00",
+    "Created": "2012-09-22T03:41:53.0745025+02:00",
+    "StartCount": 383,
+    "DatabaseSerialNumber": "777956",
+    "Context": "magni",
+    "Result": "atque",
     "State": "All",
-    "Description": "Re-contextualized contextually-based function",
-    "Response": "ut",
-    "Request": "accusantium",
-    "ProgressDescription": "Reduced responsive interface",
-    "ProgressPercent": 156,
-    "FileName": "Bashirian, Bernier and Gulgowski",
+    "Description": "Reduced zero tolerance attitude",
+    "Response": "qui",
+    "Request": "qui",
+    "ProgressDescription": "Managed zero administration function",
+    "ProgressPercent": 828,
+    "FileName": "Schuppe Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 691
+        "FieldLength": 831
       }
     }
   }

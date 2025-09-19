@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/GetAppTaskMenus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,26 +90,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskMenuId": 781,
-    "Name": "Halvorson, Halvorson and Parker",
-    "Tooltip": "doloribus",
-    "TableName": "Kassulke, Marvin and Raynor",
-    "Area": "consequatur",
+    "TaskMenuId": 468,
+    "Name": "Considine-Haley",
+    "Tooltip": "aspernatur",
+    "TableName": "Ruecker-Kutch",
+    "Area": "voluptatem",
     "UrlOrSoprotocol": "http://www.example.com/",
     "TaskType": "CrmScript",
-    "CrmScriptId": 136,
+    "CrmScriptId": 313,
     "ShowInClient": "Mobile",
     "ArchiveBehaviour": "InArchives",
-    "Rank": 906,
+    "Rank": 38,
     "Encoding": "ANSI",
-    "ProgId": "quam",
-    "Deleted": false,
+    "ProgId": "excepturi",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 247
+        "FieldType": "System.String",
+        "FieldLength": 575
       }
     }
   }

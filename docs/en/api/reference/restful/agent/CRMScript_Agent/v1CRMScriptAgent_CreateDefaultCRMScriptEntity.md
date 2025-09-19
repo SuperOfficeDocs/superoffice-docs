@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 770,
-  "UniqueIdentifier": "voluptatem",
-  "Name": "Berge LLC",
-  "Description": "Horizontal zero defect installation",
-  "IncludeId": "deserunt",
-  "AccessKey": "quaerat",
-  "HierarchyId": 67,
-  "Source": "est",
-  "SourceCode": "in",
+  "EjscriptId": 606,
+  "UniqueIdentifier": "ut",
+  "Name": "Hyatt Group",
+  "Description": "Seamless systematic matrices",
+  "IncludeId": "error",
+  "AccessKey": "reiciendis",
+  "HierarchyId": 537,
+  "Source": "aspernatur",
+  "SourceCode": "consequatur",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 830,
+  "HtmlOutput": 846,
   "Includes": [
-    89,
-    494
+    533,
+    483
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 596,
-      "LineNumberTo": 309,
-      "Delta": 610,
-      "IncludeId": "ut",
+      "LineNumberFrom": 616,
+      "LineNumberTo": 945,
+      "Delta": 501,
+      "IncludeId": "fuga",
       "IncludedFrom": [
-        "voluptatum",
-        "consectetur"
+        "minima",
+        "a"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 581
+          "FieldLength": 711
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "1998-08-21T03:46:54.5663888+02:00",
-  "RegisteredAssociateId": 677,
-  "Updated": "2009-01-10T03:46:54.5663888+01:00",
-  "UpdatedAssociateId": 227,
+  "Registered": "2010-01-10T03:41:53.3401161+01:00",
+  "RegisteredAssociateId": 198,
+  "Updated": "2023-05-31T03:41:53.3401161+02:00",
+  "UpdatedAssociateId": 720,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 589
+      "FieldType": "System.Int32",
+      "FieldLength": 627
     }
   }
 }

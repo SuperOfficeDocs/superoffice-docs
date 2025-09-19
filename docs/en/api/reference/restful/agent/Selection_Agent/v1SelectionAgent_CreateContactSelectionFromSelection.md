@@ -117,14 +117,14 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 201,
-  "Name": "Shields, Gerhold and Halvorson",
+  "SelectionId": 615,
+  "Name": "Swift Group",
   "TargetSelectionType": "Combined",
-  "CopyMembers": true
+  "CopyMembers": false
 }
 ```
 
@@ -135,70 +135,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "User-friendly next generation migration",
-  "Postit": "molestias",
+  "Description": "Configurable system-worthy solution",
+  "Postit": "minus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 83,
-  "IncludePerson": 979,
+  "GroupIdx": 829,
+  "IncludePerson": 734,
   "MemberCount": 99.99,
-  "Name": "Fay Inc and Sons",
-  "PostitTextId": 294,
-  "CreatedDate": "2002-12-19T03:46:55.3007553+01:00",
-  "SelectionId": 377,
-  "SoundEx": "veritatis",
-  "Source": 287,
-  "TextId": 743,
-  "UpdatedDate": "2014-10-28T03:46:55.3007553+01:00",
-  "UpdatedCount": 797,
-  "Visibility": 87,
+  "Name": "Tillman, Sipes and Walter",
+  "PostitTextId": 838,
+  "CreatedDate": "2005-10-01T03:41:54.0432111+02:00",
+  "SelectionId": 942,
+  "SoundEx": "amet",
+  "Source": 927,
+  "TextId": 468,
+  "UpdatedDate": "2008-02-05T03:41:54.0432111+01:00",
+  "UpdatedCount": 299,
+  "Visibility": 758,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 990,
-  "TargetTableName": "Funk-Senger",
+  "CompanyUnique": true,
+  "TargetTableNumber": 581,
+  "TargetTableName": "Considine Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 386,
-  "RightSelectionId": 996,
+  "LeftSelectionId": 497,
+  "RightSelectionId": 420,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Beer, Von and Champlin",
-  "ShadowProviderName": "Rippin Inc and Sons",
-  "ChartKey": "ut",
-  "LastLoaded": "2018-11-25T03:46:55.3007553+01:00",
-  "LastLoadedBy": 966,
+  "MainProviderName": "Wilderman-Doyle",
+  "ShadowProviderName": "Hermiston Group",
+  "ChartKey": "voluptatum",
+  "LastLoaded": "2008-01-08T03:41:54.0432111+01:00",
+  "LastLoadedBy": 26,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2020-04-04T03:46:55.3007553+02:00",
-  "LastMembershipChangeBy": 909,
+  "LastMembershipChange": "2016-12-07T03:41:54.0432111+01:00",
+  "LastMembershipChangeBy": 167,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "eos",
-  "MailingsProviderName": "Turcotte LLC",
-  "DashboardTileDefinitionId": 82,
+  "MainHeading": "quod",
+  "MemberTabHeading": "perferendis",
+  "MailingsProviderName": "Quitzon, Kovacek and White",
+  "DashboardTileDefinitionId": 403,
   "VisibleFor": [
     {
-      "VisibleId": 71,
+      "VisibleId": 736,
       "Visibility": "All",
-      "DisplayValue": "impedit",
+      "DisplayValue": "inventore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 333
+          "FieldLength": 984
         }
       }
     },
     {
-      "VisibleId": 71,
+      "VisibleId": 736,
       "Visibility": "All",
-      "DisplayValue": "impedit",
+      "DisplayValue": "inventore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 333
+          "FieldLength": 984
         }
       }
     }
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 242
+      "FieldLength": 300
     }
   }
 }

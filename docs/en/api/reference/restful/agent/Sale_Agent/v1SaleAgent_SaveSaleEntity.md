@@ -150,7 +150,7 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -160,7 +160,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "maiores",
+  "SaleText": "est",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -169,90 +169,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2002-09-27T03:46:55.2538645+02:00",
-  "Amount": 8386.5839999999989,
-  "SaleId": 564,
-  "Earning": 26338.136,
-  "EarningPercent": 22865.664,
-  "Heading": "unde",
-  "Number": "767804",
-  "Probability": 721,
-  "CreatedDate": "2000-04-10T03:46:55.2538645+02:00",
-  "UpdatedDate": "2024-02-02T03:46:55.2538645+01:00",
+  "Saledate": "2006-06-28T03:41:53.9963385+02:00",
+  "Amount": 26062.344,
+  "SaleId": 662,
+  "Earning": 30509.489999999998,
+  "EarningPercent": 23006.694,
+  "Heading": "incidunt",
+  "Number": "1024677",
+  "Probability": 783,
+  "CreatedDate": "2006-01-23T03:41:53.9963385+01:00",
+  "UpdatedDate": "1999-11-23T03:41:53.9963385+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 692,
+  "ActiveLinks": 183,
   "Links": [
     {
-      "EntityName": "Ziemann-Moen",
-      "Id": 78,
-      "Description": "Re-engineered grid-enabled migration",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 815
+      "EntityName": "Johnson, Konopelski and Huels",
+      "Id": 248,
+      "Description": "Persistent zero defect conglomeration",
+      "ExtraInfo": "quibusdam",
+      "LinkId": 865
     },
     {
-      "EntityName": "Ziemann-Moen",
-      "Id": 78,
-      "Description": "Re-engineered grid-enabled migration",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 815
+      "EntityName": "Johnson, Konopelski and Huels",
+      "Id": 248,
+      "Description": "Persistent zero defect conglomeration",
+      "ExtraInfo": "quibusdam",
+      "LinkId": 865
     }
   ],
-  "NextDueDate": "2023-06-30T03:46:55.2538645+02:00",
-  "Postit": "sit",
+  "NextDueDate": "2019-06-15T03:41:53.9963385+02:00",
+  "Postit": "et",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2007-12-05T03:46:55.2538645+01:00",
+  "ReopenDate": "2020-01-21T03:41:53.9963385+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Kerluke Group",
-      "Comment": "unde",
-      "StakeholderRoleId": 656,
-      "CountryId": 469,
-      "PersonId": 724,
-      "EmailDescription": "derrick.crona@greenholt.uk",
-      "EmailId": 882,
-      "EmailAddress": "annamae.purdy@schustervonrueden.co.uk",
-      "PhoneId": 134,
-      "ContactName": "Kuhn, Tillman and Cronin",
-      "ContactId": 261,
-      "SaleId": 403,
-      "Mrmrs": "eaque",
-      "Firstname": "Brown",
-      "MiddleName": "Lehner, McKenzie and Legros",
-      "Lastname": "Davis",
-      "SaleStakeholderId": 435,
-      "Rank": 557,
-      "Phone": "964-498-5722"
+      "StakeholderRoleName": "Wilkinson, Hegmann and Kulas",
+      "Comment": "illo",
+      "StakeholderRoleId": 872,
+      "CountryId": 600,
+      "PersonId": 42,
+      "EmailDescription": "geo@fayhermiston.uk",
+      "EmailId": 587,
+      "EmailAddress": "wilma_wisozk@predovic.ca",
+      "PhoneId": 272,
+      "ContactName": "Monahan LLC",
+      "ContactId": 240,
+      "SaleId": 595,
+      "Mrmrs": "nesciunt",
+      "Firstname": "Evie",
+      "MiddleName": "Goldner LLC",
+      "Lastname": "Littel",
+      "SaleStakeholderId": 117,
+      "Rank": 914,
+      "Phone": "645-891-5184 x58812"
     }
   ],
-  "ActiveErpLinks": 502,
+  "ActiveErpLinks": 621,
   "UserDefinedFields": {
-    "SuperOffice:1": "1369531858",
-    "SuperOffice:2": "Zoila Doyle"
+    "SuperOffice:1": "Adolfo Heidenreich IV",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "consequatur"
+    "ExtraFields1": "facere",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "corporis"
+    "CustomFields1": "modi",
+    "CustomFields2": "alias"
   },
-  "PublishEventDate": "2008-03-04T03:46:55.2538645+01:00",
-  "PublishTo": "2000-10-07T03:46:55.2538645+02:00",
-  "PublishFrom": "2021-07-25T03:46:55.2538645+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2022-05-29T03:41:53.9963385+02:00",
+  "PublishTo": "2013-08-02T03:41:53.9963385+02:00",
+  "PublishFrom": "2004-09-10T03:41:53.9963385+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 59,
+      "VisibleId": 618,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "delectus"
     },
     {
-      "VisibleId": 59,
+      "VisibleId": 618,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "delectus"
     }
   ]
 }
@@ -271,7 +271,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "mollitia",
+  "SaleText": "est",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -280,113 +280,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2023-04-24T03:46:55.2538645+02:00",
-  "Amount": 14767.408,
-  "SaleId": 37,
-  "Earning": 7787.99,
-  "EarningPercent": 5086.482,
-  "Heading": "sunt",
-  "Number": "355760",
-  "Probability": 992,
-  "CreatedDate": "2010-04-14T03:46:55.2538645+02:00",
-  "UpdatedDate": "2006-01-26T03:46:55.2538645+01:00",
+  "Saledate": "2018-05-13T03:41:53.9963385+02:00",
+  "Amount": 8004.236,
+  "SaleId": 806,
+  "Earning": 10564.714,
+  "EarningPercent": 15228.106,
+  "Heading": "et",
+  "Number": "88845",
+  "Probability": 283,
+  "CreatedDate": "2021-06-29T03:41:53.9963385+02:00",
+  "UpdatedDate": "2010-06-30T03:41:53.9963385+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 119,
+  "ActiveLinks": 792,
   "Links": [
     {
-      "EntityName": "McGlynn Group",
-      "Id": 648,
-      "Description": "Diverse multi-tasking model",
-      "ExtraInfo": "exercitationem",
-      "LinkId": 377,
+      "EntityName": "Ebert-Schneider",
+      "Id": 307,
+      "Description": "Centralized next generation forecast",
+      "ExtraInfo": "ut",
+      "LinkId": 413,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 944
+          "FieldLength": 651
         }
       }
     }
   ],
-  "NextDueDate": "2008-04-21T03:46:55.2538645+02:00",
-  "Postit": "velit",
+  "NextDueDate": "2012-11-12T03:41:53.9963385+01:00",
+  "Postit": "cupiditate",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2019-12-02T03:46:55.2538645+01:00",
+  "ReopenDate": "2021-02-24T03:41:53.9963385+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Wuckert, Doyle and Littel",
-      "Comment": "quo",
-      "StakeholderRoleId": 972,
-      "CountryId": 1001,
-      "PersonId": 133,
-      "EmailDescription": "modesta@wiegandbaumbach.name",
-      "EmailId": 520,
-      "EmailAddress": "fatima_mann@schadenlemke.ca",
-      "PhoneId": 901,
-      "ContactName": "Marks-Boyer",
-      "ContactId": 432,
-      "SaleId": 909,
-      "Mrmrs": "est",
-      "Firstname": "Waldo",
-      "MiddleName": "Jenkins-Hickle",
-      "Lastname": "Harris",
-      "SaleStakeholderId": 550,
-      "Rank": 58,
-      "Phone": "1-790-980-7273",
+      "StakeholderRoleName": "Cremin Group",
+      "Comment": "est",
+      "StakeholderRoleId": 752,
+      "CountryId": 787,
+      "PersonId": 30,
+      "EmailDescription": "osvaldo.bauch@green.name",
+      "EmailId": 438,
+      "EmailAddress": "myrl.ziemann@moorehyatt.com",
+      "PhoneId": 659,
+      "ContactName": "Jewess, Marks and Wilkinson",
+      "ContactId": 125,
+      "SaleId": 100,
+      "Mrmrs": "laudantium",
+      "Firstname": "Corene",
+      "MiddleName": "Hudson LLC",
+      "Lastname": "Gottlieb",
+      "SaleStakeholderId": 460,
+      "Rank": 901,
+      "Phone": "1-668-048-5560",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 546
+          "FieldType": "System.String",
+          "FieldLength": 43
         }
       }
     }
   ],
-  "ActiveErpLinks": 544,
+  "ActiveErpLinks": 103,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Naomi Trisha Tromp",
-    "SuperOffice:2": "Prof. Aniya Nicolas"
+    "SuperOffice:1": "Judge Okuneva",
+    "SuperOffice:2": "345290035"
   },
   "ExtraFields": {
-    "ExtraFields1": "architecto",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "et",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "sint",
-    "CustomFields2": "iste"
+    "CustomFields1": "recusandae",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2000-02-08T03:46:55.2538645+01:00",
-  "PublishTo": "2006-03-28T03:46:55.2538645+02:00",
-  "PublishFrom": "2004-11-19T03:46:55.2538645+01:00",
+  "PublishEventDate": "2024-06-29T03:41:53.9963385+02:00",
+  "PublishTo": "2023-12-04T03:41:53.9963385+01:00",
+  "PublishFrom": "2010-04-09T03:41:53.9963385+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 644,
+      "VisibleId": 997,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 695
+          "FieldType": "System.String",
+          "FieldLength": 363
         }
       }
     },
     {
-      "VisibleId": 644,
+      "VisibleId": 997,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 695
+          "FieldType": "System.String",
+          "FieldLength": 363
         }
       }
     }
@@ -395,8 +395,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 341
+      "FieldType": "System.Int32",
+      "FieldLength": 637
     }
   }
 }

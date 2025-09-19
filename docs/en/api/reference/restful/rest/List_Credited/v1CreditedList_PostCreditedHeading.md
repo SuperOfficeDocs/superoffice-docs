@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 302,
-  "Name": "Paucek-Collier",
-  "Tooltip": "repudiandae",
+  "HeadingId": 804,
+  "Name": "Goldner-Bauch",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 324,
-  "UdListDefinitionId": 771
+  "Rank": 462,
+  "UdListDefinitionId": 572
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 688,
-  "Name": "Vandervort-Friesen",
-  "Tooltip": "molestias",
+  "HeadingId": 548,
+  "Name": "Koepp Group",
+  "Tooltip": "perspiciatis",
   "Deleted": false,
-  "Rank": 655,
-  "UdListDefinitionId": 525,
+  "Rank": 579,
+  "UdListDefinitionId": 377,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldLength": 566
     }
   }
 }

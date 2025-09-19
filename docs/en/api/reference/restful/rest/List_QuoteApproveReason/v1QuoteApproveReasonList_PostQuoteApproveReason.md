@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 914,
-  "Name": "Heller LLC",
-  "Tooltip": "odio",
-  "Deleted": true,
-  "UdListDefinitionId": 999,
-  "Rank": 270
+  "Id": 385,
+  "Name": "Lynch-Kshlerin",
+  "Tooltip": "delectus",
+  "Deleted": false,
+  "UdListDefinitionId": 287,
+  "Rank": 572
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 863,
-  "Name": "Gutmann Group",
-  "Tooltip": "optio",
+  "Id": 918,
+  "Name": "Greenholt-Hegmann",
+  "Tooltip": "assumenda",
   "Deleted": false,
-  "UdListDefinitionId": 51,
-  "Rank": 28,
+  "UdListDefinitionId": 922,
+  "Rank": 578,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 239
+      "FieldLength": 320
     }
   }
 }

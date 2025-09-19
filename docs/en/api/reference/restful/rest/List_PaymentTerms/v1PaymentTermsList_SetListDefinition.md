@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 587,
-  "Name": "Lebsack-Glover",
-  "Tooltip": "excepturi",
-  "Deleted": false,
-  "Rank": 126,
+  "Id": 475,
+  "Name": "Ankunding, Brekke and Mraz",
+  "Tooltip": "autem",
+  "Deleted": true,
+  "Rank": 739,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dolorem",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "magnam",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 523,
-  "Name": "Toy Inc and Sons",
-  "Tooltip": "illo",
-  "Deleted": true,
-  "Rank": 437,
+  "Id": 565,
+  "Name": "Renner Inc and Sons",
+  "Tooltip": "ea",
+  "Deleted": false,
+  "Rank": 351,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
-  "InUseByUserDefinedFields": true,
+  "ListType": "autem",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 402
+      "FieldType": "System.String",
+      "FieldLength": 860
     }
   }
 }

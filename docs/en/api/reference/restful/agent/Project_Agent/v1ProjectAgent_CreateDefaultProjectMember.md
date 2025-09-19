@@ -67,6 +67,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -86,33 +88,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 274,
-  "ContactId": 82,
-  "ProjectId": 148,
-  "ContactName": "Brown, Koch and Bergnaum",
+  "ProjectmemberId": 40,
+  "ContactId": 916,
+  "ProjectId": 193,
+  "ContactName": "Greenfelder, Spencer and Oberbrunner",
   "ContactDepartment": "",
-  "ProjectName": "Senger, Sporer and Mayer",
-  "EmailId": 10,
-  "EmailAddress": "mayra.oberbrunner@morar.ca",
-  "CountryId": 661,
-  "Firstname": "Helga",
-  "MiddleName": "Farrell LLC",
-  "Lastname": "Bruen",
-  "PersonId": 7,
-  "Mrmrs": "qui",
-  "ProjectMemberTypeName": "Kuhn, Grant and Dach",
-  "Phone": "202.744.8754 x19684",
-  "PhoneId": 637,
-  "ProjectMemberTypeId": 436,
-  "EmailAddressName": "norberto@mann.ca",
-  "Comment": "distinctio",
-  "FullName": "Dominique Osinski",
+  "ProjectName": "Lynch LLC",
+  "EmailId": 968,
+  "EmailAddress": "stevie@ankunding.uk",
+  "CountryId": 986,
+  "Firstname": "Ernestina",
+  "MiddleName": "Dietrich-Ferry",
+  "Lastname": "Dicki",
+  "PersonId": 414,
+  "Mrmrs": "aliquam",
+  "ProjectMemberTypeName": "Romaguera LLC",
+  "Phone": "887.982.6936",
+  "PhoneId": 21,
+  "ProjectMemberTypeId": 833,
+  "EmailAddressName": "liam_hermiston@lehner.co.uk",
+  "Comment": "enim",
+  "FullName": "Osbaldo Williamson",
+  "Registered": "2008-09-27T03:41:53.9182167+02:00",
+  "Updated": "2025-01-21T03:41:53.9182167+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 987
+      "FieldLength": 94
     }
   }
 }

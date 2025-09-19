@@ -76,7 +76,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,31 +86,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 874,
-  "Name": "Bechtelar, Rowe and Robel",
-  "Description": "Compatible stable toolset",
-  "DefaultHeight": 611,
-  "DefaultWidth": 186,
+  "DashboardTileDefinitionId": 989,
+  "Name": "Kassulke Inc and Sons",
+  "Description": "Phased incremental paradigm",
+  "DefaultHeight": 521,
+  "DefaultWidth": 472,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Wilderman, Auer and Davis",
-  "SelectionId": 833,
+  "EntityName": "Maggio Inc and Sons",
+  "SelectionId": 306,
   "CurrencyMode": "Base",
-  "CurrencyCode": "mollitia",
+  "CurrencyCode": "nam",
   "Measure": "Average",
-  "MeasureField": "magni",
-  "SortBy": "saepe",
-  "LayoutConfig": "voluptatem",
-  "SecondarySelectionId": 172,
-  "MeasureByField": "alias",
+  "MeasureField": "quia",
+  "SortBy": "et",
+  "LayoutConfig": "delectus",
+  "SecondarySelectionId": 835,
+  "MeasureByField": "accusantium",
   "Usage": "Dashboard",
-  "ProviderName": "Witting Group",
+  "ProviderName": "Goodwin-Kessler",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldLength": 52
     }
   }
 }

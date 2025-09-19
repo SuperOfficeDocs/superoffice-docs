@@ -104,11 +104,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 163
+  "DocumentId": 974
 }
 ```
 
@@ -121,97 +121,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 798,
-      "ContactName": "Tillman Group",
-      "PersonId": 837,
-      "PersonName": "Abshire Group",
-      "AssociateId": 983,
-      "Address": "quia",
-      "EmailId": 954,
+      "ContactId": 440,
+      "ContactName": "Cartwright LLC",
+      "PersonId": 7,
+      "PersonName": "Padberg-Stoltenberg",
+      "AssociateId": 989,
+      "Address": "quam",
+      "EmailId": 399,
       "DuplicatePersonIds": [
-        877,
-        989
+        488,
+        583
       ],
-      "Name": "Keeling-Hand",
+      "Name": "Konopelski-Heathcote",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 408
+          "FieldType": "System.Int32",
+          "FieldLength": 732
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 324,
-      "ContactName": "Stiedemann, Torp and Keeling",
-      "PersonId": 735,
-      "PersonName": "Lebsack LLC",
-      "AssociateId": 125,
-      "Address": "rerum",
-      "EmailId": 456,
+      "ContactId": 661,
+      "ContactName": "Wintheiser-Wuckert",
+      "PersonId": 448,
+      "PersonName": "Bartell, Kuphal and Bernier",
+      "AssociateId": 665,
+      "Address": "ipsum",
+      "EmailId": 544,
       "DuplicatePersonIds": [
-        995,
-        888
+        617,
+        1001
       ],
-      "Name": "Pollich-Harvey",
+      "Name": "Ryan-Miller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 486
+          "FieldType": "System.Int32",
+          "FieldLength": 749
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 216,
-      "ContactName": "Nienow-Parker",
-      "PersonId": 484,
-      "PersonName": "Anderson, Tromp and Daugherty",
-      "AssociateId": 819,
-      "Address": "aut",
-      "EmailId": 110,
+      "ContactId": 861,
+      "ContactName": "Schroeder-Larkin",
+      "PersonId": 899,
+      "PersonName": "Rutherford-Dibbert",
+      "AssociateId": 788,
+      "Address": "necessitatibus",
+      "EmailId": 377,
       "DuplicatePersonIds": [
-        634,
-        50
+        351,
+        445
       ],
-      "Name": "Ortiz, O'Conner and Roberts",
+      "Name": "Huel Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 405
+          "FieldLength": 842
         }
       }
     }
   ],
-  "Subject": "voluptates",
-  "HTMLBody": "iusto",
+  "Subject": "suscipit",
+  "HTMLBody": "quia",
   "From": null,
-  "Sent": "2021-03-18T03:46:54.785131+01:00",
-  "Size": 932,
+  "Sent": "2008-04-03T03:41:53.5276084+02:00",
+  "Size": 236,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "rerum",
-  "PlainBody": "qui",
+  "MessageID": "aliquam",
+  "PlainBody": "incidunt",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 83,
+  "ServerId": 199,
   "Attachments": [
     {
-      "Description": "Pre-emptive stable circuit",
-      "Filename": "cupiditate",
-      "Size": 243,
-      "Type": "cumque",
-      "Encoding": "non",
-      "Id": "quibusdam",
-      "Disposition": "laboriosam",
+      "Description": "Mandatory assymetric architecture",
+      "Filename": "eveniet",
+      "Size": 756,
+      "Type": "qui",
+      "Encoding": "enim",
+      "Id": "qui",
+      "Disposition": "in",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -219,58 +219,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 694
+          "FieldLength": 853
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Leannon-Kirlin",
+      "Name": "Wiegand LLC",
       "Values": [
-        "qui",
-        "eius"
+        "enim",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 729
+          "FieldLength": 436
         }
       }
     },
     {
-      "Name": "Leannon-Kirlin",
+      "Name": "Wiegand LLC",
       "Values": [
-        "qui",
-        "eius"
+        "enim",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 729
+          "FieldLength": 436
         }
       }
     }
   ],
-  "FolderName": "Moen LLC",
-  "EmailItemId": 287,
-  "AccountId": 807,
-  "ReceivedAt": "1999-02-03T03:46:54.785131+01:00",
+  "FolderName": "Ullrich, Rau and Krajcik",
+  "EmailItemId": 690,
+  "AccountId": 252,
+  "ReceivedAt": "2021-01-23T03:41:53.5276084+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2021-01-24T03:46:54.785131+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2018-09-21T03:41:53.5276084+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldType": "System.String",
+      "FieldLength": 993
     }
   }
 }

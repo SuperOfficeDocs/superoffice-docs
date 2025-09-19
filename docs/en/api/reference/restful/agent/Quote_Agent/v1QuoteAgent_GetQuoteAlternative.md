@@ -27,7 +27,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=516
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=845
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,35 +100,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 465,
-  "ERPQuoteAlternativeKey": "molestiae",
-  "QuoteVersionId": 394,
-  "Name": "Tremblay, Armstrong and Bosco",
-  "Description": "Advanced 24 hour instruction set",
+  "QuoteAlternativeId": 824,
+  "ERPQuoteAlternativeKey": "qui",
+  "QuoteVersionId": 479,
+  "Name": "Walter-Wisozk",
+  "Description": "Multi-tiered secondary concept",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 24348.046,
-  "ERPDiscountAmount": 29014.572,
-  "DiscountPercent": 8552.686,
-  "DiscountAmount": 30772.746,
+  "ERPDiscountPercent": 5942.0639999999994,
+  "ERPDiscountAmount": 16506.778,
+  "DiscountPercent": 16998.816,
+  "DiscountAmount": 9132.476,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "excepturi",
-  "VAT": 13122.057999999999,
-  "EarningPercent": 3870.49,
-  "EarningAmount": 22348.554,
-  "SubTotal": 18227.344,
-  "TotalPrice": 16757.498,
-  "ExtraField1": "provident",
-  "ExtraField2": "earum",
-  "ExtraField3": "iste",
-  "ExtraField4": "eos",
-  "ExtraField5": "amet",
+  "VATInfo": "voluptate",
+  "VAT": 7819.33,
+  "EarningPercent": 16964.342,
+  "EarningAmount": 11937.405999999999,
+  "SubTotal": 28876.676,
+  "TotalPrice": 8245.554,
+  "ExtraField1": "doloremque",
+  "ExtraField2": "quas",
+  "ExtraField3": "quis",
+  "ExtraField4": "rerum",
+  "ExtraField5": "eius",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 246
+      "FieldLength": 963
     }
   }
 }

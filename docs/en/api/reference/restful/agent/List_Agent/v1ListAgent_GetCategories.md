@@ -79,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 597,
-    "Value": "deleniti",
-    "Tooltip": "praesentium",
+    "Id": 795,
+    "Value": "facere",
+    "Tooltip": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 52
+        "FieldType": "System.String",
+        "FieldLength": 478
       }
     }
   },
   {
-    "Id": 597,
-    "Value": "deleniti",
-    "Tooltip": "praesentium",
+    "Id": 795,
+    "Value": "facere",
+    "Tooltip": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 52
+        "FieldType": "System.String",
+        "FieldLength": 478
       }
     }
   }

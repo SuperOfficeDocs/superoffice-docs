@@ -103,14 +103,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "ea",
-  "PluginId": 165
+  "LanguageCode": "hic",
+  "PluginId": 304
 }
 ```
 
@@ -121,37 +121,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 462,
-  "Name": "Schiller-Labadie",
-  "Tooltip": "aliquam",
-  "SaveInDb": 179,
-  "Filename": "sit",
-  "DefaultOref": "minus",
+  "DocumentTemplateId": 113,
+  "Name": "Romaguera, Monahan and Stroman",
+  "Tooltip": "quisquam",
+  "SaveInDb": 530,
+  "Filename": "architecto",
+  "DefaultOref": "dolor",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 381,
-  "IntentId": 24,
+  "AutoeventId": 818,
+  "IntentId": 420,
   "IsDefaultPublished": false,
-  "Rank": 54,
-  "LoadTemplateFromPlugin": 582,
-  "MimeType": "id",
+  "Rank": 530,
+  "LoadTemplateFromPlugin": 182,
+  "MimeType": "quis",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 95,
+  "DocumentTypeKey": 41,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "marcelino_nolan@pagac.ca",
+  "EmailSubject": "georgette_conroy@ernser.us",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "stacy_jacobs@turcotte.ca",
+  "SenderEmailAddress": "susie@mullerbauch.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 819
+      "FieldLength": 735
     }
   }
 }

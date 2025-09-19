@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/EMail/ResolveEMailRecipients
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "rocky_okon@walsh.ca"
+  "EmailAddress": "trinity@kuhnleannon.uk"
 }
 ```
 
@@ -103,24 +103,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 909,
-    "ContactName": "Strosin-Gusikowski",
-    "PersonId": 631,
-    "PersonName": "Herman Group",
-    "AssociateId": 823,
-    "Address": "in",
-    "EmailId": 827,
+    "ContactId": 66,
+    "ContactName": "Donnelly Group",
+    "PersonId": 908,
+    "PersonName": "O'Reilly-Rice",
+    "AssociateId": 311,
+    "Address": "corrupti",
+    "EmailId": 712,
     "DuplicatePersonIds": [
-      67,
-      820
+      34,
+      949
     ],
-    "Name": "Hodkiewicz Inc and Sons",
+    "Name": "Wilderman LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 727
+        "FieldType": "System.Int32",
+        "FieldLength": 54
       }
     }
   }

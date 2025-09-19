@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 226,
-    "Name": "Kuvalis LLC",
-    "Tooltip": "quaerat",
+    "Id": 221,
+    "Name": "Mills, Moen and Bartell",
+    "Tooltip": "sequi",
     "Deleted": false,
-    "UdListDefinitionId": 414,
-    "Rank": 515,
+    "UdListDefinitionId": 154,
+    "Rank": 71,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 909
+        "FieldLength": 771
       }
     }
   }

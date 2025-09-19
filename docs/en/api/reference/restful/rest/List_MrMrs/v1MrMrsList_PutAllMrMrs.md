@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 9,
-    "Name": "Haley-Lemke",
-    "Tooltip": "sed",
+    "Id": 706,
+    "Name": "Sanford Group",
+    "Tooltip": "sit",
     "Deleted": false,
-    "UdListDefinitionId": 760,
-    "Rank": 247
+    "UdListDefinitionId": 133,
+    "Rank": 254
   },
   {
-    "Id": 9,
-    "Name": "Haley-Lemke",
-    "Tooltip": "sed",
+    "Id": 706,
+    "Name": "Sanford Group",
+    "Tooltip": "sit",
     "Deleted": false,
-    "UdListDefinitionId": 760,
-    "Rank": 247
+    "UdListDefinitionId": 133,
+    "Rank": 254
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 229,
-    "Name": "Pacocha LLC",
-    "Tooltip": "quia",
+    "Id": 715,
+    "Name": "Berge Group",
+    "Tooltip": "magni",
     "Deleted": false,
-    "UdListDefinitionId": 452,
-    "Rank": 415,
+    "UdListDefinitionId": 347,
+    "Rank": 950,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 961
+        "FieldType": "System.Int32",
+        "FieldLength": 727
       }
     }
   }

@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 715,
-  "Name": "O'Reilly-Pacocha",
-  "Tooltip": "non",
-  "Rank": 189,
-  "Rate": 12034.56,
-  "Units": 1375.826,
+  "CurrencyId": 451,
+  "Name": "Swaniawski, Huels and Conroy",
+  "Tooltip": "officiis",
+  "Rank": 32,
+  "Rate": 28080.64,
+  "Units": 5211.842,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 844
+      "FieldType": "System.String",
+      "FieldLength": 963
     }
   }
 }

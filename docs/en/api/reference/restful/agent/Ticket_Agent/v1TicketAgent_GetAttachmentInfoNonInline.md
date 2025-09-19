@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 429
+  "TicketMessageEntityId": 288
 }
 ```
 
@@ -97,20 +97,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 980,
-    "Name": "Nienow Group",
-    "ContentType": "neque",
-    "AttSize": 845,
-    "InlineImage": false,
-    "ContentId": "et",
-    "AuthKey": "inventore",
+    "AttachmentId": 507,
+    "Name": "Turner, Rodriguez and Lindgren",
+    "ContentType": "eligendi",
+    "AttSize": 980,
+    "InlineImage": true,
+    "ContentId": "deserunt",
+    "AuthKey": "aliquid",
     "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 387
+        "FieldType": "System.String",
+        "FieldLength": 733
       }
     }
   }

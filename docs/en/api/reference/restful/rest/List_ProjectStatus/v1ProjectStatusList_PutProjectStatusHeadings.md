@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 928,
-    "Name": "Connelly Inc and Sons",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 279,
-    "UdListDefinitionId": 792
+    "HeadingId": 958,
+    "Name": "Mayert, Torphy and Bartoletti",
+    "Tooltip": "possimus",
+    "Deleted": false,
+    "Rank": 866,
+    "UdListDefinitionId": 1002
   },
   {
-    "HeadingId": 928,
-    "Name": "Connelly Inc and Sons",
-    "Tooltip": "est",
-    "Deleted": true,
-    "Rank": 279,
-    "UdListDefinitionId": 792
+    "HeadingId": 958,
+    "Name": "Mayert, Torphy and Bartoletti",
+    "Tooltip": "possimus",
+    "Deleted": false,
+    "Rank": 866,
+    "UdListDefinitionId": 1002
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 952,
-    "Name": "Robel-Gerlach",
-    "Tooltip": "ex",
-    "Deleted": false,
-    "Rank": 351,
-    "UdListDefinitionId": 220,
+    "HeadingId": 582,
+    "Name": "Johns-Kiehn",
+    "Tooltip": "omnis",
+    "Deleted": true,
+    "Rank": 865,
+    "UdListDefinitionId": 923,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 414
+        "FieldLength": 536
       }
     }
   }

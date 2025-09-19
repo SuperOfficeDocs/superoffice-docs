@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 430,
-    "Name": "Runolfsdottir LLC",
-    "Tooltip": "accusamus",
-    "Deleted": false,
-    "UdListDefinitionId": 192,
-    "Rank": 756,
+    "Id": 546,
+    "Name": "Bernier, Rath and DuBuque",
+    "Tooltip": "dolores",
+    "Deleted": true,
+    "UdListDefinitionId": 689,
+    "Rank": 227,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 575
+        "FieldType": "System.Int32",
+        "FieldLength": 773
       }
     }
   }

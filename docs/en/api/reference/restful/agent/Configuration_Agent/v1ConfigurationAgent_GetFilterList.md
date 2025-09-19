@@ -74,8 +74,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "est",
-  "Instance": "reiciendis"
+  "Application": "animi",
+  "Instance": "inventore"
 }
 ```
 
@@ -85,5 +85,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"enim"
+"sit"
 ```

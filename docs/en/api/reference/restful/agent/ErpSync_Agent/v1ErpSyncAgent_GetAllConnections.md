@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -106,33 +106,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 70,
-    "ErpConnectorId": 858,
-    "DisplayName": "Kuhlman-Upton",
-    "DisplayDescription": "Balanced heuristic model",
+    "ErpConnectionId": 665,
+    "ErpConnectorId": 416,
+    "DisplayName": "Barton, Braun and Runolfsdottir",
+    "DisplayDescription": "Persevering grid-enabled utilisation",
     "Active": false,
-    "ConnectionId": "pariatur",
-    "MostRecentTimestamp": "dolorem",
+    "ConnectionId": "maxime",
+    "MostRecentTimestamp": "ut",
     "ConfigFields": {
-      "ConfigFields1": "tenetur",
-      "ConfigFields2": "voluptate"
+      "ConfigFields1": "excepturi",
+      "ConfigFields2": "esse"
     },
-    "Deleted": true,
+    "Deleted": false,
     "AllAccess": false,
     "UserGroupAccessIds": [
-      544,
-      534
+      139,
+      430
     ],
     "AssociateAccessIds": [
-      495,
-      837
+      849,
+      73
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 206
+        "FieldLength": 740
       }
     }
   }

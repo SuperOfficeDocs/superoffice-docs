@@ -49,7 +49,7 @@ This table contains actions for the tickets.
 |------|-------------|
 |[ej\_message](ej-message.md)  |This table contains the messages listed under tickets. |
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[ticket\_log\_change](ticket-log-change.md)  |This table contains log entries for the tickets. |
 

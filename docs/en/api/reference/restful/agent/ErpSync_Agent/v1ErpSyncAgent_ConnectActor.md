@@ -72,29 +72,29 @@ No Content
 POST /api/v1/Agents/ErpSync/ConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 657,
-  "CrmRecordId": 251,
+  "ErpConnectionId": 566,
+  "CrmRecordId": 918,
   "CrmActorType": "Contact",
-  "ErpKey": "vel",
+  "ErpKey": "error",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Lynch Group",
-      "CrmFieldKey": "quos",
-      "Value": "ducimus",
-      "DisplayValue": "possimus",
+      "DisplayName": "Hoppe-Larson",
+      "CrmFieldKey": "in",
+      "Value": "repudiandae",
+      "DisplayValue": "quasi",
       "SyncToCrm": false,
       "SyncToErp": false
     },
     {
-      "DisplayName": "Lynch Group",
-      "CrmFieldKey": "quos",
-      "Value": "ducimus",
-      "DisplayValue": "possimus",
+      "DisplayName": "Hoppe-Larson",
+      "CrmFieldKey": "in",
+      "Value": "repudiandae",
+      "DisplayValue": "quasi",
       "SyncToCrm": false,
       "SyncToErp": false
     }

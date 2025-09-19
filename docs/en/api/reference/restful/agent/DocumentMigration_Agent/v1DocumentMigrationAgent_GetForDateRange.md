@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 347,
-  "MinDate": "2000-03-17T03:46:54.707009+01:00",
-  "MaxDate": "2010-11-25T03:46:54.707009+01:00",
-  "IncludeEmails": false
+  "DocumentPluginId": 365,
+  "MinDate": "2014-07-12T03:41:53.4651107+02:00",
+  "MaxDate": "1999-10-25T03:41:53.4651107+02:00",
+  "IncludeEmails": true
 }
 ```
 
@@ -98,29 +98,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 983,
-  "NumDocumentsAlreadyMigrated": 917,
+  "NumDocumentsOmitted": 525,
+  "NumDocumentsAlreadyMigrated": 96,
   "Documents": [
     {
-      "DocumentId": 6,
-      "ContactId": 279,
-      "PersonId": 158,
-      "SaleId": 308,
-      "ProjectId": 50,
-      "DocTmplId": 607,
-      "AssociateId": 742,
-      "UserGroupId": 537,
-      "VisibleForId": 827
+      "DocumentId": 549,
+      "ContactId": 379,
+      "PersonId": 333,
+      "SaleId": 789,
+      "ProjectId": 253,
+      "DocTmplId": 623,
+      "AssociateId": 910,
+      "UserGroupId": 427,
+      "VisibleForId": 418
     }
   ],
   "Associates": [
     {
-      "AssociateId": 584,
-      "EmailAddress": "rubye@conroytromp.uk"
+      "AssociateId": 158,
+      "EmailAddress": "joy@ernser.name"
     },
     {
-      "AssociateId": 584,
-      "EmailAddress": "rubye@conroytromp.uk"
+      "AssociateId": 158,
+      "EmailAddress": "joy@ernser.name"
     }
   ]
 }

@@ -72,11 +72,11 @@ OK
 POST /api/v1/Agents/ErpSync/SupportsAdvancedSearch
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 597,
+  "ErpConnectionId": 115,
   "ErpActorType": "Customer"
 }
 ```

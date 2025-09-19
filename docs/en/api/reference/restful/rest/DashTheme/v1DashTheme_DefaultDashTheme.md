@@ -73,18 +73,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 77,
-  "Name": "Konopelski-Emmerich",
-  "Config": "porro",
-  "Rank": 843,
-  "Client": "cum",
-  "Style": "assumenda",
+  "DashboardThemeId": 199,
+  "Name": "Franecki-Williamson",
+  "Config": "adipisci",
+  "Rank": 811,
+  "Client": "et",
+  "Style": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 425
+      "FieldLength": 445
     }
   }
 }

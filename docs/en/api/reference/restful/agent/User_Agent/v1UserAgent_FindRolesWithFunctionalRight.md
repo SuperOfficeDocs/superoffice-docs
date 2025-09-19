@@ -94,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Kutch, Hickle and Krajcik"
+  "FunctionalRightName": "Gulgowski, Rath and Konopelski"
 }
 ```
 
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 707,
-    "Name": "Wintheiser LLC",
-    "ToolTip": "Asperiores et et.",
+    "Id": 245,
+    "Name": "Jones-Rosenbaum",
+    "ToolTip": "Velit voluptatem.",
     "Deleted": false,
-    "Rank": 88,
-    "Type": "rerum",
+    "Rank": 925,
+    "Type": "asperiores",
     "ChildItems": [
       {
-        "Id": 904,
-        "Name": "Miller LLC",
-        "ToolTip": "Alias non nihil tenetur quo.",
-        "Deleted": false,
-        "Rank": 603,
-        "Type": "quibusdam",
+        "Id": 174,
+        "Name": "Dare, Schmitt and Kessler",
+        "ToolTip": "Ipsum natus blanditiis commodi qui.",
+        "Deleted": true,
+        "Rank": 632,
+        "Type": "voluptatum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolores",
-        "ColorBlock": 614,
-        "ExtraInfo": "natus",
-        "StyleHint": "sit",
-        "FullName": "Khalil Halvorson",
+        "IconHint": "perspiciatis",
+        "ColorBlock": 793,
+        "ExtraInfo": "quo",
+        "StyleHint": "vitae",
+        "FullName": "Meggie Hartmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 939
+            "FieldType": "System.Int32",
+            "FieldLength": 557
           }
         }
       }
     ],
-    "IconHint": "asperiores",
-    "ColorBlock": 696,
-    "ExtraInfo": "qui",
-    "StyleHint": "id",
-    "FullName": "Miss Amie Maymie Heller",
+    "IconHint": "eius",
+    "ColorBlock": 20,
+    "ExtraInfo": "nihil",
+    "StyleHint": "mollitia",
+    "FullName": "Yessenia Natasha Waters PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 955
+        "FieldLength": 245
       }
     }
   }

@@ -100,27 +100,27 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 818,
-  "Name": "Glover, Dickens and Gerhold",
-  "CurrencyId": 420,
-  "EnglishName": "Collier Inc and Sons",
+  "CountryId": 566,
+  "Name": "Olson, Jerde and Watsica",
+  "CurrencyId": 650,
+  "EnglishName": "McDermott, Vandervort and Bergstrom",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Innovative multi-state internet solution",
-  "OrgNrText": "636140",
-  "InterAreaPrefix": "nihil",
-  "DialInPrefix": "eaque",
-  "ZipPrefix": "neque",
-  "DomainName": "Bergstrom LLC",
-  "AddressLayoutId": 743,
-  "DomesticAddressLayoutId": 447,
-  "ForeignAddressLayoutId": 231,
-  "Rank": 145,
-  "Tooltip": "nobis",
+  "ImageDescription": "Exclusive tangible product",
+  "OrgNrText": "850645",
+  "InterAreaPrefix": "animi",
+  "DialInPrefix": "dolore",
+  "ZipPrefix": "voluptates",
+  "DomainName": "Botsford-Osinski",
+  "AddressLayoutId": 202,
+  "DomesticAddressLayoutId": 409,
+  "ForeignAddressLayoutId": 588,
+  "Rank": 239,
+  "Tooltip": "cum",
   "Deleted": false
 }
 ```
@@ -132,30 +132,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 660,
-  "Name": "Strosin, Hagenes and Leuschke",
-  "CurrencyId": 106,
-  "EnglishName": "Smith, Dickens and Hane",
+  "CountryId": 455,
+  "Name": "Osinski-Schneider",
+  "CurrencyId": 761,
+  "EnglishName": "Keeling Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Streamlined modular access",
-  "OrgNrText": "991162",
-  "InterAreaPrefix": "dicta",
-  "DialInPrefix": "harum",
-  "ZipPrefix": "molestiae",
-  "DomainName": "Leuschke Inc and Sons",
-  "AddressLayoutId": 853,
-  "DomesticAddressLayoutId": 188,
-  "ForeignAddressLayoutId": 531,
-  "Rank": 561,
-  "Tooltip": "quia",
+  "ImageDescription": "Function-based cohesive firmware",
+  "OrgNrText": "992559",
+  "InterAreaPrefix": "et",
+  "DialInPrefix": "possimus",
+  "ZipPrefix": "quam",
+  "DomainName": "Prosacco-Mertz",
+  "AddressLayoutId": 59,
+  "DomesticAddressLayoutId": 502,
+  "ForeignAddressLayoutId": 233,
+  "Rank": 442,
+  "Tooltip": "exercitationem",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 757
+      "FieldType": "System.Int32",
+      "FieldLength": 48
     }
   }
 }

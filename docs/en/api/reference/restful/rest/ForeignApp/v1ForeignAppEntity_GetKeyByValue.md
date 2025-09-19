@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=nobis
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=debitis
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 06 Oct 2014 03:47:00 G10T
+Last-Modified: Fri, 04 Jun 1999 03:41:58 G6T
 
 {
-  "Key": "laudantium",
-  "Value": "quas",
-  "RecordId": 907,
-  "CreatedDate": "2024-12-23T03:47:00.0349452+01:00",
-  "UpdatedDate": "2014-10-06T03:47:00.0349452+02:00",
-  "UpdatedBy": "quia",
-  "CreatedBy": "quo",
-  "TableName": "Labadie LLC",
+  "Key": "sit",
+  "Value": "ad",
+  "RecordId": 436,
+  "CreatedDate": "2013-09-14T03:41:58.7617712+02:00",
+  "UpdatedDate": "1999-06-04T03:41:58.7617712+02:00",
+  "UpdatedBy": "unde",
+  "CreatedBy": "debitis",
+  "TableName": "Flatley-Larkin",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 912
+      "FieldType": "System.Int32",
+      "FieldLength": 888
     }
   }
 }

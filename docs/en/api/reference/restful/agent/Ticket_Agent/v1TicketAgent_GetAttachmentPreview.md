@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 877
+  "AttachmentId": 92
 }
 ```
 
@@ -100,31 +100,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Feest-Connelly",
-  "MimeType": "natus",
-  "Size": 389,
+  "Name": "Ernser Group",
+  "MimeType": "perspiciatis",
+  "Size": 800,
   "Content": "GIF89....File contents as raw bytes...",
-  "EmailSubject": "charlie.kuhlman@treutel.name",
-  "EmailFrom": "jess_satterfield@hane.info",
-  "EmailTo": "grant@jewess.ca",
-  "EmailCc": "juwan.johns@halvorsonrau.name",
-  "EmailDate": "2008-06-02T03:46:55.550729+02:00",
+  "EmailSubject": "cole@carterstanton.info",
+  "EmailFrom": "baron@schaefer.com",
+  "EmailTo": "vinnie.blick@hammesgusikowski.info",
+  "EmailCc": "koby_ziemann@boyerboyle.uk",
+  "EmailDate": "2020-07-11T03:41:54.2932014+02:00",
   "EmailAttachmentsInfo": [
     {
-      "AttachmentId": 447,
-      "Name": "Von-Herzog",
-      "ContentType": "distinctio",
-      "AttSize": 382,
+      "AttachmentId": 737,
+      "Name": "Kihn Inc and Sons",
+      "ContentType": "delectus",
+      "AttSize": 2,
       "InlineImage": false,
-      "ContentId": "enim",
-      "AuthKey": "rerum",
-      "IsSafeFileExtension": true,
+      "ContentId": "unde",
+      "AuthKey": "cumque",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 934
+          "FieldLength": 355
         }
       }
     }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldType": "System.String",
+      "FieldLength": 748
     }
   }
 }

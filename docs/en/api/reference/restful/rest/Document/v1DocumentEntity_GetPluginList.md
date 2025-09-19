@@ -51,7 +51,7 @@ OK
 GET /api/v1/Document/Plugin
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -61,7 +61,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ab",
-  "2": "magnam"
+  "1": "fugiat",
+  "2": "officiis"
 }
 ```

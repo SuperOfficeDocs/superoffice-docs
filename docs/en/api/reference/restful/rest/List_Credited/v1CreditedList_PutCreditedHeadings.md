@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 579,
-    "Name": "Kulas Group",
-    "Tooltip": "vitae",
+    "HeadingId": 327,
+    "Name": "Dare, Harber and Pfannerstill",
+    "Tooltip": "vel",
     "Deleted": false,
-    "Rank": 973,
-    "UdListDefinitionId": 255
+    "Rank": 521,
+    "UdListDefinitionId": 370
   },
   {
-    "HeadingId": 579,
-    "Name": "Kulas Group",
-    "Tooltip": "vitae",
+    "HeadingId": 327,
+    "Name": "Dare, Harber and Pfannerstill",
+    "Tooltip": "vel",
     "Deleted": false,
-    "Rank": 973,
-    "UdListDefinitionId": 255
+    "Rank": 521,
+    "UdListDefinitionId": 370
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 577,
-    "Name": "Blick Inc and Sons",
-    "Tooltip": "eos",
-    "Deleted": true,
-    "Rank": 237,
-    "UdListDefinitionId": 736,
+    "HeadingId": 955,
+    "Name": "McKenzie LLC",
+    "Tooltip": "totam",
+    "Deleted": false,
+    "Rank": 236,
+    "UdListDefinitionId": 852,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 237
+        "FieldType": "System.String",
+        "FieldLength": 725
       }
     }
   }

@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 17,
-  "SelectionId": 835,
+  "DocumentPluginId": 483,
+  "SelectionId": 797,
   "IncludeEmails": true
 }
 ```
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 503,
-  "NumDocumentsAlreadyMigrated": 103,
+  "NumDocumentsOmitted": 683,
+  "NumDocumentsAlreadyMigrated": 713,
   "Documents": [
     {
-      "DocumentId": 395,
-      "ContactId": 398,
-      "PersonId": 827,
-      "SaleId": 59,
-      "ProjectId": 423,
-      "DocTmplId": 166,
-      "AssociateId": 358,
-      "UserGroupId": 354,
-      "VisibleForId": 439
+      "DocumentId": 788,
+      "ContactId": 895,
+      "PersonId": 964,
+      "SaleId": 953,
+      "ProjectId": 655,
+      "DocTmplId": 724,
+      "AssociateId": 996,
+      "UserGroupId": 737,
+      "VisibleForId": 79
     }
   ],
   "Associates": [
     {
-      "AssociateId": 490,
-      "EmailAddress": "cordelia@bernierhalvorson.ca"
+      "AssociateId": 367,
+      "EmailAddress": "catharine@anderson.name"
     },
     {
-      "AssociateId": 490,
-      "EmailAddress": "cordelia@bernierhalvorson.ca"
+      "AssociateId": 367,
+      "EmailAddress": "catharine@anderson.name"
     }
   ]
 }

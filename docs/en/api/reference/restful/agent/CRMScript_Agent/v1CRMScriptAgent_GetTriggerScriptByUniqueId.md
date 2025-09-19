@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetTriggerScriptByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "aliquid"
+  "TriggerScriptUniqueId": "totam"
 }
 ```
 
@@ -100,22 +100,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 603,
-  "Name": "Jewess-Greenholt",
+  "ScreenChooserId": 567,
+  "Name": "Bins, O'Kon and Reichel",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "vitae",
-  "Source": "nihil",
-  "Registered": "1998-11-11T03:46:54.5820132+01:00",
-  "RegisteredAssociateId": 656,
-  "Updated": "2005-01-22T03:46:54.5820132+01:00",
-  "UpdatedAssociateId": 187,
+  "Enabled": true,
+  "UniqueIdentifier": "non",
+  "Source": "et",
+  "Registered": "2011-01-16T03:41:53.3401161+01:00",
+  "RegisteredAssociateId": 447,
+  "Updated": "2002-04-15T03:41:53.3401161+02:00",
+  "UpdatedAssociateId": 829,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldLength": 811
     }
   }
 }

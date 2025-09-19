@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,53 +87,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 547,
-  "Name": "Jenkins, Kulas and Auer",
-  "Tooltip": "fugit",
-  "Rank": 402,
+  "SaleTypeId": 669,
+  "Name": "Altenwerth-Braun",
+  "Tooltip": "dignissimos",
+  "Rank": 46,
   "DurationUnit": "Century",
-  "SaleDuration": 633,
-  "SaleTypeCatId": 84,
+  "SaleDuration": 681,
+  "SaleTypeCatId": 171,
   "Deleted": true,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 231,
-  "QuoteLinesTemplate": 704,
-  "ConfirmationLinesTemplate": 19,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 874,
+  "QuoteLinesTemplate": 803,
+  "ConfirmationLinesTemplate": 879,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 669,
-  "MinEarningPercent": 340,
-  "GroupQuoteLinesBy": 649,
-  "SortGroupLinesBy": 226,
+  "MaxDiscountPercent": 196,
+  "MinEarningPercent": 207,
+  "GroupQuoteLinesBy": 120,
+  "SortGroupLinesBy": 663,
   "Stages": [
     {
-      "Id": 739,
-      "Name": "Crist LLC",
-      "ToolTip": "Officiis non id quis.",
+      "Id": 419,
+      "Name": "Bauch, Toy and Dickens",
+      "ToolTip": "Sed ut non accusantium praesentium vel ducimus non.",
       "Deleted": true,
-      "Rank": 334,
-      "Type": "rerum",
-      "ColorBlock": 30,
-      "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "2006-08-16T03:46:54.9413809+02:00",
+      "Rank": 891,
+      "Type": "magni",
+      "ColorBlock": 344,
+      "IconHint": "culpa",
+      "Selected": false,
+      "LastChanged": "2022-01-12T03:41:53.6213534+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "dolorum",
-      "StyleHint": "vero",
-      "Hidden": false,
-      "FullName": "Mr. Quincy Brooklyn Waters Jr.",
+      "ExtraInfo": "id",
+      "StyleHint": "dolores",
+      "Hidden": true,
+      "FullName": "Miss Dominique Schuppe IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 507
+          "FieldType": "System.String",
+          "FieldLength": 319
         }
       }
     }
@@ -142,8 +142,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 209
+      "FieldType": "System.Int32",
+      "FieldLength": 543
     }
   }
 }

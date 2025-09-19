@@ -1132,7 +1132,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=personSourceRelation/personDeletedDate,contactAssociate/ejDisplayName,workflowInstance/emailFlow/mediumThumbnail,sale/amountWeightedInBaseCurrency,sale/associate/isActive
+GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=lastName,personNoMail,personEmail/emailBounceCount,formSubmission/associateId,request/createdBy/simultaneousEjUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

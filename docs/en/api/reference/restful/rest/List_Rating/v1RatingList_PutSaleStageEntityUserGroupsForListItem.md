@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 658,
-    "Name": "Emmerich Group",
-    "ToolTip": "Nostrum doloremque commodi sunt ipsum at.",
-    "Deleted": false,
-    "Rank": 180,
-    "Type": "et",
-    "ColorBlock": 941,
-    "IconHint": "sint",
+    "Id": 542,
+    "Name": "Friesen, Kihn and Johnson",
+    "ToolTip": "Est placeat doloribus.",
+    "Deleted": true,
+    "Rank": 878,
+    "Type": "excepturi",
+    "ColorBlock": 554,
+    "IconHint": "repellendus",
     "Selected": false,
-    "LastChanged": "2016-10-20T03:47:00.7849183+02:00",
+    "LastChanged": "2016-05-20T03:41:59.5742289+02:00",
     "ChildItems": [
       {
-        "Id": 925,
-        "Name": "Kihn, Toy and Heller",
-        "ToolTip": "Qui labore.",
-        "Deleted": false,
-        "Rank": 996,
-        "Type": "voluptatum",
-        "ColorBlock": 51,
-        "IconHint": "optio",
-        "Selected": true,
-        "LastChanged": "2011-03-22T03:47:00.7849183+01:00",
+        "Id": 247,
+        "Name": "Adams, Fahey and Mraz",
+        "ToolTip": "Et explicabo id fuga ex.",
+        "Deleted": true,
+        "Rank": 745,
+        "Type": "nulla",
+        "ColorBlock": 849,
+        "IconHint": "officia",
+        "Selected": false,
+        "LastChanged": "2003-12-22T03:41:59.5742289+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
+        "ExtraInfo": "nihil",
         "StyleHint": "sapiente",
-        "Hidden": true,
-        "FullName": "Jennyfer Greenfelder Jr."
+        "Hidden": false,
+        "FullName": "Julie Nicolas"
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "dicta",
-    "Hidden": true,
-    "FullName": "Albertha Stroman"
+    "ExtraInfo": "aut",
+    "StyleHint": "animi",
+    "Hidden": false,
+    "FullName": "Lysanne Stanton II"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 101,
-    "Name": "Simonis-Hammes",
-    "ToolTip": "Rerum qui et et et dicta voluptas.",
+    "Id": 202,
+    "Name": "Lakin-Feest",
+    "ToolTip": "Fugit similique eum rerum inventore esse numquam praesentium.",
     "Deleted": false,
-    "Rank": 200,
-    "Type": "voluptatibus",
-    "ColorBlock": 491,
-    "IconHint": "quos",
-    "Selected": true,
-    "LastChanged": "2016-07-26T03:47:00.7849183+02:00",
+    "Rank": 456,
+    "Type": "ut",
+    "ColorBlock": 475,
+    "IconHint": "porro",
+    "Selected": false,
+    "LastChanged": "2015-05-08T03:41:59.5742289+02:00",
     "ChildItems": [
       {
-        "Id": 7,
-        "Name": "Hagenes-Farrell",
-        "ToolTip": "Qui suscipit odit.",
-        "Deleted": true,
-        "Rank": 852,
-        "Type": "velit",
-        "ColorBlock": 118,
-        "IconHint": "voluptatem",
-        "Selected": false,
-        "LastChanged": "2013-08-06T03:47:00.7849183+02:00",
+        "Id": 901,
+        "Name": "Reichel-Gaylord",
+        "ToolTip": "Ab qui id a et est.",
+        "Deleted": false,
+        "Rank": 206,
+        "Type": "qui",
+        "ColorBlock": 128,
+        "IconHint": "eius",
+        "Selected": true,
+        "LastChanged": "2010-03-13T03:41:59.5742289+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "a",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "temporibus",
         "Hidden": false,
-        "FullName": "Miss Rozella Bailee Hermann Jr.",
+        "FullName": "Dr. Gabrielle Madelyn Daniel I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 709
+            "FieldType": "System.String",
+            "FieldLength": 708
           }
         }
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "hic",
-    "Hidden": true,
-    "FullName": "Chloe Yost",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "tenetur",
+    "Hidden": false,
+    "FullName": "Karina Considine",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 801
+        "FieldLength": 298
       }
     }
   }

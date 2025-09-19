@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 231,
-    "Name": "Funk-O'Kon",
-    "ToolTip": "Voluptatem quam quos laudantium quia earum cupiditate.",
+    "Id": 938,
+    "Name": "Heidenreich Group",
+    "ToolTip": "Modi perspiciatis.",
     "Deleted": true,
-    "Rank": 689,
-    "Type": "voluptates",
-    "ColorBlock": 379,
-    "IconHint": "omnis",
+    "Rank": 167,
+    "Type": "tempora",
+    "ColorBlock": 181,
+    "IconHint": "ducimus",
     "Selected": true,
-    "LastChanged": "2014-04-18T03:47:00.7224209+02:00",
+    "LastChanged": "2016-01-19T03:41:59.4648585+01:00",
     "ChildItems": [
       {
-        "Id": 742,
-        "Name": "Ferry-Kovacek",
-        "ToolTip": "Architecto quaerat qui.",
-        "Deleted": false,
-        "Rank": 890,
-        "Type": "sed",
-        "ColorBlock": 834,
-        "IconHint": "fugiat",
+        "Id": 703,
+        "Name": "Lind-Spinka",
+        "ToolTip": "Consequuntur voluptate.",
+        "Deleted": true,
+        "Rank": 964,
+        "Type": "mollitia",
+        "ColorBlock": 770,
+        "IconHint": "quis",
         "Selected": false,
-        "LastChanged": "2010-08-09T03:47:00.7224209+02:00",
+        "LastChanged": "2014-01-26T03:41:59.4648585+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "voluptates",
-        "Hidden": false,
-        "FullName": "Mrs. Eunice Magali Hackett",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Vicente Schneider V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 797
+            "FieldType": "System.String",
+            "FieldLength": 630
           }
         }
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "dolorum",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "incidunt",
     "Hidden": false,
-    "FullName": "Mrs. Kaitlin Kerluke MD",
+    "FullName": "Creola Danial Waelchi Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 682
+        "FieldType": "System.Int32",
+        "FieldLength": 159
       }
     }
   }

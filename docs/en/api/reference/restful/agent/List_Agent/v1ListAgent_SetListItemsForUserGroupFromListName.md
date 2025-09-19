@@ -68,17 +68,17 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Conroy, Metz and Bogisich",
-  "UsergroupId": 527,
+  "UdListDefinitionName": "McGlynn, Von and Sporer",
+  "UsergroupId": 378,
   "ListItemsID": [
-    585,
-    934
+    424,
+    125
   ],
-  "Enable": false
+  "Enable": true
 }
 ```
 

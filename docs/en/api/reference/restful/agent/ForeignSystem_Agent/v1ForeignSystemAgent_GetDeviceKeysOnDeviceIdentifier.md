@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Gaylord-Cummerata",
-  "DeviceName": "Rodriguez, Rogahn and Windler",
-  "DeviceIdentifier": "soluta"
+  "ApplicationName": "Roberts, Botsford and Jenkins",
+  "DeviceName": "Denesik, Stoltenberg and Wolf",
+  "DeviceIdentifier": "rem"
 }
 ```
 
@@ -101,20 +101,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "nisi",
-    "Value": "aliquid",
-    "RecordId": 672,
-    "CreatedDate": "2016-06-28T03:46:54.9107593+02:00",
-    "UpdatedDate": "2000-12-25T03:46:54.9107593+01:00",
-    "UpdatedBy": "dolorem",
-    "CreatedBy": "rerum",
-    "TableName": "Abernathy Inc and Sons",
+    "Key": "rerum",
+    "Value": "quia",
+    "RecordId": 320,
+    "CreatedDate": "2020-03-21T03:41:53.5901046+01:00",
+    "UpdatedDate": "2004-06-18T03:41:53.5901046+02:00",
+    "UpdatedBy": "sint",
+    "CreatedBy": "excepturi",
+    "TableName": "Schuppe-Berge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 392
+        "FieldLength": 4
       }
     }
   }

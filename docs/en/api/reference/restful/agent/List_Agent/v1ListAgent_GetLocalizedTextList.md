@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,18 +87,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 282,
-    "ResourceId": 776,
-    "Text": "iure",
+    "LanguageId": 688,
+    "ResourceId": 140,
+    "Text": "molestiae",
     "Type": "Column",
-    "LocalizedTextId": 61,
-    "IsBuiltIn": false,
+    "LocalizedTextId": 93,
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 739
+        "FieldLength": 23
       }
     }
   }

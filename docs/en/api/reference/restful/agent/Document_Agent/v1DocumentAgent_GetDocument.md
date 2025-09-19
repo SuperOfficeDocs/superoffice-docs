@@ -27,7 +27,7 @@ Gets a Document object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocument?documentId=348
+POST /api/v1/Agents/Document/GetDocument?documentId=162
 POST /api/v1/Agents/Document/GetDocument?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Document/GetDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,32 +97,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 447,
-  "Attention": "dolorum",
-  "Header": "fuga",
-  "Name": "Jerde, Lemke and Thiel",
-  "OurRef": "ut",
-  "YourRef": "at",
-  "Description": "Extended next generation strategy",
-  "DocumentTemplate": "quia",
+  "DocumentId": 562,
+  "Attention": "ullam",
+  "Header": "veniam",
+  "Name": "Thompson Inc and Sons",
+  "OurRef": "qui",
+  "YourRef": "corrupti",
+  "Description": "Function-based 6th generation encoding",
+  "DocumentTemplate": "corporis",
   "IsPublished": false,
-  "PersonId": 291,
-  "PersonFullName": "Erin Strosin",
-  "AssociateFullName": "Eduardo Schultz",
-  "ContactId": 344,
-  "ContactName": "Mills Group",
-  "ProjectId": 955,
-  "ProjectName": "King Inc and Sons",
-  "AssociateId": 42,
-  "Snum": 427,
-  "SaleId": 106,
-  "SaleName": "Brakus, Daugherty and Kessler",
+  "PersonId": 115,
+  "PersonFullName": "Dr. Kyla Oberbrunner",
+  "AssociateFullName": "Regan Beatty",
+  "ContactId": 985,
+  "ContactName": "Beahan, Zieme and Hegmann",
+  "ProjectId": 58,
+  "ProjectName": "Labadie-Christiansen",
+  "AssociateId": 873,
+  "Snum": 285,
+  "SaleId": 124,
+  "SaleName": "Bartoletti LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 874
+      "FieldType": "System.Int32",
+      "FieldLength": 932
     }
   }
 }

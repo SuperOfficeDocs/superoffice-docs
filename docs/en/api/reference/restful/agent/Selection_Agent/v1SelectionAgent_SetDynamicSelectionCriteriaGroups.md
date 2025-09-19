@@ -78,25 +78,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 531,
+  "SelectionId": 728,
   "Criteria": [
     {
-      "Name": "Cremin Group",
-      "Description": "Innovative next generation circuit",
-      "Rank": 939,
+      "Name": "Sawayn-Marvin",
+      "Description": "Configurable interactive orchestration",
+      "Rank": 986,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Cremin Group",
-      "Description": "Innovative next generation circuit",
-      "Rank": 939,
+      "Name": "Sawayn-Marvin",
+      "Description": "Configurable interactive orchestration",
+      "Rank": 986,
       "Restrictions": [
         {},
         {}
@@ -114,20 +114,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Walter, Ferry and Glover",
-    "Description": "Integrated responsive flexibility",
-    "Rank": 817,
+    "Name": "Beatty Inc and Sons",
+    "Description": "Upgradable eco-centric productivity",
+    "Rank": 616,
     "Restrictions": [
       {
-        "Name": "Heathcote Group",
-        "Operator": "odio",
+        "Name": "Boyer, Dach and Medhurst",
+        "Operator": "cumque",
         "Values": [
-          "quas",
-          "consequatur"
+          "dolores",
+          "quas"
         ],
         "DisplayValues": [
-          "aliquam",
-          "nemo"
+          "odit",
+          "sunt"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -135,27 +135,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 459,
+        "InterParenthesis": 985,
         "InterOperator": "And",
-        "UniqueHash": 578
+        "UniqueHash": 158
       }
     ]
   },
   {
-    "Name": "Walter, Ferry and Glover",
-    "Description": "Integrated responsive flexibility",
-    "Rank": 817,
+    "Name": "Beatty Inc and Sons",
+    "Description": "Upgradable eco-centric productivity",
+    "Rank": 616,
     "Restrictions": [
       {
-        "Name": "Heathcote Group",
-        "Operator": "odio",
+        "Name": "Boyer, Dach and Medhurst",
+        "Operator": "cumque",
         "Values": [
-          "quas",
-          "consequatur"
+          "dolores",
+          "quas"
         ],
         "DisplayValues": [
-          "aliquam",
-          "nemo"
+          "odit",
+          "sunt"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -163,9 +163,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 459,
+        "InterParenthesis": 985,
         "InterOperator": "And",
-        "UniqueHash": 578
+        "UniqueHash": 158
       }
     ]
   }

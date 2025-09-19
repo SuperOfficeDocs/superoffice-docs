@@ -68,36 +68,36 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Botsford-Orn",
+  "ProviderName": "Witting, Schmidt and Feil",
   "Restrictions": [
     {
-      "Name": "Kub-Beier",
-      "Operator": "quos",
+      "Name": "Franecki LLC",
+      "Operator": "in",
       "Values": [
-        "iure",
-        "vel"
+        "rerum",
+        "excepturi"
       ],
       "DisplayValues": [
-        "minima",
-        "temporibus"
+        "sit",
+        "voluptas"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 841,
+      "InterParenthesis": 701,
       "InterOperator": "And",
-      "UniqueHash": 520
+      "UniqueHash": 719
     }
   ],
-  "AssociateId": 67,
-  "ExtraInfo": "deserunt"
+  "AssociateId": 977,
+  "ExtraInfo": "sit"
 }
 ```
 

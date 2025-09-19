@@ -102,7 +102,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 256
+  "ContactId": 47
 }
 ```
 
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Miller Group",
-    "SaleDate": "2005-08-14T03:46:55.2694888+02:00",
-    "SaleId": 636,
-    "Probability": 470,
-    "Title": "blanditiis",
-    "Amount": 22310.946,
-    "Currency": "earum",
-    "ProjectName": "Schneider-Rowe",
-    "AssociateFullName": "Mr. Rodrick Carolyne Romaguera IV",
-    "Description": "Enterprise-wide holistic function",
+    "ContactName": "Orn-Sporer",
+    "SaleDate": "2018-08-01T03:41:54.0119629+02:00",
+    "SaleId": 714,
+    "Probability": 351,
+    "Title": "et",
+    "Amount": 10871.846,
+    "Currency": "architecto",
+    "ProjectName": "Walker-Stark",
+    "AssociateFullName": "Ms. Dolly Viva Oberbrunner",
+    "Description": "Managed incremental core",
     "Status": "Lost",
-    "WeightedAmount": 2663.9,
-    "ProjectId": 541,
-    "EarningPercent": 11357.616,
-    "Earning": 22875.066,
-    "ContactId": 263,
-    "AssociateId": 238,
-    "PersonId": 987,
-    "SaleTypeId": 411,
-    "SaleTypeName": "Osinski Group",
-    "PersonFullName": "Dr. Mariane Bartell",
+    "WeightedAmount": 9452.144,
+    "ProjectId": 389,
+    "EarningPercent": 15942.658,
+    "Earning": 30133.41,
+    "ContactId": 500,
+    "AssociateId": 315,
+    "PersonId": 476,
+    "SaleTypeId": 147,
+    "SaleTypeName": "Leannon LLC",
+    "PersonFullName": "Mrs. Adrien Ryley Streich",
     "Completed": "Completed",
-    "ActiveErpLinks": 643,
-    "NextDueDate": "2012-09-25T03:46:55.2694888+02:00",
-    "Number": "1597160",
+    "ActiveErpLinks": 428,
+    "NextDueDate": "1999-09-20T03:41:54.0119629+02:00",
+    "Number": "1170122",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 226
+        "FieldLength": 607
       }
     }
   }

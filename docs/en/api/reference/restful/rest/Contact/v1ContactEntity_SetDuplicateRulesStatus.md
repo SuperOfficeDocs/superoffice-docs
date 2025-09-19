@@ -58,21 +58,21 @@ No Content
 PUT /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Hackett, Armstrong and Wolff",
-    "DisplayName": "Boyle-Kuphal",
-    "DisplayTooltip": "sint",
-    "IsActive": false
+    "Name": "McClure-Goodwin",
+    "DisplayName": "Mann, Rau and Kreiger",
+    "DisplayTooltip": "error",
+    "IsActive": true
   },
   {
-    "Name": "Hackett, Armstrong and Wolff",
-    "DisplayName": "Boyle-Kuphal",
-    "DisplayTooltip": "sint",
-    "IsActive": false
+    "Name": "McClure-Goodwin",
+    "DisplayName": "Mann, Rau and Kreiger",
+    "DisplayTooltip": "error",
+    "IsActive": true
   }
 ]
 ```

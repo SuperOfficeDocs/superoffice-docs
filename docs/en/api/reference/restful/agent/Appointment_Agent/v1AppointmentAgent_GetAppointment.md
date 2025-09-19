@@ -27,7 +27,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=603
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=785
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -122,7 +122,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -132,67 +132,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 918,
-  "StartDate": "2006-01-13T03:46:54.0351587+01:00",
-  "EndDate": "2009-05-14T03:46:54.0351587+02:00",
+  "AppointmentId": 163,
+  "StartDate": "2001-05-08T03:41:52.824511+02:00",
+  "EndDate": "2020-09-21T03:41:52.824511+02:00",
   "Type": "BookingForChecklist",
-  "Task": "voluptas",
-  "AssociateFullName": "Sigmund O'Hara",
-  "ContactName": "Heller Inc and Sons",
-  "Description": "Synergistic reciprocal application",
-  "PersonFullName": "Genoveva Pfeffer",
-  "PersonId": 436,
-  "ContactId": 591,
-  "ProjectId": 42,
-  "ProjectName": "Sawayn-Corkery",
+  "Task": "fugit",
+  "AssociateFullName": "Ms. Dana Carroll DDS",
+  "ContactName": "Wintheiser Group",
+  "Description": "Devolved client-driven structure",
+  "PersonFullName": "Mr. Arvilla Terrence Simonis Jr.",
+  "PersonId": 107,
+  "ContactId": 865,
+  "ProjectId": 143,
+  "ProjectName": "Jaskolski Group",
   "IsPublished": true,
-  "AssociateId": 849,
-  "ColorIndex": 518,
+  "AssociateId": 998,
+  "ColorIndex": 8,
   "IsFree": false,
-  "HasAlarm": false,
+  "HasAlarm": true,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 597,
-  "PriorityName": "Purdy-Satterfield",
+  "PriorityId": 395,
+  "PriorityName": "Stokes LLC",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": false,
+  "IsRecurrence": true,
   "IsBooking": false,
-  "ActiveDate": "2008-10-13T03:46:54.0351587+02:00",
+  "ActiveDate": "2016-07-04T03:41:52.824511+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2020-12-09T03:46:54.0351587+01:00",
-  "RecurringEndDate": "2005-03-05T03:46:54.0351587+01:00",
-  "MotherId": 241,
-  "AssignedBy": 863,
-  "AssignedByFullName": "Cletus Gerhold",
-  "RejectReason": "engineer B2C relationships",
-  "Location": "quibusdam",
-  "AlarmLeadTime": "quia",
-  "SaleId": 91,
-  "SaleName": "Mills-Berge",
-  "AssociateName": "Gerhold Inc and Sons",
-  "CreatedDate": "2024-11-09T03:46:54.0351587+01:00",
-  "CreatedBy": "rem",
-  "CreatedByFullName": "Miss Emie Feeney MD",
-  "CreatedByAssociateId": 802,
+  "RecurringStartDate": "2013-03-19T03:41:52.824511+01:00",
+  "RecurringEndDate": "2016-07-19T03:41:52.824511+02:00",
+  "MotherId": 769,
+  "AssignedBy": 857,
+  "AssignedByFullName": "Pauline Mayer",
+  "RejectReason": "",
+  "Location": "ut",
+  "AlarmLeadTime": "quidem",
+  "SaleId": 642,
+  "SaleName": "Jerde, Jacobi and Ondricka",
+  "AssociateName": "Langworth Group",
+  "CreatedDate": "2021-05-28T03:41:52.824511+02:00",
+  "CreatedBy": "quaerat",
+  "CreatedByFullName": "Blaise Howell",
+  "CreatedByAssociateId": 215,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "MotherAssociateId": 176,
+  "MotherAssociateId": 971,
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 801,
-  "Title": "eum",
-  "Agenda": "quae",
-  "InternalNotes": "vero",
+  "PreferredTZLocation": 205,
+  "Title": "nostrum",
+  "Agenda": "autem",
+  "InternalNotes": "odio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 586
+      "FieldLength": 132
     }
   }
 }

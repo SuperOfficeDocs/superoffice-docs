@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 969,
-  "Name": "Funk Group",
-  "Tooltip": "quo",
-  "Deleted": false,
-  "UdListDefinitionId": 163,
-  "Rank": 922,
+  "Id": 534,
+  "Name": "Lehner-Carroll",
+  "Tooltip": "vitae",
+  "Deleted": true,
+  "UdListDefinitionId": 793,
+  "Rank": 554,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 448
+      "FieldLength": 26
     }
   }
 }

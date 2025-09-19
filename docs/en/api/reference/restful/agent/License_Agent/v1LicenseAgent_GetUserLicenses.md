@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 44
+  "AssociateId": 143
 }
 ```
 
@@ -93,56 +93,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Murphy Inc and Sons",
-    "Description": "Vision-oriented zero defect artificial intelligence",
+    "Name": "Bahringer, Stroman and Dooley",
+    "Description": "Up-sized multimedia policy",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 336,
-        "Tooltip": "magni",
-        "CanAssign": false,
-        "Free": 922,
-        "InUse": 184,
-        "IsHidden": true,
+        "Total": 801,
+        "Tooltip": "ducimus",
+        "CanAssign": true,
+        "Free": 113,
+        "InUse": 145,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 312,
-        "Name": "Gibson LLC",
-        "Description": "Devolved directional success",
-        "PrerequisiteModuleName": "Jacobson, Brakus and Huel",
-        "SortOrder": 374,
-        "ExtraFlags": 293,
+        "ModuleLicenseId": 549,
+        "Name": "Gusikowski Inc and Sons",
+        "Description": "Automated tangible customer loyalty",
+        "PrerequisiteModuleName": "Howell, Mann and Lind",
+        "SortOrder": 924,
+        "ExtraFlags": 437,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 906
+            "FieldLength": 505
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 521,
-        "Tooltip": "ea",
+        "Unrestricted": false,
+        "Total": 497,
+        "Tooltip": "molestias",
         "CanAssign": true,
-        "Free": 674,
-        "InUse": 981,
+        "Free": 73,
+        "InUse": 228,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 603,
-        "Name": "Lueilwitz Inc and Sons",
-        "Description": "Proactive homogeneous open architecture",
-        "PrerequisiteModuleName": "Balistreri-West",
-        "SortOrder": 66,
-        "ExtraFlags": 566,
+        "ModuleLicenseId": 94,
+        "Name": "McDermott Group",
+        "Description": "Monitored assymetric database",
+        "PrerequisiteModuleName": "Hilll-Moen",
+        "SortOrder": 904,
+        "ExtraFlags": 237,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 507
+            "FieldLength": 822
           }
         }
       }
@@ -151,62 +151,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 85
+        "FieldType": "System.Int32",
+        "FieldLength": 624
       }
     }
   },
   {
-    "Name": "Murphy Inc and Sons",
-    "Description": "Vision-oriented zero defect artificial intelligence",
+    "Name": "Bahringer, Stroman and Dooley",
+    "Description": "Up-sized multimedia policy",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 336,
-        "Tooltip": "magni",
-        "CanAssign": false,
-        "Free": 922,
-        "InUse": 184,
-        "IsHidden": true,
+        "Total": 801,
+        "Tooltip": "ducimus",
+        "CanAssign": true,
+        "Free": 113,
+        "InUse": 145,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 312,
-        "Name": "Gibson LLC",
-        "Description": "Devolved directional success",
-        "PrerequisiteModuleName": "Jacobson, Brakus and Huel",
-        "SortOrder": 374,
-        "ExtraFlags": 293,
+        "ModuleLicenseId": 549,
+        "Name": "Gusikowski Inc and Sons",
+        "Description": "Automated tangible customer loyalty",
+        "PrerequisiteModuleName": "Howell, Mann and Lind",
+        "SortOrder": 924,
+        "ExtraFlags": 437,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 906
+            "FieldLength": 505
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 521,
-        "Tooltip": "ea",
+        "Unrestricted": false,
+        "Total": 497,
+        "Tooltip": "molestias",
         "CanAssign": true,
-        "Free": 674,
-        "InUse": 981,
+        "Free": 73,
+        "InUse": 228,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 603,
-        "Name": "Lueilwitz Inc and Sons",
-        "Description": "Proactive homogeneous open architecture",
-        "PrerequisiteModuleName": "Balistreri-West",
-        "SortOrder": 66,
-        "ExtraFlags": 566,
+        "ModuleLicenseId": 94,
+        "Name": "McDermott Group",
+        "Description": "Monitored assymetric database",
+        "PrerequisiteModuleName": "Hilll-Moen",
+        "SortOrder": 904,
+        "ExtraFlags": 237,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 507
+            "FieldLength": 822
           }
         }
       }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 85
+        "FieldType": "System.Int32",
+        "FieldLength": 624
       }
     }
   }

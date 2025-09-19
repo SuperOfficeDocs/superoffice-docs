@@ -100,33 +100,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 470,
-  "ParentId": 367,
-  "Name": "Kertzmann LLC",
-  "Fullname": "distinctio",
-  "CategoryMaster": 621,
+  "TicketCategoryId": 999,
+  "ParentId": 148,
+  "Name": "Simonis-King",
+  "Fullname": "officiis",
+  "CategoryMaster": 565,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Mitchell-Douglas",
+  "ExternalName": "Bogan Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 181,
-  "ReplyTemplate": 768,
-  "NotificationEmail": "elsie.lueilwitz@grady.com",
+  "AssignmentLag": 561,
+  "ReplyTemplate": 47,
+  "NotificationEmail": "kasey@dubuqueshields.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 210,
+  "EffectiveReplyTemplateId": 679,
   "ExtraFields": {
-    "ExtraFields1": "sunt",
-    "ExtraFields2": "illum"
+    "ExtraFields1": "aspernatur",
+    "ExtraFields2": "impedit"
   },
   "CustomFields": {
-    "CustomFields1": "necessitatibus",
-    "CustomFields2": "modi"
+    "CustomFields1": "eos",
+    "CustomFields2": "animi"
   }
 }
 ```
@@ -138,36 +138,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 407,
-  "ParentId": 306,
-  "Name": "Armstrong, Keeling and Schuster",
-  "Fullname": "sapiente",
-  "CategoryMaster": 715,
+  "TicketCategoryId": 589,
+  "ParentId": 607,
+  "Name": "Leuschke, Schaden and Erdman",
+  "Fullname": "dolorem",
+  "CategoryMaster": 724,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Ward LLC",
+  "ExternalName": "McGlynn-Blanda",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 629,
-  "ReplyTemplate": 624,
-  "NotificationEmail": "sarah_grady@upton.co.uk",
+  "AssignmentLag": 897,
+  "ReplyTemplate": 713,
+  "NotificationEmail": "wyman@mertzschulist.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 616,
+  "EffectiveReplyTemplateId": 514,
   "ExtraFields": {
-    "ExtraFields1": "dicta",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "quos",
+    "ExtraFields2": "excepturi"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "qui"
+    "CustomFields1": "nobis",
+    "CustomFields2": "dolorem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 957
+      "FieldType": "System.String",
+      "FieldLength": 465
     }
   }
 }

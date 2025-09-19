@@ -107,37 +107,37 @@ OK
 PUT /api/v1/List/TicketType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 866,
-  "Name": "Dooley-Murazik",
-  "Rank": 260,
-  "Tooltip": "quos",
-  "Icon": "commodi",
-  "DefaultTicketStatus": 442,
+  "TicketTypeId": 732,
+  "Name": "Mills-Hahn",
+  "Rank": 717,
+  "Tooltip": "quae",
+  "Icon": "deserunt",
+  "DefaultTicketStatus": 558,
   "TicketStatuses": [
-    870,
-    745
+    482,
+    961
   ],
-  "DefaultTicketPriority": 833,
+  "DefaultTicketPriority": 634,
   "TicketPriorities": [
-    237,
-    521
+    27,
+    422
   ],
-  "ReplyTemplate": 285,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 84,
+  "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": true,
+  "ShowInNew": false,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    870,
-    502
+    40,
+    254
   ],
-  "ReplyForwardNoSignature": false,
+  "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false
 }
 ```
@@ -149,31 +149,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 527,
-  "Name": "Volkman Group",
-  "Rank": 176,
-  "Tooltip": "natus",
-  "Icon": "omnis",
-  "DefaultTicketStatus": 81,
+  "TicketTypeId": 201,
+  "Name": "Kuhn, Reilly and Crooks",
+  "Rank": 356,
+  "Tooltip": "ratione",
+  "Icon": "quis",
+  "DefaultTicketStatus": 295,
   "TicketStatuses": [
-    629,
-    317
+    818,
+    762
   ],
-  "DefaultTicketPriority": 124,
+  "DefaultTicketPriority": 901,
   "TicketPriorities": [
-    244,
-    24
+    840,
+    442
   ],
-  "ReplyTemplate": 523,
+  "ReplyTemplate": 336,
   "IsExternalVisible": true,
   "IsDefault": false,
-  "ShowInNew": false,
+  "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    529,
-    653
+    612,
+    38
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -182,7 +182,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 889
+      "FieldLength": 743
     }
   }
 }

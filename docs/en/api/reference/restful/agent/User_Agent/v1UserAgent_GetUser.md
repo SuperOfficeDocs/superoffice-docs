@@ -29,7 +29,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=940
+POST /api/v1/Agents/User/GetUser?userId=482
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/User/GetUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -104,14 +104,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 933,
-  "Name": "Wolff-Greenholt",
-  "Rank": 986,
-  "Tooltip": "minima",
+  "AssociateId": 375,
+  "Name": "Cormier-Hermann",
+  "Rank": 170,
+  "Tooltip": "recusandae",
   "LicenseOwners": [
     {
-      "Name": "Schoen, Murray and Barrows",
-      "Description": "Organic even-keeled utilisation",
+      "Name": "Gleason-Wintheiser",
+      "Description": "Innovative multi-tasking superstructure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -124,14 +124,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 901
+          "FieldType": "System.String",
+          "FieldLength": 872
         }
       }
     },
     {
-      "Name": "Schoen, Murray and Barrows",
-      "Description": "Organic even-keeled utilisation",
+      "Name": "Gleason-Wintheiser",
+      "Description": "Innovative multi-tasking superstructure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -144,8 +144,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 901
+          "FieldType": "System.String",
+          "FieldLength": 872
         }
       }
     }
@@ -154,110 +154,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "aut",
-      "Tooltip": "asperiores",
-      "Id": 975,
-      "Rank": 361,
+      "Value": "recusandae",
+      "Tooltip": "sapiente",
+      "Id": 950,
+      "Rank": 471,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 238
+          "FieldType": "System.String",
+          "FieldLength": 815
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2019-04-20T03:46:55.5976024+02:00",
-  "Lastlogout": "2010-08-01T03:46:55.5976024+02:00",
-  "EjUserId": 666,
-  "RequestSignature": "aspernatur",
+  "Lastlogin": "2022-09-09T03:41:54.3400739+02:00",
+  "Lastlogout": "2012-05-26T03:41:54.3400739+02:00",
+  "EjUserId": 435,
+  "RequestSignature": "itaque",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsPersonRetired": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "molestiae",
-      "DisplayValue": "magnam",
+      "Value": "nemo",
+      "DisplayValue": "maxime",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldType": "System.String",
+          "FieldLength": 361
         }
       }
     },
     {
       "Type": null,
-      "Value": "molestiae",
-      "DisplayValue": "magnam",
+      "Value": "nemo",
+      "DisplayValue": "maxime",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldType": "System.String",
+          "FieldLength": 361
         }
       }
     }
   ],
-  "UserName": "Ullrich-Fisher",
+  "UserName": "Hodkiewicz Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 615,
-      "Name": "Ward, Crona and Volkman",
-      "ToolTip": "Rerum nisi sapiente velit aut quae ut odio.",
-      "Deleted": false,
-      "Rank": 753,
-      "Type": "cupiditate",
+      "Id": 786,
+      "Name": "Rohan, Sporer and Crona",
+      "ToolTip": "Debitis dolorem tempora sunt voluptatem voluptates excepturi sunt.",
+      "Deleted": true,
+      "Rank": 631,
+      "Type": "non",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "inventore",
-      "ColorBlock": 312,
-      "ExtraInfo": "tenetur",
-      "StyleHint": "atque",
-      "FullName": "Zachary Ebert",
+      "IconHint": "quae",
+      "ColorBlock": 44,
+      "ExtraInfo": "autem",
+      "StyleHint": "magni",
+      "FullName": "Lorine Treutel PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 376
+          "FieldLength": 346
         }
       }
     }
   ],
-  "NickName": "King-Harris",
+  "NickName": "Schuppe Inc and Sons",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "rerum",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "voluptates",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "esse",
-    "CustomFields2": "quia"
+    "CustomFields1": "culpa",
+    "CustomFields2": "iusto"
   },
   "PostSaveCommands": [
     {
-      "Name": "Buckridge, Rolfson and Cartwright",
-      "DisplayName": "Runolfsdottir-Orn",
-      "Description": "Monitored coherent array",
-      "ToolTip": "Dolor et libero nobis.",
+      "Name": "Beahan-Wiza",
+      "DisplayName": "Bauch LLC",
+      "Description": "Persistent scalable local area network",
+      "ToolTip": "Quae et eius unde fuga.",
       "Actions": "Implicit",
-      "ActionData": "asperiores",
+      "ActionData": "nostrum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 839
+          "FieldLength": 320
         }
       }
     }
@@ -267,7 +267,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 657
+      "FieldLength": 438
     }
   }
 }

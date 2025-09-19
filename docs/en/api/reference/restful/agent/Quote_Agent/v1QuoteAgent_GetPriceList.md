@@ -27,7 +27,7 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=384
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=97
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -87,22 +87,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 370,
-  "ERPPriceListKey": "omnis",
-  "QuoteConnectionId": 321,
-  "Name": "Farrell-Hackett",
-  "Description": "Up-sized multi-state intranet",
-  "Currency": "quia",
-  "CurrencyName": "McClure-Kris",
-  "ValidFrom": "2021-07-05T03:46:55.2069913+02:00",
-  "ValidTo": "2018-10-18T03:46:55.2069913+02:00",
+  "PriceListId": 417,
+  "ERPPriceListKey": "qui",
+  "QuoteConnectionId": 380,
+  "Name": "Mills, Jacobi and Harris",
+  "Description": "Right-sized logistical solution",
+  "Currency": "ipsum",
+  "CurrencyName": "Bayer, Bradtke and Larkin",
+  "ValidFrom": "2002-10-28T03:41:53.9494656+01:00",
+  "ValidTo": "2022-11-21T03:41:53.9494656+01:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 770
+      "FieldLength": 4
     }
   }
 }

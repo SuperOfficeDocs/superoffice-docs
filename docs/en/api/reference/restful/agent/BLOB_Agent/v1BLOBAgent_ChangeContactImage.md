@@ -72,8 +72,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 976,
-  "BlobId": 919
+  "ContactId": 909,
+  "BlobId": 613
 }
 ```
 

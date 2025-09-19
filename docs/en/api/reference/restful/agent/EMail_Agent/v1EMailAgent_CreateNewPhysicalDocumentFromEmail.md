@@ -110,12 +110,12 @@ OK
 POST /api/v1/Agents/EMail/CreateNewPhysicalDocumentFromEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 676,
-  "EmailItemId": 711
+  "DocumentId": 766,
+  "EmailItemId": 898
 }
 ```
 
@@ -126,88 +126,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 841,
+  "DocumentId": 135,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "debitis",
-  "Header": "praesentium",
-  "Name": "Kemmer-Langosh",
-  "OurRef": "consequatur",
-  "YourRef": "tempora",
-  "CreatedDate": "2009-06-17T03:46:54.7382579+02:00",
-  "UpdatedDate": "2002-09-13T03:46:54.7382579+02:00",
-  "Description": "Secured empowering project",
+  "Attention": "explicabo",
+  "Header": "ex",
+  "Name": "Streich-Bergnaum",
+  "OurRef": "laudantium",
+  "YourRef": "omnis",
+  "CreatedDate": "2025-07-17T03:41:53.480735+02:00",
+  "UpdatedDate": "2008-06-18T03:41:53.480735+02:00",
+  "Description": "Realigned logistical groupware",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2009-06-14T03:46:54.7382579+02:00",
-  "ExternalRef": "autem",
+  "Date": "2006-06-06T03:41:53.480735+02:00",
+  "ExternalRef": "ea",
   "Completed": "Completed",
-  "ActiveLinks": 162,
+  "ActiveLinks": 205,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Sawayn LLC",
-      "Id": 575,
-      "Description": "Seamless zero tolerance protocol",
-      "ExtraInfo": "quaerat",
-      "LinkId": 364,
+      "EntityName": "Pouros-Lehner",
+      "Id": 38,
+      "Description": "Re-engineered next generation leverage",
+      "ExtraInfo": "aliquam",
+      "LinkId": 724,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 553
+          "FieldLength": 154
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 722,
-  "Snum": 774,
+  "SuggestedDocumentId": 797,
+  "Snum": 246,
   "UserDefinedFields": {
-    "SuperOffice:1": "Carter Fred Emmerich DVM",
-    "SuperOffice:2": "Prof. Grant Sebastian Carter"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "iusto",
-    "ExtraFields2": "quas"
+    "ExtraFields1": "non",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "nobis",
-    "CustomFields2": "illo"
+    "CustomFields1": "libero",
+    "CustomFields2": "pariatur"
   },
-  "PublishEventDate": "2005-11-16T03:46:54.7382579+01:00",
-  "PublishTo": "2024-10-24T03:46:54.7382579+02:00",
-  "PublishFrom": "2008-11-07T03:46:54.7382579+01:00",
+  "PublishEventDate": "2007-09-21T03:41:53.480735+02:00",
+  "PublishTo": "2016-08-03T03:41:53.480735+02:00",
+  "PublishFrom": "2008-08-02T03:41:53.480735+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 544,
+      "VisibleId": 562,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 592
+          "FieldLength": 795
         }
       }
     },
     {
-      "VisibleId": 544,
+      "VisibleId": 562,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 592
+          "FieldLength": 795
         }
       }
     }
@@ -217,7 +217,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 999
+      "FieldLength": 428
     }
   }
 }

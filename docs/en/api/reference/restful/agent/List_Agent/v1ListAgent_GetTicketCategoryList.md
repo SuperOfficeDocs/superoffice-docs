@@ -99,36 +99,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 969,
-    "ParentId": 162,
-    "Name": "Wehner, Christiansen and Waters",
-    "Fullname": "dolor",
-    "CategoryMaster": 153,
+    "TicketCategoryId": 706,
+    "ParentId": 121,
+    "Name": "Witting Inc and Sons",
+    "Fullname": "ipsam",
+    "CategoryMaster": 963,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "West, Dicki and Lehner",
+    "ExternalName": "Watsica LLC",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 53,
-    "ReplyTemplate": 82,
-    "NotificationEmail": "fredrick.nikolaus@vandervort.biz",
+    "AssignmentLag": 611,
+    "ReplyTemplate": 873,
+    "NotificationEmail": "rachel@hills.us",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 580,
+    "EffectiveReplyTemplateId": 248,
     "ExtraFields": {
-      "ExtraFields1": "dolorem",
-      "ExtraFields2": "vero"
+      "ExtraFields1": "harum",
+      "ExtraFields2": "dolorum"
     },
     "CustomFields": {
-      "CustomFields1": "ex",
-      "CustomFields2": "ducimus"
+      "CustomFields1": "beatae",
+      "CustomFields2": "sit"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 8
+        "FieldLength": 456
       }
     }
   }

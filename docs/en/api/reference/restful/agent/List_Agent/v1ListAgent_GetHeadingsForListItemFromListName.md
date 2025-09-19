@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Langworth, Sporer and Feeney",
-  "ListItemId": 439,
-  "ShowDeleted": true
+  "UdListDefinitionName": "Upton, Anderson and Paucek",
+  "ListItemId": 90,
+  "ShowDeleted": false
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 82,
-    "Name": "Lueilwitz, Nikolaus and Kirlin",
-    "ToolTip": "Ut ab aliquid deserunt omnis voluptate facere voluptas.",
+    "Id": 713,
+    "Name": "Pouros, Schultz and Morar",
+    "ToolTip": "Non suscipit nam asperiores nam nihil.",
     "Deleted": false,
-    "Rank": 542,
-    "Type": "sint",
-    "ColorBlock": 940,
+    "Rank": 66,
+    "Type": "autem",
+    "ColorBlock": 44,
     "IconHint": "nobis",
     "Selected": false,
-    "LastChanged": "1998-09-01T03:46:54.9569999+02:00",
+    "LastChanged": "2014-07-12T03:41:53.6994806+02:00",
     "ChildItems": [
       {
-        "Id": 390,
-        "Name": "Gerhold Group",
-        "ToolTip": "Dignissimos libero soluta assumenda cupiditate enim.",
+        "Id": 110,
+        "Name": "Brakus-Cummerata",
+        "ToolTip": "Error animi.",
         "Deleted": false,
-        "Rank": 318,
-        "Type": "praesentium",
-        "ColorBlock": 168,
-        "IconHint": "nisi",
-        "Selected": false,
-        "LastChanged": "2006-04-16T03:46:54.9569999+02:00",
+        "Rank": 34,
+        "Type": "quae",
+        "ColorBlock": 687,
+        "IconHint": "fugiat",
+        "Selected": true,
+        "LastChanged": "2003-09-13T03:41:53.6994806+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "et",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "eum",
         "Hidden": false,
-        "FullName": "Dr. Elta Hills",
+        "FullName": "Dorthy Smith",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 255
+            "FieldLength": 924
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "excepturi",
+    "ExtraInfo": "beatae",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Melissa Brakus Jr.",
+    "FullName": "Arnoldo Dickinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 586
+        "FieldType": "System.String",
+        "FieldLength": 980
       }
     }
   }

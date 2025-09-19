@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 397,
-    "Name": "Stroman, Moore and Durgan",
-    "ToolTip": "Maiores distinctio sequi eum dolorum repellendus odio.",
+    "Id": 651,
+    "Name": "Mante Inc and Sons",
+    "ToolTip": "Omnis laudantium sed qui.",
     "Deleted": false,
-    "Rank": 221,
-    "Type": "tempore",
-    "ColorBlock": 679,
-    "IconHint": "nihil",
-    "Selected": false,
-    "LastChanged": "2013-12-08T03:47:00.7380451+01:00",
+    "Rank": 439,
+    "Type": "pariatur",
+    "ColorBlock": 32,
+    "IconHint": "sit",
+    "Selected": true,
+    "LastChanged": "2004-06-26T03:41:59.5432177+02:00",
     "ChildItems": [
       {
-        "Id": 528,
-        "Name": "Hammes, O'Kon and Ryan",
-        "ToolTip": "Neque sit.",
+        "Id": 46,
+        "Name": "Purdy LLC",
+        "ToolTip": "Modi ducimus harum eum eum adipisci.",
         "Deleted": false,
-        "Rank": 718,
-        "Type": "sed",
-        "ColorBlock": 99,
-        "IconHint": "accusamus",
-        "Selected": true,
-        "LastChanged": "2009-01-06T03:47:00.7380451+01:00",
+        "Rank": 437,
+        "Type": "qui",
+        "ColorBlock": 757,
+        "IconHint": "repellendus",
+        "Selected": false,
+        "LastChanged": "2010-11-18T03:41:59.5432177+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "sit",
+        "ExtraInfo": "aut",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Johnathon Bergnaum Sr.",
+        "FullName": "Tevin White",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 814
+            "FieldLength": 311
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "nihil",
-    "Hidden": false,
-    "FullName": "Nick Kertzmann",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "dolores",
+    "Hidden": true,
+    "FullName": "Ms. Bertram Annette Thompson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 589
+        "FieldType": "System.String",
+        "FieldLength": 89
       }
     }
   }

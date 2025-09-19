@@ -101,34 +101,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 470,
-  "UniqueId": "voluptatem",
-  "Name": "Deckow Group",
-  "Description": "Reverse-engineered fresh-thinking toolset",
-  "AssociateId": 875,
-  "Columns": 674,
+  "DashboardId": 22,
+  "UniqueId": "maxime",
+  "Name": "Klein Inc and Sons",
+  "Description": "User-friendly radical moderator",
+  "AssociateId": 450,
+  "Columns": 296,
   "Theme": null,
-  "VisibleForAll": 747,
+  "VisibleForAll": 510,
   "VisibleForAssociates": [
-    780,
-    455
+    516,
+    192
   ],
   "VisibleForGroups": [
-    130,
-    520
+    781,
+    170
   ],
-  "PinForAll": 506,
+  "PinForAll": 102,
   "PinForAssociates": [
-    76,
-    307
+    312,
+    17
   ],
   "PinForGroups": [
-    415,
-    164
+    219,
+    294
   ]
 }
 ```
@@ -140,37 +140,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 974,
-  "UniqueId": "laudantium",
-  "Name": "Sanford, Luettgen and Harber",
-  "Description": "User-centric incremental focus group",
-  "AssociateId": 200,
-  "Columns": 875,
+  "DashboardId": 798,
+  "UniqueId": "pariatur",
+  "Name": "Ritchie LLC",
+  "Description": "Sharable dedicated complexity",
+  "AssociateId": 974,
+  "Columns": 409,
   "Theme": null,
-  "VisibleForAll": 231,
+  "VisibleForAll": 485,
   "VisibleForAssociates": [
-    734,
-    852
+    870,
+    597
   ],
   "VisibleForGroups": [
-    895,
-    389
+    57,
+    154
   ],
-  "PinForAll": 34,
+  "PinForAll": 223,
   "PinForAssociates": [
-    137,
-    984
+    392,
+    362
   ],
   "PinForGroups": [
-    918,
-    723
+    922,
+    214
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 898
+      "FieldType": "System.Int32",
+      "FieldLength": 330
     }
   },
   "_Links": {

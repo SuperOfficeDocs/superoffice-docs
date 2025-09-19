@@ -101,7 +101,8 @@ Entity to be checked for errors.
 | BounceEmails | Array | Email addresses with a positive bounce counter. |
 | ActiveStatusMonitorId | Integer | Active status monitor identity with the lowest rank for person |
 | CreatedByFormId | Integer | The form id of the form that created the person |
-| InitialUtmParameters | InitalUtmParameters | Initial utm parameters when creating this person, readonly fields |
+| UtmParameters | SavedUtmParameters | Utm parameters when creating this person, readonly fields |
+| LeadstatusId | Integer | Refinement of categories of lead type. Empty if the category is not a lead type. |
 | UserDefinedFields | Object | Deprecated: Use {SuperOffice.CRM.Services.PersonEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | Object | Deprecated: Use {SuperOffice.CRM.Services.PersonEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | Object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.PersonEntity.ExtraFields} and <see cref="P:SuperOffice.CRM.Services.PersonEntity.UserDefinedFields">UserDefinedFields</see> properties are deprecated in favor of this combined collection. |
@@ -123,92 +124,92 @@ OK
 POST /api/v1/Person/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 882,
-  "Firstname": "Gabriel",
-  "MiddleName": "Cormier Group",
-  "Lastname": "Hoeger",
-  "Mrmrs": "qui",
-  "Title": "voluptas",
-  "UpdatedDate": "2001-05-08T03:47:00.1443174+02:00",
-  "CreatedDate": "2010-08-16T03:47:00.1443174+02:00",
-  "BirthDate": "2024-02-08T03:47:00.1443174+01:00",
+  "PersonId": 598,
+  "Firstname": "Lula",
+  "MiddleName": "Rolfson LLC",
+  "Lastname": "Upton",
+  "Mrmrs": "voluptatem",
+  "Title": "officiis",
+  "UpdatedDate": "2005-12-05T03:41:58.8242618+01:00",
+  "CreatedDate": "2003-03-30T03:41:58.8242618+02:00",
+  "BirthDate": "2005-07-05T03:41:58.8242618+02:00",
   "CreatedBy": null,
   "Emails": [
     {
-      "Value": "ipsum",
-      "StrippedValue": "laudantium",
-      "Description": "Virtual fault-tolerant access"
+      "Value": "minima",
+      "StrippedValue": "sit",
+      "Description": "Pre-emptive client-server project"
     },
     {
-      "Value": "ipsum",
-      "StrippedValue": "laudantium",
-      "Description": "Virtual fault-tolerant access"
+      "Value": "minima",
+      "StrippedValue": "sit",
+      "Description": "Pre-emptive client-server project"
     }
   ],
-  "Description": "Secured discrete parallelism",
-  "IsAssociate": false,
+  "Description": "Automated radical internet solution",
+  "IsAssociate": true,
   "PrivatePhones": [
     {
-      "Value": "quis",
-      "StrippedValue": "nobis",
-      "Description": "Triple-buffered neutral moderator"
+      "Value": "quam",
+      "StrippedValue": "qui",
+      "Description": "Self-enabling next generation infrastructure"
     },
     {
-      "Value": "quis",
-      "StrippedValue": "nobis",
-      "Description": "Triple-buffered neutral moderator"
+      "Value": "quam",
+      "StrippedValue": "qui",
+      "Description": "Self-enabling next generation infrastructure"
     }
   ],
   "Faxes": [
     {
-      "Value": "sed",
-      "StrippedValue": "necessitatibus",
-      "Description": "Polarised stable ability"
+      "Value": "est",
+      "StrippedValue": "quam",
+      "Description": "Synchronised discrete installation"
     },
     {
-      "Value": "sed",
-      "StrippedValue": "necessitatibus",
-      "Description": "Polarised stable ability"
+      "Value": "est",
+      "StrippedValue": "quam",
+      "Description": "Synchronised discrete installation"
     }
   ],
   "MobilePhones": [
     {
-      "Value": "alias",
-      "StrippedValue": "voluptatem",
-      "Description": "Profit-focused content-based implementation"
+      "Value": "reprehenderit",
+      "StrippedValue": "a",
+      "Description": "Focused bandwidth-monitored frame"
     },
     {
-      "Value": "alias",
-      "StrippedValue": "voluptatem",
-      "Description": "Profit-focused content-based implementation"
+      "Value": "reprehenderit",
+      "StrippedValue": "a",
+      "Description": "Focused bandwidth-monitored frame"
     }
   ],
   "OfficePhones": [
     {
-      "Value": "omnis",
-      "StrippedValue": "porro",
-      "Description": "Horizontal directional adapter"
+      "Value": "nobis",
+      "StrippedValue": "dolorem",
+      "Description": "Re-contextualized object-oriented framework"
     },
     {
-      "Value": "omnis",
-      "StrippedValue": "porro",
-      "Description": "Horizontal directional adapter"
+      "Value": "nobis",
+      "StrippedValue": "dolorem",
+      "Description": "Re-contextualized object-oriented framework"
     }
   ],
   "OtherPhones": [
     {
-      "Value": "omnis",
-      "StrippedValue": "perspiciatis",
-      "Description": "Networked 5th generation internet solution"
+      "Value": "molestiae",
+      "StrippedValue": "accusamus",
+      "Description": "Assimilated optimal policy"
     },
     {
-      "Value": "omnis",
-      "StrippedValue": "perspiciatis",
-      "Description": "Networked 5th generation internet solution"
+      "Value": "molestiae",
+      "StrippedValue": "accusamus",
+      "Description": "Assimilated optimal policy"
     }
   ],
   "Position": null,
@@ -217,151 +218,152 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Interests": [
     {
-      "Id": 937,
-      "Name": "Zieme, Stamm and Vandervort",
-      "ToolTip": "Laudantium qui nesciunt culpa porro voluptate.",
+      "Id": 357,
+      "Name": "Anderson-Kassulke",
+      "ToolTip": "Nostrum nobis in rerum quos sequi id quod.",
       "Deleted": false,
-      "Rank": 622,
-      "Type": "non",
-      "ColorBlock": 756,
-      "IconHint": "sequi",
+      "Rank": 273,
+      "Type": "sed",
+      "ColorBlock": 993,
+      "IconHint": "aut",
       "Selected": false,
-      "LastChanged": "2018-06-30T03:47:00.1443174+02:00",
+      "LastChanged": "2015-08-07T03:41:58.8242618+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "nihil",
-      "Hidden": true,
-      "FullName": "Prof. Colton Nona Deckow"
+      "ExtraInfo": "vitae",
+      "StyleHint": "eos",
+      "Hidden": false,
+      "FullName": "Mr. Cayla Katelyn Roob II"
     }
   ],
-  "PersonNumber": "630272",
-  "FullName": "Pablo Haley",
-  "NoMailing": false,
-  "UsePersonAddress": false,
-  "Retired": true,
+  "PersonNumber": "1315945",
+  "FullName": "Mr. Tracey Greenfelder",
+  "NoMailing": true,
+  "UsePersonAddress": true,
+  "Retired": false,
   "Urls": [
     {
-      "Value": "ea",
-      "StrippedValue": "dolor",
-      "Description": "Quality-focused fault-tolerant software"
+      "Value": "consequatur",
+      "StrippedValue": "sit",
+      "Description": "Operative multimedia neural-net"
     },
     {
-      "Value": "ea",
-      "StrippedValue": "dolor",
-      "Description": "Quality-focused fault-tolerant software"
+      "Value": "consequatur",
+      "StrippedValue": "sit",
+      "Description": "Operative multimedia neural-net"
     }
   ],
-  "FormalName": "VonRueden, Hegmann and Predovic",
+  "FormalName": "Bechtelar, Mraz and Connelly",
   "Address": null,
-  "Post3": "et",
-  "Post2": "pariatur",
-  "Post1": "impedit",
-  "Kanalname": "qui",
-  "Kanafname": "ea",
+  "Post3": "expedita",
+  "Post2": "illo",
+  "Post1": "ut",
+  "Kanalname": "aut",
+  "Kanafname": "qui",
   "CorrespondingAssociate": null,
   "Category": null,
   "Business": null,
   "Associate": null,
-  "Salutation": "dolores",
-  "ActiveInterests": 489,
+  "Salutation": "dolorem",
+  "ActiveInterests": 337,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "DbiAgentId": 218,
-  "DbiKey": "et",
-  "DbiLastModified": "2017-11-23T03:47:00.1443174+01:00",
-  "DbiLastSyncronized": "2023-01-27T03:47:00.1443174+01:00",
-  "SentInfo": 733,
-  "ShowContactTickets": 163,
+  "DbiAgentId": 531,
+  "DbiKey": "animi",
+  "DbiLastModified": "2019-12-04T03:41:58.8242618+01:00",
+  "DbiLastSyncronized": "2015-07-07T03:41:58.8242618+02:00",
+  "SentInfo": 101,
+  "ShowContactTickets": 251,
   "UserInfo": null,
   "ChatEmails": [
     {
-      "Value": "iure",
-      "StrippedValue": "non",
-      "Description": "Monitored 5th generation flexibility"
+      "Value": "molestiae",
+      "StrippedValue": "alias",
+      "Description": "Total 5th generation leverage"
     },
     {
-      "Value": "iure",
-      "StrippedValue": "non",
-      "Description": "Monitored 5th generation flexibility"
+      "Value": "molestiae",
+      "StrippedValue": "alias",
+      "Description": "Total 5th generation leverage"
     }
   ],
   "InternetPhones": [
     {
-      "Value": "et",
-      "StrippedValue": "adipisci",
-      "Description": "Operative interactive hardware"
+      "Value": "voluptatem",
+      "StrippedValue": "qui",
+      "Description": "User-centric system-worthy capacity"
     },
     {
-      "Value": "et",
-      "StrippedValue": "adipisci",
-      "Description": "Operative interactive hardware"
+      "Value": "voluptatem",
+      "StrippedValue": "qui",
+      "Description": "User-centric system-worthy capacity"
     }
   ],
-  "Source": 865,
-  "ActiveErpLinks": 581,
+  "Source": 957,
+  "ActiveErpLinks": 927,
   "ShipmentTypes": [
     {
-      "Id": 218,
-      "Name": "Johns Inc and Sons",
-      "ToolTip": "Explicabo deserunt sit sed at.",
+      "Id": 513,
+      "Name": "Kuhic Group",
+      "ToolTip": "Non consequatur eveniet omnis illum fugiat.",
       "Deleted": false,
-      "Rank": 325,
-      "Type": "tenetur",
-      "ColorBlock": 946,
-      "IconHint": "incidunt",
+      "Rank": 339,
+      "Type": "qui",
+      "ColorBlock": 78,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "2010-07-21T03:47:00.1599324+02:00",
+      "LastChanged": "2004-07-28T03:41:58.8242618+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "earum",
-      "StyleHint": "aliquid",
+      "ExtraInfo": "sed",
+      "StyleHint": "enim",
       "Hidden": false,
-      "FullName": "Cassandre Wehner"
+      "FullName": "Mr. Madelyn Gilberto Hagenes"
     }
   ],
   "Consents": [
     {
-      "ConsentPersonId": 14,
-      "Comment": "exercitationem",
-      "Registered": "2000-09-13T03:47:00.1599324+02:00",
-      "RegisteredAssociateId": 399,
-      "Updated": "2000-12-08T03:47:00.1599324+01:00",
-      "UpdatedAssociateId": 203,
-      "LegalBaseId": 332,
-      "LegalBaseKey": "rem",
-      "LegalBaseName": "Hickle, Kiehn and Durgan",
-      "ConsentPurposeId": 207,
-      "ConsentPurposeKey": "laudantium",
-      "ConsentPurposeName": "Upton, Abbott and Auer",
-      "ConsentSourceId": 413,
-      "ConsentSourceKey": "repellendus",
-      "ConsentSourceName": "Witting-Effertz"
+      "ConsentPersonId": 333,
+      "Comment": "qui",
+      "Registered": "2018-06-19T03:41:58.8242618+02:00",
+      "RegisteredAssociateId": 263,
+      "Updated": "2018-01-09T03:41:58.8242618+01:00",
+      "UpdatedAssociateId": 388,
+      "LegalBaseId": 337,
+      "LegalBaseKey": "molestiae",
+      "LegalBaseName": "Schmitt Inc and Sons",
+      "ConsentPurposeId": 554,
+      "ConsentPurposeKey": "ad",
+      "ConsentPurposeName": "Nienow, Stokes and Schultz",
+      "ConsentSourceId": 759,
+      "ConsentSourceKey": "et",
+      "ConsentSourceName": "Hirthe, Zemlak and O'Hara"
     }
   ],
   "BounceEmails": [
-    "velva_mraz@casper.uk",
-    "hunter@wisoky.com"
+    "unique.terry@huelsgreenholt.biz",
+    "jack.hagenes@paucek.com"
   ],
-  "ActiveStatusMonitorId": 370,
-  "CreatedByFormId": 499,
-  "InitialUtmParameters": null,
+  "ActiveStatusMonitorId": 732,
+  "CreatedByFormId": 136,
+  "UtmParameters": null,
+  "LeadstatusId": 514,
   "UserDefinedFields": {
-    "SuperOffice:1": "164668249",
-    "SuperOffice:2": "1969446538"
+    "SuperOffice:1": "Abbey Stark",
+    "SuperOffice:2": "Dianna Windler V"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "accusamus",
+    "ExtraFields2": "minus"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "optio"
+    "CustomFields1": "sit",
+    "CustomFields2": "excepturi"
   }
 }
 ```
@@ -373,7 +375,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "animi",
-  "2": "et"
+  "1": "voluptatem",
+  "2": "vero"
 }
 ```

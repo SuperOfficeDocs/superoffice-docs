@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 180,
-    "Name": "Wiza, Roob and Kertzmann",
-    "Tooltip": "enim",
+    "Id": 472,
+    "Name": "Abernathy-Watsica",
+    "Tooltip": "at",
     "Deleted": false,
-    "UdListDefinitionId": 71,
-    "Rank": 907,
+    "UdListDefinitionId": 224,
+    "Rank": 750,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 441
+        "FieldLength": 201
       }
     }
   }

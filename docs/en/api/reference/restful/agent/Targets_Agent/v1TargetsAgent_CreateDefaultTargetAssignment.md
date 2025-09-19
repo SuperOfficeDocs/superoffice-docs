@@ -74,24 +74,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 608,
+  "TargetAssignmentInfoId": 948,
   "Values": [
-    943,
-    914
+    692,
+    415
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 469,
-  "DimensionListItemDisplayName": "Ankunding-Kassulke",
+  "DimensionListItem": 265,
+  "DimensionListItemDisplayName": "Harris-Stanton",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 599
+      "FieldType": "System.String",
+      "FieldLength": 470
     }
   }
 }

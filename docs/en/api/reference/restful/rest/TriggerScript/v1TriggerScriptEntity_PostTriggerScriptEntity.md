@@ -102,16 +102,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 246,
-  "Name": "Murphy Group",
+  "ScreenChooserId": 954,
+  "Name": "Legros LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "mollitia",
-  "Source": "aspernatur",
-  "Registered": "2001-03-19T03:47:00.3943072+01:00",
-  "RegisteredAssociateId": 453,
-  "Updated": "2003-02-03T03:47:00.3943072+01:00",
-  "UpdatedAssociateId": 718
+  "UniqueIdentifier": "quis",
+  "Source": "id",
+  "Registered": "2021-12-30T03:41:59.1679969+01:00",
+  "RegisteredAssociateId": 9,
+  "Updated": "2010-07-24T03:41:59.1679969+02:00",
+  "UpdatedAssociateId": 240
 }
 ```
 
@@ -122,22 +122,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 392,
-  "Name": "Paucek LLC",
+  "ScreenChooserId": 738,
+  "Name": "Larkin LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "non",
-  "Source": "nihil",
-  "Registered": "2015-04-07T03:47:00.3943072+02:00",
-  "RegisteredAssociateId": 949,
-  "Updated": "2013-09-11T03:47:00.3943072+02:00",
-  "UpdatedAssociateId": 187,
+  "UniqueIdentifier": "sapiente",
+  "Source": "illo",
+  "Registered": "2004-04-25T03:41:59.1679969+02:00",
+  "RegisteredAssociateId": 832,
+  "Updated": "2018-08-24T03:41:59.1679969+02:00",
+  "UpdatedAssociateId": 224,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 911
+      "FieldLength": 294
     }
   },
   "_Links": {

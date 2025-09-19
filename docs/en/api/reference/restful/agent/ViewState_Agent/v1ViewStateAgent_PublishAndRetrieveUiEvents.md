@@ -84,30 +84,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 630,
+  "LatestKnownEventId": 860,
   "PublishEvents": [
     {
-      "EventId": 904,
-      "EventName": "Gibson-Greenfelder",
-      "EntityType": "sed",
-      "EntityKey": 763,
-      "AssociateId": 20,
-      "AssociateName": "Klocko, Mertz and Hane",
-      "EventDateTime": "1998-11-07T03:46:55.6444757+01:00"
+      "EventId": 70,
+      "EventName": "Upton Inc and Sons",
+      "EntityType": "est",
+      "EntityKey": 637,
+      "AssociateId": 119,
+      "AssociateName": "West-Kunde",
+      "EventDateTime": "2015-06-06T03:41:54.3869476+02:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Mueller-Bergstrom",
-      "Value": 592
+      "Name": "Farrell Group",
+      "Value": 536
     },
     {
-      "Name": "Mueller-Bergstrom",
-      "Value": 592
+      "Name": "Farrell Group",
+      "Value": 536
     }
   ]
 }
@@ -121,19 +121,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 974,
-    "EventName": "Kuhic-Kshlerin",
-    "EntityType": "quam",
-    "EntityKey": 261,
-    "AssociateId": 116,
-    "AssociateName": "Mraz-Kassulke",
-    "EventDateTime": "2015-04-04T03:46:55.6444757+02:00",
+    "EventId": 364,
+    "EventName": "Wuckert-Harvey",
+    "EntityType": "eos",
+    "EntityKey": 604,
+    "AssociateId": 307,
+    "AssociateName": "Grady-Kerluke",
+    "EventDateTime": "2019-11-12T03:41:54.3869476+01:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 666
+        "FieldLength": 402
       }
     }
   }

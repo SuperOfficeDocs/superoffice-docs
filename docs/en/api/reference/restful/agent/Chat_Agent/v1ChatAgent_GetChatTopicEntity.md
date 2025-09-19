@@ -27,7 +27,7 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=527
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=899
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,43 +108,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 585,
-  "Name": "Cormier-Heller",
-  "Description": "Enhanced zero defect structure",
-  "WelcomeMessage": "sit",
+  "ChatTopicId": 212,
+  "Name": "Murazik-Herzog",
+  "Description": "Configurable local moratorium",
+  "WelcomeMessage": "excepturi",
   "Language": null,
-  "LastAccept": "2015-05-13T03:46:54.3945199+02:00",
-  "SecondsPrAccept": 612,
-  "AlertRecipient": "harum",
+  "LastAccept": "2012-02-15T03:41:53.152624+01:00",
+  "SecondsPrAccept": 534,
+  "AlertRecipient": "sequi",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "possimus",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "commodi",
-  "WarnNewChatMinutes": 912,
-  "WarnManagerNewChatMinutes": 906,
+  "CollectConsent": true,
+  "BadgeHeader": "rerum",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "rerum",
+  "WarnNewChatMinutes": 784,
+  "WarnManagerNewChatMinutes": 339,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 329,
-  "WarnManagerChatMessageMinutes": 179,
-  "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 713,
-  "OfflineFormQueueLength": 600,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "id",
+  "WarnChatMessageMinutes": 997,
+  "WarnManagerChatMessageMinutes": 339,
+  "UseQueueOfflineForm": true,
+  "OfflineFormTimeLimit": 296,
+  "OfflineFormQueueLength": 411,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "voluptatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 734
+      "FieldLength": 304
     }
   }
 }

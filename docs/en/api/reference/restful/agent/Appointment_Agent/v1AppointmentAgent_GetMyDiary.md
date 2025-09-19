@@ -132,13 +132,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2011-04-29T03:46:54.2695244+02:00",
-  "EndTime": "2009-10-10T03:46:54.2695244+02:00",
-  "Count": 175
+  "StartTime": "2023-06-07T03:41:53.0588794+02:00",
+  "EndTime": "2024-11-05T03:41:53.0588794+01:00",
+  "Count": 69
 }
 ```
 
@@ -150,67 +150,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 116,
-    "StartDate": "2004-01-05T03:46:54.2695244+01:00",
-    "EndDate": "2011-04-08T03:46:54.2695244+02:00",
+    "AppointmentId": 469,
+    "StartDate": "2001-09-07T03:41:53.0588794+02:00",
+    "EndDate": "2006-09-05T03:41:53.0588794+02:00",
     "Type": "BookingForChecklist",
-    "Task": "ad",
-    "AssociateFullName": "Wilhelm Deshaun Fadel V",
-    "ContactName": "Herzog-Schoen",
-    "Description": "Optional multi-tasking solution",
-    "PersonFullName": "Destinee Mills",
-    "PersonId": 456,
-    "ContactId": 842,
-    "ProjectId": 809,
-    "ProjectName": "O'Hara-Bode",
+    "Task": "et",
+    "AssociateFullName": "Kaia Gutkowski",
+    "ContactName": "Hermann-Murazik",
+    "Description": "Intuitive encompassing website",
+    "PersonFullName": "Mrs. Eldred Eloise Lemke V",
+    "PersonId": 1000,
+    "ContactId": 595,
+    "ProjectId": 677,
+    "ProjectName": "Mann, Bechtelar and Sipes",
     "IsPublished": false,
-    "AssociateId": 200,
-    "ColorIndex": 839,
-    "IsFree": false,
-    "HasAlarm": true,
+    "AssociateId": 634,
+    "ColorIndex": 462,
+    "IsFree": true,
+    "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 757,
-    "PriorityName": "McDermott Group",
+    "PriorityId": 332,
+    "PriorityName": "Lowe Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2006-09-28T03:46:54.2695244+02:00",
+    "ActiveDate": "2016-11-21T03:41:53.0588794+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2015-09-05T03:46:54.2695244+02:00",
-    "RecurringEndDate": "1999-06-04T03:46:54.2695244+02:00",
-    "MotherId": 691,
-    "AssignedBy": 439,
-    "AssignedByFullName": "Dr. Mohammed Bert Reichert PhD",
+    "RecurringStartDate": "2019-01-22T03:41:53.0588794+01:00",
+    "RecurringEndDate": "2021-04-26T03:41:53.0588794+02:00",
+    "MotherId": 171,
+    "AssignedBy": 965,
+    "AssignedByFullName": "Kole Kiehn",
     "RejectReason": "",
-    "Location": "ut",
-    "AlarmLeadTime": "est",
-    "SaleId": 674,
-    "SaleName": "Okuneva Group",
-    "AssociateName": "Daugherty Group",
-    "CreatedDate": "2009-05-08T03:46:54.2695244+02:00",
-    "CreatedBy": "nostrum",
-    "CreatedByFullName": "Marlin Cartwright",
-    "CreatedByAssociateId": 244,
+    "Location": "modi",
+    "AlarmLeadTime": "beatae",
+    "SaleId": 213,
+    "SaleName": "Rowe-Padberg",
+    "AssociateName": "Daniel LLC",
+    "CreatedDate": "2022-02-26T03:41:53.0588794+01:00",
+    "CreatedBy": "tempora",
+    "CreatedByFullName": "Esther Corwin",
+    "CreatedByAssociateId": 871,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 778,
+    "MotherAssociateId": 912,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 979,
-    "Title": "ut",
-    "Agenda": "cupiditate",
-    "InternalNotes": "odit",
+    "PreferredTZLocation": 198,
+    "Title": "in",
+    "Agenda": "et",
+    "InternalNotes": "consectetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 734
+        "FieldLength": 543
       }
     }
   }

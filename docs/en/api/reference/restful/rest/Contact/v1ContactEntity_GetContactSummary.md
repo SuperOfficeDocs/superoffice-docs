@@ -30,7 +30,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=167
+GET /api/v1/Contact/{contactId}/Summary?limit=54
 ```
 
 
@@ -73,7 +73,7 @@ OK
 GET /api/v1/Contact/{contactId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,79 +86,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 365,
-      "TicketStatus": 174,
-      "Title": "molestiae",
-      "Registered": "2013-03-09T03:46:59.8786923+01:00",
+      "TicketId": 291,
+      "TicketStatus": 788,
+      "Title": "tempore",
+      "Registered": "2022-01-30T03:41:58.6055208+01:00",
       "IconHint": "ut"
     },
     {
-      "TicketId": 365,
-      "TicketStatus": 174,
-      "Title": "molestiae",
-      "Registered": "2013-03-09T03:46:59.8786923+01:00",
+      "TicketId": 291,
+      "TicketStatus": 788,
+      "Title": "tempore",
+      "Registered": "2022-01-30T03:41:58.6055208+01:00",
       "IconHint": "ut"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 132,
-      "DocumentId": 474,
-      "Date": "2020-11-03T03:46:59.8786923+01:00",
-      "Description": "Assimilated even-keeled portal",
+      "AppointmentId": 455,
+      "DocumentId": 414,
+      "Date": "2005-12-25T03:41:58.6055208+01:00",
+      "Description": "Progressive exuding matrix",
       "Completed": "Completed",
-      "Registered": "1999-04-21T03:46:59.8786923+02:00"
+      "Registered": "2004-08-17T03:41:58.6055208+02:00"
     },
     {
-      "AppointmentId": 132,
-      "DocumentId": 474,
-      "Date": "2020-11-03T03:46:59.8786923+01:00",
-      "Description": "Assimilated even-keeled portal",
+      "AppointmentId": 455,
+      "DocumentId": 414,
+      "Date": "2005-12-25T03:41:58.6055208+01:00",
+      "Description": "Progressive exuding matrix",
       "Completed": "Completed",
-      "Registered": "1999-04-21T03:46:59.8786923+02:00"
+      "Registered": "2004-08-17T03:41:58.6055208+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 117,
-      "DocumentId": 244,
-      "Date": "2024-09-06T03:46:59.8786923+02:00",
-      "Description": "Monitored assymetric initiative",
+      "AppointmentId": 914,
+      "DocumentId": 724,
+      "Date": "2005-10-31T03:41:58.6055208+01:00",
+      "Description": "Switchable optimizing system engine",
       "Completed": "Completed",
-      "Registered": "2019-01-14T03:46:59.8786923+01:00"
+      "Registered": "2024-04-04T03:41:58.6055208+02:00"
     },
     {
-      "AppointmentId": 117,
-      "DocumentId": 244,
-      "Date": "2024-09-06T03:46:59.8786923+02:00",
-      "Description": "Monitored assymetric initiative",
+      "AppointmentId": 914,
+      "DocumentId": 724,
+      "Date": "2005-10-31T03:41:58.6055208+01:00",
+      "Description": "Switchable optimizing system engine",
       "Completed": "Completed",
-      "Registered": "2019-01-14T03:46:59.8786923+01:00"
+      "Registered": "2024-04-04T03:41:58.6055208+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 236,
-      "SaleDate": "2005-02-02T03:46:59.8786923+01:00",
-      "Probability": 312,
-      "Heading": "sit",
-      "Amount": 23103.847999999998,
-      "Currency": "eum",
-      "AmountInBaseCurrency": 24269.696,
+      "SaleId": 432,
+      "SaleDate": "2007-08-06T03:41:58.6055208+02:00",
+      "Probability": 15,
+      "Heading": "expedita",
+      "Amount": 13049.975999999999,
+      "Currency": "qui",
+      "AmountInBaseCurrency": 23570.814,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2012-02-13T03:46:59.8786923+01:00"
+      "Registered": "2014-07-26T03:41:58.6055208+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 957,
-      "Name": "Leuschke, Morar and Jakubowski",
-      "CompanyName": "Pacocha-Wehner",
-      "FirstMessage": "placeat",
-      "LastMessage": "nam",
-      "WhenRequested": "2003-09-15T03:46:59.8786923+02:00",
-      "WhenEnded": "2015-08-05T03:46:59.8786923+02:00"
+      "ChatSessionId": 11,
+      "Name": "O'Connell, O'Reilly and Medhurst",
+      "CompanyName": "Koelpin Inc and Sons",
+      "FirstMessage": "dolorem",
+      "LastMessage": "ratione",
+      "WhenRequested": "1999-04-03T03:41:58.6055208+02:00",
+      "WhenEnded": "2005-05-11T03:41:58.6055208+02:00"
     }
   ]
 }

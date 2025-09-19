@@ -27,8 +27,8 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentSource/MDOItems?flat=True
-GET /api/v1/List/ConsentSource/MDOItems?query=harum
+GET /api/v1/List/ConsentSource/MDOItems?flat=False
+GET /api/v1/List/ConsentSource/MDOItems?query=aut
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 906,
-    "Name": "Russel-Frami",
-    "ToolTip": "Qui dolorem temporibus necessitatibus.",
-    "Deleted": false,
-    "Rank": 924,
-    "Type": "libero",
+    "Id": 384,
+    "Name": "Torphy, Mohr and Tromp",
+    "ToolTip": "Ut sed suscipit molestias.",
+    "Deleted": true,
+    "Rank": 974,
+    "Type": "inventore",
     "ChildItems": [
       {
-        "Id": 420,
-        "Name": "Yundt-Schmidt",
-        "ToolTip": "Molestias eum ea earum aut tenetur quae.",
+        "Id": 15,
+        "Name": "Cruickshank-Dickens",
+        "ToolTip": "Maxime et et.",
         "Deleted": false,
-        "Rank": 368,
-        "Type": "excepturi",
+        "Rank": 546,
+        "Type": "id",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 829,
-        "ExtraInfo": "impedit",
-        "StyleHint": "qui",
-        "FullName": "Selena Predovic",
+        "IconHint": "nostrum",
+        "ColorBlock": 555,
+        "ExtraInfo": "nisi",
+        "StyleHint": "dolore",
+        "FullName": "Fannie Kilback MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 533
+            "FieldType": "System.String",
+            "FieldLength": 471
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 184,
-    "ExtraInfo": "quis",
-    "StyleHint": "voluptate",
-    "FullName": "Marguerite Nikolaus",
+    "IconHint": "commodi",
+    "ColorBlock": 514,
+    "ExtraInfo": "veniam",
+    "StyleHint": "nisi",
+    "FullName": "Edyth Lang",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 373
+        "FieldLength": 223
       }
     }
   }

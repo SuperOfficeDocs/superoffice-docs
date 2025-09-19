@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Simonis, Cole and Cole",
-  "HeadingId": 624
+  "UdListDefinitionName": "Ryan LLC",
+  "HeadingId": 850
 }
 ```
 
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 483,
-    "Name": "Senger, Nicolas and Roob",
-    "ToolTip": "Itaque doloribus ducimus id.",
+    "Id": 566,
+    "Name": "Miller, Stamm and Breitenberg",
+    "ToolTip": "Quia quibusdam enim voluptates quis est ullam.",
     "Deleted": false,
-    "Rank": 24,
-    "Type": "soluta",
-    "ColorBlock": 71,
-    "IconHint": "quas",
+    "Rank": 632,
+    "Type": "magnam",
+    "ColorBlock": 990,
+    "IconHint": "incidunt",
     "Selected": false,
-    "LastChanged": "2014-12-29T03:46:54.9569999+01:00",
+    "LastChanged": "2024-08-21T03:41:53.6994806+02:00",
     "ChildItems": [
       {
-        "Id": 874,
-        "Name": "Cummerata Inc and Sons",
-        "ToolTip": "Veniam perspiciatis asperiores.",
-        "Deleted": false,
-        "Rank": 403,
-        "Type": "ea",
-        "ColorBlock": 919,
-        "IconHint": "ex",
+        "Id": 50,
+        "Name": "Cole-Friesen",
+        "ToolTip": "Ab dolor accusamus iure dicta eius reprehenderit et.",
+        "Deleted": true,
+        "Rank": 675,
+        "Type": "quam",
+        "ColorBlock": 298,
+        "IconHint": "dicta",
         "Selected": false,
-        "LastChanged": "2020-07-01T03:46:54.9569999+02:00",
+        "LastChanged": "2006-01-09T03:41:53.6994806+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "iste",
-        "Hidden": false,
-        "FullName": "Alexandra Schroeder",
+        "ExtraInfo": "tempore",
+        "StyleHint": "tempore",
+        "Hidden": true,
+        "FullName": "Mr. Meda Noelia Adams",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 699
+            "FieldLength": 410
           }
         }
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "iure",
+    "ExtraInfo": "alias",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Jeanie Betsy Bayer Jr.",
+    "FullName": "Mr. Alayna Rachael Upton V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 471
+        "FieldLength": 207
       }
     }
   }

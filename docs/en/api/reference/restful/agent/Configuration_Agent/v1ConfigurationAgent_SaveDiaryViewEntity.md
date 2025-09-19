@@ -78,39 +78,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 17,
-  "Name": "O'Keefe, Blick and Gibson",
-  "Tooltip": "ut",
-  "VisibleColumns": 533,
-  "Rank": 520,
-  "AssocId": 173,
+  "DiaryViewId": 678,
+  "Name": "Schmitt-Huels",
+  "Tooltip": "est",
+  "VisibleColumns": 321,
+  "Rank": 818,
+  "AssocId": 800,
   "AssociateList": [
     {
-      "Id": 586,
-      "Name": "Denesik Inc and Sons",
-      "ToolTip": "Hic ut perferendis.",
+      "Id": 940,
+      "Name": "Weissnat-Murray",
+      "ToolTip": "Autem quibusdam voluptas iusto ipsa.",
       "Deleted": false,
-      "Rank": 887,
-      "Type": "impedit",
-      "ColorBlock": 803,
-      "IconHint": "enim",
+      "Rank": 366,
+      "Type": "odio",
+      "ColorBlock": 892,
+      "IconHint": "velit",
       "Selected": true,
-      "LastChanged": "1999-09-19T03:46:54.4570178+02:00",
+      "LastChanged": "2021-11-03T03:41:53.2309893+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "voluptatem",
-      "Hidden": false,
-      "FullName": "Prof. Elbert Bergnaum MD"
+      "ExtraInfo": "architecto",
+      "StyleHint": "sit",
+      "Hidden": true,
+      "FullName": "Verla Runolfsdottir"
     }
   ],
-  "TzLocationId": 903
+  "TzLocationId": 26
 }
 ```
 
@@ -121,49 +121,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 843,
-  "Name": "Koelpin, Wolf and Simonis",
-  "Tooltip": "accusamus",
-  "VisibleColumns": 597,
-  "Rank": 476,
-  "AssocId": 522,
+  "DiaryViewId": 308,
+  "Name": "Koch, Spencer and Dach",
+  "Tooltip": "in",
+  "VisibleColumns": 579,
+  "Rank": 18,
+  "AssocId": 178,
   "AssociateList": [
     {
-      "Id": 636,
-      "Name": "Rutherford, Welch and Toy",
-      "ToolTip": "Ipsa porro atque explicabo possimus aut blanditiis illo.",
-      "Deleted": false,
-      "Rank": 472,
-      "Type": "quisquam",
-      "ColorBlock": 56,
-      "IconHint": "voluptatem",
+      "Id": 274,
+      "Name": "Huel-Welch",
+      "ToolTip": "Ut nisi.",
+      "Deleted": true,
+      "Rank": 142,
+      "Type": "ut",
+      "ColorBlock": 934,
+      "IconHint": "asperiores",
       "Selected": false,
-      "LastChanged": "2020-03-07T03:46:54.4570178+01:00",
+      "LastChanged": "2016-12-29T03:41:53.2309893+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "iste",
-      "StyleHint": "nam",
-      "Hidden": false,
-      "FullName": "Shanna Pagac",
+      "ExtraInfo": "autem",
+      "StyleHint": "optio",
+      "Hidden": true,
+      "FullName": "Orlando Smith DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 445
+          "FieldType": "System.String",
+          "FieldLength": 466
         }
       }
     }
   ],
-  "TzLocationId": 274,
+  "TzLocationId": 258,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 557
+      "FieldType": "System.String",
+      "FieldLength": 793
     }
   }
 }

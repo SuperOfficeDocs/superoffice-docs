@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 959,
-  "Name": "Monahan LLC",
-  "Tooltip": "omnis",
+  "Id": 787,
+  "Name": "Denesik Inc and Sons",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 349,
+  "Rank": 283,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "vero",
-  "InUseByUserDefinedFields": true
+  "ListType": "sint",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 311,
-  "Name": "Miller, Kunde and Williamson",
-  "Tooltip": "et",
+  "Id": 704,
+  "Name": "Gaylord Group",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "Rank": 400,
+  "Rank": 288,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "quam",
+  "ListType": "dolores",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 378
+      "FieldType": "System.Int32",
+      "FieldLength": 284
     }
   }
 }

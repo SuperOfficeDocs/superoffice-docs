@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/SaveLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 222,
-  "Name": "Doyle-Marquardt",
-  "Tooltip": "culpa",
-  "Rank": 887,
-  "Key": "rerum",
-  "Deleted": true,
+  "LegalBaseId": 207,
+  "Name": "Quigley, Cremin and Towne",
+  "Tooltip": "laboriosam",
+  "Rank": 688,
+  "Key": "incidunt",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldType": "System.String",
+      "FieldLength": 98
     }
   }
 }

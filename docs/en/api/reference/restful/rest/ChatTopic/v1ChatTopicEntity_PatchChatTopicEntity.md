@@ -139,18 +139,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "blanditiis",
+    "path": "sunt",
     "value": {}
   },
   {
     "op": "add",
-    "path": "blanditiis",
+    "path": "sunt",
     "value": {}
   }
 ]
@@ -163,43 +163,43 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 916,
-  "Name": "Schaden, Volkman and Dare",
-  "Description": "Ameliorated tangible portal",
-  "WelcomeMessage": "voluptatem",
+  "ChatTopicId": 290,
+  "Name": "Heaney-Hickle",
+  "Description": "Focused full-range focus group",
+  "WelcomeMessage": "voluptas",
   "Language": null,
-  "LastAccept": "2007-06-24T03:46:59.8005718+02:00",
-  "SecondsPrAccept": 112,
-  "AlertRecipient": "sint",
+  "LastAccept": "2000-10-23T03:41:58.4961519+02:00",
+  "SecondsPrAccept": 637,
+  "AlertRecipient": "est",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "quos",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "eligendi",
-  "WarnNewChatMinutes": 679,
-  "WarnManagerNewChatMinutes": 296,
+  "CollectConsent": false,
+  "BadgeHeader": "qui",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "mollitia",
+  "WarnNewChatMinutes": 403,
+  "WarnManagerNewChatMinutes": 369,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 4,
-  "WarnManagerChatMessageMinutes": 276,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 122,
-  "OfflineFormQueueLength": 106,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 282,
+  "WarnManagerChatMessageMinutes": 322,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 794,
+  "OfflineFormQueueLength": 229,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "distinctio",
+  "WidgetRatingText": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 157
+      "FieldType": "System.Int32",
+      "FieldLength": 124
     }
   },
   "_Links": {

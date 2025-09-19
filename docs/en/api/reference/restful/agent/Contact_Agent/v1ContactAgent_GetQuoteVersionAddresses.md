@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 835
+  "QuoteVersionId": 129
 }
 ```
 
@@ -97,41 +97,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 2131.12,
-    "Wgs84Longitude": 17064.63,
+    "Wgs84Latitude": 14830.088,
+    "Wgs84Longitude": 10132.222,
     "LocalizedAddress": [
       [
         {
-          "Name": "Daniel, Kris and Schultz",
-          "Value": "error",
-          "Tooltip": "est",
-          "Label": "dolores",
-          "ValueLength": 624,
-          "AddressType": "inventore",
+          "Name": "Bednar, Treutel and Mraz",
+          "Value": "praesentium",
+          "Tooltip": "tempora",
+          "Label": "pariatur",
+          "ValueLength": 371,
+          "AddressType": "repellendus",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 720
+              "FieldLength": 621
             }
           }
         }
       ],
       [
         {
-          "Name": "Lesch-Bradtke",
-          "Value": "cum",
-          "Tooltip": "sed",
-          "Label": "qui",
-          "ValueLength": 679,
-          "AddressType": "facere",
+          "Name": "Paucek, Herzog and Ferry",
+          "Value": "voluptatem",
+          "Tooltip": "non",
+          "Label": "sapiente",
+          "ValueLength": 629,
+          "AddressType": "maxime",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.String",
-              "FieldLength": 614
+              "FieldLength": 655
             }
           }
         }
@@ -139,13 +139,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "exercitationem",
+    "Formatted": "rem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 330
+        "FieldType": "System.String",
+        "FieldLength": 396
       }
     }
   }

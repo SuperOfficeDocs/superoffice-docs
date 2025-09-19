@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/License/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "Hand, Roob and Haley",
-      "Description": "Customizable 5th generation extranet",
+      "Name": "Ritchie, Carroll and Wiza",
+      "Description": "Visionary directional policy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -95,8 +95,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Hand, Roob and Haley",
-      "Description": "Customizable 5th generation extranet",
+      "Name": "Ritchie, Carroll and Wiza",
+      "Description": "Visionary directional policy",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -118,30 +118,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mitchell-Hintz",
-    "Description": "Total reciprocal frame",
+    "Name": "Baumbach-Corwin",
+    "Description": "Assimilated national matrix",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 714,
-        "Tooltip": "delectus",
+        "Total": 584,
+        "Tooltip": "ipsum",
         "CanAssign": false,
-        "Free": 748,
-        "InUse": 170,
+        "Free": 72,
+        "InUse": 485,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 225,
-        "Name": "Simonis, Hessel and Torphy",
-        "Description": "Profit-focused client-server capacity",
-        "PrerequisiteModuleName": "Walsh LLC",
-        "SortOrder": 349,
-        "ExtraFlags": 145,
+        "Assigned": false,
+        "ModuleLicenseId": 207,
+        "Name": "Zemlak, Connelly and Kreiger",
+        "Description": "Networked solution-oriented intranet",
+        "PrerequisiteModuleName": "Bashirian Group",
+        "SortOrder": 75,
+        "ExtraFlags": 201,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 940
+            "FieldLength": 440
           }
         }
       }
@@ -149,25 +149,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 955,
-        "Tooltip": "et",
-        "CanAssign": true,
-        "Free": 86,
-        "InUse": 749,
+        "Total": 628,
+        "Tooltip": "animi",
+        "CanAssign": false,
+        "Free": 988,
+        "InUse": 638,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 769,
-        "Name": "O'Reilly, Bartoletti and Zemlak",
-        "Description": "Ameliorated neutral framework",
-        "PrerequisiteModuleName": "Kuhn Group",
-        "SortOrder": 482,
-        "ExtraFlags": 7,
+        "Assigned": true,
+        "ModuleLicenseId": 565,
+        "Name": "Brakus-Streich",
+        "Description": "Ameliorated methodical standardization",
+        "PrerequisiteModuleName": "Gislason, Runte and Medhurst",
+        "SortOrder": 685,
+        "ExtraFlags": 517,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 684
+            "FieldLength": 466
           }
         }
       }
@@ -177,35 +177,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 29
+        "FieldLength": 7
       }
     }
   },
   {
-    "Name": "Mitchell-Hintz",
-    "Description": "Total reciprocal frame",
+    "Name": "Baumbach-Corwin",
+    "Description": "Assimilated national matrix",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 714,
-        "Tooltip": "delectus",
+        "Total": 584,
+        "Tooltip": "ipsum",
         "CanAssign": false,
-        "Free": 748,
-        "InUse": 170,
+        "Free": 72,
+        "InUse": 485,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 225,
-        "Name": "Simonis, Hessel and Torphy",
-        "Description": "Profit-focused client-server capacity",
-        "PrerequisiteModuleName": "Walsh LLC",
-        "SortOrder": 349,
-        "ExtraFlags": 145,
+        "Assigned": false,
+        "ModuleLicenseId": 207,
+        "Name": "Zemlak, Connelly and Kreiger",
+        "Description": "Networked solution-oriented intranet",
+        "PrerequisiteModuleName": "Bashirian Group",
+        "SortOrder": 75,
+        "ExtraFlags": 201,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 940
+            "FieldLength": 440
           }
         }
       }
@@ -213,25 +213,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 955,
-        "Tooltip": "et",
-        "CanAssign": true,
-        "Free": 86,
-        "InUse": 749,
+        "Total": 628,
+        "Tooltip": "animi",
+        "CanAssign": false,
+        "Free": 988,
+        "InUse": 638,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 769,
-        "Name": "O'Reilly, Bartoletti and Zemlak",
-        "Description": "Ameliorated neutral framework",
-        "PrerequisiteModuleName": "Kuhn Group",
-        "SortOrder": 482,
-        "ExtraFlags": 7,
+        "Assigned": true,
+        "ModuleLicenseId": 565,
+        "Name": "Brakus-Streich",
+        "Description": "Ameliorated methodical standardization",
+        "PrerequisiteModuleName": "Gislason, Runte and Medhurst",
+        "SortOrder": 685,
+        "ExtraFlags": 517,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 684
+            "FieldLength": 466
           }
         }
       }
@@ -241,7 +241,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 29
+        "FieldLength": 7
       }
     }
   }

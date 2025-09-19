@@ -75,7 +75,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,33 +83,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 12 Apr 2005 03:46:59 G4T
+Last-Modified: Sun, 13 Feb 2011 03:41:58 G2T
 
 {
-  "SourceContactId": 675,
-  "SourcePersonId": 167,
-  "DestinationContactId": 446,
-  "DestinationPersonId": 360,
-  "RelationId": 75,
-  "Comment": "voluptatem",
-  "RelationDefinitionId": 995,
-  "Reversed": 524,
-  "UpdatedDate": "2005-04-12T03:46:59.8786923+02:00",
-  "CreatedDate": "2009-09-22T03:46:59.8786923+02:00",
+  "SourceContactId": 73,
+  "SourcePersonId": 268,
+  "DestinationContactId": 287,
+  "DestinationPersonId": 129,
+  "RelationId": 886,
+  "Comment": "molestiae",
+  "RelationDefinitionId": 493,
+  "Reversed": 405,
+  "UpdatedDate": "2011-02-13T03:41:58.6211452+01:00",
+  "CreatedDate": "2001-05-12T03:41:58.6211452+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Kovacek Inc and Sons",
-  "SourcePersonName": "Daniel-Marks",
-  "DestinationContactName": "Monahan, D'Amore and Jast",
-  "DestinationPersonName": "Crona, Konopelski and Leuschke",
-  "ActiveText": "quia",
-  "PassiveText": "amet",
+  "SourceContactName": "Kling Inc and Sons",
+  "SourcePersonName": "Funk Group",
+  "DestinationContactName": "Reynolds-Glover",
+  "DestinationPersonName": "Durgan-Nienow",
+  "ActiveText": "adipisci",
+  "PassiveText": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 861
+      "FieldType": "System.Int32",
+      "FieldLength": 306
     }
   }
 }

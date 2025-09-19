@@ -69,15 +69,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "beatae",
-  "ProviderName": "Jacobson LLC",
-  "StorageKey": "sint",
-  "Restrictions": "voluptate",
-  "Context": "accusamus"
+  "StorageType": "odio",
+  "ProviderName": "Bradtke-Reynolds",
+  "StorageKey": "soluta",
+  "Restrictions": "esse",
+  "Context": "ut"
 }
 ```
 

@@ -87,15 +87,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Heller Group",
-  "DeviceName": "Koch, Rutherford and Walter",
-  "KeyName": "Auer, Gaylord and Klein",
-  "TableName": "Stracke Group",
-  "RecordId": 847
+  "ApplicationName": "Kozey-Crooks",
+  "DeviceName": "Wunsch-Rippin",
+  "KeyName": "Hermiston-Leannon",
+  "TableName": "Schneider Inc and Sons",
+  "RecordId": 628
 }
 ```
 
@@ -106,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ratione",
-  "Value": "et",
-  "RecordId": 626,
-  "CreatedDate": "2001-02-11T03:46:54.9107593+01:00",
-  "UpdatedDate": "2023-07-01T03:46:54.9107593+02:00",
-  "UpdatedBy": "voluptates",
-  "CreatedBy": "nesciunt",
-  "TableName": "Mann, Rice and Rutherford",
+  "Key": "similique",
+  "Value": "molestias",
+  "RecordId": 967,
+  "CreatedDate": "2015-06-06T03:41:53.5901046+02:00",
+  "UpdatedDate": "1998-10-09T03:41:53.5901046+02:00",
+  "UpdatedBy": "laborum",
+  "CreatedBy": "ut",
+  "TableName": "Kerluke-Lockman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 150
+      "FieldType": "System.Int32",
+      "FieldLength": 953
     }
   }
 }

@@ -27,8 +27,8 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Country/MDOItems?flat=True
-GET /api/v1/List/Country/MDOItems?query=eius
+GET /api/v1/List/Country/MDOItems?flat=False
+GET /api/v1/List/Country/MDOItems?query=iusto
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 62,
-    "Name": "Boyle Group",
-    "ToolTip": "Laborum excepturi laborum.",
+    "Id": 161,
+    "Name": "Hayes, Grant and Leannon",
+    "ToolTip": "Sit velit consequatur voluptas cum minima voluptatem.",
     "Deleted": false,
-    "Rank": 368,
-    "Type": "veritatis",
+    "Rank": 969,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 598,
-        "Name": "Hagenes, Collins and Kerluke",
-        "ToolTip": "Laudantium laboriosam id deserunt molestiae tenetur quam ea.",
-        "Deleted": true,
-        "Rank": 842,
-        "Type": "sed",
+        "Id": 155,
+        "Name": "Hackett-Hickle",
+        "ToolTip": "Omnis et dolore et beatae est voluptatem.",
+        "Deleted": false,
+        "Rank": 375,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quia",
-        "ColorBlock": 369,
-        "ExtraInfo": "pariatur",
-        "StyleHint": "eligendi",
-        "FullName": "Miss Emmanuelle Josh Kirlin",
+        "IconHint": "commodi",
+        "ColorBlock": 975,
+        "ExtraInfo": "accusantium",
+        "StyleHint": "animi",
+        "FullName": "Maymie Yost",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 446
+            "FieldLength": 87
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 511,
-    "ExtraInfo": "amet",
-    "StyleHint": "et",
-    "FullName": "Miss Rylee Bosco MD",
+    "IconHint": "qui",
+    "ColorBlock": 311,
+    "ExtraInfo": "occaecati",
+    "StyleHint": "cumque",
+    "FullName": "Hailee Wintheiser",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 507
+        "FieldLength": 884
       }
     }
   }

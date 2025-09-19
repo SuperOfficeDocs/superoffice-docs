@@ -104,15 +104,15 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "ContactId": 931,
-  "CredentialType": "qui",
-  "CredentialValue": "autem",
-  "CredentialDisplayValue": "sapiente"
+  "ContactId": 867,
+  "CredentialType": "laboriosam",
+  "CredentialValue": "doloremque",
+  "CredentialDisplayValue": "tempore"
 }
 ```
 
@@ -123,14 +123,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 948,
-  "Name": "Hartmann-Kautzer",
-  "Rank": 13,
-  "Tooltip": "hic",
+  "AssociateId": 553,
+  "Name": "Von-Goldner",
+  "Rank": 498,
+  "Tooltip": "quae",
   "LicenseOwners": [
     {
-      "Name": "Kutch-Reichert",
-      "Description": "Enhanced 24/7 hardware",
+      "Name": "Crooks, Lynch and Nikolaus",
+      "Description": "Open-source radical moderator",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -144,13 +144,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 151
+          "FieldLength": 418
         }
       }
     },
     {
-      "Name": "Kutch-Reichert",
-      "Description": "Enhanced 24/7 hardware",
+      "Name": "Crooks, Lynch and Nikolaus",
+      "Description": "Open-source radical moderator",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -164,7 +164,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 151
+          "FieldLength": 418
         }
       }
     }
@@ -173,110 +173,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "fugiat",
-      "Tooltip": "quod",
-      "Id": 115,
-      "Rank": 593,
+      "Value": "dolorem",
+      "Tooltip": "fugiat",
+      "Id": 669,
+      "Rank": 135,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 78
+          "FieldType": "System.String",
+          "FieldLength": 741
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2009-03-11T03:46:55.5663534+01:00",
-  "Lastlogout": "2010-06-20T03:46:55.5663534+02:00",
-  "EjUserId": 379,
-  "RequestSignature": "soluta",
+  "Lastlogin": "2022-06-02T03:41:54.3088249+02:00",
+  "Lastlogout": "2025-08-16T03:41:54.3088249+02:00",
+  "EjUserId": 741,
+  "RequestSignature": "quod",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "alias",
-      "DisplayValue": "quasi",
+      "Value": "culpa",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 633
+          "FieldType": "System.Int32",
+          "FieldLength": 719
         }
       }
     },
     {
       "Type": null,
-      "Value": "alias",
-      "DisplayValue": "quasi",
+      "Value": "culpa",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 633
+          "FieldType": "System.Int32",
+          "FieldLength": 719
         }
       }
     }
   ],
-  "UserName": "Mayer LLC",
+  "UserName": "Howell-Sporer",
   "TicketCategories": [
     {
-      "Id": 138,
-      "Name": "Marks LLC",
-      "ToolTip": "Laudantium et consectetur aliquid.",
-      "Deleted": true,
-      "Rank": 343,
-      "Type": "minus",
+      "Id": 935,
+      "Name": "Dach, Quigley and Senger",
+      "ToolTip": "Quisquam unde fugit error non dolorem a.",
+      "Deleted": false,
+      "Rank": 865,
+      "Type": "sint",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dignissimos",
-      "ColorBlock": 256,
-      "ExtraInfo": "voluptas",
-      "StyleHint": "molestiae",
-      "FullName": "Ewald Robel",
+      "IconHint": "voluptas",
+      "ColorBlock": 444,
+      "ExtraInfo": "in",
+      "StyleHint": "minus",
+      "FullName": "Lucio Dicki",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 331
+          "FieldLength": 73
         }
       }
     }
   ],
-  "NickName": "Hagenes-Huels",
+  "NickName": "Yost Group",
   "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "nihil",
-    "ExtraFields2": "cum"
+    "ExtraFields1": "totam",
+    "ExtraFields2": "incidunt"
   },
   "CustomFields": {
-    "CustomFields1": "ullam",
-    "CustomFields2": "quisquam"
+    "CustomFields1": "temporibus",
+    "CustomFields2": "molestiae"
   },
   "PostSaveCommands": [
     {
-      "Name": "Cronin, Gulgowski and Buckridge",
-      "DisplayName": "Rutherford, Wilderman and Bruen",
-      "Description": "Reverse-engineered impactful success",
-      "ToolTip": "Consequuntur officia.",
+      "Name": "Bogisich Group",
+      "DisplayName": "Lueilwitz-Blick",
+      "Description": "Ergonomic value-added internet solution",
+      "ToolTip": "Nesciunt ut et veniam eius nesciunt maiores voluptatem.",
       "Actions": "Implicit",
-      "ActionData": "ducimus",
+      "ActionData": "distinctio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 807
+          "FieldLength": 875
         }
       }
     }
@@ -285,8 +285,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 896
+      "FieldType": "System.Int32",
+      "FieldLength": 243
     }
   }
 }

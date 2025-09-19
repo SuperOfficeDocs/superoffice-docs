@@ -103,13 +103,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2007-12-04T03:46:55.2694888+01:00",
-  "ToDate": "2003-09-02T03:46:55.2694888+02:00",
-  "AmountLimit": 541,
+  "FromDate": "2018-12-28T03:41:54.0119629+01:00",
+  "ToDate": "2013-04-16T03:41:54.0119629+02:00",
+  "AmountLimit": 999,
   "Status": "Lost"
 }
 ```
@@ -122,37 +122,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Zulauf-Hartmann",
-    "SaleDate": "2010-01-15T03:46:55.2694888+01:00",
-    "SaleId": 789,
-    "Probability": 280,
-    "Title": "distinctio",
-    "Amount": 18929.36,
-    "Currency": "saepe",
-    "ProjectName": "Walsh, Willms and Cole",
-    "AssociateFullName": "Georgette Evangeline Runte MD",
-    "Description": "Self-enabling non-volatile knowledge user",
+    "ContactName": "Hartmann-Sauer",
+    "SaleDate": "2012-05-10T03:41:54.0119629+02:00",
+    "SaleId": 893,
+    "Probability": 929,
+    "Title": "voluptas",
+    "Amount": 29149.334,
+    "Currency": "ut",
+    "ProjectName": "Gibson, Pacocha and Beer",
+    "AssociateFullName": "Mrs. Bernadette Kirlin DVM",
+    "Description": "Focused user-facing system engine",
     "Status": "Lost",
-    "WeightedAmount": 13178.47,
-    "ProjectId": 668,
-    "EarningPercent": 17193.124,
-    "Earning": 18352.703999999998,
-    "ContactId": 253,
-    "AssociateId": 894,
-    "PersonId": 484,
-    "SaleTypeId": 946,
-    "SaleTypeName": "Yundt, Streich and Douglas",
-    "PersonFullName": "Mrs. Johnnie Darwin Feil",
+    "WeightedAmount": 30860.498,
+    "ProjectId": 916,
+    "EarningPercent": 13736.322,
+    "Earning": 14250.297999999999,
+    "ContactId": 811,
+    "AssociateId": 238,
+    "PersonId": 801,
+    "SaleTypeId": 667,
+    "SaleTypeName": "Waters LLC",
+    "PersonFullName": "Colby Janae Wolff DDS",
     "Completed": "Completed",
-    "ActiveErpLinks": 976,
-    "NextDueDate": "2025-08-01T03:46:55.2694888+02:00",
-    "Number": "1168986",
+    "ActiveErpLinks": 552,
+    "NextDueDate": "1998-05-18T03:41:54.0119629+02:00",
+    "Number": "1274285",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 160
+        "FieldLength": 211
       }
     }
   }

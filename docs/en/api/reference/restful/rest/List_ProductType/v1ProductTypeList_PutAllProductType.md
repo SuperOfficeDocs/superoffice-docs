@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 402,
-    "Name": "Windler-Kuvalis",
-    "Tooltip": "quae",
-    "Deleted": false,
-    "UdListDefinitionId": 160,
-    "Rank": 806
+    "Id": 782,
+    "Name": "Cruickshank Inc and Sons",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "UdListDefinitionId": 166,
+    "Rank": 450
   },
   {
-    "Id": 402,
-    "Name": "Windler-Kuvalis",
-    "Tooltip": "quae",
-    "Deleted": false,
-    "UdListDefinitionId": 160,
-    "Rank": 806
+    "Id": 782,
+    "Name": "Cruickshank Inc and Sons",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "UdListDefinitionId": 166,
+    "Rank": 450
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 541,
-    "Name": "Crist Group",
-    "Tooltip": "consequatur",
+    "Id": 165,
+    "Name": "Ondricka-Kuhlman",
+    "Tooltip": "necessitatibus",
     "Deleted": true,
-    "UdListDefinitionId": 103,
-    "Rank": 862,
+    "UdListDefinitionId": 677,
+    "Rank": 851,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 977
+        "FieldType": "System.String",
+        "FieldLength": 395
       }
     }
   }

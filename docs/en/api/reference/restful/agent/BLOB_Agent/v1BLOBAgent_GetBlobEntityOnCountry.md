@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 624
+  "CountryId": 362
 }
 ```
 
@@ -101,25 +101,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 627,
-  "BlobSize": 369,
-  "Description": "Open-source holistic service-desk",
-  "ExtraInfo": "modi",
-  "IsEncrypted": true,
+  "BlobId": 865,
+  "BlobSize": 394,
+  "Description": "Public-key hybrid standardization",
+  "ExtraInfo": "ipsa",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "saepe",
-  "OriginalSize": 995,
-  "CreatedDate": "2000-01-16T03:46:54.3163903+01:00",
-  "UpdatedDate": "2019-08-26T03:46:54.3163903+02:00",
+  "MimeType": "et",
+  "OriginalSize": 633,
+  "CreatedDate": "2014-01-02T03:41:53.0901263+01:00",
+  "UpdatedDate": "2024-08-11T03:41:53.0901263+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "repudiandae",
+  "ConceptualType": "esse",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 179
+      "FieldType": "System.String",
+      "FieldLength": 165
     }
   }
 }

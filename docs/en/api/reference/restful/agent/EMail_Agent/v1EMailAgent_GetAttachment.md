@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/EMail/GetAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 874,
-  "AttachmentId": "voluptas"
+  "MessageServerId": 317,
+  "AttachmentId": "repudiandae"
 }
 ```
 
@@ -103,13 +103,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Adaptive logistical installation",
-  "Filename": "sit",
-  "Size": 339,
-  "Type": "aut",
-  "Encoding": "nulla",
-  "Id": "et",
-  "Disposition": "mollitia",
+  "Description": "Pre-emptive empowering secured line",
+  "Filename": "aspernatur",
+  "Size": 256,
+  "Type": "eos",
+  "Encoding": "numquam",
+  "Id": "doloremque",
+  "Disposition": "in",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 83
+      "FieldLength": 51
     }
   }
 }

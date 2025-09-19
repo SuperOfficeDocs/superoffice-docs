@@ -80,10 +80,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Senger Group",
+  "ProviderName": "Armstrong-Batz",
   "DesiredColumns": [
-    "fuga",
-    "doloremque"
+    "dolorem",
+    "ullam"
   ]
 }
 ```
@@ -96,11 +96,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schinner Inc and Sons",
+    "Name": "Kovacek LLC",
     "Direction": "ASC"
   },
   {
-    "Name": "Schinner Inc and Sons",
+    "Name": "Kovacek LLC",
     "Direction": "ASC"
   }
 ]

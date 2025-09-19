@@ -667,7 +667,7 @@ This is the archive Provider for the Selection Mailings archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsSelectionV2?$select=mailingAddr/contact/business,mailingAddr/contact/email/emailProtocol,mailingAddr/contact/contactAssociate/ejStatus,mailingAddr/contact/contactUdef/SuperOffice:1,mailingAddr/contact/NumberOfNotCompletedActivitiesInPeriod
+GET /api/v1/archive/MailingsSelectionV2?$select=mailingAddr/person/personRegisteredBy,mailingAddr/person/personBusiness,mailingAddr/person/personUdef/SuperOffice:5,mailingAddr/person/personAssociate/assocTooltip,mailingAddr/person/personAssociate/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 629,
-    "Name": "Hickle, Nikolaus and Morar",
-    "Tooltip": "aut",
+    "HeadingId": 447,
+    "Name": "Hermiston, DuBuque and Collins",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 664,
-    "UdListDefinitionId": 536,
+    "Rank": 315,
+    "UdListDefinitionId": 378,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 713
+        "FieldLength": 52
       }
     }
   }

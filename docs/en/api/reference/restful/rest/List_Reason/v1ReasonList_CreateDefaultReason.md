@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Reason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 844,
-  "Name": "Becker, Schmeler and Okuneva",
-  "Tooltip": "voluptas",
+  "Id": 175,
+  "Name": "Padberg Group",
+  "Tooltip": "est",
   "Deleted": false,
-  "UdListDefinitionId": 579,
-  "Rank": 966,
+  "UdListDefinitionId": 332,
+  "Rank": 739,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 938
+      "FieldLength": 723
     }
   }
 }

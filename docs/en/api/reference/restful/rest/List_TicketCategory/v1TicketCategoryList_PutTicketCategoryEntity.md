@@ -105,33 +105,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 762,
-  "ParentId": 68,
-  "Name": "Hauck Inc and Sons",
-  "Fullname": "perspiciatis",
-  "CategoryMaster": 981,
+  "TicketCategoryId": 219,
+  "ParentId": 547,
+  "Name": "Medhurst Inc and Sons",
+  "Fullname": "exercitationem",
+  "CategoryMaster": 75,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Casper LLC",
+  "ExternalName": "O'Hara-Altenwerth",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 408,
-  "ReplyTemplate": 770,
-  "NotificationEmail": "conner@sawayn.com",
+  "AssignmentLag": 674,
+  "ReplyTemplate": 383,
+  "NotificationEmail": "jeremy.daniel@jaskolski.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 843,
+  "EffectiveReplyTemplateId": 275,
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "porro"
+    "ExtraFields1": "asperiores",
+    "ExtraFields2": "quae"
   },
   "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "velit"
+    "CustomFields1": "magnam",
+    "CustomFields2": "fugiat"
   }
 }
 ```
@@ -143,36 +143,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 872,
-  "ParentId": 330,
-  "Name": "Turner, Kohler and Altenwerth",
-  "Fullname": "quo",
-  "CategoryMaster": 978,
+  "TicketCategoryId": 268,
+  "ParentId": 904,
+  "Name": "Krajcik-Von",
+  "Fullname": "nihil",
+  "CategoryMaster": 957,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Prosacco, Treutel and Hyatt",
+  "ExternalName": "Schowalter, Doyle and Goodwin",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 764,
-  "ReplyTemplate": 266,
-  "NotificationEmail": "tito@heidenreichhilll.com",
+  "AssignmentLag": 469,
+  "ReplyTemplate": 32,
+  "NotificationEmail": "zackary@hartmann.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 348,
+  "EffectiveReplyTemplateId": 210,
   "ExtraFields": {
-    "ExtraFields1": "nisi",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "possimus",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "minus",
-    "CustomFields2": "est"
+    "CustomFields1": "architecto",
+    "CustomFields2": "ut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 760
+      "FieldLength": 421
     }
   }
 }

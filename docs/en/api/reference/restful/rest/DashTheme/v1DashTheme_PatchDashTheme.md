@@ -114,18 +114,18 @@ DashTheme  updated.
 PATCH /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quod",
+    "path": "aut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quod",
+    "path": "aut",
     "value": {}
   }
 ]
@@ -138,18 +138,18 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 571,
-  "Name": "Lindgren-Schmitt",
-  "Config": "itaque",
-  "Rank": 906,
-  "Client": "repudiandae",
-  "Style": "magnam",
+  "DashboardThemeId": 434,
+  "Name": "Metz-Howell",
+  "Config": "vero",
+  "Rank": 460,
+  "Client": "suscipit",
+  "Style": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 233
+      "FieldLength": 8
     }
   },
   "_Links": {

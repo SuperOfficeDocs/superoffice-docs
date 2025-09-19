@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 881,
+    "TargetDimensionId": 52,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "accusantium",
-    "DimensionListName": "Lesch LLC",
-    "DimensionListId": 431,
-    "DimensionListLabel": "neque",
+    "DimensionListField": "voluptas",
+    "DimensionListName": "Lang, Krajcik and Hackett",
+    "DimensionListId": 263,
+    "DimensionListLabel": "est",
     "SelectedDimensions": [
-      185,
-      192
+      336,
+      919
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 186
+        "FieldLength": 23
       }
     }
   }

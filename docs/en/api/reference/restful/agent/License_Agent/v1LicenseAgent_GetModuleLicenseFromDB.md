@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Altenwerth, Stiedemann and Renner",
-  "ModuleName": "Turcotte-Koss"
+  "OwnerName": "Kris-Monahan",
+  "ModuleName": "Kirlin, Donnelly and Robel"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Wuckert Group",
-  "ModuleName": "Rohan, Frami and Heathcote",
-  "ModuleDescription": "Down-sized coherent benchmark",
-  "ModuleTooltip": "et",
-  "ModuleVersion": "veritatis",
+  "OwnerName": "Gleichner, Schneider and Doyle",
+  "ModuleName": "Spinka Group",
+  "ModuleDescription": "Adaptive client-driven pricing structure",
+  "ModuleTooltip": "consequatur",
+  "ModuleVersion": "similique",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 566,
-  "ExtraFlags": 578,
-  "ExtraInfo": "et",
-  "SortOrder": 18,
+  "NumberOfLicenses": 417,
+  "ExtraFlags": 526,
+  "ExtraInfo": "sed",
+  "SortOrder": 705,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Hilll, Beer and Kertzmann",
-  "Signature": "sit"
+  "PrerequisiteModuleName": "Marvin, Bednar and Quigley",
+  "Signature": "illum"
 }
 ```

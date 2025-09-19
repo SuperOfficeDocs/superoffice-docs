@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,46 +123,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 261,
-    "ColumnId": 463,
-    "FieldDefault": "culpa",
-    "FieldHeight": 982,
-    "FieldLabel": "saepe",
-    "FieldLeft": 984,
-    "FieldTop": 111,
+    "UDefFieldId": 464,
+    "ColumnId": 737,
+    "FieldDefault": "nihil",
+    "FieldHeight": 377,
+    "FieldLabel": "iste",
+    "FieldLeft": 494,
+    "FieldTop": 714,
     "FieldType": "Checkbox",
-    "FieldWidth": 336,
-    "FormatMask": "in",
-    "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 463,
-    "LabelLeft": 391,
-    "LabelTop": 66,
-    "LabelWidth": 408,
-    "LastVersionId": 241,
-    "ListTableId": 248,
+    "FieldWidth": 686,
+    "FormatMask": "consequatur",
+    "HideLabel": false,
+    "IsIndexed": false,
+    "LabelHeight": 96,
+    "LabelLeft": 826,
+    "LabelTop": 257,
+    "LabelWidth": 988,
+    "LastVersionId": 874,
+    "ListTableId": 559,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 180,
-    "ProgId": "consequuntur",
-    "IsReadOnly": false,
-    "ShortLabel": "autem",
-    "TabOrder": 545,
-    "TextLength": 276,
-    "Tooltip": "repellendus",
-    "UdefIdentity": 834,
-    "UDListDefinitionId": 792,
+    "Page1LineNo": 153,
+    "ProgId": "autem",
+    "IsReadOnly": true,
+    "ShortLabel": "veniam",
+    "TabOrder": 198,
+    "TextLength": 888,
+    "Tooltip": "et",
+    "UdefIdentity": 84,
+    "UDListDefinitionId": 418,
     "Justification": "Center",
-    "Version": 58,
-    "TemplateVariableName": "Fadel Inc and Sons",
-    "HasBeenPublished": true,
-    "MdoListName": "Bayer LLC",
+    "Version": 808,
+    "TemplateVariableName": "Dach, Kris and Grady",
+    "HasBeenPublished": false,
+    "MdoListName": "Donnelly Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 573
+        "FieldType": "System.Int32",
+        "FieldLength": 47
       }
     }
   }

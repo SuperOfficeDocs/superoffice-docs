@@ -100,14 +100,14 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 249,
+  "TicketId": 892,
   "MessageIds": [
-    719,
-    164
+    242,
+    435
   ]
 }
 ```
@@ -120,79 +120,79 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 490,
+    "EjMessageId": 301,
     "Ticket": null,
-    "CreatedAt": "2019-10-17T03:46:55.51948+02:00",
+    "CreatedAt": "2008-12-14T03:41:54.2619521+01:00",
     "CreatedBy": null,
-    "Author": "accusamus",
+    "Author": "deleniti",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "qui",
-    "TimeSpent": 717,
-    "Body": "odit",
-    "HtmlBody": "qui",
-    "EmailHeader": "tatyana@sporer.name",
-    "DebugInfo": "et",
-    "MailSorter": "quas",
+    "MessageId": "autem",
+    "TimeSpent": 247,
+    "Body": "odio",
+    "HtmlBody": "eaque",
+    "EmailHeader": "eloisa@harveyjakubowski.info",
+    "DebugInfo": "omnis",
+    "MailSorter": "excepturi",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "sit",
+    "SearchTitle": "minus",
     "MessageHeaders": [
       {
-        "Id": 715,
-        "Name": "Hauck-Lowe",
-        "Value": "molestiae",
+        "Id": 140,
+        "Name": "Zemlak LLC",
+        "Value": "amet",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 738
+            "FieldType": "System.String",
+            "FieldLength": 494
           }
         }
       }
     ],
     "Important": false,
-    "Language": "perferendis",
-    "Sentiment": 18,
-    "SentimentConfidence": 689,
+    "Language": "sit",
+    "Sentiment": 339,
+    "SentimentConfidence": 703,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 11,
-        "Name": "Kozey, Homenick and Heller",
-        "ContentType": "impedit",
-        "AttSize": 33,
-        "InlineImage": true,
-        "ContentId": "ducimus",
-        "AuthKey": "qui",
+        "AttachmentId": 295,
+        "Name": "Kuhic-Grimes",
+        "ContentType": "hic",
+        "AttSize": 483,
+        "InlineImage": false,
+        "ContentId": "aut",
+        "AuthKey": "cupiditate",
         "IsSafeFileExtension": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 546
+            "FieldLength": 522
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "deserunt",
-      "ExtraFields2": "velit"
+      "ExtraFields1": "id",
+      "ExtraFields2": "voluptas"
     },
     "CustomFields": {
-      "CustomFields1": "ut",
-      "CustomFields2": "atque"
+      "CustomFields1": "facilis",
+      "CustomFields2": "odio"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 528
+        "FieldType": "System.String",
+        "FieldLength": 353
       }
     }
   }

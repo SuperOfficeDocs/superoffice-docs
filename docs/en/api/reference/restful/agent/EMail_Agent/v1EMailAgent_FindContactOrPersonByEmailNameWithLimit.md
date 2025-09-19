@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/EMail/FindContactOrPersonByEmailNameWithLimit
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ferry, Legros and Haley",
-  "EmailAddress": "isabell@littlevon.us",
-  "NumberOfContacts": 681,
-  "NumberOfPersons": 258
+  "Name": "Daniel-Strosin",
+  "EmailAddress": "sibyl.franecki@corwin.co.uk",
+  "NumberOfContacts": 183,
+  "NumberOfPersons": 164
 }
 ```
 
@@ -105,20 +105,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 873,
-    "FullName": "Dillon Schuster",
-    "EmailAddress": "gloria.mills@ferry.us",
-    "ContactId": 63,
-    "ContactName": "Smith-Nicolas",
-    "ContactDepartment": "iterate B2B synergies",
+    "PersonId": 640,
+    "FullName": "Oda Vandervort",
+    "EmailAddress": "norma.vandervort@hauck.ca",
+    "ContactId": 481,
+    "ContactName": "McKenzie, Considine and Sipes",
+    "ContactDepartment": "",
     "ContactCategory": "VIP Customer",
-    "SortName": "Kris, Runolfsdottir and Wisozk",
+    "SortName": "Becker, Daugherty and Haley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 219
+        "FieldType": "System.Int32",
+        "FieldLength": 401
       }
     }
   }

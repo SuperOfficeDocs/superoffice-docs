@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 348,
-  "CurrencyId": 925
+  "QuoteConnectionId": 863,
+  "CurrencyId": 175
 }
 ```
 
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 489,
-    "ERPPriceListKey": "harum",
-    "QuoteConnectionId": 946,
-    "Name": "Rogahn Group",
-    "Description": "Multi-tiered next generation functionalities",
-    "Currency": "est",
-    "CurrencyName": "Zboncak LLC",
-    "ValidFrom": "2019-09-18T03:46:55.2226157+02:00",
-    "ValidTo": "2017-06-07T03:46:55.2226157+02:00",
-    "IsActive": false,
+    "PriceListId": 837,
+    "ERPPriceListKey": "optio",
+    "QuoteConnectionId": 194,
+    "Name": "Rolfson, Walker and Stanton",
+    "Description": "Realigned value-added firmware",
+    "Currency": "fugit",
+    "CurrencyName": "Macejkovic, Gutkowski and Cremin",
+    "ValidFrom": "2005-05-06T03:41:53.9650897+02:00",
+    "ValidTo": "2001-04-04T03:41:53.9650897+02:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 136
+        "FieldType": "System.Int32",
+        "FieldLength": 318
       }
     }
   }

@@ -74,7 +74,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,23 +82,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 16 Feb 2009 03:47:00 G2T
+Last-Modified: Wed, 11 Jan 2017 03:41:58 G1T
 
 {
-  "Key": "aut",
-  "Value": "aut",
-  "RecordId": 199,
-  "CreatedDate": "2021-01-12T03:47:00.0349452+01:00",
-  "UpdatedDate": "2009-02-16T03:47:00.0349452+01:00",
-  "UpdatedBy": "corrupti",
-  "CreatedBy": "aliquid",
-  "TableName": "Borer-Satterfield",
+  "Key": "qui",
+  "Value": "totam",
+  "RecordId": 812,
+  "CreatedDate": "2003-09-07T03:41:58.7617712+02:00",
+  "UpdatedDate": "2017-01-11T03:41:58.7617712+01:00",
+  "UpdatedBy": "eligendi",
+  "CreatedBy": "error",
+  "TableName": "Towne-Bruen",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 438
+      "FieldLength": 287
     }
   }
 }

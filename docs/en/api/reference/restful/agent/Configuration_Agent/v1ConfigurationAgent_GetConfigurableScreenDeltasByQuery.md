@@ -102,28 +102,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 461,
-    "Name": "Roob LLC",
-    "Description": "Quality-focused national infrastructure",
-    "DeltaJson": "dicta",
+    "ConfigurableScreenDeltaId": 543,
+    "Name": "Cummings, Donnelly and Bartoletti",
+    "Description": "Assimilated neutral process improvement",
+    "DeltaJson": "explicabo",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "velit",
-    "UpdatedDate": "2016-01-30T03:46:54.4570178+01:00",
-    "CreatedDate": "2021-08-21T03:46:54.4570178+02:00",
+    "RecipeId": "distinctio",
+    "UpdatedDate": "2018-04-17T03:41:53.2309893+02:00",
+    "CreatedDate": "2012-10-28T03:41:53.2309893+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      600,
-      653
+      88,
+      104
     ],
-    "AppliesToKey": "fuga",
+    "AppliesToKey": "fugiat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 288
+        "FieldType": "System.Int32",
+        "FieldLength": 26
       }
     }
   }

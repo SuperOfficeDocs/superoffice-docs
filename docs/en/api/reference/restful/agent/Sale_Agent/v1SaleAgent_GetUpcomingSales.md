@@ -105,8 +105,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 654,
-  "Count": 833
+  "WeightedAmountLimit": 515,
+  "Count": 837
 }
 ```
 
@@ -118,37 +118,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Daniel-Lynch",
-    "SaleDate": "1998-12-29T03:46:55.2694888+01:00",
-    "SaleId": 647,
-    "Probability": 692,
-    "Title": "sequi",
-    "Amount": 22527.192,
-    "Currency": "sint",
-    "ProjectName": "Schulist LLC",
-    "AssociateFullName": "Olen Gulgowski",
-    "Description": "Seamless solution-oriented monitoring",
+    "ContactName": "Hayes-Beatty",
+    "SaleDate": "2022-11-21T03:41:54.0119629+01:00",
+    "SaleId": 538,
+    "Probability": 153,
+    "Title": "odit",
+    "Amount": 30616.046,
+    "Currency": "et",
+    "ProjectName": "Runte, Fritsch and Hoeger",
+    "AssociateFullName": "Garnet Williamson",
+    "Description": "Team-oriented disintermediate utilisation",
     "Status": "Lost",
-    "WeightedAmount": 5446.892,
-    "ProjectId": 826,
-    "EarningPercent": 29876.422,
-    "Earning": 18775.793999999998,
-    "ContactId": 750,
-    "AssociateId": 103,
-    "PersonId": 309,
-    "SaleTypeId": 62,
-    "SaleTypeName": "Bauch, Keebler and Schmitt",
-    "PersonFullName": "Earnestine Thompson",
+    "WeightedAmount": 14250.297999999999,
+    "ProjectId": 577,
+    "EarningPercent": 30572.17,
+    "Earning": 2015.162,
+    "ContactId": 431,
+    "AssociateId": 554,
+    "PersonId": 515,
+    "SaleTypeId": 373,
+    "SaleTypeName": "Jakubowski, Gerhold and Kutch",
+    "PersonFullName": "Jewel Harber",
     "Completed": "Completed",
-    "ActiveErpLinks": 507,
-    "NextDueDate": "2010-06-12T03:46:55.2694888+02:00",
-    "Number": "531691",
+    "ActiveErpLinks": 205,
+    "NextDueDate": "2021-08-07T03:41:54.0119629+02:00",
+    "Number": "549710",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 55
+        "FieldLength": 813
       }
     }
   }

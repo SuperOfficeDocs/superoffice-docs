@@ -27,7 +27,7 @@ Gets a ConsentPurpose object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=971
+POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=21
 POST /api/v1/Agents/List/GetConsentPurpose?$select=name,department,category/id
 ```
 
@@ -90,25 +90,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 45,
-  "Name": "Lehner Group",
-  "ConsentText": "facere",
-  "FormText": "atque",
-  "Key": "perferendis",
-  "Tooltip": "nulla",
-  "Active": 304,
-  "UpdatedDate": "2005-07-23T03:46:54.9882491+02:00",
+  "ConsentPurposeId": 258,
+  "Name": "Bashirian-Hintz",
+  "ConsentText": "eligendi",
+  "FormText": "nostrum",
+  "Key": "unde",
+  "Tooltip": "qui",
+  "Active": 818,
+  "UpdatedDate": "2012-01-26T03:41:53.7307246+01:00",
   "UpdatedBy": null,
   "Deleted": true,
-  "Rank": 966,
-  "PrivacyStatementDesc": "asperiores",
+  "Rank": 519,
+  "PrivacyStatementDesc": "nihil",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 704
+      "FieldLength": 572
     }
   }
 }

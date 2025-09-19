@@ -27,8 +27,8 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=qui
+GET /api/v1/List/PaymentType/MDOItems?flat=True
+GET /api/v1/List/PaymentType/MDOItems?query=cum
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 634,
-    "Name": "Wolff LLC",
-    "ToolTip": "Molestiae labore dolore dolorem molestiae eos repellendus.",
+    "Id": 560,
+    "Name": "Veum-Hudson",
+    "ToolTip": "Fugit qui amet vel.",
     "Deleted": true,
-    "Rank": 71,
-    "Type": "dolorum",
+    "Rank": 47,
+    "Type": "ipsam",
     "ChildItems": [
       {
-        "Id": 965,
-        "Name": "Roberts, Streich and Jerde",
-        "ToolTip": "Officiis quia et et.",
-        "Deleted": false,
-        "Rank": 225,
-        "Type": "distinctio",
+        "Id": 824,
+        "Name": "Blick, Connelly and Mraz",
+        "ToolTip": "Maiores iste ducimus beatae quam et accusantium illo.",
+        "Deleted": true,
+        "Rank": 62,
+        "Type": "eaque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eius",
-        "ColorBlock": 991,
-        "ExtraInfo": "quia",
-        "StyleHint": "exercitationem",
-        "FullName": "Granville Schowalter",
+        "IconHint": "ut",
+        "ColorBlock": 611,
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "itaque",
+        "FullName": "Emery Legros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 77
+            "FieldLength": 445
           }
         }
       }
     ],
-    "IconHint": "cumque",
-    "ColorBlock": 268,
-    "ExtraInfo": "repellendus",
-    "StyleHint": "voluptatem",
-    "FullName": "Ms. Morris Rice III",
+    "IconHint": "ut",
+    "ColorBlock": 633,
+    "ExtraInfo": "iure",
+    "StyleHint": "iusto",
+    "FullName": "Mr. Garrick Wiegand",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 948
+        "FieldType": "System.String",
+        "FieldLength": 583
       }
     }
   }

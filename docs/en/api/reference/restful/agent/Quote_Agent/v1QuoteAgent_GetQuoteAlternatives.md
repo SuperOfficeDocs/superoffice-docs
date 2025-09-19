@@ -96,11 +96,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 280
+  "QuoteVersionId": 473
 }
 ```
 
@@ -112,35 +112,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 394,
-    "ERPQuoteAlternativeKey": "neque",
-    "QuoteVersionId": 934,
-    "Name": "Treutel-Leannon",
-    "Description": "Assimilated directional extranet",
+    "QuoteAlternativeId": 994,
+    "ERPQuoteAlternativeKey": "qui",
+    "QuoteVersionId": 465,
+    "Name": "Homenick Inc and Sons",
+    "Description": "Realigned tangible synergy",
     "Status": "Error",
-    "Reason": "",
-    "ERPDiscountPercent": 5102.152,
-    "ERPDiscountAmount": 28861.005999999998,
-    "DiscountPercent": 2704.642,
-    "DiscountAmount": 12683.297999999999,
+    "Reason": "seize cutting-edge convergence",
+    "ERPDiscountPercent": 6756.9039999999995,
+    "ERPDiscountAmount": 13554.55,
+    "DiscountPercent": 5710.148,
+    "DiscountAmount": 2911.486,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "rerum",
-    "VAT": 9944.1819999999989,
-    "EarningPercent": 13347.706,
-    "EarningAmount": 10335.931999999999,
-    "SubTotal": 26369.476,
-    "TotalPrice": 26269.188,
-    "ExtraField1": "placeat",
-    "ExtraField2": "eligendi",
-    "ExtraField3": "impedit",
-    "ExtraField4": "sed",
-    "ExtraField5": "eos",
+    "VATInfo": "doloribus",
+    "VAT": 26939.863999999998,
+    "EarningPercent": 7158.056,
+    "EarningAmount": 789.768,
+    "SubTotal": 10179.232,
+    "TotalPrice": 24511.014,
+    "ExtraField1": "est",
+    "ExtraField2": "aliquam",
+    "ExtraField3": "dolorem",
+    "ExtraField4": "et",
+    "ExtraField5": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 864
+        "FieldType": "System.String",
+        "FieldLength": 756
       }
     }
   }

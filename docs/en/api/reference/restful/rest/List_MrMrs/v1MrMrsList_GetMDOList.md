@@ -28,7 +28,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=True
-GET /api/v1/List/MrMrs/MDOItems?query=vero
+GET /api/v1/List/MrMrs/MDOItems?query=quasi
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 65,
-    "Name": "Bernhard-Herzog",
-    "ToolTip": "Harum dignissimos voluptas perspiciatis cupiditate rerum soluta rerum.",
+    "Id": 159,
+    "Name": "Ratke, Witting and Cruickshank",
+    "ToolTip": "Tempora ut.",
     "Deleted": false,
-    "Rank": 363,
-    "Type": "dicta",
+    "Rank": 845,
+    "Type": "perspiciatis",
     "ChildItems": [
       {
-        "Id": 872,
-        "Name": "Botsford-Pollich",
-        "ToolTip": "Et fuga rem harum.",
+        "Id": 184,
+        "Name": "Schowalter LLC",
+        "ToolTip": "Fugiat necessitatibus necessitatibus eaque.",
         "Deleted": false,
-        "Rank": 730,
-        "Type": "nemo",
+        "Rank": 564,
+        "Type": "unde",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 244,
-        "ExtraInfo": "earum",
-        "StyleHint": "amet",
-        "FullName": "Velma Kilback",
+        "IconHint": "dolorum",
+        "ColorBlock": 210,
+        "ExtraInfo": "qui",
+        "StyleHint": "eligendi",
+        "FullName": "Maybelle Bosco",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 927
+            "FieldLength": 264
           }
         }
       }
     ],
-    "IconHint": "officia",
-    "ColorBlock": 441,
-    "ExtraInfo": "voluptates",
-    "StyleHint": "ut",
-    "FullName": "Macie Altenwerth",
+    "IconHint": "sed",
+    "ColorBlock": 649,
+    "ExtraInfo": "sit",
+    "StyleHint": "sint",
+    "FullName": "Cynthia Korey Pouros V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 313
+        "FieldType": "System.Int32",
+        "FieldLength": 575
       }
     }
   }

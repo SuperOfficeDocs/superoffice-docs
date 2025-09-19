@@ -48,7 +48,7 @@ Linking associate, company or user group target and other information with targe
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 |[Currency](currency.md)  |Currency list table |
 |[target\_assignment\_value](target-assignment-value.md)  |A set of values linked to assignment info and a period in a target group. |
 |[target\_revision](target-revision.md)  |One batch of changes made to targets |

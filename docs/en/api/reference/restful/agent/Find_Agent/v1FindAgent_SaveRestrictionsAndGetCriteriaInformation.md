@@ -83,24 +83,24 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "impedit",
-  "ProviderName": "Stokes-Senger",
-  "StorageKey": "ad",
+  "StorageType": "et",
+  "ProviderName": "Johnston, Huel and Leuschke",
+  "StorageKey": "accusantium",
   "Restrictions": [
     {
-      "Name": "Nienow Group",
-      "Operator": "dolor",
+      "Name": "Strosin, Kshlerin and Barrows",
+      "Operator": "et",
       "Values": [
-        "cupiditate",
-        "omnis"
+        "pariatur",
+        "quos"
       ],
       "DisplayValues": [
-        "at",
-        "doloremque"
+        "soluta",
+        "aspernatur"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -108,14 +108,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 23,
+      "InterParenthesis": 162,
       "InterOperator": "And",
-      "UniqueHash": 285
+      "UniqueHash": 748
     }
   ],
   "StaticColumns": [
-    "cupiditate",
-    "eius"
+    "veritatis",
+    "adipisci"
   ]
 }
 ```
@@ -129,81 +129,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Pacocha, Schuppe and McKenzie",
-      "Operator": "natus",
+      "Name": "Rau-Will",
+      "Operator": "est",
       "Values": [
-        "necessitatibus",
-        "deserunt"
+        "quis",
+        "vero"
       ],
       "DisplayValues": [
-        "culpa",
-        "voluptates"
+        "libero",
+        "aperiam"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 117,
+      "InterParenthesis": 441,
       "InterOperator": "And",
-      "UniqueHash": 977
+      "UniqueHash": 375
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Crist, Watsica and Hyatt",
-      "DisplayTooltip": "qui",
-      "DisplayType": "mollitia",
+      "DisplayName": "Macejkovic, Okuneva and Goyette",
+      "DisplayTooltip": "ut",
+      "DisplayType": "doloremque",
       "CanOrderBy": false,
-      "Name": "Frami-Goyette",
+      "Name": "Brekke LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "nemo",
-      "RestrictionListName": "Legros, Hills and Wilkinson",
+      "RestrictionType": "quis",
+      "RestrictionListName": "Heller LLC",
       "IsVisible": false,
-      "ExtraInfo": "est",
-      "Width": "magni",
-      "IconHint": "id",
-      "HeadingIconHint": "amet"
+      "ExtraInfo": "ut",
+      "Width": "velit",
+      "IconHint": "dolor",
+      "HeadingIconHint": "aliquid"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Crist Group",
-      "PrimaryKey": 568,
+      "EntityName": "Hills-Murphy",
+      "PrimaryKey": 383,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "laborum",
-          "TooltipHint": "voluptate",
-          "LinkHint": "provident"
+          "DisplayValue": "suscipit",
+          "TooltipHint": "laboriosam",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "earum",
-      "StyleHint": "qui",
+      "LinkHint": "tenetur",
+      "StyleHint": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 504
+          "FieldLength": 800
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Klocko Inc and Sons",
-      "Description": "Expanded encompassing local area network",
-      "Rank": 945,
+      "Name": "Carroll-Bruen",
+      "Description": "Enhanced real-time Graphic Interface",
+      "Rank": 932,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Klocko Inc and Sons",
-      "Description": "Expanded encompassing local area network",
-      "Rank": 945,
+      "Name": "Carroll-Bruen",
+      "Description": "Enhanced real-time Graphic Interface",
+      "Rank": 932,
       "Restrictions": [
         {},
         {}
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 267
+      "FieldLength": 410
     }
   }
 }

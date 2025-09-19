@@ -109,7 +109,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 101,
-    "ColumnId": 247,
-    "FieldDefault": "repudiandae",
-    "FieldHeight": 579,
-    "FieldLabel": "doloremque",
-    "FieldLeft": 818,
-    "FieldTop": 758,
+    "UDefFieldId": 614,
+    "ColumnId": 272,
+    "FieldDefault": "quod",
+    "FieldHeight": 614,
+    "FieldLabel": "consequatur",
+    "FieldLeft": 719,
+    "FieldTop": 837,
     "FieldType": "Checkbox",
-    "FieldWidth": 131,
-    "FormatMask": "nulla",
+    "FieldWidth": 711,
+    "FormatMask": "voluptas",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 975,
-    "LabelLeft": 948,
-    "LabelTop": 778,
-    "LabelWidth": 960,
-    "LastVersionId": 383,
-    "ListTableId": 733,
+    "LabelHeight": 578,
+    "LabelLeft": 604,
+    "LabelTop": 70,
+    "LabelWidth": 96,
+    "LastVersionId": 801,
+    "ListTableId": 251,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 848,
-    "ProgId": "aliquid",
-    "IsReadOnly": true,
-    "ShortLabel": "nemo",
-    "TabOrder": 588,
-    "TextLength": 324,
-    "Tooltip": "debitis",
-    "UdefIdentity": 136,
-    "UDListDefinitionId": 20,
+    "Page1LineNo": 796,
+    "ProgId": "quaerat",
+    "IsReadOnly": false,
+    "ShortLabel": "saepe",
+    "TabOrder": 380,
+    "TextLength": 878,
+    "Tooltip": "totam",
+    "UdefIdentity": 658,
+    "UDListDefinitionId": 820,
     "Justification": "Center",
-    "Version": 80,
-    "TemplateVariableName": "Hermann-Blick",
-    "HasBeenPublished": false,
-    "MdoListName": "Bergstrom, Frami and Paucek",
+    "Version": 770,
+    "TemplateVariableName": "Okuneva Inc and Sons",
+    "HasBeenPublished": true,
+    "MdoListName": "Dickens, Kutch and Mills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 551
+        "FieldType": "System.String",
+        "FieldLength": 570
       }
     }
   }

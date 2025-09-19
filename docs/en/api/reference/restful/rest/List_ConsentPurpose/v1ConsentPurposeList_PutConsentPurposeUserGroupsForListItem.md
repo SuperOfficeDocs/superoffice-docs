@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 364,
-    "Name": "Hagenes, Dickens and Medhurst",
-    "ToolTip": "Sunt rerum ex aspernatur laboriosam sed aperiam.",
+    "Id": 202,
+    "Name": "Kerluke, Bernhard and Grady",
+    "ToolTip": "Dolores eaque voluptatem possimus.",
     "Deleted": false,
-    "Rank": 675,
-    "Type": "qui",
-    "ColorBlock": 38,
-    "IconHint": "delectus",
+    "Rank": 166,
+    "Type": "quae",
+    "ColorBlock": 857,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2022-01-22T03:47:00.5974251+01:00",
+    "LastChanged": "2011-10-18T03:41:59.3711138+02:00",
     "ChildItems": [
       {
-        "Id": 799,
-        "Name": "Schuppe Group",
-        "ToolTip": "Fugit commodi et qui non eum est.",
-        "Deleted": false,
-        "Rank": 286,
-        "Type": "unde",
-        "ColorBlock": 18,
-        "IconHint": "ex",
+        "Id": 746,
+        "Name": "Heidenreich LLC",
+        "ToolTip": "Autem quidem vitae quasi.",
+        "Deleted": true,
+        "Rank": 440,
+        "Type": "inventore",
+        "ColorBlock": 793,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2002-11-15T03:47:00.5974251+01:00",
+        "LastChanged": "1999-05-17T03:41:59.3711138+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "tenetur",
+        "ExtraInfo": "ea",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Elva Farrell"
+        "FullName": "Guillermo Gleason"
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "libero",
-    "Hidden": false,
-    "FullName": "Wava Beer"
+    "ExtraInfo": "qui",
+    "StyleHint": "quo",
+    "Hidden": true,
+    "FullName": "Teagan Hammes"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 92,
-    "Name": "Wuckert, Berge and Bradtke",
-    "ToolTip": "Voluptatibus expedita nesciunt veniam aliquid quas esse provident.",
-    "Deleted": true,
-    "Rank": 29,
-    "Type": "necessitatibus",
-    "ColorBlock": 476,
-    "IconHint": "quia",
-    "Selected": false,
-    "LastChanged": "2002-07-23T03:47:00.5974251+02:00",
+    "Id": 953,
+    "Name": "Thompson, Rath and Kassulke",
+    "ToolTip": "Harum dolorem optio id cumque.",
+    "Deleted": false,
+    "Rank": 672,
+    "Type": "culpa",
+    "ColorBlock": 308,
+    "IconHint": "vel",
+    "Selected": true,
+    "LastChanged": "2017-07-21T03:41:59.3711138+02:00",
     "ChildItems": [
       {
-        "Id": 952,
-        "Name": "Leannon, Turcotte and Champlin",
-        "ToolTip": "Dolorum et.",
-        "Deleted": true,
-        "Rank": 946,
-        "Type": "et",
-        "ColorBlock": 202,
-        "IconHint": "libero",
+        "Id": 86,
+        "Name": "Harber-Leuschke",
+        "ToolTip": "Laborum excepturi.",
+        "Deleted": false,
+        "Rank": 211,
+        "Type": "expedita",
+        "ColorBlock": 837,
+        "IconHint": "quasi",
         "Selected": false,
-        "LastChanged": "2007-04-08T03:47:00.5974251+02:00",
+        "LastChanged": "2024-03-11T03:41:59.3711138+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cum",
-        "StyleHint": "non",
+        "ExtraInfo": "quaerat",
+        "StyleHint": "deleniti",
         "Hidden": false,
-        "FullName": "Mason Erdman I",
+        "FullName": "Charley Gislason Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 180
+            "FieldType": "System.Int32",
+            "FieldLength": 77
           }
         }
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "maiores",
-    "Hidden": true,
-    "FullName": "Angie Lebsack",
+    "ExtraInfo": "aut",
+    "StyleHint": "odit",
+    "Hidden": false,
+    "FullName": "Mr. Antonietta Salvador Mayer DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 22
+        "FieldType": "System.Int32",
+        "FieldLength": 624
       }
     }
   }

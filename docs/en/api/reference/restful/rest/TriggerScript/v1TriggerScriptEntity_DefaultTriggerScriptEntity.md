@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 958,
-  "Name": "Stiedemann-Dickinson",
+  "ScreenChooserId": 279,
+  "Name": "Cartwright, Kreiger and Schaefer",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "recusandae",
-  "Source": "est",
-  "Registered": "2017-01-25T03:47:00.3943072+01:00",
-  "RegisteredAssociateId": 499,
-  "Updated": "2019-06-03T03:47:00.3943072+02:00",
-  "UpdatedAssociateId": 185,
+  "Enabled": true,
+  "UniqueIdentifier": "a",
+  "Source": "dolores",
+  "Registered": "2023-03-19T03:41:59.1679969+01:00",
+  "RegisteredAssociateId": 150,
+  "Updated": "2020-05-08T03:41:59.1679969+02:00",
+  "UpdatedAssociateId": 212,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 786
+      "FieldType": "System.Int32",
+      "FieldLength": 149
     }
   }
 }

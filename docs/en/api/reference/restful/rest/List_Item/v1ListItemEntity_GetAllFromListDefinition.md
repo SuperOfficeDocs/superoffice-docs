@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 533,
-    "Name": "Ernser LLC",
-    "Tooltip": "eaque",
+    "Id": 432,
+    "Name": "Schiller-Smith",
+    "Tooltip": "quia",
     "Deleted": false,
-    "UdListDefinitionId": 885,
-    "Rank": 485,
+    "UdListDefinitionId": 643,
+    "Rank": 348,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 990
+        "FieldLength": 345
       }
     }
   }

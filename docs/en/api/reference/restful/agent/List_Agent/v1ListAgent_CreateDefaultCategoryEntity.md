@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CategoryId": 268,
-  "Name": "Bogan Group",
+  "CategoryId": 139,
+  "Name": "Mitchell, O'Conner and Schmeler",
   "CategoryGroup": "Customer",
-  "Tooltip": "placeat",
-  "Rank": 77,
-  "EnableLeadStatus": true,
-  "CategoryFamilyId": 228,
-  "Deleted": false,
+  "Tooltip": "culpa",
+  "Rank": 83,
+  "EnableLeadStatus": false,
+  "CategoryFamilyId": 210,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 540
+      "FieldType": "System.Int32",
+      "FieldLength": 296
     }
   }
 }

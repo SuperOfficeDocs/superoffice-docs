@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 123,
-    "Name": "Dicki-McCullough",
-    "ToolTip": "Velit rerum quis provident minus facere.",
+    "Id": 630,
+    "Name": "Sawayn-Carroll",
+    "ToolTip": "Eos ex molestiae qui blanditiis.",
     "Deleted": false,
-    "Rank": 666,
-    "Type": "autem",
-    "ColorBlock": 335,
-    "IconHint": "eius",
+    "Rank": 581,
+    "Type": "est",
+    "ColorBlock": 997,
+    "IconHint": "excepturi",
     "Selected": false,
-    "LastChanged": "2001-03-12T03:47:00.7067961+01:00",
+    "LastChanged": "2007-09-13T03:41:59.4648585+02:00",
     "ChildItems": [
       {
-        "Id": 33,
-        "Name": "Wunsch, Moore and Stark",
-        "ToolTip": "Qui dolor quo sunt asperiores quasi.",
+        "Id": 917,
+        "Name": "Blick Group",
+        "ToolTip": "Autem praesentium ut sint quod.",
         "Deleted": false,
-        "Rank": 211,
-        "Type": "ut",
-        "ColorBlock": 287,
-        "IconHint": "iure",
+        "Rank": 824,
+        "Type": "minus",
+        "ColorBlock": 614,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2015-06-25T03:47:00.7067961+02:00",
+        "LastChanged": "2012-04-03T03:41:59.4648585+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "quibusdam",
+        "ExtraInfo": "cum",
+        "StyleHint": "modi",
         "Hidden": true,
-        "FullName": "Mrs. Ed Davis II"
+        "FullName": "Nelson Erdman"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "voluptatem",
-    "Hidden": true,
-    "FullName": "Rosa Rowe"
+    "ExtraInfo": "aut",
+    "StyleHint": "mollitia",
+    "Hidden": false,
+    "FullName": "Cory Wintheiser I"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 72,
-    "Name": "Ullrich Group",
-    "ToolTip": "Nesciunt occaecati ducimus aut enim assumenda.",
+    "Id": 677,
+    "Name": "Kovacek-Stokes",
+    "ToolTip": "Quos necessitatibus quaerat quia reiciendis.",
     "Deleted": false,
-    "Rank": 191,
-    "Type": "aperiam",
-    "ColorBlock": 386,
-    "IconHint": "inventore",
-    "Selected": false,
-    "LastChanged": "2020-03-03T03:47:00.7067961+01:00",
+    "Rank": 733,
+    "Type": "tempora",
+    "ColorBlock": 149,
+    "IconHint": "deserunt",
+    "Selected": true,
+    "LastChanged": "2005-12-02T03:41:59.4648585+01:00",
     "ChildItems": [
       {
-        "Id": 676,
-        "Name": "Gerlach-Nolan",
-        "ToolTip": "Totam repellat accusantium ut magni tenetur eum rerum.",
+        "Id": 903,
+        "Name": "Langworth-Hartmann",
+        "ToolTip": "Molestiae dolorem eaque.",
         "Deleted": false,
-        "Rank": 291,
-        "Type": "enim",
-        "ColorBlock": 400,
-        "IconHint": "repellendus",
+        "Rank": 17,
+        "Type": "placeat",
+        "ColorBlock": 979,
+        "IconHint": "unde",
         "Selected": false,
-        "LastChanged": "2005-09-11T03:47:00.7067961+02:00",
+        "LastChanged": "2017-05-02T03:41:59.4648585+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "debitis",
+        "ExtraInfo": "quae",
+        "StyleHint": "commodi",
         "Hidden": false,
-        "FullName": "Mr. Emil Ullrich IV",
+        "FullName": "Ms. Durward Nienow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 539
+            "FieldLength": 662
           }
         }
       }
     ],
-    "ExtraInfo": "cum",
-    "StyleHint": "ut",
+    "ExtraInfo": "velit",
+    "StyleHint": "enim",
     "Hidden": true,
-    "FullName": "Ms. Elenor Durgan Sr.",
+    "FullName": "Prof. Skyla Ritchie I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 153
+        "FieldType": "System.String",
+        "FieldLength": 195
       }
     }
   }

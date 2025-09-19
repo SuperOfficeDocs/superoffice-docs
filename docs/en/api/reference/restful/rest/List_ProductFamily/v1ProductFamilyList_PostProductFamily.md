@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 801,
-  "Name": "Herman-Crooks",
-  "Tooltip": "velit",
-  "Deleted": false,
-  "UdListDefinitionId": 53,
-  "Rank": 907
+  "Id": 930,
+  "Name": "Will-Parker",
+  "Tooltip": "laboriosam",
+  "Deleted": true,
+  "UdListDefinitionId": 46,
+  "Rank": 171
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 395,
-  "Name": "Bradtke LLC",
-  "Tooltip": "eius",
+  "Id": 207,
+  "Name": "Gleason Group",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "UdListDefinitionId": 171,
-  "Rank": 660,
+  "UdListDefinitionId": 282,
+  "Rank": 373,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 462
+      "FieldLength": 696
     }
   }
 }

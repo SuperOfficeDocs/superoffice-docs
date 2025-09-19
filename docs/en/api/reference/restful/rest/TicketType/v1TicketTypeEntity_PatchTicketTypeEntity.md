@@ -127,18 +127,18 @@ TicketTypeEntity  updated.
 PATCH /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "cumque",
+    "path": "officia",
     "value": {}
   },
   {
     "op": "add",
-    "path": "cumque",
+    "path": "officia",
     "value": {}
   }
 ]
@@ -151,40 +151,40 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 501,
-  "Name": "Legros, Sauer and Fay",
-  "Rank": 148,
-  "Tooltip": "aut",
-  "Icon": "occaecati",
-  "DefaultTicketStatus": 666,
+  "TicketTypeId": 280,
+  "Name": "Casper, Quigley and Flatley",
+  "Rank": 303,
+  "Tooltip": "necessitatibus",
+  "Icon": "corrupti",
+  "DefaultTicketStatus": 766,
   "TicketStatuses": [
-    931,
-    832
+    348,
+    757
   ],
-  "DefaultTicketPriority": 574,
+  "DefaultTicketPriority": 42,
   "TicketPriorities": [
-    542,
-    66
+    226,
+    912
   ],
-  "ReplyTemplate": 488,
+  "ReplyTemplate": 808,
   "IsExternalVisible": true,
   "IsDefault": true,
   "ShowInNew": false,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    526,
-    551
+    852,
+    207
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 873
+      "FieldType": "System.Int32",
+      "FieldLength": 466
     }
   },
   "_Links": {

@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 523,
-  "Name": "Tillman LLC",
-  "Tooltip": "ea",
+  "HeadingId": 330,
+  "Name": "Erdman-Cummings",
+  "Tooltip": "dicta",
   "Deleted": false,
-  "Rank": 310,
-  "UdListDefinitionId": 562
+  "Rank": 460,
+  "UdListDefinitionId": 251
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 937,
-  "Name": "Swaniawski, Schmidt and Emard",
-  "Tooltip": "inventore",
+  "HeadingId": 622,
+  "Name": "Torphy, Little and Hickle",
+  "Tooltip": "vero",
   "Deleted": false,
-  "Rank": 418,
-  "UdListDefinitionId": 62,
+  "Rank": 483,
+  "UdListDefinitionId": 69,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldLength": 124
     }
   }
 }

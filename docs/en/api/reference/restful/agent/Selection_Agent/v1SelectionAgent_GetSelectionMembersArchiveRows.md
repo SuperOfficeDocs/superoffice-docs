@@ -85,8 +85,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 693,
-  "Select": "non"
+  "SelectionId": 566,
+  "Select": "veritatis"
 }
 ```
 
@@ -98,23 +98,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Jones, Funk and Wuckert",
-    "PrimaryKey": 466,
+    "EntityName": "Koch-Koss",
+    "PrimaryKey": 19,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "voluptatem",
-        "TooltipHint": "cupiditate",
-        "LinkHint": "maiores"
+        "DisplayValue": "quia",
+        "TooltipHint": "vitae",
+        "LinkHint": "deserunt"
       }
     },
-    "LinkHint": "magnam",
-    "StyleHint": "architecto",
+    "LinkHint": "dolorem",
+    "StyleHint": "saepe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 547
+        "FieldType": "System.Int32",
+        "FieldLength": 410
       }
     }
   }

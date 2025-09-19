@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/License/ChangeSerialNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "Schimmel-Morissette",
-  "NewSerialNumber": "1058544"
+  "NewCompanyName": "Gerlach Group",
+  "NewSerialNumber": "1014997"
 }
 ```
 
@@ -101,7 +101,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 266
+      "FieldLength": 769
     }
   }
 }

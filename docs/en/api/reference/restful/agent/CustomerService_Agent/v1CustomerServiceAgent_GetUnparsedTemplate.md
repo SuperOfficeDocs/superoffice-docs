@@ -85,8 +85,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 749,
-  "LanguageId": 31
+  "ReplyTemplateId": 25,
+  "LanguageId": 87
 }
 ```
 
@@ -97,36 +97,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 763,
-  "PlainParsed": "deserunt",
-  "HtmlParsed": "est",
+  "ReplyTemplateId": 884,
+  "PlainParsed": "iusto",
+  "HtmlParsed": "perspiciatis",
   "Attachments": [
     {
-      "AttachmentId": 318,
-      "Name": "Langosh, Wuckert and Tillman",
-      "ContentType": "adipisci",
-      "AttSize": 901,
-      "InlineImage": false,
-      "ContentId": "tempora",
-      "AuthKey": "itaque",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 380,
+      "Name": "Lindgren Inc and Sons",
+      "ContentType": "consectetur",
+      "AttSize": 740,
+      "InlineImage": true,
+      "ContentId": "officia",
+      "AuthKey": "accusantium",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 946
+          "FieldType": "System.String",
+          "FieldLength": 683
         }
       }
     }
   ],
-  "Subject": "sed",
+  "Subject": "deleniti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 85
+      "FieldLength": 782
     }
   }
 }

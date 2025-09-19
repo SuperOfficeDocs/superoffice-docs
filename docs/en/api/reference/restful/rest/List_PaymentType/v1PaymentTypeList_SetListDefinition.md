@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 849,
-  "Name": "Smitham Inc and Sons",
-  "Tooltip": "aspernatur",
+  "Id": 150,
+  "Name": "Bogan, Dietrich and Runte",
+  "Tooltip": "modi",
   "Deleted": false,
-  "Rank": 413,
+  "Rank": 311,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quisquam",
+  "UseGroupsAndHeadings": true,
+  "ListType": "nam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 703,
-  "Name": "Abshire-Koch",
+  "Id": 971,
+  "Name": "Cole-Gutmann",
   "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 515,
+  "Rank": 626,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "odio",
-  "InUseByUserDefinedFields": true,
+  "ListType": "eaque",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 895
+      "FieldType": "System.Int32",
+      "FieldLength": 91
     }
   }
 }

@@ -61,6 +61,7 @@ Service methods defined on <see cref='T:ISelectionAgent'>SelectionAgent</see> th
 * [RemoveSelectionMembersByIdAsync](removeselectionmembersbyidasync.md)
 * [RemoveSelectionMembersFromSearchAsync](removeselectionmembersfromsearchasync.md)
 * [SaveBoardViewSettingsAsync](saveboardviewsettingsasync.md)
+* [SaveBoardViewSettingsForSelectionAndAssociateAsync](saveboardviewsettingsforselectionandassociateasync.md)
 * [SaveSelectionEntityAsync](saveselectionentityasync.md)
 * [SetDuplicateRulesStatusAsync](setduplicaterulesstatusasync.md)
 * [SetDynamicSelectionCriteria2Async](setdynamicselectioncriteria2async.md)

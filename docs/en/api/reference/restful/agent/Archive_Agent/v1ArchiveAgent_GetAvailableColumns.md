@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kohler-Schroeder",
-  "Context": "error"
+  "ProviderName": "Littel-Durgan",
+  "Context": "nulla"
 }
 ```
 
@@ -104,19 +104,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Nader-Greenfelder",
-    "DisplayTooltip": "nisi",
-    "DisplayType": "qui",
+    "DisplayName": "Denesik-Prosacco",
+    "DisplayTooltip": "perferendis",
+    "DisplayType": "omnis",
     "CanOrderBy": false,
-    "Name": "Orn-Ward",
-    "CanRestrictBy": false,
-    "RestrictionType": "quibusdam",
-    "RestrictionListName": "Murazik Inc and Sons",
-    "IsVisible": false,
-    "ExtraInfo": "omnis",
-    "Width": "nesciunt",
-    "IconHint": "impedit",
-    "HeadingIconHint": "laudantium"
+    "Name": "Jacobson, Thompson and Larkin",
+    "CanRestrictBy": true,
+    "RestrictionType": "omnis",
+    "RestrictionListName": "Rath LLC",
+    "IsVisible": true,
+    "ExtraInfo": "non",
+    "Width": "saepe",
+    "IconHint": "aut",
+    "HeadingIconHint": "occaecati"
   }
 ]
 ```

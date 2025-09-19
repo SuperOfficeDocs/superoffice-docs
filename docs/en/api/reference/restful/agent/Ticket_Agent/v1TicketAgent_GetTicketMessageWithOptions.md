@@ -104,8 +104,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 199,
-  "IncludeNonInlineAttachmentsInfo": false
+  "TicketMessageEntityId": 617,
+  "IncludeNonInlineAttachmentsInfo": true
 }
 ```
 
@@ -116,79 +116,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 381,
+  "EjMessageId": 704,
   "Ticket": null,
-  "CreatedAt": "2019-11-07T03:46:55.4257333+01:00",
+  "CreatedAt": "2011-12-05T03:41:54.1682108+01:00",
   "CreatedBy": null,
-  "Author": "quo",
+  "Author": "vitae",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nesciunt",
-  "TimeSpent": 640,
-  "Body": "itaque",
-  "HtmlBody": "consequatur",
-  "EmailHeader": "jadon.moen@graham.us",
-  "DebugInfo": "veniam",
-  "MailSorter": "ut",
+  "MessageId": "reprehenderit",
+  "TimeSpent": 358,
+  "Body": "molestias",
+  "HtmlBody": "qui",
+  "EmailHeader": "erica@smith.com",
+  "DebugInfo": "esse",
+  "MailSorter": "autem",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "consequuntur",
+  "SearchTitle": "dolor",
   "MessageHeaders": [
     {
-      "Id": 886,
-      "Name": "Sauer-Cartwright",
-      "Value": "molestiae",
+      "Id": 853,
+      "Name": "Kulas-Barton",
+      "Value": "labore",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 447
+          "FieldType": "System.Int32",
+          "FieldLength": 449
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "et",
-  "Sentiment": 193,
-  "SentimentConfidence": 484,
+  "Important": true,
+  "Language": "officiis",
+  "Sentiment": 823,
+  "SentimentConfidence": 280,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 176,
-      "Name": "Beier Group",
-      "ContentType": "quo",
-      "AttSize": 982,
+      "AttachmentId": 374,
+      "Name": "Kautzer, Quigley and Mertz",
+      "ContentType": "maiores",
+      "AttSize": 181,
       "InlineImage": false,
-      "ContentId": "sed",
-      "AuthKey": "placeat",
+      "ContentId": "odit",
+      "AuthKey": "reprehenderit",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 997
+          "FieldLength": 238
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "enim",
-    "ExtraFields2": "nihil"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatibus",
-    "CustomFields2": "rem"
+    "CustomFields1": "fugiat",
+    "CustomFields2": "dolores"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldType": "System.String",
+      "FieldLength": 978
     }
   }
 }

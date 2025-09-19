@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 428,
-    "Name": "White Group",
-    "ToolTip": "Ullam voluptates.",
+    "Id": 923,
+    "Name": "Mayer, Kunde and Schaden",
+    "ToolTip": "Velit rem maiores velit qui.",
     "Deleted": false,
-    "Rank": 360,
-    "Type": "odit",
-    "ColorBlock": 128,
-    "IconHint": "repellendus",
+    "Rank": 649,
+    "Type": "doloribus",
+    "ColorBlock": 125,
+    "IconHint": "ratione",
     "Selected": false,
-    "LastChanged": "2009-02-18T03:47:00.628674+01:00",
+    "LastChanged": "2011-10-27T03:41:59.3867375+02:00",
     "ChildItems": [
       {
-        "Id": 857,
-        "Name": "Wunsch-McClure",
-        "ToolTip": "Quam explicabo.",
-        "Deleted": false,
-        "Rank": 736,
-        "Type": "voluptatem",
-        "ColorBlock": 427,
-        "IconHint": "placeat",
-        "Selected": false,
-        "LastChanged": "2021-08-12T03:47:00.628674+02:00",
+        "Id": 738,
+        "Name": "Greenfelder Inc and Sons",
+        "ToolTip": "Blanditiis voluptatem doloribus adipisci commodi quia consequatur.",
+        "Deleted": true,
+        "Rank": 239,
+        "Type": "aperiam",
+        "ColorBlock": 663,
+        "IconHint": "sunt",
+        "Selected": true,
+        "LastChanged": "2005-04-29T03:41:59.3867375+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "mollitia",
-        "Hidden": false,
-        "FullName": "Kellen Frami",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "blanditiis",
+        "Hidden": true,
+        "FullName": "Nash Bode",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 439
+            "FieldLength": 502
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "magnam",
-    "Hidden": false,
-    "FullName": "Mrs. Carmen Margarete Brown IV",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "perspiciatis",
+    "Hidden": true,
+    "FullName": "Julia Mills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 229
+        "FieldLength": 468
       }
     }
   }

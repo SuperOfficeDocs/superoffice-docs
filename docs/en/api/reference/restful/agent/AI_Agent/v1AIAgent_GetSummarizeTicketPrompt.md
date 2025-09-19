@@ -86,10 +86,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 159,
-  "NumSentences": 885,
-  "Summary": "voluptate",
-  "IsoLangCode": "adipisci"
+  "TicketId": 228,
+  "NumSentences": 499,
+  "Summary": "architecto",
+  "IsoLangCode": "libero"
 }
 ```
 
@@ -100,17 +100,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2009-11-17T03:46:53.9726601+01:00",
-  "UserPrompt": "enim",
-  "UserDisplayText": "vitae",
-  "BotResponse": "officia",
+  "Timestamp": "2013-11-24T03:41:52.7620128+01:00",
+  "UserPrompt": "perspiciatis",
+  "UserDisplayText": "et",
+  "BotResponse": "aut",
   "BotActions": {
-    "BotActions1": "temporibus",
-    "BotActions2": "ipsum"
+    "BotActions1": "omnis",
+    "BotActions2": "sint"
   },
   "Attachments": [
-    "ipsam",
-    "magni"
+    "et",
+    "velit"
   ]
 }
 ```

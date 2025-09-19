@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Blanda Group",
+  "Name": "Wilkinson LLC",
   "Entity": null
 }
 ```
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 602,
-  "Name": "Gerhold Inc and Sons",
-  "Tooltip": "et",
+  "HeadingId": 731,
+  "Name": "Lindgren-Rutherford",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 922,
-  "UdListDefinitionId": 865,
+  "Rank": 861,
+  "UdListDefinitionId": 144,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldLength": 658
     }
   }
 }

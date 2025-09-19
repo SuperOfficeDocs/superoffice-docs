@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 372
+  "ErpConnectionId": 672
 }
 ```
 
@@ -96,31 +96,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Lakin-Langworth",
+      "ErpListName": "Barrows Group",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Witting-Becker",
-      "ErpFieldId": 102,
+      "ErpActorTypeName": "Leuschke, Bernhard and Schowalter",
+      "ErpFieldId": 233,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 405
+          "FieldLength": 740
         }
       }
     }
   ],
-  "ErpConnectionId": 23,
-  "ErpConnectionName": "Luettgen LLC",
+  "ErpConnectionId": 282,
+  "ErpConnectionName": "Barrows-Berge",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 236
+      "FieldLength": 141
     }
   }
 }

@@ -91,20 +91,20 @@ OK
 PUT /api/v1/TriggerScript/{triggerScriptUniqueId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 328,
-  "Name": "Anderson-Bosco",
+  "ScreenChooserId": 576,
+  "Name": "Hansen, Reilly and Barton",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "est",
-  "Source": "eos",
-  "Registered": "2014-09-28T03:47:00.3943072+02:00",
-  "RegisteredAssociateId": 918,
-  "Updated": "2003-08-13T03:47:00.3943072+02:00",
-  "UpdatedAssociateId": 404
+  "Enabled": false,
+  "UniqueIdentifier": "molestiae",
+  "Source": "minima",
+  "Registered": "2007-12-31T03:41:59.1679969+01:00",
+  "RegisteredAssociateId": 224,
+  "Updated": "2005-11-03T03:41:59.1679969+01:00",
+  "UpdatedAssociateId": 832
 }
 ```
 
@@ -115,22 +115,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 511,
-  "Name": "Pacocha, Watsica and Schinner",
+  "ScreenChooserId": 315,
+  "Name": "Oberbrunner Group",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "error",
-  "Source": "laboriosam",
-  "Registered": "2021-07-16T03:47:00.3943072+02:00",
-  "RegisteredAssociateId": 933,
-  "Updated": "2022-09-14T03:47:00.3943072+02:00",
-  "UpdatedAssociateId": 938,
+  "Enabled": false,
+  "UniqueIdentifier": "ex",
+  "Source": "rerum",
+  "Registered": "2022-12-06T03:41:59.1679969+01:00",
+  "RegisteredAssociateId": 114,
+  "Updated": "2006-11-14T03:41:59.1679969+01:00",
+  "UpdatedAssociateId": 449,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 367
+      "FieldLength": 181
     }
   }
 }

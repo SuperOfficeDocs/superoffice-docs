@@ -104,11 +104,11 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentIdWithoutAttachmentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 5
+  "DocumentId": 610
 }
 ```
 
@@ -121,147 +121,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 817,
-      "ContactName": "Miller, Shanahan and Rutherford",
-      "PersonId": 19,
-      "PersonName": "Nader, Kessler and Vandervort",
-      "AssociateId": 782,
-      "Address": "possimus",
-      "EmailId": 411,
+      "ContactId": 132,
+      "ContactName": "Schneider, Stroman and Beatty",
+      "PersonId": 317,
+      "PersonName": "Ferry, Swaniawski and Champlin",
+      "AssociateId": 175,
+      "Address": "ex",
+      "EmailId": 926,
       "DuplicatePersonIds": [
-        754,
-        234
+        12,
+        812
       ],
-      "Name": "Wehner-Jenkins",
+      "Name": "Lubowitz-Welch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 636
+          "FieldType": "System.String",
+          "FieldLength": 139
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 737,
-      "ContactName": "Borer, Fahey and Koepp",
-      "PersonId": 676,
-      "PersonName": "Langosh-Schinner",
-      "AssociateId": 222,
-      "Address": "quis",
-      "EmailId": 511,
+      "ContactId": 173,
+      "ContactName": "Gorczany-Greenfelder",
+      "PersonId": 515,
+      "PersonName": "Block, Waters and Keebler",
+      "AssociateId": 631,
+      "Address": "id",
+      "EmailId": 146,
       "DuplicatePersonIds": [
-        820,
-        709
+        256,
+        454
       ],
-      "Name": "Braun Inc and Sons",
+      "Name": "Kub, Bradtke and Brakus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 751
+          "FieldLength": 994
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 456,
-      "ContactName": "Carroll Inc and Sons",
-      "PersonId": 589,
-      "PersonName": "Glover-Schneider",
-      "AssociateId": 292,
-      "Address": "cumque",
-      "EmailId": 38,
+      "ContactId": 346,
+      "ContactName": "Greenfelder, Kiehn and Anderson",
+      "PersonId": 304,
+      "PersonName": "Erdman Inc and Sons",
+      "AssociateId": 107,
+      "Address": "labore",
+      "EmailId": 162,
       "DuplicatePersonIds": [
-        9,
-        601
+        165,
+        666
       ],
-      "Name": "Douglas-Abbott",
+      "Name": "Emmerich, Mitchell and Runolfsdottir",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 476
+          "FieldLength": 866
         }
       }
     }
   ],
-  "Subject": "molestias",
-  "HTMLBody": "impedit",
+  "Subject": "sapiente",
+  "HTMLBody": "saepe",
   "From": null,
-  "Sent": "2000-06-10T03:46:54.7382579+02:00",
-  "Size": 850,
+  "Sent": "2020-12-03T03:41:53.4963592+01:00",
+  "Size": 653,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "voluptatem",
-  "PlainBody": "adipisci",
-  "IsSent": true,
+  "MessageID": "consectetur",
+  "PlainBody": "rerum",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 130,
+  "ServerId": 656,
   "Attachments": [
     {
-      "Description": "Ergonomic disintermediate capacity",
-      "Filename": "ipsam",
-      "Size": 289,
-      "Type": "quo",
-      "Encoding": "quibusdam",
-      "Id": "tempora",
-      "Disposition": "veritatis",
+      "Description": "Expanded didactic Graphical User Interface",
+      "Filename": "commodi",
+      "Size": 22,
+      "Type": "nesciunt",
+      "Encoding": "debitis",
+      "Id": "laboriosam",
+      "Disposition": "assumenda",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 13
+          "FieldType": "System.Int32",
+          "FieldLength": 492
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Jones, Luettgen and Gerlach",
+      "Name": "Renner, Bartoletti and Ziemann",
       "Values": [
-        "ipsum",
-        "amet"
+        "dolorum",
+        "blanditiis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 414
+          "FieldType": "System.String",
+          "FieldLength": 83
         }
       }
     },
     {
-      "Name": "Jones, Luettgen and Gerlach",
+      "Name": "Renner, Bartoletti and Ziemann",
       "Values": [
-        "ipsum",
-        "amet"
+        "dolorum",
+        "blanditiis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 414
+          "FieldType": "System.String",
+          "FieldLength": 83
         }
       }
     }
   ],
-  "FolderName": "Gorczany Inc and Sons",
-  "EmailItemId": 348,
-  "AccountId": 199,
-  "ReceivedAt": "2003-10-31T03:46:54.7382579+01:00",
+  "FolderName": "Ritchie Group",
+  "EmailItemId": 289,
+  "AccountId": 96,
+  "ReceivedAt": "1998-05-24T03:41:53.4963592+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-05-18T03:46:54.7382579+02:00",
+  "RepliedAt": "2020-06-14T03:41:53.4963592+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -270,7 +270,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldLength": 1000
     }
   }
 }

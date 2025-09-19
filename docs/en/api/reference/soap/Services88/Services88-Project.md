@@ -216,6 +216,8 @@ content_type: reference
               <xs:element minOccurs="0" name="EmailAddressName" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Comment" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="FullName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Registered" type="xs:dateTime" />
+              <xs:element minOccurs="0" name="Updated" type="xs:dateTime" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

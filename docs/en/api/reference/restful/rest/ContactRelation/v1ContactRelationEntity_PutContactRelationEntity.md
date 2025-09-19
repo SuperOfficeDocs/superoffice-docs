@@ -119,24 +119,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 13,
-  "SourcePersonId": 46,
-  "DestinationContactId": 838,
-  "DestinationPersonId": 534,
-  "RelationId": 555,
-  "Comment": "inventore",
-  "RelationDefinitionId": 107,
-  "Reversed": 401,
-  "UpdatedDate": "2016-03-28T03:46:59.8943184+02:00",
-  "CreatedDate": "2022-09-10T03:46:59.8943184+02:00",
+  "SourceContactId": 323,
+  "SourcePersonId": 159,
+  "DestinationContactId": 869,
+  "DestinationPersonId": 322,
+  "RelationId": 479,
+  "Comment": "numquam",
+  "RelationDefinitionId": 465,
+  "Reversed": 762,
+  "UpdatedDate": "2012-02-07T03:41:58.6211452+01:00",
+  "CreatedDate": "2012-02-22T03:41:58.6211452+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Flatley-Zulauf",
-  "SourcePersonName": "Fadel LLC",
-  "DestinationContactName": "Bashirian Inc and Sons",
-  "DestinationPersonName": "Jakubowski-Veum",
-  "ActiveText": "accusamus",
-  "PassiveText": "hic"
+  "SourceContactName": "Hickle LLC",
+  "SourcePersonName": "Schoen, Durgan and Rice",
+  "DestinationContactName": "Kertzmann-Crist",
+  "DestinationPersonName": "Mraz-Ebert",
+  "ActiveText": "consectetur",
+  "PassiveText": "in"
 }
 ```
 
@@ -147,30 +147,30 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 317,
-  "SourcePersonId": 538,
-  "DestinationContactId": 498,
-  "DestinationPersonId": 609,
-  "RelationId": 980,
-  "Comment": "mollitia",
-  "RelationDefinitionId": 267,
-  "Reversed": 987,
-  "UpdatedDate": "2015-02-13T03:46:59.8943184+01:00",
-  "CreatedDate": "2022-07-02T03:46:59.8943184+02:00",
+  "SourceContactId": 229,
+  "SourcePersonId": 810,
+  "DestinationContactId": 552,
+  "DestinationPersonId": 634,
+  "RelationId": 487,
+  "Comment": "et",
+  "RelationDefinitionId": 159,
+  "Reversed": 463,
+  "UpdatedDate": "2018-01-05T03:41:58.6211452+01:00",
+  "CreatedDate": "2000-03-10T03:41:58.6211452+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Blick-Murphy",
-  "SourcePersonName": "Moore, Mueller and Larson",
-  "DestinationContactName": "Cassin-Bayer",
-  "DestinationPersonName": "Kub-D'Amore",
-  "ActiveText": "laboriosam",
-  "PassiveText": "quia",
+  "SourceContactName": "Haag Inc and Sons",
+  "SourcePersonName": "Runte-Bernier",
+  "DestinationContactName": "Mosciski-Gerhold",
+  "DestinationPersonName": "Langosh-Treutel",
+  "ActiveText": "doloremque",
+  "PassiveText": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldLength": 557
     }
   },
   "_Links": {

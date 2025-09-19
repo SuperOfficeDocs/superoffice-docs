@@ -113,32 +113,32 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 24,
-  "Name": "Legros-Dickinson",
-  "Tooltip": "necessitatibus",
+  "WebPanelId": 303,
+  "Name": "Bruen-Renner",
+  "Tooltip": "voluptate",
   "Deleted": false,
-  "Rank": 834,
+  "Rank": 518,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Leuschke, Parisian and Schiller",
+  "WindowName": "McCullough LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "velit",
-  "Icon": 841,
-  "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": true
+  "ProgId": "alias",
+  "Icon": 728,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": false
 }
 ```
 
@@ -149,34 +149,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 374,
-  "Name": "Zulauf Inc and Sons",
-  "Tooltip": "reiciendis",
+  "WebPanelId": 654,
+  "Name": "Skiles-Koepp",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 868,
+  "Rank": 500,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
+  "OnCentral": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Murphy, Wolf and Hoeger",
+  "WindowName": "Cremin-Mante",
   "Url": "http://www.example.com/",
-  "ProgId": "exercitationem",
-  "Icon": 619,
+  "ProgId": "dolor",
+  "Icon": 2,
   "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldType": "System.String",
+      "FieldLength": 862
     }
   }
 }

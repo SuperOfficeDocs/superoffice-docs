@@ -1323,7 +1323,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindSale?$select=person/email/emailDescription,person/personAssociate/assocTooltip,person/correspondingAssociate/fullName,appointment/completed,appointment/isMilestone
+GET /api/v1/archive/FindSale?$select=getAllRows,saleStatus,person/email/emailDescription,person/email/emailId,person/correspondingAssociate/portraitThumbnail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

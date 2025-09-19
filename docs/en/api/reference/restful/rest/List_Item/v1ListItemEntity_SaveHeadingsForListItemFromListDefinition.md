@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 646,
-    "Name": "Hermann, Ortiz and Parisian",
-    "ToolTip": "Est dolorem ea sit saepe id.",
+    "Id": 54,
+    "Name": "Rempel, Murazik and Schmeler",
+    "ToolTip": "Iure delectus molestiae est consequuntur quia et.",
     "Deleted": false,
-    "Rank": 809,
-    "Type": "qui",
-    "ColorBlock": 394,
-    "IconHint": "dolorem",
+    "Rank": 324,
+    "Type": "magni",
+    "ColorBlock": 821,
+    "IconHint": "mollitia",
     "Selected": false,
-    "LastChanged": "2016-09-13T03:47:00.5661762+02:00",
+    "LastChanged": "2025-01-06T03:41:59.3242422+01:00",
     "ChildItems": [
       {
-        "Id": 498,
-        "Name": "Hoeger, Rau and Herman",
-        "ToolTip": "Eos modi atque corrupti.",
+        "Id": 300,
+        "Name": "Pacocha, Towne and Schamberger",
+        "ToolTip": "Adipisci corporis aut ut enim.",
         "Deleted": false,
-        "Rank": 288,
-        "Type": "quisquam",
-        "ColorBlock": 501,
-        "IconHint": "eveniet",
+        "Rank": 536,
+        "Type": "ipsam",
+        "ColorBlock": 859,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2010-01-14T03:47:00.5661762+01:00",
+        "LastChanged": "2014-04-20T03:41:59.3242422+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "eaque",
-        "Hidden": false,
-        "FullName": "Hugh Jacobson"
+        "ExtraInfo": "fugit",
+        "StyleHint": "molestiae",
+        "Hidden": true,
+        "FullName": "Billie Grimes"
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Prof. Edison Willms IV"
+    "ExtraInfo": "non",
+    "StyleHint": "animi",
+    "Hidden": true,
+    "FullName": "Miss Mariam Pfannerstill Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 940,
-    "Name": "Bradtke, Effertz and Konopelski",
-    "ToolTip": "Dolores in fugiat maiores quia quis voluptatem.",
-    "Deleted": true,
-    "Rank": 626,
-    "Type": "quaerat",
-    "ColorBlock": 955,
-    "IconHint": "laborum",
-    "Selected": true,
-    "LastChanged": "2013-09-18T03:47:00.5661762+02:00",
+    "Id": 639,
+    "Name": "Schimmel-Kreiger",
+    "ToolTip": "Sed alias voluptatum nobis aliquid.",
+    "Deleted": false,
+    "Rank": 518,
+    "Type": "maiores",
+    "ColorBlock": 562,
+    "IconHint": "similique",
+    "Selected": false,
+    "LastChanged": "2002-12-21T03:41:59.3242422+01:00",
     "ChildItems": [
       {
-        "Id": 879,
-        "Name": "Leannon LLC",
-        "ToolTip": "Eaque maiores.",
+        "Id": 213,
+        "Name": "Hilll, Runolfsson and Ullrich",
+        "ToolTip": "Aut nesciunt ut qui consequuntur quaerat qui facere.",
         "Deleted": false,
-        "Rank": 682,
-        "Type": "veritatis",
-        "ColorBlock": 274,
-        "IconHint": "itaque",
-        "Selected": false,
-        "LastChanged": "2011-11-23T03:47:00.5661762+01:00",
+        "Rank": 135,
+        "Type": "qui",
+        "ColorBlock": 484,
+        "IconHint": "laborum",
+        "Selected": true,
+        "LastChanged": "2018-08-13T03:41:59.3242422+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolore",
-        "StyleHint": "et",
+        "ExtraInfo": "similique",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Cesar Haley",
+        "FullName": "Helene Casper",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 554
+            "FieldType": "System.Int32",
+            "FieldLength": 95
           }
         }
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Ms. Nova Rolfson II",
+    "ExtraInfo": "sed",
+    "StyleHint": "vitae",
+    "Hidden": true,
+    "FullName": "Mrs. Ariel Dorothea McLaughlin DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 417
+        "FieldLength": 993
       }
     }
   }

@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 261,
-    "Name": "King Inc and Sons",
-    "Description": "Fully-configurable exuding moratorium",
+    "ProjectId": 457,
+    "Name": "Feeney, Kiehn and Greenholt",
+    "Description": "Enterprise-wide regional task-force",
     "URL": "http://www.example.com/",
-    "Type": "tempora",
-    "AssociateId": 756,
-    "AssociateFullName": "Loyce Hand",
-    "TypeId": 299,
-    "Updated": "2019-12-27T03:46:55.1757421+01:00",
-    "StatusId": 329,
-    "Status": "a",
-    "TextId": 849,
-    "PublishTo": "2012-05-22T03:46:55.1757421+02:00",
-    "PublishFrom": "2012-10-15T03:46:55.1757421+02:00",
-    "IsPublished": false,
+    "Type": "quae",
+    "AssociateId": 432,
+    "AssociateFullName": "Mr. Merlin Julie Kertzmann",
+    "TypeId": 58,
+    "Updated": "2023-10-14T03:41:53.9182167+02:00",
+    "StatusId": 525,
+    "Status": "consequatur",
+    "TextId": 896,
+    "PublishTo": "2016-08-01T03:41:53.9182167+02:00",
+    "PublishFrom": "2015-03-16T03:41:53.9182167+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "537017",
-    "ActiveErpLinks": 663,
+    "ProjectNumber": "1327995",
+    "ActiveErpLinks": 82,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 973
+        "FieldType": "System.Int32",
+        "FieldLength": 840
       }
     }
   }

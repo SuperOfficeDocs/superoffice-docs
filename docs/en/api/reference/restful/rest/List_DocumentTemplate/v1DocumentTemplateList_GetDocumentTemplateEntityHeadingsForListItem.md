@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 109,
-    "Name": "Johnston Inc and Sons",
-    "ToolTip": "Omnis ea sed et sapiente fugit numquam.",
-    "Deleted": true,
-    "Rank": 320,
+    "Id": 195,
+    "Name": "Swaniawski, Emmerich and Wisoky",
+    "ToolTip": "Provident at esse enim et quaerat exercitationem.",
+    "Deleted": false,
+    "Rank": 489,
     "Type": "occaecati",
-    "ColorBlock": 103,
-    "IconHint": "quas",
+    "ColorBlock": 211,
+    "IconHint": "voluptates",
     "Selected": false,
-    "LastChanged": "2020-08-20T03:47:00.6599229+02:00",
+    "LastChanged": "2012-05-20T03:41:59.4179858+02:00",
     "ChildItems": [
       {
-        "Id": 601,
-        "Name": "Grimes-Ryan",
-        "ToolTip": "Esse aut et et ratione est consequuntur earum.",
-        "Deleted": false,
-        "Rank": 110,
-        "Type": "labore",
-        "ColorBlock": 117,
-        "IconHint": "mollitia",
-        "Selected": true,
-        "LastChanged": "2004-08-23T03:47:00.6599229+02:00",
+        "Id": 790,
+        "Name": "Ruecker Inc and Sons",
+        "ToolTip": "Omnis qui sit ipsum quos.",
+        "Deleted": true,
+        "Rank": 836,
+        "Type": "ut",
+        "ColorBlock": 19,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2006-09-03T03:41:59.4179858+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "quos",
+        "ExtraInfo": "ea",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Mr. Amira Schowalter",
+        "FullName": "Miss Korbin Koch II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 225
+            "FieldType": "System.Int32",
+            "FieldLength": 100
           }
         }
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "enim",
-    "Hidden": true,
-    "FullName": "Mrs. Rosalind Ryder Windler",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "corrupti",
+    "Hidden": false,
+    "FullName": "Creola Stroman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 462
+        "FieldType": "System.Int32",
+        "FieldLength": 154
       }
     }
   }

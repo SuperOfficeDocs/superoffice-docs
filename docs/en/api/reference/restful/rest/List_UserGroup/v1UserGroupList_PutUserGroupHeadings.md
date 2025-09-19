@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 441,
-    "Name": "Kovacek, Gorczany and Deckow",
-    "Tooltip": "maiores",
-    "Deleted": true,
+    "HeadingId": 813,
+    "Name": "Kemmer, Sporer and Kautzer",
+    "Tooltip": "autem",
+    "Deleted": false,
     "Rank": 43,
-    "UdListDefinitionId": 410
+    "UdListDefinitionId": 605
   },
   {
-    "HeadingId": 441,
-    "Name": "Kovacek, Gorczany and Deckow",
-    "Tooltip": "maiores",
-    "Deleted": true,
+    "HeadingId": 813,
+    "Name": "Kemmer, Sporer and Kautzer",
+    "Tooltip": "autem",
+    "Deleted": false,
     "Rank": 43,
-    "UdListDefinitionId": 410
+    "UdListDefinitionId": 605
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 255,
-    "Name": "Hettinger, Stamm and Borer",
-    "Tooltip": "repellat",
-    "Deleted": false,
-    "Rank": 576,
-    "UdListDefinitionId": 586,
+    "HeadingId": 273,
+    "Name": "Smitham-Halvorson",
+    "Tooltip": "ex",
+    "Deleted": true,
+    "Rank": 225,
+    "UdListDefinitionId": 257,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 663
+        "FieldLength": 590
       }
     }
   }

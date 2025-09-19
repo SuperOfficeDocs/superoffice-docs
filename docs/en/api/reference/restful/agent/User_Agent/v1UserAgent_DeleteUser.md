@@ -28,7 +28,7 @@ Deletes the User
 | userId | int32 | **Required** The identity of the User |
 
 ```http
-POST /api/v1/Agents/User/DeleteUser?userId=444
+POST /api/v1/Agents/User/DeleteUser?userId=728
 ```
 
 

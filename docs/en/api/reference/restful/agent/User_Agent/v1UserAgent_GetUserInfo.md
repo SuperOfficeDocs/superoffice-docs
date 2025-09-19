@@ -29,7 +29,7 @@ Gets a UserInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserInfo?userInfoId=108
+POST /api/v1/Agents/User/GetUserInfo?userInfoId=48
 POST /api/v1/Agents/User/GetUserInfo?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/User/GetUserInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,29 +95,29 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Deleted": false,
-  "UserInfoId": 607,
-  "UserName": "Russel-Vandervort",
-  "PersonId": 810,
-  "Rank": 605,
-  "Tooltip": "sint",
-  "UserGroupId": 935,
-  "EjUserId": 270,
+  "UserInfoId": 223,
+  "UserName": "Pouros, Cronin and Pfannerstill",
+  "PersonId": 793,
+  "Rank": 786,
+  "Tooltip": "et",
+  "UserGroupId": 774,
+  "EjUserId": 155,
   "UserType": "AnonymousAssociate",
   "GrantedLicenses": [
-    "alias",
-    "earum"
+    "sunt",
+    "autem"
   ],
   "CanLogon": false,
-  "RoleName": "Bradtke, Harris and Swift",
-  "RoleTooltip": "sunt",
-  "UserGroupName": "Wunsch, Wyman and Hermann",
-  "UserGroupTooltip": "est",
+  "RoleName": "Simonis-Glover",
+  "RoleTooltip": "laborum",
+  "UserGroupName": "Beatty Group",
+  "UserGroupTooltip": "deserunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 605
+      "FieldLength": 962
     }
   }
 }

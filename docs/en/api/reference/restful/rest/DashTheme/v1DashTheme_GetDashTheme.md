@@ -79,7 +79,7 @@ DashTheme found.
 GET /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,18 +89,18 @@ HTTP/1.1 200 DashTheme found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 926,
-  "Name": "Tillman, Heathcote and Gibson",
-  "Config": "eos",
-  "Rank": 260,
-  "Client": "praesentium",
-  "Style": "beatae",
+  "DashboardThemeId": 474,
+  "Name": "Osinski-Beahan",
+  "Config": "nemo",
+  "Rank": 314,
+  "Client": "nobis",
+  "Style": "minima",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldLength": 533
     }
   },
   "_Links": {

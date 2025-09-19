@@ -92,31 +92,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Hahn, Becker and Upton",
-      "Comment": "possimus",
-      "StakeholderRoleId": 197,
-      "CountryId": 593,
-      "PersonId": 820,
-      "EmailDescription": "hiram@crist.com",
-      "EmailId": 235,
-      "EmailAddress": "heath_emmerich@buckridgechristiansen.name",
-      "PhoneId": 936,
-      "ContactName": "Morissette Inc and Sons",
-      "ContactId": 177,
-      "SaleId": 592,
-      "Mrmrs": "est",
-      "Firstname": "Jolie",
-      "MiddleName": "Bartell Group",
-      "Lastname": "Conn",
-      "SaleStakeholderId": 89,
-      "Rank": 994,
-      "Phone": "(161)459-4393"
+      "StakeholderRoleName": "Schaefer, Bayer and Metz",
+      "Comment": "qui",
+      "StakeholderRoleId": 592,
+      "CountryId": 71,
+      "PersonId": 501,
+      "EmailDescription": "betsy@rolfson.ca",
+      "EmailId": 336,
+      "EmailAddress": "gina_hane@altenwerth.name",
+      "PhoneId": 632,
+      "ContactName": "Connelly-Stracke",
+      "ContactId": 921,
+      "SaleId": 605,
+      "Mrmrs": "consequatur",
+      "Firstname": "Libby",
+      "MiddleName": "Pouros-Halvorson",
+      "Lastname": "Gislason",
+      "SaleStakeholderId": 907,
+      "Rank": 956,
+      "Phone": "(310)651-4159 x23992"
     }
   ]
 }
@@ -130,31 +130,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Blanda LLC",
-    "Comment": "sapiente",
-    "StakeholderRoleId": 558,
-    "CountryId": 212,
-    "PersonId": 256,
-    "EmailDescription": "anita@johnston.info",
-    "EmailId": 754,
-    "EmailAddress": "donny@bergstrom.uk",
-    "PhoneId": 912,
-    "ContactName": "Dietrich, Bernhard and Armstrong",
-    "ContactId": 554,
-    "SaleId": 445,
-    "Mrmrs": "dignissimos",
-    "Firstname": "Landen",
-    "MiddleName": "Sipes Group",
-    "Lastname": "Koss",
-    "SaleStakeholderId": 76,
-    "Rank": 823,
-    "Phone": "(483)038-8383",
+    "StakeholderRoleName": "McGlynn, Glover and Powlowski",
+    "Comment": "optio",
+    "StakeholderRoleId": 651,
+    "CountryId": 648,
+    "PersonId": 772,
+    "EmailDescription": "jason@stracke.name",
+    "EmailId": 227,
+    "EmailAddress": "murphy_rempel@mcdermott.com",
+    "PhoneId": 430,
+    "ContactName": "Kunze Group",
+    "ContactId": 957,
+    "SaleId": 438,
+    "Mrmrs": "praesentium",
+    "Firstname": "Jules",
+    "MiddleName": "Eichmann-Lakin",
+    "Lastname": "Leannon",
+    "SaleStakeholderId": 718,
+    "Rank": 677,
+    "Phone": "(425)696-5256 x843",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 955
+        "FieldLength": 784
       }
     }
   }

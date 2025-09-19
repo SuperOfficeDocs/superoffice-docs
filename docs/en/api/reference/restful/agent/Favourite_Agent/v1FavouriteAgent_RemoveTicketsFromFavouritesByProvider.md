@@ -67,22 +67,22 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Raynor, Gottlieb and Ryan",
+  "ProviderName": "Gutmann-Klein",
   "Restrictions": [
     {
-      "Name": "Crooks LLC",
-      "Operator": "aspernatur",
+      "Name": "Little-Johnson",
+      "Operator": "illo",
       "Values": [
-        "delectus",
-        "et"
+        "maxime",
+        "nesciunt"
       ],
       "DisplayValues": [
-        "ipsum",
-        "recusandae"
+        "nihil",
+        "cupiditate"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -90,12 +90,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 977,
+      "InterParenthesis": 822,
       "InterOperator": "And",
-      "UniqueHash": 112
+      "UniqueHash": 82
     }
   ],
-  "AssociateId": 272
+  "AssociateId": 423
 }
 ```
 

@@ -71,11 +71,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kshlerin-West",
-  "Id": 594,
+  "TableName": "Mann, Hauck and Swaniawski",
+  "Id": 546,
   "Values": {
-    "Values1": "quis",
-    "Values2": "aperiam"
+    "Values1": "sed",
+    "Values2": "distinctio"
   }
 }
 ```

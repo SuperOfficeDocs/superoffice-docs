@@ -136,14 +136,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 239,
-  "SaleId": 261,
-  "CreateNow": false,
-  "OwnerId": 817
+  "SuggestedAppointmentId": 636,
+  "SaleId": 637,
+  "CreateNow": true,
+  "OwnerId": 745
 }
 ```
 
@@ -158,121 +158,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2011-03-05T03:46:54.2070265+01:00",
-  "AppointmentId": 473,
-  "Description": "Operative 24 hour project",
-  "Title": "corporis",
-  "Agenda": "quo",
-  "InternalNotes": "repellat",
-  "StartDate": "2019-07-11T03:46:54.2070265+02:00",
-  "EndDate": "1999-11-06T03:46:54.2070265+01:00",
+  "CreatedDate": "2016-05-05T03:41:52.996381+02:00",
+  "AppointmentId": 63,
+  "Description": "Multi-channelled high-level process improvement",
+  "Title": "non",
+  "Agenda": "sit",
+  "InternalNotes": "vel",
+  "StartDate": "2016-08-23T03:41:52.996381+02:00",
+  "EndDate": "2021-11-18T03:41:52.996381+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 721,
+  "MotherId": 19,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2011-06-20T03:46:54.2070265+02:00",
+  "UpdatedDate": "2003-12-18T03:41:52.996381+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 633,
+  "ActiveLinks": 954,
   "Links": [
     {
-      "EntityName": "Grimes LLC",
-      "Id": 856,
-      "Description": "Pre-emptive 5th generation paradigm",
-      "ExtraInfo": "maxime",
-      "LinkId": 385,
+      "EntityName": "Krajcik, Goldner and Heller",
+      "Id": 619,
+      "Description": "Front-line needs-based service-desk",
+      "ExtraInfo": "doloremque",
+      "LinkId": 367,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 542
+          "FieldLength": 483
         }
       }
     }
   ],
-  "AlarmLeadTime": "rerum",
+  "AlarmLeadTime": "possimus",
   "HasAlarm": true,
-  "ColorIndex": 746,
+  "ColorIndex": 256,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "deleniti",
-  "LeadTime": "aspernatur",
-  "Location": "aperiam",
-  "RejectCounter": 835,
+  "IsAlldayEvent": true,
+  "LagTime": "neque",
+  "LeadTime": "eum",
+  "Location": "fuga",
+  "RejectCounter": 809,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 942,
-      "PersonId": 224,
-      "ContactId": 949,
-      "EmailId": 556,
-      "SendEmail": true,
+      "AssociateId": 334,
+      "PersonId": 234,
+      "ContactId": 492,
+      "EmailId": 321,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "marcel@davis.uk",
-      "Description": "Managed 6th generation artificial intelligence"
+      "EmailAddress": "elvera.purdy@willms.name",
+      "Description": "Profound 4th generation algorithm"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2009-02-02T03:46:54.2070265+01:00",
+  "ActiveDate": "2001-09-21T03:41:52.996381+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 348,
+  "PreferredTZLocation": 107,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 894,
+  "SuggestedAppointmentId": 507,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "nesciunt",
+  "CentralserviceVideomeetId": "inventore",
   "UserDefinedFields": {
-    "SuperOffice:1": "1535657700",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Helga Hyatt",
+    "SuperOffice:2": "Miss Dashawn Sanford"
   },
   "ExtraFields": {
-    "ExtraFields1": "sequi",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "assumenda",
+    "ExtraFields2": "nobis"
   },
   "CustomFields": {
-    "CustomFields1": "nihil",
-    "CustomFields2": "quasi"
+    "CustomFields1": "assumenda",
+    "CustomFields2": "laudantium"
   },
-  "PublishEventDate": "2023-05-23T03:46:54.2070265+02:00",
-  "PublishTo": "2010-02-15T03:46:54.2070265+01:00",
-  "PublishFrom": "2022-02-14T03:46:54.2070265+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2004-09-13T03:41:52.996381+02:00",
+  "PublishTo": "2004-11-30T03:41:52.996381+01:00",
+  "PublishFrom": "2002-07-13T03:41:52.996381+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 366,
+      "VisibleId": 963,
       "Visibility": "All",
-      "DisplayValue": "enim",
+      "DisplayValue": "eaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldLength": 976
         }
       }
     },
     {
-      "VisibleId": 366,
+      "VisibleId": 963,
       "Visibility": "All",
-      "DisplayValue": "enim",
+      "DisplayValue": "eaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldLength": 976
         }
       }
     }
@@ -281,8 +281,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 702
+      "FieldType": "System.Int32",
+      "FieldLength": 485
     }
   }
 }

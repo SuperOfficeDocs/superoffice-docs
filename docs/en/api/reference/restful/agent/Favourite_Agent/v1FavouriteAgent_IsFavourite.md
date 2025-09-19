@@ -71,13 +71,13 @@ OK
 POST /api/v1/Agents/Favourite/IsFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kessler, Friesen and Spencer",
-  "RecordId": 447,
-  "AssociateId": 764
+  "TableName": "Turcotte-Kohler",
+  "RecordId": 394,
+  "AssociateId": 336
 }
 ```
 

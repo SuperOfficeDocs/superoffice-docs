@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 656,
-    "Name": "Jenkins, Wilderman and Kuvalis",
-    "ToolTip": "Ab unde.",
-    "Deleted": true,
-    "Rank": 514,
-    "Type": "perspiciatis",
-    "ColorBlock": 206,
-    "IconHint": "excepturi",
+    "Id": 379,
+    "Name": "Stark-Stark",
+    "ToolTip": "Soluta ad voluptatem earum officiis et possimus.",
+    "Deleted": false,
+    "Rank": 45,
+    "Type": "non",
+    "ColorBlock": 245,
+    "IconHint": "unde",
     "Selected": false,
-    "LastChanged": "2010-01-01T03:47:00.6911718+01:00",
+    "LastChanged": "2020-12-19T03:41:59.4492344+01:00",
     "ChildItems": [
       {
-        "Id": 369,
-        "Name": "Marquardt Group",
-        "ToolTip": "Rerum rerum doloribus aut eligendi.",
-        "Deleted": true,
-        "Rank": 100,
-        "Type": "recusandae",
-        "ColorBlock": 570,
-        "IconHint": "maiores",
-        "Selected": false,
-        "LastChanged": "2017-06-26T03:47:00.6911718+02:00",
+        "Id": 49,
+        "Name": "Green LLC",
+        "ToolTip": "Et vel natus eligendi aperiam.",
+        "Deleted": false,
+        "Rank": 925,
+        "Type": "atque",
+        "ColorBlock": 12,
+        "IconHint": "voluptas",
+        "Selected": true,
+        "LastChanged": "2017-06-17T03:41:59.4492344+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "tempora",
+        "ExtraInfo": "velit",
+        "StyleHint": "soluta",
         "Hidden": false,
-        "FullName": "Stephen Wintheiser",
+        "FullName": "Lucious Oberbrunner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 793
+            "FieldType": "System.Int32",
+            "FieldLength": 199
           }
         }
       }
     ],
-    "ExtraInfo": "quae",
-    "StyleHint": "reiciendis",
+    "ExtraInfo": "magnam",
+    "StyleHint": "voluptatibus",
     "Hidden": true,
-    "FullName": "Hope Veum",
+    "FullName": "Archibald Baumbach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 574
+        "FieldLength": 61
       }
     }
   }

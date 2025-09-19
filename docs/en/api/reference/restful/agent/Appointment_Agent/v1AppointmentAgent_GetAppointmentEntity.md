@@ -27,7 +27,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=290
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=308
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -127,7 +127,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -141,121 +141,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2010-06-11T03:46:54.0664078+02:00",
-  "AppointmentId": 778,
-  "Description": "Open-architected tangible hardware",
-  "Title": "rerum",
-  "Agenda": "illo",
-  "InternalNotes": "nobis",
-  "StartDate": "2014-01-26T03:46:54.0664078+01:00",
-  "EndDate": "2012-10-02T03:46:54.0664078+02:00",
+  "CreatedDate": "2022-01-13T03:41:52.8557597+01:00",
+  "AppointmentId": 852,
+  "Description": "Object-based assymetric standardization",
+  "Title": "voluptatem",
+  "Agenda": "laudantium",
+  "InternalNotes": "iusto",
+  "StartDate": "2012-07-14T03:41:52.8557597+02:00",
+  "EndDate": "2014-07-25T03:41:52.8557597+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 582,
+  "MotherId": 444,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2005-02-24T03:46:54.0664078+01:00",
+  "UpdatedDate": "2009-11-18T03:41:52.8557597+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 972,
+  "ActiveLinks": 500,
   "Links": [
     {
-      "EntityName": "Schinner, Erdman and Pouros",
-      "Id": 783,
-      "Description": "Re-engineered client-driven flexibility",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 734,
+      "EntityName": "Fahey Inc and Sons",
+      "Id": 348,
+      "Description": "Optimized 6th generation budgetary management",
+      "ExtraInfo": "earum",
+      "LinkId": 679,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 788
+          "FieldType": "System.Int32",
+          "FieldLength": 927
         }
       }
     }
   ],
-  "AlarmLeadTime": "voluptatum",
+  "AlarmLeadTime": "nobis",
   "HasAlarm": false,
-  "ColorIndex": 997,
+  "ColorIndex": 719,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "labore",
-  "LeadTime": "optio",
-  "Location": "neque",
-  "RejectCounter": 421,
+  "IsAlldayEvent": true,
+  "LagTime": "porro",
+  "LeadTime": "labore",
+  "Location": "consequuntur",
+  "RejectCounter": 517,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 173,
-      "PersonId": 551,
-      "ContactId": 688,
-      "EmailId": 633,
+      "AssociateId": 775,
+      "PersonId": 182,
+      "ContactId": 766,
+      "EmailId": 236,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "malcolm.haag@pacocha.biz",
-      "Description": "Synergized impactful frame"
+      "EmailAddress": "cassandre@kreigerbotsford.co.uk",
+      "Description": "Mandatory 5th generation leverage"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2013-05-20T03:46:54.0664078+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2012-12-01T03:41:52.8557597+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 623,
+  "PreferredTZLocation": 647,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 609,
+  "SuggestedAppointmentId": 339,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "totam",
+  "CentralserviceVideomeetId": "tenetur",
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Thaddeus Collins DDS",
-    "SuperOffice:2": "275568627"
+    "SuperOffice:1": "Earl Fatima Blanda Jr.",
+    "SuperOffice:2": "Moses Carroll"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "fugit"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "pariatur",
-    "CustomFields2": "impedit"
+    "CustomFields1": "et",
+    "CustomFields2": "rerum"
   },
-  "PublishEventDate": "2002-03-09T03:46:54.0664078+01:00",
-  "PublishTo": "2002-01-30T03:46:54.0664078+01:00",
-  "PublishFrom": "2021-05-28T03:46:54.0664078+02:00",
+  "PublishEventDate": "2004-02-08T03:41:52.8557597+01:00",
+  "PublishTo": "2001-02-07T03:41:52.8557597+01:00",
+  "PublishFrom": "2012-03-21T03:41:52.8557597+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 484,
+      "VisibleId": 520,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 289
+          "FieldLength": 200
         }
       }
     },
     {
-      "VisibleId": 484,
+      "VisibleId": 520,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 289
+          "FieldLength": 200
         }
       }
     }
@@ -264,8 +264,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 916
+      "FieldType": "System.Int32",
+      "FieldLength": 405
     }
   }
 }

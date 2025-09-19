@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-296-367-9016 x49076",
-    "PersonCellPhone": "(103)436-5493 x0747",
-    "PersonPrivatePhone": "(037)946-7715 x23930",
-    "PersonFaxNumber": "229777",
-    "PersonPagerNumber": "1190725",
-    "PersonEmail": "lesly.vonrueden@schaden.com",
-    "Id": 29,
-    "Name": "Wolff-Pacocha",
-    "Tooltip": "expedita",
-    "UniqueId": "minus",
+    "PersonDirectPhone": "415.788.5091 x2414",
+    "PersonCellPhone": "958.941.6354 x8360",
+    "PersonPrivatePhone": "054-799-5663",
+    "PersonFaxNumber": "1738568",
+    "PersonPagerNumber": "719737",
+    "PersonEmail": "gail.halvorson@boyerbatz.info",
+    "Id": 258,
+    "Name": "Bins-Murray",
+    "Tooltip": "sunt",
+    "UniqueId": "nulla",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 178
+        "FieldType": "System.Int32",
+        "FieldLength": 806
       }
     }
   }

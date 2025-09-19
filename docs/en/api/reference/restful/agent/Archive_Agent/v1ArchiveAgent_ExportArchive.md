@@ -88,55 +88,55 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Klocko-Kling",
-  "Context": "quidem",
+  "ProviderName": "Dach LLC",
+  "Context": "nam",
   "DesiredEntities": [
-    "aut",
-    "numquam"
+    "animi",
+    "sint"
   ],
   "Columns": [
-    "beatae",
-    "sunt"
+    "et",
+    "quisquam"
   ],
   "SortOrder": [
     {
-      "Name": "Tremblay Inc and Sons",
+      "Name": "Braun-Sipes",
       "Direction": "ASC"
     },
     {
-      "Name": "Tremblay Inc and Sons",
+      "Name": "Braun-Sipes",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "West-Beatty",
-      "Operator": "non",
+      "Name": "Wehner-Cruickshank",
+      "Operator": "et",
       "Values": [
-        "iste",
-        "ducimus"
+        "dolores",
+        "non"
       ],
       "DisplayValues": [
-        "sit",
-        "vel"
+        "id",
+        "aut"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 474,
+      "InterParenthesis": 370,
       "InterOperator": "And",
-      "UniqueHash": 365
+      "UniqueHash": 111
     }
   ],
-  "ExportType": "saepe",
+  "ExportType": "vero",
   "SelectedRowIds": [
-    "blanditiis",
-    "quas"
+    "ullam",
+    "earum"
   ],
-  "EstimatedRowCount": 190
+  "EstimatedRowCount": 432
 }
 ```
 
@@ -147,15 +147,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 422,
-  "FileName": "Crooks, Torp and Harber",
-  "Message": "magni",
+  "BatchTaskId": 562,
+  "FileName": "Jerde, Cummings and Johnston",
+  "Message": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 820
+      "FieldType": "System.String",
+      "FieldLength": 980
     }
   }
 }

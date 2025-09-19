@@ -79,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuickReplyId": 457,
-    "Name": "Donnelly-Klocko",
-    "HtmlBody": "officia",
+    "QuickReplyId": 918,
+    "Name": "Crooks-Yundt",
+    "HtmlBody": "quas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 532
+        "FieldLength": 845
       }
     }
   },
   {
-    "QuickReplyId": 457,
-    "Name": "Donnelly-Klocko",
-    "HtmlBody": "officia",
+    "QuickReplyId": 918,
+    "Name": "Crooks-Yundt",
+    "HtmlBody": "quas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 532
+        "FieldLength": 845
       }
     }
   }

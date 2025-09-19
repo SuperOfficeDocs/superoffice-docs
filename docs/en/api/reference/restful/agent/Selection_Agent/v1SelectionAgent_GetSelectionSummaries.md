@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    525,
-    891
+    993,
+    402
   ]
 }
 ```
@@ -95,18 +95,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 843,
-    "Name": "Kuhlman-Schmeler",
-    "TargetTable": "dolores",
-    "Registered": "2024-07-11T03:46:55.3944846+02:00",
-    "ProviderName": "Stroman, Feest and West"
+    "SelectionId": 158,
+    "Name": "Kuvalis, Emard and Gutkowski",
+    "TargetTable": "non",
+    "Registered": "2016-02-18T03:41:54.0744593+01:00",
+    "ProviderName": "Schowalter-Mueller"
   },
   {
-    "SelectionId": 843,
-    "Name": "Kuhlman-Schmeler",
-    "TargetTable": "dolores",
-    "Registered": "2024-07-11T03:46:55.3944846+02:00",
-    "ProviderName": "Stroman, Feest and West"
+    "SelectionId": 158,
+    "Name": "Kuvalis, Emard and Gutkowski",
+    "TargetTable": "non",
+    "Registered": "2016-02-18T03:41:54.0744593+01:00",
+    "ProviderName": "Schowalter-Mueller"
   }
 ]
 ```

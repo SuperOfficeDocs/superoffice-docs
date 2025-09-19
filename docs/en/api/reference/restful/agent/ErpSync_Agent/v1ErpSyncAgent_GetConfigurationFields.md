@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 109
+  "ErpConnectorId": 179
 }
 ```
 
@@ -101,22 +101,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "tempora",
-    "Rank": 42,
-    "DisplayName": "Zboncak Inc and Sons",
-    "DisplayDescription": "Operative regional contingency",
+    "FieldKey": "delectus",
+    "Rank": 729,
+    "DisplayName": "Jacobs-Stehr",
+    "DisplayDescription": "Configurable national support",
     "FieldType": "Checkbox",
-    "ListName": "Davis-Boehm",
-    "DefaultValue": "consequatur",
-    "MaxLength": 925,
+    "ListName": "Heller, O'Hara and Cronin",
+    "DefaultValue": "omnis",
+    "MaxLength": 829,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 508
+        "FieldType": "System.String",
+        "FieldLength": 783
       }
     }
   }

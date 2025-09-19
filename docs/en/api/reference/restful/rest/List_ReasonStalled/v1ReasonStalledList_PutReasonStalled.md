@@ -79,16 +79,16 @@ OK
 PUT /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 962,
-  "Name": "McClure Inc and Sons",
-  "Tooltip": "voluptatum",
+  "Id": 976,
+  "Name": "Kreiger Group",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "UdListDefinitionId": 858,
-  "Rank": 296
+  "UdListDefinitionId": 352,
+  "Rank": 979
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 173,
-  "Name": "VonRueden-Abshire",
-  "Tooltip": "quis",
-  "Deleted": true,
-  "UdListDefinitionId": 332,
-  "Rank": 763,
+  "Id": 204,
+  "Name": "Kuhn Group",
+  "Tooltip": "explicabo",
+  "Deleted": false,
+  "UdListDefinitionId": 73,
+  "Rank": 73,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 141
+      "FieldType": "System.Int32",
+      "FieldLength": 908
     }
   }
 }

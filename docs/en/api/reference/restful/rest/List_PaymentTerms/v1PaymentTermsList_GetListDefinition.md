@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 922,
-  "Name": "Klein, Bailey and Pfannerstill",
-  "Tooltip": "consequatur",
+  "Id": 939,
+  "Name": "Yundt Inc and Sons",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 921,
-  "IsCustomList": false,
+  "Rank": 841,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "praesentium",
+  "ListType": "minus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 683
+      "FieldLength": 536
     }
   },
   "_Links": {

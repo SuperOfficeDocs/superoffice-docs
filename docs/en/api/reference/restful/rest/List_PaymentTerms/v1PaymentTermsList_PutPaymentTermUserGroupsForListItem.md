@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 24,
-    "Name": "Stracke-Shanahan",
-    "ToolTip": "Autem voluptates ut labore.",
-    "Deleted": true,
-    "Rank": 841,
-    "Type": "est",
-    "ColorBlock": 387,
-    "IconHint": "fuga",
+    "Id": 620,
+    "Name": "Rohan, Ryan and Collins",
+    "ToolTip": "Autem consequatur.",
+    "Deleted": false,
+    "Rank": 644,
+    "Type": "voluptate",
+    "ColorBlock": 226,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2024-07-10T03:47:00.6911718+02:00",
+    "LastChanged": "2017-12-08T03:41:59.4336101+01:00",
     "ChildItems": [
       {
-        "Id": 51,
-        "Name": "Towne-Lind",
-        "ToolTip": "Beatae magnam voluptatem esse.",
-        "Deleted": false,
-        "Rank": 727,
-        "Type": "et",
-        "ColorBlock": 948,
-        "IconHint": "hic",
+        "Id": 102,
+        "Name": "Hills, Koepp and Eichmann",
+        "ToolTip": "Non sint quam.",
+        "Deleted": true,
+        "Rank": 78,
+        "Type": "qui",
+        "ColorBlock": 796,
+        "IconHint": "veniam",
         "Selected": false,
-        "LastChanged": "2017-03-15T03:47:00.6911718+01:00",
+        "LastChanged": "2019-05-22T03:41:59.4336101+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "sed",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Sasha Simonis"
+        "FullName": "Jailyn Walker"
       }
     ],
-    "ExtraInfo": "blanditiis",
-    "StyleHint": "mollitia",
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "eius",
     "Hidden": true,
-    "FullName": "Antonina Cronin"
+    "FullName": "Dr. Monique Smith"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 660,
-    "Name": "Smith LLC",
-    "ToolTip": "Harum aut est veniam veniam nostrum.",
+    "Id": 755,
+    "Name": "Champlin-Olson",
+    "ToolTip": "Sint corrupti esse beatae dolores nisi ea fugiat.",
     "Deleted": false,
-    "Rank": 359,
-    "Type": "voluptas",
-    "ColorBlock": 279,
-    "IconHint": "ut",
-    "Selected": false,
-    "LastChanged": "2003-07-27T03:47:00.6911718+02:00",
+    "Rank": 769,
+    "Type": "quia",
+    "ColorBlock": 368,
+    "IconHint": "necessitatibus",
+    "Selected": true,
+    "LastChanged": "2019-06-16T03:41:59.4336101+02:00",
     "ChildItems": [
       {
-        "Id": 655,
-        "Name": "Mills-Mohr",
-        "ToolTip": "Sed nemo qui.",
-        "Deleted": false,
-        "Rank": 514,
-        "Type": "et",
-        "ColorBlock": 404,
-        "IconHint": "voluptas",
-        "Selected": true,
-        "LastChanged": "2014-02-15T03:47:00.6911718+01:00",
+        "Id": 848,
+        "Name": "Daugherty-Gorczany",
+        "ToolTip": "Accusamus aut beatae facere ipsa consequatur at et.",
+        "Deleted": true,
+        "Rank": 35,
+        "Type": "voluptas",
+        "ColorBlock": 324,
+        "IconHint": "est",
+        "Selected": false,
+        "LastChanged": "2019-08-17T03:41:59.4336101+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "in",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "nam",
         "Hidden": false,
-        "FullName": "Susan Wiza",
+        "FullName": "Maximillia Lakin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 777
+            "FieldType": "System.Int32",
+            "FieldLength": 978
           }
         }
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "vel",
-    "Hidden": false,
-    "FullName": "Mariela D'Amore",
+    "ExtraInfo": "adipisci",
+    "StyleHint": "recusandae",
+    "Hidden": true,
+    "FullName": "Immanuel Dorthy Fahey V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 266
+        "FieldLength": 367
       }
     }
   }

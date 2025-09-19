@@ -99,15 +99,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 380,
+  "SystemEventId": 984,
   "Scope": "Database",
-  "Eta": "1998-11-08T03:47:00.3005605+01:00",
-  "Eventkey": "voluptatem",
-  "Eventmess": "est",
-  "ExtraInfo": 131,
-  "Owner": 170,
-  "UpdatedCount": 136,
-  "Registered": "2008-10-25T03:47:00.3005605+02:00",
+  "Eta": "2006-04-07T03:41:59.0273773+02:00",
+  "Eventkey": "voluptas",
+  "Eventmess": "dolorem",
+  "ExtraInfo": 66,
+  "Owner": 941,
+  "UpdatedCount": 587,
+  "Registered": "2024-01-16T03:41:59.0273773+01:00",
   "ActivatedBy": null
 }
 ```
@@ -119,22 +119,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 443,
+  "SystemEventId": 215,
   "Scope": "Database",
-  "Eta": "2007-04-18T03:47:00.3005605+02:00",
-  "Eventkey": "commodi",
-  "Eventmess": "sunt",
-  "ExtraInfo": 823,
-  "Owner": 905,
-  "UpdatedCount": 46,
-  "Registered": "2004-08-24T03:47:00.3005605+02:00",
+  "Eta": "2006-01-15T03:41:59.0273773+01:00",
+  "Eventkey": "delectus",
+  "Eventmess": "est",
+  "ExtraInfo": 996,
+  "Owner": 991,
+  "UpdatedCount": 491,
+  "Registered": "2011-02-08T03:41:59.0273773+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 886
+      "FieldType": "System.Int32",
+      "FieldLength": 78
     }
   },
   "_Links": {

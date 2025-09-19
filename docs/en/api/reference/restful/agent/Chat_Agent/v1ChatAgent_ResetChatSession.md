@@ -110,7 +110,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 426
+  "ChatSessionId": 162
 }
 ```
 
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 417,
-  "TopicId": 199,
+  "ChatSessionId": 114,
+  "TopicId": 660,
   "User": null,
   "Person": null,
-  "CustomerAlias": "totam",
-  "CustomerHost": "illum",
-  "CustomerName": "McLaughlin-Kris",
-  "CustomerEmail": "carole@stokes.us",
-  "CustomerPhone": "538.429.5760",
+  "CustomerAlias": "blanditiis",
+  "CustomerHost": "quasi",
+  "CustomerName": "Franecki, Kunde and Beatty",
+  "CustomerEmail": "zoe@haag.com",
+  "CustomerPhone": "(960)926-3264",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Swift Inc and Sons",
+  "CustomerCompanyName": "Stark LLC",
   "Status": "Closed",
-  "FirstMessage": "nobis",
-  "LastMessage": "ut",
-  "WhenRequested": "2016-10-08T03:46:54.3788954+02:00",
-  "WhenStarted": "2017-01-25T03:46:54.3788954+01:00",
-  "WhenEnded": "2018-11-02T03:46:54.3788954+01:00",
-  "WhenIdle": "2014-01-25T03:46:54.3788954+01:00",
-  "WhenFetched": "2000-01-06T03:46:54.3788954+01:00",
-  "SessionKey": "tempora",
-  "InitialQueuePos": 746,
-  "AlertLevel": 873,
-  "Rank": 250,
+  "FirstMessage": "eius",
+  "LastMessage": "sed",
+  "WhenRequested": "2012-11-27T03:41:53.152624+01:00",
+  "WhenStarted": "2003-04-07T03:41:53.152624+02:00",
+  "WhenEnded": "2001-01-20T03:41:53.152624+01:00",
+  "WhenIdle": "2007-08-30T03:41:53.152624+02:00",
+  "WhenFetched": "2011-08-15T03:41:53.152624+02:00",
+  "SessionKey": "totam",
+  "InitialQueuePos": 14,
+  "AlertLevel": 463,
+  "Rank": 266,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -151,13 +151,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 27,
+  "Rating": 907,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldLength": 507
     }
   }
 }

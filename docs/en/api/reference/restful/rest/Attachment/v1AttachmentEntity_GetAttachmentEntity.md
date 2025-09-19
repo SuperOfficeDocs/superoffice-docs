@@ -91,20 +91,20 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 430,
-  "Name": "Brakus LLC",
-  "ContentType": "officia",
-  "AttSize": 968,
+  "AttachmentId": 274,
+  "Name": "Hauck, Gottlieb and Dach",
+  "ContentType": "recusandae",
+  "AttSize": 181,
   "InlineImage": true,
-  "ContentId": "doloribus",
-  "AuthKey": "sunt",
+  "ContentId": "adipisci",
+  "AuthKey": "omnis",
   "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 801
+      "FieldLength": 298
     }
   },
   "_Links": {

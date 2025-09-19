@@ -27,7 +27,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=874
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=534
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 845,
-  "Name": "Rath Inc and Sons",
-  "Tooltip": "consequuntur",
-  "SaveInDb": 489,
-  "Filename": "nisi",
-  "DefaultOref": "aut",
+  "DocumentTemplateId": 917,
+  "Name": "Schroeder-Heaney",
+  "Tooltip": "qui",
+  "SaveInDb": 711,
+  "Filename": "voluptas",
+  "DefaultOref": "fugit",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 542,
-  "IntentId": 790,
-  "IsDefaultPublished": true,
-  "Rank": 981,
-  "LoadTemplateFromPlugin": 54,
-  "MimeType": "et",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 677,
+  "AutoeventId": 453,
+  "IntentId": 233,
+  "IsDefaultPublished": false,
+  "Rank": 78,
+  "LoadTemplateFromPlugin": 211,
+  "MimeType": "ut",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 190,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "garrett_schamberger@schmeler.uk",
-  "IncludeSignature": true,
-  "ShowCurrents": true,
+  "EmailSubject": "terence.johnson@rowe.us",
+  "IncludeSignature": false,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "vivian_yundt@pacochaklocko.biz",
+  "SenderEmailAddress": "lucile.raynor@swift.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 301
+      "FieldType": "System.String",
+      "FieldLength": 291
     }
   }
 }

@@ -88,35 +88,35 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 623,
-  "Field": "in",
-  "RecordId": 920,
+  "RefCountsId": 517,
+  "Field": "debitis",
+  "RecordId": 538,
   "SuggestedRecords": [
     {
-      "Id": 972,
-      "Name": "Luettgen Group",
-      "ToolTip": "Optio dolorem sed sed.",
-      "Deleted": false,
-      "Rank": 224,
-      "Type": "necessitatibus",
+      "Id": 162,
+      "Name": "Bosco-Sawayn",
+      "ToolTip": "Quia ea.",
+      "Deleted": true,
+      "Rank": 296,
+      "Type": "quibusdam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sequi",
-      "ColorBlock": 199,
-      "ExtraInfo": "ut",
-      "StyleHint": "tempora",
-      "FullName": "Madeline Adams"
+      "IconHint": "sed",
+      "ColorBlock": 1001,
+      "ExtraInfo": "illum",
+      "StyleHint": "sunt",
+      "FullName": "Bryce Heller PhD"
     }
   ],
-  "CurrentValue": 53,
-  "TravelPrefix": 362,
-  "SatPrefix": 669,
-  "Allocate": false,
-  "Unique": true,
-  "ReadOnly": false,
-  "AllowBlank": true
+  "CurrentValue": 907,
+  "TravelPrefix": 786,
+  "SatPrefix": 843,
+  "Allocate": true,
+  "Unique": false,
+  "ReadOnly": true,
+  "AllowBlank": false
 }
 ```
 
@@ -127,49 +127,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 308,
-  "Field": "sequi",
-  "RecordId": 175,
+  "RefCountsId": 544,
+  "Field": "ut",
+  "RecordId": 263,
   "SuggestedRecords": [
     {
-      "Id": 677,
-      "Name": "Zulauf, Murazik and Kohler",
-      "ToolTip": "Ipsum aut asperiores repudiandae commodi odit voluptas.",
+      "Id": 804,
+      "Name": "Swift Inc and Sons",
+      "ToolTip": "Libero facere minus.",
       "Deleted": false,
-      "Rank": 197,
-      "Type": "dignissimos",
+      "Rank": 622,
+      "Type": "eum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aut",
-      "ColorBlock": 319,
-      "ExtraInfo": "est",
-      "StyleHint": "eligendi",
-      "FullName": "Kaycee Effertz",
+      "IconHint": "tempore",
+      "ColorBlock": 46,
+      "ExtraInfo": "aliquam",
+      "StyleHint": "ut",
+      "FullName": "Petra Williamson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 108
+          "FieldType": "System.Int32",
+          "FieldLength": 393
         }
       }
     }
   ],
-  "CurrentValue": 247,
-  "TravelPrefix": 392,
-  "SatPrefix": 345,
+  "CurrentValue": 111,
+  "TravelPrefix": 375,
+  "SatPrefix": 757,
   "Allocate": false,
   "Unique": false,
   "ReadOnly": false,
-  "AllowBlank": true,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 70
+      "FieldType": "System.Int32",
+      "FieldLength": 853
     }
   }
 }

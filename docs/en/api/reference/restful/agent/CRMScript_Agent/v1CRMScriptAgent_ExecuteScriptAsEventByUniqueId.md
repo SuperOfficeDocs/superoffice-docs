@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEventByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "asperiores",
+  "CRMScriptUniqueId": "impedit",
   "EventData": null
 }
 ```
@@ -111,42 +111,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "deserunt",
-    "InputValues2": "ea"
+    "InputValues1": "veritatis",
+    "InputValues2": "hic"
   },
   "BlockExecution": false,
-  "NavigateTo": "voluptatem",
-  "Message": "molestiae",
-  "ShowDialog": "vel",
+  "NavigateTo": "dicta",
+  "Message": "autem",
+  "ShowDialog": "odit",
   "OutputValues": {
-    "OutputValues1": "laudantium",
-    "OutputValues2": "fuga"
+    "OutputValues1": "ipsam",
+    "OutputValues2": "quia"
   },
   "StateValues": {
-    "StateValues1": "assumenda",
-    "StateValues2": "est"
+    "StateValues1": "est",
+    "StateValues2": "facere"
   },
   "Exception": "unde",
   "ParserValues": {
-    "ParserValues1": "soluta",
-    "ParserValues2": "repudiandae"
+    "ParserValues1": "perferendis",
+    "ParserValues2": "officia"
   },
   "CgiVariables": {
-    "CgiVariables1": "et",
-    "CgiVariables2": "rerum"
+    "CgiVariables1": "qui",
+    "CgiVariables2": "adipisci"
   },
-  "CgiContent": "rerum",
+  "CgiContent": "adipisci",
   "Headers": {
-    "Headers1": "nostrum",
-    "Headers2": "illo"
+    "Headers1": "quam",
+    "Headers2": "beatae"
   },
-  "TraceExecution": false,
+  "TraceExecution": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldLength": 40
     }
   }
 }

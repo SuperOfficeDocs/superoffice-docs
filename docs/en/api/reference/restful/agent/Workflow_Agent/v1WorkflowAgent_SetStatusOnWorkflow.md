@@ -74,7 +74,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 923,
+  "EmailFlowId": 39,
   "Status": "None"
 }
 ```

@@ -70,7 +70,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,56 +81,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 720,
-    "Name": "Armstrong-Yost",
-    "ToolTip": "Quod quibusdam consectetur.",
-    "Deleted": true,
-    "Rank": 223,
-    "Type": "consequatur",
-    "ColorBlock": 306,
-    "IconHint": "suscipit",
-    "Selected": true,
-    "LastChanged": "2013-11-09T03:47:00.4099317+01:00",
+    "Id": 46,
+    "Name": "Schmitt Inc and Sons",
+    "ToolTip": "Molestiae eaque velit.",
+    "Deleted": false,
+    "Rank": 838,
+    "Type": "voluptatem",
+    "ColorBlock": 867,
+    "IconHint": "unde",
+    "Selected": false,
+    "LastChanged": "2024-11-06T03:41:59.1836211+01:00",
     "ChildItems": [
       {
-        "Id": 926,
-        "Name": "Johnson-Stamm",
-        "ToolTip": "Suscipit vero et est vitae similique omnis dolorem.",
-        "Deleted": false,
-        "Rank": 359,
-        "Type": "provident",
-        "ColorBlock": 80,
-        "IconHint": "qui",
+        "Id": 691,
+        "Name": "Halvorson, Stracke and Crooks",
+        "ToolTip": "Rem voluptatem earum doloremque excepturi consectetur illo.",
+        "Deleted": true,
+        "Rank": 578,
+        "Type": "ad",
+        "ColorBlock": 61,
+        "IconHint": "iure",
         "Selected": false,
-        "LastChanged": "2019-09-23T03:47:00.4099317+02:00",
+        "LastChanged": "2013-12-28T03:41:59.1836211+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "molestias",
-        "Hidden": false,
-        "FullName": "Tanner O'Conner",
+        "ExtraInfo": "ullam",
+        "StyleHint": "velit",
+        "Hidden": true,
+        "FullName": "Miss Obie Robin Herman Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 878
+            "FieldLength": 641
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "eos",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Miss Justyn Okuneva",
+    "FullName": "Kyla Torp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 481
+        "FieldLength": 164
       }
     }
   }

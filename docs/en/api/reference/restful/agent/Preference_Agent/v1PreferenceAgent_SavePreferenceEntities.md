@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "quis",
+      "RawValue": "et",
       "Specification": null,
-      "DisplayValue": "natus",
-      "DisplayTooltip": "quisquam",
+      "DisplayValue": "aut",
+      "DisplayTooltip": "at",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 23,
-      "PrefDescId": 310,
-      "TableName": "Crist-Huels",
-      "UserPreferenceId": 409
+      "TargetId": 285,
+      "PrefDescId": 343,
+      "TableName": "Lubowitz LLC",
+      "UserPreferenceId": 583
     }
   ],
   "RemoveLowerLevels": false

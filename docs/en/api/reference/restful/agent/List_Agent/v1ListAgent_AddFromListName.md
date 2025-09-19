@@ -84,7 +84,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Baumbach, Paucek and Rippin",
+  "UdListDefinitionName": "Schamberger-Kihn",
   "Item": null
 }
 ```
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 114,
-  "Name": "Batz, Jacobi and Farrell",
-  "Tooltip": "ut",
+  "Id": 68,
+  "Name": "Block, Windler and Kozey",
+  "Tooltip": "saepe",
   "Deleted": true,
-  "UdListDefinitionId": 799,
-  "Rank": 760,
+  "UdListDefinitionId": 995,
+  "Rank": 494,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 204
+      "FieldType": "System.Int32",
+      "FieldLength": 758
     }
   }
 }

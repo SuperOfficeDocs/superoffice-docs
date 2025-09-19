@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,10 +100,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 553,
-  "StartDate": "2005-11-16T03:46:54.1445302+01:00",
-  "EndDate": "2005-09-20T03:46:54.1445302+02:00",
-  "RecurrenceCounter": 451,
+  "RecurrenceId": 318,
+  "StartDate": "2007-03-26T03:41:52.9341759+02:00",
+  "EndDate": "2009-12-05T03:41:52.9341759+01:00",
+  "RecurrenceCounter": 396,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -112,18 +112,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2010-09-24T03:46:54.1445302+02:00",
-      "IsConflict": true,
-      "Description": "Down-sized dynamic function",
-      "DescriptionStyleHint": "Face to face hybrid Graphic Interface",
-      "Tooltip": "distinctio"
+      "Date": "2004-02-04T03:41:52.9341759+01:00",
+      "IsConflict": false,
+      "Description": "Cross-platform 5th generation benchmark",
+      "DescriptionStyleHint": "Extended bi-directional extranet",
+      "Tooltip": "ut"
     },
     {
-      "Date": "2010-09-24T03:46:54.1445302+02:00",
-      "IsConflict": true,
-      "Description": "Down-sized dynamic function",
-      "DescriptionStyleHint": "Face to face hybrid Graphic Interface",
-      "Tooltip": "distinctio"
+      "Date": "2004-02-04T03:41:52.9341759+01:00",
+      "IsConflict": false,
+      "Description": "Cross-platform 5th generation benchmark",
+      "DescriptionStyleHint": "Extended bi-directional extranet",
+      "Tooltip": "ut"
     }
   ],
   "IsRecurrence": false

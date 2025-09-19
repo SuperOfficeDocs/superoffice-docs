@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 543,
-    "Name": "Rempel-Witting",
-    "Tooltip": "tempora",
+    "Id": 965,
+    "Name": "Kassulke Group",
+    "Tooltip": "voluptatibus",
     "Deleted": false,
-    "UdListDefinitionId": 735,
-    "Rank": 27
+    "UdListDefinitionId": 174,
+    "Rank": 888
   },
   {
-    "Id": 543,
-    "Name": "Rempel-Witting",
-    "Tooltip": "tempora",
+    "Id": 965,
+    "Name": "Kassulke Group",
+    "Tooltip": "voluptatibus",
     "Deleted": false,
-    "UdListDefinitionId": 735,
-    "Rank": 27
+    "UdListDefinitionId": 174,
+    "Rank": 888
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 987,
-    "Name": "Jacobi, Leffler and Block",
-    "Tooltip": "eaque",
-    "Deleted": true,
-    "UdListDefinitionId": 397,
-    "Rank": 673,
+    "Id": 776,
+    "Name": "Rice-Bins",
+    "Tooltip": "architecto",
+    "Deleted": false,
+    "UdListDefinitionId": 957,
+    "Rank": 39,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 999
+        "FieldType": "System.String",
+        "FieldLength": 972
       }
     }
   }

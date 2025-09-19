@@ -72,36 +72,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
-      "DefaultShowInGui": false,
+      "CanSupportMultiUse": false,
+      "DefaultShowInGui": true,
       "DefaultShowInSelector": false,
       "IsActive": false,
-      "Key": "blanditiis",
-      "ValueType": "asperiores",
-      "Mandatory": true,
-      "EncodedDisplayName": "Jacobs-Boehm",
-      "EncodedDisplayDescription": "Assimilated intangible firmware",
-      "IconHint": "dolor",
+      "Key": "similique",
+      "ValueType": "nemo",
+      "Mandatory": false,
+      "EncodedDisplayName": "Dickens-Runolfsson",
+      "EncodedDisplayDescription": "Diverse intangible algorithm",
+      "IconHint": "qui",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "velit",
-      "EncodedDataCaptionDescription": "Self-enabling optimizing pricing structure",
-      "CurrentOperationType": "commodi",
+      "EncodedDataCaption": "et",
+      "EncodedDataCaptionDescription": "Customer-focused directional Graphical User Interface",
+      "CurrentOperationType": "rerum",
       "Values": [
         "et",
-        "et"
+        "dolores"
       ],
       "DisplayValues": [
-        "maxime",
-        "nobis"
+        "non",
+        "et"
       ],
       "OperationInfos": [
         {},
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Bogisich-Abernathy",
-  "Context": "animi",
-  "Ids": "debitis"
+  "TableName": "Gottlieb, Stroman and Leffler",
+  "Context": "ex",
+  "Ids": "et"
 }
 ```
 
@@ -121,5 +121,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-576
+396
 ```

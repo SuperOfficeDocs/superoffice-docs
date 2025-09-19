@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 726,
-  "Name": "Hettinger-Quitzon",
-  "Tooltip": "magnam",
-  "Deleted": false,
-  "Rank": 517,
+  "Id": 126,
+  "Name": "Bernier, Johnston and D'Amore",
+  "Tooltip": "maxime",
+  "Deleted": true,
+  "Rank": 322,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "officiis",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "officia",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 110
+      "FieldType": "System.String",
+      "FieldLength": 465
     }
   },
   "_Links": {

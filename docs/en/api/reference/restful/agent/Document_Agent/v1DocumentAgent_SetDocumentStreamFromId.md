@@ -110,11 +110,11 @@ OK
 POST /api/v1/Agents/Document/SetDocumentStreamFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 682,
+  "DocumentId": 115,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -126,88 +126,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 503,
+  "DocumentId": 867,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "commodi",
-  "Header": "ullam",
-  "Name": "McKenzie-Doyle",
-  "OurRef": "aperiam",
-  "YourRef": "voluptatem",
-  "CreatedDate": "2009-12-21T03:46:54.6913844+01:00",
-  "UpdatedDate": "2003-04-20T03:46:54.6913844+02:00",
-  "Description": "Ergonomic optimizing moratorium",
+  "Attention": "molestiae",
+  "Header": "rerum",
+  "Name": "Lueilwitz Inc and Sons",
+  "OurRef": "unde",
+  "YourRef": "quis",
+  "CreatedDate": "2010-03-30T03:41:53.4494861+02:00",
+  "UpdatedDate": "2013-12-29T03:41:53.4494861+01:00",
+  "Description": "Multi-lateral discrete frame",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2022-05-06T03:46:54.707009+02:00",
-  "ExternalRef": "porro",
+  "Date": "1999-04-11T03:41:53.4494861+02:00",
+  "ExternalRef": "eum",
   "Completed": "Completed",
-  "ActiveLinks": 973,
+  "ActiveLinks": 490,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Macejkovic Group",
-      "Id": 143,
-      "Description": "Phased coherent product",
-      "ExtraInfo": "totam",
-      "LinkId": 942,
+      "EntityName": "Ward-Hettinger",
+      "Id": 746,
+      "Description": "User-centric dedicated support",
+      "ExtraInfo": "culpa",
+      "LinkId": 274,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 493
+          "FieldLength": 88
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 471,
-  "Snum": 963,
+  "SuggestedDocumentId": 557,
+  "Snum": 458,
   "UserDefinedFields": {
-    "SuperOffice:1": "Vena Fahey",
-    "SuperOffice:2": "Miss Eloy Spencer Stiedemann Sr."
+    "SuperOffice:1": "319422243",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "repellendus"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "voluptatum"
+    "CustomFields1": "earum",
+    "CustomFields2": "eveniet"
   },
-  "PublishEventDate": "2021-04-18T03:46:54.707009+02:00",
-  "PublishTo": "2024-10-22T03:46:54.707009+02:00",
-  "PublishFrom": "2005-01-25T03:46:54.707009+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "1999-07-30T03:41:53.4494861+02:00",
+  "PublishTo": "2014-11-08T03:41:53.4494861+01:00",
+  "PublishFrom": "2018-11-19T03:41:53.4494861+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 273,
+      "VisibleId": 754,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 423
+          "FieldType": "System.String",
+          "FieldLength": 887
         }
       }
     },
     {
-      "VisibleId": 273,
+      "VisibleId": 754,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 423
+          "FieldType": "System.String",
+          "FieldLength": 887
         }
       }
     }
@@ -216,8 +216,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 482
+      "FieldType": "System.String",
+      "FieldLength": 76
     }
   }
 }

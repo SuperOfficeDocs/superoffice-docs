@@ -75,7 +75,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,25 +87,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": true,
-    "Total": 337,
-    "Tooltip": "occaecati",
+    "Total": 600,
+    "Tooltip": "dolor",
     "CanAssign": false,
-    "Free": 475,
-    "InUse": 450,
+    "Free": 127,
+    "InUse": 325,
     "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 378,
-    "Name": "Murazik LLC",
-    "Description": "Ameliorated uniform solution",
-    "PrerequisiteModuleName": "Dibbert, Mitchell and Zulauf",
-    "SortOrder": 910,
-    "ExtraFlags": 638,
+    "ModuleLicenseId": 810,
+    "Name": "Nitzsche, Wisoky and Hudson",
+    "Description": "Monitored modular access",
+    "PrerequisiteModuleName": "Wisoky-Kessler",
+    "SortOrder": 318,
+    "ExtraFlags": 134,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 84
+        "FieldType": "System.Int32",
+        "FieldLength": 501
       }
     }
   }

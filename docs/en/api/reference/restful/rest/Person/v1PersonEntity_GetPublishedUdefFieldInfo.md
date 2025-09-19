@@ -94,7 +94,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 255,
-  "ColumnId": 215,
-  "FieldDefault": "ipsam",
-  "FieldHeight": 54,
-  "FieldLabel": "minima",
-  "FieldLeft": 96,
-  "FieldTop": 790,
+  "UDefFieldId": 29,
+  "ColumnId": 771,
+  "FieldDefault": "vel",
+  "FieldHeight": 49,
+  "FieldLabel": "quos",
+  "FieldLeft": 402,
+  "FieldTop": 781,
   "FieldType": "Checkbox",
-  "FieldWidth": 447,
-  "FormatMask": "exercitationem",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 875,
-  "LabelLeft": 855,
-  "LabelTop": 687,
-  "LabelWidth": 522,
-  "LastVersionId": 62,
-  "ListTableId": 863,
+  "FieldWidth": 623,
+  "FormatMask": "sit",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 284,
+  "LabelLeft": 607,
+  "LabelTop": 182,
+  "LabelWidth": 915,
+  "LastVersionId": 344,
+  "ListTableId": 145,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 367,
-  "ProgId": "qui",
+  "Page1LineNo": 866,
+  "ProgId": "in",
   "IsReadOnly": true,
-  "ShortLabel": "voluptas",
-  "TabOrder": 791,
-  "TextLength": 759,
-  "Tooltip": "sint",
-  "UdefIdentity": 90,
-  "UDListDefinitionId": 675,
+  "ShortLabel": "dolore",
+  "TabOrder": 816,
+  "TextLength": 907,
+  "Tooltip": "sed",
+  "UdefIdentity": 538,
+  "UDListDefinitionId": 475,
   "Justification": "Center",
-  "Version": 531,
-  "TemplateVariableName": "Brekke-Ward",
+  "Version": 755,
+  "TemplateVariableName": "Dare, Langworth and Brakus",
   "HasBeenPublished": false,
-  "MdoListName": "Osinski, Blick and Predovic",
+  "MdoListName": "Goodwin, Toy and Mitchell",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 176
+      "FieldType": "System.Int32",
+      "FieldLength": 729
     }
   }
 }

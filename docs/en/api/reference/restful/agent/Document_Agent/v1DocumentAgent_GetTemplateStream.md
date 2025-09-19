@@ -71,13 +71,13 @@ OK
 POST /api/v1/Agents/Document/GetTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Tromp-Towne",
-  "AllowPersonal": true,
-  "UiCulture": "labore"
+  "TemplateName": "Wiza LLC",
+  "AllowPersonal": false,
+  "UiCulture": "tempora"
 }
 ```
 

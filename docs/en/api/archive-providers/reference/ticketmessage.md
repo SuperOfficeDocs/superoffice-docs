@@ -860,7 +860,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticket/person/kanaFirstName,ticket/person/personUdef/SuperOffice:7,ticket/person/personAssociate/personId,ticket/contact/business,ticket/project/registeredByFullName
+GET /api/v1/archive/TicketMessage?$select=ticket/person/firstName,ticket/person/personUpdatedBy,ticket/person/supportLanguage,ticket/person/correspondingAssociate/portraitThumbnail,ticket/contact/contactExtra/x_contact_short_dropdown
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -67,7 +67,7 @@ OK
 GET /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,44 +78,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Sipes Inc and Sons",
-    "Operator": "est",
+    "Name": "Bernier-Mosciski",
+    "Operator": "fugiat",
     "Values": [
-      "qui",
-      "illum"
+      "et",
+      "nam"
     ],
     "DisplayValues": [
-      "occaecati",
-      "doloremque"
+      "consequuntur",
+      "aut"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Stiedemann Inc and Sons",
-        "Operator": "dolorum",
+        "Name": "Braun Group",
+        "Operator": "recusandae",
         "Values": [
-          "qui",
-          "voluptatem"
+          "voluptatem",
+          "qui"
         ],
         "DisplayValues": [
-          "numquam",
-          "reiciendis"
+          "aperiam",
+          "sed"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 12,
+        "InterParenthesis": 560,
         "InterOperator": "And",
-        "UniqueHash": 480
+        "UniqueHash": 741
       }
     ],
-    "InterParenthesis": 674,
+    "InterParenthesis": 296,
     "InterOperator": "And",
-    "UniqueHash": 196
+    "UniqueHash": 120
   }
 ]
 ```

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "ipsa"
+  "FileContent": "blanditiis"
 }
 ```
 
@@ -93,21 +93,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 607,
-      "NumberOfLicensesFree": 962,
-      "NumberOfLicensesAdded": 26,
-      "NumberOfLicensesNewTotal": 511,
-      "NumberOfLicensesNewFree": 546,
-      "NumberOfLicensesTotal": 557
+      "NumberOfLicensesInUse": 95,
+      "NumberOfLicensesFree": 880,
+      "NumberOfLicensesAdded": 460,
+      "NumberOfLicensesNewTotal": 595,
+      "NumberOfLicensesNewFree": 906,
+      "NumberOfLicensesTotal": 177
     }
   ],
-  "AccumulatedNextCheckDate": "2008-05-23T03:46:54.9107593+02:00"
+  "AccumulatedNextCheckDate": "2001-06-18T03:41:53.6057294+02:00"
 }
 ```

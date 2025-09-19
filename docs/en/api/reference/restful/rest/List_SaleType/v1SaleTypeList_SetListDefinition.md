@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 743,
-  "Name": "Barrows, Kutch and Keebler",
-  "Tooltip": "veritatis",
-  "Deleted": true,
-  "Rank": 220,
+  "Id": 883,
+  "Name": "Weissnat LLC",
+  "Tooltip": "sint",
+  "Deleted": false,
+  "Rank": 603,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "est",
+  "UseGroupsAndHeadings": false,
+  "ListType": "officiis",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 558,
-  "Name": "Hane-Schmitt",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 839,
+  "Id": 383,
+  "Name": "Witting, Altenwerth and Conn",
+  "Tooltip": "fugit",
+  "Deleted": true,
+  "Rank": 895,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "distinctio",
-  "InUseByUserDefinedFields": false,
+  "ListType": "et",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 962
+      "FieldLength": 537
     }
   }
 }

@@ -82,39 +82,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 4,
-  "Name": "Feeney, Altenwerth and Kris",
-  "Tooltip": "iure",
-  "Rank": 27,
+  "ProjTypeId": 815,
+  "Name": "Schuppe LLC",
+  "Tooltip": "explicabo",
+  "Rank": 934,
   "DurationUnit": "Century",
-  "ProjectDuration": 567,
+  "ProjectDuration": 44,
   "Deleted": false,
-  "HasGuide": true,
-  "IsAutoAdvance": false,
+  "HasGuide": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 396,
-      "Name": "Lind Inc and Sons",
-      "ToolTip": "Fugiat similique quam eos et ut.",
+      "Id": 387,
+      "Name": "Wintheiser-Hudson",
+      "ToolTip": "Aut numquam voluptatibus.",
       "Deleted": false,
-      "Rank": 868,
-      "Type": "voluptatem",
-      "ColorBlock": 207,
-      "IconHint": "natus",
+      "Rank": 394,
+      "Type": "numquam",
+      "ColorBlock": 266,
+      "IconHint": "consequuntur",
       "Selected": false,
-      "LastChanged": "2019-06-10T03:46:54.9413809+02:00",
+      "LastChanged": "2010-07-18T03:41:53.6213534+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aliquam",
-      "StyleHint": "et",
+      "ExtraInfo": "consequatur",
+      "StyleHint": "est",
       "Hidden": false,
-      "FullName": "Chadrick O'Keefe"
+      "FullName": "Ayden Kirlin Jr."
     }
   ]
 }
@@ -127,41 +127,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 832,
-  "Name": "Turner, Hirthe and Jakubowski",
-  "Tooltip": "voluptates",
-  "Rank": 929,
+  "ProjTypeId": 686,
+  "Name": "Larkin-Bruen",
+  "Tooltip": "velit",
+  "Rank": 549,
   "DurationUnit": "Century",
-  "ProjectDuration": 638,
+  "ProjectDuration": 703,
   "Deleted": true,
   "HasGuide": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 173,
-      "Name": "Sipes Inc and Sons",
-      "ToolTip": "Expedita ipsam.",
+      "Id": 297,
+      "Name": "Larson Group",
+      "ToolTip": "Nulla reprehenderit nemo amet dolorum saepe beatae.",
       "Deleted": true,
-      "Rank": 227,
-      "Type": "odio",
-      "ColorBlock": 528,
-      "IconHint": "dolores",
-      "Selected": false,
-      "LastChanged": "2005-03-15T03:46:54.9413809+01:00",
+      "Rank": 831,
+      "Type": "est",
+      "ColorBlock": 49,
+      "IconHint": "quis",
+      "Selected": true,
+      "LastChanged": "2011-12-04T03:41:53.6213534+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "magnam",
-      "StyleHint": "illo",
+      "ExtraInfo": "iste",
+      "StyleHint": "voluptatem",
       "Hidden": true,
-      "FullName": "Enid Ankunding",
+      "FullName": "Ms. Eloise Morar",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 776
+          "FieldLength": 447
         }
       }
     }
@@ -171,7 +171,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 364
+      "FieldLength": 284
     }
   }
 }

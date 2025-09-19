@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Position/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 950,
-  "Name": "Stehr LLC",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "UdListDefinitionId": 317,
-  "Rank": 827,
+  "Id": 343,
+  "Name": "Bauch-Gulgowski",
+  "Tooltip": "cupiditate",
+  "Deleted": false,
+  "UdListDefinitionId": 857,
+  "Rank": 425,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 482
+      "FieldType": "System.String",
+      "FieldLength": 707
     }
   }
 }

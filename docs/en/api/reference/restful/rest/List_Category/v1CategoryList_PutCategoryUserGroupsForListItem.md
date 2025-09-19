@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 306,
-    "Name": "Schaden-Greenfelder",
-    "ToolTip": "Molestiae reiciendis sed repellendus aspernatur sapiente.",
+    "Id": 752,
+    "Name": "O'Reilly-Ankunding",
+    "ToolTip": "Laborum error ratione.",
     "Deleted": false,
-    "Rank": 367,
-    "Type": "perspiciatis",
-    "ColorBlock": 584,
-    "IconHint": "sint",
-    "Selected": false,
-    "LastChanged": "2003-06-05T03:47:00.5818006+02:00",
+    "Rank": 214,
+    "Type": "et",
+    "ColorBlock": 573,
+    "IconHint": "consequatur",
+    "Selected": true,
+    "LastChanged": "2010-06-03T03:41:59.3554887+02:00",
     "ChildItems": [
       {
-        "Id": 871,
-        "Name": "Ebert Inc and Sons",
-        "ToolTip": "Temporibus omnis consequatur velit enim repellat voluptatibus.",
-        "Deleted": true,
-        "Rank": 324,
-        "Type": "accusantium",
-        "ColorBlock": 3,
-        "IconHint": "quo",
-        "Selected": false,
-        "LastChanged": "1998-06-26T03:47:00.5818006+02:00",
+        "Id": 10,
+        "Name": "Roob, Larson and Kunde",
+        "ToolTip": "Ea rerum voluptatum.",
+        "Deleted": false,
+        "Rank": 145,
+        "Type": "reiciendis",
+        "ColorBlock": 973,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2007-01-20T03:41:59.3554887+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Boris Williamson"
+        "ExtraInfo": "dolorem",
+        "StyleHint": "voluptas",
+        "Hidden": true,
+        "FullName": "Marquis Wunsch"
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "similique",
+    "ExtraInfo": "minima",
+    "StyleHint": "suscipit",
     "Hidden": false,
-    "FullName": "Kelly Schuster"
+    "FullName": "Lily Quitzon"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 121,
-    "Name": "Balistreri Inc and Sons",
-    "ToolTip": "Illum harum sunt aliquam enim nesciunt libero.",
+    "Id": 947,
+    "Name": "Huel-Purdy",
+    "ToolTip": "Ad aliquid accusantium autem laborum aut dolor et.",
     "Deleted": false,
-    "Rank": 661,
-    "Type": "eius",
-    "ColorBlock": 960,
-    "IconHint": "accusamus",
-    "Selected": true,
-    "LastChanged": "2019-08-16T03:47:00.5818006+02:00",
+    "Rank": 856,
+    "Type": "laboriosam",
+    "ColorBlock": 188,
+    "IconHint": "distinctio",
+    "Selected": false,
+    "LastChanged": "2011-12-02T03:41:59.3554887+01:00",
     "ChildItems": [
       {
-        "Id": 763,
-        "Name": "Johnston, Walker and Hoppe",
-        "ToolTip": "Excepturi eligendi et dolor non ut.",
-        "Deleted": false,
-        "Rank": 159,
-        "Type": "cumque",
-        "ColorBlock": 449,
-        "IconHint": "id",
-        "Selected": false,
-        "LastChanged": "2016-04-20T03:47:00.5818006+02:00",
+        "Id": 137,
+        "Name": "Schimmel Inc and Sons",
+        "ToolTip": "Iusto eum qui.",
+        "Deleted": true,
+        "Rank": 743,
+        "Type": "quia",
+        "ColorBlock": 167,
+        "IconHint": "laudantium",
+        "Selected": true,
+        "LastChanged": "2024-08-26T03:41:59.3554887+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Muhammad Rosenbaum",
+        "ExtraInfo": "quo",
+        "StyleHint": "sequi",
+        "Hidden": false,
+        "FullName": "Nikko Hamill",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 522
+            "FieldLength": 55
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "minima",
+    "ExtraInfo": "in",
+    "StyleHint": "amet",
     "Hidden": false,
-    "FullName": "Mozell Breitenberg",
+    "FullName": "Zita Cremin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 646
+        "FieldType": "System.String",
+        "FieldLength": 126
       }
     }
   }

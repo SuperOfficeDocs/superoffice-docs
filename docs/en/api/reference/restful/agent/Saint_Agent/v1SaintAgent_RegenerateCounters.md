@@ -110,37 +110,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 837,
-  "Name": "Davis-Monahan",
-  "AssociateId": 726,
-  "DetailsTable": 841,
-  "DetailsRecord": 874,
-  "IsSystemTask": true,
+  "Id": 634,
+  "Name": "Morissette-Sanford",
+  "AssociateId": 145,
+  "DetailsTable": 326,
+  "DetailsRecord": 361,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "non",
-    "ParameterObject2": "quis"
+    "ParameterObject1": "ut",
+    "ParameterObject2": "dicta"
   },
-  "LastStarted": "2024-10-21T03:46:55.2382402+02:00",
-  "Created": "2021-05-21T03:46:55.2382402+02:00",
-  "StartCount": 368,
-  "DatabaseSerialNumber": "902719",
-  "Context": "rerum",
-  "Result": "et",
+  "LastStarted": "2020-03-13T03:41:53.9807136+01:00",
+  "Created": "2019-03-07T03:41:53.9807136+01:00",
+  "StartCount": 907,
+  "DatabaseSerialNumber": "1423059",
+  "Context": "quod",
+  "Result": "voluptatum",
   "State": "All",
-  "Description": "Synchronised 4th generation throughput",
-  "Response": "cum",
-  "Request": "aliquid",
-  "ProgressDescription": "Universal assymetric help-desk",
-  "ProgressPercent": 252,
-  "FileName": "Cummerata, Ruecker and Tromp",
+  "Description": "Customer-focused optimizing policy",
+  "Response": "sunt",
+  "Request": "laboriosam",
+  "ProgressDescription": "Adaptive multi-state migration",
+  "ProgressPercent": 584,
+  "FileName": "Botsford LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 992
+      "FieldType": "System.Int32",
+      "FieldLength": 67
     }
   }
 }

@@ -235,6 +235,8 @@ items:
     href: appointmentagent/gettasklistitemsasync.md
   - name: GetUIDFromAppointmentIdAsync
     href: appointmentagent/getuidfromappointmentidasync.md
+  - name: GetVideoMeetingConnectedStateAsync
+    href: appointmentagent/getvideomeetingconnectedstateasync.md
   - name: MoveAsync
     href: appointmentagent/moveasync.md
   - name: MoveExtendedAsync
@@ -916,6 +918,8 @@ items:
     href: diagnosticsagent/getwebappusagesforperiodasync.md
   - name: LogViewStateAsync
     href: diagnosticsagent/logviewstateasync.md
+  - name: PerformTasksAfterCustomObjectTableCreatedAsync
+    href: diagnosticsagent/performtasksaftercustomobjecttablecreatedasync.md
   - name: PerformTasksAfterCustomObjectTableDeletedAsync
     href: diagnosticsagent/performtasksaftercustomobjecttabledeletedasync.md
   - name: PerformTasksAfterUpgradeAsync
@@ -2443,6 +2447,8 @@ items:
     href: personagent/getpersonasync.md
   - name: GetPersonEntityAsync
     href: personagent/getpersonentityasync.md
+  - name: GetPersonImageAsStreamAsync
+    href: personagent/getpersonimageasstreamasync.md
   - name: GetPersonImageAsync
     href: personagent/getpersonimageasync.md
   - name: GetPersonImagesAsync
@@ -2493,8 +2499,12 @@ items:
     href: personagent/setconsentasync.md
   - name: SetPersonImageAsync
     href: personagent/setpersonimageasync.md
+  - name: SetPersonImageFromStreamAsync
+    href: personagent/setpersonimagefromstreamasync.md
   - name: SetPersonRankAsync
     href: personagent/setpersonrankasync.md
+  - name: SetUtmCreatedPersonContactForFormSubmissionAsync
+    href: personagent/setutmcreatedpersoncontactforformsubmissionasync.md
   - name: TryAddPersonsToEmailFlowAsync
     href: personagent/tryaddpersonstoemailflowasync.md
   - name: UndeleteAsync
@@ -3190,6 +3200,8 @@ items:
     href: selectionagent/removeselectionmembersfromsearchasync.md
   - name: SaveBoardViewSettingsAsync
     href: selectionagent/saveboardviewsettingsasync.md
+  - name: SaveBoardViewSettingsForSelectionAndAssociateAsync
+    href: selectionagent/saveboardviewsettingsforselectionandassociateasync.md
   - name: SaveSelectionEntityAsync
     href: selectionagent/saveselectionentityasync.md
   - name: SetDuplicateRulesStatusAsync
@@ -3279,6 +3291,8 @@ items:
 - name: TicketAgent
   href: ticketagent/index.md
   items:
+  - name: AcceptTicketsAsync
+    href: ticketagent/acceptticketsasync.md
   - name: AddAttachmentsAsync
     href: ticketagent/addattachmentsasync.md
   - name: BatchForwardAsync
@@ -3511,6 +3525,8 @@ items:
     href: useragent/getaccessgatewayinfoasync.md
   - name: GetAccessTokenAsync
     href: useragent/getaccesstokenasync.md
+  - name: GetAllDataRightsAsync
+    href: useragent/getalldatarightsasync.md
   - name: GetAllFunctionalRightsAsync
     href: useragent/getallfunctionalrightsasync.md
   - name: GetAllRolesAsync

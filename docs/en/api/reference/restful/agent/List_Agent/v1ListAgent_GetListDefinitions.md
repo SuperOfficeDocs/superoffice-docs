@@ -87,7 +87,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Name": "Walsh LLC",
-    "Tooltip": "itaque",
-    "Deleted": false,
-    "Rank": 440,
+    "Id": 121,
+    "Name": "Tromp-Maggio",
+    "Tooltip": "at",
+    "Deleted": true,
+    "Rank": 988,
     "IsCustomList": false,
-    "IsMDOList": true,
-    "UseGroupsAndHeadings": false,
-    "ListType": "id",
-    "InUseByUserDefinedFields": true,
+    "IsMDOList": false,
+    "UseGroupsAndHeadings": true,
+    "ListType": "expedita",
+    "InUseByUserDefinedFields": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 752
+        "FieldLength": 609
       }
     }
   }

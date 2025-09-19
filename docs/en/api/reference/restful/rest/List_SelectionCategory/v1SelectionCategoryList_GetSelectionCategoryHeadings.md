@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 514,
-    "Name": "Pacocha-Corkery",
-    "Tooltip": "dicta",
+    "HeadingId": 25,
+    "Name": "Ryan-Krajcik",
+    "Tooltip": "optio",
     "Deleted": false,
-    "Rank": 505,
-    "UdListDefinitionId": 509,
+    "Rank": 828,
+    "UdListDefinitionId": 36,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 405
+        "FieldType": "System.Int32",
+        "FieldLength": 602
       }
     }
   }

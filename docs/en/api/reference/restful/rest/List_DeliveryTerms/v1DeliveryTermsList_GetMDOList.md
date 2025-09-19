@@ -27,8 +27,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
-GET /api/v1/List/DeliveryTerm/MDOItems?query=suscipit
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
+GET /api/v1/List/DeliveryTerm/MDOItems?query=aut
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 9,
-    "Name": "Green Group",
-    "ToolTip": "Reprehenderit earum tenetur.",
-    "Deleted": false,
-    "Rank": 640,
-    "Type": "velit",
+    "Id": 408,
+    "Name": "Jacobs Inc and Sons",
+    "ToolTip": "Quidem iste unde vero reprehenderit.",
+    "Deleted": true,
+    "Rank": 821,
+    "Type": "ipsum",
     "ChildItems": [
       {
-        "Id": 101,
-        "Name": "Sporer LLC",
-        "ToolTip": "Autem iste nemo quia magni iste.",
+        "Id": 686,
+        "Name": "Swaniawski, Emard and Kuhn",
+        "ToolTip": "Enim odio labore omnis sed tempore aut et.",
         "Deleted": false,
-        "Rank": 168,
-        "Type": "aut",
+        "Rank": 297,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sequi",
-        "ColorBlock": 52,
-        "ExtraInfo": "est",
-        "StyleHint": "itaque",
-        "FullName": "Clarissa Kulas",
+        "IconHint": "vel",
+        "ColorBlock": 877,
+        "ExtraInfo": "doloribus",
+        "StyleHint": "rerum",
+        "FullName": "Evelyn Thompson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 415
+            "FieldType": "System.Int32",
+            "FieldLength": 598
           }
         }
       }
     ],
-    "IconHint": "amet",
-    "ColorBlock": 24,
-    "ExtraInfo": "quo",
-    "StyleHint": "cum",
-    "FullName": "Mr. Horace Torp PhD",
+    "IconHint": "voluptatem",
+    "ColorBlock": 821,
+    "ExtraInfo": "rerum",
+    "StyleHint": "consequuntur",
+    "FullName": "Hyman Beer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 472
+        "FieldLength": 643
       }
     }
   }

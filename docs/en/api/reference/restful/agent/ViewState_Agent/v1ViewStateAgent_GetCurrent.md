@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/ViewState/GetCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Bartell LLC"
+  "HistoryName": "Jerde-Mann"
 }
 ```
 
@@ -97,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 141,
-  "Id": 716,
-  "HistoryName": "Mante Group",
-  "HistoryId": 730,
-  "AssociateId": 858,
-  "Name": "Welch, Pollich and Nolan",
-  "ItemInfo": "quia",
+  "Rank": 148,
+  "Id": 5,
+  "HistoryName": "Mosciski LLC",
+  "HistoryId": 986,
+  "AssociateId": 250,
+  "Name": "Kuhlman, Towne and Grimes",
+  "ItemInfo": "nulla",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 379
+      "FieldLength": 441
     }
   }
 }

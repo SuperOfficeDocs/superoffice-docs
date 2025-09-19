@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetCustomerServiceStartupByOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserId": 475
+  "UserId": 819
 }
 ```
 
@@ -93,27 +93,27 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TimezoneEnabled": false,
-  "TZOffset": 521,
-  "RecaptchaSiteKey": "et",
+  "TZOffset": 746,
+  "RecaptchaSiteKey": "perspiciatis",
   "SelectedPreferences": [
     {
       "Level": "Database",
-      "RawValue": "nam",
+      "RawValue": "consequatur",
       "Specification": null,
-      "DisplayValue": "illo",
-      "DisplayTooltip": "labore",
+      "DisplayValue": "nisi",
+      "DisplayTooltip": "molestiae",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 868,
-      "PrefDescId": 873,
-      "TableName": "Brown, Weimann and Pacocha",
-      "UserPreferenceId": 46,
+      "TargetId": 852,
+      "PrefDescId": 862,
+      "TableName": "Deckow-Kunze",
+      "UserPreferenceId": 115,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 574
+          "FieldType": "System.Int32",
+          "FieldLength": 183
         }
       }
     }
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 317
+      "FieldLength": 892
     }
   }
 }

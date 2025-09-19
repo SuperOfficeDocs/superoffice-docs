@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 67,
-    "Name": "Moore-Schulist",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 447,
-    "UdListDefinitionId": 179,
+    "HeadingId": 880,
+    "Name": "Berge Inc and Sons",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "Rank": 198,
+    "UdListDefinitionId": 542,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldLength": 85
       }
     }
   }

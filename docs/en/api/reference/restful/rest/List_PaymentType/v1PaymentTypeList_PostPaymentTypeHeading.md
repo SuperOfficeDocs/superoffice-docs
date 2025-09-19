@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 565,
-  "Name": "Greenfelder-Gottlieb",
-  "Tooltip": "minima",
-  "Deleted": true,
-  "Rank": 179,
-  "UdListDefinitionId": 370
+  "HeadingId": 41,
+  "Name": "Vandervort, Tillman and Huels",
+  "Tooltip": "quaerat",
+  "Deleted": false,
+  "Rank": 909,
+  "UdListDefinitionId": 96
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 402,
-  "Name": "Konopelski Group",
-  "Tooltip": "est",
+  "HeadingId": 681,
+  "Name": "O'Hara, Wolff and Eichmann",
+  "Tooltip": "voluptatum",
   "Deleted": true,
-  "Rank": 850,
-  "UdListDefinitionId": 675,
+  "Rank": 276,
+  "UdListDefinitionId": 8,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 380
+      "FieldType": "System.Int32",
+      "FieldLength": 190
     }
   }
 }

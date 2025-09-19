@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "nam",
-    "veritatis"
+    "debitis",
+    "tempore"
   ]
 }
 ```
@@ -95,82 +95,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "adipisci",
+    "Label": "sit",
     "Values": [
       {
-        "Label": "ipsa",
-        "Value": 19750.468,
-        "Description": "Assimilated incremental intranet",
+        "Label": "nisi",
+        "Value": 30594.108,
+        "Description": "Implemented multi-state pricing structure",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 142
+            "FieldLength": 41
           }
         }
       },
       {
-        "Label": "ipsa",
-        "Value": 19750.468,
-        "Description": "Assimilated incremental intranet",
+        "Label": "nisi",
+        "Value": 30594.108,
+        "Description": "Implemented multi-state pricing structure",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 142
+            "FieldLength": 41
           }
         }
       }
     ],
-    "Description": "Persevering secondary projection",
+    "Description": "Advanced systemic secured line",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 517
+        "FieldType": "System.String",
+        "FieldLength": 256
       }
     }
   },
   {
-    "Label": "adipisci",
+    "Label": "sit",
     "Values": [
       {
-        "Label": "ipsa",
-        "Value": 19750.468,
-        "Description": "Assimilated incremental intranet",
+        "Label": "nisi",
+        "Value": 30594.108,
+        "Description": "Implemented multi-state pricing structure",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 142
+            "FieldLength": 41
           }
         }
       },
       {
-        "Label": "ipsa",
-        "Value": 19750.468,
-        "Description": "Assimilated incremental intranet",
+        "Label": "nisi",
+        "Value": 30594.108,
+        "Description": "Implemented multi-state pricing structure",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 142
+            "FieldLength": 41
           }
         }
       }
     ],
-    "Description": "Persevering secondary projection",
+    "Description": "Advanced systemic secured line",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 517
+        "FieldType": "System.String",
+        "FieldLength": 256
       }
     }
   }

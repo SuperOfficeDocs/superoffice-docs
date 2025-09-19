@@ -73,10 +73,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SaleIds": [
-    143,
-    898
+    920,
+    533
   ],
-  "ReasonId": 739
+  "ReasonId": 261
 }
 ```
 

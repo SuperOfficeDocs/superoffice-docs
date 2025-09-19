@@ -28,7 +28,7 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=a
+GET /api/v1/List/Credited/MDOItems?query=aliquid
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 468,
-    "Name": "Orn Inc and Sons",
-    "ToolTip": "In illo iure doloremque et ratione numquam aut.",
+    "Id": 629,
+    "Name": "Yundt LLC",
+    "ToolTip": "Placeat totam.",
     "Deleted": false,
-    "Rank": 415,
-    "Type": "earum",
+    "Rank": 362,
+    "Type": "veritatis",
     "ChildItems": [
       {
-        "Id": 924,
-        "Name": "Hartmann-Glover",
-        "ToolTip": "Commodi atque aut unde nemo molestias recusandae.",
-        "Deleted": true,
-        "Rank": 707,
-        "Type": "laboriosam",
+        "Id": 264,
+        "Name": "Quitzon Inc and Sons",
+        "ToolTip": "Ut tenetur ipsam ut velit.",
+        "Deleted": false,
+        "Rank": 851,
+        "Type": "soluta",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sed",
-        "ColorBlock": 371,
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "molestiae",
-        "FullName": "Destin Parisian",
+        "IconHint": "et",
+        "ColorBlock": 953,
+        "ExtraInfo": "atque",
+        "StyleHint": "illo",
+        "FullName": "Eloisa Lysanne Gusikowski Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 618
+            "FieldType": "System.String",
+            "FieldLength": 678
           }
         }
       }
     ],
-    "IconHint": "eveniet",
-    "ColorBlock": 277,
-    "ExtraInfo": "molestiae",
-    "StyleHint": "sequi",
-    "FullName": "Dr. Carrie Kub V",
+    "IconHint": "nesciunt",
+    "ColorBlock": 467,
+    "ExtraInfo": "qui",
+    "StyleHint": "iusto",
+    "FullName": "Ella Hamill",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 420
+        "FieldType": "System.Int32",
+        "FieldLength": 797
       }
     }
   }

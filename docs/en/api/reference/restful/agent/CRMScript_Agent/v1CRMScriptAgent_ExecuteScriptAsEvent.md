@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 793,
+  "CRMScriptId": 409,
   "EventData": null
 }
 ```
@@ -111,34 +111,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "alias",
-    "InputValues2": "odit"
+    "InputValues1": "dolorum",
+    "InputValues2": "et"
   },
-  "BlockExecution": true,
-  "NavigateTo": "provident",
-  "Message": "laboriosam",
-  "ShowDialog": "at",
+  "BlockExecution": false,
+  "NavigateTo": "tempora",
+  "Message": "vitae",
+  "ShowDialog": "corrupti",
   "OutputValues": {
-    "OutputValues1": "velit",
-    "OutputValues2": "omnis"
+    "OutputValues1": "ratione",
+    "OutputValues2": "est"
   },
   "StateValues": {
-    "StateValues1": "veniam",
-    "StateValues2": "autem"
+    "StateValues1": "id",
+    "StateValues2": "molestiae"
   },
-  "Exception": "autem",
+  "Exception": "impedit",
   "ParserValues": {
-    "ParserValues1": "quibusdam",
-    "ParserValues2": "nemo"
+    "ParserValues1": "eos",
+    "ParserValues2": "rem"
   },
   "CgiVariables": {
-    "CgiVariables1": "voluptatem",
-    "CgiVariables2": "placeat"
+    "CgiVariables1": "blanditiis",
+    "CgiVariables2": "sunt"
   },
-  "CgiContent": "consequatur",
+  "CgiContent": "pariatur",
   "Headers": {
-    "Headers1": "qui",
-    "Headers2": "velit"
+    "Headers1": "at",
+    "Headers2": "aliquid"
   },
   "TraceExecution": false,
   "TableRight": null,
@@ -146,7 +146,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldLength": 219
     }
   }
 }

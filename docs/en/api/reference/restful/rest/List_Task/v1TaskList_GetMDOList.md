@@ -28,7 +28,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=qui
+GET /api/v1/List/Task/MDOItems?query=nobis
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 628,
-    "Name": "O'Keefe Inc and Sons",
-    "ToolTip": "Quia ex porro incidunt eaque corrupti.",
+    "Id": 95,
+    "Name": "Bosco Inc and Sons",
+    "ToolTip": "Quia optio rerum amet est ad dolor.",
     "Deleted": false,
-    "Rank": 152,
-    "Type": "autem",
+    "Rank": 824,
+    "Type": "excepturi",
     "ChildItems": [
       {
-        "Id": 41,
-        "Name": "Haag-Howe",
-        "ToolTip": "Necessitatibus autem.",
-        "Deleted": true,
-        "Rank": 533,
-        "Type": "quidem",
+        "Id": 991,
+        "Name": "Schowalter, Predovic and Kuphal",
+        "ToolTip": "Iste adipisci ullam.",
+        "Deleted": false,
+        "Rank": 619,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vero",
-        "ColorBlock": 395,
-        "ExtraInfo": "dolores",
-        "StyleHint": "quidem",
-        "FullName": "Tyson Kuhic",
+        "IconHint": "eos",
+        "ColorBlock": 956,
+        "ExtraInfo": "dolor",
+        "StyleHint": "quae",
+        "FullName": "Audie Osinski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 442
+            "FieldType": "System.Int32",
+            "FieldLength": 777
           }
         }
       }
     ],
-    "IconHint": "dolorum",
-    "ColorBlock": 64,
-    "ExtraInfo": "nostrum",
-    "StyleHint": "dolorum",
-    "FullName": "Miss Kaci Esmeralda Hodkiewicz DVM",
+    "IconHint": "earum",
+    "ColorBlock": 31,
+    "ExtraInfo": "est",
+    "StyleHint": "id",
+    "FullName": "Elisha Curtis Abshire I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 173
+        "FieldLength": 179
       }
     }
   }

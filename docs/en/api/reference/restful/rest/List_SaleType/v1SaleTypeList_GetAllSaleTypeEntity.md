@@ -89,7 +89,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,53 +100,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 690,
-    "Name": "Reinger Inc and Sons",
-    "Tooltip": "autem",
-    "Rank": 286,
+    "SaleTypeId": 840,
+    "Name": "Cummings Group",
+    "Tooltip": "magni",
+    "Rank": 691,
     "DurationUnit": "Century",
-    "SaleDuration": 992,
-    "SaleTypeCatId": 776,
+    "SaleDuration": 856,
+    "SaleTypeCatId": 689,
     "Deleted": false,
     "HasGuide": false,
-    "HasStakeholders": false,
-    "IsAutoAdvance": false,
+    "HasStakeholders": true,
+    "IsAutoAdvance": true,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 324,
-    "QuoteLinesTemplate": 806,
-    "ConfirmationLinesTemplate": 17,
-    "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 664,
-    "MinEarningPercent": 210,
-    "GroupQuoteLinesBy": 176,
-    "SortGroupLinesBy": 159,
+    "DefaultQuoteValidity": 475,
+    "QuoteLinesTemplate": 695,
+    "ConfirmationLinesTemplate": 36,
+    "MaxDiscountPercentSet": true,
+    "MinEarningPercentSet": true,
+    "MaxDiscountPercent": 505,
+    "MinEarningPercent": 347,
+    "GroupQuoteLinesBy": 526,
+    "SortGroupLinesBy": 137,
     "Stages": [
       {
-        "Id": 1001,
-        "Name": "Towne Inc and Sons",
-        "ToolTip": "Vitae neque quia sunt aut.",
-        "Deleted": true,
-        "Rank": 711,
-        "Type": "quisquam",
-        "ColorBlock": 496,
-        "IconHint": "veniam",
+        "Id": 885,
+        "Name": "Crist, Dibbert and Von",
+        "ToolTip": "Consequuntur soluta.",
+        "Deleted": false,
+        "Rank": 590,
+        "Type": "corrupti",
+        "ColorBlock": 723,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2024-10-28T03:47:00.8005429+01:00",
+        "LastChanged": "2003-10-03T03:41:59.6054711+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "facere",
-        "Hidden": true,
-        "FullName": "Loy Casper",
+        "ExtraInfo": "ut",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Unique Murray",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 542
+            "FieldLength": 545
           }
         }
       }
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 20
+        "FieldType": "System.Int32",
+        "FieldLength": 570
       }
     }
   }

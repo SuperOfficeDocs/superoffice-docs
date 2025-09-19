@@ -31,7 +31,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=False
+GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 799,
-    "Name": "Purdy-Cummings",
-    "ToolTip": "Exercitationem dolorem et iste ex sed.",
+    "Id": 540,
+    "Name": "Fay, McDermott and Pfannerstill",
+    "ToolTip": "Possimus recusandae sint quia.",
     "Deleted": false,
-    "Rank": 467,
-    "Type": "aliquam",
-    "ColorBlock": 128,
-    "IconHint": "tenetur",
+    "Rank": 442,
+    "Type": "et",
+    "ColorBlock": 374,
+    "IconHint": "enim",
     "Selected": false,
-    "LastChanged": "2011-09-14T03:47:00.5661762+02:00",
+    "LastChanged": "2020-08-24T03:41:59.3242422+02:00",
     "ChildItems": [
       {
-        "Id": 411,
-        "Name": "Kris Group",
-        "ToolTip": "Odio architecto aut qui molestiae.",
+        "Id": 32,
+        "Name": "Larkin Group",
+        "ToolTip": "Pariatur quam.",
         "Deleted": true,
-        "Rank": 765,
-        "Type": "similique",
-        "ColorBlock": 206,
-        "IconHint": "rerum",
-        "Selected": true,
-        "LastChanged": "2005-06-01T03:47:00.5661762+02:00",
+        "Rank": 384,
+        "Type": "omnis",
+        "ColorBlock": 977,
+        "IconHint": "quae",
+        "Selected": false,
+        "LastChanged": "2024-08-26T03:41:59.3242422+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "neque",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Tristin O'Kon",
+        "FullName": "Collin Kohler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 666
+            "FieldType": "System.String",
+            "FieldLength": 516
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "animi",
-    "Hidden": false,
-    "FullName": "Mr. Lucio Amalia Nienow",
+    "ExtraInfo": "fugit",
+    "StyleHint": "labore",
+    "Hidden": true,
+    "FullName": "Cassandre O'Hara",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 513
+        "FieldType": "System.Int32",
+        "FieldLength": 187
       }
     }
   }

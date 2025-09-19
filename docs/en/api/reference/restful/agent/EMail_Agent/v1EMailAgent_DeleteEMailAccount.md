@@ -28,7 +28,7 @@ Deletes the EMailAccount
 | eMailAccountId | int32 | **Required** The identity of the EMailAccount |
 
 ```http
-POST /api/v1/Agents/EMail/DeleteEMailAccount?eMailAccountId=50
+POST /api/v1/Agents/EMail/DeleteEMailAccount?eMailAccountId=3
 ```
 
 

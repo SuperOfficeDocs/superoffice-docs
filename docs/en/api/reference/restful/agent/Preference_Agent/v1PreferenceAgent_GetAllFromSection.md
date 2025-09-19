@@ -95,7 +95,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "aspernatur"
+  "Section": "omnis"
 }
 ```
 
@@ -107,30 +107,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 211,
-    "Section": "labore",
-    "Key": "ipsum",
-    "Name": "Farrell, Boehm and Hayes",
+    "PrefDescId": 239,
+    "Section": "molestiae",
+    "Key": "tempora",
+    "Name": "Nienow-Ondricka",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Digitized fresh-thinking analyzer",
+    "Description": "Quality-focused hybrid function",
     "IsBuiltin": false,
-    "TableName": "Ebert Inc and Sons",
-    "UserDefinedListId": 139,
-    "Rank": 759,
-    "SubGroup": "facilis",
-    "MinLevel": 798,
-    "MaxValue": 809,
-    "MinValue": 583,
-    "RequiredLicense": "ipsam",
+    "TableName": "Feest, Dicki and Hoppe",
+    "UserDefinedListId": 231,
+    "Rank": 229,
+    "SubGroup": "cum",
+    "MinLevel": 970,
+    "MaxValue": 314,
+    "MinValue": 403,
+    "RequiredLicense": "animi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 798
+        "FieldLength": 288
       }
     }
   }

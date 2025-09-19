@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Kautzer, Mayert and Medhurst",
-      "EntityOrParentId": 683,
-      "RequestForNewRecord": false
+      "EntityName": "Spinka-Parisian",
+      "EntityOrParentId": 125,
+      "RequestForNewRecord": true
     },
     {
-      "EntityName": "Kautzer, Mayert and Medhurst",
-      "EntityOrParentId": 683,
-      "RequestForNewRecord": false
+      "EntityName": "Spinka-Parisian",
+      "EntityOrParentId": 125,
+      "RequestForNewRecord": true
     }
   ]
 }
@@ -109,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 197,
-    "Id": 856,
-    "HistoryName": "Reichert, Considine and Cremin",
-    "HistoryId": 681,
-    "AssociateId": 259,
-    "Name": "Davis-Jaskolski",
-    "ItemInfo": "eum",
+    "Rank": 653,
+    "Id": 184,
+    "HistoryName": "Kertzmann-Schumm",
+    "HistoryId": 780,
+    "AssociateId": 51,
+    "Name": "Rodriguez Group",
+    "ItemInfo": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 287
+        "FieldLength": 818
       }
     }
   }

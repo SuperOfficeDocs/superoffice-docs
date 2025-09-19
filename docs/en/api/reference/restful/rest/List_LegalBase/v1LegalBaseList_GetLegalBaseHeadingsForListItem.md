@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 677,
-    "Name": "Baumbach, Nitzsche and Turner",
-    "ToolTip": "Cupiditate mollitia laudantium modi vel perferendis rem iure.",
-    "Deleted": false,
-    "Rank": 973,
-    "Type": "sint",
-    "ColorBlock": 512,
-    "IconHint": "veniam",
+    "Id": 177,
+    "Name": "Ernser, Kilback and Terry",
+    "ToolTip": "Occaecati in possimus itaque et dolore.",
+    "Deleted": true,
+    "Rank": 104,
+    "Type": "officiis",
+    "ColorBlock": 303,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2008-11-16T03:47:00.6755475+01:00",
+    "LastChanged": "2012-12-08T03:41:59.4336101+01:00",
     "ChildItems": [
       {
-        "Id": 674,
-        "Name": "Huels-Reilly",
-        "ToolTip": "Eaque maxime qui consequatur consequatur.",
-        "Deleted": false,
-        "Rank": 145,
-        "Type": "aliquid",
-        "ColorBlock": 460,
-        "IconHint": "quaerat",
+        "Id": 25,
+        "Name": "Schimmel Group",
+        "ToolTip": "Aut quae voluptate.",
+        "Deleted": true,
+        "Rank": 524,
+        "Type": "illo",
+        "ColorBlock": 297,
+        "IconHint": "exercitationem",
         "Selected": false,
-        "LastChanged": "2002-12-06T03:47:00.6755475+01:00",
+        "LastChanged": "1998-08-17T03:41:59.4336101+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "et",
+        "ExtraInfo": "ut",
+        "StyleHint": "cum",
         "Hidden": false,
-        "FullName": "Ms. Jaylin Muller III",
+        "FullName": "Jayce Hackett",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 74
+            "FieldType": "System.String",
+            "FieldLength": 449
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "minus",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "ab",
     "Hidden": true,
-    "FullName": "Rashad Beahan",
+    "FullName": "Cameron Molly Mayer III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 768
+        "FieldLength": 191
       }
     }
   }

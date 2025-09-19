@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Cartwright, Hessel and Dooley",
-  "ProviderName": "Barrows LLC"
+  "GuiName": "Gerlach Inc and Sons",
+  "ProviderName": "Crooks, Sawayn and Hickle"
 }
 ```
 
@@ -98,68 +98,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Hodkiewicz, Erdman and Hodkiewicz",
-      "DisplayTooltip": "est",
-      "DisplayType": "illum",
+      "DisplayName": "Ledner-Hane",
+      "DisplayTooltip": "dolore",
+      "DisplayType": "incidunt",
       "CanOrderBy": false,
-      "Name": "Howe Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "facere",
-      "RestrictionListName": "Price, Rutherford and Crona",
+      "Name": "Mante-Aufderhar",
+      "CanRestrictBy": true,
+      "RestrictionType": "quisquam",
+      "RestrictionListName": "Hoppe-O'Reilly",
       "IsVisible": false,
-      "ExtraInfo": "dolorem",
-      "Width": "iure",
-      "IconHint": "ipsam",
-      "HeadingIconHint": "enim"
+      "ExtraInfo": "quae",
+      "Width": "dignissimos",
+      "IconHint": "soluta",
+      "HeadingIconHint": "quaerat"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 995,
-      "Name": "Purdy LLC",
-      "ToolTip": "Minus officiis dolores.",
+      "Id": 278,
+      "Name": "Marvin, Miller and Renner",
+      "ToolTip": "Sed ea non beatae eius totam voluptatem.",
       "Deleted": false,
-      "Rank": 370,
-      "Type": "et",
-      "ColorBlock": 504,
-      "IconHint": "fugiat",
+      "Rank": 177,
+      "Type": "consectetur",
+      "ColorBlock": 736,
+      "IconHint": "aspernatur",
       "Selected": true,
-      "LastChanged": "2000-05-23T03:46:54.2851489+02:00",
+      "LastChanged": "2012-02-27T03:41:53.0588794+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "non",
-      "StyleHint": "quos",
+      "ExtraInfo": "atque",
+      "StyleHint": "veniam",
       "Hidden": false,
-      "FullName": "Ms. Callie Dovie Nitzsche II",
+      "FullName": "Mellie Koepp",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 137
+          "FieldType": "System.String",
+          "FieldLength": 613
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Green Group",
+      "Name": "Heathcote, Gulgowski and Ledner",
       "Direction": "ASC"
     },
     {
-      "Name": "Green Group",
+      "Name": "Heathcote, Gulgowski and Ledner",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "non",
+  "OwnerKeys": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 783
+      "FieldType": "System.Int32",
+      "FieldLength": 662
     }
   }
 }

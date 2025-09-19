@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 1002
+  "ProductId": 202
 }
 ```
 
@@ -101,25 +101,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 98,
-  "BlobSize": 148,
-  "Description": "Re-contextualized system-worthy info-mediaries",
-  "ExtraInfo": "id",
+  "BlobId": 850,
+  "BlobSize": 394,
+  "Description": "Assimilated empowering middleware",
+  "ExtraInfo": "sint",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "quae",
-  "OriginalSize": 9,
-  "CreatedDate": "1999-02-10T03:46:54.3163903+01:00",
-  "UpdatedDate": "2002-08-08T03:46:54.3163903+02:00",
+  "IsZipped": false,
+  "MimeType": "sint",
+  "OriginalSize": 171,
+  "CreatedDate": "2022-08-09T03:41:53.0901263+02:00",
+  "UpdatedDate": "2019-12-05T03:41:53.0901263+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "magni",
+  "ConceptualType": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 933
+      "FieldType": "System.Int32",
+      "FieldLength": 76
     }
   }
 }

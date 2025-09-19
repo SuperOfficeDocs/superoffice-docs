@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Person/GetPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 470
+  "PersonId": 765
 }
 ```
 
@@ -92,28 +92,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "sed",
-    "StrippedValue": "doloribus",
-    "Description": "Grass-roots holistic data-warehouse",
+    "Value": "sint",
+    "StrippedValue": "rerum",
+    "Description": "Adaptive 24 hour info-mediaries",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 70
+        "FieldLength": 760
       }
     }
   },
   {
-    "Value": "sed",
-    "StrippedValue": "doloribus",
-    "Description": "Grass-roots holistic data-warehouse",
+    "Value": "sint",
+    "StrippedValue": "rerum",
+    "Description": "Adaptive 24 hour info-mediaries",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 70
+        "FieldLength": 760
       }
     }
   }

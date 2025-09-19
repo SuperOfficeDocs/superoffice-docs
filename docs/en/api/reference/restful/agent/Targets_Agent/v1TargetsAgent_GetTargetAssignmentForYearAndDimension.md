@@ -90,11 +90,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 1000,
+  "TargetYear": 913,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 83,
-  "DimensionId": 820
+  "Id": 618,
+  "DimensionId": 507
 }
 ```
 
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 470,
+  "TargetAssignmentInfoId": 212,
   "Values": [
-    155,
-    520
+    546,
+    717
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 179,
-  "DimensionListItemDisplayName": "Nikolaus-Ebert",
+  "DimensionListItem": 901,
+  "DimensionListItemDisplayName": "Hackett Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 8
+      "FieldType": "System.Int32",
+      "FieldLength": 241
     }
   }
 }

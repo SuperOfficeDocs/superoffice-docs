@@ -68,7 +68,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,29 +78,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 97,
-  "Name": "Bogan-Kertzmann",
-  "CreatedDate": "2012-11-25T03:47:00.0193121+01:00",
-  "UpdatedDate": "2023-06-02T03:47:00.0193121+02:00",
+  "ForeignAppId": 333,
+  "Name": "Terry LLC",
+  "CreatedDate": "2016-11-29T03:41:58.7617712+01:00",
+  "UpdatedDate": "2006-11-15T03:41:58.7617712+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 97,
-      "Name": "Cummerata-Williamson",
-      "CreatedDate": "2020-03-24T03:47:00.0193121+01:00",
-      "UpdatedDate": "2013-07-19T03:47:00.0193121+02:00",
-      "AssociateFullName": "Hortense Reichert",
-      "CreatedBy": "et",
-      "UpdatedBy": "sit",
-      "DeviceIdentifier": "sunt",
-      "ForeignAppId": 334,
+      "ForeignDeviceId": 172,
+      "Name": "Macejkovic Group",
+      "CreatedDate": "2023-11-09T03:41:58.7617712+01:00",
+      "UpdatedDate": "2025-08-13T03:41:58.7617712+02:00",
+      "AssociateFullName": "Chester Herman",
+      "CreatedBy": "commodi",
+      "UpdatedBy": "facere",
+      "DeviceIdentifier": "tenetur",
+      "ForeignAppId": 104,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 265
+          "FieldType": "System.Int32",
+          "FieldLength": 377
         }
       }
     }
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 21
+      "FieldLength": 348
     }
   }
 }

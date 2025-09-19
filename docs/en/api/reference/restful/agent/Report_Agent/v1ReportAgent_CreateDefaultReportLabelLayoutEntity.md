@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 873,
-  "Name": "Steuber Group",
-  "Description": "Re-engineered heuristic matrix",
+  "ReportLabelLayoutId": 983,
+  "Name": "Kiehn LLC",
+  "Description": "Vision-oriented mobile website",
   "Orientation": "Landscape",
-  "PaperWidth": 705,
-  "PaperHeight": 611,
-  "LeftMargin": 276,
-  "RightMargin": 580,
-  "TopMargin": 924,
-  "BottomMargin": 635,
-  "CountColumns": 293,
-  "CountRows": 732,
+  "PaperWidth": 722,
+  "PaperHeight": 16,
+  "LeftMargin": 64,
+  "RightMargin": 775,
+  "TopMargin": 713,
+  "BottomMargin": 79,
+  "CountColumns": 247,
+  "CountRows": 794,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 560
+      "FieldType": "System.Int32",
+      "FieldLength": 758
     }
   }
 }

@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 52,
-  "Name": "Bailey, Moore and Breitenberg",
-  "Tooltip": "sint",
-  "Deleted": true,
-  "Rank": 394,
+  "Id": 61,
+  "Name": "Monahan Group",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 919,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "suscipit",
-  "InUseByUserDefinedFields": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "occaecati",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 825
+      "FieldLength": 734
     }
   },
   "_Links": {

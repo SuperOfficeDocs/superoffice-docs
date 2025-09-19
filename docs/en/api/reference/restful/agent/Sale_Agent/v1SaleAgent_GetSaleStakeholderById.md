@@ -92,13 +92,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    353,
-    612
+    634,
+    295
   ]
 }
 ```
@@ -111,31 +111,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Morissette-Ruecker",
-    "Comment": "qui",
-    "StakeholderRoleId": 697,
-    "CountryId": 81,
-    "PersonId": 286,
-    "EmailDescription": "alaina_will@schmitt.info",
-    "EmailId": 862,
-    "EmailAddress": "camryn@runtewolf.uk",
-    "PhoneId": 302,
-    "ContactName": "Zulauf, Hackett and Romaguera",
-    "ContactId": 352,
-    "SaleId": 595,
-    "Mrmrs": "aut",
-    "Firstname": "Oda",
-    "MiddleName": "Gutkowski Group",
-    "Lastname": "Thiel",
-    "SaleStakeholderId": 816,
-    "Rank": 102,
-    "Phone": "1-553-482-8464",
+    "StakeholderRoleName": "Hintz-Nolan",
+    "Comment": "tenetur",
+    "StakeholderRoleId": 932,
+    "CountryId": 402,
+    "PersonId": 504,
+    "EmailDescription": "anahi@howellwilderman.us",
+    "EmailId": 970,
+    "EmailAddress": "caroline.huel@collier.com",
+    "PhoneId": 974,
+    "ContactName": "Feest-Veum",
+    "ContactId": 805,
+    "SaleId": 142,
+    "Mrmrs": "eaque",
+    "Firstname": "Evangeline",
+    "MiddleName": "Hirthe-Labadie",
+    "Lastname": "VonRueden",
+    "SaleStakeholderId": 912,
+    "Rank": 261,
+    "Phone": "(320)341-7787",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 447
+        "FieldType": "System.String",
+        "FieldLength": 679
       }
     }
   }

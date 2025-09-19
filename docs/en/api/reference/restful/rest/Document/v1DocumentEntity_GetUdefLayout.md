@@ -91,7 +91,7 @@ OK
 GET /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 361,
-    "ColumnId": 392,
-    "FieldDefault": "qui",
-    "FieldHeight": 395,
-    "FieldLabel": "nemo",
-    "FieldLeft": 836,
-    "FieldTop": 784,
+    "UDefFieldId": 673,
+    "ColumnId": 395,
+    "FieldDefault": "aliquam",
+    "FieldHeight": 230,
+    "FieldLabel": "occaecati",
+    "FieldLeft": 185,
+    "FieldTop": 186,
     "FieldType": "Checkbox",
-    "FieldWidth": 107,
-    "FormatMask": "aut",
+    "FieldWidth": 601,
+    "FormatMask": "maiores",
     "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 305,
-    "LabelLeft": 554,
-    "LabelTop": 989,
-    "LabelWidth": 91,
-    "LastVersionId": 420,
-    "ListTableId": 69,
+    "LabelHeight": 683,
+    "LabelLeft": 70,
+    "LabelTop": 145,
+    "LabelWidth": 996,
+    "LastVersionId": 11,
+    "ListTableId": 36,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 803,
-    "ProgId": "enim",
+    "Page1LineNo": 113,
+    "ProgId": "quis",
     "IsReadOnly": true,
-    "ShortLabel": "harum",
-    "TabOrder": 188,
-    "TextLength": 756,
-    "Tooltip": "error",
-    "UdefIdentity": 69,
-    "UDListDefinitionId": 88,
+    "ShortLabel": "sed",
+    "TabOrder": 139,
+    "TextLength": 769,
+    "Tooltip": "aut",
+    "UdefIdentity": 754,
+    "UDListDefinitionId": 370,
     "Justification": "Center",
-    "Version": 275,
-    "TemplateVariableName": "Konopelski, Runolfsdottir and Borer",
-    "HasBeenPublished": true,
-    "MdoListName": "Dibbert-Carroll",
+    "Version": 9,
+    "TemplateVariableName": "Hayes, Reynolds and Yundt",
+    "HasBeenPublished": false,
+    "MdoListName": "Aufderhar, Jakubowski and Von",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 715
+        "FieldLength": 789
       }
     }
   }

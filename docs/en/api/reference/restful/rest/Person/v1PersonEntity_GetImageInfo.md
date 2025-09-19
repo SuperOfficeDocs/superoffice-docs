@@ -82,28 +82,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 28 Feb 2021 03:47:00 G2T
+Last-Modified: Fri, 08 Jan 1999 03:41:58 G1T
 
 {
-  "BlobId": 208,
-  "BlobSize": 202,
-  "Description": "Balanced client-server matrix",
-  "ExtraInfo": "voluptatem",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "consequuntur",
-  "OriginalSize": 478,
-  "CreatedDate": "2017-11-10T03:47:00.1599324+01:00",
-  "UpdatedDate": "2021-02-28T03:47:00.1599324+01:00",
+  "BlobId": 90,
+  "BlobSize": 104,
+  "Description": "Robust clear-thinking open system",
+  "ExtraInfo": "praesentium",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "inventore",
+  "OriginalSize": 780,
+  "CreatedDate": "2014-05-09T03:41:58.8398862+02:00",
+  "UpdatedDate": "1999-01-08T03:41:58.8398862+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aliquam",
+  "ConceptualType": "consectetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 521
+      "FieldType": "System.Int32",
+      "FieldLength": 362
     }
   }
 }

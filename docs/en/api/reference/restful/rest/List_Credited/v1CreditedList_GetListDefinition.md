@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 123,
-  "Name": "Padberg-Nolan",
-  "Tooltip": "eaque",
+  "Id": 356,
+  "Name": "Witting-Feest",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 611,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 194,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sint",
+  "ListType": "dolore",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldType": "System.String",
+      "FieldLength": 789
     }
   },
   "_Links": {

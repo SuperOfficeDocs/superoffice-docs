@@ -27,8 +27,8 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=doloremque
+GET /api/v1/List/PaymentTerm/MDOItems?flat=True
+GET /api/v1/List/PaymentTerm/MDOItems?query=reiciendis
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 690,
-    "Name": "Prosacco-Lindgren",
-    "ToolTip": "Iste quaerat consectetur numquam laboriosam suscipit qui.",
-    "Deleted": true,
-    "Rank": 946,
-    "Type": "odit",
+    "Id": 75,
+    "Name": "Heathcote-Mann",
+    "ToolTip": "Ut voluptas beatae dolores.",
+    "Deleted": false,
+    "Rank": 250,
+    "Type": "dolor",
     "ChildItems": [
       {
-        "Id": 190,
-        "Name": "Fisher Inc and Sons",
-        "ToolTip": "Molestiae commodi ut.",
+        "Id": 985,
+        "Name": "Mertz-Witting",
+        "ToolTip": "Consequatur a atque dignissimos rem doloremque.",
         "Deleted": false,
-        "Rank": 1000,
-        "Type": "nostrum",
+        "Rank": 966,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 692,
-        "ExtraInfo": "quasi",
-        "StyleHint": "sed",
-        "FullName": "Georgianna Mann",
+        "IconHint": "nihil",
+        "ColorBlock": 411,
+        "ExtraInfo": "quam",
+        "StyleHint": "quia",
+        "FullName": "Mrs. Alivia Emmanuelle Lindgren III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 966
+            "FieldType": "System.String",
+            "FieldLength": 673
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 764,
-    "ExtraInfo": "molestiae",
-    "StyleHint": "non",
-    "FullName": "Brendon Smitham",
+    "IconHint": "et",
+    "ColorBlock": 908,
+    "ExtraInfo": "et",
+    "StyleHint": "cupiditate",
+    "FullName": "Solon Harvey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 80
+        "FieldType": "System.Int32",
+        "FieldLength": 247
       }
     }
   }

@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Source
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 974,
-  "Name": "Volkman LLC",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 110,
+  "Id": 201,
+  "Name": "Kreiger Group",
+  "Tooltip": "dolores",
+  "Deleted": false,
+  "Rank": 62,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "repudiandae",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "labore",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 513
+      "FieldType": "System.Int32",
+      "FieldLength": 245
     }
   },
   "_Links": {

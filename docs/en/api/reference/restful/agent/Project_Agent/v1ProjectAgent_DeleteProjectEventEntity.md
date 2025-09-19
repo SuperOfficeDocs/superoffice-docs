@@ -26,7 +26,7 @@ Deletes the ProjectEventEntity
 | projectEventEntityId | int32 | **Required** The identity of the ProjectEventEntity |
 
 ```http
-POST /api/v1/Agents/Project/DeleteProjectEventEntity?projectEventEntityId=880
+POST /api/v1/Agents/Project/DeleteProjectEventEntity?projectEventEntityId=621
 ```
 
 
@@ -57,7 +57,7 @@ No Content
 POST /api/v1/Agents/Project/DeleteProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 172,
-    "Name": "Wiza Inc and Sons",
-    "Tooltip": "repellat",
+    "HeadingId": 237,
+    "Name": "Herman, Schamberger and Predovic",
+    "Tooltip": "minus",
     "Deleted": false,
-    "Rank": 831,
-    "UdListDefinitionId": 901
+    "Rank": 102,
+    "UdListDefinitionId": 141
   },
   {
-    "HeadingId": 172,
-    "Name": "Wiza Inc and Sons",
-    "Tooltip": "repellat",
+    "HeadingId": 237,
+    "Name": "Herman, Schamberger and Predovic",
+    "Tooltip": "minus",
     "Deleted": false,
-    "Rank": 831,
-    "UdListDefinitionId": 901
+    "Rank": 102,
+    "UdListDefinitionId": 141
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 375,
-    "Name": "Fisher LLC",
-    "Tooltip": "consequuntur",
-    "Deleted": true,
-    "Rank": 408,
-    "UdListDefinitionId": 961,
+    "HeadingId": 553,
+    "Name": "Harris-Morar",
+    "Tooltip": "ab",
+    "Deleted": false,
+    "Rank": 478,
+    "UdListDefinitionId": 156,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 65
+        "FieldType": "System.String",
+        "FieldLength": 213
       }
     }
   }

@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 887,
-    "Name": "Koepp-Mueller",
-    "ToolTip": "Voluptatem dolorum consectetur eos.",
-    "Deleted": true,
-    "Rank": 872,
-    "Type": "repudiandae",
-    "ColorBlock": 896,
-    "IconHint": "aut",
+    "Id": 124,
+    "Name": "Reichert Group",
+    "ToolTip": "Possimus sequi non saepe veniam.",
+    "Deleted": false,
+    "Rank": 769,
+    "Type": "cum",
+    "ColorBlock": 640,
+    "IconHint": "explicabo",
     "Selected": false,
-    "LastChanged": "2009-04-25T03:47:00.8161673+02:00",
+    "LastChanged": "2024-06-22T03:41:59.6054711+02:00",
     "ChildItems": [
       {
-        "Id": 921,
-        "Name": "Ward Group",
-        "ToolTip": "Recusandae possimus facere.",
+        "Id": 475,
+        "Name": "Schroeder-Hane",
+        "ToolTip": "Totam soluta saepe.",
         "Deleted": false,
-        "Rank": 360,
-        "Type": "cum",
-        "ColorBlock": 561,
-        "IconHint": "natus",
+        "Rank": 821,
+        "Type": "occaecati",
+        "ColorBlock": 384,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2010-08-17T03:47:00.8161673+02:00",
+        "LastChanged": "2015-12-20T03:41:59.6054711+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "cupiditate",
-        "Hidden": true,
-        "FullName": "Miss Mason Beatty DVM"
+        "ExtraInfo": "facilis",
+        "StyleHint": "ipsa",
+        "Hidden": false,
+        "FullName": "Tomasa Harris"
       }
     ],
-    "ExtraInfo": "asperiores",
-    "StyleHint": "omnis",
-    "Hidden": false,
-    "FullName": "Jude Harvey"
+    "ExtraInfo": "aut",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Rafaela Osinski"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 558,
-    "Name": "Schuppe, White and Hilpert",
-    "ToolTip": "Quis in.",
+    "Id": 723,
+    "Name": "Altenwerth-Hudson",
+    "ToolTip": "Ut molestiae non reiciendis quis.",
     "Deleted": true,
-    "Rank": 90,
-    "Type": "iure",
-    "ColorBlock": 275,
-    "IconHint": "velit",
-    "Selected": true,
-    "LastChanged": "2006-01-23T03:47:00.8161673+01:00",
+    "Rank": 281,
+    "Type": "aliquam",
+    "ColorBlock": 808,
+    "IconHint": "enim",
+    "Selected": false,
+    "LastChanged": "2011-12-21T03:41:59.6054711+01:00",
     "ChildItems": [
       {
-        "Id": 234,
-        "Name": "Maggio-McCullough",
-        "ToolTip": "Enim eum voluptatem vel rerum in ut dolor.",
+        "Id": 577,
+        "Name": "McLaughlin, Greenfelder and Mueller",
+        "ToolTip": "Sequi tenetur qui laudantium incidunt.",
         "Deleted": false,
-        "Rank": 405,
-        "Type": "molestias",
-        "ColorBlock": 136,
-        "IconHint": "accusantium",
-        "Selected": false,
-        "LastChanged": "2020-09-09T03:47:00.8161673+02:00",
+        "Rank": 753,
+        "Type": "rerum",
+        "ColorBlock": 432,
+        "IconHint": "repudiandae",
+        "Selected": true,
+        "LastChanged": "2003-08-29T03:41:59.6054711+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "dicta",
-        "Hidden": false,
-        "FullName": "Dovie Willms",
+        "ExtraInfo": "eius",
+        "StyleHint": "ipsa",
+        "Hidden": true,
+        "FullName": "Ophelia Jacobi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 834
+            "FieldLength": 212
           }
         }
       }
     ],
-    "ExtraInfo": "nam",
-    "StyleHint": "quia",
+    "ExtraInfo": "porro",
+    "StyleHint": "voluptate",
     "Hidden": false,
-    "FullName": "Mrs. Marguerite Romaguera",
+    "FullName": "Rashad Langworth",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 18
+        "FieldType": "System.Int32",
+        "FieldLength": 611
       }
     }
   }

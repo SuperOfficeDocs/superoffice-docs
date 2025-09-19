@@ -505,7 +505,7 @@ Lists all email flow Instances
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowInstances?$select=workflowInstanceLastCommunicationStatus,emailFlow/workflowAssociate/associateDbId,person/email/emailId,person/email/emailLastSent,person/correspondingAssociate/middleName
+GET /api/v1/archive/EmailFlowInstances?$select=getAllRows,emailFlow/workflowAssociate/otherGroups,person/personAddress/wgs84longitude,person/correspondingAssociate/simultaneousEjUser,contact/streetAddress/line1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

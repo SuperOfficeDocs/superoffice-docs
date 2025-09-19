@@ -80,12 +80,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 246,
-  "Name": "Dooley LLC",
-  "Tooltip": "dolorem",
+  "HeadingId": 865,
+  "Name": "Hamill, Deckow and Roberts",
+  "Tooltip": "alias",
   "Deleted": true,
-  "Rank": 768,
-  "UdListDefinitionId": 573
+  "Rank": 476,
+  "UdListDefinitionId": 740
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 186,
-  "Name": "McLaughlin Group",
-  "Tooltip": "sit",
-  "Deleted": false,
-  "Rank": 696,
-  "UdListDefinitionId": 835,
+  "HeadingId": 258,
+  "Name": "Rau Group",
+  "Tooltip": "ipsa",
+  "Deleted": true,
+  "Rank": 868,
+  "UdListDefinitionId": 425,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 234
+      "FieldType": "System.Int32",
+      "FieldLength": 706
     }
   }
 }

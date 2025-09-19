@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/License/GetUserAndInstallationLicenceStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 72
+  "AssociateId": 197
 }
 ```
 
@@ -92,14 +92,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AdminWarningDate": "2022-09-16T03:46:54.9107593+02:00",
-  "ExpiryDate": "2017-02-17T03:46:54.9107593+01:00",
-  "GraceDate": "2010-08-24T03:46:54.9107593+02:00",
-  "CompanyName": "Boehm, Hahn and Hand",
+  "AdminWarningDate": "2002-04-23T03:41:53.6057294+02:00",
+  "ExpiryDate": "2013-05-18T03:41:53.6057294+02:00",
+  "GraceDate": "2010-12-06T03:41:53.6057294+01:00",
+  "CompanyName": "VonRueden-Kulas",
   "SerialNr": "1010000006",
   "UserLicenses": [
-    "doloremque",
-    "dolor"
+    "similique",
+    "enim"
   ]
 }
 ```

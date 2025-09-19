@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 22,
-    "Name": "Parisian, Reinger and Kunde",
-    "ToolTip": "Voluptas expedita dolores eos.",
-    "Deleted": false,
-    "Rank": 946,
-    "Type": "natus",
-    "ColorBlock": 693,
-    "IconHint": "provident",
+    "Id": 524,
+    "Name": "Lockman-Auer",
+    "ToolTip": "Unde velit sequi tenetur quia assumenda placeat.",
+    "Deleted": true,
+    "Rank": 741,
+    "Type": "ea",
+    "ColorBlock": 608,
+    "IconHint": "dolor",
     "Selected": true,
-    "LastChanged": "2006-01-17T03:47:00.6442984+01:00",
+    "LastChanged": "2016-08-23T03:41:59.4023618+02:00",
     "ChildItems": [
       {
-        "Id": 323,
-        "Name": "Schuppe Group",
-        "ToolTip": "Aut exercitationem sapiente ut aut qui nulla distinctio.",
+        "Id": 674,
+        "Name": "Lesch, Boehm and Becker",
+        "ToolTip": "Ratione ducimus perferendis ut nostrum officiis voluptas rerum.",
         "Deleted": true,
-        "Rank": 764,
-        "Type": "nisi",
-        "ColorBlock": 232,
-        "IconHint": "atque",
+        "Rank": 62,
+        "Type": "totam",
+        "ColorBlock": 887,
+        "IconHint": "quod",
         "Selected": true,
-        "LastChanged": "2014-11-08T03:47:00.6442984+01:00",
+        "LastChanged": "2009-04-15T03:41:59.4023618+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "reiciendis",
+        "ExtraInfo": "debitis",
+        "StyleHint": "quibusdam",
         "Hidden": false,
-        "FullName": "Electa Gusikowski"
+        "FullName": "Esperanza Schoen"
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "aut",
+    "ExtraInfo": "quis",
+    "StyleHint": "laudantium",
     "Hidden": false,
-    "FullName": "Joel Herzog"
+    "FullName": "Alfreda Eichmann"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 918,
-    "Name": "Goyette LLC",
-    "ToolTip": "Ut tempore.",
+    "Id": 794,
+    "Name": "Lind Group",
+    "ToolTip": "Quia molestiae est libero autem sunt.",
     "Deleted": false,
-    "Rank": 979,
-    "Type": "et",
-    "ColorBlock": 665,
-    "IconHint": "sunt",
-    "Selected": false,
-    "LastChanged": "2017-09-03T03:47:00.6442984+02:00",
+    "Rank": 961,
+    "Type": "voluptatem",
+    "ColorBlock": 78,
+    "IconHint": "repellendus",
+    "Selected": true,
+    "LastChanged": "2019-07-28T03:41:59.4023618+02:00",
     "ChildItems": [
       {
-        "Id": 693,
-        "Name": "Nienow-DuBuque",
-        "ToolTip": "Iste est odit et sed.",
+        "Id": 511,
+        "Name": "Nolan LLC",
+        "ToolTip": "Eveniet rerum qui est tempora laboriosam impedit hic.",
         "Deleted": false,
-        "Rank": 528,
-        "Type": "eligendi",
-        "ColorBlock": 520,
-        "IconHint": "velit",
+        "Rank": 558,
+        "Type": "voluptatem",
+        "ColorBlock": 790,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2005-03-02T03:47:00.6442984+01:00",
+        "LastChanged": "2007-01-26T03:41:59.4023618+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Ms. Gunner Schneider V",
+        "ExtraInfo": "neque",
+        "StyleHint": "vel",
+        "Hidden": false,
+        "FullName": "Brittany Klein",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 630
+            "FieldType": "System.String",
+            "FieldLength": 517
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "in",
+    "ExtraInfo": "quasi",
+    "StyleHint": "laboriosam",
     "Hidden": true,
-    "FullName": "Melisa Dietrich",
+    "FullName": "Prof. Richie Chesley Brown",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 182
+        "FieldLength": 60
       }
     }
   }

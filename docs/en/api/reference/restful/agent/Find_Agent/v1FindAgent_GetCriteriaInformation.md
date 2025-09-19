@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolor",
-  "ProviderName": "Rutherford-Breitenberg",
-  "StorageKey": "enim",
+  "StorageType": "rem",
+  "ProviderName": "Cole-Kertzmann",
+  "StorageKey": "quia",
   "StaticColumns": [
-    "nisi",
+    "sed",
     "et"
   ]
 }
@@ -105,15 +105,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Heller Group",
-      "Operator": "ea",
+      "Name": "Graham, O'Connell and Hane",
+      "Operator": "alias",
       "Values": [
-        "dolorem",
-        "et"
+        "adipisci",
+        "deleniti"
       ],
       "DisplayValues": [
-        "recusandae",
-        "voluptatem"
+        "accusantium",
+        "quis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -121,65 +121,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 273,
+      "InterParenthesis": 94,
       "InterOperator": "And",
-      "UniqueHash": 4
+      "UniqueHash": 867
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Considine-Kautzer",
-      "DisplayTooltip": "aut",
-      "DisplayType": "quasi",
+      "DisplayName": "Blick Group",
+      "DisplayTooltip": "vitae",
+      "DisplayType": "ab",
       "CanOrderBy": true,
-      "Name": "Connelly, O'Keefe and Keeling",
-      "CanRestrictBy": false,
-      "RestrictionType": "atque",
-      "RestrictionListName": "Becker, Flatley and Lynch",
+      "Name": "Hand LLC",
+      "CanRestrictBy": true,
+      "RestrictionType": "corrupti",
+      "RestrictionListName": "Mann-Langworth",
       "IsVisible": false,
-      "ExtraInfo": "aut",
-      "Width": "possimus",
-      "IconHint": "incidunt",
-      "HeadingIconHint": "aut"
+      "ExtraInfo": "molestiae",
+      "Width": "officiis",
+      "IconHint": "sunt",
+      "HeadingIconHint": "eaque"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Kihn Group",
-      "PrimaryKey": 950,
+      "EntityName": "Russel-Mohr",
+      "PrimaryKey": 394,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "enim",
-          "TooltipHint": "voluptate",
-          "LinkHint": "nostrum"
+          "DisplayValue": "accusamus",
+          "TooltipHint": "quos",
+          "LinkHint": "deserunt"
         }
       },
-      "LinkHint": "deserunt",
-      "StyleHint": "temporibus",
+      "LinkHint": "nihil",
+      "StyleHint": "tempore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 548
+          "FieldType": "System.Int32",
+          "FieldLength": 257
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Schmitt, Haley and Davis",
-      "Description": "Decentralized human-resource collaboration",
-      "Rank": 468,
+      "Name": "Lang-Stroman",
+      "Description": "Self-enabling intermediate migration",
+      "Rank": 1000,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schmitt, Haley and Davis",
-      "Description": "Decentralized human-resource collaboration",
-      "Rank": 468,
+      "Name": "Lang-Stroman",
+      "Description": "Self-enabling intermediate migration",
+      "Rank": 1000,
       "Restrictions": [
         {},
         {}
@@ -191,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldLength": 180
     }
   }
 }

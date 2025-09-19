@@ -76,8 +76,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "odio",
-  "ProviderName": "Witting, Ankunding and Mayert"
+  "StorageType": "quidem",
+  "ProviderName": "Welch-Rempel"
 }
 ```
 
@@ -88,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "impedit",
-  "magni"
+  "perspiciatis",
+  "at"
 ]
 ```

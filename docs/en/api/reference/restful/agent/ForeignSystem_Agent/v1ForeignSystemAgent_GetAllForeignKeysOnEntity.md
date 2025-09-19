@@ -72,12 +72,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAllForeignKeysOnEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityType": "qui",
-  "EntityId": 977
+  "EntityType": "sit",
+  "EntityId": 163
 }
 ```
 
@@ -88,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "voluptatem",
-  "2": "deleniti"
+  "1": "eligendi",
+  "2": "voluptates"
 }
 ```

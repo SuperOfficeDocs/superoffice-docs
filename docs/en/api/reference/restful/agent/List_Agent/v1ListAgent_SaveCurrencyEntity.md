@@ -76,16 +76,16 @@ OK
 POST /api/v1/Agents/List/SaveCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 903,
-  "Name": "Legros, Greenfelder and Bogisich",
-  "Tooltip": "quam",
-  "Rank": 160,
-  "Rate": 19192.615999999998,
-  "Units": 15278.25,
+  "CurrencyId": 544,
+  "Name": "Bauch LLC",
+  "Tooltip": "tempore",
+  "Rank": 804,
+  "Rate": 20775.286,
+  "Units": 6365.1539999999995,
   "Deleted": false
 }
 ```
@@ -97,19 +97,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 232,
-  "Name": "Boyer, Braun and Bashirian",
-  "Tooltip": "atque",
-  "Rank": 740,
-  "Rate": 203.70999999999998,
-  "Units": 21718.62,
+  "CurrencyId": 980,
+  "Name": "Mann, O'Connell and Goyette",
+  "Tooltip": "sed",
+  "Rank": 9,
+  "Rate": 6722.4299999999994,
+  "Units": 16124.43,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 397
+      "FieldType": "System.String",
+      "FieldLength": 38
     }
   }
 }

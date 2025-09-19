@@ -82,12 +82,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 498,
-  "Name": "Green Inc and Sons",
-  "Tooltip": "quam",
+  "HeadingId": 10,
+  "Name": "Hettinger Inc and Sons",
+  "Tooltip": "blanditiis",
   "Deleted": false,
-  "Rank": 787,
-  "UdListDefinitionId": 485
+  "Rank": 505,
+  "UdListDefinitionId": 445
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 157,
-  "Name": "Jones-Fisher",
-  "Tooltip": "saepe",
+  "HeadingId": 427,
+  "Name": "Gutkowski, Feest and Weimann",
+  "Tooltip": "amet",
   "Deleted": false,
-  "Rank": 417,
-  "UdListDefinitionId": 885,
+  "Rank": 196,
+  "UdListDefinitionId": 509,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 196
+      "FieldType": "System.String",
+      "FieldLength": 480
     }
   }
 }

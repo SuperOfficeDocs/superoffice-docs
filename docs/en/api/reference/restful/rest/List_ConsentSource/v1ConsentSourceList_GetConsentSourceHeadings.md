@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 250,
-    "Name": "Pfeffer LLC",
-    "Tooltip": "ad",
+    "HeadingId": 813,
+    "Name": "Nitzsche LLC",
+    "Tooltip": "deserunt",
     "Deleted": true,
-    "Rank": 647,
-    "UdListDefinitionId": 663,
+    "Rank": 926,
+    "UdListDefinitionId": 439,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 590
+        "FieldType": "System.Int32",
+        "FieldLength": 763
       }
     }
   }

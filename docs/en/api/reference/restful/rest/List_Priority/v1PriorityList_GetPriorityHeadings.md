@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 949,
-    "Name": "Murphy Inc and Sons",
-    "Tooltip": "delectus",
-    "Deleted": true,
-    "Rank": 969,
-    "UdListDefinitionId": 364,
+    "HeadingId": 385,
+    "Name": "Daugherty, Morar and Ullrich",
+    "Tooltip": "nobis",
+    "Deleted": false,
+    "Rank": 432,
+    "UdListDefinitionId": 834,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 144
+        "FieldLength": 267
       }
     }
   }

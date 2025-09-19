@@ -27,8 +27,8 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SelectionCategory/MDOItems?flat=True
-GET /api/v1/List/SelectionCategory/MDOItems?query=similique
+GET /api/v1/List/SelectionCategory/MDOItems?flat=False
+GET /api/v1/List/SelectionCategory/MDOItems?query=fugit
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 844,
-    "Name": "Kuhn LLC",
-    "ToolTip": "Omnis maiores sed porro libero.",
+    "Id": 623,
+    "Name": "Sawayn Inc and Sons",
+    "ToolTip": "Ea labore.",
     "Deleted": false,
-    "Rank": 941,
-    "Type": "nam",
+    "Rank": 322,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 976,
-        "Name": "Price-Jenkins",
-        "ToolTip": "Modi quos expedita eum laudantium.",
-        "Deleted": true,
-        "Rank": 874,
-        "Type": "cum",
+        "Id": 754,
+        "Name": "Parisian, Bartell and Smitham",
+        "ToolTip": "Tenetur aliquam earum voluptas quibusdam quasi et adipisci.",
+        "Deleted": false,
+        "Rank": 718,
+        "Type": "sint",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "itaque",
-        "ColorBlock": 124,
-        "ExtraInfo": "nam",
-        "StyleHint": "adipisci",
-        "FullName": "Breana Royal Macejkovic PhD",
+        "IconHint": "incidunt",
+        "ColorBlock": 832,
+        "ExtraInfo": "corrupti",
+        "StyleHint": "cupiditate",
+        "FullName": "Mr. Callie Kennedy Kilback II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 54
+            "FieldLength": 701
           }
         }
       }
     ],
-    "IconHint": "non",
-    "ColorBlock": 21,
-    "ExtraInfo": "perferendis",
-    "StyleHint": "quisquam",
-    "FullName": "Dr. Rosetta Kilback",
+    "IconHint": "ut",
+    "ColorBlock": 901,
+    "ExtraInfo": "natus",
+    "StyleHint": "qui",
+    "FullName": "Ms. Yasmin Elmo Kemmer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 848
+        "FieldType": "System.String",
+        "FieldLength": 681
       }
     }
   }

@@ -120,12 +120,12 @@ Content-Type: application/json; charset=utf-8
 {
   "ContactPersonIds": [
     {
-      "PersonId": 97,
-      "ContactId": 357
+      "PersonId": 125,
+      "ContactId": 65
     },
     {
-      "PersonId": 97,
-      "ContactId": 357
+      "PersonId": 125,
+      "ContactId": 65
     }
   ]
 }
@@ -138,70 +138,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Programmable motivating algorithm",
-  "Postit": "sed",
+  "Description": "Exclusive upward-trending knowledge user",
+  "Postit": "doloribus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 920,
-  "IncludePerson": 117,
+  "GroupIdx": 744,
+  "IncludePerson": 895,
   "MemberCount": 99.99,
-  "Name": "Stracke-Thompson",
-  "PostitTextId": 725,
-  "CreatedDate": "2021-01-21T03:46:55.3163674+01:00",
-  "SelectionId": 994,
-  "SoundEx": "pariatur",
-  "Source": 888,
-  "TextId": 757,
-  "UpdatedDate": "2005-06-19T03:46:55.3163674+02:00",
-  "UpdatedCount": 443,
-  "Visibility": 882,
+  "Name": "Goldner-Casper",
+  "PostitTextId": 43,
+  "CreatedDate": "2017-12-01T03:41:54.0432111+01:00",
+  "SelectionId": 732,
+  "SoundEx": "dolorem",
+  "Source": 636,
+  "TextId": 457,
+  "UpdatedDate": "2021-03-20T03:41:54.0432111+01:00",
+  "UpdatedCount": 408,
+  "Visibility": 807,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 577,
-  "TargetTableName": "Lakin Inc and Sons",
+  "CompanyUnique": false,
+  "TargetTableNumber": 109,
+  "TargetTableName": "Rohan LLC",
   "Completed": false,
-  "LeftSelectionId": 259,
-  "RightSelectionId": 352,
+  "LeftSelectionId": 598,
+  "RightSelectionId": 703,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Reilly Group",
-  "ShadowProviderName": "Hermann-Huels",
-  "ChartKey": "sed",
-  "LastLoaded": "2009-03-10T03:46:55.3163674+01:00",
-  "LastLoadedBy": 961,
+  "MainProviderName": "Huels, Heaney and Crona",
+  "ShadowProviderName": "Conn Inc and Sons",
+  "ChartKey": "occaecati",
+  "LastLoaded": "2018-08-23T03:41:54.0432111+02:00",
+  "LastLoadedBy": 47,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2000-06-18T03:46:55.3163674+02:00",
-  "LastMembershipChangeBy": 391,
+  "LastMembershipChange": "2024-10-22T03:41:54.0432111+02:00",
+  "LastMembershipChangeBy": 225,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "maxime",
-  "MemberTabHeading": "molestiae",
-  "MailingsProviderName": "Treutel, Pollich and Veum",
-  "DashboardTileDefinitionId": 512,
+  "MainHeading": "consequatur",
+  "MemberTabHeading": "magnam",
+  "MailingsProviderName": "Hauck-Spinka",
+  "DashboardTileDefinitionId": 628,
   "VisibleFor": [
     {
-      "VisibleId": 323,
+      "VisibleId": 947,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "ad",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 754
+          "FieldType": "System.Int32",
+          "FieldLength": 597
         }
       }
     },
     {
-      "VisibleId": 323,
+      "VisibleId": 947,
       "Visibility": "All",
-      "DisplayValue": "voluptas",
+      "DisplayValue": "ad",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 754
+          "FieldType": "System.Int32",
+          "FieldLength": 597
         }
       }
     }
@@ -211,7 +211,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 56
+      "FieldLength": 142
     }
   }
 }

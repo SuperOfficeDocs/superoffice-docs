@@ -26,7 +26,7 @@ Gets all the ProductFamily items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductFamily/Items?includeDeleted=True
+GET /api/v1/List/ProductFamily/Items?includeDeleted=False
 ```
 
 
@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 230,
-    "Name": "Harris-Bashirian",
-    "Tooltip": "libero",
-    "Deleted": false,
-    "UdListDefinitionId": 922,
-    "Rank": 449,
+    "Id": 112,
+    "Name": "Jerde, Sporer and Adams",
+    "Tooltip": "quam",
+    "Deleted": true,
+    "UdListDefinitionId": 30,
+    "Rank": 557,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 949
+        "FieldLength": 712
       }
     }
   }

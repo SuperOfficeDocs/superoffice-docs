@@ -74,28 +74,28 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 50,
-  "Year": 56,
+  "TargetGroupId": 320,
+  "Year": 622,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 395,
+      "TargetAssignmentInfoId": 154,
       "Values": [
-        576,
-        406
+        793,
+        614
       ],
       "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 773,
-      "DimensionListItemDisplayName": "Medhurst LLC"
+      "DimensionListItem": 909,
+      "DimensionListItemDisplayName": "Crist Inc and Sons"
     }
   ],
   "TargetDimension": null
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 486,
-  "Year": 475,
+  "TargetGroupId": 103,
+  "Year": 156,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 885,
+      "TargetAssignmentInfoId": 324,
       "Values": [
-        678,
-        242
+        205,
+        779
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 907,
-      "DimensionListItemDisplayName": "Ernser, Weber and Douglas",
+      "DimensionListItem": 483,
+      "DimensionListItemDisplayName": "Hills, Runte and Crona",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 914
+          "FieldType": "System.String",
+          "FieldLength": 391
         }
       }
     }
@@ -142,8 +142,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 521
+      "FieldType": "System.Int32",
+      "FieldLength": 546
     }
   }
 }

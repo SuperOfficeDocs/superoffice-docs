@@ -63,7 +63,7 @@ OK
 GET /api/v1/User/CredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "dolore",
-    "Type": "ut",
-    "Description": "Fully-configurable local frame",
+    "DisplayType": "quo",
+    "Type": "at",
+    "Description": "Function-based bi-directional policy",
     "ValueControl": "Edit",
-    "CanCreatePerson": false,
-    "IsUserNameSupported": true,
+    "CanCreatePerson": true,
+    "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 655
+        "FieldLength": 624
       }
     }
   }

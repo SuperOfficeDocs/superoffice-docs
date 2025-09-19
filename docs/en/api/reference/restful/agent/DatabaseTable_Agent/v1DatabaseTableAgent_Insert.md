@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Steuber Inc and Sons",
+  "TableName": "Wilderman-Feest",
   "Columns": [
-    "voluptatibus",
-    "possimus"
+    "laudantium",
+    "totam"
   ],
   "Data": [
     [
@@ -110,41 +110,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "aut",
-  "Inserts": 130,
-  "Updates": 700,
-  "Deletes": 958,
+  "Success": false,
+  "Message": "nulla",
+  "Inserts": 952,
+  "Updates": 371,
+  "Deletes": 451,
   "RowStatus": [
     {
-      "PrimaryKey": 523,
+      "PrimaryKey": 19,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "est",
-        "iusto"
+        "ducimus",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 696
+          "FieldType": "System.String",
+          "FieldLength": 845
         }
       }
     },
     {
-      "PrimaryKey": 523,
+      "PrimaryKey": 19,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "est",
-        "iusto"
+        "ducimus",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 696
+          "FieldType": "System.String",
+          "FieldLength": 845
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 24
+      "FieldLength": 168
     }
   }
 }

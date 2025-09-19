@@ -81,31 +81,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 121,
-    "Name": "Bartell LLC",
-    "TZLocationCode": "qui",
-    "TZLocationCities": "eos",
-    "IsoNumber": 924,
+    "TZLocationID": 146,
+    "Name": "Schowalter-Erdman",
+    "TZLocationCode": "in",
+    "TZLocationCities": "dignissimos",
+    "IsoNumber": 84,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 284,
-        "StartMonth": 551,
-        "EndDay": 96,
-        "EndMonth": 884,
-        "TZOffset": 274,
-        "StartRulePattern": "et",
-        "EndRulePattern": "et"
+        "StartDay": 206,
+        "StartMonth": 364,
+        "EndDay": 516,
+        "EndMonth": 331,
+        "TZOffset": 895,
+        "StartRulePattern": "sed",
+        "EndRulePattern": "esse"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 755,
-        "StartMonth": 33,
-        "EndDay": 792,
-        "EndMonth": 366,
-        "TZOffset": 634,
-        "StartRulePattern": "necessitatibus",
-        "EndRulePattern": "aut"
+        "StartDay": 39,
+        "StartMonth": 483,
+        "EndDay": 914,
+        "EndMonth": 619,
+        "TZOffset": 359,
+        "StartRulePattern": "aut",
+        "EndRulePattern": "et"
       }
     }
   }

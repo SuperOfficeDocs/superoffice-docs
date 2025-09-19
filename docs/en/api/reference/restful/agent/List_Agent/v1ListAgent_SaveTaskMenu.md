@@ -90,23 +90,23 @@ OK
 POST /api/v1/Agents/List/SaveTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 851,
-  "Name": "Rempel Inc and Sons",
-  "Tooltip": "dolore",
-  "TableName": "Shanahan-Dietrich",
-  "Area": "sapiente",
+  "TaskMenuId": 208,
+  "Name": "Prosacco-Sipes",
+  "Tooltip": "aspernatur",
+  "TableName": "Dach, Streich and Beatty",
+  "Area": "et",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 458,
+  "CrmScriptId": 422,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 302,
+  "Rank": 755,
   "Encoding": "ANSI",
-  "ProgId": "reiciendis",
+  "ProgId": "dicta",
   "Deleted": true
 }
 ```
@@ -118,26 +118,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 826,
-  "Name": "Ferry-Davis",
-  "Tooltip": "ea",
-  "TableName": "Klein-Dickens",
-  "Area": "ea",
+  "TaskMenuId": 534,
+  "Name": "Moore Inc and Sons",
+  "Tooltip": "ut",
+  "TableName": "Howell Group",
+  "Area": "temporibus",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 298,
+  "CrmScriptId": 899,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 384,
+  "Rank": 442,
   "Encoding": "ANSI",
-  "ProgId": "ut",
-  "Deleted": false,
+  "ProgId": "rem",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 973
+      "FieldType": "System.String",
+      "FieldLength": 45
     }
   }
 }

@@ -359,7 +359,7 @@ Contact provider for general use
 ## Sample
 
 ```http!
-GET /api/v1/archive/Contact?$select=contactAssociate/ejDisplayName,contactAssociate/contactFullName,contactSupportPerson/personId
+GET /api/v1/archive/Contact?$select=restrictionAddress/county,contactSupportPerson/personUdef/SuperOffice:11,contactAssociate/contactFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

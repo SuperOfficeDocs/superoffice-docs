@@ -79,15 +79,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "illum",
-  "ProviderName": "Mosciski, Friesen and Wisozk",
-  "StorageKey": "ut",
-  "Rank": 293,
-  "Context": "aut"
+  "StorageType": "et",
+  "ProviderName": "Moen Inc and Sons",
+  "StorageKey": "perferendis",
+  "Rank": 888,
+  "Context": "blanditiis"
 }
 ```
 
@@ -98,30 +98,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Dare Group",
-  "Description": "User-friendly analyzing intranet",
-  "Rank": 162,
+  "Name": "Jacobson, Tromp and Connelly",
+  "Description": "Open-architected executive data-warehouse",
+  "Rank": 862,
   "Restrictions": [
     {
-      "Name": "Ortiz-Walter",
-      "Operator": "rerum",
+      "Name": "Gislason-Bernhard",
+      "Operator": "quaerat",
       "Values": [
-        "temporibus",
-        "non"
+        "velit",
+        "quae"
       ],
       "DisplayValues": [
-        "rerum",
-        "consequatur"
+        "quia",
+        "harum"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 447,
+      "InterParenthesis": 653,
       "InterOperator": "And",
-      "UniqueHash": 677
+      "UniqueHash": 726
     }
   ]
 }

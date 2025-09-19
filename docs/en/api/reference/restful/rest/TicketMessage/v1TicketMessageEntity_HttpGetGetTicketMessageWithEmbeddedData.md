@@ -108,79 +108,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 760,
+  "EjMessageId": 850,
   "Ticket": null,
-  "CreatedAt": "2011-01-14T03:47:00.3786828+01:00",
+  "CreatedAt": "2018-01-16T03:41:59.1523724+01:00",
   "CreatedBy": null,
-  "Author": "quos",
+  "Author": "fugiat",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nam",
-  "TimeSpent": 679,
-  "Body": "ullam",
-  "HtmlBody": "laudantium",
-  "EmailHeader": "rhiannon.sawayn@rowe.com",
-  "DebugInfo": "sapiente",
-  "MailSorter": "est",
+  "MessageId": "consequatur",
+  "TimeSpent": 452,
+  "Body": "maiores",
+  "HtmlBody": "rerum",
+  "EmailHeader": "laisha@hintz.com",
+  "DebugInfo": "consequatur",
+  "MailSorter": "perspiciatis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quod",
+  "SearchTitle": "sit",
   "MessageHeaders": [
     {
-      "Id": 60,
-      "Name": "Dibbert-O'Hara",
-      "Value": "omnis",
+      "Id": 439,
+      "Name": "Robel Group",
+      "Value": "eius",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 797
+          "FieldType": "System.Int32",
+          "FieldLength": 105
         }
       }
     }
   ],
   "Important": false,
-  "Language": "et",
-  "Sentiment": 220,
-  "SentimentConfidence": 340,
+  "Language": "sapiente",
+  "Sentiment": 634,
+  "SentimentConfidence": 810,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 153,
-      "Name": "Daugherty-Crona",
-      "ContentType": "optio",
-      "AttSize": 448,
+      "AttachmentId": 148,
+      "Name": "Gutkowski-Paucek",
+      "ContentType": "maiores",
+      "AttSize": 144,
       "InlineImage": false,
-      "ContentId": "et",
-      "AuthKey": "culpa",
+      "ContentId": "modi",
+      "AuthKey": "id",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 511
+          "FieldLength": 143
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "cupiditate"
+    "ExtraFields1": "inventore",
+    "ExtraFields2": "magni"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "aut",
+    "CustomFields2": "velit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 14
+      "FieldType": "System.Int32",
+      "FieldLength": 617
     }
   }
 }

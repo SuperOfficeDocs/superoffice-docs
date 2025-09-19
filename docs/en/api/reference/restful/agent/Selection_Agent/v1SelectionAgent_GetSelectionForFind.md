@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Gerlach-Pouros",
-  "TypicalSearchId": 32
+  "EntityName": "Goodwin-Spinka",
+  "TypicalSearchId": 838
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Thiel, Fahey and Schmidt",
-  "SelectionId": 149,
-  "CanSaveAsSelection": true,
-  "MainHeading": "magni",
+  "ProviderName": "Gibson, Mueller and Torp",
+  "SelectionId": 457,
+  "CanSaveAsSelection": false,
+  "MainHeading": "voluptates",
   "FilterScreenHeading": "quia",
-  "SelectionEntityHeading": "incidunt",
+  "SelectionEntityHeading": "mollitia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 484
+      "FieldLength": 985
     }
   }
 }

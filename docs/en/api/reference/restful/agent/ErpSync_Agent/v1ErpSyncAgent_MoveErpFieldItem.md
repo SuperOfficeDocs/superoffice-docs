@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 918,
-  "Direction": 265,
-  "ErpConnectionId": 816,
+  "ErpFieldId": 614,
+  "Direction": 110,
+  "ErpConnectionId": 99,
   "ErpActorType": "Customer"
 }
 ```

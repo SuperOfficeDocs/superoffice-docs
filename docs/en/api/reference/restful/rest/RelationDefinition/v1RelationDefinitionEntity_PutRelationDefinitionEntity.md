@@ -98,12 +98,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 472,
-  "Name": "Zieme-Jast",
-  "Tooltip": "aut",
-  "PassiveText": "nihil",
+  "ReldefId": 112,
+  "Name": "Breitenberg LLC",
+  "Tooltip": "non",
+  "PassiveText": "velit",
   "Deleted": false,
-  "Rank": 38,
+  "Rank": 498,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -116,12 +116,12 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 804,
-  "Name": "Dickens, Donnelly and Hamill",
-  "Tooltip": "vitae",
-  "PassiveText": "est",
-  "Deleted": true,
-  "Rank": 576,
+  "ReldefId": 868,
+  "Name": "O'Keefe, Nienow and Mann",
+  "Tooltip": "eum",
+  "PassiveText": "doloribus",
+  "Deleted": false,
+  "Rank": 730,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldLength": 858
     }
   },
   "_Links": {

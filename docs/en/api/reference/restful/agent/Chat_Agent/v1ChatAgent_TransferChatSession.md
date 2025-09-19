@@ -111,8 +111,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 435,
-  "ToAssociate": "unde"
+  "ChatSessionId": 649,
+  "ToAssociate": "occaecati"
 }
 ```
 
@@ -123,29 +123,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 576,
-  "TopicId": 345,
+  "ChatSessionId": 583,
+  "TopicId": 835,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptate",
-  "CustomerHost": "qui",
-  "CustomerName": "Krajcik-Rath",
-  "CustomerEmail": "kenna.christiansen@berge.info",
-  "CustomerPhone": "(885)684-0238 x3010",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Reynolds-Heaney",
+  "CustomerAlias": "eos",
+  "CustomerHost": "distinctio",
+  "CustomerName": "Hauck, Crona and Kuhic",
+  "CustomerEmail": "ansley@armstrong.uk",
+  "CustomerPhone": "012-726-4231",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "O'Keefe LLC",
   "Status": "Closed",
-  "FirstMessage": "in",
-  "LastMessage": "eveniet",
-  "WhenRequested": "2013-01-19T03:46:54.3476466+01:00",
-  "WhenStarted": "2004-02-07T03:46:54.3476466+01:00",
-  "WhenEnded": "2013-04-06T03:46:54.3476466+02:00",
-  "WhenIdle": "2000-09-11T03:46:54.3476466+02:00",
-  "WhenFetched": "2022-12-25T03:46:54.3476466+01:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 257,
-  "AlertLevel": 91,
-  "Rank": 496,
+  "FirstMessage": "consequatur",
+  "LastMessage": "aut",
+  "WhenRequested": "2021-01-06T03:41:53.1213759+01:00",
+  "WhenStarted": "2004-05-14T03:41:53.1213759+02:00",
+  "WhenEnded": "2019-10-10T03:41:53.1213759+02:00",
+  "WhenIdle": "2004-08-29T03:41:53.1213759+02:00",
+  "WhenFetched": "2018-08-20T03:41:53.1213759+02:00",
+  "SessionKey": "itaque",
+  "InitialQueuePos": 209,
+  "AlertLevel": 954,
+  "Rank": 401,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -153,13 +153,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 726,
+  "Rating": 412,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 677
+      "FieldLength": 345
     }
   }
 }

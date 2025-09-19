@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 427,
-    "Name": "Torp LLC",
-    "ToolTip": "Nihil rerum ullam consequatur eos occaecati laboriosam quaerat.",
+    "Id": 243,
+    "Name": "Oberbrunner LLC",
+    "ToolTip": "Blanditiis vero maiores est ut vitae minima.",
     "Deleted": false,
-    "Rank": 834,
-    "Type": "molestiae",
-    "ColorBlock": 384,
-    "IconHint": "voluptate",
+    "Rank": 946,
+    "Type": "cupiditate",
+    "ColorBlock": 39,
+    "IconHint": "doloremque",
     "Selected": false,
-    "LastChanged": "2017-01-11T03:47:00.6755475+01:00",
+    "LastChanged": "2024-07-10T03:41:59.4336101+02:00",
     "ChildItems": [
       {
-        "Id": 418,
-        "Name": "Kuvalis Inc and Sons",
-        "ToolTip": "Autem aliquam.",
+        "Id": 114,
+        "Name": "Pfeffer-Schuppe",
+        "ToolTip": "Dicta et sit sit.",
         "Deleted": true,
-        "Rank": 398,
-        "Type": "est",
-        "ColorBlock": 660,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2007-04-29T03:47:00.6755475+02:00",
+        "Rank": 425,
+        "Type": "exercitationem",
+        "ColorBlock": 856,
+        "IconHint": "sint",
+        "Selected": true,
+        "LastChanged": "1998-07-22T03:41:59.4336101+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "sunt",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "aut",
         "Hidden": true,
-        "FullName": "Miss Antone Nicole Pfeffer MD",
+        "FullName": "Adelbert Hickle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 724
+            "FieldLength": 388
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "suscipit",
-    "Hidden": true,
-    "FullName": "Darrell Kuhlman",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "tenetur",
+    "Hidden": false,
+    "FullName": "Mrs. Nicolas Crystal Rohan MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 395
+        "FieldType": "System.String",
+        "FieldLength": 768
       }
     }
   }

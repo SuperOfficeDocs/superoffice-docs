@@ -90,8 +90,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    655,
-    698
+    450,
+    93
   ]
 }
 ```
@@ -104,45 +104,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 627,
-    "MessageId": "dolor",
-    "Subject": "accusantium",
+    "ServerId": 143,
+    "MessageId": "quia",
+    "Subject": "eum",
     "From": null,
     "To": [
       {
-        "ContactId": 94,
-        "ContactName": "Beatty, Kassulke and Koch",
-        "PersonId": 401,
-        "PersonName": "Kessler-Lowe",
-        "AssociateId": 943,
-        "Address": "sed",
-        "EmailId": 129,
+        "ContactId": 838,
+        "ContactName": "Streich-Thompson",
+        "PersonId": 828,
+        "PersonName": "Haag Inc and Sons",
+        "AssociateId": 461,
+        "Address": "consectetur",
+        "EmailId": 847,
         "DuplicatePersonIds": [
-          890,
-          257
+          929,
+          233
         ],
-        "Name": "Douglas LLC",
+        "Name": "Moen-Sipes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 472
+            "FieldLength": 679
           }
         }
       }
     ],
-    "Sent": "2007-11-27T03:46:54.7226337+01:00",
+    "Sent": "2019-05-25T03:41:53.4651107+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 184,
+    "Size": 168,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 875
+        "FieldLength": 11
       }
     }
   }

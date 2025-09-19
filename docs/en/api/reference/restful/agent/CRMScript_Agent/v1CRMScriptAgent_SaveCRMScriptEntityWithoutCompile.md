@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntityWithoutCompile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,53 +109,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 790,
-  "UniqueIdentifier": "perferendis",
-  "Name": "Yundt, Ondricka and Kilback",
-  "Description": "Mandatory foreground parallelism",
-  "IncludeId": "dolorem",
-  "AccessKey": "doloremque",
-  "HierarchyId": 256,
-  "Source": "dicta",
-  "SourceCode": "dolorem",
+  "EjscriptId": 467,
+  "UniqueIdentifier": "eius",
+  "Name": "Leannon, Pagac and Beahan",
+  "Description": "Profound asynchronous monitoring",
+  "IncludeId": "officiis",
+  "AccessKey": "nulla",
+  "HierarchyId": 457,
+  "Source": "hic",
+  "SourceCode": "qui",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 812,
+  "HtmlOutput": 278,
   "Includes": [
-    771,
-    190
+    556,
+    370
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 615,
-      "LineNumberTo": 613,
-      "Delta": 295,
-      "IncludeId": "consectetur",
+      "LineNumberFrom": 132,
+      "LineNumberTo": 895,
+      "Delta": 545,
+      "IncludeId": "vero",
       "IncludedFrom": [
-        "autem",
-        "consequatur"
+        "iure",
+        "soluta"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 718
+          "FieldType": "System.String",
+          "FieldLength": 282
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2025-04-30T03:46:54.5820132+02:00",
-  "RegisteredAssociateId": 863,
-  "Updated": "2013-07-25T03:46:54.5820132+02:00",
-  "UpdatedAssociateId": 304,
+  "Registered": "2020-06-29T03:41:53.3401161+02:00",
+  "RegisteredAssociateId": 354,
+  "Updated": "2016-07-23T03:41:53.3401161+02:00",
+  "UpdatedAssociateId": 490,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 198
+      "FieldLength": 944
     }
   }
 }

@@ -87,23 +87,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 866,
-    "Name": "Ruecker LLC",
-    "Tooltip": "iusto",
-    "SaveInDb": 58,
-    "Filename": "necessitatibus",
-    "DefaultOref": "quas",
+    "DocumentTemplateId": 835,
+    "Name": "Schroeder, Ziemann and Stark",
+    "Tooltip": "dolorum",
+    "SaveInDb": 170,
+    "Filename": "distinctio",
+    "DefaultOref": "iusto",
     "RecordType": "Appointment",
-    "Deleted": 994,
+    "Deleted": 518,
     "Direction": "Incoming",
-    "AutoeventId": 391,
+    "AutoeventId": 174,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 407
+        "FieldLength": 872
       }
     }
   }

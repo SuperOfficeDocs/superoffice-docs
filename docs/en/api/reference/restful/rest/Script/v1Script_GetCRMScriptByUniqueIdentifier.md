@@ -72,7 +72,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,23 +82,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quidem",
-  "Name": "Abernathy-Hodkiewicz",
-  "Description": "Ergonomic background internet solution",
-  "IncludeId": "consequuntur",
-  "Source": "incidunt",
-  "Registered": "2011-06-12T03:47:00.5036785+02:00",
-  "RegisteredBy": "ut",
-  "Updated": "2016-06-01T03:47:00.5036785+02:00",
-  "UpdatedBy": "facere",
-  "Path": "ut",
+  "UniqueIdentifier": "facere",
+  "Name": "Beier-Larson",
+  "Description": "Decentralized encompassing algorithm",
+  "IncludeId": "sed",
+  "Source": "deleniti",
+  "Registered": "2013-09-11T03:41:59.2148698+02:00",
+  "RegisteredBy": "fugit",
+  "Updated": "2002-12-21T03:41:59.2148698+01:00",
+  "UpdatedBy": "sequi",
+  "Path": "quis",
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 730
+      "FieldLength": 427
     }
   }
 }

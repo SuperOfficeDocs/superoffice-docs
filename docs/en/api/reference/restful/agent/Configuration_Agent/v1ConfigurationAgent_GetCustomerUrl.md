@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Configuration/GetCustomerUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

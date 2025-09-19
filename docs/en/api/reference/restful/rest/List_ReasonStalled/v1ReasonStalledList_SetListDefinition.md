@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 541,
-  "Name": "Beahan, Zboncak and Hilpert",
-  "Tooltip": "recusandae",
-  "Deleted": true,
-  "Rank": 759,
+  "Id": 11,
+  "Name": "McClure-Kassulke",
+  "Tooltip": "quam",
+  "Deleted": false,
+  "Rank": 392,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "reprehenderit",
-  "InUseByUserDefinedFields": true
+  "ListType": "ducimus",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 908,
-  "Name": "Crona LLC",
-  "Tooltip": "et",
+  "Id": 430,
+  "Name": "Mueller, Rau and Aufderhar",
+  "Tooltip": "minima",
   "Deleted": false,
-  "Rank": 943,
-  "IsCustomList": false,
+  "Rank": 970,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "magni",
+  "ListType": "asperiores",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldLength": 996
     }
   }
 }

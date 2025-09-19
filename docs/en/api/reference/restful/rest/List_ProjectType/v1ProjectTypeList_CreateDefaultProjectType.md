@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ProjectType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 868,
-  "Name": "Harris-Zieme",
-  "Tooltip": "unde",
+  "Id": 312,
+  "Name": "Abbott-Bailey",
+  "Tooltip": "enim",
   "Deleted": true,
-  "UdListDefinitionId": 250,
-  "Rank": 185,
+  "UdListDefinitionId": 267,
+  "Rank": 346,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 987
+      "FieldLength": 95
     }
   }
 }

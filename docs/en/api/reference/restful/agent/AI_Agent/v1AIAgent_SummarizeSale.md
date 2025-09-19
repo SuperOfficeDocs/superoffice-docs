@@ -71,13 +71,13 @@ OK
 POST /api/v1/Agents/AI/SummarizeSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 206,
-  "NumSentences": 579,
-  "IsoLangCode": "est"
+  "SaleId": 411,
+  "NumSentences": 864,
+  "IsoLangCode": "dolor"
 }
 ```
 
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"voluptates"
+"quod"
 ```

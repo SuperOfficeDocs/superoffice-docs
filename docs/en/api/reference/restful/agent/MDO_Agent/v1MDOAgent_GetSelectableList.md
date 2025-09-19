@@ -95,10 +95,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gleason-Pagac",
+  "Name": "Becker-Ziemann",
   "ForceFlatList": false,
-  "AdditionalInfo": "non",
-  "OnlyHistory": false
+  "AdditionalInfo": "minima",
+  "OnlyHistory": true
 }
 ```
 
@@ -110,56 +110,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 82,
-    "Name": "Hand Inc and Sons",
-    "ToolTip": "Voluptas nam.",
+    "Id": 740,
+    "Name": "Jones, Schaden and Hayes",
+    "ToolTip": "Quos quia dolor sunt eos voluptates animi.",
     "Deleted": false,
-    "Rank": 827,
-    "Type": "aut",
-    "ColorBlock": 979,
-    "IconHint": "repellendus",
+    "Rank": 140,
+    "Type": "ut",
+    "ColorBlock": 139,
+    "IconHint": "nemo",
     "Selected": false,
-    "LastChanged": "2020-07-23T03:46:55.0194982+02:00",
+    "LastChanged": "2013-05-22T03:41:53.7619726+02:00",
     "ChildItems": [
       {
-        "Id": 537,
-        "Name": "Strosin LLC",
-        "ToolTip": "Ipsa ut ullam.",
+        "Id": 459,
+        "Name": "Doyle-Hodkiewicz",
+        "ToolTip": "Perferendis voluptatum sed eum.",
         "Deleted": false,
-        "Rank": 650,
-        "Type": "ipsam",
-        "ColorBlock": 628,
-        "IconHint": "provident",
+        "Rank": 933,
+        "Type": "quia",
+        "ColorBlock": 592,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2015-09-25T03:46:55.0194982+02:00",
+        "LastChanged": "2008-02-10T03:41:53.7619726+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magni",
-        "StyleHint": "minima",
-        "Hidden": true,
-        "FullName": "Isaias Ethel Botsford I",
+        "ExtraInfo": "ullam",
+        "StyleHint": "id",
+        "Hidden": false,
+        "FullName": "Salvador Sandra Harvey V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 809
+            "FieldLength": 338
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "quae",
-    "Hidden": true,
-    "FullName": "Estel Madeline Raynor I",
+    "ExtraInfo": "qui",
+    "StyleHint": "deserunt",
+    "Hidden": false,
+    "FullName": "Aron Keeling IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 403
+        "FieldLength": 992
       }
     }
   }

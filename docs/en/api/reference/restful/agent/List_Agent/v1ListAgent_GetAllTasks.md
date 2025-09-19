@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/List/GetAllTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -102,15 +102,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 113,
-    "Value": "voluptate",
+    "TaskListItemId": 819,
+    "Value": "quis",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "nesciunt",
-    "Deleted": false,
-    "IntentId": 113,
-    "Rank": 255,
-    "IsDefaultAlldayEvent": true,
+    "Tooltip": "corrupti",
+    "Deleted": true,
+    "IntentId": 794,
+    "Rank": 385,
+    "IsDefaultAlldayEvent": false,
     "IsDefaultFree": false,
     "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 422
+        "FieldLength": 949
       }
     }
   }

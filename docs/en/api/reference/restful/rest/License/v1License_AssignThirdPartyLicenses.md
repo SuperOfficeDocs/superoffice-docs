@@ -90,26 +90,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 352,
-    "Tooltip": "velit",
-    "CanAssign": true,
-    "Free": 801,
-    "InUse": 782,
+    "Unrestricted": false,
+    "Total": 918,
+    "Tooltip": "et",
+    "CanAssign": false,
+    "Free": 262,
+    "InUse": 855,
     "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 776,
-    "Name": "Haley-Kuhn",
-    "Description": "Managed client-driven function",
-    "PrerequisiteModuleName": "Kuhlman LLC",
-    "SortOrder": 704,
-    "ExtraFlags": 398,
+    "ModuleLicenseId": 887,
+    "Name": "Kessler, Zemlak and Lockman",
+    "Description": "Team-oriented optimizing extranet",
+    "PrerequisiteModuleName": "Jewess-Howe",
+    "SortOrder": 288,
+    "ExtraFlags": 141,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 302
+        "FieldType": "System.Int32",
+        "FieldLength": 748
       }
     }
   }

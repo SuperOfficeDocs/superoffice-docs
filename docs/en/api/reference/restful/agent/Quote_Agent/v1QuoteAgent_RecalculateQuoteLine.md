@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "commodi",
-    "consequatur"
+    "ipsam",
+    "accusamus"
   ]
 }
 ```
@@ -144,88 +144,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 81,
-  "ERPQuoteLineKey": "eos",
-  "QuoteAlternativeId": 503,
-  "ERPProductKey": "aliquam",
+  "QuoteLineId": 7,
+  "ERPQuoteLineKey": "sit",
+  "QuoteAlternativeId": 565,
+  "ERPProductKey": "nihil",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 13231.748,
-  "DeliveredQuantity": 10956.464,
-  "Rank": 886,
-  "Name": "Ortiz LLC",
-  "Description": "Cloned multi-tasking alliance",
-  "Code": "modi",
-  "QuantityUnit": "laudantium",
-  "PriceUnit": "ut",
-  "ItemNumber": "942909",
+  "Quantity": 8436.728,
+  "DeliveredQuantity": 18481.198,
+  "Rank": 658,
+  "Name": "Kutch-Deckow",
+  "Description": "Balanced directional core",
+  "Code": "beatae",
+  "QuantityUnit": "esse",
+  "PriceUnit": "qui",
+  "ItemNumber": "940406",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "repudiandae",
-  "ProductTypeKey": "voluptates",
-  "Supplier": "expedita",
-  "SupplierCode": "vel",
-  "Thumbnail": "saepe",
-  "VATInfo": "dolorem",
-  "VAT": 30462.48,
-  "UnitCost": 30042.523999999998,
-  "UnitMinimumPrice": 19311.708,
-  "UnitListPrice": 3459.9359999999997,
+  "ProductFamilyKey": "dicta",
+  "ProductTypeKey": "sunt",
+  "Supplier": "eum",
+  "SupplierCode": "officiis",
+  "Thumbnail": "dolorem",
+  "VATInfo": "dolore",
+  "VAT": 26776.896,
+  "UnitCost": 16089.956,
+  "UnitMinimumPrice": 28926.82,
+  "UnitListPrice": 7427.58,
   "ExtraInfo": [
     {
-      "Name": "Aufderhar, Kessler and Witting",
-      "Value": "non",
+      "Name": "Von-Rowe",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 586
+          "FieldLength": 519
         }
       }
     },
     {
-      "Name": "Aufderhar, Kessler and Witting",
-      "Value": "non",
+      "Name": "Von-Rowe",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 586
+          "FieldLength": 519
         }
       }
     }
   ],
   "RawExtraInfo": "et",
-  "IsSubscription": true,
-  "SubscriptionUnit": "veritatis",
-  "SubscriptionQuantity": 14159.412,
-  "SubscriptionStart": "2010-02-08T03:46:55.1913666+01:00",
-  "ERPDiscountPercent": 18283.755999999998,
-  "ERPDiscountAmount": 26676.608,
-  "DiscountPercent": 8057.514,
-  "DiscountAmount": 31.34,
+  "IsSubscription": false,
+  "SubscriptionUnit": "voluptas",
+  "SubscriptionQuantity": 8486.872,
+  "SubscriptionStart": "2017-09-19T03:41:53.933842+02:00",
+  "ERPDiscountPercent": 16835.847999999998,
+  "ERPDiscountAmount": 16776.302,
+  "DiscountPercent": 18722.516,
+  "DiscountAmount": 29613.165999999997,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 24489.076,
-  "EarningAmount": 10304.592,
-  "SubTotal": 18064.376,
-  "TotalPrice": 19600.036,
-  "Rights": "praesentium",
-  "Rule": "laudantium",
-  "ExtraField1": "et",
-  "ExtraField2": "aut",
-  "ExtraField3": "a",
-  "ExtraField4": "laborum",
-  "ExtraField5": "minus",
+  "EarningPercent": 7095.376,
+  "EarningAmount": 10583.518,
+  "SubTotal": 3851.6859999999997,
+  "TotalPrice": 5873.116,
+  "Rights": "vero",
+  "Rule": "explicabo",
+  "ExtraField1": "nemo",
+  "ExtraField2": "quos",
+  "ExtraField3": "non",
+  "ExtraField4": "consectetur",
+  "ExtraField5": "voluptate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 302
+      "FieldType": "System.Int32",
+      "FieldLength": 834
     }
   }
 }

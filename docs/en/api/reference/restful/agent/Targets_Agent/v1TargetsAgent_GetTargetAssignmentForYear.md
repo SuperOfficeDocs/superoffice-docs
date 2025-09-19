@@ -89,10 +89,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 667,
+  "TargetYear": 789,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 929
+  "Id": 573
 }
 ```
 
@@ -103,24 +103,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 367,
+  "TargetAssignmentInfoId": 526,
   "Values": [
-    17,
-    900
+    471,
+    642
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 296,
-  "DimensionListItemDisplayName": "Herzog, Bednar and Kulas",
+  "DimensionListItem": 197,
+  "DimensionListItemDisplayName": "Doyle, Von and Turcotte",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 220
+      "FieldLength": 161
     }
   }
 }

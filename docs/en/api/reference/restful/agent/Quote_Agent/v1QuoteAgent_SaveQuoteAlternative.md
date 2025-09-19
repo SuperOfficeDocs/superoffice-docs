@@ -108,33 +108,33 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 841,
-  "ERPQuoteAlternativeKey": "aut",
-  "QuoteVersionId": 378,
-  "Name": "Pagac, Vandervort and Rosenbaum",
-  "Description": "Implemented directional superstructure",
+  "QuoteAlternativeId": 121,
+  "ERPQuoteAlternativeKey": "sit",
+  "QuoteVersionId": 303,
+  "Name": "Lueilwitz, Kessler and Bradtke",
+  "Description": "Organized 24/7 middleware",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 28572.678,
-  "ERPDiscountAmount": 2967.8979999999997,
-  "DiscountPercent": 23570.814,
-  "DiscountAmount": 17863.8,
+  "ERPDiscountPercent": 9129.342,
+  "ERPDiscountAmount": 19374.388,
+  "DiscountPercent": 25962.056,
+  "DiscountAmount": 7261.478,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "ducimus",
-  "VAT": 13347.706,
-  "EarningPercent": 11498.645999999999,
-  "EarningAmount": 14933.51,
-  "SubTotal": 22063.36,
-  "TotalPrice": 29519.146,
-  "ExtraField1": "est",
-  "ExtraField2": "vel",
-  "ExtraField3": "placeat",
-  "ExtraField4": "vero",
-  "ExtraField5": "aliquid"
+  "VATInfo": "esse",
+  "VAT": 10636.796,
+  "EarningPercent": 9558.6999999999989,
+  "EarningAmount": 20317.721999999998,
+  "SubTotal": 7615.62,
+  "TotalPrice": 7766.052,
+  "ExtraField1": "et",
+  "ExtraField2": "omnis",
+  "ExtraField3": "recusandae",
+  "ExtraField4": "error",
+  "ExtraField5": "sed"
 }
 ```
 
@@ -145,35 +145,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 370,
-  "ERPQuoteAlternativeKey": "similique",
-  "QuoteVersionId": 190,
-  "Name": "Pacocha-Rutherford",
-  "Description": "Multi-channelled holistic protocol",
+  "QuoteAlternativeId": 794,
+  "ERPQuoteAlternativeKey": "cupiditate",
+  "QuoteVersionId": 454,
+  "Name": "Sauer, Heathcote and Keebler",
+  "Description": "Face to face context-sensitive protocol",
   "Status": "Error",
-  "Reason": "",
-  "ERPDiscountPercent": 3666.7799999999997,
-  "ERPDiscountAmount": 29575.557999999997,
-  "DiscountPercent": 8082.5859999999993,
-  "DiscountAmount": 26664.072,
+  "Reason": "integrate killer e-business",
+  "ERPDiscountPercent": 12924.616,
+  "ERPDiscountAmount": 8627.902,
+  "DiscountPercent": 28287.484,
+  "DiscountAmount": 29262.158,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "et",
-  "VAT": 17766.646,
-  "EarningPercent": 25194.226,
-  "EarningAmount": 22793.582,
-  "SubTotal": 30434.273999999998,
-  "TotalPrice": 15566.578,
-  "ExtraField1": "iure",
-  "ExtraField2": "quia",
-  "ExtraField3": "est",
-  "ExtraField4": "quae",
-  "ExtraField5": "quis",
+  "VATInfo": "odit",
+  "VAT": 12015.756,
+  "EarningPercent": 16920.466,
+  "EarningAmount": 4315.518,
+  "SubTotal": 21715.486,
+  "TotalPrice": 26291.126,
+  "ExtraField1": "qui",
+  "ExtraField2": "perferendis",
+  "ExtraField3": "fugit",
+  "ExtraField4": "debitis",
+  "ExtraField5": "tempore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 507
+      "FieldLength": 425
     }
   }
 }

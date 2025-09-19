@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjectEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,34 +100,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Corrine Considine",
-    "Description": "Assimilated intermediate open architecture",
-    "ProjectId": 316,
-    "EventName": "Tromp-McKenzie",
-    "AssociateId": 318,
-    "IsSignedOn": false,
-    "SignOffConfirmationText": "aut",
-    "SignOffText": "nobis",
-    "SignOnConfirmationText": "sequi",
-    "SignOnText": "qui",
-    "EventDate": "2014-09-15T03:46:55.1757421+02:00",
-    "Enabled": false,
+    "AssociateFullName": "Dewitt Katrina Hamill DDS",
+    "Description": "Ameliorated fresh-thinking info-mediaries",
+    "ProjectId": 749,
+    "EventName": "Dooley Group",
+    "AssociateId": 750,
+    "IsSignedOn": true,
+    "SignOffConfirmationText": "quasi",
+    "SignOffText": "recusandae",
+    "SignOnConfirmationText": "in",
+    "SignOnText": "porro",
+    "EventDate": "1998-12-15T03:41:53.9182167+01:00",
+    "Enabled": true,
     "SignOff": false,
-    "SignOffTaskEnable": true,
+    "SignOffTaskEnable": false,
     "SignOnTaskEnable": false,
-    "SignOn": true,
-    "SignOffTaskId": 452,
-    "SignOnTaskId": 106,
+    "SignOn": false,
+    "SignOffTaskId": 663,
+    "SignOnTaskId": 112,
     "SignOffTriggersAssign": false,
-    "SignOnTriggersAssign": false,
-    "SignOnPersonId": 604,
-    "SignOffPersonId": 174,
+    "SignOnTriggersAssign": true,
+    "SignOnPersonId": 259,
+    "SignOffPersonId": 954,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 677
+        "FieldLength": 612
       }
     }
   }

@@ -90,32 +90,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Runolfsson Group",
-  "ListItemId": 110,
+  "UdListDefinitionName": "Stehr LLC",
+  "ListItemId": 376,
   "UserGroups": [
     {
-      "Id": 933,
-      "Name": "Ferry-Roob",
-      "ToolTip": "Quod veniam adipisci.",
-      "Deleted": true,
-      "Rank": 344,
-      "Type": "eos",
-      "ColorBlock": 155,
-      "IconHint": "ducimus",
+      "Id": 685,
+      "Name": "Jacobi-Maggio",
+      "ToolTip": "Sed delectus id id numquam voluptatem molestiae.",
+      "Deleted": false,
+      "Rank": 985,
+      "Type": "rerum",
+      "ColorBlock": 505,
+      "IconHint": "deleniti",
       "Selected": true,
-      "LastChanged": "2015-09-07T03:46:54.9569999+02:00",
+      "LastChanged": "2005-04-07T03:41:53.6369777+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "nihil",
-      "Hidden": true,
-      "FullName": "Christophe Cummings"
+      "ExtraInfo": "libero",
+      "StyleHint": "possimus",
+      "Hidden": false,
+      "FullName": "Cole Borer"
     }
   ]
 }
@@ -129,56 +129,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 814,
-    "Name": "Anderson LLC",
-    "ToolTip": "Quia eaque quas cumque aliquam similique.",
-    "Deleted": false,
-    "Rank": 559,
-    "Type": "eum",
-    "ColorBlock": 114,
-    "IconHint": "in",
+    "Id": 605,
+    "Name": "Stanton, Marvin and Greenfelder",
+    "ToolTip": "Corrupti sequi laborum inventore doloribus impedit.",
+    "Deleted": true,
+    "Rank": 29,
+    "Type": "quibusdam",
+    "ColorBlock": 547,
+    "IconHint": "unde",
     "Selected": false,
-    "LastChanged": "2020-10-07T03:46:54.9569999+02:00",
+    "LastChanged": "2001-11-22T03:41:53.6526075+01:00",
     "ChildItems": [
       {
-        "Id": 355,
-        "Name": "Bernier, Jacobson and Tillman",
-        "ToolTip": "Rerum et sint.",
-        "Deleted": true,
-        "Rank": 223,
-        "Type": "aut",
-        "ColorBlock": 158,
-        "IconHint": "ex",
-        "Selected": true,
-        "LastChanged": "1999-07-11T03:46:54.9569999+02:00",
+        "Id": 715,
+        "Name": "Dibbert LLC",
+        "ToolTip": "Nesciunt sed sed fugit ut dicta ea.",
+        "Deleted": false,
+        "Rank": 805,
+        "Type": "modi",
+        "ColorBlock": 362,
+        "IconHint": "sit",
+        "Selected": false,
+        "LastChanged": "2015-03-06T03:41:53.6682453+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "nemo",
+        "ExtraInfo": "animi",
+        "StyleHint": "velit",
         "Hidden": true,
-        "FullName": "Isidro Walker",
+        "FullName": "Miss Orpha Yundt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 734
+            "FieldType": "System.String",
+            "FieldLength": 347
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "officia",
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "laboriosam",
     "Hidden": true,
-    "FullName": "Jules Abernathy",
+    "FullName": "Jo Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 75
+        "FieldType": "System.Int32",
+        "FieldLength": 928
       }
     }
   }

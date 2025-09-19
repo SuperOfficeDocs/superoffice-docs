@@ -67,13 +67,13 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Predovic-Pfeffer",
-  "RecordId": 378,
-  "AssociateId": 936
+  "TableName": "Brakus, Bernhard and White",
+  "RecordId": 810,
+  "AssociateId": 37
 }
 ```
 

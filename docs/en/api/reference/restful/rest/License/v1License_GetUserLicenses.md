@@ -63,7 +63,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,30 +74,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schroeder, Veum and Gibson",
-    "Description": "Streamlined well-modulated core",
+    "Name": "Weber-Boyle",
+    "Description": "Optional didactic orchestration",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 818,
-        "Tooltip": "excepturi",
+        "Total": 242,
+        "Tooltip": "aut",
         "CanAssign": false,
-        "Free": 762,
-        "InUse": 657,
+        "Free": 82,
+        "InUse": 911,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 296,
-        "Name": "Quitzon, Yost and Witting",
-        "Description": "Re-contextualized intangible strategy",
-        "PrerequisiteModuleName": "Kertzmann, Crooks and Schiller",
-        "SortOrder": 892,
-        "ExtraFlags": 46,
+        "Assigned": true,
+        "ModuleLicenseId": 190,
+        "Name": "Dickinson-Dibbert",
+        "Description": "Diverse hybrid approach",
+        "PrerequisiteModuleName": "Ryan Group",
+        "SortOrder": 916,
+        "ExtraFlags": 878,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 38
+            "FieldType": "System.Int32",
+            "FieldLength": 894
           }
         }
       }
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 931,
-        "Tooltip": "voluptatum",
-        "CanAssign": true,
-        "Free": 271,
-        "InUse": 573,
+        "Total": 665,
+        "Tooltip": "eligendi",
+        "CanAssign": false,
+        "Free": 206,
+        "InUse": 921,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 837,
-        "Name": "Macejkovic-Greenfelder",
-        "Description": "Customizable background firmware",
-        "PrerequisiteModuleName": "Grimes-Sawayn",
-        "SortOrder": 162,
-        "ExtraFlags": 847,
+        "ModuleLicenseId": 960,
+        "Name": "Langosh, Witting and Prosacco",
+        "Description": "Cross-platform mission-critical local area network",
+        "PrerequisiteModuleName": "Jaskolski-Streich",
+        "SortOrder": 230,
+        "ExtraFlags": 164,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 973
+            "FieldType": "System.String",
+            "FieldLength": 457
           }
         }
       }
@@ -133,35 +133,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldLength": 257
       }
     }
   },
   {
-    "Name": "Schroeder, Veum and Gibson",
-    "Description": "Streamlined well-modulated core",
+    "Name": "Weber-Boyle",
+    "Description": "Optional didactic orchestration",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 818,
-        "Tooltip": "excepturi",
+        "Total": 242,
+        "Tooltip": "aut",
         "CanAssign": false,
-        "Free": 762,
-        "InUse": 657,
+        "Free": 82,
+        "InUse": 911,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 296,
-        "Name": "Quitzon, Yost and Witting",
-        "Description": "Re-contextualized intangible strategy",
-        "PrerequisiteModuleName": "Kertzmann, Crooks and Schiller",
-        "SortOrder": 892,
-        "ExtraFlags": 46,
+        "Assigned": true,
+        "ModuleLicenseId": 190,
+        "Name": "Dickinson-Dibbert",
+        "Description": "Diverse hybrid approach",
+        "PrerequisiteModuleName": "Ryan Group",
+        "SortOrder": 916,
+        "ExtraFlags": 878,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 38
+            "FieldType": "System.Int32",
+            "FieldLength": 894
           }
         }
       }
@@ -169,25 +169,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 931,
-        "Tooltip": "voluptatum",
-        "CanAssign": true,
-        "Free": 271,
-        "InUse": 573,
+        "Total": 665,
+        "Tooltip": "eligendi",
+        "CanAssign": false,
+        "Free": 206,
+        "InUse": 921,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 837,
-        "Name": "Macejkovic-Greenfelder",
-        "Description": "Customizable background firmware",
-        "PrerequisiteModuleName": "Grimes-Sawayn",
-        "SortOrder": 162,
-        "ExtraFlags": 847,
+        "ModuleLicenseId": 960,
+        "Name": "Langosh, Witting and Prosacco",
+        "Description": "Cross-platform mission-critical local area network",
+        "PrerequisiteModuleName": "Jaskolski-Streich",
+        "SortOrder": 230,
+        "ExtraFlags": 164,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 973
+            "FieldType": "System.String",
+            "FieldLength": 457
           }
         }
       }
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldLength": 257
       }
     }
   }

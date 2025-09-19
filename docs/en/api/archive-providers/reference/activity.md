@@ -769,7 +769,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 ## Sample
 
 ```http!
-GET /api/v1/archive/Activity?$select=person/birthdate,person/personAddress/line2,person/personUdef/SuperOffice:8,contact/contactAssociate/userName,sale/updatedByFullName
+GET /api/v1/archive/Activity?$select=person/personCategory,contact/contactId,project/NumberOfSalesInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

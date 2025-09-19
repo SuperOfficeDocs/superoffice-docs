@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 244,
-  "Name": "Stehr LLC",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 129,
-  "Rank": 138,
+  "Id": 33,
+  "Name": "Gulgowski Group",
+  "Tooltip": "molestiae",
+  "Deleted": true,
+  "UdListDefinitionId": 535,
+  "Rank": 189,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 338
+      "FieldType": "System.Int32",
+      "FieldLength": 325
     }
   }
 }

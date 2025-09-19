@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 167,
-    "Name": "Schmitt-Beahan",
-    "ToolTip": "Minima quos et sit.",
+    "Id": 372,
+    "Name": "Murphy, Fahey and Huel",
+    "ToolTip": "Voluptatem eius vel repellat id nihil.",
     "Deleted": false,
-    "Rank": 179,
-    "Type": "nemo",
-    "ColorBlock": 131,
-    "IconHint": "aperiam",
-    "Selected": true,
-    "LastChanged": "2013-09-22T03:47:00.7692942+02:00",
+    "Rank": 18,
+    "Type": "eaque",
+    "ColorBlock": 465,
+    "IconHint": "minus",
+    "Selected": false,
+    "LastChanged": "2012-03-19T03:41:59.5742289+01:00",
     "ChildItems": [
       {
-        "Id": 723,
-        "Name": "Witting, Thiel and Hermann",
-        "ToolTip": "Magnam explicabo deserunt quis sit iste tenetur suscipit.",
-        "Deleted": true,
-        "Rank": 554,
-        "Type": "beatae",
-        "ColorBlock": 511,
-        "IconHint": "expedita",
+        "Id": 263,
+        "Name": "Wiegand-Trantow",
+        "ToolTip": "Blanditiis qui repudiandae esse ut.",
+        "Deleted": false,
+        "Rank": 315,
+        "Type": "voluptatem",
+        "ColorBlock": 21,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2010-04-01T03:47:00.7692942+02:00",
+        "LastChanged": "1999-02-20T03:41:59.5742289+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "praesentium",
-        "Hidden": true,
-        "FullName": "Ike Ankunding"
+        "ExtraInfo": "quia",
+        "StyleHint": "ea",
+        "Hidden": false,
+        "FullName": "Bernie Earlene Yundt PhD"
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "tempora",
+    "ExtraInfo": "modi",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Toy Robel"
+    "FullName": "Jorge McClure"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 137,
-    "Name": "Stanton LLC",
-    "ToolTip": "Adipisci temporibus quia.",
+    "Id": 270,
+    "Name": "Morar-Dooley",
+    "ToolTip": "Nobis quisquam rerum sit dolorem sequi atque autem.",
     "Deleted": false,
-    "Rank": 175,
-    "Type": "quia",
-    "ColorBlock": 509,
-    "IconHint": "ipsum",
+    "Rank": 706,
+    "Type": "velit",
+    "ColorBlock": 586,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2005-06-03T03:47:00.7692942+02:00",
+    "LastChanged": "2021-05-06T03:41:59.5742289+02:00",
     "ChildItems": [
       {
-        "Id": 69,
-        "Name": "Jenkins, Bailey and Graham",
-        "ToolTip": "Accusamus aut expedita harum ab.",
-        "Deleted": true,
-        "Rank": 770,
-        "Type": "aliquid",
-        "ColorBlock": 543,
-        "IconHint": "vel",
+        "Id": 80,
+        "Name": "Murphy, Rodriguez and Sawayn",
+        "ToolTip": "Eos eius fugiat ea enim itaque excepturi saepe.",
+        "Deleted": false,
+        "Rank": 508,
+        "Type": "iusto",
+        "ColorBlock": 123,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "1998-06-07T03:47:00.7692942+02:00",
+        "LastChanged": "2002-12-25T03:41:59.5742289+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "aut",
+        "ExtraInfo": "expedita",
+        "StyleHint": "consequatur",
         "Hidden": false,
-        "FullName": "Karina Padberg",
+        "FullName": "Prof. Gracie Mueller I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 642
+            "FieldLength": 468
           }
         }
       }
     ],
-    "ExtraInfo": "adipisci",
-    "StyleHint": "doloribus",
-    "Hidden": true,
-    "FullName": "Velda Cummerata",
+    "ExtraInfo": "rerum",
+    "StyleHint": "magni",
+    "Hidden": false,
+    "FullName": "Valerie Bartoletti MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 612
+        "FieldLength": 43
       }
     }
   }

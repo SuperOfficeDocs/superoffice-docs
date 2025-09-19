@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,23 +92,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 672,
-    "Name": "Goyette-Hoeger",
-    "Tooltip": "odit",
-    "SaveInDb": 353,
+    "DocumentTemplateId": 316,
+    "Name": "Murazik, Goldner and Ernser",
+    "Tooltip": "nostrum",
+    "SaveInDb": 700,
     "Filename": "est",
-    "DefaultOref": "iste",
+    "DefaultOref": "consectetur",
     "RecordType": "Appointment",
-    "Deleted": 301,
+    "Deleted": 879,
     "Direction": "Incoming",
-    "AutoeventId": 622,
+    "AutoeventId": 969,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 342
+        "FieldType": "System.String",
+        "FieldLength": 382
       }
     }
   }

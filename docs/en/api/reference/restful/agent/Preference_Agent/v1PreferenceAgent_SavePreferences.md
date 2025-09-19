@@ -67,23 +67,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "inventore",
+      "RawValue": "iste",
       "Specification": null,
-      "DisplayValue": "perspiciatis",
-      "DisplayTooltip": "vel",
+      "DisplayValue": "quibusdam",
+      "DisplayTooltip": "sunt",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 635,
-      "PrefDescId": 778,
-      "TableName": "Boyle Group",
-      "UserPreferenceId": 972
+      "TargetId": 748,
+      "PrefDescId": 42,
+      "TableName": "Morar, Fritsch and Donnelly",
+      "UserPreferenceId": 317
     }
   ]
 }

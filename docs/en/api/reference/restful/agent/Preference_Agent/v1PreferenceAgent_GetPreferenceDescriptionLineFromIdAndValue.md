@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 809,
-  "PrefValue": "vitae"
+  "PrefDescId": 983,
+  "PrefValue": "voluptatibus"
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 226,
-  "PrefDescId": 900,
-  "PrefValue": "qui",
-  "PrefShowValue": "vero",
-  "Description": "Intuitive multimedia moderator",
+  "PrefDescLineId": 656,
+  "PrefDescId": 350,
+  "PrefValue": "maxime",
+  "PrefShowValue": "rerum",
+  "Description": "Realigned hybrid extranet",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 432
+      "FieldType": "System.String",
+      "FieldLength": 83
     }
   }
 }

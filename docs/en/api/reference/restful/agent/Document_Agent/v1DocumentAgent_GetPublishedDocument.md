@@ -97,7 +97,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 866
+  "DocumentId": 23
 }
 ```
 
@@ -108,32 +108,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 15,
-  "Attention": "nam",
-  "Header": "voluptas",
-  "Name": "Jaskolski, Willms and Glover",
-  "OurRef": "ipsa",
-  "YourRef": "eaque",
-  "Description": "Cloned web-enabled migration",
-  "DocumentTemplate": "deleniti",
+  "DocumentId": 559,
+  "Attention": "voluptatem",
+  "Header": "voluptatem",
+  "Name": "Weimann, Powlowski and Rowe",
+  "OurRef": "ex",
+  "YourRef": "quod",
+  "Description": "Up-sized radical policy",
+  "DocumentTemplate": "facilis",
   "IsPublished": true,
-  "PersonId": 272,
-  "PersonFullName": "Miss Patsy Cierra Wunsch Sr.",
-  "AssociateFullName": "Wellington Zakary Cassin Jr.",
-  "ContactId": 329,
-  "ContactName": "Skiles Group",
-  "ProjectId": 904,
-  "ProjectName": "Tremblay Group",
-  "AssociateId": 23,
-  "Snum": 351,
-  "SaleId": 34,
-  "SaleName": "Balistreri, Renner and Terry",
+  "PersonId": 495,
+  "PersonFullName": "Albertha D'Amore",
+  "AssociateFullName": "Annie Murphy DDS",
+  "ContactId": 466,
+  "ContactName": "Hand-Koelpin",
+  "ProjectId": 422,
+  "ProjectName": "Effertz-McKenzie",
+  "AssociateId": 578,
+  "Snum": 57,
+  "SaleId": 7,
+  "SaleName": "Larson, Reinger and Deckow",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 432
+      "FieldType": "System.Int32",
+      "FieldLength": 141
     }
   }
 }

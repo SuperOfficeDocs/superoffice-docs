@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 99,
-    "Name": "Rosenbaum Inc and Sons",
-    "ToolTip": "Qui earum.",
+    "Id": 118,
+    "Name": "Schowalter, Waters and Bartoletti",
+    "ToolTip": "Labore quam natus nemo.",
     "Deleted": false,
-    "Rank": 355,
-    "Type": "sapiente",
-    "ColorBlock": 9,
-    "IconHint": "porro",
+    "Rank": 191,
+    "Type": "quas",
+    "ColorBlock": 591,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "1999-01-24T03:46:55.581978+01:00",
+    "LastChanged": "2007-04-02T03:41:54.3244492+02:00",
     "ChildItems": [
       {
-        "Id": 802,
-        "Name": "Wolf, Kuhlman and Lang",
-        "ToolTip": "Adipisci officiis fugiat iure sed est deleniti.",
+        "Id": 823,
+        "Name": "Jewess, Murphy and O'Connell",
+        "ToolTip": "Enim aut eum id.",
         "Deleted": false,
-        "Rank": 703,
-        "Type": "qui",
-        "ColorBlock": 578,
-        "IconHint": "reiciendis",
+        "Rank": 250,
+        "Type": "debitis",
+        "ColorBlock": 738,
+        "IconHint": "consequatur",
         "Selected": true,
-        "LastChanged": "2005-10-27T03:46:55.581978+02:00",
+        "LastChanged": "2012-01-28T03:41:54.3244492+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "maxime",
-        "Hidden": true,
-        "FullName": "Mr. Joan Cummerata",
+        "ExtraInfo": "aut",
+        "StyleHint": "omnis",
+        "Hidden": false,
+        "FullName": "Brandt Lakin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 31
+            "FieldLength": 725
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "sit",
-    "Hidden": false,
-    "FullName": "Myriam White",
+    "ExtraInfo": "nihil",
+    "StyleHint": "labore",
+    "Hidden": true,
+    "FullName": "Dr. Wilfrid Harvey Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 972
+        "FieldLength": 220
       }
     }
   }

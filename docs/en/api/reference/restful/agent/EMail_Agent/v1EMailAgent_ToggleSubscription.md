@@ -72,7 +72,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "FolderId": 994,
+  "FolderId": 157,
   "SubscriptionStatus": false
 }
 ```

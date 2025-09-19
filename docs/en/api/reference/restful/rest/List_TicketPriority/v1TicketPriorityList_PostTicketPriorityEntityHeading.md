@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 996,
-  "Name": "Bashirian, Walsh and Ziemann",
-  "Tooltip": "omnis",
+  "HeadingId": 709,
+  "Name": "Aufderhar LLC",
+  "Tooltip": "officiis",
   "Deleted": false,
-  "Rank": 914,
-  "UdListDefinitionId": 375
+  "Rank": 439,
+  "UdListDefinitionId": 160
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 766,
-  "Name": "Krajcik LLC",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 716,
-  "UdListDefinitionId": 980,
+  "HeadingId": 569,
+  "Name": "Murray, Mitchell and Haag",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "Rank": 740,
+  "UdListDefinitionId": 460,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 761
+      "FieldLength": 889
     }
   }
 }

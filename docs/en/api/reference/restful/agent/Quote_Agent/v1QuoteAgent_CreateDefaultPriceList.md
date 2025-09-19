@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 986,
-  "ERPPriceListKey": "quos",
-  "QuoteConnectionId": 533,
-  "Name": "Quigley Group",
-  "Description": "User-friendly composite protocol",
-  "Currency": "maiores",
-  "CurrencyName": "Marks, Steuber and Roob",
-  "ValidFrom": "2024-01-11T03:46:55.2069913+01:00",
-  "ValidTo": "2015-06-06T03:46:55.2069913+02:00",
-  "IsActive": false,
+  "PriceListId": 15,
+  "ERPPriceListKey": "error",
+  "QuoteConnectionId": 773,
+  "Name": "Lynch Group",
+  "Description": "Progressive optimizing installation",
+  "Currency": "veritatis",
+  "CurrencyName": "Ferry LLC",
+  "ValidFrom": "2020-07-22T03:41:53.9494656+02:00",
+  "ValidTo": "2017-11-01T03:41:53.9494656+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 569
+      "FieldLength": 810
     }
   }
 }

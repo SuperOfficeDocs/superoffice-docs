@@ -1422,7 +1422,7 @@ Contact + Person selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonDynamicSelectionSingleCriteriaGroup?$select=appointment/completed,appointment/who,document/associate/credentialType,personDirectFax/formattedNumber,personSourceRelation/whenUpdatedByWorkflow
+GET /api/v1/archive/ContactPersonDynamicSelectionSingleCriteriaGroup?$select=postAddress/wgs84latitude,NumberOfTicketsInPeriod,sourceRelation/restrictionContactId,sale/userGroup,sale/associate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

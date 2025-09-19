@@ -116,18 +116,18 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 664,
-  "PersonId": 518,
-  "AppointmentId": 76,
-  "DocumentId": 344,
-  "SaleId": 46,
-  "SelectionId": 561,
-  "ProjectId": 820,
-  "UiCulture": "voluptatem"
+  "ContactId": 182,
+  "PersonId": 129,
+  "AppointmentId": 91,
+  "DocumentId": 33,
+  "SaleId": 765,
+  "SelectionId": 245,
+  "ProjectId": 644,
+  "UiCulture": "possimus"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 791,
+  "DocumentId": 262,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "doloremque",
-  "Header": "quo",
-  "Name": "Renner Group",
-  "OurRef": "cupiditate",
-  "YourRef": "et",
-  "CreatedDate": "2016-09-04T03:46:54.67576+02:00",
-  "UpdatedDate": "2001-01-29T03:46:54.67576+01:00",
-  "Description": "Customer-focused holistic encoding",
+  "Attention": "odit",
+  "Header": "voluptatem",
+  "Name": "Schroeder, Okuneva and Farrell",
+  "OurRef": "magni",
+  "YourRef": "est",
+  "CreatedDate": "2004-11-10T03:41:53.4338618+01:00",
+  "UpdatedDate": "2006-01-18T03:41:53.4338618+01:00",
+  "Description": "Upgradable actuating ability",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2025-05-25T03:46:54.6913844+02:00",
-  "ExternalRef": "libero",
+  "Date": "2009-11-27T03:41:53.4338618+01:00",
+  "ExternalRef": "saepe",
   "Completed": "Completed",
-  "ActiveLinks": 705,
+  "ActiveLinks": 460,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Maggio, Ward and Cruickshank",
-      "Id": 256,
-      "Description": "Enhanced executive monitoring",
-      "ExtraInfo": "harum",
-      "LinkId": 10,
+      "EntityName": "Kiehn-Herman",
+      "Id": 182,
+      "Description": "Self-enabling 24 hour database",
+      "ExtraInfo": "ea",
+      "LinkId": 511,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 158
+          "FieldType": "System.String",
+          "FieldLength": 774
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 103,
-  "Snum": 905,
+  "SuggestedDocumentId": 603,
+  "Snum": 474,
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "Ms. Ed Aryanna Thompson"
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolore",
-    "ExtraFields2": "est"
+    "ExtraFields1": "temporibus",
+    "ExtraFields2": "optio"
   },
   "CustomFields": {
-    "CustomFields1": "eum",
-    "CustomFields2": "vel"
+    "CustomFields1": "consectetur",
+    "CustomFields2": "dolorem"
   },
-  "PublishEventDate": "2011-06-12T03:46:54.6913844+02:00",
-  "PublishTo": "2004-04-18T03:46:54.6913844+02:00",
-  "PublishFrom": "2004-06-22T03:46:54.6913844+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "1999-02-21T03:41:53.4338618+01:00",
+  "PublishTo": "2020-07-12T03:41:53.4338618+02:00",
+  "PublishFrom": "2015-03-30T03:41:53.4338618+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 233,
+      "VisibleId": 991,
       "Visibility": "All",
-      "DisplayValue": "repellat",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 295
+          "FieldType": "System.String",
+          "FieldLength": 647
         }
       }
     },
     {
-      "VisibleId": 233,
+      "VisibleId": 991,
       "Visibility": "All",
-      "DisplayValue": "repellat",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 295
+          "FieldType": "System.String",
+          "FieldLength": 647
         }
       }
     }
@@ -228,8 +228,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 924
+      "FieldType": "System.String",
+      "FieldLength": 773
     }
   }
 }

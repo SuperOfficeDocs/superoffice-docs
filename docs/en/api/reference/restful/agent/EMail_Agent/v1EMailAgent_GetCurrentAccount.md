@@ -89,24 +89,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 165,
-  "EMailAddress": "nostrum",
-  "AssociateId": 252,
+  "EMailAccountId": 758,
+  "EMailAddress": "necessitatibus",
+  "AssociateId": 92,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 710,
-  "ErrorCount": 445,
+  "AccountStatus": 104,
+  "ErrorCount": 419,
   "ErrorReason": "",
-  "InboxFolder": "ut",
-  "SentFolder": "ut",
-  "SimpleMode": 513,
-  "LastFetch": "2008-11-02T03:46:54.7538824+01:00",
+  "InboxFolder": "consequuntur",
+  "SentFolder": "provident",
+  "SimpleMode": 85,
+  "LastFetch": "1998-07-05T03:41:53.4963592+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 904
+      "FieldType": "System.Int32",
+      "FieldLength": 105
     }
   }
 }

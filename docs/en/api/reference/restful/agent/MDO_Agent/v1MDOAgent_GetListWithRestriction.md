@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schuppe LLC",
-  "AdditionalInfo": "alias",
-  "SearchValue": "accusamus"
+  "Name": "Friesen, Watsica and Shanahan",
+  "AdditionalInfo": "nulla",
+  "SearchValue": "repellat"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 402,
-    "Name": "Jakubowski, West and Stracke",
-    "ToolTip": "Id enim nihil officia quod quia quisquam.",
-    "Deleted": true,
-    "Rank": 630,
-    "Type": "earum",
+    "Id": 939,
+    "Name": "Jaskolski, Kertzmann and Jerde",
+    "ToolTip": "Ad ratione quidem quo temporibus sequi ipsa laboriosam.",
+    "Deleted": false,
+    "Rank": 914,
+    "Type": "quisquam",
     "ChildItems": [
       {
-        "Id": 409,
-        "Name": "Jacobs Inc and Sons",
-        "ToolTip": "Fuga omnis deleniti odit cum.",
+        "Id": 516,
+        "Name": "Roob-Considine",
+        "ToolTip": "Optio aliquam alias accusamus quis repellendus quia.",
         "Deleted": false,
-        "Rank": 754,
-        "Type": "impedit",
+        "Rank": 436,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 695,
-        "ExtraInfo": "voluptates",
-        "StyleHint": "et",
-        "FullName": "Lazaro O'Reilly",
+        "IconHint": "dolores",
+        "ColorBlock": 173,
+        "ExtraInfo": "veritatis",
+        "StyleHint": "iste",
+        "FullName": "Mrs. Hattie Dustin Schaefer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 284
+            "FieldType": "System.String",
+            "FieldLength": 626
           }
         }
       }
     ],
-    "IconHint": "quibusdam",
-    "ColorBlock": 908,
-    "ExtraInfo": "velit",
-    "StyleHint": "quia",
-    "FullName": "Lauren Huel",
+    "IconHint": "quia",
+    "ColorBlock": 985,
+    "ExtraInfo": "fugiat",
+    "StyleHint": "sequi",
+    "FullName": "Brisa Kutch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 976
+        "FieldType": "System.Int32",
+        "FieldLength": 699
       }
     }
   }

@@ -27,7 +27,7 @@ Gets a ContactEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=321
+POST /api/v1/Agents/Contact/GetContactEntity?contactEntityId=897
 POST /api/v1/Agents/Contact/GetContactEntity?$select=name,department,category/id
 ```
 
@@ -99,7 +99,7 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | BounceEmails | array | Email addresses with a positive bounce counter. |
 | Domains | array | Web domains for this contact, ordered in array by rank |
-| InitialUtmParameters | InitalUtmParameters | Initial utm parameters when creating first person, readonly field |
+| UtmParameters | SavedUtmParameters | Utm parameters when creating first person and contact, readonly field |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
@@ -122,157 +122,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 822,
-  "Name": "Orn, Emard and Hamill",
+  "ContactId": 268,
+  "Name": "Conroy Group",
   "Department": "",
-  "OrgNr": "537400",
-  "Number1": "1303059",
-  "Number2": "1097869",
-  "UpdatedDate": "2023-07-28T03:46:54.4882666+02:00",
-  "CreatedDate": "2022-04-08T03:46:54.4882666+02:00",
+  "OrgNr": "1000648",
+  "Number1": "491706",
+  "Number2": "1255645",
+  "UpdatedDate": "2023-07-02T03:41:53.2619943+02:00",
+  "CreatedDate": "2018-11-20T03:41:53.2619943+01:00",
   "Emails": [
     {
-      "Value": "nesciunt",
-      "StrippedValue": "omnis",
-      "Description": "Balanced motivating neural-net",
+      "Value": "similique",
+      "StrippedValue": "harum",
+      "Description": "Horizontal encompassing orchestration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 284
+          "FieldType": "System.String",
+          "FieldLength": 41
         }
       }
     },
     {
-      "Value": "nesciunt",
-      "StrippedValue": "omnis",
-      "Description": "Balanced motivating neural-net",
+      "Value": "similique",
+      "StrippedValue": "harum",
+      "Description": "Horizontal encompassing orchestration",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 284
+          "FieldType": "System.String",
+          "FieldLength": 41
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 221,
-      "Name": "O'Reilly-Blick",
-      "ToolTip": "Quibusdam et eos.",
-      "Deleted": false,
-      "Rank": 26,
-      "Type": "nesciunt",
-      "ColorBlock": 355,
-      "IconHint": "totam",
-      "Selected": true,
-      "LastChanged": "2002-09-17T03:46:54.4882666+02:00",
+      "Id": 369,
+      "Name": "Sauer, Konopelski and Bode",
+      "ToolTip": "Dolor reprehenderit excepturi voluptatem dolorem aut.",
+      "Deleted": true,
+      "Rank": 865,
+      "Type": "aut",
+      "ColorBlock": 8,
+      "IconHint": "inventore",
+      "Selected": false,
+      "LastChanged": "2008-03-16T03:41:53.2619943+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "neque",
-      "StyleHint": "officiis",
-      "Hidden": true,
-      "FullName": "Lonie Rowe",
+      "ExtraInfo": "repellat",
+      "StyleHint": "ut",
+      "Hidden": false,
+      "FullName": "Rosella Mayert I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 876
+          "FieldLength": 288
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "quo",
-      "StrippedValue": "velit",
-      "Description": "Reduced empowering website",
+      "Value": "harum",
+      "StrippedValue": "facere",
+      "Description": "Re-contextualized 3rd generation standardization",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 285
+          "FieldLength": 614
         }
       }
     },
     {
-      "Value": "quo",
-      "StrippedValue": "velit",
-      "Description": "Reduced empowering website",
+      "Value": "harum",
+      "StrippedValue": "facere",
+      "Description": "Re-contextualized 3rd generation standardization",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 285
+          "FieldLength": 614
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "quis",
-      "StrippedValue": "exercitationem",
-      "Description": "Vision-oriented systematic emulation",
+      "Value": "accusantium",
+      "StrippedValue": "consequatur",
+      "Description": "Managed systemic website",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 617
+          "FieldLength": 450
         }
       }
     },
     {
-      "Value": "quis",
-      "StrippedValue": "exercitationem",
-      "Description": "Vision-oriented systematic emulation",
+      "Value": "accusantium",
+      "StrippedValue": "consequatur",
+      "Description": "Managed systemic website",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 617
+          "FieldLength": 450
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "est",
-      "StrippedValue": "mollitia",
-      "Description": "Switchable user-facing Graphical User Interface",
+      "Value": "sunt",
+      "StrippedValue": "quia",
+      "Description": "Fully-configurable methodical secured line",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 563
+          "FieldLength": 512
         }
       }
     },
     {
-      "Value": "est",
-      "StrippedValue": "mollitia",
-      "Description": "Switchable user-facing Graphical User Interface",
+      "Value": "sunt",
+      "StrippedValue": "quia",
+      "Description": "Fully-configurable methodical secured line",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 563
+          "FieldLength": 512
         }
       }
     }
   ],
-  "Description": "Horizontal tangible core",
+  "Description": "Polarised assymetric analyzer",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -281,102 +281,102 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "eius",
-      "PersonId": 623,
-      "Mrmrs": "dolores",
-      "Firstname": "Vincenza",
-      "Lastname": "Bartoletti",
-      "MiddleName": "Parisian-Renner",
-      "Title": "optio",
-      "Description": "Progressive stable framework",
-      "Email": "estel@mcglynngraham.com",
-      "FullName": "Dr. Madisen Rath Sr.",
-      "DirectPhone": "427-368-0369",
-      "FormalName": "Hammes-Heathcote",
-      "CountryId": 447,
-      "ContactId": 100,
-      "ContactName": "Morissette-Greenfelder",
-      "Retired": 751,
-      "Rank": 530,
-      "ActiveInterests": 737,
+      "Position": "libero",
+      "PersonId": 371,
+      "Mrmrs": "vel",
+      "Firstname": "Loma",
+      "Lastname": "Zemlak",
+      "MiddleName": "Schmidt LLC",
+      "Title": "iste",
+      "Description": "Re-engineered leading edge synergy",
+      "Email": "melba_greenholt@nader.com",
+      "FullName": "Jessika Hagenes",
+      "DirectPhone": "1-876-828-0026",
+      "FormalName": "Kunde, Lynch and Kshlerin",
+      "CountryId": 550,
+      "ContactId": 836,
+      "ContactName": "Legros, Deckow and Oberbrunner",
+      "Retired": 386,
+      "Rank": 616,
+      "ActiveInterests": 171,
       "ContactDepartment": "",
-      "ContactCountryId": 778,
-      "ContactOrgNr": "879849",
-      "FaxPhone": "987.214.0921 x55676",
-      "MobilePhone": "1-001-643-0755",
-      "ContactPhone": "1-478-570-4506 x156",
-      "AssociateName": "Hintz, Jast and Maggio",
-      "AssociateId": 777,
-      "UsePersonAddress": true,
-      "ContactFax": "sit",
-      "Kanafname": "dolores",
-      "Kanalname": "quia",
-      "Post1": "recusandae",
-      "Post2": "occaecati",
-      "Post3": "sit",
-      "EmailName": "sunny.schoen@paucek.name",
-      "ContactFullName": "Esmeralda Ziemann",
-      "ActiveErpLinks": 57,
-      "TicketPriorityId": 84,
-      "SupportLanguageId": 269,
-      "SupportAssociateId": 991,
+      "ContactCountryId": 532,
+      "ContactOrgNr": "442716",
+      "FaxPhone": "1-535-396-6244 x976",
+      "MobilePhone": "994-103-2415",
+      "ContactPhone": "1-098-274-3900 x2027",
+      "AssociateName": "Leffler LLC",
+      "AssociateId": 537,
+      "UsePersonAddress": false,
+      "ContactFax": "iusto",
+      "Kanafname": "doloribus",
+      "Kanalname": "possimus",
+      "Post1": "dolorem",
+      "Post2": "molestiae",
+      "Post3": "at",
+      "EmailName": "gracie.pfannerstill@lemkewelch.uk",
+      "ContactFullName": "Fleta Hane",
+      "ActiveErpLinks": 168,
+      "TicketPriorityId": 242,
+      "SupportLanguageId": 955,
+      "SupportAssociateId": 431,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "672413",
+      "PersonNumber": "1054346",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 783
+          "FieldLength": 136
         }
       }
     }
   ],
   "NoMailing": true,
-  "Kananame": "error",
-  "Xstop": false,
-  "ActiveInterests": 625,
-  "GroupId": 614,
-  "ActiveStatusMonitorId": 202,
+  "Kananame": "illum",
+  "Xstop": true,
+  "ActiveInterests": 860,
+  "GroupId": 635,
+  "ActiveStatusMonitorId": 189,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 548,
-  "DbiAgentId": 623,
-  "DbiLastSyncronized": "2005-08-12T03:46:54.5038911+02:00",
-  "DbiKey": "incidunt",
-  "DbiLastModified": "2025-05-07T03:46:54.5038911+02:00",
+  "Deleted": 686,
+  "DbiAgentId": 562,
+  "DbiLastSyncronized": "2018-11-03T03:41:53.2619943+01:00",
+  "DbiKey": "ut",
+  "DbiLastModified": "2004-01-23T03:41:53.2619943+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 199,
-  "ActiveErpLinks": 353,
+  "Source": 209,
+  "ActiveErpLinks": 15,
   "BounceEmails": [
-    "hugh@russel.info",
-    "bobby.ondricka@strosinconroy.com"
+    "blair_lakin@feeneycrona.ca",
+    "valentine_johnston@ziemann.uk"
   ],
   "Domains": [
-    "non",
-    "praesentium"
+    "eligendi",
+    "ipsa"
   ],
-  "InitialUtmParameters": null,
+  "UtmParameters": null,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Sheila Corwin"
+    "SuperOffice:1": "Emilie Fadel",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "vero",
-    "ExtraFields2": "impedit"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "ratione"
   },
   "CustomFields": {
-    "CustomFields1": "facere",
-    "CustomFields2": "exercitationem"
+    "CustomFields1": "accusantium",
+    "CustomFields2": "at"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 95
+      "FieldType": "System.String",
+      "FieldLength": 76
     }
   }
 }

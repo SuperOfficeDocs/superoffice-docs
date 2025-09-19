@@ -78,26 +78,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Daugherty-Pfeffer",
-    "Records": 478,
+    "EntityName": "Bernier LLC",
+    "Records": 869,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 442
+        "FieldType": "System.Int32",
+        "FieldLength": 109
       }
     }
   },
   {
-    "EntityName": "Daugherty-Pfeffer",
-    "Records": 478,
+    "EntityName": "Bernier LLC",
+    "Records": 869,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 442
+        "FieldType": "System.Int32",
+        "FieldLength": 109
       }
     }
   }

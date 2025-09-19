@@ -95,7 +95,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -106,37 +106,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "McDermott LLC",
-    "SaleDate": "2017-05-31T03:46:55.2694888+02:00",
-    "SaleId": 925,
-    "Probability": 82,
-    "Title": "quaerat",
-    "Amount": 11655.346,
-    "Currency": "voluptas",
-    "ProjectName": "Hartmann-Rohan",
-    "AssociateFullName": "Prof. Jacinthe Eliane Mosciski Jr.",
-    "Description": "Managed leading edge frame",
+    "ContactName": "Veum Inc and Sons",
+    "SaleDate": "2017-07-17T03:41:54.0119629+02:00",
+    "SaleId": 300,
+    "Probability": 136,
+    "Title": "exercitationem",
+    "Amount": 7734.7119999999995,
+    "Currency": "velit",
+    "ProjectName": "Kutch Inc and Sons",
+    "AssociateFullName": "Mrs. Mustafa Hellen Kshlerin MD",
+    "Description": "Diverse multimedia data-warehouse",
     "Status": "Lost",
-    "WeightedAmount": 24454.602,
-    "ProjectId": 534,
-    "EarningPercent": 20537.102,
-    "Earning": 26419.62,
-    "ContactId": 215,
-    "AssociateId": 901,
-    "PersonId": 319,
-    "SaleTypeId": 848,
-    "SaleTypeName": "Cartwright, Lind and Thiel",
-    "PersonFullName": "Hailie Hilpert III",
+    "WeightedAmount": 16058.616,
+    "ProjectId": 875,
+    "EarningPercent": 4321.786,
+    "Earning": 29597.496,
+    "ContactId": 14,
+    "AssociateId": 349,
+    "PersonId": 164,
+    "SaleTypeId": 122,
+    "SaleTypeName": "Runolfsdottir-Mosciski",
+    "PersonFullName": "Libby Robert Hamill IV",
     "Completed": "Completed",
-    "ActiveErpLinks": 439,
-    "NextDueDate": "2022-10-13T03:46:55.2694888+02:00",
-    "Number": "900100",
+    "ActiveErpLinks": 836,
+    "NextDueDate": "2014-01-26T03:41:54.0119629+01:00",
+    "Number": "950593",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 874
+        "FieldLength": 733
       }
     }
   }

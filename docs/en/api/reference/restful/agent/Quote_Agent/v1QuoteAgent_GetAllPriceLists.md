@@ -90,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 79,
-  "Currency": "doloremque"
+  "QuoteConnectionId": 345,
+  "Currency": "eaque"
 }
 ```
 
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 512,
-    "ERPPriceListKey": "laborum",
-    "QuoteConnectionId": 725,
-    "Name": "Veum-Effertz",
-    "Description": "Synergized coherent superstructure",
-    "Currency": "voluptas",
-    "CurrencyName": "Fay Inc and Sons",
-    "ValidFrom": "2011-04-16T03:46:55.2226157+02:00",
-    "ValidTo": "2005-08-05T03:46:55.2226157+02:00",
-    "IsActive": false,
+    "PriceListId": 559,
+    "ERPPriceListKey": "delectus",
+    "QuoteConnectionId": 46,
+    "Name": "Sanford LLC",
+    "Description": "Distributed human-resource capability",
+    "Currency": "expedita",
+    "CurrencyName": "Morar, Cruickshank and Boyer",
+    "ValidFrom": "2000-11-21T03:41:53.9650897+01:00",
+    "ValidTo": "2020-02-16T03:41:53.9650897+01:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 973
+        "FieldLength": 5
       }
     }
   }

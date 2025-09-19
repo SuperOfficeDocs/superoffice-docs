@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/GetFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 584,
-  "UdListDefinitionId": 554
+  "Id": 627,
+  "UdListDefinitionId": 175
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 27,
-  "Name": "Bergstrom-Hessel",
-  "Tooltip": "fugit",
+  "Id": 314,
+  "Name": "Rogahn, Walker and Skiles",
+  "Tooltip": "exercitationem",
   "Deleted": false,
-  "UdListDefinitionId": 916,
-  "Rank": 898,
+  "UdListDefinitionId": 231,
+  "Rank": 119,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 458
+      "FieldType": "System.Int32",
+      "FieldLength": 756
     }
   }
 }

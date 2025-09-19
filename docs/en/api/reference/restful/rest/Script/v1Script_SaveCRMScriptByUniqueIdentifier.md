@@ -90,20 +90,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "quidem",
-  "Name": "Watsica, Schuppe and Bailey",
-  "Description": "Function-based bottom-line groupware",
-  "IncludeId": "nemo",
-  "Source": "est",
-  "Registered": "2009-09-20T03:47:00.5036785+02:00",
-  "RegisteredBy": "aut",
-  "Updated": "2006-04-19T03:47:00.5036785+02:00",
-  "UpdatedBy": "accusantium",
-  "Path": "eveniet",
+  "UniqueIdentifier": "vel",
+  "Name": "Kertzmann-Kihn",
+  "Description": "Progressive stable concept",
+  "IncludeId": "amet",
+  "Source": "deleniti",
+  "Registered": "2007-08-17T03:41:59.2148698+02:00",
+  "RegisteredBy": "a",
+  "Updated": "2015-06-20T03:41:59.2148698+02:00",
+  "UpdatedBy": "distinctio",
+  "Path": "et",
   "BlockedVerbs": "BlockAll"
 }
 ```
@@ -115,23 +115,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "incidunt",
-  "Name": "Goodwin-Ryan",
-  "Description": "Digitized actuating hierarchy",
-  "IncludeId": "nostrum",
-  "Source": "aut",
-  "Registered": "2014-05-31T03:47:00.5036785+02:00",
-  "RegisteredBy": "harum",
-  "Updated": "2001-06-08T03:47:00.5036785+02:00",
-  "UpdatedBy": "culpa",
-  "Path": "maiores",
+  "UniqueIdentifier": "esse",
+  "Name": "Hermiston Group",
+  "Description": "Cross-group 3rd generation neural-net",
+  "IncludeId": "voluptas",
+  "Source": "sed",
+  "Registered": "2024-06-17T03:41:59.2148698+02:00",
+  "RegisteredBy": "ipsum",
+  "Updated": "2008-12-07T03:41:59.2148698+01:00",
+  "UpdatedBy": "soluta",
+  "Path": "omnis",
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 865
+      "FieldLength": 808
     }
   }
 }

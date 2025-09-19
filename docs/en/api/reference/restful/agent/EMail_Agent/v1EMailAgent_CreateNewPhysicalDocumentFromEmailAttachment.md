@@ -111,13 +111,13 @@ OK
 POST /api/v1/Agents/EMail/CreateNewPhysicalDocumentFromEmailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 643,
-  "EmailItemId": 204,
-  "AttachmentId": "neque"
+  "DocumentId": 384,
+  "EmailItemId": 687,
+  "AttachmentId": "numquam"
 }
 ```
 
@@ -128,88 +128,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 578,
+  "DocumentId": 933,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "saepe",
-  "Header": "voluptatem",
-  "Name": "Bartoletti, Heathcote and Stanton",
-  "OurRef": "et",
-  "YourRef": "impedit",
-  "CreatedDate": "2017-01-08T03:46:54.7226337+01:00",
-  "UpdatedDate": "2013-11-09T03:46:54.7226337+01:00",
-  "Description": "Configurable context-sensitive forecast",
+  "Attention": "sed",
+  "Header": "nulla",
+  "Name": "Hansen-Rath",
+  "OurRef": "consequatur",
+  "YourRef": "temporibus",
+  "CreatedDate": "2011-08-19T03:41:53.480735+02:00",
+  "UpdatedDate": "2020-12-08T03:41:53.480735+01:00",
+  "Description": "Visionary eco-centric policy",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2013-05-23T03:46:54.7226337+02:00",
-  "ExternalRef": "natus",
+  "Date": "2019-08-21T03:41:53.480735+02:00",
+  "ExternalRef": "ut",
   "Completed": "Completed",
-  "ActiveLinks": 746,
+  "ActiveLinks": 931,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kozey-Jakubowski",
-      "Id": 163,
-      "Description": "Horizontal client-driven workforce",
-      "ExtraInfo": "hic",
-      "LinkId": 842,
+      "EntityName": "Tromp-Koch",
+      "Id": 546,
+      "Description": "Team-oriented zero tolerance intranet",
+      "ExtraInfo": "illum",
+      "LinkId": 598,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 290
+          "FieldType": "System.String",
+          "FieldLength": 603
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 873,
-  "Snum": 841,
+  "SuggestedDocumentId": 264,
+  "Snum": 505,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "823890143",
+    "SuperOffice:2": "53215736"
   },
   "ExtraFields": {
-    "ExtraFields1": "tempore",
-    "ExtraFields2": "quia"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "temporibus"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "ut"
+    "CustomFields1": "qui",
+    "CustomFields2": "voluptas"
   },
-  "PublishEventDate": "2007-08-22T03:46:54.7226337+02:00",
-  "PublishTo": "2017-09-15T03:46:54.7226337+02:00",
-  "PublishFrom": "2024-07-07T03:46:54.7226337+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2017-08-31T03:41:53.480735+02:00",
+  "PublishTo": "2008-06-06T03:41:53.480735+02:00",
+  "PublishFrom": "2023-05-08T03:41:53.480735+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 897,
+      "VisibleId": 958,
       "Visibility": "All",
-      "DisplayValue": "ab",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 993
+          "FieldType": "System.Int32",
+          "FieldLength": 426
         }
       }
     },
     {
-      "VisibleId": 897,
+      "VisibleId": 958,
       "Visibility": "All",
-      "DisplayValue": "ab",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 993
+          "FieldType": "System.Int32",
+          "FieldLength": 426
         }
       }
     }
@@ -219,7 +219,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldLength": 879
     }
   }
 }

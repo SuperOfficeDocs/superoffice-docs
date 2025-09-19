@@ -67,7 +67,7 @@ OK
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,22 +77,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 546,
-  "ERPPriceListKey": "non",
-  "QuoteConnectionId": 32,
-  "Name": "Stanton-Baumbach",
-  "Description": "Balanced systemic budgetary management",
-  "Currency": "et",
-  "CurrencyName": "Conn-Price",
-  "ValidFrom": "2013-08-26T03:47:00.7067961+02:00",
-  "ValidTo": "2018-04-21T03:47:00.7067961+02:00",
-  "IsActive": false,
+  "PriceListId": 60,
+  "ERPPriceListKey": "qui",
+  "QuoteConnectionId": 748,
+  "Name": "Braun, Kreiger and Rutherford",
+  "Description": "Managed systemic process improvement",
+  "Currency": "magnam",
+  "CurrencyName": "Rau LLC",
+  "ValidFrom": "2011-03-08T03:41:59.4648585+01:00",
+  "ValidTo": "2008-01-03T03:41:59.4648585+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldLength": 229
     }
   }
 }

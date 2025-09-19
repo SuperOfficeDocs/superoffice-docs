@@ -98,28 +98,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 44,
-  "Section": "cum",
-  "Key": "et",
-  "Name": "Spinka-Anderson",
+  "PrefDescId": 621,
+  "Section": "amet",
+  "Key": "tenetur",
+  "Name": "Little-Mills",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Virtual web-enabled core",
+  "Description": "Robust tertiary strategy",
   "IsBuiltin": false,
-  "TableName": "Mayer Group",
-  "UserDefinedListId": 932,
-  "Rank": 41,
-  "SubGroup": "praesentium",
-  "MinLevel": 35,
-  "MaxValue": 888,
-  "MinValue": 61,
-  "RequiredLicense": "mollitia"
+  "TableName": "Gulgowski LLC",
+  "UserDefinedListId": 387,
+  "Rank": 891,
+  "SubGroup": "dolor",
+  "MinLevel": 939,
+  "MaxValue": 935,
+  "MinValue": 158,
+  "RequiredLicense": "ex"
 }
 ```
 
@@ -130,30 +130,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 899,
-  "Section": "aliquid",
-  "Key": "in",
-  "Name": "Stracke-Jacobson",
+  "PrefDescId": 780,
+  "Section": "rerum",
+  "Key": "nisi",
+  "Name": "Schoen-Smitham",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Centralized heuristic process improvement",
-  "IsBuiltin": false,
-  "TableName": "Jewess, Schinner and McGlynn",
-  "UserDefinedListId": 563,
-  "Rank": 506,
-  "SubGroup": "dignissimos",
-  "MinLevel": 155,
-  "MaxValue": 820,
-  "MinValue": 784,
-  "RequiredLicense": "labore",
+  "Description": "Sharable zero tolerance project",
+  "IsBuiltin": true,
+  "TableName": "Mitchell Inc and Sons",
+  "UserDefinedListId": 673,
+  "Rank": 927,
+  "SubGroup": "odio",
+  "MinLevel": 911,
+  "MaxValue": 593,
+  "MinValue": 836,
+  "RequiredLicense": "tenetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 5
+      "FieldLength": 421
     }
   }
 }

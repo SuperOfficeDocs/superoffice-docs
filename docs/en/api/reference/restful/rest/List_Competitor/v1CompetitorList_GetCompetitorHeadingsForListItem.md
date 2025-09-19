@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 791,
-    "Name": "Gulgowski-Schulist",
-    "ToolTip": "Rem dolores earum excepturi fugit dolor.",
-    "Deleted": false,
-    "Rank": 118,
-    "Type": "aut",
-    "ColorBlock": 174,
-    "IconHint": "non",
-    "Selected": true,
-    "LastChanged": "2010-01-08T03:47:00.5974251+01:00",
+    "Id": 739,
+    "Name": "VonRueden-Dickinson",
+    "ToolTip": "Accusantium optio aspernatur.",
+    "Deleted": true,
+    "Rank": 526,
+    "Type": "vel",
+    "ColorBlock": 297,
+    "IconHint": "quidem",
+    "Selected": false,
+    "LastChanged": "2020-01-09T03:41:59.3554887+01:00",
     "ChildItems": [
       {
-        "Id": 391,
-        "Name": "Medhurst-Adams",
-        "ToolTip": "Assumenda qui distinctio laudantium quis occaecati amet et.",
-        "Deleted": false,
-        "Rank": 799,
-        "Type": "dolores",
-        "ColorBlock": 580,
-        "IconHint": "id",
+        "Id": 756,
+        "Name": "Kutch, Fay and Lockman",
+        "ToolTip": "Eos odit itaque.",
+        "Deleted": true,
+        "Rank": 301,
+        "Type": "harum",
+        "ColorBlock": 120,
+        "IconHint": "ratione",
         "Selected": false,
-        "LastChanged": "2004-05-02T03:47:00.5974251+02:00",
+        "LastChanged": "2003-07-26T03:41:59.3554887+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "deleniti",
+        "ExtraInfo": "vel",
+        "StyleHint": "odio",
         "Hidden": false,
-        "FullName": "Yvonne Klocko",
+        "FullName": "Leif Kuhlman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 277
+            "FieldLength": 823
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "quis",
+    "StyleHint": "sapiente",
     "Hidden": true,
-    "FullName": "Theodore Willms",
+    "FullName": "Rebekah Alia Schuppe I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 717
+        "FieldLength": 916
       }
     }
   }

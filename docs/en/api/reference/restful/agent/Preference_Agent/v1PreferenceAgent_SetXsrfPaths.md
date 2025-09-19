@@ -70,10 +70,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Hostname": "qui",
+  "Hostname": "suscipit",
   "Paths": [
-    "debitis",
-    "consequatur"
+    "rerum",
+    "voluptate"
   ]
 }
 ```

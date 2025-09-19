@@ -107,11 +107,11 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    851,
-    559
+    115,
+    8
   ],
-  "StartTime": "2016-08-05T03:46:54.0195335+02:00",
-  "EndTime": "1998-09-30T03:46:54.0195335+02:00"
+  "StartTime": "2007-10-08T03:41:52.793262+02:00",
+  "EndTime": "2006-04-26T03:41:52.793262+02:00"
 }
 ```
 
@@ -123,39 +123,39 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 55,
-    "AssociateId": 628,
-    "MotherId": 718,
-    "StartDate": "2019-07-30T03:46:54.0195335+02:00",
-    "EndDate": "2007-01-19T03:46:54.0195335+01:00",
+    "AppointmentId": 859,
+    "AssociateId": 922,
+    "MotherId": 990,
+    "StartDate": "2016-08-30T03:41:52.793262+02:00",
+    "EndDate": "2018-06-09T03:41:52.793262+02:00",
     "ColorIndex": "BlueAlt1",
-    "TaskName": "Ziemann, Corwin and Eichmann",
-    "ContactName": "Moen, Rosenbaum and Zboncak",
-    "ProjectName": "Koss-Little",
-    "Title": "cupiditate",
-    "Agenda": "praesentium",
-    "IsAllDay": false,
-    "IsBusy": true,
+    "TaskName": "Marvin, Osinski and Hansen",
+    "ContactName": "Kuhic, Brakus and Ondricka",
+    "ProjectName": "Murazik-Medhurst",
+    "Title": "est",
+    "Agenda": "nihil",
+    "IsAllDay": true,
+    "IsBusy": false,
     "IsRecurring": true,
     "IsVideoMeeting": true,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsCompleted": false,
-    "IsTentative": false,
+    "IsTentative": true,
     "IsBookingMain": false,
     "SendEmail": false,
     "AnySendEmail": false,
-    "IsPrivate": false,
+    "IsPrivate": true,
     "RecurrenceInfo": null,
-    "PersonName": "Lockman-Koepp",
+    "PersonName": "Macejkovic Group",
     "IsBooking": false,
     "OwnedExternally": "Google",
-    "MotherAssociateId": 191,
+    "MotherAssociateId": 505,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 139
+        "FieldType": "System.String",
+        "FieldLength": 3
       }
     }
   }

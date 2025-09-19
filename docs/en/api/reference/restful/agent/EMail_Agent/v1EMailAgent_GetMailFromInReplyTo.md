@@ -101,11 +101,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromInReplyTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "ipsam"
+  "MessageId": "enim"
 }
 ```
 
@@ -118,147 +118,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 609,
-      "ContactName": "Friesen, Legros and Corkery",
-      "PersonId": 613,
-      "PersonName": "Koelpin Inc and Sons",
-      "AssociateId": 436,
-      "Address": "necessitatibus",
-      "EmailId": 852,
+      "ContactId": 405,
+      "ContactName": "Schamberger Group",
+      "PersonId": 883,
+      "PersonName": "Satterfield-Skiles",
+      "AssociateId": 276,
+      "Address": "veniam",
+      "EmailId": 774,
       "DuplicatePersonIds": [
-        914,
-        253
+        703,
+        271
       ],
-      "Name": "White, Blick and Schultz",
+      "Name": "Gibson Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 987
+          "FieldType": "System.String",
+          "FieldLength": 686
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 697,
-      "ContactName": "Sipes Group",
-      "PersonId": 729,
-      "PersonName": "Block LLC",
-      "AssociateId": 80,
-      "Address": "inventore",
-      "EmailId": 772,
+      "ContactId": 984,
+      "ContactName": "Wilkinson LLC",
+      "PersonId": 920,
+      "PersonName": "Vandervort Inc and Sons",
+      "AssociateId": 817,
+      "Address": "est",
+      "EmailId": 883,
       "DuplicatePersonIds": [
-        514,
-        297
+        847,
+        975
       ],
-      "Name": "Ondricka LLC",
+      "Name": "Lubowitz LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 9
+          "FieldLength": 374
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 992,
-      "ContactName": "Gottlieb LLC",
-      "PersonId": 403,
-      "PersonName": "Rosenbaum Group",
-      "AssociateId": 515,
-      "Address": "amet",
-      "EmailId": 971,
+      "ContactId": 580,
+      "ContactName": "Blick-Bartoletti",
+      "PersonId": 451,
+      "PersonName": "Braun, Gottlieb and Kreiger",
+      "AssociateId": 1000,
+      "Address": "repudiandae",
+      "EmailId": 71,
       "DuplicatePersonIds": [
-        993,
-        396
+        122,
+        797
       ],
-      "Name": "Feeney-Bahringer",
+      "Name": "Hayes Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 652
+          "FieldType": "System.Int32",
+          "FieldLength": 445
         }
       }
     }
   ],
-  "Subject": "delectus",
-  "HTMLBody": "pariatur",
+  "Subject": "laudantium",
+  "HTMLBody": "dignissimos",
   "From": null,
-  "Sent": "2001-08-29T03:46:54.7226337+02:00",
-  "Size": 898,
+  "Sent": "2006-01-01T03:41:53.4651107+01:00",
+  "Size": 553,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "dolorem",
-  "PlainBody": "eos",
-  "IsSent": false,
+  "MessageID": "et",
+  "PlainBody": "est",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 626,
+  "ServerId": 479,
   "Attachments": [
     {
-      "Description": "Down-sized next generation collaboration",
-      "Filename": "incidunt",
-      "Size": 166,
-      "Type": "dolor",
-      "Encoding": "veritatis",
-      "Id": "et",
-      "Disposition": "sit",
-      "IsSafeFileExtension": true,
+      "Description": "Operative tertiary architecture",
+      "Filename": "esse",
+      "Size": 10,
+      "Type": "quaerat",
+      "Encoding": "deserunt",
+      "Id": "debitis",
+      "Disposition": "odio",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 857
+          "FieldType": "System.Int32",
+          "FieldLength": 182
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Nienow-Wintheiser",
+      "Name": "Howe-Bauch",
       "Values": [
-        "a",
-        "quaerat"
+        "quod",
+        "omnis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 722
+          "FieldType": "System.String",
+          "FieldLength": 864
         }
       }
     },
     {
-      "Name": "Nienow-Wintheiser",
+      "Name": "Howe-Bauch",
       "Values": [
-        "a",
-        "quaerat"
+        "quod",
+        "omnis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 722
+          "FieldType": "System.String",
+          "FieldLength": 864
         }
       }
     }
   ],
-  "FolderName": "Bogisich, Hilpert and Greenholt",
-  "EmailItemId": 90,
-  "AccountId": 193,
-  "ReceivedAt": "2016-01-17T03:46:54.7226337+01:00",
+  "FolderName": "Barrows LLC",
+  "EmailItemId": 508,
+  "AccountId": 1000,
+  "ReceivedAt": "2017-08-24T03:41:53.4651107+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2024-01-24T03:46:54.7226337+01:00",
+  "RepliedAt": "2020-09-30T03:41:53.4651107+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,8 +266,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 217
+      "FieldType": "System.String",
+      "FieldLength": 949
     }
   }
 }

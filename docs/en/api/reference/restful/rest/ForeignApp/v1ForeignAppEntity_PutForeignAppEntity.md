@@ -97,23 +97,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 333,
-  "Name": "Crist Group",
-  "CreatedDate": "2005-09-03T03:47:00.0193121+02:00",
-  "UpdatedDate": "2025-06-11T03:47:00.0193121+02:00",
+  "ForeignAppId": 641,
+  "Name": "Gusikowski-Hauck",
+  "CreatedDate": "2000-07-21T03:41:58.7617712+02:00",
+  "UpdatedDate": "2000-04-05T03:41:58.7617712+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 79,
-      "Name": "Halvorson-Block",
-      "CreatedDate": "2005-04-26T03:47:00.0193121+02:00",
-      "UpdatedDate": "2025-04-26T03:47:00.0193121+02:00",
-      "AssociateFullName": "Jalen Colton Larkin Jr.",
-      "CreatedBy": "est",
-      "UpdatedBy": "eum",
-      "DeviceIdentifier": "expedita",
-      "ForeignAppId": 486
+      "ForeignDeviceId": 277,
+      "Name": "Tillman, Nikolaus and Gleason",
+      "CreatedDate": "1998-09-01T03:41:58.7617712+02:00",
+      "UpdatedDate": "2000-01-07T03:41:58.7617712+01:00",
+      "AssociateFullName": "Nora Rosenbaum",
+      "CreatedBy": "voluptatibus",
+      "UpdatedBy": "at",
+      "DeviceIdentifier": "beatae",
+      "ForeignAppId": 833
     }
   ]
 }
@@ -126,29 +126,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 314,
-  "Name": "Boyer-Konopelski",
-  "CreatedDate": "2011-09-24T03:47:00.0193121+02:00",
-  "UpdatedDate": "2007-12-05T03:47:00.0193121+01:00",
+  "ForeignAppId": 515,
+  "Name": "Jacobi Inc and Sons",
+  "CreatedDate": "2022-10-22T03:41:58.7617712+02:00",
+  "UpdatedDate": "2007-03-20T03:41:58.7617712+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 463,
-      "Name": "Klein-Hansen",
-      "CreatedDate": "2006-04-11T03:47:00.0193121+02:00",
-      "UpdatedDate": "2008-10-12T03:47:00.0193121+02:00",
-      "AssociateFullName": "Marcelino Glover IV",
-      "CreatedBy": "laboriosam",
-      "UpdatedBy": "nihil",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 152,
+      "ForeignDeviceId": 686,
+      "Name": "Terry-Ledner",
+      "CreatedDate": "2009-10-30T03:41:58.7617712+01:00",
+      "UpdatedDate": "2003-08-02T03:41:58.7617712+02:00",
+      "AssociateFullName": "Mrs. Addie Haylie Lynch PhD",
+      "CreatedBy": "officia",
+      "UpdatedBy": "blanditiis",
+      "DeviceIdentifier": "laborum",
+      "ForeignAppId": 508,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 819
+          "FieldLength": 70
         }
       }
     }
@@ -158,12 +158,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 964
+      "FieldLength": 363
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

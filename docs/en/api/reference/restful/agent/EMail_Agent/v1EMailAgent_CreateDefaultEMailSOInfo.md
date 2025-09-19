@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,20 +75,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 758,
-  "AppointmentId": 691,
-  "ProjectId": 730,
-  "SaleId": 704,
+  "DocumentId": 612,
+  "AppointmentId": 983,
+  "ProjectId": 758,
+  "SaleId": 181,
   "Archived": false,
-  "ArchivedAt": "2014-12-09T03:46:54.7538824+01:00",
-  "ArchivedBy": 346,
-  "ArchivedDisplayName": "Strosin-Wuckert",
+  "ArchivedAt": "2007-05-19T03:41:53.4963592+02:00",
+  "ArchivedBy": 943,
+  "ArchivedDisplayName": "Goldner, Luettgen and Leannon",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 674
+      "FieldLength": 111
     }
   }
 }

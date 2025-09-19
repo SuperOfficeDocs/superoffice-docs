@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Casper-Jerde",
+  "TableName": "Thiel LLC",
   "IDs": [
-    299,
-    130
+    773,
+    314
   ]
 }
 ```
@@ -100,40 +100,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "maiores",
-  "Inserts": 728,
-  "Updates": 329,
-  "Deletes": 892,
+  "Message": "esse",
+  "Inserts": 183,
+  "Updates": 2,
+  "Deletes": 333,
   "RowStatus": [
     {
-      "PrimaryKey": 946,
+      "PrimaryKey": 289,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "praesentium",
-        "eum"
+        "earum",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 632
+          "FieldType": "System.String",
+          "FieldLength": 886
         }
       }
     },
     {
-      "PrimaryKey": 946,
+      "PrimaryKey": 289,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "praesentium",
-        "eum"
+        "earum",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 632
+          "FieldType": "System.String",
+          "FieldLength": 886
         }
       }
     }
@@ -143,7 +143,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 537
+      "FieldLength": 208
     }
   }
 }

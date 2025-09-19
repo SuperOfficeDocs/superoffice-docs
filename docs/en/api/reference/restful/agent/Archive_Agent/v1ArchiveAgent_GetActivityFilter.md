@@ -80,91 +80,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2024-11-23T03:46:54.2851489+01:00",
-  "ToDate": "2022-10-20T03:46:54.2851489+02:00",
+  "FromDate": "2006-04-18T03:41:53.0588794+02:00",
+  "ToDate": "2017-01-10T03:41:53.0588794+01:00",
   "AssociateList": [
     {
-      "Id": 410,
-      "Name": "Donnelly-O'Hara",
-      "ToolTip": "Quia ut nesciunt quo voluptatem aut.",
+      "Id": 100,
+      "Name": "Bradtke Inc and Sons",
+      "ToolTip": "Atque sed.",
       "Deleted": true,
-      "Rank": 717,
-      "Type": "ullam",
-      "ColorBlock": 422,
-      "IconHint": "cupiditate",
+      "Rank": 644,
+      "Type": "et",
+      "ColorBlock": 964,
+      "IconHint": "omnis",
       "Selected": true,
-      "LastChanged": "2015-04-18T03:46:54.2851489+02:00",
+      "LastChanged": "1998-08-25T03:41:53.0588794+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "error",
-      "StyleHint": "animi",
-      "Hidden": true,
-      "FullName": "Emerald Aufderhar",
+      "ExtraInfo": "omnis",
+      "StyleHint": "quos",
+      "Hidden": false,
+      "FullName": "Ms. Odell Braulio Mohr",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 683
+          "FieldType": "System.Int32",
+          "FieldLength": 954
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 164,
-      "Name": "Stehr Group",
-      "ToolTip": "Explicabo vel laboriosam et dolores.",
-      "Deleted": true,
-      "Rank": 133,
-      "Type": "et",
-      "ColorBlock": 68,
-      "IconHint": "odio",
+      "Id": 633,
+      "Name": "Kassulke, Jaskolski and Sanford",
+      "ToolTip": "Velit repellat nostrum tempora recusandae aperiam et.",
+      "Deleted": false,
+      "Rank": 507,
+      "Type": "alias",
+      "ColorBlock": 166,
+      "IconHint": "placeat",
       "Selected": true,
-      "LastChanged": "2009-05-23T03:46:54.2851489+02:00",
+      "LastChanged": "2004-02-21T03:41:53.0588794+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "maxime",
-      "StyleHint": "rem",
-      "Hidden": false,
-      "FullName": "Dr. Price Padberg I",
+      "ExtraInfo": "sint",
+      "StyleHint": "et",
+      "Hidden": true,
+      "FullName": "Kraig Kautzer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 708
+          "FieldType": "System.Int32",
+          "FieldLength": 337
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 705,
-      "Name": "Harber-Trantow",
-      "ToolTip": "Sed dolorem laboriosam et repellat et.",
-      "Deleted": false,
-      "Rank": 562,
-      "Type": "qui",
+      "Id": 573,
+      "Name": "Marquardt, Lakin and Mills",
+      "ToolTip": "Illo dolores itaque aut voluptas assumenda veritatis perspiciatis.",
+      "Deleted": true,
+      "Rank": 408,
+      "Type": "eos",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "rem",
-      "ColorBlock": 284,
-      "ExtraInfo": "qui",
-      "StyleHint": "consequatur",
-      "FullName": "Michelle Sawayn",
+      "IconHint": "consequatur",
+      "ColorBlock": 717,
+      "ExtraInfo": "magni",
+      "StyleHint": "soluta",
+      "FullName": "Mustafa Towne I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 855
+          "FieldType": "System.Int32",
+          "FieldLength": 837
         }
       }
     }
@@ -173,8 +173,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 111
+      "FieldType": "System.String",
+      "FieldLength": 894
     }
   }
 }

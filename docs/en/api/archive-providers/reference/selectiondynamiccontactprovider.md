@@ -1232,7 +1232,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionDynamicContactProvider?$select=streetAddress/line3,LastCompletedActivity,appointment/intention,appointment/associate/middleName,document/associate/contactName
+GET /api/v1/archive/SelectionDynamicContactProvider?$select=hasInfoText,restrictionAddress/wgs84latitude,contactExtra/x_contact_date,personSourceRelation/hasCompany,request/origin
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

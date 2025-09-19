@@ -80,27 +80,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Greenfelder Group",
+  "Name": "Gaylord-Ondricka",
   "Entities": [
     {
-      "HeadingId": 663,
-      "Name": "Rath, Kuvalis and Spinka",
-      "Tooltip": "debitis",
+      "HeadingId": 258,
+      "Name": "Windler, Kuvalis and Effertz",
+      "Tooltip": "fugiat",
       "Deleted": false,
-      "Rank": 854,
-      "UdListDefinitionId": 933
+      "Rank": 798,
+      "UdListDefinitionId": 554
     },
     {
-      "HeadingId": 663,
-      "Name": "Rath, Kuvalis and Spinka",
-      "Tooltip": "debitis",
+      "HeadingId": 258,
+      "Name": "Windler, Kuvalis and Effertz",
+      "Tooltip": "fugiat",
       "Deleted": false,
-      "Rank": 854,
-      "UdListDefinitionId": 933
+      "Rank": 798,
+      "UdListDefinitionId": 554
     }
   ]
 }
@@ -114,18 +114,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 201,
-    "Name": "Schamberger Group",
-    "Tooltip": "pariatur",
-    "Deleted": true,
-    "Rank": 953,
-    "UdListDefinitionId": 597,
+    "HeadingId": 174,
+    "Name": "Larkin-Sipes",
+    "Tooltip": "aliquam",
+    "Deleted": false,
+    "Rank": 987,
+    "UdListDefinitionId": 942,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 723
+        "FieldLength": 737
       }
     }
   }

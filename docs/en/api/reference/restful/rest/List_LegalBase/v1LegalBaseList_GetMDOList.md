@@ -28,7 +28,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=ipsam
+GET /api/v1/List/LegalBase/MDOItems?query=magni
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 994,
-    "Name": "Abbott LLC",
-    "ToolTip": "Dolores perspiciatis.",
-    "Deleted": true,
-    "Rank": 962,
-    "Type": "maiores",
+    "Id": 270,
+    "Name": "Runte, Wolff and Jenkins",
+    "ToolTip": "Fugiat quis veritatis et hic.",
+    "Deleted": false,
+    "Rank": 771,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 97,
-        "Name": "Corwin Inc and Sons",
-        "ToolTip": "Qui ea praesentium id et omnis suscipit.",
-        "Deleted": true,
-        "Rank": 982,
-        "Type": "voluptatibus",
+        "Id": 695,
+        "Name": "Labadie, Fay and Yundt",
+        "ToolTip": "Autem reiciendis dicta dicta nulla.",
+        "Deleted": false,
+        "Rank": 554,
+        "Type": "illo",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "perspiciatis",
-        "ColorBlock": 601,
-        "ExtraInfo": "molestiae",
-        "StyleHint": "inventore",
-        "FullName": "Jamil Kuvalis",
+        "IconHint": "dolores",
+        "ColorBlock": 153,
+        "ExtraInfo": "et",
+        "StyleHint": "quo",
+        "FullName": "Arvid Ankunding",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 688
+            "FieldLength": 723
           }
         }
       }
     ],
-    "IconHint": "vero",
-    "ColorBlock": 470,
-    "ExtraInfo": "quis",
-    "StyleHint": "temporibus",
-    "FullName": "Favian White",
+    "IconHint": "ratione",
+    "ColorBlock": 643,
+    "ExtraInfo": "molestiae",
+    "StyleHint": "sint",
+    "FullName": "Mr. Alyce Runolfsdottir I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 619
+        "FieldLength": 911
       }
     }
   }

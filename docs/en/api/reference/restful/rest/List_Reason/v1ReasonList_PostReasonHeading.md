@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 396,
-  "Name": "Nienow-Koelpin",
-  "Tooltip": "laboriosam",
+  "HeadingId": 580,
+  "Name": "Gerlach-Schaden",
+  "Tooltip": "consequuntur",
   "Deleted": false,
-  "Rank": 853,
-  "UdListDefinitionId": 5
+  "Rank": 369,
+  "UdListDefinitionId": 857
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 425,
-  "Name": "O'Keefe, Upton and Farrell",
-  "Tooltip": "non",
+  "HeadingId": 369,
+  "Name": "Weber-Morar",
+  "Tooltip": "hic",
   "Deleted": false,
-  "Rank": 936,
-  "UdListDefinitionId": 897,
+  "Rank": 389,
+  "UdListDefinitionId": 260,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 262
+      "FieldLength": 157
     }
   }
 }

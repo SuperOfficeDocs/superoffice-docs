@@ -83,15 +83,15 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nostrum",
-  "ProviderName": "Watsica Inc and Sons",
-  "StorageKey": "voluptates",
-  "Restrictions": "fugiat",
-  "StaticColumns": "necessitatibus"
+  "StorageType": "suscipit",
+  "ProviderName": "Cassin Group",
+  "StorageKey": "tenetur",
+  "Restrictions": "deserunt",
+  "StaticColumns": "sunt"
 }
 ```
 
@@ -104,81 +104,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Hauck Inc and Sons",
-      "Operator": "ducimus",
+      "Name": "Nader Inc and Sons",
+      "Operator": "nemo",
       "Values": [
-        "ea",
-        "corporis"
+        "error",
+        "ex"
       ],
       "DisplayValues": [
-        "corporis",
-        "fugiat"
+        "autem",
+        "animi"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 443,
+      "InterParenthesis": 583,
       "InterOperator": "And",
-      "UniqueHash": 338
+      "UniqueHash": 850
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Von, Botsford and Franecki",
-      "DisplayTooltip": "odio",
-      "DisplayType": "voluptatem",
-      "CanOrderBy": true,
-      "Name": "Bayer Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "occaecati",
-      "RestrictionListName": "Christiansen, Dooley and Cole",
-      "IsVisible": true,
-      "ExtraInfo": "qui",
-      "Width": "eos",
-      "IconHint": "architecto",
-      "HeadingIconHint": "aperiam"
+      "DisplayName": "Russel-Bayer",
+      "DisplayTooltip": "nam",
+      "DisplayType": "omnis",
+      "CanOrderBy": false,
+      "Name": "Keebler Group",
+      "CanRestrictBy": true,
+      "RestrictionType": "tenetur",
+      "RestrictionListName": "King-Ratke",
+      "IsVisible": false,
+      "ExtraInfo": "illum",
+      "Width": "officiis",
+      "IconHint": "excepturi",
+      "HeadingIconHint": "qui"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Christiansen, Kerluke and Abbott",
-      "PrimaryKey": 905,
+      "EntityName": "Brown, Upton and Bernhard",
+      "PrimaryKey": 69,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "molestiae",
-          "TooltipHint": "eos",
-          "LinkHint": "ea"
+          "DisplayValue": "odit",
+          "TooltipHint": "laudantium",
+          "LinkHint": "aliquam"
         }
       },
-      "LinkHint": "mollitia",
-      "StyleHint": "consectetur",
+      "LinkHint": "modi",
+      "StyleHint": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 926
+          "FieldType": "System.Int32",
+          "FieldLength": 432
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Schuppe-Keebler",
-      "Description": "Re-contextualized methodical matrix",
-      "Rank": 479,
+      "Name": "Bruen Inc and Sons",
+      "Description": "Configurable value-added parallelism",
+      "Rank": 403,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schuppe-Keebler",
-      "Description": "Re-contextualized methodical matrix",
-      "Rank": 479,
+      "Name": "Bruen Inc and Sons",
+      "Description": "Configurable value-added parallelism",
+      "Rank": 403,
       "Restrictions": [
         {},
         {}
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldType": "System.String",
+      "FieldLength": 512
     }
   }
 }

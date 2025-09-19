@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 501
+  "DocumentId": 585
 }
 ```
 
@@ -96,20 +96,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 531,
-  "Name": "Shields, Botsford and Heaney",
-  "ContentType": "voluptates",
-  "AttSize": 888,
+  "AttachmentId": 81,
+  "Name": "Rippin, Balistreri and Windler",
+  "ContentType": "quo",
+  "AttSize": 505,
   "InlineImage": true,
-  "ContentId": "qui",
-  "AuthKey": "enim",
+  "ContentId": "maiores",
+  "AuthKey": "sit",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldLength": 521
     }
   }
 }

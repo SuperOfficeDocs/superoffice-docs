@@ -27,7 +27,7 @@ Gets a RefCountEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=129
+POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?refCountEntityId=517
 POST /api/v1/Agents/NumberAllocation/GetRefCountEntity?$select=name,department,category/id
 ```
 
@@ -88,49 +88,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 636,
-  "Field": "dolorem",
-  "RecordId": 864,
+  "RefCountsId": 823,
+  "Field": "vero",
+  "RecordId": 65,
   "SuggestedRecords": [
     {
-      "Id": 144,
-      "Name": "Von, Fisher and Stokes",
-      "ToolTip": "Dolor laboriosam aut.",
-      "Deleted": true,
-      "Rank": 675,
-      "Type": "aliquid",
+      "Id": 390,
+      "Name": "Schmeler-Hintz",
+      "ToolTip": "Architecto officiis delectus esse porro exercitationem.",
+      "Deleted": false,
+      "Rank": 340,
+      "Type": "cupiditate",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "itaque",
-      "ColorBlock": 781,
-      "ExtraInfo": "vitae",
-      "StyleHint": "eligendi",
-      "FullName": "Tia Crooks",
+      "IconHint": "velit",
+      "ColorBlock": 148,
+      "ExtraInfo": "facere",
+      "StyleHint": "nihil",
+      "FullName": "Prof. Josh Schamberger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 716
+          "FieldType": "System.Int32",
+          "FieldLength": 357
         }
       }
     }
   ],
-  "CurrentValue": 938,
-  "TravelPrefix": 535,
-  "SatPrefix": 565,
+  "CurrentValue": 649,
+  "TravelPrefix": 864,
+  "SatPrefix": 791,
   "Allocate": false,
-  "Unique": false,
+  "Unique": true,
   "ReadOnly": false,
-  "AllowBlank": false,
+  "AllowBlank": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 983
+      "FieldType": "System.Int32",
+      "FieldLength": 687
     }
   }
 }

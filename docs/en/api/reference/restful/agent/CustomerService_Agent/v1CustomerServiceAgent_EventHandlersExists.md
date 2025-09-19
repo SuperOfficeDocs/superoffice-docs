@@ -74,8 +74,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EventHandlerTypes": [
-    "necessitatibus",
-    "amet"
+    "et",
+    "doloribus"
   ]
 }
 ```
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "molestiae",
-  "nihil"
+  "mollitia",
+  "omnis"
 ]
 ```

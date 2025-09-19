@@ -70,30 +70,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schroeder, Kohler and Donnelly",
-    "DisplayName": "Ruecker LLC",
-    "DisplayTooltip": "error",
-    "IsActive": false,
+    "Name": "O'Conner-Farrell",
+    "DisplayName": "Wyman-Hyatt",
+    "DisplayTooltip": "tempora",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 549
+        "FieldType": "System.Int32",
+        "FieldLength": 882
       }
     }
   },
   {
-    "Name": "Schroeder, Kohler and Donnelly",
-    "DisplayName": "Ruecker LLC",
-    "DisplayTooltip": "error",
-    "IsActive": false,
+    "Name": "O'Conner-Farrell",
+    "DisplayName": "Wyman-Hyatt",
+    "DisplayTooltip": "tempora",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 549
+        "FieldType": "System.Int32",
+        "FieldLength": 882
       }
     }
   }

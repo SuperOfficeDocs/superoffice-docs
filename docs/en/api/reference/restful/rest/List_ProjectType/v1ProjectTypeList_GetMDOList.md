@@ -27,8 +27,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=porro
+GET /api/v1/List/ProjectType/MDOItems?flat=True
+GET /api/v1/List/ProjectType/MDOItems?query=autem
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 838,
-    "Name": "Bernier Inc and Sons",
-    "ToolTip": "Quaerat sunt neque praesentium animi.",
+    "Id": 512,
+    "Name": "Langworth-Koch",
+    "ToolTip": "Accusantium voluptatem.",
     "Deleted": true,
-    "Rank": 407,
-    "Type": "quo",
+    "Rank": 944,
+    "Type": "laborum",
     "ChildItems": [
       {
-        "Id": 132,
-        "Name": "Roob-Stark",
-        "ToolTip": "Aliquid sunt molestiae quia.",
-        "Deleted": false,
-        "Rank": 141,
-        "Type": "atque",
+        "Id": 801,
+        "Name": "Balistreri Inc and Sons",
+        "ToolTip": "Vitae quo repellat earum voluptatum ducimus cumque ex.",
+        "Deleted": true,
+        "Rank": 405,
+        "Type": "laborum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatum",
-        "ColorBlock": 947,
-        "ExtraInfo": "officia",
-        "StyleHint": "et",
-        "FullName": "Lucious Hammes",
+        "IconHint": "aut",
+        "ColorBlock": 183,
+        "ExtraInfo": "dolore",
+        "StyleHint": "temporibus",
+        "FullName": "Prof. Kasey Lehner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 824
+            "FieldType": "System.String",
+            "FieldLength": 522
           }
         }
       }
     ],
-    "IconHint": "optio",
-    "ColorBlock": 749,
-    "ExtraInfo": "praesentium",
-    "StyleHint": "voluptate",
-    "FullName": "Estefania Deckow",
+    "IconHint": "cum",
+    "ColorBlock": 812,
+    "ExtraInfo": "temporibus",
+    "StyleHint": "ut",
+    "FullName": "Karlie Dickens DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 916
+        "FieldType": "System.String",
+        "FieldLength": 647
       }
     }
   }
