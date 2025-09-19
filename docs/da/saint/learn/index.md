@@ -10,7 +10,10 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: da
-redirect_from: /da/sale/saint/learn/index
+redirect_from:
+  - /da/sale/saint/learn/index
+  - /da/sale/saint/learn/status-dialog
+  - /da/saint/learn/status-dialog
 ---
 
 # Sales Intelligence (SAINT)
@@ -111,12 +114,24 @@ Når der vises et statusbillede for et firma, en person eller et projekt, har du
 
 * Hvis du holder musemarkøren over billedet, vises en infoboks, hvor du kan se navnet på statussen samt en beskrivelse af den. Du får også oplysninger om eventuelle andre statusser, som gælder for firmaet, personen eller projektet.
 
-* Hvis du klikker på billedet, vises [dialogboksen Vis statusser][1], hvor du kan se navnet på og beskrivelsen af statussen og udføre relevante opgaver for firmaet, personen eller projektet.
+* Hvis du klikker på billedet, vises dialogboksen **Vis statusser**, hvor du kan se navnet på og beskrivelsen af statussen og udføre relevante opgaver for firmaet, personen eller projektet.
 
 > [!TIP]
 > Du kan kombinere én eller flere af disse statusser som kriterier, når du opretter dynamiske udvalg, og på den måde give dig selv en enkel oversigt over firmaer, personer eller projekter, som opfylder kriterierne for disse statusser.
 >
 > Hvis du har brug for hjælp til at sætte SAINT op for at opnå fremskridt i dine salgs- og kundeprocesser, anbefaler vi altid at bruge en af vores dygtige konsulenter.
+
+### <a id="dialog"></a>Dialogboksen Vis statusser
+
+Dialogboksen **Vis statusser** vises, når du klikker på et statusbillede på et firma-, person- eller projektkort. Dialogboksen indeholder følgende oplysninger:
+
+| Element | Beskrivelse |
+|---|---|
+| Navn | Navnet på statussen defineres i Indstillinger og vedligeholdelse. |
+| Beskrivelse | En beskrivelse af statussen defineres i Indstillinger og vedligeholdelse. |
+| Andre statusser | Her står en henvisning til eventuelle andre statusser, som gælder for det aktuelle firma, den aktuelle person eller det aktuelle projekt. Dette felt vises kun, hvis der gælder flere statusser for den aktuelle post. |
+| Opret opfølgning | Bruges til at [oprette en ny opfølgning][1] for firmaet, personen eller projektet. Hvilken type opfølgning, der oprettes som standard, defineres i Indstillinger og vedligeholdelse. |
+| Tilføj til udvalg | Når der klikkes på denne knap, åbnes dialogboksen **Tilføj til udvalg**, hvor du kan tilføje det gældende firma eller den gældende person til et statisk udvalg, som du selv vælger. Dette valg kan kun bruges til statiske udvalg. [Sådan bruges statusser i dynamiske udvalg][2].|
 
 ## Bag kulisserne
 
@@ -134,7 +149,7 @@ SAINT-værdier er simple binære værdier (til eller fra), der bestemmer udseend
 * [Anvendelse af statusovervågning i dynamiske udvalg][2]
 
 <!-- Referenced links -->
-[1]: status-dialog.md
+[1]: ../../diary/learn/create-follow-up.md
 [2]: ../../search-options/selection/learn/create.md
 [3]: ../../../en/database/tables/countervalue.md
 [4]: ../../../en/database/tables/statusvalue.md

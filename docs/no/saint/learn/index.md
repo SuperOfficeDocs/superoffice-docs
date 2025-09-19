@@ -10,7 +10,10 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: no
-redirect_from: /no/sale/saint/learn/index
+redirect_from:
+  - /no/sale/saint/learn/index
+  - /no/sale/saint/learn/status-dialog
+  - /no/saint/learn/status-dialog
 ---
 
 # Sales Intelligence (SAINT)
@@ -111,12 +114,24 @@ Når du ser et statusbilde for et firma, en person eller et prosjekt, har du to 
 
 * Hvis du holder musepekeren over bildet, vises det en infoboks der du kan se navnet på statusen samt en beskrivelse av den. Du får også informasjon om eventuelle andre statuser som gjelder for firmaet, personen eller prosjektet.
 
-* Hvis du klikker på bildet, vises [dialogboksen Vis statuser][1], der du kan se navnet på og beskrivelsen av statusen og utføre relevante oppgaver for firmaet, personen eller prosjektet.
+* Hvis du klikker på bildet, vises dialogboksen **Vis statuser**, der du kan se navnet på og beskrivelsen av statusen og utføre relevante oppgaver for firmaet, personen eller prosjektet.
 
 > [!TIP]
 > Du kan kombinere én eller flere av disse statusene som kriterier når du oppretter et dynamisk utvalg, og på denne måten få enkel oversikt over firmaer, personer eller prosjekter med statuser som oppfyller disse kriteriene.
 >
 > Hvis du trenger hjelp til å konfigurere SAINT for å komme videre i salgs- og kundeprosessene, anbefaler vi alltid å bruke en av våre dyktige konsulenter.
+
+### <a id="dialog"></a>Dialogboksen Vis statuser
+
+Dialogboksen **Vis statuser** vises når du klikker på et statusbilde på et firma-, person- eller prosjektkort. Dialogboksen inneholder følgende informasjon:
+
+| Element | Beskrivelse |
+|---|---|
+| Navn | Navnet på statusen, definert i Innstillinger og vedlikehold. |
+| Beskrivelse | En beskrivelse av statusen, definert i Innstillinger og vedlikehold. |
+| Andre statuser | Her finner du en kobling til eventuelle andre statuser som gjelder for gjeldende firma, person eller prosjekt. Dette feltet vises bare hvis det finnes flere statuser for den aktuelle posten. |
+| Opprett oppfølging | Brukes til å [opprette en ny oppfølging][1] for firmaet, personen eller prosjektet. Typen oppfølging som opprettes som standard, er definert i Innstillinger og vedlikehold. |
+| Legg til i utvalg | Når du klikker på den, åpnes dialogboksen **Legg til i utvalg**, og du kan legge til gjeldende firma eller person i ønsket statisk utvalg. Dette alternativet kan bare brukes for statiske utvalg. [Slik bruker du statuser i dynamiske utvalg][2].|
 
 ## Bak kulissene
 
@@ -134,7 +149,7 @@ SAINT-verdier er enkle binære verdier (på eller av) som bestemmer utseendet ti
 * [Bruk statusovervåking i dynamiske utvalg][2]
 
 <!-- Referenced links -->
-[1]: status-dialog.md
+[1]: ../../diary/learn/create-follow-up.md
 [2]: ../../search-options/selection/learn/create.md
 [3]: ../../../en/database/tables/countervalue.md
 [4]: ../../../en/database/tables/statusvalue.md

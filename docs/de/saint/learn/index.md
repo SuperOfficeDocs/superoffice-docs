@@ -10,7 +10,10 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: de
-redirect_from: /de/sale/saint/learn/index
+redirect_from:
+  - /de/sale/saint/learn/index
+  - /de/sale/saint/learn/status-dialog
+  - /de/saint/learn/status-dialog
 ---
 
 # Sales Intelligence (SAINT)
@@ -111,12 +114,24 @@ Wenn ein Statussymbol für eine Firma, eine Person oder ein Projekt angezeigt wi
 
 * Wenn Sie den Mauszeiger über dem Symbol platzieren, wird eine QuickInfo mit dem Namen des Status und einer Beschreibung angezeigt. Sie können auch Informationen über weitere mit der Firma, der Person oder dem Projekt verbundene Statusangaben abrufen.
 
-* Wenn Sie auf das Bild klicken, wird das [Dialogfeld Statuskontrollen anzeigen][1] angezeigt. Hier sehen Sie den Namen und die Beschreibung des Status und können für die Firma, die Person oder das Projekt relevante Aufgaben ausführen.
+* Wenn Sie auf das Bild klicken, wird das Dialogfeld **Statuskontrollen anzeigen** angezeigt. Hier sehen Sie den Namen und die Beschreibung des Status und können für die Firma, die Person oder das Projekt relevante Aufgaben ausführen.
 
 > [!TIP]
 > Sie können eine oder mehrere dieser Statusangaben als Kriterien während der Erstellung einer dynamischen Selektion kombinieren und erhalten auf diese Weise eine einfache Übersicht über Firmen, Personen oder Projekte, deren Statusangaben diesen Kriterien entsprechen.
 >
 > Wenn Sie beim Einrichtung von SAINT Hilfe benötigen, um Ihre Vertriebs- und Kundenprozesse voranzutreiben, empfehlen wir Ihnen immer, sich an einen unserer kompetenten Berater zu wenden.
+
+### <a id="dialog"></a>Dialogfeld Statuskontrollen anzeigen
+
+Das Dialogfeld **Statuskontrollen anzeigen** wird angezeigt, wenn Sie auf ein Statusbild für eine Firmen-, Personen- oder Projektkarte klicken. Das Dialogfeld enthält die folgenden Informationen:
+
+| Element | Beschreibung |
+|---|---|
+| Name | Der in Einstellungen und Verwaltung definierte Statusname. |
+| Beschreibung | Eine in Einstellungen und Verwaltung definierte Statusbeschreibung. |
+| Andere Statusangaben | Eine Verknüpfung zu beliebigen Statusangaben, die sich auf die aktuelle Firma, Person bzw. das aktuelle Projekt beziehen. Dieses Feld wird nur angezeigt, wenn mehrere Statusangaben für den betreffenden Datensatz vorhanden sind. |
+| Folgeaufgabe erstellen | Wird für [die Erstellung einer neuen Folgeaufgabe][1] für die Firma, die Person oder das Projekt verwendet. Welcher Typ von Folgeaufgabe standardmäßig erstellt wird, wird in Einstellungen und Verwaltung definiert. |
+| Zu Selektion hinzufügen | Wenn Sie auf diese Option klicken, wird das Dialogfeld **Zu Selektion hinzufügen** geöffnet und Sie können die aktuelle Firma oder Person zu einer statischen Selektion Ihrer Wahl hinzufügen. Diese Option kann nur für statische Selektionen verwendet werden. [Wie man Statusangaben in dynamischen Selektionen verwendet][2].|
 
 ## Hinter den Kulissen
 
@@ -134,7 +149,7 @@ SAINT-Werte sind einfache binäre Werte (ein oder aus), die das Erscheinungsbild
 * [Statuskontrollen in einer dynamischen Selektion verwenden][2]
 
 <!-- Referenced links -->
-[1]: status-dialog.md
+[1]: ../../diary/learn/create-follow-up.md
 [2]: ../../search-options/selection/learn/create.md
 [3]: ../../../en/database/tables/countervalue.md
 [4]: ../../../en/database/tables/statusvalue.md

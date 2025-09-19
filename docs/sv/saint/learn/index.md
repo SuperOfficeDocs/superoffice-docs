@@ -10,7 +10,10 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: sv
-redirect_from: /sv/sale/saint/learn/index
+redirect_from:
+  - /sv/sale/saint/learn/index
+  - /sv/sale/saint/learn/status-dialog
+  - /sv/saint/learn/status-dialog
 ---
 
 # Sales Intelligence (SAINT)
@@ -111,12 +114,24 @@ När du ser en statusbild för ett företag eller projekt har du två möjlighet
 
 * Om du håller muspekaren över bilden visas en inforuta med namn på statusen och en beskrivning. Du får också information om annan eventuell status för företaget eller projektet.
 
-* Om du klickar på fönstret öppnas [dialogrutan Visa status][1], där du kan se statusnamn och en beskrivning och vidta åtgärder för företaget, kontakten eller projektet.
+* Om du klickar på fönstret öppnas dialogrutan **Visa status**, där du kan se statusnamn och en beskrivning och vidta åtgärder för företaget, kontakten eller projektet.
 
 > [!TIP]
 > Du kan kombinera en eller flera statuslägen som kriterier när du skapar dynamiska urval och på så sätt få en praktisk översikt över alla företag, kontakter eller projekt som uppfyller kriterierna.
 >
 > Om du behöver hjälp med att konfigurera SAINT för att utveckla dina försäljnings- och kundprocesser, rekommenderar vi alltid att du tar kontakt med en av våra skickliga konsulter.
+
+### <a id="dialog"></a>Dialogrutan Visa status
+
+Dialogrutan **Visa status** öppnas när du klickar på en statusbild på ett projektkort för företag eller kontakt. I dialogrutan finns följande information:
+
+| Objekt | Beskrivning |
+|---|---|
+| Namn | Namnet på statusen anges i Inställningar och underhåll. |
+| Beskrivning | En beskrivning av statusen anges i Inställningar och underhåll. |
+| Andra statuslägen | Här finns länkar till andra eventuella statuslägen som gäller för företag, kontakt eller projektet. Detta fält visas endast om det finns flera statuslägen för den aktuella poster. |
+| Skapa uppföljning | Används för att [skapa en ny händelse][1] för företaget eller projektet. Vilken typ av händelse som skapas som standard definieras i Inställningar och underhåll. |
+| Lägg till i urval | När man klickar här, öppnas dialogrutan **Lägg till i urval**, och du kan lägga till det aktuella företaget eller den aktuella kontakten i ett statiskt urval som du väljer själv. Detta alternativ kan endast används för statiska urval. [Så här använder du statusar i dynamiska urval][2].|
 
 ## Bakom kulisserna
 
@@ -134,7 +149,7 @@ SAINT-värden är enkla binära värden (på eller av) som bestämmer utseendet 
 * [Använda statusövervakning i dynamiska urval][2]
 
 <!-- Referenced links -->
-[1]: status-dialog.md
+[1]: ../../diary/learn/create-follow-up.md
 [2]: ../../search-options/selection/learn/create.md
 [3]: ../../../en/database/tables/countervalue.md
 [4]: ../../../en/database/tables/statusvalue.md

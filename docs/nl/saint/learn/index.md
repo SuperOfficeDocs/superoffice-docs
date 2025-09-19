@@ -10,7 +10,10 @@ content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
 language: nl
-redirect_from: /nl/sale/saint/learn/index
+redirect_from:
+  - /nl/sale/saint/learn/index
+  - /nl/sale/saint/learn/status-dialog
+  - /nl/saint/learn/status-dialog
 ---
 
 # Sales Intelligence (SAINT)
@@ -111,12 +114,24 @@ Wanneer u een statusafbeelding voor een bedrijf, persoon of project ziet, hebt u
 
 * Als u de muisaanwijzer op de afbeelding plaatst, wordt knopinfo weergegeven met de naam van de status en een beschrijving. Daarnaast krijgt u informatie over eventuele andere statussen met betrekking tot het bedrijf, de persoon of het project.
 
-* Als u op de afbeelding klikt, wordt het dialoogvenster [Statussen weergeven][1] weergegeven. Hier ziet u de naam en beschrijving van de status en kunt u relevante taken voor het bedrijf, de persoon of het project uitvoeren.
+* Als u op de afbeelding klikt, wordt het dialoogvenster **Statussen weergeven** weergegeven. Hier ziet u de naam en beschrijving van de status en kunt u relevante taken voor het bedrijf, de persoon of het project uitvoeren.
 
 > [!TIP]
 > U kunt een of meer statussen als criteria combineren wanneer u een dynamische selectie maakt, en op deze manier eenvoudig een overzicht weergeven van bedrijven, personen of projecten waarvan de statussen voldoen aan de criteria.
 >
 > Als u hulp nodig heeft bij het opzetten van SAINT om uw verkoop- en klantprocessen te verbeteren, raden we u aan een van onze bekwame consultants in te schakelen.
+
+### <a id="dialog"></a>Het dialoogvenster Statussen weergeven
+
+Het dialoogvenster **Statussen weergeven** wordt weergegeven wanneer u op een statusafbeelding voor een bedrijfskaart, visitekaartje of projectkaart klikt. Het dialoogvenster bevat de volgende informatie:
+
+| Element | Beschrijving |
+|---|---|
+| Naam | De naam van de status is gedefinieerd in Instellingen en onderhoud. |
+| Beschrijving | Een beschrijving van de status is gedefinieerd in Instellingen en onderhoud. |
+| Andere statussen | Een koppeling naar andere statussen met betrekking tot het huidige bedrijf, de huidige persoon of het huidige project. Dit veld wordt alleen weergegeven als er meerdere statussen voor de betreffende record zijn. |
+| Vervolgactiviteit maken | Wordt gebruikt om een nieuwe [vervolgactiviteit te maken][1] voor het bedrijf, de persoon of het project. Het type vervolgactiviteit dat standaard wordt gemaakt, is gedefinieerd in Instellingen en onderhoud. |
+| Toevoegen aan selectie | Klikken op deze knop opent het dialoogvenster **Toevoegen aan selectie** waarin u het huidige bedrijf of de huidige persoon kunt toevoegen aan een willekeurige statische selectie. Deze optie kan alleen worden gebruikt voor statische selecties. [Statussen gebruiken in dynamische selecties][2].|
 
 ## Achter de schermen
 
@@ -134,7 +149,7 @@ SAINT-waarden zijn eenvoudige binaire waarden (aan of uit) die het uiterlijk van
 * [Statuscontroles gebruiken in een dynamische selectie][2]
 
 <!-- Referenced links -->
-[1]: status-dialog.md
+[1]: ../../diary/learn/create-follow-up.md
 [2]: ../../search-options/selection/learn/create.md
 [3]: ../../../en/database/tables/countervalue.md
 [4]: ../../../en/database/tables/statusvalue.md

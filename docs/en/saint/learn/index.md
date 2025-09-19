@@ -3,9 +3,9 @@ uid: help-en-saint
 title: Sales Intelligence (SAINT)
 description: In this guide you will learn how SAINT can progress your sales and customer processes, as well as improve workflows.
 keywords: SAINT, Sales Intelligence, activity monitor, status monitor
-author: SuperOffice RnD
-date: 10.18.2024
-version: 9
+author: SuperOffice Product and Engineering
+date: 09.22.2025
+version: 10.5
 content_type: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -13,6 +13,8 @@ language: en
 redirect_from:
   - /en/sale/saint/
   - /en/sale/saint/learn/
+  - /en/sale/saint/learn/status-dialog
+  - /en/saint/learn/status-dialog
 ---
 
 # Activity monitors (SAINT)
@@ -113,12 +115,24 @@ When you see a status image for a company, contact or a project, you have two op
 
 * If you hold the mouse pointer over the image, a tooltip appears showing you the same of the status and a description. You also get information about any other statuses relating to the company, contact or project.
 
-* If you click the image, the [View statuses dialog][1] is displayed, and here you can see the name and description of the status and carry out relevant tasks for the company, contact or project.
+* If you click the image, the **View statuses** dialog is displayed, and here you can see the name and description of the status and carry out relevant tasks for the company, contact or project.
 
 > [!TIP]
 > You can combine one or more of these statuses as criteria when you create a dynamic selection and, in this way, get a simple overview of companies, contacts or projects whose statuses meet these criteria.
 >
 > If you need help to set up SAINT to progress your sales and customer processes, we always recommend using one of our skilled consultants.
+
+### <a id="dialog"></a>The View statuses dialog
+
+The **View statuses** dialog is displayed when you click a status image for a company card, contact card, or project card. The dialog contains the following information:
+
+| Element | Description |
+|---|---|
+| Name | The name of the status, defined in Settings and maintenance. |
+| Description | A description of the status, defined in Settings and maintenance. |
+| Other statuses | A link to any other statuses relating to the current company, contact or project. This field is displayed only if there are several statuses for the record in question. |
+| Create follow-up | Used to [create a new follow-up][1] for the company, contact, or project. The type of follow-up created by default is defined in Settings and maintenance. |
+| Add to selection | When clicked, the **Add to selection** dialog opens and you can add the current company or contact to a static selection of your choice. This option can be used only for static selections. [How to use statuses in dynamic selections][2].|
 
 ## Behind the scenes
 
@@ -130,13 +144,13 @@ SAINT counters are stored in the [countervalue][3] table and updated automatical
 
 SAINT **values** are simple binary values (on or off) that determine the look and feel of the company and project cards. These values are stored in the [statusvalue][4] table.
 
-## What would you like to do now?
+## Related content
 
 * [Set up activity monitors][5]
 * [Use status monitors in a dynamic selection][2]
 
 <!-- Referenced links -->
-[1]: status-dialog.md
+[1]: ../../diary/learn/create-follow-up.md
 [2]: ../../search-options/selection/learn/create.md
 [3]: ../../database/tables/countervalue.md
 [4]: ../../database/tables/statusvalue.md

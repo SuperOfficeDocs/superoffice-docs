@@ -122,7 +122,7 @@ landingContent:
         typeDesc: reference
         links:
         - text: The View statuses dialog
-          url: ../saint/learn/status-dialog.md
+          url: ../saint/learn/index.md#dialog
 
   - title: UI customization
     linkLists:
