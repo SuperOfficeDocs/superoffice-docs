@@ -98,34 +98,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 697,
-    "Name": "O'Keefe, Wyman and Kshlerin",
-    "Tooltip": "voluptas",
+    "WebPanelId": 579,
+    "Name": "Boehm, Stokes and Ward",
+    "Tooltip": "reiciendis",
     "Deleted": true,
-    "Rank": 407,
+    "Rank": 85,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
-    "OnSatellite": false,
+    "OnSatellite": true,
     "OnTravel": true,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": false,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": true,
     "ShowInToolBar": false,
     "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Stiedemann, Kiehn and Boehm",
+    "WindowName": "Kovacek LLC",
     "Url": "http://www.example.com/",
-    "ProgId": "est",
-    "Icon": 479,
-    "AlwaysReloadOnShow": true,
+    "ProgId": "eum",
+    "Icon": 583,
+    "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 793
+        "FieldLength": 680
       }
     }
   }

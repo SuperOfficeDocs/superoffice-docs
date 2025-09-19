@@ -89,11 +89,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kuvalis, Goyette and Gutkowski",
-  "DeviceName": "Cummings-Bechtelar",
-  "DeviceIdentifier": "vero",
-  "TableName": "Herman, Crona and Schaefer",
-  "RecordId": 812
+  "ApplicationName": "Herman-Harber",
+  "DeviceName": "Lubowitz-Padberg",
+  "DeviceIdentifier": "delectus",
+  "TableName": "Hauck Group",
+  "RecordId": 697
 }
 ```
 
@@ -105,20 +105,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "vitae",
-    "Value": "omnis",
-    "RecordId": 459,
-    "CreatedDate": "2014-12-06T03:46:54.9107593+01:00",
-    "UpdatedDate": "2017-12-03T03:46:54.9107593+01:00",
-    "UpdatedBy": "tenetur",
-    "CreatedBy": "omnis",
-    "TableName": "Haley Inc and Sons",
+    "Key": "vel",
+    "Value": "qui",
+    "RecordId": 309,
+    "CreatedDate": "1999-02-02T03:41:53.5901046+01:00",
+    "UpdatedDate": "2020-05-08T03:41:53.5901046+02:00",
+    "UpdatedBy": "explicabo",
+    "CreatedBy": "soluta",
+    "TableName": "Tillman-Padberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 476
+        "FieldType": "System.String",
+        "FieldLength": 925
       }
     }
   }

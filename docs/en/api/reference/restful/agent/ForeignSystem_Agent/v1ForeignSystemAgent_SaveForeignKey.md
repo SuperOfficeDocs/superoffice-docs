@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Wiegand-Kris",
-  "DeviceName": "Fisher-Gutmann",
-  "DeviceIdentifier": "laboriosam"
+  "ApplicationName": "Walter, D'Amore and Weissnat",
+  "DeviceName": "Klocko-Harber",
+  "DeviceIdentifier": "illo"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "repellat",
-  "Value": "at",
-  "RecordId": 906,
-  "CreatedDate": "2025-08-16T03:46:54.9107593+02:00",
-  "UpdatedDate": "2022-07-21T03:46:54.9107593+02:00",
-  "UpdatedBy": "hic",
-  "CreatedBy": "rerum",
-  "TableName": "Langosh-Bode",
+  "Key": "nostrum",
+  "Value": "porro",
+  "RecordId": 783,
+  "CreatedDate": "2020-04-28T03:41:53.5901046+02:00",
+  "UpdatedDate": "1999-11-16T03:41:53.5901046+01:00",
+  "UpdatedBy": "architecto",
+  "CreatedBy": "modi",
+  "TableName": "Swift-Herman",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 64
+      "FieldLength": 963
     }
   }
 }

@@ -96,36 +96,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 901,
-  "Name": "Baumbach, Reichel and Stehr",
-  "OrgNr": "892189",
+  "ContactId": 826,
+  "Name": "Emmerich-Walter",
+  "OrgNr": "1032045",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "fuga",
-  "DirectPhone": "793-572-5998",
-  "AssociateId": 187,
-  "CountryId": 92,
-  "EmailAddress": "niko.armstrong@nitzscheward.us",
-  "Kananame": "dicta",
-  "EmailAddressName": "zackery@littlekoepp.co.uk",
+  "City": "aut",
+  "DirectPhone": "(679)686-0284 x21917",
+  "AssociateId": 333,
+  "CountryId": 570,
+  "EmailAddress": "elmo@harveyeichmann.uk",
+  "Kananame": "ad",
+  "EmailAddressName": "reyes@gulgowskireinger.name",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Robyn Botsford V",
+  "AssociateFullName": "Mr. Kaley Emmet Ankunding",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "maxime",
-  "FullName": "Miss Cale Lesch II",
+  "FormattedAddress": "sunt",
+  "FullName": "Bobbie Roberts",
   "IsOwnerContact": false,
-  "ActiveErpLinks": 229,
-  "Number1": "1414863",
-  "Number2": "1163223",
+  "ActiveErpLinks": 774,
+  "Number1": "672398",
+  "Number2": "827487",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 985
+      "FieldLength": 658
     }
   }
 }

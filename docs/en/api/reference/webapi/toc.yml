@@ -552,6 +552,8 @@ items:
     name: Appointment_GetTaskListItemsRequest
   - uid: SuperOffice.WebApi.Data.Appointment_GetUIDFromAppointmentIdRequest
     name: Appointment_GetUIDFromAppointmentIdRequest
+  - uid: SuperOffice.WebApi.Data.Appointment_GetVideoMeetingConnectedStateRequest
+    name: Appointment_GetVideoMeetingConnectedStateRequest
   - uid: SuperOffice.WebApi.Data.Appointment_MoveExtendedRequest
     name: Appointment_MoveExtendedRequest
   - uid: SuperOffice.WebApi.Data.Appointment_MoveRequest
@@ -1450,6 +1452,8 @@ items:
     name: Diagnostics_GetWebAppUsagesForPeriodRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_LogViewStateRequest
     name: Diagnostics_LogViewStateRequest
+  - uid: SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterCustomObjectTableCreatedRequest
+    name: Diagnostics_PerformTasksAfterCustomObjectTableCreatedRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterCustomObjectTableDeletedRequest
     name: Diagnostics_PerformTasksAfterCustomObjectTableDeletedRequest
   - uid: SuperOffice.WebApi.Data.Diagnostics_PerformTasksAfterUpgradeRequest
@@ -2302,8 +2306,6 @@ items:
     name: Import_SaveImportRequest
   - uid: SuperOffice.WebApi.Data.IncomingMessage
     name: IncomingMessage
-  - uid: SuperOffice.WebApi.Data.InitalUtmParameters
-    name: InitalUtmParameters
   - uid: SuperOffice.WebApi.Data.Installation
     name: Installation
   - uid: SuperOffice.WebApi.Data.IntStringDictionary
@@ -2938,6 +2940,8 @@ items:
     name: Person_SetPersonImageRequest
   - uid: SuperOffice.WebApi.Data.Person_SetPersonRankRequest
     name: Person_SetPersonRankRequest
+  - uid: SuperOffice.WebApi.Data.Person_SetUtmCreatedPersonContactForFormSubmissionRequest
+    name: Person_SetUtmCreatedPersonContactForFormSubmissionRequest
   - uid: SuperOffice.WebApi.Data.Person_TryAddPersonsToEmailFlowRequest
     name: Person_TryAddPersonsToEmailFlowRequest
   - uid: SuperOffice.WebApi.Data.Person_UndeleteRequest
@@ -3634,6 +3638,8 @@ items:
     name: Sale_ValidateSaleEntityRequest
   - uid: SuperOffice.WebApi.Data.SalesActivity
     name: SalesActivity
+  - uid: SuperOffice.WebApi.Data.SavedUtmParameters
+    name: SavedUtmParameters
   - uid: SuperOffice.WebApi.Data.Script
     name: Script
   - uid: SuperOffice.WebApi.Data.ScriptType
@@ -3746,6 +3752,8 @@ items:
     name: Selection_RemoveSelectionMembersFromSearchRequest
   - uid: SuperOffice.WebApi.Data.Selection_RemoveSelectionMembersRequest
     name: Selection_RemoveSelectionMembersRequest
+  - uid: SuperOffice.WebApi.Data.Selection_SaveBoardViewSettingsForSelectionAndAssociateRequest
+    name: Selection_SaveBoardViewSettingsForSelectionAndAssociateRequest
   - uid: SuperOffice.WebApi.Data.Selection_SaveBoardViewSettingsRequest
     name: Selection_SaveBoardViewSettingsRequest
   - uid: SuperOffice.WebApi.Data.Selection_SetDuplicateRulesStatusRequest
@@ -4012,6 +4020,8 @@ items:
     name: TicketType
   - uid: SuperOffice.WebApi.Data.TicketTypeEntity
     name: TicketTypeEntity
+  - uid: SuperOffice.WebApi.Data.Ticket_AcceptTicketsRequest
+    name: Ticket_AcceptTicketsRequest
   - uid: SuperOffice.WebApi.Data.Ticket_AddAttachmentsRequest
     name: Ticket_AddAttachmentsRequest
   - uid: SuperOffice.WebApi.Data.Ticket_BatchForwardRequest
@@ -4194,6 +4204,8 @@ items:
     name: UserAndInstallationLicenceStatus
   - uid: SuperOffice.WebApi.Data.UserCandidate
     name: UserCandidate
+  - uid: SuperOffice.WebApi.Data.UserConnectedState
+    name: UserConnectedState
   - uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo
     name: UserDefinedFieldInfo
   - uid: SuperOffice.WebApi.Data.UserDefinedFieldInfo_ChangeFieldTypeRequest
@@ -4444,6 +4456,8 @@ items:
     name: User_GetAccessGatewayInfoRequest
   - uid: SuperOffice.WebApi.Data.User_GetAccessTokenRequest
     name: User_GetAccessTokenRequest
+  - uid: SuperOffice.WebApi.Data.User_GetAllDataRightsRequest
+    name: User_GetAllDataRightsRequest
   - uid: SuperOffice.WebApi.Data.User_GetAllFunctionalRightsRequest
     name: User_GetAllFunctionalRightsRequest
   - uid: SuperOffice.WebApi.Data.User_GetAllRolesRequest

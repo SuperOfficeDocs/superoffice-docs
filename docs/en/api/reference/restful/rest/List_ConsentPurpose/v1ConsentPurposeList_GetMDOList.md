@@ -27,8 +27,8 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=voluptas
+GET /api/v1/List/ConsentPurpose/MDOItems?flat=True
+GET /api/v1/List/ConsentPurpose/MDOItems?query=quam
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 120,
-    "Name": "Blick Inc and Sons",
-    "ToolTip": "Non est magnam ipsum aspernatur ea voluptatum ea.",
+    "Id": 667,
+    "Name": "Fahey, Hagenes and Connelly",
+    "ToolTip": "Porro ratione.",
     "Deleted": false,
-    "Rank": 522,
-    "Type": "velit",
+    "Rank": 505,
+    "Type": "minus",
     "ChildItems": [
       {
-        "Id": 204,
-        "Name": "Beier, Jones and Moen",
-        "ToolTip": "Laboriosam et et non.",
+        "Id": 959,
+        "Name": "Olson, Schuster and Heathcote",
+        "ToolTip": "Error laborum labore iusto perferendis neque nam veniam.",
         "Deleted": false,
-        "Rank": 698,
-        "Type": "iste",
+        "Rank": 770,
+        "Type": "reiciendis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sunt",
-        "ColorBlock": 923,
-        "ExtraInfo": "et",
-        "StyleHint": "est",
-        "FullName": "Clemens Wyman",
+        "IconHint": "voluptatibus",
+        "ColorBlock": 220,
+        "ExtraInfo": "natus",
+        "StyleHint": "necessitatibus",
+        "FullName": "Hazel Kreiger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 765
+            "FieldLength": 449
           }
         }
       }
     ],
-    "IconHint": "quo",
-    "ColorBlock": 704,
-    "ExtraInfo": "facilis",
-    "StyleHint": "aut",
-    "FullName": "Hulda Feil",
+    "IconHint": "eius",
+    "ColorBlock": 450,
+    "ExtraInfo": "nihil",
+    "StyleHint": "id",
+    "FullName": "Lesley Ullrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 580
+        "FieldLength": 89
       }
     }
   }

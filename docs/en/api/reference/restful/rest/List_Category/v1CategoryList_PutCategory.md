@@ -79,16 +79,16 @@ OK
 PUT /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 98,
-  "Name": "McCullough Inc and Sons",
-  "Tooltip": "qui",
+  "Id": 693,
+  "Name": "Spencer Inc and Sons",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "UdListDefinitionId": 777,
-  "Rank": 612
+  "UdListDefinitionId": 591,
+  "Rank": 84
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 465,
-  "Name": "Oberbrunner-O'Reilly",
-  "Tooltip": "aut",
+  "Id": 417,
+  "Name": "Hintz Inc and Sons",
+  "Tooltip": "vero",
   "Deleted": false,
-  "UdListDefinitionId": 123,
-  "Rank": 976,
+  "UdListDefinitionId": 475,
+  "Rank": 582,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 680
+      "FieldType": "System.Int32",
+      "FieldLength": 398
     }
   }
 }

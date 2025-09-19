@@ -86,16 +86,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Schmitt Inc and Sons",
-  "DeviceName": "Prosacco-Bahringer",
-  "DeviceIdentifier": "tempora",
-  "KeyName": "Howell LLC",
-  "KeyValue": "laboriosam",
-  "TableName": "Bartell LLC"
+  "ApplicationName": "Schneider-Bradtke",
+  "DeviceName": "McGlynn, Pouros and Sauer",
+  "DeviceIdentifier": "cum",
+  "KeyName": "Yost, Wilkinson and Fritsch",
+  "KeyValue": "harum",
+  "TableName": "O'Connell-Schiller"
 }
 ```
 
@@ -106,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptatem",
-  "Value": "fugit",
-  "RecordId": 298,
-  "CreatedDate": "2004-03-31T03:46:54.9107593+02:00",
-  "UpdatedDate": "2022-10-28T03:46:54.9107593+02:00",
-  "UpdatedBy": "nulla",
-  "CreatedBy": "assumenda",
-  "TableName": "Mertz-Koelpin",
+  "Key": "pariatur",
+  "Value": "ab",
+  "RecordId": 854,
+  "CreatedDate": "2002-02-10T03:41:53.5901046+01:00",
+  "UpdatedDate": "2019-08-25T03:41:53.5901046+02:00",
+  "UpdatedBy": "dolore",
+  "CreatedBy": "sint",
+  "TableName": "Brown-Marks",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 696
+      "FieldType": "System.Int32",
+      "FieldLength": 195
     }
   }
 }

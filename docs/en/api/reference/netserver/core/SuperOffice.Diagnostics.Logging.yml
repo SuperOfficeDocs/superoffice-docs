@@ -6,8 +6,8 @@ items:
   children:
   - SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin
   - SuperOffice.Diagnostics.Logging.ILoggerProviderPluginAttribute
-  - SuperOffice.Diagnostics.Logging.ISoMetricsPlugin
-  - SuperOffice.Diagnostics.Logging.SoMetricsPluginAttribute
+  - SuperOffice.Diagnostics.Logging.ISoMetrics
+  - SuperOffice.Diagnostics.Logging.ISoOperation
   langs:
   - csharp
   - vb
@@ -32,17 +32,17 @@ references:
   name: ILoggerProviderPlugin
   nameWithType: ILoggerProviderPlugin
   fullName: SuperOffice.Diagnostics.Logging.ILoggerProviderPlugin
-- uid: SuperOffice.Diagnostics.Logging.SoMetricsPluginAttribute
-  commentId: T:SuperOffice.Diagnostics.Logging.SoMetricsPluginAttribute
+- uid: SuperOffice.Diagnostics.Logging.ISoMetrics
+  commentId: T:SuperOffice.Diagnostics.Logging.ISoMetrics
   isExternal: true
-  href: SuperOffice.Diagnostics.Logging.SoMetricsPluginAttribute.html
-  name: SoMetricsPluginAttribute
-  nameWithType: SoMetricsPluginAttribute
-  fullName: SuperOffice.Diagnostics.Logging.SoMetricsPluginAttribute
-- uid: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin
-  commentId: T:SuperOffice.Diagnostics.Logging.ISoMetricsPlugin
+  href: SuperOffice.Diagnostics.Logging.ISoMetrics.html
+  name: ISoMetrics
+  nameWithType: ISoMetrics
+  fullName: SuperOffice.Diagnostics.Logging.ISoMetrics
+- uid: SuperOffice.Diagnostics.Logging.ISoOperation
+  commentId: T:SuperOffice.Diagnostics.Logging.ISoOperation
   isExternal: true
-  href: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin.html
-  name: ISoMetricsPlugin
-  nameWithType: ISoMetricsPlugin
-  fullName: SuperOffice.Diagnostics.Logging.ISoMetricsPlugin
+  href: SuperOffice.Diagnostics.Logging.ISoOperation.html
+  name: ISoOperation
+  nameWithType: ISoOperation
+  fullName: SuperOffice.Diagnostics.Logging.ISoOperation

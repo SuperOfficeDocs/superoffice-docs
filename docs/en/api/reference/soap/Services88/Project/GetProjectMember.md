@@ -85,6 +85,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Project:EmailAddressName xsi:type="xsd:string"></Project:EmailAddressName>
     <Project:Comment xsi:type="xsd:string"></Project:Comment>
     <Project:FullName xsi:type="xsd:string"></Project:FullName>
+    <Project:Registered xsi:type="xsd:dateTime">2025-09-19T01:41:05Z</Project:Registered>
+    <Project:Updated xsi:type="xsd:dateTime">2025-09-19T01:41:05Z</Project:Updated>
    </Project:Response>
   </Project:GetProjectMemberResponse>
  </SOAP-ENV:Body>

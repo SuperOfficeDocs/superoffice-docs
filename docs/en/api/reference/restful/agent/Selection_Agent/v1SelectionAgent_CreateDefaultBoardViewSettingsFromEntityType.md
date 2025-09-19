@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultBoardViewSettingsFromEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,17 +98,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BoardViewSettingsId": 481,
+  "BoardViewSettingsId": 125,
   "EntityType": "None",
-  "AssociateId": 991,
-  "SelectionId": 872,
-  "HideEmptyGroups": false,
-  "GroupBy": "dolor",
-  "SubGroupBy": "facere",
-  "SortBy": "natus",
-  "SortDesc": false,
-  "SumBy": "saepe",
-  "ColorBy": "quis",
-  "Filters": "ut"
+  "AssociateId": 364,
+  "SelectionId": 558,
+  "HideEmptyGroups": true,
+  "GroupBy": "ex",
+  "SubGroupBy": "corrupti",
+  "SortBy": "labore",
+  "SortDesc": true,
+  "SumBy": "non",
+  "ColorBy": "voluptas",
+  "Filters": "quibusdam"
 }
 ```

@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 569,
-    "Name": "Torp, Hane and Denesik",
-    "ToolTip": "Non officiis laudantium fugiat.",
+    "Id": 82,
+    "Name": "Veum-Hirthe",
+    "ToolTip": "Soluta molestias quia sit natus.",
     "Deleted": false,
-    "Rank": 455,
-    "Type": "eaque",
-    "ColorBlock": 418,
-    "IconHint": "accusantium",
-    "Selected": false,
-    "LastChanged": "1999-04-06T03:47:00.6442984+02:00",
+    "Rank": 79,
+    "Type": "est",
+    "ColorBlock": 608,
+    "IconHint": "temporibus",
+    "Selected": true,
+    "LastChanged": "2022-02-11T03:41:59.4023618+01:00",
     "ChildItems": [
       {
-        "Id": 777,
-        "Name": "Sanford, Witting and Balistreri",
-        "ToolTip": "Sed esse.",
-        "Deleted": false,
-        "Rank": 166,
-        "Type": "vitae",
-        "ColorBlock": 203,
-        "IconHint": "repellat",
-        "Selected": false,
-        "LastChanged": "2007-02-22T03:47:00.6442984+01:00",
+        "Id": 807,
+        "Name": "Cummings Group",
+        "ToolTip": "Amet aliquam.",
+        "Deleted": true,
+        "Rank": 271,
+        "Type": "ut",
+        "ColorBlock": 806,
+        "IconHint": "esse",
+        "Selected": true,
+        "LastChanged": "2003-11-04T03:41:59.4023618+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "quibusdam",
-        "Hidden": false,
-        "FullName": "Prof. Aliza Branson Stiedemann"
+        "ExtraInfo": "quia",
+        "StyleHint": "porro",
+        "Hidden": true,
+        "FullName": "Aglae Altenwerth"
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "est",
+    "ExtraInfo": "tempore",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Mason Ratke"
+    "FullName": "Dr. Jermaine Nettie Nader III"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 685,
-    "Name": "Vandervort, Boyer and Turcotte",
-    "ToolTip": "Tempora nihil quis id.",
+    "Id": 710,
+    "Name": "O'Reilly, Marquardt and Powlowski",
+    "ToolTip": "Ullam atque cum.",
     "Deleted": true,
-    "Rank": 366,
-    "Type": "quis",
-    "ColorBlock": 807,
-    "IconHint": "et",
+    "Rank": 686,
+    "Type": "id",
+    "ColorBlock": 873,
+    "IconHint": "culpa",
     "Selected": false,
-    "LastChanged": "2004-03-27T03:47:00.6442984+01:00",
+    "LastChanged": "2013-04-15T03:41:59.4023618+02:00",
     "ChildItems": [
       {
-        "Id": 106,
-        "Name": "Kiehn-Wuckert",
-        "ToolTip": "Soluta non veritatis ut deserunt vel.",
+        "Id": 366,
+        "Name": "Fahey, Kilback and Williamson",
+        "ToolTip": "Modi quaerat.",
         "Deleted": false,
-        "Rank": 20,
-        "Type": "non",
-        "ColorBlock": 962,
-        "IconHint": "autem",
+        "Rank": 233,
+        "Type": "ipsum",
+        "ColorBlock": 749,
+        "IconHint": "laudantium",
         "Selected": false,
-        "LastChanged": "2007-01-24T03:47:00.6442984+01:00",
+        "LastChanged": "2007-11-11T03:41:59.4023618+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Aracely Langosh",
+        "ExtraInfo": "vel",
+        "StyleHint": "dolore",
+        "Hidden": false,
+        "FullName": "Prof. Gayle Vivienne Trantow MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 214
+            "FieldLength": 504
           }
         }
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "possimus",
+    "ExtraInfo": "repellat",
+    "StyleHint": "facere",
     "Hidden": false,
-    "FullName": "Mrs. Mathew Isaiah Medhurst V",
+    "FullName": "Mallie Fadel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 905
+        "FieldLength": 894
       }
     }
   }

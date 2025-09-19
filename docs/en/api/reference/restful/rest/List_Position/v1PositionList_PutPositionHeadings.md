@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 798,
-    "Name": "Hegmann-McGlynn",
-    "Tooltip": "quia",
+    "HeadingId": 781,
+    "Name": "Hettinger, McKenzie and Lang",
+    "Tooltip": "laborum",
     "Deleted": false,
-    "Rank": 946,
-    "UdListDefinitionId": 820
+    "Rank": 286,
+    "UdListDefinitionId": 237
   },
   {
-    "HeadingId": 798,
-    "Name": "Hegmann-McGlynn",
-    "Tooltip": "quia",
+    "HeadingId": 781,
+    "Name": "Hettinger, McKenzie and Lang",
+    "Tooltip": "laborum",
     "Deleted": false,
-    "Rank": 946,
-    "UdListDefinitionId": 820
+    "Rank": 286,
+    "UdListDefinitionId": 237
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 833,
-    "Name": "Graham, Pouros and Stoltenberg",
-    "Tooltip": "aut",
+    "HeadingId": 463,
+    "Name": "Upton Group",
+    "Tooltip": "ad",
     "Deleted": false,
-    "Rank": 23,
-    "UdListDefinitionId": 53,
+    "Rank": 479,
+    "UdListDefinitionId": 566,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 392
+        "FieldType": "System.Int32",
+        "FieldLength": 45
       }
     }
   }

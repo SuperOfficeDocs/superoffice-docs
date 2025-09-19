@@ -94,30 +94,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 826,
-    "Name": "Klein, Boyle and Rath",
-    "Description": "Multi-channelled dynamic hub",
+    "ProjectId": 918,
+    "Name": "Cartwright Inc and Sons",
+    "Description": "De-engineered content-based open system",
     "URL": "http://www.example.com/",
-    "Type": "sint",
-    "AssociateId": 528,
-    "AssociateFullName": "Keely Sawayn",
-    "TypeId": 726,
-    "Updated": "2020-06-23T03:46:55.1757421+02:00",
-    "StatusId": 962,
+    "Type": "ea",
+    "AssociateId": 289,
+    "AssociateFullName": "Summer Beer",
+    "TypeId": 684,
+    "Updated": "2006-11-26T03:41:53.9182167+01:00",
+    "StatusId": 655,
     "Status": "et",
-    "TextId": 720,
-    "PublishTo": "2008-11-30T03:46:55.1757421+01:00",
-    "PublishFrom": "2006-05-11T03:46:55.1757421+02:00",
+    "TextId": 18,
+    "PublishTo": "2002-10-29T03:41:53.9182167+01:00",
+    "PublishFrom": "2020-11-03T03:41:53.9182167+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1067068",
-    "ActiveErpLinks": 347,
+    "ProjectNumber": "969999",
+    "ActiveErpLinks": 448,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 799
+        "FieldLength": 30
       }
     }
   }

@@ -27,8 +27,8 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=explicabo
+GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=rerum
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 43,
-    "Name": "Bednar Group",
-    "ToolTip": "Animi modi quia aut nulla qui reprehenderit.",
+    "Id": 278,
+    "Name": "Hintz LLC",
+    "ToolTip": "Occaecati sed in rerum quaerat.",
     "Deleted": false,
-    "Rank": 267,
-    "Type": "maxime",
+    "Rank": 666,
+    "Type": "provident",
     "ChildItems": [
       {
-        "Id": 346,
-        "Name": "Gislason Inc and Sons",
-        "ToolTip": "Repellat autem maiores qui amet sunt excepturi.",
-        "Deleted": false,
-        "Rank": 532,
-        "Type": "dicta",
+        "Id": 974,
+        "Name": "McGlynn Group",
+        "ToolTip": "Explicabo molestiae sint quia.",
+        "Deleted": true,
+        "Rank": 351,
+        "Type": "quae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquam",
-        "ColorBlock": 335,
-        "ExtraInfo": "enim",
-        "StyleHint": "quisquam",
-        "FullName": "Justice Parker",
+        "IconHint": "quia",
+        "ColorBlock": 390,
+        "ExtraInfo": "molestiae",
+        "StyleHint": "quia",
+        "FullName": "Davonte Carter Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 409
+            "FieldLength": 526
           }
         }
       }
     ],
-    "IconHint": "dolorum",
-    "ColorBlock": 606,
-    "ExtraInfo": "enim",
-    "StyleHint": "omnis",
-    "FullName": "Dario Murray",
+    "IconHint": "ea",
+    "ColorBlock": 383,
+    "ExtraInfo": "sed",
+    "StyleHint": "explicabo",
+    "FullName": "Anika Parker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 112
+        "FieldLength": 926
       }
     }
   }

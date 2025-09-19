@@ -104,12 +104,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 61,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2024-01-08T03:46:54.6288867+01:00",
-  "EndTime": "2002-07-24T03:46:54.6288867+02:00",
-  "Count": 51,
-  "DocumentTemplateId": 617
+  "PersonId": 150,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2022-09-02T03:41:53.3869896+02:00",
+  "EndTime": "2000-04-11T03:41:53.3869896+02:00",
+  "Count": 902,
+  "DocumentTemplateId": 956
 }
 ```
 
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 120,
-    "Attention": "aliquam",
-    "Header": "voluptatibus",
-    "Name": "Grimes Group",
-    "OurRef": "assumenda",
-    "YourRef": "molestiae",
-    "Description": "Compatible optimizing synergy",
-    "DocumentTemplate": "est",
+    "DocumentId": 524,
+    "Attention": "incidunt",
+    "Header": "quaerat",
+    "Name": "Zemlak Inc and Sons",
+    "OurRef": "quam",
+    "YourRef": "deleniti",
+    "Description": "Persevering 4th generation solution",
+    "DocumentTemplate": "ipsum",
     "IsPublished": false,
-    "PersonId": 774,
-    "PersonFullName": "Mrs. Bobby Langworth",
-    "AssociateFullName": "Miss Grayce Jaleel Aufderhar DDS",
-    "ContactId": 239,
-    "ContactName": "Jast, Schoen and Ernser",
-    "ProjectId": 253,
-    "ProjectName": "Pollich, Kshlerin and Murray",
-    "AssociateId": 867,
-    "Snum": 953,
-    "SaleId": 50,
-    "SaleName": "Shanahan Inc and Sons",
+    "PersonId": 814,
+    "PersonFullName": "Kenton Dante Kihn PhD",
+    "AssociateFullName": "Valentin Ritchie",
+    "ContactId": 878,
+    "ContactName": "Tromp Group",
+    "ProjectId": 565,
+    "ProjectName": "Pfeffer Group",
+    "AssociateId": 5,
+    "Snum": 877,
+    "SaleId": 604,
+    "SaleName": "Macejkovic, Wisoky and Lebsack",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 694
+        "FieldType": "System.Int32",
+        "FieldLength": 571
       }
     }
   }

@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteEntityFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 399
+  "SaleId": 310
 }
 ```
 
@@ -101,58 +101,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 375,
-  "SaleId": 169,
-  "QuoteConnectionId": 205,
-  "ERPQuoteKey": "quia",
-  "ERPOrderKey": "sint",
-  "ActiveQuoteVersionId": 909,
-  "AcceptedQuoteAlternativeId": 984,
-  "UseValuesFromQuote": 195,
-  "DocumentId": 895,
-  "PoNumber": "606655",
-  "OrderComment": "incidunt",
-  "PreferredEmailCulture": "lysanne@hickleokuneva.ca",
+  "QuoteId": 816,
+  "SaleId": 137,
+  "QuoteConnectionId": 24,
+  "ERPQuoteKey": "aliquam",
+  "ERPOrderKey": "doloremque",
+  "ActiveQuoteVersionId": 313,
+  "AcceptedQuoteAlternativeId": 28,
+  "UseValuesFromQuote": 169,
+  "DocumentId": 308,
+  "PoNumber": "583539",
+  "OrderComment": "atque",
+  "PreferredEmailCulture": "paul@orn.name",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 190,
-      "ERPQuoteVersionKey": "officia",
-      "QuoteId": 896,
-      "Description": "Horizontal background middleware",
-      "Number": "826460",
+      "QuoteVersionId": 965,
+      "ERPQuoteVersionKey": "consectetur",
+      "QuoteId": 993,
+      "Description": "Realigned background definition",
+      "Number": "1772976",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 195,
-      "SentDate": "2023-08-14T03:46:55.2226157+02:00",
-      "FollowupId": 513,
-      "ExpirationDate": "2016-08-11T03:46:55.2226157+02:00",
-      "DeliveryCountryId": 726,
+      "LikelyQuoteAlternativeId": 342,
+      "SentDate": "2008-06-23T03:41:53.9650897+02:00",
+      "FollowupId": 998,
+      "ExpirationDate": "2010-02-17T03:41:53.9650897+01:00",
+      "DeliveryCountryId": 113,
       "HasOwnDeliveryAddress": false,
       "InvoiceCountryId": 350,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "eum",
-      "ERPPaymentTypeKey": "dolores",
-      "ERPDeliveryTermsKey": "et",
-      "ERPDeliveryTypeKey": "voluptas",
-      "Rank": 269,
-      "ApprovedBy": 911,
-      "ApprovedText": "consectetur",
-      "ApprovedRegisteredBy": 985,
-      "ApprovedRegisteredDate": "2008-11-20T03:46:55.2226157+01:00",
-      "ExtraField1": "praesentium",
-      "ExtraField2": "nesciunt",
-      "ExtraField3": "et",
-      "ExtraField4": "et",
-      "ExtraField5": "qui",
-      "LastRecalculated": "2006-01-18T03:46:55.2226157+01:00",
-      "Updated": "2025-06-25T03:46:55.2226157+02:00",
-      "UpdatedAssociateId": 647,
-      "Registered": "2013-10-22T03:46:55.2226157+02:00",
-      "RegisteredAssociateId": 88,
-      "RequestAssociateId": 947,
-      "RequestComment": "aliquam",
+      "ERPPaymentTermsKey": "reprehenderit",
+      "ERPPaymentTypeKey": "libero",
+      "ERPDeliveryTermsKey": "quia",
+      "ERPDeliveryTypeKey": "est",
+      "Rank": 286,
+      "ApprovedBy": 235,
+      "ApprovedText": "quo",
+      "ApprovedRegisteredBy": 719,
+      "ApprovedRegisteredDate": "2009-09-24T03:41:53.9650897+02:00",
+      "ExtraField1": "sint",
+      "ExtraField2": "modi",
+      "ExtraField3": "est",
+      "ExtraField4": "dolores",
+      "ExtraField5": "vel",
+      "LastRecalculated": "2005-12-25T03:41:53.9650897+01:00",
+      "Updated": "2020-11-08T03:41:53.9650897+01:00",
+      "UpdatedAssociateId": 680,
+      "Registered": "2011-11-28T03:41:53.9650897+01:00",
+      "RegisteredAssociateId": 838,
+      "RequestAssociateId": 448,
+      "RequestComment": "et",
       "QuoteAlternatives": [
         {},
         {}
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 434
+          "FieldType": "System.String",
+          "FieldLength": 453
         }
       }
     }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 908
+      "FieldLength": 424
     }
   }
 }

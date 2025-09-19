@@ -70,9 +70,9 @@ This table contains chat sessions.
 |------|-------------|
 |[chat\_message](chat-message.md)  |This table contains messages in a chat session. |
 |[chat\_topic](chat-topic.md)  |This table contains chat topics. |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 |[project](project.md)  |Projects |
 |[sale](sale.md)  |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.   |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |

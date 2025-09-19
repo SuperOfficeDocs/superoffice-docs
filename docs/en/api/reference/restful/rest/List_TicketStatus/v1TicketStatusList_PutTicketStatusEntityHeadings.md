@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 334,
-    "Name": "McCullough-Goldner",
-    "Tooltip": "esse",
+    "HeadingId": 97,
+    "Name": "White Group",
+    "Tooltip": "quia",
     "Deleted": true,
-    "Rank": 527,
-    "UdListDefinitionId": 730
+    "Rank": 498,
+    "UdListDefinitionId": 223
   },
   {
-    "HeadingId": 334,
-    "Name": "McCullough-Goldner",
-    "Tooltip": "esse",
+    "HeadingId": 97,
+    "Name": "White Group",
+    "Tooltip": "quia",
     "Deleted": true,
-    "Rank": 527,
-    "UdListDefinitionId": 730
+    "Rank": 498,
+    "UdListDefinitionId": 223
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 545,
-    "Name": "Jacobs Group",
-    "Tooltip": "eius",
+    "HeadingId": 991,
+    "Name": "Hayes, Schmidt and Kshlerin",
+    "Tooltip": "reiciendis",
     "Deleted": false,
-    "Rank": 400,
-    "UdListDefinitionId": 537,
+    "Rank": 360,
+    "UdListDefinitionId": 683,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 589
+        "FieldLength": 862
       }
     }
   }

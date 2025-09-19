@@ -103,54 +103,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 839,
-  "ERPName": "Muller LLC",
-  "DisplayName": "Douglas-Reichel",
-  "DisplayDescription": "Integrated hybrid info-mediaries",
-  "Rank": 707,
-  "ConnectorName": "Moen Group",
-  "ErpConnectionId": 421,
-  "ExtraData": "explicabo",
+  "QuoteConnectionId": 653,
+  "ERPName": "Casper, Pacocha and Schulist",
+  "DisplayName": "Hackett Group",
+  "DisplayDescription": "Phased foreground collaboration",
+  "Rank": 361,
+  "ConnectorName": "Lehner, Lesch and Jaskolski",
+  "ErpConnectionId": 739,
+  "ExtraData": "aut",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 242,
-      "ERPPriceListKey": "similique",
-      "QuoteConnectionId": 730,
-      "Name": "Frami Inc and Sons",
-      "Description": "Up-sized disintermediate throughput",
-      "Currency": "nostrum",
-      "CurrencyName": "Sawayn-Stracke",
-      "ValidFrom": "2010-07-08T03:46:55.2226157+02:00",
-      "ValidTo": "2023-04-02T03:46:55.2226157+02:00",
+      "PriceListId": 879,
+      "ERPPriceListKey": "doloremque",
+      "QuoteConnectionId": 680,
+      "Name": "Conroy LLC",
+      "Description": "Face to face motivating benchmark",
+      "Currency": "qui",
+      "CurrencyName": "Witting LLC",
+      "ValidFrom": "2011-06-02T03:41:53.9650897+02:00",
+      "ValidTo": "2014-08-03T03:41:53.9650897+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 6
+          "FieldLength": 754
         }
       }
     }
   ],
-  "AllAccess": false,
+  "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    370,
-    243
+    676,
+    121
   ],
   "AssociateAccessIds": [
-    624,
-    171
+    773,
+    372
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 968
+      "FieldLength": 476
     }
   }
 }

@@ -84,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Weissnat, Mann and Jones",
-  "DisplayName": "Quigley-Wintheiser",
-  "Description": "Assimilated global archive",
-  "ShortLabel": "sapiente",
+  "FieldName": "Dare, Gulgowski and Streich",
+  "DisplayName": "Skiles Group",
+  "Description": "Stand-alone asynchronous knowledge base",
+  "ShortLabel": "qui",
   "HideLabel": true,
-  "HideField": true,
-  "IsIndexed": false,
+  "HideField": false,
+  "IsIndexed": true,
   "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsReadOnly": true,
   "IsExternal": true,
   "IsDisplayField": false,
-  "Rank": 666,
-  "TemplateVariableName": "Yundt, Frami and Mayer"
+  "Rank": 142,
+  "TemplateVariableName": "Pollich-Smith"
 }
 ```

@@ -93,60 +93,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 782,
-  "Name": "Ritchie-Koelpin",
+  "TicketPriorityId": 729,
+  "Name": "Nolan Group",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 616,
+  "SortOrder": 447,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 783,
-  "MonStart": "2013-09-22T03:46:54.9257675+02:00",
-  "MonStop": "2001-11-30T03:46:54.9257675+01:00",
-  "TueStart": "2025-06-29T03:46:54.9257675+02:00",
-  "TueStop": "2015-02-06T03:46:54.9257675+01:00",
-  "WedStart": "1999-01-14T03:46:54.9257675+01:00",
-  "WedStop": "2019-04-02T03:46:54.9257675+02:00",
-  "ThuStart": "2014-09-09T03:46:54.9257675+02:00",
-  "ThuStop": "2007-02-18T03:46:54.9257675+01:00",
-  "FriStart": "2013-08-09T03:46:54.9257675+02:00",
-  "FriStop": "2023-11-22T03:46:54.9257675+01:00",
-  "SatStart": "2024-09-25T03:46:54.9257675+02:00",
-  "SatStop": "2010-05-29T03:46:54.9257675+02:00",
-  "SunStart": "2019-11-27T03:46:54.9257675+01:00",
-  "SunStop": "2003-08-14T03:46:54.9257675+02:00",
+  "Deadline": 708,
+  "MonStart": "2010-08-01T03:41:53.6057294+02:00",
+  "MonStop": "2007-03-28T03:41:53.6057294+02:00",
+  "TueStart": "2005-01-01T03:41:53.6057294+01:00",
+  "TueStop": "2009-12-04T03:41:53.6057294+01:00",
+  "WedStart": "1998-09-24T03:41:53.6057294+02:00",
+  "WedStop": "2021-11-13T03:41:53.6057294+01:00",
+  "ThuStart": "2008-12-27T03:41:53.6057294+01:00",
+  "ThuStop": "2016-08-28T03:41:53.6057294+02:00",
+  "FriStart": "2009-11-05T03:41:53.6057294+01:00",
+  "FriStop": "2003-03-07T03:41:53.6057294+01:00",
+  "SatStart": "2005-01-18T03:41:53.6057294+01:00",
+  "SatStop": "2024-02-07T03:41:53.6057294+01:00",
+  "SunStart": "2001-07-31T03:41:53.6057294+02:00",
+  "SunStop": "2016-10-24T03:41:53.6057294+02:00",
   "NonDates": [
-    "doloremque",
-    "saepe"
+    "maiores",
+    "ducimus"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 455,
-      "AlertLevel": 593,
-      "AlertTimeout": 622,
-      "Action": 653,
-      "DelegateTo": 53,
-      "ScriptId": 910,
-      "EmailTo": "rowland_buckridge@tillman.uk",
-      "SmsTo": "saepe",
-      "ReplyTemplateIdCustomer": 274,
-      "ReplyTemplateIdUser": 562,
-      "ReplyTemplateIdCatmast": 454,
-      "ReplyTemplateIdEmail": 935,
-      "RtiCustomerSms": 222,
-      "ReplyTemplateIdUserSms": 840,
-      "ReplyTemplateIdCatmastSms": 262,
-      "ReplyTemplateIdSms": 773,
+      "TicketAlertId": 899,
+      "AlertLevel": 102,
+      "AlertTimeout": 944,
+      "Action": 733,
+      "DelegateTo": 447,
+      "ScriptId": 102,
+      "EmailTo": "rocky@bartoletti.biz",
+      "SmsTo": "quis",
+      "ReplyTemplateIdCustomer": 666,
+      "ReplyTemplateIdUser": 992,
+      "ReplyTemplateIdCatmast": 43,
+      "ReplyTemplateIdEmail": 411,
+      "RtiCustomerSms": 676,
+      "ReplyTemplateIdUserSms": 150,
+      "ReplyTemplateIdCatmastSms": 88,
+      "ReplyTemplateIdSms": 223,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 388
+          "FieldType": "System.String",
+          "FieldLength": 263
         }
       }
     }
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 946
+      "FieldType": "System.String",
+      "FieldLength": 251
     }
   }
 }

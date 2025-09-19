@@ -91,7 +91,7 @@ OK
 GET /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 739,
-    "ColumnId": 177,
-    "FieldDefault": "amet",
-    "FieldHeight": 985,
-    "FieldLabel": "rerum",
-    "FieldLeft": 931,
-    "FieldTop": 216,
+    "UDefFieldId": 636,
+    "ColumnId": 155,
+    "FieldDefault": "maxime",
+    "FieldHeight": 661,
+    "FieldLabel": "earum",
+    "FieldLeft": 996,
+    "FieldTop": 430,
     "FieldType": "Checkbox",
-    "FieldWidth": 941,
-    "FormatMask": "qui",
+    "FieldWidth": 556,
+    "FormatMask": "consequatur",
     "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 106,
-    "LabelLeft": 159,
-    "LabelTop": 845,
-    "LabelWidth": 110,
-    "LastVersionId": 340,
-    "ListTableId": 462,
-    "IsMandatory": true,
+    "IsIndexed": false,
+    "LabelHeight": 850,
+    "LabelLeft": 370,
+    "LabelTop": 28,
+    "LabelWidth": 966,
+    "LastVersionId": 563,
+    "ListTableId": 832,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 948,
-    "ProgId": "sapiente",
+    "Page1LineNo": 541,
+    "ProgId": "aut",
     "IsReadOnly": true,
-    "ShortLabel": "nobis",
-    "TabOrder": 983,
-    "TextLength": 268,
-    "Tooltip": "impedit",
-    "UdefIdentity": 187,
-    "UDListDefinitionId": 549,
+    "ShortLabel": "iusto",
+    "TabOrder": 463,
+    "TextLength": 747,
+    "Tooltip": "et",
+    "UdefIdentity": 643,
+    "UDListDefinitionId": 883,
     "Justification": "Center",
-    "Version": 344,
-    "TemplateVariableName": "O'Hara-Jast",
-    "HasBeenPublished": false,
-    "MdoListName": "Anderson-Blanda",
+    "Version": 317,
+    "TemplateVariableName": "Tremblay-Lehner",
+    "HasBeenPublished": true,
+    "MdoListName": "Collier, Kihn and Block",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 185
+        "FieldType": "System.Int32",
+        "FieldLength": 125
       }
     }
   }

@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -106,30 +106,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 318,
-  "SourcePersonId": 129,
-  "DestinationContactId": 678,
-  "DestinationPersonId": 659,
-  "RelationId": 46,
-  "Comment": "autem",
-  "RelationDefinitionId": 71,
-  "Reversed": 478,
-  "UpdatedDate": "2007-05-20T03:46:55.2382402+02:00",
-  "CreatedDate": "2025-02-10T03:46:55.2382402+01:00",
+  "SourceContactId": 293,
+  "SourcePersonId": 571,
+  "DestinationContactId": 63,
+  "DestinationPersonId": 462,
+  "RelationId": 819,
+  "Comment": "est",
+  "RelationDefinitionId": 835,
+  "Reversed": 617,
+  "UpdatedDate": "2020-03-20T03:41:53.9807136+01:00",
+  "CreatedDate": "2019-01-06T03:41:53.9807136+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Abernathy Group",
-  "SourcePersonName": "Olson-McLaughlin",
-  "DestinationContactName": "Towne LLC",
-  "DestinationPersonName": "Gorczany-Abbott",
-  "ActiveText": "dolor",
-  "PassiveText": "consequatur",
+  "SourceContactName": "McKenzie Group",
+  "SourcePersonName": "Mosciski-Lind",
+  "DestinationContactName": "O'Hara-Berge",
+  "DestinationPersonName": "Fritsch, Kerluke and Bosco",
+  "ActiveText": "reiciendis",
+  "PassiveText": "doloribus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 113
+      "FieldLength": 910
     }
   }
 }

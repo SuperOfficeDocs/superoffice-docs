@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 329,
-    "Name": "Torphy Group",
-    "ToolTip": "Culpa ut est totam consequatur voluptates.",
+    "Id": 530,
+    "Name": "Kris, Wyman and Ward",
+    "ToolTip": "Minima minus hic dolorem quibusdam corporis in.",
     "Deleted": false,
-    "Rank": 492,
-    "Type": "pariatur",
-    "ColorBlock": 112,
-    "IconHint": "ex",
+    "Rank": 283,
+    "Type": "rerum",
+    "ColorBlock": 860,
+    "IconHint": "at",
     "Selected": false,
-    "LastChanged": "2023-04-29T03:47:00.7849183+02:00",
+    "LastChanged": "2019-09-29T03:41:59.5742289+02:00",
     "ChildItems": [
       {
-        "Id": 705,
-        "Name": "Daniel-Rau",
-        "ToolTip": "Aspernatur tenetur aut.",
-        "Deleted": true,
-        "Rank": 761,
-        "Type": "deserunt",
-        "ColorBlock": 93,
-        "IconHint": "id",
+        "Id": 757,
+        "Name": "Kshlerin-Jones",
+        "ToolTip": "Est ut suscipit at quibusdam.",
+        "Deleted": false,
+        "Rank": 510,
+        "Type": "quos",
+        "ColorBlock": 117,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "2002-12-07T03:47:00.7849183+01:00",
+        "LastChanged": "2005-01-09T03:41:59.5742289+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "doloribus",
-        "Hidden": true,
-        "FullName": "Ayden Reilly"
+        "ExtraInfo": "eveniet",
+        "StyleHint": "rerum",
+        "Hidden": false,
+        "FullName": "Modesto Zboncak"
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "aspernatur",
-    "Hidden": true,
-    "FullName": "Daryl Watsica"
+    "ExtraInfo": "quia",
+    "StyleHint": "non",
+    "Hidden": false,
+    "FullName": "Mr. Bridie Parker"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 165,
-    "Name": "Sanford-Stroman",
-    "ToolTip": "Sequi inventore expedita aliquam.",
-    "Deleted": true,
-    "Rank": 802,
-    "Type": "laborum",
-    "ColorBlock": 18,
-    "IconHint": "sunt",
+    "Id": 472,
+    "Name": "Kilback Inc and Sons",
+    "ToolTip": "Adipisci aut aut optio totam.",
+    "Deleted": false,
+    "Rank": 928,
+    "Type": "mollitia",
+    "ColorBlock": 925,
+    "IconHint": "velit",
     "Selected": true,
-    "LastChanged": "2022-05-30T03:47:00.7849183+02:00",
+    "LastChanged": "2015-11-05T03:41:59.5742289+01:00",
     "ChildItems": [
       {
-        "Id": 27,
-        "Name": "Stracke-Corkery",
-        "ToolTip": "Et provident quod explicabo sapiente sit sed.",
+        "Id": 604,
+        "Name": "Jenkins, Fay and Bode",
+        "ToolTip": "Et distinctio explicabo.",
         "Deleted": true,
-        "Rank": 691,
-        "Type": "laborum",
-        "ColorBlock": 196,
-        "IconHint": "quasi",
-        "Selected": true,
-        "LastChanged": "2018-05-31T03:47:00.7849183+02:00",
+        "Rank": 932,
+        "Type": "repudiandae",
+        "ColorBlock": 463,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2003-05-16T03:41:59.5742289+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "id",
+        "ExtraInfo": "repellat",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Frederic Buckridge",
+        "FullName": "Mr. Alberto Hannah Thompson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 685
+            "FieldLength": 178
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "esse",
+    "ExtraInfo": "itaque",
+    "StyleHint": "corrupti",
     "Hidden": false,
-    "FullName": "Mr. Jaleel Hickle",
+    "FullName": "Zora Edythe Rowe III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 679
+        "FieldType": "System.Int32",
+        "FieldLength": 509
       }
     }
   }

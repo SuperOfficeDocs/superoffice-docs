@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/List/SaveListEntityByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Willms Group",
+  "Name": "Reichert-Braun",
   "ListEntity": null
 }
 ```
@@ -100,22 +100,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 908,
-  "Name": "Barrows LLC",
-  "Tooltip": "dolorum",
-  "Deleted": true,
-  "Rank": 277,
+  "Id": 59,
+  "Name": "Marquardt LLC",
+  "Tooltip": "odio",
+  "Deleted": false,
+  "Rank": 217,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "pariatur",
+  "UseGroupsAndHeadings": false,
+  "ListType": "doloribus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 270
+      "FieldType": "System.String",
+      "FieldLength": 145
     }
   }
 }

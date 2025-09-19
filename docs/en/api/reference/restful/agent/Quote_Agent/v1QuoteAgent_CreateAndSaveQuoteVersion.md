@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 50
+  "QuoteVersionId": 973
 }
 ```
 
@@ -127,75 +127,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 705,
-  "ERPQuoteVersionKey": "asperiores",
-  "QuoteId": 181,
-  "Description": "Down-sized executive policy",
-  "Number": "959747",
+  "QuoteVersionId": 542,
+  "ERPQuoteVersionKey": "est",
+  "QuoteId": 308,
+  "Description": "Intuitive value-added database",
+  "Number": "898891",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 561,
-  "SentDate": "2009-06-06T03:46:55.1913666+02:00",
-  "FollowupId": 955,
-  "ExpirationDate": "2013-07-05T03:46:55.1913666+02:00",
-  "DeliveryCountryId": 939,
-  "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 568,
+  "LikelyQuoteAlternativeId": 908,
+  "SentDate": "2021-04-25T03:41:53.933842+02:00",
+  "FollowupId": 55,
+  "ExpirationDate": "2008-03-08T03:41:53.933842+01:00",
+  "DeliveryCountryId": 1001,
+  "HasOwnDeliveryAddress": false,
+  "InvoiceCountryId": 649,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "sed",
-  "ERPPaymentTypeKey": "in",
-  "ERPDeliveryTermsKey": "nostrum",
-  "ERPDeliveryTypeKey": "quis",
-  "Rank": 601,
-  "ApprovedBy": 675,
-  "ApprovedText": "tenetur",
-  "ApprovedRegisteredBy": 913,
-  "ApprovedRegisteredDate": "2007-11-09T03:46:55.1913666+01:00",
-  "ExtraField1": "aspernatur",
-  "ExtraField2": "qui",
-  "ExtraField3": "dolorum",
-  "ExtraField4": "consequatur",
-  "ExtraField5": "sed",
-  "LastRecalculated": "2016-04-24T03:46:55.1913666+02:00",
-  "Updated": "2019-02-28T03:46:55.1913666+01:00",
-  "UpdatedAssociateId": 55,
-  "Registered": "2005-02-19T03:46:55.1913666+01:00",
-  "RegisteredAssociateId": 141,
-  "RequestAssociateId": 673,
-  "RequestComment": "voluptate",
+  "ERPPaymentTermsKey": "iure",
+  "ERPPaymentTypeKey": "consectetur",
+  "ERPDeliveryTermsKey": "possimus",
+  "ERPDeliveryTypeKey": "repudiandae",
+  "Rank": 630,
+  "ApprovedBy": 93,
+  "ApprovedText": "sit",
+  "ApprovedRegisteredBy": 191,
+  "ApprovedRegisteredDate": "2013-07-28T03:41:53.933842+02:00",
+  "ExtraField1": "voluptatum",
+  "ExtraField2": "voluptatem",
+  "ExtraField3": "vel",
+  "ExtraField4": "temporibus",
+  "ExtraField5": "consequatur",
+  "LastRecalculated": "2023-08-30T03:41:53.933842+02:00",
+  "Updated": "2012-09-08T03:41:53.933842+02:00",
+  "UpdatedAssociateId": 973,
+  "Registered": "2016-07-01T03:41:53.933842+02:00",
+  "RegisteredAssociateId": 857,
+  "RequestAssociateId": 272,
+  "RequestComment": "dolore",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 576,
-      "ERPQuoteAlternativeKey": "neque",
-      "QuoteVersionId": 182,
-      "Name": "Smitham, Gutkowski and Wisozk",
-      "Description": "Synergistic assymetric software",
+      "QuoteAlternativeId": 643,
+      "ERPQuoteAlternativeKey": "eligendi",
+      "QuoteVersionId": 766,
+      "Name": "O'Keefe LLC",
+      "Description": "Monitored grid-enabled archive",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 27419.365999999998,
-      "ERPDiscountAmount": 15413.011999999999,
-      "DiscountPercent": 22138.576,
-      "DiscountAmount": 20994.666,
+      "ERPDiscountPercent": 27090.296,
+      "ERPDiscountAmount": 14394.462,
+      "DiscountPercent": 27115.368,
+      "DiscountAmount": 20549.638,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "sint",
-      "VAT": 22006.948,
-      "EarningPercent": 12786.72,
-      "EarningAmount": 1175.25,
-      "SubTotal": 31.34,
-      "TotalPrice": 10151.026,
-      "ExtraField1": "error",
-      "ExtraField2": "sed",
-      "ExtraField3": "error",
-      "ExtraField4": "fugiat",
-      "ExtraField5": "velit",
+      "VATInfo": "et",
+      "VAT": 20245.64,
+      "EarningPercent": 21458.498,
+      "EarningAmount": 12141.116,
+      "SubTotal": 9486.618,
+      "TotalPrice": 25003.052,
+      "ExtraField1": "nam",
+      "ExtraField2": "quasi",
+      "ExtraField3": "impedit",
+      "ExtraField4": "minima",
+      "ExtraField5": "deserunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 434
+          "FieldLength": 143
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 35
+      "FieldType": "System.Int32",
+      "FieldLength": 996
     }
   }
 }

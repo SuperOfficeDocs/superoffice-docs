@@ -74,10 +74,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 188,
+  "QuoteConnectionId": 33,
   "ConnectionConfigFields": {
-    "ConnectionConfigFields1": "quasi",
-    "ConnectionConfigFields2": "asperiores"
+    "ConnectionConfigFields1": "ducimus",
+    "ConnectionConfigFields2": "et"
   }
 }
 ```
@@ -89,7 +89,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "deserunt",
-  "2": "aperiam"
+  "1": "exercitationem",
+  "2": "praesentium"
 }
 ```

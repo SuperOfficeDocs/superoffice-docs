@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 98,
-    "Name": "Jenkins Group",
-    "ToolTip": "Vel ut ut.",
+    "Id": 873,
+    "Name": "Shanahan, Schiller and Jakubowski",
+    "ToolTip": "Qui cupiditate dolore dolor illum culpa.",
     "Deleted": false,
-    "Rank": 971,
-    "Type": "dignissimos",
-    "ColorBlock": 328,
-    "IconHint": "corporis",
-    "Selected": false,
-    "LastChanged": "2001-01-13T03:47:00.8161673+01:00",
+    "Rank": 154,
+    "Type": "ullam",
+    "ColorBlock": 906,
+    "IconHint": "odit",
+    "Selected": true,
+    "LastChanged": "2015-05-13T03:41:59.6054711+02:00",
     "ChildItems": [
       {
-        "Id": 439,
-        "Name": "Hagenes-Hettinger",
-        "ToolTip": "Et enim in et voluptatum aliquam.",
+        "Id": 661,
+        "Name": "O'Conner-Grant",
+        "ToolTip": "Dolorem asperiores quisquam harum deserunt aut quis natus.",
         "Deleted": false,
-        "Rank": 370,
-        "Type": "illo",
-        "ColorBlock": 662,
-        "IconHint": "consequatur",
+        "Rank": 458,
+        "Type": "optio",
+        "ColorBlock": 516,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2018-11-25T03:47:00.8161673+01:00",
+        "LastChanged": "2018-05-02T03:41:59.6054711+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Miss Elvie Oma Cremin",
+        "ExtraInfo": "aut",
+        "StyleHint": "quam",
+        "Hidden": true,
+        "FullName": "Miss Estelle Haley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 391
+            "FieldLength": 234
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "voluptate",
-    "Hidden": true,
-    "FullName": "Mr. Dominique Dare I",
+    "ExtraInfo": "cum",
+    "StyleHint": "culpa",
+    "Hidden": false,
+    "FullName": "Sigurd Emard MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 245
+        "FieldType": "System.String",
+        "FieldLength": 273
       }
     }
   }

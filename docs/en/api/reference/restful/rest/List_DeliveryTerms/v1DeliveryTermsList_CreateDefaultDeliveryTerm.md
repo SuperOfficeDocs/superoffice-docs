@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 814,
-  "Name": "Ziemann, Volkman and Gleichner",
-  "Tooltip": "expedita",
-  "Deleted": false,
-  "UdListDefinitionId": 866,
-  "Rank": 491,
+  "Id": 745,
+  "Name": "Mante Group",
+  "Tooltip": "occaecati",
+  "Deleted": true,
+  "UdListDefinitionId": 149,
+  "Rank": 51,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 796
+      "FieldType": "System.Int32",
+      "FieldLength": 627
     }
   }
 }

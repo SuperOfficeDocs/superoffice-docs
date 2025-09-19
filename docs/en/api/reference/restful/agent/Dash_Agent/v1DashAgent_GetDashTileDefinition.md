@@ -27,7 +27,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=113
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=258
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -96,31 +96,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 922,
-  "Name": "Zulauf, Kshlerin and Weissnat",
-  "Description": "Assimilated content-based encryption",
-  "DefaultHeight": 272,
-  "DefaultWidth": 436,
+  "DashboardTileDefinitionId": 632,
+  "Name": "Oberbrunner Group",
+  "Description": "Diverse radical superstructure",
+  "DefaultHeight": 494,
+  "DefaultWidth": 252,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Doyle Group",
-  "SelectionId": 30,
+  "EntityName": "Ledner-Dickens",
+  "SelectionId": 458,
   "CurrencyMode": "Base",
-  "CurrencyCode": "possimus",
+  "CurrencyCode": "numquam",
   "Measure": "Average",
-  "MeasureField": "officiis",
-  "SortBy": "dignissimos",
-  "LayoutConfig": "qui",
-  "SecondarySelectionId": 675,
-  "MeasureByField": "veniam",
+  "MeasureField": "est",
+  "SortBy": "quas",
+  "LayoutConfig": "sit",
+  "SecondarySelectionId": 83,
+  "MeasureByField": "dolor",
   "Usage": "Dashboard",
-  "ProviderName": "Marvin-Windler",
+  "ProviderName": "Jakubowski-Hamill",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 554
+      "FieldLength": 507
     }
   }
 }

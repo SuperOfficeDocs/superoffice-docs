@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2017-04-02T03:46:54.1914032+02:00"
+  "StartDate": "2002-10-02T03:41:52.9807564+02:00"
 }
 ```
 
@@ -100,10 +100,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 748,
-  "StartDate": "2003-01-10T03:46:54.1914032+01:00",
-  "EndDate": "2017-08-31T03:46:54.1914032+02:00",
-  "RecurrenceCounter": 649,
+  "RecurrenceId": 464,
+  "StartDate": "2011-05-09T03:41:52.9807564+02:00",
+  "EndDate": "2022-07-31T03:41:52.9807564+02:00",
+  "RecurrenceCounter": 332,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -112,20 +112,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1999-08-04T03:46:54.1914032+02:00",
+      "Date": "2012-10-05T03:41:52.9807564+02:00",
       "IsConflict": false,
-      "Description": "Advanced bi-directional access",
-      "DescriptionStyleHint": "Pre-emptive executive neural-net",
-      "Tooltip": "exercitationem"
+      "Description": "Organic mission-critical projection",
+      "DescriptionStyleHint": "Stand-alone radical Graphical User Interface",
+      "Tooltip": "quia"
     },
     {
-      "Date": "1999-08-04T03:46:54.1914032+02:00",
+      "Date": "2012-10-05T03:41:52.9807564+02:00",
       "IsConflict": false,
-      "Description": "Advanced bi-directional access",
-      "DescriptionStyleHint": "Pre-emptive executive neural-net",
-      "Tooltip": "exercitationem"
+      "Description": "Organic mission-critical projection",
+      "DescriptionStyleHint": "Stand-alone radical Graphical User Interface",
+      "Tooltip": "quia"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

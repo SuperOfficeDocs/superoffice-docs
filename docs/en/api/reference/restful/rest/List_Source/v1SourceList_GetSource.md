@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 311,
-  "Name": "Monahan Group",
-  "Tooltip": "maxime",
+  "Id": 930,
+  "Name": "Hirthe Group",
+  "Tooltip": "ad",
   "Deleted": false,
-  "UdListDefinitionId": 51,
-  "Rank": 772,
+  "UdListDefinitionId": 413,
+  "Rank": 800,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldLength": 365
     }
   }
 }

@@ -60,10 +60,10 @@ This table contains the pop-up messages displayed for users for various events, 
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[chat\_topic](chat-topic.md)  |This table contains chat topics. |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 |[ej\_category](ej-category.md)  |This table contains categories, in which tickets are categorized. The categories are organized in a hierarchial manner. |
 |[ejuser](ejuser.md)  |This table contains entries for the users of the system. |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[ticket\_alert](ticket-alert.md)  |This table will contain ticket escalation levels. A ticket will be escalated along a &amp;apos;chain&amp;apos; of these levels. |
 

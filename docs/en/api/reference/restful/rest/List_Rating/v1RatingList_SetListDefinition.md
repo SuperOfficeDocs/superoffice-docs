@@ -89,16 +89,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 752,
-  "Name": "Reichert Group",
-  "Tooltip": "deserunt",
-  "Deleted": false,
-  "Rank": 602,
-  "IsCustomList": true,
+  "Id": 107,
+  "Name": "Kshlerin, Gerlach and Kilback",
+  "Tooltip": "placeat",
+  "Deleted": true,
+  "Rank": 975,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptates",
-  "InUseByUserDefinedFields": true
+  "ListType": "vitae",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 232,
-  "Name": "Hagenes Group",
-  "Tooltip": "sequi",
+  "Id": 129,
+  "Name": "Kulas LLC",
+  "Tooltip": "incidunt",
   "Deleted": false,
-  "Rank": 598,
-  "IsCustomList": true,
+  "Rank": 2,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "facere",
+  "ListType": "aut",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 367
+      "FieldType": "System.Int32",
+      "FieldLength": 210
     }
   }
 }

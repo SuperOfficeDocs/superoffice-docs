@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Contact/GetPreviewEnrichContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EnrichId": "maxime"
+  "EnrichId": "et"
 }
 ```
 
@@ -98,17 +98,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 269,
-  "Name": "Ruecker-Mann",
+  "ContactId": 47,
+  "Name": "Champlin, Kertzmann and Thiel",
   "Department": "",
-  "CountryId": 940,
-  "Number2": "1401007",
-  "DirectPhone": "1-352-073-2561 x67812",
+  "CountryId": 622,
+  "Number2": "1200097",
+  "DirectPhone": "1-454-022-7855",
   "URL": "http://www.example.com/",
-  "EmailAddress": "lenna@yundt.us",
+  "EmailAddress": "earl@gleasonbartell.ca",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
-  "AssociateFullName": "Celia Katelyn White II",
+  "AssociateFullName": "Giovanni Parker Bernhard DDS",
   "Address": null
 }
 ```

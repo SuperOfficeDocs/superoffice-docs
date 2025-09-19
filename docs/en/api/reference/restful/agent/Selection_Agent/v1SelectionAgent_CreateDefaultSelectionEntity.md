@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -106,70 +106,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Digitized optimizing encryption",
-  "Postit": "enim",
+  "Description": "Phased regional benchmark",
+  "Postit": "vel",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 853,
-  "IncludePerson": 829,
+  "GroupIdx": 1001,
+  "IncludePerson": 645,
   "MemberCount": 99.99,
-  "Name": "Miller, Kessler and Koch",
-  "PostitTextId": 195,
-  "CreatedDate": "2001-07-17T03:46:55.3007553+02:00",
-  "SelectionId": 556,
-  "SoundEx": "blanditiis",
-  "Source": 811,
-  "TextId": 168,
-  "UpdatedDate": "2015-06-12T03:46:55.3007553+02:00",
-  "UpdatedCount": 805,
-  "Visibility": 152,
+  "Name": "D'Amore-Johnston",
+  "PostitTextId": 405,
+  "CreatedDate": "2004-06-16T03:41:54.0275871+02:00",
+  "SelectionId": 581,
+  "SoundEx": "tempora",
+  "Source": 786,
+  "TextId": 647,
+  "UpdatedDate": "2022-07-28T03:41:54.0275871+02:00",
+  "UpdatedCount": 704,
+  "Visibility": 141,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 194,
-  "TargetTableName": "Adams-Bergstrom",
+  "TargetTableNumber": 412,
+  "TargetTableName": "Hickle Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 956,
-  "RightSelectionId": 349,
+  "LeftSelectionId": 948,
+  "RightSelectionId": 286,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Russel, Douglas and Hilll",
-  "ShadowProviderName": "McDermott-Cummerata",
-  "ChartKey": "dicta",
-  "LastLoaded": "2000-07-16T03:46:55.3007553+02:00",
-  "LastLoadedBy": 994,
+  "MainProviderName": "Frami-Casper",
+  "ShadowProviderName": "Ankunding-Morar",
+  "ChartKey": "nulla",
+  "LastLoaded": "2022-01-19T03:41:54.0275871+01:00",
+  "LastLoadedBy": 509,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-06-03T03:46:55.3007553+02:00",
-  "LastMembershipChangeBy": 739,
+  "LastMembershipChange": "2020-03-22T03:41:54.0275871+01:00",
+  "LastMembershipChangeBy": 712,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "excepturi",
-  "MemberTabHeading": "provident",
-  "MailingsProviderName": "Durgan, Kub and Schamberger",
-  "DashboardTileDefinitionId": 991,
+  "MainHeading": "qui",
+  "MemberTabHeading": "adipisci",
+  "MailingsProviderName": "Carter, Heaney and Kilback",
+  "DashboardTileDefinitionId": 439,
   "VisibleFor": [
     {
-      "VisibleId": 6,
+      "VisibleId": 133,
       "Visibility": "All",
-      "DisplayValue": "sapiente",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 250
+          "FieldType": "System.String",
+          "FieldLength": 285
         }
       }
     },
     {
-      "VisibleId": 6,
+      "VisibleId": 133,
       "Visibility": "All",
-      "DisplayValue": "sapiente",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 250
+          "FieldType": "System.String",
+          "FieldLength": 285
         }
       }
     }
@@ -178,8 +178,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 225
+      "FieldType": "System.String",
+      "FieldLength": 254
     }
   }
 }

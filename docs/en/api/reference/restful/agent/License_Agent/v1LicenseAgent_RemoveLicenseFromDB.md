@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/License/RemoveLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ModuleOwner": "ullam"
+  "ModuleOwner": "voluptate"
 }
 ```
 
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 187
+      "FieldLength": 824
     }
   }
 }

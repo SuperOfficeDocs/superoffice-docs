@@ -85,30 +85,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 695,
-  "Section": "expedita",
-  "Key": "aut",
-  "Name": "Von Inc and Sons",
+  "PrefDescId": 444,
+  "Section": "quis",
+  "Key": "debitis",
+  "Name": "Fritsch LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Decentralized global synergy",
-  "IsBuiltin": true,
-  "TableName": "O'Kon Inc and Sons",
-  "UserDefinedListId": 927,
-  "Rank": 740,
-  "SubGroup": "rem",
-  "MinLevel": 731,
-  "MaxValue": 630,
-  "MinValue": 337,
-  "RequiredLicense": "officia",
+  "Description": "Grass-roots analyzing secured line",
+  "IsBuiltin": false,
+  "TableName": "Cremin Inc and Sons",
+  "UserDefinedListId": 156,
+  "Rank": 205,
+  "SubGroup": "culpa",
+  "MinLevel": 860,
+  "MaxValue": 911,
+  "MinValue": 790,
+  "RequiredLicense": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 297
+      "FieldLength": 861
     }
   }
 }

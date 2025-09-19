@@ -34,7 +34,7 @@ Calls the Preference agent service SetPreference or SetPreferenceEntity.
 | value | string | **Required** The preference value as a string |
 
 ```http
-PUT /api/v1/Preference/{section}/{key}/{prefLevel}?value=fugit
+PUT /api/v1/Preference/{section}/{key}/{prefLevel}?value=nulla
 ```
 
 

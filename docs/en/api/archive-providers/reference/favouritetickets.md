@@ -783,7 +783,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FavouriteTickets?$select=ownedBy/assocType,ownedBy/simultaneousEjUser,sale/userGroup,sale/amountWeighted
+GET /api/v1/archive/FavouriteTickets?$select=createdByWorkflow,person/personUdef/SuperOffice:1,person/personAssociate/contactId,contact/postAddress/addressId,contact/contactAssociate/middleName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

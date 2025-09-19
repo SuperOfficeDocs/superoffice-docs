@@ -95,19 +95,19 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 373,
-  "ERPPriceListKey": "in",
-  "QuoteConnectionId": 405,
-  "Name": "Fay, Kiehn and Satterfield",
-  "Description": "Business-focused web-enabled attitude",
-  "Currency": "modi",
-  "CurrencyName": "Kohler LLC",
-  "ValidFrom": "2006-06-04T03:47:00.7067961+02:00",
-  "ValidTo": "2014-06-22T03:47:00.7067961+02:00",
+  "PriceListId": 826,
+  "ERPPriceListKey": "iste",
+  "QuoteConnectionId": 894,
+  "Name": "Rodriguez, Miller and Jacobs",
+  "Description": "Progressive dynamic policy",
+  "Currency": "eligendi",
+  "CurrencyName": "Dietrich, Gusikowski and Jenkins",
+  "ValidFrom": "2001-04-05T03:41:59.4648585+02:00",
+  "ValidTo": "2020-09-05T03:41:59.4648585+02:00",
   "IsActive": false
 }
 ```
@@ -119,27 +119,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 774,
-  "ERPPriceListKey": "dolores",
-  "QuoteConnectionId": 665,
-  "Name": "Wisoky-Homenick",
-  "Description": "Integrated neutral moderator",
-  "Currency": "magnam",
-  "CurrencyName": "Smith, Hamill and Crooks",
-  "ValidFrom": "2003-11-04T03:47:00.7067961+01:00",
-  "ValidTo": "2013-04-22T03:47:00.7067961+02:00",
+  "PriceListId": 359,
+  "ERPPriceListKey": "molestiae",
+  "QuoteConnectionId": 704,
+  "Name": "Huels, Brakus and Christiansen",
+  "Description": "Extended composite superstructure",
+  "Currency": "animi",
+  "CurrencyName": "Medhurst, Ferry and Stamm",
+  "ValidFrom": "2004-03-02T03:41:59.4648585+01:00",
+  "ValidTo": "2018-07-12T03:41:59.4648585+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 267
+      "FieldLength": 894
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

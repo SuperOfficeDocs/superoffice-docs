@@ -105,7 +105,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 68
+  "DocumentId": 577
 }
 ```
 
@@ -118,148 +118,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 437,
-      "ContactName": "Stokes, Trantow and Dickens",
-      "PersonId": 699,
-      "PersonName": "Kohler-Robel",
-      "AssociateId": 129,
-      "Address": "sint",
-      "EmailId": 295,
+      "ContactId": 821,
+      "ContactName": "Cremin, Erdman and Moen",
+      "PersonId": 779,
+      "PersonName": "Homenick-Ziemann",
+      "AssociateId": 945,
+      "Address": "quibusdam",
+      "EmailId": 573,
       "DuplicatePersonIds": [
-        473,
-        696
+        25,
+        723
       ],
-      "Name": "Mosciski, Gutmann and Breitenberg",
+      "Name": "Nader, Parisian and McGlynn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 924
+          "FieldType": "System.Int32",
+          "FieldLength": 607
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 214,
-      "ContactName": "Kunze, O'Conner and Kovacek",
-      "PersonId": 900,
-      "PersonName": "Torphy-Reynolds",
-      "AssociateId": 281,
-      "Address": "dolorem",
-      "EmailId": 773,
+      "ContactId": 299,
+      "ContactName": "Pollich, West and Stanton",
+      "PersonId": 63,
+      "PersonName": "Ryan-Rau",
+      "AssociateId": 185,
+      "Address": "aut",
+      "EmailId": 374,
       "DuplicatePersonIds": [
-        581,
-        257
+        355,
+        949
       ],
-      "Name": "Jerde-Bechtelar",
+      "Name": "Larson Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 615
+          "FieldLength": 101
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 565,
-      "ContactName": "Spencer-Sauer",
-      "PersonId": 459,
-      "PersonName": "Hammes-Mueller",
-      "AssociateId": 501,
-      "Address": "quia",
-      "EmailId": 159,
+      "ContactId": 12,
+      "ContactName": "Jast, Wiegand and Skiles",
+      "PersonId": 581,
+      "PersonName": "Dietrich-Cronin",
+      "AssociateId": 752,
+      "Address": "dolorem",
+      "EmailId": 539,
       "DuplicatePersonIds": [
-        194,
-        250
+        650,
+        50
       ],
-      "Name": "Gutkowski-Becker",
+      "Name": "Rohan, Stamm and Schowalter",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 538
+          "FieldLength": 145
         }
       }
     }
   ],
-  "Subject": "non",
-  "HTMLBody": "nisi",
+  "Subject": "aliquid",
+  "HTMLBody": "minima",
   "From": null,
-  "Sent": "2005-08-31T03:46:54.7382579+02:00",
-  "Size": 507,
+  "Sent": "2017-08-11T03:41:53.480735+02:00",
+  "Size": 934,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "beatae",
-  "PlainBody": "libero",
-  "IsSent": false,
+  "MessageID": "sed",
+  "PlainBody": "dolorum",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 110,
+  "ServerId": 179,
   "Attachments": [
     {
-      "Description": "Self-enabling zero tolerance firmware",
-      "Filename": "ut",
-      "Size": 687,
-      "Type": "totam",
-      "Encoding": "non",
-      "Id": "enim",
-      "Disposition": "excepturi",
-      "IsSafeFileExtension": true,
+      "Description": "Inverse clear-thinking alliance",
+      "Filename": "atque",
+      "Size": 664,
+      "Type": "aliquam",
+      "Encoding": "ut",
+      "Id": "id",
+      "Disposition": "odit",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 650
+          "FieldType": "System.Int32",
+          "FieldLength": 503
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Schinner Group",
+      "Name": "Klein Inc and Sons",
       "Values": [
-        "assumenda",
-        "illo"
+        "autem",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 715
+          "FieldLength": 417
         }
       }
     },
     {
-      "Name": "Schinner Group",
+      "Name": "Klein Inc and Sons",
       "Values": [
-        "assumenda",
-        "illo"
+        "autem",
+        "voluptatem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 715
+          "FieldLength": 417
         }
       }
     }
   ],
-  "FolderName": "Reilly Inc and Sons",
-  "EmailItemId": 464,
-  "AccountId": 980,
-  "ReceivedAt": "1999-10-17T03:46:54.7382579+02:00",
+  "FolderName": "Schoen-Gaylord",
+  "EmailItemId": 891,
+  "AccountId": 616,
+  "ReceivedAt": "2001-08-09T03:41:53.480735+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2019-05-28T03:46:54.7382579+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2024-07-29T03:41:53.4963592+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -267,7 +267,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 174
+      "FieldLength": 297
     }
   }
 }

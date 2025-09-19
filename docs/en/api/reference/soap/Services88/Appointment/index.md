@@ -101,6 +101,7 @@ Download [WSDL file for Services88/Appointment](../Services88-Appointment.md) if
 * [GetTaskListItem](GetTaskListItem.md)
 * [GetTaskListItems](GetTaskListItems.md)
 * [GetUIDFromAppointmentId](GetUIDFromAppointmentId.md)
+* [GetVideoMeetingConnectedState](GetVideoMeetingConnectedState.md)
 * [Move](Move.md)
 * [MoveExtended](MoveExtended.md)
 * [MoveWithEmail](MoveWithEmail.md)

@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 691
+  "AssociateId": 87
 }
 ```
 
@@ -104,54 +104,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 50,
-    "ERPName": "Langworth-Nikolaus",
-    "DisplayName": "Barrows Inc and Sons",
-    "DisplayDescription": "Grass-roots value-added pricing structure",
-    "Rank": 102,
-    "ConnectorName": "Herman-Torphy",
-    "ErpConnectionId": 708,
-    "ExtraData": "neque",
+    "QuoteConnectionId": 205,
+    "ERPName": "Schaefer, Lubowitz and Wolff",
+    "DisplayName": "Stokes Group",
+    "DisplayDescription": "Organized national policy",
+    "Rank": 708,
+    "ConnectorName": "Ledner Inc and Sons",
+    "ErpConnectionId": 32,
+    "ExtraData": "qui",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 252,
-        "ERPPriceListKey": "fuga",
-        "QuoteConnectionId": 549,
-        "Name": "Effertz, Farrell and Spinka",
-        "Description": "Expanded user-facing hub",
-        "Currency": "optio",
-        "CurrencyName": "Schumm-Parker",
-        "ValidFrom": "2012-04-22T03:46:55.2226157+02:00",
-        "ValidTo": "2020-08-19T03:46:55.2226157+02:00",
+        "PriceListId": 630,
+        "ERPPriceListKey": "voluptatem",
+        "QuoteConnectionId": 53,
+        "Name": "Hartmann-O'Reilly",
+        "Description": "Horizontal didactic emulation",
+        "Currency": "velit",
+        "CurrencyName": "Bruen-Gutmann",
+        "ValidFrom": "1998-09-19T03:41:53.9650897+02:00",
+        "ValidTo": "2014-04-19T03:41:53.9650897+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 793
+            "FieldLength": 752
           }
         }
       }
     ],
-    "AllAccess": true,
+    "AllAccess": false,
     "Deleted": false,
     "UserGroupAccessIds": [
-      466,
-      302
+      727,
+      83
     ],
     "AssociateAccessIds": [
-      808,
-      171
+      561,
+      763
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 821
+        "FieldLength": 590
       }
     }
   }

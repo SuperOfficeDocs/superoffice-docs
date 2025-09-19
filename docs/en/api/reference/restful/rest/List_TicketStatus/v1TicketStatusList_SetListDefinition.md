@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 577,
-  "Name": "Wehner, Stiedemann and Romaguera",
-  "Tooltip": "dicta",
+  "Id": 249,
+  "Name": "Hessel Inc and Sons",
+  "Tooltip": "iste",
   "Deleted": false,
-  "Rank": 935,
-  "IsCustomList": true,
+  "Rank": 799,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ipsum",
+  "ListType": "rerum",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 421,
-  "Name": "Satterfield, Denesik and Stoltenberg",
-  "Tooltip": "tempore",
+  "Id": 751,
+  "Name": "Lueilwitz-Conroy",
+  "Tooltip": "eos",
   "Deleted": false,
-  "Rank": 982,
+  "Rank": 119,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "veniam",
+  "UseGroupsAndHeadings": false,
+  "ListType": "qui",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldType": "System.String",
+      "FieldLength": 202
     }
   }
 }

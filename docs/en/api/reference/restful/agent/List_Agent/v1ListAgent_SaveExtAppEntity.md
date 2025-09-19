@@ -106,32 +106,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 216,
-  "Name": "Ratke, Hane and Kris",
-  "Tooltip": "quia",
+  "ExtAppId": 239,
+  "Name": "Powlowski LLC",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 724,
-  "Filename": "corrupti",
-  "Parameters": "blanditiis",
-  "Workdir": "occaecati",
+  "Rank": 22,
+  "Filename": "et",
+  "Parameters": "ut",
+  "Workdir": "maxime",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "Icon": 326,
+  "Icon": 94,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "non"
+  "Path": "voluptas"
 }
 ```
 
@@ -142,34 +142,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 534,
-  "Name": "Gorczany-Macejkovic",
-  "Tooltip": "hic",
-  "Deleted": false,
-  "Rank": 555,
-  "Filename": "ut",
-  "Parameters": "sed",
-  "Workdir": "qui",
+  "ExtAppId": 619,
+  "Name": "Anderson-Reichert",
+  "Tooltip": "asperiores",
+  "Deleted": true,
+  "Rank": 163,
+  "Filename": "officia",
+  "Parameters": "dolorum",
+  "Workdir": "ut",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "Icon": 344,
-  "WaitToFinish": true,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "Icon": 33,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "ut",
+  "Path": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 852
+      "FieldLength": 141
     }
   }
 }

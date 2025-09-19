@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Beahan-Klein",
-    "DisplayName": "Rohan, Hoeger and Moen",
-    "DisplayTooltip": "praesentium",
-    "IconHint": "reprehenderit",
+    "Name": "Dietrich-Moore",
+    "DisplayName": "Emard, Lueilwitz and Nolan",
+    "DisplayTooltip": "in",
+    "IconHint": "provident",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Beahan-Klein",
-    "DisplayName": "Rohan, Hoeger and Moen",
-    "DisplayTooltip": "praesentium",
-    "IconHint": "reprehenderit",
+    "Name": "Dietrich-Moore",
+    "DisplayName": "Emard, Lueilwitz and Nolan",
+    "DisplayTooltip": "in",
+    "IconHint": "provident",
     "ReturnType": "CustomGui"
   }
 ]

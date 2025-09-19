@@ -103,28 +103,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 15,
-  "Section": "omnis",
-  "Key": "libero",
-  "Name": "Veum, Bosco and Ritchie",
+  "PrefDescId": 33,
+  "Section": "nobis",
+  "Key": "eligendi",
+  "Name": "Nolan, Windler and Bosco",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Programmable client-server architecture",
-  "IsBuiltin": false,
-  "TableName": "Brakus, Haley and Hackett",
-  "UserDefinedListId": 247,
-  "Rank": 140,
-  "SubGroup": "amet",
-  "MinLevel": 61,
-  "MaxValue": 777,
-  "MinValue": 308,
-  "RequiredLicense": "dignissimos"
+  "Description": "Profound mobile strategy",
+  "IsBuiltin": true,
+  "TableName": "O'Conner-Labadie",
+  "UserDefinedListId": 932,
+  "Rank": 325,
+  "SubGroup": "rerum",
+  "MinLevel": 267,
+  "MaxValue": 327,
+  "MinValue": 282,
+  "RequiredLicense": "architecto"
 }
 ```
 
@@ -135,30 +135,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 101,
-  "Section": "voluptates",
-  "Key": "quod",
-  "Name": "Batz, Jacobson and Tillman",
+  "PrefDescId": 156,
+  "Section": "omnis",
+  "Key": "dolores",
+  "Name": "Kemmer, Buckridge and O'Kon",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Open-source 24 hour superstructure",
+  "Description": "Integrated neutral monitoring",
   "IsBuiltin": false,
-  "TableName": "Hickle LLC",
-  "UserDefinedListId": 984,
-  "Rank": 965,
-  "SubGroup": "ut",
-  "MinLevel": 608,
-  "MaxValue": 102,
-  "MinValue": 812,
-  "RequiredLicense": "quo",
+  "TableName": "Haag-Gutmann",
+  "UserDefinedListId": 175,
+  "Rank": 938,
+  "SubGroup": "debitis",
+  "MinLevel": 954,
+  "MaxValue": 13,
+  "MinValue": 370,
+  "RequiredLicense": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 212
+      "FieldLength": 411
     }
   }
 }

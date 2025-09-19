@@ -92,37 +92,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 133,
-  "Name": "Borer, Keeling and Bergnaum",
-  "AssociateId": 610,
-  "DetailsTable": 174,
-  "DetailsRecord": 511,
-  "IsSystemTask": false,
+  "Id": 416,
+  "Name": "Willms Group",
+  "AssociateId": 609,
+  "DetailsTable": 477,
+  "DetailsRecord": 712,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "eum",
-    "ParameterObject2": "amet"
+    "ParameterObject1": "harum",
+    "ParameterObject2": "distinctio"
   },
-  "LastStarted": "2024-04-30T03:47:00.3943072+02:00",
-  "Created": "2003-06-23T03:47:00.3943072+02:00",
-  "StartCount": 491,
-  "DatabaseSerialNumber": "385130",
-  "Context": "dolorem",
-  "Result": "odit",
+  "LastStarted": "2004-03-27T03:41:59.1679969+01:00",
+  "Created": "2013-07-11T03:41:59.1679969+02:00",
+  "StartCount": 361,
+  "DatabaseSerialNumber": "1583534",
+  "Context": "tempora",
+  "Result": "maxime",
   "State": "All",
-  "Description": "Exclusive homogeneous open system",
-  "Response": "temporibus",
-  "Request": "ducimus",
-  "ProgressDescription": "Automated contextually-based capacity",
-  "ProgressPercent": 565,
-  "FileName": "Raynor, Erdman and Cassin",
+  "Description": "Stand-alone national Graphical User Interface",
+  "Response": "cum",
+  "Request": "optio",
+  "ProgressDescription": "Synergistic demand-driven synergy",
+  "ProgressPercent": 633,
+  "FileName": "Kirlin-Beatty",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 463
+      "FieldType": "System.Int32",
+      "FieldLength": 952
     }
   }
 }

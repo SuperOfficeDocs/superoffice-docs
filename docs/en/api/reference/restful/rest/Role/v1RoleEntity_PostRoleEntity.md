@@ -106,16 +106,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 640,
-  "Name": "Buckridge, DuBuque and Sipes",
-  "Tooltip": "officia",
+  "RoleId": 462,
+  "Name": "Christiansen, Cruickshank and Funk",
+  "Tooltip": "est",
   "RoleType": "Anonymous",
-  "Deleted": 450,
-  "Rank": 367,
-  "Created": "2012-08-20T03:47:00.2068137+02:00",
-  "UseCategories": 384,
+  "Deleted": 519,
+  "Rank": 429,
+  "Created": "2020-05-30T03:41:58.9336467+02:00",
+  "UseCategories": 859,
   "CreatedBy": null,
-  "Updated": "2025-02-24T03:47:00.2068137+01:00",
+  "Updated": "2003-09-23T03:41:58.9336467+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -128,24 +128,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 454,
-  "Name": "Swaniawski, Koss and Hoeger",
-  "Tooltip": "cum",
+  "RoleId": 24,
+  "Name": "Rice-Bruen",
+  "Tooltip": "impedit",
   "RoleType": "Anonymous",
-  "Deleted": 623,
-  "Rank": 538,
-  "Created": "2020-05-16T03:47:00.2068137+02:00",
-  "UseCategories": 930,
+  "Deleted": 578,
+  "Rank": 275,
+  "Created": "2019-06-21T03:41:58.9336467+02:00",
+  "UseCategories": 673,
   "CreatedBy": null,
-  "Updated": "2005-11-12T03:47:00.2068137+01:00",
+  "Updated": "2009-04-17T03:41:58.9336467+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 806
+      "FieldType": "System.String",
+      "FieldLength": 981
     }
   },
   "_Links": {

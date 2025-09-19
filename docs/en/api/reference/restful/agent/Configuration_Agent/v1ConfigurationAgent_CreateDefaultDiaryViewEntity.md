@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,49 +73,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 343,
-  "Name": "Gutkowski, Treutel and Kozey",
-  "Tooltip": "quibusdam",
-  "VisibleColumns": 987,
-  "Rank": 145,
-  "AssocId": 531,
+  "DiaryViewId": 338,
+  "Name": "Thompson Group",
+  "Tooltip": "cum",
+  "VisibleColumns": 131,
+  "Rank": 204,
+  "AssocId": 272,
   "AssociateList": [
     {
-      "Id": 486,
-      "Name": "Bahringer-Lesch",
-      "ToolTip": "Voluptate maxime mollitia tempora similique est incidunt.",
-      "Deleted": false,
-      "Rank": 139,
-      "Type": "facilis",
-      "ColorBlock": 317,
-      "IconHint": "et",
-      "Selected": false,
-      "LastChanged": "2020-02-17T03:46:54.4570178+01:00",
+      "Id": 284,
+      "Name": "Gusikowski, Nolan and Renner",
+      "ToolTip": "Alias nostrum corporis.",
+      "Deleted": true,
+      "Rank": 385,
+      "Type": "assumenda",
+      "ColorBlock": 888,
+      "IconHint": "mollitia",
+      "Selected": true,
+      "LastChanged": "2004-09-07T03:41:53.2309893+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "error",
-      "StyleHint": "sed",
+      "ExtraInfo": "blanditiis",
+      "StyleHint": "consequatur",
       "Hidden": false,
-      "FullName": "Alexander Dare",
+      "FullName": "Camden Harber",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 111
+          "FieldLength": 604
         }
       }
     }
   ],
-  "TzLocationId": 392,
+  "TzLocationId": 596,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 241
+      "FieldLength": 893
     }
   }
 }

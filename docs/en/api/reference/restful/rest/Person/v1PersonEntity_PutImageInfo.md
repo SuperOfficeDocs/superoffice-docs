@@ -98,19 +98,19 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 319,
-  "BlobSize": 255,
-  "Description": "Optimized content-based website",
-  "ExtraInfo": "sed",
-  "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "commodi",
-  "OriginalSize": 153,
-  "CreatedDate": "2004-06-07T03:47:00.1599324+02:00",
-  "UpdatedDate": "2023-06-28T03:47:00.1599324+02:00",
+  "BlobId": 927,
+  "BlobSize": 659,
+  "Description": "Optional 5th generation structure",
+  "ExtraInfo": "aliquam",
+  "IsEncrypted": true,
+  "IsZipped": false,
+  "MimeType": "cupiditate",
+  "OriginalSize": 140,
+  "CreatedDate": "2011-08-24T03:41:58.8398862+02:00",
+  "UpdatedDate": "2003-03-27T03:41:58.8398862+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nesciunt"
+  "ConceptualType": "quis"
 }
 ```
 
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 686,
-  "BlobSize": 276,
-  "Description": "Synergized non-volatile system engine",
-  "ExtraInfo": "atque",
-  "IsEncrypted": false,
+  "BlobId": 386,
+  "BlobSize": 395,
+  "Description": "Organized leading edge instruction set",
+  "ExtraInfo": "et",
+  "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "maxime",
-  "OriginalSize": 181,
-  "CreatedDate": "2013-12-27T03:47:00.1599324+01:00",
-  "UpdatedDate": "2020-03-15T03:47:00.1599324+01:00",
+  "MimeType": "itaque",
+  "OriginalSize": 211,
+  "CreatedDate": "2012-08-06T03:41:58.8398862+02:00",
+  "UpdatedDate": "2014-07-12T03:41:58.8398862+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "minus",
+  "ConceptualType": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 458
+      "FieldLength": 40
     }
   }
 }

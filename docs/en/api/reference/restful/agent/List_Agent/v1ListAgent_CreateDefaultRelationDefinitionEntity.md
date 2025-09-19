@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,20 +73,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 162,
-  "Name": "Kshlerin, Jakubowski and Kling",
-  "Tooltip": "saepe",
-  "PassiveText": "enim",
+  "ReldefId": 426,
+  "Name": "Stiedemann Group",
+  "Tooltip": "quos",
+  "PassiveText": "quas",
   "Deleted": true,
-  "Rank": 362,
+  "Rank": 318,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 917
+      "FieldType": "System.String",
+      "FieldLength": 954
     }
   }
 }

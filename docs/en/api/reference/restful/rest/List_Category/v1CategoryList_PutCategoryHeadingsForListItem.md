@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 810,
-    "Name": "Dickens Group",
-    "ToolTip": "Quasi illum explicabo ratione soluta.",
+    "Id": 126,
+    "Name": "Renner, Donnelly and Volkman",
+    "ToolTip": "Debitis voluptatem corporis.",
     "Deleted": true,
-    "Rank": 638,
-    "Type": "et",
-    "ColorBlock": 491,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2015-06-13T03:47:00.5818006+02:00",
+    "Rank": 755,
+    "Type": "repellat",
+    "ColorBlock": 667,
+    "IconHint": "ratione",
+    "Selected": true,
+    "LastChanged": "2001-05-28T03:41:59.3554887+02:00",
     "ChildItems": [
       {
-        "Id": 621,
-        "Name": "Beahan-Dibbert",
-        "ToolTip": "Minus et autem rerum atque rerum.",
-        "Deleted": true,
-        "Rank": 261,
-        "Type": "voluptatum",
-        "ColorBlock": 419,
-        "IconHint": "eligendi",
-        "Selected": false,
-        "LastChanged": "2002-01-28T03:47:00.5818006+01:00",
+        "Id": 512,
+        "Name": "VonRueden, Skiles and Pfannerstill",
+        "ToolTip": "A fugit odit voluptates quia labore et sint.",
+        "Deleted": false,
+        "Rank": 754,
+        "Type": "nihil",
+        "ColorBlock": 600,
+        "IconHint": "commodi",
+        "Selected": true,
+        "LastChanged": "2013-04-22T03:41:59.3554887+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "illo",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "eligendi",
         "Hidden": false,
-        "FullName": "Ed Abernathy"
+        "FullName": "Ayden Considine"
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "aperiam",
-    "Hidden": true,
-    "FullName": "Gertrude Zulauf"
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "quae",
+    "Hidden": false,
+    "FullName": "Angel Wolff"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 697,
-    "Name": "Powlowski-Turcotte",
-    "ToolTip": "Est similique illo perspiciatis.",
+    "Id": 42,
+    "Name": "Yundt Group",
+    "ToolTip": "Delectus expedita asperiores ratione dolorum adipisci expedita earum.",
     "Deleted": false,
-    "Rank": 289,
-    "Type": "quidem",
-    "ColorBlock": 680,
-    "IconHint": "nesciunt",
+    "Rank": 449,
+    "Type": "et",
+    "ColorBlock": 601,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "1999-01-20T03:47:00.5818006+01:00",
+    "LastChanged": "2007-08-15T03:41:59.3554887+02:00",
     "ChildItems": [
       {
-        "Id": 614,
-        "Name": "Pollich LLC",
-        "ToolTip": "Delectus nulla consequatur harum unde.",
+        "Id": 473,
+        "Name": "Klein, Wilkinson and Kovacek",
+        "ToolTip": "Aut voluptatem error nam odio rem eos cumque.",
         "Deleted": false,
-        "Rank": 530,
-        "Type": "corrupti",
-        "ColorBlock": 229,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2004-12-24T03:47:00.5818006+01:00",
+        "Rank": 339,
+        "Type": "asperiores",
+        "ColorBlock": 563,
+        "IconHint": "tempora",
+        "Selected": true,
+        "LastChanged": "2006-03-19T03:41:59.3554887+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "eaque",
-        "Hidden": true,
-        "FullName": "Terence Terry",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "officiis",
+        "Hidden": false,
+        "FullName": "Charlotte Koelpin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 122
+            "FieldLength": 164
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "commodi",
-    "Hidden": true,
-    "FullName": "Kim Corkery",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "hic",
+    "Hidden": false,
+    "FullName": "Gardner Donnelly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 755
+        "FieldType": "System.String",
+        "FieldLength": 585
       }
     }
   }

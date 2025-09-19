@@ -169,17 +169,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Morissette, Mosciski and Steuber",
-  "ProviderName": "Abernathy-Bergnaum",
-  "SortOrder": "voluptatem",
-  "Restriction": "quos",
-  "Entities": "voluptas",
-  "Page": 824,
-  "PageSize": 514
+  "GuiName": "Medhurst, Bauch and Durgan",
+  "ProviderName": "Romaguera, Grant and Hahn",
+  "SortOrder": "occaecati",
+  "Restriction": "doloribus",
+  "Entities": "ullam",
+  "Page": 741,
+  "PageSize": 910
 }
 ```
 
@@ -191,23 +191,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Bins, Bauch and Schumm",
-    "PrimaryKey": 234,
+    "EntityName": "Bailey-Schowalter",
+    "PrimaryKey": 26,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "aut",
-        "TooltipHint": "recusandae",
-        "LinkHint": "doloribus"
+        "DisplayValue": "vel",
+        "TooltipHint": "temporibus",
+        "LinkHint": "perferendis"
       }
     },
-    "LinkHint": "est",
-    "StyleHint": "et",
+    "LinkHint": "error",
+    "StyleHint": "praesentium",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 921
+        "FieldType": "System.String",
+        "FieldLength": 943
       }
     }
   }

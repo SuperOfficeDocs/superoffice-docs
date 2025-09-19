@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,36 +86,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 852,
-    "ParentId": 242,
-    "Name": "Greenfelder-Crooks",
-    "Fullname": "quia",
-    "CategoryMaster": 392,
+    "TicketCategoryId": 83,
+    "ParentId": 835,
+    "Name": "Schmeler-Armstrong",
+    "Fullname": "qui",
+    "CategoryMaster": 73,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Koch, Raynor and Fadel",
+    "ExternalName": "Kihn Inc and Sons",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 827,
-    "ReplyTemplate": 88,
-    "NotificationEmail": "cedrick_stanton@goyette.biz",
+    "AssignmentLag": 268,
+    "ReplyTemplate": 992,
+    "NotificationEmail": "ned@bahringerjast.name",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 678,
+    "EffectiveReplyTemplateId": 282,
     "ExtraFields": {
-      "ExtraFields1": "quis",
-      "ExtraFields2": "repellendus"
+      "ExtraFields1": "deserunt",
+      "ExtraFields2": "numquam"
     },
     "CustomFields": {
-      "CustomFields1": "rerum",
-      "CustomFields2": "itaque"
+      "CustomFields1": "enim",
+      "CustomFields2": "rerum"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 76
+        "FieldLength": 294
       }
     }
   }

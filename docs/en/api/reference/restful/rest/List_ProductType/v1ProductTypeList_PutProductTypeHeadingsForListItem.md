@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 966,
-    "Name": "Hessel-Feeney",
-    "ToolTip": "Nihil qui repellat consequatur quis.",
-    "Deleted": true,
-    "Rank": 838,
-    "Type": "nulla",
-    "ColorBlock": 636,
-    "IconHint": "facere",
+    "Id": 91,
+    "Name": "Heidenreich, West and Mohr",
+    "ToolTip": "Sed molestiae vel quam.",
+    "Deleted": false,
+    "Rank": 377,
+    "Type": "mollitia",
+    "ColorBlock": 281,
+    "IconHint": "laborum",
     "Selected": true,
-    "LastChanged": "2014-05-07T03:47:00.7380451+02:00",
+    "LastChanged": "2023-12-02T03:41:59.5432177+01:00",
     "ChildItems": [
       {
-        "Id": 78,
-        "Name": "Douglas Inc and Sons",
-        "ToolTip": "Vitae et asperiores.",
-        "Deleted": false,
-        "Rank": 291,
-        "Type": "animi",
-        "ColorBlock": 123,
-        "IconHint": "minus",
+        "Id": 507,
+        "Name": "Homenick, Okuneva and Berge",
+        "ToolTip": "Voluptatum possimus.",
+        "Deleted": true,
+        "Rank": 279,
+        "Type": "numquam",
+        "ColorBlock": 831,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2005-07-22T03:47:00.7380451+02:00",
+        "LastChanged": "2020-07-07T03:41:59.5432177+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "laboriosam",
-        "Hidden": false,
-        "FullName": "Mrs. Karli Hilll"
+        "ExtraInfo": "numquam",
+        "StyleHint": "eaque",
+        "Hidden": true,
+        "FullName": "Dayana Ernser IV"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "et",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "saepe",
     "Hidden": false,
-    "FullName": "Vicenta Langosh"
+    "FullName": "Karolann Lois Lockman V"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 753,
-    "Name": "Cronin Inc and Sons",
-    "ToolTip": "Voluptatem qui molestiae quod sed sit dolores.",
+    "Id": 839,
+    "Name": "Mraz Inc and Sons",
+    "ToolTip": "Et vero et quisquam rerum.",
     "Deleted": false,
-    "Rank": 714,
-    "Type": "modi",
-    "ColorBlock": 129,
-    "IconHint": "voluptate",
+    "Rank": 473,
+    "Type": "accusamus",
+    "ColorBlock": 659,
+    "IconHint": "ipsum",
     "Selected": false,
-    "LastChanged": "2007-11-30T03:47:00.7380451+01:00",
+    "LastChanged": "2011-10-21T03:41:59.5432177+02:00",
     "ChildItems": [
       {
-        "Id": 962,
-        "Name": "Deckow, D'Amore and Jacobson",
-        "ToolTip": "Quisquam libero aut est incidunt ut.",
+        "Id": 30,
+        "Name": "Walsh, Zboncak and Hackett",
+        "ToolTip": "Explicabo sunt tempore nostrum est rerum assumenda voluptatem.",
         "Deleted": false,
-        "Rank": 82,
-        "Type": "pariatur",
-        "ColorBlock": 463,
-        "IconHint": "sit",
+        "Rank": 351,
+        "Type": "et",
+        "ColorBlock": 688,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2015-06-24T03:47:00.7380451+02:00",
+        "LastChanged": "2024-10-30T03:41:59.5432177+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "illo",
+        "ExtraInfo": "et",
+        "StyleHint": "quidem",
         "Hidden": false,
-        "FullName": "Juanita Ullrich",
+        "FullName": "Rhett Toy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 631
+            "FieldLength": 342
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "reiciendis",
+    "ExtraInfo": "esse",
+    "StyleHint": "maiores",
     "Hidden": false,
-    "FullName": "Virginie Marvin I",
+    "FullName": "Aubree Trantow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 210
+        "FieldType": "System.Int32",
+        "FieldLength": 900
       }
     }
   }

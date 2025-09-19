@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/CustomerService/FindTicketsByTitleOrId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TitleOrId": "debitis",
-  "MaxRows": 376
+  "TitleOrId": "qui",
+  "MaxRows": 246
 }
 ```
 
@@ -99,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketId": 400,
-    "Title": "odit",
-    "OwnerName": "Rolfson Group",
+    "TicketId": 184,
+    "Title": "aut",
+    "OwnerName": "Prohaska, Kiehn and Jacobs",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Bruen, Lehner and Lakin",
+    "PriorityName": "Koch Group",
     "TicketUrl": "http://www.example.com/",
-    "PersonName": "Harvey-Boyle",
-    "ContactName": "Rath LLC",
+    "PersonName": "Ruecker-Schaden",
+    "ContactName": "Bergnaum-Schmeler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 603
+        "FieldLength": 75
       }
     }
   }

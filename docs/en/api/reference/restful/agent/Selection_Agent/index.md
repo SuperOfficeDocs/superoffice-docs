@@ -20,6 +20,8 @@ content_type: reference
 
 * [POST Agents/Selection/SaveBoardViewSettings](v1SelectionAgent_SaveBoardViewSettings.md)
 
+* [POST Agents/Selection/SaveBoardViewSettingsForSelectionAndAssociate](v1SelectionAgent_SaveBoardViewSettingsForSelectionAndAssociate.md)
+
 * [POST Agents/Selection/DeleteBoardViewSettings](v1SelectionAgent_DeleteBoardViewSettings.md)
 
 * [POST Agents/Selection/CreateDefaultSelectionEntity](v1SelectionAgent_CreateDefaultSelectionEntity.md)

@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 357,
+  "DocumentTemplateId": 919,
   "Content": "GIF89....File contents as raw bytes...",
   "LanguageCode": "et",
-  "PluginId": 356
+  "PluginId": 94
 }
 ```
 
@@ -97,10 +97,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Boyer, Beatty and Kuhn",
-  "Description": "Exclusive empowering Graphic Interface",
-  "ExternalReference": "earum",
-  "MimeType": "sed",
-  "PluginId": 845
+  "Name": "Hartmann-Nikolaus",
+  "Description": "Synergistic assymetric approach",
+  "ExternalReference": "eius",
+  "MimeType": "dolor",
+  "PluginId": 652
 }
 ```

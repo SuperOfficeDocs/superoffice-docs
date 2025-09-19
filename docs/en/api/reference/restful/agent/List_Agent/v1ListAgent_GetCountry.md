@@ -27,7 +27,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=788
+POST /api/v1/Agents/List/GetCountry?countryId=466
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 13,
-  "Name": "Rohan LLC",
-  "CurrencyId": 24,
-  "EnglishName": "Rohan, Upton and Johns",
+  "CountryId": 838,
+  "Name": "Ryan LLC",
+  "CurrencyId": 341,
+  "EnglishName": "Fahey-Becker",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Devolved demand-driven product",
-  "OrgNrText": "1188870",
-  "InterAreaPrefix": "ut",
-  "DialInPrefix": "fugiat",
-  "ZipPrefix": "voluptates",
-  "DomainName": "Rippin-Spencer",
-  "AddressLayoutId": 276,
-  "DomesticAddressLayoutId": 986,
-  "ForeignAddressLayoutId": 135,
-  "Rank": 179,
-  "Tooltip": "voluptas",
-  "Deleted": false,
+  "ImageDescription": "Fully-configurable next generation website",
+  "OrgNrText": "1214877",
+  "InterAreaPrefix": "laborum",
+  "DialInPrefix": "et",
+  "ZipPrefix": "et",
+  "DomainName": "Kuhic, Jenkins and Cremin",
+  "AddressLayoutId": 246,
+  "DomesticAddressLayoutId": 333,
+  "ForeignAddressLayoutId": 331,
+  "Rank": 338,
+  "Tooltip": "qui",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 42
+      "FieldType": "System.String",
+      "FieldLength": 240
     }
   }
 }

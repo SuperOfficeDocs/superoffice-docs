@@ -92,7 +92,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,29 +102,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 808,
-  "TopicId": 89,
+  "ChatSessionId": 928,
+  "TopicId": 746,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ut",
-  "CustomerHost": "consequatur",
-  "CustomerName": "Blick Group",
-  "CustomerEmail": "jett.daugherty@weissnat.us",
-  "CustomerPhone": "(586)409-5935 x1390",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Morissette-Pouros",
+  "CustomerAlias": "libero",
+  "CustomerHost": "sunt",
+  "CustomerName": "Hudson-Miller",
+  "CustomerEmail": "name@dare.us",
+  "CustomerPhone": "(175)169-5672 x124",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Jast, Mohr and Turner",
   "Status": "Closed",
-  "FirstMessage": "asperiores",
-  "LastMessage": "quam",
-  "WhenRequested": "2017-07-03T03:46:59.7849459+02:00",
-  "WhenStarted": "2016-07-15T03:46:59.7849459+02:00",
-  "WhenEnded": "2007-09-09T03:46:59.7849459+02:00",
-  "WhenIdle": "2020-09-16T03:46:59.7849459+02:00",
-  "WhenFetched": "2000-02-26T03:46:59.7849459+01:00",
-  "SessionKey": "dolores",
-  "InitialQueuePos": 976,
-  "AlertLevel": 373,
-  "Rank": 115,
+  "FirstMessage": "a",
+  "LastMessage": "officia",
+  "WhenRequested": "2010-06-15T03:41:58.4805276+02:00",
+  "WhenStarted": "2020-11-17T03:41:58.4805276+01:00",
+  "WhenEnded": "2004-09-23T03:41:58.4805276+02:00",
+  "WhenIdle": "2019-06-19T03:41:58.4805276+02:00",
+  "WhenFetched": "2016-12-18T03:41:58.4805276+01:00",
+  "SessionKey": "nam",
+  "InitialQueuePos": 826,
+  "AlertLevel": 213,
+  "Rank": 878,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -132,13 +132,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 520,
+  "Rating": 63,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 782
+      "FieldLength": 176
     }
   }
 }

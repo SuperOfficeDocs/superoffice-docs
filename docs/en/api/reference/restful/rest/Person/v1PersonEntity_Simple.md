@@ -103,7 +103,7 @@ PersonEntity found.
 GET /api/v1/Person/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -113,53 +113,53 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "dignissimos",
-  "PersonId": 559,
-  "Mrmrs": "rerum",
-  "Firstname": "Felipa",
-  "Lastname": "Ruecker",
-  "MiddleName": "Schiller Group",
-  "Title": "officiis",
-  "Description": "Fully-configurable actuating analyzer",
-  "Email": "markus_feest@rogahn.us",
-  "FullName": "Prof. Jaron Purdy",
-  "DirectPhone": "125-977-4338",
-  "FormalName": "Dooley Inc and Sons",
-  "CountryId": 178,
-  "ContactId": 780,
-  "ContactName": "Jewess Inc and Sons",
-  "Retired": 562,
-  "Rank": 109,
-  "ActiveInterests": 490,
+  "Position": "nihil",
+  "PersonId": 154,
+  "Mrmrs": "debitis",
+  "Firstname": "Saul",
+  "Lastname": "McLaughlin",
+  "MiddleName": "Weissnat-Roob",
+  "Title": "molestiae",
+  "Description": "Networked global flexibility",
+  "Email": "jessika@waters.info",
+  "FullName": "Donny Marks",
+  "DirectPhone": "1-011-609-2469",
+  "FormalName": "Paucek, Nikolaus and Ernser",
+  "CountryId": 803,
+  "ContactId": 282,
+  "ContactName": "Ebert-Turcotte",
+  "Retired": 555,
+  "Rank": 553,
+  "ActiveInterests": 316,
   "ContactDepartment": "",
-  "ContactCountryId": 415,
-  "ContactOrgNr": "1203261",
-  "FaxPhone": "081-052-9838 x5338",
-  "MobilePhone": "947.998.7138 x765",
-  "ContactPhone": "(354)695-2890 x1147",
-  "AssociateName": "Swaniawski-Ledner",
-  "AssociateId": 225,
+  "ContactCountryId": 779,
+  "ContactOrgNr": "715392",
+  "FaxPhone": "561-361-8015 x9090",
+  "MobilePhone": "1-381-784-5848 x36336",
+  "ContactPhone": "758-853-6520 x527",
+  "AssociateName": "Rippin, Kling and Upton",
+  "AssociateId": 259,
   "UsePersonAddress": false,
-  "ContactFax": "laudantium",
-  "Kanafname": "minus",
-  "Kanalname": "veritatis",
-  "Post1": "est",
-  "Post2": "perspiciatis",
-  "Post3": "molestias",
-  "EmailName": "demarco@schamberger.uk",
-  "ContactFullName": "Laney Casper",
-  "ActiveErpLinks": 538,
-  "TicketPriorityId": 898,
-  "SupportLanguageId": 220,
-  "SupportAssociateId": 274,
+  "ContactFax": "qui",
+  "Kanafname": "nobis",
+  "Kanalname": "vel",
+  "Post1": "ea",
+  "Post2": "architecto",
+  "Post3": "magni",
+  "EmailName": "rodger_mante@bahringerkozey.info",
+  "ContactFullName": "Allie Lakin",
+  "ActiveErpLinks": 913,
+  "TicketPriorityId": 627,
+  "SupportLanguageId": 990,
+  "SupportAssociateId": 198,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "376450",
+  "PersonNumber": "604938",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 414
+      "FieldType": "System.Int32",
+      "FieldLength": 215
     }
   }
 }

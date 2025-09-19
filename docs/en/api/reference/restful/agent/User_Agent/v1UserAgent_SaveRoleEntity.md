@@ -88,20 +88,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 732,
-  "Name": "Ankunding Inc and Sons",
-  "Tooltip": "ab",
+  "RoleId": 78,
+  "Name": "Hand, Yost and Abbott",
+  "Tooltip": "tempora",
   "RoleType": "Anonymous",
-  "Deleted": 902,
-  "Rank": 592,
-  "Created": "2002-07-18T03:46:55.5663534+02:00",
-  "UseCategories": 269,
+  "Deleted": 176,
+  "Rank": 637,
+  "Created": "2025-01-23T03:41:54.3244492+01:00",
+  "UseCategories": 373,
   "CreatedBy": null,
-  "Updated": "2002-12-20T03:46:55.5663534+01:00",
+  "Updated": "2008-11-12T03:41:54.3244492+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -114,24 +114,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 699,
-  "Name": "Wintheiser-Reilly",
-  "Tooltip": "non",
+  "RoleId": 51,
+  "Name": "Jones-Hahn",
+  "Tooltip": "quibusdam",
   "RoleType": "Anonymous",
-  "Deleted": 398,
-  "Rank": 680,
-  "Created": "2025-04-16T03:46:55.5663534+02:00",
-  "UseCategories": 285,
+  "Deleted": 223,
+  "Rank": 392,
+  "Created": "2015-12-22T03:41:54.3244492+01:00",
+  "UseCategories": 537,
   "CreatedBy": null,
-  "Updated": "1998-07-02T03:46:55.5663534+02:00",
+  "Updated": "2016-08-09T03:41:54.3244492+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 218
+      "FieldType": "System.Int32",
+      "FieldLength": 335
     }
   }
 }

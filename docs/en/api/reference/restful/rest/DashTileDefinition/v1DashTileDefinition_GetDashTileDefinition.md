@@ -92,7 +92,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,31 +102,31 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 126,
-  "Name": "Hoeger Inc and Sons",
-  "Description": "Mandatory needs-based workforce",
-  "DefaultHeight": 888,
-  "DefaultWidth": 972,
+  "DashboardTileDefinitionId": 127,
+  "Name": "Kub LLC",
+  "Description": "Intuitive global function",
+  "DefaultHeight": 987,
+  "DefaultWidth": 91,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Kilback, Wilderman and Kreiger",
-  "SelectionId": 629,
+  "EntityName": "Hoeger Inc and Sons",
+  "SelectionId": 969,
   "CurrencyMode": "Base",
-  "CurrencyCode": "fugit",
+  "CurrencyCode": "sapiente",
   "Measure": "Average",
-  "MeasureField": "deserunt",
-  "SortBy": "in",
-  "LayoutConfig": "soluta",
-  "SecondarySelectionId": 461,
-  "MeasureByField": "sint",
+  "MeasureField": "quas",
+  "SortBy": "quis",
+  "LayoutConfig": "nulla",
+  "SecondarySelectionId": 397,
+  "MeasureByField": "aut",
   "Usage": "Dashboard",
-  "ProviderName": "Hayes, Reinger and Veum",
+  "ProviderName": "Emard-Bins",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 703
+      "FieldType": "System.String",
+      "FieldLength": 777
     }
   },
   "_Links": {

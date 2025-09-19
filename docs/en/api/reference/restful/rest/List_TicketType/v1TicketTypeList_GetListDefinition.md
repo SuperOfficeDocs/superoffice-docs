@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 896,
-  "Name": "Moen-Kertzmann",
-  "Tooltip": "sunt",
+  "Id": 378,
+  "Name": "Mann-Cruickshank",
+  "Tooltip": "corporis",
   "Deleted": false,
-  "Rank": 652,
+  "Rank": 161,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "corrupti",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "minus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 381
+      "FieldType": "System.Int32",
+      "FieldLength": 670
     }
   },
   "_Links": {

@@ -167,17 +167,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kihn-Beier",
-  "Columns": "quis",
-  "SortOrder": "aperiam",
-  "Restrictions": "delectus",
-  "Entities": "delectus",
-  "Page": 770,
-  "PageSize": 835
+  "ProviderName": "Pfeffer, Huels and Lesch",
+  "Columns": "molestiae",
+  "SortOrder": "totam",
+  "Restrictions": "accusantium",
+  "Entities": "nihil",
+  "Page": 151,
+  "PageSize": 351
 }
 ```
 
@@ -189,23 +189,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Kohler-Berge",
-    "PrimaryKey": 6,
+    "EntityName": "Robel, Davis and Fay",
+    "PrimaryKey": 429,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "praesentium",
-        "TooltipHint": "eos",
-        "LinkHint": "est"
+        "DisplayValue": "id",
+        "TooltipHint": "doloribus",
+        "LinkHint": "harum"
       }
     },
-    "LinkHint": "ullam",
-    "StyleHint": "officia",
+    "LinkHint": "ipsum",
+    "StyleHint": "incidunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 88
+        "FieldLength": 110
       }
     }
   }

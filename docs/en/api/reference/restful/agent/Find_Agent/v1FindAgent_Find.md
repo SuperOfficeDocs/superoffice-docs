@@ -86,11 +86,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aspernatur",
-  "ProviderName": "Champlin Group",
-  "StorageKey": "corrupti",
-  "PageSize": 906,
-  "PageNumber": 172
+  "StorageType": "rerum",
+  "ProviderName": "Heller-Senger",
+  "StorageKey": "earum",
+  "PageSize": 200,
+  "PageNumber": 310
 }
 ```
 
@@ -103,51 +103,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Lang, O'Keefe and Hane",
-      "DisplayTooltip": "quas",
-      "DisplayType": "ut",
+      "DisplayName": "Jast, Pfannerstill and Waelchi",
+      "DisplayTooltip": "veniam",
+      "DisplayType": "sunt",
       "CanOrderBy": false,
-      "Name": "Beahan-Durgan",
+      "Name": "Gutmann, Wisoky and Wisozk",
       "CanRestrictBy": false,
-      "RestrictionType": "facilis",
-      "RestrictionListName": "Nader-Bartell",
+      "RestrictionType": "et",
+      "RestrictionListName": "Windler, Boyle and Blanda",
       "IsVisible": false,
-      "ExtraInfo": "et",
-      "Width": "recusandae",
-      "IconHint": "aspernatur",
-      "HeadingIconHint": "repellendus"
+      "ExtraInfo": "veritatis",
+      "Width": "minima",
+      "IconHint": "aut",
+      "HeadingIconHint": "delectus"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Welch-Adams",
-      "PrimaryKey": 601,
+      "EntityName": "Windler, Ledner and Kessler",
+      "PrimaryKey": 903,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptatem",
-          "TooltipHint": "veniam",
-          "LinkHint": "quo"
+          "DisplayValue": "non",
+          "TooltipHint": "fugit",
+          "LinkHint": "eveniet"
         }
       },
-      "LinkHint": "est",
-      "StyleHint": "necessitatibus",
+      "LinkHint": "illum",
+      "StyleHint": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 791
+          "FieldLength": 697
         }
       }
     }
   ],
-  "RowCount": 400,
+  "RowCount": 407,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 951
+      "FieldType": "System.String",
+      "FieldLength": 378
     }
   }
 }

@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 187,
-    "Name": "Quigley-Mohr",
-    "ToolTip": "Doloribus occaecati doloribus.",
+    "Id": 490,
+    "Name": "Willms, O'Keefe and Bogan",
+    "ToolTip": "Sunt dolorum qui non.",
     "Deleted": true,
-    "Rank": 565,
-    "Type": "et",
-    "ColorBlock": 610,
-    "IconHint": "harum",
-    "Selected": false,
-    "LastChanged": "2024-12-30T03:47:00.6442984+01:00",
+    "Rank": 30,
+    "Type": "fuga",
+    "ColorBlock": 401,
+    "IconHint": "molestias",
+    "Selected": true,
+    "LastChanged": "2015-10-04T03:41:59.4023618+02:00",
     "ChildItems": [
       {
-        "Id": 616,
-        "Name": "Rutherford-Upton",
-        "ToolTip": "Eum ex.",
+        "Id": 960,
+        "Name": "Goyette, Emard and Paucek",
+        "ToolTip": "Dolorem perferendis minima quae est dolor.",
         "Deleted": true,
-        "Rank": 385,
-        "Type": "alias",
-        "ColorBlock": 485,
-        "IconHint": "pariatur",
+        "Rank": 154,
+        "Type": "et",
+        "ColorBlock": 234,
+        "IconHint": "necessitatibus",
         "Selected": false,
-        "LastChanged": "2011-01-23T03:47:00.6442984+01:00",
+        "LastChanged": "2017-07-13T03:41:59.4023618+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Dr. Nels Erdman",
+        "ExtraInfo": "perferendis",
+        "StyleHint": "sit",
+        "Hidden": false,
+        "FullName": "Mr. Savanah Viviane Vandervort MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 580
+            "FieldLength": 232
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "qui",
+    "ExtraInfo": "sequi",
+    "StyleHint": "minus",
     "Hidden": false,
-    "FullName": "Sister Predovic",
+    "FullName": "Miss Jarvis Toy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 164
+        "FieldLength": 567
       }
     }
   }

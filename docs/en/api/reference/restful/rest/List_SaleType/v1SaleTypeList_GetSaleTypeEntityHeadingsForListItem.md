@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 298,
-    "Name": "Hane-Wisozk",
-    "ToolTip": "Non dolorum quos facere expedita voluptas.",
+    "Id": 750,
+    "Name": "Borer Inc and Sons",
+    "ToolTip": "Eligendi magnam porro similique quia quas est provident.",
     "Deleted": false,
-    "Rank": 345,
-    "Type": "facere",
-    "ColorBlock": 650,
-    "IconHint": "suscipit",
+    "Rank": 138,
+    "Type": "odit",
+    "ColorBlock": 331,
+    "IconHint": "ipsum",
     "Selected": false,
-    "LastChanged": "2005-04-15T03:47:00.8161673+02:00",
+    "LastChanged": "2015-04-04T03:41:59.6054711+02:00",
     "ChildItems": [
       {
-        "Id": 990,
-        "Name": "Zulauf Inc and Sons",
-        "ToolTip": "Quaerat et.",
+        "Id": 695,
+        "Name": "Schuppe, Bechtelar and Strosin",
+        "ToolTip": "Laudantium aspernatur in et delectus iure nulla.",
         "Deleted": true,
-        "Rank": 238,
-        "Type": "quibusdam",
-        "ColorBlock": 142,
-        "IconHint": "unde",
+        "Rank": 553,
+        "Type": "laborum",
+        "ColorBlock": 446,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "1999-12-25T03:47:00.8161673+01:00",
+        "LastChanged": "2002-02-04T03:41:59.6054711+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Danyka Walker",
+        "ExtraInfo": "repellat",
+        "StyleHint": "occaecati",
+        "Hidden": false,
+        "FullName": "Prof. Brannon Schinner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 938
+            "FieldLength": 690
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "facilis",
-    "Hidden": false,
-    "FullName": "Aditya Kilback",
+    "ExtraInfo": "nemo",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Miss Donavon Leffler I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 645
+        "FieldType": "System.String",
+        "FieldLength": 997
       }
     }
   }

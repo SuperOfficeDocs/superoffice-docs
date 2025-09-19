@@ -25,6 +25,7 @@ items:
   - SuperOffice.License.LicenseManager.GetShopUrlAsync(System.String,System.String,System.Threading.CancellationToken)
   - SuperOffice.License.LicenseManager.GetUserLicensesAsync(System.Int32,SuperOffice.License.UserType,System.Threading.CancellationToken)
   - SuperOffice.License.LicenseManager.InitializeAsync
+  - SuperOffice.License.LicenseManager.IsInitialized
   - SuperOffice.License.LicenseManager.IsUnitTesting
   - SuperOffice.License.LicenseManager.LicenseExists(System.String)
   - SuperOffice.License.LicenseManager.LoadNewLicenseFromServerIfNeededAsync(System.Threading.CancellationToken)
@@ -1114,6 +1115,31 @@ items:
   - type: SuperOffice.Factory.AllowedMultitenantStaticAttribute
     ctor: SuperOffice.Factory.AllowedMultitenantStaticAttribute.#ctor
     arguments: []
+- uid: SuperOffice.License.LicenseManager.IsInitialized
+  commentId: P:SuperOffice.License.LicenseManager.IsInitialized
+  id: IsInitialized
+  parent: SuperOffice.License.LicenseManager
+  langs:
+  - csharp
+  - vb
+  name: IsInitialized
+  nameWithType: LicenseManager.IsInitialized
+  fullName: SuperOffice.License.LicenseManager.IsInitialized
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.License
+  summary: Check before calling any other method. If false, call <xref href="SuperOffice.License.ILicenseManager.InitializeAsync" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public bool IsInitialized { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property IsInitialized As Boolean
+  overload: SuperOffice.License.LicenseManager.IsInitialized*
+  implements:
+  - SuperOffice.License.ILicenseManager.IsInitialized
 references:
 - uid: SuperOffice.License
   commentId: N:SuperOffice.License
@@ -4033,3 +4059,18 @@ references:
   name: IsUnitTesting
   nameWithType: LicenseManager.IsUnitTesting
   fullName: SuperOffice.License.LicenseManager.IsUnitTesting
+- uid: SuperOffice.License.LicenseManager.IsInitialized*
+  commentId: Overload:SuperOffice.License.LicenseManager.IsInitialized
+  isExternal: true
+  href: SuperOffice.License.LicenseManager.html#SuperOffice_License_LicenseManager_IsInitialized
+  name: IsInitialized
+  nameWithType: LicenseManager.IsInitialized
+  fullName: SuperOffice.License.LicenseManager.IsInitialized
+- uid: SuperOffice.License.ILicenseManager.IsInitialized
+  commentId: P:SuperOffice.License.ILicenseManager.IsInitialized
+  parent: SuperOffice.License.ILicenseManager
+  isExternal: true
+  href: SuperOffice.License.ILicenseManager.html#SuperOffice_License_ILicenseManager_IsInitialized
+  name: IsInitialized
+  nameWithType: ILicenseManager.IsInitialized
+  fullName: SuperOffice.License.ILicenseManager.IsInitialized

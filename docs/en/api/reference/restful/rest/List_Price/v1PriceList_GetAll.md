@@ -71,14 +71,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=et
-GET /api/v1/Pricelist?$top=294
-GET /api/v1/Pricelist?$skip=52
+GET /api/v1/Pricelist?$entities=a
+GET /api/v1/Pricelist?$top=909
+GET /api/v1/Pricelist?$skip=30
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=maiores
+GET /api/v1/Pricelist?$context=quos
 GET /api/v1/Pricelist?$format=JSON
-GET /api/v1/Pricelist?$jsonSafe=False
+GET /api/v1/Pricelist?$jsonSafe=True
 GET /api/v1/Pricelist?$output=Display
 ```
 
@@ -130,21 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "architecto",
+  "odata.nextLink": "labore",
   "value": [
     {
-      "PrimaryKey": 9578,
+      "PrimaryKey": 7031,
       "EntityName": "sale",
-      "saleId": 9578,
-      "contactId": 5737,
-      "name": "Hettinger Inc and Sons"
+      "saleId": 7031,
+      "contactId": 8730,
+      "name": "Yost, McCullough and Connelly"
     },
     {
-      "PrimaryKey": 3970,
+      "PrimaryKey": 1904,
       "EntityName": "sale",
-      "saleId": 3970,
-      "contactId": 2549,
-      "name": "Kirlin Group"
+      "saleId": 1904,
+      "contactId": 8116,
+      "name": "Leuschke-Anderson"
     }
   ]
 }

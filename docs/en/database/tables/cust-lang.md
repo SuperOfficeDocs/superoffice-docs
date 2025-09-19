@@ -44,12 +44,12 @@ This table contains entries for customer languages.
 | Table|  Description |
 |------|-------------|
 |[chat\_topic](chat-topic.md)  |This table contains chat topics. |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 |[cust\_category](cust-category.md)  |This table contains entries for categories exposed through a customer language. |
 |[cust\_config](cust-config.md)  |This table contains JSON structures used for customizing the customer center |
 |[kb\_category](kb-category.md)  |Knowledge base folder hierarchy |
 |[mail\_in\_filter](mail-in-filter.md)  |This table contains entries for the mailboxes the eJournal system is fetching mail from (POP3 or IMAP). |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 |[reply\_template\_body](reply-template-body.md)  |Contains the body of the reply templates in different languages |
 
 

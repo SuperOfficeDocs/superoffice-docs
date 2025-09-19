@@ -71,13 +71,13 @@ OK
 POST /api/v1/Agents/BLOB/GetPersonImageWithSize
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 682,
-  "Width": 912,
-  "Height": 494
+  "PersonId": 780,
+  "Width": 470,
+  "Height": 770
 }
 ```
 

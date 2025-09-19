@@ -91,7 +91,7 @@ OK
 GET /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,46 +102,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 947,
-    "ColumnId": 974,
-    "FieldDefault": "qui",
-    "FieldHeight": 272,
-    "FieldLabel": "similique",
-    "FieldLeft": 973,
-    "FieldTop": 185,
+    "UDefFieldId": 864,
+    "ColumnId": 495,
+    "FieldDefault": "sed",
+    "FieldHeight": 253,
+    "FieldLabel": "fugit",
+    "FieldLeft": 348,
+    "FieldTop": 400,
     "FieldType": "Checkbox",
-    "FieldWidth": 736,
-    "FormatMask": "quia",
-    "HideLabel": true,
+    "FieldWidth": 442,
+    "FormatMask": "in",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 503,
-    "LabelLeft": 225,
-    "LabelTop": 230,
-    "LabelWidth": 353,
-    "LastVersionId": 208,
-    "ListTableId": 821,
+    "LabelHeight": 482,
+    "LabelLeft": 178,
+    "LabelTop": 186,
+    "LabelWidth": 63,
+    "LastVersionId": 671,
+    "ListTableId": 17,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 557,
-    "ProgId": "quia",
+    "Page1LineNo": 201,
+    "ProgId": "nulla",
     "IsReadOnly": false,
-    "ShortLabel": "molestiae",
-    "TabOrder": 805,
-    "TextLength": 8,
-    "Tooltip": "officia",
-    "UdefIdentity": 35,
-    "UDListDefinitionId": 624,
+    "ShortLabel": "fugiat",
+    "TabOrder": 374,
+    "TextLength": 468,
+    "Tooltip": "occaecati",
+    "UdefIdentity": 238,
+    "UDListDefinitionId": 888,
     "Justification": "Center",
-    "Version": 427,
-    "TemplateVariableName": "Nitzsche-Waelchi",
-    "HasBeenPublished": true,
-    "MdoListName": "DuBuque-Barrows",
+    "Version": 568,
+    "TemplateVariableName": "Zulauf-Collier",
+    "HasBeenPublished": false,
+    "MdoListName": "Wiegand, Kozey and Moore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 781
+        "FieldType": "System.Int32",
+        "FieldLength": 900
       }
     }
   }

@@ -98,6 +98,7 @@ Service methods defined on <see cref='T:IAppointmentAgent'>AppointmentAgent</see
 * [GetTaskListItemAsync](gettasklistitemasync.md)
 * [GetTaskListItemsAsync](gettasklistitemsasync.md)
 * [GetUIDFromAppointmentIdAsync](getuidfromappointmentidasync.md)
+* [GetVideoMeetingConnectedStateAsync](getvideomeetingconnectedstateasync.md)
 * [MoveAsync](moveasync.md)
 * [MoveExtendedAsync](moveextendedasync.md)
 * [MoveWithEmailAsync](movewithemailasync.md)

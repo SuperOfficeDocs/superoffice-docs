@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 35,
-    "Name": "Murray, Hoppe and Dooley",
-    "Tooltip": "porro",
-    "Deleted": false,
-    "UdListDefinitionId": 514,
-    "Rank": 833
+    "Id": 26,
+    "Name": "Carter-Torphy",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "UdListDefinitionId": 314,
+    "Rank": 18
   },
   {
-    "Id": 35,
-    "Name": "Murray, Hoppe and Dooley",
-    "Tooltip": "porro",
-    "Deleted": false,
-    "UdListDefinitionId": 514,
-    "Rank": 833
+    "Id": 26,
+    "Name": "Carter-Torphy",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "UdListDefinitionId": 314,
+    "Rank": 18
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 465,
-    "Name": "Pacocha LLC",
-    "Tooltip": "magni",
-    "Deleted": false,
-    "UdListDefinitionId": 631,
-    "Rank": 732,
+    "Id": 874,
+    "Name": "O'Kon Inc and Sons",
+    "Tooltip": "error",
+    "Deleted": true,
+    "UdListDefinitionId": 879,
+    "Rank": 270,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 961
+        "FieldType": "System.String",
+        "FieldLength": 72
       }
     }
   }

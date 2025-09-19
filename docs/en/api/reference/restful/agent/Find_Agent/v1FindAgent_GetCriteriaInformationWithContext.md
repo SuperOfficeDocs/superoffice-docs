@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "adipisci",
-  "ProviderName": "Beier, Powlowski and Nikolaus",
-  "StorageKey": "voluptas",
+  "StorageType": "officia",
+  "ProviderName": "Zieme LLC",
+  "StorageKey": "debitis",
   "StaticColumns": [
-    "omnis",
-    "enim"
+    "ducimus",
+    "sapiente"
   ],
-  "Context": "consequatur"
+  "Context": "animi"
 }
 ```
 
@@ -107,15 +107,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Feeney-Dare",
-      "Operator": "illum",
+      "Name": "Jones, Friesen and Corkery",
+      "Operator": "qui",
       "Values": [
-        "ipsam",
-        "alias"
+        "veniam",
+        "ut"
       ],
       "DisplayValues": [
-        "consequuntur",
-        "architecto"
+        "laborum",
+        "ipsam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -123,65 +123,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 922,
+      "InterParenthesis": 114,
       "InterOperator": "And",
-      "UniqueHash": 557
+      "UniqueHash": 469
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Grant LLC",
-      "DisplayTooltip": "qui",
-      "DisplayType": "minus",
-      "CanOrderBy": false,
-      "Name": "Bauch-Thompson",
+      "DisplayName": "Aufderhar, Wisozk and Douglas",
+      "DisplayTooltip": "ratione",
+      "DisplayType": "est",
+      "CanOrderBy": true,
+      "Name": "Bahringer-Cormier",
       "CanRestrictBy": false,
-      "RestrictionType": "itaque",
-      "RestrictionListName": "Emmerich, Deckow and Mertz",
+      "RestrictionType": "quisquam",
+      "RestrictionListName": "Schuppe LLC",
       "IsVisible": false,
-      "ExtraInfo": "assumenda",
-      "Width": "vel",
-      "IconHint": "fugiat",
-      "HeadingIconHint": "quo"
+      "ExtraInfo": "dolore",
+      "Width": "alias",
+      "IconHint": "esse",
+      "HeadingIconHint": "cupiditate"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Harris, Bernier and Herman",
-      "PrimaryKey": 998,
+      "EntityName": "Monahan-Cole",
+      "PrimaryKey": 431,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "ad",
-          "TooltipHint": "optio",
-          "LinkHint": "dolores"
+          "DisplayValue": "sed",
+          "TooltipHint": "voluptate",
+          "LinkHint": "accusantium"
         }
       },
-      "LinkHint": "sint",
-      "StyleHint": "sed",
+      "LinkHint": "sapiente",
+      "StyleHint": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 287
+          "FieldLength": 514
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Stehr-Wolff",
-      "Description": "Polarised 3rd generation alliance",
-      "Rank": 413,
+      "Name": "Satterfield Inc and Sons",
+      "Description": "Front-line discrete installation",
+      "Rank": 99,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Stehr-Wolff",
-      "Description": "Polarised 3rd generation alliance",
-      "Rank": 413,
+      "Name": "Satterfield Inc and Sons",
+      "Description": "Front-line discrete installation",
+      "Rank": 99,
       "Restrictions": [
         {},
         {}
@@ -192,8 +192,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 793
+      "FieldType": "System.String",
+      "FieldLength": 299
     }
   }
 }

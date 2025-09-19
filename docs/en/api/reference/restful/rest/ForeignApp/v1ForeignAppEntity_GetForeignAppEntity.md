@@ -81,7 +81,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,32 +89,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 09 Jun 2020 03:47:00 G6T
+Last-Modified: Mon, 22 Aug 2005 03:41:58 G8T
 
 {
-  "ForeignAppId": 337,
-  "Name": "Ferry-Pfeffer",
-  "CreatedDate": "2015-09-05T03:47:00.0193121+02:00",
-  "UpdatedDate": "2020-06-09T03:47:00.0193121+02:00",
+  "ForeignAppId": 727,
+  "Name": "Boyer-Kuhlman",
+  "CreatedDate": "2001-05-16T03:41:58.7617712+02:00",
+  "UpdatedDate": "2005-08-22T03:41:58.7617712+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 669,
-      "Name": "Schamberger Inc and Sons",
-      "CreatedDate": "2013-05-04T03:47:00.0193121+02:00",
-      "UpdatedDate": "2004-08-19T03:47:00.0193121+02:00",
-      "AssociateFullName": "Ursula Anderson MD",
-      "CreatedBy": "eos",
-      "UpdatedBy": "dolores",
-      "DeviceIdentifier": "ipsam",
-      "ForeignAppId": 996,
+      "ForeignDeviceId": 482,
+      "Name": "Goodwin Inc and Sons",
+      "CreatedDate": "2012-08-01T03:41:58.7617712+02:00",
+      "UpdatedDate": "2004-05-24T03:41:58.7617712+02:00",
+      "AssociateFullName": "Isaiah Schamberger",
+      "CreatedBy": "sint",
+      "UpdatedBy": "esse",
+      "DeviceIdentifier": "sed",
+      "ForeignAppId": 526,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 306
+          "FieldLength": 627
         }
       }
     }
@@ -124,12 +124,12 @@ Last-Modified: Tue, 09 Jun 2020 03:47:00 G6T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 923
+      "FieldLength": 328
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 630
+  "PersonId": 930
 }
 ```
 
@@ -107,30 +107,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 9,
-    "Name": "Windler, Morar and Keebler",
-    "Description": "De-engineered real-time secured line",
+    "ProjectId": 858,
+    "Name": "Batz, O'Kon and Reichel",
+    "Description": "Programmable 6th generation project",
     "URL": "http://www.example.com/",
-    "Type": "eos",
-    "AssociateId": 924,
-    "AssociateFullName": "Dora Zieme",
-    "TypeId": 713,
-    "Updated": "2011-12-17T03:46:55.1757421+01:00",
-    "StatusId": 866,
-    "Status": "facere",
-    "TextId": 672,
-    "PublishTo": "1999-04-17T03:46:55.1757421+02:00",
-    "PublishFrom": "2004-10-18T03:46:55.1757421+02:00",
-    "IsPublished": true,
+    "Type": "dolor",
+    "AssociateId": 171,
+    "AssociateFullName": "Dr. Giovanni O'Kon",
+    "TypeId": 316,
+    "Updated": "2022-06-09T03:41:53.9182167+02:00",
+    "StatusId": 45,
+    "Status": "dolorum",
+    "TextId": 37,
+    "PublishTo": "2015-09-09T03:41:53.9182167+02:00",
+    "PublishFrom": "2017-04-14T03:41:53.9182167+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "932469",
-    "ActiveErpLinks": 40,
+    "ProjectNumber": "868439",
+    "ActiveErpLinks": 12,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 944
+        "FieldLength": 245
       }
     }
   }

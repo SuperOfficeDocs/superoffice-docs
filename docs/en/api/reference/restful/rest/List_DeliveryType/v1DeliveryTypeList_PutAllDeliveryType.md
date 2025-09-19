@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 166,
-    "Name": "Heaney-Hilll",
-    "Tooltip": "ut",
+    "Id": 171,
+    "Name": "Jakubowski, Sanford and Price",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 875,
-    "Rank": 200
+    "UdListDefinitionId": 646,
+    "Rank": 185
   },
   {
-    "Id": 166,
-    "Name": "Heaney-Hilll",
-    "Tooltip": "ut",
+    "Id": 171,
+    "Name": "Jakubowski, Sanford and Price",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 875,
-    "Rank": 200
+    "UdListDefinitionId": 646,
+    "Rank": 185
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 766,
-    "Name": "Muller-Cummings",
-    "Tooltip": "repellendus",
-    "Deleted": false,
-    "UdListDefinitionId": 785,
-    "Rank": 413,
+    "Id": 683,
+    "Name": "Corkery-McClure",
+    "Tooltip": "voluptate",
+    "Deleted": true,
+    "UdListDefinitionId": 765,
+    "Rank": 6,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 220
+        "FieldLength": 391
       }
     }
   }

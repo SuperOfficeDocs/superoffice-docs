@@ -28,7 +28,7 @@ Calls the User agent service GetAllUserGroup.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/UserGroup/Items?includeDeleted=True
+GET /api/v1/List/UserGroup/Items?includeDeleted=False
 ```
 
 
@@ -83,17 +83,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "atque",
-    "Tooltip": "itaque",
-    "Id": 988,
-    "Rank": 504,
-    "Deleted": false,
+    "Value": "totam",
+    "Tooltip": "dolorem",
+    "Id": 428,
+    "Rank": 771,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 726
+        "FieldLength": 482
       }
     }
   }

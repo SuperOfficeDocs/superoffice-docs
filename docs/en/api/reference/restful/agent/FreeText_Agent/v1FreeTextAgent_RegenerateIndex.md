@@ -95,7 +95,7 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 314,
-  "Name": "Nikolaus Group",
-  "AssociateId": 84,
-  "DetailsTable": 723,
-  "DetailsRecord": 873,
+  "Id": 313,
+  "Name": "Walter-Towne",
+  "AssociateId": 264,
+  "DetailsTable": 779,
+  "DetailsRecord": 865,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "temporibus",
-    "ParameterObject2": "qui"
+    "ParameterObject1": "harum",
+    "ParameterObject2": "dicta"
   },
-  "LastStarted": "2021-05-13T03:46:54.9107593+02:00",
-  "Created": "2023-06-16T03:46:54.9107593+02:00",
-  "StartCount": 427,
-  "DatabaseSerialNumber": "421900",
-  "Context": "incidunt",
-  "Result": "delectus",
+  "LastStarted": "2012-01-26T03:41:53.5901046+01:00",
+  "Created": "2021-04-01T03:41:53.5901046+02:00",
+  "StartCount": 612,
+  "DatabaseSerialNumber": "925998",
+  "Context": "qui",
+  "Result": "ab",
   "State": "All",
-  "Description": "Managed homogeneous benchmark",
-  "Response": "unde",
-  "Request": "deleniti",
-  "ProgressDescription": "Decentralized encompassing capacity",
-  "ProgressPercent": 291,
-  "FileName": "Cummerata, Koelpin and Abbott",
+  "Description": "Ergonomic executive customer loyalty",
+  "Response": "nulla",
+  "Request": "ut",
+  "ProgressDescription": "Balanced mobile budgetary management",
+  "ProgressPercent": 202,
+  "FileName": "Pfannerstill Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 28
+      "FieldLength": 530
     }
   }
 }

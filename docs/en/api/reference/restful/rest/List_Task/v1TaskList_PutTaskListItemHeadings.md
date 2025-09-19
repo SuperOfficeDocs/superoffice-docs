@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 870,
-    "Name": "Stehr, Ankunding and Spencer",
-    "Tooltip": "animi",
-    "Deleted": false,
-    "Rank": 391,
-    "UdListDefinitionId": 817
+    "HeadingId": 622,
+    "Name": "Shanahan-Klocko",
+    "Tooltip": "architecto",
+    "Deleted": true,
+    "Rank": 422,
+    "UdListDefinitionId": 358
   },
   {
-    "HeadingId": 870,
-    "Name": "Stehr, Ankunding and Spencer",
-    "Tooltip": "animi",
-    "Deleted": false,
-    "Rank": 391,
-    "UdListDefinitionId": 817
+    "HeadingId": 622,
+    "Name": "Shanahan-Klocko",
+    "Tooltip": "architecto",
+    "Deleted": true,
+    "Rank": 422,
+    "UdListDefinitionId": 358
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 247,
-    "Name": "Gutkowski, Gislason and Stokes",
-    "Tooltip": "deleniti",
-    "Deleted": false,
-    "Rank": 348,
-    "UdListDefinitionId": 749,
+    "HeadingId": 844,
+    "Name": "Pacocha LLC",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "Rank": 331,
+    "UdListDefinitionId": 59,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 974
+        "FieldLength": 56
       }
     }
   }

@@ -51,8 +51,8 @@ Category list table
 |[CategoryFamily](categoryfamily.md)  |Grouping table so that multiple company categories can be grouped under one term; to simplify searching for things like &apos;all customers&apos; |
 |[CategoryGroupLink](categorygrouplink.md)  |User group link table for Category, for MDO item hiding |
 |[CategoryHeadingLink](categoryheadinglink.md)  |Heading link table for Category, for MDO headers |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[contact](contact.md)  |Companies and Organizations. |
+|[person](person.md)  |Persons |
 
 
 ## Replication Flags

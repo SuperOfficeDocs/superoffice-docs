@@ -73,7 +73,7 @@ OK
 GET /api/v1/Preference/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,50 +84,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 589,
-    "Name": "Herman Group",
-    "ToolTip": "Possimus quibusdam illum.",
+    "Id": 656,
+    "Name": "Bauch-Bailey",
+    "ToolTip": "Alias molestiae.",
     "Deleted": true,
-    "Rank": 999,
-    "Type": "eligendi",
+    "Rank": 124,
+    "Type": "incidunt",
     "ChildItems": [
       {
-        "Id": 991,
-        "Name": "Predovic, Kiehn and Harris",
-        "ToolTip": "Ullam aut unde qui rem ducimus.",
-        "Deleted": false,
-        "Rank": 174,
-        "Type": "enim",
+        "Id": 702,
+        "Name": "Jones, Schamberger and West",
+        "ToolTip": "Et tempore saepe aut corrupti.",
+        "Deleted": true,
+        "Rank": 617,
+        "Type": "occaecati",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "minima",
-        "ColorBlock": 186,
-        "ExtraInfo": "rerum",
-        "StyleHint": "magni",
-        "FullName": "Prof. Kristian Amari Bernhard",
+        "IconHint": "sequi",
+        "ColorBlock": 6,
+        "ExtraInfo": "odit",
+        "StyleHint": "omnis",
+        "FullName": "Prof. Lester Etha Nienow II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 698
+            "FieldType": "System.String",
+            "FieldLength": 828
           }
         }
       }
     ],
-    "IconHint": "repellat",
-    "ColorBlock": 663,
-    "ExtraInfo": "officia",
-    "StyleHint": "aut",
-    "FullName": "Prof. Stanley Kessler",
+    "IconHint": "ducimus",
+    "ColorBlock": 392,
+    "ExtraInfo": "deserunt",
+    "StyleHint": "omnis",
+    "FullName": "Prof. Alec Cedrick Cummerata Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 615
+        "FieldLength": 1000
       }
     }
   }

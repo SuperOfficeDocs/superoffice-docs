@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "modi",
+  "SearchString": "perferendis",
   "Preferences": null
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(118)151-4117",
-    "PersonCellPhone": "(195)969-0936",
-    "PersonPrivatePhone": "(753)546-6770",
-    "PersonFaxNumber": "594044",
-    "PersonPagerNumber": "376923",
-    "PersonEmail": "kali_spinka@farrellrenner.co.uk",
-    "Id": 449,
-    "Name": "Pacocha-Fahey",
-    "Tooltip": "labore",
-    "UniqueId": "eos",
+    "PersonDirectPhone": "1-682-920-1067",
+    "PersonCellPhone": "045-418-7425 x16252",
+    "PersonPrivatePhone": "1-209-369-4571",
+    "PersonFaxNumber": "1184836",
+    "PersonPagerNumber": "820704",
+    "PersonEmail": "max@block.biz",
+    "Id": 247,
+    "Name": "Harvey-Bartell",
+    "Tooltip": "excepturi",
+    "UniqueId": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 976
+        "FieldLength": 295
       }
     }
   }

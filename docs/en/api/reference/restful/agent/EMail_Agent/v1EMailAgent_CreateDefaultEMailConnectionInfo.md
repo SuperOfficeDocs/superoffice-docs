@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailConnectionInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,17 +72,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerName": "Gleichner-Haag",
-  "UserName": "Schuster, Haley and Bruen",
-  "Password": "veritatis",
-  "Folder": "perspiciatis",
+  "ServerName": "Douglas Group",
+  "UserName": "Lynch-Maggio",
+  "Password": "enim",
+  "Folder": "laborum",
   "UseSSL": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldType": "System.String",
+      "FieldLength": 866
     }
   }
 }

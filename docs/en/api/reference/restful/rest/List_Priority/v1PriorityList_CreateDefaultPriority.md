@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 44,
-  "Name": "Abbott Group",
-  "Tooltip": "inventore",
-  "Deleted": false,
-  "UdListDefinitionId": 106,
-  "Rank": 726,
+  "Id": 782,
+  "Name": "Luettgen Inc and Sons",
+  "Tooltip": "corporis",
+  "Deleted": true,
+  "UdListDefinitionId": 859,
+  "Rank": 372,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 657
+      "FieldType": "System.Int32",
+      "FieldLength": 10
     }
   }
 }

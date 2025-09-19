@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,14 +92,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 432,
-  "Name": "Parker-Dickens",
-  "Rank": 423,
-  "Tooltip": "tempore",
+  "AssociateId": 654,
+  "Name": "Schoen-Marquardt",
+  "Rank": 885,
+  "Tooltip": "voluptas",
   "LicenseOwners": [
     {
-      "Name": "Hammes Inc and Sons",
-      "Description": "Mandatory cohesive internet solution",
+      "Name": "Hamill Group",
+      "Description": "Pre-emptive grid-enabled service-desk",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -112,14 +112,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 352
+          "FieldType": "System.Int32",
+          "FieldLength": 969
         }
       }
     },
     {
-      "Name": "Hammes Inc and Sons",
-      "Description": "Mandatory cohesive internet solution",
+      "Name": "Hamill Group",
+      "Description": "Pre-emptive grid-enabled service-desk",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 352
+          "FieldType": "System.Int32",
+          "FieldLength": 969
         }
       }
     }
@@ -142,110 +142,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "cupiditate",
-      "Tooltip": "ut",
-      "Id": 127,
-      "Rank": 290,
-      "Deleted": true,
+      "Value": "quibusdam",
+      "Tooltip": "pariatur",
+      "Id": 995,
+      "Rank": 305,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 567
+          "FieldType": "System.Int32",
+          "FieldLength": 271
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2017-10-07T03:46:55.581978+02:00",
-  "Lastlogout": "2020-09-06T03:46:55.581978+02:00",
-  "EjUserId": 96,
-  "RequestSignature": "enim",
+  "Lastlogin": "2014-10-04T03:41:54.3400739+02:00",
+  "Lastlogout": "2024-07-27T03:41:54.3400739+02:00",
+  "EjUserId": 281,
+  "RequestSignature": "id",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "aut",
-      "DisplayValue": "quisquam",
+      "Value": "numquam",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 861
+          "FieldLength": 747
         }
       }
     },
     {
       "Type": null,
-      "Value": "aut",
-      "DisplayValue": "quisquam",
+      "Value": "numquam",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 861
+          "FieldLength": 747
         }
       }
     }
   ],
-  "UserName": "Schneider, Ryan and O'Conner",
+  "UserName": "Quigley LLC",
   "TicketCategories": [
     {
-      "Id": 961,
-      "Name": "Hand-Rohan",
-      "ToolTip": "Recusandae mollitia quod velit iste.",
-      "Deleted": false,
-      "Rank": 562,
-      "Type": "ab",
+      "Id": 607,
+      "Name": "Jenkins-Pollich",
+      "ToolTip": "Ut quaerat doloremque neque.",
+      "Deleted": true,
+      "Rank": 287,
+      "Type": "maxime",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "mollitia",
-      "ColorBlock": 739,
-      "ExtraInfo": "labore",
-      "StyleHint": "ut",
-      "FullName": "Viola Adams",
+      "IconHint": "sunt",
+      "ColorBlock": 634,
+      "ExtraInfo": "consequatur",
+      "StyleHint": "error",
+      "FullName": "Chaya Block",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 788
+          "FieldLength": 372
         }
       }
     }
   ],
-  "NickName": "Koch, Weissnat and Dietrich",
+  "NickName": "Abshire Inc and Sons",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "repellat",
-    "ExtraFields2": "alias"
+    "ExtraFields1": "ab",
+    "ExtraFields2": "deserunt"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "quae"
+    "CustomFields1": "soluta",
+    "CustomFields2": "quis"
   },
   "PostSaveCommands": [
     {
-      "Name": "Miller LLC",
-      "DisplayName": "Lesch LLC",
-      "Description": "Assimilated object-oriented interface",
-      "ToolTip": "Quaerat consequatur minus.",
+      "Name": "Howell-Schaefer",
+      "DisplayName": "Kuhlman Inc and Sons",
+      "Description": "Configurable human-resource portal",
+      "ToolTip": "Rerum quis doloremque unde velit itaque.",
       "Actions": "Implicit",
-      "ActionData": "perferendis",
+      "ActionData": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 786
+          "FieldType": "System.Int32",
+          "FieldLength": 689
         }
       }
     }
@@ -254,8 +254,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 193
+      "FieldType": "System.Int32",
+      "FieldLength": 84
     }
   }
 }

@@ -84,15 +84,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 634,
-  "PersonName": "Graham Group",
+  "ContactId": 564,
+  "PersonName": "Klein-Lebsack",
   "PhoneNumbers": [
-    "1011308",
-    "819977"
+    "985302",
+    "1386754"
   ],
   "Emails": [
-    "antonette@walshorn.ca",
-    "anika.schaden@mcclurestiedemann.name"
+    "assunta@gottlieb.biz",
+    "tre@cummingslowe.com"
   ]
 }
 ```
@@ -110,8 +110,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 617
+      "FieldType": "System.String",
+      "FieldLength": 926
     }
   }
 }

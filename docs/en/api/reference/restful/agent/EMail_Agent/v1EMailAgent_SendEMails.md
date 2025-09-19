@@ -103,7 +103,7 @@ OK
 POST /api/v1/Agents/EMail/SendEMails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,18 +122,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "accusamus",
-      "HTMLBody": "consequuntur",
+      "Subject": "velit",
+      "HTMLBody": "illo",
       "From": null,
-      "Sent": "2014-07-28T03:46:54.7695066+02:00",
-      "Size": 258,
+      "Sent": "2020-12-17T03:41:53.5119835+01:00",
+      "Size": 278,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "vero",
-      "PlainBody": "placeat",
+      "MessageID": "asperiores",
+      "PlainBody": "pariatur",
       "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 927,
+      "ServerId": 614,
       "Attachments": [
         {},
         {}
@@ -142,12 +142,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Roob-Nicolas",
-      "EmailItemId": 246,
-      "AccountId": 165,
-      "ReceivedAt": "2020-01-23T03:46:54.7695066+01:00",
+      "FolderName": "Bode, Wunsch and Bergstrom",
+      "EmailItemId": 443,
+      "AccountId": 536,
+      "ReceivedAt": "2025-02-25T03:41:53.5119835+01:00",
       "InReplyTo": null,
-      "RepliedAt": "2020-10-20T03:46:54.7695066+02:00",
+      "RepliedAt": "2011-12-09T03:41:53.5119835+01:00",
       "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
@@ -167,97 +167,97 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 720,
-        "ContactName": "Abbott LLC",
-        "PersonId": 637,
-        "PersonName": "Leannon-Mosciski",
-        "AssociateId": 218,
-        "Address": "quis",
-        "EmailId": 377,
+        "ContactId": 948,
+        "ContactName": "Brakus Group",
+        "PersonId": 424,
+        "PersonName": "Lowe, Beatty and Gottlieb",
+        "AssociateId": 91,
+        "Address": "quia",
+        "EmailId": 959,
         "DuplicatePersonIds": [
-          959,
-          381
+          42,
+          846
         ],
-        "Name": "Green-Lind",
+        "Name": "Smitham Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 858
+            "FieldType": "System.Int32",
+            "FieldLength": 785
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 741,
-        "ContactName": "Weimann-Gerlach",
-        "PersonId": 577,
-        "PersonName": "Leuschke, Beatty and Kris",
-        "AssociateId": 882,
-        "Address": "eaque",
-        "EmailId": 542,
+        "ContactId": 3,
+        "ContactName": "Jacobs-Grady",
+        "PersonId": 701,
+        "PersonName": "Jaskolski-Maggio",
+        "AssociateId": 643,
+        "Address": "voluptatem",
+        "EmailId": 143,
         "DuplicatePersonIds": [
-          486,
-          587
+          763,
+          39
         ],
-        "Name": "Satterfield, Ferry and Lubowitz",
+        "Name": "Jacobs Inc and Sons",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 557
+            "FieldLength": 277
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 729,
-        "ContactName": "Christiansen, Lemke and Schaefer",
-        "PersonId": 83,
-        "PersonName": "Orn-Schultz",
-        "AssociateId": 422,
-        "Address": "et",
-        "EmailId": 804,
+        "ContactId": 255,
+        "ContactName": "Johnson-Schultz",
+        "PersonId": 117,
+        "PersonName": "Wisozk LLC",
+        "AssociateId": 886,
+        "Address": "repudiandae",
+        "EmailId": 307,
         "DuplicatePersonIds": [
-          543,
-          850
+          257,
+          976
         ],
-        "Name": "Schmeler LLC",
+        "Name": "Schinner LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 581
+            "FieldType": "System.String",
+            "FieldLength": 296
           }
         }
       }
     ],
-    "Subject": "omnis",
-    "HTMLBody": "earum",
+    "Subject": "placeat",
+    "HTMLBody": "perferendis",
     "From": null,
-    "Sent": "2021-09-17T03:46:54.7695066+02:00",
-    "Size": 653,
+    "Sent": "2017-07-22T03:41:53.5119835+02:00",
+    "Size": 768,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "commodi",
-    "PlainBody": "enim",
+    "MessageID": "inventore",
+    "PlainBody": "esse",
     "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 563,
+    "ServerId": 562,
     "Attachments": [
       {
-        "Description": "Proactive directional instruction set",
-        "Filename": "at",
-        "Size": 612,
-        "Type": "est",
-        "Encoding": "consequatur",
-        "Id": "nemo",
-        "Disposition": "et",
+        "Description": "Synchronised incremental circuit",
+        "Filename": "similique",
+        "Size": 319,
+        "Type": "architecto",
+        "Encoding": "magni",
+        "Id": "sunt",
+        "Disposition": "ut",
         "IsSafeFileExtension": false,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
@@ -265,58 +265,58 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 61
+            "FieldLength": 549
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Wisoky Group",
+        "Name": "Grady, Feest and Koch",
         "Values": [
-          "molestiae",
-          "molestiae"
+          "consequuntur",
+          "aut"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 338
+            "FieldType": "System.Int32",
+            "FieldLength": 869
           }
         }
       },
       {
-        "Name": "Wisoky Group",
+        "Name": "Grady, Feest and Koch",
         "Values": [
-          "molestiae",
-          "molestiae"
+          "consequuntur",
+          "aut"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 338
+            "FieldType": "System.Int32",
+            "FieldLength": 869
           }
         }
       }
     ],
-    "FolderName": "Lockman Inc and Sons",
-    "EmailItemId": 522,
-    "AccountId": 558,
-    "ReceivedAt": "2017-12-18T03:46:54.7695066+01:00",
+    "FolderName": "Towne, Cole and Turcotte",
+    "EmailItemId": 205,
+    "AccountId": 433,
+    "ReceivedAt": "2018-12-19T03:41:53.5119835+01:00",
     "InReplyTo": null,
-    "RepliedAt": "2000-12-11T03:46:54.7695066+01:00",
-    "HasCalendarData": false,
+    "RepliedAt": "2015-05-04T03:41:53.5119835+02:00",
+    "HasCalendarData": true,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 170
+        "FieldType": "System.String",
+        "FieldLength": 925
       }
     }
   }

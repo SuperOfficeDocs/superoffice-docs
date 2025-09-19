@@ -128,13 +128,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    657,
-    114
+    492,
+    933
   ]
 }
 ```
@@ -147,67 +147,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 587,
-    "StartDate": "2001-03-29T03:46:54.0039095+02:00",
-    "EndDate": "2018-11-05T03:46:54.0039095+01:00",
+    "AppointmentId": 493,
+    "StartDate": "2007-07-10T03:41:52.793262+02:00",
+    "EndDate": "2019-02-22T03:41:52.793262+01:00",
     "Type": "BookingForChecklist",
-    "Task": "aliquid",
-    "AssociateFullName": "Myra Conroy",
-    "ContactName": "Lehner Group",
-    "Description": "Business-focused mobile success",
-    "PersonFullName": "Justine Lubowitz",
-    "PersonId": 149,
-    "ContactId": 352,
-    "ProjectId": 957,
-    "ProjectName": "Farrell, Frami and Zboncak",
-    "IsPublished": true,
-    "AssociateId": 599,
-    "ColorIndex": 841,
-    "IsFree": true,
+    "Task": "eligendi",
+    "AssociateFullName": "Prof. Karolann Arnaldo Haag",
+    "ContactName": "Sawayn, Davis and Littel",
+    "Description": "Mandatory mobile approach",
+    "PersonFullName": "Mrs. Crawford Denesik",
+    "PersonId": 299,
+    "ContactId": 867,
+    "ProjectId": 676,
+    "ProjectName": "Runolfsson, Reichert and Stark",
+    "IsPublished": false,
+    "AssociateId": 201,
+    "ColorIndex": 243,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 183,
-    "PriorityName": "Welch Group",
+    "PriorityId": 83,
+    "PriorityName": "Mante, Vandervort and Hodkiewicz",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsBookingMain": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2019-08-15T03:46:54.0039095+02:00",
+    "ActiveDate": "2016-06-19T03:41:52.793262+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-08-19T03:46:54.0039095+02:00",
-    "RecurringEndDate": "2023-05-20T03:46:54.0039095+02:00",
-    "MotherId": 295,
-    "AssignedBy": 504,
-    "AssignedByFullName": "Nathaniel Deckow",
+    "RecurringStartDate": "2014-08-28T03:41:52.793262+02:00",
+    "RecurringEndDate": "2020-02-13T03:41:52.793262+01:00",
+    "MotherId": 86,
+    "AssignedBy": 193,
+    "AssignedByFullName": "Wiley Marvin",
     "RejectReason": "",
-    "Location": "voluptatem",
-    "AlarmLeadTime": "eos",
-    "SaleId": 479,
-    "SaleName": "Douglas Group",
-    "AssociateName": "Lubowitz, Zboncak and Emard",
-    "CreatedDate": "2010-04-14T03:46:54.0039095+02:00",
-    "CreatedBy": "facilis",
-    "CreatedByFullName": "Leatha Williamson",
-    "CreatedByAssociateId": 148,
+    "Location": "quam",
+    "AlarmLeadTime": "delectus",
+    "SaleId": 29,
+    "SaleName": "Buckridge, Carter and Lang",
+    "AssociateName": "Blanda, Gaylord and Rolfson",
+    "CreatedDate": "2018-10-17T03:41:52.793262+02:00",
+    "CreatedBy": "ea",
+    "CreatedByFullName": "Davonte Gulgowski",
+    "CreatedByAssociateId": 450,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 753,
+    "MotherAssociateId": 460,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 560,
-    "Title": "reiciendis",
-    "Agenda": "provident",
-    "InternalNotes": "tempora",
+    "PreferredTZLocation": 823,
+    "Title": "recusandae",
+    "Agenda": "nemo",
+    "InternalNotes": "quo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 313
+        "FieldType": "System.Int32",
+        "FieldLength": 157
       }
     }
   }

@@ -65,18 +65,18 @@ No Content
 POST /api/v1/Agents/CustomerService/UpdateFeatureToggles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FeatureToggles": [
     {
-      "Name": "Shanahan-Heidenreich",
-      "State": true
+      "Name": "Walsh Inc and Sons",
+      "State": false
     },
     {
-      "Name": "Shanahan-Heidenreich",
-      "State": true
+      "Name": "Walsh Inc and Sons",
+      "State": false
     }
   ]
 }

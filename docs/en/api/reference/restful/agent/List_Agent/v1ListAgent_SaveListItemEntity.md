@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 469,
-  "Name": "Pfannerstill-Dare",
-  "Tooltip": "eligendi",
+  "Id": 638,
+  "Name": "Bashirian-Wolf",
+  "Tooltip": "sit",
   "Deleted": false,
-  "UdListDefinitionId": 300,
-  "Rank": 395,
+  "UdListDefinitionId": 881,
+  "Rank": 566,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 763
+      "FieldType": "System.String",
+      "FieldLength": 683
     }
   }
 }

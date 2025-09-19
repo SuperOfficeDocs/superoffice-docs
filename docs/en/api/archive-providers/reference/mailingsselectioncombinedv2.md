@@ -667,7 +667,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsSelectionCombinedV2?$select=mailingSent,emailFlow/workflowEnrolledCount,project/projectUdef/SuperOffice:10,project/LastCompletedSale
+GET /api/v1/archive/MailingsSelectionCombinedV2?$select=mailingAddr/contact/contactAssociate/ejDisplayName,mailingAddr/contact/LastDoByTicket,mailingAddr/person/hasInterests,mailingAddr/person/personBusiness,project/registeredDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

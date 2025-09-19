@@ -99,15 +99,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 617,
-  "StartTime": "2012-04-17T03:46:54.6132622+02:00",
-  "EndTime": "2015-11-01T03:46:54.6132622+01:00",
-  "Count": 4,
-  "DocumentTemplateId": 567
+  "ProjectId": 651,
+  "StartTime": "2002-03-02T03:41:53.3869896+01:00",
+  "EndTime": "2009-11-06T03:41:53.3869896+01:00",
+  "Count": 297,
+  "DocumentTemplateId": 180
 }
 ```
 
@@ -119,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 91,
-    "Attention": "consequatur",
-    "Header": "voluptas",
-    "Name": "Abshire, Huels and Reichert",
-    "OurRef": "debitis",
-    "YourRef": "ratione",
-    "Description": "Grass-roots composite interface",
-    "DocumentTemplate": "enim",
+    "DocumentId": 841,
+    "Attention": "minus",
+    "Header": "enim",
+    "Name": "Wunsch, Klocko and West",
+    "OurRef": "ut",
+    "YourRef": "dicta",
+    "Description": "Inverse multi-tasking artificial intelligence",
+    "DocumentTemplate": "veritatis",
     "IsPublished": false,
-    "PersonId": 970,
-    "PersonFullName": "Ms. Arlie Eliezer Purdy",
-    "AssociateFullName": "Berta Krajcik",
-    "ContactId": 946,
-    "ContactName": "Goldner Inc and Sons",
-    "ProjectId": 281,
-    "ProjectName": "Greenfelder Group",
-    "AssociateId": 31,
-    "Snum": 763,
-    "SaleId": 851,
-    "SaleName": "Shields, O'Conner and Rohan",
+    "PersonId": 55,
+    "PersonFullName": "Mrs. Jaleel Brady Runte III",
+    "AssociateFullName": "Prof. Flo Feest",
+    "ContactId": 910,
+    "ContactName": "Kub Inc and Sons",
+    "ProjectId": 3,
+    "ProjectName": "Satterfield Inc and Sons",
+    "AssociateId": 436,
+    "Snum": 407,
+    "SaleId": 607,
+    "SaleName": "Kautzer-Dicki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 916
+        "FieldType": "System.Int32",
+        "FieldLength": 853
       }
     }
   }

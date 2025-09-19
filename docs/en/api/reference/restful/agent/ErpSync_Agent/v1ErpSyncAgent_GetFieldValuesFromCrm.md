@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 563,
+  "RecordId": 517,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -99,18 +99,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Daniel, Weissnat and Sauer",
-    "CrmFieldKey": "unde",
-    "Value": "at",
-    "DisplayValue": "et",
+    "DisplayName": "Schmidt Group",
+    "CrmFieldKey": "saepe",
+    "Value": "recusandae",
+    "DisplayValue": "voluptatem",
     "SyncToCrm": true,
     "SyncToErp": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 442
+        "FieldType": "System.Int32",
+        "FieldLength": 595
       }
     }
   }

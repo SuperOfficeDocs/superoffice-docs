@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 809,
-    "Name": "White, Luettgen and Hermiston",
-    "ToolTip": "Enim minima.",
+    "Id": 565,
+    "Name": "Heller LLC",
+    "ToolTip": "Accusantium et laborum rem qui repellendus.",
     "Deleted": false,
-    "Rank": 390,
-    "Type": "ut",
-    "ColorBlock": 253,
-    "IconHint": "sequi",
+    "Rank": 981,
+    "Type": "ex",
+    "ColorBlock": 717,
+    "IconHint": "autem",
     "Selected": false,
-    "LastChanged": "2018-08-21T03:47:00.628674+02:00",
+    "LastChanged": "1999-07-12T03:41:59.3867375+02:00",
     "ChildItems": [
       {
-        "Id": 677,
-        "Name": "Kilback Group",
-        "ToolTip": "Cumque vitae quo odit ad velit.",
+        "Id": 228,
+        "Name": "Herzog-Spinka",
+        "ToolTip": "Assumenda rerum sed et itaque doloribus.",
         "Deleted": false,
-        "Rank": 5,
-        "Type": "beatae",
-        "ColorBlock": 639,
-        "IconHint": "omnis",
+        "Rank": 791,
+        "Type": "alias",
+        "ColorBlock": 116,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2024-09-07T03:47:00.628674+02:00",
+        "LastChanged": "2013-10-17T03:41:59.3867375+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "deleniti",
+        "ExtraInfo": "eius",
+        "StyleHint": "ad",
         "Hidden": true,
-        "FullName": "Breana Anderson"
+        "FullName": "Gudrun Schamberger"
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "quam",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "nam",
     "Hidden": false,
-    "FullName": "Michele Joelle Torp Sr."
+    "FullName": "Prof. Carmen Isai Weimann II"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 630,
-    "Name": "Marvin, Quitzon and Rogahn",
-    "ToolTip": "Error iusto nihil.",
+    "Id": 267,
+    "Name": "Feil-Welch",
+    "ToolTip": "Maiores ratione eum voluptas debitis repellat numquam assumenda.",
     "Deleted": true,
-    "Rank": 407,
-    "Type": "id",
-    "ColorBlock": 526,
-    "IconHint": "eaque",
-    "Selected": false,
-    "LastChanged": "2021-03-19T03:47:00.628674+01:00",
+    "Rank": 849,
+    "Type": "aspernatur",
+    "ColorBlock": 27,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "2001-09-07T03:41:59.4023618+02:00",
     "ChildItems": [
       {
-        "Id": 148,
-        "Name": "Schneider, Tillman and Lemke",
-        "ToolTip": "Dolores pariatur culpa et voluptas doloremque qui.",
-        "Deleted": false,
-        "Rank": 270,
-        "Type": "unde",
-        "ColorBlock": 290,
-        "IconHint": "eos",
-        "Selected": true,
-        "LastChanged": "2017-06-08T03:47:00.628674+02:00",
+        "Id": 879,
+        "Name": "Swaniawski, Collins and O'Keefe",
+        "ToolTip": "Incidunt recusandae voluptatem asperiores sit aliquid et.",
+        "Deleted": true,
+        "Rank": 887,
+        "Type": "corporis",
+        "ColorBlock": 403,
+        "IconHint": "voluptas",
+        "Selected": false,
+        "LastChanged": "1998-07-31T03:41:59.4023618+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "eum",
+        "ExtraInfo": "ratione",
+        "StyleHint": "in",
         "Hidden": false,
-        "FullName": "Lula Mann",
+        "FullName": "Hailey West",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 791
+            "FieldType": "System.Int32",
+            "FieldLength": 860
           }
         }
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "eum",
+    "ExtraInfo": "possimus",
+    "StyleHint": "praesentium",
     "Hidden": false,
-    "FullName": "Guido Myrna Crona PhD",
+    "FullName": "Reanna Braun",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 428
+        "FieldType": "System.String",
+        "FieldLength": 164
       }
     }
   }

@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -119,18 +119,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "nobis",
-      "HTMLBody": "omnis",
+      "Subject": "aut",
+      "HTMLBody": "eius",
       "From": null,
-      "Sent": "2006-08-23T03:46:54.707009+02:00",
-      "Size": 759,
+      "Sent": "2019-04-18T03:41:53.4651107+02:00",
+      "Size": 100,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "temporibus",
-      "PlainBody": "dolor",
+      "MessageID": "modi",
+      "PlainBody": "occaecati",
       "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 369,
+      "ServerId": 670,
       "Attachments": [
         {},
         {}
@@ -139,13 +139,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Tromp, Douglas and Kessler",
-      "EmailItemId": 89,
-      "AccountId": 536,
-      "ReceivedAt": "2002-06-12T03:46:54.707009+02:00",
+      "FolderName": "Murphy, Kautzer and Hand",
+      "EmailItemId": 396,
+      "AccountId": 588,
+      "ReceivedAt": "2015-05-10T03:41:53.4651107+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2014-11-15T03:46:54.707009+01:00",
-      "HasCalendarData": true,
+      "RepliedAt": "2011-01-24T03:41:53.4651107+01:00",
+      "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
     }
@@ -163,147 +163,147 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 806,
-        "ContactName": "Ernser-Leannon",
-        "PersonId": 886,
-        "PersonName": "Feest-Bogan",
-        "AssociateId": 727,
-        "Address": "non",
-        "EmailId": 559,
+        "ContactId": 77,
+        "ContactName": "Gottlieb, Lubowitz and Kilback",
+        "PersonId": 262,
+        "PersonName": "Fahey, Predovic and Schaden",
+        "AssociateId": 451,
+        "Address": "quas",
+        "EmailId": 355,
         "DuplicatePersonIds": [
-          630,
-          955
+          962,
+          936
         ],
-        "Name": "Miller-Barton",
+        "Name": "Hauck, Rogahn and Labadie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 67
+            "FieldLength": 593
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 634,
-        "ContactName": "Boehm-Ortiz",
-        "PersonId": 728,
-        "PersonName": "Schulist-Kub",
-        "AssociateId": 619,
-        "Address": "natus",
-        "EmailId": 424,
+        "ContactId": 953,
+        "ContactName": "Kautzer, Daugherty and Kuhic",
+        "PersonId": 537,
+        "PersonName": "Flatley, Pacocha and Schmidt",
+        "AssociateId": 622,
+        "Address": "quibusdam",
+        "EmailId": 660,
         "DuplicatePersonIds": [
-          921,
-          24
+          955,
+          191
         ],
-        "Name": "Cartwright-Klocko",
+        "Name": "Zieme-Bergstrom",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 836
+            "FieldLength": 52
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 149,
-        "ContactName": "Swaniawski-Cummings",
-        "PersonId": 597,
-        "PersonName": "Grant, Boyle and Gottlieb",
-        "AssociateId": 522,
-        "Address": "suscipit",
-        "EmailId": 473,
+        "ContactId": 880,
+        "ContactName": "Dare LLC",
+        "PersonId": 469,
+        "PersonName": "Carter-Beer",
+        "AssociateId": 598,
+        "Address": "pariatur",
+        "EmailId": 728,
         "DuplicatePersonIds": [
-          83,
-          563
+          918,
+          700
         ],
-        "Name": "Nolan, Miller and White",
+        "Name": "Pouros-Rau",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 784
+            "FieldLength": 61
           }
         }
       }
     ],
-    "Subject": "expedita",
-    "HTMLBody": "repellat",
+    "Subject": "sequi",
+    "HTMLBody": "quas",
     "From": null,
-    "Sent": "2006-05-01T03:46:54.707009+02:00",
-    "Size": 5,
+    "Sent": "2024-02-22T03:41:53.4651107+01:00",
+    "Size": 36,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "itaque",
-    "PlainBody": "quia",
+    "MessageID": "similique",
+    "PlainBody": "et",
     "IsSent": false,
     "EMailSOInfo": null,
-    "ServerId": 289,
+    "ServerId": 706,
     "Attachments": [
       {
-        "Description": "Intuitive stable capacity",
-        "Filename": "atque",
-        "Size": 164,
-        "Type": "eaque",
-        "Encoding": "sit",
-        "Id": "esse",
-        "Disposition": "perferendis",
+        "Description": "Right-sized radical software",
+        "Filename": "sed",
+        "Size": 667,
+        "Type": "quidem",
+        "Encoding": "voluptate",
+        "Id": "est",
+        "Disposition": "amet",
         "IsSafeFileExtension": false,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 287
+            "FieldType": "System.String",
+            "FieldLength": 678
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Johnson Inc and Sons",
+        "Name": "Ryan, Streich and Cremin",
         "Values": [
-          "maxime",
-          "alias"
+          "quas",
+          "dicta"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 848
+            "FieldType": "System.String",
+            "FieldLength": 56
           }
         }
       },
       {
-        "Name": "Johnson Inc and Sons",
+        "Name": "Ryan, Streich and Cremin",
         "Values": [
-          "maxime",
-          "alias"
+          "quas",
+          "dicta"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 848
+            "FieldType": "System.String",
+            "FieldLength": 56
           }
         }
       }
     ],
-    "FolderName": "Parker Inc and Sons",
-    "EmailItemId": 446,
-    "AccountId": 134,
-    "ReceivedAt": "2020-01-01T03:46:54.707009+01:00",
+    "FolderName": "Bechtelar-Mueller",
+    "EmailItemId": 622,
+    "AccountId": 115,
+    "ReceivedAt": "2018-06-14T03:41:53.4651107+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2025-05-30T03:46:54.707009+02:00",
+    "RepliedAt": "2022-03-20T03:41:53.4651107+01:00",
     "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -312,7 +312,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 880
+        "FieldLength": 939
       }
     }
   }

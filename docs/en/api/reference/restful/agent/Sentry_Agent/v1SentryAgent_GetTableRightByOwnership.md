@@ -79,9 +79,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Beer Group",
-  "ContactGroupId": 229,
-  "ContactAssociateId": 927
+  "TableName": "Bins, Feeney and O'Kon",
+  "ContactGroupId": 345,
+  "ContactAssociateId": 10
 }
 ```
 
@@ -92,7 +92,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Mask": "laboriosam",
+  "Mask": "quos",
   "Reason": ""
 }
 ```

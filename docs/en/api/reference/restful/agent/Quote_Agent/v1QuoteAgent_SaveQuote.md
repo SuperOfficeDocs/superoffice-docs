@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,18 +102,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 496,
-  "SaleId": 461,
-  "QuoteConnectionId": 543,
-  "ERPQuoteKey": "esse",
-  "ERPOrderKey": "enim",
-  "ActiveQuoteVersionId": 658,
-  "AcceptedQuoteAlternativeId": 676,
-  "UseValuesFromQuote": 440,
-  "DocumentId": 744,
-  "PoNumber": "1045251",
-  "OrderComment": "non",
-  "PreferredEmailCulture": "nyasia_bartoletti@rolfson.co.uk",
+  "QuoteId": 450,
+  "SaleId": 156,
+  "QuoteConnectionId": 755,
+  "ERPQuoteKey": "velit",
+  "ERPOrderKey": "consequatur",
+  "ActiveQuoteVersionId": 456,
+  "AcceptedQuoteAlternativeId": 78,
+  "UseValuesFromQuote": 854,
+  "DocumentId": 3,
+  "PoNumber": "1040849",
+  "OrderComment": "tenetur",
+  "PreferredEmailCulture": "brendon@schoenupton.info",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 650
+      "FieldLength": 940
     }
   }
 }

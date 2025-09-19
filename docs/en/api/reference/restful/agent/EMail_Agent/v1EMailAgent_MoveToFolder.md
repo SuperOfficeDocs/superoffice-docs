@@ -75,10 +75,10 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    647,
-    6
+    462,
+    126
   ],
-  "TargetFolder": "aut"
+  "TargetFolder": "officia"
 }
 ```
 

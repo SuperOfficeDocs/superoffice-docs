@@ -79,25 +79,25 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 330,
-      "PrefDescId": 943,
-      "PrefValue": "natus",
-      "PrefShowValue": "nam",
-      "Description": "Robust well-modulated workforce",
+      "PrefDescLineId": 667,
+      "PrefDescId": 94,
+      "PrefValue": "commodi",
+      "PrefShowValue": "quo",
+      "Description": "Realigned non-volatile approach",
       "IsBuiltin": true
     },
     {
-      "PrefDescLineId": 330,
-      "PrefDescId": 943,
-      "PrefValue": "natus",
-      "PrefShowValue": "nam",
-      "Description": "Robust well-modulated workforce",
+      "PrefDescLineId": 667,
+      "PrefDescId": 94,
+      "PrefValue": "commodi",
+      "PrefShowValue": "quo",
+      "Description": "Realigned non-volatile approach",
       "IsBuiltin": true
     }
   ]
@@ -112,18 +112,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 917,
-    "PrefDescId": 452,
-    "PrefValue": "nemo",
-    "PrefShowValue": "similique",
-    "Description": "Assimilated regional access",
-    "IsBuiltin": false,
+    "PrefDescLineId": 109,
+    "PrefDescId": 562,
+    "PrefValue": "laboriosam",
+    "PrefShowValue": "consectetur",
+    "Description": "Face to face zero administration protocol",
+    "IsBuiltin": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 877
+        "FieldType": "System.String",
+        "FieldLength": 18
       }
     }
   }

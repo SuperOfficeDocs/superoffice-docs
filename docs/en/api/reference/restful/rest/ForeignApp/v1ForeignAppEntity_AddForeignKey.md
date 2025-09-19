@@ -88,14 +88,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "omnis",
-  "Value": "dolores",
-  "RecordId": 323,
-  "CreatedDate": "2009-07-13T03:47:00.0349452+02:00",
-  "UpdatedDate": "2018-01-26T03:47:00.0349452+01:00",
-  "UpdatedBy": "eligendi",
-  "CreatedBy": "fugiat",
-  "TableName": "Gutkowski-Ryan"
+  "Key": "perspiciatis",
+  "Value": "ipsum",
+  "RecordId": 259,
+  "CreatedDate": "2002-03-02T03:41:58.7617712+01:00",
+  "UpdatedDate": "2004-04-17T03:41:58.7617712+02:00",
+  "UpdatedBy": "aut",
+  "CreatedBy": "vitae",
+  "TableName": "Cormier Group"
 }
 ```
 
@@ -106,20 +106,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptatibus",
-  "Value": "ratione",
-  "RecordId": 42,
-  "CreatedDate": "1999-01-24T03:47:00.0349452+01:00",
-  "UpdatedDate": "2011-01-25T03:47:00.0349452+01:00",
-  "UpdatedBy": "quasi",
-  "CreatedBy": "molestiae",
-  "TableName": "Weimann LLC",
+  "Key": "qui",
+  "Value": "optio",
+  "RecordId": 406,
+  "CreatedDate": "2004-05-15T03:41:58.7617712+02:00",
+  "UpdatedDate": "2020-09-19T03:41:58.7617712+02:00",
+  "UpdatedBy": "voluptatum",
+  "CreatedBy": "iure",
+  "TableName": "Haag-Klocko",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldType": "System.String",
+      "FieldLength": 693
     }
   }
 }

@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 191,
-  "ListItemId": 99
+  "UdListDefinitionId": 361,
+  "ListItemId": 539
 }
 ```
 
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 321,
-    "Name": "Rempel, Miller and Greenfelder",
-    "ToolTip": "Nobis qui occaecati molestiae soluta cumque impedit.",
+    "Id": 195,
+    "Name": "Rempel-Kemmer",
+    "ToolTip": "Porro facere soluta nemo.",
     "Deleted": false,
-    "Rank": 131,
-    "Type": "repudiandae",
-    "ColorBlock": 195,
-    "IconHint": "excepturi",
+    "Rank": 223,
+    "Type": "ea",
+    "ColorBlock": 978,
+    "IconHint": "officia",
     "Selected": true,
-    "LastChanged": "2021-07-26T03:46:54.9882491+02:00",
+    "LastChanged": "2002-09-18T03:41:53.7307246+02:00",
     "ChildItems": [
       {
-        "Id": 664,
-        "Name": "Abshire-Labadie",
-        "ToolTip": "Molestias voluptatem.",
+        "Id": 5,
+        "Name": "Ferry-Kub",
+        "ToolTip": "Eos pariatur et nam minus tempore.",
         "Deleted": false,
-        "Rank": 314,
-        "Type": "nobis",
-        "ColorBlock": 496,
-        "IconHint": "veritatis",
+        "Rank": 68,
+        "Type": "nulla",
+        "ColorBlock": 826,
+        "IconHint": "architecto",
         "Selected": false,
-        "LastChanged": "2009-06-17T03:46:54.9882491+02:00",
+        "LastChanged": "2010-09-11T03:41:53.7307246+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ab",
-        "StyleHint": "natus",
+        "ExtraInfo": "optio",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "General Corwin",
+        "FullName": "Lorine Tromp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 575
+            "FieldLength": 360
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "molestias",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Prof. Elvis Cecil Hintz",
+    "FullName": "Arlie Friesen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 667
+        "FieldLength": 906
       }
     }
   }

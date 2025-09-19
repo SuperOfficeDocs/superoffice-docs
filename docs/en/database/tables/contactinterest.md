@@ -49,7 +49,7 @@ Link-table between contact and interests in ContInt
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 |[ContInt](contint.md)  |ContInt list table. List-text of all valid contact interest types. |
 
 

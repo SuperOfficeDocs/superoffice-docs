@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 553
+  "TargetDimensionId": 680
 }
 ```
 
@@ -98,24 +98,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 375,
+    "TargetAssignmentInfoId": 687,
     "Values": [
-      989,
-      665
+      397,
+      656
     ],
     "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 880,
-    "DimensionListItemDisplayName": "Schulist, Dooley and Haag",
+    "DimensionListItem": 214,
+    "DimensionListItemDisplayName": "Swift Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 80
+        "FieldLength": 139
       }
     }
   }

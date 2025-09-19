@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 320,
-    "Name": "Howe, West and Corwin",
-    "ToolTip": "Ducimus unde.",
+    "Id": 158,
+    "Name": "Kautzer-Stamm",
+    "ToolTip": "Quibusdam harum facilis eos corporis quibusdam in.",
     "Deleted": false,
-    "Rank": 277,
-    "Type": "debitis",
-    "ColorBlock": 453,
-    "IconHint": "culpa",
+    "Rank": 587,
+    "Type": "aut",
+    "ColorBlock": 973,
+    "IconHint": "autem",
     "Selected": true,
-    "LastChanged": "2005-02-02T03:47:00.628674+01:00",
+    "LastChanged": "2007-11-14T03:41:59.3867375+01:00",
     "ChildItems": [
       {
-        "Id": 918,
-        "Name": "Klocko LLC",
-        "ToolTip": "Beatae provident aperiam fugiat qui.",
-        "Deleted": false,
-        "Rank": 749,
-        "Type": "minus",
-        "ColorBlock": 731,
-        "IconHint": "esse",
+        "Id": 39,
+        "Name": "Rippin-Murphy",
+        "ToolTip": "Fugiat libero sint porro autem a.",
+        "Deleted": true,
+        "Rank": 849,
+        "Type": "vel",
+        "ColorBlock": 397,
+        "IconHint": "eius",
         "Selected": false,
-        "LastChanged": "2001-04-17T03:47:00.628674+02:00",
+        "LastChanged": "2017-05-14T03:41:59.3867375+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Bo Bauch"
+        "ExtraInfo": "fugit",
+        "StyleHint": "vitae",
+        "Hidden": false,
+        "FullName": "Brianne Bosco"
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Luisa Anderson"
+    "ExtraInfo": "qui",
+    "StyleHint": "id",
+    "Hidden": true,
+    "FullName": "Dr. Garland Myles Yundt V"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Name": "O'Conner, Maggio and Brakus",
-    "ToolTip": "Magnam ducimus eum laborum voluptates deleniti.",
+    "Id": 683,
+    "Name": "Moore, Steuber and Pfannerstill",
+    "ToolTip": "Sunt et ea officia voluptas dolor dicta praesentium.",
     "Deleted": false,
-    "Rank": 940,
-    "Type": "laudantium",
-    "ColorBlock": 601,
-    "IconHint": "magnam",
-    "Selected": false,
-    "LastChanged": "2012-08-09T03:47:00.628674+02:00",
+    "Rank": 627,
+    "Type": "sit",
+    "ColorBlock": 21,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2008-04-24T03:41:59.3867375+02:00",
     "ChildItems": [
       {
-        "Id": 407,
-        "Name": "Little, Franecki and Hauck",
-        "ToolTip": "Voluptate dolorum culpa repellat repudiandae temporibus voluptas.",
-        "Deleted": true,
-        "Rank": 344,
-        "Type": "consequatur",
-        "ColorBlock": 353,
-        "IconHint": "occaecati",
-        "Selected": true,
-        "LastChanged": "2010-03-03T03:47:00.628674+01:00",
+        "Id": 675,
+        "Name": "Morar-Schuppe",
+        "ToolTip": "Ut quaerat consequuntur.",
+        "Deleted": false,
+        "Rank": 678,
+        "Type": "maxime",
+        "ColorBlock": 432,
+        "IconHint": "quos",
+        "Selected": false,
+        "LastChanged": "2005-05-02T03:41:59.3867375+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusantium",
-        "StyleHint": "rem",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Mrs. Lucio Cole",
+        "FullName": "Leonard Bernhard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 880
+            "FieldLength": 169
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "repudiandae",
+    "ExtraInfo": "aut",
+    "StyleHint": "ad",
     "Hidden": false,
-    "FullName": "Maurine Barrows",
+    "FullName": "Mrs. Vesta Labadie DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 277
+        "FieldLength": 43
       }
     }
   }

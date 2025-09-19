@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDeltasByDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,28 +102,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 535,
-    "Name": "Barton Inc and Sons",
-    "Description": "Multi-lateral bandwidth-monitored synergy",
-    "DeltaJson": "non",
+    "ConfigurableScreenDeltaId": 996,
+    "Name": "Ankunding-Leffler",
+    "Description": "Profound transitional functionalities",
+    "DeltaJson": "et",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "molestiae",
-    "UpdatedDate": "2000-03-24T03:46:54.4570178+01:00",
-    "CreatedDate": "2022-04-08T03:46:54.4570178+02:00",
+    "RecipeId": "et",
+    "UpdatedDate": "2013-05-08T03:41:53.2309893+02:00",
+    "CreatedDate": "2001-09-14T03:41:53.2309893+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      966,
-      943
+      158,
+      548
     ],
-    "AppliesToKey": "qui",
+    "AppliesToKey": "laboriosam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 776
+        "FieldType": "System.Int32",
+        "FieldLength": 73
       }
     }
   }

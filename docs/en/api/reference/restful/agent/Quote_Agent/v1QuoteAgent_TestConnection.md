@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Keeling, Kunde and Hilpert",
+  "ConnectorName": "Reynolds, Walker and Johns",
   "ConnectionData": {
-    "ConnectionData1": "et",
-    "ConnectionData2": "aut"
+    "ConnectionData1": "facilis",
+    "ConnectionData2": "id"
   }
 }
 ```
@@ -102,9 +102,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "asperiores",
-  "TechExplanation": "et",
-  "ErrorCode": "aut",
+  "UserExplanation": "quia",
+  "TechExplanation": "nam",
+  "ErrorCode": "ut",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 383
+      "FieldLength": 781
     }
   }
 }

@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 124,
-    "Name": "Rippin Group",
-    "ToolTip": "Excepturi eaque in.",
-    "Deleted": false,
-    "Rank": 583,
-    "Type": "impedit",
-    "ColorBlock": 709,
+    "Id": 680,
+    "Name": "Kertzmann, Waters and Schaefer",
+    "ToolTip": "Nobis ut sint.",
+    "Deleted": true,
+    "Rank": 271,
+    "Type": "repellat",
+    "ColorBlock": 173,
     "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "1999-09-21T03:47:00.628674+02:00",
+    "LastChanged": "2013-11-23T03:41:59.4023618+01:00",
     "ChildItems": [
       {
-        "Id": 346,
-        "Name": "Kunde Inc and Sons",
-        "ToolTip": "Nesciunt sed.",
-        "Deleted": true,
-        "Rank": 607,
-        "Type": "ipsam",
-        "ColorBlock": 984,
-        "IconHint": "ducimus",
+        "Id": 502,
+        "Name": "Leuschke, Bradtke and Cole",
+        "ToolTip": "Eum totam et rerum.",
+        "Deleted": false,
+        "Rank": 124,
+        "Type": "neque",
+        "ColorBlock": 148,
+        "IconHint": "voluptate",
         "Selected": false,
-        "LastChanged": "2009-12-03T03:47:00.628674+01:00",
+        "LastChanged": "2004-12-15T03:41:59.4023618+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "molestias",
-        "Hidden": true,
-        "FullName": "Alisha Douglas",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "perferendis",
+        "Hidden": false,
+        "FullName": "Deron Schmitt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 532
+            "FieldLength": 547
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "quia",
-    "Hidden": false,
-    "FullName": "Ms. Eddie Nienow",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Bret Dasia Conn PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldLength": 326
       }
     }
   }

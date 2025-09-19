@@ -132,13 +132,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2011-09-23T03:46:54.2695244+02:00",
-  "EndTime": "2006-08-23T03:46:54.2695244+02:00",
-  "Count": 373
+  "StartTime": "2011-03-25T03:41:53.0432539+01:00",
+  "EndTime": "2012-03-22T03:41:53.0432539+01:00",
+  "Count": 442
 }
 ```
 
@@ -150,67 +150,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 455,
-    "StartDate": "2014-07-12T03:46:54.2695244+02:00",
-    "EndDate": "2019-08-03T03:46:54.2695244+02:00",
+    "AppointmentId": 276,
+    "StartDate": "1999-11-08T03:41:53.0432539+01:00",
+    "EndDate": "2018-08-03T03:41:53.0432539+02:00",
     "Type": "BookingForChecklist",
-    "Task": "dolores",
-    "AssociateFullName": "Ms. Vesta Diego Rodriguez",
-    "ContactName": "Lubowitz, VonRueden and Fahey",
-    "Description": "Front-line static info-mediaries",
-    "PersonFullName": "Ms. Friedrich Littel",
-    "PersonId": 343,
-    "ContactId": 637,
-    "ProjectId": 896,
-    "ProjectName": "Weimann Group",
+    "Task": "est",
+    "AssociateFullName": "Ms. Mya Gaylord",
+    "ContactName": "Schinner-Mayert",
+    "Description": "Quality-focused non-volatile complexity",
+    "PersonFullName": "Celestino Johns",
+    "PersonId": 412,
+    "ContactId": 978,
+    "ProjectId": 427,
+    "ProjectName": "Pacocha Inc and Sons",
     "IsPublished": false,
-    "AssociateId": 909,
-    "ColorIndex": 121,
-    "IsFree": true,
-    "HasAlarm": true,
+    "AssociateId": 65,
+    "ColorIndex": 142,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 315,
-    "PriorityName": "Hansen, Conn and Marquardt",
+    "PriorityId": 800,
+    "PriorityName": "Feil, Wolff and Lind",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2007-02-10T03:46:54.2695244+01:00",
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2016-06-20T03:41:53.0432539+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-07-23T03:46:54.2695244+02:00",
-    "RecurringEndDate": "2005-01-22T03:46:54.2695244+01:00",
-    "MotherId": 142,
-    "AssignedBy": 989,
-    "AssignedByFullName": "Doris Ullrich",
-    "RejectReason": "harness e-business e-commerce",
-    "Location": "maiores",
-    "AlarmLeadTime": "et",
-    "SaleId": 215,
-    "SaleName": "Hermann-Maggio",
-    "AssociateName": "Friesen LLC",
-    "CreatedDate": "2023-07-20T03:46:54.2695244+02:00",
-    "CreatedBy": "dolor",
-    "CreatedByFullName": "Marianna Hyatt III",
-    "CreatedByAssociateId": 332,
+    "RecurringStartDate": "2001-01-10T03:41:53.0432539+01:00",
+    "RecurringEndDate": "2010-06-23T03:41:53.0432539+02:00",
+    "MotherId": 583,
+    "AssignedBy": 182,
+    "AssignedByFullName": "Jeremy Ruecker",
+    "RejectReason": "engage next-generation action-items",
+    "Location": "molestias",
+    "AlarmLeadTime": "omnis",
+    "SaleId": 9,
+    "SaleName": "Bartoletti Inc and Sons",
+    "AssociateName": "Armstrong-Thompson",
+    "CreatedDate": "2013-09-23T03:41:53.0432539+02:00",
+    "CreatedBy": "rem",
+    "CreatedByFullName": "Mr. Odie Jedidiah Stanton",
+    "CreatedByAssociateId": 56,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 48,
+    "MotherAssociateId": 295,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 998,
-    "Title": "consequatur",
-    "Agenda": "qui",
-    "InternalNotes": "ipsa",
+    "PreferredTZLocation": 214,
+    "Title": "sunt",
+    "Agenda": "voluptatem",
+    "InternalNotes": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 377
+        "FieldLength": 830
       }
     }
   }

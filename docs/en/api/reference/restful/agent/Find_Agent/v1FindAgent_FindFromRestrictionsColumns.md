@@ -101,21 +101,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Frami-Huels",
-      "Operator": "tenetur",
+      "Name": "Abbott Group",
+      "Operator": "repudiandae",
       "Values": [
-        "autem",
-        "laborum"
+        "rerum",
+        "atque"
       ],
       "DisplayValues": [
-        "itaque",
-        "officia"
+        "rerum",
+        "veniam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -123,18 +123,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 687,
+      "InterParenthesis": 935,
       "InterOperator": "And",
-      "UniqueHash": 501
+      "UniqueHash": 520
     }
   ],
-  "ProviderName": "Hane, Strosin and McDermott",
+  "ProviderName": "Fay Group",
   "DesiredColumns": [
-    "ut",
-    "deleniti"
+    "voluptatem",
+    "possimus"
   ],
-  "PageSize": 651,
-  "PageNumber": 625
+  "PageSize": 353,
+  "PageNumber": 260
 }
 ```
 
@@ -147,51 +147,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Sanford, West and Schimmel",
-      "DisplayTooltip": "est",
-      "DisplayType": "molestias",
+      "DisplayName": "Price Group",
+      "DisplayTooltip": "recusandae",
+      "DisplayType": "magnam",
       "CanOrderBy": false,
-      "Name": "Fahey-Vandervort",
+      "Name": "Leuschke Group",
       "CanRestrictBy": true,
-      "RestrictionType": "doloremque",
-      "RestrictionListName": "Schmidt-Schoen",
-      "IsVisible": true,
-      "ExtraInfo": "excepturi",
-      "Width": "voluptas",
-      "IconHint": "nihil",
-      "HeadingIconHint": "voluptate"
+      "RestrictionType": "perspiciatis",
+      "RestrictionListName": "Von-Mann",
+      "IsVisible": false,
+      "ExtraInfo": "quo",
+      "Width": "occaecati",
+      "IconHint": "molestiae",
+      "HeadingIconHint": "rerum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Boyle-Beahan",
-      "PrimaryKey": 614,
+      "EntityName": "Wyman Group",
+      "PrimaryKey": 662,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "hic",
-          "TooltipHint": "dolor",
-          "LinkHint": "et"
+          "DisplayValue": "tempore",
+          "TooltipHint": "sed",
+          "LinkHint": "iste"
         }
       },
-      "LinkHint": "nulla",
-      "StyleHint": "consequatur",
+      "LinkHint": "consequatur",
+      "StyleHint": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 126
+          "FieldType": "System.Int32",
+          "FieldLength": 357
         }
       }
     }
   ],
-  "RowCount": 991,
+  "RowCount": 262,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 351
+      "FieldType": "System.Int32",
+      "FieldLength": 527
     }
   }
 }

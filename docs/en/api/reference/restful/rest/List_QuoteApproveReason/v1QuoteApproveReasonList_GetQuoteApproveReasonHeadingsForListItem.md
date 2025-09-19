@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 252,
-    "Name": "Armstrong Inc and Sons",
-    "ToolTip": "Sit eos ut dolorum aperiam culpa.",
+    "Id": 393,
+    "Name": "Cummings, Zulauf and Toy",
+    "ToolTip": "Quisquam voluptatem.",
     "Deleted": true,
     "Rank": 73,
-    "Type": "sunt",
-    "ColorBlock": 405,
-    "IconHint": "quasi",
-    "Selected": false,
-    "LastChanged": "2010-08-17T03:47:00.7692942+02:00",
+    "Type": "possimus",
+    "ColorBlock": 481,
+    "IconHint": "enim",
+    "Selected": true,
+    "LastChanged": "1999-08-12T03:41:59.558612+02:00",
     "ChildItems": [
       {
-        "Id": 990,
-        "Name": "Hettinger-Hegmann",
-        "ToolTip": "Officiis reiciendis quibusdam explicabo aliquid quia laborum ut.",
-        "Deleted": true,
-        "Rank": 501,
-        "Type": "voluptatibus",
-        "ColorBlock": 356,
-        "IconHint": "omnis",
+        "Id": 973,
+        "Name": "Kris Inc and Sons",
+        "ToolTip": "Accusamus ab iste molestias sapiente commodi doloremque.",
+        "Deleted": false,
+        "Rank": 817,
+        "Type": "quisquam",
+        "ColorBlock": 693,
+        "IconHint": "maxime",
         "Selected": false,
-        "LastChanged": "2005-09-15T03:47:00.7692942+02:00",
+        "LastChanged": "1999-03-10T03:41:59.558612+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "officia",
+        "ExtraInfo": "rem",
+        "StyleHint": "minima",
         "Hidden": false,
-        "FullName": "Miss Adam Lue Cruickshank",
+        "FullName": "Jett Padberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 534
+            "FieldType": "System.String",
+            "FieldLength": 217
           }
         }
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "vel",
-    "Hidden": true,
-    "FullName": "Everette McKenzie",
+    "ExtraInfo": "fuga",
+    "StyleHint": "aut",
+    "Hidden": false,
+    "FullName": "Jerad Crona",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 196
+        "FieldLength": 769
       }
     }
   }

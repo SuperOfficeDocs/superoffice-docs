@@ -70,10 +70,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 219,
+  "UserGroupId": 136,
   "CategoryIds": [
-    137,
-    402
+    196,
+    648
   ]
 }
 ```

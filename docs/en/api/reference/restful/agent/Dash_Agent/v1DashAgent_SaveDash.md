@@ -88,34 +88,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 620,
-  "UniqueId": "tempora",
-  "Name": "Bartoletti-Glover",
-  "Description": "Versatile interactive access",
-  "AssociateId": 177,
-  "Columns": 172,
+  "DashboardId": 592,
+  "UniqueId": "consequuntur",
+  "Name": "Nikolaus, Bergnaum and Mills",
+  "Description": "Profound secondary frame",
+  "AssociateId": 437,
+  "Columns": 973,
   "Theme": null,
-  "VisibleForAll": 969,
+  "VisibleForAll": 100,
   "VisibleForAssociates": [
-    666,
-    422
+    218,
+    229
   ],
   "VisibleForGroups": [
-    181,
-    345
+    975,
+    912
   ],
-  "PinForAll": 670,
+  "PinForAll": 691,
   "PinForAssociates": [
-    272,
-    860
+    893,
+    597
   ],
   "PinForGroups": [
-    82,
-    656
+    912,
+    757
   ]
 }
 ```
@@ -127,37 +127,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 805,
-  "UniqueId": "neque",
-  "Name": "Ryan LLC",
-  "Description": "Mandatory zero defect attitude",
-  "AssociateId": 448,
-  "Columns": 650,
+  "DashboardId": 266,
+  "UniqueId": "optio",
+  "Name": "Jacobs-Gleason",
+  "Description": "Cross-platform human-resource capacity",
+  "AssociateId": 998,
+  "Columns": 893,
   "Theme": null,
-  "VisibleForAll": 527,
+  "VisibleForAll": 189,
   "VisibleForAssociates": [
-    699,
-    228
+    474,
+    619
   ],
   "VisibleForGroups": [
-    656,
-    589
+    466,
+    157
   ],
-  "PinForAll": 220,
+  "PinForAll": 294,
   "PinForAssociates": [
-    721,
-    630
+    365,
+    259
   ],
   "PinForGroups": [
-    552,
-    498
+    98,
+    337
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 509
+      "FieldType": "System.String",
+      "FieldLength": 163
     }
   }
 }

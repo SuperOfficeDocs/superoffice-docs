@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1000,
-    "Name": "Barrows-Jewess",
-    "ToolTip": "Voluptatibus laudantium rem ab doloribus cumque illo.",
+    "Id": 978,
+    "Name": "Abbott Inc and Sons",
+    "ToolTip": "Voluptas eos optio.",
     "Deleted": false,
-    "Rank": 13,
-    "Type": "possimus",
-    "ColorBlock": 245,
-    "IconHint": "explicabo",
-    "Selected": true,
-    "LastChanged": "2004-03-23T03:47:00.8161673+01:00",
+    "Rank": 668,
+    "Type": "doloremque",
+    "ColorBlock": 506,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2014-01-10T03:41:59.6054711+01:00",
     "ChildItems": [
       {
-        "Id": 53,
-        "Name": "McDermott, Rosenbaum and Von",
-        "ToolTip": "Molestiae exercitationem aut id expedita est esse.",
+        "Id": 895,
+        "Name": "Nienow, Kihn and Murphy",
+        "ToolTip": "Impedit et et.",
         "Deleted": false,
-        "Rank": 136,
-        "Type": "tempora",
-        "ColorBlock": 702,
-        "IconHint": "dicta",
+        "Rank": 875,
+        "Type": "iste",
+        "ColorBlock": 308,
+        "IconHint": "laborum",
         "Selected": false,
-        "LastChanged": "1999-01-27T03:47:00.8161673+01:00",
+        "LastChanged": "2013-05-30T03:41:59.6054711+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "consequuntur",
+        "ExtraInfo": "at",
+        "StyleHint": "fugiat",
         "Hidden": false,
-        "FullName": "Eldon Rosalia Torphy DDS"
+        "FullName": "Miss Mabelle Veum V"
       }
     ],
-    "ExtraInfo": "optio",
-    "StyleHint": "sunt",
-    "Hidden": false,
-    "FullName": "Minerva Stanton"
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "aliquid",
+    "Hidden": true,
+    "FullName": "Orlo Boyer"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 456,
-    "Name": "Steuber Group",
-    "ToolTip": "Asperiores odio rerum impedit.",
+    "Id": 273,
+    "Name": "Gibson LLC",
+    "ToolTip": "Numquam expedita omnis deleniti consequatur.",
     "Deleted": true,
-    "Rank": 719,
-    "Type": "non",
-    "ColorBlock": 988,
-    "IconHint": "et",
+    "Rank": 967,
+    "Type": "quia",
+    "ColorBlock": 355,
+    "IconHint": "iste",
     "Selected": false,
-    "LastChanged": "2021-08-02T03:47:00.8161673+02:00",
+    "LastChanged": "2021-06-24T03:41:59.6054711+02:00",
     "ChildItems": [
       {
-        "Id": 69,
-        "Name": "Abbott, Strosin and Donnelly",
-        "ToolTip": "Autem nobis adipisci fugiat distinctio qui voluptas eaque.",
-        "Deleted": false,
-        "Rank": 946,
-        "Type": "in",
-        "ColorBlock": 669,
-        "IconHint": "autem",
+        "Id": 154,
+        "Name": "Schmitt Inc and Sons",
+        "ToolTip": "Et ratione quae voluptatem commodi.",
+        "Deleted": true,
+        "Rank": 900,
+        "Type": "voluptas",
+        "ColorBlock": 149,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "1998-09-25T03:47:00.8161673+02:00",
+        "LastChanged": "2015-07-21T03:41:59.6054711+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "dicta",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "aperiam",
         "Hidden": false,
-        "FullName": "Devin Pouros",
+        "FullName": "Mr. Ignatius Kylee Haley DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 501
+            "FieldLength": 990
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "dolores",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "laudantium",
     "Hidden": false,
-    "FullName": "Prof. Maggie Leone Larson I",
+    "FullName": "Mrs. Willard Wuckert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 332
+        "FieldType": "System.Int32",
+        "FieldLength": 413
       }
     }
   }

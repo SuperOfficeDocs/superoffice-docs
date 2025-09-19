@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 705,
-    "Name": "Thiel-Lehner",
-    "Tooltip": "hic",
-    "Deleted": true,
-    "Rank": 509,
-    "UdListDefinitionId": 535
+    "HeadingId": 870,
+    "Name": "Kulas Group",
+    "Tooltip": "inventore",
+    "Deleted": false,
+    "Rank": 125,
+    "UdListDefinitionId": 44
   },
   {
-    "HeadingId": 705,
-    "Name": "Thiel-Lehner",
-    "Tooltip": "hic",
-    "Deleted": true,
-    "Rank": 509,
-    "UdListDefinitionId": 535
+    "HeadingId": 870,
+    "Name": "Kulas Group",
+    "Tooltip": "inventore",
+    "Deleted": false,
+    "Rank": 125,
+    "UdListDefinitionId": 44
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 67,
-    "Name": "Weimann LLC",
-    "Tooltip": "aut",
-    "Deleted": false,
-    "Rank": 842,
-    "UdListDefinitionId": 461,
+    "HeadingId": 896,
+    "Name": "Lemke Inc and Sons",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 925,
+    "UdListDefinitionId": 19,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 923
+        "FieldLength": 34
       }
     }
   }

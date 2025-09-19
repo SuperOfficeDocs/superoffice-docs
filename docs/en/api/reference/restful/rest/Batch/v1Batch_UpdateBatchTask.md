@@ -112,34 +112,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 981,
-  "Name": "Hyatt-Kuhic",
-  "AssociateId": 688,
-  "DetailsTable": 699,
-  "DetailsRecord": 15,
-  "IsSystemTask": true,
-  "IsInternalTask": true,
+  "Id": 921,
+  "Name": "Thiel, Schmidt and Mraz",
+  "AssociateId": 987,
+  "DetailsTable": 375,
+  "DetailsRecord": 466,
+  "IsSystemTask": false,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "inventore",
-    "ParameterObject2": "exercitationem"
+    "ParameterObject1": "numquam",
+    "ParameterObject2": "est"
   },
-  "LastStarted": "2006-08-14T03:47:00.3943072+02:00",
-  "Created": "2013-11-27T03:47:00.3943072+01:00",
-  "StartCount": 603,
-  "DatabaseSerialNumber": "918108",
-  "Context": "voluptatibus",
-  "Result": "quam",
+  "LastStarted": "2020-07-30T03:41:59.1679969+02:00",
+  "Created": "2010-09-15T03:41:59.1679969+02:00",
+  "StartCount": 50,
+  "DatabaseSerialNumber": "859384",
+  "Context": "ea",
+  "Result": "velit",
   "State": "All",
-  "Description": "Digitized radical forecast",
-  "Response": "velit",
-  "Request": "deleniti",
-  "ProgressDescription": "Up-sized context-sensitive support",
-  "ProgressPercent": 692,
-  "FileName": "Schmeler, Maggio and Gleason",
+  "Description": "Open-source neutral moderator",
+  "Response": "eos",
+  "Request": "ut",
+  "ProgressDescription": "Ergonomic local forecast",
+  "ProgressPercent": 771,
+  "FileName": "Hoppe-Lockman",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -151,37 +151,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 654,
-  "Name": "Spinka-Reilly",
-  "AssociateId": 180,
-  "DetailsTable": 766,
-  "DetailsRecord": 572,
-  "IsSystemTask": true,
-  "IsInternalTask": false,
+  "Id": 581,
+  "Name": "Smitham, Bashirian and Dickinson",
+  "AssociateId": 369,
+  "DetailsTable": 534,
+  "DetailsRecord": 426,
+  "IsSystemTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "et",
-    "ParameterObject2": "molestiae"
+    "ParameterObject1": "aspernatur",
+    "ParameterObject2": "adipisci"
   },
-  "LastStarted": "2009-04-22T03:47:00.3943072+02:00",
-  "Created": "1998-05-13T03:47:00.3943072+02:00",
-  "StartCount": 867,
-  "DatabaseSerialNumber": "1186878",
-  "Context": "sit",
-  "Result": "hic",
+  "LastStarted": "2019-01-07T03:41:59.1679969+01:00",
+  "Created": "2003-01-13T03:41:59.1679969+01:00",
+  "StartCount": 351,
+  "DatabaseSerialNumber": "902072",
+  "Context": "odit",
+  "Result": "omnis",
   "State": "All",
-  "Description": "Fundamental holistic infrastructure",
-  "Response": "officia",
-  "Request": "nihil",
-  "ProgressDescription": "Organic bandwidth-monitored extranet",
-  "ProgressPercent": 873,
-  "FileName": "Schimmel Inc and Sons",
+  "Description": "User-friendly optimizing forecast",
+  "Response": "vero",
+  "Request": "aut",
+  "ProgressDescription": "Multi-layered even-keeled installation",
+  "ProgressPercent": 616,
+  "FileName": "Bergstrom Inc and Sons",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 845
+      "FieldType": "System.String",
+      "FieldLength": 327
     }
   }
 }

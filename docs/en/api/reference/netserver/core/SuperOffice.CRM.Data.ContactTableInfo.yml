@@ -103,7 +103,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "Table 'contact': Companies and Organizations.   This table features a special record containing information about the contact that owns the database."
+  summary: "Table 'contact': Companies and Organizations."
   remarks: >-
     An instance of this class represents one instance of this table in an SQL statement. In most
 

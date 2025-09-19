@@ -115,15 +115,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    354,
-    147
+    832,
+    691
   ],
-  "TargetTableNumber": 1000
+  "TargetTableNumber": 373
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "De-engineered executive encoding",
-  "Postit": "quam",
+  "Description": "Realigned analyzing solution",
+  "Postit": "tempora",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 176,
-  "IncludePerson": 686,
+  "GroupIdx": 894,
+  "IncludePerson": 897,
   "MemberCount": 99.99,
-  "Name": "Stiedemann-Hilpert",
-  "PostitTextId": 693,
-  "CreatedDate": "2009-03-17T03:46:55.3788724+01:00",
-  "SelectionId": 699,
-  "SoundEx": "temporibus",
-  "Source": 267,
-  "TextId": 848,
-  "UpdatedDate": "2021-12-06T03:46:55.3788724+01:00",
-  "UpdatedCount": 743,
-  "Visibility": 378,
+  "Name": "Wiza LLC",
+  "PostitTextId": 383,
+  "CreatedDate": "2017-02-28T03:41:54.0588353+01:00",
+  "SelectionId": 106,
+  "SoundEx": "iure",
+  "Source": 937,
+  "TextId": 113,
+  "UpdatedDate": "2019-07-14T03:41:54.0588353+02:00",
+  "UpdatedCount": 296,
+  "Visibility": 713,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 183,
-  "TargetTableName": "Conn-Ratke",
+  "TargetTableNumber": 897,
+  "TargetTableName": "Kunze, Corwin and Morar",
   "Completed": false,
-  "LeftSelectionId": 779,
-  "RightSelectionId": 105,
+  "LeftSelectionId": 239,
+  "RightSelectionId": 742,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Cremin-Metz",
-  "ShadowProviderName": "Hoppe, Klein and Fadel",
-  "ChartKey": "natus",
-  "LastLoaded": "2005-09-04T03:46:55.3788724+02:00",
-  "LastLoadedBy": 53,
+  "MainProviderName": "Romaguera LLC",
+  "ShadowProviderName": "Bailey, Bartoletti and Hartmann",
+  "ChartKey": "iusto",
+  "LastLoaded": "2008-05-20T03:41:54.0588353+02:00",
+  "LastLoadedBy": 819,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2010-12-06T03:46:55.3788724+01:00",
-  "LastMembershipChangeBy": 998,
+  "LastMembershipChange": "1999-12-01T03:41:54.0588353+01:00",
+  "LastMembershipChangeBy": 535,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "modi",
-  "MemberTabHeading": "qui",
-  "MailingsProviderName": "Kautzer, Langosh and Maggio",
-  "DashboardTileDefinitionId": 177,
+  "MainHeading": "iure",
+  "MemberTabHeading": "reiciendis",
+  "MailingsProviderName": "Cartwright Group",
+  "DashboardTileDefinitionId": 609,
   "VisibleFor": [
     {
-      "VisibleId": 525,
+      "VisibleId": 55,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 61
+          "FieldLength": 626
         }
       }
     },
     {
-      "VisibleId": 525,
+      "VisibleId": 55,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 61
+          "FieldLength": 626
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
+      "FieldType": "System.String",
       "FieldLength": 40
     }
   }

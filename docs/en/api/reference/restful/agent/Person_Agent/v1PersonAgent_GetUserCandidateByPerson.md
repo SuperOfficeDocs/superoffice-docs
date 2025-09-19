@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Person/GetUserCandidateByPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 119
+  "PersonId": 718
 }
 ```
 
@@ -92,16 +92,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserCandidateId": 277,
-  "PersonId": 760,
-  "SecretKey": "ratione",
-  "SecretValue": "ipsum",
+  "UserCandidateId": 190,
+  "PersonId": 41,
+  "SecretKey": "sed",
+  "SecretValue": "necessitatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 325
+      "FieldLength": 62
     }
   }
 }

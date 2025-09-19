@@ -126,18 +126,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "deleniti",
+    "path": "ut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "deleniti",
+    "path": "ut",
     "value": {}
   }
 ]
@@ -150,30 +150,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 954,
-  "SourcePersonId": 752,
-  "DestinationContactId": 204,
-  "DestinationPersonId": 234,
-  "RelationId": 275,
-  "Comment": "dignissimos",
-  "RelationDefinitionId": 169,
-  "Reversed": 228,
-  "UpdatedDate": "2012-05-02T03:46:59.8943184+02:00",
-  "CreatedDate": "2005-05-01T03:46:59.8943184+02:00",
+  "SourceContactId": 428,
+  "SourcePersonId": 477,
+  "DestinationContactId": 530,
+  "DestinationPersonId": 525,
+  "RelationId": 135,
+  "Comment": "illo",
+  "RelationDefinitionId": 468,
+  "Reversed": 735,
+  "UpdatedDate": "2025-01-21T03:41:58.6367691+01:00",
+  "CreatedDate": "1999-03-07T03:41:58.6367691+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Yost, Bashirian and Jakubowski",
-  "SourcePersonName": "Predovic LLC",
-  "DestinationContactName": "Aufderhar-Stracke",
-  "DestinationPersonName": "Koch, Dickens and Barton",
-  "ActiveText": "et",
-  "PassiveText": "at",
+  "SourceContactName": "Deckow, Kris and Jast",
+  "SourcePersonName": "Thiel-Gorczany",
+  "DestinationContactName": "Johns Group",
+  "DestinationPersonName": "Berge-Sanford",
+  "ActiveText": "esse",
+  "PassiveText": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 23
+      "FieldLength": 650
     }
   },
   "_Links": {

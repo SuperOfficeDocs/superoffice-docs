@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 273
+  "ContactId": 298
 }
 ```
 
@@ -94,41 +94,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 20117.146,
-  "Wgs84Longitude": 24768.002,
+  "Wgs84Latitude": 16917.332,
+  "Wgs84Longitude": 17641.286,
   "LocalizedAddress": [
     [
       {
-        "Name": "Deckow, Boyle and Friesen",
-        "Value": "corporis",
-        "Tooltip": "porro",
-        "Label": "perspiciatis",
-        "ValueLength": 624,
-        "AddressType": "molestiae",
+        "Name": "Ritchie LLC",
+        "Value": "consequatur",
+        "Tooltip": "molestiae",
+        "Label": "dicta",
+        "ValueLength": 275,
+        "AddressType": "alias",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 225
+            "FieldType": "System.String",
+            "FieldLength": 107
           }
         }
       }
     ],
     [
       {
-        "Name": "Breitenberg, Hammes and Quitzon",
-        "Value": "inventore",
-        "Tooltip": "ut",
-        "Label": "dolor",
-        "ValueLength": 912,
-        "AddressType": "voluptas",
+        "Name": "Welch LLC",
+        "Value": "voluptatem",
+        "Tooltip": "vel",
+        "Label": "reiciendis",
+        "ValueLength": 854,
+        "AddressType": "ipsam",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 410
+            "FieldLength": 547
           }
         }
       }
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "repudiandae",
+  "Formatted": "exercitationem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 585
+      "FieldLength": 516
     }
   }
 }

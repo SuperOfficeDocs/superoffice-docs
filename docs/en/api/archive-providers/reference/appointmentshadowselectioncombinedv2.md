@@ -742,7 +742,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentShadowSelectionCombinedV2?$select=intention,suggestedAppointmentId,appointmentPublish/isPublished,contact/nameDepartment,contact/registeredDate
+GET /api/v1/archive/AppointmentShadowSelectionCombinedV2?$select=endTime,contact/contactExtra/y_organization/x_name,contact/NumberOfNotCompletedSalesInPeriod,person/personDirectFax/description,project/projectAssociate/isActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -72,32 +72,32 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 06 May 2003 03:47:00 G5T
+Last-Modified: Mon, 15 Oct 2007 03:41:58 G10T
 
 {
-  "ForeignAppId": 942,
-  "Name": "Fadel, Mayert and Howe",
-  "CreatedDate": "2025-04-07T03:47:00.0193121+02:00",
-  "UpdatedDate": "2003-05-06T03:47:00.0193121+02:00",
+  "ForeignAppId": 662,
+  "Name": "Brakus-Raynor",
+  "CreatedDate": "2014-06-14T03:41:58.7617712+02:00",
+  "UpdatedDate": "2007-10-15T03:41:58.7617712+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 937,
-      "Name": "Hartmann Group",
-      "CreatedDate": "2007-07-24T03:47:00.0193121+02:00",
-      "UpdatedDate": "2013-11-15T03:47:00.0193121+01:00",
-      "AssociateFullName": "Eric Reichert",
-      "CreatedBy": "voluptatem",
-      "UpdatedBy": "voluptatum",
-      "DeviceIdentifier": "id",
-      "ForeignAppId": 437,
+      "ForeignDeviceId": 143,
+      "Name": "Jewess-Bosco",
+      "CreatedDate": "2013-09-23T03:41:58.7617712+02:00",
+      "UpdatedDate": "2017-04-12T03:41:58.7617712+02:00",
+      "AssociateFullName": "Mrs. Weston Tomas Altenwerth II",
+      "CreatedBy": "consequatur",
+      "UpdatedBy": "neque",
+      "DeviceIdentifier": "voluptas",
+      "ForeignAppId": 229,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 742
+          "FieldLength": 567
         }
       }
     }
@@ -107,7 +107,7 @@ Last-Modified: Tue, 06 May 2003 03:47:00 G5T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 842
+      "FieldLength": 417
     }
   }
 }

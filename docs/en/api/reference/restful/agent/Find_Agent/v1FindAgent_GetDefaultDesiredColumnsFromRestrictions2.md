@@ -170,12 +170,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Wolff-Torphy",
-  "Restrictions": "et"
+  "ProviderName": "Wilkinson-Price",
+  "Restrictions": "asperiores"
 }
 ```
 
@@ -187,19 +187,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Renner Group",
-    "DisplayTooltip": "labore",
-    "DisplayType": "voluptas",
+    "DisplayName": "Gleason Group",
+    "DisplayTooltip": "et",
+    "DisplayType": "doloremque",
     "CanOrderBy": false,
-    "Name": "Konopelski LLC",
+    "Name": "Lesch, Wintheiser and Stark",
     "CanRestrictBy": true,
-    "RestrictionType": "provident",
-    "RestrictionListName": "Waters Group",
-    "IsVisible": false,
-    "ExtraInfo": "eligendi",
-    "Width": "illo",
-    "IconHint": "dicta",
-    "HeadingIconHint": "hic"
+    "RestrictionType": "ut",
+    "RestrictionListName": "Auer-Dooley",
+    "IsVisible": true,
+    "ExtraInfo": "maiores",
+    "Width": "aut",
+    "IconHint": "facilis",
+    "HeadingIconHint": "libero"
   }
 ]
 ```

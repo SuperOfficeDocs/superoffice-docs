@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 573
+  "SelectionId": 197
 }
 ```
 
@@ -93,20 +93,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Veum, Haag and Hamill",
-    "Description": "Cross-platform value-added initiative",
-    "Rank": 945,
+    "Name": "Kerluke Group",
+    "Description": "Adaptive assymetric strategy",
+    "Rank": 379,
     "Restrictions": [
       {
-        "Name": "Satterfield, Boyle and Windler",
-        "Operator": "porro",
+        "Name": "Jaskolski, Kunde and Terry",
+        "Operator": "repellat",
         "Values": [
-          "veniam",
-          "aspernatur"
+          "dicta",
+          "non"
         ],
         "DisplayValues": [
-          "possimus",
-          "dolorum"
+          "voluptates",
+          "inventore"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -114,27 +114,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 978,
+        "InterParenthesis": 251,
         "InterOperator": "And",
-        "UniqueHash": 902
+        "UniqueHash": 823
       }
     ]
   },
   {
-    "Name": "Veum, Haag and Hamill",
-    "Description": "Cross-platform value-added initiative",
-    "Rank": 945,
+    "Name": "Kerluke Group",
+    "Description": "Adaptive assymetric strategy",
+    "Rank": 379,
     "Restrictions": [
       {
-        "Name": "Satterfield, Boyle and Windler",
-        "Operator": "porro",
+        "Name": "Jaskolski, Kunde and Terry",
+        "Operator": "repellat",
         "Values": [
-          "veniam",
-          "aspernatur"
+          "dicta",
+          "non"
         ],
         "DisplayValues": [
-          "possimus",
-          "dolorum"
+          "voluptates",
+          "inventore"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -142,9 +142,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 978,
+        "InterParenthesis": 251,
         "InterOperator": "And",
-        "UniqueHash": 902
+        "UniqueHash": 823
       }
     ]
   }

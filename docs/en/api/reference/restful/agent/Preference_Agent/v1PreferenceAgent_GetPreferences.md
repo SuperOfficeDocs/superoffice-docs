@@ -92,12 +92,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "quia",
-      "Key": "illo"
+      "Section": "non",
+      "Key": "sint"
     },
     {
-      "Section": "quia",
-      "Key": "illo"
+      "Section": "non",
+      "Key": "sint"
     }
   ]
 }
@@ -112,22 +112,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "tempore",
+    "RawValue": "laudantium",
     "Specification": null,
-    "DisplayValue": "vero",
-    "DisplayTooltip": "voluptas",
+    "DisplayValue": "in",
+    "DisplayTooltip": "dolorem",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 121,
-    "PrefDescId": 909,
-    "TableName": "Dach LLC",
-    "UserPreferenceId": 763,
+    "TargetId": 535,
+    "PrefDescId": 855,
+    "TableName": "Lehner Inc and Sons",
+    "UserPreferenceId": 886,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 634
+        "FieldType": "System.String",
+        "FieldLength": 72
       }
     }
   }

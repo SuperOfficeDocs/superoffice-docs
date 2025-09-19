@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 376,
-  "DimensionId": 353
+  "TargetYear": 272,
+  "DimensionId": 549
 }
 ```
 
@@ -96,30 +96,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 493,
-  "Year": 793,
+  "TargetGroupId": 322,
+  "Year": 142,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 949,
+      "TargetAssignmentInfoId": 508,
       "Values": [
-        654,
-        68
+        905,
+        12
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 876,
-      "DimensionListItemDisplayName": "Bartell-Wintheiser",
+      "DimensionListItem": 178,
+      "DimensionListItemDisplayName": "Wuckert, Jaskolski and Price",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 51
+          "FieldType": "System.String",
+          "FieldLength": 574
         }
       }
     }
@@ -129,8 +129,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 330
+      "FieldType": "System.Int32",
+      "FieldLength": 571
     }
   }
 }

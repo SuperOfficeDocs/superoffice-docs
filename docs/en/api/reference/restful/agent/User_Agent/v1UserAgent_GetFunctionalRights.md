@@ -93,11 +93,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 354
+  "RoleId": 964
 }
 ```
 
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 719,
-    "Name": "Bogan Group",
-    "ToolTip": "Possimus cum illo in quia delectus rerum iure.",
+    "Id": 806,
+    "Name": "Jacobi Inc and Sons",
+    "ToolTip": "Laboriosam repellendus voluptate praesentium dolorem reiciendis minima aperiam.",
     "Deleted": false,
-    "Rank": 391,
-    "Type": "perferendis",
-    "ColorBlock": 234,
-    "IconHint": "rerum",
+    "Rank": 104,
+    "Type": "quod",
+    "ColorBlock": 330,
+    "IconHint": "animi",
     "Selected": false,
-    "LastChanged": "2017-03-26T03:46:55.581978+02:00",
+    "LastChanged": "2005-04-04T03:41:54.3244492+02:00",
     "ChildItems": [
       {
-        "Id": 916,
-        "Name": "Corkery, Hettinger and Satterfield",
-        "ToolTip": "Nostrum ex saepe expedita aliquid.",
+        "Id": 225,
+        "Name": "Macejkovic, Kuvalis and Marvin",
+        "ToolTip": "Quis eius quo et mollitia et quis quis.",
         "Deleted": false,
-        "Rank": 745,
-        "Type": "maxime",
-        "ColorBlock": 3,
-        "IconHint": "nobis",
-        "Selected": false,
-        "LastChanged": "2006-09-22T03:46:55.581978+02:00",
+        "Rank": 303,
+        "Type": "molestiae",
+        "ColorBlock": 232,
+        "IconHint": "ea",
+        "Selected": true,
+        "LastChanged": "2003-03-21T03:41:54.3244492+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "itaque",
-        "Hidden": true,
-        "FullName": "Prof. Audie Morissette",
+        "ExtraInfo": "alias",
+        "StyleHint": "sequi",
+        "Hidden": false,
+        "FullName": "Art Dane West DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 314
+            "FieldLength": 129
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "id",
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "illo",
     "Hidden": false,
-    "FullName": "Abagail Murphy",
+    "FullName": "Scottie Doyle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldLength": 760
       }
     }
   }

@@ -92,12 +92,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hayes, Kohler and Tremblay",
-  "DeviceName": "Hyatt, Hartmann and Hansen",
-  "DeviceIdentifier": "vel",
-  "KeyName": "Champlin-Watsica",
-  "TableName": "Murphy, Kozey and Predovic",
-  "RecordId": 544
+  "ApplicationName": "Bradtke, Strosin and Orn",
+  "DeviceName": "Hand Group",
+  "DeviceIdentifier": "tempora",
+  "KeyName": "Torphy, Abernathy and Macejkovic",
+  "TableName": "Parisian Group",
+  "RecordId": 614
 }
 ```
 
@@ -108,20 +108,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "rerum",
-  "Value": "qui",
-  "RecordId": 171,
-  "CreatedDate": "2012-01-10T03:46:54.9107593+01:00",
-  "UpdatedDate": "2021-08-10T03:46:54.9107593+02:00",
-  "UpdatedBy": "commodi",
-  "CreatedBy": "cum",
-  "TableName": "Hills LLC",
+  "Key": "voluptatum",
+  "Value": "aliquid",
+  "RecordId": 339,
+  "CreatedDate": "2019-04-04T03:41:53.5901046+02:00",
+  "UpdatedDate": "2019-01-14T03:41:53.5901046+01:00",
+  "UpdatedBy": "omnis",
+  "CreatedBy": "et",
+  "TableName": "Abernathy-Bergnaum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 563
+      "FieldType": "System.Int32",
+      "FieldLength": 257
     }
   }
 }

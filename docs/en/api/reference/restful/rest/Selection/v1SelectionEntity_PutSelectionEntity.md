@@ -161,60 +161,60 @@ SelectionEntity updated.
 PUT /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Robust content-based database",
-  "Postit": "ab",
+  "Description": "Re-engineered asynchronous access",
+  "Postit": "quia",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 560,
-  "IncludePerson": 954,
+  "GroupIdx": 427,
+  "IncludePerson": 628,
   "MemberCount": 99.99,
-  "Name": "Nolan, Schroeder and Crona",
-  "PostitTextId": 967,
-  "CreatedDate": "2010-10-22T03:47:00.2849361+02:00",
-  "SelectionId": 703,
-  "SoundEx": "nisi",
-  "Source": 358,
-  "TextId": 917,
-  "UpdatedDate": "1999-02-17T03:47:00.2849361+01:00",
-  "UpdatedCount": 177,
-  "Visibility": 583,
+  "Name": "Breitenberg-Hoppe",
+  "PostitTextId": 731,
+  "CreatedDate": "2006-05-21T03:41:59.0117535+02:00",
+  "SelectionId": 946,
+  "SoundEx": "beatae",
+  "Source": 315,
+  "TextId": 610,
+  "UpdatedDate": "2018-10-14T03:41:59.0117535+02:00",
+  "UpdatedCount": 686,
+  "Visibility": 298,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 743,
-  "TargetTableName": "Jacobi LLC",
+  "TargetTableNumber": 588,
+  "TargetTableName": "Schmeler-Hane",
   "Completed": false,
-  "LeftSelectionId": 816,
-  "RightSelectionId": 735,
+  "LeftSelectionId": 931,
+  "RightSelectionId": 944,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Lynch LLC",
-  "ShadowProviderName": "Koss LLC",
-  "ChartKey": "eaque",
-  "LastLoaded": "2012-08-27T03:47:00.2849361+02:00",
-  "LastLoadedBy": 750,
+  "MainProviderName": "Bergnaum Group",
+  "ShadowProviderName": "Gerlach-Boyle",
+  "ChartKey": "veritatis",
+  "LastLoaded": "2008-10-31T03:41:59.0117535+01:00",
+  "LastLoadedBy": 37,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2000-07-12T03:47:00.2849361+02:00",
-  "LastMembershipChangeBy": 730,
+  "LastMembershipChange": "2008-08-08T03:41:59.0117535+02:00",
+  "LastMembershipChangeBy": 550,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "officiis",
-  "MemberTabHeading": "sequi",
-  "MailingsProviderName": "VonRueden LLC",
-  "DashboardTileDefinitionId": 500,
+  "MainHeading": "sapiente",
+  "MemberTabHeading": "aut",
+  "MailingsProviderName": "Windler Inc and Sons",
+  "DashboardTileDefinitionId": 436,
   "VisibleFor": [
     {
-      "VisibleId": 256,
+      "VisibleId": 136,
       "Visibility": "All",
-      "DisplayValue": "enim"
+      "DisplayValue": "doloribus"
     },
     {
-      "VisibleId": 256,
+      "VisibleId": 136,
       "Visibility": "All",
-      "DisplayValue": "enim"
+      "DisplayValue": "doloribus"
     }
   ]
 }
@@ -227,70 +227,70 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Secured intangible algorithm",
-  "Postit": "aperiam",
+  "Description": "Stand-alone solution-oriented portal",
+  "Postit": "non",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 35,
-  "IncludePerson": 241,
+  "GroupIdx": 348,
+  "IncludePerson": 951,
   "MemberCount": 99.99,
-  "Name": "Williamson-Shields",
-  "PostitTextId": 821,
-  "CreatedDate": "2019-11-15T03:47:00.2849361+01:00",
-  "SelectionId": 824,
-  "SoundEx": "nesciunt",
-  "Source": 142,
-  "TextId": 833,
-  "UpdatedDate": "2003-03-25T03:47:00.2849361+01:00",
-  "UpdatedCount": 548,
-  "Visibility": 170,
+  "Name": "Mante-Hansen",
+  "PostitTextId": 285,
+  "CreatedDate": "2002-09-06T03:41:59.0117535+02:00",
+  "SelectionId": 47,
+  "SoundEx": "error",
+  "Source": 130,
+  "TextId": 722,
+  "UpdatedDate": "2024-11-11T03:41:59.0117535+01:00",
+  "UpdatedCount": 386,
+  "Visibility": 252,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 474,
-  "TargetTableName": "Powlowski-Collier",
-  "Completed": false,
-  "LeftSelectionId": 66,
-  "RightSelectionId": 337,
+  "TargetTableNumber": 798,
+  "TargetTableName": "Parisian, Lubowitz and Legros",
+  "Completed": true,
+  "LeftSelectionId": 866,
+  "RightSelectionId": 586,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Stanton, Marks and Daugherty",
-  "ShadowProviderName": "Sipes Inc and Sons",
-  "ChartKey": "a",
-  "LastLoaded": "2016-09-23T03:47:00.2849361+02:00",
-  "LastLoadedBy": 972,
+  "MainProviderName": "Pouros, Veum and Nitzsche",
+  "ShadowProviderName": "Bartoletti-Rippin",
+  "ChartKey": "qui",
+  "LastLoaded": "2005-12-09T03:41:59.0117535+01:00",
+  "LastLoadedBy": 529,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-03-05T03:47:00.2849361+01:00",
-  "LastMembershipChangeBy": 160,
+  "LastMembershipChange": "2011-12-24T03:41:59.0117535+01:00",
+  "LastMembershipChangeBy": 161,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quos",
-  "MemberTabHeading": "ad",
-  "MailingsProviderName": "Schulist Group",
-  "DashboardTileDefinitionId": 127,
+  "MainHeading": "ipsum",
+  "MemberTabHeading": "reprehenderit",
+  "MailingsProviderName": "Lueilwitz, Mante and Howe",
+  "DashboardTileDefinitionId": 341,
   "VisibleFor": [
     {
-      "VisibleId": 878,
+      "VisibleId": 50,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 271
+          "FieldLength": 373
         }
       }
     },
     {
-      "VisibleId": 878,
+      "VisibleId": 50,
       "Visibility": "All",
-      "DisplayValue": "omnis",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 271
+          "FieldLength": 373
         }
       }
     }
@@ -300,7 +300,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 455
+      "FieldLength": 294
     }
   },
   "_Links": {

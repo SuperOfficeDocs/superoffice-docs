@@ -79,16 +79,16 @@ OK
 PUT /api/v1/List/Competitor/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 695,
-  "Name": "Luettgen Group",
-  "Tooltip": "itaque",
+  "Id": 569,
+  "Name": "Bashirian Inc and Sons",
+  "Tooltip": "voluptas",
   "Deleted": false,
-  "UdListDefinitionId": 947,
-  "Rank": 494
+  "UdListDefinitionId": 743,
+  "Rank": 795
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 74,
-  "Name": "Huels, Larson and Krajcik",
-  "Tooltip": "similique",
-  "Deleted": true,
-  "UdListDefinitionId": 179,
-  "Rank": 179,
+  "Id": 296,
+  "Name": "Feest Inc and Sons",
+  "Tooltip": "molestiae",
+  "Deleted": false,
+  "UdListDefinitionId": 705,
+  "Rank": 180,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldLength": 341
     }
   }
 }

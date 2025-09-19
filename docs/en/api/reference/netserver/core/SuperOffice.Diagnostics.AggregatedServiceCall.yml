@@ -10,6 +10,8 @@ items:
   - SuperOffice.Diagnostics.AggregatedServiceCall.DatabaseCalls
   - SuperOffice.Diagnostics.AggregatedServiceCall.DatabaseMilliseconds
   - SuperOffice.Diagnostics.AggregatedServiceCall.DatabaseRows
+  - SuperOffice.Diagnostics.AggregatedServiceCall.RawAgent
+  - SuperOffice.Diagnostics.AggregatedServiceCall.RawMethod
   langs:
   - csharp
   - vb
@@ -143,6 +145,48 @@ items:
       type: System.Int32
     content.vb: Public Property DatabaseMilliseconds As Integer
   overload: SuperOffice.Diagnostics.AggregatedServiceCall.DatabaseMilliseconds*
+- uid: SuperOffice.Diagnostics.AggregatedServiceCall.RawAgent
+  commentId: P:SuperOffice.Diagnostics.AggregatedServiceCall.RawAgent
+  id: RawAgent
+  parent: SuperOffice.Diagnostics.AggregatedServiceCall
+  langs:
+  - csharp
+  - vb
+  name: RawAgent
+  nameWithType: AggregatedServiceCall.RawAgent
+  fullName: SuperOffice.Diagnostics.AggregatedServiceCall.RawAgent
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public string RawAgent { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RawAgent As String
+  overload: SuperOffice.Diagnostics.AggregatedServiceCall.RawAgent*
+- uid: SuperOffice.Diagnostics.AggregatedServiceCall.RawMethod
+  commentId: P:SuperOffice.Diagnostics.AggregatedServiceCall.RawMethod
+  id: RawMethod
+  parent: SuperOffice.Diagnostics.AggregatedServiceCall
+  langs:
+  - csharp
+  - vb
+  name: RawMethod
+  nameWithType: AggregatedServiceCall.RawMethod
+  fullName: SuperOffice.Diagnostics.AggregatedServiceCall.RawMethod
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Diagnostics
+  syntax:
+    content: public string RawMethod { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property RawMethod As String
+  overload: SuperOffice.Diagnostics.AggregatedServiceCall.RawMethod*
 references:
 - uid: SuperOffice.Diagnostics
   commentId: N:SuperOffice.Diagnostics
@@ -910,3 +954,28 @@ references:
   name: DatabaseMilliseconds
   nameWithType: AggregatedServiceCall.DatabaseMilliseconds
   fullName: SuperOffice.Diagnostics.AggregatedServiceCall.DatabaseMilliseconds
+- uid: SuperOffice.Diagnostics.AggregatedServiceCall.RawAgent*
+  commentId: Overload:SuperOffice.Diagnostics.AggregatedServiceCall.RawAgent
+  isExternal: true
+  href: SuperOffice.Diagnostics.AggregatedServiceCall.html#SuperOffice_Diagnostics_AggregatedServiceCall_RawAgent
+  name: RawAgent
+  nameWithType: AggregatedServiceCall.RawAgent
+  fullName: SuperOffice.Diagnostics.AggregatedServiceCall.RawAgent
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.Diagnostics.AggregatedServiceCall.RawMethod*
+  commentId: Overload:SuperOffice.Diagnostics.AggregatedServiceCall.RawMethod
+  isExternal: true
+  href: SuperOffice.Diagnostics.AggregatedServiceCall.html#SuperOffice_Diagnostics_AggregatedServiceCall_RawMethod
+  name: RawMethod
+  nameWithType: AggregatedServiceCall.RawMethod
+  fullName: SuperOffice.Diagnostics.AggregatedServiceCall.RawMethod

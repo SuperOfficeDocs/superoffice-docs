@@ -69,15 +69,15 @@ No Content
 POST /api/v1/Agents/Person/SendConsentConfirmationEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 911,
-  "EmailAddress": "dalton@lynch.biz",
-  "EmailTemplateId": 201,
-  "CultureLcidId": 745,
-  "Subject": "animi"
+  "PersonId": 237,
+  "EmailAddress": "meredith_predovic@sipes.ca",
+  "EmailTemplateId": 936,
+  "CultureLcidId": 619,
+  "Subject": "et"
 }
 ```
 

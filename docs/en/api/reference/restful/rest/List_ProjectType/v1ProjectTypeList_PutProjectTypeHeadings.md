@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 650,
-    "Name": "Cartwright-Franecki",
-    "Tooltip": "qui",
+    "HeadingId": 628,
+    "Name": "Kris, McKenzie and Mohr",
+    "Tooltip": "nisi",
     "Deleted": true,
-    "Rank": 767,
-    "UdListDefinitionId": 481
+    "Rank": 70,
+    "UdListDefinitionId": 90
   },
   {
-    "HeadingId": 650,
-    "Name": "Cartwright-Franecki",
-    "Tooltip": "qui",
+    "HeadingId": 628,
+    "Name": "Kris, McKenzie and Mohr",
+    "Tooltip": "nisi",
     "Deleted": true,
-    "Rank": 767,
-    "UdListDefinitionId": 481
+    "Rank": 70,
+    "UdListDefinitionId": 90
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 973,
-    "Name": "Beatty, Williamson and Ratke",
-    "Tooltip": "error",
-    "Deleted": false,
-    "Rank": 61,
-    "UdListDefinitionId": 949,
+    "HeadingId": 695,
+    "Name": "Thiel LLC",
+    "Tooltip": "itaque",
+    "Deleted": true,
+    "Rank": 484,
+    "UdListDefinitionId": 753,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 894
+        "FieldLength": 162
       }
     }
   }

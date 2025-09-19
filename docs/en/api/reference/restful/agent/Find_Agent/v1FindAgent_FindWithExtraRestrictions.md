@@ -85,52 +85,52 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "officia",
-  "ProviderName": "Schulist-Leannon",
-  "StorageKey": "perspiciatis",
+  "StorageType": "sed",
+  "ProviderName": "Toy Group",
+  "StorageKey": "quia",
   "ExtraRestrictions": [
     {
-      "Name": "Jenkins-Lockman",
-      "Operator": "sit",
+      "Name": "Schumm LLC",
+      "Operator": "eaque",
       "Values": [
-        "in",
-        "repellendus"
+        "dolores",
+        "quo"
       ],
       "DisplayValues": [
-        "doloribus",
-        "numquam"
+        "reiciendis",
+        "officiis"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 335,
+      "InterParenthesis": 904,
       "InterOperator": "And",
-      "UniqueHash": 308
+      "UniqueHash": 38
     }
   ],
   "OrderBy": [
     {
-      "Name": "Cummerata-Romaguera",
+      "Name": "Hartmann, Metz and Ruecker",
       "Direction": "ASC"
     },
     {
-      "Name": "Cummerata-Romaguera",
+      "Name": "Hartmann, Metz and Ruecker",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "et",
-    "sunt"
+    "repellendus",
+    "sed"
   ],
-  "PageSize": 442,
-  "PageNumber": 454
+  "PageSize": 873,
+  "PageNumber": 156
 }
 ```
 
@@ -143,51 +143,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Gleason-Haley",
-      "DisplayTooltip": "et",
-      "DisplayType": "quia",
+      "DisplayName": "Ondricka Group",
+      "DisplayTooltip": "deleniti",
+      "DisplayType": "harum",
       "CanOrderBy": false,
-      "Name": "Kutch-Hodkiewicz",
+      "Name": "Kihn LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "quis",
-      "RestrictionListName": "Kuphal-Abbott",
-      "IsVisible": true,
-      "ExtraInfo": "vel",
-      "Width": "est",
-      "IconHint": "officia",
-      "HeadingIconHint": "voluptas"
+      "RestrictionType": "labore",
+      "RestrictionListName": "Yundt, Goodwin and Waelchi",
+      "IsVisible": false,
+      "ExtraInfo": "placeat",
+      "Width": "aliquam",
+      "IconHint": "quae",
+      "HeadingIconHint": "quo"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Prosacco Inc and Sons",
-      "PrimaryKey": 725,
+      "EntityName": "Heidenreich-Jacobi",
+      "PrimaryKey": 907,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "maiores",
-          "TooltipHint": "magni",
-          "LinkHint": "est"
+          "DisplayValue": "quo",
+          "TooltipHint": "veniam",
+          "LinkHint": "deleniti"
         }
       },
-      "LinkHint": "sed",
-      "StyleHint": "qui",
+      "LinkHint": "saepe",
+      "StyleHint": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 945
+          "FieldLength": 957
         }
       }
     }
   ],
-  "RowCount": 581,
+  "RowCount": 931,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldLength": 776
     }
   }
 }

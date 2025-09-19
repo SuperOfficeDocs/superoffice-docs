@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 989
+  "ErpSyncConnectionId": 773
 }
 ```
 
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Aufderhar-Torphy",
-  "DisplayDescription": "Sharable foreground instruction set",
+  "DisplayName": "Pacocha Group",
+  "DisplayDescription": "Devolved maximized time-frame",
   "Active": false,
   "Deleted": false,
-  "LastSync": "2012-11-20T03:46:54.8007556+01:00",
+  "LastSync": "2016-04-01T03:41:53.5588561+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "laudantium",
-      "Mappings": "cum",
+      "HasMappings": true,
+      "Defaults": "quibusdam",
+      "Mappings": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 601
+          "FieldType": "System.String",
+          "FieldLength": 879
         }
       }
     },
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "laudantium",
-      "Mappings": "cum",
+      "HasMappings": true,
+      "Defaults": "quibusdam",
+      "Mappings": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 601
+          "FieldType": "System.String",
+          "FieldLength": 879
         }
       }
     }
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldLength": 320
     }
   }
 }

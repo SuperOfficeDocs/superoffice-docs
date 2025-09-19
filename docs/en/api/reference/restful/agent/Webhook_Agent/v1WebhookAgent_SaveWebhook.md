@@ -90,32 +90,32 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 283,
-  "Name": "Walsh-Champlin",
+  "WebhookId": 9,
+  "Name": "Hahn LLC",
   "Events": [
-    "perferendis",
-    "voluptatem"
+    "similique",
+    "consequuntur"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "et",
+  "Secret": "tempore",
   "State": "Active",
-  "Type": "sit",
+  "Type": "repellat",
   "Headers": {
-    "Headers1": "velit",
-    "Headers2": "consequatur"
+    "Headers1": "consequatur",
+    "Headers2": "autem"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2024-06-04T03:46:55.6444757+02:00",
+  "Registered": "2001-03-18T03:41:54.3869476+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2018-05-01T03:46:55.6444757+02:00",
+  "Updated": "2019-01-05T03:41:54.3869476+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "maribel_jewess@lowe.info"
+  "ErrorsEmail": "benny.doyle@doyle.us"
 }
 ```
 
@@ -126,27 +126,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 11,
-  "Name": "Hartmann, Schmidt and Towne",
+  "WebhookId": 489,
+  "Name": "Olson Group",
   "Events": [
-    "sit",
-    "voluptate"
+    "vero",
+    "sunt"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "accusamus",
+  "Secret": "non",
   "State": "Active",
-  "Type": "maxime",
+  "Type": "iste",
   "Headers": {
-    "Headers1": "sed",
-    "Headers2": "voluptatem"
+    "Headers1": "sit",
+    "Headers2": "autem"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2016-07-09T03:46:55.6444757+02:00",
+  "Registered": "2001-06-01T03:41:54.3869476+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2009-06-12T03:46:55.6444757+02:00",
+  "Updated": "2017-01-15T03:41:54.3869476+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "jevon@osinski.name"
+  "ErrorsEmail": "deborah@greenkoepp.biz"
 }
 ```

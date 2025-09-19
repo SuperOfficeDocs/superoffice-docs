@@ -184,7 +184,7 @@ OK
 POST /api/v1/Agents/Appointment/SaveAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -192,106 +192,106 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2024-07-24T03:46:54.050783+02:00",
-  "AppointmentId": 740,
-  "Description": "Visionary foreground paradigm",
-  "Title": "sunt",
-  "Agenda": "iusto",
-  "InternalNotes": "fuga",
-  "StartDate": "2016-05-05T03:46:54.050783+02:00",
-  "EndDate": "2006-02-23T03:46:54.050783+01:00",
+  "CreatedDate": "2009-01-14T03:41:52.824511+01:00",
+  "AppointmentId": 284,
+  "Description": "Fundamental transitional encryption",
+  "Title": "voluptates",
+  "Agenda": "eum",
+  "InternalNotes": "praesentium",
+  "StartDate": "2024-05-22T03:41:52.824511+02:00",
+  "EndDate": "2008-04-27T03:41:52.824511+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 150,
+  "MotherId": 513,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2014-05-13T03:46:54.050783+02:00",
+  "UpdatedDate": "2010-05-17T03:41:52.8401356+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 511,
+  "ActiveLinks": 329,
   "Links": [
     {
-      "EntityName": "Olson-Sanford",
-      "Id": 815,
-      "Description": "Enterprise-wide reciprocal benchmark",
-      "ExtraInfo": "qui",
-      "LinkId": 581
+      "EntityName": "Gleichner-Lynch",
+      "Id": 817,
+      "Description": "Sharable transitional project",
+      "ExtraInfo": "doloremque",
+      "LinkId": 85
     },
     {
-      "EntityName": "Olson-Sanford",
-      "Id": 815,
-      "Description": "Enterprise-wide reciprocal benchmark",
-      "ExtraInfo": "qui",
-      "LinkId": 581
+      "EntityName": "Gleichner-Lynch",
+      "Id": 817,
+      "Description": "Sharable transitional project",
+      "ExtraInfo": "doloremque",
+      "LinkId": 85
     }
   ],
-  "AlarmLeadTime": "soluta",
-  "HasAlarm": false,
-  "ColorIndex": 115,
+  "AlarmLeadTime": "tempora",
+  "HasAlarm": true,
+  "ColorIndex": 125,
   "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "odio",
-  "LeadTime": "maxime",
-  "Location": "sequi",
-  "RejectCounter": 919,
+  "IsAlldayEvent": true,
+  "LagTime": "eum",
+  "LeadTime": "necessitatibus",
+  "Location": "est",
+  "RejectCounter": 182,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 515,
-      "PersonId": 235,
-      "ContactId": 146,
-      "EmailId": 954,
+      "AssociateId": 897,
+      "PersonId": 397,
+      "ContactId": 452,
+      "EmailId": 593,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "clementine_yost@kerluke.uk",
-      "Description": "Face to face bi-directional solution"
+      "EmailAddress": "kali.batz@lynch.info",
+      "Description": "Public-key explicit instruction set"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1998-04-15T03:46:54.050783+02:00",
+  "ActiveDate": "2014-12-06T03:41:52.8401356+01:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 537,
+  "PreferredTZLocation": 76,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 171,
+  "SuggestedAppointmentId": 224,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "omnis",
+  "CentralserviceVideomeetId": "ut",
   "UserDefinedFields": {
-    "SuperOffice:1": "1858885709",
-    "SuperOffice:2": "832871796"
+    "SuperOffice:1": "Dr. Ayana Josiah Lubowitz",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "deleniti",
-    "ExtraFields2": "dolor"
+    "ExtraFields1": "ab",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "vitae"
+    "CustomFields1": "alias",
+    "CustomFields2": "dolore"
   },
-  "PublishEventDate": "2015-08-10T03:46:54.050783+02:00",
-  "PublishTo": "2011-06-15T03:46:54.050783+02:00",
-  "PublishFrom": "2024-08-12T03:46:54.050783+02:00",
+  "PublishEventDate": "2004-02-02T03:41:52.8401356+01:00",
+  "PublishTo": "2013-02-15T03:41:52.8401356+01:00",
+  "PublishFrom": "2005-08-09T03:41:52.8401356+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 440,
+      "VisibleId": 109,
       "Visibility": "All",
-      "DisplayValue": "ipsam"
+      "DisplayValue": "voluptatem"
     },
     {
-      "VisibleId": 440,
+      "VisibleId": 109,
       "Visibility": "All",
-      "DisplayValue": "ipsam"
+      "DisplayValue": "voluptatem"
     }
   ]
 }
@@ -308,121 +308,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2000-07-15T03:46:54.050783+02:00",
-  "AppointmentId": 361,
-  "Description": "Enhanced mission-critical firmware",
-  "Title": "assumenda",
-  "Agenda": "dicta",
-  "InternalNotes": "facere",
-  "StartDate": "2015-04-17T03:46:54.050783+02:00",
-  "EndDate": "2005-11-23T03:46:54.050783+01:00",
+  "CreatedDate": "2024-06-26T03:41:52.8401356+02:00",
+  "AppointmentId": 665,
+  "Description": "Streamlined 24 hour benchmark",
+  "Title": "totam",
+  "Agenda": "consequatur",
+  "InternalNotes": "ut",
+  "StartDate": "2002-10-17T03:41:52.8401356+02:00",
+  "EndDate": "2005-05-29T03:41:52.8401356+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 810,
+  "MotherId": 202,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2022-06-03T03:46:54.050783+02:00",
+  "UpdatedDate": "2018-02-09T03:41:52.8401356+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 657,
+  "ActiveLinks": 626,
   "Links": [
     {
-      "EntityName": "Leffler-Cassin",
-      "Id": 830,
-      "Description": "Phased modular model",
-      "ExtraInfo": "dolor",
-      "LinkId": 466,
+      "EntityName": "Okuneva LLC",
+      "Id": 920,
+      "Description": "Phased zero administration alliance",
+      "ExtraInfo": "dolorem",
+      "LinkId": 408,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 19
+          "FieldType": "System.Int32",
+          "FieldLength": 502
         }
       }
     }
   ],
-  "AlarmLeadTime": "aperiam",
-  "HasAlarm": false,
-  "ColorIndex": 308,
-  "IsFree": false,
+  "AlarmLeadTime": "dolorem",
+  "HasAlarm": true,
+  "ColorIndex": 700,
+  "IsFree": true,
   "IsAlldayEvent": true,
-  "LagTime": "voluptatum",
-  "LeadTime": "et",
-  "Location": "debitis",
-  "RejectCounter": 125,
+  "LagTime": "ad",
+  "LeadTime": "rerum",
+  "Location": "et",
+  "RejectCounter": 429,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 437,
-      "PersonId": 536,
-      "ContactId": 114,
-      "EmailId": 346,
+      "AssociateId": 553,
+      "PersonId": 952,
+      "ContactId": 186,
+      "EmailId": 403,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "fredrick@blandafranecki.biz",
-      "Description": "Up-sized tertiary complexity"
+      "EmailAddress": "cleve_okuneva@sauer.uk",
+      "Description": "Reverse-engineered scalable adapter"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1998-04-16T03:46:54.050783+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2005-03-15T03:41:52.8401356+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 793,
+  "PreferredTZLocation": 827,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 695,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 474,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "error",
+  "CentralserviceVideomeetId": "sequi",
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Tristin Adeline Tillman",
-    "SuperOffice:2": "1525225211"
+    "SuperOffice:1": "2066610679",
+    "SuperOffice:2": "Lew Kirlin"
   },
   "ExtraFields": {
-    "ExtraFields1": "cupiditate",
-    "ExtraFields2": "quasi"
+    "ExtraFields1": "rerum",
+    "ExtraFields2": "inventore"
   },
   "CustomFields": {
-    "CustomFields1": "quas",
-    "CustomFields2": "eos"
+    "CustomFields1": "mollitia",
+    "CustomFields2": "dolores"
   },
-  "PublishEventDate": "2021-09-03T03:46:54.050783+02:00",
-  "PublishTo": "2003-06-08T03:46:54.050783+02:00",
-  "PublishFrom": "2004-03-24T03:46:54.050783+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2015-04-10T03:41:52.8401356+02:00",
+  "PublishTo": "1999-06-28T03:41:52.8401356+02:00",
+  "PublishFrom": "2020-04-29T03:41:52.8401356+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 979,
+      "VisibleId": 332,
       "Visibility": "All",
-      "DisplayValue": "aperiam",
+      "DisplayValue": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 655
+          "FieldType": "System.String",
+          "FieldLength": 126
         }
       }
     },
     {
-      "VisibleId": 979,
+      "VisibleId": 332,
       "Visibility": "All",
-      "DisplayValue": "aperiam",
+      "DisplayValue": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 655
+          "FieldType": "System.String",
+          "FieldLength": 126
         }
       }
     }
@@ -432,7 +432,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 787
+      "FieldLength": 64
     }
   }
 }

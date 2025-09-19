@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 814,
-    "Name": "Trantow-Daniel",
-    "Tooltip": "temporibus",
+    "Id": 133,
+    "Name": "Jerde-Rowe",
+    "Tooltip": "ipsam",
     "Deleted": false,
-    "UdListDefinitionId": 42,
-    "Rank": 604,
+    "UdListDefinitionId": 846,
+    "Rank": 745,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 454
+        "FieldLength": 223
       }
     }
   }

@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Goyette, Lueilwitz and Reichert",
-  "DeviceName": "Langosh, Runolfsdottir and Koelpin"
+  "ApplicationName": "Graham, Ankunding and Carter",
+  "DeviceName": "Hackett-Kuhic"
 }
 ```
 
@@ -99,20 +99,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "quis",
-    "Value": "ut",
-    "RecordId": 410,
-    "CreatedDate": "2018-08-28T03:46:54.9107593+02:00",
-    "UpdatedDate": "2021-11-13T03:46:54.9107593+01:00",
-    "UpdatedBy": "dolorem",
-    "CreatedBy": "vitae",
-    "TableName": "Collier, Reichel and Quitzon",
+    "Key": "eligendi",
+    "Value": "esse",
+    "RecordId": 368,
+    "CreatedDate": "2001-11-20T03:41:53.5901046+01:00",
+    "UpdatedDate": "2003-12-04T03:41:53.5901046+01:00",
+    "UpdatedBy": "aut",
+    "CreatedBy": "beatae",
+    "TableName": "Greenholt-Lind",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 457
+        "FieldType": "System.String",
+        "FieldLength": 80
       }
     }
   }

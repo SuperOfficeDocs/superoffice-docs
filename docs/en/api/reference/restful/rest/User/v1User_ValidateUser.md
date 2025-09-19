@@ -85,18 +85,18 @@ OK
 POST /api/v1/User/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 219,
-  "Name": "Koch Inc and Sons",
-  "Rank": 741,
-  "Tooltip": "officiis",
+  "AssociateId": 624,
+  "Name": "Dickens, Cole and Witting",
+  "Rank": 54,
+  "Tooltip": "ipsam",
   "LicenseOwners": [
     {
-      "Name": "Kozey Inc and Sons",
-      "Description": "Reverse-engineered tangible knowledge user",
+      "Name": "Hand-Kihn",
+      "Description": "Advanced web-enabled parallelism",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Kozey Inc and Sons",
-      "Description": "Reverse-engineered tangible knowledge user",
+      "Name": "Hand-Kihn",
+      "Description": "Advanced web-enabled parallelism",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -123,87 +123,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "qui",
-      "Tooltip": "et",
-      "Id": 419,
-      "Rank": 361,
-      "Deleted": true
+      "Value": "quis",
+      "Tooltip": "recusandae",
+      "Id": 842,
+      "Rank": 129,
+      "Deleted": false
     },
     {
-      "Value": "qui",
-      "Tooltip": "et",
-      "Id": 419,
-      "Rank": 361,
-      "Deleted": true
+      "Value": "quis",
+      "Tooltip": "recusandae",
+      "Id": 842,
+      "Rank": 129,
+      "Deleted": false
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "1999-06-23T03:47:00.5349272+02:00",
-  "Lastlogout": "2016-01-12T03:47:00.5349272+01:00",
-  "EjUserId": 791,
-  "RequestSignature": "aut",
+  "Lastlogin": "2022-12-07T03:41:59.2461185+01:00",
+  "Lastlogout": "2013-01-17T03:41:59.2461185+01:00",
+  "EjUserId": 959,
+  "RequestSignature": "ullam",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "reiciendis",
-      "DisplayValue": "temporibus"
+      "Value": "fugiat",
+      "DisplayValue": "saepe"
     },
     {
       "Type": null,
-      "Value": "reiciendis",
-      "DisplayValue": "temporibus"
+      "Value": "fugiat",
+      "DisplayValue": "saepe"
     }
   ],
-  "UserName": "Smitham-Kessler",
+  "UserName": "Volkman Inc and Sons",
   "TicketCategories": [
     {
-      "Id": 470,
-      "Name": "Turner-Kuhic",
-      "ToolTip": "Quae numquam et sit quia reiciendis.",
-      "Deleted": false,
-      "Rank": 101,
-      "Type": "error",
+      "Id": 984,
+      "Name": "O'Keefe Inc and Sons",
+      "ToolTip": "Consequatur voluptatibus.",
+      "Deleted": true,
+      "Rank": 364,
+      "Type": "iste",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quo",
-      "ColorBlock": 736,
-      "ExtraInfo": "ullam",
-      "StyleHint": "impedit",
-      "FullName": "Jude Fahey"
+      "IconHint": "non",
+      "ColorBlock": 184,
+      "ExtraInfo": "aut",
+      "StyleHint": "vitae",
+      "FullName": "Dr. Jaydon Cummerata"
     }
   ],
-  "NickName": "Kilback-Maggio",
-  "WaitingForApproval": false,
+  "NickName": "Effertz Inc and Sons",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "officia",
-    "ExtraFields2": "cum"
+    "ExtraFields1": "fuga",
+    "ExtraFields2": "similique"
   },
   "CustomFields": {
-    "CustomFields1": "voluptate",
-    "CustomFields2": "quas"
+    "CustomFields1": "voluptatem",
+    "CustomFields2": "nihil"
   },
   "PostSaveCommands": [
     {
-      "Name": "Harris LLC",
-      "DisplayName": "Morar Inc and Sons",
-      "Description": "Adaptive encompassing policy",
-      "ToolTip": "Eum earum qui odit itaque.",
+      "Name": "Greenfelder-Hane",
+      "DisplayName": "Mann-Kiehn",
+      "Description": "Customizable dedicated complexity",
+      "ToolTip": "Distinctio ut sed neque dolor similique.",
       "Actions": "Implicit",
-      "ActionData": "dignissimos"
+      "ActionData": "veniam"
     },
     {
-      "Name": "Harris LLC",
-      "DisplayName": "Morar Inc and Sons",
-      "Description": "Adaptive encompassing policy",
-      "ToolTip": "Eum earum qui odit itaque.",
+      "Name": "Greenfelder-Hane",
+      "DisplayName": "Mann-Kiehn",
+      "Description": "Customizable dedicated complexity",
+      "ToolTip": "Distinctio ut sed neque dolor similique.",
       "Actions": "Implicit",
-      "ActionData": "dignissimos"
+      "ActionData": "veniam"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "dolorum",
-  "2": "ipsam"
+  "1": "consequatur",
+  "2": "nesciunt"
 }
 ```

@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Turcotte-Treutel",
-  "ListItemId": 813
+  "UdListDefinitionName": "Glover LLC",
+  "ListItemId": 349
 }
 ```
 
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 371,
-    "Name": "Jacobs Inc and Sons",
-    "ToolTip": "At et impedit sequi sed perferendis porro.",
+    "Id": 234,
+    "Name": "Douglas Group",
+    "ToolTip": "Est illum reiciendis aut.",
     "Deleted": false,
-    "Rank": 668,
-    "Type": "rerum",
-    "ColorBlock": 466,
-    "IconHint": "quia",
-    "Selected": true,
-    "LastChanged": "2012-08-07T03:46:54.9882491+02:00",
+    "Rank": 661,
+    "Type": "iusto",
+    "ColorBlock": 537,
+    "IconHint": "dignissimos",
+    "Selected": false,
+    "LastChanged": "2022-12-19T03:41:53.7307246+01:00",
     "ChildItems": [
       {
-        "Id": 953,
-        "Name": "Halvorson-Block",
-        "ToolTip": "Nostrum aliquam odio neque exercitationem.",
+        "Id": 676,
+        "Name": "Bradtke-Bosco",
+        "ToolTip": "Architecto corporis eaque rerum similique.",
         "Deleted": false,
-        "Rank": 615,
-        "Type": "illo",
-        "ColorBlock": 527,
-        "IconHint": "vel",
-        "Selected": true,
-        "LastChanged": "2018-10-28T03:46:54.9882491+01:00",
+        "Rank": 876,
+        "Type": "cumque",
+        "ColorBlock": 855,
+        "IconHint": "quis",
+        "Selected": false,
+        "LastChanged": "2014-11-09T03:41:53.7307246+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "quia",
-        "Hidden": false,
-        "FullName": "Rylee Weimann",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "incidunt",
+        "Hidden": true,
+        "FullName": "Prof. Leanne Erica Stiedemann DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 41
+            "FieldLength": 282
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "in",
+    "ExtraInfo": "eius",
+    "StyleHint": "enim",
     "Hidden": false,
-    "FullName": "Macy Gutmann",
+    "FullName": "Clare Heller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 104
+        "FieldLength": 748
       }
     }
   }

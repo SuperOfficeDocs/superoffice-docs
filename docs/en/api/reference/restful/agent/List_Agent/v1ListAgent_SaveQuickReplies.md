@@ -71,14 +71,14 @@ Content-Type: application/json; charset=utf-8
 {
   "QuickReplies": [
     {
-      "QuickReplyId": 409,
-      "Name": "Ritchie-Reichert",
-      "HtmlBody": "non"
+      "QuickReplyId": 592,
+      "Name": "Kutch LLC",
+      "HtmlBody": "et"
     },
     {
-      "QuickReplyId": 409,
-      "Name": "Ritchie-Reichert",
-      "HtmlBody": "non"
+      "QuickReplyId": 592,
+      "Name": "Kutch LLC",
+      "HtmlBody": "et"
     }
   ]
 }

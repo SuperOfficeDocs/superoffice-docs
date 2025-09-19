@@ -43,8 +43,8 @@ Selection detail table  Each row in a selection is represented by one record in 
 
 | Table|  Description |
 |------|-------------|
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[contact](contact.md)  |Companies and Organizations. |
+|[person](person.md)  |Persons |
 |[selection](selection.md)  |Selections |
 
 

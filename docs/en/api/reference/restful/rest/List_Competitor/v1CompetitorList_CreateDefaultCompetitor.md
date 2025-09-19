@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Competitor/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 558,
-  "Name": "Rosenbaum-Fahey",
-  "Tooltip": "aspernatur",
+  "Id": 160,
+  "Name": "Maggio-Barton",
+  "Tooltip": "quod",
   "Deleted": false,
-  "UdListDefinitionId": 91,
-  "Rank": 972,
+  "UdListDefinitionId": 353,
+  "Rank": 486,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 828
+      "FieldLength": 681
     }
   }
 }

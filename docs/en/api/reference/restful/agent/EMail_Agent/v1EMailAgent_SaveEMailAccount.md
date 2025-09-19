@@ -88,22 +88,22 @@ OK
 POST /api/v1/Agents/EMail/SaveEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 661,
-  "EMailAddress": "odit",
-  "AssociateId": 621,
+  "EMailAccountId": 23,
+  "EMailAddress": "inventore",
+  "AssociateId": 448,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 832,
-  "ErrorCount": 278,
+  "AccountStatus": 665,
+  "ErrorCount": 73,
   "ErrorReason": "",
-  "InboxFolder": "unde",
-  "SentFolder": "ratione",
-  "SimpleMode": 452,
-  "LastFetch": "2019-03-28T03:46:54.7538824+01:00"
+  "InboxFolder": "eum",
+  "SentFolder": "a",
+  "SimpleMode": 814,
+  "LastFetch": "2007-08-13T03:41:53.4963592+02:00"
 }
 ```
 
@@ -114,24 +114,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 430,
-  "EMailAddress": "alias",
-  "AssociateId": 453,
+  "EMailAccountId": 229,
+  "EMailAddress": "commodi",
+  "AssociateId": 307,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 400,
-  "ErrorCount": 308,
-  "ErrorReason": "evolve integrated users",
-  "InboxFolder": "similique",
-  "SentFolder": "sit",
-  "SimpleMode": 977,
-  "LastFetch": "2003-03-16T03:46:54.7538824+01:00",
+  "AccountStatus": 239,
+  "ErrorCount": 928,
+  "ErrorReason": "",
+  "InboxFolder": "eum",
+  "SentFolder": "esse",
+  "SimpleMode": 772,
+  "LastFetch": "2003-07-06T03:41:53.4963592+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 75
+      "FieldType": "System.Int32",
+      "FieldLength": 904
     }
   }
 }

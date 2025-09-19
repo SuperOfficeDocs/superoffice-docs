@@ -81,28 +81,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AccountId": 199,
-    "AssociateName": "Willms LLC",
-    "AssociateId": 123,
+    "AccountId": 468,
+    "AssociateName": "Schoen-Deckow",
+    "AssociateId": 457,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 702
+        "FieldType": "System.String",
+        "FieldLength": 204
       }
     }
   },
   {
-    "AccountId": 199,
-    "AssociateName": "Willms LLC",
-    "AssociateId": 123,
+    "AccountId": 468,
+    "AssociateName": "Schoen-Deckow",
+    "AssociateId": 457,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 702
+        "FieldType": "System.String",
+        "FieldLength": 204
       }
     }
   }

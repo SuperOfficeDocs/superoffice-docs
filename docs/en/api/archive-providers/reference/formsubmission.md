@@ -480,7 +480,7 @@ Archive provider for listing form submissions
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmission?$select=person/associateType,person/updatedByWorkflow,person/personMobilePhone/formattedNumber,person/personAssociate/middleName,person/correspondingAssociate/assocType
+GET /api/v1/archive/FormSubmission?$select=person/email/emailDescription,person/personExtra/x_person_boolean,contact/streetAddress/line1,contact/contactAssociate/mrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

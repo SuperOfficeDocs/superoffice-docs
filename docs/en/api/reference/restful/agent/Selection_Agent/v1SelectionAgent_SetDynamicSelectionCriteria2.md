@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 810,
-  "Filter": "velit"
+  "SelectionId": 673,
+  "Filter": "incidunt"
 }
 ```
 
@@ -101,44 +101,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Trantow, Ortiz and Volkman",
-    "Operator": "consectetur",
+    "Name": "Rau-Bahringer",
+    "Operator": "alias",
     "Values": [
-      "sapiente",
-      "rerum"
+      "corporis",
+      "molestiae"
     ],
     "DisplayValues": [
-      "qui",
-      "dolores"
+      "sit",
+      "consequatur"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Pagac Group",
-        "Operator": "qui",
+        "Name": "Bogisich Inc and Sons",
+        "Operator": "eos",
         "Values": [
-          "facere",
-          "ab"
+          "quibusdam",
+          "dolor"
         ],
         "DisplayValues": [
-          "non",
-          "eveniet"
+          "rem",
+          "voluptatem"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 732,
+        "InterParenthesis": 458,
         "InterOperator": "And",
-        "UniqueHash": 105
+        "UniqueHash": 901
       }
     ],
-    "InterParenthesis": 884,
+    "InterParenthesis": 314,
     "InterOperator": "And",
-    "UniqueHash": 175
+    "UniqueHash": 26
   }
 ]
 ```

@@ -27,7 +27,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=776
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=808
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,41 +87,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 153,
-  "Name": "McGlynn, Pollich and Feil",
-  "Tooltip": "id",
-  "Rank": 429,
+  "ProjTypeId": 148,
+  "Name": "Feil-Fadel",
+  "Tooltip": "voluptas",
+  "Rank": 396,
   "DurationUnit": "Century",
-  "ProjectDuration": 403,
-  "Deleted": false,
-  "HasGuide": false,
+  "ProjectDuration": 220,
+  "Deleted": true,
+  "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 217,
-      "Name": "Pouros-Keeling",
-      "ToolTip": "Nisi consequatur nihil qui libero nemo.",
+      "Id": 505,
+      "Name": "Stehr, Rolfson and Medhurst",
+      "ToolTip": "Ut et laudantium veritatis eligendi quisquam occaecati.",
       "Deleted": false,
-      "Rank": 744,
-      "Type": "sit",
-      "ColorBlock": 877,
-      "IconHint": "veniam",
-      "Selected": true,
-      "LastChanged": "2002-04-12T03:46:54.9413809+02:00",
+      "Rank": 442,
+      "Type": "minima",
+      "ColorBlock": 316,
+      "IconHint": "suscipit",
+      "Selected": false,
+      "LastChanged": "1999-08-14T03:41:53.6213534+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "earum",
-      "StyleHint": "debitis",
+      "ExtraInfo": "et",
+      "StyleHint": "soluta",
       "Hidden": false,
-      "FullName": "Clark McDermott DVM",
+      "FullName": "Mateo Hammes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 85
+          "FieldLength": 609
         }
       }
     }
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 780
+      "FieldLength": 606
     }
   }
 }

@@ -41,9 +41,9 @@ This table is used temporarily when listing invoice statistics. It is used becau
 
 | Table|  Description |
 |------|-------------|
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 |[login](login.md)  |This table contains entries for the user sessions.  |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 
 
 ## Replication Flags

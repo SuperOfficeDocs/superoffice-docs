@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hills, Schumm and Hyatt"
+  "Name": "Larson, Murray and Kuvalis"
 }
 ```
 
@@ -94,17 +94,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Sipes-Beer",
-    "SoPrimaryKey": 575,
-    "EntryName": "Prohaska-Bosco",
-    "EntryIdentifier": "expedita",
-    "RuleDisplayName": "Auer Inc and Sons",
+    "RuleName": "Kuvalis Inc and Sons",
+    "SoPrimaryKey": 112,
+    "EntryName": "Ullrich Inc and Sons",
+    "EntryIdentifier": "consectetur",
+    "RuleDisplayName": "Kohler-Kertzmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1002
+        "FieldLength": 181
       }
     }
   }

@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kreiger Inc and Sons"
+  "Name": "Leannon, Hane and Carter"
 }
 ```
 
@@ -101,50 +101,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 154,
-    "Name": "Feeney, Runolfsson and Stoltenberg",
-    "ToolTip": "Voluptates totam eum.",
+    "Id": 43,
+    "Name": "Waters-Bode",
+    "ToolTip": "Praesentium velit mollitia.",
     "Deleted": false,
-    "Rank": 181,
-    "Type": "in",
+    "Rank": 790,
+    "Type": "autem",
     "ChildItems": [
       {
-        "Id": 160,
-        "Name": "Yost Inc and Sons",
-        "ToolTip": "Optio eos.",
+        "Id": 632,
+        "Name": "Cormier Inc and Sons",
+        "ToolTip": "Quidem architecto nulla dicta.",
         "Deleted": false,
-        "Rank": 746,
-        "Type": "sequi",
+        "Rank": 40,
+        "Type": "dicta",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eos",
-        "ColorBlock": 821,
-        "ExtraInfo": "sequi",
-        "StyleHint": "et",
-        "FullName": "Naomi Cronin",
+        "IconHint": "quia",
+        "ColorBlock": 477,
+        "ExtraInfo": "vitae",
+        "StyleHint": "in",
+        "FullName": "Breanne Abshire",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 264
+            "FieldType": "System.Int32",
+            "FieldLength": 134
           }
         }
       }
     ],
-    "IconHint": "sunt",
-    "ColorBlock": 732,
-    "ExtraInfo": "eveniet",
-    "StyleHint": "nam",
-    "FullName": "Prof. Vergie Runte",
+    "IconHint": "aliquam",
+    "ColorBlock": 767,
+    "ExtraInfo": "sit",
+    "StyleHint": "fugiat",
+    "FullName": "Loy Hackett",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 651
+        "FieldType": "System.String",
+        "FieldLength": 225
       }
     }
   }

@@ -119,6 +119,8 @@ ProjectMember  updated.
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -129,18 +131,18 @@ ProjectMember  updated.
 PATCH /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "hic",
+    "path": "aliquid",
     "value": {}
   },
   {
     "op": "add",
-    "path": "hic",
+    "path": "aliquid",
     "value": {}
   }
 ]
@@ -153,38 +155,40 @@ HTTP/1.1 200 ProjectMember  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 455,
-  "ContactId": 285,
-  "ProjectId": 173,
-  "ContactName": "Bins-Walter",
+  "ProjectmemberId": 20,
+  "ContactId": 678,
+  "ProjectId": 422,
+  "ContactName": "Waters Inc and Sons",
   "ContactDepartment": "",
-  "ProjectName": "Reichert Inc and Sons",
-  "EmailId": 25,
-  "EmailAddress": "earl@corkery.name",
-  "CountryId": 919,
-  "Firstname": "Nathen",
-  "MiddleName": "Hoppe Inc and Sons",
-  "Lastname": "Metz",
-  "PersonId": 166,
-  "Mrmrs": "nesciunt",
-  "ProjectMemberTypeName": "Hayes LLC",
-  "Phone": "551-966-2810",
-  "PhoneId": 415,
-  "ProjectMemberTypeId": 469,
-  "EmailAddressName": "brooklyn@stehrzemlak.name",
-  "Comment": "qui",
-  "FullName": "Dr. Lauryn Mills",
+  "ProjectName": "Schuster, Gottlieb and Deckow",
+  "EmailId": 641,
+  "EmailAddress": "keira@kreigercummings.com",
+  "CountryId": 486,
+  "Firstname": "Tevin",
+  "MiddleName": "Reichert Group",
+  "Lastname": "Funk",
+  "PersonId": 894,
+  "Mrmrs": "sapiente",
+  "ProjectMemberTypeName": "Johnson-Wiegand",
+  "Phone": "(017)693-8116",
+  "PhoneId": 204,
+  "ProjectMemberTypeId": 808,
+  "EmailAddressName": "madisyn@priceweimann.co.uk",
+  "Comment": "corrupti",
+  "FullName": "Dr. Katarina Reina Hessel",
+  "Registered": "2009-02-15T03:41:59.2148698+01:00",
+  "Updated": "2015-02-27T03:41:59.2148698+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldType": "System.String",
+      "FieldLength": 279
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

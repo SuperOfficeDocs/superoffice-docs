@@ -80,27 +80,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Flatley-Nicolas",
+  "UdListDefinitionName": "Gutkowski, Gorczany and Labadie",
   "Items": [
     {
-      "Id": 139,
-      "Name": "Pollich, Emard and Franecki",
-      "Tooltip": "deserunt",
+      "Id": 360,
+      "Name": "Swaniawski Group",
+      "Tooltip": "enim",
       "Deleted": false,
-      "UdListDefinitionId": 632,
-      "Rank": 600
+      "UdListDefinitionId": 47,
+      "Rank": 539
     },
     {
-      "Id": 139,
-      "Name": "Pollich, Emard and Franecki",
-      "Tooltip": "deserunt",
+      "Id": 360,
+      "Name": "Swaniawski Group",
+      "Tooltip": "enim",
       "Deleted": false,
-      "UdListDefinitionId": 632,
-      "Rank": 600
+      "UdListDefinitionId": 47,
+      "Rank": 539
     }
   ]
 }
@@ -114,18 +114,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 328,
-    "Name": "Kovacek-Corkery",
-    "Tooltip": "corporis",
-    "Deleted": false,
-    "UdListDefinitionId": 84,
-    "Rank": 768,
+    "Id": 347,
+    "Name": "Turner Inc and Sons",
+    "Tooltip": "accusamus",
+    "Deleted": true,
+    "UdListDefinitionId": 582,
+    "Rank": 900,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 854
+        "FieldLength": 470
       }
     }
   }

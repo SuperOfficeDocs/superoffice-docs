@@ -90,7 +90,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,60 +100,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 49,
-  "Name": "Bayer, Doyle and Olson",
+  "TicketPriorityId": 544,
+  "Name": "Grant, Bode and Rice",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 733,
+  "SortOrder": 217,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 201,
-  "MonStart": "2013-09-07T03:47:00.9099142+02:00",
-  "MonStop": "2001-09-06T03:47:00.9099142+02:00",
-  "TueStart": "1999-10-11T03:47:00.9099142+02:00",
-  "TueStop": "2009-08-18T03:47:00.9099142+02:00",
-  "WedStart": "2006-04-26T03:47:00.9099142+02:00",
-  "WedStop": "2006-05-23T03:47:00.9099142+02:00",
-  "ThuStart": "2004-03-20T03:47:00.9099142+01:00",
-  "ThuStop": "2009-08-07T03:47:00.9099142+02:00",
-  "FriStart": "2024-01-15T03:47:00.9099142+01:00",
-  "FriStop": "2016-12-18T03:47:00.9099142+01:00",
-  "SatStart": "2019-12-31T03:47:00.9099142+01:00",
-  "SatStop": "2001-12-05T03:47:00.9099142+01:00",
-  "SunStart": "2002-06-05T03:47:00.9099142+02:00",
-  "SunStop": "2021-04-21T03:47:00.9099142+02:00",
+  "Deadline": 28,
+  "MonStart": "2024-02-04T03:41:59.6367262+01:00",
+  "MonStop": "2000-01-21T03:41:59.6367262+01:00",
+  "TueStart": "2005-04-27T03:41:59.6367262+02:00",
+  "TueStop": "2005-10-01T03:41:59.6367262+02:00",
+  "WedStart": "2000-05-02T03:41:59.6367262+02:00",
+  "WedStop": "2012-09-27T03:41:59.6367262+02:00",
+  "ThuStart": "2024-04-12T03:41:59.6367262+02:00",
+  "ThuStop": "2004-10-20T03:41:59.6367262+02:00",
+  "FriStart": "2018-11-12T03:41:59.6367262+01:00",
+  "FriStop": "2015-12-22T03:41:59.6367262+01:00",
+  "SatStart": "2011-04-06T03:41:59.6367262+02:00",
+  "SatStop": "2012-11-27T03:41:59.6367262+01:00",
+  "SunStart": "2005-07-05T03:41:59.6367262+02:00",
+  "SunStop": "2010-03-30T03:41:59.6367262+02:00",
   "NonDates": [
-    "cum",
-    "aliquam"
+    "et",
+    "aut"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 822,
-      "AlertLevel": 659,
-      "AlertTimeout": 697,
-      "Action": 697,
-      "DelegateTo": 175,
-      "ScriptId": 556,
-      "EmailTo": "daron_miller@gutkowski.ca",
-      "SmsTo": "repellat",
-      "ReplyTemplateIdCustomer": 405,
-      "ReplyTemplateIdUser": 933,
-      "ReplyTemplateIdCatmast": 287,
-      "ReplyTemplateIdEmail": 427,
-      "RtiCustomerSms": 802,
-      "ReplyTemplateIdUserSms": 273,
-      "ReplyTemplateIdCatmastSms": 240,
-      "ReplyTemplateIdSms": 131,
+      "TicketAlertId": 820,
+      "AlertLevel": 118,
+      "AlertTimeout": 757,
+      "Action": 738,
+      "DelegateTo": 507,
+      "ScriptId": 829,
+      "EmailTo": "david@feest.info",
+      "SmsTo": "et",
+      "ReplyTemplateIdCustomer": 616,
+      "ReplyTemplateIdUser": 368,
+      "ReplyTemplateIdCatmast": 994,
+      "ReplyTemplateIdEmail": 107,
+      "RtiCustomerSms": 853,
+      "ReplyTemplateIdUserSms": 620,
+      "ReplyTemplateIdCatmastSms": 908,
+      "ReplyTemplateIdSms": 185,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 45
+          "FieldLength": 634
         }
       }
     }
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 705
+      "FieldLength": 543
     }
   }
 }

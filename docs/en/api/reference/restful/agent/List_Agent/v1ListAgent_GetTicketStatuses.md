@@ -83,8 +83,8 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 508,
-    "Name": "Barton, Oberbrunner and Wyman",
+    "TicketStatusId": 413,
+    "Name": "Paucek-Osinski",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": false,
@@ -95,7 +95,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 135
+        "FieldLength": 221
       }
     }
   }

@@ -103,7 +103,7 @@ Employees, resources and other users - except for External persons
 |[ConsentPerson](consentperson.md)  |Link table that defines who has which consents |
 |[ConsentPurpose](consentpurpose.md)  |GDPR purpose alternatives |
 |[ConsentSource](consentsource.md)  |Consent source for GDPR |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 |[contactinterest](contactinterest.md)  |Link-table between contact and interests in ContInt |
 |[ContInt](contint.md)  |ContInt list table. List-text of all valid contact interest types. |
 |[ContIntGroupLink](contintgrouplink.md)  |User group link table for ContInt, for MDO item hiding |
@@ -216,7 +216,7 @@ Employees, resources and other users - except for External persons
 |[PersInt](persint.md)  |PersInt list table. List of Person interests. |
 |[PersIntGroupLink](persintgrouplink.md)  |User group link table for PersInt, for MDO item hiding |
 |[PersIntHeadingLink](persintheadinglink.md)  |Heading link table for PersInt, for MDO headers |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 |[personinterest](personinterest.md)  |Note: If you add or remove rows in this table, you will need to update the interestCount field in the person table accordingly. This field should always reflect the number of interest records a person has, to enable the correct setting of the interest indicator on the tab in the person dialog.  Replication note: The combination of person_id and pinterest_idx is unique. If a duplicate is made on a replicated database, the system will replace the record in the target database with the one derived from the source database during replication. Therefore, do not assume that a record in this table will retain its ID indefinitely, even if the person keeps the interest. |
 |[PersPos](perspos.md)  |PersPos list table. Contact person position list |
 |[PersPosGroupLink](persposgrouplink.md)  |User group link table for PersPos, for MDO item hiding |

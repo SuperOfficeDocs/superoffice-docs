@@ -74,11 +74,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseStatusFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "O'Reilly, Schneider and Waters"
+  "OwnerName": "Barton-Conn"
 }
 ```
 
@@ -90,7 +90,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "LicenseStatus": "NewCompanyNameAvailable",
-  "Message": "reiciendis",
+  "Message": "omnis",
   "Url": "http://www.example.com/"
 }
 ```

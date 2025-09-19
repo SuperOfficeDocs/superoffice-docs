@@ -67,7 +67,7 @@ OK
 GET /api/v1/Hierarchy/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,46 +77,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 435,
+  "HierarchyId": 313,
   "Domain": "Dashboards",
-  "Name": "Goyette-Braun",
-  "Fullname": "molestias",
-  "ParentId": 522,
+  "Name": "Mills, Donnelly and Walter",
+  "Fullname": "ut",
+  "ParentId": 223,
   "Children": [
     {
-      "HierarchyId": 500,
+      "HierarchyId": 338,
       "Domain": "Dashboards",
-      "Name": "Thiel, Lang and Kilback",
-      "Fullname": "voluptatem",
-      "ParentId": 431,
+      "Name": "West-Bosco",
+      "Fullname": "aliquam",
+      "ParentId": 816,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2013-11-25T03:47:00.0349452+01:00",
-      "RegisteredAssociateId": 601,
-      "Updated": "2009-02-11T03:47:00.0349452+01:00",
-      "UpdatedAssociateId": 963,
+      "Registered": "2001-03-07T03:41:58.7617712+01:00",
+      "RegisteredAssociateId": 629,
+      "Updated": "2002-01-04T03:41:58.7617712+01:00",
+      "UpdatedAssociateId": 537,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 281
+          "FieldLength": 204
         }
       }
     }
   ],
-  "Registered": "2002-07-06T03:47:00.0349452+02:00",
-  "RegisteredAssociateId": 292,
-  "Updated": "2002-05-28T03:47:00.0349452+02:00",
-  "UpdatedAssociateId": 960,
+  "Registered": "2006-04-15T03:41:58.7617712+02:00",
+  "RegisteredAssociateId": 354,
+  "Updated": "2002-07-07T03:41:58.7617712+02:00",
+  "UpdatedAssociateId": 921,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldLength": 747
     }
   }
 }

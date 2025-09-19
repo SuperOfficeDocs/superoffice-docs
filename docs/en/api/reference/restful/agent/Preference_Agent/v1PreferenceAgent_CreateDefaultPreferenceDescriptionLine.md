@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 362,
-  "PrefDescId": 924,
-  "PrefValue": "eos",
-  "PrefShowValue": "qui",
-  "Description": "De-engineered uniform hub",
-  "IsBuiltin": true,
+  "PrefDescLineId": 620,
+  "PrefDescId": 307,
+  "PrefValue": "optio",
+  "PrefShowValue": "cupiditate",
+  "Description": "Robust dedicated concept",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 927
+      "FieldType": "System.String",
+      "FieldLength": 140
     }
   }
 }

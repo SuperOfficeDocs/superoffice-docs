@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "commodi",
-  "ProviderName": "Kessler, Kerluke and Kemmer",
-  "StorageKey": "soluta"
+  "StorageType": "sint",
+  "ProviderName": "Towne, Gorczany and Halvorson",
+  "StorageKey": "voluptas"
 }
 ```
 
@@ -106,19 +106,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Bogan-Ankunding",
-    "DisplayTooltip": "et",
-    "DisplayType": "ipsum",
+    "DisplayName": "Dach LLC",
+    "DisplayTooltip": "aut",
+    "DisplayType": "maiores",
     "CanOrderBy": false,
-    "Name": "Mosciski Inc and Sons",
-    "CanRestrictBy": true,
-    "RestrictionType": "rerum",
-    "RestrictionListName": "Kshlerin-Halvorson",
-    "IsVisible": true,
-    "ExtraInfo": "error",
-    "Width": "beatae",
-    "IconHint": "ad",
-    "HeadingIconHint": "tenetur"
+    "Name": "Hermiston Group",
+    "CanRestrictBy": false,
+    "RestrictionType": "tempora",
+    "RestrictionListName": "Frami-McKenzie",
+    "IsVisible": false,
+    "ExtraInfo": "omnis",
+    "Width": "asperiores",
+    "IconHint": "a",
+    "HeadingIconHint": "molestiae"
   }
 ]
 ```

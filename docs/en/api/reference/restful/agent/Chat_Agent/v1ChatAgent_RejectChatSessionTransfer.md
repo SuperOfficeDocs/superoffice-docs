@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Chat/RejectChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 872
+  "ChatSessionId": 353
 }
 ```
 
@@ -122,42 +122,42 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ChatSessionId": 538,
-  "TopicId": 253,
+  "TopicId": 578,
   "User": null,
   "Person": null,
-  "CustomerAlias": "voluptatum",
-  "CustomerHost": "pariatur",
-  "CustomerName": "Hand Inc and Sons",
-  "CustomerEmail": "hester@hills.us",
-  "CustomerPhone": "1-441-726-7768 x924",
+  "CustomerAlias": "sunt",
+  "CustomerHost": "minus",
+  "CustomerName": "Barrows, Zulauf and Jacobi",
+  "CustomerEmail": "brannon.russel@watsica.name",
+  "CustomerPhone": "608-911-8125 x490",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Welch-McClure",
+  "CustomerCompanyName": "Yundt, Mohr and Ernser",
   "Status": "Closed",
-  "FirstMessage": "cumque",
-  "LastMessage": "atque",
-  "WhenRequested": "2019-05-19T03:46:54.3632712+02:00",
-  "WhenStarted": "2016-03-17T03:46:54.3632712+01:00",
-  "WhenEnded": "2008-04-26T03:46:54.3632712+02:00",
-  "WhenIdle": "2017-01-11T03:46:54.3632712+01:00",
-  "WhenFetched": "2018-03-08T03:46:54.3632712+01:00",
-  "SessionKey": "ut",
-  "InitialQueuePos": 710,
-  "AlertLevel": 631,
-  "Rank": 544,
+  "FirstMessage": "possimus",
+  "LastMessage": "aut",
+  "WhenRequested": "2005-05-23T03:41:53.1369995+02:00",
+  "WhenStarted": "2023-09-18T03:41:53.1369995+02:00",
+  "WhenEnded": "2000-06-12T03:41:53.1369995+02:00",
+  "WhenIdle": "2005-04-29T03:41:53.1369995+02:00",
+  "WhenFetched": "2018-10-28T03:41:53.1369995+01:00",
+  "SessionKey": "illo",
+  "InitialQueuePos": 475,
+  "AlertLevel": 75,
+  "Rank": 882,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 926,
+  "ChatbotIsActive": false,
+  "Rating": 448,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 821
+      "FieldLength": 120
     }
   }
 }

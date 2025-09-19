@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,49 +76,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 729,
-  "Field": "id",
-  "RecordId": 968,
+  "RefCountsId": 434,
+  "Field": "rem",
+  "RecordId": 57,
   "SuggestedRecords": [
     {
-      "Id": 832,
-      "Name": "Schiller Inc and Sons",
-      "ToolTip": "Soluta voluptatum et.",
+      "Id": 665,
+      "Name": "Bins, Weimann and Frami",
+      "ToolTip": "Non et minima ut accusantium dolorem et.",
       "Deleted": false,
-      "Rank": 390,
-      "Type": "sit",
+      "Rank": 239,
+      "Type": "qui",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "totam",
-      "ColorBlock": 372,
-      "ExtraInfo": "dolores",
-      "StyleHint": "tempore",
-      "FullName": "Nicklaus Schoen",
+      "IconHint": "amet",
+      "ColorBlock": 533,
+      "ExtraInfo": "architecto",
+      "StyleHint": "ex",
+      "FullName": "Jarrett Gaylord",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 63
+          "FieldLength": 53
         }
       }
     }
   ],
-  "CurrentValue": 745,
-  "TravelPrefix": 156,
-  "SatPrefix": 773,
+  "CurrentValue": 338,
+  "TravelPrefix": 565,
+  "SatPrefix": 272,
   "Allocate": false,
-  "Unique": true,
-  "ReadOnly": false,
+  "Unique": false,
+  "ReadOnly": true,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 626
+      "FieldLength": 11
     }
   }
 }

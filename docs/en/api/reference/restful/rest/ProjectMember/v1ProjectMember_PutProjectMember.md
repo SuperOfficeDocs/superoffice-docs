@@ -75,6 +75,8 @@ The ProjectMember to be saved.
 | EmailAddressName | String | The e-mail address description |
 | Comment | String | Comment text on the project membership |
 | FullName | String | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | String | The date and time when the project member was registered  in UTC. |
+| Updated | String | The date and time when the project member was last updated  in UTC. |
 
 ## Response:
 
@@ -110,6 +112,8 @@ ProjectMember updated.
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -120,31 +124,33 @@ ProjectMember updated.
 PUT /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 501,
-  "ContactId": 569,
-  "ProjectId": 943,
-  "ContactName": "Larson, Koss and Braun",
+  "ProjectmemberId": 176,
+  "ContactId": 286,
+  "ProjectId": 112,
+  "ContactName": "Hilll Group",
   "ContactDepartment": "",
-  "ProjectName": "Hermann Inc and Sons",
-  "EmailId": 27,
-  "EmailAddress": "keira@creminbarrows.uk",
-  "CountryId": 267,
-  "Firstname": "Madilyn",
-  "MiddleName": "Graham-Homenick",
-  "Lastname": "Nolan",
-  "PersonId": 296,
-  "Mrmrs": "repudiandae",
-  "ProjectMemberTypeName": "Lemke, Marvin and Wilderman",
-  "Phone": "930.336.2116 x0578",
-  "PhoneId": 730,
-  "ProjectMemberTypeId": 888,
-  "EmailAddressName": "mitchell_romaguera@nitzsche.uk",
-  "Comment": "quidem",
-  "FullName": "Terence Gleason"
+  "ProjectName": "Kutch, Feil and Oberbrunner",
+  "EmailId": 593,
+  "EmailAddress": "reta.pfannerstill@kihn.com",
+  "CountryId": 952,
+  "Firstname": "Euna",
+  "MiddleName": "Hessel-Langosh",
+  "Lastname": "Murazik",
+  "PersonId": 153,
+  "Mrmrs": "et",
+  "ProjectMemberTypeName": "Jaskolski Group",
+  "Phone": "781.078.8165",
+  "PhoneId": 739,
+  "ProjectMemberTypeId": 35,
+  "EmailAddressName": "lucienne_stark@hagenesjacobi.biz",
+  "Comment": "provident",
+  "FullName": "Prof. Andre Alisa O'Keefe Jr.",
+  "Registered": "2020-12-16T03:41:59.2148698+01:00",
+  "Updated": "2016-12-30T03:41:59.2148698+01:00"
 }
 ```
 
@@ -155,33 +161,35 @@ HTTP/1.1 200 ProjectMember updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 130,
-  "ContactId": 683,
-  "ProjectId": 552,
-  "ContactName": "Dickinson, Bechtelar and Bartell",
+  "ProjectmemberId": 566,
+  "ContactId": 262,
+  "ProjectId": 33,
+  "ContactName": "Beahan-Langosh",
   "ContactDepartment": "",
-  "ProjectName": "Kirlin, Emard and Hane",
-  "EmailId": 149,
-  "EmailAddress": "madilyn.pollich@weberpouros.name",
-  "CountryId": 105,
-  "Firstname": "Delphine",
-  "MiddleName": "Ruecker-Cummerata",
-  "Lastname": "Dare",
-  "PersonId": 538,
-  "Mrmrs": "illo",
-  "ProjectMemberTypeName": "Waters-Lowe",
-  "Phone": "017-933-7282 x8667",
-  "PhoneId": 994,
-  "ProjectMemberTypeId": 796,
-  "EmailAddressName": "margarett_leannon@reichert.ca",
-  "Comment": "ut",
-  "FullName": "Shaylee Strosin",
+  "ProjectName": "Parker-Marquardt",
+  "EmailId": 619,
+  "EmailAddress": "pansy.pfannerstill@dickiziemann.co.uk",
+  "CountryId": 867,
+  "Firstname": "Armand",
+  "MiddleName": "Roob Inc and Sons",
+  "Lastname": "Beatty",
+  "PersonId": 569,
+  "Mrmrs": "aut",
+  "ProjectMemberTypeName": "Larkin-Mraz",
+  "Phone": "1-924-902-2309 x53689",
+  "PhoneId": 82,
+  "ProjectMemberTypeId": 209,
+  "EmailAddressName": "kennith@jacobson.info",
+  "Comment": "incidunt",
+  "FullName": "Mrs. Tyrel Kohler PhD",
+  "Registered": "2022-06-20T03:41:59.2148698+02:00",
+  "Updated": "2002-06-12T03:41:59.2148698+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 192
+      "FieldLength": 860
     }
   },
   "_Links": {

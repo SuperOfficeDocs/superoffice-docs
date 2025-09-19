@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForAllDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 576,
-  "IncludeEmails": false
+  "DocumentPluginId": 648,
+  "IncludeEmails": true
 }
 ```
 
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 43,
-  "NumDocumentsAlreadyMigrated": 799,
+  "NumDocumentsOmitted": 931,
+  "NumDocumentsAlreadyMigrated": 789,
   "Documents": [
     {
-      "DocumentId": 699,
-      "ContactId": 935,
-      "PersonId": 411,
-      "SaleId": 989,
-      "ProjectId": 811,
-      "DocTmplId": 475,
-      "AssociateId": 536,
-      "UserGroupId": 508,
-      "VisibleForId": 223
+      "DocumentId": 772,
+      "ContactId": 579,
+      "PersonId": 700,
+      "SaleId": 167,
+      "ProjectId": 84,
+      "DocTmplId": 125,
+      "AssociateId": 973,
+      "UserGroupId": 943,
+      "VisibleForId": 750
     }
   ],
   "Associates": [
     {
-      "AssociateId": 721,
-      "EmailAddress": "arch@emardleannon.ca"
+      "AssociateId": 742,
+      "EmailAddress": "philip@langosh.info"
     },
     {
-      "AssociateId": 721,
-      "EmailAddress": "arch@emardleannon.ca"
+      "AssociateId": 742,
+      "EmailAddress": "philip@langosh.info"
     }
   ]
 }

@@ -51,7 +51,7 @@ Comments to entries in the knowledge base, typically made by customers
 |------|-------------|
 |[dbi\_agent](dbi-agent.md)  |DBI agent settings |
 |[kb\_entry](kb-entry.md)  |This table contains FAQ entries. |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 
 
 ## Replication Flags

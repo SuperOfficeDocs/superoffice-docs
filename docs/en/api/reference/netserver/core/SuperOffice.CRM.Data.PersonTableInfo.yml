@@ -38,6 +38,8 @@ items:
   - SuperOffice.CRM.Data.PersonTableInfo.Kanafname
   - SuperOffice.CRM.Data.PersonTableInfo.Kanalname
   - SuperOffice.CRM.Data.PersonTableInfo.Lastname
+  - SuperOffice.CRM.Data.PersonTableInfo.LeadstatusId
+  - SuperOffice.CRM.Data.PersonTableInfo.LeadstatusId_InnerJoin_Leadstatus
   - SuperOffice.CRM.Data.PersonTableInfo.LeftOuterJoin_Appointment_InvitedPersonId
   - SuperOffice.CRM.Data.PersonTableInfo.LeftOuterJoin_Appointment_PersonId
   - SuperOffice.CRM.Data.PersonTableInfo.LeftOuterJoin_Associate_PersonId
@@ -134,7 +136,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: "Table 'person': Persons in a company or an organizations. All associates have a corresponding person record"
+  summary: "Table 'person': Persons"
   remarks: >-
     An instance of this class represents one instance of this table in an SQL statement. In most
 
@@ -1813,6 +1815,32 @@ items:
       type: SuperOffice.Data.SQL.DateTimeFieldInfo
     content.vb: Public ReadOnly Property ModifiedByWorkflowWhen As DateTimeFieldInfo
   overload: SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowWhen*
+- uid: SuperOffice.CRM.Data.PersonTableInfo.LeadstatusId
+  commentId: P:SuperOffice.CRM.Data.PersonTableInfo.LeadstatusId
+  id: LeadstatusId
+  parent: SuperOffice.CRM.Data.PersonTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeadstatusId
+  nameWithType: PersonTableInfo.LeadstatusId
+  fullName: SuperOffice.CRM.Data.PersonTableInfo.LeadstatusId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: >-
+    Field 'leadstatus_id' in table 'person': Dictionary type FK, target: Leadstatus, .NET type: <xref href="System.Int32" data-throw-if-not-resolved="false"></xref><p></p>
+
+    Refinement of categories of lead type. Empty if the category is not a lead type. If this person has a contact, the leadstatus is from the contact and not editable on the person
+  example: []
+  syntax:
+    content: public Int32FieldInfo LeadstatusId { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.Int32FieldInfo
+    content.vb: Public ReadOnly Property LeadstatusId As Int32FieldInfo
+  overload: SuperOffice.CRM.Data.PersonTableInfo.LeadstatusId*
 - uid: SuperOffice.CRM.Data.PersonTableInfo.ContactId_InnerJoin_Contact
   commentId: P:SuperOffice.CRM.Data.PersonTableInfo.ContactId_InnerJoin_Contact
   id: ContactId_InnerJoin_Contact
@@ -2204,6 +2232,29 @@ items:
       type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.WorkflowTableInfo}
     content.vb: Public ReadOnly Property ModifiedByWorkflowId_InnerJoin_Workflow As TargetedInnerJoin(Of WorkflowTableInfo)
   overload: SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowId_InnerJoin_Workflow*
+- uid: SuperOffice.CRM.Data.PersonTableInfo.LeadstatusId_InnerJoin_Leadstatus
+  commentId: P:SuperOffice.CRM.Data.PersonTableInfo.LeadstatusId_InnerJoin_Leadstatus
+  id: LeadstatusId_InnerJoin_Leadstatus
+  parent: SuperOffice.CRM.Data.PersonTableInfo
+  langs:
+  - csharp
+  - vb
+  name: LeadstatusId_InnerJoin_Leadstatus
+  nameWithType: PersonTableInfo.LeadstatusId_InnerJoin_Leadstatus
+  fullName: SuperOffice.CRM.Data.PersonTableInfo.LeadstatusId_InnerJoin_Leadstatus
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: Generated join from the foreign key LeadstatusId in this table, to its target table <xref href="SuperOffice.CRM.Data.LeadstatusTableInfo" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: public TargetedInnerJoin<LeadstatusTableInfo> LeadstatusId_InnerJoin_Leadstatus { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.LeadstatusTableInfo}
+    content.vb: Public ReadOnly Property LeadstatusId_InnerJoin_Leadstatus As TargetedInnerJoin(Of LeadstatusTableInfo)
+  overload: SuperOffice.CRM.Data.PersonTableInfo.LeadstatusId_InnerJoin_Leadstatus*
 - uid: SuperOffice.CRM.Data.PersonTableInfo.LeftOuterJoin_Associate_PersonId
   commentId: P:SuperOffice.CRM.Data.PersonTableInfo.LeftOuterJoin_Associate_PersonId
   id: LeftOuterJoin_Associate_PersonId
@@ -4713,6 +4764,13 @@ references:
   name: ModifiedByWorkflowWhen
   nameWithType: PersonTableInfo.ModifiedByWorkflowWhen
   fullName: SuperOffice.CRM.Data.PersonTableInfo.ModifiedByWorkflowWhen
+- uid: SuperOffice.CRM.Data.PersonTableInfo.LeadstatusId*
+  commentId: Overload:SuperOffice.CRM.Data.PersonTableInfo.LeadstatusId
+  isExternal: true
+  href: SuperOffice.CRM.Data.PersonTableInfo.html#SuperOffice_CRM_Data_PersonTableInfo_LeadstatusId
+  name: LeadstatusId
+  nameWithType: PersonTableInfo.LeadstatusId
+  fullName: SuperOffice.CRM.Data.PersonTableInfo.LeadstatusId
 - uid: SuperOffice.CRM.Data.ContactTableInfo
   commentId: T:SuperOffice.CRM.Data.ContactTableInfo
   parent: SuperOffice.CRM.Data
@@ -5504,6 +5562,56 @@ references:
     name: WorkflowTableInfo
     isExternal: true
     href: SuperOffice.CRM.Data.WorkflowTableInfo.html
+  - name: )
+- uid: SuperOffice.CRM.Data.LeadstatusTableInfo
+  commentId: T:SuperOffice.CRM.Data.LeadstatusTableInfo
+  parent: SuperOffice.CRM.Data
+  isExternal: true
+  href: SuperOffice.CRM.Data.LeadstatusTableInfo.html
+  name: LeadstatusTableInfo
+  nameWithType: LeadstatusTableInfo
+  fullName: SuperOffice.CRM.Data.LeadstatusTableInfo
+- uid: SuperOffice.CRM.Data.PersonTableInfo.LeadstatusId_InnerJoin_Leadstatus*
+  commentId: Overload:SuperOffice.CRM.Data.PersonTableInfo.LeadstatusId_InnerJoin_Leadstatus
+  isExternal: true
+  href: SuperOffice.CRM.Data.PersonTableInfo.html#SuperOffice_CRM_Data_PersonTableInfo_LeadstatusId_InnerJoin_Leadstatus
+  name: LeadstatusId_InnerJoin_Leadstatus
+  nameWithType: PersonTableInfo.LeadstatusId_InnerJoin_Leadstatus
+  fullName: SuperOffice.CRM.Data.PersonTableInfo.LeadstatusId_InnerJoin_Leadstatus
+- uid: SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.LeadstatusTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedInnerJoin{SuperOffice.CRM.Data.LeadstatusTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedInnerJoin`1
+  href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  name: TargetedInnerJoin<LeadstatusTableInfo>
+  nameWithType: TargetedInnerJoin<LeadstatusTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedInnerJoin<SuperOffice.CRM.Data.LeadstatusTableInfo>
+  nameWithType.vb: TargetedInnerJoin(Of LeadstatusTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedInnerJoin(Of SuperOffice.CRM.Data.LeadstatusTableInfo)
+  name.vb: TargetedInnerJoin(Of LeadstatusTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.LeadstatusTableInfo
+    name: LeadstatusTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LeadstatusTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedInnerJoin`1
+    name: TargetedInnerJoin
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedInnerJoin-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.LeadstatusTableInfo
+    name: LeadstatusTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LeadstatusTableInfo.html
   - name: )
 - uid: SuperOffice.CRM.Data.AssociateTableInfo.PersonId
   commentId: P:SuperOffice.CRM.Data.AssociateTableInfo.PersonId

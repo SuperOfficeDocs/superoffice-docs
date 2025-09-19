@@ -78,10 +78,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 979,
+  "AssociateId": 542,
   "Type": "AnonymousAssociate",
-  "PersonId": 376,
-  "UserName": "Armstrong-Lang"
+  "PersonId": 820,
+  "UserName": "Hettinger-Strosin"
 }
 ```
 
@@ -91,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Barton, Boehm and Moore"
+"Hirthe Group"
 ```

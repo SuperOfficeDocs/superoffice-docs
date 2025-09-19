@@ -145,12 +145,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "recusandae",
+    "path": "suscipit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "recusandae",
+    "path": "suscipit",
     "value": {}
   }
 ]
@@ -163,43 +163,43 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 754,
-  "TopicId": 776,
+  "ChatSessionId": 563,
+  "TopicId": 359,
   "User": null,
   "Person": null,
-  "CustomerAlias": "non",
-  "CustomerHost": "molestiae",
-  "CustomerName": "Kautzer-Mann",
-  "CustomerEmail": "roma@reichelstreich.biz",
-  "CustomerPhone": "294.359.5769 x8910",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Littel-Kovacek",
+  "CustomerAlias": "voluptatem",
+  "CustomerHost": "odit",
+  "CustomerName": "Zemlak, Von and Barrows",
+  "CustomerEmail": "claud_barton@abernathy.biz",
+  "CustomerPhone": "(831)450-8536 x36317",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Bernhard Group",
   "Status": "Closed",
-  "FirstMessage": "sint",
-  "LastMessage": "sint",
-  "WhenRequested": "2012-12-05T03:46:59.7536971+01:00",
-  "WhenStarted": "2021-12-12T03:46:59.7536971+01:00",
-  "WhenEnded": "2020-12-30T03:46:59.7536971+01:00",
-  "WhenIdle": "2008-01-01T03:46:59.7536971+01:00",
-  "WhenFetched": "1998-06-06T03:46:59.7536971+02:00",
-  "SessionKey": "facere",
-  "InitialQueuePos": 915,
-  "AlertLevel": 135,
-  "Rank": 32,
+  "FirstMessage": "qui",
+  "LastMessage": "aliquam",
+  "WhenRequested": "2001-05-04T03:41:58.4492851+02:00",
+  "WhenStarted": "2010-05-21T03:41:58.4492851+02:00",
+  "WhenEnded": "2025-05-30T03:41:58.4492851+02:00",
+  "WhenIdle": "2016-07-08T03:41:58.4492851+02:00",
+  "WhenFetched": "2007-06-09T03:41:58.4492851+02:00",
+  "SessionKey": "ad",
+  "InitialQueuePos": 692,
+  "AlertLevel": 45,
+  "Rank": 908,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 891,
+  "ChatbotIsActive": false,
+  "Rating": 422,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 771
+      "FieldType": "System.Int32",
+      "FieldLength": 427
     }
   },
   "_Links": {

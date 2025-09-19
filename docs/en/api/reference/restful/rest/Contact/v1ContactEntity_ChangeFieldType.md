@@ -31,7 +31,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -105,7 +105,7 @@ ContactEntity found.
 POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -115,46 +115,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 399,
-  "ColumnId": 674,
-  "FieldDefault": "doloremque",
-  "FieldHeight": 40,
-  "FieldLabel": "pariatur",
-  "FieldLeft": 469,
-  "FieldTop": 988,
+  "UDefFieldId": 332,
+  "ColumnId": 431,
+  "FieldDefault": "voluptatem",
+  "FieldHeight": 894,
+  "FieldLabel": "et",
+  "FieldLeft": 189,
+  "FieldTop": 311,
   "FieldType": "Checkbox",
-  "FieldWidth": 472,
-  "FormatMask": "qui",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 175,
-  "LabelLeft": 997,
-  "LabelTop": 755,
-  "LabelWidth": 332,
-  "LastVersionId": 495,
-  "ListTableId": 279,
-  "IsMandatory": true,
+  "FieldWidth": 604,
+  "FormatMask": "aut",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 479,
+  "LabelLeft": 48,
+  "LabelTop": 480,
+  "LabelWidth": 220,
+  "LastVersionId": 299,
+  "ListTableId": 783,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 63,
-  "ProgId": "quo",
+  "Page1LineNo": 538,
+  "ProgId": "et",
   "IsReadOnly": false,
-  "ShortLabel": "cupiditate",
-  "TabOrder": 482,
-  "TextLength": 656,
-  "Tooltip": "enim",
-  "UdefIdentity": 244,
-  "UDListDefinitionId": 719,
+  "ShortLabel": "dolores",
+  "TabOrder": 623,
+  "TextLength": 148,
+  "Tooltip": "et",
+  "UdefIdentity": 410,
+  "UDListDefinitionId": 713,
   "Justification": "Center",
-  "Version": 527,
-  "TemplateVariableName": "Maggio, Hermiston and Kirlin",
+  "Version": 64,
+  "TemplateVariableName": "Nader, Ernser and Larson",
   "HasBeenPublished": false,
-  "MdoListName": "Wintheiser LLC",
+  "MdoListName": "Brekke Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 643
+      "FieldLength": 896
     }
   }
 }

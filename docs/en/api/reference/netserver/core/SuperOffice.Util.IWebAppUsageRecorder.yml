@@ -1,0 +1,434 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.IWebAppUsageRecorder
+  commentId: T:SuperOffice.Util.IWebAppUsageRecorder
+  id: IWebAppUsageRecorder
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.IWebAppUsageRecorder.RecordUsageAsync(System.String,System.DateTime,System.Int32,System.UInt32)
+  langs:
+  - csharp
+  - vb
+  name: IWebAppUsageRecorder
+  nameWithType: IWebAppUsageRecorder
+  fullName: SuperOffice.Util.IWebAppUsageRecorder
+  type: Interface
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: Directly save WebAppUsage records to the database
+  example: []
+  syntax:
+    content: public interface IWebAppUsageRecorder
+    content.vb: Public Interface IWebAppUsageRecorder
+  extensionMethods:
+  - SuperOffice.Util.IWebAppUsageRecorder.EnumUtil.MapEnums``2
+  - SuperOffice.Util.IWebAppUsageRecorder.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+- uid: SuperOffice.Util.IWebAppUsageRecorder.RecordUsageAsync(System.String,System.DateTime,System.Int32,System.UInt32)
+  commentId: M:SuperOffice.Util.IWebAppUsageRecorder.RecordUsageAsync(System.String,System.DateTime,System.Int32,System.UInt32)
+  id: RecordUsageAsync(System.String,System.DateTime,System.Int32,System.UInt32)
+  parent: SuperOffice.Util.IWebAppUsageRecorder
+  langs:
+  - csharp
+  - vb
+  name: RecordUsageAsync(string, DateTime, int, uint)
+  nameWithType: IWebAppUsageRecorder.RecordUsageAsync(string, DateTime, int, uint)
+  fullName: SuperOffice.Util.IWebAppUsageRecorder.RecordUsageAsync(string, System.DateTime, int, uint)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  summary: 'Record database usage: insert a new record, or update an existing one'
+  example: []
+  syntax:
+    content: Task RecordUsageAsync(string viewState, DateTime timeStamp, int assocId, uint aggregateCount)
+    parameters:
+    - id: viewState
+      type: System.String
+      description: Key field
+    - id: timeStamp
+      type: System.DateTime
+      description: Key field, only date is used
+    - id: assocId
+      type: System.Int32
+      description: Key field
+    - id: aggregateCount
+      type: System.UInt32
+      description: Value, added to any existing value with the same key combination
+    return:
+      type: System.Threading.Tasks.Task
+      description: ''
+    content.vb: Function RecordUsageAsync(viewState As String, timeStamp As Date, assocId As Integer, aggregateCount As UInteger) As Task
+  overload: SuperOffice.Util.IWebAppUsageRecorder.RecordUsageAsync*
+  nameWithType.vb: IWebAppUsageRecorder.RecordUsageAsync(String, Date, Integer, UInteger)
+  fullName.vb: SuperOffice.Util.IWebAppUsageRecorder.RecordUsageAsync(String, Date, Integer, UInteger)
+  name.vb: RecordUsageAsync(String, Date, Integer, UInteger)
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Util
+    name: Util
+    isExternal: true
+    href: SuperOffice.Util.html
+- uid: SuperOffice.Util.IWebAppUsageRecorder.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<IWebAppUsageRecorder, To>(IWebAppUsageRecorder)
+  nameWithType: EnumUtil.MapEnums<IWebAppUsageRecorder, To>(IWebAppUsageRecorder)
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.IWebAppUsageRecorder, To>(SuperOffice.Util.IWebAppUsageRecorder)
+  nameWithType.vb: EnumUtil.MapEnums(Of IWebAppUsageRecorder, To)(IWebAppUsageRecorder)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.IWebAppUsageRecorder, To)(SuperOffice.Util.IWebAppUsageRecorder)
+  name.vb: MapEnums(Of IWebAppUsageRecorder, To)(IWebAppUsageRecorder)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.IWebAppUsageRecorder)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.IWebAppUsageRecorder
+    name: IWebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.IWebAppUsageRecorder.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.IWebAppUsageRecorder
+    name: IWebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.IWebAppUsageRecorder.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.IWebAppUsageRecorder)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.IWebAppUsageRecorder
+    name: IWebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.IWebAppUsageRecorder.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.IWebAppUsageRecorder
+    name: IWebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.IWebAppUsageRecorder.html
+  - name: )
+- uid: SuperOffice.Util.IWebAppUsageRecorder.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<IWebAppUsageRecorder, To>(IWebAppUsageRecorder)
+  nameWithType: Converters.MapEnums<IWebAppUsageRecorder, To>(IWebAppUsageRecorder)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.IWebAppUsageRecorder, To>(SuperOffice.Util.IWebAppUsageRecorder)
+  nameWithType.vb: Converters.MapEnums(Of IWebAppUsageRecorder, To)(IWebAppUsageRecorder)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.IWebAppUsageRecorder, To)(SuperOffice.Util.IWebAppUsageRecorder)
+  name.vb: MapEnums(Of IWebAppUsageRecorder, To)(IWebAppUsageRecorder)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.IWebAppUsageRecorder)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.IWebAppUsageRecorder
+    name: IWebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.IWebAppUsageRecorder.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.IWebAppUsageRecorder
+    name: IWebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.IWebAppUsageRecorder.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.IWebAppUsageRecorder)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.IWebAppUsageRecorder
+    name: IWebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.IWebAppUsageRecorder.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.IWebAppUsageRecorder
+    name: IWebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.IWebAppUsageRecorder.html
+  - name: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+- uid: SuperOffice.Util.IWebAppUsageRecorder.RecordUsageAsync*
+  commentId: Overload:SuperOffice.Util.IWebAppUsageRecorder.RecordUsageAsync
+  isExternal: true
+  href: SuperOffice.Util.IWebAppUsageRecorder.html#SuperOffice_Util_IWebAppUsageRecorder_RecordUsageAsync_System_String_System_DateTime_System_Int32_System_UInt32_
+  name: RecordUsageAsync
+  nameWithType: IWebAppUsageRecorder.RecordUsageAsync
+  fullName: SuperOffice.Util.IWebAppUsageRecorder.RecordUsageAsync
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks

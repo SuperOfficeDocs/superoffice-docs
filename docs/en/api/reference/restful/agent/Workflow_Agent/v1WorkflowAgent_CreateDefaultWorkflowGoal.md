@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -69,23 +69,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 268,
-  "WorkflowId": 518,
+  "WorkflowGoalId": 859,
+  "WorkflowId": 195,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Homenick Inc and Sons",
-      "Description": "Streamlined optimal info-mediaries",
-      "Rank": 799,
+      "Name": "Berge, Durgan and Abbott",
+      "Description": "Synergistic scalable attitude",
+      "Rank": 156,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Homenick Inc and Sons",
-      "Description": "Streamlined optimal info-mediaries",
-      "Rank": 799,
+      "Name": "Berge, Durgan and Abbott",
+      "Description": "Synergistic scalable attitude",
+      "Rank": 156,
       "Restrictions": [
         {},
         {}
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 248
+      "FieldType": "System.Int32",
+      "FieldLength": 265
     }
   }
 }

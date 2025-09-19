@@ -102,10 +102,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 907,
-  "StartTime": "2023-08-25T03:46:54.6132622+02:00",
-  "EndTime": "2021-12-31T03:46:54.6132622+01:00",
-  "Count": 177
+  "ContactId": 700,
+  "StartTime": "2018-11-24T03:41:53.3713643+01:00",
+  "EndTime": "2022-08-10T03:41:53.3713643+02:00",
+  "Count": 392
 }
 ```
 
@@ -117,32 +117,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 18,
-    "Attention": "animi",
-    "Header": "voluptatem",
-    "Name": "Powlowski-Feeney",
-    "OurRef": "temporibus",
-    "YourRef": "cumque",
-    "Description": "Business-focused user-facing extranet",
-    "DocumentTemplate": "est",
+    "DocumentId": 961,
+    "Attention": "rerum",
+    "Header": "provident",
+    "Name": "West-Smith",
+    "OurRef": "esse",
+    "YourRef": "voluptatibus",
+    "Description": "Integrated web-enabled middleware",
+    "DocumentTemplate": "qui",
     "IsPublished": false,
-    "PersonId": 101,
-    "PersonFullName": "Devonte Davis",
-    "AssociateFullName": "Hyman Ariane Beer V",
-    "ContactId": 719,
-    "ContactName": "Harvey, Glover and Hermann",
-    "ProjectId": 511,
-    "ProjectName": "Daniel-Boyer",
-    "AssociateId": 252,
-    "Snum": 415,
-    "SaleId": 970,
-    "SaleName": "Dare Inc and Sons",
+    "PersonId": 306,
+    "PersonFullName": "Abdiel Wolff",
+    "AssociateFullName": "Sylvia West",
+    "ContactId": 330,
+    "ContactName": "Fay Inc and Sons",
+    "ProjectId": 726,
+    "ProjectName": "Murazik, Reynolds and Harris",
+    "AssociateId": 321,
+    "Snum": 741,
+    "SaleId": 534,
+    "SaleName": "Altenwerth, Ullrich and Predovic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 924
+        "FieldType": "System.String",
+        "FieldLength": 838
       }
     }
   }

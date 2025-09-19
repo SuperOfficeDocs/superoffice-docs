@@ -76,7 +76,7 @@ This table contains the messages listed under tickets.
 |[message\_customers](message-customers.md)  |This table contains all cutomers who are involved in a message |
 |[message\_header](message-header.md)  |This table contains small pieces of information which is listed over the body for each message. |
 |[outbox](outbox.md)  |Outgoing emails with sending status and other info |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 |[sms](sms.md)  |This table will hold outgoing sms messages when transmitted with WebServices |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 |[ticket\_attachment](ticket-attachment.md)  |This table connects an attachment to a message. It references the entry in the attachment table, and the message. |

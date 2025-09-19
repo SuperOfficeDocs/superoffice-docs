@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 320
+  "Id": 321
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "qui",
+  "RawValue": "aspernatur",
   "Specification": null,
-  "DisplayValue": "et",
-  "DisplayTooltip": "fuga",
+  "DisplayValue": "qui",
+  "DisplayTooltip": "id",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 872,
-  "PrefDescId": 589,
-  "TableName": "Miller-Dare",
-  "UserPreferenceId": 944,
+  "TargetId": 99,
+  "PrefDescId": 905,
+  "TableName": "Leffler LLC",
+  "UserPreferenceId": 482,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldLength": 471
     }
   }
 }

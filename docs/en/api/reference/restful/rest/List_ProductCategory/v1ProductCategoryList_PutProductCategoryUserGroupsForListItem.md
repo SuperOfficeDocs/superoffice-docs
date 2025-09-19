@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 825,
-    "Name": "Tillman Inc and Sons",
-    "ToolTip": "Illum iusto.",
+    "Id": 98,
+    "Name": "Kautzer-Frami",
+    "ToolTip": "In earum earum.",
     "Deleted": false,
-    "Rank": 978,
-    "Type": "dolor",
-    "ColorBlock": 483,
-    "IconHint": "sed",
+    "Rank": 249,
+    "Type": "facere",
+    "ColorBlock": 235,
+    "IconHint": "temporibus",
     "Selected": false,
-    "LastChanged": "2016-01-13T03:47:00.7224209+01:00",
+    "LastChanged": "2001-04-07T03:41:59.4648585+02:00",
     "ChildItems": [
       {
-        "Id": 854,
-        "Name": "Lubowitz LLC",
-        "ToolTip": "Veritatis voluptatem omnis consequatur velit.",
+        "Id": 671,
+        "Name": "Blick, Mayert and Koch",
+        "ToolTip": "Fugiat quasi aut.",
         "Deleted": false,
-        "Rank": 830,
-        "Type": "voluptas",
-        "ColorBlock": 268,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2024-05-31T03:47:00.7224209+02:00",
+        "Rank": 605,
+        "Type": "velit",
+        "ColorBlock": 304,
+        "IconHint": "natus",
+        "Selected": true,
+        "LastChanged": "2019-08-23T03:41:59.4648585+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "aut",
+        "ExtraInfo": "magnam",
+        "StyleHint": "sed",
         "Hidden": false,
-        "FullName": "Keshaun Murray"
+        "FullName": "Lauriane Upton"
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "dolorem",
-    "Hidden": true,
-    "FullName": "Jammie Monahan"
+    "ExtraInfo": "quae",
+    "StyleHint": "quae",
+    "Hidden": false,
+    "FullName": "Bella Heathcote"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 431,
-    "Name": "Pacocha-Prohaska",
-    "ToolTip": "Laborum beatae blanditiis.",
+    "Id": 206,
+    "Name": "Johnson-Funk",
+    "ToolTip": "Unde esse rerum sit possimus est ratione.",
     "Deleted": true,
-    "Rank": 269,
-    "Type": "fugiat",
-    "ColorBlock": 18,
-    "IconHint": "delectus",
-    "Selected": true,
-    "LastChanged": "2017-12-23T03:47:00.7224209+01:00",
+    "Rank": 741,
+    "Type": "earum",
+    "ColorBlock": 4,
+    "IconHint": "cumque",
+    "Selected": false,
+    "LastChanged": "2016-09-01T03:41:59.4648585+02:00",
     "ChildItems": [
       {
-        "Id": 931,
-        "Name": "Ryan-Funk",
-        "ToolTip": "Et at qui.",
-        "Deleted": true,
-        "Rank": 816,
-        "Type": "vitae",
-        "ColorBlock": 51,
-        "IconHint": "eligendi",
+        "Id": 823,
+        "Name": "Ryan LLC",
+        "ToolTip": "Libero illo maiores.",
+        "Deleted": false,
+        "Rank": 769,
+        "Type": "omnis",
+        "ColorBlock": 811,
+        "IconHint": "saepe",
         "Selected": false,
-        "LastChanged": "2013-11-17T03:47:00.7224209+01:00",
+        "LastChanged": "2005-07-11T03:41:59.4648585+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestias",
-        "StyleHint": "eos",
-        "Hidden": true,
-        "FullName": "Jayde Kerluke",
+        "ExtraInfo": "quae",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Friedrich Greenholt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 153
+            "FieldLength": 533
           }
         }
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "sit",
-    "Hidden": false,
-    "FullName": "Ms. Lyric Veda Kertzmann",
+    "ExtraInfo": "explicabo",
+    "StyleHint": "vel",
+    "Hidden": true,
+    "FullName": "Jayme Lueilwitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 66
+        "FieldType": "System.String",
+        "FieldLength": 978
       }
     }
   }

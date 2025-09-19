@@ -86,22 +86,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 412,
-  "Name": "Gerhold, Graham and Beer",
-  "Description": "Cross-group fresh-thinking time-frame",
+  "ReportLabelLayoutId": 525,
+  "Name": "Little, Roberts and Bode",
+  "Description": "De-engineered bi-directional moderator",
   "Orientation": "Landscape",
-  "PaperWidth": 404,
-  "PaperHeight": 271,
-  "LeftMargin": 290,
-  "RightMargin": 178,
-  "TopMargin": 716,
-  "BottomMargin": 988,
-  "CountColumns": 525,
-  "CountRows": 395
+  "PaperWidth": 248,
+  "PaperHeight": 165,
+  "LeftMargin": 720,
+  "RightMargin": 307,
+  "TopMargin": 374,
+  "BottomMargin": 472,
+  "CountColumns": 824,
+  "CountRows": 504
 }
 ```
 
@@ -112,24 +112,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 762,
-  "Name": "Bashirian Group",
-  "Description": "Stand-alone modular support",
+  "ReportLabelLayoutId": 613,
+  "Name": "Runolfsdottir Inc and Sons",
+  "Description": "Integrated solution-oriented encryption",
   "Orientation": "Landscape",
-  "PaperWidth": 362,
-  "PaperHeight": 424,
-  "LeftMargin": 19,
-  "RightMargin": 949,
-  "TopMargin": 277,
-  "BottomMargin": 793,
-  "CountColumns": 306,
-  "CountRows": 374,
+  "PaperWidth": 668,
+  "PaperHeight": 95,
+  "LeftMargin": 114,
+  "RightMargin": 190,
+  "TopMargin": 496,
+  "BottomMargin": 127,
+  "CountColumns": 301,
+  "CountRows": 670,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldLength": 313
     }
   }
 }

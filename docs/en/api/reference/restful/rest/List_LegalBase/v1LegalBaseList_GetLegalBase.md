@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,18 +78,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 30,
-  "Name": "Mraz-Kemmer",
-  "Tooltip": "error",
-  "Rank": 72,
-  "Key": "ullam",
+  "LegalBaseId": 122,
+  "Name": "McLaughlin, Torphy and Trantow",
+  "Tooltip": "ad",
+  "Rank": 986,
+  "Key": "hic",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 385
+      "FieldLength": 280
     }
   }
 }

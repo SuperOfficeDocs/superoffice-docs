@@ -76,12 +76,12 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileHtml
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 355,
-  "LanguageCode": "quibusdam"
+  "DashboardTileDefinitionId": 139,
+  "LanguageCode": "reiciendis"
 }
 ```
 
@@ -92,14 +92,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageCode": "expedita",
-  "Html": "et",
+  "LanguageCode": "magnam",
+  "Html": "reiciendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 390
+      "FieldLength": 351
     }
   }
 }

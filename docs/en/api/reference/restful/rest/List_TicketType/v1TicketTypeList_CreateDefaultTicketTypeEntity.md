@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/TicketType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 966,
-  "Name": "Nader Inc and Sons",
-  "Rank": 136,
-  "Tooltip": "quasi",
-  "Icon": "soluta",
-  "DefaultTicketStatus": 765,
+  "TicketTypeId": 195,
+  "Name": "Purdy Group",
+  "Rank": 569,
+  "Tooltip": "nesciunt",
+  "Icon": "laboriosam",
+  "DefaultTicketStatus": 52,
   "TicketStatuses": [
-    841,
-    693
+    747,
+    608
   ],
-  "DefaultTicketPriority": 751,
+  "DefaultTicketPriority": 807,
   "TicketPriorities": [
-    878,
-    987
+    223,
+    930
   ],
-  "ReplyTemplate": 732,
-  "IsExternalVisible": true,
-  "IsDefault": false,
+  "ReplyTemplate": 831,
+  "IsExternalVisible": false,
+  "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    258,
-    478
+    50,
+    822
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 191
+      "FieldLength": 116
     }
   }
 }

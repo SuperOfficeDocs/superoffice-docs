@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "reprehenderit",
-    "blanditiis"
+    "similique",
+    "exercitationem"
   ]
 }
 ```
@@ -98,18 +98,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 74,
-    "ResourceId": 716,
-    "Text": "et",
+    "LanguageId": 480,
+    "ResourceId": 683,
+    "Text": "autem",
     "Type": "Column",
-    "LocalizedTextId": 631,
-    "IsBuiltIn": true,
+    "LocalizedTextId": 253,
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 164
+        "FieldLength": 768
       }
     }
   }

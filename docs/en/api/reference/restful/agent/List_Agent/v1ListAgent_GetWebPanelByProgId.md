@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "et"
+  "ProgId": "quaerat"
 }
 ```
 
@@ -110,34 +110,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 283,
-  "Name": "Kuhlman, Block and Hettinger",
-  "Tooltip": "pariatur",
-  "Deleted": true,
-  "Rank": 919,
+  "WebPanelId": 925,
+  "Name": "Schamberger, Parisian and Marks",
+  "Tooltip": "quam",
+  "Deleted": false,
+  "Rank": 561,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
+  "OnCentral": false,
+  "OnSatellite": true,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Thiel, Gislason and Wyman",
+  "WindowName": "Abshire-Hartmann",
   "Url": "http://www.example.com/",
-  "ProgId": "adipisci",
-  "Icon": 449,
+  "ProgId": "aspernatur",
+  "Icon": 485,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 572
+      "FieldLength": 923
     }
   }
 }

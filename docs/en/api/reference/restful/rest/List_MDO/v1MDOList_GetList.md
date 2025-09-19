@@ -33,8 +33,8 @@ Get the list items in a named list.
 
 ```http
 GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=ut
-GET /api/v1/MDOList/{listname}?query=eveniet
+GET /api/v1/MDOList/{listname}?additional=distinctio
+GET /api/v1/MDOList/{listname}?query=autem
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,50 +96,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 928,
-    "Name": "Conroy, Schaden and Rice",
-    "ToolTip": "Eos id.",
+    "Id": 835,
+    "Name": "Towne-Stanton",
+    "ToolTip": "Ipsum voluptas neque velit.",
     "Deleted": false,
-    "Rank": 321,
-    "Type": "qui",
+    "Rank": 163,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 905,
-        "Name": "Conn LLC",
-        "ToolTip": "Repellendus aut maiores pariatur maiores voluptas aliquid dolores.",
-        "Deleted": false,
-        "Rank": 197,
-        "Type": "provident",
+        "Id": 810,
+        "Name": "Trantow, Wisoky and Turner",
+        "ToolTip": "Est eum quia.",
+        "Deleted": true,
+        "Rank": 944,
+        "Type": "molestiae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 559,
-        "ExtraInfo": "fuga",
-        "StyleHint": "occaecati",
-        "FullName": "Timmothy Wyman",
+        "IconHint": "ut",
+        "ColorBlock": 517,
+        "ExtraInfo": "fugit",
+        "StyleHint": "vel",
+        "FullName": "Miss Vivianne Nitzsche PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 515
+            "FieldType": "System.Int32",
+            "FieldLength": 955
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 691,
-    "ExtraInfo": "dolorem",
-    "StyleHint": "id",
-    "FullName": "Lavina Okuneva",
+    "IconHint": "error",
+    "ColorBlock": 361,
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "asperiores",
+    "FullName": "Miss Fausto Welch PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 908
+        "FieldType": "System.String",
+        "FieldLength": 423
       }
     }
   }

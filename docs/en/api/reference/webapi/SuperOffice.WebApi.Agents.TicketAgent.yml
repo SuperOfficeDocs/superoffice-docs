@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.WebApi.Agents.TicketAgent.#ctor(SuperOffice.WebApi.WebApiOptions,System.Net.Http.HttpClient)
   - SuperOffice.WebApi.Agents.TicketAgent.#ctor(System.Net.Http.HttpClient)
+  - SuperOffice.WebApi.Agents.TicketAgent.AcceptTicketsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.AddAttachmentsAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.BatchForwardAsync(System.Int32[],System.String[],System.String[],System.String[],System.String,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.BatchReplyAsync(SuperOffice.WebApi.Data.TicketBatchReplyData,SuperOffice.WebApi.RequestOptions)
@@ -1656,6 +1657,41 @@ items:
   nameWithType.vb: TicketAgent.GetHotlistEjUsersAsync(Integer, Integer(), NotifyType, NotifyChannel, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.TicketAgent.GetHotlistEjUsersAsync(Integer, Integer(), SuperOffice.WebApi.Data.NotifyType, SuperOffice.WebApi.Data.NotifyChannel, SuperOffice.WebApi.RequestOptions)
   name.vb: GetHotlistEjUsersAsync(Integer, Integer(), NotifyType, NotifyChannel, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.TicketAgent.AcceptTicketsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.AcceptTicketsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  id: AcceptTicketsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: AcceptTicketsAsync(int[], RequestOptions)
+  nameWithType: TicketAgent.AcceptTicketsAsync(int[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.AcceptTicketsAsync(int[], SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Accepts tickets by their ids. Sets owner to current user
+  example: []
+  syntax:
+    content: public Task AcceptTicketsAsync(int[] ticketIds, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketIds
+      type: System.Int32[]
+      description: Ids of tickets to be accepted.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function AcceptTicketsAsync(ticketIds As Integer(), requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.TicketAgent.AcceptTicketsAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ITicketAgent.AcceptTicketsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: TicketAgent.AcceptTicketsAsync(Integer(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.TicketAgent.AcceptTicketsAsync(Integer(), SuperOffice.WebApi.RequestOptions)
+  name.vb: AcceptTicketsAsync(Integer(), RequestOptions)
 - uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetTicketMessageAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -7035,6 +7071,62 @@ references:
   name: NotifyChannel
   nameWithType: NotifyChannel
   fullName: SuperOffice.WebApi.Data.NotifyChannel
+- uid: SuperOffice.WebApi.Agents.TicketAgent.AcceptTicketsAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.AcceptTicketsAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.TicketAgent.html#SuperOffice_WebApi_Agents_TicketAgent_AcceptTicketsAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
+  name: AcceptTicketsAsync
+  nameWithType: TicketAgent.AcceptTicketsAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.AcceptTicketsAsync
+- uid: SuperOffice.WebApi.Agents.ITicketAgent.AcceptTicketsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITicketAgent.AcceptTicketsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITicketAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.ITicketAgent.html#SuperOffice_WebApi_Agents_ITicketAgent_AcceptTicketsAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
+  name: AcceptTicketsAsync(int[], RequestOptions)
+  nameWithType: ITicketAgent.AcceptTicketsAsync(int[], RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITicketAgent.AcceptTicketsAsync(int[], SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: ITicketAgent.AcceptTicketsAsync(Integer(), RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ITicketAgent.AcceptTicketsAsync(Integer(), SuperOffice.WebApi.RequestOptions)
+  name.vb: AcceptTicketsAsync(Integer(), RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ITicketAgent.AcceptTicketsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: AcceptTicketsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ITicketAgent.html#SuperOffice_WebApi_Agents_ITicketAgent_AcceptTicketsAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '['
+  - name: ']'
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ITicketAgent.AcceptTicketsAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
+    name: AcceptTicketsAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.ITicketAgent.html#SuperOffice_WebApi_Agents_ITicketAgent_AcceptTicketsAsync_System_Int32___SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: (
+  - name: )
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
 - uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageAsync
   isExternal: true

@@ -48,8 +48,8 @@ Project members. Link-table between person and project
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[contact](contact.md)  |Companies and Organizations. |
+|[person](person.md)  |Persons |
 |[PMembType](pmembtype.md)  |PMembType list table. List text of titles (member types) for project members. |
 |[project](project.md)  |Projects |
 |[text](text.md)  |Long text fields from all over the system |

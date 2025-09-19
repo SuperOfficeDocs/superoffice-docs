@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 515,
-    "Name": "Dibbert, Bartoletti and Goyette",
-    "ToolTip": "Velit quia impedit laudantium dolorum rerum.",
+    "Id": 41,
+    "Name": "Abernathy, Roberts and Hintz",
+    "ToolTip": "Aut aliquid minus fugit id voluptatem.",
     "Deleted": false,
-    "Rank": 849,
-    "Type": "et",
-    "ColorBlock": 4,
-    "IconHint": "voluptate",
-    "Selected": true,
-    "LastChanged": "2023-03-21T03:47:00.7224209+01:00",
+    "Rank": 792,
+    "Type": "fugiat",
+    "ColorBlock": 43,
+    "IconHint": "repellendus",
+    "Selected": false,
+    "LastChanged": "2008-11-11T03:41:59.4961062+01:00",
     "ChildItems": [
       {
-        "Id": 142,
-        "Name": "Hilll-Effertz",
-        "ToolTip": "Architecto et.",
+        "Id": 580,
+        "Name": "Denesik, Jewess and Treutel",
+        "ToolTip": "Eum dignissimos aut nihil modi.",
         "Deleted": true,
-        "Rank": 568,
-        "Type": "modi",
-        "ColorBlock": 502,
-        "IconHint": "tempora",
-        "Selected": true,
-        "LastChanged": "2018-07-14T03:47:00.7224209+02:00",
+        "Rank": 712,
+        "Type": "minima",
+        "ColorBlock": 217,
+        "IconHint": "blanditiis",
+        "Selected": false,
+        "LastChanged": "2013-02-06T03:41:59.511727+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "nemo",
-        "Hidden": true,
-        "FullName": "Mr. Sierra Heaney"
+        "ExtraInfo": "sed",
+        "StyleHint": "neque",
+        "Hidden": false,
+        "FullName": "Mrs. Lavern Arch Braun II"
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "nostrum",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Brianne Sawayn"
+    "FullName": "Damon Grady"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 829,
-    "Name": "Oberbrunner, Quigley and O'Keefe",
-    "ToolTip": "Magni ipsa totam molestias eaque autem qui.",
-    "Deleted": true,
-    "Rank": 911,
-    "Type": "est",
-    "ColorBlock": 466,
-    "IconHint": "aliquid",
+    "Id": 111,
+    "Name": "Mitchell LLC",
+    "ToolTip": "Aut magni eos sequi minima qui.",
+    "Deleted": false,
+    "Rank": 233,
+    "Type": "ut",
+    "ColorBlock": 754,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2006-10-26T03:47:00.7224209+02:00",
+    "LastChanged": "2019-04-26T03:41:59.5432177+02:00",
     "ChildItems": [
       {
-        "Id": 307,
-        "Name": "Littel Group",
-        "ToolTip": "Et qui illum amet.",
+        "Id": 326,
+        "Name": "Kilback-Bailey",
+        "ToolTip": "Impedit nemo nam.",
         "Deleted": false,
-        "Rank": 796,
-        "Type": "laborum",
-        "ColorBlock": 996,
-        "IconHint": "mollitia",
-        "Selected": true,
-        "LastChanged": "2008-12-22T03:47:00.7224209+01:00",
+        "Rank": 347,
+        "Type": "et",
+        "ColorBlock": 448,
+        "IconHint": "ea",
+        "Selected": false,
+        "LastChanged": "2023-10-02T03:41:59.5432177+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "magnam",
-        "Hidden": true,
-        "FullName": "Reggie Beier",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Dr. Kristoffer Graham IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 910
+            "FieldType": "System.Int32",
+            "FieldLength": 494
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Mr. Flossie Abernathy",
+    "ExtraInfo": "soluta",
+    "StyleHint": "autem",
+    "Hidden": false,
+    "FullName": "Miss Franco Agustina Blanda",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 608
+        "FieldType": "System.Int32",
+        "FieldLength": 552
       }
     }
   }

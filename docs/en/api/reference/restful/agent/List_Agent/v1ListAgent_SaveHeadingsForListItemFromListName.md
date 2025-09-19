@@ -90,32 +90,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Langosh, Walker and Hirthe",
-  "ListItemId": 775,
+  "UdListDefinitionName": "Gleason-Gerlach",
+  "ListItemId": 614,
   "Headings": [
     {
-      "Id": 58,
-      "Name": "Lind-Steuber",
-      "ToolTip": "Veritatis aspernatur officia vero.",
+      "Id": 900,
+      "Name": "O'Connell-Cassin",
+      "ToolTip": "Qui rerum praesentium dolor cumque aspernatur quidem aut.",
       "Deleted": true,
-      "Rank": 249,
-      "Type": "aliquam",
-      "ColorBlock": 936,
-      "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "2012-12-24T03:46:54.9569999+01:00",
+      "Rank": 421,
+      "Type": "rerum",
+      "ColorBlock": 406,
+      "IconHint": "repellat",
+      "Selected": false,
+      "LastChanged": "1999-06-24T03:41:53.6994806+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatibus",
-      "StyleHint": "explicabo",
+      "ExtraInfo": "rerum",
+      "StyleHint": "molestias",
       "Hidden": false,
-      "FullName": "Valentina Isidro Murazik II"
+      "FullName": "Dr. Carlee Tremblay Sr."
     }
   ]
 }
@@ -129,56 +129,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 43,
-    "Name": "Considine Group",
-    "ToolTip": "Expedita veritatis incidunt.",
-    "Deleted": false,
-    "Rank": 251,
-    "Type": "dolores",
-    "ColorBlock": 804,
-    "IconHint": "ex",
+    "Id": 563,
+    "Name": "Herzog Group",
+    "ToolTip": "Earum quod.",
+    "Deleted": true,
+    "Rank": 736,
+    "Type": "natus",
+    "ColorBlock": 911,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2014-11-24T03:46:54.9569999+01:00",
+    "LastChanged": "2011-05-15T03:41:53.6994806+02:00",
     "ChildItems": [
       {
-        "Id": 727,
-        "Name": "Hintz Inc and Sons",
-        "ToolTip": "Animi qui culpa.",
-        "Deleted": true,
-        "Rank": 734,
-        "Type": "amet",
-        "ColorBlock": 214,
-        "IconHint": "ex",
+        "Id": 337,
+        "Name": "Wuckert, Wilkinson and Ratke",
+        "ToolTip": "Quo et velit expedita qui atque libero perferendis.",
+        "Deleted": false,
+        "Rank": 496,
+        "Type": "quo",
+        "ColorBlock": 959,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2008-04-17T03:46:54.9569999+02:00",
+        "LastChanged": "2005-02-20T03:41:53.6994806+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Dr. Alysa Kianna Hane PhD",
+        "ExtraInfo": "ratione",
+        "StyleHint": "totam",
+        "Hidden": true,
+        "FullName": "Ms. Ana Arch O'Conner IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 49
+            "FieldLength": 149
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "sint",
+    "ExtraInfo": "in",
+    "StyleHint": "eveniet",
     "Hidden": true,
-    "FullName": "Prof. Alisha Mueller",
+    "FullName": "Miss Josiah Eino Rohan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 330
+        "FieldType": "System.String",
+        "FieldLength": 583
       }
     }
   }

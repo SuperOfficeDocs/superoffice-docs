@@ -206,6 +206,7 @@ items:
   - SuperOffice.CRM.Data.DBC.KbWorkflowAccess
   - SuperOffice.CRM.Data.DBC.LanguageInfo
   - SuperOffice.CRM.Data.DBC.LanguageInfoCountry
+  - SuperOffice.CRM.Data.DBC.Leadstatus
   - SuperOffice.CRM.Data.DBC.LegalBase
   - SuperOffice.CRM.Data.DBC.LegalHtmlTags
   - SuperOffice.CRM.Data.DBC.LicenseAssocLink
@@ -685,7 +686,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Contact: Companies and Organizations.   This table features a special record containing information about the contact that owns the database.'
+  summary: 'Contact: Companies and Organizations.'
   example: []
   syntax:
     content: public const string Contact = "contact"
@@ -706,7 +707,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.CRM.Data
-  summary: 'Person: Persons in a company or an organizations. All associates have a corresponding person record'
+  summary: 'Person: Persons'
   example: []
   syntax:
     content: public const string Person = "person"
@@ -11759,6 +11760,27 @@ items:
     return:
       type: System.String
     content.vb: Public Const UtmParameters As String = "utm_parameters"
+- uid: SuperOffice.CRM.Data.DBC.Leadstatus
+  commentId: F:SuperOffice.CRM.Data.DBC.Leadstatus
+  id: Leadstatus
+  parent: SuperOffice.CRM.Data.DBC
+  langs:
+  - csharp
+  - vb
+  name: Leadstatus
+  nameWithType: DBC.Leadstatus
+  fullName: SuperOffice.CRM.Data.DBC.Leadstatus
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: 'Leadstatus: List items of lead status that is selectable for contacts and persons that have specific category'
+  example: []
+  syntax:
+    content: public const string Leadstatus = "leadstatus"
+    return:
+      type: System.String
+    content.vb: Public Const Leadstatus As String = "leadstatus"
 - uid: SuperOffice.CRM.Data.DBC.TicketType
   commentId: F:SuperOffice.CRM.Data.DBC.TicketType
   id: TicketType

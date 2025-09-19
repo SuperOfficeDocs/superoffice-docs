@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 936,
-    "Name": "Abernathy-Pouros",
-    "ToolTip": "Provident nulla delectus illum animi explicabo aliquid.",
-    "Deleted": true,
-    "Rank": 611,
-    "Type": "culpa",
-    "ColorBlock": 149,
-    "IconHint": "porro",
+    "Id": 223,
+    "Name": "Ruecker Group",
+    "ToolTip": "Debitis similique illum et asperiores.",
+    "Deleted": false,
+    "Rank": 790,
+    "Type": "voluptate",
+    "ColorBlock": 202,
+    "IconHint": "ipsam",
     "Selected": true,
-    "LastChanged": "2017-05-15T03:47:00.7067961+02:00",
+    "LastChanged": "2006-01-20T03:41:59.4492344+01:00",
     "ChildItems": [
       {
-        "Id": 112,
-        "Name": "Jacobi, Keeling and Dach",
-        "ToolTip": "Sunt est doloremque hic et.",
-        "Deleted": false,
-        "Rank": 330,
-        "Type": "rem",
-        "ColorBlock": 313,
-        "IconHint": "veniam",
+        "Id": 920,
+        "Name": "VonRueden, Quitzon and Schneider",
+        "ToolTip": "Rerum laborum.",
+        "Deleted": true,
+        "Rank": 52,
+        "Type": "qui",
+        "ColorBlock": 955,
+        "IconHint": "nostrum",
         "Selected": false,
-        "LastChanged": "2012-10-07T03:47:00.7067961+02:00",
+        "LastChanged": "2005-07-05T03:41:59.4492344+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "in",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "dolor",
         "Hidden": false,
-        "FullName": "Dusty Upton"
+        "FullName": "Prof. Caitlyn Coty Hilpert IV"
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Palma Pagac"
+    "ExtraInfo": "enim",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Mrs. Julian Arvilla Okuneva IV"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 674,
-    "Name": "Purdy-Bernier",
-    "ToolTip": "Et ad aut.",
+    "Id": 585,
+    "Name": "Kovacek, Cremin and Fadel",
+    "ToolTip": "Corporis placeat numquam rerum ipsum quia.",
     "Deleted": true,
-    "Rank": 335,
-    "Type": "molestiae",
-    "ColorBlock": 421,
-    "IconHint": "rerum",
+    "Rank": 281,
+    "Type": "modi",
+    "ColorBlock": 219,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2010-01-16T03:47:00.7067961+01:00",
+    "LastChanged": "2009-01-08T03:41:59.4492344+01:00",
     "ChildItems": [
       {
-        "Id": 776,
-        "Name": "Kertzmann, Smith and Cremin",
-        "ToolTip": "Alias quia fugiat qui est quos molestiae.",
+        "Id": 645,
+        "Name": "Braun-Stokes",
+        "ToolTip": "Eaque velit ut et.",
         "Deleted": false,
-        "Rank": 387,
-        "Type": "maxime",
-        "ColorBlock": 664,
+        "Rank": 391,
+        "Type": "omnis",
+        "ColorBlock": 548,
         "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2003-10-23T03:47:00.7067961+02:00",
+        "Selected": false,
+        "LastChanged": "2016-11-08T03:41:59.4492344+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "porro",
-        "Hidden": true,
-        "FullName": "Joaquin Schroeder",
+        "ExtraInfo": "natus",
+        "StyleHint": "nihil",
+        "Hidden": false,
+        "FullName": "Emma Kirlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 238
+            "FieldLength": 642
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "non",
+    "ExtraInfo": "est",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Mrs. Winfield Tara Ritchie",
+    "FullName": "Fritz Heller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 82
+        "FieldLength": 549
       }
     }
   }

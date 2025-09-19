@@ -66,34 +66,36 @@ No Content
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 132,
+  "ProjectEntityId": 499,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 510,
-      "ContactId": 299,
-      "ProjectId": 511,
-      "ContactName": "Feeney, Nolan and Bernhard",
+      "ProjectmemberId": 429,
+      "ContactId": 687,
+      "ProjectId": 332,
+      "ContactName": "Auer, Wintheiser and Gaylord",
       "ContactDepartment": "",
-      "ProjectName": "Feest, O'Conner and Hessel",
-      "EmailId": 242,
-      "EmailAddress": "tyrell_schmidt@hayes.com",
-      "CountryId": 481,
-      "Firstname": "Nathan",
-      "MiddleName": "Kautzer, Morissette and Waelchi",
-      "Lastname": "Runolfsdottir",
-      "PersonId": 615,
-      "Mrmrs": "voluptas",
-      "ProjectMemberTypeName": "Murazik Inc and Sons",
-      "Phone": "294-570-9509 x375",
-      "PhoneId": 844,
-      "ProjectMemberTypeId": 866,
-      "EmailAddressName": "viva@gottlieb.co.uk",
-      "Comment": "ratione",
-      "FullName": "Mrs. Blake Rice DVM"
+      "ProjectName": "Lowe-Stokes",
+      "EmailId": 211,
+      "EmailAddress": "pietro@bogan.biz",
+      "CountryId": 877,
+      "Firstname": "Jewell",
+      "MiddleName": "Wolff Inc and Sons",
+      "Lastname": "Halvorson",
+      "PersonId": 355,
+      "Mrmrs": "dignissimos",
+      "ProjectMemberTypeName": "Hilll-Hand",
+      "Phone": "120-927-8992",
+      "PhoneId": 562,
+      "ProjectMemberTypeId": 37,
+      "EmailAddressName": "ocie_bogisich@leuschke.ca",
+      "Comment": "similique",
+      "FullName": "Addison Wyman",
+      "Registered": "2020-05-05T03:41:53.9025923+02:00",
+      "Updated": "2013-12-01T03:41:53.9025923+01:00"
     }
   ]
 }

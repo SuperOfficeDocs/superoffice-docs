@@ -15,6 +15,7 @@ Handled by the <see cref="T:SuperOffice.Services88.ITicketAgent">SuperOffice.Ser
 
 Download [WSDL file for Services88/Ticket](../Services88-Ticket.md) if you need to generate your own proxy code.
 
+* [AcceptTickets](AcceptTickets.md)
 * [AddAttachments](AddAttachments.md)
 * [BatchForward](BatchForward.md)
 * [BatchReply](BatchReply.md)

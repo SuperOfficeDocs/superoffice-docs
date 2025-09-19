@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 56,
-  "Name": "Halvorson, Jerde and Hane",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 694,
+  "Id": 500,
+  "Name": "Goodwin-Swaniawski",
+  "Tooltip": "dignissimos",
+  "Deleted": false,
+  "Rank": 585,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "necessitatibus",
-  "InUseByUserDefinedFields": false,
+  "ListType": "rem",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 652
+      "FieldType": "System.String",
+      "FieldLength": 969
     }
   },
   "_Links": {

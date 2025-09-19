@@ -90,7 +90,7 @@ OK
 POST /api/v1/ChatTopic/{chatTopicId}/Sessions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,29 +100,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 912,
-  "TopicId": 680,
+  "ChatSessionId": 252,
+  "TopicId": 139,
   "User": null,
   "Person": null,
-  "CustomerAlias": "possimus",
-  "CustomerHost": "sit",
-  "CustomerName": "Emard-Stanton",
-  "CustomerEmail": "araceli@kuhichayes.co.uk",
-  "CustomerPhone": "584-071-0832 x0172",
+  "CustomerAlias": "sed",
+  "CustomerHost": "voluptas",
+  "CustomerName": "Lindgren-Eichmann",
+  "CustomerEmail": "eddie@beierhamill.ca",
+  "CustomerPhone": "418-227-9827",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Medhurst-Smith",
+  "CustomerCompanyName": "Christiansen Group",
   "Status": "Closed",
-  "FirstMessage": "reiciendis",
-  "LastMessage": "laudantium",
-  "WhenRequested": "2011-02-17T03:46:59.8161962+01:00",
-  "WhenStarted": "2008-10-02T03:46:59.8161962+02:00",
-  "WhenEnded": "2015-01-29T03:46:59.8161962+01:00",
-  "WhenIdle": "2006-12-13T03:46:59.8161962+01:00",
-  "WhenFetched": "2002-02-12T03:46:59.8161962+01:00",
-  "SessionKey": "voluptatum",
-  "InitialQueuePos": 240,
-  "AlertLevel": 165,
-  "Rank": 716,
+  "FirstMessage": "et",
+  "LastMessage": "dolorem",
+  "WhenRequested": "2013-05-03T03:41:58.5117754+02:00",
+  "WhenStarted": "2010-10-02T03:41:58.5117754+02:00",
+  "WhenEnded": "2021-12-20T03:41:58.5117754+01:00",
+  "WhenIdle": "2017-09-25T03:41:58.5117754+02:00",
+  "WhenFetched": "2022-11-24T03:41:58.5117754+01:00",
+  "SessionKey": "error",
+  "InitialQueuePos": 837,
+  "AlertLevel": 604,
+  "Rank": 976,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -130,13 +130,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 509,
+  "Rating": 17,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 599
+      "FieldType": "System.Int32",
+      "FieldLength": 59
     }
   }
 }

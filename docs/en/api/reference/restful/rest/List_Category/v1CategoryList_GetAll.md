@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 539,
-    "Name": "Hegmann Group",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "UdListDefinitionId": 21,
-    "Rank": 790,
+    "Id": 724,
+    "Name": "Price, Marquardt and Schiller",
+    "Tooltip": "rem",
+    "Deleted": true,
+    "UdListDefinitionId": 875,
+    "Rank": 339,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 251
+        "FieldLength": 712
       }
     }
   }

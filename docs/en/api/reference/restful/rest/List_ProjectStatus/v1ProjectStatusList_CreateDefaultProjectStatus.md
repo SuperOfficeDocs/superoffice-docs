@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 792,
-  "Name": "Gutkowski, Bosco and Kunze",
-  "Tooltip": "voluptate",
-  "Deleted": true,
-  "UdListDefinitionId": 945,
-  "Rank": 818,
+  "Id": 747,
+  "Name": "Strosin-Kutch",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 508,
+  "Rank": 905,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 387
+      "FieldLength": 248
     }
   }
 }

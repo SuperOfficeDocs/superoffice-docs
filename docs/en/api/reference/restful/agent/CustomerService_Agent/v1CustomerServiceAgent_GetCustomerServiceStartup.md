@@ -80,27 +80,27 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TimezoneEnabled": false,
-  "TZOffset": 382,
-  "RecaptchaSiteKey": "atque",
+  "TZOffset": 600,
+  "RecaptchaSiteKey": "est",
   "SelectedPreferences": [
     {
       "Level": "Database",
-      "RawValue": "quia",
+      "RawValue": "mollitia",
       "Specification": null,
-      "DisplayValue": "iste",
-      "DisplayTooltip": "quia",
+      "DisplayValue": "cum",
+      "DisplayTooltip": "explicabo",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 644,
-      "PrefDescId": 489,
-      "TableName": "Simonis Inc and Sons",
-      "UserPreferenceId": 933,
+      "TargetId": 361,
+      "PrefDescId": 169,
+      "TableName": "Frami-Hackett",
+      "UserPreferenceId": 851,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 148
+          "FieldLength": 957
         }
       }
     }
@@ -109,8 +109,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 117
+      "FieldType": "System.Int32",
+      "FieldLength": 799
     }
   }
 }

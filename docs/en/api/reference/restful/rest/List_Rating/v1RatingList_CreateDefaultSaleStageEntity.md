@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 383,
-  "Value": "ducimus",
-  "Tooltip": "quis",
-  "Probability": 302,
+  "SaleStageId": 1001,
+  "Value": "unde",
+  "Tooltip": "et",
+  "Probability": 338,
   "Deleted": false,
-  "Rank": 815,
+  "Rank": 707,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 121
+      "FieldLength": 526
     }
   }
 }

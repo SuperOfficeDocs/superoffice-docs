@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 609,
-  "ModuleOwner": "repudiandae"
+  "AssociateId": 475,
+  "ModuleOwner": "natus"
 }
 ```
 
@@ -105,26 +105,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 678,
-    "Tooltip": "magni",
+    "Unrestricted": false,
+    "Total": 711,
+    "Tooltip": "error",
     "CanAssign": true,
-    "Free": 768,
-    "InUse": 838,
-    "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 232,
-    "Name": "Bayer-Feil",
-    "Description": "Realigned grid-enabled frame",
-    "PrerequisiteModuleName": "Bayer Group",
-    "SortOrder": 403,
-    "ExtraFlags": 131,
+    "Free": 188,
+    "InUse": 630,
+    "IsHidden": true,
+    "Assigned": true,
+    "ModuleLicenseId": 813,
+    "Name": "Ferry, Baumbach and Hermann",
+    "Description": "Right-sized executive installation",
+    "PrerequisiteModuleName": "Langosh-Kohler",
+    "SortOrder": 505,
+    "ExtraFlags": 845,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 24
+        "FieldType": "System.String",
+        "FieldLength": 924
       }
     }
   }

@@ -75,18 +75,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "atque",
+  "Provider": "hic",
   "Restrictions": [
     {
-      "Name": "Koss, Hoeger and Langworth",
-      "Operator": "possimus",
+      "Name": "Macejkovic, Langosh and Hudson",
+      "Operator": "ut",
       "Values": [
-        "ut",
-        "dolores"
+        "laborum",
+        "reprehenderit"
       ],
       "DisplayValues": [
-        "nihil",
-        "a"
+        "vitae",
+        "minima"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -94,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 749,
+      "InterParenthesis": 227,
       "InterOperator": "And",
-      "UniqueHash": 130
+      "UniqueHash": 100
     }
   ],
   "NewStatus": "Green"
@@ -110,7 +110,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  44,
-  487
+  920,
+  938
 ]
 ```

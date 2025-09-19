@@ -180,7 +180,6 @@ items:
   - SuperOffice.WebApi.Data.ImportErpData
   - SuperOffice.WebApi.Data.ImportLine
   - SuperOffice.WebApi.Data.IncomingMessage
-  - SuperOffice.WebApi.Data.InitalUtmParameters
   - SuperOffice.WebApi.Data.Installation
   - SuperOffice.WebApi.Data.LanguageInfo
   - SuperOffice.WebApi.Data.LegalBase
@@ -295,6 +294,7 @@ items:
   - SuperOffice.WebApi.Data.SaleTypeEntity
   - SuperOffice.WebApi.Data.SaleTypeStageLink
   - SuperOffice.WebApi.Data.SalesActivity
+  - SuperOffice.WebApi.Data.SavedUtmParameters
   - SuperOffice.WebApi.Data.Script
   - SuperOffice.WebApi.Data.SelectableMDOListItem
   - SuperOffice.WebApi.Data.SelectionCategory
@@ -367,7 +367,6 @@ items:
   - SuperOffice.WebApi.Data.UserInfo
   - SuperOffice.WebApi.Data.UserValidationResult
   - SuperOffice.WebApi.Data.UtmParameters
-  - SuperOffice.WebApi.Data.VideoMeetingReservation
   - SuperOffice.WebApi.Data.VisibleFor
   - SuperOffice.WebApi.Data.WebAppUsage
   - SuperOffice.WebApi.Data.WebPanelEntity

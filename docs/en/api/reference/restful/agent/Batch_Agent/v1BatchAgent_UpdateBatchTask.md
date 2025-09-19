@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -112,37 +112,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 837,
-  "Name": "Hauck, Hartmann and Batz",
-  "AssociateId": 931,
-  "DetailsTable": 697,
-  "DetailsRecord": 269,
+  "Id": 282,
+  "Name": "Conroy-Mills",
+  "AssociateId": 82,
+  "DetailsTable": 78,
+  "DetailsRecord": 137,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "vero",
-    "ParameterObject2": "distinctio"
+    "ParameterObject1": "veritatis",
+    "ParameterObject2": "sunt"
   },
-  "LastStarted": "2017-09-17T03:46:54.3007673+02:00",
-  "Created": "2003-12-18T03:46:54.3007673+01:00",
-  "StartCount": 638,
-  "DatabaseSerialNumber": "1272730",
-  "Context": "nobis",
-  "Result": "ea",
+  "LastStarted": "2016-08-07T03:41:53.0745025+02:00",
+  "Created": "1998-10-10T03:41:53.0745025+02:00",
+  "StartCount": 94,
+  "DatabaseSerialNumber": "992640",
+  "Context": "ex",
+  "Result": "et",
   "State": "All",
-  "Description": "Profound holistic challenge",
-  "Response": "omnis",
-  "Request": "est",
-  "ProgressDescription": "Horizontal 4th generation core",
-  "ProgressPercent": 599,
-  "FileName": "Marquardt, Welch and Schimmel",
+  "Description": "Horizontal intermediate data-warehouse",
+  "Response": "porro",
+  "Request": "quos",
+  "ProgressDescription": "Down-sized multimedia productivity",
+  "ProgressPercent": 659,
+  "FileName": "Raynor LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 636
+      "FieldLength": 681
     }
   }
 }

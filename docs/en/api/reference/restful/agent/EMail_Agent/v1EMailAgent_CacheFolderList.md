@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/EMail/CacheFolderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,19 +85,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Langworth LLC",
-    "Delimiter": "repellat",
-    "Flags": "quod",
-    "TotalItems": 666,
-    "UnreadItems": 888,
+    "Name": "Ullrich, Hilpert and Vandervort",
+    "Delimiter": "sunt",
+    "Flags": "voluptatem",
+    "TotalItems": 348,
+    "UnreadItems": 355,
     "Subscribed": false,
-    "EmailFolderId": 457,
+    "EmailFolderId": 193,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 821
+        "FieldLength": 262
       }
     }
   }

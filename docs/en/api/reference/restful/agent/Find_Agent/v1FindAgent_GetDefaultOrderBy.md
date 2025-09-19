@@ -77,13 +77,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quis",
-  "ProviderName": "Wolff-Kirlin",
-  "StorageKey": "nesciunt"
+  "StorageType": "et",
+  "ProviderName": "Rosenbaum-Bergstrom",
+  "StorageKey": "magni"
 }
 ```
 
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rohan-Gutkowski",
+    "Name": "Rice Inc and Sons",
     "Direction": "ASC"
   },
   {
-    "Name": "Rohan-Gutkowski",
+    "Name": "Rice Inc and Sons",
     "Direction": "ASC"
   }
 ]

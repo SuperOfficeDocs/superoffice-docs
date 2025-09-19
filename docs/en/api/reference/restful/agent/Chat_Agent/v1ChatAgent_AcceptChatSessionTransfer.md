@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Chat/AcceptChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 346
+  "ChatSessionId": 486
 }
 ```
 
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 117,
-  "TopicId": 741,
+  "ChatSessionId": 923,
+  "TopicId": 75,
   "User": null,
   "Person": null,
-  "CustomerAlias": "libero",
-  "CustomerHost": "ipsa",
-  "CustomerName": "Grant, Haag and Prohaska",
-  "CustomerEmail": "kimberly.hilll@mcglynndonnelly.biz",
-  "CustomerPhone": "(016)106-9469",
+  "CustomerAlias": "blanditiis",
+  "CustomerHost": "deserunt",
+  "CustomerName": "Howe Group",
+  "CustomerEmail": "kolby@schaefer.us",
+  "CustomerPhone": "159-405-3662 x494",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Spencer, Heidenreich and Beier",
+  "CustomerCompanyName": "Littel-Kovacek",
   "Status": "Closed",
-  "FirstMessage": "praesentium",
-  "LastMessage": "neque",
-  "WhenRequested": "2008-12-10T03:46:54.3632712+01:00",
-  "WhenStarted": "2002-05-03T03:46:54.3632712+02:00",
-  "WhenEnded": "2012-03-01T03:46:54.3632712+01:00",
-  "WhenIdle": "2012-12-05T03:46:54.3632712+01:00",
-  "WhenFetched": "2004-01-11T03:46:54.3632712+01:00",
-  "SessionKey": "qui",
-  "InitialQueuePos": 51,
-  "AlertLevel": 967,
-  "Rank": 103,
+  "FirstMessage": "consequatur",
+  "LastMessage": "quo",
+  "WhenRequested": "2013-01-26T03:41:53.1369995+01:00",
+  "WhenStarted": "2010-10-11T03:41:53.1369995+02:00",
+  "WhenEnded": "2015-04-05T03:41:53.1369995+02:00",
+  "WhenIdle": "2006-03-23T03:41:53.1369995+01:00",
+  "WhenFetched": "2001-01-23T03:41:53.1369995+01:00",
+  "SessionKey": "vel",
+  "InitialQueuePos": 735,
+  "AlertLevel": 721,
+  "Rank": 429,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -151,13 +151,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 567,
+  "Rating": 695,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 705
+      "FieldLength": 732
     }
   }
 }

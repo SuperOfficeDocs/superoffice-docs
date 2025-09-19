@@ -27,8 +27,8 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=aut
+GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
+GET /api/v1/List/DocumentTemplate/MDOItems?query=non
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 821,
-    "Name": "Hodkiewicz, Wiza and O'Kon",
-    "ToolTip": "Est expedita consequuntur nostrum dicta est nihil a.",
-    "Deleted": false,
-    "Rank": 716,
-    "Type": "aut",
+    "Id": 590,
+    "Name": "Wisozk-Stokes",
+    "ToolTip": "Ullam veritatis consectetur facilis vero maiores.",
+    "Deleted": true,
+    "Rank": 736,
+    "Type": "corporis",
     "ChildItems": [
       {
-        "Id": 420,
-        "Name": "Padberg Group",
-        "ToolTip": "Exercitationem maiores iure explicabo praesentium officia nam.",
-        "Deleted": true,
-        "Rank": 293,
-        "Type": "autem",
+        "Id": 163,
+        "Name": "Durgan LLC",
+        "ToolTip": "Eum cumque distinctio consequuntur sequi cumque et.",
+        "Deleted": false,
+        "Rank": 503,
+        "Type": "dicta",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "exercitationem",
-        "ColorBlock": 318,
-        "ExtraInfo": "dolorem",
-        "StyleHint": "rerum",
-        "FullName": "Jeff Schneider",
+        "IconHint": "id",
+        "ColorBlock": 896,
+        "ExtraInfo": "consequatur",
+        "StyleHint": "excepturi",
+        "FullName": "Brock Pagac",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 171
+            "FieldLength": 648
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 442,
-    "ExtraInfo": "rem",
-    "StyleHint": "quam",
-    "FullName": "Mr. Noemie Margarett Schaefer IV",
+    "IconHint": "optio",
+    "ColorBlock": 963,
+    "ExtraInfo": "labore",
+    "StyleHint": "qui",
+    "FullName": "Royal Quigley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 904
+        "FieldType": "System.String",
+        "FieldLength": 735
       }
     }
   }

@@ -93,8 +93,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 82,
-  "HeadingId": 866
+  "UdListDefinitionId": 149,
+  "HeadingId": 668
 }
 ```
 
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 656,
-    "Name": "Bailey, Goyette and Christiansen",
-    "ToolTip": "Natus sequi reiciendis a veniam ut qui nihil.",
+    "Id": 234,
+    "Name": "Huels Group",
+    "ToolTip": "Neque et iste nostrum illo et voluptatem.",
     "Deleted": false,
-    "Rank": 972,
-    "Type": "quis",
-    "ColorBlock": 549,
-    "IconHint": "alias",
+    "Rank": 314,
+    "Type": "voluptatibus",
+    "ColorBlock": 599,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2025-05-07T03:46:54.9569999+02:00",
+    "LastChanged": "2014-03-27T03:41:53.6994806+01:00",
     "ChildItems": [
       {
-        "Id": 504,
-        "Name": "Bosco-Runolfsdottir",
-        "ToolTip": "Voluptas quis expedita fugit harum ea ut.",
+        "Id": 928,
+        "Name": "Steuber Inc and Sons",
+        "ToolTip": "Aspernatur adipisci atque qui aut.",
         "Deleted": false,
-        "Rank": 833,
-        "Type": "sunt",
-        "ColorBlock": 240,
-        "IconHint": "maiores",
+        "Rank": 863,
+        "Type": "adipisci",
+        "ColorBlock": 719,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2010-12-28T03:46:54.9569999+01:00",
+        "LastChanged": "2009-04-28T03:41:53.6994806+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
+        "ExtraInfo": "est",
         "StyleHint": "quibusdam",
         "Hidden": true,
-        "FullName": "Dr. Keyshawn Dino Roberts",
+        "FullName": "Prof. Breana Bartell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 109
+            "FieldType": "System.String",
+            "FieldLength": 999
           }
         }
       }
     ],
-    "ExtraInfo": "culpa",
-    "StyleHint": "rerum",
+    "ExtraInfo": "nobis",
+    "StyleHint": "natus",
     "Hidden": false,
-    "FullName": "Miss Lexi Marilyne Rutherford",
+    "FullName": "Mrs. Raphael Velma D'Amore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 137
+        "FieldType": "System.String",
+        "FieldLength": 329
       }
     }
   }

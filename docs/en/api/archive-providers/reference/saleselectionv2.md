@@ -1330,7 +1330,7 @@ This is the archive Provider for the Selection sale archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleSelectionV2?$select=person/birthDay,person/updatedByWorkflow,person/personAddress/city,person/personUdef/SuperOffice:10,person/personExtra/y_rental/x_start
+GET /api/v1/archive/SaleSelectionV2?$select=registeredByFullName,person/personDirectFax/formattedNumber,person/personExtra/x_person_priority_relation,person/correspondingAssociate/contactName,associate/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Reynolds LLC"
+  "ApplicationName": "Gerlach, Champlin and Hammes"
 }
 ```
 
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 289,
-  "Name": "Dickens, Jacobs and Gusikowski",
-  "CreatedDate": "2005-09-28T03:46:54.847629+02:00",
-  "UpdatedDate": "2016-02-23T03:46:54.847629+01:00",
+  "ForeignAppId": 92,
+  "Name": "Schroeder-Stoltenberg",
+  "CreatedDate": "2021-12-30T03:41:53.5901046+01:00",
+  "UpdatedDate": "2021-06-20T03:41:53.5901046+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 404,
-      "Name": "Kub-Hirthe",
-      "CreatedDate": "2012-09-15T03:46:54.847629+02:00",
-      "UpdatedDate": "2023-03-03T03:46:54.847629+01:00",
-      "AssociateFullName": "Miss Wyatt Keebler",
-      "CreatedBy": "quia",
-      "UpdatedBy": "cupiditate",
-      "DeviceIdentifier": "qui",
-      "ForeignAppId": 567,
+      "ForeignDeviceId": 860,
+      "Name": "Kessler, Bogan and Lockman",
+      "CreatedDate": "2008-10-13T03:41:53.5901046+02:00",
+      "UpdatedDate": "2020-11-02T03:41:53.5901046+01:00",
+      "AssociateFullName": "Ms. Carmelo Schuppe III",
+      "CreatedBy": "sequi",
+      "UpdatedBy": "delectus",
+      "DeviceIdentifier": "illum",
+      "ForeignAppId": 131,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 204
+          "FieldLength": 261
         }
       }
     }
@@ -127,7 +127,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 868
+      "FieldLength": 213
     }
   }
 }

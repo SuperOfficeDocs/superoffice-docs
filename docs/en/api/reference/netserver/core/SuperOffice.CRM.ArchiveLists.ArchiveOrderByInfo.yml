@@ -204,6 +204,7 @@ items:
     parameters:
     - id: orderByInfos
       type: SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[]
+      description: Column infos to extract names from
     return:
       type: System.String[]
       description: Array of names, in original order

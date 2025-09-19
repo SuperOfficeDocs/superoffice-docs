@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 391,
-  "Name": "Walsh Group",
-  "Tooltip": "voluptatum",
+  "HeadingId": 542,
+  "Name": "Johnson, Barrows and Harber",
+  "Tooltip": "amet",
   "Deleted": false,
-  "Rank": 165,
-  "UdListDefinitionId": 577
+  "Rank": 252,
+  "UdListDefinitionId": 358
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 949,
-  "Name": "King Inc and Sons",
-  "Tooltip": "exercitationem",
+  "HeadingId": 769,
+  "Name": "Klein LLC",
+  "Tooltip": "enim",
   "Deleted": false,
-  "Rank": 483,
-  "UdListDefinitionId": 44,
+  "Rank": 503,
+  "UdListDefinitionId": 506,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 103
+      "FieldLength": 486
     }
   }
 }

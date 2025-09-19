@@ -84,30 +84,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 707,
-    "Section": "eum",
-    "Key": "cupiditate",
-    "Name": "Wiza Group",
+    "PrefDescId": 755,
+    "Section": "quod",
+    "Key": "vel",
+    "Name": "Wyman, Kautzer and Kuphal",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Enhanced fault-tolerant open architecture",
+    "Description": "Fully-configurable contextually-based intranet",
     "IsBuiltin": false,
-    "TableName": "Lindgren-Prosacco",
-    "UserDefinedListId": 431,
-    "Rank": 202,
-    "SubGroup": "sit",
-    "MinLevel": 426,
-    "MaxValue": 85,
-    "MinValue": 292,
-    "RequiredLicense": "nulla",
+    "TableName": "Rosenbaum, Kihn and Gleason",
+    "UserDefinedListId": 827,
+    "Rank": 894,
+    "SubGroup": "laboriosam",
+    "MinLevel": 146,
+    "MaxValue": 914,
+    "MinValue": 932,
+    "RequiredLicense": "similique",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 483
+        "FieldLength": 953
       }
     }
   }

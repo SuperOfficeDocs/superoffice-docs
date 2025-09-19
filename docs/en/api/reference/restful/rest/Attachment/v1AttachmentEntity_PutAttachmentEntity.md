@@ -94,18 +94,18 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 20,
-  "Name": "Wehner Group",
-  "ContentType": "beatae",
-  "AttSize": 701,
+  "AttachmentId": 855,
+  "Name": "VonRueden, Kuphal and Feest",
+  "ContentType": "saepe",
+  "AttSize": 412,
   "InlineImage": true,
-  "ContentId": "eos",
-  "AuthKey": "dicta",
-  "IsSafeFileExtension": true
+  "ContentId": "natus",
+  "AuthKey": "ullam",
+  "IsSafeFileExtension": false
 }
 ```
 
@@ -116,25 +116,25 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 905,
-  "Name": "Shields LLC",
-  "ContentType": "qui",
-  "AttSize": 680,
+  "AttachmentId": 572,
+  "Name": "Carroll, Mayer and Wehner",
+  "ContentType": "inventore",
+  "AttSize": 909,
   "InlineImage": false,
-  "ContentId": "corporis",
-  "AuthKey": "autem",
+  "ContentId": "hic",
+  "AuthKey": "ratione",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 785
+      "FieldLength": 217
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

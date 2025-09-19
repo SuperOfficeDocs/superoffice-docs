@@ -91,10 +91,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "consequatur",
-  "PrefKey": "laborum",
+  "PrefSection": "voluptas",
+  "PrefKey": "laboriosam",
   "PrefLevel": "Database",
-  "OwnerId": 643
+  "OwnerId": 567
 }
 ```
 
@@ -106,22 +106,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "et",
+  "RawValue": "labore",
   "Specification": null,
-  "DisplayValue": "error",
-  "DisplayTooltip": "est",
+  "DisplayValue": "et",
+  "DisplayTooltip": "nemo",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 630,
-  "PrefDescId": 508,
-  "TableName": "Hudson, Jenkins and Buckridge",
-  "UserPreferenceId": 218,
+  "TargetId": 34,
+  "PrefDescId": 127,
+  "TableName": "Sporer-Medhurst",
+  "UserPreferenceId": 437,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 87
+      "FieldType": "System.Int32",
+      "FieldLength": 95
     }
   }
 }

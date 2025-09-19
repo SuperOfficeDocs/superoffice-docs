@@ -44,7 +44,7 @@ This is the index table for the free text search function. Each word in FreeText
 
 | Table|  Description |
 |------|-------------|
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 |[freetextwords](freetextwords.md)  |This table contains the word list (automatically updated by the indexer) for the free-text search. Words are in UPPERCASE and truncated to 9 significant characters. Indexed words, dynamically updated by the freetext index |
 
 

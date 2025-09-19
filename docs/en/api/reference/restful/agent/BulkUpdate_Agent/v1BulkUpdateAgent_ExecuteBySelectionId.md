@@ -80,29 +80,29 @@ Content-Type: application/json; charset=utf-8
   "FieldValueInfos": [
     {
       "CanSupportMultiUse": false,
-      "DefaultShowInGui": true,
-      "DefaultShowInSelector": false,
+      "DefaultShowInGui": false,
+      "DefaultShowInSelector": true,
       "IsActive": false,
-      "Key": "repudiandae",
-      "ValueType": "est",
-      "Mandatory": false,
-      "EncodedDisplayName": "Kirlin Group",
-      "EncodedDisplayDescription": "Assimilated asynchronous open architecture",
-      "IconHint": "dolores",
+      "Key": "cumque",
+      "ValueType": "laudantium",
+      "Mandatory": true,
+      "EncodedDisplayName": "D'Amore-Russel",
+      "EncodedDisplayDescription": "Distributed user-facing secured line",
+      "IconHint": "error",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "beatae",
-      "EncodedDataCaptionDescription": "Re-contextualized neutral matrices",
-      "CurrentOperationType": "aut",
+      "EncodedDataCaption": "totam",
+      "EncodedDataCaptionDescription": "Public-key multi-tasking product",
+      "CurrentOperationType": "assumenda",
       "Values": [
-        "quis",
-        "id"
+        "labore",
+        "itaque"
       ],
       "DisplayValues": [
-        "rerum",
-        "ratione"
+        "reprehenderit",
+        "laborum"
       ],
       "OperationInfos": [
         {},
@@ -110,9 +110,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "West-Spinka",
-  "Context": "quisquam",
-  "SelectionId": 166,
+  "TableName": "Bartoletti, Halvorson and Hoeger",
+  "Context": "accusantium",
+  "SelectionId": 984,
   "IsShadow": false
 }
 ```
@@ -123,5 +123,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-620
+577
 ```

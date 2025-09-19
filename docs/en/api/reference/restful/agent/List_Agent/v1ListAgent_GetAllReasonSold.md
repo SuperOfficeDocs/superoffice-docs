@@ -79,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 555,
-    "Value": "minus",
-    "Tooltip": "et",
+    "Id": 383,
+    "Value": "sit",
+    "Tooltip": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 163
+        "FieldLength": 722
       }
     }
   },
   {
-    "Id": 555,
-    "Value": "minus",
-    "Tooltip": "et",
+    "Id": 383,
+    "Value": "sit",
+    "Tooltip": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 163
+        "FieldLength": 722
       }
     }
   }

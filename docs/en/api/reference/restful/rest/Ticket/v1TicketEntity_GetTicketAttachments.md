@@ -67,7 +67,7 @@ OK
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 342,
-    "Name": "Walter Group",
-    "ContentType": "tenetur",
-    "AttSize": 448,
+    "AttachmentId": 179,
+    "Name": "Larkin Group",
+    "ContentType": "omnis",
+    "AttSize": 102,
     "InlineImage": true,
-    "ContentId": "magni",
-    "AuthKey": "ipsa",
-    "IsSafeFileExtension": true,
+    "ContentId": "eum",
+    "AuthKey": "molestias",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 268
+        "FieldType": "System.String",
+        "FieldLength": 309
       }
     }
   }

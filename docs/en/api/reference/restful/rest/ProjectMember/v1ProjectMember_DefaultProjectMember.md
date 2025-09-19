@@ -69,6 +69,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -78,7 +80,7 @@ OK
 GET /api/v1/ProjectMember/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,33 +90,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 59,
-  "ContactId": 160,
-  "ProjectId": 320,
-  "ContactName": "Robel, Heaney and Tremblay",
-  "ContactDepartment": "",
-  "ProjectName": "Kutch Inc and Sons",
-  "EmailId": 762,
-  "EmailAddress": "jasmin.ziemann@predovic.ca",
-  "CountryId": 30,
-  "Firstname": "Edwina",
-  "MiddleName": "Cronin-Kuhn",
-  "Lastname": "Kling",
-  "PersonId": 623,
-  "Mrmrs": "voluptatem",
-  "ProjectMemberTypeName": "Lynch LLC",
-  "Phone": "1-837-583-2586 x95505",
-  "PhoneId": 290,
-  "ProjectMemberTypeId": 188,
-  "EmailAddressName": "stella@vonruedenreynolds.ca",
-  "Comment": "perspiciatis",
-  "FullName": "Katelin Jacobs",
+  "ProjectmemberId": 951,
+  "ContactId": 555,
+  "ProjectId": 456,
+  "ContactName": "Mitchell-Pagac",
+  "ContactDepartment": "monetize sexy methodologies",
+  "ProjectName": "Brown LLC",
+  "EmailId": 286,
+  "EmailAddress": "hannah_senger@upton.com",
+  "CountryId": 256,
+  "Firstname": "Rickie",
+  "MiddleName": "Gaylord Inc and Sons",
+  "Lastname": "Langworth",
+  "PersonId": 920,
+  "Mrmrs": "excepturi",
+  "ProjectMemberTypeName": "Steuber Group",
+  "Phone": "238.872.7242 x504",
+  "PhoneId": 405,
+  "ProjectMemberTypeId": 94,
+  "EmailAddressName": "ebony_lueilwitz@vandervortondricka.ca",
+  "Comment": "et",
+  "FullName": "Delfina Bergnaum",
+  "Registered": "2007-10-27T03:41:59.1992454+02:00",
+  "Updated": "2019-09-03T03:41:59.1992454+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 452
+      "FieldLength": 191
     }
   }
 }

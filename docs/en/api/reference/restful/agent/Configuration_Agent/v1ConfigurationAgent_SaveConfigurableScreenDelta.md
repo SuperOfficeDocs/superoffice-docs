@@ -88,26 +88,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 251,
-  "Name": "Connelly-Marquardt",
-  "Description": "Reactive directional utilisation",
-  "DeltaJson": "ipsam",
+  "ConfigurableScreenDeltaId": 28,
+  "Name": "Stroman Group",
+  "Description": "Devolved regional flexibility",
+  "DeltaJson": "dolorem",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "ipsum",
-  "UpdatedDate": "2004-03-31T03:46:54.4570178+02:00",
-  "CreatedDate": "2023-01-30T03:46:54.4570178+01:00",
+  "RecipeId": "veritatis",
+  "UpdatedDate": "1999-01-04T03:41:53.1682479+01:00",
+  "CreatedDate": "2015-12-14T03:41:53.1682479+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    836,
-    677
+    933,
+    507
   ],
-  "AppliesToKey": "quo"
+  "AppliesToKey": "molestias"
 }
 ```
 
@@ -118,28 +118,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 863,
-  "Name": "Ebert, Johnston and Harvey",
-  "Description": "Quality-focused directional extranet",
-  "DeltaJson": "optio",
+  "ConfigurableScreenDeltaId": 309,
+  "Name": "Nader-Thompson",
+  "Description": "Organized tertiary capacity",
+  "DeltaJson": "eaque",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "eos",
-  "UpdatedDate": "2002-12-24T03:46:54.4570178+01:00",
-  "CreatedDate": "2010-08-28T03:46:54.4570178+02:00",
+  "RecipeId": "ea",
+  "UpdatedDate": "2011-09-08T03:41:53.1838791+02:00",
+  "CreatedDate": "2005-04-18T03:41:53.1838791+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    676,
-    804
+    510,
+    115
   ],
-  "AppliesToKey": "ratione",
+  "AppliesToKey": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldLength": 317
     }
   }
 }

@@ -46,7 +46,7 @@ User-defined fields for contact (long strings)
 
 | Table|  Description |
 |------|-------------|
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 
 
 ## Replication Flags

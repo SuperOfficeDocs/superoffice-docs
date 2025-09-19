@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/List/GetPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 236,
-    "Value": "sapiente",
-    "Tooltip": "non",
+    "Id": 389,
+    "Value": "deserunt",
+    "Tooltip": "nemo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 658
+        "FieldType": "System.Int32",
+        "FieldLength": 921
       }
     }
   },
   {
-    "Id": 236,
-    "Value": "sapiente",
-    "Tooltip": "non",
+    "Id": 389,
+    "Value": "deserunt",
+    "Tooltip": "nemo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 658
+        "FieldType": "System.Int32",
+        "FieldLength": 921
       }
     }
   }

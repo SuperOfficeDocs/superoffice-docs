@@ -18,7 +18,6 @@ items:
   - SuperOffice.CRM.UserPreferenceStrings.DiaryView.LunchEndTime
   - SuperOffice.CRM.UserPreferenceStrings.DiaryView.LunchStartTime
   - SuperOffice.CRM.UserPreferenceStrings.DiaryView.NewFollowUpDialogActive
-  - SuperOffice.CRM.UserPreferenceStrings.DiaryView.SecretaryMode
   - SuperOffice.CRM.UserPreferenceStrings.DiaryView.Section
   - SuperOffice.CRM.UserPreferenceStrings.DiaryView.SilentAfter
   - SuperOffice.CRM.UserPreferenceStrings.DiaryView.SundayFirstDay
@@ -308,30 +307,6 @@ items:
     return:
       type: System.String
     content.vb: Public Const LunchStartTime As String = "LunchStartTime"
-- uid: SuperOffice.CRM.UserPreferenceStrings.DiaryView.SecretaryMode
-  commentId: F:SuperOffice.CRM.UserPreferenceStrings.DiaryView.SecretaryMode
-  id: SecretaryMode
-  parent: SuperOffice.CRM.UserPreferenceStrings.DiaryView
-  langs:
-  - csharp
-  - vb
-  name: SecretaryMode
-  nameWithType: UserPreferenceStrings.DiaryView.SecretaryMode
-  fullName: SuperOffice.CRM.UserPreferenceStrings.DiaryView.SecretaryMode
-  type: Field
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.CRM
-  summary: >-
-    Keeps the current diary owner in all panels (Default = No)
-
-    <p></p>Control type: Bool, access: Admin, Crm, Admin users, Wizard
-  example: []
-  syntax:
-    content: public const string SecretaryMode = "SecretaryMode"
-    return:
-      type: System.String
-    content.vb: Public Const SecretaryMode As String = "SecretaryMode"
 - uid: SuperOffice.CRM.UserPreferenceStrings.DiaryView.SilentAfter
   commentId: F:SuperOffice.CRM.UserPreferenceStrings.DiaryView.SilentAfter
   id: SilentAfter

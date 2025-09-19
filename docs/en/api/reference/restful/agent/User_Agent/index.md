@@ -12,6 +12,8 @@ content_type: reference
 
 
 
+* [POST Agents/User/SetPasswordFromName](v1UserAgent_SetPasswordFromName.md)
+
 * [POST Agents/User/SetPassword](v1UserAgent_SetPassword.md)
 
 * [POST Agents/User/ChangeOwnPassword](v1UserAgent_ChangeOwnPassword.md)
@@ -108,6 +110,8 @@ content_type: reference
 
 * [POST Agents/User/GetAllFunctionalRights](v1UserAgent_GetAllFunctionalRights.md)
 
+* [POST Agents/User/GetAllDataRights](v1UserAgent_GetAllDataRights.md)
+
 * [POST Agents/User/GetFunctionalRights](v1UserAgent_GetFunctionalRights.md)
 
 * [POST Agents/User/SetFunctionalRights](v1UserAgent_SetFunctionalRights.md)
@@ -199,5 +203,3 @@ content_type: reference
 * [POST Agents/User/CreateDefaultUserFromUserType](v1UserAgent_CreateDefaultUserFromUserType.md)
 
 * [POST Agents/User/GetUserFromEjUserId](v1UserAgent_GetUserFromEjUserId.md)
-
-* [POST Agents/User/SetPasswordFromName](v1UserAgent_SetPasswordFromName.md)

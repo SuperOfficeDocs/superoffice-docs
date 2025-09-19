@@ -82,8 +82,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "ut",
-  "GroupName": "Emmerich-Kertzmann"
+  "Type": "minus",
+  "GroupName": "Zboncak Inc and Sons"
 }
 ```
 
@@ -95,41 +95,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "est",
-    "voluptatibus"
+    "et",
+    "id"
   ],
   "Users": [
     {
-      "Value": "aliquid",
-      "DisplayValue": "minus",
+      "Value": "in",
+      "DisplayValue": "molestias",
       "Columns": [
-        "sequi",
-        "illum"
+        "sed",
+        "maxime"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 704
+          "FieldType": "System.String",
+          "FieldLength": 806
         }
       }
     },
     {
-      "Value": "aliquid",
-      "DisplayValue": "minus",
+      "Value": "in",
+      "DisplayValue": "molestias",
       "Columns": [
-        "sequi",
-        "illum"
+        "sed",
+        "maxime"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 704
+          "FieldType": "System.String",
+          "FieldLength": 806
         }
       }
     }
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldType": "System.String",
+      "FieldLength": 639
     }
   }
 }

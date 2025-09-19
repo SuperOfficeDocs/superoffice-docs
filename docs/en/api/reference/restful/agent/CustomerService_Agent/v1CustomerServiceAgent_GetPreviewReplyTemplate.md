@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 149
+  "ReplyTemplateId": 685
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "O'Conner, Gerhold and Monahan",
-  "Description": "Vision-oriented content-based toolset",
-  "OwnedByFullName": "Mr. Leonardo Ratke PhD",
-  "Updated": "2015-12-08T03:46:54.5976376+01:00",
-  "Body": "et",
+  "Name": "Harber-Cronin",
+  "Description": "Upgradable foreground core",
+  "OwnedByFullName": "Miss Thalia Arvel Barton",
+  "Updated": "2003-11-07T03:41:53.3557401+01:00",
+  "Body": "voluptatem",
   "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 887
+      "FieldLength": 388
     }
   }
 }

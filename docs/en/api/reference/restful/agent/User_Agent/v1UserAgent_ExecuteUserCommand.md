@@ -30,7 +30,7 @@ Executes the custom command for User
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/ExecuteUserCommand?commandName=Rodriguez LLC
+POST /api/v1/Agents/User/ExecuteUserCommand?commandName=Dickinson-Crona
 POST /api/v1/Agents/User/ExecuteUserCommand?actionResult=Cancel
 POST /api/v1/Agents/User/ExecuteUserCommand?$select=name,department,category/id
 ```
@@ -113,14 +113,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 810,
-  "Name": "Upton Group",
-  "Rank": 359,
-  "Tooltip": "dolores",
+  "AssociateId": 391,
+  "Name": "Dickinson, Lang and Erdman",
+  "Rank": 171,
+  "Tooltip": "a",
   "LicenseOwners": [
     {
-      "Name": "Ortiz-Kemmer",
-      "Description": "Advanced bandwidth-monitored collaboration",
+      "Name": "Howe-Kautzer",
+      "Description": "Self-enabling optimizing toolset",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Ortiz-Kemmer",
-      "Description": "Advanced bandwidth-monitored collaboration",
+      "Name": "Howe-Kautzer",
+      "Description": "Self-enabling optimizing toolset",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -147,87 +147,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "qui",
-      "Tooltip": "dolor",
-      "Id": 197,
-      "Rank": 456,
-      "Deleted": true
+      "Value": "ut",
+      "Tooltip": "voluptas",
+      "Id": 885,
+      "Rank": 427,
+      "Deleted": false
     },
     {
-      "Value": "qui",
-      "Tooltip": "dolor",
-      "Id": 197,
-      "Rank": 456,
-      "Deleted": true
+      "Value": "ut",
+      "Tooltip": "voluptas",
+      "Id": 885,
+      "Rank": 427,
+      "Deleted": false
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2025-06-02T03:46:55.5976024+02:00",
-  "Lastlogout": "2016-11-12T03:46:55.5976024+01:00",
-  "EjUserId": 114,
-  "RequestSignature": "deserunt",
+  "Deleted": true,
+  "Lastlogin": "2005-06-10T03:41:54.3400739+02:00",
+  "Lastlogout": "2003-12-27T03:41:54.3400739+01:00",
+  "EjUserId": 16,
+  "RequestSignature": "sit",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "aut",
-      "DisplayValue": "ratione"
+      "Value": "dicta",
+      "DisplayValue": "adipisci"
     },
     {
       "Type": null,
-      "Value": "aut",
-      "DisplayValue": "ratione"
+      "Value": "dicta",
+      "DisplayValue": "adipisci"
     }
   ],
-  "UserName": "Schowalter, Kulas and Bernhard",
+  "UserName": "Mann, Schamberger and Lubowitz",
   "TicketCategories": [
     {
-      "Id": 212,
-      "Name": "Leuschke-Veum",
-      "ToolTip": "Laborum soluta dicta qui eveniet dolor.",
+      "Id": 271,
+      "Name": "Macejkovic LLC",
+      "ToolTip": "Repudiandae ex voluptas.",
       "Deleted": false,
-      "Rank": 665,
-      "Type": "sit",
+      "Rank": 765,
+      "Type": "assumenda",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptatem",
-      "ColorBlock": 364,
-      "ExtraInfo": "explicabo",
-      "StyleHint": "cumque",
-      "FullName": "Philip Osinski"
+      "IconHint": "rerum",
+      "ColorBlock": 187,
+      "ExtraInfo": "dolorum",
+      "StyleHint": "assumenda",
+      "FullName": "Anna Hahn"
     }
   ],
-  "NickName": "Roob, Wiza and Bahringer",
+  "NickName": "Wisozk-Mann",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "sed"
+    "ExtraFields1": "accusantium",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "recusandae",
-    "CustomFields2": "dicta"
+    "CustomFields1": "eligendi",
+    "CustomFields2": "nisi"
   },
   "PostSaveCommands": [
     {
-      "Name": "Goodwin Group",
-      "DisplayName": "Hahn Group",
-      "Description": "Triple-buffered system-worthy matrix",
-      "ToolTip": "Sapiente ullam non.",
+      "Name": "Konopelski, Bahringer and Hansen",
+      "DisplayName": "Yundt, Davis and Schmitt",
+      "Description": "De-engineered bi-directional protocol",
+      "ToolTip": "Et quod atque quibusdam et enim reiciendis quidem.",
       "Actions": "Implicit",
-      "ActionData": "aliquam"
+      "ActionData": "voluptatem"
     },
     {
-      "Name": "Goodwin Group",
-      "DisplayName": "Hahn Group",
-      "Description": "Triple-buffered system-worthy matrix",
-      "ToolTip": "Sapiente ullam non.",
+      "Name": "Konopelski, Bahringer and Hansen",
+      "DisplayName": "Yundt, Davis and Schmitt",
+      "Description": "De-engineered bi-directional protocol",
+      "ToolTip": "Et quod atque quibusdam et enim reiciendis quidem.",
       "Actions": "Implicit",
-      "ActionData": "aliquam"
+      "ActionData": "voluptatem"
     }
   ]
 }
@@ -241,14 +241,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "vero",
+  "Message": "sit",
   "Result": "Cancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 399
+      "FieldLength": 384
     }
   }
 }

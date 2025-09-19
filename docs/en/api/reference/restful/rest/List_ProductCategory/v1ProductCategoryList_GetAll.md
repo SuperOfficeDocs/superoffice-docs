@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 49,
-    "Name": "Hoeger LLC",
-    "Tooltip": "et",
+    "Id": 342,
+    "Name": "Wehner Group",
+    "Tooltip": "quaerat",
     "Deleted": false,
-    "UdListDefinitionId": 624,
-    "Rank": 654,
+    "UdListDefinitionId": 72,
+    "Rank": 898,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 718
+        "FieldType": "System.Int32",
+        "FieldLength": 771
       }
     }
   }

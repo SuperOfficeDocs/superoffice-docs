@@ -18,7 +18,7 @@ items:
   - SuperOffice.Util.RagAIHelper.Markdownize(System.Boolean,System.String)
   - SuperOffice.Util.RagAIHelper.Markdownize(System.String,System.String,System.IO.Stream)
   - SuperOffice.Util.RagAIHelper.Markdownize(System.String,System.String,System.String)
-  - SuperOffice.Util.RagAIHelper.PutDocument(System.String,System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
+  - SuperOffice.Util.RagAIHelper.PutDocument(System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
   - SuperOffice.Util.RagAIHelper.ServiceCopilotNS
   langs:
   - csharp
@@ -300,26 +300,24 @@ items:
   nameWithType.vb: RagAIHelper.DeleteNamespace(String)
   fullName.vb: SuperOffice.Util.RagAIHelper.DeleteNamespace(String)
   name.vb: DeleteNamespace(String)
-- uid: SuperOffice.Util.RagAIHelper.PutDocument(System.String,System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
-  commentId: M:SuperOffice.Util.RagAIHelper.PutDocument(System.String,System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
-  id: PutDocument(System.String,System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
+- uid: SuperOffice.Util.RagAIHelper.PutDocument(System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
+  commentId: M:SuperOffice.Util.RagAIHelper.PutDocument(System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
+  id: PutDocument(System.String,System.String,System.String,SuperOffice.Data.RagType,System.Collections.Generic.Dictionary{System.String,System.Object})
   parent: SuperOffice.Util.RagAIHelper
   langs:
   - csharp
   - vb
-  name: PutDocument(string, string, string, string, RagType, Dictionary<string, object>)
-  nameWithType: RagAIHelper.PutDocument(string, string, string, string, RagType, Dictionary<string, object>)
-  fullName: SuperOffice.Util.RagAIHelper.PutDocument(string, string, string, string, SuperOffice.Data.RagType, System.Collections.Generic.Dictionary<string, object>)
+  name: PutDocument(string, string, string, RagType, Dictionary<string, object>)
+  nameWithType: RagAIHelper.PutDocument(string, string, string, RagType, Dictionary<string, object>)
+  fullName: SuperOffice.Util.RagAIHelper.PutDocument(string, string, string, SuperOffice.Data.RagType, System.Collections.Generic.Dictionary<string, object>)
   type: Method
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.Util
   syntax:
-    content: public Task PutDocument(string namespaceName, string uid, string id, string documentContent, RagType ragType, Dictionary<string, object> metadata = null)
+    content: public Task PutDocument(string namespaceName, string id, string documentContent, RagType ragType, Dictionary<string, object> metadata = null)
     parameters:
     - id: namespaceName
-      type: System.String
-    - id: uid
       type: System.String
     - id: id
       type: System.String
@@ -331,11 +329,11 @@ items:
       type: System.Collections.Generic.Dictionary{System.String,System.Object}
     return:
       type: System.Threading.Tasks.Task
-    content.vb: Public Function PutDocument(namespaceName As String, uid As String, id As String, documentContent As String, ragType As RagType, metadata As Dictionary(Of String, Object) = Nothing) As Task
+    content.vb: Public Function PutDocument(namespaceName As String, id As String, documentContent As String, ragType As RagType, metadata As Dictionary(Of String, Object) = Nothing) As Task
   overload: SuperOffice.Util.RagAIHelper.PutDocument*
-  nameWithType.vb: RagAIHelper.PutDocument(String, String, String, String, RagType, Dictionary(Of String, Object))
-  fullName.vb: SuperOffice.Util.RagAIHelper.PutDocument(String, String, String, String, SuperOffice.Data.RagType, System.Collections.Generic.Dictionary(Of String, Object))
-  name.vb: PutDocument(String, String, String, String, RagType, Dictionary(Of String, Object))
+  nameWithType.vb: RagAIHelper.PutDocument(String, String, String, RagType, Dictionary(Of String, Object))
+  fullName.vb: SuperOffice.Util.RagAIHelper.PutDocument(String, String, String, SuperOffice.Data.RagType, System.Collections.Generic.Dictionary(Of String, Object))
+  name.vb: PutDocument(String, String, String, RagType, Dictionary(Of String, Object))
 - uid: SuperOffice.Util.RagAIHelper.Markdownize(System.Boolean,System.String)
   commentId: M:SuperOffice.Util.RagAIHelper.Markdownize(System.Boolean,System.String)
   id: Markdownize(System.Boolean,System.String)
@@ -1581,7 +1579,7 @@ references:
 - uid: SuperOffice.Util.RagAIHelper.PutDocument*
   commentId: Overload:SuperOffice.Util.RagAIHelper.PutDocument
   isExternal: true
-  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_PutDocument_System_String_System_String_System_String_System_String_SuperOffice_Data_RagType_System_Collections_Generic_Dictionary_System_String_System_Object__
+  href: SuperOffice.Util.RagAIHelper.html#SuperOffice_Util_RagAIHelper_PutDocument_System_String_System_String_System_String_SuperOffice_Data_RagType_System_Collections_Generic_Dictionary_System_String_System_Object__
   name: PutDocument
   nameWithType: RagAIHelper.PutDocument
   fullName: SuperOffice.Util.RagAIHelper.PutDocument

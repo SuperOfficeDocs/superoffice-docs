@@ -82,7 +82,7 @@ OK
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,14 +92,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 144,
-  "Name": "Mosciski, Bernier and Lehner",
-  "Rank": 218,
-  "Tooltip": "ut",
+  "AssociateId": 35,
+  "Name": "Jaskolski-Raynor",
+  "Rank": 835,
+  "Tooltip": "exercitationem",
   "LicenseOwners": [
     {
-      "Name": "Torphy Group",
-      "Description": "Assimilated static leverage",
+      "Name": "Goldner LLC",
+      "Description": "Networked interactive capacity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -112,14 +112,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 129
+          "FieldType": "System.String",
+          "FieldLength": 737
         }
       }
     },
     {
-      "Name": "Torphy Group",
-      "Description": "Assimilated static leverage",
+      "Name": "Goldner LLC",
+      "Description": "Networked interactive capacity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 129
+          "FieldType": "System.String",
+          "FieldLength": 737
         }
       }
     }
@@ -142,110 +142,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "placeat",
-      "Tooltip": "ad",
-      "Id": 560,
-      "Rank": 387,
+      "Value": "possimus",
+      "Tooltip": "error",
+      "Id": 99,
+      "Rank": 223,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 118
+          "FieldLength": 554
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2019-08-12T03:47:00.5349272+02:00",
-  "Lastlogout": "2007-07-15T03:47:00.5349272+02:00",
-  "EjUserId": 488,
-  "RequestSignature": "ea",
+  "Deleted": true,
+  "Lastlogin": "2024-11-15T03:41:59.2617427+01:00",
+  "Lastlogout": "2022-10-29T03:41:59.2617427+02:00",
+  "EjUserId": 751,
+  "RequestSignature": "earum",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "iusto",
-      "DisplayValue": "molestiae",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 428
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "iusto",
-      "DisplayValue": "molestiae",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 428
-        }
-      }
-    }
-  ],
-  "UserName": "Corwin Group",
-  "TicketCategories": [
-    {
-      "Id": 927,
-      "Name": "Marks, Daniel and Pagac",
-      "ToolTip": "Dicta sit quibusdam et eaque et.",
-      "Deleted": true,
-      "Rank": 704,
-      "Type": "ea",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "dolor",
-      "ColorBlock": 424,
-      "ExtraInfo": "dolorem",
-      "StyleHint": "quae",
-      "FullName": "Mr. Alanna Albert Cartwright MD",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 782
-        }
-      }
-    }
-  ],
-  "NickName": "Kohler, Bernier and Schmeler",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "esse",
-    "ExtraFields2": "ut"
-  },
-  "CustomFields": {
-    "CustomFields1": "odit",
-    "CustomFields2": "quibusdam"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Bins, Murray and Towne",
-      "DisplayName": "Denesik, Zemlak and Hamill",
-      "Description": "Customizable 4th generation time-frame",
-      "ToolTip": "Temporibus voluptatem tempora.",
-      "Actions": "Implicit",
-      "ActionData": "voluptate",
+      "Value": "eos",
+      "DisplayValue": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 87
+          "FieldLength": 105
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "eos",
+      "DisplayValue": "cupiditate",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 105
+        }
+      }
+    }
+  ],
+  "UserName": "Botsford-Muller",
+  "TicketCategories": [
+    {
+      "Id": 742,
+      "Name": "Sporer LLC",
+      "ToolTip": "Rerum eligendi qui sed quia similique.",
+      "Deleted": true,
+      "Rank": 653,
+      "Type": "est",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "asperiores",
+      "ColorBlock": 845,
+      "ExtraInfo": "facere",
+      "StyleHint": "vel",
+      "FullName": "Mrs. Emily Josefa Trantow",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 531
+        }
+      }
+    }
+  ],
+  "NickName": "Emmerich, Roberts and Watsica",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "ipsam",
+    "ExtraFields2": "sunt"
+  },
+  "CustomFields": {
+    "CustomFields1": "dolorum",
+    "CustomFields2": "earum"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Ryan LLC",
+      "DisplayName": "Rolfson Group",
+      "Description": "Focused radical frame",
+      "ToolTip": "Quis neque nisi iure corporis.",
+      "Actions": "Implicit",
+      "ActionData": "inventore",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 29
         }
       }
     }
@@ -254,8 +254,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 82
+      "FieldType": "System.Int32",
+      "FieldLength": 230
     }
   }
 }

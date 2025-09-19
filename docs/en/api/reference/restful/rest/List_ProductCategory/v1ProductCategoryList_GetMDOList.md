@@ -27,8 +27,8 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=sunt
+GET /api/v1/List/ProductCategory/MDOItems?flat=True
+GET /api/v1/List/ProductCategory/MDOItems?query=quas
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 237,
-    "Name": "Harvey, Turcotte and Smith",
-    "ToolTip": "Est consequatur eos est est ea.",
-    "Deleted": false,
-    "Rank": 111,
-    "Type": "quis",
+    "Id": 317,
+    "Name": "Toy-Johnston",
+    "ToolTip": "Doloremque est impedit.",
+    "Deleted": true,
+    "Rank": 837,
+    "Type": "nesciunt",
     "ChildItems": [
       {
-        "Id": 561,
-        "Name": "Durgan-Hessel",
-        "ToolTip": "Consequatur totam qui omnis recusandae.",
+        "Id": 57,
+        "Name": "Vandervort, Bernhard and Rath",
+        "ToolTip": "Tempora quaerat non omnis.",
         "Deleted": false,
-        "Rank": 877,
-        "Type": "quos",
+        "Rank": 551,
+        "Type": "non",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 777,
-        "ExtraInfo": "enim",
-        "StyleHint": "tempore",
-        "FullName": "Nova Johns",
+        "IconHint": "nesciunt",
+        "ColorBlock": 51,
+        "ExtraInfo": "provident",
+        "StyleHint": "cupiditate",
+        "FullName": "Rae Brekke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 163
+            "FieldLength": 164
           }
         }
       }
     ],
     "IconHint": "esse",
-    "ColorBlock": 503,
-    "ExtraInfo": "et",
-    "StyleHint": "error",
-    "FullName": "Prof. Wilhelmine Feil II",
+    "ColorBlock": 479,
+    "ExtraInfo": "accusantium",
+    "StyleHint": "quos",
+    "FullName": "Wiley Quigley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 58
+        "FieldLength": 318
       }
     }
   }

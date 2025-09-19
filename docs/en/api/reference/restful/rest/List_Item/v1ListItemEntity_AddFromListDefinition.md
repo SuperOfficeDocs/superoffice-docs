@@ -82,12 +82,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 623,
-  "Name": "Roob Group",
-  "Tooltip": "illum",
+  "Id": 429,
+  "Name": "Parker-Strosin",
+  "Tooltip": "laboriosam",
   "Deleted": false,
-  "UdListDefinitionId": 703,
-  "Rank": 455
+  "UdListDefinitionId": 84,
+  "Rank": 567
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 799,
-  "Name": "Klocko, Hirthe and Zboncak",
-  "Tooltip": "quidem",
+  "Id": 664,
+  "Name": "Schaefer-Labadie",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "UdListDefinitionId": 820,
-  "Rank": 621,
+  "UdListDefinitionId": 552,
+  "Rank": 749,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 283
+      "FieldType": "System.Int32",
+      "FieldLength": 3
     }
   }
 }

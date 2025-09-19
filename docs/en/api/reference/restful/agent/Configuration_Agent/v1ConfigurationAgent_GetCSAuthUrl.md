@@ -72,14 +72,14 @@ OK
 POST /api/v1/Agents/Configuration/GetCSAuthUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "hic",
-  "ProgramName": "Toy-Becker",
-  "Action": "odit",
-  "ExtraParameters": "dignissimos"
+  "Language": "non",
+  "ProgramName": "Rau, Dibbert and Lubowitz",
+  "Action": "nihil",
+  "ExtraParameters": "quia"
 }
 ```
 

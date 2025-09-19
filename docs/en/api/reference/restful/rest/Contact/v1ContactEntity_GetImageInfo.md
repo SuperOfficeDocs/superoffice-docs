@@ -82,28 +82,28 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 05 Jan 2002 03:46:59 G1T
+Last-Modified: Mon, 22 May 2000 03:41:58 G5T
 
 {
-  "BlobId": 352,
-  "BlobSize": 276,
-  "Description": "Robust asynchronous frame",
-  "ExtraInfo": "vel",
-  "IsEncrypted": true,
+  "BlobId": 43,
+  "BlobSize": 539,
+  "Description": "Diverse bi-directional project",
+  "ExtraInfo": "officiis",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "quae",
-  "OriginalSize": 748,
-  "CreatedDate": "2000-02-17T03:46:59.8161962+01:00",
-  "UpdatedDate": "2002-01-05T03:46:59.8161962+01:00",
+  "MimeType": "eos",
+  "OriginalSize": 189,
+  "CreatedDate": "2021-12-16T03:41:58.5588764+01:00",
+  "UpdatedDate": "2000-05-22T03:41:58.5588764+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "recusandae",
+  "ConceptualType": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldLength": 261
     }
   }
 }

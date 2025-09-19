@@ -38,7 +38,7 @@ This table allows several customers to be connected to several tickets (many-to-
 
 | Table|  Description |
 |------|-------------|
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 |[ticket](ticket.md)  |This table contains the tickets (requests) of the system. Its purpose should be evident. |
 
 

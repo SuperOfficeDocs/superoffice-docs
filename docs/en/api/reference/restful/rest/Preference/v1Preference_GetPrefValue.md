@@ -84,22 +84,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "sint",
+  "RawValue": "architecto",
   "Specification": null,
-  "DisplayValue": "voluptatibus",
-  "DisplayTooltip": "vel",
+  "DisplayValue": "omnis",
+  "DisplayTooltip": "velit",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 818,
-  "PrefDescId": 480,
-  "TableName": "Cummerata-Predovic",
-  "UserPreferenceId": 502,
+  "TargetId": 41,
+  "PrefDescId": 673,
+  "TableName": "Marvin LLC",
+  "UserPreferenceId": 304,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 218
+      "FieldLength": 581
     }
   }
 }

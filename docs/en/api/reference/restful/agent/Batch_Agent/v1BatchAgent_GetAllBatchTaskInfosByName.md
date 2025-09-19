@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Weimann LLC"
+  "TaskName": "Bartoletti Inc and Sons"
 }
 ```
 
@@ -111,37 +111,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 479,
-    "Name": "Bednar-Monahan",
-    "AssociateId": 58,
-    "DetailsTable": 269,
-    "DetailsRecord": 962,
+    "Id": 275,
+    "Name": "Grady Group",
+    "AssociateId": 846,
+    "DetailsTable": 72,
+    "DetailsRecord": 755,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "fugit",
-      "ParameterObject2": "et"
+      "ParameterObject1": "totam",
+      "ParameterObject2": "rerum"
     },
-    "LastStarted": "2023-07-12T03:46:54.3007673+02:00",
-    "Created": "2013-12-13T03:46:54.3007673+01:00",
-    "StartCount": 833,
-    "DatabaseSerialNumber": "707387",
-    "Context": "molestiae",
-    "Result": "esse",
+    "LastStarted": "2000-05-24T03:41:53.0745025+02:00",
+    "Created": "2002-04-02T03:41:53.0745025+02:00",
+    "StartCount": 217,
+    "DatabaseSerialNumber": "343838",
+    "Context": "eligendi",
+    "Result": "rerum",
     "State": "All",
-    "Description": "Public-key didactic orchestration",
-    "Response": "qui",
-    "Request": "debitis",
-    "ProgressDescription": "Multi-lateral heuristic complexity",
-    "ProgressPercent": 21,
-    "FileName": "Dickens-Flatley",
+    "Description": "Business-focused upward-trending model",
+    "Response": "impedit",
+    "Request": "sunt",
+    "ProgressDescription": "Reverse-engineered 4th generation attitude",
+    "ProgressPercent": 717,
+    "FileName": "Runte, Quitzon and Abernathy",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 573
+        "FieldLength": 791
       }
     }
   }

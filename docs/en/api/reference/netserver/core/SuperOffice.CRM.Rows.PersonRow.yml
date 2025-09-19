@@ -44,6 +44,7 @@ items:
   - SuperOffice.CRM.Rows.PersonRow.Kanafname
   - SuperOffice.CRM.Rows.PersonRow.Kanalname
   - SuperOffice.CRM.Rows.PersonRow.Lastname
+  - SuperOffice.CRM.Rows.PersonRow.LeadstatusId
   - SuperOffice.CRM.Rows.PersonRow.MiddleName
   - SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowId
   - SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowWhen
@@ -73,6 +74,7 @@ items:
   - SuperOffice.CRM.Rows.PersonRow.OnKanafnameChange
   - SuperOffice.CRM.Rows.PersonRow.OnKanalnameChange
   - SuperOffice.CRM.Rows.PersonRow.OnLastnameChange
+  - SuperOffice.CRM.Rows.PersonRow.OnLeadstatusIdChange
   - SuperOffice.CRM.Rows.PersonRow.OnLoad(SuperOffice.Data.SoDataReader,SuperOffice.Data.SQL.TableInfo)
   - SuperOffice.CRM.Rows.PersonRow.OnMiddleNameChange
   - SuperOffice.CRM.Rows.PersonRow.OnModifiedByWorkflowIdChange
@@ -169,6 +171,7 @@ items:
   - SuperOffice.CRM.Rows.PersonRow._currentKanafname
   - SuperOffice.CRM.Rows.PersonRow._currentKanalname
   - SuperOffice.CRM.Rows.PersonRow._currentLastname
+  - SuperOffice.CRM.Rows.PersonRow._currentLeadstatusId
   - SuperOffice.CRM.Rows.PersonRow._currentMiddleName
   - SuperOffice.CRM.Rows.PersonRow._currentModifiedByWorkflowId
   - SuperOffice.CRM.Rows.PersonRow._currentModifiedByWorkflowWhen
@@ -226,6 +229,7 @@ items:
   - SuperOffice.CRM.Rows.PersonRow._onKanafnameChange
   - SuperOffice.CRM.Rows.PersonRow._onKanalnameChange
   - SuperOffice.CRM.Rows.PersonRow._onLastnameChange
+  - SuperOffice.CRM.Rows.PersonRow._onLeadstatusIdChange
   - SuperOffice.CRM.Rows.PersonRow._onMiddleNameChange
   - SuperOffice.CRM.Rows.PersonRow._onModifiedByWorkflowIdChange
   - SuperOffice.CRM.Rows.PersonRow._onModifiedByWorkflowWhenChange
@@ -282,6 +286,7 @@ items:
   - SuperOffice.CRM.Rows.PersonRow._persistedKanafname
   - SuperOffice.CRM.Rows.PersonRow._persistedKanalname
   - SuperOffice.CRM.Rows.PersonRow._persistedLastname
+  - SuperOffice.CRM.Rows.PersonRow._persistedLeadstatusId
   - SuperOffice.CRM.Rows.PersonRow._persistedMiddleName
   - SuperOffice.CRM.Rows.PersonRow._persistedModifiedByWorkflowId
   - SuperOffice.CRM.Rows.PersonRow._persistedModifiedByWorkflowWhen
@@ -327,7 +332,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: >-
-    Persons in a company or an organizations. All associates have a corresponding person record
+    Persons
 
     <br />Row Object for table 'person'. Row objects correspond directly to database tables, and one
 
@@ -1665,6 +1670,27 @@ items:
     return:
       type: System.DateTime
     content.vb: Protected _persistedModifiedByWorkflowWhen As Date
+- uid: SuperOffice.CRM.Rows.PersonRow._persistedLeadstatusId
+  commentId: F:SuperOffice.CRM.Rows.PersonRow._persistedLeadstatusId
+  id: _persistedLeadstatusId
+  parent: SuperOffice.CRM.Rows.PersonRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedLeadstatusId
+  nameWithType: PersonRow._persistedLeadstatusId
+  fullName: SuperOffice.CRM.Rows.PersonRow._persistedLeadstatusId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Persisted value, see property <xref href="SuperOffice.CRM.Rows.PersonRow.LeadstatusId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _persistedLeadstatusId
+    return:
+      type: System.Int32
+    content.vb: Protected _persistedLeadstatusId As Integer
 - uid: SuperOffice.CRM.Rows.PersonRow._currentPersonId
   commentId: F:SuperOffice.CRM.Rows.PersonRow._currentPersonId
   id: _currentPersonId
@@ -2862,6 +2888,27 @@ items:
     return:
       type: System.DateTime
     content.vb: Protected _currentModifiedByWorkflowWhen As Date
+- uid: SuperOffice.CRM.Rows.PersonRow._currentLeadstatusId
+  commentId: F:SuperOffice.CRM.Rows.PersonRow._currentLeadstatusId
+  id: _currentLeadstatusId
+  parent: SuperOffice.CRM.Rows.PersonRow
+  langs:
+  - csharp
+  - vb
+  name: _currentLeadstatusId
+  nameWithType: PersonRow._currentLeadstatusId
+  fullName: SuperOffice.CRM.Rows.PersonRow._currentLeadstatusId
+  type: Field
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Current value, see property <xref href="SuperOffice.CRM.Rows.PersonRow.LeadstatusId" data-throw-if-not-resolved="false"></xref>.
+  example: []
+  syntax:
+    content: protected int _currentLeadstatusId
+    return:
+      type: System.Int32
+    content.vb: Protected _currentLeadstatusId As Integer
 - uid: SuperOffice.CRM.Rows.PersonRow.GetExtraFieldsHelper
   commentId: M:SuperOffice.CRM.Rows.PersonRow.GetExtraFieldsHelper
   id: GetExtraFieldsHelper
@@ -2992,7 +3039,7 @@ items:
   summary: >-
     Constructor for the class taking an index as argument.
 
-    Persons in a company or an organizations. All associates have a corresponding person record
+    Persons
   example: []
   syntax:
     content: protected PersonRow(PersonRow.PersonRowIdxBase idx)
@@ -3022,7 +3069,7 @@ items:
   summary: >-
     Create a new instance of the PersonRow object.
 
-    Persons in a company or an organizations. All associates have a corresponding person record
+    Persons
   example: []
   syntax:
     content: public static PersonRow CreateNew()
@@ -3052,7 +3099,7 @@ items:
 
     will be returned. If any fields are missing or one of the non-primary key fields is DBNull, an exception will be thrown.
 
-    Persons in a company or an organizations. All associates have a corresponding person record
+    Persons
   example: []
   syntax:
     content: public static PersonRow GetFromReader(SoDataReader reader, PersonTableInfo tableInfo)
@@ -5595,6 +5642,37 @@ items:
       type: System.DateTime
     content.vb: Public Overridable Property ModifiedByWorkflowWhen As Date
   overload: SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowWhen*
+- uid: SuperOffice.CRM.Rows.PersonRow.LeadstatusId
+  commentId: P:SuperOffice.CRM.Rows.PersonRow.LeadstatusId
+  id: LeadstatusId
+  parent: SuperOffice.CRM.Rows.PersonRow
+  langs:
+  - csharp
+  - vb
+  name: LeadstatusId
+  nameWithType: PersonRow.LeadstatusId
+  fullName: SuperOffice.CRM.Rows.PersonRow.LeadstatusId
+  type: Property
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: '.NET type: int. Refinement of categories of lead type. Empty if the category is not a lead type. If this person has a contact, the leadstatus is from the contact and not editable on the person'
+  remarks: >-
+    Original type in dictionary:  FK.
+
+    <p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>
+
+    <p>This field is not protected by the Sentry system, and can always be read</p>
+
+    <p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>
+  example: []
+  syntax:
+    content: public virtual int LeadstatusId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property LeadstatusId As Integer
+  overload: SuperOffice.CRM.Rows.PersonRow.LeadstatusId*
 - uid: SuperOffice.CRM.Rows.PersonRow._onContactIdChange
   commentId: E:SuperOffice.CRM.Rows.PersonRow._onContactIdChange
   id: _onContactIdChange
@@ -6771,6 +6849,27 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
     content.vb: Protected Event _onModifiedByWorkflowWhenChange As OnFieldChange(Of Date)
+- uid: SuperOffice.CRM.Rows.PersonRow._onLeadstatusIdChange
+  commentId: E:SuperOffice.CRM.Rows.PersonRow._onLeadstatusIdChange
+  id: _onLeadstatusIdChange
+  parent: SuperOffice.CRM.Rows.PersonRow
+  langs:
+  - csharp
+  - vb
+  name: _onLeadstatusIdChange
+  nameWithType: PersonRow._onLeadstatusIdChange
+  fullName: SuperOffice.CRM.Rows.PersonRow._onLeadstatusIdChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Change envent for property <xref href="SuperOffice.CRM.Rows.PersonRow.LeadstatusId" data-throw-if-not-resolved="false"></xref>; field is of .NET type int.
+  example: []
+  syntax:
+    content: protected event OnFieldChange<int> _onLeadstatusIdChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Protected Event _onLeadstatusIdChange As OnFieldChange(Of Integer)
 - uid: SuperOffice.CRM.Rows.PersonRow.OnContactIdChange
   commentId: E:SuperOffice.CRM.Rows.PersonRow.OnContactIdChange
   id: OnContactIdChange
@@ -7947,6 +8046,27 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.DateTime}
     content.vb: Public Event OnModifiedByWorkflowWhenChange As OnFieldChange(Of Date)
+- uid: SuperOffice.CRM.Rows.PersonRow.OnLeadstatusIdChange
+  commentId: E:SuperOffice.CRM.Rows.PersonRow.OnLeadstatusIdChange
+  id: OnLeadstatusIdChange
+  parent: SuperOffice.CRM.Rows.PersonRow
+  langs:
+  - csharp
+  - vb
+  name: OnLeadstatusIdChange
+  nameWithType: PersonRow.OnLeadstatusIdChange
+  fullName: SuperOffice.CRM.Rows.PersonRow.OnLeadstatusIdChange
+  type: Event
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: Event raised when LeadstatusId is changing.
+  example: []
+  syntax:
+    content: public event OnFieldChange<int> OnLeadstatusIdChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
+    content.vb: Public Event OnLeadstatusIdChange As OnFieldChange(Of Integer)
 references:
 - uid: SuperOffice.CRM.Rows.PersonRow.CreateNew
   commentId: M:SuperOffice.CRM.Rows.PersonRow.CreateNew
@@ -11576,6 +11696,13 @@ references:
   name: ModifiedByWorkflowWhen
   nameWithType: PersonRow.ModifiedByWorkflowWhen
   fullName: SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowWhen
+- uid: SuperOffice.CRM.Rows.PersonRow.LeadstatusId
+  commentId: P:SuperOffice.CRM.Rows.PersonRow.LeadstatusId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.PersonRow.html#SuperOffice_CRM_Rows_PersonRow_LeadstatusId
+  name: LeadstatusId
+  nameWithType: PersonRow.LeadstatusId
+  fullName: SuperOffice.CRM.Rows.PersonRow.LeadstatusId
 - uid: SuperOffice.CRM.Rows.PersonRow.GetExtraFieldsHelper*
   commentId: Overload:SuperOffice.CRM.Rows.PersonRow.GetExtraFieldsHelper
   isExternal: true
@@ -12935,6 +13062,13 @@ references:
   name: ModifiedByWorkflowWhen
   nameWithType: PersonRow.ModifiedByWorkflowWhen
   fullName: SuperOffice.CRM.Rows.PersonRow.ModifiedByWorkflowWhen
+- uid: SuperOffice.CRM.Rows.PersonRow.LeadstatusId*
+  commentId: Overload:SuperOffice.CRM.Rows.PersonRow.LeadstatusId
+  isExternal: true
+  href: SuperOffice.CRM.Rows.PersonRow.html#SuperOffice_CRM_Rows_PersonRow_LeadstatusId
+  name: LeadstatusId
+  nameWithType: PersonRow.LeadstatusId
+  fullName: SuperOffice.CRM.Rows.PersonRow.LeadstatusId
 - uid: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   commentId: T:SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
   parent: SuperOffice.CRM.Rows

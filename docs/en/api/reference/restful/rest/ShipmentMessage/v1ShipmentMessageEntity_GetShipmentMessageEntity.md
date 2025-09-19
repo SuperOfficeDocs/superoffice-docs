@@ -94,7 +94,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -104,38 +104,38 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 436,
-  "PlainMessage": "delectus",
-  "HtmlMessage": "deleniti",
-  "SmsMessage": "aliquid",
-  "Description": "Automated discrete adapter",
-  "Subject": "itaque",
-  "FolderId": 298,
-  "HeaderField": "cupiditate",
-  "Design": "adipisci",
+  "ShipmentMessageId": 870,
+  "PlainMessage": "iure",
+  "HtmlMessage": "ea",
+  "SmsMessage": "facere",
+  "Description": "Reverse-engineered neutral application",
+  "Subject": "sit",
+  "FolderId": 530,
+  "HeaderField": "est",
+  "Design": "provident",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Vision-oriented 24/7 protocol",
-  "AccessKey": "maiores",
-  "DocumentMessage": 27,
-  "Registered": "2009-06-20T03:47:00.3005605+02:00",
-  "RegisteredAssociateId": 824,
-  "Updated": "2003-07-19T03:47:00.3005605+02:00",
-  "UpdatedAssociateId": 527,
-  "UpdatedCount": 526,
+  "LongDescription": "Programmable zero tolerance policy",
+  "AccessKey": "quo",
+  "DocumentMessage": 442,
+  "Registered": "2005-08-01T03:41:59.0273773+02:00",
+  "RegisteredAssociateId": 936,
+  "Updated": "2023-05-10T03:41:59.0273773+02:00",
+  "UpdatedAssociateId": 96,
+  "UpdatedCount": 728,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 339
+      "FieldType": "System.Int32",
+      "FieldLength": 259
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

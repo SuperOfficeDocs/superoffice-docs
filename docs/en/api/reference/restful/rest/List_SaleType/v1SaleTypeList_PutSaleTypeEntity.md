@@ -117,47 +117,47 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 259,
-  "Name": "Kunde LLC",
-  "Tooltip": "ea",
-  "Rank": 683,
+  "SaleTypeId": 550,
+  "Name": "Maggio-Greenfelder",
+  "Tooltip": "laudantium",
+  "Rank": 915,
   "DurationUnit": "Century",
-  "SaleDuration": 630,
-  "SaleTypeCatId": 616,
-  "Deleted": true,
+  "SaleDuration": 509,
+  "SaleTypeCatId": 774,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 794,
-  "QuoteLinesTemplate": 419,
-  "ConfirmationLinesTemplate": 50,
+  "DefaultQuoteValidity": 743,
+  "QuoteLinesTemplate": 749,
+  "ConfirmationLinesTemplate": 56,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 450,
-  "MinEarningPercent": 747,
-  "GroupQuoteLinesBy": 782,
-  "SortGroupLinesBy": 58,
+  "MaxDiscountPercent": 114,
+  "MinEarningPercent": 393,
+  "GroupQuoteLinesBy": 729,
+  "SortGroupLinesBy": 832,
   "Stages": [
     {
-      "Id": 405,
-      "Name": "Schuppe, Fritsch and Thompson",
-      "ToolTip": "Quidem facilis omnis voluptatem illo et.",
-      "Deleted": true,
-      "Rank": 241,
-      "Type": "consectetur",
-      "ColorBlock": 639,
-      "IconHint": "harum",
+      "Id": 64,
+      "Name": "Gleason-Feeney",
+      "ToolTip": "Facere sit animi deleniti nihil.",
+      "Deleted": false,
+      "Rank": 220,
+      "Type": "ipsa",
+      "ColorBlock": 646,
+      "IconHint": "eos",
       "Selected": false,
-      "LastChanged": "2017-04-01T03:47:00.8005429+02:00",
+      "LastChanged": "2025-03-29T03:41:59.6054711+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ratione",
-      "StyleHint": "odio",
-      "Hidden": false,
-      "FullName": "Zane Watsica"
+      "ExtraInfo": "molestias",
+      "StyleHint": "rem",
+      "Hidden": true,
+      "FullName": "Raegan Nikolaus"
     }
   ]
 }
@@ -170,53 +170,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 648,
-  "Name": "Krajcik-Rodriguez",
-  "Tooltip": "non",
-  "Rank": 353,
+  "SaleTypeId": 52,
+  "Name": "Hessel Group",
+  "Tooltip": "quas",
+  "Rank": 995,
   "DurationUnit": "Century",
-  "SaleDuration": 368,
-  "SaleTypeCatId": 570,
-  "Deleted": false,
+  "SaleDuration": 174,
+  "SaleTypeCatId": 68,
+  "Deleted": true,
   "HasGuide": true,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 632,
-  "QuoteLinesTemplate": 235,
-  "ConfirmationLinesTemplate": 700,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 412,
-  "MinEarningPercent": 163,
-  "GroupQuoteLinesBy": 413,
-  "SortGroupLinesBy": 986,
+  "DefaultQuoteValidity": 823,
+  "QuoteLinesTemplate": 57,
+  "ConfirmationLinesTemplate": 594,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 265,
+  "MinEarningPercent": 254,
+  "GroupQuoteLinesBy": 255,
+  "SortGroupLinesBy": 863,
   "Stages": [
     {
-      "Id": 12,
-      "Name": "Labadie Group",
-      "ToolTip": "Eos quo.",
+      "Id": 888,
+      "Name": "Koepp-Kunde",
+      "ToolTip": "Delectus repellendus at dolor quis iure ut.",
       "Deleted": false,
-      "Rank": 566,
-      "Type": "voluptatum",
-      "ColorBlock": 219,
-      "IconHint": "reiciendis",
+      "Rank": 691,
+      "Type": "cumque",
+      "ColorBlock": 418,
+      "IconHint": "saepe",
       "Selected": false,
-      "LastChanged": "2009-11-11T03:47:00.8161673+01:00",
+      "LastChanged": "2002-03-15T03:41:59.6054711+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "modi",
-      "StyleHint": "accusantium",
-      "Hidden": false,
-      "FullName": "Heloise Therese Feeney MD",
+      "ExtraInfo": "dolorum",
+      "StyleHint": "officia",
+      "Hidden": true,
+      "FullName": "Mrs. Elissa Langworth I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 243
+          "FieldLength": 875
         }
       }
     }
@@ -226,7 +226,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 908
+      "FieldLength": 900
     }
   }
 }

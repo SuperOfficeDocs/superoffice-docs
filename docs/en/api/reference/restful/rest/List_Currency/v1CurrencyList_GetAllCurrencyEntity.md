@@ -28,7 +28,7 @@ Calls the List agent service GetAllCurrencyEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Currency/Items?includeDeleted=False
+GET /api/v1/List/Currency/Items?includeDeleted=True
 ```
 
 
@@ -85,19 +85,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 851,
-    "Name": "Fay, Crooks and Volkman",
-    "Tooltip": "ullam",
-    "Rank": 455,
-    "Rate": 27889.466,
-    "Units": 19998.054,
-    "Deleted": true,
+    "CurrencyId": 338,
+    "Name": "Kilback-Lueilwitz",
+    "Tooltip": "sit",
+    "Rank": 894,
+    "Rate": 17246.402,
+    "Units": 1682.9579999999999,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 251
+        "FieldLength": 598
       }
     }
   }

@@ -12,6 +12,7 @@ envir: onsite
 
 Service methods defined on <see cref='T:ITicketAgent'>TicketAgent</see> that can trigger server-side event scripts.
 
+* [AcceptTicketsAsync](acceptticketsasync.md)
 * [AddAttachmentsAsync](addattachmentsasync.md)
 * [BatchForwardAsync](batchforwardasync.md)
 * [BatchReplyAsync](batchreplyasync.md)

@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 603,
-  "CurrencyId": 644
+  "QuoteConnectionId": 339,
+  "CurrencyId": 658
 }
 ```
 
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 66,
-    "ERPPriceListKey": "quos",
-    "QuoteConnectionId": 822,
-    "Name": "Rath-Yundt",
-    "Description": "Synergistic static database",
-    "Currency": "perferendis",
-    "CurrencyName": "Morissette-Cartwright",
-    "ValidFrom": "2008-11-07T03:46:55.2226157+01:00",
-    "ValidTo": "2017-08-29T03:46:55.2226157+02:00",
+    "PriceListId": 150,
+    "ERPPriceListKey": "porro",
+    "QuoteConnectionId": 39,
+    "Name": "Hand Group",
+    "Description": "Cross-platform zero administration migration",
+    "Currency": "reiciendis",
+    "CurrencyName": "Crist LLC",
+    "ValidFrom": "2007-07-12T03:41:53.9650897+02:00",
+    "ValidTo": "2018-09-11T03:41:53.9650897+02:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 127
+        "FieldType": "System.String",
+        "FieldLength": 497
       }
     }
   }

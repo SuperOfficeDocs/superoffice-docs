@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 554
+  "QuoteAlternativeId": 435
 }
 ```
 
@@ -138,88 +138,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 91,
-    "ERPQuoteLineKey": "ut",
-    "QuoteAlternativeId": 552,
-    "ERPProductKey": "eum",
+    "QuoteLineId": 502,
+    "ERPQuoteLineKey": "qui",
+    "QuoteAlternativeId": 838,
+    "ERPProductKey": "voluptates",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 22273.338,
-    "DeliveredQuantity": 21044.809999999998,
-    "Rank": 711,
-    "Name": "Mante-Hyatt",
-    "Description": "Re-contextualized system-worthy algorithm",
-    "Code": "nihil",
-    "QuantityUnit": "ratione",
-    "PriceUnit": "voluptatem",
-    "ItemNumber": "131717",
+    "Quantity": 17584.874,
+    "DeliveredQuantity": 9568.101999999999,
+    "Rank": 416,
+    "Name": "Brown, Bednar and Kris",
+    "Description": "Face to face systematic frame",
+    "Code": "est",
+    "QuantityUnit": "quia",
+    "PriceUnit": "eum",
+    "ItemNumber": "590304",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "id",
-    "ProductTypeKey": "et",
-    "Supplier": "commodi",
-    "SupplierCode": "expedita",
-    "Thumbnail": "autem",
-    "VATInfo": "quo",
-    "VAT": 23172.796,
-    "UnitCost": 24282.232,
-    "UnitMinimumPrice": 20239.372,
-    "UnitListPrice": 1222.26,
+    "ProductFamilyKey": "est",
+    "ProductTypeKey": "provident",
+    "Supplier": "quasi",
+    "SupplierCode": "tempore",
+    "Thumbnail": "aut",
+    "VATInfo": "possimus",
+    "VAT": 27162.378,
+    "UnitCost": 27889.466,
+    "UnitMinimumPrice": 27739.034,
+    "UnitListPrice": 28115.113999999998,
     "ExtraInfo": [
       {
-        "Name": "Auer-Kilback",
-        "Value": "optio",
+        "Name": "Romaguera Group",
+        "Value": "accusantium",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 188
+            "FieldLength": 585
           }
         }
       },
       {
-        "Name": "Auer-Kilback",
-        "Value": "optio",
+        "Name": "Romaguera Group",
+        "Value": "accusantium",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 188
+            "FieldLength": 585
           }
         }
       }
     ],
-    "RawExtraInfo": "quas",
-    "IsSubscription": true,
-    "SubscriptionUnit": "voluptatum",
-    "SubscriptionQuantity": 6863.46,
-    "SubscriptionStart": "2024-04-24T03:46:55.2226157+02:00",
-    "ERPDiscountPercent": 14808.15,
-    "ERPDiscountAmount": 15804.761999999999,
-    "DiscountPercent": 7581.146,
-    "DiscountAmount": 28437.915999999997,
+    "RawExtraInfo": "ad",
+    "IsSubscription": false,
+    "SubscriptionUnit": "repudiandae",
+    "SubscriptionQuantity": 25767.748,
+    "SubscriptionStart": "1999-09-13T03:41:53.9650897+02:00",
+    "ERPDiscountPercent": 14870.83,
+    "ERPDiscountAmount": 8248.688,
+    "DiscountPercent": 19656.448,
+    "DiscountAmount": 17337.288,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 12159.92,
-    "EarningAmount": 21778.166,
-    "SubTotal": 29873.288,
-    "TotalPrice": 26419.62,
-    "Rights": "possimus",
-    "Rule": "eos",
-    "ExtraField1": "facere",
-    "ExtraField2": "commodi",
-    "ExtraField3": "facilis",
-    "ExtraField4": "deserunt",
-    "ExtraField5": "nam",
+    "EarningPercent": 9778.08,
+    "EarningAmount": 20978.996,
+    "SubTotal": 5471.964,
+    "TotalPrice": 7991.7,
+    "Rights": "recusandae",
+    "Rule": "aut",
+    "ExtraField1": "voluptatem",
+    "ExtraField2": "at",
+    "ExtraField3": "cumque",
+    "ExtraField4": "et",
+    "ExtraField5": "quidem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 118
+        "FieldType": "System.String",
+        "FieldLength": 254
       }
     }
   }

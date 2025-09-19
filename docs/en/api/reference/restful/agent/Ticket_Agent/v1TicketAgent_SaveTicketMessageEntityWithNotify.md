@@ -116,28 +116,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 943,
+  "EjMessageId": 523,
   "Ticket": null,
-  "CreatedAt": "2001-11-16T03:46:55.550729+01:00",
+  "CreatedAt": "2006-01-19T03:41:54.2932014+01:00",
   "CreatedBy": null,
-  "Author": "commodi",
+  "Author": "enim",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "maxime",
-  "TimeSpent": 620,
-  "Body": "dicta",
-  "HtmlBody": "corrupti",
-  "EmailHeader": "cecile@walker.name",
-  "DebugInfo": "provident",
-  "MailSorter": "ut",
+  "MessageId": "delectus",
+  "TimeSpent": 461,
+  "Body": "ut",
+  "HtmlBody": "sed",
+  "EmailHeader": "andre.dicki@stehr.us",
+  "DebugInfo": "dignissimos",
+  "MailSorter": "in",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "dolor",
+  "SearchTitle": "explicabo",
   "MessageHeaders": [
     {
-      "Id": 259,
-      "Name": "Hudson-Turcotte",
-      "Value": "harum",
+      "Id": 361,
+      "Name": "Harris-Morar",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -145,50 +145,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 122
+          "FieldLength": 923
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "similique",
-  "Sentiment": 286,
-  "SentimentConfidence": 255,
+  "Important": true,
+  "Language": "quam",
+  "Sentiment": 646,
+  "SentimentConfidence": 589,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 801,
-      "Name": "Beatty-Osinski",
-      "ContentType": "optio",
-      "AttSize": 230,
+      "AttachmentId": 5,
+      "Name": "Jast Group",
+      "ContentType": "ut",
+      "AttSize": 154,
       "InlineImage": false,
-      "ContentId": "vero",
-      "AuthKey": "quos",
+      "ContentId": "quam",
+      "AuthKey": "eum",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 482
+          "FieldType": "System.Int32",
+          "FieldLength": 132
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "unde",
-    "ExtraFields2": "repellendus"
+    "ExtraFields1": "consectetur",
+    "ExtraFields2": "quidem"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "laborum"
+    "CustomFields1": "cum",
+    "CustomFields2": "eos"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 450
+      "FieldType": "System.String",
+      "FieldLength": 328
     }
   }
 }

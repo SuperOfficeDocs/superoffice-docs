@@ -103,11 +103,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 266
+  "ProjectId": 396
 }
 ```
 
@@ -118,94 +118,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "quaerat",
-  "SignOffText": "et",
-  "SignOnConfirmationText": "quis",
-  "SignOnText": "fuga",
-  "EventDate": "2024-02-29T03:46:55.1757421+01:00",
-  "Enabled": false,
-  "CreatedDate": "2015-03-31T03:46:55.1757421+02:00",
+  "SignOffConfirmationText": "hic",
+  "SignOffText": "delectus",
+  "SignOnConfirmationText": "placeat",
+  "SignOnText": "eius",
+  "EventDate": "2024-09-12T03:41:53.9025923+02:00",
+  "Enabled": true,
+  "CreatedDate": "1999-04-23T03:41:53.9025923+02:00",
   "SignOff": false,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 328,
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 375,
   "SignOffTriggersAssign": true,
   "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 412,
-  "SignOnTriggersAssign": true,
-  "UpdatedDate": "2021-03-18T03:46:55.1757421+01:00",
+  "SignOnTaskId": 896,
+  "SignOnTriggersAssign": false,
+  "UpdatedDate": "2011-04-06T03:41:53.9025923+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 742,
-  "Id": 581,
-  "PublishFrom": "2008-09-26T03:46:55.1757421+02:00",
+  "ProjectId": 420,
+  "Id": 367,
+  "PublishFrom": "1998-06-04T03:41:53.9025923+02:00",
   "PublishType": "External",
-  "PublishTo": "2012-09-17T03:46:55.1757421+02:00",
+  "PublishTo": "2015-07-13T03:41:53.9025923+02:00",
   "VisibleForCategories": [
     {
-      "Id": 915,
-      "Name": "Williamson Group",
-      "ToolTip": "Eius dolorum libero.",
+      "Id": 970,
+      "Name": "Reilly-Nolan",
+      "ToolTip": "Cum sint facere nemo officiis molestiae dolor.",
       "Deleted": true,
-      "Rank": 86,
-      "Type": "dolores",
+      "Rank": 316,
+      "Type": "voluptates",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "enim",
-      "ColorBlock": 695,
-      "ExtraInfo": "expedita",
-      "StyleHint": "magni",
-      "FullName": "Anastasia Gutmann",
+      "IconHint": "et",
+      "ColorBlock": 883,
+      "ExtraInfo": "molestiae",
+      "StyleHint": "perferendis",
+      "FullName": "Mr. Cara Jacobs MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 295
+          "FieldType": "System.Int32",
+          "FieldLength": 870
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 521,
-      "Name": "Kihn, Roberts and Labadie",
-      "ToolTip": "Fugiat qui.",
-      "Deleted": true,
-      "Rank": 70,
-      "Type": "natus",
+      "Id": 450,
+      "Name": "Green Inc and Sons",
+      "ToolTip": "Et temporibus.",
+      "Deleted": false,
+      "Rank": 766,
+      "Type": "rerum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "rem",
-      "ColorBlock": 574,
-      "ExtraInfo": "nihil",
-      "StyleHint": "et",
-      "FullName": "Miss Darren Cummerata Sr.",
+      "IconHint": "ullam",
+      "ColorBlock": 434,
+      "ExtraInfo": "possimus",
+      "StyleHint": "accusamus",
+      "FullName": "Joshua Miller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 550
+          "FieldType": "System.Int32",
+          "FieldLength": 744
         }
       }
     }
   ],
   "IsPublished": false,
-  "IsVisibleForMembers": true,
-  "IsVisibleForCategories": true,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 961,
+  "IsVisibleForMembers": false,
+  "IsVisibleForCategories": false,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 787,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 949
+      "FieldLength": 213
     }
   }
 }

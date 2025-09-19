@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Person/GetCustomerCentrePasswordReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 590
+  "PersonId": 987
 }
 ```
 
@@ -93,36 +93,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 210,
-  "PlainParsed": "qui",
-  "HtmlParsed": "dolor",
+  "ReplyTemplateId": 803,
+  "PlainParsed": "architecto",
+  "HtmlParsed": "sit",
   "Attachments": [
     {
-      "AttachmentId": 867,
-      "Name": "Reynolds, Corkery and Kulas",
-      "ContentType": "id",
-      "AttSize": 627,
+      "AttachmentId": 158,
+      "Name": "Nolan-Bruen",
+      "ContentType": "ipsum",
+      "AttSize": 864,
       "InlineImage": false,
-      "ContentId": "sed",
-      "AuthKey": "deleniti",
-      "IsSafeFileExtension": false,
+      "ContentId": "unde",
+      "AuthKey": "distinctio",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 779
+          "FieldType": "System.String",
+          "FieldLength": 987
         }
       }
     }
   ],
-  "Subject": "culpa",
+  "Subject": "eveniet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldType": "System.String",
+      "FieldLength": 495
     }
   }
 }

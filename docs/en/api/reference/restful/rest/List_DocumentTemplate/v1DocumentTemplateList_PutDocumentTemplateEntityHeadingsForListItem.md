@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 658,
-    "Name": "Bode, Howe and Johns",
-    "ToolTip": "Quam hic vitae itaque ratione.",
-    "Deleted": true,
-    "Rank": 87,
-    "Type": "eos",
-    "ColorBlock": 352,
-    "IconHint": "quis",
+    "Id": 181,
+    "Name": "Hilpert Group",
+    "ToolTip": "Nobis quaerat hic harum officia non error.",
+    "Deleted": false,
+    "Rank": 886,
+    "Type": "dolores",
+    "ColorBlock": 408,
+    "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2011-07-25T03:47:00.6599229+02:00",
+    "LastChanged": "2018-08-16T03:41:59.4179858+02:00",
     "ChildItems": [
       {
-        "Id": 387,
-        "Name": "Haag-Toy",
-        "ToolTip": "Nihil neque animi est.",
+        "Id": 829,
+        "Name": "Rosenbaum Inc and Sons",
+        "ToolTip": "Dignissimos et ut ipsa est voluptate.",
         "Deleted": false,
-        "Rank": 367,
-        "Type": "aspernatur",
-        "ColorBlock": 447,
-        "IconHint": "necessitatibus",
-        "Selected": true,
-        "LastChanged": "2002-01-24T03:47:00.6599229+01:00",
+        "Rank": 778,
+        "Type": "quae",
+        "ColorBlock": 386,
+        "IconHint": "expedita",
+        "Selected": false,
+        "LastChanged": "2010-07-05T03:41:59.4179858+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "corporis",
-        "Hidden": true,
-        "FullName": "Jarvis Wuckert PhD"
+        "ExtraInfo": "iusto",
+        "StyleHint": "sed",
+        "Hidden": false,
+        "FullName": "Zita Lebsack III"
       }
     ],
-    "ExtraInfo": "inventore",
-    "StyleHint": "suscipit",
+    "ExtraInfo": "quos",
+    "StyleHint": "eveniet",
     "Hidden": false,
-    "FullName": "Duncan Grimes DDS"
+    "FullName": "Elvis Hegmann II"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 652,
-    "Name": "Hansen, Dooley and Wisozk",
-    "ToolTip": "Est et ut in doloribus voluptatibus.",
+    "Id": 457,
+    "Name": "Schoen, Lindgren and Daniel",
+    "ToolTip": "Laborum sunt sed quam dolorem consequatur a.",
     "Deleted": false,
-    "Rank": 793,
-    "Type": "cumque",
-    "ColorBlock": 112,
-    "IconHint": "dicta",
+    "Rank": 881,
+    "Type": "aut",
+    "ColorBlock": 539,
+    "IconHint": "corrupti",
     "Selected": false,
-    "LastChanged": "2003-04-22T03:47:00.6599229+02:00",
+    "LastChanged": "2023-10-01T03:41:59.4179858+02:00",
     "ChildItems": [
       {
-        "Id": 167,
-        "Name": "Padberg-McKenzie",
-        "ToolTip": "Placeat minus dolore ratione enim vitae.",
+        "Id": 282,
+        "Name": "Torp-Barton",
+        "ToolTip": "Occaecati libero similique aliquam.",
         "Deleted": false,
-        "Rank": 698,
-        "Type": "sed",
-        "ColorBlock": 904,
-        "IconHint": "nihil",
+        "Rank": 576,
+        "Type": "corporis",
+        "ColorBlock": 702,
+        "IconHint": "necessitatibus",
         "Selected": false,
-        "LastChanged": "2019-02-17T03:47:00.6599229+01:00",
+        "LastChanged": "2014-01-21T03:41:59.4179858+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iusto",
-        "StyleHint": "aperiam",
+        "ExtraInfo": "ratione",
+        "StyleHint": "magni",
         "Hidden": false,
-        "FullName": "Mae Gusikowski",
+        "FullName": "Mr. Issac Veum DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 89
+            "FieldType": "System.Int32",
+            "FieldLength": 607
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "reprehenderit",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "ea",
     "Hidden": true,
-    "FullName": "Greg Kassulke II",
+    "FullName": "Alva Cormier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 886
+        "FieldLength": 830
       }
     }
   }

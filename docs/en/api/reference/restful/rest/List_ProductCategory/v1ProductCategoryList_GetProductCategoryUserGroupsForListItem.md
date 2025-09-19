@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 835,
-    "Name": "Ferry, Luettgen and Jakubowski",
-    "ToolTip": "At nesciunt necessitatibus sed.",
+    "Id": 615,
+    "Name": "Yundt, Jast and Fadel",
+    "ToolTip": "Et neque voluptate.",
     "Deleted": false,
-    "Rank": 484,
-    "Type": "possimus",
-    "ColorBlock": 335,
-    "IconHint": "est",
+    "Rank": 854,
+    "Type": "rerum",
+    "ColorBlock": 573,
+    "IconHint": "soluta",
     "Selected": true,
-    "LastChanged": "2000-01-17T03:47:00.7224209+01:00",
+    "LastChanged": "2012-02-20T03:41:59.4648585+01:00",
     "ChildItems": [
       {
-        "Id": 643,
-        "Name": "Sanford, Koch and Lesch",
-        "ToolTip": "Et quasi.",
+        "Id": 291,
+        "Name": "Crooks-Feil",
+        "ToolTip": "Velit autem ut alias.",
         "Deleted": false,
-        "Rank": 631,
-        "Type": "maxime",
-        "ColorBlock": 505,
-        "IconHint": "qui",
+        "Rank": 128,
+        "Type": "aut",
+        "ColorBlock": 758,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2009-10-04T03:47:00.7224209+02:00",
+        "LastChanged": "2019-10-20T03:41:59.4648585+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "consequatur",
-        "Hidden": false,
-        "FullName": "Elna Hilll II",
+        "ExtraInfo": "deserunt",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Gia Haag",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 515
+            "FieldType": "System.String",
+            "FieldLength": 809
           }
         }
       }
     ],
     "ExtraInfo": "ut",
-    "StyleHint": "omnis",
+    "StyleHint": "quia",
     "Hidden": false,
-    "FullName": "Adriel Carter",
+    "FullName": "Frederick Swift",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 173
+        "FieldType": "System.String",
+        "FieldLength": 653
       }
     }
   }

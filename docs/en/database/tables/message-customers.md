@@ -39,7 +39,7 @@ This table contains all cutomers who are involved in a message
 | Table|  Description |
 |------|-------------|
 |[ej\_message](ej-message.md)  |This table contains the messages listed under tickets. |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 
 
 ## Replication Flags

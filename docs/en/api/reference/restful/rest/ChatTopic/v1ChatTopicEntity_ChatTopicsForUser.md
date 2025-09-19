@@ -88,7 +88,7 @@ OK
 GET /api/v1/ChatTopic/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,43 +99,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 334,
-    "Name": "Mitchell-Schuppe",
-    "Description": "Function-based upward-trending interface",
-    "WelcomeMessage": "odio",
+    "ChatTopicId": 326,
+    "Name": "Hahn-Kilback",
+    "Description": "Business-focused asynchronous product",
+    "WelcomeMessage": "commodi",
     "Language": null,
-    "LastAccept": "2003-02-13T03:46:59.8005718+01:00",
-    "SecondsPrAccept": 339,
-    "AlertRecipient": "ex",
+    "LastAccept": "2023-02-04T03:41:58.4961519+01:00",
+    "SecondsPrAccept": 762,
+    "AlertRecipient": "laborum",
     "AlertTemplate": null,
-    "CollectConsent": true,
-    "BadgeHeader": "repudiandae",
-    "CustomQueueTextEnabled": true,
-    "CustomQueueText": "quaerat",
-    "WarnNewChatMinutes": 907,
-    "WarnManagerNewChatMinutes": 848,
+    "CollectConsent": false,
+    "BadgeHeader": "quia",
+    "CustomQueueTextEnabled": false,
+    "CustomQueueText": "earum",
+    "WarnNewChatMinutes": 154,
+    "WarnManagerNewChatMinutes": 523,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
-    "OpeningHoursEnabled": false,
+    "OpeningHoursEnabled": true,
     "OpeningHours": null,
     "Widget": null,
     "BotEnabled": false,
     "BotSettings": null,
-    "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 553,
-    "WarnManagerChatMessageMinutes": 754,
-    "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 12,
-    "OfflineFormQueueLength": 802,
+    "OfflineCollectConsent": true,
+    "WarnChatMessageMinutes": 813,
+    "WarnManagerChatMessageMinutes": 138,
+    "UseQueueOfflineForm": true,
+    "OfflineFormTimeLimit": 449,
+    "OfflineFormQueueLength": 79,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "quam",
+    "WidgetRatingText": "nisi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 637
+        "FieldType": "System.Int32",
+        "FieldLength": 470
       }
     }
   }

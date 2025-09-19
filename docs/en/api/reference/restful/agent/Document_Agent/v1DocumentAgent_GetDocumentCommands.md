@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/Document/GetDocumentCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 516,
+  "DocumentId": 911,
   "AllowedReturnTypes": [
-    "rem",
-    "facilis"
+    "cum",
+    "voluptas"
   ]
 }
 ```
@@ -99,17 +99,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Quitzon, Cassin and Koss",
-    "DisplayName": "Roberts Group",
-    "DisplayTooltip": "saepe",
-    "IconHint": "ea",
+    "Name": "Schaden LLC",
+    "DisplayName": "Ledner-Maggio",
+    "DisplayTooltip": "veniam",
+    "IconHint": "est",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Quitzon, Cassin and Koss",
-    "DisplayName": "Roberts Group",
-    "DisplayTooltip": "saepe",
-    "IconHint": "ea",
+    "Name": "Schaden LLC",
+    "DisplayName": "Ledner-Maggio",
+    "DisplayTooltip": "veniam",
+    "IconHint": "est",
     "ReturnType": "CustomGui"
   }
 ]

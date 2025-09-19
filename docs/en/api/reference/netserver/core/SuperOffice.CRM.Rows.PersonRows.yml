@@ -28,6 +28,7 @@ items:
   - SuperOffice.CRM.Rows.PersonRows.GetFromIdxKanafnameAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.PersonRows.GetFromIdxKanalnameAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.PersonRows.GetFromIdxLastnameAsync(System.String,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.PersonRows.GetFromIdxLeadstatusIdAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.PersonRows.GetFromIdxMiddleNameAsync(System.String,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.PersonRows.GetFromIdxModifiedByWorkflowIdAsync(System.Int32,System.Threading.CancellationToken)
   - SuperOffice.CRM.Rows.PersonRows.GetFromIdxPersonNumberAsync(System.String,System.Threading.CancellationToken)
@@ -50,7 +51,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: >-
-    Persons in a company or an organizations. All associates have a corresponding person record
+    Persons
 
     Collection of PersonRow. Each element of the collection represents one row in the Person
 
@@ -1105,6 +1106,46 @@ items:
   nameWithType.vb: PersonRows.GetFromIdxModifiedByWorkflowIdAsync(Integer, CancellationToken)
   fullName.vb: SuperOffice.CRM.Rows.PersonRows.GetFromIdxModifiedByWorkflowIdAsync(Integer, System.Threading.CancellationToken)
   name.vb: GetFromIdxModifiedByWorkflowIdAsync(Integer, CancellationToken)
+- uid: SuperOffice.CRM.Rows.PersonRows.GetFromIdxLeadstatusIdAsync(System.Int32,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.PersonRows.GetFromIdxLeadstatusIdAsync(System.Int32,System.Threading.CancellationToken)
+  id: GetFromIdxLeadstatusIdAsync(System.Int32,System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Rows.PersonRows
+  langs:
+  - csharp
+  - vb
+  name: GetFromIdxLeadstatusIdAsync(int, CancellationToken)
+  nameWithType: PersonRows.GetFromIdxLeadstatusIdAsync(int, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.PersonRows.GetFromIdxLeadstatusIdAsync(int, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: >-
+    Create a new instance of the PersonRow object, by querying the database table via the index 'IDXPersLeadstatus_id'.
+
+    This method is intended to make it easy to use efficient queries that match a database index.
+  remarks: >-
+    This method represents one of the unique indexes on the Person table. Non-unique indexes have corresponding inner classes
+
+    and methods in the <xref href="SuperOffice.CRM.Rows.PersonRows" data-throw-if-not-resolved="false"></xref> collection, since they may return more than one row.
+  example: []
+  syntax:
+    content: public static Task<PersonRows> GetFromIdxLeadstatusIdAsync(int leadstatusId, CancellationToken cancellationToken = default)
+    parameters:
+    - id: leadstatusId
+      type: System.Int32
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.CRM.Rows.PersonRows}
+      description: >-
+        Row object that represents the result of the search. IsNew will be true if 
+                    the query did not match any row in the table
+    content.vb: Public Shared Function GetFromIdxLeadstatusIdAsync(leadstatusId As Integer, cancellationToken As CancellationToken = Nothing) As Task(Of PersonRows)
+  overload: SuperOffice.CRM.Rows.PersonRows.GetFromIdxLeadstatusIdAsync*
+  nameWithType.vb: PersonRows.GetFromIdxLeadstatusIdAsync(Integer, CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.PersonRows.GetFromIdxLeadstatusIdAsync(Integer, System.Threading.CancellationToken)
+  name.vb: GetFromIdxLeadstatusIdAsync(Integer, CancellationToken)
 - uid: SuperOffice.CRM.Rows.PersonRows.GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.PersonTableInfo,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Rows.PersonRows.GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.PersonTableInfo,System.Threading.CancellationToken)
   id: GetFromReaderAsync(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Data.PersonTableInfo,System.Threading.CancellationToken)
@@ -3884,6 +3925,13 @@ references:
   name: GetFromIdxModifiedByWorkflowIdAsync
   nameWithType: PersonRows.GetFromIdxModifiedByWorkflowIdAsync
   fullName: SuperOffice.CRM.Rows.PersonRows.GetFromIdxModifiedByWorkflowIdAsync
+- uid: SuperOffice.CRM.Rows.PersonRows.GetFromIdxLeadstatusIdAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.PersonRows.GetFromIdxLeadstatusIdAsync
+  isExternal: true
+  href: SuperOffice.CRM.Rows.PersonRows.html#SuperOffice_CRM_Rows_PersonRows_GetFromIdxLeadstatusIdAsync_System_Int32_System_Threading_CancellationToken_
+  name: GetFromIdxLeadstatusIdAsync
+  nameWithType: PersonRows.GetFromIdxLeadstatusIdAsync
+  fullName: SuperOffice.CRM.Rows.PersonRows.GetFromIdxLeadstatusIdAsync
 - uid: SuperOffice.Data.SoDataReader.Read
   commentId: M:SuperOffice.Data.SoDataReader.Read
   isExternal: true

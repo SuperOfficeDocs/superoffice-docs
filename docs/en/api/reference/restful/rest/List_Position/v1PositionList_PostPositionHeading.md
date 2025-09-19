@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 968,
-  "Name": "Littel, Gleason and Cronin",
-  "Tooltip": "iusto",
-  "Deleted": false,
-  "Rank": 468,
-  "UdListDefinitionId": 92
+  "HeadingId": 486,
+  "Name": "Spinka, Franecki and Kiehn",
+  "Tooltip": "praesentium",
+  "Deleted": true,
+  "Rank": 329,
+  "UdListDefinitionId": 126
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 500,
-  "Name": "Hegmann LLC",
-  "Tooltip": "magni",
+  "HeadingId": 713,
+  "Name": "Murray-Medhurst",
+  "Tooltip": "aliquid",
   "Deleted": false,
-  "Rank": 906,
-  "UdListDefinitionId": 568,
+  "Rank": 510,
+  "UdListDefinitionId": 832,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 798
+      "FieldLength": 715
     }
   }
 }

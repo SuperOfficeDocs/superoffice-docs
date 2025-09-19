@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 156,
-  "Name": "Mitchell, Bartell and Oberbrunner",
-  "Tooltip": "facilis",
-  "Deleted": false,
-  "Rank": 956,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quam",
+  "Id": 955,
+  "Name": "Bartoletti, Kautzer and Oberbrunner",
+  "Tooltip": "a",
+  "Deleted": true,
+  "Rank": 234,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "nesciunt",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 142
+      "FieldLength": 212
     }
   }
 }

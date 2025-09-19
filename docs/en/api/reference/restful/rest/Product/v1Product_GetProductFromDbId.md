@@ -93,7 +93,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,73 +103,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 66,
-  "ERPProductKey": "est",
-  "ERPPriceListKey": "reprehenderit",
-  "Name": "Jones Group",
-  "Description": "Triple-buffered 24 hour help-desk",
-  "Code": "quos",
-  "PriceUnit": "veritatis",
-  "QuantityUnit": "et",
-  "IsSubscription": false,
-  "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 28068.104,
-  "ItemNumber": "1501664",
+  "ProductId": 652,
+  "ERPProductKey": "quod",
+  "ERPPriceListKey": "ab",
+  "Name": "Will, Davis and Kerluke",
+  "Description": "Monitored directional standardization",
+  "Code": "quia",
+  "PriceUnit": "dolore",
+  "QuantityUnit": "id",
+  "IsSubscription": true,
+  "SubscriptionUnit": "laboriosam",
+  "DefaultSubscriptionQuantity": 1720.566,
+  "ItemNumber": "740130",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "officia",
-  "ProductTypeKey": "sed",
-  "VAT": 7389.972,
-  "VATInfo": "consequatur",
-  "UnitCost": 29932.834,
-  "UnitMinimumPrice": 15024.395999999999,
-  "UnitListPrice": 4926.648,
+  "ProductFamilyKey": "nam",
+  "ProductTypeKey": "sit",
+  "VAT": 200.576,
+  "VATInfo": "aspernatur",
+  "UnitCost": 9962.985999999999,
+  "UnitMinimumPrice": 16669.746,
+  "UnitListPrice": 23473.66,
   "InAssortment": false,
-  "Supplier": "aut",
+  "Supplier": "vel",
   "SupplierCode": "est",
-  "Rights": "saepe",
-  "Rule": "repudiandae",
+  "Rights": "aut",
+  "Rule": "eligendi",
   "ExtraInfo": [
     {
-      "Name": "Kautzer-Block",
-      "Value": "est",
+      "Name": "Robel, Kutch and Dach",
+      "Value": "sequi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 513
+          "FieldLength": 763
         }
       }
     },
     {
-      "Name": "Kautzer-Block",
-      "Value": "est",
+      "Name": "Robel, Kutch and Dach",
+      "Value": "sequi",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 513
+          "FieldLength": 763
         }
       }
     }
   ],
-  "RawExtraInfo": "quia",
-  "ExtraField1": "aut",
-  "ExtraField2": "illum",
-  "ExtraField3": "atque",
-  "ExtraField4": "neque",
-  "ExtraField5": "soluta",
-  "InStock": 12890.142,
+  "RawExtraInfo": "veniam",
+  "ExtraField1": "eligendi",
+  "ExtraField2": "aut",
+  "ExtraField3": "qui",
+  "ExtraField4": "dolore",
+  "ExtraField5": "repellendus",
+  "InStock": 31224.041999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 268
+      "FieldLength": 71
     }
   }
 }

@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Graham Group"
+  "ApplicationName": "Stokes-Homenick"
 }
 ```
 
@@ -97,20 +97,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "pariatur",
-    "Value": "qui",
-    "RecordId": 809,
-    "CreatedDate": "2015-02-06T03:46:54.9107593+01:00",
-    "UpdatedDate": "2015-05-05T03:46:54.9107593+02:00",
+    "Key": "in",
+    "Value": "similique",
+    "RecordId": 476,
+    "CreatedDate": "2006-07-26T03:41:53.5901046+02:00",
+    "UpdatedDate": "2001-12-26T03:41:53.5901046+01:00",
     "UpdatedBy": "atque",
-    "CreatedBy": "eum",
-    "TableName": "Wunsch, Effertz and Dicki",
+    "CreatedBy": "dolorem",
+    "TableName": "Abshire Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 882
+        "FieldType": "System.String",
+        "FieldLength": 369
       }
     }
   }

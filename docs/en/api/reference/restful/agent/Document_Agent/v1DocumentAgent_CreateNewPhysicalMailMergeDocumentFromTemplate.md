@@ -110,12 +110,12 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 103,
-  "UiCulture": "necessitatibus"
+  "DocumentId": 527,
+  "UiCulture": "sed"
 }
 ```
 
@@ -126,88 +126,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 258,
+  "DocumentId": 477,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sed",
-  "Header": "alias",
-  "Name": "Stehr Inc and Sons",
-  "OurRef": "omnis",
-  "YourRef": "magni",
-  "CreatedDate": "2009-10-26T03:46:54.6601354+01:00",
-  "UpdatedDate": "2006-01-13T03:46:54.6601354+01:00",
-  "Description": "Function-based mobile functionalities",
+  "Attention": "est",
+  "Header": "officia",
+  "Name": "Yost-Fisher",
+  "OurRef": "quo",
+  "YourRef": "est",
+  "CreatedDate": "2000-11-28T03:41:53.4182376+01:00",
+  "UpdatedDate": "2009-03-15T03:41:53.4182376+01:00",
+  "Description": "Compatible stable installation",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2007-10-19T03:46:54.6601354+02:00",
-  "ExternalRef": "hic",
+  "Date": "2008-01-12T03:41:53.4182376+01:00",
+  "ExternalRef": "vel",
   "Completed": "Completed",
-  "ActiveLinks": 799,
+  "ActiveLinks": 294,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kilback-Ward",
-      "Id": 858,
-      "Description": "Vision-oriented local portal",
-      "ExtraInfo": "provident",
-      "LinkId": 467,
+      "EntityName": "Runolfsson, Murray and Parker",
+      "Id": 974,
+      "Description": "Mandatory clear-thinking contingency",
+      "ExtraInfo": "sunt",
+      "LinkId": 770,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 744
+          "FieldLength": 837
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 116,
-  "Snum": 888,
+  "SuggestedDocumentId": 102,
+  "Snum": 362,
   "UserDefinedFields": {
-    "SuperOffice:1": "398794159",
-    "SuperOffice:2": "930918072"
+    "SuperOffice:1": "Agnes Kuphal",
+    "SuperOffice:2": "Ms. Nels Beer"
   },
   "ExtraFields": {
-    "ExtraFields1": "autem",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "dolores",
+    "ExtraFields2": "culpa"
   },
   "CustomFields": {
-    "CustomFields1": "ex",
-    "CustomFields2": "ipsa"
+    "CustomFields1": "voluptate",
+    "CustomFields2": "voluptas"
   },
-  "PublishEventDate": "2008-08-17T03:46:54.6601354+02:00",
-  "PublishTo": "2006-10-31T03:46:54.6601354+01:00",
-  "PublishFrom": "2014-05-23T03:46:54.6601354+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2005-06-17T03:41:53.4182376+02:00",
+  "PublishTo": "2010-12-13T03:41:53.4182376+01:00",
+  "PublishFrom": "2021-06-05T03:41:53.4182376+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 72,
+      "VisibleId": 332,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 902
+          "FieldType": "System.Int32",
+          "FieldLength": 379
         }
       }
     },
     {
-      "VisibleId": 72,
+      "VisibleId": 332,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 902
+          "FieldType": "System.Int32",
+          "FieldLength": 379
         }
       }
     }
@@ -217,7 +217,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 499
+      "FieldLength": 971
     }
   }
 }

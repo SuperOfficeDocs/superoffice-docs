@@ -111,28 +111,28 @@ OK
 POST /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 90,
-  "Section": "ipsum",
-  "Key": "non",
-  "Name": "Abbott, Grady and Zemlak",
+  "PrefDescId": 798,
+  "Section": "omnis",
+  "Key": "rerum",
+  "Name": "Bosco Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Diverse interactive extranet",
+  "Description": "Assimilated fresh-thinking interface",
   "IsBuiltin": false,
-  "TableName": "Schultz, Crist and McDermott",
-  "UserDefinedListId": 392,
-  "Rank": 627,
-  "SubGroup": "dolores",
-  "MinLevel": 287,
-  "MaxValue": 225,
-  "MinValue": 369,
-  "RequiredLicense": "ut"
+  "TableName": "Schmidt-Rice",
+  "UserDefinedListId": 604,
+  "Rank": 120,
+  "SubGroup": "harum",
+  "MinLevel": 750,
+  "MaxValue": 189,
+  "MinValue": 747,
+  "RequiredLicense": "suscipit"
 }
 ```
 
@@ -143,30 +143,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 485,
-  "Section": "unde",
-  "Key": "reiciendis",
-  "Name": "Beier, Buckridge and Schumm",
+  "PrefDescId": 782,
+  "Section": "nam",
+  "Key": "et",
+  "Name": "Volkman Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Profit-focused stable time-frame",
+  "Description": "Sharable scalable knowledge base",
   "IsBuiltin": false,
-  "TableName": "Cremin LLC",
-  "UserDefinedListId": 94,
-  "Rank": 227,
-  "SubGroup": "ab",
-  "MinLevel": 927,
-  "MaxValue": 602,
-  "MinValue": 558,
-  "RequiredLicense": "laboriosam",
+  "TableName": "Renner Group",
+  "UserDefinedListId": 215,
+  "Rank": 564,
+  "SubGroup": "quae",
+  "MinLevel": 327,
+  "MaxValue": 329,
+  "MinValue": 668,
+  "RequiredLicense": "voluptate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 772
+      "FieldType": "System.Int32",
+      "FieldLength": 290
     }
   },
   "_Links": {

@@ -137,13 +137,13 @@ OK
 POST /api/v1/Agents/Appointment/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": false,
+  "SendEmailToParticipants": true,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null
 }
@@ -160,121 +160,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2025-08-21T03:46:54.1445302+02:00",
-  "AppointmentId": 491,
-  "Description": "Synchronised maximized installation",
-  "Title": "quia",
-  "Agenda": "ea",
-  "InternalNotes": "et",
-  "StartDate": "2020-11-13T03:46:54.1445302+01:00",
-  "EndDate": "2003-03-29T03:46:54.1445302+01:00",
+  "CreatedDate": "2008-03-11T03:41:52.9341759+01:00",
+  "AppointmentId": 403,
+  "Description": "Persevering optimizing toolset",
+  "Title": "cum",
+  "Agenda": "eos",
+  "InternalNotes": "nostrum",
+  "StartDate": "2002-11-14T03:41:52.9341759+01:00",
+  "EndDate": "2023-02-24T03:41:52.9341759+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 851,
+  "MotherId": 864,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1999-09-17T03:46:54.1445302+02:00",
+  "UpdatedDate": "2005-12-21T03:41:52.9341759+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 990,
+  "ActiveLinks": 578,
   "Links": [
     {
-      "EntityName": "Cole LLC",
-      "Id": 311,
-      "Description": "Synergized value-added analyzer",
-      "ExtraInfo": "rem",
-      "LinkId": 819,
+      "EntityName": "Rippin, Jaskolski and Ziemann",
+      "Id": 359,
+      "Description": "User-friendly tangible service-desk",
+      "ExtraInfo": "est",
+      "LinkId": 501,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 349
+          "FieldLength": 374
         }
       }
     }
   ],
-  "AlarmLeadTime": "quis",
+  "AlarmLeadTime": "ipsam",
   "HasAlarm": true,
-  "ColorIndex": 249,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "optio",
-  "LeadTime": "ut",
-  "Location": "aut",
-  "RejectCounter": 485,
+  "ColorIndex": 908,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "id",
+  "LeadTime": "est",
+  "Location": "tempore",
+  "RejectCounter": 167,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 750,
-      "PersonId": 195,
-      "ContactId": 308,
-      "EmailId": 686,
-      "SendEmail": true,
+      "AssociateId": 296,
+      "PersonId": 428,
+      "ContactId": 593,
+      "EmailId": 98,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "colten.kuhic@hudson.us",
-      "Description": "Centralized full-range collaboration"
+      "EmailAddress": "triston.thiel@ortizlakin.biz",
+      "Description": "Switchable discrete process improvement"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2024-05-24T03:46:54.1445302+02:00",
+  "ActiveDate": "2013-08-12T03:41:52.9341759+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 484,
+  "PreferredTZLocation": 667,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 394,
+  "SuggestedAppointmentId": 778,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "cumque",
+  "CentralserviceVideomeetId": "ut",
   "UserDefinedFields": {
-    "SuperOffice:1": "Yasmin Hamill",
-    "SuperOffice:2": "2081557638"
+    "SuperOffice:1": "253160608",
+    "SuperOffice:2": "Bryce Sipes"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "amet"
+    "ExtraFields1": "est",
+    "ExtraFields2": "culpa"
   },
   "CustomFields": {
-    "CustomFields1": "beatae",
-    "CustomFields2": "enim"
+    "CustomFields1": "sed",
+    "CustomFields2": "ratione"
   },
-  "PublishEventDate": "2021-03-02T03:46:54.1445302+01:00",
-  "PublishTo": "2024-02-24T03:46:54.1445302+01:00",
-  "PublishFrom": "2021-01-06T03:46:54.1445302+01:00",
+  "PublishEventDate": "2020-11-26T03:41:52.9341759+01:00",
+  "PublishTo": "2024-08-20T03:41:52.9341759+02:00",
+  "PublishFrom": "2010-08-19T03:41:52.9341759+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 660,
+      "VisibleId": 471,
       "Visibility": "All",
-      "DisplayValue": "inventore",
+      "DisplayValue": "cumque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 704
+          "FieldLength": 548
         }
       }
     },
     {
-      "VisibleId": 660,
+      "VisibleId": 471,
       "Visibility": "All",
-      "DisplayValue": "inventore",
+      "DisplayValue": "cumque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 704
+          "FieldLength": 548
         }
       }
     }
@@ -284,7 +284,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 988
+      "FieldLength": 307
     }
   }
 }

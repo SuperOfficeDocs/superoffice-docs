@@ -66,32 +66,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 127,
+  "SaleId": 730,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Bode-Gottlieb",
-      "Comment": "rerum",
-      "StakeholderRoleId": 443,
-      "CountryId": 479,
-      "PersonId": 746,
-      "EmailDescription": "tierra_hartmann@nitzsche.us",
-      "EmailId": 917,
-      "EmailAddress": "clemens_lockman@wyman.info",
-      "PhoneId": 674,
-      "ContactName": "Dickens Group",
-      "ContactId": 467,
-      "SaleId": 429,
-      "Mrmrs": "omnis",
-      "Firstname": "Enid",
-      "MiddleName": "Ankunding-Raynor",
-      "Lastname": "Borer",
-      "SaleStakeholderId": 871,
-      "Rank": 91,
-      "Phone": "1-276-718-2852"
+      "StakeholderRoleName": "Upton-Heller",
+      "Comment": "quidem",
+      "StakeholderRoleId": 380,
+      "CountryId": 735,
+      "PersonId": 798,
+      "EmailDescription": "emma_crooks@green.biz",
+      "EmailId": 869,
+      "EmailAddress": "jeremie_hermann@altenwerth.us",
+      "PhoneId": 765,
+      "ContactName": "Cremin, Altenwerth and Schaden",
+      "ContactId": 797,
+      "SaleId": 772,
+      "Mrmrs": "nihil",
+      "Firstname": "Rhett",
+      "MiddleName": "Howell Group",
+      "Lastname": "Howe",
+      "SaleStakeholderId": 212,
+      "Rank": 870,
+      "Phone": "207-533-6280"
     }
   ]
 }

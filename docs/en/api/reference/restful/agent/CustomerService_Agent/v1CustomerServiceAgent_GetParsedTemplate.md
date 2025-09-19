@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 485,
-  "LanguageId": 25,
-  "PersonId": 920,
-  "TicketId": 818
+  "ReplyTemplateId": 64,
+  "LanguageId": 84,
+  "PersonId": 117,
+  "TicketId": 606
 }
 ```
 
@@ -99,36 +99,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 439,
-  "PlainParsed": "eos",
-  "HtmlParsed": "enim",
+  "ReplyTemplateId": 706,
+  "PlainParsed": "et",
+  "HtmlParsed": "similique",
   "Attachments": [
     {
-      "AttachmentId": 981,
-      "Name": "Cremin-Heller",
-      "ContentType": "veniam",
-      "AttSize": 51,
+      "AttachmentId": 767,
+      "Name": "McGlynn-Leuschke",
+      "ContentType": "vel",
+      "AttSize": 789,
       "InlineImage": false,
-      "ContentId": "at",
-      "AuthKey": "harum",
-      "IsSafeFileExtension": false,
+      "ContentId": "accusantium",
+      "AuthKey": "magni",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 977
+          "FieldLength": 360
         }
       }
     }
   ],
-  "Subject": "sit",
+  "Subject": "laboriosam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldLength": 463
     }
   }
 }

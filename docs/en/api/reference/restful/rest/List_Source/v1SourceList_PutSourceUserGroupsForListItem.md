@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 370,
-    "Name": "Hodkiewicz-Satterfield",
-    "ToolTip": "Omnis reiciendis aut quaerat libero quis aut reprehenderit.",
+    "Id": 56,
+    "Name": "Volkman, Rau and McCullough",
+    "ToolTip": "Ipsa sit voluptate est recusandae odit.",
     "Deleted": false,
-    "Rank": 425,
-    "Type": "minima",
-    "ColorBlock": 331,
-    "IconHint": "id",
+    "Rank": 28,
+    "Type": "delectus",
+    "ColorBlock": 60,
+    "IconHint": "consequuntur",
     "Selected": false,
-    "LastChanged": "1999-09-05T03:47:00.8317917+02:00",
+    "LastChanged": "2019-08-17T03:41:59.6211021+02:00",
     "ChildItems": [
       {
-        "Id": 7,
-        "Name": "Hilll, Schultz and Schinner",
-        "ToolTip": "Autem autem rerum voluptatem vel placeat dolorem.",
+        "Id": 304,
+        "Name": "Klein-Fay",
+        "ToolTip": "Quis incidunt rerum dignissimos aut.",
         "Deleted": true,
-        "Rank": 865,
-        "Type": "aut",
-        "ColorBlock": 131,
-        "IconHint": "veniam",
-        "Selected": false,
-        "LastChanged": "2009-11-17T03:47:00.8317917+01:00",
+        "Rank": 189,
+        "Type": "cum",
+        "ColorBlock": 412,
+        "IconHint": "consequatur",
+        "Selected": true,
+        "LastChanged": "2013-06-07T03:41:59.6211021+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "nostrum",
+        "ExtraInfo": "numquam",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Horacio Gerlach"
+        "FullName": "Mrs. Jalyn Reynolds"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "porro",
+    "ExtraInfo": "ea",
+    "StyleHint": "ullam",
     "Hidden": false,
-    "FullName": "Carlos Rodrigo Bogisich Jr."
+    "FullName": "Lane Stroman"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 797,
-    "Name": "King-Kutch",
-    "ToolTip": "Aliquam laborum ex voluptatem voluptatem facilis.",
-    "Deleted": true,
-    "Rank": 448,
-    "Type": "qui",
-    "ColorBlock": 712,
-    "IconHint": "debitis",
+    "Id": 942,
+    "Name": "Greenholt, Balistreri and Schimmel",
+    "ToolTip": "Vel eius quo sit.",
+    "Deleted": false,
+    "Rank": 981,
+    "Type": "voluptatem",
+    "ColorBlock": 281,
+    "IconHint": "placeat",
     "Selected": true,
-    "LastChanged": "2000-05-30T03:47:00.8317917+02:00",
+    "LastChanged": "2014-06-11T03:41:59.6211021+02:00",
     "ChildItems": [
       {
-        "Id": 114,
-        "Name": "Dach-Hartmann",
-        "ToolTip": "Quasi omnis quas consequuntur expedita atque est.",
+        "Id": 266,
+        "Name": "Ankunding Group",
+        "ToolTip": "Eius ut consequatur sunt labore nostrum iusto.",
         "Deleted": false,
-        "Rank": 643,
-        "Type": "est",
-        "ColorBlock": 333,
-        "IconHint": "molestiae",
+        "Rank": 521,
+        "Type": "fugit",
+        "ColorBlock": 439,
+        "IconHint": "expedita",
         "Selected": false,
-        "LastChanged": "2006-10-15T03:47:00.8317917+02:00",
+        "LastChanged": "2001-08-14T03:41:59.6211021+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "saepe",
+        "ExtraInfo": "eaque",
+        "StyleHint": "blanditiis",
         "Hidden": false,
-        "FullName": "Ms. Deborah Schinner",
+        "FullName": "Miss Vivienne Brionna Ondricka",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 120
+            "FieldType": "System.Int32",
+            "FieldLength": 22
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "delectus",
-    "Hidden": true,
-    "FullName": "Damaris Baby Klocko I",
+    "ExtraInfo": "veniam",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Mrs. Melyna Aufderhar V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 54
+        "FieldLength": 92
       }
     }
   }

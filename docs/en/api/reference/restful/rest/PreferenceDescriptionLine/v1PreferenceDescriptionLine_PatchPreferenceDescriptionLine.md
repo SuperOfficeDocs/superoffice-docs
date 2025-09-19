@@ -114,18 +114,18 @@ PreferenceDescriptionLine  updated.
 PATCH /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "asperiores",
+    "path": "voluptates",
     "value": {}
   },
   {
     "op": "add",
-    "path": "asperiores",
+    "path": "voluptates",
     "value": {}
   }
 ]
@@ -138,18 +138,18 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 304,
-  "PrefDescId": 395,
-  "PrefValue": "fugit",
-  "PrefShowValue": "odit",
-  "Description": "Automated zero defect application",
+  "PrefDescLineId": 777,
+  "PrefDescId": 741,
+  "PrefValue": "aut",
+  "PrefShowValue": "vel",
+  "Description": "Multi-layered value-added framework",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 543
+      "FieldLength": 1000
     }
   },
   "_Links": {

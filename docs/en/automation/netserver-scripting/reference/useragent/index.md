@@ -46,6 +46,7 @@ Service methods defined on <see cref='T:IUserAgent'>UserAgent</see> that can tri
 * [GenerateNewPasswordForExternalUserAsync](generatenewpasswordforexternaluserasync.md)
 * [GetAccessGatewayInfoAsync](getaccessgatewayinfoasync.md)
 * [GetAccessTokenAsync](getaccesstokenasync.md)
+* [GetAllDataRightsAsync](getalldatarightsasync.md)
 * [GetAllFunctionalRightsAsync](getallfunctionalrightsasync.md)
 * [GetAllRolesAsync](getallrolesasync.md)
 * [GetAllUserGroupsAsync](getallusergroupsasync.md)

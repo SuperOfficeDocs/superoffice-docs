@@ -80,7 +80,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,37 +90,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 632,
-  "Name": "Hahn-Johnston",
-  "Tooltip": "commodi",
-  "SaveInDb": 243,
-  "Filename": "numquam",
-  "DefaultOref": "natus",
+  "DocumentTemplateId": 958,
+  "Name": "Keebler, Boyle and Goodwin",
+  "Tooltip": "labore",
+  "SaveInDb": 55,
+  "Filename": "alias",
+  "DefaultOref": "illo",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 245,
-  "IntentId": 783,
+  "AutoeventId": 898,
+  "IntentId": 918,
   "IsDefaultPublished": false,
-  "Rank": 6,
-  "LoadTemplateFromPlugin": 761,
-  "MimeType": "quam",
+  "Rank": 168,
+  "LoadTemplateFromPlugin": 75,
+  "MimeType": "et",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 198,
+  "DocumentTypeKey": 942,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "alfonso_willms@mueller.us",
+  "EmailSubject": "rachel@crist.uk",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "jayme_boehm@krisfay.name",
+  "SenderEmailAddress": "brian_grant@lang.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 620
+      "FieldType": "System.Int32",
+      "FieldLength": 17
     }
   }
 }

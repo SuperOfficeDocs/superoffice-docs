@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,73 +99,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 72,
-  "ERPProductKey": "commodi",
-  "ERPPriceListKey": "est",
-  "Name": "Roberts-Donnelly",
-  "Description": "Future-proofed human-resource core",
-  "Code": "quisquam",
-  "PriceUnit": "temporibus",
-  "QuantityUnit": "exercitationem",
-  "IsSubscription": true,
-  "SubscriptionUnit": "dolores",
-  "DefaultSubscriptionQuantity": 18951.298,
-  "ItemNumber": "724102",
+  "ProductId": 30,
+  "ERPProductKey": "ut",
+  "ERPPriceListKey": "iure",
+  "Name": "Prohaska Group",
+  "Description": "Organized upward-trending challenge",
+  "Code": "vero",
+  "PriceUnit": "natus",
+  "QuantityUnit": "nihil",
+  "IsSubscription": false,
+  "SubscriptionUnit": "perferendis",
+  "DefaultSubscriptionQuantity": 16014.74,
+  "ItemNumber": "1326172",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "molestiae",
-  "ProductTypeKey": "soluta",
-  "VAT": 21314.334,
-  "VATInfo": "laborum",
-  "UnitCost": 5384.2119999999995,
-  "UnitMinimumPrice": 27927.074,
-  "UnitListPrice": 30666.19,
-  "InAssortment": true,
-  "Supplier": "doloremque",
-  "SupplierCode": "numquam",
-  "Rights": "nisi",
-  "Rule": "numquam",
+  "ProductFamilyKey": "quisquam",
+  "ProductTypeKey": "quo",
+  "VAT": 11216.586,
+  "VATInfo": "voluptates",
+  "UnitCost": 26200.239999999998,
+  "UnitMinimumPrice": 3384.72,
+  "UnitListPrice": 27510.252,
+  "InAssortment": false,
+  "Supplier": "ipsam",
+  "SupplierCode": "et",
+  "Rights": "et",
+  "Rule": "deleniti",
   "ExtraInfo": [
     {
-      "Name": "Kunde-O'Kon",
-      "Value": "quia",
+      "Name": "Walker, Homenick and Berge",
+      "Value": "quae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 874
+          "FieldLength": 200
         }
       }
     },
     {
-      "Name": "Kunde-O'Kon",
-      "Value": "quia",
+      "Name": "Walker, Homenick and Berge",
+      "Value": "quae",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 874
+          "FieldLength": 200
         }
       }
     }
   ],
-  "RawExtraInfo": "rerum",
-  "ExtraField1": "est",
-  "ExtraField2": "id",
-  "ExtraField3": "assumenda",
-  "ExtraField4": "aut",
-  "ExtraField5": "adipisci",
-  "InStock": 2905.218,
+  "RawExtraInfo": "libero",
+  "ExtraField1": "consequatur",
+  "ExtraField2": "et",
+  "ExtraField3": "excepturi",
+  "ExtraField4": "harum",
+  "ExtraField5": "unde",
+  "InStock": 9477.216,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 357
+      "FieldType": "System.Int32",
+      "FieldLength": 273
     }
   }
 }

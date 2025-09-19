@@ -112,26 +112,26 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 890,
-  "Name": "Hermiston Inc and Sons",
-  "Tooltip": "cumque",
+  "WebPanelId": 136,
+  "Name": "Gulgowski Inc and Sons",
+  "Tooltip": "beatae",
   "Deleted": false,
-  "Rank": 907,
+  "Rank": 382,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": true,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Walter, Gutkowski and Wolf",
+  "WindowName": "Prosacco, Medhurst and Bruen",
   "Url": "http://www.example.com/",
-  "ProgId": "adipisci",
-  "Icon": 286,
+  "ProgId": "et",
+  "Icon": 298,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": true
 }
@@ -144,34 +144,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 243,
-  "Name": "Thompson LLC",
-  "Tooltip": "velit",
-  "Deleted": false,
-  "Rank": 987,
+  "WebPanelId": 312,
+  "Name": "Lang, Wisoky and Upton",
+  "Tooltip": "consectetur",
+  "Deleted": true,
+  "Rank": 428,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Littel LLC",
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "WindowName": "Kozey, Gerhold and Barton",
   "Url": "http://www.example.com/",
-  "ProgId": "provident",
-  "Icon": 366,
+  "ProgId": "quod",
+  "Icon": 238,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 612
+      "FieldType": "System.String",
+      "FieldLength": 170
     }
   }
 }

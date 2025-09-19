@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Erdman LLC",
-  "ForceFlatList": false,
-  "AdditionalInfo": "consequuntur",
+  "Name": "Labadie-Thiel",
+  "ForceFlatList": true,
+  "AdditionalInfo": "rerum",
   "OnlyHistory": true
 }
 ```
@@ -107,50 +107,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 647,
-    "Name": "Smith-Homenick",
-    "ToolTip": "Quaerat distinctio.",
-    "Deleted": false,
-    "Rank": 38,
-    "Type": "ut",
+    "Id": 433,
+    "Name": "Bergstrom Group",
+    "ToolTip": "Tempora qui et non dolorem vel.",
+    "Deleted": true,
+    "Rank": 1001,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 21,
-        "Name": "Kertzmann LLC",
-        "ToolTip": "Nisi qui inventore rem praesentium.",
-        "Deleted": true,
-        "Rank": 65,
-        "Type": "deserunt",
+        "Id": 911,
+        "Name": "Hackett, Kassulke and Murazik",
+        "ToolTip": "Est et pariatur cum.",
+        "Deleted": false,
+        "Rank": 747,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eveniet",
-        "ColorBlock": 874,
-        "ExtraInfo": "id",
-        "StyleHint": "impedit",
-        "FullName": "Mrs. Dominic Adela Rempel",
+        "IconHint": "aut",
+        "ColorBlock": 484,
+        "ExtraInfo": "explicabo",
+        "StyleHint": "nihil",
+        "FullName": "Stone Botsford PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 884
+            "FieldType": "System.String",
+            "FieldLength": 773
           }
         }
       }
     ],
     "IconHint": "et",
-    "ColorBlock": 329,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "quam",
-    "FullName": "Eryn Reynolds",
+    "ColorBlock": 113,
+    "ExtraInfo": "aut",
+    "StyleHint": "eos",
+    "FullName": "Savanna Kertzmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 755
+        "FieldLength": 267
       }
     }
   }

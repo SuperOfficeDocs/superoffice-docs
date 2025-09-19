@@ -430,7 +430,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleStakeholder?$select=contact/mainContact,contact/contactAssociate/locationAddress,contact/saintAmountClass
+GET /api/v1/archive/SaleStakeholder?$select=person/personInfo/infoText,person/personAddress/addressId,contact/email/emailId,contact/contactAssociate/isLocation,contact/contactExtra/x_contact_time
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

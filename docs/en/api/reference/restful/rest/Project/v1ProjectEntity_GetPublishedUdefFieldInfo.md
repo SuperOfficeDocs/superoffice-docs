@@ -94,7 +94,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 54,
-  "ColumnId": 347,
-  "FieldDefault": "quisquam",
-  "FieldHeight": 276,
-  "FieldLabel": "saepe",
-  "FieldLeft": 250,
-  "FieldTop": 552,
+  "UDefFieldId": 404,
+  "ColumnId": 611,
+  "FieldDefault": "temporibus",
+  "FieldHeight": 40,
+  "FieldLabel": "aut",
+  "FieldLeft": 287,
+  "FieldTop": 81,
   "FieldType": "Checkbox",
-  "FieldWidth": 174,
-  "FormatMask": "in",
-  "HideLabel": false,
+  "FieldWidth": 390,
+  "FormatMask": "velit",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 154,
-  "LabelLeft": 472,
-  "LabelTop": 67,
-  "LabelWidth": 104,
-  "LastVersionId": 727,
-  "ListTableId": 373,
+  "LabelHeight": 52,
+  "LabelLeft": 685,
+  "LabelTop": 246,
+  "LabelWidth": 550,
+  "LastVersionId": 615,
+  "ListTableId": 257,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 698,
-  "ProgId": "quidem",
+  "Page1LineNo": 834,
+  "ProgId": "aut",
   "IsReadOnly": false,
-  "ShortLabel": "quaerat",
-  "TabOrder": 81,
-  "TextLength": 450,
-  "Tooltip": "est",
-  "UdefIdentity": 331,
-  "UDListDefinitionId": 719,
+  "ShortLabel": "pariatur",
+  "TabOrder": 202,
+  "TextLength": 799,
+  "Tooltip": "beatae",
+  "UdefIdentity": 832,
+  "UDListDefinitionId": 755,
   "Justification": "Center",
-  "Version": 579,
-  "TemplateVariableName": "Predovic-Pollich",
-  "HasBeenPublished": true,
-  "MdoListName": "Ondricka Inc and Sons",
+  "Version": 934,
+  "TemplateVariableName": "Luettgen LLC",
+  "HasBeenPublished": false,
+  "MdoListName": "DuBuque-Fay",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 686
+      "FieldLength": 973
     }
   }
 }

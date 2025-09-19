@@ -102,7 +102,7 @@ OK
 POST /api/v1/Sale/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "omnis",
+  "SaleText": "et",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -121,90 +121,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2006-02-18T03:47:00.2693116+01:00",
-  "Amount": 8330.172,
-  "SaleId": 988,
-  "Earning": 25015.588,
-  "EarningPercent": 18127.056,
-  "Heading": "repellat",
-  "Number": "809020",
-  "Probability": 797,
-  "CreatedDate": "2000-12-05T03:47:00.2693116+01:00",
-  "UpdatedDate": "2016-11-27T03:47:00.2693116+01:00",
+  "Saledate": "2003-08-25T03:41:58.9961292+02:00",
+  "Amount": 23439.185999999998,
+  "SaleId": 155,
+  "Earning": 29616.3,
+  "EarningPercent": 28820.264,
+  "Heading": "magnam",
+  "Number": "1334101",
+  "Probability": 458,
+  "CreatedDate": "2002-05-21T03:41:58.9961292+02:00",
+  "UpdatedDate": "2010-08-25T03:41:58.9961292+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 552,
+  "ActiveLinks": 282,
   "Links": [
     {
-      "EntityName": "Cummings Inc and Sons",
-      "Id": 629,
-      "Description": "Secured well-modulated circuit",
-      "ExtraInfo": "aliquid",
-      "LinkId": 207
+      "EntityName": "Metz Group",
+      "Id": 891,
+      "Description": "Enterprise-wide attitude-oriented installation",
+      "ExtraInfo": "et",
+      "LinkId": 332
     },
     {
-      "EntityName": "Cummings Inc and Sons",
-      "Id": 629,
-      "Description": "Secured well-modulated circuit",
-      "ExtraInfo": "aliquid",
-      "LinkId": 207
+      "EntityName": "Metz Group",
+      "Id": 891,
+      "Description": "Enterprise-wide attitude-oriented installation",
+      "ExtraInfo": "et",
+      "LinkId": 332
     }
   ],
-  "NextDueDate": "2024-03-13T03:47:00.2693116+01:00",
-  "Postit": "aliquam",
+  "NextDueDate": "2001-03-02T03:41:58.9961292+01:00",
+  "Postit": "eius",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2015-04-13T03:47:00.2693116+02:00",
+  "ReopenDate": "2001-03-07T03:41:58.9961292+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Hilpert Inc and Sons",
-      "Comment": "aut",
-      "StakeholderRoleId": 843,
-      "CountryId": 985,
-      "PersonId": 664,
-      "EmailDescription": "bobbie_hoeger@greenheidenreich.ca",
-      "EmailId": 378,
-      "EmailAddress": "lesly@fisher.name",
-      "PhoneId": 195,
-      "ContactName": "Ratke Inc and Sons",
-      "ContactId": 31,
-      "SaleId": 971,
-      "Mrmrs": "ut",
-      "Firstname": "Kenny",
-      "MiddleName": "D'Amore, Davis and Ward",
-      "Lastname": "Huels",
-      "SaleStakeholderId": 163,
-      "Rank": 276,
-      "Phone": "141.362.5538"
+      "StakeholderRoleName": "Schumm, Schultz and Baumbach",
+      "Comment": "nam",
+      "StakeholderRoleId": 287,
+      "CountryId": 947,
+      "PersonId": 982,
+      "EmailDescription": "terrill_harris@mohrjohns.name",
+      "EmailId": 245,
+      "EmailAddress": "einar@keelingwest.com",
+      "PhoneId": 55,
+      "ContactName": "Bode Group",
+      "ContactId": 522,
+      "SaleId": 970,
+      "Mrmrs": "minima",
+      "Firstname": "Bethel",
+      "MiddleName": "Satterfield, Bins and Langosh",
+      "Lastname": "Flatley",
+      "SaleStakeholderId": 871,
+      "Rank": 839,
+      "Phone": "1-752-012-8270 x57159"
     }
   ],
-  "ActiveErpLinks": 308,
+  "ActiveErpLinks": 401,
   "UserDefinedFields": {
-    "SuperOffice:1": "Bianka Crist",
-    "SuperOffice:2": "1864060443"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "650787472"
   },
   "ExtraFields": {
-    "ExtraFields1": "amet",
-    "ExtraFields2": "exercitationem"
+    "ExtraFields1": "ad",
+    "ExtraFields2": "reprehenderit"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "cupiditate"
+    "CustomFields1": "sed",
+    "CustomFields2": "tenetur"
   },
-  "PublishEventDate": "2015-06-01T03:47:00.2693116+02:00",
-  "PublishTo": "2019-10-05T03:47:00.2693116+02:00",
-  "PublishFrom": "2016-12-25T03:47:00.2693116+01:00",
+  "PublishEventDate": "2018-06-21T03:41:58.9961292+02:00",
+  "PublishTo": "2006-09-02T03:41:58.9961292+02:00",
+  "PublishFrom": "2009-06-25T03:41:58.9961292+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 948,
+      "VisibleId": 88,
       "Visibility": "All",
-      "DisplayValue": "architecto"
+      "DisplayValue": "asperiores"
     },
     {
-      "VisibleId": 948,
+      "VisibleId": 88,
       "Visibility": "All",
-      "DisplayValue": "architecto"
+      "DisplayValue": "asperiores"
     }
   ]
 }
@@ -217,7 +217,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "delectus",
-  "2": "veritatis"
+  "1": "nostrum",
+  "2": "error"
 }
 ```

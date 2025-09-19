@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,79 +91,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 293,
+  "EjMessageId": 577,
   "Ticket": null,
-  "CreatedAt": "2005-09-17T03:46:55.5351045+02:00",
+  "CreatedAt": "2014-08-24T03:41:54.2775762+02:00",
   "CreatedBy": null,
-  "Author": "iste",
+  "Author": "autem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "atque",
-  "TimeSpent": 610,
-  "Body": "qui",
-  "HtmlBody": "veritatis",
-  "EmailHeader": "raymundo.schumm@strosin.co.uk",
-  "DebugInfo": "ut",
-  "MailSorter": "illum",
+  "MessageId": "minus",
+  "TimeSpent": 57,
+  "Body": "inventore",
+  "HtmlBody": "aperiam",
+  "EmailHeader": "favian.koch@bogisich.com",
+  "DebugInfo": "et",
+  "MailSorter": "accusantium",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "labore",
+  "SearchTitle": "fugiat",
   "MessageHeaders": [
     {
-      "Id": 183,
-      "Name": "Satterfield-Koelpin",
-      "Value": "odio",
+      "Id": 583,
+      "Name": "Orn-Kuhic",
+      "Value": "fugiat",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 108
+          "FieldType": "System.String",
+          "FieldLength": 594
         }
       }
     }
   ],
   "Important": false,
-  "Language": "magni",
-  "Sentiment": 179,
-  "SentimentConfidence": 832,
+  "Language": "sint",
+  "Sentiment": 831,
+  "SentimentConfidence": 458,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 425,
-      "Name": "Toy LLC",
-      "ContentType": "deserunt",
-      "AttSize": 142,
-      "InlineImage": true,
-      "ContentId": "vel",
-      "AuthKey": "quibusdam",
+      "AttachmentId": 42,
+      "Name": "Connelly, White and Anderson",
+      "ContentType": "commodi",
+      "AttSize": 92,
+      "InlineImage": false,
+      "ContentId": "velit",
+      "AuthKey": "impedit",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 743
+          "FieldLength": 742
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sit",
-    "ExtraFields2": "est"
+    "ExtraFields1": "pariatur",
+    "ExtraFields2": "veniam"
   },
   "CustomFields": {
-    "CustomFields1": "omnis",
-    "CustomFields2": "omnis"
+    "CustomFields1": "qui",
+    "CustomFields2": "quam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 303
+      "FieldType": "System.Int32",
+      "FieldLength": 126
     }
   }
 }

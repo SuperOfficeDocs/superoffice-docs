@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 29,
-    "Name": "Tillman Inc and Sons",
-    "ToolTip": "Consequatur eum magni recusandae esse ipsam quia.",
+    "Id": 682,
+    "Name": "Schinner-Hettinger",
+    "ToolTip": "Perferendis explicabo quae ut non eligendi repellat soluta.",
     "Deleted": false,
-    "Rank": 398,
-    "Type": "est",
-    "ColorBlock": 438,
-    "IconHint": "consequuntur",
+    "Rank": 754,
+    "Type": "impedit",
+    "ColorBlock": 676,
+    "IconHint": "at",
     "Selected": true,
-    "LastChanged": "2018-07-23T03:47:00.7224209+02:00",
+    "LastChanged": "2010-09-28T03:41:59.4648585+02:00",
     "ChildItems": [
       {
-        "Id": 157,
-        "Name": "Baumbach Group",
-        "ToolTip": "Natus aut omnis et eum atque itaque.",
+        "Id": 992,
+        "Name": "Wisoky Inc and Sons",
+        "ToolTip": "Vel soluta similique quis id quam illum.",
         "Deleted": false,
-        "Rank": 663,
-        "Type": "ducimus",
-        "ColorBlock": 643,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2002-02-19T03:47:00.7224209+01:00",
+        "Rank": 103,
+        "Type": "est",
+        "ColorBlock": 886,
+        "IconHint": "dignissimos",
+        "Selected": true,
+        "LastChanged": "2001-05-14T03:41:59.4648585+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "asperiores",
-        "Hidden": false,
-        "FullName": "Litzy Pinkie Gusikowski DVM"
+        "ExtraInfo": "voluptate",
+        "StyleHint": "delectus",
+        "Hidden": true,
+        "FullName": "Cyril Champlin"
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "repudiandae",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "aut",
     "Hidden": true,
-    "FullName": "Tatyana Langosh"
+    "FullName": "Emelia Bechtelar"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 716,
-    "Name": "Schimmel LLC",
-    "ToolTip": "Molestias sunt.",
+    "Id": 700,
+    "Name": "Ryan, Maggio and Pollich",
+    "ToolTip": "Eligendi modi amet et esse aut nihil aut.",
     "Deleted": false,
-    "Rank": 734,
-    "Type": "suscipit",
-    "ColorBlock": 331,
-    "IconHint": "occaecati",
-    "Selected": true,
-    "LastChanged": "2014-11-07T03:47:00.7224209+01:00",
+    "Rank": 380,
+    "Type": "mollitia",
+    "ColorBlock": 850,
+    "IconHint": "voluptatem",
+    "Selected": false,
+    "LastChanged": "2000-12-11T03:41:59.4648585+01:00",
     "ChildItems": [
       {
-        "Id": 947,
-        "Name": "Nitzsche LLC",
-        "ToolTip": "Est vel ad molestiae veniam quos.",
+        "Id": 732,
+        "Name": "Reilly-Beahan",
+        "ToolTip": "Ipsam et error.",
         "Deleted": true,
-        "Rank": 793,
-        "Type": "qui",
-        "ColorBlock": 146,
-        "IconHint": "consequuntur",
-        "Selected": true,
-        "LastChanged": "2009-03-25T03:47:00.7224209+01:00",
+        "Rank": 478,
+        "Type": "quae",
+        "ColorBlock": 697,
+        "IconHint": "iusto",
+        "Selected": false,
+        "LastChanged": "2025-08-12T03:41:59.4648585+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "magnam",
-        "Hidden": false,
-        "FullName": "Laurel Kris",
+        "ExtraInfo": "et",
+        "StyleHint": "suscipit",
+        "Hidden": true,
+        "FullName": "Dr. Eldon Hoppe III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 683
+            "FieldLength": 979
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "officia",
+    "ExtraInfo": "ab",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Mrs. Amelia Osborne Nolan DVM",
+    "FullName": "Mrs. Kamron Wilma Goodwin III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 576
+        "FieldType": "System.String",
+        "FieldLength": 853
       }
     }
   }

@@ -69,7 +69,7 @@ OK
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,19 +81,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Labadie, Dooley and Miller",
-    "DisplayName": "Feest LLC",
-    "Description": "Focused discrete firmware",
-    "ShortLabel": "libero",
-    "HideLabel": false,
-    "HideField": true,
-    "IsIndexed": true,
+    "FieldName": "Wilderman Inc and Sons",
+    "DisplayName": "Bergstrom, Douglas and Franecki",
+    "Description": "Configurable 24 hour strategy",
+    "ShortLabel": "iusto",
+    "HideLabel": true,
+    "HideField": false,
+    "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": false,
+    "IsReadOnly": true,
+    "IsExternal": true,
     "IsDisplayField": true,
-    "Rank": 320,
-    "TemplateVariableName": "Torphy-Rempel"
+    "Rank": 804,
+    "TemplateVariableName": "Goyette Group"
   }
 ]
 ```

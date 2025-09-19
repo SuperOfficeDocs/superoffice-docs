@@ -65,21 +65,21 @@ No Content
 POST /api/v1/Agents/Selection/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Osinski Inc and Sons",
-      "DisplayName": "Kohler, Stanton and Thompson",
-      "DisplayTooltip": "provident",
+      "Name": "Gottlieb, O'Hara and Kunde",
+      "DisplayName": "Hansen-Kuhic",
+      "DisplayTooltip": "inventore",
       "IsActive": false
     },
     {
-      "Name": "Osinski Inc and Sons",
-      "DisplayName": "Kohler, Stanton and Thompson",
-      "DisplayTooltip": "provident",
+      "Name": "Gottlieb, O'Hara and Kunde",
+      "DisplayName": "Hansen-Kuhic",
+      "DisplayTooltip": "inventore",
       "IsActive": false
     }
   ]

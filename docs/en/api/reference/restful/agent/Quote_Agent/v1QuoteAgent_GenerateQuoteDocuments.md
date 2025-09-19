@@ -88,16 +88,16 @@ OK
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 286,
-  "EmailBodyTemplateId": 33,
-  "AttachMainDocument": true,
-  "QuotedProductsTemplateId": 556,
+  "QuoteVersionId": 479,
+  "EmailBodyTemplateId": 882,
+  "AttachMainDocument": false,
+  "QuotedProductsTemplateId": 162,
   "IncludeAttachments": false,
-  "RawMailSubject": "labore"
+  "RawMailSubject": "dolorem"
 }
 ```
 
@@ -108,23 +108,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 592,
-  "QuotedProductsId": 487,
+  "QuoteDocumentId": 595,
+  "QuotedProductsId": 917,
   "QuoteAttachmentIds": [
-    586,
-    541
+    257,
+    249
   ],
-  "MailBody": "est",
-  "MailSubject": "et",
-  "ToEmail": "hazel_tillman@rempelcummerata.info",
-  "ToFullName": "Alexandro Kautzer",
-  "ErrorMessage": "debitis",
+  "MailBody": "aut",
+  "MailSubject": "alias",
+  "ToEmail": "jewell@reilly.biz",
+  "ToFullName": "Mrs. Lazaro Hilpert MD",
+  "ErrorMessage": "quasi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 979
+      "FieldType": "System.Int32",
+      "FieldLength": 12
     }
   }
 }

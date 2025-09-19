@@ -71,14 +71,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Ticket?$select=name,department,category/id
 GET /api/v1/Ticket?$filter=name begins 'S'
 GET /api/v1/Ticket?$orderBy=name asc
-GET /api/v1/Ticket?$entities=ex
-GET /api/v1/Ticket?$top=657
-GET /api/v1/Ticket?$skip=489
+GET /api/v1/Ticket?$entities=ipsum
+GET /api/v1/Ticket?$top=174
+GET /api/v1/Ticket?$skip=182
 GET /api/v1/Ticket?$mode=Full
 GET /api/v1/Ticket?$options=GrandTotal=true
-GET /api/v1/Ticket?$context=dolores
+GET /api/v1/Ticket?$context=quia
 GET /api/v1/Ticket?$format=JSON
-GET /api/v1/Ticket?$jsonSafe=True
+GET /api/v1/Ticket?$jsonSafe=False
 GET /api/v1/Ticket?$output=Display
 ```
 
@@ -119,7 +119,7 @@ OK
 GET /api/v1/Ticket
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -130,21 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "ea",
+  "odata.nextLink": "ex",
   "value": [
     {
-      "PrimaryKey": 4548,
+      "PrimaryKey": 8522,
       "EntityName": "sale",
-      "saleId": 4548,
-      "contactId": 5524,
-      "name": "Dicki-Lind"
+      "saleId": 8522,
+      "contactId": 5764,
+      "name": "Dickens Inc and Sons"
     },
     {
-      "PrimaryKey": 8979,
+      "PrimaryKey": 3365,
       "EntityName": "sale",
-      "saleId": 8979,
-      "contactId": 5702,
-      "name": "Mann-West"
+      "saleId": 3365,
+      "contactId": 7169,
+      "name": "Schoen-Ward"
     }
   ]
 }

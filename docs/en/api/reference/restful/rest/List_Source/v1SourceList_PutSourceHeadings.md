@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 538,
-    "Name": "Kris, Zulauf and Bechtelar",
-    "Tooltip": "cupiditate",
+    "HeadingId": 375,
+    "Name": "Lebsack-Reynolds",
+    "Tooltip": "accusantium",
     "Deleted": false,
-    "Rank": 668,
-    "UdListDefinitionId": 97
+    "Rank": 853,
+    "UdListDefinitionId": 889
   },
   {
-    "HeadingId": 538,
-    "Name": "Kris, Zulauf and Bechtelar",
-    "Tooltip": "cupiditate",
+    "HeadingId": 375,
+    "Name": "Lebsack-Reynolds",
+    "Tooltip": "accusantium",
     "Deleted": false,
-    "Rank": 668,
-    "UdListDefinitionId": 97
+    "Rank": 853,
+    "UdListDefinitionId": 889
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 684,
-    "Name": "Tromp LLC",
-    "Tooltip": "quaerat",
-    "Deleted": false,
-    "Rank": 108,
-    "UdListDefinitionId": 813,
+    "HeadingId": 297,
+    "Name": "Heathcote Group",
+    "Tooltip": "unde",
+    "Deleted": true,
+    "Rank": 991,
+    "UdListDefinitionId": 771,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 211
+        "FieldLength": 637
       }
     }
   }

@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/EMail/SaveToMailServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,156 +118,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 565,
-      "ContactName": "Fay, Wolf and Steuber",
-      "PersonId": 331,
-      "PersonName": "Hegmann-Fritsch",
-      "AssociateId": 124,
-      "Address": "eos",
-      "EmailId": 335,
+      "ContactId": 444,
+      "ContactName": "Parker Inc and Sons",
+      "PersonId": 224,
+      "PersonName": "McKenzie-Pfeffer",
+      "AssociateId": 512,
+      "Address": "sed",
+      "EmailId": 664,
       "DuplicatePersonIds": [
-        926,
-        981
+        892,
+        777
       ],
-      "Name": "Heaney-Rowe",
+      "Name": "Abshire Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 30
+          "FieldLength": 658
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 66,
-      "ContactName": "Bosco-Balistreri",
-      "PersonId": 385,
-      "PersonName": "Okuneva LLC",
-      "AssociateId": 518,
-      "Address": "et",
-      "EmailId": 509,
+      "ContactId": 214,
+      "ContactName": "Walker-Gleichner",
+      "PersonId": 776,
+      "PersonName": "McDermott-Fisher",
+      "AssociateId": 229,
+      "Address": "tempore",
+      "EmailId": 755,
       "DuplicatePersonIds": [
-        114,
-        462
+        252,
+        393
       ],
-      "Name": "Runolfsson, Cummings and Mohr",
+      "Name": "Rodriguez, Eichmann and Buckridge",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 465
+          "FieldLength": 159
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 110,
-      "ContactName": "Nitzsche Group",
-      "PersonId": 927,
-      "PersonName": "Howe-Mills",
-      "AssociateId": 168,
-      "Address": "quo",
-      "EmailId": 945,
+      "ContactId": 588,
+      "ContactName": "Rohan, Prohaska and Stanton",
+      "PersonId": 61,
+      "PersonName": "Rodriguez Inc and Sons",
+      "AssociateId": 752,
+      "Address": "labore",
+      "EmailId": 470,
       "DuplicatePersonIds": [
-        152,
-        732
+        208,
+        532
       ],
-      "Name": "Mohr-Kilback",
+      "Name": "Brown-Gislason",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 482
+          "FieldLength": 361
         }
       }
     }
   ],
-  "Subject": "nam",
-  "HTMLBody": "id",
+  "Subject": "eum",
+  "HTMLBody": "eos",
   "From": null,
-  "Sent": "2004-12-15T03:46:54.8007556+01:00",
-  "Size": 759,
+  "Sent": "2007-09-22T03:41:53.5432319+02:00",
+  "Size": 343,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "occaecati",
-  "PlainBody": "eveniet",
-  "IsSent": true,
+  "MessageID": "inventore",
+  "PlainBody": "qui",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 624,
+  "ServerId": 630,
   "Attachments": [
     {
-      "Description": "Mandatory exuding interface",
-      "Filename": "animi",
-      "Size": 143,
-      "Type": "est",
-      "Encoding": "dolorem",
-      "Id": "aperiam",
-      "Disposition": "totam",
-      "IsSafeFileExtension": false,
+      "Description": "Open-source asynchronous circuit",
+      "Filename": "et",
+      "Size": 70,
+      "Type": "nam",
+      "Encoding": "et",
+      "Id": "sequi",
+      "Disposition": "inventore",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 91
+          "FieldType": "System.Int32",
+          "FieldLength": 614
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Olson, Lowe and Schaden",
+      "Name": "Littel Inc and Sons",
       "Values": [
-        "libero",
-        "quos"
+        "non",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 323
+          "FieldType": "System.Int32",
+          "FieldLength": 888
         }
       }
     },
     {
-      "Name": "Olson, Lowe and Schaden",
+      "Name": "Littel Inc and Sons",
       "Values": [
-        "libero",
-        "quos"
+        "non",
+        "quia"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 323
+          "FieldType": "System.Int32",
+          "FieldLength": 888
         }
       }
     }
   ],
-  "FolderName": "Langworth, Ritchie and Goyette",
-  "EmailItemId": 43,
-  "AccountId": 13,
-  "ReceivedAt": "2002-06-04T03:46:54.8007556+02:00",
+  "FolderName": "Denesik-Mann",
+  "EmailItemId": 114,
+  "AccountId": 111,
+  "ReceivedAt": "2002-08-14T03:41:53.5432319+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-03-18T03:46:54.8007556+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2023-05-18T03:41:53.5432319+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldType": "System.String",
+      "FieldLength": 680
     }
   }
 }

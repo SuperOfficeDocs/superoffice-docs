@@ -81,7 +81,7 @@ ShipmentMessageBlockEntity found.
 GET /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,20 +91,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 965,
-  "AssociateId": 396,
-  "Block": "quia",
-  "Registered": "2008-04-13T03:47:00.3005605+02:00",
-  "RegisteredAssociateId": 33,
-  "Updated": "2018-08-08T03:47:00.3005605+02:00",
-  "UpdatedAssociateId": 635,
-  "UpdatedCount": 155,
+  "ShipmentMessageBlockId": 885,
+  "AssociateId": 812,
+  "Block": "tempora",
+  "Registered": "2019-11-13T03:41:59.0273773+01:00",
+  "RegisteredAssociateId": 931,
+  "Updated": "2012-01-26T03:41:59.0273773+01:00",
+  "UpdatedAssociateId": 379,
+  "UpdatedCount": 974,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 536
+      "FieldLength": 367
     }
   },
   "_Links": {

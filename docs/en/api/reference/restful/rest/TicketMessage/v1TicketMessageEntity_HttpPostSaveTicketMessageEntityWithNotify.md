@@ -128,63 +128,63 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 940,
+  "EjMessageId": 909,
   "Ticket": null,
-  "CreatedAt": "2000-03-02T03:47:00.3630582+01:00",
+  "CreatedAt": "2011-06-15T03:41:59.1523724+02:00",
   "CreatedBy": null,
-  "Author": "a",
+  "Author": "ea",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "rem",
-  "TimeSpent": 277,
-  "Body": "earum",
-  "HtmlBody": "minima",
-  "EmailHeader": "rollin@boehm.us",
-  "DebugInfo": "quis",
-  "MailSorter": "voluptatibus",
+  "MessageId": "et",
+  "TimeSpent": 386,
+  "Body": "beatae",
+  "HtmlBody": "vel",
+  "EmailHeader": "breanne_armstrong@barrowsschuppe.biz",
+  "DebugInfo": "quaerat",
+  "MailSorter": "aut",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "dolor",
+  "SearchTitle": "rem",
   "MessageHeaders": [
     {
-      "Id": 514,
-      "Name": "Jakubowski, Borer and Wyman",
-      "Value": "est",
+      "Id": 323,
+      "Name": "Hahn-Grimes",
+      "Value": "distinctio",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 514,
-      "Name": "Jakubowski, Borer and Wyman",
-      "Value": "est",
+      "Id": 323,
+      "Name": "Hahn-Grimes",
+      "Value": "distinctio",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "ut",
-  "Sentiment": 513,
-  "SentimentConfidence": 897,
+  "Important": true,
+  "Language": "omnis",
+  "Sentiment": 147,
+  "SentimentConfidence": 584,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 410,
-      "Name": "Senger Inc and Sons",
-      "ContentType": "modi",
-      "AttSize": 493,
+      "AttachmentId": 387,
+      "Name": "Von Inc and Sons",
+      "ContentType": "beatae",
+      "AttSize": 753,
       "InlineImage": false,
-      "ContentId": "cum",
-      "AuthKey": "ipsam",
-      "IsSafeFileExtension": true
+      "ContentId": "fugiat",
+      "AuthKey": "aut",
+      "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "molestiae",
-    "ExtraFields2": "distinctio"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "velit",
-    "CustomFields2": "id"
+    "CustomFields1": "natus",
+    "CustomFields2": "eveniet"
   }
 }
 ```
@@ -196,79 +196,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 129,
+  "EjMessageId": 498,
   "Ticket": null,
-  "CreatedAt": "1999-06-16T03:47:00.3786828+02:00",
+  "CreatedAt": "2003-03-01T03:41:59.1523724+01:00",
   "CreatedBy": null,
-  "Author": "dignissimos",
+  "Author": "porro",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ex",
-  "TimeSpent": 148,
-  "Body": "est",
-  "HtmlBody": "officia",
-  "EmailHeader": "arnaldo@farrell.co.uk",
-  "DebugInfo": "esse",
-  "MailSorter": "atque",
+  "MessageId": "et",
+  "TimeSpent": 508,
+  "Body": "esse",
+  "HtmlBody": "dolores",
+  "EmailHeader": "steve@gulgowskijacobi.co.uk",
+  "DebugInfo": "totam",
+  "MailSorter": "tempore",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "sit",
+  "SearchTitle": "quia",
   "MessageHeaders": [
     {
-      "Id": 803,
-      "Name": "Crooks-Ward",
-      "Value": "vero",
+      "Id": 950,
+      "Name": "Nicolas LLC",
+      "Value": "similique",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 171
+          "FieldType": "System.String",
+          "FieldLength": 399
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "aut",
-  "Sentiment": 522,
-  "SentimentConfidence": 59,
+  "Important": true,
+  "Language": "debitis",
+  "Sentiment": 560,
+  "SentimentConfidence": 24,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 384,
-      "Name": "Vandervort, Gutkowski and Kohler",
-      "ContentType": "ipsum",
-      "AttSize": 375,
-      "InlineImage": true,
-      "ContentId": "itaque",
-      "AuthKey": "ullam",
+      "AttachmentId": 717,
+      "Name": "Connelly, Kiehn and Crona",
+      "ContentType": "sequi",
+      "AttSize": 826,
+      "InlineImage": false,
+      "ContentId": "vitae",
+      "AuthKey": "quam",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldLength": 546
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolorum",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "non",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "ducimus",
-    "CustomFields2": "eum"
+    "CustomFields1": "id",
+    "CustomFields2": "sed"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 983
+      "FieldLength": 914
     }
   }
 }

@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 24,
+    "TopicId": 815,
     "User": null,
-    "CanListen": true,
-    "CanRespond": true,
+    "CanListen": false,
+    "CanRespond": false,
     "CanManage": false,
     "CanNotify": false
   },
   {
-    "TopicId": 24,
+    "TopicId": 815,
     "User": null,
-    "CanListen": true,
-    "CanRespond": true,
+    "CanListen": false,
+    "CanRespond": false,
     "CanManage": false,
     "CanNotify": false
   }

@@ -105,7 +105,7 @@ OK
 | ActiveErpLinks | int32 | The number of active erp links |
 | BounceEmails | array | Email addresses with a positive bounce counter. |
 | Domains | array | Web domains for this contact, ordered in array by rank |
-| InitialUtmParameters | InitalUtmParameters | Initial utm parameters when creating first person, readonly field |
+| UtmParameters | SavedUtmParameters | Utm parameters when creating first person and contact, readonly field |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
 | ExtraFields | object | Deprecated: Use {SuperOffice.CRM.Services.ContactEntity.CustomFields} instead. Extra fields added to the carrier. This could be data from Plug-ins, the foreign key system, external applications, etc. |
 | CustomFields | object | Udef + Extra fields added to the carrier. Extra fields as defined by changes to database schema + user-defined fields as defined by admin. Custom fields combines user defined fields and extra fields into one bucket.  The individual {SuperOffice.CRM.Services.ContactEntity.ExtraFields} and UserDefinedFields properties are deprecated in favor of this combined collection. |
@@ -118,11 +118,11 @@ OK
 POST /api/v1/Agents/Contact/GetContactWithPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 762
+  "ContactId": 851
 }
 ```
 
@@ -133,157 +133,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 607,
-  "Name": "Hodkiewicz, Cummings and Langworth",
+  "ContactId": 290,
+  "Name": "Metz-Cummings",
   "Department": "",
-  "OrgNr": "963605",
-  "Number1": "1205712",
-  "Number2": "485236",
-  "UpdatedDate": "2013-03-20T03:46:54.5038911+01:00",
-  "CreatedDate": "2011-07-13T03:46:54.5038911+02:00",
+  "OrgNr": "1323611",
+  "Number1": "489181",
+  "Number2": "940614",
+  "UpdatedDate": "2025-04-14T03:41:53.2776196+02:00",
+  "CreatedDate": "2008-10-09T03:41:53.2776196+02:00",
   "Emails": [
     {
-      "Value": "et",
-      "StrippedValue": "eum",
-      "Description": "Profit-focused didactic protocol",
+      "Value": "laudantium",
+      "StrippedValue": "dolor",
+      "Description": "Organic impactful matrix",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 549
+          "FieldType": "System.String",
+          "FieldLength": 970
         }
       }
     },
     {
-      "Value": "et",
-      "StrippedValue": "eum",
-      "Description": "Profit-focused didactic protocol",
+      "Value": "laudantium",
+      "StrippedValue": "dolor",
+      "Description": "Organic impactful matrix",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 549
+          "FieldType": "System.String",
+          "FieldLength": 970
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 538,
-      "Name": "Graham, Ullrich and Bogisich",
-      "ToolTip": "Est sint nemo sed ex quia.",
+      "Id": 889,
+      "Name": "Daniel, Sipes and Willms",
+      "ToolTip": "Doloribus facilis.",
       "Deleted": true,
-      "Rank": 851,
-      "Type": "culpa",
-      "ColorBlock": 526,
-      "IconHint": "harum",
+      "Rank": 124,
+      "Type": "et",
+      "ColorBlock": 695,
+      "IconHint": "eveniet",
       "Selected": false,
-      "LastChanged": "2024-10-21T03:46:54.5038911+02:00",
+      "LastChanged": "2011-01-19T03:41:53.2776196+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "recusandae",
+      "ExtraInfo": "atque",
+      "StyleHint": "animi",
       "Hidden": false,
-      "FullName": "Kade Wintheiser",
+      "FullName": "Dr. Meaghan Homenick DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 813
+          "FieldType": "System.String",
+          "FieldLength": 604
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "nostrum",
-      "StrippedValue": "eligendi",
-      "Description": "Fully-configurable demand-driven moderator",
+      "Value": "eum",
+      "StrippedValue": "corrupti",
+      "Description": "Up-sized explicit neural-net",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 503
+          "FieldType": "System.Int32",
+          "FieldLength": 135
         }
       }
     },
     {
-      "Value": "nostrum",
-      "StrippedValue": "eligendi",
-      "Description": "Fully-configurable demand-driven moderator",
+      "Value": "eum",
+      "StrippedValue": "corrupti",
+      "Description": "Up-sized explicit neural-net",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 503
+          "FieldType": "System.Int32",
+          "FieldLength": 135
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "iste",
-      "StrippedValue": "minus",
-      "Description": "Exclusive impactful moratorium",
+      "Value": "dolor",
+      "StrippedValue": "alias",
+      "Description": "Down-sized client-driven architecture",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 424
+          "FieldLength": 531
         }
       }
     },
     {
-      "Value": "iste",
-      "StrippedValue": "minus",
-      "Description": "Exclusive impactful moratorium",
+      "Value": "dolor",
+      "StrippedValue": "alias",
+      "Description": "Down-sized client-driven architecture",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 424
+          "FieldLength": 531
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "est",
-      "StrippedValue": "eaque",
-      "Description": "Exclusive static interface",
+      "Value": "saepe",
+      "StrippedValue": "sed",
+      "Description": "Synchronised multimedia success",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 121
+          "FieldLength": 17
         }
       }
     },
     {
-      "Value": "est",
-      "StrippedValue": "eaque",
-      "Description": "Exclusive static interface",
+      "Value": "saepe",
+      "StrippedValue": "sed",
+      "Description": "Synchronised multimedia success",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 121
+          "FieldLength": 17
         }
       }
     }
   ],
-  "Description": "Exclusive multimedia time-frame",
+  "Description": "Function-based regional product",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -292,102 +292,102 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "dolorum",
-      "PersonId": 243,
-      "Mrmrs": "in",
-      "Firstname": "Dax",
-      "Lastname": "Rutherford",
-      "MiddleName": "Steuber, Volkman and Prohaska",
-      "Title": "quasi",
-      "Description": "Networked clear-thinking synergy",
-      "Email": "caleigh@ondricka.info",
-      "FullName": "Nat Roberts",
-      "DirectPhone": "1-249-159-4021 x2841",
-      "FormalName": "West-Okuneva",
-      "CountryId": 675,
-      "ContactId": 131,
-      "ContactName": "Wiza-Reichert",
-      "Retired": 492,
-      "Rank": 435,
-      "ActiveInterests": 890,
+      "Position": "aut",
+      "PersonId": 441,
+      "Mrmrs": "cum",
+      "Firstname": "Tod",
+      "Lastname": "Feil",
+      "MiddleName": "Kuhlman, Schuster and Grant",
+      "Title": "sit",
+      "Description": "Extended zero administration capacity",
+      "Email": "emery@haley.ca",
+      "FullName": "Dorothy Zieme",
+      "DirectPhone": "(798)158-7889 x266",
+      "FormalName": "Rutherford-Kuhlman",
+      "CountryId": 732,
+      "ContactId": 557,
+      "ContactName": "Klein LLC",
+      "Retired": 493,
+      "Rank": 708,
+      "ActiveInterests": 86,
       "ContactDepartment": "",
-      "ContactCountryId": 208,
-      "ContactOrgNr": "381832",
-      "FaxPhone": "1-309-391-9481 x587",
-      "MobilePhone": "(462)798-8150",
-      "ContactPhone": "437.392.6877 x27359",
-      "AssociateName": "Ziemann-Ondricka",
-      "AssociateId": 97,
-      "UsePersonAddress": true,
-      "ContactFax": "repellendus",
-      "Kanafname": "nemo",
-      "Kanalname": "dolorum",
-      "Post1": "vel",
-      "Post2": "ut",
-      "Post3": "enim",
-      "EmailName": "magnus@legros.co.uk",
-      "ContactFullName": "Houston Wiza",
-      "ActiveErpLinks": 90,
-      "TicketPriorityId": 932,
-      "SupportLanguageId": 497,
-      "SupportAssociateId": 85,
+      "ContactCountryId": 666,
+      "ContactOrgNr": "1717546",
+      "FaxPhone": "(461)267-7098 x5018",
+      "MobilePhone": "474.788.9923 x71157",
+      "ContactPhone": "(882)562-9982",
+      "AssociateName": "Sanford-Koch",
+      "AssociateId": 859,
+      "UsePersonAddress": false,
+      "ContactFax": "aut",
+      "Kanafname": "debitis",
+      "Kanalname": "suscipit",
+      "Post1": "inventore",
+      "Post2": "quas",
+      "Post3": "quo",
+      "EmailName": "marcus@erdman.info",
+      "ContactFullName": "Pedro Waelchi DVM",
+      "ActiveErpLinks": 139,
+      "TicketPriorityId": 300,
+      "SupportLanguageId": 891,
+      "SupportAssociateId": 988,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1032790",
+      "PersonNumber": "1345089",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 469
+          "FieldLength": 452
         }
       }
     }
   ],
   "NoMailing": false,
-  "Kananame": "eaque",
+  "Kananame": "voluptatem",
   "Xstop": true,
-  "ActiveInterests": 135,
-  "GroupId": 128,
-  "ActiveStatusMonitorId": 774,
+  "ActiveInterests": 158,
+  "GroupId": 193,
+  "ActiveStatusMonitorId": 937,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 710,
-  "DbiAgentId": 863,
-  "DbiLastSyncronized": "2016-02-11T03:46:54.5038911+01:00",
-  "DbiKey": "nobis",
-  "DbiLastModified": "2022-09-11T03:46:54.5038911+02:00",
+  "Deleted": 596,
+  "DbiAgentId": 123,
+  "DbiLastSyncronized": "2013-05-25T03:41:53.2776196+02:00",
+  "DbiKey": "consequatur",
+  "DbiLastModified": "2016-01-07T03:41:53.2776196+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 543,
-  "ActiveErpLinks": 267,
+  "Source": 596,
+  "ActiveErpLinks": 833,
   "BounceEmails": [
-    "willow@hilpertauer.biz",
-    "toney_reichel@nolan.com"
+    "amos.marvin@wisozkhyatt.info",
+    "andrew@bradtke.co.uk"
   ],
   "Domains": [
-    "necessitatibus",
-    "fugit"
+    "sequi",
+    "qui"
   ],
-  "InitialUtmParameters": null,
+  "UtmParameters": null,
   "UserDefinedFields": {
-    "SuperOffice:1": "Napoleon Shanahan",
-    "SuperOffice:2": "313186294"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Miss Daisy Dibbert"
   },
   "ExtraFields": {
-    "ExtraFields1": "quibusdam",
-    "ExtraFields2": "sequi"
+    "ExtraFields1": "id",
+    "ExtraFields2": "dicta"
   },
   "CustomFields": {
-    "CustomFields1": "exercitationem",
-    "CustomFields2": "magni"
+    "CustomFields1": "sit",
+    "CustomFields2": "consequatur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 579
+      "FieldLength": 321
     }
   }
 }

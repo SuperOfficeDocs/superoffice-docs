@@ -105,15 +105,15 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 180,
-  "LookupAddresses": true,
+  "MessageServerId": 39,
+  "LookupAddresses": false,
   "Flags": "Answered",
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 
@@ -126,147 +126,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 494,
-      "ContactName": "Jast, Keebler and Cummings",
-      "PersonId": 523,
-      "PersonName": "Wisoky Inc and Sons",
-      "AssociateId": 254,
-      "Address": "eveniet",
-      "EmailId": 573,
+      "ContactId": 932,
+      "ContactName": "Kunze Group",
+      "PersonId": 133,
+      "PersonName": "Glover Group",
+      "AssociateId": 337,
+      "Address": "deserunt",
+      "EmailId": 588,
       "DuplicatePersonIds": [
-        808,
-        564
+        899,
+        377
       ],
-      "Name": "Nitzsche Group",
+      "Name": "Okuneva-Jenkins",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 253
+          "FieldLength": 391
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 66,
-      "ContactName": "Johns, Ryan and Bartell",
-      "PersonId": 781,
-      "PersonName": "Heller-Carter",
-      "AssociateId": 490,
-      "Address": "recusandae",
-      "EmailId": 783,
+      "ContactId": 920,
+      "ContactName": "Gorczany, Kuhn and Kohler",
+      "PersonId": 876,
+      "PersonName": "Murazik Inc and Sons",
+      "AssociateId": 261,
+      "Address": "dolores",
+      "EmailId": 112,
       "DuplicatePersonIds": [
-        157,
-        377
+        654,
+        219
       ],
-      "Name": "Herzog Inc and Sons",
+      "Name": "Prosacco Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 473
+          "FieldType": "System.String",
+          "FieldLength": 852
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 735,
-      "ContactName": "Beatty, Pfeffer and Hahn",
-      "PersonId": 805,
-      "PersonName": "Crist, Mertz and Bernhard",
-      "AssociateId": 880,
-      "Address": "earum",
-      "EmailId": 542,
+      "ContactId": 984,
+      "ContactName": "Hodkiewicz, Terry and Champlin",
+      "PersonId": 459,
+      "PersonName": "Hackett, Doyle and Reichert",
+      "AssociateId": 925,
+      "Address": "delectus",
+      "EmailId": 631,
       "DuplicatePersonIds": [
-        614,
-        450
+        170,
+        147
       ],
-      "Name": "Pfannerstill LLC",
+      "Name": "Crist-Wuckert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 821
+          "FieldLength": 127
         }
       }
     }
   ],
-  "Subject": "molestiae",
-  "HTMLBody": "est",
+  "Subject": "est",
+  "HTMLBody": "hic",
   "From": null,
-  "Sent": "2017-04-06T03:46:54.7695066+02:00",
-  "Size": 444,
+  "Sent": "2021-08-26T03:41:53.5119835+02:00",
+  "Size": 152,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aut",
-  "PlainBody": "nihil",
-  "IsSent": true,
+  "MessageID": "dignissimos",
+  "PlainBody": "voluptas",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 964,
+  "ServerId": 103,
   "Attachments": [
     {
-      "Description": "Business-focused content-based paradigm",
-      "Filename": "laboriosam",
-      "Size": 808,
-      "Type": "sed",
-      "Encoding": "sed",
-      "Id": "dolor",
-      "Disposition": "veniam",
-      "IsSafeFileExtension": false,
+      "Description": "Mandatory empowering knowledge user",
+      "Filename": "soluta",
+      "Size": 22,
+      "Type": "praesentium",
+      "Encoding": "repudiandae",
+      "Id": "asperiores",
+      "Disposition": "exercitationem",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 162
+          "FieldType": "System.String",
+          "FieldLength": 347
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Jaskolski-Graham",
+      "Name": "Feil, Daniel and Goldner",
       "Values": [
-        "expedita",
-        "assumenda"
+        "quia",
+        "nam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 725
+          "FieldLength": 47
         }
       }
     },
     {
-      "Name": "Jaskolski-Graham",
+      "Name": "Feil, Daniel and Goldner",
       "Values": [
-        "expedita",
-        "assumenda"
+        "quia",
+        "nam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 725
+          "FieldLength": 47
         }
       }
     }
   ],
-  "FolderName": "Crist-McKenzie",
-  "EmailItemId": 191,
-  "AccountId": 768,
-  "ReceivedAt": "2012-10-18T03:46:54.7695066+02:00",
+  "FolderName": "Walsh Inc and Sons",
+  "EmailItemId": 892,
+  "AccountId": 379,
+  "ReceivedAt": "2021-10-31T03:41:53.5119835+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2019-09-04T03:46:54.7695066+02:00",
+  "RepliedAt": "2001-01-21T03:41:53.5119835+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -275,7 +275,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 311
+      "FieldLength": 896
     }
   }
 }

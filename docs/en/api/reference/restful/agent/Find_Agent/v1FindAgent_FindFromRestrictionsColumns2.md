@@ -165,15 +165,15 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "quo",
-  "ProviderName": "Ruecker, Goldner and Frami",
-  "DesiredColumns": "voluptas",
-  "PageSize": 156,
-  "PageNumber": 407
+  "Restrictions": "ea",
+  "ProviderName": "Weissnat, Adams and Koss",
+  "DesiredColumns": "et",
+  "PageSize": 528,
+  "PageNumber": 323
 }
 ```
 
@@ -186,51 +186,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Walter LLC",
-      "DisplayTooltip": "aperiam",
-      "DisplayType": "sed",
-      "CanOrderBy": true,
-      "Name": "Hudson LLC",
-      "CanRestrictBy": true,
-      "RestrictionType": "consectetur",
-      "RestrictionListName": "Haley, Kunze and Kassulke",
-      "IsVisible": false,
-      "ExtraInfo": "alias",
-      "Width": "dignissimos",
-      "IconHint": "nam",
-      "HeadingIconHint": "aut"
+      "DisplayName": "Bartell, Wolf and Schuster",
+      "DisplayTooltip": "ipsa",
+      "DisplayType": "quia",
+      "CanOrderBy": false,
+      "Name": "Flatley, Wiegand and Harvey",
+      "CanRestrictBy": false,
+      "RestrictionType": "consequatur",
+      "RestrictionListName": "Bosco, Larkin and Gutkowski",
+      "IsVisible": true,
+      "ExtraInfo": "atque",
+      "Width": "fugiat",
+      "IconHint": "ad",
+      "HeadingIconHint": "quo"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Bashirian-Kulas",
-      "PrimaryKey": 543,
+      "EntityName": "Turcotte, Block and Gleichner",
+      "PrimaryKey": 17,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "illo",
-          "LinkHint": "voluptas"
+          "DisplayValue": "cum",
+          "TooltipHint": "eos",
+          "LinkHint": "expedita"
         }
       },
-      "LinkHint": "id",
-      "StyleHint": "et",
+      "LinkHint": "quod",
+      "StyleHint": "soluta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 835
+          "FieldType": "System.String",
+          "FieldLength": 804
         }
       }
     }
   ],
-  "RowCount": 661,
+  "RowCount": 688,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 370
+      "FieldLength": 599
     }
   }
 }

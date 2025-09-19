@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Reilly, Cole and Kuhlman"
+  "TargetTableName": "Goodwin Inc and Sons"
 }
 ```
 
@@ -129,70 +129,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Reverse-engineered discrete system engine",
-  "Postit": "illo",
+  "Description": "Enhanced disintermediate workforce",
+  "Postit": "dolorem",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 543,
-  "IncludePerson": 919,
+  "GroupIdx": 725,
+  "IncludePerson": 924,
   "MemberCount": 99.99,
-  "Name": "Zemlak-Cruickshank",
-  "PostitTextId": 556,
-  "CreatedDate": "2012-06-25T03:46:55.3007553+02:00",
-  "SelectionId": 198,
-  "SoundEx": "nobis",
-  "Source": 916,
-  "TextId": 245,
-  "UpdatedDate": "2000-11-17T03:46:55.3007553+01:00",
-  "UpdatedCount": 545,
-  "Visibility": 96,
+  "Name": "Marvin Inc and Sons",
+  "PostitTextId": 896,
+  "CreatedDate": "2021-05-15T03:41:54.0432111+02:00",
+  "SelectionId": 477,
+  "SoundEx": "nemo",
+  "Source": 666,
+  "TextId": 728,
+  "UpdatedDate": "2005-12-04T03:41:54.0432111+01:00",
+  "UpdatedCount": 160,
+  "Visibility": 503,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 437,
-  "TargetTableName": "Purdy, Wisoky and Treutel",
+  "TargetTableNumber": 725,
+  "TargetTableName": "Homenick, Rippin and Champlin",
   "Completed": false,
-  "LeftSelectionId": 471,
-  "RightSelectionId": 237,
+  "LeftSelectionId": 506,
+  "RightSelectionId": 163,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Lakin-Goodwin",
-  "ShadowProviderName": "Jerde, Rohan and Koss",
-  "ChartKey": "ut",
-  "LastLoaded": "2017-07-16T03:46:55.3007553+02:00",
-  "LastLoadedBy": 692,
+  "MainProviderName": "Crooks, Gorczany and Denesik",
+  "ShadowProviderName": "Reichel-Senger",
+  "ChartKey": "et",
+  "LastLoaded": "2023-12-23T03:41:54.0432111+01:00",
+  "LastLoadedBy": 102,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2009-01-19T03:46:55.3007553+01:00",
-  "LastMembershipChangeBy": 951,
+  "LastMembershipChange": "2006-02-01T03:41:54.0432111+01:00",
+  "LastMembershipChangeBy": 411,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "odio",
-  "MemberTabHeading": "sit",
-  "MailingsProviderName": "Kihn, Howell and Kunde",
-  "DashboardTileDefinitionId": 726,
+  "MainHeading": "quisquam",
+  "MemberTabHeading": "hic",
+  "MailingsProviderName": "Mitchell LLC",
+  "DashboardTileDefinitionId": 172,
   "VisibleFor": [
     {
-      "VisibleId": 799,
+      "VisibleId": 373,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "molestias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 90
+          "FieldLength": 178
         }
       }
     },
     {
-      "VisibleId": 799,
+      "VisibleId": 373,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "molestias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 90
+          "FieldLength": 178
         }
       }
     }
@@ -202,7 +202,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 674
+      "FieldLength": 648
     }
   }
 }

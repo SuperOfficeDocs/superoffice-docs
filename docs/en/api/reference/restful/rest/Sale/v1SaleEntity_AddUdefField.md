@@ -99,7 +99,7 @@ OK
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -109,46 +109,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 109,
-  "ColumnId": 397,
-  "FieldDefault": "aut",
-  "FieldHeight": 733,
-  "FieldLabel": "ut",
-  "FieldLeft": 769,
-  "FieldTop": 58,
+  "UDefFieldId": 271,
+  "ColumnId": 250,
+  "FieldDefault": "quaerat",
+  "FieldHeight": 967,
+  "FieldLabel": "dolorem",
+  "FieldLeft": 469,
+  "FieldTop": 801,
   "FieldType": "Checkbox",
-  "FieldWidth": 995,
-  "FormatMask": "ad",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 479,
-  "LabelLeft": 746,
-  "LabelTop": 321,
-  "LabelWidth": 710,
-  "LastVersionId": 301,
-  "ListTableId": 611,
+  "FieldWidth": 194,
+  "FormatMask": "a",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 250,
+  "LabelLeft": 977,
+  "LabelTop": 117,
+  "LabelWidth": 760,
+  "LastVersionId": 138,
+  "ListTableId": 882,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 807,
-  "ProgId": "aspernatur",
-  "IsReadOnly": false,
-  "ShortLabel": "laudantium",
-  "TabOrder": 511,
-  "TextLength": 906,
-  "Tooltip": "nostrum",
-  "UdefIdentity": 224,
-  "UDListDefinitionId": 926,
+  "Page1LineNo": 612,
+  "ProgId": "iure",
+  "IsReadOnly": true,
+  "ShortLabel": "impedit",
+  "TabOrder": 248,
+  "TextLength": 491,
+  "Tooltip": "inventore",
+  "UdefIdentity": 175,
+  "UDListDefinitionId": 162,
   "Justification": "Center",
-  "Version": 556,
-  "TemplateVariableName": "Schaden Group",
-  "HasBeenPublished": false,
-  "MdoListName": "Rau, Yundt and Jast",
+  "Version": 633,
+  "TemplateVariableName": "Maggio LLC",
+  "HasBeenPublished": true,
+  "MdoListName": "Lueilwitz Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 562
+      "FieldType": "System.Int32",
+      "FieldLength": 582
     }
   }
 }

@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 562,
-    "Name": "Koepp-Ruecker",
-    "ToolTip": "Repellat quibusdam est sit.",
-    "Deleted": false,
-    "Rank": 298,
-    "Type": "eius",
-    "ColorBlock": 446,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "2002-02-05T03:47:00.7849183+01:00",
+    "Id": 574,
+    "Name": "Hettinger Inc and Sons",
+    "ToolTip": "Voluptate similique est ut rerum laudantium assumenda.",
+    "Deleted": true,
+    "Rank": 342,
+    "Type": "veritatis",
+    "ColorBlock": 300,
+    "IconHint": "sunt",
+    "Selected": false,
+    "LastChanged": "2012-09-08T03:41:59.5742289+02:00",
     "ChildItems": [
       {
-        "Id": 591,
-        "Name": "Bergnaum, Nicolas and Hudson",
-        "ToolTip": "Consequatur sit velit.",
+        "Id": 319,
+        "Name": "Mitchell LLC",
+        "ToolTip": "Aperiam asperiores eaque.",
         "Deleted": false,
-        "Rank": 955,
-        "Type": "natus",
-        "ColorBlock": 512,
+        "Rank": 166,
+        "Type": "cumque",
+        "ColorBlock": 202,
         "IconHint": "harum",
-        "Selected": false,
-        "LastChanged": "2024-05-27T03:47:00.7849183+02:00",
+        "Selected": true,
+        "LastChanged": "2007-02-22T03:41:59.5742289+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Jan Treutel",
+        "ExtraInfo": "tempora",
+        "StyleHint": "rem",
+        "Hidden": true,
+        "FullName": "Delta Kuhlman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 961
+            "FieldType": "System.String",
+            "FieldLength": 565
           }
         }
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "possimus",
-    "Hidden": false,
-    "FullName": "Domenico Konopelski V",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "at",
+    "Hidden": true,
+    "FullName": "Dario Schoen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 301
+        "FieldType": "System.String",
+        "FieldLength": 75
       }
     }
   }

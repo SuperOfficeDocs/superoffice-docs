@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 351,
-    "Name": "Altenwerth, Altenwerth and Herzog",
-    "ToolTip": "Quas ipsa.",
-    "Deleted": false,
-    "Rank": 330,
-    "Type": "aspernatur",
-    "ColorBlock": 28,
-    "IconHint": "non",
-    "Selected": false,
-    "LastChanged": "2019-01-30T03:47:00.8161673+01:00",
+    "Id": 541,
+    "Name": "Cummerata-Barton",
+    "ToolTip": "Molestias pariatur voluptatem voluptas.",
+    "Deleted": true,
+    "Rank": 884,
+    "Type": "exercitationem",
+    "ColorBlock": 452,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2022-01-29T03:41:59.6054711+01:00",
     "ChildItems": [
       {
-        "Id": 458,
-        "Name": "Deckow, Hudson and Watsica",
-        "ToolTip": "Nisi suscipit ducimus voluptas possimus odio voluptatem.",
+        "Id": 717,
+        "Name": "Graham-Smith",
+        "ToolTip": "Reiciendis iste ea sapiente.",
         "Deleted": false,
-        "Rank": 1002,
-        "Type": "aut",
-        "ColorBlock": 76,
-        "IconHint": "vitae",
+        "Rank": 133,
+        "Type": "dolorum",
+        "ColorBlock": 944,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2010-08-15T03:47:00.8161673+02:00",
+        "LastChanged": "2000-06-19T03:41:59.6054711+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "ipsum",
+        "ExtraInfo": "enim",
+        "StyleHint": "repellat",
         "Hidden": false,
-        "FullName": "Madisyn Bechtelar IV"
+        "FullName": "Zoila Stroman Jr."
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "excepturi",
+    "ExtraInfo": "quos",
+    "StyleHint": "nam",
     "Hidden": false,
-    "FullName": "Dr. Tyler Favian Mills PhD"
+    "FullName": "Arden Beier"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 808,
-    "Name": "Ruecker LLC",
-    "ToolTip": "Alias ut voluptate vel.",
+    "Id": 446,
+    "Name": "Fahey Inc and Sons",
+    "ToolTip": "Aut sunt ut.",
     "Deleted": false,
-    "Rank": 110,
-    "Type": "rerum",
-    "ColorBlock": 350,
-    "IconHint": "sit",
-    "Selected": false,
-    "LastChanged": "2003-04-02T03:47:00.8161673+02:00",
+    "Rank": 276,
+    "Type": "repellat",
+    "ColorBlock": 267,
+    "IconHint": "eum",
+    "Selected": true,
+    "LastChanged": "2010-11-22T03:41:59.6054711+01:00",
     "ChildItems": [
       {
-        "Id": 666,
-        "Name": "Reynolds-Hettinger",
-        "ToolTip": "Voluptatem ut perspiciatis minima.",
+        "Id": 194,
+        "Name": "Ernser-Kshlerin",
+        "ToolTip": "Aperiam eos voluptatem laborum quia beatae.",
         "Deleted": true,
-        "Rank": 73,
-        "Type": "rem",
-        "ColorBlock": 35,
-        "IconHint": "maxime",
+        "Rank": 520,
+        "Type": "dignissimos",
+        "ColorBlock": 280,
+        "IconHint": "sunt",
         "Selected": true,
-        "LastChanged": "2022-12-29T03:47:00.8161673+01:00",
+        "LastChanged": "1999-09-14T03:41:59.6054711+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "dolor",
-        "Hidden": true,
-        "FullName": "Dessie Jerde",
+        "ExtraInfo": "hic",
+        "StyleHint": "sed",
+        "Hidden": false,
+        "FullName": "Emilio McCullough",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 402
+            "FieldType": "System.String",
+            "FieldLength": 227
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
+    "ExtraInfo": "atque",
     "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Anya Witting",
+    "Hidden": false,
+    "FullName": "Belle Kling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 21
+        "FieldType": "System.Int32",
+        "FieldLength": 551
       }
     }
   }

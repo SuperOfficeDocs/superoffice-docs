@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/Position
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 804,
-  "Name": "Cremin Group",
-  "Tooltip": "delectus",
+  "Id": 965,
+  "Name": "Feest Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 406,
+  "Rank": 8,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "omnis",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "in",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 945,
-  "Name": "Walter Inc and Sons",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 487,
+  "Id": 469,
+  "Name": "Mraz, Langworth and Borer",
+  "Tooltip": "deleniti",
+  "Deleted": true,
+  "Rank": 115,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolore",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 559
+      "FieldLength": 76
     }
   }
 }

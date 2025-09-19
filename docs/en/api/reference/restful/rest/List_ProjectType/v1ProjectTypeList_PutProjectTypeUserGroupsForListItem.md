@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 118,
-    "Name": "Lebsack, Hessel and Witting",
-    "ToolTip": "Dicta praesentium.",
-    "Deleted": false,
-    "Rank": 830,
-    "Type": "magnam",
-    "ColorBlock": 45,
-    "IconHint": "blanditiis",
+    "Id": 571,
+    "Name": "Becker Inc and Sons",
+    "ToolTip": "Dolor ut architecto.",
+    "Deleted": true,
+    "Rank": 858,
+    "Type": "est",
+    "ColorBlock": 651,
+    "IconHint": "debitis",
     "Selected": false,
-    "LastChanged": "2025-07-02T03:47:00.7536695+02:00",
+    "LastChanged": "2017-01-14T03:41:59.558612+01:00",
     "ChildItems": [
       {
-        "Id": 730,
-        "Name": "Kertzmann-Kreiger",
-        "ToolTip": "Corrupti repellat nesciunt in sed quia at.",
+        "Id": 159,
+        "Name": "Abernathy-Jaskolski",
+        "ToolTip": "Sint eligendi porro vel doloremque et natus voluptas.",
         "Deleted": false,
-        "Rank": 364,
-        "Type": "adipisci",
-        "ColorBlock": 62,
-        "IconHint": "odit",
-        "Selected": true,
-        "LastChanged": "2013-08-26T03:47:00.7536695+02:00",
+        "Rank": 889,
+        "Type": "officiis",
+        "ColorBlock": 672,
+        "IconHint": "veritatis",
+        "Selected": false,
+        "LastChanged": "2023-10-02T03:41:59.558612+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "aliquid",
-        "Hidden": false,
-        "FullName": "Mrs. Robbie Lemke Jr."
+        "ExtraInfo": "debitis",
+        "StyleHint": "ab",
+        "Hidden": true,
+        "FullName": "Maverick Rippin"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "ex",
-    "Hidden": true,
-    "FullName": "Hadley Lynch"
+    "ExtraInfo": "aut",
+    "StyleHint": "cum",
+    "Hidden": false,
+    "FullName": "Franz Keeling"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 112,
-    "Name": "Halvorson-Will",
-    "ToolTip": "Corrupti neque assumenda doloribus hic.",
-    "Deleted": false,
-    "Rank": 662,
-    "Type": "et",
-    "ColorBlock": 644,
-    "IconHint": "culpa",
+    "Id": 851,
+    "Name": "Leuschke Inc and Sons",
+    "ToolTip": "Recusandae dolorum esse nostrum consequuntur nihil.",
+    "Deleted": true,
+    "Rank": 892,
+    "Type": "dolorum",
+    "ColorBlock": 754,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "2012-04-14T03:47:00.7536695+02:00",
+    "LastChanged": "2021-04-06T03:41:59.558612+02:00",
     "ChildItems": [
       {
-        "Id": 541,
-        "Name": "Barrows-Padberg",
-        "ToolTip": "Nostrum et voluptas ab.",
+        "Id": 757,
+        "Name": "Gleason-Lesch",
+        "ToolTip": "Dicta iste magnam aut et amet.",
         "Deleted": true,
-        "Rank": 975,
-        "Type": "aut",
-        "ColorBlock": 642,
-        "IconHint": "eos",
+        "Rank": 138,
+        "Type": "et",
+        "ColorBlock": 874,
+        "IconHint": "sequi",
         "Selected": false,
-        "LastChanged": "2002-09-13T03:47:00.7536695+02:00",
+        "LastChanged": "2005-11-29T03:41:59.558612+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "expedita",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "quaerat",
         "Hidden": false,
-        "FullName": "Darren Bins",
+        "FullName": "Mrs. Kolby Koepp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 900
+            "FieldType": "System.Int32",
+            "FieldLength": 55
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "quia",
+    "ExtraInfo": "dolor",
+    "StyleHint": "ipsum",
     "Hidden": false,
-    "FullName": "Ava White",
+    "FullName": "Omer Lemke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 238
+        "FieldLength": 800
       }
     }
   }

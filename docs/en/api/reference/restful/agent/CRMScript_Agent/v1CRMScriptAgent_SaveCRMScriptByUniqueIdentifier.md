@@ -91,7 +91,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "possimus",
+  "UniqueIdentifier": "aperiam",
   "Crmscript": null
 }
 ```
@@ -103,23 +103,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "est",
-  "Name": "Stanton, Runolfsdottir and Kuhn",
-  "Description": "Total bifurcated forecast",
-  "IncludeId": "excepturi",
-  "Source": "voluptatem",
-  "Registered": "1998-06-07T03:46:54.5663888+02:00",
-  "RegisteredBy": "voluptatem",
-  "Updated": "2005-04-05T03:46:54.5663888+02:00",
-  "UpdatedBy": "unde",
-  "Path": "vitae",
+  "UniqueIdentifier": "corrupti",
+  "Name": "Armstrong, Abbott and Champlin",
+  "Description": "Vision-oriented composite focus group",
+  "IncludeId": "aut",
+  "Source": "repudiandae",
+  "Registered": "2016-10-01T03:41:53.3401161+02:00",
+  "RegisteredBy": "adipisci",
+  "Updated": "2013-03-27T03:41:53.3401161+01:00",
+  "UpdatedBy": "amet",
+  "Path": "aut",
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 980
+      "FieldType": "System.String",
+      "FieldLength": 143
     }
   }
 }

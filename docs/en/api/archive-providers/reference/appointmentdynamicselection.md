@@ -740,7 +740,7 @@ Appointment selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentDynamicSelection?$select=completed,contact/contactAssociate/portraitThumbnail,contact/contactUdef/SuperOffice:7,contact/LastActivity,person/restrictionAddress/addressId
+GET /api/v1/archive/AppointmentDynamicSelection?$select=updatedBy,completedDate,joinVideomeetUrl,visibleFor,contact/streetAddress/wgs84latitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

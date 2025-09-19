@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,37 +90,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 321,
-  "Name": "O'Hara Inc and Sons",
-  "Tooltip": "occaecati",
-  "SaveInDb": 183,
-  "Filename": "eveniet",
-  "DefaultOref": "nihil",
+  "DocumentTemplateId": 540,
+  "Name": "Kohler Inc and Sons",
+  "Tooltip": "quod",
+  "SaveInDb": 730,
+  "Filename": "velit",
+  "DefaultOref": "fugit",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 190,
-  "IntentId": 653,
+  "AutoeventId": 446,
+  "IntentId": 527,
   "IsDefaultPublished": false,
-  "Rank": 296,
-  "LoadTemplateFromPlugin": 32,
-  "MimeType": "ullam",
+  "Rank": 875,
+  "LoadTemplateFromPlugin": 850,
+  "MimeType": "voluptates",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 519,
+  "DocumentTypeKey": 43,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "mac_stokes@dickinsonmraz.us",
-  "IncludeSignature": false,
+  "EmailSubject": "vernon.schaefer@walsh.info",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "abagail@skiles.name",
+  "SenderEmailAddress": "isaac_roberts@bogisich.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 759
+      "FieldType": "System.Int32",
+      "FieldLength": 181
     }
   }
 }

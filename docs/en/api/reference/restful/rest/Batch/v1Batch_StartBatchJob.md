@@ -80,34 +80,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 772,
-  "Name": "Kunde Inc and Sons",
-  "AssociateId": 634,
-  "DetailsTable": 694,
-  "DetailsRecord": 337,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
+  "Id": 485,
+  "Name": "Ward-O'Conner",
+  "AssociateId": 724,
+  "DetailsTable": 297,
+  "DetailsRecord": 362,
+  "IsSystemTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "quo",
-    "ParameterObject2": "a"
+    "ParameterObject1": "veniam",
+    "ParameterObject2": "rerum"
   },
-  "LastStarted": "2022-08-16T03:47:00.3943072+02:00",
-  "Created": "2016-09-08T03:47:00.3943072+02:00",
-  "StartCount": 488,
-  "DatabaseSerialNumber": "1079885",
-  "Context": "fugiat",
-  "Result": "consectetur",
+  "LastStarted": "2011-10-05T03:41:59.1679969+02:00",
+  "Created": "2015-06-07T03:41:59.1679969+02:00",
+  "StartCount": 536,
+  "DatabaseSerialNumber": "1525837",
+  "Context": "consequuntur",
+  "Result": "fuga",
   "State": "All",
-  "Description": "Networked grid-enabled methodology",
-  "Response": "voluptas",
-  "Request": "consectetur",
-  "ProgressDescription": "Assimilated bandwidth-monitored benchmark",
-  "ProgressPercent": 449,
-  "FileName": "VonRueden, Runolfsson and Kirlin",
+  "Description": "Quality-focused value-added challenge",
+  "Response": "et",
+  "Request": "sed",
+  "ProgressDescription": "Open-architected directional intranet",
+  "ProgressPercent": 107,
+  "FileName": "Toy Inc and Sons",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -118,5 +118,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-469
+978
 ```

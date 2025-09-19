@@ -67,13 +67,13 @@ No Content
 POST /api/v1/Agents/ForeignSystem/DeleteDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Buckridge-Goodwin",
-  "DeviceName": "Herzog LLC",
-  "DeviceIdentifier": "consequatur"
+  "ApplicationName": "Jacobi-Nienow",
+  "DeviceName": "Adams Inc and Sons",
+  "DeviceIdentifier": "tempore"
 }
 ```
 

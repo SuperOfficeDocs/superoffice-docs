@@ -77,6 +77,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.SShipmentTableInfo}.MainTableName
   - SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.SShipmentTableInfo}.GetRankRestriction(SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.ArchiveLists.ExtenderBase{SuperOffice.CRM.Data.SShipmentTableInfo}.StyleHintPrefix
+  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.Visible
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.Invisible
@@ -894,6 +895,14 @@ references:
   fullName: SuperOffice.CRM.ArchiveLists.ExtenderBase<SuperOffice.CRM.Data.SShipmentTableInfo>.StyleHintPrefix
   nameWithType.vb: ExtenderBase(Of SShipmentTableInfo).StyleHintPrefix
   fullName.vb: SuperOffice.CRM.ArchiveLists.ExtenderBase(Of SuperOffice.CRM.Data.SShipmentTableInfo).StyleHintPrefix
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
+  commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  isExternal: true
+  href: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.html#SuperOffice_CRM_ArchiveLists_ExtensibleColumnsBase__orderBy
+  name: _orderBy
+  nameWithType: ExtensibleColumnsBase._orderBy
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._orderBy
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
   commentId: F:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase._minuteFields
   parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase

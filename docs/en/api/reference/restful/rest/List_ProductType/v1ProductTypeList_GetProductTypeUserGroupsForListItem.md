@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 120,
-    "Name": "Gottlieb LLC",
-    "ToolTip": "Aut minus velit nam ut dolorem rerum.",
+    "Id": 835,
+    "Name": "Miller Group",
+    "ToolTip": "Laborum vero.",
     "Deleted": false,
-    "Rank": 776,
-    "Type": "qui",
-    "ColorBlock": 337,
-    "IconHint": "vitae",
-    "Selected": true,
-    "LastChanged": "2001-03-07T03:47:00.7380451+01:00",
+    "Rank": 515,
+    "Type": "ut",
+    "ColorBlock": 402,
+    "IconHint": "quam",
+    "Selected": false,
+    "LastChanged": "2013-10-07T03:41:59.5432177+02:00",
     "ChildItems": [
       {
-        "Id": 113,
-        "Name": "Flatley-Grant",
-        "ToolTip": "Non accusamus dolorem praesentium quaerat.",
+        "Id": 305,
+        "Name": "Sanford, Paucek and Bailey",
+        "ToolTip": "Porro commodi esse et.",
         "Deleted": false,
-        "Rank": 311,
-        "Type": "suscipit",
-        "ColorBlock": 297,
-        "IconHint": "molestias",
+        "Rank": 148,
+        "Type": "debitis",
+        "ColorBlock": 600,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2017-08-31T03:47:00.7380451+02:00",
+        "LastChanged": "2018-07-18T03:41:59.5432177+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "amet",
+        "ExtraInfo": "non",
+        "StyleHint": "laborum",
         "Hidden": true,
-        "FullName": "Clara Leuschke",
+        "FullName": "Federico Rath",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 188
+            "FieldLength": 627
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "vero",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "labore",
     "Hidden": false,
-    "FullName": "Bailee Hammes",
+    "FullName": "Gennaro Ruecker",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 710
+        "FieldType": "System.Int32",
+        "FieldLength": 137
       }
     }
   }

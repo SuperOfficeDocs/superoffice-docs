@@ -53,10 +53,10 @@ Time zone location
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[BaseTZLocation](basetzlocation.md)  |Time zone location for the database (how tz-related datetimes should be stored in the database) |
 |[chat\_topic](chat-topic.md)  |This table contains chat topics. |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 |[country](country.md)  |Country information |
 |[DiaryView](diaryview.md)  |Configuration of a multi-user diary view |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 |[project](project.md)  |Projects |
 |[TZDstRule](tzdstrule.md)  |Time zone rule for daylight saving time |
 |[TZStdRule](tzstdrule.md)  |Time zone rule for standard time |

@@ -136,12 +136,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateAppointmentEntityFromExisting
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 552,
-  "AssociateId": 116
+  "AppointmentId": 867,
+  "AssociateId": 657
 }
 ```
 
@@ -156,121 +156,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2000-01-25T03:46:54.0820313+01:00",
-  "AppointmentId": 797,
-  "Description": "Up-sized human-resource firmware",
-  "Title": "vitae",
-  "Agenda": "ea",
-  "InternalNotes": "dolorem",
-  "StartDate": "2019-03-27T03:46:54.0820313+01:00",
-  "EndDate": "2019-04-19T03:46:54.0820313+02:00",
+  "CreatedDate": "2007-01-17T03:41:52.8713839+01:00",
+  "AppointmentId": 470,
+  "Description": "Reverse-engineered disintermediate secured line",
+  "Title": "est",
+  "Agenda": "voluptas",
+  "InternalNotes": "voluptatem",
+  "StartDate": "2008-04-21T03:41:52.8713839+02:00",
+  "EndDate": "2004-01-10T03:41:52.8713839+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 944,
+  "MotherId": 251,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2018-03-19T03:46:54.1132807+01:00",
+  "UpdatedDate": "2004-10-12T03:41:52.8870158+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 442,
+  "ActiveLinks": 398,
   "Links": [
     {
-      "EntityName": "Turcotte-Blick",
-      "Id": 641,
-      "Description": "Exclusive bifurcated benchmark",
-      "ExtraInfo": "dolorem",
-      "LinkId": 471,
+      "EntityName": "Becker-Rodriguez",
+      "Id": 274,
+      "Description": "Customizable full-range neural-net",
+      "ExtraInfo": "non",
+      "LinkId": 3,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 884
+          "FieldType": "System.String",
+          "FieldLength": 97
         }
       }
     }
   ],
-  "AlarmLeadTime": "consequatur",
+  "AlarmLeadTime": "qui",
   "HasAlarm": false,
-  "ColorIndex": 637,
-  "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "debitis",
-  "LeadTime": "sint",
-  "Location": "et",
-  "RejectCounter": 324,
+  "ColorIndex": 583,
+  "IsFree": true,
+  "IsAlldayEvent": true,
+  "LagTime": "quod",
+  "LeadTime": "corrupti",
+  "Location": "numquam",
+  "RejectCounter": 315,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 361,
-      "PersonId": 153,
-      "ContactId": 689,
-      "EmailId": 794,
+      "AssociateId": 825,
+      "PersonId": 477,
+      "ContactId": 57,
+      "EmailId": 679,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "lavon_schmeler@hirtheeffertz.info",
-      "Description": "Progressive contextually-based internet solution"
+      "EmailAddress": "fabian.rath@weimann.uk",
+      "Description": "User-friendly optimizing artificial intelligence"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2013-09-03T03:46:54.1132807+02:00",
+  "ActiveDate": "2000-08-11T03:41:52.9026346+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 384,
+  "PreferredTZLocation": 502,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 840,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 813,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "blanditiis",
+  "CentralserviceVideomeetId": "rem",
   "UserDefinedFields": {
-    "SuperOffice:1": "Hillary Ankunding",
-    "SuperOffice:2": "214439030"
+    "SuperOffice:1": "173354113",
+    "SuperOffice:2": "495551638"
   },
   "ExtraFields": {
-    "ExtraFields1": "quasi",
-    "ExtraFields2": "sunt"
+    "ExtraFields1": "molestias",
+    "ExtraFields2": "nemo"
   },
   "CustomFields": {
-    "CustomFields1": "nam",
-    "CustomFields2": "illum"
+    "CustomFields1": "doloribus",
+    "CustomFields2": "veniam"
   },
-  "PublishEventDate": "2010-07-20T03:46:54.1445302+02:00",
-  "PublishTo": "2003-04-16T03:46:54.1445302+02:00",
-  "PublishFrom": "2003-04-01T03:46:54.1445302+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2022-10-03T03:41:52.9341759+02:00",
+  "PublishTo": "2010-05-26T03:41:52.9341759+02:00",
+  "PublishFrom": "2004-05-19T03:41:52.9341759+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 351,
+      "VisibleId": 496,
       "Visibility": "All",
-      "DisplayValue": "id",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 383
+          "FieldType": "System.Int32",
+          "FieldLength": 504
         }
       }
     },
     {
-      "VisibleId": 351,
+      "VisibleId": 496,
       "Visibility": "All",
-      "DisplayValue": "id",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 383
+          "FieldType": "System.Int32",
+          "FieldLength": 504
         }
       }
     }
@@ -279,8 +279,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 488
+      "FieldType": "System.Int32",
+      "FieldLength": 810
     }
   }
 }

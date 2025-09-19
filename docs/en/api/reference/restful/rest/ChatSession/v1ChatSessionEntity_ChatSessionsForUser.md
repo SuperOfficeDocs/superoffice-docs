@@ -88,7 +88,7 @@ OK
 GET /api/v1/ChatSession/ForCurrentUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,29 +99,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatSessionId": 594,
-    "TopicId": 569,
+    "ChatSessionId": 821,
+    "TopicId": 60,
     "User": null,
     "Person": null,
-    "CustomerAlias": "saepe",
-    "CustomerHost": "quis",
-    "CustomerName": "Hegmann Group",
-    "CustomerEmail": "heaven.king@hesselmuller.uk",
-    "CustomerPhone": "510.116.8947 x33173",
-    "CustomerConsented": true,
-    "CustomerCompanyName": "West Inc and Sons",
+    "CustomerAlias": "voluptas",
+    "CustomerHost": "soluta",
+    "CustomerName": "Smith, Wolf and Dooley",
+    "CustomerEmail": "steve_keeling@kundelesch.biz",
+    "CustomerPhone": "(373)208-0271 x081",
+    "CustomerConsented": false,
+    "CustomerCompanyName": "Bailey, Hartmann and Hirthe",
     "Status": "Closed",
-    "FirstMessage": "quas",
-    "LastMessage": "facere",
-    "WhenRequested": "2010-07-27T03:46:59.7536971+02:00",
-    "WhenStarted": "2011-06-26T03:46:59.7536971+02:00",
-    "WhenEnded": "2018-08-03T03:46:59.7536971+02:00",
-    "WhenIdle": "2006-11-03T03:46:59.7536971+01:00",
-    "WhenFetched": "2002-10-12T03:46:59.7536971+02:00",
-    "SessionKey": "corrupti",
-    "InitialQueuePos": 276,
-    "AlertLevel": 113,
-    "Rank": 799,
+    "FirstMessage": "illo",
+    "LastMessage": "consequatur",
+    "WhenRequested": "2008-11-18T03:41:58.4492851+01:00",
+    "WhenStarted": "2015-06-21T03:41:58.4492851+02:00",
+    "WhenEnded": "2012-01-23T03:41:58.4492851+01:00",
+    "WhenIdle": "2006-06-18T03:41:58.4492851+02:00",
+    "WhenFetched": "2019-06-23T03:41:58.4492851+02:00",
+    "SessionKey": "rerum",
+    "InitialQueuePos": 283,
+    "AlertLevel": 728,
+    "Rank": 300,
     "Flags": "CustomerIsTyping",
     "Contact": null,
     "Project": null,
@@ -129,13 +129,13 @@ Content-Type: application/json; charset=utf-8
     "Ticket": null,
     "TransferTo": null,
     "ChatbotIsActive": false,
-    "Rating": 199,
+    "Rating": 406,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 573
+        "FieldType": "System.String",
+        "FieldLength": 263
       }
     }
   }

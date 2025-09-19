@@ -100,22 +100,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 182,
-  "DefaultValue": "vero",
-  "HasFirstSyncDefaultValue": true,
-  "FirstSyncDefaultValue": "et",
+  "ErpFieldId": 633,
+  "DefaultValue": "assumenda",
+  "HasFirstSyncDefaultValue": false,
+  "FirstSyncDefaultValue": "nihil",
   "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "velit",
+  "ErpFieldKey": "est",
   "FieldType": "Checkbox",
-  "ListName": "Hayes Group",
+  "ListName": "Marvin LLC",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 550
+      "FieldType": "System.Int32",
+      "FieldLength": 151
     }
   }
 }

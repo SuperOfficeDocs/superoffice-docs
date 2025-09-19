@@ -104,32 +104,32 @@ OK
 POST /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 85,
-  "Name": "Conn-Smitham",
+  "WebhookId": 235,
+  "Name": "Klein-Bernhard",
   "Events": [
-    "et",
-    "ea"
+    "harum",
+    "veritatis"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "modi",
+  "Secret": "sed",
   "State": "Active",
-  "Type": "saepe",
+  "Type": "non",
   "Headers": {
-    "Headers1": "id",
-    "Headers2": "iste"
+    "Headers1": "mollitia",
+    "Headers2": "distinctio"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2007-07-04T03:47:00.5505518+02:00",
+  "Registered": "2016-02-10T03:41:59.2617427+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2018-03-21T03:47:00.5505518+01:00",
+  "Updated": "2009-02-23T03:41:59.2617427+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "emil@schamberger.us"
+  "ErrorsEmail": "ken_torphy@jakubowski.com"
 }
 ```
 
@@ -140,31 +140,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 856,
-  "Name": "Hettinger Inc and Sons",
+  "WebhookId": 48,
+  "Name": "Greenfelder, Rempel and Vandervort",
   "Events": [
-    "blanditiis",
-    "ut"
+    "quis",
+    "odio"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "eos",
+  "Secret": "aut",
   "State": "Active",
-  "Type": "est",
+  "Type": "veniam",
   "Headers": {
-    "Headers1": "dolores",
-    "Headers2": "qui"
+    "Headers1": "nihil",
+    "Headers2": "est"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2025-04-01T03:47:00.5505518+02:00",
+  "Registered": "2008-11-27T03:41:59.2773675+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2025-04-08T03:47:00.5505518+02:00",
+  "Updated": "2002-04-11T03:41:59.2773675+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "willie.will@damore.us",
+  "ErrorsEmail": "narciso.kshlerin@hansengottlieb.com",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

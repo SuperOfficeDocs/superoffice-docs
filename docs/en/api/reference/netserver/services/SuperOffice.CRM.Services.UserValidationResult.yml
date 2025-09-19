@@ -27,11 +27,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.4.0.0")]
 
       public class UserValidationResult : Carrier
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.4.0.0")>
 
       Public Class UserValidationResult Inherits Carrier
   seealso:
@@ -46,7 +46,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.3.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.4.0.0
 - uid: SuperOffice.CRM.Services.UserValidationResult.#ctor
   commentId: M:SuperOffice.CRM.Services.UserValidationResult.#ctor
   id: '#ctor'

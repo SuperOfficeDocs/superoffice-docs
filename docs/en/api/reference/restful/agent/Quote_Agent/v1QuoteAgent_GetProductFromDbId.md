@@ -107,11 +107,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 522
+  "ProductId": 17
 }
 ```
 
@@ -122,73 +122,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 211,
-  "ERPProductKey": "occaecati",
-  "ERPPriceListKey": "fugit",
-  "Name": "Reichel-Mann",
-  "Description": "Phased actuating strategy",
-  "Code": "amet",
-  "PriceUnit": "rem",
-  "QuantityUnit": "iste",
+  "ProductId": 805,
+  "ERPProductKey": "repellendus",
+  "ERPPriceListKey": "fugiat",
+  "Name": "Runte LLC",
+  "Description": "Face to face reciprocal system engine",
+  "Code": "nemo",
+  "PriceUnit": "laboriosam",
+  "QuantityUnit": "magni",
   "IsSubscription": true,
-  "SubscriptionUnit": "reprehenderit",
-  "DefaultSubscriptionQuantity": 19023.38,
-  "ItemNumber": "1053678",
+  "SubscriptionUnit": "excepturi",
+  "DefaultSubscriptionQuantity": 12905.812,
+  "ItemNumber": "1776144",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "veritatis",
-  "ProductTypeKey": "reprehenderit",
-  "VAT": 21793.836,
-  "VATInfo": "dolorum",
-  "UnitCost": 8518.212,
-  "UnitMinimumPrice": 3998.984,
-  "UnitListPrice": 20101.476,
-  "InAssortment": true,
-  "Supplier": "qui",
-  "SupplierCode": "nemo",
-  "Rights": "nesciunt",
-  "Rule": "facere",
+  "ProductFamilyKey": "natus",
+  "ProductTypeKey": "consectetur",
+  "VAT": 22317.214,
+  "VATInfo": "aliquam",
+  "UnitCost": 5985.94,
+  "UnitMinimumPrice": 21815.773999999998,
+  "UnitListPrice": 11025.412,
+  "InAssortment": false,
+  "Supplier": "nihil",
+  "SupplierCode": "quia",
+  "Rights": "quis",
+  "Rule": "a",
   "ExtraInfo": [
     {
-      "Name": "Swift, Muller and Kertzmann",
-      "Value": "aspernatur",
+      "Name": "Beahan, West and Nikolaus",
+      "Value": "nemo",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 122
+          "FieldType": "System.Int32",
+          "FieldLength": 791
         }
       }
     },
     {
-      "Name": "Swift, Muller and Kertzmann",
-      "Value": "aspernatur",
+      "Name": "Beahan, West and Nikolaus",
+      "Value": "nemo",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 122
+          "FieldType": "System.Int32",
+          "FieldLength": 791
         }
       }
     }
   ],
-  "RawExtraInfo": "aut",
-  "ExtraField1": "voluptas",
-  "ExtraField2": "numquam",
-  "ExtraField3": "perferendis",
-  "ExtraField4": "iusto",
-  "ExtraField5": "praesentium",
-  "InStock": 11561.326,
+  "RawExtraInfo": "id",
+  "ExtraField1": "a",
+  "ExtraField2": "minima",
+  "ExtraField3": "quo",
+  "ExtraField4": "mollitia",
+  "ExtraField5": "ipsa",
+  "InStock": 24382.52,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 269
+      "FieldLength": 839
     }
   }
 }

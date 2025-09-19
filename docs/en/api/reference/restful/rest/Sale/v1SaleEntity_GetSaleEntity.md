@@ -120,7 +120,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -128,7 +128,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 04 Apr 2014 03:47:00 G4T
+Last-Modified: Thu, 29 Dec 2005 03:41:58 G12T
 
 {
   "Appointment": null,
@@ -137,7 +137,7 @@ Last-Modified: Fri, 04 Apr 2014 03:47:00 G4T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "vitae",
+  "SaleText": "illo",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -146,113 +146,113 @@ Last-Modified: Fri, 04 Apr 2014 03:47:00 G4T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2005-04-02T03:47:00.2536872+02:00",
-  "Amount": 122.226,
-  "SaleId": 473,
-  "Earning": 13830.341999999999,
-  "EarningPercent": 24391.922,
-  "Heading": "consequatur",
-  "Number": "406527",
-  "Probability": 785,
-  "CreatedDate": "2006-05-16T03:47:00.2536872+02:00",
-  "UpdatedDate": "2014-04-04T03:47:00.2536872+02:00",
+  "Saledate": "2021-09-28T03:41:58.9805041+02:00",
+  "Amount": 25260.04,
+  "SaleId": 559,
+  "Earning": 7593.682,
+  "EarningPercent": 28995.768,
+  "Heading": "non",
+  "Number": "616614",
+  "Probability": 670,
+  "CreatedDate": "2013-12-18T03:41:58.9805041+01:00",
+  "UpdatedDate": "2005-12-29T03:41:58.9805041+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 548,
+  "ActiveLinks": 295,
   "Links": [
     {
-      "EntityName": "Emmerich-Wiegand",
-      "Id": 708,
-      "Description": "Function-based context-sensitive methodology",
-      "ExtraInfo": "sit",
-      "LinkId": 24,
+      "EntityName": "Langosh-Hand",
+      "Id": 882,
+      "Description": "Public-key demand-driven access",
+      "ExtraInfo": "commodi",
+      "LinkId": 181,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 82
+          "FieldLength": 150
         }
       }
     }
   ],
-  "NextDueDate": "2012-11-08T03:47:00.2536872+01:00",
-  "Postit": "quos",
+  "NextDueDate": "2013-02-09T03:41:58.9805041+01:00",
+  "Postit": "totam",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2003-12-18T03:47:00.2536872+01:00",
+  "ReopenDate": "2023-11-22T03:41:58.9805041+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Little Group",
-      "Comment": "consequuntur",
-      "StakeholderRoleId": 439,
-      "CountryId": 411,
-      "PersonId": 591,
-      "EmailDescription": "thad_klocko@blick.co.uk",
-      "EmailId": 544,
-      "EmailAddress": "dereck@ziemannconsidine.com",
-      "PhoneId": 753,
-      "ContactName": "Langworth Group",
-      "ContactId": 434,
-      "SaleId": 887,
-      "Mrmrs": "sit",
-      "Firstname": "Maryam",
-      "MiddleName": "Moen LLC",
-      "Lastname": "Becker",
-      "SaleStakeholderId": 558,
-      "Rank": 93,
-      "Phone": "145-664-3084",
+      "StakeholderRoleName": "Stamm-Lemke",
+      "Comment": "tempora",
+      "StakeholderRoleId": 212,
+      "CountryId": 860,
+      "PersonId": 206,
+      "EmailDescription": "autumn.sawayn@lemkearmstrong.us",
+      "EmailId": 447,
+      "EmailAddress": "taurean@green.co.uk",
+      "PhoneId": 259,
+      "ContactName": "Roberts-Douglas",
+      "ContactId": 694,
+      "SaleId": 211,
+      "Mrmrs": "culpa",
+      "Firstname": "Irwin",
+      "MiddleName": "Conn Group",
+      "Lastname": "Wiegand",
+      "SaleStakeholderId": 443,
+      "Rank": 642,
+      "Phone": "265-811-4204 x244",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 247
+          "FieldLength": 271
         }
       }
     }
   ],
-  "ActiveErpLinks": 930,
+  "ActiveErpLinks": 869,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Jessyca Becker IV",
-    "SuperOffice:2": "1588955661"
+    "SuperOffice:1": "86667998",
+    "SuperOffice:2": "Mrs. Julius O'Hara"
   },
   "ExtraFields": {
-    "ExtraFields1": "maiores",
-    "ExtraFields2": "ipsam"
+    "ExtraFields1": "natus",
+    "ExtraFields2": "deleniti"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "eos"
+    "CustomFields1": "at",
+    "CustomFields2": "omnis"
   },
-  "PublishEventDate": "2004-11-10T03:47:00.2536872+01:00",
-  "PublishTo": "2010-04-10T03:47:00.2536872+02:00",
-  "PublishFrom": "2024-11-01T03:47:00.2536872+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2014-08-02T03:41:58.9805041+02:00",
+  "PublishTo": "2011-12-02T03:41:58.9805041+01:00",
+  "PublishFrom": "2002-03-08T03:41:58.9805041+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 247,
+      "VisibleId": 595,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 917
+          "FieldType": "System.String",
+          "FieldLength": 479
         }
       }
     },
     {
-      "VisibleId": 247,
+      "VisibleId": 595,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "amet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 917
+          "FieldType": "System.String",
+          "FieldLength": 479
         }
       }
     }
@@ -262,12 +262,12 @@ Last-Modified: Fri, 04 Apr 2014 03:47:00 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldLength": 859
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

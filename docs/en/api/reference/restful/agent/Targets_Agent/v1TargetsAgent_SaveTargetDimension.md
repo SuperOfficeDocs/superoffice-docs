@@ -80,21 +80,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 781,
+  "TargetDimensionId": 54,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "adipisci",
-  "DimensionListName": "Effertz, Mante and Buckridge",
-  "DimensionListId": 645,
-  "DimensionListLabel": "porro",
+  "DimensionListField": "necessitatibus",
+  "DimensionListName": "Anderson, Predovic and Prohaska",
+  "DimensionListId": 841,
+  "DimensionListLabel": "est",
   "SelectedDimensions": [
-    657,
-    75
+    444,
+    612
   ]
 }
 ```
@@ -106,24 +106,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 221,
+  "TargetDimensionId": 82,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "ipsam",
-  "DimensionListName": "Beier-Morissette",
-  "DimensionListId": 742,
-  "DimensionListLabel": "quibusdam",
+  "DimensionListField": "sint",
+  "DimensionListName": "Windler Inc and Sons",
+  "DimensionListId": 396,
+  "DimensionListLabel": "voluptas",
   "SelectedDimensions": [
-    800,
-    417
+    361,
+    860
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 812
+      "FieldLength": 260
     }
   }
 }

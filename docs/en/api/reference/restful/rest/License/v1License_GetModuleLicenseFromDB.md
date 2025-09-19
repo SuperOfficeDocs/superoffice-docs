@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,20 +83,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Pouros LLC",
-  "ModuleName": "Lindgren, Sipes and Rutherford",
-  "ModuleDescription": "Distributed hybrid time-frame",
-  "ModuleTooltip": "esse",
-  "ModuleVersion": "quod",
+  "OwnerName": "Mann LLC",
+  "ModuleName": "Swift Group",
+  "ModuleDescription": "Synergistic multimedia framework",
+  "ModuleTooltip": "sapiente",
+  "ModuleVersion": "aut",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": true,
+  "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 541,
-  "ExtraFlags": 196,
-  "ExtraInfo": "doloribus",
-  "SortOrder": 463,
+  "NumberOfLicenses": 647,
+  "ExtraFlags": 822,
+  "ExtraInfo": "nihil",
+  "SortOrder": 267,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Yost, Durgan and Schamberger",
-  "Signature": "suscipit"
+  "PrerequisiteModuleName": "Reichel-Goodwin",
+  "Signature": "optio"
 }
 ```

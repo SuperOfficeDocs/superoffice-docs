@@ -49,6 +49,7 @@ Download [WSDL file for Services88/User](../Services88-User.md) if you need to g
 * [GenerateNewPasswordForExternalUser](GenerateNewPasswordForExternalUser.md)
 * [GetAccessGatewayInfo](GetAccessGatewayInfo.md)
 * [GetAccessToken](GetAccessToken.md)
+* [GetAllDataRights](GetAllDataRights.md)
 * [GetAllFunctionalRights](GetAllFunctionalRights.md)
 * [GetAllRoles](GetAllRoles.md)
 * [GetAllUserGroups](GetAllUserGroups.md)

@@ -86,17 +86,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Haley LLC",
-    "Id": 796,
-    "Description": "Centralized systemic intranet",
-    "ExtraInfo": "ad",
-    "LinkId": 263,
+    "EntityName": "Mohr Inc and Sons",
+    "Id": 837,
+    "Description": "Focused demand-driven customer loyalty",
+    "ExtraInfo": "non",
+    "LinkId": 275,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 181
+        "FieldLength": 701
       }
     }
   }

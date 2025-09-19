@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 915,
-  "ConnectorName": "Nienow Inc and Sons"
+  "ConnectionId": 838,
+  "ConnectorName": "Sanford, Hamill and Orn"
 }
 ```
 
@@ -103,14 +103,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "repellat",
-    "Rank": 101,
-    "DisplayName": "Lebsack LLC",
-    "DisplayDescription": "Operative local success",
+    "FieldKey": "ipsam",
+    "Rank": 365,
+    "DisplayName": "Wilderman Group",
+    "DisplayDescription": "Seamless multi-tasking knowledge user",
     "FieldType": "Checkbox",
-    "ListName": "Dietrich-Nolan",
-    "DefaultValue": "quia",
-    "MaxLength": 895,
+    "ListName": "Pagac, Cruickshank and Hauck",
+    "DefaultValue": "quidem",
+    "MaxLength": 860,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 449
+        "FieldLength": 372
       }
     }
   }

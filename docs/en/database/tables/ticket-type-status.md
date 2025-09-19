@@ -8,7 +8,7 @@ content_type: reference
 envir: onsite, online
 ---
 
-# ticket\_type\_status Table (536)
+# ticket\_type\_status Table (537)
 
 Link table defining what Statuses are relevant to a particular Ticket type
 

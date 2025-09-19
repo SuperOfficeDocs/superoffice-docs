@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 320,
-    "Name": "Moore-Hagenes",
-    "ToolTip": "Odit nihil numquam voluptatem quia perferendis temporibus.",
+    "Id": 858,
+    "Name": "Roberts-Morissette",
+    "ToolTip": "Corrupti tenetur enim amet enim.",
     "Deleted": false,
-    "Rank": 897,
-    "Type": "optio",
-    "ColorBlock": 475,
-    "IconHint": "impedit",
+    "Rank": 186,
+    "Type": "quod",
+    "ColorBlock": 362,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2006-12-01T03:47:00.7380451+01:00",
+    "LastChanged": "2002-10-15T03:41:59.5432177+02:00",
     "ChildItems": [
       {
-        "Id": 823,
-        "Name": "Hermann, Goodwin and Swaniawski",
-        "ToolTip": "Ullam doloremque.",
+        "Id": 922,
+        "Name": "Anderson, Borer and Considine",
+        "ToolTip": "Aspernatur ut aliquam eveniet.",
         "Deleted": false,
-        "Rank": 736,
-        "Type": "ad",
-        "ColorBlock": 463,
-        "IconHint": "magni",
-        "Selected": false,
-        "LastChanged": "2016-08-08T03:47:00.7380451+02:00",
+        "Rank": 930,
+        "Type": "voluptas",
+        "ColorBlock": 794,
+        "IconHint": "consequuntur",
+        "Selected": true,
+        "LastChanged": "2004-01-08T03:41:59.5432177+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illum",
-        "StyleHint": "nisi",
+        "ExtraInfo": "cumque",
+        "StyleHint": "tenetur",
         "Hidden": false,
-        "FullName": "Mr. Dejah Maximilian Stamm DDS"
+        "FullName": "Savanna Dooley"
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Ms. Estelle Romaguera"
+    "ExtraInfo": "accusantium",
+    "StyleHint": "quasi",
+    "Hidden": false,
+    "FullName": "Ms. Matilda Anahi McClure DVM"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 836,
-    "Name": "Haley, Kemmer and Hegmann",
-    "ToolTip": "Maxime eligendi.",
-    "Deleted": false,
-    "Rank": 858,
-    "Type": "qui",
-    "ColorBlock": 105,
-    "IconHint": "id",
+    "Id": 166,
+    "Name": "Harber-Robel",
+    "ToolTip": "Tempore in nobis accusamus quia atque.",
+    "Deleted": true,
+    "Rank": 616,
+    "Type": "aperiam",
+    "ColorBlock": 974,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2010-03-29T03:47:00.7380451+02:00",
+    "LastChanged": "2012-01-03T03:41:59.5432177+01:00",
     "ChildItems": [
       {
-        "Id": 520,
-        "Name": "DuBuque LLC",
-        "ToolTip": "Maxime laudantium.",
-        "Deleted": false,
-        "Rank": 638,
-        "Type": "et",
-        "ColorBlock": 866,
-        "IconHint": "dolore",
+        "Id": 981,
+        "Name": "Lesch Inc and Sons",
+        "ToolTip": "Cum esse exercitationem repellat.",
+        "Deleted": true,
+        "Rank": 750,
+        "Type": "qui",
+        "ColorBlock": 536,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2019-12-05T03:47:00.7380451+01:00",
+        "LastChanged": "2006-10-23T03:41:59.5432177+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "minima",
+        "ExtraInfo": "maxime",
+        "StyleHint": "iure",
         "Hidden": false,
-        "FullName": "Stuart Hirthe",
+        "FullName": "Eloisa Rohan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 710
+            "FieldType": "System.String",
+            "FieldLength": 653
           }
         }
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "cupiditate",
-    "Hidden": true,
-    "FullName": "Mrs. Matilde Rosalee Zboncak III",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "rerum",
+    "Hidden": false,
+    "FullName": "Prof. June Julia Hudson PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 409
+        "FieldLength": 878
       }
     }
   }

@@ -107,13 +107,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    831,
-    388
+    451,
+    40
   ]
 }
 ```
@@ -126,46 +126,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 955,
-    "ColumnId": 612,
-    "FieldDefault": "est",
-    "FieldHeight": 985,
-    "FieldLabel": "rerum",
-    "FieldLeft": 717,
-    "FieldTop": 717,
+    "UDefFieldId": 967,
+    "ColumnId": 129,
+    "FieldDefault": "unde",
+    "FieldHeight": 135,
+    "FieldLabel": "minima",
+    "FieldLeft": 966,
+    "FieldTop": 525,
     "FieldType": "Checkbox",
-    "FieldWidth": 459,
-    "FormatMask": "quas",
-    "HideLabel": true,
-    "IsIndexed": false,
-    "LabelHeight": 29,
-    "LabelLeft": 383,
-    "LabelTop": 581,
-    "LabelWidth": 114,
-    "LastVersionId": 327,
-    "ListTableId": 978,
-    "IsMandatory": true,
+    "FieldWidth": 392,
+    "FormatMask": "excepturi",
+    "HideLabel": false,
+    "IsIndexed": true,
+    "LabelHeight": 861,
+    "LabelLeft": 587,
+    "LabelTop": 340,
+    "LabelWidth": 250,
+    "LastVersionId": 412,
+    "ListTableId": 838,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 880,
-    "ProgId": "numquam",
+    "Page1LineNo": 310,
+    "ProgId": "maiores",
     "IsReadOnly": false,
-    "ShortLabel": "unde",
-    "TabOrder": 443,
-    "TextLength": 986,
-    "Tooltip": "aut",
-    "UdefIdentity": 721,
-    "UDListDefinitionId": 164,
+    "ShortLabel": "explicabo",
+    "TabOrder": 930,
+    "TextLength": 864,
+    "Tooltip": "doloribus",
+    "UdefIdentity": 556,
+    "UDListDefinitionId": 446,
     "Justification": "Center",
-    "Version": 987,
-    "TemplateVariableName": "Flatley, Mills and Braun",
+    "Version": 156,
+    "TemplateVariableName": "Blanda-Koch",
     "HasBeenPublished": false,
-    "MdoListName": "Paucek LLC",
+    "MdoListName": "Boyer Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 723
+        "FieldLength": 43
       }
     }
   }

@@ -89,7 +89,7 @@ OK
 GET /api/v1/Contact/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 183,
-    "ColumnId": 640,
-    "FieldDefault": "ullam",
-    "FieldHeight": 143,
-    "FieldLabel": "culpa",
-    "FieldLeft": 829,
-    "FieldTop": 310,
+    "UDefFieldId": 459,
+    "ColumnId": 587,
+    "FieldDefault": "ea",
+    "FieldHeight": 948,
+    "FieldLabel": "necessitatibus",
+    "FieldLeft": 886,
+    "FieldTop": 683,
     "FieldType": "Checkbox",
-    "FieldWidth": 702,
-    "FormatMask": "eligendi",
+    "FieldWidth": 149,
+    "FormatMask": "explicabo",
     "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 281,
-    "LabelLeft": 977,
-    "LabelTop": 669,
-    "LabelWidth": 581,
-    "LastVersionId": 816,
-    "ListTableId": 21,
-    "IsMandatory": true,
+    "IsIndexed": true,
+    "LabelHeight": 982,
+    "LabelLeft": 716,
+    "LabelTop": 239,
+    "LabelWidth": 463,
+    "LastVersionId": 971,
+    "ListTableId": 829,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 430,
-    "ProgId": "dicta",
+    "Page1LineNo": 148,
+    "ProgId": "deleniti",
     "IsReadOnly": false,
-    "ShortLabel": "quo",
-    "TabOrder": 918,
-    "TextLength": 166,
-    "Tooltip": "consectetur",
-    "UdefIdentity": 912,
-    "UDListDefinitionId": 108,
+    "ShortLabel": "et",
+    "TabOrder": 850,
+    "TextLength": 660,
+    "Tooltip": "nostrum",
+    "UdefIdentity": 896,
+    "UDListDefinitionId": 555,
     "Justification": "Center",
-    "Version": 292,
-    "TemplateVariableName": "Conroy, Anderson and Lind",
-    "HasBeenPublished": true,
-    "MdoListName": "Herman, Herzog and Schmitt",
+    "Version": 165,
+    "TemplateVariableName": "Cronin, Murphy and Block",
+    "HasBeenPublished": false,
+    "MdoListName": "Pfannerstill, Lemke and Kohler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 284
+        "FieldLength": 949
       }
     }
   }

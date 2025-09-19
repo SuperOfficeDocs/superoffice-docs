@@ -117,7 +117,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -125,128 +125,128 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 24 Sep 2021 03:46:59 G9T
+Last-Modified: Tue, 01 Oct 2002 03:41:58 G10T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2013-02-22T03:46:59.6599495+01:00",
-  "AppointmentId": 826,
-  "Description": "Object-based object-oriented emulation",
-  "Title": "quia",
-  "Agenda": "voluptatem",
-  "InternalNotes": "enim",
-  "StartDate": "2001-01-28T03:46:59.6599495+01:00",
-  "EndDate": "2009-07-17T03:46:59.6599495+02:00",
+  "CreatedDate": "2001-06-12T03:41:58.3086593+02:00",
+  "AppointmentId": 433,
+  "Description": "Digitized global flexibility",
+  "Title": "tempore",
+  "Agenda": "incidunt",
+  "InternalNotes": "doloremque",
+  "StartDate": "2025-04-01T03:41:58.3086593+02:00",
+  "EndDate": "2014-04-21T03:41:58.3086593+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 82,
+  "MotherId": 536,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2021-09-24T03:46:59.6599495+02:00",
+  "UpdatedDate": "2002-10-01T03:41:58.3086593+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 895,
+  "ActiveLinks": 766,
   "Links": [
     {
-      "EntityName": "Lind-Runte",
-      "Id": 447,
-      "Description": "Re-contextualized needs-based matrix",
-      "ExtraInfo": "consequatur",
-      "LinkId": 844,
+      "EntityName": "Ankunding Inc and Sons",
+      "Id": 139,
+      "Description": "Open-source client-server emulation",
+      "ExtraInfo": "numquam",
+      "LinkId": 699,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 823
+          "FieldType": "System.Int32",
+          "FieldLength": 717
         }
       }
     }
   ],
-  "AlarmLeadTime": "amet",
+  "AlarmLeadTime": "ratione",
   "HasAlarm": false,
-  "ColorIndex": 696,
-  "IsFree": true,
+  "ColorIndex": 141,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "aspernatur",
-  "LeadTime": "et",
-  "Location": "vero",
-  "RejectCounter": 100,
+  "LagTime": "ullam",
+  "LeadTime": "sapiente",
+  "Location": "expedita",
+  "RejectCounter": 700,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 659,
-      "PersonId": 962,
-      "ContactId": 213,
-      "EmailId": 741,
-      "SendEmail": true,
+      "AssociateId": 445,
+      "PersonId": 769,
+      "ContactId": 956,
+      "EmailId": 192,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "uriah@mante.co.uk",
-      "Description": "Automated client-driven Graphical User Interface"
+      "EmailAddress": "carroll_pfeffer@beer.com",
+      "Description": "Reverse-engineered reciprocal algorithm"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2021-03-25T03:46:59.6599495+01:00",
+  "ActiveDate": "2022-04-23T03:41:58.3086593+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 774,
+  "PreferredTZLocation": 270,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 479,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 868,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "voluptates",
+  "CentralserviceVideomeetId": "vel",
   "UserDefinedFields": {
-    "SuperOffice:1": "Haylie Rempel",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Harrison Zieme",
+    "SuperOffice:2": "Joshuah Trystan Boyer DVM"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "omnis",
+    "ExtraFields2": "officia"
   },
   "CustomFields": {
-    "CustomFields1": "ipsa",
-    "CustomFields2": "sunt"
+    "CustomFields1": "enim",
+    "CustomFields2": "a"
   },
-  "PublishEventDate": "2018-06-24T03:46:59.6599495+02:00",
-  "PublishTo": "2014-01-09T03:46:59.6599495+01:00",
-  "PublishFrom": "2003-07-12T03:46:59.6599495+02:00",
+  "PublishEventDate": "2014-11-30T03:41:58.3086593+01:00",
+  "PublishTo": "2022-02-25T03:41:58.3086593+01:00",
+  "PublishFrom": "1999-05-23T03:41:58.3086593+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 836,
+      "VisibleId": 581,
       "Visibility": "All",
-      "DisplayValue": "accusamus",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 919
+          "FieldType": "System.String",
+          "FieldLength": 213
         }
       }
     },
     {
-      "VisibleId": 836,
+      "VisibleId": 581,
       "Visibility": "All",
-      "DisplayValue": "accusamus",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 919
+          "FieldType": "System.String",
+          "FieldLength": 213
         }
       }
     }
@@ -256,7 +256,7 @@ Last-Modified: Fri, 24 Sep 2021 03:46:59 G9T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 106
+      "FieldLength": 987
     }
   }
 }

@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,111 +70,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 887,
-      "UniqueId": "nisi",
-      "Name": "Lind, Lynch and Homenick",
-      "Description": "Balanced even-keeled orchestration",
-      "AssociateId": 339,
-      "Columns": 720,
+      "DashboardId": 385,
+      "UniqueId": "omnis",
+      "Name": "Huels-Turcotte",
+      "Description": "Stand-alone grid-enabled core",
+      "AssociateId": 687,
+      "Columns": 724,
       "Theme": null,
-      "VisibleForAll": 377,
+      "VisibleForAll": 380,
       "VisibleForAssociates": [
-        909,
-        661
+        44,
+        326
       ],
       "VisibleForGroups": [
-        234,
-        139
+        386,
+        459
       ],
-      "PinForAll": 351,
+      "PinForAll": 952,
       "PinForAssociates": [
-        904,
-        434
+        145,
+        663
       ],
       "PinForGroups": [
-        52,
-        722
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 427
-        }
-      }
-    }
-  ],
-  "Favourites": [
-    {
-      "DashboardId": 928,
-      "UniqueId": "enim",
-      "Name": "Rodriguez-Nienow",
-      "Description": "Triple-buffered human-resource methodology",
-      "AssociateId": 252,
-      "Columns": 627,
-      "Theme": null,
-      "VisibleForAll": 928,
-      "VisibleForAssociates": [
-        322,
-        839
-      ],
-      "VisibleForGroups": [
-        594,
-        533
-      ],
-      "PinForAll": 459,
-      "PinForAssociates": [
-        59,
-        307
-      ],
-      "PinForGroups": [
-        1000,
-        832
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 195
-        }
-      }
-    }
-  ],
-  "Other": [
-    {
-      "DashboardId": 821,
-      "UniqueId": "architecto",
-      "Name": "Green, Gibson and Prosacco",
-      "Description": "Synergized optimal support",
-      "AssociateId": 51,
-      "Columns": 137,
-      "Theme": null,
-      "VisibleForAll": 47,
-      "VisibleForAssociates": [
-        447,
-        13
-      ],
-      "VisibleForGroups": [
-        159,
-        907
-      ],
-      "PinForAll": 556,
-      "PinForAssociates": [
-        10,
-        647
-      ],
-      "PinForGroups": [
-        523,
-        315
+        209,
+        193
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 55
+          "FieldLength": 400
+        }
+      }
+    }
+  ],
+  "Favourites": [
+    {
+      "DashboardId": 634,
+      "UniqueId": "molestias",
+      "Name": "Price, Fritsch and Corkery",
+      "Description": "Visionary mobile website",
+      "AssociateId": 682,
+      "Columns": 888,
+      "Theme": null,
+      "VisibleForAll": 16,
+      "VisibleForAssociates": [
+        24,
+        31
+      ],
+      "VisibleForGroups": [
+        824,
+        908
+      ],
+      "PinForAll": 985,
+      "PinForAssociates": [
+        654,
+        654
+      ],
+      "PinForGroups": [
+        612,
+        223
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 983
+        }
+      }
+    }
+  ],
+  "Other": [
+    {
+      "DashboardId": 985,
+      "UniqueId": "eaque",
+      "Name": "Leffler, Mosciski and Nikolaus",
+      "Description": "Implemented logistical archive",
+      "AssociateId": 800,
+      "Columns": 679,
+      "Theme": null,
+      "VisibleForAll": 34,
+      "VisibleForAssociates": [
+        399,
+        115
+      ],
+      "VisibleForGroups": [
+        120,
+        487
+      ],
+      "PinForAll": 92,
+      "PinForAssociates": [
+        681,
+        92
+      ],
+      "PinForGroups": [
+        572,
+        277
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 400
         }
       }
     }
@@ -183,8 +183,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 111
+      "FieldType": "System.String",
+      "FieldLength": 719
     }
   }
 }

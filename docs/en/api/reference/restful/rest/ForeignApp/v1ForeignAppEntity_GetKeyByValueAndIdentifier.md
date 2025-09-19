@@ -34,7 +34,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=et
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=officia
 ```
 
 
@@ -81,7 +81,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,23 +89,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 18 Apr 2014 03:47:00 G4T
+Last-Modified: Fri, 04 May 2018 03:41:58 G5T
 
 {
-  "Key": "ut",
-  "Value": "exercitationem",
-  "RecordId": 242,
-  "CreatedDate": "2025-02-11T03:47:00.0349452+01:00",
-  "UpdatedDate": "2014-04-18T03:47:00.0349452+02:00",
-  "UpdatedBy": "necessitatibus",
-  "CreatedBy": "consequatur",
-  "TableName": "Ratke Group",
+  "Key": "cumque",
+  "Value": "impedit",
+  "RecordId": 984,
+  "CreatedDate": "2004-06-18T03:41:58.7617712+02:00",
+  "UpdatedDate": "2018-05-04T03:41:58.7617712+02:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "aut",
+  "TableName": "Cummerata Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 956
+      "FieldLength": 452
     }
   }
 }

@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 123,
-  "Name": "Kertzmann Group",
-  "Tooltip": "explicabo",
-  "Deleted": true,
-  "Rank": 106,
-  "IsCustomList": true,
+  "Id": 286,
+  "Name": "Renner, Zboncak and Rempel",
+  "Tooltip": "eaque",
+  "Deleted": false,
+  "Rank": 689,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "UseGroupsAndHeadings": true,
+  "ListType": "quasi",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 306
+      "FieldType": "System.Int32",
+      "FieldLength": 503
     }
   },
   "_Links": {

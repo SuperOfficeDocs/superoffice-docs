@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 901,
-  "Name": "Hills-Dach",
-  "Tooltip": "adipisci",
+  "Id": 424,
+  "Name": "Hahn Group",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 721,
-  "IsCustomList": false,
+  "Rank": 507,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "placeat",
+  "UseGroupsAndHeadings": false,
+  "ListType": "nihil",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 665
+      "FieldLength": 109
     }
   },
   "_Links": {

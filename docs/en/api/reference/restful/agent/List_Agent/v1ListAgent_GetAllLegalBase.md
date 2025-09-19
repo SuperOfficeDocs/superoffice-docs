@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 752,
-    "Name": "Dietrich-Kassulke",
-    "Tooltip": "inventore",
-    "Rank": 589,
-    "Key": "quia",
-    "Deleted": false,
+    "LegalBaseId": 20,
+    "Name": "Mueller, Emard and Stark",
+    "Tooltip": "temporibus",
+    "Rank": 946,
+    "Key": "quis",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 908
+        "FieldLength": 1000
       }
     }
   }

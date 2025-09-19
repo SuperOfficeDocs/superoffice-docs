@@ -5,18 +5,10 @@ items:
   id: SoLogger
   parent: SuperOffice.Diagnostics
   children:
-  - SuperOffice.Diagnostics.SoLogger.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,System.IServiceProvider)
+  - SuperOffice.Diagnostics.SoLogger.#ctor(Microsoft.Extensions.Logging.ILoggerFactory)
   - SuperOffice.Diagnostics.SoLogger.BeginScope(System.String,System.String,System.Object[])
   - SuperOffice.Diagnostics.SoLogger.BeginScope``1(System.String,System.Object[])
-  - SuperOffice.Diagnostics.SoLogger.Count(System.String,System.Collections.Generic.Dictionary{System.String,System.Double})
-  - SuperOffice.Diagnostics.SoLogger.Count(System.String,System.Collections.Specialized.NameValueCollection,System.Collections.Generic.Dictionary{System.String,System.Double})
-  - SuperOffice.Diagnostics.SoLogger.Count(System.String,System.Collections.Specialized.NameValueCollection,System.ValueTuple{System.String,System.Double}[])
-  - SuperOffice.Diagnostics.SoLogger.Count(System.String,System.String,System.Double)
-  - SuperOffice.Diagnostics.SoLogger.Count(System.String,System.String[])
-  - SuperOffice.Diagnostics.SoLogger.Count(System.String,System.ValueTuple{System.String,System.Double}[])
-  - SuperOffice.Diagnostics.SoLogger.GetEnvironmentInfo
   - SuperOffice.Diagnostics.SoLogger.GetLogger(System.String)
-  - SuperOffice.Diagnostics.SoLogger.GetLogger(System.Type)
   - SuperOffice.Diagnostics.SoLogger.GetLogger``1
   - SuperOffice.Diagnostics.SoLogger.LogCritical``1(System.Exception,System.String,System.Object[])
   - SuperOffice.Diagnostics.SoLogger.LogCritical``1(System.String,System.Object[])
@@ -40,11 +32,6 @@ items:
   - SuperOffice.Diagnostics.SoLogger.LogWarning``1(System.Exception,System.String,System.Object[])
   - SuperOffice.Diagnostics.SoLogger.LogWarning``1(System.String,System.Object[])
   - SuperOffice.Diagnostics.SoLogger.Logger
-  - SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
-  - SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue(System.String,System.String)
-  - SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues(System.String[],System.String[])
-  - SuperOffice.Diagnostics.SoLogger.StartOperation(System.String,System.Collections.Generic.IDictionary{System.String,System.String})
-  - SuperOffice.Diagnostics.SoLogger.StartOperation(System.String,System.String[])
   langs:
   - csharp
   - vb
@@ -72,275 +59,30 @@ items:
   extensionMethods:
   - SuperOffice.Diagnostics.SoLogger.EnumUtil.MapEnums``2
   - SuperOffice.Diagnostics.SoLogger.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
-- uid: SuperOffice.Diagnostics.SoLogger.StartOperation(System.String,System.String[])
-  commentId: M:SuperOffice.Diagnostics.SoLogger.StartOperation(System.String,System.String[])
-  id: StartOperation(System.String,System.String[])
+- uid: SuperOffice.Diagnostics.SoLogger.#ctor(Microsoft.Extensions.Logging.ILoggerFactory)
+  commentId: M:SuperOffice.Diagnostics.SoLogger.#ctor(Microsoft.Extensions.Logging.ILoggerFactory)
+  id: '#ctor(Microsoft.Extensions.Logging.ILoggerFactory)'
   parent: SuperOffice.Diagnostics.SoLogger
   langs:
   - csharp
   - vb
-  name: StartOperation(string, params string[])
-  nameWithType: SoLogger.StartOperation(string, params string[])
-  fullName: SuperOffice.Diagnostics.SoLogger.StartOperation(string, params string[])
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Diagnostics
-  summary: Log an operation
-  example: []
-  syntax:
-    content: public static IDisposable StartOperation(string operationname, params string[] args)
-    parameters:
-    - id: operationname
-      type: System.String
-      description: Name of operation being traced
-    - id: args
-      type: System.String[]
-      description: Additional strings to add to trace (optional)
-    return:
-      type: System.IDisposable
-      description: an operation tracer. Dispose it to signal end of operation
-    content.vb: Public Shared Function StartOperation(operationname As String, ParamArray args As String()) As IDisposable
-  overload: SuperOffice.Diagnostics.SoLogger.StartOperation*
-  nameWithType.vb: SoLogger.StartOperation(String, ParamArray String())
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.StartOperation(String, ParamArray String())
-  name.vb: StartOperation(String, ParamArray String())
-- uid: SuperOffice.Diagnostics.SoLogger.StartOperation(System.String,System.Collections.Generic.IDictionary{System.String,System.String})
-  commentId: M:SuperOffice.Diagnostics.SoLogger.StartOperation(System.String,System.Collections.Generic.IDictionary{System.String,System.String})
-  id: StartOperation(System.String,System.Collections.Generic.IDictionary{System.String,System.String})
-  parent: SuperOffice.Diagnostics.SoLogger
-  langs:
-  - csharp
-  - vb
-  name: StartOperation(string, IDictionary<string, string>)
-  nameWithType: SoLogger.StartOperation(string, IDictionary<string, string>)
-  fullName: SuperOffice.Diagnostics.SoLogger.StartOperation(string, System.Collections.Generic.IDictionary<string, string>)
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Diagnostics
-  summary: Log an operation with properties
-  example: []
-  syntax:
-    content: public static IDisposable StartOperation(string operationname, IDictionary<string, string> args)
-    parameters:
-    - id: operationname
-      type: System.String
-      description: Name of operation being traced
-    - id: args
-      type: System.Collections.Generic.IDictionary{System.String,System.String}
-      description: Additional string key/values to add to trace
-    return:
-      type: System.IDisposable
-      description: an operation tracer. Dispose it to signal end of operation
-    content.vb: Public Shared Function StartOperation(operationname As String, args As IDictionary(Of String, String)) As IDisposable
-  overload: SuperOffice.Diagnostics.SoLogger.StartOperation*
-  nameWithType.vb: SoLogger.StartOperation(String, IDictionary(Of String, String))
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.StartOperation(String, System.Collections.Generic.IDictionary(Of String, String))
-  name.vb: StartOperation(String, IDictionary(Of String, String))
-- uid: SuperOffice.Diagnostics.SoLogger.Count(System.String,System.String[])
-  commentId: M:SuperOffice.Diagnostics.SoLogger.Count(System.String,System.String[])
-  id: Count(System.String,System.String[])
-  parent: SuperOffice.Diagnostics.SoLogger
-  langs:
-  - csharp
-  - vb
-  name: Count(string, params string[])
-  nameWithType: SoLogger.Count(string, params string[])
-  fullName: SuperOffice.Diagnostics.SoLogger.Count(string, params string[])
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Diagnostics
-  summary: Count 1 for these names.
-  example: []
-  syntax:
-    content: public static void Count(string eventName, params string[] counterNames)
-    parameters:
-    - id: eventName
-      type: System.String
-    - id: counterNames
-      type: System.String[]
-    content.vb: Public Shared Sub Count(eventName As String, ParamArray counterNames As String())
-  overload: SuperOffice.Diagnostics.SoLogger.Count*
-  nameWithType.vb: SoLogger.Count(String, ParamArray String())
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.Count(String, ParamArray String())
-  name.vb: Count(String, ParamArray String())
-- uid: SuperOffice.Diagnostics.SoLogger.Count(System.String,System.String,System.Double)
-  commentId: M:SuperOffice.Diagnostics.SoLogger.Count(System.String,System.String,System.Double)
-  id: Count(System.String,System.String,System.Double)
-  parent: SuperOffice.Diagnostics.SoLogger
-  langs:
-  - csharp
-  - vb
-  name: Count(string, string, double)
-  nameWithType: SoLogger.Count(string, string, double)
-  fullName: SuperOffice.Diagnostics.SoLogger.Count(string, string, double)
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Diagnostics
-  summary: Count a single value
-  example: []
-  syntax:
-    content: public static void Count(string eventName, string counterName, double counterValue)
-    parameters:
-    - id: eventName
-      type: System.String
-    - id: counterName
-      type: System.String
-    - id: counterValue
-      type: System.Double
-    content.vb: Public Shared Sub Count(eventName As String, counterName As String, counterValue As Double)
-  overload: SuperOffice.Diagnostics.SoLogger.Count*
-  nameWithType.vb: SoLogger.Count(String, String, Double)
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.Count(String, String, Double)
-  name.vb: Count(String, String, Double)
-- uid: SuperOffice.Diagnostics.SoLogger.Count(System.String,System.ValueTuple{System.String,System.Double}[])
-  commentId: M:SuperOffice.Diagnostics.SoLogger.Count(System.String,System.ValueTuple{System.String,System.Double}[])
-  id: Count(System.String,System.ValueTuple{System.String,System.Double}[])
-  parent: SuperOffice.Diagnostics.SoLogger
-  langs:
-  - csharp
-  - vb
-  name: Count(string, params (string, double)[])
-  nameWithType: SoLogger.Count(string, params (string, double)[])
-  fullName: SuperOffice.Diagnostics.SoLogger.Count(string, params (string, double)[])
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Diagnostics
-  summary: Count a multiple values without having to construct a dictionary first
-  example: []
-  syntax:
-    content: public static void Count(string eventName, params (string, double)[] pairs)
-    parameters:
-    - id: eventName
-      type: System.String
-    - id: pairs
-      type: System.ValueTuple{System.String,System.Double}[]
-    content.vb: Public Shared Sub Count(eventName As String, ParamArray pairs As (String, Double)())
-  overload: SuperOffice.Diagnostics.SoLogger.Count*
-  nameWithType.vb: SoLogger.Count(String, ParamArray (String, Double)())
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.Count(String, ParamArray (String, Double)())
-  name.vb: Count(String, ParamArray (String, Double)())
-- uid: SuperOffice.Diagnostics.SoLogger.Count(System.String,System.Collections.Generic.Dictionary{System.String,System.Double})
-  commentId: M:SuperOffice.Diagnostics.SoLogger.Count(System.String,System.Collections.Generic.Dictionary{System.String,System.Double})
-  id: Count(System.String,System.Collections.Generic.Dictionary{System.String,System.Double})
-  parent: SuperOffice.Diagnostics.SoLogger
-  langs:
-  - csharp
-  - vb
-  name: Count(string, Dictionary<string, double>)
-  nameWithType: SoLogger.Count(string, Dictionary<string, double>)
-  fullName: SuperOffice.Diagnostics.SoLogger.Count(string, System.Collections.Generic.Dictionary<string, double>)
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Diagnostics
-  summary: Count a multiple values
-  example: []
-  syntax:
-    content: public static void Count(string eventName, Dictionary<string, double> metrics)
-    parameters:
-    - id: eventName
-      type: System.String
-    - id: metrics
-      type: System.Collections.Generic.Dictionary{System.String,System.Double}
-    content.vb: Public Shared Sub Count(eventName As String, metrics As Dictionary(Of String, Double))
-  overload: SuperOffice.Diagnostics.SoLogger.Count*
-  nameWithType.vb: SoLogger.Count(String, Dictionary(Of String, Double))
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.Count(String, System.Collections.Generic.Dictionary(Of String, Double))
-  name.vb: Count(String, Dictionary(Of String, Double))
-- uid: SuperOffice.Diagnostics.SoLogger.Count(System.String,System.Collections.Specialized.NameValueCollection,System.ValueTuple{System.String,System.Double}[])
-  commentId: M:SuperOffice.Diagnostics.SoLogger.Count(System.String,System.Collections.Specialized.NameValueCollection,System.ValueTuple{System.String,System.Double}[])
-  id: Count(System.String,System.Collections.Specialized.NameValueCollection,System.ValueTuple{System.String,System.Double}[])
-  parent: SuperOffice.Diagnostics.SoLogger
-  langs:
-  - csharp
-  - vb
-  name: Count(string, NameValueCollection, params (string, double)[])
-  nameWithType: SoLogger.Count(string, NameValueCollection, params (string, double)[])
-  fullName: SuperOffice.Diagnostics.SoLogger.Count(string, System.Collections.Specialized.NameValueCollection, params (string, double)[])
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Diagnostics
-  summary: Count a multiple values
-  example: []
-  syntax:
-    content: public static void Count(string eventName, NameValueCollection env, params (string, double)[] pairs)
-    parameters:
-    - id: eventName
-      type: System.String
-    - id: env
-      type: System.Collections.Specialized.NameValueCollection
-    - id: pairs
-      type: System.ValueTuple{System.String,System.Double}[]
-    content.vb: Public Shared Sub Count(eventName As String, env As NameValueCollection, ParamArray pairs As (String, Double)())
-  overload: SuperOffice.Diagnostics.SoLogger.Count*
-  nameWithType.vb: SoLogger.Count(String, NameValueCollection, ParamArray (String, Double)())
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.Count(String, System.Collections.Specialized.NameValueCollection, ParamArray (String, Double)())
-  name.vb: Count(String, NameValueCollection, ParamArray (String, Double)())
-- uid: SuperOffice.Diagnostics.SoLogger.Count(System.String,System.Collections.Specialized.NameValueCollection,System.Collections.Generic.Dictionary{System.String,System.Double})
-  commentId: M:SuperOffice.Diagnostics.SoLogger.Count(System.String,System.Collections.Specialized.NameValueCollection,System.Collections.Generic.Dictionary{System.String,System.Double})
-  id: Count(System.String,System.Collections.Specialized.NameValueCollection,System.Collections.Generic.Dictionary{System.String,System.Double})
-  parent: SuperOffice.Diagnostics.SoLogger
-  langs:
-  - csharp
-  - vb
-  name: Count(string, NameValueCollection, Dictionary<string, double>)
-  nameWithType: SoLogger.Count(string, NameValueCollection, Dictionary<string, double>)
-  fullName: SuperOffice.Diagnostics.SoLogger.Count(string, System.Collections.Specialized.NameValueCollection, System.Collections.Generic.Dictionary<string, double>)
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Diagnostics
-  summary: Count a multiple values
-  example: []
-  syntax:
-    content: public static void Count(string eventName, NameValueCollection env, Dictionary<string, double> metrics)
-    parameters:
-    - id: eventName
-      type: System.String
-    - id: env
-      type: System.Collections.Specialized.NameValueCollection
-    - id: metrics
-      type: System.Collections.Generic.Dictionary{System.String,System.Double}
-    content.vb: Public Shared Sub Count(eventName As String, env As NameValueCollection, metrics As Dictionary(Of String, Double))
-  overload: SuperOffice.Diagnostics.SoLogger.Count*
-  nameWithType.vb: SoLogger.Count(String, NameValueCollection, Dictionary(Of String, Double))
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.Count(String, System.Collections.Specialized.NameValueCollection, System.Collections.Generic.Dictionary(Of String, Double))
-  name.vb: Count(String, NameValueCollection, Dictionary(Of String, Double))
-- uid: SuperOffice.Diagnostics.SoLogger.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,System.IServiceProvider)
-  commentId: M:SuperOffice.Diagnostics.SoLogger.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,System.IServiceProvider)
-  id: '#ctor(Microsoft.Extensions.Logging.ILoggerFactory,System.IServiceProvider)'
-  parent: SuperOffice.Diagnostics.SoLogger
-  langs:
-  - csharp
-  - vb
-  name: SoLogger(ILoggerFactory, IServiceProvider)
-  nameWithType: SoLogger.SoLogger(ILoggerFactory, IServiceProvider)
-  fullName: SuperOffice.Diagnostics.SoLogger.SoLogger(Microsoft.Extensions.Logging.ILoggerFactory, System.IServiceProvider)
+  name: SoLogger(ILoggerFactory)
+  nameWithType: SoLogger.SoLogger(ILoggerFactory)
+  fullName: SuperOffice.Diagnostics.SoLogger.SoLogger(Microsoft.Extensions.Logging.ILoggerFactory)
   type: Constructor
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: Dependency injection constructor.
-  example: []
   syntax:
-    content: public SoLogger(ILoggerFactory loggerFactory, IServiceProvider serviceProvider)
+    content: public SoLogger(ILoggerFactory loggerFactory)
     parameters:
     - id: loggerFactory
       type: Microsoft.Extensions.Logging.ILoggerFactory
-      description: Logger factory ready to make new loggers on demand
-    - id: serviceProvider
-      type: System.IServiceProvider
-    content.vb: Public Sub New(loggerFactory As ILoggerFactory, serviceProvider As IServiceProvider)
+    content.vb: Public Sub New(loggerFactory As ILoggerFactory)
   overload: SuperOffice.Diagnostics.SoLogger.#ctor*
-  nameWithType.vb: SoLogger.New(ILoggerFactory, IServiceProvider)
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.New(Microsoft.Extensions.Logging.ILoggerFactory, System.IServiceProvider)
-  name.vb: New(ILoggerFactory, IServiceProvider)
+  nameWithType.vb: SoLogger.New(ILoggerFactory)
+  fullName.vb: SuperOffice.Diagnostics.SoLogger.New(Microsoft.Extensions.Logging.ILoggerFactory)
+  name.vb: New(ILoggerFactory)
 - uid: SuperOffice.Diagnostics.SoLogger.GetLogger(System.String)
   commentId: M:SuperOffice.Diagnostics.SoLogger.GetLogger(System.String)
   id: GetLogger(System.String)
@@ -367,29 +109,6 @@ items:
   nameWithType.vb: SoLogger.GetLogger(String)
   fullName.vb: SuperOffice.Diagnostics.SoLogger.GetLogger(String)
   name.vb: GetLogger(String)
-- uid: SuperOffice.Diagnostics.SoLogger.GetLogger(System.Type)
-  commentId: M:SuperOffice.Diagnostics.SoLogger.GetLogger(System.Type)
-  id: GetLogger(System.Type)
-  parent: SuperOffice.Diagnostics.SoLogger
-  langs:
-  - csharp
-  - vb
-  name: GetLogger(Type)
-  nameWithType: SoLogger.GetLogger(Type)
-  fullName: SuperOffice.Diagnostics.SoLogger.GetLogger(System.Type)
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Diagnostics
-  syntax:
-    content: public ILogger GetLogger(Type type)
-    parameters:
-    - id: type
-      type: System.Type
-    return:
-      type: Microsoft.Extensions.Logging.ILogger
-    content.vb: Public Function GetLogger(type As Type) As ILogger
-  overload: SuperOffice.Diagnostics.SoLogger.GetLogger*
 - uid: SuperOffice.Diagnostics.SoLogger.GetLogger``1
   commentId: M:SuperOffice.Diagnostics.SoLogger.GetLogger``1
   id: GetLogger``1
@@ -415,116 +134,6 @@ items:
   nameWithType.vb: SoLogger.GetLogger(Of T)()
   fullName.vb: SuperOffice.Diagnostics.SoLogger.GetLogger(Of T)()
   name.vb: GetLogger(Of T)()
-- uid: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue(System.String,System.String)
-  commentId: M:SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue(System.String,System.String)
-  id: SetPermanentAdditionalValue(System.String,System.String)
-  parent: SuperOffice.Diagnostics.SoLogger
-  langs:
-  - csharp
-  - vb
-  name: SetPermanentAdditionalValue(string, string)
-  nameWithType: SoLogger.SetPermanentAdditionalValue(string, string)
-  fullName: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue(string, string)
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Diagnostics
-  summary: Set one named value to be added to any logged events. This name/value will remain valid until manually reset or changed.
-  example: []
-  syntax:
-    content: public static void SetPermanentAdditionalValue(string name, string value)
-    parameters:
-    - id: name
-      type: System.String
-      description: Name of item
-    - id: value
-      type: System.String
-      description: Value of item
-    content.vb: Public Shared Sub SetPermanentAdditionalValue(name As String, value As String)
-  overload: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue*
-  nameWithType.vb: SoLogger.SetPermanentAdditionalValue(String, String)
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue(String, String)
-  name.vb: SetPermanentAdditionalValue(String, String)
-- uid: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues(System.String[],System.String[])
-  commentId: M:SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues(System.String[],System.String[])
-  id: SetPermanentAdditionalValues(System.String[],System.String[])
-  parent: SuperOffice.Diagnostics.SoLogger
-  langs:
-  - csharp
-  - vb
-  name: SetPermanentAdditionalValues(string[], string[])
-  nameWithType: SoLogger.SetPermanentAdditionalValues(string[], string[])
-  fullName: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues(string[], string[])
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Diagnostics
-  summary: Set an array of named values to be added to any logged events. These names/values will remain valid until manually reset or changed.
-  example: []
-  syntax:
-    content: public static void SetPermanentAdditionalValues(string[] names, string[] values)
-    parameters:
-    - id: names
-      type: System.String[]
-      description: Names of items
-    - id: values
-      type: System.String[]
-      description: Values of items
-    content.vb: Public Shared Sub SetPermanentAdditionalValues(names As String(), values As String())
-  overload: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues*
-  nameWithType.vb: SoLogger.SetPermanentAdditionalValues(String(), String())
-  fullName.vb: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues(String(), String())
-  name.vb: SetPermanentAdditionalValues(String(), String())
-- uid: SuperOffice.Diagnostics.SoLogger.GetEnvironmentInfo
-  commentId: M:SuperOffice.Diagnostics.SoLogger.GetEnvironmentInfo
-  id: GetEnvironmentInfo
-  parent: SuperOffice.Diagnostics.SoLogger
-  langs:
-  - csharp
-  - vb
-  name: GetEnvironmentInfo()
-  nameWithType: SoLogger.GetEnvironmentInfo()
-  fullName: SuperOffice.Diagnostics.SoLogger.GetEnvironmentInfo()
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Diagnostics
-  summary: >-
-    Get a name/value collection of environmental information, from all subscribers to our event. Also
-
-    add any hard-set additional values.
-  example: []
-  syntax:
-    content: public NameValueCollection GetEnvironmentInfo()
-    return:
-      type: System.Collections.Specialized.NameValueCollection
-      description: ''
-    content.vb: Public Function GetEnvironmentInfo() As NameValueCollection
-  overload: SuperOffice.Diagnostics.SoLogger.GetEnvironmentInfo*
-- uid: SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
-  commentId: M:SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
-  id: PopulateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
-  parent: SuperOffice.Diagnostics.SoLogger
-  langs:
-  - csharp
-  - vb
-  name: PopulateEnvironmentInfo(NameValueCollection)
-  nameWithType: SoLogger.PopulateEnvironmentInfo(NameValueCollection)
-  fullName: SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo(System.Collections.Specialized.NameValueCollection)
-  type: Method
-  assemblies:
-  - SoCore
-  namespace: SuperOffice.Diagnostics
-  summary: Populate environment information for a log entry.
-  example: []
-  syntax:
-    content: public void PopulateEnvironmentInfo(NameValueCollection values)
-    parameters:
-    - id: values
-      type: System.Collections.Specialized.NameValueCollection
-      description: Collection to hold the values.
-    content.vb: Public Sub PopulateEnvironmentInfo(values As NameValueCollection)
-  overload: SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo*
 - uid: SuperOffice.Diagnostics.SoLogger.BeginScope``1(System.String,System.Object[])
   commentId: M:SuperOffice.Diagnostics.SoLogger.BeginScope``1(System.String,System.Object[])
   id: BeginScope``1(System.String,System.Object[])
@@ -1306,8 +915,6 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Diagnostics
-  summary: Get the singleton instance of the logger class
-  example: []
   syntax:
     content: public static SoLogger Logger { get; }
     parameters: []
@@ -1794,360 +1401,10 @@ references:
     name: ConnectorWS
     isExternal: true
     href: SuperOffice.ErpSync.ConnectorWS.html
-- uid: SuperOffice.Diagnostics.SoLogger.StartOperation*
-  commentId: Overload:SuperOffice.Diagnostics.SoLogger.StartOperation
-  isExternal: true
-  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_StartOperation_System_String_System_String___
-  name: StartOperation
-  nameWithType: SoLogger.StartOperation
-  fullName: SuperOffice.Diagnostics.SoLogger.StartOperation
-- uid: System.String
-  commentId: T:System.String
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string
-  nameWithType: string
-  fullName: string
-  nameWithType.vb: String
-  fullName.vb: String
-  name.vb: String
-- uid: System.String[]
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: string[]
-  nameWithType: string[]
-  fullName: string[]
-  nameWithType.vb: String()
-  fullName.vb: String()
-  name.vb: String()
-  spec.csharp:
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
-  spec.vb:
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
-- uid: System.IDisposable
-  commentId: T:System.IDisposable
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.idisposable
-  name: IDisposable
-  nameWithType: IDisposable
-  fullName: System.IDisposable
-- uid: System.Collections.Generic.IDictionary{System.String,System.String}
-  commentId: T:System.Collections.Generic.IDictionary{System.String,System.String}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.IDictionary`2
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
-  name: IDictionary<string, string>
-  nameWithType: IDictionary<string, string>
-  fullName: System.Collections.Generic.IDictionary<string, string>
-  nameWithType.vb: IDictionary(Of String, String)
-  fullName.vb: System.Collections.Generic.IDictionary(Of String, String)
-  name.vb: IDictionary(Of String, String)
-  spec.csharp:
-  - uid: System.Collections.Generic.IDictionary`2
-    name: IDictionary
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
-  - name: <
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.IDictionary`2
-    name: IDictionary
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: )
-- uid: System.Collections.Generic.IDictionary`2
-  commentId: T:System.Collections.Generic.IDictionary`2
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
-  name: IDictionary<TKey, TValue>
-  nameWithType: IDictionary<TKey, TValue>
-  fullName: System.Collections.Generic.IDictionary<TKey, TValue>
-  nameWithType.vb: IDictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.IDictionary(Of TKey, TValue)
-  name.vb: IDictionary(Of TKey, TValue)
-  spec.csharp:
-  - uid: System.Collections.Generic.IDictionary`2
-    name: IDictionary
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
-  - name: <
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.IDictionary`2
-    name: IDictionary
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.idictionary-2
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
-  - name: )
-- uid: System.Collections.Generic
-  commentId: N:System.Collections.Generic
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Generic
-  nameWithType: System.Collections.Generic
-  fullName: System.Collections.Generic
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Generic
-    name: Generic
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
-- uid: SuperOffice.Diagnostics.SoLogger.Count*
-  commentId: Overload:SuperOffice.Diagnostics.SoLogger.Count
-  isExternal: true
-  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_Count_System_String_System_String___
-  name: Count
-  nameWithType: SoLogger.Count
-  fullName: SuperOffice.Diagnostics.SoLogger.Count
-- uid: System.Double
-  commentId: T:System.Double
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.double
-  name: double
-  nameWithType: double
-  fullName: double
-  nameWithType.vb: Double
-  fullName.vb: Double
-  name.vb: Double
-- uid: System.ValueTuple{System.String,System.Double}[]
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.string
-  name: (string, double)[]
-  nameWithType: (string, double)[]
-  fullName: (string, double)[]
-  nameWithType.vb: (String, Double)()
-  fullName.vb: (String, Double)()
-  name.vb: (String, Double)()
-  spec.csharp:
-  - name: (
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Double
-    name: double
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.double
-  - name: )
-  - name: '['
-  - name: ']'
-  spec.vb:
-  - name: (
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Double
-    name: Double
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.double
-  - name: )
-  - name: (
-  - name: )
-- uid: System.Collections.Generic.Dictionary{System.String,System.Double}
-  commentId: T:System.Collections.Generic.Dictionary{System.String,System.Double}
-  parent: System.Collections.Generic
-  definition: System.Collections.Generic.Dictionary`2
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<string, double>
-  nameWithType: Dictionary<string, double>
-  fullName: System.Collections.Generic.Dictionary<string, double>
-  nameWithType.vb: Dictionary(Of String, Double)
-  fullName.vb: System.Collections.Generic.Dictionary(Of String, Double)
-  name.vb: Dictionary(Of String, Double)
-  spec.csharp:
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: <
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Double
-    name: double
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.double
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: ','
-  - name: " "
-  - uid: System.Double
-    name: Double
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.double
-  - name: )
-- uid: System.Collections.Generic.Dictionary`2
-  commentId: T:System.Collections.Generic.Dictionary`2
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  name: Dictionary<TKey, TValue>
-  nameWithType: Dictionary<TKey, TValue>
-  fullName: System.Collections.Generic.Dictionary<TKey, TValue>
-  nameWithType.vb: Dictionary(Of TKey, TValue)
-  fullName.vb: System.Collections.Generic.Dictionary(Of TKey, TValue)
-  name.vb: Dictionary(Of TKey, TValue)
-  spec.csharp:
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: <
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
-  - name: '>'
-  spec.vb:
-  - uid: System.Collections.Generic.Dictionary`2
-    name: Dictionary
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.dictionary-2
-  - name: (
-  - name: Of
-  - name: " "
-  - name: TKey
-  - name: ','
-  - name: " "
-  - name: TValue
-  - name: )
-- uid: System.Collections.Specialized.NameValueCollection
-  commentId: T:System.Collections.Specialized.NameValueCollection
-  parent: System.Collections.Specialized
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.collections.specialized.namevaluecollection
-  name: NameValueCollection
-  nameWithType: NameValueCollection
-  fullName: System.Collections.Specialized.NameValueCollection
-- uid: System.Collections.Specialized
-  commentId: N:System.Collections.Specialized
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Collections.Specialized
-  nameWithType: System.Collections.Specialized
-  fullName: System.Collections.Specialized
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Specialized
-    name: Specialized
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.specialized
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Collections
-    name: Collections
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections
-  - name: .
-  - uid: System.Collections.Specialized
-    name: Specialized
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.collections.specialized
 - uid: SuperOffice.Diagnostics.SoLogger.#ctor*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.#ctor
   isExternal: true
-  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger__ctor_Microsoft_Extensions_Logging_ILoggerFactory_System_IServiceProvider_
+  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger__ctor_Microsoft_Extensions_Logging_ILoggerFactory_
   name: SoLogger
   nameWithType: SoLogger.SoLogger
   fullName: SuperOffice.Diagnostics.SoLogger.SoLogger
@@ -2162,14 +1419,6 @@ references:
   name: ILoggerFactory
   nameWithType: ILoggerFactory
   fullName: Microsoft.Extensions.Logging.ILoggerFactory
-- uid: System.IServiceProvider
-  commentId: T:System.IServiceProvider
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.iserviceprovider
-  name: IServiceProvider
-  nameWithType: IServiceProvider
-  fullName: System.IServiceProvider
 - uid: Microsoft.Extensions.Logging
   commentId: N:Microsoft.Extensions.Logging
   isExternal: true
@@ -2214,6 +1463,17 @@ references:
   name: GetLogger
   nameWithType: SoLogger.GetLogger
   fullName: SuperOffice.Diagnostics.SoLogger.GetLogger
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
 - uid: Microsoft.Extensions.Logging.ILogger
   commentId: T:Microsoft.Extensions.Logging.ILogger
   parent: Microsoft.Extensions.Logging
@@ -2222,14 +1482,6 @@ references:
   name: ILogger
   nameWithType: ILogger
   fullName: Microsoft.Extensions.Logging.ILogger
-- uid: System.Type
-  commentId: T:System.Type
-  parent: System
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.type
-  name: Type
-  nameWithType: Type
-  fullName: System.Type
 - uid: Microsoft.Extensions.Logging.ILogger{{T}}
   commentId: T:Microsoft.Extensions.Logging.ILogger{``0}
   parent: Microsoft.Extensions.Logging
@@ -2287,34 +1539,6 @@ references:
   - name: " "
   - name: TCategoryName
   - name: )
-- uid: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue*
-  commentId: Overload:SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue
-  isExternal: true
-  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_SetPermanentAdditionalValue_System_String_System_String_
-  name: SetPermanentAdditionalValue
-  nameWithType: SoLogger.SetPermanentAdditionalValue
-  fullName: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValue
-- uid: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues*
-  commentId: Overload:SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues
-  isExternal: true
-  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_SetPermanentAdditionalValues_System_String___System_String___
-  name: SetPermanentAdditionalValues
-  nameWithType: SoLogger.SetPermanentAdditionalValues
-  fullName: SuperOffice.Diagnostics.SoLogger.SetPermanentAdditionalValues
-- uid: SuperOffice.Diagnostics.SoLogger.GetEnvironmentInfo*
-  commentId: Overload:SuperOffice.Diagnostics.SoLogger.GetEnvironmentInfo
-  isExternal: true
-  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_GetEnvironmentInfo
-  name: GetEnvironmentInfo
-  nameWithType: SoLogger.GetEnvironmentInfo
-  fullName: SuperOffice.Diagnostics.SoLogger.GetEnvironmentInfo
-- uid: SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo*
-  commentId: Overload:SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo
-  isExternal: true
-  href: SuperOffice.Diagnostics.SoLogger.html#SuperOffice_Diagnostics_SoLogger_PopulateEnvironmentInfo_System_Collections_Specialized_NameValueCollection_
-  name: PopulateEnvironmentInfo
-  nameWithType: SoLogger.PopulateEnvironmentInfo
-  fullName: SuperOffice.Diagnostics.SoLogger.PopulateEnvironmentInfo
 - uid: SuperOffice.Diagnostics.SoLogger.BeginScope*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.BeginScope
   isExternal: true
@@ -2345,6 +1569,14 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object
   - name: (
   - name: )
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.idisposable
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
 - uid: SuperOffice.Diagnostics.SoLogger.LogDebug*
   commentId: Overload:SuperOffice.Diagnostics.SoLogger.LogDebug
   isExternal: true

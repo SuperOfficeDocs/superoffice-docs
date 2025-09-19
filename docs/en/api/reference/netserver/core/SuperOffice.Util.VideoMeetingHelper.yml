@@ -13,9 +13,11 @@ items:
   - SuperOffice.Util.VideoMeetingHelper.DeleteMeetingUrl(System.String)
   - SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservationAsync(System.String)
   - SuperOffice.Util.VideoMeetingHelper.GetLoginUrl(System.String,System.String)
+  - SuperOffice.Util.VideoMeetingHelper.GetUserConnectedState
   - SuperOffice.Util.VideoMeetingHelper.IsAuthenticationRequiredAsync(System.Threading.CancellationToken)
   - SuperOffice.Util.VideoMeetingHelper.ReserveMeetingUrl
   - SuperOffice.Util.VideoMeetingHelper.UnreserveMeetingUrl(System.String)
+  - SuperOffice.Util.VideoMeetingHelper.UserConnectedStateUrl
   langs:
   - csharp
   - vb
@@ -272,6 +274,26 @@ items:
   nameWithType.vb: VideoMeetingHelper.DeleteVideoMeetingReservationAsync(String)
   fullName.vb: SuperOffice.Util.VideoMeetingHelper.DeleteVideoMeetingReservationAsync(String)
   name.vb: DeleteVideoMeetingReservationAsync(String)
+- uid: SuperOffice.Util.VideoMeetingHelper.GetUserConnectedState
+  commentId: M:SuperOffice.Util.VideoMeetingHelper.GetUserConnectedState
+  id: GetUserConnectedState
+  parent: SuperOffice.Util.VideoMeetingHelper
+  langs:
+  - csharp
+  - vb
+  name: GetUserConnectedState()
+  nameWithType: VideoMeetingHelper.GetUserConnectedState()
+  fullName: SuperOffice.Util.VideoMeetingHelper.GetUserConnectedState()
+  type: Method
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public Task<VideoMeetingHelper.UserConnectedState> GetUserConnectedState()
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.Util.VideoMeetingHelper.UserConnectedState}
+    content.vb: Public Function GetUserConnectedState() As Task(Of VideoMeetingHelper.UserConnectedState)
+  overload: SuperOffice.Util.VideoMeetingHelper.GetUserConnectedState*
 - uid: SuperOffice.Util.VideoMeetingHelper.CreateMeetingUrl
   commentId: P:SuperOffice.Util.VideoMeetingHelper.CreateMeetingUrl
   id: CreateMeetingUrl
@@ -314,6 +336,27 @@ items:
       type: System.String
     content.vb: Public ReadOnly Property ReserveMeetingUrl As String
   overload: SuperOffice.Util.VideoMeetingHelper.ReserveMeetingUrl*
+- uid: SuperOffice.Util.VideoMeetingHelper.UserConnectedStateUrl
+  commentId: P:SuperOffice.Util.VideoMeetingHelper.UserConnectedStateUrl
+  id: UserConnectedStateUrl
+  parent: SuperOffice.Util.VideoMeetingHelper
+  langs:
+  - csharp
+  - vb
+  name: UserConnectedStateUrl
+  nameWithType: VideoMeetingHelper.UserConnectedStateUrl
+  fullName: SuperOffice.Util.VideoMeetingHelper.UserConnectedStateUrl
+  type: Property
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public string UserConnectedStateUrl { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property UserConnectedStateUrl As String
+  overload: SuperOffice.Util.VideoMeetingHelper.UserConnectedStateUrl*
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
@@ -1274,6 +1317,58 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
+- uid: SuperOffice.Util.VideoMeetingHelper.GetUserConnectedState*
+  commentId: Overload:SuperOffice.Util.VideoMeetingHelper.GetUserConnectedState
+  isExternal: true
+  href: SuperOffice.Util.VideoMeetingHelper.html#SuperOffice_Util_VideoMeetingHelper_GetUserConnectedState
+  name: GetUserConnectedState
+  nameWithType: VideoMeetingHelper.GetUserConnectedState
+  fullName: SuperOffice.Util.VideoMeetingHelper.GetUserConnectedState
+- uid: System.Threading.Tasks.Task{SuperOffice.Util.VideoMeetingHelper.UserConnectedState}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.Util.VideoMeetingHelper.UserConnectedState}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<VideoMeetingHelper.UserConnectedState>
+  nameWithType: Task<VideoMeetingHelper.UserConnectedState>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Util.VideoMeetingHelper.UserConnectedState>
+  nameWithType.vb: Task(Of VideoMeetingHelper.UserConnectedState)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Util.VideoMeetingHelper.UserConnectedState)
+  name.vb: Task(Of VideoMeetingHelper.UserConnectedState)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: .
+  - uid: SuperOffice.Util.VideoMeetingHelper.UserConnectedState
+    name: UserConnectedState
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.UserConnectedState.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: .
+  - uid: SuperOffice.Util.VideoMeetingHelper.UserConnectedState
+    name: UserConnectedState
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.UserConnectedState.html
+  - name: )
 - uid: SuperOffice.Util.VideoMeetingHelper.CreateMeetingUrl*
   commentId: Overload:SuperOffice.Util.VideoMeetingHelper.CreateMeetingUrl
   isExternal: true
@@ -1288,3 +1383,10 @@ references:
   name: ReserveMeetingUrl
   nameWithType: VideoMeetingHelper.ReserveMeetingUrl
   fullName: SuperOffice.Util.VideoMeetingHelper.ReserveMeetingUrl
+- uid: SuperOffice.Util.VideoMeetingHelper.UserConnectedStateUrl*
+  commentId: Overload:SuperOffice.Util.VideoMeetingHelper.UserConnectedStateUrl
+  isExternal: true
+  href: SuperOffice.Util.VideoMeetingHelper.html#SuperOffice_Util_VideoMeetingHelper_UserConnectedStateUrl
+  name: UserConnectedStateUrl
+  nameWithType: VideoMeetingHelper.UserConnectedStateUrl
+  fullName: SuperOffice.Util.VideoMeetingHelper.UserConnectedStateUrl

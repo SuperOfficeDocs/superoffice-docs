@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 707,
-  "OnlyOpenSales": true
+  "ContactId": 838,
+  "OnlyOpenSales": false
 }
 ```
 
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Quigley Group",
-    "SaleDate": "2005-05-23T03:46:55.285132+02:00",
-    "SaleId": 274,
-    "Probability": 832,
-    "Title": "neque",
-    "Amount": 24410.726,
-    "Currency": "facilis",
-    "ProjectName": "Orn LLC",
-    "AssociateFullName": "Ms. Murray Johnson V",
-    "Description": "Re-engineered 24 hour knowledge user",
+    "ContactName": "Bechtelar, Schowalter and Klocko",
+    "SaleDate": "2001-02-17T03:41:54.0119629+01:00",
+    "SaleId": 482,
+    "Probability": 864,
+    "Title": "amet",
+    "Amount": 11016.01,
+    "Currency": "et",
+    "ProjectName": "Cormier, Von and Erdman",
+    "AssociateFullName": "Vivian Ledner",
+    "Description": "Reduced zero tolerance hardware",
     "Status": "Lost",
-    "WeightedAmount": 26479.165999999997,
-    "ProjectId": 38,
-    "EarningPercent": 4957.988,
-    "Earning": 3290.7,
-    "ContactId": 161,
-    "AssociateId": 822,
-    "PersonId": 9,
-    "SaleTypeId": 503,
-    "SaleTypeName": "Gleason, Jast and Erdman",
-    "PersonFullName": "Mr. Tara Talia Bogan I",
+    "WeightedAmount": 6778.842,
+    "ProjectId": 389,
+    "EarningPercent": 26081.147999999997,
+    "Earning": 11611.47,
+    "ContactId": 700,
+    "AssociateId": 430,
+    "PersonId": 595,
+    "SaleTypeId": 778,
+    "SaleTypeName": "Bailey-Altenwerth",
+    "PersonFullName": "Curtis Shields",
     "Completed": "Completed",
-    "ActiveErpLinks": 252,
-    "NextDueDate": "2024-05-24T03:46:55.285132+02:00",
-    "Number": "1568800",
+    "ActiveErpLinks": 545,
+    "NextDueDate": "2024-07-16T03:41:54.0119629+02:00",
+    "Number": "450498",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 265
+        "FieldLength": 571
       }
     }
   }

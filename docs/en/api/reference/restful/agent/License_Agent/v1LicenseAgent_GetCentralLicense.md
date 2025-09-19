@@ -80,30 +80,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gutmann, Sawayn and Murray",
-    "Description": "User-centric impactful task-force",
+    "Name": "Hudson, Fay and Block",
+    "Description": "Distributed real-time infrastructure",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 59,
-        "Tooltip": "vel",
+        "Unrestricted": true,
+        "Total": 407,
+        "Tooltip": "ea",
         "CanAssign": true,
-        "Free": 435,
-        "InUse": 296,
+        "Free": 396,
+        "InUse": 113,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 145,
-        "Name": "Stoltenberg-Gutkowski",
-        "Description": "User-centric next generation open architecture",
-        "PrerequisiteModuleName": "Harris-Goldner",
-        "SortOrder": 972,
-        "ExtraFlags": 242,
+        "Assigned": true,
+        "ModuleLicenseId": 787,
+        "Name": "Ruecker-Kassulke",
+        "Description": "De-engineered 24 hour info-mediaries",
+        "PrerequisiteModuleName": "Mohr Inc and Sons",
+        "SortOrder": 154,
+        "ExtraFlags": 885,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 730
+            "FieldType": "System.Int32",
+            "FieldLength": 259
           }
         }
       }
@@ -111,25 +111,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 392,
-        "Tooltip": "hic",
-        "CanAssign": false,
-        "Free": 424,
-        "InUse": 597,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 1001,
-        "Name": "Brakus, Nicolas and VonRueden",
-        "Description": "Focused web-enabled customer loyalty",
-        "PrerequisiteModuleName": "Terry-Fay",
-        "SortOrder": 808,
-        "ExtraFlags": 880,
+        "Total": 668,
+        "Tooltip": "et",
+        "CanAssign": true,
+        "Free": 333,
+        "InUse": 452,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 370,
+        "Name": "Hauck-Gleason",
+        "Description": "Customer-focused stable encoding",
+        "PrerequisiteModuleName": "Lehner, Moore and Schroeder",
+        "SortOrder": 866,
+        "ExtraFlags": 612,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 284
+            "FieldLength": 423
           }
         }
       }
@@ -138,36 +138,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 290
+        "FieldType": "System.String",
+        "FieldLength": 704
       }
     }
   },
   {
-    "Name": "Gutmann, Sawayn and Murray",
-    "Description": "User-centric impactful task-force",
+    "Name": "Hudson, Fay and Block",
+    "Description": "Distributed real-time infrastructure",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 59,
-        "Tooltip": "vel",
+        "Unrestricted": true,
+        "Total": 407,
+        "Tooltip": "ea",
         "CanAssign": true,
-        "Free": 435,
-        "InUse": 296,
+        "Free": 396,
+        "InUse": 113,
         "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 145,
-        "Name": "Stoltenberg-Gutkowski",
-        "Description": "User-centric next generation open architecture",
-        "PrerequisiteModuleName": "Harris-Goldner",
-        "SortOrder": 972,
-        "ExtraFlags": 242,
+        "Assigned": true,
+        "ModuleLicenseId": 787,
+        "Name": "Ruecker-Kassulke",
+        "Description": "De-engineered 24 hour info-mediaries",
+        "PrerequisiteModuleName": "Mohr Inc and Sons",
+        "SortOrder": 154,
+        "ExtraFlags": 885,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 730
+            "FieldType": "System.Int32",
+            "FieldLength": 259
           }
         }
       }
@@ -175,25 +175,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 392,
-        "Tooltip": "hic",
-        "CanAssign": false,
-        "Free": 424,
-        "InUse": 597,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 1001,
-        "Name": "Brakus, Nicolas and VonRueden",
-        "Description": "Focused web-enabled customer loyalty",
-        "PrerequisiteModuleName": "Terry-Fay",
-        "SortOrder": 808,
-        "ExtraFlags": 880,
+        "Total": 668,
+        "Tooltip": "et",
+        "CanAssign": true,
+        "Free": 333,
+        "InUse": 452,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 370,
+        "Name": "Hauck-Gleason",
+        "Description": "Customer-focused stable encoding",
+        "PrerequisiteModuleName": "Lehner, Moore and Schroeder",
+        "SortOrder": 866,
+        "ExtraFlags": 612,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 284
+            "FieldLength": 423
           }
         }
       }
@@ -202,8 +202,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 290
+        "FieldType": "System.String",
+        "FieldLength": 704
       }
     }
   }

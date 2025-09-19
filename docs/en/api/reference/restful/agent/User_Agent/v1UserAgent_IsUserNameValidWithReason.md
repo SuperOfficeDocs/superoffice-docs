@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/User/IsUserNameValidWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 897,
+  "AssociateId": 511,
   "Type": "AnonymousAssociate",
-  "PersonId": 234,
-  "UserName": "Stanton, Fadel and Gutmann"
+  "PersonId": 115,
+  "UserName": "Feil Group"
 }
 ```
 
@@ -98,14 +98,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "",
+  "Reason": "morph viral content",
   "Result": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 971
+      "FieldType": "System.String",
+      "FieldLength": 913
     }
   }
 }

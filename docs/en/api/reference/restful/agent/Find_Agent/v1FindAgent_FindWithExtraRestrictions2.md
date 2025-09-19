@@ -168,18 +168,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "non",
-  "ProviderName": "Murazik, Pfeffer and Stamm",
-  "StorageKey": "qui",
-  "ExtraRestrictions": "quos",
-  "OrderBy": "rerum",
-  "DesiredColumns": "rerum",
-  "PageSize": 955,
-  "PageNumber": 780
+  "StorageType": "unde",
+  "ProviderName": "Beatty-Stanton",
+  "StorageKey": "cum",
+  "ExtraRestrictions": "vero",
+  "OrderBy": "perspiciatis",
+  "DesiredColumns": "nihil",
+  "PageSize": 591,
+  "PageNumber": 228
 }
 ```
 
@@ -192,51 +192,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Metz, Rempel and Barrows",
-      "DisplayTooltip": "sapiente",
-      "DisplayType": "autem",
+      "DisplayName": "Dietrich Inc and Sons",
+      "DisplayTooltip": "nostrum",
+      "DisplayType": "nobis",
       "CanOrderBy": false,
-      "Name": "Batz-Gulgowski",
-      "CanRestrictBy": true,
-      "RestrictionType": "voluptates",
-      "RestrictionListName": "Schamberger, Willms and Champlin",
+      "Name": "Mertz, Kunze and Lemke",
+      "CanRestrictBy": false,
+      "RestrictionType": "dolor",
+      "RestrictionListName": "Heathcote-Howell",
       "IsVisible": false,
-      "ExtraInfo": "voluptas",
-      "Width": "a",
-      "IconHint": "qui",
-      "HeadingIconHint": "voluptatem"
+      "ExtraInfo": "ducimus",
+      "Width": "reiciendis",
+      "IconHint": "at",
+      "HeadingIconHint": "ipsa"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Runolfsson-Stroman",
-      "PrimaryKey": 426,
+      "EntityName": "Barton, Runolfsson and Runte",
+      "PrimaryKey": 975,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "cupiditate",
-          "TooltipHint": "cum",
-          "LinkHint": "vel"
+          "DisplayValue": "consequuntur",
+          "TooltipHint": "nihil",
+          "LinkHint": "eius"
         }
       },
-      "LinkHint": "aperiam",
-      "StyleHint": "est",
+      "LinkHint": "deleniti",
+      "StyleHint": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldLength": 733
         }
       }
     }
   ],
-  "RowCount": 872,
+  "RowCount": 394,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 270
+      "FieldLength": 813
     }
   }
 }

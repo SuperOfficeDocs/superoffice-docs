@@ -108,12 +108,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 118
+  "UserGroupId": 601
 }
 ```
 
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 161,
-    "ColumnId": 751,
-    "FieldDefault": "enim",
-    "FieldHeight": 613,
-    "FieldLabel": "et",
-    "FieldLeft": 320,
-    "FieldTop": 835,
+    "UDefFieldId": 415,
+    "ColumnId": 856,
+    "FieldDefault": "eum",
+    "FieldHeight": 241,
+    "FieldLabel": "possimus",
+    "FieldLeft": 891,
+    "FieldTop": 915,
     "FieldType": "Checkbox",
-    "FieldWidth": 660,
-    "FormatMask": "doloremque",
-    "HideLabel": true,
+    "FieldWidth": 286,
+    "FormatMask": "laboriosam",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 332,
-    "LabelLeft": 898,
+    "LabelHeight": 34,
+    "LabelLeft": 117,
     "LabelTop": 567,
-    "LabelWidth": 425,
-    "LastVersionId": 115,
-    "ListTableId": 82,
-    "IsMandatory": true,
+    "LabelWidth": 643,
+    "LastVersionId": 362,
+    "ListTableId": 869,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 860,
-    "ProgId": "minus",
+    "Page1LineNo": 124,
+    "ProgId": "neque",
     "IsReadOnly": false,
-    "ShortLabel": "rem",
-    "TabOrder": 739,
-    "TextLength": 297,
-    "Tooltip": "dolorum",
-    "UdefIdentity": 236,
-    "UDListDefinitionId": 353,
+    "ShortLabel": "ut",
+    "TabOrder": 453,
+    "TextLength": 108,
+    "Tooltip": "qui",
+    "UdefIdentity": 677,
+    "UDListDefinitionId": 630,
     "Justification": "Center",
-    "Version": 846,
-    "TemplateVariableName": "Labadie-Schmeler",
-    "HasBeenPublished": false,
-    "MdoListName": "Rempel-Gaylord",
+    "Version": 971,
+    "TemplateVariableName": "Kerluke Group",
+    "HasBeenPublished": true,
+    "MdoListName": "Weissnat-Huel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 917
+        "FieldLength": 433
       }
     }
   }

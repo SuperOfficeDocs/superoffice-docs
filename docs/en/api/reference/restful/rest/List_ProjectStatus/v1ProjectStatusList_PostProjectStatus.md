@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 267,
-  "Name": "McGlynn Inc and Sons",
-  "Tooltip": "explicabo",
+  "Id": 72,
+  "Name": "Ward-Lowe",
+  "Tooltip": "recusandae",
   "Deleted": true,
-  "UdListDefinitionId": 44,
-  "Rank": 760
+  "UdListDefinitionId": 318,
+  "Rank": 877
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 542,
-  "Name": "Stiedemann, Davis and Donnelly",
-  "Tooltip": "vitae",
+  "Id": 275,
+  "Name": "Schneider-Murphy",
+  "Tooltip": "adipisci",
   "Deleted": false,
-  "UdListDefinitionId": 211,
-  "Rank": 73,
+  "UdListDefinitionId": 281,
+  "Rank": 960,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldLength": 556
     }
   }
 }

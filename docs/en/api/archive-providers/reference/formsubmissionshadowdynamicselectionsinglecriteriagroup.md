@@ -480,7 +480,7 @@ Shadow contact provider for the dynamic appointmnet provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FormSubmissionShadowDynamicSelectionSingleCriteriaGroup?$select=associate/credentialDisplayValue,person/personAssociate/mrMrs,person/personAssociate/title,contact/hasInfoText,contact/contactSource
+GET /api/v1/archive/FormSubmissionShadowDynamicSelectionSingleCriteriaGroup?$select=contact/streetAddress/formattedAddress,person/restrictionAddress/zip,person/personAssociate/locationAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

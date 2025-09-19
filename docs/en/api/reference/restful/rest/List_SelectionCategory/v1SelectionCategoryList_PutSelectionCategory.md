@@ -83,12 +83,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 924,
-  "Name": "Jaskolski LLC",
-  "Tooltip": "nemo",
+  "Id": 740,
+  "Name": "Luettgen Inc and Sons",
+  "Tooltip": "impedit",
   "Deleted": false,
-  "UdListDefinitionId": 552,
-  "Rank": 308
+  "UdListDefinitionId": 467,
+  "Rank": 801
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 292,
-  "Name": "Tromp Inc and Sons",
-  "Tooltip": "ipsam",
-  "Deleted": true,
-  "UdListDefinitionId": 614,
-  "Rank": 2,
+  "Id": 499,
+  "Name": "Cole, Glover and Price",
+  "Tooltip": "ullam",
+  "Deleted": false,
+  "UdListDefinitionId": 664,
+  "Rank": 850,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 803
+      "FieldType": "System.String",
+      "FieldLength": 128
     }
   }
 }

@@ -65,29 +65,29 @@ No Content
 POST /api/v1/Agents/Chat/SaveChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ChatPresence": [
     {
-      "UserId": 203,
-      "DisplayName": "Luettgen-Ebert",
-      "OngoingChats": 606,
+      "UserId": 292,
+      "DisplayName": "Murphy, Jenkins and Price",
+      "OngoingChats": 582,
       "Present": true,
       "ChatTopics": [
-        659,
-        646
+        629,
+        730
       ]
     },
     {
-      "UserId": 203,
-      "DisplayName": "Luettgen-Ebert",
-      "OngoingChats": 606,
+      "UserId": 292,
+      "DisplayName": "Murphy, Jenkins and Price",
+      "OngoingChats": 582,
       "Present": true,
       "ChatTopics": [
-        659,
-        646
+        629,
+        730
       ]
     }
   ]

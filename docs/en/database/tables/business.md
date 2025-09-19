@@ -47,8 +47,8 @@ Business list table
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
 |[BusinessGroupLink](businessgrouplink.md)  |User group link table for Business, for MDO item hiding |
 |[BusinessHeadingLink](businessheadinglink.md)  |Heading link table for Business, for MDO headers |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[contact](contact.md)  |Companies and Organizations. |
+|[person](person.md)  |Persons |
 
 
 ## Replication Flags

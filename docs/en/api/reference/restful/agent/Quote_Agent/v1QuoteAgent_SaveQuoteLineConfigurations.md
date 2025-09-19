@@ -84,20 +84,20 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 816,
-      "FieldName": "Dooley-Von",
-      "Label": "modi",
-      "Tooltip": "quis",
-      "Editable": false,
-      "InUse": false,
+      "QuoteLineConfigurationId": 579,
+      "FieldName": "Maggio Group",
+      "Label": "officia",
+      "Tooltip": "praesentium",
+      "Editable": true,
+      "InUse": true,
       "Mandatory": false,
-      "Rank": 648,
+      "Rank": 722,
       "RestrictEdit": false
     }
   ]
@@ -112,21 +112,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 700,
-    "FieldName": "Johnson, Quigley and Jewess",
-    "Label": "voluptatibus",
-    "Tooltip": "facere",
+    "QuoteLineConfigurationId": 949,
+    "FieldName": "Brekke Group",
+    "Label": "sequi",
+    "Tooltip": "doloremque",
     "Editable": false,
-    "InUse": false,
+    "InUse": true,
     "Mandatory": false,
-    "Rank": 552,
+    "Rank": 94,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 936
+        "FieldType": "System.Int32",
+        "FieldLength": 806
       }
     }
   }

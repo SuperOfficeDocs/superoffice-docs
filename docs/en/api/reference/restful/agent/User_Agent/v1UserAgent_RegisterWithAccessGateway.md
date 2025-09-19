@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RedirectUri": "est"
+  "RedirectUri": "sunt"
 }
 ```
 
@@ -92,14 +92,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ClientId": "eveniet",
-  "RedirectUri": "provident",
+  "ClientId": "et",
+  "RedirectUri": "nemo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 24
+      "FieldType": "System.Int32",
+      "FieldLength": 848
     }
   }
 }

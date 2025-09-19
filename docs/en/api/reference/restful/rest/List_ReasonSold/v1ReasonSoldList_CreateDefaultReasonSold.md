@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 115,
-  "Name": "Terry LLC",
-  "Tooltip": "hic",
+  "Id": 251,
+  "Name": "Bechtelar-Ward",
+  "Tooltip": "eum",
   "Deleted": true,
-  "UdListDefinitionId": 995,
-  "Rank": 976,
+  "UdListDefinitionId": 719,
+  "Rank": 160,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldLength": 115
     }
   }
 }

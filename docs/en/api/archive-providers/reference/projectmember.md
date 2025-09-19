@@ -36,6 +36,8 @@ from the result.
 |personId|int|Contact ID: Database ID of the contact row| x |
 |function|listAny|Function: Displays the project member's function in the project| x |
 |hasInfoText|bool|Project member information: Displays an icon indicating that there is additional information available for the project member| x |
+|registered|datetime|Registered date: The date/time the data was registered in UTC.| x |
+|updated|datetime|Updated: The date/time the data was last updated in UTC.| x |
 |textId|int|Text ID| x |
 |infoText|positiveString|Information: Displays the text entered in the description field| x |
 |project/completed|bool|Completed: Displays a check mark indicating if the project has been completed.| x |
@@ -125,12 +127,12 @@ from the result.
 |project/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 |project/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
 |project/NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
-|project/LastSale|date|Date of last sale|  |
-|project/LastCompletedSale|date|Date of last completed sale|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/LastSale|date|Date of last sale|  |
+|project/LastCompletedSale|date|Date of last completed sale|  |
 |project/LastDoBySale|date|Date of last non-completed sale|  |
 |project/SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |project/saintSaleStatus|listAny|With status|  |
@@ -229,12 +231,12 @@ from the result.
 |person/personAddress/wgs84longitude|decimal|Contact address - Longitude: Longitude| x |
 |person/personAddress/formattedAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
 |person/personAddress/formattedMultiLineAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
-|person/restrictionAddress/addressId|int|Search address - Address ID: Database ID for the address record| x |
-|person/restrictionAddress/line1|string|Search address - Address 1: First line of the address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/restrictionAddress/addressId|int|Search address - Address ID: Database ID for the address record| x |
+|person/restrictionAddress/line1|string|Search address - Address 1: First line of the address| x |
 |person/restrictionAddress/line2|string|Search address - Address 2: Second line of the address| x |
 |person/restrictionAddress/line3|string|Search address - Address 3: Third line of the address| x |
 |person/restrictionAddress/county|string|Search address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
@@ -333,12 +335,12 @@ from the result.
 |person/correspondingAssociate/assocName|associate|User ID : User ID| x |
 |person/correspondingAssociate/assocTooltip|string|Description : Description|  |
 |person/correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
-|person/correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
-|person/correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
+|person/correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |person/correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |person/correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |person/correspondingAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
@@ -437,12 +439,12 @@ from the result.
 |contact/restrictionAddress/state|string|Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
 |contact/restrictionAddress/wgs84latitude|decimal|Search address - Latitude: Latitude| x |
 |contact/restrictionAddress/wgs84longitude|decimal|Search address - Longitude: Longitude| x |
-|contact/restrictionAddress/formattedAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
-|contact/restrictionAddress/formattedMultiLineAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/restrictionAddress/formattedAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
+|contact/restrictionAddress/formattedMultiLineAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
 |contact/url/URLAddress|string|URL| x |
 |contact/url/URLDescription|string|Description| x |
 |contact/contactAssociate/firstName|string|First name: Displays the contact's first name| x |
@@ -543,7 +545,7 @@ from the result.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectMember?$select=project/hasInfoText,project/registeredBy,project/NumberOfActivitiesInPeriod,project/NumberOfNotCompletedSales,person/email/emailProtocol
+GET /api/v1/archive/ProjectMember?$select=project/LastSale,project/saintDirection,person/personAssociate/userName,contact/restrictionAddress/addressId,contact/NumberOfTicketsInPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

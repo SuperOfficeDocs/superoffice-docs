@@ -84,28 +84,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 590,
-    "Value": "consequatur",
-    "Tooltip": "incidunt",
+    "Id": 620,
+    "Value": "id",
+    "Tooltip": "excepturi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 454
+        "FieldLength": 813
       }
     }
   },
   {
-    "Id": 590,
-    "Value": "consequatur",
-    "Tooltip": "incidunt",
+    "Id": 620,
+    "Value": "id",
+    "Tooltip": "excepturi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 454
+        "FieldLength": 813
       }
     }
   }

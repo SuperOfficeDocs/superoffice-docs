@@ -123,18 +123,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "itaque",
+    "path": "repudiandae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "itaque",
+    "path": "repudiandae",
     "value": {}
   }
 ]
@@ -147,28 +147,28 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 710,
-  "Name": "Kilback-Rolfson",
+  "WebhookId": 680,
+  "Name": "Effertz, Stroman and Lesch",
   "Events": [
-    "eum",
-    "architecto"
+    "qui",
+    "voluptatum"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "animi",
+  "Secret": "ratione",
   "State": "Active",
-  "Type": "eaque",
+  "Type": "delectus",
   "Headers": {
-    "Headers1": "et",
-    "Headers2": "debitis"
+    "Headers1": "tenetur",
+    "Headers2": "eligendi"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2004-11-14T03:47:00.5505518+01:00",
+  "Registered": "2024-05-01T03:41:59.3242422+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2006-05-06T03:47:00.5505518+02:00",
+  "Updated": "2004-12-16T03:41:59.3242422+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "micah@satterfield.com",
+  "ErrorsEmail": "sydnee.crooks@kuphalwitting.com",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

@@ -662,7 +662,7 @@ Shadow contact provider for the dynamic Mailings provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowDynamicSelectionSingleCriteriaGroup?$select=mailingSimpleStatus,mailingAddr/contact/NumberOfSales,mailingAddr/person/personAssociate/otherGroups,associate/isActiveText,project/NumberOfActivitiesInPeriod
+GET /api/v1/archive/MailingsShadowDynamicSelectionSingleCriteriaGroup?$select=mailingId,mailingAddr/contact/mainContact,mailingAddr/contact/postAddress/wgs84longitude,mailingAddr/contact/LastCompletedTicket,associate/firstName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

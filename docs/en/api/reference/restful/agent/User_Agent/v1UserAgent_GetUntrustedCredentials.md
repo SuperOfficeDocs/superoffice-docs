@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/User/GetUntrustedCredentials
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "corrupti"
+  "Type": "voluptas"
 }
 ```
 
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2004-06-04T03:46:55.6132266+02:00",
-    "ValidTo": "2016-06-07T03:46:55.6132266+02:00",
-    "Comment": "adipisci",
-    "SecretValue": "minima",
-    "PublicValue": "ipsam",
+    "ValidFrom": "2009-08-20T03:41:54.355698+02:00",
+    "ValidTo": "2024-08-19T03:41:54.355698+02:00",
+    "Comment": "similique",
+    "SecretValue": "consectetur",
+    "PublicValue": "sunt",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 88
+        "FieldLength": 879
       }
     }
   }

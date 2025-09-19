@@ -104,31 +104,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 12,
-  "PlainMessage": "aperiam",
-  "HtmlMessage": "omnis",
-  "SmsMessage": "quia",
-  "Description": "Enhanced content-based knowledge base",
-  "Subject": "quod",
-  "FolderId": 525,
-  "HeaderField": "molestiae",
-  "Design": "et",
+  "ShipmentMessageId": 857,
+  "PlainMessage": "harum",
+  "HtmlMessage": "impedit",
+  "SmsMessage": "distinctio",
+  "Description": "Fully-configurable bifurcated budgetary management",
+  "Subject": "vero",
+  "FolderId": 364,
+  "HeaderField": "aut",
+  "Design": "aut",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Robust radical hub",
-  "AccessKey": "fugit",
-  "DocumentMessage": 110,
-  "Registered": "1999-09-06T03:46:55.0038735+02:00",
-  "RegisteredAssociateId": 256,
-  "Updated": "2013-08-11T03:46:55.0038735+02:00",
-  "UpdatedAssociateId": 137,
-  "UpdatedCount": 258
+  "RegisterViews": true,
+  "InlineImages": false,
+  "LongDescription": "Programmable bifurcated application",
+  "AccessKey": "nemo",
+  "DocumentMessage": 419,
+  "Registered": "2012-12-11T03:41:53.7463488+01:00",
+  "RegisteredAssociateId": 614,
+  "Updated": "2007-02-15T03:41:53.7463488+01:00",
+  "UpdatedAssociateId": 833,
+  "UpdatedCount": 368
 }
 ```
 
@@ -139,33 +139,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 721,
-  "PlainMessage": "aut",
-  "HtmlMessage": "dolore",
-  "SmsMessage": "facilis",
-  "Description": "Versatile hybrid architecture",
-  "Subject": "numquam",
-  "FolderId": 559,
-  "HeaderField": "occaecati",
-  "Design": "placeat",
+  "ShipmentMessageId": 117,
+  "PlainMessage": "autem",
+  "HtmlMessage": "laborum",
+  "SmsMessage": "animi",
+  "Description": "Sharable user-facing data-warehouse",
+  "Subject": "eos",
+  "FolderId": 494,
+  "HeaderField": "animi",
+  "Design": "officia",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Enhanced client-server initiative",
-  "AccessKey": "quia",
-  "DocumentMessage": 974,
-  "Registered": "2019-03-29T03:46:55.0038735+01:00",
-  "RegisteredAssociateId": 575,
-  "Updated": "2000-06-29T03:46:55.0038735+02:00",
-  "UpdatedAssociateId": 647,
-  "UpdatedCount": 550,
+  "LongDescription": "Fully-configurable intangible circuit",
+  "AccessKey": "nulla",
+  "DocumentMessage": 946,
+  "Registered": "2010-06-07T03:41:53.7463488+02:00",
+  "RegisteredAssociateId": 992,
+  "Updated": "2013-01-27T03:41:53.7463488+01:00",
+  "UpdatedAssociateId": 667,
+  "UpdatedCount": 409,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldLength": 489
     }
   }
 }

@@ -27,7 +27,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=281
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=843
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -99,53 +99,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 293,
-  "Name": "Kassulke-Reilly",
-  "Tooltip": "vero",
-  "Rank": 756,
+  "SaleTypeId": 904,
+  "Name": "Johnston, Lowe and O'Hara",
+  "Tooltip": "cumque",
+  "Rank": 181,
   "DurationUnit": "Century",
-  "SaleDuration": 215,
-  "SaleTypeCatId": 579,
+  "SaleDuration": 715,
+  "SaleTypeCatId": 457,
   "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 254,
-  "QuoteLinesTemplate": 816,
-  "ConfirmationLinesTemplate": 748,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 731,
-  "MinEarningPercent": 213,
-  "GroupQuoteLinesBy": 640,
-  "SortGroupLinesBy": 870,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 178,
+  "QuoteLinesTemplate": 54,
+  "ConfirmationLinesTemplate": 873,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 919,
+  "MinEarningPercent": 188,
+  "GroupQuoteLinesBy": 293,
+  "SortGroupLinesBy": 204,
   "Stages": [
     {
-      "Id": 271,
-      "Name": "Frami Group",
-      "ToolTip": "Dolorum nesciunt earum.",
-      "Deleted": true,
-      "Rank": 552,
-      "Type": "facilis",
-      "ColorBlock": 92,
-      "IconHint": "eum",
-      "Selected": false,
-      "LastChanged": "1998-10-20T03:46:54.9413809+02:00",
+      "Id": 787,
+      "Name": "Sanford-Johns",
+      "ToolTip": "Cumque est blanditiis.",
+      "Deleted": false,
+      "Rank": 237,
+      "Type": "reiciendis",
+      "ColorBlock": 289,
+      "IconHint": "expedita",
+      "Selected": true,
+      "LastChanged": "2014-03-07T03:41:53.6369777+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "maiores",
-      "StyleHint": "quibusdam",
+      "ExtraInfo": "porro",
+      "StyleHint": "ex",
       "Hidden": true,
-      "FullName": "Darrick Weber",
+      "FullName": "Ms. Jo Johanna Lueilwitz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 217
+          "FieldLength": 827
         }
       }
     }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 747
+      "FieldLength": 880
     }
   }
 }

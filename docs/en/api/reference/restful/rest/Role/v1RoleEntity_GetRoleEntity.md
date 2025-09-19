@@ -88,7 +88,7 @@ RoleEntity found.
 GET /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,16 +98,16 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 463,
-  "Name": "Romaguera, O'Reilly and Moore",
-  "Tooltip": "labore",
+  "RoleId": 419,
+  "Name": "Kemmer-Langosh",
+  "Tooltip": "qui",
   "RoleType": "Anonymous",
-  "Deleted": 802,
-  "Rank": 548,
-  "Created": "2002-10-15T03:47:00.2068137+02:00",
-  "UseCategories": 460,
+  "Deleted": 776,
+  "Rank": 8,
+  "Created": "1998-10-31T03:41:58.9336467+01:00",
+  "UseCategories": 416,
   "CreatedBy": null,
-  "Updated": "2018-01-09T03:47:00.2068137+01:00",
+  "Updated": "1998-11-25T03:41:58.9336467+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldLength": 22
     }
   },
   "_Links": {

@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetAppWebPanels
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,34 +98,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 811,
-    "Name": "Blick-Kertzmann",
-    "Tooltip": "a",
+    "WebPanelId": 878,
+    "Name": "Lind, Dicki and Kunze",
+    "Tooltip": "ut",
     "Deleted": true,
-    "Rank": 863,
+    "Rank": 357,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
+    "OnCentral": true,
     "OnSatellite": false,
-    "OnTravel": false,
+    "OnTravel": true,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
     "ShowInMenuBar": true,
     "ShowInToolBar": false,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": false,
-    "WindowName": "Runolfsson, Russel and Lubowitz",
+    "ShowInStatusBar": true,
+    "WindowName": "Murazik, Mante and Quigley",
     "Url": "http://www.example.com/",
-    "ProgId": "vel",
-    "Icon": 350,
+    "ProgId": "dignissimos",
+    "Icon": 61,
     "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 320
+        "FieldType": "System.Int32",
+        "FieldLength": 126
       }
     }
   }

@@ -63,7 +63,7 @@ OK
 GET /api/v1/PreferenceDescriptionLine/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 572,
-  "PrefDescId": 519,
-  "PrefValue": "qui",
-  "PrefShowValue": "et",
-  "Description": "Universal bifurcated success",
+  "PrefDescLineId": 446,
+  "PrefDescId": 237,
+  "PrefValue": "necessitatibus",
+  "PrefShowValue": "ex",
+  "Description": "Multi-lateral content-based software",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 80
+      "FieldLength": 661
     }
   }
 }

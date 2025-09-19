@@ -1,4 +1,3 @@
-items:
 - name: SOAP Web Services
   href: index.md
 - name: Services84
@@ -11735,6 +11734,8 @@ items:
       href: Services88/Appointment/GetTaskListItems.md
     - name: GetUIDFromAppointmentId
       href: Services88/Appointment/GetUIDFromAppointmentId.md
+    - name: GetVideoMeetingConnectedState
+      href: Services88/Appointment/GetVideoMeetingConnectedState.md
     - name: Move
       href: Services88/Appointment/Move.md
     - name: MoveExtended
@@ -12538,6 +12539,8 @@ items:
       href: Services88/Diagnostics/GetWebAppUsagesForPeriod.md
     - name: LogViewState
       href: Services88/Diagnostics/LogViewState.md
+    - name: PerformTasksAfterCustomObjectTableCreated
+      href: Services88/Diagnostics/PerformTasksAfterCustomObjectTableCreated.md
     - name: PerformTasksAfterCustomObjectTableDeleted
       href: Services88/Diagnostics/PerformTasksAfterCustomObjectTableDeleted.md
     - name: PerformTasksAfterUpgrade
@@ -14112,6 +14115,8 @@ items:
       href: Services88/Person/GetPersonEntity.md
     - name: GetPersonImage
       href: Services88/Person/GetPersonImage.md
+    - name: GetPersonImageAsStream
+      href: Services88/Person/GetPersonImageAsStream.md
     - name: GetPersonImages
       href: Services88/Person/GetPersonImages.md
     - name: GetPersonList
@@ -14160,8 +14165,12 @@ items:
       href: Services88/Person/SetConsent.md
     - name: SetPersonImage
       href: Services88/Person/SetPersonImage.md
+    - name: SetPersonImageFromStream
+      href: Services88/Person/SetPersonImageFromStream.md
     - name: SetPersonRank
       href: Services88/Person/SetPersonRank.md
+    - name: SetUtmCreatedPersonContactForFormSubmission
+      href: Services88/Person/SetUtmCreatedPersonContactForFormSubmission.md
     - name: TryAddPersonsToEmailFlow
       href: Services88/Person/TryAddPersonsToEmailFlow.md
     - name: Undelete
@@ -14862,6 +14871,8 @@ items:
       href: Services88/Selection/RemoveSelectionMembersFromSearch.md
     - name: SaveBoardViewSettings
       href: Services88/Selection/SaveBoardViewSettings.md
+    - name: SaveBoardViewSettingsForSelectionAndAssociate
+      href: Services88/Selection/SaveBoardViewSettingsForSelectionAndAssociate.md
     - name: SaveSelectionEntity
       href: Services88/Selection/SaveSelectionEntity.md
     - name: SetDuplicateRulesStatus
@@ -14964,6 +14975,8 @@ items:
   - name: Ticket
     href: Services88/Ticket/index.md
     items:
+    - name: AcceptTickets
+      href: Services88/Ticket/AcceptTickets.md
     - name: AddAttachments
       href: Services88/Ticket/AddAttachments.md
     - name: BatchForward
@@ -15201,6 +15214,8 @@ items:
       href: Services88/User/GetAccessGatewayInfo.md
     - name: GetAccessToken
       href: Services88/User/GetAccessToken.md
+    - name: GetAllDataRights
+      href: Services88/User/GetAllDataRights.md
     - name: GetAllFunctionalRights
       href: Services88/User/GetAllFunctionalRights.md
     - name: GetAllRoles

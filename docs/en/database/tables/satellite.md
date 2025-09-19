@@ -44,7 +44,7 @@ Definition of Satellites
 |------|-------------|
 |[area](area.md)  |Definition of an Area (database subset for satellite and travel) |
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 |[LicenseSatlLink](licensesatllink.md)  |Link between License and Satellite, for per-database licenses |
 
 

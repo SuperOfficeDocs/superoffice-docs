@@ -93,12 +93,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "et",
-  "Key": "minima",
+  "Section": "est",
+  "Key": "dolores",
   "PreferenceDescription": null
 }
 ```
@@ -110,30 +110,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 509,
-  "Section": "placeat",
-  "Key": "placeat",
-  "Name": "Casper-Ankunding",
+  "PrefDescId": 905,
+  "Section": "aperiam",
+  "Key": "sequi",
+  "Name": "Grimes-Hodkiewicz",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-tiered static help-desk",
+  "Description": "Streamlined incremental hub",
   "IsBuiltin": false,
-  "TableName": "Wilderman Inc and Sons",
-  "UserDefinedListId": 418,
-  "Rank": 18,
-  "SubGroup": "numquam",
-  "MinLevel": 36,
-  "MaxValue": 548,
-  "MinValue": 255,
-  "RequiredLicense": "saepe",
+  "TableName": "Parisian-Schinner",
+  "UserDefinedListId": 424,
+  "Rank": 926,
+  "SubGroup": "molestiae",
+  "MinLevel": 618,
+  "MaxValue": 317,
+  "MinValue": 325,
+  "RequiredLicense": "debitis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 932
+      "FieldType": "System.Int32",
+      "FieldLength": 478
     }
   }
 }

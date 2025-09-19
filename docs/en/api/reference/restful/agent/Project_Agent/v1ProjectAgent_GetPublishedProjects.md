@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    678,
-    305
+    590,
+    96
   ]
 }
 ```
@@ -110,30 +110,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 5,
-    "Name": "Konopelski Inc and Sons",
-    "Description": "Automated optimal extranet",
+    "ProjectId": 143,
+    "Name": "Zemlak Inc and Sons",
+    "Description": "Business-focused solution-oriented task-force",
     "URL": "http://www.example.com/",
-    "Type": "iure",
-    "AssociateId": 876,
-    "AssociateFullName": "Miss Moshe Candelario Conn III",
-    "TypeId": 616,
-    "Updated": "2017-09-06T03:46:55.1757421+02:00",
-    "StatusId": 450,
-    "Status": "assumenda",
-    "TextId": 722,
-    "PublishTo": "2000-06-02T03:46:55.1757421+02:00",
-    "PublishFrom": "1999-02-09T03:46:55.1757421+01:00",
-    "IsPublished": true,
+    "Type": "soluta",
+    "AssociateId": 472,
+    "AssociateFullName": "Ardella Hermiston",
+    "TypeId": 665,
+    "Updated": "2001-07-03T03:41:53.9182167+02:00",
+    "StatusId": 844,
+    "Status": "eligendi",
+    "TextId": 230,
+    "PublishTo": "2007-08-16T03:41:53.9182167+02:00",
+    "PublishFrom": "2010-06-04T03:41:53.9182167+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1103289",
-    "ActiveErpLinks": 25,
+    "ProjectNumber": "1617923",
+    "ActiveErpLinks": 159,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 480
+        "FieldLength": 377
       }
     }
   }

@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 659,
-    "Name": "Russel Inc and Sons",
-    "ToolTip": "Assumenda et consequatur magnam ea magnam veritatis suscipit.",
+    "Id": 452,
+    "Name": "Bode-Klein",
+    "ToolTip": "Eos nihil modi est sed.",
     "Deleted": false,
-    "Rank": 72,
-    "Type": "quo",
-    "ColorBlock": 100,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2021-01-23T03:47:00.6599229+01:00",
+    "Rank": 583,
+    "Type": "voluptatum",
+    "ColorBlock": 781,
+    "IconHint": "rem",
+    "Selected": true,
+    "LastChanged": "2025-07-29T03:41:59.4179858+02:00",
     "ChildItems": [
       {
-        "Id": 718,
-        "Name": "Marks, Strosin and Kunze",
-        "ToolTip": "Similique incidunt deserunt ex est.",
+        "Id": 823,
+        "Name": "Doyle, Hermiston and O'Connell",
+        "ToolTip": "Culpa distinctio nisi.",
         "Deleted": true,
-        "Rank": 242,
-        "Type": "sed",
-        "ColorBlock": 943,
-        "IconHint": "nemo",
+        "Rank": 964,
+        "Type": "quae",
+        "ColorBlock": 555,
+        "IconHint": "velit",
         "Selected": false,
-        "LastChanged": "2008-03-05T03:47:00.6599229+01:00",
+        "LastChanged": "2012-11-19T03:41:59.4179858+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "amet",
+        "ExtraInfo": "omnis",
+        "StyleHint": "odit",
         "Hidden": false,
-        "FullName": "Mrs. Chadd Kreiger MD",
+        "FullName": "Schuyler Krajcik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 844
+            "FieldType": "System.String",
+            "FieldLength": 329
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "in",
-    "Hidden": false,
-    "FullName": "Cathrine Windler",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "autem",
+    "Hidden": true,
+    "FullName": "Webster Kozey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 745
+        "FieldType": "System.Int32",
+        "FieldLength": 753
       }
     }
   }

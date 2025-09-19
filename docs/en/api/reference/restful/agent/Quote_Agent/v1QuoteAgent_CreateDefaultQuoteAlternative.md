@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,35 +88,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 981,
-  "ERPQuoteAlternativeKey": "reiciendis",
-  "QuoteVersionId": 703,
-  "Name": "Huel-Kovacek",
-  "Description": "Versatile exuding analyzer",
+  "QuoteAlternativeId": 244,
+  "ERPQuoteAlternativeKey": "qui",
+  "QuoteVersionId": 628,
+  "Name": "Hintz-Sanford",
+  "Description": "Organic 6th generation frame",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 30462.48,
-  "ERPDiscountAmount": 5794.766,
-  "DiscountPercent": 24532.951999999997,
-  "DiscountAmount": 16666.612,
+  "ERPDiscountPercent": 17863.8,
+  "ERPDiscountAmount": 11028.546,
+  "DiscountPercent": 26071.746,
+  "DiscountAmount": 26457.228,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "placeat",
-  "VAT": 13413.52,
-  "EarningPercent": 23003.559999999998,
-  "EarningAmount": 13379.046,
-  "SubTotal": 17443.844,
-  "TotalPrice": 990.34399999999994,
-  "ExtraField1": "non",
-  "ExtraField2": "et",
-  "ExtraField3": "architecto",
-  "ExtraField4": "rerum",
-  "ExtraField5": "quaerat",
+  "VATInfo": "assumenda",
+  "VAT": 8201.678,
+  "EarningPercent": 9621.38,
+  "EarningAmount": 18562.682,
+  "SubTotal": 15030.663999999999,
+  "TotalPrice": 15626.124,
+  "ExtraField1": "voluptas",
+  "ExtraField2": "omnis",
+  "ExtraField3": "velit",
+  "ExtraField4": "commodi",
+  "ExtraField5": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldType": "System.String",
+      "FieldLength": 880
     }
   }
 }

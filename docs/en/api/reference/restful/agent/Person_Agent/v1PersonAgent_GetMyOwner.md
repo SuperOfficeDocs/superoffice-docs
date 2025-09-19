@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -116,53 +116,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "non",
-  "PersonId": 830,
-  "Mrmrs": "commodi",
-  "Firstname": "Harley",
-  "Lastname": "Murphy",
-  "MiddleName": "Green LLC",
-  "Title": "nesciunt",
-  "Description": "Grass-roots holistic ability",
-  "Email": "bria_reinger@rogahn.us",
-  "FullName": "Calista Gleason",
-  "DirectPhone": "181.544.1423 x66162",
-  "FormalName": "Rau LLC",
-  "CountryId": 707,
-  "ContactId": 303,
-  "ContactName": "Medhurst-Zieme",
-  "Retired": 84,
-  "Rank": 614,
-  "ActiveInterests": 818,
+  "Position": "quas",
+  "PersonId": 918,
+  "Mrmrs": "non",
+  "Firstname": "Larissa",
+  "Lastname": "Bartell",
+  "MiddleName": "Nader-Trantow",
+  "Title": "molestiae",
+  "Description": "Automated fault-tolerant capacity",
+  "Email": "rowan@moen.uk",
+  "FullName": "Chyna Hermann",
+  "DirectPhone": "354-433-6496",
+  "FormalName": "O'Conner-Hyatt",
+  "CountryId": 691,
+  "ContactId": 365,
+  "ContactName": "West LLC",
+  "Retired": 673,
+  "Rank": 935,
+  "ActiveInterests": 658,
   "ContactDepartment": "",
-  "ContactCountryId": 987,
-  "ContactOrgNr": "820954",
-  "FaxPhone": "912-723-6311 x58228",
-  "MobilePhone": "074.872.8243 x163",
-  "ContactPhone": "1-662-685-0667 x6224",
-  "AssociateName": "Cormier LLC",
-  "AssociateId": 76,
-  "UsePersonAddress": false,
-  "ContactFax": "beatae",
-  "Kanafname": "corrupti",
-  "Kanalname": "impedit",
-  "Post1": "praesentium",
-  "Post2": "dolores",
-  "Post3": "veniam",
-  "EmailName": "lora@douglasohara.biz",
-  "ContactFullName": "King Oberbrunner",
-  "ActiveErpLinks": 444,
-  "TicketPriorityId": 339,
-  "SupportLanguageId": 970,
-  "SupportAssociateId": 662,
+  "ContactCountryId": 23,
+  "ContactOrgNr": "1260760",
+  "FaxPhone": "403-150-2284",
+  "MobilePhone": "(247)238-0622 x02672",
+  "ContactPhone": "(623)494-4810",
+  "AssociateName": "Weissnat, Herzog and Kub",
+  "AssociateId": 897,
+  "UsePersonAddress": true,
+  "ContactFax": "repellat",
+  "Kanafname": "consequuntur",
+  "Kanalname": "sunt",
+  "Post1": "est",
+  "Post2": "sint",
+  "Post3": "dolorem",
+  "EmailName": "tyrese@hauckwisozk.biz",
+  "ContactFullName": "Prof. Reba Rogahn IV",
+  "ActiveErpLinks": 666,
+  "TicketPriorityId": 733,
+  "SupportLanguageId": 236,
+  "SupportAssociateId": 178,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "1481613",
+  "PersonNumber": "1408969",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 479
+      "FieldLength": 582
     }
   }
 }

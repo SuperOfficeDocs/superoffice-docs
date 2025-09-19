@@ -254,6 +254,7 @@ items:
   - SuperOffice.CRM.Data.KbWorkflowTableInfo
   - SuperOffice.CRM.Data.LanguageInfoCountryTableInfo
   - SuperOffice.CRM.Data.LanguageInfoTableInfo
+  - SuperOffice.CRM.Data.LeadstatusTableInfo
   - SuperOffice.CRM.Data.LegalBaseTableInfo
   - SuperOffice.CRM.Data.LegalHtmlTagsTableInfo
   - SuperOffice.CRM.Data.LicenseAssocLinkTableInfo

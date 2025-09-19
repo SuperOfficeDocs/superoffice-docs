@@ -102,52 +102,52 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 451,
-  "UniqueIdentifier": "est",
-  "Name": "Zboncak-Kris",
-  "Description": "Focused local customer loyalty",
-  "IncludeId": "ut",
-  "AccessKey": "dignissimos",
-  "HierarchyId": 948,
-  "Source": "architecto",
-  "SourceCode": "ut",
+  "EjscriptId": 291,
+  "UniqueIdentifier": "quam",
+  "Name": "Mitchell, Haley and Schaefer",
+  "Description": "Streamlined asynchronous strategy",
+  "IncludeId": "velit",
+  "AccessKey": "voluptatem",
+  "HierarchyId": 496,
+  "Source": "animi",
+  "SourceCode": "in",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 623,
+  "HtmlOutput": 823,
   "Includes": [
-    55,
-    364
+    430,
+    858
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 155,
-      "LineNumberTo": 619,
-      "Delta": 728,
-      "IncludeId": "rerum",
+      "LineNumberFrom": 302,
+      "LineNumberTo": 163,
+      "Delta": 598,
+      "IncludeId": "nulla",
       "IncludedFrom": [
-        "tempore",
-        "dolor"
+        "adipisci",
+        "asperiores"
       ]
     },
     {
-      "LineNumberFrom": 155,
-      "LineNumberTo": 619,
-      "Delta": 728,
-      "IncludeId": "rerum",
+      "LineNumberFrom": 302,
+      "LineNumberTo": 163,
+      "Delta": 598,
+      "IncludeId": "nulla",
       "IncludedFrom": [
-        "tempore",
-        "dolor"
+        "adipisci",
+        "asperiores"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2005-10-31T03:46:54.5663888+01:00",
-  "RegisteredAssociateId": 747,
-  "Updated": "2004-09-24T03:46:54.5663888+02:00",
-  "UpdatedAssociateId": 361,
+  "Registered": "2013-10-30T03:41:53.3401161+01:00",
+  "RegisteredAssociateId": 521,
+  "Updated": "2020-12-11T03:41:53.3401161+01:00",
+  "UpdatedAssociateId": 66,
   "BlockedVerbs": "BlockAll"
 }
 ```
@@ -159,53 +159,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 357,
-  "UniqueIdentifier": "tenetur",
-  "Name": "Grant-Kunde",
-  "Description": "Vision-oriented holistic array",
-  "IncludeId": "quidem",
-  "AccessKey": "atque",
-  "HierarchyId": 842,
-  "Source": "maiores",
-  "SourceCode": "sit",
+  "EjscriptId": 157,
+  "UniqueIdentifier": "consequatur",
+  "Name": "Wolf Group",
+  "Description": "Expanded impactful support",
+  "IncludeId": "laborum",
+  "AccessKey": "possimus",
+  "HierarchyId": 443,
+  "Source": "mollitia",
+  "SourceCode": "a",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 585,
+  "HtmlOutput": 403,
   "Includes": [
-    414,
-    438
+    340,
+    791
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 495,
-      "LineNumberTo": 26,
-      "Delta": 733,
-      "IncludeId": "deserunt",
+      "LineNumberFrom": 820,
+      "LineNumberTo": 572,
+      "Delta": 781,
+      "IncludeId": "sed",
       "IncludedFrom": [
-        "laboriosam",
-        "aut"
+        "neque",
+        "delectus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 360
+          "FieldLength": 20
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2023-12-25T03:46:54.5663888+01:00",
-  "RegisteredAssociateId": 841,
-  "Updated": "2004-12-01T03:46:54.5663888+01:00",
-  "UpdatedAssociateId": 725,
+  "Registered": "2015-10-07T03:41:53.3401161+02:00",
+  "RegisteredAssociateId": 374,
+  "Updated": "2006-01-11T03:41:53.3401161+01:00",
+  "UpdatedAssociateId": 142,
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 839
+      "FieldType": "System.Int32",
+      "FieldLength": 331
     }
   }
 }

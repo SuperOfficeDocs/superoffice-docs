@@ -81,20 +81,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 229,
-    "Name": "Koch Inc and Sons",
-    "Tooltip": "quia",
-    "Deleted": false,
-    "Rank": 585,
-    "UdListDefinitionId": 208
+    "HeadingId": 500,
+    "Name": "Boyer-Borer",
+    "Tooltip": "totam",
+    "Deleted": true,
+    "Rank": 790,
+    "UdListDefinitionId": 993
   },
   {
-    "HeadingId": 229,
-    "Name": "Koch Inc and Sons",
-    "Tooltip": "quia",
-    "Deleted": false,
-    "Rank": 585,
-    "UdListDefinitionId": 208
+    "HeadingId": 500,
+    "Name": "Boyer-Borer",
+    "Tooltip": "totam",
+    "Deleted": true,
+    "Rank": 790,
+    "UdListDefinitionId": 993
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 336,
-    "Name": "Corkery Group",
-    "Tooltip": "saepe",
+    "HeadingId": 634,
+    "Name": "Monahan-Jacobi",
+    "Tooltip": "quod",
     "Deleted": true,
-    "Rank": 326,
-    "UdListDefinitionId": 842,
+    "Rank": 947,
+    "UdListDefinitionId": 383,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 672
+        "FieldType": "System.Int32",
+        "FieldLength": 555
       }
     }
   }

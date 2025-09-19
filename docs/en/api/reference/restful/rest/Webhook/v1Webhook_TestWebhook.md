@@ -84,28 +84,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 199,
-  "Name": "Boehm, Senger and Mosciski",
+  "WebhookId": 729,
+  "Name": "Dare, Schimmel and Bernier",
   "Events": [
-    "id",
-    "et"
+    "sequi",
+    "distinctio"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "necessitatibus",
+  "Secret": "quam",
   "State": "Active",
-  "Type": "debitis",
+  "Type": "qui",
   "Headers": {
-    "Headers1": "accusantium",
-    "Headers2": "illo"
+    "Headers1": "quibusdam",
+    "Headers2": "aut"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2024-07-11T03:47:00.5505518+02:00",
+  "Registered": "2006-12-25T03:41:59.3242422+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2006-03-20T03:47:00.5505518+01:00",
+  "Updated": "2007-11-24T03:41:59.3242422+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "friedrich@johnsonzulauf.com"
+  "ErrorsEmail": "dulce@rohanhagenes.ca"
 }
 ```
 
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "commodi",
+  "Success": true,
+  "Message": "dignissimos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 433
+      "FieldLength": 587
     }
   }
 }

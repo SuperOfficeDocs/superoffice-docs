@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/User/FindRolesWithoutFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Jacobson LLC",
-    "Orn, Runolfsson and Jacobi"
+    "Donnelly, Davis and Lehner",
+    "Moore-Bednar"
   ]
 }
 ```
@@ -92,7 +92,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  592,
-  605
+  724,
+  15
 ]
 ```

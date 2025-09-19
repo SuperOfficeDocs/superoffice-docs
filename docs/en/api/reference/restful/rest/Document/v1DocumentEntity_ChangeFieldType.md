@@ -31,7 +31,7 @@ Change a DocumentEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -105,7 +105,7 @@ DocumentEntity found.
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -115,46 +115,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 371,
-  "ColumnId": 483,
-  "FieldDefault": "in",
-  "FieldHeight": 293,
-  "FieldLabel": "et",
-  "FieldLeft": 869,
-  "FieldTop": 991,
+  "UDefFieldId": 520,
+  "ColumnId": 789,
+  "FieldDefault": "hic",
+  "FieldHeight": 116,
+  "FieldLabel": "in",
+  "FieldLeft": 741,
+  "FieldTop": 725,
   "FieldType": "Checkbox",
-  "FieldWidth": 926,
-  "FormatMask": "quidem",
-  "HideLabel": false,
+  "FieldWidth": 451,
+  "FormatMask": "molestiae",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 456,
-  "LabelLeft": 738,
-  "LabelTop": 34,
-  "LabelWidth": 406,
-  "LastVersionId": 381,
-  "ListTableId": 18,
+  "LabelHeight": 950,
+  "LabelLeft": 44,
+  "LabelTop": 128,
+  "LabelWidth": 394,
+  "LastVersionId": 209,
+  "ListTableId": 711,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 143,
-  "ProgId": "repellat",
+  "Page1LineNo": 534,
+  "ProgId": "consequatur",
   "IsReadOnly": false,
-  "ShortLabel": "officia",
-  "TabOrder": 368,
-  "TextLength": 98,
-  "Tooltip": "sed",
-  "UdefIdentity": 877,
-  "UDListDefinitionId": 375,
+  "ShortLabel": "voluptatum",
+  "TabOrder": 281,
+  "TextLength": 382,
+  "Tooltip": "excepturi",
+  "UdefIdentity": 794,
+  "UDListDefinitionId": 629,
   "Justification": "Center",
-  "Version": 918,
-  "TemplateVariableName": "Kemmer-Greenholt",
-  "HasBeenPublished": true,
-  "MdoListName": "Flatley, Rohan and Yundt",
+  "Version": 10,
+  "TemplateVariableName": "Thiel LLC",
+  "HasBeenPublished": false,
+  "MdoListName": "Mante, Gorczany and Cummings",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 72
+      "FieldLength": 812
     }
   }
 }

@@ -31,7 +31,7 @@ Change a PersonEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -115,46 +115,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 200,
-  "ColumnId": 241,
-  "FieldDefault": "veritatis",
-  "FieldHeight": 935,
-  "FieldLabel": "sint",
-  "FieldLeft": 535,
-  "FieldTop": 497,
+  "UDefFieldId": 903,
+  "ColumnId": 774,
+  "FieldDefault": "dicta",
+  "FieldHeight": 602,
+  "FieldLabel": "voluptatum",
+  "FieldLeft": 912,
+  "FieldTop": 731,
   "FieldType": "Checkbox",
-  "FieldWidth": 912,
-  "FormatMask": "laboriosam",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 772,
-  "LabelLeft": 956,
-  "LabelTop": 393,
-  "LabelWidth": 334,
-  "LastVersionId": 412,
-  "ListTableId": 252,
+  "FieldWidth": 882,
+  "FormatMask": "quod",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 804,
+  "LabelLeft": 811,
+  "LabelTop": 758,
+  "LabelWidth": 601,
+  "LastVersionId": 304,
+  "ListTableId": 139,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 677,
-  "ProgId": "repellat",
+  "Page1LineNo": 304,
+  "ProgId": "qui",
   "IsReadOnly": false,
-  "ShortLabel": "dignissimos",
-  "TabOrder": 850,
-  "TextLength": 449,
-  "Tooltip": "omnis",
-  "UdefIdentity": 648,
-  "UDListDefinitionId": 52,
+  "ShortLabel": "sint",
+  "TabOrder": 842,
+  "TextLength": 561,
+  "Tooltip": "et",
+  "UdefIdentity": 942,
+  "UDListDefinitionId": 829,
   "Justification": "Center",
-  "Version": 182,
-  "TemplateVariableName": "Fisher Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Bosco Inc and Sons",
+  "Version": 887,
+  "TemplateVariableName": "Schulist, Mills and Hilll",
+  "HasBeenPublished": false,
+  "MdoListName": "VonRueden Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldLength": 480
     }
   }
 }

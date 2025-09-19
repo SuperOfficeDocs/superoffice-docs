@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 27,
-    "Name": "Wehner-Morar",
-    "ToolTip": "Amet cum odit vitae maxime.",
-    "Deleted": true,
-    "Rank": 895,
-    "Type": "eum",
-    "ColorBlock": 928,
-    "IconHint": "placeat",
+    "Id": 345,
+    "Name": "Rowe-Bode",
+    "ToolTip": "Quas voluptatem id a dicta fugiat accusantium.",
+    "Deleted": false,
+    "Rank": 484,
+    "Type": "aut",
+    "ColorBlock": 760,
+    "IconHint": "veniam",
     "Selected": true,
-    "LastChanged": "2024-12-24T03:47:00.8005429+01:00",
+    "LastChanged": "2015-12-28T03:41:59.5898538+01:00",
     "ChildItems": [
       {
-        "Id": 764,
-        "Name": "Erdman-Kerluke",
-        "ToolTip": "Et adipisci tempora modi.",
+        "Id": 433,
+        "Name": "DuBuque, Shanahan and Nienow",
+        "ToolTip": "Laboriosam veniam.",
         "Deleted": false,
-        "Rank": 93,
-        "Type": "numquam",
-        "ColorBlock": 631,
-        "IconHint": "et",
+        "Rank": 867,
+        "Type": "repellendus",
+        "ColorBlock": 895,
+        "IconHint": "tempore",
         "Selected": false,
-        "LastChanged": "2005-08-19T03:47:00.8005429+02:00",
+        "LastChanged": "2011-03-02T03:41:59.5898538+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "in",
-        "StyleHint": "earum",
-        "Hidden": true,
-        "FullName": "Olaf McGlynn",
+        "ExtraInfo": "accusamus",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Mr. Clifford Boyle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 938
+            "FieldType": "System.String",
+            "FieldLength": 2
           }
         }
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "dolore",
-    "Hidden": true,
-    "FullName": "Garnet Murray PhD",
+    "ExtraInfo": "non",
+    "StyleHint": "necessitatibus",
+    "Hidden": false,
+    "FullName": "Demond Osinski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 459
+        "FieldLength": 108
       }
     }
   }

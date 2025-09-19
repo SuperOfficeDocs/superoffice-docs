@@ -70,7 +70,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,24 +78,24 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 02 Oct 2014 03:47:00 G10T
+Last-Modified: Tue, 29 Oct 2024 03:41:58 G10T
 
 {
-  "ForeignDeviceId": 137,
-  "Name": "Purdy Inc and Sons",
-  "CreatedDate": "2006-05-25T03:47:00.0349452+02:00",
-  "UpdatedDate": "2014-10-02T03:47:00.0349452+02:00",
-  "AssociateFullName": "Prof. Tobin Beahan Jr.",
-  "CreatedBy": "et",
-  "UpdatedBy": "ut",
-  "DeviceIdentifier": "exercitationem",
-  "ForeignAppId": 858,
+  "ForeignDeviceId": 513,
+  "Name": "Ryan Group",
+  "CreatedDate": "2023-07-19T03:41:58.7617712+02:00",
+  "UpdatedDate": "2024-10-29T03:41:58.7617712+01:00",
+  "AssociateFullName": "Lauren Doyle Quigley PhD",
+  "CreatedBy": "nostrum",
+  "UpdatedBy": "officiis",
+  "DeviceIdentifier": "veritatis",
+  "ForeignAppId": 769,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 817
+      "FieldType": "System.String",
+      "FieldLength": 30
     }
   }
 }

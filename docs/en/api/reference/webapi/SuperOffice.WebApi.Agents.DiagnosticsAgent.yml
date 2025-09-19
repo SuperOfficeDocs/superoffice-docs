@@ -24,6 +24,7 @@ items:
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.GetSystemMessagesAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.GetWebAppUsagesForPeriodAsync(System.DateTime,System.DateTime,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.LogViewStateAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterUpgradeAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.DiagnosticsAgent.RemoveExpiredSystemMessagesAsync(SuperOffice.WebApi.RequestOptions)
@@ -862,6 +863,41 @@ items:
   overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterUpgradeAsync*
   implements:
   - SuperOffice.WebApi.Agents.IDiagnosticsAgent.PerformTasksAfterUpgradeAsync(SuperOffice.WebApi.RequestOptions)
+- uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  id: PerformTasksAfterCustomObjectTableCreatedAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.DiagnosticsAgent
+  langs:
+  - csharp
+  - vb
+  name: PerformTasksAfterCustomObjectTableCreatedAsync(string, RequestOptions)
+  nameWithType: DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(string, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: A temporary method to be used from c++ until CustomObjectsAgent.CreateTable implemented in NetServer
+  example: []
+  syntax:
+    content: public Task PerformTasksAfterCustomObjectTableCreatedAsync(string tableName, RequestOptions requestOptions = null)
+    parameters:
+    - id: tableName
+      type: System.String
+      description: Name of DB table of the custom object that was created. E.g., 'y_car'
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function PerformTasksAfterCustomObjectTableCreatedAsync(tableName As String, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(String, SuperOffice.WebApi.RequestOptions)
+  name.vb: PerformTasksAfterCustomObjectTableCreatedAsync(String, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(System.String,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterCustomObjectTableDeletedAsync(System.String,SuperOffice.WebApi.RequestOptions)
   id: PerformTasksAfterCustomObjectTableDeletedAsync(System.String,SuperOffice.WebApi.RequestOptions)
@@ -3683,6 +3719,58 @@ references:
     isExternal: true
     href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_PerformTasksAfterUpgradeAsync_SuperOffice_WebApi_RequestOptions_
   - name: (
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.DiagnosticsAgent.html#SuperOffice_WebApi_Agents_DiagnosticsAgent_PerformTasksAfterCustomObjectTableCreatedAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  name: PerformTasksAfterCustomObjectTableCreatedAsync
+  nameWithType: DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync
+  fullName: SuperOffice.WebApi.Agents.DiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync
+- uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(System.String,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IDiagnosticsAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_PerformTasksAfterCustomObjectTableCreatedAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  name: PerformTasksAfterCustomObjectTableCreatedAsync(string, RequestOptions)
+  nameWithType: IDiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(string, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(string, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IDiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(String, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(String, SuperOffice.WebApi.RequestOptions)
+  name.vb: PerformTasksAfterCustomObjectTableCreatedAsync(String, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: PerformTasksAfterCustomObjectTableCreatedAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_PerformTasksAfterCustomObjectTableCreatedAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IDiagnosticsAgent.PerformTasksAfterCustomObjectTableCreatedAsync(System.String,SuperOffice.WebApi.RequestOptions)
+    name: PerformTasksAfterCustomObjectTableCreatedAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IDiagnosticsAgent.html#SuperOffice_WebApi_Agents_IDiagnosticsAgent_PerformTasksAfterCustomObjectTableCreatedAsync_System_String_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
   - uid: SuperOffice.WebApi.RequestOptions
     name: RequestOptions
     isExternal: true

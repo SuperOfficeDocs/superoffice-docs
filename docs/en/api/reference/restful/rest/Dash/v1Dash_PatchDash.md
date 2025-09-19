@@ -121,18 +121,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eaque",
+    "path": "accusamus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eaque",
+    "path": "accusamus",
     "value": {}
   }
 ]
@@ -145,37 +145,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 548,
-  "UniqueId": "sit",
-  "Name": "Brekke Inc and Sons",
-  "Description": "Distributed cohesive circuit",
-  "AssociateId": 475,
-  "Columns": 362,
+  "DashboardId": 433,
+  "UniqueId": "ea",
+  "Name": "Stehr-Bins",
+  "Description": "Implemented systemic forecast",
+  "AssociateId": 311,
+  "Columns": 326,
   "Theme": null,
-  "VisibleForAll": 623,
+  "VisibleForAll": 363,
   "VisibleForAssociates": [
-    356,
-    846
+    644,
+    69
   ],
   "VisibleForGroups": [
-    970,
-    89
+    406,
+    394
   ],
-  "PinForAll": 371,
+  "PinForAll": 567,
   "PinForAssociates": [
-    440,
-    819
+    466,
+    220
   ],
   "PinForGroups": [
-    181,
-    58
+    282,
+    357
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 976
+      "FieldLength": 604
     }
   },
   "_Links": {

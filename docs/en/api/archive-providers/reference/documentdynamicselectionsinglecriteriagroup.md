@@ -720,7 +720,7 @@ Document selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentDynamicSelectionSingleCriteriaGroup?$select=person/kanaFirstName,person/correspondingAssociate/assocName,contact/contactUdef/SuperOffice:4,contact/contactUdef/SuperOffice:11,project/registeredBy
+GET /api/v1/archive/DocumentDynamicSelectionSingleCriteriaGroup?$select=registeredBy,person/supportAssociateFullName,person/personAssociateFullName,person/createdByForm,person/personDirectPhone/formattedNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

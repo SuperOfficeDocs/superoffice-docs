@@ -163,7 +163,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/mailingfavourites?$select=project/text,project/projectUrl/URLDescription
+GET /api/v1/archive/mailingfavourites?$select=mailingDeleted,project/imageThumbnail,project/projectAssociate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

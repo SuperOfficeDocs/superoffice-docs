@@ -89,7 +89,7 @@ OK
 GET /api/v1/Document/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 517,
-    "ColumnId": 158,
-    "FieldDefault": "dolore",
-    "FieldHeight": 426,
-    "FieldLabel": "necessitatibus",
-    "FieldLeft": 549,
-    "FieldTop": 931,
+    "UDefFieldId": 934,
+    "ColumnId": 710,
+    "FieldDefault": "aut",
+    "FieldHeight": 847,
+    "FieldLabel": "corrupti",
+    "FieldLeft": 767,
+    "FieldTop": 798,
     "FieldType": "Checkbox",
-    "FieldWidth": 561,
-    "FormatMask": "provident",
+    "FieldWidth": 28,
+    "FormatMask": "et",
     "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 214,
-    "LabelLeft": 503,
-    "LabelTop": 554,
-    "LabelWidth": 818,
-    "LastVersionId": 137,
-    "ListTableId": 530,
+    "IsIndexed": false,
+    "LabelHeight": 430,
+    "LabelLeft": 825,
+    "LabelTop": 550,
+    "LabelWidth": 365,
+    "LastVersionId": 421,
+    "ListTableId": 70,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 484,
-    "ProgId": "amet",
+    "Page1LineNo": 808,
+    "ProgId": "et",
     "IsReadOnly": false,
-    "ShortLabel": "repellendus",
-    "TabOrder": 552,
-    "TextLength": 841,
-    "Tooltip": "consequuntur",
-    "UdefIdentity": 632,
-    "UDListDefinitionId": 426,
+    "ShortLabel": "velit",
+    "TabOrder": 914,
+    "TextLength": 306,
+    "Tooltip": "eaque",
+    "UdefIdentity": 991,
+    "UDListDefinitionId": 661,
     "Justification": "Center",
-    "Version": 116,
-    "TemplateVariableName": "Boyer, Sporer and Rosenbaum",
-    "HasBeenPublished": false,
-    "MdoListName": "Muller, Lowe and Cormier",
+    "Version": 369,
+    "TemplateVariableName": "Gusikowski-Koelpin",
+    "HasBeenPublished": true,
+    "MdoListName": "Stoltenberg Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 551
+        "FieldType": "System.String",
+        "FieldLength": 355
       }
     }
   }

@@ -56,7 +56,7 @@ This table will hold outgoing sms messages when transmitted with WebServices
 |[ej\_message](ej-message.md)  |This table contains the messages listed under tickets. |
 |[outbox](outbox.md)  |Outgoing emails with sending status and other info |
 |[outgoing\_message](outgoing-message.md)  |Delivery of outgoing messages to messageplugins, updated with status asynchroneously |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 |[s\_shipment](s-shipment.md)  |Contains info about one shipment. The addresses are stored in s_shipment_addr |
 
 

@@ -77,11 +77,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 873,
-  "AssociateId": 969,
+  "DocumentId": 407,
+  "AssociateId": 405,
   "CustomTags": {
-    "CustomTags1": "molestiae",
-    "CustomTags2": "aut"
+    "CustomTags1": "amet",
+    "CustomTags2": "reiciendis"
   }
 }
 ```

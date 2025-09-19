@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 402,
-    "Name": "Wolf-Kirlin",
-    "Tooltip": "iure",
+    "Id": 379,
+    "Name": "Muller-Gislason",
+    "Tooltip": "nulla",
     "Deleted": false,
-    "UdListDefinitionId": 517,
-    "Rank": 859,
+    "UdListDefinitionId": 499,
+    "Rank": 955,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 266
+        "FieldLength": 478
       }
     }
   }

@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 252,
-  "Name": "Fisher-Towne",
-  "Tooltip": "aperiam",
+  "Id": 717,
+  "Name": "McGlynn, Hahn and Wiza",
+  "Tooltip": "expedita",
   "Deleted": true,
-  "UdListDefinitionId": 37,
-  "Rank": 210,
+  "UdListDefinitionId": 754,
+  "Rank": 349,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 975
+      "FieldLength": 934
     }
   }
 }

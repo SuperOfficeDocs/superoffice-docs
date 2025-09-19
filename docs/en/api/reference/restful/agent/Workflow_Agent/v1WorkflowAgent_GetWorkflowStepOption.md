@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowStepOptionId": 756
+  "WorkflowStepOptionId": 697
 }
 ```
 
@@ -94,23 +94,23 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OptionType": "FormData",
-  "WorkflowStepOptionId": 24,
-  "WorkflowStepId": 121,
-  "WorkflowId": 447,
-  "Name": "O'Hara-Erdman",
-  "Rank": 782,
+  "WorkflowStepOptionId": 516,
+  "WorkflowStepId": 939,
+  "WorkflowId": 191,
+  "Name": "Robel Group",
+  "Rank": 925,
   "Steps": [
     {
-      "WorkflowStepId": 599,
-      "WorkflowId": 349,
+      "WorkflowStepId": 22,
+      "WorkflowId": 814,
       "StepType": "AddToList",
-      "Rank": 346
+      "Rank": 987
     },
     {
-      "WorkflowStepId": 599,
-      "WorkflowId": 349,
+      "WorkflowStepId": 22,
+      "WorkflowId": 814,
       "StepType": "AddToList",
-      "Rank": 346
+      "Rank": 987
     }
   ]
 }

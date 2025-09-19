@@ -103,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 93,
-    "Name": "Bergstrom Group",
-    "ToolTip": "Beatae eligendi et.",
-    "Deleted": true,
-    "Rank": 71,
-    "Type": "facere",
-    "ColorBlock": 465,
-    "IconHint": "facilis",
+    "Id": 945,
+    "Name": "Bartoletti-Cruickshank",
+    "ToolTip": "Nam veniam accusantium est non nemo officiis.",
+    "Deleted": false,
+    "Rank": 409,
+    "Type": "quibusdam",
+    "ColorBlock": 62,
+    "IconHint": "quae",
     "Selected": false,
-    "LastChanged": "2022-07-15T03:47:00.6755475+02:00",
+    "LastChanged": "2022-01-08T03:41:59.4336101+01:00",
     "ChildItems": [
       {
-        "Id": 274,
-        "Name": "Torphy-Johnson",
-        "ToolTip": "Velit nesciunt fugiat possimus non.",
-        "Deleted": true,
-        "Rank": 438,
-        "Type": "ut",
-        "ColorBlock": 823,
-        "IconHint": "similique",
-        "Selected": true,
-        "LastChanged": "2022-11-26T03:47:00.6755475+01:00",
+        "Id": 134,
+        "Name": "Schroeder Group",
+        "ToolTip": "Officia vel autem dolorem qui.",
+        "Deleted": false,
+        "Rank": 793,
+        "Type": "libero",
+        "ColorBlock": 692,
+        "IconHint": "quaerat",
+        "Selected": false,
+        "LastChanged": "2024-02-26T03:41:59.4336101+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "impedit",
-        "Hidden": false,
-        "FullName": "Rollin O'Conner"
+        "ExtraInfo": "voluptas",
+        "StyleHint": "consequuntur",
+        "Hidden": true,
+        "FullName": "Miss Erwin Macejkovic I"
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "dicta",
+    "ExtraInfo": "eius",
+    "StyleHint": "consequatur",
     "Hidden": true,
-    "FullName": "Raphaelle Kertzmann"
+    "FullName": "Zoie Boyer"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 34,
-    "Name": "Jacobs, Schneider and Krajcik",
-    "ToolTip": "Omnis inventore id reprehenderit perferendis reprehenderit a.",
+    "Id": 327,
+    "Name": "Orn LLC",
+    "ToolTip": "Omnis consectetur modi voluptatem autem ad sed sequi.",
     "Deleted": true,
-    "Rank": 670,
-    "Type": "vel",
-    "ColorBlock": 94,
-    "IconHint": "quam",
-    "Selected": false,
-    "LastChanged": "2009-05-03T03:47:00.6755475+02:00",
+    "Rank": 174,
+    "Type": "laudantium",
+    "ColorBlock": 746,
+    "IconHint": "optio",
+    "Selected": true,
+    "LastChanged": "2002-11-04T03:41:59.4336101+01:00",
     "ChildItems": [
       {
-        "Id": 876,
-        "Name": "Harvey-Schuppe",
-        "ToolTip": "Consequuntur quisquam laudantium cumque beatae doloremque recusandae et.",
+        "Id": 441,
+        "Name": "Prohaska LLC",
+        "ToolTip": "Autem facilis quis amet.",
         "Deleted": false,
-        "Rank": 303,
-        "Type": "consequatur",
-        "ColorBlock": 435,
-        "IconHint": "ut",
+        "Rank": 970,
+        "Type": "officia",
+        "ColorBlock": 652,
+        "IconHint": "a",
         "Selected": false,
-        "LastChanged": "2004-06-06T03:47:00.6755475+02:00",
+        "LastChanged": "2002-08-11T03:41:59.4336101+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "at",
+        "ExtraInfo": "vel",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Lyric Wuckert",
+        "FullName": "Issac Hauck",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 263
+            "FieldLength": 583
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "beatae",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Eugenia Blanda V",
+    "FullName": "Mrs. Abelardo Konopelski DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 674
+        "FieldType": "System.String",
+        "FieldLength": 411
       }
     }
   }

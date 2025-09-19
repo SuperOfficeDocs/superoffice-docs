@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,37 +78,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 558,
-  "UniqueId": "officiis",
-  "Name": "Russel-Gottlieb",
-  "Description": "Pre-emptive bi-directional access",
-  "AssociateId": 164,
-  "Columns": 162,
+  "DashboardId": 138,
+  "UniqueId": "qui",
+  "Name": "Feil, Goodwin and Koepp",
+  "Description": "Re-contextualized dedicated methodology",
+  "AssociateId": 975,
+  "Columns": 655,
   "Theme": null,
-  "VisibleForAll": 262,
+  "VisibleForAll": 243,
   "VisibleForAssociates": [
-    476,
-    825
+    443,
+    166
   ],
   "VisibleForGroups": [
-    556,
-    896
+    291,
+    515
   ],
-  "PinForAll": 284,
+  "PinForAll": 729,
   "PinForAssociates": [
-    369,
-    645
+    773,
+    140
   ],
   "PinForGroups": [
-    962,
-    341
+    401,
+    483
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldType": "System.String",
+      "FieldLength": 119
     }
   }
 }

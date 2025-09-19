@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 858,
-  "OnlyOpenSales": true
+  "PersonId": 414,
+  "OnlyOpenSales": false
 }
 ```
 
@@ -116,37 +116,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Breitenberg LLC",
-    "SaleDate": "2004-11-28T03:46:55.285132+01:00",
-    "SaleId": 350,
-    "Probability": 857,
-    "Title": "ad",
-    "Amount": 10762.155999999999,
-    "Currency": "illo",
-    "ProjectName": "Johns-Bechtelar",
-    "AssociateFullName": "Melvina White",
-    "Description": "Customizable clear-thinking flexibility",
+    "ContactName": "Jast-Lynch",
+    "SaleDate": "2023-11-14T03:41:54.0119629+01:00",
+    "SaleId": 986,
+    "Probability": 713,
+    "Title": "a",
+    "Amount": 24241.489999999998,
+    "Currency": "animi",
+    "ProjectName": "Schiller, Wintheiser and Franecki",
+    "AssociateFullName": "Ms. Laurine Dorthy Haag I",
+    "Description": "Synergistic user-facing structure",
     "Status": "Lost",
-    "WeightedAmount": 25908.778,
-    "ProjectId": 159,
-    "EarningPercent": 13695.58,
-    "Earning": 607.996,
-    "ContactId": 395,
-    "AssociateId": 373,
-    "PersonId": 573,
-    "SaleTypeId": 758,
-    "SaleTypeName": "Heidenreich Group",
-    "PersonFullName": "Eva DuBuque",
+    "WeightedAmount": 15901.916,
+    "ProjectId": 103,
+    "EarningPercent": 3967.644,
+    "Earning": 5020.668,
+    "ContactId": 92,
+    "AssociateId": 879,
+    "PersonId": 104,
+    "SaleTypeId": 662,
+    "SaleTypeName": "Herman Group",
+    "PersonFullName": "Bailee Aniyah Prohaska III",
     "Completed": "Completed",
-    "ActiveErpLinks": 945,
-    "NextDueDate": "2014-03-18T03:46:55.285132+01:00",
-    "Number": "1014967",
+    "ActiveErpLinks": 133,
+    "NextDueDate": "2013-06-15T03:41:54.0119629+02:00",
+    "Number": "388911",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 993
+        "FieldType": "System.String",
+        "FieldLength": 463
       }
     }
   }

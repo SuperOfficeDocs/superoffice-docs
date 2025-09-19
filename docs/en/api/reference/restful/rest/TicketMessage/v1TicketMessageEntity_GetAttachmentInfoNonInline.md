@@ -67,7 +67,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment/Noninline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,20 +78,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 352,
-    "Name": "Pouros Group",
+    "AttachmentId": 857,
+    "Name": "Gutmann, Reichert and Schmitt",
     "ContentType": "non",
-    "AttSize": 205,
-    "InlineImage": true,
-    "ContentId": "quidem",
-    "AuthKey": "delectus",
-    "IsSafeFileExtension": false,
+    "AttSize": 80,
+    "InlineImage": false,
+    "ContentId": "voluptas",
+    "AuthKey": "et",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 757
+        "FieldType": "System.String",
+        "FieldLength": 235
       }
     }
   }

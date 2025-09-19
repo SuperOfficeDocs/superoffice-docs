@@ -24,6 +24,7 @@ items:
   - SuperOffice.SoCoreClaimsPrincipalExtensions.GetGroupId(System.Security.Claims.ClaimsPrincipal)
   - SuperOffice.SoCoreClaimsPrincipalExtensions.GetHomeCountryId(System.Security.Claims.ClaimsPrincipal)
   - SuperOffice.SoCoreClaimsPrincipalExtensions.GetIsPerson(System.Security.Claims.ClaimsPrincipal)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.GetLicenses(System.Security.Claims.ClaimsPrincipal)
   - SuperOffice.SoCoreClaimsPrincipalExtensions.GetPersonId(System.Security.Claims.ClaimsPrincipal)
   - SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleDescription(System.Security.Claims.ClaimsPrincipal)
   - SuperOffice.SoCoreClaimsPrincipalExtensions.GetRoleId(System.Security.Claims.ClaimsPrincipal)
@@ -33,6 +34,8 @@ items:
   - SuperOffice.SoCoreClaimsPrincipalExtensions.GetUserName(System.Security.Claims.ClaimsPrincipal)
   - SuperOffice.SoCoreClaimsPrincipalExtensions.GetUserType(System.Security.Claims.ClaimsPrincipal)
   - SuperOffice.SoCoreClaimsPrincipalExtensions.HasFunctionRight(System.Security.Claims.ClaimsPrincipal,System.String)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.HasLicense(System.Security.Claims.ClaimsPrincipal,System.String)
+  - SuperOffice.SoCoreClaimsPrincipalExtensions.HasLicense(System.Security.Claims.ClaimsPrincipal,System.String,System.String)
   - SuperOffice.SoCoreClaimsPrincipalExtensions.IsSameUser(System.Security.Claims.ClaimsPrincipal,System.Security.Claims.ClaimsPrincipal)
   - SuperOffice.SoCoreClaimsPrincipalExtensions.IsValid(System.Security.Claims.ClaimsPrincipal)
   - SuperOffice.SoCoreClaimsPrincipalExtensions.SetCachedItem``1(System.Security.Claims.ClaimsPrincipal,System.String,``0,System.Double)
@@ -690,6 +693,90 @@ items:
       type: System.Int32[]
     content.vb: Public Shared Function GetSecondaryGroups(claimsPrincipal As ClaimsPrincipal) As Integer()
   overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetSecondaryGroups*
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.HasLicense(System.Security.Claims.ClaimsPrincipal,System.String)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.HasLicense(System.Security.Claims.ClaimsPrincipal,System.String)
+  id: HasLicense(System.Security.Claims.ClaimsPrincipal,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: HasLicense(ClaimsPrincipal, string)
+  nameWithType: SoCoreClaimsPrincipalExtensions.HasLicense(ClaimsPrincipal, string)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.HasLicense(System.Security.Claims.ClaimsPrincipal, string)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static bool HasLicense(this ClaimsPrincipal claimsPrincipal, string licenseName)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    - id: licenseName
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function HasLicense(claimsPrincipal As ClaimsPrincipal, licenseName As String) As Boolean
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.HasLicense*
+  nameWithType.vb: SoCoreClaimsPrincipalExtensions.HasLicense(ClaimsPrincipal, String)
+  fullName.vb: SuperOffice.SoCoreClaimsPrincipalExtensions.HasLicense(System.Security.Claims.ClaimsPrincipal, String)
+  name.vb: HasLicense(ClaimsPrincipal, String)
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.HasLicense(System.Security.Claims.ClaimsPrincipal,System.String,System.String)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.HasLicense(System.Security.Claims.ClaimsPrincipal,System.String,System.String)
+  id: HasLicense(System.Security.Claims.ClaimsPrincipal,System.String,System.String)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: HasLicense(ClaimsPrincipal, string, string)
+  nameWithType: SoCoreClaimsPrincipalExtensions.HasLicense(ClaimsPrincipal, string, string)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.HasLicense(System.Security.Claims.ClaimsPrincipal, string, string)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static bool HasLicense(this ClaimsPrincipal claimsPrincipal, string moduleOwner, string licenseName)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    - id: moduleOwner
+      type: System.String
+    - id: licenseName
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function HasLicense(claimsPrincipal As ClaimsPrincipal, moduleOwner As String, licenseName As String) As Boolean
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.HasLicense*
+  nameWithType.vb: SoCoreClaimsPrincipalExtensions.HasLicense(ClaimsPrincipal, String, String)
+  fullName.vb: SuperOffice.SoCoreClaimsPrincipalExtensions.HasLicense(System.Security.Claims.ClaimsPrincipal, String, String)
+  name.vb: HasLicense(ClaimsPrincipal, String, String)
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetLicenses(System.Security.Claims.ClaimsPrincipal)
+  commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.GetLicenses(System.Security.Claims.ClaimsPrincipal)
+  id: GetLicenses(System.Security.Claims.ClaimsPrincipal)
+  isExtensionMethod: true
+  parent: SuperOffice.SoCoreClaimsPrincipalExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetLicenses(ClaimsPrincipal)
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetLicenses(ClaimsPrincipal)
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetLicenses(System.Security.Claims.ClaimsPrincipal)
+  type: Method
+  assemblies:
+  - SoCore
+  namespace: SuperOffice
+  syntax:
+    content: public static HashSet<string> GetLicenses(this ClaimsPrincipal claimsPrincipal)
+    parameters:
+    - id: claimsPrincipal
+      type: System.Security.Claims.ClaimsPrincipal
+    return:
+      type: System.Collections.Generic.HashSet{System.String}
+    content.vb: Public Shared Function GetLicenses(claimsPrincipal As ClaimsPrincipal) As HashSet(Of String)
+  overload: SuperOffice.SoCoreClaimsPrincipalExtensions.GetLicenses*
 - uid: SuperOffice.SoCoreClaimsPrincipalExtensions.IsSameUser(System.Security.Claims.ClaimsPrincipal,System.Security.Claims.ClaimsPrincipal)
   commentId: M:SuperOffice.SoCoreClaimsPrincipalExtensions.IsSameUser(System.Security.Claims.ClaimsPrincipal,System.Security.Claims.ClaimsPrincipal)
   id: IsSameUser(System.Security.Claims.ClaimsPrincipal,System.Security.Claims.ClaimsPrincipal)
@@ -1539,6 +1626,120 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.int32
   - name: (
   - name: )
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.HasLicense*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.HasLicense
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_HasLicense_System_Security_Claims_ClaimsPrincipal_System_String_
+  name: HasLicense
+  nameWithType: SoCoreClaimsPrincipalExtensions.HasLicense
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.HasLicense
+- uid: SuperOffice.SoCoreClaimsPrincipalExtensions.GetLicenses*
+  commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.GetLicenses
+  isExternal: true
+  href: SuperOffice.SoCoreClaimsPrincipalExtensions.html#SuperOffice_SoCoreClaimsPrincipalExtensions_GetLicenses_System_Security_Claims_ClaimsPrincipal_
+  name: GetLicenses
+  nameWithType: SoCoreClaimsPrincipalExtensions.GetLicenses
+  fullName: SuperOffice.SoCoreClaimsPrincipalExtensions.GetLicenses
+- uid: System.Collections.Generic.HashSet{System.String}
+  commentId: T:System.Collections.Generic.HashSet{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.HashSet`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  name: HashSet<string>
+  nameWithType: HashSet<string>
+  fullName: System.Collections.Generic.HashSet<string>
+  nameWithType.vb: HashSet(Of String)
+  fullName.vb: System.Collections.Generic.HashSet(Of String)
+  name.vb: HashSet(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: <
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: System.Collections.Generic.HashSet`1
+  commentId: T:System.Collections.Generic.HashSet`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  name: HashSet<T>
+  nameWithType: HashSet<T>
+  fullName: System.Collections.Generic.HashSet<T>
+  nameWithType.vb: HashSet(Of T)
+  fullName.vb: System.Collections.Generic.HashSet(Of T)
+  name.vb: HashSet(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.HashSet`1
+    name: HashSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.hashset-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
 - uid: SuperOffice.SoCoreClaimsPrincipalExtensions.IsSameUser*
   commentId: Overload:SuperOffice.SoCoreClaimsPrincipalExtensions.IsSameUser
   isExternal: true

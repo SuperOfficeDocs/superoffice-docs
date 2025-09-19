@@ -77,22 +77,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "non",
+  "RawValue": "consectetur",
   "Specification": null,
-  "DisplayValue": "et",
-  "DisplayTooltip": "iste",
+  "DisplayValue": "inventore",
+  "DisplayTooltip": "dolor",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 415,
-  "PrefDescId": 339,
-  "TableName": "Denesik-VonRueden",
-  "UserPreferenceId": 735,
+  "TargetId": 268,
+  "PrefDescId": 243,
+  "TableName": "Senger LLC",
+  "UserPreferenceId": 587,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 668
+      "FieldLength": 133
     }
   }
 }

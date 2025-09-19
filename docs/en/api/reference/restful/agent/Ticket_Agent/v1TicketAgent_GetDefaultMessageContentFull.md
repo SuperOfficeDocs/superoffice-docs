@@ -80,10 +80,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 867,
+  "TicketId": 418,
   "MessageActionType": "Forward",
-  "TicketMessageId": 703,
-  "TicketTypeId": 271
+  "TicketMessageId": 533,
+  "TicketTypeId": 62
 }
 ```
 
@@ -94,23 +94,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "nisi",
+  "Body": "facere",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 747,
-      "Name": "Vandervort, Rath and Koepp",
-      "ContentType": "quasi",
-      "AttSize": 244,
+      "AttachmentId": 264,
+      "Name": "Miller, Ratke and Wehner",
+      "ContentType": "qui",
+      "AttSize": 120,
       "InlineImage": false,
-      "ContentId": "dolorem",
-      "AuthKey": "similique",
-      "IsSafeFileExtension": false,
+      "ContentId": "minus",
+      "AuthKey": "neque",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 183
+          "FieldLength": 383
         }
       }
     }

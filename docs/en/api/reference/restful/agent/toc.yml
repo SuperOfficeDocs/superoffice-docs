@@ -235,6 +235,8 @@ items:
     href: Appointment_Agent/v1AppointmentAgent_GetTaskListItems.md
   - name: GetUIDFromAppointmentId
     href: Appointment_Agent/v1AppointmentAgent_GetUIDFromAppointmentId.md
+  - name: GetVideoMeetingConnectedState
+    href: Appointment_Agent/v1AppointmentAgent_GetVideoMeetingConnectedState.md
   - name: Move
     href: Appointment_Agent/v1AppointmentAgent_Move.md
   - name: MoveExtended
@@ -1021,6 +1023,8 @@ items:
     href: Diagnostics_Agent/v1DiagnosticsAgent_GetWebAppUsagesForPeriod.md
   - name: LogViewState
     href: Diagnostics_Agent/v1DiagnosticsAgent_LogViewState.md
+  - name: PerformTasksAfterCustomObjectTableCreated
+    href: Diagnostics_Agent/v1DiagnosticsAgent_PerformTasksAfterCustomObjectTableCreated.md
   - name: PerformTasksAfterCustomObjectTableDeleted
     href: Diagnostics_Agent/v1DiagnosticsAgent_PerformTasksAfterCustomObjectTableDeleted.md
   - name: PerformTasksAfterUpgrade
@@ -2609,6 +2613,8 @@ items:
     href: Person_Agent/v1PersonAgent_SetPersonImage.md
   - name: SetPersonRank
     href: Person_Agent/v1PersonAgent_SetPersonRank.md
+  - name: SetUtmCreatedPersonContactForFormSubmission
+    href: Person_Agent/v1PersonAgent_SetUtmCreatedPersonContactForFormSubmission.md
   - name: TryAddPersonsToEmailFlow
     href: Person_Agent/v1PersonAgent_TryAddPersonsToEmailFlow.md
   - name: Undelete
@@ -3309,6 +3315,8 @@ items:
     href: Selection_Agent/v1SelectionAgent_RemoveSelectionMembersFromSearch.md
   - name: SaveBoardViewSettings
     href: Selection_Agent/v1SelectionAgent_SaveBoardViewSettings.md
+  - name: SaveBoardViewSettingsForSelectionAndAssociate
+    href: Selection_Agent/v1SelectionAgent_SaveBoardViewSettingsForSelectionAndAssociate.md
   - name: SaveSelectionEntity
     href: Selection_Agent/v1SelectionAgent_SaveSelectionEntity.md
   - name: SetDuplicateRulesStatus
@@ -3398,6 +3406,8 @@ items:
 - name: Ticket
   href: Ticket_Agent/index.md
   items:
+  - name: AcceptTickets
+    href: Ticket_Agent/v1TicketAgent_AcceptTickets.md
   - name: AddAttachments
     href: Ticket_Agent/v1TicketAgent_AddAttachments.md
   - name: BatchForward
@@ -3635,6 +3645,8 @@ items:
     href: User_Agent/v1UserAgent_GetAccessGatewayInfo.md
   - name: GetAccessToken
     href: User_Agent/v1UserAgent_GetAccessToken.md
+  - name: GetAllDataRights
+    href: User_Agent/v1UserAgent_GetAllDataRights.md
   - name: GetAllFunctionalRights
     href: User_Agent/v1UserAgent_GetAllFunctionalRights.md
   - name: GetAllRoles

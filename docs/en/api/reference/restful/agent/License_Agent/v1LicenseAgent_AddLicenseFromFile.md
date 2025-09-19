@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/License/AddLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "labore"
+  "FileContent": "voluptas"
 }
 ```
 
@@ -93,21 +93,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 483,
-      "NumberOfLicensesFree": 618,
-      "NumberOfLicensesAdded": 118,
-      "NumberOfLicensesNewTotal": 316,
-      "NumberOfLicensesNewFree": 584,
-      "NumberOfLicensesTotal": 235
+      "NumberOfLicensesInUse": 538,
+      "NumberOfLicensesFree": 153,
+      "NumberOfLicensesAdded": 807,
+      "NumberOfLicensesNewTotal": 717,
+      "NumberOfLicensesNewFree": 29,
+      "NumberOfLicensesTotal": 863
     }
   ],
-  "AccumulatedNextCheckDate": "2009-11-16T03:46:54.9107593+01:00"
+  "AccumulatedNextCheckDate": "2023-06-21T03:41:53.6057294+02:00"
 }
 ```

@@ -95,22 +95,22 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 272,
-  "Name": "Dickinson Inc and Sons",
-  "ConsentText": "ut",
-  "FormText": "debitis",
-  "Key": "quo",
-  "Tooltip": "maiores",
-  "Active": 228,
-  "UpdatedDate": "2024-05-16T03:47:00.5974251+02:00",
+  "ConsentPurposeId": 704,
+  "Name": "Raynor-Quitzon",
+  "ConsentText": "facilis",
+  "FormText": "esse",
+  "Key": "maiores",
+  "Tooltip": "eius",
+  "Active": 849,
+  "UpdatedDate": "2008-12-08T03:41:59.3711138+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 412,
-  "PrivacyStatementDesc": "debitis",
+  "Rank": 894,
+  "PrivacyStatementDesc": "natus",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -122,25 +122,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 407,
-  "Name": "Lemke, Gaylord and Hodkiewicz",
-  "ConsentText": "necessitatibus",
-  "FormText": "facilis",
-  "Key": "voluptatum",
-  "Tooltip": "dicta",
-  "Active": 764,
-  "UpdatedDate": "2003-09-04T03:47:00.5974251+02:00",
+  "ConsentPurposeId": 465,
+  "Name": "Hamill-Wyman",
+  "ConsentText": "temporibus",
+  "FormText": "est",
+  "Key": "excepturi",
+  "Tooltip": "odit",
+  "Active": 593,
+  "UpdatedDate": "2022-07-13T03:41:59.3711138+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 968,
-  "PrivacyStatementDesc": "enim",
+  "Deleted": true,
+  "Rank": 605,
+  "PrivacyStatementDesc": "quisquam",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 938
+      "FieldType": "System.Int32",
+      "FieldLength": 533
     }
   }
 }

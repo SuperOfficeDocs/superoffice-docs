@@ -90,32 +90,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hermann LLC",
-  "AdditionalInfo": "rerum",
+  "Name": "Morar-Dietrich",
+  "AdditionalInfo": "illo",
   "SelectableMDOList": [
     {
-      "Id": 284,
-      "Name": "Jacobs-Goldner",
-      "ToolTip": "Quia vitae ea.",
+      "Id": 924,
+      "Name": "Schulist-Parisian",
+      "ToolTip": "Possimus in molestias voluptas illo eaque quam laudantium.",
       "Deleted": false,
-      "Rank": 592,
-      "Type": "laborum",
-      "ColorBlock": 472,
-      "IconHint": "molestias",
-      "Selected": false,
-      "LastChanged": "2009-10-28T03:46:55.0194982+01:00",
+      "Rank": 156,
+      "Type": "et",
+      "ColorBlock": 654,
+      "IconHint": "quod",
+      "Selected": true,
+      "LastChanged": "2020-10-30T03:41:53.7619726+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "voluptatem",
-      "Hidden": false,
-      "FullName": "Mrs. Royal Cassandra Lesch V"
+      "ExtraInfo": "sit",
+      "StyleHint": "quisquam",
+      "Hidden": true,
+      "FullName": "Rhea McLaughlin"
     }
   ]
 }
@@ -129,56 +129,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 961,
-    "Name": "Rice LLC",
-    "ToolTip": "Tempora quibusdam vitae.",
-    "Deleted": true,
-    "Rank": 579,
-    "Type": "enim",
-    "ColorBlock": 879,
-    "IconHint": "explicabo",
-    "Selected": false,
-    "LastChanged": "2013-05-24T03:46:55.0194982+02:00",
+    "Id": 325,
+    "Name": "Blanda Group",
+    "ToolTip": "Consectetur omnis nisi deleniti exercitationem occaecati voluptates quis.",
+    "Deleted": false,
+    "Rank": 979,
+    "Type": "illo",
+    "ColorBlock": 572,
+    "IconHint": "deleniti",
+    "Selected": true,
+    "LastChanged": "2017-08-25T03:41:53.7619726+02:00",
     "ChildItems": [
       {
-        "Id": 101,
-        "Name": "White Group",
-        "ToolTip": "Ut placeat reiciendis eius distinctio necessitatibus accusantium sit.",
-        "Deleted": false,
-        "Rank": 262,
-        "Type": "quod",
-        "ColorBlock": 569,
-        "IconHint": "nihil",
+        "Id": 400,
+        "Name": "Kirlin, Gerlach and Cole",
+        "ToolTip": "Nihil ipsum et quae consequatur occaecati consequatur.",
+        "Deleted": true,
+        "Rank": 936,
+        "Type": "laborum",
+        "ColorBlock": 463,
+        "IconHint": "dolore",
         "Selected": true,
-        "LastChanged": "2010-07-03T03:46:55.0194982+02:00",
+        "LastChanged": "2015-10-30T03:41:53.7619726+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "adipisci",
-        "StyleHint": "necessitatibus",
+        "ExtraInfo": "quia",
+        "StyleHint": "sapiente",
         "Hidden": false,
-        "FullName": "Hipolito Roob",
+        "FullName": "Mr. Layla Glover",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 100
+            "FieldLength": 178
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Carter Kshlerin",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "quae",
+    "Hidden": true,
+    "FullName": "Mr. Bernard Adrienne Mann DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 249
+        "FieldLength": 62
       }
     }
   }

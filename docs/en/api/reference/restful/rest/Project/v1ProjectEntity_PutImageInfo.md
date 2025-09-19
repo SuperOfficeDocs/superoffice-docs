@@ -32,7 +32,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=918
+PUT /api/v1/Project/{id}/ImageInfo?projectId=33
 ```
 
 
@@ -105,23 +105,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 619,
-  "BlobSize": 793,
-  "Description": "Diverse reciprocal archive",
-  "ExtraInfo": "qui",
+  "BlobId": 263,
+  "BlobSize": 201,
+  "Description": "User-friendly holistic standardization",
+  "ExtraInfo": "error",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "architecto",
-  "OriginalSize": 975,
-  "CreatedDate": "1999-11-25T03:47:00.2068137+01:00",
-  "UpdatedDate": "2013-08-29T03:47:00.2068137+02:00",
+  "MimeType": "consequuntur",
+  "OriginalSize": 939,
+  "CreatedDate": "2018-05-28T03:41:58.9336467+02:00",
+  "UpdatedDate": "2011-04-07T03:41:58.9336467+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "excepturi"
+  "ConceptualType": "nihil"
 }
 ```
 
@@ -132,25 +132,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 887,
-  "BlobSize": 244,
-  "Description": "Operative secondary matrix",
-  "ExtraInfo": "iusto",
+  "BlobId": 468,
+  "BlobSize": 615,
+  "Description": "Compatible motivating circuit",
+  "ExtraInfo": "omnis",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "excepturi",
-  "OriginalSize": 503,
-  "CreatedDate": "2002-08-21T03:47:00.2068137+02:00",
-  "UpdatedDate": "2022-08-05T03:47:00.2068137+02:00",
+  "MimeType": "ducimus",
+  "OriginalSize": 801,
+  "CreatedDate": "2011-01-18T03:41:58.9336467+01:00",
+  "UpdatedDate": "1999-07-29T03:41:58.9336467+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "reiciendis",
+  "ConceptualType": "cum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldType": "System.String",
+      "FieldLength": 824
     }
   }
 }

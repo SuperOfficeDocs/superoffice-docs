@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 732,
-  "Name": "Wisozk Inc and Sons",
-  "Tooltip": "rerum",
+  "Id": 76,
+  "Name": "Luettgen, Bergstrom and Kris",
+  "Tooltip": "rem",
   "Deleted": false,
-  "UdListDefinitionId": 48,
-  "Rank": 296
+  "UdListDefinitionId": 252,
+  "Rank": 196
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 627,
-  "Name": "Towne LLC",
-  "Tooltip": "autem",
+  "Id": 242,
+  "Name": "Rowe-Ortiz",
+  "Tooltip": "quia",
   "Deleted": false,
-  "UdListDefinitionId": 377,
-  "Rank": 661,
+  "UdListDefinitionId": 752,
+  "Rank": 897,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 934
+      "FieldType": "System.String",
+      "FieldLength": 987
     }
   }
 }

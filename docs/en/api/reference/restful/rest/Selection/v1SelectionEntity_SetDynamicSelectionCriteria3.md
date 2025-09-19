@@ -96,34 +96,34 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rice Group",
-    "Operator": "quia",
+    "Name": "Wisoky Inc and Sons",
+    "Operator": "qui",
     "Values": [
-      "repellat",
-      "quia"
+      "ipsa",
+      "libero"
     ],
     "DisplayValues": [
-      "commodi",
-      "iusto"
+      "ipsum",
+      "nulla"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Monahan Group",
-        "Operator": "dicta",
+        "Name": "Hirthe LLC",
+        "Operator": "tempora",
         "Values": [
-          "minima",
-          "quasi"
+          "vel",
+          "dolores"
         ],
         "DisplayValues": [
-          "assumenda",
-          "neque"
+          "eos",
+          "explicabo"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -131,14 +131,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 423,
+        "InterParenthesis": 599,
         "InterOperator": "And",
-        "UniqueHash": 909
+        "UniqueHash": 658
       }
     ],
-    "InterParenthesis": 101,
+    "InterParenthesis": 154,
     "InterOperator": "And",
-    "UniqueHash": 329
+    "UniqueHash": 410
   }
 ]
 ```
@@ -151,29 +151,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kuhic, Donnelly and Mills",
-    "Operator": "ad",
+    "Name": "Wolff, Will and Reichert",
+    "Operator": "qui",
     "Values": [
-      "laborum",
-      "officiis"
+      "blanditiis",
+      "aut"
     ],
     "DisplayValues": [
-      "neque",
-      "quis"
+      "labore",
+      "velit"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Robel Inc and Sons",
-        "Operator": "itaque",
+        "Name": "Rohan, Kautzer and Mosciski",
+        "Operator": "voluptatum",
         "Values": [
-          "voluptas",
-          "esse"
+          "veritatis",
+          "numquam"
         ],
         "DisplayValues": [
-          "dolor",
-          "est"
+          "dolorum",
+          "quas"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -181,14 +181,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 384,
+        "InterParenthesis": 530,
         "InterOperator": "And",
-        "UniqueHash": 119
+        "UniqueHash": 255
       }
     ],
-    "InterParenthesis": 762,
+    "InterParenthesis": 38,
     "InterOperator": "And",
-    "UniqueHash": 567
+    "UniqueHash": 911
   }
 ]
 ```

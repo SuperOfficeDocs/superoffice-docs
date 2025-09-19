@@ -69,13 +69,13 @@ OK
 POST /api/v1/Agents/Ticket/SanitizeMailContents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Contents": [
-    "nam",
-    "asperiores"
+    "in",
+    "qui"
   ]
 }
 ```
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "dignissimos",
-  "enim"
+  "molestias",
+  "ipsam"
 ]
 ```

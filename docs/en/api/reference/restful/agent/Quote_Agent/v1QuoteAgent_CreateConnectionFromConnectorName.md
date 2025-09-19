@@ -92,7 +92,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Cartwright, Zboncak and Koepp"
+  "ConnectorName": "Stanton Group"
 }
 ```
 
@@ -103,54 +103,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 63,
-  "ERPName": "Ward Inc and Sons",
-  "DisplayName": "Douglas-Goodwin",
-  "DisplayDescription": "Profit-focused 24/7 internet solution",
-  "Rank": 673,
-  "ConnectorName": "Altenwerth, Lubowitz and Pacocha",
-  "ErpConnectionId": 847,
-  "ExtraData": "reiciendis",
+  "QuoteConnectionId": 753,
+  "ERPName": "Hilll, Ondricka and Pouros",
+  "DisplayName": "Harber-Goyette",
+  "DisplayDescription": "Optional methodical alliance",
+  "Rank": 687,
+  "ConnectorName": "Dicki-Ritchie",
+  "ErpConnectionId": 235,
+  "ExtraData": "alias",
   "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 925,
-      "ERPPriceListKey": "nulla",
-      "QuoteConnectionId": 461,
-      "Name": "Breitenberg, Mueller and Cremin",
-      "Description": "Re-engineered content-based process improvement",
-      "Currency": "voluptatem",
-      "CurrencyName": "Bernier Group",
-      "ValidFrom": "2002-03-23T03:46:55.2226157+01:00",
-      "ValidTo": "2011-11-24T03:46:55.2226157+01:00",
-      "IsActive": false,
+      "PriceListId": 827,
+      "ERPPriceListKey": "consectetur",
+      "QuoteConnectionId": 832,
+      "Name": "Schmeler-Barrows",
+      "Description": "Digitized 5th generation support",
+      "Currency": "facere",
+      "CurrencyName": "Becker Group",
+      "ValidFrom": "2018-08-15T03:41:53.9650897+02:00",
+      "ValidTo": "2002-08-20T03:41:53.9650897+02:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 502
+          "FieldLength": 774
         }
       }
     }
   ],
-  "AllAccess": true,
+  "AllAccess": false,
   "Deleted": true,
   "UserGroupAccessIds": [
-    455,
-    717
+    581,
+    190
   ],
   "AssociateAccessIds": [
-    434,
-    377
+    261,
+    71
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 746
+      "FieldLength": 338
     }
   }
 }

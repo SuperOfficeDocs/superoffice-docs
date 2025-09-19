@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 705,
-    "Name": "Bosco LLC",
-    "ToolTip": "Qui eos expedita repellendus aliquid aperiam.",
-    "Deleted": false,
-    "Rank": 699,
-    "Type": "et",
-    "ColorBlock": 968,
-    "IconHint": "impedit",
+    "Id": 821,
+    "Name": "Schaefer-Block",
+    "ToolTip": "Ut facilis error corporis dolor asperiores.",
+    "Deleted": true,
+    "Rank": 986,
+    "Type": "molestias",
+    "ColorBlock": 195,
+    "IconHint": "quam",
     "Selected": false,
-    "LastChanged": "2014-02-21T03:47:00.7536695+01:00",
+    "LastChanged": "2020-07-24T03:41:59.558612+02:00",
     "ChildItems": [
       {
-        "Id": 796,
-        "Name": "Jacobson-Dickinson",
-        "ToolTip": "Asperiores autem non culpa.",
+        "Id": 26,
+        "Name": "Fadel Inc and Sons",
+        "ToolTip": "Sint blanditiis aut officiis maxime.",
         "Deleted": false,
-        "Rank": 519,
-        "Type": "et",
-        "ColorBlock": 280,
-        "IconHint": "qui",
-        "Selected": true,
-        "LastChanged": "2006-03-13T03:47:00.7536695+01:00",
+        "Rank": 681,
+        "Type": "quis",
+        "ColorBlock": 296,
+        "IconHint": "libero",
+        "Selected": false,
+        "LastChanged": "2025-07-19T03:41:59.558612+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "ipsa",
-        "Hidden": false,
-        "FullName": "Jayden Kub",
+        "ExtraInfo": "ullam",
+        "StyleHint": "fugiat",
+        "Hidden": true,
+        "FullName": "Mrs. Breana Sadie McCullough",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 691
+            "FieldType": "System.String",
+            "FieldLength": 237
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "necessitatibus",
+    "ExtraInfo": "et",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Mrs. Selmer Norene Medhurst DVM",
+    "FullName": "Prof. Josefa Eugene Glover",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 835
+        "FieldLength": 447
       }
     }
   }

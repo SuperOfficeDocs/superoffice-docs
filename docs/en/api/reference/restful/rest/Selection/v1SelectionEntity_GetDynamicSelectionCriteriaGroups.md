@@ -63,7 +63,7 @@ OK
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,58 +74,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jerde Group",
-    "Description": "Customer-focused web-enabled utilisation",
-    "Rank": 133,
+    "Name": "Yundt-Bradtke",
+    "Description": "Pre-emptive empowering architecture",
+    "Rank": 245,
     "Restrictions": [
       {
-        "Name": "Raynor, Mueller and Hagenes",
-        "Operator": "doloremque",
+        "Name": "Klein, Leffler and Jast",
+        "Operator": "saepe",
         "Values": [
-          "libero",
-          "ut"
+          "facilis",
+          "corrupti"
         ],
         "DisplayValues": [
-          "officia",
-          "cumque"
+          "quia",
+          "nulla"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 580,
+        "InterParenthesis": 939,
         "InterOperator": "And",
-        "UniqueHash": 6
+        "UniqueHash": 27
       }
     ]
   },
   {
-    "Name": "Jerde Group",
-    "Description": "Customer-focused web-enabled utilisation",
-    "Rank": 133,
+    "Name": "Yundt-Bradtke",
+    "Description": "Pre-emptive empowering architecture",
+    "Rank": 245,
     "Restrictions": [
       {
-        "Name": "Raynor, Mueller and Hagenes",
-        "Operator": "doloremque",
+        "Name": "Klein, Leffler and Jast",
+        "Operator": "saepe",
         "Values": [
-          "libero",
-          "ut"
+          "facilis",
+          "corrupti"
         ],
         "DisplayValues": [
-          "officia",
-          "cumque"
+          "quia",
+          "nulla"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 580,
+        "InterParenthesis": 939,
         "InterOperator": "And",
-        "UniqueHash": 6
+        "UniqueHash": 27
       }
     ]
   }

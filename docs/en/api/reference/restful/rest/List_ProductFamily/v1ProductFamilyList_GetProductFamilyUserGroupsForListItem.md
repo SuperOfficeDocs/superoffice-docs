@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 58,
-    "Name": "Upton Group",
-    "ToolTip": "Sed fuga iure corporis.",
-    "Deleted": false,
-    "Rank": 925,
-    "Type": "delectus",
-    "ColorBlock": 18,
-    "IconHint": "quidem",
-    "Selected": true,
-    "LastChanged": "2001-12-25T03:47:00.7224209+01:00",
+    "Id": 907,
+    "Name": "Brekke Inc and Sons",
+    "ToolTip": "Eum ea excepturi.",
+    "Deleted": true,
+    "Rank": 52,
+    "Type": "sit",
+    "ColorBlock": 153,
+    "IconHint": "perferendis",
+    "Selected": false,
+    "LastChanged": "2024-05-29T03:41:59.4804834+02:00",
     "ChildItems": [
       {
-        "Id": 548,
-        "Name": "Yundt-Runolfsson",
-        "ToolTip": "Suscipit temporibus accusantium est ut.",
+        "Id": 707,
+        "Name": "Johnson Inc and Sons",
+        "ToolTip": "Accusantium voluptatem sunt eum est earum.",
         "Deleted": false,
-        "Rank": 818,
-        "Type": "a",
-        "ColorBlock": 283,
-        "IconHint": "voluptas",
+        "Rank": 668,
+        "Type": "fugit",
+        "ColorBlock": 278,
+        "IconHint": "soluta",
         "Selected": false,
-        "LastChanged": "2016-07-31T03:47:00.7224209+02:00",
+        "LastChanged": "2020-10-11T03:41:59.4804834+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "similique",
+        "ExtraInfo": "eos",
+        "StyleHint": "suscipit",
         "Hidden": true,
-        "FullName": "Golda Pouros",
+        "FullName": "Cornell Heathcote",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 19
+            "FieldLength": 359
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "autem",
+    "ExtraInfo": "dolor",
+    "StyleHint": "ducimus",
     "Hidden": false,
-    "FullName": "Ernestine Hilpert",
+    "FullName": "Mrs. Josh Ocie Price II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldLength": 198
       }
     }
   }

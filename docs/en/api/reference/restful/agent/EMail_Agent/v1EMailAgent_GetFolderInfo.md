@@ -92,8 +92,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "Folders": [
-    "suscipit",
-    "adipisci"
+    "qui",
+    "id"
   ]
 }
 ```
@@ -106,19 +106,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Runolfsdottir, Towne and Lindgren",
-    "Delimiter": "omnis",
-    "Flags": "debitis",
-    "TotalItems": 536,
-    "UnreadItems": 961,
-    "Subscribed": false,
-    "EmailFolderId": 776,
+    "Name": "Wuckert, Von and Schiller",
+    "Delimiter": "sed",
+    "Flags": "delectus",
+    "TotalItems": 213,
+    "UnreadItems": 494,
+    "Subscribed": true,
+    "EmailFolderId": 179,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 321
+        "FieldLength": 976
       }
     }
   }

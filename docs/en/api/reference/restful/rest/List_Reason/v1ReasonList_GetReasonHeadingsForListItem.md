@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 558,
-    "Name": "O'Reilly LLC",
-    "ToolTip": "Aliquam veritatis qui modi.",
-    "Deleted": false,
-    "Rank": 488,
-    "Type": "velit",
-    "ColorBlock": 877,
-    "IconHint": "eum",
-    "Selected": false,
-    "LastChanged": "2012-08-14T03:47:00.7849183+02:00",
+    "Id": 856,
+    "Name": "Gaylord, Hamill and Murazik",
+    "ToolTip": "Autem odit molestiae laudantium.",
+    "Deleted": true,
+    "Rank": 322,
+    "Type": "sit",
+    "ColorBlock": 988,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2022-06-16T03:41:59.5898538+02:00",
     "ChildItems": [
       {
-        "Id": 939,
-        "Name": "Cronin LLC",
-        "ToolTip": "Voluptatem laboriosam fugiat voluptatibus delectus quo blanditiis fugit.",
+        "Id": 421,
+        "Name": "Hand-Heaney",
+        "ToolTip": "At aut odio impedit optio perferendis.",
         "Deleted": false,
-        "Rank": 6,
-        "Type": "eos",
-        "ColorBlock": 961,
-        "IconHint": "optio",
+        "Rank": 843,
+        "Type": "ut",
+        "ColorBlock": 497,
+        "IconHint": "minus",
         "Selected": true,
-        "LastChanged": "2008-06-11T03:47:00.7849183+02:00",
+        "LastChanged": "2016-11-04T03:41:59.5898538+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "sunt",
+        "ExtraInfo": "ullam",
+        "StyleHint": "saepe",
         "Hidden": false,
-        "FullName": "Abelardo Cassin",
+        "FullName": "Ms. Raina Wunsch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 356
+            "FieldType": "System.String",
+            "FieldLength": 550
           }
         }
       }
     ],
-    "ExtraInfo": "delectus",
-    "StyleHint": "unde",
+    "ExtraInfo": "earum",
+    "StyleHint": "optio",
     "Hidden": true,
-    "FullName": "Orlando Leuschke",
+    "FullName": "Ransom Smitham DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 355
+        "FieldType": "System.Int32",
+        "FieldLength": 747
       }
     }
   }

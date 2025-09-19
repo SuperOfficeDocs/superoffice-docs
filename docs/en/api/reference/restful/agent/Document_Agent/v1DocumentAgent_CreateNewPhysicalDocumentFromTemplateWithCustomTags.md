@@ -118,26 +118,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 445,
-  "PersonId": 977,
-  "AppointmentId": 113,
-  "DocumentId": 608,
-  "SaleId": 838,
-  "SelectionId": 826,
-  "ProjectId": 650,
+  "ContactId": 152,
+  "PersonId": 570,
+  "AppointmentId": 202,
+  "DocumentId": 902,
+  "SaleId": 684,
+  "SelectionId": 472,
+  "ProjectId": 7,
   "CustomTags": [
-    "ipsum",
-    "ea"
+    "et",
+    "vero"
   ],
   "CustomValues": [
-    "eaque",
-    "nam"
+    "reprehenderit",
+    "sed"
   ],
-  "UiCulture": "et"
+  "UiCulture": "voluptas"
 }
 ```
 
@@ -148,88 +148,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 467,
+  "DocumentId": 885,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptatibus",
-  "Header": "qui",
-  "Name": "Powlowski-Heaney",
-  "OurRef": "voluptatem",
-  "YourRef": "distinctio",
-  "CreatedDate": "2019-06-24T03:46:54.67576+02:00",
-  "UpdatedDate": "2011-07-25T03:46:54.67576+02:00",
-  "Description": "Switchable national data-warehouse",
+  "Attention": "qui",
+  "Header": "et",
+  "Name": "Kutch, Orn and Towne",
+  "OurRef": "ullam",
+  "YourRef": "aut",
+  "CreatedDate": "2020-10-09T03:41:53.4182376+02:00",
+  "UpdatedDate": "2024-06-06T03:41:53.4182376+02:00",
+  "Description": "Fundamental encompassing focus group",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2023-12-22T03:46:54.67576+01:00",
-  "ExternalRef": "et",
+  "Date": "2007-04-16T03:41:53.4338618+02:00",
+  "ExternalRef": "nihil",
   "Completed": "Completed",
-  "ActiveLinks": 553,
+  "ActiveLinks": 469,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Ryan, Dicki and Ryan",
-      "Id": 12,
-      "Description": "Programmable attitude-oriented application",
-      "ExtraInfo": "ex",
-      "LinkId": 330,
+      "EntityName": "Swift LLC",
+      "Id": 429,
+      "Description": "Extended regional groupware",
+      "ExtraInfo": "laudantium",
+      "LinkId": 373,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 55
+          "FieldType": "System.Int32",
+          "FieldLength": 354
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 1001,
-  "Snum": 483,
+  "SuggestedDocumentId": 191,
+  "Snum": 4,
   "UserDefinedFields": {
-    "SuperOffice:1": "Melany Tromp",
-    "SuperOffice:2": "Nathan O'Keefe"
+    "SuperOffice:1": "Selena Crona",
+    "SuperOffice:2": "Ashlee Gorczany"
   },
   "ExtraFields": {
-    "ExtraFields1": "amet",
-    "ExtraFields2": "minus"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "ipsa"
   },
   "CustomFields": {
-    "CustomFields1": "totam",
-    "CustomFields2": "vitae"
+    "CustomFields1": "iure",
+    "CustomFields2": "enim"
   },
-  "PublishEventDate": "2016-07-21T03:46:54.67576+02:00",
-  "PublishTo": "2024-06-27T03:46:54.67576+02:00",
-  "PublishFrom": "2003-01-02T03:46:54.67576+01:00",
+  "PublishEventDate": "1999-06-17T03:41:53.4338618+02:00",
+  "PublishTo": "2022-02-08T03:41:53.4338618+01:00",
+  "PublishFrom": "2009-10-04T03:41:53.4338618+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 178,
+      "VisibleId": 757,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 907
+          "FieldLength": 297
         }
       }
     },
     {
-      "VisibleId": 178,
+      "VisibleId": 757,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 907
+          "FieldLength": 297
         }
       }
     }
@@ -239,7 +239,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 307
+      "FieldLength": 986
     }
   }
 }

@@ -74,10 +74,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 249,
+  "QuoteAlternativeId": 439,
   "ErpProductKeys": [
-    "a",
-    "quas"
+    "velit",
+    "quaerat"
   ]
 }
 ```
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-339
+958
 ```

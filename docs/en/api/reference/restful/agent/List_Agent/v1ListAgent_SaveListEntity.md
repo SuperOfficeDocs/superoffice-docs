@@ -86,15 +86,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 511,
-  "Name": "Kuhn, Lueilwitz and Rau",
-  "Tooltip": "hic",
+  "Id": 822,
+  "Name": "Pfannerstill-Altenwerth",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 88,
+  "Rank": 274,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptate",
+  "UseGroupsAndHeadings": false,
+  "ListType": "sed",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -106,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 784,
-  "Name": "Boyer, Gibson and Windler",
-  "Tooltip": "at",
+  "Id": 714,
+  "Name": "Runte-Hayes",
+  "Tooltip": "vitae",
   "Deleted": true,
-  "Rank": 972,
+  "Rank": 335,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "cum",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "doloribus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 114
+      "FieldLength": 894
     }
   }
 }

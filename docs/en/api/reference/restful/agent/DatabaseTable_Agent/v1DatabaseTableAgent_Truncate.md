@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Gutkowski, Crooks and Haley"
+  "TableName": "Schulist LLC"
 }
 ```
 
@@ -97,40 +97,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "adipisci",
-  "Inserts": 239,
-  "Updates": 499,
-  "Deletes": 567,
+  "Message": "in",
+  "Inserts": 192,
+  "Updates": 689,
+  "Deletes": 631,
   "RowStatus": [
     {
-      "PrimaryKey": 350,
+      "PrimaryKey": 397,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "doloremque",
-        "velit"
+        "quaerat",
+        "perspiciatis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 418
+          "FieldLength": 224
         }
       }
     },
     {
-      "PrimaryKey": 350,
+      "PrimaryKey": 397,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "doloremque",
-        "velit"
+        "quaerat",
+        "perspiciatis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 418
+          "FieldLength": 224
         }
       }
     }
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 737
+      "FieldType": "System.Int32",
+      "FieldLength": 351
     }
   }
 }

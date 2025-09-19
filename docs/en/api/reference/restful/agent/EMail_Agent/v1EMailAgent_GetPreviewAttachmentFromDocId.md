@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 927,
-  "AttachmentId": "voluptas"
+  "DocId": 739,
+  "AttachmentId": "saepe"
 }
 ```
 
@@ -104,13 +104,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Pre-emptive mobile system engine",
-  "Filename": "quia",
-  "Size": 2,
-  "Type": "cupiditate",
-  "Encoding": "maxime",
-  "Id": "enim",
-  "Disposition": "architecto",
+  "Description": "Progressive mission-critical orchestration",
+  "Filename": "sed",
+  "Size": 632,
+  "Type": "sunt",
+  "Encoding": "qui",
+  "Id": "tempore",
+  "Disposition": "illum",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -118,7 +118,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldLength": 91
     }
   }
 }

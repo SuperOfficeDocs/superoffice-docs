@@ -421,6 +421,8 @@ Shadow contact provider for the static Project provider.
 |projectMember/personId|int|Contact ID: Database ID of the contact row| x |
 |projectMember/function|listAny|Function: Displays the project member's function in the project| x |
 |projectMember/hasInfoText|bool|Project member information: Displays an icon indicating that there is additional information available for the project member| x |
+|projectMember/registered|datetime|Registered date: The date/time the data was registered in UTC.| x |
+|projectMember/updated|datetime|Updated: The date/time the data was last updated in UTC.| x |
 |projectMember/textId|int|Text ID| x |
 |projectMember/infoText|positiveString|Information: Displays the text entered in the description field| x |
 |projectMember/firstName|string|First name: Displays the contact's first name| x |
@@ -431,12 +433,12 @@ Shadow contact provider for the static Project provider.
 |projectMember/personHasInterests|bool|Has interests: Displays an Icon indicating if the contact has active interests| x |
 |projectMember/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |projectMember/position|listAny|Position| x |
-|projectMember/personNumber|string|Number: Displays the contact's number| x |
-|projectMember/title|string|Title: Displays the contact's job title| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/personNumber|string|Number: Displays the contact's number| x |
+|projectMember/title|string|Title: Displays the contact's job title| x |
 |projectMember/personCountry|listAny|Country: Country| x |
 |projectMember/personCountryId|int|Country ID: Country ID| x |
 |projectMember/personNoMail|bool|No Mailings: Displays the contact's No Mailings checkbox| x |
@@ -535,12 +537,12 @@ Shadow contact provider for the static Project provider.
 |projectMember/personUdef/SuperOffice:9|string|page1saleonly| x |
 |projectMember/personUdef/SuperOffice:10|string|page1marketingonly| x |
 |projectMember/personUdef/SuperOffice:11|string|page1adminonly| x |
-|projectMember/personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
-|projectMember/personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/personExtra/x\_person\_integer|int|Extra Integer: Custom person integer| x |
+|projectMember/personExtra/x\_person\_hidden\_integer|int|Extra hidden integer: Custom integer field that is hidden| x |
 |projectMember/personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |projectMember/personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |projectMember/personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
@@ -639,12 +641,12 @@ Shadow contact provider for the static Project provider.
 |projectMember/legalBaseEmarketing|listAny|Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
 |projectMember/consentSourceStore|listAny|Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
 |projectMember/consentSourceEmarketing|listAny|Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
-|projectMember/name|stringorPK|Company name| x |
-|projectMember/department|string|Department| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/name|stringorPK|Company name| x |
+|projectMember/department|string|Department| x |
 |projectMember/nameDepartment| *None* |Company: Displays the company an activity is linked to| x |
 |projectMember/associateId|associate|Our contact: Displays our contact| x |
 |projectMember/category|listAny|Category| x |
@@ -743,12 +745,12 @@ Shadow contact provider for the static Project provider.
 |projectMember/contactUdef/SuperOffice:10|string|page1marketingonly| x |
 |projectMember/contactUdef/SuperOffice:11|string|page1adminonly| x |
 |projectMember/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
-|projectMember/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
-|projectMember/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
+|projectMember/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
 |projectMember/contactExtra/x\_contact\_hidden\_integer|int|Extra hidden integer: Custom integer field - hidden| x |
 |projectMember/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
 |projectMember/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
@@ -808,7 +810,7 @@ Shadow contact provider for the static Project provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowStaticSelectionV2?$select=projectAssociate/associateDbId,LastSale,sale/credited,appointment/appointment/description,projectMember/restrictionAddress/wgs84longitude
+GET /api/v1/archive/ProjectShadowStaticSelectionV2?$select=projectAssociate/ejStatus,sale/associate/ejDisplayName,appointment/appointmentUdef/SuperOffice:2,projectMember/personExtra/x_person_request_relation,projectMember/contactUdef/SuperOffice:1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

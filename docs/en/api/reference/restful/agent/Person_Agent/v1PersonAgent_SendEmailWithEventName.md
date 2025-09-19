@@ -71,20 +71,20 @@ No Content
 POST /api/v1/Agents/Person/SendEmailWithEventName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "From": "deserunt",
-  "To": "perferendis",
-  "Subject": "ipsum",
-  "PlainBody": "saepe",
-  "HtmlBody": "porro",
+  "From": "mollitia",
+  "To": "asperiores",
+  "Subject": "tempora",
+  "PlainBody": "eligendi",
+  "HtmlBody": "iure",
   "AttachmentIds": [
-    977,
-    341
+    864,
+    311
   ],
-  "EventName": "Auer-Kuvalis"
+  "EventName": "Kuhn-Wuckert"
 }
 ```
 

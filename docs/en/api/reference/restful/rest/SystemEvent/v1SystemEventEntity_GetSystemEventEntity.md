@@ -93,27 +93,27 @@ HTTP/1.1 200 SystemEventEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 859,
+  "SystemEventId": 238,
   "Scope": "Database",
-  "Eta": "2000-01-10T03:47:00.3005605+01:00",
-  "Eventkey": "et",
-  "Eventmess": "porro",
-  "ExtraInfo": 80,
-  "Owner": 337,
-  "UpdatedCount": 473,
-  "Registered": "1999-04-17T03:47:00.3005605+02:00",
+  "Eta": "2018-05-17T03:41:59.0273773+02:00",
+  "Eventkey": "unde",
+  "Eventmess": "eius",
+  "ExtraInfo": 301,
+  "Owner": 730,
+  "UpdatedCount": 758,
+  "Registered": "2003-08-18T03:41:59.0273773+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldType": "System.String",
+      "FieldLength": 83
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

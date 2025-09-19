@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 401,
-  "Name": "Fritsch-Zemlak",
-  "Tooltip": "nisi",
+  "Id": 241,
+  "Name": "Howell-Kozey",
+  "Tooltip": "dolorem",
   "Deleted": false,
-  "Rank": 225,
+  "Rank": 834,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "ListType": "ut",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 988,
-  "Name": "Frami, Bogisich and Feil",
-  "Tooltip": "totam",
-  "Deleted": false,
-  "Rank": 476,
+  "Id": 549,
+  "Name": "Hyatt Inc and Sons",
+  "Tooltip": "corrupti",
+  "Deleted": true,
+  "Rank": 974,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "in",
-  "InUseByUserDefinedFields": false,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 890
+      "FieldLength": 49
     }
   }
 }

@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 501,
-    "Name": "Rath-Corkery",
-    "Tooltip": "itaque",
-    "Deleted": true,
-    "UdListDefinitionId": 534,
-    "Rank": 399,
+    "Id": 786,
+    "Name": "Vandervort-Rau",
+    "Tooltip": "totam",
+    "Deleted": false,
+    "UdListDefinitionId": 274,
+    "Rank": 607,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 35
+        "FieldType": "System.String",
+        "FieldLength": 392
       }
     }
   }

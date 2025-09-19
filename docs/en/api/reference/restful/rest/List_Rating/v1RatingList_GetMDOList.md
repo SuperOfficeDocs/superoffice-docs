@@ -28,7 +28,7 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=voluptatum
+GET /api/v1/List/Rating/MDOItems?query=voluptatem
 ```
 
 
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 867,
-    "Name": "Heidenreich-Hickle",
-    "ToolTip": "Aut enim cum ut vitae quibusdam.",
+    "Id": 45,
+    "Name": "Bednar Group",
+    "ToolTip": "At quia ducimus est explicabo et dolorum.",
     "Deleted": false,
-    "Rank": 288,
-    "Type": "officiis",
+    "Rank": 303,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 909,
-        "Name": "Gerhold-Jones",
-        "ToolTip": "Cupiditate debitis sapiente aliquam nihil tempore amet ipsa.",
-        "Deleted": false,
-        "Rank": 680,
-        "Type": "quia",
+        "Id": 254,
+        "Name": "Kshlerin, Cruickshank and Davis",
+        "ToolTip": "Corporis in cum.",
+        "Deleted": true,
+        "Rank": 196,
+        "Type": "sed",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "repellat",
-        "ColorBlock": 953,
-        "ExtraInfo": "eaque",
-        "StyleHint": "consequuntur",
-        "FullName": "Mr. Jazmin Gaston Jaskolski Sr.",
+        "IconHint": "eum",
+        "ColorBlock": 391,
+        "ExtraInfo": "dolores",
+        "StyleHint": "amet",
+        "FullName": "Angelina Kilback",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 326
+            "FieldType": "System.String",
+            "FieldLength": 39
           }
         }
       }
     ],
-    "IconHint": "harum",
-    "ColorBlock": 454,
-    "ExtraInfo": "expedita",
-    "StyleHint": "eveniet",
-    "FullName": "Hollie Shayne Schoen I",
+    "IconHint": "vel",
+    "ColorBlock": 104,
+    "ExtraInfo": "dolor",
+    "StyleHint": "soluta",
+    "FullName": "Ms. Elouise Okey Ritchie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 882
+        "FieldLength": 898
       }
     }
   }

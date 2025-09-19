@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -109,43 +109,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 78,
-    "Name": "Jacobi LLC",
-    "Description": "Reverse-engineered zero administration open system",
-    "WelcomeMessage": "rerum",
+    "ChatTopicId": 832,
+    "Name": "Gaylord, Windler and Johnson",
+    "Description": "Integrated high-level open system",
+    "WelcomeMessage": "repellendus",
     "Language": null,
-    "LastAccept": "2005-02-02T03:46:54.3945199+01:00",
-    "SecondsPrAccept": 862,
-    "AlertRecipient": "similique",
+    "LastAccept": "2022-08-28T03:41:53.1682479+02:00",
+    "SecondsPrAccept": 746,
+    "AlertRecipient": "vel",
     "AlertTemplate": null,
     "CollectConsent": false,
-    "BadgeHeader": "nam",
-    "CustomQueueTextEnabled": false,
-    "CustomQueueText": "distinctio",
-    "WarnNewChatMinutes": 309,
-    "WarnManagerNewChatMinutes": 427,
+    "BadgeHeader": "inventore",
+    "CustomQueueTextEnabled": true,
+    "CustomQueueText": "atque",
+    "WarnNewChatMinutes": 354,
+    "WarnManagerNewChatMinutes": 232,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
-    "OpeningHoursEnabled": true,
+    "OpeningHoursEnabled": false,
     "OpeningHours": null,
     "Widget": null,
     "BotEnabled": true,
     "BotSettings": null,
-    "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 576,
-    "WarnManagerChatMessageMinutes": 386,
+    "OfflineCollectConsent": true,
+    "WarnChatMessageMinutes": 650,
+    "WarnManagerChatMessageMinutes": 549,
     "UseQueueOfflineForm": true,
-    "OfflineFormTimeLimit": 871,
-    "OfflineFormQueueLength": 912,
+    "OfflineFormTimeLimit": 519,
+    "OfflineFormQueueLength": 996,
     "WidgetEnableRating": false,
-    "WidgetRatingText": "eveniet",
+    "WidgetRatingText": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 646
+        "FieldType": "System.String",
+        "FieldLength": 614
       }
     }
   }

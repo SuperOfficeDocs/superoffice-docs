@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Configuration/GetWindowPosSizesOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 855
+  "PersonId": 320
 }
 ```
 
@@ -100,23 +100,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerWindow": "commodi",
-    "PersonId": 941,
-    "AssociateId": 415,
-    "ExtraId": 736,
-    "ExtraInfo": "eum",
-    "Height": 467,
-    "LeftX": 386,
+    "OwnerWindow": "aut",
+    "PersonId": 89,
+    "AssociateId": 830,
+    "ExtraId": 321,
+    "ExtraInfo": "nihil",
+    "Height": 993,
+    "LeftX": 658,
     "State": "Maximized",
-    "UpperY": 581,
-    "Width": 324,
-    "WindowPosSizeId": 595,
+    "UpperY": 280,
+    "Width": 775,
+    "WindowPosSizeId": 349,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 877
+        "FieldLength": 69
       }
     }
   }

@@ -70,10 +70,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "molestiae",
+  "Type": "ea",
   "ItemsIds": [
-    138,
-    29
+    878,
+    521
   ]
 }
 ```

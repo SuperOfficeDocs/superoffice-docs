@@ -99,15 +99,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 146,
-  "StartTime": "2010-03-08T03:46:54.6132622+01:00",
-  "EndTime": "2006-03-01T03:46:54.6132622+01:00",
-  "Count": 195,
-  "TemplateHeadingId": 884
+  "ContactId": 111,
+  "StartTime": "2022-08-13T03:41:53.3713643+02:00",
+  "EndTime": "2019-02-22T03:41:53.3713643+01:00",
+  "Count": 202,
+  "TemplateHeadingId": 529
 }
 ```
 
@@ -119,32 +119,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 315,
-    "Attention": "quisquam",
-    "Header": "qui",
-    "Name": "Rosenbaum, King and Brown",
-    "OurRef": "accusamus",
-    "YourRef": "officiis",
-    "Description": "Adaptive scalable moderator",
-    "DocumentTemplate": "voluptatum",
-    "IsPublished": false,
-    "PersonId": 328,
-    "PersonFullName": "Adelle Towne",
-    "AssociateFullName": "Gillian Moises Padberg I",
-    "ContactId": 378,
-    "ContactName": "Hilpert, Mann and Volkman",
-    "ProjectId": 759,
-    "ProjectName": "Mann Inc and Sons",
-    "AssociateId": 695,
-    "Snum": 857,
-    "SaleId": 642,
-    "SaleName": "Anderson, Yost and Reichert",
+    "DocumentId": 872,
+    "Attention": "incidunt",
+    "Header": "fuga",
+    "Name": "Bruen, Hills and Jaskolski",
+    "OurRef": "fugit",
+    "YourRef": "eos",
+    "Description": "Open-architected executive interface",
+    "DocumentTemplate": "nisi",
+    "IsPublished": true,
+    "PersonId": 825,
+    "PersonFullName": "Korbin Ratke",
+    "AssociateFullName": "Treva Olson",
+    "ContactId": 753,
+    "ContactName": "Hand-Auer",
+    "ProjectId": 294,
+    "ProjectName": "West, Zboncak and Runolfsdottir",
+    "AssociateId": 764,
+    "Snum": 758,
+    "SaleId": 503,
+    "SaleName": "Ward LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 713
+        "FieldType": "System.String",
+        "FieldLength": 975
       }
     }
   }

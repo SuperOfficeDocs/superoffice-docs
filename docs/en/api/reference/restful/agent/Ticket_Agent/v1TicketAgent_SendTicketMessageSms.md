@@ -71,11 +71,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 894,
-  "ReplyTemplateId": 866,
+  "TicketMessageEntityId": 418,
+  "ReplyTemplateId": 257,
   "Sms": [
-    "vel",
-    "consequuntur"
+    "aliquid",
+    "hic"
   ]
 }
 ```

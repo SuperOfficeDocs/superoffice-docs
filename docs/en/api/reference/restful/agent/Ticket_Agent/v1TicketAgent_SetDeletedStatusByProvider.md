@@ -76,18 +76,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hermiston Inc and Sons",
+  "ProviderName": "Becker, Kessler and Heaney",
   "Restrictions": [
     {
-      "Name": "Kuphal Group",
-      "Operator": "modi",
+      "Name": "Hermiston-Bernier",
+      "Operator": "ut",
       "Values": [
-        "recusandae",
-        "doloremque"
+        "illum",
+        "inventore"
       ],
       "DisplayValues": [
-        "voluptates",
-        "ratione"
+        "dolorem",
+        "repudiandae"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -95,9 +95,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 451,
+      "InterParenthesis": 473,
       "InterOperator": "And",
-      "UniqueHash": 891
+      "UniqueHash": 497
     }
   ]
 }
@@ -110,7 +110,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  839,
-  966
+  908,
+  364
 ]
 ```

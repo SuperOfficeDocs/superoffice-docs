@@ -38,13 +38,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=726
-POST /api/v1/Document/{documentId}/Content?personId=357
-POST /api/v1/Document/{documentId}/Content?appointmentId=768
-POST /api/v1/Document/{documentId}/Content?saleId=350
-POST /api/v1/Document/{documentId}/Content?selectionId=336
-POST /api/v1/Document/{documentId}/Content?projectId=95
-POST /api/v1/Document/{documentId}/Content?uiCulture=illum
+POST /api/v1/Document/{documentId}/Content?contactId=640
+POST /api/v1/Document/{documentId}/Content?personId=72
+POST /api/v1/Document/{documentId}/Content?appointmentId=414
+POST /api/v1/Document/{documentId}/Content?saleId=70
+POST /api/v1/Document/{documentId}/Content?selectionId=417
+POST /api/v1/Document/{documentId}/Content?projectId=206
+POST /api/v1/Document/{documentId}/Content?uiCulture=dolorem
 ```
 
 
@@ -122,7 +122,7 @@ OK
 POST /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -132,88 +132,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 937,
+  "DocumentId": 479,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quo",
-  "Header": "officiis",
-  "Name": "Simonis-Swift",
-  "OurRef": "quo",
-  "YourRef": "molestias",
-  "CreatedDate": "2002-07-11T03:47:00.005716+02:00",
-  "UpdatedDate": "2012-08-09T03:47:00.005716+02:00",
-  "Description": "Focused zero defect solution",
+  "Attention": "quae",
+  "Header": "quo",
+  "Name": "Douglas-Thiel",
+  "OurRef": "debitis",
+  "YourRef": "quos",
+  "CreatedDate": "2023-11-16T03:41:58.7461566+01:00",
+  "UpdatedDate": "2010-10-04T03:41:58.7461566+02:00",
+  "Description": "Multi-channelled mobile attitude",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2003-03-10T03:47:00.005716+01:00",
-  "ExternalRef": "qui",
+  "Date": "2018-05-13T03:41:58.7461566+02:00",
+  "ExternalRef": "ab",
   "Completed": "Completed",
-  "ActiveLinks": 508,
+  "ActiveLinks": 514,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Stiedemann Group",
-      "Id": 810,
-      "Description": "Quality-focused tertiary flexibility",
-      "ExtraInfo": "quia",
-      "LinkId": 518,
+      "EntityName": "Jenkins, O'Keefe and Grady",
+      "Id": 866,
+      "Description": "Robust disintermediate functionalities",
+      "ExtraInfo": "illum",
+      "LinkId": 682,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 534
+          "FieldLength": 710
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 989,
-  "Snum": 431,
+  "SuggestedDocumentId": 261,
+  "Snum": 593,
   "UserDefinedFields": {
-    "SuperOffice:1": "Shyann Denesik DDS",
-    "SuperOffice:2": "Nellie O'Conner"
+    "SuperOffice:1": "Taylor Buckridge",
+    "SuperOffice:2": "Miss Nestor Schmidt Jr."
   },
   "ExtraFields": {
-    "ExtraFields1": "totam",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "nihil",
+    "ExtraFields2": "dolores"
   },
   "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "sint"
+    "CustomFields1": "iusto",
+    "CustomFields2": "vel"
   },
-  "PublishEventDate": "2008-03-27T03:47:00.005716+01:00",
-  "PublishTo": "2013-11-18T03:47:00.005716+01:00",
-  "PublishFrom": "2016-06-11T03:47:00.005716+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2005-08-24T03:41:58.7461566+02:00",
+  "PublishTo": "2001-08-13T03:41:58.7461566+02:00",
+  "PublishFrom": "2001-01-12T03:41:58.7461566+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 416,
+      "VisibleId": 922,
       "Visibility": "All",
-      "DisplayValue": "accusantium",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 429
+          "FieldLength": 916
         }
       }
     },
     {
-      "VisibleId": 416,
+      "VisibleId": 922,
       "Visibility": "All",
-      "DisplayValue": "accusantium",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 429
+          "FieldLength": 916
         }
       }
     }
@@ -223,7 +223,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 877
+      "FieldLength": 471
     }
   }
 }

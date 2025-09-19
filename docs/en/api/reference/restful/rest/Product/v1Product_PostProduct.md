@@ -146,51 +146,51 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 27,
-  "ERPProductKey": "reiciendis",
-  "ERPPriceListKey": "nemo",
-  "Name": "Hegmann LLC",
-  "Description": "Face to face well-modulated throughput",
-  "Code": "omnis",
-  "PriceUnit": "voluptate",
-  "QuantityUnit": "aut",
-  "IsSubscription": true,
-  "SubscriptionUnit": "distinctio",
-  "DefaultSubscriptionQuantity": 17754.11,
-  "ItemNumber": "1712753",
+  "ProductId": 576,
+  "ERPProductKey": "consequatur",
+  "ERPPriceListKey": "facilis",
+  "Name": "Padberg Inc and Sons",
+  "Description": "Managed composite success",
+  "Code": "quis",
+  "PriceUnit": "quia",
+  "QuantityUnit": "cupiditate",
+  "IsSubscription": false,
+  "SubscriptionUnit": "maxime",
+  "DefaultSubscriptionQuantity": 4324.92,
+  "ItemNumber": "528341",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "atque",
-  "ProductTypeKey": "sint",
-  "VAT": 16835.847999999998,
-  "VATInfo": "quaerat",
-  "UnitCost": 8580.892,
-  "UnitMinimumPrice": 10201.17,
-  "UnitListPrice": 8756.3959999999988,
+  "ProductFamilyKey": "incidunt",
+  "ProductTypeKey": "dolorem",
+  "VAT": 162.968,
+  "VATInfo": "facilis",
+  "UnitCost": 8574.624,
+  "UnitMinimumPrice": 1147.0439999999999,
+  "UnitListPrice": 3347.112,
   "InAssortment": true,
-  "Supplier": "facere",
-  "SupplierCode": "natus",
-  "Rights": "quia",
-  "Rule": "et",
+  "Supplier": "dolorem",
+  "SupplierCode": "qui",
+  "Rights": "perferendis",
+  "Rule": "eum",
   "ExtraInfo": [
     {
-      "Name": "Okuneva, Durgan and Luettgen",
-      "Value": "totam",
+      "Name": "Emmerich LLC",
+      "Value": "dolorum",
       "Type": "Image"
     },
     {
-      "Name": "Okuneva, Durgan and Luettgen",
-      "Value": "totam",
+      "Name": "Emmerich LLC",
+      "Value": "dolorum",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "sit",
-  "ExtraField1": "deleniti",
+  "RawExtraInfo": "quas",
+  "ExtraField1": "sunt",
   "ExtraField2": "aut",
-  "ExtraField3": "iste",
-  "ExtraField4": "odio",
-  "ExtraField5": "culpa",
-  "InStock": 17443.844
+  "ExtraField3": "rerum",
+  "ExtraField4": "reprehenderit",
+  "ExtraField5": "adipisci",
+  "InStock": 8173.472
 }
 ```
 
@@ -201,73 +201,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 668,
-  "ERPProductKey": "sequi",
-  "ERPPriceListKey": "quisquam",
-  "Name": "Wolf Inc and Sons",
-  "Description": "Grass-roots executive algorithm",
-  "Code": "facere",
-  "PriceUnit": "tempora",
-  "QuantityUnit": "quis",
-  "IsSubscription": false,
-  "SubscriptionUnit": "sunt",
-  "DefaultSubscriptionQuantity": 16152.635999999999,
-  "ItemNumber": "227290",
+  "ProductId": 481,
+  "ERPProductKey": "at",
+  "ERPPriceListKey": "magni",
+  "Name": "Hermann Group",
+  "Description": "Face to face intangible knowledge user",
+  "Code": "veritatis",
+  "PriceUnit": "earum",
+  "QuantityUnit": "quisquam",
+  "IsSubscription": true,
+  "SubscriptionUnit": "dicta",
+  "DefaultSubscriptionQuantity": 12783.586,
+  "ItemNumber": "1142791",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "excepturi",
-  "ProductTypeKey": "magni",
-  "VAT": 12119.178,
-  "VATInfo": "laborum",
-  "UnitCost": 17224.464,
-  "UnitMinimumPrice": 8643.572,
-  "UnitListPrice": 25488.822,
-  "InAssortment": true,
-  "Supplier": "soluta",
-  "SupplierCode": "quo",
-  "Rights": "reprehenderit",
-  "Rule": "libero",
+  "ProductFamilyKey": "quidem",
+  "ProductTypeKey": "in",
+  "VAT": 20618.586,
+  "VATInfo": "aut",
+  "UnitCost": 28779.522,
+  "UnitMinimumPrice": 7408.776,
+  "UnitListPrice": 9254.702,
+  "InAssortment": false,
+  "Supplier": "laudantium",
+  "SupplierCode": "sed",
+  "Rights": "dignissimos",
+  "Rule": "quis",
   "ExtraInfo": [
     {
-      "Name": "Feil Inc and Sons",
-      "Value": "qui",
+      "Name": "Leannon, Towne and Hudson",
+      "Value": "rerum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 529
+          "FieldLength": 844
         }
       }
     },
     {
-      "Name": "Feil Inc and Sons",
-      "Value": "qui",
+      "Name": "Leannon, Towne and Hudson",
+      "Value": "rerum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 529
+          "FieldLength": 844
         }
       }
     }
   ],
-  "RawExtraInfo": "cum",
+  "RawExtraInfo": "at",
   "ExtraField1": "et",
-  "ExtraField2": "eos",
-  "ExtraField3": "aliquam",
-  "ExtraField4": "sapiente",
-  "ExtraField5": "cumque",
-  "InStock": 1068.694,
+  "ExtraField2": "vero",
+  "ExtraField3": "iusto",
+  "ExtraField4": "temporibus",
+  "ExtraField5": "sunt",
+  "InStock": 10310.859999999999,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 9
+      "FieldLength": 998
     }
   }
 }

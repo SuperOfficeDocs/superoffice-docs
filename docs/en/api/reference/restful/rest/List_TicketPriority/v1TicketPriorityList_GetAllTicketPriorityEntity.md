@@ -106,60 +106,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 632,
-    "Name": "Bechtelar-Jast",
+    "TicketPriorityId": 899,
+    "Name": "Hermiston Inc and Sons",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 888,
+    "SortOrder": 634,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 469,
-    "MonStart": "2016-03-03T03:47:00.8942898+01:00",
-    "MonStop": "2017-12-12T03:47:00.8942898+01:00",
-    "TueStart": "2005-03-06T03:47:00.8942898+01:00",
-    "TueStop": "2009-02-24T03:47:00.8942898+01:00",
-    "WedStart": "1998-05-22T03:47:00.8942898+02:00",
-    "WedStop": "2006-08-11T03:47:00.8942898+02:00",
-    "ThuStart": "2012-09-10T03:47:00.8942898+02:00",
-    "ThuStop": "2005-03-10T03:47:00.8942898+01:00",
-    "FriStart": "2015-06-09T03:47:00.8942898+02:00",
-    "FriStop": "2000-06-13T03:47:00.8942898+02:00",
-    "SatStart": "2018-01-03T03:47:00.8942898+01:00",
-    "SatStop": "2001-08-26T03:47:00.8942898+02:00",
-    "SunStart": "1999-05-04T03:47:00.8942898+02:00",
-    "SunStop": "2016-10-12T03:47:00.8942898+02:00",
+    "Deadline": 690,
+    "MonStart": "2021-05-07T03:41:59.6367262+02:00",
+    "MonStop": "2014-02-08T03:41:59.6367262+01:00",
+    "TueStart": "2018-10-06T03:41:59.6367262+02:00",
+    "TueStop": "2005-02-11T03:41:59.6367262+01:00",
+    "WedStart": "2018-03-12T03:41:59.6367262+01:00",
+    "WedStop": "2003-08-20T03:41:59.6367262+02:00",
+    "ThuStart": "2005-05-16T03:41:59.6367262+02:00",
+    "ThuStop": "2020-04-01T03:41:59.6367262+02:00",
+    "FriStart": "2006-07-26T03:41:59.6367262+02:00",
+    "FriStop": "2005-03-26T03:41:59.6367262+01:00",
+    "SatStart": "2004-02-13T03:41:59.6367262+01:00",
+    "SatStop": "2000-04-03T03:41:59.6367262+02:00",
+    "SunStart": "1998-10-08T03:41:59.6367262+02:00",
+    "SunStop": "2014-05-29T03:41:59.6367262+02:00",
     "NonDates": [
-      "error",
-      "facilis"
+      "tempore",
+      "asperiores"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 339,
-        "AlertLevel": 747,
-        "AlertTimeout": 521,
-        "Action": 116,
-        "DelegateTo": 716,
-        "ScriptId": 889,
-        "EmailTo": "aletha_block@quigley.uk",
-        "SmsTo": "sunt",
-        "ReplyTemplateIdCustomer": 877,
-        "ReplyTemplateIdUser": 505,
-        "ReplyTemplateIdCatmast": 341,
-        "ReplyTemplateIdEmail": 66,
-        "RtiCustomerSms": 286,
-        "ReplyTemplateIdUserSms": 343,
-        "ReplyTemplateIdCatmastSms": 121,
-        "ReplyTemplateIdSms": 712,
+        "TicketAlertId": 513,
+        "AlertLevel": 523,
+        "AlertTimeout": 575,
+        "Action": 454,
+        "DelegateTo": 2,
+        "ScriptId": 988,
+        "EmailTo": "juanita_lowe@vandervort.biz",
+        "SmsTo": "molestiae",
+        "ReplyTemplateIdCustomer": 591,
+        "ReplyTemplateIdUser": 830,
+        "ReplyTemplateIdCatmast": 344,
+        "ReplyTemplateIdEmail": 350,
+        "RtiCustomerSms": 248,
+        "ReplyTemplateIdUserSms": 882,
+        "ReplyTemplateIdCatmastSms": 775,
+        "ReplyTemplateIdSms": 670,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 407
+            "FieldType": "System.String",
+            "FieldLength": 623
           }
         }
       }
@@ -168,8 +168,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 600
+        "FieldType": "System.Int32",
+        "FieldLength": 454
       }
     }
   }

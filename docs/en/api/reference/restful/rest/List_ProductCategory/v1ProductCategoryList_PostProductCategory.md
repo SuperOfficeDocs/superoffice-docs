@@ -78,12 +78,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 189,
-  "Name": "Blick, Conn and Rempel",
-  "Tooltip": "similique",
+  "Id": 204,
+  "Name": "Skiles, Boyer and Shanahan",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "UdListDefinitionId": 147,
-  "Rank": 893
+  "UdListDefinitionId": 65,
+  "Rank": 307
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 989,
-  "Name": "Quigley, Stoltenberg and Hessel",
-  "Tooltip": "pariatur",
+  "Id": 761,
+  "Name": "Beahan-Gerlach",
+  "Tooltip": "maiores",
   "Deleted": false,
-  "UdListDefinitionId": 122,
-  "Rank": 368,
+  "UdListDefinitionId": 544,
+  "Rank": 829,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 539
+      "FieldType": "System.String",
+      "FieldLength": 110
     }
   }
 }

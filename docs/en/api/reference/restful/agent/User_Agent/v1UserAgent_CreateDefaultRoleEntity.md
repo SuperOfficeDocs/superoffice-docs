@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,16 +79,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 488,
-  "Name": "Wisozk LLC",
-  "Tooltip": "ut",
+  "RoleId": 968,
+  "Name": "Schaden Group",
+  "Tooltip": "velit",
   "RoleType": "Anonymous",
-  "Deleted": 2,
-  "Rank": 73,
-  "Created": "2009-03-11T03:46:55.5663534+01:00",
-  "UseCategories": 618,
+  "Deleted": 812,
+  "Rank": 285,
+  "Created": "2008-10-24T03:41:54.3244492+02:00",
+  "UseCategories": 708,
   "CreatedBy": null,
-  "Updated": "2016-09-08T03:46:55.5663534+02:00",
+  "Updated": "2011-10-12T03:41:54.3244492+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -96,7 +96,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 614
+      "FieldLength": 80
     }
   }
 }

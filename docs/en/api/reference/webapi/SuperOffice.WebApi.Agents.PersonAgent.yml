@@ -66,6 +66,7 @@ items:
   - SuperOffice.WebApi.Agents.PersonAgent.SetConsentAsync(System.Int32,System.String,System.String,System.String,System.String,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.SetPersonImageAsync(System.Int32,System.Byte[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.SetPersonRankAsync(System.Int32,System.Int16,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.PersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.TryAddPersonsToEmailFlowAsync(System.Int32,System.Int32[],SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.UndeleteAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.PersonAgent.ValidatePersonEntityAsync(SuperOffice.WebApi.Data.PersonEntity,SuperOffice.WebApi.RequestOptions)
@@ -852,7 +853,7 @@ items:
       description: Override language/culture codes on this request.
     return:
       type: System.Threading.Tasks.Task{System.Byte[]}
-      description: The image as a System.Drawing.Image. (If the the image is returned over webservices, the stream is returned as a Base64 encoded string.)
+      description: The person image.
     content.vb: Public Function GetPersonImageAsync(personId As Integer, returnContentType As String = "application/octet-stream", requestOptions As RequestOptions = Nothing) As Task(Of Byte())
   overload: SuperOffice.WebApi.Agents.PersonAgent.GetPersonImageAsync*
   implements:
@@ -884,7 +885,7 @@ items:
       description: The person id of the person the image belongs to.
     - id: image
       type: System.Byte[]
-      description: The image that is stored on the person (System.Drawing.Image)
+      description: The person image.
     - id: requestOptions
       type: SuperOffice.WebApi.RequestOptions
       description: Override language/culture codes on this request.
@@ -2145,6 +2146,47 @@ items:
   nameWithType.vb: PersonAgent.GetUtmParametersAsync(Integer, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.PersonAgent.GetUtmParametersAsync(Integer, SuperOffice.WebApi.RequestOptions)
   name.vb: GetUtmParametersAsync(Integer, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.PersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.PersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: SetUtmCreatedPersonContactForFormSubmissionAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.PersonAgent
+  langs:
+  - csharp
+  - vb
+  name: SetUtmCreatedPersonContactForFormSubmissionAsync(int, int, int, RequestOptions)
+  nameWithType: PersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(int, int, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.PersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(int, int, int, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Set created person and optinally contact on an UTM Parameters row related to a form submission.
+  example: []
+  syntax:
+    content: public Task SetUtmCreatedPersonContactForFormSubmissionAsync(int formSubmissionId, int personId, int contactId, RequestOptions requestOptions = null)
+    parameters:
+    - id: formSubmissionId
+      type: System.Int32
+      description: Id of Form submission row related to UTM Parameters row
+    - id: personId
+      type: System.Int32
+      description: Person id to set
+    - id: contactId
+      type: System.Int32
+      description: Contact id to set. Can be 0.
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Public Function SetUtmCreatedPersonContactForFormSubmissionAsync(formSubmissionId As Integer, personId As Integer, contactId As Integer, requestOptions As RequestOptions = Nothing) As Task
+  overload: SuperOffice.WebApi.Agents.PersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.IPersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: PersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(Integer, Integer, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.PersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(Integer, Integer, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: SetUtmCreatedPersonContactForFormSubmissionAsync(Integer, Integer, Integer, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.PersonAgent.GetPersonListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.PersonAgent.GetPersonListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
   id: GetPersonListAsync(System.Int32[],SuperOffice.WebApi.RequestOptions)
@@ -8017,6 +8059,82 @@ references:
     name: UtmParameters
     isExternal: true
     href: SuperOffice.WebApi.Data.UtmParameters.html
+  - name: )
+- uid: SuperOffice.WebApi.Agents.PersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.PersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.PersonAgent.html#SuperOffice_WebApi_Agents_PersonAgent_SetUtmCreatedPersonContactForFormSubmissionAsync_System_Int32_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: SetUtmCreatedPersonContactForFormSubmissionAsync
+  nameWithType: PersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync
+  fullName: SuperOffice.WebApi.Agents.PersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync
+- uid: SuperOffice.WebApi.Agents.IPersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IPersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IPersonAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IPersonAgent.html#SuperOffice_WebApi_Agents_IPersonAgent_SetUtmCreatedPersonContactForFormSubmissionAsync_System_Int32_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
+  name: SetUtmCreatedPersonContactForFormSubmissionAsync(int, int, int, RequestOptions)
+  nameWithType: IPersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(int, int, int, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IPersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(int, int, int, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: IPersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(Integer, Integer, Integer, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.IPersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(Integer, Integer, Integer, SuperOffice.WebApi.RequestOptions)
+  name.vb: SetUtmCreatedPersonContactForFormSubmissionAsync(Integer, Integer, Integer, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.IPersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: SetUtmCreatedPersonContactForFormSubmissionAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IPersonAgent.html#SuperOffice_WebApi_Agents_IPersonAgent_SetUtmCreatedPersonContactForFormSubmissionAsync_System_Int32_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.IPersonAgent.SetUtmCreatedPersonContactForFormSubmissionAsync(System.Int32,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: SetUtmCreatedPersonContactForFormSubmissionAsync
+    isExternal: true
+    href: SuperOffice.WebApi.Agents.IPersonAgent.html#SuperOffice_WebApi_Agents_IPersonAgent_SetUtmCreatedPersonContactForFormSubmissionAsync_System_Int32_System_Int32_System_Int32_SuperOffice_WebApi_RequestOptions_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    isExternal: true
+    href: SuperOffice.WebApi.RequestOptions.html
   - name: )
 - uid: SuperOffice.WebApi.Agents.PersonAgent.GetPersonListAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.PersonAgent.GetPersonListAsync

@@ -233,7 +233,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: >-
-    Companies and Organizations.   This table features a special record containing information about the contact that owns the database.  
+    Companies and Organizations.
 
     <br />Row Object for table 'contact'. Row objects correspond directly to database tables, and one
 
@@ -2098,7 +2098,7 @@ items:
   summary: >-
     Constructor for the class taking an index as argument.
 
-    Companies and Organizations.   This table features a special record containing information about the contact that owns the database.
+    Companies and Organizations.
   example: []
   syntax:
     content: protected ContactRow(ContactRow.ContactRowIdxBase idx)
@@ -2128,7 +2128,7 @@ items:
   summary: >-
     Create a new instance of the ContactRow object.
 
-    Companies and Organizations.   This table features a special record containing information about the contact that owns the database.
+    Companies and Organizations.
   example: []
   syntax:
     content: public static ContactRow CreateNew()
@@ -2158,7 +2158,7 @@ items:
 
     will be returned. If any fields are missing or one of the non-primary key fields is DBNull, an exception will be thrown.
 
-    Companies and Organizations.   This table features a special record containing information about the contact that owns the database.
+    Companies and Organizations.
   example: []
   syntax:
     content: public static ContactRow GetFromReader(SoDataReader reader, ContactTableInfo tableInfo)

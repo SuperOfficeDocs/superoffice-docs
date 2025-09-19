@@ -127,18 +127,18 @@ DashTileDefinition  updated.
 PATCH /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "illo",
+    "path": "sit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "illo",
+    "path": "sit",
     "value": {}
   }
 ]
@@ -151,31 +151,31 @@ HTTP/1.1 200 DashTileDefinition  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 309,
-  "Name": "Gorczany-Stark",
-  "Description": "Synchronised attitude-oriented interface",
-  "DefaultHeight": 591,
-  "DefaultWidth": 309,
+  "DashboardTileDefinitionId": 932,
+  "Name": "Lang LLC",
+  "Description": "Integrated mission-critical moratorium",
+  "DefaultHeight": 860,
+  "DefaultWidth": 602,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Mann Group",
-  "SelectionId": 253,
+  "EntityName": "Jacobson, Jakubowski and Bogan",
+  "SelectionId": 800,
   "CurrencyMode": "Base",
-  "CurrencyCode": "facilis",
+  "CurrencyCode": "neque",
   "Measure": "Average",
-  "MeasureField": "minima",
-  "SortBy": "eveniet",
-  "LayoutConfig": "praesentium",
-  "SecondarySelectionId": 14,
-  "MeasureByField": "est",
+  "MeasureField": "atque",
+  "SortBy": "hic",
+  "LayoutConfig": "aut",
+  "SecondarySelectionId": 388,
+  "MeasureByField": "consequatur",
   "Usage": "Dashboard",
-  "ProviderName": "Langosh Group",
+  "ProviderName": "Reynolds, McLaughlin and Cruickshank",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldType": "System.String",
+      "FieldLength": 760
     }
   },
   "_Links": {

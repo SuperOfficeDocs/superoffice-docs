@@ -71,14 +71,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Document?$select=name,department,category/id
 GET /api/v1/Document?$filter=name begins 'S'
 GET /api/v1/Document?$orderBy=name asc
-GET /api/v1/Document?$entities=velit
-GET /api/v1/Document?$top=205
-GET /api/v1/Document?$skip=536
+GET /api/v1/Document?$entities=commodi
+GET /api/v1/Document?$top=377
+GET /api/v1/Document?$skip=299
 GET /api/v1/Document?$mode=Full
 GET /api/v1/Document?$options=GrandTotal=true
-GET /api/v1/Document?$context=optio
+GET /api/v1/Document?$context=natus
 GET /api/v1/Document?$format=JSON
-GET /api/v1/Document?$jsonSafe=True
+GET /api/v1/Document?$jsonSafe=False
 GET /api/v1/Document?$output=Display
 ```
 
@@ -119,7 +119,7 @@ OK
 GET /api/v1/Document
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -130,21 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "rerum",
+  "odata.nextLink": "consequatur",
   "value": [
     {
-      "PrimaryKey": 2221,
+      "PrimaryKey": 2837,
       "EntityName": "sale",
-      "saleId": 2221,
-      "contactId": 220,
-      "name": "Dare-Emard"
+      "saleId": 2837,
+      "contactId": 3977,
+      "name": "Ziemann Inc and Sons"
     },
     {
-      "PrimaryKey": 7648,
+      "PrimaryKey": 8692,
       "EntityName": "sale",
-      "saleId": 7648,
-      "contactId": 135,
-      "name": "Baumbach-Harvey"
+      "saleId": 8692,
+      "contactId": 4903,
+      "name": "Mohr, Wisozk and Corkery"
     }
   ]
 }

@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 128,
-    "Name": "Waelchi Group",
-    "ToolTip": "Ut accusamus repudiandae in molestias.",
+    "Id": 310,
+    "Name": "Kilback-Haley",
+    "ToolTip": "Est voluptatem impedit ut numquam vel.",
     "Deleted": false,
-    "Rank": 496,
-    "Type": "omnis",
-    "ColorBlock": 923,
-    "IconHint": "ipsum",
+    "Rank": 737,
+    "Type": "hic",
+    "ColorBlock": 781,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2018-11-01T03:47:00.8942898+01:00",
+    "LastChanged": "1998-08-13T03:41:59.6211021+02:00",
     "ChildItems": [
       {
-        "Id": 62,
-        "Name": "Vandervort Inc and Sons",
-        "ToolTip": "Provident sit vero.",
-        "Deleted": true,
-        "Rank": 725,
-        "Type": "autem",
-        "ColorBlock": 308,
-        "IconHint": "et",
+        "Id": 968,
+        "Name": "Kshlerin-Grant",
+        "ToolTip": "Ut amet minus.",
+        "Deleted": false,
+        "Rank": 87,
+        "Type": "tempora",
+        "ColorBlock": 874,
+        "IconHint": "hic",
         "Selected": false,
-        "LastChanged": "2012-11-14T03:47:00.8942898+01:00",
+        "LastChanged": "2017-05-20T03:41:59.6211021+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Judy Daija Langosh IV",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "fugit",
+        "Hidden": true,
+        "FullName": "Tyrell Ryan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 703
+            "FieldType": "System.Int32",
+            "FieldLength": 246
           }
         }
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "et",
+    "ExtraInfo": "ab",
+    "StyleHint": "dicta",
     "Hidden": true,
-    "FullName": "Ms. Una Brent Sauer Jr.",
+    "FullName": "Mr. Ludie VonRueden IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 493
+        "FieldLength": 125
       }
     }
   }

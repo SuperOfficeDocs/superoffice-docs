@@ -90,12 +90,12 @@ OK
 POST /api/v1/Agents/List/GetHeadings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 703,
-  "ListItemId": 496,
+  "UdListDefinitionId": 286,
+  "ListItemId": 146,
   "ShowDeleted": false
 }
 ```
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 433,
-    "Name": "Marvin-Hamill",
-    "ToolTip": "At eaque eius odio totam aut est.",
-    "Deleted": false,
-    "Rank": 131,
-    "Type": "qui",
-    "ColorBlock": 104,
-    "IconHint": "earum",
-    "Selected": false,
-    "LastChanged": "2004-04-18T03:46:54.9569999+02:00",
+    "Id": 128,
+    "Name": "Carroll Inc and Sons",
+    "ToolTip": "Et nesciunt.",
+    "Deleted": true,
+    "Rank": 559,
+    "Type": "totam",
+    "ColorBlock": 608,
+    "IconHint": "dolor",
+    "Selected": true,
+    "LastChanged": "2008-10-03T03:41:53.6994806+02:00",
     "ChildItems": [
       {
-        "Id": 125,
-        "Name": "Armstrong Inc and Sons",
-        "ToolTip": "Animi quidem sint quis neque natus.",
-        "Deleted": true,
-        "Rank": 3,
-        "Type": "quam",
-        "ColorBlock": 352,
-        "IconHint": "eum",
+        "Id": 306,
+        "Name": "Ullrich-Schumm",
+        "ToolTip": "Dolores aliquam enim quidem omnis tempore.",
+        "Deleted": false,
+        "Rank": 862,
+        "Type": "amet",
+        "ColorBlock": 273,
+        "IconHint": "corporis",
         "Selected": false,
-        "LastChanged": "2007-05-26T03:46:54.9569999+02:00",
+        "LastChanged": "2013-05-10T03:41:53.6994806+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "id",
-        "Hidden": false,
-        "FullName": "Prof. Yessenia Cormier",
+        "ExtraInfo": "a",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Kamron Mills MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 105
+            "FieldLength": 143
           }
         }
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "sequi",
-    "Hidden": false,
-    "FullName": "Roxane Marion Rodriguez DVM",
+    "ExtraInfo": "sint",
+    "StyleHint": "ipsam",
+    "Hidden": true,
+    "FullName": "Chadd Brekke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 62
+        "FieldLength": 697
       }
     }
   }

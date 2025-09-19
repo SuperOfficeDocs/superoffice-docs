@@ -88,10 +88,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "quis",
-    "cupiditate"
+    "accusamus",
+    "mollitia"
   ],
-  "CurrentClientTime": "2020-09-18T03:46:55.1288689+02:00"
+  "CurrentClientTime": "2016-03-12T03:41:53.8713435+01:00"
 }
 ```
 
@@ -103,43 +103,43 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "eum",
-    "et"
+    "alias",
+    "facilis"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 820,
-  "NotificationsCount": 620,
+  "OverdueSalesCount": 264,
+  "NotificationsCount": 677,
   "SystemWebPanels": [
     {
-      "WebPanelId": 720,
-      "Name": "Gottlieb-Farrell",
-      "Tooltip": "illum",
-      "Deleted": false,
-      "Rank": 300,
+      "WebPanelId": 970,
+      "Name": "McDermott-Grady",
+      "Tooltip": "similique",
+      "Deleted": true,
+      "Rank": 923,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": false,
-      "OnSatellite": true,
+      "OnSatellite": false,
       "OnTravel": false,
       "OnSalesMarketingWeb": false,
       "OnSalesMarketingPocket": false,
       "ShowInMenuBar": true,
-      "ShowInToolBar": false,
+      "ShowInToolBar": true,
       "ShowInAddressBar": false,
-      "ShowInStatusBar": true,
-      "WindowName": "Denesik, Barrows and Hessel",
+      "ShowInStatusBar": false,
+      "WindowName": "Kozey LLC",
       "Url": "http://www.example.com/",
-      "ProgId": "eius",
-      "Icon": 752,
-      "AlwaysReloadOnShow": true,
-      "NeverReloadOnCurrentChange": true,
+      "ProgId": "earum",
+      "Icon": 695,
+      "AlwaysReloadOnShow": false,
+      "NeverReloadOnCurrentChange": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 109
+          "FieldLength": 188
         }
       }
     }
@@ -147,34 +147,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "totam",
+      "RawValue": "et",
       "Specification": null,
-      "DisplayValue": "hic",
-      "DisplayTooltip": "explicabo",
+      "DisplayValue": "ut",
+      "DisplayTooltip": "ullam",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 754,
-      "PrefDescId": 751,
-      "TableName": "Harvey-Luettgen",
-      "UserPreferenceId": 993,
+      "TargetId": 497,
+      "PrefDescId": 48,
+      "TableName": "Breitenberg, Schulist and Brown",
+      "UserPreferenceId": 180,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 199
+          "FieldLength": 528
         }
       }
     }
   ],
-  "IsPushNotificationEnabled": false,
-  "CustomData": "quis",
+  "IsPushNotificationEnabled": true,
+  "CustomData": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 572
+      "FieldType": "System.Int32",
+      "FieldLength": 603
     }
   }
 }

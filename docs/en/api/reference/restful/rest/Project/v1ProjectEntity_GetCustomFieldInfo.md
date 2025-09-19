@@ -73,7 +73,7 @@ OK
 GET /api/v1/Project/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,18 +84,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Kuphal-Gutmann",
-  "DisplayName": "Heller Group",
-  "Description": "Customer-focused zero tolerance moratorium",
-  "ShortLabel": "amet",
+  "FieldName": "Kilback LLC",
+  "DisplayName": "Kuhn LLC",
+  "Description": "Networked incremental software",
+  "ShortLabel": "iusto",
   "HideLabel": false,
   "HideField": false,
-  "IsIndexed": false,
-  "IsMandatory": false,
+  "IsIndexed": true,
+  "IsMandatory": true,
   "IsReadOnly": false,
-  "IsExternal": false,
-  "IsDisplayField": true,
-  "Rank": 337,
-  "TemplateVariableName": "Hayes-Pouros"
+  "IsExternal": true,
+  "IsDisplayField": false,
+  "Rank": 813,
+  "TemplateVariableName": "Vandervort, Hudson and Connelly"
 }
 ```

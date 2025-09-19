@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 266,
-    "Name": "Hammes Inc and Sons",
-    "Tooltip": "non",
+    "HeadingId": 544,
+    "Name": "Turcotte-Kovacek",
+    "Tooltip": "laborum",
     "Deleted": true,
-    "Rank": 750,
-    "UdListDefinitionId": 787,
+    "Rank": 343,
+    "UdListDefinitionId": 410,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 991
+        "FieldType": "System.Int32",
+        "FieldLength": 952
       }
     }
   }

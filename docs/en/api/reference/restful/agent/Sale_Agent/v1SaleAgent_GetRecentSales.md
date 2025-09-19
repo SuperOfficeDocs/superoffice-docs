@@ -101,12 +101,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 250,
-  "Count": 571
+  "AmountLimit": 325,
+  "Count": 814
 }
 ```
 
@@ -118,37 +118,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Borer Inc and Sons",
-    "SaleDate": "2004-10-15T03:46:55.2694888+02:00",
-    "SaleId": 312,
-    "Probability": 913,
-    "Title": "enim",
-    "Amount": 3810.944,
-    "Currency": "repudiandae",
-    "ProjectName": "Wolf-Reinger",
-    "AssociateFullName": "Joshuah Tillman II",
-    "Description": "Secured value-added info-mediaries",
+    "ContactName": "Satterfield-Botsford",
+    "SaleDate": "2001-09-11T03:41:54.0119629+02:00",
+    "SaleId": 813,
+    "Probability": 609,
+    "Title": "at",
+    "Amount": 26711.082,
+    "Currency": "placeat",
+    "ProjectName": "Anderson-Effertz",
+    "AssociateFullName": "Mr. Americo Kasey Gerlach PhD",
+    "Description": "Grass-roots discrete help-desk",
     "Status": "Lost",
-    "WeightedAmount": 30854.23,
-    "ProjectId": 51,
-    "EarningPercent": 5697.612,
-    "Earning": 21333.138,
-    "ContactId": 295,
-    "AssociateId": 840,
-    "PersonId": 423,
-    "SaleTypeId": 776,
-    "SaleTypeName": "Walsh Inc and Sons",
-    "PersonFullName": "Amaya Hoeger",
+    "WeightedAmount": 24705.322,
+    "ProjectId": 763,
+    "EarningPercent": 25532.698,
+    "Earning": 9962.985999999999,
+    "ContactId": 947,
+    "AssociateId": 347,
+    "PersonId": 946,
+    "SaleTypeId": 615,
+    "SaleTypeName": "Kautzer, O'Hara and Hilpert",
+    "PersonFullName": "Mr. Jabari Legros",
     "Completed": "Completed",
-    "ActiveErpLinks": 296,
-    "NextDueDate": "2019-02-19T03:46:55.2694888+01:00",
-    "Number": "770645",
+    "ActiveErpLinks": 740,
+    "NextDueDate": "2017-05-12T03:41:54.0119629+02:00",
+    "Number": "517194",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 240
+        "FieldType": "System.Int32",
+        "FieldLength": 709
       }
     }
   }

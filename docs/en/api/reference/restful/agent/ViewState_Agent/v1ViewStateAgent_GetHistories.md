@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/ViewState/GetHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,19 +83,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 434,
-    "Id": 217,
-    "HistoryName": "Mohr LLC",
-    "HistoryId": 348,
-    "AssociateId": 691,
-    "Name": "Kemmer Inc and Sons",
-    "ItemInfo": "doloribus",
+    "Rank": 728,
+    "Id": 987,
+    "HistoryName": "Schimmel-Marquardt",
+    "HistoryId": 489,
+    "AssociateId": 858,
+    "Name": "Graham Group",
+    "ItemInfo": "accusantium",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 808
+        "FieldLength": 731
       }
     }
   }

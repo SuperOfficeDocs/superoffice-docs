@@ -70,30 +70,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gusikowski, Ruecker and Stamm",
-    "DisplayName": "Lang Group",
-    "DisplayTooltip": "dolores",
-    "IsActive": true,
+    "Name": "Stiedemann, Stamm and Runte",
+    "DisplayName": "Gleason-Reichel",
+    "DisplayTooltip": "nesciunt",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 55
+        "FieldType": "System.Int32",
+        "FieldLength": 685
       }
     }
   },
   {
-    "Name": "Gusikowski, Ruecker and Stamm",
-    "DisplayName": "Lang Group",
-    "DisplayTooltip": "dolores",
-    "IsActive": true,
+    "Name": "Stiedemann, Stamm and Runte",
+    "DisplayName": "Gleason-Reichel",
+    "DisplayTooltip": "nesciunt",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 55
+        "FieldType": "System.Int32",
+        "FieldLength": 685
       }
     }
   }

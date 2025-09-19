@@ -511,6 +511,18 @@ content_type: reference
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="PerformTasksAfterCustomObjectTableCreated">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="TableName" nillable="true" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="PerformTasksAfterCustomObjectTableCreatedResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="PerformTasksAfterCustomObjectTableDeleted">
         <xs:complexType>
           <xs:sequence>
@@ -997,6 +1009,23 @@ content_type: reference
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="PerformTasksAfterCustomObjectTableCreatedRequest">
+    <wsdl:part name="parameters" element="tns:PerformTasksAfterCustomObjectTableCreated" />
+  </wsdl:message>
+  <wsdl:message name="PerformTasksAfterCustomObjectTableCreatedRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="PerformTasksAfterCustomObjectTableCreatedResponse">
+    <wsdl:part name="parameters" element="tns:PerformTasksAfterCustomObjectTableCreatedResponse" />
+  </wsdl:message>
+  <wsdl:message name="PerformTasksAfterCustomObjectTableCreatedResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="PerformTasksAfterCustomObjectTableDeletedRequest">
     <wsdl:part name="parameters" element="tns:PerformTasksAfterCustomObjectTableDeleted" />
   </wsdl:message>
@@ -1149,6 +1178,10 @@ content_type: reference
     <wsdl:operation name="PerformTasksAfterUpgrade">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/PerformTasksAfterUpgrade" name="PerformTasksAfterUpgradeRequest" message="tns:PerformTasksAfterUpgradeRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/PerformTasksAfterUpgradeResponse" name="PerformTasksAfterUpgradeResponse" message="tns:PerformTasksAfterUpgradeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="PerformTasksAfterCustomObjectTableCreated">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/PerformTasksAfterCustomObjectTableCreated" name="PerformTasksAfterCustomObjectTableCreatedRequest" message="tns:PerformTasksAfterCustomObjectTableCreatedRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/PerformTasksAfterCustomObjectTableCreatedResponse" name="PerformTasksAfterCustomObjectTableCreatedResponse" message="tns:PerformTasksAfterCustomObjectTableCreatedResponse" />
     </wsdl:operation>
     <wsdl:operation name="PerformTasksAfterCustomObjectTableDeleted">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/PerformTasksAfterCustomObjectTableDeleted" name="PerformTasksAfterCustomObjectTableDeletedRequest" message="tns:PerformTasksAfterCustomObjectTableDeletedRequest" />
@@ -1502,6 +1535,22 @@ content_type: reference
         <soap:header message="tns:PerformTasksAfterUpgradeResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:PerformTasksAfterUpgradeResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:PerformTasksAfterUpgradeResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PerformTasksAfterCustomObjectTableCreated">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/PerformTasksAfterCustomObjectTableCreated" style="document" />
+      <wsdl:input name="PerformTasksAfterCustomObjectTableCreatedRequest">
+        <soap:header message="tns:PerformTasksAfterCustomObjectTableCreatedRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:PerformTasksAfterCustomObjectTableCreatedRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:PerformTasksAfterCustomObjectTableCreatedRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="PerformTasksAfterCustomObjectTableCreatedResponse">
+        <soap:header message="tns:PerformTasksAfterCustomObjectTableCreatedResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:PerformTasksAfterCustomObjectTableCreatedResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:PerformTasksAfterCustomObjectTableCreatedResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:PerformTasksAfterCustomObjectTableCreatedResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

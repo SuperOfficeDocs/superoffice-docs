@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 285,
+  "SourceDocumentTemplateId": 940,
   "DocumentTemplateEntity": null
 }
 ```
@@ -115,37 +115,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 655,
-  "Name": "Turcotte, Cassin and Dickens",
-  "Tooltip": "animi",
-  "SaveInDb": 93,
-  "Filename": "qui",
-  "DefaultOref": "ut",
+  "DocumentTemplateId": 871,
+  "Name": "O'Hara Inc and Sons",
+  "Tooltip": "dolor",
+  "SaveInDb": 457,
+  "Filename": "ea",
+  "DefaultOref": "placeat",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 20,
-  "IntentId": 325,
-  "IsDefaultPublished": false,
-  "Rank": 869,
-  "LoadTemplateFromPlugin": 915,
-  "MimeType": "neque",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 25,
+  "AutoeventId": 552,
+  "IntentId": 99,
+  "IsDefaultPublished": true,
+  "Rank": 312,
+  "LoadTemplateFromPlugin": 203,
+  "MimeType": "non",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 662,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "cheyenne@oberbrunnermann.info",
+  "EmailSubject": "kennedi@harvey.ca",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "leonor.huel@mccullough.uk",
+  "SenderEmailAddress": "trace.ledner@legrosgraham.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldType": "System.String",
+      "FieldLength": 760
     }
   }
 }

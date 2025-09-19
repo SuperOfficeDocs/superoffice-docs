@@ -42,6 +42,7 @@ items:
   - SuperOffice.Util.ICalendarUtility
   - SuperOffice.Util.ITextEncodingDetector
   - SuperOffice.Util.ITrackEventDispatcher
+  - SuperOffice.Util.IWebAppUsageRecorder
   - SuperOffice.Util.ImageUtilities
   - SuperOffice.Util.ImageUtilities.FallbackStrategy
   - SuperOffice.Util.ImageUtilities.ImageSize
@@ -63,7 +64,6 @@ items:
   - SuperOffice.Util.NotUtf8EncodingDetector
   - SuperOffice.Util.ObjectExtensions
   - SuperOffice.Util.OnlineConfigWaiter
-  - SuperOffice.Util.OperationTracker
   - SuperOffice.Util.ParameterBuilder
   - SuperOffice.Util.PreferenceLicenseRequired
   - SuperOffice.Util.RagAIConfiguration
@@ -93,7 +93,6 @@ items:
   - SuperOffice.Util.TimeConverterHelper
   - SuperOffice.Util.TimeZoneUtility
   - SuperOffice.Util.TrackEvent
-  - SuperOffice.Util.TrackEventConfiguration
   - SuperOffice.Util.TrackEventDispatcher
   - SuperOffice.Util.TrackEventSender
   - SuperOffice.Util.TwipsConverter
@@ -103,6 +102,7 @@ items:
   - SuperOffice.Util.UsedPrefKeysUtils
   - SuperOffice.Util.VideoMeetingHelper
   - SuperOffice.Util.VideoMeetingHelper.SoAppointment
+  - SuperOffice.Util.VideoMeetingHelper.UserConnectedState
   - SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation
   - SuperOffice.Util.VisitorPatternHelper`1
   - SuperOffice.Util.WebAppUsageRecorder
@@ -538,6 +538,14 @@ references:
   name: InjectionHelper
   nameWithType: InjectionHelper
   fullName: SuperOffice.Util.InjectionHelper
+- uid: SuperOffice.Util.IWebAppUsageRecorder
+  commentId: T:SuperOffice.Util.IWebAppUsageRecorder
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.IWebAppUsageRecorder.html
+  name: IWebAppUsageRecorder
+  nameWithType: IWebAppUsageRecorder
+  fullName: SuperOffice.Util.IWebAppUsageRecorder
 - uid: SuperOffice.Util.SJElement
   commentId: T:SuperOffice.Util.SJElement
   parent: SuperOffice.Util
@@ -733,13 +741,6 @@ references:
   name: OnlineConfigWaiter
   nameWithType: OnlineConfigWaiter
   fullName: SuperOffice.Util.OnlineConfigWaiter
-- uid: SuperOffice.Util.OperationTracker
-  commentId: T:SuperOffice.Util.OperationTracker
-  isExternal: true
-  href: SuperOffice.Util.OperationTracker.html
-  name: OperationTracker
-  nameWithType: OperationTracker
-  fullName: SuperOffice.Util.OperationTracker
 - uid: SuperOffice.Util.ParameterBuilder
   commentId: T:SuperOffice.Util.ParameterBuilder
   isExternal: true
@@ -1259,6 +1260,33 @@ references:
     name: VideoMeetingReservation
     isExternal: true
     href: SuperOffice.Util.VideoMeetingHelper.VideoMeetingReservation.html
+- uid: SuperOffice.Util.VideoMeetingHelper.UserConnectedState
+  commentId: T:SuperOffice.Util.VideoMeetingHelper.UserConnectedState
+  isExternal: true
+  href: SuperOffice.Util.VideoMeetingHelper.html
+  name: VideoMeetingHelper.UserConnectedState
+  nameWithType: VideoMeetingHelper.UserConnectedState
+  fullName: SuperOffice.Util.VideoMeetingHelper.UserConnectedState
+  spec.csharp:
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: .
+  - uid: SuperOffice.Util.VideoMeetingHelper.UserConnectedState
+    name: UserConnectedState
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.UserConnectedState.html
+  spec.vb:
+  - uid: SuperOffice.Util.VideoMeetingHelper
+    name: VideoMeetingHelper
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.html
+  - name: .
+  - uid: SuperOffice.Util.VideoMeetingHelper.UserConnectedState
+    name: UserConnectedState
+    isExternal: true
+    href: SuperOffice.Util.VideoMeetingHelper.UserConnectedState.html
 - uid: SuperOffice.Util.WebAppUsageRecorder
   commentId: T:SuperOffice.Util.WebAppUsageRecorder
   isExternal: true
@@ -1511,13 +1539,6 @@ references:
   name: ITrackEventDispatcher
   nameWithType: ITrackEventDispatcher
   fullName: SuperOffice.Util.ITrackEventDispatcher
-- uid: SuperOffice.Util.TrackEventConfiguration
-  commentId: T:SuperOffice.Util.TrackEventConfiguration
-  isExternal: true
-  href: SuperOffice.Util.TrackEventConfiguration.html
-  name: TrackEventConfiguration
-  nameWithType: TrackEventConfiguration
-  fullName: SuperOffice.Util.TrackEventConfiguration
 - uid: SuperOffice.Util.TrackEventDispatcher
   commentId: T:SuperOffice.Util.TrackEventDispatcher
   isExternal: true

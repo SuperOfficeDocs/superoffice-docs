@@ -91,7 +91,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,73 +101,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 601,
-  "ERPProductKey": "pariatur",
-  "ERPPriceListKey": "eos",
-  "Name": "Kozey Inc and Sons",
-  "Description": "Balanced motivating archive",
-  "Code": "architecto",
-  "PriceUnit": "ut",
-  "QuantityUnit": "culpa",
-  "IsSubscription": true,
-  "SubscriptionUnit": "repellendus",
-  "DefaultSubscriptionQuantity": 19929.106,
-  "ItemNumber": "1035505",
+  "ProductId": 278,
+  "ERPProductKey": "odit",
+  "ERPPriceListKey": "est",
+  "Name": "Lakin, Rath and O'Connell",
+  "Description": "Cross-platform holistic system engine",
+  "Code": "facere",
+  "PriceUnit": "doloribus",
+  "QuantityUnit": "id",
+  "IsSubscription": false,
+  "SubscriptionUnit": "commodi",
+  "DefaultSubscriptionQuantity": 23890.482,
+  "ItemNumber": "637133",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "cum",
-  "ProductTypeKey": "officiis",
-  "VAT": 1009.1479999999999,
-  "VATInfo": "placeat",
-  "UnitCost": 21088.685999999998,
-  "UnitMinimumPrice": 23771.39,
-  "UnitListPrice": 22818.654,
-  "InAssortment": false,
-  "Supplier": "nihil",
-  "SupplierCode": "distinctio",
-  "Rights": "rem",
-  "Rule": "et",
+  "ProductFamilyKey": "rerum",
+  "ProductTypeKey": "ex",
+  "VAT": 5550.3139999999994,
+  "VATInfo": "illo",
+  "UnitCost": 394.884,
+  "UnitMinimumPrice": 26883.451999999997,
+  "UnitListPrice": 12855.668,
+  "InAssortment": true,
+  "Supplier": "eaque",
+  "SupplierCode": "sapiente",
+  "Rights": "deleniti",
+  "Rule": "qui",
   "ExtraInfo": [
     {
-      "Name": "Emmerich Inc and Sons",
-      "Value": "rem",
+      "Name": "Hackett LLC",
+      "Value": "corporis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 398
+          "FieldType": "System.String",
+          "FieldLength": 666
         }
       }
     },
     {
-      "Name": "Emmerich Inc and Sons",
-      "Value": "rem",
+      "Name": "Hackett LLC",
+      "Value": "corporis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 398
+          "FieldType": "System.String",
+          "FieldLength": 666
         }
       }
     }
   ],
-  "RawExtraInfo": "dicta",
-  "ExtraField1": "corporis",
-  "ExtraField2": "dolores",
-  "ExtraField3": "maiores",
-  "ExtraField4": "autem",
-  "ExtraField5": "impedit",
-  "InStock": 24673.982,
+  "RawExtraInfo": "pariatur",
+  "ExtraField1": "quia",
+  "ExtraField2": "nostrum",
+  "ExtraField3": "voluptate",
+  "ExtraField4": "pariatur",
+  "ExtraField5": "quis",
+  "InStock": 6756.9039999999995,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 366
+      "FieldType": "System.String",
+      "FieldLength": 325
     }
   }
 }

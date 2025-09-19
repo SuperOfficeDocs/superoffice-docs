@@ -28,7 +28,7 @@ Calls the Appointment agent service GetAllTaskListItem.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Task/Items?includeDeleted=False
+GET /api/v1/List/Task/Items?includeDeleted=True
 ```
 
 
@@ -91,25 +91,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 780,
-    "Value": "neque",
+    "TaskListItemId": 403,
+    "Value": "consequatur",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "enim",
+    "Tooltip": "labore",
     "Deleted": false,
-    "IntentId": 24,
-    "Rank": 615,
-    "IsDefaultAlldayEvent": false,
+    "IntentId": 247,
+    "Rank": 494,
+    "IsDefaultAlldayEvent": true,
     "IsDefaultFree": true,
-    "IsDefaultPublished": true,
+    "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 442
+        "FieldType": "System.String",
+        "FieldLength": 525
       }
     }
   }

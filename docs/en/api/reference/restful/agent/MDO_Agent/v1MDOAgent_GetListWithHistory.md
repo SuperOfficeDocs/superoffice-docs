@@ -89,18 +89,18 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kihn, Towne and Reinger",
-  "ForceFlatList": true,
-  "AdditionalInfo": "eligendi",
+  "Name": "Bechtelar-Becker",
+  "ForceFlatList": false,
+  "AdditionalInfo": "nemo",
   "HistoryItems": [
-    856,
-    300
+    789,
+    109
   ],
-  "OnlyHistory": false
+  "OnlyHistory": true
 }
 ```
 
@@ -112,50 +112,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 798,
-    "Name": "Pouros-Bogan",
-    "ToolTip": "Ipsa incidunt.",
-    "Deleted": false,
-    "Rank": 23,
-    "Type": "aut",
+    "Id": 794,
+    "Name": "Fahey Group",
+    "ToolTip": "Provident tempora iste earum nemo.",
+    "Deleted": true,
+    "Rank": 196,
+    "Type": "optio",
     "ChildItems": [
       {
-        "Id": 614,
-        "Name": "Mueller, Rath and Huel",
-        "ToolTip": "Repudiandae animi aperiam et sit odio fuga occaecati.",
+        "Id": 602,
+        "Name": "Feil-Collins",
+        "ToolTip": "Dolorum suscipit placeat aut et reprehenderit et nisi.",
         "Deleted": false,
-        "Rank": 51,
-        "Type": "amet",
+        "Rank": 363,
+        "Type": "recusandae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "magnam",
-        "ColorBlock": 230,
-        "ExtraInfo": "non",
-        "StyleHint": "dolorem",
-        "FullName": "Dr. Violette Tremblay MD",
+        "IconHint": "aut",
+        "ColorBlock": 531,
+        "ExtraInfo": "et",
+        "StyleHint": "aliquam",
+        "FullName": "Karen Myles Bogan IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 530
+            "FieldType": "System.String",
+            "FieldLength": 797
           }
         }
       }
     ],
-    "IconHint": "suscipit",
-    "ColorBlock": 601,
-    "ExtraInfo": "voluptate",
-    "StyleHint": "voluptas",
-    "FullName": "Mr. Benny Goodwin Sr.",
+    "IconHint": "eligendi",
+    "ColorBlock": 856,
+    "ExtraInfo": "repellat",
+    "StyleHint": "aperiam",
+    "FullName": "Halle Ryan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 955
+        "FieldType": "System.Int32",
+        "FieldLength": 779
       }
     }
   }

@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -116,70 +116,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Virtual zero tolerance circuit",
-  "Postit": "velit",
+  "Description": "Optimized human-resource extranet",
+  "Postit": "mollitia",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 677,
-  "IncludePerson": 639,
+  "GroupIdx": 791,
+  "IncludePerson": 785,
   "MemberCount": 99.99,
-  "Name": "Gleichner-Wilderman",
-  "PostitTextId": 379,
-  "CreatedDate": "2002-01-03T03:46:55.3788724+01:00",
-  "SelectionId": 335,
-  "SoundEx": "molestiae",
-  "Source": 312,
-  "TextId": 330,
-  "UpdatedDate": "2004-08-17T03:46:55.3788724+02:00",
-  "UpdatedCount": 776,
-  "Visibility": 128,
+  "Name": "Sauer, Grimes and Gutkowski",
+  "PostitTextId": 829,
+  "CreatedDate": "2004-03-25T03:41:54.0432111+01:00",
+  "SelectionId": 83,
+  "SoundEx": "sint",
+  "Source": 603,
+  "TextId": 529,
+  "UpdatedDate": "2006-02-09T03:41:54.0432111+01:00",
+  "UpdatedCount": 948,
+  "Visibility": 260,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 298,
-  "TargetTableName": "Smitham, O'Kon and Rogahn",
-  "Completed": false,
-  "LeftSelectionId": 669,
-  "RightSelectionId": 717,
+  "CompanyUnique": true,
+  "TargetTableNumber": 403,
+  "TargetTableName": "Effertz, Marvin and Bernhard",
+  "Completed": true,
+  "LeftSelectionId": 901,
+  "RightSelectionId": 727,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Goyette, Witting and Grimes",
-  "ShadowProviderName": "Stroman Group",
-  "ChartKey": "et",
-  "LastLoaded": "2005-08-29T03:46:55.3788724+02:00",
-  "LastLoadedBy": 121,
+  "MainProviderName": "Borer, Bode and Muller",
+  "ShadowProviderName": "Leffler LLC",
+  "ChartKey": "dolorem",
+  "LastLoaded": "2005-12-14T03:41:54.0432111+01:00",
+  "LastLoadedBy": 903,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-03-28T03:46:55.3788724+02:00",
-  "LastMembershipChangeBy": 271,
+  "LastMembershipChange": "2007-06-14T03:41:54.0588353+02:00",
+  "LastMembershipChangeBy": 943,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "recusandae",
-  "MemberTabHeading": "quis",
-  "MailingsProviderName": "Schultz Group",
-  "DashboardTileDefinitionId": 241,
+  "MainHeading": "optio",
+  "MemberTabHeading": "in",
+  "MailingsProviderName": "Daugherty-Schmidt",
+  "DashboardTileDefinitionId": 653,
   "VisibleFor": [
     {
-      "VisibleId": 37,
+      "VisibleId": 553,
       "Visibility": "All",
-      "DisplayValue": "blanditiis",
+      "DisplayValue": "saepe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 895
+          "FieldType": "System.String",
+          "FieldLength": 273
         }
       }
     },
     {
-      "VisibleId": 37,
+      "VisibleId": 553,
       "Visibility": "All",
-      "DisplayValue": "blanditiis",
+      "DisplayValue": "saepe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 895
+          "FieldType": "System.String",
+          "FieldLength": 273
         }
       }
     }
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 172
+      "FieldLength": 638
     }
   }
 }

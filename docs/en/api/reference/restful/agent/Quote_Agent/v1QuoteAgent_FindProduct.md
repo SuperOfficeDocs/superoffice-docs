@@ -113,9 +113,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 398,
-  "UserInput": "occaecati",
-  "PriceListKey": "labore"
+  "QuoteAlternativeId": 54,
+  "UserInput": "temporibus",
+  "PriceListKey": "doloribus"
 }
 ```
 
@@ -127,73 +127,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 232,
-    "ERPProductKey": "dolorem",
-    "ERPPriceListKey": "illum",
-    "Name": "Raynor, Hilpert and Reichert",
-    "Description": "Exclusive asynchronous moratorium",
-    "Code": "velit",
-    "PriceUnit": "sint",
-    "QuantityUnit": "voluptatem",
-    "IsSubscription": false,
-    "SubscriptionUnit": "non",
-    "DefaultSubscriptionQuantity": 10523.972,
-    "ItemNumber": "365677",
+    "ProductId": 249,
+    "ERPProductKey": "autem",
+    "ERPPriceListKey": "et",
+    "Name": "Bode-Keebler",
+    "Description": "User-friendly multi-state infrastructure",
+    "Code": "autem",
+    "PriceUnit": "sapiente",
+    "QuantityUnit": "dolore",
+    "IsSubscription": true,
+    "SubscriptionUnit": "dolor",
+    "DefaultSubscriptionQuantity": 6976.284,
+    "ItemNumber": "437318",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "eveniet",
-    "ProductTypeKey": "temporibus",
-    "VAT": 8493.14,
-    "VATInfo": "rerum",
-    "UnitCost": 9010.25,
-    "UnitMinimumPrice": 24730.394,
-    "UnitListPrice": 733.356,
-    "InAssortment": false,
-    "Supplier": "quibusdam",
-    "SupplierCode": "et",
-    "Rights": "expedita",
-    "Rule": "voluptates",
+    "ProductFamilyKey": "non",
+    "ProductTypeKey": "libero",
+    "VAT": 10354.735999999999,
+    "VATInfo": "assumenda",
+    "UnitCost": 3713.79,
+    "UnitMinimumPrice": 10900.052,
+    "UnitListPrice": 13983.908,
+    "InAssortment": true,
+    "Supplier": "suscipit",
+    "SupplierCode": "qui",
+    "Rights": "temporibus",
+    "Rule": "ipsum",
     "ExtraInfo": [
       {
-        "Name": "Hand Inc and Sons",
-        "Value": "eius",
+        "Name": "Beahan, Casper and Lang",
+        "Value": "aspernatur",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 45
+            "FieldType": "System.String",
+            "FieldLength": 145
           }
         }
       },
       {
-        "Name": "Hand Inc and Sons",
-        "Value": "eius",
+        "Name": "Beahan, Casper and Lang",
+        "Value": "aspernatur",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 45
+            "FieldType": "System.String",
+            "FieldLength": 145
           }
         }
       }
     ],
-    "RawExtraInfo": "est",
-    "ExtraField1": "et",
-    "ExtraField2": "accusamus",
-    "ExtraField3": "facere",
-    "ExtraField4": "minima",
-    "ExtraField5": "quos",
-    "InStock": 13419.788,
+    "RawExtraInfo": "neque",
+    "ExtraField1": "omnis",
+    "ExtraField2": "velit",
+    "ExtraField3": "error",
+    "ExtraField4": "ducimus",
+    "ExtraField5": "explicabo",
+    "InStock": 20079.538,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 72
+        "FieldType": "System.String",
+        "FieldLength": 620
       }
     }
   }

@@ -70,8 +70,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    229,
-    833
+    53,
+    951
   ]
 }
 ```

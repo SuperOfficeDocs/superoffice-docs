@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/ErpSync/CreateActorLink
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 665,
-  "CrmRecordId": 671,
+  "ErpConnectionId": 487,
+  "CrmRecordId": 315,
   "CrmActorType": "Contact",
-  "ErpKey": "dolorem",
+  "ErpKey": "autem",
   "ErpActorType": "Customer"
 }
 ```
@@ -93,5 +93,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

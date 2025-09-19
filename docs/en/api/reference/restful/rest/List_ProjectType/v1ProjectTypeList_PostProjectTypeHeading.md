@@ -76,16 +76,16 @@ OK
 POST /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 58,
-  "Name": "Reinger, Hoeger and Wunsch",
-  "Tooltip": "sed",
+  "HeadingId": 407,
+  "Name": "Luettgen, Jenkins and O'Kon",
+  "Tooltip": "eveniet",
   "Deleted": false,
-  "Rank": 362,
-  "UdListDefinitionId": 55
+  "Rank": 672,
+  "UdListDefinitionId": 288
 }
 ```
 
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 137,
-  "Name": "Wolff-Greenfelder",
-  "Tooltip": "dicta",
-  "Deleted": false,
-  "Rank": 4,
-  "UdListDefinitionId": 321,
+  "HeadingId": 780,
+  "Name": "Murazik LLC",
+  "Tooltip": "adipisci",
+  "Deleted": true,
+  "Rank": 898,
+  "UdListDefinitionId": 591,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 227
+      "FieldType": "System.String",
+      "FieldLength": 677
     }
   }
 }

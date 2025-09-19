@@ -29,6 +29,7 @@ Service methods defined on <see cref='T:IDiagnosticsAgent'>DiagnosticsAgent</see
 * [GetSystemMessagesAsync](getsystemmessagesasync.md)
 * [GetWebAppUsagesForPeriodAsync](getwebappusagesforperiodasync.md)
 * [LogViewStateAsync](logviewstateasync.md)
+* [PerformTasksAfterCustomObjectTableCreatedAsync](performtasksaftercustomobjecttablecreatedasync.md)
 * [PerformTasksAfterCustomObjectTableDeletedAsync](performtasksaftercustomobjecttabledeletedasync.md)
 * [PerformTasksAfterUpgradeAsync](performtasksafterupgradeasync.md)
 * [RemoveExpiredSystemMessagesAsync](removeexpiredsystemmessagesasync.md)

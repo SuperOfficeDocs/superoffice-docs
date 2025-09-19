@@ -108,7 +108,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 749
+  "ChatTopicId": 335
 }
 ```
 
@@ -119,29 +119,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 908,
-  "TopicId": 837,
+  "ChatSessionId": 191,
+  "TopicId": 561,
   "User": null,
   "Person": null,
-  "CustomerAlias": "provident",
-  "CustomerHost": "distinctio",
-  "CustomerName": "Rice, McLaughlin and Runolfsdottir",
-  "CustomerEmail": "joey.mante@bosco.name",
-  "CustomerPhone": "941.854.3494 x803",
+  "CustomerAlias": "quam",
+  "CustomerHost": "impedit",
+  "CustomerName": "Bartoletti Group",
+  "CustomerEmail": "marco.gleason@faywiegand.info",
+  "CustomerPhone": "546-231-2117 x7652",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Heidenreich-Brown",
+  "CustomerCompanyName": "Walsh, Ward and Osinski",
   "Status": "Closed",
-  "FirstMessage": "aut",
-  "LastMessage": "quo",
-  "WhenRequested": "2017-04-09T03:46:54.4257689+02:00",
-  "WhenStarted": "2017-04-30T03:46:54.4257689+02:00",
-  "WhenEnded": "2004-04-16T03:46:54.4257689+02:00",
-  "WhenIdle": "2020-12-25T03:46:54.4257689+01:00",
-  "WhenFetched": "2018-08-13T03:46:54.4257689+02:00",
-  "SessionKey": "omnis",
-  "InitialQueuePos": 394,
-  "AlertLevel": 674,
-  "Rank": 458,
+  "FirstMessage": "placeat",
+  "LastMessage": "necessitatibus",
+  "WhenRequested": "2013-03-15T03:41:53.1682479+01:00",
+  "WhenStarted": "2006-08-27T03:41:53.1682479+02:00",
+  "WhenEnded": "2012-07-23T03:41:53.1682479+02:00",
+  "WhenIdle": "2017-12-03T03:41:53.1682479+01:00",
+  "WhenFetched": "2021-01-16T03:41:53.1682479+01:00",
+  "SessionKey": "beatae",
+  "InitialQueuePos": 73,
+  "AlertLevel": 68,
+  "Rank": 285,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -149,13 +149,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 938,
+  "Rating": 887,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 861
+      "FieldLength": 486
     }
   }
 }

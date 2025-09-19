@@ -27,7 +27,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=14
+POST /api/v1/Agents/Person/GetPerson?personId=64
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -118,53 +118,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "nulla",
-  "PersonId": 585,
-  "Mrmrs": "eum",
-  "Firstname": "Luciano",
-  "Lastname": "Huels",
-  "MiddleName": "Murphy-Collins",
-  "Title": "unde",
-  "Description": "Future-proofed optimal analyzer",
-  "Email": "furman@weimanngreen.uk",
-  "FullName": "Joanny Berge",
-  "DirectPhone": "823.032.6633 x74222",
-  "FormalName": "Ledner-O'Connell",
-  "CountryId": 261,
-  "ContactId": 551,
-  "ContactName": "Kulas, Pfeffer and Johnston",
-  "Retired": 289,
-  "Rank": 247,
-  "ActiveInterests": 160,
+  "Position": "tempora",
+  "PersonId": 200,
+  "Mrmrs": "et",
+  "Firstname": "Georgette",
+  "Lastname": "Kovacek",
+  "MiddleName": "Bartell, Jakubowski and Daniel",
+  "Title": "dolor",
+  "Description": "Profit-focused neutral budgetary management",
+  "Email": "wilbert.berge@harberfay.info",
+  "FullName": "Willie Stroman MD",
+  "DirectPhone": "(688)492-7927 x63667",
+  "FormalName": "Corkery-Willms",
+  "CountryId": 783,
+  "ContactId": 250,
+  "ContactName": "Koch, Veum and Champlin",
+  "Retired": 258,
+  "Rank": 473,
+  "ActiveInterests": 932,
   "ContactDepartment": "",
-  "ContactCountryId": 842,
-  "ContactOrgNr": "1048308",
-  "FaxPhone": "1-570-435-2094 x9035",
-  "MobilePhone": "231-164-0647 x936",
-  "ContactPhone": "1-073-417-8213 x58268",
-  "AssociateName": "Gislason, Schiller and Altenwerth",
-  "AssociateId": 985,
-  "UsePersonAddress": true,
-  "ContactFax": "necessitatibus",
-  "Kanafname": "soluta",
-  "Kanalname": "enim",
-  "Post1": "incidunt",
-  "Post2": "qui",
-  "Post3": "natus",
-  "EmailName": "travis@trompswaniawski.info",
-  "ContactFullName": "Cleo Emard",
-  "ActiveErpLinks": 665,
-  "TicketPriorityId": 276,
+  "ContactCountryId": 19,
+  "ContactOrgNr": "962785",
+  "FaxPhone": "(090)380-0585 x77685",
+  "MobilePhone": "1-149-045-3895 x33575",
+  "ContactPhone": "1-343-350-9281",
+  "AssociateName": "Kertzmann-Bechtelar",
+  "AssociateId": 701,
+  "UsePersonAddress": false,
+  "ContactFax": "corrupti",
+  "Kanafname": "explicabo",
+  "Kanalname": "minus",
+  "Post1": "est",
+  "Post2": "voluptatem",
+  "Post3": "recusandae",
+  "EmailName": "elisha.bednar@stromanlowe.co.uk",
+  "ContactFullName": "Miss Kamille Lesch Jr.",
+  "ActiveErpLinks": 104,
+  "TicketPriorityId": 766,
   "SupportLanguageId": 104,
-  "SupportAssociateId": 408,
+  "SupportAssociateId": 304,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "242617",
+  "PersonNumber": "1334473",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 764
+      "FieldType": "System.Int32",
+      "FieldLength": 752
     }
   }
 }

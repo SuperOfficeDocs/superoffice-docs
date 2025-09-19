@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 91,
-  "Name": "Fahey Group",
-  "Tooltip": "facere",
+  "Id": 582,
+  "Name": "Batz-Roob",
+  "Tooltip": "sapiente",
   "Deleted": false,
-  "UdListDefinitionId": 106,
-  "Rank": 80,
+  "UdListDefinitionId": 217,
+  "Rank": 498,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 418
+      "FieldLength": 50
     }
   }
 }

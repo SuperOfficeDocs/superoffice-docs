@@ -74,25 +74,25 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Marks Inc and Sons",
-    "Description": "Face to face content-based synergy",
-    "Rank": 635,
+    "Name": "Muller, Simonis and Mante",
+    "Description": "Centralized zero defect capability",
+    "Rank": 627,
     "Restrictions": [
       {
-        "Name": "Willms Group",
-        "Operator": "ea",
+        "Name": "Boyle-Dach",
+        "Operator": "dicta",
         "Values": [
-          "adipisci",
-          "voluptatem"
+          "amet",
+          "velit"
         ],
         "DisplayValues": [
-          "sed",
-          "perspiciatis"
+          "dolorem",
+          "est"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -100,27 +100,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 595,
+        "InterParenthesis": 497,
         "InterOperator": "And",
-        "UniqueHash": 458
+        "UniqueHash": 835
       }
     ]
   },
   {
-    "Name": "Marks Inc and Sons",
-    "Description": "Face to face content-based synergy",
-    "Rank": 635,
+    "Name": "Muller, Simonis and Mante",
+    "Description": "Centralized zero defect capability",
+    "Rank": 627,
     "Restrictions": [
       {
-        "Name": "Willms Group",
-        "Operator": "ea",
+        "Name": "Boyle-Dach",
+        "Operator": "dicta",
         "Values": [
-          "adipisci",
-          "voluptatem"
+          "amet",
+          "velit"
         ],
         "DisplayValues": [
-          "sed",
-          "perspiciatis"
+          "dolorem",
+          "est"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -128,9 +128,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 595,
+        "InterParenthesis": 497,
         "InterOperator": "And",
-        "UniqueHash": 458
+        "UniqueHash": 835
       }
     ]
   }
@@ -145,58 +145,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rohan LLC",
-    "Description": "Open-architected radical productivity",
-    "Rank": 939,
+    "Name": "Monahan-Wolf",
+    "Description": "Polarised context-sensitive website",
+    "Rank": 446,
     "Restrictions": [
       {
-        "Name": "Ziemann LLC",
-        "Operator": "porro",
+        "Name": "Torp Group",
+        "Operator": "non",
         "Values": [
-          "cum",
-          "est"
+          "non",
+          "dolorem"
         ],
         "DisplayValues": [
-          "qui",
-          "saepe"
+          "et",
+          "sit"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 690,
+        "InterParenthesis": 51,
         "InterOperator": "And",
-        "UniqueHash": 401
+        "UniqueHash": 589
       }
     ]
   },
   {
-    "Name": "Rohan LLC",
-    "Description": "Open-architected radical productivity",
-    "Rank": 939,
+    "Name": "Monahan-Wolf",
+    "Description": "Polarised context-sensitive website",
+    "Rank": 446,
     "Restrictions": [
       {
-        "Name": "Ziemann LLC",
-        "Operator": "porro",
+        "Name": "Torp Group",
+        "Operator": "non",
         "Values": [
-          "cum",
-          "est"
+          "non",
+          "dolorem"
         ],
         "DisplayValues": [
-          "qui",
-          "saepe"
+          "et",
+          "sit"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 690,
+        "InterParenthesis": 51,
         "InterOperator": "And",
-        "UniqueHash": 401
+        "UniqueHash": 589
       }
     ]
   }

@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Kuhic, Frami and Waters",
+  "HistoryName": "Hahn-Durgan",
   "History": [
     {
-      "Rank": 370,
-      "Id": 354,
-      "HistoryName": "Howe, Pouros and Goldner",
-      "HistoryId": 171,
-      "AssociateId": 851,
-      "Name": "Kiehn Group",
-      "ItemInfo": "explicabo"
+      "Rank": 828,
+      "Id": 948,
+      "HistoryName": "Kunze-Funk",
+      "HistoryId": 299,
+      "AssociateId": 683,
+      "Name": "Lueilwitz-Hoppe",
+      "ItemInfo": "quasi"
     }
   ]
 }
@@ -110,19 +110,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 740,
-    "Id": 101,
-    "HistoryName": "Gutmann-Hoeger",
-    "HistoryId": 330,
-    "AssociateId": 617,
-    "Name": "D'Amore, Farrell and Renner",
-    "ItemInfo": "corrupti",
+    "Rank": 435,
+    "Id": 642,
+    "HistoryName": "Klocko, Ullrich and Reichel",
+    "HistoryId": 251,
+    "AssociateId": 820,
+    "Name": "Zulauf, Volkman and Stamm",
+    "ItemInfo": "voluptate",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 88
+        "FieldType": "System.Int32",
+        "FieldLength": 468
       }
     }
   }

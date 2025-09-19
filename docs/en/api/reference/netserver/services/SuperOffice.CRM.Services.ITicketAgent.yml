@@ -5,6 +5,7 @@ items:
   id: ITicketAgent
   parent: SuperOffice.CRM.Services
   children:
+  - SuperOffice.CRM.Services.ITicketAgent.AcceptTicketsAsync(System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ITicketAgent.AddAttachmentsAsync(System.Int32,System.Int32[],System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ITicketAgent.BatchForwardAsync(System.Int32[],System.String[],System.String[],System.String[],System.String,System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Services.ITicketAgent.BatchReplyAsync(SuperOffice.CRM.Services.TicketBatchReplyData,System.Threading.CancellationToken)
@@ -1388,6 +1389,38 @@ items:
   nameWithType.vb: ITicketAgent.GetHotlistEjUsersAsync(Integer, Integer(), NotifyType, NotifyChannel, CancellationToken)
   fullName.vb: SuperOffice.CRM.Services.ITicketAgent.GetHotlistEjUsersAsync(Integer, Integer(), SuperOffice.Data.NotifyType, SuperOffice.Data.NotifyChannel, System.Threading.CancellationToken)
   name.vb: GetHotlistEjUsersAsync(Integer, Integer(), NotifyType, NotifyChannel, CancellationToken)
+- uid: SuperOffice.CRM.Services.ITicketAgent.AcceptTicketsAsync(System.Int32[],System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.AcceptTicketsAsync(System.Int32[],System.Threading.CancellationToken)
+  id: AcceptTicketsAsync(System.Int32[],System.Threading.CancellationToken)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: AcceptTicketsAsync(int[], CancellationToken)
+  nameWithType: ITicketAgent.AcceptTicketsAsync(int[], CancellationToken)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.AcceptTicketsAsync(int[], System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: Accepts tickets by their ids. Sets owner to current user
+  example: []
+  syntax:
+    content: Task AcceptTicketsAsync(int[] ticketIds, CancellationToken cancellationToken = default)
+    parameters:
+    - id: ticketIds
+      type: System.Int32[]
+      description: Ids of tickets to be accepted.
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task
+      description: This method has no return value
+    content.vb: Function AcceptTicketsAsync(ticketIds As Integer(), cancellationToken As CancellationToken = Nothing) As Task
+  overload: SuperOffice.CRM.Services.ITicketAgent.AcceptTicketsAsync*
+  nameWithType.vb: ITicketAgent.AcceptTicketsAsync(Integer(), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Services.ITicketAgent.AcceptTicketsAsync(Integer(), System.Threading.CancellationToken)
+  name.vb: AcceptTicketsAsync(Integer(), CancellationToken)
 - uid: SuperOffice.CRM.Services.ITicketAgent.GetTicketMessageAsync(System.Int32,System.Threading.CancellationToken)
   commentId: M:SuperOffice.CRM.Services.ITicketAgent.GetTicketMessageAsync(System.Int32,System.Threading.CancellationToken)
   id: GetTicketMessageAsync(System.Int32,System.Threading.CancellationToken)
@@ -3418,6 +3451,13 @@ references:
   name: NotifyChannel
   nameWithType: NotifyChannel
   fullName: SuperOffice.Data.NotifyChannel
+- uid: SuperOffice.CRM.Services.ITicketAgent.AcceptTicketsAsync*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.AcceptTicketsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Services.ITicketAgent.html#SuperOffice_CRM_Services_ITicketAgent_AcceptTicketsAsync_System_Int32___System_Threading_CancellationToken_
+  name: AcceptTicketsAsync
+  nameWithType: ITicketAgent.AcceptTicketsAsync
+  fullName: SuperOffice.CRM.Services.ITicketAgent.AcceptTicketsAsync
 - uid: SuperOffice.CRM.Services.ITicketAgent.GetTicketMessageAsync*
   commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.GetTicketMessageAsync
   isExternal: true

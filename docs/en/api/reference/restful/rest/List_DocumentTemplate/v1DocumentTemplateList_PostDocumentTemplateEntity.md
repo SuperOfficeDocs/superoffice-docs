@@ -114,34 +114,34 @@ OK
 POST /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 76,
-  "Name": "Beer, Graham and Rodriguez",
-  "Tooltip": "iusto",
-  "SaveInDb": 879,
-  "Filename": "et",
-  "DefaultOref": "voluptatem",
+  "DocumentTemplateId": 160,
+  "Name": "Spinka-Miller",
+  "Tooltip": "et",
+  "SaveInDb": 238,
+  "Filename": "distinctio",
+  "DefaultOref": "at",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 377,
-  "IntentId": 257,
+  "AutoeventId": 131,
+  "IntentId": 667,
   "IsDefaultPublished": false,
-  "Rank": 862,
-  "LoadTemplateFromPlugin": 468,
-  "MimeType": "itaque",
+  "Rank": 838,
+  "LoadTemplateFromPlugin": 812,
+  "MimeType": "rem",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 795,
+  "DocumentTypeKey": 818,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "urban@steuber.co.uk",
-  "IncludeSignature": true,
+  "EmailSubject": "benny_veum@pagaclittle.uk",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "carleton.towne@pricetillman.co.uk",
+  "SenderEmailAddress": "patience.fadel@adams.com",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -153,37 +153,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 23,
-  "Name": "Buckridge Inc and Sons",
-  "Tooltip": "dolor",
-  "SaveInDb": 472,
-  "Filename": "impedit",
-  "DefaultOref": "ipsa",
+  "DocumentTemplateId": 608,
+  "Name": "Champlin, Oberbrunner and Monahan",
+  "Tooltip": "ad",
+  "SaveInDb": 650,
+  "Filename": "ut",
+  "DefaultOref": "sint",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
   "AutoeventId": 384,
-  "IntentId": 324,
-  "IsDefaultPublished": false,
-  "Rank": 154,
-  "LoadTemplateFromPlugin": 521,
-  "MimeType": "reprehenderit",
+  "IntentId": 446,
+  "IsDefaultPublished": true,
+  "Rank": 575,
+  "LoadTemplateFromPlugin": 87,
+  "MimeType": "ut",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 337,
+  "DocumentTypeKey": 989,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "alf@grahamkuhic.us",
-  "IncludeSignature": false,
+  "EmailSubject": "beau@tromp.uk",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "cassandra@hermistontowne.name",
+  "SenderEmailAddress": "miller_dicki@kertzmann.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 416
+      "FieldLength": 480
     }
   }
 }

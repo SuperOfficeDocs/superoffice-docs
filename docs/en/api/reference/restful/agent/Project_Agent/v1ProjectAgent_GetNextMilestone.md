@@ -128,11 +128,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 570
+  "ProjectId": 337
 }
 ```
 
@@ -143,67 +143,67 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 777,
-  "StartDate": "2003-12-04T03:46:55.1601179+01:00",
-  "EndDate": "2010-11-07T03:46:55.1601179+01:00",
+  "AppointmentId": 910,
+  "StartDate": "2015-02-25T03:41:53.9025923+01:00",
+  "EndDate": "2003-12-06T03:41:53.9025923+01:00",
   "Type": "BookingForChecklist",
-  "Task": "et",
-  "AssociateFullName": "Nannie Corwin III",
-  "ContactName": "Torphy, Crist and Kohler",
-  "Description": "Reverse-engineered non-volatile middleware",
-  "PersonFullName": "Tara Reinger",
-  "PersonId": 404,
-  "ContactId": 520,
-  "ProjectId": 901,
-  "ProjectName": "Schmitt LLC",
-  "IsPublished": true,
-  "AssociateId": 980,
-  "ColorIndex": 861,
-  "IsFree": false,
-  "HasAlarm": false,
-  "IsAlldayEvent": true,
+  "Task": "corrupti",
+  "AssociateFullName": "Ms. Marley Weber V",
+  "ContactName": "Lynch, Heathcote and Graham",
+  "Description": "User-centric incremental time-frame",
+  "PersonFullName": "Prof. Evan Syble Maggio",
+  "PersonId": 20,
+  "ContactId": 58,
+  "ProjectId": 701,
+  "ProjectName": "Crooks-Gerhold",
+  "IsPublished": false,
+  "AssociateId": 969,
+  "ColorIndex": 979,
+  "IsFree": true,
+  "HasAlarm": true,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 370,
-  "PriorityName": "Jaskolski, Rodriguez and Sipes",
+  "PriorityId": 623,
+  "PriorityName": "Schulist LLC",
   "TaskType": "Appointment",
   "IsBookingMain": false,
-  "IsRecurrence": false,
+  "IsRecurrence": true,
   "IsBooking": true,
-  "ActiveDate": "2001-09-10T03:46:55.1601179+02:00",
+  "ActiveDate": "2009-01-18T03:41:53.9025923+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2008-09-16T03:46:55.1601179+02:00",
-  "RecurringEndDate": "2011-12-31T03:46:55.1601179+01:00",
-  "MotherId": 47,
-  "AssignedBy": 555,
-  "AssignedByFullName": "Prof. Colin Deshawn Baumbach",
+  "RecurringStartDate": "2008-08-20T03:41:53.9025923+02:00",
+  "RecurringEndDate": "2017-08-22T03:41:53.9025923+02:00",
+  "MotherId": 617,
+  "AssignedBy": 260,
+  "AssignedByFullName": "Kelvin Rodolfo McLaughlin III",
   "RejectReason": "",
-  "Location": "deserunt",
-  "AlarmLeadTime": "cumque",
-  "SaleId": 48,
-  "SaleName": "Koch, Lowe and Jerde",
-  "AssociateName": "Crist, Osinski and Gaylord",
-  "CreatedDate": "2021-07-05T03:46:55.1601179+02:00",
-  "CreatedBy": "sint",
-  "CreatedByFullName": "Mrs. Jovany Alan Kuvalis V",
-  "CreatedByAssociateId": 914,
+  "Location": "omnis",
+  "AlarmLeadTime": "temporibus",
+  "SaleId": 210,
+  "SaleName": "Daugherty LLC",
+  "AssociateName": "Lehner, Deckow and Simonis",
+  "CreatedDate": "1998-08-04T03:41:53.9025923+02:00",
+  "CreatedBy": "qui",
+  "CreatedByFullName": "Bernardo Nicolas",
+  "CreatedByAssociateId": 545,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
-  "MotherAssociateId": 559,
+  "MotherAssociateId": 454,
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 85,
-  "Title": "in",
-  "Agenda": "quo",
-  "InternalNotes": "rerum",
+  "PreferredTZLocation": 862,
+  "Title": "molestiae",
+  "Agenda": "corporis",
+  "InternalNotes": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 952
+      "FieldType": "System.Int32",
+      "FieldLength": 905
     }
   }
 }

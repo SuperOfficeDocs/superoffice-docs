@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 866,
-    "Name": "Leffler-Howell",
-    "ToolTip": "Molestias officiis eum blanditiis aspernatur fugiat quia porro.",
+    "Id": 236,
+    "Name": "Schowalter-Yundt",
+    "ToolTip": "Autem consectetur sit nemo.",
     "Deleted": true,
-    "Rank": 627,
-    "Type": "quisquam",
-    "ColorBlock": 515,
-    "IconHint": "recusandae",
-    "Selected": true,
-    "LastChanged": "2011-06-25T03:47:00.5661762+02:00",
+    "Rank": 441,
+    "Type": "et",
+    "ColorBlock": 843,
+    "IconHint": "maxime",
+    "Selected": false,
+    "LastChanged": "2005-01-05T03:41:59.3242422+01:00",
     "ChildItems": [
       {
-        "Id": 318,
-        "Name": "Rohan-Homenick",
-        "ToolTip": "Mollitia rerum sed eos.",
-        "Deleted": true,
-        "Rank": 434,
-        "Type": "placeat",
-        "ColorBlock": 887,
-        "IconHint": "quod",
-        "Selected": true,
-        "LastChanged": "2016-01-10T03:47:00.5661762+01:00",
+        "Id": 275,
+        "Name": "Pouros Group",
+        "ToolTip": "Culpa necessitatibus facilis impedit qui pariatur.",
+        "Deleted": false,
+        "Rank": 57,
+        "Type": "est",
+        "ColorBlock": 141,
+        "IconHint": "quam",
+        "Selected": false,
+        "LastChanged": "2017-07-14T03:41:59.3242422+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "est",
+        "ExtraInfo": "quo",
+        "StyleHint": "mollitia",
         "Hidden": false,
-        "FullName": "Mrs. Levi Moen"
+        "FullName": "Miss Reina Maximilian Smith"
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "voluptatem",
-    "Hidden": false,
-    "FullName": "Miss Adolfo Greenholt DDS"
+    "ExtraInfo": "nemo",
+    "StyleHint": "sapiente",
+    "Hidden": true,
+    "FullName": "Erling Conroy"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 38,
-    "Name": "Waters-Gorczany",
-    "ToolTip": "Consectetur beatae alias rem.",
-    "Deleted": false,
-    "Rank": 849,
-    "Type": "ratione",
-    "ColorBlock": 818,
-    "IconHint": "sint",
-    "Selected": true,
-    "LastChanged": "2002-09-26T03:47:00.5661762+02:00",
+    "Id": 613,
+    "Name": "Heller-Pfannerstill",
+    "ToolTip": "Sint omnis nihil harum dolor omnis qui nulla.",
+    "Deleted": true,
+    "Rank": 134,
+    "Type": "recusandae",
+    "ColorBlock": 34,
+    "IconHint": "occaecati",
+    "Selected": false,
+    "LastChanged": "2012-10-02T03:41:59.3242422+02:00",
     "ChildItems": [
       {
-        "Id": 207,
-        "Name": "Rogahn LLC",
-        "ToolTip": "Quos voluptatibus ea temporibus mollitia.",
-        "Deleted": true,
-        "Rank": 594,
-        "Type": "libero",
-        "ColorBlock": 252,
-        "IconHint": "vel",
-        "Selected": true,
-        "LastChanged": "2008-08-31T03:47:00.5661762+02:00",
+        "Id": 541,
+        "Name": "Skiles, Mohr and Wiza",
+        "ToolTip": "Saepe quasi cumque atque.",
+        "Deleted": false,
+        "Rank": 241,
+        "Type": "voluptates",
+        "ColorBlock": 932,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2001-10-31T03:41:59.3242422+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "sit",
+        "ExtraInfo": "error",
+        "StyleHint": "accusamus",
         "Hidden": false,
-        "FullName": "Deborah Bogan",
+        "FullName": "Eleonore Hermiston",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 105
+            "FieldType": "System.String",
+            "FieldLength": 107
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "tempora",
+    "ExtraInfo": "eveniet",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Mr. Clotilde Ali Schmeler PhD",
+    "FullName": "Sigurd Robel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 880
+        "FieldLength": 377
       }
     }
   }

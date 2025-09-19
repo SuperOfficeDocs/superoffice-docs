@@ -68,7 +68,7 @@ Lists existing CategoryMembers in table and edited or removed ones through restr
 ## Sample
 
 ```http!
-GET /api/v1/archive/ExistingCategoryMembers?$select=userName,personId,usergroupId
+GET /api/v1/archive/ExistingCategoryMembers?$select=personId,usergroupId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

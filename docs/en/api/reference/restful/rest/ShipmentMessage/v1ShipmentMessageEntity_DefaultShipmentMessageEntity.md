@@ -78,7 +78,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,33 +88,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 885,
-  "PlainMessage": "vel",
-  "HtmlMessage": "et",
-  "SmsMessage": "assumenda",
-  "Description": "Down-sized client-server encryption",
-  "Subject": "sint",
-  "FolderId": 46,
-  "HeaderField": "sit",
-  "Design": "dicta",
+  "ShipmentMessageId": 105,
+  "PlainMessage": "quis",
+  "HtmlMessage": "architecto",
+  "SmsMessage": "veniam",
+  "Description": "Object-based exuding access",
+  "Subject": "nesciunt",
+  "FolderId": 422,
+  "HeaderField": "sapiente",
+  "Design": "molestias",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Expanded interactive capability",
-  "AccessKey": "rerum",
-  "DocumentMessage": 750,
-  "Registered": "2005-11-14T03:47:00.3005605+01:00",
-  "RegisteredAssociateId": 217,
-  "Updated": "2010-03-24T03:47:00.3005605+01:00",
-  "UpdatedAssociateId": 478,
-  "UpdatedCount": 891,
+  "InlineImages": true,
+  "LongDescription": "Cross-group system-worthy synergy",
+  "AccessKey": "architecto",
+  "DocumentMessage": 709,
+  "Registered": "2016-03-27T03:41:59.0273773+02:00",
+  "RegisteredAssociateId": 430,
+  "Updated": "2022-08-01T03:41:59.0273773+02:00",
+  "UpdatedAssociateId": 573,
+  "UpdatedCount": 90,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 892
+      "FieldLength": 603
     }
   }
 }

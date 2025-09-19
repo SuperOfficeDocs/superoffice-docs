@@ -95,10 +95,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2013-03-21T03:46:54.4726424+01:00",
+  "ActivityStartTime": "2022-03-31T03:41:53.2309893+02:00",
   "ContactCategories": [
-    630,
-    790
+    331,
+    720
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -112,26 +112,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 191,
-    "Department": "maximize world-class action-items",
-    "OrgNr": "1093233",
-    "Name": "Orn-Altenwerth",
+    "ContactId": 230,
+    "Department": "",
+    "OrgNr": "860618",
+    "Name": "Weissnat-Nicolas",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Robb Homenick",
+    "AssociateFullName": "Lorenza Borer V",
     "Action": "ActivityCompleted",
-    "ActionTime": "2013-09-28T03:46:54.4726424+02:00",
+    "ActionTime": "2020-08-12T03:41:53.2309893+02:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Gibson, Terry and Kuhic",
-    "ActionId": 889,
-    "PersonId": 79,
-    "ActivityPersonId": 597,
-    "AssociateId": 361,
+    "ActivityPersonName": "Hackett-Olson",
+    "ActionId": 707,
+    "PersonId": 527,
+    "ActivityPersonId": 88,
+    "AssociateId": 238,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 34
+        "FieldLength": 700
       }
     }
   }

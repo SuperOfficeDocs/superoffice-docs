@@ -1,0 +1,1058 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions
+  commentId: T:SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions
+  id: LeadstatusRecordDataExtensions
+  parent: SuperOffice.CRM.Rows
+  children:
+  - SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.LeadstatusTableInfo})
+  - SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LeadstatusTableInfo})
+  - SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LeadstatusTableInfo},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LeadstatusRecordData,System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LeadstatusRecordData},System.Threading.CancellationToken)
+  - SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.LeadstatusRow)
+  langs:
+  - csharp
+  - vb
+  name: LeadstatusRecordDataExtensions
+  nameWithType: LeadstatusRecordDataExtensions
+  fullName: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions
+  type: Class
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: >-
+    Extension methods to make it easy to fetch <xref href="SuperOffice.CRM.Rows.LeadstatusRecordData" data-throw-if-not-resolved="false"></xref> objects from the database,
+
+    using the TargetedSelect infrastructure
+  example: []
+  syntax:
+    content: public static class LeadstatusRecordDataExtensions
+    content.vb: Public Module LeadstatusRecordDataExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LeadstatusTableInfo},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LeadstatusTableInfo},System.Threading.CancellationToken)
+  id: FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LeadstatusTableInfo},System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelectAsync(TargetedSelect<LeadstatusTableInfo>, CancellationToken)
+  nameWithType: LeadstatusRecordDataExtensions.FromSelectAsync(TargetedSelect<LeadstatusTableInfo>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.LeadstatusTableInfo>, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: From a TargetedSelect&lt;LeadstatusTableInfo&gt;, execute it and return an IEnumerable&lt;LeadstatusRecordData&gt; with the results
+  example:
+  - >-
+    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
+
+    var result = s.FromSelect();</code></pre>
+  syntax:
+    content: >-
+      [CreateSyncVersion(OmitNullableDirective = true)]
+
+      public static IAsyncEnumerable<LeadstatusRecordData> FromSelectAsync(this TargetedSelect<LeadstatusTableInfo> select, CancellationToken cancellationToken = default)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LeadstatusTableInfo}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.LeadstatusRecordData}
+    content.vb: >-
+      <CreateSyncVersion(OmitNullableDirective:=True)>
+
+      Public Shared Function FromSelectAsync([select] As TargetedSelect(Of LeadstatusTableInfo), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of LeadstatusRecordData)
+  overload: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromSelectAsync*
+  attributes:
+  - type: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute
+    ctor: Zomp.SyncMethodGenerator.CreateSyncVersionAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: OmitNullableDirective
+      type: System.Boolean
+      value: true
+  nameWithType.vb: LeadstatusRecordDataExtensions.FromSelectAsync(TargetedSelect(Of LeadstatusTableInfo), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromSelectAsync(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.LeadstatusTableInfo), System.Threading.CancellationToken)
+  name.vb: FromSelectAsync(TargetedSelect(Of LeadstatusTableInfo), CancellationToken)
+- uid: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.LeadstatusTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.LeadstatusTableInfo})
+  id: FromRecord(SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.LeadstatusTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromRecord(TargetedDataRecord<LeadstatusTableInfo>)
+  nameWithType: LeadstatusRecordDataExtensions.FromRecord(TargetedDataRecord<LeadstatusTableInfo>)
+  fullName: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.LeadstatusTableInfo>)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: From a TargetedDataRecord&lt;LeadstatusTableInfo&gt;, create and populate a <xref href="SuperOffice.CRM.Rows.LeadstatusRecordData" data-throw-if-not-resolved="false"></xref> POCO object
+  example:
+  - >-
+    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
+
+    /* add joins, return fields etc. as you wish */
+
+    s.ReturnFields.Add(s.Table.All);
+
+    var result = s.Records().Select(r =&gt; new { LeadstatusItem = r.FromRecord(), /* fetch other fields here */ });</code></pre>
+  syntax:
+    content: public static LeadstatusRecordData FromRecord(this TargetedDataRecord<LeadstatusTableInfo> record)
+    parameters:
+    - id: record
+      type: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.LeadstatusTableInfo}
+    return:
+      type: SuperOffice.CRM.Rows.LeadstatusRecordData
+    content.vb: Public Shared Function FromRecord(record As TargetedDataRecord(Of LeadstatusTableInfo)) As LeadstatusRecordData
+  overload: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromRecord*
+  nameWithType.vb: LeadstatusRecordDataExtensions.FromRecord(TargetedDataRecord(Of LeadstatusTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromRecord(SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.LeadstatusTableInfo))
+  name.vb: FromRecord(TargetedDataRecord(Of LeadstatusTableInfo))
+- uid: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LeadstatusRecordData,System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LeadstatusRecordData,System.Threading.CancellationToken)
+  id: ToInsertAsync(SuperOffice.CRM.Rows.LeadstatusRecordData,System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInsertAsync(LeadstatusRecordData, CancellationToken)
+  nameWithType: LeadstatusRecordDataExtensions.ToInsertAsync(LeadstatusRecordData, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToInsertAsync(SuperOffice.CRM.Rows.LeadstatusRecordData, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static Task<Insert> ToInsertAsync(this LeadstatusRecordData record, CancellationToken cancellationToken = default)
+    parameters:
+    - id: record
+      type: SuperOffice.CRM.Rows.LeadstatusRecordData
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+    content.vb: Public Shared Function ToInsertAsync(record As LeadstatusRecordData, cancellationToken As CancellationToken = Nothing) As Task(Of Insert)
+  overload: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToInsertAsync*
+- uid: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LeadstatusRecordData},System.Threading.CancellationToken)
+  commentId: M:SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LeadstatusRecordData},System.Threading.CancellationToken)
+  id: ToInsertsAsync(System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LeadstatusRecordData},System.Threading.CancellationToken)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToInsertsAsync(IEnumerable<LeadstatusRecordData>, CancellationToken)
+  nameWithType: LeadstatusRecordDataExtensions.ToInsertsAsync(IEnumerable<LeadstatusRecordData>, CancellationToken)
+  fullName: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.LeadstatusRecordData>, System.Threading.CancellationToken)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static IAsyncEnumerable<Insert> ToInsertsAsync(this IEnumerable<LeadstatusRecordData> records, CancellationToken cancellationToken = default)
+    parameters:
+    - id: records
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LeadstatusRecordData}
+    - id: cancellationToken
+      type: System.Threading.CancellationToken
+    return:
+      type: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+    content.vb: Public Shared Function ToInsertsAsync(records As IEnumerable(Of LeadstatusRecordData), cancellationToken As CancellationToken = Nothing) As IAsyncEnumerable(Of Insert)
+  overload: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToInsertsAsync*
+  nameWithType.vb: LeadstatusRecordDataExtensions.ToInsertsAsync(IEnumerable(Of LeadstatusRecordData), CancellationToken)
+  fullName.vb: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToInsertsAsync(System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.LeadstatusRecordData), System.Threading.CancellationToken)
+  name.vb: ToInsertsAsync(IEnumerable(Of LeadstatusRecordData), CancellationToken)
+- uid: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.LeadstatusRow)
+  commentId: M:SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.LeadstatusRow)
+  id: ToRecordData(SuperOffice.CRM.Rows.LeadstatusRow)
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: ToRecordData(LeadstatusRow)
+  nameWithType: LeadstatusRecordDataExtensions.ToRecordData(LeadstatusRow)
+  fullName: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToRecordData(SuperOffice.CRM.Rows.LeadstatusRow)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public static LeadstatusRecordData ToRecordData(this LeadstatusRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Rows.LeadstatusRow
+    return:
+      type: SuperOffice.CRM.Rows.LeadstatusRecordData
+    content.vb: Public Shared Function ToRecordData(row As LeadstatusRow) As LeadstatusRecordData
+  overload: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToRecordData*
+- uid: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LeadstatusTableInfo})
+  commentId: M:SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LeadstatusTableInfo})
+  id: FromSelect(SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LeadstatusTableInfo})
+  isExtensionMethod: true
+  parent: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions
+  langs:
+  - csharp
+  - vb
+  name: FromSelect(TargetedSelect<LeadstatusTableInfo>)
+  nameWithType: LeadstatusRecordDataExtensions.FromSelect(TargetedSelect<LeadstatusTableInfo>)
+  fullName: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.LeadstatusTableInfo>)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: From a TargetedSelect&lt;LeadstatusTableInfo&gt;, execute it and return an IEnumerable&lt;LeadstatusRecordData&gt; with the results
+  example:
+  - >-
+    <pre><code class="lang-csharp">var s = S.NewSelect&lt;DataRightTableInfo&gt;( /* add meaningful restrictions here, or later */ );
+
+    var result = s.FromSelect();</code></pre>
+  syntax:
+    content: public static IEnumerable<LeadstatusRecordData> FromSelect(this TargetedSelect<LeadstatusTableInfo> select)
+    parameters:
+    - id: select
+      type: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LeadstatusTableInfo}
+    return:
+      type: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LeadstatusRecordData}
+    content.vb: Public Shared Function FromSelect([select] As TargetedSelect(Of LeadstatusTableInfo)) As IEnumerable(Of LeadstatusRecordData)
+  overload: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromSelect*
+  nameWithType.vb: LeadstatusRecordDataExtensions.FromSelect(TargetedSelect(Of LeadstatusTableInfo))
+  fullName.vb: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromSelect(SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.LeadstatusTableInfo))
+  name.vb: FromSelect(TargetedSelect(Of LeadstatusTableInfo))
+references:
+- uid: SuperOffice.CRM.Rows.LeadstatusRecordData
+  commentId: T:SuperOffice.CRM.Rows.LeadstatusRecordData
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.LeadstatusRecordData.html
+  name: LeadstatusRecordData
+  nameWithType: LeadstatusRecordData
+  fullName: SuperOffice.CRM.Rows.LeadstatusRecordData
+- uid: SuperOffice.CRM.Rows
+  commentId: N:SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.CRM.Rows
+  nameWithType: SuperOffice.CRM.Rows
+  fullName: SuperOffice.CRM.Rows
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.CRM
+    name: CRM
+    isExternal: true
+    href: SuperOffice.CRM.html
+  - name: .
+  - uid: SuperOffice.CRM.Rows
+    name: Rows
+    isExternal: true
+    href: SuperOffice.CRM.Rows.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromSelectAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromSelectAsync
+  isExternal: true
+  href: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.html#SuperOffice_CRM_Rows_LeadstatusRecordDataExtensions_FromSelectAsync_SuperOffice_Data_SQL_TargetedSelect_SuperOffice_CRM_Data_LeadstatusTableInfo__System_Threading_CancellationToken_
+  name: FromSelectAsync
+  nameWithType: LeadstatusRecordDataExtensions.FromSelectAsync
+  fullName: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromSelectAsync
+- uid: SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LeadstatusTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect{SuperOffice.CRM.Data.LeadstatusTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedSelect`1
+  href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  name: TargetedSelect<LeadstatusTableInfo>
+  nameWithType: TargetedSelect<LeadstatusTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<SuperOffice.CRM.Data.LeadstatusTableInfo>
+  nameWithType.vb: TargetedSelect(Of LeadstatusTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of SuperOffice.CRM.Data.LeadstatusTableInfo)
+  name.vb: TargetedSelect(Of LeadstatusTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.LeadstatusTableInfo
+    name: LeadstatusTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LeadstatusTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.LeadstatusTableInfo
+    name: LeadstatusTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LeadstatusTableInfo.html
+  - name: )
+- uid: System.Threading.CancellationToken
+  commentId: T:System.Threading.CancellationToken
+  parent: System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
+  name: CancellationToken
+  nameWithType: CancellationToken
+  fullName: System.Threading.CancellationToken
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.LeadstatusRecordData}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.CRM.Rows.LeadstatusRecordData}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  href: SuperOffice.CRM.Rows.LeadstatusRecordData.html
+  name: IAsyncEnumerable<LeadstatusRecordData>
+  nameWithType: IAsyncEnumerable<LeadstatusRecordData>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.CRM.Rows.LeadstatusRecordData>
+  nameWithType.vb: IAsyncEnumerable(Of LeadstatusRecordData)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.CRM.Rows.LeadstatusRecordData)
+  name.vb: IAsyncEnumerable(Of LeadstatusRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: <
+  - uid: SuperOffice.CRM.Rows.LeadstatusRecordData
+    name: LeadstatusRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.LeadstatusRecordData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.LeadstatusRecordData
+    name: LeadstatusRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.LeadstatusRecordData.html
+  - name: )
+- uid: SuperOffice.Data.SQL.TargetedSelect`1
+  commentId: T:SuperOffice.Data.SQL.TargetedSelect`1
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  name: TargetedSelect<MainTableInfo>
+  nameWithType: TargetedSelect<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedSelect<MainTableInfo>
+  nameWithType.vb: TargetedSelect(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedSelect(Of MainTableInfo)
+  name.vb: TargetedSelect(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: <
+  - name: MainTableInfo
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedSelect`1
+    name: TargetedSelect
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedSelect-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: MainTableInfo
+  - name: )
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+- uid: System.Threading
+  commentId: N:System.Threading
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading
+  nameWithType: System.Threading
+  fullName: System.Threading
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+- uid: System.Collections.Generic.IAsyncEnumerable`1
+  isExternal: true
+  name: IAsyncEnumerable<>
+  nameWithType: IAsyncEnumerable<>
+  fullName: System.Collections.Generic.IAsyncEnumerable<>
+  nameWithType.vb: IAsyncEnumerable(Of )
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of )
+  name.vb: IAsyncEnumerable(Of )
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: <
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - name: ''
+  - name: )
+- uid: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromRecord*
+  commentId: Overload:SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromRecord
+  isExternal: true
+  href: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.html#SuperOffice_CRM_Rows_LeadstatusRecordDataExtensions_FromRecord_SuperOffice_Data_SQL_TargetedDataRecord_SuperOffice_CRM_Data_LeadstatusTableInfo__
+  name: FromRecord
+  nameWithType: LeadstatusRecordDataExtensions.FromRecord
+  fullName: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromRecord
+- uid: SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.LeadstatusTableInfo}
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord{SuperOffice.CRM.Data.LeadstatusTableInfo}
+  parent: SuperOffice.Data.SQL
+  definition: SuperOffice.Data.SQL.TargetedDataRecord`1
+  href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  name: TargetedDataRecord<LeadstatusTableInfo>
+  nameWithType: TargetedDataRecord<LeadstatusTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<SuperOffice.CRM.Data.LeadstatusTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of LeadstatusTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of SuperOffice.CRM.Data.LeadstatusTableInfo)
+  name.vb: TargetedDataRecord(Of LeadstatusTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  - name: <
+  - uid: SuperOffice.CRM.Data.LeadstatusTableInfo
+    name: LeadstatusTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LeadstatusTableInfo.html
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Data.LeadstatusTableInfo
+    name: LeadstatusTableInfo
+    isExternal: true
+    href: SuperOffice.CRM.Data.LeadstatusTableInfo.html
+  - name: )
+- uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+  commentId: T:SuperOffice.Data.SQL.TargetedDataRecord`1
+  isExternal: true
+  href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  name: TargetedDataRecord<MainTableInfo>
+  nameWithType: TargetedDataRecord<MainTableInfo>
+  fullName: SuperOffice.Data.SQL.TargetedDataRecord<MainTableInfo>
+  nameWithType.vb: TargetedDataRecord(Of MainTableInfo)
+  fullName.vb: SuperOffice.Data.SQL.TargetedDataRecord(Of MainTableInfo)
+  name.vb: TargetedDataRecord(Of MainTableInfo)
+  spec.csharp:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  - name: <
+  - name: MainTableInfo
+  - name: '>'
+  spec.vb:
+  - uid: SuperOffice.Data.SQL.TargetedDataRecord`1
+    name: TargetedDataRecord
+    isExternal: true
+    href: SuperOffice.Data.SQL.TargetedDataRecord-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: MainTableInfo
+  - name: )
+- uid: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToInsertAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToInsertAsync
+  isExternal: true
+  href: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.html#SuperOffice_CRM_Rows_LeadstatusRecordDataExtensions_ToInsertAsync_SuperOffice_CRM_Rows_LeadstatusRecordData_System_Threading_CancellationToken_
+  name: ToInsertAsync
+  nameWithType: LeadstatusRecordDataExtensions.ToInsertAsync
+  fullName: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToInsertAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.Data.SQL.Insert}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<Insert>
+  nameWithType: Task<Insert>
+  fullName: System.Threading.Tasks.Task<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: Task(Of Insert)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.Data.SQL.Insert)
+  name.vb: Task(Of Insert)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - name: TResult
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TResult
+  - name: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Threading
+    name: Threading
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading
+  - name: .
+  - uid: System.Threading.Tasks
+    name: Tasks
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToInsertsAsync*
+  commentId: Overload:SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToInsertsAsync
+  isExternal: true
+  href: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.html#SuperOffice_CRM_Rows_LeadstatusRecordDataExtensions_ToInsertsAsync_System_Collections_Generic_IEnumerable_SuperOffice_CRM_Rows_LeadstatusRecordData__System_Threading_CancellationToken_
+  name: ToInsertsAsync
+  nameWithType: LeadstatusRecordDataExtensions.ToInsertsAsync
+  fullName: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToInsertsAsync
+- uid: System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LeadstatusRecordData}
+  commentId: T:System.Collections.Generic.IEnumerable{SuperOffice.CRM.Rows.LeadstatusRecordData}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<LeadstatusRecordData>
+  nameWithType: IEnumerable<LeadstatusRecordData>
+  fullName: System.Collections.Generic.IEnumerable<SuperOffice.CRM.Rows.LeadstatusRecordData>
+  nameWithType.vb: IEnumerable(Of LeadstatusRecordData)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of SuperOffice.CRM.Rows.LeadstatusRecordData)
+  name.vb: IEnumerable(Of LeadstatusRecordData)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - uid: SuperOffice.CRM.Rows.LeadstatusRecordData
+    name: LeadstatusRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.LeadstatusRecordData.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.CRM.Rows.LeadstatusRecordData
+    name: LeadstatusRecordData
+    isExternal: true
+    href: SuperOffice.CRM.Rows.LeadstatusRecordData.html
+  - name: )
+- uid: System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}
+  commentId: '!:System.Collections.Generic.IAsyncEnumerable{SuperOffice.Data.SQL.Insert}'
+  definition: System.Collections.Generic.IAsyncEnumerable`1
+  href: SuperOffice.Data.SQL.Insert.html
+  name: IAsyncEnumerable<Insert>
+  nameWithType: IAsyncEnumerable<Insert>
+  fullName: System.Collections.Generic.IAsyncEnumerable<SuperOffice.Data.SQL.Insert>
+  nameWithType.vb: IAsyncEnumerable(Of Insert)
+  fullName.vb: System.Collections.Generic.IAsyncEnumerable(Of SuperOffice.Data.SQL.Insert)
+  name.vb: IAsyncEnumerable(Of Insert)
+  spec.csharp:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: <
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IAsyncEnumerable`1
+    name: IAsyncEnumerable
+    isExternal: true
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Data.SQL.Insert
+    name: Insert
+    isExternal: true
+    href: SuperOffice.Data.SQL.Insert.html
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+- uid: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToRecordData*
+  commentId: Overload:SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToRecordData
+  isExternal: true
+  href: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.html#SuperOffice_CRM_Rows_LeadstatusRecordDataExtensions_ToRecordData_SuperOffice_CRM_Rows_LeadstatusRow_
+  name: ToRecordData
+  nameWithType: LeadstatusRecordDataExtensions.ToRecordData
+  fullName: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.ToRecordData
+- uid: SuperOffice.CRM.Rows.LeadstatusRow
+  commentId: T:SuperOffice.CRM.Rows.LeadstatusRow
+  parent: SuperOffice.CRM.Rows
+  isExternal: true
+  href: SuperOffice.CRM.Rows.LeadstatusRow.html
+  name: LeadstatusRow
+  nameWithType: LeadstatusRow
+  fullName: SuperOffice.CRM.Rows.LeadstatusRow
+- uid: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromSelect*
+  commentId: Overload:SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromSelect
+  isExternal: true
+  href: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.html#SuperOffice_CRM_Rows_LeadstatusRecordDataExtensions_FromSelect_SuperOffice_Data_SQL_TargetedSelect_SuperOffice_CRM_Data_LeadstatusTableInfo__
+  name: FromSelect
+  nameWithType: LeadstatusRecordDataExtensions.FromSelect
+  fullName: SuperOffice.CRM.Rows.LeadstatusRecordDataExtensions.FromSelect

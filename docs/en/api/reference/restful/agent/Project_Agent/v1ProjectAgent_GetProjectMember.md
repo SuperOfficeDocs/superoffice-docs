@@ -27,7 +27,7 @@ Gets a ProjectMember object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=695
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=330
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -79,6 +79,8 @@ OK
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -88,7 +90,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,33 +100,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 60,
-  "ContactId": 422,
-  "ProjectId": 991,
-  "ContactName": "Hettinger, Maggio and Weimann",
+  "ProjectmemberId": 944,
+  "ContactId": 605,
+  "ProjectId": 949,
+  "ContactName": "Considine-Kovacek",
   "ContactDepartment": "",
-  "ProjectName": "Johnson LLC",
-  "EmailId": 577,
-  "EmailAddress": "palma@paucek.co.uk",
-  "CountryId": 479,
-  "Firstname": "Mallie",
-  "MiddleName": "Hackett LLC",
-  "Lastname": "Koss",
-  "PersonId": 566,
-  "Mrmrs": "dolores",
-  "ProjectMemberTypeName": "Koch-Stroman",
-  "Phone": "083.592.9534 x85805",
-  "PhoneId": 387,
-  "ProjectMemberTypeId": 733,
-  "EmailAddressName": "vilma@langoshfeeney.ca",
-  "Comment": "velit",
-  "FullName": "Jaydon Keebler",
+  "ProjectName": "Monahan-Walsh",
+  "EmailId": 485,
+  "EmailAddress": "lonzo@ernser.name",
+  "CountryId": 196,
+  "Firstname": "Luella",
+  "MiddleName": "Hettinger Inc and Sons",
+  "Lastname": "Goyette",
+  "PersonId": 179,
+  "Mrmrs": "sit",
+  "ProjectMemberTypeName": "Carroll, Bernhard and Konopelski",
+  "Phone": "443-115-9495 x42498",
+  "PhoneId": 254,
+  "ProjectMemberTypeId": 109,
+  "EmailAddressName": "darian_metz@ratke.co.uk",
+  "Comment": "illum",
+  "FullName": "Marlen Mayert",
+  "Registered": "2024-07-13T03:41:53.9182167+02:00",
+  "Updated": "2003-12-21T03:41:53.9182167+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 852
+      "FieldType": "System.String",
+      "FieldLength": 979
     }
   }
 }

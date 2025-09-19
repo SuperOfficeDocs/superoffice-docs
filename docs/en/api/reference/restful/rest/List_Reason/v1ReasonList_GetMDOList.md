@@ -27,8 +27,8 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Reason/MDOItems?flat=False
-GET /api/v1/List/Reason/MDOItems?query=eveniet
+GET /api/v1/List/Reason/MDOItems?flat=True
+GET /api/v1/List/Reason/MDOItems?query=aspernatur
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 8,
-    "Name": "Muller-Deckow",
-    "ToolTip": "Ab odio ut facere sunt eveniet.",
-    "Deleted": false,
-    "Rank": 300,
-    "Type": "cumque",
+    "Id": 735,
+    "Name": "Goodwin Inc and Sons",
+    "ToolTip": "Rerum hic qui ducimus animi ut totam eum.",
+    "Deleted": true,
+    "Rank": 158,
+    "Type": "occaecati",
     "ChildItems": [
       {
-        "Id": 251,
-        "Name": "Thiel, Romaguera and Muller",
-        "ToolTip": "Et in ut sit eum assumenda quod eveniet.",
+        "Id": 61,
+        "Name": "Tromp-Hessel",
+        "ToolTip": "Deserunt molestias.",
         "Deleted": false,
-        "Rank": 319,
-        "Type": "id",
+        "Rank": 188,
+        "Type": "non",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "mollitia",
-        "ColorBlock": 226,
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "in",
-        "FullName": "Cyril Bartoletti",
+        "IconHint": "placeat",
+        "ColorBlock": 51,
+        "ExtraInfo": "ut",
+        "StyleHint": "eligendi",
+        "FullName": "Anabelle Swaniawski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 920
+            "FieldType": "System.Int32",
+            "FieldLength": 526
           }
         }
       }
     ],
-    "IconHint": "quo",
-    "ColorBlock": 99,
-    "ExtraInfo": "aut",
-    "StyleHint": "ipsum",
-    "FullName": "Mrs. Vince Jessyca Bednar DDS",
+    "IconHint": "dolor",
+    "ColorBlock": 278,
+    "ExtraInfo": "doloremque",
+    "StyleHint": "esse",
+    "FullName": "Alaina Rohan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 140
+        "FieldLength": 834
       }
     }
   }

@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 76,
-    "Name": "Reichel-McLaughlin",
-    "ToolTip": "Consequatur et quo odit mollitia in.",
-    "Deleted": false,
-    "Rank": 926,
-    "Type": "libero",
-    "ColorBlock": 956,
-    "IconHint": "labore",
+    "Id": 425,
+    "Name": "Kilback, Marquardt and Boyle",
+    "ToolTip": "Quo omnis qui doloribus.",
+    "Deleted": true,
+    "Rank": 448,
+    "Type": "debitis",
+    "ColorBlock": 595,
+    "IconHint": "similique",
     "Selected": false,
-    "LastChanged": "2009-10-11T03:47:00.7849183+02:00",
+    "LastChanged": "2019-07-17T03:41:59.5742289+02:00",
     "ChildItems": [
       {
-        "Id": 119,
-        "Name": "Franecki Inc and Sons",
-        "ToolTip": "Dolores eaque nihil.",
+        "Id": 17,
+        "Name": "Collins, Carter and Russel",
+        "ToolTip": "Qui reiciendis quae ut labore.",
         "Deleted": true,
-        "Rank": 109,
-        "Type": "inventore",
-        "ColorBlock": 352,
-        "IconHint": "enim",
+        "Rank": 291,
+        "Type": "quaerat",
+        "ColorBlock": 217,
+        "IconHint": "numquam",
         "Selected": true,
-        "LastChanged": "2004-10-31T03:47:00.7849183+01:00",
+        "LastChanged": "2020-11-10T03:41:59.5742289+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "explicabo",
+        "ExtraInfo": "non",
+        "StyleHint": "voluptates",
         "Hidden": true,
-        "FullName": "Brent Kub"
+        "FullName": "Mrs. Willis Elton Lesch DDS"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "eligendi",
-    "Hidden": true,
-    "FullName": "Concepcion Littel"
+    "ExtraInfo": "dicta",
+    "StyleHint": "vel",
+    "Hidden": false,
+    "FullName": "Burdette Will Hills IV"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 448,
-    "Name": "Crooks LLC",
-    "ToolTip": "Expedita earum dicta maiores repellendus.",
-    "Deleted": true,
-    "Rank": 77,
-    "Type": "ducimus",
-    "ColorBlock": 93,
-    "IconHint": "velit",
+    "Id": 999,
+    "Name": "Ziemann-Casper",
+    "ToolTip": "Aspernatur et commodi.",
+    "Deleted": false,
+    "Rank": 108,
+    "Type": "magnam",
+    "ColorBlock": 482,
+    "IconHint": "iste",
     "Selected": false,
-    "LastChanged": "1999-12-31T03:47:00.7849183+01:00",
+    "LastChanged": "2005-10-07T03:41:59.5898538+02:00",
     "ChildItems": [
       {
-        "Id": 431,
-        "Name": "Gutkowski-Beatty",
-        "ToolTip": "Consequatur et.",
+        "Id": 919,
+        "Name": "Bruen, Kihn and Spencer",
+        "ToolTip": "Enim ipsam voluptatem voluptatem ut.",
         "Deleted": false,
-        "Rank": 445,
-        "Type": "qui",
-        "ColorBlock": 521,
-        "IconHint": "omnis",
+        "Rank": 293,
+        "Type": "sed",
+        "ColorBlock": 636,
+        "IconHint": "nemo",
         "Selected": false,
-        "LastChanged": "2020-11-05T03:47:00.7849183+01:00",
+        "LastChanged": "1998-12-21T03:41:59.5898538+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "incidunt",
-        "Hidden": false,
-        "FullName": "Russel Kunze II",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "doloremque",
+        "Hidden": true,
+        "FullName": "Marie Rempel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 834
+            "FieldLength": 657
           }
         }
       }
     ],
-    "ExtraInfo": "minus",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "et",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Sunny Eichmann",
+    "FullName": "Mrs. Jaiden Velva Collier DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 468
+        "FieldLength": 249
       }
     }
   }

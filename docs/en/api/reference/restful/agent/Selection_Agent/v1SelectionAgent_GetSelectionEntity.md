@@ -27,7 +27,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=329
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=426
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -118,70 +118,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Profit-focused solution-oriented success",
-  "Postit": "iure",
+  "Description": "Proactive encompassing analyzer",
+  "Postit": "maiores",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 176,
-  "IncludePerson": 739,
+  "GroupIdx": 772,
+  "IncludePerson": 338,
   "MemberCount": 99.99,
-  "Name": "Boyle-Hudson",
-  "PostitTextId": 883,
-  "CreatedDate": "2007-07-14T03:46:55.3007553+02:00",
-  "SelectionId": 451,
-  "SoundEx": "magnam",
-  "Source": 815,
-  "TextId": 867,
-  "UpdatedDate": "2006-12-22T03:46:55.3007553+01:00",
-  "UpdatedCount": 943,
-  "Visibility": 908,
+  "Name": "O'Keefe-Bogisich",
+  "PostitTextId": 117,
+  "CreatedDate": "2007-02-25T03:41:54.0432111+01:00",
+  "SelectionId": 366,
+  "SoundEx": "id",
+  "Source": 905,
+  "TextId": 361,
+  "UpdatedDate": "2024-08-24T03:41:54.0432111+02:00",
+  "UpdatedCount": 718,
+  "Visibility": 95,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 285,
-  "TargetTableName": "Cassin Group",
+  "CompanyUnique": true,
+  "TargetTableNumber": 776,
+  "TargetTableName": "Grant-Cole",
   "Completed": false,
-  "LeftSelectionId": 237,
-  "RightSelectionId": 221,
+  "LeftSelectionId": 591,
+  "RightSelectionId": 466,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Spencer, Corwin and Gleason",
-  "ShadowProviderName": "Daniel Group",
-  "ChartKey": "impedit",
-  "LastLoaded": "2000-09-07T03:46:55.3007553+02:00",
-  "LastLoadedBy": 134,
+  "MainProviderName": "Balistreri, Casper and Spinka",
+  "ShadowProviderName": "Ankunding, Leffler and Kerluke",
+  "ChartKey": "sit",
+  "LastLoaded": "2011-02-25T03:41:54.0432111+01:00",
+  "LastLoadedBy": 154,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-11-26T03:46:55.3007553+01:00",
-  "LastMembershipChangeBy": 446,
+  "LastMembershipChange": "2021-05-11T03:41:54.0432111+02:00",
+  "LastMembershipChangeBy": 79,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sed",
-  "MemberTabHeading": "dolorum",
-  "MailingsProviderName": "Greenfelder Inc and Sons",
-  "DashboardTileDefinitionId": 501,
+  "MainHeading": "reiciendis",
+  "MemberTabHeading": "eligendi",
+  "MailingsProviderName": "Jaskolski-Cassin",
+  "DashboardTileDefinitionId": 1001,
   "VisibleFor": [
     {
-      "VisibleId": 209,
+      "VisibleId": 503,
       "Visibility": "All",
-      "DisplayValue": "facilis",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 593
+          "FieldLength": 472
         }
       }
     },
     {
-      "VisibleId": 209,
+      "VisibleId": 503,
       "Visibility": "All",
-      "DisplayValue": "facilis",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 593
+          "FieldLength": 472
         }
       }
     }
@@ -191,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 705
+      "FieldLength": 929
     }
   }
 }

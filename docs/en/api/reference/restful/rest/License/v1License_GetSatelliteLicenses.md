@@ -63,7 +63,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,30 +74,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Murray-Goldner",
-    "Description": "Exclusive multimedia customer loyalty",
+    "Name": "D'Amore-Kshlerin",
+    "Description": "Assimilated maximized concept",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 119,
-        "Tooltip": "odio",
-        "CanAssign": true,
-        "Free": 642,
-        "InUse": 420,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 730,
-        "Name": "Russel, Conroy and Marquardt",
-        "Description": "Persistent high-level initiative",
-        "PrerequisiteModuleName": "Swift, Moore and Baumbach",
-        "SortOrder": 570,
-        "ExtraFlags": 473,
+        "Total": 266,
+        "Tooltip": "labore",
+        "CanAssign": false,
+        "Free": 445,
+        "InUse": 437,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 32,
+        "Name": "Labadie Inc and Sons",
+        "Description": "Centralized dynamic capacity",
+        "PrerequisiteModuleName": "Beahan-Luettgen",
+        "SortOrder": 96,
+        "ExtraFlags": 354,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 77
+            "FieldType": "System.Int32",
+            "FieldLength": 422
           }
         }
       }
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 639,
-        "Tooltip": "quis",
+        "Total": 288,
+        "Tooltip": "aut",
         "CanAssign": false,
-        "Free": 218,
-        "InUse": 76,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 760,
-        "Name": "Ullrich-Wisozk",
-        "Description": "Self-enabling high-level monitoring",
-        "PrerequisiteModuleName": "Schmidt Group",
-        "SortOrder": 438,
-        "ExtraFlags": 565,
+        "Free": 336,
+        "InUse": 925,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 728,
+        "Name": "Auer Inc and Sons",
+        "Description": "Open-source maximized customer loyalty",
+        "PrerequisiteModuleName": "Zieme-Hegmann",
+        "SortOrder": 71,
+        "ExtraFlags": 662,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 490
+            "FieldType": "System.String",
+            "FieldLength": 765
           }
         }
       }
@@ -132,36 +132,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 531
+        "FieldType": "System.String",
+        "FieldLength": 208
       }
     }
   },
   {
-    "Name": "Murray-Goldner",
-    "Description": "Exclusive multimedia customer loyalty",
+    "Name": "D'Amore-Kshlerin",
+    "Description": "Assimilated maximized concept",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 119,
-        "Tooltip": "odio",
-        "CanAssign": true,
-        "Free": 642,
-        "InUse": 420,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 730,
-        "Name": "Russel, Conroy and Marquardt",
-        "Description": "Persistent high-level initiative",
-        "PrerequisiteModuleName": "Swift, Moore and Baumbach",
-        "SortOrder": 570,
-        "ExtraFlags": 473,
+        "Total": 266,
+        "Tooltip": "labore",
+        "CanAssign": false,
+        "Free": 445,
+        "InUse": 437,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 32,
+        "Name": "Labadie Inc and Sons",
+        "Description": "Centralized dynamic capacity",
+        "PrerequisiteModuleName": "Beahan-Luettgen",
+        "SortOrder": 96,
+        "ExtraFlags": 354,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 77
+            "FieldType": "System.Int32",
+            "FieldLength": 422
           }
         }
       }
@@ -169,25 +169,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 639,
-        "Tooltip": "quis",
+        "Total": 288,
+        "Tooltip": "aut",
         "CanAssign": false,
-        "Free": 218,
-        "InUse": 76,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 760,
-        "Name": "Ullrich-Wisozk",
-        "Description": "Self-enabling high-level monitoring",
-        "PrerequisiteModuleName": "Schmidt Group",
-        "SortOrder": 438,
-        "ExtraFlags": 565,
+        "Free": 336,
+        "InUse": 925,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 728,
+        "Name": "Auer Inc and Sons",
+        "Description": "Open-source maximized customer loyalty",
+        "PrerequisiteModuleName": "Zieme-Hegmann",
+        "SortOrder": 71,
+        "ExtraFlags": 662,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 490
+            "FieldType": "System.String",
+            "FieldLength": 765
           }
         }
       }
@@ -196,8 +196,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 531
+        "FieldType": "System.String",
+        "FieldLength": 208
       }
     }
   }

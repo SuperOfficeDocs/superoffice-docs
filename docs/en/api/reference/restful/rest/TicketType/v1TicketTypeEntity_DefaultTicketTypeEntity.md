@@ -86,40 +86,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 479,
-  "Name": "Miller Inc and Sons",
-  "Rank": 162,
-  "Tooltip": "nihil",
-  "Icon": "aut",
-  "DefaultTicketStatus": 320,
+  "TicketTypeId": 807,
+  "Name": "Hauck-Koepp",
+  "Rank": 773,
+  "Tooltip": "voluptas",
+  "Icon": "temporibus",
+  "DefaultTicketStatus": 304,
   "TicketStatuses": [
-    890,
-    835
+    229,
+    218
   ],
-  "DefaultTicketPriority": 190,
+  "DefaultTicketPriority": 823,
   "TicketPriorities": [
-    997,
-    510
+    942,
+    554
   ],
-  "ReplyTemplate": 966,
-  "IsExternalVisible": true,
-  "IsDefault": true,
+  "ReplyTemplate": 454,
+  "IsExternalVisible": false,
+  "IsDefault": false,
   "ShowInNew": true,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    931,
-    434
+    114,
+    712
   ],
-  "ReplyForwardNoSignature": false,
+  "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldLength": 739
     }
   }
 }

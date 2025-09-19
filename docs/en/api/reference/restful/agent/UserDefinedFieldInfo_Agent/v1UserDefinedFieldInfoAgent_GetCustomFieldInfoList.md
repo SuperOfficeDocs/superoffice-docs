@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kub Group",
-  "IncludeStandard": false
+  "TableName": "Renner-Baumbach",
+  "IncludeStandard": true
 }
 ```
 
@@ -104,19 +104,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Kuphal, Wolff and Dietrich",
-    "DisplayName": "Bruen LLC",
-    "Description": "Phased static archive",
-    "ShortLabel": "libero",
-    "HideLabel": true,
-    "HideField": true,
-    "IsIndexed": false,
+    "FieldName": "Vandervort, Mayert and Robel",
+    "DisplayName": "Senger, Tillman and Zieme",
+    "Description": "Upgradable optimal alliance",
+    "ShortLabel": "vel",
+    "HideLabel": false,
+    "HideField": false,
+    "IsIndexed": true,
     "IsMandatory": false,
-    "IsReadOnly": false,
+    "IsReadOnly": true,
     "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 410,
-    "TemplateVariableName": "Purdy-Gislason"
+    "IsDisplayField": true,
+    "Rank": 902,
+    "TemplateVariableName": "Bradtke Inc and Sons"
   }
 ]
 ```

@@ -26,11 +26,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.4.0.0")]
 
       public enum EmailReplyToType : short
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.4.0.0")>
 
       Public Enum EmailReplyToType As Short
   extensionMethods:
@@ -46,7 +46,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.3.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.4.0.0
 - uid: SuperOffice.Data.EmailReplyToType.ReplyToOnlySpecified
   commentId: F:SuperOffice.Data.EmailReplyToType.ReplyToOnlySpecified
   id: ReplyToOnlySpecified

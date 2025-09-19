@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 449,
-    "Name": "Wintheiser, Bailey and Witting",
-    "Tooltip": "vero",
+    "Id": 654,
+    "Name": "Lindgren-Wilderman",
+    "Tooltip": "enim",
     "Deleted": false,
-    "UdListDefinitionId": 246,
-    "Rank": 369,
+    "UdListDefinitionId": 924,
+    "Rank": 156,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 174
+        "FieldLength": 802
       }
     }
   }

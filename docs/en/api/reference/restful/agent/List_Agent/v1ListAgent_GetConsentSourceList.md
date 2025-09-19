@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetConsentSourceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,19 +88,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 530,
-    "Name": "Mann-Mraz",
-    "Tooltip": "sequi",
-    "Rank": 939,
-    "Key": "est",
-    "MailTemplateId": 644,
-    "Deleted": true,
+    "ConsentSourceId": 457,
+    "Name": "Adams LLC",
+    "Tooltip": "aliquid",
+    "Rank": 119,
+    "Key": "neque",
+    "MailTemplateId": 859,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 434
+        "FieldLength": 449
       }
     }
   }

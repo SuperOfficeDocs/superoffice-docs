@@ -121,7 +121,7 @@ items:
   assemblies:
   - SoDataBase
   namespace: SuperOffice.Util
-  summary: "\"sale-created\" or \"sale-sold\""
+  summary: "\"Sale Created\" or \"Sale Sold\"."
   example: []
   syntax:
     content: public string EventName { get; set; }

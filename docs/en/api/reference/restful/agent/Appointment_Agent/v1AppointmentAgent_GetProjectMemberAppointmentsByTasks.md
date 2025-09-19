@@ -134,17 +134,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 490,
-  "StartTime": "2016-09-24T03:46:53.9882851+02:00",
-  "EndTime": "2017-06-20T03:46:53.9882851+02:00",
-  "Count": 881,
+  "PersonId": 858,
+  "StartTime": "2023-05-26T03:41:52.7776381+02:00",
+  "EndTime": "1998-06-18T03:41:52.7776381+02:00",
+  "Count": 48,
   "TaskIds": [
-    656,
-    418
+    662,
+    121
   ]
 }
 ```
@@ -157,67 +157,67 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 488,
-    "StartDate": "1998-09-25T03:46:53.9882851+02:00",
-    "EndDate": "2002-07-08T03:46:53.9882851+02:00",
+    "AppointmentId": 653,
+    "StartDate": "2019-11-16T03:41:52.7776381+01:00",
+    "EndDate": "2013-01-15T03:41:52.7776381+01:00",
     "Type": "BookingForChecklist",
-    "Task": "neque",
-    "AssociateFullName": "Prof. Piper Brooke Towne",
-    "ContactName": "Wolf LLC",
-    "Description": "Streamlined global intranet",
-    "PersonFullName": "Prof. Oda Bernhard DVM",
-    "PersonId": 816,
-    "ContactId": 165,
-    "ProjectId": 623,
-    "ProjectName": "Hermann-West",
-    "IsPublished": true,
-    "AssociateId": 507,
-    "ColorIndex": 881,
+    "Task": "autem",
+    "AssociateFullName": "Eileen Stamm",
+    "ContactName": "Gottlieb Group",
+    "Description": "Persistent exuding complexity",
+    "PersonFullName": "Ms. Shany Pauline Orn Sr.",
+    "PersonId": 556,
+    "ContactId": 131,
+    "ProjectId": 909,
+    "ProjectName": "Gutkowski-Stamm",
+    "IsPublished": false,
+    "AssociateId": 334,
+    "ColorIndex": 590,
     "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 653,
-    "PriorityName": "O'Reilly Group",
+    "PriorityId": 310,
+    "PriorityName": "Stoltenberg, Ernser and Koch",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
     "IsBooking": true,
-    "ActiveDate": "2022-03-12T03:46:53.9882851+01:00",
+    "ActiveDate": "2014-02-07T03:41:52.7776381+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-08-26T03:46:53.9882851+02:00",
-    "RecurringEndDate": "1998-07-24T03:46:53.9882851+02:00",
-    "MotherId": 468,
-    "AssignedBy": 410,
-    "AssignedByFullName": "Mr. Gisselle Gussie O'Reilly PhD",
+    "RecurringStartDate": "2005-10-14T03:41:52.7776381+02:00",
+    "RecurringEndDate": "2009-04-05T03:41:52.7776381+02:00",
+    "MotherId": 771,
+    "AssignedBy": 177,
+    "AssignedByFullName": "Dino Cummerata",
     "RejectReason": "",
-    "Location": "consequatur",
-    "AlarmLeadTime": "non",
-    "SaleId": 201,
-    "SaleName": "Beier-Johns",
-    "AssociateName": "Goyette Group",
-    "CreatedDate": "2000-09-09T03:46:53.9882851+02:00",
-    "CreatedBy": "quae",
-    "CreatedByFullName": "Blake Dickinson",
-    "CreatedByAssociateId": 790,
+    "Location": "distinctio",
+    "AlarmLeadTime": "voluptatem",
+    "SaleId": 212,
+    "SaleName": "Gutkowski, Leffler and Hamill",
+    "AssociateName": "Hyatt, Carter and Lynch",
+    "CreatedDate": "2021-05-27T03:41:52.7776381+02:00",
+    "CreatedBy": "dicta",
+    "CreatedByFullName": "Dr. Bertha Kennith Cole DDS",
+    "CreatedByAssociateId": 711,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
-    "MotherAssociateId": 566,
+    "MotherAssociateId": 315,
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 933,
-    "Title": "tempore",
-    "Agenda": "atque",
-    "InternalNotes": "occaecati",
+    "PreferredTZLocation": 324,
+    "Title": "commodi",
+    "Agenda": "vero",
+    "InternalNotes": "praesentium",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 430
+        "FieldType": "System.Int32",
+        "FieldLength": 723
       }
     }
   }

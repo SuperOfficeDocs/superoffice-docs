@@ -98,19 +98,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 375,
+  "SystemEventId": 209,
   "Scope": "Database",
-  "Eta": "2009-01-06T03:47:00.3005605+01:00",
-  "Eventkey": "omnis",
-  "Eventmess": "omnis",
-  "ExtraInfo": 405,
-  "Owner": 404,
-  "UpdatedCount": 602,
-  "Registered": "2025-01-26T03:47:00.3005605+01:00",
+  "Eta": "2024-08-19T03:41:59.0273773+02:00",
+  "Eventkey": "aperiam",
+  "Eventmess": "doloribus",
+  "ExtraInfo": 647,
+  "Owner": 552,
+  "UpdatedCount": 525,
+  "Registered": "2019-12-04T03:41:59.0273773+01:00",
   "ActivatedBy": null
 }
 ```
@@ -122,22 +122,22 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 835,
+  "SystemEventId": 87,
   "Scope": "Database",
-  "Eta": "2025-08-11T03:47:00.3005605+02:00",
-  "Eventkey": "voluptatem",
-  "Eventmess": "vel",
-  "ExtraInfo": 659,
-  "Owner": 478,
-  "UpdatedCount": 176,
-  "Registered": "2010-03-01T03:47:00.3005605+01:00",
+  "Eta": "2020-10-17T03:41:59.0273773+02:00",
+  "Eventkey": "perspiciatis",
+  "Eventmess": "dolor",
+  "ExtraInfo": 314,
+  "Owner": 247,
+  "UpdatedCount": 913,
+  "Registered": "2006-01-24T03:41:59.0273773+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 518
+      "FieldType": "System.Int32",
+      "FieldLength": 281
     }
   },
   "_Links": {

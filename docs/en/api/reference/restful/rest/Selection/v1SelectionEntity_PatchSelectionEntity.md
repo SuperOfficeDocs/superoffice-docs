@@ -155,12 +155,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "veritatis",
+    "path": "expedita",
     "value": {}
   },
   {
     "op": "add",
-    "path": "veritatis",
+    "path": "expedita",
     "value": {}
   }
 ]
@@ -173,70 +173,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Customizable human-resource help-desk",
-  "Postit": "est",
+  "Description": "Right-sized regional methodology",
+  "Postit": "quasi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 226,
-  "IncludePerson": 661,
+  "GroupIdx": 739,
+  "IncludePerson": 106,
   "MemberCount": 99.99,
-  "Name": "Conroy-Quitzon",
-  "PostitTextId": 241,
-  "CreatedDate": "2012-09-27T03:47:00.3005605+02:00",
-  "SelectionId": 452,
-  "SoundEx": "cupiditate",
-  "Source": 142,
-  "TextId": 130,
-  "UpdatedDate": "2005-02-07T03:47:00.3005605+01:00",
-  "UpdatedCount": 267,
-  "Visibility": 111,
+  "Name": "Kassulke Group",
+  "PostitTextId": 885,
+  "CreatedDate": "2012-11-03T03:41:59.0117535+01:00",
+  "SelectionId": 557,
+  "SoundEx": "et",
+  "Source": 31,
+  "TextId": 183,
+  "UpdatedDate": "2013-11-29T03:41:59.0117535+01:00",
+  "UpdatedCount": 994,
+  "Visibility": 781,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 889,
-  "TargetTableName": "Dicki, Labadie and Rogahn",
+  "CompanyUnique": true,
+  "TargetTableNumber": 352,
+  "TargetTableName": "Emmerich, Olson and Wintheiser",
   "Completed": false,
-  "LeftSelectionId": 167,
-  "RightSelectionId": 832,
+  "LeftSelectionId": 703,
+  "RightSelectionId": 464,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Fadel-Rempel",
-  "ShadowProviderName": "Gislason Group",
-  "ChartKey": "quia",
-  "LastLoaded": "2018-05-10T03:47:00.3005605+02:00",
-  "LastLoadedBy": 291,
+  "MainProviderName": "Greenholt-Daniel",
+  "ShadowProviderName": "Pagac Group",
+  "ChartKey": "quo",
+  "LastLoaded": "2002-12-11T03:41:59.0117535+01:00",
+  "LastLoadedBy": 249,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2012-10-16T03:47:00.3005605+02:00",
-  "LastMembershipChangeBy": 830,
+  "LastMembershipChange": "2020-03-26T03:41:59.0117535+01:00",
+  "LastMembershipChangeBy": 909,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ex",
-  "MemberTabHeading": "asperiores",
-  "MailingsProviderName": "Bergnaum-Aufderhar",
-  "DashboardTileDefinitionId": 132,
+  "MainHeading": "deleniti",
+  "MemberTabHeading": "consequatur",
+  "MailingsProviderName": "Labadie-Beier",
+  "DashboardTileDefinitionId": 516,
   "VisibleFor": [
     {
-      "VisibleId": 770,
+      "VisibleId": 923,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "quasi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldType": "System.String",
+          "FieldLength": 55
         }
       }
     },
     {
-      "VisibleId": 770,
+      "VisibleId": 923,
       "Visibility": "All",
-      "DisplayValue": "consequatur",
+      "DisplayValue": "quasi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldType": "System.String",
+          "FieldLength": 55
         }
       }
     }
@@ -245,13 +245,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 469
+      "FieldType": "System.String",
+      "FieldLength": 77
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

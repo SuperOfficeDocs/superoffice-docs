@@ -79,16 +79,16 @@ OK
 POST /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 456,
-  "Name": "Windler, Herman and Von",
-  "Tooltip": "autem",
+  "HeadingId": 217,
+  "Name": "Hills Inc and Sons",
+  "Tooltip": "similique",
   "Deleted": false,
-  "Rank": 333,
-  "UdListDefinitionId": 477
+  "Rank": 383,
+  "UdListDefinitionId": 349
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 187,
-  "Name": "Kihn, Jones and Rice",
-  "Tooltip": "voluptatem",
+  "HeadingId": 285,
+  "Name": "Shanahan-Zulauf",
+  "Tooltip": "labore",
   "Deleted": true,
-  "Rank": 669,
-  "UdListDefinitionId": 248,
+  "Rank": 411,
+  "UdListDefinitionId": 743,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 838
+      "FieldLength": 454
     }
   }
 }

@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 322,
-    "Name": "Schmeler LLC",
-    "Tooltip": "exercitationem",
-    "Deleted": true,
-    "UdListDefinitionId": 850,
-    "Rank": 12
+    "Id": 808,
+    "Name": "Schamberger LLC",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "UdListDefinitionId": 224,
+    "Rank": 442
   },
   {
-    "Id": 322,
-    "Name": "Schmeler LLC",
-    "Tooltip": "exercitationem",
-    "Deleted": true,
-    "UdListDefinitionId": 850,
-    "Rank": 12
+    "Id": 808,
+    "Name": "Schamberger LLC",
+    "Tooltip": "ut",
+    "Deleted": false,
+    "UdListDefinitionId": 224,
+    "Rank": 442
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 354,
-    "Name": "Hyatt Inc and Sons",
-    "Tooltip": "nostrum",
-    "Deleted": true,
-    "UdListDefinitionId": 669,
-    "Rank": 489,
+    "Id": 710,
+    "Name": "Feeney Inc and Sons",
+    "Tooltip": "excepturi",
+    "Deleted": false,
+    "UdListDefinitionId": 587,
+    "Rank": 337,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 663
+        "FieldType": "System.String",
+        "FieldLength": 653
       }
     }
   }

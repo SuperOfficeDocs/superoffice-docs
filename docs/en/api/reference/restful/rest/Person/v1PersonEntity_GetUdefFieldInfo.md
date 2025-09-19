@@ -94,7 +94,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 180,
-  "ColumnId": 149,
-  "FieldDefault": "similique",
-  "FieldHeight": 496,
-  "FieldLabel": "architecto",
-  "FieldLeft": 985,
-  "FieldTop": 447,
+  "UDefFieldId": 249,
+  "ColumnId": 577,
+  "FieldDefault": "rerum",
+  "FieldHeight": 374,
+  "FieldLabel": "consectetur",
+  "FieldLeft": 824,
+  "FieldTop": 175,
   "FieldType": "Checkbox",
-  "FieldWidth": 590,
-  "FormatMask": "sit",
+  "FieldWidth": 185,
+  "FormatMask": "labore",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 368,
-  "LabelLeft": 297,
-  "LabelTop": 972,
-  "LabelWidth": 357,
-  "LastVersionId": 643,
-  "ListTableId": 79,
-  "IsMandatory": true,
+  "LabelHeight": 48,
+  "LabelLeft": 780,
+  "LabelTop": 300,
+  "LabelWidth": 280,
+  "LastVersionId": 12,
+  "ListTableId": 155,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 112,
-  "ProgId": "labore",
-  "IsReadOnly": false,
-  "ShortLabel": "distinctio",
-  "TabOrder": 672,
-  "TextLength": 588,
-  "Tooltip": "omnis",
-  "UdefIdentity": 81,
-  "UDListDefinitionId": 804,
+  "Page1LineNo": 364,
+  "ProgId": "et",
+  "IsReadOnly": true,
+  "ShortLabel": "mollitia",
+  "TabOrder": 976,
+  "TextLength": 749,
+  "Tooltip": "aut",
+  "UdefIdentity": 272,
+  "UDListDefinitionId": 306,
   "Justification": "Center",
-  "Version": 732,
-  "TemplateVariableName": "Wilderman, Kozey and Nicolas",
+  "Version": 865,
+  "TemplateVariableName": "Carter-Funk",
   "HasBeenPublished": true,
-  "MdoListName": "Crona-Prosacco",
+  "MdoListName": "Anderson Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldLength": 669
     }
   }
 }

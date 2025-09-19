@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,36 +94,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 808,
-    "ParentId": 277,
-    "Name": "Bernhard LLC",
-    "Fullname": "qui",
-    "CategoryMaster": 235,
+    "TicketCategoryId": 375,
+    "ParentId": 792,
+    "Name": "Vandervort LLC",
+    "Fullname": "quis",
+    "CategoryMaster": 223,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Swaniawski, Kirlin and Feeney",
+    "ExternalName": "VonRueden-Thiel",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 640,
-    "ReplyTemplate": 132,
-    "NotificationEmail": "gayle@considineschuster.name",
+    "AssignmentLag": 933,
+    "ReplyTemplate": 889,
+    "NotificationEmail": "herminia@raynor.ca",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 369,
+    "EffectiveReplyTemplateId": 875,
     "ExtraFields": {
-      "ExtraFields1": "sed",
-      "ExtraFields2": "eligendi"
+      "ExtraFields1": "incidunt",
+      "ExtraFields2": "in"
     },
     "CustomFields": {
-      "CustomFields1": "ea",
-      "CustomFields2": "corporis"
+      "CustomFields1": "perferendis",
+      "CustomFields2": "ut"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 682
+        "FieldLength": 952
       }
     }
   }

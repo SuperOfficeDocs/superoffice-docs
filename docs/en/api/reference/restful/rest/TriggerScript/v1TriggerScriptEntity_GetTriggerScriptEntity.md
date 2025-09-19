@@ -86,7 +86,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,22 +96,22 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 358,
-  "Name": "Rempel-Frami",
+  "ScreenChooserId": 718,
+  "Name": "Labadie LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "voluptatum",
-  "Source": "harum",
-  "Registered": "2020-05-17T03:47:00.3943072+02:00",
-  "RegisteredAssociateId": 14,
-  "Updated": "2015-10-29T03:47:00.3943072+01:00",
-  "UpdatedAssociateId": 483,
+  "UniqueIdentifier": "tenetur",
+  "Source": "quasi",
+  "Registered": "2003-03-19T03:41:59.1679969+01:00",
+  "RegisteredAssociateId": 585,
+  "Updated": "2013-06-22T03:41:59.1679969+02:00",
+  "UpdatedAssociateId": 793,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 318
+      "FieldType": "System.String",
+      "FieldLength": 687
     }
   },
   "_Links": {

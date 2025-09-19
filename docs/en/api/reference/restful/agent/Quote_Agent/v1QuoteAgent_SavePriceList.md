@@ -86,15 +86,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 314,
-  "ERPPriceListKey": "voluptate",
-  "QuoteConnectionId": 908,
-  "Name": "Monahan Group",
-  "Description": "Extended intermediate website",
-  "Currency": "atque",
-  "CurrencyName": "Abernathy Group",
-  "ValidFrom": "2004-10-16T03:46:55.2069913+02:00",
-  "ValidTo": "2018-12-22T03:46:55.2069913+01:00",
+  "PriceListId": 267,
+  "ERPPriceListKey": "id",
+  "QuoteConnectionId": 675,
+  "Name": "Kirlin-Breitenberg",
+  "Description": "Synergized real-time matrices",
+  "Currency": "et",
+  "CurrencyName": "Gorczany, Dickens and Brakus",
+  "ValidFrom": "2015-12-26T03:41:53.9494656+01:00",
+  "ValidTo": "2010-04-26T03:41:53.9494656+02:00",
   "IsActive": false
 }
 ```
@@ -106,22 +106,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 673,
-  "ERPPriceListKey": "error",
-  "QuoteConnectionId": 952,
-  "Name": "Dickinson Inc and Sons",
-  "Description": "Profit-focused encompassing implementation",
-  "Currency": "voluptas",
-  "CurrencyName": "Trantow Inc and Sons",
-  "ValidFrom": "2014-06-26T03:46:55.2069913+02:00",
-  "ValidTo": "2015-11-17T03:46:55.2069913+01:00",
+  "PriceListId": 657,
+  "ERPPriceListKey": "doloremque",
+  "QuoteConnectionId": 156,
+  "Name": "Watsica Group",
+  "Description": "Pre-emptive 24/7 core",
+  "Currency": "dolor",
+  "CurrencyName": "Mayer-Bins",
+  "ValidFrom": "2016-09-24T03:41:53.9494656+02:00",
+  "ValidTo": "2014-05-04T03:41:53.9494656+02:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldType": "System.String",
+      "FieldLength": 277
     }
   }
 }

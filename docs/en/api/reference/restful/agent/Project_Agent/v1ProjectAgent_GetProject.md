@@ -27,7 +27,7 @@ Gets a Project object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProject?projectId=740
+POST /api/v1/Agents/Project/GetProject?projectId=115
 POST /api/v1/Agents/Project/GetProject?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Project/GetProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 272,
-  "Name": "Waters, Prohaska and Stamm",
-  "Description": "Fundamental non-volatile hardware",
+  "ProjectId": 422,
+  "Name": "Ebert LLC",
+  "Description": "Focused local strategy",
   "URL": "http://www.example.com/",
-  "Type": "debitis",
-  "AssociateId": 909,
-  "AssociateFullName": "Miss Deshawn Dillan Miller",
-  "TypeId": 188,
-  "Updated": "2019-07-21T03:46:55.1444933+02:00",
-  "StatusId": 305,
-  "Status": "necessitatibus",
-  "TextId": 517,
-  "PublishTo": "2011-06-22T03:46:55.1444933+02:00",
-  "PublishFrom": "2012-06-04T03:46:55.1444933+02:00",
-  "IsPublished": false,
+  "Type": "ut",
+  "AssociateId": 841,
+  "AssociateFullName": "Corine Dickinson",
+  "TypeId": 979,
+  "Updated": "2000-06-02T03:41:53.886968+02:00",
+  "StatusId": 32,
+  "Status": "quia",
+  "TextId": 252,
+  "PublishTo": "2001-01-27T03:41:53.886968+01:00",
+  "PublishFrom": "2013-01-18T03:41:53.886968+01:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1405617",
-  "ActiveErpLinks": 329,
+  "ProjectNumber": "902822",
+  "ActiveErpLinks": 459,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldType": "System.String",
+      "FieldLength": 307
     }
   }
 }

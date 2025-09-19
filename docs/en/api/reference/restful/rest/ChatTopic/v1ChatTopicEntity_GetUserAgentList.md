@@ -30,7 +30,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 
 ```http
 GET /api/v1/ChatTopic/UserAgents?flat=True
-GET /api/v1/ChatTopic/UserAgents?onlyPresent=True
+GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 ```
 
 
@@ -81,7 +81,7 @@ OK
 GET /api/v1/ChatTopic/UserAgents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,50 +92,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 774,
-    "Name": "Parker, Kerluke and Osinski",
-    "ToolTip": "Rerum et sit harum provident officia vel.",
+    "Id": 892,
+    "Name": "Flatley-Bahringer",
+    "ToolTip": "Voluptatem nemo aut.",
     "Deleted": true,
-    "Rank": 976,
-    "Type": "soluta",
+    "Rank": 45,
+    "Type": "dolorem",
     "ChildItems": [
       {
-        "Id": 998,
-        "Name": "Torphy LLC",
-        "ToolTip": "Veritatis atque tenetur id vitae laudantium in commodi.",
-        "Deleted": false,
-        "Rank": 286,
+        "Id": 337,
+        "Name": "Keebler LLC",
+        "ToolTip": "Pariatur neque vel voluptas et quas molestias.",
+        "Deleted": true,
+        "Rank": 352,
         "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "a",
-        "ColorBlock": 820,
-        "ExtraInfo": "consectetur",
-        "StyleHint": "tempora",
-        "FullName": "Vernie Hamill",
+        "IconHint": "molestiae",
+        "ColorBlock": 348,
+        "ExtraInfo": "quis",
+        "StyleHint": "natus",
+        "FullName": "Abe Geo Mertz V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 432
+            "FieldLength": 544
           }
         }
       }
     ],
-    "IconHint": "quo",
-    "ColorBlock": 362,
-    "ExtraInfo": "non",
-    "StyleHint": "libero",
-    "FullName": "Danyka Morar",
+    "IconHint": "corrupti",
+    "ColorBlock": 531,
+    "ExtraInfo": "sed",
+    "StyleHint": "qui",
+    "FullName": "Donny Jared Fisher III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 433
+        "FieldLength": 888
       }
     }
   }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 291,
-    "Name": "Pagac, Schmeler and Fahey",
-    "ToolTip": "Et doloribus accusamus omnis ipsa omnis numquam quia.",
+    "Id": 401,
+    "Name": "Sporer Group",
+    "ToolTip": "Aspernatur eum qui nesciunt est dicta.",
     "Deleted": false,
-    "Rank": 235,
-    "Type": "ullam",
-    "ColorBlock": 32,
-    "IconHint": "suscipit",
+    "Rank": 465,
+    "Type": "quam",
+    "ColorBlock": 160,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2014-12-18T03:47:00.5661762+01:00",
+    "LastChanged": "2000-10-23T03:41:59.3242422+02:00",
     "ChildItems": [
       {
-        "Id": 295,
-        "Name": "Bode, Kertzmann and O'Connell",
-        "ToolTip": "Id aliquid quam et ut laboriosam.",
+        "Id": 20,
+        "Name": "Hauck-Murray",
+        "ToolTip": "Dignissimos itaque placeat necessitatibus assumenda eum ex.",
         "Deleted": false,
-        "Rank": 826,
-        "Type": "in",
-        "ColorBlock": 368,
-        "IconHint": "voluptatum",
-        "Selected": true,
-        "LastChanged": "2001-05-17T03:47:00.5661762+02:00",
+        "Rank": 671,
+        "Type": "est",
+        "ColorBlock": 811,
+        "IconHint": "eos",
+        "Selected": false,
+        "LastChanged": "2014-07-26T03:41:59.3242422+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "rerum",
+        "ExtraInfo": "amet",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Cortney Lindgren",
+        "FullName": "Jensen Harber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 569
+            "FieldLength": 535
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "facilis",
-    "Hidden": false,
-    "FullName": "Thora McLaughlin",
+    "ExtraInfo": "dolore",
+    "StyleHint": "sint",
+    "Hidden": true,
+    "FullName": "Jayson Block",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 928
+        "FieldType": "System.String",
+        "FieldLength": 496
       }
     }
   }

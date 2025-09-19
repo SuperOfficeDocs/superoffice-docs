@@ -89,15 +89,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 117,
-  "Name": "Smith Group",
-  "Tooltip": "voluptatem",
+  "Id": 999,
+  "Name": "Kling, Bartell and Rohan",
+  "Tooltip": "ea",
   "Deleted": false,
-  "Rank": 320,
+  "Rank": 982,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "UseGroupsAndHeadings": true,
+  "ListType": "est",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 440,
-  "Name": "Hammes Inc and Sons",
-  "Tooltip": "sed",
+  "Id": 736,
+  "Name": "Ryan, Kling and Leannon",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 324,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 395,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "vitae",
+  "ListType": "est",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 74
+      "FieldType": "System.Int32",
+      "FieldLength": 828
     }
   }
 }

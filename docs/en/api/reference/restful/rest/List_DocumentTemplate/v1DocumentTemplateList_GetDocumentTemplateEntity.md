@@ -87,7 +87,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,37 +97,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 543,
-  "Name": "Swift Group",
-  "Tooltip": "consequatur",
-  "SaveInDb": 339,
-  "Filename": "omnis",
-  "DefaultOref": "cumque",
+  "DocumentTemplateId": 504,
+  "Name": "Wisoky Inc and Sons",
+  "Tooltip": "libero",
+  "SaveInDb": 320,
+  "Filename": "nihil",
+  "DefaultOref": "nam",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 66,
-  "IntentId": 911,
+  "AutoeventId": 961,
+  "IntentId": 573,
   "IsDefaultPublished": false,
-  "Rank": 924,
-  "LoadTemplateFromPlugin": 894,
-  "MimeType": "dolorem",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 977,
+  "Rank": 30,
+  "LoadTemplateFromPlugin": 826,
+  "MimeType": "autem",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 627,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "taya@kuphal.biz",
-  "IncludeSignature": true,
+  "EmailSubject": "carlo@friesenlowe.info",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "ricardo.kautzer@zboncak.us",
+  "SenderEmailAddress": "rod.runolfsson@hoegercorwin.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldType": "System.String",
+      "FieldLength": 164
     }
   }
 }

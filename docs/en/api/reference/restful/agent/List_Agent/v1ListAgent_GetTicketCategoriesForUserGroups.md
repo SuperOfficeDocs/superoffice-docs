@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    985,
-    289
+    955,
+    292
   ]
 }
 ```
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 196,
-    "Name": "Witting, Auer and Hand",
-    "ToolTip": "Omnis inventore quae aut voluptas ducimus error eveniet.",
+    "Id": 890,
+    "Name": "Goldner, Kutch and Murazik",
+    "ToolTip": "Et aut molestias non sint molestiae perferendis sint.",
     "Deleted": false,
-    "Rank": 74,
-    "Type": "qui",
+    "Rank": 322,
+    "Type": "veritatis",
     "ChildItems": [
       {
-        "Id": 725,
-        "Name": "Kohler-Bogisich",
-        "ToolTip": "Sed sit et.",
-        "Deleted": false,
-        "Rank": 583,
-        "Type": "consequatur",
+        "Id": 614,
+        "Name": "Witting Group",
+        "ToolTip": "Optio earum sequi aut quia aut.",
+        "Deleted": true,
+        "Rank": 246,
+        "Type": "eaque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "inventore",
-        "ColorBlock": 632,
+        "IconHint": "rerum",
+        "ColorBlock": 283,
         "ExtraInfo": "et",
-        "StyleHint": "adipisci",
-        "FullName": "Woodrow Blanda",
+        "StyleHint": "ratione",
+        "FullName": "Geo Stoltenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 372
+            "FieldType": "System.Int32",
+            "FieldLength": 375
           }
         }
       }
     ],
     "IconHint": "qui",
-    "ColorBlock": 66,
-    "ExtraInfo": "asperiores",
-    "StyleHint": "vel",
-    "FullName": "Mrs. Velma Jones",
+    "ColorBlock": 521,
+    "ExtraInfo": "qui",
+    "StyleHint": "maiores",
+    "FullName": "Braden Nolan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 840
+        "FieldLength": 652
       }
     }
   }

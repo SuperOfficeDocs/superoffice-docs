@@ -111,28 +111,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 662,
-  "SourcePersonId": 907,
-  "DestinationContactId": 842,
-  "DestinationPersonId": 868,
-  "RelationId": 169,
-  "Comment": "unde",
-  "RelationDefinitionId": 490,
-  "Reversed": 301,
-  "UpdatedDate": "2022-08-06T03:46:59.8786923+02:00",
-  "CreatedDate": "2000-10-10T03:46:59.8786923+02:00",
+  "SourceContactId": 874,
+  "SourcePersonId": 901,
+  "DestinationContactId": 955,
+  "DestinationPersonId": 650,
+  "RelationId": 959,
+  "Comment": "est",
+  "RelationDefinitionId": 291,
+  "Reversed": 500,
+  "UpdatedDate": "2017-12-11T03:41:58.6211452+01:00",
+  "CreatedDate": "2004-03-26T03:41:58.6211452+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Carter Inc and Sons",
-  "SourcePersonName": "Kiehn Group",
-  "DestinationContactName": "Hansen Group",
-  "DestinationPersonName": "Weber-Muller",
-  "ActiveText": "et",
-  "PassiveText": "optio"
+  "SourceContactName": "Renner, Block and Daugherty",
+  "SourcePersonName": "Ratke, Abshire and Legros",
+  "DestinationContactName": "Predovic-Schumm",
+  "DestinationPersonName": "Heidenreich, Macejkovic and Ledner",
+  "ActiveText": "sed",
+  "PassiveText": "fugit"
 }
 ```
 
@@ -143,35 +143,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 79,
-  "SourcePersonId": 466,
-  "DestinationContactId": 702,
-  "DestinationPersonId": 584,
-  "RelationId": 525,
-  "Comment": "eos",
-  "RelationDefinitionId": 232,
-  "Reversed": 24,
-  "UpdatedDate": "2015-07-06T03:46:59.8786923+02:00",
-  "CreatedDate": "2012-09-06T03:46:59.8786923+02:00",
+  "SourceContactId": 395,
+  "SourcePersonId": 591,
+  "DestinationContactId": 129,
+  "DestinationPersonId": 227,
+  "RelationId": 685,
+  "Comment": "et",
+  "RelationDefinitionId": 736,
+  "Reversed": 102,
+  "UpdatedDate": "2009-02-02T03:41:58.6211452+01:00",
+  "CreatedDate": "2023-08-20T03:41:58.6211452+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Mann Group",
-  "SourcePersonName": "VonRueden, Jacobs and Kessler",
-  "DestinationContactName": "Tillman-Reynolds",
-  "DestinationPersonName": "Rath Inc and Sons",
-  "ActiveText": "nihil",
-  "PassiveText": "dolor",
+  "SourceContactName": "Hayes-Wilderman",
+  "SourcePersonName": "Strosin LLC",
+  "DestinationContactName": "Predovic-Renner",
+  "DestinationPersonName": "Morissette-Hirthe",
+  "ActiveText": "voluptatem",
+  "PassiveText": "numquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 179
+      "FieldLength": 861
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -99,7 +99,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 590
+  "Id": 70
 }
 ```
 
@@ -110,37 +110,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 142,
-  "Name": "Terry Group",
-  "AssociateId": 561,
-  "DetailsTable": 998,
-  "DetailsRecord": 189,
+  "Id": 442,
+  "Name": "Sauer, Hudson and Bartell",
+  "AssociateId": 47,
+  "DetailsTable": 287,
+  "DetailsRecord": 117,
   "IsSystemTask": false,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "et",
-    "ParameterObject2": "aliquid"
+    "ParameterObject1": "commodi",
+    "ParameterObject2": "soluta"
   },
-  "LastStarted": "2020-08-24T03:46:54.3007673+02:00",
-  "Created": "2003-02-25T03:46:54.3007673+01:00",
-  "StartCount": 75,
-  "DatabaseSerialNumber": "1814330",
-  "Context": "ut",
-  "Result": "facere",
+  "LastStarted": "2000-04-09T03:41:53.0745025+02:00",
+  "Created": "2022-02-15T03:41:53.0745025+01:00",
+  "StartCount": 911,
+  "DatabaseSerialNumber": "961258",
+  "Context": "exercitationem",
+  "Result": "debitis",
   "State": "All",
-  "Description": "Profound executive secured line",
-  "Response": "sed",
-  "Request": "autem",
-  "ProgressDescription": "Future-proofed impactful software",
-  "ProgressPercent": 670,
-  "FileName": "Windler, Brown and Sipes",
+  "Description": "Enhanced interactive data-warehouse",
+  "Response": "aut",
+  "Request": "quia",
+  "ProgressDescription": "Intuitive bandwidth-monitored paradigm",
+  "ProgressPercent": 186,
+  "FileName": "Collier Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 744
+      "FieldType": "System.Int32",
+      "FieldLength": 784
     }
   }
 }

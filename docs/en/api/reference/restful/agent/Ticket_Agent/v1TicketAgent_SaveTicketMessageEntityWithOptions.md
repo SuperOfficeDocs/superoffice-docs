@@ -109,10 +109,10 @@ Content-Type: application/json; charset=utf-8
   "Entity": null,
   "Notify": false,
   "AttachmentIds": [
-    768,
-    46
+    637,
+    431
   ],
-  "UpdateRepliedAt": false
+  "UpdateRepliedAt": true
 }
 ```
 
@@ -123,28 +123,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 252,
+  "EjMessageId": 745,
   "Ticket": null,
-  "CreatedAt": "2003-06-03T03:46:55.550729+02:00",
+  "CreatedAt": "2025-07-17T03:41:54.2932014+02:00",
   "CreatedBy": null,
-  "Author": "aut",
+  "Author": "numquam",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quibusdam",
-  "TimeSpent": 384,
-  "Body": "non",
+  "MessageId": "autem",
+  "TimeSpent": 659,
+  "Body": "minima",
   "HtmlBody": "et",
-  "EmailHeader": "christopher@macejkovic.name",
-  "DebugInfo": "aut",
-  "MailSorter": "iusto",
+  "EmailHeader": "cory_kuvalis@kertzmann.uk",
+  "DebugInfo": "reiciendis",
+  "MailSorter": "in",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "enim",
+  "SearchTitle": "similique",
   "MessageHeaders": [
     {
-      "Id": 865,
-      "Name": "Spinka LLC",
-      "Value": "nihil",
+      "Id": 384,
+      "Name": "Sauer-Batz",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -152,50 +152,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 492
+          "FieldLength": 571
         }
       }
     }
   ],
   "Important": false,
-  "Language": "aut",
-  "Sentiment": 983,
-  "SentimentConfidence": 471,
+  "Language": "dolor",
+  "Sentiment": 756,
+  "SentimentConfidence": 456,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 855,
-      "Name": "Lakin, Prosacco and Jones",
-      "ContentType": "aspernatur",
-      "AttSize": 699,
+      "AttachmentId": 613,
+      "Name": "Renner Group",
+      "ContentType": "sed",
+      "AttSize": 358,
       "InlineImage": false,
-      "ContentId": "ut",
-      "AuthKey": "velit",
+      "ContentId": "id",
+      "AuthKey": "nam",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 130
+          "FieldType": "System.Int32",
+          "FieldLength": 516
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "perspiciatis"
+    "ExtraFields1": "natus",
+    "ExtraFields2": "ab"
   },
   "CustomFields": {
-    "CustomFields1": "vitae",
-    "CustomFields2": "sed"
+    "CustomFields1": "quia",
+    "CustomFields2": "optio"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 765
+      "FieldType": "System.Int32",
+      "FieldLength": 586
     }
   }
 }

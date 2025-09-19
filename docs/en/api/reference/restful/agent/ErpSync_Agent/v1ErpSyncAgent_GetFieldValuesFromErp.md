@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromErp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 382,
+  "ErpConnectionId": 115,
   "ActorTypeErp": "Customer",
-  "ErpKey": "dolore"
+  "ErpKey": "a"
 }
 ```
 
@@ -101,10 +101,10 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Collins, Bayer and Luettgen",
-    "CrmFieldKey": "non",
-    "Value": "suscipit",
-    "DisplayValue": "facilis",
+    "DisplayName": "Windler-Blick",
+    "CrmFieldKey": "quis",
+    "Value": "nostrum",
+    "DisplayValue": "rem",
     "SyncToCrm": false,
     "SyncToErp": false,
     "TableRight": null,
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldLength": 764
       }
     }
   }

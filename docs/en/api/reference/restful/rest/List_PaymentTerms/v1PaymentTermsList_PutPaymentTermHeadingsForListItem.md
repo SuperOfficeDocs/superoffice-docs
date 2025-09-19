@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 770,
-    "Name": "McCullough, Feil and Lakin",
-    "ToolTip": "Eligendi minima ut exercitationem.",
-    "Deleted": false,
-    "Rank": 520,
-    "Type": "est",
-    "ColorBlock": 186,
-    "IconHint": "sequi",
+    "Id": 180,
+    "Name": "Homenick, Hoeger and Cole",
+    "ToolTip": "Placeat sit ut.",
+    "Deleted": true,
+    "Rank": 268,
+    "Type": "vel",
+    "ColorBlock": 305,
+    "IconHint": "totam",
     "Selected": false,
-    "LastChanged": "2017-02-22T03:47:00.6911718+01:00",
+    "LastChanged": "2018-09-05T03:41:59.4492344+02:00",
     "ChildItems": [
       {
-        "Id": 32,
-        "Name": "Lang, Daugherty and Will",
-        "ToolTip": "Assumenda voluptates qui alias consequatur quis et.",
+        "Id": 59,
+        "Name": "Zulauf, Green and Wuckert",
+        "ToolTip": "Et iusto.",
         "Deleted": true,
-        "Rank": 602,
-        "Type": "et",
-        "ColorBlock": 752,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "1999-09-15T03:47:00.6911718+02:00",
+        "Rank": 111,
+        "Type": "accusantium",
+        "ColorBlock": 670,
+        "IconHint": "fuga",
+        "Selected": true,
+        "LastChanged": "2018-05-23T03:41:59.4492344+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "provident",
-        "Hidden": true,
-        "FullName": "Amir Prosacco"
+        "ExtraInfo": "rerum",
+        "StyleHint": "reiciendis",
+        "Hidden": false,
+        "FullName": "Mr. Dolores Runte DDS"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "architecto",
-    "Hidden": true,
-    "FullName": "Ashton Simonis"
+    "ExtraInfo": "nulla",
+    "StyleHint": "perferendis",
+    "Hidden": false,
+    "FullName": "Mr. Laron Ankunding"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 931,
-    "Name": "Price LLC",
-    "ToolTip": "Consequatur accusantium tenetur nisi voluptas minus repellendus.",
+    "Id": 755,
+    "Name": "Hartmann-Mante",
+    "ToolTip": "Eius ad aut et eos.",
     "Deleted": false,
-    "Rank": 44,
-    "Type": "quis",
-    "ColorBlock": 28,
-    "IconHint": "possimus",
+    "Rank": 842,
+    "Type": "dolorem",
+    "ColorBlock": 267,
+    "IconHint": "animi",
     "Selected": false,
-    "LastChanged": "2013-06-28T03:47:00.6911718+02:00",
+    "LastChanged": "2009-11-09T03:41:59.4492344+01:00",
     "ChildItems": [
       {
-        "Id": 130,
-        "Name": "Howe Inc and Sons",
-        "ToolTip": "Id quia nobis.",
-        "Deleted": true,
-        "Rank": 652,
-        "Type": "dolorem",
-        "ColorBlock": 904,
-        "IconHint": "ullam",
-        "Selected": false,
-        "LastChanged": "2022-05-30T03:47:00.6911718+02:00",
+        "Id": 874,
+        "Name": "Jacobson Group",
+        "ToolTip": "Cupiditate necessitatibus officia.",
+        "Deleted": false,
+        "Rank": 817,
+        "Type": "praesentium",
+        "ColorBlock": 784,
+        "IconHint": "doloribus",
+        "Selected": true,
+        "LastChanged": "2000-02-15T03:41:59.4492344+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "nihil",
-        "Hidden": false,
-        "FullName": "Candelario Hamill",
+        "ExtraInfo": "unde",
+        "StyleHint": "voluptates",
+        "Hidden": true,
+        "FullName": "Miss Walton Batz II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 133
+            "FieldType": "System.Int32",
+            "FieldLength": 581
           }
         }
       }
     ],
-    "ExtraInfo": "ullam",
-    "StyleHint": "ratione",
-    "Hidden": false,
-    "FullName": "Domingo Rolfson",
+    "ExtraInfo": "aut",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Monroe Joshua Cruickshank IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 214
+        "FieldLength": 42
       }
     }
   }

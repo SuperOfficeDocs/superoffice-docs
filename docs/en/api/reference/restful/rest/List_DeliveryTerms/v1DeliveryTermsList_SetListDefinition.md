@@ -85,20 +85,20 @@ OK
 PUT /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 442,
-  "Name": "Hettinger-McDermott",
-  "Tooltip": "odio",
-  "Deleted": true,
-  "Rank": 963,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 314,
+  "Name": "Zulauf-Kutch",
+  "Tooltip": "voluptates",
+  "Deleted": false,
+  "Rank": 174,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "harum",
-  "InUseByUserDefinedFields": true
+  "ListType": "earum",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 272,
-  "Name": "Cummings Group",
-  "Tooltip": "consequatur",
+  "Id": 999,
+  "Name": "Miller Inc and Sons",
+  "Tooltip": "facere",
   "Deleted": false,
-  "Rank": 288,
-  "IsCustomList": true,
+  "Rank": 622,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "impedit",
+  "ListType": "vel",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 381
+      "FieldType": "System.String",
+      "FieldLength": 531
     }
   }
 }

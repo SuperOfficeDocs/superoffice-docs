@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Contact/GetPreviewContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 802
+  "ContactId": 438
 }
 ```
 
@@ -98,17 +98,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 501,
-  "Name": "Kshlerin-Senger",
+  "ContactId": 111,
+  "Name": "McLaughlin, West and Kerluke",
   "Department": "",
-  "CountryId": 31,
-  "Number2": "821505",
-  "DirectPhone": "017-153-7608",
+  "CountryId": 808,
+  "Number2": "1153791",
+  "DirectPhone": "(800)885-3358 x889",
   "URL": "http://www.example.com/",
-  "EmailAddress": "rylan@volkman.uk",
+  "EmailAddress": "maxwell@fisher.info",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
-  "AssociateFullName": "Barry Stoltenberg",
+  "AssociateFullName": "Mr. Corbin Zboncak IV",
   "Address": null
 }
 ```

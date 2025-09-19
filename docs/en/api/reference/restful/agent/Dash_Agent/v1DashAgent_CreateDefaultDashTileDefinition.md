@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,31 +84,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 684,
-  "Name": "Kozey LLC",
-  "Description": "Diverse cohesive circuit",
-  "DefaultHeight": 150,
-  "DefaultWidth": 985,
+  "DashboardTileDefinitionId": 523,
+  "Name": "Bruen, Lowe and Carroll",
+  "Description": "Streamlined tangible Graphic Interface",
+  "DefaultHeight": 318,
+  "DefaultWidth": 672,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Metz, Johnson and Larson",
-  "SelectionId": 335,
+  "EntityName": "Koelpin, Hirthe and Lindgren",
+  "SelectionId": 423,
   "CurrencyMode": "Base",
-  "CurrencyCode": "natus",
+  "CurrencyCode": "vitae",
   "Measure": "Average",
-  "MeasureField": "quia",
-  "SortBy": "ex",
-  "LayoutConfig": "temporibus",
-  "SecondarySelectionId": 260,
-  "MeasureByField": "unde",
+  "MeasureField": "nemo",
+  "SortBy": "eius",
+  "LayoutConfig": "animi",
+  "SecondarySelectionId": 630,
+  "MeasureByField": "aut",
   "Usage": "Dashboard",
-  "ProviderName": "Schinner Inc and Sons",
+  "ProviderName": "Nader-Walsh",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 58
+      "FieldLength": 987
     }
   }
 }

@@ -31,7 +31,7 @@ Change a AppointmentEntity user-defined field's type based on the prog-id or lab
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -105,7 +105,7 @@ AppointmentEntity found.
 POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -115,46 +115,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 442,
-  "ColumnId": 36,
-  "FieldDefault": "aliquid",
-  "FieldHeight": 934,
-  "FieldLabel": "facilis",
-  "FieldLeft": 414,
-  "FieldTop": 983,
+  "UDefFieldId": 193,
+  "ColumnId": 245,
+  "FieldDefault": "voluptatem",
+  "FieldHeight": 810,
+  "FieldLabel": "voluptatum",
+  "FieldLeft": 244,
+  "FieldTop": 911,
   "FieldType": "Checkbox",
-  "FieldWidth": 308,
-  "FormatMask": "qui",
-  "HideLabel": false,
+  "FieldWidth": 510,
+  "FormatMask": "odio",
+  "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 690,
-  "LabelLeft": 29,
-  "LabelTop": 654,
-  "LabelWidth": 74,
-  "LastVersionId": 510,
-  "ListTableId": 799,
+  "LabelHeight": 867,
+  "LabelLeft": 146,
+  "LabelTop": 445,
+  "LabelWidth": 295,
+  "LastVersionId": 827,
+  "ListTableId": 478,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 319,
-  "ProgId": "maxime",
+  "Page1LineNo": 569,
+  "ProgId": "dicta",
   "IsReadOnly": false,
-  "ShortLabel": "ad",
-  "TabOrder": 114,
-  "TextLength": 590,
-  "Tooltip": "voluptatum",
-  "UdefIdentity": 526,
-  "UDListDefinitionId": 159,
+  "ShortLabel": "unde",
+  "TabOrder": 911,
+  "TextLength": 150,
+  "Tooltip": "nemo",
+  "UdefIdentity": 989,
+  "UDListDefinitionId": 691,
   "Justification": "Center",
-  "Version": 626,
-  "TemplateVariableName": "Legros, Ratke and Thompson",
+  "Version": 851,
+  "TemplateVariableName": "Emard, Schinner and Konopelski",
   "HasBeenPublished": true,
-  "MdoListName": "Walsh, Grady and Hartmann",
+  "MdoListName": "Abshire, Rath and Bashirian",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 753
+      "FieldType": "System.String",
+      "FieldLength": 836
     }
   }
 }

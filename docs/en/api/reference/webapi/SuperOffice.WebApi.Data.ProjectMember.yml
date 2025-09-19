@@ -27,6 +27,8 @@ items:
   - SuperOffice.WebApi.Data.ProjectMember.ProjectMemberTypeName
   - SuperOffice.WebApi.Data.ProjectMember.ProjectName
   - SuperOffice.WebApi.Data.ProjectMember.ProjectmemberId
+  - SuperOffice.WebApi.Data.ProjectMember.Registered
+  - SuperOffice.WebApi.Data.ProjectMember.Updated
   langs:
   - csharp
   - vb
@@ -585,6 +587,52 @@ items:
       type: System.String
     content.vb: Public Overridable Property FullName As String
   overload: SuperOffice.WebApi.Data.ProjectMember.FullName*
+- uid: SuperOffice.WebApi.Data.ProjectMember.Registered
+  commentId: P:SuperOffice.WebApi.Data.ProjectMember.Registered
+  id: Registered
+  parent: SuperOffice.WebApi.Data.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: Registered
+  nameWithType: ProjectMember.Registered
+  fullName: SuperOffice.WebApi.Data.ProjectMember.Registered
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: The date and time when the project member was registered
+  example: []
+  syntax:
+    content: public virtual DateTime Registered { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Registered As Date
+  overload: SuperOffice.WebApi.Data.ProjectMember.Registered*
+- uid: SuperOffice.WebApi.Data.ProjectMember.Updated
+  commentId: P:SuperOffice.WebApi.Data.ProjectMember.Updated
+  id: Updated
+  parent: SuperOffice.WebApi.Data.ProjectMember
+  langs:
+  - csharp
+  - vb
+  name: Updated
+  nameWithType: ProjectMember.Updated
+  fullName: SuperOffice.WebApi.Data.ProjectMember.Updated
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: The date and time when the project member was last updated
+  example: []
+  syntax:
+    content: public virtual DateTime Updated { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: Public Overridable Property Updated As Date
+  overload: SuperOffice.WebApi.Data.ProjectMember.Updated*
 references:
 - uid: SuperOffice.WebApi.Agents.ProjectAgent
   commentId: T:SuperOffice.WebApi.Agents.ProjectAgent
@@ -1083,3 +1131,28 @@ references:
   name: FullName
   nameWithType: ProjectMember.FullName
   fullName: SuperOffice.WebApi.Data.ProjectMember.FullName
+- uid: SuperOffice.WebApi.Data.ProjectMember.Registered*
+  commentId: Overload:SuperOffice.WebApi.Data.ProjectMember.Registered
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectMember.html#SuperOffice_WebApi_Data_ProjectMember_Registered
+  name: Registered
+  nameWithType: ProjectMember.Registered
+  fullName: SuperOffice.WebApi.Data.ProjectMember.Registered
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: SuperOffice.WebApi.Data.ProjectMember.Updated*
+  commentId: Overload:SuperOffice.WebApi.Data.ProjectMember.Updated
+  isExternal: true
+  href: SuperOffice.WebApi.Data.ProjectMember.html#SuperOffice_WebApi_Data_ProjectMember_Updated
+  name: Updated
+  nameWithType: ProjectMember.Updated
+  fullName: SuperOffice.WebApi.Data.ProjectMember.Updated

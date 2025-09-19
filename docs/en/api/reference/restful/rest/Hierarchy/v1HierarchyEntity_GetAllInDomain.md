@@ -30,7 +30,7 @@ Get all items in a domain
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}?children=True
+GET /api/v1/Hierarchy/{domain}?children=False
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/Hierarchy/{domain}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,46 +90,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 661,
+    "HierarchyId": 479,
     "Domain": "Dashboards",
-    "Name": "Barton-O'Connell",
-    "Fullname": "animi",
-    "ParentId": 334,
+    "Name": "Macejkovic LLC",
+    "Fullname": "placeat",
+    "ParentId": 911,
     "Children": [
       {
-        "HierarchyId": 391,
+        "HierarchyId": 494,
         "Domain": "Dashboards",
-        "Name": "D'Amore-Collins",
-        "Fullname": "ut",
-        "ParentId": 757,
+        "Name": "Beier-Gutmann",
+        "Fullname": "eveniet",
+        "ParentId": 182,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2008-08-27T03:47:00.0349452+02:00",
-        "RegisteredAssociateId": 708,
-        "Updated": "2024-12-31T03:47:00.0349452+01:00",
-        "UpdatedAssociateId": 336,
+        "Registered": "2018-04-03T03:41:58.7773879+02:00",
+        "RegisteredAssociateId": 813,
+        "Updated": "2013-04-11T03:41:58.7773879+02:00",
+        "UpdatedAssociateId": 926,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 835
+            "FieldLength": 515
           }
         }
       }
     ],
-    "Registered": "2022-01-29T03:47:00.0349452+01:00",
-    "RegisteredAssociateId": 139,
-    "Updated": "2006-12-20T03:47:00.0349452+01:00",
-    "UpdatedAssociateId": 968,
+    "Registered": "2019-09-15T03:41:58.7773879+02:00",
+    "RegisteredAssociateId": 721,
+    "Updated": "2024-08-23T03:41:58.7773879+02:00",
+    "UpdatedAssociateId": 135,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 706
+        "FieldType": "System.Int32",
+        "FieldLength": 966
       }
     }
   }

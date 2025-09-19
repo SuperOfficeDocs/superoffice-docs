@@ -112,32 +112,32 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 412,
-  "FormKey": "est",
-  "Name": "Bradtke-Watsica",
-  "Description": "Intuitive demand-driven framework",
-  "Config": "dolores",
-  "FolderId": 863,
-  "ScriptId": 175,
-  "ResponseShipmentId": 285,
-  "Active": false,
-  "Expires": "2000-01-16T03:46:55.0038735+01:00",
-  "MaxSubmits": 850,
+  "FormId": 349,
+  "FormKey": "voluptatum",
+  "Name": "Vandervort, Olson and DuBuque",
+  "Description": "Realigned exuding architecture",
+  "Config": "animi",
+  "FolderId": 858,
+  "ScriptId": 629,
+  "ResponseShipmentId": 186,
+  "Active": true,
+  "Expires": "2009-03-26T03:41:53.7463488+01:00",
+  "MaxSubmits": 949,
   "Type": "Normal",
-  "Recipe": "magnam",
-  "GroupId": 576,
-  "NewTicket": true,
+  "Recipe": "et",
+  "GroupId": 954,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2022-02-09T03:46:55.0038735+01:00",
-  "RegisteredAssociateId": 858,
-  "Updated": "2020-09-30T03:46:55.0038735+02:00",
-  "UpdatedAssociateId": 989,
-  "UpdatedCount": 805,
+  "Registered": "2007-03-18T03:41:53.7463488+01:00",
+  "RegisteredAssociateId": 509,
+  "Updated": "2019-09-17T03:41:53.7463488+02:00",
+  "UpdatedAssociateId": 284,
+  "UpdatedCount": 794,
   "EmailFlows": [
-    47,
-    685
+    718,
+    301
   ],
-  "FolderName": "Welch, Flatley and Stark"
+  "FolderName": "Fisher, Bernhard and Gleason"
 }
 ```
 
@@ -148,38 +148,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 953,
-  "FormKey": "et",
-  "Name": "Brekke, Turner and Hessel",
-  "Description": "Right-sized mission-critical archive",
-  "Config": "sunt",
-  "FolderId": 149,
-  "ScriptId": 585,
-  "ResponseShipmentId": 56,
-  "Active": false,
-  "Expires": "1999-05-16T03:46:55.0038735+02:00",
-  "MaxSubmits": 553,
+  "FormId": 506,
+  "FormKey": "quisquam",
+  "Name": "Schaefer-Goodwin",
+  "Description": "Synergized directional initiative",
+  "Config": "odio",
+  "FolderId": 226,
+  "ScriptId": 330,
+  "ResponseShipmentId": 476,
+  "Active": true,
+  "Expires": "2020-11-16T03:41:53.7463488+01:00",
+  "MaxSubmits": 56,
   "Type": "Normal",
-  "Recipe": "possimus",
-  "GroupId": 338,
-  "NewTicket": false,
+  "Recipe": "earum",
+  "GroupId": 89,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2011-12-26T03:46:55.0038735+01:00",
-  "RegisteredAssociateId": 819,
-  "Updated": "2020-12-24T03:46:55.0038735+01:00",
-  "UpdatedAssociateId": 160,
-  "UpdatedCount": 622,
+  "Registered": "1998-10-12T03:41:53.7463488+02:00",
+  "RegisteredAssociateId": 388,
+  "Updated": "2013-03-03T03:41:53.7463488+01:00",
+  "UpdatedAssociateId": 757,
+  "UpdatedCount": 847,
   "EmailFlows": [
-    355,
-    920
+    213,
+    361
   ],
-  "FolderName": "Gutmann-Murray",
+  "FolderName": "Collins, Grimes and Berge",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 143
+      "FieldType": "System.Int32",
+      "FieldLength": 572
     }
   }
 }

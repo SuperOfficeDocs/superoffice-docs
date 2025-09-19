@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 31,
-    "Name": "O'Connell-Schinner",
-    "Tooltip": "nam",
+    "HeadingId": 933,
+    "Name": "Ondricka Group",
+    "Tooltip": "aspernatur",
     "Deleted": false,
-    "Rank": 386,
-    "UdListDefinitionId": 528,
+    "Rank": 498,
+    "UdListDefinitionId": 476,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 39
+        "FieldLength": 464
       }
     }
   }

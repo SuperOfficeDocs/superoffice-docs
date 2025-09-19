@@ -79,28 +79,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 180,
-    "Value": "dignissimos",
-    "Tooltip": "consequuntur",
+    "Id": 550,
+    "Value": "atque",
+    "Tooltip": "ipsa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 536
+        "FieldLength": 635
       }
     }
   },
   {
-    "Id": 180,
-    "Value": "dignissimos",
-    "Tooltip": "consequuntur",
+    "Id": 550,
+    "Value": "atque",
+    "Tooltip": "ipsa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 536
+        "FieldLength": 635
       }
     }
   }

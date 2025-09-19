@@ -26,7 +26,7 @@ Deletes the ConsentPerson
 | consentPersonId | int32 | **Required** The identity of the ConsentPerson |
 
 ```http
-POST /api/v1/Agents/Person/DeleteConsentPerson?consentPersonId=236
+POST /api/v1/Agents/Person/DeleteConsentPerson?consentPersonId=934
 ```
 
 
@@ -57,7 +57,7 @@ No Content
 POST /api/v1/Agents/Person/DeleteConsentPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

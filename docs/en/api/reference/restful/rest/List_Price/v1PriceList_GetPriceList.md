@@ -83,7 +83,7 @@ PriceList found.
 GET /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,27 +93,27 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 490,
-  "ERPPriceListKey": "modi",
-  "QuoteConnectionId": 343,
-  "Name": "Padberg, Feil and Schuster",
-  "Description": "Integrated interactive superstructure",
-  "Currency": "id",
-  "CurrencyName": "Marks, Carter and Paucek",
-  "ValidFrom": "2005-07-01T03:47:00.7067961+02:00",
-  "ValidTo": "2006-07-18T03:47:00.7067961+02:00",
+  "PriceListId": 693,
+  "ERPPriceListKey": "itaque",
+  "QuoteConnectionId": 442,
+  "Name": "Schaden-Stark",
+  "Description": "Diverse responsive neural-net",
+  "Currency": "optio",
+  "CurrencyName": "Daniel-McKenzie",
+  "ValidFrom": "2023-03-04T03:41:59.4648585+01:00",
+  "ValidTo": "2008-08-28T03:41:59.4648585+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldLength": 578
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

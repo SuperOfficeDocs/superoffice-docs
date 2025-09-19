@@ -78,18 +78,18 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 799,
-  "AssociateId": 242,
-  "Block": "placeat",
-  "Registered": "2018-08-13T03:46:55.0038735+02:00",
-  "RegisteredAssociateId": 205,
-  "Updated": "2005-01-22T03:46:55.0038735+01:00",
-  "UpdatedAssociateId": 682,
-  "UpdatedCount": 341
+  "ShipmentMessageBlockId": 750,
+  "AssociateId": 615,
+  "Block": "dignissimos",
+  "Registered": "2012-03-20T03:41:53.7463488+01:00",
+  "RegisteredAssociateId": 563,
+  "Updated": "2011-01-31T03:41:53.7463488+01:00",
+  "UpdatedAssociateId": 92,
+  "UpdatedCount": 615
 }
 ```
 
@@ -100,20 +100,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 506,
-  "AssociateId": 84,
-  "Block": "temporibus",
-  "Registered": "2004-11-27T03:46:55.0038735+01:00",
-  "RegisteredAssociateId": 705,
-  "Updated": "1999-06-24T03:46:55.0038735+02:00",
-  "UpdatedAssociateId": 392,
-  "UpdatedCount": 46,
+  "ShipmentMessageBlockId": 490,
+  "AssociateId": 182,
+  "Block": "aut",
+  "Registered": "2020-02-17T03:41:53.7463488+01:00",
+  "RegisteredAssociateId": 20,
+  "Updated": "2014-10-21T03:41:53.7463488+02:00",
+  "UpdatedAssociateId": 989,
+  "UpdatedCount": 2,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 351
+      "FieldType": "System.Int32",
+      "FieldLength": 561
     }
   }
 }

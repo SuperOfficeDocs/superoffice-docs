@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 243,
-  "Name": "Hudson LLC",
-  "Tooltip": "distinctio",
+  "Id": 586,
+  "Name": "Stracke, Leffler and Altenwerth",
+  "Tooltip": "sint",
   "Deleted": false,
-  "Rank": 70,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 955,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "vel",
+  "ListType": "quo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 167
+      "FieldType": "System.String",
+      "FieldLength": 166
     }
   },
   "_Links": {

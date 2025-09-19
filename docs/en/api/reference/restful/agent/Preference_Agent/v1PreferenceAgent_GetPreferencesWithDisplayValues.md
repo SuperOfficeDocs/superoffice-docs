@@ -90,12 +90,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "asperiores",
-      "Key": "reiciendis"
+      "Section": "nam",
+      "Key": "eligendi"
     },
     {
-      "Section": "asperiores",
-      "Key": "reiciendis"
+      "Section": "nam",
+      "Key": "eligendi"
     }
   ]
 }
@@ -110,22 +110,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "ullam",
+    "RawValue": "qui",
     "Specification": null,
-    "DisplayValue": "accusamus",
-    "DisplayTooltip": "voluptatem",
+    "DisplayValue": "dolor",
+    "DisplayTooltip": "in",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 645,
-    "PrefDescId": 818,
-    "TableName": "Nikolaus Group",
-    "UserPreferenceId": 484,
+    "TargetId": 245,
+    "PrefDescId": 144,
+    "TableName": "Goodwin-Cremin",
+    "UserPreferenceId": 898,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 943
+        "FieldLength": 289
       }
     }
   }

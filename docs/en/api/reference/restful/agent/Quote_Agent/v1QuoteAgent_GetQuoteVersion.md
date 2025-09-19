@@ -112,11 +112,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 572
+  "QuoteVersionId": 439
 }
 ```
 
@@ -127,75 +127,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 129,
-  "ERPQuoteVersionKey": "sed",
-  "QuoteId": 605,
-  "Description": "Open-architected cohesive customer loyalty",
-  "Number": "1872320",
+  "QuoteVersionId": 214,
+  "ERPQuoteVersionKey": "deleniti",
+  "QuoteId": 489,
+  "Description": "Cross-platform bifurcated function",
+  "Number": "1697339",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 979,
-  "SentDate": "2000-03-03T03:46:55.1913666+01:00",
-  "FollowupId": 53,
-  "ExpirationDate": "2022-07-04T03:46:55.1913666+02:00",
-  "DeliveryCountryId": 955,
+  "LikelyQuoteAlternativeId": 337,
+  "SentDate": "2001-01-05T03:41:53.933842+01:00",
+  "FollowupId": 234,
+  "ExpirationDate": "2004-11-04T03:41:53.933842+01:00",
+  "DeliveryCountryId": 927,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 874,
+  "InvoiceCountryId": 931,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "cupiditate",
-  "ERPPaymentTypeKey": "rerum",
-  "ERPDeliveryTermsKey": "qui",
-  "ERPDeliveryTypeKey": "fugiat",
-  "Rank": 289,
-  "ApprovedBy": 961,
-  "ApprovedText": "sit",
-  "ApprovedRegisteredBy": 37,
-  "ApprovedRegisteredDate": "2004-10-04T03:46:55.1913666+02:00",
-  "ExtraField1": "sit",
-  "ExtraField2": "adipisci",
-  "ExtraField3": "repellendus",
-  "ExtraField4": "aperiam",
-  "ExtraField5": "quam",
-  "LastRecalculated": "2002-07-15T03:46:55.1913666+02:00",
-  "Updated": "2014-03-16T03:46:55.1913666+01:00",
-  "UpdatedAssociateId": 529,
-  "Registered": "2012-08-03T03:46:55.1913666+02:00",
-  "RegisteredAssociateId": 897,
-  "RequestAssociateId": 747,
-  "RequestComment": "quia",
+  "ERPPaymentTermsKey": "fugiat",
+  "ERPPaymentTypeKey": "doloribus",
+  "ERPDeliveryTermsKey": "voluptatem",
+  "ERPDeliveryTypeKey": "numquam",
+  "Rank": 394,
+  "ApprovedBy": 813,
+  "ApprovedText": "enim",
+  "ApprovedRegisteredBy": 162,
+  "ApprovedRegisteredDate": "2020-11-23T03:41:53.933842+01:00",
+  "ExtraField1": "consequuntur",
+  "ExtraField2": "sed",
+  "ExtraField3": "beatae",
+  "ExtraField4": "consequatur",
+  "ExtraField5": "animi",
+  "LastRecalculated": "2008-06-10T03:41:53.933842+02:00",
+  "Updated": "1998-12-31T03:41:53.933842+01:00",
+  "UpdatedAssociateId": 708,
+  "Registered": "2018-08-22T03:41:53.933842+02:00",
+  "RegisteredAssociateId": 941,
+  "RequestAssociateId": 65,
+  "RequestComment": "et",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 643,
-      "ERPQuoteAlternativeKey": "provident",
-      "QuoteVersionId": 109,
-      "Name": "Dare-Gutkowski",
-      "Description": "Operative object-oriented challenge",
+      "QuoteAlternativeId": 809,
+      "ERPQuoteAlternativeKey": "adipisci",
+      "QuoteVersionId": 670,
+      "Name": "Littel Group",
+      "Description": "Devolved exuding groupware",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 16168.305999999999,
-      "ERPDiscountAmount": 13447.993999999999,
-      "DiscountPercent": 1551.33,
-      "DiscountAmount": 11793.242,
+      "ERPDiscountPercent": 30547.097999999998,
+      "ERPDiscountAmount": 7878.8759999999993,
+      "DiscountPercent": 28729.378,
+      "DiscountAmount": 13864.815999999999,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "ut",
-      "VAT": 15494.496,
-      "EarningPercent": 27268.933999999997,
-      "EarningAmount": 9333.052,
-      "SubTotal": 7650.094,
-      "TotalPrice": 10549.044,
-      "ExtraField1": "debitis",
-      "ExtraField2": "temporibus",
-      "ExtraField3": "quos",
-      "ExtraField4": "laborum",
-      "ExtraField5": "placeat",
+      "VATInfo": "maiores",
+      "VAT": 166.102,
+      "EarningPercent": 2269.016,
+      "EarningAmount": 686.346,
+      "SubTotal": 6559.4619999999995,
+      "TotalPrice": 407.41999999999996,
+      "ExtraField1": "omnis",
+      "ExtraField2": "explicabo",
+      "ExtraField3": "culpa",
+      "ExtraField4": "consequatur",
+      "ExtraField5": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 685
+          "FieldLength": 218
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 819
+      "FieldType": "System.Int32",
+      "FieldLength": 23
     }
   }
 }

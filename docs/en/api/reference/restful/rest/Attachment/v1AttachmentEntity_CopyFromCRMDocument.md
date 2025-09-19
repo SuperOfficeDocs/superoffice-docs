@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 406,
-  "Name": "Christiansen, Parisian and Spinka",
-  "ContentType": "soluta",
-  "AttSize": 552,
+  "AttachmentId": 914,
+  "Name": "Hauck, Orn and Koch",
+  "ContentType": "ratione",
+  "AttSize": 920,
   "InlineImage": false,
-  "ContentId": "minus",
-  "AuthKey": "vel",
-  "IsSafeFileExtension": false,
+  "ContentId": "vel",
+  "AuthKey": "rerum",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 899
+      "FieldType": "System.String",
+      "FieldLength": 219
     }
   }
 }

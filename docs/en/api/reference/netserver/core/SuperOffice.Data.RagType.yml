@@ -11,6 +11,7 @@ items:
   - SuperOffice.Data.RagType.Product
   - SuperOffice.Data.RagType.Ticket
   - SuperOffice.Data.RagType.Webpage
+  - SuperOffice.Data.RagType.Website
   langs:
   - csharp
   - vb
@@ -25,11 +26,11 @@ items:
   example: []
   syntax:
     content: >-
-      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")]
+      [DataContract(Namespace = "http://www.superoffice.net/ws/crm/NetServer/11.4.0.0")]
 
       public enum RagType
     content.vb: >-
-      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.3.0.0")>
+      <DataContract(Namespace:="http://www.superoffice.net/ws/crm/NetServer/11.4.0.0")>
 
       Public Enum RagType
   extensionMethods:
@@ -45,7 +46,7 @@ items:
     namedArguments:
     - name: Namespace
       type: System.String
-      value: http://www.superoffice.net/ws/crm/NetServer/11.3.0.0
+      value: http://www.superoffice.net/ws/crm/NetServer/11.4.0.0
 - uid: SuperOffice.Data.RagType.None
   commentId: F:SuperOffice.Data.RagType.None
   id: None
@@ -122,7 +123,7 @@ items:
   assemblies:
   - SoCore
   namespace: SuperOffice.Data
-  summary: '2: Webpage - one or more web pages'
+  summary: '2: Webpage - a single URL/webpage only'
   example: []
   syntax:
     content: >-
@@ -228,6 +229,37 @@ items:
       <EnumMember>
 
       Product = 5
+  attributes:
+  - type: System.Runtime.Serialization.EnumMemberAttribute
+    ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor
+    arguments: []
+- uid: SuperOffice.Data.RagType.Website
+  commentId: F:SuperOffice.Data.RagType.Website
+  id: Website
+  parent: SuperOffice.Data.RagType
+  langs:
+  - csharp
+  - vb
+  name: Website
+  nameWithType: RagType.Website
+  fullName: SuperOffice.Data.RagType.Website
+  type: Field
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: '6: Website - Crawl entire websites/domain, not single webpage.'
+  example: []
+  syntax:
+    content: >-
+      [EnumMember]
+
+      Website = 6
+    return:
+      type: SuperOffice.Data.RagType
+    content.vb: >-
+      <EnumMember>
+
+      Website = 6
   attributes:
   - type: System.Runtime.Serialization.EnumMemberAttribute
     ctor: System.Runtime.Serialization.EnumMemberAttribute.#ctor

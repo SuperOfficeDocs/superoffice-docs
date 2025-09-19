@@ -116,35 +116,35 @@ TicketTypeEntity updated.
 PUT /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 511,
-  "Name": "Wehner-Lueilwitz",
-  "Rank": 962,
-  "Tooltip": "illo",
-  "Icon": "voluptas",
-  "DefaultTicketStatus": 617,
+  "TicketTypeId": 892,
+  "Name": "Champlin Inc and Sons",
+  "Rank": 487,
+  "Tooltip": "inventore",
+  "Icon": "et",
+  "DefaultTicketStatus": 360,
   "TicketStatuses": [
-    997,
-    417
+    32,
+    811
   ],
-  "DefaultTicketPriority": 397,
+  "DefaultTicketPriority": 955,
   "TicketPriorities": [
-    115,
-    626
+    834,
+    459
   ],
-  "ReplyTemplate": 473,
+  "ReplyTemplate": 454,
   "IsExternalVisible": true,
   "IsDefault": true,
-  "ShowInNew": false,
+  "ShowInNew": true,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    780,
-    28
+    511,
+    7
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": true
@@ -158,40 +158,40 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 565,
-  "Name": "Treutel-Rutherford",
-  "Rank": 13,
-  "Tooltip": "ea",
-  "Icon": "sunt",
-  "DefaultTicketStatus": 38,
+  "TicketTypeId": 754,
+  "Name": "Mitchell Inc and Sons",
+  "Rank": 70,
+  "Tooltip": "earum",
+  "Icon": "voluptate",
+  "DefaultTicketStatus": 691,
   "TicketStatuses": [
-    80,
-    909
+    128,
+    328
   ],
-  "DefaultTicketPriority": 360,
+  "DefaultTicketPriority": 447,
   "TicketPriorities": [
-    803,
-    361
+    733,
+    608
   ],
-  "ReplyTemplate": 944,
+  "ReplyTemplate": 98,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    266,
-    1002
+    357,
+    906
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 406
+      "FieldType": "System.Int32",
+      "FieldLength": 690
     }
   },
   "_Links": {

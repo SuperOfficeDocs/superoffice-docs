@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "distinctio",
-  "PrefKey": "dolorem",
+  "PrefSection": "et",
+  "PrefKey": "repudiandae",
   "PrefLevel": "Database"
 }
 ```
@@ -104,22 +104,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "et",
+  "RawValue": "voluptatem",
   "Specification": null,
-  "DisplayValue": "quisquam",
-  "DisplayTooltip": "quia",
+  "DisplayValue": "non",
+  "DisplayTooltip": "dolor",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 878,
-  "PrefDescId": 373,
-  "TableName": "Raynor Inc and Sons",
-  "UserPreferenceId": 463,
+  "TargetId": 805,
+  "PrefDescId": 175,
+  "TableName": "Boyle-Stoltenberg",
+  "UserPreferenceId": 116,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 310
+      "FieldLength": 352
     }
   }
 }

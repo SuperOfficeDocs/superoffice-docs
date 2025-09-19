@@ -70,7 +70,7 @@ OK
 GET /api/v1/Dash/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,37 +80,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 761,
-  "UniqueId": "rerum",
-  "Name": "Quigley-Stoltenberg",
-  "Description": "Optional fault-tolerant application",
-  "AssociateId": 484,
-  "Columns": 163,
+  "DashboardId": 37,
+  "UniqueId": "accusamus",
+  "Name": "Crist LLC",
+  "Description": "Self-enabling maximized hardware",
+  "AssociateId": 743,
+  "Columns": 954,
   "Theme": null,
-  "VisibleForAll": 273,
+  "VisibleForAll": 113,
   "VisibleForAssociates": [
-    734,
-    792
+    172,
+    312
   ],
   "VisibleForGroups": [
-    87,
-    130
+    394,
+    53
   ],
-  "PinForAll": 158,
+  "PinForAll": 280,
   "PinForAssociates": [
-    794,
-    548
+    798,
+    569
   ],
   "PinForGroups": [
-    629,
-    292
+    564,
+    534
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldType": "System.String",
+      "FieldLength": 784
     }
   }
 }

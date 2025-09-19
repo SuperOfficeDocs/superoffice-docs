@@ -26,7 +26,7 @@ Deletes the DocumentEntity
 | documentEntityId | int32 | **Required** The identity of the DocumentEntity |
 
 ```http
-POST /api/v1/Agents/Document/DeleteDocumentEntity?documentEntityId=315
+POST /api/v1/Agents/Document/DeleteDocumentEntity?documentEntityId=684
 ```
 
 
@@ -57,7 +57,7 @@ No Content
 POST /api/v1/Agents/Document/DeleteDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

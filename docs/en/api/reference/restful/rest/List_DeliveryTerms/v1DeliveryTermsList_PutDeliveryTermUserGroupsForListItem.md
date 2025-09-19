@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 699,
-    "Name": "Runte-Romaguera",
-    "ToolTip": "Ut a.",
-    "Deleted": false,
-    "Rank": 287,
-    "Type": "minus",
-    "ColorBlock": 906,
-    "IconHint": "quisquam",
+    "Id": 270,
+    "Name": "Schmitt, Smith and Kuphal",
+    "ToolTip": "Doloremque consectetur est sapiente autem.",
+    "Deleted": true,
+    "Rank": 811,
+    "Type": "odio",
+    "ColorBlock": 413,
+    "IconHint": "ea",
     "Selected": true,
-    "LastChanged": "1999-08-16T03:47:00.6442984+02:00",
+    "LastChanged": "2007-02-04T03:41:59.4023618+01:00",
     "ChildItems": [
       {
-        "Id": 252,
-        "Name": "Hermiston-Wisozk",
-        "ToolTip": "Dolorem est.",
+        "Id": 850,
+        "Name": "Barrows LLC",
+        "ToolTip": "Incidunt vitae placeat perspiciatis.",
         "Deleted": true,
-        "Rank": 172,
-        "Type": "et",
-        "ColorBlock": 843,
-        "IconHint": "voluptatum",
+        "Rank": 352,
+        "Type": "neque",
+        "ColorBlock": 730,
+        "IconHint": "quam",
         "Selected": false,
-        "LastChanged": "2020-12-11T03:47:00.6442984+01:00",
+        "LastChanged": "2002-08-04T03:41:59.4023618+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "aut",
+        "ExtraInfo": "fugiat",
+        "StyleHint": "odio",
         "Hidden": false,
-        "FullName": "Miss Stanton Savion Hamill PhD"
+        "FullName": "Mrs. Nickolas Lizzie Heaney DVM"
       }
     ],
     "ExtraInfo": "consequatur",
-    "StyleHint": "nostrum",
+    "StyleHint": "voluptatum",
     "Hidden": false,
-    "FullName": "Douglas Conroy IV"
+    "FullName": "Miss Sabina Lehner"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 778,
-    "Name": "Trantow-Toy",
-    "ToolTip": "Velit at est officiis temporibus tempora et.",
+    "Id": 387,
+    "Name": "Skiles-Rutherford",
+    "ToolTip": "Ad nemo dolores placeat soluta qui.",
     "Deleted": false,
-    "Rank": 451,
-    "Type": "vel",
-    "ColorBlock": 324,
-    "IconHint": "ea",
-    "Selected": true,
-    "LastChanged": "1999-02-22T03:47:00.6442984+01:00",
+    "Rank": 534,
+    "Type": "aliquid",
+    "ColorBlock": 648,
+    "IconHint": "vel",
+    "Selected": false,
+    "LastChanged": "2017-08-31T03:41:59.4023618+02:00",
     "ChildItems": [
       {
-        "Id": 346,
-        "Name": "Balistreri Inc and Sons",
-        "ToolTip": "Sequi illum et.",
-        "Deleted": true,
-        "Rank": 221,
-        "Type": "ipsam",
-        "ColorBlock": 191,
-        "IconHint": "nulla",
-        "Selected": true,
-        "LastChanged": "2017-07-02T03:47:00.6442984+02:00",
+        "Id": 872,
+        "Name": "Armstrong, Vandervort and Lemke",
+        "ToolTip": "Qui rerum voluptate necessitatibus nostrum sed aliquid.",
+        "Deleted": false,
+        "Rank": 919,
+        "Type": "sunt",
+        "ColorBlock": 295,
+        "IconHint": "adipisci",
+        "Selected": false,
+        "LastChanged": "2004-11-26T03:41:59.4023618+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "velit",
+        "ExtraInfo": "officia",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Johnathon Kassulke",
+        "FullName": "Joanne Kilback",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 335
+            "FieldLength": 117
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "velit",
-    "Hidden": false,
-    "FullName": "Nathan Nicolas",
+    "ExtraInfo": "eligendi",
+    "StyleHint": "debitis",
+    "Hidden": true,
+    "FullName": "Hugh Gorczany",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 499
+        "FieldLength": 523
       }
     }
   }

@@ -92,18 +92,18 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "O'Kon LLC",
-  "ForceFlatList": true,
-  "AdditionalInfo": "eos",
+  "Name": "Jaskolski, Kilback and Stoltenberg",
+  "ForceFlatList": false,
+  "AdditionalInfo": "repellendus",
   "HistoryItems": [
-    47,
-    914
+    594,
+    517
   ],
-  "OnlyHistory": true
+  "OnlyHistory": false
 }
 ```
 
@@ -115,56 +115,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 528,
-    "Name": "Mosciski-Donnelly",
-    "ToolTip": "Rerum mollitia.",
-    "Deleted": false,
-    "Rank": 46,
-    "Type": "consequatur",
-    "ColorBlock": 976,
-    "IconHint": "consequatur",
-    "Selected": false,
-    "LastChanged": "2021-09-16T03:46:55.0194982+02:00",
+    "Id": 912,
+    "Name": "Zemlak Group",
+    "ToolTip": "Sunt aliquid.",
+    "Deleted": true,
+    "Rank": 831,
+    "Type": "et",
+    "ColorBlock": 29,
+    "IconHint": "dolorem",
+    "Selected": true,
+    "LastChanged": "2010-03-05T03:41:53.7619726+01:00",
     "ChildItems": [
       {
-        "Id": 260,
-        "Name": "Lowe-Pacocha",
-        "ToolTip": "Nihil ut accusantium.",
+        "Id": 629,
+        "Name": "Cronin, Streich and Conn",
+        "ToolTip": "Eveniet soluta.",
         "Deleted": false,
-        "Rank": 920,
-        "Type": "vitae",
-        "ColorBlock": 976,
-        "IconHint": "perferendis",
-        "Selected": false,
-        "LastChanged": "2018-11-16T03:46:55.0194982+01:00",
+        "Rank": 939,
+        "Type": "sint",
+        "ColorBlock": 386,
+        "IconHint": "repellendus",
+        "Selected": true,
+        "LastChanged": "2017-09-25T03:41:53.7619726+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "officia",
-        "Hidden": true,
-        "FullName": "Minnie Hessel",
+        "ExtraInfo": "aut",
+        "StyleHint": "suscipit",
+        "Hidden": false,
+        "FullName": "Mrs. Santos Frami",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 632
+            "FieldLength": 946
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "officiis",
+    "ExtraInfo": "aspernatur",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Edmund Sanford",
+    "FullName": "Carrie Romaguera DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 709
+        "FieldType": "System.String",
+        "FieldLength": 673
       }
     }
   }

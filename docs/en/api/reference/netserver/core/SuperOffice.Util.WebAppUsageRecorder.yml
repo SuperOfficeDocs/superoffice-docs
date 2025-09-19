@@ -5,7 +5,8 @@ items:
   id: WebAppUsageRecorder
   parent: SuperOffice.Util
   children:
-  - SuperOffice.Util.WebAppUsageRecorder.RecordUsageAsync(SuperOffice.CRM.Rows.WebAppUsageRecordData,System.Threading.CancellationToken)
+  - SuperOffice.Util.WebAppUsageRecorder.#ctor
+  - SuperOffice.Util.WebAppUsageRecorder.RecordUsageAsync(System.String,System.DateTime,System.Int32,System.UInt32)
   langs:
   - csharp
   - vb
@@ -16,11 +17,15 @@ items:
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.Util
+  summary: Utility class to insert or update a row in WebAppUsage.
+  example: []
   syntax:
-    content: public static class WebAppUsageRecorder
-    content.vb: Public Module WebAppUsageRecorder
+    content: 'public class WebAppUsageRecorder : IWebAppUsageRecorder'
+    content.vb: Public Class WebAppUsageRecorder Implements IWebAppUsageRecorder
   inheritance:
   - System.Object
+  implements:
+  - SuperOffice.Util.IWebAppUsageRecorder
   inheritedMembers:
   - System.Object.ToString
   - System.Object.Equals(System.Object)
@@ -29,31 +34,72 @@ items:
   - System.Object.GetHashCode
   - System.Object.GetType
   - System.Object.MemberwiseClone
-- uid: SuperOffice.Util.WebAppUsageRecorder.RecordUsageAsync(SuperOffice.CRM.Rows.WebAppUsageRecordData,System.Threading.CancellationToken)
-  commentId: M:SuperOffice.Util.WebAppUsageRecorder.RecordUsageAsync(SuperOffice.CRM.Rows.WebAppUsageRecordData,System.Threading.CancellationToken)
-  id: RecordUsageAsync(SuperOffice.CRM.Rows.WebAppUsageRecordData,System.Threading.CancellationToken)
+  extensionMethods:
+  - SuperOffice.Util.WebAppUsageRecorder.EnumUtil.MapEnums``2
+  - SuperOffice.Util.WebAppUsageRecorder.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  - SuperOffice.Util.WebAppUsageRecorder.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.WebAppUsageRecorder)
+  - SuperOffice.Util.WebAppUsageRecorder.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+- uid: SuperOffice.Util.WebAppUsageRecorder.RecordUsageAsync(System.String,System.DateTime,System.Int32,System.UInt32)
+  commentId: M:SuperOffice.Util.WebAppUsageRecorder.RecordUsageAsync(System.String,System.DateTime,System.Int32,System.UInt32)
+  id: RecordUsageAsync(System.String,System.DateTime,System.Int32,System.UInt32)
   parent: SuperOffice.Util.WebAppUsageRecorder
   langs:
   - csharp
   - vb
-  name: RecordUsageAsync(WebAppUsageRecordData, CancellationToken)
-  nameWithType: WebAppUsageRecorder.RecordUsageAsync(WebAppUsageRecordData, CancellationToken)
-  fullName: SuperOffice.Util.WebAppUsageRecorder.RecordUsageAsync(SuperOffice.CRM.Rows.WebAppUsageRecordData, System.Threading.CancellationToken)
+  name: RecordUsageAsync(string, DateTime, int, uint)
+  nameWithType: WebAppUsageRecorder.RecordUsageAsync(string, DateTime, int, uint)
+  fullName: SuperOffice.Util.WebAppUsageRecorder.RecordUsageAsync(string, System.DateTime, int, uint)
   type: Method
   assemblies:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.Util
+  summary: 'Record database usage: insert a new record, or update an existing one'
+  example: []
   syntax:
-    content: public static Task RecordUsageAsync(WebAppUsageRecordData webAppUsage, CancellationToken cancellationToken = default)
+    content: public Task RecordUsageAsync(string viewState, DateTime timestamp, int assocId, uint aggregateCount)
     parameters:
-    - id: webAppUsage
-      type: SuperOffice.CRM.Rows.WebAppUsageRecordData
-    - id: cancellationToken
-      type: System.Threading.CancellationToken
+    - id: viewState
+      type: System.String
+      description: Key field
+    - id: timestamp
+      type: System.DateTime
+    - id: assocId
+      type: System.Int32
+      description: Key field
+    - id: aggregateCount
+      type: System.UInt32
+      description: Value, added to any existing value with the same key combination
     return:
       type: System.Threading.Tasks.Task
-    content.vb: Public Shared Function RecordUsageAsync(webAppUsage As WebAppUsageRecordData, cancellationToken As CancellationToken = Nothing) As Task
+      description: ''
+    content.vb: Public Function RecordUsageAsync(viewState As String, timestamp As Date, assocId As Integer, aggregateCount As UInteger) As Task
   overload: SuperOffice.Util.WebAppUsageRecorder.RecordUsageAsync*
+  implements:
+  - SuperOffice.Util.IWebAppUsageRecorder.RecordUsageAsync(System.String,System.DateTime,System.Int32,System.UInt32)
+  nameWithType.vb: WebAppUsageRecorder.RecordUsageAsync(String, Date, Integer, UInteger)
+  fullName.vb: SuperOffice.Util.WebAppUsageRecorder.RecordUsageAsync(String, Date, Integer, UInteger)
+  name.vb: RecordUsageAsync(String, Date, Integer, UInteger)
+- uid: SuperOffice.Util.WebAppUsageRecorder.#ctor
+  commentId: M:SuperOffice.Util.WebAppUsageRecorder.#ctor
+  id: '#ctor'
+  parent: SuperOffice.Util.WebAppUsageRecorder
+  langs:
+  - csharp
+  - vb
+  name: WebAppUsageRecorder()
+  nameWithType: WebAppUsageRecorder.WebAppUsageRecorder()
+  fullName: SuperOffice.Util.WebAppUsageRecorder.WebAppUsageRecorder()
+  type: Constructor
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.Util
+  syntax:
+    content: public WebAppUsageRecorder()
+    content.vb: Public Sub New()
+  overload: SuperOffice.Util.WebAppUsageRecorder.#ctor*
+  nameWithType.vb: WebAppUsageRecorder.New()
+  fullName.vb: SuperOffice.Util.WebAppUsageRecorder.New()
+  name.vb: New()
 references:
 - uid: SuperOffice.Util
   commentId: N:SuperOffice.Util
@@ -93,6 +139,14 @@ references:
   nameWithType.vb: Object
   fullName.vb: Object
   name.vb: Object
+- uid: SuperOffice.Util.IWebAppUsageRecorder
+  commentId: T:SuperOffice.Util.IWebAppUsageRecorder
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.IWebAppUsageRecorder.html
+  name: IWebAppUsageRecorder
+  nameWithType: IWebAppUsageRecorder
+  fullName: SuperOffice.Util.IWebAppUsageRecorder
 - uid: System.Object.ToString
   commentId: M:System.Object.ToString
   parent: System.Object
@@ -312,6 +366,218 @@ references:
     href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
   - name: (
   - name: )
+- uid: SuperOffice.Util.WebAppUsageRecorder.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<WebAppUsageRecorder, To>(WebAppUsageRecorder)
+  nameWithType: EnumUtil.MapEnums<WebAppUsageRecorder, To>(WebAppUsageRecorder)
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.WebAppUsageRecorder, To>(SuperOffice.Util.WebAppUsageRecorder)
+  nameWithType.vb: EnumUtil.MapEnums(Of WebAppUsageRecorder, To)(WebAppUsageRecorder)
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.WebAppUsageRecorder, To)(SuperOffice.Util.WebAppUsageRecorder)
+  name.vb: MapEnums(Of WebAppUsageRecorder, To)(WebAppUsageRecorder)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.WebAppUsageRecorder)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.WebAppUsageRecorder
+    name: WebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.WebAppUsageRecorder.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.WebAppUsageRecorder
+    name: WebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.WebAppUsageRecorder.html
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(SuperOffice.Util.WebAppUsageRecorder)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.WebAppUsageRecorder
+    name: WebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.WebAppUsageRecorder.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.WebAppUsageRecorder
+    name: WebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.WebAppUsageRecorder.html
+  - name: )
+- uid: SuperOffice.Util.WebAppUsageRecorder.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<WebAppUsageRecorder, To>(WebAppUsageRecorder)
+  nameWithType: Converters.MapEnums<WebAppUsageRecorder, To>(WebAppUsageRecorder)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.WebAppUsageRecorder, To>(SuperOffice.Util.WebAppUsageRecorder)
+  nameWithType.vb: Converters.MapEnums(Of WebAppUsageRecorder, To)(WebAppUsageRecorder)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.WebAppUsageRecorder, To)(SuperOffice.Util.WebAppUsageRecorder)
+  name.vb: MapEnums(Of WebAppUsageRecorder, To)(WebAppUsageRecorder)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.WebAppUsageRecorder)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - uid: SuperOffice.Util.WebAppUsageRecorder
+    name: WebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.WebAppUsageRecorder.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.WebAppUsageRecorder
+    name: WebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.WebAppUsageRecorder.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(SuperOffice.Util.WebAppUsageRecorder)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.WebAppUsageRecorder
+    name: WebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.WebAppUsageRecorder.html
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.WebAppUsageRecorder
+    name: WebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.WebAppUsageRecorder.html
+  - name: )
+- uid: SuperOffice.Util.WebAppUsageRecorder.SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.WebAppUsageRecorder)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<WebAppUsageRecorder>(WebAppUsageRecorder, WebAppUsageRecorder)
+  nameWithType: ObjectExtensions.AssignByReflection<WebAppUsageRecorder>(WebAppUsageRecorder, WebAppUsageRecorder)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<SuperOffice.Util.WebAppUsageRecorder>(SuperOffice.Util.WebAppUsageRecorder, SuperOffice.Util.WebAppUsageRecorder)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of WebAppUsageRecorder)(WebAppUsageRecorder, WebAppUsageRecorder)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of SuperOffice.Util.WebAppUsageRecorder)(SuperOffice.Util.WebAppUsageRecorder, SuperOffice.Util.WebAppUsageRecorder)
+  name.vb: AssignByReflection(Of WebAppUsageRecorder)(WebAppUsageRecorder, WebAppUsageRecorder)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.WebAppUsageRecorder,SuperOffice.Util.WebAppUsageRecorder)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - uid: SuperOffice.Util.WebAppUsageRecorder
+    name: WebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.WebAppUsageRecorder.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.WebAppUsageRecorder
+    name: WebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.WebAppUsageRecorder.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Util.WebAppUsageRecorder
+    name: WebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.WebAppUsageRecorder.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(SuperOffice.Util.WebAppUsageRecorder,SuperOffice.Util.WebAppUsageRecorder)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.WebAppUsageRecorder
+    name: WebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.WebAppUsageRecorder.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.WebAppUsageRecorder
+    name: WebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.WebAppUsageRecorder.html
+  - name: ','
+  - name: " "
+  - uid: SuperOffice.Util.WebAppUsageRecorder
+    name: WebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.WebAppUsageRecorder.html
+  - name: )
+- uid: SuperOffice.Util.WebAppUsageRecorder.SuperOffice.Util.ObjectExtensions.GraphCopy``1
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  parent: SuperOffice.Util.ObjectExtensions
+  definition: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<WebAppUsageRecorder>(WebAppUsageRecorder)
+  nameWithType: ObjectExtensions.GraphCopy<WebAppUsageRecorder>(WebAppUsageRecorder)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<SuperOffice.Util.WebAppUsageRecorder>(SuperOffice.Util.WebAppUsageRecorder)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of WebAppUsageRecorder)(WebAppUsageRecorder)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of SuperOffice.Util.WebAppUsageRecorder)(SuperOffice.Util.WebAppUsageRecorder)
+  name.vb: GraphCopy(Of WebAppUsageRecorder)(WebAppUsageRecorder)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.WebAppUsageRecorder)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - uid: SuperOffice.Util.WebAppUsageRecorder
+    name: WebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.WebAppUsageRecorder.html
+  - name: '>'
+  - name: (
+  - uid: SuperOffice.Util.WebAppUsageRecorder
+    name: WebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.WebAppUsageRecorder.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(SuperOffice.Util.WebAppUsageRecorder)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.Util.WebAppUsageRecorder
+    name: WebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.WebAppUsageRecorder.html
+  - name: )
+  - name: (
+  - uid: SuperOffice.Util.WebAppUsageRecorder
+    name: WebAppUsageRecorder
+    isExternal: true
+    href: SuperOffice.Util.WebAppUsageRecorder.html
+  - name: )
 - uid: System
   commentId: N:System
   isExternal: true
@@ -319,29 +585,338 @@ references:
   name: System
   nameWithType: System
   fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: EnumUtil.html#EnumUtil_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  href: EnumUtil.html
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: <
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: '>'
+  - name: (
+  - name: From
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.Converters.html#SuperOffice_ErpSync_ConnectorWS_Converters_MapEnums__2___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: From
+  - name: ','
+  - name: " "
+  - name: To
+  - name: )
+  - name: (
+  - name: From
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.ErpSync.ConnectorWS.Converters.html
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  name: AssignByReflection<T>(T, T)
+  nameWithType: ObjectExtensions.AssignByReflection<T>(T, T)
+  fullName: SuperOffice.Util.ObjectExtensions.AssignByReflection<T>(T, T)
+  nameWithType.vb: ObjectExtensions.AssignByReflection(Of T)(T, T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.AssignByReflection(Of T)(T, T)
+  name.vb: AssignByReflection(Of T)(T, T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.AssignByReflection``1(``0,``0)
+    name: AssignByReflection
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_AssignByReflection__1___0___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: ','
+  - name: " "
+  - name: T
+  - name: )
+- uid: SuperOffice.Util.ObjectExtensions
+  commentId: T:SuperOffice.Util.ObjectExtensions
+  parent: SuperOffice.Util
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html
+  name: ObjectExtensions
+  nameWithType: ObjectExtensions
+  fullName: SuperOffice.Util.ObjectExtensions
+- uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  commentId: M:SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+  isExternal: true
+  href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  name: GraphCopy<T>(T)
+  nameWithType: ObjectExtensions.GraphCopy<T>(T)
+  fullName: SuperOffice.Util.ObjectExtensions.GraphCopy<T>(T)
+  nameWithType.vb: ObjectExtensions.GraphCopy(Of T)(T)
+  fullName.vb: SuperOffice.Util.ObjectExtensions.GraphCopy(Of T)(T)
+  name.vb: GraphCopy(Of T)(T)
+  spec.csharp:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.ObjectExtensions.GraphCopy``1(``0)
+    name: GraphCopy
+    isExternal: true
+    href: SuperOffice.Util.ObjectExtensions.html#SuperOffice_Util_ObjectExtensions_GraphCopy__1___0_
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: T
+  - name: )
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.ErpSync
+    name: ErpSync
+    isExternal: true
+    href: SuperOffice.ErpSync.html
+  - name: .
+  - uid: SuperOffice.ErpSync.ConnectorWS
+    name: ConnectorWS
+    isExternal: true
+    href: SuperOffice.ErpSync.ConnectorWS.html
 - uid: SuperOffice.Util.WebAppUsageRecorder.RecordUsageAsync*
   commentId: Overload:SuperOffice.Util.WebAppUsageRecorder.RecordUsageAsync
   isExternal: true
-  href: SuperOffice.Util.WebAppUsageRecorder.html#SuperOffice_Util_WebAppUsageRecorder_RecordUsageAsync_SuperOffice_CRM_Rows_WebAppUsageRecordData_System_Threading_CancellationToken_
+  href: SuperOffice.Util.WebAppUsageRecorder.html#SuperOffice_Util_WebAppUsageRecorder_RecordUsageAsync_System_String_System_DateTime_System_Int32_System_UInt32_
   name: RecordUsageAsync
   nameWithType: WebAppUsageRecorder.RecordUsageAsync
   fullName: SuperOffice.Util.WebAppUsageRecorder.RecordUsageAsync
-- uid: SuperOffice.CRM.Rows.WebAppUsageRecordData
-  commentId: T:SuperOffice.CRM.Rows.WebAppUsageRecordData
-  parent: SuperOffice.CRM.Rows
+- uid: SuperOffice.Util.IWebAppUsageRecorder.RecordUsageAsync(System.String,System.DateTime,System.Int32,System.UInt32)
+  commentId: M:SuperOffice.Util.IWebAppUsageRecorder.RecordUsageAsync(System.String,System.DateTime,System.Int32,System.UInt32)
+  parent: SuperOffice.Util.IWebAppUsageRecorder
   isExternal: true
-  href: SuperOffice.CRM.Rows.WebAppUsageRecordData.html
-  name: WebAppUsageRecordData
-  nameWithType: WebAppUsageRecordData
-  fullName: SuperOffice.CRM.Rows.WebAppUsageRecordData
-- uid: System.Threading.CancellationToken
-  commentId: T:System.Threading.CancellationToken
-  parent: System.Threading
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: RecordUsageAsync(string, DateTime, int, uint)
+  nameWithType: IWebAppUsageRecorder.RecordUsageAsync(string, DateTime, int, uint)
+  fullName: SuperOffice.Util.IWebAppUsageRecorder.RecordUsageAsync(string, System.DateTime, int, uint)
+  nameWithType.vb: IWebAppUsageRecorder.RecordUsageAsync(String, Date, Integer, UInteger)
+  fullName.vb: SuperOffice.Util.IWebAppUsageRecorder.RecordUsageAsync(String, Date, Integer, UInteger)
+  name.vb: RecordUsageAsync(String, Date, Integer, UInteger)
+  spec.csharp:
+  - uid: SuperOffice.Util.IWebAppUsageRecorder.RecordUsageAsync(System.String,System.DateTime,System.Int32,System.UInt32)
+    name: RecordUsageAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.DateTime
+    name: DateTime
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.UInt32
+    name: uint
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.Util.IWebAppUsageRecorder.RecordUsageAsync(System.String,System.DateTime,System.Int32,System.UInt32)
+    name: RecordUsageAsync
+    isExternal: true
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: ','
+  - name: " "
+  - uid: System.DateTime
+    name: Date
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.datetime
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: System.UInt32
+    name: UInteger
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uint32
+  - name: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
   isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  name: CancellationToken
-  nameWithType: CancellationToken
-  fullName: System.Threading.CancellationToken
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.datetime
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+  nameWithType.vb: Date
+  fullName.vb: Date
+  name.vb: Date
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.UInt32
+  commentId: T:System.UInt32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.uint32
+  name: uint
+  nameWithType: uint
+  fullName: uint
+  nameWithType.vb: UInteger
+  fullName.vb: UInteger
+  name.vb: UInteger
 - uid: System.Threading.Tasks.Task
   commentId: T:System.Threading.Tasks.Task
   parent: System.Threading.Tasks
@@ -350,70 +925,6 @@ references:
   name: Task
   nameWithType: Task
   fullName: System.Threading.Tasks.Task
-- uid: SuperOffice.CRM.Rows
-  commentId: N:SuperOffice.CRM.Rows
-  isExternal: true
-  href: SuperOffice.html
-  name: SuperOffice.CRM.Rows
-  nameWithType: SuperOffice.CRM.Rows
-  fullName: SuperOffice.CRM.Rows
-  spec.csharp:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-  spec.vb:
-  - uid: SuperOffice
-    name: SuperOffice
-    isExternal: true
-    href: SuperOffice.html
-  - name: .
-  - uid: SuperOffice.CRM
-    name: CRM
-    isExternal: true
-    href: SuperOffice.CRM.html
-  - name: .
-  - uid: SuperOffice.CRM.Rows
-    name: Rows
-    isExternal: true
-    href: SuperOffice.CRM.Rows.html
-- uid: System.Threading
-  commentId: N:System.Threading
-  isExternal: true
-  href: https://learn.microsoft.com/dotnet/api/system
-  name: System.Threading
-  nameWithType: System.Threading
-  fullName: System.Threading
-  spec.csharp:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
-  spec.vb:
-  - uid: System
-    name: System
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system
-  - name: .
-  - uid: System.Threading
-    name: Threading
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading
 - uid: System.Threading.Tasks
   commentId: N:System.Threading.Tasks
   isExternal: true
@@ -451,3 +962,13 @@ references:
     name: Tasks
     isExternal: true
     href: https://learn.microsoft.com/dotnet/api/system.threading.tasks
+- uid: SuperOffice.Util.WebAppUsageRecorder.#ctor*
+  commentId: Overload:SuperOffice.Util.WebAppUsageRecorder.#ctor
+  isExternal: true
+  href: SuperOffice.Util.WebAppUsageRecorder.html#SuperOffice_Util_WebAppUsageRecorder__ctor
+  name: WebAppUsageRecorder
+  nameWithType: WebAppUsageRecorder.WebAppUsageRecorder
+  fullName: SuperOffice.Util.WebAppUsageRecorder.WebAppUsageRecorder
+  nameWithType.vb: WebAppUsageRecorder.New
+  fullName.vb: SuperOffice.Util.WebAppUsageRecorder.New
+  name.vb: New

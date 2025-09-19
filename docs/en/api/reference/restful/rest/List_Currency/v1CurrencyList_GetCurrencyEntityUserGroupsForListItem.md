@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 796,
-    "Name": "Marks-Dickens",
-    "ToolTip": "Ut voluptatem molestiae placeat ab veritatis facere natus.",
-    "Deleted": false,
-    "Rank": 312,
-    "Type": "recusandae",
-    "ColorBlock": 476,
+    "Id": 865,
+    "Name": "Stroman, Roberts and Hauck",
+    "ToolTip": "A non vel explicabo qui qui accusamus totam.",
+    "Deleted": true,
+    "Rank": 882,
+    "Type": "repellat",
+    "ColorBlock": 261,
     "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2003-08-04T03:47:00.628674+02:00",
+    "LastChanged": "2012-09-08T03:41:59.3867375+02:00",
     "ChildItems": [
       {
-        "Id": 403,
-        "Name": "Kihn Inc and Sons",
-        "ToolTip": "Exercitationem ratione ab quidem ipsam sit eos.",
-        "Deleted": true,
-        "Rank": 494,
-        "Type": "itaque",
-        "ColorBlock": 962,
-        "IconHint": "et",
+        "Id": 59,
+        "Name": "D'Amore Group",
+        "ToolTip": "Earum dolore et cumque.",
+        "Deleted": false,
+        "Rank": 616,
+        "Type": "ut",
+        "ColorBlock": 909,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2018-05-24T03:47:00.628674+02:00",
+        "LastChanged": "2004-03-17T03:41:59.3867375+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "sit",
+        "ExtraInfo": "qui",
+        "StyleHint": "expedita",
         "Hidden": false,
-        "FullName": "Cristal Gleichner",
+        "FullName": "Lilly Kuhlman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 282
+            "FieldType": "System.Int32",
+            "FieldLength": 204
           }
         }
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "illo",
-    "Hidden": true,
-    "FullName": "Emmet King Sr.",
+    "ExtraInfo": "nobis",
+    "StyleHint": "dolores",
+    "Hidden": false,
+    "FullName": "Shanon Wilkinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 885
+        "FieldLength": 865
       }
     }
   }

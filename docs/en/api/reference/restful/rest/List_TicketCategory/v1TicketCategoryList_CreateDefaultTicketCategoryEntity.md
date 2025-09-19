@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,36 +83,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 124,
-  "ParentId": 887,
-  "Name": "Franecki LLC",
-  "Fullname": "molestiae",
-  "CategoryMaster": 212,
+  "TicketCategoryId": 158,
+  "ParentId": 415,
+  "Name": "Kuhn-Lakin",
+  "Fullname": "libero",
+  "CategoryMaster": 166,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Green Group",
+  "ExternalName": "Swift Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 576,
-  "ReplyTemplate": 681,
-  "NotificationEmail": "willow.harvey@morar.ca",
+  "AssignmentLag": 766,
+  "ReplyTemplate": 881,
+  "NotificationEmail": "jon.luettgen@connkutch.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 220,
+  "EffectiveReplyTemplateId": 256,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "eum"
+    "ExtraFields1": "molestias",
+    "ExtraFields2": "iure"
   },
   "CustomFields": {
-    "CustomFields1": "ipsam",
-    "CustomFields2": "debitis"
+    "CustomFields1": "aperiam",
+    "CustomFields2": "iusto"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 438
+      "FieldLength": 901
     }
   }
 }

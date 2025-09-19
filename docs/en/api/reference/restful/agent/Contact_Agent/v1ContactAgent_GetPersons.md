@@ -114,11 +114,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 846
+  "ContactId": 765
 }
 ```
 
@@ -130,53 +130,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "ullam",
-    "PersonId": 212,
-    "Mrmrs": "architecto",
-    "Firstname": "Gaston",
-    "Lastname": "Ratke",
-    "MiddleName": "Hermann, Collier and Nader",
-    "Title": "aperiam",
-    "Description": "Profit-focused fresh-thinking project",
-    "Email": "emmy@gorczany.ca",
-    "FullName": "Kendrick Pfannerstill",
-    "DirectPhone": "821-591-7649",
-    "FormalName": "Quitzon Inc and Sons",
-    "CountryId": 774,
-    "ContactId": 914,
-    "ContactName": "Fritsch Group",
-    "Retired": 138,
-    "Rank": 155,
-    "ActiveInterests": 652,
+    "Position": "voluptatibus",
+    "PersonId": 164,
+    "Mrmrs": "at",
+    "Firstname": "Bill",
+    "Lastname": "Friesen",
+    "MiddleName": "Luettgen, Kreiger and Pollich",
+    "Title": "est",
+    "Description": "Profit-focused executive strategy",
+    "Email": "mackenzie@zemlak.biz",
+    "FullName": "Roosevelt Kiehn",
+    "DirectPhone": "525-126-0104",
+    "FormalName": "Kuhn, Willms and Doyle",
+    "CountryId": 773,
+    "ContactId": 815,
+    "ContactName": "Hagenes Inc and Sons",
+    "Retired": 282,
+    "Rank": 288,
+    "ActiveInterests": 491,
     "ContactDepartment": "",
-    "ContactCountryId": 689,
-    "ContactOrgNr": "1392234",
-    "FaxPhone": "1-234-941-3514 x6847",
-    "MobilePhone": "(240)367-7258 x631",
-    "ContactPhone": "(326)101-2867",
-    "AssociateName": "Hansen-Klein",
-    "AssociateId": 357,
+    "ContactCountryId": 165,
+    "ContactOrgNr": "1528669",
+    "FaxPhone": "(130)710-8236 x5449",
+    "MobilePhone": "033-740-5404",
+    "ContactPhone": "1-716-614-5612 x078",
+    "AssociateName": "Wiza Inc and Sons",
+    "AssociateId": 237,
     "UsePersonAddress": false,
-    "ContactFax": "qui",
-    "Kanafname": "nostrum",
-    "Kanalname": "ipsum",
-    "Post1": "voluptatem",
-    "Post2": "sit",
-    "Post3": "a",
-    "EmailName": "danyka_nolan@mohr.com",
-    "ContactFullName": "Ms. Lizeth Flatley",
-    "ActiveErpLinks": 926,
-    "TicketPriorityId": 816,
-    "SupportLanguageId": 264,
-    "SupportAssociateId": 62,
+    "ContactFax": "reiciendis",
+    "Kanafname": "aspernatur",
+    "Kanalname": "nihil",
+    "Post1": "adipisci",
+    "Post2": "qui",
+    "Post3": "minus",
+    "EmailName": "sidney_yost@hillsreilly.biz",
+    "ContactFullName": "Aidan Dickinson",
+    "ActiveErpLinks": 441,
+    "TicketPriorityId": 325,
+    "SupportLanguageId": 584,
+    "SupportAssociateId": 8,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1488577",
+    "PersonNumber": "862103",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 298
+        "FieldLength": 446
       }
     }
   }

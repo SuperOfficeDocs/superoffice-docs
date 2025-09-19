@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 883,
-    "Name": "Wisoky Group",
-    "ToolTip": "Minus repellat.",
+    "Id": 226,
+    "Name": "Rutherford-Bergstrom",
+    "ToolTip": "A id suscipit repudiandae.",
     "Deleted": true,
-    "Rank": 1001,
-    "Type": "et",
-    "ColorBlock": 199,
-    "IconHint": "impedit",
-    "Selected": true,
-    "LastChanged": "2011-05-03T03:47:00.5818006+02:00",
+    "Rank": 648,
+    "Type": "dignissimos",
+    "ColorBlock": 557,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2011-01-27T03:41:59.339865+01:00",
     "ChildItems": [
       {
-        "Id": 325,
-        "Name": "Bogisich, Vandervort and McGlynn",
-        "ToolTip": "Molestiae est placeat similique reprehenderit vel blanditiis eveniet.",
-        "Deleted": false,
-        "Rank": 262,
-        "Type": "et",
-        "ColorBlock": 364,
-        "IconHint": "quae",
-        "Selected": false,
-        "LastChanged": "2004-02-04T03:47:00.5818006+01:00",
+        "Id": 721,
+        "Name": "Bode-Walker",
+        "ToolTip": "Cumque suscipit est.",
+        "Deleted": true,
+        "Rank": 433,
+        "Type": "veniam",
+        "ColorBlock": 866,
+        "IconHint": "iure",
+        "Selected": true,
+        "LastChanged": "2011-09-07T03:41:59.339865+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
+        "ExtraInfo": "aspernatur",
         "StyleHint": "error",
         "Hidden": false,
-        "FullName": "Dr. Brain Bahringer IV"
+        "FullName": "Bridie Larry Zieme I"
       }
     ],
-    "ExtraInfo": "possimus",
-    "StyleHint": "et",
+    "ExtraInfo": "molestias",
+    "StyleHint": "ipsam",
     "Hidden": false,
-    "FullName": "Jayda Geovanny Runolfsdottir DDS"
+    "FullName": "Justen Fritsch"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 812,
-    "Name": "Gorczany, Bergnaum and Bernier",
-    "ToolTip": "Iste similique dolor qui.",
-    "Deleted": true,
-    "Rank": 610,
-    "Type": "rerum",
-    "ColorBlock": 970,
-    "IconHint": "ratione",
+    "Id": 66,
+    "Name": "Aufderhar-Brown",
+    "ToolTip": "Dicta fuga eius praesentium dolorem.",
+    "Deleted": false,
+    "Rank": 410,
+    "Type": "vero",
+    "ColorBlock": 4,
+    "IconHint": "exercitationem",
     "Selected": true,
-    "LastChanged": "2021-04-03T03:47:00.5818006+02:00",
+    "LastChanged": "1998-07-08T03:41:59.339865+02:00",
     "ChildItems": [
       {
-        "Id": 506,
-        "Name": "Hermiston, Crist and Ferry",
-        "ToolTip": "Nostrum architecto dolor odit corrupti excepturi facere assumenda.",
+        "Id": 86,
+        "Name": "Hoeger, Bartoletti and Gusikowski",
+        "ToolTip": "Natus similique deleniti consectetur.",
         "Deleted": true,
-        "Rank": 867,
-        "Type": "alias",
-        "ColorBlock": 948,
-        "IconHint": "eos",
+        "Rank": 756,
+        "Type": "placeat",
+        "ColorBlock": 158,
+        "IconHint": "ut",
         "Selected": true,
-        "LastChanged": "2009-09-11T03:47:00.5818006+02:00",
+        "LastChanged": "1998-12-26T03:41:59.339865+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "quos",
-        "Hidden": false,
-        "FullName": "Mr. Angelina Bauch",
+        "ExtraInfo": "vero",
+        "StyleHint": "amet",
+        "Hidden": true,
+        "FullName": "Joy Hamill",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 695
+            "FieldLength": 785
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "sint",
+    "ExtraInfo": "quis",
+    "StyleHint": "iusto",
     "Hidden": true,
-    "FullName": "Stanford Welch",
+    "FullName": "Kaleigh Boehm",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 757
+        "FieldLength": 278
       }
     }
   }

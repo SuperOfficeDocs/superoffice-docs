@@ -45,7 +45,7 @@ PersPos list table. Contact person position list
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 |[PersPosGroupLink](persposgrouplink.md)  |User group link table for PersPos, for MDO item hiding |
 |[PersPosHeadingLink](persposheadinglink.md)  |Heading link table for PersPos, for MDO headers |
 

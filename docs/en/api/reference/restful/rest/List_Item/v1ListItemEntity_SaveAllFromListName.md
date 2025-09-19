@@ -78,25 +78,25 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 287,
-    "Name": "Sanford LLC",
-    "Tooltip": "temporibus",
+    "Id": 522,
+    "Name": "Bogisich, Pacocha and Braun",
+    "Tooltip": "nihil",
     "Deleted": true,
-    "UdListDefinitionId": 594,
-    "Rank": 756
+    "UdListDefinitionId": 450,
+    "Rank": 813
   },
   {
-    "Id": 287,
-    "Name": "Sanford LLC",
-    "Tooltip": "temporibus",
+    "Id": 522,
+    "Name": "Bogisich, Pacocha and Braun",
+    "Tooltip": "nihil",
     "Deleted": true,
-    "UdListDefinitionId": 594,
-    "Rank": 756
+    "UdListDefinitionId": 450,
+    "Rank": 813
   }
 ]
 ```
@@ -109,18 +109,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 409,
-    "Name": "Schowalter-Zulauf",
-    "Tooltip": "nihil",
-    "Deleted": true,
-    "UdListDefinitionId": 987,
-    "Rank": 102,
+    "Id": 906,
+    "Name": "Rolfson-Kihn",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 14,
+    "Rank": 734,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 886
+        "FieldLength": 546
       }
     }
   }

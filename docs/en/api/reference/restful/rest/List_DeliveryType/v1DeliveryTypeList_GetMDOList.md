@@ -27,8 +27,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=iusto
+GET /api/v1/List/DeliveryType/MDOItems?flat=True
+GET /api/v1/List/DeliveryType/MDOItems?query=molestiae
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 643,
-    "Name": "Von, Okuneva and Towne",
-    "ToolTip": "Excepturi amet.",
-    "Deleted": false,
-    "Rank": 296,
-    "Type": "id",
+    "Id": 990,
+    "Name": "Blick-Streich",
+    "ToolTip": "Sint iure quia dolor sunt.",
+    "Deleted": true,
+    "Rank": 739,
+    "Type": "quisquam",
     "ChildItems": [
       {
-        "Id": 50,
-        "Name": "O'Hara Group",
-        "ToolTip": "Dignissimos eos.",
-        "Deleted": true,
-        "Rank": 357,
-        "Type": "exercitationem",
+        "Id": 149,
+        "Name": "Bailey-Mante",
+        "ToolTip": "Fugit aut animi accusantium illum quaerat non aut.",
+        "Deleted": false,
+        "Rank": 602,
+        "Type": "natus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cupiditate",
-        "ColorBlock": 541,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "nisi",
-        "FullName": "Roberto Leuschke III",
+        "IconHint": "omnis",
+        "ColorBlock": 819,
+        "ExtraInfo": "sint",
+        "StyleHint": "aut",
+        "FullName": "Prof. Noemi Spinka DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 743
+            "FieldType": "System.Int32",
+            "FieldLength": 713
           }
         }
       }
     ],
-    "IconHint": "optio",
-    "ColorBlock": 793,
-    "ExtraInfo": "totam",
-    "StyleHint": "deserunt",
-    "FullName": "Kelli Huels",
+    "IconHint": "dolores",
+    "ColorBlock": 730,
+    "ExtraInfo": "sed",
+    "StyleHint": "aut",
+    "FullName": "Leonel Streich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 493
+        "FieldLength": 300
       }
     }
   }

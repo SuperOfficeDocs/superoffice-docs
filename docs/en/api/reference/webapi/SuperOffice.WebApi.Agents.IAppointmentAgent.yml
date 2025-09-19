@@ -91,6 +91,7 @@ items:
   - SuperOffice.WebApi.Agents.IAppointmentAgent.GetTaskListItemAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAppointmentAgent.GetTaskListItemsAsync(System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAppointmentAgent.GetUIDFromAppointmentIdAsync(System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.IAppointmentAgent.GetVideoMeetingConnectedStateAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAppointmentAgent.MoveAsync(System.Int32,System.DateTime,SuperOffice.WebApi.Data.RecurrenceUpdateMode,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAppointmentAgent.MoveExtendedAsync(SuperOffice.WebApi.Data.AppointmentMoveData,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.IAppointmentAgent.MoveWithEmailAsync(System.Int32,System.DateTime,SuperOffice.WebApi.Data.RecurrenceUpdateMode,System.Boolean,SuperOffice.WebApi.Data.EMailConnectionInfo,SuperOffice.WebApi.Data.EMailConnectionInfo,SuperOffice.WebApi.RequestOptions)
@@ -4408,6 +4409,33 @@ items:
   nameWithType.vb: IAppointmentAgent.DeleteVideoMeetingReservationAsync(String, RequestOptions)
   fullName.vb: SuperOffice.WebApi.Agents.IAppointmentAgent.DeleteVideoMeetingReservationAsync(String, SuperOffice.WebApi.RequestOptions)
   name.vb: DeleteVideoMeetingReservationAsync(String, RequestOptions)
+- uid: SuperOffice.WebApi.Agents.IAppointmentAgent.GetVideoMeetingConnectedStateAsync(SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.IAppointmentAgent.GetVideoMeetingConnectedStateAsync(SuperOffice.WebApi.RequestOptions)
+  id: GetVideoMeetingConnectedStateAsync(SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.IAppointmentAgent
+  langs:
+  - csharp
+  - vb
+  name: GetVideoMeetingConnectedStateAsync(RequestOptions)
+  nameWithType: IAppointmentAgent.GetVideoMeetingConnectedStateAsync(RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.IAppointmentAgent.GetVideoMeetingConnectedStateAsync(SuperOffice.WebApi.RequestOptions)
+  type: Method
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: Get the current users connected state. This indicates if a user is configured to use VideoMeetings.
+  example: []
+  syntax:
+    content: Task<UserConnectedState> GetVideoMeetingConnectedStateAsync(RequestOptions requestOptions = null)
+    parameters:
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: Override language/culture codes on this request.
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserConnectedState}
+      description: Details about the users connected state
+    content.vb: Function GetVideoMeetingConnectedStateAsync(requestOptions As RequestOptions = Nothing) As Task(Of UserConnectedState)
+  overload: SuperOffice.WebApi.Agents.IAppointmentAgent.GetVideoMeetingConnectedStateAsync*
 references:
 - uid: SuperOffice.WebApi.Agents
   commentId: N:SuperOffice.WebApi.Agents
@@ -6660,3 +6688,45 @@ references:
   name: DeleteVideoMeetingReservationAsync
   nameWithType: IAppointmentAgent.DeleteVideoMeetingReservationAsync
   fullName: SuperOffice.WebApi.Agents.IAppointmentAgent.DeleteVideoMeetingReservationAsync
+- uid: SuperOffice.WebApi.Agents.IAppointmentAgent.GetVideoMeetingConnectedStateAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.IAppointmentAgent.GetVideoMeetingConnectedStateAsync
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.IAppointmentAgent.html#SuperOffice_WebApi_Agents_IAppointmentAgent_GetVideoMeetingConnectedStateAsync_SuperOffice_WebApi_RequestOptions_
+  name: GetVideoMeetingConnectedStateAsync
+  nameWithType: IAppointmentAgent.GetVideoMeetingConnectedStateAsync
+  fullName: SuperOffice.WebApi.Agents.IAppointmentAgent.GetVideoMeetingConnectedStateAsync
+- uid: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserConnectedState}
+  commentId: T:System.Threading.Tasks.Task{SuperOffice.WebApi.Data.UserConnectedState}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  name: Task<UserConnectedState>
+  nameWithType: Task<UserConnectedState>
+  fullName: System.Threading.Tasks.Task<SuperOffice.WebApi.Data.UserConnectedState>
+  nameWithType.vb: Task(Of UserConnectedState)
+  fullName.vb: System.Threading.Tasks.Task(Of SuperOffice.WebApi.Data.UserConnectedState)
+  name.vb: Task(Of UserConnectedState)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: <
+  - uid: SuperOffice.WebApi.Data.UserConnectedState
+    name: UserConnectedState
+    isExternal: true
+    href: SuperOffice.WebApi.Data.UserConnectedState.html
+  - name: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.threading.tasks.task-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: SuperOffice.WebApi.Data.UserConnectedState
+    name: UserConnectedState
+    isExternal: true
+    href: SuperOffice.WebApi.Data.UserConnectedState.html
+  - name: )

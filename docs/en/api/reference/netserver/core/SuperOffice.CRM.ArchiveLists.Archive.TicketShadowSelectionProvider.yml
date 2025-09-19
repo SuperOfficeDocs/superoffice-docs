@@ -39,7 +39,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasColumns
   - SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
   inheritedMembers:
-  - SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionProviderBase.GetTicketSelectionMembersRowsAsync(System.Int32,System.String[],System.Threading.CancellationToken)
   - SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.ColumnSelectionId
   - SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._staticProviderName
   - SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase._dynamicProviderName
@@ -242,67 +241,6 @@ references:
   name: IArchiveProviderHasEntities
   nameWithType: IArchiveProviderHasEntities
   fullName: SuperOffice.CRM.ArchiveLists.IArchiveProviderHasEntities
-- uid: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionProviderBase.GetTicketSelectionMembersRowsAsync(System.Int32,System.String[],System.Threading.CancellationToken)
-  commentId: M:SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionProviderBase.GetTicketSelectionMembersRowsAsync(System.Int32,System.String[],System.Threading.CancellationToken)
-  parent: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionProviderBase
-  isExternal: true
-  href: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionProviderBase.html#SuperOffice_CRM_ArchiveLists_Archive_TicketSelectionProviderBase_GetTicketSelectionMembersRowsAsync_System_Int32_System_String___System_Threading_CancellationToken_
-  name: GetTicketSelectionMembersRowsAsync(int, string[], CancellationToken)
-  nameWithType: TicketSelectionProviderBase.GetTicketSelectionMembersRowsAsync(int, string[], CancellationToken)
-  fullName: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionProviderBase.GetTicketSelectionMembersRowsAsync(int, string[], System.Threading.CancellationToken)
-  nameWithType.vb: TicketSelectionProviderBase.GetTicketSelectionMembersRowsAsync(Integer, String(), CancellationToken)
-  fullName.vb: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionProviderBase.GetTicketSelectionMembersRowsAsync(Integer, String(), System.Threading.CancellationToken)
-  name.vb: GetTicketSelectionMembersRowsAsync(Integer, String(), CancellationToken)
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionProviderBase.GetTicketSelectionMembersRowsAsync(System.Int32,System.String[],System.Threading.CancellationToken)
-    name: GetTicketSelectionMembersRowsAsync
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionProviderBase.html#SuperOffice_CRM_ArchiveLists_Archive_TicketSelectionProviderBase_GetTicketSelectionMembersRowsAsync_System_Int32_System_String___System_Threading_CancellationToken_
-  - name: (
-  - uid: System.Int32
-    name: int
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: string
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: '['
-  - name: ']'
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionProviderBase.GetTicketSelectionMembersRowsAsync(System.Int32,System.String[],System.Threading.CancellationToken)
-    name: GetTicketSelectionMembersRowsAsync
-    isExternal: true
-    href: SuperOffice.CRM.ArchiveLists.Archive.TicketSelectionProviderBase.html#SuperOffice_CRM_ArchiveLists_Archive_TicketSelectionProviderBase_GetTicketSelectionMembersRowsAsync_System_Int32_System_String___System_Threading_CancellationToken_
-  - name: (
-  - uid: System.Int32
-    name: Integer
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.int32
-  - name: ','
-  - name: " "
-  - uid: System.String
-    name: String
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.string
-  - name: (
-  - name: )
-  - name: ','
-  - name: " "
-  - uid: System.Threading.CancellationToken
-    name: CancellationToken
-    isExternal: true
-    href: https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken
-  - name: )
 - uid: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.ColumnSelectionId
   commentId: F:SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase.ColumnSelectionId
   parent: SuperOffice.CRM.ArchiveLists.Archive.SelectionProviderBase

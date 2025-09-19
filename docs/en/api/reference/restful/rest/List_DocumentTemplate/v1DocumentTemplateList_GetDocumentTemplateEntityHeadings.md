@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 844,
-    "Name": "Turner-Schmitt",
-    "Tooltip": "accusantium",
+    "HeadingId": 234,
+    "Name": "Marvin-Baumbach",
+    "Tooltip": "vero",
     "Deleted": false,
-    "Rank": 666,
-    "UdListDefinitionId": 123,
+    "Rank": 123,
+    "UdListDefinitionId": 907,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 336
+        "FieldType": "System.String",
+        "FieldLength": 535
       }
     }
   }

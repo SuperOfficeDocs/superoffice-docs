@@ -106,52 +106,52 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Larkin Group",
-  "ProviderName": "Stark, Schaden and Tillman",
+  "GuiName": "Huel-Fadel",
+  "ProviderName": "Wolff LLC",
   "SortOrder": [
     {
-      "Name": "Veum, Koch and Halvorson",
+      "Name": "Torp, Mohr and Kutch",
       "Direction": "ASC"
     },
     {
-      "Name": "Veum, Koch and Halvorson",
+      "Name": "Torp, Mohr and Kutch",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Hilpert-Abshire",
-      "Operator": "et",
+      "Name": "Keeling Inc and Sons",
+      "Operator": "quibusdam",
       "Values": [
-        "quibusdam",
-        "incidunt"
+        "beatae",
+        "sed"
       ],
       "DisplayValues": [
-        "id",
-        "odio"
+        "doloremque",
+        "molestias"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 311,
+      "InterParenthesis": 867,
       "InterOperator": "And",
-      "UniqueHash": 532
+      "UniqueHash": 55
     }
   ],
   "Entities": [
-    "alias",
-    "commodi"
+    "nihil",
+    "aliquam"
   ],
-  "Page": 982,
-  "PageSize": 687,
-  "Context": "officia"
+  "Page": 159,
+  "PageSize": 9,
+  "Context": "consequatur"
 }
 ```
 
@@ -163,23 +163,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Batz LLC",
-    "PrimaryKey": 956,
+    "EntityName": "Beahan-Howell",
+    "PrimaryKey": 336,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "eos",
-        "TooltipHint": "omnis",
-        "LinkHint": "est"
+        "DisplayValue": "ut",
+        "TooltipHint": "qui",
+        "LinkHint": "soluta"
       }
     },
-    "LinkHint": "aut",
-    "StyleHint": "et",
+    "LinkHint": "quia",
+    "StyleHint": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 252
+        "FieldLength": 835
       }
     }
   }

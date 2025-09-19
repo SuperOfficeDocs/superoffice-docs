@@ -88,23 +88,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 841,
-  "BlobSize": 176,
-  "Description": "Adaptive 24 hour policy",
-  "ExtraInfo": "cumque",
+  "BlobId": 664,
+  "BlobSize": 855,
+  "Description": "Object-based dynamic forecast",
+  "ExtraInfo": "optio",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "quas",
-  "OriginalSize": 900,
-  "CreatedDate": "2008-10-23T03:46:54.3007673+02:00",
-  "UpdatedDate": "2022-11-14T03:46:54.3007673+01:00",
+  "MimeType": "et",
+  "OriginalSize": 327,
+  "CreatedDate": "2015-07-09T03:41:53.0901263+02:00",
+  "UpdatedDate": "2017-07-27T03:41:53.0901263+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "voluptatibus"
+  "ConceptualType": "accusamus"
 }
 ```
 
@@ -115,25 +115,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 898,
-  "BlobSize": 966,
-  "Description": "Multi-channelled well-modulated neural-net",
-  "ExtraInfo": "eum",
+  "BlobId": 453,
+  "BlobSize": 257,
+  "Description": "Organic 4th generation attitude",
+  "ExtraInfo": "corporis",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "tenetur",
-  "OriginalSize": 972,
-  "CreatedDate": "1999-09-21T03:46:54.3007673+02:00",
-  "UpdatedDate": "2019-05-18T03:46:54.3007673+02:00",
+  "IsZipped": true,
+  "MimeType": "aliquam",
+  "OriginalSize": 720,
+  "CreatedDate": "2013-07-11T03:41:53.0901263+02:00",
+  "UpdatedDate": "2025-02-23T03:41:53.0901263+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "minima",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 891
+      "FieldType": "System.String",
+      "FieldLength": 726
     }
   }
 }

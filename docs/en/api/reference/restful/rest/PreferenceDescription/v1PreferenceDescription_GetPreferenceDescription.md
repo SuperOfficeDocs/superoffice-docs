@@ -91,7 +91,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,35 +101,35 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 228,
-  "Section": "est",
-  "Key": "non",
-  "Name": "Dibbert Group",
+  "PrefDescId": 108,
+  "Section": "ipsam",
+  "Key": "quibusdam",
+  "Name": "Hane Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Versatile intangible leverage",
+  "Description": "Upgradable intangible moratorium",
   "IsBuiltin": false,
-  "TableName": "Brekke, Bednar and Wolff",
-  "UserDefinedListId": 648,
-  "Rank": 795,
-  "SubGroup": "et",
-  "MinLevel": 389,
-  "MaxValue": 24,
-  "MinValue": 919,
-  "RequiredLicense": "quisquam",
+  "TableName": "Herman, Willms and Buckridge",
+  "UserDefinedListId": 173,
+  "Rank": 88,
+  "SubGroup": "nihil",
+  "MinLevel": 961,
+  "MaxValue": 654,
+  "MinValue": 606,
+  "RequiredLicense": "facilis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldLength": 722
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

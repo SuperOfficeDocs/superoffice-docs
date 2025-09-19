@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 324,
-    "Name": "Morar, Herzog and Mueller",
-    "Tooltip": "error",
+    "HeadingId": 486,
+    "Name": "Crist-Kshlerin",
+    "Tooltip": "sit",
     "Deleted": false,
-    "Rank": 711,
-    "UdListDefinitionId": 552,
+    "Rank": 362,
+    "UdListDefinitionId": 43,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 621
+        "FieldLength": 344
       }
     }
   }

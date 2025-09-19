@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Howell-Moore"
+  "OwnerName": "Bins, Ryan and Hirthe"
 }
 ```
 
@@ -93,21 +93,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 973,
-      "NumberOfLicensesFree": 964,
-      "NumberOfLicensesAdded": 981,
-      "NumberOfLicensesNewTotal": 797,
-      "NumberOfLicensesNewFree": 264,
-      "NumberOfLicensesTotal": 548
+      "NumberOfLicensesInUse": 315,
+      "NumberOfLicensesFree": 298,
+      "NumberOfLicensesAdded": 361,
+      "NumberOfLicensesNewTotal": 425,
+      "NumberOfLicensesNewFree": 358,
+      "NumberOfLicensesTotal": 275
     }
   ],
-  "AccumulatedNextCheckDate": "2018-01-07T03:46:54.9107593+01:00"
+  "AccumulatedNextCheckDate": "2006-08-03T03:41:53.6057294+02:00"
 }
 ```

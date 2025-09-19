@@ -90,32 +90,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 464,
-  "ListItemId": 468,
+  "UdListDefinitionId": 270,
+  "ListItemId": 824,
   "Headings": [
     {
-      "Id": 567,
-      "Name": "Shields, Balistreri and Tremblay",
-      "ToolTip": "Ipsam sed sint aut enim.",
-      "Deleted": true,
-      "Rank": 575,
-      "Type": "id",
-      "ColorBlock": 841,
-      "IconHint": "ex",
-      "Selected": true,
-      "LastChanged": "2008-03-08T03:46:54.9569999+01:00",
+      "Id": 891,
+      "Name": "Beahan-Kohler",
+      "ToolTip": "Distinctio voluptas voluptatum tempore.",
+      "Deleted": false,
+      "Rank": 463,
+      "Type": "non",
+      "ColorBlock": 908,
+      "IconHint": "aperiam",
+      "Selected": false,
+      "LastChanged": "2008-10-01T03:41:53.6994806+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ullam",
-      "StyleHint": "nemo",
+      "ExtraInfo": "est",
+      "StyleHint": "qui",
       "Hidden": true,
-      "FullName": "Mr. Vincenza Raynor DDS"
+      "FullName": "Kristian Hyatt"
     }
   ]
 }
@@ -129,56 +129,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 947,
-    "Name": "Daugherty LLC",
-    "ToolTip": "Nesciunt repellat expedita.",
+    "Id": 83,
+    "Name": "Swaniawski Group",
+    "ToolTip": "In eum nostrum autem repudiandae eaque.",
     "Deleted": false,
-    "Rank": 397,
-    "Type": "aliquam",
-    "ColorBlock": 434,
-    "IconHint": "perspiciatis",
-    "Selected": true,
-    "LastChanged": "1998-07-06T03:46:54.9569999+02:00",
+    "Rank": 893,
+    "Type": "quasi",
+    "ColorBlock": 851,
+    "IconHint": "aliquid",
+    "Selected": false,
+    "LastChanged": "2012-03-30T03:41:53.6994806+02:00",
     "ChildItems": [
       {
-        "Id": 619,
-        "Name": "Gaylord, Quigley and Volkman",
-        "ToolTip": "Est quia.",
+        "Id": 831,
+        "Name": "Yundt, Hartmann and Prohaska",
+        "ToolTip": "Quaerat assumenda qui eius.",
         "Deleted": false,
-        "Rank": 488,
-        "Type": "sed",
-        "ColorBlock": 81,
-        "IconHint": "eaque",
-        "Selected": true,
-        "LastChanged": "2001-08-14T03:46:54.9569999+02:00",
+        "Rank": 447,
+        "Type": "omnis",
+        "ColorBlock": 863,
+        "IconHint": "nulla",
+        "Selected": false,
+        "LastChanged": "2004-03-10T03:41:53.6994806+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "illo",
-        "StyleHint": "neque",
+        "ExtraInfo": "itaque",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Ike Grimes",
+        "FullName": "Randi Hoppe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 732
+            "FieldLength": 608
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "accusantium",
-    "Hidden": false,
-    "FullName": "Adaline Fadel",
+    "ExtraInfo": "sed",
+    "StyleHint": "reiciendis",
+    "Hidden": true,
+    "FullName": "Emanuel Moen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 792
+        "FieldLength": 420
       }
     }
   }

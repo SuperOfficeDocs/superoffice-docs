@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 553,
-    "Name": "Cremin, Bradtke and Hilll",
-    "ToolTip": "Neque quibusdam veritatis est voluptatem veritatis unde doloribus.",
+    "Id": 165,
+    "Name": "Treutel, Erdman and Kling",
+    "ToolTip": "Nihil ratione eaque sit ratione doloremque nam.",
     "Deleted": true,
-    "Rank": 202,
-    "Type": "et",
-    "ColorBlock": 344,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2014-05-23T03:47:00.7067961+02:00",
+    "Rank": 753,
+    "Type": "harum",
+    "ColorBlock": 893,
+    "IconHint": "eveniet",
+    "Selected": false,
+    "LastChanged": "2021-06-18T03:41:59.4492344+02:00",
     "ChildItems": [
       {
-        "Id": 437,
-        "Name": "Schiller, Berge and Roberts",
-        "ToolTip": "Animi labore veniam enim labore.",
-        "Deleted": false,
-        "Rank": 666,
-        "Type": "rerum",
-        "ColorBlock": 25,
-        "IconHint": "maxime",
+        "Id": 479,
+        "Name": "Hackett, Rempel and Donnelly",
+        "ToolTip": "Aut velit suscipit ipsum necessitatibus reiciendis.",
+        "Deleted": true,
+        "Rank": 588,
+        "Type": "itaque",
+        "ColorBlock": 856,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2008-04-11T03:47:00.7067961+02:00",
+        "LastChanged": "2008-06-06T03:41:59.4492344+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "dolore",
-        "Hidden": true,
-        "FullName": "Dr. Alexander Britney Wisoky",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "magni",
+        "Hidden": false,
+        "FullName": "Joesph Donnelly PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 974
+            "FieldType": "System.String",
+            "FieldLength": 119
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "ipsam",
+    "ExtraInfo": "vel",
+    "StyleHint": "voluptatem",
     "Hidden": true,
-    "FullName": "Ophelia Satterfield",
+    "FullName": "Cordie Rodriguez",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 737
+        "FieldType": "System.String",
+        "FieldLength": 544
       }
     }
   }

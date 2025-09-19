@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 627
+  "Id": 194
 }
 ```
 
@@ -103,27 +103,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 644,
-  "Rank": 519,
-  "DefaultTask": 585,
-  "DefaultTaskText": "quod",
-  "IsVisual": false,
-  "LastGenerated": "2009-02-22T03:46:55.2382402+01:00",
-  "Description": "Grass-roots content-based internet solution",
-  "Name": "Jacobi Group",
-  "StatusMonitorId": 295,
-  "PictureId": 663,
-  "NeedsUpdate": true,
-  "Deleted": true,
-  "NumMatches": 770,
-  "NumNeedUpdate": 50,
-  "GenerationStart": "2000-09-14T03:46:55.2382402+02:00",
+  "OwnerTable": 390,
+  "Rank": 596,
+  "DefaultTask": 543,
+  "DefaultTaskText": "voluptatem",
+  "IsVisual": true,
+  "LastGenerated": "2019-09-07T03:41:53.9807136+02:00",
+  "Description": "Horizontal neutral policy",
+  "Name": "Gorczany, Prosacco and Jakubowski",
+  "StatusMonitorId": 867,
+  "PictureId": 538,
+  "NeedsUpdate": false,
+  "Deleted": false,
+  "NumMatches": 284,
+  "NumNeedUpdate": 863,
+  "GenerationStart": "2005-12-21T03:41:53.9807136+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 594
+      "FieldType": "System.Int32",
+      "FieldLength": 691
     }
   }
 }

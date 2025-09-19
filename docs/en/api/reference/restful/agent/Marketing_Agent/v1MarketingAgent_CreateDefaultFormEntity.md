@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,38 +88,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 447,
-  "FormKey": "nisi",
-  "Name": "Becker-Douglas",
-  "Description": "Networked 3rd generation algorithm",
-  "Config": "incidunt",
-  "FolderId": 75,
-  "ScriptId": 134,
-  "ResponseShipmentId": 713,
+  "FormId": 553,
+  "FormKey": "harum",
+  "Name": "Labadie, Turcotte and Schmidt",
+  "Description": "Extended zero defect definition",
+  "Config": "eaque",
+  "FolderId": 251,
+  "ScriptId": 312,
+  "ResponseShipmentId": 127,
   "Active": false,
-  "Expires": "2011-10-17T03:46:55.0038735+02:00",
-  "MaxSubmits": 689,
+  "Expires": "2023-08-15T03:41:53.7463488+02:00",
+  "MaxSubmits": 986,
   "Type": "Normal",
-  "Recipe": "provident",
-  "GroupId": 248,
-  "NewTicket": false,
+  "Recipe": "nesciunt",
+  "GroupId": 348,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2025-04-14T03:46:55.0038735+02:00",
-  "RegisteredAssociateId": 971,
-  "Updated": "2016-06-07T03:46:55.0038735+02:00",
-  "UpdatedAssociateId": 294,
-  "UpdatedCount": 838,
+  "Registered": "2003-04-18T03:41:53.7463488+02:00",
+  "RegisteredAssociateId": 535,
+  "Updated": "2025-03-11T03:41:53.7463488+01:00",
+  "UpdatedAssociateId": 48,
+  "UpdatedCount": 202,
   "EmailFlows": [
-    348,
-    529
+    1002,
+    962
   ],
-  "FolderName": "Hilpert-Schmitt",
+  "FolderName": "O'Keefe, Koelpin and Bosco",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 695
+      "FieldLength": 76
     }
   }
 }

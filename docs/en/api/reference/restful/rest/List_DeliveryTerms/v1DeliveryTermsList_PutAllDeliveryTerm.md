@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 326,
-    "Name": "Hermiston, Abshire and Jaskolski",
-    "Tooltip": "inventore",
+    "Id": 296,
+    "Name": "Hackett, Schuppe and Blick",
+    "Tooltip": "ipsa",
     "Deleted": false,
-    "UdListDefinitionId": 936,
-    "Rank": 774
+    "UdListDefinitionId": 731,
+    "Rank": 569
   },
   {
-    "Id": 326,
-    "Name": "Hermiston, Abshire and Jaskolski",
-    "Tooltip": "inventore",
+    "Id": 296,
+    "Name": "Hackett, Schuppe and Blick",
+    "Tooltip": "ipsa",
     "Deleted": false,
-    "UdListDefinitionId": 936,
-    "Rank": 774
+    "UdListDefinitionId": 731,
+    "Rank": 569
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 157,
-    "Name": "Maggio-Hane",
-    "Tooltip": "non",
-    "Deleted": true,
-    "UdListDefinitionId": 16,
-    "Rank": 677,
+    "Id": 990,
+    "Name": "Bartell-Zemlak",
+    "Tooltip": "distinctio",
+    "Deleted": false,
+    "UdListDefinitionId": 984,
+    "Rank": 560,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 799
+        "FieldLength": 211
       }
     }
   }

@@ -84,6 +84,8 @@ ProjectMember found.
 | EmailAddressName | string | The e-mail address description |
 | Comment | string | Comment text on the project membership |
 | FullName | string | The person's full name localized to the current culture/country.  (internal name used in clients for employees) |
+| Registered | date-time | The date and time when the project member was registered  in UTC. |
+| Updated | date-time | The date and time when the project member was last updated  in UTC. |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 | _Links | object |  |
@@ -104,38 +106,40 @@ HTTP/1.1 200 ProjectMember found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 607,
-  "ContactId": 915,
-  "ProjectId": 734,
-  "ContactName": "Howell LLC",
-  "ContactDepartment": "",
-  "ProjectName": "Brown Inc and Sons",
-  "EmailId": 318,
-  "EmailAddress": "remington_heathcote@hessel.info",
-  "CountryId": 812,
-  "Firstname": "Nella",
-  "MiddleName": "Lockman, Fay and Stokes",
-  "Lastname": "McGlynn",
-  "PersonId": 959,
-  "Mrmrs": "mollitia",
-  "ProjectMemberTypeName": "Green-Spencer",
-  "Phone": "(192)112-4007",
-  "PhoneId": 432,
-  "ProjectMemberTypeId": 236,
-  "EmailAddressName": "beth@grahamschimmel.com",
-  "Comment": "qui",
-  "FullName": "Madilyn Wolff",
+  "ProjectmemberId": 677,
+  "ContactId": 167,
+  "ProjectId": 896,
+  "ContactName": "Fritsch-Goyette",
+  "ContactDepartment": "reinvent 24/7 communities",
+  "ProjectName": "O'Reilly-Schroeder",
+  "EmailId": 749,
+  "EmailAddress": "erik@eichmanncole.info",
+  "CountryId": 597,
+  "Firstname": "Ludwig",
+  "MiddleName": "Hayes Inc and Sons",
+  "Lastname": "Hahn",
+  "PersonId": 211,
+  "Mrmrs": "est",
+  "ProjectMemberTypeName": "Weissnat Inc and Sons",
+  "Phone": "887-873-4587 x3551",
+  "PhoneId": 667,
+  "ProjectMemberTypeId": 1002,
+  "EmailAddressName": "adelbert@harris.name",
+  "Comment": "iste",
+  "FullName": "Curtis Murphy",
+  "Registered": "2023-08-31T03:41:59.1992454+02:00",
+  "Updated": "2006-01-08T03:41:59.1992454+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 396
+      "FieldLength": 638
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

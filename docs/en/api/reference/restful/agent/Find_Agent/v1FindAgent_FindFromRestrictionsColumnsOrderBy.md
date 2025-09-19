@@ -83,21 +83,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Heidenreich Group",
-      "Operator": "fuga",
+      "Name": "Senger Inc and Sons",
+      "Operator": "rerum",
       "Values": [
-        "qui",
-        "sequi"
+        "iusto",
+        "est"
       ],
       "DisplayValues": [
-        "enim",
-        "magni"
+        "culpa",
+        "reiciendis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -105,28 +105,28 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 452,
+      "InterParenthesis": 143,
       "InterOperator": "And",
-      "UniqueHash": 930
+      "UniqueHash": 270
     }
   ],
-  "ProviderName": "Hyatt-Johnson",
+  "ProviderName": "Rau LLC",
   "DesiredColumns": [
-    "et",
-    "quas"
+    "architecto",
+    "ipsa"
   ],
   "OrderBy": [
     {
-      "Name": "Bradtke LLC",
+      "Name": "Schuster, Toy and McClure",
       "Direction": "ASC"
     },
     {
-      "Name": "Bradtke LLC",
+      "Name": "Schuster, Toy and McClure",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 276,
-  "PageNumber": 631
+  "PageSize": 223,
+  "PageNumber": 720
 }
 ```
 
@@ -139,51 +139,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Jewess, Gislason and Veum",
-      "DisplayTooltip": "maxime",
-      "DisplayType": "facilis",
+      "DisplayName": "Gottlieb, Kozey and Haley",
+      "DisplayTooltip": "facere",
+      "DisplayType": "voluptatem",
       "CanOrderBy": false,
-      "Name": "Greenfelder, Treutel and Predovic",
+      "Name": "Crona LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "quo",
-      "RestrictionListName": "Smitham-Walter",
+      "RestrictionType": "explicabo",
+      "RestrictionListName": "Vandervort Group",
       "IsVisible": true,
-      "ExtraInfo": "doloremque",
-      "Width": "necessitatibus",
-      "IconHint": "quos",
-      "HeadingIconHint": "quia"
+      "ExtraInfo": "temporibus",
+      "Width": "enim",
+      "IconHint": "quod",
+      "HeadingIconHint": "dolore"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Schroeder LLC",
-      "PrimaryKey": 867,
+      "EntityName": "Toy Inc and Sons",
+      "PrimaryKey": 678,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "odit",
-          "TooltipHint": "distinctio",
-          "LinkHint": "ratione"
+          "DisplayValue": "assumenda",
+          "TooltipHint": "quo",
+          "LinkHint": "veritatis"
         }
       },
-      "LinkHint": "perferendis",
-      "StyleHint": "facere",
+      "LinkHint": "at",
+      "StyleHint": "recusandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 851
+          "FieldType": "System.Int32",
+          "FieldLength": 645
         }
       }
     }
   ],
-  "RowCount": 937,
+  "RowCount": 646,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 984
+      "FieldLength": 136
     }
   }
 }

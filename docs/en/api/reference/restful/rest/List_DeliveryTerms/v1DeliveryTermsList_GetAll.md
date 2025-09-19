@@ -26,7 +26,7 @@ Gets all the DeliveryTerm items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/DeliveryTerm/Items?includeDeleted=True
+GET /api/v1/List/DeliveryTerm/Items?includeDeleted=False
 ```
 
 
@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 817,
-    "Name": "Tillman, Ullrich and Botsford",
-    "Tooltip": "sint",
+    "Id": 433,
+    "Name": "Corkery, Carroll and Crist",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "UdListDefinitionId": 906,
-    "Rank": 487,
+    "UdListDefinitionId": 253,
+    "Rank": 112,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 620
+        "FieldLength": 486
       }
     }
   }

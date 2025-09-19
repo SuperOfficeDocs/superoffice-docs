@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 798,
-    "Name": "Fritsch-Carter",
-    "ToolTip": "Id architecto recusandae qui quis.",
-    "Deleted": true,
-    "Rank": 458,
-    "Type": "recusandae",
-    "ColorBlock": 826,
-    "IconHint": "repellendus",
+    "Id": 865,
+    "Name": "Streich-Hand",
+    "ToolTip": "Et ea possimus nulla nam quis est consequatur.",
+    "Deleted": false,
+    "Rank": 989,
+    "Type": "et",
+    "ColorBlock": 793,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2016-10-11T03:47:00.6130405+02:00",
+    "LastChanged": "2001-04-30T03:41:59.3711138+02:00",
     "ChildItems": [
       {
-        "Id": 557,
-        "Name": "Kuphal Group",
-        "ToolTip": "Incidunt aut eaque doloribus.",
+        "Id": 312,
+        "Name": "Kirlin Inc and Sons",
+        "ToolTip": "Esse ut.",
         "Deleted": false,
-        "Rank": 141,
-        "Type": "asperiores",
-        "ColorBlock": 570,
-        "IconHint": "sint",
-        "Selected": false,
-        "LastChanged": "2016-12-31T03:47:00.6130405+01:00",
+        "Rank": 238,
+        "Type": "unde",
+        "ColorBlock": 762,
+        "IconHint": "eos",
+        "Selected": true,
+        "LastChanged": "2004-12-05T03:41:59.3711138+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "ad",
+        "ExtraInfo": "ea",
+        "StyleHint": "quo",
         "Hidden": false,
-        "FullName": "Dion Howell V",
+        "FullName": "Miss Kade Hilll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 823
+            "FieldLength": 427
           }
         }
       }
     ],
-    "ExtraInfo": "excepturi",
-    "StyleHint": "harum",
-    "Hidden": false,
-    "FullName": "Mr. Claudine Osinski",
+    "ExtraInfo": "nihil",
+    "StyleHint": "veritatis",
+    "Hidden": true,
+    "FullName": "Brenda Yundt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 578
+        "FieldLength": 441
       }
     }
   }

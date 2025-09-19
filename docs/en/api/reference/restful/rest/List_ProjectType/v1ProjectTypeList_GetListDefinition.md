@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/ProjectType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 923,
-  "Name": "Hoeger Group",
-  "Tooltip": "illum",
+  "Id": 561,
+  "Name": "Robel Inc and Sons",
+  "Tooltip": "incidunt",
   "Deleted": false,
-  "Rank": 149,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "incidunt",
-  "InUseByUserDefinedFields": true,
+  "Rank": 489,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "laudantium",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 976
+      "FieldType": "System.String",
+      "FieldLength": 777
     }
   },
   "_Links": {

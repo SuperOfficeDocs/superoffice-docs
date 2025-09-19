@@ -84,15 +84,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 310,
+  "DocumentId": 547,
   "AllowedReturnTypes": [
-    "veniam",
-    "molestiae"
+    "doloremque",
+    "quis"
   ],
-  "VersionDescription": "Virtual mission-critical function",
+  "VersionDescription": "Re-contextualized systemic solution",
   "VersionExtraFields": [
-    "ipsam",
-    "deserunt"
+    "similique",
+    "numquam"
   ]
 }
 ```
@@ -104,11 +104,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "inventore",
-  "VersionId": "laboriosam",
-  "Success": true,
+  "ExternalReference": "dolorum",
+  "VersionId": "consequatur",
+  "Success": false,
   "Type": "CustomGui",
-  "Value": "ipsa",
-  "AdditionalInfo": "consequuntur"
+  "Value": "alias",
+  "AdditionalInfo": "a"
 }
 ```

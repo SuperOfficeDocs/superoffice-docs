@@ -118,18 +118,18 @@ ListEntity  updated.
 PATCH /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "iusto",
+    "path": "totam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "iusto",
+    "path": "totam",
     "value": {}
   }
 ]
@@ -142,22 +142,22 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 502,
-  "Name": "Bogan LLC",
-  "Tooltip": "et",
+  "Id": 482,
+  "Name": "Wiegand, Purdy and Christiansen",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 775,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 976,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "voluptas",
+  "ListType": "possimus",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 187
+      "FieldLength": 597
     }
   },
   "_Links": {

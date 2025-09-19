@@ -63,7 +63,7 @@ OK
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,18 +74,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 190,
-    "Name": "Jaskolski, Ruecker and Walsh",
-    "Tooltip": "sed",
+    "HeadingId": 890,
+    "Name": "Goldner-Jerde",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 109,
-    "UdListDefinitionId": 1000,
+    "Rank": 779,
+    "UdListDefinitionId": 159,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 802
+        "FieldType": "System.String",
+        "FieldLength": 869
       }
     }
   }

@@ -98,7 +98,7 @@ OK
 GET /api/v1/Selection/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -106,73 +106,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 21 Jan 2000 03:47:00 G1T
+Last-Modified: Fri, 12 Jun 2009 03:41:58 G6T
 
 {
-  "Description": "Fully-configurable multimedia encryption",
-  "Postit": "voluptatibus",
+  "Description": "Profound local application",
+  "Postit": "quis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 688,
-  "IncludePerson": 776,
+  "GroupIdx": 972,
+  "IncludePerson": 420,
   "MemberCount": 99.99,
-  "Name": "Huels, Ondricka and Farrell",
-  "PostitTextId": 838,
-  "CreatedDate": "2001-08-30T03:47:00.2849361+02:00",
-  "SelectionId": 147,
-  "SoundEx": "quam",
-  "Source": 724,
-  "TextId": 171,
-  "UpdatedDate": "2000-01-21T03:47:00.2849361+01:00",
-  "UpdatedCount": 120,
-  "Visibility": 208,
+  "Name": "Kozey, Kozey and Frami",
+  "PostitTextId": 960,
+  "CreatedDate": "2006-10-05T03:41:58.9961292+02:00",
+  "SelectionId": 700,
+  "SoundEx": "cumque",
+  "Source": 340,
+  "TextId": 471,
+  "UpdatedDate": "2009-06-12T03:41:58.9961292+02:00",
+  "UpdatedCount": 216,
+  "Visibility": 896,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 121,
-  "TargetTableName": "Leuschke, Hauck and Batz",
-  "Completed": false,
-  "LeftSelectionId": 560,
-  "RightSelectionId": 212,
+  "CompanyUnique": false,
+  "TargetTableNumber": 913,
+  "TargetTableName": "Hintz, Cruickshank and Runolfsson",
+  "Completed": true,
+  "LeftSelectionId": 2,
+  "RightSelectionId": 896,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "O'Reilly Group",
-  "ShadowProviderName": "Graham, Roob and Swaniawski",
-  "ChartKey": "illo",
-  "LastLoaded": "2019-08-27T03:47:00.2849361+02:00",
-  "LastLoadedBy": 918,
+  "MainProviderName": "Mante LLC",
+  "ShadowProviderName": "Hettinger, Murazik and Gibson",
+  "ChartKey": "sit",
+  "LastLoaded": "2017-05-16T03:41:58.9961292+02:00",
+  "LastLoadedBy": 260,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-03-22T03:47:00.2849361+01:00",
-  "LastMembershipChangeBy": 194,
+  "LastMembershipChange": "2002-04-09T03:41:58.9961292+02:00",
+  "LastMembershipChangeBy": 635,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "rerum",
-  "MemberTabHeading": "quia",
-  "MailingsProviderName": "Tremblay-Pfannerstill",
-  "DashboardTileDefinitionId": 905,
+  "MainHeading": "cumque",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Harber, Rutherford and Bergstrom",
+  "DashboardTileDefinitionId": 819,
   "VisibleFor": [
     {
-      "VisibleId": 83,
+      "VisibleId": 326,
       "Visibility": "All",
-      "DisplayValue": "voluptates",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 569
+          "FieldLength": 507
         }
       }
     },
     {
-      "VisibleId": 83,
+      "VisibleId": 326,
       "Visibility": "All",
-      "DisplayValue": "voluptates",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 569
+          "FieldLength": 507
         }
       }
     }
@@ -182,7 +182,7 @@ Last-Modified: Fri, 21 Jan 2000 03:47:00 G1T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 876
+      "FieldLength": 828
     }
   }
 }

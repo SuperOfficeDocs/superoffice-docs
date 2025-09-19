@@ -127,8 +127,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 993,
-  "ERPProductKey": "et"
+  "QuoteAlternativeId": 305,
+  "ERPProductKey": "temporibus"
 }
 ```
 
@@ -139,88 +139,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 712,
-  "ERPQuoteLineKey": "corporis",
-  "QuoteAlternativeId": 445,
-  "ERPProductKey": "blanditiis",
+  "QuoteLineId": 649,
+  "ERPQuoteLineKey": "voluptate",
+  "QuoteAlternativeId": 144,
+  "ERPProductKey": "eligendi",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 28616.554,
-  "DeliveredQuantity": 21430.291999999998,
-  "Rank": 205,
-  "Name": "Schuppe LLC",
-  "Description": "Right-sized intermediate hardware",
-  "Code": "explicabo",
-  "QuantityUnit": "aut",
-  "PriceUnit": "autem",
-  "ItemNumber": "319607",
+  "Quantity": 13482.467999999999,
+  "DeliveredQuantity": 30725.736,
+  "Rank": 827,
+  "Name": "Kling Group",
+  "Description": "Adaptive modular capability",
+  "Code": "consectetur",
+  "QuantityUnit": "repellendus",
+  "PriceUnit": "quos",
+  "ItemNumber": "892294",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "optio",
-  "ProductTypeKey": "praesentium",
-  "Supplier": "praesentium",
-  "SupplierCode": "possimus",
-  "Thumbnail": "aut",
-  "VATInfo": "est",
-  "VAT": 19032.782,
-  "UnitCost": 2080.976,
-  "UnitMinimumPrice": 5221.244,
-  "UnitListPrice": 3738.862,
+  "ProductFamilyKey": "aut",
+  "ProductTypeKey": "fuga",
+  "Supplier": "recusandae",
+  "SupplierCode": "rerum",
+  "Thumbnail": "deserunt",
+  "VATInfo": "veritatis",
+  "VAT": 17240.134,
+  "UnitCost": 15698.206,
+  "UnitMinimumPrice": 10226.242,
+  "UnitListPrice": 15682.536,
   "ExtraInfo": [
     {
-      "Name": "Mayert, Thiel and Legros",
-      "Value": "sapiente",
+      "Name": "Flatley-Considine",
+      "Value": "quibusdam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 109
+          "FieldLength": 519
         }
       }
     },
     {
-      "Name": "Mayert, Thiel and Legros",
-      "Value": "sapiente",
+      "Name": "Flatley-Considine",
+      "Value": "quibusdam",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 109
+          "FieldLength": 519
         }
       }
     }
   ],
-  "RawExtraInfo": "ratione",
+  "RawExtraInfo": "cumque",
   "IsSubscription": false,
-  "SubscriptionUnit": "labore",
-  "SubscriptionQuantity": 30594.108,
-  "SubscriptionStart": "2009-10-22T03:46:55.2226157+02:00",
-  "ERPDiscountPercent": 10063.274,
-  "ERPDiscountAmount": 24965.444,
-  "DiscountPercent": 13664.24,
-  "DiscountAmount": 27544.726,
+  "SubscriptionUnit": "a",
+  "SubscriptionQuantity": 29516.012,
+  "SubscriptionStart": "2003-04-06T03:41:53.9650897+02:00",
+  "ERPDiscountPercent": 25294.514,
+  "ERPDiscountAmount": 27773.507999999998,
+  "DiscountPercent": 15942.658,
+  "DiscountAmount": 2792.394,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 23075.642,
-  "EarningAmount": 20806.626,
-  "SubTotal": 14341.184,
-  "TotalPrice": 5243.182,
-  "Rights": "voluptatibus",
-  "Rule": "esse",
-  "ExtraField1": "incidunt",
-  "ExtraField2": "eaque",
-  "ExtraField3": "facilis",
-  "ExtraField4": "minus",
-  "ExtraField5": "iste",
+  "EarningPercent": 13758.26,
+  "EarningAmount": 7631.29,
+  "SubTotal": 15995.936,
+  "TotalPrice": 21351.942,
+  "Rights": "modi",
+  "Rule": "illum",
+  "ExtraField1": "ea",
+  "ExtraField2": "necessitatibus",
+  "ExtraField3": "dolorum",
+  "ExtraField4": "quaerat",
+  "ExtraField5": "quo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 169
+      "FieldLength": 575
     }
   }
 }

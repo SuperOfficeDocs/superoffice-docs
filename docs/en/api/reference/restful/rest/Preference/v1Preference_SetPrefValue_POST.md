@@ -72,21 +72,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "quia",
+  "RawValue": "et",
   "Specification": null,
-  "DisplayValue": "totam",
-  "DisplayTooltip": "deleniti",
+  "DisplayValue": "est",
+  "DisplayTooltip": "molestiae",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 426,
-  "PrefDescId": 586,
-  "TableName": "Heller Inc and Sons",
-  "UserPreferenceId": 547
+  "TargetId": 983,
+  "PrefDescId": 306,
+  "TableName": "Nader Inc and Sons",
+  "UserPreferenceId": 747
 }
 ```
 

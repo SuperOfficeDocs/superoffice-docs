@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 358
+  "SaleId": 287
 }
 ```
 
@@ -102,18 +102,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 704,
-  "SaleId": 385,
-  "QuoteConnectionId": 825,
-  "ERPQuoteKey": "tenetur",
-  "ERPOrderKey": "doloremque",
-  "ActiveQuoteVersionId": 762,
-  "AcceptedQuoteAlternativeId": 571,
-  "UseValuesFromQuote": 166,
-  "DocumentId": 551,
-  "PoNumber": "1775120",
-  "OrderComment": "blanditiis",
-  "PreferredEmailCulture": "gavin@wintheiser.uk",
+  "QuoteId": 150,
+  "SaleId": 358,
+  "QuoteConnectionId": 996,
+  "ERPQuoteKey": "mollitia",
+  "ERPOrderKey": "tempore",
+  "ActiveQuoteVersionId": 495,
+  "AcceptedQuoteAlternativeId": 954,
+  "UseValuesFromQuote": 626,
+  "DocumentId": 694,
+  "PoNumber": "946201",
+  "OrderComment": "in",
+  "PreferredEmailCulture": "tyrel@schuster.ca",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 541
+      "FieldLength": 636
     }
   }
 }

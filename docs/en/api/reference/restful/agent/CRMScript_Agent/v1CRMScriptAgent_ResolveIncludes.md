@@ -76,8 +76,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Script": "odit",
-  "IgnoreErrors": false
+  "Script": "animi",
+  "IgnoreErrors": true
 }
 ```
 
@@ -88,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  398,
-  156
+  204,
+  231
 ]
 ```

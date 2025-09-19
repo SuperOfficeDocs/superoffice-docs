@@ -116,11 +116,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 126
+  "DepartmentId": 764
 }
 ```
 
@@ -132,53 +132,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "quaerat",
-    "PersonId": 599,
-    "Mrmrs": "totam",
-    "Firstname": "Alphonso",
-    "Lastname": "Cassin",
-    "MiddleName": "Grady Group",
-    "Title": "nihil",
-    "Description": "Business-focused dynamic firmware",
-    "Email": "emmalee_mann@gutmann.com",
-    "FullName": "Queen Pacocha",
-    "DirectPhone": "666.180.9556 x867",
-    "FormalName": "DuBuque LLC",
-    "CountryId": 592,
-    "ContactId": 27,
-    "ContactName": "Ledner-Daniel",
-    "Retired": 215,
-    "Rank": 709,
-    "ActiveInterests": 846,
+    "Position": "aut",
+    "PersonId": 123,
+    "Mrmrs": "autem",
+    "Firstname": "Autumn",
+    "Lastname": "Hand",
+    "MiddleName": "Konopelski Group",
+    "Title": "modi",
+    "Description": "Vision-oriented analyzing throughput",
+    "Email": "donnell_abbott@jakubowski.uk",
+    "FullName": "Mrs. Maryse Rempel MD",
+    "DirectPhone": "(419)245-4227",
+    "FormalName": "Brekke LLC",
+    "CountryId": 926,
+    "ContactId": 254,
+    "ContactName": "Bednar-Labadie",
+    "Retired": 922,
+    "Rank": 774,
+    "ActiveInterests": 373,
     "ContactDepartment": "",
-    "ContactCountryId": 960,
-    "ContactOrgNr": "1191682",
-    "FaxPhone": "759-369-7447",
-    "MobilePhone": "811-713-3895 x623",
-    "ContactPhone": "276-932-1397 x914",
-    "AssociateName": "Thompson, Volkman and Sipes",
-    "AssociateId": 641,
+    "ContactCountryId": 21,
+    "ContactOrgNr": "1140439",
+    "FaxPhone": "109-914-7340 x903",
+    "MobilePhone": "(172)929-8372",
+    "ContactPhone": "(707)466-5261 x1760",
+    "AssociateName": "Littel Group",
+    "AssociateId": 170,
     "UsePersonAddress": false,
-    "ContactFax": "eveniet",
-    "Kanafname": "enim",
-    "Kanalname": "iusto",
-    "Post1": "sit",
-    "Post2": "veritatis",
-    "Post3": "minus",
-    "EmailName": "jocelyn_nienow@kiehn.ca",
-    "ContactFullName": "Ms. Wyatt Prosacco",
-    "ActiveErpLinks": 190,
-    "TicketPriorityId": 42,
-    "SupportLanguageId": 345,
-    "SupportAssociateId": 149,
+    "ContactFax": "numquam",
+    "Kanafname": "aut",
+    "Kanalname": "enim",
+    "Post1": "molestias",
+    "Post2": "cumque",
+    "Post3": "ad",
+    "EmailName": "loyce.hamill@kunze.name",
+    "ContactFullName": "Francesco Emard",
+    "ActiveErpLinks": 866,
+    "TicketPriorityId": 267,
+    "SupportLanguageId": 122,
+    "SupportAssociateId": 79,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1455199",
+    "PersonNumber": "1060819",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 873
+        "FieldLength": 960
       }
     }
   }

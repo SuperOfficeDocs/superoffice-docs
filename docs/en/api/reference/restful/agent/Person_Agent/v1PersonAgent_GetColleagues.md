@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -117,53 +117,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "dolore",
-    "PersonId": 694,
-    "Mrmrs": "facere",
-    "Firstname": "Omari",
-    "Lastname": "Haag",
-    "MiddleName": "Shields Inc and Sons",
-    "Title": "fugiat",
-    "Description": "Expanded modular firmware",
-    "Email": "esteban_sauer@waters.us",
-    "FullName": "Edgar Mraz",
-    "DirectPhone": "1-435-398-5473",
-    "FormalName": "Marks, Turcotte and Zulauf",
-    "CountryId": 268,
-    "ContactId": 88,
-    "ContactName": "Nitzsche-D'Amore",
-    "Retired": 17,
-    "Rank": 148,
-    "ActiveInterests": 761,
+    "Position": "repudiandae",
+    "PersonId": 545,
+    "Mrmrs": "quam",
+    "Firstname": "Davion",
+    "Lastname": "Legros",
+    "MiddleName": "Lakin LLC",
+    "Title": "tempore",
+    "Description": "Phased optimizing pricing structure",
+    "Email": "chauncey@stamm.biz",
+    "FullName": "Prof. Taya Kiley Steuber",
+    "DirectPhone": "745-805-9576",
+    "FormalName": "Nicolas LLC",
+    "CountryId": 198,
+    "ContactId": 881,
+    "ContactName": "Jones-Rolfson",
+    "Retired": 156,
+    "Rank": 161,
+    "ActiveInterests": 762,
     "ContactDepartment": "",
-    "ContactCountryId": 190,
-    "ContactOrgNr": "499539",
-    "FaxPhone": "209-262-2078",
-    "MobilePhone": "1-694-577-9876 x428",
-    "ContactPhone": "450-363-4479 x3389",
-    "AssociateName": "Hudson-Flatley",
-    "AssociateId": 772,
-    "UsePersonAddress": true,
-    "ContactFax": "error",
-    "Kanafname": "cum",
-    "Kanalname": "at",
-    "Post1": "quis",
-    "Post2": "ab",
-    "Post3": "ullam",
-    "EmailName": "annamarie@heaneycartwright.biz",
-    "ContactFullName": "Carmella Becker",
-    "ActiveErpLinks": 57,
-    "TicketPriorityId": 534,
-    "SupportLanguageId": 56,
-    "SupportAssociateId": 408,
+    "ContactCountryId": 332,
+    "ContactOrgNr": "956896",
+    "FaxPhone": "1-923-204-4450",
+    "MobilePhone": "015.420.0677 x857",
+    "ContactPhone": "(138)804-6204",
+    "AssociateName": "Hoppe-Franecki",
+    "AssociateId": 249,
+    "UsePersonAddress": false,
+    "ContactFax": "recusandae",
+    "Kanafname": "impedit",
+    "Kanalname": "quis",
+    "Post1": "doloremque",
+    "Post2": "molestias",
+    "Post3": "soluta",
+    "EmailName": "ray@bogan.us",
+    "ContactFullName": "Fannie Stokes",
+    "ActiveErpLinks": 533,
+    "TicketPriorityId": 122,
+    "SupportLanguageId": 97,
+    "SupportAssociateId": 131,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1169548",
+    "PersonNumber": "1104650",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 697
+        "FieldLength": 200
       }
     }
   }

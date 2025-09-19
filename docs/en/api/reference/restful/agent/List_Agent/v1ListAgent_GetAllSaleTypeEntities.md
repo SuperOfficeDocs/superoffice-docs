@@ -95,7 +95,7 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,53 +111,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 709,
-    "Name": "Lemke LLC",
+    "SaleTypeId": 257,
+    "Name": "Gleichner Inc and Sons",
     "Tooltip": "quia",
-    "Rank": 51,
+    "Rank": 630,
     "DurationUnit": "Century",
-    "SaleDuration": 893,
-    "SaleTypeCatId": 150,
+    "SaleDuration": 905,
+    "SaleTypeCatId": 840,
     "Deleted": false,
     "HasGuide": false,
     "HasStakeholders": true,
     "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 165,
-    "QuoteLinesTemplate": 880,
-    "ConfirmationLinesTemplate": 936,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 322,
+    "QuoteLinesTemplate": 276,
+    "ConfirmationLinesTemplate": 410,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 833,
-    "MinEarningPercent": 573,
-    "GroupQuoteLinesBy": 876,
-    "SortGroupLinesBy": 110,
+    "MaxDiscountPercent": 851,
+    "MinEarningPercent": 260,
+    "GroupQuoteLinesBy": 382,
+    "SortGroupLinesBy": 505,
     "Stages": [
       {
-        "Id": 165,
-        "Name": "O'Connell, VonRueden and Parisian",
-        "ToolTip": "Nihil est quidem sit aut.",
+        "Id": 502,
+        "Name": "Jones Inc and Sons",
+        "ToolTip": "Asperiores dolore placeat facilis.",
         "Deleted": true,
-        "Rank": 582,
-        "Type": "omnis",
-        "ColorBlock": 74,
-        "IconHint": "molestias",
+        "Rank": 493,
+        "Type": "hic",
+        "ColorBlock": 692,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2012-03-02T03:46:54.9413809+01:00",
+        "LastChanged": "2019-11-16T03:41:53.6369777+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ad",
-        "StyleHint": "doloremque",
-        "Hidden": false,
-        "FullName": "Sylvan Luettgen",
+        "ExtraInfo": "repellat",
+        "StyleHint": "eveniet",
+        "Hidden": true,
+        "FullName": "Trent Crona",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 816
+            "FieldLength": 682
           }
         }
       }
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 677
+        "FieldLength": 849
       }
     }
   }

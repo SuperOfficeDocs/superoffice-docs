@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 378,
-  "Name": "Muller-Beer"
+  "DashboardId": 124,
+  "Name": "Lemke Group"
 }
 ```
 
@@ -103,37 +103,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 220,
-  "UniqueId": "eos",
-  "Name": "Stark, Treutel and Shanahan",
-  "Description": "Realigned 24/7 capability",
-  "AssociateId": 94,
-  "Columns": 333,
+  "DashboardId": 493,
+  "UniqueId": "est",
+  "Name": "Hand, Hayes and Cummings",
+  "Description": "Exclusive methodical methodology",
+  "AssociateId": 993,
+  "Columns": 718,
   "Theme": null,
-  "VisibleForAll": 933,
+  "VisibleForAll": 25,
   "VisibleForAssociates": [
-    689,
-    679
+    89,
+    229
   ],
   "VisibleForGroups": [
-    767,
-    455
+    180,
+    720
   ],
-  "PinForAll": 353,
+  "PinForAll": 136,
   "PinForAssociates": [
-    763,
-    978
+    571,
+    322
   ],
   "PinForGroups": [
-    241,
-    176
+    430,
+    580
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldLength": 543
     }
   }
 }

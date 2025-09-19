@@ -1,0 +1,795 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters
+  commentId: T:SuperOffice.WebApi.Data.SavedUtmParameters
+  id: SavedUtmParameters
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.SavedUtmParameters.#ctor
+  - SuperOffice.WebApi.Data.SavedUtmParameters.Campaign
+  - SuperOffice.WebApi.Data.SavedUtmParameters.Content
+  - SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchCampaign
+  - SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchContent
+  - SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchMedium
+  - SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchReferrerDomain
+  - SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchSource
+  - SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchTerm
+  - SuperOffice.WebApi.Data.SavedUtmParameters.FormName
+  - SuperOffice.WebApi.Data.SavedUtmParameters.Medium
+  - SuperOffice.WebApi.Data.SavedUtmParameters.ReferrerDomain
+  - SuperOffice.WebApi.Data.SavedUtmParameters.Source
+  - SuperOffice.WebApi.Data.SavedUtmParameters.Term
+  langs:
+  - csharp
+  - vb
+  name: SavedUtmParameters
+  nameWithType: SavedUtmParameters
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters
+  type: Class
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: >-
+    Carrier object for SavedUtmParameters.
+
+    Inital Utm parameters for a given person or contact.
+  example: []
+  syntax:
+    content: 'public class SavedUtmParameters : Carrier'
+    content.vb: Public Class SavedUtmParameters Inherits Carrier
+  seealso:
+  - linkId: SuperOffice.WebApi.Agents.PersonAgent
+    commentId: T:SuperOffice.WebApi.Agents.PersonAgent
+  inheritance:
+  - System.Object
+  - SuperOffice.WebApi.Data.Carrier
+  inheritedMembers:
+  - SuperOffice.WebApi.Data.Carrier.TableRight
+  - SuperOffice.WebApi.Data.Carrier.FieldProperties
+  - System.Object.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.#ctor
+  commentId: M:SuperOffice.WebApi.Data.SavedUtmParameters.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.SavedUtmParameters
+  langs:
+  - csharp
+  - vb
+  name: SavedUtmParameters()
+  nameWithType: SavedUtmParameters.SavedUtmParameters()
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.SavedUtmParameters()
+  type: Constructor
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: Default constructor - defaults any enum props to 0.
+  example: []
+  syntax:
+    content: public SavedUtmParameters()
+    content.vb: Public Sub New()
+  overload: SuperOffice.WebApi.Data.SavedUtmParameters.#ctor*
+  nameWithType.vb: SavedUtmParameters.New()
+  fullName.vb: SuperOffice.WebApi.Data.SavedUtmParameters.New()
+  name.vb: New()
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.FormName
+  commentId: P:SuperOffice.WebApi.Data.SavedUtmParameters.FormName
+  id: FormName
+  parent: SuperOffice.WebApi.Data.SavedUtmParameters
+  langs:
+  - csharp
+  - vb
+  name: FormName
+  nameWithType: SavedUtmParameters.FormName
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.FormName
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: The name of form for the first submission
+  example: []
+  syntax:
+    content: public virtual string FormName { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FormName As String
+  overload: SuperOffice.WebApi.Data.SavedUtmParameters.FormName*
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchSource
+  commentId: P:SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchSource
+  id: FirsttouchSource
+  parent: SuperOffice.WebApi.Data.SavedUtmParameters
+  langs:
+  - csharp
+  - vb
+  name: FirsttouchSource
+  nameWithType: SavedUtmParameters.FirsttouchSource
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchSource
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: First touch UTM source
+  example: []
+  syntax:
+    content: public virtual string FirsttouchSource { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FirsttouchSource As String
+  overload: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchSource*
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchMedium
+  commentId: P:SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchMedium
+  id: FirsttouchMedium
+  parent: SuperOffice.WebApi.Data.SavedUtmParameters
+  langs:
+  - csharp
+  - vb
+  name: FirsttouchMedium
+  nameWithType: SavedUtmParameters.FirsttouchMedium
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchMedium
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: First touch UTM medium
+  example: []
+  syntax:
+    content: public virtual string FirsttouchMedium { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FirsttouchMedium As String
+  overload: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchMedium*
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchCampaign
+  commentId: P:SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchCampaign
+  id: FirsttouchCampaign
+  parent: SuperOffice.WebApi.Data.SavedUtmParameters
+  langs:
+  - csharp
+  - vb
+  name: FirsttouchCampaign
+  nameWithType: SavedUtmParameters.FirsttouchCampaign
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchCampaign
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: First touch UTM campaign
+  example: []
+  syntax:
+    content: public virtual string FirsttouchCampaign { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FirsttouchCampaign As String
+  overload: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchCampaign*
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchTerm
+  commentId: P:SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchTerm
+  id: FirsttouchTerm
+  parent: SuperOffice.WebApi.Data.SavedUtmParameters
+  langs:
+  - csharp
+  - vb
+  name: FirsttouchTerm
+  nameWithType: SavedUtmParameters.FirsttouchTerm
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchTerm
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: First touch UTM term
+  example: []
+  syntax:
+    content: public virtual string FirsttouchTerm { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FirsttouchTerm As String
+  overload: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchTerm*
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchContent
+  commentId: P:SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchContent
+  id: FirsttouchContent
+  parent: SuperOffice.WebApi.Data.SavedUtmParameters
+  langs:
+  - csharp
+  - vb
+  name: FirsttouchContent
+  nameWithType: SavedUtmParameters.FirsttouchContent
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchContent
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: First touch UTM content
+  example: []
+  syntax:
+    content: public virtual string FirsttouchContent { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FirsttouchContent As String
+  overload: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchContent*
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchReferrerDomain
+  commentId: P:SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchReferrerDomain
+  id: FirsttouchReferrerDomain
+  parent: SuperOffice.WebApi.Data.SavedUtmParameters
+  langs:
+  - csharp
+  - vb
+  name: FirsttouchReferrerDomain
+  nameWithType: SavedUtmParameters.FirsttouchReferrerDomain
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchReferrerDomain
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: First touch UTM referrer domain
+  example: []
+  syntax:
+    content: public virtual string FirsttouchReferrerDomain { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property FirsttouchReferrerDomain As String
+  overload: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchReferrerDomain*
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.Source
+  commentId: P:SuperOffice.WebApi.Data.SavedUtmParameters.Source
+  id: Source
+  parent: SuperOffice.WebApi.Data.SavedUtmParameters
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: SavedUtmParameters.Source
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.Source
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: UTM source
+  example: []
+  syntax:
+    content: public virtual string Source { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Source As String
+  overload: SuperOffice.WebApi.Data.SavedUtmParameters.Source*
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.Medium
+  commentId: P:SuperOffice.WebApi.Data.SavedUtmParameters.Medium
+  id: Medium
+  parent: SuperOffice.WebApi.Data.SavedUtmParameters
+  langs:
+  - csharp
+  - vb
+  name: Medium
+  nameWithType: SavedUtmParameters.Medium
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.Medium
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: UTM medium
+  example: []
+  syntax:
+    content: public virtual string Medium { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Medium As String
+  overload: SuperOffice.WebApi.Data.SavedUtmParameters.Medium*
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.Campaign
+  commentId: P:SuperOffice.WebApi.Data.SavedUtmParameters.Campaign
+  id: Campaign
+  parent: SuperOffice.WebApi.Data.SavedUtmParameters
+  langs:
+  - csharp
+  - vb
+  name: Campaign
+  nameWithType: SavedUtmParameters.Campaign
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.Campaign
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: UTM campaign
+  example: []
+  syntax:
+    content: public virtual string Campaign { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Campaign As String
+  overload: SuperOffice.WebApi.Data.SavedUtmParameters.Campaign*
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.Term
+  commentId: P:SuperOffice.WebApi.Data.SavedUtmParameters.Term
+  id: Term
+  parent: SuperOffice.WebApi.Data.SavedUtmParameters
+  langs:
+  - csharp
+  - vb
+  name: Term
+  nameWithType: SavedUtmParameters.Term
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.Term
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: UTM term
+  example: []
+  syntax:
+    content: public virtual string Term { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Term As String
+  overload: SuperOffice.WebApi.Data.SavedUtmParameters.Term*
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.Content
+  commentId: P:SuperOffice.WebApi.Data.SavedUtmParameters.Content
+  id: Content
+  parent: SuperOffice.WebApi.Data.SavedUtmParameters
+  langs:
+  - csharp
+  - vb
+  name: Content
+  nameWithType: SavedUtmParameters.Content
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.Content
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: UTM content
+  example: []
+  syntax:
+    content: public virtual string Content { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property Content As String
+  overload: SuperOffice.WebApi.Data.SavedUtmParameters.Content*
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.ReferrerDomain
+  commentId: P:SuperOffice.WebApi.Data.SavedUtmParameters.ReferrerDomain
+  id: ReferrerDomain
+  parent: SuperOffice.WebApi.Data.SavedUtmParameters
+  langs:
+  - csharp
+  - vb
+  name: ReferrerDomain
+  nameWithType: SavedUtmParameters.ReferrerDomain
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.ReferrerDomain
+  type: Property
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: UTM referrer domain
+  example: []
+  syntax:
+    content: public virtual string ReferrerDomain { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property ReferrerDomain As String
+  overload: SuperOffice.WebApi.Data.SavedUtmParameters.ReferrerDomain*
+references:
+- uid: SuperOffice.WebApi.Agents.PersonAgent
+  commentId: T:SuperOffice.WebApi.Agents.PersonAgent
+  isExternal: true
+  href: SuperOffice.WebApi.Agents.PersonAgent.html
+  name: PersonAgent
+  nameWithType: PersonAgent
+  fullName: SuperOffice.WebApi.Agents.PersonAgent
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.WebApi
+    name: WebApi
+    isExternal: true
+    href: SuperOffice.WebApi.html
+  - name: .
+  - uid: SuperOffice.WebApi.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.WebApi.Data.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: SuperOffice.WebApi.Data.Carrier
+  commentId: T:SuperOffice.WebApi.Data.Carrier
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html
+  name: Carrier
+  nameWithType: Carrier
+  fullName: SuperOffice.WebApi.Data.Carrier
+- uid: SuperOffice.WebApi.Data.Carrier.TableRight
+  commentId: P:SuperOffice.WebApi.Data.Carrier.TableRight
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_TableRight
+  name: TableRight
+  nameWithType: Carrier.TableRight
+  fullName: SuperOffice.WebApi.Data.Carrier.TableRight
+- uid: SuperOffice.WebApi.Data.Carrier.FieldProperties
+  commentId: P:SuperOffice.WebApi.Data.Carrier.FieldProperties
+  parent: SuperOffice.WebApi.Data.Carrier
+  isExternal: true
+  href: SuperOffice.WebApi.Data.Carrier.html#SuperOffice_WebApi_Data_Carrier_FieldProperties
+  name: FieldProperties
+  nameWithType: Carrier.FieldProperties
+  fullName: SuperOffice.WebApi.Data.Carrier.FieldProperties
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.SavedUtmParameters.#ctor
+  isExternal: true
+  href: SuperOffice.WebApi.Data.SavedUtmParameters.html#SuperOffice_WebApi_Data_SavedUtmParameters__ctor
+  name: SavedUtmParameters
+  nameWithType: SavedUtmParameters.SavedUtmParameters
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.SavedUtmParameters
+  nameWithType.vb: SavedUtmParameters.New
+  fullName.vb: SuperOffice.WebApi.Data.SavedUtmParameters.New
+  name.vb: New
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.FormName*
+  commentId: Overload:SuperOffice.WebApi.Data.SavedUtmParameters.FormName
+  isExternal: true
+  href: SuperOffice.WebApi.Data.SavedUtmParameters.html#SuperOffice_WebApi_Data_SavedUtmParameters_FormName
+  name: FormName
+  nameWithType: SavedUtmParameters.FormName
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.FormName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchSource*
+  commentId: Overload:SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchSource
+  isExternal: true
+  href: SuperOffice.WebApi.Data.SavedUtmParameters.html#SuperOffice_WebApi_Data_SavedUtmParameters_FirsttouchSource
+  name: FirsttouchSource
+  nameWithType: SavedUtmParameters.FirsttouchSource
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchSource
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchMedium*
+  commentId: Overload:SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchMedium
+  isExternal: true
+  href: SuperOffice.WebApi.Data.SavedUtmParameters.html#SuperOffice_WebApi_Data_SavedUtmParameters_FirsttouchMedium
+  name: FirsttouchMedium
+  nameWithType: SavedUtmParameters.FirsttouchMedium
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchMedium
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchCampaign*
+  commentId: Overload:SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchCampaign
+  isExternal: true
+  href: SuperOffice.WebApi.Data.SavedUtmParameters.html#SuperOffice_WebApi_Data_SavedUtmParameters_FirsttouchCampaign
+  name: FirsttouchCampaign
+  nameWithType: SavedUtmParameters.FirsttouchCampaign
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchCampaign
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchTerm*
+  commentId: Overload:SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchTerm
+  isExternal: true
+  href: SuperOffice.WebApi.Data.SavedUtmParameters.html#SuperOffice_WebApi_Data_SavedUtmParameters_FirsttouchTerm
+  name: FirsttouchTerm
+  nameWithType: SavedUtmParameters.FirsttouchTerm
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchTerm
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchContent*
+  commentId: Overload:SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchContent
+  isExternal: true
+  href: SuperOffice.WebApi.Data.SavedUtmParameters.html#SuperOffice_WebApi_Data_SavedUtmParameters_FirsttouchContent
+  name: FirsttouchContent
+  nameWithType: SavedUtmParameters.FirsttouchContent
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchContent
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchReferrerDomain*
+  commentId: Overload:SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchReferrerDomain
+  isExternal: true
+  href: SuperOffice.WebApi.Data.SavedUtmParameters.html#SuperOffice_WebApi_Data_SavedUtmParameters_FirsttouchReferrerDomain
+  name: FirsttouchReferrerDomain
+  nameWithType: SavedUtmParameters.FirsttouchReferrerDomain
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.FirsttouchReferrerDomain
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.Source*
+  commentId: Overload:SuperOffice.WebApi.Data.SavedUtmParameters.Source
+  isExternal: true
+  href: SuperOffice.WebApi.Data.SavedUtmParameters.html#SuperOffice_WebApi_Data_SavedUtmParameters_Source
+  name: Source
+  nameWithType: SavedUtmParameters.Source
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.Source
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.Medium*
+  commentId: Overload:SuperOffice.WebApi.Data.SavedUtmParameters.Medium
+  isExternal: true
+  href: SuperOffice.WebApi.Data.SavedUtmParameters.html#SuperOffice_WebApi_Data_SavedUtmParameters_Medium
+  name: Medium
+  nameWithType: SavedUtmParameters.Medium
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.Medium
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.Campaign*
+  commentId: Overload:SuperOffice.WebApi.Data.SavedUtmParameters.Campaign
+  isExternal: true
+  href: SuperOffice.WebApi.Data.SavedUtmParameters.html#SuperOffice_WebApi_Data_SavedUtmParameters_Campaign
+  name: Campaign
+  nameWithType: SavedUtmParameters.Campaign
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.Campaign
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.Term*
+  commentId: Overload:SuperOffice.WebApi.Data.SavedUtmParameters.Term
+  isExternal: true
+  href: SuperOffice.WebApi.Data.SavedUtmParameters.html#SuperOffice_WebApi_Data_SavedUtmParameters_Term
+  name: Term
+  nameWithType: SavedUtmParameters.Term
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.Term
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.Content*
+  commentId: Overload:SuperOffice.WebApi.Data.SavedUtmParameters.Content
+  isExternal: true
+  href: SuperOffice.WebApi.Data.SavedUtmParameters.html#SuperOffice_WebApi_Data_SavedUtmParameters_Content
+  name: Content
+  nameWithType: SavedUtmParameters.Content
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.Content
+- uid: SuperOffice.WebApi.Data.SavedUtmParameters.ReferrerDomain*
+  commentId: Overload:SuperOffice.WebApi.Data.SavedUtmParameters.ReferrerDomain
+  isExternal: true
+  href: SuperOffice.WebApi.Data.SavedUtmParameters.html#SuperOffice_WebApi_Data_SavedUtmParameters_ReferrerDomain
+  name: ReferrerDomain
+  nameWithType: SavedUtmParameters.ReferrerDomain
+  fullName: SuperOffice.WebApi.Data.SavedUtmParameters.ReferrerDomain

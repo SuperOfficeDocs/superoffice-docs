@@ -72,19 +72,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 2,
-  "Name": "Bernhard-Raynor",
-  "Rank": 434,
-  "Tooltip": "quas",
+  "ResourceId": 109,
+  "Name": "Hamill LLC",
+  "Rank": 196,
+  "Tooltip": "quia",
   "Deleted": false,
-  "IsLocation": true,
-  "LocationAddress": "et",
+  "IsLocation": false,
+  "LocationAddress": "deleniti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 965
+      "FieldLength": 266
     }
   }
 }

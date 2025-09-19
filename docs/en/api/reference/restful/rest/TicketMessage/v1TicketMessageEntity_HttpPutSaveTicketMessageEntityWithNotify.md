@@ -30,7 +30,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-PUT /api/v1/TicketMessage/{id}?notify=True
+PUT /api/v1/TicketMessage/{id}?notify=False
 ```
 
 
@@ -129,67 +129,67 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 423,
+  "EjMessageId": 544,
   "Ticket": null,
-  "CreatedAt": "1999-09-13T03:47:00.3786828+02:00",
+  "CreatedAt": "2024-09-30T03:41:59.1523724+02:00",
   "CreatedBy": null,
-  "Author": "dolores",
+  "Author": "velit",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "officia",
-  "TimeSpent": 604,
-  "Body": "perferendis",
-  "HtmlBody": "molestiae",
-  "EmailHeader": "hyman.mann@dare.info",
-  "DebugInfo": "exercitationem",
-  "MailSorter": "sed",
+  "MessageId": "quas",
+  "TimeSpent": 505,
+  "Body": "tempore",
+  "HtmlBody": "sequi",
+  "EmailHeader": "maia@kshlerin.uk",
+  "DebugInfo": "vero",
+  "MailSorter": "quia",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptatem",
+  "SearchTitle": "iure",
   "MessageHeaders": [
     {
-      "Id": 787,
-      "Name": "Stoltenberg-Conroy",
-      "Value": "nemo",
+      "Id": 402,
+      "Name": "Wisozk Inc and Sons",
+      "Value": "atque",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 787,
-      "Name": "Stoltenberg-Conroy",
-      "Value": "nemo",
+      "Id": 402,
+      "Name": "Wisozk Inc and Sons",
+      "Value": "atque",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "consequuntur",
-  "Sentiment": 235,
-  "SentimentConfidence": 584,
+  "Important": true,
+  "Language": "ipsa",
+  "Sentiment": 150,
+  "SentimentConfidence": 624,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 524,
-      "Name": "Upton-Champlin",
-      "ContentType": "aut",
-      "AttSize": 190,
+      "AttachmentId": 266,
+      "Name": "Hackett Inc and Sons",
+      "ContentType": "molestias",
+      "AttSize": 656,
       "InlineImage": false,
-      "ContentId": "qui",
-      "AuthKey": "odio",
-      "IsSafeFileExtension": true
+      "ContentId": "et",
+      "AuthKey": "et",
+      "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "id",
-    "ExtraFields2": "modi"
+    "ExtraFields1": "libero",
+    "ExtraFields2": "vel"
   },
   "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "quasi"
+    "CustomFields1": "dolorum",
+    "CustomFields2": "voluptatem"
   }
 }
 ```
@@ -201,28 +201,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 764,
+  "EjMessageId": 352,
   "Ticket": null,
-  "CreatedAt": "2023-01-06T03:47:00.3786828+01:00",
+  "CreatedAt": "2015-12-07T03:41:59.1523724+01:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "iusto",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "recusandae",
-  "TimeSpent": 336,
-  "Body": "culpa",
-  "HtmlBody": "voluptates",
-  "EmailHeader": "meghan@gibson.uk",
-  "DebugInfo": "ab",
-  "MailSorter": "modi",
+  "MessageId": "accusamus",
+  "TimeSpent": 492,
+  "Body": "ut",
+  "HtmlBody": "provident",
+  "EmailHeader": "stephany@wittingdoyle.ca",
+  "DebugInfo": "quaerat",
+  "MailSorter": "tempora",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "rem",
+  "SearchTitle": "iusto",
   "MessageHeaders": [
     {
-      "Id": 502,
-      "Name": "Schowalter LLC",
-      "Value": "optio",
+      "Id": 625,
+      "Name": "West, Gislason and Dickinson",
+      "Value": "perspiciatis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -230,50 +230,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 582
+          "FieldLength": 165
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "esse",
-  "Sentiment": 685,
-  "SentimentConfidence": 452,
+  "Important": true,
+  "Language": "sint",
+  "Sentiment": 990,
+  "SentimentConfidence": 413,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 958,
-      "Name": "Weissnat-Gislason",
+      "AttachmentId": 462,
+      "Name": "Hodkiewicz, Feil and Jacobson",
       "ContentType": "quo",
-      "AttSize": 845,
-      "InlineImage": false,
-      "ContentId": "hic",
-      "AuthKey": "amet",
-      "IsSafeFileExtension": false,
+      "AttSize": 107,
+      "InlineImage": true,
+      "ContentId": "enim",
+      "AuthKey": "saepe",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 686
+          "FieldLength": 557
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sed",
-    "ExtraFields2": "necessitatibus"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "sequi"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "molestiae"
+    "CustomFields1": "veritatis",
+    "CustomFields2": "minima"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldLength": 792
     }
   }
 }

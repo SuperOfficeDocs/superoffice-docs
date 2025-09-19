@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 254
+  "Count": 77
 }
 ```
 
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Stoltenberg Inc and Sons",
-    "SaleDate": "2024-12-13T03:46:55.2694888+01:00",
-    "SaleId": 681,
-    "Probability": 376,
-    "Title": "nam",
-    "Amount": 20674.998,
-    "Currency": "quos",
-    "ProjectName": "Little-Fahey",
-    "AssociateFullName": "Eduardo Wyman",
-    "Description": "Up-sized human-resource projection",
+    "ContactName": "Schumm, Rohan and Rolfson",
+    "SaleDate": "2009-08-25T03:41:54.0119629+02:00",
+    "SaleId": 778,
+    "Probability": 770,
+    "Title": "non",
+    "Amount": 29716.588,
+    "Currency": "hic",
+    "ProjectName": "Sipes, Batz and Ondricka",
+    "AssociateFullName": "Ora Harris",
+    "Description": "Stand-alone dedicated productivity",
     "Status": "Lost",
-    "WeightedAmount": 22931.478,
-    "ProjectId": 586,
-    "EarningPercent": 2729.714,
-    "Earning": 16635.272,
-    "ContactId": 188,
-    "AssociateId": 94,
-    "PersonId": 862,
-    "SaleTypeId": 565,
-    "SaleTypeName": "Zemlak, Quitzon and Pagac",
-    "PersonFullName": "Marcelina Smitham",
+    "WeightedAmount": 29798.072,
+    "ProjectId": 885,
+    "EarningPercent": 12357.362,
+    "Earning": 25366.595999999998,
+    "ContactId": 875,
+    "AssociateId": 969,
+    "PersonId": 35,
+    "SaleTypeId": 190,
+    "SaleTypeName": "Casper-Orn",
+    "PersonFullName": "Reva Labadie",
     "Completed": "Completed",
-    "ActiveErpLinks": 614,
-    "NextDueDate": "2002-08-28T03:46:55.2694888+02:00",
-    "Number": "1094436",
+    "ActiveErpLinks": 408,
+    "NextDueDate": "2002-04-12T03:41:54.0119629+02:00",
+    "Number": "662954",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 354
+        "FieldLength": 17
       }
     }
   }

@@ -100,40 +100,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 7,
-    "Name": "Corwin Group",
-    "Rank": 732,
-    "Tooltip": "quo",
-    "Icon": "accusamus",
-    "DefaultTicketStatus": 222,
+    "TicketTypeId": 613,
+    "Name": "Metz LLC",
+    "Rank": 960,
+    "Tooltip": "nisi",
+    "Icon": "neque",
+    "DefaultTicketStatus": 978,
     "TicketStatuses": [
-      753,
-      554
+      478,
+      317
     ],
-    "DefaultTicketPriority": 615,
+    "DefaultTicketPriority": 475,
     "TicketPriorities": [
-      857,
-      507
+      151,
+      482
     ],
-    "ReplyTemplate": 70,
+    "ReplyTemplate": 195,
     "IsExternalVisible": true,
-    "IsDefault": true,
-    "ShowInNew": false,
+    "IsDefault": false,
+    "ShowInNew": true,
     "ExcludeSignature": false,
-    "ExcludeEmailRecipients": false,
+    "ExcludeEmailRecipients": true,
     "ExternalAsDefault": false,
     "VisibleForGroups": [
-      712,
-      766
+      945,
+      739
     ],
     "ReplyForwardNoSignature": false,
-    "ReplyExternalAsDefault": true,
+    "ReplyExternalAsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 987
+        "FieldType": "System.String",
+        "FieldLength": 638
       }
     }
   }

@@ -83,12 +83,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 149,
-  "Name": "Howell LLC",
-  "Tooltip": "molestiae",
+  "Id": 789,
+  "Name": "Howell Group",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 911,
-  "Rank": 670
+  "UdListDefinitionId": 8,
+  "Rank": 739
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 688,
-  "Name": "Feeney LLC",
-  "Tooltip": "quisquam",
-  "Deleted": false,
-  "UdListDefinitionId": 340,
-  "Rank": 583,
+  "Id": 696,
+  "Name": "Durgan-Blanda",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "UdListDefinitionId": 187,
+  "Rank": 64,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 977
+      "FieldType": "System.String",
+      "FieldLength": 647
     }
   }
 }

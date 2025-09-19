@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Diagnostics/GetEntityCountsForAllUsers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,26 +78,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Schaefer Group",
-    "Records": 183,
+    "EntityName": "Shanahan, Jakubowski and Upton",
+    "Records": 759,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 709
+        "FieldLength": 38
       }
     }
   },
   {
-    "EntityName": "Schaefer Group",
-    "Records": 183,
+    "EntityName": "Shanahan, Jakubowski and Upton",
+    "Records": 759,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 709
+        "FieldLength": 38
       }
     }
   }

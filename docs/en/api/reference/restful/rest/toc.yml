@@ -2449,6 +2449,8 @@ items:
     href: Role/v1RoleEntity_GetAll.md
   - name: GET Role/{id}
     href: Role/v1RoleEntity_GetRoleEntity.md
+  - name: GET Role/{id}/DataRight/{relationToOwner}
+    href: Role/v1RoleEntity_GetAllDataRights.md
   - name: GET Role/{id}/DataRight/{tableName}
     href: Role/v1RoleEntity_GetDataRights.md
   - name: GET Role/{id}/DataRight/{tableName}/{relationToOwner}

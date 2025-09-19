@@ -69,13 +69,13 @@ No Content
 POST /api/v1/Agents/User/RemoveUntrustedCredentialsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 855,
-  "Type": "alias",
-  "PublicValue": "doloribus"
+  "AssociateId": 566,
+  "Type": "ut",
+  "PublicValue": "et"
 }
 ```
 

@@ -77,22 +77,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 633,
-  "Name": "Schroeder-Reinger",
-  "Tooltip": "dolorem",
+  "Id": 669,
+  "Name": "Walter LLC",
+  "Tooltip": "amet",
   "Deleted": false,
-  "Rank": 753,
-  "IsCustomList": false,
+  "Rank": 1001,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "ListType": "non",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 435
+      "FieldLength": 774
     }
   }
 }

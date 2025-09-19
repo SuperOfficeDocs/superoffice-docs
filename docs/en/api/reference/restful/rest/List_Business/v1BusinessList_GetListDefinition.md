@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 792,
-  "Name": "Mueller Group",
-  "Tooltip": "omnis",
+  "Id": 650,
+  "Name": "Lind-Kreiger",
+  "Tooltip": "molestiae",
   "Deleted": true,
-  "Rank": 43,
-  "IsCustomList": true,
+  "Rank": 173,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
-  "InUseByUserDefinedFields": true,
+  "ListType": "asperiores",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldType": "System.String",
+      "FieldLength": 795
     }
   },
   "_Links": {

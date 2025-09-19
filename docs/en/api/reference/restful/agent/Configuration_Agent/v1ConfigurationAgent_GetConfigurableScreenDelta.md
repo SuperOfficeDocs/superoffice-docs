@@ -27,7 +27,7 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=113
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=973
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -90,28 +90,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 584,
-  "Name": "Parker, Medhurst and Metz",
-  "Description": "Balanced web-enabled secured line",
-  "DeltaJson": "vel",
+  "ConfigurableScreenDeltaId": 270,
+  "Name": "Cummerata, Aufderhar and Prosacco",
+  "Description": "Team-oriented dedicated model",
+  "DeltaJson": "et",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "nobis",
-  "UpdatedDate": "2024-03-09T03:46:54.4570178+01:00",
-  "CreatedDate": "2024-05-18T03:46:54.4570178+02:00",
+  "RecipeId": "deserunt",
+  "UpdatedDate": "2016-01-09T03:41:53.2309893+01:00",
+  "CreatedDate": "2012-08-19T03:41:53.2309893+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    795,
-    826
+    985,
+    652
   ],
-  "AppliesToKey": "qui",
+  "AppliesToKey": "officia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 312
+      "FieldType": "System.Int32",
+      "FieldLength": 75
     }
   }
 }

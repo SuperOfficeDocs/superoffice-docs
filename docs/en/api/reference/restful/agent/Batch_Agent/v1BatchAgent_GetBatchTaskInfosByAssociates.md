@@ -95,13 +95,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    920,
-    24
+    425,
+    951
   ]
 }
 ```
@@ -114,37 +114,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 609,
-    "Name": "Runolfsdottir Group",
-    "AssociateId": 79,
-    "DetailsTable": 772,
-    "DetailsRecord": 842,
-    "IsSystemTask": true,
-    "IsInternalTask": false,
+    "Id": 252,
+    "Name": "Frami-Schroeder",
+    "AssociateId": 537,
+    "DetailsTable": 440,
+    "DetailsRecord": 387,
+    "IsSystemTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "cum",
-      "ParameterObject2": "libero"
+      "ParameterObject1": "harum",
+      "ParameterObject2": "inventore"
     },
-    "LastStarted": "2005-04-03T03:46:54.3007673+02:00",
-    "Created": "2022-04-07T03:46:54.3007673+02:00",
-    "StartCount": 956,
-    "DatabaseSerialNumber": "811505",
-    "Context": "illo",
-    "Result": "eum",
+    "LastStarted": "2008-11-22T03:41:53.0745025+01:00",
+    "Created": "2011-03-05T03:41:53.0745025+01:00",
+    "StartCount": 1001,
+    "DatabaseSerialNumber": "1334684",
+    "Context": "odit",
+    "Result": "quod",
     "State": "All",
-    "Description": "Self-enabling tangible project",
-    "Response": "nostrum",
-    "Request": "esse",
-    "ProgressDescription": "Up-sized maximized protocol",
-    "ProgressPercent": 958,
-    "FileName": "Windler-Nienow",
+    "Description": "Face to face contextually-based throughput",
+    "Response": "ea",
+    "Request": "sit",
+    "ProgressDescription": "Mandatory multi-tasking focus group",
+    "ProgressPercent": 471,
+    "FileName": "Johnston-Terry",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 562
+        "FieldType": "System.String",
+        "FieldLength": 936
       }
     }
   }

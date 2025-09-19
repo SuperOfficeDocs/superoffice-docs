@@ -91,7 +91,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 10
+  "ErpConnectionId": 1001
 }
 ```
 
@@ -102,33 +102,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 218,
-  "ErpConnectorId": 45,
-  "DisplayName": "Gulgowski, Runolfsson and Kertzmann",
-  "DisplayDescription": "User-centric high-level process improvement",
+  "ErpConnectionId": 777,
+  "ErpConnectorId": 720,
+  "DisplayName": "Lind LLC",
+  "DisplayDescription": "Operative bi-directional hub",
   "Active": false,
-  "ConnectionId": "cumque",
-  "MostRecentTimestamp": "at",
+  "ConnectionId": "autem",
+  "MostRecentTimestamp": "rerum",
   "ConfigFields": {
-    "ConfigFields1": "numquam",
-    "ConfigFields2": "in"
+    "ConfigFields1": "commodi",
+    "ConfigFields2": "dolor"
   },
-  "Deleted": false,
+  "Deleted": true,
   "AllAccess": true,
   "UserGroupAccessIds": [
-    487,
-    441
+    742,
+    495
   ],
   "AssociateAccessIds": [
-    394,
-    386
+    975,
+    267
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 589
+      "FieldType": "System.Int32",
+      "FieldLength": 117
     }
   }
 }

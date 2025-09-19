@@ -47,8 +47,8 @@ Stakeholders in the sale, very similar to project members
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[contact](contact.md)  |Companies and Organizations. |
+|[person](person.md)  |Persons |
 |[sale](sale.md)  |Sales  For every Sale record edited through the SuperOffice GUI, a copy of the current version of the record will be saved in the SaleHist table. This also applies to editing done through the SaleModel COM interface, but not to editing done through the OLE DB Provider or other channels.   |
 |[StakeholderRole](stakeholderrole.md)  |Role a stakeholder has in a sale |
 

@@ -87,34 +87,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 261,
-  "Name": "Abshire Group",
-  "Tooltip": "quam",
-  "Deleted": false,
-  "Rank": 568,
+  "WebPanelId": 847,
+  "Name": "Zemlak, Crona and Kulas",
+  "Tooltip": "sapiente",
+  "Deleted": true,
+  "Rank": 149,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
+  "OnCentral": false,
+  "OnSatellite": true,
   "OnTravel": true,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Shanahan-Sanford",
+  "WindowName": "Wiegand, Jacobson and Brekke",
   "Url": "http://www.example.com/",
-  "ProgId": "atque",
-  "Icon": 186,
+  "ProgId": "eveniet",
+  "Icon": 446,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 863
+      "FieldLength": 873
     }
   }
 }

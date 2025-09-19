@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/DeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 830,
-  "Name": "Pfeffer-Frami",
-  "Tooltip": "expedita",
-  "Deleted": false,
-  "Rank": 221,
-  "IsCustomList": true,
+  "Id": 284,
+  "Name": "Simonis, Von and Goldner",
+  "Tooltip": "maiores",
+  "Deleted": true,
+  "Rank": 636,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "et",
+  "UseGroupsAndHeadings": true,
+  "ListType": "ipsam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 417
+      "FieldLength": 74
     }
   },
   "_Links": {

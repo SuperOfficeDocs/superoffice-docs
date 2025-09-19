@@ -75,12 +75,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale/{id}/Links?$select=name,department,category/id
 GET /api/v1/Sale/{id}/Links?$filter=name begins 'S'
 GET /api/v1/Sale/{id}/Links?$orderBy=name asc
-GET /api/v1/Sale/{id}/Links?$entities=aut
-GET /api/v1/Sale/{id}/Links?$top=274
-GET /api/v1/Sale/{id}/Links?$skip=231
+GET /api/v1/Sale/{id}/Links?$entities=eligendi
+GET /api/v1/Sale/{id}/Links?$top=539
+GET /api/v1/Sale/{id}/Links?$skip=382
 GET /api/v1/Sale/{id}/Links?$mode=Full
 GET /api/v1/Sale/{id}/Links?$options=GrandTotal=true
-GET /api/v1/Sale/{id}/Links?$context=dignissimos
+GET /api/v1/Sale/{id}/Links?$context=unde
 GET /api/v1/Sale/{id}/Links?$format=JSON
 GET /api/v1/Sale/{id}/Links?$jsonSafe=False
 GET /api/v1/Sale/{id}/Links?$output=Display
@@ -135,21 +135,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "voluptates",
+  "odata.nextLink": "sit",
   "value": [
     {
-      "PrimaryKey": 80,
+      "PrimaryKey": 3902,
       "EntityName": "sale",
-      "saleId": 80,
-      "contactId": 209,
-      "name": "Macejkovic Inc and Sons"
+      "saleId": 3902,
+      "contactId": 6936,
+      "name": "Gutkowski-Schumm"
     },
     {
-      "PrimaryKey": 5184,
+      "PrimaryKey": 5693,
       "EntityName": "sale",
-      "saleId": 5184,
-      "contactId": 9400,
-      "name": "Walsh-Grant"
+      "saleId": 5693,
+      "contactId": 3460,
+      "name": "Hartmann LLC"
     }
   ]
 }

@@ -247,7 +247,7 @@ in through the externalPersonRestrictionId are actually associates, then that to
 ## Sample
 
 ```http!
-GET /api/v1/archive/Participants?$select=personSource,isLocation,personRegisteredBy
+GET /api/v1/archive/Participants?$select=dateInformation,appointmentRestrictionId,personEmailsInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

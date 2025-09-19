@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 124,
-    "Name": "Corkery, Hoppe and Walker",
-    "Tooltip": "ut",
+    "HeadingId": 668,
+    "Name": "Hermann LLC",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "Rank": 633,
-    "UdListDefinitionId": 385
+    "Rank": 408,
+    "UdListDefinitionId": 676
   },
   {
-    "HeadingId": 124,
-    "Name": "Corkery, Hoppe and Walker",
-    "Tooltip": "ut",
+    "HeadingId": 668,
+    "Name": "Hermann LLC",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "Rank": 633,
-    "UdListDefinitionId": 385
+    "Rank": 408,
+    "UdListDefinitionId": 676
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 763,
-    "Name": "Stamm-Moen",
-    "Tooltip": "architecto",
-    "Deleted": false,
-    "Rank": 821,
-    "UdListDefinitionId": 918,
+    "HeadingId": 878,
+    "Name": "Schowalter-Wintheiser",
+    "Tooltip": "minus",
+    "Deleted": true,
+    "Rank": 315,
+    "UdListDefinitionId": 191,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 52
+        "FieldType": "System.String",
+        "FieldLength": 696
       }
     }
   }

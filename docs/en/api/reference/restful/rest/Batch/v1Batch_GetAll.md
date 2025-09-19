@@ -71,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/BatchTask?$select=name,department,category/id
 GET /api/v1/BatchTask?$filter=name begins 'S'
 GET /api/v1/BatchTask?$orderBy=name asc
-GET /api/v1/BatchTask?$entities=tempore
-GET /api/v1/BatchTask?$top=180
-GET /api/v1/BatchTask?$skip=719
+GET /api/v1/BatchTask?$entities=magni
+GET /api/v1/BatchTask?$top=601
+GET /api/v1/BatchTask?$skip=188
 GET /api/v1/BatchTask?$mode=Full
 GET /api/v1/BatchTask?$options=GrandTotal=true
-GET /api/v1/BatchTask?$context=quia
+GET /api/v1/BatchTask?$context=et
 GET /api/v1/BatchTask?$format=JSON
 GET /api/v1/BatchTask?$jsonSafe=False
 GET /api/v1/BatchTask?$output=Display
@@ -119,7 +119,7 @@ OK
 GET /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -130,21 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quia",
+  "odata.nextLink": "ab",
   "value": [
     {
-      "PrimaryKey": 3228,
+      "PrimaryKey": 2667,
       "EntityName": "sale",
-      "saleId": 3228,
-      "contactId": 7459,
-      "name": "Hudson, Willms and Kerluke"
+      "saleId": 2667,
+      "contactId": 8293,
+      "name": "Cremin LLC"
     },
     {
-      "PrimaryKey": 3244,
+      "PrimaryKey": 6618,
       "EntityName": "sale",
-      "saleId": 3244,
-      "contactId": 4665,
-      "name": "Heaney, Romaguera and Kulas"
+      "saleId": 6618,
+      "contactId": 8388,
+      "name": "O'Kon LLC"
     }
   ]
 }

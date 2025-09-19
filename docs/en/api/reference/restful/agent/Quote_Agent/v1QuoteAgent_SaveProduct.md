@@ -130,55 +130,55 @@ OK
 POST /api/v1/Agents/Quote/SaveProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 91,
-  "ERPProductKey": "ipsa",
-  "ERPPriceListKey": "harum",
-  "Name": "Schamberger-Hammes",
-  "Description": "Monitored bi-directional project",
-  "Code": "quisquam",
-  "PriceUnit": "laborum",
-  "QuantityUnit": "cupiditate",
+  "ProductId": 446,
+  "ERPProductKey": "quisquam",
+  "ERPPriceListKey": "aut",
+  "Name": "Hauck Inc and Sons",
+  "Description": "Decentralized system-worthy local area network",
+  "Code": "possimus",
+  "PriceUnit": "deserunt",
+  "QuantityUnit": "incidunt",
   "IsSubscription": false,
-  "SubscriptionUnit": "perspiciatis",
-  "DefaultSubscriptionQuantity": 18782.061999999998,
-  "ItemNumber": "1668894",
+  "SubscriptionUnit": "atque",
+  "DefaultSubscriptionQuantity": 15124.684,
+  "ItemNumber": "503461",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "autem",
-  "ProductTypeKey": "sed",
-  "VAT": 20088.94,
-  "VATInfo": "sit",
-  "UnitCost": 5587.922,
-  "UnitMinimumPrice": 25808.489999999998,
-  "UnitListPrice": 2240.81,
+  "ProductFamilyKey": "et",
+  "ProductTypeKey": "magni",
+  "VAT": 12137.982,
+  "VATInfo": "rerum",
+  "UnitCost": 11213.452,
+  "UnitMinimumPrice": 17644.42,
+  "UnitListPrice": 203.70999999999998,
   "InAssortment": false,
-  "Supplier": "veniam",
-  "SupplierCode": "expedita",
-  "Rights": "assumenda",
-  "Rule": "unde",
+  "Supplier": "blanditiis",
+  "SupplierCode": "voluptas",
+  "Rights": "tempora",
+  "Rule": "pariatur",
   "ExtraInfo": [
     {
-      "Name": "Johnston Group",
-      "Value": "aut",
+      "Name": "Gulgowski Inc and Sons",
+      "Value": "qui",
       "Type": "Image"
     },
     {
-      "Name": "Johnston Group",
-      "Value": "aut",
+      "Name": "Gulgowski Inc and Sons",
+      "Value": "qui",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "velit",
-  "ExtraField1": "optio",
-  "ExtraField2": "voluptatem",
+  "RawExtraInfo": "et",
+  "ExtraField1": "quidem",
+  "ExtraField2": "nihil",
   "ExtraField3": "sit",
-  "ExtraField4": "ut",
-  "ExtraField5": "voluptatem",
-  "InStock": 30211.76
+  "ExtraField4": "iste",
+  "ExtraField5": "tempora",
+  "InStock": 22567.933999999997
 }
 ```
 
@@ -189,73 +189,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 585,
-  "ERPProductKey": "velit",
-  "ERPPriceListKey": "eveniet",
-  "Name": "Kilback-Walter",
-  "Description": "Optional executive middleware",
-  "Code": "reprehenderit",
-  "PriceUnit": "quisquam",
-  "QuantityUnit": "repudiandae",
+  "ProductId": 90,
+  "ERPProductKey": "ipsa",
+  "ERPPriceListKey": "provident",
+  "Name": "Klocko Group",
+  "Description": "Operative zero tolerance capability",
+  "Code": "repellendus",
+  "PriceUnit": "quo",
+  "QuantityUnit": "recusandae",
   "IsSubscription": false,
-  "SubscriptionUnit": "est",
-  "DefaultSubscriptionQuantity": 15522.702,
-  "ItemNumber": "1182134",
+  "SubscriptionUnit": "in",
+  "DefaultSubscriptionQuantity": 5218.11,
+  "ItemNumber": "75113",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "et",
-  "ProductTypeKey": "ut",
-  "VAT": 11392.09,
-  "VATInfo": "et",
-  "UnitCost": 4957.988,
-  "UnitMinimumPrice": 19929.106,
-  "UnitListPrice": 22621.212,
+  "ProductFamilyKey": "ut",
+  "ProductTypeKey": "repudiandae",
+  "VAT": 4290.446,
+  "VATInfo": "error",
+  "UnitCost": 18741.32,
+  "UnitMinimumPrice": 18847.876,
+  "UnitListPrice": 26523.041999999998,
   "InAssortment": false,
-  "Supplier": "cum",
-  "SupplierCode": "nesciunt",
-  "Rights": "omnis",
-  "Rule": "atque",
+  "Supplier": "cupiditate",
+  "SupplierCode": "eum",
+  "Rights": "corporis",
+  "Rule": "ut",
   "ExtraInfo": [
     {
-      "Name": "Boehm-Ritchie",
-      "Value": "nesciunt",
+      "Name": "Hegmann-Ledner",
+      "Value": "nobis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 897
+          "FieldType": "System.Int32",
+          "FieldLength": 485
         }
       }
     },
     {
-      "Name": "Boehm-Ritchie",
-      "Value": "nesciunt",
+      "Name": "Hegmann-Ledner",
+      "Value": "nobis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 897
+          "FieldType": "System.Int32",
+          "FieldLength": 485
         }
       }
     }
   ],
-  "RawExtraInfo": "sed",
-  "ExtraField1": "sint",
-  "ExtraField2": "at",
-  "ExtraField3": "nihil",
-  "ExtraField4": "dolorem",
-  "ExtraField5": "illum",
-  "InStock": 4161.952,
+  "RawExtraInfo": "molestiae",
+  "ExtraField1": "at",
+  "ExtraField2": "nobis",
+  "ExtraField3": "ab",
+  "ExtraField4": "quia",
+  "ExtraField5": "sit",
+  "InStock": 20386.67,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 180
+      "FieldType": "System.String",
+      "FieldLength": 114
     }
   }
 }

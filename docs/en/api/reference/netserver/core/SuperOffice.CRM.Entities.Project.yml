@@ -45,6 +45,7 @@ items:
   - SuperOffice.CRM.Entities.Project.OnPreSaveMe
   - SuperOffice.CRM.Entities.Project.OnRowLoad(SuperOffice.Data.SoDataReader,SuperOffice.CRM.Rows.TableRowBase)
   - SuperOffice.CRM.Entities.Project.OnRowLoaded
+  - SuperOffice.CRM.Entities.Project.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.CRM.Entities.Project.ProjectId
   - SuperOffice.CRM.Entities.Project.ProjectNumber
   - SuperOffice.CRM.Entities.Project.ProjectStatus
@@ -153,7 +154,6 @@ items:
   - SuperOffice.CRM.Entities.EntityBase.GetAdditionalRelatedNestedPersistViaBaseClassAsync(System.Collections.Generic.List{SuperOffice.Data.INestedPersist},System.Boolean,System.Threading.CancellationToken)
   - SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyRequestAsync(SuperOffice.Data.PKContainer)
   - SuperOffice.CRM.Entities.EntityBase.OnPrimaryKeyUpdateAsync(SuperOffice.Data.PKContainer)
-  - SuperOffice.CRM.Entities.EntityBase.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
   - SuperOffice.CRM.Entities.EntityBase.OnSavedAsync(System.Boolean)
   - SuperOffice.CRM.Entities.EntityBase.SetMarkedForDeleteOnRelatedObjects(System.Boolean)
   - SuperOffice.CRM.Entities.EntityBase.OnPreIdUpdateImplementationAsync
@@ -1361,6 +1361,33 @@ items:
   nameWithType.vb: Project.GetAdditionalRelatedNestedPersistAsync(List(Of INestedPersist), Boolean, CancellationToken)
   fullName.vb: SuperOffice.CRM.Entities.Project.GetAdditionalRelatedNestedPersistAsync(System.Collections.Generic.List(Of SuperOffice.Data.INestedPersist), Boolean, System.Threading.CancellationToken)
   name.vb: GetAdditionalRelatedNestedPersistAsync(List(Of INestedPersist), Boolean, CancellationToken)
+- uid: SuperOffice.CRM.Entities.Project.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.CRM.Entities.Project.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  id: OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  parent: SuperOffice.CRM.Entities.Project
+  langs:
+  - csharp
+  - vb
+  name: OnSaveAsync(BatchSave)
+  nameWithType: Project.OnSaveAsync(BatchSave)
+  fullName: SuperOffice.CRM.Entities.Project.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  type: Method
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  summary: ''
+  example: []
+  syntax:
+    content: protected override Task OnSaveAsync(BatchSave batchSave)
+    parameters:
+    - id: batchSave
+      type: SuperOffice.Data.SQL.BatchSave
+      description: ''
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Protected Overrides Function OnSaveAsync(batchSave As BatchSave) As Task
+  overridden: SuperOffice.CRM.Entities.EntityBase.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  overload: SuperOffice.CRM.Entities.Project.OnSaveAsync*
 - uid: SuperOffice.CRM.Entities.Project.ForceEntityUpdate
   commentId: M:SuperOffice.CRM.Entities.Project.ForceEntityUpdate
   id: ForceEntityUpdate
@@ -2733,36 +2760,6 @@ references:
     name: PKContainer
     isExternal: true
     href: SuperOffice.Data.PKContainer.html
-  - name: )
-- uid: SuperOffice.CRM.Entities.EntityBase.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
-  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
-  parent: SuperOffice.CRM.Entities.EntityBase
-  isExternal: true
-  href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_OnSaveAsync_SuperOffice_Data_SQL_BatchSave_
-  name: OnSaveAsync(BatchSave)
-  nameWithType: EntityBase.OnSaveAsync(BatchSave)
-  fullName: SuperOffice.CRM.Entities.EntityBase.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Entities.EntityBase.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
-    name: OnSaveAsync
-    isExternal: true
-    href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_OnSaveAsync_SuperOffice_Data_SQL_BatchSave_
-  - name: (
-  - uid: SuperOffice.Data.SQL.BatchSave
-    name: BatchSave
-    isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.html
-  - name: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Entities.EntityBase.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
-    name: OnSaveAsync
-    isExternal: true
-    href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_OnSaveAsync_SuperOffice_Data_SQL_BatchSave_
-  - name: (
-  - uid: SuperOffice.Data.SQL.BatchSave
-    name: BatchSave
-    isExternal: true
-    href: SuperOffice.Data.SQL.BatchSave.html
   - name: )
 - uid: SuperOffice.CRM.Entities.EntityBase.OnSavedAsync(System.Boolean)
   commentId: M:SuperOffice.CRM.Entities.EntityBase.OnSavedAsync(System.Boolean)
@@ -4709,6 +4706,88 @@ references:
   name: GetAdditionalRelatedNestedPersistAsync
   nameWithType: Project.GetAdditionalRelatedNestedPersistAsync
   fullName: SuperOffice.CRM.Entities.Project.GetAdditionalRelatedNestedPersistAsync
+- uid: SuperOffice.CRM.Entities.EntityBase.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  commentId: M:SuperOffice.CRM.Entities.EntityBase.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  parent: SuperOffice.CRM.Entities.EntityBase
+  isExternal: true
+  href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_OnSaveAsync_SuperOffice_Data_SQL_BatchSave_
+  name: OnSaveAsync(BatchSave)
+  nameWithType: EntityBase.OnSaveAsync(BatchSave)
+  fullName: SuperOffice.CRM.Entities.EntityBase.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: OnSaveAsync
+    isExternal: true
+    href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_OnSaveAsync_SuperOffice_Data_SQL_BatchSave_
+  - name: (
+  - uid: SuperOffice.Data.SQL.BatchSave
+    name: BatchSave
+    isExternal: true
+    href: SuperOffice.Data.SQL.BatchSave.html
+  - name: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Entities.EntityBase.OnSaveAsync(SuperOffice.Data.SQL.BatchSave)
+    name: OnSaveAsync
+    isExternal: true
+    href: SuperOffice.CRM.Entities.EntityBase.html#SuperOffice_CRM_Entities_EntityBase_OnSaveAsync_SuperOffice_Data_SQL_BatchSave_
+  - name: (
+  - uid: SuperOffice.Data.SQL.BatchSave
+    name: BatchSave
+    isExternal: true
+    href: SuperOffice.Data.SQL.BatchSave.html
+  - name: )
+- uid: SuperOffice.CRM.Entities.Project.OnSaveAsync*
+  commentId: Overload:SuperOffice.CRM.Entities.Project.OnSaveAsync
+  isExternal: true
+  href: SuperOffice.CRM.Entities.Project.html#SuperOffice_CRM_Entities_Project_OnSaveAsync_SuperOffice_Data_SQL_BatchSave_
+  name: OnSaveAsync
+  nameWithType: Project.OnSaveAsync
+  fullName: SuperOffice.CRM.Entities.Project.OnSaveAsync
+- uid: SuperOffice.Data.SQL.BatchSave
+  commentId: T:SuperOffice.Data.SQL.BatchSave
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.Data.SQL.BatchSave.html
+  name: BatchSave
+  nameWithType: BatchSave
+  fullName: SuperOffice.Data.SQL.BatchSave
+- uid: SuperOffice.Data.SQL
+  commentId: N:SuperOffice.Data.SQL
+  isExternal: true
+  href: SuperOffice.html
+  name: SuperOffice.Data.SQL
+  nameWithType: SuperOffice.Data.SQL
+  fullName: SuperOffice.Data.SQL
+  spec.csharp:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
+  spec.vb:
+  - uid: SuperOffice
+    name: SuperOffice
+    isExternal: true
+    href: SuperOffice.html
+  - name: .
+  - uid: SuperOffice.Data
+    name: Data
+    isExternal: true
+    href: SuperOffice.Data.html
+  - name: .
+  - uid: SuperOffice.Data.SQL
+    name: SQL
+    isExternal: true
+    href: SuperOffice.Data.SQL.html
 - uid: SuperOffice.CRM.Entities.EntityBase.ForceEntityUpdate
   commentId: M:SuperOffice.CRM.Entities.EntityBase.ForceEntityUpdate
   parent: SuperOffice.CRM.Entities.EntityBase

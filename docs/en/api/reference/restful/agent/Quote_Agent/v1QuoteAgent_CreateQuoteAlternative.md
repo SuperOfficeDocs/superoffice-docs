@@ -98,13 +98,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 229,
-  "QuoteAlternativeName": "Ratke Group",
-  "QuoteAlternativeDescription": "Innovative heuristic analyzer"
+  "QuoteVersionId": 369,
+  "QuoteAlternativeName": "Kovacek, Botsford and Hodkiewicz",
+  "QuoteAlternativeDescription": "Proactive actuating conglomeration"
 }
 ```
 
@@ -115,35 +115,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 695,
-  "ERPQuoteAlternativeKey": "nisi",
-  "QuoteVersionId": 656,
-  "Name": "Gaylord-Padberg",
-  "Description": "Visionary 5th generation capacity",
+  "QuoteAlternativeId": 584,
+  "ERPQuoteAlternativeKey": "ipsam",
+  "QuoteVersionId": 33,
+  "Name": "Bergnaum-O'Kon",
+  "Description": "Digitized demand-driven groupware",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 10517.704,
-  "ERPDiscountAmount": 4741.742,
-  "DiscountPercent": 5807.302,
-  "DiscountAmount": 15829.833999999999,
+  "ERPDiscountPercent": 14485.348,
+  "ERPDiscountAmount": 11702.356,
+  "DiscountPercent": 17992.293999999998,
+  "DiscountAmount": 16466.036,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "corrupti",
-  "VAT": 26902.255999999998,
-  "EarningPercent": 3296.968,
-  "EarningAmount": 8452.398,
-  "SubTotal": 19239.626,
-  "TotalPrice": 19145.606,
-  "ExtraField1": "et",
-  "ExtraField2": "rem",
-  "ExtraField3": "tenetur",
-  "ExtraField4": "culpa",
-  "ExtraField5": "explicabo",
+  "VATInfo": "praesentium",
+  "VAT": 8186.008,
+  "EarningPercent": 8605.964,
+  "EarningAmount": 11222.854,
+  "SubTotal": 28231.072,
+  "TotalPrice": 8239.286,
+  "ExtraField1": "veniam",
+  "ExtraField2": "similique",
+  "ExtraField3": "et",
+  "ExtraField4": "aperiam",
+  "ExtraField5": "iste",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 418
+      "FieldType": "System.String",
+      "FieldLength": 827
     }
   }
 }

@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 532,
-    "Name": "Conroy LLC",
-    "ToolTip": "Voluptates reprehenderit reprehenderit modi.",
-    "Deleted": true,
-    "Rank": 763,
-    "Type": "aliquam",
-    "ColorBlock": 32,
-    "IconHint": "harum",
+    "Id": 840,
+    "Name": "Christiansen Inc and Sons",
+    "ToolTip": "Molestias esse eum voluptas.",
+    "Deleted": false,
+    "Rank": 637,
+    "Type": "explicabo",
+    "ColorBlock": 154,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2006-05-26T03:47:00.8161673+02:00",
+    "LastChanged": "2001-10-10T03:41:59.6054711+02:00",
     "ChildItems": [
       {
-        "Id": 523,
-        "Name": "Kilback, Kuvalis and Leannon",
-        "ToolTip": "Eligendi laboriosam culpa.",
+        "Id": 336,
+        "Name": "Durgan Group",
+        "ToolTip": "Molestias doloribus.",
         "Deleted": false,
-        "Rank": 309,
-        "Type": "non",
-        "ColorBlock": 180,
-        "IconHint": "ut",
+        "Rank": 342,
+        "Type": "dignissimos",
+        "ColorBlock": 340,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2017-08-16T03:47:00.8161673+02:00",
+        "LastChanged": "2013-09-13T03:41:59.6054711+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "vel",
+        "ExtraInfo": "esse",
+        "StyleHint": "blanditiis",
         "Hidden": true,
-        "FullName": "Dr. Thurman Marco Kemmer PhD",
+        "FullName": "Prof. Neil Kenyatta Barton Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 1000
+            "FieldLength": 657
           }
         }
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "id",
+    "ExtraInfo": "autem",
+    "StyleHint": "quam",
     "Hidden": true,
-    "FullName": "Savanna Grady",
+    "FullName": "Dr. Gregoria Schiller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 97
+        "FieldLength": 665
       }
     }
   }

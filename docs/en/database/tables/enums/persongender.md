@@ -17,4 +17,4 @@ Male/female. No jokes please.  To be used for selecting correct salutations &amp
 
 ## Usage
 
-* [person](../person.md).gender - Persons in a company or an organizations. All associates have a corresponding person record
+* [person](../person.md).gender - Persons

@@ -68,7 +68,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,29 +78,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 972,
-  "Name": "Abbott-Hickle",
-  "CreatedDate": "2016-05-17T03:47:00.0193121+02:00",
-  "UpdatedDate": "2008-09-01T03:47:00.0193121+02:00",
+  "ForeignAppId": 668,
+  "Name": "Hane, Gleichner and Hilpert",
+  "CreatedDate": "2001-04-06T03:41:58.7461566+02:00",
+  "UpdatedDate": "2000-08-12T03:41:58.7461566+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 929,
-      "Name": "Olson, Harvey and Batz",
-      "CreatedDate": "1999-02-04T03:47:00.0193121+01:00",
-      "UpdatedDate": "2012-09-13T03:47:00.0193121+02:00",
-      "AssociateFullName": "Ms. Karen Jevon Stroman",
-      "CreatedBy": "a",
-      "UpdatedBy": "non",
-      "DeviceIdentifier": "possimus",
-      "ForeignAppId": 244,
+      "ForeignDeviceId": 184,
+      "Name": "Nikolaus-Cummings",
+      "CreatedDate": "2002-07-28T03:41:58.7617712+02:00",
+      "UpdatedDate": "2003-10-20T03:41:58.7617712+02:00",
+      "AssociateFullName": "Gaston Friesen",
+      "CreatedBy": "vel",
+      "UpdatedBy": "explicabo",
+      "DeviceIdentifier": "nihil",
+      "ForeignAppId": 18,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 430
+          "FieldType": "System.Int32",
+          "FieldLength": 494
         }
       }
     }
@@ -109,8 +109,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 321
+      "FieldType": "System.Int32",
+      "FieldLength": 839
     }
   }
 }

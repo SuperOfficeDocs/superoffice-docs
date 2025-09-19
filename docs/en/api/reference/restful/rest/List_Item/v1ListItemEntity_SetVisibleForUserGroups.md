@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 58,
-    "Name": "Lesch, Fay and Feil",
-    "ToolTip": "Ad et.",
-    "Deleted": false,
-    "Rank": 480,
-    "Type": "soluta",
-    "ColorBlock": 140,
-    "IconHint": "aspernatur",
+    "Id": 887,
+    "Name": "Zieme-Corkery",
+    "ToolTip": "Sed nemo voluptatem.",
+    "Deleted": true,
+    "Rank": 871,
+    "Type": "voluptatem",
+    "ColorBlock": 713,
+    "IconHint": "ea",
     "Selected": false,
-    "LastChanged": "2012-12-03T03:47:00.5505518+01:00",
+    "LastChanged": "2000-06-21T03:41:59.3242422+02:00",
     "ChildItems": [
       {
-        "Id": 881,
-        "Name": "Kilback Group",
-        "ToolTip": "Ipsam sunt.",
-        "Deleted": false,
-        "Rank": 478,
-        "Type": "reiciendis",
-        "ColorBlock": 572,
-        "IconHint": "recusandae",
-        "Selected": true,
-        "LastChanged": "2020-08-03T03:47:00.5505518+02:00",
+        "Id": 599,
+        "Name": "McGlynn Inc and Sons",
+        "ToolTip": "Facilis maxime inventore sint aut.",
+        "Deleted": true,
+        "Rank": 843,
+        "Type": "sunt",
+        "ColorBlock": 796,
+        "IconHint": "quisquam",
+        "Selected": false,
+        "LastChanged": "1999-08-07T03:41:59.3242422+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "minima",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "illum",
         "Hidden": true,
-        "FullName": "Santiago Treutel"
+        "FullName": "Guido Monahan"
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "iure",
+    "ExtraInfo": "architecto",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Winona Prudence Gerlach V"
+    "FullName": "Favian Predovic V"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 920,
-    "Name": "Rath LLC",
-    "ToolTip": "Consequatur rerum similique animi perferendis.",
+    "Id": 470,
+    "Name": "Hegmann-Bashirian",
+    "ToolTip": "Sit voluptatem ut dolorem.",
     "Deleted": true,
-    "Rank": 983,
-    "Type": "incidunt",
-    "ColorBlock": 832,
-    "IconHint": "veritatis",
-    "Selected": false,
-    "LastChanged": "2010-10-05T03:47:00.5505518+02:00",
+    "Rank": 371,
+    "Type": "provident",
+    "ColorBlock": 888,
+    "IconHint": "nemo",
+    "Selected": true,
+    "LastChanged": "2025-07-18T03:41:59.3242422+02:00",
     "ChildItems": [
       {
-        "Id": 758,
-        "Name": "Cassin LLC",
-        "ToolTip": "Alias amet officia qui ab voluptatem facere voluptas.",
-        "Deleted": false,
-        "Rank": 132,
-        "Type": "quidem",
-        "ColorBlock": 127,
-        "IconHint": "quam",
+        "Id": 619,
+        "Name": "Miller Inc and Sons",
+        "ToolTip": "Est recusandae quo natus qui consequuntur delectus recusandae.",
+        "Deleted": true,
+        "Rank": 497,
+        "Type": "qui",
+        "ColorBlock": 461,
+        "IconHint": "eveniet",
         "Selected": false,
-        "LastChanged": "2007-07-26T03:47:00.5505518+02:00",
+        "LastChanged": "2020-08-15T03:41:59.3242422+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "aliquid",
+        "ExtraInfo": "quia",
+        "StyleHint": "earum",
         "Hidden": false,
-        "FullName": "Theodore McDermott",
+        "FullName": "Adolf Witting",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 659
+            "FieldLength": 585
           }
         }
       }
     ],
-    "ExtraInfo": "eligendi",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Aurelio Rippin DDS",
+    "ExtraInfo": "quaerat",
+    "StyleHint": "repellendus",
+    "Hidden": true,
+    "FullName": "Bailee Bruen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 178
+        "FieldType": "System.Int32",
+        "FieldLength": 608
       }
     }
   }

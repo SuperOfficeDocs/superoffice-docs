@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetLanguageInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,19 +88,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 918,
-    "LCID": 168,
-    "EnglishName": "Jacobi, Hamill and Marks",
-    "NativeName": "Kilback-Oberbrunner",
-    "ThreeLetterISOLanguageName": "Herzog, Tremblay and Skiles",
-    "TwoLetterISOLanguageName": "Jerde-Hettinger",
-    "IsBuiltIn": false,
+    "LanguageInfoId": 340,
+    "LCID": 351,
+    "EnglishName": "Hilpert Group",
+    "NativeName": "Sipes, Kilback and Cremin",
+    "ThreeLetterISOLanguageName": "McClure, Ryan and Hahn",
+    "TwoLetterISOLanguageName": "Bode-Beahan",
+    "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 207
+        "FieldLength": 15
       }
     }
   }

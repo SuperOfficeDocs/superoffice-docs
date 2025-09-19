@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 566,
-    "Name": "Farrell, Wintheiser and Grimes",
-    "Tooltip": "commodi",
-    "Deleted": true,
-    "Rank": 137,
-    "UdListDefinitionId": 747
+    "HeadingId": 974,
+    "Name": "Schimmel, Heidenreich and Becker",
+    "Tooltip": "repellendus",
+    "Deleted": false,
+    "Rank": 693,
+    "UdListDefinitionId": 638
   },
   {
-    "HeadingId": 566,
-    "Name": "Farrell, Wintheiser and Grimes",
-    "Tooltip": "commodi",
-    "Deleted": true,
-    "Rank": 137,
-    "UdListDefinitionId": 747
+    "HeadingId": 974,
+    "Name": "Schimmel, Heidenreich and Becker",
+    "Tooltip": "repellendus",
+    "Deleted": false,
+    "Rank": 693,
+    "UdListDefinitionId": 638
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 369,
-    "Name": "McDermott, Grant and Kirlin",
-    "Tooltip": "consequatur",
-    "Deleted": false,
-    "Rank": 685,
-    "UdListDefinitionId": 445,
+    "HeadingId": 548,
+    "Name": "Pfeffer-Kerluke",
+    "Tooltip": "nemo",
+    "Deleted": true,
+    "Rank": 118,
+    "UdListDefinitionId": 799,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 764
+        "FieldType": "System.Int32",
+        "FieldLength": 186
       }
     }
   }

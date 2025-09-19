@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 676
+  "QuoteLineConfigurationId": 399
 }
 ```
 
@@ -97,21 +97,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 551,
-  "FieldName": "Reichel, Okuneva and Hoeger",
-  "Label": "suscipit",
-  "Tooltip": "saepe",
-  "Editable": true,
+  "QuoteLineConfigurationId": 526,
+  "FieldName": "Stehr, Beahan and Turcotte",
+  "Label": "voluptatum",
+  "Tooltip": "voluptatibus",
+  "Editable": false,
   "InUse": false,
   "Mandatory": false,
-  "Rank": 863,
-  "RestrictEdit": false,
+  "Rank": 278,
+  "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 98
+      "FieldLength": 929
     }
   }
 }

@@ -37,7 +37,7 @@ Elements in a customer list.
 
 | Table|  Description |
 |------|-------------|
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 |[s\_list](s-list.md)  |A list, dynamic or static |
 
 

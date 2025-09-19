@@ -28,7 +28,7 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=perferendis
+GET /api/v1/List/ProductFamily/MDOItems?query=in
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,50 +90,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 306,
-    "Name": "Sanford Group",
-    "ToolTip": "Autem adipisci autem.",
+    "Id": 548,
+    "Name": "Schuster-Schaefer",
+    "ToolTip": "Iure voluptas minus voluptatem dignissimos occaecati eaque.",
     "Deleted": false,
-    "Rank": 419,
-    "Type": "voluptatem",
+    "Rank": 866,
+    "Type": "praesentium",
     "ChildItems": [
       {
-        "Id": 40,
-        "Name": "Kirlin-Lakin",
-        "ToolTip": "Voluptas explicabo nesciunt aut non deserunt.",
+        "Id": 354,
+        "Name": "Becker-Miller",
+        "ToolTip": "Ut accusantium voluptate nesciunt sed dicta.",
         "Deleted": false,
-        "Rank": 915,
-        "Type": "modi",
+        "Rank": 878,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptas",
-        "ColorBlock": 154,
-        "ExtraInfo": "aut",
-        "StyleHint": "nobis",
-        "FullName": "Kariane Kessler",
+        "IconHint": "ipsam",
+        "ColorBlock": 412,
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "neque",
+        "FullName": "Dr. Tad Morar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 926
+            "FieldLength": 85
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 346,
-    "ExtraInfo": "aperiam",
-    "StyleHint": "est",
-    "FullName": "Ruthe Rice",
+    "IconHint": "voluptatem",
+    "ColorBlock": 735,
+    "ExtraInfo": "id",
+    "StyleHint": "nulla",
+    "FullName": "Mrs. Elisha Frankie Kreiger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 127
+        "FieldLength": 609
       }
     }
   }

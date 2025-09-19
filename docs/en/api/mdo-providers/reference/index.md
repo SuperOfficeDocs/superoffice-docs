@@ -223,6 +223,7 @@ envir: onsite, online
 | [iso639language](iso639language.md) ||
 | [kbentry](kbentry.md) ||
 | [language](language.md) ||
+| [leadstatus](leadstatus.md) |List provider for LeadStatus|
 | [legalbase](legalbase.md) |MDO list provider for Legal base|
 | [lists](lists.md) |List of all MDO list providers.|
 | [locatecontact](locatecontact.md) |Provider for selecting a Contact, including search on persons that match as well as contacts. this provider wil|

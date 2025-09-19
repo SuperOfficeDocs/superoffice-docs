@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Document/GetSaleDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 752
+  "SaleId": 65
 }
 ```
 
@@ -111,32 +111,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 6,
-    "Attention": "eligendi",
-    "Header": "nulla",
-    "Name": "Hegmann, Schuppe and Ziemann",
-    "OurRef": "perspiciatis",
-    "YourRef": "laborum",
-    "Description": "Fundamental background focus group",
-    "DocumentTemplate": "recusandae",
-    "IsPublished": true,
-    "PersonId": 527,
-    "PersonFullName": "Mr. Noemie Cristal Hagenes",
-    "AssociateFullName": "Alivia Sanford",
-    "ContactId": 185,
-    "ContactName": "Langosh, Fadel and Brakus",
-    "ProjectId": 983,
-    "ProjectName": "Rippin, Kunze and Considine",
-    "AssociateId": 749,
-    "Snum": 318,
-    "SaleId": 363,
-    "SaleName": "Roberts Inc and Sons",
+    "DocumentId": 170,
+    "Attention": "corrupti",
+    "Header": "ea",
+    "Name": "Jast, Schiller and Gusikowski",
+    "OurRef": "eum",
+    "YourRef": "inventore",
+    "Description": "Face to face tangible collaboration",
+    "DocumentTemplate": "qui",
+    "IsPublished": false,
+    "PersonId": 956,
+    "PersonFullName": "Angelica Wintheiser",
+    "AssociateFullName": "Prof. Carol Wunsch IV",
+    "ContactId": 824,
+    "ContactName": "Turcotte, Jewess and Skiles",
+    "ProjectId": 430,
+    "ProjectName": "Moen-Hackett",
+    "AssociateId": 892,
+    "Snum": 157,
+    "SaleId": 198,
+    "SaleName": "Pollich Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 393
+        "FieldType": "System.Int32",
+        "FieldLength": 338
       }
     }
   }

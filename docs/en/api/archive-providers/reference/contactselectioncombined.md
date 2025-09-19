@@ -1237,7 +1237,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactSelectionCombined?$select=LastCompletedActivity,sale/stageId,appointment/associate/assocType,appointment/associate/credentialDisplayValue,document/icon
+GET /api/v1/archive/ContactSelectionCombined?$select=registeredByFullName,activeErpLinks,appointment/completedDate,appointment/recordTypeText,birthMonth
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

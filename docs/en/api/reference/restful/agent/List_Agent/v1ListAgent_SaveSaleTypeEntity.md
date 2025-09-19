@@ -106,51 +106,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 24,
-  "Name": "Roob Group",
-  "Tooltip": "quia",
-  "Rank": 390,
+  "SaleTypeId": 171,
+  "Name": "Lang-Waters",
+  "Tooltip": "autem",
+  "Rank": 651,
   "DurationUnit": "Century",
-  "SaleDuration": 181,
-  "SaleTypeCatId": 232,
+  "SaleDuration": 541,
+  "SaleTypeCatId": 649,
   "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 500,
-  "QuoteLinesTemplate": 45,
-  "ConfirmationLinesTemplate": 23,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 957,
+  "QuoteLinesTemplate": 367,
+  "ConfirmationLinesTemplate": 119,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 664,
-  "MinEarningPercent": 674,
-  "GroupQuoteLinesBy": 236,
-  "SortGroupLinesBy": 552,
+  "MaxDiscountPercent": 478,
+  "MinEarningPercent": 965,
+  "GroupQuoteLinesBy": 750,
+  "SortGroupLinesBy": 209,
   "Stages": [
     {
-      "Id": 741,
-      "Name": "Streich-Grimes",
-      "ToolTip": "Perferendis quia est officiis dicta eos eligendi labore.",
-      "Deleted": true,
-      "Rank": 7,
-      "Type": "natus",
-      "ColorBlock": 70,
-      "IconHint": "soluta",
+      "Id": 1000,
+      "Name": "Kohler Inc and Sons",
+      "ToolTip": "Unde laborum.",
+      "Deleted": false,
+      "Rank": 578,
+      "Type": "placeat",
+      "ColorBlock": 276,
+      "IconHint": "magnam",
       "Selected": false,
-      "LastChanged": "2010-03-20T03:46:54.9413809+01:00",
+      "LastChanged": "2008-12-31T03:41:53.6213534+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "delectus",
-      "StyleHint": "voluptatem",
-      "Hidden": false,
-      "FullName": "Kathryn Tillman PhD"
+      "ExtraInfo": "numquam",
+      "StyleHint": "sit",
+      "Hidden": true,
+      "FullName": "Bud Tillman"
     }
   ]
 }
@@ -163,53 +163,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 239,
-  "Name": "Ryan Inc and Sons",
-  "Tooltip": "tempore",
-  "Rank": 145,
+  "SaleTypeId": 447,
+  "Name": "Rutherford LLC",
+  "Tooltip": "dolor",
+  "Rank": 465,
   "DurationUnit": "Century",
-  "SaleDuration": 498,
-  "SaleTypeCatId": 859,
+  "SaleDuration": 998,
+  "SaleTypeCatId": 88,
   "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 4,
-  "QuoteLinesTemplate": 909,
-  "ConfirmationLinesTemplate": 121,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 59,
-  "MinEarningPercent": 751,
-  "GroupQuoteLinesBy": 71,
-  "SortGroupLinesBy": 730,
+  "DefaultQuoteValidity": 976,
+  "QuoteLinesTemplate": 124,
+  "ConfirmationLinesTemplate": 17,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 156,
+  "MinEarningPercent": 480,
+  "GroupQuoteLinesBy": 104,
+  "SortGroupLinesBy": 348,
   "Stages": [
     {
-      "Id": 499,
-      "Name": "Runte, Bogisich and Rodriguez",
-      "ToolTip": "Perspiciatis rerum earum reiciendis voluptatum voluptatibus eos.",
+      "Id": 718,
+      "Name": "Heathcote-Mueller",
+      "ToolTip": "Dolor voluptatem magnam autem eum explicabo ullam.",
       "Deleted": true,
-      "Rank": 803,
-      "Type": "occaecati",
-      "ColorBlock": 531,
-      "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "2019-11-08T03:46:54.9413809+01:00",
+      "Rank": 926,
+      "Type": "voluptatem",
+      "ColorBlock": 240,
+      "IconHint": "aut",
+      "Selected": false,
+      "LastChanged": "2013-11-30T03:41:53.6213534+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "veritatis",
-      "StyleHint": "doloremque",
+      "ExtraInfo": "consequuntur",
+      "StyleHint": "nobis",
       "Hidden": false,
-      "FullName": "Jarrett Leannon",
+      "FullName": "Dr. Colby Buck Labadie",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 94
+          "FieldLength": 856
         }
       }
     }
@@ -218,8 +218,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 280
+      "FieldType": "System.String",
+      "FieldLength": 617
     }
   }
 }

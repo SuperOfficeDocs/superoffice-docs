@@ -76,25 +76,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 46,
-    "Name": "Dickens-Simonis",
-    "Tooltip": "consectetur",
+    "HeadingId": 833,
+    "Name": "Turcotte, Quitzon and Russel",
+    "Tooltip": "est",
     "Deleted": true,
-    "Rank": 501,
-    "UdListDefinitionId": 698
+    "Rank": 507,
+    "UdListDefinitionId": 145
   },
   {
-    "HeadingId": 46,
-    "Name": "Dickens-Simonis",
-    "Tooltip": "consectetur",
+    "HeadingId": 833,
+    "Name": "Turcotte, Quitzon and Russel",
+    "Tooltip": "est",
     "Deleted": true,
-    "Rank": 501,
-    "UdListDefinitionId": 698
+    "Rank": 507,
+    "UdListDefinitionId": 145
   }
 ]
 ```
@@ -107,18 +107,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 277,
-    "Name": "Muller-Moore",
-    "Tooltip": "excepturi",
-    "Deleted": true,
-    "Rank": 815,
-    "UdListDefinitionId": 405,
+    "HeadingId": 734,
+    "Name": "Beatty, Berge and Wintheiser",
+    "Tooltip": "molestiae",
+    "Deleted": false,
+    "Rank": 606,
+    "UdListDefinitionId": 563,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 259
+        "FieldLength": 433
       }
     }
   }

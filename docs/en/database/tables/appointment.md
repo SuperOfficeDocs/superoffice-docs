@@ -122,12 +122,12 @@ Tasks, appointments, followups, phone calls; and documents (document_id != 0). A
 |------|-------------|
 |[appointment](appointment.md)  |Tasks, appointments, followups, phone calls; and documents (document_id != 0). An appointment always has a corresponding record in VisibleFor specifying who may see this.  |
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 |[document](document.md)  |Documents, this table is an extension of the Appointment table.  There is always a corresponding appointment record; the relation between appointment and document is navigable in both directions. A document-type appointment record always has a corresponding document record and a record in VisibleFor specifying who may see this.   |
 |[Email](email.md)  |Email addresses for contacts, projects and persons |
 |[email\_item](email-item.md)  |Email data |
 |[invitation](invitation.md)  |Invitations to events |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[person](person.md)  |Persons |
 |[Priority](priority.md)  |Priority list table. Used with appointments: low, high. |
 |[project](project.md)  |Projects |
 |[QuoteVersion](quoteversion.md)  |There may be multiple Versions of a Quote, with one of them active |

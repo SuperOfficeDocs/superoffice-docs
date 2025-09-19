@@ -140,33 +140,33 @@ ChatSessionEntity updated.
 PUT /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 199,
-  "TopicId": 972,
+  "ChatSessionId": 644,
+  "TopicId": 568,
   "User": null,
   "Person": null,
-  "CustomerAlias": "sed",
-  "CustomerHost": "voluptas",
-  "CustomerName": "Kilback LLC",
-  "CustomerEmail": "salma_heathcote@emard.info",
-  "CustomerPhone": "029.748.2758 x6185",
+  "CustomerAlias": "rerum",
+  "CustomerHost": "excepturi",
+  "CustomerName": "Ortiz LLC",
+  "CustomerEmail": "trever.stokes@oharadurgan.ca",
+  "CustomerPhone": "362-744-8693 x20123",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Lynch Inc and Sons",
+  "CustomerCompanyName": "Rau-Berge",
   "Status": "Closed",
-  "FirstMessage": "tempora",
-  "LastMessage": "numquam",
-  "WhenRequested": "2017-07-04T03:46:59.7380732+02:00",
-  "WhenStarted": "2023-10-09T03:46:59.7380732+02:00",
-  "WhenEnded": "2023-11-17T03:46:59.7380732+01:00",
-  "WhenIdle": "2002-09-12T03:46:59.7380732+02:00",
-  "WhenFetched": "2014-09-22T03:46:59.7380732+02:00",
-  "SessionKey": "ipsam",
-  "InitialQueuePos": 82,
-  "AlertLevel": 437,
-  "Rank": 917,
+  "FirstMessage": "quia",
+  "LastMessage": "et",
+  "WhenRequested": "2014-10-12T03:41:58.433879+02:00",
+  "WhenStarted": "1998-08-18T03:41:58.433879+02:00",
+  "WhenEnded": "2020-07-12T03:41:58.433879+02:00",
+  "WhenIdle": "2007-07-05T03:41:58.433879+02:00",
+  "WhenFetched": "2005-05-30T03:41:58.433879+02:00",
+  "SessionKey": "quaerat",
+  "InitialQueuePos": 290,
+  "AlertLevel": 459,
+  "Rank": 746,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -174,7 +174,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 277
+  "Rating": 503
 }
 ```
 
@@ -185,29 +185,29 @@ HTTP/1.1 200 ChatSessionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 692,
-  "TopicId": 700,
+  "ChatSessionId": 609,
+  "TopicId": 458,
   "User": null,
   "Person": null,
-  "CustomerAlias": "est",
-  "CustomerHost": "inventore",
-  "CustomerName": "Howe, Kuvalis and Kuhn",
-  "CustomerEmail": "nora@champlin.com",
-  "CustomerPhone": "(539)385-4237 x56137",
+  "CustomerAlias": "iusto",
+  "CustomerHost": "aut",
+  "CustomerName": "McKenzie-Leannon",
+  "CustomerEmail": "dominic@klein.us",
+  "CustomerPhone": "(059)331-8204 x50463",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Borer-Greenfelder",
+  "CustomerCompanyName": "Blanda Group",
   "Status": "Closed",
-  "FirstMessage": "minus",
-  "LastMessage": "et",
-  "WhenRequested": "2001-07-16T03:46:59.7536971+02:00",
-  "WhenStarted": "2000-12-30T03:46:59.7536971+01:00",
-  "WhenEnded": "2008-03-30T03:46:59.7536971+02:00",
-  "WhenIdle": "2023-04-28T03:46:59.7536971+02:00",
-  "WhenFetched": "2019-08-28T03:46:59.7536971+02:00",
-  "SessionKey": "sunt",
-  "InitialQueuePos": 843,
-  "AlertLevel": 882,
-  "Rank": 694,
+  "FirstMessage": "sapiente",
+  "LastMessage": "aut",
+  "WhenRequested": "2020-04-17T03:41:58.4492851+02:00",
+  "WhenStarted": "2004-06-30T03:41:58.4492851+02:00",
+  "WhenEnded": "2001-07-08T03:41:58.4492851+02:00",
+  "WhenIdle": "2011-02-02T03:41:58.4492851+01:00",
+  "WhenFetched": "2008-08-20T03:41:58.4492851+02:00",
+  "SessionKey": "possimus",
+  "InitialQueuePos": 86,
+  "AlertLevel": 829,
+  "Rank": 408,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -215,13 +215,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 732,
+  "Rating": 355,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 8
+      "FieldType": "System.Int32",
+      "FieldLength": 638
     }
   },
   "_Links": {

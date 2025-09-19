@@ -147,16 +147,16 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 16,
-  "Name": "Sporer Inc and Sons",
-  "Tooltip": "asperiores",
+  "RoleId": 504,
+  "Name": "Sporer-Hermiston",
+  "Tooltip": "sit",
   "RoleType": "Anonymous",
-  "Deleted": 530,
-  "Rank": 543,
-  "Created": "2011-02-06T03:47:00.2224384+01:00",
-  "UseCategories": 34,
+  "Deleted": 216,
+  "Rank": 243,
+  "Created": "2000-09-14T03:41:58.949262+02:00",
+  "UseCategories": 35,
   "CreatedBy": null,
-  "Updated": "2001-09-21T03:47:00.2224384+02:00",
+  "Updated": "2010-09-21T03:41:58.949262+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -164,7 +164,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldLength": 564
     }
   },
   "_Links": {

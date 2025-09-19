@@ -89,9 +89,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Cruickshank, Lesch and Schinner",
-  "DeviceName": "Kohler Group",
-  "DeviceIdentifier": "vel"
+  "ApplicationName": "Yundt, Zboncak and Rowe",
+  "DeviceName": "Koch-Beahan",
+  "DeviceIdentifier": "praesentium"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "minus",
-  "Value": "voluptates",
-  "RecordId": 559,
-  "CreatedDate": "2017-11-06T03:46:54.9107593+01:00",
-  "UpdatedDate": "2020-07-26T03:46:54.9107593+02:00",
-  "UpdatedBy": "quisquam",
-  "CreatedBy": "quia",
-  "TableName": "Beahan-Osinski",
+  "Key": "dolorum",
+  "Value": "et",
+  "RecordId": 918,
+  "CreatedDate": "2013-09-15T03:41:53.5901046+02:00",
+  "UpdatedDate": "2017-01-15T03:41:53.5901046+01:00",
+  "UpdatedBy": "facere",
+  "CreatedBy": "et",
+  "TableName": "Moore-Bogan",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 702
+      "FieldLength": 936
     }
   }
 }

@@ -104,34 +104,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 740,
-  "UniqueId": "cum",
-  "Name": "Hilpert, Ondricka and Pollich",
-  "Description": "Implemented foreground open architecture",
-  "AssociateId": 536,
-  "Columns": 753,
+  "DashboardId": 6,
+  "UniqueId": "corrupti",
+  "Name": "Ferry-Zboncak",
+  "Description": "Centralized logistical access",
+  "AssociateId": 756,
+  "Columns": 723,
   "Theme": null,
-  "VisibleForAll": 322,
+  "VisibleForAll": 343,
   "VisibleForAssociates": [
-    517,
-    941
+    58,
+    750
   ],
   "VisibleForGroups": [
-    759,
-    684
+    959,
+    673
   ],
-  "PinForAll": 733,
+  "PinForAll": 184,
   "PinForAssociates": [
-    464,
-    932
+    462,
+    448
   ],
   "PinForGroups": [
-    508,
-    685
+    353,
+    558
   ]
 }
 ```
@@ -143,37 +143,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 266,
-  "UniqueId": "id",
-  "Name": "Considine-Jacobi",
-  "Description": "Adaptive object-oriented budgetary management",
-  "AssociateId": 197,
-  "Columns": 84,
+  "DashboardId": 539,
+  "UniqueId": "ea",
+  "Name": "Bergnaum, Zboncak and Roob",
+  "Description": "Down-sized encompassing middleware",
+  "AssociateId": 173,
+  "Columns": 619,
   "Theme": null,
-  "VisibleForAll": 361,
+  "VisibleForAll": 518,
   "VisibleForAssociates": [
-    613,
-    597
+    877,
+    397
   ],
   "VisibleForGroups": [
-    961,
-    394
+    262,
+    342
   ],
-  "PinForAll": 634,
+  "PinForAll": 714,
   "PinForAssociates": [
-    757,
-    552
+    448,
+    543
   ],
   "PinForGroups": [
-    66,
-    695
+    8,
+    460
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 328
+      "FieldLength": 775
     }
   },
   "_Links": {

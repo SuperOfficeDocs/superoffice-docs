@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetAllInDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 363,
+    "HierarchyId": 832,
     "Domain": "Dashboards",
-    "Name": "Schaefer-Fadel",
-    "Fullname": "distinctio",
-    "ParentId": 481,
+    "Name": "Stehr Group",
+    "Fullname": "doloremque",
+    "ParentId": 262,
     "Children": [
       {
-        "HierarchyId": 129,
+        "HierarchyId": 455,
         "Domain": "Dashboards",
-        "Name": "Grimes, Powlowski and Trantow",
-        "Fullname": "quas",
-        "ParentId": 927,
+        "Name": "Gutkowski, Gulgowski and Schmeler",
+        "Fullname": "hic",
+        "ParentId": 281,
         "Children": [
           {},
           {}
         ],
-        "Registered": "1999-03-19T03:46:54.9726245+01:00",
-        "RegisteredAssociateId": 602,
-        "Updated": "2015-04-20T03:46:54.9726245+02:00",
-        "UpdatedAssociateId": 791,
+        "Registered": "1998-09-05T03:41:53.7307246+02:00",
+        "RegisteredAssociateId": 456,
+        "Updated": "2016-03-30T03:41:53.7307246+02:00",
+        "UpdatedAssociateId": 421,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 557
+            "FieldType": "System.String",
+            "FieldLength": 476
           }
         }
       }
     ],
-    "Registered": "2002-07-10T03:46:54.9726245+02:00",
-    "RegisteredAssociateId": 543,
-    "Updated": "1998-10-13T03:46:54.9726245+02:00",
-    "UpdatedAssociateId": 439,
+    "Registered": "2021-05-03T03:41:53.7307246+02:00",
+    "RegisteredAssociateId": 896,
+    "Updated": "2022-09-29T03:41:53.7307246+02:00",
+    "UpdatedAssociateId": 695,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 589
+        "FieldType": "System.Int32",
+        "FieldLength": 445
       }
     }
   }

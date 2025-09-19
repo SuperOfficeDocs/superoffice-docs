@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dicta",
-  "ProviderName": "Abernathy, Stehr and Mayer",
-  "StorageKey": "quos",
+  "StorageType": "reiciendis",
+  "ProviderName": "Hand-Nikolaus",
+  "StorageKey": "ratione",
   "DesiredColumnNames": [
-    "Homenick, Kautzer and Beier",
-    "Simonis-Mann"
+    "Muller Inc and Sons",
+    "Kulas-Hagenes"
   ],
   "StaticColumns": [
-    "in",
-    "qui"
+    "est",
+    "quia"
   ]
 }
 ```
@@ -110,15 +110,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Veum-Hackett",
-      "Operator": "fugiat",
+      "Name": "Thompson, Goyette and Kiehn",
+      "Operator": "dolorem",
       "Values": [
-        "ducimus",
-        "non"
+        "voluptatem",
+        "corporis"
       ],
       "DisplayValues": [
-        "et",
-        "accusamus"
+        "quas",
+        "inventore"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -126,65 +126,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 38,
+      "InterParenthesis": 73,
       "InterOperator": "And",
-      "UniqueHash": 860
+      "UniqueHash": 98
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Erdman-Kertzmann",
+      "DisplayName": "Smith Group",
       "DisplayTooltip": "amet",
-      "DisplayType": "quia",
-      "CanOrderBy": true,
-      "Name": "Morissette-Bins",
+      "DisplayType": "enim",
+      "CanOrderBy": false,
+      "Name": "Lebsack Group",
       "CanRestrictBy": true,
-      "RestrictionType": "deleniti",
-      "RestrictionListName": "Heaney Group",
+      "RestrictionType": "tempora",
+      "RestrictionListName": "Zieme-Heaney",
       "IsVisible": false,
-      "ExtraInfo": "aut",
-      "Width": "maxime",
-      "IconHint": "et",
-      "HeadingIconHint": "numquam"
+      "ExtraInfo": "tempora",
+      "Width": "ad",
+      "IconHint": "nam",
+      "HeadingIconHint": "consequatur"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Roob Inc and Sons",
-      "PrimaryKey": 727,
+      "EntityName": "Bailey-Rippin",
+      "PrimaryKey": 952,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "molestiae",
-          "TooltipHint": "excepturi",
-          "LinkHint": "iure"
+          "DisplayValue": "et",
+          "TooltipHint": "recusandae",
+          "LinkHint": "odit"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "quaerat",
+      "LinkHint": "possimus",
+      "StyleHint": "atque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 796
+          "FieldLength": 334
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Rath Group",
-      "Description": "Secured dynamic firmware",
-      "Rank": 2,
+      "Name": "Mitchell Inc and Sons",
+      "Description": "Ergonomic 6th generation knowledge base",
+      "Rank": 861,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Rath Group",
-      "Description": "Secured dynamic firmware",
-      "Rank": 2,
+      "Name": "Mitchell Inc and Sons",
+      "Description": "Ergonomic 6th generation knowledge base",
+      "Rank": 861,
       "Restrictions": [
         {},
         {}
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 731
+      "FieldLength": 945
     }
   }
 }

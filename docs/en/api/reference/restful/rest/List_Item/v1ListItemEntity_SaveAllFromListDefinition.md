@@ -78,25 +78,25 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 513,
-    "Name": "Wilderman-Paucek",
-    "Tooltip": "iste",
-    "Deleted": true,
-    "UdListDefinitionId": 835,
-    "Rank": 480
+    "Id": 70,
+    "Name": "Swaniawski-Nitzsche",
+    "Tooltip": "iusto",
+    "Deleted": false,
+    "UdListDefinitionId": 12,
+    "Rank": 348
   },
   {
-    "Id": 513,
-    "Name": "Wilderman-Paucek",
-    "Tooltip": "iste",
-    "Deleted": true,
-    "UdListDefinitionId": 835,
-    "Rank": 480
+    "Id": 70,
+    "Name": "Swaniawski-Nitzsche",
+    "Tooltip": "iusto",
+    "Deleted": false,
+    "UdListDefinitionId": 12,
+    "Rank": 348
   }
 ]
 ```
@@ -109,18 +109,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 488,
-    "Name": "Crist, Dicki and Ernser",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "UdListDefinitionId": 972,
-    "Rank": 510,
+    "Id": 552,
+    "Name": "Schuppe Inc and Sons",
+    "Tooltip": "at",
+    "Deleted": true,
+    "UdListDefinitionId": 824,
+    "Rank": 97,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 487
+        "FieldType": "System.String",
+        "FieldLength": 387
       }
     }
   }

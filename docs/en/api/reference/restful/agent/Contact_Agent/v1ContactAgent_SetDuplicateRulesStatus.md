@@ -71,15 +71,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Hoppe Inc and Sons",
-      "DisplayName": "Upton Group",
-      "DisplayTooltip": "eum",
+      "Name": "Walter Inc and Sons",
+      "DisplayName": "Mueller, Toy and Trantow",
+      "DisplayTooltip": "ipsa",
       "IsActive": false
     },
     {
-      "Name": "Hoppe Inc and Sons",
-      "DisplayName": "Upton Group",
-      "DisplayTooltip": "eum",
+      "Name": "Walter Inc and Sons",
+      "DisplayName": "Mueller, Toy and Trantow",
+      "DisplayTooltip": "ipsa",
       "IsActive": false
     }
   ]

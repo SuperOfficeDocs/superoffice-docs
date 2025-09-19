@@ -76,27 +76,27 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 548,
-  "Name": "Nolan Group",
-  "CreatedDate": "2003-04-08T03:46:54.8320045+02:00",
-  "UpdatedDate": "2012-07-08T03:46:54.8320045+02:00",
+  "ForeignAppId": 903,
+  "Name": "Bailey, Reichel and Doyle",
+  "CreatedDate": "2001-06-11T03:41:53.5744803+02:00",
+  "UpdatedDate": "2013-12-12T03:41:53.5744803+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 594,
-      "Name": "Schumm-Champlin",
-      "CreatedDate": "2007-04-05T03:46:54.8320045+02:00",
-      "UpdatedDate": "2023-07-09T03:46:54.8320045+02:00",
-      "AssociateFullName": "Cleo Watsica III",
-      "CreatedBy": "omnis",
-      "UpdatedBy": "sit",
-      "DeviceIdentifier": "voluptatum",
-      "ForeignAppId": 595
+      "ForeignDeviceId": 635,
+      "Name": "Zulauf-Lowe",
+      "CreatedDate": "2021-02-19T03:41:53.5744803+01:00",
+      "UpdatedDate": "2006-02-08T03:41:53.5744803+01:00",
+      "AssociateFullName": "Mr. Hyman Roberts DDS",
+      "CreatedBy": "esse",
+      "UpdatedBy": "consequatur",
+      "DeviceIdentifier": "odio",
+      "ForeignAppId": 928
     }
   ]
 }
@@ -109,29 +109,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 710,
-  "Name": "Leannon-Greenholt",
-  "CreatedDate": "2017-08-11T03:46:54.8320045+02:00",
-  "UpdatedDate": "2024-08-07T03:46:54.8320045+02:00",
+  "ForeignAppId": 95,
+  "Name": "Kertzmann-Upton",
+  "CreatedDate": "2024-07-17T03:41:53.5901046+02:00",
+  "UpdatedDate": "2005-08-25T03:41:53.5901046+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 574,
-      "Name": "Wisozk-Reilly",
-      "CreatedDate": "2008-02-13T03:46:54.8320045+01:00",
-      "UpdatedDate": "2025-05-25T03:46:54.8320045+02:00",
-      "AssociateFullName": "Wilburn Gibson",
-      "CreatedBy": "tenetur",
-      "UpdatedBy": "est",
-      "DeviceIdentifier": "vel",
-      "ForeignAppId": 884,
+      "ForeignDeviceId": 237,
+      "Name": "Thompson Inc and Sons",
+      "CreatedDate": "2019-10-16T03:41:53.5901046+02:00",
+      "UpdatedDate": "2020-10-10T03:41:53.5901046+02:00",
+      "AssociateFullName": "Mrs. Gregg Immanuel Schoen",
+      "CreatedBy": "cum",
+      "UpdatedBy": "blanditiis",
+      "DeviceIdentifier": "iure",
+      "ForeignAppId": 228,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 568
+          "FieldType": "System.String",
+          "FieldLength": 861
         }
       }
     }
@@ -141,7 +141,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 304
+      "FieldLength": 434
     }
   }
 }

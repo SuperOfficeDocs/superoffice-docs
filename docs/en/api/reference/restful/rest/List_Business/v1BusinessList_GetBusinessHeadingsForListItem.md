@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Business/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 449,
-    "Name": "Morissette-Moen",
-    "ToolTip": "Est facere et ab et nisi molestias exercitationem.",
+    "Id": 79,
+    "Name": "Ruecker, Dietrich and Rau",
+    "ToolTip": "Accusamus corporis sit quam nobis dolorem.",
     "Deleted": false,
-    "Rank": 684,
-    "Type": "fuga",
-    "ColorBlock": 207,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2011-01-08T03:47:00.5818006+01:00",
+    "Rank": 89,
+    "Type": "aspernatur",
+    "ColorBlock": 706,
+    "IconHint": "vel",
+    "Selected": false,
+    "LastChanged": "2010-06-19T03:41:59.339865+02:00",
     "ChildItems": [
       {
-        "Id": 526,
-        "Name": "Hagenes, Mayer and Murphy",
-        "ToolTip": "Dolores sed incidunt corrupti est est.",
+        "Id": 644,
+        "Name": "Spinka-Torphy",
+        "ToolTip": "Provident officiis rerum dignissimos.",
         "Deleted": false,
-        "Rank": 522,
-        "Type": "veritatis",
-        "ColorBlock": 597,
-        "IconHint": "commodi",
-        "Selected": false,
-        "LastChanged": "2005-03-27T03:47:00.5818006+02:00",
+        "Rank": 517,
+        "Type": "dolore",
+        "ColorBlock": 880,
+        "IconHint": "ullam",
+        "Selected": true,
+        "LastChanged": "1999-04-03T03:41:59.339865+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "est",
+        "ExtraInfo": "quo",
+        "StyleHint": "possimus",
         "Hidden": false,
-        "FullName": "Darian Kling",
+        "FullName": "Carli Mayer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 135
+            "FieldType": "System.Int32",
+            "FieldLength": 87
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "assumenda",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "William Glover",
+    "FullName": "Brett Collins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 216
+        "FieldType": "System.Int32",
+        "FieldLength": 40
       }
     }
   }

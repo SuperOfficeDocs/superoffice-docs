@@ -94,7 +94,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -104,46 +104,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 277,
-  "ColumnId": 66,
-  "FieldDefault": "pariatur",
-  "FieldHeight": 535,
-  "FieldLabel": "impedit",
-  "FieldLeft": 405,
-  "FieldTop": 133,
+  "UDefFieldId": 531,
+  "ColumnId": 299,
+  "FieldDefault": "deleniti",
+  "FieldHeight": 645,
+  "FieldLabel": "magnam",
+  "FieldLeft": 514,
+  "FieldTop": 944,
   "FieldType": "Checkbox",
-  "FieldWidth": 221,
-  "FormatMask": "voluptatem",
+  "FieldWidth": 852,
+  "FormatMask": "aut",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 328,
-  "LabelLeft": 648,
-  "LabelTop": 653,
-  "LabelWidth": 114,
-  "LastVersionId": 906,
-  "ListTableId": 229,
+  "IsIndexed": true,
+  "LabelHeight": 976,
+  "LabelLeft": 983,
+  "LabelTop": 921,
+  "LabelWidth": 327,
+  "LastVersionId": 934,
+  "ListTableId": 260,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 360,
-  "ProgId": "neque",
+  "Page1LineNo": 318,
+  "ProgId": "recusandae",
   "IsReadOnly": true,
-  "ShortLabel": "cupiditate",
-  "TabOrder": 215,
-  "TextLength": 455,
-  "Tooltip": "aliquam",
-  "UdefIdentity": 651,
-  "UDListDefinitionId": 516,
+  "ShortLabel": "laudantium",
+  "TabOrder": 114,
+  "TextLength": 872,
+  "Tooltip": "corrupti",
+  "UdefIdentity": 710,
+  "UDListDefinitionId": 755,
   "Justification": "Center",
-  "Version": 530,
-  "TemplateVariableName": "Schulist, Brakus and Wehner",
-  "HasBeenPublished": true,
-  "MdoListName": "Schmitt Group",
+  "Version": 562,
+  "TemplateVariableName": "Hudson Group",
+  "HasBeenPublished": false,
+  "MdoListName": "Gerhold, Dicki and Turner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 61
+      "FieldLength": 70
     }
   }
 }

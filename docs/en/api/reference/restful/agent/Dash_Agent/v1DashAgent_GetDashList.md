@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    575,
-    751
+    377,
+    125
   ]
 }
 ```
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 278,
-    "UniqueId": "velit",
-    "Name": "Roob-Bailey",
-    "Description": "Innovative tertiary moratorium",
-    "AssociateId": 482,
-    "Columns": 434,
+    "DashboardId": 948,
+    "UniqueId": "eveniet",
+    "Name": "Huels, Homenick and Dare",
+    "Description": "Fully-configurable non-volatile intranet",
+    "AssociateId": 256,
+    "Columns": 769,
     "Theme": null,
-    "VisibleForAll": 243,
+    "VisibleForAll": 975,
     "VisibleForAssociates": [
-      240,
-      213
+      340,
+      221
     ],
     "VisibleForGroups": [
-      234,
-      682
+      45,
+      488
     ],
-    "PinForAll": 851,
+    "PinForAll": 963,
     "PinForAssociates": [
-      390,
-      148
+      131,
+      576
     ],
     "PinForGroups": [
-      628,
-      302
+      349,
+      399
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 448
+        "FieldType": "System.String",
+        "FieldLength": 901
       }
     }
   }

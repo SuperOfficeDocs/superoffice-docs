@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 392,
-  "Name": "Cronin, Ratke and Hills",
-  "Tooltip": "animi",
+  "Id": 695,
+  "Name": "Conn Group",
+  "Tooltip": "mollitia",
   "Deleted": false,
-  "Rank": 992,
-  "IsCustomList": true,
+  "Rank": 107,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "quo",
+  "ListType": "amet",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 219
+      "FieldLength": 202
     }
   },
   "_Links": {

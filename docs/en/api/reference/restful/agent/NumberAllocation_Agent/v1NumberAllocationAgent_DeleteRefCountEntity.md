@@ -26,7 +26,7 @@ Deletes the RefCountEntity
 | refCountEntityId | int32 | **Required** The identity of the RefCountEntity |
 
 ```http
-POST /api/v1/Agents/NumberAllocation/DeleteRefCountEntity?refCountEntityId=727
+POST /api/v1/Agents/NumberAllocation/DeleteRefCountEntity?refCountEntityId=398
 ```
 
 
@@ -57,7 +57,7 @@ No Content
 POST /api/v1/Agents/NumberAllocation/DeleteRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

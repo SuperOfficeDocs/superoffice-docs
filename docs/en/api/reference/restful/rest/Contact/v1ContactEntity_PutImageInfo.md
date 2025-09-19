@@ -98,19 +98,19 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 799,
-  "BlobSize": 87,
-  "Description": "Persevering systematic analyzer",
-  "ExtraInfo": "vero",
-  "IsEncrypted": false,
+  "BlobId": 874,
+  "BlobSize": 504,
+  "Description": "Expanded well-modulated task-force",
+  "ExtraInfo": "laboriosam",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "quos",
-  "OriginalSize": 524,
-  "CreatedDate": "2005-12-22T03:46:59.8161962+01:00",
-  "UpdatedDate": "2001-10-30T03:46:59.8161962+01:00",
+  "MimeType": "voluptatum",
+  "OriginalSize": 899,
+  "CreatedDate": "2002-04-11T03:41:58.5588764+02:00",
+  "UpdatedDate": "2021-11-07T03:41:58.5588764+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ut"
+  "ConceptualType": "soluta"
 }
 ```
 
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 629,
-  "BlobSize": 808,
-  "Description": "Re-contextualized 24 hour monitoring",
-  "ExtraInfo": "nulla",
-  "IsEncrypted": false,
+  "BlobId": 395,
+  "BlobSize": 142,
+  "Description": "Organic empowering pricing structure",
+  "ExtraInfo": "et",
+  "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "molestiae",
-  "OriginalSize": 288,
-  "CreatedDate": "2017-05-03T03:46:59.8161962+02:00",
-  "UpdatedDate": "2011-04-11T03:46:59.8161962+02:00",
+  "MimeType": "qui",
+  "OriginalSize": 125,
+  "CreatedDate": "2007-05-05T03:41:58.5588764+02:00",
+  "UpdatedDate": "2021-06-25T03:41:58.5588764+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolores",
+  "ConceptualType": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 174
+      "FieldType": "System.String",
+      "FieldLength": 341
     }
   }
 }

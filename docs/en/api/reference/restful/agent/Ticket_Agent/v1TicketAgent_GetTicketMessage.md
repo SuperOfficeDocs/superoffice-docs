@@ -27,7 +27,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=197
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=134
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,23 +96,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 847,
-  "CreatedAt": "2009-07-06T03:46:55.5351045+02:00",
+  "TicketMessageId": 36,
+  "CreatedAt": "2019-08-14T03:41:54.2775762+02:00",
   "Slevel": "External",
   "Important": true,
-  "Author": "reprehenderit",
-  "PersonId": 703,
-  "PersonFullName": "Einar Kemmer",
-  "ContactId": 637,
-  "ContactName": "Muller LLC",
-  "ContactDepartment": "",
-  "NumAttachments": 640,
-  "EmailHeader": "taylor_reichel@hintzquitzon.co.uk",
+  "Author": "tempore",
+  "PersonId": 661,
+  "PersonFullName": "Prof. Lorine Estevan Rath",
+  "ContactId": 554,
+  "ContactName": "Wiza-Parker",
+  "ContactDepartment": "target cutting-edge technologies",
+  "NumAttachments": 365,
+  "EmailHeader": "sigmund.welch@reichel.biz",
   "MessageHeaders": [
     {
-      "Id": 679,
-      "Name": "Terry-Jewess",
-      "Value": "pariatur",
+      "Id": 480,
+      "Name": "Welch Inc and Sons",
+      "Value": "ipsam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -120,23 +120,23 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 460
+          "FieldLength": 354
         }
       }
     }
   ],
-  "Language": "consequatur",
-  "Sentiment": 35,
-  "SentimentConfidence": 586,
-  "CreatedBy": 544,
-  "ChangedAt": "2024-04-25T03:46:55.5351045+02:00",
+  "Language": "eos",
+  "Sentiment": 986,
+  "SentimentConfidence": 145,
+  "CreatedBy": 770,
+  "ChangedAt": "1999-05-22T03:41:54.2775762+02:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 483
+      "FieldType": "System.Int32",
+      "FieldLength": 548
     }
   }
 }

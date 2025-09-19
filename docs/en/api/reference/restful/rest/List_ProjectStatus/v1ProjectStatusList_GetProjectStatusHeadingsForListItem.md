@@ -32,7 +32,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 499,
-    "Name": "Johns-Murphy",
-    "ToolTip": "Molestiae facilis iste soluta ipsa assumenda est delectus.",
-    "Deleted": true,
-    "Rank": 285,
-    "Type": "non",
-    "ColorBlock": 225,
-    "IconHint": "inventore",
-    "Selected": false,
-    "LastChanged": "2010-01-22T03:47:00.7536695+01:00",
+    "Id": 31,
+    "Name": "Rempel-Schmeler",
+    "ToolTip": "Quidem provident temporibus non.",
+    "Deleted": false,
+    "Rank": 111,
+    "Type": "fugit",
+    "ColorBlock": 677,
+    "IconHint": "nisi",
+    "Selected": true,
+    "LastChanged": "2003-01-07T03:41:59.5432177+01:00",
     "ChildItems": [
       {
-        "Id": 677,
-        "Name": "Wolf-Swaniawski",
-        "ToolTip": "Laborum ut cupiditate saepe ut distinctio.",
-        "Deleted": true,
-        "Rank": 750,
-        "Type": "et",
-        "ColorBlock": 679,
-        "IconHint": "enim",
-        "Selected": false,
-        "LastChanged": "2010-04-23T03:47:00.7536695+02:00",
+        "Id": 872,
+        "Name": "Pfannerstill Inc and Sons",
+        "ToolTip": "Ipsum rerum commodi ut eligendi ad vel minima.",
+        "Deleted": false,
+        "Rank": 549,
+        "Type": "assumenda",
+        "ColorBlock": 475,
+        "IconHint": "numquam",
+        "Selected": true,
+        "LastChanged": "2021-02-28T03:41:59.5432177+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptates",
-        "StyleHint": "assumenda",
+        "ExtraInfo": "labore",
+        "StyleHint": "possimus",
         "Hidden": false,
-        "FullName": "Yasmin Nasir Lubowitz Sr.",
+        "FullName": "Corrine Baumbach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 943
+            "FieldLength": 196
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "eos",
+    "ExtraInfo": "et",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Miss Lexi Borer Sr.",
+    "FullName": "Francisco Murazik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 578
+        "FieldType": "System.String",
+        "FieldLength": 731
       }
     }
   }

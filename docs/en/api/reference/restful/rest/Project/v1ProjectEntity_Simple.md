@@ -90,30 +90,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 915,
-  "Name": "Hintz-Waelchi",
-  "Description": "Proactive hybrid framework",
+  "ProjectId": 701,
+  "Name": "Cartwright Group",
+  "Description": "Open-source client-server projection",
   "URL": "http://www.example.com/",
-  "Type": "excepturi",
-  "AssociateId": 484,
-  "AssociateFullName": "Dustin Magdalen Schumm MD",
-  "TypeId": 223,
-  "Updated": "2004-10-31T03:47:00.1911895+01:00",
-  "StatusId": 525,
-  "Status": "laboriosam",
-  "TextId": 524,
-  "PublishTo": "2020-03-03T03:47:00.1911895+01:00",
-  "PublishFrom": "2020-08-30T03:47:00.1911895+02:00",
-  "IsPublished": false,
+  "Type": "eum",
+  "AssociateId": 170,
+  "AssociateFullName": "Caitlyn Ziemann",
+  "TypeId": 23,
+  "Updated": "2004-12-30T03:41:58.9336467+01:00",
+  "StatusId": 141,
+  "Status": "in",
+  "TextId": 789,
+  "PublishTo": "2022-03-25T03:41:58.9336467+01:00",
+  "PublishFrom": "2020-03-29T03:41:58.9336467+02:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1811871",
-  "ActiveErpLinks": 288,
+  "ProjectNumber": "1861413",
+  "ActiveErpLinks": 646,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 604
+      "FieldLength": 144
     }
   }
 }

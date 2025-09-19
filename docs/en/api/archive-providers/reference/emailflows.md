@@ -89,7 +89,7 @@ Lists all email flows
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlows?$select=workflowDefinitionStatusId,workflowAssociate/credentialType,updatedBy
+GET /api/v1/archive/EmailFlows?$select=updatedBy,workflowAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

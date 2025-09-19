@@ -93,8 +93,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 291,
-  "GroupId": 789
+  "UdListDefinitionId": 237,
+  "GroupId": 527
 }
 ```
 
@@ -106,56 +106,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 311,
-    "Name": "Kirlin-O'Keefe",
-    "ToolTip": "Iusto quibusdam et qui cupiditate.",
-    "Deleted": false,
-    "Rank": 368,
-    "Type": "a",
-    "ColorBlock": 982,
-    "IconHint": "sint",
-    "Selected": true,
-    "LastChanged": "2000-10-09T03:46:54.9569999+02:00",
+    "Id": 241,
+    "Name": "Wisozk-Harris",
+    "ToolTip": "Necessitatibus inventore nobis laboriosam recusandae quia nesciunt velit.",
+    "Deleted": true,
+    "Rank": 266,
+    "Type": "sunt",
+    "ColorBlock": 987,
+    "IconHint": "sapiente",
+    "Selected": false,
+    "LastChanged": "2011-10-09T03:41:53.6994806+02:00",
     "ChildItems": [
       {
-        "Id": 28,
-        "Name": "Pacocha, Abernathy and Marks",
-        "ToolTip": "Enim voluptatibus reiciendis nostrum.",
+        "Id": 740,
+        "Name": "Mohr, Walsh and Goodwin",
+        "ToolTip": "Consectetur qui ad adipisci iusto quod sint vel.",
         "Deleted": false,
-        "Rank": 79,
-        "Type": "iusto",
-        "ColorBlock": 278,
+        "Rank": 495,
+        "Type": "sit",
+        "ColorBlock": 62,
         "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2016-10-27T03:46:54.9569999+02:00",
+        "LastChanged": "2007-06-04T03:41:53.6994806+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Elenora Schumm",
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "dolores",
+        "Hidden": false,
+        "FullName": "Dewitt Kelsi Nolan Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 322
+            "FieldLength": 831
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "molestias",
-    "Hidden": true,
-    "FullName": "Ms. Franco Jaskolski V",
+    "ExtraInfo": "itaque",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Jordi Hermiston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 809
+        "FieldLength": 617
       }
     }
   }

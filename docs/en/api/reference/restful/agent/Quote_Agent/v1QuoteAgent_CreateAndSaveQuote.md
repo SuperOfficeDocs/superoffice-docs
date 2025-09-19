@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 501,
-  "ConnectionId": 829,
-  "FirstAlternativeName": "Cartwright-Batz"
+  "SaleId": 619,
+  "ConnectionId": 878,
+  "FirstAlternativeName": "Effertz Group"
 }
 ```
 
@@ -105,58 +105,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 782,
-  "SaleId": 764,
-  "QuoteConnectionId": 544,
-  "ERPQuoteKey": "recusandae",
-  "ERPOrderKey": "rem",
-  "ActiveQuoteVersionId": 784,
-  "AcceptedQuoteAlternativeId": 716,
-  "UseValuesFromQuote": 356,
-  "DocumentId": 624,
-  "PoNumber": "1426661",
-  "OrderComment": "corporis",
-  "PreferredEmailCulture": "lincoln@heidenreich.uk",
+  "QuoteId": 100,
+  "SaleId": 228,
+  "QuoteConnectionId": 349,
+  "ERPQuoteKey": "consequuntur",
+  "ERPOrderKey": "minima",
+  "ActiveQuoteVersionId": 108,
+  "AcceptedQuoteAlternativeId": 728,
+  "UseValuesFromQuote": 208,
+  "DocumentId": 661,
+  "PoNumber": "1343753",
+  "OrderComment": "tempora",
+  "PreferredEmailCulture": "eliseo.mclaughlin@hellerhettinger.co.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 137,
-      "ERPQuoteVersionKey": "aut",
-      "QuoteId": 308,
-      "Description": "Realigned exuding orchestration",
-      "Number": "1297568",
+      "QuoteVersionId": 363,
+      "ERPQuoteVersionKey": "eos",
+      "QuoteId": 281,
+      "Description": "Pre-emptive fresh-thinking complexity",
+      "Number": "1078851",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 777,
-      "SentDate": "2004-05-23T03:46:55.2226157+02:00",
-      "FollowupId": 931,
-      "ExpirationDate": "2024-03-24T03:46:55.2226157+01:00",
-      "DeliveryCountryId": 526,
-      "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 134,
-      "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "cumque",
-      "ERPPaymentTypeKey": "fugiat",
-      "ERPDeliveryTermsKey": "excepturi",
-      "ERPDeliveryTypeKey": "ut",
-      "Rank": 852,
-      "ApprovedBy": 580,
-      "ApprovedText": "perspiciatis",
-      "ApprovedRegisteredBy": 129,
-      "ApprovedRegisteredDate": "2015-03-24T03:46:55.2226157+01:00",
-      "ExtraField1": "saepe",
-      "ExtraField2": "velit",
-      "ExtraField3": "autem",
-      "ExtraField4": "asperiores",
-      "ExtraField5": "esse",
-      "LastRecalculated": "2007-11-03T03:46:55.2226157+01:00",
-      "Updated": "1999-02-18T03:46:55.2226157+01:00",
-      "UpdatedAssociateId": 145,
-      "Registered": "2011-06-01T03:46:55.2226157+02:00",
-      "RegisteredAssociateId": 206,
-      "RequestAssociateId": 853,
-      "RequestComment": "exercitationem",
+      "LikelyQuoteAlternativeId": 172,
+      "SentDate": "2022-03-10T03:41:53.9650897+01:00",
+      "FollowupId": 446,
+      "ExpirationDate": "2009-10-21T03:41:53.9650897+02:00",
+      "DeliveryCountryId": 651,
+      "HasOwnDeliveryAddress": false,
+      "InvoiceCountryId": 938,
+      "HasOwnInvoiceAddress": true,
+      "ERPPaymentTermsKey": "laudantium",
+      "ERPPaymentTypeKey": "impedit",
+      "ERPDeliveryTermsKey": "eligendi",
+      "ERPDeliveryTypeKey": "quia",
+      "Rank": 430,
+      "ApprovedBy": 125,
+      "ApprovedText": "dolorem",
+      "ApprovedRegisteredBy": 15,
+      "ApprovedRegisteredDate": "2008-01-19T03:41:53.9650897+01:00",
+      "ExtraField1": "veritatis",
+      "ExtraField2": "facere",
+      "ExtraField3": "ut",
+      "ExtraField4": "aspernatur",
+      "ExtraField5": "rerum",
+      "LastRecalculated": "2019-04-27T03:41:53.9650897+02:00",
+      "Updated": "2019-09-05T03:41:53.9650897+02:00",
+      "UpdatedAssociateId": 207,
+      "Registered": "2018-01-14T03:41:53.9650897+01:00",
+      "RegisteredAssociateId": 339,
+      "RequestAssociateId": 876,
+      "RequestComment": "itaque",
       "QuoteAlternatives": [
         {},
         {}
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 680
+          "FieldLength": 153
         }
       }
     }
@@ -175,8 +175,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldType": "System.String",
+      "FieldLength": 437
     }
   }
 }

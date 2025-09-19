@@ -105,7 +105,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -115,46 +115,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 922,
-  "ColumnId": 543,
-  "FieldDefault": "exercitationem",
-  "FieldHeight": 640,
-  "FieldLabel": "voluptatem",
-  "FieldLeft": 56,
-  "FieldTop": 561,
+  "UDefFieldId": 651,
+  "ColumnId": 651,
+  "FieldDefault": "et",
+  "FieldHeight": 433,
+  "FieldLabel": "ea",
+  "FieldLeft": 596,
+  "FieldTop": 919,
   "FieldType": "Checkbox",
-  "FieldWidth": 225,
-  "FormatMask": "quo",
-  "HideLabel": false,
+  "FieldWidth": 919,
+  "FormatMask": "ut",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 746,
-  "LabelLeft": 588,
-  "LabelTop": 697,
-  "LabelWidth": 302,
-  "LastVersionId": 427,
-  "ListTableId": 853,
+  "LabelHeight": 780,
+  "LabelLeft": 696,
+  "LabelTop": 434,
+  "LabelWidth": 724,
+  "LastVersionId": 50,
+  "ListTableId": 697,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 308,
-  "ProgId": "voluptate",
-  "IsReadOnly": false,
-  "ShortLabel": "iusto",
-  "TabOrder": 547,
-  "TextLength": 689,
-  "Tooltip": "reiciendis",
-  "UdefIdentity": 607,
-  "UDListDefinitionId": 108,
+  "Page1LineNo": 703,
+  "ProgId": "dolorem",
+  "IsReadOnly": true,
+  "ShortLabel": "rerum",
+  "TabOrder": 832,
+  "TextLength": 250,
+  "Tooltip": "esse",
+  "UdefIdentity": 386,
+  "UDListDefinitionId": 360,
   "Justification": "Center",
-  "Version": 43,
-  "TemplateVariableName": "Schroeder-Abernathy",
-  "HasBeenPublished": true,
-  "MdoListName": "Hegmann-Kohler",
+  "Version": 673,
+  "TemplateVariableName": "Bogan, Stehr and Auer",
+  "HasBeenPublished": false,
+  "MdoListName": "Skiles, Waters and Breitenberg",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 437
+      "FieldLength": 902
     }
   }
 }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewFaqEntry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 32
+  "KbEntryId": 376
 }
 ```
 
@@ -93,17 +93,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "debitis",
-  "RegisteredByFullName": "Kristopher Pagac",
-  "Updated": "2009-06-05T03:46:54.5976376+02:00",
-  "Question": "magnam",
-  "Answer": "non",
+  "Title": "quidem",
+  "RegisteredByFullName": "Sherman Glover",
+  "Updated": "2001-11-03T03:41:53.3557401+01:00",
+  "Question": "dolores",
+  "Answer": "reprehenderit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 889
+      "FieldType": "System.Int32",
+      "FieldLength": 740
     }
   }
 }

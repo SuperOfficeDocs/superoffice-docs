@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 116,
-  "Name": "Russel, Hudson and Parisian",
-  "Tooltip": "deleniti",
-  "Deleted": true,
-  "UdListDefinitionId": 631,
-  "Rank": 745,
+  "Id": 611,
+  "Name": "Schamberger-Fadel",
+  "Tooltip": "in",
+  "Deleted": false,
+  "UdListDefinitionId": 492,
+  "Rank": 310,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 712
+      "FieldLength": 358
     }
   }
 }

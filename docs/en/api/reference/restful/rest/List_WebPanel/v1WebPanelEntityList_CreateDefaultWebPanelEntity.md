@@ -87,11 +87,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 808,
-  "Name": "Cruickshank, Kuvalis and Rogahn",
-  "Tooltip": "libero",
+  "WebPanelId": 891,
+  "Name": "Pollich, Breitenberg and Heller",
+  "Tooltip": "autem",
   "Deleted": false,
-  "Rank": 351,
+  "Rank": 328,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
@@ -102,19 +102,19 @@ Content-Type: application/json; charset=utf-8
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Bergstrom Group",
+  "ShowInStatusBar": true,
+  "WindowName": "Klein LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "rerum",
-  "Icon": 185,
+  "ProgId": "quos",
+  "Icon": 56,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldLength": 595
     }
   }
 }

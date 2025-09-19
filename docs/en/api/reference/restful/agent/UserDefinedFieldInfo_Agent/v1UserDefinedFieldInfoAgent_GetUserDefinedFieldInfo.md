@@ -27,7 +27,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=354
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=305
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -111,46 +111,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 233,
-  "ColumnId": 757,
-  "FieldDefault": "delectus",
-  "FieldHeight": 890,
-  "FieldLabel": "dignissimos",
-  "FieldLeft": 568,
-  "FieldTop": 842,
+  "UDefFieldId": 841,
+  "ColumnId": 617,
+  "FieldDefault": "aut",
+  "FieldHeight": 236,
+  "FieldLabel": "fugiat",
+  "FieldLeft": 485,
+  "FieldTop": 193,
   "FieldType": "Checkbox",
-  "FieldWidth": 486,
-  "FormatMask": "vel",
+  "FieldWidth": 99,
+  "FormatMask": "et",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 563,
-  "LabelLeft": 7,
-  "LabelTop": 286,
-  "LabelWidth": 166,
-  "LastVersionId": 927,
-  "ListTableId": 187,
-  "IsMandatory": false,
+  "IsIndexed": false,
+  "LabelHeight": 667,
+  "LabelLeft": 661,
+  "LabelTop": 936,
+  "LabelWidth": 1001,
+  "LastVersionId": 149,
+  "ListTableId": 576,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 841,
-  "ProgId": "doloremque",
+  "Page1LineNo": 789,
+  "ProgId": "praesentium",
   "IsReadOnly": false,
-  "ShortLabel": "officia",
-  "TabOrder": 623,
-  "TextLength": 168,
-  "Tooltip": "tempora",
-  "UdefIdentity": 774,
-  "UDListDefinitionId": 843,
+  "ShortLabel": "aut",
+  "TabOrder": 338,
+  "TextLength": 155,
+  "Tooltip": "quisquam",
+  "UdefIdentity": 388,
+  "UDListDefinitionId": 100,
   "Justification": "Center",
-  "Version": 800,
-  "TemplateVariableName": "Rutherford-Hahn",
+  "Version": 934,
+  "TemplateVariableName": "Daniel, Conroy and VonRueden",
   "HasBeenPublished": false,
-  "MdoListName": "Koch, Glover and Kling",
+  "MdoListName": "Marvin-Greenfelder",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 943
+      "FieldLength": 680
     }
   }
 }

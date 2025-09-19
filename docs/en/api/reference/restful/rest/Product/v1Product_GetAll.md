@@ -71,12 +71,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Product?$select=name,department,category/id
 GET /api/v1/Product?$filter=name begins 'S'
 GET /api/v1/Product?$orderBy=name asc
-GET /api/v1/Product?$entities=minus
-GET /api/v1/Product?$top=890
-GET /api/v1/Product?$skip=366
+GET /api/v1/Product?$entities=ratione
+GET /api/v1/Product?$top=950
+GET /api/v1/Product?$skip=971
 GET /api/v1/Product?$mode=Full
 GET /api/v1/Product?$options=GrandTotal=true
-GET /api/v1/Product?$context=necessitatibus
+GET /api/v1/Product?$context=repellat
 GET /api/v1/Product?$format=JSON
 GET /api/v1/Product?$jsonSafe=False
 GET /api/v1/Product?$output=Display
@@ -119,7 +119,7 @@ OK
 GET /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -130,21 +130,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "dolorum",
+  "odata.nextLink": "et",
   "value": [
     {
-      "PrimaryKey": 6160,
+      "PrimaryKey": 6460,
       "EntityName": "sale",
-      "saleId": 6160,
-      "contactId": 6194,
-      "name": "Balistreri LLC"
+      "saleId": 6460,
+      "contactId": 9228,
+      "name": "Murray, Renner and Mraz"
     },
     {
-      "PrimaryKey": 3654,
+      "PrimaryKey": 9643,
       "EntityName": "sale",
-      "saleId": 3654,
-      "contactId": 2516,
-      "name": "Armstrong, Jakubowski and Goyette"
+      "saleId": 9643,
+      "contactId": 6434,
+      "name": "Nienow, Purdy and Jakubowski"
     }
   ]
 }

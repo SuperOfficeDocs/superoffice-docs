@@ -122,12 +122,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "qui",
+    "path": "itaque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "qui",
+    "path": "itaque",
     "value": {}
   }
 ]
@@ -140,12 +140,12 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 727,
-  "Name": "Berge Group",
-  "Tooltip": "sed",
-  "PassiveText": "enim",
-  "Deleted": true,
-  "Rank": 162,
+  "ReldefId": 435,
+  "Name": "Abbott Inc and Sons",
+  "Tooltip": "et",
+  "PassiveText": "sed",
+  "Deleted": false,
+  "Rank": 24,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 679
+      "FieldLength": 60
     }
   },
   "_Links": {

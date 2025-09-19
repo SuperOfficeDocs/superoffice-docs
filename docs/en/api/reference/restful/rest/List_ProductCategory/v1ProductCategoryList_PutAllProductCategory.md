@@ -74,25 +74,25 @@ OK
 PUT /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 828,
-    "Name": "Huels, Schumm and Powlowski",
-    "Tooltip": "porro",
-    "Deleted": false,
-    "UdListDefinitionId": 252,
-    "Rank": 395
+    "Id": 385,
+    "Name": "Roob-Ledner",
+    "Tooltip": "itaque",
+    "Deleted": true,
+    "UdListDefinitionId": 190,
+    "Rank": 270
   },
   {
-    "Id": 828,
-    "Name": "Huels, Schumm and Powlowski",
-    "Tooltip": "porro",
-    "Deleted": false,
-    "UdListDefinitionId": 252,
-    "Rank": 395
+    "Id": 385,
+    "Name": "Roob-Ledner",
+    "Tooltip": "itaque",
+    "Deleted": true,
+    "UdListDefinitionId": 190,
+    "Rank": 270
   }
 ]
 ```
@@ -105,18 +105,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 577,
-    "Name": "Walter, Green and Beahan",
-    "Tooltip": "pariatur",
-    "Deleted": false,
-    "UdListDefinitionId": 521,
-    "Rank": 299,
+    "Id": 641,
+    "Name": "Connelly Inc and Sons",
+    "Tooltip": "fugiat",
+    "Deleted": true,
+    "UdListDefinitionId": 999,
+    "Rank": 369,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 536
+        "FieldLength": 786
       }
     }
   }

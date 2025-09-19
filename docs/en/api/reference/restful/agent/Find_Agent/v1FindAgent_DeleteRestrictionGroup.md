@@ -69,15 +69,15 @@ No Content
 POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aperiam",
-  "ProviderName": "White, Yundt and Corkery",
-  "StorageKey": "quod",
-  "Rank": 926,
-  "Context": "corrupti"
+  "StorageType": "atque",
+  "ProviderName": "Gulgowski, Braun and McCullough",
+  "StorageKey": "mollitia",
+  "Rank": 939,
+  "Context": "sed"
 }
 ```
 

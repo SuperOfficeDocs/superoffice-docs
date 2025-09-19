@@ -69,11 +69,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectorCapabilityNames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 557
+  "QuoteConnectionId": 84
 }
 ```
 
@@ -84,7 +84,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "soluta",
-  "dolorem"
+  "rerum",
+  "cumque"
 ]
 ```

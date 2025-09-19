@@ -69,7 +69,7 @@ OK
 GET /api/v1/Preference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,50 +80,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 43,
-    "Name": "Wiza LLC",
-    "ToolTip": "Qui alias eius sint ut qui molestias ut.",
+    "Id": 257,
+    "Name": "Blanda, Ortiz and Beatty",
+    "ToolTip": "Vero voluptatem mollitia officiis amet tempora est.",
     "Deleted": false,
-    "Rank": 752,
-    "Type": "voluptatem",
+    "Rank": 127,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 320,
-        "Name": "Marquardt Group",
-        "ToolTip": "Neque sapiente odit.",
-        "Deleted": true,
-        "Rank": 372,
-        "Type": "distinctio",
+        "Id": 567,
+        "Name": "Medhurst-Feest",
+        "ToolTip": "Ullam consequuntur.",
+        "Deleted": false,
+        "Rank": 810,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quae",
-        "ColorBlock": 71,
-        "ExtraInfo": "dolorem",
-        "StyleHint": "atque",
-        "FullName": "Mr. Gabe Brown",
+        "IconHint": "doloremque",
+        "ColorBlock": 549,
+        "ExtraInfo": "pariatur",
+        "StyleHint": "ullam",
+        "FullName": "Wayne Quitzon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 311
+            "FieldLength": 374
           }
         }
       }
     ],
-    "IconHint": "nemo",
-    "ColorBlock": 262,
-    "ExtraInfo": "aperiam",
-    "StyleHint": "est",
-    "FullName": "Cullen Hunter Kemmer DDS",
+    "IconHint": "et",
+    "ColorBlock": 589,
+    "ExtraInfo": "eligendi",
+    "StyleHint": "culpa",
+    "FullName": "Rachel Hirthe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 106
+        "FieldLength": 364
       }
     }
   }

@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,36 +83,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 433,
-  "ParentId": 53,
-  "Name": "Jakubowski-Auer",
-  "Fullname": "vero",
-  "CategoryMaster": 425,
+  "TicketCategoryId": 312,
+  "ParentId": 293,
+  "Name": "Dibbert, Mosciski and Cormier",
+  "Fullname": "magni",
+  "CategoryMaster": 234,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Rowe Group",
+  "ExternalName": "McCullough Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 155,
-  "ReplyTemplate": 304,
-  "NotificationEmail": "dillan@kuphalprice.biz",
+  "AssignmentLag": 740,
+  "ReplyTemplate": 971,
+  "NotificationEmail": "cruz.lowe@strackehayes.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 224,
+  "EffectiveReplyTemplateId": 702,
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "atque",
-    "CustomFields2": "tempora"
+    "CustomFields1": "animi",
+    "CustomFields2": "laboriosam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 34
+      "FieldLength": 476
     }
   }
 }

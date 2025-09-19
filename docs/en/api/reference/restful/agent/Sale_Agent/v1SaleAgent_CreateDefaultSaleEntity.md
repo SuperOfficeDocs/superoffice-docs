@@ -99,7 +99,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "recusandae",
+  "SaleText": "explicabo",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -124,113 +124,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2000-03-31T03:46:55.2538645+02:00",
-  "Amount": 20627.987999999998,
-  "SaleId": 514,
-  "Earning": 27262.665999999997,
-  "EarningPercent": 11865.323999999999,
-  "Heading": "pariatur",
-  "Number": "1697344",
-  "Probability": 793,
-  "CreatedDate": "2015-08-16T03:46:55.2538645+02:00",
-  "UpdatedDate": "2019-06-29T03:46:55.2538645+02:00",
+  "Saledate": "2017-10-28T03:41:53.9807136+02:00",
+  "Amount": 21405.219999999998,
+  "SaleId": 547,
+  "Earning": 492.038,
+  "EarningPercent": 21044.809999999998,
+  "Heading": "dolorem",
+  "Number": "236914",
+  "Probability": 164,
+  "CreatedDate": "2016-02-03T03:41:53.9807136+01:00",
+  "UpdatedDate": "2008-02-29T03:41:53.9807136+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 620,
+  "ActiveLinks": 573,
   "Links": [
     {
-      "EntityName": "Quitzon Inc and Sons",
-      "Id": 91,
-      "Description": "Synergized context-sensitive functionalities",
-      "ExtraInfo": "eos",
-      "LinkId": 231,
+      "EntityName": "Feest-Beatty",
+      "Id": 124,
+      "Description": "Vision-oriented incremental toolset",
+      "ExtraInfo": "iure",
+      "LinkId": 152,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 341
+          "FieldLength": 468
         }
       }
     }
   ],
-  "NextDueDate": "2011-10-28T03:46:55.2538645+02:00",
-  "Postit": "voluptatibus",
+  "NextDueDate": "2024-02-02T03:41:53.9807136+01:00",
+  "Postit": "harum",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2006-07-02T03:46:55.2538645+02:00",
+  "ReopenDate": "2018-05-02T03:41:53.9963385+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Johns Inc and Sons",
-      "Comment": "a",
-      "StakeholderRoleId": 76,
-      "CountryId": 862,
-      "PersonId": 351,
-      "EmailDescription": "peyton@langosh.ca",
-      "EmailId": 364,
-      "EmailAddress": "florian@durgan.com",
-      "PhoneId": 601,
-      "ContactName": "Simonis-Berge",
-      "ContactId": 888,
-      "SaleId": 629,
-      "Mrmrs": "consequatur",
-      "Firstname": "Liana",
-      "MiddleName": "Kuvalis-Leffler",
-      "Lastname": "Becker",
-      "SaleStakeholderId": 818,
-      "Rank": 955,
-      "Phone": "449.449.0296 x802",
+      "StakeholderRoleName": "Bogisich, Abshire and Becker",
+      "Comment": "nobis",
+      "StakeholderRoleId": 960,
+      "CountryId": 102,
+      "PersonId": 385,
+      "EmailDescription": "jacquelyn_beer@wilkinson.uk",
+      "EmailId": 710,
+      "EmailAddress": "hattie@schmitt.uk",
+      "PhoneId": 537,
+      "ContactName": "Ebert, Adams and Stamm",
+      "ContactId": 376,
+      "SaleId": 150,
+      "Mrmrs": "qui",
+      "Firstname": "Raegan",
+      "MiddleName": "Fritsch LLC",
+      "Lastname": "O'Keefe",
+      "SaleStakeholderId": 197,
+      "Rank": 193,
+      "Phone": "(614)098-4285 x98731",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 491
+          "FieldLength": 379
         }
       }
     }
   ],
-  "ActiveErpLinks": 573,
+  "ActiveErpLinks": 119,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Edmund Josue Abshire",
-    "SuperOffice:2": "Manley Heller I"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "excepturi",
-    "ExtraFields2": "et"
+    "ExtraFields1": "occaecati",
+    "ExtraFields2": "id"
   },
   "CustomFields": {
-    "CustomFields1": "sint",
-    "CustomFields2": "veritatis"
+    "CustomFields1": "adipisci",
+    "CustomFields2": "voluptatibus"
   },
-  "PublishEventDate": "2012-03-14T03:46:55.2538645+01:00",
-  "PublishTo": "2019-03-02T03:46:55.2538645+01:00",
-  "PublishFrom": "2000-01-14T03:46:55.2538645+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2012-02-19T03:41:53.9963385+01:00",
+  "PublishTo": "2025-04-11T03:41:53.9963385+02:00",
+  "PublishFrom": "2011-03-20T03:41:53.9963385+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 568,
+      "VisibleId": 209,
       "Visibility": "All",
-      "DisplayValue": "enim",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 428
+          "FieldType": "System.String",
+          "FieldLength": 68
         }
       }
     },
     {
-      "VisibleId": 568,
+      "VisibleId": 209,
       "Visibility": "All",
-      "DisplayValue": "enim",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 428
+          "FieldType": "System.String",
+          "FieldLength": 68
         }
       }
     }
@@ -240,7 +240,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 503
+      "FieldLength": 764
     }
   }
 }

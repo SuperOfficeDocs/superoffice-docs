@@ -31,7 +31,7 @@ Returns all webhooks, according to filter criteria
 
 ```http
 GET /api/v1/Webhook?nameFilter=aut
-GET /api/v1/Webhook?eventFilter=assumenda
+GET /api/v1/Webhook?eventFilter=qui
 GET /api/v1/Webhook?statusFilter=Active
 ```
 
@@ -83,7 +83,7 @@ OK
 GET /api/v1/Webhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,28 +94,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 562,
-    "Name": "Ryan, Parker and Rempel",
+    "WebhookId": 618,
+    "Name": "Hammes-Veum",
     "Events": [
-      "modi",
-      "unde"
+      "dolore",
+      "rerum"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "placeat",
+    "Secret": "quos",
     "State": "Active",
-    "Type": "magnam",
+    "Type": "qui",
     "Headers": {
-      "Headers1": "fugit",
-      "Headers2": "quos"
+      "Headers1": "esse",
+      "Headers2": "expedita"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2001-05-04T03:47:00.5505518+02:00",
+    "Registered": "2021-05-22T03:41:59.2617427+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2015-09-28T03:47:00.5505518+02:00",
+    "Updated": "2001-09-25T03:41:59.2617427+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "marquis@okon.ca"
+    "ErrorsEmail": "rhett.kilback@krajcik.ca"
   }
 ]
 ```

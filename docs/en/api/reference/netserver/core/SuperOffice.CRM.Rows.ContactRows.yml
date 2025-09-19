@@ -50,7 +50,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.Rows
   summary: >-
-    Companies and Organizations.   This table features a special record containing information about the contact that owns the database.  
+    Companies and Organizations.
 
     Collection of ContactRow. Each element of the collection represents one row in the Contact
 

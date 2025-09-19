@@ -59,8 +59,8 @@ Values for statuses
 | Table|  Description |
 |------|-------------|
 |[associate](associate.md)  |Employees, resources and other users - except for External persons |
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
-|[person](person.md)  |Persons in a company or an organizations. All associates have a corresponding person record |
+|[contact](contact.md)  |Companies and Organizations. |
+|[person](person.md)  |Persons |
 |[project](project.md)  |Projects |
 |[StatusDef](statusdef.md)  |Status definitions. Name and description are in LocaleText for internationalization |
 

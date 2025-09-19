@@ -72,14 +72,14 @@ OK
 POST /api/v1/Agents/ErpSync/SaveErpSyncConnectorEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 709,
-  "DisplayName": "Ullrich, Connelly and Stoltenberg",
+  "ErpConnectorId": 644,
+  "DisplayName": "Kling-Bahringer",
   "URL": "http://www.example.com/",
-  "Deleted": false
+  "Deleted": true
 }
 ```
 
@@ -90,8 +90,8 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 800,
-  "DisplayName": "Runte, Kohler and Hickle",
+  "ErpConnectorId": 351,
+  "DisplayName": "Grady, Batz and Waters",
   "URL": "http://www.example.com/",
   "Deleted": false,
   "TableRight": null,
@@ -99,7 +99,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 488
+      "FieldLength": 164
     }
   }
 }

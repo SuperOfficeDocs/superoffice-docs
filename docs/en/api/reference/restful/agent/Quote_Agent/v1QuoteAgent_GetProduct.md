@@ -112,8 +112,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 840,
-  "ERPProductKey": "quasi"
+  "QuoteConnectionId": 246,
+  "ERPProductKey": "sit"
 }
 ```
 
@@ -124,73 +124,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 377,
-  "ERPProductKey": "suscipit",
-  "ERPPriceListKey": "voluptas",
-  "Name": "Kutch, Kessler and Fadel",
-  "Description": "Fully-configurable responsive software",
-  "Code": "iste",
-  "PriceUnit": "ut",
-  "QuantityUnit": "occaecati",
+  "ProductId": 217,
+  "ERPProductKey": "delectus",
+  "ERPPriceListKey": "sit",
+  "Name": "Gleichner-Graham",
+  "Description": "Streamlined optimizing instruction set",
+  "Code": "vel",
+  "PriceUnit": "sed",
+  "QuantityUnit": "recusandae",
   "IsSubscription": false,
-  "SubscriptionUnit": "quia",
-  "DefaultSubscriptionQuantity": 4481.62,
-  "ItemNumber": "1124968",
+  "SubscriptionUnit": "omnis",
+  "DefaultSubscriptionQuantity": 5058.276,
+  "ItemNumber": "636842",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nesciunt",
-  "ProductTypeKey": "quia",
-  "VAT": 14410.132,
-  "VATInfo": "enim",
-  "UnitCost": 19092.327999999998,
-  "UnitMinimumPrice": 23254.28,
-  "UnitListPrice": 20747.079999999998,
-  "InAssortment": true,
-  "Supplier": "nostrum",
-  "SupplierCode": "repellendus",
-  "Rights": "beatae",
-  "Rule": "et",
+  "ProductFamilyKey": "ea",
+  "ProductTypeKey": "omnis",
+  "VAT": 31151.96,
+  "VATInfo": "voluptas",
+  "UnitCost": 13902.423999999999,
+  "UnitMinimumPrice": 3494.41,
+  "UnitListPrice": 15187.364,
+  "InAssortment": false,
+  "Supplier": "est",
+  "SupplierCode": "fuga",
+  "Rights": "quasi",
+  "Rule": "omnis",
   "ExtraInfo": [
     {
-      "Name": "Huels, Becker and Lynch",
-      "Value": "qui",
+      "Name": "Hane Inc and Sons",
+      "Value": "tempore",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 306
+          "FieldLength": 248
         }
       }
     },
     {
-      "Name": "Huels, Becker and Lynch",
-      "Value": "qui",
+      "Name": "Hane Inc and Sons",
+      "Value": "tempore",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 306
+          "FieldLength": 248
         }
       }
     }
   ],
-  "RawExtraInfo": "voluptas",
-  "ExtraField1": "reprehenderit",
-  "ExtraField2": "placeat",
-  "ExtraField3": "possimus",
-  "ExtraField4": "nostrum",
-  "ExtraField5": "numquam",
-  "InStock": 12426.31,
+  "RawExtraInfo": "occaecati",
+  "ExtraField1": "facere",
+  "ExtraField2": "itaque",
+  "ExtraField3": "velit",
+  "ExtraField4": "alias",
+  "ExtraField5": "aut",
+  "InStock": 18377.775999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldLength": 231
     }
   }
 }

@@ -87,22 +87,22 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Gorczany-D'Amore",
+  "ProviderName": "Murray-Macejkovic",
   "Restrictions": [
     {
-      "Name": "Anderson-Walter",
-      "Operator": "natus",
+      "Name": "O'Keefe-Farrell",
+      "Operator": "ut",
       "Values": [
-        "inventore",
-        "occaecati"
+        "consequatur",
+        "quae"
       ],
       "DisplayValues": [
-        "eos",
-        "consequatur"
+        "in",
+        "fuga"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -110,9 +110,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 906,
+      "InterParenthesis": 826,
       "InterOperator": "And",
-      "UniqueHash": 993
+      "UniqueHash": 927
     }
   ]
 }
@@ -126,19 +126,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Gerhold, Sawayn and Gusikowski",
-    "DisplayTooltip": "amet",
+    "DisplayName": "Kuhic LLC",
+    "DisplayTooltip": "dolores",
     "DisplayType": "assumenda",
-    "CanOrderBy": false,
-    "Name": "Collier, Stiedemann and Kutch",
-    "CanRestrictBy": true,
-    "RestrictionType": "aliquid",
-    "RestrictionListName": "Effertz Inc and Sons",
+    "CanOrderBy": true,
+    "Name": "Feeney Group",
+    "CanRestrictBy": false,
+    "RestrictionType": "voluptatem",
+    "RestrictionListName": "O'Reilly LLC",
     "IsVisible": false,
-    "ExtraInfo": "modi",
-    "Width": "repellat",
-    "IconHint": "minus",
-    "HeadingIconHint": "minima"
+    "ExtraInfo": "et",
+    "Width": "rerum",
+    "IconHint": "illo",
+    "HeadingIconHint": "aut"
   }
 ]
 ```

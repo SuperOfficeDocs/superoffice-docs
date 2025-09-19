@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 696,
-  "Name": "Mitchell-Flatley",
-  "Tooltip": "harum",
-  "Deleted": false,
-  "UdListDefinitionId": 60,
-  "Rank": 792,
+  "Id": 324,
+  "Name": "Flatley, Pacocha and Miller",
+  "Tooltip": "atque",
+  "Deleted": true,
+  "UdListDefinitionId": 68,
+  "Rank": 499,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 143
+      "FieldType": "System.Int32",
+      "FieldLength": 227
     }
   }
 }

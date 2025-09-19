@@ -93,7 +93,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 17
+  "ShipmentAddrId": 524
 }
 ```
 
@@ -104,28 +104,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2023-01-25T03:46:55.0038735+01:00",
+  "SendingTime": "2006-11-27T03:41:53.7463488+01:00",
   "Status": "Blocked",
-  "ShipmentId": 679,
-  "ShipmentDescription": "Optimized explicit service-desk",
-  "FromAddress": "aut",
-  "Configuration": 640,
-  "ContactId": 477,
-  "ContactName": "Reynolds, Mann and Maggio",
-  "PersonId": 769,
-  "PersonFullName": "Malcolm Grady",
-  "ShipmentType": "sit",
-  "MessageId": 9,
-  "MessageSubject": "repudiandae",
-  "DocumentMessageId": 279,
-  "Opened": "2022-03-11T03:46:55.0038735+01:00",
-  "LinkClicks": 611,
+  "ShipmentId": 660,
+  "ShipmentDescription": "Open-architected dynamic info-mediaries",
+  "FromAddress": "cupiditate",
+  "Configuration": 586,
+  "ContactId": 101,
+  "ContactName": "Kemmer-Quigley",
+  "PersonId": 971,
+  "PersonFullName": "Mrs. Junior Tressie Herman IV",
+  "ShipmentType": "ut",
+  "MessageId": 176,
+  "MessageSubject": "eos",
+  "DocumentMessageId": 912,
+  "Opened": "2021-03-21T03:41:53.7463488+01:00",
+  "LinkClicks": 951,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 513
+      "FieldLength": 986
     }
   }
 }

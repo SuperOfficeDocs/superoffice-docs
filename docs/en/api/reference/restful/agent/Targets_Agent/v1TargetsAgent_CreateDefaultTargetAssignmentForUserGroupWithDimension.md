@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 845,
-  "TargetDimensionId": 970
+  "UserGroupId": 750,
+  "TargetDimensionId": 91
 }
 ```
 
@@ -100,24 +100,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 290,
+    "TargetAssignmentInfoId": 31,
     "Values": [
-      340,
-      713
+      613,
+      182
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 759,
-    "DimensionListItemDisplayName": "Friesen, Gottlieb and Jones",
+    "DimensionListItem": 174,
+    "DimensionListItemDisplayName": "Orn LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 307
+        "FieldLength": 959
       }
     }
   }

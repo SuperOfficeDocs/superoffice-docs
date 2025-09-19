@@ -71,16 +71,16 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Sanford Inc and Sons",
-      "DisplayName": "Hilll, Kassulke and Cormier",
-      "DisplayTooltip": "nostrum",
-      "IsActive": true
+      "Name": "Wintheiser-Miller",
+      "DisplayName": "Keeling Group",
+      "DisplayTooltip": "aut",
+      "IsActive": false
     },
     {
-      "Name": "Sanford Inc and Sons",
-      "DisplayName": "Hilll, Kassulke and Cormier",
-      "DisplayTooltip": "nostrum",
-      "IsActive": true
+      "Name": "Wintheiser-Miller",
+      "DisplayName": "Keeling Group",
+      "DisplayTooltip": "aut",
+      "IsActive": false
     }
   ]
 }

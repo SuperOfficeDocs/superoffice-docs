@@ -85,25 +85,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 844,
-  "Value": "atque",
+  "TaskListItemId": 56,
+  "Value": "nostrum",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "sunt",
-  "Deleted": false,
-  "IntentId": 424,
-  "Rank": 581,
+  "Tooltip": "nulla",
+  "Deleted": true,
+  "IntentId": 11,
+  "Rank": 625,
   "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
-  "IsDefaultPublished": true,
+  "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldType": "System.String",
+      "FieldLength": 285
     }
   }
 }

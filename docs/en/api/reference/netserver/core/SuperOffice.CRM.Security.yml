@@ -80,6 +80,7 @@ items:
   - SuperOffice.CRM.Security.SentryQueryAssociateTableUpdater
   - SuperOffice.CRM.Security.SentryQueryBinaryObjectableUpdater
   - SuperOffice.CRM.Security.SentryQueryContactTableUpdater
+  - SuperOffice.CRM.Security.SentryQueryCustomObjectTableUpdater
   - SuperOffice.CRM.Security.SentryQueryDashBoardTableUpdater
   - SuperOffice.CRM.Security.SentryQueryDashboardTileTableUpdater
   - SuperOffice.CRM.Security.SentryQueryDocDocumentTableUpdater
@@ -322,6 +323,13 @@ references:
   name: CustomObjectSentryQueryInfo
   nameWithType: CustomObjectSentryQueryInfo
   fullName: SuperOffice.CRM.Security.CustomObjectSentryQueryInfo
+- uid: SuperOffice.CRM.Security.SentryQueryCustomObjectTableUpdater
+  commentId: T:SuperOffice.CRM.Security.SentryQueryCustomObjectTableUpdater
+  isExternal: true
+  href: SuperOffice.CRM.Security.SentryQueryCustomObjectTableUpdater.html
+  name: SentryQueryCustomObjectTableUpdater
+  nameWithType: SentryQueryCustomObjectTableUpdater
+  fullName: SuperOffice.CRM.Security.SentryQueryCustomObjectTableUpdater
 - uid: SuperOffice.CRM.Security.DashboardSentry
   commentId: T:SuperOffice.CRM.Security.DashboardSentry
   isExternal: true

@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 100,
-  "Name": "Abernathy Inc and Sons",
-  "Tooltip": "sequi",
+  "Id": 752,
+  "Name": "Hand, Leuschke and Keebler",
+  "Tooltip": "voluptate",
   "Deleted": false,
-  "Rank": 203,
+  "Rank": 457,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "quia",
+  "ListType": "quidem",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 859,
-  "Name": "Metz, Greenholt and Kemmer",
-  "Tooltip": "voluptates",
-  "Deleted": true,
-  "Rank": 927,
+  "Id": 411,
+  "Name": "Hudson, Rowe and Dietrich",
+  "Tooltip": "distinctio",
+  "Deleted": false,
+  "Rank": 907,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": false,
+  "ListType": "aliquam",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 478
+      "FieldType": "System.Int32",
+      "FieldLength": 60
     }
   }
 }

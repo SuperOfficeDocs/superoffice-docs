@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 196,
+  "TargetYear": 920,
   "EntityType": "None"
 }
 ```
@@ -96,30 +96,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 43,
-  "Year": 51,
+  "TargetGroupId": 563,
+  "Year": 719,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 597,
+      "TargetAssignmentInfoId": 654,
       "Values": [
-        425,
-        361
+        210,
+        274
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 899,
-      "DimensionListItemDisplayName": "Beier Inc and Sons",
+      "DimensionListItem": 163,
+      "DimensionListItemDisplayName": "Bogan, Considine and Mueller",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 188
+          "FieldLength": 594
         }
       }
     }
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 212
+      "FieldLength": 878
     }
   }
 }

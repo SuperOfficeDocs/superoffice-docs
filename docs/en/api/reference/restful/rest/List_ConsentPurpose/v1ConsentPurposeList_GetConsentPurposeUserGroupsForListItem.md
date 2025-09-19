@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,56 +87,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 502,
-    "Name": "Boehm-Heller",
-    "ToolTip": "Nihil saepe et autem pariatur ut.",
-    "Deleted": true,
-    "Rank": 337,
-    "Type": "natus",
-    "ColorBlock": 394,
-    "IconHint": "at",
+    "Id": 970,
+    "Name": "Abernathy Group",
+    "ToolTip": "Deserunt minus praesentium quos rerum amet rerum.",
+    "Deleted": false,
+    "Rank": 770,
+    "Type": "sunt",
+    "ColorBlock": 852,
+    "IconHint": "sit",
     "Selected": true,
-    "LastChanged": "2007-06-20T03:47:00.5974251+02:00",
+    "LastChanged": "2011-01-06T03:41:59.3711138+01:00",
     "ChildItems": [
       {
-        "Id": 64,
-        "Name": "Daniel, Sanford and Hamill",
-        "ToolTip": "Debitis ab iure consequatur ducimus.",
-        "Deleted": true,
-        "Rank": 882,
-        "Type": "qui",
-        "ColorBlock": 621,
-        "IconHint": "ullam",
+        "Id": 536,
+        "Name": "Hoppe Inc and Sons",
+        "ToolTip": "Est ratione.",
+        "Deleted": false,
+        "Rank": 960,
+        "Type": "nisi",
+        "ColorBlock": 6,
+        "IconHint": "ad",
         "Selected": true,
-        "LastChanged": "2015-11-13T03:47:00.5974251+01:00",
+        "LastChanged": "2010-01-13T03:41:59.3711138+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quis",
+        "ExtraInfo": "illo",
+        "StyleHint": "quos",
         "Hidden": false,
-        "FullName": "Sarai Zboncak",
+        "FullName": "Dr. Margarete Leffler I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 923
+            "FieldType": "System.Int32",
+            "FieldLength": 760
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "et",
-    "Hidden": true,
-    "FullName": "Miss Mustafa Spinka Sr.",
+    "ExtraInfo": "omnis",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Augustine Douglas Gutmann II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 190
+        "FieldType": "System.Int32",
+        "FieldLength": 589
       }
     }
   }

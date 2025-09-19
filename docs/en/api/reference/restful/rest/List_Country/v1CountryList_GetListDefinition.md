@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 503,
-  "Name": "Heathcote, Simonis and Botsford",
-  "Tooltip": "eos",
+  "Id": 315,
+  "Name": "Emard-Stiedemann",
+  "Tooltip": "commodi",
   "Deleted": false,
-  "Rank": 623,
-  "IsCustomList": false,
+  "Rank": 5,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
-  "InUseByUserDefinedFields": false,
+  "ListType": "illo",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 900
+      "FieldLength": 912
     }
   },
   "_Links": {

@@ -74,19 +74,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bahringer, Fay and Homenick",
-  "Delimiter": "perferendis",
-  "Flags": "velit",
-  "TotalItems": 377,
-  "UnreadItems": 597,
-  "Subscribed": false,
-  "EmailFolderId": 530,
+  "Name": "Pfeffer Inc and Sons",
+  "Delimiter": "suscipit",
+  "Flags": "ea",
+  "TotalItems": 135,
+  "UnreadItems": 357,
+  "Subscribed": true,
+  "EmailFolderId": 465,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 503
+      "FieldType": "System.String",
+      "FieldLength": 553
     }
   }
 }

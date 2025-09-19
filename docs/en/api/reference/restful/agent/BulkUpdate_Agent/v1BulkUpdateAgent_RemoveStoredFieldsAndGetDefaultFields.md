@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "VonRueden Inc and Sons",
-  "Context": "sapiente"
+  "TableName": "Kertzmann, Heaney and Franecki",
+  "Context": "temporibus"
 }
 ```
 
@@ -108,74 +108,74 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
+    "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "enim",
-    "ValueType": "omnis",
-    "Mandatory": false,
-    "EncodedDisplayName": "Tremblay-Swaniawski",
-    "EncodedDisplayDescription": "Down-sized mission-critical matrix",
-    "IconHint": "consequatur",
+    "Key": "voluptatem",
+    "ValueType": "rerum",
+    "Mandatory": true,
+    "EncodedDisplayName": "Conn LLC",
+    "EncodedDisplayDescription": "Multi-layered incremental matrices",
+    "IconHint": "id",
     "ControlInfos": [
       {
-        "Type": "sunt",
-        "Label": "omnis",
-        "Dimension": 774,
-        "ListProviderName": "Towne Inc and Sons",
-        "ListProviderExtraInfo": "nesciunt",
-        "ListProviderPrimaryKeyName": "Turner-Roberts",
-        "ListLeadText": "qui",
+        "Type": "in",
+        "Label": "voluptas",
+        "Dimension": 877,
+        "ListProviderName": "Leuschke Group",
+        "ListProviderExtraInfo": "officiis",
+        "ListProviderPrimaryKeyName": "Price Inc and Sons",
+        "ListLeadText": "quia",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 120
+            "FieldLength": 841
           }
         }
       }
     ],
-    "EncodedDataCaption": "eos",
-    "EncodedDataCaptionDescription": "Customer-focused dynamic support",
-    "CurrentOperationType": "quisquam",
+    "EncodedDataCaption": "quo",
+    "EncodedDataCaptionDescription": "Horizontal real-time interface",
+    "CurrentOperationType": "reprehenderit",
     "Values": [
-      "modi",
-      "neque"
+      "quis",
+      "molestiae"
     ],
     "DisplayValues": [
-      "animi",
-      "impedit"
+      "ipsum",
+      "ipsam"
     ],
     "OperationInfos": [
       {
-        "Key": "nobis",
-        "EncodedDisplayName": "McCullough Inc and Sons",
+        "Key": "excepturi",
+        "EncodedDisplayName": "Stanton, Jacobs and Runolfsson",
         "EncodedLeadTexts": [
-          "totam",
-          "cum"
+          "ipsa",
+          "soluta"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 933
+            "FieldType": "System.Int32",
+            "FieldLength": 937
           }
         }
       },
       {
-        "Key": "nobis",
-        "EncodedDisplayName": "McCullough Inc and Sons",
+        "Key": "excepturi",
+        "EncodedDisplayName": "Stanton, Jacobs and Runolfsson",
         "EncodedLeadTexts": [
-          "totam",
-          "cum"
+          "ipsa",
+          "soluta"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 933
+            "FieldType": "System.Int32",
+            "FieldLength": 937
           }
         }
       }

@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,24 +74,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 235,
+  "TargetDimensionId": 57,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "nobis",
-  "DimensionListName": "Simonis-Schaefer",
-  "DimensionListId": 411,
-  "DimensionListLabel": "ab",
+  "DimensionListField": "rem",
+  "DimensionListName": "Terry, Waters and Schimmel",
+  "DimensionListId": 583,
+  "DimensionListLabel": "molestiae",
   "SelectedDimensions": [
-    253,
-    633
+    876,
+    781
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 141
+      "FieldType": "System.Int32",
+      "FieldLength": 661
     }
   }
 }

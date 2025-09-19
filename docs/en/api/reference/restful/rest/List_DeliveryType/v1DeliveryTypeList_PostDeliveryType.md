@@ -74,16 +74,16 @@ OK
 POST /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 724,
-  "Name": "Rosenbaum, Torphy and Yundt",
-  "Tooltip": "sunt",
+  "Id": 623,
+  "Name": "Little-Kohler",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "UdListDefinitionId": 420,
-  "Rank": 212
+  "UdListDefinitionId": 660,
+  "Rank": 609
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 871,
-  "Name": "Lakin Inc and Sons",
-  "Tooltip": "fugit",
+  "Id": 755,
+  "Name": "O'Hara LLC",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "UdListDefinitionId": 36,
-  "Rank": 817,
+  "UdListDefinitionId": 522,
+  "Rank": 557,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 104
+      "FieldLength": 36
     }
   }
 }

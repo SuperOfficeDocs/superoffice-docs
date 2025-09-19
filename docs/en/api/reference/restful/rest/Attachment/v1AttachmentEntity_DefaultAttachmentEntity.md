@@ -65,7 +65,7 @@ OK
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,20 +75,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 839,
-  "Name": "Mitchell Inc and Sons",
-  "ContentType": "neque",
-  "AttSize": 317,
-  "InlineImage": true,
-  "ContentId": "id",
-  "AuthKey": "debitis",
+  "AttachmentId": 613,
+  "Name": "Weissnat Inc and Sons",
+  "ContentType": "dolores",
+  "AttSize": 364,
+  "InlineImage": false,
+  "ContentId": "sit",
+  "AuthKey": "perspiciatis",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 41
+      "FieldLength": 423
     }
   }
 }

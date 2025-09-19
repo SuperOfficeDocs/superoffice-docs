@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,45 +77,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 795,
-  "MessageId": "error",
-  "Subject": "consequatur",
+  "ServerId": 733,
+  "MessageId": "fugit",
+  "Subject": "qui",
   "From": null,
   "To": [
     {
-      "ContactId": 842,
-      "ContactName": "Haag-Pollich",
-      "PersonId": 176,
-      "PersonName": "Boyle Inc and Sons",
-      "AssociateId": 205,
-      "Address": "nobis",
-      "EmailId": 141,
+      "ContactId": 193,
+      "ContactName": "Koepp Inc and Sons",
+      "PersonId": 326,
+      "PersonName": "Kuhlman, Leffler and Rogahn",
+      "AssociateId": 440,
+      "Address": "iste",
+      "EmailId": 55,
       "DuplicatePersonIds": [
-        999,
-        633
+        443,
+        303
       ],
-      "Name": "Hartmann, Spinka and Gerhold",
+      "Name": "Labadie-Hackett",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 870
+          "FieldLength": 293
         }
       }
     }
   ],
-  "Sent": "2004-04-26T03:46:54.7538824+02:00",
+  "Sent": "2003-02-25T03:41:53.4963592+01:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 816,
+  "Size": 861,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 36
+      "FieldLength": 836
     }
   }
 }

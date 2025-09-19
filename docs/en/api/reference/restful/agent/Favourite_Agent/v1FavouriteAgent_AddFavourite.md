@@ -72,10 +72,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Jaskolski Inc and Sons",
-  "RecordId": 919,
-  "AssociateId": 466,
-  "ExtraInfo": "quaerat"
+  "TableName": "Kutch LLC",
+  "RecordId": 875,
+  "AssociateId": 496,
+  "ExtraInfo": "atque"
 }
 ```
 

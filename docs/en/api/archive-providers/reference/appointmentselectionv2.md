@@ -743,7 +743,7 @@ This is the archive Provider for the Selection appouintment archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentSelectionV2?$select=contact/searchPhone/description,person/personNumber,person/restrictionAddress/formattedAddress,person/correspondingAssociate/contactDepartment,associate/fullName
+GET /api/v1/archive/AppointmentSelectionV2?$select=contact/searchPhone/description,sale/recordType,sale/saleUdef/SuperOffice:5
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

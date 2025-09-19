@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,30 +88,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 756,
-    "Section": "neque",
-    "Key": "ut",
-    "Name": "Rohan-Connelly",
+    "PrefDescId": 660,
+    "Section": "aspernatur",
+    "Key": "fugit",
+    "Name": "Considine-Krajcik",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Public-key modular forecast",
-    "IsBuiltin": false,
-    "TableName": "Larson-Doyle",
-    "UserDefinedListId": 384,
-    "Rank": 777,
-    "SubGroup": "doloribus",
-    "MinLevel": 598,
-    "MaxValue": 869,
-    "MinValue": 919,
-    "RequiredLicense": "totam",
+    "Description": "Phased motivating orchestration",
+    "IsBuiltin": true,
+    "TableName": "Gusikowski LLC",
+    "UserDefinedListId": 576,
+    "Rank": 842,
+    "SubGroup": "eos",
+    "MinLevel": 275,
+    "MaxValue": 451,
+    "MinValue": 87,
+    "RequiredLicense": "ipsa",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 742
+        "FieldType": "System.String",
+        "FieldLength": 909
       }
     }
   }

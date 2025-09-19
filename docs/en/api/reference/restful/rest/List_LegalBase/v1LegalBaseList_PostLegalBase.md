@@ -80,11 +80,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 686,
-  "Name": "Beer LLC",
-  "Tooltip": "laboriosam",
-  "Rank": 871,
-  "Key": "cumque",
+  "LegalBaseId": 877,
+  "Name": "Howell LLC",
+  "Tooltip": "qui",
+  "Rank": 782,
+  "Key": "qui",
   "Deleted": false
 }
 ```
@@ -96,18 +96,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 199,
-  "Name": "Howell LLC",
-  "Tooltip": "vitae",
-  "Rank": 279,
-  "Key": "voluptatum",
-  "Deleted": true,
+  "LegalBaseId": 94,
+  "Name": "Padberg-Wilkinson",
+  "Tooltip": "totam",
+  "Rank": 985,
+  "Key": "sit",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 476
+      "FieldType": "System.String",
+      "FieldLength": 24
     }
   }
 }

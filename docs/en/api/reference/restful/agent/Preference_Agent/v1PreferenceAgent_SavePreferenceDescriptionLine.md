@@ -74,16 +74,16 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 485,
-  "PrefDescId": 658,
-  "PrefValue": "explicabo",
-  "PrefShowValue": "perspiciatis",
-  "Description": "Horizontal asynchronous success",
-  "IsBuiltin": false
+  "PrefDescLineId": 317,
+  "PrefDescId": 494,
+  "PrefValue": "esse",
+  "PrefShowValue": "corrupti",
+  "Description": "Progressive bandwidth-monitored functionalities",
+  "IsBuiltin": true
 }
 ```
 
@@ -94,18 +94,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 233,
-  "PrefDescId": 369,
-  "PrefValue": "nisi",
-  "PrefShowValue": "porro",
-  "Description": "Assimilated fresh-thinking instruction set",
-  "IsBuiltin": true,
+  "PrefDescLineId": 709,
+  "PrefDescId": 510,
+  "PrefValue": "veniam",
+  "PrefShowValue": "provident",
+  "Description": "Programmable 5th generation adapter",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldLength": 482
     }
   }
 }

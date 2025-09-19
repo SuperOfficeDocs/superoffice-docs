@@ -10,6 +10,7 @@ items:
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.HugoAI_User
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Issuer
+  - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.NumberOfAttempts
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.RagAI
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.RequiresClaims
   - SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.SigningKey
@@ -149,6 +150,27 @@ items:
       type: System.Boolean
     content.vb: Public Property RequiresClaims As Boolean
   overload: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.RequiresClaims*
+- uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.NumberOfAttempts
+  commentId: P:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.NumberOfAttempts
+  id: NumberOfAttempts
+  parent: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig
+  langs:
+  - csharp
+  - vb
+  name: NumberOfAttempts
+  nameWithType: HttpHelper.HttpServiceJwtConfig.NumberOfAttempts
+  fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.NumberOfAttempts
+  type: Property
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Util
+  syntax:
+    content: public int? NumberOfAttempts { get; set; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Int32}
+    content.vb: Public Property NumberOfAttempts As Integer?
+  overload: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.NumberOfAttempts*
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Timeout
   commentId: P:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Timeout
   id: Timeout
@@ -1028,6 +1050,64 @@ references:
   nameWithType.vb: Boolean
   fullName.vb: Boolean
   name.vb: Boolean
+- uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.NumberOfAttempts*
+  commentId: Overload:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.NumberOfAttempts
+  isExternal: true
+  href: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.html#SuperOffice_Util_HttpHelper_HttpServiceJwtConfig_NumberOfAttempts
+  name: NumberOfAttempts
+  nameWithType: HttpHelper.HttpServiceJwtConfig.NumberOfAttempts
+  fullName: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.NumberOfAttempts
+- uid: System.Nullable{System.Int32}
+  commentId: T:System.Nullable{System.Int32}
+  parent: System
+  definition: System.Nullable`1
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int?
+  nameWithType: int?
+  fullName: int?
+  nameWithType.vb: Integer?
+  fullName.vb: Integer?
+  name.vb: Integer?
+  spec.csharp:
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+  spec.vb:
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '?'
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.nullable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
 - uid: SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Timeout*
   commentId: Overload:SuperOffice.Util.HttpHelper.HttpServiceJwtConfig.Timeout
   isExternal: true

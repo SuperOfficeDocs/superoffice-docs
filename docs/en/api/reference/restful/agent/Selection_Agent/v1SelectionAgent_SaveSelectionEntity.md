@@ -144,60 +144,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Diverse value-added solution",
-  "Postit": "nam",
+  "Description": "Streamlined context-sensitive initiative",
+  "Postit": "laboriosam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 203,
-  "IncludePerson": 482,
+  "GroupIdx": 953,
+  "IncludePerson": 979,
   "MemberCount": 99.99,
-  "Name": "Renner LLC",
-  "PostitTextId": 106,
-  "CreatedDate": "2012-06-28T03:46:55.3007553+02:00",
-  "SelectionId": 906,
-  "SoundEx": "commodi",
-  "Source": 777,
-  "TextId": 525,
-  "UpdatedDate": "2000-03-10T03:46:55.3007553+01:00",
-  "UpdatedCount": 869,
-  "Visibility": 452,
+  "Name": "Reynolds Group",
+  "PostitTextId": 360,
+  "CreatedDate": "2014-10-19T03:41:54.0275871+02:00",
+  "SelectionId": 662,
+  "SoundEx": "repellendus",
+  "Source": 81,
+  "TextId": 390,
+  "UpdatedDate": "2022-09-22T03:41:54.0275871+02:00",
+  "UpdatedCount": 51,
+  "Visibility": 592,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 704,
-  "TargetTableName": "Champlin, Strosin and Baumbach",
+  "TargetTableNumber": 199,
+  "TargetTableName": "Prosacco-Ritchie",
   "Completed": false,
-  "LeftSelectionId": 557,
-  "RightSelectionId": 684,
+  "LeftSelectionId": 986,
+  "RightSelectionId": 428,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Zemlak, Schmidt and Runte",
-  "ShadowProviderName": "Kerluke-Heller",
-  "ChartKey": "expedita",
-  "LastLoaded": "2003-11-17T03:46:55.3007553+01:00",
-  "LastLoadedBy": 84,
+  "MainProviderName": "Kemmer, Cremin and Dietrich",
+  "ShadowProviderName": "Treutel-Toy",
+  "ChartKey": "id",
+  "LastLoaded": "2012-03-04T03:41:54.0275871+01:00",
+  "LastLoadedBy": 303,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2024-02-12T03:46:55.3007553+01:00",
-  "LastMembershipChangeBy": 654,
+  "LastMembershipChange": "1999-08-13T03:41:54.0275871+02:00",
+  "LastMembershipChangeBy": 899,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "natus",
-  "MemberTabHeading": "tempore",
-  "MailingsProviderName": "Heathcote Group",
-  "DashboardTileDefinitionId": 164,
+  "MainHeading": "earum",
+  "MemberTabHeading": "sint",
+  "MailingsProviderName": "Kovacek Group",
+  "DashboardTileDefinitionId": 517,
   "VisibleFor": [
     {
-      "VisibleId": 11,
+      "VisibleId": 637,
       "Visibility": "All",
-      "DisplayValue": "quaerat"
+      "DisplayValue": "voluptatem"
     },
     {
-      "VisibleId": 11,
+      "VisibleId": 637,
       "Visibility": "All",
-      "DisplayValue": "quaerat"
+      "DisplayValue": "voluptatem"
     }
   ]
 }
@@ -210,70 +210,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Ameliorated dynamic extranet",
-  "Postit": "sequi",
+  "Description": "Organic transitional monitoring",
+  "Postit": "laborum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 502,
-  "IncludePerson": 129,
+  "GroupIdx": 341,
+  "IncludePerson": 391,
   "MemberCount": 99.99,
-  "Name": "Hammes-Kertzmann",
-  "PostitTextId": 627,
-  "CreatedDate": "2001-02-15T03:46:55.3007553+01:00",
-  "SelectionId": 56,
-  "SoundEx": "est",
-  "Source": 388,
-  "TextId": 845,
-  "UpdatedDate": "2013-01-15T03:46:55.3007553+01:00",
-  "UpdatedCount": 836,
-  "Visibility": 13,
+  "Name": "Boyle Group",
+  "PostitTextId": 516,
+  "CreatedDate": "2021-03-07T03:41:54.0432111+01:00",
+  "SelectionId": 194,
+  "SoundEx": "repellat",
+  "Source": 557,
+  "TextId": 428,
+  "UpdatedDate": "2023-04-26T03:41:54.0432111+02:00",
+  "UpdatedCount": 473,
+  "Visibility": 219,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 699,
-  "TargetTableName": "Hane Inc and Sons",
+  "CompanyUnique": false,
+  "TargetTableNumber": 200,
+  "TargetTableName": "Lindgren, Shanahan and Dickinson",
   "Completed": false,
-  "LeftSelectionId": 732,
-  "RightSelectionId": 617,
+  "LeftSelectionId": 637,
+  "RightSelectionId": 41,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Leuschke-Ondricka",
-  "ShadowProviderName": "Cole-Hahn",
-  "ChartKey": "possimus",
-  "LastLoaded": "2020-06-16T03:46:55.3007553+02:00",
-  "LastLoadedBy": 127,
+  "MainProviderName": "Grimes Group",
+  "ShadowProviderName": "Parisian LLC",
+  "ChartKey": "dolor",
+  "LastLoaded": "2007-05-31T03:41:54.0432111+02:00",
+  "LastLoadedBy": 386,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2006-04-20T03:46:55.3007553+02:00",
-  "LastMembershipChangeBy": 220,
+  "LastMembershipChange": "2017-05-15T03:41:54.0432111+02:00",
+  "LastMembershipChangeBy": 303,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "asperiores",
-  "MemberTabHeading": "vitae",
-  "MailingsProviderName": "Parker Inc and Sons",
-  "DashboardTileDefinitionId": 535,
+  "MainHeading": "atque",
+  "MemberTabHeading": "est",
+  "MailingsProviderName": "O'Conner, Pagac and Stark",
+  "DashboardTileDefinitionId": 961,
   "VisibleFor": [
     {
-      "VisibleId": 815,
+      "VisibleId": 508,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 675
+          "FieldLength": 200
         }
       }
     },
     {
-      "VisibleId": 815,
+      "VisibleId": 508,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 675
+          "FieldLength": 200
         }
       }
     }
@@ -283,7 +283,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 170
+      "FieldLength": 825
     }
   }
 }

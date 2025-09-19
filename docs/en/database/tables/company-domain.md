@@ -37,7 +37,7 @@ This table contains web-domains associated with a certain cust_company entry.
 
 | Table|  Description |
 |------|-------------|
-|[contact](contact.md)  |Companies and Organizations.   This table features a special record containing information about the contact that owns the database.   |
+|[contact](contact.md)  |Companies and Organizations. |
 
 
 ## Replication Flags

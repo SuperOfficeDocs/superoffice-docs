@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 392,
-  "CurrentAppointmentId": 276,
+  "SaleId": 858,
+  "CurrentAppointmentId": 503,
   "SkipCompleteCheck": true
 }
 ```
@@ -106,26 +106,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 149,
-  "Deleted": 318,
-  "DaysFuture": 788,
-  "Tooltip": "quaerat",
-  "Text": "et",
-  "TaskId": 857,
-  "SuggestedAppointmentId": 117,
-  "SaleTypeStageLinkId": 827,
-  "RegisteredAssociateId": 293,
-  "Rank": 314,
-  "ProjectTypeStatusLinkId": 305,
-  "Name": "Pollich Group",
-  "Duration": 308,
+  "AutoSuggest": 435,
+  "Deleted": 369,
+  "DaysFuture": 945,
+  "Tooltip": "ullam",
+  "Text": "amet",
+  "TaskId": 211,
+  "SuggestedAppointmentId": 464,
+  "SaleTypeStageLinkId": 3,
+  "RegisteredAssociateId": 887,
+  "Rank": 947,
+  "ProjectTypeStatusLinkId": 119,
+  "Name": "Frami LLC",
+  "Duration": 464,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 51
+      "FieldType": "System.String",
+      "FieldLength": 291
     }
   }
 }

@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "inventore"
+  "UniqueIdentifier": "non"
 }
 ```
 
@@ -101,23 +101,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "omnis",
-  "Name": "Steuber-Kris",
-  "Description": "Mandatory system-worthy installation",
-  "IncludeId": "ducimus",
-  "Source": "aut",
-  "Registered": "2020-09-28T03:46:54.5663888+02:00",
-  "RegisteredBy": "quasi",
-  "Updated": "2019-03-30T03:46:54.5663888+01:00",
-  "UpdatedBy": "tempora",
-  "Path": "cumque",
+  "UniqueIdentifier": "officia",
+  "Name": "Balistreri-Stoltenberg",
+  "Description": "Seamless holistic productivity",
+  "IncludeId": "libero",
+  "Source": "error",
+  "Registered": "2021-08-21T03:41:53.3401161+02:00",
+  "RegisteredBy": "consequuntur",
+  "Updated": "2006-06-05T03:41:53.3401161+02:00",
+  "UpdatedBy": "impedit",
+  "Path": "unde",
   "BlockedVerbs": "BlockAll",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 592
+      "FieldLength": 712
     }
   }
 }

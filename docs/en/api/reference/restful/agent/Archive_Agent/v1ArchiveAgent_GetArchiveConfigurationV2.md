@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Roberts, Gorczany and Weissnat",
-  "ProviderName": "Yundt Inc and Sons",
-  "Context": "molestiae",
-  "OwnerKeys": "sed"
+  "GuiName": "Beer, Hudson and Beier",
+  "ProviderName": "Dibbert-Kilback",
+  "Context": "officia",
+  "OwnerKeys": "aliquam"
 }
 ```
 
@@ -102,68 +102,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Hahn Inc and Sons",
-      "DisplayTooltip": "inventore",
-      "DisplayType": "quo",
+      "DisplayName": "Murphy, Huel and Greenholt",
+      "DisplayTooltip": "qui",
+      "DisplayType": "voluptas",
       "CanOrderBy": true,
-      "Name": "Rolfson, Bauch and Mills",
-      "CanRestrictBy": false,
-      "RestrictionType": "est",
-      "RestrictionListName": "Rice-Gislason",
+      "Name": "Abbott-Torphy",
+      "CanRestrictBy": true,
+      "RestrictionType": "suscipit",
+      "RestrictionListName": "Johns, Sanford and Bergstrom",
       "IsVisible": false,
-      "ExtraInfo": "consectetur",
-      "Width": "consequatur",
-      "IconHint": "illum",
-      "HeadingIconHint": "molestias"
+      "ExtraInfo": "libero",
+      "Width": "aut",
+      "IconHint": "unde",
+      "HeadingIconHint": "nemo"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 508,
-      "Name": "Sawayn, Effertz and Gerhold",
-      "ToolTip": "Accusamus deleniti est qui iure quia aperiam placeat.",
+      "Id": 741,
+      "Name": "Heidenreich-Barton",
+      "ToolTip": "Numquam ipsum.",
       "Deleted": true,
-      "Rank": 675,
-      "Type": "inventore",
-      "ColorBlock": 609,
-      "IconHint": "omnis",
+      "Rank": 269,
+      "Type": "esse",
+      "ColorBlock": 499,
+      "IconHint": "ratione",
       "Selected": false,
-      "LastChanged": "2016-04-15T03:46:54.2851489+02:00",
+      "LastChanged": "1998-11-05T03:41:53.0588794+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sed",
-      "StyleHint": "et",
+      "ExtraInfo": "et",
+      "StyleHint": "sed",
       "Hidden": false,
-      "FullName": "Melyssa Daugherty",
+      "FullName": "Kylie Dibbert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 860
+          "FieldLength": 698
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Krajcik LLC",
+      "Name": "Lubowitz-Paucek",
       "Direction": "ASC"
     },
     {
-      "Name": "Krajcik LLC",
+      "Name": "Lubowitz-Paucek",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "voluptatum",
+  "OwnerKeys": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 207
+      "FieldType": "System.Int32",
+      "FieldLength": 28
     }
   }
 }

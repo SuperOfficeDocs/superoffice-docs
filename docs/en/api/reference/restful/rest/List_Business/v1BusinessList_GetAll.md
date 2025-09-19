@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 117,
-    "Name": "Nader-Ziemann",
-    "Tooltip": "natus",
+    "Id": 376,
+    "Name": "Crona Group",
+    "Tooltip": "non",
     "Deleted": false,
-    "UdListDefinitionId": 692,
-    "Rank": 918,
+    "UdListDefinitionId": 651,
+    "Rank": 713,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldType": "System.String",
+        "FieldLength": 491
       }
     }
   }

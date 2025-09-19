@@ -71,7 +71,7 @@ OK
 GET /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 673,
-    "Name": "Kunde, Runolfsson and Gottlieb",
-    "Tooltip": "minima",
+    "Id": 313,
+    "Name": "Medhurst Group",
+    "Tooltip": "voluptatibus",
     "Deleted": false,
-    "UdListDefinitionId": 324,
-    "Rank": 351,
+    "UdListDefinitionId": 658,
+    "Rank": 80,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 770
+        "FieldLength": 554
       }
     }
   }

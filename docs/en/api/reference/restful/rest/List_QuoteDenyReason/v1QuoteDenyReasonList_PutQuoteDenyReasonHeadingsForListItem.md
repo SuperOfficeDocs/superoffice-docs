@@ -98,47 +98,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Name": "Murray-Mayert",
-    "ToolTip": "Nulla qui.",
-    "Deleted": true,
-    "Rank": 408,
-    "Type": "non",
-    "ColorBlock": 85,
-    "IconHint": "nulla",
-    "Selected": true,
-    "LastChanged": "1999-10-17T03:47:00.7692942+02:00",
+    "Id": 761,
+    "Name": "Effertz, Bruen and Hettinger",
+    "ToolTip": "Consectetur soluta alias.",
+    "Deleted": false,
+    "Rank": 214,
+    "Type": "porro",
+    "ColorBlock": 837,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2011-10-31T03:41:59.5742289+01:00",
     "ChildItems": [
       {
-        "Id": 785,
-        "Name": "Effertz-Walker",
-        "ToolTip": "Sed rem.",
+        "Id": 181,
+        "Name": "Bashirian-Abbott",
+        "ToolTip": "Natus voluptate aut architecto iste sapiente sed ex.",
         "Deleted": false,
-        "Rank": 709,
-        "Type": "autem",
-        "ColorBlock": 780,
-        "IconHint": "excepturi",
-        "Selected": false,
-        "LastChanged": "2000-01-25T03:47:00.7692942+01:00",
+        "Rank": 857,
+        "Type": "veritatis",
+        "ColorBlock": 9,
+        "IconHint": "iure",
+        "Selected": true,
+        "LastChanged": "2005-06-06T03:41:59.5742289+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "mollitia",
+        "ExtraInfo": "est",
+        "StyleHint": "laudantium",
         "Hidden": false,
-        "FullName": "Mrs. Hardy Nat Hintz PhD"
+        "FullName": "Ethyl Schulist"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "repellat",
-    "Hidden": false,
-    "FullName": "Mrs. Blanca Grimes"
+    "ExtraInfo": "ut",
+    "StyleHint": "ipsum",
+    "Hidden": true,
+    "FullName": "Vilma Beier DDS"
   }
 ]
 ```
@@ -151,56 +151,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 867,
-    "Name": "Jenkins, Kling and Mante",
-    "ToolTip": "Odit officiis.",
+    "Id": 774,
+    "Name": "Braun Group",
+    "ToolTip": "Id blanditiis.",
     "Deleted": false,
-    "Rank": 940,
-    "Type": "qui",
-    "ColorBlock": 358,
-    "IconHint": "dolores",
-    "Selected": true,
-    "LastChanged": "2014-01-05T03:47:00.7692942+01:00",
+    "Rank": 388,
+    "Type": "quod",
+    "ColorBlock": 774,
+    "IconHint": "eum",
+    "Selected": false,
+    "LastChanged": "2017-04-22T03:41:59.5742289+02:00",
     "ChildItems": [
       {
-        "Id": 367,
-        "Name": "Klocko-Blick",
-        "ToolTip": "Quod consequatur omnis odit omnis earum et.",
-        "Deleted": false,
-        "Rank": 69,
+        "Id": 919,
+        "Name": "Wehner-Bogisich",
+        "ToolTip": "Dolores vitae et.",
+        "Deleted": true,
+        "Rank": 661,
         "Type": "quasi",
-        "ColorBlock": 694,
-        "IconHint": "reiciendis",
-        "Selected": true,
-        "LastChanged": "2015-05-19T03:47:00.7692942+02:00",
+        "ColorBlock": 365,
+        "IconHint": "asperiores",
+        "Selected": false,
+        "LastChanged": "2008-06-28T03:41:59.5742289+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Pedro Spencer V",
+        "ExtraInfo": "nostrum",
+        "StyleHint": "dolorum",
+        "Hidden": false,
+        "FullName": "Dr. Elliot Jeanne O'Kon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 130
+            "FieldType": "System.String",
+            "FieldLength": 521
           }
         }
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "natus",
+    "ExtraInfo": "itaque",
+    "StyleHint": "quidem",
     "Hidden": false,
-    "FullName": "Gene Crona",
+    "FullName": "Mrs. Francisco Cyrus Gulgowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 114
+        "FieldType": "System.Int32",
+        "FieldLength": 812
       }
     }
   }

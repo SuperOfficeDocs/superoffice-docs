@@ -26,7 +26,7 @@ Deletes the CustomerCenterConfig
 | customerCenterConfigId | int32 | **Required** The identity of the CustomerCenterConfig |
 
 ```http
-POST /api/v1/Agents/CustomerService/DeleteCustomerCenterConfig?customerCenterConfigId=106
+POST /api/v1/Agents/CustomerService/DeleteCustomerCenterConfig?customerCenterConfigId=147
 ```
 
 

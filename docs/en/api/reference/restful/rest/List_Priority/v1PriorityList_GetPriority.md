@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/Priority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 253,
-  "Name": "Walter-Ritchie",
-  "Tooltip": "aliquid",
+  "Id": 174,
+  "Name": "Jewess Group",
+  "Tooltip": "quae",
   "Deleted": false,
-  "UdListDefinitionId": 741,
-  "Rank": 176,
+  "UdListDefinitionId": 145,
+  "Rank": 813,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 780
+      "FieldType": "System.String",
+      "FieldLength": 421
     }
   }
 }

@@ -54,6 +54,8 @@ content_type: reference
 
 * [POST Agents/Diagnostics/PerformTasksAfterUpgrade](v1DiagnosticsAgent_PerformTasksAfterUpgrade.md)
 
+* [POST Agents/Diagnostics/PerformTasksAfterCustomObjectTableCreated](v1DiagnosticsAgent_PerformTasksAfterCustomObjectTableCreated.md)
+
 * [POST Agents/Diagnostics/PerformTasksAfterCustomObjectTableDeleted](v1DiagnosticsAgent_PerformTasksAfterCustomObjectTableDeleted.md)
 
 * [POST Agents/Diagnostics/AddWebAppUsage](v1DiagnosticsAgent_AddWebAppUsage.md)

@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Goldner-Corkery",
-  "DeviceName": "Hermann, Ankunding and Pollich"
+  "ApplicationName": "Schimmel LLC",
+  "DeviceName": "Hodkiewicz-Cassin"
 }
 ```
 
@@ -99,21 +99,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 186,
-  "Name": "Ratke Inc and Sons",
-  "CreatedDate": "1998-09-01T03:46:54.847629+02:00",
-  "UpdatedDate": "2022-06-03T03:46:54.847629+02:00",
-  "AssociateFullName": "Brigitte Williamson",
-  "CreatedBy": "rem",
-  "UpdatedBy": "laudantium",
-  "DeviceIdentifier": "expedita",
-  "ForeignAppId": 927,
+  "ForeignDeviceId": 88,
+  "Name": "Sanford Inc and Sons",
+  "CreatedDate": "2006-09-09T03:41:53.5901046+02:00",
+  "UpdatedDate": "2021-05-23T03:41:53.5901046+02:00",
+  "AssociateFullName": "Bulah Carlee Treutel Jr.",
+  "CreatedBy": "et",
+  "UpdatedBy": "ut",
+  "DeviceIdentifier": "vitae",
+  "ForeignAppId": 972,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 775
+      "FieldType": "System.Int32",
+      "FieldLength": 714
     }
   }
 }

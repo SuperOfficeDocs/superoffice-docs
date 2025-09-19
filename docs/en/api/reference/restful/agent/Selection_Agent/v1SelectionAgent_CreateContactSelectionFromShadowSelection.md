@@ -121,8 +121,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 876,
-  "Name": "Goodwin, Cormier and Kreiger"
+  "SelectionId": 255,
+  "Name": "Nikolaus, Maggio and Feil"
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Secured systemic help-desk",
-  "Postit": "aut",
+  "Description": "Assimilated assymetric archive",
+  "Postit": "dolorum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 321,
-  "IncludePerson": 305,
+  "GroupIdx": 927,
+  "IncludePerson": 222,
   "MemberCount": 99.99,
-  "Name": "Rath-Gulgowski",
-  "PostitTextId": 865,
-  "CreatedDate": "2008-04-15T03:46:55.3944846+02:00",
-  "SelectionId": 267,
-  "SoundEx": "modi",
-  "Source": 620,
-  "TextId": 34,
-  "UpdatedDate": "2015-02-10T03:46:55.3944846+01:00",
-  "UpdatedCount": 571,
-  "Visibility": 107,
+  "Name": "Smitham, Dickinson and Kshlerin",
+  "PostitTextId": 888,
+  "CreatedDate": "2010-01-04T03:41:54.0588353+01:00",
+  "SelectionId": 811,
+  "SoundEx": "natus",
+  "Source": 689,
+  "TextId": 700,
+  "UpdatedDate": "2018-04-02T03:41:54.0588353+02:00",
+  "UpdatedCount": 785,
+  "Visibility": 330,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 275,
-  "TargetTableName": "Hackett, Friesen and Tillman",
+  "TargetTableNumber": 276,
+  "TargetTableName": "Johnson Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 43,
-  "RightSelectionId": 744,
+  "LeftSelectionId": 80,
+  "RightSelectionId": 647,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Wolf, Macejkovic and West",
-  "ShadowProviderName": "Kirlin, Stark and Hermiston",
-  "ChartKey": "eos",
-  "LastLoaded": "2009-05-09T03:46:55.3944846+02:00",
-  "LastLoadedBy": 216,
+  "MainProviderName": "Frami-Jakubowski",
+  "ShadowProviderName": "Crooks-Schultz",
+  "ChartKey": "nisi",
+  "LastLoaded": "2015-07-19T03:41:54.0588353+02:00",
+  "LastLoadedBy": 827,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-10-06T03:46:55.3944846+02:00",
-  "LastMembershipChangeBy": 171,
+  "LastMembershipChange": "2003-03-06T03:41:54.0588353+01:00",
+  "LastMembershipChangeBy": 237,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "at",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Dicki-Bergnaum",
-  "DashboardTileDefinitionId": 470,
+  "MainHeading": "dolor",
+  "MemberTabHeading": "quaerat",
+  "MailingsProviderName": "Ullrich-Jewess",
+  "DashboardTileDefinitionId": 562,
   "VisibleFor": [
     {
-      "VisibleId": 549,
+      "VisibleId": 358,
       "Visibility": "All",
-      "DisplayValue": "repellendus",
+      "DisplayValue": "exercitationem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 106
+          "FieldType": "System.Int32",
+          "FieldLength": 882
         }
       }
     },
     {
-      "VisibleId": 549,
+      "VisibleId": 358,
       "Visibility": "All",
-      "DisplayValue": "repellendus",
+      "DisplayValue": "exercitationem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 106
+          "FieldType": "System.Int32",
+          "FieldLength": 882
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 524
+      "FieldType": "System.Int32",
+      "FieldLength": 732
     }
   }
 }

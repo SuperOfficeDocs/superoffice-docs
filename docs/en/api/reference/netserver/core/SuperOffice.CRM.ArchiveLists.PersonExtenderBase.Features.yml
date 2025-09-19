@@ -43,6 +43,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.ShallowContact
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.SupportPerson
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.Udef
+  - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.UtmParameters
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.WorkflowConnectedInfo
   langs:
   - csharp
@@ -594,6 +595,24 @@ items:
     content: WorkflowConnectedInfo = 134217728
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.UtmParameters
+  commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.UtmParameters
+  id: UtmParameters
+  parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
+  langs:
+  - csharp
+  - vb
+  name: UtmParameters
+  nameWithType: PersonExtenderBase.Features.UtmParameters
+  fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.UtmParameters
+  type: Field
+  assemblies:
+  - SoDataBase.BusinessLogic
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: UtmParameters = 268435456
+    return:
+      type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.All
   commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.All
   id: All
@@ -609,10 +628,10 @@ items:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: All = DeepContact | InfoText | Phones | Interests | Address | FindActivity | SearchPhone | SearchAddress | Associate | Consent | Saint | Request | ProjectMember | Appointment | Relation
+    content: All = DeepContact | InfoText | Phones | Interests | Address | FindActivity | SearchPhone | SearchAddress | Associate | Consent | Saint | Request | ProjectMember | Appointment | Relation | UtmParameters
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
-    content.vb: All = DeepContact Or InfoText Or Phones Or Interests Or Address Or FindActivity Or SearchPhone Or SearchAddress Or Associate Or Consent Or Saint Or Request Or ProjectMember Or Appointment Or Relation
+    content.vb: All = DeepContact Or InfoText Or Phones Or Interests Or Address Or FindActivity Or SearchPhone Or SearchAddress Or Associate Or Consent Or Saint Or Request Or ProjectMember Or Appointment Or Relation Or UtmParameters
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.Shallow
   commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.Shallow
   id: Shallow
@@ -628,10 +647,10 @@ items:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: Shallow = NoContactPrefix | Email | Phones | Interests | Address | SearchPhone | SearchAddress | Associate | SupportPerson | Saint
+    content: Shallow = NoContactPrefix | Email | Phones | Interests | Address | SearchPhone | SearchAddress | Associate | SupportPerson | Saint | UtmParameters
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
-    content.vb: Shallow = NoContactPrefix Or Email Or Phones Or Interests Or Address Or SearchPhone Or SearchAddress Or Associate Or SupportPerson Or Saint
+    content.vb: Shallow = NoContactPrefix Or Email Or Phones Or Interests Or Address Or SearchPhone Or SearchAddress Or Associate Or SupportPerson Or Saint Or UtmParameters
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.SelectionPerson
   commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.SelectionPerson
   id: SelectionPerson
@@ -647,10 +666,10 @@ items:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: SelectionPerson = NoContactPrefix | Phones | Interests | Address | NavigationLinks | Associate | PersonEmailInSelection | SupportPerson | Saint | Request | ProjectMember | Appointment | Relation
+    content: SelectionPerson = NoContactPrefix | Phones | Interests | Address | NavigationLinks | Associate | PersonEmailInSelection | SupportPerson | Saint | Request | ProjectMember | Appointment | Relation | UtmParameters
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
-    content.vb: SelectionPerson = NoContactPrefix Or Phones Or Interests Or Address Or NavigationLinks Or Associate Or PersonEmailInSelection Or SupportPerson Or Saint Or Request Or ProjectMember Or Appointment Or Relation
+    content.vb: SelectionPerson = NoContactPrefix Or Phones Or Interests Or Address Or NavigationLinks Or Associate Or PersonEmailInSelection Or SupportPerson Or Saint Or Request Or ProjectMember Or Appointment Or Relation Or UtmParameters
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.SelectionStaticPerson
   commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.SelectionStaticPerson
   id: SelectionStaticPerson
@@ -666,10 +685,10 @@ items:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: SelectionStaticPerson = ShallowContact | NoContactPrefix | Udef | InfoText | Phones | Interests | Address | NavigationLinks | ContactUdef | DisableOverlappingColumnsWithContact | Associate | ContactUrl | PersonEmailInSelection | ContactEmailInSelection | Consent | Saint | Request | ProjectMember | Appointment | Relation
+    content: SelectionStaticPerson = ShallowContact | NoContactPrefix | Udef | InfoText | Phones | Interests | Address | NavigationLinks | ContactUdef | DisableOverlappingColumnsWithContact | Associate | ContactUrl | PersonEmailInSelection | ContactEmailInSelection | Consent | Saint | Request | ProjectMember | Appointment | Relation | UtmParameters
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
-    content.vb: SelectionStaticPerson = ShallowContact Or NoContactPrefix Or Udef Or InfoText Or Phones Or Interests Or Address Or NavigationLinks Or ContactUdef Or DisableOverlappingColumnsWithContact Or Associate Or ContactUrl Or PersonEmailInSelection Or ContactEmailInSelection Or Consent Or Saint Or Request Or ProjectMember Or Appointment Or Relation
+    content.vb: SelectionStaticPerson = ShallowContact Or NoContactPrefix Or Udef Or InfoText Or Phones Or Interests Or Address Or NavigationLinks Or ContactUdef Or DisableOverlappingColumnsWithContact Or Associate Or ContactUrl Or PersonEmailInSelection Or ContactEmailInSelection Or Consent Or Saint Or Request Or ProjectMember Or Appointment Or Relation Or UtmParameters
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.NewSelectionPerson
   commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.NewSelectionPerson
   id: NewSelectionPerson
@@ -685,10 +704,10 @@ items:
   - SoDataBase.BusinessLogic
   namespace: SuperOffice.CRM.ArchiveLists
   syntax:
-    content: NewSelectionPerson = SelectionMemberInfo | SelectionStaticPerson | WorkflowConnectedInfo
+    content: NewSelectionPerson = SelectionMemberInfo | WorkflowConnectedInfo | SelectionStaticPerson
     return:
       type: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features
-    content.vb: NewSelectionPerson = SelectionMemberInfo Or SelectionStaticPerson Or WorkflowConnectedInfo
+    content.vb: NewSelectionPerson = SelectionMemberInfo Or WorkflowConnectedInfo Or SelectionStaticPerson
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.FindActivity
   commentId: F:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features.FindActivity
   id: FindActivity

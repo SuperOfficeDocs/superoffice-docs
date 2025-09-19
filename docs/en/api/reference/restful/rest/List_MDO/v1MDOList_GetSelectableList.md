@@ -31,8 +31,8 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=saepe
-GET /api/v1/MDOList/{listname}/selectable?flat=True
+GET /api/v1/MDOList/{listname}/selectable?additional=possimus
+GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
 
@@ -86,7 +86,7 @@ OK
 GET /api/v1/MDOList/{listname}/selectable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,56 +97,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 950,
-    "Name": "Terry, Feeney and Walter",
-    "ToolTip": "Vel dolores quibusdam.",
-    "Deleted": true,
-    "Rank": 317,
-    "Type": "nihil",
-    "ColorBlock": 596,
-    "IconHint": "libero",
+    "Id": 213,
+    "Name": "Haag, Weissnat and Cassin",
+    "ToolTip": "Suscipit autem temporibus et corrupti possimus modi.",
+    "Deleted": false,
+    "Rank": 556,
+    "Type": "veniam",
+    "ColorBlock": 648,
+    "IconHint": "dolor",
     "Selected": false,
-    "LastChanged": "2014-03-14T03:47:00.6755475+01:00",
+    "LastChanged": "2018-09-25T03:41:59.4336101+02:00",
     "ChildItems": [
       {
-        "Id": 285,
-        "Name": "Trantow-Kuphal",
-        "ToolTip": "Quibusdam in.",
+        "Id": 763,
+        "Name": "Ondricka LLC",
+        "ToolTip": "Dolores omnis.",
         "Deleted": false,
-        "Rank": 960,
-        "Type": "dolorum",
-        "ColorBlock": 543,
+        "Rank": 836,
+        "Type": "facere",
+        "ColorBlock": 85,
         "IconHint": "exercitationem",
         "Selected": true,
-        "LastChanged": "2013-07-15T03:47:00.6755475+02:00",
+        "LastChanged": "2000-11-05T03:41:59.4336101+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "qui",
+        "ExtraInfo": "fuga",
+        "StyleHint": "voluptatum",
         "Hidden": false,
-        "FullName": "Tessie D'Amore IV",
+        "FullName": "Haley Lehner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 430
+            "FieldType": "System.String",
+            "FieldLength": 338
           }
         }
       }
     ],
-    "ExtraInfo": "quibusdam",
-    "StyleHint": "provident",
-    "Hidden": false,
-    "FullName": "Randi Batz DDS",
+    "ExtraInfo": "delectus",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Ms. Nadia Kassulke II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 825
+        "FieldType": "System.Int32",
+        "FieldLength": 476
       }
     }
   }

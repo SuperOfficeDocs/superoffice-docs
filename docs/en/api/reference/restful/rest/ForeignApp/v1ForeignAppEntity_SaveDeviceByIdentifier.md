@@ -86,19 +86,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 348,
-  "Name": "Boyer, Kiehn and Bradtke",
-  "CreatedDate": "2004-08-15T03:47:00.0349452+02:00",
-  "UpdatedDate": "2001-05-18T03:47:00.0349452+02:00",
-  "AssociateFullName": "Rosalyn Luettgen",
-  "CreatedBy": "qui",
-  "UpdatedBy": "laborum",
-  "DeviceIdentifier": "praesentium",
-  "ForeignAppId": 814
+  "ForeignDeviceId": 845,
+  "Name": "West-Zboncak",
+  "CreatedDate": "2020-05-31T03:41:58.7617712+02:00",
+  "UpdatedDate": "2019-09-07T03:41:58.7617712+02:00",
+  "AssociateFullName": "Hiram Dooley",
+  "CreatedBy": "autem",
+  "UpdatedBy": "omnis",
+  "DeviceIdentifier": "molestias",
+  "ForeignAppId": 419
 }
 ```
 
@@ -109,21 +109,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 673,
-  "Name": "Bednar, Stokes and Monahan",
-  "CreatedDate": "2002-01-07T03:47:00.0349452+01:00",
-  "UpdatedDate": "2014-03-27T03:47:00.0349452+01:00",
-  "AssociateFullName": "Karson Camylle Deckow Sr.",
-  "CreatedBy": "rerum",
-  "UpdatedBy": "et",
-  "DeviceIdentifier": "in",
-  "ForeignAppId": 464,
+  "ForeignDeviceId": 295,
+  "Name": "Williamson, Considine and Roob",
+  "CreatedDate": "2005-02-18T03:41:58.7617712+01:00",
+  "UpdatedDate": "2005-11-15T03:41:58.7617712+01:00",
+  "AssociateFullName": "Ethyl Muller",
+  "CreatedBy": "fuga",
+  "UpdatedBy": "nisi",
+  "DeviceIdentifier": "id",
+  "ForeignAppId": 638,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 45
+      "FieldLength": 389
     }
   }
 }
