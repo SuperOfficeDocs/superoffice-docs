@@ -1,22 +1,8 @@
 ---
-uid: help-en-select-default-follow-up-type-for-status
-title: Select default follow-up type for status
-description: Select default follow-up type for status
-keywords: SAINT, activity monitor
-author: SuperOffice RnD
-date: 02.22.2023
-version: 9
-content_type: howto
-audience: settings
-audience_tooltip: Settings and maintenance
-language: en
-index: true
-redirect_from: /en/sale/saint/learn/admin/select-default-follow-up-type-for-status
+redirect_url: https://docs.superoffice.com/en/saint/admin/update.html
 ---
 
 # Select a default follow-up type for a status
-
-[!include[Requirement](../includes/note-saint-req.md)]
 
 ## Why set up a default follow-up type?
 
@@ -25,8 +11,6 @@ When you come across a company (contact or project) with a status that requires 
 ## Steps
 
 You can specify a default follow-up type and descriptive text to be displayed in SuperOffice CRM when the user clicks **Create follow-up** in the status dialog.
-
-1. [!include[Open SAINT](includes/open-saint-select-tab.md)]
 
 1. Select the required status in the status list on the left of the screen.
 

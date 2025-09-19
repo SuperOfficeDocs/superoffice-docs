@@ -2,7 +2,7 @@
 uid: help-de-saint-update
 title: Aktivitätsüberwachung aktualisieren
 description: Aktivitätsüberwachung aktualisieren
-keywords: SAINT, Aktivitätsüberwachung
+keywords: SAINT, Aktivitätsüberwachung, Standardfolgeaufgabe
 author: SuperOffice Product and Engineering
 date: 09.22.2025
 version: 10.5
@@ -14,6 +14,8 @@ index: true
 redirect_from: 
   - /de/sale/saint/learn/admin/edit-status
   - /de/saint/admin/edit-status
+  - /de/sale/saint/learn/admin/select-default-follow-up-type-for-status
+  - /de/saint/admin/select-default-follow-up-type-for-status
 ---
 
 # Aktivitätsüberwachung aktualisieren
@@ -32,7 +34,18 @@ Auf der Registerkarte **Beschreibung** wird die Beschreibung angezeigt, die Sie 
 
 1. Bearbeiten Sie den Text im Feld **Beschreibung**.
 
-## Aufgabe 2
+## Standardfolgeaufgabe für einen Status auswählen
+
+Sie können einen Folgeaufgabentyp zu einem Status verknüpfen. Wenn ein Benutzer in die Mitte der Statuskarte klickt, wird automatisch eine Folgeaufgabe geöffnet. Dies kann vorab ausgefüllten Text enthalten, der erklärt, welche Aktion für Firmen, Personen oder Projekte mit diesem Status zu ergreifen ist.
+
+Um einen Standard-Folgeaufgabentyp und eine Beschreibung festzulegen, verwenden Sie die Registerkarte **Folgeaufgabe erstellen**.
+
+1. Wählen Sie den gewünschten Status aus der Statusliste aus.
+1. Gehen Sie zur Registerkarte **Folgeaufgabe erstellen**.
+1. Wählen Sie einen Folgeaufgabentyp aus der Dropdown-Liste **Typ** aus.
+1. Geben Sie die Nachricht ein, die im Folgeaufgaben-Dialogfeld angezeigt werden soll.
+
+![Die Registerkarte 'Folgeaufgabe erstellen' in der SAINT-Statusüberwachung, die die Auswahl des Folgeaufgabentyps und die Eingabe einer benutzerdefinierten Nachricht zeigt. -screenshot][img1]
 
 ## Aufgabe 3
 
@@ -40,3 +53,4 @@ Auf der Registerkarte **Beschreibung** wird die Beschreibung angezeigt, die Sie 
 [1]: create-status.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/saint/saint-create-follow-up-tab.png

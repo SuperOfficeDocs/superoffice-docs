@@ -2,7 +2,7 @@
 uid: help-sv-saint-update
 title: Uppdatera aktivitetsövervakning
 description: Uppdatera aktivitetsövervakning
-keywords: SAINT, aktivitetsövervakning
+keywords: SAINT, aktivitetsövervakning, standardhändelsetyp
 author: SuperOffice Product and Engineering
 date: 09.22.2025
 version: 10.5
@@ -14,6 +14,8 @@ index: true
 redirect_from: 
   - /sv/sale/saint/learn/admin/edit-status
   - /sv/saint/admin/edit-status
+  - /sv/sale/saint/learn/admin/select-default-follow-up-type-for-status
+  - /sv/saint/admin/select-default-follow-up-type-for-status
 ---
 
 # Uppdatera aktivitetsövervakning
@@ -32,7 +34,18 @@ På fliken **Beskrivning** visas den beskrivning du angav när du [skapade statu
 
 1. Redigera texten på fliken **Beskrivning**.
 
-## Uppgift 2
+## Välja typ av standardhändelse för status
+
+Du kan koppla en händelsetyp till en status. När en användare klickar i mitten av statuskortet öppnas en händelse automatiskt. Detta kan inkludera förifylld text som förklarar vilken åtgärd som ska vidtas för företag, kontakter eller projekt med denna status.
+
+För att ange en standardhändelsetyp och beskrivning, använd fliken **Skapa händelse**.
+
+1. Välj önskad status i statuslistan.
+1. Gå till fliken **Skapa händelse**.
+1. Välj en händelsetyp från rullgardinsmenyn **Typ**.
+1. Ange meddelandet som ska visas i händelsedialogrutan.
+
+![Fliken 'Skapa händelse' i SAINT-statusövervakningen, som visar val av händelsetyp och inmatning av anpassat meddelande. -screenshot][img1]
 
 ## Uppgift 3
 
@@ -40,3 +53,4 @@ På fliken **Beskrivning** visas den beskrivning du angav när du [skapade statu
 [1]: create-status.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/loc/en/saint/saint-create-follow-up-tab.png
