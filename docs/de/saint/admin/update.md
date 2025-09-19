@@ -2,7 +2,7 @@
 uid: help-de-saint-update
 title: Aktivitätsüberwachung aktualisieren
 description: Aktivitätsüberwachung aktualisieren
-keywords: SAINT, Aktivitätsüberwachung, Standardfolgeaufgabe
+keywords: SAINT, Aktivitätsüberwachung, Standardfolgeaufgabe, Statusüberwachung löschen, Statusüberwachung wiederherstellen
 author: SuperOffice Product and Engineering
 date: 09.22.2025
 version: 10.5
@@ -16,6 +16,8 @@ redirect_from:
   - /de/saint/admin/edit-status
   - /de/sale/saint/learn/admin/select-default-follow-up-type-for-status
   - /de/saint/admin/select-default-follow-up-type-for-status
+  - /de/sale/saint/learn/admin/restore-status
+  - /de/saint/admin/restore-status
 ---
 
 # Aktivitätsüberwachung aktualisieren
@@ -47,10 +49,34 @@ Um einen Standard-Folgeaufgabentyp und eine Beschreibung festzulegen, verwenden 
 
 ![Die Registerkarte 'Folgeaufgabe erstellen' in der SAINT-Statusüberwachung, die die Auswahl des Folgeaufgabentyps und die Eingabe einer benutzerdefinierten Nachricht zeigt. -screenshot][img1]
 
-## Aufgabe 3
+## <a id="delete"></a>Eine Statusüberwachung löschen
+
+Sie können einen Status aus der Statusüberwachungsliste löschen. Gelöschte Statusangaben können später wiederhergestellt werden.
+
+1. Wählen Sie in der Statusliste den Status aus, den Sie löschen möchten.
+1. Klicken Sie unten in der Liste auf **Löschen**.
+
+Der gelöschte Status wird aus der aktiven Liste entfernt, kann aber durch Auswahl von **Gelöschte anzeigen** wieder angezeigt werden.
+
+## <a id="restore"></a>Eine gelöschte Statusüberwachung wiederherstellen
+
+Sie können einen zuvor gelöschten Status wiederherstellen und regenerieren.
+
+1. Wählen Sie unten in der Statusliste **Gelöschte anzeigen** aus.
+
+1. Doppelklicken Sie auf den Status, den Sie wiederherstellen möchten.
+
+    ![Statusüberwachungsdialog geöffnet nach Auswahl eines gelöschten Status, mit sichtbaren Schaltflächen Wiederherstellen und Speichern -screenshot][img2]
+
+1. Wählen Sie im Dialogfeld **Statusüberwachung** **Wiederherstellen** und dann **Speichern** aus.
+
+    Der Status wird wiederhergestellt und in schwarzer Schrift in der Liste angezeigt.
+
+1. Wählen Sie **Ausgewählte Statusüberwachung regenerieren** aus, um den wiederhergestellten Status zu aktualisieren.
 
 <!-- Referenced links -->
 [1]: create-status.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/saint/saint-create-follow-up-tab.png
+[img2]: ../../../media/loc/en/saint/delete-restore-status-monitor.png

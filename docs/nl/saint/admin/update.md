@@ -2,7 +2,7 @@
 uid: help-nl-saint-update
 title: Activiteitsmonitoring bijwerken
 description: Activiteitsmonitoring bijwerken
-keywords: SAINT, activiteitsmonitoring, standaard vervolgactiviteit
+keywords: SAINT, activiteitsmonitoring, standaard vervolgactiviteit, statusmonitoring verwijderen, statusmonitoring herstellen
 author: SuperOffice Product and Engineering
 date: 09.22.2025
 version: 10.5
@@ -16,6 +16,8 @@ redirect_from:
   - /nl/saint/admin/edit-status
   - /nl/sale/saint/learn/admin/select-default-follow-up-type-for-status
   - /nl/saint/admin/select-default-follow-up-type-for-status
+  - /nl/sale/saint/learn/admin/restore-status
+  - /nl/saint/admin/restore-status
 ---
 
 # Activiteitsmonitoring bijwerken
@@ -47,6 +49,31 @@ Om een standaard vervolgactiviteitstype en beschrijving op te geven, gebruikt u 
 
 ![Het tabblad 'Vervolgactiviteit maken' in de SAINT-statusmonitoring, dat de selectie van vervolgactiviteitstype en invoer van aangepast bericht toont. -screenshot][img1]
 
+## <a id="delete"></a>Een statusmonitoring verwijderen
+
+U kunt een status verwijderen uit de statusmonitoringlijst. Verwijderde statussen kunnen later worden hersteld.
+
+1. Selecteer in de statuslijst de status die u wilt verwijderen.
+1. Klik onderaan de lijst op **Verwijderen**.
+
+De verwijderde status wordt uit de actieve lijst verwijderd, maar kan opnieuw worden weergegeven door **Verwijderde items weergeven** te selecteren.
+
+## <a id="restore"></a>Een verwijderde statusmonitoring herstellen
+
+U kunt een eerder verwijderde status herstellen en regenereren.
+
+1. Selecteer onderaan de statuslijst **Verwijderde items weergeven**.
+
+1. Dubbelklik op de status die u wilt herstellen.
+
+    ![Statusmonitoringdialoog geopend na selectie van een verwijderde status, met zichtbare knoppen Herstellen en Opslaan -screenshot][img2]
+
+1. Selecteer in het dialoogvenster **Statusmonitoring** **Herstellen** en selecteer vervolgens **Opslaan**.
+
+    De status wordt hersteld en wordt met zwarte tekst in de lijst weergegeven.
+
+1. Selecteer **Geselecteerde statusmonitoring regenereren** om de herstelde status bij te werken.
+
 ## Taak 3
 
 <!-- Referenced links -->
@@ -54,3 +81,4 @@ Om een standaard vervolgactiviteitstype en beschrijving op te geven, gebruikt u 
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/saint/saint-create-follow-up-tab.png
+[img2]: ../../../media/loc/en/saint/delete-restore-status-monitor.png

@@ -2,7 +2,7 @@
 uid: help-da-saint-update
 title: Opdater aktivitetsovervågning
 description: Opdater aktivitetsovervågning
-keywords: SAINT, aktivitetsovervågning, standardopfølgningstype
+keywords: SAINT, aktivitetsovervågning, standardopfølgningstype, slet statusovervågning, gendan statusovervågning
 author: SuperOffice Product and Engineering
 date: 09.22.2025
 version: 10.5
@@ -16,6 +16,8 @@ redirect_from:
   - /da/saint/admin/edit-status
   - /da/sale/saint/learn/admin/select-default-follow-up-type-for-status
   - /da/saint/admin/select-default-follow-up-type-for-status
+  - /da/sale/saint/learn/admin/restore-status
+  - /da/saint/admin/restore-status
 ---
 
 # Opdater aktivitetsovervågning
@@ -47,10 +49,34 @@ For at angive en standardopfølgningstype og beskrivelse skal du bruge fanen **O
 
 ![Fanen 'Opret opfølgning' i SAINT-statusovervågningen, der viser valg af opfølgningstype og indtastning af tilpasset besked. -screenshot][img1]
 
-## Opgave 3
+## <a id="delete"></a>Slet en statusovervågning
+
+Du kan slette en status fra statusovervågningslisten. Slettede statusser kan gendannes senere.
+
+1. På statuslisten skal du vælge den status, du vil slette.
+1. Klik på **Slet** nederst på listen.
+
+Den slettede status fjernes fra den aktive liste, men kan vises igen ved at vælge **Vis slettede**.
+
+## <a id="restore"></a>Gendan en slettet statusovervågning
+
+Du kan gendanne en tidligere slettet status og regenerere den.
+
+1. Nederst på statuslisten skal du vælge **Vis slettede**.
+
+1. Dobbeltklik på den status, du vil gendanne.
+
+    ![Statusovervågningsdialog åben efter valg af en slettet status, med Gendan og Gem-knapper synlige -screenshot][img2]
+
+1. I dialogboksen **Statusovervågning** skal du vælge **Gendan** og derefter vælge **Gem**.
+
+    Statussen gendannes og vises med sort tekst på listen.
+
+1. Vælg **Regenerer valgt statusovervågning** for at opdatere den gendannede status.
 
 <!-- Referenced links -->
 [1]: create-status.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/saint/saint-create-follow-up-tab.png
+[img2]: ../../../media/loc/en/saint/delete-restore-status-monitor.png

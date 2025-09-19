@@ -2,7 +2,7 @@
 uid: help-sv-saint-update
 title: Uppdatera aktivitetsövervakning
 description: Uppdatera aktivitetsövervakning
-keywords: SAINT, aktivitetsövervakning, standardhändelsetyp
+keywords: SAINT, aktivitetsövervakning, standardhändelsetyp, ta bort statusövervakning, återställ statusövervakning
 author: SuperOffice Product and Engineering
 date: 09.22.2025
 version: 10.5
@@ -16,6 +16,8 @@ redirect_from:
   - /sv/saint/admin/edit-status
   - /sv/sale/saint/learn/admin/select-default-follow-up-type-for-status
   - /sv/saint/admin/select-default-follow-up-type-for-status
+  - /sv/sale/saint/learn/admin/restore-status
+  - /sv/saint/admin/restore-status
 ---
 
 # Uppdatera aktivitetsövervakning
@@ -47,10 +49,34 @@ För att ange en standardhändelsetyp och beskrivning, använd fliken **Skapa h�
 
 ![Fliken 'Skapa händelse' i SAINT-statusövervakningen, som visar val av händelsetyp och inmatning av anpassat meddelande. -screenshot][img1]
 
-## Uppgift 3
+## <a id="delete"></a>Ta bort en statusövervakning
+
+Du kan ta bort en status från statusövervakningslistan. Borttagna statusar kan återställas senare.
+
+1. I statuslistan väljer du den status du vill ta bort.
+1. Klicka på **Ta bort** längst ned i listan.
+
+Den borttagna statusen tas bort från den aktiva listan men kan visas igen genom att välja **Visa borttagna**.
+
+## <a id="restore"></a>Återställ en borttagen statusövervakning
+
+Du kan återställa en tidigare borttagen status och regenerera den.
+
+1. Längst ned i statuslistan väljer du **Visa borttagna**.
+
+1. Dubbelklicka på den status som du vill återställa.
+
+    ![Statusövervakningsdialogrutan öppen efter att ha valt en borttagen status, med knapparna Återställ och Spara synliga -screenshot][img2]
+
+1. I dialogrutan **Statusövervakning** väljer du **Återställ** och sedan **Spara**.
+
+    Statusen återställs och visas med svart text i listan.
+
+1. Välj **Regenerera vald statusövervakning** för att uppdatera den återställda statusen.
 
 <!-- Referenced links -->
 [1]: create-status.md
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/saint/saint-create-follow-up-tab.png
+[img2]: ../../../media/loc/en/saint/delete-restore-status-monitor.png
